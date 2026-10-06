@@ -1,0 +1,458 @@
+{
+  "name": "master_equation_b",
+  "parsed": {
+    "station": "master_equation",
+    "paper_uuid": "AX_GI_01_FL_01_GOD_AS_ROOT_f055954a",
+    "run_uuid": "deep-c4257a456793",
+    "master_equation_analysis": {
+      "references_master_equation": true,
+      "reference_spans": [
+        "S393: 9. The Master Equation -- the formal center"
+      ],
+      "relationship": "not_assessable",
+      "reason": "The paper references 'The Master Equation' only as a title in the Canon Reading Order (S393), identifying it as 'the formal center' of the framework. No mathematical expression, structure, or formal content of the master equation is stated, instantiated, approximated, or contradicted in this paper. The paper's own mathematical content is limited to quantitative empirical facts (E=mc^2, force ratios, cosmological constant tuning, Hubble tension) and a qualitative 24-step causal chain; none of these are presented as the master equation or as a derivation from it. Relationship cannot be assessed from the available text."
+    },
+    "equations": [
+      {
+        "equation_id": "eq-emc2-001",
+        "exact_expression": "E=mc^2",
+        "plain_meaning": "Mass and energy are interconvertible; the energy equivalent of a mass m is m times the square of the speed of light.",
+        "symbols": [
+          {
+            "symbol": "E",
+            "definition": "energy",
+            "units_or_type": "joules (J)",
+            "scope": "special relativity / mass-energy equivalence"
+          },
+          {
+            "symbol": "m",
+            "definition": "mass",
+            "units_or_type": "kilograms (kg)",
+            "scope": "special relativity / mass-energy equivalence"
+          },
+          {
+            "symbol": "c",
+            "definition": "speed of light in vacuum",
+            "units_or_type": "meters per second (m/s)",
+            "scope": "special relativity / mass-energy equivalence"
+          }
+        ],
+        "types_domain_codomain": "m: real scalar (mass) -> E: real scalar (energy)",
+        "units": "kg * (m/s)^2 = J",
+        "premises_and_boundary_conditions": "Special relativity; applies to massive bodies and rest energy; c is a universal constant. The paper cites it as operating for 4.6 billion years before Einstein formulated it (S357).",
+        "status": "checked",
+        "dimensional_check": "PASS",
+        "source_span": "S357",
+        "atom_uuids": [
+          "A10"
+        ]
+      },
+      {
+        "equation_id": "eq-gravity-em-ratio-001",
+        "exact_expression": "gravity is 10^36 weaker than electromagnetism",
+        "plain_meaning": "The strength of the gravitational force is approximately 10^36 times smaller than the strength of the electromagnetic force.",
+        "symbols": [
+          {
+            "symbol": "gravity strength",
+            "definition": "relative coupling strength of the gravitational force",
+            "units_or_type": "dimensionless ratio",
+            "scope": "fundamental force comparison"
+          },
+          {
+            "symbol": "EM strength",
+            "definition": "relative coupling strength of the electromagnetic force",
+            "units_or_type": "dimensionless ratio",
+            "scope": "fundamental force comparison"
+          }
+        ],
+        "types_domain_codomain": "dimensionless ratio",
+        "units": "dimensionless",
+        "premises_and_boundary_conditions": "Comparison of fundamental force coupling strengths; order-of-magnitude statement.",
+        "status": "proposed",
+        "dimensional_check": "PASS",
+        "source_span": "S132",
+        "atom_uuids": []
+      },
+      {
+        "equation_id": "eq-strong-em-ratio-001",
+        "exact_expression": "strong nuclear force is 137x stronger than electromagnetism",
+        "plain_meaning": "The strong nuclear force coupling strength is approximately 137 times that of the electromagnetic force.",
+        "symbols": [
+          {
+            "symbol": "strong force strength",
+            "definition": "relative coupling strength of the strong nuclear force",
+            "units_or_type": "dimensionless ratio",
+            "scope": "fundamental force comparison"
+          },
+          {
+            "symbol": "EM strength",
+            "definition": "relative coupling strength of the electromagnetic force",
+            "units_or_type": "dimensionless ratio",
+            "scope": "fundamental force comparison"
+          }
+        ],
+        "types_domain_codomain": "dimensionless ratio",
+        "units": "dimensionless",
+        "premises_and_boundary_conditions": "Comparison of fundamental force coupling strengths; 137 approximates 1/alpha (inverse fine-structure constant) at low energy.",
+        "status": "proposed",
+        "dimensional_check": "PASS",
+        "source_span": "S143",
+        "atom_uuids": []
+      },
+      {
+        "equation_id": "eq-cosmological-constant-tuning-001",
+        "exact_expression": "cosmological constant is tuned to 1 part in 10^120",
+        "plain_meaning": "The observed value of the cosmological constant is fine-tuned to within one part in 10^120 of a natural theoretical value.",
+        "symbols": [
+          {
+            "symbol": "cosmological constant",
+            "definition": "Lambda, the energy density of vacuum / dark energy",
+            "units_or_type": "1/m^2 (or energy density)",
+            "scope": "cosmology / general relativity"
+          },
+          {
+            "symbol": "tuning ratio",
+            "definition": "ratio of observed to natural value",
+            "units_or_type": "dimensionless",
+            "scope": "fine-tuning argument"
+          }
+        ],
+        "types_domain_codomain": "dimensionless ratio",
+        "units": "dimensionless",
+        "premises_and_boundary_conditions": "Fine-tuning claim; depends on choice of 'natural' theoretical value (e.g., Planck-scale vacuum energy).",
+        "status": "proposed",
+        "dimensional_check": "PASS",
+        "source_span": "S360",
+        "atom_uuids": [
+          "A11"
+        ]
+      },
+      {
+        "equation_id": "eq-hubble-tension-001",
+        "exact_expression": "5-sigma discrepancy",
+        "plain_meaning": "Two independent measurement methods for the universe's expansion rate disagree at the 5-sigma level of statistical significance.",
+        "symbols": [
+          {
+            "symbol": "sigma",
+            "definition": "standard deviation of the measurement discrepancy",
+            "units_or_type": "dimensionless (statistical)",
+            "scope": "Hubble tension"
+          },
+          {
+            "symbol": "H0",
+            "definition": "Hubble constant / expansion rate",
+            "units_or_type": "km/s/Mpc",
+            "scope": "cosmology"
+          }
+        ],
+        "types_domain_codomain": "statistical significance level",
+        "units": "dimensionless (sigma)",
+        "premises_and_boundary_conditions": "Comparison of early-universe (CMB) and late-universe (distance ladder) measurements of H0.",
+        "status": "proposed",
+        "dimensional_check": "PASS",
+        "source_span": "S365",
+        "atom_uuids": [
+          "A12"
+        ]
+      },
+      {
+        "equation_id": "eq-second-law-001",
+        "exact_expression": "entropy always increases in a closed system",
+        "plain_meaning": "In an isolated system, the total entropy (disorder) never decreases over time.",
+        "symbols": [
+          {
+            "symbol": "entropy",
+            "definition": "thermodynamic entropy S",
+            "units_or_type": "J/K",
+            "scope": "thermodynamics"
+          },
+          {
+            "symbol": "closed system",
+            "definition": "a system that exchanges no matter or energy with its surroundings",
+            "units_or_type": "system boundary condition",
+            "scope": "thermodynamics"
+          }
+        ],
+        "types_domain_codomain": "S: state function -> real scalar",
+        "units": "J/K",
+        "premises_and_boundary_conditions": "Applies to isolated/closed systems; statistical statement; local decreases possible in open systems.",
+        "status": "checked",
+        "dimensional_check": "PASS",
+        "source_span": "S164",
+        "atom_uuids": []
+      },
+      {
+        "equation_id": "eq-descent-chain-001",
+        "exact_expression": "God creates -> Creation stands -> What stands is distinguishable -> Distinction makes being intelligible -> What is intelligible carries information -> What carries information can stand in relation -> What can stand in relation can be kept or broken -> Therefore relation reveals value -> What has value can be regarded rightly or wrongly -> Thus value opens moral valence -> Moral valence makes right and wrong meaningful -> Right and wrong require agents who can choose -> Choice requires a world of rules, limits, time, and consequences -> Such a world permits decay, vulnerability, and loss -> Decay and vulnerability open the possibility of adversarial refusal of coherence -> The Enemy is that agency of refusal -> Adversarial action creates real debt, damage, and disorder -> Perfect Justice requires that this be truthfully answered and paid -> Perfect Mercy wills restoration rather than abandonment -> Justice and Mercy together require a cost-bearing source beyond the damaged order itself -> That source must preserve truth while making restoration possible -> That source is Grace -> Grace restores creation toward God -> Christ is the convergence point where justice, mercy, truth, and restoration meet",
+        "plain_meaning": "A 24-step qualitative causal chain from God's creation through distinction, information, relation, value, moral agency, choice, decay, adversarial refusal, debt, justice, mercy, grace, to Christ as the convergence point.",
+        "symbols": [
+          {
+            "symbol": "God",
+            "definition": "the Trinitarian ground axiom",
+            "units_or_type": "theological entity",
+            "scope": "theology"
+          },
+          {
+            "symbol": "Creation",
+            "definition": "the created order",
+            "units_or_type": "theological/physical",
+            "scope": "theology/cosmology"
+          },
+          {
+            "symbol": "distinction",
+            "definition": "the property that things are not identical",
+            "units_or_type": "logical/ontological",
+            "scope": "metaphysics"
+          },
+          {
+            "symbol": "information",
+            "definition": "intelligible content carried by a substrate",
+            "units_or_type": "bits (physical) / meaning (semantic)",
+            "scope": "information theory / theology"
+          },
+          {
+            "symbol": "relation",
+            "definition": "lawful interaction between distinguishable things",
+            "units_or_type": "ontological",
+            "scope": "metaphysics"
+          },
+          {
+            "symbol": "value",
+            "definition": "that which can be regarded rightly or wrongly",
+            "units_or_type": "axiological",
+            "scope": "ethics"
+          },
+          {
+            "symbol": "moral valence",
+            "definition": "the property of being right or wrong",
+            "units_or_type": "ethical",
+            "scope": "ethics"
+          },
+          {
+            "symbol": "agency",
+            "definition": "the capacity to choose",
+            "units_or_type": "volitional",
+            "scope": "theology/philosophy"
+          },
+          {
+            "symbol": "decay",
+            "definition": "entropic degradation",
+            "units_or_type": "thermodynamic",
+            "scope": "physics/theology"
+          },
+          {
+            "symbol": "adversarial refusal",
+            "definition": "the Enemy's rejection of coherence",
+            "units_or_type": "theological",
+            "scope": "theology"
+          },
+          {
+            "symbol": "debt",
+            "definition": "real damage and disorder requiring payment",
+            "units_or_type": "moral/ontological",
+            "scope": "theology"
+          },
+          {
+            "symbol": "Justice",
+            "definition": "the requirement that debt be truthfully answered and paid",
+            "units_or_type": "theological",
+            "scope": "theology"
+          },
+          {
+            "symbol": "Mercy",
+            "definition": "the will to restoration rather than abandonment",
+            "units_or_type": "theological",
+            "scope": "theology"
+          },
+          {
+            "symbol": "Grace",
+            "definition": "the cost-bearing source beyond the damaged order",
+            "units_or_type": "theological",
+            "scope": "theology"
+          },
+          {
+            "symbol": "Christ",
+            "definition": "the convergence point of justice, mercy, truth, and restoration",
+            "units_or_type": "theological",
+            "scope": "theology"
+          }
+        ],
+        "types_domain_codomain": "qualitative causal chain; no formal domain/codomain",
+        "units": "not applicable (qualitative)",
+        "premises_and_boundary_conditions": "Theological premises; no formal proof; presented as 'no premise smuggled, no step skipped' (S339-S340).",
+        "status": "proposed",
+        "dimensional_check": "NOT_APPLICABLE",
+        "source_span": "S315-S338",
+        "atom_uuids": [
+          "A06"
+        ]
+      },
+      {
+        "equation_id": "eq-necessary-ground-001",
+        "exact_expression": "1. Necessary -- it cannot not exist, or the system collapses. 2. Self-grounding -- it cannot depend on something else (infinite regress). 3. Origin of coherence -- it must be the source of truth, order, beauty, goodness, life. 4. Active -- passive maintenance is thermodynamically impossible (the Second Law). 5. Personal -- only persons can ground moral facts (moral realism).",
+        "plain_meaning": "Five required properties of the source that sustains the universe: necessary, self-grounding, origin of coherence, active, personal.",
+        "symbols": [
+          {
+            "symbol": "Necessary",
+            "definition": "cannot not exist",
+            "units_or_type": "modal property",
+            "scope": "metaphysics/theology"
+          },
+          {
+            "symbol": "Self-grounding",
+            "definition": "does not depend on something else",
+            "units_or_type": "ontological property",
+            "scope": "metaphysics/theology"
+          },
+          {
+            "symbol": "Origin of coherence",
+            "definition": "source of truth, order, beauty, goodness, life",
+            "units_or_type": "axiological/ontological",
+            "scope": "metaphysics/theology"
+          },
+          {
+            "symbol": "Active",
+            "definition": "not passively maintained; requires activity",
+            "units_or_type": "dynamic property",
+            "scope": "theology/physics"
+          },
+          {
+            "symbol": "Personal",
+            "definition": "capable of grounding moral facts",
+            "units_or_type": "personal property",
+            "scope": "theology/ethics"
+          }
+        ],
+        "types_domain_codomain": "set of properties of the ground of being",
+        "units": "not applicable",
+        "premises_and_boundary_conditions": "Theological/philosophical argument; the paper claims five mathematical proofs support it (S308, S402) but does not present them.",
+        "status": "proposed",
+        "dimensional_check": "NOT_APPLICABLE",
+        "source_span": "S293-S297",
+        "atom_uuids": [
+          "A05"
+        ]
+      },
+      {
+        "equation_id": "eq-axiom-count-001",
+        "exact_expression": "Set theory pays nine axioms. Peano arithmetic pays five. General relativity pays two postulates. This framework pays one.",
+        "plain_meaning": "Comparison of the number of foundational axioms/postulates in various formal systems versus the framework's single axiom (God).",
+        "symbols": [
+          {
+            "symbol": "axiom count",
+            "definition": "number of foundational assumptions",
+            "units_or_type": "integer",
+            "scope": "formal systems"
+          }
+        ],
+        "types_domain_codomain": "integer counts",
+        "units": "dimensionless",
+        "premises_and_boundary_conditions": "Counts depend on chosen axiomatization (e.g., ZFC has 9 axioms; Peano arithmetic has 5; GR has 2 postulates).",
+        "status": "proposed",
+        "dimensional_check": "PASS",
+        "source_span": "S011-S014",
+        "atom_uuids": []
+      }
+    ],
+    "symbol_dictionary": [
+      {
+        "symbol": "E",
+        "definition": "energy",
+        "scope": "special relativity",
+        "alternative_uses": [],
+        "definition_link": "eq-emc2-001"
+      },
+      {
+        "symbol": "m",
+        "definition": "mass",
+        "scope": "special relativity",
+        "alternative_uses": [],
+        "definition_link": "eq-emc2-001"
+      },
+      {
+        "symbol": "c",
+        "definition": "speed of light in vacuum",
+        "scope": "special relativity",
+        "alternative_uses": [],
+        "definition_link": "eq-emc2-001"
+      },
+      {
+        "symbol": "entropy",
+        "definition": "thermodynamic entropy S",
+        "scope": "thermodynamics",
+        "alternative_uses": [
+          "information entropy (Shannon)"
+        ],
+        "definition_link": "eq-second-law-001"
+      },
+      {
+        "symbol": "sigma",
+        "definition": "standard deviation / statistical significance",
+        "scope": "Hubble tension",
+        "alternative_uses": [
+          "cross-section (physics)"
+        ],
+        "definition_link": "eq-hubble-tension-001"
+      },
+      {
+        "symbol": "H0",
+        "definition": "Hubble constant / expansion rate",
+        "scope": "cosmology",
+        "alternative_uses": [],
+        "definition_link": "eq-hubble-tension-001"
+      },
+      {
+        "symbol": "agency",
+        "definition": "the capacity to choose; the repeated structural gap in the ten-law mapping",
+        "scope": "theology/philosophy",
+        "alternative_uses": [],
+        "definition_link": "eq-descent-chain-001"
+      },
+      {
+        "symbol": "God",
+        "definition": "the Trinitarian ground axiom; three persons in one being",
+        "scope": "theology",
+        "alternative_uses": [],
+        "definition_link": "eq-descent-chain-001"
+      },
+      {
+        "symbol": "Grace",
+        "definition": "the cost-bearing source beyond the damaged order; God's unmerited favor",
+        "scope": "theology",
+        "alternative_uses": [],
+        "definition_link": "eq-descent-chain-001"
+      },
+      {
+        "symbol": "Christ",
+        "definition": "the convergence point where justice, mercy, truth, and restoration meet",
+        "scope": "theology",
+        "alternative_uses": [],
+        "definition_link": "eq-descent-chain-001"
+      }
+    ],
+    "dimensional_issues": [],
+    "notes": "The paper is primarily theological/philosophical with embedded quantitative empirical claims. No formal master equation expression is given; the reference at S393 is a title only. The 24-step Descent chain is qualitative and not dimensionally checkable. The ten-law mapping table (S235-S245) is structural correspondence, not mathematical equations. The paper explicitly states its mathematical status as 'partially formalized' (S402) and names kill conditions (S225-S230)."
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "master_equation_b",
+      "attempt": 1,
+      "text": "{\n  \"station\": \"master_equation\",\n  \"paper_uuid\": \"AX_GI_01_FL_01_GOD_AS_ROOT_f055954a\",\n  \"run_uuid\": \"deep-c4257a456793\",\n  \"master_equation_analysis\": {\n    \"references_master_equation\": true,\n    \"reference_spans\": [\n      \"S393: 9. The Master Equation -- the formal center\"\n    ],\n    \"relationship\": \"not_assessable\",\n    \"reason\": \"The paper references 'The Master Equation' only as a title in the Canon Reading Order (S393), identifying it as 'the formal center' of the framework. No mathematical expression, structure, or formal content of the master equation is stated, instantiated, approximated, or contradicted in this paper. The paper's own mathematical content is limited to quantitative empirical facts (E=mc^2, force ratios, cosmological constant tuning, Hubble tension) and a qualitative 24-step causal chain; none of these are presented as the master equation or as a derivation from it. Relationship cannot be assessed from the available text.\"\n  },\n  \"equations\": [\n    {\n      \"equation_id\": \"eq-emc2-001\",\n      \"exact_expression\": \"E=mc^2\",\n      \"plain_meaning\": \"Mass and energy are interconvertible; the energy equivalent of a mass m is m times the square of the speed of light.\",\n      \"symbols\": [\n        {\"symbol\": \"E\", \"definition\": \"energy\", \"units_or_type\": \"joules (J)\", \"scope\": \"special relativity / mass-energy equivalence\"},\n        {\"symbol\": \"m\", \"definition\": \"mass\", \"units_or_type\": \"kilograms (kg)\", \"scope\": \"special relativity / mass-energy equivalence\"},\n        {\"symbol\": \"c\", \"definition\": \"speed of light in vacuum\", \"units_or_type\": \"meters per second (m/s)\", \"scope\": \"special relativity / mass-energy equivalence\"}\n      ],\n      \"types_domain_codomain\": \"m: real scalar (mass) -> E: real scalar (energy)\",\n      \"units\": \"kg * (m/s)^2 = J\",\n      \"premises_and_boundary_conditions\": \"Special relativity; applies to massive bodies and rest energy; c is a universal constant. The paper cites it as operating for 4.6 billion years before Einstein formulated it (S357).\",\n      \"status\": \"checked\",\n      \"dimensional_check\": \"PASS\",\n      \"source_span\": \"S357\",\n      \"atom_uuids\": [\"A10\"]\n    },\n    {\n      \"equation_id\": \"eq-gravity-em-ratio-001\",\n      \"exact_expression\": \"gravity is 10^36 weaker than electromagnetism\",\n      \"plain_meaning\": \"The strength of the gravitational force is approximately 10^36 times smaller than the strength of the electromagnetic force.\",\n      \"symbols\": [\n        {\"symbol\": \"gravity strength\", \"definition\": \"relative coupling strength of the gravitational force\", \"units_or_type\": \"dimensionless ratio\", \"scope\": \"fundamental force comparison\"},\n        {\"symbol\": \"EM strength\", \"definition\": \"relative coupling strength of the electromagnetic force\", \"units_or_type\": \"dimensionless ratio\", \"scope\": \"fundamental force comparison\"}\n      ],\n      \"types_domain_codomain\": \"dimensionless ratio\",\n      \"units\": \"dimensionless\",\n      \"premises_and_boundary_conditions\": \"Comparison of fundamental force coupling strengths; order-of-magnitude statement.\",\n      \"status\": \"proposed\",\n      \"dimensional_check\": \"PASS\",\n      \"source_span\": \"S132\",\n      \"atom_uuids\": []\n    },\n    {\n      \"equation_id\": \"eq-strong-em-ratio-001\",\n      \"exact_expression\": \"strong nuclear force is 137x stronger than electromagnetism\",\n      \"plain_meaning\": \"The strong nuclear force coupling strength is approximately 137 times that of the electromagnetic force.\",\n      \"symbols\": [\n        {\"symbol\": \"strong force strength\", \"definition\": \"relative coupling strength of the strong nuclear force\", \"units_or_type\": \"dimensionless ratio\", \"scope\": \"fundamental force comparison\"},\n        {\"symbol\": \"EM strength\", \"definition\": \"relative coupling strength of the electromagnetic force\", \"units_or_type\": \"dimensionless ratio\", \"scope\": \"fundamental force comparison\"}\n      ],\n      \"types_domain_codomain\": \"dimensionless ratio\",\n      \"units\": \"dimensionless\",\n      \"premises_and_boundary_conditions\": \"Comparison of fundamental force coupling strengths; 137 approximates 1/alpha (inverse fine-structure constant) at low energy.\",\n      \"status\": \"proposed\",\n      \"dimensional_check\": \"PASS\",\n      \"source_span\": \"S143\",\n      \"atom_uuids\": []\n    },\n    {\n      \"equation_id\": \"eq-cosmological-constant-tuning-001\",\n      \"exact_expression\": \"cosmological constant is tuned to 1 part in 10^120\",\n      \"plain_meaning\": \"The observed value of the cosmological constant is fine-tuned to within one part in 10^120 of a natural theoretical value.\",\n      \"symbols\": [\n        {\"symbol\": \"cosmological constant\", \"definition\": \"Lambda, the energy density of vacuum / dark energy\", \"units_or_type\": \"1/m^2 (or energy density)\", \"scope\": \"cosmology / general relativity\"},\n        {\"symbol\": \"tuning ratio\", \"definition\": \"ratio of observed to natural value\", \"units_or_type\": \"dimensionless\", \"scope\": \"fine-tuning argument\"}\n      ],\n      \"types_domain_codomain\": \"dimensionless ratio\",\n      \"units\": \"dimensionless\",\n      \"premises_and_boundary_conditions\": \"Fine-tuning claim; depends on choice of 'natural' theoretical value (e.g., Planck-scale vacuum energy).\",\n      \"status\": \"proposed\",\n      \"dimensional_check\": \"PASS\",\n      \"source_span\": \"S360\",\n      \"atom_uuids\": [\"A11\"]\n    },\n    {\n      \"equation_id\": \"eq-hubble-tension-001\",\n      \"exact_expression\": \"5-sigma discrepancy\",\n      \"plain_meaning\": \"Two independent measurement methods for the universe's expansion rate disagree at the 5-sigma level of statistical significance.\",\n      \"symbols\": [\n        {\"symbol\": \"sigma\", \"definition\": \"standard deviation of the measurement discrepancy\", \"units_or_type\": \"dimensionless (statistical)\", \"scope\": \"Hubble tension\"},\n        {\"symbol\": \"H0\", \"definition\": \"Hubble constant / expansion rate\", \"units_or_type\": \"km/s/Mpc\", \"scope\": \"cosmology\"}\n      ],\n      \"types_domain_codomain\": \"statistical significance level\",\n      \"units\": \"dimensionless (sigma)\",\n      \"premises_and_boundary_conditions\": \"Comparison of early-universe (CMB) and late-universe (distance ladder) measurements of H0.\",\n      \"status\": \"proposed\",\n      \"dimensional_check\": \"PASS\",\n      \"source_span\": \"S365\",\n      \"atom_uuids\": [\"A12\"]\n    },\n    {\n      \"equation_id\": \"eq-second-law-001\",\n      \"exact_expression\": \"entropy always increases in a closed system\",\n      \"plain_meaning\": \"In an isolated system, the total entropy (disorder) never decreases over time.\",\n      \"symbols\": [\n        {\"symbol\": \"entropy\", \"definition\": \"thermodynamic entropy S\", \"units_or_type\": \"J/K\", \"scope\": \"thermodynamics\"},\n        {\"symbol\": \"closed system\", \"definition\": \"a system that exchanges no matter or energy with its surroundings\", \"units_or_type\": \"system boundary condition\", \"scope\": \"thermodynamics\"}\n      ],\n      \"types_domain_codomain\": \"S: state function -> real scalar\",\n      \"units\": \"J/K\",\n      \"premises_and_boundary_conditions\": \"Applies to isolated/closed systems; statistical statement; local decreases possible in open systems.\",\n      \"status\": \"checked\",\n      \"dimensional_check\": \"PASS\",\n      \"source_span\": \"S164\",\n      \"atom_uuids\": []\n    },\n    {\n      \"equation_id\": \"eq-descent-chain-001\",\n      \"exact_expression\": \"God creates -> Creation stands -> What stands is distinguishable -> Distinction makes being intelligible -> What is intelligible carries information -> What carries information can stand in relation -> What can stand in relation can be kept or broken -> Therefore relation reveals value -> What has value can be regarded rightly or wrongly -> Thus value opens moral valence -> Moral valence makes right and wrong meaningful -> Right and wrong require agents who can choose -> Choice requires a world of rules, limits, time, and consequences -> Such a world permits decay, vulnerability, and loss -> Decay and vulnerability open the possibility of adversarial refusal of coherence -> The Enemy is that agency of refusal -> Adversarial action creates real debt, damage, and disorder -> Perfect Justice requires that this be truthfully answered and paid -> Perfect Mercy wills restoration rather than abandonment -> Justice and Mercy together require a cost-bearing source beyond the damaged order itself -> That source must preserve truth while making restoration possible -> That source is Grace -> Grace restores creation toward God -> Christ is the convergence point where justice, mercy, truth, and restoration meet\",\n      \"plain_meaning\": \"A 24-step qualitative causal chain from God's creation through distinction, information, relation, value, moral agency, choice, decay, adversarial refusal, debt, justice, mercy, grace, to Christ as the convergence point.\",\n      \"symbols\": [\n        {\"symbol\": \"God\", \"definition\": \"the Trinitarian ground axiom\", \"units_or_type\": \"theological entity\", \"scope\": \"theology\"},\n        {\"symbol\": \"Creation\", \"definition\": \"the created order\", \"units_or_type\": \"theological/physical\", \"scope\": \"theology/cosmology\"},\n        {\"symbol\": \"distinction\", \"definition\": \"the property that things are not identical\", \"units_or_type\": \"logical/ontological\", \"scope\": \"metaphysics\"},\n        {\"symbol\": \"information\", \"definition\": \"intelligible content carried by a substrate\", \"units_or_type\": \"bits (physical) / meaning (semantic)\", \"scope\": \"information theory / theology\"},\n        {\"symbol\": \"relation\", \"definition\": \"lawful interaction between distinguishable things\", \"units_or_type\": \"ontological\", \"scope\": \"metaphysics\"},\n        {\"symbol\": \"value\", \"definition\": \"that which can be regarded rightly or wrongly\", \"units_or_type\": \"axiological\", \"scope\": \"ethics\"},\n        {\"symbol\": \"moral valence\", \"definition\": \"the property of being right or wrong\", \"units_or_type\": \"ethical\", \"scope\": \"ethics\"},\n        {\"symbol\": \"agency\", \"definition\": \"the capacity to choose\", \"units_or_type\": \"volitional\", \"scope\": \"theology/philosophy\"},\n        {\"symbol\": \"decay\", \"definition\": \"entropic degradation\", \"units_or_type\": \"thermodynamic\", \"scope\": \"physics/theology\"},\n        {\"symbol\": \"adversarial refusal\", \"definition\": \"the Enemy's rejection of coherence\", \"units_or_type\": \"theological\", \"scope\": \"theology\"},\n        {\"symbol\": \"debt\", \"definition\": \"real damage and disorder requiring payment\", \"units_or_type\": \"moral/ontological\", \"scope\": \"theology\"},\n        {\"symbol\": \"Justice\", \"definition\": \"the requirement that debt be truthfully answered and paid\", \"units_or_type\": \"theological\", \"scope\": \"theology\"},\n        {\"symbol\": \"Mercy\", \"definition\": \"the will to restoration rather than abandonment\", \"units_or_type\": \"theological\", \"scope\": \"theology\"},\n        {\"symbol\": \"Grace\", \"definition\": \"the cost-bearing source beyond the damaged order\", \"units_or_type\": \"theological\", \"scope\": \"theology\"},\n        {\"symbol\": \"Christ\", \"definition\": \"the convergence point of justice, mercy, truth, and restoration\", \"units_or_type\": \"theological\", \"scope\": \"theology\"}\n      ],\n      \"types_domain_codomain\": \"qualitative causal chain; no formal domain/codomain\",\n      \"units\": \"not applicable (qualitative)\",\n      \"premises_and_boundary_conditions\": \"Theological premises; no formal proof; presented as 'no premise smuggled, no step skipped' (S339-S340).\",\n      \"status\": \"proposed\",\n      \"dimensional_check\": \"NOT_APPLICABLE\",\n      \"source_span\": \"S315-S338\",\n      \"atom_uuids\": [\"A06\"]\n    },\n    {\n      \"equation_id\": \"eq-necessary-ground-001\",\n      \"exact_expression\": \"1. Necessary -- it cannot not exist, or the system collapses. 2. Self-grounding -- it cannot depend on something else (infinite regress). 3. Origin of coherence -- it must be the source of truth, order, beauty, goodness, life. 4. Active -- passive maintenance is thermodynamically impossible (the Second Law). 5. Personal -- only persons can ground moral facts (moral realism).\",\n      \"plain_meaning\": \"Five required properties of the source that sustains the universe: necessary, self-grounding, origin of coherence, active, personal.\",\n      \"symbols\": [\n        {\"symbol\": \"Necessary\", \"definition\": \"cannot not exist\", \"units_or_type\": \"modal property\", \"scope\": \"metaphysics/theology\"},\n        {\"symbol\": \"Self-grounding\", \"definition\": \"does not depend on something else\", \"units_or_type\": \"ontological property\", \"scope\": \"metaphysics/theology\"},\n        {\"symbol\": \"Origin of coherence\", \"definition\": \"source of truth, order, beauty, goodness, life\", \"units_or_type\": \"axiological/ontological\", \"scope\": \"metaphysics/theology\"},\n        {\"symbol\": \"Active\", \"definition\": \"not passively maintained; requires activity\", \"units_or_type\": \"dynamic property\", \"scope\": \"theology/physics\"},\n        {\"symbol\": \"Personal\", \"definition\": \"capable of grounding moral facts\", \"units_or_type\": \"personal property\", \"scope\": \"theology/ethics\"}\n      ],\n      \"types_domain_codomain\": \"set of properties of the ground of being\",\n      \"units\": \"not applicable\",\n      \"premises_and_boundary_conditions\": \"Theological/philosophical argument; the paper claims five mathematical proofs support it (S308, S402) but does not present them.\",\n      \"status\": \"proposed\",\n      \"dimensional_check\": \"NOT_APPLICABLE\",\n      \"source_span\": \"S293-S297\",\n      \"atom_uuids\": [\"A05\"]\n    },\n    {\n      \"equation_id\": \"eq-axiom-count-001\",\n      \"exact_expression\": \"Set theory pays nine axioms. Peano arithmetic pays five. General relativity pays two postulates. This framework pays one.\",\n      \"plain_meaning\": \"Comparison of the number of foundational axioms/postulates in various formal systems versus the framework's single axiom (God).\",\n      \"symbols\": [\n        {\"symbol\": \"axiom count\", \"definition\": \"number of foundational assumptions\", \"units_or_type\": \"integer\", \"scope\": \"formal systems\"}\n      ],\n      \"types_domain_codomain\": \"integer counts\",\n      \"units\": \"dimensionless\",\n      \"premises_and_boundary_conditions\": \"Counts depend on chosen axiomatization (e.g., ZFC has 9 axioms; Peano arithmetic has 5; GR has 2 postulates).\",\n      \"status\": \"proposed\",\n      \"dimensional_check\": \"PASS\",\n      \"source_span\": \"S011-S014\",\n      \"atom_uuids\": []\n    }\n  ],\n  \"symbol_dictionary\": [\n    {\"symbol\": \"E\", \"definition\": \"energy\", \"scope\": \"special relativity\", \"alternative_uses\": [], \"definition_link\": \"eq-emc2-001\"},\n    {\"symbol\": \"m\", \"definition\": \"mass\", \"scope\": \"special relativity\", \"alternative_uses\": [], \"definition_link\": \"eq-emc2-001\"},\n    {\"symbol\": \"c\", \"definition\": \"speed of light in vacuum\", \"scope\": \"special relativity\", \"alternative_uses\": [], \"definition_link\": \"eq-emc2-001\"},\n    {\"symbol\": \"entropy\", \"definition\": \"thermodynamic entropy S\", \"scope\": \"thermodynamics\", \"alternative_uses\": [\"information entropy (Shannon)\"], \"definition_link\": \"eq-second-law-001\"},\n    {\"symbol\": \"sigma\", \"definition\": \"standard deviation / statistical significance\", \"scope\": \"Hubble tension\", \"alternative_uses\": [\"cross-section (physics)\"], \"definition_link\": \"eq-hubble-tension-001\"},\n    {\"symbol\": \"H0\", \"definition\": \"Hubble constant / expansion rate\", \"scope\": \"cosmology\", \"alternative_uses\": [], \"definition_link\": \"eq-hubble-tension-001\"},\n    {\"symbol\": \"agency\", \"definition\": \"the capacity to choose; the repeated structural gap in the ten-law mapping\", \"scope\": \"theology/philosophy\", \"alternative_uses\": [], \"definition_link\": \"eq-descent-chain-001\"},\n    {\"symbol\": \"God\", \"definition\": \"the Trinitarian ground axiom; three persons in one being\", \"scope\": \"theology\", \"alternative_uses\": [], \"definition_link\": \"eq-descent-chain-001\"},\n    {\"symbol\": \"Grace\", \"definition\": \"the cost-bearing source beyond the damaged order; God's unmerited favor\", \"scope\": \"theology\", \"alternative_uses\": [], \"definition_link\": \"eq-descent-chain-001\"},\n    {\"symbol\": \"Christ\", \"definition\": \"the convergence point where justice, mercy, truth, and restoration meet\", \"scope\": \"theology\", \"alternative_uses\": [], \"definition_link\": \"eq-descent-chain-001\"}\n  ],\n  \"dimensional_issues\": [],\n  \"notes\": \"The paper is primarily theological/philosophical with embedded quantitative empirical claims. No formal master equation expression is given; the reference at S393 is a title only. The 24-step Descent chain is qualitative and not dimensionally checkable. The ten-law mapping table (S235-S245) is structural correspondence, not mathematical equations. The paper explicitly states its mathematical status as 'partially formalized' (S402) and names kill conditions (S225-S230).\"\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 11138,
+      "completion_tokens": 4028,
+      "attempts": 1,
+      "elapsed_seconds": 15.28099999999904,
+      "started_at": "2026-09-27T13:00:05.189321+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T13:00:20.479531+00:00",
+      "tokens": 15166
+    }
+  ],
+  "prompt_sha256": "ef8862503033151c1e04ad52cbbb11e2bac7f8bc80e9e857925399de03f6fc12",
+  "tokens": 15166,
+  "reused": true
+}

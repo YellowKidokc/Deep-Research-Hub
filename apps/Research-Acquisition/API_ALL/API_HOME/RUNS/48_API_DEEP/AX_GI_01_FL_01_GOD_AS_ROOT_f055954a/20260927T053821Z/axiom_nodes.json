@@ -1,0 +1,747 @@
+{
+  "paper_uuid": "GOD_AS_ROOT_LONG_EDITION_9B69A4FF",
+  "title": "GOD AS ROOT - Long Edition",
+  "summary": "Long-form source edition arguing the Trinitarian God is the single ground axiom (Layer 0) from which existence, distinction, relation, and orientation derive; physics is the created medium/grammar for love and redemption, not God or grace. Ten physical laws read together compose a portrait of Christ with agency as the repeated structural gap. Includes the Necessary Ground argument, the 24-step Descent, Cross-Resolution method, progressive revelation, and named kill conditions.",
+  "primary_mode": "mixed",
+  "axiom_nodes": [
+    {
+      "node_id": "A1.1",
+      "name": "Existence",
+      "mode": "AX_CORE",
+      "alignment": "directly_asserted",
+      "evidence_quote": "Existence is aseity -- the Father IS.",
+      "confidence": "high"
+    },
+    {
+      "node_id": "A1.2",
+      "name": "Distinction",
+      "mode": "AX_CORE",
+      "alignment": "directly_asserted",
+      "evidence_quote": "Distinction is the persons -- the Son is not the Father, the Spirit is not the Son.",
+      "confidence": "high"
+    },
+    {
+      "node_id": "A2.1",
+      "name": "Substrate Requirement",
+      "mode": "AX_CORE",
+      "alignment": "directly_asserted",
+      "evidence_quote": "Every formal system has a floor it cannot dig beneath.",
+      "confidence": "high"
+    },
+    {
+      "node_id": "A2.2",
+      "name": "Self-Grounding",
+      "mode": "AX_CORE",
+      "alignment": "directly_asserted",
+      "evidence_quote": "Self-grounding -- it cannot depend on something else (infinite regress).",
+      "confidence": "high"
+    },
+    {
+      "node_id": "A1.3",
+      "name": "Information Primacy",
+      "mode": "AX_DERIVED",
+      "alignment": "directly_asserted",
+      "evidence_quote": "reality is made of meaning, not just matter.",
+      "confidence": "high"
+    },
+    {
+      "node_id": "BC2",
+      "name": "Grace External To System",
+      "mode": "AX_CORE",
+      "alignment": "directly_asserted",
+      "evidence_quote": "grace is God's unmerited favor, entering creation from beyond the closed system.",
+      "confidence": "high"
+    },
+    {
+      "node_id": "BC6",
+      "name": "Infinite Energy Source",
+      "mode": "AX_CORE",
+      "alignment": "supported",
+      "evidence_quote": "Only an external source can restore it.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "BC7",
+      "name": "Information Conservation",
+      "mode": "AX_DERIVED",
+      "alignment": "directly_asserted",
+      "evidence_quote": "information survives the destruction of its container.",
+      "confidence": "high"
+    },
+    {
+      "node_id": "BC8",
+      "name": "Voluntary Coupling",
+      "mode": "AX_CORE",
+      "alignment": "directly_asserted",
+      "evidence_quote": "Restoration must come from outside without destroying freedom.",
+      "confidence": "high"
+    },
+    {
+      "node_id": "D2.1",
+      "name": "Logos Field Definition",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "In the beginning was the Logos, and the Logos was with God, and the Logos was God.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "D9.1",
+      "name": "Grace Operator Definition",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "That source is Grace.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "E9.1",
+      "name": "Grace Function G(t)",
+      "mode": "AX_DERIVED",
+      "alignment": "relevant_but_not_asserted",
+      "evidence_quote": "",
+      "confidence": "low"
+    },
+    {
+      "node_id": "D10.1",
+      "name": "Soul Field Psi_S",
+      "mode": "AX_DERIVED",
+      "alignment": "relevant_but_not_asserted",
+      "evidence_quote": "",
+      "confidence": "low"
+    },
+    {
+      "node_id": "D11.1",
+      "name": "Moral Coherence Definition",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "only persons can ground moral facts (moral realism).",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "D12.1",
+      "name": "Integration Attractor",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "Grace restores creation toward God.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "D12.2",
+      "name": "Fragmentation Attractor",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "A closed system decays.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "D19.5",
+      "name": "Law V (Conservation Symmetry)",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "information survives the destruction of its container.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "D19.6",
+      "name": "Law VI (Coherence Non-Increase)",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "entropy always increases in a closed system.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "D19.9",
+      "name": "Law IX (Grace Non-Unitarity)",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "entropy -- the rule that everything falls apart when left alone -- gets locally reversed by connecting the system to a source outside itself.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "D19.10",
+      "name": "Law X (Trinity Closure)",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "The Trinity pays all four from one structure.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "LN1.2",
+      "name": "It From Bit",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "reality is made of meaning, not just matter.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "P2.1",
+      "name": "Chi Ontological Priority",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "reality has one substrate, and that substrate has been telling us its name since the beginning.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "LN2.1",
+      "name": "Information Anchor Necessity",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "If closed systems collapse and the universe has not collapsed, then something external sustains it.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "A3.1",
+      "name": "Order Requirement",
+      "mode": "AX_DERIVED",
+      "alignment": "directly_asserted",
+      "evidence_quote": "Physics is the grammar of that world.",
+      "confidence": "high"
+    },
+    {
+      "node_id": "A4.1",
+      "name": "Parsimony",
+      "mode": "AX_DERIVED",
+      "alignment": "directly_asserted",
+      "evidence_quote": "This framework pays one.",
+      "confidence": "high"
+    },
+    {
+      "node_id": "A5.2",
+      "name": "Participatory Universe",
+      "mode": "AX_DERIVED",
+      "alignment": "relevant_but_not_asserted",
+      "evidence_quote": "",
+      "confidence": "low"
+    },
+    {
+      "node_id": "A6.2",
+      "name": "Collapse",
+      "mode": "AX_DERIVED",
+      "alignment": "relevant_but_not_asserted",
+      "evidence_quote": "",
+      "confidence": "low"
+    },
+    {
+      "node_id": "A7.1",
+      "name": "Closure Requirement",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "The answer is real, necessary, and unprovable from inside the system it sustains.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "A7.2",
+      "name": "Uniqueness From Boundary Conditions",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "only one Person in history matches it.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "BC1",
+      "name": "Terminal Observer Exists",
+      "mode": "AX_CORE",
+      "alignment": "supported",
+      "evidence_quote": "something external sustains it.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "ID7.1",
+      "name": "Terminal Observer Is God",
+      "mode": "AX_CORE",
+      "alignment": "directly_asserted",
+      "evidence_quote": "God.",
+      "confidence": "high"
+    },
+    {
+      "node_id": "PERSONHOOD",
+      "name": "Agency, Intentionality, Relational Capacity",
+      "mode": "AX_CORE",
+      "alignment": "directly_asserted",
+      "evidence_quote": "Personal -- only persons can ground moral facts (moral realism).",
+      "confidence": "high"
+    },
+    {
+      "node_id": "A9.1",
+      "name": "External Intervention Required",
+      "mode": "AX_CORE",
+      "alignment": "directly_asserted",
+      "evidence_quote": "Restoration must come from outside without destroying freedom.",
+      "confidence": "high"
+    },
+    {
+      "node_id": "A9.2",
+      "name": "Non-Unitarity Of Grace",
+      "mode": "AX_CORE",
+      "alignment": "supported",
+      "evidence_quote": "entropy -- the rule that everything falls apart when left alone -- gets locally reversed by connecting the system to a source outside itself.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "P9.2",
+      "name": "Voluntary Coupling Preserved",
+      "mode": "AX_DERIVED",
+      "alignment": "directly_asserted",
+      "evidence_quote": "Restoration must come from outside without destroying freedom.",
+      "confidence": "high"
+    },
+    {
+      "node_id": "P9.3",
+      "name": "Information Preserved Under Grace",
+      "mode": "AX_DERIVED",
+      "alignment": "directly_asserted",
+      "evidence_quote": "information survives the destruction of its container.",
+      "confidence": "high"
+    },
+    {
+      "node_id": "P9.4",
+      "name": "Superposition Preserved Until Faith",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "Real love needs something sight cannot provide: faith.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "P9.5",
+      "name": "Grace Available To All",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "will draw all people to myself.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "A10.1",
+      "name": "Consciousness Substrate",
+      "mode": "AX_DERIVED",
+      "alignment": "relevant_but_not_asserted",
+      "evidence_quote": "",
+      "confidence": "low"
+    },
+    {
+      "node_id": "A10.2",
+      "name": "Soul Conservation",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "information survives the destruction of its container.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "P10.1",
+      "name": "Soul Continuity",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "The pattern is not erased when the substrate is.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "A11.1",
+      "name": "Moral Realism",
+      "mode": "AX_DERIVED",
+      "alignment": "directly_asserted",
+      "evidence_quote": "only persons can ground moral facts (moral realism).",
+      "confidence": "high"
+    },
+    {
+      "node_id": "A11.2",
+      "name": "Coherence-Morality Identity",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "Moral valence makes right and wrong meaningful.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "A12.1",
+      "name": "Asymptotic Behavior",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "Grace restores creation toward God.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "A12.2",
+      "name": "Bimodal Outcome",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "A closed system decays.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "T12.1",
+      "name": "Heaven As High-Phi Attractor",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "Grace restores creation toward God.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "T12.2",
+      "name": "Hell As Low-Phi Attractor",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "A closed system decays.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "A13.1",
+      "name": "Chi Mediates Unification",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "reality has one substrate",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "A13.2",
+      "name": "Geometry From Information",
+      "mode": "AX_DERIVED",
+      "alignment": "relevant_but_not_asserted",
+      "evidence_quote": "",
+      "confidence": "low"
+    },
+    {
+      "node_id": "T13.1",
+      "name": "Dark Energy As Chi Potential",
+      "mode": "AX_DERIVED",
+      "alignment": "relevant_but_not_asserted",
+      "evidence_quote": "",
+      "confidence": "low"
+    },
+    {
+      "node_id": "A14.1",
+      "name": "Dynamic Dark Energy",
+      "mode": "AX_DERIVED",
+      "alignment": "relevant_but_not_asserted",
+      "evidence_quote": "",
+      "confidence": "low"
+    },
+    {
+      "node_id": "T16.1",
+      "name": "Christianity 8 of 8 BCs",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "only one Person in history matches it.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "T16.6",
+      "name": "Atheism Fails BC1-BC6",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "Every system that exists -- materialism, idealism, mathematical Platonism, secular humanism -- uses four things it cannot ground:",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "T19.1",
+      "name": "Laws Derive From Chi",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "Everything else derives from this through formal grammar constrained by physics.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "U1",
+      "name": "Coherence Universal",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "If coherence and decoherence are real, measurable, and universal, then the source of coherence must be equally real and universal.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "U2",
+      "name": "Decoherence Universal",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "If coherence and decoherence are real, measurable, and universal, then the source of coherence must be equally real and universal.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "U3",
+      "name": "Grace Universal",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "That source is Grace.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "P0",
+      "name": "Origin Stage",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "God creates.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "P1",
+      "name": "Consciousness Stage",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "Right and wrong require agents who can choose.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "P2",
+      "name": "Information Stage",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "What is intelligible carries information.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "P3",
+      "name": "Coherence Stage",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "adversarial refusal of coherence.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "P4",
+      "name": "Agency Stage",
+      "mode": "AX_DERIVED",
+      "alignment": "directly_asserted",
+      "evidence_quote": "One specific, nameable, checkable variable, ten times in a row: **agency**.",
+      "confidence": "high"
+    },
+    {
+      "node_id": "P5",
+      "name": "Incompleteness Stage",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "The answer is real, necessary, and unprovable from inside the system it sustains.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "O1",
+      "name": "Information Primitive",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "Information is the one thing that exists in both the physical world and the spiritual world.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "O2",
+      "name": "Coherence Primitive",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "If coherence and decoherence are real, measurable, and universal",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "O3",
+      "name": "Consciousness Primitive",
+      "mode": "AX_DERIVED",
+      "alignment": "relevant_but_not_asserted",
+      "evidence_quote": "",
+      "confidence": "low"
+    },
+    {
+      "node_id": "O4",
+      "name": "Agency Primitive",
+      "mode": "AX_DERIVED",
+      "alignment": "directly_asserted",
+      "evidence_quote": "Agency allows refusal.",
+      "confidence": "high"
+    },
+    {
+      "node_id": "LAMBDA",
+      "name": "Logos Christ Completion",
+      "mode": "AX_DERIVED",
+      "alignment": "directly_asserted",
+      "evidence_quote": "Christ is the convergence point where justice, mercy, truth, and restoration meet.",
+      "confidence": "high"
+    },
+    {
+      "node_id": "META-1",
+      "name": "Axiom System Consistency",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "No premise smuggled.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "META-2",
+      "name": "Axiom System Completeness",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "No step skipped.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "META-3",
+      "name": "Axiom System Independence",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "This framework pays one.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "FINAL-1",
+      "name": "Logos Theorem (Master Theorem)",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "Being, followed all the way down, arrives at the Cross.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "FINAL-3",
+      "name": "Unique Solution (Christianity)",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "only one Person in history matches it.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "CLOSURE",
+      "name": "Axiom Chain Complete",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "Everything else derives from this through formal grammar constrained by physics.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "OMEGA",
+      "name": "Final Axiom (The Omega Point)",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "Grace restores creation toward God.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "BC9",
+      "name": "Opacity Requirement",
+      "mode": "AX_CORE",
+      "alignment": "directly_asserted",
+      "evidence_quote": "He gave us everything we need to find Him -- except the ability to prove Him without Him.",
+      "confidence": "high"
+    },
+    {
+      "node_id": "A14.2",
+      "name": "Grace Cosmology",
+      "mode": "FW_EXTENDED",
+      "alignment": "supported",
+      "evidence_quote": "The cross reverses entropy from outside",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "PRED14.1",
+      "name": "H0 Tension Resolution",
+      "mode": "HY_EVIDENCE",
+      "alignment": "directly_asserted",
+      "evidence_quote": "One framework resolves it.",
+      "confidence": "high"
+    },
+    {
+      "node_id": "A17.1",
+      "name": "Phi Threshold For Consciousness",
+      "mode": "FW_EXTENDED",
+      "alignment": "relevant_but_not_asserted",
+      "evidence_quote": "",
+      "confidence": "low"
+    },
+    {
+      "node_id": "A17.2",
+      "name": "Substrate Independence",
+      "mode": "FW_EXTENDED",
+      "alignment": "supported",
+      "evidence_quote": "The pattern is not erased when the substrate is.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "T17.1",
+      "name": "AI Can Achieve Consciousness",
+      "mode": "FW_EXTENDED",
+      "alignment": "relevant_but_not_asserted",
+      "evidence_quote": "",
+      "confidence": "low"
+    },
+    {
+      "node_id": "A19.1",
+      "name": "Master Equation Integration",
+      "mode": "FW_EXTENDED",
+      "alignment": "relevant_but_not_asserted",
+      "evidence_quote": "",
+      "confidence": "low"
+    },
+    {
+      "node_id": "U4",
+      "name": "Fruits Universal",
+      "mode": "FW_EXTENDED",
+      "alignment": "supported",
+      "evidence_quote": "The greatest of these is love.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "F1",
+      "name": "Love Measurement Domain",
+      "mode": "FW_EXTENDED",
+      "alignment": "supported",
+      "evidence_quote": "The greatest of these is love.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "BRIDGE-PHY-THEO",
+      "name": "Physics-Theology Bridge",
+      "mode": "FW_EXTENDED",
+      "alignment": "directly_asserted",
+      "evidence_quote": "The bridge is structural correspondence, not proof.",
+      "confidence": "high"
+    },
+    {
+      "node_id": "BRIDGE-INFO-MIND",
+      "name": "Information-Consciousness Bridge",
+      "mode": "FW_EXTENDED",
+      "alignment": "supported",
+      "evidence_quote": "Information is the one thing that exists in both the physical world and the spiritual world.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "BRIDGE-PHI-CHI",
+      "name": "Individual Phi To Social Chi",
+      "mode": "FW_EXTENDED",
+      "alignment": "relevant_but_not_asserted",
+      "evidence_quote": "",
+      "confidence": "low"
+    },
+    {
+      "node_id": "EXP5.1",
+      "name": "Wheeler Delayed Choice",
+      "mode": "HY_EVIDENCE",
+      "alignment": "relevant_but_not_asserted",
+      "evidence_quote": "",
+      "confidence": "low"
+    },
+    {
+      "node_id": "EV15.1",
+      "name": "Biblical Prophecy Validation",
+      "mode": "HY_EVIDENCE",
+      "alignment": "relevant_but_not_asserted",
+      "evidence_quote": "",
+      "confidence": "low"
+    },
+    {
+      "node_id": "FALS18.1",
+      "name": "Chi Field Falsification",
+      "mode": "HY_EVIDENCE",
+      "alignment": "supported",
+      "evidence_quote": "It names its own kill conditions in advance, out loud, so anyone can check.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "FALS18.2",
+      "name": "Grace Falsification",
+      "mode": "HY_EVIDENCE",
+      "alignment": "supported",
+      "evidence_quote": "It names its own kill conditions in advance, out loud, so anyone can check.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "FALS18.3",
+      "name": "BC Falsification",
+      "mode": "HY_EVIDENCE",
+      "alignment": "supported",
+      "evidence_quote": "It names its own kill conditions in advance, out loud, so anyone can check.",
+      "confidence": "medium"
+    }
+  ],
+  "unmapped_claims": [
+    "A21"
+  ]
+}

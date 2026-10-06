@@ -1,0 +1,112 @@
+{
+  "name": "master_equation_a2",
+  "parsed": {
+    "paper": "Resurrection Views Across the Theological Spectrum (Pt. 2) - Gary Habermas",
+    "equations_present": false,
+    "core_relation": {
+      "sentence": "The paper's argument is that scholarly citation practice—not the scholar's personal label—is what determines where a scholar stands on the resurrection, so the conclusion depends jointly on the ratio of critical citations to believing citations, the early dating of the creeds, and the charitable interpretation of context.",
+      "quote": "What I meant was I will cite the liberals over and over and over more times than I will cite believers. [S266]"
+    },
+    "product_test": {
+      "answer": "additive",
+      "quote": "I might cite man 60 times and the leading evangelical 22. [S270]",
+      "reason": "The paper's conclusion does not collapse if one ingredient is zero; Habermas explicitly says his claim is about relative frequency of citations, not an all-or-nothing condition. A single counterexample or a single missing category weakens but does not destroy the argument."
+    },
+    "slots": [
+      {
+        "slot": "G",
+        "plays_role": "The external body of scholarly literature (especially critical/skeptical sources) that supplies the negentropy for Habermas's argument; without these outside citations, the case has no independent support.",
+        "quote": "I have read way more material by unbelievers than I have by believers. [S248]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "M",
+        "plays_role": "Alignment between the scholar's stated position and the actual content of their citations; Habermas insists the two must match for the label to be meaningful.",
+        "quote": "Somebody else says I really don't believe in the resurrection. All right. You've already told me you're kind of on the left. [S066-S068]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "E",
+        "plays_role": "Fidelity of the quoted scholar's meaning as it survives transmission through citation, interview, and podcast paraphrase; the whole dispute is about whether Habermas's meaning survived.",
+        "quote": "If they were to say something that sounds like they let the cat out of the bag and the guy goes, 'No, what I meant was this.' [S105]",
+        "fit": "direct"
+      },
+      {
+        "slot": "S_eff",
+        "plays_role": "Misquotation, decontextualization, and scholarly noise that lower the coherence of the argument; the paper treats these as the entropy that must be overcome.",
+        "quote": "They just want to go off. [S322]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "T",
+        "plays_role": "The temporal distance between Jesus's death and the earliest creeds (30-50 AD) is the key variable that makes the testimony reliable.",
+        "quote": "33 to 48 is only 15 years. That's really But if you go with me with I'd say 30 to 50, that's 20 years. That's earlier than Mark, earlier in all the gospels. [S350-S352]",
+        "fit": "direct"
+      },
+      {
+        "slot": "K",
+        "plays_role": "The minimal facts and the creeds function as compressed, ordered summaries that preserve the core kerygma while filtering out later myth.",
+        "quote": "What keeps the creeds from being expanded until they become myth? [S401]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "R",
+        "plays_role": "The conversion/deconversion of scholars (e.g., Tony Flu, Jimmy Dunn, E.P. Sanders) represents a phase transition in the spectrum, not merely a degree change.",
+        "quote": "What about somebody who changes their views? The Tony of Oxford many years ago, Oxford student, he had become an atheist in his late teens. [S054-S055]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "Q",
+        "plays_role": "The unresolved status of scholars whose final views are unknown (e.g., Tony Flu) or who cross lines; Habermas refuses to close the question prematurely.",
+        "quote": "I don't know where he was at the end. That's another story I could talk about sometime. [S046-S047]",
+        "fit": "stretched"
+      },
+      {
+        "slot": "F",
+        "plays_role": "The non-local correlation between a scholar's citation pattern and their actual position; Habermas argues you can know where someone stands by reading their citations even without reading their mind.",
+        "quote": "I know where you are just by reading, but I'm not reading your mind. [S070]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "C",
+        "plays_role": "Habermas himself as the integrator who collects, counts, and interprets the citations across the spectrum.",
+        "quote": "I wrote the book. If you want to write it, you go write one. But I can tell you what I'm what I'm doing. [S307-S309]",
+        "fit": "direct"
+      }
+    ],
+    "breaks": [
+      "The paper treats the 'product' as a ratio of citations, which is additive in nature; there is no zero-collapse condition where one missing element destroys the whole argument.",
+      "The slot Q (superposition) is weakly present: Habermas mostly resolves the ambiguity rather than leaving it open, except for Tony Flu.",
+      "The slot S_eff (entropy) is not treated as a factor that lowers coherence in a multiplicative sense; it is more of a rhetorical obstacle.",
+      "The paper adds an 'extra factor' not in the master equation: the distinction between a scholar's self-label and their actual position, which Habermas treats as the key methodological move."
+    ],
+    "extra_factors": [
+      "The self-label vs. actual-position distinction (e.g., E.P. Sanders calling himself a liberal while affirming the resurrection appearances) is a factor the paper adds that has no direct slot in the master equation.",
+      "The 'principle of charity' as a hermeneutical requirement is a factor not captured by any of the ten slots."
+    ],
+    "analog_strength": 2,
+    "confidence": "medium",
+    "one_line": "The paper is an analogy proposal: its core relation is a citation-ratio argument about scholarly positions on the resurrection, which maps to the master equation only loosely because the logic is additive rather than multiplicative, and several slots are stretched or absent."
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "master_equation_a2",
+      "attempt": 1,
+      "text": "{\n  \"paper\": \"Resurrection Views Across the Theological Spectrum (Pt. 2) - Gary Habermas\",\n  \"equations_present\": false,\n  \"core_relation\": {\n    \"sentence\": \"The paper's argument is that scholarly citation practice—not the scholar's personal label—is what determines where a scholar stands on the resurrection, so the conclusion depends jointly on the ratio of critical citations to believing citations, the early dating of the creeds, and the charitable interpretation of context.\",\n    \"quote\": \"What I meant was I will cite the liberals over and over and over more times than I will cite believers. [S266]\"\n  },\n  \"product_test\": {\n    \"answer\": \"additive\",\n    \"quote\": \"I might cite man 60 times and the leading evangelical 22. [S270]\",\n    \"reason\": \"The paper's conclusion does not collapse if one ingredient is zero; Habermas explicitly says his claim is about relative frequency of citations, not an all-or-nothing condition. A single counterexample or a single missing category weakens but does not destroy the argument.\"\n  },\n  \"slots\": [\n    {\n      \"slot\": \"G\",\n      \"plays_role\": \"The external body of scholarly literature (especially critical/skeptical sources) that supplies the negentropy for Habermas's argument; without these outside citations, the case has no independent support.\",\n      \"quote\": \"I have read way more material by unbelievers than I have by believers. [S248]\",\n      \"fit\": \"analogous\"\n    },\n    {\n      \"slot\": \"M\",\n      \"plays_role\": \"Alignment between the scholar's stated position and the actual content of their citations; Habermas insists the two must match for the label to be meaningful.\",\n      \"quote\": \"Somebody else says I really don't believe in the resurrection. All right. You've already told me you're kind of on the left. [S066-S068]\",\n      \"fit\": \"analogous\"\n    },\n    {\n      \"slot\": \"E\",\n      \"plays_role\": \"Fidelity of the quoted scholar's meaning as it survives transmission through citation, interview, and podcast paraphrase; the whole dispute is about whether Habermas's meaning survived.\",\n      \"quote\": \"If they were to say something that sounds like they let the cat out of the bag and the guy goes, 'No, what I meant was this.' [S105]\",\n      \"fit\": \"direct\"\n    },\n    {\n      \"slot\": \"S_eff\",\n      \"plays_role\": \"Misquotation, decontextualization, and scholarly noise that lower the coherence of the argument; the paper treats these as the entropy that must be overcome.\",\n      \"quote\": \"They just want to go off. [S322]\",\n      \"fit\": \"analogous\"\n    },\n    {\n      \"slot\": \"T\",\n      \"plays_role\": \"The temporal distance between Jesus's death and the earliest creeds (30-50 AD) is the key variable that makes the testimony reliable.\",\n      \"quote\": \"33 to 48 is only 15 years. That's really But if you go with me with I'd say 30 to 50, that's 20 years. That's earlier than Mark, earlier in all the gospels. [S350-S352]\",\n      \"fit\": \"direct\"\n    },\n    {\n      \"slot\": \"K\",\n      \"plays_role\": \"The minimal facts and the creeds function as compressed, ordered summaries that preserve the core kerygma while filtering out later myth.\",\n      \"quote\": \"What keeps the creeds from being expanded until they become myth? [S401]\",\n      \"fit\": \"analogous\"\n    },\n    {\n      \"slot\": \"R\",\n      \"plays_role\": \"The conversion/deconversion of scholars (e.g., Tony Flu, Jimmy Dunn, E.P. Sanders) represents a phase transition in the spectrum, not merely a degree change.\",\n      \"quote\": \"What about somebody who changes their views? The Tony of Oxford many years ago, Oxford student, he had become an atheist in his late teens. [S054-S055]\",\n      \"fit\": \"analogous\"\n    },\n    {\n      \"slot\": \"Q\",\n      \"plays_role\": \"The unresolved status of scholars whose final views are unknown (e.g., Tony Flu) or who cross lines; Habermas refuses to close the question prematurely.\",\n      \"quote\": \"I don't know where he was at the end. That's another story I could talk about sometime. [S046-S047]\",\n      \"fit\": \"stretched\"\n    },\n    {\n      \"slot\": \"F\",\n      \"plays_role\": \"The non-local correlation between a scholar's citation pattern and their actual position; Habermas argues you can know where someone stands by reading their citations even without reading their mind.\",\n      \"quote\": \"I know where you are just by reading, but I'm not reading your mind. [S070]\",\n      \"fit\": \"analogous\"\n    },\n    {\n      \"slot\": \"C\",\n      \"plays_role\": \"Habermas himself as the integrator who collects, counts, and interprets the citations across the spectrum.\",\n      \"quote\": \"I wrote the book. If you want to write it, you go write one. But I can tell you what I'm what I'm doing. [S307-S309]\",\n      \"fit\": \"direct\"\n    }\n  ],\n  \"breaks\": [\n    \"The paper treats the 'product' as a ratio of citations, which is additive in nature; there is no zero-collapse condition where one missing element destroys the whole argument.\",\n    \"The slot Q (superposition) is weakly present: Habermas mostly resolves the ambiguity rather than leaving it open, except for Tony Flu.\",\n    \"The slot S_eff (entropy) is not treated as a factor that lowers coherence in a multiplicative sense; it is more of a rhetorical obstacle.\",\n    \"The paper adds an 'extra factor' not in the master equation: the distinction between a scholar's self-label and their actual position, which Habermas treats as the key methodological move.\"\n  ],\n  \"extra_factors\": [\n    \"The self-label vs. actual-position distinction (e.g., E.P. Sanders calling himself a liberal while affirming the resurrection appearances) is a factor the paper adds that has no direct slot in the master equation.\",\n    \"The 'principle of charity' as a hermeneutical requirement is a factor not captured by any of the ten slots.\"\n  ],\n  \"analog_strength\": 2,\n  \"confidence\": \"medium\",\n  \"one_line\": \"The paper is an analogy proposal: its core relation is a citation-ratio argument about scholarly positions on the resurrection, which maps to the master equation only loosely because the logic is additive rather than multiplicative, and several slots are stretched or absent.\"\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 12637,
+      "completion_tokens": 1470,
+      "attempts": 1,
+      "elapsed_seconds": 7.937999999994645,
+      "started_at": "2026-09-27T13:58:00.118364+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T13:58:08.063645+00:00",
+      "tokens": 14107
+    }
+  ],
+  "prompt_sha256": "cfe1a98b967a609dd224b08c0ee9592c22b9a66f4a24d776b49ad2bbcc1871f7",
+  "tokens": 14107
+}

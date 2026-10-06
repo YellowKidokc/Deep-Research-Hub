@@ -1,0 +1,146 @@
+{
+  "name": "coherence",
+  "parsed": {
+    "station": "coherence_score",
+    "paper_uuid": "AX_GI_03_FL_01_I_AM_THE_ROOT_SPEAKS_7c196c27",
+    "run_uuid": "deep-e6a4c3654f49",
+    "overall": {
+      "score": 8.5,
+      "score_ceiling": 10,
+      "status": "ASSESSED",
+      "summary": "The paper maintains strong internal coherence, clearly distinguishing disclosure from discovery while integrating them through a convergent framework, with only minor unresolved tensions regarding the relationship between revelation and reason."
+    },
+    "dimensions": [
+      {
+        "name": "internal_consistency",
+        "score": 9,
+        "reasons": [
+          "The central claim that God has spoken (A01, S003) is consistently maintained throughout, with no contradictory statements.",
+          "The distinction between disclosure and discovery (A04, S064-S066) is upheld without collapsing one into the other, as seen in S062-S063.",
+          "The paper acknowledges potential objections (A10, A11) and integrates them without undermining its core thesis (S112-S116).",
+          "The use of the 'I AM' language for both God (A02, S016-S017) and Jesus (A03, S071-S078) is presented as consistent identity language, not a contradiction."
+        ],
+        "affected_atom_uuids": [
+          "A01",
+          "A02",
+          "A03",
+          "A04",
+          "A05",
+          "A06",
+          "A10",
+          "A11"
+        ]
+      },
+      {
+        "name": "definitional_stability",
+        "score": 8,
+        "reasons": [
+          "Key terms like 'disclosure' and 'discovery' are clearly defined through the bridge (A07, S064-S066) and the child-father analogy (A14, S050-S056).",
+          "The concept of 'the root' is consistently used to refer to God as the ultimate source (A02, S020-S023).",
+          "However, the term 'revelation' is used without a formal definition, though its meaning is contextually clear (S047, S112).",
+          "The phrase 'identity language' (A03, S088) is introduced but not explicitly defined, relying on examples for clarity."
+        ],
+        "affected_atom_uuids": [
+          "A02",
+          "A03",
+          "A04",
+          "A07",
+          "A14"
+        ]
+      },
+      {
+        "name": "inferential_connectedness",
+        "score": 8.5,
+        "reasons": [
+          "The paper builds a coherent argument from the premise that God is the root (A02) to the conclusion that He has spoken (A01, A05).",
+          "The bridge between disclosure and discovery (A07) logically connects the two modes of knowledge (S064-S066).",
+          "The prediction of convergence (A12, S128) follows naturally from the claim that God is both creator and revealer.",
+          "The objection that revelation can be misunderstood (A11) is addressed by acknowledging the need for interpretation and investigation (S112-S116), maintaining inferential flow."
+        ],
+        "affected_atom_uuids": [
+          "A01",
+          "A02",
+          "A05",
+          "A07",
+          "A11",
+          "A12"
+        ]
+      },
+      {
+        "name": "register_boundary_respect",
+        "score": 9,
+        "reasons": [
+          "The paper clearly distinguishes between the register of disclosure (what God says) and discovery (what we infer), as seen in S064-S066.",
+          "It respects the boundary by not claiming that discovery can replace disclosure or vice versa (S062-S063).",
+          "The skeptic's objection (A10) is handled by clarifying that the paper is not arguing from biblical authority to truth (S120-S124), thus respecting the boundary between testimony and proof.",
+          "The paper explicitly states that the disclosed portrait can be stated before it is proven (A06, S126), maintaining a clear boundary between description and justification."
+        ],
+        "affected_atom_uuids": [
+          "A04",
+          "A06",
+          "A07",
+          "A10"
+        ]
+      }
+    ],
+    "contradictions": [],
+    "tensions": [
+      {
+        "atoms": [
+          "A04",
+          "A12"
+        ],
+        "description": "The paper asserts that disclosure and discovery are distinct but convergent (A04), and predicts they will converge if Christianity is true (A12). However, it does not fully specify how to adjudicate cases where they appear to conflict, leaving a tension between the ideal of convergence and the reality of potential disagreement.",
+        "severity": "local"
+      },
+      {
+        "atoms": [
+          "A05",
+          "A11"
+        ],
+        "description": "The claim that Christianity is built on disclosure (A05) is held alongside the acknowledgment that revelation can be misunderstood or false (A11). This creates a tension regarding how one can reliably identify true disclosure, which the paper addresses only partially by noting the need for interpretation and investigation (S112-S116).",
+        "severity": "local"
+      }
+    ],
+    "missing_definitions": [
+      {
+        "term": "revelation",
+        "context": "Used in S047, S112, but not formally defined. It is implicitly understood as God's self-disclosure, but a precise definition would enhance clarity.",
+        "affected_atom_uuids": [
+          "A05",
+          "A11"
+        ]
+      },
+      {
+        "term": "identity language",
+        "context": "Introduced in A03 and S088, but not defined. It refers to Jesus using 'I am' statements to claim divine identity, but the criteria for what counts as identity language are not specified.",
+        "affected_atom_uuids": [
+          "A03"
+        ]
+      }
+    ],
+    "notes": "The paper demonstrates high coherence, with a clear and consistent thesis. The tensions identified are minor and do not undermine the overall argument. The missing definitions are open items that could be addressed in future revisions but do not currently impede understanding."
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "coherence",
+      "attempt": 1,
+      "text": "{\n  \"station\": \"coherence_score\",\n  \"paper_uuid\": \"AX_GI_03_FL_01_I_AM_THE_ROOT_SPEAKS_7c196c27\",\n  \"run_uuid\": \"deep-e6a4c3654f49\",\n  \"overall\": {\n    \"score\": 8.5,\n    \"score_ceiling\": 10,\n    \"status\": \"ASSESSED\",\n    \"summary\": \"The paper maintains strong internal coherence, clearly distinguishing disclosure from discovery while integrating them through a convergent framework, with only minor unresolved tensions regarding the relationship between revelation and reason.\"\n  },\n  \"dimensions\": [\n    {\n      \"name\": \"internal_consistency\",\n      \"score\": 9,\n      \"reasons\": [\n        \"The central claim that God has spoken (A01, S003) is consistently maintained throughout, with no contradictory statements.\",\n        \"The distinction between disclosure and discovery (A04, S064-S066) is upheld without collapsing one into the other, as seen in S062-S063.\",\n        \"The paper acknowledges potential objections (A10, A11) and integrates them without undermining its core thesis (S112-S116).\",\n        \"The use of the 'I AM' language for both God (A02, S016-S017) and Jesus (A03, S071-S078) is presented as consistent identity language, not a contradiction.\"\n      ],\n      \"affected_atom_uuids\": [\"A01\", \"A02\", \"A03\", \"A04\", \"A05\", \"A06\", \"A10\", \"A11\"]\n    },\n    {\n      \"name\": \"definitional_stability\",\n      \"score\": 8,\n      \"reasons\": [\n        \"Key terms like 'disclosure' and 'discovery' are clearly defined through the bridge (A07, S064-S066) and the child-father analogy (A14, S050-S056).\",\n        \"The concept of 'the root' is consistently used to refer to God as the ultimate source (A02, S020-S023).\",\n        \"However, the term 'revelation' is used without a formal definition, though its meaning is contextually clear (S047, S112).\",\n        \"The phrase 'identity language' (A03, S088) is introduced but not explicitly defined, relying on examples for clarity.\"\n      ],\n      \"affected_atom_uuids\": [\"A02\", \"A03\", \"A04\", \"A07\", \"A14\"]\n    },\n    {\n      \"name\": \"inferential_connectedness\",\n      \"score\": 8.5,\n      \"reasons\": [\n        \"The paper builds a coherent argument from the premise that God is the root (A02) to the conclusion that He has spoken (A01, A05).\",\n        \"The bridge between disclosure and discovery (A07) logically connects the two modes of knowledge (S064-S066).\",\n        \"The prediction of convergence (A12, S128) follows naturally from the claim that God is both creator and revealer.\",\n        \"The objection that revelation can be misunderstood (A11) is addressed by acknowledging the need for interpretation and investigation (S112-S116), maintaining inferential flow.\"\n      ],\n      \"affected_atom_uuids\": [\"A01\", \"A02\", \"A05\", \"A07\", \"A11\", \"A12\"]\n    },\n    {\n      \"name\": \"register_boundary_respect\",\n      \"score\": 9,\n      \"reasons\": [\n        \"The paper clearly distinguishes between the register of disclosure (what God says) and discovery (what we infer), as seen in S064-S066.\",\n        \"It respects the boundary by not claiming that discovery can replace disclosure or vice versa (S062-S063).\",\n        \"The skeptic's objection (A10) is handled by clarifying that the paper is not arguing from biblical authority to truth (S120-S124), thus respecting the boundary between testimony and proof.\",\n        \"The paper explicitly states that the disclosed portrait can be stated before it is proven (A06, S126), maintaining a clear boundary between description and justification.\"\n      ],\n      \"affected_atom_uuids\": [\"A04\", \"A06\", \"A07\", \"A10\"]\n    }\n  ],\n  \"contradictions\": [],\n  \"tensions\": [\n    {\n      \"atoms\": [\"A04\", \"A12\"],\n      \"description\": \"The paper asserts that disclosure and discovery are distinct but convergent (A04), and predicts they will converge if Christianity is true (A12). However, it does not fully specify how to adjudicate cases where they appear to conflict, leaving a tension between the ideal of convergence and the reality of potential disagreement.\",\n      \"severity\": \"local\"\n    },\n    {\n      \"atoms\": [\"A05\", \"A11\"],\n      \"description\": \"The claim that Christianity is built on disclosure (A05) is held alongside the acknowledgment that revelation can be misunderstood or false (A11). This creates a tension regarding how one can reliably identify true disclosure, which the paper addresses only partially by noting the need for interpretation and investigation (S112-S116).\",\n      \"severity\": \"local\"\n    }\n  ],\n  \"missing_definitions\": [\n    {\n      \"term\": \"revelation\",\n      \"context\": \"Used in S047, S112, but not formally defined. It is implicitly understood as God's self-disclosure, but a precise definition would enhance clarity.\",\n      \"affected_atom_uuids\": [\"A05\", \"A11\"]\n    },\n    {\n      \"term\": \"identity language\",\n      \"context\": \"Introduced in A03 and S088, but not defined. It refers to Jesus using 'I am' statements to claim divine identity, but the criteria for what counts as identity language are not specified.\",\n      \"affected_atom_uuids\": [\"A03\"]\n    }\n  ],\n  \"notes\": \"The paper demonstrates high coherence, with a clear and consistent thesis. The tensions identified are minor and do not undermine the overall argument. The missing definitions are open items that could be addressed in future revisions but do not currently impede understanding.\"\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 3452,
+      "completion_tokens": 1306,
+      "attempts": 1,
+      "elapsed_seconds": 6.546999999998661,
+      "started_at": "2026-09-27T13:00:34.488173+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T13:00:41.044090+00:00",
+      "tokens": 4758
+    }
+  ],
+  "prompt_sha256": "48a931dca9eaff6a5adea9c6f84615d997032b6fc05cb7b26ded89b375999fdc",
+  "tokens": 4758,
+  "reused": true
+}

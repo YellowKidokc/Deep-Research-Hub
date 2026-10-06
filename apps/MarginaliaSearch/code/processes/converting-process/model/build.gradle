@@ -1,0 +1,32 @@
+plugins {
+    id 'java'
+
+
+    id 'jvm-test-suite'
+}
+
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(rootProject.ext.jvmVersion))
+    }
+}
+apply from: "$rootProject.projectDir/srcsets.gradle"
+
+jar.archiveBaseName = 'converting-process-model'
+
+dependencies {
+    implementation libs.bundles.slf4j
+
+    implementation project(':code:libraries:coded-sequence')
+
+    implementation libs.slop
+    implementation libs.notnull
+    implementation libs.roaringbitmap
+    implementation libs.trove
+
+    testImplementation libs.bundles.slf4j.test
+    testImplementation libs.bundles.junit
+    testImplementation libs.mockito
+    testImplementation project(':code:libraries:test-helpers')
+}
+

@@ -1,0 +1,41 @@
+package nu.marginalia.converting.processor.plugin.specialization;
+
+import nu.marginalia.converting.model.DocumentHeaders;
+import nu.marginalia.converting.model.DocumentTags;
+import nu.marginalia.converting.processor.logic.DocumentGeneratorExtractor;
+import nu.marginalia.converting.processor.logic.TitleExtractor;
+import nu.marginalia.model.EdgeUrl;
+import nu.marginalia.test.CommonTestData;
+import org.jsoup.Jsoup;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+
+import java.util.Set;
+
+class GogSpecializationTest {
+
+    static GogStoreSpecialization specialization;
+    static DocumentGeneratorExtractor generatorExtractor = new DocumentGeneratorExtractor();
+
+    String storePage = CommonTestData.loadTestData("html/gog-store.html");
+
+    @BeforeAll
+    public static void setUpAll() {
+        specialization = new GogStoreSpecialization(
+                                new TitleExtractor(128)
+                );
+    }
+
+    @Test
+    void prune() {
+        System.out.println(specialization.prune(Jsoup.parse(storePage)));
+    }
+
+    @Test
+    void generatorExtraction() throws Exception {
+        var doc = Jsoup.parse(storePage);
+        var gen = generatorExtractor.detectGenerator(new EdgeUrl("https://www.example.com/"), doc, new DocumentHeaders(""), new DocumentTags(doc));
+
+        System.out.println(gen);
+    }
+}

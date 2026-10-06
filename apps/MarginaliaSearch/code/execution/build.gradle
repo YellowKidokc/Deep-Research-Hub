@@ -1,0 +1,93 @@
+plugins {
+    id 'java'
+    id 'jvm-test-suite'
+}
+
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(rootProject.ext.jvmVersion))
+    }
+}
+
+apply from: "$rootProject.projectDir/srcsets.gradle"
+
+dependencies {
+    // These look weird but they're needed to be able to spawn the processes
+    // from the executor service
+
+    implementation project(':code:processes:export-task-process')
+    implementation project(':code:processes:crawling-process')
+    implementation project(':code:processes:live-crawling-process')
+    implementation project(':code:processes:loading-process')
+    implementation project(':code:processes:ranking-process')
+    implementation project(':code:processes:ping-process')
+    implementation project(':code:processes:new-domain-process')
+    implementation project(':code:processes:converting-process')
+
+    implementation project(':code:common:config')
+    implementation project(':code:common:model')
+    implementation project(':code:common:db')
+    implementation project(':code:common:linkdb')
+
+    implementation project(':code:common:service')
+
+    implementation project(':third-party:commons-codec')
+
+    implementation project(':code:libraries:message-queue')
+    implementation project(':code:functions:language-processing')
+
+    implementation project(':code:functions:link-graph:api')
+    implementation project(':code:index:live-capture')
+    implementation project(':code:index:live-capture:api')
+    implementation project(':code:functions:search-query')
+    implementation project(':code:functions:nsfw-filter')
+    implementation project(':code:execution:api')
+
+    implementation project(':code:processes:crawling-process:model')
+    implementation project(':code:processes:crawling-process:ft-link-parser')
+    implementation project(':code:index:index-journal')
+    implementation project(':code:index:api')
+    implementation project(':code:processes:process-mq-api')
+    implementation project(':third-party:encyclopedia-marginalia-nu')
+
+    implementation libs.bundles.slf4j
+    implementation libs.bundles.jooby
+
+    implementation libs.guava
+    libs.bundles.grpc.get().each {
+        implementation dependencies.create(it) {
+            exclude group: 'com.google.guava'
+        }
+    }
+
+
+    implementation libs.gson
+    implementation libs.slop
+    implementation libs.prometheus
+    implementation libs.notnull
+    implementation libs.guava
+    implementation dependencies.create(libs.guice.get()) {
+        exclude group: 'com.google.guava'
+    }
+    implementation libs.trove
+    implementation libs.zstd
+    implementation libs.jsoup
+    implementation libs.commons.io
+    implementation libs.commons.compress
+    implementation libs.commons.lang3
+    implementation libs.bundles.mariadb
+
+    testImplementation libs.bundles.slf4j.test
+    testImplementation libs.bundles.junit
+    testImplementation libs.mockito
+
+    testImplementation platform('org.testcontainers:testcontainers-bom:1.21.4') {
+        exclude group: 'org.apache.commons'
+    }
+    testImplementation libs.commons.compress
+    testImplementation libs.commons.codec
+    testImplementation 'org.testcontainers:mariadb:1.21.4'
+    testImplementation 'org.testcontainers:junit-jupiter:1.21.4'
+    testImplementation project(':code:libraries:test-helpers')
+
+}

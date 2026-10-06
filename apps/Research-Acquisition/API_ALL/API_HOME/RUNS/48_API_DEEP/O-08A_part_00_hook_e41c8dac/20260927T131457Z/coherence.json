@@ -1,0 +1,184 @@
+{
+  "station": "coherence_score",
+  "paper_uuid": "O-08A_part_00_hook_e41c8dac",
+  "run_uuid": "deep-98981051040b",
+  "overall": {
+    "score": 6,
+    "score_ceiling": 10,
+    "status": "ASSESSED",
+    "summary": "The ten claims form a broadly consistent programmatic structure, but the hook relies on several undefined terms and unproven mathematical assertions, creating definitional and inferential gaps that prevent full coherence."
+  },
+  "dimensions": [
+    {
+      "name": "internal_consistency",
+      "score": 7,
+      "reasons": [
+        "The ten claims are presented as a cumulative structure (S061) and do not directly contradict one another.",
+        "A02 (no system can determine its own moral direction) and A03 (external reference point must exist) are mutually reinforcing.",
+        "A04 (ordered institutional capture) and A07 (communication technologies follow truth-then-capture pattern) are compatible, with A07 providing a specific instance of A04.",
+        "A05 (shame as enforcement since 2015) and A06 (population sorts by connection to truth) are consistent with the broader capture narrative.",
+        "A08 (justice and mercy cannot both be fully satisfied in a closed system) and A10 (one event reversed the trajectory without system collapse) are in tension: if the system is closed, an external event reversing the trajectory may require an external reference point, which is not explicitly reconciled.",
+        "A09 (historical trajectory follows same downward curve) and A10 (one event reversed the trajectory) are not contradictory if the reversal is localized, but the scope of 'the system' in A10 is undefined."
+      ],
+      "affected_atom_uuids": [
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ]
+    },
+    {
+      "name": "definitional_stability",
+      "score": 4,
+      "reasons": [
+        "Key terms such as 'structural properties of reality' (A01), 'moral direction' (A02), 'external reference point' (A03), 'captured' (A04), 'shame' (A05), 'truth' and 'the source' (A06), 'institutions' (A07), 'closed system' (A08), 'measurable dimensions' (A09), and 'the system' (A10) are used without formal definitions.",
+        "The claim that good and bad are 'as invariant as electric charge' (S040) relies on an analogy that is not cashed out in measurable terms.",
+        "The assertion that no system can determine its own moral direction is 'mathematics, not philosophy' (S042) and 'proven' (S042) lacks a stated theorem, axioms, or proof sketch.",
+        "The 'external reference point' (A03) is described as having a 'continuous, accessible record' (S044) but the nature of that record is not specified.",
+        "The 'specific, documented, ordered sequence' of institutional capture (S046) is asserted but not documented in the hook.",
+        "The 'mathematical constraint — provable by algebra' (S054) regarding justice and mercy is not stated algebraically.",
+        "The 'one event' (A10) is not identified, making its 'measurable features' (S060) impossible to evaluate."
+      ],
+      "affected_atom_uuids": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ]
+    },
+    {
+      "name": "inferential_connectedness",
+      "score": 5,
+      "reasons": [
+        "The hook presents ten claims as a package (S061) but does not show how each claim follows from the others or from shared premises.",
+        "A02 is said to be a mathematical fact (S042) but no derivation is provided, leaving a gap between assertion and support.",
+        "A03 is presented as a necessary consequence of A02, but the inference from 'no system can determine its own moral direction' to 'an external reference point must exist' is not spelled out.",
+        "A04's ordered sequence is asserted without evidence in the hook; the connection to A05 (shame as enforcement) is plausible but not argued.",
+        "A06's two-class sorting is presented as a consequence of institutional capture, but the mechanism by which 'direct' access to truth occurs is not explained.",
+        "A07 generalizes across all communication technologies, but the hook provides no examples or data.",
+        "A08's mathematical constraint is asserted as provable by algebra, but the algebra is absent.",
+        "A09's claim of a universal downward curve across all measurable dimensions is a strong empirical generalization with no data shown.",
+        "A10's uniqueness claim ('exactly one event') is an extraordinary assertion with no candidate named or criteria specified."
+      ],
+      "affected_atom_uuids": [
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ]
+    },
+    {
+      "name": "register_boundary_respect",
+      "score": 6,
+      "reasons": [
+        "The paper moves between mathematical, historical, and moral registers without clearly marking boundaries.",
+        "A02 is explicitly labeled 'mathematics, not philosophy' (S042), but the mathematical content is not separated from the philosophical interpretation.",
+        "A08 is described as 'provable by algebra' (S054), yet the surrounding discussion is moral and theological, creating a register shift that is not bridged.",
+        "A09 makes empirical historical claims ('every measurable dimension') while A10 makes a unique historical claim; the evidentiary standards for these registers are not distinguished.",
+        "The hook acknowledges that the argument will take time and invites verification (S033, S063), which respects the reader's need for evidence, but the claims themselves are stated in a declarative register that implies certainty beyond what is shown."
+      ],
+      "affected_atom_uuids": [
+        "A02",
+        "A08",
+        "A09",
+        "A10"
+      ]
+    }
+  ],
+  "contradictions": [],
+  "tensions": [
+    {
+      "atoms": [
+        "A08",
+        "A10"
+      ],
+      "description": "A08 states that justice and mercy cannot both be fully satisfied inside any closed system, implying that a closed system cannot resolve the deficit. A10 states that one historical event reversed the downward trajectory without the system collapsing. If the system is closed, an internal event reversing the trajectory may violate the constraint in A08 unless the event is external or the system is not truly closed. The relationship between 'closed system' in A08 and 'the system' in A10 is unclear.",
+      "severity": "structural"
+    },
+    {
+      "atoms": [
+        "A02",
+        "A03"
+      ],
+      "description": "A02 asserts that no system can determine its own moral direction from inside itself. A03 asserts that an external reference point must exist and has been continuously accessible. The inference from A02 to A03 is not formally demonstrated; it is possible that no external reference point exists and moral direction is simply undeterminable. The necessity claim in A03 requires additional premises.",
+      "severity": "local"
+    },
+    {
+      "atoms": [
+        "A04",
+        "A07"
+      ],
+      "description": "A04 gives a specific ordered sequence of institutional capture (money, government, education, media, moral language). A07 states that all communication technologies follow a pattern of truth spread then capture. The relationship between the general pattern in A07 and the specific sequence in A04 is not specified; it is unclear whether communication technology capture is a subset of the sequence or a parallel process.",
+      "severity": "local"
+    }
+  ],
+  "missing_definitions": [
+    {
+      "term": "structural properties of reality",
+      "atom_uuid": "A01",
+      "note": "No criteria given for what makes a property 'structural' or how to measure invariance."
+    },
+    {
+      "term": "moral direction",
+      "atom_uuid": "A02",
+      "note": "Not defined formally; the mathematical claim depends on a precise definition."
+    },
+    {
+      "term": "external reference point",
+      "atom_uuid": "A03",
+      "note": "No specification of what kind of entity or record qualifies."
+    },
+    {
+      "term": "captured",
+      "atom_uuid": "A04",
+      "note": "No definition of what constitutes institutional capture or how it is detected."
+    },
+    {
+      "term": "shame",
+      "atom_uuid": "A05",
+      "note": "No operational definition distinguishing shame from guilt, embarrassment, or social pressure."
+    },
+    {
+      "term": "truth",
+      "atom_uuid": "A06",
+      "note": "Used in 'connection to truth' and 'directly to the source' without definition."
+    },
+    {
+      "term": "the source",
+      "atom_uuid": "A06",
+      "note": "Not defined; presumably the external reference point from A03, but not stated."
+    },
+    {
+      "term": "closed system",
+      "atom_uuid": "A08",
+      "note": "No formal definition; the mathematical claim depends on it."
+    },
+    {
+      "term": "measurable dimensions",
+      "atom_uuid": "A09",
+      "note": "Examples given but no criteria for inclusion or measurement."
+    },
+    {
+      "term": "the system",
+      "atom_uuid": "A10",
+      "note": "Unclear whether this refers to the same closed system as A08 or a broader social system."
+    }
+  ],
+  "notes": "This assessment covers only Part 0 (The Hook) of the paper. The hook is explicitly programmatic and promises later development, so many gaps may be filled in subsequent parts. The coherence score reflects the current state of the argument as presented. The absence of direct contradictions is notable, but the high number of undefined terms and unproven mathematical assertions limits the score. The tensions identified are not fatal but require resolution in later sections."
+}

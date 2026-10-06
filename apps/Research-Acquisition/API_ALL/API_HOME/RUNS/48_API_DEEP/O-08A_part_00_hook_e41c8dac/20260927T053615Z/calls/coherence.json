@@ -1,0 +1,177 @@
+{
+  "name": "coherence",
+  "parsed": {
+    "station": "coherence_score",
+    "paper_uuid": "O-08A_part_00_hook_e41c8dac",
+    "run_uuid": "20260927T053615Z",
+    "overall": {
+      "score": 6,
+      "score_ceiling": 10,
+      "status": "ASSESSED",
+      "summary": "The hook presents a tightly interlocked set of ten claims that mostly reinforce each other, but coherence is weakened by unresolved definitional gaps (e.g., 'structural properties,' 'external reference point,' 'the source') and by inferential leaps from asserted mathematical facts to sweeping historical and institutional conclusions."
+    },
+    "dimensions": [
+      {
+        "name": "internal_consistency",
+        "score": 7,
+        "reasons": [
+          "The ten claims in S039-S060 are presented as a single cumulative structure (S061), and no direct logical contradiction is apparent among A01-A10.",
+          "A02 (no system can determine its own moral direction from inside) and A03 (an external reference point must exist) are mutually reinforcing rather than conflicting.",
+          "A08 (justice and mercy cannot both be fully satisfied in a closed system) is consistent with A02's closed-system limitation, though the relationship between 'closed system' in A02 and A08 is not explicitly defined.",
+          "A04's ordered capture sequence (money, government, education, media, moral language) is broadly consistent with A07's communication-technology capture pattern, but the two sequences are not integrated or reconciled.",
+          "A09's claim that all measurable dimensions follow the same downward curve at the same accelerating rate is a strong universal claim that sits in tension with A10's claim of exactly one reversal; the paper does not explain how a single reversal fits a universal same-curve pattern."
+        ],
+        "affected_atom_uuids": [
+          "A01",
+          "A02",
+          "A03",
+          "A04",
+          "A07",
+          "A08",
+          "A09",
+          "A10"
+        ]
+      },
+      {
+        "name": "definitional_stability",
+        "score": 4,
+        "reasons": [
+          "A01 asserts good and bad are 'structural properties of reality' like electric charge, but 'structural property' is not defined; S040 repeats the analogy without specifying what makes a property structural or how it is measured.",
+          "A03 requires an 'external reference point' that has been 'continuously accessible throughout history,' but neither 'external' nor 'accessible' is defined; S044 adds 'continuous, accessible record' without clarifying what counts as a record or access.",
+          "A06 distinguishes two classes by whether their 'connection to truth runs through the captured institutions or directly to the source,' but 'the source' is never defined in the hook.",
+          "A08 uses 'closed system' without definition; the term is central to the mathematical claim but remains unspecified.",
+          "A09 lists 'measurable areas' (food, information, medicine, education, money, community) but does not define the metrics or the curve being measured.",
+          "A10 refers to 'one historical event' with 'unique measurable features' but does not name the event or specify the features in the hook."
+        ],
+        "affected_atom_uuids": [
+          "A01",
+          "A03",
+          "A06",
+          "A08",
+          "A09",
+          "A10"
+        ]
+      },
+      {
+        "name": "inferential_connectedness",
+        "score": 5,
+        "reasons": [
+          "A02 is asserted as 'a mathematical fact, not just philosophy' (S042) and 'proven,' but no proof or formal statement is provided in the hook; the inferential link from mathematics to moral direction is asserted rather than demonstrated.",
+          "A03 moves from the need for an external reference point to the claim that such a point 'has maintained a continuous, accessible record throughout human history' (S044); the historical accessibility claim does not follow from the logical need alone.",
+          "A04's ordered sequence of institutional capture is presented as 'documented' (S046) but no documentation or causal mechanism is given in the hook.",
+          "A05's claim that governments have deployed shame as official policy 'since at least 2015' (S048) is a specific empirical assertion with no supporting evidence in the hook.",
+          "A09's universal same-curve claim across all measurable dimensions is a very strong inductive generalization; the hook provides no data or method for establishing it.",
+          "A10's uniqueness claim ('exactly one event') is an existential uniqueness assertion that would require exhaustive historical comparison; the hook only asserts it."
+        ],
+        "affected_atom_uuids": [
+          "A02",
+          "A03",
+          "A04",
+          "A05",
+          "A09",
+          "A10"
+        ]
+      },
+      {
+        "name": "register_boundary_respect",
+        "score": 6,
+        "reasons": [
+          "The paper repeatedly blurs mathematical, philosophical, and empirical registers: A02 calls a moral claim 'mathematics, not philosophy' (S042), and A08 calls a justice/mercy constraint 'provable by algebra' (S054), without separating formal from interpretive claims.",
+          "A01 uses a physics analogy ('as invariant as electric charge,' S040) to ground a moral claim, crossing from descriptive physics to normative ethics without acknowledging the register shift.",
+          "A03 mixes logical necessity ('must exist') with historical contingency ('has maintained a continuous, accessible record,' S044), treating a conceptual requirement as an empirical fact.",
+          "A09 and A10 mix measurable empirical claims with sweeping historical narrative, without marking where measurement ends and interpretation begins.",
+          "The hook does acknowledge fallibility and invites criticism (S062-S065), which partially respects the boundary between assertion and evidence, but the ten claims themselves are stated in a declarative register that does not consistently flag their differing epistemic statuses."
+        ],
+        "affected_atom_uuids": [
+          "A01",
+          "A02",
+          "A03",
+          "A08",
+          "A09",
+          "A10"
+        ]
+      }
+    ],
+    "contradictions": [],
+    "tensions": [
+      {
+        "atoms": [
+          "A09",
+          "A10"
+        ],
+        "description": "A09 claims all measurable dimensions follow the same downward curve at the same accelerating rate, while A10 claims exactly one event reversed the trajectory without system collapse. A single reversal is not obviously compatible with a universal same-curve pattern unless the reversal is itself part of the curve, which is not explained.",
+        "severity": "local"
+      },
+      {
+        "atoms": [
+          "A04",
+          "A07"
+        ],
+        "description": "A04 gives a specific ordered capture sequence (money, government, education, media, moral language), while A07 gives a communication-technology capture pattern (writing, printing, radio, TV, internet, social media). The two sequences overlap in media but are not integrated, leaving unclear whether they are the same process or parallel ones.",
+        "severity": "local"
+      },
+      {
+        "atoms": [
+          "A02",
+          "A08"
+        ],
+        "description": "Both invoke 'closed system' limitations, but A02 concerns moral direction and A08 concerns justice and mercy. The relationship between these two closed-system constraints is asserted rather than derived, creating a tension between two mathematical-sounding claims that may or may not share the same formal basis.",
+        "severity": "local"
+      }
+    ],
+    "missing_definitions": [
+      {
+        "term": "structural properties of reality",
+        "atom_uuid": "A01",
+        "note": "No definition or criterion for structurality is provided; the electric-charge analogy is illustrative but not definitional."
+      },
+      {
+        "term": "external reference point",
+        "atom_uuid": "A03",
+        "note": "The nature, location, and accessibility conditions of the external reference point are not specified."
+      },
+      {
+        "term": "the source",
+        "atom_uuid": "A06",
+        "note": "The 'source' from which one class gets truth directly is never defined."
+      },
+      {
+        "term": "closed system",
+        "atom_uuid": "A08",
+        "note": "Used in a mathematical-sounding claim but not formally defined."
+      },
+      {
+        "term": "measurable dimensions / same curve",
+        "atom_uuid": "A09",
+        "note": "The metrics and the curve are not specified, making the universal claim difficult to assess."
+      },
+      {
+        "term": "one historical event / unique measurable features",
+        "atom_uuid": "A10",
+        "note": "The event and its features are not identified in the hook."
+      }
+    ],
+    "notes": "This assessment covers only Part 0 (the hook) and the ten extracted claims. The hook explicitly frames itself as an introduction to a longer argument (S031-S033, S068), so many definitional and inferential gaps may be addressed in later parts. The coherence score reflects the hook's internal structure as presented, not the full paper. The absence of direct contradictions is notable; the main weaknesses are definitional underdetermination and inferential leaps from asserted mathematics to empirical and historical conclusions."
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "coherence",
+      "attempt": 1,
+      "text": "{\n  \"station\": \"coherence_score\",\n  \"paper_uuid\": \"O-08A_part_00_hook_e41c8dac\",\n  \"run_uuid\": \"20260927T053615Z\",\n  \"overall\": {\n    \"score\": 6,\n    \"score_ceiling\": 10,\n    \"status\": \"ASSESSED\",\n    \"summary\": \"The hook presents a tightly interlocked set of ten claims that mostly reinforce each other, but coherence is weakened by unresolved definitional gaps (e.g., 'structural properties,' 'external reference point,' 'the source') and by inferential leaps from asserted mathematical facts to sweeping historical and institutional conclusions.\"\n  },\n  \"dimensions\": [\n    {\n      \"name\": \"internal_consistency\",\n      \"score\": 7,\n      \"reasons\": [\n        \"The ten claims in S039-S060 are presented as a single cumulative structure (S061), and no direct logical contradiction is apparent among A01-A10.\",\n        \"A02 (no system can determine its own moral direction from inside) and A03 (an external reference point must exist) are mutually reinforcing rather than conflicting.\",\n        \"A08 (justice and mercy cannot both be fully satisfied in a closed system) is consistent with A02's closed-system limitation, though the relationship between 'closed system' in A02 and A08 is not explicitly defined.\",\n        \"A04's ordered capture sequence (money, government, education, media, moral language) is broadly consistent with A07's communication-technology capture pattern, but the two sequences are not integrated or reconciled.\",\n        \"A09's claim that all measurable dimensions follow the same downward curve at the same accelerating rate is a strong universal claim that sits in tension with A10's claim of exactly one reversal; the paper does not explain how a single reversal fits a universal same-curve pattern.\"\n      ],\n      \"affected_atom_uuids\": [\"A01\", \"A02\", \"A03\", \"A04\", \"A07\", \"A08\", \"A09\", \"A10\"]\n    },\n    {\n      \"name\": \"definitional_stability\",\n      \"score\": 4,\n      \"reasons\": [\n        \"A01 asserts good and bad are 'structural properties of reality' like electric charge, but 'structural property' is not defined; S040 repeats the analogy without specifying what makes a property structural or how it is measured.\",\n        \"A03 requires an 'external reference point' that has been 'continuously accessible throughout history,' but neither 'external' nor 'accessible' is defined; S044 adds 'continuous, accessible record' without clarifying what counts as a record or access.\",\n        \"A06 distinguishes two classes by whether their 'connection to truth runs through the captured institutions or directly to the source,' but 'the source' is never defined in the hook.\",\n        \"A08 uses 'closed system' without definition; the term is central to the mathematical claim but remains unspecified.\",\n        \"A09 lists 'measurable areas' (food, information, medicine, education, money, community) but does not define the metrics or the curve being measured.\",\n        \"A10 refers to 'one historical event' with 'unique measurable features' but does not name the event or specify the features in the hook.\"\n      ],\n      \"affected_atom_uuids\": [\"A01\", \"A03\", \"A06\", \"A08\", \"A09\", \"A10\"]\n    },\n    {\n      \"name\": \"inferential_connectedness\",\n      \"score\": 5,\n      \"reasons\": [\n        \"A02 is asserted as 'a mathematical fact, not just philosophy' (S042) and 'proven,' but no proof or formal statement is provided in the hook; the inferential link from mathematics to moral direction is asserted rather than demonstrated.\",\n        \"A03 moves from the need for an external reference point to the claim that such a point 'has maintained a continuous, accessible record throughout human history' (S044); the historical accessibility claim does not follow from the logical need alone.\",\n        \"A04's ordered sequence of institutional capture is presented as 'documented' (S046) but no documentation or causal mechanism is given in the hook.\",\n        \"A05's claim that governments have deployed shame as official policy 'since at least 2015' (S048) is a specific empirical assertion with no supporting evidence in the hook.\",\n        \"A09's universal same-curve claim across all measurable dimensions is a very strong inductive generalization; the hook provides no data or method for establishing it.\",\n        \"A10's uniqueness claim ('exactly one event') is an existential uniqueness assertion that would require exhaustive historical comparison; the hook only asserts it.\"\n      ],\n      \"affected_atom_uuids\": [\"A02\", \"A03\", \"A04\", \"A05\", \"A09\", \"A10\"]\n    },\n    {\n      \"name\": \"register_boundary_respect\",\n      \"score\": 6,\n      \"reasons\": [\n        \"The paper repeatedly blurs mathematical, philosophical, and empirical registers: A02 calls a moral claim 'mathematics, not philosophy' (S042), and A08 calls a justice/mercy constraint 'provable by algebra' (S054), without separating formal from interpretive claims.\",\n        \"A01 uses a physics analogy ('as invariant as electric charge,' S040) to ground a moral claim, crossing from descriptive physics to normative ethics without acknowledging the register shift.\",\n        \"A03 mixes logical necessity ('must exist') with historical contingency ('has maintained a continuous, accessible record,' S044), treating a conceptual requirement as an empirical fact.\",\n        \"A09 and A10 mix measurable empirical claims with sweeping historical narrative, without marking where measurement ends and interpretation begins.\",\n        \"The hook does acknowledge fallibility and invites criticism (S062-S065), which partially respects the boundary between assertion and evidence, but the ten claims themselves are stated in a declarative register that does not consistently flag their differing epistemic statuses.\"\n      ],\n      \"affected_atom_uuids\": [\"A01\", \"A02\", \"A03\", \"A08\", \"A09\", \"A10\"]\n    }\n  ],\n  \"contradictions\": [],\n  \"tensions\": [\n    {\n      \"atoms\": [\"A09\", \"A10\"],\n      \"description\": \"A09 claims all measurable dimensions follow the same downward curve at the same accelerating rate, while A10 claims exactly one event reversed the trajectory without system collapse. A single reversal is not obviously compatible with a universal same-curve pattern unless the reversal is itself part of the curve, which is not explained.\",\n      \"severity\": \"local\"\n    },\n    {\n      \"atoms\": [\"A04\", \"A07\"],\n      \"description\": \"A04 gives a specific ordered capture sequence (money, government, education, media, moral language), while A07 gives a communication-technology capture pattern (writing, printing, radio, TV, internet, social media). The two sequences overlap in media but are not integrated, leaving unclear whether they are the same process or parallel ones.\",\n      \"severity\": \"local\"\n    },\n    {\n      \"atoms\": [\"A02\", \"A08\"],\n      \"description\": \"Both invoke 'closed system' limitations, but A02 concerns moral direction and A08 concerns justice and mercy. The relationship between these two closed-system constraints is asserted rather than derived, creating a tension between two mathematical-sounding claims that may or may not share the same formal basis.\",\n      \"severity\": \"local\"\n    }\n  ],\n  \"missing_definitions\": [\n    {\n      \"term\": \"structural properties of reality\",\n      \"atom_uuid\": \"A01\",\n      \"note\": \"No definition or criterion for structurality is provided; the electric-charge analogy is illustrative but not definitional.\"\n    },\n    {\n      \"term\": \"external reference point\",\n      \"atom_uuid\": \"A03\",\n      \"note\": \"The nature, location, and accessibility conditions of the external reference point are not specified.\"\n    },\n    {\n      \"term\": \"the source\",\n      \"atom_uuid\": \"A06\",\n      \"note\": \"The 'source' from which one class gets truth directly is never defined.\"\n    },\n    {\n      \"term\": \"closed system\",\n      \"atom_uuid\": \"A08\",\n      \"note\": \"Used in a mathematical-sounding claim but not formally defined.\"\n    },\n    {\n      \"term\": \"measurable dimensions / same curve\",\n      \"atom_uuid\": \"A09\",\n      \"note\": \"The metrics and the curve are not specified, making the universal claim difficult to assess.\"\n    },\n    {\n      \"term\": \"one historical event / unique measurable features\",\n      \"atom_uuid\": \"A10\",\n      \"note\": \"The event and its features are not identified in the hook.\"\n    }\n  ],\n  \"notes\": \"This assessment covers only Part 0 (the hook) and the ten extracted claims. The hook explicitly frames itself as an introduction to a longer argument (S031-S033, S068), so many definitional and inferential gaps may be addressed in later parts. The coherence score reflects the hook's internal structure as presented, not the full paper. The absence of direct contradictions is notable; the main weaknesses are definitional underdetermination and inferential leaps from asserted mathematics to empirical and historical conclusions.\"\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 2083,
+      "completion_tokens": 1965,
+      "attempts": 1,
+      "elapsed_seconds": 9.42200000000048,
+      "started_at": "2026-09-27T05:36:25.696901+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T05:36:35.120919+00:00",
+      "tokens": 4048
+    }
+  ],
+  "prompt_sha256": "623efba295e59a8a2785696bc927c17e9004856dfb512c97938da2bf484d8961",
+  "tokens": 4048
+}

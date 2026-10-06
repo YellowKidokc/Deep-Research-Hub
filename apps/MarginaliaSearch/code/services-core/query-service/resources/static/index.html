@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Query Service</title>
+</head>
+<body>
+<div class="container">
+    <h1 class="my-3">Marginalia Query Service</h1>
+    <p>This is the barebones search interface for the <a href="https://git.marginalia.nu/">Marginalia Search Engine software</a>. </p>
+    <p>If you are seeing this somewhere other than your own machine, someone has likely misconfigured something.</p>
+
+    <h2>Control GUI</h2>
+    <p>
+        If this is running on your own machine, you can also use the control interface, which is by default available
+        on <a href="http://localhost:8081/">http://localhost:8081/</a>.
+    </p>
+
+    <h2>API</h2>
+
+    <p>The <a href="/search">/search</a> endpoint offers a web interface for performing queries.
+        The same endpoint is available as a JSON API when the <tt>Accept: application/json</tt>
+        header is sent by the client. </p>
+
+    <h3 class="my-3">Query parameters</h3>
+
+    <table>
+        <tr>
+            <th>Parameter</th><th>Default</th><th>Description</th>
+        </tr>
+        <tr>
+            <td><code>query</code> or <code>q</code></td>
+            <td>(required)</td>
+            <td>The search query string.</td>
+        </tr>
+        <tr>
+            <td><code>count</code></td>
+            <td>20</td>
+            <td>Number of results (max 100).</td>
+        </tr>
+        <tr>
+            <td><code>dc</code></td>
+            <td>2</td>
+            <td>Max results per domain (1-100).</td>
+        </tr>
+        <tr>
+            <td><code>timeout</code></td>
+            <td>150</td>
+            <td>Query timeout in milliseconds (50-250).</td>
+        </tr>
+        <tr>
+            <td><code>filter</code></td>
+            <td>NO_FILTER</td>
+            <td>Named system filter, e.g. POPULAR, SMALLWEB, BLOGOSPHERE, VINTAGE, TILDE, ACADEMIA, PLAIN_TEXT, FOOD, FORUM, WIKI, DOCS.</td>
+        </tr>
+        <tr>
+            <td><code>nsfw</code></td>
+            <td>1</td>
+            <td>NSFW filter tier: 0=off, 1=danger, 2=danger+porn</td>
+        </tr>
+        <tr>
+            <td><code>page</code></td>
+            <td>1</td>
+            <td>Page number for pagination.</td>
+        </tr>
+        <tr>
+            <td><code>lang</code></td>
+            <td>en</td>
+            <td>Language ISO code.</td>
+        </tr>
+    </table>
+
+    <h3 class="my-3">Minimal integration with the API:</h3>
+    <dl>
+        <dt>Curl</dt>
+        <dd>
+            <code>$ curl -H 'Accept: application/json' 'http://localhost:8080/search?query=test&amp;count=20'</code>
+        </dd>
+        <dt>
+            Python 3
+        </dt>
+        <dd>
+<code style="white-space: pre" class="mb-3">#!/bin/env python3
+import requests
+import json
+r = requests.get('http://localhost:8080/search?query=test',
+    headers={'Accept': 'application/json'})
+print(json.dumps(r.json(), indent=4))</code>
+        </dd>
+    </dl>
+    <p>Remember to URL-encode the query!</p>
+
+<h2>Site Info</h2>
+
+<p>The <code>/site/[domain-name]</code> and<code>/site/[domain-name]/availability</code> endpoints are also available for
+    querying the state of a domain in the index.  They will return 404 if the domain is not present in the database.
+    Availability data requires running the Ping service.
+</p>
+</div>
+</body>
+</html>

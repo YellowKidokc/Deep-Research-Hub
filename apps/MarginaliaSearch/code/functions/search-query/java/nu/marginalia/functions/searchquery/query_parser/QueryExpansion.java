@@ -1,0 +1,321 @@
+package nu.marginalia.functions.searchquery.query_parser;
+
+import ca.rmen.porterstemmer.PorterStemmer;
+import com.google.inject.Inject;
+import nu.marginalia.api.searchquery.model.compiled.CompiledQuery;
+import nu.marginalia.functions.searchquery.query_parser.model.QWord;
+import nu.marginalia.functions.searchquery.query_parser.model.QWordGraph;
+import nu.marginalia.functions.searchquery.query_parser.model.QWordGraphPathLister;
+import nu.marginalia.language.NounVariants;
+import nu.marginalia.segmentation.NgramLexicon;
+import nu.marginalia.term_frequency_dict.TermFrequencyDict;
+import org.apache.commons.lang3.StringUtils;
+
+import java.util.*;
+import java.util.regex.Pattern;
+import java.util.stream.Collectors;
+
+/** Responsible for expanding a query, that is creating alternative branches of query execution
+ *  to increase the number of results
+ */
+public class QueryExpansion {
+    private static final PorterStemmer ps = new PorterStemmer();
+    private final TermFrequencyDict dict;
+    private final NounVariants nounVariants;
+    private final NgramLexicon lexicon;
+
+    @Inject
+    public QueryExpansion(TermFrequencyDict dict,
+                          NounVariants nounVariants,
+                          NgramLexicon lexicon
+                          ) {
+        this.dict = dict;
+        this.nounVariants = nounVariants;
+        this.lexicon = lexicon;
+    }
+
+    public Expansion expandQuery(String langIsoCode, List<String> words) {
+
+        QWordGraph graph = new QWordGraph(words);
+
+        for (var strategy : getStrategies(langIsoCode)) {
+            strategy.expand(graph);
+        }
+
+        return new Expansion(graph.compileToQuery(),
+                createSegments(graph),
+                listFullConstraints(graph));
+    }
+
+    public List<ExpansionStrategy> getStrategies(String langIsoCode) {
+        if ("en".equalsIgnoreCase(langIsoCode)) {
+            return List.of(
+                    this::joinDashes,
+                    this::romanNumerals,
+                    this::splitWordNum,
+                    this::joinTerms,
+                    this::nounPluralFormsEN,
+                    this::categoryKeywords,
+                    this::joinerVariants,
+                    this::ngramAll
+            );
+        }
+        else {
+            return List.of(
+                    this::joinDashes,
+                    this::romanNumerals,
+                    this::splitWordNum,
+                    this::joinTerms,
+                    this::categoryKeywords,
+                    this::ngramAll
+            );
+        }
+
+    }
+
+
+    private static final Pattern dashPattern = Pattern.compile("-");
+    private static final Pattern numWordBoundary = Pattern.compile("[0-9][a-zA-Z]|[a-zA-Z][0-9]");
+
+    // Turn 'lawn-chair' into 'lawnchair'
+    public void joinDashes(QWordGraph graph) {
+        for (var qw : graph) {
+            if (qw.word().contains("-")) {
+                var joined = StringUtils.join(dashPattern.split(qw.word()));
+                graph.addVariant(qw, joined);
+            }
+        }
+    }
+
+    public void romanNumerals(QWordGraph graph) {
+        for (var qw : graph) {
+            switch (qw.word()) {
+                case "i" -> graph.addVariant(qw, "1");
+                case "ii" -> graph.addVariant(qw, "2");
+                case "iii" -> graph.addVariant(qw, "3");
+                case "iv" -> graph.addVariant(qw, "4");
+                case "v" -> graph.addVariant(qw, "5");
+                case "vi" -> graph.addVariant(qw, "6");
+                case "vii" -> graph.addVariant(qw, "7");
+                case "viii" -> graph.addVariant(qw, "8");
+                case "ix" -> graph.addVariant(qw, "9");
+                case "x" -> graph.addVariant(qw, "10");
+                case "1" -> graph.addVariant(qw, "i");
+                case "2" -> graph.addVariant(qw, "ii");
+                case "3" -> graph.addVariant(qw, "iii");
+                case "4" -> graph.addVariant(qw, "iv");
+                case "5" -> graph.addVariant(qw, "v");
+                case "6" -> graph.addVariant(qw, "vi");
+                case "7" -> graph.addVariant(qw, "vii");
+                case "8" -> graph.addVariant(qw, "viii");
+                case "9" -> graph.addVariant(qw, "ix");
+                case "10" -> graph.addVariant(qw, "x");
+            }
+        }
+    }
+
+
+    public void ngramAll(QWordGraph graph) {
+        List<QWord> parts = new ArrayList<>();
+
+        for (var qw : graph) {
+            if (qw.isBeg() || qw.isEnd())
+                continue;
+
+            parts.add(qw);
+        }
+
+        if (parts.size() > 1) {
+            graph.addVariantForSpan(parts.getFirst(), parts.getLast(),
+                    parts.stream().map(QWord::word).collect(Collectors.joining("_")));
+        }
+    }
+
+    // Turn 'MP3' into 'MP-3'
+    public void splitWordNum(QWordGraph graph) {
+        for (var qw : graph) {
+            var matcher = numWordBoundary.matcher(qw.word());
+            if (matcher.matches()) {
+                var joined = StringUtils.join(dashPattern.split(qw.word()), '-');
+                graph.addVariant(qw, joined);
+            }
+        }
+    }
+
+    public void joinerVariants(QWordGraph graph) {
+
+        for (var qw : graph) {
+            // Only consider terms not appearing at the ends of the graph
+
+            if (graph.getNextOriginal(qw).getFirst().isEnd()) {
+                continue;
+            }
+            if (graph.getPrevOriginal(qw).getFirst().isBeg()) {
+                continue;
+            }
+
+            switch (qw.word()) {
+                case "vs" -> {
+                    graph.addLink(graph.getPrevOriginal(qw).getFirst(),
+                            graph.getNextOriginal(qw).getFirst());
+                    graph.addVariant(qw, "and");
+                }
+            }
+        }
+    }
+    // Category keyword substitution, e.g. guitar wiki -> guitar generator:wiki
+    public void categoryKeywords(QWordGraph graph) {
+
+        for (var qw : graph) {
+
+            // Ensure we only perform the substitution on the last word in the query
+            if (!graph.getNextOriginal(qw).getFirst().isEnd()) {
+                continue;
+            }
+
+            switch (qw.word()) {
+                case "recipe", "recipes" -> graph.addVariant(qw, "category:food");
+                case "forum" -> graph.addVariant(qw, "generator:forum");
+                case "wiki" -> graph.addVariant(qw, "generator:wiki");
+            }
+        }
+    }
+
+    // Turn 'lawn chair' into 'lawnchair'
+    public void joinTerms(QWordGraph graph) {
+        QWord prev = null;
+
+        for (var qw : graph) {
+            if (prev != null) {
+                var joinedWord = prev.word() + qw.word();
+                var joinedStemmed = ps.stemWord(joinedWord);
+
+                var scoreA = dict.getTermFreqStemmed(prev.stemmed());
+                var scoreB = dict.getTermFreqStemmed(qw.stemmed());
+
+                var scoreCombo = dict.getTermFreqStemmed(joinedStemmed);
+
+                if (scoreCombo > scoreA + scoreB || scoreCombo > 1000) {
+                    graph.addVariantForSpan(prev, qw, joinedWord);
+                }
+                else if (StringUtils.isAlpha(prev.word()) && StringUtils.isNumeric(qw.word())) { // join e.g. trs 80 to trs80 and trs-80
+                    graph.addVariantForSpan(prev, qw, prev.word() + qw.word());
+                    graph.addVariantForSpan(prev, qw, prev.word() + "-" + qw.word());
+                }
+            }
+
+            prev = qw;
+        }
+    }
+
+    /** Attempt to rewrite the last word in a different pluralization */
+    private void nounPluralFormsEN(QWordGraph graph) {
+        List<QWord> parts = new ArrayList<>();
+
+        for (var part : new ArrayList<>(graph.getPrev(QWord.end()))) {
+            String word = part.word();
+
+            for (String variant : nounVariants.pluralVariant(word)) {
+                graph.addVariant(part, variant);
+            }
+        }
+    }
+
+    /** Create an alternative interpretation of the query that replaces a sequence of words
+     * with a word n-gram.  This makes it so that when possible, the order of words in the document
+     * matches the order of the words in the query.
+     *
+     * The function modifies the graph in place, adding new variants to the graph; but also
+     * returns a list of the new groupings that were added.
+     */
+    public List<List<String>> createSegments(QWordGraph graph)
+    {
+        List<QWord> nodes = new ArrayList<>();
+
+        for (var qw : graph) {
+            nodes.add(qw);
+        }
+
+        if (nodes.size() <= 1) {
+            return List.of();
+        }
+
+        String[] words = nodes.stream().map(QWord::stemmed).toArray(String[]::new);
+
+        // Grab all segments
+
+        List<NgramLexicon.SentenceSegment> allSegments = new ArrayList<>();
+        for (int length = 2; length < Math.min(10, words.length); length++) {
+            allSegments.addAll(lexicon.findSegmentOffsets(length, words));
+        }
+        allSegments.sort(Comparator.comparing(NgramLexicon.SentenceSegment::start));
+
+        Set<List<String>> constraints = new HashSet<>();
+
+        for (var segment : allSegments) {
+
+            int start = segment.start();
+            int end = segment.start() + segment.length();
+
+            List<String> components = new ArrayList<>(end - start);
+            for (int i = start; i < end; i++) {
+                components.add(nodes.get(i).word());
+            }
+            constraints.add(components);
+
+            // Create an n-gram search term for the segment
+            String word = String.join("_", components);
+            graph.addVariantForSpan(nodes.get(start), nodes.get(end - 1), word);
+        }
+
+        return new ArrayList<>(constraints);
+    }
+
+    /** Enumerate full phrase constraints from all paths through the graph.
+     */
+    private static List<List<String>> listFullConstraints(QWordGraph graph) {
+        var paths = QWordGraphPathLister.listPaths(graph);
+        var reachability = graph.reachability();
+
+        Set<List<String>> result = new LinkedHashSet<>();
+
+        outer:
+        for (var path : paths) {
+            List<String> words = path.stream()
+                    .sorted(reachability.topologicalComparator())
+                    .map(QWord::word)
+                    .toList();
+
+            if (words.size() < 2)
+                continue;
+
+            // Exclude paths that contain ngrams, as these will never be meaningful for position matching
+            // since they lack position data
+            for (String word : words) {
+                if (word.contains("_"))
+                    continue outer;
+            }
+
+            result.add(words);
+        }
+
+        // If no paths were found, add a constraint that matches the entire query
+        if (result.isEmpty()) {
+            List<String> fullPhraseConstraint = new ArrayList<> ();
+            for (var qw : graph) {
+                fullPhraseConstraint.add(qw.word());
+            }
+            result.add(fullPhraseConstraint);
+        }
+
+        return new ArrayList<>(result);
+    }
+
+    public interface ExpansionStrategy {
+        void expand(QWordGraph graph);
+    }
+
+    public record Expansion(CompiledQuery<String> compiledQuery,
+                            List<List<String>> optionalPharseConstraints,
+                            List<List<String>> fullPhraseConstraints) {}
+}

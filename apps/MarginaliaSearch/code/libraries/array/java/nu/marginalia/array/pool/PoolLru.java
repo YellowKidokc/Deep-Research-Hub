@@ -1,0 +1,209 @@
+package nu.marginalia.array.pool;
+
+import it.unimi.dsi.fastutil.longs.Long2ObjectLinkedOpenHashMap;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.util.concurrent.atomic.AtomicIntegerArray;
+import java.util.concurrent.atomic.AtomicLong;
+import java.util.concurrent.locks.LockSupport;
+import java.util.concurrent.locks.StampedLock;
+
+/** LRU for pool buffers
+ * */
+public class PoolLru {
+    private static final Logger logger = LoggerFactory.getLogger(PoolLru.class);
+
+    private final int maxSize;
+    private final Long2ObjectLinkedOpenHashMap<MemoryPage> backingMap;
+    private final MemoryPage[] pages;
+
+    private final int[] freeQueue;
+
+    // Tracks whether a page is in the free queue so it doesn't enqueued multiple times
+    private final AtomicIntegerArray queueState;
+    private final AtomicLong reclaimCycles;
+    private final AtomicLong clockWriteIdx;
+    private final AtomicLong clockReadIdx;
+
+    private final StampedLock lock = new StampedLock();
+    private final Thread reclaimThread;
+
+    private volatile boolean running = true;
+
+    public PoolLru(MemoryPage[] pages) {
+        backingMap = new Long2ObjectLinkedOpenHashMap<>(pages.length, 0.75f);
+        this.pages = pages;
+        // Pre-assign all entries with nonsense memory locations
+        for (int i = 0; i < pages.length; i++) {
+            backingMap.put(-i-1L, pages[i]);
+        }
+        maxSize = backingMap.size();
+
+        freeQueue = new int[pages.length];
+        queueState = new AtomicIntegerArray(pages.length);
+
+        for (int i = 0; i < freeQueue.length; i++) {
+            freeQueue[i] = i;
+            queueState.set(i, 1);
+        }
+
+        clockReadIdx = new AtomicLong();
+        clockWriteIdx = new AtomicLong(freeQueue.length);
+        reclaimCycles = new AtomicLong();
+
+        reclaimThread = Thread.ofPlatform().start(this::reclaimThread);
+    }
+
+    public void stop() throws InterruptedException {
+        running = false;
+        reclaimThread.interrupt();
+        reclaimThread.join();
+    }
+
+    /** Attempt to get a buffer already associated with the address */
+    public MemoryPage get(long address) {
+        var res = getAssociatedItem(address);
+        if (res != null) {
+            res.increaseClock(1);
+        }
+        return res;
+    }
+
+    private MemoryPage getAssociatedItem(long address) {
+        long stamp = lock.tryOptimisticRead();
+        MemoryPage res = backingMap.get(address);
+        if (lock.validate(stamp)) {
+            return res;
+        }
+        stamp = lock.readLock();
+        try {
+            return backingMap.get(address);
+        }
+        finally {
+            lock.unlockRead(stamp);
+        }
+    }
+
+    /** Associate the buffer with an address */
+    public void register(MemoryPage buffer) {
+        long stamp = lock.writeLock();
+        try {
+            backingMap.put(buffer.pageAddress(), buffer);
+            buffer.touchClock(1);
+            // Evict the last entry if we've exceeded the
+            while (backingMap.size() >= maxSize) {
+                backingMap.remove(backingMap.firstLongKey());
+            }
+        }
+        finally {
+            lock.unlockWrite(stamp);
+        }
+    }
+
+    public void deregister(MemoryPage buffer) {
+        long stamp = lock.writeLock();
+        try {
+            long address = buffer.pageAddress();
+            if (backingMap.get(address) == buffer) {
+                backingMap.remove(address);
+            }
+        }
+        finally {
+            lock.unlockWrite(stamp);
+        }
+    }
+
+    /** Attempt to get a free buffer from the pool
+     *
+     * @return An unheld buffer, or null if the attempt failed
+     * */
+    public MemoryPage getFree() {
+        for (int iter = 0;; iter++) {
+            var readIdx = clockReadIdx.get();
+            var writeIdx = clockWriteIdx.get();
+
+            if (writeIdx - readIdx <= freeQueue.length / 4) {
+                LockSupport.unpark(reclaimThread);
+            }
+            if (readIdx == writeIdx) {
+                if ((iter % 10000) == 0) {
+                    if (!running) {
+                        // This shouldn't be possible, but just in case we encounter this state,
+                        // let's blow up loudly and visibly rather than stall forever.
+                        throw new IllegalStateException("PoolLru is no longer running");
+                    }
+                    LockSupport.unpark(reclaimThread);
+                }
+
+                Thread.yield();
+                continue;
+            }
+
+            if (clockReadIdx.compareAndSet(readIdx, readIdx + 1)) {
+                int pageIdx = freeQueue[(int) (readIdx % freeQueue.length)];
+                queueState.set(pageIdx, 0);
+                return pages[pageIdx];
+            }
+        }
+    }
+
+    private void reclaimThread() {
+        int pageIdx = 0;
+
+        int targetQueueSize = freeQueue.length / 2;
+
+        while (running && !Thread.interrupted()) {
+            long readIdx = clockReadIdx.get();
+            long writeIdx = clockWriteIdx.get();
+
+            int queueSize = (int) (writeIdx - readIdx);
+
+            if (queueSize >= targetQueueSize) {
+                // Consumers unpark us when the queue runs low, so this bounds
+                // wakeup staleness rather than polling for work
+                LockSupport.parkNanos(10_000_000);
+                continue;
+            }
+
+            int toClaim = targetQueueSize - queueSize;
+            if (toClaim < 0)
+                continue;
+
+            reclaimCycles.incrementAndGet();
+
+            int visited = 0;
+
+            do {
+                if (++visited > 4 * pages.length) {
+                    break;
+                }
+                if (++pageIdx >= pages.length) {
+                    pageIdx = 0;
+                }
+                var currentPage = pages[pageIdx];
+
+                if (currentPage.decreaseClock()) {
+                    if (currentPage.isHeld()) {
+                        currentPage.touchClock(1);
+                    }
+                    else if (queueState.compareAndSet(pageIdx, 0, 1)) {
+                        deregister(pages[pageIdx]);
+                        freeQueue[(int) (clockWriteIdx.get() % freeQueue.length)] = pageIdx;
+                        clockWriteIdx.incrementAndGet();
+                        toClaim--;
+                    }
+                }
+
+            } while (running && toClaim >= 0);
+        }
+    }
+
+    public int getFreeQueueSize() {
+        return (int) (clockWriteIdx.get() - clockReadIdx.get());
+    }
+
+    public long getReclaimCycles() {
+        return reclaimCycles.get();
+    }
+}

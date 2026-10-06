@@ -1,0 +1,45 @@
+# Runs the headless API as a service against YOUR host corpus and YOUR key.
+#
+# That makes it the wrong tool for verifying a release: the bind-mount below inherits the host
+# `data/` and `env_file` inherits the host `.env`, so a "clean" run is nothing of the kind. For a
+# clean-room check, clone into an empty directory and start from an empty data home instead — the
+# v0.4.0 clean-room run in docs/DEVLOG.md is the worked example.
+services:
+  doc-assistant:
+    build: .
+    container_name: doc-assistant
+    ports:
+      # Loopback only: the API has no request authentication (docs/security.md), so an unqualified
+      # mapping would publish the whole corpus to the LAN. Override deliberately if you want that.
+      - "127.0.0.1:8001:8001"
+    volumes:
+      # Documents, cache, and chroma DB live on host
+      - ./data:/app/data
+
+      # Persist HuggingFace model downloads across container restarts.
+      # Avoids re-download of embedding  and reranker every run.
+      - hf-cache:/root/.cache/huggingface
+
+    environment:
+      # Bind 0.0.0.0 inside the container so the published port is reachable from the host
+      # (the app defaults to 127.0.0.1; this opts in — see Dockerfile).
+      - DOC_API_HOST=0.0.0.0
+      - DOC_API_PORT=8001
+      - LLM_MODE=${LLM_MODE:-api}
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+
+      # For local Ollama to work.
+      - OLLAMA_HOST=${OLLAMA_HOST:-http://host.docker.internal:11434}
+
+      - PDF_EXTRACTOR=${PDF_EXTRACTOR:-pymupdf}
+      - HF_TOKEN=${HF_TOKEN:-}
+
+    env_file:
+      - .env
+
+    # Required for Linux users (for host.docker.internal to resolve).
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+volumes:
+  hf-cache:

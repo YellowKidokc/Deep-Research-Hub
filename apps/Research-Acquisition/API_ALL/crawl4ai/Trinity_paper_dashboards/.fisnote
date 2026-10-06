@@ -1,0 +1,28 @@
+---
+fis_schema: "folder-index.v1"
+folder_id: "FLD-20260907-b9880a8d"
+folder: "GitHub\Research-Acquisition\crawl4ai\Trinity_paper_dashboards"
+folder_class: "project"
+confidence: 0.6
+dependency_risk: 0.0
+dominant_family: "text"
+dominant_ratio: 0.992
+file_count: 126
+classified_at: "2026-09-07T16:07:42"
+allowed_actions: ["index", "rename_internal", "subfolder_sort", "archive_exports"]
+suggested_name: "trinity_paper_dashboards"
+---
+
+# FIS Folder Index: Trinity_paper_dashboards
+
+**Class**: project  ·  **Confidence**: 60%  ·  **Files**: 126  ·  **Dominant**: text (99%)
+
+## Allowed actions
+- index
+- rename_internal
+- subfolder_sort
+- archive_exports
+
+**Suggested name**: `trinity_paper_dashboards`  (not applied — review before use)
+
+<!-- FIS folder-index.v1: parseable note; safe to regenerate. -->

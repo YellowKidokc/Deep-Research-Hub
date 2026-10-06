@@ -1,0 +1,22 @@
+---
+fis_schema: tag-ledger.v1
+run_id: 1
+folder: "stratum pop up\\02_ui_react"
+generated_at: "2026-06-23T17:14:16"
+ledger: "D:\\DONT TOUCH BOOT UP\\FIS\\fis_runtime\\tag_ledger.sqlite"
+tags: ["folder", "react", "has-subfolders"]
+file_count: 0
+child_folder_count: 1
+---
+
+# FIS Folder Index: 02_ui_react
+
+This folder has been seen by the FIS tag ledger. The ledger records names, tags, skipped items, and move status.
+
+Move state: every listed file starts as `not_moved` until a later approved mover records otherwise.
+
+## Direct Files
+
+- No direct files recorded.
+
+<!-- FIS tag-ledger.v1: parseable note; safe to regenerate. -->

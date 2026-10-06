@@ -1,0 +1,1252 @@
+import logging
+import os
+import signal
+import sys
+from typing import Any, AsyncIterator, NamedTuple
+import pathlib
+
+import click
+from dotenv import find_dotenv, load_dotenv
+
+from .user_app_loader import load_user_app, Error as UserAppLoaderError
+
+import asyncio
+import cocoindex as coco
+from cocoindex._internal.app import App
+from cocoindex._internal import core as _core
+from cocoindex._internal.environment import (
+    Environment,
+    LazyEnvironment,
+    EnvironmentInfo,
+    default_env_lazy,
+    get_registered_environment_infos,
+)
+from cocoindex._internal.setting import get_default_db_path
+from cocoindex.inspect import (
+    iter_stable_paths,
+    iter_stable_paths_by_name,
+    iter_stable_path_details,
+    iter_stable_path_details_by_name,
+    iter_target_states,
+    iter_target_states_by_name,
+    query_stable_path_details,
+    query_stable_path_details_by_name,
+)
+from cocoindex._internal.stable_path import StablePath
+
+
+# ---------------------------------------------------------------------------
+# Logging setup
+# ---------------------------------------------------------------------------
+
+
+def _setup_logging() -> None:
+    """Configure Python's root logger for CLI use.
+
+    Level is taken from the ``COCOINDEX_LOG_LEVEL`` env var (default ``WARNING``).
+    Uses ``force=True`` so re-invocation (e.g. tests) replaces any prior config.
+    """
+    level = os.environ.get("COCOINDEX_LOG_LEVEL", "WARNING").upper()
+    logging.basicConfig(
+        format="%(asctime)s %(levelname)-5s %(name)s: %(message)s",
+        level=level,
+        force=True,
+    )
+
+
+# ---------------------------------------------------------------------------
+# Graceful cancellation helpers
+# ---------------------------------------------------------------------------
+
+
+def _run_async_cmd(coro_fn: Any, *, quiet: bool = False) -> None:
+    """Run an async CLI command with graceful Ctrl+C cancellation.
+
+    On first Ctrl+C: fires the global Rust cancellation token so the engine
+    exits promptly, then lets ``asyncio.run()`` shut down normally.
+    On second Ctrl+C: kills the process immediately (default SIGINT).
+    """
+    cancelled = False
+
+    def _on_sigint(signum: int, frame: Any) -> None:
+        nonlocal cancelled
+        cancelled = True
+        _core.cancel_all()
+        if not quiet:
+            print("\nStopping...")
+        # Restore default handler so a second Ctrl+C kills immediately.
+        signal.signal(signal.SIGINT, signal.SIG_DFL)
+
+    async def _wrapper() -> None:
+        _core.reset_global_cancellation()
+        try:
+            await coro_fn(cancelled=lambda: cancelled)
+        except Exception:
+            if not cancelled:
+                raise
+
+    prev_handler = signal.signal(signal.SIGINT, _on_sigint)
+    try:
+        asyncio.run(_wrapper())
+    except KeyboardInterrupt:
+        if not quiet:
+            print("\nStopping...")
+    finally:
+        signal.signal(signal.SIGINT, prev_handler)
+
+
+# ---------------------------------------------------------------------------
+# Helper functions
+# ---------------------------------------------------------------------------
+
+
+class AppSpecifier(NamedTuple):
+    """Parsed app specifier."""
+
+    module_ref: str
+    app_name: str | None = None
+    env_name: str | None = None
+
+
+def _parse_app_target(specifier: str) -> AppSpecifier:
+    """
+    Parse 'module_or_path[:app_name[@env_name]]' into AppSpecifier.
+
+    Examples:
+        './main.py' -> AppSpecifier('./main.py', None, None)
+        './main.py:app2' -> AppSpecifier('./main.py', 'app2', None)
+        './main.py:app2@alpha' -> AppSpecifier('./main.py', 'app2', 'alpha')
+        'mymodule:my_app@default' -> AppSpecifier('mymodule', 'my_app', 'default')
+        'C:\\project\\main.py:app2' -> AppSpecifier('C:\\project\\main.py', 'app2', None)
+    """
+    # A Windows absolute path starts with a drive-letter colon, which is part
+    # of the path rather than the app-name separator.
+    search_start = (
+        2
+        if len(specifier) > 2 and specifier[1] == ":" and specifier[2] in ("/", "\\")
+        else 0
+    )
+    separator_index = specifier.find(":", search_start)
+    if separator_index == -1:
+        module_ref = specifier
+        app_part = None
+    else:
+        module_ref = specifier[:separator_index]
+        app_part = specifier[separator_index + 1 :]
+
+    if not module_ref:
+        raise click.BadParameter(
+            f"Module/path part is missing in specifier: '{specifier}'. "
+            "Expected format like 'myapp.py' or 'myapp.py:app_name'.",
+            param_hint="APP_TARGET",
+        )
+
+    if app_part is None:
+        return AppSpecifier(module_ref=module_ref)
+
+    if not app_part:
+        return AppSpecifier(module_ref=module_ref)
+
+    # Parse app_name[@env_name]
+    if "@" in app_part:
+        app_name, env_name = app_part.split("@", 1)
+        if not env_name:
+            raise click.BadParameter(
+                f"Environment name is missing after '@' in specifier '{specifier}'.",
+                param_hint="APP_TARGET",
+            )
+    else:
+        app_name = app_part
+        env_name = None
+
+    if app_name and not app_name.isidentifier():
+        raise click.BadParameter(
+            f"Invalid app name '{app_name}' in specifier '{specifier}'. "
+            "App name must be a valid Python identifier.",
+            param_hint="APP_TARGET",
+        )
+
+    return AppSpecifier(module_ref=module_ref, app_name=app_name, env_name=env_name)
+
+
+def _get_persisted_app_names(env: Environment) -> set[str]:
+    """Get the set of app names persisted in the given environment's database."""
+    try:
+        names = _core.list_app_names(env._core_env)
+        return set(names) if names else set()
+    except Exception:
+        return set()
+
+
+def _format_db_path(env: Environment) -> str:
+    """Format the database path for display."""
+    if not env.settings.db_path:
+        return "(unknown)"
+    path = env.settings.db_path
+    try:
+        cwd = os.getcwd()
+        abs_path = os.path.abspath(str(path))
+        if abs_path.startswith(cwd + os.sep):
+            return "./" + os.path.relpath(abs_path, cwd)
+        return str(path)
+    except Exception:
+        return str(path)
+
+
+def _confirm_yes(prompt: str) -> bool:
+    """Prompt user to type 'yes' explicitly. Returns True only if user types 'yes'."""
+    response: str = click.prompt(prompt, default="", show_default=False)
+    return response.lower() == "yes"
+
+
+def _format_env_header(env_name: str, db_path: str) -> str:
+    """Format the environment header for display."""
+    if env_name:
+        return f"{env_name} ({db_path}):"
+    return f"{db_path}:"
+
+
+def _print_app_group(
+    env_name: str,
+    db_path: str,
+    apps: list[App[Any, Any]],
+    persisted_names: set[str],
+) -> bool:
+    """Print a group of apps under an environment. Returns True if any app is not persisted."""
+    has_missing = False
+    click.echo(_format_env_header(env_name, db_path))
+    for app in sorted(apps, key=lambda a: a._name):
+        if app._name in persisted_names:
+            click.echo(f"  {app._name}")
+        else:
+            click.echo(f"  {app._name} [+]")
+            has_missing = True
+    return has_missing
+
+
+async def _ls_from_module_async(module_ref: str) -> None:
+    """List apps from a loaded module, grouped by environment. Uses async env access so CLI never starts the background loop."""
+    try:
+        load_user_app(module_ref)
+    except UserAppLoaderError as e:
+        raise RuntimeError(f"Failed to load module '{module_ref}'") from e
+
+    try:
+        env_infos = get_registered_environment_infos()
+        if not env_infos:
+            click.echo(f"No apps are defined in '{module_ref}'.")
+            return
+
+        # Sort: explicit environments first (by name), default environment last
+        def sort_key(info: EnvironmentInfo) -> tuple[int, str]:
+            env = info.env
+            if env is default_env_lazy():
+                return (1, "")
+            return (0, info.env_name or "")
+
+        sorted_infos = sorted(env_infos, key=sort_key)
+
+        has_missing = False
+        first_group = True
+
+        for info in sorted_infos:
+            apps = info.get_apps()
+            if not apps:
+                continue
+
+            env = info.env
+            if env is None:
+                continue
+
+            if not first_group:
+                click.echo("")
+            first_group = False
+
+            env_name = info.env_name or ""
+            if isinstance(env, LazyEnvironment):
+                actual_env = await env._get_env()
+            else:
+                actual_env = env
+            db_path = _format_db_path(actual_env)
+            persisted_names = _get_persisted_app_names(actual_env)
+            has_missing |= _print_app_group(env_name, db_path, apps, persisted_names)
+
+        if first_group:
+            click.echo(f"No apps are defined in '{module_ref}'.")
+            return
+
+        if has_missing:
+            click.echo("")
+            click.echo("Notes:")
+            click.echo(
+                "  [+]: Apps present in module, but not yet run (no persisted state)."
+            )
+    finally:
+        await _stop_all_environments()
+
+
+async def _ls_from_database_async(db_path: str) -> None:
+    """List all persisted apps from a specific database. Passes the running loop explicitly so the CLI never starts the background loop."""
+    db_path_obj = pathlib.Path(db_path)
+    if not db_path_obj.exists():
+        raise click.ClickException(f"Database path does not exist: {db_path}")
+
+    try:
+        from cocoindex._internal.setting import Settings
+
+        env = Environment(
+            Settings(db_path=db_path_obj),
+            event_loop=asyncio.get_running_loop(),
+        )
+        persisted_names = _get_persisted_app_names(env)
+    except Exception as e:
+        raise click.ClickException(f"Failed to open database: {e}") from e
+
+    if not persisted_names:
+        click.echo("No persisted apps found in the database.")
+        return
+
+    formatted_path = _format_db_path(env)
+    click.echo(f"{formatted_path}:")
+    for name in sorted(persisted_names):
+        click.echo(f"  {name}")
+
+
+def _load_app(app_target: str) -> App[Any, Any]:
+    """
+    Load an app from a specifier.
+
+    Supports formats:
+        - 'path/to/app.py' - loads the only registered app
+        - 'path/to/app.py:app_name' - loads the app with 'app_name'
+        - 'path/to/app.py:app_name@env_name' - loads the app with 'app_name' in environment 'env_name'
+    """
+    spec = _parse_app_target(app_target)
+
+    try:
+        load_user_app(spec.module_ref)
+    except UserAppLoaderError as e:
+        raise RuntimeError(f"Failed to load module '{spec.module_ref}'") from e
+
+    # Get target environments (filter by env_name if specified)
+    env_infos = get_registered_environment_infos()
+    if spec.env_name:
+        env_infos = [info for info in env_infos if info.env_name == spec.env_name]
+        if not env_infos:
+            raise click.ClickException(
+                f"No environment named '{spec.env_name}' found after loading '{spec.module_ref}'."
+            )
+
+    # Get all apps from target environments
+    apps: list[App[Any, Any]] = []
+    for info in env_infos:
+        apps.extend(info.get_apps())
+
+    # Filter by app name if specified
+    if spec.app_name:
+        matching = [a for a in apps if a._name == spec.app_name]
+        if not matching:
+            available = ", ".join(sorted(set(a._name for a in apps))) or "none"
+            raise click.ClickException(
+                f"No app named '{spec.app_name}' found after loading '{spec.module_ref}'. "
+                f"Available apps: {available}"
+            )
+
+        if len(matching) > 1:
+            # Multiple apps with the same name in different environments
+            available_envs = ", ".join(
+                a._environment.name or "(unnamed)" for a in matching
+            )
+            raise click.ClickException(
+                f"Multiple apps named '{spec.app_name}' found in different environments: {available_envs}. "
+                f"Please specify environment with ':app_name@env_name' syntax."
+            )
+        app = matching[0]
+    else:
+        # No app name specified
+        if len(apps) == 1:
+            app = apps[0]
+        elif len(apps) > 1:
+            available = ", ".join(sorted(set(a._name for a in apps)))
+            raise click.ClickException(
+                f"Multiple apps found in '{spec.module_ref}': {available}. "
+                "Please specify which app to use with ':app_name' syntax."
+            )
+        else:
+            raise click.ClickException(
+                f"No apps found after loading '{spec.module_ref}'. "
+                "Make sure the module creates a coco.App(...) instance."
+            )
+
+    return app
+
+
+def _create_project_files(project_name: str, project_dir: str) -> None:
+    """Create project files for a new CocoIndex project."""
+
+    project_path = pathlib.Path(project_dir)
+    project_path.mkdir(parents=True, exist_ok=True)
+
+    # Create main.py
+    main_py_content = f'''"""CocoIndex app template."""
+import pathlib
+from typing import Iterator
+
+import cocoindex as coco
+
+
+@coco.lifespan
+def coco_lifespan(builder: coco.EnvironmentBuilder) -> Iterator[None]:
+    """Configure the CocoIndex environment."""
+    builder.settings.db_path = pathlib.Path("./cocoindex.db")
+    yield
+
+
+@coco.fn
+async def app_main() -> None:
+    """Define your main pipeline here.
+
+    Common pattern:
+      1) Declare targets/target states under stable 'setup/...' paths.
+      2) Enumerate inputs (files, DB rows, etc.).
+      3) Mount per input processing unit using a stable path.
+
+    Note: app_main can accept parameters (e.g., sourcedir/outdir) passed via coco.App(...)
+    """
+
+    # 1) Declare targets/target states
+    # Example (local filesystem):
+    #   target = await coco.use_mount(
+    #       coco.component_subpath("setup"),
+    #       localfs.declare_dir_target,
+    #       outdir,
+    #   )
+
+    # 2) Enumerate inputs
+    # Example (walk a directory):
+    #   files = localfs.walk_dir(
+    #       sourcedir,
+    #       path_matcher=PatternFilePathMatcher(included_patterns=["**/*.pdf"]),
+    #   )
+
+    # 3) Mount a processing unit for each input under a stable path
+    # Example:
+    #   for f in files:
+    #       await coco.mount(
+    #           coco.component_subpath("process", str(f.relative_path)),
+    #           process_file_function,
+    #           f,
+    #           target,
+    #       )
+
+    pass
+
+
+app = coco.App(
+    coco.AppConfig(name="{project_name}"),
+    app_main,
+)
+'''
+    (project_path / "main.py").write_text(main_py_content)
+
+    # Create pyproject.toml
+    pyproject_toml_content = f"""[project]
+name = "{project_name}"
+version = "0.1.0"
+description = "A CocoIndex application"
+requires-python = ">=3.11"
+dependencies = [
+    "cocoindex>={coco.__version__}",
+]
+"""
+    (project_path / "pyproject.toml").write_text(pyproject_toml_content)
+
+    # Create README.md
+    readme_content = f"""# {project_name}
+
+A CocoIndex application.
+
+## Getting Started
+
+Run the app:
+```bash
+uv run cocoindex update main.py
+```
+
+## Project Structure
+
+- `main.py` - Main application file with your CocoIndex app definition
+- `pyproject.toml` - Project metadata and dependencies
+"""
+    (project_path / "README.md").write_text(readme_content)
+
+
+async def _print_tree_streaming(
+    items: AsyncIterator[Any],
+    component_node_type: Any,
+) -> None:
+    """
+    Print stable paths as a simple indented bullet list. No lookahead or
+    "last sibling" logic; each line is "  " * (depth - 1) + "- " + label.
+    """
+    click.echo("Stable paths:")
+    count = 0
+    async for item in items:
+        path = StablePath(item.path)
+        parts = path.parts()
+        is_component = item.node_type == component_node_type
+        if not parts:
+            line = "- /"
+        else:
+            indent = "  " * (len(parts) - 1)
+            label = str(parts[-1])
+            line = f"{indent}- {label}"
+        if is_component:
+            line += " [component]"
+        click.echo(line)
+        count += 1
+    if count == 0:
+        click.echo("(none)")
+
+
+# ---------------------------------------------------------------------------
+# CLI group
+# ---------------------------------------------------------------------------
+
+
+@click.group()
+@click.version_option(
+    None,
+    "-V",
+    "--version",
+    package_name="cocoindex",
+    message="%(prog)s version %(version)s",
+)
+@click.option(
+    "-e",
+    "--env-file",
+    type=click.Path(
+        exists=True, file_okay=True, dir_okay=False, readable=True, resolve_path=True
+    ),
+    help="Path to a .env file to load environment variables from. "
+    "If not provided, attempts to load '.env' from the current directory.",
+    default=None,
+    show_default=False,
+)
+@click.option(
+    "-d",
+    "--app-dir",
+    help="Load apps from the specified directory. Default to the current directory.",
+    default="",
+    show_default=True,
+)
+def cli(env_file: str | None = None, app_dir: str | None = "") -> None:
+    """CLI for CocoIndex."""
+    _setup_logging()
+
+    dotenv_path = env_file or find_dotenv(usecwd=True)
+
+    if load_dotenv(dotenv_path=dotenv_path):
+        loaded_env_path = os.path.abspath(dotenv_path)
+        click.echo(f"Loaded environment variables from: {loaded_env_path}\n", err=True)
+
+    if app_dir is not None:
+        sys.path.insert(0, app_dir)
+
+
+# ---------------------------------------------------------------------------
+# Commands
+# ---------------------------------------------------------------------------
+
+
+@cli.command()
+@click.argument("app_target", type=str, required=False)
+@click.option(
+    "--db",
+    type=str,
+    default=None,
+    help="Path to database to list apps from (only used when APP_TARGET is not specified).",
+)
+def ls(app_target: str | None, db: str | None) -> None:
+    """
+    List all apps.
+
+    If `APP_TARGET` (`path/to/app.py` or `module`) is provided, lists apps defined in that module and their persisted status, grouped by environment.
+
+    If `APP_TARGET` is omitted and `--db` is provided, lists all apps from the specified database.
+    """
+    if app_target:
+        if db:
+            click.echo(
+                "Warning: --db is ignored when APP_TARGET is specified.", err=True
+            )
+        spec = _parse_app_target(app_target)
+        asyncio.run(_ls_from_module_async(spec.module_ref))
+    elif db:
+        asyncio.run(_ls_from_database_async(db))
+    else:
+        # Try to use default db path from environment variable
+        default_db = get_default_db_path()
+        if default_db:
+            asyncio.run(_ls_from_database_async(str(default_db)))
+        else:
+            raise click.ClickException(
+                "Please specify either APP_TARGET or --db option "
+                "(or set COCOINDEX_DB environment variable).\n"
+                "  cocoindex ls ./app.py        # List apps from module\n"
+                "  cocoindex ls --db ./my.db    # List apps from database"
+            )
+
+
+@cli.command()
+@click.argument("app_target", type=str, required=False)
+@click.option(
+    "--db",
+    type=str,
+    default=None,
+    help="Path to database (used with --app-name when APP_TARGET is not specified).",
+)
+@click.option(
+    "--app-name",
+    type=str,
+    default=None,
+    help="App name to inspect (used with --db when APP_TARGET is not specified).",
+)
+@click.option(
+    "--tree",
+    is_flag=True,
+    default=False,
+    help="Display stable paths (or --target-states entries) as a tree.",
+)
+@click.option(
+    "-l",
+    "--long",
+    "long_format",
+    is_flag=True,
+    default=False,
+    help="Display detailed information in multi-line format.",
+)
+@click.argument("stable_path", type=str, required=False)
+@click.option(
+    "-r",
+    "--recursive",
+    is_flag=True,
+    default=False,
+    help="Show all children recursively (requires stable_path).",
+)
+@click.option(
+    "-p",
+    "--parents",
+    is_flag=True,
+    default=False,
+    help="Show all parent paths (requires stable_path).",
+)
+@click.option(
+    "--fingerprints",
+    "fingerprints",
+    is_flag=True,
+    default=False,
+    help="Show target-state paths as raw fingerprints (as stored) instead of readable keys.",
+)
+@click.option(
+    "--target-states",
+    "target_states",
+    is_flag=True,
+    default=False,
+    help="List all tracked target states with their owner components.",
+)
+def show(
+    app_target: str | None,
+    db: str | None,
+    app_name: str | None,
+    tree: bool,
+    long_format: bool,
+    stable_path: str | None,
+    recursive: bool,
+    parents: bool,
+    fingerprints: bool,
+    target_states: bool,
+) -> None:
+    """
+    Show the app's stable paths.
+
+    \b
+    If `APP_TARGET` is provided, loads the app from the module.
+    Otherwise, `--db` and `--app-name` can be used to inspect an app
+    directly from its database without loading the module.
+
+    """
+    if (recursive or parents) and not stable_path:
+        raise click.ClickException(
+            "-r/--recursive and -p/--parents require a stable_path argument."
+        )
+    if target_states and (stable_path or long_format or recursive or parents):
+        raise click.ClickException(
+            "--target-states cannot be combined with stable_path, -l, -r or -p."
+        )
+
+    if app_target:
+        if db or app_name:
+            click.echo(
+                "Warning: --db/--app-name are ignored when APP_TARGET is specified.",
+                err=True,
+            )
+        if target_states:
+            asyncio.run(
+                _show_target_states_from_app(
+                    _load_app(app_target), tree=tree, fingerprints=fingerprints
+                )
+            )
+            return
+        asyncio.run(
+            _show_from_app(
+                _load_app(app_target),
+                tree=tree,
+                long_format=long_format,
+                stable_path=stable_path,
+                recursive=recursive,
+                parents=parents,
+                fingerprints=fingerprints,
+            )
+        )
+    elif db and app_name:
+        if target_states:
+            asyncio.run(
+                _show_target_states_from_database(
+                    db, app_name, tree=tree, fingerprints=fingerprints
+                )
+            )
+            return
+        asyncio.run(
+            _show_from_database(
+                db,
+                app_name,
+                tree=tree,
+                long_format=long_format,
+                stable_path=stable_path,
+                recursive=recursive,
+                parents=parents,
+                fingerprints=fingerprints,
+            )
+        )
+    elif db or app_name:
+        raise click.ClickException(
+            "Both --db and --app-name are required when APP_TARGET is not specified."
+        )
+    else:
+        raise click.ClickException(
+            "Please specify APP_TARGET, or --db and --app-name.\n"
+            "  cocoindex show ./app.py              # from module\n"
+            "  cocoindex show --db ./my.db --app-name MyApp  # from database"
+        )
+
+
+def _parse_stable_path(path_str: str) -> StablePath:
+    """Parse a CLI stable path string into a StablePath.
+
+    Accepts formats like:
+      /"files"/"file1.txt"   (quoted parts, as displayed by StablePath.__str__)
+      /files/file1.txt       (unquoted parts)
+    """
+    path = StablePath()
+    # Strip leading slash
+    stripped = path_str.strip("/")
+    if not stripped:
+        return path
+    for part in stripped.split("/"):
+        # Strip surrounding quotes if present
+        if len(part) >= 2 and part.startswith('"') and part.endswith('"'):
+            part = part[1:-1]
+        path = path / part
+    return path
+
+
+async def _show_from_app(
+    app: App[Any, Any],
+    tree: bool = False,
+    long_format: bool = False,
+    stable_path: str | None = None,
+    recursive: bool = False,
+    parents: bool = False,
+    fingerprints: bool = False,
+) -> None:
+    try:
+        if stable_path is not None:
+            # Targeted query — no scan needed
+            path_obj = _parse_stable_path(stable_path)
+            details = await query_stable_path_details(
+                app,
+                path_obj,
+                include_children=recursive,
+                recursive=recursive,
+                include_parents=parents,
+            )
+            _print_details(details, fingerprints)
+        elif long_format:
+            # Stream details in one read txn with one shared resolver
+            # (no buffering, no per-path txn/resolver).
+            click.echo("Stable paths:")
+            count = 0
+            async for detail in iter_stable_path_details(app):
+                _print_one_detail(detail, fingerprints)
+                count += 1
+            if count == 0:
+                click.echo("  (none)")
+        elif tree:
+            component_node_type = _core.StablePathNodeType.component()
+            await _print_tree_streaming(iter_stable_paths(app), component_node_type)
+        else:
+            click.echo("Stable paths:")
+            async for item in iter_stable_paths(app):
+                click.echo(f"  {StablePath(item.path)}")
+    finally:
+        await _stop_all_environments()
+
+
+async def _show_from_database(
+    db_path: str,
+    app_name: str,
+    tree: bool = False,
+    long_format: bool = False,
+    stable_path: str | None = None,
+    recursive: bool = False,
+    parents: bool = False,
+    fingerprints: bool = False,
+) -> None:
+    db_path_obj = pathlib.Path(db_path)
+    if not db_path_obj.exists():
+        raise click.ClickException(f"Database path does not exist: {db_path}")
+
+    from cocoindex._internal.setting import Settings
+
+    env = Environment(
+        Settings(db_path=db_path_obj),
+        event_loop=asyncio.get_running_loop(),
+    )
+
+    if stable_path is not None:
+        path_obj = _parse_stable_path(stable_path)
+        details = await query_stable_path_details_by_name(
+            env,
+            app_name,
+            path_obj,
+            include_children=recursive,
+            recursive=recursive,
+            include_parents=parents,
+        )
+        _print_details(details, fingerprints)
+    elif long_format:
+        click.echo("Stable paths:")
+        count = 0
+        async for detail in iter_stable_path_details_by_name(env, app_name):
+            _print_one_detail(detail, fingerprints)
+            count += 1
+        if count == 0:
+            click.echo("  (none)")
+    elif tree:
+        component_node_type = _core.StablePathNodeType.component()
+        await _print_tree_streaming(
+            iter_stable_paths_by_name(env, app_name), component_node_type
+        )
+    else:
+        click.echo("Stable paths:")
+        async for item in iter_stable_paths_by_name(env, app_name):
+            click.echo(f"  {StablePath(item.path)}")
+
+
+async def _show_target_states_from_app(
+    app: App[Any, Any],
+    tree: bool = False,
+    fingerprints: bool = False,
+) -> None:
+    try:
+        await _print_target_states(iter_target_states(app), fingerprints, tree)
+    finally:
+        await _stop_all_environments()
+
+
+async def _show_target_states_from_database(
+    db_path: str,
+    app_name: str,
+    tree: bool = False,
+    fingerprints: bool = False,
+) -> None:
+    db_path_obj = pathlib.Path(db_path)
+    if not db_path_obj.exists():
+        raise click.ClickException(f"Database path does not exist: {db_path}")
+
+    from cocoindex._internal.setting import Settings
+
+    env = Environment(
+        Settings(db_path=db_path_obj),
+        event_loop=asyncio.get_running_loop(),
+    )
+    await _print_target_states(
+        iter_target_states_by_name(env, app_name), fingerprints, tree
+    )
+
+
+async def _print_target_states(
+    entries: AsyncIterator[_core.TargetStateEntry], fingerprints: bool, tree: bool
+) -> None:
+    click.echo("Target states:")
+    count = 0
+    if tree:
+        # Stored order yields a parent's entry before its descendants and keeps
+        # subtrees contiguous, so comparing against the previously printed path
+        # is enough to place each entry (same shape as _print_tree_streaming).
+        # Segment identity uses fingerprint segments (fixed-form, safe to
+        # split); labels come from readable_segments, which may contain "/".
+        prev_segments: list[str] = []
+        async for entry in entries:
+            count += 1
+            fp_segments = entry.fingerprint_path.lstrip("/").split("/")
+            labels = fp_segments if fingerprints else entry.readable_segments
+            common = 0
+            while (
+                common < len(prev_segments)
+                and common < len(fp_segments) - 1
+                and prev_segments[common] == fp_segments[common]
+            ):
+                common += 1
+            # Ancestor segments that have no entry of their own (e.g. root
+            # providers) still get a node line the first time they appear.
+            for depth in range(common, len(fp_segments) - 1):
+                click.echo("  " * depth + f"- {labels[depth]}")
+            depth = len(fp_segments) - 1
+            marker = " [dangling]" if entry.dangling else ""
+            owner = str(StablePath(entry.owner_component_path))
+            click.echo("  " * depth + f"- {labels[depth]}{marker} owner:{owner or '/'}")
+            prev_segments = fp_segments
+    else:
+        async for entry in entries:
+            count += 1
+            path = entry.fingerprint_path if fingerprints else entry.readable_path
+            marker = " [dangling]" if entry.dangling else ""
+            click.echo(f"  {path}{marker}")
+            owner = str(StablePath(entry.owner_component_path))
+            click.echo(f"    owner:{owner or '/'}")
+    if count == 0:
+        click.echo("  (none)")
+
+
+def _print_details(
+    details: list[_core.StablePathDetail], fingerprints: bool = False
+) -> None:
+    """Print a list of StablePathDetail in multi-line format."""
+    if not details:
+        click.echo("Stable paths:")
+        click.echo("  (none)")
+        return
+
+    click.echo("Stable paths:")
+    for detail in details:
+        _print_one_detail(detail, fingerprints)
+
+
+def _print_one_detail(
+    detail: _core.StablePathDetail, fingerprints: bool = False
+) -> None:
+    """Print a single StablePathDetail in multi-line format."""
+    path = StablePath(detail.path)
+    node_type = (
+        "component"
+        if detail.node_type == _core.StablePathNodeType.component()
+        else "directory"
+    )
+    click.echo(f"  {path}")
+    click.echo(
+        f"    type:{node_type} version:{detail.version}"
+        f" processor:{detail.processor_name or '-'}"
+    )
+    click.echo(
+        f"    has_memoization:{'true' if detail.has_memoization else 'false'}"
+        f" target_state_count:{detail.target_state_count}"
+    )
+    if detail.target_state_items:
+        click.echo("    Target states:")
+        for item_summary in detail.target_state_items:
+            provider_gen = (
+                f"{item_summary.provider_generation.provider_id}"
+                f".{item_summary.provider_generation.provider_schema_version}"
+                if item_summary.provider_generation is not None
+                else "None"
+            )
+            states = ", ".join(f"{s.version}:{s.state}" for s in item_summary.states)
+            path_str = (
+                item_summary.fingerprint_path
+                if fingerprints
+                else item_summary.target_state_path
+            )
+            click.echo(f"      - path:{path_str}")
+            click.echo(
+                f"        states:{states or '-'}"
+                f" schema_version:{item_summary.provider_schema_version}"
+                f" generation:{provider_gen}"
+            )
+    click.echo()
+
+
+async def _stop_all_environments() -> None:
+    for env_info in get_registered_environment_infos():
+        env = env_info.env
+        if isinstance(env, LazyEnvironment):
+            await env.stop()
+
+
+@cli.command()
+@click.argument("app_target", type=str)
+@click.option(
+    "-f",
+    "--force",
+    is_flag=True,
+    show_default=True,
+    default=False,
+    help="Skip confirmation prompt.",
+)
+@click.option(
+    "-q",
+    "--quiet",
+    is_flag=True,
+    show_default=True,
+    default=False,
+    help="Avoid printing anything to the standard output, e.g. statistics.",
+)
+@click.option(
+    "--reset",
+    is_flag=True,
+    show_default=True,
+    default=False,
+    help="Drop existing setup before updating (equivalent to running 'cocoindex drop' first).",
+)
+@click.option(
+    "--full-reprocess",
+    is_flag=True,
+    show_default=True,
+    default=False,
+    help=(
+        "Reprocess everything, bypassing all memoization caches: every "
+        "component and memoized function executes again (external calls such "
+        "as embeddings included). To force just one function's work to run "
+        "again, bump its version= instead."
+    ),
+)
+@click.option(
+    "--live",
+    "-L",
+    is_flag=True,
+    show_default=True,
+    default=False,
+    help="Run in live mode (live components continue processing after initial update).",
+)
+@click.option(
+    "--preview",
+    is_flag=True,
+    show_default=True,
+    default=False,
+    help="Compute target actions without applying them. Prints planned actions.",
+)
+def update(
+    app_target: str,
+    force: bool,
+    quiet: bool,
+    reset: bool,
+    full_reprocess: bool,
+    live: bool,
+    preview: bool,
+) -> None:
+    """
+    Run an app in catch-up mode. With --live, run in live mode.
+
+    `APP_TARGET`: `path/to/app.py`, `module`, `path/to/app.py:app_name`, or `module:app_name`.
+    """
+    if preview and reset:
+        raise click.UsageError("--preview and --reset cannot be used together.")
+    if preview and live:
+        raise click.UsageError("--preview and --live cannot be used together.")
+
+    app = _load_app(app_target)
+
+    async def _do(cancelled: Any) -> None:
+        from cocoindex._internal.app import show_progress
+
+        try:
+            env = await app._environment._get_env()
+            if not quiet:
+                print(
+                    f"Running app '{app._name}' from environment '{env.name}' (db path: {env.settings.db_path})"
+                )
+
+            if preview:
+                handle = app.update(
+                    full_reprocess=full_reprocess,
+                    preview=True,
+                )
+                actions: list[Any] = await handle.result()
+                click.echo("Preview: planned target actions")
+                if actions:
+                    for action in actions:
+                        click.echo(f"  {action!r}")
+                else:
+                    click.echo("  No target actions planned.")
+                return
+
+            # --reset: drop existing state first (equivalent to `cocoindex drop ...`)
+            if reset:
+                if not force:
+                    if not _confirm_yes(
+                        f"Type 'yes' to reset app '{app._name}' (drop existing state)"
+                    ):
+                        if not quiet:
+                            click.echo("Update operation aborted.")
+                        return
+
+                persisted_names = _get_persisted_app_names(env)
+                if app._name in persisted_names:
+                    await app.drop()
+
+            handle = app.update(
+                full_reprocess=full_reprocess,
+                live=live,
+            )
+            if not quiet:
+                await show_progress(handle)
+            else:
+                await handle.result()
+        finally:
+            await _stop_all_environments()
+
+    _run_async_cmd(_do, quiet=quiet)
+
+
+@cli.command()
+@click.argument("app_target", type=str)
+@click.option(
+    "--force",
+    "-f",
+    is_flag=True,
+    help="Skip confirmation prompt.",
+)
+@click.option(
+    "-q",
+    "--quiet",
+    is_flag=True,
+    show_default=True,
+    default=False,
+    help="Avoid printing anything to the standard output, e.g. statistics.",
+)
+def drop(app_target: str, force: bool = False, quiet: bool = False) -> None:
+    """
+    Drop an app and all its target states.
+
+    This will:
+
+    \b
+    - Revert all target states created by the app (e.g., drop tables, delete rows)
+    - Clear the app's internal state database
+
+    `APP_TARGET`: `path/to/app.py`, `module`, `path/to/app.py:app_name`, or `module:app_name`.
+    """
+    app = _load_app(app_target)
+
+    async def _do(cancelled: Any) -> None:
+        try:
+            env = await app._environment._get_env()
+            persisted_names = _get_persisted_app_names(env)
+
+            if not quiet:
+                click.echo(
+                    f"Preparing to drop app '{app._name}' from environment '{env.name}' (db path: {env.settings.db_path})"
+                )
+
+            if app._name not in persisted_names:
+                if not quiet:
+                    click.echo(
+                        f"App '{app._name}' has no persisted state. Nothing to drop."
+                    )
+                return
+
+            if not force:
+                if not _confirm_yes(
+                    f"Type 'yes' to drop app '{app._name}' and all its target states"
+                ):
+                    if not quiet:
+                        click.echo("Drop operation aborted.")
+                    return
+
+            await app.drop()
+            if not quiet:
+                click.echo(
+                    f"Dropped app '{app._name}' from environment '{env.name}' and reverted its target states."
+                )
+        finally:
+            await _stop_all_environments()
+
+    _run_async_cmd(_do, quiet=quiet)
+
+
+@cli.command()
+@click.argument("project_name", type=str, required=False)
+@click.option(
+    "--dir",
+    type=click.Path(file_okay=False, dir_okay=True, writable=True),
+    default=None,
+    help="Directory to create the project in.",
+)
+def init(project_name: str | None, dir: str | None) -> None:
+    """
+    Initialize a new CocoIndex project.
+
+    Creates a new project directory with starter files:
+    1. main.py (Main application file)
+    2. pyproject.toml (Project metadata and dependencies)
+    3. README.md (Quick start guide)
+
+    `PROJECT_NAME`: Name of the project (defaults to current directory name if not specified).
+    """
+    # Determine project directory
+    if dir:
+        project_dir = dir
+        if not project_name:
+            project_name = pathlib.Path(dir).resolve().name
+    elif project_name:
+        project_dir = project_name
+    else:
+        # Use current directory
+        project_dir = "."
+        project_name = pathlib.Path.cwd().resolve().name
+
+    # Validate project name
+    if project_name and not project_name.replace("_", "").replace("-", "").isalnum():
+        raise click.BadParameter(
+            f"Invalid project name '{project_name}'. "
+            "Project name must contain only alphanumeric characters, hyphens, and underscores.",
+            param_hint="PROJECT_NAME",
+        )
+
+    project_path = pathlib.Path(project_dir)
+
+    # Check if directory exists and has files
+    if project_path.exists() and any(project_path.iterdir()):
+        if not click.confirm(
+            f"Directory '{project_dir}' already exists and is not empty. "
+            "Continue and overwrite existing files?"
+        ):
+            click.echo("Init cancelled.")
+            return
+
+    try:
+        _create_project_files(project_name, project_dir)
+        click.echo(f"Created CocoIndex project '{project_name}' in '{project_dir}'")
+        click.echo("\nNext steps:")
+        if project_dir != ".":
+            click.echo(f"  1. cd {project_dir}")
+            click.echo("  2. uv run cocoindex update main.py")
+        else:
+            click.echo("  1. uv run cocoindex update main.py")
+    except Exception as e:
+        raise click.ClickException(f"Failed to create project: {e}") from e
+
+
+if __name__ == "__main__":
+    cli()

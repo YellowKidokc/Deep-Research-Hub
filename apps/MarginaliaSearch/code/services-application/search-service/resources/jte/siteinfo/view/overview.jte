@@ -1,0 +1,288 @@
+@import nu.marginalia.browse.RandomDomainSuggestionsDao.DomainStatus
+@import nu.marginalia.browse.RandomDomainSuggestionsDao.SubmitOutcome
+@import nu.marginalia.db.DbDomainQueries
+@import nu.marginalia.search.svc.SearchSiteInfoService
+@import nu.marginalia.search.svc.SearchSiteInfoService.*
+@import nu.marginalia.search.model.UrlDetails
+@import java.time.Instant
+@import java.time.ZoneId
+@import java.time.ZonedDateTime
+@import java.time.format.DateTimeFormatter
+@import java.time.temporal.ChronoUnit
+@import java.util.Objects
+
+@param SiteInfoWithContext siteInfo
+
+<!-- Main content -->
+
+
+<div class="flex-1 p-4 space-y-4 mx-auto w-full md:w-auto">
+    <div class="flex border border-gray-300  dark:border-gray-600 rounded bg-white dark:bg-gray-800 flex-col space-y-4 pb-4 overflow-hidden md:max-w-lg" >
+        <div class="flex place-items-center space-x-2 p-2 text-md border-b dark:border-gray-600 bg-margeblue text-white">
+            <img src="/site/${siteInfo.domain()}/favicon" style="width: 16px; height: 16px; vertical-align: center">
+            <h2>${siteInfo.domain()}</h2>
+            <div class="grow">
+            </div>
+            <a href="https://web.archive.org/web/*/${siteInfo.domain()}"
+               class="p-1.5 text-white px-4"
+               title="Wayback Machine">
+                <i class="fas fa-clock-rotate-left text-sm"></i>
+            </a>
+            <a title="Visit ${siteInfo.domain()}" rel="nofollow noopener external" href="${siteInfo.siteUrl()}" class="fa-solid fa-arrow-up-right-from-square" ></a>
+        </div>
+
+        @if (siteInfo.hasScreenshot())
+            <a class="mx-3 " tabindex="-1" rel="nofollow noopener external" href="${siteInfo.siteUrl()}">
+                <img class="border dark:border-gray-600 shadow-inner" src="/screenshot/${siteInfo.domainId()}" alt="Screenshot of ${siteInfo.domain()}">
+            </a>
+        @endif
+
+        @if (siteInfo.suggestionFlash() == SubmitOutcome.SUBMITTED)
+            <div class="mx-3 p-2 text-sm bg-green-100 dark:bg-green-900 dark:text-green-100 rounded">
+                Thanks! This domain has been queued for review.
+            </div>
+        @elseif (siteInfo.suggestionFlash() == SubmitOutcome.DUPLICATE)
+            <div class="mx-3 p-2 text-sm bg-gray-100 dark:bg-gray-700 dark:text-gray-100 rounded">
+                This domain is already awaiting review.
+            </div>
+        @elseif (siteInfo.suggestionFlash() == SubmitOutcome.INELIGIBLE)
+            <div class="mx-3 p-2 text-sm bg-yellow-100 dark:bg-yellow-900 dark:text-yellow-100 rounded">
+                This domain is not eligible for the random exploration set.
+            </div>
+        @endif
+
+        @if (siteInfo.randomStatus() == DomainStatus.LISTED)
+            <div class="mx-3 flex place-items-center space-x-2 p-2 text-sm bg-gray-100 dark:bg-gray-700 dark:text-gray-100 rounded">
+                <i class="fas fa-dice text-margeblue dark:text-blue-200"></i>
+                <span>Featured in <a class="underline text-liteblue dark:text-blue-200" href="/explore">random exploration</a>.</span>
+            </div>
+        @elseif (siteInfo.randomStatus() == DomainStatus.PENDING_REVIEW)
+            <div class="mx-3 flex place-items-center space-x-2 p-2 text-sm bg-gray-100 dark:bg-gray-700 dark:text-gray-100 rounded">
+                <i class="fa-regular fa-hourglass-half text-margeblue dark:text-blue-200"></i>
+                <span>Suggested for random exploration. Awaiting review.</span>
+            </div>
+        @elseif (siteInfo.randomStatus() == DomainStatus.ELIGIBLE)
+            <form method="POST" action="/site/${siteInfo.domain()}/suggest-random"
+                  class="mx-3 p-3 flex items-center space-x-3 bg-gray-50 dark:bg-gray-700 border dark:border-gray-600 rounded">
+                <i class="fas fa-dice text-margeblue dark:text-blue-200"></i>
+                <div class="grow text-sm text-gray-700 dark:text-gray-200">
+                    Recommend this domain for random exploration?
+                </div>
+                <button type="submit"
+                        class="text-sm font-medium text-white bg-margeblue rounded-md py-1.5 px-3 shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:margeblue"
+                        title="Submit this domain for operator review">
+                    Suggest
+                </button>
+            </form>
+        @endif
+
+        @if (siteInfo.hasFeed())
+            <div class="mx-3 flex place-items-baseline space-x-2 p-2 bg-gray-100 dark:bg-gray-600 rounded">
+                <i class="fas fa-rss text-orange-500"></i>
+                <h2 class="grow">Feed</h2>
+
+                <form method="post" action="/site/${siteInfo.domain()}/subscribe">
+                @if (siteInfo.isSubscribed())
+                    <button type="submit">
+                    <i class="fa-solid fa-bookmark mr-2 text-blue-600 hover:text-blue-800 dark:text-blue-100 dark:hover:text-blue-400 cursor-pointer"
+                        title="Unsubscribe from the front page"></i>
+                    </button>
+                @else
+                    <button type="submit">
+                        <i class="fa-regular fa-bookmark mr-2 text-gray-600 hover:text-blue-800 dark:text-gray-100 dark:hover:text-gray-400 cursor-pointer"
+                           title="Add content to this feed to the front page"></i>
+                    </button>
+                @endif
+                </form>
+            </div>
+
+            <dl class="mx-3 text-gray-800 dark:text-white">
+                @for (SearchSiteInfoService.FeedItem item : siteInfo.feed().items())
+                    <dt class="ml-2 flex space-x-4">
+                        <a class="grow underline text-liteblue dark:text-blue-200 text-sm" rel="noopener nofollow external ugc" href="${item.url()}">
+                            ${item.title()} @if (item.title().isBlank()) [No Title] @endif
+                        </a>
+                        <span class="whitespace-nowrap">${item.pubDay()}</span>
+                    </dt>
+                    <dd class="ml-6 text-sm mb-4">${item.description()}</dd>
+                @endfor
+            </dl>
+
+        @endif
+
+        @if (siteInfo.hasSamples() && !siteInfo.hasFeed())
+
+            <div class="mx-3 flex place-items-baseline space-x-2 p-2 bg-gray-100 dark:bg-gray-600 rounded">
+                <i class="fas fa-magnifying-glass"></i>
+                <h2>Sample</h2>
+            </div>
+
+            <dl class="mx-3 text-gray-800 dark:text-white">
+                @for (UrlDetails item : siteInfo.samples())
+                    <dt class="ml-2">
+                        <a class="underline text-liteblue dark:text-blue-200 text-sm" rel="noopener nofollow external ugc" href="${item.userFacingUrl().toString()}">${item.title}</a>
+                    </dt>
+                    <dd class="ml-6 text-sm mb-4">${item.description}</dd>
+                @endfor
+            </dl>
+
+        @endif
+
+        @if (siteInfo.domainInformation().getUnknownDomain())
+            <div class="mx-3 flex place-items-baseline space-x-2 p-2 bg-gray-100 dark:bg-gray-600 rounded">
+                <i class="fa-regular fa-circle-question"></i>
+                <h2>Unknown Domain</h2>
+            </div>
+
+            <div class="mx-5 flex flex-col space-y-2">
+                <p>This website is not known to the search engine.</p>
+
+                <p>To submit the website for crawling, follow <a class="text-liteblue dark:text-blue-200 underline"
+                                                                 rel="noopener noreferrer"
+                                                                 target="_blank"
+                                                                 href="https://github.com/MarginaliaSearch/submit-site-to-marginalia-search">these instructions</a>.</p>
+            </div>
+
+        @endif
+
+        @if (siteInfo.domainInformation().getBlacklisted())
+            <div class="mx-3 flex place-items-baseline space-x-2 p-2 bg-gray-100 dark:bg-gray-600 rounded">
+                <i class="fas fa-ban"></i>
+                <h2>Blacklisted</h2>
+            </div>
+            <div class="mx-5 flex flex-col space-y-2">
+                <p>This website is <em>blacklisted</em>. This excludes it from crawling and indexing.</p>
+
+                <p>This is usually because of some form of misbehavior on the webmaster's end,
+                    either annoying search engine spam, or tasteless content bad faith content.</p>
+
+                <p>Sometimes this is in error.  Blacklisting can be appealed using
+                    the <a class="underline text-liteblue dark:text-blue-200" href="?view=report&sst=${siteInfo.sst()}">Report Form</a>.
+                </p>
+                <p>In the interest of transparency, the full list of blacklisted domains is periodically
+                    published at
+                    <a class="underline text-liteblue dark:text-blue-200" href="https://downloads.marginalia.nu/exports/">https://downloads.marginalia.nu/exports/</a>.
+                </p>
+            </div>
+        @endif
+
+        @if (siteInfo.domainInformation().getSuggestForCrawling() && siteInfo.domainInformation().getNodeAffinity() < 0)
+            <form method="POST"
+                  action="/site/suggest/">
+                <div class="max-w-md mx-auto p-6 bg-white shadow border dark:border-gray-600 border-gray-200  mx-1 flex space-y-4 flex-col">
+                    <div class="text-sm text-gray-600 mb-4">
+                        This website is not queued for crawling. If you would like it to be crawled,
+                        use the checkbox and button below.
+                    </div>
+
+                    <input type="hidden" name="id" value="${siteInfo.domainId()}" />
+
+                    <div class="flex items-center space-x-2">
+                        <input type="checkbox"
+                               id="nomisclick"
+                               name="nomisclick"
+                               class="h-4 w-4 rounded border-gray-300 text-margeblue dark:text-slate-200 focus:margeblue" />
+                        <label for="nomisclick" class="text-sm text-gray-700">
+                            This is not a mis-click
+                        </label>
+                    </div>
+
+                    <button type="submit"
+                            class="place-items-baseline space-x-4 w-full flex py-2 px-4 border dark:border-gray-600 border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-margeblue focus:outline-none focus:ring-2 focus:ring-offset-2 focus:margeblue">
+                        <i class="fas fa-plus"></i>
+                        <span>Add ${siteInfo.domain()} to queue</span>
+                    </button>
+                </div>
+            </form>
+        @endif
+
+        @if (!siteInfo.siblingDomains().isEmpty())
+            <div class="mx-3 flex place-items-baseline space-x-2 p-2 bg-gray-100 dark:bg-gray-600 rounded">
+                <i class="fas fa-globe"></i>
+                <h2>Related Subdomains</h2>
+            </div>
+
+            <table class="min-w-full divide-y divide-gray-200 dark:divide-gray-600 mx-4">
+                <thead>
+                <tr class="bg-gray-50 dark:bg-gray-700">
+                    <th scope="col" class="px-2 py-2 text-left text-xs font-medium text-gray-500 dark:text-gray-100 uppercase tracking-wider">Domain Name</th>
+                </tr>
+                </thead>
+                <tbody class="bg-white dark:bg-gray-800 divide-y divide-gray-200 dark:divide-gray-600 text-xs">
+                @for (DbDomainQueries.DomainWithNode sibling : siteInfo.siblingDomains())
+                    <tr>
+                        <td class="px-3 py-6 md:py-3 whitespace-nowrap">
+                            <a class="text-liteblue dark:text-blue-200 underline" href="/site/${sibling.domain().toString()}?sst=${siteInfo.sst()}">${sibling.domain().toString()}</a>
+
+                            @if (!sibling.isIndexed())
+                                <i class="ml-1 fa-regular fa-question-circle text-gray-400 dark:text-gray-600 text-xs" title="Not indexed"></i>
+                            @endif
+                        </td>
+                    </tr>
+                @endfor
+                </tbody>
+            </table>
+        @endif
+
+
+        @if (siteInfo.isKnown())
+            <div class="mx-3 flex place-items-baseline space-x-2 p-2 bg-gray-100 dark:bg-gray-600 rounded">
+                <i class="fas fa-chart-simple"></i>
+                <h2>Crawl Statistics</h2>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mx-6 sm:mx-8">
+                <div>
+                    <h3 class="text-sm text-gray-500 dark:text-gray-300">Pages Known</h3>
+                    <p class="text-xl font-medium">${siteInfo.domainInformation().getPagesKnown()}</p>
+                </div>
+                <div>
+                    <h3 class="text-sm text-gray-500 dark:text-gray-300">Pages Fetched</h3>
+                    <p class="text-xl font-medium">${siteInfo.domainInformation().getPagesFetched()}</p>
+                </div>
+                <div>
+                    <h3 class="text-sm text-gray-500 dark:text-gray-300">Pages Indexed</h3>
+                    <p class="text-xl font-medium">${siteInfo.domainInformation().getPagesIndexed()}</p>
+                </div>
+                <div>
+                    <h3 class="text-sm text-gray-500 dark:text-gray-300">Incoming Links</h3>
+                    <p class="text-xl font-medium">${siteInfo.domainInformation().getIncomingLinks()}</p>
+                </div>
+                <div>
+                    <h3 class="text-sm text-gray-500 dark:text-gray-300">Outbound Links</h3>
+                    <p class="text-xl font-medium ">${siteInfo.domainInformation().getOutboundLinks()}</p>
+                </div>
+                <div title="Which index partition the domain is indexed by">
+                    <h3 class="text-sm text-gray-500 dark:text-gray-300">Node Affinity</h3>
+                    <p class="text-xl font-medium">${siteInfo.domainInformation().getNodeAffinity()}</p>
+                </div>
+            </div>
+
+            @if (siteInfo.domainInformation().getPagesKnown() >= 5_000_000)
+            <div class="mx-5 text-xs text-gray-600">
+                This website is very large, and the system can not accurately report the number of crawled
+                and indexed documents without affecting performance.
+            </div>
+            @endif
+
+        @endif
+    </div>
+</div>
+
+@if (!siteInfo.similar().isEmpty() || !siteInfo.linking().isEmpty())
+    <div class="mx-auto md:py-4 px-4 flex-1 space-y-4 content md:block w-full md:w-auto hidden sm:block">
+        @template.siteinfo.part.linkedDomains(title = "Similar Domains", sst = siteInfo.sst(), domainName = siteInfo.domain(), list = siteInfo.similar())
+        @template.siteinfo.part.linkedDomains(title = "Linked Domains", sst = siteInfo.sst(), domainName = siteInfo.domain(), list = siteInfo.linking())
+    </div>
+    <aside id="mobile-menu" class="fixed inset-0 z-50 flex justify-center bg-white/90 dark:bg-black/90 backdrop-blur-sm hidden p-2 h-screen overflow-scroll">
+        <div class="w-full">
+        @template.siteinfo.part.linkedDomains(title = "Similar Domains", sst = siteInfo.sst(), domainName = siteInfo.domain(), list = siteInfo.similar())
+        @template.siteinfo.part.linkedDomains(title = "Linked Domains", sst = siteInfo.sst(), domainName = siteInfo.domain(), list = siteInfo.linking())
+        </div>
+    </aside>
+    <button class="fixed bottom-10 right-5 sm:hidden text-sm bg-margeblue text-white p-4 rounded-xl active:text-slate-200" id="filter-button">
+        <i class="fas fa-filter mr-3"></i>
+        Similar
+    </button>
+@endif
+

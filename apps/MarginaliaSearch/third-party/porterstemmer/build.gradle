@@ -1,0 +1,32 @@
+plugins {
+    id 'java'
+    id "me.champeau.jmh" version "0.7.3"
+}
+
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(rootProject.ext.jvmVersion))
+    }
+}
+
+dependencies {
+    testImplementation libs.bundles.junit
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+jmh {
+    jvmArgs = [ "--enable-preview" ]
+    profilers = [ "gc" ]
+}
+tasks.withType(me.champeau.jmh.WithJavaToolchain).configureEach {
+    javaLauncher.set(javaToolchains.launcherFor {
+        languageVersion.set(JavaLanguageVersion.of(rootProject.ext.jvmVersion))
+    })
+}
+tasks.withType(me.champeau.jmh.JmhBytecodeGeneratorTask).configureEach {
+    jvmArgs = ["--enable-preview"]
+}
+
+test {
+    useJUnitPlatform()
+}

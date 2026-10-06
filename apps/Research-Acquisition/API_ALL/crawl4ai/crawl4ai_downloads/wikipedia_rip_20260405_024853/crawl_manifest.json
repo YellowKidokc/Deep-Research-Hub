@@ -1,0 +1,359 @@
+{
+  "generated_at": "2026-04-05T02:51:13",
+  "allowed_host": "en.wikipedia.org",
+  "max_pages": 50,
+  "delay_seconds": 1.5,
+  "pages_crawled": 50,
+  "records": [
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_conspiracy_theories",
+      "title": "List of conspiracy theories - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_List_of_conspiracy_theories.md",
+      "discovered_at": "2026-04-05T02:48:57",
+      "outgoing_links": 1514
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/MKUltra",
+      "title": "MKUltra - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_MKUltra.md",
+      "discovered_at": "2026-04-05T02:49:00",
+      "outgoing_links": 484
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Jeffrey_Epstein",
+      "title": "Jeffrey Epstein - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Jeffrey_Epstein.md",
+      "discovered_at": "2026-04-05T02:49:04",
+      "outgoing_links": 506
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Main_Page",
+      "title": "Wikipedia, the free encyclopedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Main_Page.md",
+      "discovered_at": "2026-04-05T02:49:06",
+      "outgoing_links": 102
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Eye_of_Providence",
+      "title": "Eye of Providence - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Eye_of_Providence.md",
+      "discovered_at": "2026-04-05T02:49:08",
+      "outgoing_links": 190
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Founding_Fathers_of_the_United_States",
+      "title": "Founding Fathers of the United States - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Founding_Fathers_of_the_United_States.md",
+      "discovered_at": "2026-04-05T02:49:14",
+      "outgoing_links": 2615
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Illuminati",
+      "title": "Illuminati - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Illuminati.md",
+      "discovered_at": "2026-04-05T02:49:16",
+      "outgoing_links": 643
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Conspiracy_theory",
+      "title": "Conspiracy theory - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Conspiracy_theory.md",
+      "discovered_at": "2026-04-05T02:49:20",
+      "outgoing_links": 1084
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Historical_method",
+      "title": "Historical method - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Historical_method.md",
+      "discovered_at": "2026-04-05T02:49:23",
+      "outgoing_links": 810
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Scientific_method",
+      "title": "Scientific method - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Scientific_method.md",
+      "discovered_at": "2026-04-05T02:49:26",
+      "outgoing_links": 801
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Conspiracy",
+      "title": "Conspiracy - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Conspiracy.md",
+      "discovered_at": "2026-04-05T02:49:28",
+      "outgoing_links": 143
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Himmler",
+      "title": "Operation Himmler - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Operation_Himmler.md",
+      "discovered_at": "2026-04-05T02:49:30",
+      "outgoing_links": 141
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Falsifiability",
+      "title": "Falsifiability - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Falsifiability.md",
+      "discovered_at": "2026-04-05T02:49:34",
+      "outgoing_links": 654
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Prima_facie",
+      "title": "Prima facie - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Prima_facie.md",
+      "discovered_at": "2026-04-05T02:49:36",
+      "outgoing_links": 55
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Occam%27s_razor",
+      "title": "Occam's razor - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Occam%27s_razor.md",
+      "discovered_at": "2026-04-05T02:49:39",
+      "outgoing_links": 900
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Paranoia",
+      "title": "Paranoia - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Paranoia.md",
+      "discovered_at": "2026-04-05T02:49:41",
+      "outgoing_links": 676
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Schizotypy",
+      "title": "Schizotypy - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Schizotypy.md",
+      "discovered_at": "2026-04-05T02:49:44",
+      "outgoing_links": 117
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Narcissism",
+      "title": "Narcissism - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Narcissism.md",
+      "discovered_at": "2026-04-05T02:49:46",
+      "outgoing_links": 145
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Insecure_attachment",
+      "title": "Attachment theory - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Insecure_attachment.md",
+      "discovered_at": "2026-04-05T02:49:49",
+      "outgoing_links": 682
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Cognitive_bias",
+      "title": "Cognitive bias - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Cognitive_bias.md",
+      "discovered_at": "2026-04-05T02:49:52",
+      "outgoing_links": 767
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Illusory_pattern_perception",
+      "title": "Apophenia - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Illusory_pattern_perception.md",
+      "discovered_at": "2026-04-05T02:49:54",
+      "outgoing_links": 227
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Scientific_consensus",
+      "title": "Scientific consensus - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Scientific_consensus.md",
+      "discovered_at": "2026-04-05T02:49:56",
+      "outgoing_links": 244
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Evolutionary_psychology",
+      "title": "Evolutionary psychology - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Evolutionary_psychology.md",
+      "discovered_at": "2026-04-05T02:50:00",
+      "outgoing_links": 1235
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Evolutionary_origin_of_anxiety",
+      "title": "Anxiety - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Evolutionary_origin_of_anxiety.md",
+      "discovered_at": "2026-04-05T02:50:03",
+      "outgoing_links": 512
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Agent_detection",
+      "title": "Agent detection - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Agent_detection.md",
+      "discovered_at": "2026-04-05T02:50:05",
+      "outgoing_links": 296
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Pseudohistory",
+      "title": "Pseudohistory - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Pseudohistory.md",
+      "discovered_at": "2026-04-05T02:50:08",
+      "outgoing_links": 528
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Pope_Sylvester_II",
+      "title": "Pope Sylvester II - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Pope_Sylvester_II.md",
+      "discovered_at": "2026-04-05T02:50:10",
+      "outgoing_links": 495
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Phantom_time_hypothesis",
+      "title": "Phantom time conspiracy theory - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Phantom_time_hypothesis.md",
+      "discovered_at": "2026-04-05T02:50:13",
+      "outgoing_links": 721
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Millennialism",
+      "title": "Millennialism - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Millennialism.md",
+      "discovered_at": "2026-04-05T02:50:15",
+      "outgoing_links": 494
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/New_chronology_(Fomenko)",
+      "title": "New chronology (Fomenko) - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_New_chronology_(Fomenko).md",
+      "discovered_at": "2026-04-05T02:50:18",
+      "outgoing_links": 474
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Anatoly_Fomenko",
+      "title": "Anatoly Fomenko - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Anatoly_Fomenko.md",
+      "discovered_at": "2026-04-05T02:50:20",
+      "outgoing_links": 91
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Garry_Kasparov",
+      "title": "Garry Kasparov - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Garry_Kasparov.md",
+      "discovered_at": "2026-04-05T02:50:23",
+      "outgoing_links": 478
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Pre-M%C4%81ori_settlement_of_New_Zealand_theories",
+      "title": "Pre-M\u0101ori settlement of New Zealand theories - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Pre-M%C4%81ori_settlement_of_New_Zealand_theories.md",
+      "discovered_at": "2026-04-05T02:50:25",
+      "outgoing_links": 141
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/New_Zealand",
+      "title": "New Zealand - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_New_Zealand.md",
+      "discovered_at": "2026-04-05T02:50:30",
+      "outgoing_links": 1205
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/M%C4%81ori_people",
+      "title": "M\u0101ori people - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_M%C4%81ori_people.md",
+      "discovered_at": "2026-04-05T02:50:33",
+      "outgoing_links": 930
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Polynesia",
+      "title": "Polynesia - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Polynesia.md",
+      "discovered_at": "2026-04-05T02:50:37",
+      "outgoing_links": 1141
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Moriori",
+      "title": "Moriori - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Moriori.md",
+      "discovered_at": "2026-04-05T02:50:40",
+      "outgoing_links": 631
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Chatham_Islands",
+      "title": "Chatham Islands - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Chatham_Islands.md",
+      "discovered_at": "2026-04-05T02:50:42",
+      "outgoing_links": 484
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/M%C4%81ori_mythology",
+      "title": "M\u0101ori mythology - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_M%C4%81ori_mythology.md",
+      "discovered_at": "2026-04-05T02:50:45",
+      "outgoing_links": 609
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Patupaiarehe",
+      "title": "Patupaiarehe - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Patupaiarehe.md",
+      "discovered_at": "2026-04-05T02:50:47",
+      "outgoing_links": 464
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Chinese_people",
+      "title": "Chinese people - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Chinese_people.md",
+      "discovered_at": "2026-04-05T02:50:50",
+      "outgoing_links": 112
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Spaniards",
+      "title": "Spaniards - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Spaniards.md",
+      "discovered_at": "2026-04-05T02:50:52",
+      "outgoing_links": 463
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Pseudoarchaeology",
+      "title": "Pseudoarchaeology - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Pseudoarchaeology.md",
+      "discovered_at": "2026-04-05T02:50:55",
+      "outgoing_links": 590
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Polynesian_rat",
+      "title": "Polynesian rat - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Polynesian_rat.md",
+      "discovered_at": "2026-04-05T02:50:57",
+      "outgoing_links": 229
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Tephra",
+      "title": "Tephra - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Tephra.md",
+      "discovered_at": "2026-04-05T02:51:00",
+      "outgoing_links": 181
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Hatepe_eruption",
+      "title": "Hatepe eruption - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Hatepe_eruption.md",
+      "discovered_at": "2026-04-05T02:51:02",
+      "outgoing_links": 84
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Kaimanawa_wall",
+      "title": "Kaimanawa Range - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Kaimanawa_wall.md",
+      "discovered_at": "2026-04-05T02:51:04",
+      "outgoing_links": 53
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Pyramid",
+      "title": "Pyramid - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Pyramid.md",
+      "discovered_at": "2026-04-05T02:51:07",
+      "outgoing_links": 796
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Tartarian_Empire",
+      "title": "Tartarian Empire - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Tartarian_Empire.md",
+      "discovered_at": "2026-04-05T02:51:09",
+      "outgoing_links": 66
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Tartary",
+      "title": "Tartary - Wikipedia",
+      "saved_file": "D:\\GitHub\\crawl4ai\\crawl4ai_downloads\\wikipedia_rip_20260405_024853\\pages\\en.wikipedia.org_wiki_Tartary.md",
+      "discovered_at": "2026-04-05T02:51:11",
+      "outgoing_links": 197
+    }
+  ]
+}

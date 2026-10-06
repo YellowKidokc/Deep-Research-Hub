@@ -1,0 +1,139 @@
+{
+  "version": "2.0",
+  "generated": "2026-10-03",
+  "total_questions": 80,
+  "sections": [
+    {"id": "S-EVIL", "name": "Evil and suffering", "questions": [
+      {"id": "Q-EVIL-LOGICAL", "text": "Is God's existence logically incompatible with evil?", "type": "academic"},
+      {"id": "Q-EVIL-EVIDENTIAL", "text": "Does the amount or kind of suffering make God unlikely?", "type": "academic"},
+      {"id": "Q-EVIL-REAL-GOOD", "text": "If God is real, why do bad things happen to good people?", "type": "real", "status": "drafted"},
+      {"id": "Q-EVIL-REAL-CHILDREN", "text": "Why would God let children die?", "type": "real", "status": "drafted"},
+      {"id": "Q-EVIL-REAL-HATE", "text": "If God is love, why is there so much hate done in his name?", "type": "real"}
+    ], "search_seeds": ["problem of evil philosophical argument", "why does God allow suffering", "logical problem of evil Plantinga Mackie", "evidential problem of evil Rowe", "theodicy best arguments"]},
+    {"id": "S-MORAL", "name": "Morality", "questions": [
+      {"id": "Q-MORAL-OBJECTIVE", "text": "Is morality objective or subjective?", "type": "academic"},
+      {"id": "Q-MORAL-EXPERIENCE", "text": "Does moral experience show belief in objective morality?", "type": "academic"},
+      {"id": "Q-MORAL-EVOLUTION", "text": "Can evolution ground moral obligation?", "type": "academic"},
+      {"id": "Q-MORAL-GOD", "text": "Does objective morality require God?", "type": "academic"},
+      {"id": "Q-MORAL-REAL-HELL", "text": "Why would God send good people to hell?", "type": "real", "status": "drafted"},
+      {"id": "Q-MORAL-REAL-NEVERHEARD", "text": "What about people who never heard of Jesus?", "type": "real"},
+      {"id": "Q-MORAL-REAL-PREDESTINATION", "text": "If God knows everything, why create people he knew would go to hell?", "type": "real"}
+    ], "search_seeds": ["moral argument for God", "objective morality without God", "evolutionary morality", "problem of hell", "predestination free will"]},
+    {"id": "S-REVELATION", "name": "Revelation and hiddenness", "questions": [
+      {"id": "Q-REV-EXPECT", "text": "Would a maximally great God reveal himself?", "type": "academic"},
+      {"id": "Q-REV-HIDDEN", "text": "Why is God not more evident?", "type": "academic"},
+      {"id": "Q-REV-REAL-SHOWUP", "text": "Why doesn't God just show himself?", "type": "real", "status": "drafted"},
+      {"id": "Q-REV-REAL-WORSHIP", "text": "Why does God need to be worshipped?", "type": "real"}
+    ], "search_seeds": ["divine hiddenness argument Schellenberg", "why doesn't God reveal himself", "why does God want worship"]},
+    {"id": "S-BIBLE", "name": "The Bible", "questions": [
+      {"id": "Q-BIBLE-RELIABLE", "text": "Are the biblical texts historically reliable?", "type": "academic"},
+      {"id": "Q-BIBLE-TRANSMISSION", "text": "Has the text been transmitted accurately?", "type": "academic"},
+      {"id": "Q-BIBLE-VARIANTS", "text": "Do textual variants change any core teaching?", "type": "academic"},
+      {"id": "Q-BIBLE-AUTHORSHIP", "text": "Were the Gospels written by their traditional authors?", "type": "academic"},
+      {"id": "Q-BIBLE-DATING", "text": "Were the Gospels written within eyewitness memory?", "type": "academic"},
+      {"id": "Q-BIBLE-GENRE", "text": "What kind of literature are the Gospels?", "type": "academic"},
+      {"id": "Q-BIBLE-CANON", "text": "How was the canon formed?", "type": "academic"},
+      {"id": "Q-BIBLE-ARCHAEOLOGY", "text": "Does archaeology confirm biblical history?", "type": "academic"},
+      {"id": "Q-BIBLE-PROPHECY", "text": "Does fulfilled prophecy show divine inspiration?", "type": "academic"},
+      {"id": "Q-BIBLE-CONTRADICTIONS", "text": "Does the Bible contradict itself or science?", "type": "academic"},
+      {"id": "Q-BIBLE-REAL-STORIES", "text": "Isn't the Bible just stories written by men?", "type": "real"},
+      {"id": "Q-BIBLE-REAL-TRANSLATED", "text": "Why trust a book translated for thousands of years?", "type": "real"}
+    ], "search_seeds": ["Bible historical reliability", "textual criticism New Testament", "Bible contradictions answered", "Gospel authorship evidence", "Bible archaeology"]},
+    {"id": "S-METHOD", "name": "Evaluating the case", "questions": [
+      {"id": "Q-METHOD-GAPS", "text": "Is this positive evidence or argument from gaps?", "type": "academic"},
+      {"id": "Q-METHOD-CUMULATIVE", "text": "Do separate arguments jointly strengthen the case?", "type": "academic"},
+      {"id": "Q-METHOD-AUTHORITY", "text": "How should worldview commitments weigh?", "type": "academic"},
+      {"id": "Q-METHOD-SCIENCE-FAITH", "text": "Are science and faith in conflict?", "type": "academic"},
+      {"id": "Q-METHOD-REAL-SCIENCE", "text": "How can you believe in God when science explains everything?", "type": "real"},
+      {"id": "Q-METHOD-REAL-FAITH", "text": "Isn't faith just believing without evidence?", "type": "real", "status": "drafted"}
+    ], "search_seeds": ["science vs religion", "faith without evidence", "God of the gaps", "cumulative case apologetics"]},
+    {"id": "S-RELIGIONS", "name": "Other religions", "questions": [
+      {"id": "Q-REL-ISLAM", "text": "Is Islam's account credible?", "type": "academic"},
+      {"id": "Q-REL-OTHER", "text": "Are other religions credible alternatives?", "type": "academic"},
+      {"id": "Q-REL-REAL-EXCLUSIVE", "text": "How can one religion be right and everyone else wrong?", "type": "real"}
+    ], "search_seeds": ["Christianity vs Islam debate", "religious pluralism", "exclusive truth claims"]},
+    {"id": "S-EXIST", "name": "Existence and explanation", "questions": [
+      {"id": "Q-EXIST-WHY", "text": "Why does anything exist at all?", "type": "academic"},
+      {"id": "Q-EXIST-BRUTE", "text": "Can the universe be a brute fact?", "type": "academic"},
+      {"id": "Q-EXIST-NECESSARY", "text": "Must something exist necessarily?", "type": "academic"},
+      {"id": "Q-EXIST-AGNOSTIC", "text": "Is withholding judgment justified?", "type": "academic"},
+      {"id": "Q-EXIST-REAL-INVENTED", "text": "Didn't humans invent God because they were scared?", "type": "real"}
+    ], "search_seeds": ["why is there something rather than nothing", "contingency argument", "brute fact universe", "Leibniz cosmological argument"]},
+    {"id": "S-BEGIN", "name": "Beginning of the universe", "questions": [
+      {"id": "Q-BEGIN-ABSOLUTE", "text": "Did physical reality have an absolute beginning?", "type": "academic"},
+      {"id": "Q-BEGIN-INFINITE-PAST", "text": "Can an actually infinite past exist?", "type": "academic"},
+      {"id": "Q-BEGIN-MODELS", "text": "Are pre-Big-Bang models viable?", "type": "academic"},
+      {"id": "Q-BEGIN-PROLIFERATION", "text": "Does proliferation of origin models indicate weakness?", "type": "academic"},
+      {"id": "Q-BEGIN-CAUSE", "text": "Does whatever begins need a cause?", "type": "academic"},
+      {"id": "Q-BEGIN-NOTHING", "text": "What does nothing mean in something from nothing?", "type": "academic"},
+      {"id": "Q-BEGIN-NATURALISM", "text": "Would a beginning rule out naturalism?", "type": "academic"},
+      {"id": "Q-BEGIN-LAWS", "text": "Do laws explain why reality exists?", "type": "academic"}
+    ], "search_seeds": ["kalam cosmological argument", "universe beginning evidence", "something from nothing Krauss", "infinite past impossible"]},
+    {"id": "S-CAUSE", "name": "First cause to God", "questions": [
+      {"id": "Q-CAUSE-ATTRIBUTES", "text": "Must an ultimate cause be personal?", "type": "academic"},
+      {"id": "Q-CAUSE-WHICH-GOD", "text": "What identifies the cause with the Christian God?", "type": "academic"}
+    ], "search_seeds": ["first cause attributes", "cosmological argument which God", "unmoved mover Aquinas"]},
+    {"id": "S-FINE", "name": "Fine-tuning", "questions": [
+      {"id": "Q-FINE-EXPLANATION", "text": "Is design better than chance or necessity?", "type": "academic"},
+      {"id": "Q-FINE-MULTIVERSE", "text": "Does a multiverse explain fine-tuning?", "type": "academic"},
+      {"id": "Q-FINE-OTHER-PARAMS", "text": "Could different parameters permit life?", "type": "academic"},
+      {"id": "Q-FINE-SIZE", "text": "Does universe size count against design?", "type": "academic"},
+      {"id": "Q-FINE-PLANET", "text": "Are Earth's conditions better explained by design?", "type": "academic"}
+    ], "search_seeds": ["fine tuning argument", "multiverse vs design", "cosmological constants life", "anthropic principle"]},
+    {"id": "S-LIFE", "name": "Origin of life", "questions": [
+      {"id": "Q-LIFE-ABIOGENESIS", "text": "Can nonliving chemistry produce life?", "type": "academic"},
+      {"id": "Q-LIFE-INFORMATION", "text": "Does biological information require intelligence?", "type": "academic"},
+      {"id": "Q-LIFE-EVOLUTION", "text": "Can unguided evolution explain complexity?", "type": "academic"}
+    ], "search_seeds": ["origin of life chemistry", "DNA information intelligent design", "James Tour abiogenesis"]},
+    {"id": "S-MIND", "name": "Consciousness", "questions": [
+      {"id": "Q-MIND-PHYSICAL", "text": "Can consciousness be entirely physical?", "type": "academic"},
+      {"id": "Q-MIND-EMERGENCE", "text": "Does complexity explain consciousness?", "type": "academic"},
+      {"id": "Q-MIND-IDENTITY", "text": "What explains continuing identity?", "type": "academic"},
+      {"id": "Q-MIND-SURVIVAL", "text": "Do NDEs show mind survives death?", "type": "academic"}
+    ], "search_seeds": ["hard problem of consciousness", "near death experience evidence", "personal identity philosophy"]},
+    {"id": "S-AGENCY", "name": "Free will", "questions": [
+      {"id": "Q-AGENCY-RESPONSIBILITY", "text": "Does moral responsibility require genuine choice?", "type": "academic"},
+      {"id": "Q-AGENCY-SOUL", "text": "Does agency require a nonphysical soul?", "type": "academic"}
+    ], "search_seeds": ["free will determinism moral responsibility", "libertarian free will", "agent causation"]},
+    {"id": "S-REASON", "name": "Reason and truth", "questions": [
+      {"id": "Q-REASON-CHOICE", "text": "Does reasoning require free choice?", "type": "academic"},
+      {"id": "Q-REASON-EAAN", "text": "Would unguided evolution give trustworthy reasoning?", "type": "academic"}
+    ], "search_seeds": ["evolutionary argument against naturalism Plantinga", "argument from reason Lewis"]},
+    {"id": "S-JESUS", "name": "Jesus and Christianity", "questions": [
+      {"id": "Q-JESUS-EXISTENCE", "text": "Did Jesus exist historically?", "type": "academic"},
+      {"id": "Q-JESUS-CLAIMS", "text": "Did Jesus claim to be God?", "type": "academic"},
+      {"id": "Q-JESUS-EARLY-CHRISTOLOGY", "text": "Was belief in Jesus' divinity early?", "type": "academic"},
+      {"id": "Q-JESUS-COPYCAT", "text": "Was the Jesus story borrowed from pagan myths?", "type": "academic"},
+      {"id": "Q-JESUS-RESURRECTION", "text": "Did Jesus rise from the dead?", "type": "academic"},
+      {"id": "Q-JESUS-MIRACLES", "text": "Are Gospel miracle claims reliable?", "type": "academic"},
+      {"id": "Q-JESUS-INFLUENCE", "text": "Does Jesus' influence support divine identity?", "type": "academic"},
+      {"id": "Q-XIAN-UNIQUE", "text": "Is Christianity unique among religions?", "type": "academic"}
+    ], "search_seeds": ["historical Jesus evidence", "Jesus claimed God evidence", "resurrection evidence Habermas", "Jesus myth debunked", "early high christology"]},
+    {"id": "S-SPIRIT", "name": "Spiritual realm", "questions": [
+      {"id": "Q-SPIRIT-DEMONIC", "text": "Do demonic phenomena exist?", "type": "academic"}
+    ], "search_seeds": ["demonic possession evidence", "paranormal Christian explanation"]},
+    {"id": "S-SOCIETY", "name": "Culture and society", "questions": [
+      {"id": "Q-SOC-ATHEISM-EFFECTS", "text": "Does atheism harm society?", "type": "academic"},
+      {"id": "Q-SOC-ETHICS", "text": "What should Christians do about cultural issues?", "type": "academic"}
+    ], "search_seeds": ["atheism secularism effects society", "Christianity western civilization"]},
+    {"id": "S-CHURCH", "name": "The church", "questions": [
+      {"id": "Q-CHURCH-HYPOCRISY", "text": "Why is the church full of hypocrites?", "type": "real"},
+      {"id": "Q-CHURCH-HURT", "text": "What about people hurt by the church?", "type": "real"},
+      {"id": "Q-CHURCH-PASTORKID", "text": "Christians are no different from anyone else.", "type": "real"},
+      {"id": "Q-CHURCH-HISTORY", "text": "What about the Crusades, Inquisition, slavery?", "type": "real"}
+    ], "search_seeds": ["church hypocrisy response", "Crusades Inquisition Christian response", "hurt by church"]},
+    {"id": "S-PERSONAL", "name": "Personal experience", "questions": [
+      {"id": "Q-PERSONAL-TRIED", "text": "I tried Christianity and it didn't work.", "type": "real"},
+      {"id": "Q-PERSONAL-PRAYER", "text": "I prayed and nothing happened.", "type": "real"},
+      {"id": "Q-PERSONAL-LOSS", "text": "I lost someone. Where was God?", "type": "real", "status": "drafted"},
+      {"id": "Q-PERSONAL-UNWORTHY", "text": "I've done too much wrong.", "type": "real", "status": "drafted"},
+      {"id": "Q-PERSONAL-GOOD-ENOUGH", "text": "I'm a good person. Why do I need Jesus?", "type": "real", "status": "drafted"}
+    ], "search_seeds": ["tried Christianity didn't work", "unanswered prayer", "where was God when", "too sinful for God"]},
+    {"id": "S-ORIGIN", "name": "Where God came from", "questions": [
+      {"id": "Q-ORIGIN-INVENTED", "text": "Didn't people just make up God?", "type": "real"},
+      {"id": "Q-ORIGIN-CONTROL", "text": "Isn't religion just a tool to control people?", "type": "real"},
+      {"id": "Q-ORIGIN-FEAR", "text": "Isn't God just a coping mechanism?", "type": "real"},
+      {"id": "Q-ORIGIN-CULTURE", "text": "Born elsewhere, you'd believe differently.", "type": "real"}
+    ], "search_seeds": ["religion invented by humans", "religion tool for control Marx", "God coping mechanism Freud", "geographic religion argument"]}
+  ]
+}

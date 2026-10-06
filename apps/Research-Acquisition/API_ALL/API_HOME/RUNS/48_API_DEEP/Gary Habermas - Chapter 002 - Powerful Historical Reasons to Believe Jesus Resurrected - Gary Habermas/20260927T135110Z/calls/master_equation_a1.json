@@ -1,0 +1,112 @@
+{
+  "name": "master_equation_a1",
+  "parsed": {
+    "paper": "Powerful Historical Reasons to Believe Jesus Resurrected - Gary Habermas",
+    "core_relation": {
+      "sentence": "The conclusion that Jesus was resurrected rests on a set of 'minimal facts' that are (1) multiply attested by many independent pieces of evidence and (2) conceded by virtually all critical scholars, so that the historical case stands only if every one of these facts holds.",
+      "quote": "Number one, I will use no data that are not strongly evidenced by many other pieces of data. This is not the same as multiple attestation of texts, but you could call it multiple attestation of arguments. Every fact I use will have many facts coming in. [S348-S350]"
+    },
+    "product_test": {
+      "answer": "multiplicative",
+      "quote": "If you take this approved list, you can refute you can give the major reputations of every naturalistic theory. [S646-S647] ... these facts are enough. Critics don't go after them. [S667-S668]",
+      "reason": "Habermas treats the six minimal facts as a joint necessary set: the resurrection conclusion is argued to follow only when all six are granted together, and the apologetic force is presented as collapsing if any single fact is removed (e.g., 'he's got to be dead before he could be raised' [S364], and the whole naturalistic-theory rebuttal depends on the full approved list). The framing is conjunctive rather than additive."
+    },
+    "slots": [
+      {
+        "slot": "G",
+        "plays_role": "External negentropy influx: the revelatory/divine initiative that supplies the data and the resurrection event itself, which the human evidence cannot generate on its own.",
+        "quote": "if he's raised from the dead, dead men can't raise themselves. So the father would have according to Jesus, the father acted on him. [S469-S470]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "M",
+        "plays_role": "Alignment: the apostolic eyewitnesses' alignment with the reference (Jesus), evidenced by their willingness to suffer and die rather than recant.",
+        "quote": "the disciples were transformed. I don't say I can prove all the disciples died as martyrs. I say they were willing to die. [S431-S434]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "E",
+        "plays_role": "Signal fidelity: the transmission of testimony through early creeds and eyewitness chains, argued to preserve the original message without corruption.",
+        "quote": "I delivered unto you that which I also received. I gave you what I was given. See, it's not mine. [S142-S144]",
+        "fit": "direct"
+      },
+      {
+        "slot": "S_eff",
+        "plays_role": "Effective entropy: the noise/doubt/naturalistic theories and the passage of time that would degrade the testimony, which the early dating and multiple attestation are said to counteract.",
+        "quote": "Most critics today have given up naturalistic theories. [S649] ... History can't prove miracles, comma. But neither can history disprove miracles. [S698-S701]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "T",
+        "plays_role": "Temporal integration: the very short time gap between the cross and the creeds (2-3 years, or 20 years max) is the central argument that the tradition is early and therefore reliable.",
+        "quote": "Bartman says, 'We have several of these high christologology texts from two to three years after the cross.' [S266]",
+        "fit": "direct"
+      },
+      {
+        "slot": "K",
+        "plays_role": "Compression: the creedal passages are compact summaries that encode the core gospel (deity, death, resurrection) in highly compressible form.",
+        "quote": "They're little tiny snippets that appear in the text. [S153] ... these couple dozen creedle texts are 80% of them are on the facts of the gospel, deity, death, resurrection of Jesus. [S199]",
+        "fit": "direct"
+      },
+      {
+        "slot": "R",
+        "plays_role": "Phase transition: the resurrection is treated as a discrete, non-gradual event that changes the state of the disciples and the worldview, not merely a degree of improvement.",
+        "quote": "if Jesus predicted ahead of time, that means he had knowledge of it. If he had knowledge of it, he's part of the plan. And if he's part of the plan, it's bigger than him. [S467-S469]",
+        "fit": "stretched"
+      },
+      {
+        "slot": "Q",
+        "plays_role": "Superposition: the open possibility that the evidence could be explained by a naturalistic theory until the minimal facts are actualized as a cumulative case; Habermas notes critics may 'fill in the blank' with any theory.",
+        "quote": "What really happened was fill in the blank. You say whatever you want. [S651-S653]",
+        "fit": "stretched"
+      },
+      {
+        "slot": "F",
+        "plays_role": "Non-local correlation: the appearances to groups and individuals, and the chain of eyewitnesses (Peter, James, Paul) whose testimonies are correlated and mutually reinforcing.",
+        "quote": "Six. Three appearances to individuals, three appearances to groups. That's very, very important. The group appearances in particular. [S147-S151]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "C",
+        "plays_role": "Integration: the historian/apologist (Habermas) as the local integrator who assembles the minimal facts into a coherent cumulative case.",
+        "quote": "I'm going to use two kinds of facts. Number one is by far the most important criterion. Number one, I will use no data that are not strongly evidenced by many other pieces of data. [S347-S348]",
+        "fit": "direct"
+      }
+    ],
+    "breaks": [
+      "The paper treats the empty tomb as an optional additional fact (conceded by ~75% of scholars) rather than a required factor, whereas the master equation treats all factors as jointly necessary.",
+      "The 'minimal facts' are not strictly multiplicative in the sense of a single zero collapsing the whole: Habermas allows that some facts are conceded by 'virtually every' scholar while others (empty tomb) are not, and the argument can proceed with a subset. This weakens the strict product analogy.",
+      "The role of faith is explicitly separated from evidence ('Faith is a response to data' [S710]) and is not modeled as a factor in the historical equation, introducing an element with no clean slot."
+    ],
+    "extra_factors": [
+      "The concept of 'enemy attestation' [S051] — a compliment from a hostile source — functions as an additional reliability multiplier not clearly mapped to any single slot.",
+      "The 'criteria' of authenticity (embarrassment, Aramaic substrata, eyewitness, early date) [S012-S113] act as a meta-methodological layer, not a slot.",
+      "The distinction between 'faith' as a response to data vs. a way of knowing [S706-S715] is an epistemological addition outside the product."
+    ],
+    "analog_strength": 3,
+    "confidence": "medium",
+    "one_line": "Habermas's minimal-facts argument is a conjunctive historical case whose reliability factors (early dating, eyewitness testimony, creedal compression, multiple attestation) map analogously onto the master equation's product, though the paper's explicit treatment of faith and the empty tomb as optional weakens the strict multiplicative analogy.",
+    "equations_present": false
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "master_equation_a1",
+      "attempt": 1,
+      "text": "{\n  \"paper\": \"Powerful Historical Reasons to Believe Jesus Resurrected - Gary Habermas\",\n  \"core_relation\": {\n    \"sentence\": \"The conclusion that Jesus was resurrected rests on a set of 'minimal facts' that are (1) multiply attested by many independent pieces of evidence and (2) conceded by virtually all critical scholars, so that the historical case stands only if every one of these facts holds.\",\n    \"quote\": \"Number one, I will use no data that are not strongly evidenced by many other pieces of data. This is not the same as multiple attestation of texts, but you could call it multiple attestation of arguments. Every fact I use will have many facts coming in. [S348-S350]\"\n  },\n  \"product_test\": {\n    \"answer\": \"multiplicative\",\n    \"quote\": \"If you take this approved list, you can refute you can give the major reputations of every naturalistic theory. [S646-S647] ... these facts are enough. Critics don't go after them. [S667-S668]\",\n    \"reason\": \"Habermas treats the six minimal facts as a joint necessary set: the resurrection conclusion is argued to follow only when all six are granted together, and the apologetic force is presented as collapsing if any single fact is removed (e.g., 'he's got to be dead before he could be raised' [S364], and the whole naturalistic-theory rebuttal depends on the full approved list). The framing is conjunctive rather than additive.\"\n  },\n  \"slots\": [\n    {\n      \"slot\": \"G\",\n      \"plays_role\": \"External negentropy influx: the revelatory/divine initiative that supplies the data and the resurrection event itself, which the human evidence cannot generate on its own.\",\n      \"quote\": \"if he's raised from the dead, dead men can't raise themselves. So the father would have according to Jesus, the father acted on him. [S469-S470]\",\n      \"fit\": \"analogous\"\n    },\n    {\n      \"slot\": \"M\",\n      \"plays_role\": \"Alignment: the apostolic eyewitnesses' alignment with the reference (Jesus), evidenced by their willingness to suffer and die rather than recant.\",\n      \"quote\": \"the disciples were transformed. I don't say I can prove all the disciples died as martyrs. I say they were willing to die. [S431-S434]\",\n      \"fit\": \"analogous\"\n    },\n    {\n      \"slot\": \"E\",\n      \"plays_role\": \"Signal fidelity: the transmission of testimony through early creeds and eyewitness chains, argued to preserve the original message without corruption.\",\n      \"quote\": \"I delivered unto you that which I also received. I gave you what I was given. See, it's not mine. [S142-S144]\",\n      \"fit\": \"direct\"\n    },\n    {\n      \"slot\": \"S_eff\",\n      \"plays_role\": \"Effective entropy: the noise/doubt/naturalistic theories and the passage of time that would degrade the testimony, which the early dating and multiple attestation are said to counteract.\",\n      \"quote\": \"Most critics today have given up naturalistic theories. [S649] ... History can't prove miracles, comma. But neither can history disprove miracles. [S698-S701]\",\n      \"fit\": \"analogous\"\n    },\n    {\n      \"slot\": \"T\",\n      \"plays_role\": \"Temporal integration: the very short time gap between the cross and the creeds (2-3 years, or 20 years max) is the central argument that the tradition is early and therefore reliable.\",\n      \"quote\": \"Bartman says, 'We have several of these high christologology texts from two to three years after the cross.' [S266]\",\n      \"fit\": \"direct\"\n    },\n    {\n      \"slot\": \"K\",\n      \"plays_role\": \"Compression: the creedal passages are compact summaries that encode the core gospel (deity, death, resurrection) in highly compressible form.\",\n      \"quote\": \"They're little tiny snippets that appear in the text. [S153] ... these couple dozen creedle texts are 80% of them are on the facts of the gospel, deity, death, resurrection of Jesus. [S199]\",\n      \"fit\": \"direct\"\n    },\n    {\n      \"slot\": \"R\",\n      \"plays_role\": \"Phase transition: the resurrection is treated as a discrete, non-gradual event that changes the state of the disciples and the worldview, not merely a degree of improvement.\",\n      \"quote\": \"if Jesus predicted ahead of time, that means he had knowledge of it. If he had knowledge of it, he's part of the plan. And if he's part of the plan, it's bigger than him. [S467-S469]\",\n      \"fit\": \"stretched\"\n    },\n    {\n      \"slot\": \"Q\",\n      \"plays_role\": \"Superposition: the open possibility that the evidence could be explained by a naturalistic theory until the minimal facts are actualized as a cumulative case; Habermas notes critics may 'fill in the blank' with any theory.\",\n      \"quote\": \"What really happened was fill in the blank. You say whatever you want. [S651-S653]\",\n      \"fit\": \"stretched\"\n    },\n    {\n      \"slot\": \"F\",\n      \"plays_role\": \"Non-local correlation: the appearances to groups and individuals, and the chain of eyewitnesses (Peter, James, Paul) whose testimonies are correlated and mutually reinforcing.\",\n      \"quote\": \"Six. Three appearances to individuals, three appearances to groups. That's very, very important. The group appearances in particular. [S147-S151]\",\n      \"fit\": \"analogous\"\n    },\n    {\n      \"slot\": \"C\",\n      \"plays_role\": \"Integration: the historian/apologist (Habermas) as the local integrator who assembles the minimal facts into a coherent cumulative case.\",\n      \"quote\": \"I'm going to use two kinds of facts. Number one is by far the most important criterion. Number one, I will use no data that are not strongly evidenced by many other pieces of data. [S347-S348]\",\n      \"fit\": \"direct\"\n    }\n  ],\n  \"breaks\": [\n    \"The paper treats the empty tomb as an optional additional fact (conceded by ~75% of scholars) rather than a required factor, whereas the master equation treats all factors as jointly necessary.\",\n    \"The 'minimal facts' are not strictly multiplicative in the sense of a single zero collapsing the whole: Habermas allows that some facts are conceded by 'virtually every' scholar while others (empty tomb) are not, and the argument can proceed with a subset. This weakens the strict product analogy.\",\n    \"The role of faith is explicitly separated from evidence ('Faith is a response to data' [S710]) and is not modeled as a factor in the historical equation, introducing an element with no clean slot.\"\n  ],\n  \"extra_factors\": [\n    \"The concept of 'enemy attestation' [S051] — a compliment from a hostile source — functions as an additional reliability multiplier not clearly mapped to any single slot.\",\n    \"The 'criteria' of authenticity (embarrassment, Aramaic substrata, eyewitness, early date) [S012-S113] act as a meta-methodological layer, not a slot.\",\n    \"The distinction between 'faith' as a response to data vs. a way of knowing [S706-S715] is an epistemological addition outside the product.\"\n  ],\n  \"analog_strength\": 3,\n  \"confidence\": \"medium\",\n  \"one_line\": \"Habermas's minimal-facts argument is a conjunctive historical case whose reliability factors (early dating, eyewitness testimony, creedal compression, multiple attestation) map analogously onto the master equation's product, though the paper's explicit treatment of faith and the empty tomb as optional weakens the strict multiplicative analogy.\",\n  \"equations_present\": false\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 13632,
+      "completion_tokens": 1723,
+      "attempts": 1,
+      "elapsed_seconds": 8.875,
+      "started_at": "2026-09-27T13:51:10.556903+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T13:51:19.426130+00:00",
+      "tokens": 15355
+    }
+  ],
+  "prompt_sha256": "9bb66e12d9061bb841e3da89ef5bf18bd29185cb77f1ad09d29e4f3a676a2a98",
+  "tokens": 15355
+}

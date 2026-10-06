@@ -1,0 +1,129 @@
+{
+  "name": "extract",
+  "parsed": {
+    "arguments": [
+      {
+        "id": "G1",
+        "name": "Minimal facts consensus is not merely Christian bias",
+        "speaker": "Gary Habermas",
+        "conclusion": "The scholarly consensus on the minimal facts for the resurrection is not undermined by the fact that many scholars who accept them are Christians, because non-Christian and skeptical scholars also accept them.",
+        "premises": [
+          "P1: The Jesus Seminar, which dedicated its work to skeptics like David Hume and Thomas Jefferson and praised David Strauss, still admits many of the minimal facts.",
+          "P2: James D. G. Dunn, who held a non-orthodox christological view, can be found affirming the six facts repeatedly.",
+          "P3: Antony Flew, the world's best-known philosophical atheist at the time, accepted all twelve facts in a debate with Habermas.",
+          "P4: If Christian bias were the explanation, the empty tomb would be a minimal fact, but many Christians deny it because they follow the data."
+        ],
+        "where": "S003-S065"
+      },
+      {
+        "id": "G2",
+        "name": "Even radical critics like Bultmann support early sources",
+        "speaker": "Gary Habermas",
+        "conclusion": "Even Rudolf Bultmann, a very liberal scholar, affirms key historical data such as a pre-Markan passion narrative and early Jerusalem church sayings, which strengthens the case for the minimal facts.",
+        "premises": [
+          "P1: Bultmann is listed among critical scholars who accept a pre-Markan passion narrative that may predate AD 37.",
+          "P2: Bultmann says the early sayings go back to the very earliest Jerusalem church.",
+          "P3: In his 1941 essay, Bultmann states that the earliest disciples preached that Jesus was raised from the dead.",
+          "P4: Bultmann is to the left of Bart Ehrman and does not like historical backup for faith, yet he still concedes these points."
+        ],
+        "where": "S066-S096"
+      },
+      {
+        "id": "G3",
+        "name": "Christian scholars debate the evidence, not just assume resurrection",
+        "speaker": "Bill (co-host)",
+        "conclusion": "The fact that many scholars are Christians does not mean they simply assume the resurrection; they debate the evidence and reach conclusions based on data.",
+        "premises": [
+          "P1: If Christian bias determined conclusions, the empty tomb would be a minimal fact, but many Christians deny it.",
+          "P2: The quotes in Habermas's volumes show scholars debating the evidence rather than merely asserting Christian beliefs.",
+          "P3: The strong consensus on the six minimal facts stems from the strength of the data, not from shared faith."
+        ],
+        "where": "S059-S065, S100-S103"
+      },
+      {
+        "id": "G4",
+        "name": "Bultmann himself calls resurrection a myth",
+        "speaker": "Gary Habermas",
+        "conclusion": "Bultmann explicitly dismisses the resurrection as a myth, showing that even a scholar who accepts some historical data rejects the resurrection itself.",
+        "premises": [
+          "P1: In his 1941 essay, Bultmann begins a section on the resurrection by asking, 'Is it not a myth pure and simple?'",
+          "P2: Bultmann does not weigh pros and cons; he already treats it as a myth that did not happen."
+        ],
+        "where": "S104-S117"
+      },
+      {
+        "id": "G5",
+        "name": "Scholarly consensus should target informed scholars who publish",
+        "speaker": "Gary Habermas",
+        "conclusion": "A scholarly consensus argument should focus on scholars who have published in the field of resurrection research because they have informed opinions, not on all PhDs regardless of expertise.",
+        "premises": [
+          "P1: Scholars like Bethany Hughes have a PhD in history but have never published on resurrection research, so their opinion is uninformed.",
+          "P2: We want people who have actually studied the resurrection research and published an opinion.",
+          "P3: Habermas defines a critical scholar as one with a terminal degree who has worked in a relevant area such as New Testament, Old Testament, history, philosophy, archaeology, or world religions.",
+          "P4: He allows exceptions for people without terminal degrees who know the data, such as G. A. Wells, but generally requires publication or public scholarly engagement."
+        ],
+        "where": "S121-S125, S165-S199, S253-S260"
+      },
+      {
+        "id": "G6",
+        "name": "Habermas is deliberately lenient toward liberal scholars",
+        "speaker": "Gary Habermas",
+        "conclusion": "Habermas's selection criteria are biased in favor of liberal scholars, not conservative ones, because he wants to include critics and give everyone a fair shot.",
+        "premises": [
+          "P1: He states at the beginning of his book that he is slanted toward liberal scholars.",
+          "P2: He includes scholars like Bultmann who are far to the left and not conservative in almost anything.",
+          "P3: He makes allowances for people who do not meet his criteria, such as 19th-century German philosophers without terminal degrees, because they are well-known for certain views.",
+          "P4: Critics who question his fairness are not reading the data carefully."
+        ],
+        "where": "S200-S237, S247-S252"
+      },
+      {
+        "id": "G7",
+        "name": "Jesus Seminar presupposes that dead men do not rise",
+        "speaker": "Gary Habermas",
+        "conclusion": "The Jesus Seminar's rejection of resurrection sayings is based on a presupposition that dead men do not rise, which is a weak starting point for historical study.",
+        "premises": [
+          "P1: The Jesus Seminar lists 38 or 39 presuppositions at the beginning of volume one.",
+          "P2: One presupposition states that people wonder why they have no words from the resurrected Jesus in the Gospels, and the reason is 'Dead men don't rise.'",
+          "P3: They conclude that Jesus's life ends on Good Friday evening.",
+          "P4: This is a massive presupposition that simply assumes the point at issue."
+        ],
+        "where": "S150-S164"
+      },
+      {
+        "id": "G8",
+        "name": "Mythicists are not qualified to be included",
+        "speaker": "Gary Habermas",
+        "conclusion": "Jesus mythicists are not included in the scholarly consensus because they lack relevant credentials and are rejected even by critical scholars like Bart Ehrman.",
+        "premises": [
+          "P1: Bart Ehrman devotes 20 pages in The Evidence for Jesus to explaining why mythicists do not line up with scholarship.",
+          "P2: Ehrman says mythicists have all their sources but are the only ones who have them, and nobody likes them.",
+          "P3: One mythicist claims a PhD and expertise in ancient subjects but has no college degrees.",
+          "P4: Habermas makes allowances for people without PhDs who know the data, but not for those who lack relevant expertise."
+        ],
+        "where": "S205-S216"
+      }
+    ]
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "extract",
+      "attempt": 1,
+      "text": "{\n  \"arguments\": [\n    {\n      \"id\": \"G1\",\n      \"name\": \"Minimal facts consensus is not merely Christian bias\",\n      \"speaker\": \"Gary Habermas\",\n      \"conclusion\": \"The scholarly consensus on the minimal facts for the resurrection is not undermined by the fact that many scholars who accept them are Christians, because non-Christian and skeptical scholars also accept them.\",\n      \"premises\": [\n        \"P1: The Jesus Seminar, which dedicated its work to skeptics like David Hume and Thomas Jefferson and praised David Strauss, still admits many of the minimal facts.\",\n        \"P2: James D. G. Dunn, who held a non-orthodox christological view, can be found affirming the six facts repeatedly.\",\n        \"P3: Antony Flew, the world's best-known philosophical atheist at the time, accepted all twelve facts in a debate with Habermas.\",\n        \"P4: If Christian bias were the explanation, the empty tomb would be a minimal fact, but many Christians deny it because they follow the data.\"\n      ],\n      \"where\": \"S003-S065\"\n    },\n    {\n      \"id\": \"G2\",\n      \"name\": \"Even radical critics like Bultmann support early sources\",\n      \"speaker\": \"Gary Habermas\",\n      \"conclusion\": \"Even Rudolf Bultmann, a very liberal scholar, affirms key historical data such as a pre-Markan passion narrative and early Jerusalem church sayings, which strengthens the case for the minimal facts.\",\n      \"premises\": [\n        \"P1: Bultmann is listed among critical scholars who accept a pre-Markan passion narrative that may predate AD 37.\",\n        \"P2: Bultmann says the early sayings go back to the very earliest Jerusalem church.\",\n        \"P3: In his 1941 essay, Bultmann states that the earliest disciples preached that Jesus was raised from the dead.\",\n        \"P4: Bultmann is to the left of Bart Ehrman and does not like historical backup for faith, yet he still concedes these points.\"\n      ],\n      \"where\": \"S066-S096\"\n    },\n    {\n      \"id\": \"G3\",\n      \"name\": \"Christian scholars debate the evidence, not just assume resurrection\",\n      \"speaker\": \"Bill (co-host)\",\n      \"conclusion\": \"The fact that many scholars are Christians does not mean they simply assume the resurrection; they debate the evidence and reach conclusions based on data.\",\n      \"premises\": [\n        \"P1: If Christian bias determined conclusions, the empty tomb would be a minimal fact, but many Christians deny it.\",\n        \"P2: The quotes in Habermas's volumes show scholars debating the evidence rather than merely asserting Christian beliefs.\",\n        \"P3: The strong consensus on the six minimal facts stems from the strength of the data, not from shared faith.\"\n      ],\n      \"where\": \"S059-S065, S100-S103\"\n    },\n    {\n      \"id\": \"G4\",\n      \"name\": \"Bultmann himself calls resurrection a myth\",\n      \"speaker\": \"Gary Habermas\",\n      \"conclusion\": \"Bultmann explicitly dismisses the resurrection as a myth, showing that even a scholar who accepts some historical data rejects the resurrection itself.\",\n      \"premises\": [\n        \"P1: In his 1941 essay, Bultmann begins a section on the resurrection by asking, 'Is it not a myth pure and simple?'\",\n        \"P2: Bultmann does not weigh pros and cons; he already treats it as a myth that did not happen.\"\n      ],\n      \"where\": \"S104-S117\"\n    },\n    {\n      \"id\": \"G5\",\n      \"name\": \"Scholarly consensus should target informed scholars who publish\",\n      \"speaker\": \"Gary Habermas\",\n      \"conclusion\": \"A scholarly consensus argument should focus on scholars who have published in the field of resurrection research because they have informed opinions, not on all PhDs regardless of expertise.\",\n      \"premises\": [\n        \"P1: Scholars like Bethany Hughes have a PhD in history but have never published on resurrection research, so their opinion is uninformed.\",\n        \"P2: We want people who have actually studied the resurrection research and published an opinion.\",\n        \"P3: Habermas defines a critical scholar as one with a terminal degree who has worked in a relevant area such as New Testament, Old Testament, history, philosophy, archaeology, or world religions.\",\n        \"P4: He allows exceptions for people without terminal degrees who know the data, such as G. A. Wells, but generally requires publication or public scholarly engagement.\"\n      ],\n      \"where\": \"S121-S125, S165-S199, S253-S260\"\n    },\n    {\n      \"id\": \"G6\",\n      \"name\": \"Habermas is deliberately lenient toward liberal scholars\",\n      \"speaker\": \"Gary Habermas\",\n      \"conclusion\": \"Habermas's selection criteria are biased in favor of liberal scholars, not conservative ones, because he wants to include critics and give everyone a fair shot.\",\n      \"premises\": [\n        \"P1: He states at the beginning of his book that he is slanted toward liberal scholars.\",\n        \"P2: He includes scholars like Bultmann who are far to the left and not conservative in almost anything.\",\n        \"P3: He makes allowances for people who do not meet his criteria, such as 19th-century German philosophers without terminal degrees, because they are well-known for certain views.\",\n        \"P4: Critics who question his fairness are not reading the data carefully.\"\n      ],\n      \"where\": \"S200-S237, S247-S252\"\n    },\n    {\n      \"id\": \"G7\",\n      \"name\": \"Jesus Seminar presupposes that dead men do not rise\",\n      \"speaker\": \"Gary Habermas\",\n      \"conclusion\": \"The Jesus Seminar's rejection of resurrection sayings is based on a presupposition that dead men do not rise, which is a weak starting point for historical study.\",\n      \"premises\": [\n        \"P1: The Jesus Seminar lists 38 or 39 presuppositions at the beginning of volume one.\",\n        \"P2: One presupposition states that people wonder why they have no words from the resurrected Jesus in the Gospels, and the reason is 'Dead men don't rise.'\",\n        \"P3: They conclude that Jesus's life ends on Good Friday evening.\",\n        \"P4: This is a massive presupposition that simply assumes the point at issue.\"\n      ],\n      \"where\": \"S150-S164\"\n    },\n    {\n      \"id\": \"G8\",\n      \"name\": \"Mythicists are not qualified to be included\",\n      \"speaker\": \"Gary Habermas\",\n      \"conclusion\": \"Jesus mythicists are not included in the scholarly consensus because they lack relevant credentials and are rejected even by critical scholars like Bart Ehrman.\",\n      \"premises\": [\n        \"P1: Bart Ehrman devotes 20 pages in The Evidence for Jesus to explaining why mythicists do not line up with scholarship.\",\n        \"P2: Ehrman says mythicists have all their sources but are the only ones who have them, and nobody likes them.\",\n        \"P3: One mythicist claims a PhD and expertise in ancient subjects but has no college degrees.\",\n        \"P4: Habermas makes allowances for people without PhDs who know the data, but not for those who lack relevant expertise.\"\n      ],\n      \"where\": \"S205-S216\"\n    }\n  ]\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 5910,
+      "completion_tokens": 1613,
+      "attempts": 1,
+      "elapsed_seconds": 7.5,
+      "started_at": "2026-09-27T19:39:21.679121+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T19:39:29.172301+00:00",
+      "tokens": 7523
+    }
+  ],
+  "prompt_sha256": "f7e873b4db32e984a7495f26c90068d7cb11141352ba3361afb1a4fa5bb83ce8",
+  "tokens": 7523
+}

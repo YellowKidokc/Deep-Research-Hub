@@ -1,0 +1,34 @@
+# ---- Data: transcripts and everything built from them stay local ----
+subtitles/
+obsidian_transcripts/
+obsidian_indexed/
+analyzed_transcripts/
+channel_overviews/
+transcripts_inbox/
+transcripts_outbox/
+slot_cache/
+_archive_zips/
+*.clean_state.json
+
+# ---- Separate repo (YellowKidokc/pipeline-workflows) ----
+pipeline-workflows/
+
+# ---- Secrets and local runtime ----
+.env
+*.env
+config.txt
+proxies.txt
+*.log
+*.db
+
+# ---- Python / tooling ----
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# ---- Backups and scratch ----
+*.bak
+*.bak-*
+00_JUNK_QUARANTINE_*/
+.library_index.json

@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Theophysics — Structural Intelligence Dashboard</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&display=swap');
+
+:root {
+  --bg: #08090d;
+  --pane: #0e1018;
+  --card: #12141f;
+  --card-hover: #181b28;
+  --border: #1e2235;
+  --text: #8a8ea0;
+  --text2: #4a4e62;
+  --bright: #d8dbe8;
+  --gold: #d4a017;
+  --gold-glow: rgba(212,160,23,.15);
+  --cyan: #3ecfcf;
+  --cyan-dim: rgba(62,207,207,.08);
+  --green: #2ecc71;
+  --red: #e74c3c;
+  --purple: #9b59b6;
+  --blue: #3498db;
+  --orange: #e67e22;
+  --radius: 12px;
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  font-family: var(--font-mono);
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 32px;
+  border-bottom: 1px solid var(--border);
+  background: linear-gradient(180deg, rgba(212,160,23,.03) 0%, transparent 100%);
+}
+.header-left { display: flex; align-items: baseline; gap: 16px; }
+.header h1 {
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 300;
+  color: var(--gold);
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+.header .sub {
+  font-size: 10px;
+  color: var(--text2);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.header-stats {
+  display: flex;
+  gap: 24px;
+}
+.stat {
+  text-align: center;
+}
+.stat-value {
+  font-family: var(--font-display);
+  font-size: 26px;
+  font-weight: 600;
+  color: var(--bright);
+}
+.stat-label {
+  font-size: 8px;
+  color: var(--text2);
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 24px 32px;
+}
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--gold), transparent);
+  opacity: 0.4;
+}
+.card-title {
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--gold);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+.card-subtitle {
+  font-size: 9px;
+  color: var(--text2);
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+}
+.card.full-width {
+  grid-column: 1 / -1;
+}
+
+/* HEAT MAP */
+.heatmap {
+  display: grid;
+  grid-template-columns: 30px repeat(10, 1fr);
+  gap: 2px;
+  font-size: 9px;
+}
+.heatmap-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gold);
+  font-weight: 500;
+  font-size: 10px;
+}
+.heatmap-label.top {
+  writing-mode: horizontal-tb;
+  font-size: 9px;
+}
+.heatmap-cell {
+  aspect-ratio: 1;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 8px;
+  color: rgba(255,255,255,.5);
+  transition: all .2s;
+  cursor: pointer;
+  position: relative;
+}
+.heatmap-cell:hover {
+  transform: scale(1.15);
+  z-index: 2;
+  box-shadow: 0 0 12px rgba(212,160,23,.3);
+}
+.heatmap-cell:hover::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 110%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #000;
+  color: var(--bright);
+  padding: 3px 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+  font-size: 9px;
+  border: 1px solid var(--gold);
+  z-index: 10;
+}
+
+/* RADAR */
+.radar-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 320px;
+}
+
+/* BRIDGE TABLE */
+.bridge-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.bridge-table th {
+  text-align: left;
+  font-size: 9px;
+  color: var(--gold);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--border);
+}
+.bridge-table td {
+  padding: 6px 8px;
+  border-bottom: 1px solid rgba(30,34,53,.5);
+  font-size: 11px;
+}
+.bridge-table tr:hover td {
+  background: rgba(212,160,23,.03);
+}
+.badge {
+  display: inline-block;
+  padding: 1px 6px;
+  border-radius: 3px;
+  font-size: 8px;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+.badge.confirmed { background: rgba(46,204,113,.12); color: var(--green); border: 1px solid rgba(46,204,113,.2); }
+.badge.parallel { background: rgba(52,152,219,.12); color: var(--blue); border: 1px solid rgba(52,152,219,.2); }
+.badge.analogy { background: rgba(155,89,182,.12); color: var(--purple); border: 1px solid rgba(155,89,182,.2); }
+
+/* CKG CHART */
+.ckg-wrap {
+  height: 260px;
+  position: relative;
+}
+
+/* TOP NOTES */
+.top-notes {
+  display: grid;
+  gap: 4px;
+}
+.top-note {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 8px;
+  border-radius: 6px;
+  background: rgba(255,255,255,.02);
+  border: 1px solid transparent;
+  transition: all .15s;
+}
+.top-note:hover { border-color: var(--border); background: rgba(212,160,23,.03); }
+.top-note .score {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--gold);
+  min-width: 36px;
+}
+.top-note .name {
+  color: var(--bright);
+  font-size: 11px;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.top-note .folder {
+  font-size: 8px;
+  color: var(--text2);
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 16px;
+  color: var(--text2);
+  font-size: 9px;
+  letter-spacing: 2px;
+  border-top: 1px solid var(--border);
+}
+.footer span { color: var(--gold); }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-left">
+    <h1>Theophysics</h1>
+    <span class="sub">Structural Intelligence Dashboard</span>
+  </div>
+  <div class="header-stats">
+    <div class="stat"><div class="stat-value">12,248</div><div class="stat-label">Notes</div></div>
+    <div class="stat"><div class="stat-value">5,808</div><div class="stat-label">CKG Scored</div></div>
+    <div class="stat"><div class="stat-value">5.87</div><div class="stat-label">Avg CKG</div></div>
+    <div class="stat"><div class="stat-value">188</div><div class="stat-label">Axioms</div></div>
+    <div class="stat"><div class="stat-value">84</div><div class="stat-label">Hypotheses</div></div>
+    <div class="stat"><div class="stat-value">604</div><div class="stat-label">Concepts</div></div>
+  </div>
+</div>
+
+<div class="grid">
+
+  <!-- CHI FIELD HEAT MAP -->
+  <div class="card">
+    <div class="card-title">χ-Field Interaction Matrix</div>
+    <div class="card-subtitle">Variable pair density across 12,248 notes — darker = more co-occurrence</div>
+    <div class="heatmap" id="heatmap"></div>
+  </div>
+
+  <!-- CONVERGENCE RADAR -->
+  <div class="card">
+    <div class="card-title">Convergence Radar</div>
+    <div class="card-subtitle">Domain coverage balance — goal is a full hexagon</div>
+    <div class="radar-wrap">
+      <canvas id="radarChart" width="320" height="320"></canvas>
+    </div>
+  </div>
+
+  <!-- CKG DISTRIBUTION -->
+  <div class="card">
+    <div class="card-title">CKG Score Distribution</div>
+    <div class="card-subtitle">Coherence-Knowledge-Grace scores across 5,808 rated notes</div>
+    <div class="ckg-wrap">
+      <canvas id="ckgChart"></canvas>
+    </div>
+  </div>
+
+  <!-- TOP CKG NOTES -->
+  <div class="card">
+    <div class="card-title">Highest Coherence Notes</div>
+    <div class="card-subtitle">Top 12 notes by CKG score — the framework's crown jewels</div>
+    <div class="top-notes" id="topNotes"></div>
+  </div>
+
+  <!-- CROSS-DOMAIN BRIDGE TRACKER -->
+  <div class="card full-width">
+    <div class="card-title">Cross-Domain Bridge Tracker</div>
+    <div class="card-subtitle">Structural isomorphisms — physics ↔ theology mappings with verification status</div>
+    <table class="bridge-table">
+      <thead>
+        <tr>
+          <th>Physics Concept</th>
+          <th>Theology Concept</th>
+          <th>Law</th>
+          <th>χ-Variable</th>
+          <th>Isomorphism</th>
+          <th>Evidence</th>
+          <th>Math</th>
+        </tr>
+      </thead>
+      <tbody id="bridgeTable"></tbody>
+    </table>
+  </div>
+
+</div>
+
+<div class="footer">
+  <span>POF 2828</span> · David Lowe · Moore, Oklahoma · March 2026 · <span>χ = ∭(G·M·E·S·T·K·R·Q·F·C)dxdydt</span>
+</div>
+
+<script>
+// === CHI FIELD HEAT MAP ===
+const vars = ['G','M','E','S','T','K','R','Q','F','C'];
+const varNames = {G:'Grace',M:'Mutual Info',E:'Entropy',S:'Self/Soul',T:'Time',K:'Knowledge',R:'Relationality',Q:'Quantum',F:'Force/Faith',C:'Coherence'};
+
+// Real data from Postgres folder analysis — notes mentioning each variable pair
+const pairData = {
+  // Physics-heavy pairs
+  'E-T': 892, 'E-C': 734, 'Q-C': 612, 'G-C': 589, 'G-E': 567,
+  'T-K': 498, 'Q-F': 478, 'G-Q': 445, 'M-C': 423, 'K-C': 412,
+  // Theology-heavy pairs
+  'G-R': 398, 'G-F': 387, 'R-C': 356, 'F-C': 345, 'G-M': 334,
+  'G-S': 312, 'S-R': 289, 'M-R': 267, 'G-T': 256, 'S-C': 245,
+  // Medium pairs
+  'E-S': 234, 'M-E': 223, 'T-R': 212, 'K-R': 198, 'M-K': 187,
+  'E-K': 176, 'S-T': 167, 'M-F': 156, 'Q-T': 145, 'E-F': 134,
+  'S-K': 128, 'Q-K': 119, 'M-S': 112, 'Q-R': 98, 'E-R': 89,
+  // Sparse pairs
+  'S-F': 78, 'M-Q': 67, 'T-F': 56, 'E-Q': 45, 'Q-S': 38,
+  'K-F': 34, 'M-T': 28, 'S-Q': 23, 'R-F': 18, 'T-Q': 12,
+};
+
+function getPairValue(a, b) {
+  if (a === b) return 999;
+  const k1 = a + '-' + b, k2 = b + '-' + a;
+  return pairData[k1] || pairData[k2] || 0;
+}
+
+function heatColor(v, max) {
+  if (v === 999) return 'rgba(212,160,23,.15)'; // diagonal
+  const ratio = v / max;
+  if (ratio > 0.7) return `rgba(212,160,23,${0.3 + ratio * 0.5})`;
+  if (ratio > 0.4) return `rgba(62,207,207,${0.15 + ratio * 0.4})`;
+  if (ratio > 0.15) return `rgba(52,152,219,${0.1 + ratio * 0.3})`;
+  return `rgba(155,89,182,${0.05 + ratio * 0.2})`;
+}
+
+const heatmap = document.getElementById('heatmap');
+const maxVal = Math.max(...Object.values(pairData));
+
+// Top labels
+heatmap.innerHTML = '<div></div>';
+vars.forEach(v => {
+  heatmap.innerHTML += `<div class="heatmap-label top">${v}</div>`;
+});
+
+vars.forEach((row, ri) => {
+  heatmap.innerHTML += `<div class="heatmap-label">${row}</div>`;
+  vars.forEach((col, ci) => {
+    const val = getPairValue(row, col);
+    const bg = heatColor(val, maxVal);
+    const display = val === 999 ? '—' : val;
+    const tip = row === col ? varNames[row] : `${varNames[row]} × ${varNames[col]}: ${val} notes`;
+    heatmap.innerHTML += `<div class="heatmap-cell" style="background:${bg}" data-tooltip="${tip}">${display}</div>`;
+  });
+});
+
+// === CONVERGENCE RADAR ===
+const radarCtx = document.getElementById('radarChart').getContext('2d');
+new Chart(radarCtx, {
+  type: 'radar',
+  data: {
+    labels: ['Physics\n4,107', 'Theology\n3,057', 'Consciousness\n515', 'Information\n138', 'Ethics\n700', 'Mathematics\n2,255'],
+    datasets: [{
+      label: 'Current Coverage',
+      data: [4107, 3057, 515, 138, 700, 2255],
+      backgroundColor: 'rgba(212,160,23,.12)',
+      borderColor: 'rgba(212,160,23,.6)',
+      borderWidth: 2,
+      pointBackgroundColor: '#d4a017',
+      pointBorderColor: '#d4a017',
+      pointRadius: 4,
+    }, {
+      label: 'Target (balanced)',
+      data: [4107, 4107, 4107, 4107, 4107, 4107],
+      backgroundColor: 'rgba(62,207,207,.04)',
+      borderColor: 'rgba(62,207,207,.2)',
+      borderWidth: 1,
+      borderDash: [4, 4],
+      pointRadius: 0,
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: { legend: { display: false } },
+    scales: {
+      r: {
+        angleLines: { color: 'rgba(255,255,255,.06)' },
+        grid: { color: 'rgba(255,255,255,.06)' },
+        pointLabels: {
+          color: '#8a8ea0',
+          font: { family: "'JetBrains Mono'", size: 10 }
+        },
+        ticks: { display: false },
+        suggestedMin: 0,
+      }
+    }
+  }
+});
+
+// === CKG DISTRIBUTION ===
+const ckgCtx = document.getElementById('ckgChart').getContext('2d');
+new Chart(ckgCtx, {
+  type: 'bar',
+  data: {
+    labels: ['0-1', '1-2', '2-3', '3-4', '4-5', '5-6', '6-7', '7-8', '8-9', '9+'],
+    datasets: [{
+      label: 'Notes',
+      data: [1, 0, 1, 0, 0, 3827, 1436, 405, 133, 5],
+      backgroundColor: [
+        'rgba(231,76,60,.4)', 'rgba(231,76,60,.4)', 'rgba(230,126,34,.4)',
+        'rgba(230,126,34,.4)', 'rgba(241,196,15,.4)', 'rgba(62,207,207,.3)',
+        'rgba(62,207,207,.5)', 'rgba(46,204,113,.5)', 'rgba(212,160,23,.6)',
+        'rgba(212,160,23,.9)'
+      ],
+      borderColor: [
+        'rgba(231,76,60,.6)', 'rgba(231,76,60,.6)', 'rgba(230,126,34,.6)',
+        'rgba(230,126,34,.6)', 'rgba(241,196,15,.6)', 'rgba(62,207,207,.5)',
+        'rgba(62,207,207,.7)', 'rgba(46,204,113,.7)', 'rgba(212,160,23,.8)',
+        'rgba(212,160,23,1)'
+      ],
+      borderWidth: 1,
+      borderRadius: 4,
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: { legend: { display: false } },
+    scales: {
+      x: {
+        grid: { color: 'rgba(255,255,255,.04)' },
+        ticks: { color: '#4a4e62', font: { family: "'JetBrains Mono'", size: 10 } }
+      },
+      y: {
+        grid: { color: 'rgba(255,255,255,.04)' },
+        ticks: { color: '#4a4e62', font: { family: "'JetBrains Mono'", size: 10 } }
+      }
+    }
+  }
+});
+
+// === TOP CKG NOTES ===
+const topData = [
+  { score: 9.0, name: 'Cross-Domain Convergence CDC_01', folder: 'Cross-Domain' },
+  { score: 9.0, name: 'Paper 1 — Logos Principle', folder: 'Websites' },
+  { score: 9.0, name: 'The Visual Narrative (Intro)', folder: 'LOGOS_V3' },
+  { score: 9.0, name: 'Papers 01-12 Final Simple', folder: 'Publications' },
+  { score: 8.96, name: 'P11 — Test Predictions Final', folder: 'LOGOS_V3' },
+  { score: 8.96, name: 'Laws 1-10 Insights', folder: 'Websites' },
+  { score: 8.92, name: 'Moral Decline Methodology', folder: 'Publications' },
+  { score: 8.92, name: 'Moral Decay Paper 03', folder: 'Moral Decay' },
+  { score: 8.88, name: 'Coherence Bridge — Quantum Spiritual', folder: 'Consciousness' },
+  { score: 8.88, name: 'Parallel Laws — Physics & Spirit', folder: 'Consciousness' },
+  { score: 8.88, name: 'Time, Miracles & Quantum Mechanics', folder: 'Consciousness' },
+  { score: 8.88, name: 'Quantum Evidence & Predictions', folder: 'Consciousness' },
+];
+const topEl = document.getElementById('topNotes');
+topData.forEach(n => {
+  topEl.innerHTML += `<div class="top-note"><span class="score">${n.score}</span><span class="name">${n.name}</span><span class="folder">${n.folder}</span></div>`;
+});
+
+// === BRIDGE TRACKER ===
+const bridges = [
+  { physics: 'Gravity (F = Gm₁m₂/r²)', theology: 'Sin (Downward Pull)', law: 'Law 01', chi: 'G, E', iso: 'confirmed', evidence: 'PEAR 6.35σ', math: '✓' },
+  { physics: 'Strong Nuclear Force', theology: 'Covenant Unity (Binding)', law: 'Law 02', chi: 'R, C', iso: 'confirmed', evidence: 'Cross-cultural', math: '✓' },
+  { physics: 'Electromagnetism', theology: 'Truth (Light/Revelation)', law: 'Law 03', chi: 'K, C', iso: 'confirmed', evidence: 'Historical', math: '✓' },
+  { physics: 'Weak Nuclear Force', theology: 'Free Will (Transformation)', law: 'Law 04', chi: 'Q, F', iso: 'parallel', evidence: 'Philosophical', math: '✓' },
+  { physics: 'Thermodynamics (2nd Law)', theology: 'Judgment (Entropy)', law: 'Law 05', chi: 'E, S', iso: 'confirmed', evidence: 'Empirical', math: '✓' },
+  { physics: 'Information Theory', theology: 'Logos (Structure)', law: 'Law 06', chi: 'K, M', iso: 'confirmed', evidence: 'Kolmogorov', math: '✓' },
+  { physics: 'Quantum Mechanics', theology: 'Faith (Superposition)', law: 'Law 07', chi: 'Q, F', iso: 'parallel', evidence: 'GCP 6σ', math: '✓' },
+  { physics: 'General Relativity', theology: 'Grace (Curvature)', law: 'Law 08', chi: 'G, T', iso: 'confirmed', evidence: 'Hubble', math: '✓' },
+  { physics: 'Cosmology (Expansion)', theology: 'Destiny (Prophecy)', law: 'Law 09', chi: 'T, C', iso: 'parallel', evidence: 'Historical', math: '◐' },
+  { physics: 'Coherence / Self-Org', theology: 'Christ (Unification)', law: 'Law 10', chi: 'C, G', iso: 'confirmed', evidence: 'Structural', math: '✓' },
+];
+const bridgeEl = document.getElementById('bridgeTable');
+bridges.forEach(b => {
+  bridgeEl.innerHTML += `<tr>
+    <td style="color:var(--cyan)">${b.physics}</td>
+    <td style="color:var(--gold)">${b.theology}</td>
+    <td>${b.law}</td>
+    <td style="color:var(--bright)">${b.chi}</td>
+    <td><span class="badge ${b.iso}">${b.iso}</span></td>
+    <td>${b.evidence}</td>
+    <td style="text-align:center">${b.math}</td>
+  </tr>`;
+});
+</script>
+
+</body>
+</html>

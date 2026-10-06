@@ -1,0 +1,29 @@
+---
+fis_schema: "folder-index.v1"
+folder_id: "FLD-20260907-339e9268"
+folder: "GitHub\Research-Acquisition\yt-bulk-subtitles-downloader\YT-Transcript"
+folder_class: "project"
+confidence: 0.6
+dependency_risk: 0.333
+dominant_family: "code"
+dominant_ratio: 0.667
+file_count: 6
+classified_at: "2026-09-07T16:08:02"
+allowed_actions: ["index", "rename_internal", "subfolder_sort", "archive_exports"]
+suggested_name: "yt-transcript"
+system_markers: ["dir:__pycache__"]
+---
+
+# FIS Folder Index: YT-Transcript
+
+**Class**: project  ·  **Confidence**: 60%  ·  **Files**: 6  ·  **Dominant**: code (67%)
+
+## Allowed actions
+- index
+- rename_internal
+- subfolder_sort
+- archive_exports
+
+**Suggested name**: `yt-transcript`  (not applied — review before use)
+
+<!-- FIS folder-index.v1: parseable note; safe to regenerate. -->

@@ -1,0 +1,34 @@
+package nu.marginalia.converting.processor.plugin.specialization;
+
+import nu.marginalia.converting.processor.logic.TitleExtractor;
+import nu.marginalia.test.CommonTestData;
+import org.jsoup.Jsoup;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+
+import java.util.Set;
+
+class WikiSpecializationTest {
+
+    static WikiSpecialization specialization;
+
+    String doomArmor = CommonTestData.loadTestData("mock-crawl-data/mediawiki/doom2.html");
+    String doomFan = CommonTestData.loadTestData("mock-crawl-data/mediawiki/doom1.html");
+
+    @BeforeAll
+    public static void setUpAll() {
+        specialization = new WikiSpecialization(
+                                new TitleExtractor(128)
+                );
+    }
+
+    @Test
+    void prune() {
+        System.out.println(specialization.prune(Jsoup.parse(doomFan)));
+        System.out.println(specialization.prune(Jsoup.parse(doomArmor)));
+    }
+
+    @Test
+    void generatorExtraction() {
+    }
+}

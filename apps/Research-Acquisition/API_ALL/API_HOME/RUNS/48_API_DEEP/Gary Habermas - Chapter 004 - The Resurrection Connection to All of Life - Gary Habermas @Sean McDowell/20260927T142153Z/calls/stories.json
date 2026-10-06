@@ -1,0 +1,281 @@
+{
+  "name": "stories",
+  "parsed": {
+    "station": "stories",
+    "paper_uuid": "Gary Habermas - Chapter 004 - The Resurrection Connection to All of Life - Gary Habermas @Sean McDowell",
+    "run_uuid": "deep-c61084f7fb40",
+    "stories": [
+      {
+        "story_id": "story-001",
+        "title_or_label": "Habermas's personal journey from evidential apologetics to theology and practice",
+        "story_type": "testimony",
+        "source_span": "P03 S024-S042; P04 S113-S191; P05 S532-S559",
+        "characters_or_agents": [
+          "Gary Habermas",
+          "Sean McDowell",
+          "Habermas's first wife",
+          "Eileen (second wife)"
+        ],
+        "setting_or_context": "Habermas's academic career and personal life, spanning from his PhD through 1990-1995 and up to the present (age 76).",
+        "plot_or_sequence": "Habermas began by studying the historical evidence for the resurrection because he went through serious doubt after his PhD, almost leaving the faith. Around 1990-1995, a conviction grew that he needed to relate the resurrection to theology and practice. His first wife died of stomach cancer in 1995. He later wrote a four-volume defense of the resurrection, with the fourth volume on meaning and practice. His second wife, Eileen, was diagnosed with pancreatic cancer. He continues to hold to the resurrection as the center of everything, including suffering.",
+        "intended_function": "motivate",
+        "claims_illustrated": [
+          "A01",
+          "A02",
+          "A03",
+          "A04",
+          "A05",
+          "A06",
+          "A07",
+          "A08",
+          "A09"
+        ],
+        "emotional_or_rhetorical_load": "High. Personal grief, doubt, and perseverance are used to motivate the audience to take the resurrection seriously in all of life.",
+        "boundaries": {
+          "what_it_shows": "Habermas personally experienced doubt, suffering, and loss, and found the resurrection to be central to his faith and practice.",
+          "what_it_does_not_show": "It does not provide historical evidence that the resurrection occurred, nor does it prove that the resurrection is the correct explanation for his experiences.",
+          "what_would_falsify_the_narrative": "If Habermas had abandoned Christianity or found the resurrection irrelevant to his suffering, the narrative would be falsified."
+        },
+        "evidence_for_historical_content": [],
+        "is_separable_from_argument": true,
+        "notes": "This testimony is used to illustrate the practical relevance of the resurrection but does not serve as evidence for its truth."
+      },
+      {
+        "story_id": "story-002",
+        "title_or_label": "The parable of the Good Samaritan as a model for radical commitment",
+        "story_type": "parable",
+        "source_span": "P04 S074-S087",
+        "characters_or_agents": [
+          "Jesus",
+          "a lawyer",
+          "a man beaten on the road",
+          "a Samaritan",
+          "an innkeeper"
+        ],
+        "setting_or_context": "A dialogue between Jesus and a lawyer about the greatest commandment, followed by the parable.",
+        "plot_or_sequence": "A lawyer asks Jesus what he must do to inherit eternal life. Jesus asks him what the law says. The lawyer answers: love God with all your heart, soul, strength, and mind, and love your neighbor as yourself. The lawyer asks, 'Who is my neighbor?' Jesus tells the parable of the Good Samaritan, who sacrificially helps a beaten man, and ends with 'Go and do likewise.'",
+        "intended_function": "illustrate",
+        "claims_illustrated": [
+          "A02"
+        ],
+        "emotional_or_rhetorical_load": "Moderate. The parable is familiar and evokes a sense of moral obligation.",
+        "boundaries": {
+          "what_it_shows": "It illustrates that radical commitment involves sacrificial love for others, as exemplified by the Samaritan.",
+          "what_it_does_not_show": "It does not prove that the resurrection occurred or that such commitment is salvific; it is an illustration of a command.",
+          "what_would_falsify_the_narrative": "If the parable were not in the biblical text or if Jesus did not intend it as a model, the illustration would lose its force."
+        },
+        "evidence_for_historical_content": [],
+        "is_separable_from_argument": true,
+        "notes": "This is a biblical parable used to illustrate the ethical implications of the resurrection."
+      },
+      {
+        "story_id": "story-003",
+        "title_or_label": "Marriage analogy for radical commitment",
+        "story_type": "illustration",
+        "source_span": "P04 S078-S080; S088-S091",
+        "characters_or_agents": [
+          "a married couple"
+        ],
+        "setting_or_context": "Habermas uses the analogy of marriage to explain the radical commitment Christians should have to Jesus.",
+        "plot_or_sequence": "When people marry, they say to each other, 'All of me belongs to you, and all of you belongs to me.' Similarly, when we come to know Jesus, we say that to Him. After marriage, good works naturally follow as a response to the relationship.",
+        "intended_function": "explain",
+        "claims_illustrated": [
+          "A02"
+        ],
+        "emotional_or_rhetorical_load": "Low to moderate. It uses a familiar relationship to make an abstract commitment concrete.",
+        "boundaries": {
+          "what_it_shows": "It shows that radical commitment is a total self-giving, analogous to marriage, and that good works are a natural outflow.",
+          "what_it_does_not_show": "It does not prove that this commitment is required or that it is salvific; it is an analogy.",
+          "what_would_falsify_the_narrative": "If marriage did not involve mutual self-giving or if good works did not follow from a relationship, the analogy would be weakened."
+        },
+        "evidence_for_historical_content": [],
+        "is_separable_from_argument": true,
+        "notes": "This analogy is used to explain the relationship between grace and works."
+      },
+      {
+        "story_id": "story-004",
+        "title_or_label": "Joseph Son's response to Russian guards",
+        "story_type": "historical_anecdote",
+        "source_span": "P05 S223-S227",
+        "characters_or_agents": [
+          "Joseph Son",
+          "Russian guards"
+        ],
+        "setting_or_context": "Eastern European pastor under persecution, likely during the Soviet era.",
+        "plot_or_sequence": "Joseph Son told his Russian guards that if they took his life, they would be doing him a favor by sending him to heaven faster. He kept saying this for years, and eventually the guards left him alone, afraid to do anything to him.",
+        "intended_function": "illustrate",
+        "claims_illustrated": [
+          "A03",
+          "A05"
+        ],
+        "emotional_or_rhetorical_load": "Moderate. It uses a dramatic example of courage in the face of persecution.",
+        "boundaries": {
+          "what_it_shows": "It illustrates how belief in the resurrection and heaven can remove the fear of death and neutralize persecution.",
+          "what_it_does_not_show": "It does not provide evidence that the resurrection occurred or that Joseph Son's belief was justified; it is an anecdote.",
+          "what_would_falsify_the_narrative": "If Joseph Son had been killed or had recanted, the anecdote would lose its illustrative power."
+        },
+        "evidence_for_historical_content": [],
+        "is_separable_from_argument": true,
+        "notes": "This anecdote is used to illustrate the practical power of resurrection hope under persecution."
+      },
+      {
+        "story_id": "story-005",
+        "title_or_label": "Habermas's use of cognitive therapy to overcome fear",
+        "story_type": "testimony",
+        "source_span": "P06 S313-S336",
+        "characters_or_agents": [
+          "Gary Habermas",
+          "the Holy Spirit"
+        ],
+        "setting_or_context": "Habermas's personal struggle with fear related to his wife's cancer.",
+        "plot_or_sequence": "Habermas, dealing with his wife's cancer, prayed to feel the Holy Spirit's power. He began practicing a discipline: every time fear came into his mind, he would say, 'Time out. What does the resurrection say about this?' and bring the resurrection to mind. Within about a week, the fear stopped coming.",
+        "intended_function": "motivate",
+        "claims_illustrated": [
+          "A04",
+          "A06"
+        ],
+        "emotional_or_rhetorical_load": "High. It is a personal, vulnerable account of applying the resurrection to emotional struggle.",
+        "boundaries": {
+          "what_it_shows": "It shows that Habermas personally found the resurrection to be an effective counter to fear and emotional doubt.",
+          "what_it_does_not_show": "It does not prove that this method works for everyone or that the resurrection is true; it is a personal testimony.",
+          "what_would_falsify_the_narrative": "If Habermas's fear had not subsided or if he had abandoned this practice, the testimony would be weakened."
+        },
+        "evidence_for_historical_content": [],
+        "is_separable_from_argument": true,
+        "notes": "This testimony is used to illustrate the practical application of the resurrection to emotional doubt."
+      },
+      {
+        "story_id": "story-006",
+        "title_or_label": "The card with the message about walking hand in hand in heaven",
+        "story_type": "testimony",
+        "source_span": "P06 S392-S405",
+        "characters_or_agents": [
+          "Gary Habermas",
+          "his deceased first wife"
+        ],
+        "setting_or_context": "After the death of Habermas's first wife, he received a card.",
+        "plot_or_sequence": "Habermas kept the last card he received after his wife died. It said, 'What are you going to do when you walk down the streets of heaven hand in hand with your deceased wife?' He reflects that this is the resurrection, and if the resurrection lets him see her again, he can wait.",
+        "intended_function": "motivate",
+        "claims_illustrated": [
+          "A05",
+          "A07"
+        ],
+        "emotional_or_rhetorical_load": "Very high. It is a deeply personal and emotional illustration of resurrection hope.",
+        "boundaries": {
+          "what_it_shows": "It shows how the hope of resurrection and heaven can comfort someone grieving the loss of a spouse.",
+          "what_it_does_not_show": "It does not provide evidence for the resurrection or heaven; it is a personal reflection.",
+          "what_would_falsify_the_narrative": "If Habermas had lost hope or if the card had not provided comfort, the testimony would be weakened."
+        },
+        "evidence_for_historical_content": [],
+        "is_separable_from_argument": true,
+        "notes": "This testimony is used to illustrate the comfort of resurrection hope in grief."
+      },
+      {
+        "story_id": "story-007",
+        "title_or_label": "The publisher who was convicted by volume four",
+        "story_type": "testimony",
+        "source_span": "P07 S429-S440",
+        "characters_or_agents": [
+          "a publisher",
+          "Gary Habermas",
+          "Sean McDowell"
+        ],
+        "setting_or_context": "A publisher read the manuscript of volume four and was deeply moved.",
+        "plot_or_sequence": "A publisher told Habermas that while reading the manuscript of volume four, he was so convicted about applying the resurrection to his own life that he dropped to his knees beside his bed and cried out to God for forgiveness for not making a better application.",
+        "intended_function": "persuade",
+        "claims_illustrated": [
+          "A08"
+        ],
+        "emotional_or_rhetorical_load": "High. It uses a third-party testimony to show the transformative power of the book's message.",
+        "boundaries": {
+          "what_it_shows": "It shows that at least one reader found the material on applying the resurrection to be personally convicting and transformative.",
+          "what_it_does_not_show": "It does not prove that the resurrection is true or that the book's application is correct; it is an anecdote.",
+          "what_would_falsify_the_narrative": "If the publisher had not had this reaction or if the story were fabricated, the testimony would be falsified."
+        },
+        "evidence_for_historical_content": [],
+        "is_separable_from_argument": true,
+        "notes": "This testimony is used to persuade the audience of the practical value of the resurrection."
+      },
+      {
+        "story_id": "story-008",
+        "title_or_label": "John Wesley's radical giving",
+        "story_type": "historical_anecdote",
+        "source_span": "P07 S524-S526",
+        "characters_or_agents": [
+          "John Wesley",
+          "widows and orphans"
+        ],
+        "setting_or_context": "John Wesley's practice of giving away all his money.",
+        "plot_or_sequence": "John Wesley would immediately pass out freewill offerings to the widows and orphans who sat in the front row. He said, 'If I die and you find 20 pounds in my pocket, I have renounced the Lord.'",
+        "intended_function": "illustrate",
+        "claims_illustrated": [
+          "A02"
+        ],
+        "emotional_or_rhetorical_load": "Moderate. It provides a striking example of radical commitment and simple living.",
+        "boundaries": {
+          "what_it_shows": "It illustrates the principle of radical commitment and simple living as an application of the resurrection.",
+          "what_it_does_not_show": "It does not prove that Wesley's practice is normative or that the resurrection is true; it is an anecdote.",
+          "what_would_falsify_the_narrative": "If Wesley had not practiced such giving or if the quote were misattributed, the anecdote would be weakened."
+        },
+        "evidence_for_historical_content": [],
+        "is_separable_from_argument": true,
+        "notes": "This anecdote is used to illustrate the radical commitment that Habermas argues flows from the resurrection."
+      },
+      {
+        "story_id": "story-009",
+        "title_or_label": "Habermas's thought experiment about asking God why suffering happened",
+        "story_type": "thought_experiment",
+        "source_span": "P08 S542-S554",
+        "characters_or_agents": [
+          "Gary Habermas",
+          "God",
+          "Paul"
+        ],
+        "setting_or_context": "Habermas imagines the afterlife and asking God about the reasons for suffering.",
+        "plot_or_sequence": "Habermas says that in heaven he will take a 'postgrad course' with Paul or someone else and find out why suffering happened. He imagines God explaining it in one sentence, and he will be glad he did not walk away from Christianity over that question.",
+        "intended_function": "explain",
+        "claims_illustrated": [
+          "A09"
+        ],
+        "emotional_or_rhetorical_load": "Moderate. It uses a hypothetical scenario to make the problem of suffering more bearable.",
+        "boundaries": {
+          "what_it_shows": "It shows how belief in an afterlife can provide hope that suffering will be explained and made right.",
+          "what_it_does_not_show": "It does not provide an actual answer to the problem of suffering or evidence for the afterlife; it is a thought experiment.",
+          "what_would_falsify_the_narrative": "If there is no afterlife or if God does not provide explanations, the thought experiment would be falsified."
+        },
+        "evidence_for_historical_content": [],
+        "is_separable_from_argument": true,
+        "notes": "This thought experiment is used to illustrate how resurrection hope can help believers live with unanswered questions about suffering."
+      }
+    ],
+    "narrative_arc": {
+      "opening_device": "Sean McDowell introduces Gary Habermas and the topic of the resurrection's centrality to all of life.",
+      "central_tension": "How can the resurrection be practically connected to all areas of life, especially suffering, doubt, and persecution?",
+      "resolution_or_payoff": "Habermas argues that the resurrection is the center of everything, providing hope, power over sin and fear, and the promise of heaven, and he shares personal testimonies of its application.",
+      "return_to_opening": true
+    },
+    "notes": "The paper is a conversational interview with many personal testimonies and illustrations. The stories are primarily used to motivate and illustrate the claims, not to provide evidence for the resurrection. The narrative arc is cyclical, returning to the theme of the resurrection's centrality."
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "stories",
+      "attempt": 1,
+      "text": "{\n  \"station\": \"stories\",\n  \"paper_uuid\": \"Gary Habermas - Chapter 004 - The Resurrection Connection to All of Life - Gary Habermas @Sean McDowell\",\n  \"run_uuid\": \"deep-c61084f7fb40\",\n  \"stories\": [\n    {\n      \"story_id\": \"story-001\",\n      \"title_or_label\": \"Habermas's personal journey from evidential apologetics to theology and practice\",\n      \"story_type\": \"testimony\",\n      \"source_span\": \"P03 S024-S042; P04 S113-S191; P05 S532-S559\",\n      \"characters_or_agents\": [\"Gary Habermas\", \"Sean McDowell\", \"Habermas's first wife\", \"Eileen (second wife)\"],\n      \"setting_or_context\": \"Habermas's academic career and personal life, spanning from his PhD through 1990-1995 and up to the present (age 76).\",\n      \"plot_or_sequence\": \"Habermas began by studying the historical evidence for the resurrection because he went through serious doubt after his PhD, almost leaving the faith. Around 1990-1995, a conviction grew that he needed to relate the resurrection to theology and practice. His first wife died of stomach cancer in 1995. He later wrote a four-volume defense of the resurrection, with the fourth volume on meaning and practice. His second wife, Eileen, was diagnosed with pancreatic cancer. He continues to hold to the resurrection as the center of everything, including suffering.\",\n      \"intended_function\": \"motivate\",\n      \"claims_illustrated\": [\"A01\", \"A02\", \"A03\", \"A04\", \"A05\", \"A06\", \"A07\", \"A08\", \"A09\"],\n      \"emotional_or_rhetorical_load\": \"High. Personal grief, doubt, and perseverance are used to motivate the audience to take the resurrection seriously in all of life.\",\n      \"boundaries\": {\n        \"what_it_shows\": \"Habermas personally experienced doubt, suffering, and loss, and found the resurrection to be central to his faith and practice.\",\n        \"what_it_does_not_show\": \"It does not provide historical evidence that the resurrection occurred, nor does it prove that the resurrection is the correct explanation for his experiences.\",\n        \"what_would_falsify_the_narrative\": \"If Habermas had abandoned Christianity or found the resurrection irrelevant to his suffering, the narrative would be falsified.\"\n      },\n      \"evidence_for_historical_content\": [],\n      \"is_separable_from_argument\": true,\n      \"notes\": \"This testimony is used to illustrate the practical relevance of the resurrection but does not serve as evidence for its truth.\"\n    },\n    {\n      \"story_id\": \"story-002\",\n      \"title_or_label\": \"The parable of the Good Samaritan as a model for radical commitment\",\n      \"story_type\": \"parable\",\n      \"source_span\": \"P04 S074-S087\",\n      \"characters_or_agents\": [\"Jesus\", \"a lawyer\", \"a man beaten on the road\", \"a Samaritan\", \"an innkeeper\"],\n      \"setting_or_context\": \"A dialogue between Jesus and a lawyer about the greatest commandment, followed by the parable.\",\n      \"plot_or_sequence\": \"A lawyer asks Jesus what he must do to inherit eternal life. Jesus asks him what the law says. The lawyer answers: love God with all your heart, soul, strength, and mind, and love your neighbor as yourself. The lawyer asks, 'Who is my neighbor?' Jesus tells the parable of the Good Samaritan, who sacrificially helps a beaten man, and ends with 'Go and do likewise.'\",\n      \"intended_function\": \"illustrate\",\n      \"claims_illustrated\": [\"A02\"],\n      \"emotional_or_rhetorical_load\": \"Moderate. The parable is familiar and evokes a sense of moral obligation.\",\n      \"boundaries\": {\n        \"what_it_shows\": \"It illustrates that radical commitment involves sacrificial love for others, as exemplified by the Samaritan.\",\n        \"what_it_does_not_show\": \"It does not prove that the resurrection occurred or that such commitment is salvific; it is an illustration of a command.\",\n        \"what_would_falsify_the_narrative\": \"If the parable were not in the biblical text or if Jesus did not intend it as a model, the illustration would lose its force.\"\n      },\n      \"evidence_for_historical_content\": [],\n      \"is_separable_from_argument\": true,\n      \"notes\": \"This is a biblical parable used to illustrate the ethical implications of the resurrection.\"\n    },\n    {\n      \"story_id\": \"story-003\",\n      \"title_or_label\": \"Marriage analogy for radical commitment\",\n      \"story_type\": \"illustration\",\n      \"source_span\": \"P04 S078-S080; S088-S091\",\n      \"characters_or_agents\": [\"a married couple\"],\n      \"setting_or_context\": \"Habermas uses the analogy of marriage to explain the radical commitment Christians should have to Jesus.\",\n      \"plot_or_sequence\": \"When people marry, they say to each other, 'All of me belongs to you, and all of you belongs to me.' Similarly, when we come to know Jesus, we say that to Him. After marriage, good works naturally follow as a response to the relationship.\",\n      \"intended_function\": \"explain\",\n      \"claims_illustrated\": [\"A02\"],\n      \"emotional_or_rhetorical_load\": \"Low to moderate. It uses a familiar relationship to make an abstract commitment concrete.\",\n      \"boundaries\": {\n        \"what_it_shows\": \"It shows that radical commitment is a total self-giving, analogous to marriage, and that good works are a natural outflow.\",\n        \"what_it_does_not_show\": \"It does not prove that this commitment is required or that it is salvific; it is an analogy.\",\n        \"what_would_falsify_the_narrative\": \"If marriage did not involve mutual self-giving or if good works did not follow from a relationship, the analogy would be weakened.\"\n      },\n      \"evidence_for_historical_content\": [],\n      \"is_separable_from_argument\": true,\n      \"notes\": \"This analogy is used to explain the relationship between grace and works.\"\n    },\n    {\n      \"story_id\": \"story-004\",\n      \"title_or_label\": \"Joseph Son's response to Russian guards\",\n      \"story_type\": \"historical_anecdote\",\n      \"source_span\": \"P05 S223-S227\",\n      \"characters_or_agents\": [\"Joseph Son\", \"Russian guards\"],\n      \"setting_or_context\": \"Eastern European pastor under persecution, likely during the Soviet era.\",\n      \"plot_or_sequence\": \"Joseph Son told his Russian guards that if they took his life, they would be doing him a favor by sending him to heaven faster. He kept saying this for years, and eventually the guards left him alone, afraid to do anything to him.\",\n      \"intended_function\": \"illustrate\",\n      \"claims_illustrated\": [\"A03\", \"A05\"],\n      \"emotional_or_rhetorical_load\": \"Moderate. It uses a dramatic example of courage in the face of persecution.\",\n      \"boundaries\": {\n        \"what_it_shows\": \"It illustrates how belief in the resurrection and heaven can remove the fear of death and neutralize persecution.\",\n        \"what_it_does_not_show\": \"It does not provide evidence that the resurrection occurred or that Joseph Son's belief was justified; it is an anecdote.\",\n        \"what_would_falsify_the_narrative\": \"If Joseph Son had been killed or had recanted, the anecdote would lose its illustrative power.\"\n      },\n      \"evidence_for_historical_content\": [],\n      \"is_separable_from_argument\": true,\n      \"notes\": \"This anecdote is used to illustrate the practical power of resurrection hope under persecution.\"\n    },\n    {\n      \"story_id\": \"story-005\",\n      \"title_or_label\": \"Habermas's use of cognitive therapy to overcome fear\",\n      \"story_type\": \"testimony\",\n      \"source_span\": \"P06 S313-S336\",\n      \"characters_or_agents\": [\"Gary Habermas\", \"the Holy Spirit\"],\n      \"setting_or_context\": \"Habermas's personal struggle with fear related to his wife's cancer.\",\n      \"plot_or_sequence\": \"Habermas, dealing with his wife's cancer, prayed to feel the Holy Spirit's power. He began practicing a discipline: every time fear came into his mind, he would say, 'Time out. What does the resurrection say about this?' and bring the resurrection to mind. Within about a week, the fear stopped coming.\",\n      \"intended_function\": \"motivate\",\n      \"claims_illustrated\": [\"A04\", \"A06\"],\n      \"emotional_or_rhetorical_load\": \"High. It is a personal, vulnerable account of applying the resurrection to emotional struggle.\",\n      \"boundaries\": {\n        \"what_it_shows\": \"It shows that Habermas personally found the resurrection to be an effective counter to fear and emotional doubt.\",\n        \"what_it_does_not_show\": \"It does not prove that this method works for everyone or that the resurrection is true; it is a personal testimony.\",\n        \"what_would_falsify_the_narrative\": \"If Habermas's fear had not subsided or if he had abandoned this practice, the testimony would be weakened.\"\n      },\n      \"evidence_for_historical_content\": [],\n      \"is_separable_from_argument\": true,\n      \"notes\": \"This testimony is used to illustrate the practical application of the resurrection to emotional doubt.\"\n    },\n    {\n      \"story_id\": \"story-006\",\n      \"title_or_label\": \"The card with the message about walking hand in hand in heaven\",\n      \"story_type\": \"testimony\",\n      \"source_span\": \"P06 S392-S405\",\n      \"characters_or_agents\": [\"Gary Habermas\", \"his deceased first wife\"],\n      \"setting_or_context\": \"After the death of Habermas's first wife, he received a card.\",\n      \"plot_or_sequence\": \"Habermas kept the last card he received after his wife died. It said, 'What are you going to do when you walk down the streets of heaven hand in hand with your deceased wife?' He reflects that this is the resurrection, and if the resurrection lets him see her again, he can wait.\",\n      \"intended_function\": \"motivate\",\n      \"claims_illustrated\": [\"A05\", \"A07\"],\n      \"emotional_or_rhetorical_load\": \"Very high. It is a deeply personal and emotional illustration of resurrection hope.\",\n      \"boundaries\": {\n        \"what_it_shows\": \"It shows how the hope of resurrection and heaven can comfort someone grieving the loss of a spouse.\",\n        \"what_it_does_not_show\": \"It does not provide evidence for the resurrection or heaven; it is a personal reflection.\",\n        \"what_would_falsify_the_narrative\": \"If Habermas had lost hope or if the card had not provided comfort, the testimony would be weakened.\"\n      },\n      \"evidence_for_historical_content\": [],\n      \"is_separable_from_argument\": true,\n      \"notes\": \"This testimony is used to illustrate the comfort of resurrection hope in grief.\"\n    },\n    {\n      \"story_id\": \"story-007\",\n      \"title_or_label\": \"The publisher who was convicted by volume four\",\n      \"story_type\": \"testimony\",\n      \"source_span\": \"P07 S429-S440\",\n      \"characters_or_agents\": [\"a publisher\", \"Gary Habermas\", \"Sean McDowell\"],\n      \"setting_or_context\": \"A publisher read the manuscript of volume four and was deeply moved.\",\n      \"plot_or_sequence\": \"A publisher told Habermas that while reading the manuscript of volume four, he was so convicted about applying the resurrection to his own life that he dropped to his knees beside his bed and cried out to God for forgiveness for not making a better application.\",\n      \"intended_function\": \"persuade\",\n      \"claims_illustrated\": [\"A08\"],\n      \"emotional_or_rhetorical_load\": \"High. It uses a third-party testimony to show the transformative power of the book's message.\",\n      \"boundaries\": {\n        \"what_it_shows\": \"It shows that at least one reader found the material on applying the resurrection to be personally convicting and transformative.\",\n        \"what_it_does_not_show\": \"It does not prove that the resurrection is true or that the book's application is correct; it is an anecdote.\",\n        \"what_would_falsify_the_narrative\": \"If the publisher had not had this reaction or if the story were fabricated, the testimony would be falsified.\"\n      },\n      \"evidence_for_historical_content\": [],\n      \"is_separable_from_argument\": true,\n      \"notes\": \"This testimony is used to persuade the audience of the practical value of the resurrection.\"\n    },\n    {\n      \"story_id\": \"story-008\",\n      \"title_or_label\": \"John Wesley's radical giving\",\n      \"story_type\": \"historical_anecdote\",\n      \"source_span\": \"P07 S524-S526\",\n      \"characters_or_agents\": [\"John Wesley\", \"widows and orphans\"],\n      \"setting_or_context\": \"John Wesley's practice of giving away all his money.\",\n      \"plot_or_sequence\": \"John Wesley would immediately pass out freewill offerings to the widows and orphans who sat in the front row. He said, 'If I die and you find 20 pounds in my pocket, I have renounced the Lord.'\",\n      \"intended_function\": \"illustrate\",\n      \"claims_illustrated\": [\"A02\"],\n      \"emotional_or_rhetorical_load\": \"Moderate. It provides a striking example of radical commitment and simple living.\",\n      \"boundaries\": {\n        \"what_it_shows\": \"It illustrates the principle of radical commitment and simple living as an application of the resurrection.\",\n        \"what_it_does_not_show\": \"It does not prove that Wesley's practice is normative or that the resurrection is true; it is an anecdote.\",\n        \"what_would_falsify_the_narrative\": \"If Wesley had not practiced such giving or if the quote were misattributed, the anecdote would be weakened.\"\n      },\n      \"evidence_for_historical_content\": [],\n      \"is_separable_from_argument\": true,\n      \"notes\": \"This anecdote is used to illustrate the radical commitment that Habermas argues flows from the resurrection.\"\n    },\n    {\n      \"story_id\": \"story-009\",\n      \"title_or_label\": \"Habermas's thought experiment about asking God why suffering happened\",\n      \"story_type\": \"thought_experiment\",\n      \"source_span\": \"P08 S542-S554\",\n      \"characters_or_agents\": [\"Gary Habermas\", \"God\", \"Paul\"],\n      \"setting_or_context\": \"Habermas imagines the afterlife and asking God about the reasons for suffering.\",\n      \"plot_or_sequence\": \"Habermas says that in heaven he will take a 'postgrad course' with Paul or someone else and find out why suffering happened. He imagines God explaining it in one sentence, and he will be glad he did not walk away from Christianity over that question.\",\n      \"intended_function\": \"explain\",\n      \"claims_illustrated\": [\"A09\"],\n      \"emotional_or_rhetorical_load\": \"Moderate. It uses a hypothetical scenario to make the problem of suffering more bearable.\",\n      \"boundaries\": {\n        \"what_it_shows\": \"It shows how belief in an afterlife can provide hope that suffering will be explained and made right.\",\n        \"what_it_does_not_show\": \"It does not provide an actual answer to the problem of suffering or evidence for the afterlife; it is a thought experiment.\",\n        \"what_would_falsify_the_narrative\": \"If there is no afterlife or if God does not provide explanations, the thought experiment would be falsified.\"\n      },\n      \"evidence_for_historical_content\": [],\n      \"is_separable_from_argument\": true,\n      \"notes\": \"This thought experiment is used to illustrate how resurrection hope can help believers live with unanswered questions about suffering.\"\n    }\n  ],\n  \"narrative_arc\": {\n    \"opening_device\": \"Sean McDowell introduces Gary Habermas and the topic of the resurrection's centrality to all of life.\",\n    \"central_tension\": \"How can the resurrection be practically connected to all areas of life, especially suffering, doubt, and persecution?\",\n    \"resolution_or_payoff\": \"Habermas argues that the resurrection is the center of everything, providing hope, power over sin and fear, and the promise of heaven, and he shares personal testimonies of its application.\",\n    \"return_to_opening\": true\n  },\n  \"notes\": \"The paper is a conversational interview with many personal testimonies and illustrations. The stories are primarily used to motivate and illustrate the claims, not to provide evidence for the resurrection. The narrative arc is cyclical, returning to the theme of the resurrection's centrality.\"\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 14682,
+      "completion_tokens": 3632,
+      "attempts": 1,
+      "elapsed_seconds": 15.514999999999418,
+      "started_at": "2026-09-27T13:54:25.728943+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T13:54:41.242220+00:00",
+      "tokens": 18314
+    }
+  ],
+  "prompt_sha256": "75ea9abf08b722c775e9c0007c877e74cd8683e45ce7c0bbc75ecea42ed2c595",
+  "tokens": 18314,
+  "reused": true
+}

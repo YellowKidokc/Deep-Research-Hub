@@ -1,0 +1,7473 @@
+{
+  "summary": {
+    "scored": 414,
+    "total": 414,
+    "missing": [],
+    "fruit_means": {
+      "love": 0.046,
+      "joy": 0.0,
+      "peace": 0.002,
+      "patience": 0.034,
+      "kindness": 0.002,
+      "goodness": 0.0,
+      "faithfulness": 0.014,
+      "gentleness": 0.002,
+      "self_control": 0.007
+    },
+    "fruit_extremes": {
+      "love": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "joy": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "peace": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "patience": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "kindness": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "goodness": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "faithfulness": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "gentleness": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "self_control": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.034
+      }
+    },
+    "track_love": {
+      "joy": null,
+      "peace": -0.011,
+      "patience": -0.041,
+      "kindness": -0.011,
+      "goodness": null,
+      "faithfulness": -0.027,
+      "gentleness": -0.011,
+      "self_control": -0.006
+    },
+    "top_toward": [
+      {
+        "id": "S287",
+        "para": "P80",
+        "sum": 3,
+        "love": 0,
+        "text": "We mark the bridge, name its strength, state its limits, and keep testing.",
+        "why": {}
+      },
+      {
+        "id": "S282",
+        "para": "P79",
+        "sum": 2,
+        "love": 0,
+        "text": "Physics is not allowed to smuggle in theology.",
+        "why": {}
+      },
+      {
+        "id": "S283",
+        "para": "P79",
+        "sum": 2,
+        "love": 0,
+        "text": "Theology is not allowed to rescue weak physics.",
+        "why": {}
+      },
+      {
+        "id": "S284",
+        "para": "P79",
+        "sum": 2,
+        "love": 0,
+        "text": "Story is not allowed to pretend it is proof.",
+        "why": {}
+      },
+      {
+        "id": "S285",
+        "para": "P79",
+        "sum": 2,
+        "love": 0,
+        "text": "Formal proof is not allowed to pretend it has captured the whole meaning of lived experience.",
+        "why": {}
+      }
+    ],
+    "top_away": [
+      {
+        "id": "S023",
+        "para": "P10",
+        "sum": -1,
+        "love": 0,
+        "text": "That single structure pays four debts no other ontology on earth pays.",
+        "why": {
+          "self_control": "sweeping unhedged claim no other ontology pays"
+        }
+      },
+      {
+        "id": "S024",
+        "para": "P10",
+        "sum": -1,
+        "love": 0,
+        "text": "Every system that exists -- materialism, idealism, mathematical Platonism, secular humanism -- uses four things it cannot ground:",
+        "why": {
+          "self_control": "sweeping claim every system cannot ground these"
+        }
+      },
+      {
+        "id": "S029",
+        "para": "P12",
+        "sum": -1,
+        "love": 0,
+        "text": "Every system uses all four.",
+        "why": {
+          "self_control": "unhedged universal claim every system uses all four"
+        }
+      },
+      {
+        "id": "S030",
+        "para": "P12",
+        "sum": -1,
+        "love": 0,
+        "text": "No system derives them.",
+        "why": {
+          "self_control": "unhedged universal claim no system derives them"
+        }
+      },
+      {
+        "id": "S031",
+        "para": "P12",
+        "sum": -1,
+        "love": 0,
+        "text": "They are assumed, borrowed, and never paid for.",
+        "why": {
+          "self_control": "sweeping unhedged claim never paid for"
+        }
+      }
+    ],
+    "love_turns": [
+      "S020",
+      "S025",
+      "S034",
+      "S039",
+      "S056",
+      "S074",
+      "S087",
+      "S093",
+      "S100",
+      "S114"
+    ],
+    "counterfeit_candidates": [],
+    "hidden_fruit": [],
+    "paragraph_love": {
+      "P01": 0.0,
+      "P02": 0.0,
+      "P03": 0.0,
+      "P04": 0.0,
+      "P05": 0.0,
+      "P06": 0.0,
+      "P07": 0.0,
+      "P08": 0.0,
+      "P09": 0.14,
+      "P10": 0.0,
+      "P11": 0.0,
+      "P12": 0.0,
+      "P13": 0.2,
+      "P14": 0.0,
+      "P15": 0.0,
+      "P16": 0.0,
+      "P17": 0.0,
+      "P18": 0.0,
+      "P19": 0.0,
+      "P20": 0.33,
+      "P21": 0.5,
+      "P22": 0.5,
+      "P23": 0.33,
+      "P24": 0.0,
+      "P25": 0.0,
+      "P26": 0.0,
+      "P27": 0.25,
+      "P28": 0.0,
+      "P29": 0.88,
+      "P30": 0.5,
+      "P31": 0.0,
+      "P32": 0.0,
+      "P33": 0.0,
+      "P34": 0.0,
+      "P35": 0.0,
+      "P36": 0.0,
+      "P37": 0.0,
+      "P38": 0.0,
+      "P39": 0.0,
+      "P40": 0.0,
+      "P41": 0.0,
+      "P42": 0.0,
+      "P43": 0.0,
+      "P44": 0.0,
+      "P45": 0.0,
+      "P46": 0.0,
+      "P47": 0.0,
+      "P48": 0.0,
+      "P49": 0.0,
+      "P50": 0.0,
+      "P51": 0.0,
+      "P52": 0.0,
+      "P53": 0.0,
+      "P54": 0.0,
+      "P55": 0.0,
+      "P56": 0.0,
+      "P57": 0.0,
+      "P58": 0.0,
+      "P59": 0.0,
+      "P60": 0.0,
+      "P61": 0.0,
+      "P62": 0.0,
+      "P63": 0.0,
+      "P64": 0.0,
+      "P65": 0.0,
+      "P66": 0.0,
+      "P67": 0.0,
+      "P68": 0.0,
+      "P69": 0.0,
+      "P70": 0.0,
+      "P71": 0.0,
+      "P72": 0.0,
+      "P73": 0.0,
+      "P74": 0.0,
+      "P75": 0.0,
+      "P76": 0.0,
+      "P77": 0.0,
+      "P78": 0.0,
+      "P79": 0.0,
+      "P80": 0.0,
+      "P81": 0.0,
+      "P82": 0.0,
+      "P83": 0.0,
+      "P84": 0.0,
+      "P85": 0.0,
+      "P86": 0.0,
+      "P87": 0.0,
+      "P88": 0.0,
+      "P89": 0.0,
+      "P90": 0.0,
+      "P91": 0.0,
+      "P92": 0.0,
+      "P93": 0.0,
+      "P94": 0.0,
+      "P95": 0.0,
+      "P96": 0.0,
+      "P97": 0.0,
+      "P98": 0.0,
+      "P99": 0.0,
+      "P100": 0.0,
+      "P101": 0.0,
+      "P102": 0.0,
+      "P103": 0.0,
+      "P104": 0.0,
+      "P105": 0.0,
+      "P106": 0.0,
+      "P107": 0.0,
+      "P108": 0.0,
+      "P109": 0.0,
+      "P110": 0.0,
+      "P111": 0.0,
+      "P112": 0.0,
+      "P113": 0.0,
+      "P114": 0.0,
+      "P115": 0.0
+    },
+    "paragraph_total": {
+      "P01": 0.0,
+      "P02": 0.0,
+      "P03": 0.0,
+      "P04": 0.0,
+      "P05": 0.0,
+      "P06": 0.0,
+      "P07": 0.0,
+      "P08": 0.0,
+      "P09": 0.14,
+      "P10": -1.0,
+      "P11": 0.0,
+      "P12": -1.0,
+      "P13": 0.0,
+      "P14": -0.33,
+      "P15": 0.17,
+      "P16": -0.33,
+      "P17": 0.0,
+      "P18": 0.0,
+      "P19": 0.0,
+      "P20": 0.33,
+      "P21": 0.5,
+      "P22": 0.67,
+      "P23": 0.33,
+      "P24": 0.0,
+      "P25": 0.0,
+      "P26": 0.0,
+      "P27": 0.25,
+      "P28": 0.14,
+      "P29": 0.88,
+      "P30": 0.5,
+      "P31": 0.0,
+      "P32": 0.0,
+      "P33": 0.0,
+      "P34": 0.0,
+      "P35": 0.0,
+      "P36": -0.14,
+      "P37": 0.0,
+      "P38": 0.14,
+      "P39": 0.5,
+      "P40": 0.0,
+      "P41": 0.0,
+      "P42": 0.0,
+      "P43": 0.0,
+      "P44": 0.0,
+      "P45": 0.0,
+      "P46": 0.0,
+      "P47": 0.0,
+      "P48": 0.0,
+      "P49": 0.0,
+      "P50": 0.0,
+      "P51": 0.0,
+      "P52": 0.0,
+      "P53": 0.0,
+      "P54": 0.0,
+      "P55": 0.0,
+      "P56": 0.0,
+      "P57": 0.0,
+      "P58": 0.0,
+      "P59": 0.0,
+      "P60": 0.0,
+      "P61": 0.0,
+      "P62": 0.0,
+      "P63": 0.67,
+      "P64": 0.0,
+      "P65": 0.0,
+      "P66": 0.0,
+      "P67": 0.0,
+      "P68": 0.0,
+      "P69": 0.0,
+      "P70": 0.0,
+      "P71": 0.0,
+      "P72": 0.0,
+      "P73": 0.0,
+      "P74": 0.0,
+      "P75": 0.0,
+      "P76": 0.5,
+      "P77": 0.0,
+      "P78": 0.0,
+      "P79": 2.0,
+      "P80": 2.0,
+      "P81": 0.0,
+      "P82": 0.0,
+      "P83": 0.0,
+      "P84": 0.0,
+      "P85": 0.0,
+      "P86": 0.0,
+      "P87": 0.0,
+      "P88": 0.0,
+      "P89": 0.0,
+      "P90": 0.0,
+      "P91": 0.0,
+      "P92": 0.0,
+      "P93": 0.0,
+      "P94": 1.0,
+      "P95": 0.2,
+      "P96": 1.2,
+      "P97": 0.0,
+      "P98": 0.0,
+      "P99": 0.0,
+      "P100": 0.0,
+      "P101": -0.67,
+      "P102": 0.0,
+      "P103": -0.33,
+      "P104": 0.0,
+      "P105": -0.67,
+      "P106": 0.0,
+      "P107": 0.0,
+      "P108": 0.67,
+      "P109": 0.0,
+      "P110": 0.0,
+      "P111": 0.5,
+      "P112": 0.0,
+      "P113": 0.25,
+      "P114": 0.0,
+      "P115": 0.0
+    }
+  },
+  "sentences": [
+    {
+      "id": "S001",
+      "para": "P01",
+      "text": "# GOD AS ROOT â€” Long Edition",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S002",
+      "para": "P02",
+      "text": "> [!note] Edition notice",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S003",
+      "para": "P02",
+      "text": "> This is the preserved long-form source edition for this chapter.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S004",
+      "para": "P02",
+      "text": "It contains substantially more research and argument than the short public story.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S005",
+      "para": "P02",
+      "text": "It is not automatically polished, admitted, or canonized by being placed here.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S006",
+      "para": "P03",
+      "text": "## Preserved long-form source",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S007",
+      "para": "P04",
+      "text": "## Why God Made Physics, the Character of God from Physics, the Story Told Through Physics, God in the Equations, Holding God Accountable, and the Narrative Maps",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S008",
+      "para": "P05",
+      "text": "**POF 2828 | Canonical Consolidation | August 3, 2026**",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S009",
+      "para": "P06",
+      "text": "## The Ground Before the Building",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S010",
+      "para": "P07",
+      "text": "Every formal system has a floor it cannot dig beneath.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S011",
+      "para": "P07",
+      "text": "Set theory pays nine axioms.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S012",
+      "para": "P07",
+      "text": "Peano arithmetic pays five.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S013",
+      "para": "P07",
+      "text": "General relativity pays two postulates.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S014",
+      "para": "P07",
+      "text": "This framework pays one.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S015",
+      "para": "P08",
+      "text": "God.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S016",
+      "para": "P09",
+      "text": "Not \"a god.\"",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S017",
+      "para": "P09",
+      "text": "Not \"a higher power.\"",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S018",
+      "para": "P09",
+      "text": "Not \"the divine\" as a polite placeholder.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S019",
+      "para": "P09",
+      "text": "The Trinitarian God -- three persons in one being, each constituted through the others, none prior, none derived, none reducible.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S020",
+      "para": "P09",
+      "text": "Aseity: existence from Himself.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S021",
+      "para": "P09",
+      "text": "Perichoresis: mutual indwelling, the persons ARE their relations.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S022",
+      "para": "P09",
+      "text": "Love: the ground state of the coupling between them.",
+      "v": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S023",
+      "para": "P10",
+      "text": "That single structure pays four debts no other ontology on earth pays.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "why": {
+        "self_control": "sweeping unhedged claim no other ontology pays"
+      }
+    },
+    {
+      "id": "S024",
+      "para": "P10",
+      "text": "Every system that exists -- materialism, idealism, mathematical Platonism, secular humanism -- uses four things it cannot ground:",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "why": {
+        "self_control": "sweeping claim every system cannot ground these"
+      }
+    },
+    {
+      "id": "S025",
+      "para": "P11",
+      "text": "- **Existence** -- why is there something rather than nothing?",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S026",
+      "para": "P11",
+      "text": "- **Distinction** -- why is this not that?",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S027",
+      "para": "P11",
+      "text": "- **Relation** -- why do distinguishable things interact lawfully?",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S028",
+      "para": "P11",
+      "text": "- **Orientation** -- why are some states better than others?",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S029",
+      "para": "P12",
+      "text": "Every system uses all four.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "why": {
+        "self_control": "unhedged universal claim every system uses all four"
+      }
+    },
+    {
+      "id": "S030",
+      "para": "P12",
+      "text": "No system derives them.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "why": {
+        "self_control": "unhedged universal claim no system derives them"
+      }
+    },
+    {
+      "id": "S031",
+      "para": "P12",
+      "text": "They are assumed, borrowed, and never paid for.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "why": {
+        "self_control": "sweeping unhedged claim never paid for"
+      }
+    },
+    {
+      "id": "S032",
+      "para": "P13",
+      "text": "The Trinity pays all four from one structure.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "why": {
+        "self_control": "unhedged claim Trinity pays all four"
+      }
+    },
+    {
+      "id": "S033",
+      "para": "P13",
+      "text": "Existence is aseity -- the Father IS.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S034",
+      "para": "P13",
+      "text": "Distinction is the persons -- the Son is not the Father, the Spirit is not the Son.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S035",
+      "para": "P13",
+      "text": "Relation is perichoresis -- the persons indwell each other constitutively.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S036",
+      "para": "P13",
+      "text": "Orientation is love -- the coupling between them is directed, ordered, good.",
+      "v": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S037",
+      "para": "P14",
+      "text": "**One axiom.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S038",
+      "para": "P14",
+      "text": "Four debts paid.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S039",
+      "para": "P14",
+      "text": "Everything else derives from this through formal grammar constrained by physics.**",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "why": {
+        "self_control": "unhedged everything else derives claim"
+      }
+    },
+    {
+      "id": "S040",
+      "para": "P15",
+      "text": "And the axiom cannot be proven.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "why": {}
+    },
+    {
+      "id": "S041",
+      "para": "P15",
+      "text": "That is not a weakness.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S042",
+      "para": "P15",
+      "text": "It is the signature.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S043",
+      "para": "P15",
+      "text": "An axiom that could be proven would rest on something deeper, and then it would not be the ground.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S044",
+      "para": "P15",
+      "text": "The inability to prove God is exactly what the derivation grammar predicts for a genuine Layer 0: the root layer requires nothing beneath it (DG1).",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S045",
+      "para": "P15",
+      "text": "If God COULD be proven, God would not be the ground.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S046",
+      "para": "P16",
+      "text": "*\"He gave us everything we need to find Him -- except the ability to prove Him without Him.\"* That is not a bug.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S047",
+      "para": "P16",
+      "text": "That is the design.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S048",
+      "para": "P16",
+      "text": "Godel guarantees it.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "why": {
+        "self_control": "unhedged appeal to Godel guarantees it"
+      }
+    },
+    {
+      "id": "S049",
+      "para": "P17",
+      "text": "## Why God Made Physics",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S050",
+      "para": "P18",
+      "text": "If God is sovereign, why does the world need physics at all?",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S051",
+      "para": "P18",
+      "text": "Why gravity?",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S052",
+      "para": "P18",
+      "text": "Why entropy?",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S053",
+      "para": "P18",
+      "text": "Why quantum uncertainty?",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S054",
+      "para": "P18",
+      "text": "Why a universe that runs down and a Second Law that cannot be cheated?",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S055",
+      "para": "P19",
+      "text": "The shortest answer:",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S056",
+      "para": "P20",
+      "text": "**Physics is not God.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S057",
+      "para": "P20",
+      "text": "Physics is not a substitute for God.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S058",
+      "para": "P20",
+      "text": "Physics is the ordered created medium where relation, consequence, choice, time, repair, embodiment, and love can become publicly meaningful.**",
+      "v": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S059",
+      "para": "P21",
+      "text": "Christian theology says God is free.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S060",
+      "para": "P21",
+      "text": "God did not have to create.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S061",
+      "para": "P21",
+      "text": "Creation is a gift, not a necessity.",
+      "v": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S062",
+      "para": "P21",
+      "text": "But if God chooses to create beings who can genuinely receive love and freely return it, then those beings need:",
+      "v": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S063",
+      "para": "P22",
+      "text": "- **A world that is not God.** If everything were divine, there would be no creature to love.",
+      "v": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S064",
+      "para": "P22",
+      "text": "- **A world stable enough to be known.** Love requires a shared reality.",
+      "v": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S065",
+      "para": "P22",
+      "text": "- **A world with real consequence.** Choice without consequence is not choice.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S066",
+      "para": "P22",
+      "text": "- **A world with time.** Covenant, repentance, patience, and hope require sequence.",
+      "v": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S067",
+      "para": "P22",
+      "text": "- **A world with limits.** Finitude is the condition for receiving.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S068",
+      "para": "P22",
+      "text": "- **A world with repair.** Grace must enter somewhere real.",
+      "v": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S069",
+      "para": "P23",
+      "text": "Physics is the grammar of that world.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S070",
+      "para": "P23",
+      "text": "It is not the Author.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S071",
+      "para": "P23",
+      "text": "It is the ordered language the Author speaks so that creatures can exist, act, relate, and be redeemed.",
+      "v": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S072",
+      "para": "P24",
+      "text": "### Physics As Created Medium",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S073",
+      "para": "P25",
+      "text": "**Existence and distinction.** Physics begins with the fact that there IS something, and that the something has parts.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S074",
+      "para": "P25",
+      "text": "Electrons are not protons.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S075",
+      "para": "P25",
+      "text": "Here is not there.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S076",
+      "para": "P25",
+      "text": "Now is not then.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S077",
+      "para": "P25",
+      "text": "Without distinction, there is no creature -- only an undifferentiated divine field.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S078",
+      "para": "P25",
+      "text": "Theology says distinction enters creation through the Word: *\"Let there be light\"* is an act of separation (Genesis 1:3).",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S079",
+      "para": "P25",
+      "text": "Physics gives that separation a vocabulary.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S080",
+      "para": "P26",
+      "text": "**Relation and lawfulness.** Physical laws are not chains that bind God.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S081",
+      "para": "P26",
+      "text": "They are the conditions under which creatures can relate reliably.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S082",
+      "para": "P26",
+      "text": "If gravity changed its mind, orbits would not exist.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S083",
+      "para": "P26",
+      "text": "If electromagnetism were arbitrary, chemistry would not hold.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S084",
+      "para": "P26",
+      "text": "If entropy had no direction, consequences would dissolve.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S085",
+      "para": "P26",
+      "text": "A world without law is not a world of freedom.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S086",
+      "para": "P26",
+      "text": "It is a world without trust.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S087",
+      "para": "P27",
+      "text": "**Consequence and cost.** The Second Law says a closed system runs down.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S088",
+      "para": "P27",
+      "text": "That sounds cruel until you see what it protects.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S089",
+      "para": "P27",
+      "text": "A world where choices have no cost is a world where love has no weight.",
+      "v": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S090",
+      "para": "P27",
+      "text": "The same law that makes death real makes sacrifice meaningful.",
+      "v": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S091",
+      "para": "P27",
+      "text": "The same law that says \"you cannot fix yourself\" makes grace necessary.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S092",
+      "para": "P27",
+      "text": "Physics does not say grace exists.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S093",
+      "para": "P27",
+      "text": "Physics says the creature cannot generate its own repair.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S094",
+      "para": "P27",
+      "text": "That is exactly the condition grace answers.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S095",
+      "para": "P28",
+      "text": "**Time and sequence.** Time is not a prison.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S096",
+      "para": "P28",
+      "text": "It is the medium of covenant.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S097",
+      "para": "P28",
+      "text": "Promises require before and after.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S098",
+      "para": "P28",
+      "text": "Repentance requires a yesterday and a tomorrow.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S099",
+      "para": "P28",
+      "text": "Patience requires duration.",
+      "v": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S100",
+      "para": "P28",
+      "text": "Hope requires future.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S101",
+      "para": "P28",
+      "text": "Even the arrow of time -- the fact that effects do not un-happen -- protects the reality of choice.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S102",
+      "para": "P29",
+      "text": "**Embodiment and public meaning.** Love is not merely a private feeling.",
+      "v": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S103",
+      "para": "P29",
+      "text": "It becomes real when it enters a body, an action, a consequence that others can see.",
+      "v": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S104",
+      "para": "P29",
+      "text": "A meal shared.",
+      "v": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S105",
+      "para": "P29",
+      "text": "A hand extended.",
+      "v": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S106",
+      "para": "P29",
+      "text": "A body broken.",
+      "v": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S107",
+      "para": "P29",
+      "text": "A tomb found empty.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S108",
+      "para": "P29",
+      "text": "Without embodiment, love would be invisible even to the lover.",
+      "v": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S109",
+      "para": "P29",
+      "text": "Physics makes love publicly meaningful.",
+      "v": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S110",
+      "para": "P30",
+      "text": "**God did not make physics because He needed it.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S111",
+      "para": "P30",
+      "text": "He made physics because we needed a world where love could be real, choice could be costly, and grace could arrive as rescue.**",
+      "v": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S112",
+      "para": "P31",
+      "text": "### The Split: Physics Is Not Grace",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S113",
+      "para": "P32",
+      "text": "Do not confuse the created medium with the Creator who fills it.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S114",
+      "para": "P32",
+      "text": "Theology says grace is God's unmerited favor, entering creation from beyond the closed system.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S115",
+      "para": "P32",
+      "text": "Physics says closed systems run down; open systems can receive energy, information, and order from outside.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S116",
+      "para": "P32",
+      "text": "Physics describes the condition grace answers.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S117",
+      "para": "P32",
+      "text": "Physics is not grace.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S118",
+      "para": "P33",
+      "text": "The objection \"Are you saying gravity is grace?\" gets a clean answer: No.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S119",
+      "para": "P33",
+      "text": "Gravity is gravity.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S120",
+      "para": "P33",
+      "text": "Grace is grace.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S121",
+      "para": "P33",
+      "text": "But a world with gravity is the kind of world where grace can be received as rescue rather than ignored as optional.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S122",
+      "para": "P34",
+      "text": "## The Character of God from Physics",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S123",
+      "para": "P35",
+      "text": "Here is where it gets checkable.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S124",
+      "para": "P36",
+      "text": "There is a Person described in these equations.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S125",
+      "para": "P36",
+      "text": "Not imposed.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S126",
+      "para": "P36",
+      "text": "Not interpreted.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S127",
+      "para": "P36",
+      "text": "Described.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S128",
+      "para": "P36",
+      "text": "Physics tells you WHAT each force does -- the behaviors, the properties.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S129",
+      "para": "P36",
+      "text": "It does not tell you WHY.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S130",
+      "para": "P36",
+      "text": "But when you collect the properties of all ten forces and read them together, they compose a portrait so specific that only one Person in history matches it.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "why": {}
+    },
+    {
+      "id": "S131",
+      "para": "P37",
+      "text": "### From Gravity: The Character of Grace",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S132",
+      "para": "P38",
+      "text": "Physics measures these properties: weakest of all four fundamental forces (10^36 weaker than EM).",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S133",
+      "para": "P38",
+      "text": "Shapes all large-scale structure in the universe.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S134",
+      "para": "P38",
+      "text": "Cannot be shielded by any known material.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S135",
+      "para": "P38",
+      "text": "Always attractive -- never repulsive.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S136",
+      "para": "P38",
+      "text": "Infinite range -- never stops reaching.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S137",
+      "para": "P38",
+      "text": "Acts by curving the path, not by pushing the object.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S138",
+      "para": "P38",
+      "text": "Patient -- accumulates slowly, never spikes.",
+      "v": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S139",
+      "para": "P39",
+      "text": "Read together: There is something that is the gentlest force in existence, that shaped everything, that you cannot build a wall against, that only ever draws you closer, that reaches everywhere, that changes your path without forcing your steps, and that never gives up.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S140",
+      "para": "P39",
+      "text": "Physics calls it gravity.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S141",
+      "para": "P40",
+      "text": "*\"I, when I am lifted up from the earth, will draw all people to myself.\"* -- John 12:32",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S142",
+      "para": "P41",
+      "text": "### From the Strong Nuclear Force: The Character of Love",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S143",
+      "para": "P42",
+      "text": "Strongest force in nature (137x stronger than EM).",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S144",
+      "para": "P42",
+      "text": "Confinement -- gets stronger as you pull apart.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S145",
+      "para": "P42",
+      "text": "Slack at short range -- freedom inside the bond.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S146",
+      "para": "P42",
+      "text": "The universe creates new matter rather than allow separation.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S147",
+      "para": "P42",
+      "text": "Holds every nucleus together.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S148",
+      "para": "P42",
+      "text": "Short-range dominance -- overwhelming up close, invisible at distance.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S149",
+      "para": "P43",
+      "text": "Read together: There is something that is the strongest force in existence, that holds tighter the further you run, that gives you complete freedom when you're close, that would restructure reality itself before it lets you go, that is holding you together right now at the atomic level, and that you don't even notice until you try to leave.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S150",
+      "para": "P43",
+      "text": "Physics calls it the strong nuclear force.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S151",
+      "para": "P44",
+      "text": "The Hessian matrix -- blind to theology, just computing coupling strengths between ten differential equations -- scored this variable as the most connected node in the entire system.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S152",
+      "para": "P44",
+      "text": "More connected than gravity.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S153",
+      "para": "P44",
+      "text": "More connected than entropy.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S154",
+      "para": "P44",
+      "text": "More connected than coherence itself.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S155",
+      "para": "P45",
+      "text": "*\"The greatest of these is love.\"* -- 1 Corinthians 13:13.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S156",
+      "para": "P45",
+      "text": "The math said it without being asked.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S157",
+      "para": "P46",
+      "text": "### From Electromagnetism: The Character of Truth",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S158",
+      "para": "P47",
+      "text": "Light propagates without a medium -- self-sustaining.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S159",
+      "para": "P47",
+      "text": "Never degrades in transit -- a photon from 13 billion years ago arrives with its original information intact.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S160",
+      "para": "P47",
+      "text": "Travels at the maximum possible speed -- nothing faster exists.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S161",
+      "para": "P47",
+      "text": "Maxwell's four equations unify electricity and magnetism -- all of reality's electromagnetic phenomena described by four statements.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S162",
+      "para": "P48",
+      "text": "*\"I am the light of the world.\"* -- John 8:12",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S163",
+      "para": "P49",
+      "text": "### From Thermodynamics: The Character of Necessity",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S164",
+      "para": "P50",
+      "text": "The Second Law: entropy always increases in a closed system.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S165",
+      "para": "P50",
+      "text": "You cannot cheat it.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S166",
+      "para": "P50",
+      "text": "You cannot reverse it from within.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S167",
+      "para": "P50",
+      "text": "This is not punishment -- this is the structural reality that makes grace necessary.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S168",
+      "para": "P50",
+      "text": "A closed system decays.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S169",
+      "para": "P50",
+      "text": "Only an external source can restore it.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S170",
+      "para": "P51",
+      "text": "### From Information: The Character of the Word",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S171",
+      "para": "P52",
+      "text": "Information is the one thing that exists in both the physical world and the spiritual world.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S172",
+      "para": "P52",
+      "text": "In physics it is bits, entropy, signal and noise.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S173",
+      "para": "P52",
+      "text": "In faith it is truth, revelation, the Word of God.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S174",
+      "para": "P52",
+      "text": "When John writes *\"In the beginning was the Word\"* (John 1:1), that is a claim about the substrate of reality -- made two thousand years before anyone had the math to check it.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S175",
+      "para": "P52",
+      "text": "Shannon gave us the mathematics to see what theology has always known: reality is made of meaning, not just matter.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S176",
+      "para": "P53",
+      "text": "## The Story Told Through Physics: Twenty Questions",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S177",
+      "para": "P54",
+      "text": "The \"You Are God\" thought experiment asks: if you woke up as God, what would you build, risk, permit, and redeem?",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S178",
+      "para": "P55",
+      "text": "The sequence holds when the first principles are stated in the right order:",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S179",
+      "para": "P56",
+      "text": "1.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S180",
+      "para": "P56",
+      "text": "God is self-sufficient goodness.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S181",
+      "para": "P56",
+      "text": "2.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S182",
+      "para": "P56",
+      "text": "Love freely creates real others.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S183",
+      "para": "P56",
+      "text": "3.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S184",
+      "para": "P56",
+      "text": "Real others require genuine agency.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S185",
+      "para": "P56",
+      "text": "4.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S186",
+      "para": "P56",
+      "text": "Agency allows refusal.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S187",
+      "para": "P56",
+      "text": "5.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S188",
+      "para": "P56",
+      "text": "Refusal closes the receiver against the source.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S189",
+      "para": "P56",
+      "text": "6.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S190",
+      "para": "P56",
+      "text": "A closed system decays.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S191",
+      "para": "P56",
+      "text": "7.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S192",
+      "para": "P56",
+      "text": "Restoration must come from outside without destroying freedom.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S193",
+      "para": "P56",
+      "text": "8.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S194",
+      "para": "P56",
+      "text": "Incarnation enters the system without coercing it.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S195",
+      "para": "P56",
+      "text": "9.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S196",
+      "para": "P56",
+      "text": "Cross and resurrection restore from within while preserving identity.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S197",
+      "para": "P57",
+      "text": "Why must the witness be free?",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S198",
+      "para": "P57",
+      "text": "Because a mirror does not count.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S199",
+      "para": "P57",
+      "text": "Appreciation that cannot refuse is not appreciation.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S200",
+      "para": "P57",
+      "text": "It is an echo. *\"Love does not create because God lacks company.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S201",
+      "para": "P57",
+      "text": "Love creates because abundance overflows into real others who can answer freely.\"*",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S202",
+      "para": "P58",
+      "text": "Why a tree?",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S203",
+      "para": "P58",
+      "text": "The tree in the garden is not a trap.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S204",
+      "para": "P58",
+      "text": "It is free will made visible.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S205",
+      "para": "P58",
+      "text": "Freedom without a real choice is just a word -- like saying someone is free to leave a room that has no door.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S206",
+      "para": "P58",
+      "text": "The adversary does not tell anyone to rebel outright.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S207",
+      "para": "P58",
+      "text": "He just asks: *\"Did God really say...?\"* (Genesis 3:1).",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S208",
+      "para": "P58",
+      "text": "A tiny gap, a seed of doubt, and independence starts sounding like an upgrade.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S209",
+      "para": "P59",
+      "text": "Why not make God impossible to miss?",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S210",
+      "para": "P59",
+      "text": "The adversary was IN heaven.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S211",
+      "para": "P59",
+      "text": "He could see God directly, and he still rebelled.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S212",
+      "para": "P59",
+      "text": "Proximity never guaranteed loyalty.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S213",
+      "para": "P59",
+      "text": "Seeing is not the same as choosing.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S214",
+      "para": "P59",
+      "text": "Real love needs something sight cannot provide: faith. *\"Faith is the only proof of love that can't be faked by proximity.\"*",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S215",
+      "para": "P60",
+      "text": "What about the cross?",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S216",
+      "para": "P60",
+      "text": "On the cross, the perfect, uncorrupted pattern voluntarily releases itself into the broken system. *\"It is finished\"* (John 19:30) is not defeat -- it is successful deployment.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S217",
+      "para": "P60",
+      "text": "The temple veil tears top to bottom -- not opened from below by human hands, opened from the top, by God.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S218",
+      "para": "P60",
+      "text": "The adversary orchestrated the whole thing, certain he was landing the killing blow -- and triggered the exact mechanism that ends him instead.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S219",
+      "para": "P61",
+      "text": "What does the empty tomb prove?",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S220",
+      "para": "P61",
+      "text": "Two things, and both are physics claims, not just miracle claims.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S221",
+      "para": "P61",
+      "text": "First: information survives the destruction of its container.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S222",
+      "para": "P61",
+      "text": "The pattern is not erased when the substrate is.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S223",
+      "para": "P61",
+      "text": "Second: entropy -- the rule that everything falls apart when left alone -- gets locally reversed by connecting the system to a source outside itself.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S224",
+      "para": "P62",
+      "text": "### The Honest Limit",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S225",
+      "para": "P63",
+      "text": "This whole argument could be wrong, and it says so on purpose.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "why": {}
+    },
+    {
+      "id": "S226",
+      "para": "P63",
+      "text": "The match between ten physical structures and ten spiritual patterns could be coincidence.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "why": {}
+    },
+    {
+      "id": "S227",
+      "para": "P63",
+      "text": "A determined skeptic could write the exact opposite essay from the same raw physics.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "why": {}
+    },
+    {
+      "id": "S228",
+      "para": "P63",
+      "text": "What makes this different from every \"God of the gaps\" argument: it does not need science to fail anywhere.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S229",
+      "para": "P63",
+      "text": "It needs science to keep succeeding, and the pattern to keep holding.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S230",
+      "para": "P63",
+      "text": "It names its own kill conditions in advance, out loud, so anyone can check.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "why": {}
+    },
+    {
+      "id": "S231",
+      "para": "P64",
+      "text": "## God in the Equations",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S232",
+      "para": "P65",
+      "text": "This is not clever arguments for God.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S233",
+      "para": "P65",
+      "text": "It is something that has been hiding in plain sight: the fingerprint of the Divine in the mathematics of reality itself.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S234",
+      "para": "P66",
+      "text": "The ten laws -- ten physical structures, each real enough to be taught and tested -- compose a single, oddly specific portrait when their measured properties are read together:",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S235",
+      "para": "P67",
+      "text": "| Physical Law | Spiritual Reading | The Missing Piece |",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S236",
+      "para": "P67",
+      "text": "| Gravity | Grace | Agency -- grace can be refused |",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S237",
+      "para": "P67",
+      "text": "| Strong Force | Love | Agency -- love can be rejected |",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S238",
+      "para": "P67",
+      "text": "| Electromagnetism | Truth | Agency -- truth can be suppressed |",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S239",
+      "para": "P67",
+      "text": "| Mass-Energy | Significance | Agency -- significance can be denied |",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S240",
+      "para": "P67",
+      "text": "| Thermodynamics | Necessity | Agency -- the closed self can refuse to open |",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S241",
+      "para": "P67",
+      "text": "| Information | The Word | Agency -- the word can be ignored |",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S242",
+      "para": "P67",
+      "text": "| Relativity | Constancy | Agency -- constancy can be abandoned |",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S243",
+      "para": "P67",
+      "text": "| Quantum Mechanics | Faith | Agency -- faith can be withheld |",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S244",
+      "para": "P67",
+      "text": "| Weak Force | The Bond | Agency -- the bond can be broken |",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S245",
+      "para": "P67",
+      "text": "| Coherence | Christ | Agency -- coherence can be rejected |",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S246",
+      "para": "P68",
+      "text": "Every one of these ten has the exact same missing piece, in the exact same structural spot, and it is always the same thing.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S247",
+      "para": "P68",
+      "text": "Not \"God did it, mystery solved.\"",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S248",
+      "para": "P68",
+      "text": "One specific, nameable, checkable variable, ten times in a row: **agency**.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S249",
+      "para": "P68",
+      "text": "The physics does not need the variable.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S250",
+      "para": "P68",
+      "text": "The spiritual reading does.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S251",
+      "para": "P69",
+      "text": "## God in the Gaps -- Inverted",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S252",
+      "para": "P70",
+      "text": "This paper does the opposite of the old \"God of the gaps\" argument.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S253",
+      "para": "P71",
+      "text": "Every generation, someone points at something science cannot explain and says \"therefore God.\"",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S254",
+      "para": "P71",
+      "text": "And every generation, science explains it and God gets smaller.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S255",
+      "para": "P71",
+      "text": "Darwin.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S256",
+      "para": "P71",
+      "text": "Plate tectonics.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S257",
+      "para": "P71",
+      "text": "Neuroscience.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S258",
+      "para": "P71",
+      "text": "The gaps close.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S259",
+      "para": "P72",
+      "text": "This paper takes ten things science DID explain -- fully, rigorously, with Nobel Prizes and textbook chapters and a century of experimental confirmation -- and shows that when you read them together, they describe a Person.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S260",
+      "para": "P72",
+      "text": "Not in the gaps.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S261",
+      "para": "P72",
+      "text": "In the completions.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S262",
+      "para": "P73",
+      "text": "The more science explains, the clearer the portrait gets.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S263",
+      "para": "P73",
+      "text": "God does not live in what we do not know.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S264",
+      "para": "P73",
+      "text": "God is written into what we DO know.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S265",
+      "para": "P73",
+      "text": "We just were not reading it together.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S266",
+      "para": "P74",
+      "text": "Bonhoeffer saw this in 1944 and wrote it from prison: we should not use God as a stopgap for the incompleteness of our knowledge.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S267",
+      "para": "P74",
+      "text": "The theologians who make that argument are building on sand.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S268",
+      "para": "P74",
+      "text": "They are betting that science will stop.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S269",
+      "para": "P74",
+      "text": "It will not.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S270",
+      "para": "P74",
+      "text": "This framework does not make that argument.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S271",
+      "para": "P74",
+      "text": "It makes the opposite argument.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S272",
+      "para": "P74",
+      "text": "And it has data.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S273",
+      "para": "P75",
+      "text": "## Holding God Accountable",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S274",
+      "para": "P76",
+      "text": "If God is Truth, the framework must let its claims be tested, corrected, and held to account.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "why": {}
+    },
+    {
+      "id": "S275",
+      "para": "P76",
+      "text": "This is the method page.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S276",
+      "para": "P77",
+      "text": "The Cross-Resolution Method requires every major claim to be read in the register where it belongs:",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S277",
+      "para": "P78",
+      "text": "- **Theology:** what Christian doctrine, Scripture, and confession say.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S278",
+      "para": "P78",
+      "text": "- **Physics:** what established models, equations, and experiments permit or forbid by themselves.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S279",
+      "para": "P78",
+      "text": "- **Mathematics:** what follows from definitions and proofs.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S280",
+      "para": "P78",
+      "text": "- **Lived reality:** what people actually recognize in conscience, grief, love, guilt, beauty, and hope.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S281",
+      "para": "P78",
+      "text": "- **Bridge:** where the same structure appears across registers as analogy, resonance, model, theorem, convergence, or open conjecture.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S282",
+      "para": "P79",
+      "text": "Physics is not allowed to smuggle in theology.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "why": {}
+    },
+    {
+      "id": "S283",
+      "para": "P79",
+      "text": "Theology is not allowed to rescue weak physics.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "why": {}
+    },
+    {
+      "id": "S284",
+      "para": "P79",
+      "text": "Story is not allowed to pretend it is proof.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "why": {}
+    },
+    {
+      "id": "S285",
+      "para": "P79",
+      "text": "Formal proof is not allowed to pretend it has captured the whole meaning of lived experience.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "why": {}
+    },
+    {
+      "id": "S286",
+      "para": "P80",
+      "text": "But when the same structure appears across registers, we do not dismiss it merely because it crosses a boundary.",
+      "v": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S287",
+      "para": "P80",
+      "text": "We mark the bridge, name its strength, state its limits, and keep testing.",
+      "v": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "why": {}
+    },
+    {
+      "id": "S288",
+      "para": "P80",
+      "text": "No hidden upgrades.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "why": {}
+    },
+    {
+      "id": "S289",
+      "para": "P81",
+      "text": "## The Necessary Ground",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S290",
+      "para": "P82",
+      "text": "If closed systems collapse and the universe has not collapsed, then something external sustains it.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S291",
+      "para": "P82",
+      "text": "If coherence and decoherence are real, measurable, and universal, then the source of coherence must be equally real and universal.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S292",
+      "para": "P83",
+      "text": "What are the required properties of that source?",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S293",
+      "para": "P84",
+      "text": "1. **Necessary** -- it cannot not exist, or the system collapses.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S294",
+      "para": "P84",
+      "text": "2. **Self-grounding** -- it cannot depend on something else (infinite regress).",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S295",
+      "para": "P84",
+      "text": "3. **Origin of coherence** -- it must be the source of truth, order, beauty, goodness, life.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S296",
+      "para": "P84",
+      "text": "4. **Active** -- passive maintenance is thermodynamically impossible (the Second Law).",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S297",
+      "para": "P84",
+      "text": "5. **Personal** -- only persons can ground moral facts (moral realism).",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S298",
+      "para": "P85",
+      "text": "Those properties have had a name for thousands of years:",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S299",
+      "para": "P86",
+      "text": "| Mathematical Requirement | Theological Term |",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S300",
+      "para": "P86",
+      "text": "| Necessary existence | Aseity |",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S301",
+      "para": "P86",
+      "text": "| Self-grounding | Self-sufficiency |",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S302",
+      "para": "P86",
+      "text": "| Eternal | Eternality |",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S303",
+      "para": "P86",
+      "text": "| Universal | Omnipresence |",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S304",
+      "para": "P86",
+      "text": "| Origin of coherence | Logos (Reason/Order) |",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S305",
+      "para": "P86",
+      "text": "| Active sustenance | Providence |",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S306",
+      "para": "P86",
+      "text": "| Personal ground of morality | Personhood |",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S307",
+      "para": "P87",
+      "text": "Here is what is remarkable: we did not start from theology and work toward physics.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S308",
+      "para": "P87",
+      "text": "We started from five mathematical proofs and arrived at the exact description theologians have been writing about since the beginning.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S309",
+      "para": "P88",
+      "text": "The math gave us all the tools to find Him.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S310",
+      "para": "P88",
+      "text": "And then -- in the deepest irony in the history of thought -- those same tools prove they cannot prove Him from within themselves.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S311",
+      "para": "P88",
+      "text": "Godel guarantees it.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S312",
+      "para": "P88",
+      "text": "The answer is real, necessary, and unprovable from inside the system it sustains.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S313",
+      "para": "P89",
+      "text": "## The Narrative Maps",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S314",
+      "para": "P90",
+      "text": "### The Descent",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S315",
+      "para": "P91",
+      "text": "The whole causal chain in 24 steps: God creates.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S316",
+      "para": "P91",
+      "text": "Creation stands.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S317",
+      "para": "P91",
+      "text": "What stands is distinguishable.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S318",
+      "para": "P91",
+      "text": "Distinction makes being intelligible.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S319",
+      "para": "P91",
+      "text": "What is intelligible carries information.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S320",
+      "para": "P91",
+      "text": "What carries information can stand in relation.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S321",
+      "para": "P91",
+      "text": "What can stand in relation can be kept or broken, ordered or disordered, honored or violated.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S322",
+      "para": "P91",
+      "text": "Therefore relation reveals value.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S323",
+      "para": "P91",
+      "text": "What has value can be regarded rightly or wrongly.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S324",
+      "para": "P91",
+      "text": "Thus value opens moral valence.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S325",
+      "para": "P91",
+      "text": "Moral valence makes right and wrong meaningful.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S326",
+      "para": "P91",
+      "text": "Right and wrong require agents who can choose.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S327",
+      "para": "P91",
+      "text": "Choice requires a world of rules, limits, time, and consequences.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S328",
+      "para": "P91",
+      "text": "Such a world permits decay, vulnerability, and loss.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S329",
+      "para": "P91",
+      "text": "Decay and vulnerability open the possibility of adversarial refusal of coherence.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S330",
+      "para": "P91",
+      "text": "The Enemy is that agency of refusal, exploiting disorder against the good.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S331",
+      "para": "P91",
+      "text": "Adversarial action creates real debt, damage, and disorder.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S332",
+      "para": "P91",
+      "text": "Perfect Justice requires that this be truthfully answered and paid.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S333",
+      "para": "P91",
+      "text": "Perfect Mercy wills restoration rather than abandonment.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S334",
+      "para": "P91",
+      "text": "Justice and Mercy together require a cost-bearing source beyond the damaged order itself.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S335",
+      "para": "P91",
+      "text": "That source must preserve truth while making restoration possible.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S336",
+      "para": "P91",
+      "text": "That source is Grace.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S337",
+      "para": "P91",
+      "text": "Grace restores creation toward God.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S338",
+      "para": "P91",
+      "text": "Christ is the convergence point where justice, mercy, truth, and restoration meet.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S339",
+      "para": "P92",
+      "text": "No premise smuggled.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S340",
+      "para": "P92",
+      "text": "No step skipped.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S341",
+      "para": "P92",
+      "text": "Being, followed all the way down, arrives at the Cross.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S342",
+      "para": "P93",
+      "text": "### The Progressive Revelation",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S343",
+      "para": "P94",
+      "text": "God does not dump the full signal on Day One because the receivers cannot parse it.",
+      "v": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S344",
+      "para": "P94",
+      "text": "Instead, He builds the reference frame piece by piece:",
+      "v": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S345",
+      "para": "P95",
+      "text": "He meets them in slavery -- and turns their deliverance into the vocabulary through which rescue can be understood.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S346",
+      "para": "P95",
+      "text": "He meets them in wilderness -- and teaches provision through manna, water from rock, the pillar of fire.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S347",
+      "para": "P95",
+      "text": "He meets them under Law -- the Ten Commandments, the sacrificial system, the impossible-to-perfectly-keep legal code -- because without the experience of failing to keep the Law, you cannot understand what it means for the Judge to pay the debt Himself.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S348",
+      "para": "P95",
+      "text": "He meets them through the prophets -- Isaiah, Jeremiah, Ezekiel, Daniel -- centuries building the pattern: God speaks, the people hear, the people drift, God speaks again.",
+      "v": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S349",
+      "para": "P95",
+      "text": "He meets them in exile -- Babylon, the destruction of the Temple, the loss of everything -- so they can understand return.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S350",
+      "para": "P96",
+      "text": "This is not God being slow.",
+      "v": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S351",
+      "para": "P96",
+      "text": "This is God being a teacher.",
+      "v": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S352",
+      "para": "P96",
+      "text": "You do not teach calculus to a child who has not learned to count.",
+      "v": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S353",
+      "para": "P96",
+      "text": "Not because calculus is not true yet.",
+      "v": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S354",
+      "para": "P96",
+      "text": "Because the child does not have the reference frame to receive it.",
+      "v": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S355",
+      "para": "P97",
+      "text": "## The Evidence Converges",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S356",
+      "para": "P98",
+      "text": "### Pre-Human Math",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S357",
+      "para": "P99",
+      "text": "The sun used E=mc^2 for 4.6 billion years before Einstein.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S358",
+      "para": "P99",
+      "text": "Where was the equation?",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S359",
+      "para": "P100",
+      "text": "### Fine-Tuning",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S360",
+      "para": "P101",
+      "text": "The cosmological constant is tuned to 1 part in 10^120.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S361",
+      "para": "P101",
+      "text": "That is not coincidence.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "why": {}
+    },
+    {
+      "id": "S362",
+      "para": "P101",
+      "text": "That is signature.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "why": {}
+    },
+    {
+      "id": "S363",
+      "para": "P102",
+      "text": "### The Hubble Tension",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S364",
+      "para": "P103",
+      "text": "The universe expands at two different rates depending on how you measure it.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S365",
+      "para": "P103",
+      "text": "5-sigma discrepancy.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S366",
+      "para": "P103",
+      "text": "One framework resolves it.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "why": {}
+    },
+    {
+      "id": "S367",
+      "para": "P104",
+      "text": "### Every Door Leads to the Same Room",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S368",
+      "para": "P105",
+      "text": "You can enter through logic, physics, information theory, biology, mathematics, cosmology, or the measurement of good and evil itself.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S369",
+      "para": "P105",
+      "text": "Every path converges.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "why": {}
+    },
+    {
+      "id": "S370",
+      "para": "P105",
+      "text": "Not because we forced it -- but because reality has one substrate, and that substrate has been telling us its name since the beginning.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "why": {}
+    },
+    {
+      "id": "S371",
+      "para": "P106",
+      "text": "*\"In the beginning was the Logos, and the Logos was with God, and the Logos was God.\"* -- John 1:1",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S372",
+      "para": "P107",
+      "text": "## The Canon Reading Order",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S373",
+      "para": "P108",
+      "text": "The God pages follow a deliberate sequence: start with God and story, move through Trinity and Truth, then let the axioms carry the weight.",
+      "v": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S374",
+      "para": "P108",
+      "text": "The reading rule is: story first, equations second, gauntlet last.",
+      "v": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S375",
+      "para": "P108",
+      "text": "The 7Q Classifier comes after the foundation because it is not the doorway; it is the gauntlet.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S376",
+      "para": "P109",
+      "text": "1.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S377",
+      "para": "P109",
+      "text": "The Descent -- the whole causal chain in 24 steps",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S378",
+      "para": "P109",
+      "text": "2.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S379",
+      "para": "P109",
+      "text": "God in the Equations -- the gentle first pass",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S380",
+      "para": "P109",
+      "text": "3.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S381",
+      "para": "P109",
+      "text": "You Are God -- the thought experiment version",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S382",
+      "para": "P109",
+      "text": "4.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S383",
+      "para": "P109",
+      "text": "The Trinity Signature -- triadic structure in physics and boundary logic",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S384",
+      "para": "P109",
+      "text": "5.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S385",
+      "para": "P109",
+      "text": "The Story With Receipts -- truth with receipts and open costs",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S386",
+      "para": "P109",
+      "text": "6.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S387",
+      "para": "P109",
+      "text": "Holding God Accountable -- the method page",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S388",
+      "para": "P109",
+      "text": "7.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S389",
+      "para": "P109",
+      "text": "The Foundation -- existence, distinction, information, coherence, witness, boundary",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S390",
+      "para": "P109",
+      "text": "8.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S391",
+      "para": "P109",
+      "text": "The 7Q Universal Classifier -- fourteen worldviews through Q0-Q12",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S392",
+      "para": "P109",
+      "text": "9.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S393",
+      "para": "P109",
+      "text": "The Master Equation -- the formal center",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S394",
+      "para": "P109",
+      "text": "10.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S395",
+      "para": "P109",
+      "text": "The Ten Laws -- the long internal law walk",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S396",
+      "para": "P110",
+      "text": "## Cross-Resolution Status",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S397",
+      "para": "P111",
+      "text": "| Register | Status |",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S398",
+      "para": "P111",
+      "text": "| **Theology** | Strong. The claim is that God freely chose a lawful created order as the medium of love and redemption. |",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S399",
+      "para": "P111",
+      "text": "| **Lived reality** | Strong. People experience love, choice, consequence, and repair inside a physical world. |",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S400",
+      "para": "P111",
+      "text": "| **Physics** | Modest. Physics describes the features of such a world; it does not say why the world has those features. |",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "why": {}
+    },
+    {
+      "id": "S401",
+      "para": "P111",
+      "text": "| **Bridge** | Declared. The bridge is structural correspondence, not proof. |",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "why": {}
+    },
+    {
+      "id": "S402",
+      "para": "P111",
+      "text": "| **Mathematics** | Partially formalized. The necessary ground argument has five proofs. The ten-law mappings need adversarial testing. |",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "why": {}
+    },
+    {
+      "id": "S403",
+      "para": "P112",
+      "text": "## Theology / Science / Bridge Table",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S404",
+      "para": "P113",
+      "text": "| Theology says | Science says | Bridge |",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S405",
+      "para": "P113",
+      "text": "| God is self-sufficient, eternal, personal | The universe requires a necessary, self-grounding, active, personal source | Five mathematical requirements map to five classical divine attributes |",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S406",
+      "para": "P113",
+      "text": "| God freely created a lawful world for love | The universe is intelligible, lawful, temporal, permits open systems | The created medium has exactly the properties needed for free, relational, redeemable creatures |",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S407",
+      "para": "P113",
+      "text": "| Ten forces reveal God's character | Ten forces have measurable properties that compose a specific portrait | The portrait matches one Person; agency is the repeated structural gap |",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S408",
+      "para": "P113",
+      "text": "| God built the classroom before the lesson | Physics existed before conscious observers | Pre-human math (E=mc^2 for 4.6 billion years) is consistent with designed intelligibility |",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S409",
+      "para": "P113",
+      "text": "| The cross reverses entropy from outside | Closed systems decay; open systems can receive restoration | The CDR grammar (Coherence-Degradation-Restoration) maps to creation-fall-redemption |",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S410",
+      "para": "P113",
+      "text": "| God is not in the gaps but in the completions | Ten fully explained laws compose a portrait | The more science explains, the clearer the portrait; kill condition: a force with no matching structure |",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "why": {}
+    },
+    {
+      "id": "S411",
+      "para": "P113",
+      "text": "| God holds Himself accountable to truth | Science requires falsifiability | The framework names its own kill conditions in advance |",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "why": {}
+    },
+    {
+      "id": "S412",
+      "para": "P114",
+      "text": "*The math gave us all the tools to find Him -- except the ability to prove Him without Him.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S413",
+      "para": "P114",
+      "text": "That is the design.*",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S414",
+      "para": "P115",
+      "text": "%%--- SEMANTIC TAGS ---%% %%tag::Idea::0f11b7ba-b293-49d9-b743-1be3a6d58285::\"The Trinity as the single axiom grounding all existence\"::null::@Research,Learning%% %%tag::Idea::756b3660-2a69-4a35-9307-bcaf81a3879f::\"Physics as the created medium for love and redemption\"::null::@Research,Learning%% %%tag::Idea::bd5c33f0-8890-4725-9a0c-681c2edfa062::\"The character of God revealed through the properties of physical forces\"::null::@Research,Learning%% %%tag::Idea::eebf4eed-0676-4ec6-9deb-979f2f532745::\"The 'You Are God' thought experiment as a narrative sequence\"::null::@Research,Learning%% %%tag::Idea::f12d028b-b16b-4ba5-b1cb-f6da635e0d0b::\"God in the completions, not in the gaps\"::null::@Research,Learning%% %%tag::Idea::69569f3b-cd9d-4c6c-834f-91096647fdbe::\"The Cross-Resolution Method for testing claims across registers\"::null::@Research,Learning%% %%tag::Idea::690836ca-e4cf-41f8-8a62-f7d203b9b7a2::\"The Descent: a 24-step causal chain from God to the Cross\"::null::@Research,Learning%% %%tag::Idea::928ac317-b46d-4467-9fba-795317582caa::\"Progressive revelation as God building a reference frame\"::null::@Research,Learning%% %%tag::Idea::79b19583-41cb-4342-90cd-f9d7f016b248::\"The Canon Reading Order for the God pages\"::null::@Research,Learning%% %%tag::Question::7b083a15-fb04-4695-9cd7-e8fa242173bf::\"Why does the world need physics if God is sovereign?\"::null::@Research,Learning%% %%tag::Question::43234aa3-bf3d-403e-9488-afb73f80200c::\"Why a tree in the garden?\"::null::@Research,Learning%% %%tag::Question::eae5460c-721e-49da-8196-465c099df878::\"Why not make God impossible to miss?\"::null::@Research,Learning%% %%tag::Question::d865164f-186f-4a13-928b-a845afee905a::\"What about the cross?\"::null::@Research,Learning%% %%tag::Question::1eb332ec-761a-4f0a-a61b-e36825451843::\"What does the empty tomb prove?\"::null::@Research,Learning%% %%tag::Decision::8eb16617-9e90-4bb8-bfa4-65adeb1e5b16::\"Decision to use the Trinitarian God as the single axiom\"::null::@Research,Learning%% %%tag::Decision::6f19543d-d19d-40bd-b6b2-0e8fa4a44d37::\"Decision to use physics as the grammar of the created world\"::null::@Research,Learning%% %%tag::Decision::0f6a732c-89b5-45f5-821b-9e1e4bcf05eb::\"Decision to use the Cross-Resolution Method for testing claims\"::null::@Research,Learning%% %%tag::Decision::89f97e1f-556d-4817-af6a-d984a188c690::\"Decision to name kill conditions in advance\"::null::@Research,Learning%% %%tag::Task::7a367aae-0469-4038-925f-bfd9a7f1609d::\"Test the ten-law mappings adversarially\"::null::@Research,Learning%% %%tag::Task::eccbf1bc-6b37-47d4-bd7d-c27c58ac3dc7::\"Formalize the necessary ground argument with five proofs\"::null::@Research,Learning%% %%tag::Fact::8aef5e91-4bca-4594-b5bd-cc766ccac309::\"Set theory pays nine axioms\"::null::@Research,Learning%% %%tag::Fact::d9e7f181-2949-4c92-a3fd-0a30d5820eca::\"Peano arithmetic pays five axioms\"::null::@Research,Learning%% %%tag::Fact::637974a6-0698-4b7a-a0e0-209f90ba4bd4::\"General relativity pays two postulates\"::null::@Research,Learning%% %%tag::Fact::d2d47b34-a408-4efb-806f-391695d026fa::\"Gravity is 10^36 weaker than electromagnetism\"::null::@Research,Learning%% %%tag::Fact::d5e28cc8-023b-42e3-9459-d8f16f0a32c5::\"Strong nuclear force is 137 times stronger than electromagnetism\"::null::@Research,Learning%% %%tag::Fact::1ad35d0d-8c80-4bb1-b949-a3cce422e2ef::\"The cosmological constant is tuned to 1 part in 10^120\"::null::@Research,Learning%% %%tag::Fact::a3dc4441-ba20-4a7e-aa9d-95e1552abd1c::\"The Hubble Tension is a 5-sigma discrepancy\"::null::@Research,Learning%% %%tag::Fact::45c29b24-997d-4788-9a69-e745a9f47b97::\"The sun used E=mc^2 for 4.6 billion years before Einstein\"::null::@Research,Learning%% %%tag::Quote::e222ef78-1c43-476f-afa0-d6faac2e334a::\"Quote from John 12:32 about drawing all people\"::null::@Research,Learning%% %%tag::Quote::06387c06-5d22-4852-939f-d719149f8405::\"Quote from 1 Corinthians 13:13 about love\"::null::@Research,Learning%% %%tag::Quote::943993c6-941a-4d8b-8f66-7678ae31912a::\"Quote from John 8:12 about being the light of the world\"::null::@Research,Learning%% %%tag::Quote::643cde74-0517-47fc-9e56-4f16d7318691::\"Quote from John 1:1 about the Word\"::null::@Research,Learning%% %%tag::Quote::f08b48c4-ef6f-488c-8dfa-64b773e5d223::\"Quote from Genesis 3:1 about 'Did God really say...?'\"::null::@Research,Learning%% %%tag::Quote::956a12c4-c781-4b80-9044-b4e223e806a7::\"Quote from John 19:30 about 'It is finished'\"::null::@Research,Learning%% %%tag::Person::234d814e-6b2a-4e99-8cee-e3ed05a81f24::\"God as the central subject of the framework\"::null::@Research,Learning%% %%tag::Person::f11a72cb-19cc-4881-b1cf-d5a7eb236575::\"Bonhoeffer, who wrote about God as a stopgap from prison in 1944\"::null::@Research,Learning%% %%tag::Person::3456309f-4ee2-4c32-9f67-d2b44d60a685::\"Einstein, who formulated E=mc^2\"::null::@Research,Learning%% %%tag::Person::d8eea550-25f4-43c0-8351-093004200983::\"Shannon, who gave the mathematics of information\"::null::@Research,Learning%% %%tag::Term::c631cb4d-cafd-4aef-b4fe-ef126c51398b::\"Aseity: existence from Himself\"::null::@Research,Learning%% %%tag::Term::bf15a521-446a-4e9d-b005-9bdc2c7fc6ec::\"Perichoresis: mutual indwelling, the persons ARE their relations\"::null::@Research,Learning%% %%tag::Term::afb961c4-2fcb-4a6d-8b41-2b0fe200e1ce::\"Layer 0: the root layer requiring nothing beneath it\"::null::@Research,Learning%% %%tag::Term::6629aa73-fd27-4968-9653-5c58beb1389a::\"DG1: the derivation grammar rule for Layer 0\"::null::@Research,Learning%% %%tag::Term::8dfa215d-4413-4804-99a4-d0321642f87f::\"CDR grammar: Coherence-Degradation-Restoration\"::null::@Research,Learning%% %%tag::Term::e881c336-8698-4d1d-9530-b6045b483eb7::\"7Q Universal Classifier: a classification system for worldviews\"::null::@Research,Learning%% %%tag::Source::edc744f1-81ad-4014-b5b1-3c7e6d6b863d::\"Genesis 1:3, the act of separation\"::null::@Research,Learning%% %%tag::Source::bd2f35cf-353c-4d47-90d4-a34b73634e3d::\"John 12:32, about drawing all people\"::null::@Research,Learning%% %%tag::Source::d3636340-2791-431b-890d-ef7bd952ad60::\"1 Corinthians 13:13, about love\"::null::@Research,Learning%% %%tag::Source::be856b09-735f-4b42-be82-604a256cbbfd::\"John 8:12, about the light of the world\"::null::@Research,Learning%% %%tag::Source::90aac2e4-6c89-4889-a34f-f3b1ca5ae7bf::\"John 1:1, about the Word\"::null::@Research,Learning%% %%tag::Source::73e4da4e-d9c7-4ac4-a311-e74a5efaaf1a::\"Genesis 3:1, about the adversary's question\"::null::@Research,Learning%% %%tag::Source::d61b79e1-4bf4-48aa-bb4e-323f3c9831fd::\"John 19:30, about 'It is finished'\"::null::@Research,Learning%% %%tag::Source::c5dbab4c-04e2-4d42-bb64-fc0b3f0a5b87::\"Bonhoeffer's writings from prison in 1944\"::null::@Research,Learning%% %%tag::Insight::ba44124a-eb7c-45ad-8f58-81b6537e135e::\"The inability to prove God is the signature of a genuine Layer 0\"::null::@Research,Learning%% %%tag::Insight::9a945f5b-d834-4035-9ecd-e09b499582dd::\"Physics is the grammar of a world where love can be real\"::null::@Research,Learning%% %%tag::Insight::f5ca1fc8-d5b9-42ef-8524-b52faa5d0d9a::\"The Second Law makes grace necessary\"::null::@Research,Learning%% %%tag::Insight::08347dc6-0af4-412d-8ba0-f992fba09c59::\"The properties of physical forces compose a portrait matching one Person\"::null::@Research,Learning%% %%tag::Insight::ff5c006b-3da2-4390-b039-c2127565d6d2::\"Agency is the repeated structural gap in the ten-law mapping\"::null::@Research,Learning%% %%tag::Insight::332cdfe4-e72f-4903-a55a-c88c177c79d2::\"The more science explains, the clearer the portrait of God gets\"::null::@Research,Learning%% %%tag::Insight::632f3e23-049d-4c4e-ab68-6f7982927546::\"The math proves it cannot prove God from within itself\"::null::@Research,Learning%% %%tag::Insight::5139903c-adfa-45f4-b937-8e60cf2df545::\"Being, followed all the way down, arrives at the Cross\"::null::@Research,Learning%% %%tag::Insight::f5d69b2a-8d34-49ca-a31a-7d81bf06d85c::\"God is a teacher building a reference frame for revelation\"::null::@Research,Learning%% %%tag::Insight::11f0f8c8-6ac2-4c3f-a385-6f2c0f338e37::\"Every path of inquiry converges on the same substrate\"::null::@Research,Learning%% %%--- END SEMANTIC TAGS ---%%",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    }
+  ]
+}

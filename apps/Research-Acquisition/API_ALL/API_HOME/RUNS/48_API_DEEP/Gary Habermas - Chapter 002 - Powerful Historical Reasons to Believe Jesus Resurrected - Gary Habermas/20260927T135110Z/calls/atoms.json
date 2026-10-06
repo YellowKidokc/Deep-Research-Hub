@@ -1,0 +1,355 @@
+{
+  "name": "atoms",
+  "parsed": {
+    "paper_uuid": "yt-xtd7V4vxxuQ-ch2",
+    "title": "Powerful Historical Reasons to Believe Jesus Resurrected - Gary Habermas",
+    "domainType": "history",
+    "summary": "Gary Habermas presents two recent bodies of historical data (NT criteria + pre-Pauline creeds) and his 'minimal facts' argument: six facts conceded by ~95% of critical scholars (crucifixion, burial, disciples' experiences, transformation, early proclamation, Paul's experience) plus James and the empty tomb, which he claims refute naturalistic theories and support the resurrection.",
+    "atoms": [
+      {
+        "nodeType": "claim",
+        "stage": "01_canonical",
+        "name": "Minimal Facts Argument",
+        "statementTechnical": "Six historical facts (crucifixion, burial, disciples' purported resurrection experiences, disciples' transformation, early proclamation, Paul's experience) are conceded by ~95% of critical scholars and jointly best explained by the resurrection.",
+        "statementPlain": "Almost all historians, even skeptics, accept six facts about Jesus that only the resurrection explains.",
+        "claimClass": "bridge",
+        "falsificationCondition": "A naturalistic theory that explains all six facts with equal or better explanatory scope, or demonstration that a majority of critical scholars reject one of the six facts.",
+        "verificationStatus": "informal",
+        "challengeStatus": "challenged-open",
+        "edges": [
+          {
+            "type": "dependsOn",
+            "target": "tp:HISTORY/L1/C2",
+            "grade": "structural_identity",
+            "propagates": "true"
+          },
+          {
+            "type": "dependsOn",
+            "target": "tp:HISTORY/L1/C3",
+            "grade": "structural_identity",
+            "propagates": "true"
+          }
+        ],
+        "source_sentences": [
+          "S347",
+          "S348",
+          "S352",
+          "S353",
+          "S356",
+          "S641"
+        ]
+      },
+      {
+        "nodeType": "claim",
+        "stage": "01_canonical",
+        "name": "Pre-Pauline Creeds Are Extremely Early",
+        "statementTechnical": "Creedal passages (e.g., 1 Cor 15:3ff, Rom 1:3-4, Rom 10:9, 1 Cor 8:6) predate the books containing them and may date 2-3 years after the cross, implying a high Christology from the earliest stratum.",
+        "statementPlain": "The earliest Christian statements already call Jesus Lord and God, so the deity of Christ wasn't a late invention.",
+        "claimClass": "empirical-anchor",
+        "falsificationCondition": "Demonstration that the creedal passages are later compositions by the authors rather than received tradition, or that their Christology is low.",
+        "verificationStatus": "informal",
+        "challengeStatus": "challenged-open",
+        "edges": [
+          {
+            "type": "feedsInto",
+            "target": "tp:HISTORY/L1/C1",
+            "grade": "structural_identity",
+            "propagates": "true"
+          }
+        ],
+        "source_sentences": [
+          "S131",
+          "S132",
+          "S145",
+          "S183",
+          "S199",
+          "S200",
+          "S204",
+          "S266",
+          "S274"
+        ]
+      },
+      {
+        "nodeType": "claim",
+        "stage": "01_canonical",
+        "name": "Paul Interviewed Eyewitnesses in Jerusalem",
+        "statementTechnical": "Galatians 1-2 records Paul's visits to Jerusalem (3 and 14 years after conversion) where he spent 15 days with Peter and James, constituting firsthand eyewitness research (historeo).",
+        "statementPlain": "Paul personally checked the gospel with Peter and James, the original eyewitnesses.",
+        "claimClass": "empirical-anchor",
+        "falsificationCondition": "Evidence that Galatians is inauthentic or that the visits did not involve verification of resurrection testimony.",
+        "verificationStatus": "informal",
+        "challengeStatus": "challenged-open",
+        "edges": [
+          {
+            "type": "feedsInto",
+            "target": "tp:HISTORY/L1/C1",
+            "grade": "structural_identity",
+            "propagates": "true"
+          }
+        ],
+        "source_sentences": [
+          "S523",
+          "S527",
+          "S530",
+          "S545",
+          "S549",
+          "S571",
+          "S586"
+        ]
+      },
+      {
+        "nodeType": "claim",
+        "stage": "01_canonical",
+        "name": "Empty Tomb Best Evidenced but Less Conceded",
+        "statementTechnical": "The empty tomb has more evidential support than any other single fact but is conceded by only ~75% of scholars, unlike the six minimal facts.",
+        "statementPlain": "The empty tomb has the most evidence but fewer scholars accept it than the six core facts.",
+        "claimClass": "empirical-anchor",
+        "falsificationCondition": "Discovery of Jesus' remains or demonstration that the tomb tradition is late legend.",
+        "verificationStatus": "informal",
+        "challengeStatus": "challenged-open",
+        "edges": [
+          {
+            "type": "feedsInto",
+            "target": "tp:HISTORY/L1/C1",
+            "grade": "structural_identity",
+            "propagates": "true"
+          }
+        ],
+        "source_sentences": [
+          "S417",
+          "S418",
+          "S642",
+          "S643"
+        ]
+      },
+      {
+        "nodeType": "claim",
+        "stage": "01_canonical",
+        "name": "Naturalistic Theories Refuted by Minimal Facts",
+        "statementTechnical": "The minimal facts (plus empty tomb) provide major refutations of every naturalistic resurrection theory; most critics have abandoned such theories.",
+        "statementPlain": "The accepted facts knock down every alternative explanation of the resurrection.",
+        "claimClass": "prediction",
+        "falsificationCondition": "A naturalistic hypothesis that survives all six facts without ad hoc additions.",
+        "verificationStatus": "informal",
+        "challengeStatus": "challenged-open",
+        "edges": [
+          {
+            "type": "dependsOn",
+            "target": "tp:HISTORY/L1/C1",
+            "grade": "structural_identity",
+            "propagates": "true"
+          }
+        ],
+        "source_sentences": [
+          "S644",
+          "S647",
+          "S649",
+          "S690",
+          "S691"
+        ]
+      },
+      {
+        "nodeType": "claim",
+        "stage": "01_canonical",
+        "name": "History Cannot Prove or Disprove Miracles",
+        "statementTechnical": "Per Bart Ehrman, history cannot prove miracles but neither can it disprove them; faith is a legitimate separate mode of knowing.",
+        "statementPlain": "History is neutral on miracles—it can't prove or disprove them.",
+        "claimClass": "boundary",
+        "falsificationCondition": "Demonstration that historical method can in principle establish or refute miracle claims.",
+        "verificationStatus": "informal",
+        "challengeStatus": "challenged-open",
+        "edges": [],
+        "source_sentences": [
+          "S698",
+          "S701",
+          "S706",
+          "S707",
+          "S710",
+          "S717"
+        ]
+      },
+      {
+        "nodeType": "evidence",
+        "stage": "05_evidence",
+        "name": "15 Independent Sources for Crucifixion",
+        "statementTechnical": "Ehrman counts 15 independently attested sources for the crucifixion within 100 years, four non-NT (Gospel of Peter, Thomas, Josephus, Tacitus).",
+        "statementPlain": "Fifteen ancient sources confirm Jesus was crucified.",
+        "edges": [
+          {
+            "type": "feedsInto",
+            "target": "tp:HISTORY/L1/C1",
+            "grade": "structural_identity",
+            "propagates": "true"
+          }
+        ],
+        "source_sentences": [
+          "S477",
+          "S479",
+          "S482",
+          "S483",
+          "S486"
+        ]
+      },
+      {
+        "nodeType": "evidence",
+        "stage": "05_evidence",
+        "name": "Skeptics Concede the Six Facts",
+        "statementTechnical": "Skeptical scholars (Ehrman, Casey, Crossley) grant all six minimal facts; Crossley explicitly conceded all six in dialogue.",
+        "statementPlain": "Even atheist and agnostic scholars accept the six facts.",
+        "edges": [
+          {
+            "type": "feedsInto",
+            "target": "tp:HISTORY/L1/C1",
+            "grade": "structural_identity",
+            "propagates": "true"
+          }
+        ],
+        "source_sentences": [
+          "S501",
+          "S505",
+          "S506",
+          "S669",
+          "S670"
+        ]
+      },
+      {
+        "nodeType": "evidence",
+        "stage": "05_evidence",
+        "name": "Jesus Seminar Colors 1 Cor 15 Appearances Red/Pink",
+        "statementTechnical": "Even the Jesus Seminar rated the appearance to Peter and to Paul in 1 Cor 15 as pink/red, conceding the tradition's early attestation.",
+        "statementPlain": "Even the most skeptical seminar rated the resurrection appearances as probably historical.",
+        "edges": [
+          {
+            "type": "feedsInto",
+            "target": "tp:HISTORY/L1/C1",
+            "grade": "structural_identity",
+            "propagates": "true"
+          }
+        ],
+        "source_sentences": [
+          "S623",
+          "S626",
+          "S633",
+          "S634"
+        ]
+      },
+      {
+        "nodeType": "kill",
+        "stage": "06_falsification",
+        "name": "Kill Condition: Naturalistic Theory Survives",
+        "statementTechnical": "If a naturalistic hypothesis explains all six minimal facts plus the empty tomb without auxiliary assumptions, the resurrection inference fails.",
+        "statementPlain": "If someone shows how all the facts happened without a resurrection, the argument dies.",
+        "edges": [
+          {
+            "type": "challenges",
+            "target": "tp:HISTORY/L1/C1",
+            "grade": "structural_identity",
+            "propagates": "true"
+          }
+        ],
+        "source_sentences": [
+          "S647",
+          "S650",
+          "S651",
+          "S652"
+        ]
+      },
+      {
+        "nodeType": "objection",
+        "stage": "08_objections",
+        "name": "Crossley: Facts Don't Compel Faith",
+        "statementTechnical": "Crossley grants all six facts but declines faith, showing historical data underdetermine personal commitment.",
+        "statementPlain": "You can accept the facts and still not become a Christian.",
+        "edges": [
+          {
+            "type": "challenges",
+            "target": "tp:HISTORY/L1/C1",
+            "grade": "structural_identity",
+            "propagates": "true"
+          }
+        ],
+        "source_sentences": [
+          "S510",
+          "S512",
+          "S513",
+          "S514",
+          "S681"
+        ]
+      },
+      {
+        "nodeType": "translation",
+        "stage": "09_everyday",
+        "name": "Blind Date Analogy",
+        "statementTechnical": "Accepting the facts about Jesus without commitment is like agreeing a blind date is impressive but declining marriage.",
+        "statementPlain": "Being impressed by Jesus isn't the same as saying 'I do' to him.",
+        "edges": [
+          {
+            "type": "expands",
+            "target": "tp:HISTORY/L1/C1",
+            "grade": "metaphorical",
+            "propagates": "false"
+          }
+        ],
+        "source_sentences": [
+          "S671",
+          "S679",
+          "S682",
+          "S684"
+        ]
+      },
+      {
+        "nodeType": "raw",
+        "stage": "00_inbox_working",
+        "name": "Unclassified Transcript Material",
+        "statementTechnical": "Auto-captioned interview content including anecdotes, name-drops, and caption errors not reducible to discrete claims.",
+        "statementPlain": "Miscellaneous talk not fitting a claim.",
+        "edges": [],
+        "source_sentences": [
+          "S003",
+          "S211",
+          "S378",
+          "S491",
+          "S602",
+          "S734"
+        ]
+      }
+    ]
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "atoms",
+      "attempt": 1,
+      "text": "{\n  \"paper_uuid\": \"yt-xtd7V4vxxuQ-ch2\",\n  \"title\": \"Powerful Historical Reasons to Believe Jesus Resurrected - Gary Habermas\",\n  \"domainType\": \"history\",\n  \"summary\": \"Gary Habermas presents two recent bodies of historical data that persuade many scholars of Christianity: (1) New Testament criteria (eyewitness, early, embarrassment, enemy attestation, Aramaic substrata) and the seven unanimously accepted Pauline epistles, and (2) early pre-Pauline creeds such as 1 Corinthians 15:3-8, Romans 10:9, and 1 Corinthians 8:6. He then argues for six 'minimal facts' conceded by about 95% of critical scholars—Jesus' crucifixion, burial, the disciples' experiences they believed were resurrection appearances, the disciples' transformation, Paul's experience, and James's experience—plus the empty tomb (75% conceded), and claims these facts refute naturalistic theories and support the resurrection.\",\n  \"atoms\": [\n    {\n      \"nodeType\": \"claim\",\n      \"stage\": \"01_canonical\",\n      \"name\": \"New Testament criteria establish early, eyewitness, embarrassing, enemy-attested, Aramaic-substrata texts\",\n      \"statementTechnical\": \"The New Testament criteria (eyewitness testimony, early dating, embarrassment, enemy attestation, Aramaic substrata) are used by critical and believing scholars alike to identify historically reliable passages, and these criteria support the authenticity of key New Testament data.\",\n      \"statementPlain\": \"Historians on all sides use a standard set of tests—was it written by an eyewitness, is it early, does it embarrass the authors, does an enemy confirm it, does Aramaic show through—and the New Testament passes these tests.\",\n      \"claimClass\": \"bridge\",\n      \"falsificationCondition\": \"If critical scholars did not in fact use these criteria, or if the New Testament texts systematically failed these tests (e.g., no early sources, no embarrassing material, no enemy attestation, no Aramaic substrata), the claim would be destroyed.\",\n      \"verificationStatus\": \"informal\",\n      \"challengeStatus\": \"challenged-open\",\n      \"edges\": [\n        {\n          \"type\": \"feedsInto\",\n          \"target\": \"tp:history/L1/C2\",\n          \"grade\": \"structural_analogy\",\n          \"propagates\": true\n        }\n      ],\n      \"notes\": \"Habermas cites Bart Ehrman ('Bartman') and 'almost all the historical Jesus guys' as using these criteria.\",\n      \"source_sentences\": [\"S005\", \"S006\", \"S007\", \"S008\", \"S009\", \"S010\", \"S011\", \"S012\", \"S013\", \"S014\", \"S015\", \"S016\", \"S017\", \"S018\", \"S019\", \"S020\", \"S021\", \"S022\", \"S023\", \"S024\", \"S025\", \"S026\", \"S027\", \"S028\", \"S029\", \"S030\", \"S031\", \"S032\", \"S033\", \"S034\", \"S035\", \"S036\", \"S037\", \"S038\", \"S039\", \"S040\", \"S041\", \"S042\", \"S043\", \"S044\", \"S045\", \"S046\", \"S047\", \"S048\", \"S049\", \"S050\", \"S051\", \"S052\", \"S053\", \"S054\", \"S105\", \"S106\", \"S107\", \"S108\", \"S109\", \"S110\", \"S111\", \"S112\", \"S113\"]\n    },\n    {\n      \"nodeType\": \"claim\",\n      \"stage\": \"01_canonical\",\n      \"name\": \"Seven Pauline epistles are unanimously accepted by critical scholars\",\n      \"statementTechnical\": \"Critical scholars unanimously accept Romans, 1 and 2 Corinthians, Galatians, Philippians, 1 Thessalonians, and Philemon as authentic Pauline epistles, granting them as authoritative sources even when denying inspiration.\",\n      \"statementPlain\": \"Even skeptical scholars agree Paul really wrote Romans, 1 and 2 Corinthians, Galatians, Philippians, 1 Thessalonians, and Philemon, so you can quote them freely.\",\n      \"claimClass\": \"empirical-anchor\",\n      \"falsificationCondition\": \"If critical scholarship did not unanimously accept these seven letters as authentic, or if a significant body of critics rejected them, the claim would be falsified.\",\n      \"verificationStatus\": \"informal\",\n      \"challengeStatus\": \"challenged-survived\",\n      \"edges\": [\n        {\n          \"type\": \"feedsInto\",\n          \"target\": \"tp:history/L1/C3\",\n          \"grade\": \"structural_analogy\",\n          \"propagates\": true\n        }\n      ],\n      \"notes\": \"Habermas notes Hebrews is not among the 13 books bearing Paul's name.\",\n      \"source_sentences\": [\"S055\", \"S056\", \"S057\", \"S058\", \"S059\", \"S060\", \"S061\", \"S062\", \"S063\", \"S064\", \"S065\", \"S066\", \"S067\", \"S068\", \"S069\", \"S070\", \"S071\", \"S072\", \"S073\", \"S074\", \"S075\", \"S076\", \"S077\", \"S078\", \"S079\", \"S080\", \"S081\", \"S082\", \"S083\", \"S084\", \"S085\", \"S086\", \"S087\", \"S088\", \"S089\", \"S090\", \"S091\", \"S092\", \"S093\", \"S094\", \"S095\", \"S096\", \"S097\", \"S098\", \"S099\", \"S100\", \"S101\"]\n    },\n    {\n      \"nodeType\": \"claim\",\n      \"stage\": \"01_canonical\",\n      \"name\": \"Pre-Pauline creeds are extremely early and high in Christology\",\n      \"statementTechnical\": \"The New Testament contains pre-Pauline creedal traditions (e.g., 1 Corinthians 15:3-8, Romans 10:9, 1 Corinthians 8:6) that predate the books containing them, some dating to 2-3 years after the cross, and these creeds present a high Christology identifying Jesus with Yahweh.\",\n      \"statementPlain\": \"The earliest Christian statements about Jesus—before Paul even wrote—already call Jesus Lord and God, so the idea that Jesus' deity was invented decades later is wrong.\",\n      \"claimClass\": \"bridge\",\n      \"falsificationCondition\": \"If the creedal passages could be shown to be later compositions by Paul or the evangelists rather than pre-Pauline traditions, or if they did not contain high Christology, the claim would be destroyed.\",\n      \"verificationStatus\": \"informal\",\n      \"challengeStatus\": \"challenged-open\",\n      \"edges\": [\n        {\n          \"type\": \"feedsInto\",\n          \"target\": \"tp:history/L1/C4\",\n          \"grade\": \"structural_analogy\",\n          \"propagates\": true\n        }\n      ],\n      \"notes\": \"Habermas cites Richard Bauckham ('Balkam'), Jimmy Dunn, and Larry Hurtado as proponents of the 'high Christology club.'\",\n      \"source_sentences\": [\"S125\", \"S126\", \"S127\", \"S128\", \"S129\", \"S130\", \"S131\", \"S132\", \"S133\", \"S134\", \"S135\", \"S136\", \"S137\", \"S138\", \"S139\", \"S140\", \"S141\", \"S142\", \"S143\", \"S144\", \"S145\", \"S146\", \"S147\", \"S148\", \"S149\", \"S150\", \"S151\", \"S152\", \"S153\", \"S154\", \"S155\", \"S156\", \"S157\", \"S158\", \"S159\", \"S160\", \"S161\", \"S162\", \"S163\", \"S164\", \"S165\", \"S166\", \"S167\", \"S168\", \"S169\", \"S170\", \"S171\", \"S172\", \"S173\", \"S174\", \"S175\", \"S176\", \"S177\", \"S178\", \"S179\", \"S180\", \"S181\", \"S182\", \"S183\", \"S184\", \"S185\", \"S186\", \"S187\", \"S188\", \"S189\", \"S190\", \"S191\", \"S192\", \"S193\", \"S194\", \"S195\", \"S196\", \"S197\", \"S198\", \"S199\", \"S200\", \"S201\", \"S202\", \"S203\", \"S204\", \"S205\", \"S206\", \"S207\", \"S208\", \"S209\", \"S210\", \"S211\", \"S212\", \"S213\", \"S214\", \"S215\", \"S216\", \"S217\", \"S218\", \"S219\", \"S220\", \"S221\", \"S222\", \"S223\", \"S224\", \"S225\", \"S226\", \"S227\", \"S228\", \"S229\", \"S230\", \"S231\", \"S232\", \"S233\", \"S234\", \"S235\", \"S236\", \"S237\", \"S238\", \"S239\", \"S240\", \"S241\", \"S242\", \"S243\", \"S244\", \"S245\", \"S246\", \"S247\", \"S248\", \"S249\", \"S250\", \"S251\", \"S252\", \"S253\", \"S254\", \"S255\", \"S256\", \"S257\", \"S258\", \"S259\", \"S260\", \"S261\", \"S262\", \"S263\", \"S264\", \"S265\", \"S266\", \"S267\", \"S268\", \"S269\", \"S270\", \"S271\", \"S272\", \"S273\", \"S274\", \"S275\", \"S276\", \"S277\", \"S278\", \"S279\", \"S280\", \"S281\", \"S282\", \"S283\", \"S284\", \"S285\", \"S286\", \"S287\", \"S288\", \"S289\", \"S290\", \"S291\", \"S292\", \"S293\", \"S294\", \"S295\", \"S296\", \"S297\", \"S298\", \"S299\", \"S300\", \"S301\", \"S302\", \"S303\", \"S304\", \"S305\", \"S306\", \"S307\", \"S308\", \"S309\", \"S310\", \"S311\", \"S312\", \"S313\", \"S314\", \"S315\", \"S316\", \"S317\", \"S318\", \"S319\", \"S320\", \"S321\", \"S322\", \"S323\", \"S324\", \"S325\", \"S326\", \"S327\", \"S328\", \"S329\", \"S330\", \"S331\", \"S332\", \"S333\", \"S334\", \"S335\", \"S336\", \"S337\", \"S338\", \"S339\", \"S340\"]\n    },\n    {\n      \"nodeType\": \"claim\",\n      \"stage\": \"01_canonical\",\n      \"name\": \"Six minimal facts are conceded by about 95% of critical scholars\",\n      \"statementTechnical\": \"Six historical facts about Jesus are conceded by about 95% of critical scholars: (1) Jesus died by crucifixion, (2) he was buried, (3) his disciples had experiences they believed were appearances of the risen Jesus, (4) the disciples were transformed and willing to die, (5) Paul had an experience he believed was a resurrection appearance, and (6) James the brother of Jesus had such an experience.\",\n      \"statementPlain\": \"Almost every historian, even skeptics, agrees on six basic facts: Jesus was crucified, buried, his followers thought they saw him alive, they were changed and willing to die, Paul thought he saw Jesus, and James thought he saw Jesus.\",\n      \"claimClass\": \"empirical-anchor\",\n      \"falsificationCondition\": \"If a substantial body of critical scholars disputed one or more of these six facts, or if the historical evidence for any of them were shown to be weak, the claim would be falsified.\",\n      \"verificationStatus\": \"informal\",\n      \"challengeStatus\": \"challenged-survived\",\n      \"edges\": [\n        {\n          \"type\": \"feedsInto\",\n          \"target\": \"tp:history/L1/C5\",\n          \"grade\": \"structural_analogy\",\n          \"propagates\": true\n        }\n      ],\n      \"notes\": \"Habermas says he uses only facts strongly evidenced by many other pieces of data, with over 100 evidences for these six by AD 100.\",\n      \"source_sentences\": [\"S347\", \"S348\", \"S349\", \"S350\", \"S351\", \"S352\", \"S353\", \"S354\", \"S355\", \"S356\", \"S357\", \"S358\", \"S359\", \"S360\", \"S361\", \"S362\", \"S363\", \"S364\", \"S365\", \"S366\", \"S367\", \"S368\", \"S369\", \"S370\", \"S371\", \"S372\", \"S373\", \"S374\", \"S375\", \"S376\", \"S377\", \"S378\", \"S379\", \"S380\", \"S381\", \"S382\", \"S383\", \"S384\", \"S385\", \"S386\", \"S387\", \"S388\", \"S389\", \"S390\", \"S391\", \"S392\", \"S393\", \"S394\", \"S395\", \"S396\", \"S397\", \"S398\", \"S399\", \"S400\", \"S401\", \"S402\", \"S403\", \"S404\", \"S405\", \"S406\", \"S407\", \"S408\", \"S409\", \"S410\", \"S411\", \"S412\", \"S413\", \"S414\", \"S415\", \"S416\", \"S417\", \"S418\", \"S419\", \"S420\", \"S421\", \"S422\", \"S423\", \"S424\", \"S425\", \"S426\", \"S427\", \"S428\", \"S429\", \"S430\", \"S431\", \"S432\", \"S433\", \"S434\", \"S435\", \"S436\", \"S437\", \"S438\", \"S439\", \"S440\", \"S441\", \"S442\", \"S443\", \"S444\", \"S445\", \"S446\", \"S447\", \"S448\", \"S449\", \"S450\", \"S451\", \"S452\", \"S453\", \"S454\", \"S455\", \"S456\", \"S457\", \"S458\", \"S459\", \"S460\", \"S461\", \"S462\", \"S463\", \"S464\", \"S465\", \"S466\", \"S467\", \"S468\", \"S469\", \"S470\", \"S471\", \"S472\", \"S473\", \"S474\"]\n    },\n    {\n      \"nodeType\": \"claim\",\n      \"stage\": \"01_canonical\",\n      \"name\": \"The empty tomb is conceded by about 75% of scholars and is the best-evidenced fact\",\n      \"statementTechnical\": \"The empty tomb is conceded by about 75% of critical scholars and has more evidence in its favor than any other minimal fact, though it is not among the six facts conceded by 95%.\",\n      \"statementPlain\": \"About three-quarters of historians accept that Jesus' tomb was found empty, and it actually has more evidence than the other facts, even though fewer scholars agree on it.\",\n      \"claimClass\": \"empirical-anchor\",\n      \"falsificationCondition\": \"If fewer than a substantial majority of critical scholars conceded the empty tomb, or if the evidence for it were shown to be weaker than for other facts, the claim would be falsified.\",\n      \"verificationStatus\": \"informal\",\n      \"challengeStatus\": \"challenged-open\",\n      \"edges\": [\n        {\n          \"type\": \"feedsInto\",\n          \"target\": \"tp:history/L1/C5\",\n          \"grade\": \"structural_analogy\",\n          \"propagates\": true\n        }\n      ],\n      \"notes\": \"Habermas notes Don Crossan's alternative view that Jesus' body was thrown in a pit.\",\n      \"source_sentences\": [\"S366\", \"S367\", \"S368\", \"S369\", \"S370\", \"S371\", \"S372\", \"S373\", \"S374\", \"S375\", \"S376\", \"S377\", \"S378\", \"S379\", \"S380\", \"S381\", \"S382\", \"S383\", \"S384\", \"S385\", \"S386\", \"S387\", \"S388\", \"S389\", \"S390\", \"S391\", \"S392\", \"S393\", \"S394\", \"S395\", \"S396\", \"S397\", \"S398\", \"S399\", \"S400\", \"S401\", \"S402\", \"S403\", \"S404\", \"S405\", \"S406\", \"S407\", \"S408\", \"S409\", \"S410\", \"S411\", \"S412\", \"S413\", \"S414\", \"S415\", \"S416\", \"S417\", \"S418\", \"S419\", \"S420\", \"S421\", \"S422\", \"S423\", \"S424\", \"S425\", \"S426\", \"S427\", \"S428\", \"S429\", \"S430\", \"S431\", \"S432\", \"S433\", \"S434\", \"S435\", \"S436\", \"S437\", \"S438\", \"S439\", \"S440\", \"S441\", \"S442\", \"S443\", \"S444\", \"S445\", \"S446\", \"S447\", \"S448\", \"S449\", \"S450\", \"S451\", \"S452\", \"S453\", \"S454\", \"S455\", \"S456\", \"S457\", \"S458\", \"S459\", \"S460\", \"S461\", \"S462\", \"S463\", \"S464\", \"S465\", \"S466\", \"S467\", \"S468\", \"S469\", \"S470\", \"S471\", \"S472\", \"S473\", \"S474\", \"S475\", \"S476\", \"S477\", \"S478\", \"S479\", \"S480\", \"S481\", \"S482\", \"S483\", \"S484\", \"S485\", \"S486\", \"S487\", \"S488\", \"S489\", \"S490\", \"S491\", \"S492\", \"S493\", \"S494\", \"S495\", \"S496\", \"S497\", \"S498\", \"S499\", \"S500\", \"S501\", \"S502\", \"S503\", \"S504\", \"S505\", \"S506\", \"S507\", \"S508\", \"S509\", \"S510\", \"S511\", \"S512\", \"S513\", \"S514\", \"S515\", \"S516\", \"S517\", \"S518\", \"S519\", \"S520\", \"S521\", \"S522\", \"S523\", \"S524\", \"S525\", \"S526\", \"S527\", \"S528\", \"S529\", \"S530\", \"S531\", \"S532\", \"S533\", \"S534\", \"S535\", \"S536\", \"S537\", \"S538\", \"S539\", \"S540\", \"S541\", \"S542\", \"S543\", \"S544\", \"S545\", \"S546\", \"S547\", \"S548\", \"S549\", \"S550\", \"S551\", \"S552\", \"S553\", \"S554\", \"S555\", \"S556\", \"S557\", \"S558\", \"S559\", \"S560\", \"S561\", \"S562\", \"S563\", \"S564\", \"S565\", \"S566\", \"S567\", \"S568\", \"S569\", \"S570\", \"S571\", \"S572\", \"S573\", \"S574\", \"S575\", \"S576\", \"S577\", \"S578\", \"S579\", \"S580\", \"S581\", \"S582\", \"S583\", \"S584\", \"S585\", \"S586\", \"S587\", \"S588\", \"S589\", \"S590\", \"S591\", \"S592\", \"S593\", \"S594\", \"S595\", \"S596\", \"S597\", \"S598\", \"S599\", \"S600\", \"S601\", \"S602\", \"S603\", \"S604\", \"S605\", \"S606\", \"S607\", \"S608\", \"S609\", \"S610\", \"S611\", \"S612\", \"S613\", \"S614\", \"S615\", \"S616\", \"S617\", \"S618\", \"S619\", \"S620\", \"S621\", \"S622\", \"S623\", \"S624\", \"S625\", \"S626\", \"S627\", \"S628\", \"S629\", \"S630\", \"S631\", \"S632\", \"S633\", \"S634\", \"S635\", \"S636\", \"S637\", \"S638\", \"S639\", \"S640\", \"S641\", \"S642\", \"S643\", \"S644\", \"S645\", \"S646\", \"S647\", \"S648\", \"S649\", \"S650\", \"S651\", \"S652\", \"S653\", \"S654\", \"S655\", \"S656\", \"S657\", \"S658\", \"S659\", \"S660\", \"S661\", \"S662\", \"S663\", \"S664\", \"S665\", \"S666\", \"S667\", \"S668\", \"S669\", \"S670\", \"S671\", \"S672\", \"S673\", \"S674\", \"S675\", \"S676\", \"S677\", \"S678\", \"S679\", \"S680\", \"S681\", \"S682\", \"S683\", \"S684\", \"S685\", \"S686\", \"S687\", \"S688\", \"S689\", \"S690\", \"S691\", \"S692\", \"S693\", \"S694\", \"S695\", \"S696\", \"S697\", \"S698\", \"S699\", \"S700\", \"S701\", \"S702\", \"S703\", \"S704\", \"S705\", \"S706\", \"S707\", \"S708\", \"S709\", \"S710\", \"S711\", \"S712\", \"S713\", \"S714\", \"S715\", \"S716\", \"S717\", \"S718\", \"S719\", \"S720\", \"S721\", \"S722\", \"S723\", \"S724\", \"S725\", \"S726\", \"S727\", \"S728\", \"S729\", \"S730\", \"S731\", \"S732\", \"S733\", \"S734\", \"S735\", \"S736\", \"S737\", \"S738\", \"S739\", \"S740\", \"S741\", \"S742\", \"S743\", \"S744\", \"S745\", \"S746\", \"S747\", \"S748\", \"S749\"]\n    },\n    {\n      \"nodeType\": \"claim\",\n      \"stage\": \"01_canonical\",\n      \"name\": \"The minimal facts refute all naturalistic theories of the resurrection\",\n      \"statementTechnical\": \"The six minimal facts plus the empty tomb are sufficient to refute every major naturalistic theory of the resurrection, and most critics today have abandoned naturalistic theories.\",\n      \"statementPlain\": \"Once you accept these basic historical facts, every alternative explanation—stolen body, swoon, hallucination, etc.—falls apart, which is why most skeptics no longer propose them.\",\n      \"claimClass\": \"prediction\",\n      \"falsificationCondition\": \"If a naturalistic theory could account for all six minimal facts plus the empty tomb without contradiction, or if a significant number of critical scholars still defended naturalistic theories, the claim would be falsified.\",\n      \"verificationStatus\": \"informal\",\n      \"challengeStatus\": \"challenged-open\",\n      \"edges\": [\n        {\n          \"type\": \"feedsInto\",\n          \"target\": \"tp:history/L1/C6\",\n          \"grade\": \"structural_analogy\",\n          \"propagates\": true\n        }\n      ],\n      \"notes\": \"Habermas cites Bart Ehrman saying 'I won't pick a naturalistic theory' and notes 150 pages on 19th-century German liberal naturalistic theories.\",\n      \"source_sentences\": [\"S644\", \"S645\", \"S646\", \"S647\", \"S648\", \"S649\", \"S650\", \"S651\", \"S652\", \"S653\", \"S654\", \"S655\", \"S656\", \"S657\", \"S658\", \"S659\", \"S660\", \"S661\", \"S662\", \"S663\", \"S664\", \"S665\", \"S666\", \"S667\", \"S668\", \"S669\", \"S670\", \"S671\", \"S672\", \"S673\", \"S674\", \"S675\", \"S676\", \"S677\", \"S678\", \"S679\", \"S680\", \"S681\", \"S682\", \"S683\", \"S684\", \"S685\", \"S686\", \"S687\", \"S688\", \"S689\", \"S690\", \"S691\", \"S692\", \"S693\", \"S694\", \"S695\", \"S696\", \"S697\", \"S698\", \"S699\", \"S700\", \"S701\", \"S702\", \"S703\", \"S704\", \"S705\", \"S706\", \"S707\", \"S708\", \"S709\", \"S710\", \"S711\", \"S712\", \"S713\", \"S714\", \"S715\", \"S716\", \"S717\", \"S718\", \"S719\", \"S720\", \"S721\", \"S722\", \"S723\", \"S724\", \"S725\", \"S726\", \"S727\", \"S728\", \"S729\", \"S730\", \"S731\", \"S732\", \"S733\", \"S734\", \"S735\", \"S736\", \"S737\", \"S738\", \"S739\", \"S740\", \"S741\", \"S742\", \"S743\", \"S744\", \"S745\", \"S746\", \"S747\", \"S748\", \"S749\"]\n    },\n    {\n      \"nodeType\": \"evidence\",\n      \"stage\": \"05_evidence\",\n      \"name\": \"Bart Ehrman concedes the six facts and calls the appearances a proven fact of history\",\n      \"statementTechnical\": \"Bart Ehrman, a leading skeptic, concedes the six minimal facts and states that the disciples' experiences of the risen Jesus are a 'proven fact of history.'\",\n      \"statementPlain\": \"Even Bart Ehrman, a famous skeptic, agrees with the six facts and says the disciples really had experiences they thought were appearances of Jesus.\",\n      \"verificationStatus\": \"informal\",\n      \"challengeStatus\": \"challenged-survived\",\n      \"edges\": [\n        {\n          \"type\": \"feedsInto\",\n          \"target\": \"tp:history/L1/C5\",\n          \"grade\": \"independent\",\n          \"propagates\": true\n        }\n      ],\n      \"notes\": \"Habermas notes Ehrman uses the word 'proven,' which historians normally avoid.\",\n      \"source_sentences\": [\"S423\", \"S424\", \"S425\", \"S426\", \"S427\"]\n    },\n    {\n      \"nodeType\": \"evidence\",\n      \"stage\": \"05_evidence\",\n      \"name\": \"James Crossley grants all six facts in dialogue but rejects faith\",\n      \"statementTechnical\": \"In a two-hour dialogue with Habermas, agnostic New Testament scholar James Crossley granted all six minimal facts without dispute, saying he is 'just not into faith.'\",\n      \"statementPlain\": \"A skeptical scholar, James Crossley, agreed with all six facts in a debate but said he simply isn't interested in faith.\",\n      \"verificationStatus\": \"informal\",\n      \"challengeStatus\": \"challenged-survived\",\n      \"edges\": [\n        {\n          \"type\": \"feedsInto\",\n          \"target\": \"tp:history/L1/C5\",\n          \"grade\": \"independent\",\n          \"propagates\": true\n        }\n      ],\n      \"notes\": \"Crossley and Casey both date Mark around AD 40 or earlier.\",\n      \"source_sentences\": [\"S504\", \"S505\", \"S506\", \"S507\", \"S508\", \"S509\", \"S510\", \"S511\", \"S512\", \"S513\", \"S514\", \"S515\", \"S516\", \"S517\", \"S518\", \"S519\"]\n    },\n    {\n      \"nodeType\": \"evidence\",\n      \"stage\": \"05_evidence\",\n      \"name\": \"Fifteen independent sources attest the crucifixion within 100 years\",\n      \"statementTechnical\": \"Bart Ehrman identifies 15 independently attested sources for the crucifixion of Jesus within 100 years, including four non-New Testament sources: the Gospel of Peter, the Gospel of Thomas, Josephus, and Tacitus.\",\n      \"statementPlain\": \"There are 15 separate ancient sources for Jesus' crucifixion, including four outside the New Testament, which is very strong evidence.\",\n      \"verificationStatus\": \"informal\",\n      \"challengeStatus\": \"challenged-survived\",\n      \"edges\": [\n        {\n          \"type\": \"feedsInto\",\n          \"target\": \"tp:history/L1/C5\",\n          \"grade\": \"independent\",\n          \"propagates\": true\n        }\n      ],\n      \"notes\": \"Habermas also mentions medical evidence and the Shroud of Turin as supporting death by crucifixion.\",\n      \"source_sentences\": [\"S477\", \"S478\", \"S479\", \"S480\", \"S481\", \"S482\", \"S483\", \"S484\", \"S485\", \"S486\", \"S487\", \"S488\", \"S489\", \"S490\", \"S491\", \"S492\", \"S493\", \"S494\", \"S495\", \"S496\", \"S497\", \"S498\", \"S499\", \"S500\"]\n    },\n    {\n      \"nodeType\": \"evidence\",\n      \"stage\": \"05_evidence\",\n      \"name\": \"Paul's visit to Peter and James provides early eyewitness testimony\",\n      \"statementTechnical\": \"Galatians 1:18 records Paul spending 15 days with Peter and James the brother of Jesus about 5-6 years after the crucifixion, and Galatians 2:1-10 records a second visit 14 years later where the apostles added nothing to his gospel, providing early eyewitness attestation.\",\n      \"statementPlain\": \"Paul personally interviewed Peter and James just a few years after the cross, and later the Jerusalem leaders confirmed his gospel, giving us a direct link to eyewitnesses.\",\n      \"verificationStatus\": \"informal\",\n      \"challengeStatus\": \"challenged-survived\",\n      \"edges\": [\n        {\n          \"type\": \"feedsInto\",\n          \"target\": \"tp:history/L1/C4\",\n          \"grade\": \"independent\",\n          \"propagates\": true\n        }\n      ],\n      \"notes\": \"Habermas cites the Greek word historesai in Galatians 1:18 as indicating firsthand research.\",\n      \"source_sentences\": [\"S523\", \"S524\", \"S525\", \"S526\", \"S527\", \"S528\", \"S529\", \"S530\", \"S531\", \"S532\", \"S533\", \"S534\", \"S535\", \"S536\", \"S537\", \"S538\", \"S539\", \"S540\", \"S541\", \"S542\", \"S543\", \"S544\", \"S545\", \"S546\", \"S547\", \"S548\", \"S549\", \"S550\", \"S551\", \"S552\", \"S553\", \"S554\", \"S555\", \"S556\", \"S557\", \"S558\", \"S559\", \"S560\", \"S561\", \"S562\", \"S563\", \"S564\", \"S565\", \"S566\", \"S567\", \"S568\", \"S569\", \"S570\", \"S571\", \"S572\", \"S573\", \"S574\", \"S575\", \"S576\", \"S577\", \"S578\", \"S579\", \"S580\", \"S581\", \"S582\", \"S583\", \"S584\", \"S585\", \"S586\", \"S587\", \"S588\", \"S589\", \"S590\", \"S591\", \"S592\", \"S593\", \"S594\", \"S595\", \"S596\", \"S597\", \"S598\", \"S599\", \"S600\"]\n    },\n    {\n      \"nodeType\": \"evidence\",\n      \"stage\": \"05_evidence\",\n      \"name\": \"The Jesus Seminar colored 1 Corinthians 15 appearances red or pink\",\n      \"statementTechnical\": \"The Jesus Seminar, despite rejecting 80-90% of Jesus' sayings, colored the appearance to Peter as pink and the appearance to Paul as red in 1 Corinthians 15, indicating they thought these events probably or definitely happened.\",\n      \"statementPlain\": \"Even the very skeptical Jesus Seminar voted that Jesus probably appeared to Peter and definitely appeared to Paul.\",\n      \"verificationStatus\": \"informal\",\n      \"challengeStatus\": \"challenged-survived\",\n      \"edges\": [\n        {\n          \"type\": \"feedsInto\",\n          \"target\": \"tp:history/L1/C5\",\n          \"grade\": \"independent\",\n          \"propagates\": true\n        }\n      ],\n      \"notes\": \"Habermas notes the Jesus Seminar used a color-coding system: red=yes, pink=probably, gray=probably not, black=no.\",\n      \"source_sentences\": [\"S604\", \"S605\", \"S606\", \"S607\", \"S608\", \"S609\", \"S610\", \"S611\", \"S612\", \"S613\", \"S614\", \"S615\", \"S616\", \"S617\", \"S618\", \"S619\", \"S620\", \"S621\", \"S622\", \"S623\", \"S624\", \"S625\", \"S626\", \"S627\", \"S628\", \"S629\", \"S630\", \"S631\", \"S632\", \"S633\", \"S634\"]\n    },\n    {\n      \"nodeType\": \"kill\",\n      \"stage\": \"06_falsification\",\n      \"name\": \"A naturalistic theory that explains all six facts plus the empty tomb\",\n      \"statementTechnical\": \"If a naturalistic theory could account for all six minimal facts plus the empty tomb without internal contradiction, the resurrection argument would be defeated.\",\n      \"statementPlain\": \"If someone could explain all the agreed facts without a resurrection, the case would collapse.\",\n      \"verificationStatus\": \"informal\",\n      \"challengeStatus\": \"challenged-open\",\n      \"edges\": [\n        {\n          \"type\": \"challenges\",\n          \"target\": \"tp:history/L1/C6\",\n          \"grade\": \"structural_analogy\",\n          \"propagates\": true\n        }\n      ],\n      \"notes\": \"Habermas claims no such theory exists and most critics have given up naturalistic theories.\",\n      \"source_sentences\": [\"S644\", \"S645\", \"S646\", \"S647\", \"S648\", \"S649\", \"S650\", \"S651\", \"S652\", \"S653\", \"S654\", \"S655\", \"S656\", \"S657\", \"S658\", \"S659\", \"S660\", \"S661\", \"S662\", \"S663\", \"S664\", \"S665\", \"S666\", \"S667\", \"S668\", \"S669\", \"S670\", \"S671\", \"S672\", \"S673\", \"S674\", \"S675\", \"S676\", \"S677\", \"S678\", \"S679\", \"S680\", \"S681\", \"S682\", \"S683\", \"S684\", \"S685\", \"S686\", \"S687\", \"S688\", \"S689\", \"S690\", \"S691\", \"S692\", \"S693\", \"S694\", \"S695\", \"S696\", \"S697\", \"S698\", \"S699\", \"S700\", \"S701\", \"S702\", \"S703\", \"S704\", \"S705\", \"S706\", \"S707\", \"S708\", \"S709\", \"S710\", \"S711\", \"S712\", \"S713\", \"S714\", \"S715\", \"S716\", \"S717\", \"S718\", \"S719\", \"S720\", \"S721\", \"S722\", \"S723\", \"S724\", \"S725\", \"S726\", \"",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 13207,
+      "completion_tokens": 8192,
+      "attempts": 1,
+      "elapsed_seconds": 25.57800000000134,
+      "started_at": "2026-09-27T13:51:10.548896+00:00",
+      "error": "truncated: finish_reason=length after 8192 output tokens",
+      "finish_reason": "length",
+      "finished_at": "2026-09-27T13:51:36.127441+00:00",
+      "tokens": 21399
+    },
+    {
+      "part": "atoms",
+      "attempt": 2,
+      "text": "{\"paper_uuid\":\"yt-xtd7V4vxxuQ-ch2\",\"title\":\"Powerful Historical Reasons to Believe Jesus Resurrected - Gary Habermas\",\"domainType\":\"history\",\"summary\":\"Gary Habermas presents two recent bodies of historical data (NT criteria + pre-Pauline creeds) and his 'minimal facts' argument: six facts conceded by ~95% of critical scholars (crucifixion, burial, disciples' experiences, transformation, early proclamation, Paul's experience) plus James and the empty tomb, which he claims refute naturalistic theories and support the resurrection.\",\"atoms\":[{\"nodeType\":\"claim\",\"stage\":\"01_canonical\",\"name\":\"Minimal Facts Argument\",\"statementTechnical\":\"Six historical facts (crucifixion, burial, disciples' purported resurrection experiences, disciples' transformation, early proclamation, Paul's experience) are conceded by ~95% of critical scholars and jointly best explained by the resurrection.\",\"statementPlain\":\"Almost all historians, even skeptics, accept six facts about Jesus that only the resurrection explains.\",\"claimClass\":\"bridge\",\"falsificationCondition\":\"A naturalistic theory that explains all six facts with equal or better explanatory scope, or demonstration that a majority of critical scholars reject one of the six facts.\",\"verificationStatus\":\"informal\",\"challengeStatus\":\"challenged-open\",\"edges\":[{\"type\":\"dependsOn\",\"target\":\"tp:HISTORY/L1/C2\",\"grade\":\"structural_identity\",\"propagates\":\"true\"},{\"type\":\"dependsOn\",\"target\":\"tp:HISTORY/L1/C3\",\"grade\":\"structural_identity\",\"propagates\":\"true\"}],\"source_sentences\":[\"S347\",\"S348\",\"S352\",\"S353\",\"S356\",\"S641\"]},{\"nodeType\":\"claim\",\"stage\":\"01_canonical\",\"name\":\"Pre-Pauline Creeds Are Extremely Early\",\"statementTechnical\":\"Creedal passages (e.g., 1 Cor 15:3ff, Rom 1:3-4, Rom 10:9, 1 Cor 8:6) predate the books containing them and may date 2-3 years after the cross, implying a high Christology from the earliest stratum.\",\"statementPlain\":\"The earliest Christian statements already call Jesus Lord and God, so the deity of Christ wasn't a late invention.\",\"claimClass\":\"empirical-anchor\",\"falsificationCondition\":\"Demonstration that the creedal passages are later compositions by the authors rather than received tradition, or that their Christology is low.\",\"verificationStatus\":\"informal\",\"challengeStatus\":\"challenged-open\",\"edges\":[{\"type\":\"feedsInto\",\"target\":\"tp:HISTORY/L1/C1\",\"grade\":\"structural_identity\",\"propagates\":\"true\"}],\"source_sentences\":[\"S131\",\"S132\",\"S145\",\"S183\",\"S199\",\"S200\",\"S204\",\"S266\",\"S274\"]},{\"nodeType\":\"claim\",\"stage\":\"01_canonical\",\"name\":\"Paul Interviewed Eyewitnesses in Jerusalem\",\"statementTechnical\":\"Galatians 1-2 records Paul's visits to Jerusalem (3 and 14 years after conversion) where he spent 15 days with Peter and James, constituting firsthand eyewitness research (historeo).\",\"statementPlain\":\"Paul personally checked the gospel with Peter and James, the original eyewitnesses.\",\"claimClass\":\"empirical-anchor\",\"falsificationCondition\":\"Evidence that Galatians is inauthentic or that the visits did not involve verification of resurrection testimony.\",\"verificationStatus\":\"informal\",\"challengeStatus\":\"challenged-open\",\"edges\":[{\"type\":\"feedsInto\",\"target\":\"tp:HISTORY/L1/C1\",\"grade\":\"structural_identity\",\"propagates\":\"true\"}],\"source_sentences\":[\"S523\",\"S527\",\"S530\",\"S545\",\"S549\",\"S571\",\"S586\"]},{\"nodeType\":\"claim\",\"stage\":\"01_canonical\",\"name\":\"Empty Tomb Best Evidenced but Less Conceded\",\"statementTechnical\":\"The empty tomb has more evidential support than any other single fact but is conceded by only ~75% of scholars, unlike the six minimal facts.\",\"statementPlain\":\"The empty tomb has the most evidence but fewer scholars accept it than the six core facts.\",\"claimClass\":\"empirical-anchor\",\"falsificationCondition\":\"Discovery of Jesus' remains or demonstration that the tomb tradition is late legend.\",\"verificationStatus\":\"informal\",\"challengeStatus\":\"challenged-open\",\"edges\":[{\"type\":\"feedsInto\",\"target\":\"tp:HISTORY/L1/C1\",\"grade\":\"structural_identity\",\"propagates\":\"true\"}],\"source_sentences\":[\"S417\",\"S418\",\"S642\",\"S643\"]},{\"nodeType\":\"claim\",\"stage\":\"01_canonical\",\"name\":\"Naturalistic Theories Refuted by Minimal Facts\",\"statementTechnical\":\"The minimal facts (plus empty tomb) provide major refutations of every naturalistic resurrection theory; most critics have abandoned such theories.\",\"statementPlain\":\"The accepted facts knock down every alternative explanation of the resurrection.\",\"claimClass\":\"prediction\",\"falsificationCondition\":\"A naturalistic hypothesis that survives all six facts without ad hoc additions.\",\"verificationStatus\":\"informal\",\"challengeStatus\":\"challenged-open\",\"edges\":[{\"type\":\"dependsOn\",\"target\":\"tp:HISTORY/L1/C1\",\"grade\":\"structural_identity\",\"propagates\":\"true\"}],\"source_sentences\":[\"S644\",\"S647\",\"S649\",\"S690\",\"S691\"]},{\"nodeType\":\"claim\",\"stage\":\"01_canonical\",\"name\":\"History Cannot Prove or Disprove Miracles\",\"statementTechnical\":\"Per Bart Ehrman, history cannot prove miracles but neither can it disprove them; faith is a legitimate separate mode of knowing.\",\"statementPlain\":\"History is neutral on miracles—it can't prove or disprove them.\",\"claimClass\":\"boundary\",\"falsificationCondition\":\"Demonstration that historical method can in principle establish or refute miracle claims.\",\"verificationStatus\":\"informal\",\"challengeStatus\":\"challenged-open\",\"edges\":[],\"source_sentences\":[\"S698\",\"S701\",\"S706\",\"S707\",\"S710\",\"S717\"]},{\"nodeType\":\"evidence\",\"stage\":\"05_evidence\",\"name\":\"15 Independent Sources for Crucifixion\",\"statementTechnical\":\"Ehrman counts 15 independently attested sources for the crucifixion within 100 years, four non-NT (Gospel of Peter, Thomas, Josephus, Tacitus).\",\"statementPlain\":\"Fifteen ancient sources confirm Jesus was crucified.\",\"edges\":[{\"type\":\"feedsInto\",\"target\":\"tp:HISTORY/L1/C1\",\"grade\":\"structural_identity\",\"propagates\":\"true\"}],\"source_sentences\":[\"S477\",\"S479\",\"S482\",\"S483\",\"S486\"]},{\"nodeType\":\"evidence\",\"stage\":\"05_evidence\",\"name\":\"Skeptics Concede the Six Facts\",\"statementTechnical\":\"Skeptical scholars (Ehrman, Casey, Crossley) grant all six minimal facts; Crossley explicitly conceded all six in dialogue.\",\"statementPlain\":\"Even atheist and agnostic scholars accept the six facts.\",\"edges\":[{\"type\":\"feedsInto\",\"target\":\"tp:HISTORY/L1/C1\",\"grade\":\"structural_identity\",\"propagates\":\"true\"}],\"source_sentences\":[\"S501\",\"S505\",\"S506\",\"S669\",\"S670\"]},{\"nodeType\":\"evidence\",\"stage\":\"05_evidence\",\"name\":\"Jesus Seminar Colors 1 Cor 15 Appearances Red/Pink\",\"statementTechnical\":\"Even the Jesus Seminar rated the appearance to Peter and to Paul in 1 Cor 15 as pink/red, conceding the tradition's early attestation.\",\"statementPlain\":\"Even the most skeptical seminar rated the resurrection appearances as probably historical.\",\"edges\":[{\"type\":\"feedsInto\",\"target\":\"tp:HISTORY/L1/C1\",\"grade\":\"structural_identity\",\"propagates\":\"true\"}],\"source_sentences\":[\"S623\",\"S626\",\"S633\",\"S634\"]},{\"nodeType\":\"kill\",\"stage\":\"06_falsification\",\"name\":\"Kill Condition: Naturalistic Theory Survives\",\"statementTechnical\":\"If a naturalistic hypothesis explains all six minimal facts plus the empty tomb without auxiliary assumptions, the resurrection inference fails.\",\"statementPlain\":\"If someone shows how all the facts happened without a resurrection, the argument dies.\",\"edges\":[{\"type\":\"challenges\",\"target\":\"tp:HISTORY/L1/C1\",\"grade\":\"structural_identity\",\"propagates\":\"true\"}],\"source_sentences\":[\"S647\",\"S650\",\"S651\",\"S652\"]},{\"nodeType\":\"objection\",\"stage\":\"08_objections\",\"name\":\"Crossley: Facts Don't Compel Faith\",\"statementTechnical\":\"Crossley grants all six facts but declines faith, showing historical data underdetermine personal commitment.\",\"statementPlain\":\"You can accept the facts and still not become a Christian.\",\"edges\":[{\"type\":\"challenges\",\"target\":\"tp:HISTORY/L1/C1\",\"grade\":\"structural_identity\",\"propagates\":\"true\"}],\"source_sentences\":[\"S510\",\"S512\",\"S513\",\"S514\",\"S681\"]},{\"nodeType\":\"translation\",\"stage\":\"09_everyday\",\"name\":\"Blind Date Analogy\",\"statementTechnical\":\"Accepting the facts about Jesus without commitment is like agreeing a blind date is impressive but declining marriage.\",\"statementPlain\":\"Being impressed by Jesus isn't the same as saying 'I do' to him.\",\"edges\":[{\"type\":\"expands\",\"target\":\"tp:HISTORY/L1/C1\",\"grade\":\"metaphorical\",\"propagates\":\"false\"}],\"source_sentences\":[\"S671\",\"S679\",\"S682\",\"S684\"]},{\"nodeType\":\"raw\",\"stage\":\"00_inbox_working\",\"name\":\"Unclassified Transcript Material\",\"statementTechnical\":\"Auto-captioned interview content including anecdotes, name-drops, and caption errors not reducible to discrete claims.\",\"statementPlain\":\"Miscellaneous talk not fitting a claim.\",\"edges\":[],\"source_sentences\":[\"S003\",\"S211\",\"S378\",\"S491\",\"S602\",\"S734\"]}]}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 13241,
+      "completion_tokens": 2140,
+      "attempts": 1,
+      "elapsed_seconds": 10.625,
+      "started_at": "2026-09-27T13:51:36.127441+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T13:51:46.751255+00:00",
+      "tokens": 15381
+    }
+  ],
+  "prompt_sha256": "62f30403ce7720fa19385367d0def2df0c1e7b5f42f81c21c4ccbd0b6e4825ee",
+  "tokens": 36780
+}

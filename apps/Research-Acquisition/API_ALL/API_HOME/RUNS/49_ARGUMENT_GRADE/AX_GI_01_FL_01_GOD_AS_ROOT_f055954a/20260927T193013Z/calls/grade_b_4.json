@@ -1,0 +1,104 @@
+{
+  "name": "grade_b_4",
+  "parsed": {
+    "arguments": [
+      {
+        "id": "G19",
+        "name": "Cross-resolution status and accountability",
+        "conclusion": "The framework's claims have varying register strength and must be held accountable through declared bridges and adversarial testing.",
+        "speaker": "Framework author",
+        "premises": [
+          "Theology and lived reality are strong; physics is modest (describes features, not why); the bridge is declared as structural correspondence, not proof.",
+          "Mathematics is partially formalized: the necessary ground argument has five proofs, but the ten-law mappings need adversarial testing.",
+          "God holds Himself accountable to truth, and science requires falsifiability.",
+          "The framework names its own kill conditions in advance, including a force with no matching structure."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "S397 | Register | Status |"
+          },
+          "st2": {
+            "v": 2,
+            "quote": "S401 | **Bridge** | Declared. The bridge is structural correspondence, not proof. |"
+          },
+          "st3": {
+            "v": 1,
+            "quote": "S402 | **Mathematics** | Partially formalized. The necessary ground argument has five proofs. The ten-law mappings need adversarial testing. |"
+          },
+          "st4": {
+            "v": 1,
+            "quote": "S411 | God holds Himself accountable to truth | Science requires falsifiability | The framework names its own kill conditions in advance |"
+          },
+          "st5": {
+            "v": 1,
+            "quote": "S227 A determined skeptic could write the exact opposite essay from the same raw physics."
+          },
+          "st6": {
+            "v": 2,
+            "quote": "S400 | **Physics** | Modest. Physics describes the features of such a world; it does not say why the world has those features. |"
+          },
+          "st7": {
+            "v": 2,
+            "quote": "S410 | ... kill condition: a force with no matching structure |"
+          },
+          "st8": {
+            "v": 1,
+            "quote": "S286 But when the same structure appears across registers, we do not dismiss it merely because it crosses a boundary."
+          }
+        },
+        "prior_art": "Imre Lakatos, Falsification and the Methodology of Scientific Research Programmes, 1970",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "S287 We mark the bridge, name its strength, state its limits, and keep testing.",
+            "why": "Lakatos already requires research programmes to declare hard cores, protective belts and falsification conditions, so this is a variant applied to theology rather than a new argument."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "S402 | **Mathematics** | Partially formalized. The necessary ground argument has five proofs. The ten-law mappings need adversarial testing. |",
+            "why": "It adds a register-by-register self-audit table (theology strong, physics modest, math partial) that Lakatos does not supply."
+          },
+          "or3": {
+            "v": 2,
+            "quote": "S401 | **Bridge** | Declared. The bridge is structural correspondence, not proof. |",
+            "why": "It makes a cross-domain connection between scientific falsifiability norms and theological accountability (God holds Himself to truth), which the prior art does not make."
+          },
+          "or4": {
+            "v": 1,
+            "quote": "S397 | Register | Status |",
+            "why": "It supplies a formal status table across five registers, a small structure the prior art lacks, though it is not an equation or model."
+          }
+        },
+        "weakest_link": "The claim that the bridge is 'declared' rather than proved does not show how a structural-correspondence bridge can be tested, so the accountability criterion never bites.",
+        "develop_next": "Specify concrete pass/fail tests for each declared bridge (what observation would count as the correspondence failing), so the accountability claim becomes operational rather than procedural.",
+        "case_map": [
+          "K06",
+          "K16"
+        ],
+        "domain": "philosophy"
+      }
+    ]
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "grade_b_4",
+      "attempt": 1,
+      "text": "{\"arguments\": [\n {\"id\": \"G19\", \"name\": \"Cross-resolution status and accountability\", \"conclusion\": \"The framework's claims have varying register strength and must be held accountable through declared bridges and adversarial testing.\", \"speaker\": \"Framework author\",\n  \"premises\": [\n   \"Theology and lived reality are strong; physics is modest (describes features, not why); the bridge is declared as structural correspondence, not proof.\",\n   \"Mathematics is partially formalized: the necessary ground argument has five proofs, but the ten-law mappings need adversarial testing.\",\n   \"God holds Himself accountable to truth, and science requires falsifiability.\",\n   \"The framework names its own kill conditions in advance, including a force with no matching structure.\"\n  ],\n  \"strength\": {\n   \"st1\": {\"v\": 2, \"quote\": \"S397 | Register | Status |\"},\n   \"st2\": {\"v\": 2, \"quote\": \"S401 | **Bridge** | Declared. The bridge is structural correspondence, not proof. |\"},\n   \"st3\": {\"v\": 1, \"quote\": \"S402 | **Mathematics** | Partially formalized. The necessary ground argument has five proofs. The ten-law mappings need adversarial testing. |\"},\n   \"st4\": {\"v\": 1, \"quote\": \"S411 | God holds Himself accountable to truth | Science requires falsifiability | The framework names its own kill conditions in advance |\"},\n   \"st5\": {\"v\": 1, \"quote\": \"S227 A determined skeptic could write the exact opposite essay from the same raw physics.\"},\n   \"st6\": {\"v\": 2, \"quote\": \"S400 | **Physics** | Modest. Physics describes the features of such a world; it does not say why the world has those features. |\"},\n   \"st7\": {\"v\": 2, \"quote\": \"S410 | ... kill condition: a force with no matching structure |\"},\n   \"st8\": {\"v\": 1, \"quote\": \"S286 But when the same structure appears across registers, we do not dismiss it merely because it crosses a boundary.\"}\n  },\n  \"prior_art\": \"Imre Lakatos, Falsification and the Methodology of Scientific Research Programmes, 1970\",\n  \"originality\": {\n   \"or1\": {\"v\": 1, \"quote\": \"S287 We mark the bridge, name its strength, state its limits, and keep testing.\", \"why\": \"Lakatos already requires research programmes to declare hard cores, protective belts and falsification conditions, so this is a variant applied to theology rather than a new argument.\"},\n   \"or2\": {\"v\": 1, \"quote\": \"S402 | **Mathematics** | Partially formalized. The necessary ground argument has five proofs. The ten-law mappings need adversarial testing. |\", \"why\": \"It adds a register-by-register self-audit table (theology strong, physics modest, math partial) that Lakatos does not supply.\"},\n   \"or3\": {\"v\": 2, \"quote\": \"S401 | **Bridge** | Declared. The bridge is structural correspondence, not proof. |\", \"why\": \"It makes a cross-domain connection between scientific falsifiability norms and theological accountability (God holds Himself to truth), which the prior art does not make.\"},\n   \"or4\": {\"v\": 1, \"quote\": \"S397 | Register | Status |\", \"why\": \"It supplies a formal status table across five registers, a small structure the prior art lacks, though it is not an equation or model.\"}\n  },\n  \"weakest_link\": \"The claim that the bridge is 'declared' rather than proved does not show how a structural-correspondence bridge can be tested, so the accountability criterion never bites.\",\n  \"develop_next\": \"Specify concrete pass/fail tests for each declared bridge (what observation would count as the correspondence failing), so the accountability claim becomes operational rather than procedural.\",\n  \"case_map\": [\"K06\", \"K16\"],\n  \"domain\": \"philosophy\"\n }\n]}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 11366,
+      "completion_tokens": 877,
+      "attempts": 1,
+      "elapsed_seconds": 4.280999999995402,
+      "started_at": "2026-09-27T19:30:13.857007+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T19:30:18.135136+00:00",
+      "tokens": 12243
+    }
+  ],
+  "prompt_sha256": "bcf00ec54c4ff79a04da900fb832dc029184668561ca501442c037bd0dac2849",
+  "tokens": 12243
+}

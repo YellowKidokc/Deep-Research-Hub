@@ -1,0 +1,10 @@
+{
+  "target_type": "single_case",
+  "intent": "aggregate_sources",
+  "source_scope": "wikipedia_only",
+  "depth": "top_25",
+  "output_type": "workbook",
+  "organization_mode": "by_case",
+  "max_links": 25,
+  "max_hops": 0
+}

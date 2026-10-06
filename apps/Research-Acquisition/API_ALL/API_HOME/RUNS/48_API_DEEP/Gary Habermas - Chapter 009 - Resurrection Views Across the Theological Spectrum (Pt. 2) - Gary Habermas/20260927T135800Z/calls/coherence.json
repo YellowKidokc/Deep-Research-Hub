@@ -1,0 +1,140 @@
+{
+  "name": "coherence",
+  "parsed": {
+    "station": "coherence_score",
+    "paper_uuid": "Gary Habermas - Chapter 009 - Resurrection Views Across the Theological Spectrum (Pt. 2) - Gary Habermas",
+    "run_uuid": "deep-45bbe45eba68",
+    "overall": {
+      "score": 7,
+      "score_ceiling": 10,
+      "status": "ASSESSED",
+      "summary": "The interview is largely internally consistent, with Habermas carefully distinguishing citation counts from headcounts and clarifying his terminology, though minor tensions arise from conversational imprecision and unresolved definitional questions."
+    },
+    "dimensions": [
+      {
+        "name": "internal_consistency",
+        "score": 7,
+        "reasons": [
+          "Habermas consistently maintains that he avoids labeling scholars as Christian or non-Christian (S012-S015, S057-S059, S249-S253), and this principle is applied throughout the discussion of liberal/conservative categories (S026-S070).",
+          "He clarifies that his claim about citing more critical scholars refers to citation frequency, not the number of distinct scholars (S262-S291), resolving an apparent contradiction with the observation that he mentions more believing scholars by name (S301-S302).",
+          "Minor tension: Habermas initially says he was a skeptic for '10 straight years and a bit for 10 more' (S229-S230), which sums to about 20 years, but the extracted atom A06 states 'about twenty years' while the transcript also says '10 straight years and a bit for 10 more'—this is a paraphrase issue, not a real contradiction.",
+          "The discussion of the resurrection as a miracle (S502-S509) is consistent with the claim that he first calls it a miracle in volume four, though he acknowledges discussing miracles in volume one."
+        ],
+        "affected_atom_uuids": [
+          "A01",
+          "A02",
+          "A06",
+          "A10"
+        ]
+      },
+      {
+        "name": "definitional_stability",
+        "score": 6,
+        "reasons": [
+          "Habermas explicitly refuses to define who is a Christian (S012-S015, S057-S059), which is a principled stance but leaves the categories 'liberal,' 'conservative,' 'critical,' and 'believing' somewhat fluid.",
+          "He provides an analogy using grades (A-F) to explain the spectrum (S026-S028), but does not give precise criteria for assigning scholars to categories.",
+          "The term 'minimal facts' is referenced (S329, S492) but not defined in this chapter, relying on prior volumes.",
+          "The distinction between 'critical' and 'believing' commentators is clarified as citation frequency (S289-S291), but the boundary remains fuzzy."
+        ],
+        "affected_atom_uuids": [
+          "A01",
+          "A02",
+          "A08"
+        ]
+      },
+      {
+        "name": "inferential_connectedness",
+        "score": 8,
+        "reasons": [
+          "The argument that the creed in 1 Corinthians 15:3-5 is early (30s AD) is supported by multiple lines: pre-Pauline dating (S344-S351), Paul's conversion timeline (S388-S390), and the Jesus Seminar's admission (S386-S388).",
+          "The link between the resurrection and the resurrection of believers is stated as a key theological connection (S510), though the inference is not developed in detail here.",
+          "The practical implications of the resurrection (S515-S518) are connected to the command to love others, providing a coherent ethical inference.",
+          "The discussion of scholars criticizing each other is justified as humanizing and informative (S449-S455), though the inferential link to the main argument is loose."
+        ],
+        "affected_atom_uuids": [
+          "A04",
+          "A08",
+          "A09",
+          "A11"
+        ]
+      },
+      {
+        "name": "register_boundary_respect",
+        "score": 8,
+        "reasons": [
+          "Habermas distinguishes between historical claims and theological judgments, e.g., refusing to judge who is a Christian (S012-S015) while discussing historical evidence for the resurrection.",
+          "He acknowledges that his personal skepticism informs his approach (S228-S258) but does not conflate his personal journey with the historical evidence.",
+          "The discussion of miracles is deferred to volume four (S502-S509), showing awareness of the boundary between historical argument and theological interpretation.",
+          "However, the line between historical and theological claims occasionally blurs, e.g., when discussing the 'deity' of Jesus from early creeds (S393-S394, S410-S414)."
+        ],
+        "affected_atom_uuids": [
+          "A02",
+          "A10",
+          "A11"
+        ]
+      }
+    ],
+    "contradictions": [],
+    "tensions": [
+      {
+        "atoms": [
+          "A01",
+          "A02"
+        ],
+        "description": "Habermas says he cites critical scholars more often than believing scholars (A01) but also refuses to label scholars as Christian or non-Christian (A02). This is not a contradiction because he defines 'critical' vs. 'believing' by stance on the resurrection, not by religious identity, but the terminology could confuse listeners.",
+        "severity": "local"
+      },
+      {
+        "atoms": [
+          "A06"
+        ],
+        "description": "The transcript says Habermas was a skeptic for '10 straight years and a bit for 10 more' (S229-S230), which is about 20 years, but the extracted atom A06 says 'about twenty years'—this is a paraphrase, not a tension in the source.",
+        "severity": "local"
+      }
+    ],
+    "missing_definitions": [
+      {
+        "term": "minimal facts",
+        "context": "Referenced in S329 and S492 but not defined in this chapter; relies on prior volumes.",
+        "atom_uuids": []
+      },
+      {
+        "term": "critical scholar",
+        "context": "Used throughout (e.g., S289-S291) but not precisely defined; Habermas contrasts with 'believing commentators' based on citation frequency.",
+        "atom_uuids": [
+          "A01"
+        ]
+      },
+      {
+        "term": "liberal/conservative",
+        "context": "Used as spectrum labels (S026-S028, S060-S062) but criteria for assignment are not specified.",
+        "atom_uuids": [
+          "A01",
+          "A02"
+        ]
+      }
+    ],
+    "notes": "The interview is a conversational discussion, so some imprecision is expected. The coherence score reflects the overall clarity and consistency of Habermas's positions, with minor tensions arising from the informal setting and reliance on prior volumes for definitions."
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "coherence",
+      "attempt": 1,
+      "text": "{\n  \"station\": \"coherence_score\",\n  \"paper_uuid\": \"Gary Habermas - Chapter 009 - Resurrection Views Across the Theological Spectrum (Pt. 2) - Gary Habermas\",\n  \"run_uuid\": \"deep-45bbe45eba68\",\n  \"overall\": {\n    \"score\": 7,\n    \"score_ceiling\": 10,\n    \"status\": \"ASSESSED\",\n    \"summary\": \"The interview is largely internally consistent, with Habermas carefully distinguishing citation counts from headcounts and clarifying his terminology, though minor tensions arise from conversational imprecision and unresolved definitional questions.\"\n  },\n  \"dimensions\": [\n    {\n      \"name\": \"internal_consistency\",\n      \"score\": 7,\n      \"reasons\": [\n        \"Habermas consistently maintains that he avoids labeling scholars as Christian or non-Christian (S012-S015, S057-S059, S249-S253), and this principle is applied throughout the discussion of liberal/conservative categories (S026-S070).\",\n        \"He clarifies that his claim about citing more critical scholars refers to citation frequency, not the number of distinct scholars (S262-S291), resolving an apparent contradiction with the observation that he mentions more believing scholars by name (S301-S302).\",\n        \"Minor tension: Habermas initially says he was a skeptic for '10 straight years and a bit for 10 more' (S229-S230), which sums to about 20 years, but the extracted atom A06 states 'about twenty years' while the transcript also says '10 straight years and a bit for 10 more'—this is a paraphrase issue, not a real contradiction.\",\n        \"The discussion of the resurrection as a miracle (S502-S509) is consistent with the claim that he first calls it a miracle in volume four, though he acknowledges discussing miracles in volume one.\"\n      ],\n      \"affected_atom_uuids\": [\"A01\", \"A02\", \"A06\", \"A10\"]\n    },\n    {\n      \"name\": \"definitional_stability\",\n      \"score\": 6,\n      \"reasons\": [\n        \"Habermas explicitly refuses to define who is a Christian (S012-S015, S057-S059), which is a principled stance but leaves the categories 'liberal,' 'conservative,' 'critical,' and 'believing' somewhat fluid.\",\n        \"He provides an analogy using grades (A-F) to explain the spectrum (S026-S028), but does not give precise criteria for assigning scholars to categories.\",\n        \"The term 'minimal facts' is referenced (S329, S492) but not defined in this chapter, relying on prior volumes.\",\n        \"The distinction between 'critical' and 'believing' commentators is clarified as citation frequency (S289-S291), but the boundary remains fuzzy.\"\n      ],\n      \"affected_atom_uuids\": [\"A01\", \"A02\", \"A08\"]\n    },\n    {\n      \"name\": \"inferential_connectedness\",\n      \"score\": 8,\n      \"reasons\": [\n        \"The argument that the creed in 1 Corinthians 15:3-5 is early (30s AD) is supported by multiple lines: pre-Pauline dating (S344-S351), Paul's conversion timeline (S388-S390), and the Jesus Seminar's admission (S386-S388).\",\n        \"The link between the resurrection and the resurrection of believers is stated as a key theological connection (S510), though the inference is not developed in detail here.\",\n        \"The practical implications of the resurrection (S515-S518) are connected to the command to love others, providing a coherent ethical inference.\",\n        \"The discussion of scholars criticizing each other is justified as humanizing and informative (S449-S455), though the inferential link to the main argument is loose.\"\n      ],\n      \"affected_atom_uuids\": [\"A04\", \"A08\", \"A09\", \"A11\"]\n    },\n    {\n      \"name\": \"register_boundary_respect\",\n      \"score\": 8,\n      \"reasons\": [\n        \"Habermas distinguishes between historical claims and theological judgments, e.g., refusing to judge who is a Christian (S012-S015) while discussing historical evidence for the resurrection.\",\n        \"He acknowledges that his personal skepticism informs his approach (S228-S258) but does not conflate his personal journey with the historical evidence.\",\n        \"The discussion of miracles is deferred to volume four (S502-S509), showing awareness of the boundary between historical argument and theological interpretation.\",\n        \"However, the line between historical and theological claims occasionally blurs, e.g., when discussing the 'deity' of Jesus from early creeds (S393-S394, S410-S414).\"\n      ],\n      \"affected_atom_uuids\": [\"A02\", \"A10\", \"A11\"]\n    }\n  ],\n  \"contradictions\": [],\n  \"tensions\": [\n    {\n      \"atoms\": [\"A01\", \"A02\"],\n      \"description\": \"Habermas says he cites critical scholars more often than believing scholars (A01) but also refuses to label scholars as Christian or non-Christian (A02). This is not a contradiction because he defines 'critical' vs. 'believing' by stance on the resurrection, not by religious identity, but the terminology could confuse listeners.\",\n      \"severity\": \"local\"\n    },\n    {\n      \"atoms\": [\"A06\"],\n      \"description\": \"The transcript says Habermas was a skeptic for '10 straight years and a bit for 10 more' (S229-S230), which is about 20 years, but the extracted atom A06 says 'about twenty years'—this is a paraphrase, not a tension in the source.\",\n      \"severity\": \"local\"\n    }\n  ],\n  \"missing_definitions\": [\n    {\n      \"term\": \"minimal facts\",\n      \"context\": \"Referenced in S329 and S492 but not defined in this chapter; relies on prior volumes.\",\n      \"atom_uuids\": []\n    },\n    {\n      \"term\": \"critical scholar\",\n      \"context\": \"Used throughout (e.g., S289-S291) but not precisely defined; Habermas contrasts with 'believing commentators' based on citation frequency.\",\n      \"atom_uuids\": [\"A01\"]\n    },\n    {\n      \"term\": \"liberal/conservative\",\n      \"context\": \"Used as spectrum labels (S026-S028, S060-S062) but criteria for assignment are not specified.\",\n      \"atom_uuids\": [\"A01\", \"A02\"]\n    }\n  ],\n  \"notes\": \"The interview is a conversational discussion, so some imprecision is expected. The coherence score reflects the overall clarity and consistency of Habermas's positions, with minor tensions arising from the informal setting and reliance on prior volumes for definitions.\"\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 12581,
+      "completion_tokens": 1450,
+      "attempts": 1,
+      "elapsed_seconds": 7.2960000000020955,
+      "started_at": "2026-09-27T13:58:17.951834+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T13:58:25.254017+00:00",
+      "tokens": 14031
+    }
+  ],
+  "prompt_sha256": "441a3e328d8ea1ef1d80e084d37ee7c4f99da74e468fbaec1a55a3bdc2a6e384",
+  "tokens": 14031
+}

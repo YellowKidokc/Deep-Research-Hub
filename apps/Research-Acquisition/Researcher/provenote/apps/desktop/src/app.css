@@ -1,0 +1,252 @@
+/* Visual identity V1 — "paper & ink" (docs/specs/feature-visual-identity.md, SPRINT-016).
+   White / ivory (light — user-directed 2026-07-13: white bg + a whisper-ivory surface layer, not
+   the warm beige of the first cut) / warm charcoal (dark) neutrals, a single deep-indigo accent, a
+   warm warn/ok semantic pair, plus font-stack + 2 shadow tokens. Same variable names as before, so
+   every component (all of which reference the vars — zero hardcoded hex) recolors for free.
+   Reading surfaces opt into --font-serif; chrome stays --font-sans. */
+
+/* Native controls follow the app's theme, not the OS's.
+   Without this, a `<select>`'s popup, its options and the scrollbars are painted by the UA in the
+   system scheme — so on a dark app the folder-scope dropdown in chat opened as a light menu over a
+   dark screen (reported 2026-09-01). Declared beside the palettes rather than on the one control,
+   because the same mismatch was in all five `<select>`s and every scrollbar. */
+:root {
+  --bg: #ffffff;
+  --surface: #f8f7f3;
+  --surface-2: #efece5;
+  --border: #e5e1d8;
+  --fg: #23201b;
+  --fg-2: #6b6559;
+  --accent: #4a3fa6;
+  --accent-fg: #ffffff;
+  --accent-wordmark: #5946d6;
+  --danger: #c0392b;
+  --lavender: #6f62c9;
+  --warn-fg: #8a5300;
+  --warn-bg: #fbeecb;
+  --warn-border: #e6c987;
+  --ok-fg: #2f6b3d;
+  --ok-border: #9cc9a6;
+
+  /* Categorical community palette (concept graph — feature-concept-graph.md PR-G2a). 12 hues
+     cycled by `community % 12`: colour is a grouping hint and community ids are positional, so a
+     collision past 12 is harmless (logged, never blocked). Kept clear of the semantic
+     --danger/--warn-fg, which the gap badges reserve. Light values (readable on ivory/white). */
+  --comm-0: hsl(210 55% 47%);
+  --comm-1: hsl(145 48% 39%);
+  --comm-2: hsl(35 62% 44%);
+  --comm-3: hsl(280 42% 52%);
+  --comm-4: hsl(330 52% 50%);
+  --comm-5: hsl(190 55% 39%);
+  --comm-6: hsl(15 58% 50%);
+  --comm-7: hsl(255 45% 56%);
+  --comm-8: hsl(95 42% 39%);
+  --comm-9: hsl(300 38% 50%);
+  --comm-10: hsl(170 48% 36%);
+  --comm-11: hsl(230 32% 49%);
+
+  --shadow-1: 0 1px 2px rgba(30, 28, 24, 0.05), 0 1px 3px rgba(30, 28, 24, 0.04);
+  --shadow-2: 0 10px 30px rgba(30, 28, 24, 0.12);
+
+  /* Font stacks. --font-serif on reading surfaces (answers, chunks, excerpts, content headings);
+     --font-sans on chrome. Both degrade gracefully to system faces until the local woff2 load
+     (Georgia for the serif, system-ui for the sans) — the serif/sans distinction is already
+     visible in the fallback. Local @font-face lives in fonts.css (no CDN). */
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-serif: 'Spectral', 'Iowan Old Style', Georgia, Cambria, 'Times New Roman', serif;
+
+  /* Layout rhythm + reading measure (V2 — SPRINT-017). A small, coherent spacing + type scale so
+     the shell has one vocabulary instead of ad-hoc rem values; --measure caps prose line length on
+     reading surfaces (~68ch is the classic 45–75-char comfortable range). Theme-independent (sizes,
+     not colors) — declared once here, referenced from the components a look pass touches. */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2.5rem;
+  --text-meta: 0.76rem;
+  --text-sm: 0.82rem;
+  --text-title: 1.25rem;
+  --text-display: 1.6rem;
+  --measure: 68ch;
+
+  /* Concept-graph structural strokes (PR-G2a). Derived from --fg via color-mix so they track BOTH
+     themes from one declaration — no per-theme restatement needed (var() is late-bound at use). */
+  --graph-edge: color-mix(in srgb, var(--fg) 18%, transparent);
+  --graph-node-stroke: color-mix(in srgb, var(--fg) 32%, transparent);
+
+  /* Scrollbars, same color-mix trick — one declaration, both themes. Until 2026-08-05 the app
+     shipped no scrollbar styling at all, so every scrolling pane drew the raw OS bar: a bright
+     grey slab against the dark reading surface, the loudest thing on the page next to prose that
+     is deliberately quiet. */
+  --scrollbar-thumb: color-mix(in srgb, var(--fg) 20%, transparent);
+  --scrollbar-thumb-hover: color-mix(in srgb, var(--fg) 38%, transparent);
+
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--fg);
+  background: var(--bg);
+  color-scheme: light;
+}
+
+/* U1 — manual theme (lib/theme.ts). A `data-theme` attribute on <html> wins over the OS
+   media query by attribute-selector specificity + source order; `'system'` clears the
+   attribute, falling through to `@media (prefers-color-scheme)` below. Same two palettes,
+   just re-keyed — no per-component color, all via these vars. */
+:root[data-theme='dark'] {
+  --bg: #1b1813;
+  --surface: #23201a;
+  --surface-2: #2e2a22;
+  --border: #3b362c;
+  --fg: #ece5d6;
+  --fg-2: #a79e8b;
+  --accent: #9a8ff0;
+  --accent-fg: #1b1813;
+  --accent-wordmark: #a596ff;
+  --danger: #f2857a;
+  --lavender: #b0a4ff;
+  --warn-fg: #efc06a;
+  --warn-bg: #2f2712;
+  --warn-border: #5a4a22;
+  --ok-fg: #79c98d;
+  --ok-border: #345f3f;
+
+  /* Community palette — dark values (brighter, on warm charcoal). See :root for the rationale. */
+  --comm-0: hsl(210 62% 67%);
+  --comm-1: hsl(145 45% 57%);
+  --comm-2: hsl(35 66% 62%);
+  --comm-3: hsl(280 55% 73%);
+  --comm-4: hsl(330 60% 69%);
+  --comm-5: hsl(190 55% 57%);
+  --comm-6: hsl(15 66% 66%);
+  --comm-7: hsl(255 62% 75%);
+  --comm-8: hsl(95 44% 57%);
+  --comm-9: hsl(300 44% 67%);
+  --comm-10: hsl(170 46% 54%);
+  --comm-11: hsl(230 46% 69%);
+
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.35), 0 1px 3px rgba(0, 0, 0, 0.3);
+  --shadow-2: 0 10px 30px rgba(0, 0, 0, 0.55);
+  color-scheme: dark;
+}
+
+:root[data-theme='light'] {
+  --bg: #ffffff;
+  --surface: #f8f7f3;
+  --surface-2: #efece5;
+  --border: #e5e1d8;
+  --fg: #23201b;
+  --fg-2: #6b6559;
+  --accent: #4a3fa6;
+  --accent-fg: #ffffff;
+  --accent-wordmark: #5946d6;
+  --danger: #c0392b;
+  --lavender: #6f62c9;
+  --warn-fg: #8a5300;
+  --warn-bg: #fbeecb;
+  --warn-border: #e6c987;
+  --ok-fg: #2f6b3d;
+  --ok-border: #9cc9a6;
+
+  /* Categorical community palette (concept graph — feature-concept-graph.md PR-G2a). 12 hues
+     cycled by `community % 12`: colour is a grouping hint and community ids are positional, so a
+     collision past 12 is harmless (logged, never blocked). Kept clear of the semantic
+     --danger/--warn-fg, which the gap badges reserve. Light values (readable on ivory/white). */
+  --comm-0: hsl(210 55% 47%);
+  --comm-1: hsl(145 48% 39%);
+  --comm-2: hsl(35 62% 44%);
+  --comm-3: hsl(280 42% 52%);
+  --comm-4: hsl(330 52% 50%);
+  --comm-5: hsl(190 55% 39%);
+  --comm-6: hsl(15 58% 50%);
+  --comm-7: hsl(255 45% 56%);
+  --comm-8: hsl(95 42% 39%);
+  --comm-9: hsl(300 38% 50%);
+  --comm-10: hsl(170 48% 36%);
+  --comm-11: hsl(230 32% 49%);
+
+  --shadow-1: 0 1px 2px rgba(30, 28, 24, 0.05), 0 1px 3px rgba(30, 28, 24, 0.04);
+  --shadow-2: 0 10px 30px rgba(30, 28, 24, 0.12);
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --bg: #1b1813;
+    --surface: #23201a;
+    --surface-2: #2e2a22;
+    --border: #3b362c;
+    --fg: #ece5d6;
+    --fg-2: #a79e8b;
+    --accent: #9a8ff0;
+    --accent-fg: #1b1813;
+    --accent-wordmark: #a596ff;
+    --danger: #f2857a;
+    --lavender: #b0a4ff;
+    --warn-fg: #efc06a;
+    --warn-bg: #2f2712;
+    --warn-border: #5a4a22;
+    --ok-fg: #79c98d;
+    --ok-border: #345f3f;
+
+    /* Community palette — dark values (OS-dark, no explicit data-theme). See :root. */
+    --comm-0: hsl(210 62% 67%);
+    --comm-1: hsl(145 45% 57%);
+    --comm-2: hsl(35 66% 62%);
+    --comm-3: hsl(280 55% 73%);
+    --comm-4: hsl(330 60% 69%);
+    --comm-5: hsl(190 55% 57%);
+    --comm-6: hsl(15 66% 66%);
+    --comm-7: hsl(255 62% 75%);
+    --comm-8: hsl(95 44% 57%);
+    --comm-9: hsl(300 44% 67%);
+    --comm-10: hsl(170 46% 54%);
+    --comm-11: hsl(230 46% 69%);
+
+    --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.35), 0 1px 3px rgba(0, 0, 0, 0.3);
+    --shadow-2: 0 10px 30px rgba(0, 0, 0, 0.55);
+    color-scheme: dark;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Two ways to say the same thing, on purpose — they do NOT fight.
+   `scrollbar-color` is the standard property and is what Chromium (WebView2, the Windows Tauri
+   runtime) and Firefox use; when it is set to anything but `auto`, Chromium ignores the
+   ::-webkit-scrollbar pseudo-elements entirely, so the standard rule always wins where it is
+   supported. The ::-webkit- block below is the fallback for WebKit (macOS WKWebView), which does
+   not implement `scrollbar-color`. Declaring both is graceful degradation, not duplication. */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb) transparent;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  /* The transparent border + background-clip is what makes the thumb read as a slim pill with
+     breathing room, rather than a bar wedged against the edge of the pane. */
+  background: var(--scrollbar-thumb);
+  background-clip: content-box;
+  border: 2px solid transparent;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover);
+  background-clip: content-box;
+}
+
+body {
+  margin: 0;
+}

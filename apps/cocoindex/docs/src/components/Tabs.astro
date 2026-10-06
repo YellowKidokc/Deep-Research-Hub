@@ -1,0 +1,52 @@
+---
+// CSS-only tabs. Radios are direct children of .coco-tabs so they can
+// be general siblings of the bar + panels; labels reference them by
+// `for=`. No JS required. Each instance gets a unique radio-group name.
+interface Props {
+  labels: string[];
+  initial?: number;
+}
+const { labels, initial = 0 } = Astro.props;
+const id = `coco-tabs-${crypto.randomUUID().slice(0, 8)}`;
+---
+<div class="coco-tabs">
+  {labels.map((_, i) => (
+    <input
+      type="radio"
+      class="coco-tabs-radio"
+      name={id}
+      id={`${id}-${i}`}
+      checked={i === initial}
+    />
+  ))}
+  <div class="coco-tabs-bar" role="tablist">
+    {labels.map((label, i) => (
+      <label for={`${id}-${i}`} class="coco-tabs-label" role="tab">
+        <span>{label}</span>
+      </label>
+    ))}
+  </div>
+  <div class="coco-tabs-panels">
+    {labels[0] && (
+      <section class="coco-tabs-panel" data-tab-index="0" role="tabpanel"><slot name="tab-0" /></section>
+    )}
+    {labels[1] && (
+      <section class="coco-tabs-panel" data-tab-index="1" role="tabpanel"><slot name="tab-1" /></section>
+    )}
+    {labels[2] && (
+      <section class="coco-tabs-panel" data-tab-index="2" role="tabpanel"><slot name="tab-2" /></section>
+    )}
+    {labels[3] && (
+      <section class="coco-tabs-panel" data-tab-index="3" role="tabpanel"><slot name="tab-3" /></section>
+    )}
+    {labels[4] && (
+      <section class="coco-tabs-panel" data-tab-index="4" role="tabpanel"><slot name="tab-4" /></section>
+    )}
+  </div>
+</div>
+
+<style is:global>
+  /* Styling lives in @cocoindex/brand/tabs.css (the `.coco-tabs` system) so
+     every surface renders tab groups identically. */
+  @import '@cocoindex/brand/tabs.css';
+</style>

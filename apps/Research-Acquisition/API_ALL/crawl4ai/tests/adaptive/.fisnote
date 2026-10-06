@@ -1,0 +1,28 @@
+---
+fis_schema: "folder-index.v1"
+folder_id: "FLD-20260907-1c7e5bc7"
+folder: "GitHub\Research-Acquisition\crawl4ai\tests\adaptive"
+folder_class: "project"
+confidence: 0.6
+dependency_risk: 0.0
+dominant_family: "code"
+dominant_ratio: 0.857
+file_count: 7
+classified_at: "2026-09-07T16:07:42"
+allowed_actions: ["index", "rename_internal", "subfolder_sort", "archive_exports"]
+suggested_name: "adaptive"
+---
+
+# FIS Folder Index: adaptive
+
+**Class**: project  ·  **Confidence**: 60%  ·  **Files**: 7  ·  **Dominant**: code (86%)
+
+## Allowed actions
+- index
+- rename_internal
+- subfolder_sort
+- archive_exports
+
+**Suggested name**: `adaptive`  (not applied — review before use)
+
+<!-- FIS folder-index.v1: parseable note; safe to regenerate. -->

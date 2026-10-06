@@ -1,0 +1,250 @@
+{
+  "paper_uuid": "youtube_Q4TzI59pRIc_ch6",
+  "title": "What Critical Scholars Say About Jesus' Bodily Resurrection - Gary Habermas",
+  "domainType": "theology",
+  "summary": "In this chapter, Gary Habermas surveys quotations from critical scholars (John Cook, Dale Allison, Tom Wright, Michael Licona, Robert Gundry) who affirm that Paul and the earliest disciples believed in a bodily resurrection of Jesus, not a ghostly or purely spiritual appearance. Habermas highlights how these admissions from non-conservative scholars are striking and increasingly common, and he uses them to support the historical credibility of the bodily resurrection claim.",
+  "atoms": [
+    {
+      "nodeType": "claim",
+      "stage": "01_canonical",
+      "name": "Paul believed in bodily resurrection",
+      "statementTechnical": "The Apostle Paul taught that the resurrection appearances of Jesus were bodily, consistent with the Gospel accounts (Matthew, Luke, John), not merely spiritual or ghostly.",
+      "statementPlain": "Paul believed Jesus rose physically and appeared in a real body, just like the Gospels describe.",
+      "claimClass": "empirical-anchor",
+      "falsificationCondition": "Discovery of undisputed Pauline texts that explicitly deny a bodily resurrection or describe the resurrection appearances as purely visionary/spiritual in a way incompatible with bodily existence.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-survived",
+      "edges": [
+        {
+          "type": "dependsOn",
+          "target": "",
+          "grade": "independent",
+          "propagates": false
+        }
+      ],
+      "notes": "Habermas cites John Cook's thesis and Dale Allison's agreement that Paul meant bodily resurrection.",
+      "source_sentences": [
+        "S020",
+        "S023",
+        "S024",
+        "S027",
+        "S029",
+        "S031"
+      ],
+      "atom_id": "A01"
+    },
+    {
+      "nodeType": "claim",
+      "stage": "01_canonical",
+      "name": "Critical scholars increasingly affirm bodily resurrection",
+      "statementTechnical": "A growing number of critical (non-conservative) scholars, including Dale Allison, John Cook, Tom Wright, Michael Licona, and Robert Gundry, affirm that the earliest Christian belief was in a bodily resurrection of Jesus.",
+      "statementPlain": "Even skeptical scholars now often agree that the first Christians believed Jesus rose bodily.",
+      "claimClass": "empirical-anchor",
+      "falsificationCondition": "A comprehensive survey showing that the majority of critical scholars deny a bodily resurrection belief in early Christianity, or that the cited scholars' views are misrepresented.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "dependsOn",
+          "target": "",
+          "grade": "independent",
+          "propagates": false
+        }
+      ],
+      "notes": "Habermas lists multiple scholars and notes this view is 'very widely taught today'.",
+      "source_sentences": [
+        "S027",
+        "S028",
+        "S029",
+        "S040",
+        "S041",
+        "S042",
+        "S077"
+      ],
+      "atom_id": "A02"
+    },
+    {
+      "nodeType": "claim",
+      "stage": "01_canonical",
+      "name": "Dale Allison's personal testimony",
+      "statementTechnical": "Dale Allison, though not personally committed to the bodily resurrection side, states that Paul meant bodily resurrection and that he will be in church on Easter.",
+      "statementPlain": "Dale Allison says: 'I believe that the disciples saw Jesus and that he saw them and next Easter will find me in church.'",
+      "claimClass": "empirical-anchor",
+      "falsificationCondition": "Evidence that Allison's statement is misquoted or that he later retracted it, or that it does not reflect his actual view.",
+      "verificationStatus": "informal",
+      "challengeStatus": "unchallenged",
+      "edges": [
+        {
+          "type": "dependsOn",
+          "target": "",
+          "grade": "independent",
+          "propagates": false
+        }
+      ],
+      "notes": "Habermas reads this quote from Allison's volume three and calls it stunning.",
+      "source_sentences": [
+        "S071",
+        "S074",
+        "S086"
+      ],
+      "atom_id": "A03"
+    },
+    {
+      "nodeType": "claim",
+      "stage": "01_canonical",
+      "name": "Tom Wright's analogy: resurrection as knowable as Rubicon",
+      "statementTechnical": "Tom Wright compared the knowability of Jesus' resurrection to the knowability of Julius Caesar crossing the Rubicon.",
+      "statementPlain": "Tom Wright said the resurrection is as historically solid as Julius Caesar crossing the Rubicon river.",
+      "claimClass": "empirical-anchor",
+      "falsificationCondition": "Evidence that Wright never made this comparison or that the analogy is misattributed.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "dependsOn",
+          "target": "",
+          "grade": "independent",
+          "propagates": false
+        }
+      ],
+      "notes": "Habermas and the interviewer discuss the quote; Habermas is 'pretty sure it was Wright'.",
+      "source_sentences": [
+        "S046",
+        "S048",
+        "S049",
+        "S050",
+        "S051"
+      ],
+      "atom_id": "A04"
+    },
+    {
+      "nodeType": "claim",
+      "stage": "01_canonical",
+      "name": "Robert Gundry's Soma argues against Bultmann",
+      "statementTechnical": "Robert Gundry's book 'Soma' defends a bodily resurrection view against Bultmann's influential non-bodily interpretation.",
+      "statementPlain": "Robert Gundry wrote a book called 'Soma' (body) to refute Bultmann's view that resurrection was not physical.",
+      "claimClass": "empirical-anchor",
+      "falsificationCondition": "Demonstration that Gundry's book does not actually argue for bodily resurrection or does not engage Bultmann's view.",
+      "verificationStatus": "informal",
+      "challengeStatus": "unchallenged",
+      "edges": [
+        {
+          "type": "dependsOn",
+          "target": "",
+          "grade": "independent",
+          "propagates": false
+        }
+      ],
+      "notes": "Habermas mentions Gundry as one of the first to write on the subject.",
+      "source_sentences": [
+        "S042",
+        "S043",
+        "S079",
+        "S080",
+        "S081"
+      ],
+      "atom_id": "A05"
+    },
+    {
+      "nodeType": "claim",
+      "stage": "01_canonical",
+      "name": "Bultmann's view distinguished from Paul's",
+      "statementTechnical": "Bultmann may say Paul believed in bodily resurrection, but Bultmann himself does not; one must distinguish between what Paul said and what Bultmann says Paul said.",
+      "statementPlain": "Bultmann can acknowledge that Paul believed in a bodily resurrection, but Bultmann personally rejects it.",
+      "claimClass": "definition",
+      "falsificationCondition": "Evidence that Bultmann actually affirmed bodily resurrection or that the distinction is irrelevant.",
+      "verificationStatus": "informal",
+      "challengeStatus": "unchallenged",
+      "edges": [
+        {
+          "type": "dependsOn",
+          "target": "",
+          "grade": "independent",
+          "propagates": false
+        }
+      ],
+      "notes": "Habermas clarifies the difference between Paul's belief and Bultmann's belief about Paul.",
+      "source_sentences": [
+        "S032",
+        "S033",
+        "S034",
+        "S035"
+      ],
+      "atom_id": "A06"
+    },
+    {
+      "nodeType": "raw",
+      "stage": "00_inbox_working",
+      "name": "Unclassified transcript segments",
+      "statementTechnical": "",
+      "statementPlain": "",
+      "claimClass": "",
+      "falsificationCondition": "",
+      "verificationStatus": "informal",
+      "challengeStatus": "unchallenged",
+      "edges": [],
+      "notes": "Segments that are conversational filler, personal remarks, or not classifiable as claims.",
+      "source_sentences": [
+        "S003",
+        "S004",
+        "S005",
+        "S006",
+        "S007",
+        "S008",
+        "S009",
+        "S010",
+        "S011",
+        "S012",
+        "S013",
+        "S014",
+        "S015",
+        "S016",
+        "S017",
+        "S018",
+        "S019",
+        "S021",
+        "S022",
+        "S025",
+        "S026",
+        "S030",
+        "S036",
+        "S037",
+        "S038",
+        "S039",
+        "S044",
+        "S045",
+        "S047",
+        "S052",
+        "S053",
+        "S054",
+        "S055",
+        "S056",
+        "S057",
+        "S058",
+        "S059",
+        "S060",
+        "S061",
+        "S062",
+        "S063",
+        "S064",
+        "S065",
+        "S066",
+        "S067",
+        "S068",
+        "S069",
+        "S070",
+        "S072",
+        "S073",
+        "S075",
+        "S076",
+        "S078",
+        "S082",
+        "S083",
+        "S084",
+        "S085",
+        "S087"
+      ],
+      "atom_id": "A07"
+    }
+  ]
+}

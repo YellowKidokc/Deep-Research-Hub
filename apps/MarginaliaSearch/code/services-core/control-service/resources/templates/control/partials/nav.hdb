@@ -1,0 +1,65 @@
+<div class="screenreader-only">
+    <a href="#content-begin">Skip to main content</a>
+</div>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="#">Control</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+	    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				<li class="nav-item"><a class="nav-link" href="/">Overview</a></li>
+                {{#unless global-context.hideMarginaliaApp}}
+				<li class="nav-item dropdown">
+					<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button"  aria-expanded="false">Application</a>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="/api-keys" title="Create or remove API keys">API Keys</a></li>
+						<li><a class="dropdown-item" href="/complaints" title="View and act on user complaints">Complaints</a></li>
+						<li><a class="dropdown-item" href="/random-domains/review" title="Review the random domains list">Random Exploration Review</a></li>
+						<li><a class="dropdown-item" href="/random-domains/suggestions" title="Review user-submitted random domain suggestions">Random Exploration Suggestions</a></li>
+					</ul>
+				</li>
+                {{/unless}}
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button"  aria-expanded="false">Domains</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/domain/new" title="Add New Domains">Add Domains</a></li>
+                        <li><a class="dropdown-item" href="/domain" title="List Domains">Manage Domains</a></li>
+                        <li><a class="dropdown-item" href="/wide-domains" title="Flag top domains for the wide-domains node">Wide Domains</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="/blacklist" title="Add or remove website sanctions">Blacklist</a></li>
+                        <li><a class="dropdown-item" href="/search-to-ban" title="Search function for easy blacklisting">Blacklist Search</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button"  aria-expanded="false">Index Nodes</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/nodes" title="Node Overview">Overview</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        {{#each global-context.nodes}}
+                            <li><a class="dropdown-item" href="/nodes/{{node}}" title="Manage Node {{node}}">Node {{node}}</a></li>
+                        {{/each}}
+                    </ul>
+                </li>
+				<li class="nav-item dropdown">
+					<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button"  aria-expanded="false">System</a>
+					<ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/datasets" title="View and update the data sets">Data Sets</a></li>
+                        <li><a class="dropdown-item" href="/domain-ranking-sets" title="View and update domain rankings ">Domain Ranking Sets</a></li>
+                        <li><a class="dropdown-item" href="/schedules" title="Configure actor run schedules">Schedules</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="/aborted-processes" title="View and restart aborted processes">Aborted Processes</a></li>
+                        <li><a class="dropdown-item" href="/actions" title="System actions">Actions</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="/events" title="View the event log">Events</a></li>
+						<li><a class="dropdown-item" href="/message-queue" title="View or manipulate the system message queue">Message Queue</a></li>
+					</ul>
+				</li>
+
+	        </ul>
+	    </div>
+	</div>
+</nav>
+<a id="content-begin"></a>

@@ -1,0 +1,367 @@
+"""Reviewer agent — Phase 6 / Integrity Chunk 2b.
+
+A second LLM call after the generator: rates faithfulness of the
+generated answer against the retrieved chunks, plus citation density,
+hedging adequacy, and a count of claims that aren't traceable to any
+retrieved source.
+
+Locked design choices
+---------------------
+
+* **Reference-free.** The reviewer doesn't see a ground-truth
+  answer (unlike ``eval/scorers.py``'s LLMJudgeScorer). It judges
+  whether the answer is *supported by what was retrieved* — the
+  question the user actually cares about in production.
+* **No auto-retry.** If the reviewer flags issues, surface them; the
+  user decides whether to regenerate. Cost discipline.
+* **DI on the client.** No SDK imports at module level; the caller
+  passes an ``LLMClient`` (``llm.get_reviewer_client()``). The client
+  owns the provider + model, so a fully-local reviewer is a config flip.
+  Mirrors the eval LLMJudgeScorer pattern.
+* **One sidecar row per review.** Re-reviewing an answer (different
+  model, different prompt, later in time) inserts another row rather
+  than overwriting.
+"""
+
+from __future__ import annotations
+
+import json
+from dataclasses import dataclass
+
+import structlog
+from sqlalchemy import select
+
+from doc_assistant.db.models import AnswerReview
+from doc_assistant.db.session import session_scope
+from doc_assistant.llm import LLMClient, Message
+from doc_assistant.provenance import AnswerProvenance, RetrievedChunk
+
+log = structlog.get_logger(__name__)
+
+# Chunk 2c — the fixed failure-tag vocabulary the reviewer chooses from. A
+# categorical tag (alongside the free-text `notes`) is what makes recurring
+# faults *countable* for the self-improvement loop. "none" = no dominant fault.
+# Keep this list stable: changing a label re-buckets historical aggregates.
+FAILURE_TAGS: tuple[str, ...] = (
+    "none",
+    "missing_citation",  # claims present, but not tied to a retrieved source
+    "overclaim",  # asserts more than the evidence supports
+    "evidence_contradiction",  # answer contradicts a retrieved passage
+    "no_hedge",  # over-confident given weak/conflicting evidence
+    "unsupported_claim",  # a distinct claim with no traceable source
+    # Feature 7d — answer leans on a claim the corpus itself disputes / has trended
+    # away from (contested or superseded-trending evidence). Appended (never reorder).
+    "contested_evidence",
+)
+
+
+@dataclass
+class ReviewResult:
+    """The reviewer's verdict on one answer."""
+
+    faithfulness: int | None = None
+    citation_density: int | None = None
+    hedging_adequacy: int | None = None
+    unsupported_claims_count: int | None = None
+    # Chunk 2c — the dominant fault from FAILURE_TAGS ("none" if no dominant fault).
+    failure_tag: str | None = None
+    notes: str | None = None
+    error: str | None = None
+    raw_response: str | None = None  # for debugging when parsing fails
+
+
+#: failure tags severe enough to fail an answer *regardless of its faithfulness score*.
+#: Only `evidence_contradiction` (the answer actively contradicts the evidence) qualifies
+#: — it's a correctness red flag. `unsupported_claim` is deliberately NOT here: it should
+#: not override a high faithfulness score (observed 2026-06-17 — a 4/5-faithful, 4/5-cited
+#: answer was hard-failed on a single unsupported-claim tag; faithfulness is the primary
+#: signal, so such a case is a `concern`, not a `fail`).
+_HARD_FAILURE_TAGS: frozenset[str] = frozenset({"evidence_contradiction"})
+
+
+def verdict_from_review(review: ReviewResult) -> tuple[str, str]:
+    """A crisp ``pass`` / ``concern`` / ``fail`` verdict over a reviewer rubric (pure).
+
+    Reference-free — it grades the answer against its *own* retrieved evidence, so it
+    works on any conversation without a golden answer (the self-eval use). Faithfulness
+    is the primary signal: ``fail`` = the reviewer errored, faithfulness <= 2, or an
+    ``evidence_contradiction`` (actively wrong); ``pass`` = faithfulness >= 4 with no
+    flagged fault; ``concern`` = everything in between — a non-contradiction failure tag
+    (e.g. ``unsupported_claim``, ``missing_citation``) even at high faithfulness, or
+    middling faithfulness (== 3). Returns ``(label, reason)``."""
+    if review.error:
+        return "fail", "reviewer call failed"
+    tag = review.failure_tag or "none"
+    faith = review.faithfulness
+    if faith is not None and faith <= 2:
+        return "fail", f"low faithfulness {faith}/5"
+    if tag in _HARD_FAILURE_TAGS:
+        return "fail", f"failure tag `{tag}`"
+    if tag != "none":
+        return "concern", f"failure tag `{tag}`"
+    if faith == 3:
+        return "concern", "moderate faithfulness 3/5"
+    if faith is None:
+        return "concern", "no faithfulness score"
+    return "pass", f"faithfulness {faith}/5, no flagged fault"
+
+
+_REVIEWER_PROMPT = """You are reviewing a retrieval-augmented answer for a research \
+assistant. Your job: rate the ANSWER against the EVIDENCE the system retrieved.
+
+CRITICAL RULES — read these before scoring:
+
+1. The EVIDENCE is the only source of truth for what's supported. If the
+   answer says something not in the evidence, that is unsupported even if
+   you "know" it's true.
+2. Do NOT use your own prior knowledge of the subject.
+3. Score independently per dimension. A high score on one does not imply
+   high scores on others.
+
+QUESTION:
+{question}
+
+EVIDENCE (retrieved chunks):
+{evidence}
+
+ANSWER:
+{answer}
+
+Rate the answer on a 1-5 integer scale across four dimensions:
+
+* faithfulness: 5 = every substantive claim is directly supported by the
+  evidence. 3 = roughly half. 1 = the answer is largely unsupported.
+* citation_density: 5 = the answer is densely tied to specific evidence
+  (frequent references to source content). 3 = some claims tied. 1 = the
+  answer reads as ungrounded prose.
+* hedging_adequacy: 5 = uncertainty is acknowledged where the evidence is
+  weak or contradictory. 3 = partial hedging. 1 = the answer is over-
+  confident given what's in the evidence.
+
+Also count:
+
+* unsupported_claims_count: integer ≥ 0. How many distinct claims in the
+  answer cannot be traced to any retrieved chunk.
+
+Also pick the single DOMINANT failure mode of this answer as ``failure_tag``,
+exactly one of: none | missing_citation | overclaim | evidence_contradiction |
+no_hedge | unsupported_claim | contested_evidence. Use "none" if the answer has no
+notable fault.
+* missing_citation — claims are made but not tied to any retrieved source.
+* overclaim — asserts more than the evidence supports.
+* evidence_contradiction — the answer contradicts a retrieved passage.
+* no_hedge — over-confident given weak or conflicting evidence.
+* unsupported_claim — a distinct claim with no traceable source.
+* contested_evidence — the answer rests on a claim the evidence itself disputes or
+  shows the field has moved away from, without flagging that disagreement.
+
+Add a short ``notes`` field (1-2 sentences max) explaining the lowest score.
+
+Return JSON only, no prose, no markdown fence:
+{{"faithfulness": <int>, "citation_density": <int>, "hedging_adequacy": <int>, \
+"unsupported_claims_count": <int>, "failure_tag": "<one tag>", \
+"notes": "<short string>"}}"""
+
+
+def _format_evidence(chunks: list[RetrievedChunk]) -> str:
+    """Render retrieved chunks as labelled evidence blocks for the prompt."""
+    if not chunks:
+        return "(no chunks retrieved)"
+    parts: list[str] = []
+    for i, c in enumerate(chunks):
+        header_bits = [f"[{i + 1}]"]
+        if c.filename:
+            header_bits.append(c.filename)
+        if c.page is not None:
+            header_bits.append(f"p.{c.page}")
+        if c.section:
+            header_bits.append(f'"{c.section}"')
+        header = " ".join(header_bits)
+        # Prefer the wider reviewer-grounding text; fall back to the display excerpt.
+        excerpt = (c.full_text or c.chunk_excerpt or "").strip()
+        parts.append(f"{header}\n{excerpt}")
+    return "\n\n---\n\n".join(parts)
+
+
+def build_reviewer_prompt(prov: AnswerProvenance) -> str:
+    """Render the reviewer prompt for one answer.
+
+    The reviewer sees exactly the question, the retrieved evidence, and
+    the answer under review — never a ground-truth reference and never the
+    analysis conversation. Extracted so the isolation guard test can assert
+    the prompt surface without an LLM call.
+    """
+    return _REVIEWER_PROMPT.format(
+        question=prov.query,
+        evidence=_format_evidence(prov.retrieved_chunks),
+        answer=prov.answer,
+    )
+
+
+def _strip_fence(text: str) -> str:
+    lines = text.splitlines()
+    if lines and lines[0].startswith("```"):
+        lines = lines[1:]
+    if lines and lines[-1].startswith("```"):
+        lines = lines[:-1]
+    return "\n".join(lines)
+
+
+def _coerce_failure_tag(value: object) -> str:
+    """Validate a model-supplied failure tag against ``FAILURE_TAGS``.
+
+    Unknown / missing values fall back to ``"none"`` so a malformed tag never
+    invents a new bucket in the aggregate. Case- and whitespace-insensitive.
+    """
+    if not isinstance(value, str):
+        return "none"
+    tag = value.strip().lower()
+    return tag if tag in FAILURE_TAGS else "none"
+
+
+def _extract_json(text: str) -> str:
+    """Best-effort: pull a JSON object out of an LLM response.
+
+    Strips a leading/trailing markdown fence, then — if the result still
+    isn't a bare object — takes the outermost ``{...}`` span. Local models
+    (Ollama) are far less reliable than the API at returning clean JSON
+    even with ``format="json"``; the API path is unaffected (its output is
+    already a bare object, so both transforms are no-ops).
+    """
+    t = text.strip()
+    if t.startswith("```"):
+        t = _strip_fence(t).strip()
+    if not t.startswith("{"):
+        start, end = t.find("{"), t.rfind("}")
+        if 0 <= start < end:
+            t = t[start : end + 1]
+    return t
+
+
+def review_answer(
+    prov: AnswerProvenance,
+    client: LLMClient,
+    *,
+    max_tokens: int = 400,
+    attempts: int = 3,
+) -> ReviewResult:
+    """Run the reviewer on one AnswerProvenance. Returns parsed scores or an error.
+
+    ``client`` is an ``LLMClient`` (``llm.get_reviewer_client()``); injected
+    so this module has zero vendor SDK imports at module load and the
+    provider/model are chosen by config. The model is owned by the client.
+
+    A transient **transport** failure (network blip, rate limit) is retried up to
+    ``attempts`` times, so one flaky call no longer reads as a hard verdict failure
+    (observed 2026-06-17: one judge call errored mid-batch and was scored "fail").
+    A non-JSON completion is **not** retried — the reviewer runs at temperature 0,
+    so a parse failure is deterministic; it returns the raw output for debugging.
+    """
+    prompt = build_reviewer_prompt(prov)
+    messages: list[Message] = [{"role": "user", "content": prompt}]
+
+    # Single-turn, no system prompt, no history, temperature=0 — same isolation
+    # contract as the eval LLM judge. Only the transport call is retried.
+    raw = ""
+    last_error: Exception | None = None
+    for _ in range(max(1, attempts)):
+        try:
+            raw = client.complete(messages, temperature=0.0, max_tokens=max_tokens).strip()
+            last_error = None
+            break
+        except Exception as e:  # transient transport error — retry
+            last_error = e
+    if last_error is not None:
+        return ReviewResult(
+            error=f"reviewer call failed: {type(last_error).__name__}: {last_error}",
+            raw_response=raw or None,
+        )
+
+    try:
+        text = _extract_json(raw)
+        parsed = json.loads(text)
+    except Exception as e:
+        # Non-JSON completion — deterministic at temperature 0, so not retried;
+        # captured raw so an opaque local-model failure stays debuggable.
+        return ReviewResult(
+            error=f"reviewer call failed: {type(e).__name__}: {e}",
+            raw_response=raw or None,
+        )
+
+    try:
+        return ReviewResult(
+            faithfulness=int(parsed["faithfulness"]),
+            citation_density=int(parsed["citation_density"]),
+            hedging_adequacy=int(parsed["hedging_adequacy"]),
+            unsupported_claims_count=int(parsed["unsupported_claims_count"]),
+            failure_tag=_coerce_failure_tag(parsed.get("failure_tag")),
+            notes=str(parsed.get("notes") or "").strip() or None,
+            raw_response=text,
+        )
+    except (KeyError, TypeError, ValueError) as e:
+        return ReviewResult(
+            error=f"bad reviewer response: {type(e).__name__}: {e}",
+            raw_response=text,
+            notes=str(parsed) if isinstance(parsed, dict) else None,
+        )
+
+
+# ============================================================
+# Persistence
+# ============================================================
+
+
+def persist_review(
+    answer_record_id: str,
+    result: ReviewResult,
+    *,
+    reviewer_kind: str,
+    model_name: str | None = None,
+) -> str:
+    """Write one review row. Returns the new review id."""
+    with session_scope() as session:
+        row = AnswerReview(
+            answer_record_id=answer_record_id,
+            reviewer_kind=reviewer_kind,
+            model_name=model_name,
+            faithfulness=result.faithfulness,
+            citation_density=result.citation_density,
+            hedging_adequacy=result.hedging_adequacy,
+            unsupported_claims_count=result.unsupported_claims_count,
+            failure_tag=result.failure_tag,
+            notes=result.notes,
+            error=result.error,
+        )
+        session.add(row)
+        session.flush()
+        return str(row.id)
+
+
+def get_reviews(answer_record_id: str) -> list[ReviewResult]:
+    """All reviews for one answer, most-recent first.
+
+    Returns the parsed ``ReviewResult`` shape (without the raw_response,
+    which isn't persisted).
+    """
+    with session_scope() as session:
+        rows = (
+            session.execute(
+                select(AnswerReview)
+                .where(AnswerReview.answer_record_id == answer_record_id)
+                .order_by(AnswerReview.created_at.desc())
+            )
+            .scalars()
+            .all()
+        )
+        return [
+            ReviewResult(
+                faithfulness=r.faithfulness,
+                citation_density=r.citation_density,
+                hedging_adequacy=r.hedging_adequacy,
+                unsupported_claims_count=r.unsupported_claims_count,
+                failure_tag=r.failure_tag,
+                notes=r.notes,
+                error=r.error,
+            )
+            for r in rows
+        ]

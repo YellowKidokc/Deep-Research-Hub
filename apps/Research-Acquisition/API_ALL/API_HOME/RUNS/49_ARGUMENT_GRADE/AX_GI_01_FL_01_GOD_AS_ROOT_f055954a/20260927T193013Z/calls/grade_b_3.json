@@ -1,0 +1,478 @@
+{
+  "name": "grade_b_3",
+  "parsed": {
+    "arguments": [
+      {
+        "id": "G13",
+        "name": "Cross-Resolution Method",
+        "conclusion": "Every major claim must be read in its proper register (theology, physics, mathematics, lived reality, bridge) with no hidden upgrades.",
+        "speaker": "Framework author",
+        "premises": [
+          "Physics may not smuggle in theology; theology may not rescue weak physics.",
+          "Story may not pretend it is proof; formal proof may not pretend to capture lived experience.",
+          "When the same structure appears across registers, we mark the bridge, name its strength, state its limits, and keep testing.",
+          "No hidden upgrades."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "The Cross-Resolution Method requires every major claim to be read in the register where it belongs"
+          },
+          "st2": {
+            "v": 2,
+            "quote": "Physics is not allowed to smuggle in theology. Theology is not allowed to rescue weak physics. Story is not allowed to pretend it is proof."
+          },
+          "st3": {
+            "v": 0,
+            "quote": ""
+          },
+          "st4": {
+            "v": 1,
+            "quote": "But when the same structure appears across registers, we do not dismiss it merely because it crosses a boundary. We mark the bridge, name its strength, state its limits, and keep testing."
+          },
+          "st5": {
+            "v": 0,
+            "quote": ""
+          },
+          "st6": {
+            "v": 2,
+            "quote": "The bridge is structural correspondence, not proof."
+          },
+          "st7": {
+            "v": 1,
+            "quote": "The framework names its own kill conditions in advance"
+          },
+          "st8": {
+            "v": 0,
+            "quote": ""
+          }
+        },
+        "prior_art": "none known",
+        "originality": {
+          "or1": {
+            "v": 2,
+            "quote": "The Cross-Resolution Method requires every major claim to be read in the register where it belongs",
+            "why": "No standard prior-art argument prescribes a multi-register reading discipline of this kind; it is a methodological proposal, not a restatement."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "Bridge: where the same structure appears across registers as analogy, resonance, model, theorem, convergence, or open conjecture.",
+            "why": "It supplies a taxonomy of bridge types, which is a new classificatory element rather than new empirical data."
+          },
+          "or3": {
+            "v": 1,
+            "quote": "Physics is not allowed to smuggle in theology. Theology is not allowed to rescue weak physics.",
+            "why": "It explicitly connects physics and theology under a single method, though the connection is procedural rather than a substantive cross-domain result."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization, equation or model is given for the method itself."
+          }
+        },
+        "weakest_link": "No evidence or argument is given that the register taxonomy is exhaustive or that the specified disciplines actually prevent the hidden upgrades it forbids.",
+        "develop_next": "Provide worked examples where the method catches a real error (e.g., a theology-rescues-physics case) and show the corrected reading.",
+        "case_map": [],
+        "domain": "philosophy"
+      },
+      {
+        "id": "G14",
+        "name": "Necessary ground argument",
+        "conclusion": "The source sustaining the universe must be necessary, self-grounding, origin of coherence, active, and personal, which matches classical divine attributes.",
+        "speaker": "Framework author",
+        "premises": [
+          "If closed systems collapse and the universe has not collapsed, something external sustains it.",
+          "If coherence and decoherence are real, measurable, and universal, the source of coherence must be equally real and universal.",
+          "The required properties are: necessary, self-grounding, origin of coherence, active (passive maintenance is thermodynamically impossible), and personal (only persons ground moral facts).",
+          "These properties map to aseity, self-sufficiency, eternality, omnipresence, Logos, providence, and personhood."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "Those properties have had a name for thousands of years:"
+          },
+          "st2": {
+            "v": 2,
+            "quote": "1. **Necessary** -- it cannot not exist, or the system collapses. 2. **Self-grounding** -- it cannot depend on something else (infinite regress). 3. **Origin of coherence**..."
+          },
+          "st3": {
+            "v": 1,
+            "quote": "If closed systems collapse and the universe has not collapsed, then something external sustains it."
+          },
+          "st4": {
+            "v": 1,
+            "quote": "If coherence and decoherence are real, measurable, and universal, then the source of coherence must be equally real and universal."
+          },
+          "st5": {
+            "v": 0,
+            "quote": ""
+          },
+          "st6": {
+            "v": 1,
+            "quote": "those same tools prove they cannot prove Him from within themselves"
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 1,
+            "quote": "We started from five mathematical proofs and arrived at the exact description theologians have been writing about since the beginning."
+          }
+        },
+        "prior_art": "Thomas Aquinas, Five Ways (Summa Theologiae), c. 1265",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "We started from five mathematical proofs and arrived at the exact description theologians have been writing about since the beginning.",
+            "why": "It is a variant of the classical necessary-ground/aseity argument, reframed through mathematical and thermodynamic requirements rather than Aristotelian motion and causation."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "If coherence and decoherence are real, measurable, and universal, then the source of coherence must be equally real and universal.",
+            "why": "It introduces coherence/decoherence and the Second Law as premises not used by the classical prior art."
+          },
+          "or3": {
+            "v": 2,
+            "quote": "Active -- passive maintenance is thermodynamically impossible (the Second Law).",
+            "why": "It makes a cross-domain bridge from thermodynamics to theology (providence), which the classical argument does not make."
+          },
+          "or4": {
+            "v": 1,
+            "quote": "The necessary ground argument has five proofs.",
+            "why": "It claims a proof structure, though the proofs themselves are not displayed in this source."
+          }
+        },
+        "weakest_link": "The premise that 'only persons can ground moral facts' is asserted, not argued, and is the step most needed to reach the personal-God conclusion.",
+        "develop_next": "Exhibit the five proofs explicitly and defend the moral-realism premise that only persons ground moral facts.",
+        "case_map": [
+          "K13",
+          "F1"
+        ],
+        "domain": "philosophy"
+      },
+      {
+        "id": "G15",
+        "name": "The Descent: 24-step causal chain",
+        "conclusion": "Being, followed all the way down through 24 steps, arrives at the Cross.",
+        "speaker": "Framework author",
+        "premises": [
+          "God creates; creation stands; what stands is distinguishable; distinction makes being intelligible; intelligibility carries information; information can stand in relation.",
+          "Relation can be kept or broken, revealing value; value opens moral valence; moral valence makes right and wrong meaningful; right and wrong require choosing agents.",
+          "Choice requires a world of rules, limits, time, and consequences, permitting decay and adversarial refusal.",
+          "Adversarial action creates debt; perfect Justice and Mercy together require a cost-bearing source beyond the damaged order; that source is Grace; Christ is the convergence point."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "Being, followed all the way down, arrives at the Cross."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "The whole causal chain in 24 steps: God creates. Creation stands. What stands is distinguishable."
+          },
+          "st3": {
+            "v": 0,
+            "quote": ""
+          },
+          "st4": {
+            "v": 1,
+            "quote": "Justice and Mercy together require a cost-bearing source beyond the damaged order itself. That source must preserve truth while making restoration possible. That source is Grace."
+          },
+          "st5": {
+            "v": 0,
+            "quote": ""
+          },
+          "st6": {
+            "v": 1,
+            "quote": "No premise smuggled. No step skipped."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 0,
+            "quote": ""
+          }
+        },
+        "prior_art": "none known",
+        "originality": {
+          "or1": {
+            "v": 2,
+            "quote": "Being, followed all the way down, arrives at the Cross.",
+            "why": "No known prior work chains ontology, information, moral valence, justice and atonement into a single 24-step derivation; it is a distinct argumentative structure."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "Distinction makes being intelligible. What is intelligible carries information. What carries information can stand in relation.",
+            "why": "It imports information-theoretic vocabulary as a causal link, which prior atonement arguments do not use."
+          },
+          "or3": {
+            "v": 2,
+            "quote": "Choice requires a world of rules, limits, time, and consequences. Such a world permits decay, vulnerability, and loss.",
+            "why": "It bridges physical-law structure (limits, decay, time) to soteriology, a connection absent in prior art."
+          },
+          "or4": {
+            "v": 1,
+            "quote": "The whole causal chain in 24 steps",
+            "why": "It offers a numbered step sequence as a structure, though no equations or formal model."
+          }
+        },
+        "weakest_link": "The step 'Justice and Mercy together require a cost-bearing source beyond the damaged order' is asserted, not derived; it is the hinge on which the Cross conclusion depends.",
+        "develop_next": "Justify why perfect justice plus perfect mercy jointly necessitate an external cost-bearer rather than a different resolution (e.g., forgiveness without cost).",
+        "case_map": [
+          "K16",
+          "F4"
+        ],
+        "domain": "theology"
+      },
+      {
+        "id": "G16",
+        "name": "Progressive revelation as pedagogy",
+        "conclusion": "God reveals progressively because receivers cannot parse the full signal at once; He builds the reference frame piece by piece.",
+        "speaker": "Framework author",
+        "premises": [
+          "God meets people in slavery, wilderness, under Law, through prophets, and in exile, each experience building vocabulary for rescue, provision, failure, pattern, and return.",
+          "Without the experience of failing to keep the Law, one cannot understand the Judge paying the debt Himself.",
+          "This is not God being slow but God being a teacher.",
+          "You do not teach calculus to a child who has not learned to count, not because calculus is untrue but because the child lacks the reference frame."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "God does not dump the full signal on Day One because the receivers cannot parse it."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "He meets them in slavery -- and turns their deliverance into the vocabulary through which rescue can be understood."
+          },
+          "st3": {
+            "v": 1,
+            "quote": "He meets them under Law -- the Ten Commandments, the sacrificial system, the impossible-to-perfectly-keep legal code"
+          },
+          "st4": {
+            "v": 1,
+            "quote": "You do not teach calculus to a child who has not learned to count. Not because calculus is not true yet. Because the child does not have the reference frame to receive it."
+          },
+          "st5": {
+            "v": 0,
+            "quote": ""
+          },
+          "st6": {
+            "v": 1,
+            "quote": "This is not God being slow. This is God being a teacher."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 0,
+            "quote": ""
+          }
+        },
+        "prior_art": "Irenaeus, Against Heresies (recapitulation/progressive pedagogy), c. 180",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "God does not dump the full signal on Day One because the receivers cannot parse it.",
+            "why": "It is a variant of the patristic pedagogical/recapitulation theme, restated in signal-and-reference-frame terms."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "Instead, He builds the reference frame piece by piece",
+            "why": "It adds the information-theoretic 'reference frame' and 'parse the signal' vocabulary not found in the prior art."
+          },
+          "or3": {
+            "v": 1,
+            "quote": "You do not teach calculus to a child who has not learned to count.",
+            "why": "It brings a learning-theory analogy into theology, a modest cross-domain bridge."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization or model is provided."
+          }
+        },
+        "weakest_link": "The claim that 'without the experience of failing to keep the Law, one cannot understand the Judge paying the debt Himself' is an unsupported psychological necessity claim.",
+        "develop_next": "Give evidence or cases showing the Law-failure experience is in fact necessary for understanding substitutionary atonement.",
+        "case_map": [
+          "K15",
+          "F4"
+        ],
+        "domain": "theology"
+      },
+      {
+        "id": "G17",
+        "name": "Evidence converges from every direction",
+        "conclusion": "Every path of inquiry converges on the same substrate because reality has one substrate that has been telling us its name since the beginning.",
+        "speaker": "Framework author",
+        "premises": [
+          "Pre-human math: the sun used E=mc^2 for 4.6 billion years before Einstein.",
+          "Fine-tuning: the cosmological constant is tuned to 1 part in 10^120, which is signature not coincidence.",
+          "The Hubble Tension is a 5-sigma discrepancy that one framework resolves.",
+          "You can enter through logic, physics, information theory, biology, mathematics, cosmology, or moral measurement, and every path converges."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "Every path converges. Not because we forced it -- but because reality has one substrate, and that substrate has been telling us its name since the beginning."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "The cosmological constant is tuned to 1 part in 10^120. That is not coincidence. That is signature."
+          },
+          "st3": {
+            "v": 1,
+            "quote": "The universe expands at two different rates depending on how you measure it. 5-sigma discrepancy."
+          },
+          "st4": {
+            "v": 0,
+            "quote": ""
+          },
+          "st5": {
+            "v": 0,
+            "quote": ""
+          },
+          "st6": {
+            "v": 0,
+            "quote": ""
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 1,
+            "quote": "You can enter through logic, physics, information theory, biology, mathematics, cosmology, or the measurement of good and evil itself."
+          }
+        },
+        "prior_art": "William Lane Craig, Kalam Cosmological Argument (fine-tuning/cosmological convergence), 1979",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "Every path converges.",
+            "why": "It is a variant of standard convergence/fine-tuning arguments, broadened to include moral measurement and information theory."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "The sun used E=mc^2 for 4.6 billion years before Einstein.",
+            "why": "The pre-human math premise is an unusual supporting datum not used by the standard prior art."
+          },
+          "or3": {
+            "v": 1,
+            "quote": "the measurement of good and evil itself",
+            "why": "It connects moral measurement to cosmological convergence, a cross-domain link the prior art generally lacks."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formal model or equation is offered for the convergence claim."
+          }
+        },
+        "weakest_link": "The convergence premise is asserted by enumeration; no demonstration is given that these independent lines actually entail a single substrate rather than a shared human cognitive bias.",
+        "develop_next": "Show quantitatively that the convergence is not explicable by common selection or confirmation bias across the listed domains.",
+        "case_map": [
+          "K13",
+          "K15",
+          "F4"
+        ],
+        "domain": "philosophy"
+      },
+      {
+        "id": "G18",
+        "name": "Canon reading order",
+        "conclusion": "The God pages must be read in a deliberate sequence: story first, equations second, gauntlet last.",
+        "speaker": "Framework author",
+        "premises": [
+          "The sequence starts with God and story, moves through Trinity and Truth, then lets axioms carry the weight.",
+          "The 7Q Classifier comes after the foundation because it is not the doorway but the gauntlet.",
+          "The ten-step order runs from The Descent through God in the Equations, You Are God, Trinity Signature, Story With Receipts, Holding God Accountable, The Foundation, 7Q Classifier, Master Equation, and Ten Laws."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "The reading rule is: story first, equations second, gauntlet last."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "The sequence starts with God and story, moves through Trinity and Truth, then let the axioms carry the weight."
+          },
+          "st3": {
+            "v": 0,
+            "quote": ""
+          },
+          "st4": {
+            "v": 0,
+            "quote": ""
+          },
+          "st5": {
+            "v": 0,
+            "quote": ""
+          },
+          "st6": {
+            "v": 1,
+            "quote": "The 7Q Classifier comes after the foundation because it is not the doorway; it is the gauntlet."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 0,
+            "quote": ""
+          }
+        },
+        "prior_art": "none known",
+        "originality": {
+          "or1": {
+            "v": 2,
+            "quote": "The reading rule is: story first, equations second, gauntlet last.",
+            "why": "It is a bespoke prescription for this corpus with no known prior-art analogue."
+          },
+          "or2": {
+            "v": 0,
+            "quote": "",
+            "why": "It introduces no new premise, evidence or data beyond the ordering itself."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "It makes no cross-domain connection."
+          },
+          "or4": {
+            "v": 1,
+            "quote": "The ten-step order runs from The Descent through God in the Equations, You Are God, Trinity Signature, Story With Receipts, Holding God Accountable, The Foundation, 7Q Classifier, Master Equation, and Ten Laws.",
+            "why": "It supplies an ordered list structure, a minimal formalization of the reading sequence."
+          }
+        },
+        "weakest_link": "No reason is given why this particular order is required rather than merely convenient; the pedagogical necessity is asserted.",
+        "develop_next": "Show empirically or pedagogically that readers who follow this order understand the material better than those who do not.",
+        "case_map": [],
+        "domain": "other"
+      }
+    ]
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "grade_b_3",
+      "attempt": 1,
+      "text": "{\n  \"arguments\": [\n    {\n      \"id\": \"G13\",\n      \"name\": \"Cross-Resolution Method\",\n      \"conclusion\": \"Every major claim must be read in its proper register (theology, physics, mathematics, lived reality, bridge) with no hidden upgrades.\",\n      \"speaker\": \"Framework author\",\n      \"premises\": [\n        \"Physics may not smuggle in theology; theology may not rescue weak physics.\",\n        \"Story may not pretend it is proof; formal proof may not pretend to capture lived experience.\",\n        \"When the same structure appears across registers, we mark the bridge, name its strength, state its limits, and keep testing.\",\n        \"No hidden upgrades.\"\n      ],\n      \"strength\": {\n        \"st1\": {\"v\": 2, \"quote\": \"The Cross-Resolution Method requires every major claim to be read in the register where it belongs\"},\n        \"st2\": {\"v\": 2, \"quote\": \"Physics is not allowed to smuggle in theology. Theology is not allowed to rescue weak physics. Story is not allowed to pretend it is proof.\"},\n        \"st3\": {\"v\": 0, \"quote\": \"\"},\n        \"st4\": {\"v\": 1, \"quote\": \"But when the same structure appears across registers, we do not dismiss it merely because it crosses a boundary. We mark the bridge, name its strength, state its limits, and keep testing.\"},\n        \"st5\": {\"v\": 0, \"quote\": \"\"},\n        \"st6\": {\"v\": 2, \"quote\": \"The bridge is structural correspondence, not proof.\"},\n        \"st7\": {\"v\": 1, \"quote\": \"The framework names its own kill conditions in advance\"},\n        \"st8\": {\"v\": 0, \"quote\": \"\"}\n      },\n      \"prior_art\": \"none known\",\n      \"originality\": {\n        \"or1\": {\"v\": 2, \"quote\": \"The Cross-Resolution Method requires every major claim to be read in the register where it belongs\", \"why\": \"No standard prior-art argument prescribes a multi-register reading discipline of this kind; it is a methodological proposal, not a restatement.\"},\n        \"or2\": {\"v\": 1, \"quote\": \"Bridge: where the same structure appears across registers as analogy, resonance, model, theorem, convergence, or open conjecture.\", \"why\": \"It supplies a taxonomy of bridge types, which is a new classificatory element rather than new empirical data.\"},\n        \"or3\": {\"v\": 1, \"quote\": \"Physics is not allowed to smuggle in theology. Theology is not allowed to rescue weak physics.\", \"why\": \"It explicitly connects physics and theology under a single method, though the connection is procedural rather than a substantive cross-domain result.\"},\n        \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization, equation or model is given for the method itself.\"}\n      },\n      \"weakest_link\": \"No evidence or argument is given that the register taxonomy is exhaustive or that the specified disciplines actually prevent the hidden upgrades it forbids.\",\n      \"develop_next\": \"Provide worked examples where the method catches a real error (e.g., a theology-rescues-physics case) and show the corrected reading.\",\n      \"case_map\": [],\n      \"domain\": \"philosophy\"\n    },\n    {\n      \"id\": \"G14\",\n      \"name\": \"Necessary ground argument\",\n      \"conclusion\": \"The source sustaining the universe must be necessary, self-grounding, origin of coherence, active, and personal, which matches classical divine attributes.\",\n      \"speaker\": \"Framework author\",\n      \"premises\": [\n        \"If closed systems collapse and the universe has not collapsed, something external sustains it.\",\n        \"If coherence and decoherence are real, measurable, and universal, the source of coherence must be equally real and universal.\",\n        \"The required properties are: necessary, self-grounding, origin of coherence, active (passive maintenance is thermodynamically impossible), and personal (only persons ground moral facts).\",\n        \"These properties map to aseity, self-sufficiency, eternality, omnipresence, Logos, providence, and personhood.\"\n      ],\n      \"strength\": {\n        \"st1\": {\"v\": 2, \"quote\": \"Those properties have had a name for thousands of years:\"},\n        \"st2\": {\"v\": 2, \"quote\": \"1. **Necessary** -- it cannot not exist, or the system collapses. 2. **Self-grounding** -- it cannot depend on something else (infinite regress). 3. **Origin of coherence**...\"},\n        \"st3\": {\"v\": 1, \"quote\": \"If closed systems collapse and the universe has not collapsed, then something external sustains it.\"},\n        \"st4\": {\"v\": 1, \"quote\": \"If coherence and decoherence are real, measurable, and universal, then the source of coherence must be equally real and universal.\"},\n        \"st5\": {\"v\": 0, \"quote\": \"\"},\n        \"st6\": {\"v\": 1, \"quote\": \"those same tools prove they cannot prove Him from within themselves\"},\n        \"st7\": {\"v\": 0, \"quote\": \"\"},\n        \"st8\": {\"v\": 1, \"quote\": \"We started from five mathematical proofs and arrived at the exact description theologians have been writing about since the beginning.\"}\n      },\n      \"prior_art\": \"Thomas Aquinas, Five Ways (Summa Theologiae), c. 1265\",\n      \"originality\": {\n        \"or1\": {\"v\": 1, \"quote\": \"We started from five mathematical proofs and arrived at the exact description theologians have been writing about since the beginning.\", \"why\": \"It is a variant of the classical necessary-ground/aseity argument, reframed through mathematical and thermodynamic requirements rather than Aristotelian motion and causation.\"},\n        \"or2\": {\"v\": 1, \"quote\": \"If coherence and decoherence are real, measurable, and universal, then the source of coherence must be equally real and universal.\", \"why\": \"It introduces coherence/decoherence and the Second Law as premises not used by the classical prior art.\"},\n        \"or3\": {\"v\": 2, \"quote\": \"Active -- passive maintenance is thermodynamically impossible (the Second Law).\", \"why\": \"It makes a cross-domain bridge from thermodynamics to theology (providence), which the classical argument does not make.\"},\n        \"or4\": {\"v\": 1, \"quote\": \"The necessary ground argument has five proofs.\", \"why\": \"It claims a proof structure, though the proofs themselves are not displayed in this source.\"}\n      },\n      \"weakest_link\": \"The premise that 'only persons can ground moral facts' is asserted, not argued, and is the step most needed to reach the personal-God conclusion.\",\n      \"develop_next\": \"Exhibit the five proofs explicitly and defend the moral-realism premise that only persons ground moral facts.\",\n      \"case_map\": [\"K13\", \"F1\"],\n      \"domain\": \"philosophy\"\n    },\n    {\n      \"id\": \"G15\",\n      \"name\": \"The Descent: 24-step causal chain\",\n      \"conclusion\": \"Being, followed all the way down through 24 steps, arrives at the Cross.\",\n      \"speaker\": \"Framework author\",\n      \"premises\": [\n        \"God creates; creation stands; what stands is distinguishable; distinction makes being intelligible; intelligibility carries information; information can stand in relation.\",\n        \"Relation can be kept or broken, revealing value; value opens moral valence; moral valence makes right and wrong meaningful; right and wrong require choosing agents.\",\n        \"Choice requires a world of rules, limits, time, and consequences, permitting decay and adversarial refusal.\",\n        \"Adversarial action creates debt; perfect Justice and Mercy together require a cost-bearing source beyond the damaged order; that source is Grace; Christ is the convergence point.\"\n      ],\n      \"strength\": {\n        \"st1\": {\"v\": 2, \"quote\": \"Being, followed all the way down, arrives at the Cross.\"},\n        \"st2\": {\"v\": 2, \"quote\": \"The whole causal chain in 24 steps: God creates. Creation stands. What stands is distinguishable.\"},\n        \"st3\": {\"v\": 0, \"quote\": \"\"},\n        \"st4\": {\"v\": 1, \"quote\": \"Justice and Mercy together require a cost-bearing source beyond the damaged order itself. That source must preserve truth while making restoration possible. That source is Grace.\"},\n        \"st5\": {\"v\": 0, \"quote\": \"\"},\n        \"st6\": {\"v\": 1, \"quote\": \"No premise smuggled. No step skipped.\"},\n        \"st7\": {\"v\": 0, \"quote\": \"\"},\n        \"st8\": {\"v\": 0, \"quote\": \"\"}\n      },\n      \"prior_art\": \"none known\",\n      \"originality\": {\n        \"or1\": {\"v\": 2, \"quote\": \"Being, followed all the way down, arrives at the Cross.\", \"why\": \"No known prior work chains ontology, information, moral valence, justice and atonement into a single 24-step derivation; it is a distinct argumentative structure.\"},\n        \"or2\": {\"v\": 1, \"quote\": \"Distinction makes being intelligible. What is intelligible carries information. What carries information can stand in relation.\", \"why\": \"It imports information-theoretic vocabulary as a causal link, which prior atonement arguments do not use.\"},\n        \"or3\": {\"v\": 2, \"quote\": \"Choice requires a world of rules, limits, time, and consequences. Such a world permits decay, vulnerability, and loss.\", \"why\": \"It bridges physical-law structure (limits, decay, time) to soteriology, a connection absent in prior art.\"},\n        \"or4\": {\"v\": 1, \"quote\": \"The whole causal chain in 24 steps\", \"why\": \"It offers a numbered step sequence as a structure, though no equations or formal model.\"}\n      },\n      \"weakest_link\": \"The step 'Justice and Mercy together require a cost-bearing source beyond the damaged order' is asserted, not derived; it is the hinge on which the Cross conclusion depends.\",\n      \"develop_next\": \"Justify why perfect justice plus perfect mercy jointly necessitate an external cost-bearer rather than a different resolution (e.g., forgiveness without cost).\",\n      \"case_map\": [\"K16\", \"F4\"],\n      \"domain\": \"theology\"\n    },\n    {\n      \"id\": \"G16\",\n      \"name\": \"Progressive revelation as pedagogy\",\n      \"conclusion\": \"God reveals progressively because receivers cannot parse the full signal at once; He builds the reference frame piece by piece.\",\n      \"speaker\": \"Framework author\",\n      \"premises\": [\n        \"God meets people in slavery, wilderness, under Law, through prophets, and in exile, each experience building vocabulary for rescue, provision, failure, pattern, and return.\",\n        \"Without the experience of failing to keep the Law, one cannot understand the Judge paying the debt Himself.\",\n        \"This is not God being slow but God being a teacher.\",\n        \"You do not teach calculus to a child who has not learned to count, not because calculus is untrue but because the child lacks the reference frame.\"\n      ],\n      \"strength\": {\n        \"st1\": {\"v\": 2, \"quote\": \"God does not dump the full signal on Day One because the receivers cannot parse it.\"},\n        \"st2\": {\"v\": 2, \"quote\": \"He meets them in slavery -- and turns their deliverance into the vocabulary through which rescue can be understood.\"},\n        \"st3\": {\"v\": 1, \"quote\": \"He meets them under Law -- the Ten Commandments, the sacrificial system, the impossible-to-perfectly-keep legal code\"},\n        \"st4\": {\"v\": 1, \"quote\": \"You do not teach calculus to a child who has not learned to count. Not because calculus is not true yet. Because the child does not have the reference frame to receive it.\"},\n        \"st5\": {\"v\": 0, \"quote\": \"\"},\n        \"st6\": {\"v\": 1, \"quote\": \"This is not God being slow. This is God being a teacher.\"},\n        \"st7\": {\"v\": 0, \"quote\": \"\"},\n        \"st8\": {\"v\": 0, \"quote\": \"\"}\n      },\n      \"prior_art\": \"Irenaeus, Against Heresies (recapitulation/progressive pedagogy), c. 180\",\n      \"originality\": {\n        \"or1\": {\"v\": 1, \"quote\": \"God does not dump the full signal on Day One because the receivers cannot parse it.\", \"why\": \"It is a variant of the patristic pedagogical/recapitulation theme, restated in signal-and-reference-frame terms.\"},\n        \"or2\": {\"v\": 1, \"quote\": \"Instead, He builds the reference frame piece by piece\", \"why\": \"It adds the information-theoretic 'reference frame' and 'parse the signal' vocabulary not found in the prior art.\"},\n        \"or3\": {\"v\": 1, \"quote\": \"You do not teach calculus to a child who has not learned to count.\", \"why\": \"It brings a learning-theory analogy into theology, a modest cross-domain bridge.\"},\n        \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization or model is provided.\"}\n      },\n      \"weakest_link\": \"The claim that 'without the experience of failing to keep the Law, one cannot understand the Judge paying the debt Himself' is an unsupported psychological necessity claim.\",\n      \"develop_next\": \"Give evidence or cases showing the Law-failure experience is in fact necessary for understanding substitutionary atonement.\",\n      \"case_map\": [\"K15\", \"F4\"],\n      \"domain\": \"theology\"\n    },\n    {\n      \"id\": \"G17\",\n      \"name\": \"Evidence converges from every direction\",\n      \"conclusion\": \"Every path of inquiry converges on the same substrate because reality has one substrate that has been telling us its name since the beginning.\",\n      \"speaker\": \"Framework author\",\n      \"premises\": [\n        \"Pre-human math: the sun used E=mc^2 for 4.6 billion years before Einstein.\",\n        \"Fine-tuning: the cosmological constant is tuned to 1 part in 10^120, which is signature not coincidence.\",\n        \"The Hubble Tension is a 5-sigma discrepancy that one framework resolves.\",\n        \"You can enter through logic, physics, information theory, biology, mathematics, cosmology, or moral measurement, and every path converges.\"\n      ],\n      \"strength\": {\n        \"st1\": {\"v\": 2, \"quote\": \"Every path converges. Not because we forced it -- but because reality has one substrate, and that substrate has been telling us its name since the beginning.\"},\n        \"st2\": {\"v\": 2, \"quote\": \"The cosmological constant is tuned to 1 part in 10^120. That is not coincidence. That is signature.\"},\n        \"st3\": {\"v\": 1, \"quote\": \"The universe expands at two different rates depending on how you measure it. 5-sigma discrepancy.\"},\n        \"st4\": {\"v\": 0, \"quote\": \"\"},\n        \"st5\": {\"v\": 0, \"quote\": \"\"},\n        \"st6\": {\"v\": 0, \"quote\": \"\"},\n        \"st7\": {\"v\": 0, \"quote\": \"\"},\n        \"st8\": {\"v\": 1, \"quote\": \"You can enter through logic, physics, information theory, biology, mathematics, cosmology, or the measurement of good and evil itself.\"}\n      },\n      \"prior_art\": \"William Lane Craig, Kalam Cosmological Argument (fine-tuning/cosmological convergence), 1979\",\n      \"originality\": {\n        \"or1\": {\"v\": 1, \"quote\": \"Every path converges.\", \"why\": \"It is a variant of standard convergence/fine-tuning arguments, broadened to include moral measurement and information theory.\"},\n        \"or2\": {\"v\": 1, \"quote\": \"The sun used E=mc^2 for 4.6 billion years before Einstein.\", \"why\": \"The pre-human math premise is an unusual supporting datum not used by the standard prior art.\"},\n        \"or3\": {\"v\": 1, \"quote\": \"the measurement of good and evil itself\", \"why\": \"It connects moral measurement to cosmological convergence, a cross-domain link the prior art generally lacks.\"},\n        \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formal model or equation is offered for the convergence claim.\"}\n      },\n      \"weakest_link\": \"The convergence premise is asserted by enumeration; no demonstration is given that these independent lines actually entail a single substrate rather than a shared human cognitive bias.\",\n      \"develop_next\": \"Show quantitatively that the convergence is not explicable by common selection or confirmation bias across the listed domains.\",\n      \"case_map\": [\"K13\", \"K15\", \"F4\"],\n      \"domain\": \"philosophy\"\n    },\n    {\n      \"id\": \"G18\",\n      \"name\": \"Canon reading order\",\n      \"conclusion\": \"The God pages must be read in a deliberate sequence: story first, equations second, gauntlet last.\",\n      \"speaker\": \"Framework author\",\n      \"premises\": [\n        \"The sequence starts with God and story, moves through Trinity and Truth, then lets axioms carry the weight.\",\n        \"The 7Q Classifier comes after the foundation because it is not the doorway but the gauntlet.\",\n        \"The ten-step order runs from The Descent through God in the Equations, You Are God, Trinity Signature, Story With Receipts, Holding God Accountable, The Foundation, 7Q Classifier, Master Equation, and Ten Laws.\"\n      ],\n      \"strength\": {\n        \"st1\": {\"v\": 2, \"quote\": \"The reading rule is: story first, equations second, gauntlet last.\"},\n        \"st2\": {\"v\": 2, \"quote\": \"The sequence starts with God and story, moves through Trinity and Truth, then let the axioms carry the weight.\"},\n        \"st3\": {\"v\": 0, \"quote\": \"\"},\n        \"st4\": {\"v\": 0, \"quote\": \"\"},\n        \"st5\": {\"v\": 0, \"quote\": \"\"},\n        \"st6\": {\"v\": 1, \"quote\": \"The 7Q Classifier comes after the foundation because it is not the doorway; it is the gauntlet.\"},\n        \"st7\": {\"v\": 0, \"quote\": \"\"},\n        \"st8\": {\"v\": 0, \"quote\": \"\"}\n      },\n      \"prior_art\": \"none known\",\n      \"originality\": {\n        \"or1\": {\"v\": 2, \"quote\": \"The reading rule is: story first, equations second, gauntlet last.\", \"why\": \"It is a bespoke prescription for this corpus with no known prior-art analogue.\"},\n        \"or2\": {\"v\": 0, \"quote\": \"\", \"why\": \"It introduces no new premise, evidence or data beyond the ordering itself.\"},\n        \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"It makes no cross-domain connection.\"},\n        \"or4\": {\"v\": 1, \"quote\": \"The ten-step order runs from The Descent through God in the Equations, You Are God, Trinity Signature, Story With Receipts, Holding God Accountable, The Foundation, 7Q Classifier, Master Equation, and Ten Laws.\", \"why\": \"It supplies an ordered list structure, a minimal formalization of the reading sequence.\"}\n      },\n      \"weakest_link\": \"No reason is given why this particular order is required rather than merely convenient; the pedagogical necessity is asserted.\",\n      \"develop_next\": \"Show empirically or pedagogically that readers who follow this order understand the material better than those who do not.\",\n      \"case_map\": [],\n      \"domain\": \"other\"\n    }\n  ]\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 12225,
+      "completion_tokens": 4400,
+      "attempts": 1,
+      "elapsed_seconds": 15.530999999995402,
+      "started_at": "2026-09-27T19:30:13.856000+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T19:30:29.394991+00:00",
+      "tokens": 16625
+    }
+  ],
+  "prompt_sha256": "fbf8ac3cbe9ca44e173f687632aca4d22379f19e2dde6d2c70da72c1cebc9e3f",
+  "tokens": 16625
+}

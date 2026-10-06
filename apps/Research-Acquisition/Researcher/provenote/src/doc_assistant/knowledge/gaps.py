@@ -1,0 +1,601 @@
+"""Gap detection — Phase 7's headline capability (ADR-004 / feature-gap-detection).
+
+One typed ``Gap`` object, split on the project's existing deterministic/stochastic
+line (ADR-004 Decision 1). This module ships **Tier 1** (deterministic, over the
+concept skeleton) and the **Tier-2a deterministic floor** (a query over already-
+persisted answer-claim data), and orchestrates (``build_gaps(suggest=True, ...)``)
+the **Tier-2a stochastic ceiling** — a quarantined LLM suggestion pass that lives
+in its own module, ``gap_suggest.py`` (it never writes the skeleton as fact —
+ADR-004 Decision 4; this module makes no provider decision, it only plumbs an
+already-built ``LLMClient`` through).
+
+Detectors are pure: no DB, no Chroma, no LLM. ``build_gaps`` (bottom of this module)
+is the impure orchestration — load the skeleton + claims, run the detectors, write
+the sidecar — mirroring ``epistemics.build_epistemics``'s pure-core/impure-boundary
+split (Enrichment-Layer Pattern); ``scripts/build_gaps.py`` is its thin CLI wrapper.
+Deterministic ``gaps`` rows are dropped + rebuilt on every run; a stochastic row's
+``status`` (the compounding arrow) is untouched by that rebuild.
+"""
+
+from __future__ import annotations
+
+from collections import defaultdict
+from dataclasses import dataclass, field
+from pathlib import Path
+from typing import Literal, cast
+
+from doc_assistant.knowledge.concept_skeleton import (
+    PRESENCE_BOUNDARY,
+    ConceptSkeleton,
+    match_presence,
+)
+from doc_assistant.llm import LLMClient
+from doc_assistant.synthesis import MARKER_UNSUPPORTED, is_claim_unit
+
+GapTier = Literal["t1", "t2a", "t2b"]
+Determinism = Literal["deterministic", "stochastic"]
+GapKind = Literal[
+    # Tier 1 (deterministic, over the curated skeleton)
+    "isolated",
+    "single_source",
+    "thin_bridge",
+    "under_connected",
+    # Tier 2a floor (deterministic, over persisted answer/citation data)
+    "unsourced_claim",
+    "citation_missing",
+    # Tier 2a ceiling + Tier 2b (stochastic, suggestions — gap_suggest.py, not here)
+    "suggested_link",
+    "suggested_concept",
+    "thin_area",
+]
+GapStatus = Literal["surfaced", "promoted", "dismissed"]
+
+
+@dataclass(frozen=True)
+class GapEvidence:
+    """What backs a ``Gap``. Deterministic: graph-fact ids (edge endpoints, document
+    ids, or the contributing ``answer_claims`` ids an ``unsourced_claim`` aggregates).
+    Stochastic (``gap_suggest.py``, not built here): the exact LLM inputs, for
+    observability (ADR-004's "expose LLM inputs, rate output" mandate)."""
+
+    fact_ids: tuple[str, ...] = ()
+
+
+@dataclass(frozen=True)
+class Gap:
+    """One detected corpus gap (ADR-004). ``determinism`` is first-class — a
+    consumer reads it, never re-derives it. ``rating`` is ``None`` for every
+    deterministic gap (a raw graph fact carries no confidence score); it is
+    populated only by the stochastic ceiling (not built here)."""
+
+    concept_id: str
+    tier: GapTier
+    determinism: Determinism
+    kind: GapKind
+    evidence: GapEvidence = field(default_factory=GapEvidence)
+    rating: float | None = None
+    status: GapStatus = "surfaced"
+
+
+# ============================================================
+# Tier 1 — deterministic detectors over the concept skeleton (pure)
+# ============================================================
+
+
+def detect_isolated(skeleton: ConceptSkeleton) -> list[Gap]:
+    """Degree-0 curated concepts — mentioned, never related to another concept."""
+    return [
+        Gap(concept_id=n.id, tier="t1", determinism="deterministic", kind="isolated")
+        for n in skeleton.nodes
+        if n.degree == 0
+    ]
+
+
+def detect_single_source(skeleton: ConceptSkeleton) -> list[Gap]:
+    """Concepts asserted by exactly one document (7d Decision 4, carried over): the
+    corpus's only source on this topic — **flagged for attention, never a defect**.
+    Distinguished from a contested claim by the absence of any disputing source;
+    the skeleton alone can't tell "sole source" from "wrong", only surface it."""
+    return [
+        Gap(
+            concept_id=n.id,
+            tier="t1",
+            determinism="deterministic",
+            kind="single_source",
+            evidence=GapEvidence(fact_ids=n.doc_ids),
+        )
+        for n in skeleton.nodes
+        if len(n.doc_ids) == 1
+    ]
+
+
+#: A side of a thin bridge must hold at least this many concepts — a *group*, not one concept.
+#: Structural, not tuned: with 1, a leaf's only edge would count, and a concept hanging on one edge
+#: is the separate `under_connected` signal (which RG-014 graded noise at small vocabularies).
+_MIN_BRIDGE_SIDE = 2
+
+
+def detect_thin_bridges(skeleton: ConceptSkeleton) -> list[Gap]:
+    """A single edge holding two **groups** of concepts together (the retired
+    ``concept_graph`` 7c mechanism, re-homed: ``networkx.bridges`` per component).
+
+    Remove the bridge and its component splits in two; it counts only when each side keeps at
+    least ``_MIN_BRIDGE_SIDE`` concepts. The gap goes on the endpoint of the **smaller** side —
+    the part hanging on one thread — and on both endpoints only on a tie. Flagging both ends of
+    every bridge (before KL1, 2026-09-16) named the best-connected concept in the graph a "thin
+    bridge" (RG-014), and every bridge on the working library was a dead-end edge.
+
+    Linear in the graph: bridges are cut once, the 2-edge-connected blocks that remain form a
+    tree, and one post-order pass gives every bridge its side sizes. ``evidence`` names both
+    endpoints.
+    """
+    import networkx as nx
+
+    graph = nx.Graph()
+    for n in skeleton.nodes:
+        graph.add_node(n.id)
+    for e in skeleton.edges:
+        graph.add_edge(e.source_concept_id, e.target_concept_id, weight=e.weight)
+
+    flagged: set[str] = set()
+    gaps: list[Gap] = []
+    for comp in nx.connected_components(graph):
+        sub = graph.subgraph(comp)
+        bridges = [tuple(sorted(pair)) for pair in nx.bridges(sub)]
+        if not bridges:
+            continue
+        cut = nx.Graph(sub)
+        cut.remove_edges_from(bridges)
+        block_of: dict[str, int] = {}
+        size: dict[int, int] = {}
+        for i, block in enumerate(nx.connected_components(cut)):
+            size[i] = len(block)
+            for node_id in block:
+                block_of[node_id] = i
+        tree = nx.Graph()
+        tree.add_nodes_from(size)
+        for u, v in bridges:
+            tree.add_edge(block_of[u], block_of[v], bridge=(u, v))
+        root = min(size)
+        parent = dict(nx.dfs_predecessors(tree, root))
+        below = dict(size)
+        for block in reversed(list(nx.dfs_preorder_nodes(tree, root))):
+            if block in parent:
+                below[parent[block]] += below[block]
+        total = len(comp)
+        for child in sorted(parent, key=lambda b: tree.edges[b, parent[b]]["bridge"]):
+            u, v = tree.edges[child, parent[child]]["bridge"]
+            child_side, other_side = below[child], total - below[child]
+            if min(child_side, other_side) < _MIN_BRIDGE_SIDE:
+                continue
+            child_end = u if block_of[u] == child else v
+            other_end = v if child_end == u else u
+            if child_side < other_side:
+                ends: tuple[str, ...] = (child_end,)
+            elif other_side < child_side:
+                ends = (other_end,)
+            else:
+                ends = (u, v)
+            for node_id in ends:
+                if node_id in flagged:
+                    continue
+                flagged.add(node_id)
+                gaps.append(
+                    Gap(
+                        concept_id=node_id,
+                        tier="t1",
+                        determinism="deterministic",
+                        kind="thin_bridge",
+                        evidence=GapEvidence(fact_ids=(u, v)),
+                    )
+                )
+    gaps.sort(key=lambda g: g.concept_id)
+    return gaps
+
+
+def detect_under_connected(skeleton: ConceptSkeleton, *, min_degree: int) -> list[Gap]:
+    """Curated concepts with ``0 < degree < min_degree`` — the routing signal into
+    the (separate, not built here) Tier-2a stochastic ceiling. Degree-0 concepts are
+    excluded — those are ``isolated``, a distinct kind, not double-reported here.
+    ``min_degree`` is corpus-derived, never a guessed absolute (see
+    ``tests/eval/baselines/gap_min_degree_2026-07.md``)."""
+    return [
+        Gap(concept_id=n.id, tier="t1", determinism="deterministic", kind="under_connected")
+        for n in skeleton.nodes
+        if 0 < n.degree < min_degree
+    ]
+
+
+# ============================================================
+# Tier 2a — deterministic floor over persisted answer-claim data (pure)
+# ============================================================
+
+
+@dataclass(frozen=True)
+class ClaimForGap:
+    """A minimal, DB-agnostic view of one persisted ``AnswerClaim`` row — just
+    enough for the deterministic floor to run without touching the DB (pure core;
+    the impure loader in ``scripts/build_gaps.py`` maps the ORM rows to this)."""
+
+    id: str
+    text: str
+    marker: str
+
+
+def detect_unsourced_claims(
+    claims: list[ClaimForGap],
+    concepts: list[tuple[str, str]],
+    aliases: dict[str, list[str]],
+    *,
+    mode: str = PRESENCE_BOUNDARY,
+) -> list[Gap]:
+    """Aggregate ``unsupported``-marked claims onto the curated concept(s) their text
+    matches (presence match, Decision C — reuses ``concept_skeleton.match_presence``
+    so a claim and a chunk are attributed by the identical rule). A query over data
+    that already exists (``synthesis.claim_marker`` → ``AnswerClaim.marker``); no new
+    model (ADR-004 Decision 3). Cited (non-``unsupported``) claims produce nothing;
+    an unsupported claim matching no curated concept also produces nothing (it isn't
+    attributable to a vocabulary gap without a concept to hang it on). A piece that cannot be a
+    claim — a heading, a list lead-in, a Sources block — produces nothing either (KL1)."""
+    # KL1: only pieces that can assert something — list lead-ins, headings and the model's own
+    # Sources block were ~18-35% of what this counted (synthesis.is_claim_unit).
+    unsupported = [c for c in claims if c.marker == MARKER_UNSUPPORTED and is_claim_unit(c.text)]
+    if not unsupported:
+        return []
+    chunk_texts = [(c.id, c.id, c.text) for c in unsupported]
+    presences = match_presence(concepts, aliases, chunk_texts, mode=mode)
+    by_concept: dict[str, set[str]] = defaultdict(set)
+    for p in presences:
+        by_concept[p.concept_id].update(p.chunk_keys)  # chunk_key == claim id here
+    return [
+        Gap(
+            concept_id=concept_id,
+            tier="t2a",
+            determinism="deterministic",
+            kind="unsourced_claim",
+            evidence=GapEvidence(fact_ids=tuple(sorted(claim_ids))),
+        )
+        for concept_id, claim_ids in sorted(by_concept.items())
+    ]
+
+
+# ============================================================
+# Impure boundary — SQLite + sidecar reads, orchestration
+# ============================================================
+
+
+@dataclass(frozen=True)
+class GapsResult:
+    """What a ``build_gaps`` run produced (for the CLI report)."""
+
+    gaps: list[Gap]
+    graph_version: str
+    n_t1: int
+    n_t2a: int
+    applied: bool
+    n_suggested: int = (
+        0  # Tier-2a stochastic ceiling rows written this run (0 unless suggest+apply)
+    )
+    n_reconciled: int = 0  # orphaned stochastic rows deleted this run (E0.2 / KI-17)
+
+
+def load_unsupported_claims() -> list[ClaimForGap]:
+    """Read every persisted ``unsupported``-marked ``AnswerClaim`` row.
+
+    Read-only, free — a query over data ``synthesis.claim_marker`` already wrote;
+    no new model (ADR-004 Decision 3)."""
+    from sqlalchemy import select
+
+    from doc_assistant.db.models import AnswerClaim
+    from doc_assistant.db.session import session_scope
+
+    with session_scope() as session:
+        stmt = select(AnswerClaim).where(AnswerClaim.marker == MARKER_UNSUPPORTED)
+        return [
+            ClaimForGap(id=str(row.id), text=row.claim_text, marker=row.marker)
+            for row in session.execute(stmt).scalars()
+        ]
+
+
+def _write_gap_rows(gaps: list[Gap], version: str) -> None:
+    """Replace the *deterministic* ``gaps`` rows (idempotent). Stochastic rows (the
+    deferred Tier-2a ceiling, ``gap_suggest.py``) are untouched — their ``status``
+    is the compounding arrow and must survive a deterministic rebuild."""
+    import json
+
+    from sqlalchemy import delete
+
+    from doc_assistant.db.models import GapRow
+    from doc_assistant.db.session import session_scope
+
+    with session_scope() as session:
+        session.execute(delete(GapRow).where(GapRow.determinism == "deterministic"))
+        session.add_all(
+            GapRow(
+                concept_id=g.concept_id,
+                tier=g.tier,
+                determinism=g.determinism,
+                kind=g.kind,
+                evidence_json=json.dumps(list(g.evidence.fact_ids)),
+                rating=g.rating,
+                status=g.status,
+                graph_version=version,
+            )
+            for g in gaps
+        )
+
+
+def _write_stochastic_gap_rows(suggestions: list[Gap], version: str) -> int:
+    """Upsert Tier-2a stochastic suggestions by concept identity (status-preserving).
+
+    Unlike :func:`_write_gap_rows`' deterministic replace, this path never deletes: a
+    concept already carrying a ``promoted``/``dismissed`` stochastic row is left alone
+    (a fresh suggestion must not downgrade a human's curation decision — the
+    "compounding arrow"); a concept with no stochastic row yet, or one still
+    ``surfaced``, gets its row inserted/updated to the new suggestion. Suggestion
+    identity is the concept: :func:`gap_suggest.suggest_for_thin` emits at most one
+    suggestion per concept per call. Returns the number of rows written.
+    """
+    import json
+
+    from sqlalchemy import select
+
+    from doc_assistant.db.models import GapRow
+    from doc_assistant.db.session import session_scope
+
+    if not suggestions:
+        return 0
+
+    with session_scope() as session:
+        existing = {
+            row.concept_id: row
+            for row in session.execute(
+                select(GapRow).where(GapRow.determinism == "stochastic")
+            ).scalars()
+        }
+        written = 0
+        for g in suggestions:
+            current = existing.get(g.concept_id)
+            if current is not None and current.status in {"promoted", "dismissed"}:
+                continue  # a human curation decision survives a re-suggest
+            evidence_json = json.dumps(list(g.evidence.fact_ids))
+            if current is None:
+                session.add(
+                    GapRow(
+                        concept_id=g.concept_id,
+                        tier=g.tier,
+                        determinism=g.determinism,
+                        kind=g.kind,
+                        evidence_json=evidence_json,
+                        rating=g.rating,
+                        status=g.status,
+                        graph_version=version,
+                    )
+                )
+            else:
+                current.tier = g.tier
+                current.kind = g.kind
+                current.evidence_json = evidence_json
+                current.rating = g.rating
+                current.graph_version = version
+                # status stays "surfaced" — current.status was already checked above
+            written += 1
+    return written
+
+
+def _reconcile_stochastic_gaps(live_concept_ids: set[str]) -> int:
+    """Delete stochastic gap rows anchored on a concept that has left the graph vocabulary (KI-17).
+
+    :func:`_write_stochastic_gap_rows` is a status-preserving upsert with **no delete pass**, so a
+    stochastic row whose anchor concept is later excluded (``graph_include`` → ``False``) or
+    deleted becomes immortal — ``load_graph_view`` then serves gaps against concepts the skeleton
+    no longer contains (the live symptom: 27 gaps over a 13-node skeleton, 10 orphaned from the
+    pre-ADR-018 vocabulary). A **reconcile, not a blanket delete**: a row on a concept still in the
+    ``graph_include``-filtered vocabulary is untouched, so a human's promote/dismiss survives a
+    rebuild (the compounding arrow); only the orphans are reaped. ``suggest_for_thin`` always
+    anchors a suggestion's ``concept_id`` on an existing under-connected concept (the suggested
+    *target* lives in ``evidence``), so a live suggestion is never an orphan by construction.
+
+    Returns the number of rows deleted. An empty ``live_concept_ids`` (0 graph concepts) reaps
+    every stochastic row — correct: with no vocabulary, all of them are orphans."""
+    from sqlalchemy import select
+
+    from doc_assistant.db.models import GapRow
+    from doc_assistant.db.session import session_scope
+
+    with session_scope() as session:
+        rows = list(
+            session.execute(select(GapRow).where(GapRow.determinism == "stochastic")).scalars()
+        )
+        orphans = [r for r in rows if r.concept_id not in live_concept_ids]
+        for row in orphans:
+            session.delete(row)
+    return len(orphans)
+
+
+def derive_min_degree(skeleton: ConceptSkeleton) -> int:
+    """Corpus-derive the ``under_connected`` degree floor from a skeleton's own distribution.
+
+    The in-app rebuild route (E0.3) has no CLI ``--min-degree`` to pass, and a hardcoded literal
+    would be a corpus-tuned magic number (``.claude/CONTEXT.md``). So derive it the way the CLI
+    default was set (``scripts/build_gaps.py``): the **first quartile (Q1)** of the *connected*
+    nodes' degrees (degree-0 nodes are ``isolated``, a distinct kind, excluded here). A concept
+    below Q1 edges is "thin" relative to this corpus. Fails safe to ``1`` (flags nothing as
+    under-connected) when there are too few connected nodes to form a quartile — the honest
+    degrade on a tiny or edgeless graph, not a guess."""
+    import statistics
+
+    degrees = sorted(n.degree for n in skeleton.nodes if n.degree > 0)
+    if len(degrees) < 4:
+        return 1
+    q1 = statistics.quantiles(degrees, n=4)[0]
+    return max(1, round(q1))
+
+
+def load_gap_overrides() -> dict[tuple[str, str], GapStatus]:
+    """Read the triage override sidecar as ``{(concept_id, kind): status}`` (ADR-017 C1, E5).
+
+    Empty when no gap has been triaged — the normal state. This is the durable half of the gap
+    lifecycle: it survives ``build_gaps``'s delete-and-rebuild of the deterministic rows.
+    """
+    from sqlalchemy import select
+
+    from doc_assistant.db.models import GapTriage
+    from doc_assistant.db.session import session_scope
+
+    with session_scope() as session:
+        rows = session.execute(select(GapTriage)).scalars()
+        return {(r.concept_id, r.kind): cast(GapStatus, r.status) for r in rows}
+
+
+def set_gap_status(concept_id: str, kind: str, status: GapStatus) -> None:
+    """Record (or clear) a user's triage verdict on one gap (ADR-017 C1, E5).
+
+    ``promoted``/``dismissed`` upsert an override row; ``surfaced`` (the default) **removes** it —
+    a reset returns the gap to whatever the detector says. Keyed on ``(concept_id, kind)``, so
+    it is stable across the deterministic rebuild that replaces the ``gaps`` rows themselves.
+    """
+    if status not in ("surfaced", "promoted", "dismissed"):
+        raise ValueError(f"invalid gap status {status!r}")
+
+    from doc_assistant.db.models import GapTriage
+    from doc_assistant.db.session import session_scope
+
+    with session_scope() as session:
+        existing = session.get(GapTriage, (concept_id, kind))
+        if status == "surfaced":
+            if existing is not None:  # reset = delete the override
+                session.delete(existing)
+            return
+        if existing is None:
+            session.add(GapTriage(concept_id=concept_id, kind=kind, status=status))
+        else:
+            existing.status = status
+
+
+def load_gaps() -> list[Gap]:
+    """Read the persisted ``gaps`` sidecar back — the read half of the row writers.
+
+    Returns every gap (deterministic *and* stochastic) in the pure :class:`Gap` shape, so a
+    consumer reads ``determinism`` rather than re-deriving it (ADR-004: it is first-class).
+    An **empty list means the sidecar has not been built yet** — the normal state before
+    ``build_gaps --apply`` — never an error.
+
+    ``status`` is the **effective** value (ADR-017 C1, E5): a user's triage override from the
+    ``gap_triage`` sidecar wins over the row's own status (``override ?? row.status``). This makes
+    every consumer — the graph node-badge lens *and* the E5 gap list — agree on whether a gap is
+    surfaced/promoted/dismissed, and it is why a dismissal survives ``build_gaps``'s
+    delete-and-rebuild of the deterministic rows (the override lives in a table the rebuild never
+    touches). Stochastic rows keep their own persisted status when un-overridden — the override is
+    only consulted when present, so C1's "must not double-write stochastic status" holds.
+    """
+    import json
+
+    from sqlalchemy import select
+
+    from doc_assistant.db.models import GapRow
+    from doc_assistant.db.session import session_scope
+
+    overrides = load_gap_overrides()
+    with session_scope() as session:
+        rows = list(
+            session.execute(select(GapRow).order_by(GapRow.kind, GapRow.concept_id)).scalars()
+        )
+        return [
+            Gap(
+                concept_id=r.concept_id,
+                tier=cast(GapTier, r.tier),
+                determinism=cast(Determinism, r.determinism),
+                kind=cast(GapKind, r.kind),
+                evidence=GapEvidence(fact_ids=tuple(json.loads(r.evidence_json or "[]"))),
+                rating=r.rating,
+                status=overrides.get((r.concept_id, r.kind), cast(GapStatus, r.status)),
+            )
+            for r in rows
+        ]
+
+
+def build_gaps(
+    *,
+    apply: bool,
+    skeleton_dir: Path | None = None,
+    min_degree: int,
+    suggest: bool = False,
+    client: LLMClient | None = None,
+) -> GapsResult:
+    """Compute Tier-1 + the Tier-2a deterministic floor; write the ``gaps`` sidecar.
+
+    Read-only + free (no LLM): loads ``skeleton.json`` + the curated vocabulary +
+    every ``unsupported``-marked claim, runs the pure detectors, and (on ``apply``)
+    replaces the deterministic ``gaps`` rows (regenerable sidecar — dropped + rebuilt
+    with the skeleton; stochastic rows persist across the rebuild, keyed by concept
+    and status-preserving). A dry run computes + reports but writes nothing. Idempotent:
+    same skeleton + same claims → identical row count + ``graph_version``. Never
+    touches the chunk store or the curated vocabulary.
+
+    ``suggest`` additionally runs the Tier-2a stochastic ceiling
+    (``gap_suggest.suggest_for_thin``) over the ``under_connected`` Tier-1 gaps.
+    This module makes **no provider decision** — the caller
+    (``scripts/build_gaps.py``) resolves the provider/model, routes ``--apply``
+    through ``llm.assert_provider_intent``, and hands an already-built ``client``
+    here. ``suggest`` only calls the LLM when ``apply`` is also true (a dry run
+    with ``--suggest`` reports zero suggested rows and makes zero LLM calls,
+    matching every other enrichment CLI's dry-run contract); when ``apply`` and
+    ``suggest`` are both true, ``client`` is required.
+    """
+    import json
+
+    from doc_assistant.config import CONCEPT_SKELETON_DIR
+    from doc_assistant.knowledge.concept_skeleton import (
+        SKELETON_NAME,
+        load_concepts,
+        skeleton_from_dict,
+    )
+
+    root = skeleton_dir or CONCEPT_SKELETON_DIR
+    skeleton_path = root / SKELETON_NAME
+    if not skeleton_path.exists():
+        raise FileNotFoundError(
+            f"No concept skeleton at {skeleton_path} — run `python -m scripts."
+            "build_concept_skeleton --apply` first (the gap layer is defined over it)."
+        )
+    skeleton = skeleton_from_dict(json.loads(skeleton_path.read_text(encoding="utf-8")))
+    concepts, aliases = load_concepts()
+
+    t1 = [
+        *detect_isolated(skeleton),
+        *detect_single_source(skeleton),
+        *detect_thin_bridges(skeleton),
+        *detect_under_connected(skeleton, min_degree=min_degree),
+    ]
+    claims = load_unsupported_claims()
+    t2a = detect_unsourced_claims(claims, concepts, aliases)
+    all_gaps = t1 + t2a
+
+    version = str(skeleton.meta.get("graph_version", ""))
+    n_reconciled = 0
+    if apply:
+        _write_gap_rows(all_gaps, version)
+        # E0.2 / KI-17: hoisted OUT of the suggest branch so a deterministic-only `--apply` (the
+        # KI-17 repro) still reaps stochastic rows orphaned by a vocabulary change. Keyed on the
+        # graph_include-filtered `concepts` already loaded above.
+        n_reconciled = _reconcile_stochastic_gaps({cid for cid, _ in concepts})
+
+    n_suggested = 0
+    if suggest and apply:
+        if client is None:
+            raise ValueError("build_gaps(suggest=True, apply=True) requires an LLMClient")
+        from doc_assistant.knowledge.gap_suggest import suggest_for_thin
+
+        suggestions = suggest_for_thin(t1, skeleton, client)
+        n_suggested = _write_stochastic_gap_rows(suggestions, version)
+
+    return GapsResult(
+        gaps=all_gaps,
+        graph_version=version,
+        n_t1=len(t1),
+        n_t2a=len(t2a),
+        applied=apply,
+        n_suggested=n_suggested,
+        n_reconciled=n_reconciled,
+    )

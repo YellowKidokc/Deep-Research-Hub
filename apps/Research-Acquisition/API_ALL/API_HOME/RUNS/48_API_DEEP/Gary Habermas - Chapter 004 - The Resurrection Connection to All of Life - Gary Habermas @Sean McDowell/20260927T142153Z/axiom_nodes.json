@@ -1,0 +1,107 @@
+{
+  "paper_uuid": "yt-hPf7fIuCuE4-ch004",
+  "title": "The Resurrection Connection to All of Life - Gary Habermas @Sean McDowell",
+  "summary": "A devotional/apologetics interview in which Habermas argues the resurrection is the central doctrine of Christianity and the practical engine for suffering, doubt, fear of death, sin, and heaven. It engages the canon mainly at the level of theological practice and evidence for the resurrection, not the formal axiomatic machinery; the closest structural touches are the resurrection as the evidential anchor of the whole system and grace-based salvation alongside radical works.",
+  "primary_mode": "HY_EVIDENCE",
+  "axiom_nodes": [
+    {
+      "node_id": "BC1",
+      "name": "BC1 — Terminal Observer Exists",
+      "mode": "HY_EVIDENCE",
+      "alignment": "supported",
+      "evidence_quote": "If there's a resurrection, Christianity is true.",
+      "confidence": "medium",
+      "notes": "Resurrection treated as decisive evidential anchor for the truth of the whole system."
+    },
+    {
+      "node_id": "ID7.1",
+      "name": "ID7.1 — Terminal Observer Is God",
+      "mode": "HY_EVIDENCE",
+      "alignment": "supported",
+      "evidence_quote": "I can trust God who's omnipotent, omnicient, underpresent, omni, benevolent.",
+      "confidence": "medium",
+      "notes": "God as omniscient/omnipotent terminal knower who holds the answers."
+    },
+    {
+      "node_id": "C8.2",
+      "name": "C8.2 — Works Salvation Impossible",
+      "mode": "AX_DERIVED",
+      "alignment": "directly_asserted",
+      "evidence_quote": "You're not saved by good works.",
+      "confidence": "high",
+      "notes": "Explicit grace-not-works claim, paired with works as fruit."
+    },
+    {
+      "node_id": "BC2",
+      "name": "BC2 — Grace External To System",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "But it's by God's mercy and by grace we can be saved nonetheless.",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "P9.2",
+      "name": "P9.2 — Voluntary Coupling Preserved",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "He calls us to be as radically committed to him as he was to us.",
+      "confidence": "medium",
+      "notes": "Radical commitment framed as free response, not coercion."
+    },
+    {
+      "node_id": "P9.5",
+      "name": "P9.5 — Grace Available To All",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "if Jesus was raised from the dead and you committed yourself to him, you're going to heaven",
+      "confidence": "medium"
+    },
+    {
+      "node_id": "P10.1",
+      "name": "P10.1 — Soul Continuity",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "if the resurrection lets me see her again and walk down the streets of heaven hand in hand, I can wait",
+      "confidence": "low",
+      "notes": "Personal continuity into resurrection life implied."
+    },
+    {
+      "node_id": "T12.1",
+      "name": "T12.1 — Heaven As High-Phi Attractor",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "Heaven is the conclusion of the resurrection.",
+      "confidence": "medium",
+      "notes": "Heaven as final ordered state reached via resurrection."
+    },
+    {
+      "node_id": "A6.2",
+      "name": "A6.2 — Collapse",
+      "mode": "AX_SCAFFOLD",
+      "alignment": "relevant_but_not_asserted",
+      "evidence_quote": "",
+      "confidence": "low",
+      "notes": "Resurrection as a discrete historical actualization event is nearby but no collapse formalism is invoked."
+    },
+    {
+      "node_id": "A9.1",
+      "name": "A9.1 — External Intervention Required",
+      "mode": "AX_DERIVED",
+      "alignment": "supported",
+      "evidence_quote": "if Jesus is raised from the dead",
+      "confidence": "low",
+      "notes": "Resurrection as external divine act enabling salvation."
+    }
+  ],
+  "unmapped_claims": [
+    "A01",
+    "A02",
+    "A03",
+    "A04",
+    "A05",
+    "A06",
+    "A07",
+    "A08",
+    "A09"
+  ]
+}

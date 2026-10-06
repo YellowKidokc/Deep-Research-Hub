@@ -1,0 +1,44 @@
+{
+  "allowed_domains": [
+    "archives.gov",
+    "congress.gov",
+    "govinfo.gov",
+    "justice.gov",
+    "fbi.gov",
+    "cia.gov",
+    "gao.gov",
+    "nsarchive.gwu.edu",
+    "courtlistener.com",
+    "sec.gov",
+    "britannica.com"
+  ],
+  "blocked_domains": [
+    "youtube.com",
+    "facebook.com",
+    "instagram.com",
+    "tiktok.com",
+    "pinterest.com"
+  ],
+  "preferred_source_types": [
+    "government",
+    "archive",
+    "legal",
+    "reference",
+    "academic"
+  ],
+  "blocked_url_patterns": [
+    "/search",
+    "/tag/",
+    "/category/",
+    "?page=",
+    "&page="
+  ],
+  "preferred_url_patterns": [
+    "/article/",
+    "/news/",
+    "/document/",
+    "/release/",
+    "/wiki/"
+  ],
+  "max_results_per_query": 100
+}

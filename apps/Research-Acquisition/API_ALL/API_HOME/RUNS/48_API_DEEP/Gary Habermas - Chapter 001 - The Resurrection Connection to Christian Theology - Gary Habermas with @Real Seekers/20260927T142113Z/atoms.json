@@ -1,0 +1,564 @@
+{
+  "paper_uuid": "yt-garyhabermas-iliT-9EmBG0-ch1",
+  "title": "The Resurrection Connection to Christian Theology - Gary Habermas with @Real Seekers",
+  "domainType": "theology",
+  "summary": "Interview transcript (chapter 1 of a multi-part series) in which Gary Habermas discusses volume 4 of his resurrection magnum opus: rebutting the charge that he has abandoned evidential apologetics for presuppositionalism, outlining the theological entailments of the resurrection (God, miracles, deity of Christ, kingdom, salvation), the epistemology of miracles, and responses to competing-miracle and naturalism objections.",
+  "atoms": [
+    {
+      "nodeType": "claim",
+      "stage": "01_canonical",
+      "name": "Volume 4 does not abandon resurrection apologetics",
+      "statementTechnical": "Habermas's volume 4 is not an appeal to emotion or presuppositionalism; it presupposes the evidential cases of volumes 1-2 and moves to theological and practical implications.",
+      "statementPlain": "Gary hasn't given up on evidence for the resurrection; volume 4 just builds on the earlier evidence.",
+      "claimClass": "definition",
+      "falsificationCondition": "Show that volume 4 argues for the resurrection's truth without appeal to evidence (pure presuppositional or emotional appeal), or that Habermas has retracted the evidential cases of volumes 1-2.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-survived",
+      "edges": [
+        {
+          "type": "dependsOn",
+          "target": "",
+          "grade": "independent",
+          "propagates": "false"
+        }
+      ],
+      "notes": "Response to 'silly skeptical softball' objection.",
+      "source_sentences": [
+        "S056",
+        "S057",
+        "S058",
+        "S059",
+        "S061",
+        "S062",
+        "S065",
+        "S069",
+        "S075",
+        "S077",
+        "S080",
+        "S099",
+        "S100"
+      ],
+      "atom_id": "A01"
+    },
+    {
+      "nodeType": "claim",
+      "stage": "01_canonical",
+      "name": "Resurrection entails God",
+      "statementTechnical": "If the resurrection occurred, then a God exists who raised Jesus; the event requires a supernatural agent.",
+      "statementPlain": "If Jesus really rose from the dead, then there must be a God who did it.",
+      "claimClass": "bridge",
+      "falsificationCondition": "Produce a plausible non-theistic cause of a verified resurrection, or show the resurrection did not occur.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "feedsInto",
+          "target": "",
+          "grade": "structural_identity",
+          "propagates": "true"
+        }
+      ],
+      "source_sentences": [
+        "S221",
+        "S223",
+        "S226",
+        "S232",
+        "S236",
+        "S256",
+        "S284",
+        "S285",
+        "S288",
+        "S289"
+      ],
+      "atom_id": "A02"
+    },
+    {
+      "nodeType": "claim",
+      "stage": "01_canonical",
+      "name": "Resurrection entails the deity of Christ",
+      "statementTechnical": "Because no other religious founder was raised and Jesus uniquely predicted his resurrection and taught the kingdom, God's raising him vindicates his claims to deity.",
+      "statementPlain": "God wouldn't raise a false teacher, so Jesus' resurrection confirms he is who he claimed to be.",
+      "claimClass": "bridge",
+      "falsificationCondition": "Show another founder was raised from the dead, or that Jesus' central teaching (the kingdom) was false, or that God would raise a heretic.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "dependsOn",
+          "target": "",
+          "grade": "structural_identity",
+          "propagates": "true"
+        }
+      ],
+      "source_sentences": [
+        "S239",
+        "S241",
+        "S242",
+        "S243",
+        "S256",
+        "S260",
+        "S262",
+        "S264",
+        "S290",
+        "S291",
+        "S292"
+      ],
+      "atom_id": "A03"
+    },
+    {
+      "nodeType": "claim",
+      "stage": "01_canonical",
+      "name": "Resurrection entails scripture and ethics downstream",
+      "statementTechnical": "Scripture and objective ethics are entailed by the resurrection, but only downstream of the two greatest commandments (love God, love neighbor).",
+      "statementPlain": "The resurrection backs up the Bible and morality, but those come after the main thing: loving God and others.",
+      "claimClass": "bridge",
+      "falsificationCondition": "Show the resurrection is true while Jesus' view of scripture or his ethical teaching is false.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "dependsOn",
+          "target": "",
+          "grade": "structural_analogy",
+          "propagates": "true"
+        }
+      ],
+      "source_sentences": [
+        "S334",
+        "S344",
+        "S359",
+        "S360",
+        "S364",
+        "S381",
+        "S382"
+      ],
+      "atom_id": "A04"
+    },
+    {
+      "nodeType": "claim",
+      "stage": "01_canonical",
+      "name": "Miracles are one-time acts of God evidencing a message",
+      "statementTechnical": "A miracle is a one-time event, performed by God, with strong evidence it occurred, serving to evidence a message (Swinburne's definition, close to Lewis's).",
+      "statementPlain": "A miracle is something only God does, once, with good evidence, to point to a message.",
+      "claimClass": "definition",
+      "falsificationCondition": "Show a repeatable, naturalistically explicable event that nonetheless functions as a divine message-authenticating sign, or show the resurrection fails the one-time/evidenced criteria.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "feedsInto",
+          "target": "",
+          "grade": "structural_identity",
+          "propagates": "true"
+        }
+      ],
+      "source_sentences": [
+        "S398",
+        "S400",
+        "S416",
+        "S417",
+        "S418",
+        "S440",
+        "S441",
+        "S442",
+        "S443",
+        "S454",
+        "S455"
+      ],
+      "atom_id": "A05"
+    },
+    {
+      "nodeType": "claim",
+      "stage": "01_canonical",
+      "name": "Naturalism is self-undermining as an empirical claim",
+      "statementTechnical": "If naturalism is not itself an empirical claim while its epistemology demands empirical claims, naturalism fails its own standard.",
+      "statementPlain": "If you demand evidence for everything, you can't exempt your own belief in naturalism.",
+      "claimClass": "boundary",
+      "falsificationCondition": "Provide an empirical test that confirms naturalism, or show naturalism is not being used as an epistemological baseline.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "challenges",
+          "target": "",
+          "grade": "structural_identity",
+          "propagates": "true"
+        }
+      ],
+      "source_sentences": [
+        "S494",
+        "S497",
+        "S498",
+        "S499",
+        "S500",
+        "S501",
+        "S502",
+        "S503",
+        "S515"
+      ],
+      "atom_id": "A06"
+    },
+    {
+      "nodeType": "claim",
+      "stage": "01_canonical",
+      "name": "Competing miracle claims do not match the resurrection",
+      "statementTechnical": "Alleged competing miracles (Marian apparitions, levitation, etc.) either lack evidence, are repeatable/naturalistically explicable, or occur within the Christian fold, so none rivals the resurrection's evidential profile.",
+      "statementPlain": "Other religions' miracle stories don't come close to the evidence for the resurrection.",
+      "claimClass": "empirical-anchor",
+      "falsificationCondition": "Produce a non-Christian miracle claim with evidence comparable to the resurrection (multiple attested, predicted, ethically vindicated, one-time).",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "challenges",
+          "target": "",
+          "grade": "structural_analogy",
+          "propagates": "true"
+        }
+      ],
+      "source_sentences": [
+        "S582",
+        "S585",
+        "S586",
+        "S587",
+        "S588",
+        "S591",
+        "S603",
+        "S616",
+        "S620",
+        "S667",
+        "S700",
+        "S701"
+      ],
+      "atom_id": "A07"
+    },
+    {
+      "nodeType": "claim",
+      "stage": "01_canonical",
+      "name": "Jesus claimed deity in Mark 2 and Mark 14",
+      "statementTechnical": "Jesus' claim to deity is established historically by Mark 2 (forgiving sins) and Mark 14:61-64 (Son of the Blessed, cloud-rider, seated at God's right hand), not by a single 'I am God' verse.",
+      "statementPlain": "Jesus didn't say 'I am God' in so many words, but his words and actions in Mark 2 and 14 show he claimed to be divine.",
+      "claimClass": "empirical-anchor",
+      "falsificationCondition": "Show Mark 2 and Mark 14 do not reflect Jesus' own claims (e.g., later church invention) or that the high priest's blasphemy charge misread him.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "feedsInto",
+          "target": "",
+          "grade": "structural_identity",
+          "propagates": "true"
+        }
+      ],
+      "source_sentences": [
+        "S759",
+        "S762",
+        "S766",
+        "S771",
+        "S779",
+        "S780",
+        "S784",
+        "S795",
+        "S798",
+        "S803",
+        "S806",
+        "S807"
+      ],
+      "atom_id": "A08"
+    },
+    {
+      "nodeType": "claim",
+      "stage": "01_canonical",
+      "name": "Theistic arguments establish high probability, not deductive proof",
+      "statementTechnical": "Chapter 1 offers considerations for a theistic universe (epistemic, moral, fine-tuning, design, afterlife) establishing high probability rather than apodictic proof.",
+      "statementPlain": "Gary isn't trying to prove God with 100% certainty, just to show it's highly probable.",
+      "claimClass": "boundary",
+      "falsificationCondition": "Show the arguments are not even probabilistically supportive, or that Habermas claims deductive certainty for them.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "feedsInto",
+          "target": "",
+          "grade": "structural_identity",
+          "propagates": "true"
+        }
+      ],
+      "source_sentences": [
+        "S732",
+        "S733",
+        "S734",
+        "S739",
+        "S740",
+        "S741",
+        "S742",
+        "S743",
+        "S744",
+        "S747"
+      ],
+      "atom_id": "A09"
+    },
+    {
+      "nodeType": "objection",
+      "stage": "08_objections",
+      "name": "Volume 4 is presuppositionalism / appeal to emotion",
+      "statementTechnical": "Skeptics claim Habermas's turn to theological implications concedes the evidential case is weak.",
+      "statementPlain": "Critics say Gary gave up on evidence and switched to feelings.",
+      "falsificationCondition": "",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-survived",
+      "edges": [
+        {
+          "type": "challenges",
+          "target": "",
+          "grade": "independent",
+          "propagates": "false"
+        }
+      ],
+      "source_sentences": [
+        "S056",
+        "S057",
+        "S058"
+      ],
+      "atom_id": "A10"
+    },
+    {
+      "nodeType": "objection",
+      "stage": "08_objections",
+      "name": "Future-unknown natural anomaly reply",
+      "statementTechnical": "Radical skeptics grant an anomalous event but defer explanation to future unknown natural causes.",
+      "statementPlain": "Skeptics say 'we don't know how yet, but someday science will explain it.'",
+      "falsificationCondition": "",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-survived",
+      "edges": [
+        {
+          "type": "challenges",
+          "target": "",
+          "grade": "independent",
+          "propagates": "false"
+        }
+      ],
+      "source_sentences": [
+        "S470",
+        "S471",
+        "S472",
+        "S473",
+        "S482",
+        "S486"
+      ],
+      "atom_id": "A11"
+    },
+    {
+      "nodeType": "objection",
+      "stage": "08_objections",
+      "name": "Maybe Satan or a demon did the miracle",
+      "statementTechnical": "Even granting a supernatural event, skeptics ask how it links to God rather than an evil agent.",
+      "statementPlain": "Maybe the devil did it, not God.",
+      "falsificationCondition": "",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-survived",
+      "edges": [
+        {
+          "type": "challenges",
+          "target": "",
+          "grade": "independent",
+          "propagates": "false"
+        }
+      ],
+      "source_sentences": [
+        "S521",
+        "S522",
+        "S549",
+        "S553",
+        "S554"
+      ],
+      "atom_id": "A12"
+    },
+    {
+      "nodeType": "objection",
+      "stage": "08_objections",
+      "name": "Competing religious miracle claims",
+      "statementTechnical": "Other religions claim miracles, so a miracle cannot authenticate one religion.",
+      "statementPlain": "Other religions have miracles too, so how does one prove Christianity?",
+      "falsificationCondition": "",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-survived",
+      "edges": [
+        {
+          "type": "challenges",
+          "target": "",
+          "grade": "independent",
+          "propagates": "false"
+        }
+      ],
+      "source_sentences": [
+        "S523",
+        "S524",
+        "S575",
+        "S580",
+        "S581"
+      ],
+      "atom_id": "A13"
+    },
+    {
+      "nodeType": "evidence",
+      "stage": "05_evidence",
+      "name": "Critical scholars grant Jesus predicted his death and resurrection",
+      "statementTechnical": "Even critical scholars (e.g., Dale Allison) think it likely Jesus foretold his death and resurrection.",
+      "statementPlain": "Even skeptical scholars admit Jesus predicted he would rise.",
+      "falsificationCondition": "",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "feedsInto",
+          "target": "",
+          "grade": "structural_identity",
+          "propagates": "true"
+        }
+      ],
+      "source_sentences": [
+        "S432",
+        "S534",
+        "S535",
+        "S536",
+        "S537",
+        "S538",
+        "S539",
+        "S540",
+        "S541"
+      ],
+      "atom_id": "A14"
+    },
+    {
+      "nodeType": "evidence",
+      "stage": "05_evidence",
+      "name": "Quran attests Jesus' miracles but not Muhammad's",
+      "statementTechnical": "The Quran contains verses attributing miracles to Jesus but none to Muhammad.",
+      "statementPlain": "Even the Quran says Jesus did miracles, but not Muhammad.",
+      "falsificationCondition": "",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "feedsInto",
+          "target": "",
+          "grade": "structural_identity",
+          "propagates": "true"
+        }
+      ],
+      "source_sentences": [
+        "S667"
+      ],
+      "atom_id": "A15"
+    },
+    {
+      "nodeType": "kill",
+      "stage": "06_falsification",
+      "name": "Kill condition for resurrection-entails-deity",
+      "statementTechnical": "If another religious founder were raised from the dead, or Jesus' kingdom teaching were false, the entailment collapses.",
+      "statementPlain": "If someone else rose from the dead, or Jesus was wrong about the kingdom, the argument dies.",
+      "falsificationCondition": "",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "challenges",
+          "target": "",
+          "grade": "structural_identity",
+          "propagates": "true"
+        }
+      ],
+      "source_sentences": [
+        "S241",
+        "S242",
+        "S243",
+        "S264",
+        "S290",
+        "S291",
+        "S292"
+      ],
+      "atom_id": "A16"
+    },
+    {
+      "nodeType": "paper",
+      "stage": "07_paper",
+      "name": "Habermas, Volume 4 (resurrection theology and practice)",
+      "statementTechnical": "Volume 4 of Habermas's resurrection magnum opus; first half theological implications, second half practical.",
+      "statementPlain": "Gary's fourth volume on the resurrection.",
+      "falsificationCondition": "",
+      "verificationStatus": "informal",
+      "challengeStatus": "unchallenged",
+      "edges": [
+        {
+          "type": "expands",
+          "target": "",
+          "grade": "structural_identity",
+          "propagates": "true"
+        }
+      ],
+      "source_sentences": [
+        "S006",
+        "S011",
+        "S019",
+        "S041",
+        "S061",
+        "S069",
+        "S075",
+        "S101"
+      ],
+      "atom_id": "A17"
+    },
+    {
+      "nodeType": "paper",
+      "stage": "07_paper",
+      "name": "Habermas, Volume 2 (Hume and evidential updates)",
+      "statementTechnical": "Volume 2 contains ~130 pages on David Hume and 17-18 empirical rebuttals.",
+      "statementPlain": "Gary's second volume answers Hume.",
+      "falsificationCondition": "",
+      "verificationStatus": "informal",
+      "challengeStatus": "unchallenged",
+      "edges": [
+        {
+          "type": "feedsInto",
+          "target": "",
+          "grade": "structural_identity",
+          "propagates": "true"
+        }
+      ],
+      "source_sentences": [
+        "S098",
+        "S475",
+        "S476",
+        "S477",
+        "S478",
+        "S516"
+      ],
+      "atom_id": "A18"
+    },
+    {
+      "nodeType": "raw",
+      "stage": "00_inbox_working",
+      "name": "Personal updates (wife's cancer, book counts)",
+      "statementTechnical": "Habermas reports his wife's stage-3 pancreatic cancer and 52 books, ~30 on resurrection.",
+      "statementPlain": "Gary talks about his wife's illness and how many books he's written.",
+      "falsificationCondition": "",
+      "verificationStatus": "informal",
+      "challengeStatus": "unchallenged",
+      "edges": [],
+      "source_sentences": [
+        "S012",
+        "S027",
+        "S029",
+        "S030",
+        "S042",
+        "S043",
+        "S044",
+        "S045",
+        "S046"
+      ],
+      "atom_id": "A19"
+    }
+  ]
+}

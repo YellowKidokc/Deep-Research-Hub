@@ -1,0 +1,316 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2 Final//EN"><html><head>
+<title>Logic</title>
+<meta name="description" content="Logic">
+<meta name="keywords" content="axioms">
+<meta name="resource-type" content="document">
+<meta name="distribution" content="global">
+
+<meta name="Generator" content="LaTeX2HTML v2008">
+<meta http-equiv="Content-Style-Type" content="text/css">
+
+<link rel="STYLESHEET" href="axioms.css">
+
+<link rel="next" href="What_s_Axiom.html">
+<link rel="previous" href="Formal_Set_Theory.html">
+<link rel="up" href="Reason_its_Limitations.html">
+<link rel="next" href="Formal_Problem_with.html">
+</head>
+
+<body bgcolor="#FFFFFF" text="BLACK" link="BLUE" alink="BLUE" vlink="RED">
+<!--Navigation Panel-->
+
+<a name="tex2html748" href="Formal_Problem_with.html">
+<img width="20" height="20" align="BOTTOM" border="0" alt="next" src="next.png"></a> <a name="tex2html749" href="Formal_Problem_with.html">The Formal Problem with the Laws of Thought</a>
+<br>
+
+<a name="tex2html738" href="Summary.html">
+<img width="20" height="20" align="BOTTOM" border="0" alt="previous" src="prev.png"></a> <a name="tex2html739" href="Summary.html">Summary</a>
+<br>
+ &nbsp; <strong>  <a name="tex2html747" href="Contents.html">Contents</a></strong>
+ &nbsp;|&nbsp; <a href="http://www.phy.duke.edu/~rgb" onmouseover="return escape('rgb Home')">rgb Home</a> &nbsp;|&nbsp;
+<a href="http://www.phy.duke.edu/~rgb/Philosophy/philosophy.php" onmouseover="return escape('Philosophy Home')">Philosophy Home</a> &nbsp;|&nbsp;
+<a href="http://www.phy.duke.edu/~rgb/Philosophy/axioms.php" onmouseover="return escape('&lt;i&gt;Axioms&lt;/i&gt;')"><i>Axioms</i></a> &nbsp;|&nbsp;<br><hr>
+Other Books by rgb: &nbsp;|&nbsp;
+<a href="http://www.phy.duke.edu/~rgb/Lilith/Lilith.php" onmouseover="return escape('&lt;i&gt;The Book of Lilith&lt;/i&gt;')"><i>The Book of Lilith</i></a> &nbsp;|&nbsp;
+
+<hr>
+<br>
+
+<!--End of Navigation Panel-->
+
+<h1><a name="SECTION02400000000000000000">
+Logic</a>
+</h1>
+
+<p>
+In the previous chapters we have seen how the Laws of Thought, as one of
+the basic tenets of Logic, are in fact quite troublesome and not at all
+``obvious truths''.  Since they are generally used to <em>determine</em>
+truth in an extensible manner, this is a problem.  We also saw that to
+make the way they are usually framed in English (at least) <em>precise</em>
+and to <em>not admit existential paradoxes</em>, we had to try to formulate
+them in terms of <em>existential set theory</em> (where set theory in
+general is ``the mother of all reasoning systems'').  Only in
+existential set theory (with a well-defined set Universe) could the
+abstractions of ``being'' or ``non-being'' be found, only by <em>extending</em> this set theory with the null Not a Set <img width="15" height="31" align="MIDDLE" border="0" src="img67.png" alt="$\mu$"> (while leaving
+the empty set as an element of set theory <em>within</em> the set-theoretic
+Universe in question) could we deal with certain paradoxical statements
+that appear to be perfectly understandable, well-formed English
+sentences that parse out <em>logically</em> to be nonsense, contradiction,
+to things that violate our intuitive ideas of true and false, existence
+or non-existence, or that simply fail to actually specify any set in our
+set Universe <em>including the empty set</em>.
+
+</p><p>
+In this chapter we'll home in on Logic per se, especially in the context
+of <em>symbolic reasoning systems</em> that are do not <em>strictly</em>
+reference an external existential reality that is what it is, but
+instead can be used (sometimes in enormously subtle ways!) to make
+self-referential assertions.  The purpose of this book is in no sense to
+denigrate the power, the beauty, the simplicity of Logic (or its cousin
+Mathematics); it is to point out that it is a sterile kind of beauty
+that cannot <em>in and of itself</em> give rise to <em>a single absolute
+truth</em> relevant to the physical world we live in, and that can all too
+easily implode, making <em>all</em> theorems in the system essentially
+unprovable.  There is a fundamental disconnect between experience and
+reason that cannot be filled in by reason, and reason applied to itself
+proves to be <em>unreason</em> if one is not reasonably careful!
+
+</p><p>
+The easiest way to accomplish our goals will be by presenting a very few
+examples of logical arguments (famous logical arguments at that) to
+illustrate the different <em>parts</em> of a system of logic.  We will see
+that systems of logical inference, without exception, can be described
+in terms of actions taken on sets (no surprise), that rules of inference
+are in some sense set-theoretical definitions or operations, and that to
+go <em>beyond</em> the elementary list-making and categorization operations
+of a raw set theory we have to <em>dress the sets up</em> with a mix of
+<em>definitions</em> and <em>axioms</em>.
+
+</p><p>
+A language is often viewed as a system of definitions, a dictionary.
+All dictionaries<a name="tex2html188" href="footnode.html#foot5504"><sup>4.1</sup></a> share a fundamental self-referentiality that makes
+them far from trivial logical objects.  Tarzan aside, it isn't at all
+obvious that real human beings are capable of taking a <em>dictionary
+for a strange language alone</em> and learning the language thus
+represented<a name="tex2html189" href="footnode.html#foot5696"><sup>4.2</sup></a>.  Indeed, there is considerable evidence to the contrary -
+without a Rosetta stone, without a context or pre-existing relationship
+in terms of which a decryption algorithm can seek information
+compressing patterns, the dictionary is <em>arbitrary</em> and can even
+<em>continuously change</em>.  Modern cryptography is based on this premise
+- it constructs a highly nontrivial ``dictionary'' so that statements
+are (ideally) indistinguishable from random noise, at which point there
+is no informational compression at all.  A further problem is that even
+within a single language with a fixed dictionary, all dictionary
+definitions in that language are <em>circular</em> - they are written in
+words in the dictionary, whose definitions are written in terms of other
+words, which are written in terms of <em>other</em> words, until eventually
+you find that the dictionary is nothing but a set of equivalence
+connections with a certain pattern.  Yessir, Tarzan's accomplishment
+puts John von Neumann, Shannon, and the rest of them<a name="tex2html190" href="footnode.html#foot5511"><sup>4.3</sup></a> right into the shade.
+
+</p><p>
+<em>If</em> we know something about the Universal set to which the
+dictionary applies, we can sometimes guess a consistent mapping between
+the ``real'' patterns of the subsets of that set and ``virtual''
+patterns of the dictionary terms, possibly aided by visual cues such as
+a ``picture of a tree'' next to its definition that help us establish at
+least some provisional mappings.  In essence, the dictionary represents
+a <em>code</em>, and to break the code we have to determine a homologous
+set of linkages between the dictionary and the system to which it
+refers.  Ultimately this task is made extraordinarily difficult because
+there is no guarantee that any homology will be unique.  Given the high
+degree of degeneracy (redundancy) of human language it will almost
+certainly <em>not</em> be unique<a name="tex2html191" href="footnode.html#foot5515"><sup>4.4</sup></a>.
+
+</p><p>
+Dictionaries do <em>not</em> intrinsically specify a system of logic,
+however, and a language is <em>not</em> simply the set of homologies
+represented within the dictionary and some reference system.
+Dictionaries (real ones, not idealized ones) are only rarely complete -
+perhaps when they reference some ``simple'' closed system that is
+capable of being <em>well-defined</em> (literally) such as the
+``dictionary'' of a computer or mathematical language.
+
+</p><p>
+Because of their intrinsic incompleteness - a complete dictionary for
+something like a real world would require the moral equivalent of a word
+for every event in space-time that <em>completely specifies the
+homology</em> between that event and all other events, plus the ability to
+represent <em>all higher order homologies</em> built on top of the raw
+physical homology - the ``language'' of human experience, of poetry, of
+illogic and paradox and contradiction - a dictionary is most generally
+an <em>approximate</em>, or <em>coarse grained</em> set of homologies, and
+requires something <em>more</em> to aid in the abstraction of <em>relationships</em> before anything like a system of logic ensues.
+
+</p><p>
+We've encountered just the tip of this particular iceberg in our
+discussions of sets, where ultimately the <em>dictionary</em> is what is
+required to identify <em>each object and sort it into its own identity
+set</em> when confronted with the Universal set.  It is not enough to
+identify an object as a ``tree'', it has to be able to identify an
+object as <em>this particular tree</em>, with its own unitary and unique
+existence, as of this particular moment in its existence.  Where in <em>fact</em> the tree is made up of a dynamically changing set of molecules,
+the molecules are made up of atoms, the atoms are made up of electrons
+and nuclei, the nuclei are made up of protons and neutrons, and the
+protons and neutrons are made up of quarks - ultimately a complete
+definition of <em>this</em> tree extends to the subatomic level, to the
+<em>fundamental</em> level, and extends through space and through time as a
+set of intertwining relationships.
+
+</p><p>
+<em>This</em> in turn doesn't necessarily recognize or encode the <em>relationships</em> and <em>structures</em> that emerge at the higher degrees of
+complexity.  It is not at all easy to understand <em>this</em> tree's
+particular role as a home for nesting birds and eventual source of
+firewood based on an understanding, however complete, of its subatomic
+structure<a name="tex2html192" href="footnode.html#foot5535"><sup>4.5</sup></a>.  Specifying relational operations is like
+specifying the syntax of the language.  We can define an apple quite
+precisely (if we try hard enough) as a concatenation of specific
+molecules that underwent a particular process of development in natural
+history without ever mentioning that apples are good to eat, that an
+apple a day keeps the doctor away, that a thrown apple can be used to
+bean someone on the head, that deer are attracted to apple trees in the
+back yard at certain times of year <em>because</em> they are good to eat
+except those yards of healthy people who bean deer on the noggins with
+apples any time they dare to show their furry little faces!
+
+</p><p>
+When we come to reason, we find that in addition to a set of definitions
+(that are fundamentally arbitrary and certainly not ``obvious truths''
+or ``provable'') we need to specify relationships in order to be able to
+<em>operate</em> on the objects that are appropriately defined within the
+theory.  I leave this term deliberately vague - operating on an object
+might (for example) be an action that ``transforms'' (in a sequential
+reasoning sense, not a temporal sense) a defined object from one state
+to another.  Or it might be viewed as a sorting or categorization
+operation, one that takes an object or subset from one set and places it
+in another.  Or it might assert a more abstract relationship between
+objects or collective subsets that we discover we need as we proceed.
+Ultimately such relationships function as <em>rules</em> of our system of
+reason.  There are two primary kinds of rules involved in formal logic.
+One is the so-called <em>rules of inference</em> which are (as their name
+suggests) a set of rules that permit one to ``infer'' provisional truth
+relationships.  The other is the set of <em>axioms</em> of the theory.
+
+</p><p>
+These two things are differentiated primarily by rules of inference
+being presumably <em>self-evident</em> statements - in fact, the Laws of
+Thought in disguise.  They presumably ``come with the territory'' of set
+theory, universes and mutually exclusive partitionings of identity
+relationships, although I'm hoping that the previous chapters were
+enough to make you a bit skeptical that this is in fact the case.
+Axioms per se are simply unprovable assumptions, the hypotheses that
+lead one to <em>this</em> system of reason (or <em>this</em> set theory, <em>this</em> branch of mathematics, <em>this</em> hypothesized universe, <em>this</em> computer's microarchitecture) and not <em>that</em>.
+
+</p><p>
+It is a fairly recent discovery that it is possible to choose <em>different</em> hypotheses and reason validly to <em>different</em> conclusions
+even in that most precise and self-evidently obvious of mathematical
+systems - ordinary geometry.  It is worth repeating like a mantra that
+while the sum of the angles in a triangle in <em>plane</em> geometry is
+<img width="15" height="15" align="BOTTOM" border="0" src="img58.png" alt="$\pi$"> radians, in an <em>infinity</em> of other two-dimensional geometries
+it is <em>not</em>.  If we change the assumption that the two-dimensional
+surface is ``flat'', the result goes away and is replaced by new,
+different results.
+
+</p><p>
+Eventually, I'm going to compress rules of inference into a <em>very
+limited</em> set based on the set theory above, which does <em>not</em> require
+things like the Law of Contradiction and the Law of Excluded Middle to
+universally operate <em>within</em> the Universal set of the theory but
+rather to differentiate that which is (in an <em>external</em> Universal
+set, including the empty set) and that which is not (is <img width="15" height="31" align="MIDDLE" border="0" src="img67.png" alt="$\mu$">).
+``True'' and ``False'' will be particular sets that may or may not be
+exclusive and exhaustive within set Universes that contain the system of
+reason being used (making it self-referential) distinct from ``Being''
+and ``Non-Being''.  The particular extension that permits it to be
+applied to True and False categories will then become an <em>axiom</em> of
+a <em>particular</em> system of reason applied to something <em>else</em> that
+is moderately concrete
+
+</p><p>
+This is a very good thing.  It uses these two rules only to state the
+truly obvious - ``Contradictions cannot occur'' - without specifying
+precisely what a contradiction <em>is</em> (which requires both definitions
+and other axioms and a set of objects that might or might not be
+contradictory).  In fact, perhaps it is better to think of it as being
+``Contradictions <em>do</em> not occur'' as an assertion or constraint on
+possible sets of symbolic reason that we wish to consider in case they
+prove <em>useful</em> in <em>particular contexts</em>.  The null set (the
+impossible) is not in the Universal set (the context in question),
+regardless of how objects are parsed into nonempty and empty or true and
+false sets <em>within</em> the context, the set Universe of the problem.
+
+</p><p>
+We <em>have to do this</em>.  One apparently ignored consequence of
+Gödel's theorem (which we will cover, sooner or later) is that the
+existence of a single undecideable statement in a theory, together with
+the usual rules for inference, makes all statements within the theory
+undecidable just as surely (and using the exact same mechanism) as the
+existence of a self-contradiction in the theory makes all statements in
+the theory self-contradictory.  In fact, the Law of Contradiction and
+Law of Excluded Middle can easily be shown to be <em>false</em> in any
+system of symbolic reasoning that admits Gödellian knots, which is
+pretty much any system of symbolic reasoning that matters, in
+particular, English (or other human languages).
+
+</p><p>
+This doesn't (ultimately) mean that they have to be abandoned.  What it
+means is that <em>they are not self-evident truths</em> but are rather <em>axioms</em>, assumptions that can be used, in a constrained or limited way,
+to build a system of contingent relationships.  <em>If</em> one can
+introduce an axiom or axioms that are capable of specifying <em>truth
+relationships</em> in the theory - a very big if indeed, since this is
+categorically impossible in nearly all interesting cases - one can
+build pretty little systems of classical Boolean logic with its
+Venn-diagrammatic disjunctive truth relationships.  Whether or not these
+systems are <em>useful</em> is a different matter entirely and will depend
+strongly on what our goals are!
+
+</p><p>
+Let's see what the problem is, though, as people have grown remarkably
+attached to classical Boolean logic because it is a limiting case of the
+way our brains are more or less hardwired to think, and is ``built in''
+to normal language and validated by all sorts of quotidian experience.
+It is a box that it is very, very difficult to think outside of, because
+most of what we think is implicitly derived using classical Boolean
+logic and one has to work hard to either clearly demonstrate its
+self-destructive nature in human language or other nontrivial symbolic
+systems or to bootstrap from it to a more general system of reason.
+
+</p><p>
+<br></p><hr>
+<!--Table of Child-Links-->
+<a name="CHILD_LINKS"><strong>Subsections</strong></a>
+
+<ul>
+<li><ul>
+<li><a name="tex2html750" href="Formal_Problem_with.html">The <em>Formal</em> Problem with the Laws of Thought</a>
+</li></ul></li></ul>
+<!--End of Table of Child-Links-->
+<hr>
+<!--Navigation Panel-->
+<a name="tex2html748" href="Formal_Problem_with.html">
+<img width="20" height="20" align="BOTTOM" border="0" alt="next" src="next.png"></a> <a name="tex2html749" href="Formal_Problem_with.html">The Formal Problem with the Laws of Thought</a>
+<br>
+
+<a name="tex2html738" href="Summary.html">
+<img width="20" height="20" align="BOTTOM" border="0" alt="previous" src="prev.png"></a> <a name="tex2html739" href="Summary.html">Summary</a>
+<br>
+ &nbsp; <strong>  <a name="tex2html747" href="Contents.html">Contents</a></strong>
+ &nbsp;|&nbsp; <a href="http://www.phy.duke.edu/~rgb" onmouseover="return escape('rgb Home')">rgb Home</a> &nbsp;|&nbsp;
+<a href="http://www.phy.duke.edu/~rgb/Philosophy/philosophy.php" onmouseover="return escape('Philosophy Home')">Philosophy Home</a> &nbsp;|&nbsp;
+<a href="http://www.phy.duke.edu/~rgb/Philosophy/axioms.php" onmouseover="return escape('&lt;i&gt;Axioms&lt;/i&gt;')"><i>Axioms</i></a> &nbsp;|&nbsp;<br><hr>
+Other Books by rgb: &nbsp;|&nbsp;
+<a href="http://www.phy.duke.edu/~rgb/Lilith/Lilith.php" onmouseover="return escape('&lt;i&gt;The Book of Lilith&lt;/i&gt;')"><i>The Book of Lilith</i></a> &nbsp;|&nbsp;
+
+<!--End of Navigation Panel-->
+<address>
+<hr>Copyright © <i>2010-01-21</i><br>
+
+Duke Physics Department <br>
+Box 90305 <br>
+Durham, NC 27708-0305
+
+</address>
+
+
+</body></html>

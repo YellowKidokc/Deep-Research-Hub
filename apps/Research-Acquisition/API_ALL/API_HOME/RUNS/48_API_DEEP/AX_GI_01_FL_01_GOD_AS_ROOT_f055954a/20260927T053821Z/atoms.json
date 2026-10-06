@@ -1,0 +1,685 @@
+{
+  "paper_uuid": "god-as-root-long-edition-9b69a4ff",
+  "title": "GOD AS ROOT - Long Edition",
+  "domainType": "theology",
+  "summary": "Long-form source edition arguing the Trinitarian God is the single unprovable Layer-0 axiom paying four debts (existence, distinction, relation, orientation); physics is the created medium/grammar for love, choice, and grace; ten physical laws compose a portrait matching Christ with agency as the repeated structural gap; the framework inverts 'God of the gaps' by reading God in the completions, names kill conditions in advance, and lays out the Cross-Resolution method, the 24-step Descent, progressive revelation, and the canon reading order.",
+  "atoms": [
+    {
+      "nodeType": "claim",
+      "stage": "01_canonical",
+      "name": "The Trinity Is the Single Ground Axiom",
+      "statementTechnical": "The Trinitarian God (aseity, perichoresis, love) is the one Layer-0 axiom from which existence, distinction, relation, and orientation derive; it is unprovable by design (DG1).",
+      "statementPlain": "God is the floor beneath everything; you can't prove Him because a provable axiom would rest on something deeper.",
+      "claimClass": "floor-axiom",
+      "falsificationCondition": "Demonstrate a deeper ground from which the Trinity derives, or show the four debts (existence, distinction, relation, orientation) are derivable without it.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "feedsInto",
+          "target": "",
+          "grade": "structural_identity",
+          "propagates": "true"
+        }
+      ],
+      "source_sentences": [
+        "S010",
+        "S011",
+        "S012",
+        "S013",
+        "S014",
+        "S015",
+        "S019",
+        "S020",
+        "S021",
+        "S022",
+        "S023",
+        "S032",
+        "S033",
+        "S034",
+        "S035",
+        "S036",
+        "S037",
+        "S038",
+        "S039",
+        "S040",
+        "S041",
+        "S042",
+        "S043",
+        "S044",
+        "S045"
+      ],
+      "notes": "Four debts: existence, distinction, relation, orientation.",
+      "atom_id": "A01"
+    },
+    {
+      "nodeType": "claim",
+      "stage": "01_canonical",
+      "name": "Physics Is the Created Medium, Not God",
+      "statementTechnical": "Physics is the ordered created medium enabling relation, consequence, choice, time, repair, embodiment, and love to be publicly meaningful; it is not grace and not the Creator.",
+      "statementPlain": "Physics is the grammar God speaks so creatures can exist, choose, and be redeemed — not God, not grace.",
+      "claimClass": "bridge",
+      "falsificationCondition": "Show a world where love, choice, consequence, and repair are real without any lawful physical medium, or show physics is identical to grace/God.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "dependsOn",
+          "target": "tp:theology/L0/C1",
+          "grade": "structural_identity",
+          "propagates": "true"
+        }
+      ],
+      "source_sentences": [
+        "S050",
+        "S056",
+        "S057",
+        "S058",
+        "S069",
+        "S070",
+        "S071",
+        "S073",
+        "S080",
+        "S081",
+        "S087",
+        "S095",
+        "S102",
+        "S110",
+        "S111",
+        "S113",
+        "S114",
+        "S115",
+        "S116",
+        "S117",
+        "S118",
+        "S119",
+        "S120",
+        "S121"
+      ],
+      "atom_id": "A02"
+    },
+    {
+      "nodeType": "claim",
+      "stage": "01_canonical",
+      "name": "Ten Laws Compose a Portrait of Christ",
+      "statementTechnical": "Measured properties of ten physical structures (gravity, strong force, EM, mass-energy, thermodynamics, information, relativity, QM, weak force, coherence) read together compose a specific personal portrait; agency is the identical missing variable in all ten.",
+      "statementPlain": "Read the ten laws together and they describe one Person; the same gap — agency — appears ten times.",
+      "claimClass": "bridge",
+      "falsificationCondition": "Produce a force whose measured properties have no matching spiritual structure, or show the ten mappings are arbitrary/coincidental under adversarial test.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "dependsOn",
+          "target": "tp:theology/L0/C1",
+          "grade": "structural_analogy",
+          "propagates": "true"
+        }
+      ],
+      "source_sentences": [
+        "S124",
+        "S128",
+        "S129",
+        "S130",
+        "S132",
+        "S139",
+        "S143",
+        "S149",
+        "S158",
+        "S164",
+        "S171",
+        "S235",
+        "S236",
+        "S237",
+        "S238",
+        "S239",
+        "S240",
+        "S241",
+        "S242",
+        "S243",
+        "S244",
+        "S245",
+        "S246",
+        "S248",
+        "S249",
+        "S250"
+      ],
+      "atom_id": "A03"
+    },
+    {
+      "nodeType": "claim",
+      "stage": "01_canonical",
+      "name": "God in the Completions, Not the Gaps",
+      "statementTechnical": "The framework reads ten fully explained laws, not unexplained gaps; the more science explains, the clearer the portrait, so it does not bet on science failing.",
+      "statementPlain": "God isn't hiding in what we don't know; He's written into what we do know.",
+      "claimClass": "prediction",
+      "falsificationCondition": "Show that the portrait depends on scientific ignorance, i.e., that fuller explanation dissolves the structural match.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "challenges",
+          "target": "",
+          "grade": "structural_analogy",
+          "propagates": "true"
+        }
+      ],
+      "source_sentences": [
+        "S252",
+        "S259",
+        "S260",
+        "S261",
+        "S262",
+        "S263",
+        "S264",
+        "S265",
+        "S266",
+        "S267",
+        "S268",
+        "S269",
+        "S270",
+        "S271",
+        "S272"
+      ],
+      "atom_id": "A04"
+    },
+    {
+      "nodeType": "claim",
+      "stage": "01_canonical",
+      "name": "The Necessary Ground Argument",
+      "statementTechnical": "If closed systems decay and the universe persists, an external source must be necessary, self-grounding, origin of coherence, active, and personal; these map to aseity, self-sufficiency, eternality, omnipresence, Logos, providence, personhood.",
+      "statementPlain": "The universe needs a source outside itself that is necessary, self-grounding, active, and personal — the God theologians already described.",
+      "claimClass": "theorem",
+      "falsificationCondition": "Show the universe is a closed system that sustains itself, or that the five required properties are jointly incoherent or unnecessary.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "dependsOn",
+          "target": "tp:theology/L0/C1",
+          "grade": "structural_isomorphism",
+          "propagates": "true"
+        }
+      ],
+      "source_sentences": [
+        "S290",
+        "S291",
+        "S293",
+        "S294",
+        "S295",
+        "S296",
+        "S297",
+        "S298",
+        "S299",
+        "S300",
+        "S301",
+        "S302",
+        "S303",
+        "S304",
+        "S305",
+        "S306",
+        "S307",
+        "S308",
+        "S309",
+        "S310",
+        "S311",
+        "S312"
+      ],
+      "atom_id": "A05"
+    },
+    {
+      "nodeType": "claim",
+      "stage": "01_canonical",
+      "name": "The Descent: 24 Steps to the Cross",
+      "statementTechnical": "A 24-step causal chain from God's creation through distinction, information, relation, value, moral valence, agency, decay, adversarial refusal, debt, justice, mercy, and grace converges at Christ.",
+      "statementPlain": "Follow being all the way down and you arrive at the Cross.",
+      "claimClass": "bridge",
+      "falsificationCondition": "Identify a step that does not follow, or show the chain can terminate elsewhere without smuggling premises.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "dependsOn",
+          "target": "tp:theology/L0/C1",
+          "grade": "structural_identity",
+          "propagates": "true"
+        }
+      ],
+      "source_sentences": [
+        "S315",
+        "S316",
+        "S317",
+        "S318",
+        "S319",
+        "S320",
+        "S321",
+        "S322",
+        "S323",
+        "S324",
+        "S325",
+        "S326",
+        "S327",
+        "S328",
+        "S329",
+        "S330",
+        "S331",
+        "S332",
+        "S333",
+        "S334",
+        "S335",
+        "S336",
+        "S337",
+        "S338",
+        "S339",
+        "S340",
+        "S341"
+      ],
+      "atom_id": "A06"
+    },
+    {
+      "nodeType": "claim",
+      "stage": "01_canonical",
+      "name": "Progressive Revelation as Reference-Frame Building",
+      "statementTechnical": "God reveals incrementally (slavery, wilderness, Law, prophets, exile) because receivers lack the reference frame to parse the full signal at once.",
+      "statementPlain": "God teaches like a teacher: you don't teach calculus to a child who can't count.",
+      "claimClass": "bridge",
+      "falsificationCondition": "Show revelation is not progressive or that the reference-frame account adds nothing over arbitrary historical contingency.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "dependsOn",
+          "target": "tp:theology/L0/C1",
+          "grade": "structural_analogy",
+          "propagates": "true"
+        }
+      ],
+      "source_sentences": [
+        "S343",
+        "S344",
+        "S345",
+        "S346",
+        "S347",
+        "S348",
+        "S349",
+        "S350",
+        "S351",
+        "S352",
+        "S353",
+        "S354"
+      ],
+      "atom_id": "A07"
+    },
+    {
+      "nodeType": "claim",
+      "stage": "01_canonical",
+      "name": "The Cross-Resolution Method",
+      "statementTechnical": "Every major claim must be read in its proper register (theology, physics, mathematics, lived reality, bridge); no register may smuggle in another, and bridges must be marked with strength and limits.",
+      "statementPlain": "Test each claim where it belongs; mark the bridges honestly; no hidden upgrades.",
+      "claimClass": "definition",
+      "falsificationCondition": "Show the method permits smuggling (e.g., theology rescuing weak physics) or that it cannot be applied consistently.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "feedsInto",
+          "target": "",
+          "grade": "structural_identity",
+          "propagates": "true"
+        }
+      ],
+      "source_sentences": [
+        "S274",
+        "S276",
+        "S277",
+        "S278",
+        "S279",
+        "S280",
+        "S281",
+        "S282",
+        "S283",
+        "S284",
+        "S285",
+        "S286",
+        "S287",
+        "S288"
+      ],
+      "atom_id": "A08"
+    },
+    {
+      "nodeType": "claim",
+      "stage": "01_canonical",
+      "name": "The Empty Tomb as Physics Claim",
+      "statementTechnical": "Resurrection entails two physics claims: information survives destruction of its container, and entropy is locally reversed by coupling to an external source.",
+      "statementPlain": "The empty tomb says the pattern outlives the substrate and decay gets reversed from outside.",
+      "claimClass": "prediction",
+      "falsificationCondition": "Show information cannot survive substrate destruction in principle, or that no external coupling can locally reverse entropy.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "dependsOn",
+          "target": "tp:theology/L0/C1",
+          "grade": "structural_analogy",
+          "propagates": "true"
+        }
+      ],
+      "source_sentences": [
+        "S219",
+        "S220",
+        "S221",
+        "S222",
+        "S223"
+      ],
+      "atom_id": "A09"
+    },
+    {
+      "nodeType": "evidence",
+      "stage": "05_evidence",
+      "name": "Pre-Human Math",
+      "statementTechnical": "E=mc^2 operated for 4.6 billion years before Einstein formulated it.",
+      "falsificationCondition": "Show the equation is observer-dependent or did not hold pre-formulation.",
+      "verificationStatus": "informal",
+      "challengeStatus": "unchallenged",
+      "edges": [
+        {
+          "type": "feedsInto",
+          "target": "tp:theology/L0/C4",
+          "grade": "independent",
+          "propagates": "false"
+        }
+      ],
+      "source_sentences": [
+        "S357",
+        "S358"
+      ],
+      "atom_id": "A10"
+    },
+    {
+      "nodeType": "evidence",
+      "stage": "05_evidence",
+      "name": "Fine-Tuning of the Cosmological Constant",
+      "statementTechnical": "Cosmological constant tuned to 1 part in 10^120.",
+      "falsificationCondition": "Show the tuning is necessary or the figure is wrong.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "feedsInto",
+          "target": "tp:theology/L0/C4",
+          "grade": "independent",
+          "propagates": "false"
+        }
+      ],
+      "source_sentences": [
+        "S360",
+        "S361",
+        "S362"
+      ],
+      "atom_id": "A11"
+    },
+    {
+      "nodeType": "evidence",
+      "stage": "05_evidence",
+      "name": "Hubble Tension",
+      "statementTechnical": "Universe expands at two rates depending on measurement; 5-sigma discrepancy.",
+      "falsificationCondition": "Show the discrepancy resolves within standard models without new framework.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "feedsInto",
+          "target": "tp:theology/L0/C4",
+          "grade": "independent",
+          "propagates": "false"
+        }
+      ],
+      "source_sentences": [
+        "S364",
+        "S365",
+        "S366"
+      ],
+      "atom_id": "A12"
+    },
+    {
+      "nodeType": "kill",
+      "stage": "06_falsification",
+      "name": "Honest Limit / Kill Conditions",
+      "statementTechnical": "The match could be coincidence; a skeptic could write the opposite essay; the framework needs science to keep succeeding and the pattern to keep holding.",
+      "falsificationCondition": "A force with no matching structure, or collapse of the ten-law pattern under adversarial testing.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "challenges",
+          "target": "tp:theology/L0/C3",
+          "grade": "structural_identity",
+          "propagates": "true"
+        }
+      ],
+      "source_sentences": [
+        "S225",
+        "S226",
+        "S227",
+        "S228",
+        "S229",
+        "S230"
+      ],
+      "atom_id": "A13"
+    },
+    {
+      "nodeType": "question",
+      "stage": "09_everyday",
+      "name": "Why Does the World Need Physics?",
+      "statementTechnical": "If God is sovereign, why gravity, entropy, quantum uncertainty, a running-down universe?",
+      "falsificationCondition": "Show physics is unnecessary for creaturely love, choice, and repair.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "feedsInto",
+          "target": "tp:theology/L0/C2",
+          "grade": "structural_identity",
+          "propagates": "true"
+        }
+      ],
+      "source_sentences": [
+        "S050",
+        "S051",
+        "S052",
+        "S053",
+        "S054"
+      ],
+      "atom_id": "A14"
+    },
+    {
+      "nodeType": "question",
+      "stage": "09_everyday",
+      "name": "Why a Tree?",
+      "statementTechnical": "The tree is free will made visible; freedom without a real choice is a word.",
+      "falsificationCondition": "Show a genuine choice is possible without any real alternative.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "feedsInto",
+          "target": "tp:theology/L0/C6",
+          "grade": "structural_analogy",
+          "propagates": "true"
+        }
+      ],
+      "source_sentences": [
+        "S202",
+        "S203",
+        "S204",
+        "S205",
+        "S206",
+        "S207",
+        "S208"
+      ],
+      "atom_id": "A15"
+    },
+    {
+      "nodeType": "question",
+      "stage": "09_everyday",
+      "name": "Why Not Make God Impossible to Miss?",
+      "statementTechnical": "The adversary saw God directly and rebelled; proximity never guaranteed loyalty; faith is the proof of love proximity cannot fake.",
+      "falsificationCondition": "Show that direct sight guarantees loyalty.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "feedsInto",
+          "target": "tp:theology/L0/C6",
+          "grade": "structural_analogy",
+          "propagates": "true"
+        }
+      ],
+      "source_sentences": [
+        "S209",
+        "S210",
+        "S211",
+        "S212",
+        "S213",
+        "S214"
+      ],
+      "atom_id": "A16"
+    },
+    {
+      "nodeType": "question",
+      "stage": "09_everyday",
+      "name": "What About the Cross?",
+      "statementTechnical": "The uncorrupted pattern voluntarily enters the broken system; 'It is finished' is successful deployment; the veil tears top-down.",
+      "falsificationCondition": "Show the cross is defeat rather than the mechanism that ends the adversary.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "feedsInto",
+          "target": "tp:theology/L0/C6",
+          "grade": "structural_analogy",
+          "propagates": "true"
+        }
+      ],
+      "source_sentences": [
+        "S215",
+        "S216",
+        "S217",
+        "S218"
+      ],
+      "atom_id": "A17"
+    },
+    {
+      "nodeType": "paper",
+      "stage": "07_paper",
+      "name": "GOD AS ROOT - Long Edition",
+      "statementTechnical": "Preserved long-form source edition; candidate, not canonized.",
+      "falsificationCondition": "",
+      "verificationStatus": "informal",
+      "challengeStatus": "unchallenged",
+      "edges": [
+        {
+          "type": "feedsInto",
+          "target": "",
+          "grade": "structural_identity",
+          "propagates": "false"
+        }
+      ],
+      "source_sentences": [
+        "S001",
+        "S002",
+        "S003",
+        "S004",
+        "S005",
+        "S006",
+        "S007",
+        "S008"
+      ],
+      "atom_id": "A18"
+    },
+    {
+      "nodeType": "series",
+      "stage": "11_articles",
+      "name": "Canon Reading Order",
+      "statementTechnical": "Story first, equations second, gauntlet last; 7Q Classifier is the gauntlet, not the doorway.",
+      "falsificationCondition": "",
+      "verificationStatus": "informal",
+      "challengeStatus": "unchallenged",
+      "edges": [
+        {
+          "type": "feedsInto",
+          "target": "",
+          "grade": "structural_identity",
+          "propagates": "false"
+        }
+      ],
+      "source_sentences": [
+        "S373",
+        "S374",
+        "S375",
+        "S376",
+        "S377",
+        "S378",
+        "S379",
+        "S380",
+        "S381",
+        "S382",
+        "S383",
+        "S384",
+        "S385",
+        "S386",
+        "S387",
+        "S388",
+        "S389",
+        "S390",
+        "S391",
+        "S392",
+        "S393",
+        "S394",
+        "S395"
+      ],
+      "atom_id": "A19"
+    },
+    {
+      "nodeType": "check",
+      "stage": "10_worldcheck",
+      "name": "Cross-Resolution Status Table",
+      "statementTechnical": "Theology strong; lived reality strong; physics modest; bridge declared; mathematics partially formalized.",
+      "falsificationCondition": "",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "feedsInto",
+          "target": "tp:theology/L0/C7",
+          "grade": "structural_identity",
+          "propagates": "false"
+        }
+      ],
+      "source_sentences": [
+        "S397",
+        "S398",
+        "S399",
+        "S400",
+        "S401",
+        "S402"
+      ],
+      "atom_id": "A20"
+    },
+    {
+      "nodeType": "raw",
+      "stage": "00_inbox_working",
+      "name": "Semantic Tags Block",
+      "statementTechnical": "Trailing semantic tag block (Idea/Question/Decision/Task/Fact/Quote/Person/Term/Source/Insight) with UUIDs.",
+      "falsificationCondition": "",
+      "verificationStatus": "informal",
+      "challengeStatus": "unchallenged",
+      "edges": [],
+      "source_sentences": [
+        "S414"
+      ],
+      "notes": "Unclassifiable metadata; preserved as raw.",
+      "atom_id": "A21"
+    }
+  ]
+}

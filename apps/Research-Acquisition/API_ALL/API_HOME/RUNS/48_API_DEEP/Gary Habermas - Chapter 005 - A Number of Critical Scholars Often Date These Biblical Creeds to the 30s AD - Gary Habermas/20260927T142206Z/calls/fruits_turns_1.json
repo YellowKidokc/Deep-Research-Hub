@@ -1,0 +1,236 @@
+{
+  "name": "fruits_turns_1",
+  "parsed": {
+    "range": "T001-T011",
+    "turns": [
+      {
+        "id": "T001",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T002",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "walks through dating of creeds step by step",
+          "kindness": "explains reasoning accessibly for listener",
+          "faithfulness": "cites common scholarly dates fairly",
+          "self_control": "hedges with 'most common date' qualifiers"
+        }
+      },
+      {
+        "id": "T003",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "lays out evidence book by book",
+          "kindness": "defines terms for listener",
+          "faithfulness": "cites Romans and Corinthians precisely",
+          "self_control": "stays on the dating question"
+        }
+      },
+      {
+        "id": "T004",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T005",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "why": {
+          "faithfulness": "notes Ehrman's written 30s dating despite denial"
+        }
+      },
+      {
+        "id": "T006",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "why": {
+          "faithfulness": "cites specific count of Ehrman's statements"
+        }
+      },
+      {
+        "id": "T007",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "patience": "explains Jesus Seminar ratings carefully",
+          "kindness": "clarifies criteria for listener",
+          "faithfulness": "cites Jesus Seminar fairly despite disagreement",
+          "gentleness": "fair to opponents' data",
+          "self_control": "precise about percentages"
+        }
+      },
+      {
+        "id": "T008",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "why": {
+          "faithfulness": "quotes Romans 10:9 accurately"
+        }
+      },
+      {
+        "id": "T009",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "why": {
+          "faithfulness": "cites Jesus Seminar's own admission"
+        }
+      },
+      {
+        "id": "T010",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "patience": "explains eyewitness argument step by step",
+          "kindness": "defines the seven undisputed books",
+          "faithfulness": "grants critics' points fairly",
+          "gentleness": "fair to skeptical scholars",
+          "self_control": "hedges with 'very common'"
+        }
+      },
+      {
+        "id": "T011",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "why": {
+          "faithfulness": "cites Jesus Seminar and other scholars",
+          "self_control": "qualifies with 'I would think'"
+        }
+      }
+    ]
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "fruits_turns_1",
+      "attempt": 1,
+      "text": "{\"range\": \"T001-T011\", \"turns\": [\n  {\"id\": \"T001\", \"speaker\": \"host\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"T002\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,0,1,0,1], \"why\": {\"patience\": \"walks through dating of creeds step by step\", \"kindness\": \"explains reasoning accessibly for listener\", \"faithfulness\": \"cites common scholarly dates fairly\", \"self_control\": \"hedges with 'most common date' qualifiers\"}},\n  {\"id\": \"T003\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,0,1,0,1], \"why\": {\"patience\": \"lays out evidence book by book\", \"kindness\": \"defines terms for listener\", \"faithfulness\": \"cites Romans and Corinthians precisely\", \"self_control\": \"stays on the dating question\"}},\n  {\"id\": \"T004\", \"speaker\": \"host\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"T005\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,1,0,0], \"why\": {\"faithfulness\": \"notes Ehrman's written 30s dating despite denial\"}},\n  {\"id\": \"T006\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,1,0,0], \"why\": {\"faithfulness\": \"cites specific count of Ehrman's statements\"}},\n  {\"id\": \"T007\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,0,1,1,1], \"why\": {\"patience\": \"explains Jesus Seminar ratings carefully\", \"kindness\": \"clarifies criteria for listener\", \"faithfulness\": \"cites Jesus Seminar fairly despite disagreement\", \"gentleness\": \"fair to opponents' data\", \"self_control\": \"precise about percentages\"}},\n  {\"id\": \"T008\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,1,0,0], \"why\": {\"faithfulness\": \"quotes Romans 10:9 accurately\"}},\n  {\"id\": \"T009\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,1,0,0], \"why\": {\"faithfulness\": \"cites Jesus Seminar's own admission\"}},\n  {\"id\": \"T010\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,0,1,1,1], \"why\": {\"patience\": \"explains eyewitness argument step by step\", \"kindness\": \"defines the seven undisputed books\", \"faithfulness\": \"grants critics' points fairly\", \"gentleness\": \"fair to skeptical scholars\", \"self_control\": \"hedges with 'very common'\"}},\n  {\"id\": \"T011\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,1,0,1], \"why\": {\"faithfulness\": \"cites Jesus Seminar and other scholars\", \"self_control\": \"qualifies with 'I would think'\"}}\n]}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 3180,
+      "completion_tokens": 772,
+      "attempts": 1,
+      "elapsed_seconds": 3.7659999999959837,
+      "started_at": "2026-09-27T14:22:06.675819+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T14:22:10.434397+00:00",
+      "tokens": 3952
+    }
+  ],
+  "prompt_sha256": "5151bad5e78c1384e47b815db853315fd7cab1c357c73d6b6ce50170d3f92e30",
+  "tokens": 3952
+}

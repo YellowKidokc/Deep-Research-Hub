@@ -1,0 +1,1151 @@
+package nu.marginalia.search.svc;
+
+import com.google.gson.Gson;
+import com.google.inject.Inject;
+import com.google.inject.Singleton;
+import com.zaxxer.hikari.HikariDataSource;
+import io.jooby.Context;
+import io.jooby.MapModelAndView;
+import io.jooby.ModelAndView;
+import io.jooby.value.Value;
+import io.jooby.annotation.*;
+import nu.marginalia.api.domains.DomainInfoClient;
+import nu.marginalia.api.domains.RpcDomainInfoResponse;
+import nu.marginalia.api.domains.model.SimilarDomain;
+import nu.marginalia.api.domsample.DomSampleClient;
+import nu.marginalia.api.domsample.RpcDomainSampleRequests;
+import nu.marginalia.api.domsample.RpcOutgoingRequest;
+import nu.marginalia.api.feeds.FeedsClient;
+import nu.marginalia.api.feeds.RpcFeed;
+import nu.marginalia.api.feeds.RpcFeedItem;
+import nu.marginalia.api.livecapture.LiveCaptureClient;
+import nu.marginalia.browse.RandomDomainSuggestionsDao;
+import nu.marginalia.db.DbDomainQueries;
+import nu.marginalia.ddtrackergradar.DDGTrackerData;
+import nu.marginalia.ddtrackergradar.model.DDGTDomain;
+import nu.marginalia.domclassifier.DomSampleClassification;
+import nu.marginalia.domclassifier.DomSampleClassifier;
+import nu.marginalia.model.EdgeDomain;
+import nu.marginalia.model.EdgeUrl;
+import nu.marginalia.model.gson.GsonFactory;
+import nu.marginalia.scrapestopper.ScrapeStopper;
+import nu.marginalia.screenshot.ScreenshotService;
+import nu.marginalia.search.ScrapeStopperInterceptor;
+import nu.marginalia.search.SearchOperator;
+import nu.marginalia.search.model.GroupedUrlDetails;
+import nu.marginalia.search.model.NavbarModel;
+import nu.marginalia.search.model.ResultsPage;
+import nu.marginalia.search.model.UrlDetails;
+import nu.marginalia.search.svc.SearchFlagSiteService.FlagSiteFormData;
+import nu.marginalia.service.server.RateLimiter;
+import org.jetbrains.annotations.NotNull;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import javax.annotation.Nullable;
+import javax.swing.text.NumberFormatter;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.URLDecoder;
+import java.nio.charset.StandardCharsets;
+import java.sql.SQLException;
+import java.text.NumberFormat;
+import java.time.Duration;
+import java.time.Instant;
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
+import java.time.temporal.Temporal;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.function.Supplier;
+import java.util.zip.GZIPInputStream;
+
+import static nu.marginalia.search.svc.SearchSiteInfoService.TrafficSample.*;
+
+@Singleton
+public class SearchSiteInfoService {
+    private static final Logger logger = LoggerFactory.getLogger(SearchSiteInfoService.class);
+    private final Gson gson = GsonFactory.get();
+
+    private final SearchOperator searchOperator;
+    private final DomainInfoClient domainInfoClient;
+    private final SearchFlagSiteService flagSiteService;
+    private final DbDomainQueries domainQueries;
+    private final FeedsClient feedsClient;
+    private final LiveCaptureClient liveCaptureClient;
+    private final DomSampleClient domSampleClient;
+    private final ScreenshotService screenshotService;
+    private final RandomDomainSuggestionsDao randomDomainSuggestionsDao;
+
+    private final HikariDataSource dataSource;
+    private final DDGTrackerData ddgTrackerData;
+    private final ScrapeStopperInterceptor scrapeStopperInterceptor;
+    private final SearchSiteSubscriptionService searchSiteSubscriptions;
+
+    private final RateLimiter softRateLimiter = RateLimiter.queryPerMinuteLimiter(30);
+    private final RateLimiter hardRateLimiter = RateLimiter.queryPerMinuteLimiter(60);
+
+    private final DomSampleClassifier domSampleClassifier;
+
+    @Inject
+    public SearchSiteInfoService(SearchOperator searchOperator,
+                                 DomainInfoClient domainInfoClient,
+                                 SearchFlagSiteService flagSiteService,
+                                 DbDomainQueries domainQueries,
+                                 FeedsClient feedsClient,
+                                 LiveCaptureClient liveCaptureClient,
+                                 ScreenshotService screenshotService,
+                                 RandomDomainSuggestionsDao randomDomainSuggestionsDao,
+                                 HikariDataSource dataSource,
+                                 DomSampleClient domSampleClient,
+                                 DomSampleClassifier domSampleClassifier,
+                                 DDGTrackerData ddgTrackerData,
+                                 ScrapeStopperInterceptor scrapeStopperInterceptor,
+                                 SearchSiteSubscriptionService searchSiteSubscriptions)
+    {
+        this.searchOperator = searchOperator;
+        this.domainInfoClient = domainInfoClient;
+        this.flagSiteService = flagSiteService;
+        this.domainQueries = domainQueries;
+
+        this.feedsClient = feedsClient;
+        this.liveCaptureClient = liveCaptureClient;
+        this.screenshotService = screenshotService;
+        this.randomDomainSuggestionsDao = randomDomainSuggestionsDao;
+        this.dataSource = dataSource;
+        this.domSampleClient = domSampleClient;
+        this.domSampleClassifier = domSampleClassifier;
+        this.ddgTrackerData = ddgTrackerData;
+        this.scrapeStopperInterceptor = scrapeStopperInterceptor;
+        this.searchSiteSubscriptions = searchSiteSubscriptions;
+
+        Thread.ofPlatform().name("Recently Added Domains Model Updater").start(this::modelUpdater);
+    }
+
+    private volatile SiteOverviewModel cachedOverviewModel = new SiteOverviewModel(List.of());
+
+    @GET
+    @Path("/site")
+    public ModelAndView<?> handleOverview(@QueryParam String domain) {
+        if (domain != null) {
+            // Handle what looks like URLs by parsing them and extracting the domain name
+            if (domain.contains(":") || domain.contains("/")) {
+                if (domain.contains("%")) {
+                    domain = URLDecoder.decode(domain, StandardCharsets.UTF_8);
+                }
+                domain = EdgeUrl.parse(domain)
+                            .map(EdgeUrl::getDomain)
+                            .map(EdgeDomain::toString)
+                            .orElse(domain);
+            }
+            // redirect to /site/domainName
+            return new MapModelAndView("redirect.jte", Map.of("url", "/site/"+domain.toLowerCase()));
+        }
+
+        return new MapModelAndView("siteinfo/start.jte",
+                Map.of("navbar", NavbarModel.SITEINFO,
+                        "model", cachedOverviewModel));
+    }
+
+    private void modelUpdater() {
+        while (!Thread.interrupted()) {
+            List<SiteOverviewModel.DiscoveredDomain> domains = new ArrayList<>();
+
+            // This query can be quite expensive, so we can't run it on demand
+            // for every request. Instead, we run it every 15 minutes and cache
+            // the result.
+
+            try (var conn = dataSource.getConnection();
+                 var stmt = conn.prepareStatement("""
+                    SELECT DOMAIN_NAME, DISCOVER_DATE
+                    FROM EC_DOMAIN
+                    WHERE NODE_AFFINITY = 0
+                    ORDER BY ID DESC
+                    LIMIT 10
+                    """))
+            {
+                var rs = stmt.executeQuery();
+                while (rs.next()) {
+                    domains.add(new SiteOverviewModel.DiscoveredDomain(
+                            rs.getString("DOMAIN_NAME"),
+                            rs.getString("DISCOVER_DATE"))
+                    );
+                }
+            } catch (SQLException ex) {
+                logger.warn("Failed to get recently added domains: {}", ex.getMessage());
+            }
+
+            cachedOverviewModel = new SiteOverviewModel(domains);
+
+            try {
+                TimeUnit.MINUTES.sleep(15);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                break;
+            }
+        }
+    }
+
+    public record SiteOverviewModel(List<DiscoveredDomain> domains) {
+        public record DiscoveredDomain(String name, String timestamp) {}
+    }
+
+    @GET
+    @Path("/site/{domainName}")
+    public ModelAndView<?>  handle(
+            Context context,
+            @PathParam String domainName,
+            @QueryParam String view,
+            @QueryParam String cursor
+    ) throws SQLException, ExecutionException, TimeoutException {
+
+        if (null == domainName || domainName.isBlank()) {
+            // If we don't get a domain name, we redirect to the /site endpoint
+            return new MapModelAndView("redirect.jte", Map.of("url", "/site"));
+        }
+
+        view = Objects.requireNonNullElse(view, "info");
+
+        ScrapeStopperInterceptor.InterceptionResult interceptResult
+                = scrapeStopperInterceptor.intercept("SI", domainName, softRateLimiter, context);
+
+        if (interceptResult instanceof ScrapeStopperInterceptor.InterceptRedirect redir) {
+            return new MapModelAndView("siteinfo/main.jte",
+                    Map.of("model",
+                            new ScrapeStopperModel(redir.sst(), redir.waitTime(), domainName, redir.redirUrl()),
+                            "navbar", NavbarModel.SITEINFO)
+            );
+        }
+        if (interceptResult instanceof ScrapeStopperInterceptor.InterceptPrefetch prefetch) {
+            throw new NoSuchElementException();
+        }
+
+        String sst = interceptResult.sst();
+
+        SiteInfoModel model = switch (view) {
+            case "links" -> listLinks(context, domainName, sst, cursor);
+            case "docs" -> listDocs(context, domainName, sst, cursor);
+            case "info" -> listInfo(context, domainName, sst);
+            case "traffic" -> listSiteRequests(context, domainName, sst);
+            case "availability" -> listAvailabilityEvents(context, domainName, sst);
+            case "secevents" -> listSecurityEvents(context, domainName, sst);
+            case "secdetails" -> getSecurityChangeDetails(context, domainName, sst);
+            case "report" -> reportSite(domainName, sst);
+            default -> listInfo(context, domainName, sst);
+        };
+
+        return new MapModelAndView("siteinfo/main.jte",
+                Map.of("model", model, "navbar", NavbarModel.SITEINFO));
+    }
+
+    @POST
+    @Path("/site/{domainName}/subscribe")
+    public ModelAndView<?> toggleSubscription(Context context, @PathParam String domainName) throws SQLException {
+        searchSiteSubscriptions.toggleSubscription(context, new EdgeDomain(domainName));
+
+        String sstBit;
+        Value sstParam = context.query("sst");
+
+        if (sstParam.isPresent()) {
+            sstBit = "?sst=" + sstParam.value();
+        }
+        else {
+            sstBit = "";
+        }
+        return new MapModelAndView("redirect.jte", Map.of("url", "/site/"+domainName+sstBit));
+    }
+
+    @POST
+    @Path("/site/{domainName}/suggest-random")
+    public ModelAndView<?> suggestForRandomExploration(@PathParam String domainName) {
+        if (null == domainName || domainName.isBlank()) {
+            return new MapModelAndView("redirect.jte", Map.of("url", "/site"));
+        }
+
+        int domainId = domainQueries.tryGetDomainId(new EdgeDomain(domainName)).orElse(-1);
+        RandomDomainSuggestionsDao.SubmitOutcome outcome = (domainId < 0)
+                ? RandomDomainSuggestionsDao.SubmitOutcome.INELIGIBLE
+                : randomDomainSuggestionsDao.submitSuggestion(domainId);
+
+        return new MapModelAndView("redirect.jte",
+                Map.of("url", "/site/" + domainName + "?suggested=" + outcome.name()));
+    }
+
+    @POST
+    @Path("/site/{domainName}")
+    public ModelAndView<?> handleComplaint(
+            @PathParam String domainName,
+            @QueryParam String view,
+            @FormParam String category,
+            @FormParam String description,
+            @FormParam String samplequery
+
+    ) throws SQLException {
+
+        if (null == domainName || domainName.isBlank()) {
+            return null;
+        }
+
+        if (!view.equals("report"))
+            return null;
+
+        final int domainId = domainQueries.getDomainId(new EdgeDomain(domainName));
+
+        FlagSiteFormData formData = new FlagSiteFormData(
+                domainId,
+                category,
+                description,
+                samplequery
+        );
+        flagSiteService.insertComplaint(formData);
+
+        var complaints = flagSiteService.getExistingComplaints(domainId);
+
+        var model = new ReportDomain(domainName, "", domainId, complaints, List.of(), true);
+
+        return new MapModelAndView("siteinfo/main.jte",
+                Map.of("model", model, "navbar", NavbarModel.SITEINFO));
+    }
+
+    private ReportDomain reportSite(String domainName, String sst) throws SQLException {
+        int domainId = domainQueries.getDomainId(new EdgeDomain(domainName));
+        var existingComplaints = flagSiteService.getExistingComplaints(domainId);
+
+        return new ReportDomain(domainName,
+                sst,
+                domainId,
+                existingComplaints,
+                flagSiteService.getCategories(),
+                false);
+    }
+
+
+    private Backlinks listLinks(Context ctx, String domainName, String sst, String cursor) throws TimeoutException {
+        var results = searchOperator.doBacklinkSearch(ctx, domainName, cursor);
+
+        return new Backlinks(domainName,
+                sst,
+                domainQueries.tryGetDomainId(new EdgeDomain(domainName)).orElse(-1),
+                GroupedUrlDetails.groupResults(results.results),
+                results.cursor
+        );
+    }
+
+    private SiteInfoWithContext listInfo(Context context, String domainName, String sst) throws ExecutionException, TimeoutException {
+
+        var domain = new EdgeDomain(domainName);
+        final int domainId = domainQueries.tryGetDomainId(domain).orElse(-1);
+
+        final Future<RpcDomainInfoResponse> domainInfoFuture;
+        final Future<List<SimilarDomain>> similarSetFuture;
+        final Future<List<SimilarDomain>> linkingDomainsFuture;
+        final CompletableFuture<RpcFeed> feedItemsFuture;
+        String url = "https://" + domainName + "/";
+
+        boolean hasScreenshot = screenshotService.hasScreenshot(domainId);
+        RandomDomainSuggestionsDao.DomainStatus randomStatus = randomDomainSuggestionsDao.getStatus(domainId);
+        RandomDomainSuggestionsDao.SubmitOutcome suggestionFlash = parseSuggestionFlash(context.query("suggested").valueOrNull());
+
+        boolean isSubscribed = searchSiteSubscriptions.isSubscribed(context, domain);
+
+        boolean rateLimited = !hardRateLimiter.isAllowed();
+        if (domainId < 0) {
+            domainInfoFuture = CompletableFuture.failedFuture(new Exception("Unknown Domain ID"));
+            similarSetFuture = CompletableFuture.failedFuture(new Exception("Unknown Domain ID"));
+            linkingDomainsFuture = CompletableFuture.failedFuture(new Exception("Unknown Domain ID"));
+            feedItemsFuture = CompletableFuture.failedFuture(new Exception("Unknown Domain ID"));
+        }
+        else if (!domainInfoClient.isAccepting()) {
+            domainInfoFuture = CompletableFuture.failedFuture(new Exception("Assistant Service Unavailable"));
+            similarSetFuture = CompletableFuture.failedFuture(new Exception("Assistant Service Unavailable"));
+            linkingDomainsFuture = CompletableFuture.failedFuture(new Exception("Assistant Service Unavailable"));
+            feedItemsFuture = CompletableFuture.failedFuture(new Exception("Assistant Service Unavailable"));
+        }
+        else if (rateLimited) {
+            domainInfoFuture = domainInfoClient.domainInformation(domainId);
+            similarSetFuture = CompletableFuture.failedFuture(new Exception("Rate limit exceeded"));
+            linkingDomainsFuture = CompletableFuture.failedFuture(new Exception("Rate limit exceeded"));
+            feedItemsFuture = CompletableFuture.failedFuture(new Exception("Rate limit exceeded"));
+        }
+        else {
+            domainInfoFuture = domainInfoClient.domainInformation(domainId);
+            similarSetFuture = domainInfoClient.similarDomains(domainId, 25);
+            linkingDomainsFuture = domainInfoClient.linkedDomains(domainId, 25);
+            feedItemsFuture = feedsClient.getFeed(domainId);
+        }
+
+        List<UrlDetails> sampleResults;
+        if (rateLimited) {
+            sampleResults = List.of();
+        }
+        else {
+            sampleResults = searchOperator.doSiteSearch(context, domainName, 5, "").results;
+        }
+
+        if (!sampleResults.isEmpty()) {
+            url = sampleResults.getFirst().getUrl().withPathAndParam("/", null).toString();
+        }
+
+
+        var result = new SiteInfoWithContext(domainName,
+                sst,
+                isSubscribed,
+                domainQueries.otherSubdomains(domain, 5),
+                domainId,
+                url,
+                hasScreenshot,
+                randomStatus,
+                suggestionFlash,
+                waitForFuture(domainInfoFuture, () -> createDummySiteInfo(domainName)),
+                waitForFuture(similarSetFuture, List::of),
+                waitForFuture(linkingDomainsFuture, List::of),
+                waitForFuture(feedItemsFuture.thenApply(FeedItems::new), () -> FeedItems.dummyValue(domainName)),
+                sampleResults
+        );
+
+        if (!rateLimited) {
+            requestMissingScreenshots(result);
+        }
+        return result;
+    }
+
+    private static RandomDomainSuggestionsDao.SubmitOutcome parseSuggestionFlash(String raw) {
+        if (raw == null || raw.isBlank()) return null;
+        try {
+            return RandomDomainSuggestionsDao.SubmitOutcome.valueOf(raw);
+        }
+        catch (IllegalArgumentException ex) {
+            return null;
+        }
+    }
+
+    /** Request missing screenshots for the given site info */
+    private void requestMissingScreenshots(SiteInfoWithContext result) {
+
+        // Always request the main site screenshot, even if we already have it
+        // as this will make the live-capture do a staleness check and update
+        // as needed.
+        liveCaptureClient.requestScreengrab(result.domainId());
+
+        int requests = 1;
+
+        // Request screenshots for similar and linking domains only if they are absent
+        // also throttle the requests to at most 5 per view.
+
+        if (result.similar() != null) {
+            for (var similar : result.similar()) {
+                if (similar.screenshot()) {
+                    continue;
+                }
+                if (++requests > 5) {
+                    break;
+                }
+
+                liveCaptureClient.requestScreengrab(similar.domainId());
+            }
+        }
+
+        if (result.linking() != null) {
+            for (var linking : result.linking()) {
+                if (linking.screenshot()) {
+                    continue;
+                }
+                if (++requests > 5) {
+                    break;
+                }
+
+                liveCaptureClient.requestScreengrab(linking.domainId());
+            }
+        }
+
+    }
+
+    private <T> T waitForFuture(Future<T> future, Supplier<T> fallback) {
+        try {
+            return future.get(250, TimeUnit.MILLISECONDS);
+        } catch (Exception e) {
+            return fallback.get();
+        }
+    }
+
+    private RpcDomainInfoResponse createDummySiteInfo(String domainName) {
+        return RpcDomainInfoResponse.newBuilder()
+                    .setDomain(domainName)
+                    .setSuggestForCrawling(true)
+                    .setUnknownDomain(true)
+                .build();
+    }
+
+    private Docs listDocs(Context ctx, String domainName, String sst, String cursor) throws TimeoutException {
+        int domainId = domainQueries.tryGetDomainId(new EdgeDomain(domainName)).orElse(-1);
+        var results = searchOperator.doSiteSearch(ctx, domainName, 100, cursor);
+
+        return new Docs(domainName,
+                sst,
+                domainQueries.tryGetDomainId(new EdgeDomain(domainName)).orElse(-1),
+                results.results.stream().sorted(Comparator.comparing(deets -> -deets.topology)).toList(),
+                results.cursor
+                );
+    }
+
+
+    private SiteInfoModel listSiteRequests(Context context, String domainName, String sst) {
+        if (!hardRateLimiter.isAllowed()) {
+            return forServiceUnavailable(domainName, sst);
+        }
+
+        Optional<RpcDomainSampleRequests> sample = domSampleClient.getSampleRequests(domainName.toLowerCase());
+        if (sample.isEmpty()) {
+            return forNoData(domainName, sst);
+        }
+
+        final EdgeDomain currentDomain = new EdgeDomain(domainName);
+        final List<RequestsForTargetDomain> requests = new ArrayList<>();
+        final Map<EdgeDomain, List<Map.Entry<EdgeUrl, RpcOutgoingRequest>>> urlsPerDomain = new HashMap<>();
+
+        final Set<EdgeUrl> seenUrls = new HashSet<>();
+
+        for (RpcOutgoingRequest rpcOutgoingRequest : sample.get().getOutgoingRequestsList()) {
+            Optional<EdgeUrl> parsedUrl = EdgeUrl.parse(rpcOutgoingRequest.getUrl());
+            if (parsedUrl.isEmpty())
+                continue;
+
+            final EdgeUrl url = parsedUrl.get();
+
+            if (url.domain.hasSameTopDomain(currentDomain))
+                continue;
+            if (!seenUrls.add(url))
+                continue;
+
+            urlsPerDomain
+                    .computeIfAbsent(url.getDomain(), k -> new ArrayList<>())
+                    .add(Map.entry(url, rpcOutgoingRequest));
+        }
+
+        Map<DomSampleClassification, Integer> requestSummary = new HashMap<>();
+
+        urlsPerDomain.forEach((requestDomain, urlsAndReqs) -> {
+            final List<RequestEndpoint> endpoints = new ArrayList<>();
+
+            for (Map.Entry<EdgeUrl, RpcOutgoingRequest> urlAndReq : urlsAndReqs) {
+                final EdgeUrl url =  urlAndReq.getKey();
+                final RpcOutgoingRequest outgoingRequest = urlAndReq.getValue();
+
+                final DomSampleClassification clazz = domSampleClassifier.classifyRequest(url);
+
+                requestSummary.merge(clazz, 1, Integer::sum);
+
+                endpoints.add(
+                        new RequestEndpoint(
+                                url.path + (url.param == null ? "" : "?" +  url.param),
+                                outgoingRequest.getMethod().name(),
+                                clazz
+                        )
+                );
+            }
+
+            @Nullable
+            final DDGTDomain trackerData =
+                    ddgTrackerData
+                            .getDomainInfo(requestDomain.toString())
+                            .orElse(null);
+
+            requests.add(
+                    new RequestsForTargetDomain(
+                            requestDomain,
+                            endpoints,
+                            trackerData
+                    )
+            );
+        });
+
+        requests.sort(Comparator
+                .comparing((RequestsForTargetDomain req) -> req.endpoints.getFirst().classification.ordinal())
+                .thenComparing(req -> req.ownerDisplayName() == null)
+                .thenComparing(req -> req.domain.topDomain)
+                .thenComparing(req -> req.domain.toString()));
+
+        return new TrafficSample(domainName, sst, requestSummary, requests);
+    }
+
+    private DomainAvailabilityEvents listAvailabilityEvents(Context context, String domainName, String sst) {
+        final Future<RpcDomainInfoResponse> domainInfoFuture;
+        int domainId = domainQueries.getDomainId(new EdgeDomain(domainName));
+
+        if (domainInfoClient.isAccepting()) {
+            domainInfoFuture = domainInfoClient.domainInformation(domainId);
+        }
+        else {
+            domainInfoFuture = CompletableFuture.failedFuture(new NoSuchElementException());
+        }
+
+        boolean errored = false;
+
+        try (var conn = dataSource.getConnection();
+             var stmt = conn.prepareStatement("""
+                     SELECT AVAILABLE,
+                            OUTAGE_TYPE,
+                            HTTP_STATUS_CODE,
+                            ERROR_MESSAGE,
+                            TS_CHANGE
+                     FROM DOMAIN_AVAILABILITY_EVENTS
+                     WHERE DOMAIN_ID=?
+                     ORDER BY TS_CHANGE DESC
+                     LIMIT 20
+                     """)
+        ) {
+            stmt.setInt(1, domainId);
+            var rs = stmt.executeQuery();
+
+            List<DomainAvailabilityEvent> events = new ArrayList<>();
+            while (rs.next()) {
+                events.add(
+                        new DomainAvailabilityEvent(
+                                rs.getBoolean("AVAILABLE"),
+                                rs.getString("OUTAGE_TYPE"),
+                                rs.getInt("HTTP_STATUS_CODE"),
+                                rs.getString("ERROR_MESSAGE"),
+                                rs.getTimestamp("TS_CHANGE").toInstant()
+                        )
+                );
+            }
+
+
+            if (!events.isEmpty()) {
+                return new DomainAvailabilityEvents(domainName,
+                        sst,
+                        waitForFuture(domainInfoFuture, () -> createDummySiteInfo(domainName)), events);
+            }
+
+        }
+        catch (SQLException ex) {
+            errored = true;
+            logger.error("Exception when fetching domain availability events for {}", domainId, ex);
+        }
+
+        RpcDomainInfoResponse domainInfo = waitForFuture(domainInfoFuture, () -> createDummySiteInfo(domainName));
+
+        if (domainInfo.hasPingData()) {
+            var pingData = domainInfo.getPingData();
+
+            return new DomainAvailabilityEvents(domainName,
+                    sst,
+                    domainInfo,
+                    List.of(new DomainAvailabilityEvent(
+                            domainInfo.getPingData().getServerAvailable(),
+                            errored ? "Internal Error" : "No State Changes Recorded",
+                            -1,
+                            "(Reconstructed Entry)",
+                            Instant.ofEpochMilli(domainInfo.getPingData().getTsLast())
+                    ))
+            );
+        }
+
+        return new DomainAvailabilityEvents(domainName,
+                sst,
+                domainInfo,
+                List.of(new DomainAvailabilityEvent(
+                        false,
+                        "Data Unavailable",
+                        -1,
+                        "(Reconstructed Entry)",
+                        Instant.EPOCH
+                ))
+        );
+
+    }
+
+
+    private SecurityChangeEvents listSecurityEvents(Context context, String domainName, String sst) {
+        final Future<RpcDomainInfoResponse> domainInfoFuture;
+        int domainId = domainQueries.getDomainId(new EdgeDomain(domainName));
+
+        if (domainInfoClient.isAccepting()) {
+            domainInfoFuture = domainInfoClient.domainInformation(domainId);
+        }
+        else {
+            domainInfoFuture = CompletableFuture.failedFuture(new NoSuchElementException());
+        }
+
+        try (var conn = dataSource.getConnection();
+             var stmt = conn.prepareStatement("""
+                     SELECT 
+                        CHANGE_ID, 
+                        TS_CHANGE, 
+                        CHANGE_ASN, 
+                        CHANGE_CERTIFICATE_FINGERPRINT, 
+                        CHANGE_CERTIFICATE_PROFILE, 
+                        CHANGE_CERTIFICATE_SAN, 
+                        CHANGE_CERTIFICATE_PUBLIC_KEY, 
+                        CHANGE_SECURITY_HEADERS, 
+                        CHANGE_IP_ADDRESS, 
+                        CHANGE_SOFTWARE, 
+                        CHANGE_CERTIFICATE_SERIAL_NUMBER, 
+                        CHANGE_CERTIFICATE_ISSUER, 
+                        CHANGE_SCHEMA 
+                     FROM DOMAIN_SECURITY_EVENTS
+                     INNER JOIN EC_DOMAIN 
+                        ON DOMAIN_SECURITY_EVENTS.DOMAIN_ID=EC_DOMAIN.ID
+                        AND DOMAIN_SECURITY_EVENTS.NODE_ID=EC_DOMAIN.NODE_AFFINITY
+                     WHERE DOMAIN_NAME=?
+                     ORDER BY TS_CHANGE DESC
+                     LIMIT 100
+                     """)
+        ) {
+            stmt.setString(1, domainName);
+            var rs = stmt.executeQuery();
+
+            List<SecurityChangeEvent> events = new ArrayList<>();
+            while (rs.next()) {
+                events.add(
+                        new SecurityChangeEvent(
+                                rs.getTimestamp("TS_CHANGE").toInstant(),
+                                rs.getLong("CHANGE_ID"),
+                                rs.getBoolean("CHANGE_ASN"),
+                                rs.getBoolean("CHANGE_CERTIFICATE_FINGERPRINT"),
+                                rs.getBoolean("CHANGE_CERTIFICATE_PROFILE"),
+                                rs.getBoolean("CHANGE_CERTIFICATE_SAN"),
+                                rs.getBoolean("CHANGE_CERTIFICATE_PUBLIC_KEY"),
+                                rs.getBoolean("CHANGE_SECURITY_HEADERS"),
+                                rs.getBoolean("CHANGE_IP_ADDRESS"),
+                                rs.getBoolean("CHANGE_SOFTWARE"),
+                                rs.getBoolean("CHANGE_CERTIFICATE_SERIAL_NUMBER"),
+                                rs.getBoolean("CHANGE_CERTIFICATE_ISSUER"),
+                                rs.getString("CHANGE_SCHEMA")
+                        )
+                );
+            }
+
+            return new SecurityChangeEvents(domainName,
+                    sst,
+                    waitForFuture(domainInfoFuture, () -> createDummySiteInfo(domainName)),
+                    events);
+        }
+        catch (SQLException ex) {
+            logger.error("Exception when fetching security change events for {}", domainName, ex);
+
+            return new SecurityChangeEvents(domainName,
+                    sst,
+                    waitForFuture(domainInfoFuture, () -> createDummySiteInfo(domainName)),
+                    List.of());
+        }
+    }
+
+    private SecurityChangeDetails getSecurityChangeDetails(Context context, String domainName, String sst) {
+
+        int domainId = domainQueries.getDomainId(new EdgeDomain(domainName));
+        long changeId = context.query("changeId").longValue();
+
+        try (var conn = dataSource.getConnection();
+             var stmt = conn.prepareStatement("""
+                     SELECT 
+                        TS_CHANGE,
+                        SECURITY_SIGNATURE_BEFORE,
+                        SECURITY_SIGNATURE_AFTER
+                     FROM DOMAIN_SECURITY_EVENTS
+                     WHERE DOMAIN_ID=?
+                     AND CHANGE_ID=?
+                     ORDER BY TS_CHANGE DESC
+                     LIMIT 1
+                     """))
+        {
+            stmt.setInt(1, domainId);
+            stmt.setLong(2, changeId);
+            var rs = stmt.executeQuery();
+            if (rs.next()) {
+                Map<String, Object> beforeObject;
+                Map<String, Object> afterObject;
+
+                try (var gzis = new GZIPInputStream(rs.getBlob("SECURITY_SIGNATURE_BEFORE").getBinaryStream())) {
+                    beforeObject = gson.fromJson(new InputStreamReader(gzis), Map.class);
+                }
+
+                try (var gzis = new GZIPInputStream(rs.getBlob("SECURITY_SIGNATURE_AFTER").getBinaryStream())) {
+                    afterObject = gson.fromJson(new InputStreamReader(gzis), Map.class);
+                }
+
+                return new SecurityChangeDetails(domainName, sst, changeId, beforeObject, afterObject);
+            }
+        }
+        catch (SQLException | IOException ex) {
+            throw new RuntimeException();
+        }
+        throw new NoSuchElementException();
+    }
+
+    public interface SiteInfoModel {
+        String domain();
+        String sst();
+    }
+
+    public record ScrapeStopperModel(String sst,
+                                     Duration waitTime,
+                                     String domain,
+                                     String redirUrl) implements SiteInfoModel {}
+
+    public record Docs(String domain,
+                       String sst,
+                       long domainId,
+                       List<UrlDetails> results,
+                       String cursorNext) implements SiteInfoModel  {
+
+        public String focusDomain() { return domain; }
+
+        public String query() { return "site:" + domain; }
+
+        public boolean isKnown() {
+            return domainId > 0;
+        }
+    }
+
+    public record Backlinks(String domain,
+                            String sst,
+                            long domainId,
+                            List<GroupedUrlDetails> results,
+                            String cursorNext
+                            ) implements SiteInfoModel
+    {
+        public String query() { return "links:" + domain; }
+
+        public boolean isKnown() {
+            return domainId > 0;
+        }
+    }
+
+    public record SiteInfoWithContext(String domain,
+                                      String sst,
+                                      boolean isSubscribed,
+                                      List<DbDomainQueries.DomainWithNode> siblingDomains,
+                                      int domainId,
+                                      String siteUrl,
+                                      boolean hasScreenshot,
+                                      RandomDomainSuggestionsDao.DomainStatus randomStatus,
+                                      @Nullable
+                                      RandomDomainSuggestionsDao.SubmitOutcome suggestionFlash,
+                                      RpcDomainInfoResponse domainInformation,
+                                      List<SimilarDomain> similar,
+                                      List<SimilarDomain> linking,
+                                      FeedItems feed,
+                                      List<UrlDetails> samples)
+            implements SiteInfoModel
+    {
+
+        public boolean hasSamples() {
+            return samples != null && !samples.isEmpty();
+        }
+
+        public boolean hasFeed() {
+            return feed != null && !feed.items.isEmpty();
+        }
+
+        public String query() { return "site:" + domain; }
+
+        public boolean isKnown() {
+            return domainId > 0;
+        }
+    }
+
+    public record FeedItem(String title, String date, String description, String url) {
+
+        public FeedItem(String domain, RpcFeedItem rpcFeedItem) {
+            this(rpcFeedItem.getTitle(),
+                    rpcFeedItem.getDate(),
+                    rpcFeedItem.getDescription(),
+                    absoluteFeedUrl(domain, rpcFeedItem.getUrl())
+            );
+        }
+
+
+        private static String absoluteFeedUrl(String domain, String url) {
+            if (url.startsWith("/")) { // relative URL
+                url = "https://" + domain + url;
+            } else if (!url.contains(":")) { // no schema, assume relative URL
+                url = "https://" + domain + "/" + url;
+            }
+
+            return url;
+        }
+
+        public String pubDay() { // Extract the date from an ISO style date string
+            if (date.length() > 10) {
+                return date.substring(0, 10);
+            }
+            return date;
+        }
+
+        public String descriptionSafe() {
+            return description
+                    .replace("<", "&lt;")
+                    .replace(">", "&gt;");
+        }
+    }
+
+    public record FeedItems(String domain, String feedUrl, String updated, List<FeedItem> items) {
+
+        public static FeedItems dummyValue(String domain) {
+            return new FeedItems(domain, "", "", List.of());
+        }
+
+        public FeedItems(RpcFeed rpcFeedItems) {
+            this(rpcFeedItems.getDomain(),
+                    rpcFeedItems.getFeedUrl(),
+                    rpcFeedItems.getUpdated(),
+                    rpcFeedItems.getItemsList().stream().map(item -> new FeedItem(rpcFeedItems.getDomain(), item)).toList());
+        }
+
+    }
+
+    public record DomainAvailabilityEvents(
+            String domain,
+            String sst,
+            RpcDomainInfoResponse domainInformation,
+            List<DomainAvailabilityEvent> events
+    ) implements SiteInfoModel {}
+
+    public record DomainAvailabilityEvent(
+            boolean available,
+            String outageType,
+            @Nullable
+            Integer httpStatusCode,
+            String errorMessage,
+            @NotNull
+            Instant tsChange
+    ) {}
+
+    public record SecurityChangeEvents(
+            String domain,
+            String sst,
+            RpcDomainInfoResponse domainInformation,
+            List<SecurityChangeEvent> events
+    ) implements SiteInfoModel {}
+
+    public record SecurityChangeEvent(
+        @NotNull
+        Instant tsChange,
+        long changeId,
+        boolean asnChange,
+        boolean certFpChange,
+        boolean certProfileChange,
+        boolean certSanChange,
+        boolean certPkChange,
+        boolean secHeaderChange,
+        boolean ipChange,
+        boolean softwareChange,
+        boolean certSerialChange,
+        boolean certIssuerChange,
+        @Nullable
+        String schemaChange
+    ) {}
+
+    public record SecurityChangeDetails(
+            String domain,
+            String sst,
+            long changeId,
+            Map<String, Object> before,
+            Map<String, Object> after
+    ) implements SiteInfoModel {
+        public static String renderValue(String fieldName, Object value) {
+            if (value == null) {
+                return "-";
+            }
+
+            if (value instanceof List list && !list.isEmpty() && list.getFirst() instanceof Number) {
+                // JSON gonna json
+                StringBuilder sb = new StringBuilder(list.size());
+                for (Object item : list) {
+                    int val = ((Number) item).intValue() & 0xFF;
+
+                    String bvS = Integer.toHexString(val);
+                    if (val < 16) {
+                        sb.append('0');
+                    }
+                    sb.append(bvS);
+                }
+                return sb.toString();
+            }
+
+            if (fieldName.equals("tsLastUpdate") && value instanceof Number lv) {
+                return Instant.ofEpochMilli(lv.longValue()).toString();
+            }
+            if (fieldName.equals("sslCertNotAfter") && value instanceof Number lv) {
+                return Instant.ofEpochMilli(lv.longValue()).toString();
+            }
+            if (fieldName.equals("sslCertNotBefore") && value instanceof Number lv) {
+                return Instant.ofEpochMilli(lv.longValue()).toString();
+            }
+            if (value instanceof Number val) {
+                if (Math.abs(val.doubleValue() - Math.round(val.doubleValue())) < 0.01) {
+                    return Long.toString(val.longValue());
+                }
+
+                return Double.toString(val.doubleValue());
+            }
+            return value.toString();
+        }
+
+    }
+
+
+    public record ReportDomain(
+            String domain,
+            String sst,
+            int domainId,
+            List<SearchFlagSiteService.FlagSiteComplaintModel> complaints,
+            List<SearchFlagSiteService.CategoryItem> category,
+            boolean submitted) implements SiteInfoModel
+    {
+        public String query() { return "site:" + domain; }
+
+        public boolean isKnown() {
+            return domainId > 0;
+        }
+    }
+
+    public record TrafficSample(String domain,
+                                String sst,
+                                boolean hasData,
+                                boolean serviceAvailable,
+                                Map<DomSampleClassification, Integer> requestSummary,
+                                List<RequestsForTargetDomain> requests) implements SiteInfoModel {
+
+        public static String classificationIcon(DomSampleClassification clazz) {
+            return switch (clazz) {
+                case ADS -> "fa-ad";
+                case TRACKING -> "fa-crosshairs";
+                case CONSENT -> "fa-shield-alt";
+                default -> "";
+            };
+        }
+
+        public static String classificationColor(DomSampleClassification clazz) {
+            return switch (clazz) {
+                case ADS -> "bg-red-100 text-red-800 dark:bg-red-900 dark:text-white  dark:border dark:border-red-400";
+                case TRACKING -> "bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-white  dark:border dark:border-purple-400";
+                case CONSENT -> "bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-white dark:border dark:border-yellow-400";
+                default -> "";
+            };
+        }
+
+        public static String categoryColor(String category) {
+            return switch (category) {
+                case "Ad Motivated Tracking", "Tracking", "Advertising", "Third-Party Analytics Marketing", "Action Pixels", "Badge" -> "bg-red-100 text-red-800 dark:bg-red-900 dark:text-white  dark:border dark:border-red-400";
+                case "CDN", "Fraud Prevention", "Online Payment", "Consent Management Platform", "SSO" -> "bg-green-100 text-green-800 dark:bg-green-900 dark:text-white  dark:border dark:border-green-400";
+                case "Social - Comment", "Social - Share", "Social Network", "Federated Login" -> "bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-white  dark:border dark:border-yellow-400";
+                case "Session Replay", "Audience Measurement", "Analytics", "Tag Manager" -> "bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-white  dark:border dark:border-purple-400";
+                case "Malware", "Ad Fraud", "Unknown High Risk Behavior", "Obscure Ownership" -> "bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200  dark:border dark:border-blue-400";
+                default -> "bg-gray-200 text-gray-800 dark:bg-gray-600 dark:text-gray-200  dark:border dark:border-gray-200";
+            };
+
+        }
+
+        public TrafficSample(String domain,
+                             String sst,
+                             Map<DomSampleClassification, Integer> requestSummary,
+                             List<RequestsForTargetDomain> requests
+        ) {
+            this(domain, sst, true, true, requestSummary, requests);
+        }
+
+        static TrafficSample forNoData(String domain, String sst) {
+            return new TrafficSample(domain, sst, false, true, Map.of(), List.of());
+        }
+
+        static TrafficSample forServiceUnavailable(String domain, String sst) {
+            return new TrafficSample(domain, sst, true, false, Map.of(), List.of());
+        }
+
+
+        public record RequestEndpoint(String path,
+                                      String method,
+                                      DomSampleClassification classification) {
+
+        }
+
+        public record RequestsForTargetDomain(EdgeDomain domain, List<RequestEndpoint> endpoints, @Nullable DDGTDomain ddgtTrackerInfo)
+        {
+            public List<String> ownerCategories() {
+                if (ddgtTrackerInfo == null) return List.of();
+                if (ddgtTrackerInfo.categories() == null)  return List.of();
+                return ddgtTrackerInfo.categories();
+            }
+
+            @Nullable
+            public String ownerName() {
+                if (ddgtTrackerInfo == null)
+                    return null;
+                if (ddgtTrackerInfo.owner() == null)
+                    return null;
+                return ddgtTrackerInfo.owner().name();
+            }
+
+            @Nullable
+            public String ownerDisplayName() {
+                if (ddgtTrackerInfo == null)
+                    return null;
+                if (ddgtTrackerInfo.owner() == null)
+                    return null;
+                return ddgtTrackerInfo.owner().displayName();
+            }
+
+            @Nullable
+            public String ownerUrl() {
+                if (ddgtTrackerInfo == null)
+                    return null;
+                if (ddgtTrackerInfo.owner() == null)
+                    return null;
+                return ddgtTrackerInfo.owner().url();
+            }
+
+            @Nullable
+            public String ownerPolicy() {
+                if (ddgtTrackerInfo == null)
+                    return null;
+                if (ddgtTrackerInfo.owner() == null)
+                    return null;
+                return ddgtTrackerInfo.owner().privacyPolicy();
+            }
+        }
+    }
+
+    public static String getFlag(String countryCode) {
+        if (countryCode == null || countryCode.codePointCount(0, countryCode.length()) != 2) {
+            return "";
+        }
+
+        String country = countryCode;
+
+        if ("UK".equals(country)) {
+            country = "GB";
+        }
+
+        int offset = 0x1F1E6;
+        int asciiOffset = 0x41;
+        int firstChar = Character.codePointAt(country, 0) - asciiOffset + offset;
+        int secondChar = Character.codePointAt(country, 1) - asciiOffset + offset;
+        return new String(Character.toChars(firstChar)) + new String(Character.toChars(secondChar));
+    }
+
+    public static String renderRelativeTime(Temporal temporal) {
+        Duration diff = Duration.between(temporal, ZonedDateTime.now());
+
+        int days = (int) diff.toDays();
+        if (days > 31) {
+            return "-";
+        }
+        if (days > 1) {
+            return String.format("%d days ago", days);
+        }
+        int hours = (int) diff.toHours();
+        if (hours > 1) {
+            return String.format("%d hours ago", hours);
+        }
+
+        int minutes = (int) diff.toMinutes();
+        if (minutes > 1) {
+            return String.format("%d minutes ago", hours);
+        }
+
+        return "Just now";
+    }
+
+}

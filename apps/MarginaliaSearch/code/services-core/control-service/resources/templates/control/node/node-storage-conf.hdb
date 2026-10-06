@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en-US">
+{{> control/partials/head-includes }}
+<head><title>Control Service: Node {{node.id}}</title></head>
+<body>
+{{> control/partials/nav}}
+
+<div class="container">
+
+    {{> control/node/partial-node-nav }}
+
+    <div class="container">
+        {{>control/partials/storage-types}}
+
+    <h1>Storage Base Configuration</h1>
+    <table class="table">
+        <tr>
+            <th>Type</th><th>Name</th><th>Path</th>
+        </tr>
+        {{#each storagebase}}
+            <tr {{#unless valid}}class="table-danger"{{/unless}}>
+                <td>{{type}}</td>
+                <td>{{name}}</td>
+                <td>{{path}}</td>
+            </tr>
+        {{/each}}
+    </table>
+
+    <div class="m-3 p-3 border bg-light">
+        This lists the base paths for the storage object classes.  If the index runs in a container,
+        these are the paths inside the container.  If the index runs on a host, these are the paths
+        on the host.
+    </div>
+</div>
+</body>
+{{> control/partials/foot-includes }}
+</html>

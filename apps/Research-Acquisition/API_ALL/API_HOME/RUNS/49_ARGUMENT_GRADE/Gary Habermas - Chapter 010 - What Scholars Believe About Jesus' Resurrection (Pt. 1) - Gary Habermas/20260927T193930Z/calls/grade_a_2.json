@@ -1,0 +1,341 @@
+{
+  "name": "grade_a_2",
+  "parsed": {
+    "arguments": [
+      {
+        "id": "G7",
+        "name": "Christian scholars are not blindly biased",
+        "conclusion": "The objection that Christian scholars accept the minimal facts merely because of bias fails, because Christian scholars often deny the empty tomb and debate the evidence.",
+        "speaker": "Dale (host) and Gary Habermas",
+        "premises": [
+          "P1: If Christians automatically accepted all traditional claims, the empty tomb would be a minimal fact, but it is not.",
+          "P2: Christian scholars debate the evidence and do not simply accept claims like the guard at the tomb.",
+          "P3: The minimal facts are accepted because the data are strong, not merely because the scholars are Christian."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "Because if if that was true, then the empty tomb would be a minimal fact."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "if if they're all just a bunch of Christians, why on earth are Christians denying the empty tomb?"
+          },
+          "st3": {
+            "v": 1,
+            "quote": "you can see from the quotes in there, they're debating the evidence. They're they're not just, \"Oh, well, I'm a Christian, therefore I accept the guard, the guard at the tomb.\""
+          },
+          "st4": {
+            "v": 1,
+            "quote": "It's because even though they're Christians, they're basing their conclusions on the data and the data is so strong in the case of your six minimal facts."
+          },
+          "st5": {
+            "v": 1,
+            "quote": "Well, no one uh Christians are going to agree with your minimal facts to begin with."
+          },
+          "st6": {
+            "v": 1,
+            "quote": "That's why there is that strong consensus."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 1,
+            "quote": "Christian scholars debate the evidence"
+          },
+          "st9": {
+            "v": 0,
+            "quote": ""
+          }
+        },
+        "prior_art": "Gary Habermas, The Historical Jesus / minimal facts approach, 1996-2005",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "if if that was true, then the empty tomb would be a minimal fact",
+            "why": "A defensive variant of Habermas's own minimal-facts work, applied to the bias objection."
+          },
+          "or2": {
+            "v": 0,
+            "quote": "",
+            "why": "No new data beyond the standard minimal-facts material."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain bridge."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization or model."
+          }
+        },
+        "weakest_link": "P3 assumes the minimal facts are accepted for evidential reasons rather than social/institutional ones; the inference from 'Christians debate X' to 'the consensus is data-driven' is a gap.",
+        "develop_next": "Give actual survey data showing the distribution of empty-tomb denial among Christian scholars, rather than a single illustrative claim.",
+        "case_map": [
+          "F4"
+        ],
+        "domain": "history"
+      },
+      {
+        "id": "G8",
+        "name": "Even the Jesus Seminar and Bultmann concede key data",
+        "conclusion": "Even very liberal scholars such as the Jesus Seminar and Rudolf Bultmann concede important historical data about the resurrection, so the consensus is not merely a conservative Christian sample.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1: The Jesus Seminar's two major volumes are dedicated to David Hume, Thomas Jefferson, and David Strauss, and begin with the presupposition that dead men do not rise.",
+          "P2: Rudolf Bultmann, far to the left, says the early sayings go back to the very earliest Jerusalem church and that the earliest disciples preached Jesus was raised.",
+          "P3: Bultmann also allows a pre-Markan passion narrative and early creedal traditions."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "these people aren't in the book because I generally don't go back to the to 1941 for sources, but you can find these guys"
+          },
+          "st2": {
+            "v": 2,
+            "quote": "He says, \"These early sayings go back to the very earliest Jerusalem church.\""
+          },
+          "st3": {
+            "v": 2,
+            "quote": "Also in his 1941 essay uh New Testament mythology the very famous thing that got rolling toward dethization."
+          },
+          "st4": {
+            "v": 1,
+            "quote": "If you if you know where to look, these people aren't in the book because I generally don't go back to the to 1941 for sources"
+          },
+          "st5": {
+            "v": 1,
+            "quote": "And now what are they going to say? Oh, isn't he your fellow professor at Liberty University?"
+          },
+          "st6": {
+            "v": 1,
+            "quote": "I can find my six facts over and over and over and over and over."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 2,
+            "quote": "The Jesus Seminar, you know, they start out at one of the two volumes. Well, many of them are probably Christians."
+          },
+          "st9": {
+            "v": 0,
+            "quote": ""
+          }
+        },
+        "prior_art": "Gary Habermas, The Risen Jesus and Future Hope / minimal facts surveys, 2003",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "He says, \"These early sayings go back to the very earliest Jerusalem church.\"",
+            "why": "A variant of Habermas's standard use of hostile-witness citations."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "Also in his 1941 essay uh New Testament mythology the very famous thing that got rolling toward dethization.",
+            "why": "Brings Bultmann 1941 and the Jesus Seminar dedications as specific hostile-witness evidence."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain bridge."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization."
+          }
+        },
+        "weakest_link": "The inference from hostile scholars conceding isolated data points to a broad consensus is not established; conceding 'they thought they saw' is far weaker than the resurrection claim.",
+        "develop_next": "State explicitly which minimal facts each hostile witness grants, and show the concession is to the fact itself, not a weaker paraphrase.",
+        "case_map": [
+          "F4"
+        ],
+        "domain": "history"
+      },
+      {
+        "id": "G9",
+        "name": "Only informed scholars should count for consensus",
+        "conclusion": "The scholarly-consensus criterion should target scholars with relevant terminal degrees who have published or demonstrated informed opinions on resurrection research.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1: A critical scholar must have a terminal degree in a relevant field such as New Testament, Old Testament, history, philosophy, archaeology, or world religions.",
+          "P2: Scholars who have never published or spoken on resurrection research, such as Bettany Hughes, do not have an informed opinion on the topic.",
+          "P3: Habermas makes allowances for some non-PhD researchers like J. P. Holding or Jay Wells if they know the data."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "when I say I I say a critical scholar and this is defined in volume one in particular has the following uh characteristics. They have a terminal degree."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "I also allow history, philosophers, people with doctorates in archaeology."
+          },
+          "st3": {
+            "v": 1,
+            "quote": "Betany Hughes, she she has a PhD in history. She she's qual she does a bunch of BBC documentaries. If you want to know the history of Socrates, she's great, but she doesn't know anything about resurrection research."
+          },
+          "st4": {
+            "v": 1,
+            "quote": "So, so in a way it's prejudiced if you call this prejudice in favor of those who have written on this topic and sometimes those who've spoken out in research type settings."
+          },
+          "st5": {
+            "v": 1,
+            "quote": "But you can't claim to have a PhD, as I told one guy does in that group. He claims to have a PhD and be an expert in ancient um ancient subjects and languages and has no college degrees."
+          },
+          "st6": {
+            "v": 1,
+            "quote": "I make allowances for people who don't have PhDs but who know the data."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 1,
+            "quote": "I'm more lenient with liberals than I am with conservatives because I want to put people in there who don't have all the training"
+          },
+          "st9": {
+            "v": 0,
+            "quote": ""
+          }
+        },
+        "prior_art": "Gary Habermas, 'Resurrection Research from 1975 to the Present', Journal for the Study of the Historical Jesus, 2005",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "when I say I I say a critical scholar and this is defined in volume one in particular has the following uh characteristics",
+            "why": "A methodological specification of Habermas's own established criterion."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "Betany Hughes, she she has a PhD in history.",
+            "why": "Adds a concrete counterexample (Hughes) and named exceptions (Wells, Holding)."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain bridge."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization."
+          }
+        },
+        "weakest_link": "The criterion is circular: 'informed opinion' is defined by publication in the literature, which is exactly the sample whose consensus is at issue.",
+        "develop_next": "Give an independent, non-circular test for 'informed opinion' (e.g. blind content test) so the inclusion rule isn't just 'agrees with the literature'.",
+        "case_map": [
+          "F4"
+        ],
+        "domain": "history"
+      },
+      {
+        "id": "G10",
+        "name": "French, German, and English are the major research languages",
+        "conclusion": "Limiting the study to French, German, and English sources is defensible because those are the major research languages in Western resurrection scholarship and because the author has the right to set the criteria.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1: As author of the four volumes, Habermas has the right to set the language parameters.",
+          "P2: French, German, and English are the dominant academic languages in the Western world and are the most commonly used in resurrection research.",
+          "P3: Research assistants who read additional languages included meaningful sources in other languages when found.",
+          "P4: The bibliography was compiled by multiple researchers and edited by Ben Shaw, not solely by Habermas."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "I'm the author of these four volumes. I'm setting down my own criteria. And if as the author I say I'm only going to use French, German, and English, that's my right to set the parameters."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "I don't think there's hardly any argument that at least in the entire western world northern Europe North America um those three languages are going to be the major ones mentioned most often."
+          },
+          "st3": {
+            "v": 1,
+            "quote": "I did an article for the journal for the study of historical Jesus and when I did the article a Jesus seminar guy was the editor of the journal"
+          },
+          "st4": {
+            "v": 1,
+            "quote": "I would say English is number one German is number two and French is number three in fact I did an article which passed peer review"
+          },
+          "st5": {
+            "v": 1,
+            "quote": "And you could say that's not fair. I can prove there's as many sources, use your example, I can prove there's as many sources on the resurrection in Russian."
+          },
+          "st6": {
+            "v": 1,
+            "quote": "We have sources in the bibliography of volume four that are neither of those three."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 1,
+            "quote": "I went back and counted my scholars at that time, the scholars I wrote on and the breakdown was almost exactly what I said"
+          },
+          "st9": {
+            "v": 0,
+            "quote": ""
+          }
+        },
+        "prior_art": "Gary Habermas, 'Resurrection Research from 1975 to the Present', JSHJ, 2005",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "I did an article for the journal for the study of historical Jesus",
+            "why": "A self-justifying methodological variant rather than a new substantive argument."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "We have sources in the bibliography of volume four that are neither of those three.",
+            "why": "Adds concrete bibliographic facts (Italian, Spanish, Polish entries) not in prior art."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain bridge."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization."
+          }
+        },
+        "weakest_link": "P1 ('I wrote it, so I set the criteria') justifies the choice procedurally but does nothing to show the resulting sample supports a global consensus claim.",
+        "develop_next": "Provide an actual language census of resurrection publications (counts by language) to show the three-language restriction loses no material body of evidence.",
+        "case_map": [
+          "F4"
+        ],
+        "domain": "history"
+      }
+    ]
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "grade_a_2",
+      "attempt": 1,
+      "text": "{\"arguments\": [\n {\"id\": \"G7\", \"name\": \"Christian scholars are not blindly biased\", \"conclusion\": \"The objection that Christian scholars accept the minimal facts merely because of bias fails, because Christian scholars often deny the empty tomb and debate the evidence.\", \"speaker\": \"Dale (host) and Gary Habermas\",\n  \"premises\": [\n   \"P1: If Christians automatically accepted all traditional claims, the empty tomb would be a minimal fact, but it is not.\",\n   \"P2: Christian scholars debate the evidence and do not simply accept claims like the guard at the tomb.\",\n   \"P3: The minimal facts are accepted because the data are strong, not merely because the scholars are Christian.\"\n  ],\n  \"strength\": {\n   \"st1\": {\"v\": 2, \"quote\": \"Because if if that was true, then the empty tomb would be a minimal fact.\"},\n   \"st2\": {\"v\": 2, \"quote\": \"if if they're all just a bunch of Christians, why on earth are Christians denying the empty tomb?\"},\n   \"st3\": {\"v\": 1, \"quote\": \"you can see from the quotes in there, they're debating the evidence. They're they're not just, \\\"Oh, well, I'm a Christian, therefore I accept the guard, the guard at the tomb.\\\"\"},\n   \"st4\": {\"v\": 1, \"quote\": \"It's because even though they're Christians, they're basing their conclusions on the data and the data is so strong in the case of your six minimal facts.\"},\n   \"st5\": {\"v\": 1, \"quote\": \"Well, no one uh Christians are going to agree with your minimal facts to begin with.\"},\n   \"st6\": {\"v\": 1, \"quote\": \"That's why there is that strong consensus.\"},\n   \"st7\": {\"v\": 0, \"quote\": \"\"},\n   \"st8\": {\"v\": 1, \"quote\": \"Christian scholars debate the evidence\"},\n   \"st9\": {\"v\": 0, \"quote\": \"\"}\n  },\n  \"prior_art\": \"Gary Habermas, The Historical Jesus / minimal facts approach, 1996-2005\",\n  \"originality\": {\n   \"or1\": {\"v\": 1, \"quote\": \"if if that was true, then the empty tomb would be a minimal fact\", \"why\": \"A defensive variant of Habermas's own minimal-facts work, applied to the bias objection.\"},\n   \"or2\": {\"v\": 0, \"quote\": \"\", \"why\": \"No new data beyond the standard minimal-facts material.\"},\n   \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain bridge.\"},\n   \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization or model.\"}\n  },\n  \"weakest_link\": \"P3 assumes the minimal facts are accepted for evidential reasons rather than social/institutional ones; the inference from 'Christians debate X' to 'the consensus is data-driven' is a gap.\",\n  \"develop_next\": \"Give actual survey data showing the distribution of empty-tomb denial among Christian scholars, rather than a single illustrative claim.\",\n  \"case_map\": [\"F4\"], \"domain\": \"history\"},\n {\"id\": \"G8\", \"name\": \"Even the Jesus Seminar and Bultmann concede key data\", \"conclusion\": \"Even very liberal scholars such as the Jesus Seminar and Rudolf Bultmann concede important historical data about the resurrection, so the consensus is not merely a conservative Christian sample.\", \"speaker\": \"Gary Habermas\",\n  \"premises\": [\n   \"P1: The Jesus Seminar's two major volumes are dedicated to David Hume, Thomas Jefferson, and David Strauss, and begin with the presupposition that dead men do not rise.\",\n   \"P2: Rudolf Bultmann, far to the left, says the early sayings go back to the very earliest Jerusalem church and that the earliest disciples preached Jesus was raised.\",\n   \"P3: Bultmann also allows a pre-Markan passion narrative and early creedal traditions.\"\n  ],\n  \"strength\": {\n   \"st1\": {\"v\": 2, \"quote\": \"these people aren't in the book because I generally don't go back to the to 1941 for sources, but you can find these guys\"},\n   \"st2\": {\"v\": 2, \"quote\": \"He says, \\\"These early sayings go back to the very earliest Jerusalem church.\\\"\"},\n   \"st3\": {\"v\": 2, \"quote\": \"Also in his 1941 essay uh New Testament mythology the very famous thing that got rolling toward dethization.\"},\n   \"st4\": {\"v\": 1, \"quote\": \"If you if you know where to look, these people aren't in the book because I generally don't go back to the to 1941 for sources\"},\n   \"st5\": {\"v\": 1, \"quote\": \"And now what are they going to say? Oh, isn't he your fellow professor at Liberty University?\"},\n   \"st6\": {\"v\": 1, \"quote\": \"I can find my six facts over and over and over and over and over.\"},\n   \"st7\": {\"v\": 0, \"quote\": \"\"},\n   \"st8\": {\"v\": 2, \"quote\": \"The Jesus Seminar, you know, they start out at one of the two volumes. Well, many of them are probably Christians.\"},\n   \"st9\": {\"v\": 0, \"quote\": \"\"}\n  },\n  \"prior_art\": \"Gary Habermas, The Risen Jesus and Future Hope / minimal facts surveys, 2003\",\n  \"originality\": {\n   \"or1\": {\"v\": 1, \"quote\": \"He says, \\\"These early sayings go back to the very earliest Jerusalem church.\\\"\", \"why\": \"A variant of Habermas's standard use of hostile-witness citations.\"},\n   \"or2\": {\"v\": 1, \"quote\": \"Also in his 1941 essay uh New Testament mythology the very famous thing that got rolling toward dethization.\", \"why\": \"Brings Bultmann 1941 and the Jesus Seminar dedications as specific hostile-witness evidence.\"},\n   \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain bridge.\"},\n   \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization.\"}\n  },\n  \"weakest_link\": \"The inference from hostile scholars conceding isolated data points to a broad consensus is not established; conceding 'they thought they saw' is far weaker than the resurrection claim.\",\n  \"develop_next\": \"State explicitly which minimal facts each hostile witness grants, and show the concession is to the fact itself, not a weaker paraphrase.\",\n  \"case_map\": [\"F4\"], \"domain\": \"history\"},\n {\"id\": \"G9\", \"name\": \"Only informed scholars should count for consensus\", \"conclusion\": \"The scholarly-consensus criterion should target scholars with relevant terminal degrees who have published or demonstrated informed opinions on resurrection research.\", \"speaker\": \"Gary Habermas\",\n  \"premises\": [\n   \"P1: A critical scholar must have a terminal degree in a relevant field such as New Testament, Old Testament, history, philosophy, archaeology, or world religions.\",\n   \"P2: Scholars who have never published or spoken on resurrection research, such as Bettany Hughes, do not have an informed opinion on the topic.\",\n   \"P3: Habermas makes allowances for some non-PhD researchers like J. P. Holding or Jay Wells if they know the data.\"\n  ],\n  \"strength\": {\n   \"st1\": {\"v\": 2, \"quote\": \"when I say I I say a critical scholar and this is defined in volume one in particular has the following uh characteristics. They have a terminal degree.\"},\n   \"st2\": {\"v\": 2, \"quote\": \"I also allow history, philosophers, people with doctorates in archaeology.\"},\n   \"st3\": {\"v\": 1, \"quote\": \"Betany Hughes, she she has a PhD in history. She she's qual she does a bunch of BBC documentaries. If you want to know the history of Socrates, she's great, but she doesn't know anything about resurrection research.\"},\n   \"st4\": {\"v\": 1, \"quote\": \"So, so in a way it's prejudiced if you call this prejudice in favor of those who have written on this topic and sometimes those who've spoken out in research type settings.\"},\n   \"st5\": {\"v\": 1, \"quote\": \"But you can't claim to have a PhD, as I told one guy does in that group. He claims to have a PhD and be an expert in ancient um ancient subjects and languages and has no college degrees.\"},\n   \"st6\": {\"v\": 1, \"quote\": \"I make allowances for people who don't have PhDs but who know the data.\"},\n   \"st7\": {\"v\": 0, \"quote\": \"\"},\n   \"st8\": {\"v\": 1, \"quote\": \"I'm more lenient with liberals than I am with conservatives because I want to put people in there who don't have all the training\"},\n   \"st9\": {\"v\": 0, \"quote\": \"\"}\n  },\n  \"prior_art\": \"Gary Habermas, 'Resurrection Research from 1975 to the Present', Journal for the Study of the Historical Jesus, 2005\",\n  \"originality\": {\n   \"or1\": {\"v\": 1, \"quote\": \"when I say I I say a critical scholar and this is defined in volume one in particular has the following uh characteristics\", \"why\": \"A methodological specification of Habermas's own established criterion.\"},\n   \"or2\": {\"v\": 1, \"quote\": \"Betany Hughes, she she has a PhD in history.\", \"why\": \"Adds a concrete counterexample (Hughes) and named exceptions (Wells, Holding).\"},\n   \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain bridge.\"},\n   \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization.\"}\n  },\n  \"weakest_link\": \"The criterion is circular: 'informed opinion' is defined by publication in the literature, which is exactly the sample whose consensus is at issue.\",\n  \"develop_next\": \"Give an independent, non-circular test for 'informed opinion' (e.g. blind content test) so the inclusion rule isn't just 'agrees with the literature'.\",\n  \"case_map\": [\"F4\"], \"domain\": \"history\"},\n {\"id\": \"G10\", \"name\": \"French, German, and English are the major research languages\", \"conclusion\": \"Limiting the study to French, German, and English sources is defensible because those are the major research languages in Western resurrection scholarship and because the author has the right to set the criteria.\", \"speaker\": \"Gary Habermas\",\n  \"premises\": [\n   \"P1: As author of the four volumes, Habermas has the right to set the language parameters.\",\n   \"P2: French, German, and English are the dominant academic languages in the Western world and are the most commonly used in resurrection research.\",\n   \"P3: Research assistants who read additional languages included meaningful sources in other languages when found.\",\n   \"P4: The bibliography was compiled by multiple researchers and edited by Ben Shaw, not solely by Habermas.\"\n  ],\n  \"strength\": {\n   \"st1\": {\"v\": 2, \"quote\": \"I'm the author of these four volumes. I'm setting down my own criteria. And if as the author I say I'm only going to use French, German, and English, that's my right to set the parameters.\"},\n   \"st2\": {\"v\": 2, \"quote\": \"I don't think there's hardly any argument that at least in the entire western world northern Europe North America um those three languages are going to be the major ones mentioned most often.\"},\n   \"st3\": {\"v\": 1, \"quote\": \"I did an article for the journal for the study of historical Jesus and when I did the article a Jesus seminar guy was the editor of the journal\"},\n   \"st4\": {\"v\": 1, \"quote\": \"I would say English is number one German is number two and French is number three in fact I did an article which passed peer review\"},\n   \"st5\": {\"v\": 1, \"quote\": \"And you could say that's not fair. I can prove there's as many sources, use your example, I can prove there's as many sources on the resurrection in Russian.\"},\n   \"st6\": {\"v\": 1, \"quote\": \"We have sources in the bibliography of volume four that are neither of those three.\"},\n   \"st7\": {\"v\": 0, \"quote\": \"\"},\n   \"st8\": {\"v\": 1, \"quote\": \"I went back and counted my scholars at that time, the scholars I wrote on and the breakdown was almost exactly what I said\"},\n   \"st9\": {\"v\": 0, \"quote\": \"\"}\n  },\n  \"prior_art\": \"Gary Habermas, 'Resurrection Research from 1975 to the Present', JSHJ, 2005\",\n  \"originality\": {\n   \"or1\": {\"v\": 1, \"quote\": \"I did an article for the journal for the study of historical Jesus\", \"why\": \"A self-justifying methodological variant rather than a new substantive argument.\"},\n   \"or2\": {\"v\": 1, \"quote\": \"We have sources in the bibliography of volume four that are neither of those three.\", \"why\": \"Adds concrete bibliographic facts (Italian, Spanish, Polish entries) not in prior art.\"},\n   \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain bridge.\"},\n   \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization.\"}\n  },\n  \"weakest_link\": \"P1 ('I wrote it, so I set the criteria') justifies the choice procedurally but does nothing to show the resulting sample supports a global consensus claim.\",\n  \"develop_next\": \"Provide an actual language census of resurrection publications (counts by language) to show the three-language restriction loses no material body of evidence.\",\n  \"case_map\": [\"F4\"], \"domain\": \"history\"}\n]}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 20707,
+      "completion_tokens": 3161,
+      "attempts": 1,
+      "elapsed_seconds": 11.64100000000326,
+      "started_at": "2026-09-27T19:39:38.346883+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T19:39:49.989778+00:00",
+      "tokens": 23868
+    }
+  ],
+  "prompt_sha256": "8f79e06fa038822049a97a7a4288726babb15e6b8a2478401ef94810a6457678",
+  "tokens": 23868
+}

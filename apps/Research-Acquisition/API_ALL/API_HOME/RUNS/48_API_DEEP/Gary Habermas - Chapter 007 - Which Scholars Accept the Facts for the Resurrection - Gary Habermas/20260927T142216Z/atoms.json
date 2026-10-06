@@ -1,0 +1,372 @@
+{
+  "paper_uuid": "yt-garyhabermas-cf7y54mvyf8-ch7",
+  "title": "Which Scholars Accept the Facts for the Resurrection? - Gary Habermas",
+  "domainType": "theology",
+  "summary": "Habermas answers the objection that minimal-facts consensus is biased because the scholars surveyed are Christians. He counters that he deliberately weights toward liberal/critical scholars (Bultmann, Jesus Seminar, Dunn, Flew), that criteria require a terminal degree plus publication in the field, and that even hostile scholars concede the six facts and early Jerusalem-church traditions.",
+  "atoms": [
+    {
+      "nodeType": "claim",
+      "stage": "01_canonical",
+      "name": "Minimal-facts consensus is not a Christian bias artifact",
+      "statementTechnical": "The scholarly consensus on the six minimal resurrection facts is not explained by the religious commitment of the surveyed scholars, since the same facts are affirmed by non-Christian and far-left critical scholars (Bultmann, Flew, Jesus Seminar contributors).",
+      "statementPlain": "The six facts aren't just agreed on by Christians; even atheist and very liberal scholars grant them.",
+      "claimClass": "empirical-anchor",
+      "falsificationCondition": "A representative survey of critical resurrection scholars showing the six facts are affirmed only by self-identified Christians, or that non-Christian specialists deny them at high rates.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "dependsOn",
+          "target": "",
+          "grade": "independent",
+          "propagates": "false"
+        }
+      ],
+      "notes": "Core rebuttal to the 'biased sample' objection.",
+      "source_sentences": [
+        "S003",
+        "S004",
+        "S005",
+        "S044",
+        "S048",
+        "S060",
+        "S061",
+        "S062",
+        "S063",
+        "S064",
+        "S065"
+      ],
+      "atom_id": "A01"
+    },
+    {
+      "nodeType": "claim",
+      "stage": "01_canonical",
+      "name": "Bultmann affirms a pre-Markan passion narrative and early Jerusalem-church sayings",
+      "statementTechnical": "Rudolf Bultmann, though far left of Ehrman, accepts a pre-Markan passion narrative and holds that early sayings go back to the very earliest Jerusalem church, and in his 1941 essay states the earliest disciples preached the resurrection.",
+      "statementPlain": "Even Bultmann, a very skeptical scholar, admitted early sources and that the first disciples preached Jesus was raised.",
+      "claimClass": "empirical-anchor",
+      "falsificationCondition": "Show Bultmann's texts deny a pre-Markan source or deny that the earliest disciples preached the resurrection; or show the cited passages are misattributed.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "feedsInto",
+          "target": "",
+          "grade": "independent",
+          "propagates": "false"
+        }
+      ],
+      "notes": "Habermas offers chapter-and-verse on request.",
+      "source_sentences": [
+        "S070",
+        "S077",
+        "S081",
+        "S082",
+        "S086",
+        "S087",
+        "S089",
+        "S092",
+        "S093",
+        "S094",
+        "S104",
+        "S105",
+        "S109",
+        "S111",
+        "S112"
+      ],
+      "atom_id": "A02"
+    },
+    {
+      "nodeType": "claim",
+      "stage": "01_canonical",
+      "name": "Criteria for a 'critical scholar' = terminal degree + field competence/publication",
+      "statementTechnical": "A qualifying critical scholar has a terminal degree (PhD, D.Theol., D.Phil.) and works in a relevant field (NT, OT, history, philosophy, archaeology, world religions), with allowances for non-PhD researchers who demonstrably know the data.",
+      "statementPlain": "To count, a scholar needs a doctorate in a relevant area and real knowledge of the research.",
+      "claimClass": "definition",
+      "falsificationCondition": "Demonstrate that Habermas's published volumes in fact include unqualified scholars by his own stated criteria, or that the criteria are applied inconsistently.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "feedsInto",
+          "target": "",
+          "grade": "independent",
+          "propagates": "false"
+        }
+      ],
+      "notes": "Defined in volume one.",
+      "source_sentences": [
+        "S173",
+        "S174",
+        "S179",
+        "S180",
+        "S181",
+        "S184",
+        "S185",
+        "S187",
+        "S188",
+        "S190",
+        "S216",
+        "S222",
+        "S223"
+      ],
+      "atom_id": "A03"
+    },
+    {
+      "nodeType": "claim",
+      "stage": "01_canonical",
+      "name": "Habermas's survey is deliberately slanted toward liberal scholars",
+      "statementTechnical": "Habermas states in his book's introduction that his selection is slanted toward liberal scholars, and he is more lenient with liberals than conservatives, to preempt the bias charge.",
+      "statementPlain": "He intentionally includes more skeptical/liberal scholars than conservative ones.",
+      "claimClass": "empirical-anchor",
+      "falsificationCondition": "Show the published volumes are in fact dominated by conservative/evangelical scholars, contradicting the stated slant.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "dependsOn",
+          "target": "",
+          "grade": "independent",
+          "propagates": "false"
+        }
+      ],
+      "notes": "Self-reported methodological commitment.",
+      "source_sentences": [
+        "S097",
+        "S098",
+        "S099",
+        "S133",
+        "S201",
+        "S227"
+      ],
+      "atom_id": "A04"
+    },
+    {
+      "nodeType": "claim",
+      "stage": "01_canonical",
+      "name": "Jesus Seminar presupposes 'dead men don't rise'",
+      "statementTechnical": "The Jesus Seminar's two volumes open with ~38-39 presuppositions, one of which is that dead men do not rise, so the resurrected Jesus has no words in the Gospels.",
+      "statementPlain": "The Jesus Seminar began by assuming resurrections don't happen, so their conclusions were pre-loaded.",
+      "claimClass": "empirical-anchor",
+      "falsificationCondition": "Show the Jesus Seminar's stated presuppositions do not include a no-resurrection premise, or that the cited passage is misread.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "challenges",
+          "target": "",
+          "grade": "independent",
+          "propagates": "false"
+        }
+      ],
+      "notes": "Used to show even hostile scholars concede data.",
+      "source_sentences": [
+        "S150",
+        "S153",
+        "S154",
+        "S155",
+        "S156",
+        "S157",
+        "S158",
+        "S163",
+        "S164"
+      ],
+      "atom_id": "A05"
+    },
+    {
+      "nodeType": "claim",
+      "stage": "01_canonical",
+      "name": "Targeting publishing scholars yields informed opinions",
+      "statementTechnical": "Restricting the consensus survey to scholars who publish on resurrection research is justified because only they hold informed opinions; uninformed PhDs (e.g., Egyptologists, documentary historians) are irrelevant.",
+      "statementPlain": "Only scholars who actually study and publish on the resurrection have opinions worth counting.",
+      "claimClass": "definition",
+      "falsificationCondition": "Show that non-publishing specialists in adjacent fields systematically disagree with the minimal facts, undermining the informed-opinion restriction.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "dependsOn",
+          "target": "",
+          "grade": "independent",
+          "propagates": "false"
+        }
+      ],
+      "notes": "Answers the 'why not all scholars' objection.",
+      "source_sentences": [
+        "S121",
+        "S122",
+        "S125",
+        "S165",
+        "S166",
+        "S167",
+        "S168",
+        "S169",
+        "S239",
+        "S240",
+        "S241",
+        "S242",
+        "S243",
+        "S254",
+        "S258",
+        "S259"
+      ],
+      "atom_id": "A06"
+    },
+    {
+      "nodeType": "objection",
+      "stage": "08_objections",
+      "name": "Consensus is biased because the sample is Christian",
+      "statementTechnical": "Objection: the minimal-facts consensus is an artifact of sampling scholars who are already Christians and thus committed to the conclusion.",
+      "statementPlain": "You only get agreement because you're asking Christians.",
+      "falsificationCondition": "N/A (objection node).",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-survived",
+      "edges": [
+        {
+          "type": "challenges",
+          "target": "",
+          "grade": "independent",
+          "propagates": "false"
+        }
+      ],
+      "notes": "The objection Habermas is answering.",
+      "source_sentences": [
+        "S003",
+        "S004",
+        "S005",
+        "S120"
+      ],
+      "atom_id": "A07"
+    },
+    {
+      "nodeType": "objection",
+      "stage": "08_objections",
+      "name": "Consensus ignores scholars who don't publish in the field",
+      "statementTechnical": "Objection: a scholarly-consensus argument is invalid if it surveys only the subset of scholars who publish in the literature rather than all scholars.",
+      "statementPlain": "You're cherry-picking by only counting published specialists.",
+      "falsificationCondition": "N/A (objection node).",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-survived",
+      "edges": [
+        {
+          "type": "challenges",
+          "target": "",
+          "grade": "independent",
+          "propagates": "false"
+        }
+      ],
+      "notes": "Second objection addressed.",
+      "source_sentences": [
+        "S121",
+        "S122",
+        "S125",
+        "S238"
+      ],
+      "atom_id": "A08"
+    },
+    {
+      "nodeType": "evidence",
+      "stage": "05_evidence",
+      "name": "Antony Flew accepted all 12 facts as an atheist",
+      "statementTechnical": "In a debate, the moderator listed 12 facts and Antony Flew, then the best-known philosophical atheist, accepted all 12.",
+      "statementPlain": "A famous atheist philosopher agreed with all twelve facts in a debate.",
+      "falsificationCondition": "N/A (evidence node).",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "feedsInto",
+          "target": "",
+          "grade": "independent",
+          "propagates": "false"
+        }
+      ],
+      "notes": "Cited as non-Christian corroboration.",
+      "source_sentences": [
+        "S044",
+        "S045",
+        "S046",
+        "S047",
+        "S048",
+        "S049",
+        "S050"
+      ],
+      "atom_id": "A09"
+    },
+    {
+      "nodeType": "evidence",
+      "stage": "05_evidence",
+      "name": "Raymond Brown reproduces Soards' list of scholars accepting a pre-Markan source",
+      "statementTechnical": "In the appendix to Raymond Brown's two-volume The Death of the Messiah, Soards' essay lists critical scholars (including Bultmann) who accept a pre-Markan passion narrative possibly predating AD 37.",
+      "statementPlain": "A top Catholic scholar's appendix lists many critical scholars who accept an early Markan source.",
+      "falsificationCondition": "N/A (evidence node).",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "feedsInto",
+          "target": "",
+          "grade": "independent",
+          "propagates": "false"
+        }
+      ],
+      "notes": "Supports early-source claim.",
+      "source_sentences": [
+        "S067",
+        "S068",
+        "S069",
+        "S070",
+        "S071",
+        "S076",
+        "S081"
+      ],
+      "atom_id": "A10"
+    },
+    {
+      "nodeType": "evidence",
+      "stage": "05_evidence",
+      "name": "Christians deny the empty tomb, showing data-driven method",
+      "statementTechnical": "If Christian scholars simply rubber-stamped Christian conclusions, the empty tomb would be a minimal fact; since many Christians deny it, their conclusions track the data.",
+      "statementPlain": "Christians disagree with each other on the empty tomb, so they aren't just toeing a party line.",
+      "falsificationCondition": "N/A (evidence node).",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "feedsInto",
+          "target": "",
+          "grade": "independent",
+          "propagates": "false"
+        }
+      ],
+      "notes": "Internal-consistency argument against bias charge.",
+      "source_sentences": [
+        "S062",
+        "S063",
+        "S064",
+        "S065"
+      ],
+      "atom_id": "A11"
+    },
+    {
+      "nodeType": "raw",
+      "stage": "00_inbox_working",
+      "name": "Caption noise and speaker-label gaps",
+      "statementTechnical": "Auto-caption artifacts, missing speaker labels, and unclear date references (Strauss death year '72/'71/'1772').",
+      "statementPlain": "Transcript glitches and unclear dates.",
+      "falsificationCondition": "N/A (raw node).",
+      "verificationStatus": "informal",
+      "challengeStatus": "unchallenged",
+      "edges": [],
+      "notes": "Not a claim; flagged for cleanup.",
+      "source_sentences": [
+        "S016",
+        "S017",
+        "S018",
+        "S130",
+        "S131"
+      ],
+      "atom_id": "A12"
+    }
+  ]
+}

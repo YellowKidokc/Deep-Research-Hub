@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en-US">
+{{> control/partials/head-includes }}
+<head><title>Control Service: Node {{node.id}}</title></head>
+<body>
+{{> control/partials/nav}}
+
+<div class="container">
+
+    {{> control/node/partial-node-nav }}
+
+    <h1 class="my-3">Node Configuration</h1>
+
+    <div class="m-4 p-4 border">
+        <h2>Settings</h2>
+
+        <form method="post" action="?act=config">
+
+            <div class="mb-3">
+                <label for="description" class="form-label">Description</label>
+                <input class="form-control" type="text" name="description" value="{{config.description}}"/>
+            </div>
+
+
+            <div class="mb-5">
+                <label for="profile" class="form-label">Profile</label>
+                <select class="form-select" name="profile" id="profile">
+                    <option value="BATCH_CRAWL" {{#if node.profile.batchCrawl}}selected{{/if}}>Batch Crawl</option>
+                    <option value="SIDELOAD" {{#if node.profile.sideload}}selected{{/if}}>Sideload</option>
+                    <option value="REALTIME" {{#if node.profile.realtime}}selected{{/if}}>Real Time</option>
+                    <option value="MIXED" {{#if node.profile.mixed}}selected{{/if}}>Mixed Use</option>
+                    <option value="WIDE_DOMAINS" {{#if node.profile.wideDomains}}selected{{/if}}>Wide Domains</option>
+                </select>
+
+                <div class="form-text">The node profile configures which actors are available.
+                    <ul class="my-1">
+                        <li>
+                            <strong>Batch Crawl</strong> - This node is configured for batch crawling.  It will not have the sideload actors available.
+                        </li>
+                        <li>
+                            <strong>Sideload</strong> - This node is configured for sideloading.  It will not have the batch crawl actors available.
+                        </li>
+                        <li>
+                            <strong>Real Time</strong> - This node is configured for real time processing.
+                            It will not have the batch crawl or sideload actors available, but have actors for real time (daily) crawling.
+                        </li>
+                        <li>
+                            <strong>Mixed Use</strong> - This node is configured for both batch crawling and sideloading.
+                        </li>
+                        <li>
+                            <strong>Wide Domains</strong> - This node is dedicated to domains with many subdomains.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" name="acceptQueries" {{#if config.acceptQueries}}checked{{/if}}>
+                <label class="form-check-label" for="acceptQueries">Accept queries</label>
+
+                <div class="form-text">Sets whether queries will be routed to this node</div>
+            </div>
+
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" name="autoClean" {{#if config.autoClean}}checked{{/if}}>
+                <label class="form-check-label" for="autoClean">Clean Automatically</label>
+
+                <div class="form-text">If true, the system will automatically purge intermediate stages of data processing.
+                                       This should probably be on in production and probably off in testing.
+                </div>
+            </div>
+
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" name="autoAssignDomains" {{#if config.autoAssignDomains}}checked{{/if}}>
+                <label class="form-check-label" for="autoClean">Auto-Assign Domains</label>
+
+                <div class="form-text">If true, the New Domain Process will assign new domains to this node and all other nodes with this setting enabled.
+                                       This is the default behavior, but can be overridden if you want one node with a specific manual domain assignment.
+                                       </div>
+            </div>
+
+<!--  This is not currently used, but may be in the future
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" name="includeInPrecession" {{#if config.includeInPrecession}}checked{{/if}}>
+                <label class="form-check-label" for="includeInPrecession">Include in crawling precession</label>
+
+                <div class="form-text">If true, this node will be included in the crawling precession.</div>
+            </div>
+-->
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" name="keepWarcs" {{#if config.keepWarcs}}checked{{/if}}>
+                <label class="form-check-label" for="includeInPrecession">Keep WARC files during crawling</label>
+
+                <div class="form-text">This toggle makes the crawler retain copies of the WebARChive data that is
+                                       normally an intermediate product of the crawling.  This is useful for debugging
+                                       and testing, but the WARC files are large and take up a lot of space.  Unless
+                                       there is a need for exporting these files, it is recommended to leave this off.
+                </div>
+            </div>
+
+            <div class="form-check form-switch mb-3">
+                <input class="form-check-input" type="checkbox" role="switch" name="disabled" {{#if config.disabled}}checked{{/if}}>
+                <label class="form-check-label" for="disabled">Disabled</label>
+
+                <div class="form-text">Disabling a node is a soft delete that prevents the index and
+                                                         control service from starting</div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Save</button>
+        </form>
+
+    </div>
+</div>
+
+</div>
+
+</body>
+{{> control/partials/foot-includes }}
+</html>

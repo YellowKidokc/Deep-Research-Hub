@@ -1,0 +1,694 @@
+{
+  "name": "fruits",
+  "parsed": {
+    "spec_version": "0.3.0",
+    "target": {
+      "type": "paper",
+      "title": "Gary Habermas - Chapter 007 - Which Scholars Accept the Facts for the Resurrection - Gary Habermas",
+      "domain": "unknown; infer conservatively",
+      "unit": "complete supplied document",
+      "comparison_class": "paper of similar purpose and evidence burden",
+      "population_boundary": "persons and groups explicitly represented in the supplied document; report omissions",
+      "time_window": null
+    },
+    "gate_results": [
+      {
+        "gate_id": "gate.truth_evidence",
+        "status": "WARN",
+        "hard": true,
+        "rationale": "The source makes many factual claims about what named scholars accept (Bultmann, Dunn, Flew, the Jesus Seminar, Brown/Soards) but supplies almost no traceable citations in the transcript itself. It repeatedly promises that the evidence exists in the four volumes and offers to send chapter and verse (S088, S172), which is a traceability gesture rather than traceable evidence. No fabricated citation is detected, but the load-bearing consensus claim is not independently verifiable from the supplied unit.",
+        "evidence_refs": [
+          "S088",
+          "S172",
+          "S081",
+          "S087",
+          "S093",
+          "S104"
+        ],
+        "resolution": "Would pass if the cited volumes and page references were supplied and checked; currently the gate is unresolved at WARN, not FAIL, because the claims are attributed to identifiable published works and no deception is evidenced."
+      },
+      {
+        "gate_id": "gate.contradiction",
+        "status": "PASS",
+        "hard": true,
+        "rationale": "No load-bearing contradiction is present in the supplied text. Apparent tensions (e.g., accepting Old Testament scholars while insisting on field competence, S180-S187; admitting slant toward liberals while claiming even-handedness, S201, S227) are acknowledged and bounded by the speaker rather than concealed. The transcript's own caption/date fumbling (S016-S018, S130-S131) is local and self-corrected.",
+        "evidence_refs": [
+          "S180",
+          "S181",
+          "S184",
+          "S187",
+          "S201",
+          "S227",
+          "S130",
+          "S131"
+        ],
+        "resolution": null
+      },
+      {
+        "gate_id": "gate.scope",
+        "status": "WARN",
+        "hard": false,
+        "rationale": "The conclusion that a scholarly consensus exists for certain minimal facts is drawn from a deliberately restricted sample (published critical scholars). The source acknowledges the restriction (S121-S125, S165-S169, S253-S259), which keeps the scope claim bounded, but the inference from 'published scholars agree' to 'the facts are established' exceeds what the sampling method alone supports.",
+        "evidence_refs": [
+          "S121",
+          "S125",
+          "S165",
+          "S169",
+          "S253",
+          "S258"
+        ],
+        "resolution": "Scope would be satisfied if the consensus claim were explicitly limited to the surveyed population and the survey instrument were published."
+      },
+      {
+        "gate_id": "gate.falsifiability",
+        "status": "WARN",
+        "hard": false,
+        "rationale": "The source invites refutation ('If you've got a criticism, disprove it', S148) and states a general evidential credo (S139-S140), which is a falsifiability posture. However, it does not specify what evidence would overturn the minimal-facts consensus, and it treats the Jesus Seminar's contrary presupposition as disqualifying rather than as a potential counter-instance to be weighed (S153-S164).",
+        "evidence_refs": [
+          "S139",
+          "S140",
+          "S148",
+          "S153",
+          "S158",
+          "S164"
+        ],
+        "resolution": "A stated kill condition for the consensus claim would move this to PASS."
+      },
+      {
+        "gate_id": "gate.bridge_validity",
+        "status": "UNKNOWN",
+        "hard": false,
+        "rationale": "The source moves between historical-critical method, theological commitment, and scholarly consensus. No explicit bridge law, invariant mapping, or recovery condition is stated for the cross-domain move from 'critical scholars accept X' to 'X is historically warranted'. The gate is not clearly failed because the move is a standard historiographical one, but the required elements are absent.",
+        "evidence_refs": [
+          "S061",
+          "S064",
+          "S065",
+          "S102",
+          "S103"
+        ],
+        "resolution": null
+      },
+      {
+        "gate_id": "gate.provenance",
+        "status": "WARN",
+        "hard": false,
+        "rationale": "Authorship is identifiable (Gary Habermas, with an interlocutor addressed as Bill/Dale), and the source names its own four volumes and other works. But the transcript is auto-captioned, speaker labels are missing, and the specific quotations (Bultmann 1941, the Jesus Seminar presuppositions, Soards' essay) are given without page or edition references in the supplied unit.",
+        "evidence_refs": [
+          "S008",
+          "S010",
+          "S012",
+          "S067",
+          "S069",
+          "S104",
+          "S153"
+        ],
+        "resolution": "Providing the volume/page references Habermas offers at S088 and S172 would resolve this."
+      },
+      {
+        "gate_id": "gate.agency_noncoercion",
+        "status": "PASS",
+        "hard": true,
+        "rationale": "The source is a spoken scholarly discussion. No concealed compulsion, manipulation of consent, or destruction of agency is evidenced. Disagreement is engaged by argument and citation rather than by threat or coercion, and the speaker explicitly disclaims authority over others' religious status (S245).",
+        "evidence_refs": [
+          "S148",
+          "S245",
+          "S246",
+          "S249"
+        ],
+        "resolution": null
+      }
+    ],
+    "fruit_profile": [
+      {
+        "fruit_id": "fruit.love",
+        "score": 2,
+        "confidence": 0.4,
+        "mechanism": "truth-aligned relational cohesion seeking the good of the whole and each member while bearing cost and preserving agency",
+        "positive_evidence": [
+          {
+            "ref_id": "love-pos-1",
+            "quote_or_event": "I don't want to offend anybody or done any done lovers.",
+            "location": "S034",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Explicit stated intent to avoid needless offense toward a named scholar's admirers, a low-cost but real relational consideration.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "love-pos-2",
+            "quote_or_event": "I really do think I I'm more lenient with liberals than I am with conservatives because I want to put people in there who don't have all the training, but I want to be honest giving everybody a shot.",
+            "location": "S227",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Stated intent to include rather than exclude ideological opponents, which is a cohesion-seeking posture.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "love-neg-1",
+            "quote_or_event": "He calls their arguments all kinds of bad things that I wouldn't say in print about them.",
+            "location": "S212",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Reports Ehrman's harsh treatment of mythicists; the speaker distances himself but the surrounding passage (S205-S214) still frames opponents as unqualified, which is a boundary-drawing rather than a good-seeking move.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.25,
+        "stress_tests": {
+          "source": "WARN",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "WARN",
+          "power": "UNKNOWN",
+          "correction": "UNKNOWN",
+          "outsider": "WARN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "The text shows courtesy and inclusion gestures toward ideological opponents, but the unit is a single argumentative chapter and provides no evidence of costly, enduring, or outsider-verified love. Score 2 reflects mixed/insufficient evidence."
+      },
+      {
+        "fruit_id": "fruit.joy",
+        "score": 2,
+        "confidence": 0.35,
+        "mechanism": "durable participation in real good not dependent on denial, spectacle, status, or constant stimulation",
+        "positive_evidence": [
+          {
+            "ref_id": "joy-pos-1",
+            "quote_or_event": "Um I I love reading those guys cuz they know the sources.",
+            "location": "S026",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Expressed enjoyment of scholarly sources independent of the argument's outcome, a mild signal of intrinsic interest.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "joy-pos-2",
+            "quote_or_event": "The 19th century Germans are just a fun read.",
+            "location": "S027",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Pleasure in the material itself rather than in victory.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [],
+        "evidence_coverage": 0.15,
+        "stress_tests": {
+          "source": "UNKNOWN",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "UNKNOWN",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Only incidental expressions of enjoyment appear; no evidence of durable joy under pressure or cost. Score 2 with low confidence."
+      },
+      {
+        "fruit_id": "fruit.peace",
+        "score": 2,
+        "confidence": 0.3,
+        "mechanism": "reintegrated order in which relevant tensions are truthfully addressed without suppression",
+        "positive_evidence": [
+          {
+            "ref_id": "peace-pos-1",
+            "quote_or_event": "If if you've got a criticism, disprove it.",
+            "location": "S148",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Invitation to resolve disagreement by evidence rather than by suppression, a truth-addressing posture.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "peace-neg-1",
+            "quote_or_event": "It bothers me.",
+            "location": "S230",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Expressed irritation at critics of his inclusion criteria; a mild unresolved tension rather than a settled peace.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.15,
+        "stress_tests": {
+          "source": "UNKNOWN",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "UNKNOWN",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "The text engages conflict openly but also registers irritation; no evidence of sustained reintegrated order. Score 2."
+      },
+      {
+        "fruit_id": "fruit.patience",
+        "score": 2,
+        "confidence": 0.3,
+        "mechanism": "preservation of persons and processes across the time required for truth, growth, correction, or convergence while acting when action is due",
+        "positive_evidence": [
+          {
+            "ref_id": "patience-pos-1",
+            "quote_or_event": "But basically, I worked from '75 on in putting this very volume together.",
+            "location": "S132",
+            "evidence_type": "PROCESS",
+            "link_reason": "Decades-long research program is a process-level indicator of sustained work across time.",
+            "source_ref": null,
+            "time_window": "1975 onward"
+          }
+        ],
+        "counterevidence": [],
+        "evidence_coverage": 0.15,
+        "stress_tests": {
+          "source": "UNKNOWN",
+          "cost": "UNKNOWN",
+          "endurance": "WARN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "UNKNOWN",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Long research duration is a weak patience signal; no evidence about how the speaker handles slow correction or delayed convergence. Score 2."
+      },
+      {
+        "fruit_id": "fruit.kindness",
+        "score": 2,
+        "confidence": 0.4,
+        "mechanism": "low-friction repair and assistance that reduces needless barriers without erasing truth or responsibility",
+        "positive_evidence": [
+          {
+            "ref_id": "kind-pos-1",
+            "quote_or_event": "I don't want to offend anybody or done any done lovers.",
+            "location": "S034",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Explicit effort to avoid needless offense.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "kind-pos-2",
+            "quote_or_event": "If anybody wants chapter and verse, I'll send it to them as long as they're going to be honest and not just look for something else to throw mud on.",
+            "location": "S088",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Offers to supply sources to questioners, a low-friction assistance gesture, though conditioned on the questioner's good faith.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "kind-neg-1",
+            "quote_or_event": "He calls their arguments all kinds of bad things that I wouldn't say in print about them.",
+            "location": "S212",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "The surrounding passage reports and partly tolerates harsh characterization of mythicists; the speaker's own restraint is noted but the framing remains dismissive.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.3,
+        "stress_tests": {
+          "source": "WARN",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "WARN",
+          "power": "UNKNOWN",
+          "correction": "UNKNOWN",
+          "outsider": "WARN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Courtesy and offers of help are present but conditional and not tested under cost. Score 2."
+      },
+      {
+        "fruit_id": "fruit.goodness",
+        "score": 2,
+        "confidence": 0.35,
+        "mechanism": "truth-aligned action producing real non-malign benefit after costs and externalities are counted",
+        "positive_evidence": [
+          {
+            "ref_id": "good-pos-1",
+            "quote_or_event": "I try to go where the evidence leads.",
+            "location": "S139",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Stated commitment to evidence-led method, a truth-aligned posture.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "good-pos-2",
+            "quote_or_event": "I really do think I I'm more lenient with liberals than I am with conservatives because I want to put people in there who don't have all the training, but I want to be honest giving everybody a shot.",
+            "location": "S227",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Self-reported even-handedness in inclusion criteria.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "good-neg-1",
+            "quote_or_event": "I do say I am slanted toward liberal scholars.",
+            "location": "S201",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Admitted sampling slant means the consensus output may overstate agreement; the externality is acknowledged but not corrected in the unit.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.25,
+        "stress_tests": {
+          "source": "WARN",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "UNKNOWN",
+          "outsider": "WARN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Truth-aligned intent is stated and a sampling bias is openly admitted, but no downstream benefit or cost accounting is available in the unit. Score 2."
+      },
+      {
+        "fruit_id": "fruit.faithfulness",
+        "score": 2,
+        "confidence": 0.4,
+        "mechanism": "invariant fidelity across time, audiences, incentives, and pressure, joined to correction when the object of loyalty is false",
+        "positive_evidence": [
+          {
+            "ref_id": "faith-pos-1",
+            "quote_or_event": "I try to go where the evidence leads.",
+            "location": "S139",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Stated fidelity to evidence rather than to a party line.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "faith-pos-2",
+            "quote_or_event": "I am not the determiner of whether they are Christians or not.",
+            "location": "S245",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Refusal to make the argument depend on a religious-status test, a consistency-preserving move.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "faith-neg-1",
+            "quote_or_event": "I do say I am slanted toward liberal scholars.",
+            "location": "S201",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "An admitted slant is a potential selective-standard risk for the consensus claim, though it is disclosed rather than hidden.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.25,
+        "stress_tests": {
+          "source": "WARN",
+          "cost": "UNKNOWN",
+          "endurance": "WARN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "UNKNOWN",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Evidence-fidelity is stated and a bias is disclosed, but no cross-audience or cross-pressure test is available in the unit. Score 2."
+      },
+      {
+        "fruit_id": "fruit.gentleness",
+        "score": 2,
+        "confidence": 0.35,
+        "mechanism": "power precisely restrained to the minimum force sufficient for the good while protecting the vulnerable",
+        "positive_evidence": [
+          {
+            "ref_id": "gent-pos-1",
+            "quote_or_event": "He calls their arguments all kinds of bad things that I wouldn't say in print about them.",
+            "location": "S212",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Explicit self-restraint from harsh public language about opponents.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "gent-pos-2",
+            "quote_or_event": "I am not the determiner of whether they are Christians or not.",
+            "location": "S245",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Refusal to exercise a status-judging power over others.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "gent-neg-1",
+            "quote_or_event": "You write the book and then you can make the bar for yourself.",
+            "location": "S231",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "A dismissive retort to critics, a mild force-escalation in a low-stakes setting.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.25,
+        "stress_tests": {
+          "source": "WARN",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "WARN",
+          "power": "WARN",
+          "correction": "UNKNOWN",
+          "outsider": "WARN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Restraint from name-calling and from status judgment is stated, but a dismissive retort appears and no power-under-pressure test is available. Score 2."
+      },
+      {
+        "fruit_id": "fruit.self_control",
+        "score": 2,
+        "confidence": 0.35,
+        "mechanism": "boundary integrity and governance of appetite, impulse, scope, and optimization under the true good",
+        "positive_evidence": [
+          {
+            "ref_id": "self-pos-1",
+            "quote_or_event": "I do say I am slanted toward liberal scholars.",
+            "location": "S201",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Disclosure of a known bias is a boundary-integrity move.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "self-pos-2",
+            "quote_or_event": "I can only take people who have published on things or maybe have done, you know, an interview for the History Channel or they've done an interview that I can follow because how do I know your view?",
+            "location": "S254",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Explicit inclusion criterion limits scope creep in the sample.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "self-neg-1",
+            "quote_or_event": "I'm more lenient with liberals than I am with conservatives",
+            "location": "S227",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Asymmetric leniency is a scope-governance risk for the consensus claim, though disclosed.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.25,
+        "stress_tests": {
+          "source": "WARN",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "UNKNOWN",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Inclusion criteria and bias disclosure show some boundary governance, but asymmetric leniency and no pressure test limit the score to 2."
+      }
+    ],
+    "contradictions": [
+      {
+        "classification": "ACKNOWLEDGED_REPAIRED",
+        "load_bearing": false,
+        "resolved": true,
+        "evidence_refs": [
+          "S180",
+          "S181",
+          "S184",
+          "S187"
+        ],
+        "fruit_relation": "self_control",
+        "consequence": "The apparent tension between requiring field competence and accepting Old Testament scholars is explicitly addressed by the speaker, who explains the shared methodological toolkit."
+      },
+      {
+        "classification": "ACKNOWLEDGED_REPAIRED",
+        "load_bearing": true,
+        "resolved": false,
+        "evidence_refs": [
+          "S201",
+          "S227",
+          "S258"
+        ],
+        "fruit_relation": "faithfulness",
+        "consequence": "The admitted slant toward liberal scholars is disclosed but not corrected; it remains a bounded methodological caveat on the consensus claim rather than a concealed contradiction."
+      },
+      {
+        "classification": "LOCAL",
+        "load_bearing": false,
+        "resolved": true,
+        "evidence_refs": [
+          "S016",
+          "S017",
+          "S018",
+          "S130",
+          "S131"
+        ],
+        "fruit_relation": "self_control",
+        "consequence": "Date fumbling in the transcript is self-corrected and does not affect the argument."
+      }
+    ],
+    "counterfeit_flags": [],
+    "anti_fruit_pressure": [],
+    "stakeholder_divergence": [],
+    "aggregation": {
+      "mode": "gated_profile",
+      "arithmetic_summary": 2.0,
+      "geometric_balance": 2.0,
+      "multiplicative_coherence": null,
+      "minimum_fruit": {
+        "fruit_id": "fruit.love",
+        "score": 2
+      },
+      "vetoes": []
+    },
+    "epistemic_status": "CONDITIONAL",
+    "system_status": "COHERENT_BUT_FRAGILE",
+    "confidence": 0.35,
+    "missing_evidence": [
+      "The four volumes and specific page references Habermas offers at S088 and S172 are not supplied.",
+      "The Bultmann 1941 quotation at S104-S116 is given from memory and not verified against the source text.",
+      "The Jesus Seminar presupposition list at S153-S158 is paraphrased without citation.",
+      "The Soards essay and Brown volume cited at S067-S070 are not supplied.",
+      "No independent or outsider assessment of the consensus claim is included in the unit.",
+      "Speaker labels are absent, so attribution between Habermas and his interlocutor is partly inferred."
+    ],
+    "repair_path": [
+      "Supply the volume and page references for each scholar cited (Bultmann, Dunn, Flew, the Jesus Seminar, Brown/Soards).",
+      "State explicitly what evidence would falsify the minimal-facts consensus claim.",
+      "Publish the survey instrument and inclusion criteria so the sampling frame can be audited.",
+      "Separate the claim 'published critical scholars accept X' from the claim 'X is historically established'.",
+      "Provide an outsider or adversarial review of the consensus claim within the same unit."
+    ],
+    "falsifier": "A documented instance in which Habermas misattributes a view to a named scholar, or a published survey showing that the cited consensus does not hold among the stated population, would falsify the central claim of this chapter.",
+    "limitations": [
+      "The unit is a single auto-captioned YouTube chapter; it is not a full work and cannot support claims about the speaker's character across contexts.",
+      "Caption errors and missing speaker labels limit attribution precision.",
+      "The per-sentence summary reports near-zero fruit means and no counterfeit or hidden-fruit candidates; this evaluation agrees that no counterfeit mechanism is evidenced, but treats the near-zero means as an artifact of a short argumentative unit rather than as character evidence.",
+      "No inference is made about hidden motives, salvation status, or divine origin.",
+      "Scores of 2 reflect mixed or insufficient evidence, not a negative verdict."
+    ],
+    "formal_receipt": {}
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "fruits",
+      "attempt": 1,
+      "text": "{\n  \"spec_version\": \"0.3.0\",\n  \"target\": {\n    \"type\": \"paper\",\n    \"title\": \"Gary Habermas - Chapter 007 - Which Scholars Accept the Facts for the Resurrection - Gary Habermas\",\n    \"domain\": \"unknown; infer conservatively\",\n    \"unit\": \"complete supplied document\",\n    \"comparison_class\": \"paper of similar purpose and evidence burden\",\n    \"population_boundary\": \"persons and groups explicitly represented in the supplied document; report omissions\",\n    \"time_window\": null\n  },\n  \"gate_results\": [\n    {\n      \"gate_id\": \"gate.truth_evidence\",\n      \"status\": \"WARN\",\n      \"hard\": true,\n      \"rationale\": \"The source makes many factual claims about what named scholars accept (Bultmann, Dunn, Flew, the Jesus Seminar, Brown/Soards) but supplies almost no traceable citations in the transcript itself. It repeatedly promises that the evidence exists in the four volumes and offers to send chapter and verse (S088, S172), which is a traceability gesture rather than traceable evidence. No fabricated citation is detected, but the load-bearing consensus claim is not independently verifiable from the supplied unit.\",\n      \"evidence_refs\": [\"S088\", \"S172\", \"S081\", \"S087\", \"S093\", \"S104\"],\n      \"resolution\": \"Would pass if the cited volumes and page references were supplied and checked; currently the gate is unresolved at WARN, not FAIL, because the claims are attributed to identifiable published works and no deception is evidenced.\"\n    },\n    {\n      \"gate_id\": \"gate.contradiction\",\n      \"status\": \"PASS\",\n      \"hard\": true,\n      \"rationale\": \"No load-bearing contradiction is present in the supplied text. Apparent tensions (e.g., accepting Old Testament scholars while insisting on field competence, S180-S187; admitting slant toward liberals while claiming even-handedness, S201, S227) are acknowledged and bounded by the speaker rather than concealed. The transcript's own caption/date fumbling (S016-S018, S130-S131) is local and self-corrected.\",\n      \"evidence_refs\": [\"S180\", \"S181\", \"S184\", \"S187\", \"S201\", \"S227\", \"S130\", \"S131\"],\n      \"resolution\": null\n    },\n    {\n      \"gate_id\": \"gate.scope\",\n      \"status\": \"WARN\",\n      \"hard\": false,\n      \"rationale\": \"The conclusion that a scholarly consensus exists for certain minimal facts is drawn from a deliberately restricted sample (published critical scholars). The source acknowledges the restriction (S121-S125, S165-S169, S253-S259), which keeps the scope claim bounded, but the inference from 'published scholars agree' to 'the facts are established' exceeds what the sampling method alone supports.\",\n      \"evidence_refs\": [\"S121\", \"S125\", \"S165\", \"S169\", \"S253\", \"S258\"],\n      \"resolution\": \"Scope would be satisfied if the consensus claim were explicitly limited to the surveyed population and the survey instrument were published.\"\n    },\n    {\n      \"gate_id\": \"gate.falsifiability\",\n      \"status\": \"WARN\",\n      \"hard\": false,\n      \"rationale\": \"The source invites refutation ('If you've got a criticism, disprove it', S148) and states a general evidential credo (S139-S140), which is a falsifiability posture. However, it does not specify what evidence would overturn the minimal-facts consensus, and it treats the Jesus Seminar's contrary presupposition as disqualifying rather than as a potential counter-instance to be weighed (S153-S164).\",\n      \"evidence_refs\": [\"S139\", \"S140\", \"S148\", \"S153\", \"S158\", \"S164\"],\n      \"resolution\": \"A stated kill condition for the consensus claim would move this to PASS.\"\n    },\n    {\n      \"gate_id\": \"gate.bridge_validity\",\n      \"status\": \"UNKNOWN\",\n      \"hard\": false,\n      \"rationale\": \"The source moves between historical-critical method, theological commitment, and scholarly consensus. No explicit bridge law, invariant mapping, or recovery condition is stated for the cross-domain move from 'critical scholars accept X' to 'X is historically warranted'. The gate is not clearly failed because the move is a standard historiographical one, but the required elements are absent.\",\n      \"evidence_refs\": [\"S061\", \"S064\", \"S065\", \"S102\", \"S103\"],\n      \"resolution\": null\n    },\n    {\n      \"gate_id\": \"gate.provenance\",\n      \"status\": \"WARN\",\n      \"hard\": false,\n      \"rationale\": \"Authorship is identifiable (Gary Habermas, with an interlocutor addressed as Bill/Dale), and the source names its own four volumes and other works. But the transcript is auto-captioned, speaker labels are missing, and the specific quotations (Bultmann 1941, the Jesus Seminar presuppositions, Soards' essay) are given without page or edition references in the supplied unit.\",\n      \"evidence_refs\": [\"S008\", \"S010\", \"S012\", \"S067\", \"S069\", \"S104\", \"S153\"],\n      \"resolution\": \"Providing the volume/page references Habermas offers at S088 and S172 would resolve this.\"\n    },\n    {\n      \"gate_id\": \"gate.agency_noncoercion\",\n      \"status\": \"PASS\",\n      \"hard\": true,\n      \"rationale\": \"The source is a spoken scholarly discussion. No concealed compulsion, manipulation of consent, or destruction of agency is evidenced. Disagreement is engaged by argument and citation rather than by threat or coercion, and the speaker explicitly disclaims authority over others' religious status (S245).\",\n      \"evidence_refs\": [\"S148\", \"S245\", \"S246\", \"S249\"],\n      \"resolution\": null\n    }\n  ],\n  \"fruit_profile\": [\n    {\n      \"fruit_id\": \"fruit.love\",\n      \"score\": 2,\n      \"confidence\": 0.4,\n      \"mechanism\": \"truth-aligned relational cohesion seeking the good of the whole and each member while bearing cost and preserving agency\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"love-pos-1\",\n          \"quote_or_event\": \"I don't want to offend anybody or done any done lovers.\",\n          \"location\": \"S034\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Explicit stated intent to avoid needless offense toward a named scholar's admirers, a low-cost but real relational consideration.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"love-pos-2\",\n          \"quote_or_event\": \"I really do think I I'm more lenient with liberals than I am with conservatives because I want to put people in there who don't have all the training, but I want to be honest giving everybody a shot.\",\n          \"location\": \"S227\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Stated intent to include rather than exclude ideological opponents, which is a cohesion-seeking posture.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"love-neg-1\",\n          \"quote_or_event\": \"He calls their arguments all kinds of bad things that I wouldn't say in print about them.\",\n          \"location\": \"S212\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Reports Ehrman's harsh treatment of mythicists; the speaker distances himself but the surrounding passage (S205-S214) still frames opponents as unqualified, which is a boundary-drawing rather than a good-seeking move.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.25,\n      \"stress_tests\": {\n        \"source\": \"WARN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"WARN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"UNKNOWN\",\n        \"outsider\": \"WARN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"The text shows courtesy and inclusion gestures toward ideological opponents, but the unit is a single argumentative chapter and provides no evidence of costly, enduring, or outsider-verified love. Score 2 reflects mixed/insufficient evidence.\"\n    },\n    {\n      \"fruit_id\": \"fruit.joy\",\n      \"score\": 2,\n      \"confidence\": 0.35,\n      \"mechanism\": \"durable participation in real good not dependent on denial, spectacle, status, or constant stimulation\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"joy-pos-1\",\n          \"quote_or_event\": \"Um I I love reading those guys cuz they know the sources.\",\n          \"location\": \"S026\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Expressed enjoyment of scholarly sources independent of the argument's outcome, a mild signal of intrinsic interest.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"joy-pos-2\",\n          \"quote_or_event\": \"The 19th century Germans are just a fun read.\",\n          \"location\": \"S027\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Pleasure in the material itself rather than in victory.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [],\n      \"evidence_coverage\": 0.15,\n      \"stress_tests\": {\n        \"source\": \"UNKNOWN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"UNKNOWN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"UNKNOWN\",\n        \"outsider\": \"UNKNOWN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"Only incidental expressions of enjoyment appear; no evidence of durable joy under pressure or cost. Score 2 with low confidence.\"\n    },\n    {\n      \"fruit_id\": \"fruit.peace\",\n      \"score\": 2,\n      \"confidence\": 0.3,\n      \"mechanism\": \"reintegrated order in which relevant tensions are truthfully addressed without suppression\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"peace-pos-1\",\n          \"quote_or_event\": \"If if you've got a criticism, disprove it.\",\n          \"location\": \"S148\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Invitation to resolve disagreement by evidence rather than by suppression, a truth-addressing posture.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"peace-neg-1\",\n          \"quote_or_event\": \"It bothers me.\",\n          \"location\": \"S230\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Expressed irritation at critics of his inclusion criteria; a mild unresolved tension rather than a settled peace.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.15,\n      \"stress_tests\": {\n        \"source\": \"UNKNOWN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"UNKNOWN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"UNKNOWN\",\n        \"outsider\": \"UNKNOWN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"The text engages conflict openly but also registers irritation; no evidence of sustained reintegrated order. Score 2.\"\n    },\n    {\n      \"fruit_id\": \"fruit.patience\",\n      \"score\": 2,\n      \"confidence\": 0.3,\n      \"mechanism\": \"preservation of persons and processes across the time required for truth, growth, correction, or convergence while acting when action is due\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"patience-pos-1\",\n          \"quote_or_event\": \"But basically, I worked from '75 on in putting this very volume together.\",\n          \"location\": \"S132\",\n          \"evidence_type\": \"PROCESS\",\n          \"link_reason\": \"Decades-long research program is a process-level indicator of sustained work across time.\",\n          \"source_ref\": null,\n          \"time_window\": \"1975 onward\"\n        }\n      ],\n      \"counterevidence\": [],\n      \"evidence_coverage\": 0.15,\n      \"stress_tests\": {\n        \"source\": \"UNKNOWN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"WARN\",\n        \"relation\": \"UNKNOWN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"UNKNOWN\",\n        \"outsider\": \"UNKNOWN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"Long research duration is a weak patience signal; no evidence about how the speaker handles slow correction or delayed convergence. Score 2.\"\n    },\n    {\n      \"fruit_id\": \"fruit.kindness\",\n      \"score\": 2,\n      \"confidence\": 0.4,\n      \"mechanism\": \"low-friction repair and assistance that reduces needless barriers without erasing truth or responsibility\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"kind-pos-1\",\n          \"quote_or_event\": \"I don't want to offend anybody or done any done lovers.\",\n          \"location\": \"S034\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Explicit effort to avoid needless offense.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"kind-pos-2\",\n          \"quote_or_event\": \"If anybody wants chapter and verse, I'll send it to them as long as they're going to be honest and not just look for something else to throw mud on.\",\n          \"location\": \"S088\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Offers to supply sources to questioners, a low-friction assistance gesture, though conditioned on the questioner's good faith.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"kind-neg-1\",\n          \"quote_or_event\": \"He calls their arguments all kinds of bad things that I wouldn't say in print about them.\",\n          \"location\": \"S212\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"The surrounding passage reports and partly tolerates harsh characterization of mythicists; the speaker's own restraint is noted but the framing remains dismissive.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.3,\n      \"stress_tests\": {\n        \"source\": \"WARN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"WARN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"UNKNOWN\",\n        \"outsider\": \"WARN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"Courtesy and offers of help are present but conditional and not tested under cost. Score 2.\"\n    },\n    {\n      \"fruit_id\": \"fruit.goodness\",\n      \"score\": 2,\n      \"confidence\": 0.35,\n      \"mechanism\": \"truth-aligned action producing real non-malign benefit after costs and externalities are counted\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"good-pos-1\",\n          \"quote_or_event\": \"I try to go where the evidence leads.\",\n          \"location\": \"S139\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Stated commitment to evidence-led method, a truth-aligned posture.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"good-pos-2\",\n          \"quote_or_event\": \"I really do think I I'm more lenient with liberals than I am with conservatives because I want to put people in there who don't have all the training, but I want to be honest giving everybody a shot.\",\n          \"location\": \"S227\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Self-reported even-handedness in inclusion criteria.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"good-neg-1\",\n          \"quote_or_event\": \"I do say I am slanted toward liberal scholars.\",\n          \"location\": \"S201\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Admitted sampling slant means the consensus output may overstate agreement; the externality is acknowledged but not corrected in the unit.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.25,\n      \"stress_tests\": {\n        \"source\": \"WARN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"UNKNOWN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"UNKNOWN\",\n        \"outsider\": \"WARN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"Truth-aligned intent is stated and a sampling bias is openly admitted, but no downstream benefit or cost accounting is available in the unit. Score 2.\"\n    },\n    {\n      \"fruit_id\": \"fruit.faithfulness\",\n      \"score\": 2,\n      \"confidence\": 0.4,\n      \"mechanism\": \"invariant fidelity across time, audiences, incentives, and pressure, joined to correction when the object of loyalty is false\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"faith-pos-1\",\n          \"quote_or_event\": \"I try to go where the evidence leads.\",\n          \"location\": \"S139\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Stated fidelity to evidence rather than to a party line.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"faith-pos-2\",\n          \"quote_or_event\": \"I am not the determiner of whether they are Christians or not.\",\n          \"location\": \"S245\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Refusal to make the argument depend on a religious-status test, a consistency-preserving move.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"faith-neg-1\",\n          \"quote_or_event\": \"I do say I am slanted toward liberal scholars.\",\n          \"location\": \"S201\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"An admitted slant is a potential selective-standard risk for the consensus claim, though it is disclosed rather than hidden.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.25,\n      \"stress_tests\": {\n        \"source\": \"WARN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"WARN\",\n        \"relation\": \"UNKNOWN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"UNKNOWN\",\n        \"outsider\": \"UNKNOWN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"Evidence-fidelity is stated and a bias is disclosed, but no cross-audience or cross-pressure test is available in the unit. Score 2.\"\n    },\n    {\n      \"fruit_id\": \"fruit.gentleness\",\n      \"score\": 2,\n      \"confidence\": 0.35,\n      \"mechanism\": \"power precisely restrained to the minimum force sufficient for the good while protecting the vulnerable\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"gent-pos-1\",\n          \"quote_or_event\": \"He calls their arguments all kinds of bad things that I wouldn't say in print about them.\",\n          \"location\": \"S212\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Explicit self-restraint from harsh public language about opponents.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"gent-pos-2\",\n          \"quote_or_event\": \"I am not the determiner of whether they are Christians or not.\",\n          \"location\": \"S245\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Refusal to exercise a status-judging power over others.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"gent-neg-1\",\n          \"quote_or_event\": \"You write the book and then you can make the bar for yourself.\",\n          \"location\": \"S231\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"A dismissive retort to critics, a mild force-escalation in a low-stakes setting.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.25,\n      \"stress_tests\": {\n        \"source\": \"WARN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"WARN\",\n        \"power\": \"WARN\",\n        \"correction\": \"UNKNOWN\",\n        \"outsider\": \"WARN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"Restraint from name-calling and from status judgment is stated, but a dismissive retort appears and no power-under-pressure test is available. Score 2.\"\n    },\n    {\n      \"fruit_id\": \"fruit.self_control\",\n      \"score\": 2,\n      \"confidence\": 0.35,\n      \"mechanism\": \"boundary integrity and governance of appetite, impulse, scope, and optimization under the true good\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"self-pos-1\",\n          \"quote_or_event\": \"I do say I am slanted toward liberal scholars.\",\n          \"location\": \"S201\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Disclosure of a known bias is a boundary-integrity move.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"self-pos-2\",\n          \"quote_or_event\": \"I can only take people who have published on things or maybe have done, you know, an interview for the History Channel or they've done an interview that I can follow because how do I know your view?\",\n          \"location\": \"S254\",\n          \"evidence_type\": \"MECHANISM\",\n          \"link_reason\": \"Explicit inclusion criterion limits scope creep in the sample.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"self-neg-1\",\n          \"quote_or_event\": \"I'm more lenient with liberals than I am with conservatives\",\n          \"location\": \"S227\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Asymmetric leniency is a scope-governance risk for the consensus claim, though disclosed.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.25,\n      \"stress_tests\": {\n        \"source\": \"WARN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"UNKNOWN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"UNKNOWN\",\n        \"outsider\": \"UNKNOWN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"Inclusion criteria and bias disclosure show some boundary governance, but asymmetric leniency and no pressure test limit the score to 2.\"\n    }\n  ],\n  \"contradictions\": [\n    {\n      \"classification\": \"ACKNOWLEDGED_REPAIRED\",\n      \"load_bearing\": false,\n      \"resolved\": true,\n      \"evidence_refs\": [\"S180\", \"S181\", \"S184\", \"S187\"],\n      \"fruit_relation\": \"self_control\",\n      \"consequence\": \"The apparent tension between requiring field competence and accepting Old Testament scholars is explicitly addressed by the speaker, who explains the shared methodological toolkit.\"\n    },\n    {\n      \"classification\": \"ACKNOWLEDGED_REPAIRED\",\n      \"load_bearing\": true,\n      \"resolved\": false,\n      \"evidence_refs\": [\"S201\", \"S227\", \"S258\"],\n      \"fruit_relation\": \"faithfulness\",\n      \"consequence\": \"The admitted slant toward liberal scholars is disclosed but not corrected; it remains a bounded methodological caveat on the consensus claim rather than a concealed contradiction.\"\n    },\n    {\n      \"classification\": \"LOCAL\",\n      \"load_bearing\": false,\n      \"resolved\": true,\n      \"evidence_refs\": [\"S016\", \"S017\", \"S018\", \"S130\", \"S131\"],\n      \"fruit_relation\": \"self_control\",\n      \"consequence\": \"Date fumbling in the transcript is self-corrected and does not affect the argument.\"\n    }\n  ],\n  \"counterfeit_flags\": [],\n  \"anti_fruit_pressure\": [],\n  \"stakeholder_divergence\": [],\n  \"aggregation\": {\n    \"mode\": \"gated_profile\",\n    \"arithmetic_summary\": 2.0,\n    \"geometric_balance\": 2.0,\n    \"multiplicative_coherence\": null,\n    \"minimum_fruit\": {\n      \"fruit_id\": \"fruit.love\",\n      \"score\": 2\n    },\n    \"vetoes\": []\n  },\n  \"epistemic_status\": \"CONDITIONAL\",\n  \"system_status\": \"COHERENT_BUT_FRAGILE\",\n  \"confidence\": 0.35,\n  \"missing_evidence\": [\n    \"The four volumes and specific page references Habermas offers at S088 and S172 are not supplied.\",\n    \"The Bultmann 1941 quotation at S104-S116 is given from memory and not verified against the source text.\",\n    \"The Jesus Seminar presupposition list at S153-S158 is paraphrased without citation.\",\n    \"The Soards essay and Brown volume cited at S067-S070 are not supplied.\",\n    \"No independent or outsider assessment of the consensus claim is included in the unit.\",\n    \"Speaker labels are absent, so attribution between Habermas and his interlocutor is partly inferred.\"\n  ],\n  \"repair_path\": [\n    \"Supply the volume and page references for each scholar cited (Bultmann, Dunn, Flew, the Jesus Seminar, Brown/Soards).\",\n    \"State explicitly what evidence would falsify the minimal-facts consensus claim.\",\n    \"Publish the survey instrument and inclusion criteria so the sampling frame can be audited.\",\n    \"Separate the claim 'published critical scholars accept X' from the claim 'X is historically established'.\",\n    \"Provide an outsider or adversarial review of the consensus claim within the same unit.\"\n  ],\n  \"falsifier\": \"A documented instance in which Habermas misattributes a view to a named scholar, or a published survey showing that the cited consensus does not hold among the stated population, would falsify the central claim of this chapter.\",\n  \"limitations\": [\n    \"The unit is a single auto-captioned YouTube chapter; it is not a full work and cannot support claims about the speaker's character across contexts.\",\n    \"Caption errors and missing speaker labels limit attribution precision.\",\n    \"The per-sentence summary reports near-zero fruit means and no counterfeit or hidden-fruit candidates; this evaluation agrees that no counterfeit mechanism is evidenced, but treats the near-zero means as an artifact of a short argumentative unit rather than as character evidence.\",\n    \"No inference is made about hidden motives, salvation status, or divine origin.\",\n    \"Scores of 2 reflect mixed or insufficient evidence, not a negative verdict.\"\n  ],\n  \"formal_receipt\": {}\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 9857,
+      "completion_tokens": 6660,
+      "attempts": 1,
+      "elapsed_seconds": 24.06199999999808,
+      "started_at": "2026-09-27T13:56:56.646723+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T13:57:20.722571+00:00",
+      "tokens": 16517
+    }
+  ],
+  "prompt_sha256": "153b414beafd85af6c20ec5d0077f062dc9ed1030a490f5bb189656c71476351",
+  "tokens": 16517,
+  "reused": true
+}

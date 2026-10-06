@@ -1,0 +1,6 @@
+{
+  "cases_processed": 3,
+  "rows_written": 10,
+  "rules_path": "D:\\GitHub\\link-research-engine\\config\\source_role_rules.example.json",
+  "output_csv": "D:\\GitHub\\link-research-engine\\data\\output\\nonwiki_enrichment_demo.csv"
+}

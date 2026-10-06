@@ -1,0 +1,199 @@
+package nu.marginalia.index;
+
+import com.google.inject.Inject;
+import io.jooby.Cookie;
+import io.jooby.Jooby;
+import io.jooby.SessionStore;
+import nu.marginalia.IndexLocations;
+import nu.marginalia.domsample.DomSampleGrpcService;
+import nu.marginalia.execution.*;
+import nu.marginalia.functions.favicon.FaviconGrpcService;
+import nu.marginalia.index.api.IndexMqEndpoints;
+import nu.marginalia.index.searchset.SearchSetsService;
+import nu.marginalia.index.searchset.ConnectivitySets;
+import nu.marginalia.linkdb.docs.DocumentDbReader;
+import nu.marginalia.linkgraph.DomainLinks;
+import nu.marginalia.linkgraph.PartitionLinkGraphService;
+import nu.marginalia.livecapture.LiveCaptureGrpcService;
+import nu.marginalia.rss.svc.FeedsGrpcService;
+import nu.marginalia.service.control.ServiceEventLog;
+import nu.marginalia.service.server.BaseServiceParams;
+import nu.marginalia.service.server.Initialization;
+import nu.marginalia.service.server.JoobyService;
+import nu.marginalia.service.server.mq.MqRequest;
+import nu.marginalia.storage.FileStorageService;
+import nu.marginalia.svc.ExecutorFileTransferService;
+import org.jetbrains.annotations.NotNull;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.List;
+
+import static nu.marginalia.linkdb.LinkdbFileNames.*;
+
+public class IndexService extends JoobyService {
+    private final Logger logger = LoggerFactory.getLogger(getClass());
+
+    @NotNull
+    private final Initialization init;
+    private final IndexOpsService opsService;
+    private final StatefulIndex statefulIndex;
+    private final SearchSetsService searchSetsService;
+    private final ConnectivitySets connectivitySets;
+    private final FileStorageService fileStorageService;
+    private final DocumentDbReader documentDbReader;
+
+    private final DomainLinks domainLinks;
+    private final ExecutorFileTransferService fileTransferService;
+    private final ServiceEventLog eventLog;
+
+    private final ExecutionInit executionInit;
+
+    @Inject
+    public IndexService(BaseServiceParams params,
+                        IndexOpsService opsService,
+                        IndexGrpcService indexQueryService,
+                        IndexUrlApiGrpcService urlApiService,
+                        StatefulIndex statefulIndex,
+                        SearchSetsService searchSetsService,
+                        ConnectivitySets connectivitySets,
+                        FileStorageService fileStorageService,
+                        DocumentDbReader documentDbReader,
+                        DomainLinks domainLinks,
+                        PartitionLinkGraphService partitionLinkGraphService,
+                        ExecutorGrpcService executorGrpcService,
+                        ExecutorCrawlGrpcService executorCrawlGrpcService,
+                        ExecutorSideloadGrpcService executorSideloadGrpcService,
+                        ExecutorExportGrpcService executorExportGrpcService,
+                        LiveCaptureGrpcService liveCaptureGrpcService,
+                        DomSampleGrpcService domSampleGrpcService,
+                        FeedsGrpcService feedsGrpcService,
+                        FaviconGrpcService faviconGrpcService,
+                        ExecutionInit executionInit,
+                        ExecutorFileTransferService fileTransferService,
+                        ServiceEventLog eventLog)
+            throws Exception
+    {
+        super(params,
+                List.of(indexQueryService,
+                        urlApiService,
+                        partitionLinkGraphService,
+                        liveCaptureGrpcService,
+                        domSampleGrpcService,
+                        feedsGrpcService,
+                        executorGrpcService,
+                        executorCrawlGrpcService,
+                        executorSideloadGrpcService,
+                        executorExportGrpcService,
+                        faviconGrpcService),
+                List.of()
+        );
+
+        this.opsService = opsService;
+        this.statefulIndex = statefulIndex;
+        this.searchSetsService = searchSetsService;
+        this.connectivitySets = connectivitySets;
+        this.fileStorageService = fileStorageService;
+        this.documentDbReader = documentDbReader;
+        this.domainLinks = domainLinks;
+        this.executionInit = executionInit;
+        this.fileTransferService = fileTransferService;
+        this.eventLog = eventLog;
+
+        this.init = params.initialization;
+
+        Thread.ofPlatform().name("initialize-index").start(this::initialize);
+    }
+
+    @Override
+    public void startJooby(Jooby jooby) {
+        super.startJooby(jooby);
+
+        jooby.setSessionStore(SessionStore.memory(Cookie.session("marginalia-session")));
+
+        jooby.get("/transfer/file/{fid}", fileTransferService::transferFile);
+        jooby.head("/transfer/file/{fid}", fileTransferService::transferFile);
+
+    }
+
+    volatile boolean initialized = false;
+
+    @MqRequest(endpoint="FIRST-BOOT")
+    public void setUpDefaultActors(String message) throws Exception {
+        eventLog.logEvent("FIRST-BOOT", "Initializing default actors");
+
+        executionInit.initDefaultActors();
+    }
+
+    @MqRequest(endpoint = IndexMqEndpoints.INDEX_RELOAD_SEARCH_SETS)
+    public String reloadSearchSets(String message) throws IOException {
+        searchSetsService.reload();
+        connectivitySets.reload();
+        return "ok";
+    }
+
+    @MqRequest(endpoint = IndexMqEndpoints.SWITCH_INDEX)
+    public String switchIndex(String message) throws Exception {
+        if (!opsService.switchIndex(() -> switchLinkdb())) {
+            throw new IllegalStateException("Ops lock busy or index switch failed");
+        }
+
+        return "ok";
+    }
+
+    public void switchLinkdb() throws Exception {
+        logger.info("Switching link databases");
+
+        Path newPathDocs = IndexLocations
+                .getLinkdbWritePath(fileStorageService)
+                .resolve(DOCDB_FILE_NAME);
+
+        if (Files.exists(newPathDocs)) {
+            eventLog.logEvent("INDEX-SWITCH-DOCKDB", "");
+            documentDbReader.switchInput(newPathDocs);
+        }
+
+        Path newPathDomains = IndexLocations
+                .getLinkdbWritePath(fileStorageService)
+                .resolve(DOMAIN_LINKS_FILE_NAME);
+
+        if (Files.exists(newPathDomains)) {
+            eventLog.logEvent("INDEX-SWITCH-DOMAIN-LINKDB", "");
+            domainLinks.switchInput(newPathDomains);
+        }
+    }
+
+
+    @MqRequest(endpoint = IndexMqEndpoints.INDEX_IS_BLOCKED)
+    public String isBlocked(String message) throws Exception {
+        return Boolean.valueOf(opsService.isBusy()).toString();
+    }
+
+    @Override
+    // binds to /internal/ready, used for healthchecks
+    public boolean isReady() {
+        if (!statefulIndex.isLoaded()) {
+            return false;
+        }
+
+        if (statefulIndex.isDegraded())
+            return false;
+
+        return true;
+    }
+
+
+    public void initialize() {
+        if (!initialized) {
+            init.waitReady();
+            statefulIndex.init();
+            initialized = true;
+        }
+    }
+
+}
+
+

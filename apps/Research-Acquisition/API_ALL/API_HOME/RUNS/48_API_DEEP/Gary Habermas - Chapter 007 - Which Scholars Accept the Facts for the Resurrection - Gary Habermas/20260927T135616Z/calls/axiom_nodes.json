@@ -1,0 +1,109 @@
+{
+  "name": "axiom_nodes",
+  "parsed": {
+    "paper_uuid": "yt_Cf7Y54MVYf8_ch07",
+    "title": "Which Scholars Accept the Facts for the Resurrection? - Gary Habermas",
+    "summary": "This is a YouTube interview chapter in which Gary Habermas defends the 'minimal facts' method for the resurrection against the objection that scholarly consensus is merely a Christian-bias artifact. He argues that even hostile/liberal scholars (Bultmann, the Jesus Seminar, Antony Flew) concede key facts, and he lays out criteria for counting a 'critical scholar' (terminal degree plus field competence/publication). The material is almost entirely historical-apologetic and evidentiary; it touches the axiom system only at the periphery, chiefly by presupposing that testimony/evidence can be assessed by informed observers and by treating the resurrection as a factual claim about a terminal divine act. It does not engage the physics-theology formal apparatus (chi field, master equation, coherence functionals, etc.).",
+    "primary_mode": "HY_EVIDENCE",
+    "axiom_nodes": [
+      {
+        "node_id": "A5.1",
+        "name": "A5.1 — Observation Requirement",
+        "mode": "HY_EVIDENCE",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "The whole discussion turns on who counts as a qualified observer/witness of the evidence (terminal degree, field competence), which is conceptually adjacent to an observation requirement, but no claim about observation as an ontological requirement is made."
+      },
+      {
+        "node_id": "BC1",
+        "name": "BC1 — Terminal Observer Exists",
+        "mode": "HY_EVIDENCE",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "The resurrection is treated as a divine act terminating the causal chain of testimony, but the transcript never formulates a terminal-observer axiom."
+      },
+      {
+        "node_id": "ID7.1",
+        "name": "ID7.1 — Terminal Observer Is God",
+        "mode": "HY_EVIDENCE",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "God is implicitly the agent behind the resurrection, but the identification of a terminal observer with God is not asserted."
+      },
+      {
+        "node_id": "PERSONHOOD",
+        "name": "PERSONHOOD — Agency, Intentionality, Relational Capacity",
+        "mode": "HY_EVIDENCE",
+        "alignment": "supported",
+        "evidence_quote": "The earliest disciples preached that he was raised from the dead.",
+        "confidence": "low",
+        "notes": "The discussion presupposes personal agency (disciples preaching, scholars reasoning, God acting) without theorizing it."
+      },
+      {
+        "node_id": "A11.1",
+        "name": "A11.1 — Moral Realism",
+        "mode": "HY_EVIDENCE",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "Habermas appeals to scholarly honesty and fairness ('they're being honest to the data'), which gestures at normative epistemic/moral standards, but no moral-realism axiom is stated."
+      },
+      {
+        "node_id": "A4.1",
+        "name": "A4.1 — Parsimony",
+        "mode": "HY_EVIDENCE",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "The minimal-facts method is a parsimony-style move (fewest contested claims), but parsimony is not invoked as a formal axiom."
+      },
+      {
+        "node_id": "EV15.1",
+        "name": "EV15.1 — Biblical Prophecy Validation",
+        "mode": "HY_EVIDENCE",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "The chapter is historical-evidential about the resurrection, not about prophecy validation specifically."
+      }
+    ],
+    "unmapped_claims": [
+      "A01",
+      "A02",
+      "A03",
+      "A04",
+      "A05",
+      "A06",
+      "A07",
+      "A08",
+      "A09",
+      "A10",
+      "A11",
+      "A12"
+    ]
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "axiom_nodes",
+      "attempt": 1,
+      "text": "{\"paper_uuid\":\"yt_Cf7Y54MVYf8_ch07\",\"title\":\"Which Scholars Accept the Facts for the Resurrection? - Gary Habermas\",\"summary\":\"This is a YouTube interview chapter in which Gary Habermas defends the 'minimal facts' method for the resurrection against the objection that scholarly consensus is merely a Christian-bias artifact. He argues that even hostile/liberal scholars (Bultmann, the Jesus Seminar, Antony Flew) concede key facts, and he lays out criteria for counting a 'critical scholar' (terminal degree plus field competence/publication). The material is almost entirely historical-apologetic and evidentiary; it touches the axiom system only at the periphery, chiefly by presupposing that testimony/evidence can be assessed by informed observers and by treating the resurrection as a factual claim about a terminal divine act. It does not engage the physics-theology formal apparatus (chi field, master equation, coherence functionals, etc.).\",\"primary_mode\":\"HY_EVIDENCE\",\"axiom_nodes\":[{\"node_id\":\"A5.1\",\"name\":\"A5.1 — Observation Requirement\",\"mode\":\"HY_EVIDENCE\",\"alignment\":\"relevant_but_not_asserted\",\"evidence_quote\":\"\",\"confidence\":\"low\",\"notes\":\"The whole discussion turns on who counts as a qualified observer/witness of the evidence (terminal degree, field competence), which is conceptually adjacent to an observation requirement, but no claim about observation as an ontological requirement is made.\"},{\"node_id\":\"BC1\",\"name\":\"BC1 — Terminal Observer Exists\",\"mode\":\"HY_EVIDENCE\",\"alignment\":\"relevant_but_not_asserted\",\"evidence_quote\":\"\",\"confidence\":\"low\",\"notes\":\"The resurrection is treated as a divine act terminating the causal chain of testimony, but the transcript never formulates a terminal-observer axiom.\"},{\"node_id\":\"ID7.1\",\"name\":\"ID7.1 — Terminal Observer Is God\",\"mode\":\"HY_EVIDENCE\",\"alignment\":\"relevant_but_not_asserted\",\"evidence_quote\":\"\",\"confidence\":\"low\",\"notes\":\"God is implicitly the agent behind the resurrection, but the identification of a terminal observer with God is not asserted.\"},{\"node_id\":\"PERSONHOOD\",\"name\":\"PERSONHOOD — Agency, Intentionality, Relational Capacity\",\"mode\":\"HY_EVIDENCE\",\"alignment\":\"supported\",\"evidence_quote\":\"The earliest disciples preached that he was raised from the dead.\",\"confidence\":\"low\",\"notes\":\"The discussion presupposes personal agency (disciples preaching, scholars reasoning, God acting) without theorizing it.\"},{\"node_id\":\"A11.1\",\"name\":\"A11.1 — Moral Realism\",\"mode\":\"HY_EVIDENCE\",\"alignment\":\"relevant_but_not_asserted\",\"evidence_quote\":\"\",\"confidence\":\"low\",\"notes\":\"Habermas appeals to scholarly honesty and fairness ('they're being honest to the data'), which gestures at normative epistemic/moral standards, but no moral-realism axiom is stated.\"},{\"node_id\":\"A4.1\",\"name\":\"A4.1 — Parsimony\",\"mode\":\"HY_EVIDENCE\",\"alignment\":\"relevant_but_not_asserted\",\"evidence_quote\":\"\",\"confidence\":\"low\",\"notes\":\"The minimal-facts method is a parsimony-style move (fewest contested claims), but parsimony is not invoked as a formal axiom.\"},{\"node_id\":\"EV15.1\",\"name\":\"EV15.1 — Biblical Prophecy Validation\",\"mode\":\"HY_EVIDENCE\",\"alignment\":\"relevant_but_not_asserted\",\"evidence_quote\":\"\",\"confidence\":\"low\",\"notes\":\"The chapter is historical-evidential about the resurrection, not about prophecy validation specifically.\"}],\"unmapped_claims\":[\"A01\",\"A02\",\"A03\",\"A04\",\"A05\",\"A06\",\"A07\",\"A08\",\"A09\",\"A10\",\"A11\",\"A12\"]}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 10122,
+      "completion_tokens": 798,
+      "attempts": 1,
+      "elapsed_seconds": 4.389999999999418,
+      "started_at": "2026-09-27T13:56:56.646723+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T13:57:01.039451+00:00",
+      "tokens": 10920
+    }
+  ],
+  "prompt_sha256": "a6de8c6fc061bcf6f415b399c1f96072b646097c3b92bf3b86db50462d5d9650",
+  "tokens": 10920
+}

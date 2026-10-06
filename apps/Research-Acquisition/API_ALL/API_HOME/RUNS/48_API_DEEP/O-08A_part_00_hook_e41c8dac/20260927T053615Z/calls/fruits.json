@@ -1,0 +1,641 @@
+{
+  "name": "fruits",
+  "parsed": {
+    "spec_version": "0.3.0",
+    "target": {
+      "type": "paper",
+      "title": "O-08A_part_00_hook_e41c8dac",
+      "domain": "unknown; infer conservatively — the supplied unit is a rhetorical hook/preface to a multi-part argumentative paper making claims about mathematics, history, institutions, and moral structure; no disciplinary method is yet exhibited",
+      "unit": "complete supplied document",
+      "comparison_class": "paper of similar purpose and evidence burden",
+      "population_boundary": "persons and groups explicitly represented in the supplied document; report omissions",
+      "time_window": null
+    },
+    "gate_results": [
+      {
+        "gate_id": "gate.truth_evidence",
+        "status": "UNKNOWN",
+        "hard": true,
+        "rationale": "The unit is a hook that announces ten claims (S040, S042, S044, S046, S048, S050, S052, S054, S058, S060) and supplies no evidence for any of them. It explicitly defers verification to later parts (S031, S063). No factual claim in the supplied span is supported by traceable evidence within the span, and none is contradicted by it either. Because the hard gate cannot be resolved on the supplied unit, no positive verdict may be issued.",
+        "evidence_refs": [
+          "S040",
+          "S042",
+          "S044",
+          "S046",
+          "S048",
+          "S050",
+          "S052",
+          "S054",
+          "S058",
+          "S060",
+          "S063"
+        ],
+        "resolution": "Unresolvable within the supplied unit. Resolution requires the later parts that carry the cited math, history, and documentation; the hook itself cannot pass or fail this gate on evidence it does not contain."
+      },
+      {
+        "gate_id": "gate.contradiction",
+        "status": "PASS",
+        "hard": true,
+        "rationale": "No load-bearing contradiction appears within the supplied span. The document is internally consistent as a preface: it asserts a single structure (S061), disclaims belief-demand (S062), and invites refutation (S064, S065). Tension between 'the problems are real' (S034) and 'everybody is fighting about the wrong thing' (S023) is rhetorical framing, not a factual contradiction.",
+        "evidence_refs": [
+          "S023",
+          "S034",
+          "S061",
+          "S062",
+          "S064",
+          "S065"
+        ],
+        "resolution": null
+      },
+      {
+        "gate_id": "gate.scope",
+        "status": "WARN",
+        "hard": false,
+        "rationale": "The hook claims mathematical proof status for moral and institutional conclusions (S042 'this is mathematics, not philosophy, and it has been proven'; S054 'provable by algebra') and a universal historical trajectory (S058, S060) without exhibiting method, domain limits, or the boundary of the claimed proof. Scope discipline cannot be assessed from a preface, but the announced scope is very wide relative to any evidence shown.",
+        "evidence_refs": [
+          "S042",
+          "S054",
+          "S058",
+          "S060"
+        ],
+        "resolution": "Assessable only when the supporting parts are supplied."
+      },
+      {
+        "gate_id": "gate.falsifiability",
+        "status": "PASS",
+        "hard": false,
+        "rationale": "The source explicitly identifies what counts against it and commits to publishing disconfirming results: S064 invites the reader to show where it breaks, S065 commits to publishing the break, and S037 requires the reader to verify rather than trust. This is a stated falsification posture; whether it is honored is a downstream question.",
+        "evidence_refs": [
+          "S037",
+          "S063",
+          "S064",
+          "S065"
+        ],
+        "resolution": null
+      },
+      {
+        "gate_id": "gate.bridge_validity",
+        "status": "UNKNOWN",
+        "hard": false,
+        "rationale": "Cross-domain bridges are announced (mathematics to morality S042; history to institutional capture S046; algebra to justice/mercy S054) but no mapping, invariants, bridge law, recovery, prediction, alternatives, or kill condition are stated in the supplied span. The hook promises them later (S031).",
+        "evidence_refs": [
+          "S031",
+          "S042",
+          "S046",
+          "S054"
+        ],
+        "resolution": "Requires the parts that carry the formal argument."
+      },
+      {
+        "gate_id": "gate.provenance",
+        "status": "WARN",
+        "hard": false,
+        "rationale": "Authorship and date are stated (S003 'David Lowe | POF 2828 | July 2026'), and the document is a titled part of a series (S002, S068). However, no citations, data sources, or artifacts are traceable within the supplied span; every evidentiary claim is deferred. Provenance of the claims themselves is therefore unestablished here.",
+        "evidence_refs": [
+          "S002",
+          "S003",
+          "S068"
+        ],
+        "resolution": "Traceability depends on the referenced later parts."
+      },
+      {
+        "gate_id": "gate.agency_noncoercion",
+        "status": "PASS",
+        "hard": true,
+        "rationale": "Within the supplied span the text repeatedly refuses coercion of belief and preserves reader agency: S062 'We are not asking you to believe anything at the outset'; S063 asks the reader to check the evidence; S037 requires self-verification rather than trust; S066 leaves the conclusion to the reader. No concealed compulsion or destruction of agency is exhibited in the hook itself.",
+        "evidence_refs": [
+          "S037",
+          "S062",
+          "S063",
+          "S064",
+          "S066"
+        ],
+        "resolution": null
+      }
+    ],
+    "fruit_profile": [
+      {
+        "fruit_id": "fruit.love",
+        "score": 2,
+        "confidence": 0.4,
+        "mechanism": "truth-aligned relational cohesion seeking the good of the whole and each member while bearing cost and preserving agency",
+        "positive_evidence": [
+          {
+            "ref_id": "E-L1",
+            "quote_or_event": "And the resolution — if it exists — requires you to understand the problem deeply enough that you can verify the answer yourself, not take our word for it.",
+            "location": "S037",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Seeks the reader's good by requiring independent verification rather than dependence on the author; preserves agency.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-L2",
+            "quote_or_event": "We are not asking you to believe anything at the outset.",
+            "location": "S062",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Refuses to coerce assent; treats the reader as a free epistemic agent.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-L3",
+            "quote_or_event": "We'll publish the break alongside the argument, because a framework that can't survive honest criticism isn't worth defending.",
+            "location": "S065",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Commits to bearing reputational cost for the sake of truth shared with the reader.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-L4",
+            "quote_or_event": "That the population sorts into two classes over time, defined not by any demographic variable but by one structural feature: whether their connection to truth runs through the captured institutions or directly to the source.",
+            "location": "S050",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Announces a binary sorting of persons into truth-connected and institution-mediated classes; if operationalized as a division of persons rather than of claims, it risks the anti-fruit of disposability. Not yet enacted in the supplied span.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.3,
+        "stress_tests": {
+          "source": "WARN",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "PASS",
+          "power": "UNKNOWN",
+          "correction": "PASS",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "The hook's stated posture toward the reader is agency-preserving and truth-seeking (S037, S062, S063, S064, S065), which is genuine positive evidence of the mechanism. But it is stated intent only, with no cost borne, no relational context, and no affected-party review within the span; the announced two-class sorting (S050) is a latent risk. Score 2 with low confidence: mixed/insufficient. I agree with the per-sentence pass that P12 is the love-positive locus; I do not treat its 1.0 paragraph score as sufficient for a 3, since stated intent alone is not character evidence."
+      },
+      {
+        "fruit_id": "fruit.joy",
+        "score": 2,
+        "confidence": 0.15,
+        "mechanism": "durable participation in real good not dependent on denial, spectacle, status, or constant stimulation",
+        "positive_evidence": [],
+        "counterevidence": [],
+        "evidence_coverage": 0.05,
+        "stress_tests": {
+          "source": "UNKNOWN",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "UNKNOWN",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "No evidence of joy or its anti-fruit appears in the supplied span. The per-sentence pass scored joy 0.0 throughout, which I read as absence of signal rather than presence of anti-fruit. Score 2 with very low confidence per the missing-evidence rule; no invented precision."
+      },
+      {
+        "fruit_id": "fruit.peace",
+        "score": 2,
+        "confidence": 0.15,
+        "mechanism": "reintegrated order in which relevant tensions are truthfully addressed without suppression",
+        "positive_evidence": [],
+        "counterevidence": [
+          {
+            "ref_id": "E-P1",
+            "quote_or_event": "The arguments get louder. The positions get harder.",
+            "location": "S021",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Describes escalating unresolved conflict as the ambient condition; the document positions itself as addressing it, but no reintegration is demonstrated in the span.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.1,
+        "stress_tests": {
+          "source": "UNKNOWN",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "UNKNOWN",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "The document diagnoses conflict (S018–S023) and promises a resolution (S030, S061), but the resolution is deferred; no truthful reintegration is exhibited. Score 2, low confidence: insufficient evidence, not a negative finding."
+      },
+      {
+        "fruit_id": "fruit.patience",
+        "score": 2,
+        "confidence": 0.3,
+        "mechanism": "preservation of persons and processes across the time required for truth, growth, correction, or convergence while acting when action is due",
+        "positive_evidence": [
+          {
+            "ref_id": "E-PA1",
+            "quote_or_event": "We are going to walk through this. It will take time. This is not a one-page fix, and anyone offering you a one-page fix is selling you something.",
+            "location": "S031",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Explicitly accepts a long process over premature closure and warns against shortcuts.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [],
+        "evidence_coverage": 0.2,
+        "stress_tests": {
+          "source": "UNKNOWN",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "PASS",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "S031 and S033 state a willingness to proceed at the pace truth requires and to reject one-page fixes. This is stated intent within a single context; no endurance across time or cost is yet observable. Score 2, low-moderate confidence."
+      },
+      {
+        "fruit_id": "fruit.kindness",
+        "score": 2,
+        "confidence": 0.2,
+        "mechanism": "low-friction repair and assistance that reduces needless barriers without erasing truth or responsibility",
+        "positive_evidence": [
+          {
+            "ref_id": "E-K1",
+            "quote_or_event": "If it lands somewhere you don't like, show us where it breaks.",
+            "location": "S064",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Invites dissent without humiliation; lowers the barrier to correction.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-K2",
+            "quote_or_event": "Whether the left is compassionate or naive. Whether the right is principled or cruel.",
+            "location": "S015",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Frames opposing camps with unflattering alternatives; rhetorical framing that flattens persons into positions. Mild, and arguably descriptive of existing discourse rather than the author's own stance.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.15,
+        "stress_tests": {
+          "source": "UNKNOWN",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "PASS",
+          "power": "UNKNOWN",
+          "correction": "PASS",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "The invitation to refutation (S064) is low-friction and non-humiliating. The framing of political camps (S013–S017) is mildly flattening but is presented as the state of discourse, not as the author's treatment of interlocutors. Score 2, low confidence."
+      },
+      {
+        "fruit_id": "fruit.goodness",
+        "score": 2,
+        "confidence": 0.2,
+        "mechanism": "truth-aligned action producing real non-malign benefit after costs and externalities are counted",
+        "positive_evidence": [
+          {
+            "ref_id": "E-G1",
+            "quote_or_event": "We'll publish the break alongside the argument, because a framework that can't survive honest criticism isn't worth defending.",
+            "location": "S065",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "A commitment to publish disconfirming results is a costly, truth-aligned action if honored.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [],
+        "evidence_coverage": 0.1,
+        "stress_tests": {
+          "source": "UNKNOWN",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "PASS",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "No benefit has yet been produced or cost counted; only a stated commitment exists (S065). Score 2, low confidence: insufficient evidence."
+      },
+      {
+        "fruit_id": "fruit.faithfulness",
+        "score": 2,
+        "confidence": 0.3,
+        "mechanism": "invariant fidelity across time, audiences, incentives, and pressure, joined to correction when the object of loyalty is false",
+        "positive_evidence": [
+          {
+            "ref_id": "E-F1",
+            "quote_or_event": "We'll publish the break alongside the argument, because a framework that can't survive honest criticism isn't worth defending.",
+            "location": "S065",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Subordinates loyalty to the framework to loyalty to truth; commits to correction over self-defense.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-F2",
+            "quote_or_event": "We are asking you to follow the argument, check the evidence, and see where it lands.",
+            "location": "S063",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Consistent standard applied to reader and author alike: evidence decides.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [],
+        "evidence_coverage": 0.2,
+        "stress_tests": {
+          "source": "UNKNOWN",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "PASS",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "The stated posture is fidelity to truth over the framework (S065) with a single standard for all parties (S063). No cross-audience or cross-pressure test is available in the span. Score 2, low-moderate confidence."
+      },
+      {
+        "fruit_id": "fruit.gentleness",
+        "score": 2,
+        "confidence": 0.2,
+        "mechanism": "power precisely restrained to the minimum force sufficient for the good while protecting the vulnerable",
+        "positive_evidence": [
+          {
+            "ref_id": "E-GE1",
+            "quote_or_event": "We are not asking you to believe anything at the outset.",
+            "location": "S062",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Restrains the author's rhetorical power over the reader; no pressure applied to assent.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [],
+        "evidence_coverage": 0.1,
+        "stress_tests": {
+          "source": "UNKNOWN",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "PASS",
+          "correction": "UNKNOWN",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "The hook exercises no coercive power over the reader and explicitly declines to (S062). No power asymmetry involving third parties is present in the span. Score 2, low confidence."
+      },
+      {
+        "fruit_id": "fruit.self_control",
+        "score": 2,
+        "confidence": 0.25,
+        "mechanism": "boundary integrity and governance of appetite, impulse, scope, and optimization under the true good",
+        "positive_evidence": [
+          {
+            "ref_id": "E-SC1",
+            "quote_or_event": "This is not a one-page fix, and anyone offering you a one-page fix is selling you something.",
+            "location": "S033",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Refuses the impulse toward premature, tidy closure; governs the scope of the claim.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-SC2",
+            "quote_or_event": "That good and bad are structural properties of reality, as invariant as electric charge — not cultural opinions that shift with the century.",
+            "location": "S040",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Announces an extremely strong, totalizing claim in a hook; scope discipline is not yet demonstrated and the announced scope is very wide.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.2,
+        "stress_tests": {
+          "source": "UNKNOWN",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "PASS",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "S033 shows restraint against premature closure, but the ten announced claims (S040–S060) are sweeping and unhedged, so scope governance is not yet evidenced. Score 2, low confidence."
+      }
+    ],
+    "contradictions": [
+      {
+        "classification": "APPARENT",
+        "load_bearing": false,
+        "resolved": true,
+        "evidence_refs": [
+          "S023",
+          "S034"
+        ],
+        "fruit_relation": "Rhetorical tension between 'everybody is fighting about the wrong thing' (S023) and 'the problems are real' (S034); the document reconciles them by locating the error in the line, not in the reality of the problems (S025–S030).",
+        "consequence": "No effect on verdict; framing device."
+      },
+      {
+        "classification": "UNRESOLVED",
+        "load_bearing": true,
+        "resolved": false,
+        "evidence_refs": [
+          "S042",
+          "S054",
+          "S063"
+        ],
+        "fruit_relation": "The document claims mathematical proof status for moral and institutional conclusions (S042, S054) while simultaneously deferring all verification to later parts (S031, S063). Whether the proof exists is unresolved within the supplied unit.",
+        "consequence": "Prevents any positive verdict on gate.truth_evidence and caps all fruit scores at 2; resolution requires the supporting parts."
+      }
+    ],
+    "counterfeit_flags": [],
+    "anti_fruit_pressure": [
+      {
+        "ref_id": "AF-1",
+        "location": "S050",
+        "description": "Announced sorting of the population into two structural classes by connection to truth; latent risk of disposability/division if operationalized against persons rather than claims.",
+        "severity": "LOW",
+        "status": "LATENT_NOT_ENACTED"
+      }
+    ],
+    "stakeholder_divergence": [
+      {
+        "group": "reader",
+        "observation": "Treated as free epistemic agent (S062, S063, S066).",
+        "evidence_refs": [
+          "S062",
+          "S063",
+          "S066"
+        ]
+      },
+      {
+        "group": "political camps named in S013–S017",
+        "observation": "Represented only as positions in an unresolvable argument; no insider voice from these groups appears in the span.",
+        "evidence_refs": [
+          "S013",
+          "S014",
+          "S015",
+          "S016",
+          "S017"
+        ]
+      },
+      {
+        "group": "persons sorted by S050",
+        "observation": "No affected-party perspective on the two-class sorting is supplied.",
+        "evidence_refs": [
+          "S050"
+        ]
+      }
+    ],
+    "aggregation": {
+      "mode": "gated_profile",
+      "arithmetic_summary": 18,
+      "geometric_balance": 2.0,
+      "multiplicative_coherence": null,
+      "minimum_fruit": {
+        "fruit_id": "fruit.joy",
+        "score": 2
+      },
+      "vetoes": []
+    },
+    "epistemic_status": "UNRESOLVED",
+    "system_status": "BLOCKED",
+    "confidence": 0.3,
+    "missing_evidence": [
+      "The mathematical proofs announced in S042 and S054 (no derivation, no citation, no artifact in the supplied unit).",
+      "The historical record announced in S029, S044, S058, S060 (no data, sources, or time series supplied).",
+      "The documented institutional-capture sequence announced in S046 (no documentation supplied).",
+      "The claim that governments have deployed shame as official policy since 2015 (S048) — no policy citation supplied.",
+      "The 'exactly one event' claim in S060 — no candidate list, criteria, or measurement supplied.",
+      "Any citation apparatus, bibliography, or artifact identifiers for the ten claims.",
+      "Any affected-party or outsider observation of the framework's effects.",
+      "The later parts referenced by S031 and S068, without which the hard truth-evidence gate cannot be resolved."
+    ],
+    "repair_path": [
+      "Supply the supporting parts containing the algebra for S054 and the proof for S042, with explicit domain limits and kill conditions.",
+      "Attach traceable citations and data for each of the ten announced claims (S040–S060).",
+      "State the bridge law and invariants connecting the mathematical result to the moral and institutional conclusions (gate.bridge_validity).",
+      "Operationalize S050 so that the sorting criterion applies to claims and institutions rather than to persons, or supply the affected-party evidence that the sorting does not produce disposability.",
+      "Honor the S065 commitment by publishing disconfirming results when they arise, and record that publication as evidence.",
+      "Provide an outsider review of the framework's effects, not only insider exposition."
+    ],
+    "falsifier": "The framework is falsified if the announced mathematical constraint (S054) or the self-direction impossibility claim (S042) fails under the algebra it promises, or if the historical trajectory claims (S058, S060) fail against the cited record, or if the S065 commitment to publish disconfirming results is not honored when a break is shown.",
+    "limitations": [
+      "The supplied unit is a hook/preface only; it contains no evidence for any of its ten claims, so all fruit scores are capped at 2 by the missing-evidence rule.",
+      "The hard gate gate.truth_evidence is UNKNOWN, not PASS; no positive verdict is issued.",
+      "The per-sentence summary's love-positive paragraph P12 (score 1.0) is treated as stated intent, not as character evidence; I do not upgrade fruit.love above 2 on that basis.",
+      "The per-sentence summary reports no counterfeit or hidden-fruit candidates; I concur for the supplied span, while noting the latent S050 risk it did not flag.",
+      "No claim is made about hidden motives, salvation status, or divine origin.",
+      "Domain is inferred conservatively as unknown; the comparison class is nominal.",
+      "Confidence is low because the unit is a preface and the decisive evidence is deferred."
+    ],
+    "formal_receipt": {
+      "rubric_id": "fruits.epistemic.v0.3.0",
+      "aggregation_mode": "gated_profile",
+      "source_sha256": "98981051040bb37e9acea8c7afc74db6e0f02d1431eb01dbfc452ce522645dae",
+      "source_file": "O-08A_part_00_hook_e41c8dac.md",
+      "sentences_scored": 68,
+      "sentences_total": 68,
+      "hard_gates": {
+        "gate.truth_evidence": "UNKNOWN",
+        "gate.contradiction": "PASS",
+        "gate.agency_noncoercion": "PASS"
+      },
+      "positive_verdict_permitted": false,
+      "notes": "No positive verdict after unresolved hard gate gate.truth_evidence. All fruit scores held at 2 (mixed_or_unknown) with low confidence."
+    }
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "fruits",
+      "attempt": 1,
+      "text": "{\n  \"spec_version\": \"0.3.0\",\n  \"target\": {\n    \"type\": \"paper\",\n    \"title\": \"O-08A_part_00_hook_e41c8dac\",\n    \"domain\": \"unknown; infer conservatively — the supplied unit is a rhetorical hook/preface to a multi-part argumentative paper making claims about mathematics, history, institutions, and moral structure; no disciplinary method is yet exhibited\",\n    \"unit\": \"complete supplied document\",\n    \"comparison_class\": \"paper of similar purpose and evidence burden\",\n    \"population_boundary\": \"persons and groups explicitly represented in the supplied document; report omissions\",\n    \"time_window\": null\n  },\n  \"gate_results\": [\n    {\n      \"gate_id\": \"gate.truth_evidence\",\n      \"status\": \"UNKNOWN\",\n      \"hard\": true,\n      \"rationale\": \"The unit is a hook that announces ten claims (S040, S042, S044, S046, S048, S050, S052, S054, S058, S060) and supplies no evidence for any of them. It explicitly defers verification to later parts (S031, S063). No factual claim in the supplied span is supported by traceable evidence within the span, and none is contradicted by it either. Because the hard gate cannot be resolved on the supplied unit, no positive verdict may be issued.\",\n      \"evidence_refs\": [\"S040\", \"S042\", \"S044\", \"S046\", \"S048\", \"S050\", \"S052\", \"S054\", \"S058\", \"S060\", \"S063\"],\n      \"resolution\": \"Unresolvable within the supplied unit. Resolution requires the later parts that carry the cited math, history, and documentation; the hook itself cannot pass or fail this gate on evidence it does not contain.\"\n    },\n    {\n      \"gate_id\": \"gate.contradiction\",\n      \"status\": \"PASS\",\n      \"hard\": true,\n      \"rationale\": \"No load-bearing contradiction appears within the supplied span. The document is internally consistent as a preface: it asserts a single structure (S061), disclaims belief-demand (S062), and invites refutation (S064, S065). Tension between 'the problems are real' (S034) and 'everybody is fighting about the wrong thing' (S023) is rhetorical framing, not a factual contradiction.\",\n      \"evidence_refs\": [\"S023\", \"S034\", \"S061\", \"S062\", \"S064\", \"S065\"],\n      \"resolution\": null\n    },\n    {\n      \"gate_id\": \"gate.scope\",\n      \"status\": \"WARN\",\n      \"hard\": false,\n      \"rationale\": \"The hook claims mathematical proof status for moral and institutional conclusions (S042 'this is mathematics, not philosophy, and it has been proven'; S054 'provable by algebra') and a universal historical trajectory (S058, S060) without exhibiting method, domain limits, or the boundary of the claimed proof. Scope discipline cannot be assessed from a preface, but the announced scope is very wide relative to any evidence shown.\",\n      \"evidence_refs\": [\"S042\", \"S054\", \"S058\", \"S060\"],\n      \"resolution\": \"Assessable only when the supporting parts are supplied.\"\n    },\n    {\n      \"gate_id\": \"gate.falsifiability\",\n      \"status\": \"PASS\",\n      \"hard\": false,\n      \"rationale\": \"The source explicitly identifies what counts against it and commits to publishing disconfirming results: S064 invites the reader to show where it breaks, S065 commits to publishing the break, and S037 requires the reader to verify rather than trust. This is a stated falsification posture; whether it is honored is a downstream question.\",\n      \"evidence_refs\": [\"S037\", \"S063\", \"S064\", \"S065\"],\n      \"resolution\": null\n    },\n    {\n      \"gate_id\": \"gate.bridge_validity\",\n      \"status\": \"UNKNOWN\",\n      \"hard\": false,\n      \"rationale\": \"Cross-domain bridges are announced (mathematics to morality S042; history to institutional capture S046; algebra to justice/mercy S054) but no mapping, invariants, bridge law, recovery, prediction, alternatives, or kill condition are stated in the supplied span. The hook promises them later (S031).\",\n      \"evidence_refs\": [\"S031\", \"S042\", \"S046\", \"S054\"],\n      \"resolution\": \"Requires the parts that carry the formal argument.\"\n    },\n    {\n      \"gate_id\": \"gate.provenance\",\n      \"status\": \"WARN\",\n      \"hard\": false,\n      \"rationale\": \"Authorship and date are stated (S003 'David Lowe | POF 2828 | July 2026'), and the document is a titled part of a series (S002, S068). However, no citations, data sources, or artifacts are traceable within the supplied span; every evidentiary claim is deferred. Provenance of the claims themselves is therefore unestablished here.\",\n      \"evidence_refs\": [\"S002\", \"S003\", \"S068\"],\n      \"resolution\": \"Traceability depends on the referenced later parts.\"\n    },\n    {\n      \"gate_id\": \"gate.agency_noncoercion\",\n      \"status\": \"PASS\",\n      \"hard\": true,\n      \"rationale\": \"Within the supplied span the text repeatedly refuses coercion of belief and preserves reader agency: S062 'We are not asking you to believe anything at the outset'; S063 asks the reader to check the evidence; S037 requires self-verification rather than trust; S066 leaves the conclusion to the reader. No concealed compulsion or destruction of agency is exhibited in the hook itself.\",\n      \"evidence_refs\": [\"S037\", \"S062\", \"S063\", \"S064\", \"S066\"],\n      \"resolution\": null\n    }\n  ],\n  \"fruit_profile\": [\n    {\n      \"fruit_id\": \"fruit.love\",\n      \"score\": 2,\n      \"confidence\": 0.4,\n      \"mechanism\": \"truth-aligned relational cohesion seeking the good of the whole and each member while bearing cost and preserving agency\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"E-L1\",\n          \"quote_or_event\": \"And the resolution — if it exists — requires you to understand the problem deeply enough that you can verify the answer yourself, not take our word for it.\",\n          \"location\": \"S037\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Seeks the reader's good by requiring independent verification rather than dependence on the author; preserves agency.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"E-L2\",\n          \"quote_or_event\": \"We are not asking you to believe anything at the outset.\",\n          \"location\": \"S062\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Refuses to coerce assent; treats the reader as a free epistemic agent.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"E-L3\",\n          \"quote_or_event\": \"We'll publish the break alongside the argument, because a framework that can't survive honest criticism isn't worth defending.\",\n          \"location\": \"S065\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Commits to bearing reputational cost for the sake of truth shared with the reader.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"E-L4\",\n          \"quote_or_event\": \"That the population sorts into two classes over time, defined not by any demographic variable but by one structural feature: whether their connection to truth runs through the captured institutions or directly to the source.\",\n          \"location\": \"S050\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Announces a binary sorting of persons into truth-connected and institution-mediated classes; if operationalized as a division of persons rather than of claims, it risks the anti-fruit of disposability. Not yet enacted in the supplied span.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.3,\n      \"stress_tests\": {\n        \"source\": \"WARN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"PASS\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"PASS\",\n        \"outsider\": \"UNKNOWN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"The hook's stated posture toward the reader is agency-preserving and truth-seeking (S037, S062, S063, S064, S065), which is genuine positive evidence of the mechanism. But it is stated intent only, with no cost borne, no relational context, and no affected-party review within the span; the announced two-class sorting (S050) is a latent risk. Score 2 with low confidence: mixed/insufficient. I agree with the per-sentence pass that P12 is the love-positive locus; I do not treat its 1.0 paragraph score as sufficient for a 3, since stated intent alone is not character evidence.\"\n    },\n    {\n      \"fruit_id\": \"fruit.joy\",\n      \"score\": 2,\n      \"confidence\": 0.15,\n      \"mechanism\": \"durable participation in real good not dependent on denial, spectacle, status, or constant stimulation\",\n      \"positive_evidence\": [],\n      \"counterevidence\": [],\n      \"evidence_coverage\": 0.05,\n      \"stress_tests\": {\n        \"source\": \"UNKNOWN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"UNKNOWN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"UNKNOWN\",\n        \"outsider\": \"UNKNOWN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"No evidence of joy or its anti-fruit appears in the supplied span. The per-sentence pass scored joy 0.0 throughout, which I read as absence of signal rather than presence of anti-fruit. Score 2 with very low confidence per the missing-evidence rule; no invented precision.\"\n    },\n    {\n      \"fruit_id\": \"fruit.peace\",\n      \"score\": 2,\n      \"confidence\": 0.15,\n      \"mechanism\": \"reintegrated order in which relevant tensions are truthfully addressed without suppression\",\n      \"positive_evidence\": [],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"E-P1\",\n          \"quote_or_event\": \"The arguments get louder. The positions get harder.\",\n          \"location\": \"S021\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Describes escalating unresolved conflict as the ambient condition; the document positions itself as addressing it, but no reintegration is demonstrated in the span.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.1,\n      \"stress_tests\": {\n        \"source\": \"UNKNOWN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"UNKNOWN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"UNKNOWN\",\n        \"outsider\": \"UNKNOWN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"The document diagnoses conflict (S018–S023) and promises a resolution (S030, S061), but the resolution is deferred; no truthful reintegration is exhibited. Score 2, low confidence: insufficient evidence, not a negative finding.\"\n    },\n    {\n      \"fruit_id\": \"fruit.patience\",\n      \"score\": 2,\n      \"confidence\": 0.3,\n      \"mechanism\": \"preservation of persons and processes across the time required for truth, growth, correction, or convergence while acting when action is due\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"E-PA1\",\n          \"quote_or_event\": \"We are going to walk through this. It will take time. This is not a one-page fix, and anyone offering you a one-page fix is selling you something.\",\n          \"location\": \"S031\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Explicitly accepts a long process over premature closure and warns against shortcuts.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [],\n      \"evidence_coverage\": 0.2,\n      \"stress_tests\": {\n        \"source\": \"UNKNOWN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"UNKNOWN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"PASS\",\n        \"outsider\": \"UNKNOWN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"S031 and S033 state a willingness to proceed at the pace truth requires and to reject one-page fixes. This is stated intent within a single context; no endurance across time or cost is yet observable. Score 2, low-moderate confidence.\"\n    },\n    {\n      \"fruit_id\": \"fruit.kindness\",\n      \"score\": 2,\n      \"confidence\": 0.2,\n      \"mechanism\": \"low-friction repair and assistance that reduces needless barriers without erasing truth or responsibility\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"E-K1\",\n          \"quote_or_event\": \"If it lands somewhere you don't like, show us where it breaks.\",\n          \"location\": \"S064\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Invites dissent without humiliation; lowers the barrier to correction.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"E-K2\",\n          \"quote_or_event\": \"Whether the left is compassionate or naive. Whether the right is principled or cruel.\",\n          \"location\": \"S015\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Frames opposing camps with unflattering alternatives; rhetorical framing that flattens persons into positions. Mild, and arguably descriptive of existing discourse rather than the author's own stance.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.15,\n      \"stress_tests\": {\n        \"source\": \"UNKNOWN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"PASS\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"PASS\",\n        \"outsider\": \"UNKNOWN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"The invitation to refutation (S064) is low-friction and non-humiliating. The framing of political camps (S013–S017) is mildly flattening but is presented as the state of discourse, not as the author's treatment of interlocutors. Score 2, low confidence.\"\n    },\n    {\n      \"fruit_id\": \"fruit.goodness\",\n      \"score\": 2,\n      \"confidence\": 0.2,\n      \"mechanism\": \"truth-aligned action producing real non-malign benefit after costs and externalities are counted\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"E-G1\",\n          \"quote_or_event\": \"We'll publish the break alongside the argument, because a framework that can't survive honest criticism isn't worth defending.\",\n          \"location\": \"S065\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"A commitment to publish disconfirming results is a costly, truth-aligned action if honored.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [],\n      \"evidence_coverage\": 0.1,\n      \"stress_tests\": {\n        \"source\": \"UNKNOWN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"UNKNOWN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"PASS\",\n        \"outsider\": \"UNKNOWN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"No benefit has yet been produced or cost counted; only a stated commitment exists (S065). Score 2, low confidence: insufficient evidence.\"\n    },\n    {\n      \"fruit_id\": \"fruit.faithfulness\",\n      \"score\": 2,\n      \"confidence\": 0.3,\n      \"mechanism\": \"invariant fidelity across time, audiences, incentives, and pressure, joined to correction when the object of loyalty is false\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"E-F1\",\n          \"quote_or_event\": \"We'll publish the break alongside the argument, because a framework that can't survive honest criticism isn't worth defending.\",\n          \"location\": \"S065\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Subordinates loyalty to the framework to loyalty to truth; commits to correction over self-defense.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"E-F2\",\n          \"quote_or_event\": \"We are asking you to follow the argument, check the evidence, and see where it lands.\",\n          \"location\": \"S063\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Consistent standard applied to reader and author alike: evidence decides.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [],\n      \"evidence_coverage\": 0.2,\n      \"stress_tests\": {\n        \"source\": \"UNKNOWN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"UNKNOWN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"PASS\",\n        \"outsider\": \"UNKNOWN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"The stated posture is fidelity to truth over the framework (S065) with a single standard for all parties (S063). No cross-audience or cross-pressure test is available in the span. Score 2, low-moderate confidence.\"\n    },\n    {\n      \"fruit_id\": \"fruit.gentleness\",\n      \"score\": 2,\n      \"confidence\": 0.2,\n      \"mechanism\": \"power precisely restrained to the minimum force sufficient for the good while protecting the vulnerable\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"E-GE1\",\n          \"quote_or_event\": \"We are not asking you to believe anything at the outset.\",\n          \"location\": \"S062\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Restrains the author's rhetorical power over the reader; no pressure applied to assent.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [],\n      \"evidence_coverage\": 0.1,\n      \"stress_tests\": {\n        \"source\": \"UNKNOWN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"UNKNOWN\",\n        \"power\": \"PASS\",\n        \"correction\": \"UNKNOWN\",\n        \"outsider\": \"UNKNOWN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"The hook exercises no coercive power over the reader and explicitly declines to (S062). No power asymmetry involving third parties is present in the span. Score 2, low confidence.\"\n    },\n    {\n      \"fruit_id\": \"fruit.self_control\",\n      \"score\": 2,\n      \"confidence\": 0.25,\n      \"mechanism\": \"boundary integrity and governance of appetite, impulse, scope, and optimization under the true good\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"E-SC1\",\n          \"quote_or_event\": \"This is not a one-page fix, and anyone offering you a one-page fix is selling you something.\",\n          \"location\": \"S033\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Refuses the impulse toward premature, tidy closure; governs the scope of the claim.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"E-SC2\",\n          \"quote_or_event\": \"That good and bad are structural properties of reality, as invariant as electric charge — not cultural opinions that shift with the century.\",\n          \"location\": \"S040\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Announces an extremely strong, totalizing claim in a hook; scope discipline is not yet demonstrated and the announced scope is very wide.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.2,\n      \"stress_tests\": {\n        \"source\": \"UNKNOWN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"UNKNOWN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"PASS\",\n        \"outsider\": \"UNKNOWN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"S033 shows restraint against premature closure, but the ten announced claims (S040–S060) are sweeping and unhedged, so scope governance is not yet evidenced. Score 2, low confidence.\"\n    }\n  ],\n  \"contradictions\": [\n    {\n      \"classification\": \"APPARENT\",\n      \"load_bearing\": false,\n      \"resolved\": true,\n      \"evidence_refs\": [\"S023\", \"S034\"],\n      \"fruit_relation\": \"Rhetorical tension between 'everybody is fighting about the wrong thing' (S023) and 'the problems are real' (S034); the document reconciles them by locating the error in the line, not in the reality of the problems (S025–S030).\",\n      \"consequence\": \"No effect on verdict; framing device.\"\n    },\n    {\n      \"classification\": \"UNRESOLVED\",\n      \"load_bearing\": true,\n      \"resolved\": false,\n      \"evidence_refs\": [\"S042\", \"S054\", \"S063\"],\n      \"fruit_relation\": \"The document claims mathematical proof status for moral and institutional conclusions (S042, S054) while simultaneously deferring all verification to later parts (S031, S063). Whether the proof exists is unresolved within the supplied unit.\",\n      \"consequence\": \"Prevents any positive verdict on gate.truth_evidence and caps all fruit scores at 2; resolution requires the supporting parts.\"\n    }\n  ],\n  \"counterfeit_flags\": [],\n  \"anti_fruit_pressure\": [\n    {\n      \"ref_id\": \"AF-1\",\n      \"location\": \"S050\",\n      \"description\": \"Announced sorting of the population into two structural classes by connection to truth; latent risk of disposability/division if operationalized against persons rather than claims.\",\n      \"severity\": \"LOW\",\n      \"status\": \"LATENT_NOT_ENACTED\"\n    }\n  ],\n  \"stakeholder_divergence\": [\n    {\n      \"group\": \"reader\",\n      \"observation\": \"Treated as free epistemic agent (S062, S063, S066).\",\n      \"evidence_refs\": [\"S062\", \"S063\", \"S066\"]\n    },\n    {\n      \"group\": \"political camps named in S013–S017\",\n      \"observation\": \"Represented only as positions in an unresolvable argument; no insider voice from these groups appears in the span.\",\n      \"evidence_refs\": [\"S013\", \"S014\", \"S015\", \"S016\", \"S017\"]\n    },\n    {\n      \"group\": \"persons sorted by S050\",\n      \"observation\": \"No affected-party perspective on the two-class sorting is supplied.\",\n      \"evidence_refs\": [\"S050\"]\n    }\n  ],\n  \"aggregation\": {\n    \"mode\": \"gated_profile\",\n    \"arithmetic_summary\": 18,\n    \"geometric_balance\": 2.0,\n    \"multiplicative_coherence\": null,\n    \"minimum_fruit\": {\n      \"fruit_id\": \"fruit.joy\",\n      \"score\": 2\n    },\n    \"vetoes\": []\n  },\n  \"epistemic_status\": \"UNRESOLVED\",\n  \"system_status\": \"BLOCKED\",\n  \"confidence\": 0.3,\n  \"missing_evidence\": [\n    \"The mathematical proofs announced in S042 and S054 (no derivation, no citation, no artifact in the supplied unit).\",\n    \"The historical record announced in S029, S044, S058, S060 (no data, sources, or time series supplied).\",\n    \"The documented institutional-capture sequence announced in S046 (no documentation supplied).\",\n    \"The claim that governments have deployed shame as official policy since 2015 (S048) — no policy citation supplied.\",\n    \"The 'exactly one event' claim in S060 — no candidate list, criteria, or measurement supplied.\",\n    \"Any citation apparatus, bibliography, or artifact identifiers for the ten claims.\",\n    \"Any affected-party or outsider observation of the framework's effects.\",\n    \"The later parts referenced by S031 and S068, without which the hard truth-evidence gate cannot be resolved.\"\n  ],\n  \"repair_path\": [\n    \"Supply the supporting parts containing the algebra for S054 and the proof for S042, with explicit domain limits and kill conditions.\",\n    \"Attach traceable citations and data for each of the ten announced claims (S040–S060).\",\n    \"State the bridge law and invariants connecting the mathematical result to the moral and institutional conclusions (gate.bridge_validity).\",\n    \"Operationalize S050 so that the sorting criterion applies to claims and institutions rather than to persons, or supply the affected-party evidence that the sorting does not produce disposability.\",\n    \"Honor the S065 commitment by publishing disconfirming results when they arise, and record that publication as evidence.\",\n    \"Provide an outsider review of the framework's effects, not only insider exposition.\"\n  ],\n  \"falsifier\": \"The framework is falsified if the announced mathematical constraint (S054) or the self-direction impossibility claim (S042) fails under the algebra it promises, or if the historical trajectory claims (S058, S060) fail against the cited record, or if the S065 commitment to publish disconfirming results is not honored when a break is shown.\",\n  \"limitations\": [\n    \"The supplied unit is a hook/preface only; it contains no evidence for any of its ten claims, so all fruit scores are capped at 2 by the missing-evidence rule.\",\n    \"The hard gate gate.truth_evidence is UNKNOWN, not PASS; no positive verdict is issued.\",\n    \"The per-sentence summary's love-positive paragraph P12 (score 1.0) is treated as stated intent, not as character evidence; I do not upgrade fruit.love above 2 on that basis.\",\n    \"The per-sentence summary reports no counterfeit or hidden-fruit candidates; I concur for the supplied span, while noting the latent S050 risk it did not flag.\",\n    \"No claim is made about hidden motives, salvation status, or divine origin.\",\n    \"Domain is inferred conservatively as unknown; the comparison class is nominal.\",\n    \"Confidence is low because the unit is a preface and the decisive evidence is deferred.\"\n  ],\n  \"formal_receipt\": {\n    \"rubric_id\": \"fruits.epistemic.v0.3.0\",\n    \"aggregation_mode\": \"gated_profile\",\n    \"source_sha256\": \"98981051040bb37e9acea8c7afc74db6e0f02d1431eb01dbfc452ce522645dae\",\n    \"source_file\": \"O-08A_part_00_hook_e41c8dac.md\",\n    \"sentences_scored\": 68,\n    \"sentences_total\": 68,\n    \"hard_gates\": {\n      \"gate.truth_evidence\": \"UNKNOWN\",\n      \"gate.contradiction\": \"PASS\",\n      \"gate.agency_noncoercion\": \"PASS\"\n    },\n    \"positive_verdict_permitted\": false,\n    \"notes\": \"No positive verdict after unresolved hard gate gate.truth_evidence. All fruit scores held at 2 (mixed_or_unknown) with low confidence.\"\n  }\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 5324,
+      "completion_tokens": 6686,
+      "attempts": 1,
+      "elapsed_seconds": 25.375,
+      "started_at": "2026-09-27T05:36:25.695893+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T05:36:51.074160+00:00",
+      "tokens": 12010
+    }
+  ],
+  "prompt_sha256": "51ac306510dcb89062b3f0d102cff007cac6a4a6284af9c4a8524d8ff375e1a6",
+  "tokens": 12010
+}

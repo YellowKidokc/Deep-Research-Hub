@@ -1,0 +1,28 @@
+---
+fis_schema: "folder-index.v1"
+folder_id: "FLD-20260907-6e798ca3"
+folder: "GitHub\Research-Acquisition\crawl4ai\docs\md_v2\advanced"
+folder_class: "project"
+confidence: 0.6
+dependency_risk: 0.0
+dominant_family: "text"
+dominant_ratio: 0.938
+file_count: 16
+classified_at: "2026-09-07T16:07:39"
+allowed_actions: ["index", "rename_internal", "subfolder_sort", "archive_exports"]
+suggested_name: "advanced"
+---
+
+# FIS Folder Index: advanced
+
+**Class**: project  ·  **Confidence**: 60%  ·  **Files**: 16  ·  **Dominant**: text (94%)
+
+## Allowed actions
+- index
+- rename_internal
+- subfolder_sort
+- archive_exports
+
+**Suggested name**: `advanced`  (not applied — review before use)
+
+<!-- FIS folder-index.v1: parseable note; safe to regenerate. -->

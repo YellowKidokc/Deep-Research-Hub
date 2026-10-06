@@ -1,0 +1,71 @@
+plugins {
+    id 'java'
+
+    id 'application'
+    id 'com.gradleup.shadow'
+    id 'jvm-test-suite'
+}
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(rootProject.ext.jvmVersion))
+    }
+}
+
+application {
+    mainClass = 'nu.marginalia.loading.LoaderMain'
+    applicationName = 'loader-process'
+}
+
+tasks.distZip.enabled = false
+
+apply from: "$rootProject.projectDir/srcsets.gradle"
+
+dependencies {
+    implementation project(':code:processes:process-mq-api')
+    implementation project(':code:index:api')
+    implementation project(':code:common:model')
+    implementation project(':code:common:db')
+    implementation project(':code:common:config')
+    implementation project(':code:common:service')
+    implementation project(':code:common:linkdb')
+    implementation project(':code:index:index-journal')
+    implementation project(':code:libraries:message-queue')
+    implementation project(':code:functions:language-processing')
+    implementation project(':code:libraries:coded-sequence')
+    implementation project(':third-party:commons-codec')
+    testImplementation project(':code:services-application:search-service')
+
+    implementation project(':code:processes:crawling-process:model')
+    implementation project(':code:processes:converting-process:model')
+
+    implementation project(':code:functions:link-graph:partition')
+
+    implementation libs.bundles.slf4j
+
+    implementation libs.slop
+    implementation libs.guava
+    implementation dependencies.create(libs.guice.get()) {
+        exclude group: 'com.google.guava'
+    }
+    implementation libs.gson
+    implementation libs.commons.lang3
+    implementation libs.zstd
+    implementation libs.roaringbitmap
+    implementation libs.trove
+    implementation libs.bundles.mariadb
+
+    testImplementation libs.bundles.slf4j.test
+    testImplementation libs.bundles.junit
+    testImplementation libs.mockito
+
+    testImplementation libs.bundles.selenium
+    testImplementation platform('org.testcontainers:testcontainers-bom:1.21.4') {
+        exclude group: 'org.apache.commons'
+    }
+    testImplementation libs.commons.compress
+    testImplementation libs.commons.codec
+    testImplementation 'org.testcontainers:mariadb:1.21.4'
+    testImplementation 'org.testcontainers:junit-jupiter:1.21.4'
+    testImplementation project(':code:libraries:test-helpers')
+}
+

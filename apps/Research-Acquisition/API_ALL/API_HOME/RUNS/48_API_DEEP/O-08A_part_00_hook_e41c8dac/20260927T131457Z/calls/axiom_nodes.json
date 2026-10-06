@@ -1,0 +1,122 @@
+{
+  "name": "axiom_nodes",
+  "parsed": {
+    "paper_uuid": "the-meta-argument-part-0",
+    "title": "THE META ARGUMENT",
+    "summary": "This is the introductory 'Hook' section of a larger work. It lays out ten claims that the author promises to substantiate, covering moral realism, the impossibility of self-grounding moral systems, the necessity of an external reference point, institutional capture, and a unique historical reversal event. The paper engages the axiom system primarily at the level of foundational premises (A1.1, A1.2, A2.2, A11.1, A11.2, A9.1, BC2, C8.2, T16.1) without yet providing the mathematical or empirical detail found in later parts.",
+    "primary_mode": "AX_CORE",
+    "axiom_nodes": [
+      {
+        "node_id": "A1.1",
+        "name": "Existence",
+        "mode": "AX_CORE",
+        "alignment": "supported",
+        "evidence_quote": "That good and bad are structural properties of reality, as invariant as electric charge",
+        "confidence": "medium",
+        "notes": "Presupposes a structured reality in which moral properties inhere."
+      },
+      {
+        "node_id": "A1.2",
+        "name": "Distinction",
+        "mode": "AX_CORE",
+        "alignment": "directly_asserted",
+        "evidence_quote": "That an external reference point must exist for the distinction between good and bad to be meaningful",
+        "confidence": "high",
+        "notes": "Explicitly asserts the necessity of a distinction (good/bad) grounded in an external reference."
+      },
+      {
+        "node_id": "A2.2",
+        "name": "Self-Grounding",
+        "mode": "AX_CORE",
+        "alignment": "contested",
+        "evidence_quote": "That no system can determine its own moral direction from inside itself — this is mathematics, not philosophy, and it has been proven.",
+        "confidence": "high",
+        "notes": "Denies that a system can self-ground its moral direction, aligning with the axiom's denial of self-grounding."
+      },
+      {
+        "node_id": "A9.1",
+        "name": "External Intervention Required",
+        "mode": "AX_CORE",
+        "alignment": "directly_asserted",
+        "evidence_quote": "That an external reference point must exist for the distinction between good and bad to be meaningful",
+        "confidence": "high",
+        "notes": "Explicitly requires an external reference point, matching the axiom."
+      },
+      {
+        "node_id": "A11.1",
+        "name": "Moral Realism",
+        "mode": "AX_CORE",
+        "alignment": "directly_asserted",
+        "evidence_quote": "That good and bad are structural properties of reality, as invariant as electric charge — not cultural opinions that shift with the century.",
+        "confidence": "high",
+        "notes": "Directly asserts moral realism."
+      },
+      {
+        "node_id": "A11.2",
+        "name": "Coherence-Morality Identity",
+        "mode": "AX_CORE",
+        "alignment": "supported",
+        "evidence_quote": "That good and bad are structural properties of reality, as invariant as electric charge",
+        "confidence": "medium",
+        "notes": "Implies moral properties are structural/coherent features of reality."
+      },
+      {
+        "node_id": "BC2",
+        "name": "Grace External To System",
+        "mode": "AX_CORE",
+        "alignment": "supported",
+        "evidence_quote": "That there is a mathematical constraint — provable by algebra — showing that justice and mercy cannot both be fully satisfied inside any closed system.",
+        "confidence": "medium",
+        "notes": "The claim that a closed system cannot satisfy both justice and mercy implies the need for an external resolution (grace)."
+      },
+      {
+        "node_id": "C8.2",
+        "name": "Works Salvation Impossible",
+        "mode": "AX_CORE",
+        "alignment": "supported",
+        "evidence_quote": "That no system can determine its own moral direction from inside itself — this is mathematics, not philosophy, and it has been proven.",
+        "confidence": "medium",
+        "notes": "If a system cannot self-determine moral direction, then salvation by works (internal effort) is impossible."
+      },
+      {
+        "node_id": "T16.1",
+        "name": "Christianity 8 of 8 BCs",
+        "mode": "AX_DERIVED",
+        "alignment": "supported",
+        "evidence_quote": "That there is exactly one event in the recorded history of the world where this trajectory reversed without the system collapsing — and that event has measurable features that no other candidate in history matches.",
+        "confidence": "medium",
+        "notes": "The unique historical reversal event is presented as the only candidate matching the boundary conditions, implicitly supporting Christianity as the unique solution."
+      }
+    ],
+    "unmapped_claims": [
+      "A04",
+      "A05",
+      "A06",
+      "A07",
+      "A09",
+      "A11"
+    ]
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "axiom_nodes",
+      "attempt": 1,
+      "text": "{\n  \"paper_uuid\": \"the-meta-argument-part-0\",\n  \"title\": \"THE META ARGUMENT\",\n  \"summary\": \"This is the introductory 'Hook' section of a larger work. It lays out ten claims that the author promises to substantiate, covering moral realism, the impossibility of self-grounding moral systems, the necessity of an external reference point, institutional capture, and a unique historical reversal event. The paper engages the axiom system primarily at the level of foundational premises (A1.1, A1.2, A2.2, A11.1, A11.2, A9.1, BC2, C8.2, T16.1) without yet providing the mathematical or empirical detail found in later parts.\",\n  \"primary_mode\": \"AX_CORE\",\n  \"axiom_nodes\": [\n    {\n      \"node_id\": \"A1.1\",\n      \"name\": \"Existence\",\n      \"mode\": \"AX_CORE\",\n      \"alignment\": \"supported\",\n      \"evidence_quote\": \"That good and bad are structural properties of reality, as invariant as electric charge\",\n      \"confidence\": \"medium\",\n      \"notes\": \"Presupposes a structured reality in which moral properties inhere.\"\n    },\n    {\n      \"node_id\": \"A1.2\",\n      \"name\": \"Distinction\",\n      \"mode\": \"AX_CORE\",\n      \"alignment\": \"directly_asserted\",\n      \"evidence_quote\": \"That an external reference point must exist for the distinction between good and bad to be meaningful\",\n      \"confidence\": \"high\",\n      \"notes\": \"Explicitly asserts the necessity of a distinction (good/bad) grounded in an external reference.\"\n    },\n    {\n      \"node_id\": \"A2.2\",\n      \"name\": \"Self-Grounding\",\n      \"mode\": \"AX_CORE\",\n      \"alignment\": \"contested\",\n      \"evidence_quote\": \"That no system can determine its own moral direction from inside itself — this is mathematics, not philosophy, and it has been proven.\",\n      \"confidence\": \"high\",\n      \"notes\": \"Denies that a system can self-ground its moral direction, aligning with the axiom's denial of self-grounding.\"\n    },\n    {\n      \"node_id\": \"A9.1\",\n      \"name\": \"External Intervention Required\",\n      \"mode\": \"AX_CORE\",\n      \"alignment\": \"directly_asserted\",\n      \"evidence_quote\": \"That an external reference point must exist for the distinction between good and bad to be meaningful\",\n      \"confidence\": \"high\",\n      \"notes\": \"Explicitly requires an external reference point, matching the axiom.\"\n    },\n    {\n      \"node_id\": \"A11.1\",\n      \"name\": \"Moral Realism\",\n      \"mode\": \"AX_CORE\",\n      \"alignment\": \"directly_asserted\",\n      \"evidence_quote\": \"That good and bad are structural properties of reality, as invariant as electric charge — not cultural opinions that shift with the century.\",\n      \"confidence\": \"high\",\n      \"notes\": \"Directly asserts moral realism.\"\n    },\n    {\n      \"node_id\": \"A11.2\",\n      \"name\": \"Coherence-Morality Identity\",\n      \"mode\": \"AX_CORE\",\n      \"alignment\": \"supported\",\n      \"evidence_quote\": \"That good and bad are structural properties of reality, as invariant as electric charge\",\n      \"confidence\": \"medium\",\n      \"notes\": \"Implies moral properties are structural/coherent features of reality.\"\n    },\n    {\n      \"node_id\": \"BC2\",\n      \"name\": \"Grace External To System\",\n      \"mode\": \"AX_CORE\",\n      \"alignment\": \"supported\",\n      \"evidence_quote\": \"That there is a mathematical constraint — provable by algebra — showing that justice and mercy cannot both be fully satisfied inside any closed system.\",\n      \"confidence\": \"medium\",\n      \"notes\": \"The claim that a closed system cannot satisfy both justice and mercy implies the need for an external resolution (grace).\"\n    },\n    {\n      \"node_id\": \"C8.2\",\n      \"name\": \"Works Salvation Impossible\",\n      \"mode\": \"AX_CORE\",\n      \"alignment\": \"supported\",\n      \"evidence_quote\": \"That no system can determine its own moral direction from inside itself — this is mathematics, not philosophy, and it has been proven.\",\n      \"confidence\": \"medium\",\n      \"notes\": \"If a system cannot self-determine moral direction, then salvation by works (internal effort) is impossible.\"\n    },\n    {\n      \"node_id\": \"T16.1\",\n      \"name\": \"Christianity 8 of 8 BCs\",\n      \"mode\": \"AX_DERIVED\",\n      \"alignment\": \"supported\",\n      \"evidence_quote\": \"That there is exactly one event in the recorded history of the world where this trajectory reversed without the system collapsing — and that event has measurable features that no other candidate in history matches.\",\n      \"confidence\": \"medium\",\n      \"notes\": \"The unique historical reversal event is presented as the only candidate matching the boundary conditions, implicitly supporting Christianity as the unique solution.\"\n    }\n  ],\n  \"unmapped_claims\": [\n    \"A04\",\n    \"A05\",\n    \"A06\",\n    \"A07\",\n    \"A09\",\n    \"A11\"\n  ]\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 5506,
+      "completion_tokens": 1140,
+      "attempts": 1,
+      "elapsed_seconds": 4.79700000000048,
+      "started_at": "2026-09-27T05:36:25.696196+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T05:36:30.489487+00:00",
+      "tokens": 6646
+    }
+  ],
+  "prompt_sha256": "3815abc2f7bf5ec7901d808e0d53dfc120fa95f3723277c7a2dcd9575ced6eb2",
+  "tokens": 6646,
+  "reused": true
+}

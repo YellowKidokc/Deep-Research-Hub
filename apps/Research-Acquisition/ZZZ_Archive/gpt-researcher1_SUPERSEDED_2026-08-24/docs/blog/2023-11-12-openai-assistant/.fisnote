@@ -1,0 +1,28 @@
+---
+fis_schema: "folder-index.v1"
+folder_id: "FLD-20260907-2464a718"
+folder: "GitHub\Research-Acquisition\ZZZ_Archive\gpt-researcher1_SUPERSEDED_2026-08-24\docs\blog\2023-11-12-openai-assistant"
+folder_class: "project"
+confidence: 0.6
+dependency_risk: 0.0
+dominant_family: "media"
+dominant_ratio: 0.5
+file_count: 4
+classified_at: "2026-09-07T16:08:03"
+allowed_actions: ["index", "rename_internal", "subfolder_sort", "archive_exports"]
+suggested_name: "2023-11-12-openai-assistant"
+---
+
+# FIS Folder Index: 2023-11-12-openai-assistant
+
+**Class**: project  ·  **Confidence**: 60%  ·  **Files**: 4  ·  **Dominant**: media (50%)
+
+## Allowed actions
+- index
+- rename_internal
+- subfolder_sort
+- archive_exports
+
+**Suggested name**: `2023-11-12-openai-assistant`  (not applied — review before use)
+
+<!-- FIS folder-index.v1: parseable note; safe to regenerate. -->

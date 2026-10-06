@@ -1,0 +1,113 @@
+{
+  "name": "master_equation_a1",
+  "parsed": {
+    "paper": "The Resurrection Connection to Christian Theology - Gary Habermas with @Real Seekers",
+    "core_relation": {
+      "sentence": "The resurrection is the linchpin that, if granted, entails a God who raised Jesus, the deity of Christ, the kingdom of God, and the truth of his teaching; all other doctrines hang on this one event.",
+      "quote": "Now, if you put it together, this event happened. That requires this being. [S230-S232]"
+    },
+    "product_test": {
+      "answer": "multiplicative",
+      "quote": "If there's a resurrection, somebody had to do it... If Jesus is raised from the dead and his leading teaching is true. [S256, S262]",
+      "reason": "Habermas treats the resurrection as a necessary condition: if it did not occur, the entire theological edifice (God, deity of Christ, kingdom, salvation) collapses. The relation is stated as conditional entailment, not additive weakening."
+    },
+    "slots": [
+      {
+        "slot": "G",
+        "plays_role": "External negentropy influx is the resurrection itself as an act of God breaking into history from outside; coherence of doctrine cannot sustain itself without this external event.",
+        "quote": "If God raised Jesus, if there's a resurrection and there's a God, you got to link the two. [S236]",
+        "fit": "direct"
+      },
+      {
+        "slot": "M",
+        "plays_role": "Alignment is the correspondence between Jesus's claims/teaching and the resurrection event; the resurrection is the divine alignment with Jesus's own predictions.",
+        "quote": "If Jesus is raised from the dead and his leading teaching is true. [S262]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "E",
+        "plays_role": "Signal fidelity is the historical evidence and eyewitness testimony for the resurrection that survives skeptical noise; Habermas insists on evidential transmission.",
+        "quote": "It's always empirical evidence like near-death experiences, uh Shroud of Turin, or historical evidence for the resurrection. [S108]",
+        "fit": "direct"
+      },
+      {
+        "slot": "S_eff",
+        "plays_role": "Effective entropy is the skepticism, doubt, and competing miracle claims that lower coherence; Habermas treats these as noise to be answered, not as a factor that can be zeroed out.",
+        "quote": "If they're really skeptical, no matter what I say will make no difference. [S084]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "T",
+        "plays_role": "Temporal integration is the 15-year project and the cumulative historical case built across four volumes; time turns the possibility of resurrection into accumulated evidence.",
+        "quote": "Obviously, this is a project that took you 15 years. [S023]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "K",
+        "plays_role": "Compression is the compression of the entire theological system into two key words: theology and practice; the four volumes compress ordered meaning.",
+        "quote": "The two key words in the title, what the resurrection means for theology and what the resurrection means um in practice. [S041]",
+        "fit": "stretched"
+      },
+      {
+        "slot": "R",
+        "plays_role": "Phase transition is the resurrection as a one-time, unique event that changes state, not degree; it is a threshold that authenticates a religion.",
+        "quote": "It's a one-time event where the evidence is very good. It occurred and it is for the purpose of evidencing a message. [S440-S441]",
+        "fit": "direct"
+      },
+      {
+        "slot": "Q",
+        "plays_role": "Superposition is the open possibility of the resurrection before evidence is assessed; it remains unresolved until actualized by historical investigation.",
+        "quote": "If something like that happened, yeah, it would be it would be the biggie. [S458]",
+        "fit": "stretched"
+      },
+      {
+        "slot": "F",
+        "plays_role": "Non-local correlation is the connection between the resurrection and other doctrines (deity, kingdom, scripture) that are no longer independent once the event is granted.",
+        "quote": "I think scriptures entailed somewhere down the line, just like I think ethics are entailed somewhere down the line. [S334]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "C",
+        "plays_role": "Integration is Habermas himself as the integrator, synthesizing evidence, theology, and practice into a unified case across 52 books.",
+        "quote": "I've done 52 books and and by the way, I wouldn't know that except that I get asked once in a while. [S027]",
+        "fit": "analogous"
+      }
+    ],
+    "breaks": [
+      "The paper treats the resurrection as a singular, unrepeatable event; the master equation is a general integral over all events, not a one-time threshold.",
+      "Habermas explicitly denies that the relation is additive or probabilistic in the master-equation sense; he insists on a binary entailment (if resurrection, then God).",
+      "The slot Q (superposition) is largely absent: Habermas does not treat the resurrection as an unresolved possibility but as a historical fact to be proven.",
+      "The paper adds factors with no clear slot: the role of the Holy Spirit, the authority of scripture, and the personal commitment of the integrator (Habermas's own 52-year career)."
+    ],
+    "extra_factors": [
+      "The Holy Spirit as an additional agent in verification and understanding.",
+      "The authority of scripture as a self-authenticating source.",
+      "The personal faith and commitment of the researcher as a condition for seeing the evidence."
+    ],
+    "analog_strength": 3,
+    "confidence": "medium",
+    "one_line": "The resurrection functions as the external negentropy influx (G) whose occurrence multiplicatively entails the entire theological system, but the analogy is limited by the paper's binary, one-time, non-integral framing.",
+    "equations_present": false
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "master_equation_a1",
+      "attempt": 1,
+      "text": "{\n  \"paper\": \"The Resurrection Connection to Christian Theology - Gary Habermas with @Real Seekers\",\n  \"core_relation\": {\n    \"sentence\": \"The resurrection is the linchpin that, if granted, entails a God who raised Jesus, the deity of Christ, the kingdom of God, and the truth of his teaching; all other doctrines hang on this one event.\",\n    \"quote\": \"Now, if you put it together, this event happened. That requires this being. [S230-S232]\"\n  },\n  \"product_test\": {\n    \"answer\": \"multiplicative\",\n    \"quote\": \"If there's a resurrection, somebody had to do it... If Jesus is raised from the dead and his leading teaching is true. [S256, S262]\",\n    \"reason\": \"Habermas treats the resurrection as a necessary condition: if it did not occur, the entire theological edifice (God, deity of Christ, kingdom, salvation) collapses. The relation is stated as conditional entailment, not additive weakening.\"\n  },\n  \"slots\": [\n    {\n      \"slot\": \"G\",\n      \"plays_role\": \"External negentropy influx is the resurrection itself as an act of God breaking into history from outside; coherence of doctrine cannot sustain itself without this external event.\",\n      \"quote\": \"If God raised Jesus, if there's a resurrection and there's a God, you got to link the two. [S236]\",\n      \"fit\": \"direct\"\n    },\n    {\n      \"slot\": \"M\",\n      \"plays_role\": \"Alignment is the correspondence between Jesus's claims/teaching and the resurrection event; the resurrection is the divine alignment with Jesus's own predictions.\",\n      \"quote\": \"If Jesus is raised from the dead and his leading teaching is true. [S262]\",\n      \"fit\": \"analogous\"\n    },\n    {\n      \"slot\": \"E\",\n      \"plays_role\": \"Signal fidelity is the historical evidence and eyewitness testimony for the resurrection that survives skeptical noise; Habermas insists on evidential transmission.\",\n      \"quote\": \"It's always empirical evidence like near-death experiences, uh Shroud of Turin, or historical evidence for the resurrection. [S108]\",\n      \"fit\": \"direct\"\n    },\n    {\n      \"slot\": \"S_eff\",\n      \"plays_role\": \"Effective entropy is the skepticism, doubt, and competing miracle claims that lower coherence; Habermas treats these as noise to be answered, not as a factor that can be zeroed out.\",\n      \"quote\": \"If they're really skeptical, no matter what I say will make no difference. [S084]\",\n      \"fit\": \"analogous\"\n    },\n    {\n      \"slot\": \"T\",\n      \"plays_role\": \"Temporal integration is the 15-year project and the cumulative historical case built across four volumes; time turns the possibility of resurrection into accumulated evidence.\",\n      \"quote\": \"Obviously, this is a project that took you 15 years. [S023]\",\n      \"fit\": \"analogous\"\n    },\n    {\n      \"slot\": \"K\",\n      \"plays_role\": \"Compression is the compression of the entire theological system into two key words: theology and practice; the four volumes compress ordered meaning.\",\n      \"quote\": \"The two key words in the title, what the resurrection means for theology and what the resurrection means um in practice. [S041]\",\n      \"fit\": \"stretched\"\n    },\n    {\n      \"slot\": \"R\",\n      \"plays_role\": \"Phase transition is the resurrection as a one-time, unique event that changes state, not degree; it is a threshold that authenticates a religion.\",\n      \"quote\": \"It's a one-time event where the evidence is very good. It occurred and it is for the purpose of evidencing a message. [S440-S441]\",\n      \"fit\": \"direct\"\n    },\n    {\n      \"slot\": \"Q\",\n      \"plays_role\": \"Superposition is the open possibility of the resurrection before evidence is assessed; it remains unresolved until actualized by historical investigation.\",\n      \"quote\": \"If something like that happened, yeah, it would be it would be the biggie. [S458]\",\n      \"fit\": \"stretched\"\n    },\n    {\n      \"slot\": \"F\",\n      \"plays_role\": \"Non-local correlation is the connection between the resurrection and other doctrines (deity, kingdom, scripture) that are no longer independent once the event is granted.\",\n      \"quote\": \"I think scriptures entailed somewhere down the line, just like I think ethics are entailed somewhere down the line. [S334]\",\n      \"fit\": \"analogous\"\n    },\n    {\n      \"slot\": \"C\",\n      \"plays_role\": \"Integration is Habermas himself as the integrator, synthesizing evidence, theology, and practice into a unified case across 52 books.\",\n      \"quote\": \"I've done 52 books and and by the way, I wouldn't know that except that I get asked once in a while. [S027]\",\n      \"fit\": \"analogous\"\n    }\n  ],\n  \"breaks\": [\n    \"The paper treats the resurrection as a singular, unrepeatable event; the master equation is a general integral over all events, not a one-time threshold.\",\n    \"Habermas explicitly denies that the relation is additive or probabilistic in the master-equation sense; he insists on a binary entailment (if resurrection, then God).\",\n    \"The slot Q (superposition) is largely absent: Habermas does not treat the resurrection as an unresolved possibility but as a historical fact to be proven.\",\n    \"The paper adds factors with no clear slot: the role of the Holy Spirit, the authority of scripture, and the personal commitment of the integrator (Habermas's own 52-year career).\"\n  ],\n  \"extra_factors\": [\n    \"The Holy Spirit as an additional agent in verification and understanding.\",\n    \"The authority of scripture as a self-authenticating source.\",\n    \"The personal faith and commitment of the researcher as a condition for seeing the evidence.\"\n  ],\n  \"analog_strength\": 3,\n  \"confidence\": \"medium\",\n  \"one_line\": \"The resurrection functions as the external negentropy influx (G) whose occurrence multiplicatively entails the entire theological system, but the analogy is limited by the paper's binary, one-time, non-integral framing.\",\n  \"equations_present\": false\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 19763,
+      "completion_tokens": 1372,
+      "attempts": 1,
+      "elapsed_seconds": 7.85899999999674,
+      "started_at": "2026-09-27T13:49:27.610369+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T13:49:35.465724+00:00",
+      "tokens": 21135
+    }
+  ],
+  "prompt_sha256": "1579123df312d020817509a85e1e0012e2bfd6ce1073a671606f88814d9b03a4",
+  "tokens": 21135
+}

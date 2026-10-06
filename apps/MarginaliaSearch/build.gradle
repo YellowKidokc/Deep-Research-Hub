@@ -1,0 +1,109 @@
+plugins {
+    id 'java'
+    id("org.jetbrains.gradle.plugin.idea-ext") version "1.0"
+    id "me.champeau.jmh" version "0.7.3"
+    id 'com.gradleup.shadow' version "9.2.2"
+
+    // This is a workaround for a bug in the Jib plugin that causes it to stall randomly
+    // https://github.com/GoogleContainerTools/jib/issues/3347
+    id 'com.google.cloud.tools.jib' version '3.4.5' apply(false)
+    id 'com.adarshr.test-logger' version '4.0.0'
+}
+
+group 'marginalia'
+version '1.1'
+
+compileJava.options.encoding = "UTF-8"
+compileTestJava.options.encoding = "UTF-8"
+
+subprojects.forEach {it ->
+    // Enable preview features for the entire project
+
+    if (it.path.contains(':code:')) {
+        sourceSets.main.java.srcDirs += file('java')
+        sourceSets.main.resources.srcDirs += file('resources')
+        sourceSets.test.java.srcDirs += file('test')
+        sourceSets.test.resources.srcDirs += file('test-resources')
+    }
+
+    it.tasks.withType(JavaCompile).configureEach {
+        options.compilerArgs += ['--enable-preview']
+    }
+    it.tasks.withType(JavaExec).configureEach {
+        jvmArgs += ['--enable-preview']
+    }
+
+    it.plugins.withId('application') { _ ->
+        it.application.applicationDefaultJvmArgs = [
+                '--enable-preview',
+                '--enable-native-access=ALL-UNNAMED',
+                '--sun-misc-unsafe-memory-access=allow'
+        ]
+    }
+
+    it.tasks.withType(Test).configureEach {
+        jvmArgs += ['--enable-preview',
+                    '--enable-native-access=ALL-UNNAMED',
+                    '--sun-misc-unsafe-memory-access=allow',
+                    '-Dsystem.uringQueueCount=1']
+    }
+
+    // Enable reproducible builds for the entire project
+    it.tasks.withType(AbstractArchiveTask).configureEach {
+        preserveFileTimestamps = false
+        reproducibleFileOrder = true
+    }
+
+    // Kludge:  Fix netty compatibility
+    it.configurations.all {
+        resolutionStrategy.eachDependency { details ->
+            if (details.requested.group == 'io.netty'
+                    && details.requested.name != 'netty-tcnative-boringssl-static') {
+                details.useVersion '4.2.12.Final'
+            }
+        }
+    }
+
+}
+
+ext {
+    jvmVersion = 25
+    dockerImageBase='container-registry.oracle.com/graalvm/jdk:25'
+
+    // If you're e.g. using arch, which is on JDK 26 (or whatever is latest), please use these instead:
+
+//    jvmVersion = 26
+//    dockerImageBase='amazoncorretto:26.0.0'
+
+    // (this is usually not a problem you have with Java, which is absurdly backward- and forward-compatible,
+    //  but gradle is certainly one of the build systems of all time)
+
+    dockerImageTag='latest'
+    dockerImageRegistry='marginalia'
+    jibVersion = '3.4.5'
+}
+
+apply from: 'dist.gradle'
+
+idea {
+    module {
+        // Exclude these directories from being indexed by IntelliJ
+        // as they tend to bring the IDE to its knees and use up all
+        // Inotify spots in a hurry
+        excludeDirs.add(file("$projectDir/run/node-1"))
+        excludeDirs.add(file("$projectDir/run/node-2"))
+        excludeDirs.add(file("$projectDir/run/model"))
+        excludeDirs.add(file("$projectDir/run/dist"))
+        excludeDirs.add(file("$projectDir/run/db"))
+        excludeDirs.add(file("$projectDir/run/logs"))
+        excludeDirs.add(file("$projectDir/run/data"))
+        excludeDirs.add(file("$projectDir/run/conf"))
+        excludeDirs.add(file("$projectDir/run/test-data"))
+    }
+}
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(rootProject.ext.jvmVersion))
+    }
+}
+

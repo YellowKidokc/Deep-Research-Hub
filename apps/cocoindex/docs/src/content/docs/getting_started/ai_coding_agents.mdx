@@ -1,0 +1,48 @@
+---
+title: Use CocoIndex with *AI coding agents*
+description: >
+  Make Claude Code, Cursor, and other AI coding agents write correct CocoIndex v1
+  code by installing the official CocoIndex skill — concepts, APIs, and patterns
+  packaged for agent context.
+---
+CocoIndex ships an official **agent skill** that teaches AI coding agents how to build CocoIndex v1 pipelines correctly — core concepts, API surface, common patterns, connectors, and best practices, all in one place.
+
+The skill lives in the [`skills/cocoindex/`](https://github.com/cocoindex-io/cocoindex/tree/main/skills/cocoindex) directory of the main repo.
+
+## Why a skill?
+
+CocoIndex v1 is a fundamental redesign from v0. Without context, an LLM trained on older snapshots tends to hallucinate the wrong API (the v0 flow-builder DSL, deprecated decorators, missing `@coco.fn`, unstable component paths). The skill gives the agent a single concise reference covering:
+
+- **Mental model** — `target_state = transform(source_state)`, declarative pipelines, [processing components](../programming_guide/processing_component).
+- **Core APIs** — `@coco.fn`, `mount` / `use_mount` / `mount_each`, `ContextKey`, `@coco.lifespan`, target state declarations.
+- **Common patterns** — file transformation, vector embedding, LLM extraction, knowledge graphs.
+- **Connectors** — PostgreSQL, SQLite, LanceDB, Qdrant, SurrealDB, Apache Doris, LocalFS, S3, Kafka, Google Drive.
+- **Best practices** — memoization, stable component paths, vector schema with `Annotated[NDArray, KEY]`.
+
+## Install the skill
+
+The recommended way to install is the [`skills` CLI](https://skills.sh) — one command, works with Claude Code, Codex, Cursor, Gemini CLI, GitHub Copilot, OpenCode, and other Agent Skills-compatible clients:
+
+```sh
+npx skills add cocoindex-io/cocoindex
+```
+
+Run it in your project root. It installs the skill into `.agents/skills/cocoindex` (the universal convention that Codex, Cursor, and other clients scan) and symlinks it into `.claude/skills/cocoindex` for Claude Code. It also writes a `skills-lock.json` that pins the installed skill by content hash, so you can track exactly which version you have and when it was updated.
+
+To update to the latest version later:
+
+```sh
+npx skills update cocoindex
+```
+
+To install globally (user-level, available in every project) instead of project-local:
+
+```sh
+npx skills add -g cocoindex-io/cocoindex
+```
+
+Once installed, your agent picks up the skill automatically when you ask it to build or modify a CocoIndex pipeline.
+
+## Contributing
+
+The skill is versioned alongside the codebase — when the API changes, the skill changes with it. PRs that improve clarity, add examples, or cover new connectors are welcome. See the [contributing guide](../contributing/guide/) for how to get started.

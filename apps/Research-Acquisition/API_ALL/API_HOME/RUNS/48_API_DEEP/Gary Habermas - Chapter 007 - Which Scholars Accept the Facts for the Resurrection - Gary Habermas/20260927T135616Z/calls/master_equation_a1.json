@@ -1,0 +1,111 @@
+{
+  "name": "master_equation_a1",
+  "parsed": {
+    "paper": "Which Scholars Accept the Facts for the Resurrection? - Gary Habermas",
+    "equations_present": false,
+    "core_relation": {
+      "sentence": "The scholarly consensus on the minimal facts is credible only when the sample is restricted to informed critical scholars who publish in the field, because their conclusions are based on the data rather than on their Christian bias.",
+      "quote": "I can only take people who have published on things or maybe have done, you know, an interview for the History Channel or they've done an interview that I can follow because how do I know your view? [S254]"
+    },
+    "product_test": {
+      "answer": "multiplicative",
+      "quote": "if if that was true, then the empty tomb would be a minimal fact. Not You know, if if they're all just a bunch of Christians, why on earth are Christians denying the empty tomb? It's because even though they're Christians, they're basing their conclusions on the data. [S062-S064]",
+      "reason": "The argument collapses if the sample is not informed or not data-driven: if scholars were merely biased Christians, the consensus would be worthless; if they did not publish in the field, their opinions would not count. Both conditions are treated as necessary, not merely contributing."
+    },
+    "slots": [
+      {
+        "slot": "G",
+        "plays_role": "The external source of negentropy is the published, peer-reviewed literature and the scholars who produce it; the argument depends on an outside body of evidence and expert testimony that the individual apologist does not generate alone.",
+        "quote": "when I say I want a scholar, I don't want somebody who shoots from the hip. [S128]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "M",
+        "plays_role": "Alignment is the scholar's methodological commitment to follow the evidence wherever it leads, rather than to a prior ideological or religious commitment.",
+        "quote": "I try to go where the evidence leads. [S139]",
+        "fit": "direct"
+      },
+      {
+        "slot": "E",
+        "plays_role": "Signal fidelity is the accurate transmission of the historical data through the scholarly literature; the argument depends on the data surviving scrutiny and being reported correctly.",
+        "quote": "they're being honest to the data, right? Because if if that was true, then the empty tomb would be a minimal fact. [S061-S062]",
+        "fit": "direct"
+      },
+      {
+        "slot": "S_eff",
+        "plays_role": "Effective entropy is the bias, presupposition, or ignorance that lowers the reliability of a scholar's testimony; the argument works by minimizing this noise through careful selection of informed scholars.",
+        "quote": "You're just going to say that's true? I think that's kind of weak. [S159-S160]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "T",
+        "plays_role": "Temporal integration is the long history of scholarly research from the 19th century to the present, which accumulates into a consensus that cannot be dismissed as a momentary fad.",
+        "quote": "I started the study of 1970 uh five on because my dissertation was done in '76. [S130]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "K",
+        "plays_role": "Compression is the minimal facts themselves—a short list of six facts that condenses a vast amount of scholarly debate into a compact, usable summary.",
+        "quote": "I can find my six facts over and over and over and over and over in James D. G. Dunn. [S039-S041]",
+        "fit": "direct"
+      },
+      {
+        "slot": "R",
+        "plays_role": "Phase transition is the qualitative shift from a general scholarly opinion to a minimal fact: when a fact is accepted even by skeptical scholars, it crosses a threshold from contested to consensus.",
+        "quote": "the data is so strong in the case of your six minimal facts, that's why there is that strong consensus. [S065]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "Q",
+        "plays_role": "Superposition is the unresolved state of a historical question before the evidence is weighed; the argument aims to collapse this into a definite conclusion by appealing to the consensus.",
+        "quote": "People wonder why we don't have any words that are purported from the resurrected Jesus in the Gospels. There's a reason for it. Dead men don't rise. [S155-S157]",
+        "fit": "stretched"
+      },
+      {
+        "slot": "F",
+        "plays_role": "Non-local correlation is the interconnectedness of the scholarly community: a conclusion reached by one scholar is correlated with the work of others, so that consensus is not independent but mutually reinforcing.",
+        "quote": "he lists all these scholars, many, many, many way far to the left, and then it gives column after column after column, what verses do they accept? [S076]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "C",
+        "plays_role": "Integration is Habermas himself, the local integrator who collects, evaluates, and synthesizes the diverse scholarly opinions into a coherent minimal-facts argument.",
+        "quote": "I use this so often. There's a There's 20 books here that I use so often in my writing. [S009-S010]",
+        "fit": "direct"
+      }
+    ],
+    "breaks": [
+      "The paper treats the Christian bias of scholars as irrelevant to the validity of their conclusions, whereas in the master equation any misalignment (M) would reduce the product; here the bias is explicitly discounted as long as the data is followed.",
+      "The role of the Holy Spirit or divine action as an external negentropy source is absent; the external source is purely human scholarship and evidence.",
+      "The paper does not require all ten factors to be present simultaneously; it allows for lenient exceptions and acknowledges that some scholars may not meet all criteria yet still be cited."
+    ],
+    "extra_factors": [
+      "The distinction between 'informed opinion' and 'uninformed opinion' is emphasized as a separate criterion beyond the ten slots.",
+      "The personal integrity of the scholar (e.g., not being a 'mythicist' with no credentials) functions as an additional filter."
+    ],
+    "analog_strength": 3,
+    "confidence": "medium",
+    "one_line": "The paper's argument for the minimal facts is analogous to the master equation in that it depends on a multiplicative set of conditions—informed scholars, data-driven method, and consensus—but it treats bias as non-fatal and lacks a clear external negentropy source."
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "master_equation_a1",
+      "attempt": 1,
+      "text": "{\n  \"paper\": \"Which Scholars Accept the Facts for the Resurrection? - Gary Habermas\",\n  \"equations_present\": false,\n  \"core_relation\": {\n    \"sentence\": \"The scholarly consensus on the minimal facts is credible only when the sample is restricted to informed critical scholars who publish in the field, because their conclusions are based on the data rather than on their Christian bias.\",\n    \"quote\": \"I can only take people who have published on things or maybe have done, you know, an interview for the History Channel or they've done an interview that I can follow because how do I know your view? [S254]\"\n  },\n  \"product_test\": {\n    \"answer\": \"multiplicative\",\n    \"quote\": \"if if that was true, then the empty tomb would be a minimal fact. Not You know, if if they're all just a bunch of Christians, why on earth are Christians denying the empty tomb? It's because even though they're Christians, they're basing their conclusions on the data. [S062-S064]\",\n    \"reason\": \"The argument collapses if the sample is not informed or not data-driven: if scholars were merely biased Christians, the consensus would be worthless; if they did not publish in the field, their opinions would not count. Both conditions are treated as necessary, not merely contributing.\"\n  },\n  \"slots\": [\n    {\n      \"slot\": \"G\",\n      \"plays_role\": \"The external source of negentropy is the published, peer-reviewed literature and the scholars who produce it; the argument depends on an outside body of evidence and expert testimony that the individual apologist does not generate alone.\",\n      \"quote\": \"when I say I want a scholar, I don't want somebody who shoots from the hip. [S128]\",\n      \"fit\": \"analogous\"\n    },\n    {\n      \"slot\": \"M\",\n      \"plays_role\": \"Alignment is the scholar's methodological commitment to follow the evidence wherever it leads, rather than to a prior ideological or religious commitment.\",\n      \"quote\": \"I try to go where the evidence leads. [S139]\",\n      \"fit\": \"direct\"\n    },\n    {\n      \"slot\": \"E\",\n      \"plays_role\": \"Signal fidelity is the accurate transmission of the historical data through the scholarly literature; the argument depends on the data surviving scrutiny and being reported correctly.\",\n      \"quote\": \"they're being honest to the data, right? Because if if that was true, then the empty tomb would be a minimal fact. [S061-S062]\",\n      \"fit\": \"direct\"\n    },\n    {\n      \"slot\": \"S_eff\",\n      \"plays_role\": \"Effective entropy is the bias, presupposition, or ignorance that lowers the reliability of a scholar's testimony; the argument works by minimizing this noise through careful selection of informed scholars.\",\n      \"quote\": \"You're just going to say that's true? I think that's kind of weak. [S159-S160]\",\n      \"fit\": \"analogous\"\n    },\n    {\n      \"slot\": \"T\",\n      \"plays_role\": \"Temporal integration is the long history of scholarly research from the 19th century to the present, which accumulates into a consensus that cannot be dismissed as a momentary fad.\",\n      \"quote\": \"I started the study of 1970 uh five on because my dissertation was done in '76. [S130]\",\n      \"fit\": \"analogous\"\n    },\n    {\n      \"slot\": \"K\",\n      \"plays_role\": \"Compression is the minimal facts themselves—a short list of six facts that condenses a vast amount of scholarly debate into a compact, usable summary.\",\n      \"quote\": \"I can find my six facts over and over and over and over and over in James D. G. Dunn. [S039-S041]\",\n      \"fit\": \"direct\"\n    },\n    {\n      \"slot\": \"R\",\n      \"plays_role\": \"Phase transition is the qualitative shift from a general scholarly opinion to a minimal fact: when a fact is accepted even by skeptical scholars, it crosses a threshold from contested to consensus.\",\n      \"quote\": \"the data is so strong in the case of your six minimal facts, that's why there is that strong consensus. [S065]\",\n      \"fit\": \"analogous\"\n    },\n    {\n      \"slot\": \"Q\",\n      \"plays_role\": \"Superposition is the unresolved state of a historical question before the evidence is weighed; the argument aims to collapse this into a definite conclusion by appealing to the consensus.\",\n      \"quote\": \"People wonder why we don't have any words that are purported from the resurrected Jesus in the Gospels. There's a reason for it. Dead men don't rise. [S155-S157]\",\n      \"fit\": \"stretched\"\n    },\n    {\n      \"slot\": \"F\",\n      \"plays_role\": \"Non-local correlation is the interconnectedness of the scholarly community: a conclusion reached by one scholar is correlated with the work of others, so that consensus is not independent but mutually reinforcing.\",\n      \"quote\": \"he lists all these scholars, many, many, many way far to the left, and then it gives column after column after column, what verses do they accept? [S076]\",\n      \"fit\": \"analogous\"\n    },\n    {\n      \"slot\": \"C\",\n      \"plays_role\": \"Integration is Habermas himself, the local integrator who collects, evaluates, and synthesizes the diverse scholarly opinions into a coherent minimal-facts argument.\",\n      \"quote\": \"I use this so often. There's a There's 20 books here that I use so often in my writing. [S009-S010]\",\n      \"fit\": \"direct\"\n    }\n  ],\n  \"breaks\": [\n    \"The paper treats the Christian bias of scholars as irrelevant to the validity of their conclusions, whereas in the master equation any misalignment (M) would reduce the product; here the bias is explicitly discounted as long as the data is followed.\",\n    \"The role of the Holy Spirit or divine action as an external negentropy source is absent; the external source is purely human scholarship and evidence.\",\n    \"The paper does not require all ten factors to be present simultaneously; it allows for lenient exceptions and acknowledges that some scholars may not meet all criteria yet still be cited.\"\n  ],\n  \"extra_factors\": [\n    \"The distinction between 'informed opinion' and 'uninformed opinion' is emphasized as a separate criterion beyond the ten slots.\",\n    \"The personal integrity of the scholar (e.g., not being a 'mythicist' with no credentials) functions as an additional filter.\"\n  ],\n  \"analog_strength\": 3,\n  \"confidence\": \"medium\",\n  \"one_line\": \"The paper's argument for the minimal facts is analogous to the master equation in that it depends on a multiplicative set of conditions—informed scholars, data-driven method, and consensus—but it treats bias as non-fatal and lacks a clear external negentropy source.\"\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 6900,
+      "completion_tokens": 1485,
+      "attempts": 1,
+      "elapsed_seconds": 7.639999999999418,
+      "started_at": "2026-09-27T13:56:16.575119+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T13:56:24.216510+00:00",
+      "tokens": 8385
+    }
+  ],
+  "prompt_sha256": "39f5406ef49099d6aafcbcbc5fef985358b27a4a1e8259f10ef86559f8518263",
+  "tokens": 8385
+}

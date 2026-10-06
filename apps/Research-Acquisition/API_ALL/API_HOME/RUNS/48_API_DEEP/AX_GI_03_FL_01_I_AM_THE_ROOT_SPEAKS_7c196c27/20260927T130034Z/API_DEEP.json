@@ -1,0 +1,2851 @@
+{
+  "title": "I AM: The Root Speaks — Full Draft",
+  "source": "\\\\192.168.2.50\\h_hp\\Desktop\\Folders\\___Pipeline_Done_New\\One page paper API\\EVIDENCE\\PROCESSED_ORIGINALS\\AX_GI_03_FL_01_I_AM_THE_ROOT_SPEAKS_7c196c27.md",
+  "order": [
+    "fruits",
+    "axiom_nodes",
+    "atoms",
+    "lean4",
+    "stories",
+    "master_equation",
+    "coherence"
+  ],
+  "fruits": {
+    "spec_version": "0.3.0",
+    "target": {
+      "type": "paper",
+      "title": "AX_GI_03_FL_01_I_AM_THE_ROOT_SPEAKS_7c196c27",
+      "domain": "unknown; infer conservatively — the supplied document is a theological/argumentative essay on divine self-disclosure (Exodus 3:14, Johannine 'I am' sayings) with a stated project frame ('Theophysics'); no empirical method is specified",
+      "unit": "complete supplied document",
+      "comparison_class": "paper of similar purpose and evidence burden",
+      "population_boundary": "persons and groups explicitly represented in the supplied document; report omissions",
+      "time_window": null
+    },
+    "gate_results": [
+      {
+        "gate_id": "gate.truth_evidence",
+        "status": "WARN",
+        "hard": true,
+        "rationale": "The document's load-bearing claims are explicitly framed as report of what Christianity claims, not as established fact (S124, S126, S134-S135), and it names the evidence burden it has not discharged (S091). The one direct citation (S016-S017, Exodus 3:14) is traceable to a named source. However, the Johannine 'I am' sayings (S072-S078) are quoted without citation, and no historical, textual, or translation evidence is supplied anywhere in the document. Factual claims are therefore mostly supported only as claims-about-a-tradition, with the supporting layer deferred.",
+        "evidence_refs": [
+          "S016",
+          "S017",
+          "S072",
+          "S078",
+          "S091",
+          "S124",
+          "S126"
+        ],
+        "resolution": "Not a hard-gate failure: the document does not assert the disputed facts as established. It remains WARN because the deferred support layer (S091) is absent from the supplied unit and the scripture quotations beyond Exodus 3:14 are uncited."
+      },
+      {
+        "gate_id": "gate.contradiction",
+        "status": "PASS",
+        "hard": true,
+        "rationale": "No load-bearing contradiction is present. The apparent tension between reason and revelation is explicitly addressed and held as convergent rather than contradictory (S054, S062-S063, S129-S132). The document also acknowledges that its own arguments may fail (S100) and that revelation claims may be false (S113).",
+        "evidence_refs": [
+          "S054",
+          "S062",
+          "S063",
+          "S100",
+          "S113",
+          "S129",
+          "S132"
+        ],
+        "resolution": null
+      },
+      {
+        "gate_id": "gate.scope",
+        "status": "PASS",
+        "hard": false,
+        "rationale": "The document stays within its stated scope: describing what Christianity claims and where not to look for God (S043-S045), while explicitly declining to answer every philosophical question (S040-S042) and explicitly deferring historical and evidential questions to a support layer (S091).",
+        "evidence_refs": [
+          "S040",
+          "S041",
+          "S042",
+          "S043",
+          "S091"
+        ],
+        "resolution": null
+      },
+      {
+        "gate_id": "gate.falsifiability",
+        "status": "WARN",
+        "hard": false,
+        "rationale": "The document identifies what would count against it in general terms — revelation can be misunderstood, claims of revelation can be false, Scripture must be interpreted, history must be investigated, the Church can mishandle what it receives (S112-S116) — and concedes some arguments may fail (S100). But it does not state a specific, testable condition under which its own central claim ('God has disclosed Himself') would be judged false.",
+        "evidence_refs": [
+          "S100",
+          "S112",
+          "S113",
+          "S114",
+          "S115",
+          "S116"
+        ],
+        "resolution": "A kill condition for the central claim is not supplied in this unit; it may be deferred to the referenced support layer."
+      },
+      {
+        "gate_id": "gate.bridge_validity",
+        "status": "WARN",
+        "hard": false,
+        "rationale": "A cross-domain bridge is asserted between discovery (what the world requires) and disclosure (whom God says He is) at S064-S066, and the document insists the two methods not be collapsed (S062-S063). But the bridge is stated as a posture, not as an explicit mapping with invariants, bridge law, recovery, prediction, alternatives, and kill condition. The 'Theophysics' frame (S062) is named without a stated method.",
+        "evidence_refs": [
+          "S062",
+          "S063",
+          "S064",
+          "S065",
+          "S066"
+        ],
+        "resolution": "Bridge elements are gestured at but not formally specified in this unit."
+      },
+      {
+        "gate_id": "gate.provenance",
+        "status": "WARN",
+        "hard": false,
+        "rationale": "Front matter supplies title, pair_id, sequence, edition, paired article, derivative status, and a support link, and one scripture citation is given with book, chapter, and verse (S016). But the Johannine quotations (S072-S078) carry no citation, and the 'support layer' referenced at S091 is not included in the supplied unit, so its contents cannot be traced.",
+        "evidence_refs": [
+          "S016",
+          "S072",
+          "S078",
+          "S091"
+        ],
+        "resolution": "Partial: metadata and one citation are traceable; the bulk of quoted scripture and the referenced support layer are not."
+      },
+      {
+        "gate_id": "gate.agency_noncoercion",
+        "status": "PASS",
+        "hard": true,
+        "rationale": "The document explicitly preserves reader agency: a skeptic need not accept the Bible's authority to follow the argument (S120), the paper disclaims the coercive inference 'Exodus 3:14 is in the Bible, therefore God exists' (S122), and it states the disclosed portrait can be stated honestly before it is proven publicly (S126). No concealed compulsion or destruction of agency appears in the text.",
+        "evidence_refs": [
+          "S120",
+          "S122",
+          "S126"
+        ],
+        "resolution": null
+      }
+    ],
+    "fruit_profile": [
+      {
+        "fruit_id": "fruit.love",
+        "score": 2,
+        "confidence": 0.4,
+        "mechanism": "truth-aligned relational cohesion seeking the good of the whole and each member while bearing cost and preserving agency",
+        "positive_evidence": [
+          {
+            "ref_id": "EV-LOVE-01",
+            "quote_or_event": "A skeptic does not have to accept the Bible’s authority to understand what this paper is doing.",
+            "location": "S120",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Preserves the reader's agency and seeks the reader's understanding rather than assent by pressure; the per-sentence pass also scored this sentence highest toward love (sum 4, love 1) for 'preserves skeptic's agency, no coercion'.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "EV-LOVE-02",
+            "quote_or_event": "It is saying: “If Christianity is being treated as testimony, this is the kind of God it identifies: self-existent, non-derived, personal, speaking, faithful, and finally revealed in Christ.”",
+            "location": "S124",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Frames the claim as testimony offered for consideration rather than imposed conclusion; the per-sentence pass lists S123 as a love turn.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "EV-LOVE-03",
+            "quote_or_event": "The support layer must face the historical questions, the Johannine context, rival religious claims, translation issues, and resurrection evidence.",
+            "location": "S091",
+            "evidence_type": "MISSING",
+            "link_reason": "The document names the work required to seek the good of the whole (including rival claimants and outsiders) but does not perform it in this unit; the cost-bearing side of love is asserted as deferred, not demonstrated.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.3,
+        "stress_tests": {
+          "source": "WARN",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "PASS",
+          "power": "PASS",
+          "correction": "WARN",
+          "outsider": "PASS",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "The document's love-relevant mechanism is agency preservation toward the reader (S120, S122, S126) and inclusion of rival claims in the deferred work (S091). This is genuine but thin: it is a posture stated in one context, with no cost borne, no relational repair shown, and no outsider review performed within the unit. Score 2 (mixed/insufficient) with low confidence; the per-sentence pass's near-zero love mean (0.007) is consistent with a document that is argumentative rather than relational, and I do not treat that near-zero as evidence of anti-fruit."
+      },
+      {
+        "fruit_id": "fruit.joy",
+        "score": 2,
+        "confidence": 0.2,
+        "mechanism": "durable participation in real good not dependent on denial, spectacle, status, or constant stimulation",
+        "positive_evidence": [],
+        "counterevidence": [],
+        "evidence_coverage": 0.05,
+        "stress_tests": {
+          "source": "UNKNOWN",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "UNKNOWN",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "The document makes no joy claim and displays no joy mechanism; the per-sentence pass reports a joy mean of 0.0 with no positive or negative extremes. Absence of evidence is reported as absence, not as deficiency: score 2 with very low confidence per the missing-evidence rule. No counterfeit flag, since no joy label is claimed."
+      },
+      {
+        "fruit_id": "fruit.peace",
+        "score": 2,
+        "confidence": 0.3,
+        "mechanism": "reintegrated order in which relevant tensions are truthfully addressed without suppression",
+        "positive_evidence": [
+          {
+            "ref_id": "EV-PEACE-01",
+            "quote_or_event": "It needs to let them converge without pretending they are the same thing.",
+            "location": "S063",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Addresses the reason/revelation tension by integration rather than suppression; the per-sentence pass records a peace track of 0.573 and scores P37 (S063) at 1.0.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "EV-PEACE-02",
+            "quote_or_event": "Those are not enemies.",
+            "location": "S054",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Explicitly refuses to frame the two routes to knowledge as hostile; the per-sentence pass scores P33 (S054) at 1.0.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "EV-PEACE-03",
+            "quote_or_event": "The Church can mishandle what it receives.",
+            "location": "S116",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Acknowledges unresolved conflict in the receiving community without describing any repair; the tension is named but not reintegrated within the unit.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.25,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "PASS",
+          "power": "UNKNOWN",
+          "correction": "WARN",
+          "outsider": "PASS",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Peace appears as a stated integrative posture toward the reason/revelation tension (S054, S062-S063, S129-S132), which is the rubric's mechanism rather than imposed silence. But it is a posture about ideas, not demonstrated reintegration of persons or communities, and the acknowledged church-level mishandling (S116) is left unrepaired. Score 2 with low confidence."
+      },
+      {
+        "fruit_id": "fruit.patience",
+        "score": 2,
+        "confidence": 0.2,
+        "mechanism": "preservation of persons and processes across the time required for truth, growth, correction, or convergence while acting when action is due",
+        "positive_evidence": [
+          {
+            "ref_id": "EV-PAT-01",
+            "quote_or_event": "The disclosed portrait can be stated honestly before it is proven publicly.",
+            "location": "S126",
+            "evidence_type": "PROCESS",
+            "link_reason": "Sequences disclosure before proof, tolerating an interval in which the claim is stated but not yet established — a patience-shaped process rather than premature closure.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "EV-PAT-02",
+            "quote_or_event": "The support layer must face the historical questions, the Johannine context, rival religious claims, translation issues, and resurrection evidence.",
+            "location": "S091",
+            "evidence_type": "MISSING",
+            "link_reason": "The document defers the long work to a support layer not present in the unit; whether the deferral is due patience or is indefinite postponement cannot be determined from the supplied text.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.15,
+        "stress_tests": {
+          "source": "UNKNOWN",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "WARN",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "The per-sentence pass reports a patience mean of 0.0 and no extremes. The only patience-adjacent mechanism is the stated sequencing at S126, and the deferral at S091 could be read either as patience or as postponement; the unit does not let us distinguish. Score 2, low confidence, no counterfeit flag."
+      },
+      {
+        "fruit_id": "fruit.kindness",
+        "score": 2,
+        "confidence": 0.35,
+        "mechanism": "low-friction repair and assistance that reduces needless barriers without erasing truth or responsibility",
+        "positive_evidence": [
+          {
+            "ref_id": "EV-KIND-01",
+            "quote_or_event": "A skeptic does not have to accept the Bible’s authority to understand what this paper is doing.",
+            "location": "S120",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Removes an unnecessary barrier to the reader's participation without conceding the truth claim; the per-sentence pass scores this sentence's kindness track at 1.0.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "EV-KIND-02",
+            "quote_or_event": "This paper is not saying: “Exodus 3:14 is in the Bible, therefore God exists.”",
+            "location": "S122",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Declines a rhetorical shortcut that would burden the reader with an argument the paper does not need; reduces friction without erasing the claim.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [],
+        "evidence_coverage": 0.2,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "PASS",
+          "power": "UNKNOWN",
+          "correction": "UNKNOWN",
+          "outsider": "PASS",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Kindness appears as reader-facing barrier reduction (S120, S122) and is not used to refuse necessary correction — the document keeps its truth claims intact (S134-S135). It is present in one context only, with no cost or repair shown. Score 2 with low confidence; the per-sentence pass's kindness track of 1.0 on S120 supports the direction but rests on a single sentence."
+      },
+      {
+        "fruit_id": "fruit.goodness",
+        "score": 2,
+        "confidence": 0.2,
+        "mechanism": "truth-aligned action producing real non-malign benefit after costs and externalities are counted",
+        "positive_evidence": [],
+        "counterevidence": [],
+        "evidence_coverage": 0.05,
+        "stress_tests": {
+          "source": "UNKNOWN",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "UNKNOWN",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "The document performs no action whose costs and externalities could be counted; it is an argumentative essay, and the per-sentence pass reports a goodness mean of 0.0. No evidence either way: score 2, very low confidence, no counterfeit flag."
+      },
+      {
+        "fruit_id": "fruit.faithfulness",
+        "score": 2,
+        "confidence": 0.4,
+        "mechanism": "invariant fidelity across time, audiences, incentives, and pressure, joined to correction when the object of loyalty is false",
+        "positive_evidence": [
+          {
+            "ref_id": "EV-FAITH-01",
+            "quote_or_event": "It does not prove by itself that Jesus is who Christianity says He is. Anyone can make a large claim.",
+            "location": "S089",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Fidelity to the claim is joined to correction: the document refuses to overstate what its own identity-language argument establishes.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "EV-FAITH-02",
+            "quote_or_event": "Revelation can be misunderstood. Claims of revelation can be false. Scripture must be interpreted. History must be investigated. The Church can mishandle what it receives.",
+            "location": "S112",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Applies a correction standard to the tradition the document is defending, including its own community — the rubric's requirement that fidelity be joined to correction when the object of loyalty may be false.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "EV-FAITH-03",
+            "quote_or_event": "The support layer must face the historical questions, the Johannine context, rival religious claims, translation issues, and resurrection evidence.",
+            "location": "S091",
+            "evidence_type": "MISSING",
+            "link_reason": "The correction standard is stated but not applied within the unit; the historical and rival-claim work is deferred, so fidelity under evidential pressure is asserted rather than shown.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.3,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "PASS",
+          "power": "WARN",
+          "correction": "PASS",
+          "outsider": "WARN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "The document shows a correction-joined fidelity: it states its claim strongly (S134-S135) while conceding the argument's limits (S089-S090) and naming failure modes of its own tradition (S112-S116). That is the opposite of tribal stubbornness. But the fidelity is not tested by any cost, pressure, or rival-claim engagement inside the unit, and the per-sentence pass's faithfulness track is slightly negative (-0.007), which I read as noise on a near-zero signal rather than as counterevidence. Score 2 with low confidence."
+      },
+      {
+        "fruit_id": "fruit.gentleness",
+        "score": 2,
+        "confidence": 0.35,
+        "mechanism": "power precisely restrained to the minimum force sufficient for the good while protecting the vulnerable",
+        "positive_evidence": [
+          {
+            "ref_id": "EV-GENT-01",
+            "quote_or_event": "A skeptic does not have to accept the Bible’s authority to understand what this paper is doing.",
+            "location": "S120",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Restrains the paper's rhetorical power over the reader; the per-sentence pass scores this sentence's gentleness track at 1.0 for 'grants reader freedom to withhold assent'.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "EV-GENT-02",
+            "quote_or_event": "The disclosed portrait can be stated honestly before it is proven publicly.",
+            "location": "S126",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Declines to leverage proof-pressure on the reader; states the claim at the minimum force needed for the argument to proceed.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [],
+        "evidence_coverage": 0.2,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "PASS",
+          "power": "PASS",
+          "correction": "UNKNOWN",
+          "outsider": "PASS",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Gentleness appears as restrained rhetorical power toward a dissenting reader (S120, S126) and is not appeasement: the document does not soften its central claim to avoid offense (S134-S135). Present in one context, no cost or endurance shown. Score 2 with low confidence."
+      },
+      {
+        "fruit_id": "fruit.self_control",
+        "score": 2,
+        "confidence": 0.4,
+        "mechanism": "boundary integrity and governance of appetite, impulse, scope, and optimization under the true good",
+        "positive_evidence": [
+          {
+            "ref_id": "EV-SC-01",
+            "quote_or_event": "The name does not answer every philosophical question. It does not hand us a diagram of God’s essence. It does not remove mystery.",
+            "location": "S040",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Explicit scope discipline: the document refuses to over-claim what its central text establishes. The per-sentence pass scores P23 (S040-S042) at 1.0 and gives self_control the highest fruit mean in the document (0.127).",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "EV-SC-02",
+            "quote_or_event": "It does not prove by itself that Jesus is who Christianity says He is. Anyone can make a large claim.",
+            "location": "S089",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Governs the impulse to overstate the identity-language argument; keeps the claim within what the argument supports.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "EV-SC-03",
+            "quote_or_event": "This paper is not saying: “Exodus 3:14 is in the Bible, therefore God exists.”",
+            "location": "S122",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Refuses the shortcut inference; boundary integrity between what the text says and what the paper claims.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "EV-SC-04",
+            "quote_or_event": "Theophysics does not need to collapse those into one method.",
+            "location": "S062",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "The 'Theophysics' frame is invoked without a stated method or boundary, which is a mild scope-creep risk: a named synthesis is asserted while its rules are deferred. The per-sentence pass's self_control track is slightly negative (-0.032), consistent with a small unresolved scope question.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.4,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "PASS",
+          "power": "PASS",
+          "correction": "PASS",
+          "outsider": "PASS",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Self-control is the document's strongest fruit signal: repeated scope discipline across more than one context (S040-S042, S089-S090, S122, S126), which the per-sentence pass independently ranks highest (mean 0.127). It is not yet robust — no cost, pressure, or correction event tests it, and the unnamed 'Theophysics' method (S062) is a small boundary gap. Score 2 with moderate confidence; I would not raise it to 3 on a single document with no external pressure."
+      }
+    ],
+    "contradictions": [
+      {
+        "classification": "ACKNOWLEDGED_REPAIRED",
+        "load_bearing": false,
+        "resolved": true,
+        "evidence_refs": [
+          "S054",
+          "S062",
+          "S063",
+          "S129",
+          "S132"
+        ],
+        "fruit_relation": "peace",
+        "consequence": "The apparent tension between upward reasoning and divine disclosure is named and held as convergent rather than suppressed; it supports the peace reading and does not threaten any gate."
+      },
+      {
+        "classification": "ACKNOWLEDGED_REPAIRED",
+        "load_bearing": false,
+        "resolved": true,
+        "evidence_refs": [
+          "S089",
+          "S090",
+          "S091"
+        ],
+        "fruit_relation": "faithfulness, self_control",
+        "consequence": "The tension between the strength of the identity-language claim and its evidential support is acknowledged and explicitly deferred to a support layer; because the deferral is stated, it is not a load-bearing unresolved contradiction within this unit."
+      },
+      {
+        "classification": "UNRESOLVED",
+        "load_bearing": false,
+        "resolved": false,
+        "evidence_refs": [
+          "S062",
+          "S091"
+        ],
+        "fruit_relation": "self_control",
+        "consequence": "The 'Theophysics' synthesis is named but its method and the referenced support layer are absent from the supplied unit; this is a bounded, acknowledged gap rather than a contradiction, and it does not fail the contradiction gate."
+      }
+    ],
+    "counterfeit_flags": [],
+    "anti_fruit_pressure": [],
+    "stakeholder_divergence": [
+      {
+        "stakeholder": "insider (Christian reader)",
+        "observation": "Receives a strong statement of the tradition's central claim (S134-S135) with internal correction standards attached (S112-S116).",
+        "evidence_refs": [
+          "S112",
+          "S116",
+          "S134",
+          "S135"
+        ]
+      },
+      {
+        "stakeholder": "outsider (skeptic)",
+        "observation": "Explicitly granted standing to follow the argument without conceding biblical authority (S120, S122); rival religious claims are named as work still owed (S091) but are not engaged in this unit.",
+        "evidence_refs": [
+          "S091",
+          "S120",
+          "S122"
+        ]
+      },
+      {
+        "stakeholder": "harmed or affected parties",
+        "observation": "None identified in the supplied document; no population is described as bearing cost or harm from the claims made.",
+        "evidence_refs": []
+      }
+    ],
+    "aggregation": {
+      "mode": "gated_profile",
+      "arithmetic_summary": 0.5,
+      "geometric_balance": 0.5238,
+      "multiplicative_coherence": 0.001953,
+      "minimum_fruit": {
+        "fruit_id": "fruit.love",
+        "score": 2
+      },
+      "vetoes": []
+    },
+    "epistemic_status": "CONDITIONAL",
+    "system_status": "COHERENT_BUT_FRAGILE",
+    "confidence": 0.35,
+    "missing_evidence": [
+      "The referenced support layer (S091) is not included in the supplied unit; its historical, Johannine-context, rival-claim, translation, and resurrection evidence cannot be assessed.",
+      "Johannine 'I am' sayings (S072-S078) are quoted without book/chapter/verse citations, so the quotations cannot be traced to a specific translation or edition.",
+      "No stated kill condition for the central claim that God has disclosed Himself.",
+      "No method specification for the 'Theophysics' frame (S062).",
+      "No evidence of the document's behavior under cost, pressure, correction, or affected-party review; all such stress tests are UNKNOWN.",
+      "No time_window is supplied, so endurance and succession cannot be assessed."
+    ],
+    "repair_path": [
+      "Include or link the support layer named at S091 so the deferred historical and rival-claim work can be evaluated.",
+      "Add citations (book, chapter, verse, translation) for the Johannine quotations at S072-S078.",
+      "State an explicit falsification condition for the claim that God has disclosed Himself.",
+      "Specify the method and boundaries of the 'Theophysics' synthesis named at S062.",
+      "Provide at least one instance of the document's claims being tested under cost or correction, so faithfulness and self-control can be assessed beyond stated posture."
+    ],
+    "falsifier": "This assessment would be overturned by evidence that the document's deferrals at S091 are indefinite rather than bounded (which would move patience and faithfulness toward counterfeit), by discovery that the uncited Johannine quotations are misquoted or misattributed (which would fail gate.truth_evidence), or by evidence that the reader-agency language at S120/S122/S126 is contradicted elsewhere in the project by coercive framing (which would fail gate.agency_noncoercion).",
+    "limitations": [
+      "The supplied unit is a single argumentative essay; most fruits have no behavioral trace to score, so scores of 2 reflect missing evidence rather than measured deficiency.",
+      "The per-sentence summary's near-zero fruit means (love 0.007, joy 0.0, patience 0.0, goodness 0.0) are consistent with an argumentative genre and are not treated as anti-fruit evidence; I disagree with reading them as character signals in either direction.",
+      "The per-sentence summary reports no counterfeit or hidden-fruit candidates; I concur, and note that its top_toward list (S120, S091, S040-S042) matches the evidence I cite for love, faithfulness, and self_control.",
+      "No claim is made about the author's motives, salvation status, or the divine origin of any claim; only the text's mechanism is scored.",
+      "The 'Theophysics' project frame is referenced but not defined in this unit, so cross-document claims cannot be verified here."
+    ],
+    "formal_receipt": {
+      "receipt_type": "FORMAL_EVALUATION_RECEIPT",
+      "proof_status": "RULE_DERIVED_FROM_RECORDED_ASSESSMENTS",
+      "source_sha256": "e072bc5047250206a3e3c362f76842ac80d274ba3c45abc3af77d2de0910d97a",
+      "rubric_sha256": "44951e7c43e587a281195666a572b8469014a8eb62f62bc9ef60ebc0d591f609",
+      "prompt_sha256": "582234354d0aa8f825218f0a751a64aaf817df7872ca0a5af26dd3edf234cb6b",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "premises": [
+        "P1: the evaluated source is fixed by source_sha256",
+        "P2: all nine Fruit dimensions are present on the 0..4 scale",
+        "P3: all seven gates are recorded independently of the Fruit scores",
+        "P4: evidence uncertainty remains explicit rather than being imputed"
+      ],
+      "deductions": [
+        "D1: arithmetic_summary is the mean of the nine scores normalized by four",
+        "D2: geometric_balance penalizes low dimensions and is non-authoritative",
+        "D3: unresolved hard-gate failures and severe counterfeit mechanisms create explicit vetoes",
+        "D4: a contradiction changes the verdict only through its classified severity, resolution, and consequence"
+      ],
+      "conclusion": "epistemic_status=CONDITIONAL; system_status=COHERENT_BUT_FRAGILE; veto_count=0",
+      "scope_boundary": "This receipt proves deterministic application of the declared rubric to recorded model assessments. It does not prove hidden motive, salvation status, divine origin, or empirical validity beyond the cited evidence.",
+      "generated_at": "2026-09-27T13:00:55Z"
+    },
+    "run_metadata": {
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "generated_at": "2026-09-27T13:00:55Z"
+    }
+  },
+  "fruits_sentences_summary": {
+    "scored": 142,
+    "total": 142,
+    "missing": [],
+    "fruit_means": {
+      "love": 0.007,
+      "joy": 0.0,
+      "peace": 0.021,
+      "patience": 0.0,
+      "kindness": 0.007,
+      "goodness": 0.0,
+      "faithfulness": 0.007,
+      "gentleness": 0.007,
+      "self_control": 0.127
+    },
+    "fruit_extremes": {
+      "love": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "joy": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "peace": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "patience": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "kindness": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "goodness": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "faithfulness": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "gentleness": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "self_control": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      }
+    },
+    "track_love": {
+      "joy": null,
+      "peace": 0.573,
+      "patience": null,
+      "kindness": 1.0,
+      "goodness": null,
+      "faithfulness": -0.007,
+      "gentleness": 1.0,
+      "self_control": -0.032
+    },
+    "top_toward": [
+      {
+        "id": "S120",
+        "para": "P68",
+        "sum": 4,
+        "love": 1,
+        "text": "A skeptic does not have to accept the Bible’s authority to understand what this paper is doing.",
+        "why": {
+          "love": "preserves skeptic's agency, no coercion",
+          "gentleness": "grants reader freedom to withhold assent"
+        }
+      },
+      {
+        "id": "S091",
+        "para": "P54",
+        "sum": 2,
+        "love": 0,
+        "text": "The support layer must face the historical questions, the Johannine context, rival religious claims, translation issues, and resurrection evidence.",
+        "why": {}
+      },
+      {
+        "id": "S040",
+        "para": "P23",
+        "sum": 1,
+        "love": 0,
+        "text": "The name does not answer every philosophical question.",
+        "why": {}
+      },
+      {
+        "id": "S041",
+        "para": "P23",
+        "sum": 1,
+        "love": 0,
+        "text": "It does not hand us a diagram of God’s essence.",
+        "why": {}
+      },
+      {
+        "id": "S042",
+        "para": "P23",
+        "sum": 1,
+        "love": 0,
+        "text": "It does not remove mystery.",
+        "why": {}
+      }
+    ],
+    "top_away": [],
+    "love_turns": [
+      "S118",
+      "S123"
+    ],
+    "counterfeit_candidates": [],
+    "hidden_fruit": [],
+    "paragraph_love": {
+      "P01": 0.0,
+      "P02": 0.0,
+      "P03": 0.0,
+      "P04": 0.0,
+      "P05": 0.0,
+      "P06": 0.0,
+      "P07": 0.0,
+      "P08": 0.0,
+      "P09": 0.0,
+      "P10": 0.0,
+      "P11": 0.0,
+      "P12": 0.0,
+      "P13": 0.0,
+      "P14": 0.0,
+      "P15": 0.0,
+      "P16": 0.0,
+      "P17": 0.0,
+      "P18": 0.0,
+      "P19": 0.0,
+      "P20": 0.0,
+      "P21": 0.0,
+      "P22": 0.0,
+      "P23": 0.0,
+      "P24": 0.0,
+      "P25": 0.0,
+      "P26": 0.0,
+      "P27": 0.0,
+      "P28": 0.0,
+      "P29": 0.0,
+      "P30": 0.0,
+      "P31": 0.0,
+      "P32": 0.0,
+      "P33": 0.0,
+      "P34": 0.0,
+      "P35": 0.0,
+      "P36": 0.0,
+      "P37": 0.0,
+      "P38": 0.0,
+      "P39": 0.0,
+      "P40": 0.0,
+      "P41": 0.0,
+      "P42": 0.0,
+      "P43": 0.0,
+      "P44": 0.0,
+      "P45": 0.0,
+      "P46": 0.0,
+      "P47": 0.0,
+      "P48": 0.0,
+      "P49": 0.0,
+      "P50": 0.0,
+      "P51": 0.0,
+      "P52": 0.0,
+      "P53": 0.0,
+      "P54": 0.0,
+      "P55": 0.0,
+      "P56": 0.0,
+      "P57": 0.0,
+      "P58": 0.0,
+      "P59": 0.0,
+      "P60": 0.0,
+      "P61": 0.0,
+      "P62": 0.0,
+      "P63": 0.0,
+      "P64": 0.0,
+      "P65": 0.0,
+      "P66": 0.0,
+      "P67": 0.0,
+      "P68": 1.0,
+      "P69": 0.0,
+      "P70": 0.0,
+      "P71": 0.0,
+      "P72": 0.0,
+      "P73": 0.0,
+      "P74": 0.0,
+      "P75": 0.0,
+      "P76": 0.0,
+      "P77": 0.0,
+      "P78": 0.0,
+      "P79": 0.0,
+      "P80": 0.0,
+      "P81": 0.0,
+      "P82": 0.0,
+      "P83": 0.0,
+      "P84": 0.0,
+      "P85": 0.0,
+      "P86": 0.0
+    },
+    "paragraph_total": {
+      "P01": 0.0,
+      "P02": 0.0,
+      "P03": 0.0,
+      "P04": 0.0,
+      "P05": 0.0,
+      "P06": 0.0,
+      "P07": 0.0,
+      "P08": 0.0,
+      "P09": 0.0,
+      "P10": 0.0,
+      "P11": 0.0,
+      "P12": 0.0,
+      "P13": 0.0,
+      "P14": 0.0,
+      "P15": 0.0,
+      "P16": 0.0,
+      "P17": 0.0,
+      "P18": 0.0,
+      "P19": 0.0,
+      "P20": 0.0,
+      "P21": 0.0,
+      "P22": 0.0,
+      "P23": 1.0,
+      "P24": 0.0,
+      "P25": 0.0,
+      "P26": 0.0,
+      "P27": 0.0,
+      "P28": 0.0,
+      "P29": 0.5,
+      "P30": 0.0,
+      "P31": 0.0,
+      "P32": 0.0,
+      "P33": 1.0,
+      "P34": 0.0,
+      "P35": 0.0,
+      "P36": 0.0,
+      "P37": 1.0,
+      "P38": 0.0,
+      "P39": 0.0,
+      "P40": 0.0,
+      "P41": 0.0,
+      "P42": 0.0,
+      "P43": 0.0,
+      "P44": 0.0,
+      "P45": 0.0,
+      "P46": 0.0,
+      "P47": 0.0,
+      "P48": 0.0,
+      "P49": 0.0,
+      "P50": 0.0,
+      "P51": 0.0,
+      "P52": 0.0,
+      "P53": 0.0,
+      "P54": 1.33,
+      "P55": 0.0,
+      "P56": 0.0,
+      "P57": 0.0,
+      "P58": 0.0,
+      "P59": 0.0,
+      "P60": 0.6,
+      "P61": 0.0,
+      "P62": 0.0,
+      "P63": 0.0,
+      "P64": 0.83,
+      "P65": 0.0,
+      "P66": 0.0,
+      "P67": 0.0,
+      "P68": 4.0,
+      "P69": 0.0,
+      "P70": 0.0,
+      "P71": 0.0,
+      "P72": 1.0,
+      "P73": 0.0,
+      "P74": 0.33,
+      "P75": 0.0,
+      "P76": 0.0,
+      "P77": 0.0,
+      "P78": 0.0,
+      "P79": 0.33,
+      "P80": 0.0,
+      "P81": 0.0,
+      "P82": 0.0,
+      "P83": 0.0,
+      "P84": 0.0,
+      "P85": 0.0,
+      "P86": 0.0
+    }
+  },
+  "axiom_nodes": {
+    "paper_uuid": "FTP-OS-005",
+    "title": "I AM: The Root Speaks — Full Draft",
+    "summary": "This paper argues that Christianity is grounded not merely in upward inference from world to God but in God's self-disclosure, paradigmatically in the divine name 'I AM WHO I AM' (Exodus 3:14) and in Jesus' first-person 'I am' identity claims in John's Gospel. It distinguishes discovery (what the world requires) from disclosure (who God says He is), insists they converge without collapsing, and frames the disclosed portrait as statable before it is proven. It maps most directly onto the axiom system's self-grounding, self-existence, and revelation/Logos nodes, with secondary resonance to observer/terminal-observer and information-primacy themes.",
+    "primary_mode": "AX_CORE",
+    "axiom_nodes": [
+      {
+        "node_id": "A2.2",
+        "name": "A2.2 — Self-Grounding",
+        "mode": "AX_CORE",
+        "alignment": "directly_asserted",
+        "evidence_quote": "If something deeper explains God, then God was not the root.",
+        "confidence": "high",
+        "notes": "The paper's central claim that God is not defined by anything beneath or larger than Himself directly asserts self-grounding."
+      },
+      {
+        "node_id": "A1.1",
+        "name": "A1.1 — Existence",
+        "mode": "AX_CORE",
+        "alignment": "directly_asserted",
+        "evidence_quote": "He is the One from whom every “is” receives its existence.",
+        "confidence": "high",
+        "notes": "God as source of all existence, named from His own existence ('I AM')."
+      },
+      {
+        "node_id": "A2.1",
+        "name": "A2.1 — Substrate Requirement",
+        "mode": "AX_CORE",
+        "alignment": "supported",
+        "evidence_quote": "You cannot place God inside a category larger than God, because then the category would be more ultimate than God.",
+        "confidence": "medium",
+        "notes": "Argues against any deeper substrate explaining God; supports the requirement that the ultimate root be substrate, not dependent."
+      },
+      {
+        "node_id": "A1.2",
+        "name": "A1.2 — Distinction",
+        "mode": "AX_CORE",
+        "alignment": "supported",
+        "evidence_quote": "If God is personal, and if creation is not God, then creatures should not assume that their upward reasoning is the only possible route to knowledge of Him.",
+        "confidence": "medium",
+        "notes": "Creator/creature distinction is assumed and used to ground the possibility of revelation."
+      },
+      {
+        "node_id": "A5.1",
+        "name": "A5.1 — Observation Requirement",
+        "mode": "AX_CORE",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "We can look at existence, truth, relation, order, consciousness, morality, beauty, suffering, and history.",
+        "confidence": "low",
+        "notes": "The paper treats creaturely observation/reasoning as a real route (discovery) but does not assert the axiom that observation is metaphysically required."
+      },
+      {
+        "node_id": "BC1",
+        "name": "BC1 — Terminal Observer Exists",
+        "mode": "AX_DERIVED",
+        "alignment": "supported",
+        "evidence_quote": "God is not first introduced as an object lying on a table, waiting for creatures to define Him.",
+        "confidence": "medium",
+        "notes": "God as the self-naming, self-disclosing One who is not an object within the system resonates with the terminal observer role, though the paper does not use that vocabulary."
+      },
+      {
+        "node_id": "ID7.1",
+        "name": "ID7.1 — Terminal Observer Is God",
+        "mode": "AX_DERIVED",
+        "alignment": "supported",
+        "evidence_quote": "It says the Root entered history and spoke in the first person.",
+        "confidence": "medium",
+        "notes": "The identification of the root/Logos with the God who speaks and enters history in Christ supports the terminal-observer-is-God identification."
+      },
+      {
+        "node_id": "LAMBDA",
+        "name": "LAMBDA - Logos Christ Completion",
+        "mode": "AX_DERIVED",
+        "alignment": "directly_asserted",
+        "evidence_quote": "It says the Root entered history and spoke in the first person.",
+        "confidence": "high",
+        "notes": "Christ as the personal self-disclosure of the root is the paper's central Christological claim."
+      },
+      {
+        "node_id": "PERSONHOOD",
+        "name": "PERSONHOOD — Agency, Intentionality, Relational Capacity",
+        "mode": "AX_CORE",
+        "alignment": "directly_asserted",
+        "evidence_quote": "He is the One who calls, commands, creates, names, promises, judges, forgives, and reveals.",
+        "confidence": "high",
+        "notes": "God is explicitly described with agency, intentionality, and relational capacity."
+      },
+      {
+        "node_id": "A1.3",
+        "name": "A1.3 — Information Primacy",
+        "mode": "AX_DERIVED",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "Christianity does not merely say Jesus brought information about the root.",
+        "confidence": "low",
+        "notes": "The paper distinguishes information-about from identity-disclosure but does not assert information as ontologically primitive."
+      },
+      {
+        "node_id": "BC2",
+        "name": "BC2 — Grace External To System",
+        "mode": "AX_DERIVED",
+        "alignment": "supported",
+        "evidence_quote": "But if God has spoken, then the highest form of knowledge is not guessing correctly about a silent source.",
+        "confidence": "low",
+        "notes": "God's self-disclosure comes from outside creaturely reach, structurally parallel to grace as external intervention, though grace is not the paper's term."
+      },
+      {
+        "node_id": "BC8",
+        "name": "BC8 — Voluntary Coupling",
+        "mode": "AX_DERIVED",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "A skeptic does not have to accept the Bible’s authority to understand what this paper is doing.",
+        "confidence": "low",
+        "notes": "The paper preserves the reader's freedom to withhold assent, but does not develop voluntary coupling as an axiom."
+      },
+      {
+        "node_id": "A9.1",
+        "name": "A9.1 — External Intervention Required",
+        "mode": "AX_DERIVED",
+        "alignment": "supported",
+        "evidence_quote": "But Christianity is not built only on upward inference.",
+        "confidence": "medium",
+        "notes": "Argues that creaturely inference is insufficient and external divine disclosure is required."
+      },
+      {
+        "node_id": "A7.1",
+        "name": "A7.1 — Closure Requirement",
+        "mode": "AX_DERIVED",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "The investigation happens where those two meet.",
+        "confidence": "low",
+        "notes": "The convergence of reason and revelation gestures toward closure but the paper does not assert a formal closure requirement."
+      },
+      {
+        "node_id": "A7.2",
+        "name": "A7.2 — Uniqueness From Boundary Conditions",
+        "mode": "AX_DERIVED",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "We can compare rival answers.",
+        "confidence": "low",
+        "notes": "Mentions comparing rival answers but does not develop uniqueness-from-boundary-conditions."
+      },
+      {
+        "node_id": "T16.1",
+        "name": "T16.1 — Christianity 8 of 8 BCs",
+        "mode": "AX_DERIVED",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "The support layer must face the historical questions, the Johannine context, rival religious claims, translation issues, and resurrection evidence.",
+        "confidence": "low",
+        "notes": "Acknowledges rival religious claims and the need for support-layer work but does not assert the 8-of-8 BC claim."
+      },
+      {
+        "node_id": "BRIDGE-PHY-THEO",
+        "name": "BRIDGE-PHY-THEO - Physics-Theology Bridge",
+        "mode": "FW_EXTENDED",
+        "alignment": "supported",
+        "evidence_quote": "Science studies the house.",
+        "confidence": "medium",
+        "notes": "The paper explicitly frames science, philosophy, and Scripture as convergent but distinct methods, which is the bridge posture."
+      },
+      {
+        "node_id": "BRIDGE-INFO-MIND",
+        "name": "BRIDGE-INFO-MIND - Information-Consciousness Bridge",
+        "mode": "FW_EXTENDED",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "We can look at existence, truth, relation, order, consciousness, morality, beauty, suffering, and history.",
+        "confidence": "low",
+        "notes": "Lists consciousness among domains to reason from but does not develop an information-consciousness bridge."
+      }
+    ],
+    "unmapped_claims": [
+      "A14"
+    ]
+  },
+  "atoms": {
+    "paper_uuid": "FTP-OS-005",
+    "title": "I AM: The Root Speaks — Full Draft",
+    "domainType": "theology",
+    "summary": "This paper argues that if God is the ultimate root of reality, the central question is not merely whether humans can reason upward to Him, but whether He has spoken. It presents the biblical claim that God discloses Himself—naming Himself 'I AM WHO I AM' to Moses, and in Christ taking that divine identity into history. The paper distinguishes discovery (what the world requires) from disclosure (whom God says He is), and argues that Christianity is built not only on inference but on God's self-revelation, which must be received rather than merely deduced.",
+    "atoms": [
+      {
+        "nodeType": "claim",
+        "stage": "01_canonical",
+        "name": "The Root Speaks",
+        "statementTechnical": "Christianity does not merely claim that God can be inferred; it claims that God has disclosed Himself.",
+        "statementPlain": "Christianity says God has actually spoken and shown us who He is, not just that we can figure Him out by reasoning.",
+        "claimClass": "bridge",
+        "falsificationCondition": "If Christianity's authoritative texts and central tradition did not claim divine self-disclosure, or if the claim that God has spoken were shown to be a later invention with no basis in the earliest Christian movement, this claim would be falsified.",
+        "verificationStatus": "informal",
+        "challengeStatus": "challenged-open",
+        "edges": [
+          {
+            "type": "dependsOn",
+            "target": "",
+            "grade": "structural_identity",
+            "propagates": true
+          },
+          {
+            "type": "feedsInto",
+            "target": "",
+            "grade": "structural_identity",
+            "propagates": true
+          }
+        ],
+        "notes": "This is the central claim of the paper, stated in the [!claim] callout at P79.",
+        "source_sentences": [
+          "S133",
+          "S134",
+          "S135"
+        ],
+        "atom_id": "A01"
+      },
+      {
+        "nodeType": "claim",
+        "stage": "01_canonical",
+        "name": "The Divine Name as Boundary",
+        "statementTechnical": "The name 'I AM WHO I AM' (Exodus 3:14) functions as a boundary that prevents God from being defined by anything more ultimate than Himself; it names God from the side of His own self-existent existence.",
+        "statementPlain": "When God says 'I AM WHO I AM,' He is not giving a label like other names. He is saying He cannot be defined by anything deeper or larger—He is the root, not a thing among things.",
+        "claimClass": "definition",
+        "falsificationCondition": "If Exodus 3:14 could be shown to be a creaturely label that places God within a larger category, or if the text's grammar and context clearly indicate God is being named by comparison to other beings, this claim would be falsified.",
+        "verificationStatus": "informal",
+        "challengeStatus": "challenged-open",
+        "edges": [
+          {
+            "type": "dependsOn",
+            "target": "",
+            "grade": "structural_identity",
+            "propagates": true
+          },
+          {
+            "type": "feedsInto",
+            "target": "",
+            "grade": "structural_identity",
+            "propagates": true
+          }
+        ],
+        "notes": "Based on Exodus 3:14 and the surrounding argument in P12–P26.",
+        "source_sentences": [
+          "S016",
+          "S017",
+          "S018",
+          "S019",
+          "S020",
+          "S021",
+          "S022",
+          "S023",
+          "S024",
+          "S025",
+          "S026",
+          "S027",
+          "S028",
+          "S029",
+          "S030",
+          "S031",
+          "S032",
+          "S033",
+          "S034",
+          "S035",
+          "S036",
+          "S037",
+          "S038",
+          "S039",
+          "S040",
+          "S041",
+          "S042",
+          "S043",
+          "S044",
+          "S045"
+        ],
+        "atom_id": "A02"
+      },
+      {
+        "nodeType": "claim",
+        "stage": "01_canonical",
+        "name": "Jesus Takes the Divine Name",
+        "statementTechnical": "In John's Gospel, Jesus applies the 'I am' formula to Himself with predicates that identify Him with the divine root, not merely as a teacher or prophet.",
+        "statementPlain": "Jesus doesn't just talk about God—He says things like 'I am the bread of life' and 'I am the truth,' using the same 'I am' language God used for Himself. That's identity language, not just religious advice.",
+        "claimClass": "bridge",
+        "falsificationCondition": "If the Johannine 'I am' sayings could be shown to be later theological additions with no historical connection to Jesus, or if they functioned merely as ordinary metaphors without identity claims, this claim would be falsified.",
+        "verificationStatus": "informal",
+        "challengeStatus": "challenged-open",
+        "edges": [
+          {
+            "type": "dependsOn",
+            "target": "",
+            "grade": "structural_identity",
+            "propagates": true
+          },
+          {
+            "type": "feedsInto",
+            "target": "",
+            "grade": "structural_identity",
+            "propagates": true
+          }
+        ],
+        "notes": "Based on the list of 'I am' sayings in John's Gospel (P42–P53).",
+        "source_sentences": [
+          "S068",
+          "S069",
+          "S070",
+          "S071",
+          "S072",
+          "S073",
+          "S074",
+          "S075",
+          "S076",
+          "S077",
+          "S078",
+          "S079",
+          "S080",
+          "S081",
+          "S082",
+          "S083",
+          "S084",
+          "S085",
+          "S086",
+          "S087",
+          "S088",
+          "S089",
+          "S090",
+          "S091",
+          "S092",
+          "S093",
+          "S094"
+        ],
+        "atom_id": "A03"
+      },
+      {
+        "nodeType": "claim",
+        "stage": "01_canonical",
+        "name": "Disclosure and Discovery Are Distinct but Convergent",
+        "statementTechnical": "Discovery asks what the world requires; disclosure asks whom God says He is. These are distinct epistemic routes that should converge without being collapsed into one method.",
+        "statementPlain": "We can study the world to learn about God (discovery), and we can listen to what God says about Himself (disclosure). They are different, but they should fit together.",
+        "claimClass": "bridge",
+        "falsificationCondition": "If discovery and disclosure were shown to be mutually exclusive or contradictory, or if one method consistently yielded results incompatible with the other, this claim would be falsified.",
+        "verificationStatus": "informal",
+        "challengeStatus": "challenged-open",
+        "edges": [
+          {
+            "type": "dependsOn",
+            "target": "",
+            "grade": "structural_identity",
+            "propagates": true
+          },
+          {
+            "type": "feedsInto",
+            "target": "",
+            "grade": "structural_identity",
+            "propagates": true
+          }
+        ],
+        "notes": "Stated in the [!bridge] callout at P38 and developed in P28–P37.",
+        "source_sentences": [
+          "S064",
+          "S065",
+          "S066",
+          "S047",
+          "S048",
+          "S049",
+          "S050",
+          "S051",
+          "S052",
+          "S053",
+          "S054",
+          "S055",
+          "S056",
+          "S057",
+          "S058",
+          "S059",
+          "S060",
+          "S061",
+          "S062",
+          "S063"
+        ],
+        "atom_id": "A04"
+      },
+      {
+        "nodeType": "claim",
+        "stage": "01_canonical",
+        "name": "Christianity Is Built on Disclosure, Not Only Inference",
+        "statementTechnical": "Christianity is not built only on upward inference from effects to cause; it is built on God's self-disclosure in speech, action, covenant, and ultimately in Christ.",
+        "statementPlain": "Christianity doesn't just rely on arguments from the world to God. It relies on God actually speaking, acting, making promises, and coming into history.",
+        "claimClass": "bridge",
+        "falsificationCondition": "If Christianity's foundational documents and earliest traditions did not center on divine self-disclosure but only on human inference, or if the disclosure events (e.g., Exodus, Incarnation) were shown to be unhistorical, this claim would be falsified.",
+        "verificationStatus": "informal",
+        "challengeStatus": "challenged-open",
+        "edges": [
+          {
+            "type": "dependsOn",
+            "target": "",
+            "grade": "structural_identity",
+            "propagates": true
+          },
+          {
+            "type": "feedsInto",
+            "target": "",
+            "grade": "structural_identity",
+            "propagates": true
+          }
+        ],
+        "notes": "Developed in P59–P66.",
+        "source_sentences": [
+          "S096",
+          "S097",
+          "S098",
+          "S099",
+          "S100",
+          "S101",
+          "S102",
+          "S103",
+          "S104",
+          "S105",
+          "S106",
+          "S107",
+          "S108",
+          "S109",
+          "S110",
+          "S111",
+          "S112",
+          "S113",
+          "S114",
+          "S115",
+          "S116",
+          "S117",
+          "S118"
+        ],
+        "atom_id": "A05"
+      },
+      {
+        "nodeType": "claim",
+        "stage": "01_canonical",
+        "name": "The Disclosed Portrait Can Be Stated Before It Is Proven",
+        "statementTechnical": "The Christian portrait of God—self-existent, non-derived, personal, speaking, faithful, and revealed in Christ—can be stated honestly as a claim before it is publicly proven, and then tested for convergence with reality, reason, history, and experience.",
+        "statementPlain": "We can describe what Christianity says about God without first proving it. Then we can ask whether the world, our reasoning, history, and our experience line up with that description.",
+        "claimClass": "bridge",
+        "falsificationCondition": "If the disclosed portrait were incoherent or could not be stated without presupposing its own truth, or if no possible convergence test could be formulated, this claim would be falsified.",
+        "verificationStatus": "informal",
+        "challengeStatus": "challenged-open",
+        "edges": [
+          {
+            "type": "dependsOn",
+            "target": "",
+            "grade": "structural_identity",
+            "propagates": true
+          },
+          {
+            "type": "feedsInto",
+            "target": "",
+            "grade": "structural_identity",
+            "propagates": true
+          }
+        ],
+        "notes": "Developed in P67–P78.",
+        "source_sentences": [
+          "S120",
+          "S121",
+          "S122",
+          "S123",
+          "S124",
+          "S125",
+          "S126",
+          "S127",
+          "S128",
+          "S129",
+          "S130",
+          "S131",
+          "S132"
+        ],
+        "atom_id": "A06"
+      },
+      {
+        "nodeType": "bridge",
+        "stage": "03_synthesis",
+        "name": "Disclosure and Discovery Bridge",
+        "statementTechnical": "Discovery asks what the world requires; disclosure asks whom God says He is.",
+        "statementPlain": "Discovery is about what the world needs to be explained; disclosure is about who God says He is.",
+        "edges": [
+          {
+            "type": "bridgesTo",
+            "target": "",
+            "grade": "structural_identity",
+            "propagates": true
+          }
+        ],
+        "notes": "From the [!bridge] callout at P38.",
+        "source_sentences": [
+          "S064",
+          "S065",
+          "S066"
+        ],
+        "atom_id": "A07"
+      },
+      {
+        "nodeType": "evidence",
+        "stage": "05_evidence",
+        "name": "Exodus 3:14 — I AM WHO I AM",
+        "statementTechnical": "Exodus 3:14 records God's self-naming to Moses as 'I AM WHO I AM.'",
+        "statementPlain": "In Exodus 3:14, God tells Moses His name is 'I AM WHO I AM.'",
+        "edges": [
+          {
+            "type": "feedsInto",
+            "target": "",
+            "grade": "structural_identity",
+            "propagates": true
+          }
+        ],
+        "notes": "Scripture citation used as evidence for the claim about the divine name.",
+        "source_sentences": [
+          "S016",
+          "S017"
+        ],
+        "atom_id": "A08"
+      },
+      {
+        "nodeType": "evidence",
+        "stage": "05_evidence",
+        "name": "Johannine 'I Am' Sayings",
+        "statementTechnical": "The Gospel of John records Jesus using 'I am' with predicates such as bread of life, light of the world, door, good shepherd, resurrection and life, way/truth/life, and true vine.",
+        "statementPlain": "In John's Gospel, Jesus says things like 'I am the bread of life' and 'I am the way, the truth, and the life.'",
+        "edges": [
+          {
+            "type": "feedsInto",
+            "target": "",
+            "grade": "structural_identity",
+            "propagates": true
+          }
+        ],
+        "notes": "Listed in P42–P43.",
+        "source_sentences": [
+          "S071",
+          "S072",
+          "S073",
+          "S074",
+          "S075",
+          "S076",
+          "S077",
+          "S078"
+        ],
+        "atom_id": "A09"
+      },
+      {
+        "nodeType": "objection",
+        "stage": "08_objections",
+        "name": "The Skeptic's Objection",
+        "statementTechnical": "A skeptic does not have to accept the Bible's authority to understand the paper's project; the paper is not arguing 'Exodus 3:14 is in the Bible, therefore God exists.'",
+        "statementPlain": "You don't have to believe the Bible to follow what this paper is saying. It's not saying 'the Bible says it, so it's true.'",
+        "edges": [
+          {
+            "type": "challenges",
+            "target": "",
+            "grade": "structural_identity",
+            "propagates": true
+          }
+        ],
+        "notes": "Addressed in P67–P73.",
+        "source_sentences": [
+          "S120",
+          "S121",
+          "S122",
+          "S123",
+          "S124",
+          "S125"
+        ],
+        "atom_id": "A10"
+      },
+      {
+        "nodeType": "objection",
+        "stage": "08_objections",
+        "name": "Revelation Can Be Misunderstood or False",
+        "statementTechnical": "Revelation can be misunderstood, claims of revelation can be false, Scripture must be interpreted, history must be investigated, and the Church can mishandle what it receives.",
+        "statementPlain": "People can misunderstand revelation, false claims of revelation exist, the Bible needs interpretation, history needs checking, and the Church can get it wrong.",
+        "edges": [
+          {
+            "type": "challenges",
+            "target": "",
+            "grade": "structural_identity",
+            "propagates": true
+          }
+        ],
+        "notes": "Acknowledged in P64.",
+        "source_sentences": [
+          "S111",
+          "S112",
+          "S113",
+          "S114",
+          "S115",
+          "S116"
+        ],
+        "atom_id": "A11"
+      },
+      {
+        "nodeType": "prediction",
+        "stage": "04_hypothesis",
+        "name": "Convergence of Reason and Revelation",
+        "statementTechnical": "If Christianity is true, reality, reason, history, and experience will converge with the disclosed portrait of God.",
+        "statementPlain": "If Christianity is true, then what we find in the world, in logic, in history, and in our lives should fit with the God it describes.",
+        "edges": [
+          {
+            "type": "dependsOn",
+            "target": "",
+            "grade": "structural_identity",
+            "propagates": true
+          }
+        ],
+        "notes": "Implied in P74–P78.",
+        "source_sentences": [
+          "S126",
+          "S127",
+          "S128",
+          "S129",
+          "S130",
+          "S131",
+          "S132"
+        ],
+        "atom_id": "A12"
+      },
+      {
+        "nodeType": "question",
+        "stage": "00_inbox_working",
+        "name": "Has God Spoken?",
+        "statementTechnical": "If God is the root, the first problem is not only whether we can reach Him, but whether He has spoken.",
+        "statementPlain": "If God is the ultimate source, the big question isn't just whether we can find Him—it's whether He has spoken.",
+        "edges": [],
+        "notes": "Opening question of the paper, P02–P03.",
+        "source_sentences": [
+          "S002",
+          "S003"
+        ],
+        "atom_id": "A13"
+      },
+      {
+        "nodeType": "raw",
+        "stage": "00_inbox_working",
+        "name": "The Child and the Father Analogy",
+        "statementTechnical": "A child can learn about his father by studying the house the father built or by hearing the father speak; these are not enemies.",
+        "statementPlain": "A kid can learn about his dad by looking at the house he built or by listening to him talk. Both are valid.",
+        "edges": [],
+        "notes": "Analogy in P30–P34, used to illustrate discovery and disclosure.",
+        "source_sentences": [
+          "S050",
+          "S051",
+          "S052",
+          "S053",
+          "S054",
+          "S055",
+          "S056"
+        ],
+        "atom_id": "A14"
+      }
+    ]
+  },
+  "lean4": {
+    "station": "lean4",
+    "paper_uuid": "AX_GI_03_FL_01_I_AM_THE_ROOT_SPEAKS_7c196c27",
+    "run_uuid": "deep-e6a4c3654f49",
+    "template": "00_FULL_LEAN_TEMPLATE.md",
+    "formal_candidates": [
+      {
+        "identity": {
+          "claim_id": "A02",
+          "candidate_uuid": "lean4-A02-0001"
+        },
+        "source_selection": {
+          "exact_source_expression": "When God says 'I AM WHO I AM,' He is not giving a label like other names. He is saying He cannot be defined by anything deeper or larger—He is the root, not a thing among things.",
+          "selection_disposition": "FORMALIZE",
+          "reason": "The claim has a clear logical structure: a self-naming entity that is not definable by anything deeper or larger, i.e., not a member of a larger category and not explained by something more fundamental. This can be modeled as a formal property of a naming relation and a grounding/explanation relation."
+        },
+        "formal_object": {
+          "object_type": "DEFINITION",
+          "exact_proposed_statement": "A divine name is 'root-naming' if it does not place the named entity inside a larger category and does not ground the entity's existence in anything deeper. Formally: for an entity g, a name N, and a grounding relation G, N is root-naming for g iff there is no x such that G(x, g) and no category C such that g ∈ C and C is more ultimate than g.",
+          "fully_qualified_declaration": "RootNaming",
+          "project_root": "",
+          "module": ""
+        },
+        "symbol_table": [
+          {
+            "term": "root-naming",
+            "formal_definition": "A predicate on names and entities: RootNaming(N, g) iff ¬∃x. G(x, g) ∧ ¬∃C. g ∈ C ∧ MoreUltimate(C, g)",
+            "reader_meaning": "A name that does not define the named by comparison to something deeper or larger.",
+            "source_correspondence": "A02: 'He cannot be defined by anything deeper or larger—He is the root, not a thing among things.'"
+          },
+          {
+            "term": "grounding relation G",
+            "formal_definition": "A binary relation on entities: G(x, y) means x grounds or explains y.",
+            "reader_meaning": "The relation of being more fundamental or explanatory.",
+            "source_correspondence": "A02: 'defined by anything deeper or larger'"
+          },
+          {
+            "term": "MoreUltimate",
+            "formal_definition": "A binary relation on categories: MoreUltimate(C, g) means category C is more ultimate than entity g.",
+            "reader_meaning": "A category that would be more fundamental than the entity.",
+            "source_correspondence": "A02: 'not a thing among things'"
+          }
+        ],
+        "assumptions_and_dependencies": {
+          "explicit_premises": [
+            "There is a grounding relation G on entities.",
+            "There is a category membership relation and a MoreUltimate relation on categories and entities."
+          ],
+          "custom_axioms": [],
+          "theological_starting_premises": "The entity g is God, and the name N is 'I AM WHO I AM'.",
+          "non_vacuity_requirement": "There exists at least one entity g and name N such that RootNaming(N, g) holds, or the definition is vacuously true for all entities."
+        },
+        "verification_controls": [
+          {
+            "check": "module compilation",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "Lean corpus not searched; no module compiled."
+          },
+          {
+            "check": "declaration inspection",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No existing declaration inspected."
+          },
+          {
+            "check": "axiom dependency",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No axiom dependency checked."
+          },
+          {
+            "check": "proof escape",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No proof attempted."
+          },
+          {
+            "check": "non-vacuity",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "Non-vacuity not checked."
+          },
+          {
+            "check": "negative control",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No negative control run."
+          },
+          {
+            "check": "countermodel",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No countermodel attempted."
+          },
+          {
+            "check": "ablation",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No ablation performed."
+          },
+          {
+            "check": "independent encoding",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No independent encoding attempted."
+          }
+        ],
+        "result_and_boundary": {
+          "verification_status": "CANDIDATE",
+          "what_is_established": "A formal definition of root-naming is proposed, capturing the logical structure of the claim that God is not defined by anything deeper or larger.",
+          "what_remains_open": "Whether the definition is non-vacuous, whether it corresponds to any existing Lean formalization, and whether the theological premises are consistent with the formal model.",
+          "encoding_fidelity_review": "The formalization abstracts away from the specific theological content and focuses on the relational structure. It does not capture the full meaning of 'I AM' as a divine name.",
+          "interpretive_connections": "This definition can be used as a building block for formalizing other claims about divine attributes and revelation."
+        },
+        "reproduction_receipt": {
+          "run_id": "",
+          "timestamp": "",
+          "source_hashes": {},
+          "commands": [],
+          "exit_codes": [],
+          "log_paths": [],
+          "declarations_checked": []
+        },
+        "corpus_links": {
+          "human_companion": "",
+          "corpus_claim_register": "",
+          "supporting_summaries": []
+        }
+      },
+      {
+        "identity": {
+          "claim_id": "A04",
+          "candidate_uuid": "lean4-A04-0002"
+        },
+        "source_selection": {
+          "exact_source_expression": "We can study the world to learn about God (discovery), and we can listen to what God says about Himself (disclosure). They are different, but they should fit together.",
+          "selection_disposition": "FORMALIZE",
+          "reason": "The claim asserts a convergence relation between two distinct epistemic sources: discovery (inference from the world) and disclosure (divine speech). This can be modeled as a compatibility or consistency condition between two sets of propositions."
+        },
+        "formal_object": {
+          "object_type": "DEFINITION",
+          "exact_proposed_statement": "Let D be the set of propositions known by discovery and R be the set of propositions known by revelation. D and R are convergent if their union is consistent, i.e., there is no proposition p such that p ∈ D and ¬p ∈ R.",
+          "fully_qualified_declaration": "Convergent",
+          "project_root": "",
+          "module": ""
+        },
+        "symbol_table": [
+          {
+            "term": "discovery",
+            "formal_definition": "A set D of propositions obtained by reasoning from the world.",
+            "reader_meaning": "Knowledge gained by studying the world.",
+            "source_correspondence": "A04: 'study the world to learn about God'"
+          },
+          {
+            "term": "disclosure",
+            "formal_definition": "A set R of propositions obtained by divine revelation.",
+            "reader_meaning": "Knowledge gained by listening to God's self-disclosure.",
+            "source_correspondence": "A04: 'listen to what God says about Himself'"
+          },
+          {
+            "term": "convergent",
+            "formal_definition": "D and R are convergent iff ¬∃p. p ∈ D ∧ ¬p ∈ R.",
+            "reader_meaning": "The two sources do not contradict each other.",
+            "source_correspondence": "A04: 'they should fit together'"
+          }
+        ],
+        "assumptions_and_dependencies": {
+          "explicit_premises": [
+            "There are two sets of propositions D and R.",
+            "Propositions can be negated and checked for membership."
+          ],
+          "custom_axioms": [],
+          "theological_starting_premises": "D is the set of truths about God discoverable by reason; R is the set of truths God has revealed.",
+          "non_vacuity_requirement": "There exist non-empty D and R that are convergent."
+        },
+        "verification_controls": [
+          {
+            "check": "module compilation",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "Lean corpus not searched; no module compiled."
+          },
+          {
+            "check": "declaration inspection",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No existing declaration inspected."
+          },
+          {
+            "check": "axiom dependency",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No axiom dependency checked."
+          },
+          {
+            "check": "proof escape",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No proof attempted."
+          },
+          {
+            "check": "non-vacuity",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "Non-vacuity not checked."
+          },
+          {
+            "check": "negative control",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No negative control run."
+          },
+          {
+            "check": "countermodel",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No countermodel attempted."
+          },
+          {
+            "check": "ablation",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No ablation performed."
+          },
+          {
+            "check": "independent encoding",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No independent encoding attempted."
+          }
+        ],
+        "result_and_boundary": {
+          "verification_status": "CANDIDATE",
+          "what_is_established": "A formal definition of convergence between discovery and disclosure is proposed, capturing the idea that they should not contradict.",
+          "what_remains_open": "Whether the sets D and R are actually consistent, and whether this formalization captures the intended theological nuance.",
+          "encoding_fidelity_review": "The formalization reduces 'fitting together' to logical consistency, which may be too weak or too strong depending on interpretation.",
+          "interpretive_connections": "This definition can be used to formalize the claim that reason and revelation are compatible."
+        },
+        "reproduction_receipt": {
+          "run_id": "",
+          "timestamp": "",
+          "source_hashes": {},
+          "commands": [],
+          "exit_codes": [],
+          "log_paths": [],
+          "declarations_checked": []
+        },
+        "corpus_links": {
+          "human_companion": "",
+          "corpus_claim_register": "",
+          "supporting_summaries": []
+        }
+      },
+      {
+        "identity": {
+          "claim_id": "A03",
+          "candidate_uuid": "lean4-A03-0003"
+        },
+        "source_selection": {
+          "exact_source_expression": "Jesus doesn't just talk about God—He says things like 'I am the bread of life' and 'I am the truth,' using the same 'I am' language God used for Himself. That's identity language, not just religious advice.",
+          "selection_disposition": "FORMALIZE",
+          "reason": "The claim is about identity language: Jesus uses the same 'I am' formula as God in Exodus 3:14. This can be modeled as a relation between utterances and a shared predicate 'I am'."
+        },
+        "formal_object": {
+          "object_type": "DEFINITION",
+          "exact_proposed_statement": "Let U be a set of utterances. An utterance u is an 'I am' utterance if it has the form 'I am X'. Two 'I am' utterances are identity-linked if they share the same subject 'I' and the same copula 'am'. Jesus's 'I am' sayings are identity-linked to God's 'I AM WHO I AM'.",
+          "fully_qualified_declaration": "IdentityLinked",
+          "project_root": "",
+          "module": ""
+        },
+        "symbol_table": [
+          {
+            "term": "I am utterance",
+            "formal_definition": "An utterance of the form 'I am X'.",
+            "reader_meaning": "A statement where the speaker identifies themselves with a predicate.",
+            "source_correspondence": "A03: 'I am the bread of life'"
+          },
+          {
+            "term": "identity-linked",
+            "formal_definition": "Two 'I am' utterances are identity-linked if they share the same subject and copula.",
+            "reader_meaning": "They use the same self-identification formula.",
+            "source_correspondence": "A03: 'using the same 'I am' language God used for Himself'"
+          }
+        ],
+        "assumptions_and_dependencies": {
+          "explicit_premises": [
+            "There is a set of utterances.",
+            "Utterances can be parsed into subject, copula, and predicate."
+          ],
+          "custom_axioms": [],
+          "theological_starting_premises": "God's utterance in Exodus 3:14 is 'I AM WHO I AM'; Jesus's utterances include 'I am the bread of life', etc.",
+          "non_vacuity_requirement": "There exist at least two 'I am' utterances that are identity-linked."
+        },
+        "verification_controls": [
+          {
+            "check": "module compilation",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "Lean corpus not searched; no module compiled."
+          },
+          {
+            "check": "declaration inspection",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No existing declaration inspected."
+          },
+          {
+            "check": "axiom dependency",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No axiom dependency checked."
+          },
+          {
+            "check": "proof escape",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No proof attempted."
+          },
+          {
+            "check": "non-vacuity",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "Non-vacuity not checked."
+          },
+          {
+            "check": "negative control",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No negative control run."
+          },
+          {
+            "check": "countermodel",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No countermodel attempted."
+          },
+          {
+            "check": "ablation",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No ablation performed."
+          },
+          {
+            "check": "independent encoding",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No independent encoding attempted."
+          }
+        ],
+        "result_and_boundary": {
+          "verification_status": "CANDIDATE",
+          "what_is_established": "A formal definition of identity-linked 'I am' utterances is proposed, capturing the linguistic parallel between God's self-naming and Jesus's self-identifications.",
+          "what_remains_open": "Whether this linguistic parallel implies identity of being, and whether the formalization captures the theological claim.",
+          "encoding_fidelity_review": "The formalization is purely syntactic and does not address semantic identity.",
+          "interpretive_connections": "This can be used to formalize arguments about Jesus's divine identity based on linguistic patterns."
+        },
+        "reproduction_receipt": {
+          "run_id": "",
+          "timestamp": "",
+          "source_hashes": {},
+          "commands": [],
+          "exit_codes": [],
+          "log_paths": [],
+          "declarations_checked": []
+        },
+        "corpus_links": {
+          "human_companion": "",
+          "corpus_claim_register": "",
+          "supporting_summaries": []
+        }
+      },
+      {
+        "identity": {
+          "claim_id": "A12",
+          "candidate_uuid": "lean4-A12-0004"
+        },
+        "source_selection": {
+          "exact_source_expression": "If Christianity is true, then what we find in the world, in logic, in history, and in our lives should fit with the God it describes.",
+          "selection_disposition": "FORMALIZE",
+          "reason": "This is a conditional prediction: if Christianity is true, then there is convergence between the world and the Christian description of God. This can be formalized as a conditional statement about consistency."
+        },
+        "formal_object": {
+          "object_type": "THEOREM",
+          "exact_proposed_statement": "If Christianity is true, then the set of propositions about the world (from reason, history, experience) is consistent with the set of propositions about God as described by Christianity.",
+          "fully_qualified_declaration": "ChristianityConvergence",
+          "project_root": "",
+          "module": ""
+        },
+        "symbol_table": [
+          {
+            "term": "Christianity is true",
+            "formal_definition": "A proposition C.",
+            "reader_meaning": "The truth of the Christian worldview.",
+            "source_correspondence": "A12: 'If Christianity is true'"
+          },
+          {
+            "term": "world propositions",
+            "formal_definition": "A set W of propositions derived from reason, logic, history, and experience.",
+            "reader_meaning": "What we find in the world.",
+            "source_correspondence": "A12: 'what we find in the world, in logic, in history, and in our lives'"
+          },
+          {
+            "term": "God description",
+            "formal_definition": "A set G of propositions describing God as Christianity claims.",
+            "reader_meaning": "The God Christianity describes.",
+            "source_correspondence": "A12: 'the God it describes'"
+          },
+          {
+            "term": "fit",
+            "formal_definition": "W and G are consistent (no contradiction).",
+            "reader_meaning": "They should fit together.",
+            "source_correspondence": "A12: 'should fit with'"
+          }
+        ],
+        "assumptions_and_dependencies": {
+          "explicit_premises": [
+            "There is a proposition C representing Christianity.",
+            "There are sets W and G of propositions.",
+            "Consistency is defined as absence of contradiction."
+          ],
+          "custom_axioms": [],
+          "theological_starting_premises": "C is the claim that Christianity is true.",
+          "non_vacuity_requirement": "There exists at least one model where C is true and W ∪ G is consistent."
+        },
+        "verification_controls": [
+          {
+            "check": "module compilation",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "Lean corpus not searched; no module compiled."
+          },
+          {
+            "check": "declaration inspection",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No existing declaration inspected."
+          },
+          {
+            "check": "axiom dependency",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No axiom dependency checked."
+          },
+          {
+            "check": "proof escape",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No proof attempted."
+          },
+          {
+            "check": "non-vacuity",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "Non-vacuity not checked."
+          },
+          {
+            "check": "negative control",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No negative control run."
+          },
+          {
+            "check": "countermodel",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No countermodel attempted."
+          },
+          {
+            "check": "ablation",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No ablation performed."
+          },
+          {
+            "check": "independent encoding",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No independent encoding attempted."
+          }
+        ],
+        "result_and_boundary": {
+          "verification_status": "CANDIDATE",
+          "what_is_established": "A formal conditional statement is proposed: if Christianity is true, then the world and the Christian description of God are consistent.",
+          "what_remains_open": "Whether the antecedent is true, and whether the formalization captures the intended prediction.",
+          "encoding_fidelity_review": "The formalization reduces 'fit' to logical consistency, which may not capture all aspects of convergence.",
+          "interpretive_connections": "This can be used to formalize the claim that Christianity makes testable predictions about reality."
+        },
+        "reproduction_receipt": {
+          "run_id": "",
+          "timestamp": "",
+          "source_hashes": {},
+          "commands": [],
+          "exit_codes": [],
+          "log_paths": [],
+          "declarations_checked": []
+        },
+        "corpus_links": {
+          "human_companion": "",
+          "corpus_claim_register": "",
+          "supporting_summaries": []
+        }
+      },
+      {
+        "identity": {
+          "claim_id": "A06",
+          "candidate_uuid": "lean4-A06-0005"
+        },
+        "source_selection": {
+          "exact_source_expression": "We can describe what Christianity says about God without first proving it. Then we can ask whether the world, our reasoning, history, and our experience line up with that description.",
+          "selection_disposition": "FORMALIZE",
+          "reason": "This claim is about the methodology of stating a hypothesis before testing it. It can be formalized as a two-step process: first define a description, then check consistency with evidence."
+        },
+        "formal_object": {
+          "object_type": "DEFINITION",
+          "exact_proposed_statement": "A 'disclosed portrait' is a set of propositions about God that can be stated without proof. A 'convergence test' is a procedure that checks whether the disclosed portrait is consistent with a set of evidential propositions.",
+          "fully_qualified_declaration": "DisclosedPortrait",
+          "project_root": "",
+          "module": ""
+        },
+        "symbol_table": [
+          {
+            "term": "disclosed portrait",
+            "formal_definition": "A set P of propositions about God.",
+            "reader_meaning": "The description of God Christianity offers.",
+            "source_correspondence": "A06: 'describe what Christianity says about God'"
+          },
+          {
+            "term": "convergence test",
+            "formal_definition": "A function that takes P and a set E of evidential propositions and returns true if P ∪ E is consistent.",
+            "reader_meaning": "Checking if the description lines up with evidence.",
+            "source_correspondence": "A06: 'ask whether the world, our reasoning, history, and our experience line up'"
+          }
+        ],
+        "assumptions_and_dependencies": {
+          "explicit_premises": [
+            "There is a set P of propositions about God.",
+            "There is a set E of evidential propositions.",
+            "Consistency is defined as absence of contradiction."
+          ],
+          "custom_axioms": [],
+          "theological_starting_premises": "P is the Christian description of God.",
+          "non_vacuity_requirement": "There exists a non-empty P and E such that the convergence test returns true."
+        },
+        "verification_controls": [
+          {
+            "check": "module compilation",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "Lean corpus not searched; no module compiled."
+          },
+          {
+            "check": "declaration inspection",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No existing declaration inspected."
+          },
+          {
+            "check": "axiom dependency",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No axiom dependency checked."
+          },
+          {
+            "check": "proof escape",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No proof attempted."
+          },
+          {
+            "check": "non-vacuity",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "Non-vacuity not checked."
+          },
+          {
+            "check": "negative control",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No negative control run."
+          },
+          {
+            "check": "countermodel",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No countermodel attempted."
+          },
+          {
+            "check": "ablation",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No ablation performed."
+          },
+          {
+            "check": "independent encoding",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No independent encoding attempted."
+          }
+        ],
+        "result_and_boundary": {
+          "verification_status": "CANDIDATE",
+          "what_is_established": "A formal definition of a disclosed portrait and a convergence test is proposed, capturing the methodological claim.",
+          "what_remains_open": "Whether the convergence test is decidable, and whether the formalization captures the intended process.",
+          "encoding_fidelity_review": "The formalization is abstract and does not specify the content of P or E.",
+          "interpretive_connections": "This can be used to formalize the relationship between theological claims and empirical evidence."
+        },
+        "reproduction_receipt": {
+          "run_id": "",
+          "timestamp": "",
+          "source_hashes": {},
+          "commands": [],
+          "exit_codes": [],
+          "log_paths": [],
+          "declarations_checked": []
+        },
+        "corpus_links": {
+          "human_companion": "",
+          "corpus_claim_register": "",
+          "supporting_summaries": []
+        }
+      }
+    ],
+    "existing_matches": [],
+    "notes": "The Lean corpus was not searched in this run. All verification controls are NOT_RUN, and verification statuses are CANDIDATE or NOT_ATTEMPTED. The formal candidates are proposed definitions and theorems that capture the logical structure of the claims, but they do not establish any theological or historical premises. The formalizations are abstract and may require further refinement to faithfully represent the original claims."
+  },
+  "stories": {
+    "station": "stories",
+    "paper_uuid": "AX_GI_03_FL_01_I_AM_THE_ROOT_SPEAKS_7c196c27",
+    "run_uuid": "deep-e6a4c3654f49",
+    "stories": [
+      {
+        "story_id": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d",
+        "title_or_label": "The Child and the Father Analogy",
+        "story_type": "illustration",
+        "source_span": "P30-P35, S050-S061",
+        "characters_or_agents": [
+          "child",
+          "father"
+        ],
+        "setting_or_context": "A child learning about his father through two means: studying the house the father built and listening to the father speak.",
+        "plot_or_sequence": "A child can learn about his father by examining the house (order, table, locks, tools, boundaries, repairs, signs of care) or by hearing the father's voice. These are not enemies; the house witnesses to the father, and the father's voice explains the house.",
+        "intended_function": "illustrate",
+        "claims_illustrated": [
+          "A04",
+          "A07"
+        ],
+        "emotional_or_rhetorical_load": "Warm, familial, and intuitive; evokes trust and relationship to soften the epistemological distinction.",
+        "boundaries": {
+          "what_it_shows": "That discovery (studying creation) and disclosure (listening to God) are distinct but complementary ways of knowing a personal God.",
+          "what_it_does_not_show": "That God actually exists, that He has spoken, or that any particular disclosure is true. It does not prove that the father in the analogy corresponds to a real divine father.",
+          "what_would_falsify_the_narrative": "If the father were absent, silent, or non-existent, the analogy would fail to illustrate disclosure; if the house were the only source of knowledge, the analogy would collapse into discovery alone."
+        },
+        "evidence_for_historical_content": [],
+        "is_separable_from_argument": true,
+        "notes": "The analogy is used to explain the relationship between discovery and disclosure; it is not offered as evidence for either."
+      },
+      {
+        "story_id": "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e",
+        "title_or_label": "Moses and the Divine Name",
+        "story_type": "historical_anecdote",
+        "source_span": "P09-P11, S014-S017",
+        "characters_or_agents": [
+          "Moses",
+          "God"
+        ],
+        "setting_or_context": "Moses asks for God's name; God responds with 'I AM WHO I AM' (Exodus 3:14).",
+        "plot_or_sequence": "Moses requests God's name. God does not give a creaturely label but declares 'I AM WHO I AM,' which the paper interprets as a boundary that refuses to define God by anything deeper.",
+        "intended_function": "identify",
+        "claims_illustrated": [
+          "A02",
+          "A08"
+        ],
+        "emotional_or_rhetorical_load": "Awe and mystery; the name is presented as a self-disclosure that establishes God's uniqueness.",
+        "boundaries": {
+          "what_it_shows": "That the biblical text presents God as self-naming and not definable by comparison to other beings.",
+          "what_it_does_not_show": "That the biblical account is historically accurate or that God actually spoke these words. It also does not prove that the interpretation of the name as a metaphysical boundary is correct.",
+          "what_would_falsify_the_narrative": "If Exodus 3:14 were shown to be a later invention or if the Hebrew phrase meant something other than self-existence, the illustrative force would be undermined."
+        },
+        "evidence_for_historical_content": [
+          "A08"
+        ],
+        "is_separable_from_argument": false,
+        "notes": "This story is structurally load-bearing for the claim that God discloses Himself; it is not merely illustrative."
+      },
+      {
+        "story_id": "c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f",
+        "title_or_label": "Jesus' 'I Am' Sayings",
+        "story_type": "testimony",
+        "source_span": "P39-P57, S068-S094",
+        "characters_or_agents": [
+          "Jesus"
+        ],
+        "setting_or_context": "In John's Gospel, Jesus uses 'I am' language to identify Himself with roles and titles that echo the divine name.",
+        "plot_or_sequence": "Jesus says 'I am the bread of life,' 'I am the light of the world,' 'I am the door,' 'I am the good shepherd,' 'I am the resurrection and the life,' 'I am the way, the truth, and the life,' and 'I am the true vine.' The paper contrasts this with what a prophet or teacher might say, arguing that Jesus is not merely giving advice but making identity claims.",
+        "intended_function": "persuade",
+        "claims_illustrated": [
+          "A03",
+          "A09"
+        ],
+        "emotional_or_rhetorical_load": "High; the repetition and escalation build a sense of Jesus' unique authority and identity.",
+        "boundaries": {
+          "what_it_shows": "That the Johannine Jesus uses 'I am' sayings that are grammatically and thematically distinct from ordinary prophetic speech.",
+          "what_it_does_not_show": "That Jesus actually said these things, that the Gospel of John is historically reliable, or that the claims are true. The paper explicitly notes that this does not prove Jesus is who Christianity says He is.",
+          "what_would_falsify_the_narrative": "If the 'I am' sayings were shown to be later theological additions rather than historical words of Jesus, or if they were shown to be ordinary idioms without divine implications, the illustrative force would be weakened."
+        },
+        "evidence_for_historical_content": [
+          "A09"
+        ],
+        "is_separable_from_argument": false,
+        "notes": "The paper acknowledges that support must come from historical and resurrection evidence; the story itself is not proof."
+      }
+    ],
+    "narrative_arc": {
+      "opening_device": "A philosophical problem: if God is the root, can we reach Him? The paper pivots to whether He has spoken.",
+      "central_tension": "Human reason can climb upward to God, but Christianity claims God has spoken from His side, making revelation not cheating but necessary.",
+      "resolution_or_payoff": "The root is not silent; God has disclosed Himself in the divine name and in Christ, and reason and revelation converge.",
+      "return_to_opening": true
+    },
+    "notes": "The paper uses the child-father analogy as a separable illustration. The Moses and Jesus stories are structurally load-bearing for the claim that God discloses Himself, but they are not treated as evidence for historical truth; the paper explicitly separates the claim from its proof."
+  },
+  "master_equation": {
+    "core_relation": {
+      "sentence": "Knowledge of God depends on God's own self-disclosure (His speech), not only on creaturely upward inference; the two movements — reason climbing and God speaking — meet in the investigation.",
+      "quote": "Reason climbs. God speaks. The investigation happens where those two meet. [S130][S131][S132]"
+    },
+    "core_relation_run2": {
+      "sentence": "Knowledge of God depends on God's own self-disclosure (His speech), not only on creaturely upward inference; the two movements — reason climbing and God speaking — meet in the investigation.",
+      "quote": "Reason climbs. God speaks. The investigation happens where those two meet. [S130][S131][S132]"
+    },
+    "product_test": {
+      "run1": "multiplicative",
+      "run2": "multiplicative",
+      "status": "agreed",
+      "quote": "But if God has spoken, then the highest form of knowledge is not guessing correctly about a silent source. It is receiving the One who gives Himself to be known. [S117][S118]",
+      "reason": "The paper frames disclosure as a necessary and non-substitutable condition: without God's speech, the whole investigation collapses back into 'guessing correctly about a silent source' (S117), and the conclusion ('the root is not silent... the root speaks' S140–S141) fails entirely. Upward inference is explicitly insufficient on its own (S096, S102), so the relation behaves multiplicatively — remove the disclosure factor and the paper's central claim goes to zero, not merely weaker."
+    },
+    "slots": [
+      {
+        "slot": "G",
+        "fit_1": "direct",
+        "fit_2": "direct",
+        "status": "agreed",
+        "plays_role": "God's self-disclosure / revelation as the external negentropy influx — coherence about the root cannot be generated from inside creaturely reasoning alone; it must come from outside, from God's own side.",
+        "quote": "God is not first introduced as an object lying on a table, waiting for creatures to define Him. He is the One who calls, commands, creates, names, promises, judges, forgives, and reveals. [S012][S013]"
+      },
+      {
+        "slot": "M",
+        "fit_1": "analogous",
+        "fit_2": "analogous",
+        "status": "agreed",
+        "plays_role": "Alignment between the disclosed name/character of God and the investigation — the name 'I AM' aligns the inquiry with God's own self-naming rather than with creaturely categories.",
+        "quote": "It refuses to let God be measured from below. [S035]"
+      },
+      {
+        "slot": "E",
+        "fit_1": "direct",
+        "fit_2": "direct",
+        "status": "agreed",
+        "plays_role": "Signal fidelity — whether the disclosure survives transmission through Scripture, interpretation, history, and the Church; the paper explicitly flags noise and distortion in the channel.",
+        "quote": "Revelation can be misunderstood. Claims of revelation can be false. Scripture must be interpreted. History must be investigated. The Church can mishandle what it receives. [S112][S113][S114][S115][S116]"
+      },
+      {
+        "slot": "S_eff",
+        "fit_1": "analogous",
+        "fit_2": "analogous",
+        "status": "agreed",
+        "plays_role": "Entropy as what lowers coherence — the paper treats creaturely reach, silent-source guessing, and mishandled revelation as the entropy that degrades knowledge of God.",
+        "quote": "If God remains only an inference, then every argument about God stays trapped inside creaturely reach. [S096]"
+      },
+      {
+        "slot": "T",
+        "fit_1": "analogous",
+        "fit_2": "analogous",
+        "status": "agreed",
+        "plays_role": "Temporal integration — God's speech and acts accumulate across covenant history and into Christ; the investigation happens over time as reason climbs and God speaks.",
+        "quote": "God speaks. God acts. God covenants. God comes. God names Himself. God reveals His character. God enters the human story in Christ. [S104][S105][S106][S107][S108][S109][S110]"
+      },
+      {
+        "slot": "K",
+        "fit_1": "direct",
+        "fit_2": "direct",
+        "status": "agreed",
+        "plays_role": "Compression — the divine name 'I AM' compresses God's self-existent, non-derived identity into a single boundary statement; ordered meaning compresses.",
+        "quote": "That is not a slogan. It is a boundary. [S018][S019]"
+      },
+      {
+        "slot": "R",
+        "fit_1": "analogous",
+        "fit_2": "analogous",
+        "status": "agreed",
+        "plays_role": "Phase transition — the shift from inference to disclosure is treated as a change of state, not degree: 'a different claim' that restructures the whole investigation.",
+        "quote": "That is a different claim. [S125]"
+      },
+      {
+        "slot": "Q",
+        "fit_1": "analogous",
+        "fit_2": "analogous",
+        "status": "agreed",
+        "plays_role": "Superposition — the disclosed portrait is stated before it is proven; the claim is held open for the skeptic until reality, reason, history, and experience converge.",
+        "quote": "The disclosed portrait can be stated honestly before it is proven publicly. We can ask what Christianity claims. Then we can ask whether reality, reason, history, and experience converge with that claim. [S126][S127][S128]"
+      },
+      {
+        "slot": "F",
+        "fit_1": "stretched",
+        "fit_2": "stretched",
+        "status": "agreed",
+        "plays_role": "Non-local correlation — the child/father analogy and the claim that the root enters history mean the knower and the known are not independent; related systems are coupled.",
+        "quote": "And in Christ, Christianity says, the root walks into the room. [S142]"
+      },
+      {
+        "slot": "C",
+        "fit_1": "analogous",
+        "fit_2": "analogous",
+        "status": "agreed",
+        "plays_role": "Integration — the local integrator is the human knower who receives the One who gives Himself to be known; the meeting point of reason and revelation.",
+        "quote": "It is receiving the One who gives Himself to be known. [S118]"
+      }
+    ],
+    "contested": [],
+    "analog_strength": 3,
+    "analog_strength_spread": "3-3",
+    "confidence": [
+      "medium",
+      "medium"
+    ],
+    "one_line": "The paper's 'I AM' disclosure functions as the G-factor of the master equation: without God's self-speech the investigation collapses into guessing about a silent source, though the paper keeps upward inference as a non-zero additive support.",
+    "breaks": [
+      "The paper treats upward inference (reason climbing) as genuinely valuable and not zero — 'Those arguments may matter. Some may be strong.' [S098][S099] — which softens the strict multiplicative collapse: reason is not a zero factor, so the product test is closer to 'disclosure is necessary but inference is additive support' than to a pure χ-style product.",
+      "The 'child can hear his father speak' analogy [S053] imports a relational/personal factor that has no clean slot in the master equation's factor list; it is closer to a background condition than a multiplicative term.",
+      "The paper explicitly disclaims that its claim proves itself: 'It does not prove by itself that Jesus is who Christianity says He is.' [S089] — so the slot mapping describes the shape of the claim, not a demonstrated derivation.",
+      "Slot F is stretched: the paper's non-local correlation is theological (Christ as the root entering history) rather than a physical correlation between related systems."
+    ],
+    "extra_factors": [
+      [
+        "Historical investigation / resurrection evidence [S091] — treated as a required support layer with no direct master-equation slot.",
+        "The distinction between discovery and disclosure [S064][S065][S066] — a methodological factor the equation does not name.",
+        "The skeptic's provisional stance [S120][S126] — a rhetorical/epistemic factor that conditions how the claim is received."
+      ],
+      [
+        "Historical investigation / resurrection evidence [S091] — treated as a required support layer with no direct master-equation slot.",
+        "The distinction between discovery and disclosure [S064][S065][S066] — a methodological factor the equation does not name.",
+        "The skeptic's provisional stance [S120][S126] — a rhetorical/epistemic factor that conditions how the claim is received."
+      ]
+    ],
+    "equations_present": false
+  },
+  "master_equation_b": null,
+  "coherence": {
+    "station": "coherence_score",
+    "paper_uuid": "AX_GI_03_FL_01_I_AM_THE_ROOT_SPEAKS_7c196c27",
+    "run_uuid": "deep-e6a4c3654f49",
+    "overall": {
+      "score": 8.5,
+      "score_ceiling": 10,
+      "status": "ASSESSED",
+      "summary": "The paper maintains strong internal coherence, clearly distinguishing disclosure from discovery while integrating them through a convergent framework, with only minor unresolved tensions regarding the relationship between revelation and reason."
+    },
+    "dimensions": [
+      {
+        "name": "internal_consistency",
+        "score": 9,
+        "reasons": [
+          "The central claim that God has spoken (A01, S003) is consistently maintained throughout, with no contradictory statements.",
+          "The distinction between disclosure and discovery (A04, S064-S066) is upheld without collapsing one into the other, as seen in S062-S063.",
+          "The paper acknowledges potential objections (A10, A11) and integrates them without undermining its core thesis (S112-S116).",
+          "The use of the 'I AM' language for both God (A02, S016-S017) and Jesus (A03, S071-S078) is presented as consistent identity language, not a contradiction."
+        ],
+        "affected_atom_uuids": [
+          "A01",
+          "A02",
+          "A03",
+          "A04",
+          "A05",
+          "A06",
+          "A10",
+          "A11"
+        ]
+      },
+      {
+        "name": "definitional_stability",
+        "score": 8,
+        "reasons": [
+          "Key terms like 'disclosure' and 'discovery' are clearly defined through the bridge (A07, S064-S066) and the child-father analogy (A14, S050-S056).",
+          "The concept of 'the root' is consistently used to refer to God as the ultimate source (A02, S020-S023).",
+          "However, the term 'revelation' is used without a formal definition, though its meaning is contextually clear (S047, S112).",
+          "The phrase 'identity language' (A03, S088) is introduced but not explicitly defined, relying on examples for clarity."
+        ],
+        "affected_atom_uuids": [
+          "A02",
+          "A03",
+          "A04",
+          "A07",
+          "A14"
+        ]
+      },
+      {
+        "name": "inferential_connectedness",
+        "score": 8.5,
+        "reasons": [
+          "The paper builds a coherent argument from the premise that God is the root (A02) to the conclusion that He has spoken (A01, A05).",
+          "The bridge between disclosure and discovery (A07) logically connects the two modes of knowledge (S064-S066).",
+          "The prediction of convergence (A12, S128) follows naturally from the claim that God is both creator and revealer.",
+          "The objection that revelation can be misunderstood (A11) is addressed by acknowledging the need for interpretation and investigation (S112-S116), maintaining inferential flow."
+        ],
+        "affected_atom_uuids": [
+          "A01",
+          "A02",
+          "A05",
+          "A07",
+          "A11",
+          "A12"
+        ]
+      },
+      {
+        "name": "register_boundary_respect",
+        "score": 9,
+        "reasons": [
+          "The paper clearly distinguishes between the register of disclosure (what God says) and discovery (what we infer), as seen in S064-S066.",
+          "It respects the boundary by not claiming that discovery can replace disclosure or vice versa (S062-S063).",
+          "The skeptic's objection (A10) is handled by clarifying that the paper is not arguing from biblical authority to truth (S120-S124), thus respecting the boundary between testimony and proof.",
+          "The paper explicitly states that the disclosed portrait can be stated before it is proven (A06, S126), maintaining a clear boundary between description and justification."
+        ],
+        "affected_atom_uuids": [
+          "A04",
+          "A06",
+          "A07",
+          "A10"
+        ]
+      }
+    ],
+    "contradictions": [],
+    "tensions": [
+      {
+        "atoms": [
+          "A04",
+          "A12"
+        ],
+        "description": "The paper asserts that disclosure and discovery are distinct but convergent (A04), and predicts they will converge if Christianity is true (A12). However, it does not fully specify how to adjudicate cases where they appear to conflict, leaving a tension between the ideal of convergence and the reality of potential disagreement.",
+        "severity": "local"
+      },
+      {
+        "atoms": [
+          "A05",
+          "A11"
+        ],
+        "description": "The claim that Christianity is built on disclosure (A05) is held alongside the acknowledgment that revelation can be misunderstood or false (A11). This creates a tension regarding how one can reliably identify true disclosure, which the paper addresses only partially by noting the need for interpretation and investigation (S112-S116).",
+        "severity": "local"
+      }
+    ],
+    "missing_definitions": [
+      {
+        "term": "revelation",
+        "context": "Used in S047, S112, but not formally defined. It is implicitly understood as God's self-disclosure, but a precise definition would enhance clarity.",
+        "affected_atom_uuids": [
+          "A05",
+          "A11"
+        ]
+      },
+      {
+        "term": "identity language",
+        "context": "Introduced in A03 and S088, but not defined. It refers to Jesus using 'I am' statements to claim divine identity, but the criteria for what counts as identity language are not specified.",
+        "affected_atom_uuids": [
+          "A03"
+        ]
+      }
+    ],
+    "notes": "The paper demonstrates high coherence, with a clear and consistent thesis. The tensions identified are minor and do not undermine the overall argument. The missing definitions are open items that could be addressed in future revisions but do not currently impede understanding."
+  },
+  "love_truth": {
+    "truth_engine": {
+      "words": 1201,
+      "hits": {
+        "fruit": 20,
+        "anti_fruit": 1,
+        "grounding": 16,
+        "contradiction": 9,
+        "propaganda": 2,
+        "academic_jargon": 0
+      },
+      "per_100_words": {
+        "fruit": 1.665,
+        "anti_fruit": 0.083,
+        "grounding": 1.332,
+        "contradiction": 0.749,
+        "propaganda": 0.167,
+        "academic_jargon": 0.0
+      },
+      "sentence_share": {
+        "fruit": 0.127,
+        "anti_fruit": 0.007,
+        "grounding": 0.113,
+        "contradiction": 0.056,
+        "propaganda": 0.014,
+        "academic_jargon": 0.0
+      },
+      "subcategories": {
+        "fruit:Epistemic": 10,
+        "fruit:Unclassified": 10,
+        "contradiction:": 9,
+        "grounding:calibration": 5,
+        "grounding:general": 3,
+        "grounding:attribution": 3,
+        "propaganda:absolutism": 2,
+        "grounding:logic": 2,
+        "grounding:evidence": 2,
+        "grounding:specifics": 1,
+        "anti_fruit:general": 1
+      },
+      "truth_score_raw": 3.496,
+      "truth_score_0_1": 0.852,
+      "top_words": {
+        "fruit": {
+          "truth": 4,
+          "investigation": 3,
+          "source": 3,
+          "kind": 2,
+          "question": 2,
+          "whole": 2,
+          "good": 1,
+          "evidence": 1
+        },
+        "anti_fruit": {
+          "voice": 1
+        },
+        "grounding": {
+          "may": 4,
+          "investigation": 3,
+          "source": 3,
+          "could": 1,
+          "because": 1,
+          "measured": 1,
+          "study": 1,
+          "evidence": 1
+        },
+        "contradiction": {
+          "but": 7,
+          "actually": 1,
+          "yet": 1
+        },
+        "propaganda": {
+          "all": 2
+        },
+        "academic_jargon": {}
+      }
+    },
+    "characterizations": [],
+    "profile": {
+      "version": "0.1.0-draft",
+      "scores": {
+        "love": 2,
+        "joy": 2,
+        "peace": 2,
+        "patience": 2,
+        "kindness": 2,
+        "goodness": 2,
+        "faithfulness": 2,
+        "gentleness": 2,
+        "self_control": 2
+      },
+      "mean_confidence": 0.311,
+      "status": "ASSESSED",
+      "love_axis": 0.5,
+      "truth_axis": 0.787,
+      "truth_parts": {
+        "lexicon": 0.852,
+        "coherence": 0.85,
+        "truth_gate": 0.66
+      },
+      "quadrant": "No Signal (nearest: Grace and Truth)",
+      "levels": [
+        "No Signal"
+      ],
+      "shapes_matched": [],
+      "shapes_ranked": [
+        {
+          "name": "Shepherd",
+          "gap": 0.0,
+          "match": false,
+          "high": [
+            "patience",
+            "gentleness",
+            "kindness"
+          ],
+          "low": []
+        },
+        {
+          "name": "Prophet",
+          "gap": 0.0,
+          "match": false,
+          "high": [
+            "faithfulness",
+            "goodness",
+            "self_control"
+          ],
+          "low": [
+            "peace",
+            "gentleness"
+          ]
+        },
+        {
+          "name": "Pharisee",
+          "gap": 0.0,
+          "match": false,
+          "high": [
+            "self_control",
+            "faithfulness"
+          ],
+          "low": [
+            "love",
+            "kindness",
+            "gentleness"
+          ]
+        },
+        {
+          "name": "Stoic",
+          "gap": 0.0,
+          "match": false,
+          "high": [
+            "self_control",
+            "patience"
+          ],
+          "low": [
+            "joy",
+            "love"
+          ]
+        },
+        {
+          "name": "Zealot",
+          "gap": 0.0,
+          "match": false,
+          "high": [
+            "faithfulness",
+            "joy"
+          ],
+          "low": [
+            "patience",
+            "gentleness",
+            "self_control"
+          ]
+        },
+        {
+          "name": "Peacemaker",
+          "gap": 0.0,
+          "match": false,
+          "high": [
+            "peace",
+            "gentleness",
+            "patience"
+          ],
+          "low": []
+        },
+        {
+          "name": "Peacekeeper (false peace)",
+          "gap": 0.0,
+          "match": false,
+          "high": [
+            "peace",
+            "gentleness"
+          ],
+          "low": [
+            "goodness",
+            "faithfulness"
+          ]
+        },
+        {
+          "name": "Enthusiast",
+          "gap": 0.0,
+          "match": false,
+          "high": [
+            "joy",
+            "love"
+          ],
+          "low": [
+            "patience",
+            "self_control"
+          ]
+        },
+        {
+          "name": "Servant",
+          "gap": 0.0,
+          "match": false,
+          "high": [
+            "kindness",
+            "goodness"
+          ],
+          "low": []
+        },
+        {
+          "name": "Witness",
+          "gap": 0.0,
+          "match": false,
+          "high": [
+            "faithfulness",
+            "love"
+          ],
+          "low": []
+        }
+      ],
+      "profile_deviation": {
+        "love": 0.0,
+        "joy": 0.0,
+        "peace": 0.0,
+        "patience": 0.0,
+        "kindness": 0.0,
+        "goodness": 0.0,
+        "faithfulness": 0.0,
+        "gentleness": 0.0,
+        "self_control": 0.0
+      }
+    }
+  }
+}

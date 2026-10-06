@@ -1,0 +1,28 @@
+---
+fis_schema: "folder-index.v1"
+folder_id: "FLD-20260907-a07ced27"
+folder: "GitHub\Research-Acquisition\crawl4ai\bible_contradictions_organized\AUDIENCE"
+folder_class: "project"
+confidence: 0.6
+dependency_risk: 0.0
+dominant_family: "text"
+dominant_ratio: 0.917
+file_count: 12
+classified_at: "2026-09-07T16:07:36"
+allowed_actions: ["index", "rename_internal", "subfolder_sort", "archive_exports"]
+suggested_name: "audience"
+---
+
+# FIS Folder Index: AUDIENCE
+
+**Class**: project  ·  **Confidence**: 60%  ·  **Files**: 12  ·  **Dominant**: text (92%)
+
+## Allowed actions
+- index
+- rename_internal
+- subfolder_sort
+- archive_exports
+
+**Suggested name**: `audience`  (not applied — review before use)
+
+<!-- FIS folder-index.v1: parseable note; safe to regenerate. -->

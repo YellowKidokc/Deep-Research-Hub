@@ -1,0 +1,124 @@
+{
+  "station": "stories",
+  "paper_uuid": "O-08A_part_00_hook_e41c8dac",
+  "run_uuid": "deep-98981051040b",
+  "stories": [
+    {
+      "story_id": "st-001",
+      "title_or_label": "The Endless Argument",
+      "story_type": "illustration",
+      "source_span": "P04 S005–S017; P05 S018–S023",
+      "characters_or_agents": [
+        "you",
+        "the other side",
+        "everybody"
+      ],
+      "setting_or_context": "Contemporary political and cultural discourse across multiple contested issues.",
+      "plot_or_sequence": "A list of familiar fights is presented (immigration, guns, abortion, healthcare, criminal justice, climate, AI, culture war, Trump, rigged system, left/right/libertarian characterizations). The reader is told they have argued for years, as has the other side; nothing resolves, arguments get louder, positions harden, and there is a felt sense that everyone is fighting about the wrong thing.",
+      "intended_function": "motivate",
+      "claims_illustrated": [
+        "A01",
+        "A02",
+        "A03"
+      ],
+      "emotional_or_rhetorical_load": "High. Uses frustration, exhaustion, and a sense of futility to create resonance and set up the paper's central claim.",
+      "boundaries": {
+        "what_it_shows": "That people experience persistent, unresolved disagreement across many issues and feel something is misdirected.",
+        "what_it_does_not_show": "That the disagreements are actually about a single hidden line, that the line has a mathematical structure, or that resolution is impossible from inside.",
+        "what_would_falsify_the_narrative": "Evidence that public disagreements do resolve over time, or that participants accurately identify the true locus of disagreement."
+      },
+      "evidence_for_historical_content": [],
+      "is_separable_from_argument": true,
+      "notes": "Functions as a hook; the argument does not depend on the reader sharing this experience, but the rhetorical force does."
+    },
+    {
+      "story_id": "st-002",
+      "title_or_label": "The Line and the Exit",
+      "story_type": "thought_experiment",
+      "source_span": "P07 S025–S030",
+      "characters_or_agents": [
+        "nobody in the argument"
+      ],
+      "setting_or_context": "Abstract spatial metaphor of a line and a point off the line.",
+      "plot_or_sequence": "Every fight is described as an argument about where to sit on a line; nobody knows the line exists; the line has a mathematical structure, an inside constraint making resolution impossible, a repeating history, and exactly one exit that is not a better position on the line but a point off the line entirely.",
+      "intended_function": "explain",
+      "claims_illustrated": [
+        "A02",
+        "A03"
+      ],
+      "emotional_or_rhetorical_load": "Moderate. Creates a sense of hidden structure and a singular escape.",
+      "boundaries": {
+        "what_it_shows": "A conceptual model in which internal positions cannot resolve a problem and an external point is required.",
+        "what_it_does_not_show": "That this model corresponds to any actual mathematical theorem or historical pattern.",
+        "what_would_falsify_the_narrative": "Demonstration that the described line and constraint do not map onto any formal system or that resolution from inside is possible."
+      },
+      "evidence_for_historical_content": [],
+      "is_separable_from_argument": false,
+      "notes": "Structurally load-bearing as the paper's central metaphor; later parts presumably formalize it."
+    },
+    {
+      "story_id": "st-003",
+      "title_or_label": "The Ten-Point Promise",
+      "story_type": "sermon_arc",
+      "source_span": "P09 S038–P11 S061",
+      "characters_or_agents": [
+        "we",
+        "you"
+      ],
+      "setting_or_context": "A structured preview of the document's argument.",
+      "plot_or_sequence": "A numbered list of ten claims is presented, each introduced by 'That...', covering moral realism, self-reference limits, external reference, institutional capture sequence, shame enforcement, population sorting, communication technology cycles, justice/mercy constraint, historical trajectory, and a unique reversal event. The list concludes that if the claims hold, they form a single explanatory structure.",
+      "intended_function": "persuade",
+      "claims_illustrated": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "emotional_or_rhetorical_load": "Moderate to high. Builds anticipation and a sense of comprehensive explanatory power.",
+      "boundaries": {
+        "what_it_shows": "The paper's intended thesis structure and scope.",
+        "what_it_does_not_show": "That any of the ten claims are true or supported by evidence.",
+        "what_would_falsify_the_narrative": "Failure of one or more claims under examination, or demonstration that the claims do not cohere into a single structure."
+      },
+      "evidence_for_historical_content": [],
+      "is_separable_from_argument": false,
+      "notes": "This is a roadmap, not evidence; it is the argument's skeleton."
+    },
+    {
+      "story_id": "st-004",
+      "title_or_label": "The Open Invitation",
+      "story_type": "sermon_arc",
+      "source_span": "P12 S062–P13 S066",
+      "characters_or_agents": [
+        "we",
+        "you"
+      ],
+      "setting_or_context": "A meta-level appeal to the reader's epistemic agency.",
+      "plot_or_sequence": "The authors disclaim asking for belief, invite the reader to follow the argument and check evidence, ask to be shown where it breaks, promise to publish the break alongside the argument, and suggest that if it changes everything, that is between the reader and the evidence.",
+      "intended_function": "persuade",
+      "claims_illustrated": [],
+      "emotional_or_rhetorical_load": "Moderate. Conveys humility and confidence, lowering defensive barriers.",
+      "boundaries": {
+        "what_it_shows": "A rhetorical stance of openness to falsification.",
+        "what_it_does_not_show": "That the authors will actually publish disconfirming evidence or that the framework is falsifiable in practice.",
+        "what_would_falsify_the_narrative": "Evidence that the authors suppress criticism or that the framework cannot be broken by evidence."
+      },
+      "evidence_for_historical_content": [],
+      "is_separable_from_argument": true,
+      "notes": "A credibility-building device; separable from the substantive argument."
+    }
+  ],
+  "narrative_arc": {
+    "opening_device": "A direct address listing familiar political fights and the felt futility of endless argument.",
+    "central_tension": "Everyone is fighting about positions on a line whose existence and structure they do not know, making resolution impossible from inside.",
+    "resolution_or_payoff": "A promised ten-point structure that, if true, explains the fights and points to a single exit off the line.",
+    "return_to_opening": false
+  },
+  "notes": "The paper is a hook/roadmap with no developed narratives beyond the opening illustration and the central metaphor. Historical claims (e.g., institutional capture since 2015, unique reversal event) are asserted but not evidenced in this part; they are linked to claims A04, A05, A10 but lack supporting evidence atoms here."
+}

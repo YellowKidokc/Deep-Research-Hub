@@ -1,0 +1,13 @@
+[
+  {"id":"clean_dictation","name":"Clean Dictation","module":"02_clean_dictation","description":"Clean up dictated text while preserving meaning."},
+  {"id":"overclaim_detector","name":"Overclaim Detector","module":"03_overclaim_detector","description":"Flag unsupported or overstated claims."},
+  {"id":"grammar_fix","name":"Grammar Fix","module":"04_grammar_fix","description":"Basic grammar and whitespace cleanup."},
+  {"id":"rephrase_5_ways","name":"Rephrase 5 Ways","module":"05_rephrase_5_ways","description":"Generate five alternate phrasings."},
+  {"id":"full_audit","name":"Full Audit","module":"06_full_audit","description":"Run a compact quality audit."},
+  {"id":"markov_chain","name":"Markov Chain","module":"07_markov_chain","description":"Create a simple Markov-style continuation."},
+  {"id":"motif_scan","name":"Motif Scan","module":"08_motif_scan","description":"Scan text for repeated motifs and terms."},
+  {"id":"adversarial_check","name":"Adversarial Check","module":"09_adversarial_check","description":"Challenge assumptions and weak points."},
+  {"id":"kimi_chat","name":"Kimi Chat Placeholder","module":"10_kimi_chat","description":"Placeholder for future Kimi provider integration."},
+  {"id":"classification_quick_map","name":"Classification Quick Map","module":"11_classification_quick_map","description":"Build a fast Nabla-Chi address, vector, and review posture from the selected text."},
+  {"id":"classification_canon","name":"Classification Canon","module":"12_classification_canon","description":"Show the single Stratum home for the classification standard and quick reference."}
+]

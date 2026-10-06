@@ -1,0 +1,478 @@
+{
+  "station": "lean4",
+  "paper_uuid": "Gary Habermas - Chapter 001 - The Resurrection Connection to Christian Theology - Gary Habermas with @Real Seekers",
+  "run_uuid": "deep-4f4c545f44b6",
+  "template": "00_FULL_LEAN_TEMPLATE.md",
+  "formal_candidates": [
+    {
+      "identity": {
+        "claim_id": "A02",
+        "candidate_uuid": "lean4-A02-0001"
+      },
+      "source_selection": {
+        "exact_source_expression": "If there's a resurrection, I think there's a God. ... if God raised this person from the dead, you've got a couple issues.",
+        "selection_disposition": "FORMALIZE",
+        "reason": "This is a conditional entailment claim with a clear logical form: from the occurrence of a resurrection event, infer the existence of a divine agent. It can be encoded as a theorem over an abstract event/agent model, with the causal premise made explicit."
+      },
+      "formal_object": {
+        "object_type": "THEOREM",
+        "exact_proposed_statement": "In any model with a type of events, a predicate 'is a resurrection', and a predicate 'is caused by God', if every resurrection event is caused by God and at least one resurrection event occurs, then there exists a God.",
+        "fully_qualified_declaration": "Habermas.ResurrectionEntailsGod.resurrection_entails_god",
+        "project_root": "HabermasResurrection",
+        "module": "HabermasResurrection.Theology.Entailment"
+      },
+      "symbol_table": [
+        {
+          "term": "Event",
+          "formal_definition": "Type",
+          "reader_meaning": "A historical occurrence, such as the resurrection of Jesus.",
+          "source_correspondence": "The event called 'resurrection' in S221, S230, S236."
+        },
+        {
+          "term": "IsResurrection",
+          "formal_definition": "Event → Prop",
+          "reader_meaning": "The event is a resurrection from the dead.",
+          "source_correspondence": "The phrase 'if there's a resurrection' in S221."
+        },
+        {
+          "term": "CausedByGod",
+          "formal_definition": "Event → Prop",
+          "reader_meaning": "The event is caused by God.",
+          "source_correspondence": "The phrase 'if God raised this person from the dead' in S226."
+        },
+        {
+          "term": "ExistsGod",
+          "formal_definition": "Prop",
+          "reader_meaning": "There exists a God.",
+          "source_correspondence": "The conclusion 'I think there's a God' in S221."
+        }
+      ],
+      "assumptions_and_dependencies": {
+        "explicit_premises": [
+          "∀ e : Event, IsResurrection e → CausedByGod e",
+          "∃ e : Event, IsResurrection e"
+        ],
+        "custom_axioms": [],
+        "theological_starting_premises": "The premise that resurrection events are caused by God is a theological assumption, not a purely logical truth.",
+        "non_vacuity_requirement": "The type Event must be inhabited by at least one resurrection event; otherwise the theorem is vacuous."
+      },
+      "verification_controls": [
+        {
+          "check": "module compilation",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "Lean corpus was not searched and no build was attempted in this run."
+        },
+        {
+          "check": "declaration inspection",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No existing declaration was inspected."
+        },
+        {
+          "check": "axiom dependency",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No axiom dependency check was performed."
+        },
+        {
+          "check": "non-vacuity",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "Non-vacuity of the event type was not checked."
+        }
+      ],
+      "result_and_boundary": {
+        "verification_status": "CANDIDATE",
+        "what_is_established": "If the formal premises are accepted, the theorem establishes the conditional: a resurrection event plus the causal premise entails the existence of God.",
+        "what_remains_open": "The theorem does not establish that any resurrection event actually occurred, nor that God is the only possible cause, nor any specific divine attributes.",
+        "encoding_fidelity_review": "The encoding abstracts away from historical evidence and treats 'God' as an unanalyzed predicate. It captures the conditional structure but not the evidential reasoning.",
+        "interpretive_connections": "This formalizes the 'backdoor' argument in S221–S226 and the later summary in S284–S292."
+      },
+      "reproduction_receipt": {
+        "run_id": "",
+        "timestamp": "",
+        "source_hashes": {},
+        "commands": [],
+        "exit_codes": [],
+        "log_paths": [],
+        "declarations_checked": []
+      },
+      "corpus_links": {
+        "human_companion": "",
+        "corpus_claim_register": "",
+        "supporting_summaries": []
+      }
+    },
+    {
+      "identity": {
+        "claim_id": "A03",
+        "candidate_uuid": "lean4-A03-0002"
+      },
+      "source_selection": {
+        "exact_source_expression": "God wouldn't raise a false teacher ... if Jesus is raised from the dead and his leading teaching is true ... the old argument is still true. God doesn't wouldn't raise a heretic from the dead.",
+        "selection_disposition": "FORMALIZE",
+        "reason": "This is a conditional theological argument with a clear inferential structure: from the resurrection of Jesus and the premise that God would not raise a false teacher, infer the truth of Jesus' claims (including deity). It can be formalized as a theorem over propositions."
+      },
+      "formal_object": {
+        "object_type": "THEOREM",
+        "exact_proposed_statement": "If Jesus was raised from the dead, and if God would not raise a false teacher, and if Jesus taught that he was divine, then Jesus' claim to divinity is true.",
+        "fully_qualified_declaration": "Habermas.ResurrectionEntailsDeity.resurrection_entails_deity",
+        "project_root": "HabermasResurrection",
+        "module": "HabermasResurrection.Theology.Deity"
+      },
+      "symbol_table": [
+        {
+          "term": "RaisedJesus",
+          "formal_definition": "Prop",
+          "reader_meaning": "Jesus was raised from the dead.",
+          "source_correspondence": "The phrase 'if Jesus is raised from the dead' in S262."
+        },
+        {
+          "term": "GodWouldNotRaiseFalseTeacher",
+          "formal_definition": "Prop",
+          "reader_meaning": "God would not raise a false teacher from the dead.",
+          "source_correspondence": "The phrase 'God doesn't wouldn't raise a heretic from the dead' in S260."
+        },
+        {
+          "term": "JesusTaughtDivine",
+          "formal_definition": "Prop",
+          "reader_meaning": "Jesus taught that he was divine.",
+          "source_correspondence": "The discussion of Jesus' claims in Mark 2 and Mark 14 in S779–S806."
+        },
+        {
+          "term": "JesusIsDivine",
+          "formal_definition": "Prop",
+          "reader_meaning": "Jesus is divine.",
+          "source_correspondence": "The conclusion that Jesus' claim to deity is confirmed in S824–S826."
+        }
+      ],
+      "assumptions_and_dependencies": {
+        "explicit_premises": [
+          "RaisedJesus",
+          "GodWouldNotRaiseFalseTeacher",
+          "JesusTaughtDivine",
+          "JesusTaughtDivine → (¬ JesusIsDivine → False)"
+        ],
+        "custom_axioms": [],
+        "theological_starting_premises": "The premise that God would not raise a false teacher is a theological assumption.",
+        "non_vacuity_requirement": "The propositions must be consistently instantiable; the argument is not vacuous if the premises are jointly satisfiable."
+      },
+      "verification_controls": [
+        {
+          "check": "module compilation",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No build was attempted."
+        },
+        {
+          "check": "declaration inspection",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No existing declaration was inspected."
+        },
+        {
+          "check": "axiom dependency",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No axiom dependency check was performed."
+        },
+        {
+          "check": "non-vacuity",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "Non-vacuity was not checked."
+        }
+      ],
+      "result_and_boundary": {
+        "verification_status": "CANDIDATE",
+        "what_is_established": "The theorem establishes the conditional: given the premises, Jesus' claim to divinity is true.",
+        "what_remains_open": "The theorem does not establish that Jesus was raised, that God would not raise a false teacher, or that Jesus actually taught divinity. It also does not address competing miracle claims or alternative explanations.",
+        "encoding_fidelity_review": "The encoding treats the theological premises as unanalyzed propositions. It captures the modus ponens structure but not the evidential support for the premises.",
+        "interpretive_connections": "This formalizes the argument in S260–S264 and S824–S826."
+      },
+      "reproduction_receipt": {
+        "run_id": "",
+        "timestamp": "",
+        "source_hashes": {},
+        "commands": [],
+        "exit_codes": [],
+        "log_paths": [],
+        "declarations_checked": []
+      },
+      "corpus_links": {
+        "human_companion": "",
+        "corpus_claim_register": "",
+        "supporting_summaries": []
+      }
+    },
+    {
+      "identity": {
+        "claim_id": "A05",
+        "candidate_uuid": "lean4-A05-0003"
+      },
+      "source_selection": {
+        "exact_source_expression": "I like Richard Swinsburn's definition that a miracle it's it at its best it's a one-time event where the evidence is very good. It occurred and it is for the purpose of evidencing a message.",
+        "selection_disposition": "FORMALIZE",
+        "reason": "This is a definitional claim about the nature of miracles. It can be encoded as a definition in Lean, providing a formal predicate for 'miracle' that can be used in further theorems."
+      },
+      "formal_object": {
+        "object_type": "DEFINITION",
+        "exact_proposed_statement": "A miracle is an event that is (1) caused by God, (2) occurs once (non-repeatable), (3) has very good evidence, and (4) serves as a sign evidencing a message.",
+        "fully_qualified_declaration": "Habermas.Miracle.is_miracle",
+        "project_root": "HabermasResurrection",
+        "module": "HabermasResurrection.Philosophy.Miracle"
+      },
+      "symbol_table": [
+        {
+          "term": "Event",
+          "formal_definition": "Type",
+          "reader_meaning": "A historical occurrence.",
+          "source_correspondence": "The event in question."
+        },
+        {
+          "term": "CausedByGod",
+          "formal_definition": "Event → Prop",
+          "reader_meaning": "The event is caused by God.",
+          "source_correspondence": "S398–S400."
+        },
+        {
+          "term": "OneTime",
+          "formal_definition": "Event → Prop",
+          "reader_meaning": "The event is a one-time occurrence, not repeatable under normal circumstances.",
+          "source_correspondence": "S440."
+        },
+        {
+          "term": "GoodEvidence",
+          "formal_definition": "Event → Prop",
+          "reader_meaning": "There is very good evidence that the event occurred.",
+          "source_correspondence": "S440."
+        },
+        {
+          "term": "EvidencesMessage",
+          "formal_definition": "Event → Prop",
+          "reader_meaning": "The event serves as a sign to evidence a message.",
+          "source_correspondence": "S441."
+        }
+      ],
+      "assumptions_and_dependencies": {
+        "explicit_premises": [],
+        "custom_axioms": [],
+        "theological_starting_premises": "The definition includes 'CausedByGod', which is a theological notion.",
+        "non_vacuity_requirement": "The definition should be non-vacuous; there should be at least one event satisfying it, though this is not required for the definition itself."
+      },
+      "verification_controls": [
+        {
+          "check": "module compilation",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No build was attempted."
+        },
+        {
+          "check": "declaration inspection",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No existing declaration was inspected."
+        },
+        {
+          "check": "non-vacuity",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "Non-vacuity was not checked."
+        }
+      ],
+      "result_and_boundary": {
+        "verification_status": "CANDIDATE",
+        "what_is_established": "The definition provides a formal predicate for 'miracle' that can be used in subsequent theorems.",
+        "what_remains_open": "The definition does not establish that any event satisfies it, nor does it resolve philosophical disputes about the nature of miracles.",
+        "encoding_fidelity_review": "The encoding captures the four criteria mentioned by Habermas but leaves them as unanalyzed predicates. It does not formalize the epistemic notion of 'good evidence'.",
+        "interpretive_connections": "This formalizes the definition given in S440–S441 and related discussion in S398–S400."
+      },
+      "reproduction_receipt": {
+        "run_id": "",
+        "timestamp": "",
+        "source_hashes": {},
+        "commands": [],
+        "exit_codes": [],
+        "log_paths": [],
+        "declarations_checked": []
+      },
+      "corpus_links": {
+        "human_companion": "",
+        "corpus_claim_register": "",
+        "supporting_summaries": []
+      }
+    },
+    {
+      "identity": {
+        "claim_id": "A06",
+        "candidate_uuid": "lean4-A06-0004"
+      },
+      "source_selection": {
+        "exact_source_expression": "If naturalism is not an empirical claim, but your epistemology requires empirical claims. Guess what? You flunked.",
+        "selection_disposition": "FORMALIZE",
+        "reason": "This is a self-undermining argument against naturalism based on an epistemic requirement. It can be formalized as a theorem showing that if an epistemology requires all claims to be empirical, and naturalism is not empirical, then naturalism is not justified under that epistemology."
+      },
+      "formal_object": {
+        "object_type": "THEOREM",
+        "exact_proposed_statement": "If an epistemology requires that all justified claims be empirical, and naturalism is not an empirical claim, then naturalism is not justified under that epistemology.",
+        "fully_qualified_declaration": "Habermas.NaturalismSelfUndermining.naturalism_self_undermining",
+        "project_root": "HabermasResurrection",
+        "module": "HabermasResurrection.Philosophy.Naturalism"
+      },
+      "symbol_table": [
+        {
+          "term": "Empirical",
+          "formal_definition": "Prop → Prop",
+          "reader_meaning": "A claim is empirical (verifiable or falsifiable by observation).",
+          "source_correspondence": "The notion of empirical claims in S500."
+        },
+        {
+          "term": "Justified",
+          "formal_definition": "Prop → Prop",
+          "reader_meaning": "A claim is justified under the given epistemology.",
+          "source_correspondence": "The notion of justification implicit in the argument."
+        },
+        {
+          "term": "Naturalism",
+          "formal_definition": "Prop",
+          "reader_meaning": "The philosophical claim that nature is all there is.",
+          "source_correspondence": "The naturalism discussed in S494–S502."
+        }
+      ],
+      "assumptions_and_dependencies": {
+        "explicit_premises": [
+          "∀ p : Prop, Justified p → Empirical p",
+          "¬ Empirical Naturalism"
+        ],
+        "custom_axioms": [],
+        "theological_starting_premises": "None; this is a purely epistemic argument.",
+        "non_vacuity_requirement": "The premises must be consistent; the argument is not vacuous if there is at least one proposition that is not empirical."
+      },
+      "verification_controls": [
+        {
+          "check": "module compilation",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No build was attempted."
+        },
+        {
+          "check": "declaration inspection",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No existing declaration was inspected."
+        },
+        {
+          "check": "axiom dependency",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No axiom dependency check was performed."
+        }
+      ],
+      "result_and_boundary": {
+        "verification_status": "CANDIDATE",
+        "what_is_established": "The theorem establishes that under the stated epistemic requirement, naturalism is not justified.",
+        "what_remains_open": "The theorem does not establish that the epistemic requirement is correct, nor that naturalism is false. It only shows an internal tension.",
+        "encoding_fidelity_review": "The encoding treats 'Empirical' and 'Justified' as unanalyzed predicates. It captures the logical form of the self-undermining argument.",
+        "interpretive_connections": "This formalizes the argument in S494–S502."
+      },
+      "reproduction_receipt": {
+        "run_id": "",
+        "timestamp": "",
+        "source_hashes": {},
+        "commands": [],
+        "exit_codes": [],
+        "log_paths": [],
+        "declarations_checked": []
+      },
+      "corpus_links": {
+        "human_companion": "",
+        "corpus_claim_register": "",
+        "supporting_summaries": []
+      }
+    },
+    {
+      "identity": {
+        "claim_id": "A16",
+        "candidate_uuid": "lean4-A16-0005"
+      },
+      "source_selection": {
+        "exact_source_expression": "If someone else rose from the dead, or Jesus was wrong about the kingdom, the argument dies.",
+        "selection_disposition": "FORMALIZE",
+        "reason": "This is a kill condition for the argument that resurrection entails deity. It can be formalized as a theorem showing that if the premises of the argument are false, the conclusion does not follow."
+      },
+      "formal_object": {
+        "object_type": "THEOREM",
+        "exact_proposed_statement": "If either someone else rose from the dead or Jesus was wrong about the kingdom, then the argument that resurrection entails deity fails.",
+        "fully_qualified_declaration": "Habermas.ResurrectionEntailsDeity.kill_condition",
+        "project_root": "HabermasResurrection",
+        "module": "HabermasResurrection.Theology.Deity"
+      },
+      "symbol_table": [
+        {
+          "term": "SomeoneElseRose",
+          "formal_definition": "Prop",
+          "reader_meaning": "Someone other than Jesus rose from the dead.",
+          "source_correspondence": "The phrase 'If someone else rose from the dead' in S016."
+        },
+        {
+          "term": "JesusWrongKingdom",
+          "formal_definition": "Prop",
+          "reader_meaning": "Jesus was wrong about the kingdom of God.",
+          "source_correspondence": "The phrase 'or Jesus was wrong about the kingdom' in S016."
+        },
+        {
+          "term": "ArgumentFails",
+          "formal_definition": "Prop",
+          "reader_meaning": "The argument that resurrection entails deity does not hold.",
+          "source_correspondence": "The phrase 'the argument dies' in S016."
+        }
+      ],
+      "assumptions_and_dependencies": {
+        "explicit_premises": [
+          "SomeoneElseRose ∨ JesusWrongKingdom → ArgumentFails"
+        ],
+        "custom_axioms": [],
+        "theological_starting_premises": "None; this is a logical condition.",
+        "non_vacuity_requirement": "The disjunction must be possibly true for the kill condition to be meaningful."
+      },
+      "verification_controls": [
+        {
+          "check": "module compilation",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No build was attempted."
+        },
+        {
+          "check": "declaration inspection",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No existing declaration was inspected."
+        }
+      ],
+      "result_and_boundary": {
+        "verification_status": "CANDIDATE",
+        "what_is_established": "The theorem establishes the logical condition under which the argument fails.",
+        "what_remains_open": "The theorem does not establish whether the antecedent is true or false.",
+        "encoding_fidelity_review": "The encoding is a straightforward implication. It captures the kill condition as stated.",
+        "interpretive_connections": "This formalizes the kill condition mentioned in S016."
+      },
+      "reproduction_receipt": {
+        "run_id": "",
+        "timestamp": "",
+        "source_hashes": {},
+        "commands": [],
+        "exit_codes": [],
+        "log_paths": [],
+        "declarations_checked": []
+      },
+      "corpus_links": {
+        "human_companion": "",
+        "corpus_claim_register": "",
+        "supporting_summaries": []
+      }
+    }
+  ],
+  "existing_matches": [],
+  "notes": "The Lean corpus was not searched in this run. All verification controls are NOT_RUN and verification statuses are CANDIDATE. The formal candidates are proposed encodings of the extracted claims, not verified Lean declarations. They capture the logical structure of the arguments but abstract away from historical and theological evidence."
+}

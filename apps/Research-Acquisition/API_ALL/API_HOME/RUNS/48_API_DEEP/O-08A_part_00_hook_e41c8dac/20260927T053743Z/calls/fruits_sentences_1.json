@@ -1,0 +1,1041 @@
+{
+  "name": "fruits_sentences_1",
+  "parsed": {
+    "range": "S001-S068",
+    "sentences": [
+      {
+        "id": "S001",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S002",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S003",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S004",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S005",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S006",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S007",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S008",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S009",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S010",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S011",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S012",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S013",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S014",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S015",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S016",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S017",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S018",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S019",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S020",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S021",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S022",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S023",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S024",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S025",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S026",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S027",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S028",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S029",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S030",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S031",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S032",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S033",
+        "v": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "why": {
+          "love": "warns reader against being sold a false fix"
+        }
+      },
+      {
+        "id": "S034",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S035",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S036",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S037",
+        "v": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "why": {
+          "love": "preserves reader's agency to verify themselves",
+          "self_control": "defers claim to reader verification"
+        }
+      },
+      {
+        "id": "S038",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S039",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S040",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1
+        ],
+        "why": {
+          "self_control": "asserts invariance as fact without hedging"
+        }
+      },
+      {
+        "id": "S041",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S042",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1
+        ],
+        "why": {
+          "self_control": "claims 'proven' mathematics without showing it"
+        }
+      },
+      {
+        "id": "S043",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S044",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1
+        ],
+        "why": {
+          "self_control": "asserts continuous record as established fact"
+        }
+      },
+      {
+        "id": "S045",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S046",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1
+        ],
+        "why": {
+          "self_control": "calls sequence documented without evidence shown"
+        }
+      },
+      {
+        "id": "S047",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S048",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1
+        ],
+        "why": {
+          "self_control": "asserts official policy since 2015 unhedged"
+        }
+      },
+      {
+        "id": "S049",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S050",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1
+        ],
+        "why": {
+          "self_control": "asserts population sorting as fact"
+        }
+      },
+      {
+        "id": "S051",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S052",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1
+        ],
+        "why": {
+          "self_control": "sweeping universal pattern claim unhedged"
+        }
+      },
+      {
+        "id": "S053",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S054",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1
+        ],
+        "why": {
+          "self_control": "claims provable by algebra without showing"
+        }
+      },
+      {
+        "id": "S055",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S056",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S057",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S058",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1
+        ],
+        "why": {
+          "self_control": "asserts universal trajectory across all dimensions"
+        }
+      },
+      {
+        "id": "S059",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S060",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1
+        ],
+        "why": {
+          "self_control": "claims unique unmatched event as fact"
+        }
+      },
+      {
+        "id": "S061",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "why": {
+          "self_control": "conditions structure on claims holding up"
+        }
+      },
+      {
+        "id": "S062",
+        "v": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "why": {
+          "love": "respects reader's agency, asks no belief",
+          "self_control": "explicitly avoids overclaiming belief"
+        }
+      },
+      {
+        "id": "S063",
+        "v": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "why": {
+          "faithfulness": "invites checking evidence against claims",
+          "love": "invites reader to verify rather than trust"
+        }
+      },
+      {
+        "id": "S064",
+        "v": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        "why": {
+          "gentleness": "invites opponent to show where it breaks",
+          "faithfulness": "submits framework to falsification"
+        }
+      },
+      {
+        "id": "S065",
+        "v": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0
+        ],
+        "why": {
+          "faithfulness": "commits to publishing criticism against itself",
+          "gentleness": "restrains own authority, welcomes challenge"
+        }
+      },
+      {
+        "id": "S066",
+        "v": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "why": {
+          "love": "leaves conclusion to reader and evidence",
+          "self_control": "declines to overclaim the outcome"
+        }
+      },
+      {
+        "id": "S067",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S068",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "fruits_sentences_1",
+      "attempt": 1,
+      "text": "{\"range\": \"S001-S068\", \"sentences\": [\n  {\"id\": \"S001\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S002\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S003\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S004\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S005\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S006\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S007\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S008\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S009\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S010\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S011\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S012\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S013\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S014\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S015\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S016\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S017\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S018\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S019\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S020\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S021\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S022\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S023\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S024\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S025\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S026\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S027\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S028\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S029\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S030\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S031\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S032\", \"v\": [0,0,0,1,0,0,0,0,0]},\n  {\"id\": \"S033\", \"v\": [1,0,0,0,0,0,0,0,0], \"why\": {\"love\": \"warns reader against being sold a false fix\"}},\n  {\"id\": \"S034\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S035\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S036\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S037\", \"v\": [1,0,0,1,0,0,0,0,1], \"why\": {\"love\": \"preserves reader's agency to verify themselves\", \"self_control\": \"defers claim to reader verification\"}},\n  {\"id\": \"S038\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S039\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S040\", \"v\": [0,0,0,0,0,0,0,0,-1], \"why\": {\"self_control\": \"asserts invariance as fact without hedging\"}},\n  {\"id\": \"S041\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S042\", \"v\": [0,0,0,0,0,0,0,0,-1], \"why\": {\"self_control\": \"claims 'proven' mathematics without showing it\"}},\n  {\"id\": \"S043\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S044\", \"v\": [0,0,0,0,0,0,0,0,-1], \"why\": {\"self_control\": \"asserts continuous record as established fact\"}},\n  {\"id\": \"S045\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S046\", \"v\": [0,0,0,0,0,0,0,0,-1], \"why\": {\"self_control\": \"calls sequence documented without evidence shown\"}},\n  {\"id\": \"S047\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S048\", \"v\": [0,0,0,0,0,0,0,0,-1], \"why\": {\"self_control\": \"asserts official policy since 2015 unhedged\"}},\n  {\"id\": \"S049\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S050\", \"v\": [0,0,0,0,0,0,0,0,-1], \"why\": {\"self_control\": \"asserts population sorting as fact\"}},\n  {\"id\": \"S051\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S052\", \"v\": [0,0,0,0,0,0,0,0,-1], \"why\": {\"self_control\": \"sweeping universal pattern claim unhedged\"}},\n  {\"id\": \"S053\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S054\", \"v\": [0,0,0,0,0,0,0,0,-1], \"why\": {\"self_control\": \"claims provable by algebra without showing\"}},\n  {\"id\": \"S055\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S056\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S057\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S058\", \"v\": [0,0,0,0,0,0,0,0,-1], \"why\": {\"self_control\": \"asserts universal trajectory across all dimensions\"}},\n  {\"id\": \"S059\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S060\", \"v\": [0,0,0,0,0,0,0,0,-1], \"why\": {\"self_control\": \"claims unique unmatched event as fact\"}},\n  {\"id\": \"S061\", \"v\": [0,0,0,0,0,0,0,0,1], \"why\": {\"self_control\": \"conditions structure on claims holding up\"}},\n  {\"id\": \"S062\", \"v\": [1,0,0,0,0,0,0,0,1], \"why\": {\"love\": \"respects reader's agency, asks no belief\", \"self_control\": \"explicitly avoids overclaiming belief\"}},\n  {\"id\": \"S063\", \"v\": [1,0,0,1,0,0,1,0,1], \"why\": {\"faithfulness\": \"invites checking evidence against claims\", \"love\": \"invites reader to verify rather than trust\"}},\n  {\"id\": \"S064\", \"v\": [1,0,1,0,1,0,1,1,0], \"why\": {\"gentleness\": \"invites opponent to show where it breaks\", \"faithfulness\": \"submits framework to falsification\"}},\n  {\"id\": \"S065\", \"v\": [1,0,1,0,1,1,1,1,0], \"why\": {\"faithfulness\": \"commits to publishing criticism against itself\", \"gentleness\": \"restrains own authority, welcomes challenge\"}},\n  {\"id\": \"S066\", \"v\": [1,0,0,0,0,0,0,0,1], \"why\": {\"love\": \"leaves conclusion to reader and evidence\", \"self_control\": \"declines to overclaim the outcome\"}},\n  {\"id\": \"S067\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"S068\", \"v\": [0,0,0,0,0,0,0,0,0]}\n]}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 1948,
+      "completion_tokens": 2508,
+      "attempts": 1,
+      "elapsed_seconds": 7.936999999999898,
+      "started_at": "2026-09-27T05:37:43.430479+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T05:37:51.367381+00:00",
+      "tokens": 4456
+    }
+  ],
+  "prompt_sha256": "4c5e0b098b228d48f938f3e541ab502fc2d0f13c7ad5d6a7e01c42707bf6f0d4",
+  "tokens": 4456
+}

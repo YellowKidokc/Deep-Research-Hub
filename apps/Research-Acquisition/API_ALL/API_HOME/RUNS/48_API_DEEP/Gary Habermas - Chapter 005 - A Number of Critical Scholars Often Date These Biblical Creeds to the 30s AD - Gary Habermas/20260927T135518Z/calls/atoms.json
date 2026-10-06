@@ -1,0 +1,280 @@
+{
+  "name": "atoms",
+  "parsed": {
+    "paper_uuid": "youtube_Hf_tjcAYb1Y_ch005",
+    "title": "A Number of Critical Scholars Often Date These Biblical Creeds to the 30s AD - Gary Habermas",
+    "domainType": "theology",
+    "summary": "In this chapter, Gary Habermas argues that the earliest Christian creeds, particularly those cited by Paul in 1 Corinthians 15:3ff and Romans 10:9, predate the written Gospels and can be dated to the 30s AD, within a few years of the crucifixion. He cites critical scholars, including the Jesus Seminar and Bart Ehrman, who acknowledge that the creed in 1 Corinthians 15 was already in existence before Paul's conversion (c. 32-35 AD). Habermas contends that the early date and the lack of definition for terms like 'Lord' imply that the original eyewitness testimony was preserved without mythological expansion, and that Paul, as an eyewitness, cites these creeds as authoritative.",
+    "atoms": [
+      {
+        "nodeType": "claim",
+        "stage": "01_canonical",
+        "name": "Early Christian creeds predate 50 AD",
+        "statementTechnical": "The earliest known Christian creeds, including those cited in 1 Thessalonians, 1 Corinthians 15:3ff, and Romans 10:9, were formulated before 50 AD, as evidenced by their presence in the undisputed Pauline epistles and the absence of explanatory definitions for terms like 'Lord'.",
+        "statementPlain": "The first Christian statements of belief were written down before the year 50, within about 20 years of Jesus' death.",
+        "claimClass": "empirical-anchor",
+        "falsificationCondition": "Discovery of a pre-50 AD Christian document that explicitly defines 'Lord' for a Greek audience, or demonstration that the creeds in Paul's letters are later interpolations, would falsify this claim.",
+        "verificationStatus": "informal",
+        "challengeStatus": "challenged-open",
+        "edges": [
+          {
+            "type": "dependsOn",
+            "target": "",
+            "grade": "independent",
+            "propagates": false
+          }
+        ],
+        "source_sentences": [
+          "S006",
+          "S011",
+          "S012",
+          "S024",
+          "S027",
+          "S031",
+          "S032",
+          "S033"
+        ]
+      },
+      {
+        "nodeType": "claim",
+        "stage": "01_canonical",
+        "name": "1 Corinthians 15 creed dates to the 30s AD",
+        "statementTechnical": "The creed cited by Paul in 1 Corinthians 15:3-5 was formulated and in existence before Paul's conversion (c. 32-35 AD), as acknowledged by critical scholars including the Jesus Seminar and Bart Ehrman.",
+        "statementPlain": "The early Christian creed in 1 Corinthians 15 was already being recited within a few years of Jesus' death, before Paul became a Christian.",
+        "claimClass": "empirical-anchor",
+        "falsificationCondition": "If critical scholars unanimously reject a pre-conversion date for the 1 Corinthians 15 creed, or if manuscript evidence shows the creed was added after Paul's time, the claim would be falsified.",
+        "verificationStatus": "informal",
+        "challengeStatus": "challenged-open",
+        "edges": [
+          {
+            "type": "dependsOn",
+            "target": "",
+            "grade": "independent",
+            "propagates": false
+          }
+        ],
+        "source_sentences": [
+          "S035",
+          "S045",
+          "S046",
+          "S047",
+          "S048",
+          "S049",
+          "S078"
+        ]
+      },
+      {
+        "nodeType": "claim",
+        "stage": "01_canonical",
+        "name": "Paul's lack of definitions implies prior creedal knowledge",
+        "statementTechnical": "Paul's failure to define terms such as 'Lord' when writing to Greek audiences indicates that his readers were already familiar with the Christian creedal understanding of Jesus' deity, implying the existence of earlier oral or written tradition.",
+        "statementPlain": "Paul didn't explain what 'Lord' meant because his readers already knew the Christian meaning from earlier teachings.",
+        "claimClass": "bridge",
+        "falsificationCondition": "If Paul elsewhere defines 'Lord' for Greek audiences, or if historical evidence shows Greek Christians would not have understood the term without explanation, the claim would be falsified.",
+        "verificationStatus": "informal",
+        "challengeStatus": "challenged-open",
+        "edges": [
+          {
+            "type": "dependsOn",
+            "target": "",
+            "grade": "independent",
+            "propagates": false
+          }
+        ],
+        "source_sentences": [
+          "S016",
+          "S017",
+          "S018",
+          "S019",
+          "S020",
+          "S021",
+          "S022",
+          "S023"
+        ]
+      },
+      {
+        "nodeType": "claim",
+        "stage": "01_canonical",
+        "name": "Romans 10:9 is an early creed affirming deity, death, and resurrection",
+        "statementTechnical": "Romans 10:9, which confesses Jesus as Lord and believes in his resurrection, is an early Christian creed that encapsulates the core gospel message of Jesus' deity, death, and resurrection, and was in circulation before Paul's conversion.",
+        "statementPlain": "Romans 10:9 is an early Christian statement of faith that says Jesus is Lord and was raised from the dead, and it was already being used before Paul became a Christian.",
+        "claimClass": "empirical-anchor",
+        "falsificationCondition": "If Romans 10:9 is shown to be a later composition by Paul rather than a pre-existing creed, or if it does not reflect early Christian belief in Jesus' deity and resurrection, the claim would be falsified.",
+        "verificationStatus": "informal",
+        "challengeStatus": "challenged-open",
+        "edges": [
+          {
+            "type": "dependsOn",
+            "target": "",
+            "grade": "independent",
+            "propagates": false
+          }
+        ],
+        "source_sentences": [
+          "S053",
+          "S054",
+          "S055",
+          "S074",
+          "S075",
+          "S076"
+        ]
+      },
+      {
+        "nodeType": "claim",
+        "stage": "01_canonical",
+        "name": "The Jesus Seminar dates the 1 Corinthians 15 creed before Paul's conversion",
+        "statementTechnical": "The Jesus Seminar, despite rejecting 91% of Jesus' sayings, acknowledges in their publication that the creed in 1 Corinthians 15:3ff was already in existence before Paul's Damascus road experience.",
+        "statementPlain": "Even the liberal Jesus Seminar agrees that the creed in 1 Corinthians 15 was around before Paul became a Christian.",
+        "claimClass": "empirical-anchor",
+        "falsificationCondition": "If the Jesus Seminar's published volumes do not contain such a statement, or if they later retract it, the claim would be falsified.",
+        "verificationStatus": "informal",
+        "challengeStatus": "challenged-open",
+        "edges": [
+          {
+            "type": "dependsOn",
+            "target": "",
+            "grade": "independent",
+            "propagates": false
+          }
+        ],
+        "source_sentences": [
+          "S039",
+          "S040",
+          "S041",
+          "S042",
+          "S043",
+          "S044",
+          "S045",
+          "S046",
+          "S047",
+          "S056",
+          "S078"
+        ]
+      },
+      {
+        "nodeType": "claim",
+        "stage": "01_canonical",
+        "name": "Bart Ehrman has dated the 1 Corinthians 15 creed to the 30s AD",
+        "statementTechnical": "Bart Ehrman, in his writings, has dated the creed in 1 Corinthians 15 to the 30s AD, and has on multiple occasions referred to it as originating within the first two or three years after the crucifixion.",
+        "statementPlain": "Bart Ehrman has written that the 1 Corinthians 15 creed comes from the 30s AD, sometimes saying it was within two or three years of Jesus' death.",
+        "claimClass": "empirical-anchor",
+        "falsificationCondition": "If Ehrman's published works do not contain such dates, or if he explicitly denies ever making such statements, the claim would be falsified.",
+        "verificationStatus": "informal",
+        "challengeStatus": "challenged-open",
+        "edges": [
+          {
+            "type": "dependsOn",
+            "target": "",
+            "grade": "independent",
+            "propagates": false
+          }
+        ],
+        "source_sentences": [
+          "S035",
+          "S036",
+          "S037"
+        ]
+      },
+      {
+        "nodeType": "claim",
+        "stage": "01_canonical",
+        "name": "The majority of critical scholars date the oral tradition to the 30s AD",
+        "statementTechnical": "A majority of scholars, including critical scholars, date the development of the earliest oral tradition and creeds to the 30s AD, within a decade of the crucifixion.",
+        "statementPlain": "Most scholars, even critical ones, think the earliest Christian oral traditions and creeds go back to the 30s AD.",
+        "claimClass": "empirical-anchor",
+        "falsificationCondition": "If a comprehensive survey of critical scholarship shows that the majority date the oral tradition later than the 30s, the claim would be falsified.",
+        "verificationStatus": "informal",
+        "challengeStatus": "challenged-open",
+        "edges": [
+          {
+            "type": "dependsOn",
+            "target": "",
+            "grade": "independent",
+            "propagates": false
+          }
+        ],
+        "source_sentences": [
+          "S038",
+          "S060",
+          "S079",
+          "S080"
+        ]
+      },
+      {
+        "nodeType": "claim",
+        "stage": "01_canonical",
+        "name": "Paul was an eyewitness and his writings are accepted by critics",
+        "statementTechnical": "Critical scholars universally accept that Paul was an eyewitness to the risen Jesus and that his seven undisputed letters (Romans, 1-2 Corinthians, Galatians, Philippians, 1 Thessalonians, Philemon) are authentic, providing early testimony to the creeds.",
+        "statementPlain": "Even critics agree that Paul was an eyewitness and that his seven genuine letters contain early Christian creeds.",
+        "claimClass": "empirical-anchor",
+        "falsificationCondition": "If critical scholarship broadly rejects Paul's eyewitness status or the authenticity of the seven undisputed letters, the claim would be falsified.",
+        "verificationStatus": "informal",
+        "challengeStatus": "challenged-open",
+        "edges": [
+          {
+            "type": "dependsOn",
+            "target": "",
+            "grade": "independent",
+            "propagates": false
+          }
+        ],
+        "source_sentences": [
+          "S064",
+          "S065",
+          "S066",
+          "S067",
+          "S068",
+          "S069",
+          "S070",
+          "S071",
+          "S072",
+          "S073"
+        ]
+      },
+      {
+        "nodeType": "claim",
+        "stage": "01_canonical",
+        "name": "The early date of the creeds prevents mythological expansion",
+        "statementTechnical": "Because the creeds were formulated within a few years of the events and were cited by Paul as early as the 30s-40s AD, there was insufficient time for the eyewitness testimony to be expanded into myth, preserving the original message.",
+        "statementPlain": "The creeds were written so early that there wasn't enough time for the stories to turn into myths.",
+        "claimClass": "bridge",
+        "falsificationCondition": "If evidence shows that mythological expansion can occur within a few years, or if the creeds themselves contain mythological elements inconsistent with the earliest eyewitness testimony, the claim would be falsified.",
+        "verificationStatus": "informal",
+        "challengeStatus": "challenged-open",
+        "edges": [
+          {
+            "type": "dependsOn",
+            "target": "",
+            "grade": "independent",
+            "propagates": false
+          }
+        ],
+        "source_sentences": [
+          "S062",
+          "S063"
+        ]
+      }
+    ]
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "atoms",
+      "attempt": 1,
+      "text": "{\n  \"paper_uuid\": \"youtube_Hf_tjcAYb1Y_ch005\",\n  \"title\": \"A Number of Critical Scholars Often Date These Biblical Creeds to the 30s AD - Gary Habermas\",\n  \"domainType\": \"theology\",\n  \"summary\": \"In this chapter, Gary Habermas argues that the earliest Christian creeds, particularly those cited by Paul in 1 Corinthians 15:3ff and Romans 10:9, predate the written Gospels and can be dated to the 30s AD, within a few years of the crucifixion. He cites critical scholars, including the Jesus Seminar and Bart Ehrman, who acknowledge that the creed in 1 Corinthians 15 was already in existence before Paul's conversion (c. 32-35 AD). Habermas contends that the early date and the lack of definition for terms like 'Lord' imply that the original eyewitness testimony was preserved without mythological expansion, and that Paul, as an eyewitness, cites these creeds as authoritative.\",\n  \"atoms\": [\n    {\n      \"nodeType\": \"claim\",\n      \"stage\": \"01_canonical\",\n      \"name\": \"Early Christian creeds predate 50 AD\",\n      \"statementTechnical\": \"The earliest known Christian creeds, including those cited in 1 Thessalonians, 1 Corinthians 15:3ff, and Romans 10:9, were formulated before 50 AD, as evidenced by their presence in the undisputed Pauline epistles and the absence of explanatory definitions for terms like 'Lord'.\",\n      \"statementPlain\": \"The first Christian statements of belief were written down before the year 50, within about 20 years of Jesus' death.\",\n      \"claimClass\": \"empirical-anchor\",\n      \"falsificationCondition\": \"Discovery of a pre-50 AD Christian document that explicitly defines 'Lord' for a Greek audience, or demonstration that the creeds in Paul's letters are later interpolations, would falsify this claim.\",\n      \"verificationStatus\": \"informal\",\n      \"challengeStatus\": \"challenged-open\",\n      \"edges\": [\n        {\n          \"type\": \"dependsOn\",\n          \"target\": \"\",\n          \"grade\": \"independent\",\n          \"propagates\": false\n        }\n      ],\n      \"source_sentences\": [\"S006\", \"S011\", \"S012\", \"S024\", \"S027\", \"S031\", \"S032\", \"S033\"]\n    },\n    {\n      \"nodeType\": \"claim\",\n      \"stage\": \"01_canonical\",\n      \"name\": \"1 Corinthians 15 creed dates to the 30s AD\",\n      \"statementTechnical\": \"The creed cited by Paul in 1 Corinthians 15:3-5 was formulated and in existence before Paul's conversion (c. 32-35 AD), as acknowledged by critical scholars including the Jesus Seminar and Bart Ehrman.\",\n      \"statementPlain\": \"The early Christian creed in 1 Corinthians 15 was already being recited within a few years of Jesus' death, before Paul became a Christian.\",\n      \"claimClass\": \"empirical-anchor\",\n      \"falsificationCondition\": \"If critical scholars unanimously reject a pre-conversion date for the 1 Corinthians 15 creed, or if manuscript evidence shows the creed was added after Paul's time, the claim would be falsified.\",\n      \"verificationStatus\": \"informal\",\n      \"challengeStatus\": \"challenged-open\",\n      \"edges\": [\n        {\n          \"type\": \"dependsOn\",\n          \"target\": \"\",\n          \"grade\": \"independent\",\n          \"propagates\": false\n        }\n      ],\n      \"source_sentences\": [\"S035\", \"S045\", \"S046\", \"S047\", \"S048\", \"S049\", \"S078\"]\n    },\n    {\n      \"nodeType\": \"claim\",\n      \"stage\": \"01_canonical\",\n      \"name\": \"Paul's lack of definitions implies prior creedal knowledge\",\n      \"statementTechnical\": \"Paul's failure to define terms such as 'Lord' when writing to Greek audiences indicates that his readers were already familiar with the Christian creedal understanding of Jesus' deity, implying the existence of earlier oral or written tradition.\",\n      \"statementPlain\": \"Paul didn't explain what 'Lord' meant because his readers already knew the Christian meaning from earlier teachings.\",\n      \"claimClass\": \"bridge\",\n      \"falsificationCondition\": \"If Paul elsewhere defines 'Lord' for Greek audiences, or if historical evidence shows Greek Christians would not have understood the term without explanation, the claim would be falsified.\",\n      \"verificationStatus\": \"informal\",\n      \"challengeStatus\": \"challenged-open\",\n      \"edges\": [\n        {\n          \"type\": \"dependsOn\",\n          \"target\": \"\",\n          \"grade\": \"independent\",\n          \"propagates\": false\n        }\n      ],\n      \"source_sentences\": [\"S016\", \"S017\", \"S018\", \"S019\", \"S020\", \"S021\", \"S022\", \"S023\"]\n    },\n    {\n      \"nodeType\": \"claim\",\n      \"stage\": \"01_canonical\",\n      \"name\": \"Romans 10:9 is an early creed affirming deity, death, and resurrection\",\n      \"statementTechnical\": \"Romans 10:9, which confesses Jesus as Lord and believes in his resurrection, is an early Christian creed that encapsulates the core gospel message of Jesus' deity, death, and resurrection, and was in circulation before Paul's conversion.\",\n      \"statementPlain\": \"Romans 10:9 is an early Christian statement of faith that says Jesus is Lord and was raised from the dead, and it was already being used before Paul became a Christian.\",\n      \"claimClass\": \"empirical-anchor\",\n      \"falsificationCondition\": \"If Romans 10:9 is shown to be a later composition by Paul rather than a pre-existing creed, or if it does not reflect early Christian belief in Jesus' deity and resurrection, the claim would be falsified.\",\n      \"verificationStatus\": \"informal\",\n      \"challengeStatus\": \"challenged-open\",\n      \"edges\": [\n        {\n          \"type\": \"dependsOn\",\n          \"target\": \"\",\n          \"grade\": \"independent\",\n          \"propagates\": false\n        }\n      ],\n      \"source_sentences\": [\"S053\", \"S054\", \"S055\", \"S074\", \"S075\", \"S076\"]\n    },\n    {\n      \"nodeType\": \"claim\",\n      \"stage\": \"01_canonical\",\n      \"name\": \"The Jesus Seminar dates the 1 Corinthians 15 creed before Paul's conversion\",\n      \"statementTechnical\": \"The Jesus Seminar, despite rejecting 91% of Jesus' sayings, acknowledges in their publication that the creed in 1 Corinthians 15:3ff was already in existence before Paul's Damascus road experience.\",\n      \"statementPlain\": \"Even the liberal Jesus Seminar agrees that the creed in 1 Corinthians 15 was around before Paul became a Christian.\",\n      \"claimClass\": \"empirical-anchor\",\n      \"falsificationCondition\": \"If the Jesus Seminar's published volumes do not contain such a statement, or if they later retract it, the claim would be falsified.\",\n      \"verificationStatus\": \"informal\",\n      \"challengeStatus\": \"challenged-open\",\n      \"edges\": [\n        {\n          \"type\": \"dependsOn\",\n          \"target\": \"\",\n          \"grade\": \"independent\",\n          \"propagates\": false\n        }\n      ],\n      \"source_sentences\": [\"S039\", \"S040\", \"S041\", \"S042\", \"S043\", \"S044\", \"S045\", \"S046\", \"S047\", \"S056\", \"S078\"]\n    },\n    {\n      \"nodeType\": \"claim\",\n      \"stage\": \"01_canonical\",\n      \"name\": \"Bart Ehrman has dated the 1 Corinthians 15 creed to the 30s AD\",\n      \"statementTechnical\": \"Bart Ehrman, in his writings, has dated the creed in 1 Corinthians 15 to the 30s AD, and has on multiple occasions referred to it as originating within the first two or three years after the crucifixion.\",\n      \"statementPlain\": \"Bart Ehrman has written that the 1 Corinthians 15 creed comes from the 30s AD, sometimes saying it was within two or three years of Jesus' death.\",\n      \"claimClass\": \"empirical-anchor\",\n      \"falsificationCondition\": \"If Ehrman's published works do not contain such dates, or if he explicitly denies ever making such statements, the claim would be falsified.\",\n      \"verificationStatus\": \"informal\",\n      \"challengeStatus\": \"challenged-open\",\n      \"edges\": [\n        {\n          \"type\": \"dependsOn\",\n          \"target\": \"\",\n          \"grade\": \"independent\",\n          \"propagates\": false\n        }\n      ],\n      \"source_sentences\": [\"S035\", \"S036\", \"S037\"]\n    },\n    {\n      \"nodeType\": \"claim\",\n      \"stage\": \"01_canonical\",\n      \"name\": \"The majority of critical scholars date the oral tradition to the 30s AD\",\n      \"statementTechnical\": \"A majority of scholars, including critical scholars, date the development of the earliest oral tradition and creeds to the 30s AD, within a decade of the crucifixion.\",\n      \"statementPlain\": \"Most scholars, even critical ones, think the earliest Christian oral traditions and creeds go back to the 30s AD.\",\n      \"claimClass\": \"empirical-anchor\",\n      \"falsificationCondition\": \"If a comprehensive survey of critical scholarship shows that the majority date the oral tradition later than the 30s, the claim would be falsified.\",\n      \"verificationStatus\": \"informal\",\n      \"challengeStatus\": \"challenged-open\",\n      \"edges\": [\n        {\n          \"type\": \"dependsOn\",\n          \"target\": \"\",\n          \"grade\": \"independent\",\n          \"propagates\": false\n        }\n      ],\n      \"source_sentences\": [\"S038\", \"S060\", \"S079\", \"S080\"]\n    },\n    {\n      \"nodeType\": \"claim\",\n      \"stage\": \"01_canonical\",\n      \"name\": \"Paul was an eyewitness and his writings are accepted by critics\",\n      \"statementTechnical\": \"Critical scholars universally accept that Paul was an eyewitness to the risen Jesus and that his seven undisputed letters (Romans, 1-2 Corinthians, Galatians, Philippians, 1 Thessalonians, Philemon) are authentic, providing early testimony to the creeds.\",\n      \"statementPlain\": \"Even critics agree that Paul was an eyewitness and that his seven genuine letters contain early Christian creeds.\",\n      \"claimClass\": \"empirical-anchor\",\n      \"falsificationCondition\": \"If critical scholarship broadly rejects Paul's eyewitness status or the authenticity of the seven undisputed letters, the claim would be falsified.\",\n      \"verificationStatus\": \"informal\",\n      \"challengeStatus\": \"challenged-open\",\n      \"edges\": [\n        {\n          \"type\": \"dependsOn\",\n          \"target\": \"\",\n          \"grade\": \"independent\",\n          \"propagates\": false\n        }\n      ],\n      \"source_sentences\": [\"S064\", \"S065\", \"S066\", \"S067\", \"S068\", \"S069\", \"S070\", \"S071\", \"S072\", \"S073\"]\n    },\n    {\n      \"nodeType\": \"claim\",\n      \"stage\": \"01_canonical\",\n      \"name\": \"The early date of the creeds prevents mythological expansion\",\n      \"statementTechnical\": \"Because the creeds were formulated within a few years of the events and were cited by Paul as early as the 30s-40s AD, there was insufficient time for the eyewitness testimony to be expanded into myth, preserving the original message.\",\n      \"statementPlain\": \"The creeds were written so early that there wasn't enough time for the stories to turn into myths.\",\n      \"claimClass\": \"bridge\",\n      \"falsificationCondition\": \"If evidence shows that mythological expansion can occur within a few years, or if the creeds themselves contain mythological elements inconsistent with the earliest eyewitness testimony, the claim would be falsified.\",\n      \"verificationStatus\": \"informal\",\n      \"challengeStatus\": \"challenged-open\",\n      \"edges\": [\n        {\n          \"type\": \"dependsOn\",\n          \"target\": \"\",\n          \"grade\": \"independent\",\n          \"propagates\": false\n        }\n      ],\n      \"source_sentences\": [\"S062\", \"S063\"]\n    }\n  ]\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 3032,
+      "completion_tokens": 2703,
+      "attempts": 1,
+      "elapsed_seconds": 11.23399999999674,
+      "started_at": "2026-09-27T13:55:18.825012+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T13:55:30.063056+00:00",
+      "tokens": 5735
+    }
+  ],
+  "prompt_sha256": "e22434daa4506ee5b11d42699a8eb236100ca156271520f70e172861ee47d749",
+  "tokens": 5735
+}

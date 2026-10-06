@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Query Service</title>
+</head>
+<body>
+<div class="container">
+<h1 class="my-3">Query Debug Service</h1>
+<form action="/qdebug" method="get">
+    <div class="form-group"><label for="q">Search Query</label></div>
+    <div class="row my-2">
+        <div class="col-sm-8"><input type="text" class="form-control" id="q" name="q" value="{{query}}"></div>
+        <div class="col-sm-2"><button type="submit" class="btn btn-primary">Submit</button></div>
+    </div>
+
+    {{#with rankingParams}}
+    <!-- params -->
+    <div class="row my-2">
+        <div class="col-sm-2"><label for="domainRankBonus">Domain Rank Bonus</label></div>
+        <div class="col-sm-2"><input type="text" class="form-control" id="domainRankBonus" name="domainRankBonus" value="{{domainRankBonus}}"></div>
+        <div class="col-sm-2"><label for="qualityPenalty">Quality Penalty</label></div>
+        <div class="col-sm-2"><input type="text" class="form-control" id="qualityPenalty" name="qualityPenalty" value="{{qualityPenalty}}"></div>
+    </div>
+    <div class="row my-2">
+        <div class="col-sm-2"><label for="shortDocumentThreshold">Short Document Threshold</label></div>
+        <div class="col-sm-2"><input type="number" class="form-control" id="shortDocumentThreshold" name="shortDocumentThreshold" value="{{shortDocumentThreshold}}"></div>
+        <div class="col-sm-2"><label for="shortDocumentPenalty">Short Document Penalty</label></div>
+        <div class="col-sm-2"><input type="text" class="form-control" id="shortDocumentPenalty" name="shortDocumentPenalty" value="{{shortDocumentPenalty}}"></div>
+    </div>
+    <div class="row my-2">
+        <div class="col-sm-2"><label for="tcfFirstPositionWeight">TCF First Position Weight</label></div>
+        <div class="col-sm-2"><input type="text" class="form-control" id="tcfFirstPositionWeight" name="tcfFirstPositionWeight" value="{{tcfFirstPositionWeight}}"></div>
+    </div>
+    <div class="row my-2">
+        <div class="col-sm-2"><label for="tcfVerbatimWeight">TCF Verbatim</label></div>
+        <div class="col-sm-2"><input type="text" class="form-control" id="tcfVerbatimWeight" name="tcfVerbatimWeight" value="{{tcfVerbatimWeight}}"></div>
+        <div class="col-sm-2"><label for="tcfProximityWeight">TCF Proximity</label></div>
+        <div class="col-sm-2"><input type="text" class="form-control" id="tcfProximityWeight" name="tcfProximityWeight" value="{{tcfProximityWeight}}"></div>
+    </div>
+    <div class="row my-2">
+        <div class="col-sm-2"><label for="bm25k">BM25 K1</label></div>
+        <div class="col-sm-2"><input type="text" class="form-control" id="bm25k" name="bm25k" value="{{bm25K}}"></div>
+        <div class="col-sm-2"><label for="bm25b">BM25 B</label></div>
+        <div class="col-sm-2"><input type="text" class="form-control" id="bm25b" name="bm25b" value="{{bm25B}}"></div>
+    </div>
+    <div class="row my-2">
+        <div class="col-sm-2"><label for="temporalBias">Temporal Bias</label></div>
+        <div class="col-sm-2">
+        <select class="form-select" id="temporalBias" name="temporalBias">
+            <option value="NONE" {{#eq temporalBias.name "NONE"}}selected{{/eq}}>NONE</option>
+            <option value="RECENT" {{#eq temporalBias.name "RECENT"}}selected{{/eq}}>RECENT</option>
+            <option value="OLD" {{#eq temporalBias.name "OLD"}}selected{{/eq}}>OLD</option>
+        </select>
+        </div>
+        <div class="col-sm-2"><label for="temporalBiasWeight">Temporal Bias Weight</label></div>
+        <div class="col-sm-2"><input type="text" class="form-control" id="temporalBiasWeight" name="temporalBiasWeight" value="{{temporalBiasWeight}}"></div>
+    </div>
+    <div class="row my-2">
+        <div class="col-sm-2"><label for="shortSentenceThreshold">Short Sentence Threshold</label></div>
+        <div class="col-sm-2"><input type="number" min="1" max="4" step="1" class="form-control" id="shortSentenceThreshold" name="shortSentenceThreshold" value="{{shortSentenceThreshold}}"></div>
+        <div class="col-sm-2"><label for="shortSentencePenalty">Short Sentence Penalty</label></div>
+        <div class="col-sm-2"><input type="text" class="form-control" id="shortSentencePenalty" name="shortSentencePenalty" value="{{shortSentencePenalty}}"></div>
+    </div>
+    <div class="row my-2">
+        <div class="col-sm-2"><label for="bm25FullWeight">BM25 Weight</label></div>
+        <div class="col-sm-2"><input type="text" class="form-control" id="bm25Weight" name="bm25Weight" value="{{bm25Weight}}"></div>
+
+        <div class="col-sm-2"><label for="disablePenalties">Disable Penalties</label></div>
+        <div class="col-sm-2">
+            <select class="form-select" id="disablePenalties" name="disablePenalties">
+                <option value="FALSE" {{#unless disablePenalties}}selected{{/unless}}>FALSE</option>
+                <option value="TRUE" {{#if disablePenalties}}selected{{/if}}>TRUE</option>
+            </select>
+        </div>
+    </div>
+
+    {{/with}}
+</form>
+
+
+
+{{#if specs.query.compiledQuery}}
+<hr>
+<h2 class="my-3">Specs</h2>
+<table class="table">
+<tr> <th title="infix notation query language expression">Compiled Query</th><td>{{specs.query.compiledQuery}}</td> </tr>
+<tr> <th title="mandatory terms">Search Terms Include</th><td>{{#each specs.query.searchTermsInclude}} {{.}} {{/each}}</td> </tr>
+<tr> <th title="terms that must be present">Search Terms Exclude</th><td>{{#each specs.query.searchTermsExclude}} {{.}} {{/each}}</td> </tr>
+<tr> <th title="mandatory terms, no effect on ranking">Search Terms Advice</th><td>{{#each specs.query.searchTermsAdvice}} {{.}} {{/each}}</td> </tr>
+<tr> <th title="not mandatory, effects ranking">Search Terms Priority</th><td>{{#each specs.query.searchTermsPriority}} {{.}} {{/each}}</td> </tr>
+{{#each specs.query.phraseConstraints}}
+<tr>
+    <th title="terms must appear close by">Phrase Constraints</th>
+    <td>
+        {{#each .}}
+        {{.}}
+        {{/each}}
+    </td>
+</tr>
+{{/each}}
+</table>
+{{/if}}
+
+{{#if results}}
+<hr>
+<h2 class="my-3">Results</h2>
+{{#each results}}
+<div class="mb-3">
+    <a href="{{url}}">{{title}}</a>
+    <div><small class="text-muted">{{url}}</small></div>
+    <p>{{description}}</p>
+
+    <div><small class="text-muted">dataHash: {{dataHash}} wordsTotal: {{wordsTotal}} bestPositions: {{bestPositions}} rankingScore: {{rankingScore}} urlQuality: {{urlQuality}} features: {{features}}</small></div>
+    {{#with rankingDetails.docFactorGroups}}
+        {{#each .}}
+            <div><small>{{name}}</small></div>
+            {{#each factors}}
+                <div style="margin-left: 1ch"><small class="text-muted">{{factor}}: {{value}}</small></div>
+            {{/each}}
+        {{/each}}
+    {{/with}}
+
+    {{#with rankingDetails.termFactorGroups}}
+        {{#each .}}
+        <div>{{termId}}:{{term}}</div>
+        {{#each factorList}}
+            <div style="margin-left: 1ch">{{name}}</div>
+            {{#each factors}}
+                <div style="margin-left: 2ch"><small class="text-muted">{{factor}}: {{value}}</small></div>
+            {{/each}}
+
+        {{/each}}
+        {{/each}}
+    {{/with}}
+
+</div>
+{{/each}}
+{{/if}}
+
+</div>
+</body>
+</html>

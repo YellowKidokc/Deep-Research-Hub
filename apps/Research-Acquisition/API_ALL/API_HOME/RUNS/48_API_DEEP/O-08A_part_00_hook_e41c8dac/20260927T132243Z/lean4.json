@@ -1,0 +1,677 @@
+{
+  "station": "lean4",
+  "paper_uuid": "O-08A_part_00_hook_e41c8dac",
+  "run_uuid": "deep-98981051040b",
+  "template": "00_FULL_LEAN_TEMPLATE.md",
+  "formal_candidates": [
+    {
+      "identity": {
+        "claim_id": "A02",
+        "candidate_uuid": "lean4-A02-0001"
+      },
+      "source_selection": {
+        "exact_source_expression": "That no system can determine its own moral direction from inside itself — this is mathematics, not philosophy, and it has been proven.",
+        "selection_disposition": "FORMALIZE",
+        "reason": "The claim asserts a mathematical impossibility result about self-determination of moral direction. This is the strongest formalization candidate because it is explicitly framed as a proven mathematical fact and can be modeled as a theorem about closure/self-reference in a formal system."
+      },
+      "formal_object": {
+        "object_type": "THEOREM",
+        "exact_proposed_statement": "For any formal system S with an internal evaluation relation E : S → S → Prop that is closed under its own rules, there is no internal predicate M : S → Prop such that M is a sound and complete representation of the system's own moral direction. Equivalently, no closed system can internally certify its own moral orientation without an external reference.",
+        "fully_qualified_declaration": "MetaArgument.NoInternalMoralDirection.no_internal_moral_direction",
+        "project_root": "MetaArgument",
+        "module": "MetaArgument.Part0.Hook"
+      },
+      "symbol_table": [
+        {
+          "term": "formal system S",
+          "formal_definition": "Type S with a relation E : S → S → Prop",
+          "reader_meaning": "A system of rules, institutions, or reasoning that can evaluate statements or actions",
+          "source_correspondence": "S042: 'no system can determine its own moral direction from inside itself'"
+        },
+        {
+          "term": "internal moral direction M",
+          "formal_definition": "M : S → Prop",
+          "reader_meaning": "A predicate inside the system that is supposed to say what is morally correct",
+          "source_correspondence": "S042: 'determine its own moral direction'"
+        },
+        {
+          "term": "closed system",
+          "formal_definition": "A system whose evaluation relation E is total on its own domain and does not reference any external oracle",
+          "reader_meaning": "A system that only uses its own resources to judge itself",
+          "source_correspondence": "S042: 'from inside itself'"
+        }
+      ],
+      "assumptions_and_dependencies": {
+        "explicit_premises": [
+          "S is a type representing the system's internal states or propositions.",
+          "E : S → S → Prop is the internal evaluation relation.",
+          "Closure: E does not depend on any external oracle or reference point.",
+          "M : S → Prop is intended to represent the system's own moral direction."
+        ],
+        "custom_axioms": [
+          "Axiom of closure: no external reference is available to S.",
+          "Axiom of self-reference: S can encode statements about its own M."
+        ],
+        "theological_starting_premises": "None. The formalization is purely structural and does not assume any theological premise.",
+        "non_vacuity_requirement": "There must exist at least one system S satisfying the closure and self-reference axioms for the theorem to be non-vacuous."
+      },
+      "verification_controls": [
+        {
+          "check": "module compilation",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "Lean corpus was not searched and no build was attempted in this run."
+        },
+        {
+          "check": "declaration inspection",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No existing declaration was inspected."
+        },
+        {
+          "check": "axiom dependency",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "Axiom dependencies were not checked."
+        },
+        {
+          "check": "proof escape",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No proof was attempted."
+        },
+        {
+          "check": "non-vacuity",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "Non-vacuity was not verified."
+        },
+        {
+          "check": "negative control",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No negative control was run."
+        },
+        {
+          "check": "countermodel",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No countermodel was constructed."
+        },
+        {
+          "check": "ablation",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No ablation was performed."
+        },
+        {
+          "check": "independent encoding",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No independent encoding was attempted."
+        }
+      ],
+      "result_and_boundary": {
+        "verification_status": "CANDIDATE",
+        "what_is_established": "A precise formal target is proposed: a theorem that no closed system can internally determine its own moral direction. The statement is structural and does not depend on empirical or theological claims.",
+        "what_remains_open": "Whether the proposed axioms are sufficient, whether the theorem is provable in Lean 4, and whether the formalization faithfully captures the intended philosophical claim. The claim that this has 'been proven' in the source is not verified here.",
+        "encoding_fidelity_review": "The formalization abstracts 'moral direction' as a predicate M : S → Prop. This is a modeling choice; alternative encodings (e.g., using modal logic or fixed-point operators) may be more faithful. The closure axiom is informal and needs a precise Lean formulation.",
+        "interpretive_connections": "Connects to Gödelian incompleteness, Tarski's undefinability of truth, and the general problem of self-reference. The source claim that this is 'mathematics, not philosophy' is partially supported by the structural nature of the proposed theorem, but the moral interpretation remains philosophical."
+      },
+      "reproduction_receipt": {
+        "run_id": "",
+        "timestamp": "",
+        "source_hashes": {},
+        "commands": [],
+        "exit_codes": [],
+        "log_paths": [],
+        "declarations_checked": []
+      },
+      "corpus_links": {
+        "human_companion": "",
+        "corpus_claim_register": "",
+        "supporting_summaries": []
+      }
+    },
+    {
+      "identity": {
+        "claim_id": "A08",
+        "candidate_uuid": "lean4-A08-0002"
+      },
+      "source_selection": {
+        "exact_source_expression": "That there is a mathematical constraint — provable by algebra — showing that justice and mercy cannot both be fully satisfied inside any closed system. Someone always eats the deficit.",
+        "selection_disposition": "FORMALIZE",
+        "reason": "The claim explicitly says 'provable by algebra' and describes a constraint on closed systems. This is a strong candidate for a formal theorem about resource conservation or constraint satisfaction."
+      },
+      "formal_object": {
+        "object_type": "THEOREM",
+        "exact_proposed_statement": "For any closed system with a finite resource budget B, and two requirements J (justice) and M (mercy) each demanding a nonnegative amount of resources, if J + M > B then it is impossible to fully satisfy both J and M simultaneously. Equivalently, in any closed system, full satisfaction of both justice and mercy requires an external resource input.",
+        "fully_qualified_declaration": "MetaArgument.JusticeMercy.no_full_satisfaction_in_closed_system",
+        "project_root": "MetaArgument",
+        "module": "MetaArgument.Part0.Hook"
+      },
+      "symbol_table": [
+        {
+          "term": "closed system",
+          "formal_definition": "A system with a finite resource budget B : ℝ≥0 and no external inputs",
+          "reader_meaning": "A system that must pay for everything from its own internal resources",
+          "source_correspondence": "S054: 'inside any closed system'"
+        },
+        {
+          "term": "justice requirement J",
+          "formal_definition": "J : ℝ≥0, the resource cost of fully satisfying justice",
+          "reader_meaning": "The cost of giving everyone what they are owed",
+          "source_correspondence": "S054: 'justice'"
+        },
+        {
+          "term": "mercy requirement M",
+          "formal_definition": "M : ℝ≥0, the resource cost of fully satisfying mercy",
+          "reader_meaning": "The cost of forgiving debts or offenses",
+          "source_correspondence": "S054: 'mercy'"
+        },
+        {
+          "term": "deficit",
+          "formal_definition": "J + M - B when J + M > B",
+          "reader_meaning": "The amount that someone must pay or absorb",
+          "source_correspondence": "S055: 'Someone always eats the deficit.'"
+        }
+      ],
+      "assumptions_and_dependencies": {
+        "explicit_premises": [
+          "B : ℝ≥0 is the total resource budget of the closed system.",
+          "J : ℝ≥0 is the resource cost of full justice.",
+          "M : ℝ≥0 is the resource cost of full mercy.",
+          "Full satisfaction of J requires allocating at least J resources.",
+          "Full satisfaction of M requires allocating at least M resources.",
+          "No external resources can be imported into the system."
+        ],
+        "custom_axioms": [
+          "Resource additivity: satisfying both J and M requires at least J + M resources.",
+          "Closure: total available resources ≤ B."
+        ],
+        "theological_starting_premises": "None. The formalization is algebraic and does not assume any theological premise.",
+        "non_vacuity_requirement": "There must exist at least one closed system with J + M > B for the theorem to be non-vacuous."
+      },
+      "verification_controls": [
+        {
+          "check": "module compilation",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "Lean corpus was not searched and no build was attempted in this run."
+        },
+        {
+          "check": "declaration inspection",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No existing declaration was inspected."
+        },
+        {
+          "check": "axiom dependency",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "Axiom dependencies were not checked."
+        },
+        {
+          "check": "proof escape",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No proof was attempted."
+        },
+        {
+          "check": "non-vacuity",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "Non-vacuity was not verified."
+        },
+        {
+          "check": "negative control",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No negative control was run."
+        },
+        {
+          "check": "countermodel",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No countermodel was constructed."
+        },
+        {
+          "check": "ablation",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No ablation was performed."
+        },
+        {
+          "check": "independent encoding",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No independent encoding was attempted."
+        }
+      ],
+      "result_and_boundary": {
+        "verification_status": "CANDIDATE",
+        "what_is_established": "A precise algebraic constraint is proposed: in a closed system with finite resources, full satisfaction of both justice and mercy is impossible if their combined cost exceeds the budget.",
+        "what_remains_open": "Whether the resource model is faithful to the concepts of justice and mercy, whether the theorem is provable in Lean 4, and whether the claim that 'someone always eats the deficit' follows from the formal statement. The source claim that this is 'provable by algebra' is not verified here.",
+        "encoding_fidelity_review": "The formalization reduces justice and mercy to resource costs. This is a strong simplification; justice and mercy may not be commensurable or additive. Alternative encodings using constraint satisfaction or game theory may be more faithful.",
+        "interpretive_connections": "Connects to resource allocation problems, conservation laws, and the problem of evil in theology. The formal result is a trivial arithmetic fact; the philosophical interpretation is not established by the formalization."
+      },
+      "reproduction_receipt": {
+        "run_id": "",
+        "timestamp": "",
+        "source_hashes": {},
+        "commands": [],
+        "exit_codes": [],
+        "log_paths": [],
+        "declarations_checked": []
+      },
+      "corpus_links": {
+        "human_companion": "",
+        "corpus_claim_register": "",
+        "supporting_summaries": []
+      }
+    },
+    {
+      "identity": {
+        "claim_id": "A01",
+        "candidate_uuid": "lean4-A01-0003"
+      },
+      "source_selection": {
+        "exact_source_expression": "That good and bad are structural properties of reality, as invariant as electric charge — not cultural opinions that shift with the century.",
+        "selection_disposition": "FORMALIZE",
+        "reason": "The claim asserts that good and bad are structural properties of reality, analogous to electric charge. This can be formalized as a definition of a moral property space with invariant structure, though the analogy to physics is metaphorical."
+      },
+      "formal_object": {
+        "object_type": "DEFINITION",
+        "exact_proposed_statement": "There exists a type MoralProperty with a binary relation Good : MoralProperty → Prop and Bad : MoralProperty → Prop such that Good and Bad are invariant under cultural transformations. Formally, for any cultural transformation T : MoralProperty → MoralProperty, Good (T x) ↔ Good x and Bad (T x) ↔ Bad x.",
+        "fully_qualified_declaration": "MetaArgument.MoralStructure.moral_property_invariance",
+        "project_root": "MetaArgument",
+        "module": "MetaArgument.Part0.Hook"
+      },
+      "symbol_table": [
+        {
+          "term": "moral property",
+          "formal_definition": "MoralProperty : Type",
+          "reader_meaning": "A property that can be good or bad",
+          "source_correspondence": "S040: 'good and bad are structural properties of reality'"
+        },
+        {
+          "term": "good",
+          "formal_definition": "Good : MoralProperty → Prop",
+          "reader_meaning": "The property of being morally good",
+          "source_correspondence": "S040: 'good'"
+        },
+        {
+          "term": "bad",
+          "formal_definition": "Bad : MoralProperty → Prop",
+          "reader_meaning": "The property of being morally bad",
+          "source_correspondence": "S040: 'bad'"
+        },
+        {
+          "term": "cultural transformation",
+          "formal_definition": "T : MoralProperty → MoralProperty",
+          "reader_meaning": "A change in cultural opinion or practice",
+          "source_correspondence": "S040: 'not cultural opinions that shift with the century'"
+        }
+      ],
+      "assumptions_and_dependencies": {
+        "explicit_premises": [
+          "MoralProperty is a type.",
+          "Good and Bad are predicates on MoralProperty.",
+          "Cultural transformations are functions T : MoralProperty → MoralProperty.",
+          "Good and Bad are invariant under all cultural transformations."
+        ],
+        "custom_axioms": [
+          "Invariance axiom: for all T, Good (T x) ↔ Good x and Bad (T x) ↔ Bad x."
+        ],
+        "theological_starting_premises": "None explicitly, but the claim that good and bad are structural properties of reality may implicitly assume a moral realist metaphysics.",
+        "non_vacuity_requirement": "There must exist at least one MoralProperty and at least one cultural transformation for the definition to be non-vacuous."
+      },
+      "verification_controls": [
+        {
+          "check": "module compilation",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "Lean corpus was not searched and no build was attempted in this run."
+        },
+        {
+          "check": "declaration inspection",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No existing declaration was inspected."
+        },
+        {
+          "check": "axiom dependency",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "Axiom dependencies were not checked."
+        },
+        {
+          "check": "proof escape",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No proof was attempted."
+        },
+        {
+          "check": "non-vacuity",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "Non-vacuity was not verified."
+        },
+        {
+          "check": "negative control",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No negative control was run."
+        },
+        {
+          "check": "countermodel",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No countermodel was constructed."
+        },
+        {
+          "check": "ablation",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No ablation was performed."
+        },
+        {
+          "check": "independent encoding",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No independent encoding was attempted."
+        }
+      ],
+      "result_and_boundary": {
+        "verification_status": "CANDIDATE",
+        "what_is_established": "A formal definition is proposed: moral properties are invariant under cultural transformations. This is a structural definition, not a theorem.",
+        "what_remains_open": "Whether the definition is non-vacuous, whether it captures the intended meaning of 'structural properties of reality', and whether the analogy to electric charge is formalizable. The claim that good and bad are as invariant as electric charge is not established by this definition.",
+        "encoding_fidelity_review": "The formalization treats 'good' and 'bad' as predicates on an abstract type. This is a minimal encoding; it does not capture the normative force of moral claims or the analogy to physical properties. Alternative encodings using category theory or modal logic may be more faithful.",
+        "interpretive_connections": "Connects to moral realism, metaethics, and the philosophy of properties. The formalization is neutral on whether moral properties actually exist; it only defines a structure."
+      },
+      "reproduction_receipt": {
+        "run_id": "",
+        "timestamp": "",
+        "source_hashes": {},
+        "commands": [],
+        "exit_codes": [],
+        "log_paths": [],
+        "declarations_checked": []
+      },
+      "corpus_links": {
+        "human_companion": "",
+        "corpus_claim_register": "",
+        "supporting_summaries": []
+      }
+    },
+    {
+      "identity": {
+        "claim_id": "A03",
+        "candidate_uuid": "lean4-A03-0004"
+      },
+      "source_selection": {
+        "exact_source_expression": "That an external reference point must exist for the distinction between good and bad to be meaningful — and that such a reference point has maintained a continuous, accessible record throughout human history.",
+        "selection_disposition": "FORMALIZE",
+        "reason": "The first part of the claim (an external reference point must exist for moral distinction to be meaningful) is a formalizable existence claim. The second part (continuous accessible record throughout history) is empirical and not formalizable in Lean without historical data."
+      },
+      "formal_object": {
+        "object_type": "THEOREM",
+        "exact_proposed_statement": "For any system S with an internal moral distinction relation D : S → S → Prop, if D is meaningful (i.e., not trivial), then there exists an external reference point R not in S such that D is grounded in R. Formally, if D is non-trivial, then ∃ R, External R ∧ Grounds R D.",
+        "fully_qualified_declaration": "MetaArgument.ExternalReference.external_reference_exists",
+        "project_root": "MetaArgument",
+        "module": "MetaArgument.Part0.Hook"
+      },
+      "symbol_table": [
+        {
+          "term": "system S",
+          "formal_definition": "S : Type",
+          "reader_meaning": "A system of moral reasoning or institutions",
+          "source_correspondence": "S044: 'an external reference point must exist'"
+        },
+        {
+          "term": "moral distinction D",
+          "formal_definition": "D : S → S → Prop",
+          "reader_meaning": "The relation that distinguishes good from bad within S",
+          "source_correspondence": "S044: 'the distinction between good and bad'"
+        },
+        {
+          "term": "external reference point R",
+          "formal_definition": "R : Type with External : R → Prop and Grounds : R → (S → S → Prop) → Prop",
+          "reader_meaning": "A point of reference outside the system that grounds moral distinctions",
+          "source_correspondence": "S044: 'an external reference point'"
+        },
+        {
+          "term": "meaningful",
+          "formal_definition": "D is non-trivial: ∃ x y, D x y ∧ ¬ D y x",
+          "reader_meaning": "The distinction actually distinguishes something",
+          "source_correspondence": "S044: 'for the distinction between good and bad to be meaningful'"
+        }
+      ],
+      "assumptions_and_dependencies": {
+        "explicit_premises": [
+          "S is a type representing a moral system.",
+          "D : S → S → Prop is the internal moral distinction relation.",
+          "D is non-trivial.",
+          "External : R → Prop and Grounds : R → (S → S → Prop) → Prop are given."
+        ],
+        "custom_axioms": [
+          "Grounding axiom: if D is non-trivial, then there exists R with External R and Grounds R D."
+        ],
+        "theological_starting_premises": "The claim that the external reference point has maintained a continuous accessible record throughout history is a theological/historical premise not formalized here.",
+        "non_vacuity_requirement": "There must exist at least one non-trivial D for the theorem to be non-vacuous."
+      },
+      "verification_controls": [
+        {
+          "check": "module compilation",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "Lean corpus was not searched and no build was attempted in this run."
+        },
+        {
+          "check": "declaration inspection",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No existing declaration was inspected."
+        },
+        {
+          "check": "axiom dependency",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "Axiom dependencies were not checked."
+        },
+        {
+          "check": "proof escape",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No proof was attempted."
+        },
+        {
+          "check": "non-vacuity",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "Non-vacuity was not verified."
+        },
+        {
+          "check": "negative control",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No negative control was run."
+        },
+        {
+          "check": "countermodel",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No countermodel was constructed."
+        },
+        {
+          "check": "ablation",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No ablation was performed."
+        },
+        {
+          "check": "independent encoding",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No independent encoding was attempted."
+        }
+      ],
+      "result_and_boundary": {
+        "verification_status": "CANDIDATE",
+        "what_is_established": "A formal existence claim is proposed: any non-trivial internal moral distinction requires an external reference point. The statement is conditional and structural.",
+        "what_remains_open": "Whether the grounding axiom is justified, whether the theorem is provable in Lean 4, and whether the formalization captures the intended philosophical claim. The historical claim about a continuous accessible record is not formalized.",
+        "encoding_fidelity_review": "The formalization treats 'external reference point' as an abstract type with a grounding relation. This is a minimal encoding; it does not specify what the reference point is or how grounding works. Alternative encodings using modal logic or foundationalism may be more faithful.",
+        "interpretive_connections": "Connects to foundationalism in epistemology, the regress argument, and moral realism. The formalization is neutral on whether the external reference point exists in reality; it only states a conditional."
+      },
+      "reproduction_receipt": {
+        "run_id": "",
+        "timestamp": "",
+        "source_hashes": {},
+        "commands": [],
+        "exit_codes": [],
+        "log_paths": [],
+        "declarations_checked": []
+      },
+      "corpus_links": {
+        "human_companion": "",
+        "corpus_claim_register": "",
+        "supporting_summaries": []
+      }
+    },
+    {
+      "identity": {
+        "claim_id": "A07",
+        "candidate_uuid": "lean4-A07-0005"
+      },
+      "source_selection": {
+        "exact_source_expression": "That every communication technology in history — writing, the printing press, radio, television, the internet, social media — follows the same pattern: a brief window where truth spreads, followed by institutional capture of the infrastructure.",
+        "selection_disposition": "FORMALIZE",
+        "reason": "The claim describes a recurring pattern across communication technologies. This can be formalized as a temporal pattern or a state machine, though the historical claim itself is empirical."
+      },
+      "formal_object": {
+        "object_type": "DEFINITION",
+        "exact_proposed_statement": "A communication technology lifecycle is a sequence of phases: FreeTruth, InstitutionalCapture. Formally, a lifecycle L : ℕ → Phase where Phase = FreeTruth | InstitutionalCapture, and there exists a transition time t such that for all n < t, L n = FreeTruth, and for all n ≥ t, L n = InstitutionalCapture.",
+        "fully_qualified_declaration": "MetaArgument.CommunicationLifecycle.lifecycle_pattern",
+        "project_root": "MetaArgument",
+        "module": "MetaArgument.Part0.Hook"
+      },
+      "symbol_table": [
+        {
+          "term": "communication technology",
+          "formal_definition": "A technology T : Type with a lifecycle L : ℕ → Phase",
+          "reader_meaning": "A technology for spreading information",
+          "source_correspondence": "S052: 'every communication technology in history'"
+        },
+        {
+          "term": "free truth phase",
+          "formal_definition": "Phase.FreeTruth",
+          "reader_meaning": "A period where truth spreads freely",
+          "source_correspondence": "S052: 'a brief window where truth spreads'"
+        },
+        {
+          "term": "institutional capture phase",
+          "formal_definition": "Phase.InstitutionalCapture",
+          "reader_meaning": "A period where institutions control the technology",
+          "source_correspondence": "S052: 'institutional capture of the infrastructure'"
+        },
+        {
+          "term": "transition time",
+          "formal_definition": "t : ℕ such that ∀ n < t, L n = FreeTruth and ∀ n ≥ t, L n = InstitutionalCapture",
+          "reader_meaning": "The point at which capture occurs",
+          "source_correspondence": "S052: 'followed by'"
+        }
+      ],
+      "assumptions_and_dependencies": {
+        "explicit_premises": [
+          "Phase is a two-element type.",
+          "L : ℕ → Phase is the lifecycle of a communication technology.",
+          "There exists a transition time t."
+        ],
+        "custom_axioms": [
+          "Pattern axiom: every communication technology has a lifecycle of this form."
+        ],
+        "theological_starting_premises": "None.",
+        "non_vacuity_requirement": "There must exist at least one communication technology with such a lifecycle for the definition to be non-vacuous."
+      },
+      "verification_controls": [
+        {
+          "check": "module compilation",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "Lean corpus was not searched and no build was attempted in this run."
+        },
+        {
+          "check": "declaration inspection",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No existing declaration was inspected."
+        },
+        {
+          "check": "axiom dependency",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "Axiom dependencies were not checked."
+        },
+        {
+          "check": "proof escape",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No proof was attempted."
+        },
+        {
+          "check": "non-vacuity",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "Non-vacuity was not verified."
+        },
+        {
+          "check": "negative control",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No negative control was run."
+        },
+        {
+          "check": "countermodel",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No countermodel was constructed."
+        },
+        {
+          "check": "ablation",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No ablation was performed."
+        },
+        {
+          "check": "independent encoding",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No independent encoding was attempted."
+        }
+      ],
+      "result_and_boundary": {
+        "verification_status": "CANDIDATE",
+        "what_is_established": "A formal definition of a communication technology lifecycle is proposed: a two-phase sequence with a transition from free truth to institutional capture.",
+        "what_remains_open": "Whether the definition is non-vacuous, whether the historical claim that all communication technologies follow this pattern is true, and whether the formalization captures the intended meaning. The empirical claim is not verified here.",
+        "encoding_fidelity_review": "The formalization reduces the lifecycle to a two-phase sequence. This is a strong simplification; real technologies may have more complex lifecycles. Alternative encodings using temporal logic or dynamical systems may be more faithful.",
+        "interpretive_connections": "Connects to media theory, the history of communication, and institutional capture. The formalization is a structural pattern, not a causal explanation."
+      },
+      "reproduction_receipt": {
+        "run_id": "",
+        "timestamp": "",
+        "source_hashes": {},
+        "commands": [],
+        "exit_codes": [],
+        "log_paths": [],
+        "declarations_checked": []
+      },
+      "corpus_links": {
+        "human_companion": "",
+        "corpus_claim_register": "",
+        "supporting_summaries": []
+      }
+    }
+  ],
+  "existing_matches": [],
+  "notes": "The Lean corpus was not searched in this run. All verification controls are NOT_RUN and all verification statuses are CANDIDATE or NOT_ATTEMPTED. The formal candidates are proposed targets, not verified theorems. Claims A04, A05, A06, A09, A10 are empirical, historical, or sociological and are not formalized here. Claim A11 is raw text and not a claim."
+}

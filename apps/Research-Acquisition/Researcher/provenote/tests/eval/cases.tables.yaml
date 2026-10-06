@@ -1,0 +1,53 @@
+# Table-retrieval eval cases — Feature 4a (OPT-IN; NOT part of the headline public eval).
+#
+# These ask questions whose answers live in a TABLE, so they only pass once the
+# Marker table pass has spliced that table into the cache. They are deliberately
+# kept out of cases.public.yaml so the headline eval stays one-command reproducible
+# (no uvx/Marker dependency).
+#
+# To run (on the GPU/RTX box, where Marker runs):
+#   uv run python -m scripts.download_corpus               # the public corpus
+#   uv run python -m doc_assistant.ingest
+#   uv run python -m scripts.extract_tables_marker --apply # splice Marker tables
+#   uv run python -m doc_assistant.ingest                  # pull tables into retrieval
+#   uv run python -m scripts.run_eval --cases tests/eval/cases.tables.yaml --with-llm-judge
+#
+# Conventions match cases.public.yaml. expected_substrings here are TABLE values —
+# verify them against the actual table after the first real Marker pass (the engine
+# eval reproduced DPR's Table 2 faithfully; exact cell values may need a tweak).
+#
+# MEASURED (2026-06-06, RTX, GPU Marker via UV_TORCH_BACKEND=auto): the splice is
+# faithful — DPR Table 2 Single/NQ is Top-20 78.4, Top-100 85.4, so the substrings
+# below are CORRECT as written (no tweak needed).
+#
+# HISTORY: the first live run scored contains_all 0.750 / llm_judge 2.333 — the answer
+# surfaced 78.4 (from prose) but MISSED 85.4. Root cause was NOT Marker: the table's
+# caption ("Table 2: Top-20 & Top-100 retrieval accuracy ...") and its numeric grid
+# landed in DIFFERENT parent chunks (the splice dumped the grid at the page-span end,
+# far below the caption), so retrieval surfaced the caption parent while the grid
+# parent — holding the values — ranked below the candidate pool and never reached the
+# LLM.
+#
+# FIXED (2026-06-06): the splice now anchors the grid right after its caption
+# (tables_marker._place_block_in_span) and the chunker keeps the table block whole and
+# co-located with that caption (ingest._table_aware_parents). After re-splice +
+# `ingest --rebuild`, this case scores citation_overlap 1.000 and contains_all 1.000
+# (85.4 now reaches the LLM). llm_judge improved from 2.333 but varies run-to-run
+# (answer generation is stochastic) — don't treat a specific judge number as fixed.
+# Do not "fix" regressions here by loosening the expected values.
+
+- id: dpr_topk_accuracy_table
+  query: On Natural Questions, what is DPR's top-20 and top-100 retrieval accuracy?
+  expected_answer: On the Natural Questions test set, Dense Passage Retrieval reaches roughly
+    78-79% top-20 retrieval accuracy and roughly 85-86% top-100 accuracy, substantially above
+    the BM25 baseline. These figures come from DPR's retrieval results table.
+  expected_substrings:
+  - "78"
+  - "85"
+  - top-20
+  - top-100
+  expected_citations:
+  - dpr_karpukhin_2020
+  tags:
+  - tables
+  - opt-in

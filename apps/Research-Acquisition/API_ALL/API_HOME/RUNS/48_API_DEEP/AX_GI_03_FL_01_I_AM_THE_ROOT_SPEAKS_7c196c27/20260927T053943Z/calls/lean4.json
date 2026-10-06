@@ -1,0 +1,450 @@
+{
+  "name": "lean4",
+  "parsed": {
+    "station": "lean4",
+    "paper_uuid": "AX_GI_03_FL_01_I_AM_THE_ROOT_SPEAKS_7c196c27",
+    "run_uuid": "20260927T053943Z",
+    "template": "00_FULL_LEAN_TEMPLATE.md",
+    "formal_candidates": [
+      {
+        "identity": {
+          "claim_id": "A02",
+          "candidate_uuid": "lean4-A02-0001"
+        },
+        "source_selection": {
+          "exact_source_expression": "When God says 'I AM WHO I AM,' He is not giving a label like other names. He is saying He cannot be defined by anything deeper or larger—He is the root, not a thing among things.",
+          "selection_disposition": "FORMALIZE",
+          "reason": "The claim has a clear logical structure: a self-naming entity that is not definable by anything deeper or larger, i.e., not a member of a larger category and not explained by a more fundamental entity. This can be modeled as a partial order of metaphysical dependence with a maximal element."
+        },
+        "formal_object": {
+          "object_type": "DEFINITION",
+          "exact_proposed_statement": "A root is an entity r such that there is no entity x with x < r in the dependence order, and r is not a member of any category C that is more fundamental than r.",
+          "fully_qualified_declaration": "Theology.Root",
+          "project_root": "Theology",
+          "module": "Theology.Root"
+        },
+        "symbol_table": [
+          {
+            "term": "Entity",
+            "formal_definition": "Type",
+            "reader_meaning": "Any being or thing that can stand in dependence relations.",
+            "source_correspondence": "S020–S023, S031–S033"
+          },
+          {
+            "term": "DependsOn",
+            "formal_definition": "Entity → Entity → Prop",
+            "reader_meaning": "x depends on y if y is deeper, larger, or more fundamental than x.",
+            "source_correspondence": "S031–S033"
+          },
+          {
+            "term": "Root",
+            "formal_definition": "Entity → Prop",
+            "reader_meaning": "An entity that is not dependent on anything deeper and is not a member of a more fundamental category.",
+            "source_correspondence": "S020–S023, S031–S033"
+          }
+        ],
+        "assumptions_and_dependencies": {
+          "explicit_premises": [
+            "DependsOn is a strict partial order (irreflexive, transitive, asymmetric).",
+            "There exists at least one Entity."
+          ],
+          "custom_axioms": [],
+          "theological_starting_premises": "The biblical claim that God is the root and not a thing among things.",
+          "non_vacuity_requirement": "There must exist at least one entity satisfying Root, or the definition is vacuously true but not instantiated."
+        },
+        "verification_controls": [
+          {
+            "check": "module compilation",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "Lean corpus was not searched; no compilation attempted."
+          },
+          {
+            "check": "non-vacuity",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No proof of existence of a Root entity."
+          }
+        ],
+        "result_and_boundary": {
+          "verification_status": "CANDIDATE",
+          "what_is_established": "A formal definition of a root entity in a dependence order.",
+          "what_remains_open": "Whether any entity satisfies this definition; whether the dependence order is well-founded; whether the biblical God is the unique root.",
+          "encoding_fidelity_review": "The formalization captures the negative claim (not defined by anything deeper or larger) but does not capture the positive claim of self-existence or the personal nature of God.",
+          "interpretive_connections": "Connects to classical theism's concept of God as ultimate ground of being."
+        },
+        "reproduction_receipt": {
+          "run_id": "",
+          "timestamp": "",
+          "source_hashes": {},
+          "commands": [],
+          "exit_codes": [],
+          "log_paths": [],
+          "declarations_checked": []
+        },
+        "corpus_links": {
+          "human_companion": "",
+          "corpus_claim_register": "",
+          "supporting_summaries": []
+        }
+      },
+      {
+        "identity": {
+          "claim_id": "A04",
+          "candidate_uuid": "lean4-A04-0002"
+        },
+        "source_selection": {
+          "exact_source_expression": "We can study the world to learn about God (discovery), and we can listen to what God says about Himself (disclosure). They are different, but they should fit together.",
+          "selection_disposition": "FORMALIZE",
+          "reason": "The claim asserts a compatibility relation between two distinct epistemic sources: discovery (reason from world) and disclosure (revelation). This can be modeled as two sets of propositions that are consistent."
+        },
+        "formal_object": {
+          "object_type": "THEOREM",
+          "exact_proposed_statement": "If Discovery and Disclosure are sets of propositions, and both are true, then their union is consistent.",
+          "fully_qualified_declaration": "Theology.DiscoveryDisclosure.convergence",
+          "project_root": "Theology",
+          "module": "Theology.DiscoveryDisclosure"
+        },
+        "symbol_table": [
+          {
+            "term": "Discovery",
+            "formal_definition": "Set Prop",
+            "reader_meaning": "Propositions about God derived from studying the world.",
+            "source_correspondence": "S065"
+          },
+          {
+            "term": "Disclosure",
+            "formal_definition": "Set Prop",
+            "reader_meaning": "Propositions about God derived from God's self-revelation.",
+            "source_correspondence": "S066"
+          },
+          {
+            "term": "Consistent",
+            "formal_definition": "Set Prop → Prop",
+            "reader_meaning": "No contradiction can be derived from the set.",
+            "source_correspondence": "S063"
+          }
+        ],
+        "assumptions_and_dependencies": {
+          "explicit_premises": [
+            "Discovery and Disclosure are sets of propositions.",
+            "Both Discovery and Disclosure are true (i.e., all their members are true)."
+          ],
+          "custom_axioms": [],
+          "theological_starting_premises": "If Christianity is true, then what we find in the world and what God says should fit together.",
+          "non_vacuity_requirement": "Discovery and Disclosure must be non-empty for the theorem to be meaningful."
+        },
+        "verification_controls": [
+          {
+            "check": "module compilation",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "Lean corpus was not searched; no compilation attempted."
+          },
+          {
+            "check": "non-vacuity",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No proof that Discovery and Disclosure are non-empty."
+          }
+        ],
+        "result_and_boundary": {
+          "verification_status": "CANDIDATE",
+          "what_is_established": "A formal statement of the convergence claim: if both sources are true, they are consistent.",
+          "what_remains_open": "Whether Discovery and Disclosure are in fact true and non-empty; whether the consistency is provable without assuming the conclusion.",
+          "encoding_fidelity_review": "The formalization captures the logical compatibility but not the epistemic process of how they converge.",
+          "interpretive_connections": "Relates to natural theology and revealed theology debates."
+        },
+        "reproduction_receipt": {
+          "run_id": "",
+          "timestamp": "",
+          "source_hashes": {},
+          "commands": [],
+          "exit_codes": [],
+          "log_paths": [],
+          "declarations_checked": []
+        },
+        "corpus_links": {
+          "human_companion": "",
+          "corpus_claim_register": "",
+          "supporting_summaries": []
+        }
+      },
+      {
+        "identity": {
+          "claim_id": "A03",
+          "candidate_uuid": "lean4-A03-0003"
+        },
+        "source_selection": {
+          "exact_source_expression": "Jesus doesn't just talk about God—He says things like 'I am the bread of life' and 'I am the truth,' using the same 'I am' language God used for Himself. That's identity language, not just religious advice.",
+          "selection_disposition": "FORMALIZE",
+          "reason": "The claim is about identity statements: Jesus uses 'I am' predicates that ascribe to Himself properties that are divine or ultimate. This can be modeled as a set of identity claims and a relation of 'divine predicate'."
+        },
+        "formal_object": {
+          "object_type": "DEFINITION",
+          "exact_proposed_statement": "A divine identity claim is a statement of the form 'Jesus is P' where P is a predicate that is also used of God in the Hebrew Bible or is a role that only God can fulfill.",
+          "fully_qualified_declaration": "Theology.DivineIdentityClaim",
+          "project_root": "Theology",
+          "module": "Theology.DivineIdentityClaim"
+        },
+        "symbol_table": [
+          {
+            "term": "Jesus",
+            "formal_definition": "Entity",
+            "reader_meaning": "The historical person Jesus of Nazareth.",
+            "source_correspondence": "S069–S070"
+          },
+          {
+            "term": "DivinePredicate",
+            "formal_definition": "Entity → Prop",
+            "reader_meaning": "A property that is uniquely divine or ultimate.",
+            "source_correspondence": "S072–S078"
+          },
+          {
+            "term": "DivineIdentityClaim",
+            "formal_definition": "Prop",
+            "reader_meaning": "A statement where Jesus predicates a divine property of Himself.",
+            "source_correspondence": "S079–S088"
+          }
+        ],
+        "assumptions_and_dependencies": {
+          "explicit_premises": [
+            "There is a set of predicates considered divine.",
+            "Jesus utters statements of the form 'I am P' where P is divine."
+          ],
+          "custom_axioms": [],
+          "theological_starting_premises": "The New Testament records Jesus using 'I am' sayings.",
+          "non_vacuity_requirement": "There must be at least one divine predicate and one such utterance by Jesus."
+        },
+        "verification_controls": [
+          {
+            "check": "module compilation",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "Lean corpus was not searched; no compilation attempted."
+          },
+          {
+            "check": "non-vacuity",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No proof that such predicates exist or that Jesus uttered them."
+          }
+        ],
+        "result_and_boundary": {
+          "verification_status": "CANDIDATE",
+          "what_is_established": "A formal definition of divine identity claims.",
+          "what_remains_open": "Whether the historical Jesus actually made these claims; whether the predicates are truly divine; whether the 'I am' sayings are correctly translated.",
+          "encoding_fidelity_review": "The formalization captures the logical form but not the theological interpretation of the sayings.",
+          "interpretive_connections": "Connects to Christology and the study of the historical Jesus."
+        },
+        "reproduction_receipt": {
+          "run_id": "",
+          "timestamp": "",
+          "source_hashes": {},
+          "commands": [],
+          "exit_codes": [],
+          "log_paths": [],
+          "declarations_checked": []
+        },
+        "corpus_links": {
+          "human_companion": "",
+          "corpus_claim_register": "",
+          "supporting_summaries": []
+        }
+      },
+      {
+        "identity": {
+          "claim_id": "A12",
+          "candidate_uuid": "lean4-A12-0004"
+        },
+        "source_selection": {
+          "exact_source_expression": "If Christianity is true, then what we find in the world, in logic, in history, and in our lives should fit with the God it describes.",
+          "selection_disposition": "FORMALIZE",
+          "reason": "This is a conditional prediction: if Christianity is true, then there is a fit between the world and the Christian description of God. This can be modeled as a consistency condition between a set of observations and a set of theological claims."
+        },
+        "formal_object": {
+          "object_type": "THEOREM",
+          "exact_proposed_statement": "If Christianity is true, then for every observation O in the set of observations, O is consistent with the Christian description of God.",
+          "fully_qualified_declaration": "Theology.Convergence.prediction",
+          "project_root": "Theology",
+          "module": "Theology.Convergence"
+        },
+        "symbol_table": [
+          {
+            "term": "Christianity",
+            "formal_definition": "Prop",
+            "reader_meaning": "The truth of the Christian worldview.",
+            "source_correspondence": "S128"
+          },
+          {
+            "term": "Observation",
+            "formal_definition": "Set Prop",
+            "reader_meaning": "Propositions about the world, logic, history, and experience.",
+            "source_correspondence": "S128"
+          },
+          {
+            "term": "ChristianDescription",
+            "formal_definition": "Set Prop",
+            "reader_meaning": "Propositions describing God according to Christianity.",
+            "source_correspondence": "S124"
+          },
+          {
+            "term": "Consistent",
+            "formal_definition": "Set Prop → Set Prop → Prop",
+            "reader_meaning": "The union of the two sets is consistent.",
+            "source_correspondence": "S128"
+          }
+        ],
+        "assumptions_and_dependencies": {
+          "explicit_premises": [
+            "Christianity is true.",
+            "Observation and ChristianDescription are sets of propositions."
+          ],
+          "custom_axioms": [],
+          "theological_starting_premises": "The Christian claim that God is the root and has disclosed Himself.",
+          "non_vacuity_requirement": "Observation and ChristianDescription must be non-empty."
+        },
+        "verification_controls": [
+          {
+            "check": "module compilation",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "Lean corpus was not searched; no compilation attempted."
+          },
+          {
+            "check": "non-vacuity",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No proof that the sets are non-empty or that consistency holds."
+          }
+        ],
+        "result_and_boundary": {
+          "verification_status": "CANDIDATE",
+          "what_is_established": "A formal conditional statement of the convergence prediction.",
+          "what_remains_open": "Whether Christianity is true; whether the observations actually fit; whether the consistency can be proven without assuming Christianity.",
+          "encoding_fidelity_review": "The formalization captures the logical form but not the evidential weight of the convergence.",
+          "interpretive_connections": "Relates to apologetics and the problem of divine hiddenness."
+        },
+        "reproduction_receipt": {
+          "run_id": "",
+          "timestamp": "",
+          "source_hashes": {},
+          "commands": [],
+          "exit_codes": [],
+          "log_paths": [],
+          "declarations_checked": []
+        },
+        "corpus_links": {
+          "human_companion": "",
+          "corpus_claim_register": "",
+          "supporting_summaries": []
+        }
+      },
+      {
+        "identity": {
+          "claim_id": "A06",
+          "candidate_uuid": "lean4-A06-0005"
+        },
+        "source_selection": {
+          "exact_source_expression": "We can describe what Christianity says about God without first proving it. Then we can ask whether the world, our reasoning, history, and our experience line up with that description.",
+          "selection_disposition": "FORMALIZE",
+          "reason": "This is a methodological claim: the disclosed portrait can be stated as a set of propositions without proof, and then evaluated for consistency with other data. This can be modeled as a separation between statement and verification."
+        },
+        "formal_object": {
+          "object_type": "DEFINITION",
+          "exact_proposed_statement": "A disclosed portrait is a set of propositions about God that can be stated without proof and later evaluated for consistency with observations.",
+          "fully_qualified_declaration": "Theology.DisclosedPortrait",
+          "project_root": "Theology",
+          "module": "Theology.DisclosedPortrait"
+        },
+        "symbol_table": [
+          {
+            "term": "DisclosedPortrait",
+            "formal_definition": "Set Prop",
+            "reader_meaning": "The set of claims Christianity makes about God.",
+            "source_correspondence": "S124"
+          },
+          {
+            "term": "StatedWithoutProof",
+            "formal_definition": "Set Prop → Prop",
+            "reader_meaning": "The set can be formulated without requiring a proof of its truth.",
+            "source_correspondence": "S126"
+          },
+          {
+            "term": "EvaluatedForConsistency",
+            "formal_definition": "Set Prop → Set Prop → Prop",
+            "reader_meaning": "The portrait is checked against observations for consistency.",
+            "source_correspondence": "S127–S128"
+          }
+        ],
+        "assumptions_and_dependencies": {
+          "explicit_premises": [
+            "There is a set of propositions describing God according to Christianity.",
+            "There is a set of observations from world, reason, history, and experience."
+          ],
+          "custom_axioms": [],
+          "theological_starting_premises": "The Christian claim that God has disclosed Himself.",
+          "non_vacuity_requirement": "The disclosed portrait must be non-empty."
+        },
+        "verification_controls": [
+          {
+            "check": "module compilation",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "Lean corpus was not searched; no compilation attempted."
+          },
+          {
+            "check": "non-vacuity",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No proof that the portrait is non-empty or that consistency holds."
+          }
+        ],
+        "result_and_boundary": {
+          "verification_status": "CANDIDATE",
+          "what_is_established": "A formal definition of a disclosed portrait and its evaluation.",
+          "what_remains_open": "Whether the portrait is true; whether the observations actually line up; whether the method is sound.",
+          "encoding_fidelity_review": "The formalization captures the methodological separation but not the content of the portrait.",
+          "interpretive_connections": "Relates to the epistemology of revelation and the role of presuppositions."
+        },
+        "reproduction_receipt": {
+          "run_id": "",
+          "timestamp": "",
+          "source_hashes": {},
+          "commands": [],
+          "exit_codes": [],
+          "log_paths": [],
+          "declarations_checked": []
+        },
+        "corpus_links": {
+          "human_companion": "",
+          "corpus_claim_register": "",
+          "supporting_summaries": []
+        }
+      }
+    ],
+    "existing_matches": [],
+    "notes": "The Lean corpus was not searched in this run. All verification controls are NOT_RUN and verification statuses are CANDIDATE or NOT_ATTEMPTED. No reproduction receipts or corpus links are provided. The formal candidates are proposed targets for future formalization, not verified Lean declarations."
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "lean4",
+      "attempt": 1,
+      "text": "{\n  \"station\": \"lean4\",\n  \"paper_uuid\": \"AX_GI_03_FL_01_I_AM_THE_ROOT_SPEAKS_7c196c27\",\n  \"run_uuid\": \"20260927T053943Z\",\n  \"template\": \"00_FULL_LEAN_TEMPLATE.md\",\n  \"formal_candidates\": [\n    {\n      \"identity\": {\n        \"claim_id\": \"A02\",\n        \"candidate_uuid\": \"lean4-A02-0001\"\n      },\n      \"source_selection\": {\n        \"exact_source_expression\": \"When God says 'I AM WHO I AM,' He is not giving a label like other names. He is saying He cannot be defined by anything deeper or larger—He is the root, not a thing among things.\",\n        \"selection_disposition\": \"FORMALIZE\",\n        \"reason\": \"The claim has a clear logical structure: a self-naming entity that is not definable by anything deeper or larger, i.e., not a member of a larger category and not explained by a more fundamental entity. This can be modeled as a partial order of metaphysical dependence with a maximal element.\"\n      },\n      \"formal_object\": {\n        \"object_type\": \"DEFINITION\",\n        \"exact_proposed_statement\": \"A root is an entity r such that there is no entity x with x < r in the dependence order, and r is not a member of any category C that is more fundamental than r.\",\n        \"fully_qualified_declaration\": \"Theology.Root\",\n        \"project_root\": \"Theology\",\n        \"module\": \"Theology.Root\"\n      },\n      \"symbol_table\": [\n        {\n          \"term\": \"Entity\",\n          \"formal_definition\": \"Type\",\n          \"reader_meaning\": \"Any being or thing that can stand in dependence relations.\",\n          \"source_correspondence\": \"S020–S023, S031–S033\"\n        },\n        {\n          \"term\": \"DependsOn\",\n          \"formal_definition\": \"Entity → Entity → Prop\",\n          \"reader_meaning\": \"x depends on y if y is deeper, larger, or more fundamental than x.\",\n          \"source_correspondence\": \"S031–S033\"\n        },\n        {\n          \"term\": \"Root\",\n          \"formal_definition\": \"Entity → Prop\",\n          \"reader_meaning\": \"An entity that is not dependent on anything deeper and is not a member of a more fundamental category.\",\n          \"source_correspondence\": \"S020–S023, S031–S033\"\n        }\n      ],\n      \"assumptions_and_dependencies\": {\n        \"explicit_premises\": [\n          \"DependsOn is a strict partial order (irreflexive, transitive, asymmetric).\",\n          \"There exists at least one Entity.\"\n        ],\n        \"custom_axioms\": [],\n        \"theological_starting_premises\": \"The biblical claim that God is the root and not a thing among things.\",\n        \"non_vacuity_requirement\": \"There must exist at least one entity satisfying Root, or the definition is vacuously true but not instantiated.\"\n      },\n      \"verification_controls\": [\n        {\n          \"check\": \"module compilation\",\n          \"command_or_evidence\": \"\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"Lean corpus was not searched; no compilation attempted.\"\n        },\n        {\n          \"check\": \"non-vacuity\",\n          \"command_or_evidence\": \"\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"No proof of existence of a Root entity.\"\n        }\n      ],\n      \"result_and_boundary\": {\n        \"verification_status\": \"CANDIDATE\",\n        \"what_is_established\": \"A formal definition of a root entity in a dependence order.\",\n        \"what_remains_open\": \"Whether any entity satisfies this definition; whether the dependence order is well-founded; whether the biblical God is the unique root.\",\n        \"encoding_fidelity_review\": \"The formalization captures the negative claim (not defined by anything deeper or larger) but does not capture the positive claim of self-existence or the personal nature of God.\",\n        \"interpretive_connections\": \"Connects to classical theism's concept of God as ultimate ground of being.\"\n      },\n      \"reproduction_receipt\": {\n        \"run_id\": \"\",\n        \"timestamp\": \"\",\n        \"source_hashes\": {},\n        \"commands\": [],\n        \"exit_codes\": [],\n        \"log_paths\": [],\n        \"declarations_checked\": []\n      },\n      \"corpus_links\": {\n        \"human_companion\": \"\",\n        \"corpus_claim_register\": \"\",\n        \"supporting_summaries\": []\n      }\n    },\n    {\n      \"identity\": {\n        \"claim_id\": \"A04\",\n        \"candidate_uuid\": \"lean4-A04-0002\"\n      },\n      \"source_selection\": {\n        \"exact_source_expression\": \"We can study the world to learn about God (discovery), and we can listen to what God says about Himself (disclosure). They are different, but they should fit together.\",\n        \"selection_disposition\": \"FORMALIZE\",\n        \"reason\": \"The claim asserts a compatibility relation between two distinct epistemic sources: discovery (reason from world) and disclosure (revelation). This can be modeled as two sets of propositions that are consistent.\"\n      },\n      \"formal_object\": {\n        \"object_type\": \"THEOREM\",\n        \"exact_proposed_statement\": \"If Discovery and Disclosure are sets of propositions, and both are true, then their union is consistent.\",\n        \"fully_qualified_declaration\": \"Theology.DiscoveryDisclosure.convergence\",\n        \"project_root\": \"Theology\",\n        \"module\": \"Theology.DiscoveryDisclosure\"\n      },\n      \"symbol_table\": [\n        {\n          \"term\": \"Discovery\",\n          \"formal_definition\": \"Set Prop\",\n          \"reader_meaning\": \"Propositions about God derived from studying the world.\",\n          \"source_correspondence\": \"S065\"\n        },\n        {\n          \"term\": \"Disclosure\",\n          \"formal_definition\": \"Set Prop\",\n          \"reader_meaning\": \"Propositions about God derived from God's self-revelation.\",\n          \"source_correspondence\": \"S066\"\n        },\n        {\n          \"term\": \"Consistent\",\n          \"formal_definition\": \"Set Prop → Prop\",\n          \"reader_meaning\": \"No contradiction can be derived from the set.\",\n          \"source_correspondence\": \"S063\"\n        }\n      ],\n      \"assumptions_and_dependencies\": {\n        \"explicit_premises\": [\n          \"Discovery and Disclosure are sets of propositions.\",\n          \"Both Discovery and Disclosure are true (i.e., all their members are true).\"\n        ],\n        \"custom_axioms\": [],\n        \"theological_starting_premises\": \"If Christianity is true, then what we find in the world and what God says should fit together.\",\n        \"non_vacuity_requirement\": \"Discovery and Disclosure must be non-empty for the theorem to be meaningful.\"\n      },\n      \"verification_controls\": [\n        {\n          \"check\": \"module compilation\",\n          \"command_or_evidence\": \"\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"Lean corpus was not searched; no compilation attempted.\"\n        },\n        {\n          \"check\": \"non-vacuity\",\n          \"command_or_evidence\": \"\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"No proof that Discovery and Disclosure are non-empty.\"\n        }\n      ],\n      \"result_and_boundary\": {\n        \"verification_status\": \"CANDIDATE\",\n        \"what_is_established\": \"A formal statement of the convergence claim: if both sources are true, they are consistent.\",\n        \"what_remains_open\": \"Whether Discovery and Disclosure are in fact true and non-empty; whether the consistency is provable without assuming the conclusion.\",\n        \"encoding_fidelity_review\": \"The formalization captures the logical compatibility but not the epistemic process of how they converge.\",\n        \"interpretive_connections\": \"Relates to natural theology and revealed theology debates.\"\n      },\n      \"reproduction_receipt\": {\n        \"run_id\": \"\",\n        \"timestamp\": \"\",\n        \"source_hashes\": {},\n        \"commands\": [],\n        \"exit_codes\": [],\n        \"log_paths\": [],\n        \"declarations_checked\": []\n      },\n      \"corpus_links\": {\n        \"human_companion\": \"\",\n        \"corpus_claim_register\": \"\",\n        \"supporting_summaries\": []\n      }\n    },\n    {\n      \"identity\": {\n        \"claim_id\": \"A03\",\n        \"candidate_uuid\": \"lean4-A03-0003\"\n      },\n      \"source_selection\": {\n        \"exact_source_expression\": \"Jesus doesn't just talk about God—He says things like 'I am the bread of life' and 'I am the truth,' using the same 'I am' language God used for Himself. That's identity language, not just religious advice.\",\n        \"selection_disposition\": \"FORMALIZE\",\n        \"reason\": \"The claim is about identity statements: Jesus uses 'I am' predicates that ascribe to Himself properties that are divine or ultimate. This can be modeled as a set of identity claims and a relation of 'divine predicate'.\"\n      },\n      \"formal_object\": {\n        \"object_type\": \"DEFINITION\",\n        \"exact_proposed_statement\": \"A divine identity claim is a statement of the form 'Jesus is P' where P is a predicate that is also used of God in the Hebrew Bible or is a role that only God can fulfill.\",\n        \"fully_qualified_declaration\": \"Theology.DivineIdentityClaim\",\n        \"project_root\": \"Theology\",\n        \"module\": \"Theology.DivineIdentityClaim\"\n      },\n      \"symbol_table\": [\n        {\n          \"term\": \"Jesus\",\n          \"formal_definition\": \"Entity\",\n          \"reader_meaning\": \"The historical person Jesus of Nazareth.\",\n          \"source_correspondence\": \"S069–S070\"\n        },\n        {\n          \"term\": \"DivinePredicate\",\n          \"formal_definition\": \"Entity → Prop\",\n          \"reader_meaning\": \"A property that is uniquely divine or ultimate.\",\n          \"source_correspondence\": \"S072–S078\"\n        },\n        {\n          \"term\": \"DivineIdentityClaim\",\n          \"formal_definition\": \"Prop\",\n          \"reader_meaning\": \"A statement where Jesus predicates a divine property of Himself.\",\n          \"source_correspondence\": \"S079–S088\"\n        }\n      ],\n      \"assumptions_and_dependencies\": {\n        \"explicit_premises\": [\n          \"There is a set of predicates considered divine.\",\n          \"Jesus utters statements of the form 'I am P' where P is divine.\"\n        ],\n        \"custom_axioms\": [],\n        \"theological_starting_premises\": \"The New Testament records Jesus using 'I am' sayings.\",\n        \"non_vacuity_requirement\": \"There must be at least one divine predicate and one such utterance by Jesus.\"\n      },\n      \"verification_controls\": [\n        {\n          \"check\": \"module compilation\",\n          \"command_or_evidence\": \"\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"Lean corpus was not searched; no compilation attempted.\"\n        },\n        {\n          \"check\": \"non-vacuity\",\n          \"command_or_evidence\": \"\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"No proof that such predicates exist or that Jesus uttered them.\"\n        }\n      ],\n      \"result_and_boundary\": {\n        \"verification_status\": \"CANDIDATE\",\n        \"what_is_established\": \"A formal definition of divine identity claims.\",\n        \"what_remains_open\": \"Whether the historical Jesus actually made these claims; whether the predicates are truly divine; whether the 'I am' sayings are correctly translated.\",\n        \"encoding_fidelity_review\": \"The formalization captures the logical form but not the theological interpretation of the sayings.\",\n        \"interpretive_connections\": \"Connects to Christology and the study of the historical Jesus.\"\n      },\n      \"reproduction_receipt\": {\n        \"run_id\": \"\",\n        \"timestamp\": \"\",\n        \"source_hashes\": {},\n        \"commands\": [],\n        \"exit_codes\": [],\n        \"log_paths\": [],\n        \"declarations_checked\": []\n      },\n      \"corpus_links\": {\n        \"human_companion\": \"\",\n        \"corpus_claim_register\": \"\",\n        \"supporting_summaries\": []\n      }\n    },\n    {\n      \"identity\": {\n        \"claim_id\": \"A12\",\n        \"candidate_uuid\": \"lean4-A12-0004\"\n      },\n      \"source_selection\": {\n        \"exact_source_expression\": \"If Christianity is true, then what we find in the world, in logic, in history, and in our lives should fit with the God it describes.\",\n        \"selection_disposition\": \"FORMALIZE\",\n        \"reason\": \"This is a conditional prediction: if Christianity is true, then there is a fit between the world and the Christian description of God. This can be modeled as a consistency condition between a set of observations and a set of theological claims.\"\n      },\n      \"formal_object\": {\n        \"object_type\": \"THEOREM\",\n        \"exact_proposed_statement\": \"If Christianity is true, then for every observation O in the set of observations, O is consistent with the Christian description of God.\",\n        \"fully_qualified_declaration\": \"Theology.Convergence.prediction\",\n        \"project_root\": \"Theology\",\n        \"module\": \"Theology.Convergence\"\n      },\n      \"symbol_table\": [\n        {\n          \"term\": \"Christianity\",\n          \"formal_definition\": \"Prop\",\n          \"reader_meaning\": \"The truth of the Christian worldview.\",\n          \"source_correspondence\": \"S128\"\n        },\n        {\n          \"term\": \"Observation\",\n          \"formal_definition\": \"Set Prop\",\n          \"reader_meaning\": \"Propositions about the world, logic, history, and experience.\",\n          \"source_correspondence\": \"S128\"\n        },\n        {\n          \"term\": \"ChristianDescription\",\n          \"formal_definition\": \"Set Prop\",\n          \"reader_meaning\": \"Propositions describing God according to Christianity.\",\n          \"source_correspondence\": \"S124\"\n        },\n        {\n          \"term\": \"Consistent\",\n          \"formal_definition\": \"Set Prop → Set Prop → Prop\",\n          \"reader_meaning\": \"The union of the two sets is consistent.\",\n          \"source_correspondence\": \"S128\"\n        }\n      ],\n      \"assumptions_and_dependencies\": {\n        \"explicit_premises\": [\n          \"Christianity is true.\",\n          \"Observation and ChristianDescription are sets of propositions.\"\n        ],\n        \"custom_axioms\": [],\n        \"theological_starting_premises\": \"The Christian claim that God is the root and has disclosed Himself.\",\n        \"non_vacuity_requirement\": \"Observation and ChristianDescription must be non-empty.\"\n      },\n      \"verification_controls\": [\n        {\n          \"check\": \"module compilation\",\n          \"command_or_evidence\": \"\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"Lean corpus was not searched; no compilation attempted.\"\n        },\n        {\n          \"check\": \"non-vacuity\",\n          \"command_or_evidence\": \"\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"No proof that the sets are non-empty or that consistency holds.\"\n        }\n      ],\n      \"result_and_boundary\": {\n        \"verification_status\": \"CANDIDATE\",\n        \"what_is_established\": \"A formal conditional statement of the convergence prediction.\",\n        \"what_remains_open\": \"Whether Christianity is true; whether the observations actually fit; whether the consistency can be proven without assuming Christianity.\",\n        \"encoding_fidelity_review\": \"The formalization captures the logical form but not the evidential weight of the convergence.\",\n        \"interpretive_connections\": \"Relates to apologetics and the problem of divine hiddenness.\"\n      },\n      \"reproduction_receipt\": {\n        \"run_id\": \"\",\n        \"timestamp\": \"\",\n        \"source_hashes\": {},\n        \"commands\": [],\n        \"exit_codes\": [],\n        \"log_paths\": [],\n        \"declarations_checked\": []\n      },\n      \"corpus_links\": {\n        \"human_companion\": \"\",\n        \"corpus_claim_register\": \"\",\n        \"supporting_summaries\": []\n      }\n    },\n    {\n      \"identity\": {\n        \"claim_id\": \"A06\",\n        \"candidate_uuid\": \"lean4-A06-0005\"\n      },\n      \"source_selection\": {\n        \"exact_source_expression\": \"We can describe what Christianity says about God without first proving it. Then we can ask whether the world, our reasoning, history, and our experience line up with that description.\",\n        \"selection_disposition\": \"FORMALIZE\",\n        \"reason\": \"This is a methodological claim: the disclosed portrait can be stated as a set of propositions without proof, and then evaluated for consistency with other data. This can be modeled as a separation between statement and verification.\"\n      },\n      \"formal_object\": {\n        \"object_type\": \"DEFINITION\",\n        \"exact_proposed_statement\": \"A disclosed portrait is a set of propositions about God that can be stated without proof and later evaluated for consistency with observations.\",\n        \"fully_qualified_declaration\": \"Theology.DisclosedPortrait\",\n        \"project_root\": \"Theology\",\n        \"module\": \"Theology.DisclosedPortrait\"\n      },\n      \"symbol_table\": [\n        {\n          \"term\": \"DisclosedPortrait\",\n          \"formal_definition\": \"Set Prop\",\n          \"reader_meaning\": \"The set of claims Christianity makes about God.\",\n          \"source_correspondence\": \"S124\"\n        },\n        {\n          \"term\": \"StatedWithoutProof\",\n          \"formal_definition\": \"Set Prop → Prop\",\n          \"reader_meaning\": \"The set can be formulated without requiring a proof of its truth.\",\n          \"source_correspondence\": \"S126\"\n        },\n        {\n          \"term\": \"EvaluatedForConsistency\",\n          \"formal_definition\": \"Set Prop → Set Prop → Prop\",\n          \"reader_meaning\": \"The portrait is checked against observations for consistency.\",\n          \"source_correspondence\": \"S127–S128\"\n        }\n      ],\n      \"assumptions_and_dependencies\": {\n        \"explicit_premises\": [\n          \"There is a set of propositions describing God according to Christianity.\",\n          \"There is a set of observations from world, reason, history, and experience.\"\n        ],\n        \"custom_axioms\": [],\n        \"theological_starting_premises\": \"The Christian claim that God has disclosed Himself.\",\n        \"non_vacuity_requirement\": \"The disclosed portrait must be non-empty.\"\n      },\n      \"verification_controls\": [\n        {\n          \"check\": \"module compilation\",\n          \"command_or_evidence\": \"\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"Lean corpus was not searched; no compilation attempted.\"\n        },\n        {\n          \"check\": \"non-vacuity\",\n          \"command_or_evidence\": \"\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"No proof that the portrait is non-empty or that consistency holds.\"\n        }\n      ],\n      \"result_and_boundary\": {\n        \"verification_status\": \"CANDIDATE\",\n        \"what_is_established\": \"A formal definition of a disclosed portrait and its evaluation.\",\n        \"what_remains_open\": \"Whether the portrait is true; whether the observations actually line up; whether the method is sound.\",\n        \"encoding_fidelity_review\": \"The formalization captures the methodological separation but not the content of the portrait.\",\n        \"interpretive_connections\": \"Relates to the epistemology of revelation and the role of presuppositions.\"\n      },\n      \"reproduction_receipt\": {\n        \"run_id\": \"\",\n        \"timestamp\": \"\",\n        \"source_hashes\": {},\n        \"commands\": [],\n        \"exit_codes\": [],\n        \"log_paths\": [],\n        \"declarations_checked\": []\n      },\n      \"corpus_links\": {\n        \"human_companion\": \"\",\n        \"corpus_claim_register\": \"\",\n        \"supporting_summaries\": []\n      }\n    }\n  ],\n  \"existing_matches\": [],\n  \"notes\": \"The Lean corpus was not searched in this run. All verification controls are NOT_RUN and verification statuses are CANDIDATE or NOT_ATTEMPTED. No reproduction receipts or corpus links are provided. The formal candidates are proposed targets for future formalization, not verified Lean declarations.\"\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 4017,
+      "completion_tokens": 4485,
+      "attempts": 1,
+      "elapsed_seconds": 15.844000000000051,
+      "started_at": "2026-09-27T05:39:57.733767+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T05:40:13.582809+00:00",
+      "tokens": 8502
+    }
+  ],
+  "prompt_sha256": "70a6f84cf2a6b9452a713cc75d01743e974c17a49fbd886b001603992e308b55",
+  "tokens": 8502
+}

@@ -1,0 +1,28 @@
+---
+fis_schema: "folder-index.v1"
+folder_id: "FLD-20260907-c210e553"
+folder: "GitHub\Research-Acquisition\crawl4ai\bible_contradictions_HUD\3_TIMELINE_SHIFT"
+folder_class: "project"
+confidence: 0.6
+dependency_risk: 0.0
+dominant_family: "text"
+dominant_ratio: 0.977
+file_count: 44
+classified_at: "2026-09-07T16:07:35"
+allowed_actions: ["index", "rename_internal", "subfolder_sort", "archive_exports"]
+suggested_name: "3_timeline_shift"
+---
+
+# FIS Folder Index: 3_TIMELINE_SHIFT
+
+**Class**: project  ·  **Confidence**: 60%  ·  **Files**: 44  ·  **Dominant**: text (98%)
+
+## Allowed actions
+- index
+- rename_internal
+- subfolder_sort
+- archive_exports
+
+**Suggested name**: `3_timeline_shift`  (not applied — review before use)
+
+<!-- FIS folder-index.v1: parseable note; safe to regenerate. -->

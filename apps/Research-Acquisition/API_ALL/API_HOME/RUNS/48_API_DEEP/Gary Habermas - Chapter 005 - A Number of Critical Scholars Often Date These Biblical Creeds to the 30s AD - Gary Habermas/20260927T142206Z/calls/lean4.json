@@ -1,0 +1,420 @@
+{
+  "name": "lean4",
+  "parsed": {
+    "station": "lean4",
+    "paper_uuid": "Gary Habermas - Chapter 005 - A Number of Critical Scholars Often Date These Biblical Creeds to the 30s AD - Gary Habermas",
+    "run_uuid": "deep-22d4d7de3e11",
+    "template": "00_FULL_LEAN_TEMPLATE.md",
+    "formal_candidates": [
+      {
+        "identity": {
+          "claim_id": "A02",
+          "candidate_uuid": "lean4-A02-1c4f9a2e"
+        },
+        "source_selection": {
+          "exact_source_expression": "S045-S047: \"the Jesus Seminar took a vote, and they say in volume two, toward the back, they say that the 1 Corinthians 15:3 and following, three to five or more verses, um Paul's, it's not Paul, but Paul cites a creed. He's not the author. They said that creed or its component parts was already in existence before Paul took his walk to Damascus.\"",
+          "selection_disposition": "FORMALIZE",
+          "reason": "This is a structured, testable historical claim about textual dependence and relative chronology: a creedal formula embedded in 1 Cor 15:3ff is asserted to pre-date Paul's conversion. It can be modeled as a formal relation over a finite set of texts, authors, and dates, with the historical premises made explicit as axioms."
+        },
+        "formal_object": {
+          "object_type": "THEOREM",
+          "exact_proposed_statement": "For any finite model M of the creedal-dependence fragment, if (i) 1 Cor 15:3ff is a creedal formula C, (ii) Paul cites C in 1 Cor 15:3ff, (iii) Paul is not the author of C, and (iv) Paul's conversion occurs at time t_conv, then the composition time of C is strictly less than t_conv.",
+          "fully_qualified_declaration": "CreedalDependence.creed_predates_conversion",
+          "project_root": "lean4-formalizations",
+          "module": "CreedalDependence.Basic"
+        },
+        "symbol_table": [
+          {
+            "term": "Text",
+            "formal_definition": "inductive Text : Type | Cor15_3ff | Romans10_9 | ...",
+            "reader_meaning": "A biblical passage or creedal formula under discussion.",
+            "source_correspondence": "S045-S047, S053"
+          },
+          {
+            "term": "Author",
+            "formal_definition": "inductive Author : Type | Paul | Anonymous | ...",
+            "reader_meaning": "Attributed author of a text or creed.",
+            "source_correspondence": "S046-S047"
+          },
+          {
+            "term": "cites",
+            "formal_definition": "def cites (a : Author) (t : Text) : Prop := ...",
+            "reader_meaning": "Author a quotes or cites text t.",
+            "source_correspondence": "S045-S047"
+          },
+          {
+            "term": "authorship",
+            "formal_definition": "def authorship (a : Author) (t : Text) : Prop := ...",
+            "reader_meaning": "Author a is the author of text t.",
+            "source_correspondence": "S046-S047"
+          },
+          {
+            "term": "composition_time",
+            "formal_definition": "def composition_time (t : Text) : Time := ...",
+            "reader_meaning": "The date at which a text or creed was composed.",
+            "source_correspondence": "S047, S049"
+          },
+          {
+            "term": "conversion_time",
+            "formal_definition": "def conversion_time (a : Author) : Time := ...",
+            "reader_meaning": "The date at which an author converted.",
+            "source_correspondence": "S047-S049"
+          }
+        ],
+        "assumptions_and_dependencies": {
+          "explicit_premises": [
+            "1 Cor 15:3ff is a creedal formula C.",
+            "Paul cites C in 1 Cor 15:3ff.",
+            "Paul is not the author of C.",
+            "Paul's conversion occurs at time t_conv."
+          ],
+          "custom_axioms": [
+            "axiom citation_implies_prior_composition : ∀ (a : Author) (t : Text), cites a t → composition_time t < conversion_time a"
+          ],
+          "theological_starting_premises": "The axiom citation_implies_prior_composition encodes the historical-critical assumption that a cited source pre-dates the citing author's conversion. This is a methodological premise, not a theological one, but it is not derivable from pure logic.",
+          "non_vacuity_requirement": "The model must contain at least one Text and one Author, and the citation relation must be non-empty for the theorem to be non-vacuous."
+        },
+        "verification_controls": [
+          {
+            "check": "module compilation",
+            "command_or_evidence": "lake build CreedalDependence.Basic",
+            "status": "NOT_RUN",
+            "interpretation": "Lean corpus was not searched; no build attempted."
+          },
+          {
+            "check": "declaration inspection",
+            "command_or_evidence": "#check CreedalDependence.creed_predates_conversion",
+            "status": "NOT_RUN",
+            "interpretation": "Not run."
+          },
+          {
+            "check": "axiom dependency",
+            "command_or_evidence": "#print axioms CreedalDependence.creed_predates_conversion",
+            "status": "NOT_RUN",
+            "interpretation": "Not run."
+          },
+          {
+            "check": "non-vacuity",
+            "command_or_evidence": "Construct an explicit model with Paul, Cor15_3ff, and a citation relation.",
+            "status": "NOT_RUN",
+            "interpretation": "Not run."
+          }
+        ],
+        "result_and_boundary": {
+          "verification_status": "CANDIDATE",
+          "what_is_established": "If the formal model and the citation axiom are accepted, the theorem establishes that the creed's composition time is strictly before Paul's conversion time.",
+          "what_remains_open": "The historical truth of the premises (that Paul cites the creed, that he is not its author, and that citation implies prior composition) is not established by the formalization. The formalization does not establish the actual date of the creed, only the relative ordering under the model.",
+          "encoding_fidelity_review": "The encoding is a minimal model of textual dependence and chronology. It abstracts away from the specific content of the creed and the exact dates, focusing on the relative ordering. This is faithful to the claim's logical structure but not to its full historical complexity.",
+          "interpretive_connections": "The claim is part of a broader argument that early creeds pre-date the gospels and thus limit the time available for mythological development (A09)."
+        },
+        "reproduction_receipt": {},
+        "corpus_links": {}
+      },
+      {
+        "identity": {
+          "claim_id": "A01",
+          "candidate_uuid": "lean4-A01-2d8b7c1a"
+        },
+        "source_selection": {
+          "exact_source_expression": "S006: \"we know for sure that the a number of the best known creeds have to be pre-50.\"",
+          "selection_disposition": "FORMALIZE",
+          "reason": "This is a general chronological claim about a set of creeds. It can be formalized as a theorem over a finite set of creeds with a composition-time function and a threshold date."
+        },
+        "formal_object": {
+          "object_type": "THEOREM",
+          "exact_proposed_statement": "For any finite set of creeds S, if every creed in S is composed before 50 AD, then for all c in S, composition_time c < 50.",
+          "fully_qualified_declaration": "CreedalChronology.creeds_pre_50",
+          "project_root": "lean4-formalizations",
+          "module": "CreedalChronology.Basic"
+        },
+        "symbol_table": [
+          {
+            "term": "Creed",
+            "formal_definition": "inductive Creed : Type | Cor15 | Romans10_9 | ...",
+            "reader_meaning": "A creedal formula.",
+            "source_correspondence": "S006, S032-S033"
+          },
+          {
+            "term": "composition_time",
+            "formal_definition": "def composition_time (c : Creed) : Time := ...",
+            "reader_meaning": "The date at which a creed was composed.",
+            "source_correspondence": "S006"
+          },
+          {
+            "term": "pre_50",
+            "formal_definition": "def pre_50 (c : Creed) : Prop := composition_time c < 50",
+            "reader_meaning": "The creed was composed before 50 AD.",
+            "source_correspondence": "S006"
+          }
+        ],
+        "assumptions_and_dependencies": {
+          "explicit_premises": [
+            "S is a finite set of creeds.",
+            "For all c in S, pre_50 c."
+          ],
+          "custom_axioms": [],
+          "theological_starting_premises": "None.",
+          "non_vacuity_requirement": "S must be non-empty."
+        },
+        "verification_controls": [
+          {
+            "check": "module compilation",
+            "command_or_evidence": "lake build CreedalChronology.Basic",
+            "status": "NOT_RUN",
+            "interpretation": "Not run."
+          },
+          {
+            "check": "non-vacuity",
+            "command_or_evidence": "Provide an explicit non-empty S.",
+            "status": "NOT_RUN",
+            "interpretation": "Not run."
+          }
+        ],
+        "result_and_boundary": {
+          "verification_status": "CANDIDATE",
+          "what_is_established": "The theorem is a trivial restatement of the premise; it establishes that if the premise holds, the conclusion follows.",
+          "what_remains_open": "The historical truth of the premise that the creeds are pre-50 is not established.",
+          "encoding_fidelity_review": "The formalization is almost tautological; it captures the logical form but adds little. It is included because it is a clear claim that can be formalized.",
+          "interpretive_connections": "This claim supports the broader argument about early dating."
+        },
+        "reproduction_receipt": {},
+        "corpus_links": {}
+      },
+      {
+        "identity": {
+          "claim_id": "A03",
+          "candidate_uuid": "lean4-A03-3e9f1b2c"
+        },
+        "source_selection": {
+          "exact_source_expression": "S018-S020: \"his audience knows what those definitions are. Why? Because he never gives definitions.\"",
+          "selection_disposition": "FORMALIZE",
+          "reason": "This is an inference from the absence of definitions in Paul's letters to the prior knowledge of his audience. It can be modeled as a non-monotonic or default reasoning pattern, but a simple formalization can capture the conditional: if Paul does not define a term, then his audience already knows its meaning."
+        },
+        "formal_object": {
+          "object_type": "THEOREM",
+          "exact_proposed_statement": "For any term t and audience A, if Paul does not define t in his letter to A, then A already knows the Christian meaning of t.",
+          "fully_qualified_declaration": "PaulineInference.no_definition_implies_prior_knowledge",
+          "project_root": "lean4-formalizations",
+          "module": "PaulineInference.Basic"
+        },
+        "symbol_table": [
+          {
+            "term": "Term",
+            "formal_definition": "inductive Term : Type | Lord | Christ | ...",
+            "reader_meaning": "A theological term.",
+            "source_correspondence": "S018-S020"
+          },
+          {
+            "term": "Audience",
+            "formal_definition": "inductive Audience : Type | Thessalonians | Corinthians | ...",
+            "reader_meaning": "The recipients of a Pauline letter.",
+            "source_correspondence": "S018"
+          },
+          {
+            "term": "defines",
+            "formal_definition": "def defines (p : Author) (t : Term) (a : Audience) : Prop := ...",
+            "reader_meaning": "Paul defines term t for audience a.",
+            "source_correspondence": "S020"
+          },
+          {
+            "term": "knows",
+            "formal_definition": "def knows (a : Audience) (t : Term) : Prop := ...",
+            "reader_meaning": "Audience a knows the Christian meaning of term t.",
+            "source_correspondence": "S018"
+          }
+        ],
+        "assumptions_and_dependencies": {
+          "explicit_premises": [
+            "Paul does not define t for A."
+          ],
+          "custom_axioms": [
+            "axiom no_definition_implies_knowledge : ∀ (t : Term) (a : Audience), ¬ defines Paul t a → knows a t"
+          ],
+          "theological_starting_premises": "The axiom encodes a pragmatic inference about communication; it is not a logical truth.",
+          "non_vacuity_requirement": "There must be at least one term and one audience."
+        },
+        "verification_controls": [
+          {
+            "check": "module compilation",
+            "command_or_evidence": "lake build PaulineInference.Basic",
+            "status": "NOT_RUN",
+            "interpretation": "Not run."
+          },
+          {
+            "check": "axiom dependency",
+            "command_or_evidence": "#print axioms PaulineInference.no_definition_implies_prior_knowledge",
+            "status": "NOT_RUN",
+            "interpretation": "Not run."
+          }
+        ],
+        "result_and_boundary": {
+          "verification_status": "CANDIDATE",
+          "what_is_established": "Under the axiom, the conclusion follows.",
+          "what_remains_open": "The axiom itself is a substantive pragmatic assumption that may not hold in all cases.",
+          "encoding_fidelity_review": "The formalization captures the conditional structure but not the evidential reasoning that Habermas uses.",
+          "interpretive_connections": "This inference supports the claim that Paul's letters presuppose earlier creedal material."
+        },
+        "reproduction_receipt": {},
+        "corpus_links": {}
+      },
+      {
+        "identity": {
+          "claim_id": "A09",
+          "candidate_uuid": "lean4-A09-4a1b2c3d"
+        },
+        "source_selection": {
+          "exact_source_expression": "S063: \"What keeps the creeds from being expanded until they become myth and they're not really the words of the eyewitnesses.\"",
+          "selection_disposition": "FORMALIZE",
+          "reason": "This is a claim about the relationship between early dating and the prevention of mythological expansion. It can be formalized as a conditional: if the time gap between the events and the creed is small, then there is insufficient time for mythological development."
+        },
+        "formal_object": {
+          "object_type": "THEOREM",
+          "exact_proposed_statement": "For any creed c and event e, if the time gap between e and c is less than a threshold T, then c is not a myth.",
+          "fully_qualified_declaration": "MythPrevention.early_creed_not_myth",
+          "project_root": "lean4-formalizations",
+          "module": "MythPrevention.Basic"
+        },
+        "symbol_table": [
+          {
+            "term": "Creed",
+            "formal_definition": "inductive Creed : Type | ...",
+            "reader_meaning": "A creedal formula.",
+            "source_correspondence": "S063"
+          },
+          {
+            "term": "Event",
+            "formal_definition": "inductive Event : Type | Crucifixion | Resurrection | ...",
+            "reader_meaning": "A historical event.",
+            "source_correspondence": "S063"
+          },
+          {
+            "term": "time_gap",
+            "formal_definition": "def time_gap (e : Event) (c : Creed) : Time := ...",
+            "reader_meaning": "The time between an event and the composition of a creed.",
+            "source_correspondence": "S063"
+          },
+          {
+            "term": "is_myth",
+            "formal_definition": "def is_myth (c : Creed) : Prop := ...",
+            "reader_meaning": "The creed is a myth.",
+            "source_correspondence": "S063"
+          }
+        ],
+        "assumptions_and_dependencies": {
+          "explicit_premises": [
+            "time_gap e c < T."
+          ],
+          "custom_axioms": [
+            "axiom short_gap_prevents_myth : ∀ (e : Event) (c : Creed), time_gap e c < T → ¬ is_myth c"
+          ],
+          "theological_starting_premises": "The axiom encodes a historical assumption about the rate of mythological development.",
+          "non_vacuity_requirement": "There must be at least one event and one creed."
+        },
+        "verification_controls": [
+          {
+            "check": "module compilation",
+            "command_or_evidence": "lake build MythPrevention.Basic",
+            "status": "NOT_RUN",
+            "interpretation": "Not run."
+          }
+        ],
+        "result_and_boundary": {
+          "verification_status": "CANDIDATE",
+          "what_is_established": "Under the axiom, the conclusion follows.",
+          "what_remains_open": "The threshold T and the axiom itself are not empirically justified within the formalization.",
+          "encoding_fidelity_review": "The formalization is a simplified model of a complex historical argument.",
+          "interpretive_connections": "This claim is a key part of Habermas's minimal facts argument."
+        },
+        "reproduction_receipt": {},
+        "corpus_links": {}
+      },
+      {
+        "identity": {
+          "claim_id": "A07",
+          "candidate_uuid": "lean4-A07-5b2c3d4e"
+        },
+        "source_selection": {
+          "exact_source_expression": "S038: \"Oh, sometime in the 30s I think is very common.\"",
+          "selection_disposition": "FORMALIZE",
+          "reason": "This is a claim about the majority of scholars dating the oral tradition to the 30s. It can be formalized as a statement about the distribution of scholarly opinions, but it is more of a sociological claim. A simple formalization can model the consensus as a proposition."
+        },
+        "formal_object": {
+          "object_type": "THEOREM",
+          "exact_proposed_statement": "If the majority of critical scholars date the oral tradition to the 30s, then the oral tradition is dated to the 30s.",
+          "fully_qualified_declaration": "ScholarlyConsensus.majority_date_30s",
+          "project_root": "lean4-formalizations",
+          "module": "ScholarlyConsensus.Basic"
+        },
+        "symbol_table": [
+          {
+            "term": "Scholar",
+            "formal_definition": "inductive Scholar : Type | ...",
+            "reader_meaning": "A critical scholar.",
+            "source_correspondence": "S038"
+          },
+          {
+            "term": "dates_to_30s",
+            "formal_definition": "def dates_to_30s (s : Scholar) : Prop := ...",
+            "reader_meaning": "Scholar s dates the oral tradition to the 30s.",
+            "source_correspondence": "S038"
+          },
+          {
+            "term": "majority",
+            "formal_definition": "def majority (P : Scholar → Prop) : Prop := ...",
+            "reader_meaning": "More than half of scholars satisfy P.",
+            "source_correspondence": "S038"
+          }
+        ],
+        "assumptions_and_dependencies": {
+          "explicit_premises": [
+            "majority dates_to_30s."
+          ],
+          "custom_axioms": [],
+          "theological_starting_premises": "None.",
+          "non_vacuity_requirement": "There must be a non-empty set of scholars."
+        },
+        "verification_controls": [
+          {
+            "check": "module compilation",
+            "command_or_evidence": "lake build ScholarlyConsensus.Basic",
+            "status": "NOT_RUN",
+            "interpretation": "Not run."
+          }
+        ],
+        "result_and_boundary": {
+          "verification_status": "CANDIDATE",
+          "what_is_established": "The theorem is a trivial restatement of the premise.",
+          "what_remains_open": "The empirical truth of the majority claim is not established.",
+          "encoding_fidelity_review": "The formalization is minimal and does not capture the nuances of scholarly debate.",
+          "interpretive_connections": "This claim supports the broader argument for early dating."
+        },
+        "reproduction_receipt": {},
+        "corpus_links": {}
+      }
+    ],
+    "existing_matches": [],
+    "notes": "The Lean corpus was not searched in this run. All verification controls are NOT_RUN and verification statuses are CANDIDATE or NOT_ATTEMPTED. The formal candidates are proposed models of the historical claims, not verified theorems. The claims are primarily historical and textual, so the formalizations rely on custom axioms that encode historical assumptions. These axioms are not logically necessary and would need independent justification. The formalizations do not establish the truth of the historical claims; they only model their logical structure."
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "lean4",
+      "attempt": 1,
+      "text": "{\n  \"station\": \"lean4\",\n  \"paper_uuid\": \"Gary Habermas - Chapter 005 - A Number of Critical Scholars Often Date These Biblical Creeds to the 30s AD - Gary Habermas\",\n  \"run_uuid\": \"deep-22d4d7de3e11\",\n  \"template\": \"00_FULL_LEAN_TEMPLATE.md\",\n  \"formal_candidates\": [\n    {\n      \"identity\": {\n        \"claim_id\": \"A02\",\n        \"candidate_uuid\": \"lean4-A02-1c4f9a2e\"\n      },\n      \"source_selection\": {\n        \"exact_source_expression\": \"S045-S047: \\\"the Jesus Seminar took a vote, and they say in volume two, toward the back, they say that the 1 Corinthians 15:3 and following, three to five or more verses, um Paul's, it's not Paul, but Paul cites a creed. He's not the author. They said that creed or its component parts was already in existence before Paul took his walk to Damascus.\\\"\",\n        \"selection_disposition\": \"FORMALIZE\",\n        \"reason\": \"This is a structured, testable historical claim about textual dependence and relative chronology: a creedal formula embedded in 1 Cor 15:3ff is asserted to pre-date Paul's conversion. It can be modeled as a formal relation over a finite set of texts, authors, and dates, with the historical premises made explicit as axioms.\"\n      },\n      \"formal_object\": {\n        \"object_type\": \"THEOREM\",\n        \"exact_proposed_statement\": \"For any finite model M of the creedal-dependence fragment, if (i) 1 Cor 15:3ff is a creedal formula C, (ii) Paul cites C in 1 Cor 15:3ff, (iii) Paul is not the author of C, and (iv) Paul's conversion occurs at time t_conv, then the composition time of C is strictly less than t_conv.\",\n        \"fully_qualified_declaration\": \"CreedalDependence.creed_predates_conversion\",\n        \"project_root\": \"lean4-formalizations\",\n        \"module\": \"CreedalDependence.Basic\"\n      },\n      \"symbol_table\": [\n        {\n          \"term\": \"Text\",\n          \"formal_definition\": \"inductive Text : Type | Cor15_3ff | Romans10_9 | ...\",\n          \"reader_meaning\": \"A biblical passage or creedal formula under discussion.\",\n          \"source_correspondence\": \"S045-S047, S053\"\n        },\n        {\n          \"term\": \"Author\",\n          \"formal_definition\": \"inductive Author : Type | Paul | Anonymous | ...\",\n          \"reader_meaning\": \"Attributed author of a text or creed.\",\n          \"source_correspondence\": \"S046-S047\"\n        },\n        {\n          \"term\": \"cites\",\n          \"formal_definition\": \"def cites (a : Author) (t : Text) : Prop := ...\",\n          \"reader_meaning\": \"Author a quotes or cites text t.\",\n          \"source_correspondence\": \"S045-S047\"\n        },\n        {\n          \"term\": \"authorship\",\n          \"formal_definition\": \"def authorship (a : Author) (t : Text) : Prop := ...\",\n          \"reader_meaning\": \"Author a is the author of text t.\",\n          \"source_correspondence\": \"S046-S047\"\n        },\n        {\n          \"term\": \"composition_time\",\n          \"formal_definition\": \"def composition_time (t : Text) : Time := ...\",\n          \"reader_meaning\": \"The date at which a text or creed was composed.\",\n          \"source_correspondence\": \"S047, S049\"\n        },\n        {\n          \"term\": \"conversion_time\",\n          \"formal_definition\": \"def conversion_time (a : Author) : Time := ...\",\n          \"reader_meaning\": \"The date at which an author converted.\",\n          \"source_correspondence\": \"S047-S049\"\n        }\n      ],\n      \"assumptions_and_dependencies\": {\n        \"explicit_premises\": [\n          \"1 Cor 15:3ff is a creedal formula C.\",\n          \"Paul cites C in 1 Cor 15:3ff.\",\n          \"Paul is not the author of C.\",\n          \"Paul's conversion occurs at time t_conv.\"\n        ],\n        \"custom_axioms\": [\n          \"axiom citation_implies_prior_composition : ∀ (a : Author) (t : Text), cites a t → composition_time t < conversion_time a\"\n        ],\n        \"theological_starting_premises\": \"The axiom citation_implies_prior_composition encodes the historical-critical assumption that a cited source pre-dates the citing author's conversion. This is a methodological premise, not a theological one, but it is not derivable from pure logic.\",\n        \"non_vacuity_requirement\": \"The model must contain at least one Text and one Author, and the citation relation must be non-empty for the theorem to be non-vacuous.\"\n      },\n      \"verification_controls\": [\n        {\n          \"check\": \"module compilation\",\n          \"command_or_evidence\": \"lake build CreedalDependence.Basic\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"Lean corpus was not searched; no build attempted.\"\n        },\n        {\n          \"check\": \"declaration inspection\",\n          \"command_or_evidence\": \"#check CreedalDependence.creed_predates_conversion\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"Not run.\"\n        },\n        {\n          \"check\": \"axiom dependency\",\n          \"command_or_evidence\": \"#print axioms CreedalDependence.creed_predates_conversion\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"Not run.\"\n        },\n        {\n          \"check\": \"non-vacuity\",\n          \"command_or_evidence\": \"Construct an explicit model with Paul, Cor15_3ff, and a citation relation.\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"Not run.\"\n        }\n      ],\n      \"result_and_boundary\": {\n        \"verification_status\": \"CANDIDATE\",\n        \"what_is_established\": \"If the formal model and the citation axiom are accepted, the theorem establishes that the creed's composition time is strictly before Paul's conversion time.\",\n        \"what_remains_open\": \"The historical truth of the premises (that Paul cites the creed, that he is not its author, and that citation implies prior composition) is not established by the formalization. The formalization does not establish the actual date of the creed, only the relative ordering under the model.\",\n        \"encoding_fidelity_review\": \"The encoding is a minimal model of textual dependence and chronology. It abstracts away from the specific content of the creed and the exact dates, focusing on the relative ordering. This is faithful to the claim's logical structure but not to its full historical complexity.\",\n        \"interpretive_connections\": \"The claim is part of a broader argument that early creeds pre-date the gospels and thus limit the time available for mythological development (A09).\"\n      },\n      \"reproduction_receipt\": {},\n      \"corpus_links\": {}\n    },\n    {\n      \"identity\": {\n        \"claim_id\": \"A01\",\n        \"candidate_uuid\": \"lean4-A01-2d8b7c1a\"\n      },\n      \"source_selection\": {\n        \"exact_source_expression\": \"S006: \\\"we know for sure that the a number of the best known creeds have to be pre-50.\\\"\",\n        \"selection_disposition\": \"FORMALIZE\",\n        \"reason\": \"This is a general chronological claim about a set of creeds. It can be formalized as a theorem over a finite set of creeds with a composition-time function and a threshold date.\"\n      },\n      \"formal_object\": {\n        \"object_type\": \"THEOREM\",\n        \"exact_proposed_statement\": \"For any finite set of creeds S, if every creed in S is composed before 50 AD, then for all c in S, composition_time c < 50.\",\n        \"fully_qualified_declaration\": \"CreedalChronology.creeds_pre_50\",\n        \"project_root\": \"lean4-formalizations\",\n        \"module\": \"CreedalChronology.Basic\"\n      },\n      \"symbol_table\": [\n        {\n          \"term\": \"Creed\",\n          \"formal_definition\": \"inductive Creed : Type | Cor15 | Romans10_9 | ...\",\n          \"reader_meaning\": \"A creedal formula.\",\n          \"source_correspondence\": \"S006, S032-S033\"\n        },\n        {\n          \"term\": \"composition_time\",\n          \"formal_definition\": \"def composition_time (c : Creed) : Time := ...\",\n          \"reader_meaning\": \"The date at which a creed was composed.\",\n          \"source_correspondence\": \"S006\"\n        },\n        {\n          \"term\": \"pre_50\",\n          \"formal_definition\": \"def pre_50 (c : Creed) : Prop := composition_time c < 50\",\n          \"reader_meaning\": \"The creed was composed before 50 AD.\",\n          \"source_correspondence\": \"S006\"\n        }\n      ],\n      \"assumptions_and_dependencies\": {\n        \"explicit_premises\": [\n          \"S is a finite set of creeds.\",\n          \"For all c in S, pre_50 c.\"\n        ],\n        \"custom_axioms\": [],\n        \"theological_starting_premises\": \"None.\",\n        \"non_vacuity_requirement\": \"S must be non-empty.\"\n      },\n      \"verification_controls\": [\n        {\n          \"check\": \"module compilation\",\n          \"command_or_evidence\": \"lake build CreedalChronology.Basic\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"Not run.\"\n        },\n        {\n          \"check\": \"non-vacuity\",\n          \"command_or_evidence\": \"Provide an explicit non-empty S.\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"Not run.\"\n        }\n      ],\n      \"result_and_boundary\": {\n        \"verification_status\": \"CANDIDATE\",\n        \"what_is_established\": \"The theorem is a trivial restatement of the premise; it establishes that if the premise holds, the conclusion follows.\",\n        \"what_remains_open\": \"The historical truth of the premise that the creeds are pre-50 is not established.\",\n        \"encoding_fidelity_review\": \"The formalization is almost tautological; it captures the logical form but adds little. It is included because it is a clear claim that can be formalized.\",\n        \"interpretive_connections\": \"This claim supports the broader argument about early dating.\"\n      },\n      \"reproduction_receipt\": {},\n      \"corpus_links\": {}\n    },\n    {\n      \"identity\": {\n        \"claim_id\": \"A03\",\n        \"candidate_uuid\": \"lean4-A03-3e9f1b2c\"\n      },\n      \"source_selection\": {\n        \"exact_source_expression\": \"S018-S020: \\\"his audience knows what those definitions are. Why? Because he never gives definitions.\\\"\",\n        \"selection_disposition\": \"FORMALIZE\",\n        \"reason\": \"This is an inference from the absence of definitions in Paul's letters to the prior knowledge of his audience. It can be modeled as a non-monotonic or default reasoning pattern, but a simple formalization can capture the conditional: if Paul does not define a term, then his audience already knows its meaning.\"\n      },\n      \"formal_object\": {\n        \"object_type\": \"THEOREM\",\n        \"exact_proposed_statement\": \"For any term t and audience A, if Paul does not define t in his letter to A, then A already knows the Christian meaning of t.\",\n        \"fully_qualified_declaration\": \"PaulineInference.no_definition_implies_prior_knowledge\",\n        \"project_root\": \"lean4-formalizations\",\n        \"module\": \"PaulineInference.Basic\"\n      },\n      \"symbol_table\": [\n        {\n          \"term\": \"Term\",\n          \"formal_definition\": \"inductive Term : Type | Lord | Christ | ...\",\n          \"reader_meaning\": \"A theological term.\",\n          \"source_correspondence\": \"S018-S020\"\n        },\n        {\n          \"term\": \"Audience\",\n          \"formal_definition\": \"inductive Audience : Type | Thessalonians | Corinthians | ...\",\n          \"reader_meaning\": \"The recipients of a Pauline letter.\",\n          \"source_correspondence\": \"S018\"\n        },\n        {\n          \"term\": \"defines\",\n          \"formal_definition\": \"def defines (p : Author) (t : Term) (a : Audience) : Prop := ...\",\n          \"reader_meaning\": \"Paul defines term t for audience a.\",\n          \"source_correspondence\": \"S020\"\n        },\n        {\n          \"term\": \"knows\",\n          \"formal_definition\": \"def knows (a : Audience) (t : Term) : Prop := ...\",\n          \"reader_meaning\": \"Audience a knows the Christian meaning of term t.\",\n          \"source_correspondence\": \"S018\"\n        }\n      ],\n      \"assumptions_and_dependencies\": {\n        \"explicit_premises\": [\n          \"Paul does not define t for A.\"\n        ],\n        \"custom_axioms\": [\n          \"axiom no_definition_implies_knowledge : ∀ (t : Term) (a : Audience), ¬ defines Paul t a → knows a t\"\n        ],\n        \"theological_starting_premises\": \"The axiom encodes a pragmatic inference about communication; it is not a logical truth.\",\n        \"non_vacuity_requirement\": \"There must be at least one term and one audience.\"\n      },\n      \"verification_controls\": [\n        {\n          \"check\": \"module compilation\",\n          \"command_or_evidence\": \"lake build PaulineInference.Basic\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"Not run.\"\n        },\n        {\n          \"check\": \"axiom dependency\",\n          \"command_or_evidence\": \"#print axioms PaulineInference.no_definition_implies_prior_knowledge\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"Not run.\"\n        }\n      ],\n      \"result_and_boundary\": {\n        \"verification_status\": \"CANDIDATE\",\n        \"what_is_established\": \"Under the axiom, the conclusion follows.\",\n        \"what_remains_open\": \"The axiom itself is a substantive pragmatic assumption that may not hold in all cases.\",\n        \"encoding_fidelity_review\": \"The formalization captures the conditional structure but not the evidential reasoning that Habermas uses.\",\n        \"interpretive_connections\": \"This inference supports the claim that Paul's letters presuppose earlier creedal material.\"\n      },\n      \"reproduction_receipt\": {},\n      \"corpus_links\": {}\n    },\n    {\n      \"identity\": {\n        \"claim_id\": \"A09\",\n        \"candidate_uuid\": \"lean4-A09-4a1b2c3d\"\n      },\n      \"source_selection\": {\n        \"exact_source_expression\": \"S063: \\\"What keeps the creeds from being expanded until they become myth and they're not really the words of the eyewitnesses.\\\"\",\n        \"selection_disposition\": \"FORMALIZE\",\n        \"reason\": \"This is a claim about the relationship between early dating and the prevention of mythological expansion. It can be formalized as a conditional: if the time gap between the events and the creed is small, then there is insufficient time for mythological development.\"\n      },\n      \"formal_object\": {\n        \"object_type\": \"THEOREM\",\n        \"exact_proposed_statement\": \"For any creed c and event e, if the time gap between e and c is less than a threshold T, then c is not a myth.\",\n        \"fully_qualified_declaration\": \"MythPrevention.early_creed_not_myth\",\n        \"project_root\": \"lean4-formalizations\",\n        \"module\": \"MythPrevention.Basic\"\n      },\n      \"symbol_table\": [\n        {\n          \"term\": \"Creed\",\n          \"formal_definition\": \"inductive Creed : Type | ...\",\n          \"reader_meaning\": \"A creedal formula.\",\n          \"source_correspondence\": \"S063\"\n        },\n        {\n          \"term\": \"Event\",\n          \"formal_definition\": \"inductive Event : Type | Crucifixion | Resurrection | ...\",\n          \"reader_meaning\": \"A historical event.\",\n          \"source_correspondence\": \"S063\"\n        },\n        {\n          \"term\": \"time_gap\",\n          \"formal_definition\": \"def time_gap (e : Event) (c : Creed) : Time := ...\",\n          \"reader_meaning\": \"The time between an event and the composition of a creed.\",\n          \"source_correspondence\": \"S063\"\n        },\n        {\n          \"term\": \"is_myth\",\n          \"formal_definition\": \"def is_myth (c : Creed) : Prop := ...\",\n          \"reader_meaning\": \"The creed is a myth.\",\n          \"source_correspondence\": \"S063\"\n        }\n      ],\n      \"assumptions_and_dependencies\": {\n        \"explicit_premises\": [\n          \"time_gap e c < T.\"\n        ],\n        \"custom_axioms\": [\n          \"axiom short_gap_prevents_myth : ∀ (e : Event) (c : Creed), time_gap e c < T → ¬ is_myth c\"\n        ],\n        \"theological_starting_premises\": \"The axiom encodes a historical assumption about the rate of mythological development.\",\n        \"non_vacuity_requirement\": \"There must be at least one event and one creed.\"\n      },\n      \"verification_controls\": [\n        {\n          \"check\": \"module compilation\",\n          \"command_or_evidence\": \"lake build MythPrevention.Basic\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"Not run.\"\n        }\n      ],\n      \"result_and_boundary\": {\n        \"verification_status\": \"CANDIDATE\",\n        \"what_is_established\": \"Under the axiom, the conclusion follows.\",\n        \"what_remains_open\": \"The threshold T and the axiom itself are not empirically justified within the formalization.\",\n        \"encoding_fidelity_review\": \"The formalization is a simplified model of a complex historical argument.\",\n        \"interpretive_connections\": \"This claim is a key part of Habermas's minimal facts argument.\"\n      },\n      \"reproduction_receipt\": {},\n      \"corpus_links\": {}\n    },\n    {\n      \"identity\": {\n        \"claim_id\": \"A07\",\n        \"candidate_uuid\": \"lean4-A07-5b2c3d4e\"\n      },\n      \"source_selection\": {\n        \"exact_source_expression\": \"S038: \\\"Oh, sometime in the 30s I think is very common.\\\"\",\n        \"selection_disposition\": \"FORMALIZE\",\n        \"reason\": \"This is a claim about the majority of scholars dating the oral tradition to the 30s. It can be formalized as a statement about the distribution of scholarly opinions, but it is more of a sociological claim. A simple formalization can model the consensus as a proposition.\"\n      },\n      \"formal_object\": {\n        \"object_type\": \"THEOREM\",\n        \"exact_proposed_statement\": \"If the majority of critical scholars date the oral tradition to the 30s, then the oral tradition is dated to the 30s.\",\n        \"fully_qualified_declaration\": \"ScholarlyConsensus.majority_date_30s\",\n        \"project_root\": \"lean4-formalizations\",\n        \"module\": \"ScholarlyConsensus.Basic\"\n      },\n      \"symbol_table\": [\n        {\n          \"term\": \"Scholar\",\n          \"formal_definition\": \"inductive Scholar : Type | ...\",\n          \"reader_meaning\": \"A critical scholar.\",\n          \"source_correspondence\": \"S038\"\n        },\n        {\n          \"term\": \"dates_to_30s\",\n          \"formal_definition\": \"def dates_to_30s (s : Scholar) : Prop := ...\",\n          \"reader_meaning\": \"Scholar s dates the oral tradition to the 30s.\",\n          \"source_correspondence\": \"S038\"\n        },\n        {\n          \"term\": \"majority\",\n          \"formal_definition\": \"def majority (P : Scholar → Prop) : Prop := ...\",\n          \"reader_meaning\": \"More than half of scholars satisfy P.\",\n          \"source_correspondence\": \"S038\"\n        }\n      ],\n      \"assumptions_and_dependencies\": {\n        \"explicit_premises\": [\n          \"majority dates_to_30s.\"\n        ],\n        \"custom_axioms\": [],\n        \"theological_starting_premises\": \"None.\",\n        \"non_vacuity_requirement\": \"There must be a non-empty set of scholars.\"\n      },\n      \"verification_controls\": [\n        {\n          \"check\": \"module compilation\",\n          \"command_or_evidence\": \"lake build ScholarlyConsensus.Basic\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"Not run.\"\n        }\n      ],\n      \"result_and_boundary\": {\n        \"verification_status\": \"CANDIDATE\",\n        \"what_is_established\": \"The theorem is a trivial restatement of the premise.\",\n        \"what_remains_open\": \"The empirical truth of the majority claim is not established.\",\n        \"encoding_fidelity_review\": \"The formalization is minimal and does not capture the nuances of scholarly debate.\",\n        \"interpretive_connections\": \"This claim supports the broader argument for early dating.\"\n      },\n      \"reproduction_receipt\": {},\n      \"corpus_links\": {}\n    }\n  ],\n  \"existing_matches\": [],\n  \"notes\": \"The Lean corpus was not searched in this run. All verification controls are NOT_RUN and verification statuses are CANDIDATE or NOT_ATTEMPTED. The formal candidates are proposed models of the historical claims, not verified theorems. The claims are primarily historical and textual, so the formalizations rely on custom axioms that encode historical assumptions. These axioms are not logically necessary and would need independent justification. The formalizations do not establish the truth of the historical claims; they only model their logical structure.\"\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 3851,
+      "completion_tokens": 4880,
+      "attempts": 1,
+      "elapsed_seconds": 17.546000000002095,
+      "started_at": "2026-09-27T13:55:30.077075+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T13:55:47.624032+00:00",
+      "tokens": 8731
+    }
+  ],
+  "prompt_sha256": "e4c79d72a9a8c9de4cd3cd434ee0280b9d14e9c9259805c74f701b7c4c89a072",
+  "tokens": 8731,
+  "reused": true
+}

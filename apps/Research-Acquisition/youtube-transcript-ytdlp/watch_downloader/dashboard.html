@@ -1,0 +1,38 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Watch Log</title>
+<style>
+ body{font-family:system-ui;margin:24px;background:#111;color:#eee}
+ button{padding:8px 14px;margin-right:8px;border:0;border-radius:6px;background:#c00;color:#fff;cursor:pointer}
+ button.alt{background:#444}
+ table{width:100%;border-collapse:collapse;margin-top:16px}
+ td,th{padding:6px 8px;border-bottom:1px solid #333;text-align:left;font-size:14px}
+ a{color:#8cf}
+ .s-done{color:#6d6}.s-failed{color:#f66}.s-queued,.s-downloading{color:#fc6}.s-skipped{color:#888}
+</style></head><body>
+<h2>YouTube Watch Log</h2>
+<button onclick="dlAll(['watched','failed'])">Download all not-yet-downloaded</button>
+<button class="alt" onclick="dlAll(['watched','skipped','failed'])">…including skipped</button>
+<button class="alt" onclick="dlSelected()">Download selected</button>
+<span id="summary"></span>
+<table><thead><tr><th><input type="checkbox" onclick="document.querySelectorAll('.pick').forEach(c=>c.checked=this.checked)"></th>
+<th>Title</th><th>Channel</th><th>Watched</th><th>Last seen</th><th>Status</th></tr></thead>
+<tbody id="rows"></tbody></table>
+<script>
+const post=(p,b)=>fetch(p,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(b)}).then(r=>r.json());
+const esc=s=>(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+async function load(){
+  const vids=await fetch('/api/videos').then(r=>r.json());
+  const counts={};vids.forEach(v=>counts[v.status]=(counts[v.status]||0)+1);
+  document.getElementById('summary').textContent=Object.entries(counts).map(([k,n])=>`${k}: ${n}`).join('  ·  ');
+  const checked=new Set([...document.querySelectorAll('.pick:checked')].map(c=>c.value));
+  document.getElementById('rows').innerHTML=vids.map(v=>`<tr>
+    <td><input class="pick" type="checkbox" value="${v.video_id}" ${checked.has(v.video_id)?'checked':''}></td>
+    <td><a href="${esc(v.url)}" target="_blank">${esc(v.title)||v.video_id}</a></td>
+    <td>${esc(v.channel)}</td><td>${v.watch_count}</td><td>${v.last_seen}</td>
+    <td class="s-${v.status}" title="${esc(v.error)}">${v.status}</td></tr>`).join('');
+}
+async function dlAll(include){const r=await post('/api/download-all',{include});alert(`Queued ${r.queued} videos`);load();}
+async function dlSelected(){const ids=[...document.querySelectorAll('.pick:checked')].map(c=>c.value);
+  if(!ids.length)return alert('Nothing selected');await post('/api/download-selected',{video_ids:ids});load();}
+load();setInterval(load,3000);
+</script></body></html>

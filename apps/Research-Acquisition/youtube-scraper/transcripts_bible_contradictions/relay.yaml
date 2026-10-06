@@ -1,0 +1,28 @@
+# Portable relay-watcher configuration.
+# Drop this file next to relay_watch.py in any folder you want to watch.
+
+log: relay_watch.log
+state: .relay_state.json
+
+# File patterns to ignore.
+ignore:
+  - "*.tmp"
+  - "*.swp"
+  - "~$*"
+  - "channel_*.md"
+  - "*Index.md"
+
+# Ordered routing rules. First match wins.
+routes:
+  - name: "Markdown transcripts to CKG inbox"
+    match: "*.md"
+    action: copy
+    destinations:
+      # Update this to your actual CKG inbox:
+      - "//192.168.2.50/h_hp/Desktop/APIs/APIs/CKG/INBOX"
+
+  - name: "SRT subtitles to CKG inbox"
+    match: "*.srt"
+    action: copy
+    destinations:
+      - "//192.168.2.50/h_hp/Desktop/APIs/APIs/CKG/INBOX"

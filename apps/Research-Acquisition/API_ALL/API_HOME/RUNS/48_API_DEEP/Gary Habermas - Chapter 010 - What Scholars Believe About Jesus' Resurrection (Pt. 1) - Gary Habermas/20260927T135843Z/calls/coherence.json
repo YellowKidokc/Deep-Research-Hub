@@ -1,0 +1,134 @@
+{
+  "name": "coherence",
+  "parsed": {
+    "station": "coherence_score",
+    "paper_uuid": "Gary Habermas - Chapter 010 - What Scholars Believe About Jesus' Resurrection (Pt. 1) - Gary Habermas",
+    "run_uuid": "deep-bddcdd5b011a",
+    "overall": {
+      "score": 7.5,
+      "score_ceiling": 10,
+      "status": "ASSESSED",
+      "summary": "The interview is largely internally consistent, with Habermas repeatedly clarifying that he does not use numerical thresholds for evidence or consensus, though minor tensions arise from his use of approximate percentages and the interviewer's framing."
+    },
+    "dimensions": [
+      {
+        "name": "internal_consistency",
+        "score": 7,
+        "reasons": [
+          "Habermas consistently states he has never counted scholarly consensus percentages except for the empty tomb (S182, S300, S304, S307-S308), which aligns with A04.",
+          "He maintains that evidence (Criterion 1) is far more important than consensus (Criterion 2) (S326-S329), consistent with A02.",
+          "He asserts that consensus alone is not sufficient for rational belief (S385), matching A06.",
+          "However, he gives approximate percentages like '90 or 85% of the game' (S329) and mentions '90% or more' in the interviewer's question (S296), which creates minor tension with his claim of not using numbers.",
+          "He also says he is 'slanted toward liberal scholars' (S589) while claiming fairness (A10, A18), a mild tension but not a contradiction."
+        ],
+        "affected_atom_uuids": [
+          "A02",
+          "A04",
+          "A06",
+          "A10",
+          "A18"
+        ]
+      },
+      {
+        "name": "definitional_stability",
+        "score": 8,
+        "reasons": [
+          "The definition of 'minimal fact' is clearly stated: strong evidence and majority scholarly agreement (A01, S166-S168).",
+          "Habermas defines 'critical scholar' by terminal degree and relevant field (S565-S567), and explains language criteria (S661, S664).",
+          "He clarifies that he does not use a numerical threshold for evidence (A03, S206, S214), though he uses categories like multiple attestation and eyewitnesses (S225-S228).",
+          "The term 'highly evidenced' is left somewhat vague, but he explains it through examples rather than a number (S207-S228)."
+        ],
+        "affected_atom_uuids": [
+          "A01",
+          "A03"
+        ]
+      },
+      {
+        "name": "inferential_connectedness",
+        "score": 7,
+        "reasons": [
+          "The argument that consensus alone is insufficient is supported by the claim that consensus can be wrong (S407) and that evidence is primary (S326).",
+          "The connection between including non-evangelical scholars and avoiding bias is made explicit (A07, S049-S053, S589).",
+          "The rationale for language restriction is tied to authorial right and practical research languages (A05, S661, S664).",
+          "However, the inference from 'no numerical threshold' to 'I don't count' is not fully airtight, as he does give rough estimates (S329)."
+        ],
+        "affected_atom_uuids": [
+          "A05",
+          "A07"
+        ]
+      },
+      {
+        "name": "register_boundary_respect",
+        "score": 8,
+        "reasons": [
+          "The conversation stays within the bounds of discussing scholarly method and the content of Habermas's volumes.",
+          "Habermas distinguishes between his books (where he cites names) and YouTube interviews (where he avoids names) (S027-S029), respecting different registers.",
+          "He acknowledges his own biases and editorial comments (A13, S096, S589), maintaining transparency.",
+          "No major category errors or inappropriate shifts in register are evident."
+        ],
+        "affected_atom_uuids": [
+          "A13"
+        ]
+      }
+    ],
+    "contradictions": [],
+    "tensions": [
+      {
+        "atoms": [
+          "A03",
+          "A04"
+        ],
+        "description": "Habermas claims he does not use numerical thresholds or count consensus percentages, yet he gives approximate percentages (e.g., '90 or 85% of the game') and mentions '90% or more' in the interviewer's question. This is a tension between his stated method and his informal estimates.",
+        "severity": "local"
+      },
+      {
+        "atoms": [
+          "A10",
+          "A18"
+        ],
+        "description": "Habermas claims his work is not biased and he tries to be fair, but he also admits he is 'slanted toward liberal scholars' (S589). This is a tension between impartiality and a deliberate slant, though he frames it as a corrective to avoid conservative bias.",
+        "severity": "local"
+      }
+    ],
+    "missing_definitions": [
+      {
+        "term": "highly evidenced",
+        "description": "Habermas does not provide a precise definition or threshold for what counts as 'highly evidenced' (Criterion 1). He describes it through examples (multiple attestation, eyewitnesses, early sources) but no operational criteria.",
+        "affected_atom_uuids": [
+          "A01",
+          "A03"
+        ]
+      },
+      {
+        "term": "vast majority of qualified scholars",
+        "description": "The exact percentage or criteria for 'vast majority' in Criterion 2 is not specified, and Habermas explicitly avoids giving a number (S303-S304).",
+        "affected_atom_uuids": [
+          "A01",
+          "A04"
+        ]
+      }
+    ],
+    "notes": "The interview is a spoken conversation with auto-captions, so some repetition and informal language are expected. The coherence is generally high, with Habermas consistently clarifying his methodology. The main tensions are minor and stem from informal approximations versus strict methodological claims."
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "coherence",
+      "attempt": 1,
+      "text": "{\n  \"station\": \"coherence_score\",\n  \"paper_uuid\": \"Gary Habermas - Chapter 010 - What Scholars Believe About Jesus' Resurrection (Pt. 1) - Gary Habermas\",\n  \"run_uuid\": \"deep-bddcdd5b011a\",\n  \"overall\": {\n    \"score\": 7.5,\n    \"score_ceiling\": 10,\n    \"status\": \"ASSESSED\",\n    \"summary\": \"The interview is largely internally consistent, with Habermas repeatedly clarifying that he does not use numerical thresholds for evidence or consensus, though minor tensions arise from his use of approximate percentages and the interviewer's framing.\"\n  },\n  \"dimensions\": [\n    {\n      \"name\": \"internal_consistency\",\n      \"score\": 7,\n      \"reasons\": [\n        \"Habermas consistently states he has never counted scholarly consensus percentages except for the empty tomb (S182, S300, S304, S307-S308), which aligns with A04.\",\n        \"He maintains that evidence (Criterion 1) is far more important than consensus (Criterion 2) (S326-S329), consistent with A02.\",\n        \"He asserts that consensus alone is not sufficient for rational belief (S385), matching A06.\",\n        \"However, he gives approximate percentages like '90 or 85% of the game' (S329) and mentions '90% or more' in the interviewer's question (S296), which creates minor tension with his claim of not using numbers.\",\n        \"He also says he is 'slanted toward liberal scholars' (S589) while claiming fairness (A10, A18), a mild tension but not a contradiction.\"\n      ],\n      \"affected_atom_uuids\": [\"A02\", \"A04\", \"A06\", \"A10\", \"A18\"]\n    },\n    {\n      \"name\": \"definitional_stability\",\n      \"score\": 8,\n      \"reasons\": [\n        \"The definition of 'minimal fact' is clearly stated: strong evidence and majority scholarly agreement (A01, S166-S168).\",\n        \"Habermas defines 'critical scholar' by terminal degree and relevant field (S565-S567), and explains language criteria (S661, S664).\",\n        \"He clarifies that he does not use a numerical threshold for evidence (A03, S206, S214), though he uses categories like multiple attestation and eyewitnesses (S225-S228).\",\n        \"The term 'highly evidenced' is left somewhat vague, but he explains it through examples rather than a number (S207-S228).\"\n      ],\n      \"affected_atom_uuids\": [\"A01\", \"A03\"]\n    },\n    {\n      \"name\": \"inferential_connectedness\",\n      \"score\": 7,\n      \"reasons\": [\n        \"The argument that consensus alone is insufficient is supported by the claim that consensus can be wrong (S407) and that evidence is primary (S326).\",\n        \"The connection between including non-evangelical scholars and avoiding bias is made explicit (A07, S049-S053, S589).\",\n        \"The rationale for language restriction is tied to authorial right and practical research languages (A05, S661, S664).\",\n        \"However, the inference from 'no numerical threshold' to 'I don't count' is not fully airtight, as he does give rough estimates (S329).\"\n      ],\n      \"affected_atom_uuids\": [\"A05\", \"A07\"]\n    },\n    {\n      \"name\": \"register_boundary_respect\",\n      \"score\": 8,\n      \"reasons\": [\n        \"The conversation stays within the bounds of discussing scholarly method and the content of Habermas's volumes.\",\n        \"Habermas distinguishes between his books (where he cites names) and YouTube interviews (where he avoids names) (S027-S029), respecting different registers.\",\n        \"He acknowledges his own biases and editorial comments (A13, S096, S589), maintaining transparency.\",\n        \"No major category errors or inappropriate shifts in register are evident.\"\n      ],\n      \"affected_atom_uuids\": [\"A13\"]\n    }\n  ],\n  \"contradictions\": [],\n  \"tensions\": [\n    {\n      \"atoms\": [\"A03\", \"A04\"],\n      \"description\": \"Habermas claims he does not use numerical thresholds or count consensus percentages, yet he gives approximate percentages (e.g., '90 or 85% of the game') and mentions '90% or more' in the interviewer's question. This is a tension between his stated method and his informal estimates.\",\n      \"severity\": \"local\"\n    },\n    {\n      \"atoms\": [\"A10\", \"A18\"],\n      \"description\": \"Habermas claims his work is not biased and he tries to be fair, but he also admits he is 'slanted toward liberal scholars' (S589). This is a tension between impartiality and a deliberate slant, though he frames it as a corrective to avoid conservative bias.\",\n      \"severity\": \"local\"\n    }\n  ],\n  \"missing_definitions\": [\n    {\n      \"term\": \"highly evidenced\",\n      \"description\": \"Habermas does not provide a precise definition or threshold for what counts as 'highly evidenced' (Criterion 1). He describes it through examples (multiple attestation, eyewitnesses, early sources) but no operational criteria.\",\n      \"affected_atom_uuids\": [\"A01\", \"A03\"]\n    },\n    {\n      \"term\": \"vast majority of qualified scholars\",\n      \"description\": \"The exact percentage or criteria for 'vast majority' in Criterion 2 is not specified, and Habermas explicitly avoids giving a number (S303-S304).\",\n      \"affected_atom_uuids\": [\"A01\", \"A04\"]\n    }\n  ],\n  \"notes\": \"The interview is a spoken conversation with auto-captions, so some repetition and informal language are expected. The coherence is generally high, with Habermas consistently clarifying his methodology. The main tensions are minor and stem from informal approximations versus strict methodological claims.\"\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 20050,
+      "completion_tokens": 1301,
+      "attempts": 1,
+      "elapsed_seconds": 7.296999999998661,
+      "started_at": "2026-09-27T13:59:09.285962+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T13:59:16.580168+00:00",
+      "tokens": 21351
+    }
+  ],
+  "prompt_sha256": "55a02ebe2ede8d78a755df63e5eba7cd776798a64692c0f47c4a0ba347933690",
+  "tokens": 21351
+}

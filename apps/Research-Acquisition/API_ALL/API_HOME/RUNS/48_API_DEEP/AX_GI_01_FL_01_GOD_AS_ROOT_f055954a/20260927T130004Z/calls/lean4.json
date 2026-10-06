@@ -1,0 +1,532 @@
+{
+  "name": "lean4",
+  "parsed": {
+    "station": "lean4",
+    "paper_uuid": "AX_GI_01_FL_01_GOD_AS_ROOT_f055954a",
+    "run_uuid": "deep-c4257a456793",
+    "template": "00_FULL_LEAN_TEMPLATE.md",
+    "formal_candidates": [
+      {
+        "identity": {
+          "claim_id": "A05",
+          "candidate_uuid": "lc-0001-A05-necessary-ground"
+        },
+        "source_selection": {
+          "exact_source_expression": "The universe needs a source outside itself that is necessary, self-grounding, active, and personal — the God theologians already described. [P82-S290..P84-S297; P86-S299..S306]",
+          "selection_disposition": "FORMALIZE",
+          "reason": "This is the paper's most explicitly mathematical claim: five required properties of a sustaining source, presented as following from premises about closed systems, coherence, and moral realism. It is the only claim in the paper that the paper itself flags as 'partially formalized' with 'five proofs' (S402). It can be given a precise Lean statement as a conditional theorem over an abstract ontology, with the theological identification kept as a separate, non-formal bridge."
+        },
+        "formal_object": {
+          "object_type": "THEOREM",
+          "exact_proposed_statement": "In any ontology O equipped with a sustainment relation and a coherence predicate, if (i) every closed subsystem of O strictly degrades its coherence under its own dynamics, (ii) the whole of O does not degrade, and (iii) coherence is universal and measurable, then there exists a distinguished entity g in O such that g is necessary (exists in every model of O), self-grounding (no sustainment chain from g to a distinct entity), the origin of coherence (every coherent entity's coherence is sustained through g), active (g's sustainment is not a fixed point of the degradation dynamics), and personal (g grounds the moral-value predicate).",
+          "fully_qualified_declaration": "GodAsRoot.NecessaryGround.necessary_ground_exists",
+          "project_root": "GodAsRoot",
+          "module": "GodAsRoot.NecessaryGround"
+        },
+        "symbol_table": [
+          {
+            "term": "Ontology",
+            "formal_definition": "structure Ontology where Carrier : Type; Sustains : Carrier → Carrier → Prop; Coherent : Carrier → Prop; Degrades : Carrier → Carrier → Prop; MoralValue : Carrier → Prop",
+            "reader_meaning": "An abstract universe with a sustainment relation, a coherence predicate, a degradation dynamics, and a moral-value predicate.",
+            "source_correspondence": "P82-S290..S291; P84-S293..S297"
+          },
+          {
+            "term": "ClosedSubsystem",
+            "formal_definition": "def ClosedSubsystem (O : Ontology) (S : Set O.Carrier) : Prop := ∀ x ∈ S, ∀ y, O.Sustains x y → y ∈ S",
+            "reader_meaning": "A part of the universe that receives nothing from outside itself.",
+            "source_correspondence": "P50-S164..S169; P82-S290"
+          },
+          {
+            "term": "Necessary",
+            "formal_definition": "def Necessary (O : Ontology) (g : O.Carrier) : Prop := ∀ (M : Model O), M.interprets g",
+            "reader_meaning": "Cannot fail to exist; present in every admissible model.",
+            "source_correspondence": "P84-S293; P86-S300 (Aseity)"
+          },
+          {
+            "term": "SelfGrounding",
+            "formal_definition": "def SelfGrounding (O : Ontology) (g : O.Carrier) : Prop := ¬ ∃ h, h ≠ g ∧ O.Sustains g h",
+            "reader_meaning": "Does not depend on anything else; no infinite regress.",
+            "source_correspondence": "P84-S294; P86-S301 (Self-sufficiency)"
+          },
+          {
+            "term": "OriginOfCoherence",
+            "formal_definition": "def OriginOfCoherence (O : Ontology) (g : O.Carrier) : Prop := ∀ x, O.Coherent x → O.Sustains x g",
+            "reader_meaning": "The source of truth, order, beauty, goodness, life.",
+            "source_correspondence": "P84-S295; P86-S304 (Logos)"
+          },
+          {
+            "term": "Active",
+            "formal_definition": "def Active (O : Ontology) (g : O.Carrier) : Prop := ¬ (∀ x, O.Sustains x g → O.Sustains g x)",
+            "reader_meaning": "Not a passive fixed point; sustains by ongoing action.",
+            "source_correspondence": "P84-S296; P86-S305 (Providence)"
+          },
+          {
+            "term": "Personal",
+            "formal_definition": "def Personal (O : Ontology) (g : O.Carrier) : Prop := ∀ x, O.MoralValue x → O.Sustains x g",
+            "reader_meaning": "Only persons can ground moral facts.",
+            "source_correspondence": "P84-S297; P86-S306 (Personhood)"
+          }
+        ],
+        "assumptions_and_dependencies": {
+          "explicit_premises": [
+            "P1 (ClosedDecay): ∀ S, ClosedSubsystem O S → ∀ x ∈ S, ∃ y, O.Degrades x y ∧ ¬ O.Coherent y",
+            "P2 (WholeSustained): ∃ x, O.Coherent x",
+            "P3 (CoherenceUniversal): ∀ x, O.Coherent x → ∃ y, O.Sustains x y",
+            "P4 (MoralRealism): ∃ x, O.MoralValue x",
+            "P5 (NoInfiniteRegress): every sustainment chain in O is well-founded"
+          ],
+          "custom_axioms": [
+            "P1 is the formal reading of the Second Law applied to closed subsystems (S164–S169).",
+            "P4 is the moral-realism premise the paper states explicitly (S297).",
+            "P5 is the anti-regress premise (S294)."
+          ],
+          "theological_starting_premises": "None inside the Lean statement. The identification of the entity g with the Trinitarian God of Christian theology is a bridge claim, not a premise of the theorem. The theorem establishes only that some entity with the five properties exists under P1–P5.",
+          "non_vacuity_requirement": "The theorem is non-vacuous only if there exists at least one Ontology satisfying P1–P5. A witness model must be supplied (e.g., a finite carrier with a designated g and a sustainment relation satisfying the premises) to demonstrate the hypotheses are jointly satisfiable."
+        },
+        "verification_controls": [
+          {
+            "check": "module compilation",
+            "command_or_evidence": "lake build GodAsRoot.NecessaryGround",
+            "status": "NOT_RUN",
+            "interpretation": "Lean corpus not searched in this run; no build attempted."
+          },
+          {
+            "check": "declaration inspection",
+            "command_or_evidence": "#check GodAsRoot.NecessaryGround.necessary_ground_exists",
+            "status": "NOT_RUN",
+            "interpretation": "Declaration is proposed, not yet written."
+          },
+          {
+            "check": "axiom dependency",
+            "command_or_evidence": "#print axioms GodAsRoot.NecessaryGround.necessary_ground_exists",
+            "status": "NOT_RUN",
+            "interpretation": "Must confirm no unintended axioms beyond P1–P5."
+          },
+          {
+            "check": "non-vacuity",
+            "command_or_evidence": "Provide a concrete Ontology instance satisfying P1–P5 and instantiate the theorem.",
+            "status": "NOT_RUN",
+            "interpretation": "Without a witness, the theorem may be vacuously true."
+          },
+          {
+            "check": "negative control",
+            "command_or_evidence": "Construct an Ontology satisfying P1–P3 but not P4 and show the conclusion fails.",
+            "status": "NOT_RUN",
+            "interpretation": "Confirms P4 (moral realism) is load-bearing."
+          }
+        ],
+        "result_and_boundary": {
+          "verification_status": "CANDIDATE",
+          "what_is_established": "If formalized and proved, the theorem would establish that under the five stated premises, an entity with the five required properties exists in any ontology satisfying them. This is a conditional existence result.",
+          "what_remains_open": "Whether the premises P1–P5 hold of the actual physical universe; whether the entity so obtained is unique; whether the identification with the Trinitarian God is warranted; whether the moral-realism premise P4 is defensible.",
+          "encoding_fidelity_review": "The formalization abstracts away from the paper's specific physics (Second Law, decoherence) into a general degradation dynamics. This is faithful to the paper's own framing (S290–S291) but loses the empirical content. The 'personal' predicate is formalized as grounding moral value, matching S297 but not the paper's fuller Trinitarian description (S019–S022).",
+          "interpretive_connections": "Connects to the paper's claim that 'the math gave us all the tools to find Him — except the ability to prove Him without Him' (S412). The theorem is a conditional existence result, not an unconditional proof of God, which is consistent with the paper's own Layer-0 claim (S040–S045)."
+        },
+        "reproduction_receipt": {
+          "run_id": "",
+          "timestamp": "",
+          "source_hashes": {},
+          "commands": [],
+          "exit_codes": [],
+          "log_paths": [],
+          "declarations_checked": []
+        },
+        "corpus_links": {
+          "human_companion": "",
+          "corpus_claim_register": "",
+          "supporting_summaries": []
+        }
+      },
+      {
+        "identity": {
+          "claim_id": "A01",
+          "candidate_uuid": "lc-0002-A01-trinity-ground-axiom"
+        },
+        "source_selection": {
+          "exact_source_expression": "God is the floor beneath everything; you can't prove Him because a provable axiom would rest on something deeper. [P07-S010..S014; P15-S040..S045]",
+          "selection_disposition": "FORMALIZE",
+          "reason": "The paper makes a precise structural claim: that the ground axiom of a formal system cannot be proved within that system, and that this is a signature of a genuine Layer 0. This is a meta-mathematical claim that can be stated in Lean as a theorem about formal systems and their axiom sets, closely related to Gödel's incompleteness theorems."
+        },
+        "formal_object": {
+          "object_type": "THEOREM",
+          "exact_proposed_statement": "For any formal system F with a distinguished ground axiom g, if g is the unique axiom of F and F is consistent, then there is no derivation in F of g from the empty set of premises. More generally, if g is an axiom of F, then g is not derivable in F from F's other axioms alone unless F is inconsistent.",
+          "fully_qualified_declaration": "GodAsRoot.LayerZero.ground_axiom_not_derivable",
+          "project_root": "GodAsRoot",
+          "module": "GodAsRoot.LayerZero"
+        },
+        "symbol_table": [
+          {
+            "term": "FormalSystem",
+            "formal_definition": "structure FormalSystem where Formula : Type; Axiom : Set Formula; Derives : Set Formula → Formula → Prop; sound : ∀ {Γ φ}, Derives Γ φ → (∀ ψ ∈ Γ, True) → True",
+            "reader_meaning": "An abstract formal system with formulas, axioms, and a derivability relation.",
+            "source_correspondence": "P07-S010..S014"
+          },
+          {
+            "term": "GroundAxiom",
+            "formal_definition": "def GroundAxiom (F : FormalSystem) (g : F.Formula) : Prop := g ∈ F.Axiom ∧ ∀ h ∈ F.Axiom, h = g",
+            "reader_meaning": "The single axiom at the floor of the system.",
+            "source_correspondence": "P07-S014; P15-S043"
+          },
+          {
+            "term": "DerivableFromEmpty",
+            "formal_definition": "def DerivableFromEmpty (F : FormalSystem) (φ : F.Formula) : Prop := F.Derives ∅ φ",
+            "reader_meaning": "Provable without any premises.",
+            "source_correspondence": "P15-S040..S045"
+          }
+        ],
+        "assumptions_and_dependencies": {
+          "explicit_premises": [
+            "F is a formal system with a derivability relation.",
+            "g is the unique axiom of F.",
+            "F is consistent (no formula and its negation are both derivable from ∅)."
+          ],
+          "custom_axioms": [],
+          "theological_starting_premises": "None. The theorem is purely meta-mathematical. The identification of g with God is a bridge claim outside the theorem.",
+          "non_vacuity_requirement": "There must exist at least one formal system with a unique axiom; e.g., a trivial system with one axiom and no rules."
+        },
+        "verification_controls": [
+          {
+            "check": "module compilation",
+            "command_or_evidence": "lake build GodAsRoot.LayerZero",
+            "status": "NOT_RUN",
+            "interpretation": "Not attempted."
+          },
+          {
+            "check": "declaration inspection",
+            "command_or_evidence": "#check GodAsRoot.LayerZero.ground_axiom_not_derivable",
+            "status": "NOT_RUN",
+            "interpretation": "Proposed declaration."
+          },
+          {
+            "check": "negative control",
+            "command_or_evidence": "Construct a system where g is derivable from other axioms and show the theorem's hypothesis fails.",
+            "status": "NOT_RUN",
+            "interpretation": "Confirms the uniqueness hypothesis is needed."
+          }
+        ],
+        "result_and_boundary": {
+          "verification_status": "CANDIDATE",
+          "what_is_established": "If formalized, the theorem would establish a structural fact about formal systems: a unique ground axiom is not derivable from the empty premise set in a consistent system. This is a trivial consequence of consistency and does not require Gödel's theorems.",
+          "what_remains_open": "The paper's stronger claim that 'if God COULD be proven, God would not be the ground' (S045) requires an additional bridge premise identifying the formal ground axiom with God. That bridge is not formalized here.",
+          "encoding_fidelity_review": "The formalization captures the structural claim but not the theological identification. The paper's appeal to Gödel (S048, S311) is stronger than what this theorem needs; the theorem is closer to a definitional observation about axiom systems.",
+          "interpretive_connections": "Connects to A05 (necessary ground) and to the paper's Layer-0 / DG1 terminology (S044)."
+        },
+        "reproduction_receipt": {
+          "run_id": "",
+          "timestamp": "",
+          "source_hashes": {},
+          "commands": [],
+          "exit_codes": [],
+          "log_paths": [],
+          "declarations_checked": []
+        },
+        "corpus_links": {
+          "human_companion": "",
+          "corpus_claim_register": "",
+          "supporting_summaries": []
+        }
+      },
+      {
+        "identity": {
+          "claim_id": "A03",
+          "candidate_uuid": "lc-0003-A03-ten-laws-agency-gap"
+        },
+        "source_selection": {
+          "exact_source_expression": "Read the ten laws together and they describe one Person; the same gap — agency — appears ten times. [P67-S235..S245; P68-S246..S250]",
+          "selection_disposition": "FORMALIZE",
+          "reason": "The paper makes a structural claim: that each of ten physical-law/spiritual-reading pairs has the same missing variable (agency) in the same structural position. This can be formalized as a claim about a family of partial mappings, each with a distinguished hole, and the claim that the holes are all of the same type. The formalization is modest but precise."
+        },
+        "formal_object": {
+          "object_type": "DEFINITION",
+          "exact_proposed_statement": "Define a LawPair as a structure with a physical component, a spiritual component, and a distinguished missing variable. Define the ten law pairs of the paper. Define the predicate SameGapType which holds of a family of LawPairs when all their missing variables are of the same type (Agency). State the claim that the ten law pairs of the paper satisfy SameGapType.",
+          "fully_qualified_declaration": "GodAsRoot.TenLaws.ten_laws_share_agency_gap",
+          "project_root": "GodAsRoot",
+          "module": "GodAsRoot.TenLaws"
+        },
+        "symbol_table": [
+          {
+            "term": "LawPair",
+            "formal_definition": "structure LawPair where physical : String; spiritual : String; missing : Type",
+            "reader_meaning": "A pairing of a physical law with a spiritual reading, together with the type of the missing variable.",
+            "source_correspondence": "P67-S235..S245"
+          },
+          {
+            "term": "Agency",
+            "formal_definition": "inductive Agency : Type | mk : Agency",
+            "reader_meaning": "The capacity for free choice, the repeated missing piece.",
+            "source_correspondence": "P68-S248"
+          },
+          {
+            "term": "SameGapType",
+            "formal_definition": "def SameGapType (ps : List LawPair) : Prop := ∀ p ∈ ps, p.missing = Agency",
+            "reader_meaning": "All pairs in the family have the same missing-variable type.",
+            "source_correspondence": "P68-S246..S250"
+          }
+        ],
+        "assumptions_and_dependencies": {
+          "explicit_premises": [
+            "The ten law pairs are as listed in the paper's table (S235–S245).",
+            "The missing variable in each pair is agency."
+          ],
+          "custom_axioms": [],
+          "theological_starting_premises": "None inside the definition. The claim that the portrait matches one Person is a bridge claim outside the formalization.",
+          "non_vacuity_requirement": "The list of ten law pairs must be non-empty and each pair must have a well-defined missing type."
+        },
+        "verification_controls": [
+          {
+            "check": "module compilation",
+            "command_or_evidence": "lake build GodAsRoot.TenLaws",
+            "status": "NOT_RUN",
+            "interpretation": "Not attempted."
+          },
+          {
+            "check": "declaration inspection",
+            "command_or_evidence": "#check GodAsRoot.TenLaws.ten_laws_share_agency_gap",
+            "status": "NOT_RUN",
+            "interpretation": "Proposed declaration."
+          },
+          {
+            "check": "negative control",
+            "command_or_evidence": "Construct a LawPair with a different missing type and show SameGapType fails.",
+            "status": "NOT_RUN",
+            "interpretation": "Confirms the predicate is not vacuous."
+          }
+        ],
+        "result_and_boundary": {
+          "verification_status": "CANDIDATE",
+          "what_is_established": "If formalized, the definition and theorem would establish that the ten law pairs as listed share a common missing-variable type. This is a bookkeeping result about the paper's own table.",
+          "what_remains_open": "Whether the physical laws actually have the properties the paper attributes to them; whether the spiritual readings are warranted; whether the shared gap is evidence of a single Person rather than a coincidence or an artifact of the paper's framing.",
+          "encoding_fidelity_review": "The formalization is faithful to the paper's table but does not engage the physics. The 'missing variable' is treated as a type-level annotation, not as a substantive claim about the laws.",
+          "interpretive_connections": "Connects to A04 (God in the completions) and to the paper's kill condition (S410: 'a force with no matching structure')."
+        },
+        "reproduction_receipt": {
+          "run_id": "",
+          "timestamp": "",
+          "source_hashes": {},
+          "commands": [],
+          "exit_codes": [],
+          "log_paths": [],
+          "declarations_checked": []
+        },
+        "corpus_links": {
+          "human_companion": "",
+          "corpus_claim_register": "",
+          "supporting_summaries": []
+        }
+      },
+      {
+        "identity": {
+          "claim_id": "A06",
+          "candidate_uuid": "lc-0004-A06-descent-chain"
+        },
+        "source_selection": {
+          "exact_source_expression": "Follow being all the way down and you arrive at the Cross. [P91-S315..S338]",
+          "selection_disposition": "FORMALIZE",
+          "reason": "The Descent is presented as a 24-step causal chain with the explicit claim 'No premise smuggled. No step skipped.' (S339–S340). This is a claim of logical validity of a chain of implications. It can be formalized as a sequence of implications in Lean, with each step as a hypothesis and the conclusion as the final step. The formalization would test whether the chain is valid as stated."
+        },
+        "formal_object": {
+          "object_type": "THEOREM",
+          "exact_proposed_statement": "Given a sequence of propositions P1, ..., P24 corresponding to the 24 steps of the Descent, and given implications P1 → P2, P2 → P3, ..., P23 → P24, the conclusion P24 (Christ is the convergence point) follows from P1 (God creates).",
+          "fully_qualified_declaration": "GodAsRoot.Descent.descent_chain_valid",
+          "project_root": "GodAsRoot",
+          "module": "GodAsRoot.Descent"
+        },
+        "symbol_table": [
+          {
+            "term": "DescentStep",
+            "formal_definition": "inductive DescentStep : Type | s01 | s02 | ... | s24",
+            "reader_meaning": "The 24 steps of the causal chain.",
+            "source_correspondence": "P91-S315..S338"
+          },
+          {
+            "term": "StepProp",
+            "formal_definition": "def StepProp : DescentStep → Prop | s01 => GodCreates | s02 => CreationStands | ... | s24 => ChristConvergence",
+            "reader_meaning": "The proposition asserted at each step.",
+            "source_correspondence": "P91-S315..S338"
+          },
+          {
+            "term": "ChainValid",
+            "formal_definition": "def ChainValid : Prop := ∀ n, n < 24 → StepProp n → StepProp (n+1)",
+            "reader_meaning": "Each step implies the next.",
+            "source_correspondence": "P91-S339..S340"
+          }
+        ],
+        "assumptions_and_dependencies": {
+          "explicit_premises": [
+            "The 24 steps are as listed in S315–S338.",
+            "Each step's proposition is well-defined.",
+            "Each implication StepProp n → StepProp (n+1) holds."
+          ],
+          "custom_axioms": [
+            "The implications themselves are the substantive content; if assumed as axioms, the theorem is trivial. The formalization challenge is to derive them from more basic premises."
+          ],
+          "theological_starting_premises": "The first step (God creates) is a theological premise. The chain is conditional on it.",
+          "non_vacuity_requirement": "The chain must have at least one step and the propositions must be jointly satisfiable."
+        },
+        "verification_controls": [
+          {
+            "check": "module compilation",
+            "command_or_evidence": "lake build GodAsRoot.Descent",
+            "status": "NOT_RUN",
+            "interpretation": "Not attempted."
+          },
+          {
+            "check": "declaration inspection",
+            "command_or_evidence": "#check GodAsRoot.Descent.descent_chain_valid",
+            "status": "NOT_RUN",
+            "interpretation": "Proposed declaration."
+          },
+          {
+            "check": "negative control",
+            "command_or_evidence": "Remove one implication and show the conclusion no longer follows.",
+            "status": "NOT_RUN",
+            "interpretation": "Confirms each step is load-bearing."
+          }
+        ],
+        "result_and_boundary": {
+          "verification_status": "CANDIDATE",
+          "what_is_established": "If formalized with the implications as hypotheses, the theorem establishes only that the chain is valid as a sequence of implications. It does not establish that any step is true.",
+          "what_remains_open": "Whether each implication is actually true; whether the steps are correctly identified; whether the chain is complete (no smuggled premises).",
+          "encoding_fidelity_review": "The formalization captures the logical structure but not the content of each step. The paper's claim 'No premise smuggled' (S339) is a claim about the derivation of each implication, which is not formalized here.",
+          "interpretive_connections": "Connects to A05 (necessary ground) and to the paper's CDR grammar (S409)."
+        },
+        "reproduction_receipt": {
+          "run_id": "",
+          "timestamp": "",
+          "source_hashes": {},
+          "commands": [],
+          "exit_codes": [],
+          "log_paths": [],
+          "declarations_checked": []
+        },
+        "corpus_links": {
+          "human_companion": "",
+          "corpus_claim_register": "",
+          "supporting_summaries": []
+        }
+      },
+      {
+        "identity": {
+          "claim_id": "A09",
+          "candidate_uuid": "lc-0005-A09-empty-tomb-physics"
+        },
+        "source_selection": {
+          "exact_source_expression": "The empty tomb says the pattern outlives the substrate and decay gets reversed from outside. [P61-S219..S223]",
+          "selection_disposition": "FORMALIZE",
+          "reason": "The paper explicitly frames the empty tomb as two physics claims: (1) information survives the destruction of its container, and (2) entropy gets locally reversed by connecting the system to an external source. These are precise enough to be stated as formal propositions about information preservation and entropy reversal in open systems."
+        },
+        "formal_object": {
+          "object_type": "THEOREM",
+          "exact_proposed_statement": "In a physical system S with a substrate and a pattern, if the pattern is encoded in the substrate and the substrate is destroyed, then the pattern can survive only if it is also encoded in a source external to S. Furthermore, if S is a closed system with increasing entropy, then a local decrease in entropy in S requires an external source of order.",
+          "fully_qualified_declaration": "GodAsRoot.EmptyTomb.pattern_survives_substrate_and_entropy_reversed",
+          "project_root": "GodAsRoot",
+          "module": "GodAsRoot.EmptyTomb"
+        },
+        "symbol_table": [
+          {
+            "term": "PhysicalSystem",
+            "formal_definition": "structure PhysicalSystem where Substrate : Type; Pattern : Type; encodes : Substrate → Pattern → Prop; Entropy : ℝ; Closed : Prop",
+            "reader_meaning": "A physical system with a substrate, a pattern, an encoding relation, and an entropy value.",
+            "source_correspondence": "P61-S219..S223"
+          },
+          {
+            "term": "SubstrateDestroyed",
+            "formal_definition": "def SubstrateDestroyed (S : PhysicalSystem) : Prop := ∀ s : S.Substrate, False",
+            "reader_meaning": "The substrate no longer exists.",
+            "source_correspondence": "P61-S221"
+          },
+          {
+            "term": "PatternSurvives",
+            "formal_definition": "def PatternSurvives (S : PhysicalSystem) (p : S.Pattern) : Prop := ∃ s : S.Substrate, S.encodes s p",
+            "reader_meaning": "The pattern is still encoded somewhere.",
+            "source_correspondence": "P61-S221"
+          },
+          {
+            "term": "ExternalSource",
+            "formal_definition": "def ExternalSource (S : PhysicalSystem) : Prop := ∃ T : PhysicalSystem, T ≠ S ∧ T.Entropy < S.Entropy",
+            "reader_meaning": "A source outside S with lower entropy.",
+            "source_correspondence": "P61-S223"
+          }
+        ],
+        "assumptions_and_dependencies": {
+          "explicit_premises": [
+            "The pattern is encoded in the substrate.",
+            "The substrate is destroyed.",
+            "The system is closed and its entropy increases.",
+            "A local entropy decrease requires an external source."
+          ],
+          "custom_axioms": [
+            "The claim that information cannot be destroyed (a physical principle, not a theorem of pure logic).",
+            "The Second Law of Thermodynamics for closed systems."
+          ],
+          "theological_starting_premises": "The identification of the empty tomb with these physics claims is a bridge claim. The physics claims themselves are conditional.",
+          "non_vacuity_requirement": "There must exist at least one physical system with a substrate and a pattern."
+        },
+        "verification_controls": [
+          {
+            "check": "module compilation",
+            "command_or_evidence": "lake build GodAsRoot.EmptyTomb",
+            "status": "NOT_RUN",
+            "interpretation": "Not attempted."
+          },
+          {
+            "check": "declaration inspection",
+            "command_or_evidence": "#check GodAsRoot.EmptyTomb.pattern_survives_substrate_and_entropy_reversed",
+            "status": "NOT_RUN",
+            "interpretation": "Proposed declaration."
+          },
+          {
+            "check": "negative control",
+            "command_or_evidence": "Construct a system where the pattern is only encoded in the substrate and show it does not survive destruction.",
+            "status": "NOT_RUN",
+            "interpretation": "Confirms the external-source hypothesis is needed."
+          }
+        ],
+        "result_and_boundary": {
+          "verification_status": "CANDIDATE",
+          "what_is_established": "If formalized, the theorem would establish conditional claims: pattern survival requires external encoding, and local entropy decrease requires an external source. These are restatements of known physics principles.",
+          "what_remains_open": "Whether the empty tomb actually occurred; whether the pattern of a person is the kind of thing that can be externally encoded; whether the external source is God.",
+          "encoding_fidelity_review": "The formalization captures the structural claims but not the empirical content. The paper's claim that the empty tomb 'proves' these things is stronger than what the formalization supports.",
+          "interpretive_connections": "Connects to A05 (necessary ground) and to the paper's CDR grammar (S409)."
+        },
+        "reproduction_receipt": {
+          "run_id": "",
+          "timestamp": "",
+          "source_hashes": {},
+          "commands": [],
+          "exit_codes": [],
+          "log_paths": [],
+          "declarations_checked": []
+        },
+        "corpus_links": {
+          "human_companion": "",
+          "corpus_claim_register": "",
+          "supporting_summaries": []
+        }
+      }
+    ],
+    "existing_matches": [],
+    "notes": "The Lean corpus was not searched in this run. All verification controls are NOT_RUN and all verification statuses are CANDIDATE or NOT_ATTEMPTED. The five candidates are ordered by strength of formalizability: A05 (necessary ground) is the strongest because the paper itself presents it as a mathematical argument with five requirements; A01 (ground axiom) is a meta-mathematical claim; A03 (ten laws) is a structural bookkeeping claim; A06 (Descent) is a logical-validity claim; A09 (empty tomb) is a physics-conditional claim. Claims A02, A04, A07, A08, A10–A17, A19–A21 were not selected for formalization because they are either narrative, methodological, empirical, or question-form claims that do not admit precise Lean statements without substantial additional interpretation. No existing Lean declarations were searched or matched."
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "lean4",
+      "attempt": 1,
+      "text": "{\n  \"station\": \"lean4\",\n  \"paper_uuid\": \"AX_GI_01_FL_01_GOD_AS_ROOT_f055954a\",\n  \"run_uuid\": \"deep-c4257a456793\",\n  \"template\": \"00_FULL_LEAN_TEMPLATE.md\",\n  \"formal_candidates\": [\n    {\n      \"identity\": {\n        \"claim_id\": \"A05\",\n        \"candidate_uuid\": \"lc-0001-A05-necessary-ground\"\n      },\n      \"source_selection\": {\n        \"exact_source_expression\": \"The universe needs a source outside itself that is necessary, self-grounding, active, and personal — the God theologians already described. [P82-S290..P84-S297; P86-S299..S306]\",\n        \"selection_disposition\": \"FORMALIZE\",\n        \"reason\": \"This is the paper's most explicitly mathematical claim: five required properties of a sustaining source, presented as following from premises about closed systems, coherence, and moral realism. It is the only claim in the paper that the paper itself flags as 'partially formalized' with 'five proofs' (S402). It can be given a precise Lean statement as a conditional theorem over an abstract ontology, with the theological identification kept as a separate, non-formal bridge.\"\n      },\n      \"formal_object\": {\n        \"object_type\": \"THEOREM\",\n        \"exact_proposed_statement\": \"In any ontology O equipped with a sustainment relation and a coherence predicate, if (i) every closed subsystem of O strictly degrades its coherence under its own dynamics, (ii) the whole of O does not degrade, and (iii) coherence is universal and measurable, then there exists a distinguished entity g in O such that g is necessary (exists in every model of O), self-grounding (no sustainment chain from g to a distinct entity), the origin of coherence (every coherent entity's coherence is sustained through g), active (g's sustainment is not a fixed point of the degradation dynamics), and personal (g grounds the moral-value predicate).\",\n        \"fully_qualified_declaration\": \"GodAsRoot.NecessaryGround.necessary_ground_exists\",\n        \"project_root\": \"GodAsRoot\",\n        \"module\": \"GodAsRoot.NecessaryGround\"\n      },\n      \"symbol_table\": [\n        {\n          \"term\": \"Ontology\",\n          \"formal_definition\": \"structure Ontology where Carrier : Type; Sustains : Carrier → Carrier → Prop; Coherent : Carrier → Prop; Degrades : Carrier → Carrier → Prop; MoralValue : Carrier → Prop\",\n          \"reader_meaning\": \"An abstract universe with a sustainment relation, a coherence predicate, a degradation dynamics, and a moral-value predicate.\",\n          \"source_correspondence\": \"P82-S290..S291; P84-S293..S297\"\n        },\n        {\n          \"term\": \"ClosedSubsystem\",\n          \"formal_definition\": \"def ClosedSubsystem (O : Ontology) (S : Set O.Carrier) : Prop := ∀ x ∈ S, ∀ y, O.Sustains x y → y ∈ S\",\n          \"reader_meaning\": \"A part of the universe that receives nothing from outside itself.\",\n          \"source_correspondence\": \"P50-S164..S169; P82-S290\"\n        },\n        {\n          \"term\": \"Necessary\",\n          \"formal_definition\": \"def Necessary (O : Ontology) (g : O.Carrier) : Prop := ∀ (M : Model O), M.interprets g\",\n          \"reader_meaning\": \"Cannot fail to exist; present in every admissible model.\",\n          \"source_correspondence\": \"P84-S293; P86-S300 (Aseity)\"\n        },\n        {\n          \"term\": \"SelfGrounding\",\n          \"formal_definition\": \"def SelfGrounding (O : Ontology) (g : O.Carrier) : Prop := ¬ ∃ h, h ≠ g ∧ O.Sustains g h\",\n          \"reader_meaning\": \"Does not depend on anything else; no infinite regress.\",\n          \"source_correspondence\": \"P84-S294; P86-S301 (Self-sufficiency)\"\n        },\n        {\n          \"term\": \"OriginOfCoherence\",\n          \"formal_definition\": \"def OriginOfCoherence (O : Ontology) (g : O.Carrier) : Prop := ∀ x, O.Coherent x → O.Sustains x g\",\n          \"reader_meaning\": \"The source of truth, order, beauty, goodness, life.\",\n          \"source_correspondence\": \"P84-S295; P86-S304 (Logos)\"\n        },\n        {\n          \"term\": \"Active\",\n          \"formal_definition\": \"def Active (O : Ontology) (g : O.Carrier) : Prop := ¬ (∀ x, O.Sustains x g → O.Sustains g x)\",\n          \"reader_meaning\": \"Not a passive fixed point; sustains by ongoing action.\",\n          \"source_correspondence\": \"P84-S296; P86-S305 (Providence)\"\n        },\n        {\n          \"term\": \"Personal\",\n          \"formal_definition\": \"def Personal (O : Ontology) (g : O.Carrier) : Prop := ∀ x, O.MoralValue x → O.Sustains x g\",\n          \"reader_meaning\": \"Only persons can ground moral facts.\",\n          \"source_correspondence\": \"P84-S297; P86-S306 (Personhood)\"\n        }\n      ],\n      \"assumptions_and_dependencies\": {\n        \"explicit_premises\": [\n          \"P1 (ClosedDecay): ∀ S, ClosedSubsystem O S → ∀ x ∈ S, ∃ y, O.Degrades x y ∧ ¬ O.Coherent y\",\n          \"P2 (WholeSustained): ∃ x, O.Coherent x\",\n          \"P3 (CoherenceUniversal): ∀ x, O.Coherent x → ∃ y, O.Sustains x y\",\n          \"P4 (MoralRealism): ∃ x, O.MoralValue x\",\n          \"P5 (NoInfiniteRegress): every sustainment chain in O is well-founded\"\n        ],\n        \"custom_axioms\": [\n          \"P1 is the formal reading of the Second Law applied to closed subsystems (S164–S169).\",\n          \"P4 is the moral-realism premise the paper states explicitly (S297).\",\n          \"P5 is the anti-regress premise (S294).\"\n        ],\n        \"theological_starting_premises\": \"None inside the Lean statement. The identification of the entity g with the Trinitarian God of Christian theology is a bridge claim, not a premise of the theorem. The theorem establishes only that some entity with the five properties exists under P1–P5.\",\n        \"non_vacuity_requirement\": \"The theorem is non-vacuous only if there exists at least one Ontology satisfying P1–P5. A witness model must be supplied (e.g., a finite carrier with a designated g and a sustainment relation satisfying the premises) to demonstrate the hypotheses are jointly satisfiable.\"\n      },\n      \"verification_controls\": [\n        {\n          \"check\": \"module compilation\",\n          \"command_or_evidence\": \"lake build GodAsRoot.NecessaryGround\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"Lean corpus not searched in this run; no build attempted.\"\n        },\n        {\n          \"check\": \"declaration inspection\",\n          \"command_or_evidence\": \"#check GodAsRoot.NecessaryGround.necessary_ground_exists\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"Declaration is proposed, not yet written.\"\n        },\n        {\n          \"check\": \"axiom dependency\",\n          \"command_or_evidence\": \"#print axioms GodAsRoot.NecessaryGround.necessary_ground_exists\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"Must confirm no unintended axioms beyond P1–P5.\"\n        },\n        {\n          \"check\": \"non-vacuity\",\n          \"command_or_evidence\": \"Provide a concrete Ontology instance satisfying P1–P5 and instantiate the theorem.\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"Without a witness, the theorem may be vacuously true.\"\n        },\n        {\n          \"check\": \"negative control\",\n          \"command_or_evidence\": \"Construct an Ontology satisfying P1–P3 but not P4 and show the conclusion fails.\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"Confirms P4 (moral realism) is load-bearing.\"\n        }\n      ],\n      \"result_and_boundary\": {\n        \"verification_status\": \"CANDIDATE\",\n        \"what_is_established\": \"If formalized and proved, the theorem would establish that under the five stated premises, an entity with the five required properties exists in any ontology satisfying them. This is a conditional existence result.\",\n        \"what_remains_open\": \"Whether the premises P1–P5 hold of the actual physical universe; whether the entity so obtained is unique; whether the identification with the Trinitarian God is warranted; whether the moral-realism premise P4 is defensible.\",\n        \"encoding_fidelity_review\": \"The formalization abstracts away from the paper's specific physics (Second Law, decoherence) into a general degradation dynamics. This is faithful to the paper's own framing (S290–S291) but loses the empirical content. The 'personal' predicate is formalized as grounding moral value, matching S297 but not the paper's fuller Trinitarian description (S019–S022).\",\n        \"interpretive_connections\": \"Connects to the paper's claim that 'the math gave us all the tools to find Him — except the ability to prove Him without Him' (S412). The theorem is a conditional existence result, not an unconditional proof of God, which is consistent with the paper's own Layer-0 claim (S040–S045).\"\n      },\n      \"reproduction_receipt\": {\n        \"run_id\": \"\",\n        \"timestamp\": \"\",\n        \"source_hashes\": {},\n        \"commands\": [],\n        \"exit_codes\": [],\n        \"log_paths\": [],\n        \"declarations_checked\": []\n      },\n      \"corpus_links\": {\n        \"human_companion\": \"\",\n        \"corpus_claim_register\": \"\",\n        \"supporting_summaries\": []\n      }\n    },\n    {\n      \"identity\": {\n        \"claim_id\": \"A01\",\n        \"candidate_uuid\": \"lc-0002-A01-trinity-ground-axiom\"\n      },\n      \"source_selection\": {\n        \"exact_source_expression\": \"God is the floor beneath everything; you can't prove Him because a provable axiom would rest on something deeper. [P07-S010..S014; P15-S040..S045]\",\n        \"selection_disposition\": \"FORMALIZE\",\n        \"reason\": \"The paper makes a precise structural claim: that the ground axiom of a formal system cannot be proved within that system, and that this is a signature of a genuine Layer 0. This is a meta-mathematical claim that can be stated in Lean as a theorem about formal systems and their axiom sets, closely related to Gödel's incompleteness theorems.\"\n      },\n      \"formal_object\": {\n        \"object_type\": \"THEOREM\",\n        \"exact_proposed_statement\": \"For any formal system F with a distinguished ground axiom g, if g is the unique axiom of F and F is consistent, then there is no derivation in F of g from the empty set of premises. More generally, if g is an axiom of F, then g is not derivable in F from F's other axioms alone unless F is inconsistent.\",\n        \"fully_qualified_declaration\": \"GodAsRoot.LayerZero.ground_axiom_not_derivable\",\n        \"project_root\": \"GodAsRoot\",\n        \"module\": \"GodAsRoot.LayerZero\"\n      },\n      \"symbol_table\": [\n        {\n          \"term\": \"FormalSystem\",\n          \"formal_definition\": \"structure FormalSystem where Formula : Type; Axiom : Set Formula; Derives : Set Formula → Formula → Prop; sound : ∀ {Γ φ}, Derives Γ φ → (∀ ψ ∈ Γ, True) → True\",\n          \"reader_meaning\": \"An abstract formal system with formulas, axioms, and a derivability relation.\",\n          \"source_correspondence\": \"P07-S010..S014\"\n        },\n        {\n          \"term\": \"GroundAxiom\",\n          \"formal_definition\": \"def GroundAxiom (F : FormalSystem) (g : F.Formula) : Prop := g ∈ F.Axiom ∧ ∀ h ∈ F.Axiom, h = g\",\n          \"reader_meaning\": \"The single axiom at the floor of the system.\",\n          \"source_correspondence\": \"P07-S014; P15-S043\"\n        },\n        {\n          \"term\": \"DerivableFromEmpty\",\n          \"formal_definition\": \"def DerivableFromEmpty (F : FormalSystem) (φ : F.Formula) : Prop := F.Derives ∅ φ\",\n          \"reader_meaning\": \"Provable without any premises.\",\n          \"source_correspondence\": \"P15-S040..S045\"\n        }\n      ],\n      \"assumptions_and_dependencies\": {\n        \"explicit_premises\": [\n          \"F is a formal system with a derivability relation.\",\n          \"g is the unique axiom of F.\",\n          \"F is consistent (no formula and its negation are both derivable from ∅).\"\n        ],\n        \"custom_axioms\": [],\n        \"theological_starting_premises\": \"None. The theorem is purely meta-mathematical. The identification of g with God is a bridge claim outside the theorem.\",\n        \"non_vacuity_requirement\": \"There must exist at least one formal system with a unique axiom; e.g., a trivial system with one axiom and no rules.\"\n      },\n      \"verification_controls\": [\n        {\n          \"check\": \"module compilation\",\n          \"command_or_evidence\": \"lake build GodAsRoot.LayerZero\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"Not attempted.\"\n        },\n        {\n          \"check\": \"declaration inspection\",\n          \"command_or_evidence\": \"#check GodAsRoot.LayerZero.ground_axiom_not_derivable\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"Proposed declaration.\"\n        },\n        {\n          \"check\": \"negative control\",\n          \"command_or_evidence\": \"Construct a system where g is derivable from other axioms and show the theorem's hypothesis fails.\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"Confirms the uniqueness hypothesis is needed.\"\n        }\n      ],\n      \"result_and_boundary\": {\n        \"verification_status\": \"CANDIDATE\",\n        \"what_is_established\": \"If formalized, the theorem would establish a structural fact about formal systems: a unique ground axiom is not derivable from the empty premise set in a consistent system. This is a trivial consequence of consistency and does not require Gödel's theorems.\",\n        \"what_remains_open\": \"The paper's stronger claim that 'if God COULD be proven, God would not be the ground' (S045) requires an additional bridge premise identifying the formal ground axiom with God. That bridge is not formalized here.\",\n        \"encoding_fidelity_review\": \"The formalization captures the structural claim but not the theological identification. The paper's appeal to Gödel (S048, S311) is stronger than what this theorem needs; the theorem is closer to a definitional observation about axiom systems.\",\n        \"interpretive_connections\": \"Connects to A05 (necessary ground) and to the paper's Layer-0 / DG1 terminology (S044).\"\n      },\n      \"reproduction_receipt\": {\n        \"run_id\": \"\",\n        \"timestamp\": \"\",\n        \"source_hashes\": {},\n        \"commands\": [],\n        \"exit_codes\": [],\n        \"log_paths\": [],\n        \"declarations_checked\": []\n      },\n      \"corpus_links\": {\n        \"human_companion\": \"\",\n        \"corpus_claim_register\": \"\",\n        \"supporting_summaries\": []\n      }\n    },\n    {\n      \"identity\": {\n        \"claim_id\": \"A03\",\n        \"candidate_uuid\": \"lc-0003-A03-ten-laws-agency-gap\"\n      },\n      \"source_selection\": {\n        \"exact_source_expression\": \"Read the ten laws together and they describe one Person; the same gap — agency — appears ten times. [P67-S235..S245; P68-S246..S250]\",\n        \"selection_disposition\": \"FORMALIZE\",\n        \"reason\": \"The paper makes a structural claim: that each of ten physical-law/spiritual-reading pairs has the same missing variable (agency) in the same structural position. This can be formalized as a claim about a family of partial mappings, each with a distinguished hole, and the claim that the holes are all of the same type. The formalization is modest but precise.\"\n      },\n      \"formal_object\": {\n        \"object_type\": \"DEFINITION\",\n        \"exact_proposed_statement\": \"Define a LawPair as a structure with a physical component, a spiritual component, and a distinguished missing variable. Define the ten law pairs of the paper. Define the predicate SameGapType which holds of a family of LawPairs when all their missing variables are of the same type (Agency). State the claim that the ten law pairs of the paper satisfy SameGapType.\",\n        \"fully_qualified_declaration\": \"GodAsRoot.TenLaws.ten_laws_share_agency_gap\",\n        \"project_root\": \"GodAsRoot\",\n        \"module\": \"GodAsRoot.TenLaws\"\n      },\n      \"symbol_table\": [\n        {\n          \"term\": \"LawPair\",\n          \"formal_definition\": \"structure LawPair where physical : String; spiritual : String; missing : Type\",\n          \"reader_meaning\": \"A pairing of a physical law with a spiritual reading, together with the type of the missing variable.\",\n          \"source_correspondence\": \"P67-S235..S245\"\n        },\n        {\n          \"term\": \"Agency\",\n          \"formal_definition\": \"inductive Agency : Type | mk : Agency\",\n          \"reader_meaning\": \"The capacity for free choice, the repeated missing piece.\",\n          \"source_correspondence\": \"P68-S248\"\n        },\n        {\n          \"term\": \"SameGapType\",\n          \"formal_definition\": \"def SameGapType (ps : List LawPair) : Prop := ∀ p ∈ ps, p.missing = Agency\",\n          \"reader_meaning\": \"All pairs in the family have the same missing-variable type.\",\n          \"source_correspondence\": \"P68-S246..S250\"\n        }\n      ],\n      \"assumptions_and_dependencies\": {\n        \"explicit_premises\": [\n          \"The ten law pairs are as listed in the paper's table (S235–S245).\",\n          \"The missing variable in each pair is agency.\"\n        ],\n        \"custom_axioms\": [],\n        \"theological_starting_premises\": \"None inside the definition. The claim that the portrait matches one Person is a bridge claim outside the formalization.\",\n        \"non_vacuity_requirement\": \"The list of ten law pairs must be non-empty and each pair must have a well-defined missing type.\"\n      },\n      \"verification_controls\": [\n        {\n          \"check\": \"module compilation\",\n          \"command_or_evidence\": \"lake build GodAsRoot.TenLaws\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"Not attempted.\"\n        },\n        {\n          \"check\": \"declaration inspection\",\n          \"command_or_evidence\": \"#check GodAsRoot.TenLaws.ten_laws_share_agency_gap\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"Proposed declaration.\"\n        },\n        {\n          \"check\": \"negative control\",\n          \"command_or_evidence\": \"Construct a LawPair with a different missing type and show SameGapType fails.\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"Confirms the predicate is not vacuous.\"\n        }\n      ],\n      \"result_and_boundary\": {\n        \"verification_status\": \"CANDIDATE\",\n        \"what_is_established\": \"If formalized, the definition and theorem would establish that the ten law pairs as listed share a common missing-variable type. This is a bookkeeping result about the paper's own table.\",\n        \"what_remains_open\": \"Whether the physical laws actually have the properties the paper attributes to them; whether the spiritual readings are warranted; whether the shared gap is evidence of a single Person rather than a coincidence or an artifact of the paper's framing.\",\n        \"encoding_fidelity_review\": \"The formalization is faithful to the paper's table but does not engage the physics. The 'missing variable' is treated as a type-level annotation, not as a substantive claim about the laws.\",\n        \"interpretive_connections\": \"Connects to A04 (God in the completions) and to the paper's kill condition (S410: 'a force with no matching structure').\"\n      },\n      \"reproduction_receipt\": {\n        \"run_id\": \"\",\n        \"timestamp\": \"\",\n        \"source_hashes\": {},\n        \"commands\": [],\n        \"exit_codes\": [],\n        \"log_paths\": [],\n        \"declarations_checked\": []\n      },\n      \"corpus_links\": {\n        \"human_companion\": \"\",\n        \"corpus_claim_register\": \"\",\n        \"supporting_summaries\": []\n      }\n    },\n    {\n      \"identity\": {\n        \"claim_id\": \"A06\",\n        \"candidate_uuid\": \"lc-0004-A06-descent-chain\"\n      },\n      \"source_selection\": {\n        \"exact_source_expression\": \"Follow being all the way down and you arrive at the Cross. [P91-S315..S338]\",\n        \"selection_disposition\": \"FORMALIZE\",\n        \"reason\": \"The Descent is presented as a 24-step causal chain with the explicit claim 'No premise smuggled. No step skipped.' (S339–S340). This is a claim of logical validity of a chain of implications. It can be formalized as a sequence of implications in Lean, with each step as a hypothesis and the conclusion as the final step. The formalization would test whether the chain is valid as stated.\"\n      },\n      \"formal_object\": {\n        \"object_type\": \"THEOREM\",\n        \"exact_proposed_statement\": \"Given a sequence of propositions P1, ..., P24 corresponding to the 24 steps of the Descent, and given implications P1 → P2, P2 → P3, ..., P23 → P24, the conclusion P24 (Christ is the convergence point) follows from P1 (God creates).\",\n        \"fully_qualified_declaration\": \"GodAsRoot.Descent.descent_chain_valid\",\n        \"project_root\": \"GodAsRoot\",\n        \"module\": \"GodAsRoot.Descent\"\n      },\n      \"symbol_table\": [\n        {\n          \"term\": \"DescentStep\",\n          \"formal_definition\": \"inductive DescentStep : Type | s01 | s02 | ... | s24\",\n          \"reader_meaning\": \"The 24 steps of the causal chain.\",\n          \"source_correspondence\": \"P91-S315..S338\"\n        },\n        {\n          \"term\": \"StepProp\",\n          \"formal_definition\": \"def StepProp : DescentStep → Prop | s01 => GodCreates | s02 => CreationStands | ... | s24 => ChristConvergence\",\n          \"reader_meaning\": \"The proposition asserted at each step.\",\n          \"source_correspondence\": \"P91-S315..S338\"\n        },\n        {\n          \"term\": \"ChainValid\",\n          \"formal_definition\": \"def ChainValid : Prop := ∀ n, n < 24 → StepProp n → StepProp (n+1)\",\n          \"reader_meaning\": \"Each step implies the next.\",\n          \"source_correspondence\": \"P91-S339..S340\"\n        }\n      ],\n      \"assumptions_and_dependencies\": {\n        \"explicit_premises\": [\n          \"The 24 steps are as listed in S315–S338.\",\n          \"Each step's proposition is well-defined.\",\n          \"Each implication StepProp n → StepProp (n+1) holds.\"\n        ],\n        \"custom_axioms\": [\n          \"The implications themselves are the substantive content; if assumed as axioms, the theorem is trivial. The formalization challenge is to derive them from more basic premises.\"\n        ],\n        \"theological_starting_premises\": \"The first step (God creates) is a theological premise. The chain is conditional on it.\",\n        \"non_vacuity_requirement\": \"The chain must have at least one step and the propositions must be jointly satisfiable.\"\n      },\n      \"verification_controls\": [\n        {\n          \"check\": \"module compilation\",\n          \"command_or_evidence\": \"lake build GodAsRoot.Descent\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"Not attempted.\"\n        },\n        {\n          \"check\": \"declaration inspection\",\n          \"command_or_evidence\": \"#check GodAsRoot.Descent.descent_chain_valid\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"Proposed declaration.\"\n        },\n        {\n          \"check\": \"negative control\",\n          \"command_or_evidence\": \"Remove one implication and show the conclusion no longer follows.\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"Confirms each step is load-bearing.\"\n        }\n      ],\n      \"result_and_boundary\": {\n        \"verification_status\": \"CANDIDATE\",\n        \"what_is_established\": \"If formalized with the implications as hypotheses, the theorem establishes only that the chain is valid as a sequence of implications. It does not establish that any step is true.\",\n        \"what_remains_open\": \"Whether each implication is actually true; whether the steps are correctly identified; whether the chain is complete (no smuggled premises).\",\n        \"encoding_fidelity_review\": \"The formalization captures the logical structure but not the content of each step. The paper's claim 'No premise smuggled' (S339) is a claim about the derivation of each implication, which is not formalized here.\",\n        \"interpretive_connections\": \"Connects to A05 (necessary ground) and to the paper's CDR grammar (S409).\"\n      },\n      \"reproduction_receipt\": {\n        \"run_id\": \"\",\n        \"timestamp\": \"\",\n        \"source_hashes\": {},\n        \"commands\": [],\n        \"exit_codes\": [],\n        \"log_paths\": [],\n        \"declarations_checked\": []\n      },\n      \"corpus_links\": {\n        \"human_companion\": \"\",\n        \"corpus_claim_register\": \"\",\n        \"supporting_summaries\": []\n      }\n    },\n    {\n      \"identity\": {\n        \"claim_id\": \"A09\",\n        \"candidate_uuid\": \"lc-0005-A09-empty-tomb-physics\"\n      },\n      \"source_selection\": {\n        \"exact_source_expression\": \"The empty tomb says the pattern outlives the substrate and decay gets reversed from outside. [P61-S219..S223]\",\n        \"selection_disposition\": \"FORMALIZE\",\n        \"reason\": \"The paper explicitly frames the empty tomb as two physics claims: (1) information survives the destruction of its container, and (2) entropy gets locally reversed by connecting the system to an external source. These are precise enough to be stated as formal propositions about information preservation and entropy reversal in open systems.\"\n      },\n      \"formal_object\": {\n        \"object_type\": \"THEOREM\",\n        \"exact_proposed_statement\": \"In a physical system S with a substrate and a pattern, if the pattern is encoded in the substrate and the substrate is destroyed, then the pattern can survive only if it is also encoded in a source external to S. Furthermore, if S is a closed system with increasing entropy, then a local decrease in entropy in S requires an external source of order.\",\n        \"fully_qualified_declaration\": \"GodAsRoot.EmptyTomb.pattern_survives_substrate_and_entropy_reversed\",\n        \"project_root\": \"GodAsRoot\",\n        \"module\": \"GodAsRoot.EmptyTomb\"\n      },\n      \"symbol_table\": [\n        {\n          \"term\": \"PhysicalSystem\",\n          \"formal_definition\": \"structure PhysicalSystem where Substrate : Type; Pattern : Type; encodes : Substrate → Pattern → Prop; Entropy : ℝ; Closed : Prop\",\n          \"reader_meaning\": \"A physical system with a substrate, a pattern, an encoding relation, and an entropy value.\",\n          \"source_correspondence\": \"P61-S219..S223\"\n        },\n        {\n          \"term\": \"SubstrateDestroyed\",\n          \"formal_definition\": \"def SubstrateDestroyed (S : PhysicalSystem) : Prop := ∀ s : S.Substrate, False\",\n          \"reader_meaning\": \"The substrate no longer exists.\",\n          \"source_correspondence\": \"P61-S221\"\n        },\n        {\n          \"term\": \"PatternSurvives\",\n          \"formal_definition\": \"def PatternSurvives (S : PhysicalSystem) (p : S.Pattern) : Prop := ∃ s : S.Substrate, S.encodes s p\",\n          \"reader_meaning\": \"The pattern is still encoded somewhere.\",\n          \"source_correspondence\": \"P61-S221\"\n        },\n        {\n          \"term\": \"ExternalSource\",\n          \"formal_definition\": \"def ExternalSource (S : PhysicalSystem) : Prop := ∃ T : PhysicalSystem, T ≠ S ∧ T.Entropy < S.Entropy\",\n          \"reader_meaning\": \"A source outside S with lower entropy.\",\n          \"source_correspondence\": \"P61-S223\"\n        }\n      ],\n      \"assumptions_and_dependencies\": {\n        \"explicit_premises\": [\n          \"The pattern is encoded in the substrate.\",\n          \"The substrate is destroyed.\",\n          \"The system is closed and its entropy increases.\",\n          \"A local entropy decrease requires an external source.\"\n        ],\n        \"custom_axioms\": [\n          \"The claim that information cannot be destroyed (a physical principle, not a theorem of pure logic).\",\n          \"The Second Law of Thermodynamics for closed systems.\"\n        ],\n        \"theological_starting_premises\": \"The identification of the empty tomb with these physics claims is a bridge claim. The physics claims themselves are conditional.\",\n        \"non_vacuity_requirement\": \"There must exist at least one physical system with a substrate and a pattern.\"\n      },\n      \"verification_controls\": [\n        {\n          \"check\": \"module compilation\",\n          \"command_or_evidence\": \"lake build GodAsRoot.EmptyTomb\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"Not attempted.\"\n        },\n        {\n          \"check\": \"declaration inspection\",\n          \"command_or_evidence\": \"#check GodAsRoot.EmptyTomb.pattern_survives_substrate_and_entropy_reversed\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"Proposed declaration.\"\n        },\n        {\n          \"check\": \"negative control\",\n          \"command_or_evidence\": \"Construct a system where the pattern is only encoded in the substrate and show it does not survive destruction.\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"Confirms the external-source hypothesis is needed.\"\n        }\n      ],\n      \"result_and_boundary\": {\n        \"verification_status\": \"CANDIDATE\",\n        \"what_is_established\": \"If formalized, the theorem would establish conditional claims: pattern survival requires external encoding, and local entropy decrease requires an external source. These are restatements of known physics principles.\",\n        \"what_remains_open\": \"Whether the empty tomb actually occurred; whether the pattern of a person is the kind of thing that can be externally encoded; whether the external source is God.\",\n        \"encoding_fidelity_review\": \"The formalization captures the structural claims but not the empirical content. The paper's claim that the empty tomb 'proves' these things is stronger than what the formalization supports.\",\n        \"interpretive_connections\": \"Connects to A05 (necessary ground) and to the paper's CDR grammar (S409).\"\n      },\n      \"reproduction_receipt\": {\n        \"run_id\": \"\",\n        \"timestamp\": \"\",\n        \"source_hashes\": {},\n        \"commands\": [],\n        \"exit_codes\": [],\n        \"log_paths\": [],\n        \"declarations_checked\": []\n      },\n      \"corpus_links\": {\n        \"human_companion\": \"\",\n        \"corpus_claim_register\": \"\",\n        \"supporting_summaries\": []\n      }\n    }\n  ],\n  \"existing_matches\": [],\n  \"notes\": \"The Lean corpus was not searched in this run. All verification controls are NOT_RUN and all verification statuses are CANDIDATE or NOT_ATTEMPTED. The five candidates are ordered by strength of formalizability: A05 (necessary ground) is the strongest because the paper itself presents it as a mathematical argument with five requirements; A01 (ground axiom) is a meta-mathematical claim; A03 (ten laws) is a structural bookkeeping claim; A06 (Descent) is a logical-validity claim; A09 (empty tomb) is a physics-conditional claim. Claims A02, A04, A07, A08, A10–A17, A19–A21 were not selected for formalization because they are either narrative, methodological, empirical, or question-form claims that do not admit precise Lean statements without substantial additional interpretation. No existing Lean declarations were searched or matched.\"\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 11614,
+      "completion_tokens": 7337,
+      "attempts": 1,
+      "elapsed_seconds": 28.82800000000134,
+      "started_at": "2026-09-27T13:00:05.187815+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T13:00:34.027002+00:00",
+      "tokens": 18951
+    }
+  ],
+  "prompt_sha256": "0848646bc076ccadf36b9390d317be80452d3318128b1662f24e5dabb7359482",
+  "tokens": 18951
+}

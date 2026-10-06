@@ -1,0 +1,695 @@
+{
+  "name": "fruits_turns_2",
+  "parsed": {
+    "range": "T031-T060",
+    "turns": [
+      {
+        "id": "T031",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T032",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T033",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T034",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T035",
+        "speaker": "guest",
+        "v": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "answers doctrinal question to help listener",
+          "patience": "explains backdoor argument step by step",
+          "kindness": "defines terms and gives examples",
+          "goodness": "honest about philosophical limits",
+          "faithfulness": "cites Russell and Flew fairly",
+          "gentleness": "fair to opposing founders",
+          "self_control": "hedges with 'I think'"
+        }
+      },
+      {
+        "id": "T036",
+        "speaker": "guest",
+        "v": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "seeks listener's understanding of doctrine",
+          "patience": "walks through why-Jesus reasoning",
+          "kindness": "explains kingdom concept clearly",
+          "goodness": "honest about what follows",
+          "faithfulness": "cites skeptical friend fairly",
+          "gentleness": "fair to other religions",
+          "self_control": "careful with claims"
+        }
+      },
+      {
+        "id": "T037",
+        "speaker": "guest",
+        "v": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "engages listener's ethical concern",
+          "patience": "explains Buddha silver rule at length",
+          "kindness": "concedes points generously",
+          "goodness": "honest about source problems",
+          "faithfulness": "cites Romans and sources fairly",
+          "gentleness": "fair to Buddha and Confucius",
+          "self_control": "concedes where warranted"
+        }
+      },
+      {
+        "id": "T038",
+        "speaker": "guest",
+        "v": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "seeks listener's grasp of salvation",
+          "patience": "explains good Samaritan step by step",
+          "kindness": "defines radical commitment",
+          "goodness": "honest about works tension",
+          "faithfulness": "cites Luke 10 accurately",
+          "gentleness": "fair to critics",
+          "self_control": "careful with salvation claim"
+        }
+      },
+      {
+        "id": "T039",
+        "speaker": "guest",
+        "v": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "addresses listener's scripture question",
+          "patience": "explains hierarchy of doctrines",
+          "kindness": "concedes possible upset",
+          "goodness": "honest about upsetting Christians",
+          "faithfulness": "cites Galatians and Luke fairly",
+          "gentleness": "fair to other views",
+          "self_control": "hedges on numbering doctrines"
+        }
+      },
+      {
+        "id": "T040",
+        "speaker": "guest",
+        "v": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "seeks listener's understanding",
+          "patience": "explains order of doctrines",
+          "kindness": "explains reasoning clearly",
+          "goodness": "honest about authority limits",
+          "faithfulness": "consistent with earlier claims",
+          "gentleness": "fair to Jesus's teaching",
+          "self_control": "refuses to over-number"
+        }
+      },
+      {
+        "id": "T041",
+        "speaker": "guest",
+        "v": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "engages listener's miracle question",
+          "patience": "explains Hume definition step by step",
+          "kindness": "defines terms for listener",
+          "goodness": "honest about Swinburne disagreement",
+          "faithfulness": "cites Lewis and Swinburne fairly",
+          "gentleness": "fair to Swinburne",
+          "self_control": "hedges on levitation"
+        }
+      },
+      {
+        "id": "T042",
+        "speaker": "guest",
+        "v": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "seeks listener's grasp of signs",
+          "patience": "explains Mark 2 narrative",
+          "kindness": "explains Jesus's apologetic",
+          "goodness": "honest about connective links",
+          "faithfulness": "cites Mark 2 accurately",
+          "gentleness": "fair to rabbis' point",
+          "self_control": "careful with claims"
+        }
+      },
+      {
+        "id": "T043",
+        "speaker": "guest",
+        "v": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "addresses listener's criteria question",
+          "patience": "explains Swinburne definition",
+          "kindness": "defines miracle clearly",
+          "goodness": "honest about non-Christian views",
+          "faithfulness": "cites Swinburne and Lewis fairly",
+          "gentleness": "fair to skeptics",
+          "self_control": "hedges appropriately"
+        }
+      },
+      {
+        "id": "T044",
+        "speaker": "guest",
+        "v": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "seeks listener's understanding",
+          "patience": "explains uniqueness criterion",
+          "kindness": "concedes possible disbelief",
+          "goodness": "honest about what fits",
+          "faithfulness": "consistent with Swinburne",
+          "gentleness": "fair to doubters",
+          "self_control": "careful with biggie claim"
+        }
+      },
+      {
+        "id": "T045",
+        "speaker": "guest",
+        "v": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "engages listener's objection",
+          "patience": "explains Hume chapters in detail",
+          "kindness": "explains logical positivism",
+          "goodness": "honest about page counts",
+          "faithfulness": "cites Hume and Ayer fairly",
+          "gentleness": "fair to Hume",
+          "self_control": "hedges on page numbers"
+        }
+      },
+      {
+        "id": "T046",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T047",
+        "speaker": "guest",
+        "v": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "seeks listener's grasp of fallacy",
+          "patience": "explains future-unknown fallacy",
+          "kindness": "uses clear analogies",
+          "goodness": "honest about naturalism",
+          "faithfulness": "consistent standard for both sides",
+          "gentleness": "fair to opponents",
+          "self_control": "stays on argument"
+        }
+      },
+      {
+        "id": "T048",
+        "speaker": "guest",
+        "v": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "engages listener's objection",
+          "patience": "explains empiricism problem",
+          "kindness": "explains with golf analogy",
+          "goodness": "honest about inconsistency",
+          "faithfulness": "same standard for naturalists",
+          "gentleness": "fair to Russell",
+          "self_control": "stays on point"
+        }
+      },
+      {
+        "id": "T049",
+        "speaker": "guest",
+        "v": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "seeks listener's understanding",
+          "patience": "explains empiricism vs multiverse",
+          "kindness": "explains distinction clearly",
+          "goodness": "honest about evidence",
+          "faithfulness": "consistent standard",
+          "gentleness": "fair to physicists",
+          "self_control": "hedges on physics"
+        }
+      },
+      {
+        "id": "T050",
+        "speaker": "guest",
+        "v": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "engages listener's objection",
+          "patience": "explains Hume retorts",
+          "kindness": "explains chapter structure",
+          "goodness": "honest about volume two",
+          "faithfulness": "cites own work accurately",
+          "gentleness": "fair to Hume",
+          "self_control": "careful with count"
+        }
+      },
+      {
+        "id": "T051",
+        "speaker": "host",
+        "v": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "summarizes guest's work helpfully",
+          "patience": "explains retorts for listener",
+          "kindness": "clarifies for audience",
+          "goodness": "honest about summary",
+          "faithfulness": "accurately represents guest",
+          "gentleness": "fair to guest",
+          "self_control": "stays on topic"
+        }
+      },
+      {
+        "id": "T052",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T053",
+        "speaker": "guest",
+        "v": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "seeks listener's understanding",
+          "patience": "explains Mark predictions",
+          "kindness": "explains evidence clearly",
+          "goodness": "honest about criteria",
+          "faithfulness": "cites Mark accurately",
+          "gentleness": "fair to critics",
+          "self_control": "careful with claims"
+        }
+      },
+      {
+        "id": "T054",
+        "speaker": "guest",
+        "v": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "engages listener's objection",
+          "patience": "explains Satan objection",
+          "kindness": "explains with analogy",
+          "goodness": "honest about implications",
+          "faithfulness": "consistent standard",
+          "gentleness": "fair to skeptic",
+          "self_control": "stays on argument"
+        }
+      },
+      {
+        "id": "T055",
+        "speaker": "guest",
+        "v": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "seeks listener's grasp",
+          "patience": "explains five requirements",
+          "kindness": "explains step by step",
+          "goodness": "honest about what follows",
+          "faithfulness": "consistent with earlier",
+          "gentleness": "fair to Flew",
+          "self_control": "careful with claims"
+        }
+      },
+      {
+        "id": "T056",
+        "speaker": "guest",
+        "v": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "engages listener's competing-claims question",
+          "patience": "explains need to investigate each",
+          "kindness": "explains criteria clearly",
+          "goodness": "honest about Christian claims too",
+          "faithfulness": "same standard for all religions",
+          "gentleness": "fair to Muslims and Mormons",
+          "self_control": "refuses to overclaim"
+        }
+      },
+      {
+        "id": "T057",
+        "speaker": "guest",
+        "v": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "seeks listener's understanding",
+          "patience": "explains Medjugorje account",
+          "kindness": "explains carefully",
+          "goodness": "honest about lack of evidence",
+          "faithfulness": "fair to Catholic claims",
+          "gentleness": "fair to believers",
+          "self_control": "careful with claims"
+        }
+      },
+      {
+        "id": "T058",
+        "speaker": "guest",
+        "v": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "engages listener's question",
+          "patience": "explains Catholic miracle claims",
+          "kindness": "explains distinctions",
+          "goodness": "honest about evidence",
+          "faithfulness": "fair to Catholic and Orthodox",
+          "gentleness": "fair to all traditions",
+          "self_control": "careful with claims"
+        }
+      },
+      {
+        "id": "T059",
+        "speaker": "guest",
+        "v": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "seeks listener's understanding",
+          "patience": "explains both directions",
+          "kindness": "explains prospective/retrospective",
+          "goodness": "honest about method",
+          "faithfulness": "cites own book accurately",
+          "gentleness": "fair to question",
+          "self_control": "careful with claims"
+        }
+      },
+      {
+        "id": "T060",
+        "speaker": "guest",
+        "v": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "seeks listener's grasp of deity",
+          "patience": "explains Mark 14 in detail",
+          "kindness": "explains Greek terms",
+          "goodness": "honest about what Jesus said",
+          "faithfulness": "cites Mark and Rosario fairly",
+          "gentleness": "fair to Bart Ehrman",
+          "self_control": "hedges on 'I am God'"
+        }
+      }
+    ]
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "fruits_turns_2",
+      "attempt": 1,
+      "text": "{\"range\": \"T031-T060\", \"turns\": [\n  {\"id\": \"T031\", \"speaker\": \"host\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"T032\", \"speaker\": \"host\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"T033\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"T034\", \"speaker\": \"host\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"T035\", \"speaker\": \"guest\", \"v\": [1,0,0,1,1,1,1,1,1], \"why\": {\"love\": \"answers doctrinal question to help listener\", \"patience\": \"explains backdoor argument step by step\", \"kindness\": \"defines terms and gives examples\", \"goodness\": \"honest about philosophical limits\", \"faithfulness\": \"cites Russell and Flew fairly\", \"gentleness\": \"fair to opposing founders\", \"self_control\": \"hedges with 'I think'\"}},\n  {\"id\": \"T036\", \"speaker\": \"guest\", \"v\": [1,0,0,1,1,1,1,1,1], \"why\": {\"love\": \"seeks listener's understanding of doctrine\", \"patience\": \"walks through why-Jesus reasoning\", \"kindness\": \"explains kingdom concept clearly\", \"goodness\": \"honest about what follows\", \"faithfulness\": \"cites skeptical friend fairly\", \"gentleness\": \"fair to other religions\", \"self_control\": \"careful with claims\"}},\n  {\"id\": \"T037\", \"speaker\": \"guest\", \"v\": [1,0,0,1,1,1,1,1,1], \"why\": {\"love\": \"engages listener's ethical concern\", \"patience\": \"explains Buddha silver rule at length\", \"kindness\": \"concedes points generously\", \"goodness\": \"honest about source problems\", \"faithfulness\": \"cites Romans and sources fairly\", \"gentleness\": \"fair to Buddha and Confucius\", \"self_control\": \"concedes where warranted\"}},\n  {\"id\": \"T038\", \"speaker\": \"guest\", \"v\": [1,0,0,1,1,1,1,1,1], \"why\": {\"love\": \"seeks listener's grasp of salvation\", \"patience\": \"explains good Samaritan step by step\", \"kindness\": \"defines radical commitment\", \"goodness\": \"honest about works tension\", \"faithfulness\": \"cites Luke 10 accurately\", \"gentleness\": \"fair to critics\", \"self_control\": \"careful with salvation claim\"}},\n  {\"id\": \"T039\", \"speaker\": \"guest\", \"v\": [1,0,0,1,1,1,1,1,1], \"why\": {\"love\": \"addresses listener's scripture question\", \"patience\": \"explains hierarchy of doctrines\", \"kindness\": \"concedes possible upset\", \"goodness\": \"honest about upsetting Christians\", \"faithfulness\": \"cites Galatians and Luke fairly\", \"gentleness\": \"fair to other views\", \"self_control\": \"hedges on numbering doctrines\"}},\n  {\"id\": \"T040\", \"speaker\": \"guest\", \"v\": [1,0,0,1,1,1,1,1,1], \"why\": {\"love\": \"seeks listener's understanding\", \"patience\": \"explains order of doctrines\", \"kindness\": \"explains reasoning clearly\", \"goodness\": \"honest about authority limits\", \"faithfulness\": \"consistent with earlier claims\", \"gentleness\": \"fair to Jesus's teaching\", \"self_control\": \"refuses to over-number\"}},\n  {\"id\": \"T041\", \"speaker\": \"guest\", \"v\": [1,0,0,1,1,1,1,1,1], \"why\": {\"love\": \"engages listener's miracle question\", \"patience\": \"explains Hume definition step by step\", \"kindness\": \"defines terms for listener\", \"goodness\": \"honest about Swinburne disagreement\", \"faithfulness\": \"cites Lewis and Swinburne fairly\", \"gentleness\": \"fair to Swinburne\", \"self_control\": \"hedges on levitation\"}},\n  {\"id\": \"T042\", \"speaker\": \"guest\", \"v\": [1,0,0,1,1,1,1,1,1], \"why\": {\"love\": \"seeks listener's grasp of signs\", \"patience\": \"explains Mark 2 narrative\", \"kindness\": \"explains Jesus's apologetic\", \"goodness\": \"honest about connective links\", \"faithfulness\": \"cites Mark 2 accurately\", \"gentleness\": \"fair to rabbis' point\", \"self_control\": \"careful with claims\"}},\n  {\"id\": \"T043\", \"speaker\": \"guest\", \"v\": [1,0,0,1,1,1,1,1,1], \"why\": {\"love\": \"addresses listener's criteria question\", \"patience\": \"explains Swinburne definition\", \"kindness\": \"defines miracle clearly\", \"goodness\": \"honest about non-Christian views\", \"faithfulness\": \"cites Swinburne and Lewis fairly\", \"gentleness\": \"fair to skeptics\", \"self_control\": \"hedges appropriately\"}},\n  {\"id\": \"T044\", \"speaker\": \"guest\", \"v\": [1,0,0,1,1,1,1,1,1], \"why\": {\"love\": \"seeks listener's understanding\", \"patience\": \"explains uniqueness criterion\", \"kindness\": \"concedes possible disbelief\", \"goodness\": \"honest about what fits\", \"faithfulness\": \"consistent with Swinburne\", \"gentleness\": \"fair to doubters\", \"self_control\": \"careful with biggie claim\"}},\n  {\"id\": \"T045\", \"speaker\": \"guest\", \"v\": [1,0,0,1,1,1,1,1,1], \"why\": {\"love\": \"engages listener's objection\", \"patience\": \"explains Hume chapters in detail\", \"kindness\": \"explains logical positivism\", \"goodness\": \"honest about page counts\", \"faithfulness\": \"cites Hume and Ayer fairly\", \"gentleness\": \"fair to Hume\", \"self_control\": \"hedges on page numbers\"}},\n  {\"id\": \"T046\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"T047\", \"speaker\": \"guest\", \"v\": [1,0,0,1,1,1,1,1,1], \"why\": {\"love\": \"seeks listener's grasp of fallacy\", \"patience\": \"explains future-unknown fallacy\", \"kindness\": \"uses clear analogies\", \"goodness\": \"honest about naturalism\", \"faithfulness\": \"consistent standard for both sides\", \"gentleness\": \"fair to opponents\", \"self_control\": \"stays on argument\"}},\n  {\"id\": \"T048\", \"speaker\": \"guest\", \"v\": [1,0,0,1,1,1,1,1,1], \"why\": {\"love\": \"engages listener's objection\", \"patience\": \"explains empiricism problem\", \"kindness\": \"explains with golf analogy\", \"goodness\": \"honest about inconsistency\", \"faithfulness\": \"same standard for naturalists\", \"gentleness\": \"fair to Russell\", \"self_control\": \"stays on point\"}},\n  {\"id\": \"T049\", \"speaker\": \"guest\", \"v\": [1,0,0,1,1,1,1,1,1], \"why\": {\"love\": \"seeks listener's understanding\", \"patience\": \"explains empiricism vs multiverse\", \"kindness\": \"explains distinction clearly\", \"goodness\": \"honest about evidence\", \"faithfulness\": \"consistent standard\", \"gentleness\": \"fair to physicists\", \"self_control\": \"hedges on physics\"}},\n  {\"id\": \"T050\", \"speaker\": \"guest\", \"v\": [1,0,0,1,1,1,1,1,1], \"why\": {\"love\": \"engages listener's objection\", \"patience\": \"explains Hume retorts\", \"kindness\": \"explains chapter structure\", \"goodness\": \"honest about volume two\", \"faithfulness\": \"cites own work accurately\", \"gentleness\": \"fair to Hume\", \"self_control\": \"careful with count\"}},\n  {\"id\": \"T051\", \"speaker\": \"host\", \"v\": [1,0,0,1,1,1,1,1,1], \"why\": {\"love\": \"summarizes guest's work helpfully\", \"patience\": \"explains retorts for listener\", \"kindness\": \"clarifies for audience\", \"goodness\": \"honest about summary\", \"faithfulness\": \"accurately represents guest\", \"gentleness\": \"fair to guest\", \"self_control\": \"stays on topic\"}},\n  {\"id\": \"T052\", \"speaker\": \"host\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"T053\", \"speaker\": \"guest\", \"v\": [1,0,0,1,1,1,1,1,1], \"why\": {\"love\": \"seeks listener's understanding\", \"patience\": \"explains Mark predictions\", \"kindness\": \"explains evidence clearly\", \"goodness\": \"honest about criteria\", \"faithfulness\": \"cites Mark accurately\", \"gentleness\": \"fair to critics\", \"self_control\": \"careful with claims\"}},\n  {\"id\": \"T054\", \"speaker\": \"guest\", \"v\": [1,0,0,1,1,1,1,1,1], \"why\": {\"love\": \"engages listener's objection\", \"patience\": \"explains Satan objection\", \"kindness\": \"explains with analogy\", \"goodness\": \"honest about implications\", \"faithfulness\": \"consistent standard\", \"gentleness\": \"fair to skeptic\", \"self_control\": \"stays on argument\"}},\n  {\"id\": \"T055\", \"speaker\": \"guest\", \"v\": [1,0,0,1,1,1,1,1,1], \"why\": {\"love\": \"seeks listener's grasp\", \"patience\": \"explains five requirements\", \"kindness\": \"explains step by step\", \"goodness\": \"honest about what follows\", \"faithfulness\": \"consistent with earlier\", \"gentleness\": \"fair to Flew\", \"self_control\": \"careful with claims\"}},\n  {\"id\": \"T056\", \"speaker\": \"guest\", \"v\": [1,0,0,1,1,1,1,1,1], \"why\": {\"love\": \"engages listener's competing-claims question\", \"patience\": \"explains need to investigate each\", \"kindness\": \"explains criteria clearly\", \"goodness\": \"honest about Christian claims too\", \"faithfulness\": \"same standard for all religions\", \"gentleness\": \"fair to Muslims and Mormons\", \"self_control\": \"refuses to overclaim\"}},\n  {\"id\": \"T057\", \"speaker\": \"guest\", \"v\": [1,0,0,1,1,1,1,1,1], \"why\": {\"love\": \"seeks listener's understanding\", \"patience\": \"explains Medjugorje account\", \"kindness\": \"explains carefully\", \"goodness\": \"honest about lack of evidence\", \"faithfulness\": \"fair to Catholic claims\", \"gentleness\": \"fair to believers\", \"self_control\": \"careful with claims\"}},\n  {\"id\": \"T058\", \"speaker\": \"guest\", \"v\": [1,0,0,1,1,1,1,1,1], \"why\": {\"love\": \"engages listener's question\", \"patience\": \"explains Catholic miracle claims\", \"kindness\": \"explains distinctions\", \"goodness\": \"honest about evidence\", \"faithfulness\": \"fair to Catholic and Orthodox\", \"gentleness\": \"fair to all traditions\", \"self_control\": \"careful with claims\"}},\n  {\"id\": \"T059\", \"speaker\": \"guest\", \"v\": [1,0,0,1,1,1,1,1,1], \"why\": {\"love\": \"seeks listener's understanding\", \"patience\": \"explains both directions\", \"kindness\": \"explains prospective/retrospective\", \"goodness\": \"honest about method\", \"faithfulness\": \"cites own book accurately\", \"gentleness\": \"fair to question\", \"self_control\": \"careful with claims\"}},\n  {\"id\": \"T060\", \"speaker\": \"guest\", \"v\": [1,0,0,1,1,1,1,1,1], \"why\": {\"love\": \"seeks listener's grasp of deity\", \"patience\": \"explains Mark 14 in detail\", \"kindness\": \"explains Greek terms\", \"goodness\": \"honest about what Jesus said\", \"faithfulness\": \"cites Mark and Rosario fairly\", \"gentleness\": \"fair to Bart Ehrman\", \"self_control\": \"hedges on 'I am God'\"}}\n]}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 19637,
+      "completion_tokens": 3074,
+      "attempts": 1,
+      "elapsed_seconds": 11.453000000001339,
+      "started_at": "2026-09-27T14:21:13.654762+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T14:21:25.105714+00:00",
+      "tokens": 22711
+    }
+  ],
+  "prompt_sha256": "d4a9f96c744802cc727035b6d372551c312e0a4b7d243e768d263ea95e91117c",
+  "tokens": 22711
+}

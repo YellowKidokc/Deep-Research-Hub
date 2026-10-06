@@ -1,0 +1,18 @@
+## This is a token file for triggering automatic deployment when no commit is made.
+
+2025-01-08:  Deploy executor.
+2025-01-07:  Deploy executor.
+2025-04-24:  Deploy executor.
+2025-04-24:  Deploy assistant.
+2025-05-04:  Deploy qs, search and api-services.
+2025-05-05:  Deploy executor partition 4.
+2025-05-05:  Deploy control.
+2025-05-08:  Deploy assistant.
+2025-05-17:  Redeploy all.
+2025-05-28:  Deploy assistant and browserless.
+2025-06-06:  Deploy assistant and browserless.
+2025-07-21:  Deploy executor partition 1.
+2025-07-21:  Deploy search.
+2025-07-23:  Redeploy all.
+2025-07-25:  Redeploy index.
+.

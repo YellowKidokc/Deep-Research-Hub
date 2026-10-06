@@ -1,0 +1,123 @@
+{
+  "core_relation": {
+    "sentence": "A historical fact qualifies as a 'minimal fact' for resurrection belief when it is both highly evidenced (by multiple, early, eyewitness-attested data) AND held by a vast majority of qualified scholars; the evidential criterion is the dominant and sufficient condition, with scholarly consensus as a secondary confirmation.",
+    "quote": "So, if I have fewer names backing it up, I'll take that in instances where they strongly support multiple eyewitness early etc. [S095] ... That's by far the more important of the two. Way more. [S159/S160]"
+  },
+  "core_relation_run2": {
+    "sentence": "A historical fact qualifies as a 'minimal fact' for resurrection belief when it is both highly evidenced (by multiple, early, eyewitness-attested data) AND held by a vast majority of qualified scholars; the evidential criterion is the dominant and sufficient condition, with scholarly consensus as a secondary confirmation.",
+    "quote": "So, if I have fewer names backing it up, I'll take that in instances where they strongly support multiple eyewitness early etc. [S095] ... That's by far the more important of the two. Way more. [S159/S160]"
+  },
+  "product_test": {
+    "run1": "threshold",
+    "run2": "threshold",
+    "status": "agreed",
+    "quote": "if a fact is 51% evidence or higher that's good enough for me to believe it [S003] ... I do not have a certain threshold that they have to have to meet. [S020] ... criterion one on its own, that it being highly evidenced, that alone is sufficient for a rational belief. [S159]",
+    "reason": "Habermas explicitly treats evidence as a graded threshold rather than a multiplicative product. Criterion one alone suffices for rational belief (S159); criterion two (scholarly consensus) is secondary and not strictly required. He refuses to give a numeric cutoff (S020), indicating a threshold/graduated model rather than zero-collapse multiplication."
+  },
+  "slots": [
+    {
+      "slot": "G",
+      "fit_1": "analogous",
+      "fit_2": "analogous",
+      "status": "agreed",
+      "plays_role": "External negentropy influx — the incoming stream of historical data and non-evangelical scholarly testimony that sustains the argument from outside the apologist's own community.",
+      "quote": "I think if I have non-evangelical saying those things, that that interests me [S081]"
+    },
+    {
+      "slot": "M",
+      "fit_1": "analogous",
+      "fit_2": "analogous",
+      "status": "agreed",
+      "plays_role": "Alignment — the criterion of scholarly consensus aligns the individual's belief with the reference community of qualified scholars.",
+      "quote": "the vast majority of qualified scholars concur with it being a fact [S003]"
+    },
+    {
+      "slot": "E",
+      "fit_1": "direct",
+      "fit_2": "direct",
+      "status": "agreed",
+      "plays_role": "Signal fidelity — the reliability of the New Testament text and the transmission of testimony through ancient sources; whether the historical signal survives.",
+      "quote": "the New Testament text is reliable [S021]"
+    },
+    {
+      "slot": "S_eff",
+      "fit_1": "analogous",
+      "fit_2": "analogous",
+      "status": "agreed",
+      "plays_role": "Effective entropy — the noise of scholarly disagreement, minority dissent, and the 'low blows' of partisan dismissal that lower the coherence of the argument.",
+      "quote": "critics are going to say, 'I despise 16, 18, and probably 20.' [S036]"
+    },
+    {
+      "slot": "T",
+      "fit_1": "direct",
+      "fit_2": "direct",
+      "status": "agreed",
+      "plays_role": "Temporal integration — the earliness of the creedal testimony (within months of the crucifixion) accumulates evidential weight over time.",
+      "quote": "if it's a spring event, and you say months, it's very possible you have that proclamation in more than one place within within the remaining eight to nine months of the year. [S074]"
+    },
+    {
+      "slot": "K",
+      "fit_1": "direct",
+      "fit_2": "direct",
+      "status": "agreed",
+      "plays_role": "Compression — the 'minimal facts' method itself: compressing a vast body of evidence into a small set of highly-compressed, widely-accepted claims.",
+      "quote": "with the minimal facts there are two criteria for something to qualify [S003]"
+    },
+    {
+      "slot": "R",
+      "fit_1": "direct",
+      "fit_2": "direct",
+      "status": "agreed",
+      "plays_role": "Phase transition — the threshold at which evidence becomes sufficient for rational belief; a qualitative shift from 'probable' to 'believable'.",
+      "quote": "criterion one on its own, that it being highly evidenced, that alone is sufficient for a rational belief [S159]"
+    },
+    {
+      "slot": "Q",
+      "fit_1": "stretched",
+      "fit_2": "stretched",
+      "status": "agreed",
+      "plays_role": "Superposition — the unresolved state of individual historical facts before the criteria are applied; the 'open possibility' of each datum prior to evaluation.",
+      "quote": "20 different evidences as critically applied using the criteria [S035]"
+    },
+    {
+      "slot": "F",
+      "fit_1": "analogous",
+      "fit_2": "analogous",
+      "status": "agreed",
+      "plays_role": "Non-local correlation — the correlation between independent sources (Tacitus, Suetonius, Herodotus, Lüdemann, Dunn) that are no longer independent when they converge on the same fact.",
+      "quote": "Look at Herodotus. Look at Tacitus. Look at Suetonius before you say they don't do that stuff. [S109-S111]"
+    },
+    {
+      "slot": "C",
+      "fit_1": "analogous",
+      "fit_2": "analogous",
+      "status": "agreed",
+      "plays_role": "Integration — the historian/apologist as the local integrator who applies the criteria and synthesizes the evidence into a rational belief.",
+      "quote": "I measure by do I have a fair number of multiple attestation? [S043]"
+    }
+  ],
+  "contested": [],
+  "analog_strength": 3,
+  "analog_strength_spread": "3-3",
+  "confidence": [
+    "medium",
+    "medium"
+  ],
+  "one_line": "Habermas's minimal-facts method is a threshold model of historical evidence where multiple attestation, earliness, and eyewitness testimony (K, T, E) integrate into rational belief, with scholarly consensus (M) as a secondary alignment factor — an analogy proposal, not a derivation.",
+  "breaks": [
+    "The paper treats scholarly consensus (slot M) as optional/secondary, whereas in the master equation every factor is required for the product to hold.",
+    "Habermas explicitly refuses a numeric threshold (S020), which conflicts with the multiplicative zero-collapse model where any zero factor collapses the whole.",
+    "The 'highly evidenced' criterion is itself a threshold concept, not a multiplicative factor — the paper's logic is threshold-based, not product-based."
+  ],
+  "extra_factors": [
+    [
+      "The distinction between 'they saw' and 'they thought they saw' (S066) introduces a phenomenological qualifier with no direct slot in the master equation.",
+      "The 'low blows' / ad hominem concern (S089) is a social-epistemic factor not captured by any slot."
+    ],
+    [
+      "The distinction between 'they saw' and 'they thought they saw' (S066) introduces a phenomenological qualifier with no direct slot in the master equation.",
+      "The 'low blows' / ad hominem concern (S089) is a social-epistemic factor not captured by any slot."
+    ]
+  ],
+  "equations_present": false
+}

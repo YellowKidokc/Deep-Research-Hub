@@ -1,0 +1,8 @@
+{
+  "last_batch_start_offset": 5,
+  "last_batch_cases_processed": 10,
+  "master_rows_written": 2,
+  "batch_rows_written": 0,
+  "batch_file": "D:\\GitHub\\crawl4ai\\case_lists\\case_links_credible_batch_5_10.csv",
+  "batch_summary_file": "D:\\GitHub\\crawl4ai\\case_lists\\case_links_credible_batch_5_10_summary.json"
+}

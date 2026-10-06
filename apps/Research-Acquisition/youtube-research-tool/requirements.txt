@@ -1,0 +1,7 @@
+yt-dlp>=2024.0.0
+edge-tts>=7.0.0
+openpyxl>=3.1.0
+# Optional: for Whisper fallback (no-caption videos)
+# faster-whisper>=1.0.0
+# ffmpeg required on PATH for Whisper
+youtube-transcript-api>=1.2.4

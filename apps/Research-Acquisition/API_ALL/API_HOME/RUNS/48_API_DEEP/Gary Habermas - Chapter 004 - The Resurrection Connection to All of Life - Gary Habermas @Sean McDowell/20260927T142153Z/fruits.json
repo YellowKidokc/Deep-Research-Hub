@@ -1,0 +1,704 @@
+{
+  "spec_version": "0.3.0",
+  "target": {
+    "type": "paper",
+    "title": "Gary Habermas - Chapter 004 - The Resurrection Connection to All of Life - Gary Habermas @Sean McDowell",
+    "domain": "popular Christian apologetics / pastoral theology (auto-captioned interview transcript)",
+    "unit": "complete supplied document",
+    "comparison_class": "paper of similar purpose and evidence burden",
+    "population_boundary": "Two named speakers (Habermas, McDowell) and persons they explicitly represent (Habermas's wives, children, students Ben Shaw/Mike Licona, critics, persecuted Christians in Nigeria, Ukraine); no independent corroboration available",
+    "time_window": "2026-09-15 download; content references 1990-2026"
+  },
+  "gate_results": [
+    {
+      "gate_id": "gate.truth_evidence",
+      "status": "WARN",
+      "hard": true,
+      "rationale": "Historical claims (resurrection, apostolic preaching, Paul's suffering lists) are asserted with scripture citation but no traceable external evidence in-document; the minimal-facts method is named (S158) but not executed. Not a hard FAIL because the genre is interview/pastoral, not an evidential treatise, and the source itself flags the evidential volumes as elsewhere.",
+      "evidence_refs": [
+        "S158",
+        "S166",
+        "S203",
+        "S303"
+      ],
+      "resolution": null
+    },
+    {
+      "gate_id": "gate.contradiction",
+      "status": "PASS",
+      "hard": true,
+      "rationale": "Speaker explicitly grants possible gospel errors (S149-S152) while denying them (S222) — an acknowledged, bounded tension he names and works around rather than conceals; no load-bearing unresolved contradiction.",
+      "evidence_refs": [
+        "S149",
+        "S152",
+        "S156",
+        "S222"
+      ],
+      "resolution": "Tension acknowledged and bounded by the minimal-facts move."
+    },
+    {
+      "gate_id": "gate.scope",
+      "status": "WARN",
+      "hard": false,
+      "rationale": "Conclusions about resurrection's centrality to 'virtually every major doctrine' (S057) exceed what the interview evidences; near-death-experience claim 'almost irrefutable' (S352) is asserted outside its evidential support.",
+      "evidence_refs": [
+        "S057",
+        "S352"
+      ],
+      "resolution": null
+    },
+    {
+      "gate_id": "gate.falsifiability",
+      "status": "PASS",
+      "hard": false,
+      "rationale": "Speaker states what would count against him: 'if there's no resurrection... it's gullible' (S581-S582) and invites refutation (S583).",
+      "evidence_refs": [
+        "S581",
+        "S582",
+        "S583"
+      ],
+      "resolution": null
+    },
+    {
+      "gate_id": "gate.bridge_validity",
+      "status": "WARN",
+      "hard": false,
+      "rationale": "Cross-domain bridge from historical resurrection to pastoral practice (suffering, doubt, fear of death) is asserted by analogy ('many faceted diamond', S047/S263) without explicit mapping or kill condition.",
+      "evidence_refs": [
+        "S047",
+        "S263",
+        "S292"
+      ],
+      "resolution": null
+    },
+    {
+      "gate_id": "gate.provenance",
+      "status": "WARN",
+      "hard": false,
+      "rationale": "Auto-captioned transcript with caption errors (S014 'Gary Hermos', S092 'Ephesians 289', S162 'Craig Bombberg'); quotations of scripture and of Ellis/Wesley are paraphrased, not cited precisely.",
+      "evidence_refs": [
+        "S014",
+        "S092",
+        "S162",
+        "S526"
+      ],
+      "resolution": null
+    },
+    {
+      "gate_id": "gate.agency_noncoercion",
+      "status": "PASS",
+      "hard": true,
+      "rationale": "No concealed compulsion; the guest discloses his own grief and doubt voluntarily (S113-S114, S534), the interviewer asks permission (S532-S534), and no outcome is produced by coercion.",
+      "evidence_refs": [
+        "S113",
+        "S534",
+        "S604"
+      ],
+      "resolution": null
+    }
+  ],
+  "fruit_profile": [
+    {
+      "fruit_id": "fruit.love",
+      "score": 3,
+      "confidence": 0.6,
+      "mechanism": "truth-aligned relational cohesion seeking the good of the whole and each member while bearing cost and preserving agency",
+      "positive_evidence": [
+        {
+          "ref_id": "E1",
+          "quote_or_event": "I would like to to be hands and feet for people who are hurting.",
+          "location": "S516",
+          "evidence_type": "STATED_INTENT",
+          "link_reason": "Orientation toward costly service of the suffering"
+        },
+        {
+          "ref_id": "E2",
+          "quote_or_event": "Gary, I'm grateful for you, brother. thanks for your honesty and vulnerability on this podcast and just my my heart goes out to you with your wife",
+          "location": "S604",
+          "evidence_type": "OUTPUT",
+          "link_reason": "Interviewer bears relational cost and honors the guest's grief"
+        },
+        {
+          "ref_id": "E3",
+          "quote_or_event": "Love you, brother.",
+          "location": "S609",
+          "evidence_type": "OUTPUT",
+          "link_reason": "Affection expressed across a long relationship (S481-S484)"
+        }
+      ],
+      "counterevidence": [
+        {
+          "ref_id": "E4",
+          "quote_or_event": "I think I'd rather quit worrying about other people and give to this or get involved in that or do this.",
+          "location": "S513",
+          "evidence_type": "STATED_INTENT",
+          "link_reason": "Ambivalence about others' needs vs. own projects"
+        }
+      ],
+      "evidence_coverage": 0.5,
+      "stress_tests": {
+        "source": "PASS",
+        "cost": "PASS",
+        "endurance": "WARN",
+        "relation": "PASS",
+        "power": "PASS",
+        "correction": "UNKNOWN",
+        "outsider": "UNKNOWN",
+        "succession": "PASS"
+      },
+      "counterfeit": {
+        "flag": false,
+        "claimed_label": null,
+        "missing_companion": null,
+        "anti_fruit_output": null,
+        "severity": "NONE"
+      },
+      "rationale": "Repeated warm, costly care toward wife, students, and interviewer across contexts; no possession or exploitation. Endurance and outsider evidence thin."
+    },
+    {
+      "fruit_id": "fruit.joy",
+      "score": 2,
+      "confidence": 0.5,
+      "mechanism": "durable participation in real good not dependent on denial, spectacle, status, or constant stimulation",
+      "positive_evidence": [
+        {
+          "ref_id": "E5",
+          "quote_or_event": "I'm not sad at all. I feel I've done my job.",
+          "location": "S495",
+          "evidence_type": "OUTPUT",
+          "link_reason": "Contentment not tied to reward or recognition"
+        },
+        {
+          "ref_id": "E6",
+          "quote_or_event": "I'm so proud of those guys and they're carrying resurrection on.",
+          "location": "S467",
+          "evidence_type": "OUTPUT",
+          "link_reason": "Gladness in others' success, not own"
+        }
+      ],
+      "counterevidence": [
+        {
+          "ref_id": "E7",
+          "quote_or_event": "It's It's a rough situation.",
+          "location": "S185",
+          "evidence_type": "COUNTEREXAMPLE",
+          "link_reason": "Grief and exhaustion undercut durable joy claim"
+        },
+        {
+          "ref_id": "E8",
+          "quote_or_event": "I have my down days",
+          "location": "S229",
+          "evidence_type": "COUNTEREXAMPLE",
+          "link_reason": "Explicit admission of low mood"
+        }
+      ],
+      "evidence_coverage": 0.4,
+      "stress_tests": {
+        "source": "PASS",
+        "cost": "WARN",
+        "endurance": "WARN",
+        "relation": "UNKNOWN",
+        "power": "UNKNOWN",
+        "correction": "UNKNOWN",
+        "outsider": "UNKNOWN",
+        "succession": "PASS"
+      },
+      "counterfeit": {
+        "flag": false,
+        "claimed_label": null,
+        "missing_companion": null,
+        "anti_fruit_output": null,
+        "severity": "NONE"
+      },
+      "rationale": "Genuine contentment in vocation and students, but joy is not the document's focus and is interwoven with acknowledged grief; insufficient for 3."
+    },
+    {
+      "fruit_id": "fruit.peace",
+      "score": 2,
+      "confidence": 0.5,
+      "mechanism": "reintegrated order in which relevant tensions are truthfully addressed without suppression",
+      "positive_evidence": [
+        {
+          "ref_id": "E9",
+          "quote_or_event": "I don't know why it's happening. And I don't know why God lets it happen, but I'm not God.",
+          "location": "S545",
+          "evidence_type": "MECHANISM",
+          "link_reason": "Tension named rather than suppressed"
+        },
+        {
+          "ref_id": "E10",
+          "quote_or_event": "We can live with questions.",
+          "location": "S586",
+          "evidence_type": "MECHANISM",
+          "link_reason": "Ordered acceptance of unresolved tension"
+        }
+      ],
+      "counterevidence": [
+        {
+          "ref_id": "E11",
+          "quote_or_event": "It's hard to say the God who sees all and and what's he what's the purpose of the suffering?",
+          "location": "S541",
+          "evidence_type": "COUNTEREXAMPLE",
+          "link_reason": "Unresolved theodicy tension remains live"
+        }
+      ],
+      "evidence_coverage": 0.5,
+      "stress_tests": {
+        "source": "PASS",
+        "cost": "PASS",
+        "endurance": "WARN",
+        "relation": "UNKNOWN",
+        "power": "UNKNOWN",
+        "correction": "UNKNOWN",
+        "outsider": "UNKNOWN",
+        "succession": "UNKNOWN"
+      },
+      "counterfeit": {
+        "flag": false,
+        "claimed_label": null,
+        "missing_companion": null,
+        "anti_fruit_output": null,
+        "severity": "NONE"
+      },
+      "rationale": "Peace is presented as truthful handling of unresolved suffering rather than sedation; but the tension is admittedly unresolved, so mixed."
+    },
+    {
+      "fruit_id": "fruit.patience",
+      "score": 2,
+      "confidence": 0.4,
+      "mechanism": "preservation of persons and processes across the time required for truth, growth, correction, or convergence while acting when action is due",
+      "positive_evidence": [
+        {
+          "ref_id": "E12",
+          "quote_or_event": "I can wait for heaven if it means seeing her again",
+          "location": "S402",
+          "evidence_type": "STATED_INTENT",
+          "link_reason": "Long-horizon endurance under grief"
+        },
+        {
+          "ref_id": "E13",
+          "quote_or_event": "I'm going to keep digging till I find out what the resurrection says about this suffering.",
+          "location": "S262",
+          "evidence_type": "PROCESS",
+          "link_reason": "Sustained inquiry across time"
+        }
+      ],
+      "counterevidence": [
+        {
+          "ref_id": "E14",
+          "quote_or_event": "I don't want any more struggles.",
+          "location": "S330",
+          "evidence_type": "COUNTEREXAMPLE",
+          "link_reason": "Wish for relief rather than continued process"
+        }
+      ],
+      "evidence_coverage": 0.35,
+      "stress_tests": {
+        "source": "PASS",
+        "cost": "PASS",
+        "endurance": "WARN",
+        "relation": "UNKNOWN",
+        "power": "UNKNOWN",
+        "correction": "UNKNOWN",
+        "outsider": "UNKNOWN",
+        "succession": "PASS"
+      },
+      "counterfeit": {
+        "flag": false,
+        "claimed_label": null,
+        "missing_companion": null,
+        "anti_fruit_output": null,
+        "severity": "NONE"
+      },
+      "rationale": "Decades-long vocational persistence (S406-S408) and long-horizon hope; little direct evidence of patience with persons under friction."
+    },
+    {
+      "fruit_id": "fruit.kindness",
+      "score": 3,
+      "confidence": 0.55,
+      "mechanism": "low-friction repair and assistance that reduces needless barriers without erasing truth or responsibility",
+      "positive_evidence": [
+        {
+          "ref_id": "E15",
+          "quote_or_event": "for your listeners they need to remember the lawyer does not mean a guy with a JD who goes to court",
+          "location": "S074",
+          "evidence_type": "MECHANISM",
+          "link_reason": "Deliberate barrier-lowering for audience"
+        },
+        {
+          "ref_id": "E16",
+          "quote_or_event": "you talked to me, you explained things to me, took time with me",
+          "location": "S484",
+          "evidence_type": "DOWNSTREAM_OUTCOME",
+          "link_reason": "Beneficiary reports costly accessibility 25 years prior"
+        },
+        {
+          "ref_id": "E17",
+          "quote_or_event": "I'm not only not against medicine for depression, anxiety, there's a lot of people I know that I wish would take more of it",
+          "location": "S386",
+          "evidence_type": "OUTPUT",
+          "link_reason": "Non-judgmental stance reducing shame"
+        }
+      ],
+      "counterevidence": [
+        {
+          "ref_id": "E18",
+          "quote_or_event": "That's baloney.",
+          "location": "S588",
+          "evidence_type": "COUNTEREXAMPLE",
+          "link_reason": "Blunt dismissal, though aimed at a false standard not a person"
+        }
+      ],
+      "evidence_coverage": 0.5,
+      "stress_tests": {
+        "source": "PASS",
+        "cost": "PASS",
+        "endurance": "PASS",
+        "relation": "PASS",
+        "power": "WARN",
+        "correction": "PASS",
+        "outsider": "WARN",
+        "succession": "PASS"
+      },
+      "counterfeit": {
+        "flag": false,
+        "claimed_label": null,
+        "missing_companion": null,
+        "anti_fruit_output": null,
+        "severity": "NONE"
+      },
+      "rationale": "Repeated low-friction assistance across decades and audiences, with truth retained; bluntness is bounded and not humiliating."
+    },
+    {
+      "fruit_id": "fruit.goodness",
+      "score": 2,
+      "confidence": 0.45,
+      "mechanism": "truth-aligned action producing real non-malign benefit after costs and externalities are counted",
+      "positive_evidence": [
+        {
+          "ref_id": "E19",
+          "quote_or_event": "I would like to to be hands and feet for people who are hurting.",
+          "location": "S516",
+          "evidence_type": "STATED_INTENT",
+          "link_reason": "Stated intent toward concrete benefit"
+        },
+        {
+          "ref_id": "E20",
+          "quote_or_event": "I think probably the American Christian overall sin is materialism.",
+          "location": "S505",
+          "evidence_type": "MECHANISM",
+          "link_reason": "Names an externalized cost of his own in-group"
+        }
+      ],
+      "counterevidence": [
+        {
+          "ref_id": "E21",
+          "quote_or_event": "I'm thinking about a book on simple living",
+          "location": "S503",
+          "evidence_type": "MISSING",
+          "link_reason": "Benefit remains planned, not evidenced as delivered"
+        }
+      ],
+      "evidence_coverage": 0.35,
+      "stress_tests": {
+        "source": "PASS",
+        "cost": "WARN",
+        "endurance": "WARN",
+        "relation": "UNKNOWN",
+        "power": "UNKNOWN",
+        "correction": "UNKNOWN",
+        "outsider": "UNKNOWN",
+        "succession": "PASS"
+      },
+      "counterfeit": {
+        "flag": false,
+        "claimed_label": null,
+        "missing_companion": null,
+        "anti_fruit_output": null,
+        "severity": "NONE"
+      },
+      "rationale": "Good intentions and self-critical naming of materialism, but downstream benefit is largely prospective; insufficient for 3."
+    },
+    {
+      "fruit_id": "fruit.faithfulness",
+      "score": 3,
+      "confidence": 0.6,
+      "mechanism": "invariant fidelity across time, audiences, incentives, and pressure, joined to correction when the object of loyalty is false",
+      "positive_evidence": [
+        {
+          "ref_id": "E22",
+          "quote_or_event": "I'm holding on to my faith.",
+          "location": "S179",
+          "evidence_type": "OUTPUT",
+          "link_reason": "Fidelity maintained under severe personal cost"
+        },
+        {
+          "ref_id": "E23",
+          "quote_or_event": "I don't know why much of suffering occurs, but I do know the resurrection.",
+          "location": "S557",
+          "evidence_type": "MECHANISM",
+          "link_reason": "Fidelity joined to acknowledged ignorance rather than overclaim"
+        },
+        {
+          "ref_id": "E24",
+          "quote_or_event": "I'm not sad at all. I feel I've done my job.",
+          "location": "S495",
+          "evidence_type": "OUTPUT",
+          "link_reason": "Consistency of commitment across a career"
+        }
+      ],
+      "counterevidence": [
+        {
+          "ref_id": "E25",
+          "quote_or_event": "I almost left the faith.",
+          "location": "S026",
+          "evidence_type": "COUNTEREXAMPLE",
+          "link_reason": "Past near-departure, disclosed rather than hidden"
+        }
+      ],
+      "evidence_coverage": 0.55,
+      "stress_tests": {
+        "source": "PASS",
+        "cost": "PASS",
+        "endurance": "PASS",
+        "relation": "PASS",
+        "power": "WARN",
+        "correction": "PASS",
+        "outsider": "UNKNOWN",
+        "succession": "PASS"
+      },
+      "counterfeit": {
+        "flag": false,
+        "claimed_label": null,
+        "missing_companion": null,
+        "anti_fruit_output": null,
+        "severity": "NONE"
+      },
+      "rationale": "Fidelity persists across bereavement, doubt, and decades; correction is present (grants possible gospel errors, S149-S152) rather than tribal denial."
+    },
+    {
+      "fruit_id": "fruit.gentleness",
+      "score": 2,
+      "confidence": 0.45,
+      "mechanism": "power precisely restrained to the minimum force sufficient for the good while protecting the vulnerable",
+      "positive_evidence": [
+        {
+          "ref_id": "E26",
+          "quote_or_event": "Brother, thank you for your honesty and just being raw and and real.",
+          "location": "S188",
+          "evidence_type": "OUTPUT",
+          "link_reason": "Restraint and honor toward a vulnerable disclosure"
+        },
+        {
+          "ref_id": "E27",
+          "quote_or_event": "If you if you'd be okay sharing.",
+          "location": "S534",
+          "evidence_type": "MECHANISM",
+          "link_reason": "Consent sought before pressing on painful material"
+        }
+      ],
+      "counterevidence": [
+        {
+          "ref_id": "E28",
+          "quote_or_event": "please refute my resurrection argument or tell me why I shouldn't trust the God who raised his son from the dead.",
+          "location": "S583",
+          "evidence_type": "COUNTEREXAMPLE",
+          "link_reason": "Combative register toward opponents"
+        }
+      ],
+      "evidence_coverage": 0.4,
+      "stress_tests": {
+        "source": "PASS",
+        "cost": "PASS",
+        "endurance": "WARN",
+        "relation": "PASS",
+        "power": "WARN",
+        "correction": "UNKNOWN",
+        "outsider": "UNKNOWN",
+        "succession": "UNKNOWN"
+      },
+      "counterfeit": {
+        "flag": false,
+        "claimed_label": null,
+        "missing_companion": null,
+        "anti_fruit_output": null,
+        "severity": "NONE"
+      },
+      "rationale": "Power is restrained toward the grieving and consent is sought; combative apologetic register toward critics is bounded but present."
+    },
+    {
+      "fruit_id": "fruit.self_control",
+      "score": 3,
+      "confidence": 0.55,
+      "mechanism": "boundary integrity and governance of appetite, impulse, scope, and optimization under the true good",
+      "positive_evidence": [
+        {
+          "ref_id": "E29",
+          "quote_or_event": "Time out. What's the resurrection say about this?",
+          "location": "S321",
+          "evidence_type": "MECHANISM",
+          "link_reason": "Explicit cognitive interrupt of intrusive fear"
+        },
+        {
+          "ref_id": "E30",
+          "quote_or_event": "within about a week, that idea quit coming into my mind.",
+          "location": "S325",
+          "evidence_type": "DOWNSTREAM_OUTCOME",
+          "link_reason": "Reported effect of practiced governance"
+        },
+        {
+          "ref_id": "E31",
+          "quote_or_event": "I don't feel like I need to do any more books, got too many.",
+          "location": "S502",
+          "evidence_type": "OUTPUT",
+          "link_reason": "Scope restraint against output compulsion"
+        }
+      ],
+      "counterevidence": [
+        {
+          "ref_id": "E32",
+          "quote_or_event": "I'm just saying it could happen just that easily and I could be doing something again.",
+          "location": "S422",
+          "evidence_type": "COUNTEREXAMPLE",
+          "link_reason": "Acknowledged difficulty declining new work"
+        }
+      ],
+      "evidence_coverage": 0.5,
+      "stress_tests": {
+        "source": "PASS",
+        "cost": "PASS",
+        "endurance": "WARN",
+        "relation": "UNKNOWN",
+        "power": "UNKNOWN",
+        "correction": "PASS",
+        "outsider": "UNKNOWN",
+        "succession": "PASS"
+      },
+      "counterfeit": {
+        "flag": false,
+        "claimed_label": null,
+        "missing_companion": null,
+        "anti_fruit_output": null,
+        "severity": "NONE"
+      },
+      "rationale": "Concrete, repeated discipline of thought and scope, self-reported; no evidence of repression or hidden rebound."
+    }
+  ],
+  "contradictions": [
+    {
+      "classification": "ACKNOWLEDGED_REPAIRED",
+      "load_bearing": false,
+      "resolved": true,
+      "evidence_refs": [
+        "S149",
+        "S152",
+        "S156",
+        "S222"
+      ],
+      "fruit_relation": "faithfulness",
+      "consequence": "Grants possible gospel errors while denying them; bounded by the minimal-facts move, so not load-bearing."
+    },
+    {
+      "classification": "UNRESOLVED",
+      "load_bearing": false,
+      "resolved": false,
+      "evidence_refs": [
+        "S541",
+        "S545",
+        "S557"
+      ],
+      "fruit_relation": "peace",
+      "consequence": "Theodicy tension is explicitly left open; speaker treats it as live rather than settled."
+    }
+  ],
+  "counterfeit_flags": [],
+  "anti_fruit_pressure": [
+    {
+      "ref_id": "A1",
+      "location": "S513",
+      "description": "Self-oriented drift away from others' needs",
+      "severity": "LOW"
+    },
+    {
+      "ref_id": "A2",
+      "location": "S583",
+      "description": "Combative register toward critics",
+      "severity": "LOW"
+    }
+  ],
+  "stakeholder_divergence": [
+    {
+      "group": "Habermas (speaker)",
+      "observation": "Reports peace and vocational completion amid grief (S495, S557)"
+    },
+    {
+      "group": "Critics/outsiders",
+      "observation": "Addressed combatively (S583); no outsider voice present in document"
+    },
+    {
+      "group": "Persecuted Christians cited (Nigeria, Ukraine)",
+      "observation": "Used as illustrative, not consulted (S208, S540)"
+    }
+  ],
+  "aggregation": {
+    "mode": "gated_profile",
+    "arithmetic_summary": 0.6111,
+    "geometric_balance": 0.6187,
+    "multiplicative_coherence": 0.009888,
+    "minimum_fruit": {
+      "fruit_id": "fruit.joy",
+      "score": 2
+    },
+    "vetoes": []
+  },
+  "epistemic_status": "CONDITIONAL",
+  "system_status": "COHERENT_BUT_FRAGILE",
+  "confidence": 0.5,
+  "missing_evidence": [
+    "No independent corroboration of historical claims (S158, S203)",
+    "No outsider or critic voice in the document",
+    "No evidence of downstream outcomes of stated intentions (S503, S516)",
+    "No verbatim citation for Ellis, Wesley, or scripture paraphrases (S242, S526)"
+  ],
+  "repair_path": [
+    "Cite the evidential volumes' specific arguments rather than asserting minimal facts",
+    "Include at least one critical interlocutor or cited counterargument",
+    "Distinguish stated intent from delivered benefit for simple-living and service claims"
+  ],
+  "falsifier": "Documented coercive control, material deception, or repeated anti-fruit output toward named persons would overturn the positive profile.",
+  "limitations": [
+    "Auto-captioned transcript with caption errors and merged speaker turns",
+    "Single interview; no longitudinal or third-party observation",
+    "Genre is pastoral/apologetic, not an evidential treatise; evidence burden differs from comparison class",
+    "Per-sentence summary shows near-zero fruit signal density; its 'top_toward' items (S604, S516, S609) are consistent with this report, but its low means reflect a scoring pass tuned to explicit fruit vocabulary, which the rubric forbids treating as character evidence — I weight mechanism over vocabulary and therefore score higher than the summary's means imply."
+  ],
+  "formal_receipt": {
+    "receipt_type": "FORMAL_EVALUATION_RECEIPT",
+    "proof_status": "RULE_DERIVED_FROM_RECORDED_ASSESSMENTS",
+    "source_sha256": "c61084f7fb40faf8ad2e9d7cc134257a870ee7ffe2912c6c2ec263499fbc53e9",
+    "rubric_sha256": "44951e7c43e587a281195666a572b8469014a8eb62f62bc9ef60ebc0d591f609",
+    "prompt_sha256": "3fffad84000e843e052a205394ad869d7666dd52636bfe0c8f4887d4ca7facdd",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "premises": [
+      "P1: the evaluated source is fixed by source_sha256",
+      "P2: all nine Fruit dimensions are present on the 0..4 scale",
+      "P3: all seven gates are recorded independently of the Fruit scores",
+      "P4: evidence uncertainty remains explicit rather than being imputed"
+    ],
+    "deductions": [
+      "D1: arithmetic_summary is the mean of the nine scores normalized by four",
+      "D2: geometric_balance penalizes low dimensions and is non-authoritative",
+      "D3: unresolved hard-gate failures and severe counterfeit mechanisms create explicit vetoes",
+      "D4: a contradiction changes the verdict only through its classified severity, resolution, and consequence"
+    ],
+    "conclusion": "epistemic_status=CONDITIONAL; system_status=COHERENT_BUT_FRAGILE; veto_count=0",
+    "scope_boundary": "This receipt proves deterministic application of the declared rubric to recorded model assessments. It does not prove hidden motive, salvation status, divine origin, or empirical validity beyond the cited evidence.",
+    "generated_at": "2026-09-27T14:22:05Z"
+  },
+  "run_metadata": {
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "generated_at": "2026-09-27T14:22:05Z"
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "station": "stories",
+  "paper_uuid": "AX_GI_01_FL_01_GOD_AS_ROOT_f055954a",
+  "run_uuid": "20260927T053821Z",
+  "stories": [
+    {
+      "story_id": "st_001",
+      "title_or_label": "The Ground Before the Building",
+      "story_type": "illustration",
+      "source_span": "P06-P16, S009-S048",
+      "characters_or_agents": [],
+      "setting_or_context": "Formal systems and their foundational axioms",
+      "plot_or_sequence": "Every formal system has a floor it cannot dig beneath. Set theory pays nine axioms, Peano arithmetic five, general relativity two postulates. This framework pays one: God. The Trinitarian God pays four debts no other ontology pays: existence, distinction, relation, orientation. The axiom cannot be proven, and that is the signature of a genuine Layer 0.",
+      "intended_function": "explain",
+      "claims_illustrated": [
+        "A01",
+        "A05"
+      ],
+      "emotional_or_rhetorical_load": "Low; structural and definitional",
+      "boundaries": {
+        "what_it_shows": "That the framework positions God as an unprovable foundational axiom analogous to axioms in formal systems.",
+        "what_it_does_not_show": "That God actually exists or that the analogy to formal axioms is valid.",
+        "what_would_falsify_the_narrative": "Demonstration that the Trinitarian God can be derived from something deeper, or that the four debts can be paid by another ontology."
+      },
+      "evidence_for_historical_content": [],
+      "is_separable_from_argument": false,
+      "notes": "This is a structural framing device, not a narrative with characters. It is load-bearing for the argument."
+    },
+    {
+      "story_id": "st_002",
+      "title_or_label": "Why God Made Physics",
+      "story_type": "sermon_arc",
+      "source_span": "P17-P33, S049-S121",
+      "characters_or_agents": [
+        "God",
+        "creatures"
+      ],
+      "setting_or_context": "The created order as a medium for love, choice, and redemption",
+      "plot_or_sequence": "If God is sovereign, why physics? Because creatures who can receive and return love need a world that is not God, stable enough to be known, with real consequence, time, limits, and repair. Physics is the grammar of that world. It is not grace; it describes the condition grace answers.",
+      "intended_function": "explain",
+      "claims_illustrated": [
+        "A02",
+        "A14"
+      ],
+      "emotional_or_rhetorical_load": "Moderate; appeals to the meaningfulness of love and choice",
+      "boundaries": {
+        "what_it_shows": "A theological rationale for why a sovereign God would create a physical world.",
+        "what_it_does_not_show": "That this is the actual reason God created physics, or that physics has these properties by design.",
+        "what_would_falsify_the_narrative": "A demonstration that a world without physics could equally support genuine love and free choice, or that the properties listed are not necessary for love."
+      },
+      "evidence_for_historical_content": [],
+      "is_separable_from_argument": false,
+      "notes": "This is a sustained theological argument framed as an answer to a question, with narrative qualities."
+    },
+    {
+      "story_id": "st_003",
+      "title_or_label": "The Character of God from Physics",
+      "story_type": "illustration",
+      "source_span": "P34-P52, S122-S175",
+      "characters_or_agents": [
+        "God",
+        "gravity",
+        "strong nuclear force",
+        "electromagnetism",
+        "thermodynamics",
+        "information"
+      ],
+      "setting_or_context": "The measured properties of physical forces and laws",
+      "plot_or_sequence": "Physics tells you WHAT each force does, not WHY. But when you collect the properties of all ten forces and read them together, they compose a portrait so specific that only one Person matches it. Gravity reads as grace, the strong force as love, electromagnetism as truth, thermodynamics as necessity, information as the Word.",
+      "intended_function": "persuade",
+      "claims_illustrated": [
+        "A03",
+        "A04"
+      ],
+      "emotional_or_rhetorical_load": "High; uses poetic parallel between physics and Scripture",
+      "boundaries": {
+        "what_it_shows": "That the properties of physical forces can be read as metaphors or analogies for divine attributes.",
+        "what_it_does_not_show": "That the forces were designed to have these properties, or that the mapping is anything more than analogy.",
+        "what_would_falsify_the_narrative": "A physical force whose properties contradict the spiritual reading, or a demonstration that the mapping is arbitrary."
+      },
+      "evidence_for_historical_content": [],
+      "is_separable_from_argument": true,
+      "notes": "This is a rhetorical and illustrative device. The Hessian matrix claim (S151-S156) is presented as evidence but is not independently verified here."
+    },
+    {
+      "story_id": "st_004",
+      "title_or_label": "The 'You Are God' Thought Experiment: Twenty Questions",
+      "story_type": "thought_experiment",
+      "source_span": "P53-P63, S176-S230",
+      "characters_or_agents": [
+        "God",
+        "the adversary",
+        "humanity"
+      ],
+      "setting_or_context": "A hypothetical: if you woke up as God, what would you build, risk, permit, and redeem?",
+      "plot_or_sequence": "The sequence holds when first principles are stated in order: God is self-sufficient goodness; love freely creates real others; real others require genuine agency; agency allows refusal; refusal closes the receiver; a closed system decays; restoration must come from outside without destroying freedom; incarnation enters without coercing; cross and resurrection restore from within while preserving identity. Then specific questions: Why must the witness be free? Why a tree? Why not make God impossible to miss? What about the cross? What does the empty tomb prove?",
+      "intended_function": "explain",
+      "claims_illustrated": [
+        "A06",
+        "A15",
+        "A16",
+        "A17",
+        "A09"
+      ],
+      "emotional_or_rhetorical_load": "High; uses narrative tension and resolution",
+      "boundaries": {
+        "what_it_shows": "A coherent narrative sequence from creation to redemption, and answers to common objections framed within that narrative.",
+        "what_it_does_not_show": "That this sequence is the actual divine plan, or that the answers are the only possible ones.",
+        "what_would_falsify_the_narrative": "A demonstration that the sequence is internally inconsistent, or that a different sequence better explains the same data."
+      },
+      "evidence_for_historical_content": [],
+      "is_separable_from_argument": true,
+      "notes": "This is a thought experiment and narrative arc. It is separable from the formal argument but rhetorically central."
+    },
+    {
+      "story_id": "st_005",
+      "title_or_label": "The Descent: 24 Steps to the Cross",
+      "story_type": "narrative",
+      "source_span": "P90-P92, S314-S341",
+      "characters_or_agents": [
+        "God",
+        "creation",
+        "the Enemy",
+        "Christ"
+      ],
+      "setting_or_context": "The causal chain from God to the Cross",
+      "plot_or_sequence": "God creates. Creation stands. What stands is distinguishable. Distinction makes being intelligible. What is intelligible carries information. What carries information can stand in relation. What can stand in relation can be kept or broken. Therefore relation reveals value. What has value can be regarded rightly or wrongly. Thus value opens moral valence. Moral valence makes right and wrong meaningful. Right and wrong require agents who can choose. Choice requires a world of rules, limits, time, and consequences. Such a world permits decay, vulnerability, and loss. Decay and vulnerability open the possibility of adversarial refusal of coherence. The Enemy is that agency of refusal. Adversarial action creates real debt, damage, and disorder. Perfect Justice requires that this be truthfully answered and paid. Perfect Mercy wills restoration rather than abandonment. Justice and Mercy together require a cost-bearing source beyond the damaged order itself. That source must preserve truth while making restoration possible. That source is Grace. Grace restores creation toward God. Christ is the convergence point where justice, mercy, truth, and restoration meet.",
+      "intended_function": "persuade",
+      "claims_illustrated": [
+        "A06"
+      ],
+      "emotional_or_rhetorical_load": "High; builds to a theological climax",
+      "boundaries": {
+        "what_it_shows": "A step-by-step logical progression from basic metaphysical principles to the necessity of the Cross.",
+        "what_it_does_not_show": "That each step is logically necessary, or that the conclusion follows without additional theological assumptions.",
+        "what_would_falsify_the_narrative": "A step in the chain that does not follow, or a demonstration that the chain can be broken without contradiction."
+      },
+      "evidence_for_historical_content": [],
+      "is_separable_from_argument": false,
+      "notes": "This is presented as a formal derivation, but it functions as a narrative. It is structurally load-bearing."
+    },
+    {
+      "story_id": "st_006",
+      "title_or_label": "The Progressive Revelation",
+      "story_type": "historical_anecdote",
+      "source_span": "P93-P96, S342-S354",
+      "characters_or_agents": [
+        "God",
+        "Israel",
+        "prophets"
+      ],
+      "setting_or_context": "Biblical history from slavery to exile",
+      "plot_or_sequence": "God does not dump the full signal on Day One because the receivers cannot parse it. He meets them in slavery and turns deliverance into vocabulary for rescue. He meets them in wilderness and teaches provision. He meets them under Law so they understand failure. He meets them through prophets building the pattern. He meets them in exile so they understand return. This is not God being slow; this is God being a teacher.",
+      "intended_function": "explain",
+      "claims_illustrated": [
+        "A07"
+      ],
+      "emotional_or_rhetorical_load": "Moderate; uses biblical narrative as illustration",
+      "boundaries": {
+        "what_it_shows": "A pedagogical interpretation of biblical history.",
+        "what_it_does_not_show": "That this is the correct or only interpretation of biblical history, or that God actually operates this way.",
+        "what_would_falsify_the_narrative": "Evidence that biblical revelation was not progressive, or that the pedagogical model does not fit the historical data."
+      },
+      "evidence_for_historical_content": [],
+      "is_separable_from_argument": true,
+      "notes": "This is a theological interpretation of history, not a historical argument per se."
+    },
+    {
+      "story_id": "st_007",
+      "title_or_label": "God in the Gaps -- Inverted",
+      "story_type": "sermon_arc",
+      "source_span": "P69-P74, S251-S272",
+      "characters_or_agents": [
+        "science",
+        "God",
+        "Bonhoeffer"
+      ],
+      "setting_or_context": "The history of 'God of the gaps' arguments",
+      "plot_or_sequence": "Every generation, someone points at something science cannot explain and says 'therefore God.' And every generation, science explains it and God gets smaller. Darwin. Plate tectonics. Neuroscience. The gaps close. This paper does the opposite: it takes ten things science DID explain and shows that when you read them together, they describe a Person. Not in the gaps. In the completions. Bonhoeffer saw this in 1944 and wrote it from prison.",
+      "intended_function": "persuade",
+      "claims_illustrated": [
+        "A04"
+      ],
+      "emotional_or_rhetorical_load": "High; contrasts a failing strategy with a supposedly superior one",
+      "boundaries": {
+        "what_it_shows": "A rhetorical contrast between 'God of the gaps' and 'God in the completions'.",
+        "what_it_does_not_show": "That the completions actually describe a Person, or that the pattern is not coincidental.",
+        "what_would_falsify_the_narrative": "A demonstration that the ten laws do not compose a specific portrait, or that the portrait is not specific enough to identify one Person."
+      },
+      "evidence_for_historical_content": [
+        "A10",
+        "A11",
+        "A12"
+      ],
+      "is_separable_from_argument": true,
+      "notes": "This is a rhetorical framing device. The historical claim about Bonhoeffer is not independently verified here."
+    },
+    {
+      "story_id": "st_008",
+      "title_or_label": "The Necessary Ground",
+      "story_type": "illustration",
+      "source_span": "P81-P88, S289-S312",
+      "characters_or_agents": [],
+      "setting_or_context": "The requirements for a source that sustains the universe",
+      "plot_or_sequence": "If closed systems collapse and the universe has not collapsed, then something external sustains it. If coherence and decoherence are real, the source of coherence must be equally real. The required properties: necessary, self-grounding, origin of coherence, active, personal. Those properties have had a name for thousands of years: Aseity, Self-sufficiency, Eternality, Omnipresence, Logos, Providence, Personhood. We did not start from theology; we started from five mathematical proofs and arrived at the exact description theologians have been writing about.",
+      "intended_function": "persuade",
+      "claims_illustrated": [
+        "A05"
+      ],
+      "emotional_or_rhetorical_load": "Moderate; presents a convergence as remarkable",
+      "boundaries": {
+        "what_it_shows": "A mapping between mathematical requirements and theological attributes.",
+        "what_it_does_not_show": "That the mathematical requirements are valid, or that the mapping is anything more than a coincidence.",
+        "what_would_falsify_the_narrative": "A demonstration that the mathematical requirements do not hold, or that the theological attributes do not match."
+      },
+      "evidence_for_historical_content": [],
+      "is_separable_from_argument": false,
+      "notes": "This is a structural argument presented as a discovery narrative."
+    },
+    {
+      "story_id": "st_009",
+      "title_or_label": "The Evidence Converges",
+      "story_type": "illustration",
+      "source_span": "P97-P106, S355-S371",
+      "characters_or_agents": [
+        "Einstein",
+        "God"
+      ],
+      "setting_or_context": "Multiple lines of evidence",
+      "plot_or_sequence": "Pre-human math: the sun used E=mc^2 for 4.6 billion years before Einstein. Fine-tuning: the cosmological constant is tuned to 1 part in 10^120. The Hubble Tension: the universe expands at two different rates, 5-sigma discrepancy. Every door leads to the same room: logic, physics, information theory, biology, mathematics, cosmology, or the measurement of good and evil. Every path converges.",
+      "intended_function": "persuade",
+      "claims_illustrated": [
+        "A10",
+        "A11",
+        "A12"
+      ],
+      "emotional_or_rhetorical_load": "Moderate; uses the imagery of converging paths",
+      "boundaries": {
+        "what_it_shows": "That several lines of evidence are interpreted as pointing to the same conclusion.",
+        "what_it_does_not_show": "That the evidence actually converges, or that the interpretation is correct.",
+        "what_would_falsify_the_narrative": "A line of evidence that contradicts the convergence, or a demonstration that the convergence is forced."
+      },
+      "evidence_for_historical_content": [
+        "A10",
+        "A11",
+        "A12"
+      ],
+      "is_separable_from_argument": true,
+      "notes": "This is a rhetorical summary of evidence, not a detailed argument."
+    },
+    {
+      "story_id": "st_010",
+      "title_or_label": "The Canon Reading Order",
+      "story_type": "other",
+      "source_span": "P107-P109, S372-S395",
+      "characters_or_agents": [],
+      "setting_or_context": "The sequence of documents in the God pages",
+      "plot_or_sequence": "The God pages follow a deliberate sequence: start with God and story, move through Trinity and Truth, then let the axioms carry the weight. The reading rule is: story first, equations second, gauntlet last. The 7Q Classifier comes after the foundation because it is not the doorway; it is the gauntlet.",
+      "intended_function": "identify",
+      "claims_illustrated": [
+        "A19"
+      ],
+      "emotional_or_rhetorical_load": "Low; instructional",
+      "boundaries": {
+        "what_it_shows": "A recommended reading order for the series.",
+        "what_it_does_not_show": "That this order is necessary or optimal.",
+        "what_would_falsify_the_narrative": "A demonstration that a different order is more effective."
+      },
+      "evidence_for_historical_content": [],
+      "is_separable_from_argument": true,
+      "notes": "This is a meta-narrative about the series structure."
+    }
+  ],
+  "narrative_arc": {
+    "opening_device": "The paper opens with the claim that every formal system has a floor it cannot dig beneath, and that this framework pays one axiom: God.",
+    "central_tension": "The tension between the need for a necessary ground and the impossibility of proving it from within the system, and the question of why a sovereign God would create a physical world.",
+    "resolution_or_payoff": "The resolution is that the inability to prove God is the signature of a genuine Layer 0, and that physics is the created medium where love, choice, and redemption can become real, culminating in the Cross as the convergence of justice, mercy, truth, and restoration.",
+    "return_to_opening": true
+  },
+  "notes": "The paper is heavily narrative and rhetorical, using stories, thought experiments, and sermon arcs to convey its argument. Many stories are structurally load-bearing, while others are illustrative. The historical content is mostly unverified within the paper itself."
+}

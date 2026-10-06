@@ -1,0 +1,494 @@
+{
+  "name": "grade_b",
+  "parsed": {
+    "arguments": [
+      {
+        "id": "G1",
+        "name": "No fixed numerical evidential threshold",
+        "conclusion": "There is no specific percentage or numerical threshold that evidence must meet to qualify as 'highly evidenced' for resurrection belief.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1: Habermas has never counted scholars or assigned percentages except for his own study on the empty tomb.",
+          "P2: Assigning a number would be misused by critics to claim he requires that percentage.",
+          "P3: Historians typically use qualitative categories (e.g., very probable, beyond reasonable doubt) rather than percentages.",
+          "P4: The strength of evidence is better measured by the presence of multiple attestation, eyewitness testimony, and early sources than by a numerical count."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "But I do not have a certain threshold that they have to have to meet."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "I've never counted. Except the empty tomb, and it's not one of the six, I never counted."
+          },
+          "st3": {
+            "v": 1,
+            "quote": "I've never counted those who think I'm playing fast and loose the only thing I can remember ever counting and giving a head count was my own study and on the empty tomb"
+          },
+          "st4": {
+            "v": 2,
+            "quote": "how can I say it's got to meet this percentage if I don't know the percentage because I've never counted"
+          },
+          "st5": {
+            "v": 1,
+            "quote": "They're going to go, \"See, he means 80 for those guys he put that what I mean is they'll either mistake honestly mistake the number or purposely mistake the number\""
+          },
+          "st6": {
+            "v": 2,
+            "quote": "At no point do I ever say I need this many evidences."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 1,
+            "quote": "They don't give percentages per se, but they they have these categories like it's very probable or proven beyond reasonable doubt"
+          }
+        },
+        "prior_art": "Gary Habermas, The Minimal Facts Approach (defended across his published work, e.g. The Risen Jesus and Future Hope, 2003)",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "But I do not have a certain threshold that they have to have to meet.",
+            "why": "This is a clarification/internal defense of the minimal-facts method rather than a new argument; it is a variant of Habermas's longstanding denial of a fixed threshold."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "the only thing I can remember ever counting and giving a head count was my own study and on the empty tomb",
+            "why": "Adds autobiographical detail about his counting practice, but no new external evidence."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain connection."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization or model."
+          }
+        },
+        "weakest_link": "P2 is a psychological prediction about critics' misuse rather than a reason the threshold claim is true.",
+        "develop_next": "State explicitly what qualitative threshold distinguishes 'highly evidenced' from merely 'evidenced'.",
+        "case_map": [
+          "K15"
+        ],
+        "domain": "history"
+      },
+      {
+        "id": "G2",
+        "name": "Multiple attestation, eyewitness, and early sources make a strong case",
+        "conclusion": "A strong historical argument for the resurrection is made by having several categories of evidence—multiple attestation, eyewitness testimony, and early sources—rather than a specific number of evidences.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1: Multiple attestation is widely regarded as the best evidence for documents.",
+          "P2: Eyewitness testimony (e.g., Paul) and early creedal accounts are strong evidences.",
+          "P3: Having several such categories constitutes a strong argument.",
+          "P4: Habermas prefers stronger categories of data over weaker ones, even if fewer names support them."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "I'd say if I have multiple attestation, eyewitness, and early sources, that's not a list of names, that's a list of categories. And I think those categories to have several of those makes a strong argument."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "many many commentators have said that multiple attestation is the best evidence for documents"
+          },
+          "st3": {
+            "v": 1,
+            "quote": "if we can use eyewitnesses, if we have early accounts like in the creeds, yeah, those are great evidences"
+          },
+          "st4": {
+            "v": 1,
+            "quote": "So, after a while, I don't measure by how many do I have. I measure by do I have a fair number of multiple attestation?"
+          },
+          "st5": {
+            "v": 1,
+            "quote": "Now, critics are going to say, \"I despise 16, 18, and probably 20.\" Okay, I get that."
+          },
+          "st6": {
+            "v": 2,
+            "quote": "I would go for the stronger reasons, not the lesser reasons."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 2,
+            "quote": "if I have multiple attestation, eyewitness, and early sources, that's not a list of names, that's a list of categories"
+          }
+        },
+        "prior_art": "Gary Habermas, The Minimal Facts Approach (criteria of multiple attestation, eyewitness, early sources)",
+        "originality": {
+          "or1": {
+            "v": 0,
+            "quote": "many many commentators have said that multiple attestation is the best evidence for documents",
+            "why": "This is the standard historiographical criteria Habermas already uses; essentially a restatement."
+          },
+          "or2": {
+            "v": 0,
+            "quote": "",
+            "why": "No new evidence introduced."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain connection."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formal structure."
+          }
+        },
+        "weakest_link": "The move from 'several categories present' to 'strong argument' is asserted without a stated threshold for how many or how strong.",
+        "develop_next": "Specify how many categories and what quality of attestation are needed before the case counts as strong.",
+        "case_map": [
+          "K15"
+        ],
+        "domain": "history"
+      },
+      {
+        "id": "G3",
+        "name": "Non-evangelical scholars support key minimal facts",
+        "conclusion": "The testimony of non-evangelical scholars like Jimmy Dunn and Bart Ehrman strengthens the case for the minimal facts, particularly the disciples' experiences of the risen Jesus and the early dating of creedal statements.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1: Jimmy Dunn, a non-evangelical scholar, strongly affirms the abundance of sources for the preaching of the resurrection appearances.",
+          "P2: Bart Ehrman agrees it is a historical fact that the disciples thought they saw the risen Jesus.",
+          "P3: Dunn suggests the creedal statements in 1 Corinthians 15 and Romans 10:9 may have originated within months of the crucifixion.",
+          "P4: Gerd Lüdemann, an atheist New Testament scholar, says the preaching of the resurrection began immediately."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "I think if I have non-evangelical saying those things, that that interests me"
+          },
+          "st2": {
+            "v": 2,
+            "quote": "He said, \"But they thought they saw the risen Jesus.\" He said, \"I don't disagree with this because it's a fact of history.\""
+          },
+          "st3": {
+            "v": 2,
+            "quote": "Lüdemann says the preaching of the resurrection appearances happened immediately."
+          },
+          "st4": {
+            "v": 1,
+            "quote": "And Jimmy Dunn, there's very few people better. He he seems like he's it sounds like he's saying the original creedal statements could have come that first year."
+          },
+          "st5": {
+            "v": 1,
+            "quote": "You're not going to find my notes around here I got I got mounds I got feet and feet and feet of sources for this thing 3,700 pages."
+          },
+          "st6": {
+            "v": 1,
+            "quote": "He says it was probably or may have been or likely had been, he says in different ways, out within months."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 2,
+            "quote": "I got to be able to say those things without being you know, that's somebody from your home church or your denomi-"
+          }
+        },
+        "prior_art": "Gary Habermas and Michael Licona, The Case for the Resurrection of Jesus, 2004 (minimal facts defended via hostile/non-evangelical witnesses)",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "I think if I have non-evangelical saying those things, that that interests me",
+            "why": "Same hostile-witness strategy as prior art, but with a fresh roster of names and quotes."
+          },
+          "or2": {
+            "v": 2,
+            "quote": "Lüdemann says the preaching of the resurrection appearances happened immediately.",
+            "why": "Brings specific non-evangelical testimony (Dunn, Ehrman, Lüdemann) as data."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain connection."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formal structure."
+          }
+        },
+        "weakest_link": "P3 rests on Dunn's hedged 'probably/may have been' dating, which is weaker than the conclusion implies.",
+        "develop_next": "Give the exact Dunn citation and page for the months-later creedal dating.",
+        "case_map": [
+          "K15",
+          "K16"
+        ],
+        "domain": "history"
+      },
+      {
+        "id": "G4",
+        "name": "Ancient historians reported supernatural events",
+        "conclusion": "The objection that historians do not report supernatural events is undermined by the practice of respected ancient historians like Herodotus, Tacitus, and Suetonius.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1: Herodotus, Tacitus, and Suetonius all report supernatural events in their histories.",
+          "P2: Suetonius, a well-accepted Roman historian, lists more supernatural things than the Gospels.",
+          "P3: Tacitus had special interests in certain types of miracles, especially those attributed to Caesars.",
+          "P4: Therefore, critics should check ancient sources before claiming historians avoid the supernatural."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "So, when people say historians don't do that stuff, well, check your ancient sources first."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "Suetonius is a well-known Roman historian, well accepted. His book 12 Caesars. He He lists more supernatural things."
+          },
+          "st3": {
+            "v": 1,
+            "quote": "Tacitus reports very few supernatural events. Uh several."
+          },
+          "st4": {
+            "v": 1,
+            "quote": "Look at Herodotus. Look at Tacitus. Look at Suetonius before you say they don't do that stuff."
+          },
+          "st5": {
+            "v": 1,
+            "quote": "Well, yeah, they did. Well, they were stupid. That was a long time ago."
+          },
+          "st6": {
+            "v": 1,
+            "quote": "Tacitus reports very few supernatural events."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 2,
+            "quote": "Look at Herodotus. Look at Tacitus. Look at Suetonius"
+          },
+          "prior_art": "None known (common apologetic point about ancient historians and the supernatural, e.g. Craig Keener, Miracles, 2011)"
+        },
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "when people say historians don't do that stuff, well, check your ancient sources first",
+            "why": "A familiar apologetic move but here applied as a rebuttal with named historians."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "Suetonius same time period about 118 AD few years after the Gospel of John traditionally written.",
+            "why": "Adds the Suetonius 12 Caesars comparison as data."
+          },
+          "or3": {
+            "v": 1,
+            "quote": "Tacitus is famous for that.",
+            "why": "Connects Roman historiography to Gospel reliability, a mild cross-domain link."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formal structure."
+          }
+        },
+        "weakest_link": "P2's claim that Suetonius 'lists more supernatural things' than the Gospels is asserted without counts or citations.",
+        "develop_next": "Provide the specific Suetonius and Tacitus passages with citations so the comparison can be checked.",
+        "case_map": [
+          "K15"
+        ],
+        "domain": "history"
+      },
+      {
+        "id": "G5",
+        "name": "No scholarly consensus percentage requirement",
+        "conclusion": "Habermas has never required a specific percentage of scholarly consensus (e.g., 90%) for a fact to qualify as a minimal fact.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1: Habermas has never counted scholars except for the empty tomb study.",
+          "P2: He has never stated that a certain percentage is required.",
+          "P3: If he had numbers, he would proclaim them, but he does not.",
+          "P4: He reports where scholars stand across the board, not exact percentages."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "I've never required a percent."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "If I say that, I mean that's how it sounds to me. Here's the point. I've never counted."
+          },
+          "st3": {
+            "v": 1,
+            "quote": "if I want to say 90%, I should have numbers already for you, but I don't"
+          },
+          "st4": {
+            "v": 2,
+            "quote": "how can I say it's got to meet this percentage if I don't know the percentage because I've never counted"
+          },
+          "st5": {
+            "v": 1,
+            "quote": "they could be upset with me for not doing something else"
+          },
+          "st6": {
+            "v": 2,
+            "quote": "I'm reporting where people are across the board, not telling you who's in which camps."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 1,
+            "quote": "If I If I If I'm this numbers guy who want to prove everything with numbers, if I want to say 90%, I should have numbers already for you, but I don't."
+          }
+        },
+        "prior_art": "Gary Habermas, The Minimal Facts Approach (scholarly-consensus criterion)",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "I've never required a percent.",
+            "why": "A clarification/variant of the minimal-facts consensus criterion rather than a new argument."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "The only time I've done that is the empty tomb.",
+            "why": "Adds the empty-tomb exception as supporting detail."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain connection."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formal structure."
+          }
+        },
+        "weakest_link": "P3 ('if he had numbers he would proclaim them') is an inference about his own motives, not evidence.",
+        "develop_next": "Quote the exact volume-three passage disclaiming percentages to document the claim.",
+        "case_map": [
+          "K15"
+        ],
+        "domain": "history"
+      },
+      {
+        "id": "G6",
+        "name": "Criterion one is sufficient for rational belief",
+        "conclusion": "The first criterion—that a fact is highly evidenced—is by far the more important and is alone sufficient for rational belief.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1: Criterion one is 'by far the more important of the two.'",
+          "P2: Habermas estimates it constitutes 85-90% of the case.",
+          "P3: If one accepts 51% as sufficient, then 85-90% probability would certainly be sufficient."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "In terms of having a a rational belief, with these two criteria, you've kind of said that criterion one on its own, that it being highly evidenced, that alone is sufficient for a rational belief."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "This sounds stupid for me to say that in my mind number one would be 90 or 85% of the game."
+          },
+          "st3": {
+            "v": 1,
+            "quote": "If I've got that much probability, golly, you're the guy that accepts 51. You'd be happy with 85 or 90, right?"
+          },
+          "st4": {
+            "v": 1,
+            "quote": "If you want me to give percentages, I'd say number one is I got to think about this."
+          },
+          "st5": {
+            "v": 0,
+            "quote": ""
+          },
+          "st6": {
+            "v": 1,
+            "quote": "This sounds stupid for me to say that in my mind number one would be 90 or 85% of the game."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 0,
+            "quote": ""
+          }
+        },
+        "prior_art": "Gary Habermas, The Minimal Facts Approach (two-criteria structure)",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "This sounds stupid for me to say that in my mind number one would be 90 or 85% of the game.",
+            "why": "A variant of the minimal-facts criteria weighting, here with an informal percentage estimate."
+          },
+          "or2": {
+            "v": 0,
+            "quote": "",
+            "why": "No new external evidence."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain connection."
+          },
+          "or4": {
+            "v": 1,
+            "quote": "number one would be 90 or 85% of the game",
+            "why": "Adds a rough weighting model not found in the prior art."
+          }
+        },
+        "weakest_link": "The 85-90% weighting is an off-the-cuff estimate with no basis, and 'sufficient for rational belief' is not defended.",
+        "develop_next": "Give a principled account of why high evidence alone suffices for rational belief without consensus.",
+        "case_map": [
+          "K15"
+        ],
+        "domain": "philosophy"
+      }
+    ]
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "grade_b",
+      "attempt": 1,
+      "text": "{\"arguments\": [\n {\"id\": \"G1\", \"name\": \"No fixed numerical evidential threshold\", \"conclusion\": \"There is no specific percentage or numerical threshold that evidence must meet to qualify as 'highly evidenced' for resurrection belief.\", \"speaker\": \"Gary Habermas\", \"premises\": [\"P1: Habermas has never counted scholars or assigned percentages except for his own study on the empty tomb.\", \"P2: Assigning a number would be misused by critics to claim he requires that percentage.\", \"P3: Historians typically use qualitative categories (e.g., very probable, beyond reasonable doubt) rather than percentages.\", \"P4: The strength of evidence is better measured by the presence of multiple attestation, eyewitness testimony, and early sources than by a numerical count.\"], \"strength\": {\"st1\": {\"v\": 2, \"quote\": \"But I do not have a certain threshold that they have to have to meet.\"}, \"st2\": {\"v\": 2, \"quote\": \"I've never counted. Except the empty tomb, and it's not one of the six, I never counted.\"}, \"st3\": {\"v\": 1, \"quote\": \"I've never counted those who think I'm playing fast and loose the only thing I can remember ever counting and giving a head count was my own study and on the empty tomb\"}, \"st4\": {\"v\": 2, \"quote\": \"how can I say it's got to meet this percentage if I don't know the percentage because I've never counted\"}, \"st5\": {\"v\": 1, \"quote\": \"They're going to go, \\\"See, he means 80 for those guys he put that what I mean is they'll either mistake honestly mistake the number or purposely mistake the number\\\"\"}, \"st6\": {\"v\": 2, \"quote\": \"At no point do I ever say I need this many evidences.\"}, \"st7\": {\"v\": 0, \"quote\": \"\"}, \"st8\": {\"v\": 1, \"quote\": \"They don't give percentages per se, but they they have these categories like it's very probable or proven beyond reasonable doubt\"}}, \"prior_art\": \"Gary Habermas, The Minimal Facts Approach (defended across his published work, e.g. The Risen Jesus and Future Hope, 2003)\", \"originality\": {\"or1\": {\"v\": 1, \"quote\": \"But I do not have a certain threshold that they have to have to meet.\", \"why\": \"This is a clarification/internal defense of the minimal-facts method rather than a new argument; it is a variant of Habermas's longstanding denial of a fixed threshold.\"}, \"or2\": {\"v\": 1, \"quote\": \"the only thing I can remember ever counting and giving a head count was my own study and on the empty tomb\", \"why\": \"Adds autobiographical detail about his counting practice, but no new external evidence.\"}, \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain connection.\"}, \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization or model.\"}}, \"weakest_link\": \"P2 is a psychological prediction about critics' misuse rather than a reason the threshold claim is true.\", \"develop_next\": \"State explicitly what qualitative threshold distinguishes 'highly evidenced' from merely 'evidenced'.\", \"case_map\": [\"K15\"], \"domain\": \"history\"},\n {\"id\": \"G2\", \"name\": \"Multiple attestation, eyewitness, and early sources make a strong case\", \"conclusion\": \"A strong historical argument for the resurrection is made by having several categories of evidence—multiple attestation, eyewitness testimony, and early sources—rather than a specific number of evidences.\", \"speaker\": \"Gary Habermas\", \"premises\": [\"P1: Multiple attestation is widely regarded as the best evidence for documents.\", \"P2: Eyewitness testimony (e.g., Paul) and early creedal accounts are strong evidences.\", \"P3: Having several such categories constitutes a strong argument.\", \"P4: Habermas prefers stronger categories of data over weaker ones, even if fewer names support them.\"], \"strength\": {\"st1\": {\"v\": 2, \"quote\": \"I'd say if I have multiple attestation, eyewitness, and early sources, that's not a list of names, that's a list of categories. And I think those categories to have several of those makes a strong argument.\"}, \"st2\": {\"v\": 2, \"quote\": \"many many commentators have said that multiple attestation is the best evidence for documents\"}, \"st3\": {\"v\": 1, \"quote\": \"if we can use eyewitnesses, if we have early accounts like in the creeds, yeah, those are great evidences\"}, \"st4\": {\"v\": 1, \"quote\": \"So, after a while, I don't measure by how many do I have. I measure by do I have a fair number of multiple attestation?\"}, \"st5\": {\"v\": 1, \"quote\": \"Now, critics are going to say, \\\"I despise 16, 18, and probably 20.\\\" Okay, I get that.\"}, \"st6\": {\"v\": 2, \"quote\": \"I would go for the stronger reasons, not the lesser reasons.\"}, \"st7\": {\"v\": 0, \"quote\": \"\"}, \"st8\": {\"v\": 2, \"quote\": \"if I have multiple attestation, eyewitness, and early sources, that's not a list of names, that's a list of categories\"}}, \"prior_art\": \"Gary Habermas, The Minimal Facts Approach (criteria of multiple attestation, eyewitness, early sources)\", \"originality\": {\"or1\": {\"v\": 0, \"quote\": \"many many commentators have said that multiple attestation is the best evidence for documents\", \"why\": \"This is the standard historiographical criteria Habermas already uses; essentially a restatement.\"}, \"or2\": {\"v\": 0, \"quote\": \"\", \"why\": \"No new evidence introduced.\"}, \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain connection.\"}, \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formal structure.\"}}, \"weakest_link\": \"The move from 'several categories present' to 'strong argument' is asserted without a stated threshold for how many or how strong.\", \"develop_next\": \"Specify how many categories and what quality of attestation are needed before the case counts as strong.\", \"case_map\": [\"K15\"], \"domain\": \"history\"},\n {\"id\": \"G3\", \"name\": \"Non-evangelical scholars support key minimal facts\", \"conclusion\": \"The testimony of non-evangelical scholars like Jimmy Dunn and Bart Ehrman strengthens the case for the minimal facts, particularly the disciples' experiences of the risen Jesus and the early dating of creedal statements.\", \"speaker\": \"Gary Habermas\", \"premises\": [\"P1: Jimmy Dunn, a non-evangelical scholar, strongly affirms the abundance of sources for the preaching of the resurrection appearances.\", \"P2: Bart Ehrman agrees it is a historical fact that the disciples thought they saw the risen Jesus.\", \"P3: Dunn suggests the creedal statements in 1 Corinthians 15 and Romans 10:9 may have originated within months of the crucifixion.\", \"P4: Gerd Lüdemann, an atheist New Testament scholar, says the preaching of the resurrection began immediately.\"], \"strength\": {\"st1\": {\"v\": 2, \"quote\": \"I think if I have non-evangelical saying those things, that that interests me\"}, \"st2\": {\"v\": 2, \"quote\": \"He said, \\\"But they thought they saw the risen Jesus.\\\" He said, \\\"I don't disagree with this because it's a fact of history.\\\"\"}, \"st3\": {\"v\": 2, \"quote\": \"Lüdemann says the preaching of the resurrection appearances happened immediately.\"}, \"st4\": {\"v\": 1, \"quote\": \"And Jimmy Dunn, there's very few people better. He he seems like he's it sounds like he's saying the original creedal statements could have come that first year.\"}, \"st5\": {\"v\": 1, \"quote\": \"You're not going to find my notes around here I got I got mounds I got feet and feet and feet of sources for this thing 3,700 pages.\"}, \"st6\": {\"v\": 1, \"quote\": \"He says it was probably or may have been or likely had been, he says in different ways, out within months.\"}, \"st7\": {\"v\": 0, \"quote\": \"\"}, \"st8\": {\"v\": 2, \"quote\": \"I got to be able to say those things without being you know, that's somebody from your home church or your denomi-\"}}, \"prior_art\": \"Gary Habermas and Michael Licona, The Case for the Resurrection of Jesus, 2004 (minimal facts defended via hostile/non-evangelical witnesses)\", \"originality\": {\"or1\": {\"v\": 1, \"quote\": \"I think if I have non-evangelical saying those things, that that interests me\", \"why\": \"Same hostile-witness strategy as prior art, but with a fresh roster of names and quotes.\"}, \"or2\": {\"v\": 2, \"quote\": \"Lüdemann says the preaching of the resurrection appearances happened immediately.\", \"why\": \"Brings specific non-evangelical testimony (Dunn, Ehrman, Lüdemann) as data.\"}, \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain connection.\"}, \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formal structure.\"}}, \"weakest_link\": \"P3 rests on Dunn's hedged 'probably/may have been' dating, which is weaker than the conclusion implies.\", \"develop_next\": \"Give the exact Dunn citation and page for the months-later creedal dating.\", \"case_map\": [\"K15\", \"K16\"], \"domain\": \"history\"},\n {\"id\": \"G4\", \"name\": \"Ancient historians reported supernatural events\", \"conclusion\": \"The objection that historians do not report supernatural events is undermined by the practice of respected ancient historians like Herodotus, Tacitus, and Suetonius.\", \"speaker\": \"Gary Habermas\", \"premises\": [\"P1: Herodotus, Tacitus, and Suetonius all report supernatural events in their histories.\", \"P2: Suetonius, a well-accepted Roman historian, lists more supernatural things than the Gospels.\", \"P3: Tacitus had special interests in certain types of miracles, especially those attributed to Caesars.\", \"P4: Therefore, critics should check ancient sources before claiming historians avoid the supernatural.\"], \"strength\": {\"st1\": {\"v\": 2, \"quote\": \"So, when people say historians don't do that stuff, well, check your ancient sources first.\"}, \"st2\": {\"v\": 2, \"quote\": \"Suetonius is a well-known Roman historian, well accepted. His book 12 Caesars. He He lists more supernatural things.\"}, \"st3\": {\"v\": 1, \"quote\": \"Tacitus reports very few supernatural events. Uh several.\"}, \"st4\": {\"v\": 1, \"quote\": \"Look at Herodotus. Look at Tacitus. Look at Suetonius before you say they don't do that stuff.\"}, \"st5\": {\"v\": 1, \"quote\": \"Well, yeah, they did. Well, they were stupid. That was a long time ago.\"}, \"st6\": {\"v\": 1, \"quote\": \"Tacitus reports very few supernatural events.\"}, \"st7\": {\"v\": 0, \"quote\": \"\"}, \"st8\": {\"v\": 2, \"quote\": \"Look at Herodotus. Look at Tacitus. Look at Suetonius\"}, \"prior_art\": \"None known (common apologetic point about ancient historians and the supernatural, e.g. Craig Keener, Miracles, 2011)\", \"originality\": {\"or1\": {\"v\": 1, \"quote\": \"when people say historians don't do that stuff, well, check your ancient sources first\", \"why\": \"A familiar apologetic move but here applied as a rebuttal with named historians.\"}, \"or2\": {\"v\": 1, \"quote\": \"Suetonius same time period about 118 AD few years after the Gospel of John traditionally written.\", \"why\": \"Adds the Suetonius 12 Caesars comparison as data.\"}, \"or3\": {\"v\": 1, \"quote\": \"Tacitus is famous for that.\", \"why\": \"Connects Roman historiography to Gospel reliability, a mild cross-domain link.\"}, \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formal structure.\"}}, \"weakest_link\": \"P2's claim that Suetonius 'lists more supernatural things' than the Gospels is asserted without counts or citations.\", \"develop_next\": \"Provide the specific Suetonius and Tacitus passages with citations so the comparison can be checked.\", \"case_map\": [\"K15\"], \"domain\": \"history\"},\n {\"id\": \"G5\", \"name\": \"No scholarly consensus percentage requirement\", \"conclusion\": \"Habermas has never required a specific percentage of scholarly consensus (e.g., 90%) for a fact to qualify as a minimal fact.\", \"speaker\": \"Gary Habermas\", \"premises\": [\"P1: Habermas has never counted scholars except for the empty tomb study.\", \"P2: He has never stated that a certain percentage is required.\", \"P3: If he had numbers, he would proclaim them, but he does not.\", \"P4: He reports where scholars stand across the board, not exact percentages.\"], \"strength\": {\"st1\": {\"v\": 2, \"quote\": \"I've never required a percent.\"}, \"st2\": {\"v\": 2, \"quote\": \"If I say that, I mean that's how it sounds to me. Here's the point. I've never counted.\"}, \"st3\": {\"v\": 1, \"quote\": \"if I want to say 90%, I should have numbers already for you, but I don't\"}, \"st4\": {\"v\": 2, \"quote\": \"how can I say it's got to meet this percentage if I don't know the percentage because I've never counted\"}, \"st5\": {\"v\": 1, \"quote\": \"they could be upset with me for not doing something else\"}, \"st6\": {\"v\": 2, \"quote\": \"I'm reporting where people are across the board, not telling you who's in which camps.\"}, \"st7\": {\"v\": 0, \"quote\": \"\"}, \"st8\": {\"v\": 1, \"quote\": \"If I If I If I'm this numbers guy who want to prove everything with numbers, if I want to say 90%, I should have numbers already for you, but I don't.\"}}, \"prior_art\": \"Gary Habermas, The Minimal Facts Approach (scholarly-consensus criterion)\", \"originality\": {\"or1\": {\"v\": 1, \"quote\": \"I've never required a percent.\", \"why\": \"A clarification/variant of the minimal-facts consensus criterion rather than a new argument.\"}, \"or2\": {\"v\": 1, \"quote\": \"The only time I've done that is the empty tomb.\", \"why\": \"Adds the empty-tomb exception as supporting detail.\"}, \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain connection.\"}, \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formal structure.\"}}, \"weakest_link\": \"P3 ('if he had numbers he would proclaim them') is an inference about his own motives, not evidence.\", \"develop_next\": \"Quote the exact volume-three passage disclaiming percentages to document the claim.\", \"case_map\": [\"K15\"], \"domain\": \"history\"},\n {\"id\": \"G6\", \"name\": \"Criterion one is sufficient for rational belief\", \"conclusion\": \"The first criterion—that a fact is highly evidenced—is by far the more important and is alone sufficient for rational belief.\", \"speaker\": \"Gary Habermas\", \"premises\": [\"P1: Criterion one is 'by far the more important of the two.'\", \"P2: Habermas estimates it constitutes 85-90% of the case.\", \"P3: If one accepts 51% as sufficient, then 85-90% probability would certainly be sufficient.\"], \"strength\": {\"st1\": {\"v\": 2, \"quote\": \"In terms of having a a rational belief, with these two criteria, you've kind of said that criterion one on its own, that it being highly evidenced, that alone is sufficient for a rational belief.\"}, \"st2\": {\"v\": 2, \"quote\": \"This sounds stupid for me to say that in my mind number one would be 90 or 85% of the game.\"}, \"st3\": {\"v\": 1, \"quote\": \"If I've got that much probability, golly, you're the guy that accepts 51. You'd be happy with 85 or 90, right?\"}, \"st4\": {\"v\": 1, \"quote\": \"If you want me to give percentages, I'd say number one is I got to think about this.\"}, \"st5\": {\"v\": 0, \"quote\": \"\"}, \"st6\": {\"v\": 1, \"quote\": \"This sounds stupid for me to say that in my mind number one would be 90 or 85% of the game.\"}, \"st7\": {\"v\": 0, \"quote\": \"\"}, \"st8\": {\"v\": 0, \"quote\": \"\"}}, \"prior_art\": \"Gary Habermas, The Minimal Facts Approach (two-criteria structure)\", \"originality\": {\"or1\": {\"v\": 1, \"quote\": \"This sounds stupid for me to say that in my mind number one would be 90 or 85% of the game.\", \"why\": \"A variant of the minimal-facts criteria weighting, here with an informal percentage estimate.\"}, \"or2\": {\"v\": 0, \"quote\": \"\", \"why\": \"No new external evidence.\"}, \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain connection.\"}, \"or4\": {\"v\": 1, \"quote\": \"number one would be 90 or 85% of the game\", \"why\": \"Adds a rough weighting model not found in the prior art.\"}}, \"weakest_link\": \"The 85-90% weighting is an off-the-cuff estimate with no basis, and 'sufficient for rational belief' is not defended.\", \"develop_next\": \"Give a principled account of why high evidence alone suffices for rational belief without consensus.\", \"case_map\": [\"K15\"], \"domain\": \"philosophy\"}\n]}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 6641,
+      "completion_tokens": 4182,
+      "attempts": 1,
+      "elapsed_seconds": 14.453000000001339,
+      "started_at": "2026-09-27T19:27:52.925807+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T19:28:07.378064+00:00",
+      "tokens": 10823
+    },
+    {
+      "part": "grade_b",
+      "attempt": 2,
+      "text": "{\"arguments\": [\n {\"id\": \"G1\", \"name\": \"No fixed numerical evidential threshold\", \"conclusion\": \"There is no specific percentage or numerical threshold that evidence must meet to qualify as 'highly evidenced' for resurrection belief.\", \"speaker\": \"Gary Habermas\", \"premises\": [\"P1: Habermas has never counted scholars or assigned percentages except for his own study on the empty tomb.\", \"P2: Assigning a number would be misused by critics to claim he requires that percentage.\", \"P3: Historians typically use qualitative categories (e.g., very probable, beyond reasonable doubt) rather than percentages.\", \"P4: The strength of evidence is better measured by the presence of multiple attestation, eyewitness testimony, and early sources than by a numerical count.\"], \"strength\": {\"st1\": {\"v\": 2, \"quote\": \"But I do not have a certain threshold that they have to have to meet.\"}, \"st2\": {\"v\": 2, \"quote\": \"I've never counted. Except the empty tomb, and it's not one of the six, I never counted.\"}, \"st3\": {\"v\": 1, \"quote\": \"I've never counted those who think I'm playing fast and loose the only thing I can remember ever counting and giving a head count was my own study and on the empty tomb\"}, \"st4\": {\"v\": 2, \"quote\": \"how can I say it's got to meet this percentage if I don't know the percentage because I've never counted\"}, \"st5\": {\"v\": 1, \"quote\": \"They're going to go, \\\"See, he means 80 for those guys he put that what I mean is they'll either mistake honestly mistake the number or purposely mistake the number\\\"\"}, \"st6\": {\"v\": 2, \"quote\": \"At no point do I ever say I need this many evidences.\"}, \"st7\": {\"v\": 0, \"quote\": \"\"}, \"st8\": {\"v\": 1, \"quote\": \"They don't give percentages per se, but they they have these categories like it's very probable or proven beyond reasonable doubt\"}}, \"prior_art\": \"Gary Habermas, The Minimal Facts Approach (defended across his published work, e.g. The Risen Jesus and Future Hope, 2003)\", \"originality\": {\"or1\": {\"v\": 1, \"quote\": \"But I do not have a certain threshold that they have to have to meet.\", \"why\": \"This is a clarification/internal defense of the minimal-facts method rather than a new argument; it is a variant of Habermas's longstanding denial of a fixed threshold.\"}, \"or2\": {\"v\": 1, \"quote\": \"the only thing I can remember ever counting and giving a head count was my own study and on the empty tomb\", \"why\": \"Adds autobiographical detail about his counting practice, but no new external evidence.\"}, \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain connection.\"}, \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization or model.\"}}, \"weakest_link\": \"P2 is a psychological prediction about critics' misuse rather than a reason the threshold claim is true.\", \"develop_next\": \"State explicitly what qualitative threshold distinguishes 'highly evidenced' from merely 'evidenced'.\", \"case_map\": [\"K15\"], \"domain\": \"history\"},\n {\"id\": \"G2\", \"name\": \"Multiple attestation, eyewitness, and early sources make a strong case\", \"conclusion\": \"A strong historical argument for the resurrection is made by having several categories of evidence—multiple attestation, eyewitness testimony, and early sources—rather than a specific number of evidences.\", \"speaker\": \"Gary Habermas\", \"premises\": [\"P1: Multiple attestation is widely regarded as the best evidence for documents.\", \"P2: Eyewitness testimony (e.g., Paul) and early creedal accounts are strong evidences.\", \"P3: Having several such categories constitutes a strong argument.\", \"P4: Habermas prefers stronger categories of data over weaker ones, even if fewer names support them.\"], \"strength\": {\"st1\": {\"v\": 2, \"quote\": \"I'd say if I have multiple attestation, eyewitness, and early sources, that's not a list of names, that's a list of categories. And I think those categories to have several of those makes a strong argument.\"}, \"st2\": {\"v\": 2, \"quote\": \"many many commentators have said that multiple attestation is the best evidence for documents\"}, \"st3\": {\"v\": 1, \"quote\": \"if we can use eyewitnesses, if we have early accounts like in the creeds, yeah, those are great evidences\"}, \"st4\": {\"v\": 1, \"quote\": \"So, after a while, I don't measure by how many do I have. I measure by do I have a fair number of multiple attestation?\"}, \"st5\": {\"v\": 1, \"quote\": \"Now, critics are going to say, \\\"I despise 16, 18, and probably 20.\\\" Okay, I get that.\"}, \"st6\": {\"v\": 2, \"quote\": \"I would go for the stronger reasons, not the lesser reasons.\"}, \"st7\": {\"v\": 0, \"quote\": \"\"}, \"st8\": {\"v\": 2, \"quote\": \"if I have multiple attestation, eyewitness, and early sources, that's not a list of names, that's a list of categories\"}}, \"prior_art\": \"Gary Habermas, The Minimal Facts Approach (criteria of multiple attestation, eyewitness, early sources)\", \"originality\": {\"or1\": {\"v\": 0, \"quote\": \"many many commentators have said that multiple attestation is the best evidence for documents\", \"why\": \"This is the standard historiographical criteria Habermas already uses; essentially a restatement.\"}, \"or2\": {\"v\": 0, \"quote\": \"\", \"why\": \"No new evidence introduced.\"}, \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain connection.\"}, \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formal structure.\"}}, \"weakest_link\": \"The move from 'several categories present' to 'strong argument' is asserted without a stated threshold for how many or how strong.\", \"develop_next\": \"Specify how many categories and what quality of attestation are needed before the case counts as strong.\", \"case_map\": [\"K15\"], \"domain\": \"history\"},\n {\"id\": \"G3\", \"name\": \"Non-evangelical scholars support key minimal facts\", \"conclusion\": \"The testimony of non-evangelical scholars like Jimmy Dunn and Bart Ehrman strengthens the case for the minimal facts, particularly the disciples' experiences of the risen Jesus and the early dating of creedal statements.\", \"speaker\": \"Gary Habermas\", \"premises\": [\"P1: Jimmy Dunn, a non-evangelical scholar, strongly affirms the abundance of sources for the preaching of the resurrection appearances.\", \"P2: Bart Ehrman agrees it is a historical fact that the disciples thought they saw the risen Jesus.\", \"P3: Dunn suggests the creedal statements in 1 Corinthians 15 and Romans 10:9 may have originated within months of the crucifixion.\", \"P4: Gerd Lüdemann, an atheist New Testament scholar, says the preaching of the resurrection began immediately.\"], \"strength\": {\"st1\": {\"v\": 2, \"quote\": \"I think if I have non-evangelical saying those things, that that interests me\"}, \"st2\": {\"v\": 2, \"quote\": \"He said, \\\"But they thought they saw the risen Jesus.\\\" He said, \\\"I don't disagree with this because it's a fact of history.\\\"\"}, \"st3\": {\"v\": 2, \"quote\": \"Lüdemann says the preaching of the resurrection appearances happened immediately.\"}, \"st4\": {\"v\": 1, \"quote\": \"And Jimmy Dunn, there's very few people better. He he seems like he's it sounds like he's saying the original creedal statements could have come that first year.\"}, \"st5\": {\"v\": 1, \"quote\": \"You're not going to find my notes around here I got I got mounds I got feet and feet and feet of sources for this thing 3,700 pages.\"}, \"st6\": {\"v\": 1, \"quote\": \"He says it was probably or may have been or likely had been, he says in different ways, out within months.\"}, \"st7\": {\"v\": 0, \"quote\": \"\"}, \"st8\": {\"v\": 2, \"quote\": \"I got to be able to say those things without being you know, that's somebody from your home church or your denomi-\"}}, \"prior_art\": \"Gary Habermas and Michael Licona, The Case for the Resurrection of Jesus, 2004 (minimal facts defended via hostile/non-evangelical witnesses)\", \"originality\": {\"or1\": {\"v\": 1, \"quote\": \"I think if I have non-evangelical saying those things, that that interests me\", \"why\": \"Same hostile-witness strategy as prior art, but with a fresh roster of names and quotes.\"}, \"or2\": {\"v\": 2, \"quote\": \"Lüdemann says the preaching of the resurrection appearances happened immediately.\", \"why\": \"Brings specific non-evangelical testimony (Dunn, Ehrman, Lüdemann) as data.\"}, \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain connection.\"}, \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formal structure.\"}}, \"weakest_link\": \"P3 rests on Dunn's hedged 'probably/may have been' dating, which is weaker than the conclusion implies.\", \"develop_next\": \"Give the exact Dunn citation and page for the months-later creedal dating.\", \"case_map\": [\"K15\", \"K16\"], \"domain\": \"history\"},\n {\"id\": \"G4\", \"name\": \"Ancient historians reported supernatural events\", \"conclusion\": \"The objection that historians do not report supernatural events is undermined by the practice of respected ancient historians like Herodotus, Tacitus, and Suetonius.\", \"speaker\": \"Gary Habermas\", \"premises\": [\"P1: Herodotus, Tacitus, and Suetonius all report supernatural events in their histories.\", \"P2: Suetonius, a well-accepted Roman historian, lists more supernatural things than the Gospels.\", \"P3: Tacitus had special interests in certain types of miracles, especially those attributed to Caesars.\", \"P4: Therefore, critics should check ancient sources before claiming historians avoid the supernatural.\"], \"strength\": {\"st1\": {\"v\": 2, \"quote\": \"So, when people say historians don't do that stuff, well, check your ancient sources first.\"}, \"st2\": {\"v\": 2, \"quote\": \"Suetonius is a well-known Roman historian, well accepted. His book 12 Caesars. He He lists more supernatural things.\"}, \"st3\": {\"v\": 1, \"quote\": \"Tacitus reports very few supernatural events. Uh several.\"}, \"st4\": {\"v\": 1, \"quote\": \"Look at Herodotus. Look at Tacitus. Look at Suetonius before you say they don't do that stuff.\"}, \"st5\": {\"v\": 1, \"quote\": \"Well, yeah, they did. Well, they were stupid. That was a long time ago.\"}, \"st6\": {\"v\": 1, \"quote\": \"Tacitus reports very few supernatural events.\"}, \"st7\": {\"v\": 0, \"quote\": \"\"}, \"st8\": {\"v\": 2, \"quote\": \"Look at Herodotus. Look at Tacitus. Look at Suetonius\"}, \"prior_art\": \"None known (common apologetic point about ancient historians and the supernatural, e.g. Craig Keener, Miracles, 2011)\"}, \"originality\": {\"or1\": {\"v\": 1, \"quote\": \"when people say historians don't do that stuff, well, check your ancient sources first\", \"why\": \"A familiar apologetic move but here applied as a rebuttal with named historians.\"}, \"or2\": {\"v\": 1, \"quote\": \"Suetonius same time period about 118 AD few years after the Gospel of John traditionally written.\", \"why\": \"Adds the Suetonius 12 Caesars comparison as data.\"}, \"or3\": {\"v\": 1, \"quote\": \"Tacitus is famous for that.\", \"why\": \"Connects Roman historiography to Gospel reliability, a mild cross-domain link.\"}, \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formal structure.\"}}, \"weakest_link\": \"P2's claim that Suetonius 'lists more supernatural things' than the Gospels is asserted without counts or citations.\", \"develop_next\": \"Provide the specific Suetonius and Tacitus passages with citations so the comparison can be checked.\", \"case_map\": [\"K15\"], \"domain\": \"history\"},\n {\"id\": \"G5\", \"name\": \"No scholarly consensus percentage requirement\", \"conclusion\": \"Habermas has never required a specific percentage of scholarly consensus (e.g., 90%) for a fact to qualify as a minimal fact.\", \"speaker\": \"Gary Habermas\", \"premises\": [\"P1: Habermas has never counted scholars except for the empty tomb study.\", \"P2: He has never stated that a certain percentage is required.\", \"P3: If he had numbers, he would proclaim them, but he does not.\", \"P4: He reports where scholars stand across the board, not exact percentages.\"], \"strength\": {\"st1\": {\"v\": 2, \"quote\": \"I've never required a percent.\"}, \"st2\": {\"v\": 2, \"quote\": \"If I say that, I mean that's how it sounds to me. Here's the point. I've never counted.\"}, \"st3\": {\"v\": 1, \"quote\": \"if I want to say 90%, I should have numbers already for you, but I don't\"}, \"st4\": {\"v\": 2, \"quote\": \"how can I say it's got to meet this percentage if I don't know the percentage because I've never counted\"}, \"st5\": {\"v\": 1, \"quote\": \"they could be upset with me for not doing something else\"}, \"st6\": {\"v\": 2, \"quote\": \"I'm reporting where people are across the board, not telling you who's in which camps.\"}, \"st7\": {\"v\": 0, \"quote\": \"\"}, \"st8\": {\"v\": 1, \"quote\": \"If I If I If I'm this numbers guy who want to prove everything with numbers, if I want to say 90%, I should have numbers already for you, but I don't.\"}}, \"prior_art\": \"Gary Habermas, The Minimal Facts Approach (scholarly-consensus criterion)\", \"originality\": {\"or1\": {\"v\": 1, \"quote\": \"I've never required a percent.\", \"why\": \"A clarification/variant of the minimal-facts consensus criterion rather than a new argument.\"}, \"or2\": {\"v\": 1, \"quote\": \"The only time I've done that is the empty tomb.\", \"why\": \"Adds the empty-tomb exception as supporting detail.\"}, \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain connection.\"}, \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formal structure.\"}}, \"weakest_link\": \"P3 ('if he had numbers he would proclaim them') is an inference about his own motives, not evidence.\", \"develop_next\": \"Quote the exact volume-three passage disclaiming percentages to document the claim.\", \"case_map\": [\"K15\"], \"domain\": \"history\"},\n {\"id\": \"G6\", \"name\": \"Criterion one is sufficient for rational belief\", \"conclusion\": \"The first criterion—that a fact is highly evidenced—is by far the more important and is alone sufficient for rational belief.\", \"speaker\": \"Gary Habermas\", \"premises\": [\"P1: Criterion one is 'by far the more important of the two.'\", \"P2: Habermas estimates it constitutes 85-90% of the case.\", \"P3: If one accepts 51% as sufficient, then 85-90% probability would certainly be sufficient.\"], \"strength\": {\"st1\": {\"v\": 2, \"quote\": \"In terms of having a a rational belief, with these two criteria, you've kind of said that criterion one on its own, that it being highly evidenced, that alone is sufficient for a rational belief.\"}, \"st2\": {\"v\": 2, \"quote\": \"This sounds stupid for me to say that in my mind number one would be 90 or 85% of the game.\"}, \"st3\": {\"v\": 1, \"quote\": \"If I've got that much probability, golly, you're the guy that accepts 51. You'd be happy with 85 or 90, right?\"}, \"st4\": {\"v\": 1, \"quote\": \"If you want me to give percentages, I'd say number one is I got to think about this.\"}, \"st5\": {\"v\": 0, \"quote\": \"\"}, \"st6\": {\"v\": 1, \"quote\": \"This sounds stupid for me to say that in my mind number one would be 90 or 85% of the game.\"}, \"st7\": {\"v\": 0, \"quote\": \"\"}, \"st8\": {\"v\": 0, \"quote\": \"\"}}, \"prior_art\": \"Gary Habermas, The Minimal Facts Approach (two-criteria structure)\", \"originality\": {\"or1\": {\"v\": 1, \"quote\": \"This sounds stupid for me to say that in my mind number one would be 90 or 85% of the game.\", \"why\": \"A variant of the minimal-facts criteria weighting, here with an informal percentage estimate.\"}, \"or2\": {\"v\": 0, \"quote\": \"\", \"why\": \"No new external evidence.\"}, \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain connection.\"}, \"or4\": {\"v\": 1, \"quote\": \"number one would be 90 or 85% of the game\", \"why\": \"Adds a rough weighting model not found in the prior art.\"}}, \"weakest_link\": \"The 85-90% weighting is an off-the-cuff estimate with no basis, and 'sufficient for rational belief' is not defended.\", \"develop_next\": \"Give a principled account of why high evidence alone suffices for rational belief without consensus.\", \"case_map\": [\"K15\"], \"domain\": \"philosophy\"}\n]}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 10865,
+      "completion_tokens": 4183,
+      "attempts": 1,
+      "elapsed_seconds": 11.81300000000192,
+      "started_at": "2026-09-27T19:28:07.378064+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T19:28:19.190719+00:00",
+      "tokens": 15048
+    }
+  ],
+  "prompt_sha256": "a0631646272b206e252d41eb602cd3943a30965421261ea5ac7acfc6b699de89",
+  "tokens": 25871
+}

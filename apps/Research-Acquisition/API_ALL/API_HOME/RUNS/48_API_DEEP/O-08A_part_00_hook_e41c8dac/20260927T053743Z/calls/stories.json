@@ -1,0 +1,160 @@
+{
+  "name": "stories",
+  "parsed": {
+    "type": "json_object",
+    "station": "stories",
+    "paper_uuid": "O-08A_part_00_hook_e41c8dac",
+    "run_uuid": "20260927T053743Z",
+    "stories": [
+      {
+        "story_id": "st-001",
+        "title_or_label": "The Endless Argument (Pick Your Fight)",
+        "story_type": "illustration",
+        "source_span": "P03–P06, S004–S024",
+        "characters_or_agents": [
+          "the reader",
+          "the other side",
+          "the left",
+          "the right",
+          "the libertarians",
+          "Trump",
+          "the system"
+        ],
+        "setting_or_context": "Contemporary political and cultural discourse; a list of live public controversies (immigration, guns, abortion, healthcare, criminal justice, climate, AI, the culture war).",
+        "plot_or_sequence": "The reader is invited to pick any hot-button issue; both sides have argued for years; nothing resolves; arguments grow louder and positions harden; beneath it all lies an unnamed sense that everyone is fighting about the wrong thing; the document then asserts that they are.",
+        "intended_function": "motivate",
+        "claims_illustrated": [
+          "A01",
+          "A02",
+          "A03"
+        ],
+        "emotional_or_rhetorical_load": "High. Uses exhaustion, frustration, and the felt but unnameable suspicion of misdirected conflict to create a hook. Direct second-person address ('You've been arguing...') builds identification.",
+        "boundaries": {
+          "what_it_shows": "That public controversies are numerous, persistent, and unresolved, and that participants often feel the debate is misdirected.",
+          "what_it_does_not_show": "That the debates are actually about a single hidden line, that the line has a mathematical structure, or that an external reference point exists. The felt sense of misdirection is asserted, not demonstrated.",
+          "what_would_falsify_the_narrative": "Evidence that these debates do resolve over time through ordinary political processes, or that participants' sense of misdirection is absent or attributable to unrelated causes."
+        },
+        "evidence_for_historical_content": [],
+        "is_separable_from_argument": false,
+        "notes": "Structurally load-bearing as the hook: it sets up the paper's central claim (A01–A03) by converting reader frustration into a premise. The narrative's persuasive force does not warrant the mathematical claims it introduces."
+      },
+      {
+        "story_id": "st-002",
+        "title_or_label": "The Line and the Point Off the Line",
+        "story_type": "thought_experiment",
+        "source_span": "P07, S025–S030",
+        "characters_or_agents": [
+          "nobody in the argument",
+          "the line",
+          "the point off the line"
+        ],
+        "setting_or_context": "An abstract geometric metaphor for moral and political debate.",
+        "plot_or_sequence": "Every fight is an argument about where to sit on a line; no one knows the line exists; the line has a mathematical structure, an internal constraint making resolution impossible from inside, a repeating cross-civilizational history, and exactly one exit — not a better position on the line but a point off the line entirely.",
+        "intended_function": "explain",
+        "claims_illustrated": [
+          "A02",
+          "A03"
+        ],
+        "emotional_or_rhetorical_load": "Moderate. The geometric image is clarifying and slightly revelatory; it reframes political disagreement as a category error.",
+        "boundaries": {
+          "what_it_shows": "A conceptual model in which internal debate cannot resolve because the resolution lies outside the debate's coordinate system.",
+          "what_it_does_not_show": "That any actual debate has this structure, that the 'line' is mathematical, or that an 'off-line' point is accessible. The metaphor asserts the conclusion it is meant to illustrate.",
+          "what_would_falsify_the_narrative": "A demonstration that moral/political disputes can be resolved from within their own frameworks, or that the proposed external reference point is neither necessary nor accessible."
+        },
+        "evidence_for_historical_content": [],
+        "is_separable_from_argument": true,
+        "notes": "The metaphor is separable from the formal argument but rhetorically prepares the reader to accept A02 and A03 as if the geometry were established."
+      },
+      {
+        "story_id": "st-003",
+        "title_or_label": "The Ten-Point Roadmap",
+        "story_type": "sermon_arc",
+        "source_span": "P09–P11, S038–S061",
+        "characters_or_agents": [
+          "the authors",
+          "the reader",
+          "institutions",
+          "governments",
+          "the population",
+          "the source"
+        ],
+        "setting_or_context": "A structured preview of the document's argument, presented as a numbered progression.",
+        "plot_or_sequence": "Ten claims are enumerated in order: structural good/bad; no self-determined moral direction; necessary external reference point; ordered institutional capture (money, government, education, media, moral language); shame as enforcement since 2015; two-class sorting by connection to truth; recurring pattern across communication technologies; mathematical impossibility of satisfying justice and mercy in a closed system; uniform downward historical trajectory across measurable dimensions; and exactly one historical event that reversed the trajectory without collapse. The ten are then said to form a single structure explaining the reader's fights, their irresolvability, and the required resolution.",
+        "intended_function": "persuade",
+        "claims_illustrated": [
+          "A01",
+          "A02",
+          "A03",
+          "A04",
+          "A05",
+          "A06",
+          "A07",
+          "A08",
+          "A09",
+          "A10"
+        ],
+        "emotional_or_rhetorical_load": "High. The cumulative list creates a sense of comprehensive inevitability; the closing promise ('explains not just the fights you're having, but why you're having them') offers resolution and meaning.",
+        "boundaries": {
+          "what_it_shows": "The intended architecture of the paper's argument and the order in which claims will be defended.",
+          "what_it_does_not_show": "That any of the ten claims are true. The roadmap is a promise of proof, not proof; each item remains an assertion until separately evidenced.",
+          "what_would_falsify_the_narrative": "Failure of any of the ten claims under examination, or a demonstration that they do not cohere into a single structure."
+        },
+        "evidence_for_historical_content": [],
+        "is_separable_from_argument": false,
+        "notes": "This is the paper's structural spine. It is a sermon-like arc: enumeration, promise of coherence, call to follow. The rhetorical force of the list does not transfer warrant to its items."
+      },
+      {
+        "story_id": "st-004",
+        "title_or_label": "The Open Invitation to Break the Argument",
+        "story_type": "other",
+        "source_span": "P12–P14, S062–S067",
+        "characters_or_agents": [
+          "the authors",
+          "the reader",
+          "the evidence"
+        ],
+        "setting_or_context": "A meta-rhetorical frame around the document's epistemic posture.",
+        "plot_or_sequence": "The authors disclaim any demand for belief, ask the reader to follow the argument and check the evidence, invite the reader to show where it breaks, promise to publish the break alongside the argument, and close with the suggestion that if it changes how the reader sees everything, that is between the reader and the evidence.",
+        "intended_function": "persuade",
+        "claims_illustrated": [],
+        "emotional_or_rhetorical_load": "Moderate. Conveys intellectual humility and confidence simultaneously; positions the authors as truth-seekers rather than authorities.",
+        "boundaries": {
+          "what_it_shows": "The authors' stated commitment to falsifiability and openness to criticism.",
+          "what_it_does_not_show": "That the argument is in fact falsifiable in practice, that criticism will be engaged substantively, or that the evidence supports the claims. Stated openness is not evidence of correctness.",
+          "what_would_falsify_the_narrative": "Evidence that the authors do not publish or engage with substantive breaks in the argument, or that the framework is insulated from disconfirmation."
+        },
+        "evidence_for_historical_content": [],
+        "is_separable_from_argument": true,
+        "notes": "Functions as a trust-building device. It is separable from the substantive argument and should not be treated as warrant for any claim."
+      }
+    ],
+    "narrative_arc": {
+      "opening_device": "Second-person enumeration of unresolved political controversies, ending in the felt but unnamed suspicion that everyone is fighting about the wrong thing.",
+      "central_tension": "Persistent, irresolvable public conflict versus the hidden claim that the conflict is misdirected and has a single external resolution.",
+      "resolution_or_payoff": "A promised ten-claim structure that, if it holds, explains the fights, their irresolvability, and the required resolution — deferred to subsequent parts.",
+      "return_to_opening": true
+    },
+    "notes": "This is Part 0 (the hook) of a larger work; it contains no empirical evidence, only framing, enumeration, and an invitation. All ten claims are previewed rather than argued here. The narrative's persuasive power is high and should not be mistaken for warrant. Historical claims (A04, A05, A07, A09, A10) are asserted without supporting evidence in this span and are marked as unverified."
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "stories",
+      "attempt": 1,
+      "text": "{\"type\": \"json_object\", \"station\": \"stories\", \"paper_uuid\": \"O-08A_part_00_hook_e41c8dac\", \"run_uuid\": \"20260927T053743Z\", \"stories\": [{\"story_id\": \"st-001\", \"title_or_label\": \"The Endless Argument (Pick Your Fight)\", \"story_type\": \"illustration\", \"source_span\": \"P03–P06, S004–S024\", \"characters_or_agents\": [\"the reader\", \"the other side\", \"the left\", \"the right\", \"the libertarians\", \"Trump\", \"the system\"], \"setting_or_context\": \"Contemporary political and cultural discourse; a list of live public controversies (immigration, guns, abortion, healthcare, criminal justice, climate, AI, the culture war).\", \"plot_or_sequence\": \"The reader is invited to pick any hot-button issue; both sides have argued for years; nothing resolves; arguments grow louder and positions harden; beneath it all lies an unnamed sense that everyone is fighting about the wrong thing; the document then asserts that they are.\", \"intended_function\": \"motivate\", \"claims_illustrated\": [\"A01\", \"A02\", \"A03\"], \"emotional_or_rhetorical_load\": \"High. Uses exhaustion, frustration, and the felt but unnameable suspicion of misdirected conflict to create a hook. Direct second-person address ('You've been arguing...') builds identification.\", \"boundaries\": {\"what_it_shows\": \"That public controversies are numerous, persistent, and unresolved, and that participants often feel the debate is misdirected.\", \"what_it_does_not_show\": \"That the debates are actually about a single hidden line, that the line has a mathematical structure, or that an external reference point exists. The felt sense of misdirection is asserted, not demonstrated.\", \"what_would_falsify_the_narrative\": \"Evidence that these debates do resolve over time through ordinary political processes, or that participants' sense of misdirection is absent or attributable to unrelated causes.\"}, \"evidence_for_historical_content\": [], \"is_separable_from_argument\": false, \"notes\": \"Structurally load-bearing as the hook: it sets up the paper's central claim (A01–A03) by converting reader frustration into a premise. The narrative's persuasive force does not warrant the mathematical claims it introduces.\"}, {\"story_id\": \"st-002\", \"title_or_label\": \"The Line and the Point Off the Line\", \"story_type\": \"thought_experiment\", \"source_span\": \"P07, S025–S030\", \"characters_or_agents\": [\"nobody in the argument\", \"the line\", \"the point off the line\"], \"setting_or_context\": \"An abstract geometric metaphor for moral and political debate.\", \"plot_or_sequence\": \"Every fight is an argument about where to sit on a line; no one knows the line exists; the line has a mathematical structure, an internal constraint making resolution impossible from inside, a repeating cross-civilizational history, and exactly one exit — not a better position on the line but a point off the line entirely.\", \"intended_function\": \"explain\", \"claims_illustrated\": [\"A02\", \"A03\"], \"emotional_or_rhetorical_load\": \"Moderate. The geometric image is clarifying and slightly revelatory; it reframes political disagreement as a category error.\", \"boundaries\": {\"what_it_shows\": \"A conceptual model in which internal debate cannot resolve because the resolution lies outside the debate's coordinate system.\", \"what_it_does_not_show\": \"That any actual debate has this structure, that the 'line' is mathematical, or that an 'off-line' point is accessible. The metaphor asserts the conclusion it is meant to illustrate.\", \"what_would_falsify_the_narrative\": \"A demonstration that moral/political disputes can be resolved from within their own frameworks, or that the proposed external reference point is neither necessary nor accessible.\"}, \"evidence_for_historical_content\": [], \"is_separable_from_argument\": true, \"notes\": \"The metaphor is separable from the formal argument but rhetorically prepares the reader to accept A02 and A03 as if the geometry were established.\"}, {\"story_id\": \"st-003\", \"title_or_label\": \"The Ten-Point Roadmap\", \"story_type\": \"sermon_arc\", \"source_span\": \"P09–P11, S038–S061\", \"characters_or_agents\": [\"the authors\", \"the reader\", \"institutions\", \"governments\", \"the population\", \"the source\"], \"setting_or_context\": \"A structured preview of the document's argument, presented as a numbered progression.\", \"plot_or_sequence\": \"Ten claims are enumerated in order: structural good/bad; no self-determined moral direction; necessary external reference point; ordered institutional capture (money, government, education, media, moral language); shame as enforcement since 2015; two-class sorting by connection to truth; recurring pattern across communication technologies; mathematical impossibility of satisfying justice and mercy in a closed system; uniform downward historical trajectory across measurable dimensions; and exactly one historical event that reversed the trajectory without collapse. The ten are then said to form a single structure explaining the reader's fights, their irresolvability, and the required resolution.\", \"intended_function\": \"persuade\", \"claims_illustrated\": [\"A01\", \"A02\", \"A03\", \"A04\", \"A05\", \"A06\", \"A07\", \"A08\", \"A09\", \"A10\"], \"emotional_or_rhetorical_load\": \"High. The cumulative list creates a sense of comprehensive inevitability; the closing promise ('explains not just the fights you're having, but why you're having them') offers resolution and meaning.\", \"boundaries\": {\"what_it_shows\": \"The intended architecture of the paper's argument and the order in which claims will be defended.\", \"what_it_does_not_show\": \"That any of the ten claims are true. The roadmap is a promise of proof, not proof; each item remains an assertion until separately evidenced.\", \"what_would_falsify_the_narrative\": \"Failure of any of the ten claims under examination, or a demonstration that they do not cohere into a single structure.\"}, \"evidence_for_historical_content\": [], \"is_separable_from_argument\": false, \"notes\": \"This is the paper's structural spine. It is a sermon-like arc: enumeration, promise of coherence, call to follow. The rhetorical force of the list does not transfer warrant to its items.\"}, {\"story_id\": \"st-004\", \"title_or_label\": \"The Open Invitation to Break the Argument\", \"story_type\": \"other\", \"source_span\": \"P12–P14, S062–S067\", \"characters_or_agents\": [\"the authors\", \"the reader\", \"the evidence\"], \"setting_or_context\": \"A meta-rhetorical frame around the document's epistemic posture.\", \"plot_or_sequence\": \"The authors disclaim any demand for belief, ask the reader to follow the argument and check the evidence, invite the reader to show where it breaks, promise to publish the break alongside the argument, and close with the suggestion that if it changes how the reader sees everything, that is between the reader and the evidence.\", \"intended_function\": \"persuade\", \"claims_illustrated\": [], \"emotional_or_rhetorical_load\": \"Moderate. Conveys intellectual humility and confidence simultaneously; positions the authors as truth-seekers rather than authorities.\", \"boundaries\": {\"what_it_shows\": \"The authors' stated commitment to falsifiability and openness to criticism.\", \"what_it_does_not_show\": \"That the argument is in fact falsifiable in practice, that criticism will be engaged substantively, or that the evidence supports the claims. Stated openness is not evidence of correctness.\", \"what_would_falsify_the_narrative\": \"Evidence that the authors do not publish or engage with substantive breaks in the argument, or that the framework is insulated from disconfirmation.\"}, \"evidence_for_historical_content\": [], \"is_separable_from_argument\": true, \"notes\": \"Functions as a trust-building device. It is separable from the substantive argument and should not be treated as warrant for any claim.\"}], \"narrative_arc\": {\"opening_device\": \"Second-person enumeration of unresolved political controversies, ending in the felt but unnamed suspicion that everyone is fighting about the wrong thing.\", \"central_tension\": \"Persistent, irresolvable public conflict versus the hidden claim that the conflict is misdirected and has a single external resolution.\", \"resolution_or_payoff\": \"A promised ten-claim structure that, if it holds, explains the fights, their irresolvability, and the required resolution — deferred to subsequent parts.\", \"return_to_opening\": true}, \"notes\": \"This is Part 0 (the hook) of a larger work; it contains no empirical evidence, only framing, enumeration, and an invitation. All ten claims are previewed rather than argued here. The narrative's persuasive power is high and should not be mistaken for warrant. Historical claims (A04, A05, A07, A09, A10) are asserted without supporting evidence in this span and are marked as unverified.\"}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 2190,
+      "completion_tokens": 1975,
+      "attempts": 1,
+      "elapsed_seconds": 10.109000000000378,
+      "started_at": "2026-09-27T05:37:51.469454+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T05:38:01.581106+00:00",
+      "tokens": 4165
+    }
+  ],
+  "prompt_sha256": "e814e69011a722c90fde2d2146b3f224bee2a2c8ab7e3d3fc66190318a91ec9f",
+  "tokens": 4165
+}

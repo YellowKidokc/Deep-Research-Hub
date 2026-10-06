@@ -1,0 +1,430 @@
+{
+  "station": "lean4",
+  "paper_uuid": "Gary Habermas - Chapter 003 - Remarkably Early Historical Information for the Resurrection of Jesus - Gary Habermas",
+  "run_uuid": "deep-4e9a442e3439",
+  "template": "00_FULL_LEAN_TEMPLATE.md",
+  "formal_candidates": [
+    {
+      "identity": {
+        "claim_id": "A03",
+        "candidate_uuid": "lean4-A03-0001"
+      },
+      "source_selection": {
+        "exact_source_expression": "The earliest Christian creeds came from Jerusalem within a year or two of Jesus' death, from the apostles themselves.",
+        "selection_disposition": "FORMALIZE",
+        "reason": "This is a dated, source-critical historical claim with a clear propositional content (creed origin, provenance, temporal interval, and apostolic transmission). It can be modeled as a formal historical-source relation over a finite set of creedal texts, dates, and provenance relations, with the substantive historical premises left as explicit axioms rather than proved."
+      },
+      "formal_object": {
+        "object_type": "DEFINITION",
+        "exact_proposed_statement": "Define a structure `CreedalSource` with fields: `text : Type`, `date : ℝ`, `provenance : text → City`, `transmittedBy : text → Set Person`, and a predicate `IsEarlyCreed (c : CreedalSource) (t_cross : ℝ) : Prop := c.date - t_cross ≤ 2 ∧ c.provenance = Jerusalem ∧ Apostles ⊆ c.transmittedBy`. Then state the target theorem `habermas_early_creeds : ∃ (c : CreedalSource), IsEarlyCreed c t_cross` under the historical axioms listed below.",
+        "fully_qualified_declaration": "Habermas.Chapter003.CreedalSource",
+        "project_root": "HabermasResurrection",
+        "module": "Habermas.Chapter003.EarlyCreeds"
+      },
+      "symbol_table": [
+        {
+          "term": "homologia",
+          "formal_definition": "earliest agreed-upon data; modeled as a distinguished element of a set of creedal texts",
+          "reader_meaning": "the earliest agreed-upon gospel message",
+          "source_correspondence": "S228–S238"
+        },
+        {
+          "term": "creed",
+          "formal_definition": "a short, memorizable statement encapsulating the homologia",
+          "reader_meaning": "early Christian creedal formula",
+          "source_correspondence": "S252–S258, S272–S283"
+        },
+        {
+          "term": "Jerusalem provenance",
+          "formal_definition": "provenance : text → City with Jerusalem as a distinguished city",
+          "reader_meaning": "the creed originated from the Jerusalem church",
+          "source_correspondence": "S292"
+        },
+        {
+          "term": "apostolic transmission",
+          "formal_definition": "transmittedBy : text → Set Person with Apostles as a distinguished set",
+          "reader_meaning": "the creed was handed on by the apostles",
+          "source_correspondence": "S292"
+        },
+        {
+          "term": "within 1–2 years",
+          "formal_definition": "c.date - t_cross ≤ 2",
+          "reader_meaning": "the creed dates within one to two years of the crucifixion",
+          "source_correspondence": "S292, S303"
+        }
+      ],
+      "assumptions_and_dependencies": {
+        "explicit_premises": [
+          "There exists a crucifixion event with date t_cross.",
+          "There exists at least one creedal text c.",
+          "The provenance of c is Jerusalem.",
+          "The transmission set of c includes the apostles.",
+          "The date of c is within two years of t_cross."
+        ],
+        "custom_axioms": [
+          "axiom habermas_creed_exists : ∃ c : CreedalSource, True",
+          "axiom habermas_creed_jerusalem : ∀ c, c.provenance = Jerusalem",
+          "axiom habermas_creed_apostolic : ∀ c, Apostles ⊆ c.transmittedBy",
+          "axiom habermas_creed_early : ∀ c, c.date - t_cross ≤ 2"
+        ],
+        "theological_starting_premises": "The historical reliability of Acts and Galatians as sources for the Jerusalem church and apostolic transmission is assumed, not proved.",
+        "non_vacuity_requirement": "The type `CreedalSource` must be inhabited; the axioms above must be consistent with a concrete finite model in which at least one creed exists."
+      },
+      "verification_controls": [
+        {
+          "check": "module compilation",
+          "command_or_evidence": "lake build Habermas.Chapter003.EarlyCreeds",
+          "status": "NOT_RUN",
+          "interpretation": "Lean corpus was not searched in this run; no build attempted."
+        },
+        {
+          "check": "declaration inspection",
+          "command_or_evidence": "#check Habermas.Chapter003.CreedalSource",
+          "status": "NOT_RUN",
+          "interpretation": "No Lean environment available in this run."
+        },
+        {
+          "check": "axiom dependency",
+          "command_or_evidence": "#print axioms habermas_early_creeds",
+          "status": "NOT_RUN",
+          "interpretation": "Custom axioms are declared; dependency audit not performed."
+        },
+        {
+          "check": "non-vacuity",
+          "command_or_evidence": "Construct a concrete `CreedalSource` instance with date = t_cross + 1, provenance = Jerusalem, transmittedBy = Apostles.",
+          "status": "NOT_RUN",
+          "interpretation": "Non-vacuity witness not yet constructed."
+        },
+        {
+          "check": "negative control",
+          "command_or_evidence": "Attempt to prove the negation under a model where provenance ≠ Jerusalem.",
+          "status": "NOT_RUN",
+          "interpretation": "Negative control not attempted."
+        }
+      ],
+      "result_and_boundary": {
+        "verification_status": "CANDIDATE",
+        "what_is_established": "A formal schema for the claim that early creeds exist with Jerusalem provenance, apostolic transmission, and a 1–2 year date relative to the crucifixion.",
+        "what_remains_open": "The historical truth of the axioms is not established by Lean; the formalization only encodes the logical structure of the claim.",
+        "encoding_fidelity_review": "The encoding captures the propositional content but abstracts away from textual criticism, manuscript dating, and the distinction between 'possibly' and 'probably' in Ehrman's statement.",
+        "interpretive_connections": "Connects to A02 (homologia), A04 (Paul's conversion), A05 (Paul's verification), and A20 (eight lines of evidence)."
+      },
+      "reproduction_receipt": {},
+      "corpus_links": {}
+    },
+    {
+      "identity": {
+        "claim_id": "A05",
+        "candidate_uuid": "lean4-A05-0002"
+      },
+      "source_selection": {
+        "exact_source_expression": "Paul checked his gospel with Peter and James, the eyewitnesses, and they confirmed it.",
+        "selection_disposition": "FORMALIZE",
+        "reason": "This is a verifiable historical claim about Paul's visit to Jerusalem and the confirmation of his gospel by Peter and James. It can be modeled as a relation between Paul, Peter, James, and a gospel proposition, with a confirmation predicate."
+      },
+      "formal_object": {
+        "object_type": "THEOREM",
+        "exact_proposed_statement": "Theorem `paul_verified_gospel_with_peter_james` : ∃ (g : Gospel) (p : Person), p = Paul ∧ VerifiedBy p g {Peter, James} ∧ ConfirmedBy {Peter, James} g.",
+        "fully_qualified_declaration": "Habermas.Chapter003.paul_verified_gospel_with_peter_james",
+        "project_root": "HabermasResurrection",
+        "module": "Habermas.Chapter003.PaulVerification"
+      },
+      "symbol_table": [
+        {
+          "term": "Paul",
+          "formal_definition": "distinguished person constant",
+          "reader_meaning": "the Apostle Paul",
+          "source_correspondence": "S378–S390"
+        },
+        {
+          "term": "Peter",
+          "formal_definition": "distinguished person constant",
+          "reader_meaning": "the Apostle Peter",
+          "source_correspondence": "S390"
+        },
+        {
+          "term": "James",
+          "formal_definition": "distinguished person constant",
+          "reader_meaning": "James the brother of Jesus",
+          "source_correspondence": "S390"
+        },
+        {
+          "term": "gospel",
+          "formal_definition": "a propositional content g : Gospel",
+          "reader_meaning": "the gospel message Paul preached",
+          "source_correspondence": "S392–S399"
+        },
+        {
+          "term": "historesai",
+          "formal_definition": "a verification relation `VerifiedBy : Person → Gospel → Set Person → Prop`",
+          "reader_meaning": "to check something out, investigate, question",
+          "source_correspondence": "S430–S440"
+        }
+      ],
+      "assumptions_and_dependencies": {
+        "explicit_premises": [
+          "Paul visited Jerusalem approximately 3 years after his conversion (Gal 1:18).",
+          "Paul spent 15 days with Peter and James.",
+          "The theme of Galatians is the gospel.",
+          "Paul went to Jerusalem to get the gospel right."
+        ],
+        "custom_axioms": [
+          "axiom galatians_1_18 : Paul.visited Jerusalem (t_cross + 6)",
+          "axiom galatians_1_19 : Paul.spentDaysWith Peter 15 ∧ Paul.spentDaysWith James 15",
+          "axiom galatians_2_2 : Paul.wentToJerusalemToVerifyGospel",
+          "axiom galatians_2_9 : ConfirmedBy {Peter, James, John} Paul.gospel"
+        ],
+        "theological_starting_premises": "The historical reliability of Galatians 1–2 as a source for Paul's visit is assumed.",
+        "non_vacuity_requirement": "There must exist at least one gospel proposition and one verification event."
+      },
+      "verification_controls": [
+        {
+          "check": "module compilation",
+          "command_or_evidence": "lake build Habermas.Chapter003.PaulVerification",
+          "status": "NOT_RUN",
+          "interpretation": "No build attempted."
+        },
+        {
+          "check": "declaration inspection",
+          "command_or_evidence": "#check Habermas.Chapter003.paul_verified_gospel_with_peter_james",
+          "status": "NOT_RUN",
+          "interpretation": "No Lean environment available."
+        },
+        {
+          "check": "axiom dependency",
+          "command_or_evidence": "#print axioms paul_verified_gospel_with_peter_james",
+          "status": "NOT_RUN",
+          "interpretation": "Custom axioms declared; audit not performed."
+        },
+        {
+          "check": "non-vacuity",
+          "command_or_evidence": "Construct a concrete Gospel and verification event.",
+          "status": "NOT_RUN",
+          "interpretation": "Non-vacuity witness not constructed."
+        }
+      ],
+      "result_and_boundary": {
+        "verification_status": "CANDIDATE",
+        "what_is_established": "A formal schema for Paul's verification of his gospel with Peter and James.",
+        "what_remains_open": "The historical truth of the Galatians account is not established by Lean.",
+        "encoding_fidelity_review": "The encoding captures the verification relation but abstracts away from the textual and historical details of the visit.",
+        "interpretive_connections": "Connects to A03 (early creeds), A04 (Paul's conversion), A19 (Pharisaic method), and A20 (eight lines of evidence)."
+      },
+      "reproduction_receipt": {},
+      "corpus_links": {}
+    },
+    {
+      "identity": {
+        "claim_id": "A04",
+        "candidate_uuid": "lean4-A04-0003"
+      },
+      "source_selection": {
+        "exact_source_expression": "Paul became a Christian just two or three years after Jesus died.",
+        "selection_disposition": "FORMALIZE",
+        "reason": "This is a dated historical claim with a clear temporal interval. It can be modeled as a conversion event with a date relative to the crucifixion."
+      },
+      "formal_object": {
+        "object_type": "DEFINITION",
+        "exact_proposed_statement": "Define `PaulConversion : ℝ` with axiom `paul_conversion_date : PaulConversion - t_cross ∈ {2, 3}`. Then state `paul_converted_early : PaulConversion - t_cross ≤ 3`.",
+        "fully_qualified_declaration": "Habermas.Chapter003.PaulConversion",
+        "project_root": "HabermasResurrection",
+        "module": "Habermas.Chapter003.PaulConversion"
+      },
+      "symbol_table": [
+        {
+          "term": "Paul's conversion",
+          "formal_definition": "a real number `PaulConversion` representing the date",
+          "reader_meaning": "the event of Paul becoming a Christian",
+          "source_correspondence": "S294, S304, S380–S384"
+        },
+        {
+          "term": "t_cross",
+          "formal_definition": "a real number representing the date of the crucifixion",
+          "reader_meaning": "the death of Jesus",
+          "source_correspondence": "S170, S227"
+        }
+      ],
+      "assumptions_and_dependencies": {
+        "explicit_premises": [
+          "Paul was converted 2–3 years after the crucifixion.",
+          "The crucifixion has a definite date."
+        ],
+        "custom_axioms": [
+          "axiom paul_conversion_date : PaulConversion - t_cross ∈ {2, 3}"
+        ],
+        "theological_starting_premises": "The historicity of Paul's conversion as described in Acts and Galatians is assumed.",
+        "non_vacuity_requirement": "The set {2, 3} is non-empty; the axiom is satisfiable."
+      },
+      "verification_controls": [
+        {
+          "check": "module compilation",
+          "command_or_evidence": "lake build Habermas.Chapter003.PaulConversion",
+          "status": "NOT_RUN",
+          "interpretation": "No build attempted."
+        },
+        {
+          "check": "non-vacuity",
+          "command_or_evidence": "Instantiate PaulConversion = t_cross + 2.",
+          "status": "NOT_RUN",
+          "interpretation": "Non-vacuity witness not constructed."
+        }
+      ],
+      "result_and_boundary": {
+        "verification_status": "CANDIDATE",
+        "what_is_established": "A formal schema for the early date of Paul's conversion.",
+        "what_remains_open": "The historical truth of the date is not established by Lean.",
+        "encoding_fidelity_review": "The encoding captures the temporal interval but abstracts away from the debate between 2 and 3 years.",
+        "interpretive_connections": "Connects to A03 (early creeds), A05 (Paul's verification), and A20 (eight lines of evidence)."
+      },
+      "reproduction_receipt": {},
+      "corpus_links": {}
+    },
+    {
+      "identity": {
+        "claim_id": "A02",
+        "candidate_uuid": "lean4-A02-0004"
+      },
+      "source_selection": {
+        "exact_source_expression": "The first Christians' earliest agreed message was the death and resurrection of Jesus, preached right away.",
+        "selection_disposition": "FORMALIZE",
+        "reason": "This is a claim about the content and timing of the earliest Christian preaching. It can be modeled as a predicate over a set of early Christian messages."
+      },
+      "formal_object": {
+        "object_type": "DEFINITION",
+        "exact_proposed_statement": "Define `EarliestMessage : Type` with fields `content : Set Proposition`, `date : ℝ`, and predicate `IsHomologia (m : EarliestMessage) : Prop := DeathOfJesus ∈ m.content ∧ ResurrectionOfJesus ∈ m.content ∧ m.date - t_cross ≤ 1`. Then state `homologia_exists : ∃ m, IsHomologia m`.",
+        "fully_qualified_declaration": "Habermas.Chapter003.Homologia",
+        "project_root": "HabermasResurrection",
+        "module": "Habermas.Chapter003.Homologia"
+      },
+      "symbol_table": [
+        {
+          "term": "homologia",
+          "formal_definition": "the earliest agreed-upon data",
+          "reader_meaning": "the earliest agreed-upon gospel message",
+          "source_correspondence": "S228–S238"
+        },
+        {
+          "term": "death of Jesus",
+          "formal_definition": "a distinguished proposition `DeathOfJesus`",
+          "reader_meaning": "the crucifixion",
+          "source_correspondence": "S064, S239"
+        },
+        {
+          "term": "resurrection of Jesus",
+          "formal_definition": "a distinguished proposition `ResurrectionOfJesus`",
+          "reader_meaning": "the resurrection",
+          "source_correspondence": "S064, S239"
+        }
+      ],
+      "assumptions_and_dependencies": {
+        "explicit_premises": [
+          "The earliest Christian message centered on the death and resurrection of Jesus.",
+          "This message was preached immediately after the crucifixion."
+        ],
+        "custom_axioms": [
+          "axiom homologia_content : ∀ m, IsHomologia m → DeathOfJesus ∈ m.content ∧ ResurrectionOfJesus ∈ m.content",
+          "axiom homologia_immediate : ∀ m, IsHomologia m → m.date - t_cross ≤ 1"
+        ],
+        "theological_starting_premises": "The historical reliability of Acts 1–2 and 1 Corinthians 15 as sources for early preaching is assumed.",
+        "non_vacuity_requirement": "There must exist at least one earliest message."
+      },
+      "verification_controls": [
+        {
+          "check": "module compilation",
+          "command_or_evidence": "lake build Habermas.Chapter003.Homologia",
+          "status": "NOT_RUN",
+          "interpretation": "No build attempted."
+        },
+        {
+          "check": "non-vacuity",
+          "command_or_evidence": "Construct a concrete EarliestMessage with content = {DeathOfJesus, ResurrectionOfJesus} and date = t_cross + 0.5.",
+          "status": "NOT_RUN",
+          "interpretation": "Non-vacuity witness not constructed."
+        }
+      ],
+      "result_and_boundary": {
+        "verification_status": "CANDIDATE",
+        "what_is_established": "A formal schema for the content and timing of the earliest Christian message.",
+        "what_remains_open": "The historical truth of the claim is not established by Lean.",
+        "encoding_fidelity_review": "The encoding captures the content and timing but abstracts away from the distinction between 'preached' and 'agreed-upon'.",
+        "interpretive_connections": "Connects to A03 (early creeds), A09 (80% creedal material), and A20 (eight lines of evidence)."
+      },
+      "reproduction_receipt": {},
+      "corpus_links": {}
+    },
+    {
+      "identity": {
+        "claim_id": "A06",
+        "candidate_uuid": "lean4-A06-0005"
+      },
+      "source_selection": {
+        "exact_source_expression": "The data is too early for the story to be a garbled myth.",
+        "selection_disposition": "FORMALIZE",
+        "reason": "This is a claim about the temporal threshold for myth formation. It can be modeled as a predicate over transmission chains, with a threshold parameter."
+      },
+      "formal_object": {
+        "object_type": "THEOREM",
+        "exact_proposed_statement": "Theorem `too_early_for_myth` : ∀ (chain : TransmissionChain), chain.length ≤ 6 → ¬ IsMyth chain.",
+        "fully_qualified_declaration": "Habermas.Chapter003.too_early_for_myth",
+        "project_root": "HabermasResurrection",
+        "module": "Habermas.Chapter003.MythThreshold"
+      },
+      "symbol_table": [
+        {
+          "term": "transmission chain",
+          "formal_definition": "a sequence of transmissions from eyewitnesses to later sources",
+          "reader_meaning": "the chain of transmission of the gospel message",
+          "source_correspondence": "S324–S358"
+        },
+        {
+          "term": "myth",
+          "formal_definition": "a predicate `IsMyth : TransmissionChain → Prop`",
+          "reader_meaning": "a garbled or legendary account",
+          "source_correspondence": "S108, S328–S333"
+        },
+        {
+          "term": "too early",
+          "formal_definition": "chain.length ≤ 6",
+          "reader_meaning": "within six years of the crucifixion",
+          "source_correspondence": "S214, S379, S496"
+        }
+      ],
+      "assumptions_and_dependencies": {
+        "explicit_premises": [
+          "Myth formation requires a minimum transmission time.",
+          "The gospel data is within six years of the crucifixion."
+        ],
+        "custom_axioms": [
+          "axiom myth_threshold : ∀ chain, chain.length ≤ 6 → ¬ IsMyth chain"
+        ],
+        "theological_starting_premises": "The historical reliability of the early data is assumed.",
+        "non_vacuity_requirement": "There must exist at least one transmission chain of length ≤ 6."
+      },
+      "verification_controls": [
+        {
+          "check": "module compilation",
+          "command_or_evidence": "lake build Habermas.Chapter003.MythThreshold",
+          "status": "NOT_RUN",
+          "interpretation": "No build attempted."
+        },
+        {
+          "check": "negative control",
+          "command_or_evidence": "Construct a chain of length 100 and show IsMyth is not ruled out.",
+          "status": "NOT_RUN",
+          "interpretation": "Negative control not attempted."
+        }
+      ],
+      "result_and_boundary": {
+        "verification_status": "CANDIDATE",
+        "what_is_established": "A formal schema for the claim that early data rules out myth.",
+        "what_remains_open": "The threshold for myth formation is not established by Lean; it is an empirical assumption.",
+        "encoding_fidelity_review": "The encoding captures the temporal threshold but abstracts away from the qualitative nature of myth formation.",
+        "interpretive_connections": "Connects to A15 (telephone-tag objection), A03 (early creeds), and A05 (Paul's verification)."
+      },
+      "reproduction_receipt": {},
+      "corpus_links": {}
+    }
+  ],
+  "existing_matches": [],
+  "notes": "The Lean corpus was not searched in this run. All verification controls are NOT_RUN and all verification statuses are CANDIDATE or NOT_ATTEMPTED. The formal candidates encode the logical structure of the historical claims but do not establish their historical truth. The claims are drawn from an auto-captioned YouTube transcript; caption errors and missing speaker labels are not the speakers' faults. The strongest candidate is A03 (early creeds), followed by A05 (Paul's verification), A04 (Paul's conversion), A02 (homologia), and A06 (too early for myth)."
+}

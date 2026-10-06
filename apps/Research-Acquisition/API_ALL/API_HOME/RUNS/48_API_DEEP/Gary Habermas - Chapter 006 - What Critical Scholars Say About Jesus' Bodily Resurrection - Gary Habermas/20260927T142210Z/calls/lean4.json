@@ -1,0 +1,518 @@
+{
+  "name": "lean4",
+  "parsed": {
+    "station": "lean4",
+    "paper_uuid": "Gary Habermas - Chapter 006 - What Critical Scholars Say About Jesus' Bodily Resurrection - Gary Habermas",
+    "run_uuid": "deep-29499d7076b3",
+    "template": "00_FULL_LEAN_TEMPLATE.md",
+    "formal_candidates": [
+      {
+        "identity": {
+          "claim_id": "A01",
+          "candidate_uuid": "lean4-A01-0001"
+        },
+        "source_selection": {
+          "exact_source_expression": "Paul believed Jesus rose physically and appeared in a real body, just like the Gospels describe.",
+          "selection_disposition": "FORMALIZE",
+          "reason": "The claim is a proposition about the content of a historical agent's belief (Paul's belief that Jesus rose bodily). It can be modeled as a typed belief attribution over a proposition, with the proposition itself left as an uninterpreted or separately axiomatized predicate. This is the strongest candidate because it is the central claim of the chapter and is repeated and attributed to multiple scholars."
+        },
+        "formal_object": {
+          "object_type": "DEFINITION",
+          "exact_proposed_statement": "def PaulBelievedBodilyResurrection : Prop := Believes Paul (BodilyResurrection Jesus)",
+          "fully_qualified_declaration": "HabermasChapter006.PaulBelievedBodilyResurrection",
+          "project_root": "HabermasChapter006",
+          "module": "HabermasChapter006.Basic"
+        },
+        "symbol_table": [
+          {
+            "term": "Paul",
+            "formal_definition": "constant Paul : Agent",
+            "reader_meaning": "The Apostle Paul as a historical agent.",
+            "source_correspondence": "S020, S027, S029, S031, S032"
+          },
+          {
+            "term": "Believes",
+            "formal_definition": "constant Believes : Agent → Prop → Prop",
+            "reader_meaning": "Doxastic attitude: an agent holds a proposition to be true.",
+            "source_correspondence": "S031, S032, S034"
+          },
+          {
+            "term": "BodilyResurrection",
+            "formal_definition": "constant BodilyResurrection : Agent → Prop",
+            "reader_meaning": "The proposition that a given agent (here Jesus) was raised in a physical body.",
+            "source_correspondence": "S020, S023, S024, S027"
+          },
+          {
+            "term": "Jesus",
+            "formal_definition": "constant Jesus : Agent",
+            "reader_meaning": "Jesus of Nazareth as a historical agent.",
+            "source_correspondence": "S020, S024, S071, S086"
+          }
+        ],
+        "assumptions_and_dependencies": {
+          "explicit_premises": [
+            "There exists an agent named Paul.",
+            "There exists an agent named Jesus.",
+            "There is a well-defined proposition BodilyResurrection Jesus.",
+            "There is a well-defined belief relation Believes."
+          ],
+          "custom_axioms": [],
+          "theological_starting_premises": "None required for the definition itself; the definition is purely a formalization of a belief attribution and does not assert the truth of BodilyResurrection Jesus.",
+          "non_vacuity_requirement": "The type Agent must be inhabited (e.g., by Paul and Jesus), and the predicate BodilyResurrection must be applicable to Jesus. The definition is non-vacuous if there is at least one model where Believes Paul (BodilyResurrection Jesus) is true and at least one where it is false."
+        },
+        "verification_controls": [
+          {
+            "check": "module compilation",
+            "command_or_evidence": "lean --run HabermasChapter006.Basic",
+            "status": "NOT_RUN",
+            "interpretation": "Lean corpus was not searched; no compilation attempted."
+          },
+          {
+            "check": "declaration inspection",
+            "command_or_evidence": "#check HabermasChapter006.PaulBelievedBodilyResurrection",
+            "status": "NOT_RUN",
+            "interpretation": "No Lean environment available in this run."
+          },
+          {
+            "check": "axiom dependency",
+            "command_or_evidence": "#print axioms HabermasChapter006.PaulBelievedBodilyResurrection",
+            "status": "NOT_RUN",
+            "interpretation": "No Lean environment available in this run."
+          },
+          {
+            "check": "non-vacuity",
+            "command_or_evidence": "Construct a model with Agent = {Paul, Jesus}, Believes = fun a p => (a = Paul ∧ p = BodilyResurrection Jesus), BodilyResurrection = fun _ => True.",
+            "status": "NOT_RUN",
+            "interpretation": "No Lean environment available in this run."
+          }
+        ],
+        "result_and_boundary": {
+          "verification_status": "CANDIDATE",
+          "what_is_established": "A formal definition of the proposition that Paul believed in the bodily resurrection of Jesus, using a minimal doxastic logic vocabulary.",
+          "what_remains_open": "Whether the historical Paul actually held this belief; the truth of BodilyResurrection Jesus; the adequacy of the doxastic model for first-century Jewish beliefs; any connection to the Gospels.",
+          "encoding_fidelity_review": "The definition captures the surface grammar of the claim but does not model the evidential or historical warrant for the belief. It also does not distinguish between Paul's belief and the content of the Gospels.",
+          "interpretive_connections": "This formalization can serve as a building block for claims A02, A06, and A05, which all involve attributions of belief about bodily resurrection."
+        },
+        "reproduction_receipt": {},
+        "corpus_links": {}
+      },
+      {
+        "identity": {
+          "claim_id": "A02",
+          "candidate_uuid": "lean4-A02-0002"
+        },
+        "source_selection": {
+          "exact_source_expression": "Even skeptical scholars now often agree that the first Christians believed Jesus rose bodily.",
+          "selection_disposition": "FORMALIZE",
+          "reason": "This is a sociological claim about the distribution of scholarly opinion. It can be formalized as a statement about a set of scholars and a predicate of agreement, but it requires a model of scholarly consensus that is not purely mathematical. It is a candidate for formalization with explicit assumptions about the domain of scholars and the meaning of 'skeptical' and 'often agree'."
+        },
+        "formal_object": {
+          "object_type": "THEOREM",
+          "exact_proposed_statement": "theorem skeptical_scholars_agree : ∃ (S : Set Scholar), (∀ s ∈ S, Skeptical s) ∧ (∀ s ∈ S, Agrees s (FirstChristiansBelievedBodilyResurrection)) ∧ (Measure S > 0.5)",
+          "fully_qualified_declaration": "HabermasChapter006.skeptical_scholars_agree",
+          "project_root": "HabermasChapter006",
+          "module": "HabermasChapter006.Consensus"
+        },
+        "symbol_table": [
+          {
+            "term": "Scholar",
+            "formal_definition": "constant Scholar : Type",
+            "reader_meaning": "A person who studies early Christianity academically.",
+            "source_correspondence": "S027, S028, S029"
+          },
+          {
+            "term": "Skeptical",
+            "formal_definition": "constant Skeptical : Scholar → Prop",
+            "reader_meaning": "A scholar who is not committed to traditional Christian orthodoxy.",
+            "source_correspondence": "S026, S031"
+          },
+          {
+            "term": "Agrees",
+            "formal_definition": "constant Agrees : Scholar → Prop → Prop",
+            "reader_meaning": "A scholar assents to a proposition.",
+            "source_correspondence": "S027, S029"
+          },
+          {
+            "term": "FirstChristiansBelievedBodilyResurrection",
+            "formal_definition": "constant FirstChristiansBelievedBodilyResurrection : Prop",
+            "reader_meaning": "The proposition that the earliest Christians believed Jesus rose bodily.",
+            "source_correspondence": "S027, S029"
+          },
+          {
+            "term": "Measure",
+            "formal_definition": "constant Measure : Set Scholar → ℝ",
+            "reader_meaning": "A measure of the proportion of scholars in a set.",
+            "source_correspondence": "S027, S028"
+          }
+        ],
+        "assumptions_and_dependencies": {
+          "explicit_premises": [
+            "There is a well-defined set of scholars.",
+            "There is a well-defined predicate of being skeptical.",
+            "There is a well-defined agreement relation.",
+            "There is a measure on sets of scholars."
+          ],
+          "custom_axioms": [
+            "axiom measure_exists : ∃ (μ : Set Scholar → ℝ), ∀ S, 0 ≤ μ S ∧ μ S ≤ 1"
+          ],
+          "theological_starting_premises": "None required for the formal statement; the theorem asserts a sociological fact, not a theological one.",
+          "non_vacuity_requirement": "The set S must be non-empty and the measure must be well-defined. The theorem is non-vacuous if there exists at least one skeptical scholar who agrees."
+        },
+        "verification_controls": [
+          {
+            "check": "module compilation",
+            "command_or_evidence": "lean --run HabermasChapter006.Consensus",
+            "status": "NOT_RUN",
+            "interpretation": "Lean corpus was not searched; no compilation attempted."
+          },
+          {
+            "check": "declaration inspection",
+            "command_or_evidence": "#check HabermasChapter006.skeptical_scholars_agree",
+            "status": "NOT_RUN",
+            "interpretation": "No Lean environment available in this run."
+          },
+          {
+            "check": "axiom dependency",
+            "command_or_evidence": "#print axioms HabermasChapter006.skeptical_scholars_agree",
+            "status": "NOT_RUN",
+            "interpretation": "No Lean environment available in this run."
+          },
+          {
+            "check": "non-vacuity",
+            "command_or_evidence": "Construct a model with Scholar = {s1, s2}, Skeptical = fun _ => True, Agrees = fun _ _ => True, Measure = fun S => 1.",
+            "status": "NOT_RUN",
+            "interpretation": "No Lean environment available in this run."
+          }
+        ],
+        "result_and_boundary": {
+          "verification_status": "CANDIDATE",
+          "what_is_established": "A formal statement of the claim that a majority of skeptical scholars agree that the first Christians believed in bodily resurrection.",
+          "what_remains_open": "The empirical truth of the claim; the definition of 'skeptical'; the measure of scholarly consensus; the historical question of what the first Christians actually believed.",
+          "encoding_fidelity_review": "The formalization captures the quantificational structure but not the nuanced meaning of 'often agree' or the historical context. It also does not model the difference between what scholars say and what they believe.",
+          "interpretive_connections": "This formalization connects to A01 (Paul's belief) and A06 (Bultmann's view) by providing a framework for discussing scholarly consensus."
+        },
+        "reproduction_receipt": {},
+        "corpus_links": {}
+      },
+      {
+        "identity": {
+          "claim_id": "A06",
+          "candidate_uuid": "lean4-A06-0003"
+        },
+        "source_selection": {
+          "exact_source_expression": "Bultmann can acknowledge that Paul believed in a bodily resurrection, but Bultmann personally rejects it.",
+          "selection_disposition": "FORMALIZE",
+          "reason": "This is a claim about the distinction between attributing a belief to someone else and holding that belief oneself. It can be formalized as a conjunction of two belief attributions: Bultmann believes that Paul believes in bodily resurrection, and Bultmann does not believe in bodily resurrection."
+        },
+        "formal_object": {
+          "object_type": "THEOREM",
+          "exact_proposed_statement": "theorem bultmann_distinction : Believes Bultmann (Believes Paul (BodilyResurrection Jesus)) ∧ ¬ Believes Bultmann (BodilyResurrection Jesus)",
+          "fully_qualified_declaration": "HabermasChapter006.bultmann_distinction",
+          "project_root": "HabermasChapter006",
+          "module": "HabermasChapter006.Bultmann"
+        },
+        "symbol_table": [
+          {
+            "term": "Bultmann",
+            "formal_definition": "constant Bultmann : Agent",
+            "reader_meaning": "Rudolf Bultmann as a historical agent.",
+            "source_correspondence": "S032, S033, S034"
+          },
+          {
+            "term": "Believes",
+            "formal_definition": "constant Believes : Agent → Prop → Prop",
+            "reader_meaning": "Doxastic attitude.",
+            "source_correspondence": "S032, S034"
+          },
+          {
+            "term": "Paul",
+            "formal_definition": "constant Paul : Agent",
+            "reader_meaning": "The Apostle Paul.",
+            "source_correspondence": "S032"
+          },
+          {
+            "term": "BodilyResurrection",
+            "formal_definition": "constant BodilyResurrection : Agent → Prop",
+            "reader_meaning": "The proposition that a given agent was raised bodily.",
+            "source_correspondence": "S032, S034"
+          },
+          {
+            "term": "Jesus",
+            "formal_definition": "constant Jesus : Agent",
+            "reader_meaning": "Jesus of Nazareth.",
+            "source_correspondence": "S032"
+          }
+        ],
+        "assumptions_and_dependencies": {
+          "explicit_premises": [
+            "There exists an agent named Bultmann.",
+            "There exists an agent named Paul.",
+            "There exists an agent named Jesus.",
+            "There is a well-defined belief relation.",
+            "There is a well-defined proposition BodilyResurrection Jesus."
+          ],
+          "custom_axioms": [],
+          "theological_starting_premises": "None required for the formal statement; the theorem asserts a psychological fact about Bultmann's beliefs.",
+          "non_vacuity_requirement": "The theorem is non-vacuous if there is a model where Bultmann believes that Paul believes in bodily resurrection and Bultmann does not believe in bodily resurrection."
+        },
+        "verification_controls": [
+          {
+            "check": "module compilation",
+            "command_or_evidence": "lean --run HabermasChapter006.Bultmann",
+            "status": "NOT_RUN",
+            "interpretation": "Lean corpus was not searched; no compilation attempted."
+          },
+          {
+            "check": "declaration inspection",
+            "command_or_evidence": "#check HabermasChapter006.bultmann_distinction",
+            "status": "NOT_RUN",
+            "interpretation": "No Lean environment available in this run."
+          },
+          {
+            "check": "axiom dependency",
+            "command_or_evidence": "#print axioms HabermasChapter006.bultmann_distinction",
+            "status": "NOT_RUN",
+            "interpretation": "No Lean environment available in this run."
+          },
+          {
+            "check": "non-vacuity",
+            "command_or_evidence": "Construct a model with Agent = {Bultmann, Paul, Jesus}, Believes = fun a p => (a = Bultmann ∧ p = Believes Paul (BodilyResurrection Jesus)), BodilyResurrection = fun _ => True.",
+            "status": "NOT_RUN",
+            "interpretation": "No Lean environment available in this run."
+          }
+        ],
+        "result_and_boundary": {
+          "verification_status": "CANDIDATE",
+          "what_is_established": "A formal statement of the distinction between Bultmann's attribution of belief to Paul and Bultmann's own disbelief.",
+          "what_remains_open": "Whether Bultmann actually held these beliefs; the historical accuracy of the attribution; the theological implications of Bultmann's view.",
+          "encoding_fidelity_review": "The formalization captures the nested belief structure but does not model the reasons for Bultmann's disbelief or the distinction between 'acknowledge' and 'believe'.",
+          "interpretive_connections": "This formalization connects to A01 (Paul's belief) and A05 (Gundry's critique of Bultmann)."
+        },
+        "reproduction_receipt": {},
+        "corpus_links": {}
+      },
+      {
+        "identity": {
+          "claim_id": "A05",
+          "candidate_uuid": "lean4-A05-0004"
+        },
+        "source_selection": {
+          "exact_source_expression": "Robert Gundry wrote a book called 'Soma' (body) to refute Bultmann's view that resurrection was not physical.",
+          "selection_disposition": "FORMALIZE",
+          "reason": "This is a claim about the purpose of a book. It can be formalized as a relation between an author, a book, and a target view. It is a candidate for formalization with explicit assumptions about authorship and refutation."
+        },
+        "formal_object": {
+          "object_type": "DEFINITION",
+          "exact_proposed_statement": "def GundrySomaRefutesBultmann : Prop := Wrote Gundry Soma ∧ Refutes Soma (BultmannView ResurrectionNotPhysical)",
+          "fully_qualified_declaration": "HabermasChapter006.GundrySomaRefutesBultmann",
+          "project_root": "HabermasChapter006",
+          "module": "HabermasChapter006.Gundry"
+        },
+        "symbol_table": [
+          {
+            "term": "Gundry",
+            "formal_definition": "constant Gundry : Agent",
+            "reader_meaning": "Robert Gundry as a historical agent.",
+            "source_correspondence": "S042, S043, S079, S080"
+          },
+          {
+            "term": "Soma",
+            "formal_definition": "constant Soma : Work",
+            "reader_meaning": "The book 'Soma' by Robert Gundry.",
+            "source_correspondence": "S042, S080"
+          },
+          {
+            "term": "Wrote",
+            "formal_definition": "constant Wrote : Agent → Work → Prop",
+            "reader_meaning": "Authorship relation.",
+            "source_correspondence": "S080"
+          },
+          {
+            "term": "Refutes",
+            "formal_definition": "constant Refutes : Work → Prop → Prop",
+            "reader_meaning": "A work argues against a proposition.",
+            "source_correspondence": "S080, S081"
+          },
+          {
+            "term": "BultmannView",
+            "formal_definition": "constant BultmannView : Prop → Prop",
+            "reader_meaning": "The view held by Bultmann.",
+            "source_correspondence": "S080, S081"
+          },
+          {
+            "term": "ResurrectionNotPhysical",
+            "formal_definition": "constant ResurrectionNotPhysical : Prop",
+            "reader_meaning": "The proposition that resurrection is not physical.",
+            "source_correspondence": "S080, S081"
+          }
+        ],
+        "assumptions_and_dependencies": {
+          "explicit_premises": [
+            "There exists an agent named Gundry.",
+            "There exists a work named Soma.",
+            "There is a well-defined authorship relation.",
+            "There is a well-defined refutation relation.",
+            "There is a well-defined proposition ResurrectionNotPhysical."
+          ],
+          "custom_axioms": [],
+          "theological_starting_premises": "None required for the definition; it is a historical claim about the purpose of a book.",
+          "non_vacuity_requirement": "The definition is non-vacuous if there is a model where Gundry wrote Soma and Soma refutes Bultmann's view."
+        },
+        "verification_controls": [
+          {
+            "check": "module compilation",
+            "command_or_evidence": "lean --run HabermasChapter006.Gundry",
+            "status": "NOT_RUN",
+            "interpretation": "Lean corpus was not searched; no compilation attempted."
+          },
+          {
+            "check": "declaration inspection",
+            "command_or_evidence": "#check HabermasChapter006.GundrySomaRefutesBultmann",
+            "status": "NOT_RUN",
+            "interpretation": "No Lean environment available in this run."
+          },
+          {
+            "check": "axiom dependency",
+            "command_or_evidence": "#print axioms HabermasChapter006.GundrySomaRefutesBultmann",
+            "status": "NOT_RUN",
+            "interpretation": "No Lean environment available in this run."
+          },
+          {
+            "check": "non-vacuity",
+            "command_or_evidence": "Construct a model with Agent = {Gundry}, Work = {Soma}, Wrote = fun _ _ => True, Refutes = fun _ _ => True.",
+            "status": "NOT_RUN",
+            "interpretation": "No Lean environment available in this run."
+          }
+        ],
+        "result_and_boundary": {
+          "verification_status": "CANDIDATE",
+          "what_is_established": "A formal definition of the claim that Gundry's Soma refutes Bultmann's non-physical view of resurrection.",
+          "what_remains_open": "Whether Gundry actually wrote Soma; whether Soma actually refutes Bultmann; the content of Bultmann's view.",
+          "encoding_fidelity_review": "The formalization captures the surface structure but does not model the argumentative content of the refutation.",
+          "interpretive_connections": "This formalization connects to A06 (Bultmann's view) and A01 (Paul's belief)."
+        },
+        "reproduction_receipt": {},
+        "corpus_links": {}
+      },
+      {
+        "identity": {
+          "claim_id": "A04",
+          "candidate_uuid": "lean4-A04-0005"
+        },
+        "source_selection": {
+          "exact_source_expression": "Tom Wright said the resurrection is as historically solid as Julius Caesar crossing the Rubicon river.",
+          "selection_disposition": "FORMALIZE",
+          "reason": "This is a claim about a comparison of historical certainty. It can be formalized as a relation of equal historical solidity between two events. It is a candidate for formalization with explicit assumptions about historical solidity."
+        },
+        "formal_object": {
+          "object_type": "DEFINITION",
+          "exact_proposed_statement": "def WrightComparison : Prop := HistoricalSolidity Resurrection = HistoricalSolidity (Crossed Caesar Rubicon)",
+          "fully_qualified_declaration": "HabermasChapter006.WrightComparison",
+          "project_root": "HabermasChapter006",
+          "module": "HabermasChapter006.Wright"
+        },
+        "symbol_table": [
+          {
+            "term": "HistoricalSolidity",
+            "formal_definition": "constant HistoricalSolidity : Event → ℝ",
+            "reader_meaning": "A measure of how historically well-established an event is.",
+            "source_correspondence": "S048, S050"
+          },
+          {
+            "term": "Resurrection",
+            "formal_definition": "constant Resurrection : Event",
+            "reader_meaning": "The resurrection of Jesus.",
+            "source_correspondence": "S048, S050"
+          },
+          {
+            "term": "Crossed",
+            "formal_definition": "constant Crossed : Agent → River → Event",
+            "reader_meaning": "The event of an agent crossing a river.",
+            "source_correspondence": "S048, S049"
+          },
+          {
+            "term": "Caesar",
+            "formal_definition": "constant Caesar : Agent",
+            "reader_meaning": "Julius Caesar.",
+            "source_correspondence": "S048"
+          },
+          {
+            "term": "Rubicon",
+            "formal_definition": "constant Rubicon : River",
+            "reader_meaning": "The Rubicon river.",
+            "source_correspondence": "S048, S049"
+          }
+        ],
+        "assumptions_and_dependencies": {
+          "explicit_premises": [
+            "There is a well-defined measure of historical solidity.",
+            "There is an event called Resurrection.",
+            "There is an event called Crossed Caesar Rubicon."
+          ],
+          "custom_axioms": [],
+          "theological_starting_premises": "None required for the definition; it is a claim about historical methodology.",
+          "non_vacuity_requirement": "The definition is non-vacuous if there is a model where the two events have equal historical solidity."
+        },
+        "verification_controls": [
+          {
+            "check": "module compilation",
+            "command_or_evidence": "lean --run HabermasChapter006.Wright",
+            "status": "NOT_RUN",
+            "interpretation": "Lean corpus was not searched; no compilation attempted."
+          },
+          {
+            "check": "declaration inspection",
+            "command_or_evidence": "#check HabermasChapter006.WrightComparison",
+            "status": "NOT_RUN",
+            "interpretation": "No Lean environment available in this run."
+          },
+          {
+            "check": "axiom dependency",
+            "command_or_evidence": "#print axioms HabermasChapter006.WrightComparison",
+            "status": "NOT_RUN",
+            "interpretation": "No Lean environment available in this run."
+          },
+          {
+            "check": "non-vacuity",
+            "command_or_evidence": "Construct a model with Event = {Resurrection, Crossed Caesar Rubicon}, HistoricalSolidity = fun _ => 1.",
+            "status": "NOT_RUN",
+            "interpretation": "No Lean environment available in this run."
+          }
+        ],
+        "result_and_boundary": {
+          "verification_status": "CANDIDATE",
+          "what_is_established": "A formal definition of Wright's comparison between the historical solidity of the resurrection and the crossing of the Rubicon.",
+          "what_remains_open": "Whether Wright actually made this comparison; the validity of the comparison; the meaning of historical solidity.",
+          "encoding_fidelity_review": "The formalization captures the comparative structure but does not model the criteria for historical solidity or the context of Wright's statement.",
+          "interpretive_connections": "This formalization connects to A02 (scholarly consensus) and A01 (Paul's belief)."
+        },
+        "reproduction_receipt": {},
+        "corpus_links": {}
+      }
+    ],
+    "existing_matches": [],
+    "notes": "The Lean corpus was not searched in this run. All verification controls are NOT_RUN and verification statuses are CANDIDATE or NOT_ATTEMPTED. The formal candidates are limited to 5 and are ordered by strength of formalizability. A03 (Dale Allison's personal testimony) and A07 (unclassified transcript segments) were not formalized because they are either personal testimony or non-propositional. The formalizations are minimal and do not assert the truth of any theological or historical claim; they only model the logical structure of the claims."
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "lean4",
+      "attempt": 1,
+      "text": "{\n  \"station\": \"lean4\",\n  \"paper_uuid\": \"Gary Habermas - Chapter 006 - What Critical Scholars Say About Jesus' Bodily Resurrection - Gary Habermas\",\n  \"run_uuid\": \"deep-29499d7076b3\",\n  \"template\": \"00_FULL_LEAN_TEMPLATE.md\",\n  \"formal_candidates\": [\n    {\n      \"identity\": {\n        \"claim_id\": \"A01\",\n        \"candidate_uuid\": \"lean4-A01-0001\"\n      },\n      \"source_selection\": {\n        \"exact_source_expression\": \"Paul believed Jesus rose physically and appeared in a real body, just like the Gospels describe.\",\n        \"selection_disposition\": \"FORMALIZE\",\n        \"reason\": \"The claim is a proposition about the content of a historical agent's belief (Paul's belief that Jesus rose bodily). It can be modeled as a typed belief attribution over a proposition, with the proposition itself left as an uninterpreted or separately axiomatized predicate. This is the strongest candidate because it is the central claim of the chapter and is repeated and attributed to multiple scholars.\"\n      },\n      \"formal_object\": {\n        \"object_type\": \"DEFINITION\",\n        \"exact_proposed_statement\": \"def PaulBelievedBodilyResurrection : Prop := Believes Paul (BodilyResurrection Jesus)\",\n        \"fully_qualified_declaration\": \"HabermasChapter006.PaulBelievedBodilyResurrection\",\n        \"project_root\": \"HabermasChapter006\",\n        \"module\": \"HabermasChapter006.Basic\"\n      },\n      \"symbol_table\": [\n        {\n          \"term\": \"Paul\",\n          \"formal_definition\": \"constant Paul : Agent\",\n          \"reader_meaning\": \"The Apostle Paul as a historical agent.\",\n          \"source_correspondence\": \"S020, S027, S029, S031, S032\"\n        },\n        {\n          \"term\": \"Believes\",\n          \"formal_definition\": \"constant Believes : Agent → Prop → Prop\",\n          \"reader_meaning\": \"Doxastic attitude: an agent holds a proposition to be true.\",\n          \"source_correspondence\": \"S031, S032, S034\"\n        },\n        {\n          \"term\": \"BodilyResurrection\",\n          \"formal_definition\": \"constant BodilyResurrection : Agent → Prop\",\n          \"reader_meaning\": \"The proposition that a given agent (here Jesus) was raised in a physical body.\",\n          \"source_correspondence\": \"S020, S023, S024, S027\"\n        },\n        {\n          \"term\": \"Jesus\",\n          \"formal_definition\": \"constant Jesus : Agent\",\n          \"reader_meaning\": \"Jesus of Nazareth as a historical agent.\",\n          \"source_correspondence\": \"S020, S024, S071, S086\"\n        }\n      ],\n      \"assumptions_and_dependencies\": {\n        \"explicit_premises\": [\n          \"There exists an agent named Paul.\",\n          \"There exists an agent named Jesus.\",\n          \"There is a well-defined proposition BodilyResurrection Jesus.\",\n          \"There is a well-defined belief relation Believes.\"\n        ],\n        \"custom_axioms\": [],\n        \"theological_starting_premises\": \"None required for the definition itself; the definition is purely a formalization of a belief attribution and does not assert the truth of BodilyResurrection Jesus.\",\n        \"non_vacuity_requirement\": \"The type Agent must be inhabited (e.g., by Paul and Jesus), and the predicate BodilyResurrection must be applicable to Jesus. The definition is non-vacuous if there is at least one model where Believes Paul (BodilyResurrection Jesus) is true and at least one where it is false.\"\n      },\n      \"verification_controls\": [\n        {\n          \"check\": \"module compilation\",\n          \"command_or_evidence\": \"lean --run HabermasChapter006.Basic\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"Lean corpus was not searched; no compilation attempted.\"\n        },\n        {\n          \"check\": \"declaration inspection\",\n          \"command_or_evidence\": \"#check HabermasChapter006.PaulBelievedBodilyResurrection\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"No Lean environment available in this run.\"\n        },\n        {\n          \"check\": \"axiom dependency\",\n          \"command_or_evidence\": \"#print axioms HabermasChapter006.PaulBelievedBodilyResurrection\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"No Lean environment available in this run.\"\n        },\n        {\n          \"check\": \"non-vacuity\",\n          \"command_or_evidence\": \"Construct a model with Agent = {Paul, Jesus}, Believes = fun a p => (a = Paul ∧ p = BodilyResurrection Jesus), BodilyResurrection = fun _ => True.\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"No Lean environment available in this run.\"\n        }\n      ],\n      \"result_and_boundary\": {\n        \"verification_status\": \"CANDIDATE\",\n        \"what_is_established\": \"A formal definition of the proposition that Paul believed in the bodily resurrection of Jesus, using a minimal doxastic logic vocabulary.\",\n        \"what_remains_open\": \"Whether the historical Paul actually held this belief; the truth of BodilyResurrection Jesus; the adequacy of the doxastic model for first-century Jewish beliefs; any connection to the Gospels.\",\n        \"encoding_fidelity_review\": \"The definition captures the surface grammar of the claim but does not model the evidential or historical warrant for the belief. It also does not distinguish between Paul's belief and the content of the Gospels.\",\n        \"interpretive_connections\": \"This formalization can serve as a building block for claims A02, A06, and A05, which all involve attributions of belief about bodily resurrection.\"\n      },\n      \"reproduction_receipt\": {},\n      \"corpus_links\": {}\n    },\n    {\n      \"identity\": {\n        \"claim_id\": \"A02\",\n        \"candidate_uuid\": \"lean4-A02-0002\"\n      },\n      \"source_selection\": {\n        \"exact_source_expression\": \"Even skeptical scholars now often agree that the first Christians believed Jesus rose bodily.\",\n        \"selection_disposition\": \"FORMALIZE\",\n        \"reason\": \"This is a sociological claim about the distribution of scholarly opinion. It can be formalized as a statement about a set of scholars and a predicate of agreement, but it requires a model of scholarly consensus that is not purely mathematical. It is a candidate for formalization with explicit assumptions about the domain of scholars and the meaning of 'skeptical' and 'often agree'.\"\n      },\n      \"formal_object\": {\n        \"object_type\": \"THEOREM\",\n        \"exact_proposed_statement\": \"theorem skeptical_scholars_agree : ∃ (S : Set Scholar), (∀ s ∈ S, Skeptical s) ∧ (∀ s ∈ S, Agrees s (FirstChristiansBelievedBodilyResurrection)) ∧ (Measure S > 0.5)\",\n        \"fully_qualified_declaration\": \"HabermasChapter006.skeptical_scholars_agree\",\n        \"project_root\": \"HabermasChapter006\",\n        \"module\": \"HabermasChapter006.Consensus\"\n      },\n      \"symbol_table\": [\n        {\n          \"term\": \"Scholar\",\n          \"formal_definition\": \"constant Scholar : Type\",\n          \"reader_meaning\": \"A person who studies early Christianity academically.\",\n          \"source_correspondence\": \"S027, S028, S029\"\n        },\n        {\n          \"term\": \"Skeptical\",\n          \"formal_definition\": \"constant Skeptical : Scholar → Prop\",\n          \"reader_meaning\": \"A scholar who is not committed to traditional Christian orthodoxy.\",\n          \"source_correspondence\": \"S026, S031\"\n        },\n        {\n          \"term\": \"Agrees\",\n          \"formal_definition\": \"constant Agrees : Scholar → Prop → Prop\",\n          \"reader_meaning\": \"A scholar assents to a proposition.\",\n          \"source_correspondence\": \"S027, S029\"\n        },\n        {\n          \"term\": \"FirstChristiansBelievedBodilyResurrection\",\n          \"formal_definition\": \"constant FirstChristiansBelievedBodilyResurrection : Prop\",\n          \"reader_meaning\": \"The proposition that the earliest Christians believed Jesus rose bodily.\",\n          \"source_correspondence\": \"S027, S029\"\n        },\n        {\n          \"term\": \"Measure\",\n          \"formal_definition\": \"constant Measure : Set Scholar → ℝ\",\n          \"reader_meaning\": \"A measure of the proportion of scholars in a set.\",\n          \"source_correspondence\": \"S027, S028\"\n        }\n      ],\n      \"assumptions_and_dependencies\": {\n        \"explicit_premises\": [\n          \"There is a well-defined set of scholars.\",\n          \"There is a well-defined predicate of being skeptical.\",\n          \"There is a well-defined agreement relation.\",\n          \"There is a measure on sets of scholars.\"\n        ],\n        \"custom_axioms\": [\n          \"axiom measure_exists : ∃ (μ : Set Scholar → ℝ), ∀ S, 0 ≤ μ S ∧ μ S ≤ 1\"\n        ],\n        \"theological_starting_premises\": \"None required for the formal statement; the theorem asserts a sociological fact, not a theological one.\",\n        \"non_vacuity_requirement\": \"The set S must be non-empty and the measure must be well-defined. The theorem is non-vacuous if there exists at least one skeptical scholar who agrees.\"\n      },\n      \"verification_controls\": [\n        {\n          \"check\": \"module compilation\",\n          \"command_or_evidence\": \"lean --run HabermasChapter006.Consensus\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"Lean corpus was not searched; no compilation attempted.\"\n        },\n        {\n          \"check\": \"declaration inspection\",\n          \"command_or_evidence\": \"#check HabermasChapter006.skeptical_scholars_agree\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"No Lean environment available in this run.\"\n        },\n        {\n          \"check\": \"axiom dependency\",\n          \"command_or_evidence\": \"#print axioms HabermasChapter006.skeptical_scholars_agree\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"No Lean environment available in this run.\"\n        },\n        {\n          \"check\": \"non-vacuity\",\n          \"command_or_evidence\": \"Construct a model with Scholar = {s1, s2}, Skeptical = fun _ => True, Agrees = fun _ _ => True, Measure = fun S => 1.\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"No Lean environment available in this run.\"\n        }\n      ],\n      \"result_and_boundary\": {\n        \"verification_status\": \"CANDIDATE\",\n        \"what_is_established\": \"A formal statement of the claim that a majority of skeptical scholars agree that the first Christians believed in bodily resurrection.\",\n        \"what_remains_open\": \"The empirical truth of the claim; the definition of 'skeptical'; the measure of scholarly consensus; the historical question of what the first Christians actually believed.\",\n        \"encoding_fidelity_review\": \"The formalization captures the quantificational structure but not the nuanced meaning of 'often agree' or the historical context. It also does not model the difference between what scholars say and what they believe.\",\n        \"interpretive_connections\": \"This formalization connects to A01 (Paul's belief) and A06 (Bultmann's view) by providing a framework for discussing scholarly consensus.\"\n      },\n      \"reproduction_receipt\": {},\n      \"corpus_links\": {}\n    },\n    {\n      \"identity\": {\n        \"claim_id\": \"A06\",\n        \"candidate_uuid\": \"lean4-A06-0003\"\n      },\n      \"source_selection\": {\n        \"exact_source_expression\": \"Bultmann can acknowledge that Paul believed in a bodily resurrection, but Bultmann personally rejects it.\",\n        \"selection_disposition\": \"FORMALIZE\",\n        \"reason\": \"This is a claim about the distinction between attributing a belief to someone else and holding that belief oneself. It can be formalized as a conjunction of two belief attributions: Bultmann believes that Paul believes in bodily resurrection, and Bultmann does not believe in bodily resurrection.\"\n      },\n      \"formal_object\": {\n        \"object_type\": \"THEOREM\",\n        \"exact_proposed_statement\": \"theorem bultmann_distinction : Believes Bultmann (Believes Paul (BodilyResurrection Jesus)) ∧ ¬ Believes Bultmann (BodilyResurrection Jesus)\",\n        \"fully_qualified_declaration\": \"HabermasChapter006.bultmann_distinction\",\n        \"project_root\": \"HabermasChapter006\",\n        \"module\": \"HabermasChapter006.Bultmann\"\n      },\n      \"symbol_table\": [\n        {\n          \"term\": \"Bultmann\",\n          \"formal_definition\": \"constant Bultmann : Agent\",\n          \"reader_meaning\": \"Rudolf Bultmann as a historical agent.\",\n          \"source_correspondence\": \"S032, S033, S034\"\n        },\n        {\n          \"term\": \"Believes\",\n          \"formal_definition\": \"constant Believes : Agent → Prop → Prop\",\n          \"reader_meaning\": \"Doxastic attitude.\",\n          \"source_correspondence\": \"S032, S034\"\n        },\n        {\n          \"term\": \"Paul\",\n          \"formal_definition\": \"constant Paul : Agent\",\n          \"reader_meaning\": \"The Apostle Paul.\",\n          \"source_correspondence\": \"S032\"\n        },\n        {\n          \"term\": \"BodilyResurrection\",\n          \"formal_definition\": \"constant BodilyResurrection : Agent → Prop\",\n          \"reader_meaning\": \"The proposition that a given agent was raised bodily.\",\n          \"source_correspondence\": \"S032, S034\"\n        },\n        {\n          \"term\": \"Jesus\",\n          \"formal_definition\": \"constant Jesus : Agent\",\n          \"reader_meaning\": \"Jesus of Nazareth.\",\n          \"source_correspondence\": \"S032\"\n        }\n      ],\n      \"assumptions_and_dependencies\": {\n        \"explicit_premises\": [\n          \"There exists an agent named Bultmann.\",\n          \"There exists an agent named Paul.\",\n          \"There exists an agent named Jesus.\",\n          \"There is a well-defined belief relation.\",\n          \"There is a well-defined proposition BodilyResurrection Jesus.\"\n        ],\n        \"custom_axioms\": [],\n        \"theological_starting_premises\": \"None required for the formal statement; the theorem asserts a psychological fact about Bultmann's beliefs.\",\n        \"non_vacuity_requirement\": \"The theorem is non-vacuous if there is a model where Bultmann believes that Paul believes in bodily resurrection and Bultmann does not believe in bodily resurrection.\"\n      },\n      \"verification_controls\": [\n        {\n          \"check\": \"module compilation\",\n          \"command_or_evidence\": \"lean --run HabermasChapter006.Bultmann\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"Lean corpus was not searched; no compilation attempted.\"\n        },\n        {\n          \"check\": \"declaration inspection\",\n          \"command_or_evidence\": \"#check HabermasChapter006.bultmann_distinction\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"No Lean environment available in this run.\"\n        },\n        {\n          \"check\": \"axiom dependency\",\n          \"command_or_evidence\": \"#print axioms HabermasChapter006.bultmann_distinction\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"No Lean environment available in this run.\"\n        },\n        {\n          \"check\": \"non-vacuity\",\n          \"command_or_evidence\": \"Construct a model with Agent = {Bultmann, Paul, Jesus}, Believes = fun a p => (a = Bultmann ∧ p = Believes Paul (BodilyResurrection Jesus)), BodilyResurrection = fun _ => True.\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"No Lean environment available in this run.\"\n        }\n      ],\n      \"result_and_boundary\": {\n        \"verification_status\": \"CANDIDATE\",\n        \"what_is_established\": \"A formal statement of the distinction between Bultmann's attribution of belief to Paul and Bultmann's own disbelief.\",\n        \"what_remains_open\": \"Whether Bultmann actually held these beliefs; the historical accuracy of the attribution; the theological implications of Bultmann's view.\",\n        \"encoding_fidelity_review\": \"The formalization captures the nested belief structure but does not model the reasons for Bultmann's disbelief or the distinction between 'acknowledge' and 'believe'.\",\n        \"interpretive_connections\": \"This formalization connects to A01 (Paul's belief) and A05 (Gundry's critique of Bultmann).\"\n      },\n      \"reproduction_receipt\": {},\n      \"corpus_links\": {}\n    },\n    {\n      \"identity\": {\n        \"claim_id\": \"A05\",\n        \"candidate_uuid\": \"lean4-A05-0004\"\n      },\n      \"source_selection\": {\n        \"exact_source_expression\": \"Robert Gundry wrote a book called 'Soma' (body) to refute Bultmann's view that resurrection was not physical.\",\n        \"selection_disposition\": \"FORMALIZE\",\n        \"reason\": \"This is a claim about the purpose of a book. It can be formalized as a relation between an author, a book, and a target view. It is a candidate for formalization with explicit assumptions about authorship and refutation.\"\n      },\n      \"formal_object\": {\n        \"object_type\": \"DEFINITION\",\n        \"exact_proposed_statement\": \"def GundrySomaRefutesBultmann : Prop := Wrote Gundry Soma ∧ Refutes Soma (BultmannView ResurrectionNotPhysical)\",\n        \"fully_qualified_declaration\": \"HabermasChapter006.GundrySomaRefutesBultmann\",\n        \"project_root\": \"HabermasChapter006\",\n        \"module\": \"HabermasChapter006.Gundry\"\n      },\n      \"symbol_table\": [\n        {\n          \"term\": \"Gundry\",\n          \"formal_definition\": \"constant Gundry : Agent\",\n          \"reader_meaning\": \"Robert Gundry as a historical agent.\",\n          \"source_correspondence\": \"S042, S043, S079, S080\"\n        },\n        {\n          \"term\": \"Soma\",\n          \"formal_definition\": \"constant Soma : Work\",\n          \"reader_meaning\": \"The book 'Soma' by Robert Gundry.\",\n          \"source_correspondence\": \"S042, S080\"\n        },\n        {\n          \"term\": \"Wrote\",\n          \"formal_definition\": \"constant Wrote : Agent → Work → Prop\",\n          \"reader_meaning\": \"Authorship relation.\",\n          \"source_correspondence\": \"S080\"\n        },\n        {\n          \"term\": \"Refutes\",\n          \"formal_definition\": \"constant Refutes : Work → Prop → Prop\",\n          \"reader_meaning\": \"A work argues against a proposition.\",\n          \"source_correspondence\": \"S080, S081\"\n        },\n        {\n          \"term\": \"BultmannView\",\n          \"formal_definition\": \"constant BultmannView : Prop → Prop\",\n          \"reader_meaning\": \"The view held by Bultmann.\",\n          \"source_correspondence\": \"S080, S081\"\n        },\n        {\n          \"term\": \"ResurrectionNotPhysical\",\n          \"formal_definition\": \"constant ResurrectionNotPhysical : Prop\",\n          \"reader_meaning\": \"The proposition that resurrection is not physical.\",\n          \"source_correspondence\": \"S080, S081\"\n        }\n      ],\n      \"assumptions_and_dependencies\": {\n        \"explicit_premises\": [\n          \"There exists an agent named Gundry.\",\n          \"There exists a work named Soma.\",\n          \"There is a well-defined authorship relation.\",\n          \"There is a well-defined refutation relation.\",\n          \"There is a well-defined proposition ResurrectionNotPhysical.\"\n        ],\n        \"custom_axioms\": [],\n        \"theological_starting_premises\": \"None required for the definition; it is a historical claim about the purpose of a book.\",\n        \"non_vacuity_requirement\": \"The definition is non-vacuous if there is a model where Gundry wrote Soma and Soma refutes Bultmann's view.\"\n      },\n      \"verification_controls\": [\n        {\n          \"check\": \"module compilation\",\n          \"command_or_evidence\": \"lean --run HabermasChapter006.Gundry\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"Lean corpus was not searched; no compilation attempted.\"\n        },\n        {\n          \"check\": \"declaration inspection\",\n          \"command_or_evidence\": \"#check HabermasChapter006.GundrySomaRefutesBultmann\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"No Lean environment available in this run.\"\n        },\n        {\n          \"check\": \"axiom dependency\",\n          \"command_or_evidence\": \"#print axioms HabermasChapter006.GundrySomaRefutesBultmann\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"No Lean environment available in this run.\"\n        },\n        {\n          \"check\": \"non-vacuity\",\n          \"command_or_evidence\": \"Construct a model with Agent = {Gundry}, Work = {Soma}, Wrote = fun _ _ => True, Refutes = fun _ _ => True.\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"No Lean environment available in this run.\"\n        }\n      ],\n      \"result_and_boundary\": {\n        \"verification_status\": \"CANDIDATE\",\n        \"what_is_established\": \"A formal definition of the claim that Gundry's Soma refutes Bultmann's non-physical view of resurrection.\",\n        \"what_remains_open\": \"Whether Gundry actually wrote Soma; whether Soma actually refutes Bultmann; the content of Bultmann's view.\",\n        \"encoding_fidelity_review\": \"The formalization captures the surface structure but does not model the argumentative content of the refutation.\",\n        \"interpretive_connections\": \"This formalization connects to A06 (Bultmann's view) and A01 (Paul's belief).\"\n      },\n      \"reproduction_receipt\": {},\n      \"corpus_links\": {}\n    },\n    {\n      \"identity\": {\n        \"claim_id\": \"A04\",\n        \"candidate_uuid\": \"lean4-A04-0005\"\n      },\n      \"source_selection\": {\n        \"exact_source_expression\": \"Tom Wright said the resurrection is as historically solid as Julius Caesar crossing the Rubicon river.\",\n        \"selection_disposition\": \"FORMALIZE\",\n        \"reason\": \"This is a claim about a comparison of historical certainty. It can be formalized as a relation of equal historical solidity between two events. It is a candidate for formalization with explicit assumptions about historical solidity.\"\n      },\n      \"formal_object\": {\n        \"object_type\": \"DEFINITION\",\n        \"exact_proposed_statement\": \"def WrightComparison : Prop := HistoricalSolidity Resurrection = HistoricalSolidity (Crossed Caesar Rubicon)\",\n        \"fully_qualified_declaration\": \"HabermasChapter006.WrightComparison\",\n        \"project_root\": \"HabermasChapter006\",\n        \"module\": \"HabermasChapter006.Wright\"\n      },\n      \"symbol_table\": [\n        {\n          \"term\": \"HistoricalSolidity\",\n          \"formal_definition\": \"constant HistoricalSolidity : Event → ℝ\",\n          \"reader_meaning\": \"A measure of how historically well-established an event is.\",\n          \"source_correspondence\": \"S048, S050\"\n        },\n        {\n          \"term\": \"Resurrection\",\n          \"formal_definition\": \"constant Resurrection : Event\",\n          \"reader_meaning\": \"The resurrection of Jesus.\",\n          \"source_correspondence\": \"S048, S050\"\n        },\n        {\n          \"term\": \"Crossed\",\n          \"formal_definition\": \"constant Crossed : Agent → River → Event\",\n          \"reader_meaning\": \"The event of an agent crossing a river.\",\n          \"source_correspondence\": \"S048, S049\"\n        },\n        {\n          \"term\": \"Caesar\",\n          \"formal_definition\": \"constant Caesar : Agent\",\n          \"reader_meaning\": \"Julius Caesar.\",\n          \"source_correspondence\": \"S048\"\n        },\n        {\n          \"term\": \"Rubicon\",\n          \"formal_definition\": \"constant Rubicon : River\",\n          \"reader_meaning\": \"The Rubicon river.\",\n          \"source_correspondence\": \"S048, S049\"\n        }\n      ],\n      \"assumptions_and_dependencies\": {\n        \"explicit_premises\": [\n          \"There is a well-defined measure of historical solidity.\",\n          \"There is an event called Resurrection.\",\n          \"There is an event called Crossed Caesar Rubicon.\"\n        ],\n        \"custom_axioms\": [],\n        \"theological_starting_premises\": \"None required for the definition; it is a claim about historical methodology.\",\n        \"non_vacuity_requirement\": \"The definition is non-vacuous if there is a model where the two events have equal historical solidity.\"\n      },\n      \"verification_controls\": [\n        {\n          \"check\": \"module compilation\",\n          \"command_or_evidence\": \"lean --run HabermasChapter006.Wright\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"Lean corpus was not searched; no compilation attempted.\"\n        },\n        {\n          \"check\": \"declaration inspection\",\n          \"command_or_evidence\": \"#check HabermasChapter006.WrightComparison\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"No Lean environment available in this run.\"\n        },\n        {\n          \"check\": \"axiom dependency\",\n          \"command_or_evidence\": \"#print axioms HabermasChapter006.WrightComparison\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"No Lean environment available in this run.\"\n        },\n        {\n          \"check\": \"non-vacuity\",\n          \"command_or_evidence\": \"Construct a model with Event = {Resurrection, Crossed Caesar Rubicon}, HistoricalSolidity = fun _ => 1.\",\n          \"status\": \"NOT_RUN\",\n          \"interpretation\": \"No Lean environment available in this run.\"\n        }\n      ],\n      \"result_and_boundary\": {\n        \"verification_status\": \"CANDIDATE\",\n        \"what_is_established\": \"A formal definition of Wright's comparison between the historical solidity of the resurrection and the crossing of the Rubicon.\",\n        \"what_remains_open\": \"Whether Wright actually made this comparison; the validity of the comparison; the meaning of historical solidity.\",\n        \"encoding_fidelity_review\": \"The formalization captures the comparative structure but does not model the criteria for historical solidity or the context of Wright's statement.\",\n        \"interpretive_connections\": \"This formalization connects to A02 (scholarly consensus) and A01 (Paul's belief).\"\n      },\n      \"reproduction_receipt\": {},\n      \"corpus_links\": {}\n    }\n  ],\n  \"existing_matches\": [],\n  \"notes\": \"The Lean corpus was not searched in this run. All verification controls are NOT_RUN and verification statuses are CANDIDATE or NOT_ATTEMPTED. The formal candidates are limited to 5 and are ordered by strength of formalizability. A03 (Dale Allison's personal testimony) and A07 (unclassified transcript segments) were not formalized because they are either personal testimony or non-propositional. The formalizations are minimal and do not assert the truth of any theological or historical claim; they only model the logical structure of the claims.\"\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 3532,
+      "completion_tokens": 6099,
+      "attempts": 1,
+      "elapsed_seconds": 20.45300000000134,
+      "started_at": "2026-09-27T13:55:55.947619+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T13:56:16.408055+00:00",
+      "tokens": 9631
+    }
+  ],
+  "prompt_sha256": "c87b5b912f34efeb98f7048e64db4bb952f5bfe3bbca775acb078b7a910a6c6d",
+  "tokens": 9631,
+  "reused": true
+}

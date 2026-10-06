@@ -1,0 +1,104 @@
+package nu.marginalia.model.processed;
+
+import nu.marginalia.sequence.VarintCodedSequence;
+import nu.marginalia.slop.SlopTable;
+import nu.marginalia.test.TestUtil;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.List;
+
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+
+public class SlopDocumentRecordTest {
+    private Path testDir;
+
+    @BeforeEach
+    void setUp() throws IOException {
+        testDir = Files.createTempDirectory(getClass().getSimpleName());
+    }
+
+    @AfterEach
+    void tearDown() throws IOException {
+        TestUtil.clearTempDir(testDir);
+    }
+
+    @Test
+    public void test() throws IOException {
+        var record = new SlopDocumentRecord("example.com", "https://example.com/foo", 1, "OK", "",
+                "test",
+                new byte[] { 1, 2, 3 },
+                1,
+                "HTML3",
+                100,
+                0xF00BAAL,
+                0.5f,
+                0xBEEFL,
+                "en",
+                null,
+                0,
+                List.of("test1", "test2"),
+                new long[] { 2, 3},
+                List.of(VarintCodedSequence.generate(1, 3, 5), VarintCodedSequence.generate(2, 4, 6)),
+                new byte[] { 'a', 'b' },
+                List.of(VarintCodedSequence.generate(2, 3, 5), VarintCodedSequence.generate(3, 4, 6))
+        );
+
+        try (var writer = new SlopDocumentRecord.Writer(testDir, 0)) {
+            writer.write(record);
+        }
+
+        try (var keywordReader = new SlopDocumentRecord.KeywordsProjectionReader(new SlopTable.Ref<>(testDir, 0))) {
+            assertTrue(keywordReader.hasMore());
+            var readRecord = keywordReader.next();
+            assertFalse(keywordReader.hasMore());
+
+            var expected = new SlopDocumentRecord.KeywordsProjection(
+                    record.domain(),
+                    record.ordinal(),
+                    record.htmlFeatures(),
+                    record.documentMetadata(),
+                    record.length(),
+                    record.pubDate(),
+                    record.languageIsoCode(),
+                    record.words(),
+                    record.metas(),
+                    record.positions(),
+                    record.spanCodes(),
+                    record.spans(),
+                    record.documentTextZstd()
+            );
+
+            Assertions.assertEquals(expected, readRecord);
+        }
+
+        try (var docDataReader = new SlopDocumentRecord.MetadataReader(testDir, 0)) {
+            assertTrue(docDataReader.hasMore());
+            var readRecord = docDataReader.next();
+            assertFalse(docDataReader.hasMore());
+
+            var expected2 = new SlopDocumentRecord.MetadataProjection(
+                    record.domain(),
+                    record.url(),
+                    record.ordinal(),
+                    record.title(),
+                    record.htmlFeatures(),
+                    record.htmlStandard(),
+                    record.languageIsoCode(),
+                    record.length(),
+                    record.hash(),
+                    record.quality(),
+                    record.pubYear()
+            );
+
+            Assertions.assertEquals(expected2, readRecord);
+        }
+    }
+}

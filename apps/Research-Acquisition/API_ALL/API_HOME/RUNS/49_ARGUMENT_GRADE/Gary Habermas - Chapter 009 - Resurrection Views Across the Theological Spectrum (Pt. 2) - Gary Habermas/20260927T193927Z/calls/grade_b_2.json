@@ -1,0 +1,174 @@
+{
+  "name": "grade_b_2",
+  "parsed": {
+    "arguments": [
+      {
+        "id": "G7",
+        "name": "Scholars-on-scholars section is edifying",
+        "conclusion": "Including scholars' comments about other scholars is worthwhile because it humanizes the debate and functions like mini book reviews.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "The section began as a personal list of post-1975 sources.",
+          "Comments by one respected scholar about another reveal their reasons and are often humorous.",
+          "Such material parallels the humanizing interpersonal details in The Chosen."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "Look at that section as many book reviews. M I N I not M Y M I NI book reviews."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "If you remember that this started out as a list only for me to update me on post 75 sources"
+          },
+          "st3": {
+            "v": 2,
+            "quote": "If you go back and read Albert Fitzer's Quest of the Historical Jesus, read some of the things they say about each other."
+          },
+          "st4": {
+            "v": 1,
+            "quote": "It really humanizes these people and contextualizes them like, right?"
+          },
+          "st5": {
+            "v": 0,
+            "quote": ""
+          },
+          "st6": {
+            "v": 2,
+            "quote": "I mean, baseball. If Mickey Manel, this could have happened, I don't know."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 2,
+            "quote": "Secondly, if you think about it, these kind of comments are like one comment book reviews."
+          }
+        },
+        "prior_art": "none known",
+        "originality": {
+          "or1": {
+            "v": 2,
+            "quote": "So I just did it because it interested me.",
+            "why": "No prior argument in the literature defends the pedagogical value of scholars' ad hominem comments about each other; this is an idiosyncratic editorial rationale."
+          },
+          "or2": {
+            "v": 2,
+            "quote": "If you go back and read Albert Fitzer's Quest of the Historical Jesus, read some of the things they say about each other.",
+            "why": "Uses Fitzer/Strauss invective and The Chosen as evidence no prior work on resurrection scholarship uses."
+          },
+          "or3": {
+            "v": 1,
+            "quote": "in the movie now that's such a big hit, The Chosen, that's out right now, you get the apostles going off on each other.",
+            "why": "Crosses from historical scholarship into popular TV drama as an analogy for humanization."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization or model offered."
+          }
+        },
+        "weakest_link": "P2's claim that such comments reveal reasons and are edifying is asserted from personal interest, not argued.",
+        "develop_next": "Give criteria distinguishing edifying humanizing detail from mere gossip/ad hominem, with examples.",
+        "case_map": [],
+        "domain": "history"
+      },
+      {
+        "id": "G8",
+        "name": "Resurrection has practical theological significance",
+        "conclusion": "The resurrection is practically significant because it grounds hope in death and shapes how believers live and spend their money.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "The New Testament links the resurrection of believers to Jesus's resurrection nearly twenty times.",
+          "Personal bereavement makes the hope of resurrection especially relevant.",
+          "If Jesus rose, the command to love others should affect practical decisions like finances."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "So I think it really is practical."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "the theology that's linked to the resurrection New Testament more than any other is the resurrection of believers almost 20 times."
+          },
+          "st3": {
+            "v": 1,
+            "quote": "My sister-in-law just died and the the funeral was just days ago and my wife the mother of my four children died in 1995."
+          },
+          "st4": {
+            "v": 1,
+            "quote": "But I also do things like if Jesus's resurrection happened, how are you going to spend your money?"
+          },
+          "st5": {
+            "v": 0,
+            "quote": ""
+          },
+          "st6": {
+            "v": 1,
+            "quote": "So how do you spend your money if that indeed is the second most important thing in your life?"
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 2,
+            "quote": "I mean if those aren't the times when resurrection when you want to know if there's some hope there that's the time."
+          }
+        },
+        "prior_art": "Gary Habermas, The Risen Jesus and Future Hope, 2003 (and 1 Cor 15:12-19 tradition)",
+        "originality": {
+          "or1": {
+            "v": 0,
+            "quote": "the theology that's linked to the resurrection New Testament more than any other is the resurrection of believers almost 20 times",
+            "why": "This is the standard Pauline practical-significance argument (1 Cor 15), restated without new development."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "how do you spend your money if that indeed is the second most important thing in your life?",
+            "why": "Applies the resurrection to personal finance, a concrete application prior art states only generally."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain bridge beyond the familiar ethics-theology link."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization or model."
+          }
+        },
+        "weakest_link": "P3's move from 'Jesus rose' to 'you should spend money differently' assumes the love command's authority without argument.",
+        "develop_next": "Give concrete cases showing the causal link from resurrection belief to changed financial practice.",
+        "case_map": [
+          "K16"
+        ],
+        "domain": "theology"
+      }
+    ]
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "grade_b_2",
+      "attempt": 1,
+      "text": "{\"arguments\": [\n {\"id\": \"G7\", \"name\": \"Scholars-on-scholars section is edifying\", \"conclusion\": \"Including scholars' comments about other scholars is worthwhile because it humanizes the debate and functions like mini book reviews.\", \"speaker\": \"Gary Habermas\",\n  \"premises\": [\"The section began as a personal list of post-1975 sources.\", \"Comments by one respected scholar about another reveal their reasons and are often humorous.\", \"Such material parallels the humanizing interpersonal details in The Chosen.\"],\n  \"strength\": {\n   \"st1\": {\"v\": 2, \"quote\": \"Look at that section as many book reviews. M I N I not M Y M I NI book reviews.\"},\n   \"st2\": {\"v\": 2, \"quote\": \"If you remember that this started out as a list only for me to update me on post 75 sources\"},\n   \"st3\": {\"v\": 2, \"quote\": \"If you go back and read Albert Fitzer's Quest of the Historical Jesus, read some of the things they say about each other.\"},\n   \"st4\": {\"v\": 1, \"quote\": \"It really humanizes these people and contextualizes them like, right?\"},\n   \"st5\": {\"v\": 0, \"quote\": \"\"},\n   \"st6\": {\"v\": 2, \"quote\": \"I mean, baseball. If Mickey Manel, this could have happened, I don't know.\"},\n   \"st7\": {\"v\": 0, \"quote\": \"\"},\n   \"st8\": {\"v\": 2, \"quote\": \"Secondly, if you think about it, these kind of comments are like one comment book reviews.\"}\n  },\n  \"prior_art\": \"none known\",\n  \"originality\": {\n   \"or1\": {\"v\": 2, \"quote\": \"So I just did it because it interested me.\", \"why\": \"No prior argument in the literature defends the pedagogical value of scholars' ad hominem comments about each other; this is an idiosyncratic editorial rationale.\"},\n   \"or2\": {\"v\": 2, \"quote\": \"If you go back and read Albert Fitzer's Quest of the Historical Jesus, read some of the things they say about each other.\", \"why\": \"Uses Fitzer/Strauss invective and The Chosen as evidence no prior work on resurrection scholarship uses.\"},\n   \"or3\": {\"v\": 1, \"quote\": \"in the movie now that's such a big hit, The Chosen, that's out right now, you get the apostles going off on each other.\", \"why\": \"Crosses from historical scholarship into popular TV drama as an analogy for humanization.\"},\n   \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization or model offered.\"}\n  },\n  \"weakest_link\": \"P2's claim that such comments reveal reasons and are edifying is asserted from personal interest, not argued.\",\n  \"develop_next\": \"Give criteria distinguishing edifying humanizing detail from mere gossip/ad hominem, with examples.\",\n  \"case_map\": [], \"domain\": \"history\"},\n {\"id\": \"G8\", \"name\": \"Resurrection has practical theological significance\", \"conclusion\": \"The resurrection is practically significant because it grounds hope in death and shapes how believers live and spend their money.\", \"speaker\": \"Gary Habermas\",\n  \"premises\": [\"The New Testament links the resurrection of believers to Jesus's resurrection nearly twenty times.\", \"Personal bereavement makes the hope of resurrection especially relevant.\", \"If Jesus rose, the command to love others should affect practical decisions like finances.\"],\n  \"strength\": {\n   \"st1\": {\"v\": 2, \"quote\": \"So I think it really is practical.\"},\n   \"st2\": {\"v\": 2, \"quote\": \"the theology that's linked to the resurrection New Testament more than any other is the resurrection of believers almost 20 times.\"},\n   \"st3\": {\"v\": 1, \"quote\": \"My sister-in-law just died and the the funeral was just days ago and my wife the mother of my four children died in 1995.\"},\n   \"st4\": {\"v\": 1, \"quote\": \"But I also do things like if Jesus's resurrection happened, how are you going to spend your money?\"},\n   \"st5\": {\"v\": 0, \"quote\": \"\"},\n   \"st6\": {\"v\": 1, \"quote\": \"So how do you spend your money if that indeed is the second most important thing in your life?\"},\n   \"st7\": {\"v\": 0, \"quote\": \"\"},\n   \"st8\": {\"v\": 2, \"quote\": \"I mean if those aren't the times when resurrection when you want to know if there's some hope there that's the time.\"}\n  },\n  \"prior_art\": \"Gary Habermas, The Risen Jesus and Future Hope, 2003 (and 1 Cor 15:12-19 tradition)\",\n  \"originality\": {\n   \"or1\": {\"v\": 0, \"quote\": \"the theology that's linked to the resurrection New Testament more than any other is the resurrection of believers almost 20 times\", \"why\": \"This is the standard Pauline practical-significance argument (1 Cor 15), restated without new development.\"},\n   \"or2\": {\"v\": 1, \"quote\": \"how do you spend your money if that indeed is the second most important thing in your life?\", \"why\": \"Applies the resurrection to personal finance, a concrete application prior art states only generally.\"},\n   \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain bridge beyond the familiar ethics-theology link.\"},\n   \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization or model.\"}\n  },\n  \"weakest_link\": \"P3's move from 'Jesus rose' to 'you should spend money differently' assumes the love command's authority without argument.\",\n  \"develop_next\": \"Give concrete cases showing the causal link from resurrection belief to changed financial practice.\",\n  \"case_map\": [\"K16\"], \"domain\": \"theology\"}\n]}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 13122,
+      "completion_tokens": 1347,
+      "attempts": 1,
+      "elapsed_seconds": 6.406999999999243,
+      "started_at": "2026-09-27T19:39:33.369955+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T19:39:39.783575+00:00",
+      "tokens": 14469
+    }
+  ],
+  "prompt_sha256": "55954ae6c1d1d86c630b2e9c3e77b433efcd5be296b99b471ef2e4b12cb67474",
+  "tokens": 14469
+}

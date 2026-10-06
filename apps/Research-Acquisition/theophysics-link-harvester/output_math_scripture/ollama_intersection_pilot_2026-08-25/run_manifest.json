@@ -1,0 +1,17 @@
+{
+  "started_at": "2026-08-25T16:32:00.947291+00:00",
+  "finished_at": "2026-08-25T16:32:21.163331+00:00",
+  "providers": [
+    "crossref"
+  ],
+  "query_count": 2,
+  "raw_candidate_count": 10,
+  "deduplicated_candidate_count": 10,
+  "errors": [],
+  "query_file": "D:\\GitHub\\Research-Acquisition\\theophysics-link-harvester\\math_scripture_queries.json",
+  "full_text_downloaded": false,
+  "ollama_requested": true,
+  "ollama_model": "qwen3:4b-instruct",
+  "ollama_reviewed_count": 2,
+  "ollama_errors": []
+}

@@ -1,0 +1,124 @@
+{
+  "name": "extract",
+  "parsed": {
+    "arguments": [
+      {
+        "id": "G1",
+        "name": "Habermas avoids Christian/non-Christian labels",
+        "speaker": "Gary Habermas",
+        "conclusion": "Habermas does not classify scholars as Christians versus non-Christians but rather as liberal versus conservative on the resurrection.",
+        "premises": [
+          "He has no right to judge who is a Christian, since God separates wheat from tares.",
+          "He uses categories like left/right, conservative/liberal, and scholarly spectrum instead.",
+          "Scholars who affirm the resurrection are placed on the right and those who deny it on the left, regardless of self-identification."
+        ],
+        "where": "S011-S072"
+      },
+      {
+        "id": "G2",
+        "name": "Habermas cites critics more often than believers",
+        "speaker": "Gary Habermas",
+        "conclusion": "Volume three cites critical scholars more frequently than believing scholars, though not because there are more critical names.",
+        "premises": [
+          "He counted the citations and found more from critical than believing commentators.",
+          "He originally listed liberals first and conservatives second in his source list.",
+          "The claim is about frequency of citation, not headcount of scholars."
+        ],
+        "where": "S259-S302"
+      },
+      {
+        "id": "G3",
+        "name": "Charity toward apparent misspeaking",
+        "speaker": "Dale (host) and Gary Habermas",
+        "conclusion": "Critics should apply the principle of charity to a single apparent misspeaking rather than treating it as revealing Habermas's real view.",
+        "premises": [
+          "Habermas's other interviews consistently avoid the Christian/non-Christian framing.",
+          "A charitable reader would examine the full context.",
+          "Critics demand multiple clear instances but rely on one cloudy one."
+        ],
+        "where": "S073-S118, S303-S325"
+      },
+      {
+        "id": "G4",
+        "name": "Notable scholarly quotes on bodily resurrection",
+        "speaker": "Gary Habermas",
+        "conclusion": "Several prominent scholars, including critics, affirm that Paul and the earliest Christians believed in a bodily resurrection.",
+        "premises": [
+          "John Cook states Paul saw the same body described in the Gospels.",
+          "Dale Allison says Paul meant a bodily resurrection even though Allison is open to non-bodily views.",
+          "Tom Wright, Michael Licona, and Robert Gundry make similar strong bodily-resurrection comments."
+        ],
+        "where": "S131-S213"
+      },
+      {
+        "id": "G5",
+        "name": "Presumption of innocence for historical sources",
+        "speaker": "Gary Habermas",
+        "conclusion": "Historical sources should generally be given the benefit of the doubt until shown otherwise, including skeptical sources.",
+        "premises": [
+          "Outside religion, one normally listens before accusing a source of lying.",
+          "Habermas was himself a skeptic for about twenty years, including after his PhD, so he can think as a skeptic.",
+          "He has read more material against the resurrection than for it."
+        ],
+        "where": "S217-S259"
+      },
+      {
+        "id": "G6",
+        "name": "Early creedal tradition predates the Gospels",
+        "speaker": "Gary Habermas",
+        "conclusion": "The earliest Christian creeds about Jesus's death and resurrection predate the written Gospels and go back to the 30s AD.",
+        "premises": [
+          "1 Thessalonians, commonly dated before 50 AD, assumes its audience already knows the core Christological definitions.",
+          "Romans 10:9 and 1 Corinthians 15:3ff preserve early creedal material.",
+          "Even the Jesus Seminar holds that the 1 Corinthians 15 creed existed before Paul's conversion."
+        ],
+        "where": "S328-S419"
+      },
+      {
+        "id": "G7",
+        "name": "Scholars-on-scholars section is edifying",
+        "speaker": "Gary Habermas",
+        "conclusion": "Including scholars' comments about other scholars is worthwhile because it humanizes the debate and functions like mini book reviews.",
+        "premises": [
+          "The section began as a personal list of post-1975 sources.",
+          "Comments by one respected scholar about another reveal their reasons and are often humorous.",
+          "Such material parallels the humanizing interpersonal details in The Chosen."
+        ],
+        "where": "S422-S472"
+      },
+      {
+        "id": "G8",
+        "name": "Resurrection has practical theological significance",
+        "speaker": "Gary Habermas",
+        "conclusion": "The resurrection is practically significant because it grounds hope in death and shapes how believers live and spend their money.",
+        "premises": [
+          "The New Testament links the resurrection of believers to Jesus's resurrection nearly twenty times.",
+          "Personal bereavement makes the hope of resurrection especially relevant.",
+          "If Jesus rose, the command to love others should affect practical decisions like finances."
+        ],
+        "where": "S489-S521"
+      }
+    ]
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "extract",
+      "attempt": 1,
+      "text": "{\"arguments\": [{\"id\": \"G1\", \"name\": \"Habermas avoids Christian/non-Christian labels\", \"speaker\": \"Gary Habermas\", \"conclusion\": \"Habermas does not classify scholars as Christians versus non-Christians but rather as liberal versus conservative on the resurrection.\", \"premises\": [\"He has no right to judge who is a Christian, since God separates wheat from tares.\", \"He uses categories like left/right, conservative/liberal, and scholarly spectrum instead.\", \"Scholars who affirm the resurrection are placed on the right and those who deny it on the left, regardless of self-identification.\"], \"where\": \"S011-S072\"}, {\"id\": \"G2\", \"name\": \"Habermas cites critics more often than believers\", \"speaker\": \"Gary Habermas\", \"conclusion\": \"Volume three cites critical scholars more frequently than believing scholars, though not because there are more critical names.\", \"premises\": [\"He counted the citations and found more from critical than believing commentators.\", \"He originally listed liberals first and conservatives second in his source list.\", \"The claim is about frequency of citation, not headcount of scholars.\"], \"where\": \"S259-S302\"}, {\"id\": \"G3\", \"name\": \"Charity toward apparent misspeaking\", \"speaker\": \"Dale (host) and Gary Habermas\", \"conclusion\": \"Critics should apply the principle of charity to a single apparent misspeaking rather than treating it as revealing Habermas's real view.\", \"premises\": [\"Habermas's other interviews consistently avoid the Christian/non-Christian framing.\", \"A charitable reader would examine the full context.\", \"Critics demand multiple clear instances but rely on one cloudy one.\"], \"where\": \"S073-S118, S303-S325\"}, {\"id\": \"G4\", \"name\": \"Notable scholarly quotes on bodily resurrection\", \"speaker\": \"Gary Habermas\", \"conclusion\": \"Several prominent scholars, including critics, affirm that Paul and the earliest Christians believed in a bodily resurrection.\", \"premises\": [\"John Cook states Paul saw the same body described in the Gospels.\", \"Dale Allison says Paul meant a bodily resurrection even though Allison is open to non-bodily views.\", \"Tom Wright, Michael Licona, and Robert Gundry make similar strong bodily-resurrection comments.\"], \"where\": \"S131-S213\"}, {\"id\": \"G5\", \"name\": \"Presumption of innocence for historical sources\", \"speaker\": \"Gary Habermas\", \"conclusion\": \"Historical sources should generally be given the benefit of the doubt until shown otherwise, including skeptical sources.\", \"premises\": [\"Outside religion, one normally listens before accusing a source of lying.\", \"Habermas was himself a skeptic for about twenty years, including after his PhD, so he can think as a skeptic.\", \"He has read more material against the resurrection than for it.\"], \"where\": \"S217-S259\"}, {\"id\": \"G6\", \"name\": \"Early creedal tradition predates the Gospels\", \"speaker\": \"Gary Habermas\", \"conclusion\": \"The earliest Christian creeds about Jesus's death and resurrection predate the written Gospels and go back to the 30s AD.\", \"premises\": [\"1 Thessalonians, commonly dated before 50 AD, assumes its audience already knows the core Christological definitions.\", \"Romans 10:9 and 1 Corinthians 15:3ff preserve early creedal material.\", \"Even the Jesus Seminar holds that the 1 Corinthians 15 creed existed before Paul's conversion.\"], \"where\": \"S328-S419\"}, {\"id\": \"G7\", \"name\": \"Scholars-on-scholars section is edifying\", \"speaker\": \"Gary Habermas\", \"conclusion\": \"Including scholars' comments about other scholars is worthwhile because it humanizes the debate and functions like mini book reviews.\", \"premises\": [\"The section began as a personal list of post-1975 sources.\", \"Comments by one respected scholar about another reveal their reasons and are often humorous.\", \"Such material parallels the humanizing interpersonal details in The Chosen.\"], \"where\": \"S422-S472\"}, {\"id\": \"G8\", \"name\": \"Resurrection has practical theological significance\", \"speaker\": \"Gary Habermas\", \"conclusion\": \"The resurrection is practically significant because it grounds hope in death and shapes how believers live and spend their money.\", \"premises\": [\"The New Testament links the resurrection of believers to Jesus's resurrection nearly twenty times.\", \"Personal bereavement makes the hope of resurrection especially relevant.\", \"If Jesus rose, the command to love others should affect practical decisions like finances.\"], \"where\": \"S489-S521\"}]}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 11647,
+      "completion_tokens": 1011,
+      "attempts": 1,
+      "elapsed_seconds": 5.610000000000582,
+      "started_at": "2026-09-27T19:39:27.747944+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T19:39:33.364949+00:00",
+      "tokens": 12658
+    }
+  ],
+  "prompt_sha256": "9b604c2bdc1a99c1a9a4fabc1e53b8bce111ddf84a4df3cef7ea2e31599b2dc1",
+  "tokens": 12658
+}

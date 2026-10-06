@@ -1,0 +1,90 @@
+{
+  "name": "fruits_turns_4",
+  "parsed": {
+    "range": "T091-T093",
+    "turns": [
+      {
+        "id": "T091",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1
+        ],
+        "why": {
+          "patience": "walks through Mark 14 points step by step",
+          "kindness": "explains Greek terms and context for listener",
+          "goodness": "cites Del Rosario dissertation honestly",
+          "faithfulness": "cites skeptical scholars like Allison fairly",
+          "gentleness": "fair to critics, notes best texts",
+          "self_control": "hedges on which text is strongest"
+        }
+      },
+      {
+        "id": "T092",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1
+        ],
+        "why": {
+          "patience": "lays out four claims in Mark 14 sequentially",
+          "kindness": "defines cloud rider and Baal for listener",
+          "goodness": "admits uncertainty about Revelation reference",
+          "faithfulness": "cites Del Rosario and Bach accurately",
+          "gentleness": "acknowledges critics' points fairly",
+          "self_control": "hedges on ranking the claims"
+        }
+      },
+      {
+        "id": "T093",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "fruits_turns_4",
+      "attempt": 1,
+      "text": "{\"range\": \"T091-T093\", \"turns\": [\n  {\"id\": \"T091\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,1,2,1,1], \"why\": {\"patience\": \"walks through Mark 14 points step by step\", \"kindness\": \"explains Greek terms and context for listener\", \"goodness\": \"cites Del Rosario dissertation honestly\", \"faithfulness\": \"cites skeptical scholars like Allison fairly\", \"gentleness\": \"fair to critics, notes best texts\", \"self_control\": \"hedges on which text is strongest\"}},\n  {\"id\": \"T092\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,1,2,1,1], \"why\": {\"patience\": \"lays out four claims in Mark 14 sequentially\", \"kindness\": \"defines cloud rider and Baal for listener\", \"goodness\": \"admits uncertainty about Revelation reference\", \"faithfulness\": \"cites Del Rosario and Bach accurately\", \"gentleness\": \"acknowledges critics' points fairly\", \"self_control\": \"hedges on ranking the claims\"}},\n  {\"id\": \"T093\", \"speaker\": \"host\", \"v\": [0,0,0,0,0,0,0,0,0]}\n]}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 19421,
+      "completion_tokens": 299,
+      "attempts": 1,
+      "elapsed_seconds": 2.7339999999967404,
+      "started_at": "2026-09-27T14:21:13.655761+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T14:21:16.396903+00:00",
+      "tokens": 19720
+    }
+  ],
+  "prompt_sha256": "5f78924135e6e8e0188f12646bfced2d3e2493228b4f17dd207e55db88f40437",
+  "tokens": 19720
+}

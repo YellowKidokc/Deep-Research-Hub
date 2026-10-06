@@ -1,0 +1,10 @@
+{
+  "number": "00",
+  "name": "TITLE",
+  "label": "00_TITLE",
+  "folder": "stations/00_TITLE",
+  "script": "00_title.py",
+  "rank": 0,
+  "options": [],
+  "retired": false
+}

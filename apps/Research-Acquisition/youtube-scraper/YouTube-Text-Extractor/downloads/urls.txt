@@ -1,0 +1,22 @@
+# Sample YouTube URLs for Bible Contradiction Analysis
+# 
+# Instructions:
+# 1. Replace these URLs with the videos you want to process
+# 2. One URL per line
+# 3. Lines starting with # are ignored
+# 4. Save this file and run batch processing
+
+# Bible Contradiction Videos
+https://www.youtube.com/watch?v=OA-4eQN16n0
+https://www.youtube.com/watch?v=AsRti0nQqmg
+https://www.youtube.com/watch?v=KJ29Ik1m854
+
+# Add your own URLs below:
+# https://www.youtube.com/watch?v=YOUR_VIDEO_ID
+# https://www.youtube.com/watch?v=ANOTHER_VIDEO_ID
+
+# Playlists (will process all videos in playlist)
+# https://www.youtube.com/playlist?list=PLAYLIST_ID
+
+# Channel uploads (will process recent videos)
+# https://www.youtube.com/channel/CHANNEL_ID/videos

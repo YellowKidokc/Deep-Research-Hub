@@ -1,0 +1,61 @@
+<h1 class="my-3">Events</h1>
+
+<table id="events" class="table">
+    <tr>
+        <th>Service Name</th>
+        <th>Instance</th>
+        <th>Event Time</th>
+        <th>Type</th>
+        <th>Message</th>
+    </tr>
+    <tr>
+            <td>
+                {{#if services}}
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-secondary btn-sm dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            {{#if serviceParam}}{{serviceParam}}{{else}}Filter{{/if}}
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="?type={{typeParam}}&after={{afterParam}}">Show All</a></li>
+                            {{#each services}}
+                                <li><a class="dropdown-item" href="?service={{name}}&type={{typeParam}}&after={{afterParam}}">{{name}} {{#if current}}*{{/if}}</a></li>
+                            {{/each}}
+                        </ul>
+                    </div>
+                {{/if}}
+            </td>
+            <td colspan="2"></td>
+            <td>
+            {{#if types}}
+                <div class="btn-group">
+                    <button type="button" class="btn btn-secondary btn-sm dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        {{#if typeParam}}{{typeParam}}{{else}}Filter{{/if}}
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="?service={{serviceParam}}&after={{afterParam}}">Show All</a></li>
+                        {{#each types}}
+                            <li><a class="dropdown-item" href="?type={{value}}&service={{serviceParam}}&after={{afterParam}}">{{name}} {{#if current}}*{{/if}}</a></li>
+                        {{/each}}
+                    </ul>
+                </div>
+            {{/if}}
+            </td>
+            <td></td>
+    </tr>
+    {{#each events}}
+    <tr>
+        <td>{{serviceName}}</td>
+        <td>{{{readableUUID instanceFull}}}</td>
+        <td title="{{eventDateTime}}">{{shortTimestamp eventDateTime}}</td>
+        <td>{{eventType}}</td>
+        <td>{{eventMessage}}</td>
+    </tr>
+    {{/each}}
+    <tfoot>
+    <tr>
+        <td colspan="6" style="padding: 0.5ch">
+            {{#if next}}<a href="/events?after={{next}}&{{elFilter}}" style="float:right">Next</a>{{/if}}
+        </td>
+    </tr>
+    </tfoot>
+</table>

@@ -1,0 +1,86 @@
+plugins {
+    id 'java'
+
+    id 'application'
+    id 'com.gradleup.shadow'
+    id 'jvm-test-suite'
+    id 'com.google.cloud.tools.jib' version '3.4.5'
+}
+
+application {
+    mainClass = 'nu.marginalia.index.IndexMain'
+    applicationName = 'index-service'
+}
+
+tasks.distZip.enabled = false
+
+apply from: "$rootProject.projectDir/docker.gradle"
+
+
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(rootProject.ext.jvmVersion))
+    }
+}
+apply from: "$rootProject.projectDir/srcsets.gradle"
+
+dependencies {
+    implementation project(':code:common:config')
+    implementation project(':code:common:service')
+    implementation project(':code:common:model')
+    implementation project(':code:common:db')
+    implementation project(':code:common:linkdb')
+
+    implementation project(':code:execution')
+    implementation project(':code:execution:api')
+    implementation project(':code:functions:favicon')
+    implementation project(':code:functions:favicon:api')
+    implementation project(':code:index:live-capture')
+    implementation project(':code:index:live-capture:api')
+
+    implementation project(':code:libraries:domain-lock')
+    implementation project(':code:libraries:message-queue')
+    implementation project(':code:processes:process-mq-api')
+
+    implementation project(':code:index')
+    implementation project(':code:functions:link-graph:partition')
+    implementation project(':code:functions:link-graph:api')
+    implementation project(':code:functions:search-query:api')
+    implementation project(':code:functions:nsfw-filter')
+    implementation project(':code:index:api')
+
+    testImplementation project(path: ':code:services-core:control-service')
+
+    implementation libs.bundles.slf4j
+    implementation libs.bundles.jetty
+    implementation libs.prometheus
+    implementation libs.bundles.jooby
+    implementation libs.notnull
+    implementation libs.guava
+    implementation dependencies.create(libs.guice.get()) {
+        exclude group: 'com.google.guava'
+    }
+    implementation libs.bundles.httpcomponents
+    implementation libs.roaringbitmap
+    implementation libs.snakeyaml
+
+    implementation libs.opencsv
+    implementation libs.trove
+    implementation libs.fastutil
+    implementation libs.bundles.gson
+    implementation libs.guava
+    libs.bundles.grpc.get().each {
+        implementation dependencies.create(it) {
+            exclude group: 'com.google.guava'
+        }
+    }
+
+
+    implementation libs.bundles.mariadb
+
+    testImplementation libs.bundles.slf4j.test
+    testImplementation libs.bundles.junit
+    testImplementation libs.mockito
+
+}
+

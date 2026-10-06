@@ -1,0 +1,2451 @@
+{
+  "title": "THE META ARGUMENT",
+  "source": "\\\\192.168.2.50\\h_hp\\Desktop\\Folders\\___Pipeline_Done_New\\One page paper API\\EVIDENCE\\PROCESSED_ORIGINALS\\O-08A_part_00_hook_e41c8dac.md",
+  "order": [
+    "fruits",
+    "axiom_nodes",
+    "atoms",
+    "lean4",
+    "stories",
+    "master_equation",
+    "coherence"
+  ],
+  "fruits": {
+    "spec_version": "0.3.0",
+    "target": {
+      "type": "paper",
+      "title": "O-08A_part_00_hook_e41c8dac",
+      "domain": "unknown; infer conservatively — the supplied unit is a rhetorical hook/preface to a multi-part argumentative paper making claims about mathematics, history, institutions, and moral structure; no disciplinary method is demonstrated within the unit",
+      "unit": "complete supplied document",
+      "comparison_class": "paper of similar purpose and evidence burden",
+      "population_boundary": "persons and groups explicitly represented in the supplied document; report omissions",
+      "time_window": null
+    },
+    "gate_results": [
+      {
+        "gate_id": "gate.truth_evidence",
+        "status": "FAIL",
+        "hard": true,
+        "rationale": "The unit makes multiple load-bearing factual and mathematical assertions with no traceable evidence supplied inside the evaluation boundary: S042 ('this is mathematics, not philosophy, and it has been proven'), S044 ('has maintained a continuous, accessible record throughout human history'), S046 ('a specific, documented, ordered sequence'), S048 ('governments have been deploying it as official policy since at least 2015'), S054 ('provable by algebra'), S060 ('exactly one event in the recorded history of the world'). The document itself defers evidence to later parts (S068 'Continue to Part 1'), so within the supplied unit the claims are unsupported. The per-sentence pass independently flags S040, S042, S044, S046, S048 as unhedged assertions. This is a hard-gate failure for the unit as supplied.",
+        "evidence_refs": [
+          "S042",
+          "S044",
+          "S046",
+          "S048",
+          "S054",
+          "S060",
+          "S068"
+        ],
+        "resolution": "Would resolve if the referenced proofs, documented sequences, and historical records are supplied and independently checkable in the continuation; not resolvable within this unit."
+      },
+      {
+        "gate_id": "gate.contradiction",
+        "status": "WARN",
+        "hard": true,
+        "rationale": "No internal logical contradiction is demonstrated within the unit. There is a tension between the strong unhedged assertions (S040, S042, S044, S046, S048) and the stated openness to falsification (S063, S064, S065). This tension is acknowledged and bounded by the author's own invitation to publish counter-evidence, so it is not load-bearing against the unit's coherence; it is flagged rather than failed.",
+        "evidence_refs": [
+          "S040",
+          "S042",
+          "S063",
+          "S064",
+          "S065"
+        ],
+        "resolution": "Tension is acknowledged by the author's stated commitment to publish breaks; no unresolved load-bearing contradiction identified in this unit."
+      },
+      {
+        "gate_id": "gate.scope",
+        "status": "WARN",
+        "hard": false,
+        "rationale": "The unit is a hook/preface and explicitly defers the substantive argument to later parts (S068). Claims span mathematics, history, institutional analysis, and moral philosophy (S040–S060) without demonstrating method in any of them within this unit. Scope is therefore broader than the evidence presented here, but the document frames itself as an introduction, which partially mitigates.",
+        "evidence_refs": [
+          "S031",
+          "S033",
+          "S068"
+        ],
+        "resolution": null
+      },
+      {
+        "gate_id": "gate.falsifiability",
+        "status": "PASS",
+        "hard": false,
+        "rationale": "The unit explicitly invites disconfirmation and commits to publishing counter-evidence: S063 ('check the evidence'), S064 ('show us where it breaks'), S065 ('We'll publish the break alongside the argument'). This is a genuine, stated falsification posture, though no specific kill condition is named for any individual claim.",
+        "evidence_refs": [
+          "S063",
+          "S064",
+          "S065"
+        ],
+        "resolution": null
+      },
+      {
+        "gate_id": "gate.bridge_validity",
+        "status": "FAIL",
+        "hard": false,
+        "rationale": "The unit makes cross-domain bridge claims — from mathematics to morality (S042, S054), from history to a unique reversal event (S060), from institutional capture to shame enforcement (S046, S048) — without stating mapping, invariants, bridge law, recovery, prediction, alternatives, or kill conditions. The bridge is asserted, not constructed, within this unit.",
+        "evidence_refs": [
+          "S042",
+          "S046",
+          "S048",
+          "S054",
+          "S060"
+        ],
+        "resolution": null
+      },
+      {
+        "gate_id": "gate.provenance",
+        "status": "WARN",
+        "hard": false,
+        "rationale": "Authorship and date are stated (S003 'David Lowe | POF 2828 | July 2026'), and the document is internally navigable (S068). However, no citations, data sources, proof references, or dependency artifacts are supplied within the unit for any of the ten claims. Provenance of the claims themselves is absent.",
+        "evidence_refs": [
+          "S003",
+          "S068"
+        ],
+        "resolution": null
+      },
+      {
+        "gate_id": "gate.agency_noncoercion",
+        "status": "PASS",
+        "hard": true,
+        "rationale": "The unit repeatedly preserves reader agency and explicitly disclaims coercion or belief-demand: S037 ('verify the answer yourself, not take our word for it'), S062 ('We are not asking you to believe anything at the outset'), S063 ('follow the argument, check the evidence'). No concealed compulsion or destruction of agency is evidenced within the unit.",
+        "evidence_refs": [
+          "S037",
+          "S062",
+          "S063"
+        ],
+        "resolution": null
+      }
+    ],
+    "fruit_profile": [
+      {
+        "fruit_id": "fruit.love",
+        "score": 2,
+        "confidence": 0.55,
+        "mechanism": "truth-aligned relational cohesion seeking the good of the whole and each member while bearing cost and preserving agency",
+        "positive_evidence": [
+          {
+            "ref_id": "EV-L-01",
+            "quote_or_event": "And the resolution — if it exists — requires you to understand the problem deeply enough that you can verify the answer yourself, not take our word for it.",
+            "location": "S037",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Preserves reader agency and refuses to substitute authorial authority for the reader's own verification, which is a love-consistent posture toward the reader.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "EV-L-02",
+            "quote_or_event": "We are not asking you to believe anything at the outset.",
+            "location": "S062",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Declines to impose belief, respecting the reader's epistemic agency.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "EV-L-03",
+            "quote_or_event": "If it lands somewhere you don't like, show us where it breaks.",
+            "location": "S064",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Invites the reader to contest the argument, treating the reader as a participant rather than a target.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "EV-L-04",
+            "quote_or_event": "That the population sorts into two classes over time, defined not by any demographic variable but by one structural feature: whether their connection to truth runs through the captured institutions or directly to the source.",
+            "location": "S050",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Binarizes the population into truth-connected and institution-mediated classes; this framing risks treating a large class of persons as structurally deficient, which is in tension with love's seeking the good of each member.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.4,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "WARN",
+          "power": "PASS",
+          "correction": "PASS",
+          "outsider": "WARN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "The unit's explicit posture toward the reader is agency-preserving and non-coercive (S037, S062, S063, S064), which is genuine love-consistent mechanism at the stated-intent level. However, the binary sorting of the population (S050) and the absence of any demonstrated cost borne for the good of the reader keep this at mixed/unknown. Score 2 reflects genuine positive intent plus unresolved tension; confidence is moderate because the unit is a hook and downstream behavior is not observable."
+      },
+      {
+        "fruit_id": "fruit.joy",
+        "score": 2,
+        "confidence": 0.3,
+        "mechanism": "durable participation in real good not dependent on denial, spectacle, status, or constant stimulation",
+        "positive_evidence": [],
+        "counterevidence": [],
+        "evidence_coverage": 0.05,
+        "stress_tests": {
+          "source": "UNKNOWN",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "UNKNOWN",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "The unit contains no evidence bearing on joy as defined. The per-sentence pass reports joy mean 0.0 with no plus2 or minus2 sentences. Score 2 with low confidence reflects insufficient evidence rather than a positive finding."
+      },
+      {
+        "fruit_id": "fruit.peace",
+        "score": 2,
+        "confidence": 0.35,
+        "mechanism": "reintegrated order in which relevant tensions are truthfully addressed without suppression",
+        "positive_evidence": [
+          {
+            "ref_id": "EV-P-01",
+            "quote_or_event": "We'll publish the break alongside the argument, because a framework that can't survive honest criticism isn't worth defending.",
+            "location": "S065",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Commits to surfacing rather than suppressing counter-evidence, which is peace-consistent (truthful address of tension).",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "EV-P-02",
+            "quote_or_event": "And underneath it all, something you can feel but can't name: the sense that everybody is fighting about the wrong thing.",
+            "location": "S023",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Frames ongoing conflict as unresolvable from inside and diagnoses the disputants as not knowing the line exists; this is a conflict-amplifying framing rather than a reintegrating one, though it is rhetorical setup.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.25,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "WARN",
+          "power": "UNKNOWN",
+          "correction": "PASS",
+          "outsider": "WARN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "The unit's stated commitment to publish counter-evidence (S065) is peace-consistent. The framing of public disputes as unresolvable and the population as sorted into two classes (S023, S050) is in tension with reintegrated order. The per-sentence pass gives peace mean 0.029 with no extremes. Score 2 reflects mixed evidence."
+      },
+      {
+        "fruit_id": "fruit.patience",
+        "score": 2,
+        "confidence": 0.4,
+        "mechanism": "preservation of persons and processes across the time required for truth, growth, correction, or convergence while acting when action is due",
+        "positive_evidence": [
+          {
+            "ref_id": "EV-PA-01",
+            "quote_or_event": "It will take time.",
+            "location": "S032",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Explicitly acknowledges that the argument requires time, which is patience-consistent at the process level.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "EV-PA-02",
+            "quote_or_event": "This is not a one-page fix, and anyone offering you a one-page fix is selling you something.",
+            "location": "S033",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Rejects premature closure and quick-fix framing, which is patience-consistent.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [],
+        "evidence_coverage": 0.3,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "PASS",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "The unit explicitly frames the argument as long-form and rejects one-page fixes (S032, S033), which is patience-consistent at the stated-intent level. No evidence of patience under cost or pressure is available in this unit. Score 2 reflects genuine positive intent with insufficient evidence for higher."
+      },
+      {
+        "fruit_id": "fruit.kindness",
+        "score": 2,
+        "confidence": 0.35,
+        "mechanism": "low-friction repair and assistance that reduces needless barriers without erasing truth or responsibility",
+        "positive_evidence": [
+          {
+            "ref_id": "EV-K-01",
+            "quote_or_event": "We are asking you to follow the argument, check the evidence, and see where it lands.",
+            "location": "S063",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Offers a low-friction path to engagement (follow, check, see) without demanding assent, which is kindness-consistent.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "EV-K-02",
+            "quote_or_event": "Whether the left is compassionate or naive.",
+            "location": "S015",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Frames one political side's compassion as possibly naive, which is a mild contempt-adjacent framing, though it is presented as a question rather than an assertion.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.2,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "WARN",
+          "power": "UNKNOWN",
+          "correction": "PASS",
+          "outsider": "WARN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "The unit offers a low-friction engagement path (S063) but also frames political opponents in mildly dismissive terms (S015, S016). The per-sentence pass gives kindness mean 0.029 with no extremes. Score 2 reflects mixed evidence."
+      },
+      {
+        "fruit_id": "fruit.goodness",
+        "score": 2,
+        "confidence": 0.3,
+        "mechanism": "truth-aligned action producing real non-malign benefit after costs and externalities are counted",
+        "positive_evidence": [
+          {
+            "ref_id": "EV-G-01",
+            "quote_or_event": "We'll publish the break alongside the argument, because a framework that can't survive honest criticism isn't worth defending.",
+            "location": "S065",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Commits to publishing disconfirming evidence, which is a costly truth-aligned action if honored.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [],
+        "evidence_coverage": 0.15,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "PASS",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "The unit's only goodness-relevant evidence is the stated commitment to publish counter-evidence (S065). No downstream outcome or cost accounting is available. The per-sentence pass gives goodness mean 0.015. Score 2 reflects insufficient evidence."
+      },
+      {
+        "fruit_id": "fruit.faithfulness",
+        "score": 2,
+        "confidence": 0.5,
+        "mechanism": "invariant fidelity across time, audiences, incentives, and pressure, joined to correction when the object of loyalty is false",
+        "positive_evidence": [
+          {
+            "ref_id": "EV-F-01",
+            "quote_or_event": "If it lands somewhere you don't like, show us where it breaks.",
+            "location": "S064",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Submits the framework to external falsification, which is faithfulness-consistent (fidelity to truth over tribal loyalty).",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "EV-F-02",
+            "quote_or_event": "We'll publish the break alongside the argument, because a framework that can't survive honest criticism isn't worth defending.",
+            "location": "S065",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Commits to publishing criticism against itself, which is the correction-joined form of faithfulness.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "EV-F-03",
+            "quote_or_event": "That no system can determine its own moral direction from inside itself — this is mathematics, not philosophy, and it has been proven.",
+            "location": "S042",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Asserts a proof without supplying it; if the proof is not supplied in continuation, this is commitment to an unverified claim, which is the counterfeit form of faithfulness (commitment to error over truth).",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.45,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "PASS",
+          "power": "UNKNOWN",
+          "correction": "PASS",
+          "outsider": "PASS",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "The unit's explicit falsification posture (S063, S064, S065) is the strongest faithfulness signal in the document, and the per-sentence pass ranks S065 and S064 as top-toward sentences with faithfulness as a driver. However, the unhedged assertion of a proof (S042) without supplying it is a potential counterfeit-faithfulness pattern if the continuation does not deliver. Score 2 reflects genuine positive intent plus unresolved verification dependency."
+      },
+      {
+        "fruit_id": "fruit.gentleness",
+        "score": 2,
+        "confidence": 0.45,
+        "mechanism": "power precisely restrained to the minimum force sufficient for the good while protecting the vulnerable",
+        "positive_evidence": [
+          {
+            "ref_id": "EV-GE-01",
+            "quote_or_event": "If it lands somewhere you don't like, show us where it breaks.",
+            "location": "S064",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Restrains the author's own authority by inviting the reader to break the argument, which is gentleness-consistent.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "EV-GE-02",
+            "quote_or_event": "We are not asking you to believe anything at the outset.",
+            "location": "S062",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Declines to use rhetorical force to compel belief, which is gentleness-consistent.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "EV-GE-03",
+            "quote_or_event": "That the enforcement mechanism is not force but shame — and that governments have been deploying it as official policy since at least 2015.",
+            "location": "S048",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Asserts a coercive mechanism (shame as official policy) without evidence; if the assertion is false, it is an uncontrolled-force claim against institutions, which is in tension with gentleness.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.35,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "PASS",
+          "power": "PASS",
+          "correction": "PASS",
+          "outsider": "WARN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "The unit restrains its own authority (S062, S064) which is gentleness-consistent, but also makes an unhedged claim about institutional coercion (S048) that, if unsupported, is an uncontrolled-force assertion. The per-sentence pass gives gentleness mean 0.029 with S064 and S065 as top-toward. Score 2 reflects mixed evidence."
+      },
+      {
+        "fruit_id": "fruit.self_control",
+        "score": 2,
+        "confidence": 0.5,
+        "mechanism": "boundary integrity and governance of appetite, impulse, scope, and optimization under the true good",
+        "positive_evidence": [
+          {
+            "ref_id": "EV-SC-01",
+            "quote_or_event": "We are not asking you to believe anything at the outset.",
+            "location": "S062",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Explicitly avoids overclaiming belief, which is self-control-consistent at the stated-intent level.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "EV-SC-02",
+            "quote_or_event": "This is not a one-page fix, and anyone offering you a one-page fix is selling you something.",
+            "location": "S033",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Rejects scope compression and quick-fix framing, which is self-control-consistent.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "EV-SC-03",
+            "quote_or_event": "That good and bad are structural properties of reality, as invariant as electric charge — not cultural opinions that shift with the century.",
+            "location": "S040",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Asserts invariance as fact without hedging; the per-sentence pass flags this as a self-control-negative sentence.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "EV-SC-04",
+            "quote_or_event": "That no system can determine its own moral direction from inside itself — this is mathematics, not philosophy, and it has been proven.",
+            "location": "S042",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Claims 'proven' mathematics without showing it; the per-sentence pass flags this as a self-control-negative sentence.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "EV-SC-05",
+            "quote_or_event": "That institutions get captured in a specific, documented, ordered sequence — money first, then government, then education, then the people who interpret reality for everyone else, then the moral language itself.",
+            "location": "S046",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Calls the sequence 'documented' without evidence shown; the per-sentence pass flags this as a self-control-negative sentence.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.55,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "WARN",
+          "power": "WARN",
+          "correction": "PASS",
+          "outsider": "WARN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "The unit shows self-control-consistent restraint in its stated posture (S033, S062) but repeatedly asserts unhedged factual and mathematical claims without evidence (S040, S042, S044, S046, S048). The per-sentence pass gives self_control a negative mean (-0.074) with 14.7% negative share, the only fruit with negative mean. Score 2 reflects genuine positive intent plus substantial counterevidence; this is the weakest fruit in the profile."
+      }
+    ],
+    "contradictions": [
+      {
+        "classification": "ACKNOWLEDGED_REPAIRED",
+        "load_bearing": false,
+        "resolved": true,
+        "evidence_refs": [
+          "S040",
+          "S042",
+          "S063",
+          "S064",
+          "S065"
+        ],
+        "fruit_relation": "Tension between unhedged assertion and stated openness to falsification; the author acknowledges the tension by inviting disconfirmation and committing to publish it.",
+        "consequence": "The tension is bounded by the author's own stated correction mechanism; it does not undermine the unit's coherence, but it does mean the unit's confidence claims must be verified in continuation."
+      },
+      {
+        "classification": "UNRESOLVED",
+        "load_bearing": true,
+        "resolved": false,
+        "evidence_refs": [
+          "S042",
+          "S044",
+          "S046",
+          "S048",
+          "S054",
+          "S060",
+          "S068"
+        ],
+        "fruit_relation": "The unit asserts multiple load-bearing factual and mathematical claims (proofs, documented sequences, historical records, official policy since 2015) without supplying evidence, and defers evidence to later parts. Within the supplied unit, these claims are unresolved.",
+        "consequence": "The truth_evidence hard gate fails for the unit as supplied. No positive overall verdict is permitted until the referenced evidence is supplied and independently checkable."
+      }
+    ],
+    "counterfeit_flags": [],
+    "anti_fruit_pressure": [
+      {
+        "fruit_id": "fruit.self_control",
+        "pressure": "Repeated unhedged assertion of unverified factual and mathematical claims (S040, S042, S044, S046, S048) creates pressure toward the counterfeit of self-control: image management of certainty without demonstrated warrant.",
+        "evidence_refs": [
+          "S040",
+          "S042",
+          "S044",
+          "S046",
+          "S048"
+        ]
+      },
+      {
+        "fruit_id": "fruit.love",
+        "pressure": "Binary sorting of the population into truth-connected and institution-mediated classes (S050) creates pressure toward treating a large class of persons as structurally deficient, which is in tension with love's seeking the good of each member.",
+        "evidence_refs": [
+          "S050"
+        ]
+      }
+    ],
+    "stakeholder_divergence": [
+      {
+        "stakeholder": "reader",
+        "observation": "The unit explicitly preserves reader agency (S037, S062, S063, S064) and invites verification rather than belief.",
+        "evidence_refs": [
+          "S037",
+          "S062",
+          "S063",
+          "S064"
+        ]
+      },
+      {
+        "stakeholder": "institutions named in the claims",
+        "observation": "The unit asserts institutional capture and coercive shame enforcement (S046, S048) without supplying evidence; these institutions are not represented as having a voice in the unit.",
+        "evidence_refs": [
+          "S046",
+          "S048"
+        ]
+      },
+      {
+        "stakeholder": "persons sorted into the institution-mediated class",
+        "observation": "The unit's binary sorting (S050) places a large class of persons on the far side of a structural line without their participation in the framing.",
+        "evidence_refs": [
+          "S050"
+        ]
+      }
+    ],
+    "aggregation": {
+      "mode": "gated_profile",
+      "arithmetic_summary": 0.5,
+      "geometric_balance": 0.5238,
+      "multiplicative_coherence": 0.001953,
+      "minimum_fruit": {
+        "fruit_id": "fruit.love",
+        "score": 2
+      },
+      "vetoes": [
+        "unresolved hard-gate failure: gate.truth_evidence"
+      ]
+    },
+    "epistemic_status": "UNRESOLVED",
+    "system_status": "BLOCKED",
+    "confidence": 0.45,
+    "missing_evidence": [
+      "The mathematical proof referenced in S042 ('this is mathematics, not philosophy, and it has been proven') is not supplied.",
+      "The algebraic constraint referenced in S054 ('provable by algebra') is not supplied.",
+      "The 'continuous, accessible record throughout human history' referenced in S044 is not supplied.",
+      "The 'specific, documented, ordered sequence' of institutional capture referenced in S046 is not supplied.",
+      "The claim that governments have deployed shame as official policy since at least 2015 (S048) is not supported by any cited source.",
+      "The 'exactly one event in the recorded history of the world' referenced in S060 is not identified or evidenced.",
+      "The historical trajectory across 'every measurable dimension' referenced in S058 is not supported by data.",
+      "The ten claims listed in S039–S060 are deferred to later parts (S068); the continuation is outside the evaluation boundary.",
+      "No citations, data sources, or dependency artifacts are present in the unit.",
+      "No downstream outcome evidence is available for any stated intent."
+    ],
+    "repair_path": [
+      "Supply the mathematical proof referenced in S042 and the algebraic constraint referenced in S054, with explicit statements of assumptions and scope.",
+      "Supply the documented sequence of institutional capture referenced in S046 with sources and dates.",
+      "Supply the historical record referenced in S044 and the unique reversal event referenced in S060 with identifiable, checkable evidence.",
+      "Supply the source for the claim about official shame policy since 2015 (S048).",
+      "Supply the data underlying the trajectory claim in S058.",
+      "Either hedge the unhedged assertions (S040, S042, S044, S046, S048) or supply the evidence that warrants them.",
+      "Clarify the binary sorting in S050 to avoid treating a large class of persons as structurally deficient without their participation.",
+      "Honor the stated commitment in S065 by publishing counter-evidence alongside the argument."
+    ],
+    "falsifier": "The unit's truth_evidence hard gate would be resolved if the continuation supplies the referenced proofs, documented sequences, historical records, and policy sources in independently checkable form. The unit's stated falsification posture (S064, S065) would be falsified if the continuation does not publish counter-evidence as committed.",
+    "limitations": [
+      "The supplied unit is a hook/preface (S068 defers to Part 1); most substantive claims are outside the evaluation boundary.",
+      "No downstream outcome evidence is available; all fruit scores are based on stated intent and mechanism within the unit.",
+      "The per-sentence summary was computed by a separate pass; its fruit means and extremes are cited where they bear on a fruit, but they are not treated as independent evidence.",
+      "No claim is made about hidden motives, salvation status, or divine origin.",
+      "The domain is inferred conservatively as unknown because the unit does not demonstrate a disciplinary method.",
+      "The comparison class is a paper of similar purpose and evidence burden; no specific comparison paper was supplied."
+    ],
+    "formal_receipt": {
+      "receipt_type": "FORMAL_EVALUATION_RECEIPT",
+      "proof_status": "RULE_DERIVED_FROM_RECORDED_ASSESSMENTS",
+      "source_sha256": "98981051040bb37e9acea8c7afc74db6e0f02d1431eb01dbfc452ce522645dae",
+      "rubric_sha256": "44951e7c43e587a281195666a572b8469014a8eb62f62bc9ef60ebc0d591f609",
+      "prompt_sha256": "b1f46f2c95e4be23b0401991cfc7686e643a314e661f03165daad5833ee57c74",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "premises": [
+        "P1: the evaluated source is fixed by source_sha256",
+        "P2: all nine Fruit dimensions are present on the 0..4 scale",
+        "P3: all seven gates are recorded independently of the Fruit scores",
+        "P4: evidence uncertainty remains explicit rather than being imputed"
+      ],
+      "deductions": [
+        "D1: arithmetic_summary is the mean of the nine scores normalized by four",
+        "D2: geometric_balance penalizes low dimensions and is non-authoritative",
+        "D3: unresolved hard-gate failures and severe counterfeit mechanisms create explicit vetoes",
+        "D4: a contradiction changes the verdict only through its classified severity, resolution, and consequence"
+      ],
+      "conclusion": "epistemic_status=UNRESOLVED; system_status=BLOCKED; veto_count=1",
+      "scope_boundary": "This receipt proves deterministic application of the declared rubric to recorded model assessments. It does not prove hidden motive, salvation status, divine origin, or empirical validity beyond the cited evidence.",
+      "generated_at": "2026-09-27T05:38:20Z"
+    },
+    "run_metadata": {
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "generated_at": "2026-09-27T05:38:20Z"
+    }
+  },
+  "fruits_sentences_summary": {
+    "scored": 68,
+    "total": 68,
+    "missing": [],
+    "fruit_means": {
+      "love": 0.103,
+      "joy": 0.0,
+      "peace": 0.029,
+      "patience": 0.044,
+      "kindness": 0.029,
+      "goodness": 0.015,
+      "faithfulness": 0.044,
+      "gentleness": 0.029,
+      "self_control": -0.074
+    },
+    "fruit_extremes": {
+      "love": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "joy": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "peace": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "patience": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "kindness": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "goodness": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "faithfulness": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "gentleness": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "self_control": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.147
+      }
+    },
+    "track_love": {
+      "joy": null,
+      "peace": 0.514,
+      "patience": 0.399,
+      "kindness": 0.514,
+      "goodness": 0.361,
+      "faithfulness": 0.634,
+      "gentleness": 0.514,
+      "self_control": 0.471
+    },
+    "top_toward": [
+      {
+        "id": "S065",
+        "para": "P12",
+        "sum": 6,
+        "love": 1,
+        "text": "We'll publish the break alongside the argument, because a framework that can't survive honest criticism isn't worth defending.",
+        "why": {
+          "faithfulness": "commits to publishing criticism against itself",
+          "gentleness": "restrains own authority, welcomes challenge"
+        }
+      },
+      {
+        "id": "S064",
+        "para": "P12",
+        "sum": 5,
+        "love": 1,
+        "text": "If it lands somewhere you don't like, show us where it breaks.",
+        "why": {
+          "gentleness": "invites opponent to show where it breaks",
+          "faithfulness": "submits framework to falsification"
+        }
+      },
+      {
+        "id": "S063",
+        "para": "P12",
+        "sum": 4,
+        "love": 1,
+        "text": "We are asking you to follow the argument, check the evidence, and see where it lands.",
+        "why": {
+          "faithfulness": "invites checking evidence against claims",
+          "love": "invites reader to verify rather than trust"
+        }
+      },
+      {
+        "id": "S037",
+        "para": "P08",
+        "sum": 3,
+        "love": 1,
+        "text": "And the resolution — if it exists — requires you to understand the problem deeply enough that you can verify the answer yourself, not take our word for it.",
+        "why": {
+          "love": "preserves reader's agency to verify themselves",
+          "self_control": "defers claim to reader verification"
+        }
+      },
+      {
+        "id": "S062",
+        "para": "P12",
+        "sum": 2,
+        "love": 1,
+        "text": "We are not asking you to believe anything at the outset.",
+        "why": {
+          "love": "respects reader's agency, asks no belief",
+          "self_control": "explicitly avoids overclaiming belief"
+        }
+      }
+    ],
+    "top_away": [
+      {
+        "id": "S040",
+        "para": "P10",
+        "sum": -1,
+        "love": 0,
+        "text": "That good and bad are structural properties of reality, as invariant as electric charge — not cultural opinions that shift with the century.",
+        "why": {
+          "self_control": "asserts invariance as fact without hedging"
+        }
+      },
+      {
+        "id": "S042",
+        "para": "P10",
+        "sum": -1,
+        "love": 0,
+        "text": "That no system can determine its own moral direction from inside itself — this is mathematics, not philosophy, and it has been proven.",
+        "why": {
+          "self_control": "claims 'proven' mathematics without showing it"
+        }
+      },
+      {
+        "id": "S044",
+        "para": "P10",
+        "sum": -1,
+        "love": 0,
+        "text": "That an external reference point must exist for the distinction between good and bad to be meaningful — and that such a reference point has maintained a continuous, accessible record throughout human history.",
+        "why": {
+          "self_control": "asserts continuous record as established fact"
+        }
+      },
+      {
+        "id": "S046",
+        "para": "P10",
+        "sum": -1,
+        "love": 0,
+        "text": "That institutions get captured in a specific, documented, ordered sequence — money first, then government, then education, then the people who interpret reality for everyone else, then the moral language itself.",
+        "why": {
+          "self_control": "calls sequence documented without evidence shown"
+        }
+      },
+      {
+        "id": "S048",
+        "para": "P10",
+        "sum": -1,
+        "love": 0,
+        "text": "That the enforcement mechanism is not force but shame — and that governments have been deploying it as official policy since at least 2015.",
+        "why": {
+          "self_control": "asserts official policy since 2015 unhedged"
+        }
+      }
+    ],
+    "love_turns": [
+      "S031",
+      "S040",
+      "S060"
+    ],
+    "counterfeit_candidates": [],
+    "hidden_fruit": [],
+    "paragraph_love": {
+      "P01": 0.0,
+      "P02": 0.0,
+      "P03": 0.0,
+      "P04": 0.0,
+      "P05": 0.0,
+      "P06": 0.0,
+      "P07": 0.0,
+      "P08": 0.29,
+      "P09": 0.0,
+      "P10": 0.0,
+      "P11": 0.0,
+      "P12": 1.0,
+      "P13": 1.0,
+      "P14": 0.0,
+      "P15": 0.0
+    },
+    "paragraph_total": {
+      "P01": 0.0,
+      "P02": 0.0,
+      "P03": 0.0,
+      "P04": 0.0,
+      "P05": 0.0,
+      "P06": 0.0,
+      "P07": 0.0,
+      "P08": 0.71,
+      "P09": 0.0,
+      "P10": -0.45,
+      "P11": 1.0,
+      "P12": 4.25,
+      "P13": 2.0,
+      "P14": 0.0,
+      "P15": 0.0
+    }
+  },
+  "axiom_nodes": {
+    "paper_uuid": "the-meta-argument-part-0",
+    "title": "THE META ARGUMENT",
+    "summary": "This is the introductory 'Hook' section of a larger work. It lays out ten claims that the author promises to substantiate, covering moral realism, the impossibility of self-grounding moral systems, the necessity of an external reference point, institutional capture, and a unique historical reversal event. The paper engages the axiom system primarily at the level of foundational premises (A1.1, A1.2, A2.2, A11.1, A11.2, A9.1, BC2, C8.2, T16.1) without yet providing the mathematical or empirical detail found in later parts.",
+    "primary_mode": "AX_CORE",
+    "axiom_nodes": [
+      {
+        "node_id": "A1.1",
+        "name": "Existence",
+        "mode": "AX_CORE",
+        "alignment": "supported",
+        "evidence_quote": "That good and bad are structural properties of reality, as invariant as electric charge",
+        "confidence": "medium",
+        "notes": "Presupposes a structured reality in which moral properties inhere."
+      },
+      {
+        "node_id": "A1.2",
+        "name": "Distinction",
+        "mode": "AX_CORE",
+        "alignment": "directly_asserted",
+        "evidence_quote": "That an external reference point must exist for the distinction between good and bad to be meaningful",
+        "confidence": "high",
+        "notes": "Explicitly asserts the necessity of a distinction (good/bad) grounded in an external reference."
+      },
+      {
+        "node_id": "A2.2",
+        "name": "Self-Grounding",
+        "mode": "AX_CORE",
+        "alignment": "contested",
+        "evidence_quote": "That no system can determine its own moral direction from inside itself — this is mathematics, not philosophy, and it has been proven.",
+        "confidence": "high",
+        "notes": "Denies that a system can self-ground its moral direction, aligning with the axiom's denial of self-grounding."
+      },
+      {
+        "node_id": "A9.1",
+        "name": "External Intervention Required",
+        "mode": "AX_CORE",
+        "alignment": "directly_asserted",
+        "evidence_quote": "That an external reference point must exist for the distinction between good and bad to be meaningful",
+        "confidence": "high",
+        "notes": "Explicitly requires an external reference point, matching the axiom."
+      },
+      {
+        "node_id": "A11.1",
+        "name": "Moral Realism",
+        "mode": "AX_CORE",
+        "alignment": "directly_asserted",
+        "evidence_quote": "That good and bad are structural properties of reality, as invariant as electric charge — not cultural opinions that shift with the century.",
+        "confidence": "high",
+        "notes": "Directly asserts moral realism."
+      },
+      {
+        "node_id": "A11.2",
+        "name": "Coherence-Morality Identity",
+        "mode": "AX_CORE",
+        "alignment": "supported",
+        "evidence_quote": "That good and bad are structural properties of reality, as invariant as electric charge",
+        "confidence": "medium",
+        "notes": "Implies moral properties are structural/coherent features of reality."
+      },
+      {
+        "node_id": "BC2",
+        "name": "Grace External To System",
+        "mode": "AX_CORE",
+        "alignment": "supported",
+        "evidence_quote": "That there is a mathematical constraint — provable by algebra — showing that justice and mercy cannot both be fully satisfied inside any closed system.",
+        "confidence": "medium",
+        "notes": "The claim that a closed system cannot satisfy both justice and mercy implies the need for an external resolution (grace)."
+      },
+      {
+        "node_id": "C8.2",
+        "name": "Works Salvation Impossible",
+        "mode": "AX_CORE",
+        "alignment": "supported",
+        "evidence_quote": "That no system can determine its own moral direction from inside itself — this is mathematics, not philosophy, and it has been proven.",
+        "confidence": "medium",
+        "notes": "If a system cannot self-determine moral direction, then salvation by works (internal effort) is impossible."
+      },
+      {
+        "node_id": "T16.1",
+        "name": "Christianity 8 of 8 BCs",
+        "mode": "AX_DERIVED",
+        "alignment": "supported",
+        "evidence_quote": "That there is exactly one event in the recorded history of the world where this trajectory reversed without the system collapsing — and that event has measurable features that no other candidate in history matches.",
+        "confidence": "medium",
+        "notes": "The unique historical reversal event is presented as the only candidate matching the boundary conditions, implicitly supporting Christianity as the unique solution."
+      }
+    ],
+    "unmapped_claims": [
+      "A04",
+      "A05",
+      "A06",
+      "A07",
+      "A09",
+      "A11"
+    ]
+  },
+  "atoms": {
+    "paper_uuid": "tp:meta-argument-2026",
+    "title": "THE META ARGUMENT",
+    "domainType": "theology",
+    "summary": "The Meta Argument introduces a framework claiming that political and cultural disputes are surface-level arguments about positions on a hidden mathematical line. It asserts that good and bad are structural properties of reality, that no closed system can determine its own moral direction, and that an external reference point is necessary. The document outlines ten claims covering moral realism, systemic capture, shame as enforcement, population sorting, communication technology patterns, a justice-mercy constraint, historical trajectory, and a unique reversal event. It invites rigorous examination and falsification.",
+    "atoms": [
+      {
+        "nodeType": "claim",
+        "stage": "01_canonical",
+        "name": "Good and bad are structural properties of reality",
+        "statementTechnical": "Good and bad are invariant structural properties of reality, analogous to electric charge, not culturally relative opinions.",
+        "statementPlain": "Right and wrong are built into the fabric of reality, like electric charge, not just cultural opinions that change over time.",
+        "claimClass": "floor-axiom",
+        "falsificationCondition": "If moral properties are shown to vary arbitrarily across cultures without any underlying invariant structure, or if they can be reduced entirely to social convention, the claim is falsified.",
+        "verificationStatus": "informal",
+        "challengeStatus": "challenged-open",
+        "edges": [
+          {
+            "type": "feedsInto",
+            "target": "",
+            "grade": "structural_analogy",
+            "propagates": true
+          }
+        ],
+        "source_sentences": [
+          "S040"
+        ],
+        "atom_id": "A01"
+      },
+      {
+        "nodeType": "claim",
+        "stage": "01_canonical",
+        "name": "No system can determine its own moral direction from inside itself",
+        "statementTechnical": "It is mathematically proven that no closed system can determine its own moral direction from within itself.",
+        "statementPlain": "A system cannot figure out its own moral direction on its own—this is a mathematical fact, not just philosophy.",
+        "claimClass": "theorem",
+        "falsificationCondition": "If a closed system is demonstrated to determine its own moral direction without external reference, the claim is falsified.",
+        "verificationStatus": "informal",
+        "challengeStatus": "challenged-open",
+        "edges": [
+          {
+            "type": "feedsInto",
+            "target": "",
+            "grade": "structural_identity",
+            "propagates": true
+          }
+        ],
+        "source_sentences": [
+          "S042"
+        ],
+        "atom_id": "A02"
+      },
+      {
+        "nodeType": "claim",
+        "stage": "01_canonical",
+        "name": "An external reference point must exist for moral distinction",
+        "statementTechnical": "An external reference point is necessary for the distinction between good and bad to be meaningful, and such a reference point has maintained a continuous, accessible record throughout human history.",
+        "statementPlain": "There must be an outside reference point for good and bad to mean anything, and that reference point has been continuously accessible throughout history.",
+        "claimClass": "bridge",
+        "falsificationCondition": "If no continuous, accessible external reference point can be identified in human history, or if moral distinctions are shown to be meaningful without one, the claim is falsified.",
+        "verificationStatus": "informal",
+        "challengeStatus": "challenged-open",
+        "edges": [
+          {
+            "type": "dependsOn",
+            "target": "",
+            "grade": "structural_identity",
+            "propagates": true
+          }
+        ],
+        "source_sentences": [
+          "S044"
+        ],
+        "atom_id": "A03"
+      },
+      {
+        "nodeType": "claim",
+        "stage": "01_canonical",
+        "name": "Institutions get captured in a specific ordered sequence",
+        "statementTechnical": "Institutions are captured in a documented, ordered sequence: money first, then government, then education, then media/reality interpreters, then moral language itself.",
+        "statementPlain": "Institutions get taken over in a specific order: money, then government, then education, then media, then moral language.",
+        "claimClass": "empirical-anchor",
+        "falsificationCondition": "If historical or contemporary cases show institutional capture occurring in a different order or without this sequence, the claim is falsified.",
+        "verificationStatus": "informal",
+        "challengeStatus": "challenged-open",
+        "edges": [
+          {
+            "type": "feedsInto",
+            "target": "",
+            "grade": "structural_analogy",
+            "propagates": true
+          }
+        ],
+        "source_sentences": [
+          "S046"
+        ],
+        "atom_id": "A04"
+      },
+      {
+        "nodeType": "claim",
+        "stage": "01_canonical",
+        "name": "Shame is the enforcement mechanism, deployed by governments since 2015",
+        "statementTechnical": "The enforcement mechanism for institutional capture is shame, not force, and governments have deployed it as official policy since at least 2015.",
+        "statementPlain": "Shame, not force, is used to enforce control, and governments have been doing this officially since at least 2015.",
+        "claimClass": "empirical-anchor",
+        "falsificationCondition": "If government policies since 2015 do not show systematic deployment of shame as an enforcement mechanism, or if force is the primary mechanism, the claim is falsified.",
+        "verificationStatus": "informal",
+        "challengeStatus": "challenged-open",
+        "edges": [
+          {
+            "type": "feedsInto",
+            "target": "",
+            "grade": "structural_analogy",
+            "propagates": true
+          }
+        ],
+        "source_sentences": [
+          "S048"
+        ],
+        "atom_id": "A05"
+      },
+      {
+        "nodeType": "claim",
+        "stage": "01_canonical",
+        "name": "Population sorts into two classes by connection to truth",
+        "statementTechnical": "The population sorts into two classes over time, defined not by demographics but by whether their connection to truth runs through captured institutions or directly to the source.",
+        "statementPlain": "People split into two groups over time: those who get truth through captured institutions and those who get it directly from the source.",
+        "claimClass": "prediction",
+        "falsificationCondition": "If population sorting does not correlate with the specified structural feature, or if no such two-class division emerges, the claim is falsified.",
+        "verificationStatus": "informal",
+        "challengeStatus": "challenged-open",
+        "edges": [
+          {
+            "type": "feedsInto",
+            "target": "",
+            "grade": "structural_analogy",
+            "propagates": true
+          }
+        ],
+        "source_sentences": [
+          "S050"
+        ],
+        "atom_id": "A06"
+      },
+      {
+        "nodeType": "claim",
+        "stage": "01_canonical",
+        "name": "Communication technologies follow a pattern of truth spread then capture",
+        "statementTechnical": "Every communication technology in history follows the same pattern: a brief window where truth spreads, followed by institutional capture of the infrastructure.",
+        "statementPlain": "All communication technologies—writing, printing, radio, TV, internet, social media—follow the same pattern: a short period of free truth, then institutions take over.",
+        "claimClass": "empirical-anchor",
+        "falsificationCondition": "If a communication technology is shown to not follow this pattern, or if the pattern is not universal, the claim is falsified.",
+        "verificationStatus": "informal",
+        "challengeStatus": "challenged-open",
+        "edges": [
+          {
+            "type": "feedsInto",
+            "target": "",
+            "grade": "structural_analogy",
+            "propagates": true
+          }
+        ],
+        "source_sentences": [
+          "S052"
+        ],
+        "atom_id": "A07"
+      },
+      {
+        "nodeType": "claim",
+        "stage": "01_canonical",
+        "name": "Justice and mercy cannot both be fully satisfied in a closed system",
+        "statementTechnical": "A mathematical constraint, provable by algebra, shows that justice and mercy cannot both be fully satisfied inside any closed system; someone always bears the deficit.",
+        "statementPlain": "It's mathematically impossible for a closed system to fully satisfy both justice and mercy—someone always pays the price.",
+        "claimClass": "theorem",
+        "falsificationCondition": "If a closed system is shown to fully satisfy both justice and mercy without any deficit, the claim is falsified.",
+        "verificationStatus": "informal",
+        "challengeStatus": "challenged-open",
+        "edges": [
+          {
+            "type": "feedsInto",
+            "target": "",
+            "grade": "structural_identity",
+            "propagates": true
+          }
+        ],
+        "source_sentences": [
+          "S054",
+          "S055",
+          "S056"
+        ],
+        "atom_id": "A08"
+      },
+      {
+        "nodeType": "claim",
+        "stage": "01_canonical",
+        "name": "Historical trajectory across measurable dimensions follows same curve",
+        "statementTechnical": "The historical trajectory across every measurable dimension—food sovereignty, information access, medical autonomy, educational independence, financial sovereignty, community structure—follows the same curve, in the same direction, with the same acceleration.",
+        "statementPlain": "Across all measurable areas—food, information, medicine, education, money, community—history follows the same downward curve at the same accelerating rate.",
+        "claimClass": "empirical-anchor",
+        "falsificationCondition": "If any measurable dimension shows a different trajectory or direction, the claim is falsified.",
+        "verificationStatus": "informal",
+        "challengeStatus": "challenged-open",
+        "edges": [
+          {
+            "type": "feedsInto",
+            "target": "",
+            "grade": "structural_analogy",
+            "propagates": true
+          }
+        ],
+        "source_sentences": [
+          "S058"
+        ],
+        "atom_id": "A09"
+      },
+      {
+        "nodeType": "claim",
+        "stage": "01_canonical",
+        "name": "One historical event reversed the trajectory without system collapse",
+        "statementTechnical": "There is exactly one event in recorded history where the trajectory reversed without the system collapsing, and that event has measurable features that no other candidate matches.",
+        "statementPlain": "Only one event in history reversed the downward trend without the system collapsing, and it has unique measurable features.",
+        "claimClass": "empirical-anchor",
+        "falsificationCondition": "If another event is found that reversed the trajectory without collapse, or if the identified event lacks the claimed measurable features, the claim is falsified.",
+        "verificationStatus": "informal",
+        "challengeStatus": "challenged-open",
+        "edges": [
+          {
+            "type": "feedsInto",
+            "target": "",
+            "grade": "structural_analogy",
+            "propagates": true
+          }
+        ],
+        "source_sentences": [
+          "S060"
+        ],
+        "atom_id": "A10"
+      },
+      {
+        "nodeType": "raw",
+        "stage": "00_inbox_working",
+        "name": "Part 0 — The Hook",
+        "statementTechnical": "",
+        "statementPlain": "",
+        "claimClass": "",
+        "falsificationCondition": "",
+        "verificationStatus": "informal",
+        "challengeStatus": "unchallenged",
+        "edges": [],
+        "source_sentences": [
+          "S001",
+          "S002",
+          "S003",
+          "S004",
+          "S005",
+          "S006",
+          "S007",
+          "S008",
+          "S009",
+          "S010",
+          "S011",
+          "S012",
+          "S013",
+          "S014",
+          "S015",
+          "S016",
+          "S017",
+          "S018",
+          "S019",
+          "S020",
+          "S021",
+          "S022",
+          "S023",
+          "S024",
+          "S025",
+          "S026",
+          "S027",
+          "S028",
+          "S029",
+          "S030",
+          "S031",
+          "S032",
+          "S033",
+          "S034",
+          "S035",
+          "S036",
+          "S037",
+          "S038",
+          "S039",
+          "S061",
+          "S062",
+          "S063",
+          "S064",
+          "S065",
+          "S066",
+          "S067",
+          "S068"
+        ],
+        "atom_id": "A11"
+      }
+    ]
+  },
+  "lean4": {
+    "station": "lean4",
+    "paper_uuid": "O-08A_part_00_hook_e41c8dac",
+    "run_uuid": "20260927T053743Z",
+    "template": "00_FULL_LEAN_TEMPLATE.md",
+    "formal_candidates": [
+      {
+        "identity": {
+          "claim_id": "A02",
+          "candidate_uuid": "lean4-A02-0001"
+        },
+        "source_selection": {
+          "exact_source_expression": "That no system can determine its own moral direction from inside itself — this is mathematics, not philosophy, and it has been proven.",
+          "selection_disposition": "FORMALIZE",
+          "reason": "The claim asserts a mathematical impossibility result about self-determination of moral direction. This is the strongest formalization candidate because it is explicitly framed as a proven mathematical fact, and it can be modeled as a fixed-point / diagonalization / self-reference obstruction in a formal system."
+        },
+        "formal_object": {
+          "object_type": "THEOREM",
+          "exact_proposed_statement": "For any formal system S with a representable internal moral-direction predicate D_S, if S is consistent and sufficiently expressive, then there is no internal derivation in S of a canonical moral direction for S itself; any such internal determination either fails to be canonical or induces a contradiction.",
+          "fully_qualified_declaration": "MetaArgument.NoSystemDeterminesOwnMoralDirection",
+          "project_root": "MetaArgument",
+          "module": "MetaArgument.SelfReference.MoralDirection"
+        },
+        "symbol_table": [
+          {
+            "term": "system",
+            "formal_definition": "A formal system S with language L, axioms A, and derivability relation ⊢_S.",
+            "reader_meaning": "Any institution, agent, or formal reasoning system that attempts to determine its own moral direction.",
+            "source_correspondence": "S042: 'no system can determine its own moral direction from inside itself'"
+          },
+          {
+            "term": "moral direction",
+            "formal_definition": "A predicate M_S : Sentence → Prop intended to classify sentences as morally correct for S.",
+            "reader_meaning": "The system's own account of what is good and bad.",
+            "source_correspondence": "S042 and S040"
+          },
+          {
+            "term": "inside itself",
+            "formal_definition": "Derivability using only axioms and rules of S, without an external oracle or external reference predicate.",
+            "reader_meaning": "Using only the system's own resources.",
+            "source_correspondence": "S042: 'from inside itself'"
+          },
+          {
+            "term": "canonical",
+            "formal_definition": "A unique, internally justified moral direction that is stable under the system's own reflection.",
+            "reader_meaning": "A moral direction the system can legitimately claim as its own.",
+            "source_correspondence": "S042"
+          }
+        ],
+        "assumptions_and_dependencies": {
+          "explicit_premises": [
+            "S is a consistent formal system.",
+            "S is sufficiently expressive to encode its own syntax and moral-direction predicate.",
+            "Moral direction is represented as an internal predicate D_S.",
+            "Canonical self-determination requires an internal fixed point or internal proof of D_S's correctness."
+          ],
+          "custom_axioms": [
+            "Axiom of internal moral representation: every system S under consideration has a definable predicate D_S.",
+            "Axiom of non-triviality: S contains at least two sentences with distinct moral classifications."
+          ],
+          "theological_starting_premises": "None. The formalization is purely logical and does not assume any theological premise.",
+          "non_vacuity_requirement": "There must exist at least one system S satisfying the expressiveness and consistency assumptions, and the theorem must not be vacuously true by defining 'canonical moral direction' as impossible by fiat."
+        },
+        "verification_controls": [
+          {
+            "check": "module compilation",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "Lean corpus was not searched and no Lean build was performed in this run."
+          },
+          {
+            "check": "declaration inspection",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No existing declaration was inspected."
+          },
+          {
+            "check": "axiom dependency",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No axiom dependency check was performed."
+          },
+          {
+            "check": "proof escape",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No proof escape check was performed."
+          },
+          {
+            "check": "non-vacuity",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "Non-vacuity was not checked."
+          },
+          {
+            "check": "negative control",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No negative control was run."
+          },
+          {
+            "check": "countermodel",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No countermodel was constructed."
+          },
+          {
+            "check": "ablation",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No ablation was performed."
+          },
+          {
+            "check": "independent encoding",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No independent encoding was attempted."
+          }
+        ],
+        "result_and_boundary": {
+          "verification_status": "CANDIDATE",
+          "what_is_established": "A precise formal target is proposed: a self-reference obstruction theorem for internal moral-direction determination.",
+          "what_remains_open": "Whether the proposed theorem is true under the stated assumptions, whether the assumptions are faithful to the paper's claim, and whether a Lean proof can be constructed.",
+          "encoding_fidelity_review": "The formalization captures the logical structure of 'no system can determine its own moral direction from inside itself' but does not establish that the paper's broader metaphysical or historical claims follow.",
+          "interpretive_connections": "Connects to Gödelian incompleteness, Tarski undefinability, and fixed-point theorems, but the paper's claim is broader and would require additional philosophical interpretation."
+        },
+        "reproduction_receipt": {
+          "run_id": "",
+          "timestamp": "",
+          "source_hashes": {},
+          "commands": [],
+          "exit_codes": [],
+          "log_paths": [],
+          "declarations_checked": []
+        },
+        "corpus_links": {
+          "human_companion": "",
+          "corpus_claim_register": "",
+          "supporting_summaries": []
+        }
+      },
+      {
+        "identity": {
+          "claim_id": "A08",
+          "candidate_uuid": "lean4-A08-0002"
+        },
+        "source_selection": {
+          "exact_source_expression": "That there is a mathematical constraint — provable by algebra — showing that justice and mercy cannot both be fully satisfied inside any closed system. Someone always eats the deficit.",
+          "selection_disposition": "FORMALIZE",
+          "reason": "The claim explicitly says 'provable by algebra' and asserts an impossibility result about satisfying two constraints in a closed system. This is a strong candidate for a formal theorem about resource conservation or constraint incompatibility."
+        },
+        "formal_object": {
+          "object_type": "THEOREM",
+          "exact_proposed_statement": "For any closed system with a conserved quantity Q, if justice requires full restitution of Q and mercy requires full forgiveness of Q, then there is no state in which both requirements are simultaneously satisfied without an external input or an internal deficit.",
+          "fully_qualified_declaration": "MetaArgument.ClosedSystem.JusticeMercyIncompatibility",
+          "project_root": "MetaArgument",
+          "module": "MetaArgument.ClosedSystem.JusticeMercy"
+        },
+        "symbol_table": [
+          {
+            "term": "closed system",
+            "formal_definition": "A system with no external inputs or outputs, modeled as a state space with a conservation law.",
+            "reader_meaning": "Any system that does not receive external intervention.",
+            "source_correspondence": "S054: 'inside any closed system'"
+          },
+          {
+            "term": "justice",
+            "formal_definition": "A constraint J requiring that every deficit be fully accounted for and restored.",
+            "reader_meaning": "Full satisfaction of what is owed.",
+            "source_correspondence": "S054"
+          },
+          {
+            "term": "mercy",
+            "formal_definition": "A constraint M requiring that no deficit be enforced against the debtor.",
+            "reader_meaning": "Full forgiveness without penalty.",
+            "source_correspondence": "S054"
+          },
+          {
+            "term": "deficit",
+            "formal_definition": "A quantity D > 0 representing an unpaid obligation.",
+            "reader_meaning": "The cost that someone must bear.",
+            "source_correspondence": "S055: 'Someone always eats the deficit.'"
+          }
+        ],
+        "assumptions_and_dependencies": {
+          "explicit_premises": [
+            "The system is closed: no external inputs or outputs.",
+            "There is a conserved quantity Q representing moral debt or obligation.",
+            "Justice requires Q to be fully restored.",
+            "Mercy requires Q to be fully forgiven.",
+            "Restoration and forgiveness are mutually exclusive for the same deficit."
+          ],
+          "custom_axioms": [
+            "Axiom of conservation: total Q in a closed system is constant.",
+            "Axiom of exclusivity: a deficit cannot be both restored and forgiven."
+          ],
+          "theological_starting_premises": "None. The formalization treats justice and mercy as abstract constraints, not theological doctrines.",
+          "non_vacuity_requirement": "There must exist at least one closed system with a non-zero deficit, and the theorem must not be vacuously true by defining justice and mercy as contradictory by definition."
+        },
+        "verification_controls": [
+          {
+            "check": "module compilation",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "Lean corpus was not searched and no Lean build was performed in this run."
+          },
+          {
+            "check": "declaration inspection",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No existing declaration was inspected."
+          },
+          {
+            "check": "axiom dependency",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No axiom dependency check was performed."
+          },
+          {
+            "check": "proof escape",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No proof escape check was performed."
+          },
+          {
+            "check": "non-vacuity",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "Non-vacuity was not checked."
+          },
+          {
+            "check": "negative control",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No negative control was run."
+          },
+          {
+            "check": "countermodel",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No countermodel was constructed."
+          },
+          {
+            "check": "ablation",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No ablation was performed."
+          },
+          {
+            "check": "independent encoding",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No independent encoding was attempted."
+          }
+        ],
+        "result_and_boundary": {
+          "verification_status": "CANDIDATE",
+          "what_is_established": "A precise formal target is proposed: an algebraic incompatibility theorem for justice and mercy in closed systems.",
+          "what_remains_open": "Whether the proposed theorem is true under the stated assumptions, whether the assumptions are faithful to the paper's claim, and whether a Lean proof can be constructed.",
+          "encoding_fidelity_review": "The formalization captures the logical structure of the claim but does not establish that the paper's broader theological or historical claims follow.",
+          "interpretive_connections": "Connects to conservation laws, constraint satisfaction, and game-theoretic impossibility results, but the paper's claim is broader and would require additional interpretation."
+        },
+        "reproduction_receipt": {
+          "run_id": "",
+          "timestamp": "",
+          "source_hashes": {},
+          "commands": [],
+          "exit_codes": [],
+          "log_paths": [],
+          "declarations_checked": []
+        },
+        "corpus_links": {
+          "human_companion": "",
+          "corpus_claim_register": "",
+          "supporting_summaries": []
+        }
+      },
+      {
+        "identity": {
+          "claim_id": "A03",
+          "candidate_uuid": "lean4-A03-0003"
+        },
+        "source_selection": {
+          "exact_source_expression": "That an external reference point must exist for the distinction between good and bad to be meaningful — and that such a reference point has maintained a continuous, accessible record throughout human history.",
+          "selection_disposition": "FORMALIZE",
+          "reason": "The first half of the claim is a formal existence claim: meaningful moral distinction requires an external reference point. This can be modeled as a theorem about the necessity of an external oracle for a non-trivial moral classification. The second half is historical and not formalizable."
+        },
+        "formal_object": {
+          "object_type": "THEOREM",
+          "exact_proposed_statement": "For any system S with an internal moral predicate D_S, if D_S is non-trivial and S is closed, then there exists no internal justification for D_S; therefore, a meaningful moral distinction requires an external reference point R not definable within S.",
+          "fully_qualified_declaration": "MetaArgument.ExternalReference.Necessity",
+          "project_root": "MetaArgument",
+          "module": "MetaArgument.ExternalReference.MoralDistinction"
+        },
+        "symbol_table": [
+          {
+            "term": "external reference point",
+            "formal_definition": "A predicate R not definable within S that grounds the moral classification.",
+            "reader_meaning": "A source of moral truth outside the system.",
+            "source_correspondence": "S044: 'an external reference point must exist'"
+          },
+          {
+            "term": "meaningful",
+            "formal_definition": "A moral distinction is meaningful if it is non-trivial and not reducible to arbitrary convention.",
+            "reader_meaning": "Good and bad have real content.",
+            "source_correspondence": "S044"
+          },
+          {
+            "term": "continuous, accessible record",
+            "formal_definition": "Not formalized; historical claim.",
+            "reader_meaning": "A historical record available across time.",
+            "source_correspondence": "S044"
+          }
+        ],
+        "assumptions_and_dependencies": {
+          "explicit_premises": [
+            "S is a closed system.",
+            "D_S is a non-trivial moral predicate.",
+            "Meaningful moral distinction requires non-arbitrary grounding.",
+            "No internal grounding for D_S exists (from A02)."
+          ],
+          "custom_axioms": [
+            "Axiom of non-arbitrariness: a meaningful moral distinction cannot be purely conventional.",
+            "Axiom of externality: if no internal grounding exists, then an external reference point is required."
+          ],
+          "theological_starting_premises": "None. The formalization does not assume any specific external reference point.",
+          "non_vacuity_requirement": "There must exist at least one system S with a non-trivial moral predicate, and the theorem must not be vacuously true by defining 'meaningful' as requiring an external reference point by fiat."
+        },
+        "verification_controls": [
+          {
+            "check": "module compilation",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "Lean corpus was not searched and no Lean build was performed in this run."
+          },
+          {
+            "check": "declaration inspection",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No existing declaration was inspected."
+          },
+          {
+            "check": "axiom dependency",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No axiom dependency check was performed."
+          },
+          {
+            "check": "proof escape",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No proof escape check was performed."
+          },
+          {
+            "check": "non-vacuity",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "Non-vacuity was not checked."
+          },
+          {
+            "check": "negative control",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No negative control was run."
+          },
+          {
+            "check": "countermodel",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No countermodel was constructed."
+          },
+          {
+            "check": "ablation",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No ablation was performed."
+          },
+          {
+            "check": "independent encoding",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No independent encoding was attempted."
+          }
+        ],
+        "result_and_boundary": {
+          "verification_status": "CANDIDATE",
+          "what_is_established": "A precise formal target is proposed: the necessity of an external reference point for meaningful moral distinction.",
+          "what_remains_open": "Whether the proposed theorem is true under the stated assumptions, whether the assumptions are faithful to the paper's claim, and whether a Lean proof can be constructed. The historical claim about a continuous record is not formalized.",
+          "encoding_fidelity_review": "The formalization captures the logical structure of the first half of the claim but does not establish the historical claim about a continuous, accessible record.",
+          "interpretive_connections": "Connects to Tarski's undefinability theorem and the need for an external metalanguage, but the paper's claim is broader and would require additional philosophical interpretation."
+        },
+        "reproduction_receipt": {
+          "run_id": "",
+          "timestamp": "",
+          "source_hashes": {},
+          "commands": [],
+          "exit_codes": [],
+          "log_paths": [],
+          "declarations_checked": []
+        },
+        "corpus_links": {
+          "human_companion": "",
+          "corpus_claim_register": "",
+          "supporting_summaries": []
+        }
+      },
+      {
+        "identity": {
+          "claim_id": "A01",
+          "candidate_uuid": "lean4-A01-0004"
+        },
+        "source_selection": {
+          "exact_source_expression": "That good and bad are structural properties of reality, as invariant as electric charge — not cultural opinions that shift with the century.",
+          "selection_disposition": "FORMALIZE",
+          "reason": "The claim asserts that good and bad are invariant structural properties. This can be modeled as a definition of moral properties as invariants under cultural transformation, with a theorem that they are not culturally relative. However, the claim is metaphysical and the formalization would be a model, not a proof of the metaphysical claim."
+        },
+        "formal_object": {
+          "object_type": "DEFINITION",
+          "exact_proposed_statement": "A moral property P is structural if it is invariant under all cultural transformations. A moral property is cultural if it varies under some cultural transformation. The claim is that good and bad are structural, not cultural.",
+          "fully_qualified_declaration": "MetaArgument.MoralStructurality",
+          "project_root": "MetaArgument",
+          "module": "MetaArgument.MoralProperties.Structural"
+        },
+        "symbol_table": [
+          {
+            "term": "structural property",
+            "formal_definition": "A property P such that for all cultural transformations T, P(x) ↔ P(T(x)).",
+            "reader_meaning": "A property built into the fabric of reality.",
+            "source_correspondence": "S040: 'structural properties of reality'"
+          },
+          {
+            "term": "cultural opinion",
+            "formal_definition": "A property P such that there exists a cultural transformation T with P(x) ∧ ¬P(T(x)).",
+            "reader_meaning": "A property that changes with culture.",
+            "source_correspondence": "S040: 'cultural opinions that shift with the century'"
+          },
+          {
+            "term": "invariant",
+            "formal_definition": "Unchanged under a specified class of transformations.",
+            "reader_meaning": "Does not change.",
+            "source_correspondence": "S040: 'as invariant as electric charge'"
+          }
+        ],
+        "assumptions_and_dependencies": {
+          "explicit_premises": [
+            "There is a class of cultural transformations.",
+            "Moral properties can be predicated of states or actions.",
+            "Invariance is defined with respect to cultural transformations."
+          ],
+          "custom_axioms": [
+            "Axiom of cultural transformation: there exists a non-trivial class of transformations representing cultural change."
+          ],
+          "theological_starting_premises": "None. The formalization is a model of the claim, not a proof of it.",
+          "non_vacuity_requirement": "There must exist at least one moral property that is structural and at least one that is cultural, to avoid vacuity."
+        },
+        "verification_controls": [
+          {
+            "check": "module compilation",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "Lean corpus was not searched and no Lean build was performed in this run."
+          },
+          {
+            "check": "declaration inspection",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No existing declaration was inspected."
+          },
+          {
+            "check": "axiom dependency",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No axiom dependency check was performed."
+          },
+          {
+            "check": "proof escape",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No proof escape check was performed."
+          },
+          {
+            "check": "non-vacuity",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "Non-vacuity was not checked."
+          },
+          {
+            "check": "negative control",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No negative control was run."
+          },
+          {
+            "check": "countermodel",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No countermodel was constructed."
+          },
+          {
+            "check": "ablation",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No ablation was performed."
+          },
+          {
+            "check": "independent encoding",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No independent encoding was attempted."
+          }
+        ],
+        "result_and_boundary": {
+          "verification_status": "CANDIDATE",
+          "what_is_established": "A precise formal definition is proposed for structural vs. cultural moral properties.",
+          "what_remains_open": "Whether good and bad actually satisfy the definition of structural properties is a metaphysical question not settled by the formalization.",
+          "encoding_fidelity_review": "The formalization captures the logical structure of the claim but does not establish the metaphysical claim that good and bad are structural.",
+          "interpretive_connections": "Connects to invariance principles in physics and mathematics, but the analogy to electric charge is metaphorical and not a formal identity."
+        },
+        "reproduction_receipt": {
+          "run_id": "",
+          "timestamp": "",
+          "source_hashes": {},
+          "commands": [],
+          "exit_codes": [],
+          "log_paths": [],
+          "declarations_checked": []
+        },
+        "corpus_links": {
+          "human_companion": "",
+          "corpus_claim_register": "",
+          "supporting_summaries": []
+        }
+      },
+      {
+        "identity": {
+          "claim_id": "A07",
+          "candidate_uuid": "lean4-A07-0005"
+        },
+        "source_selection": {
+          "exact_source_expression": "That every communication technology in history — writing, the printing press, radio, television, the internet, social media — follows the same pattern: a brief window where truth spreads, followed by institutional capture of the infrastructure.",
+          "selection_disposition": "FORMALIZE",
+          "reason": "The claim asserts a universal pattern across communication technologies. This can be modeled as a theorem about a class of technologies satisfying a temporal pattern of truth spread followed by capture. However, the claim is empirical and historical, so the formalization would be a model, not a proof."
+        },
+        "formal_object": {
+          "object_type": "THEOREM",
+          "exact_proposed_statement": "For any communication technology T in a class of technologies, there exists a time interval [t1, t2] during which truth spreads freely, followed by a time t3 > t2 after which the infrastructure of T is captured by institutions.",
+          "fully_qualified_declaration": "MetaArgument.CommunicationTechnology.Pattern",
+          "project_root": "MetaArgument",
+          "module": "MetaArgument.Communication.TechnologyPattern"
+        },
+        "symbol_table": [
+          {
+            "term": "communication technology",
+            "formal_definition": "A technology that enables the transmission of information across a population.",
+            "reader_meaning": "Writing, printing, radio, TV, internet, social media.",
+            "source_correspondence": "S052"
+          },
+          {
+            "term": "truth spreads",
+            "formal_definition": "A period during which information access is decentralized and uncensored.",
+            "reader_meaning": "Free flow of truth.",
+            "source_correspondence": "S052: 'a brief window where truth spreads'"
+          },
+          {
+            "term": "institutional capture",
+            "formal_definition": "A process by which institutions gain control over the infrastructure of T.",
+            "reader_meaning": "Institutions take over.",
+            "source_correspondence": "S052: 'institutional capture of the infrastructure'"
+          }
+        ],
+        "assumptions_and_dependencies": {
+          "explicit_premises": [
+            "There is a class of communication technologies.",
+            "Each technology has a lifecycle with a period of free truth spread and a period of institutional capture.",
+            "The pattern is universal across the class."
+          ],
+          "custom_axioms": [
+            "Axiom of technology lifecycle: every communication technology has a lifecycle with these phases."
+          ],
+          "theological_starting_premises": "None. The formalization is a model of the empirical claim.",
+          "non_vacuity_requirement": "There must exist at least one communication technology satisfying the pattern, and the class must not be empty."
+        },
+        "verification_controls": [
+          {
+            "check": "module compilation",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "Lean corpus was not searched and no Lean build was performed in this run."
+          },
+          {
+            "check": "declaration inspection",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No existing declaration was inspected."
+          },
+          {
+            "check": "axiom dependency",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No axiom dependency check was performed."
+          },
+          {
+            "check": "proof escape",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No proof escape check was performed."
+          },
+          {
+            "check": "non-vacuity",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "Non-vacuity was not checked."
+          },
+          {
+            "check": "negative control",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No negative control was run."
+          },
+          {
+            "check": "countermodel",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No countermodel was constructed."
+          },
+          {
+            "check": "ablation",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No ablation was performed."
+          },
+          {
+            "check": "independent encoding",
+            "command_or_evidence": "",
+            "status": "NOT_RUN",
+            "interpretation": "No independent encoding was attempted."
+          }
+        ],
+        "result_and_boundary": {
+          "verification_status": "CANDIDATE",
+          "what_is_established": "A precise formal target is proposed: a universal pattern theorem for communication technologies.",
+          "what_remains_open": "Whether the pattern actually holds for all communication technologies is an empirical question not settled by the formalization.",
+          "encoding_fidelity_review": "The formalization captures the logical structure of the claim but does not establish the empirical claim.",
+          "interpretive_connections": "Connects to technology lifecycle theories and institutional capture models, but the paper's claim is broader and would require historical evidence."
+        },
+        "reproduction_receipt": {
+          "run_id": "",
+          "timestamp": "",
+          "source_hashes": {},
+          "commands": [],
+          "exit_codes": [],
+          "log_paths": [],
+          "declarations_checked": []
+        },
+        "corpus_links": {
+          "human_companion": "",
+          "corpus_claim_register": "",
+          "supporting_summaries": []
+        }
+      }
+    ],
+    "existing_matches": [],
+    "notes": "The Lean corpus was not searched in this run. All verification controls are NOT_RUN and verification statuses are CANDIDATE or NOT_ATTEMPTED. The formal candidates are proposed targets, not verified theorems. Claims A04, A05, A06, A09, A10 are primarily historical, empirical, or sociological and are not formalized here. A11 is raw text and not a claim."
+  },
+  "stories": {
+    "type": "json_object",
+    "station": "stories",
+    "paper_uuid": "O-08A_part_00_hook_e41c8dac",
+    "run_uuid": "20260927T053743Z",
+    "stories": [
+      {
+        "story_id": "st-001",
+        "title_or_label": "The Endless Argument (Pick Your Fight)",
+        "story_type": "illustration",
+        "source_span": "P03–P06, S004–S024",
+        "characters_or_agents": [
+          "the reader",
+          "the other side",
+          "the left",
+          "the right",
+          "the libertarians",
+          "Trump",
+          "the system"
+        ],
+        "setting_or_context": "Contemporary political and cultural discourse; a list of live public controversies (immigration, guns, abortion, healthcare, criminal justice, climate, AI, the culture war).",
+        "plot_or_sequence": "The reader is invited to pick any hot-button issue; both sides have argued for years; nothing resolves; arguments grow louder and positions harden; beneath it all lies an unnamed sense that everyone is fighting about the wrong thing; the document then asserts that they are.",
+        "intended_function": "motivate",
+        "claims_illustrated": [
+          "A01",
+          "A02",
+          "A03"
+        ],
+        "emotional_or_rhetorical_load": "High. Uses exhaustion, frustration, and the felt but unnameable suspicion of misdirected conflict to create a hook. Direct second-person address ('You've been arguing...') builds identification.",
+        "boundaries": {
+          "what_it_shows": "That public controversies are numerous, persistent, and unresolved, and that participants often feel the debate is misdirected.",
+          "what_it_does_not_show": "That the debates are actually about a single hidden line, that the line has a mathematical structure, or that an external reference point exists. The felt sense of misdirection is asserted, not demonstrated.",
+          "what_would_falsify_the_narrative": "Evidence that these debates do resolve over time through ordinary political processes, or that participants' sense of misdirection is absent or attributable to unrelated causes."
+        },
+        "evidence_for_historical_content": [],
+        "is_separable_from_argument": false,
+        "notes": "Structurally load-bearing as the hook: it sets up the paper's central claim (A01–A03) by converting reader frustration into a premise. The narrative's persuasive force does not warrant the mathematical claims it introduces."
+      },
+      {
+        "story_id": "st-002",
+        "title_or_label": "The Line and the Point Off the Line",
+        "story_type": "thought_experiment",
+        "source_span": "P07, S025–S030",
+        "characters_or_agents": [
+          "nobody in the argument",
+          "the line",
+          "the point off the line"
+        ],
+        "setting_or_context": "An abstract geometric metaphor for moral and political debate.",
+        "plot_or_sequence": "Every fight is an argument about where to sit on a line; no one knows the line exists; the line has a mathematical structure, an internal constraint making resolution impossible from inside, a repeating cross-civilizational history, and exactly one exit — not a better position on the line but a point off the line entirely.",
+        "intended_function": "explain",
+        "claims_illustrated": [
+          "A02",
+          "A03"
+        ],
+        "emotional_or_rhetorical_load": "Moderate. The geometric image is clarifying and slightly revelatory; it reframes political disagreement as a category error.",
+        "boundaries": {
+          "what_it_shows": "A conceptual model in which internal debate cannot resolve because the resolution lies outside the debate's coordinate system.",
+          "what_it_does_not_show": "That any actual debate has this structure, that the 'line' is mathematical, or that an 'off-line' point is accessible. The metaphor asserts the conclusion it is meant to illustrate.",
+          "what_would_falsify_the_narrative": "A demonstration that moral/political disputes can be resolved from within their own frameworks, or that the proposed external reference point is neither necessary nor accessible."
+        },
+        "evidence_for_historical_content": [],
+        "is_separable_from_argument": true,
+        "notes": "The metaphor is separable from the formal argument but rhetorically prepares the reader to accept A02 and A03 as if the geometry were established."
+      },
+      {
+        "story_id": "st-003",
+        "title_or_label": "The Ten-Point Roadmap",
+        "story_type": "sermon_arc",
+        "source_span": "P09–P11, S038–S061",
+        "characters_or_agents": [
+          "the authors",
+          "the reader",
+          "institutions",
+          "governments",
+          "the population",
+          "the source"
+        ],
+        "setting_or_context": "A structured preview of the document's argument, presented as a numbered progression.",
+        "plot_or_sequence": "Ten claims are enumerated in order: structural good/bad; no self-determined moral direction; necessary external reference point; ordered institutional capture (money, government, education, media, moral language); shame as enforcement since 2015; two-class sorting by connection to truth; recurring pattern across communication technologies; mathematical impossibility of satisfying justice and mercy in a closed system; uniform downward historical trajectory across measurable dimensions; and exactly one historical event that reversed the trajectory without collapse. The ten are then said to form a single structure explaining the reader's fights, their irresolvability, and the required resolution.",
+        "intended_function": "persuade",
+        "claims_illustrated": [
+          "A01",
+          "A02",
+          "A03",
+          "A04",
+          "A05",
+          "A06",
+          "A07",
+          "A08",
+          "A09",
+          "A10"
+        ],
+        "emotional_or_rhetorical_load": "High. The cumulative list creates a sense of comprehensive inevitability; the closing promise ('explains not just the fights you're having, but why you're having them') offers resolution and meaning.",
+        "boundaries": {
+          "what_it_shows": "The intended architecture of the paper's argument and the order in which claims will be defended.",
+          "what_it_does_not_show": "That any of the ten claims are true. The roadmap is a promise of proof, not proof; each item remains an assertion until separately evidenced.",
+          "what_would_falsify_the_narrative": "Failure of any of the ten claims under examination, or a demonstration that they do not cohere into a single structure."
+        },
+        "evidence_for_historical_content": [],
+        "is_separable_from_argument": false,
+        "notes": "This is the paper's structural spine. It is a sermon-like arc: enumeration, promise of coherence, call to follow. The rhetorical force of the list does not transfer warrant to its items."
+      },
+      {
+        "story_id": "st-004",
+        "title_or_label": "The Open Invitation to Break the Argument",
+        "story_type": "other",
+        "source_span": "P12–P14, S062–S067",
+        "characters_or_agents": [
+          "the authors",
+          "the reader",
+          "the evidence"
+        ],
+        "setting_or_context": "A meta-rhetorical frame around the document's epistemic posture.",
+        "plot_or_sequence": "The authors disclaim any demand for belief, ask the reader to follow the argument and check the evidence, invite the reader to show where it breaks, promise to publish the break alongside the argument, and close with the suggestion that if it changes how the reader sees everything, that is between the reader and the evidence.",
+        "intended_function": "persuade",
+        "claims_illustrated": [],
+        "emotional_or_rhetorical_load": "Moderate. Conveys intellectual humility and confidence simultaneously; positions the authors as truth-seekers rather than authorities.",
+        "boundaries": {
+          "what_it_shows": "The authors' stated commitment to falsifiability and openness to criticism.",
+          "what_it_does_not_show": "That the argument is in fact falsifiable in practice, that criticism will be engaged substantively, or that the evidence supports the claims. Stated openness is not evidence of correctness.",
+          "what_would_falsify_the_narrative": "Evidence that the authors do not publish or engage with substantive breaks in the argument, or that the framework is insulated from disconfirmation."
+        },
+        "evidence_for_historical_content": [],
+        "is_separable_from_argument": true,
+        "notes": "Functions as a trust-building device. It is separable from the substantive argument and should not be treated as warrant for any claim."
+      }
+    ],
+    "narrative_arc": {
+      "opening_device": "Second-person enumeration of unresolved political controversies, ending in the felt but unnamed suspicion that everyone is fighting about the wrong thing.",
+      "central_tension": "Persistent, irresolvable public conflict versus the hidden claim that the conflict is misdirected and has a single external resolution.",
+      "resolution_or_payoff": "A promised ten-claim structure that, if it holds, explains the fights, their irresolvability, and the required resolution — deferred to subsequent parts.",
+      "return_to_opening": true
+    },
+    "notes": "This is Part 0 (the hook) of a larger work; it contains no empirical evidence, only framing, enumeration, and an invitation. All ten claims are previewed rather than argued here. The narrative's persuasive power is high and should not be mistaken for warrant. Historical claims (A04, A05, A07, A09, A10) are asserted without supporting evidence in this span and are marked as unverified."
+  },
+  "master_equation": {
+    "core_relation": {
+      "sentence": "The ten claims are not independent topics but a single structure: if all ten hold up under examination, they jointly explain the unresolvable fights, why they don't resolve, and what the resolution would require; if the structure holds, resolution requires a point off the line (an external reference point), and if any claim fails, the whole structure fails.",
+      "quote": "If those ten claims hold up under examination, they form a single structure — and that structure explains not just the fights you're having, but why you're having them, why they don't resolve, and what the resolution would require. [S061]"
+    },
+    "core_relation_run2": {
+      "sentence": "The ten claims are not independent topics but a single structure: if all ten hold up under examination, they jointly explain the unresolvable fights, why they don't resolve, and what the resolution would require; if the structure holds, resolution requires a point off the line (an external reference point), and if any claim fails, the whole structure fails.",
+      "quote": "If those ten claims hold up under examination, they form a single structure — and that structure explains not just the fights you're having, but why you're having them, why they don't resolve, and what the resolution would require. [S061]"
+    },
+    "product_test": {
+      "run1": "multiplicative",
+      "run2": "multiplicative",
+      "status": "agreed",
+      "quote": "If those ten claims hold up under examination, they form a single structure — and that structure explains not just the fights you're having, but why you're having them, why they don't resolve, and what the resolution would require. [S061]",
+      "reason": "The paper frames the ten claims as jointly constituting one structure whose explanatory power depends on all of them holding; the conditional 'If those ten claims hold up' plus 'they form a single structure' implies that a failure in any claim collapses the structure, not merely weakens it. This is reinforced by the demand to 'show us where it breaks' [S064] and the promise to publish the break [S065], treating a single break as fatal to the framework. The product-like logic is also mirrored in the claim that resolution is 'exactly one exit — which is not a better position on the line, but a point off the line entirely' [S030], where missing the exit means no resolution at all."
+    },
+    "slots": [
+      {
+        "slot": "G",
+        "fit_1": "direct",
+        "fit_2": "direct",
+        "status": "agreed",
+        "plays_role": "External reference point / outside negentropy source that the closed system cannot generate from inside; required for the good/bad distinction to be meaningful and for any exit from the line.",
+        "quote": "That an external reference point must exist for the distinction between good and bad to be meaningful — and that such a reference point has maintained a continuous, accessible record throughout human history. [S044]"
+      },
+      {
+        "slot": "M",
+        "fit_1": "direct",
+        "fit_2": "direct",
+        "status": "agreed",
+        "plays_role": "Alignment with the external reference point rather than with captured institutions; the population sorts by whether their connection to truth runs through captured institutions or directly to the source.",
+        "quote": "That the population sorts into two classes over time, defined not by any demographic variable but by one structural feature: whether their connection to truth runs through the captured institutions or directly to the source. [S050]"
+      },
+      {
+        "slot": "E",
+        "fit_1": "direct",
+        "fit_2": "direct",
+        "status": "agreed",
+        "plays_role": "Signal fidelity: whether truth survives transmission through communication technologies and captured infrastructure; the paper's pattern is a brief window where truth spreads, then capture of the infrastructure.",
+        "quote": "That every communication technology in history — writing, the printing press, radio, television, the internet, social media — follows the same pattern: a brief window where truth spreads, followed by institutional capture of the infrastructure. [S052]"
+      },
+      {
+        "slot": "S_eff",
+        "fit_1": "analogous",
+        "fit_2": "analogous",
+        "status": "agreed",
+        "plays_role": "Effective entropy: captured institutions, noise, and the deficit that must be eaten; entropy-like degradation that lowers coherence and makes resolution impossible from inside.",
+        "quote": "That there is a mathematical constraint — provable by algebra — showing that justice and mercy cannot both be fully satisfied inside any closed system. [S054] Someone always eats the deficit. [S055]"
+      },
+      {
+        "slot": "T",
+        "fit_1": "direct",
+        "fit_2": "direct",
+        "status": "agreed",
+        "plays_role": "Temporal integration: the historical trajectory and repeating pattern across civilizations; time accumulates consequence and reveals the same curve.",
+        "quote": "That the historical trajectory across every measurable dimension — food sovereignty, information access, medical autonomy, educational independence, financial sovereignty, community structure — follows the same curve, in the same direction, with the same acceleration. [S058]"
+      },
+      {
+        "slot": "K",
+        "fit_1": "analogous",
+        "fit_2": "analogous",
+        "status": "agreed",
+        "plays_role": "Compression: the ten claims compress into a single structure; ordered meaning compresses while noise does not. The meta-argument itself is a compression of many fights into one line-plus-exit.",
+        "quote": "If those ten claims hold up under examination, they form a single structure — and that structure explains not just the fights you're having, but why you're having them, why they don't resolve, and what the resolution would require. [S061]"
+      },
+      {
+        "slot": "R",
+        "fit_1": "direct",
+        "fit_2": "direct",
+        "status": "agreed",
+        "plays_role": "Phase transition: capture occurs in a specific ordered sequence (money, government, education, interpreters of reality, moral language), and there is exactly one historical event where the trajectory reversed without collapse — a threshold/state change.",
+        "quote": "That institutions get captured in a specific, documented, ordered sequence — money first, then government, then education, then the people who interpret reality for everyone else, then the moral language itself. [S046]"
+      },
+      {
+        "slot": "Q",
+        "fit_1": "analogous",
+        "fit_2": "analogous",
+        "status": "agreed",
+        "plays_role": "Superposition: open possibility stays unresolved until actualized; the fights are positions on a line whose structure is unknown, and resolution is not a better position but a point off the line. The line itself holds unresolved possibilities until the exit is actualized.",
+        "quote": "Every one of those fights is an argument about where to sit on a line. [S025] And nobody in the argument knows the line exists. [S026] ... And it has exactly one exit — which is not a better position on the line, but a point off the line entirely. [S030]"
+      },
+      {
+        "slot": "F",
+        "fit_1": "analogous",
+        "fit_2": "analogous",
+        "status": "agreed",
+        "plays_role": "Non-local correlation: the same pattern repeats across civilizations that never communicated, and the single reversing event has measurable features no other candidate matches — correlated structure across independent systems.",
+        "quote": "It has a history that shows the same pattern repeating across civilizations that never communicated. [S029]"
+      },
+      {
+        "slot": "C",
+        "fit_1": "analogous",
+        "fit_2": "analogous",
+        "status": "agreed",
+        "plays_role": "Integration: the local integrator inside the product; the single structure that integrates the ten claims, and the reader who must verify the answer themselves rather than take it on authority.",
+        "quote": "And the resolution — if it exists — requires you to understand the problem deeply enough that you can verify the answer yourself, not take our word for it. [S037]"
+      }
+    ],
+    "contested": [],
+    "analog_strength": 3,
+    "analog_strength_spread": "3-3",
+    "confidence": [
+      "medium",
+      "medium"
+    ],
+    "one_line": "The Meta Argument's ten-claim single structure is a plausible multiplicative analog of the master equation, with strong direct fits for G, M, E, T, and R, but the product test is inferred rather than formal and several slots (Q, F, C, S_eff) are stretched or analogical.",
+    "breaks": [
+      "The paper treats the ten claims as a structure but does not formally state a multiplicative law; the product test is inferred from 'they form a single structure' and the falsification demand, not from an explicit equation.",
+      "G is framed as a historical/external reference point with a continuous record, which is more concrete and testable than the abstract external negentropy influx of the master equation; the analogy may over-specify G.",
+      "S_eff is mapped to a moral/justice deficit and institutional capture, but the paper does not quantify entropy or show it as a multiplicative factor; it is closer to a constraint than a slot.",
+      "Q is stretched: the paper's 'line' is a set of positions, not a quantum-like superposition; the unresolved-until-actualized reading is interpretive.",
+      "F is stretched: 'same pattern across civilizations that never communicated' is a historical correlation, not a physical non-local correlation.",
+      "C is stretched: the integrator is the reader/framework, not a local physical integrator.",
+      "The paper adds a factor with no clean slot: shame as the enforcement mechanism [S048], which functions as a social enforcement channel rather than any of the ten master-equation slots."
+    ],
+    "extra_factors": [
+      [
+        "Shame as enforcement mechanism: 'That the enforcement mechanism is not force but shame — and that governments have been deploying it as official policy since at least 2015. [S048]'"
+      ],
+      [
+        "Shame as enforcement mechanism: 'That the enforcement mechanism is not force but shame — and that governments have been deploying it as official policy since at least 2015. [S048]'"
+      ]
+    ],
+    "equations_present": false
+  },
+  "master_equation_b": null,
+  "coherence": {
+    "station": "coherence_score",
+    "paper_uuid": "O-08A_part_00_hook_e41c8dac",
+    "run_uuid": "20260927T053743Z",
+    "overall": {
+      "score": 6,
+      "score_ceiling": 10,
+      "status": "ASSESSED",
+      "summary": "The hook presents a tightly interlocked set of ten claims that mostly reinforce each other, but it relies on several undefined terms and unproven mathematical assertions, creating definitional and inferential gaps that prevent full coherence."
+    },
+    "dimensions": [
+      {
+        "name": "internal_consistency",
+        "score": 7,
+        "reasons": [
+          "The ten claims are presented as a single structure (S061) and do not directly contradict each other.",
+          "A02 (no system can determine its own moral direction) and A03 (external reference point must exist) are mutually reinforcing.",
+          "A08 (justice and mercy cannot both be satisfied in a closed system) aligns with A02's closed-system limitation.",
+          "A04 (ordered capture sequence) and A07 (communication technologies follow truth-then-capture pattern) are consistent, with A07 specifying a subset of A04's sequence.",
+          "A05 (shame as enforcement since 2015) and A06 (population sorts by connection to truth) are compatible with the capture narrative.",
+          "No direct contradiction found among the ten claims as stated."
+        ],
+        "affected_atom_uuids": [
+          "A01",
+          "A02",
+          "A03",
+          "A04",
+          "A05",
+          "A06",
+          "A07",
+          "A08",
+          "A09",
+          "A10"
+        ]
+      },
+      {
+        "name": "definitional_stability",
+        "score": 4,
+        "reasons": [
+          "A01 asserts good and bad are structural properties 'like electric charge' (S040), but 'structural properties of reality' is not defined operationally.",
+          "A02 claims a 'mathematical fact' (S042) without specifying the mathematical framework or proof.",
+          "A03 refers to an 'external reference point' (S044) that is never defined or identified.",
+          "A04 lists 'moral language' as a capture target (S046) without defining what counts as moral language.",
+          "A06 defines two classes by 'connection to truth' (S050) but 'truth' and 'the source' are undefined.",
+          "A08 uses 'closed system' (S054) without formal definition, though context suggests a system without external input.",
+          "A09 lists 'measurable areas' (S058) but does not specify metrics or measurement protocols.",
+          "A10 refers to 'one event' (S060) with 'measurable features' (S060) that are not enumerated in this hook."
+        ],
+        "affected_atom_uuids": [
+          "A01",
+          "A02",
+          "A03",
+          "A04",
+          "A06",
+          "A08",
+          "A09",
+          "A10"
+        ]
+      },
+      {
+        "name": "inferential_connectedness",
+        "score": 6,
+        "reasons": [
+          "The hook explicitly states the ten claims form a single structure (S061), providing a clear inferential roadmap.",
+          "A02 and A03 together imply the necessity of an external reference point, a coherent inferential step.",
+          "A04, A05, A06, and A07 form a connected narrative about institutional capture and its consequences.",
+          "A08 and A09 are linked by the idea of systemic constraints and historical trajectory, but the inferential link is asserted rather than demonstrated.",
+          "A10 is presented as the unique reversal event, but its connection to A08 and A09 is not inferentially developed in this hook.",
+          "The hook promises proof (S042, S054) but does not provide it, leaving inferential gaps to be filled in later parts."
+        ],
+        "affected_atom_uuids": [
+          "A02",
+          "A03",
+          "A04",
+          "A05",
+          "A06",
+          "A07",
+          "A08",
+          "A09",
+          "A10"
+        ]
+      },
+      {
+        "name": "register_boundary_respect",
+        "score": 5,
+        "reasons": [
+          "The paper mixes mathematical, historical, and moral registers without clearly demarcating their boundaries.",
+          "A02 claims a mathematical fact (S042) but the statement is philosophical in nature, blurring the math/philosophy boundary.",
+          "A08 claims a mathematical constraint 'provable by algebra' (S054) but the claim about justice and mercy is normative, not purely algebraic.",
+          "A09 asserts a universal historical trajectory across 'all measurable areas' (S058) without specifying the domain of measurement.",
+          "A10 refers to a historical event with 'measurable features' (S060) but does not specify the measurement framework.",
+          "The hook does not respect the boundary between empirical claims and normative claims, presenting them as a unified structure."
+        ],
+        "affected_atom_uuids": [
+          "A02",
+          "A08",
+          "A09",
+          "A10"
+        ]
+      }
+    ],
+    "contradictions": [],
+    "tensions": [
+      {
+        "atoms": [
+          "A02",
+          "A08"
+        ],
+        "description": "A02 says no system can determine its own moral direction from inside itself, while A08 says justice and mercy cannot both be fully satisfied in a closed system. Both invoke closed-system limitations, but A02 is about moral direction and A08 about justice/mercy satisfaction. The relationship between these two limitations is not clarified, creating a tension about whether they are the same constraint or different ones.",
+        "severity": "local"
+      },
+      {
+        "atoms": [
+          "A04",
+          "A07"
+        ],
+        "description": "A04 gives a specific capture sequence (money, government, education, media, moral language), while A07 says all communication technologies follow a pattern of truth spread then capture. A07's pattern is a subset of A04's sequence, but the temporal relationship between the two patterns is not specified, creating a tension about whether they are the same process at different scales or distinct processes.",
+        "severity": "local"
+      },
+      {
+        "atoms": [
+          "A01",
+          "A02"
+        ],
+        "description": "A01 asserts good and bad are structural properties of reality, while A02 asserts no system can determine its own moral direction from inside itself. If good and bad are structural, it is unclear why an external reference point is needed to determine moral direction, creating a tension about the epistemic accessibility of moral facts.",
+        "severity": "structural"
+      }
+    ],
+    "missing_definitions": [
+      {
+        "term": "structural properties of reality",
+        "atom_uuid": "A01",
+        "note": "No operational definition or criterion for identifying such properties is provided."
+      },
+      {
+        "term": "mathematical fact",
+        "atom_uuid": "A02",
+        "note": "The specific mathematical theorem or framework is not cited."
+      },
+      {
+        "term": "external reference point",
+        "atom_uuid": "A03",
+        "note": "The nature and identity of this reference point are not specified."
+      },
+      {
+        "term": "moral language",
+        "atom_uuid": "A04",
+        "note": "No definition of what constitutes moral language or how it is captured."
+      },
+      {
+        "term": "connection to truth",
+        "atom_uuid": "A06",
+        "note": "Truth and the source are not defined, nor is the mechanism of direct connection."
+      },
+      {
+        "term": "closed system",
+        "atom_uuid": "A08",
+        "note": "No formal definition of closed system is given, though context implies a system without external input."
+      },
+      {
+        "term": "measurable areas",
+        "atom_uuid": "A09",
+        "note": "The specific metrics and measurement protocols are not enumerated."
+      },
+      {
+        "term": "measurable features",
+        "atom_uuid": "A10",
+        "note": "The features that make the event unique are not listed in this hook."
+      }
+    ],
+    "notes": "This assessment covers only Part 0 (The Hook) of the paper. The hook explicitly promises proofs and definitions in later parts (S042, S054, S060), so many definitional and inferential gaps may be resolved in subsequent sections. The coherence score reflects the current state of the hook as a standalone piece. The tensions identified are not contradictions but unresolved relationships that may be clarified later. The overall score of 6 indicates moderate coherence: the claims are internally consistent and form a connected narrative, but the lack of definitions and the mixing of registers prevent a higher score."
+  }
+}

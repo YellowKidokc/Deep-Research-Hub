@@ -1,0 +1,252 @@
+{
+  "name": "axiom_nodes",
+  "parsed": {
+    "paper_uuid": "yt_iliT-9EmBG0_ch1",
+    "title": "The Resurrection Connection to Christian Theology - Gary Habermas with @Real Seekers",
+    "summary": "A conversational interview with Gary Habermas about volume 4 of his resurrection series, covering theological entailments of the resurrection (God, deity of Christ, scripture, ethics), the epistemology of miracles, and responses to skeptical objections. The discussion is broadly evidentialist and touches the axiom system only at the level of general theism, miracle as divine act, and the resurrection as a religion-authenticating event; it does not engage the formal Theophysics axioms (chi field, coherence, master equation, etc.).",
+    "primary_mode": "HY_EVIDENCE",
+    "axiom_nodes": [
+      {
+        "node_id": "A1.1",
+        "name": "A1.1 — Existence",
+        "mode": "AX_CORE",
+        "alignment": "supported",
+        "evidence_quote": "If there's a resurrection, I think there's a God.",
+        "confidence": "medium",
+        "notes": "Habermas argues from the resurrection event back to a divine being, presupposing existence of God and the world."
+      },
+      {
+        "node_id": "A2.1",
+        "name": "A2.1 — Substrate Requirement",
+        "mode": "AX_CORE",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "if God raised this person from the dead, you've got a couple issues",
+        "confidence": "low",
+        "notes": "Implies an agent/substrate behind the resurrection event but does not develop a substrate argument."
+      },
+      {
+        "node_id": "A5.1",
+        "name": "A5.1 — Observation Requirement",
+        "mode": "AX_CORE",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "the evidence is very good. It occurred",
+        "confidence": "low",
+        "notes": "Evidential emphasis on observed/witnessed events, but no formal observation-requirement claim."
+      },
+      {
+        "node_id": "BC1",
+        "name": "BC1 — Terminal Observer Exists",
+        "mode": "AX_DERIVED",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "if there's a resurrection and there's a God, you got to link the two.",
+        "confidence": "low",
+        "notes": "God as the agent who raises Jesus is nearby to a terminal-observer concept, but the source does not frame it that way."
+      },
+      {
+        "node_id": "ID7.1",
+        "name": "ID7.1 — Terminal Observer Is God",
+        "mode": "AX_DERIVED",
+        "alignment": "supported",
+        "evidence_quote": "if God raised Jesus, if there's a resurrection and there's a God, you got to link the two.",
+        "confidence": "medium",
+        "notes": "Habermas identifies God as the one who raised Jesus, aligning with the claim that the terminal agent is God, though not in the canon's technical vocabulary."
+      },
+      {
+        "node_id": "A9.1",
+        "name": "A9.1 — External Intervention Required",
+        "mode": "AX_DERIVED",
+        "alignment": "supported",
+        "evidence_quote": "a miracle is an act of God or an invisible agent.",
+        "confidence": "medium",
+        "notes": "Miracles are defined as external divine interventions, consistent with the requirement of external agency."
+      },
+      {
+        "node_id": "A9.2",
+        "name": "A9.2 — Non-Unitarity Of Grace",
+        "mode": "AX_DERIVED",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "God raised him from the dead",
+        "confidence": "low",
+        "notes": "Resurrection as a divine act outside natural law is adjacent to non-unitary grace, but the source does not use that framework."
+      },
+      {
+        "node_id": "A11.1",
+        "name": "A11.1 — Moral Realism",
+        "mode": "AX_DERIVED",
+        "alignment": "supported",
+        "evidence_quote": "why do why do objective ethics u come in a chance big bang?",
+        "confidence": "medium",
+        "notes": "Habermas affirms objective ethics requiring a ground, aligning with moral realism."
+      },
+      {
+        "node_id": "A11.2",
+        "name": "A11.2 — Coherence-Morality Identity",
+        "mode": "AX_DERIVED",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "God doesn't wouldn't raise a heretic from the dead.",
+        "confidence": "low",
+        "notes": "Links divine action to moral consistency but does not assert a coherence-morality identity."
+      },
+      {
+        "node_id": "A12.1",
+        "name": "A12.1 — Asymptotic Behavior",
+        "mode": "AX_DERIVED",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "I want that meaning to go on forever.",
+        "confidence": "low",
+        "notes": "Eternal life/kingdom as an enduring end state is nearby but not framed as asymptotic convergence."
+      },
+      {
+        "node_id": "A12.2",
+        "name": "A12.2 — Bimodal Outcome",
+        "mode": "AX_DERIVED",
+        "alignment": "supported",
+        "evidence_quote": "the quickest way he could have been thrown in the lake of fire forever",
+        "confidence": "medium",
+        "notes": "Heaven/eternal life versus lake of fire reflects a bimodal destiny outcome."
+      },
+      {
+        "node_id": "T12.1",
+        "name": "T12.1 — Heaven As High-Phi Attractor",
+        "mode": "AX_DERIVED",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "there's a heaven for all of us.",
+        "confidence": "low",
+        "notes": "Heaven affirmed but not characterized in coherence/phi terms."
+      },
+      {
+        "node_id": "T12.2",
+        "name": "T12.2 — Hell As Low-Phi Attractor",
+        "mode": "AX_DERIVED",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "you're sending a bunch of people to hell if you're wrong.",
+        "confidence": "low",
+        "notes": "Hell mentioned but not described as a low-coherence attractor."
+      },
+      {
+        "node_id": "T16.1",
+        "name": "T16.1 — Christianity 8 of 8 BCs",
+        "mode": "AX_DERIVED",
+        "alignment": "supported",
+        "evidence_quote": "Christianity is unique.",
+        "confidence": "medium",
+        "notes": "Habermas argues Christianity uniquely satisfies the evidential criteria among religions, aligning with the uniqueness claim."
+      },
+      {
+        "node_id": "T16.2",
+        "name": "T16.2 — Islam Fails BC4",
+        "mode": "AX_DERIVED",
+        "alignment": "supported",
+        "evidence_quote": "you can't give me a verse in the Quran that that Muhammad did miracles, but there's a verse in the Quran that Jesus did miracles.",
+        "confidence": "medium",
+        "notes": "Argues Islam lacks comparable miracle attestation, consistent with Islam failing a boundary condition."
+      },
+      {
+        "node_id": "T16.4",
+        "name": "T16.4 — Buddhism Fails BC1",
+        "mode": "AX_DERIVED",
+        "alignment": "supported",
+        "evidence_quote": "you don't know he taught it. There are no sources for Buddha that early",
+        "confidence": "medium",
+        "notes": "Challenges Buddhist founder claims, aligning with Buddhism failing a boundary condition."
+      },
+      {
+        "node_id": "T16.5",
+        "name": "T16.5 — Hinduism Fails BC Uniqueness",
+        "mode": "AX_DERIVED",
+        "alignment": "supported",
+        "evidence_quote": "You don't have uh uh you know any anything for Krishna.",
+        "confidence": "medium",
+        "notes": "Dismisses Krishna miracle claims as lacking evidence, consistent with Hinduism failing uniqueness."
+      },
+      {
+        "node_id": "T16.6",
+        "name": "T16.6 — Atheism Fails BC1-BC6",
+        "mode": "AX_DERIVED",
+        "alignment": "supported",
+        "evidence_quote": "What's the evidence for naturalism?",
+        "confidence": "medium",
+        "notes": "Argues naturalism is self-undermining and cannot account for the relevant data, aligning with atheism failing boundary conditions."
+      },
+      {
+        "node_id": "FINAL-3",
+        "name": "FINAL-3 — Unique Solution (Christianity as Unique BC Solution)",
+        "mode": "AX_DERIVED",
+        "alignment": "supported",
+        "evidence_quote": "Christianity is unique in terms of the",
+        "confidence": "medium",
+        "notes": "Claims Christianity uniquely satisfies the evidential criteria, aligning with the unique-solution thesis."
+      },
+      {
+        "node_id": "EV15.1",
+        "name": "EV15.1 — Biblical Prophecy Validation",
+        "mode": "HY_EVIDENCE",
+        "alignment": "supported",
+        "evidence_quote": "Even critical scholars, Dale Allison, I mean others, uh, they think it's likely that Jesus foretold his death and resurrection ahead of time.",
+        "confidence": "medium",
+        "notes": "Uses Jesus' predictive prophecy as evidence, aligning with prophecy-validation evidence."
+      },
+      {
+        "node_id": "EV15.3",
+        "name": "EV15.3 — PEAR Lab Results",
+        "mode": "HY_EVIDENCE",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "empirical evidence like near-death experiences, uh Shroud of Turin, or historical evidence for the resurrection.",
+        "confidence": "low",
+        "notes": "Mentions empirical religious evidence (NDEs, Shroud) but not PEAR lab results specifically."
+      },
+      {
+        "node_id": "FALS18.3",
+        "name": "FALS18.3 — BC Falsification",
+        "mode": "HY_EVIDENCE",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "If someone else rose from the dead, or Jesus was wrong about the kingdom, the argument dies.",
+        "confidence": "low",
+        "notes": "States a kill condition for the resurrection argument, adjacent to falsification criteria but not the canon's BC falsification."
+      }
+    ],
+    "unmapped_claims": [
+      "A01",
+      "A02",
+      "A03",
+      "A04",
+      "A05",
+      "A06",
+      "A07",
+      "A08",
+      "A09",
+      "A10",
+      "A11",
+      "A12",
+      "A13",
+      "A14",
+      "A15",
+      "A16",
+      "A17",
+      "A18",
+      "A19"
+    ]
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "axiom_nodes",
+      "attempt": 1,
+      "text": "{\n  \"paper_uuid\": \"yt_iliT-9EmBG0_ch1\",\n  \"title\": \"The Resurrection Connection to Christian Theology - Gary Habermas with @Real Seekers\",\n  \"summary\": \"A conversational interview with Gary Habermas about volume 4 of his resurrection series, covering theological entailments of the resurrection (God, deity of Christ, scripture, ethics), the epistemology of miracles, and responses to skeptical objections. The discussion is broadly evidentialist and touches the axiom system only at the level of general theism, miracle as divine act, and the resurrection as a religion-authenticating event; it does not engage the formal Theophysics axioms (chi field, coherence, master equation, etc.).\",\n  \"primary_mode\": \"HY_EVIDENCE\",\n  \"axiom_nodes\": [\n    {\n      \"node_id\": \"A1.1\",\n      \"name\": \"A1.1 — Existence\",\n      \"mode\": \"AX_CORE\",\n      \"alignment\": \"supported\",\n      \"evidence_quote\": \"If there's a resurrection, I think there's a God.\",\n      \"confidence\": \"medium\",\n      \"notes\": \"Habermas argues from the resurrection event back to a divine being, presupposing existence of God and the world.\"\n    },\n    {\n      \"node_id\": \"A2.1\",\n      \"name\": \"A2.1 — Substrate Requirement\",\n      \"mode\": \"AX_CORE\",\n      \"alignment\": \"relevant_but_not_asserted\",\n      \"evidence_quote\": \"if God raised this person from the dead, you've got a couple issues\",\n      \"confidence\": \"low\",\n      \"notes\": \"Implies an agent/substrate behind the resurrection event but does not develop a substrate argument.\"\n    },\n    {\n      \"node_id\": \"A5.1\",\n      \"name\": \"A5.1 — Observation Requirement\",\n      \"mode\": \"AX_CORE\",\n      \"alignment\": \"relevant_but_not_asserted\",\n      \"evidence_quote\": \"the evidence is very good. It occurred\",\n      \"confidence\": \"low\",\n      \"notes\": \"Evidential emphasis on observed/witnessed events, but no formal observation-requirement claim.\"\n    },\n    {\n      \"node_id\": \"BC1\",\n      \"name\": \"BC1 — Terminal Observer Exists\",\n      \"mode\": \"AX_DERIVED\",\n      \"alignment\": \"relevant_but_not_asserted\",\n      \"evidence_quote\": \"if there's a resurrection and there's a God, you got to link the two.\",\n      \"confidence\": \"low\",\n      \"notes\": \"God as the agent who raises Jesus is nearby to a terminal-observer concept, but the source does not frame it that way.\"\n    },\n    {\n      \"node_id\": \"ID7.1\",\n      \"name\": \"ID7.1 — Terminal Observer Is God\",\n      \"mode\": \"AX_DERIVED\",\n      \"alignment\": \"supported\",\n      \"evidence_quote\": \"if God raised Jesus, if there's a resurrection and there's a God, you got to link the two.\",\n      \"confidence\": \"medium\",\n      \"notes\": \"Habermas identifies God as the one who raised Jesus, aligning with the claim that the terminal agent is God, though not in the canon's technical vocabulary.\"\n    },\n    {\n      \"node_id\": \"A9.1\",\n      \"name\": \"A9.1 — External Intervention Required\",\n      \"mode\": \"AX_DERIVED\",\n      \"alignment\": \"supported\",\n      \"evidence_quote\": \"a miracle is an act of God or an invisible agent.\",\n      \"confidence\": \"medium\",\n      \"notes\": \"Miracles are defined as external divine interventions, consistent with the requirement of external agency.\"\n    },\n    {\n      \"node_id\": \"A9.2\",\n      \"name\": \"A9.2 — Non-Unitarity Of Grace\",\n      \"mode\": \"AX_DERIVED\",\n      \"alignment\": \"relevant_but_not_asserted\",\n      \"evidence_quote\": \"God raised him from the dead\",\n      \"confidence\": \"low\",\n      \"notes\": \"Resurrection as a divine act outside natural law is adjacent to non-unitary grace, but the source does not use that framework.\"\n    },\n    {\n      \"node_id\": \"A11.1\",\n      \"name\": \"A11.1 — Moral Realism\",\n      \"mode\": \"AX_DERIVED\",\n      \"alignment\": \"supported\",\n      \"evidence_quote\": \"why do why do objective ethics u come in a chance big bang?\",\n      \"confidence\": \"medium\",\n      \"notes\": \"Habermas affirms objective ethics requiring a ground, aligning with moral realism.\"\n    },\n    {\n      \"node_id\": \"A11.2\",\n      \"name\": \"A11.2 — Coherence-Morality Identity\",\n      \"mode\": \"AX_DERIVED\",\n      \"alignment\": \"relevant_but_not_asserted\",\n      \"evidence_quote\": \"God doesn't wouldn't raise a heretic from the dead.\",\n      \"confidence\": \"low\",\n      \"notes\": \"Links divine action to moral consistency but does not assert a coherence-morality identity.\"\n    },\n    {\n      \"node_id\": \"A12.1\",\n      \"name\": \"A12.1 — Asymptotic Behavior\",\n      \"mode\": \"AX_DERIVED\",\n      \"alignment\": \"relevant_but_not_asserted\",\n      \"evidence_quote\": \"I want that meaning to go on forever.\",\n      \"confidence\": \"low\",\n      \"notes\": \"Eternal life/kingdom as an enduring end state is nearby but not framed as asymptotic convergence.\"\n    },\n    {\n      \"node_id\": \"A12.2\",\n      \"name\": \"A12.2 — Bimodal Outcome\",\n      \"mode\": \"AX_DERIVED\",\n      \"alignment\": \"supported\",\n      \"evidence_quote\": \"the quickest way he could have been thrown in the lake of fire forever\",\n      \"confidence\": \"medium\",\n      \"notes\": \"Heaven/eternal life versus lake of fire reflects a bimodal destiny outcome.\"\n    },\n    {\n      \"node_id\": \"T12.1\",\n      \"name\": \"T12.1 — Heaven As High-Phi Attractor\",\n      \"mode\": \"AX_DERIVED\",\n      \"alignment\": \"relevant_but_not_asserted\",\n      \"evidence_quote\": \"there's a heaven for all of us.\",\n      \"confidence\": \"low\",\n      \"notes\": \"Heaven affirmed but not characterized in coherence/phi terms.\"\n    },\n    {\n      \"node_id\": \"T12.2\",\n      \"name\": \"T12.2 — Hell As Low-Phi Attractor\",\n      \"mode\": \"AX_DERIVED\",\n      \"alignment\": \"relevant_but_not_asserted\",\n      \"evidence_quote\": \"you're sending a bunch of people to hell if you're wrong.\",\n      \"confidence\": \"low\",\n      \"notes\": \"Hell mentioned but not described as a low-coherence attractor.\"\n    },\n    {\n      \"node_id\": \"T16.1\",\n      \"name\": \"T16.1 — Christianity 8 of 8 BCs\",\n      \"mode\": \"AX_DERIVED\",\n      \"alignment\": \"supported\",\n      \"evidence_quote\": \"Christianity is unique.\",\n      \"confidence\": \"medium\",\n      \"notes\": \"Habermas argues Christianity uniquely satisfies the evidential criteria among religions, aligning with the uniqueness claim.\"\n    },\n    {\n      \"node_id\": \"T16.2\",\n      \"name\": \"T16.2 — Islam Fails BC4\",\n      \"mode\": \"AX_DERIVED\",\n      \"alignment\": \"supported\",\n      \"evidence_quote\": \"you can't give me a verse in the Quran that that Muhammad did miracles, but there's a verse in the Quran that Jesus did miracles.\",\n      \"confidence\": \"medium\",\n      \"notes\": \"Argues Islam lacks comparable miracle attestation, consistent with Islam failing a boundary condition.\"\n    },\n    {\n      \"node_id\": \"T16.4\",\n      \"name\": \"T16.4 — Buddhism Fails BC1\",\n      \"mode\": \"AX_DERIVED\",\n      \"alignment\": \"supported\",\n      \"evidence_quote\": \"you don't know he taught it. There are no sources for Buddha that early\",\n      \"confidence\": \"medium\",\n      \"notes\": \"Challenges Buddhist founder claims, aligning with Buddhism failing a boundary condition.\"\n    },\n    {\n      \"node_id\": \"T16.5\",\n      \"name\": \"T16.5 — Hinduism Fails BC Uniqueness\",\n      \"mode\": \"AX_DERIVED\",\n      \"alignment\": \"supported\",\n      \"evidence_quote\": \"You don't have uh uh you know any anything for Krishna.\",\n      \"confidence\": \"medium\",\n      \"notes\": \"Dismisses Krishna miracle claims as lacking evidence, consistent with Hinduism failing uniqueness.\"\n    },\n    {\n      \"node_id\": \"T16.6\",\n      \"name\": \"T16.6 — Atheism Fails BC1-BC6\",\n      \"mode\": \"AX_DERIVED\",\n      \"alignment\": \"supported\",\n      \"evidence_quote\": \"What's the evidence for naturalism?\",\n      \"confidence\": \"medium\",\n      \"notes\": \"Argues naturalism is self-undermining and cannot account for the relevant data, aligning with atheism failing boundary conditions.\"\n    },\n    {\n      \"node_id\": \"FINAL-3\",\n      \"name\": \"FINAL-3 — Unique Solution (Christianity as Unique BC Solution)\",\n      \"mode\": \"AX_DERIVED\",\n      \"alignment\": \"supported\",\n      \"evidence_quote\": \"Christianity is unique in terms of the\",\n      \"confidence\": \"medium\",\n      \"notes\": \"Claims Christianity uniquely satisfies the evidential criteria, aligning with the unique-solution thesis.\"\n    },\n    {\n      \"node_id\": \"EV15.1\",\n      \"name\": \"EV15.1 — Biblical Prophecy Validation\",\n      \"mode\": \"HY_EVIDENCE\",\n      \"alignment\": \"supported\",\n      \"evidence_quote\": \"Even critical scholars, Dale Allison, I mean others, uh, they think it's likely that Jesus foretold his death and resurrection ahead of time.\",\n      \"confidence\": \"medium\",\n      \"notes\": \"Uses Jesus' predictive prophecy as evidence, aligning with prophecy-validation evidence.\"\n    },\n    {\n      \"node_id\": \"EV15.3\",\n      \"name\": \"EV15.3 — PEAR Lab Results\",\n      \"mode\": \"HY_EVIDENCE\",\n      \"alignment\": \"relevant_but_not_asserted\",\n      \"evidence_quote\": \"empirical evidence like near-death experiences, uh Shroud of Turin, or historical evidence for the resurrection.\",\n      \"confidence\": \"low\",\n      \"notes\": \"Mentions empirical religious evidence (NDEs, Shroud) but not PEAR lab results specifically.\"\n    },\n    {\n      \"node_id\": \"FALS18.3\",\n      \"name\": \"FALS18.3 — BC Falsification\",\n      \"mode\": \"HY_EVIDENCE\",\n      \"alignment\": \"relevant_but_not_asserted\",\n      \"evidence_quote\": \"If someone else rose from the dead, or Jesus was wrong about the kingdom, the argument dies.\",\n      \"confidence\": \"low\",\n      \"notes\": \"States a kill condition for the resurrection argument, adjacent to falsification criteria but not the canon's BC falsification.\"\n    }\n  ],\n  \"unmapped_claims\": [\n    \"A01\",\n    \"A02\",\n    \"A03\",\n    \"A04\",\n    \"A05\",\n    \"A06\",\n    \"A07\",\n    \"A08\",\n    \"A09\",\n    \"A10\",\n    \"A11\",\n    \"A12\",\n    \"A13\",\n    \"A14\",\n    \"A15\",\n    \"A16\",\n    \"A17\",\n    \"A18\",\n    \"A19\"\n  ]\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 23191,
+      "completion_tokens": 2578,
+      "attempts": 1,
+      "elapsed_seconds": 10.014999999999418,
+      "started_at": "2026-09-27T13:50:13.575159+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T13:50:23.585103+00:00",
+      "tokens": 25769
+    }
+  ],
+  "prompt_sha256": "4dea79244c1225c455801cd7b984757e5b8d6dffb6866ef292dad21ce045d1ed",
+  "tokens": 25769,
+  "reused": true
+}

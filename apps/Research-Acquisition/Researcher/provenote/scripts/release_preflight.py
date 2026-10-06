@@ -1,0 +1,716 @@
+"""Release preflight — mechanically check the things that have actually gone wrong.
+
+    uv run --no-sync python -m scripts.release_preflight
+    uv run --no-sync python -m scripts.release_preflight --json      # machine-readable
+
+Read-only. Exits 1 if any check FAILS, 0 otherwise (WARNs never fail the run).
+
+**Every check here is a bug that shipped or nearly shipped.** This file is not a generic
+best-practice list; each entry cites the incident that put it here, so nobody deletes one for
+looking redundant:
+
+* ``versions``  — v0.4.0 bumped five version strings and missed ``uv.lock``. CI and the Docker
+  build install with ``--locked``, which fails rather than re-resolving, so every gate after
+  dependency-install was skipped on ``main`` for days before anyone noticed. The two Cargo files
+  joined later, and from the *opposite* failure: this check never opened them, so they held 0.4.1
+  through v0.4.2, v0.5.0 and v0.5.1 while it reported green. An agreement check is worth exactly
+  as much as its file list, which is why that list is now pinned by a test of its own.
+* ``artifact_fresh`` — the whole point of 2026-08-06. Source-green says **nothing** about a frozen
+  binary (KI-34: the shipped build could not read a single PDF while every test passed). If the
+  installer predates the code, the thing tested is not the thing shipped. It compares **git
+  history**, not file mtimes: mtimes made it demand a rebuild after a plain ``git checkout``, which
+  re-materialises files with today's date and identical content (2026-09-02). A check that cries
+  wolf on a branch switch is a check that gets overridden by hand, which is how it stops working.
+* ``sidecar_size`` — KI-34 is detectable as a size cliff: 1545.5 MB broken vs 1562.1 MB fixed,
+  because ``collect_all("fitz")`` silently dropped ~17 MB of PyMuPDF data files. The cheapest
+  possible regression check on a packaging bug that is invisible from source.
+* ``rg012_packaging`` / ``rg012_citation`` — tie "the clean-machine gate passed" to **this exact
+  artifact**, by matching the installer build timestamp the harness logged against the installer
+  on disk. A PASS from a previous build is worse than no PASS, because it reads as evidence. **Two
+  verdicts since 2026-09-16, never one:** the 0.5.1 installer failed its single cited turn once in
+  four runs of the same bytes (``llama3.1:8b`` cites all-or-nothing, KI-36), and a coin flip in a
+  ship gate trains its operator to re-run until green. So the harness asks three questions, the
+  citation half is judged here with the app's own ``audit_citations`` rather than the harness's
+  copy of the pattern (KI-35 was that copy drifting), and a citation FAIL cannot read as a broken
+  build. The **newest** run on the artifact decides; earlier ones are listed, not averaged away.
+* ``dev_commands`` — the app told users to run ``just api`` (KI-39): a task runner and a repo
+  recipe that someone who installed an .exe does not have.
+
+What this CANNOT check, and why the checklist in ``docs/RELEASE.md`` still exists: whether the
+CHANGELOG is *true*, whether a known limit is still a limit, and whether the answers the app gives
+are any good. Those need judgment and measurement, not a script.
+"""
+
+from __future__ import annotations
+
+import argparse
+import json
+import re
+import subprocess
+import sys
+from dataclasses import dataclass, field
+from datetime import datetime
+from pathlib import Path
+
+import tomllib
+
+from doc_assistant.synthesis import audit_citations
+
+ROOT = Path(__file__).resolve().parent.parent
+
+SIDECAR = ROOT / "apps/desktop/src-tauri/binaries/doc-assistant-api-x86_64-pc-windows-msvc.exe"
+BUNDLE = ROOT / "apps/desktop/src-tauri/target/release/bundle/nsis"
+RG012_ARCHIVES = Path("C:/rg012-host")
+
+# The Rust half of the version bump. The crate name differs from the Python package's, and the
+# lock records it under that name — so both have to be spelled out rather than derived.
+CARGO_TOML = "apps/desktop/src-tauri/Cargo.toml"
+CARGO_LOCK = "apps/desktop/src-tauri/Cargo.lock"
+PACKAGE_LOCK = "apps/desktop/package-lock.json"
+CARGO_CRATE = "doc-assistant-desktop"
+
+# The sidecar carries bundled model weights + PyMuPDF data. A build that comes out materially
+# smaller has dropped something (KI-34).
+#
+# **MiB, not decimal MB** — deliberately, because the recorded KI-34 reference numbers are what
+# Windows reports: 1545.5 MiB broken vs 1562.1 MiB fixed. The floor sits BETWEEN them, so the exact
+# regression that shipped would fail this check. Getting the unit wrong makes the floor ~1478 MiB
+# and the check useless while still looking green (caught writing this file).
+# Re-baseline deliberately when dependencies change size — and record the new numbers here.
+SIDECAR_MIN_MIB = 1555.0
+KI34_BROKEN_MIB, KI34_FIXED_MIB = 1545.5, 1562.1
+
+# Everything the artifact is built FROM. A change to any of these can change the shipped bytes; a
+# change to anything else — docs, tests, dev tooling, this file — cannot, and must not read as a
+# stale artifact. Pinned by a test, for the same reason the version-source list is: a freshness
+# check is worth exactly as much as its path list, and a path missing from it is invisible.
+#
+# `apps/desktop/src-tauri/target/` and `.../binaries/` are excluded by construction — they *are*
+# the build output. So is **`Cargo.lock`**, and that one is a judgment call worth stating: cargo
+# rewrites the lock while it builds, so the release build necessarily produces a lock newer than
+# the artifact it just made, and including it would fail this check on every single release. Its
+# one release-relevant field — the crate version — is covered by `versions` instead. The residual
+# gap that leaves: a dependency version changed in the lock without a rebuild is not caught here.
+SHIPPED_PATHS = (
+    "src/",  # the Python library, frozen into the sidecar
+    "apps/api/",  # the FastAPI app it serves
+    "pyproject.toml",  # the dependency set the freeze resolves
+    "uv.lock",  # ...and the versions it resolves to (cargo rewrites its lock; uv does not)
+    "scripts/build_sidecar.py",  # how the sidecar is frozen
+    "scripts/doc_assistant_api.spec",  # what goes into it — KI-34 lived in this file
+    "apps/desktop/src/",  # the Svelte UI
+    "apps/desktop/index.html",
+    "apps/desktop/package.json",
+    "apps/desktop/vite.config.ts",
+    "apps/desktop/src-tauri/src/",  # the Rust shell
+    "apps/desktop/src-tauri/build.rs",
+    "apps/desktop/src-tauri/Cargo.toml",
+    "apps/desktop/src-tauri/tauri.conf.json",  # bundle config, externalBin, version
+    "apps/desktop/src-tauri/icons/",
+)
+
+OK, FAIL, WARN, SKIP = "PASS", "FAIL", "WARN", "SKIP"
+
+
+@dataclass
+class Check:
+    name: str
+    status: str
+    detail: str
+    notes: list[str] = field(default_factory=list)
+
+
+def _mib(p: Path) -> float:
+    """MiB — what Windows reports, and the unit every recorded reference number is in."""
+    return p.stat().st_size / 1024 / 1024
+
+
+def _mtime(p: Path) -> datetime:
+    return datetime.fromtimestamp(p.stat().st_mtime)
+
+
+def _describe(p: Path) -> str:
+    return f"{_mib(p):,.1f} MiB  {_mtime(p):%Y-%m-%d %H:%M}"
+
+
+def _run(*args: str) -> str:
+    return subprocess.run(
+        args, cwd=ROOT, capture_output=True, text=True, check=False
+    ).stdout.strip()
+
+
+def _mtime_aware(p: Path) -> datetime:
+    """A file's mtime as a timezone-aware local datetime, so it can be compared with a git date."""
+    return datetime.fromtimestamp(p.stat().st_mtime).astimezone()
+
+
+def _is_shipped(rel: str) -> bool:
+    """Does this repo-relative path go into the artifact? An entry ending in ``/`` is a directory.
+
+    Exact rather than a bare ``startswith`` over the whole tuple, which would read ``uv.lock.bak``
+    as ``uv.lock`` and any ``src-tauri/icons.old/`` as the icons.
+    """
+    return any(rel == p or (p.endswith("/") and rel.startswith(p)) for p in SHIPPED_PATHS)
+
+
+def _newest_shipped_change() -> tuple[str, datetime] | None:
+    """The most recent change to anything in `SHIPPED_PATHS` — ``(what, when)``, or ``None``.
+
+    Two sources, and the split is the whole point:
+
+    * **The working tree**, by mtime — but *only* for files git reports as modified. There, an
+      mtime means what it looks like it means: a person edited the file after the artifact was
+      built, and it is not in history yet to be dated any other way.
+    * **History**, by the committer date of the newest commit touching a shipped path. Everything
+      committed is dated from the commit, never from the file.
+
+    That second half is the fix. Judging *committed* files by mtime made this check fail whenever
+    git re-materialised a file — `git checkout main` on 2026-09-02 stamped today's date on a
+    `src/doc_assistant/__init__.py` whose content was byte-identical (blob ``a789456…`` at both
+    the built commit and HEAD), and the preflight demanded a rebuild that would have changed
+    nothing but timestamps. Content is what makes an artifact stale; a checkout is not an edit.
+
+    ``None`` when git will not answer at all — the caller warns rather than passing silently.
+    """
+    newest: tuple[str, datetime] | None = None
+
+    for line in _run("git", "status", "--porcelain").splitlines():
+        # `XY PATH`, but NOT sliced by column: `_run` strips the output, which eats the leading
+        # space of an unstaged ` M path` and shifts every offset by one. That silently cut the
+        # first character off every path and made this whole branch a no-op.
+        parts = line.split(maxsplit=1)
+        if len(parts) != 2:
+            continue
+        rel = parts[1].split(" -> ")[-1].strip().strip('"')  # a rename reports `old -> new`
+        if not _is_shipped(rel):
+            continue
+        path = ROOT / rel
+        if not path.is_file():  # a deletion has no mtime; the commit recording it will date it
+            continue
+        when = _mtime_aware(path)
+        if newest is None or when > newest[1]:
+            newest = (f"{rel} (uncommitted)", when)
+
+    logged = _run("git", "log", "-1", "--format=%h\x1f%cI\x1f%s", "--", *SHIPPED_PATHS)
+    fields = logged.split("\x1f", 2)
+    if len(fields) == 3:
+        short, iso, subject = fields
+        try:
+            when = datetime.fromisoformat(iso)
+        except ValueError:  # a git that dates commits differently must not crash the preflight
+            return newest
+        if newest is None or when > newest[1]:
+            newest = (f"{short} {subject}", when)
+    return newest
+
+
+def collect_versions() -> dict[str, str]:
+    """Every file that carries the project's own version, read. Keys are repo-relative paths.
+
+    Split out from `check_versions` so a test can pin **which files are read**, because the bug
+    that added the two Cargo entries was a *missing source*, not a wrong comparison: a check that
+    asks only "do the ones I open agree?" stays green forever while a file it never opens drifts.
+    `Cargo.toml` and `Cargo.lock` sat at 0.4.1 through v0.4.2, v0.5.0 and v0.5.1 — three tagged
+    releases — because neither this function nor `docs/RELEASE.md` §1 listed them.
+    """
+    found: dict[str, str] = {}
+    pyproject = tomllib.loads((ROOT / "pyproject.toml").read_text(encoding="utf-8"))
+    found["pyproject.toml"] = pyproject["project"]["version"]
+
+    lock = (ROOT / "uv.lock").read_text(encoding="utf-8")
+    m = re.search(r'name = "doc-assistant"\s*\nversion = "([^"]+)"', lock)
+    found["uv.lock"] = m.group(1) if m else "(not found)"
+
+    init = (ROOT / "src/doc_assistant/__init__.py").read_text(encoding="utf-8")
+    mv = re.search(r'^__version__ = "([^"]+)"', init, re.MULTILINE)
+    found["src/doc_assistant/__init__.py"] = mv.group(1) if mv else "(not found)"
+
+    for rel in ("apps/desktop/package.json", "apps/desktop/src-tauri/tauri.conf.json"):
+        data = json.loads((ROOT / rel).read_text(encoding="utf-8"))
+        found[rel] = data.get("version", "(missing)")
+
+    # `package-lock.json` records the project's own version twice (top level and the root
+    # `packages[""]` entry), and npm rewrites both only when npm *runs* — so a hand-bumped
+    # `package.json` leaves the lock behind. Found sitting at 0.4.2 through v0.5.0, v0.5.1 and
+    # v0.6.0 (2026-09-10), the same shape as the Cargo files: a file nothing was looking at.
+    lock_json = json.loads((ROOT / PACKAGE_LOCK).read_text(encoding="utf-8"))
+    found[PACKAGE_LOCK] = str(lock_json.get("version", "(missing)"))
+    root_entry = lock_json.get("packages", {}).get("", {})
+    found[f'{PACKAGE_LOCK} (packages[""])'] = str(root_entry.get("version", "(missing)"))
+
+    manifest = tomllib.loads((ROOT / CARGO_TOML).read_text(encoding="utf-8"))
+    found[CARGO_TOML] = str(manifest.get("package", {}).get("version", "(missing)"))
+
+    # The lock is the one source that cannot be bumped ahead of time and stay bumped: cargo
+    # rewrites it only when cargo *runs*, which on a release is during the build — after the
+    # release commit. It is a list of package tables, so the crate has to be found by name.
+    locked = tomllib.loads((ROOT / CARGO_LOCK).read_text(encoding="utf-8"))
+    crate = next((p for p in locked.get("package", []) if p.get("name") == CARGO_CRATE), None)
+    found[CARGO_LOCK] = str(crate.get("version", "(missing)")) if crate else "(not found)"
+
+    return found
+
+
+def check_versions() -> Check:
+    """All nine version strings must agree — including uv.lock (the v0.4.0 CI break), the two
+    Cargo files (silently 0.4.1 for three releases), `package-lock.json` (0.4.2 for three more),
+    and the `__version__` constant the update
+    check compares against (ADR-044: a stale constant makes the app compare itself to a lie)."""
+    found = collect_versions()
+    distinct = set(found.values())
+    if len(distinct) == 1:
+        return Check("versions", OK, f"all {len(found)} agree on {distinct.pop()}")
+    return Check(
+        "versions",
+        FAIL,
+        "version strings disagree",
+        [f"{k} = {v}" for k, v in found.items()],
+    )
+
+
+def check_tree_clean() -> Check:
+    dirty = _run("git", "status", "--porcelain")
+    if not dirty:
+        return Check("tree_clean", OK, "no uncommitted tracked changes")
+    return Check(
+        "tree_clean",
+        FAIL,
+        "uncommitted changes — the tag would not match the build",
+        dirty.splitlines()[:10],
+    )
+
+
+def check_changelog(version: str) -> Check:
+    text = (ROOT / "CHANGELOG.md").read_text(encoding="utf-8")
+    if f"## [{version}]" not in text:
+        return Check("changelog", FAIL, f"no '## [{version}]' section in CHANGELOG.md")
+    line = next(ln for ln in text.splitlines() if ln.startswith(f"## [{version}]"))
+    if "unreleased" in line.lower():
+        return Check("changelog", FAIL, f"section still marked Unreleased: {line.strip()}")
+    return Check("changelog", OK, line.strip())
+
+
+def check_artifacts() -> tuple[Check, Path | None]:
+    if not SIDECAR.is_file():
+        return Check("artifacts", FAIL, f"no frozen sidecar at {SIDECAR}"), None
+    installers = sorted(
+        BUNDLE.glob("Provenote*setup.exe"), key=lambda p: p.stat().st_mtime, reverse=True
+    )
+    if not installers:
+        return Check("artifacts", FAIL, f"no Provenote*setup.exe under {BUNDLE}"), None
+    inst = installers[0]
+    notes = [f"sidecar   {_describe(SIDECAR)}", f"installer {_describe(inst)}"]
+    if len(installers) > 1:
+        notes.append(f"NOTE {len(installers)} installers here — never pick one incidentally")
+    return Check("artifacts", OK, f"{inst.name}", notes), inst
+
+
+def check_artifact_fresh(installer: Path | None) -> Check:
+    """The artifact must be newer than the newest change to what it is built from.
+
+    This is the KI-34 lesson as code: source-green says nothing about a frozen binary. What
+    counts as "a change" is `_newest_shipped_change` — git history for anything committed, and
+    mtime only for a file git says is dirty."""
+    if installer is None:
+        return Check("artifact_fresh", SKIP, "no artifact to compare")
+    newest = _newest_shipped_change()
+    if newest is None:
+        return Check("artifact_fresh", WARN, "git would not say when shipped code last changed")
+    what, when = newest
+    sidecar_t = _mtime_aware(SIDECAR)
+    inst_t = _mtime_aware(installer)
+    stale = [n for n, t in (("sidecar", sidecar_t), ("installer", inst_t)) if t < when]
+    detail = f"newest shipped change: {what} @ {when:%Y-%m-%d %H:%M}"
+    if stale:
+        return Check(
+            "artifact_fresh",
+            FAIL,
+            f"{' and '.join(stale)} predate(s) the newest shipped change — REBUILD",
+            [detail, f"sidecar {sidecar_t:%Y-%m-%d %H:%M}", f"installer {inst_t:%Y-%m-%d %H:%M}"],
+        )
+    return Check("artifact_fresh", OK, "newer than every shipped change", [detail])
+
+
+def check_sidecar_size() -> Check:
+    if not SIDECAR.is_file():
+        return Check("sidecar_size", SKIP, "no sidecar")
+    mib = SIDECAR.stat().st_size / 1024 / 1024
+    if mib < SIDECAR_MIN_MIB:
+        return Check(
+            "sidecar_size",
+            FAIL,
+            f"{mib:,.1f} MiB is below the {SIDECAR_MIN_MIB:,.1f} MiB floor — a bundle was dropped",
+            [
+                f"KI-34 reference: {KI34_BROKEN_MIB} MiB broken vs {KI34_FIXED_MIB} MiB fixed",
+                "collect_all('fitz') without 'pymupdf' lost the data files and broke every PDF",
+            ],
+        )
+    return Check(
+        "sidecar_size",
+        OK,
+        f"{mib:,.1f} MiB (floor {SIDECAR_MIN_MIB:,.1f}, KI-34 fixed = {KI34_FIXED_MIB})",
+    )
+
+
+# The harness logs its size as `[math]::Round($bytes/1MB, 1)`, so the number carries a decimal
+# fraction whenever it does not round to a whole number. `([\d,]+)` matched only the whole-number
+# case and every build before 0.6.0 happened to land there (1572.0 renders as "1572"); 0.6.0
+# rendered "1572.4" and the line stopped matching, so a PASS that had just been earned reported as
+# "no RG-012 run matches this installer" — which reads as *the gate ran against a different build*
+# and sends you to re-run a 20-minute clean-machine gate that already passed.
+_CHOSEN = re.compile(r"installer chosen: (\S+) \(([\d,]+(?:\.\d+)?) MB, built ([^)]+)\)")
+
+
+_RUN_START = "=== RG-012 Tier-2 start ==="
+_PYTHON_ON_PATH = re.compile(r"python on PATH\? (True|False)")
+_CHUNKS_AFTER_INGEST = re.compile(r"chunk_count after ingest: (\d+)")
+_TURNS_PLANNED = re.compile(r"turns planned: (\d+)")
+
+# The fewest turns a citation verdict may rest on. One turn is a coin flip on `llama3.1:8b`: the
+# byte-identical 0.5.1 installer failed 1 run in 4 on the same question (RIGOR_TODO RG-012,
+# 2026-08-14). A run from the single-turn harness (every run before 2026-09-16) is therefore judged
+# insufficient rather than passed — otherwise running a stale copy of the harness would quietly
+# restore the coin flip.
+RG012_MIN_TURNS = 3
+
+CITED, UNCITED, UNRESOLVED, MISSING = "cited", "uncited", "unresolved", "missing"
+
+
+@dataclass
+class Rg012Turn:
+    number: int
+    kind: str  # CITED | UNCITED | UNRESOLVED | MISSING
+    detail: str
+
+
+def _last_run(text: str) -> str:
+    """The last run in a harness log.
+
+    The harness appended to one log until 2026-09-16, so an ``out\\`` folder that was not cleared
+    held two runs — the 2026-08-15 archive holds runs 3 and 4. Reading the first installer line and
+    *any* pass line in such a file would score a failed re-run as a pass. Only the last run's turn
+    files survive on disk anyway, so the last run is the only one that can be judged.
+    """
+    i = text.rfind(_RUN_START)
+    return text if i < 0 else text[i:]
+
+
+def classify_turn(
+    number: int, payload: dict[str, object] | None, why_missing: str = ""
+) -> Rg012Turn:
+    """Judge one turn with the app's own citation audit — never a restatement of it (KI-35).
+
+    ``cited``: at least one in-range citation. ``unresolved``: nothing valid, but the model *tried*
+    (a malformed or out-of-range token) — a prompt/parser defect. ``uncited``: no citation of any
+    form — the model declining, which ``llama3.1:8b`` does on some answers (KI-36).
+    """
+    if payload is None:
+        return Rg012Turn(number, MISSING, why_missing or "no result was saved")
+    answer = payload.get("answer")
+    sources = payload.get("sources")
+    n_sources = len(sources) if isinstance(sources, list) else 0
+    audit = audit_citations(answer if isinstance(answer, str) else "", n_sources)
+    if audit.valid:
+        return Rg012Turn(number, CITED, f"{len(audit.valid)} of {n_sources} sources cited")
+    if audit.malformed or audit.out_of_range:
+        return Rg012Turn(number, UNRESOLVED, "; ".join(audit.reasons))
+    return Rg012Turn(number, UNCITED, f"no citation of any form ({n_sources} sources retrieved)")
+
+
+def read_run_turns(run_dir: Path, run: str) -> list[Rg012Turn]:
+    """Every turn the run planned, judged from the result files it saved beside its log.
+
+    The three-turn harness logs ``turns planned: N`` and writes ``turn-K-result.json``; the
+    single-turn harness before it wrote one ``result.json``. PowerShell 5.1's ``Out-File -Encoding
+    utf8`` writes a BOM, hence ``utf-8-sig``. A turn whose file is absent or unreadable is
+    ``missing`` — this check could not look, and says so instead of guessing.
+    """
+    planned = _TURNS_PLANNED.search(run)
+    if planned is None:
+        files = [run_dir / "result.json"]
+    else:
+        files = [run_dir / f"turn-{k}-result.json" for k in range(1, int(planned.group(1)) + 1)]
+    turns: list[Rg012Turn] = []
+    for k, path in enumerate(files, start=1):
+        if not path.is_file():
+            turns.append(
+                classify_turn(k, None, f"{path.name} was not written — the turn got no answer")
+            )
+            continue
+        try:
+            payload = json.loads(path.read_text(encoding="utf-8-sig"))
+        except (OSError, UnicodeDecodeError, json.JSONDecodeError) as e:
+            turns.append(classify_turn(k, None, f"{path.name} is unreadable ({type(e).__name__})"))
+            continue
+        turns.append(classify_turn(k, payload if isinstance(payload, dict) else None))
+    return turns
+
+
+def rg012_packaging(run: str, turns: list[Rg012Turn]) -> Check:
+    """The half that found KI-34: a clean box, a real ingest, and an answer to every turn."""
+    name = "rg012_packaging"
+    python = _PYTHON_ON_PATH.search(run)
+    if python is None:
+        return Check(
+            name, FAIL, "the log never says whether Python was on PATH — not a readable run"
+        )
+    if python.group(1) == "True":
+        return Check(name, FAIL, "Python was on PATH in the sandbox — not a clean machine")
+    chunks = _CHUNKS_AFTER_INGEST.search(run)
+    if chunks is None:
+        stops = [ln.strip() for ln in run.splitlines() if "FAIL:" in ln]
+        return Check(name, FAIL, "the run stopped before ingest finished", stops[-1:])
+    if int(chunks.group(1)) <= 0:
+        return Check(name, FAIL, "ingest produced 0 chunks")
+    missing = [t for t in turns if t.kind == MISSING]
+    if missing:
+        return Check(
+            name,
+            FAIL,
+            f"{len(missing)} of {len(turns)} turn(s) got no answer",
+            [f"turn {t.number}: {t.detail}" for t in missing],
+        )
+    return Check(
+        name,
+        OK,
+        f"clean box, {chunks.group(1)} chunks, {len(turns)} of {len(turns)} turn(s) answered",
+    )
+
+
+def rg012_citation(turns: list[Rg012Turn]) -> Check:
+    """At least one cited turn, none that tried to cite and failed, enough turns to mean it."""
+    name = "rg012_citation"
+    notes = [f"turn {t.number}: {t.kind} — {t.detail}" for t in turns]
+    missing = [t for t in turns if t.kind == MISSING]
+    if missing:
+        return Check(
+            name, FAIL, f"could not judge {len(missing)} turn(s) — no saved answer", notes
+        )
+    unresolved = [t for t in turns if t.kind == UNRESOLVED]
+    if unresolved:
+        return Check(
+            name,
+            FAIL,
+            f"{len(unresolved)} turn(s) tried to cite and nothing resolved — a prompt/parser "
+            "defect, not the model declining",
+            notes,
+        )
+    cited = sum(1 for t in turns if t.kind == CITED)
+    if cited == 0:
+        return Check(
+            name,
+            FAIL,
+            f"no turn cited (0 of {len(turns)}) — a grounding failure, not packaging",
+            notes,
+        )
+    if len(turns) < RG012_MIN_TURNS:
+        return Check(
+            name,
+            FAIL,
+            f"only {len(turns)} turn(s) — one turn is a coin flip on llama3.1:8b; re-run with "
+            f"scripts/rg012/rg012-run.ps1 ({RG012_MIN_TURNS} turns)",
+            notes,
+        )
+    return Check(
+        name, OK, f"{cited} of {len(turns)} turns cited (needs at least 1 — KI-36)", notes
+    )
+
+
+def _run_built_at(run: str) -> datetime | None:
+    m = _CHOSEN.search(run)
+    if not m:
+        return None
+    try:
+        return datetime.strptime(m.group(3).strip(), "%m/%d/%Y %I:%M:%S %p")
+    except ValueError:
+        return None
+
+
+def check_rg012(installer: Path | None, archives: Path | None = None) -> list[Check]:
+    """Did the clean-machine gate pass **on this artifact** — packaging and citation, separately?
+
+    Matches the build timestamp the harness recorded against the installer on disk. A PASS from a
+    previous build is worse than no PASS at all — it reads as evidence for something never tested.
+    The newest run on the artifact decides; earlier runs on it are listed with their verdicts, so
+    re-running until green is visible rather than silent.
+    """
+    root = RG012_ARCHIVES if archives is None else archives
+    if installer is None:
+        return [Check("rg012", SKIP, "no artifact to match")]
+    if not root.is_dir():
+        return [Check("rg012", WARN, f"no harness at {root} (run on the build box)")]
+    logs = sorted(root.rglob("rg012.log"), key=lambda p: p.stat().st_mtime, reverse=True)
+    if not logs:
+        return [
+            Check("rg012", FAIL, "no RG-012 run recorded — the clean-machine gate has not run")
+        ]
+    inst_t = datetime.fromtimestamp(installer.stat().st_mtime).replace(second=0, microsecond=0)
+    judged: list[tuple[str, Check, Check]] = []
+    for log in logs:
+        run = _last_run(log.read_text(encoding="utf-8", errors="replace"))
+        built = _run_built_at(run)
+        if built is None or built.replace(second=0, microsecond=0) != inst_t:
+            continue
+        turns = read_run_turns(log.parent, run)
+        judged.append((log.parent.name, rg012_packaging(run, turns), rg012_citation(turns)))
+    if not judged:
+        return [
+            Check(
+                "rg012",
+                FAIL,
+                "no RG-012 run matches this installer — the gate ran against a DIFFERENT build",
+                [f"installer built {inst_t:%Y-%m-%d %H:%M}", f"{len(logs)} archived run(s) found"],
+            )
+        ]
+    label, packaging, citation = judged[0]
+    earlier = [
+        f"earlier run on this artifact: {name} — packaging {p.status}, citation {c.status}"
+        for name, p, c in judged[1:]
+    ]
+    packaging.detail = f"{label}: {packaging.detail}"
+    citation.detail = f"{label}: {citation.detail}"
+    packaging.notes += earlier
+    return [packaging, citation]
+
+
+def _just_recipes() -> set[str]:
+    """Recipe names from the justfile.
+
+    `just` is an ordinary English word, so matching ``just \\w+`` flags "just now", "just a" and
+    "just the" — three false positives on the first run of this check. Only a real recipe name
+    makes ``just X`` a command, so read them from the justfile rather than guessing. This also
+    keeps the check honest as recipes come and go.
+    """
+    jf = ROOT / "justfile"
+    if not jf.is_file():
+        return set()
+    text = jf.read_text(encoding="utf-8")
+    return {m.group(1) for m in re.finditer(r"^([a-z][\w-]*)(?: [^:\n]*)?:(?!=)", text, re.M)}
+
+
+def check_dev_commands() -> Check:
+    """No developer command may appear in a user-facing frontend string (KI-39).
+
+    The app's only failure message used to read "backend unreachable. Run ``just api``" — a task
+    runner and a repo recipe that someone who installed an .exe does not have. Comments are
+    skipped: explaining a dev command to the next maintainer is fine, printing it at a user is not.
+    """
+    recipes = _just_recipes()
+    patterns = [
+        r"npm run [\w:-]+",
+        r"\buv run\b",
+        r"\bpip install\b",
+        r"\bcargo (build|run|test)\b",
+    ]
+    if recipes:
+        patterns.append(r"\bjust (" + "|".join(sorted(map(re.escape, recipes))) + r")\b")
+    dev_cmd = re.compile("(" + "|".join(patterns) + ")")
+
+    offenders: list[str] = []
+    for p in sorted((ROOT / "apps/desktop/src").rglob("*.svelte")):
+        in_block_comment = False
+        for i, line in enumerate(p.read_text(encoding="utf-8").splitlines(), 1):
+            stripped = line.strip()
+            if in_block_comment:
+                if "-->" in stripped or "*/" in stripped:
+                    in_block_comment = False
+                continue
+            if stripped.startswith(("<!--", "/*")) and not ("-->" in stripped or "*/" in stripped):
+                in_block_comment = True
+                continue
+            if stripped.startswith(("//", "*", "<!--", "/*")):
+                continue
+            m = dev_cmd.search(line)
+            if m:
+                offenders.append(f"{p.relative_to(ROOT)}:{i}  {m.group(0)!r}")
+    if offenders:
+        return Check(
+            "dev_commands", FAIL, "developer command in shipped UI text (KI-39)", offenders[:8]
+        )
+    return Check(
+        "dev_commands",
+        OK,
+        f"no developer commands in shipped UI text ({len(recipes)} just recipes checked)",
+    )
+
+
+# The two documents a person works from during a release, and which are assumed STALE unless
+# proven otherwise (user, 2026-09-10): the UX walkthrough grows a row for every surface that
+# shipped, and the security note's findings/floor tables move as steps land. A release cut against
+# last release's checklists tests last release. Judged by git history like `artifact_fresh`, not
+# by mtimes or a header date: "touched since the previous tag" is the fact that matters.
+CHECKLISTS = (
+    "docs/release-ux-checklist.md",
+    "docs/security.md",
+)
+
+
+def check_checklists_refreshed() -> Check:
+    """Each release checklist must carry a commit (or an uncommitted edit) since the previous tag.
+
+    An untouched checklist is not evidence that nothing changed — it is evidence that nobody
+    looked. The refresh procedure is docs/RELEASE.md §0; this only verifies it happened.
+    """
+    tag = _run("git", "describe", "--tags", "--abbrev=0")
+    if not tag:
+        return Check("checklists", SKIP, "no previous tag to compare against")
+    stale: list[str] = []
+    fresh: list[str] = []
+    for rel in CHECKLISTS:
+        if not (ROOT / rel).exists():
+            stale.append(f"{rel}: missing")
+            continue
+        committed = _run("git", "log", "--oneline", f"{tag}..HEAD", "--", rel)
+        dirty = _run("git", "status", "--porcelain", "--", rel)
+        if committed or dirty:
+            fresh.append(rel)
+        else:
+            stale.append(f"{rel}: no change since {tag} — refresh it (docs/RELEASE.md §0)")
+    if stale:
+        return Check("checklists", FAIL, f"{len(stale)} checklist(s) untouched since {tag}", stale)
+    return Check("checklists", OK, f"all {len(fresh)} touched since {tag}")
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument("--json", action="store_true", help="machine-readable output")
+    args = ap.parse_args()
+
+    version = tomllib.loads((ROOT / "pyproject.toml").read_text(encoding="utf-8"))["project"][
+        "version"
+    ]
+    artifacts, installer = check_artifacts()
+    checks = [
+        check_versions(),
+        check_changelog(version),
+        check_tree_clean(),
+        artifacts,
+        check_artifact_fresh(installer),
+        check_sidecar_size(),
+        *check_rg012(installer),
+        check_dev_commands(),
+        check_checklists_refreshed(),
+    ]
+
+    if args.json:
+        print(json.dumps([c.__dict__ for c in checks], indent=1))
+    else:
+        print(f"\nRelease preflight — version {version}\n" + "=" * 60)
+        for c in checks:
+            mark = {OK: "[ok]  ", FAIL: "[FAIL]", WARN: "[warn]", SKIP: "[skip]"}[c.status]
+            print(f"{mark} {c.name:<16} {c.detail}")
+            for n in c.notes:
+                print(f"           {n}")
+        failed = [c.name for c in checks if c.status == FAIL]
+        print("=" * 60)
+        if failed:
+            print(f"NOT READY — {len(failed)} check(s) failed: {', '.join(failed)}")
+            print("The judgment steps are in docs/RELEASE.md; this script only covers the")
+            print("mechanical ones. A green run here is necessary, not sufficient.")
+        else:
+            print("Mechanical checks pass. Now do the judgment steps in docs/RELEASE.md.")
+    return 1 if any(c.status == FAIL for c in checks) else 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

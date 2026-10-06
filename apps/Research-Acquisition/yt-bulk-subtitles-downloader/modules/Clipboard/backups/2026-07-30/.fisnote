@@ -1,0 +1,28 @@
+---
+fis_schema: "folder-index.v1"
+folder_id: "FLD-20260907-c19cf8a5"
+folder: "GitHub\Research-Acquisition\yt-bulk-subtitles-downloader\modules\Clipboard\backups\2026-07-30"
+folder_class: "project"
+confidence: 0.6
+dependency_risk: 0.0
+dominant_family: "other"
+dominant_ratio: 1.0
+file_count: 4
+classified_at: "2026-09-07T16:08:00"
+allowed_actions: ["index", "rename_internal", "subfolder_sort", "archive_exports"]
+suggested_name: "2026-07-30"
+---
+
+# FIS Folder Index: 2026-07-30
+
+**Class**: project  ·  **Confidence**: 60%  ·  **Files**: 4  ·  **Dominant**: other (100%)
+
+## Allowed actions
+- index
+- rename_internal
+- subfolder_sort
+- archive_exports
+
+**Suggested name**: `2026-07-30`  (not applied — review before use)
+
+<!-- FIS folder-index.v1: parseable note; safe to regenerate. -->

@@ -1,0 +1,5 @@
+requests
+gtts
+edge-tts
+rapidfuzz
+Pillow

@@ -1,0 +1,58 @@
+============================================================================
+               CRAWL4AI DIAGNOSTIC RECEIPT & HEALTH VERIFICATION
+============================================================================
+Timestamp       : 2026-09-23 11:46:29 UTC
+Project Root    : D:\GitHub\Research-Acquisition\crawl4ai
+Python Runtime  : D:\GitHub\Research-Acquisition\crawl4ai\venv\Scripts\python.exe
+============================================================================
+
+[Test 1/6] Checking Python version & architecture...
+  Python 3.12.10 [64-bit: True]
+  [PASS] Python version check passed.
+
+[Test 2/6] Checking critical modules import...
+  Modules verified: aiohttp, playwright, patchright, pydantic, litellm, bs4, rich, OpenSSL
+  [PASS] All critical dependencies loaded successfully.
+
+[Test 3/6] Checking Crawl4AI library import...
+  Crawl4AI Version: 0.7.8
+  [PASS] Crawl4AI library imported cleanly.
+
+[Test 4/6] Confirming Playwright Chromium browser launch...
+  [FAIL] Playwright Chromium launch failed: BrowserType.launch: Executable doesn't exist at C:\Users\David\AppData\Local\ms-playwright\chromium_headless_shell-1243\chrome-headless-shell-win64\chrome-headless-shell.exe
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+
+[Test 5/6] Confirming Patchright Chromium stealth browser launch...
+  [FAIL] Patchright Chromium launch failed: BrowserType.launch: Executable doesn't exist at C:\Users\David\AppData\Local\ms-playwright\chromium_headless_shell-1243\chrome-headless-shell-win64\chrome-headless-shell.exe
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     patchright install                                     ║
+║                                                            ║
+║ <3 Patchright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+
+[Test 6/6] Crawling Ordinary Page and JavaScript-Heavy Page...
+  [FAIL] Dual crawl test failed: BrowserType.launch: Executable doesn't exist at C:\Users\David\AppData\Local\ms-playwright\chromium-1243\chrome-win64\chrome.exe
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+
+============================================================================
+                           DIAGNOSTIC SUMMARY
+============================================================================
+[STATUS] 3 test failed.
+============================================================================

@@ -1,0 +1,2722 @@
+{
+  "summary": {
+    "scored": 142,
+    "total": 142,
+    "missing": [],
+    "fruit_means": {
+      "love": 0.007,
+      "joy": 0.0,
+      "peace": 0.021,
+      "patience": 0.0,
+      "kindness": 0.007,
+      "goodness": 0.0,
+      "faithfulness": 0.007,
+      "gentleness": 0.007,
+      "self_control": 0.127
+    },
+    "fruit_extremes": {
+      "love": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "joy": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "peace": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "patience": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "kindness": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "goodness": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "faithfulness": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "gentleness": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "self_control": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      }
+    },
+    "track_love": {
+      "joy": null,
+      "peace": 0.573,
+      "patience": null,
+      "kindness": 1.0,
+      "goodness": null,
+      "faithfulness": -0.007,
+      "gentleness": 1.0,
+      "self_control": -0.032
+    },
+    "top_toward": [
+      {
+        "id": "S120",
+        "para": "P68",
+        "sum": 4,
+        "love": 1,
+        "text": "A skeptic does not have to accept the Bible’s authority to understand what this paper is doing.",
+        "why": {
+          "love": "preserves skeptic's agency, no coercion",
+          "gentleness": "grants reader freedom to withhold assent"
+        }
+      },
+      {
+        "id": "S091",
+        "para": "P54",
+        "sum": 2,
+        "love": 0,
+        "text": "The support layer must face the historical questions, the Johannine context, rival religious claims, translation issues, and resurrection evidence.",
+        "why": {}
+      },
+      {
+        "id": "S040",
+        "para": "P23",
+        "sum": 1,
+        "love": 0,
+        "text": "The name does not answer every philosophical question.",
+        "why": {}
+      },
+      {
+        "id": "S041",
+        "para": "P23",
+        "sum": 1,
+        "love": 0,
+        "text": "It does not hand us a diagram of God’s essence.",
+        "why": {}
+      },
+      {
+        "id": "S042",
+        "para": "P23",
+        "sum": 1,
+        "love": 0,
+        "text": "It does not remove mystery.",
+        "why": {}
+      }
+    ],
+    "top_away": [],
+    "love_turns": [
+      "S118",
+      "S123"
+    ],
+    "counterfeit_candidates": [],
+    "hidden_fruit": [],
+    "paragraph_love": {
+      "P01": 0.0,
+      "P02": 0.0,
+      "P03": 0.0,
+      "P04": 0.0,
+      "P05": 0.0,
+      "P06": 0.0,
+      "P07": 0.0,
+      "P08": 0.0,
+      "P09": 0.0,
+      "P10": 0.0,
+      "P11": 0.0,
+      "P12": 0.0,
+      "P13": 0.0,
+      "P14": 0.0,
+      "P15": 0.0,
+      "P16": 0.0,
+      "P17": 0.0,
+      "P18": 0.0,
+      "P19": 0.0,
+      "P20": 0.0,
+      "P21": 0.0,
+      "P22": 0.0,
+      "P23": 0.0,
+      "P24": 0.0,
+      "P25": 0.0,
+      "P26": 0.0,
+      "P27": 0.0,
+      "P28": 0.0,
+      "P29": 0.0,
+      "P30": 0.0,
+      "P31": 0.0,
+      "P32": 0.0,
+      "P33": 0.0,
+      "P34": 0.0,
+      "P35": 0.0,
+      "P36": 0.0,
+      "P37": 0.0,
+      "P38": 0.0,
+      "P39": 0.0,
+      "P40": 0.0,
+      "P41": 0.0,
+      "P42": 0.0,
+      "P43": 0.0,
+      "P44": 0.0,
+      "P45": 0.0,
+      "P46": 0.0,
+      "P47": 0.0,
+      "P48": 0.0,
+      "P49": 0.0,
+      "P50": 0.0,
+      "P51": 0.0,
+      "P52": 0.0,
+      "P53": 0.0,
+      "P54": 0.0,
+      "P55": 0.0,
+      "P56": 0.0,
+      "P57": 0.0,
+      "P58": 0.0,
+      "P59": 0.0,
+      "P60": 0.0,
+      "P61": 0.0,
+      "P62": 0.0,
+      "P63": 0.0,
+      "P64": 0.0,
+      "P65": 0.0,
+      "P66": 0.0,
+      "P67": 0.0,
+      "P68": 1.0,
+      "P69": 0.0,
+      "P70": 0.0,
+      "P71": 0.0,
+      "P72": 0.0,
+      "P73": 0.0,
+      "P74": 0.0,
+      "P75": 0.0,
+      "P76": 0.0,
+      "P77": 0.0,
+      "P78": 0.0,
+      "P79": 0.0,
+      "P80": 0.0,
+      "P81": 0.0,
+      "P82": 0.0,
+      "P83": 0.0,
+      "P84": 0.0,
+      "P85": 0.0,
+      "P86": 0.0
+    },
+    "paragraph_total": {
+      "P01": 0.0,
+      "P02": 0.0,
+      "P03": 0.0,
+      "P04": 0.0,
+      "P05": 0.0,
+      "P06": 0.0,
+      "P07": 0.0,
+      "P08": 0.0,
+      "P09": 0.0,
+      "P10": 0.0,
+      "P11": 0.0,
+      "P12": 0.0,
+      "P13": 0.0,
+      "P14": 0.0,
+      "P15": 0.0,
+      "P16": 0.0,
+      "P17": 0.0,
+      "P18": 0.0,
+      "P19": 0.0,
+      "P20": 0.0,
+      "P21": 0.0,
+      "P22": 0.0,
+      "P23": 1.0,
+      "P24": 0.0,
+      "P25": 0.0,
+      "P26": 0.0,
+      "P27": 0.0,
+      "P28": 0.0,
+      "P29": 0.5,
+      "P30": 0.0,
+      "P31": 0.0,
+      "P32": 0.0,
+      "P33": 1.0,
+      "P34": 0.0,
+      "P35": 0.0,
+      "P36": 0.0,
+      "P37": 1.0,
+      "P38": 0.0,
+      "P39": 0.0,
+      "P40": 0.0,
+      "P41": 0.0,
+      "P42": 0.0,
+      "P43": 0.0,
+      "P44": 0.0,
+      "P45": 0.0,
+      "P46": 0.0,
+      "P47": 0.0,
+      "P48": 0.0,
+      "P49": 0.0,
+      "P50": 0.0,
+      "P51": 0.0,
+      "P52": 0.0,
+      "P53": 0.0,
+      "P54": 1.33,
+      "P55": 0.0,
+      "P56": 0.0,
+      "P57": 0.0,
+      "P58": 0.0,
+      "P59": 0.0,
+      "P60": 0.6,
+      "P61": 0.0,
+      "P62": 0.0,
+      "P63": 0.0,
+      "P64": 0.83,
+      "P65": 0.0,
+      "P66": 0.0,
+      "P67": 0.0,
+      "P68": 4.0,
+      "P69": 0.0,
+      "P70": 0.0,
+      "P71": 0.0,
+      "P72": 1.0,
+      "P73": 0.0,
+      "P74": 0.33,
+      "P75": 0.0,
+      "P76": 0.0,
+      "P77": 0.0,
+      "P78": 0.0,
+      "P79": 0.33,
+      "P80": 0.0,
+      "P81": 0.0,
+      "P82": 0.0,
+      "P83": 0.0,
+      "P84": 0.0,
+      "P85": 0.0,
+      "P86": 0.0
+    }
+  },
+  "sentences": [
+    {
+      "id": "S001",
+      "para": "P01",
+      "text": "# I AM: The Root Speaks",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S002",
+      "para": "P02",
+      "text": "If God is the root, then the first problem is not only whether we can reach Him.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S003",
+      "para": "P03",
+      "text": "It is whether He has spoken.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S004",
+      "para": "P04",
+      "text": "Human beings can reason upward.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S005",
+      "para": "P04",
+      "text": "We can look at existence, truth, relation, order, consciousness, morality, beauty, suffering, and history.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S006",
+      "para": "P04",
+      "text": "We can ask what kind of root could carry all of that.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S007",
+      "para": "P04",
+      "text": "We can compare rival answers.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S008",
+      "para": "P04",
+      "text": "We can test what follows.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S009",
+      "para": "P05",
+      "text": "But if God is actually God, He is not trapped at the far end of our investigation.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S010",
+      "para": "P06",
+      "text": "The root can disclose Himself.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S011",
+      "para": "P07",
+      "text": "That is the biblical claim.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S012",
+      "para": "P08",
+      "text": "God is not first introduced as an object lying on a table, waiting for creatures to define Him.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S013",
+      "para": "P08",
+      "text": "He is the One who calls, commands, creates, names, promises, judges, forgives, and reveals.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S014",
+      "para": "P09",
+      "text": "And when Moses asks for His name, God does not give a creaturely label.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S015",
+      "para": "P10",
+      "text": "He says:",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S016",
+      "para": "P11",
+      "text": "> [!source] Exodus 3:14",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S017",
+      "para": "P11",
+      "text": "> **I AM WHO I AM.**",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S018",
+      "para": "P12",
+      "text": "That is not a slogan.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S019",
+      "para": "P12",
+      "text": "It is a boundary.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S020",
+      "para": "P13",
+      "text": "God is not one being inside a larger field of being.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S021",
+      "para": "P13",
+      "text": "He is not a powerful object located somewhere in the universe.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S022",
+      "para": "P13",
+      "text": "He is not the biggest thing among things.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S023",
+      "para": "P14",
+      "text": "He is the One from whom every “is” receives its existence.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S024",
+      "para": "P15",
+      "text": "## The root names Himself from His own side",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S025",
+      "para": "P16",
+      "text": "Most names work by comparison.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S026",
+      "para": "P17",
+      "text": "A tree is not a stone.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S027",
+      "para": "P17",
+      "text": "A father is not a son.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S028",
+      "para": "P17",
+      "text": "A river is not a road.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S029",
+      "para": "P17",
+      "text": "We name things by placing them among other things and noticing what separates them.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S030",
+      "para": "P18",
+      "text": "But what happens when the One being named is not one object among others?",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S031",
+      "para": "P19",
+      "text": "You cannot define the root by pointing beneath it.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S032",
+      "para": "P19",
+      "text": "If something deeper explains God, then God was not the root.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S033",
+      "para": "P19",
+      "text": "You cannot place God inside a category larger than God, because then the category would be more ultimate than God.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S034",
+      "para": "P20",
+      "text": "So the divine name does something strange and necessary.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S035",
+      "para": "P21",
+      "text": "It refuses to let God be measured from below.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S036",
+      "para": "P22",
+      "text": "“I AM” names God from the side of God’s own existence.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S037",
+      "para": "P22",
+      "text": "He is not borrowed being.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S038",
+      "para": "P22",
+      "text": "He is not derivative.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S039",
+      "para": "P22",
+      "text": "He is not explained by the world He made.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S040",
+      "para": "P23",
+      "text": "The name does not answer every philosophical question.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "why": {}
+    },
+    {
+      "id": "S041",
+      "para": "P23",
+      "text": "It does not hand us a diagram of God’s essence.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "why": {}
+    },
+    {
+      "id": "S042",
+      "para": "P23",
+      "text": "It does not remove mystery.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "why": {}
+    },
+    {
+      "id": "S043",
+      "para": "P24",
+      "text": "But it tells us where not to look.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S044",
+      "para": "P25",
+      "text": "Do not look for God as one more dependent thing.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S045",
+      "para": "P26",
+      "text": "The root is not downstream.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S046",
+      "para": "P27",
+      "text": "## Speech changes the whole investigation",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S047",
+      "para": "P28",
+      "text": "If God speaks, then revelation is not cheating.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S048",
+      "para": "P29",
+      "text": "It is not irrational to listen to a person who can speak.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S049",
+      "para": "P29",
+      "text": "If God is personal, and if creation is not God, then creatures should not assume that their upward reasoning is the only possible route to knowledge of Him.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "why": {}
+    },
+    {
+      "id": "S050",
+      "para": "P30",
+      "text": "A child can learn about his father in two ways.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S051",
+      "para": "P31",
+      "text": "He can study the house the father built.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S052",
+      "para": "P31",
+      "text": "He can notice the order of the rooms, the table prepared, the locks, the tools, the boundaries, the repairs, the signs of care.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S053",
+      "para": "P32",
+      "text": "But the child can also hear his father speak.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S054",
+      "para": "P33",
+      "text": "Those are not enemies.",
+      "v": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S055",
+      "para": "P34",
+      "text": "The house can witness to the father.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S056",
+      "para": "P34",
+      "text": "The father’s voice can explain the house.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S057",
+      "para": "P35",
+      "text": "That is the posture of this whole project.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S058",
+      "para": "P35",
+      "text": "Science studies the house.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S059",
+      "para": "P35",
+      "text": "Philosophy asks what the house requires.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S060",
+      "para": "P35",
+      "text": "Scripture records the Father speaking.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S061",
+      "para": "P35",
+      "text": "Christ reveals the Father personally.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S062",
+      "para": "P36",
+      "text": "Theophysics does not need to collapse those into one method.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S063",
+      "para": "P37",
+      "text": "It needs to let them converge without pretending they are the same thing.",
+      "v": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S064",
+      "para": "P38",
+      "text": "> [!bridge] Disclosure and discovery",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S065",
+      "para": "P38",
+      "text": "> Discovery asks what the world requires.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S066",
+      "para": "P38",
+      "text": "Disclosure asks whom God says He is.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S067",
+      "para": "P39",
+      "text": "## Jesus takes the name into Himself",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S068",
+      "para": "P40",
+      "text": "The New Testament makes the claim more dangerous.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S069",
+      "para": "P41",
+      "text": "Jesus does not merely speak about God from a distance.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S070",
+      "para": "P41",
+      "text": "He identifies Himself in ways that press the root question into history.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S071",
+      "para": "P42",
+      "text": "In John’s Gospel, Jesus repeatedly says “I am” and then attaches to Himself roles too large for a mere teacher:",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S072",
+      "para": "P43",
+      "text": "- “I am the bread of life.”",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S073",
+      "para": "P43",
+      "text": "- “I am the light of the world.”",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S074",
+      "para": "P43",
+      "text": "- “I am the door.”",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S075",
+      "para": "P43",
+      "text": "- “I am the good shepherd.”",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S076",
+      "para": "P43",
+      "text": "- “I am the resurrection and the life.”",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S077",
+      "para": "P43",
+      "text": "- “I am the way, and the truth, and the life.”",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S078",
+      "para": "P43",
+      "text": "- “I am the true vine.”",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S079",
+      "para": "P44",
+      "text": "A prophet can say, “God gives bread.”",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S080",
+      "para": "P45",
+      "text": "Jesus says, “I am the bread.”",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S081",
+      "para": "P46",
+      "text": "A teacher can say, “I will show you truth.”",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S082",
+      "para": "P47",
+      "text": "Jesus says, “I am the truth.”",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S083",
+      "para": "P48",
+      "text": "A guide can say, “I know the way.”",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S084",
+      "para": "P49",
+      "text": "Jesus says, “I am the way.”",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S085",
+      "para": "P50",
+      "text": "A comforter can say, “God will raise the dead.”",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S086",
+      "para": "P51",
+      "text": "Jesus says, “I am the resurrection and the life.”",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S087",
+      "para": "P52",
+      "text": "That is not ordinary religious advice.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S088",
+      "para": "P53",
+      "text": "It is identity language.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S089",
+      "para": "P54",
+      "text": "It does not prove by itself that Jesus is who Christianity says He is.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "why": {}
+    },
+    {
+      "id": "S090",
+      "para": "P54",
+      "text": "Anyone can make a large claim.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "why": {}
+    },
+    {
+      "id": "S091",
+      "para": "P54",
+      "text": "The support layer must face the historical questions, the Johannine context, rival religious claims, translation issues, and resurrection evidence.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "why": {}
+    },
+    {
+      "id": "S092",
+      "para": "P55",
+      "text": "But the shape of the claim is unmistakable.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S093",
+      "para": "P56",
+      "text": "Christianity does not merely say Jesus brought information about the root.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S094",
+      "para": "P57",
+      "text": "It says the Root entered history and spoke in the first person.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S095",
+      "para": "P58",
+      "text": "## Why this matters for the story",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S096",
+      "para": "P59",
+      "text": "If God remains only an inference, then every argument about God stays trapped inside creaturely reach.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S097",
+      "para": "P60",
+      "text": "We can argue from effects to cause, from order to source, from morality to ground, from consciousness to personhood, from beauty to meaning.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S098",
+      "para": "P60",
+      "text": "Those arguments may matter.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S099",
+      "para": "P60",
+      "text": "Some may be strong.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "why": {}
+    },
+    {
+      "id": "S100",
+      "para": "P60",
+      "text": "Some may fail.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "why": {}
+    },
+    {
+      "id": "S101",
+      "para": "P60",
+      "text": "Some may only point.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "why": {}
+    },
+    {
+      "id": "S102",
+      "para": "P61",
+      "text": "But Christianity is not built only on upward inference.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S103",
+      "para": "P62",
+      "text": "It is built on disclosure.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S104",
+      "para": "P63",
+      "text": "God speaks.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S105",
+      "para": "P63",
+      "text": "God acts.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S106",
+      "para": "P63",
+      "text": "God covenants.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S107",
+      "para": "P63",
+      "text": "God comes.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S108",
+      "para": "P63",
+      "text": "God names Himself.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S109",
+      "para": "P63",
+      "text": "God reveals His character.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S110",
+      "para": "P63",
+      "text": "God enters the human story in Christ.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S111",
+      "para": "P64",
+      "text": "That does not remove the need for argument.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S112",
+      "para": "P64",
+      "text": "Revelation can be misunderstood.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "why": {}
+    },
+    {
+      "id": "S113",
+      "para": "P64",
+      "text": "Claims of revelation can be false.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "why": {}
+    },
+    {
+      "id": "S114",
+      "para": "P64",
+      "text": "Scripture must be interpreted.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "why": {}
+    },
+    {
+      "id": "S115",
+      "para": "P64",
+      "text": "History must be investigated.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "why": {}
+    },
+    {
+      "id": "S116",
+      "para": "P64",
+      "text": "The Church can mishandle what it receives.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "why": {}
+    },
+    {
+      "id": "S117",
+      "para": "P65",
+      "text": "But if God has spoken, then the highest form of knowledge is not guessing correctly about a silent source.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S118",
+      "para": "P66",
+      "text": "It is receiving the One who gives Himself to be known.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S119",
+      "para": "P67",
+      "text": "## The reader does not have to grant all of this yet",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S120",
+      "para": "P68",
+      "text": "A skeptic does not have to accept the Bible’s authority to understand what this paper is doing.",
+      "v": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "why": {
+        "love": "preserves skeptic's agency, no coercion",
+        "gentleness": "grants reader freedom to withhold assent"
+      }
+    },
+    {
+      "id": "S121",
+      "para": "P69",
+      "text": "This paper is not saying:",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S122",
+      "para": "P70",
+      "text": "“Exodus 3:14 is in the Bible, therefore God exists.”",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S123",
+      "para": "P71",
+      "text": "It is saying:",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S124",
+      "para": "P72",
+      "text": "“If Christianity is being treated as testimony, this is the kind of God it identifies: self-existent, non-derived, personal, speaking, faithful, and finally revealed in Christ.”",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "why": {}
+    },
+    {
+      "id": "S125",
+      "para": "P73",
+      "text": "That is a different claim.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S126",
+      "para": "P74",
+      "text": "The disclosed portrait can be stated honestly before it is proven publicly.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "why": {}
+    },
+    {
+      "id": "S127",
+      "para": "P74",
+      "text": "We can ask what Christianity claims.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S128",
+      "para": "P74",
+      "text": "Then we can ask whether reality, reason, history, and experience converge with that claim.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S129",
+      "para": "P75",
+      "text": "The public story needs both movements.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S130",
+      "para": "P76",
+      "text": "Reason climbs.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S131",
+      "para": "P77",
+      "text": "God speaks.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S132",
+      "para": "P78",
+      "text": "The investigation happens where those two meet.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S133",
+      "para": "P79",
+      "text": "> [!claim] The Root Speaks",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S134",
+      "para": "P79",
+      "text": "> **Christianity does not merely claim that God can be inferred.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "why": {}
+    },
+    {
+      "id": "S135",
+      "para": "P79",
+      "text": "It claims that God has disclosed Himself.**",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S136",
+      "para": "P80",
+      "text": "That is why the “I AM” declarations belong here.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S137",
+      "para": "P81",
+      "text": "They keep us from reducing God to an object at the end of an argument.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S138",
+      "para": "P82",
+      "text": "They also keep us from reducing Jesus to a moral teacher with unusually devoted followers.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S139",
+      "para": "P83",
+      "text": "The Bible’s claim is far larger.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S140",
+      "para": "P84",
+      "text": "The root is not silent.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S141",
+      "para": "P85",
+      "text": "The root speaks.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    },
+    {
+      "id": "S142",
+      "para": "P86",
+      "text": "And in Christ, Christianity says, the root walks into the room.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {}
+    }
+  ]
+}

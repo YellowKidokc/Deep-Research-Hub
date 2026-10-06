@@ -1,0 +1,87 @@
+# Runtime and private state
+.env
+config.txt
+*.local.*
+CONFIG/*.ini
+CONFIG/*.json
+**/CONFIG/*.ini
+**/CONFIG/*.json
+!**/CONFIG/*.example.*
+# API engine config is code (station list, routines, settings); paths.json stays local
+!API/_system/config/*.json
+!API/_system/vendor/ckg/CONFIG/ckg.json
+API/_system/config/paths.json
+
+# Heavy local artifacts
+models/
+MODEL_WEIGHTS/
+ollama/
+huggingface/
+embeddings/
+!engines/embeddings/
+!engines/embeddings/**
+!API/API 2/embeddings/
+!API/API 2/embeddings/**
+vector_db/
+qdrant/
+chroma/
+weaviate/
+Data/
+databases/
+*.db
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+
+# Generated outputs
+**/OUTPUT/*
+**/REVIEW/*
+**/ARCHIVE/*
+**/ERROR/*
+**/LOGS/*
+!**/OUTPUT/.gitkeep
+!**/REVIEW/.gitkeep
+!**/ARCHIVE/.gitkeep
+!**/ERROR/.gitkeep
+!**/LOGS/.gitkeep
+
+# Caches and build products
+__pycache__/
+*.pyc
+node_modules/
+dist/
+build/
+.venv/
+venv/
+
+# OS/editor
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
+
+# Nested git repos (not submodules) - exclude from this repo
+.claude/worktrees/
+Codex-Powershell_GUI/
+
+# Accidental archive/junk tree with unusable long paths
+workflows/New Folder/
+API/_system/STATE/
+# What David drops in or gets out of an API folder is his data, not code
+API/**/[0-9][0-9][0-9]_*/INBOX/**
+API/**/[0-9][0-9][0-9]_*/OUTBOX/**
+!API/**/[0-9][0-9][0-9]_*/INBOX/**/
+!API/**/[0-9][0-9][0-9]_*/**/.gitkeep
+API/**/[0-9][0-9][0-9]_*/BACKSIDE/work/
+API/**/[0-9][0-9][0-9]_*/BACKSIDE/logs/
+# A layer station placed in another station's OUTBOX (010 theology inside 020_CKG/OUTBOX) is code: keep it.
+# Its own INBOX/OUTBOX (the layer's results) stay data.
+!API/**/OUTBOX/[0-9][0-9][0-9]_*/
+!API/**/OUTBOX/[0-9][0-9][0-9]_*/**
+API/**/OUTBOX/[0-9][0-9][0-9]_*/INBOX/**
+API/**/OUTBOX/[0-9][0-9][0-9]_*/OUTBOX/**
+!API/**/OUTBOX/[0-9][0-9][0-9]_*/INBOX/**/
+!API/**/OUTBOX/[0-9][0-9][0-9]_*/**/.gitkeep
+API/**/OUTBOX/[0-9][0-9][0-9]_*/**/__pycache__/

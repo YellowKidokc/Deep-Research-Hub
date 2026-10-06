@@ -1,0 +1,57 @@
+{
+  "name": "axiom_nodes",
+  "parsed": {
+    "paper_uuid": "youtube_gary_habermas_exaLQrIUkjY_ch010",
+    "title": "What Scholars Believe About Jesus' Resurrection (Pt. 1) - Gary Habermas",
+    "summary": "This is an interview transcript in which Gary Habermas discusses the methodology and reception of his multi-volume work on the resurrection, focusing on his criteria for identifying 'minimal facts' (high evidence and scholarly consensus), his citation practices, and his selection of French, German, and English sources. The conversation is almost entirely historiographical and apologetic in nature, with no engagement with the formal axiom system of the Faith Through Physics / Theophysics canon. The only conceptual overlap is with the general notion of a scholarly consensus and the role of evidence, but the source does not assert, support, or contest any specific axiom node.",
+    "primary_mode": "DROP_DUPLICATE",
+    "axiom_nodes": [],
+    "unmapped_claims": [
+      "A01",
+      "A02",
+      "A03",
+      "A04",
+      "A05",
+      "A06",
+      "A07",
+      "A08",
+      "A09",
+      "A10",
+      "A11",
+      "A12",
+      "A13",
+      "A14",
+      "A15",
+      "A16",
+      "A17",
+      "A18",
+      "A19",
+      "A20",
+      "A21",
+      "A22",
+      "A23",
+      "A24"
+    ]
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "axiom_nodes",
+      "attempt": 1,
+      "text": "{\n  \"paper_uuid\": \"youtube_gary_habermas_exaLQrIUkjY_ch010\",\n  \"title\": \"What Scholars Believe About Jesus' Resurrection (Pt. 1) - Gary Habermas\",\n  \"summary\": \"This is an interview transcript in which Gary Habermas discusses the methodology and reception of his multi-volume work on the resurrection, focusing on his criteria for identifying 'minimal facts' (high evidence and scholarly consensus), his citation practices, and his selection of French, German, and English sources. The conversation is almost entirely historiographical and apologetic in nature, with no engagement with the formal axiom system of the Faith Through Physics / Theophysics canon. The only conceptual overlap is with the general notion of a scholarly consensus and the role of evidence, but the source does not assert, support, or contest any specific axiom node.\",\n  \"primary_mode\": \"DROP_DUPLICATE\",\n  \"axiom_nodes\": [],\n  \"unmapped_claims\": [\n    \"A01\",\n    \"A02\",\n    \"A03\",\n    \"A04\",\n    \"A05\",\n    \"A06\",\n    \"A07\",\n    \"A08\",\n    \"A09\",\n    \"A10\",\n    \"A11\",\n    \"A12\",\n    \"A13\",\n    \"A14\",\n    \"A15\",\n    \"A16\",\n    \"A17\",\n    \"A18\",\n    \"A19\",\n    \"A20\",\n    \"A21\",\n    \"A22\",\n    \"A23\",\n    \"A24\"\n  ]\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 23460,
+      "completion_tokens": 333,
+      "attempts": 1,
+      "elapsed_seconds": 2.75,
+      "started_at": "2026-09-27T13:59:09.283954+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T13:59:12.026501+00:00",
+      "tokens": 23793
+    }
+  ],
+  "prompt_sha256": "4cfd9c5ef77a56f3538dd599703789e0274173af433c3b952d82a627c1de9c6d",
+  "tokens": 23793
+}

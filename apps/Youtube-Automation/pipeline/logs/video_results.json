@@ -1,0 +1,4989 @@
+[
+  {
+    "video_id": "hLrZTbFuHsE",
+    "intent": "HISTORY",
+    "title": "Vikings in America",
+    "hook_text": "Vikings in America existed.",
+    "script_key_sents": [
+      "Vikings in America existed",
+      "Recent archaeological discoveries in Canada have uncovered a Viking settlement",
+      "This settlement proves Vikings in America existed 500 years before Columbus"
+    ],
+    "total_duration_seconds": 34.95,
+    "scene_count": 7,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-07-02T08:15:54.577673",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 58,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-07-02T15:59:48.811544"
+  },
+  {
+    "video_id": "6D3wchI4-pI",
+    "intent": "HISTORY",
+    "title": "Roman Empire's Dark Secret",
+    "hook_text": "Roman Empire's dark secret",
+    "script_key_sents": [
+      "Roman Empire's dark secret",
+      "Climate change and devastating pandemics, similar to COVID-19, played",
+      "The Roman Empire's dark secret is that it was not just invaded, but also ravaged by the very environment it sought to control"
+    ],
+    "total_duration_seconds": 54.63,
+    "scene_count": 9,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-07-02T16:07:00.319486",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 0,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-07-03T02:04:01.540397"
+  },
+  {
+    "video_id": "CVcEsmHo1UA",
+    "intent": "NATURE",
+    "title": "Fire's Hidden Ally",
+    "hook_text": "Fire's hidden ally sparks",
+    "script_key_sents": [
+      "Fire's hidden ally sparks",
+      "Scientists found certain fungi create 'fire pathways', helping flames",
+      "Fire's hidden ally is actually a type of fungus"
+    ],
+    "total_duration_seconds": 28.85,
+    "scene_count": 5,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-07-02T21:05:52.523080",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 39,
+    "early_likes": 2,
+    "early_comments": 2,
+    "early_fetched_at": "2026-07-03T15:48:03.093426"
+  },
+  {
+    "video_id": "rPrT629Oj6w",
+    "intent": "TECHNOLOGY",
+    "title": "Anthropic Chip 🚀",
+    "hook_text": "Anthropic Chip boosts AI",
+    "script_key_sents": [
+      "Anthropic Chip boosts AI",
+      "The Anthropic Chip, developed in partnership with Samsung, is",
+      "The Anthropic Chip's capabilities are a game-changer"
+    ],
+    "total_duration_seconds": 43.12,
+    "scene_count": 9,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-07-03T02:08:33.885049",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 24,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-07-03T15:48:03.371006"
+  },
+  {
+    "video_id": "Gdx9b72evaA",
+    "intent": "CULTURE",
+    "title": "Ancient Secrets Hidden",
+    "hook_text": "Ancient secrets hidden in plain sight.",
+    "script_key_sents": [
+      "Ancient secrets hidden in plain sight",
+      "Göbekli Tepe, a site 6000 years older than Stonehenge,",
+      "The ancient secrets hidden at Göbekli Tepe are slowly being uncovered, revealing a new narrative of human civilization"
+    ],
+    "total_duration_seconds": 39.05,
+    "scene_count": 7,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-07-03T15:54:23.620312",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 159,
+    "early_likes": 7,
+    "early_comments": 6,
+    "early_fetched_at": "2026-07-04T02:01:33.415602"
+  },
+  {
+    "video_id": "YE5i5np_oxs",
+    "intent": "CULTURE",
+    "title": "Lost Tongues",
+    "hook_text": "Lost Tongues disappear daily.",
+    "script_key_sents": [
+      "Lost Tongues disappear daily",
+      "Half of the world's languages are on the brink",
+      "Lost Tongues are indeed disappearing, but efforts to preserve them continue, and it's crucial we act now to save these languages, and by doi"
+    ],
+    "total_duration_seconds": 56.87,
+    "scene_count": 12,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-07-03T21:08:17.387624",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 10,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-07-04T14:57:14.667381"
+  },
+  {
+    "video_id": "kKhUIkt_JMg",
+    "intent": "TECHNOLOGY",
+    "title": "Pocket App 🎮",
+    "hook_text": "Pocket App generates games.",
+    "script_key_sents": [
+      "Pocket App generates games",
+      "The Pocket App uses AI to generate interactive mini",
+      "The Pocket App's AI technology is the key to its innovative game generation, making it a game-changer for the industry"
+    ],
+    "total_duration_seconds": 43.16,
+    "scene_count": 9,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-07-04T02:06:24.369280",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 62,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-07-04T14:57:14.868387"
+  },
+  {
+    "video_id": "Nx6gEhIx1uo",
+    "intent": "HISTORY",
+    "title": "Khan's Secret To Success",
+    "hook_text": "Khan's secret",
+    "script_key_sents": [
+      "Khan's secret to success lies in his genetic legacy,",
+      "Khan's secret to success is now clear: his ability to leave a lasting genetic legacy"
+    ],
+    "total_duration_seconds": 46.59,
+    "scene_count": 9,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-07-04T15:03:10.192500",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 21,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-07-05T02:09:52.917651"
+  },
+  {
+    "video_id": "2Z9iRpFuHxk",
+    "intent": "HISTORY",
+    "title": "Ancient Greeks Knew This",
+    "hook_text": "Ancient Greeks knew Earth's shape.",
+    "script_key_sents": [
+      "Ancient Greeks knew Earth's shape",
+      "Eratosthenes measured the Earth's circumference with shocking accuracy, just",
+      "Ancient Greeks knew this: the Earth's circumference"
+    ],
+    "total_duration_seconds": 25.51,
+    "scene_count": 5,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-07-04T20:56:59.734123",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 851,
+    "early_likes": 6,
+    "early_comments": 4,
+    "early_fetched_at": "2026-07-05T07:55:26.691375"
+  },
+  {
+    "video_id": "GBJSjEF7kKg",
+    "intent": "TECHNOLOGY",
+    "title": "Claude Code",
+    "hook_text": "Claude Code banned.",
+    "script_key_sents": [
+      "Claude Code banned",
+      "Claude Code was banned by Alibaba due to its potential impact",
+      "The ban on Claude Code is a result of its high-risk classification, and this decision may influence the future of software development and c"
+    ],
+    "total_duration_seconds": 39.26,
+    "scene_count": 7,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-07-05T02:14:33.144927",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 419,
+    "early_likes": 3,
+    "early_comments": 2,
+    "early_fetched_at": "2026-07-05T15:04:44.347136"
+  },
+  {
+    "video_id": "h4xC4bPzXvM",
+    "intent": "HISTORY",
+    "title": "Genghis Khan's Secret Heirs",
+    "hook_text": "Genghis Khan's heirs",
+    "script_key_sents": [
+      "Genghis Khan's heirs",
+      "Recent DNA research reveals that nearly 1 in 200",
+      "Genghis Khan's secret heirs are everywhere, and his genetic legacy continues to shape modern society, with nearly 1 in 200 men being his dir"
+    ],
+    "total_duration_seconds": 38.17,
+    "scene_count": 8,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-07-05T08:02:23.911258",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 860,
+    "early_likes": 8,
+    "early_comments": 4,
+    "early_fetched_at": "2026-07-05T15:04:44.636416"
+  },
+  {
+    "video_id": "8_FOq7F_EZ4",
+    "intent": "HISTORY",
+    "title": "Silk Road's Dark Secret",
+    "hook_text": "Silk Road spreads death.",
+    "script_key_sents": [
+      "Silk Road spreads death",
+      "Recent DNA analysis reveals that the Silk Road not",
+      "The Silk Road's dark secret is that it was a conduit for death, changing the course of human history"
+    ],
+    "total_duration_seconds": 42.89,
+    "scene_count": 9,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-07-05T15:10:43.245197",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 65,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-07-06T02:15:05.351849"
+  },
+  {
+    "video_id": "0aRd6UmQvqg",
+    "intent": "TECHNOLOGY",
+    "title": "Midjourney AI",
+    "hook_text": "Midjourney AI generates images from text.",
+    "script_key_sents": [
+      "Midjourney AI generates images from text",
+      "Midjourney AI uses natural language processing to create images from text",
+      "The outcome of this case will determine the extent to which AI can be used in creative fields, and Midjourney AI is at the forefront of this"
+    ],
+    "total_duration_seconds": 43.46,
+    "scene_count": 7,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-07-06T02:19:21.115892",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 48,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-07-07T02:10:13.955650"
+  },
+  {
+    "video_id": "tkmfhxwOPJE",
+    "intent": "TECHNOLOGY",
+    "title": "Ransomware AI",
+    "hook_text": "Ransomware AI attacks",
+    "script_key_sents": [
+      "Ransomware AI attacks",
+      "Ransomware AI carries out the technical execution of attacks,",
+      "Ransomware AI's power is limited by its need for human direction"
+    ],
+    "total_duration_seconds": 44.78,
+    "scene_count": 8,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-07-07T02:14:22.663290",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 1,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-07-08T01:50:52.025776"
+  },
+  {
+    "video_id": "EOOaEv202ko",
+    "intent": "TECHNOLOGY",
+    "title": "Muse Image 📸",
+    "hook_text": "Muse Image creates photos.",
+    "script_key_sents": [
+      "Muse Image creates photos",
+      "Muse Image is an AI generator that creates images",
+      "Muse Image creates photos that are nearly indistinguishable from real ones, making it a game-changer in the world of visual content creation"
+    ],
+    "total_duration_seconds": 60.7,
+    "scene_count": 12,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-07-08T01:56:20.367725",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 18,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-07-09T02:03:38.980472"
+  },
+  {
+    "video_id": "C9c0_DUzKO8",
+    "intent": "TECHNOLOGY",
+    "title": "Deepfake Detector",
+    "hook_text": "Deepfake Detector",
+    "script_key_sents": [
+      "Deepfake Detector",
+      "Deepfake detector systems use AI to identify and",
+      "Deepfake Detector resolves the issue by identifying fake media, thus it was the answer all along"
+    ],
+    "total_duration_seconds": 33.38,
+    "scene_count": 7,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-07-09T02:07:30.081392",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 7,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-07-10T02:02:07.921135"
+  },
+  {
+    "video_id": "7yU5ogw0MmY",
+    "intent": "TECHNOLOGY",
+    "title": "Atlas AI Browser 🚀",
+    "hook_text": "Atlas AI Browser shuts down.",
+    "script_key_sents": [
+      "Atlas AI Browser shuts down",
+      "Atlas AI Browser used artificial intelligence to enhance",
+      "Atlas AI Browser may be gone, but its legacy lives on in OpenAI's desktop app and Chrome extension, changing how people interact with the in"
+    ],
+    "total_duration_seconds": 37.8,
+    "scene_count": 7,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-07-10T02:05:56.465826",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 29,
+    "early_likes": 1,
+    "early_comments": 2,
+    "early_fetched_at": "2026-07-11T01:56:16.127029"
+  },
+  {
+    "video_id": "eJV3k76BNrk",
+    "intent": "TECHNOLOGY",
+    "title": "Instagram AI 📸",
+    "hook_text": "Instagram AI raises concerns.",
+    "script_key_sents": [
+      "Instagram AI raises concerns",
+      "The removal of this feature impacts how social media",
+      "Instagram AI's removal shows the struggle to balance creativity and user control"
+    ],
+    "total_duration_seconds": 43.5,
+    "scene_count": 8,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-07-11T02:00:35.978149",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 51,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-07-12T01:52:02.489240"
+  },
+  {
+    "video_id": "DH5MXuRuQXI",
+    "intent": "TECHNOLOGY",
+    "title": "OpenAI Lawsuit 🤖",
+    "hook_text": "OpenAI lawsuit allegations",
+    "script_key_sents": [
+      "OpenAI lawsuit allegations",
+      "The lawsuit specifically alleges that OpenAI's senior leadership misappropriated",
+      "The OpenAI lawsuit serves as a reminder of the importance of protecting intellectual property in the tech industry"
+    ],
+    "total_duration_seconds": 64.97,
+    "scene_count": 12,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-07-12T01:58:17.982429",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 73,
+    "early_likes": 1,
+    "early_comments": 2,
+    "early_fetched_at": "2026-07-13T01:54:36.899749"
+  },
+  {
+    "video_id": "tJwO-G2lygU",
+    "intent": "TECHNOLOGY",
+    "title": "OpenAI Lawsuit 🤖",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "OpenAI Lawsuit 🤖",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 28.04,
+    "scene_count": 5,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-07-13T01:57:52.100181",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 236,
+    "early_likes": 1,
+    "early_comments": 2,
+    "early_fetched_at": "2026-07-14T01:41:57.716303"
+  },
+  {
+    "video_id": "k66apZQZQVk",
+    "intent": "TECHNOLOGY",
+    "title": "Uber AV Labs 🚗",
+    "hook_text": "Uber AV Labs uses AI",
+    "script_key_sents": [
+      "Uber AV Labs uses AI",
+      "Uber AV Labs utilizes artificial intelligence to enhance the",
+      "Uber AV Labs is revolutionizing transportation with AI"
+    ],
+    "total_duration_seconds": 36.22,
+    "scene_count": 7,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-07-14T01:46:24.432717",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 120,
+    "early_likes": 1,
+    "early_comments": 2,
+    "early_fetched_at": "2026-07-15T01:28:11.842502"
+  },
+  {
+    "video_id": "-kptoQViKTY",
+    "intent": "TECHNOLOGY",
+    "title": "GPT-5.6 Sol 🚨",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 28.86,
+    "scene_count": 5,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-07-15T01:32:07.864112",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 205,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-07-16T01:48:16.079282"
+  },
+  {
+    "video_id": "rnUcsb7LMpU",
+    "intent": "TECHNOLOGY",
+    "title": "OpenAI Impact 🤖",
+    "hook_text": "OpenAI impact is changing business",
+    "script_key_sents": [
+      "OpenAI impact is changing business",
+      "OpenAI's AI model assists and learns from humans, but Microsoft's promotion",
+      "This shift in AI adoption could be the catalyst for widespread AI integration, changing the impact of OpenAI forever"
+    ],
+    "total_duration_seconds": 35.68,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-07-16T01:52:24.593489",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 17,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-07-17T01:52:01.279981"
+  },
+  {
+    "video_id": "i24AoN492tc",
+    "intent": "TECHNOLOGY",
+    "title": "Google Vids AI 📹",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "Google Vids AI 📹",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 27.97,
+    "scene_count": 5,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-07-17T01:56:04.475949",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 146,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-07-18T01:41:23.411709"
+  },
+  {
+    "video_id": "yW4Gt1LUj5I",
+    "intent": "TECHNOLOGY",
+    "title": "Databricks AI",
+    "hook_text": "Databricks AI",
+    "script_key_sents": [
+      "Databricks AI technology enables cost savings through open weight",
+      "Databricks AI is the key to unlocking efficiency and productivity"
+    ],
+    "total_duration_seconds": 42.53,
+    "scene_count": 8,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-07-18T01:46:12.641050",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 26,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-07-19T01:49:44.297514"
+  },
+  {
+    "video_id": "mY1jjhJ9_uU",
+    "intent": "TECHNOLOGY",
+    "title": "Digit Robots 🤖",
+    "hook_text": "Digit robots optimize logistics.",
+    "script_key_sents": [
+      "Digit robots optimize logistics",
+      "The expansion of Digit robots into new areas like Fremont,",
+      "Digit robots are the key to streamlining logistics, and their integration is changing the game"
+    ],
+    "total_duration_seconds": 40.82,
+    "scene_count": 8,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-07-19T01:53:47.955972",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 271,
+    "early_likes": 1,
+    "early_comments": 2,
+    "early_fetched_at": "2026-07-20T02:07:07.373074"
+  },
+  {
+    "video_id": "85qWCJUUb44",
+    "intent": "TECHNOLOGY",
+    "title": "Nvidia Japan 💻",
+    "hook_text": "Nvidia Japan expands AI",
+    "script_key_sents": [
+      "Nvidia Japan expands AI",
+      "Nvidia Japan enables advancements in robotics and healthcare,",
+      "Nvidia Japan's AI expansion changes the technology landscape, impacting industries and lives, with its cutting-edge solutions, Nvidia Japan "
+    ],
+    "total_duration_seconds": 34.93,
+    "scene_count": 7,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-07-20T02:11:44.173998",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 142,
+    "early_likes": 2,
+    "early_comments": 2,
+    "early_fetched_at": "2026-07-21T01:49:30.652185"
+  },
+  {
+    "video_id": "UqkEjsQoIbA",
+    "intent": "TECHNOLOGY",
+    "title": "Anthropic AI",
+    "hook_text": "Anthropic AI raises ownership questions.",
+    "script_key_sents": [
+      "Anthropic AI raises ownership questions",
+      "Anthropic AI's training data includes copyrighted materials, which has",
+      "Anthropic AI's future hangs in the balance as the settlement sets a precedent for AI ownership and usage rights, leaving us to wonder what t"
+    ],
+    "total_duration_seconds": 53.65,
+    "scene_count": 10,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-07-21T01:56:20.182497",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 23,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-07-22T01:49:22.839975"
+  },
+  {
+    "video_id": "4RtwyImsN2Y",
+    "intent": "TECHNOLOGY",
+    "title": "Hugging Face",
+    "hook_text": "Hugging Face exposes AI risks.",
+    "script_key_sents": [
+      "Hugging Face exposes AI risks",
+      "Hugging Face allows developers to build and share AI models,",
+      "Hugging Face's breach reveals the importance of securing AI models"
+    ],
+    "total_duration_seconds": 39.07,
+    "scene_count": 7,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-07-22T01:53:55.143287",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 51,
+    "early_likes": 1,
+    "early_comments": 2,
+    "early_fetched_at": "2026-07-24T07:58:42.035629"
+  },
+  {
+    "video_id": "5AzyPLZP-XM",
+    "intent": "ANIMALS",
+    "title": "Crows Expose Human Liars",
+    "hook_text": "Crows expose human liars.",
+    "script_key_sents": [
+      "Crows expose human liars",
+      "Crows recognize human faces and remember the actions of",
+      "Crows expose human liars by responding aggressively to people who have deceived them before, making them a unique indicator of human honesty"
+    ],
+    "total_duration_seconds": 51.53,
+    "scene_count": 10,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-07-24T08:05:18.692794",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 44,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-08T22:56:02.404622"
+  },
+  {
+    "video_id": "lA_7x9X6l_c",
+    "intent": "ANIMALS",
+    "title": "Elephants Mourn Like Humans",
+    "hook_text": "Elephants mourn.",
+    "script_key_sents": [
+      "Elephants revisit graves years later, showing a level of emotional",
+      "It's clear, elephants mourn like humans, challenging our understanding of animal emotions and intelligence"
+    ],
+    "total_duration_seconds": 35.14,
+    "scene_count": 7,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-07-24T08:25:42.499910",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 326,
+    "early_likes": 8,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-08T22:56:02.633921"
+  },
+  {
+    "video_id": "U3TZdL6N-DU",
+    "intent": "HISTORY",
+    "title": "The Dark Secret Behind the Black Death",
+    "hook_text": "Black Death hides a dark secret.",
+    "script_key_sents": [
+      "Black Death hides a dark secret",
+      "The dark secret behind the Black Death is that",
+      "The Black Death's secret is now out: multiple plague strains led to its devastating impact"
+    ],
+    "total_duration_seconds": 37.28,
+    "scene_count": 8,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-08T23:02:26.296518",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 489,
+    "early_likes": 6,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-09T07:44:07.118919"
+  },
+  {
+    "video_id": "2LgsxYfhjcI",
+    "intent": "TECHNOLOGY",
+    "title": "Amazon Data Center 🚀",
+    "hook_text": "Amazon Data Center",
+    "script_key_sents": [
+      "Amazon Data Center",
+      "The new Texas data center features an on-site power plant,",
+      "This development makes Amazon Data Center a significant contributor to climate pollution, answering the question about its environmental imp"
+    ],
+    "total_duration_seconds": 31.36,
+    "scene_count": 7,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-09T00:48:05.584253",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 352,
+    "early_likes": 4,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-09T07:44:07.325912"
+  },
+  {
+    "video_id": "sRgtf7rHauo",
+    "intent": "HISTORY",
+    "title": "Plague & Prayer",
+    "hook_text": "Plague spreads prayer.",
+    "script_key_sents": [
+      "Plague spreads prayer",
+      "Recent archaeological findings and DNA analysis reveal that the Black",
+      "This connection between plague and prayer shows how the spread of ideas and diseases are intertwined"
+    ],
+    "total_duration_seconds": 42.39,
+    "scene_count": 9,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-09T03:08:09.166590",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 135,
+    "early_likes": 3,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-09T13:51:10.716913"
+  },
+  {
+    "video_id": "12on-OH3VHA",
+    "intent": "HISTORY",
+    "title": "Vikings in America",
+    "hook_text": "Vikings in America existed.",
+    "script_key_sents": [
+      "Vikings in America existed",
+      "A new archaeological discovery in Canada may be the",
+      "Vikings in America existed, and their legacy remains"
+    ],
+    "total_duration_seconds": 34.19,
+    "scene_count": 7,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-09T07:50:43.791628",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 356,
+    "early_likes": 5,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-09T13:51:10.922654"
+  },
+  {
+    "video_id": "zhd-GE1wanE",
+    "intent": "HISTORY",
+    "title": "Ancient Greeks Knew",
+    "hook_text": "Ancient Greeks knew Earth was round.",
+    "script_key_sents": [
+      "Ancient Greeks knew Earth was round",
+      "Recent studies confirmed that ancient Greeks discovered the Earth",
+      "Ancient Greeks knew the Earth was round, and their calculations were remarkably accurate, leaving us to wonder how they achieved such a feat"
+    ],
+    "total_duration_seconds": 57.66,
+    "scene_count": 11,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-09T13:58:46.332831",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 81,
+    "early_likes": 5,
+    "early_comments": 4,
+    "early_fetched_at": "2026-08-10T00:46:05.865097"
+  },
+  {
+    "video_id": "JrW3khERCA0",
+    "intent": "GEOGRAPHY",
+    "title": "Trench Deeper Than Everest",
+    "hook_text": "Trench deeper than Everest.",
+    "script_key_sents": [
+      "Trench deeper than Everest",
+      "It's 36,000 feet deeper than Mount Everest is tall",
+      "The Mariana Trench is indeed deeper than Everest, with life forms that challenge our understanding of Earth"
+    ],
+    "total_duration_seconds": 33.19,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-09T19:31:46.838340",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 427,
+    "early_likes": 3,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-10T03:11:03.599241"
+  },
+  {
+    "video_id": "wECPa9PV7no",
+    "intent": "TECHNOLOGY",
+    "title": "Source Foundry",
+    "hook_text": "Source Foundry develops AI chips.",
+    "script_key_sents": [
+      "Source Foundry develops AI chips",
+      "Source Foundry creates specialized AI-focused chips that can lead",
+      "Source Foundry's innovative chips are the key to unlocking AI's full potential"
+    ],
+    "total_duration_seconds": 45.84,
+    "scene_count": 9,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-10T00:51:26.067654",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 18,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-10T08:21:20.612096"
+  },
+  {
+    "video_id": "RB6VDflEVL8",
+    "intent": "CULTURE",
+    "title": "Göbekli Tepe's Dark Secret",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "Göbekli Tepe's Dark Secret",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 27.7,
+    "scene_count": 5,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-10T03:16:23.713935",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 10,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-10T14:20:39.135630"
+  },
+  {
+    "video_id": "Zi0mru45uzk",
+    "intent": "CULTURE",
+    "title": "Sumerians' Hidden Code",
+    "hook_text": "Sumerians' Hidden Code exists.",
+    "script_key_sents": [
+      "Sumerians' Hidden Code exists",
+      "The Sumerians' Hidden Code is actually a mathematical system",
+      "The Sumerians' Hidden Code was a sophisticated system that connected astronomy, mathematics, and computer science, challenging our previous "
+    ],
+    "total_duration_seconds": 68.06,
+    "scene_count": 12,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-10T08:29:37.515128",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 992,
+    "early_likes": 21,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-10T19:49:01.499908"
+  },
+  {
+    "video_id": "xBpz3SGXmY8",
+    "intent": "CULTURE",
+    "title": "Ancient Pacific Secret",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "Ancient Pacific Secret",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 27.46,
+    "scene_count": 5,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-10T14:25:12.701167",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 19,
+    "early_likes": 1,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-11T00:45:48.049695"
+  },
+  {
+    "video_id": "NkievNWLJlo",
+    "intent": "GEOGRAPHY",
+    "title": "Finland's Shocking Secret",
+    "hook_text": "Finland's lakes move.",
+    "script_key_sents": [
+      "Finland's lakes move",
+      "The reason behind this movement is post-glacial rebound, where the Earth's",
+      "Finland's lakes are literally moving, and this shocking secret is changing our understanding of the country's landscape and climate"
+    ],
+    "total_duration_seconds": 31.55,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-10T19:54:15.034938",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 343,
+    "early_likes": 8,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-11T03:03:47.949162"
+  },
+  {
+    "video_id": "u4i009UIkk0",
+    "intent": "TECHNOLOGY",
+    "title": "Daybreak AI",
+    "hook_text": "Daybreak AI detects threats.",
+    "script_key_sents": [
+      "Daybreak AI detects threats",
+      "Daybreak AI provides an additional layer of security for individuals",
+      "Daybreak AI is the answer to increasingly sophisticated cyber attacks"
+    ],
+    "total_duration_seconds": 34.18,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-11T00:50:20.860127",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 11,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-11T08:03:23.769200"
+  },
+  {
+    "video_id": "kPK6PBi2B6g",
+    "intent": "HISTORY",
+    "title": "Alexandria's Dark Secret",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "Alexandria's Dark Secret",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 27.68,
+    "scene_count": 5,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-11T03:08:26.255686",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 157,
+    "early_likes": 3,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-11T14:20:30.642786"
+  },
+  {
+    "video_id": "U9DDtSqsA_Q",
+    "intent": "SPACE",
+    "title": "Black Holes Are Eating Stars",
+    "hook_text": "Black holes eat stars.",
+    "script_key_sents": [
+      "Black holes eat stars",
+      "Recent observations reveal that supermassive black holes are consuming",
+      "This phenomenon has left experts stunned, as it was previously thought that black holes only consumed gas and dust"
+    ],
+    "total_duration_seconds": 60.61,
+    "scene_count": 11,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-11T08:11:09.198314",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 8,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-11T14:20:30.841915"
+  },
+  {
+    "video_id": "t8Bq1FNEoR8",
+    "intent": "SPACE",
+    "title": "Neutron Stars' Dark Secret",
+    "hook_text": "Neutron stars drag space-time.",
+    "script_key_sents": [
+      "Neutron stars drag space-time",
+      "This phenomenon, known as 'frame-dragging', has been observed in",
+      "The dark secret of neutron stars is their ability to drag space-time, and this discovery has left scientists stunned"
+    ],
+    "total_duration_seconds": 50.56,
+    "scene_count": 10,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-11T14:27:34.625760",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 141,
+    "early_likes": 10,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-12T00:54:05.497363"
+  },
+  {
+    "video_id": "EBsw4C-xWXI",
+    "intent": "CULTURE",
+    "title": "Ancient Navigators' Secret",
+    "hook_text": "Ancient navigators used ocean swells.",
+    "script_key_sents": [
+      "Ancient navigators used ocean swells",
+      "The secret to their navigation was a complex system",
+      "Ancient navigators' secret was their ability to decode nature, and this knowledge could revolutionize modern navigation"
+    ],
+    "total_duration_seconds": 43.43,
+    "scene_count": 9,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-11T20:02:49.991571",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 197,
+    "early_likes": 3,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-12T03:22:47.111050"
+  },
+  {
+    "video_id": "OD5n5Ufjm4k",
+    "intent": "TECHNOLOGY",
+    "title": "Accel India Fund 💰",
+    "hook_text": "Accel India Fund invests heavily.",
+    "script_key_sents": [
+      "Accel India Fund invests heavily",
+      "Accel India Fund provides necessary funding for Indian startups",
+      "Accel India Fund's success is a sign of the region's economic growth"
+    ],
+    "total_duration_seconds": 33.74,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-12T00:58:16.301161",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 43,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-12T08:08:50.669843"
+  },
+  {
+    "video_id": "XK6Yn3kL1PA",
+    "intent": "CULTURE",
+    "title": "Sumerian Code Cracked",
+    "hook_text": "Sumerian code cracked.",
+    "script_key_sents": [
+      "Sumerian code cracked",
+      "Recent AI analysis reveals Sumerians used a sexagesimal system to",
+      "The cracked Sumerian code proves that ancient civilizations contributed significantly to modern math"
+    ],
+    "total_duration_seconds": 39.82,
+    "scene_count": 7,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-12T03:28:39.339569",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 529,
+    "early_likes": 19,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-12T14:22:54.263814"
+  },
+  {
+    "video_id": "qIGRyaWGaiU",
+    "intent": "CULTURE",
+    "title": "Roman Toothpaste Secret",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "Roman Toothpaste Secret",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 27.58,
+    "scene_count": 5,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-12T08:13:54.884910",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 41,
+    "early_likes": 2,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-12T14:22:54.566188"
+  },
+  {
+    "video_id": "ReV4eEhoQqI",
+    "intent": "CULTURE",
+    "title": "Ancient Code Unleashed",
+    "hook_text": "Ancient code unleashes secrets.",
+    "script_key_sents": [
+      "Ancient code unleashes secrets",
+      "Recent breakthroughs in deciphering Sumerian cuneiform reveal surprising connections to",
+      "The ancient code has been unleashed, and it's rewriting history"
+    ],
+    "total_duration_seconds": 50.23,
+    "scene_count": 10,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-12T14:29:27.125355",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 2,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-13T00:55:01.077337"
+  },
+  {
+    "video_id": "jZIbltiJEwk",
+    "intent": "CULTURE",
+    "title": "Ancient Persia's Drunk Decisions",
+    "hook_text": "Ancient Persia's drunk decisions",
+    "script_key_sents": [
+      "Ancient Persia's drunk decisions",
+      "Ancient Persia's practice of debating sober and then drunk",
+      "By embracing this unique approach, Ancient Persia's drunk decisions actually led to groundbreaking discoveries and a more open-minded societ"
+    ],
+    "total_duration_seconds": 43.4,
+    "scene_count": 8,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-12T20:03:22.946458",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 124,
+    "early_likes": 1,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-13T03:26:12.640050"
+  },
+  {
+    "video_id": "emWbCVfLs6U",
+    "intent": "TECHNOLOGY",
+    "title": "Anthropic Watermarks 🚫",
+    "hook_text": "Anthropic Watermarks detect AI misuse.",
+    "script_key_sents": [
+      "Anthropic Watermarks detect AI misuse",
+      "Anthropic's watermarking system helps detect and prevent unauthorized use",
+      "Anthropic Watermarks are the answer to securing AI models"
+    ],
+    "total_duration_seconds": 36.62,
+    "scene_count": 7,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-13T00:59:31.513525",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 23,
+    "early_likes": 1,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-13T08:11:11.960885"
+  },
+  {
+    "video_id": "YrVxerHZ7Y8",
+    "intent": "SCIENCE",
+    "title": "Secrets in Sleep",
+    "hook_text": "Secrets in Sleep",
+    "script_key_sents": [
+      "Secrets in Sleep",
+      "Recent brain scan studies reveal that dreams are a hidden memory",
+      "Secrets in Sleep are now revealed, and it's clear that dreams play a crucial role in our learning and problem-solving abilities, with a 30% "
+    ],
+    "total_duration_seconds": 39.11,
+    "scene_count": 7,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-13T03:32:26.594897",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 39,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-13T14:23:11.535493"
+  },
+  {
+    "video_id": "GwqxVOdjRas",
+    "intent": "SCIENCE",
+    "title": "Antibiotics' Dark Secret",
+    "hook_text": "Antibiotics alter human microbiome.",
+    "script_key_sents": [
+      "Antibiotics alter human microbiome",
+      "Scientists have discovered that the overuse of antibiotics not only makes",
+      "The answer to 'Antibiotics' Dark Secret' is that it's not just about resistance, but about the lasting impact on our microbiome"
+    ],
+    "total_duration_seconds": 42.72,
+    "scene_count": 8,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-13T08:17:25.795278",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 20,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-13T14:23:11.844927"
+  },
+  {
+    "video_id": "5Nbs5HDKdE0",
+    "intent": "SCIENCE",
+    "title": "Fire's Hidden State",
+    "hook_text": "Fire's hidden state",
+    "script_key_sents": [
+      "Fire's hidden state",
+      "Fire is actually a fourth state of matter, known as",
+      "Fire's hidden state is a plasma, and this discovery has significant implications for our understanding of combustion and energy production"
+    ],
+    "total_duration_seconds": 35.46,
+    "scene_count": 7,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-13T14:29:54.426307",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 50,
+    "early_likes": 1,
+    "early_comments": 4,
+    "early_fetched_at": "2026-08-14T00:54:27.707246"
+  },
+  {
+    "video_id": "E8AFdlJCiY8",
+    "intent": "SCIENCE",
+    "title": "Dreams: Brain's Deleted Files",
+    "hook_text": "Dreams delete files.",
+    "script_key_sents": [
+      "Dreams delete files",
+      "Scientists found that brain waves during sleep can predict",
+      "This process helps our brain stay efficient"
+    ],
+    "total_duration_seconds": 33.62,
+    "scene_count": 7,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-13T19:57:00.823865",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 62,
+    "early_likes": 2,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-14T03:24:18.487580"
+  },
+  {
+    "video_id": "nxTHtzuRcos",
+    "intent": "TECHNOLOGY",
+    "title": "GLM-5.2 AI 🤖",
+    "hook_text": "GLM-5.2 AI enhances accessibility.",
+    "script_key_sents": [],
+    "total_duration_seconds": 37.87,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-14T00:58:36.366397",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 29,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-14T08:06:37.232947"
+  },
+  {
+    "video_id": "iN2kG5y2kro",
+    "intent": "SPACE",
+    "title": "Sun's Shocking Loss",
+    "hook_text": "Sun's shocking loss",
+    "script_key_sents": [
+      "Sun's shocking loss",
+      "The sun loses a staggering 4 million tons per second,",
+      "The sun's shocking loss is accelerating, and understanding its implications is crucial for our planet's protection from solar radiation"
+    ],
+    "total_duration_seconds": 33.49,
+    "scene_count": 7,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-14T03:29:15.666951",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 157,
+    "early_likes": 3,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-14T14:16:36.533028"
+  },
+  {
+    "video_id": "IVONHv6s_ds",
+    "intent": "MYTHOLOGY",
+    "title": "Norse Mythology's Dark Web",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "Norse Mythology's Dark Web",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 27.63,
+    "scene_count": 5,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-14T08:12:03.181515",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 1,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-14T14:16:36.725185"
+  },
+  {
+    "video_id": "WP5p1P0RKt4",
+    "intent": "MYTHOLOGY",
+    "title": "Gods Were Stars",
+    "hook_text": "Gods Were Stars",
+    "script_key_sents": [
+      "Recent studies reveal that mythological tales were actually based",
+      "The ancient Greeks didn't just imagine their gods, they saw them in the stars"
+    ],
+    "total_duration_seconds": 50.42,
+    "scene_count": 9,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-14T14:24:15.057833",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 29,
+    "early_likes": 1,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-15T00:31:38.278172"
+  },
+  {
+    "video_id": "Engn_PQdnhw",
+    "intent": "TECHNOLOGY",
+    "title": "Google AI Watermark",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "Google AI Watermark",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 27.54,
+    "scene_count": 5,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-15T00:36:07.407510",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 205,
+    "early_likes": 3,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-15T07:21:31.145467"
+  },
+  {
+    "video_id": "b41yzAVNSZ4",
+    "intent": "MYTHOLOGY",
+    "title": "Crete's Hidden Labyrinth",
+    "hook_text": "Crete's labyrinth hides secrets.",
+    "script_key_sents": [
+      "Crete's labyrinth hides secrets",
+      "Archaeologists have discovered a sophisticated Minoan palace with a",
+      "The labyrinth's secrets are now being uncovered, revealing a possible connection to the Minotaur myth"
+    ],
+    "total_duration_seconds": 40.42,
+    "scene_count": 8,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-15T02:21:22.225919",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 507,
+    "early_likes": 9,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-15T13:31:29.624622"
+  },
+  {
+    "video_id": "KJJmHM_MDfs",
+    "intent": "CULTURE",
+    "title": "Ancient Navigators' Secret",
+    "hook_text": "Ancient navigators used a secret",
+    "script_key_sents": [
+      "Ancient navigators used a secret",
+      "The secret to their navigation was a complex system",
+      "Ancient navigators' secret was their ability to decode nature, and this knowledge could revolutionize modern navigation, so ancient navigato"
+    ],
+    "total_duration_seconds": 37.45,
+    "scene_count": 8,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-15T07:28:44.755570",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 68,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-15T13:31:29.824519"
+  },
+  {
+    "video_id": "cTLIACziuuY",
+    "intent": "CULTURE",
+    "title": "Rome's Hidden Chinese Secret",
+    "hook_text": "Rome's Hidden Chinese Secret",
+    "script_key_sents": [
+      "Rome's Hidden Chinese Secret",
+      "Roman glassmaking was actually influenced by Chinese techniques, with",
+      "Rome's Hidden Chinese Secret is that the Romans borrowed heavily from Chinese techniques, proving that even ancient civilizations were conne"
+    ],
+    "total_duration_seconds": 46.46,
+    "scene_count": 8,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-15T13:38:30.789762",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 14,
+    "early_likes": 1,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-16T00:32:14.668029"
+  },
+  {
+    "video_id": "8v2PLG-xdH8",
+    "intent": "CULTURE",
+    "title": "Ancient Code Unleashed",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "Ancient Code Unleashed",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 27.51,
+    "scene_count": 5,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-15T19:20:00.323954",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 4,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-16T02:21:29.883327"
+  },
+  {
+    "video_id": "L6FRC3PlJCQ",
+    "intent": "TECHNOLOGY",
+    "title": "Glimmer AI",
+    "hook_text": "Glimmer AI democratizes access",
+    "script_key_sents": [
+      "Glimmer AI democratizes access",
+      "Glimmer AI is an open-weight AI model that can be",
+      "Glimmer AI gives everyone access to AI technology, making it possible for individuals to innovate and create without relying on large organi"
+    ],
+    "total_duration_seconds": 32.35,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-16T00:36:31.833277",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 22,
+    "early_likes": 1,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-16T07:22:23.072820"
+  },
+  {
+    "video_id": "VQONopVj1rA",
+    "intent": "CULTURE",
+    "title": "Romans' Bizarre Toothpaste",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "Romans' Bizarre Toothpaste",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 27.68,
+    "scene_count": 5,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-16T02:26:51.332834",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 36,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-16T13:32:40.420928"
+  },
+  {
+    "video_id": "ueeP4VPSaxI",
+    "intent": "CULTURE",
+    "title": "Rome's Chinese Secret",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "Rome's Chinese Secret",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 27.49,
+    "scene_count": 5,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-16T07:28:42.566615",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 1,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-16T13:32:40.622969"
+  },
+  {
+    "video_id": "z3DaDiRKpLU",
+    "intent": "SPACE",
+    "title": "Pulsars' Hidden Signal",
+    "hook_text": "Pulsars' hidden signal",
+    "script_key_sents": [
+      "Pulsars' hidden signal",
+      "These signals could be used as a cosmic GPS, allowing for",
+      "The hidden signal of pulsars is a potential game-changer for space navigation, and it's a signal that's been hidden in plain sight, pulsars'"
+    ],
+    "total_duration_seconds": 31.45,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-16T13:37:33.674574",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 21,
+    "early_likes": 1,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-17T00:30:28.997744"
+  },
+  {
+    "video_id": "du__t7EzrfE",
+    "intent": "TECHNOLOGY",
+    "title": "Glimmer AI",
+    "hook_text": "Glimmer AI runs locally.",
+    "script_key_sents": [
+      "Glimmer AI runs locally",
+      "Glimmer AI allows users to leverage AI technology without relying on",
+      "Glimmer AI runs locally, democratizing access to AI and potentially changing the landscape of AI development, so Glimmer AI is empowering us"
+    ],
+    "total_duration_seconds": 39.09,
+    "scene_count": 7,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-17T00:36:03.045840",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 1,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-17T07:42:34.305961"
+  },
+  {
+    "video_id": "5CNVvm223i8",
+    "intent": "SPACE",
+    "title": "Saturn's Rings Are Disappearing",
+    "hook_text": "Saturn's rings disappear.",
+    "script_key_sents": [
+      "Saturn's rings disappear",
+      "Scientists have found that Saturn's moons are eating the",
+      "Saturn's rings are disappearing because of their own moons, a surprising reason that is rewriting our understanding of the Saturnian system"
+    ],
+    "total_duration_seconds": 34.63,
+    "scene_count": 8,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-17T02:24:13.463909",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 200,
+    "early_likes": 3,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-17T13:40:27.478158"
+  },
+  {
+    "video_id": "7Fgkl42lFE8",
+    "intent": "SPACE",
+    "title": "NASA's Hidden Planet",
+    "hook_text": "NASA's hidden planet",
+    "script_key_sents": [
+      "NASA's hidden planet",
+      "The hidden planet is actually Wolf 359b, a habitable",
+      "NASA's hidden planet, Wolf 359b, is a game-changer in the search for alien life"
+    ],
+    "total_duration_seconds": 69.36,
+    "scene_count": 14,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-17T07:51:17.263320",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 0,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-17T19:21:24.895940"
+  },
+  {
+    "video_id": "zW7pmzzRxvA",
+    "intent": "SPACE",
+    "title": "The Incredible Truth About Dark Matter Mystery",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Dark Matter Mystery",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 29.91,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-17T13:45:49.891745",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 0,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-18T00:47:10.661118"
+  },
+  {
+    "video_id": "N1_W-n3wWJY",
+    "intent": "SPACE",
+    "title": "The Incredible Truth About Habitable Exoplanets",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Habitable Exoplanets",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 28.81,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-17T19:27:17.604417",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 18,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-18T02:18:34.800139"
+  },
+  {
+    "video_id": "9Ksz2KLJT0w",
+    "intent": "CULTURE",
+    "title": "The Incredible Truth About Ancient Egyptians Used Honey As Medicine And It Still Works",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Ancient Egyptians Used Honey As Medicine And",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.25,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-18T02:24:51.507706",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 7,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-18T13:43:23.149694"
+  },
+  {
+    "video_id": "gS8aeNUv0aU",
+    "intent": "CULTURE",
+    "title": "The Incredible Truth About Jericho Is The Oldest Continuously Inhabited City",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Jericho Is The Oldest Continuously Inhabited",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.26,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-18T07:34:41.243149",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 22,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-18T13:43:23.324638"
+  },
+  {
+    "video_id": "uSVPPd9PZKQ",
+    "intent": "CULTURE",
+    "title": "The Incredible Truth About Half The World'S Languages Will Be Extinct In 100 Years",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Half The World'S Languages Will Be Extinct",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.39,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-18T13:49:05.043492",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 19,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-19T00:30:56.161028"
+  },
+  {
+    "video_id": "9H2LMBIy_5U",
+    "intent": "MEDICINE",
+    "title": "The Incredible Truth About Penicillin Was Discovered Accidentally By A Messy Laboratory",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Penicillin Was Discovered Accidentally By A",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.66,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-19T02:33:12.906784",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 28,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-19T13:45:02.178382"
+  },
+  {
+    "video_id": "QZhOdVaQYeI",
+    "intent": "MEDICINE",
+    "title": "The Incredible Truth About Blood Types Were Only Discovered In 1901",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Blood Types Were Only Discovered In",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 29.9,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-19T13:49:38.579786",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 0,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-20T00:31:31.963701"
+  },
+  {
+    "video_id": "mLkAGHA9idI",
+    "intent": "ANIMALS",
+    "title": "The Incredible Truth About Dolphins Call Each Other By Name",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Dolphins Call Each Other By Name",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 28.27,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-20T02:22:11.966771",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 38,
+    "early_likes": 1,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-20T13:48:42.733970"
+  },
+  {
+    "video_id": "hwdlG3fD7OU",
+    "intent": "ANIMALS",
+    "title": "The Incredible Truth About Bioluminescent Creatures Light Up The Deep Ocean",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Bioluminescent Creatures Light Up The Deep",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.43,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-20T07:38:19.430298",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 5,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-20T13:48:42.895455"
+  },
+  {
+    "video_id": "U9tR2Mymyck",
+    "intent": "ANIMALS",
+    "title": "The Incredible Truth About The Mantis Shrimp Can Punch At Bullet Speed",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About The Mantis Shrimp Can Punch At",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.84,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-20T13:54:56.671103",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 72,
+    "early_likes": 1,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-21T00:32:52.382594"
+  },
+  {
+    "video_id": "4iQ801Bh3c4",
+    "intent": "HISTORY",
+    "title": "The Incredible Truth About Vikings Discovered America 500 Years Before Columbus",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Vikings Discovered America 500 Years Before",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.69,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-21T02:30:52.994793",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 0,
+    "early_likes": 0,
+    "early_comments": 1,
+    "early_fetched_at": "2026-08-21T13:46:11.703799"
+  },
+  {
+    "video_id": "TjyQPDwY6hM",
+    "intent": "HISTORY",
+    "title": "The Incredible Truth About Rome Had A Population Of 1 Million Before London",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Rome Had A Population Of 1 Million",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.98,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-21T07:39:33.200426",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 15,
+    "early_likes": 0,
+    "early_comments": 0,
+    "early_fetched_at": "2026-08-21T13:46:11.918522"
+  },
+  {
+    "video_id": "J6LPZKmidUY",
+    "intent": "CULTURE",
+    "title": "The Incredible Truth About Ancient Egyptians Used Honey As Medicine And It Still Works",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Ancient Egyptians Used Honey As Medicine And",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.25,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-21T13:52:19.581776",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 7,
+    "early_likes": 0,
+    "early_comments": 1,
+    "early_fetched_at": "2026-08-22T00:30:12.109752"
+  },
+  {
+    "video_id": "Ll-HCzNv9gs",
+    "intent": "ANIMALS",
+    "title": "The Incredible Truth About Animal Migration Covering Thousands Of Miles",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Animal Migration Covering Thousands Of Miles",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 29.16,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-21T19:25:54.290923",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 65,
+    "early_likes": 3,
+    "early_comments": 0,
+    "early_fetched_at": "2026-08-22T02:15:31.729855"
+  },
+  {
+    "video_id": "tARjqkNh64g",
+    "intent": "HISTORY",
+    "title": "The Incredible Truth About Writing Was Invented To Track Beer Supplies",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Writing Was Invented To Track Beer",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.72,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-22T02:20:53.146316",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 34,
+    "early_likes": 1,
+    "early_comments": 0,
+    "early_fetched_at": "2026-08-22T13:33:15.979150"
+  },
+  {
+    "video_id": "eNsBb3az2DU",
+    "intent": "HISTORY",
+    "title": "The Incredible Truth About The Silk Road Spread Religion And Plague Simultaneously",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About The Silk Road Spread Religion And",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.32,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-22T07:27:22.057563",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 148,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-22T13:33:16.293022"
+  },
+  {
+    "video_id": "QWaBn19VYiE",
+    "intent": "HISTORY",
+    "title": "The Incredible Truth About The Silk Road Spread Religion And Plague Simultaneously",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About The Silk Road Spread Religion And",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.32,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-22T13:41:02.869997",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 28,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-23T00:33:17.432283"
+  },
+  {
+    "video_id": "YHfzGbV4mZE",
+    "intent": "HISTORY",
+    "title": "The Incredible Truth About Ancient Greeks Discovered The Earth Was Round In 240 Bc",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Ancient Greeks Discovered The Earth Was Round",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.51,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-23T02:29:22.731642",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 1,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-23T13:33:32.240428"
+  },
+  {
+    "video_id": "Kr2jykwUPmo",
+    "intent": "MYTHOLOGY",
+    "title": "The Incredible Truth About Ancient Greek Gods Were Based On Real Astronomical Observations",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Ancient Greek Gods Were Based On Real",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.7,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-23T07:29:33.690097",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 3,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-23T13:33:32.491800"
+  },
+  {
+    "video_id": "cbJ99t_YouE",
+    "intent": "MYTHOLOGY",
+    "title": "The Incredible Truth About The Trojan War Was Proven Real By Archaeology In 1870",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About The Trojan War Was Proven Real By",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 32.02,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-23T13:39:49.736907",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 151,
+    "early_likes": 2,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-24T00:31:47.238630"
+  },
+  {
+    "video_id": "_X5WUi2_pQs",
+    "intent": "CULTURE",
+    "title": "The Incredible Truth About The Most Spoken Language In 3000 Bc Was Sumerian",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About The Most Spoken Language In 3000 Bc",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.98,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-23T19:21:35.144336",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 110,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-24T02:22:41.698239"
+  },
+  {
+    "video_id": "83xvSysY49s",
+    "intent": "CULTURE",
+    "title": "The Incredible Truth About Jericho Is The Oldest Continuously Inhabited City",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Jericho Is The Oldest Continuously Inhabited",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.26,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-24T02:29:44.527748",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 189,
+    "early_likes": 2,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-24T19:22:32.593248"
+  },
+  {
+    "video_id": "ZncTrqmJK0g",
+    "intent": "CULTURE",
+    "title": "The Incredible Truth About Traditional Wayfinding Could Navigate The Pacific Without Instruments",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Traditional Wayfinding Could Navigate The Pacific",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.71,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-24T07:54:16.898481",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 106,
+    "early_likes": 3,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-24T19:22:32.850014"
+  },
+  {
+    "video_id": "iSTZAOAqATw",
+    "intent": "SPACE",
+    "title": "The Incredible Truth About Mars Has The Tallest Volcano In The Solar System",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Mars Has The Tallest Volcano In The",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.08,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-24T19:27:47.027748",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 255,
+    "early_likes": 7,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-25T02:18:00.296560"
+  },
+  {
+    "video_id": "6IllNZZia9E",
+    "intent": "HISTORY",
+    "title": "The Incredible Truth About Genghis Khan'S Empire Was Larger Than Any In History",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Genghis Khan'S Empire Was Larger Than Any",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.38,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-25T02:25:37.212047",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 8,
+    "early_likes": 1,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-25T13:52:09.383101"
+  },
+  {
+    "video_id": "9uMsGJ0k3nU",
+    "intent": "HISTORY",
+    "title": "The Incredible Truth About The Industrial Revolution Happened In 50 Years",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About The Industrial Revolution Happened In 50",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.51,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-25T07:42:30.687371",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 18,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-25T13:52:09.575170"
+  },
+  {
+    "video_id": "y4FMdu3J3Ww",
+    "intent": "HISTORY",
+    "title": "The Incredible Truth About Writing Was Invented To Track Beer Supplies",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Writing Was Invented To Track Beer",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.72,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-25T14:00:04.432012",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 1,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-26T00:32:54.595632"
+  },
+  {
+    "video_id": "0u-EjkF2n4w",
+    "intent": "HISTORY",
+    "title": "The Incredible Truth About Vikings Discovered America 500 Years Before Columbus",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Vikings Discovered America 500 Years Before",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.69,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-26T02:30:19.749078",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 1,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-26T13:55:59.579326"
+  },
+  {
+    "video_id": "OvUEPQMgyQk",
+    "intent": "HISTORY",
+    "title": "The Incredible Truth About The Library Of Alexandria Held Half A Million Scrolls",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About The Library Of Alexandria Held Half A",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.2,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-26T07:44:15.596742",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 152,
+    "early_likes": 1,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-26T13:55:59.849860"
+  },
+  {
+    "video_id": "F9U8UZZiIqU",
+    "intent": "HISTORY",
+    "title": "The Incredible Truth About The Industrial Revolution Happened In 50 Years",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About The Industrial Revolution Happened In 50",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.51,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-26T14:08:40.454773",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 2,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-26T21:30:09.368006"
+  },
+  {
+    "video_id": "olOfxUfnVAU",
+    "intent": "GEOGRAPHY",
+    "title": "The Incredible Truth About A Point On The Equator Moves 1670 Km Per Hour",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About A Point On The Equator Moves 1670",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.73,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-26T21:35:10.301247",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 0,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-27T05:22:22.344499"
+  },
+  {
+    "video_id": "sYGbRMK4-m8",
+    "intent": "SPACE",
+    "title": "The Incredible Truth About A Day On Venus Is Longer Than Its Year",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About A Day On Venus Is Longer Than",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.38,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-27T10:59:38.370410",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 15,
+    "early_likes": 1,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-27T17:57:53.148272"
+  },
+  {
+    "video_id": "1mX6C89ojb8",
+    "intent": "SPACE",
+    "title": "The Incredible Truth About Saturn'S Rings Composition",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Saturn'S Rings Composition",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.27,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-27T18:03:31.166130",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 274,
+    "early_likes": 3,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-28T02:23:39.678588"
+  },
+  {
+    "video_id": "s4468JkAkoM",
+    "intent": "MYTHOLOGY",
+    "title": "The Incredible Truth About Ancient Greek Gods Were Based On Real Astronomical Observations",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Ancient Greek Gods Were Based On Real",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.7,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-27T22:56:59.951456",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 437,
+    "early_likes": 12,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-28T07:19:14.823924"
+  },
+  {
+    "video_id": "j65n2GrB3Nw",
+    "intent": "MYTHOLOGY",
+    "title": "The Incredible Truth About Ancient Greek Gods Were Based On Real Astronomical Observations",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Ancient Greek Gods Were Based On Real",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.7,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-28T02:29:07.390261",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 4,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-28T12:31:02.981017"
+  },
+  {
+    "video_id": "CHso3HtW4k8",
+    "intent": "OCEAN",
+    "title": "The Incredible Truth About The Ocean Floor Has Mountains Taller Than Everest",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About The Ocean Floor Has Mountains Taller",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.91,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-28T12:36:05.491160",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 64,
+    "early_likes": 1,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-28T19:08:18.284640"
+  },
+  {
+    "video_id": "rxP5cyO0yBI",
+    "intent": "OCEAN",
+    "title": "The Incredible Truth About The Pacific Garbage Patch Is Twice The Size Of Texas",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About The Pacific Garbage Patch Is Twice The",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.41,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-28T19:14:01.310784",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 0,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-29T01:57:31.364553"
+  },
+  {
+    "video_id": "sT8QnsyMjOk",
+    "intent": "OCEAN",
+    "title": "The Incredible Truth About Waves In The Southern Ocean Circle The Globe Non-Stop",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Waves In The Southern Ocean Circle The",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.13,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-28T23:01:14.960508",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 0,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-29T07:40:21.874757"
+  },
+  {
+    "video_id": "ir69IPE1qhA",
+    "intent": "OCEAN",
+    "title": "The Incredible Truth About Ocean Dead Zones Are Growing Every Decade",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Ocean Dead Zones Are Growing Every",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.48,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-29T02:04:19.225185",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 0,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-29T12:52:51.377799"
+  },
+  {
+    "video_id": "D9BOrTEPpfk",
+    "intent": "SPACE",
+    "title": "The Incredible Truth About Dark Matter Mystery",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Dark Matter Mystery",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 29.91,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-29T07:46:47.898551",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 0,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-29T17:01:56.886253"
+  },
+  {
+    "video_id": "gUcBkpztYzU",
+    "intent": "SPACE",
+    "title": "The Incredible Truth About Black Holes",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Black Holes",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 28.33,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-29T12:58:00.649099",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 46,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-29T21:24:31.168126"
+  },
+  {
+    "video_id": "6KN_bmWWhUk",
+    "intent": "SPACE",
+    "title": "The Incredible Truth About Saturn'S Rings Composition",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Saturn'S Rings Composition",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.27,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-29T17:08:02.250908",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 31,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-30T01:59:41.374990"
+  },
+  {
+    "video_id": "ozY4xLoH33U",
+    "intent": "SPACE",
+    "title": "The Incredible Truth About What Happened Before The Big Bang",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About What Happened Before The Big Bang",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 28.27,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-29T21:31:09.053354",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 4,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-30T06:15:52.146599"
+  },
+  {
+    "video_id": "5momQDSd72Y",
+    "intent": "SPACE",
+    "title": "The Incredible Truth About The True Scale Of The Universe",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About The True Scale Of The Universe",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 28.27,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-30T06:23:05.467018",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 12,
+    "early_likes": 1,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-30T12:24:02.863160"
+  },
+  {
+    "video_id": "UubJRlsgbxQ",
+    "intent": "SPACE",
+    "title": "The Incredible Truth About Mars Has The Tallest Volcano In The Solar System",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Mars Has The Tallest Volcano In The",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.08,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-30T12:30:55.367685",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 14,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-30T21:45:23.496990"
+  },
+  {
+    "video_id": "l-69aPUk1Aw",
+    "intent": "SPACE",
+    "title": "The Incredible Truth About The Sun Loses 4 Million Tons Per Second",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About The Sun Loses 4 Million Tons",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.26,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-30T17:21:10.512787",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 27,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-31T01:55:09.658431"
+  },
+  {
+    "video_id": "6A-xzIYnbXg",
+    "intent": "SPACE",
+    "title": "The Incredible Truth About The Sun Loses 4 Million Tons Per Second",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About The Sun Loses 4 Million Tons",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.26,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-30T21:51:14.972363",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 0,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-31T06:41:42.524454"
+  },
+  {
+    "video_id": "nS8zRPMg47k",
+    "intent": "SPACE",
+    "title": "The Incredible Truth About What Happened Before The Big Bang",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About What Happened Before The Big Bang",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 28.27,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-31T06:47:07.252676",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 0,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-08-31T14:33:11.798461"
+  },
+  {
+    "video_id": "F7rssbT3svg",
+    "intent": "ANIMALS",
+    "title": "The Incredible Truth About Crows Can Recognise And Remember Human Faces",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Crows Can Recognise And Remember Human",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.6,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-31T14:38:35.776334",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 38,
+    "early_likes": 1,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-01T02:17:25.359698"
+  },
+  {
+    "video_id": "LhMRQitqh1Q",
+    "intent": "CULTURE",
+    "title": "The Incredible Truth About The Colosseum Could Flood For Mock Sea Battles",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About The Colosseum Could Flood For Mock",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.89,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-08-31T19:31:44.425782",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 1,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-01T02:17:25.671000"
+  },
+  {
+    "video_id": "KIbJQuaXLwk",
+    "intent": "ANIMALS",
+    "title": "The Incredible Truth About Dolphins Call Each Other By Name",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Dolphins Call Each Other By Name",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 28.27,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-01T06:08:08.300629",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 39,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-01T12:12:52.883088"
+  },
+  {
+    "video_id": "9-nlxuAKDOs",
+    "intent": "ANIMALS",
+    "title": "The Incredible Truth About Tardigrades Can Survive In Outer Space",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Tardigrades Can Survive In Outer Space",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 28.88,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-01T12:18:02.600767",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 75,
+    "early_likes": 1,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-01T21:30:55.225133"
+  },
+  {
+    "video_id": "dkSXgI2anjk",
+    "intent": "ANIMALS",
+    "title": "The Incredible Truth About Dolphins Call Each Other By Name",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Dolphins Call Each Other By Name",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 28.27,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-01T17:19:06.114377",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 28,
+    "early_likes": 1,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-02T01:39:20.673133"
+  },
+  {
+    "video_id": "pfJKPdG7DUo",
+    "intent": "MYTHOLOGY",
+    "title": "The Incredible Truth About Ancient Greek Gods Were Based On Real Astronomical Observations",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Ancient Greek Gods Were Based On Real",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.7,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-01T21:37:00.235695",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 39,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-02T05:27:53.944702"
+  },
+  {
+    "video_id": "KaNSmzFMgsk",
+    "intent": "MYTHOLOGY",
+    "title": "The Incredible Truth About Ancient Egyptians Believed The Heart Not The Brain Held Intelligence",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Ancient Egyptians Believed The Heart Not The",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.58,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-02T05:33:09.783839",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 0,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-02T11:51:01.579428"
+  },
+  {
+    "video_id": "bK0pnzuemcM",
+    "intent": "MYTHOLOGY",
+    "title": "The Incredible Truth About The Myth Of Atlantis May Be Based On A Real Sunken Island",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About The Myth Of Atlantis May",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 32.88,
+    "scene_count": 7,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-02T11:56:19.970340",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 30,
+    "early_likes": 1,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-02T21:27:18.572363"
+  },
+  {
+    "video_id": "b8Ala9WbnzI",
+    "intent": "MYTHOLOGY",
+    "title": "The Incredible Truth About Ancient Egyptians Believed The Heart Not The Brain Held Intelligence",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Ancient Egyptians Believed The Heart Not The",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.58,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-02T17:09:37.285908",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 1,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-03T01:44:13.343111"
+  },
+  {
+    "video_id": "N77nU0yiX0Y",
+    "intent": "SPACE",
+    "title": "The Incredible Truth About Pulsars",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Pulsars",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 29.53,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-02T21:32:52.393609",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 16,
+    "early_likes": 2,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-03T05:29:44.051802"
+  },
+  {
+    "video_id": "r_yGD76CI4Y",
+    "intent": "SPACE",
+    "title": "The Incredible Truth About A Day On Venus Is Longer Than Its Year",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About A Day On Venus Is Longer Than",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.38,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-03T05:36:22.413216",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 88,
+    "early_likes": 4,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-03T11:49:24.435782"
+  },
+  {
+    "video_id": "nHEpxfFU_mg",
+    "intent": "SPACE",
+    "title": "The Incredible Truth About Black Holes",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Black Holes",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 28.33,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-03T11:55:03.656962",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 21,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-03T21:31:53.913479"
+  },
+  {
+    "video_id": "s0GuhuoDmvM",
+    "intent": "SPACE",
+    "title": "The Incredible Truth About Habitable Exoplanets",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Habitable Exoplanets",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 28.81,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-03T17:03:28.285061",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 21,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-04T01:38:10.493855"
+  },
+  {
+    "video_id": "LDVaez7phJM",
+    "intent": "SPACE",
+    "title": "The Incredible Truth About The Sun Loses 4 Million Tons Per Second",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About The Sun Loses 4 Million Tons",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.26,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-03T21:38:18.784460",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 28,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-04T11:52:01.856480"
+  },
+  {
+    "video_id": "rkptSkyhA64",
+    "intent": "HISTORY",
+    "title": "The Incredible Truth About Rome Had A Population Of 1 Million Before London",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Rome Had A Population Of 1 Million",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.98,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-04T11:58:17.986974",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 11,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-05T01:39:31.389598"
+  },
+  {
+    "video_id": "SWuBTVRSmxw",
+    "intent": "HISTORY",
+    "title": "The Incredible Truth About The Black Death Changed Europe Forever",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About The Black Death Changed Europe Forever",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 28.27,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-04T16:53:25.199463",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 0,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-05T01:39:31.652744"
+  },
+  {
+    "video_id": "RF9ik0rwYo0",
+    "intent": "HISTORY",
+    "title": "The Incredible Truth About Ancient Egypt Pyramid Construction Methods",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Ancient Egypt Pyramid Construction Methods",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.24,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-05T05:24:56.637919",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 0,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-05T15:50:49.350127"
+  },
+  {
+    "video_id": "AAwXYK_SULU",
+    "intent": "HISTORY",
+    "title": "The Incredible Truth About The Industrial Revolution Happened In 50 Years",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About The Industrial Revolution Happened In 50",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.51,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-05T11:06:55.371337",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 1,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-05T20:50:15.296179"
+  },
+  {
+    "video_id": "8PmWvWYOcrk",
+    "intent": "HISTORY",
+    "title": "The Incredible Truth About Rome Had A Population Of 1 Million Before London",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Rome Had A Population Of 1 Million",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.98,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-05T15:57:17.672515",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 52,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-06T01:33:09.047103"
+  },
+  {
+    "video_id": "kDQcoulO2GE",
+    "intent": "HISTORY",
+    "title": "The Incredible Truth About The Silk Road Spread Religion And Plague Simultaneously",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About The Silk Road Spread Religion And",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.32,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-05T20:56:27.623886",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 47,
+    "early_likes": 1,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-06T11:25:08.455342"
+  },
+  {
+    "video_id": "E56r6tFvkQI",
+    "intent": "HISTORY",
+    "title": "The Incredible Truth About The Black Death Changed Europe Forever",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About The Black Death Changed Europe Forever",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 28.27,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-06T11:30:38.115872",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 64,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-06T20:57:29.092387"
+  },
+  {
+    "video_id": "ppiHA43BeZU",
+    "intent": "HISTORY",
+    "title": "The Incredible Truth About Rome Had A Population Of 1 Million Before London",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Rome Had A Population Of 1 Million",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.98,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-06T16:08:42.906873",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 92,
+    "early_likes": 2,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-07T01:31:36.673748"
+  },
+  {
+    "video_id": "mAfxqLNya3M",
+    "intent": "SCIENCE",
+    "title": "The Incredible Truth About Why Humans Dream",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Why Humans Dream",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 29.86,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-06T21:02:14.292292",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 0,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-07T05:42:54.319238"
+  },
+  {
+    "video_id": "On3_WGOJW8Q",
+    "intent": "SCIENCE",
+    "title": "The Incredible Truth About Fire Is Not Actually A Solid Liquid Or Gas",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Fire Is Not Actually A Solid Liquid",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.91,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-07T05:47:49.972119",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 1,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-07T13:07:08.694464"
+  },
+  {
+    "video_id": "PhvR3N6kDKI",
+    "intent": "SCIENCE",
+    "title": "The Incredible Truth About Nuclear Fusion Could Power Civilization Forever",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Nuclear Fusion Could Power Civilization Forever",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 29.36,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-07T13:12:23.887168",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 1,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-07T21:51:34.184783"
+  },
+  {
+    "video_id": "PicEr53MA2s",
+    "intent": "TECHNOLOGY",
+    "title": "The Incredible Truth About The Internet Weighs The Same As A Strawberry",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About The Internet Weighs The Same As",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.79,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-07T18:13:25.588270",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 6,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-08T01:41:43.001576"
+  },
+  {
+    "video_id": "ANOJU41ISco",
+    "intent": "TECHNOLOGY",
+    "title": "The Incredible Truth About The Internet Weighs The Same As A Strawberry",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About The Internet Weighs The Same As",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.79,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-07T21:56:50.648307",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 1,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-08T11:52:08.502924"
+  },
+  {
+    "video_id": "LyPA6DukXnc",
+    "intent": "HISTORY",
+    "title": "The Incredible Truth About The Library Of Alexandria Held Half A Million Scrolls",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About The Library Of Alexandria Held Half A",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.2,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-08T11:58:33.822293",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 160,
+    "early_likes": 1,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-09T01:48:43.578350"
+  },
+  {
+    "video_id": "5NWwdl2sy0Y",
+    "intent": "HISTORY",
+    "title": "The Incredible Truth About Genghis Khan'S Empire Was Larger Than Any In History",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Genghis Khan'S Empire Was Larger Than Any",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.38,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-08T17:13:10.627378",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 80,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-09T01:48:43.959994"
+  },
+  {
+    "video_id": "OihSfXnD3wc",
+    "intent": "ANIMALS",
+    "title": "The Incredible Truth About Animal Migration Covering Thousands Of Miles",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Animal Migration Covering Thousands Of Miles",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 29.16,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-09T05:50:09.375789",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 32,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-09T12:02:28.003654"
+  },
+  {
+    "video_id": "q_8MuG2DLXY",
+    "intent": "ANIMALS",
+    "title": "The Incredible Truth About Octopuses Have Three Hearts And Blue Blood",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Octopuses Have Three Hearts And Blue",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.46,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-09T12:07:44.732793",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 139,
+    "early_likes": 1,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-09T21:24:03.067508"
+  },
+  {
+    "video_id": "OjodO1Utjx0",
+    "intent": "ANIMALS",
+    "title": "The Incredible Truth About Octopuses Have Three Hearts And Blue Blood",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Octopuses Have Three Hearts And Blue",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.46,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-09T17:33:22.614098",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 40,
+    "early_likes": 2,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-10T01:44:14.961328"
+  },
+  {
+    "video_id": "xpuujOe7ANM",
+    "intent": "TECHNOLOGY",
+    "title": "The Incredible Truth About Self-Healing Materials Can Repair Themselves Like Skin",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Self-Healing Materials Can Repair Themselves Like",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.21,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-09T21:29:37.545702",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 0,
+    "early_likes": 1,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-10T05:38:33.682175"
+  },
+  {
+    "video_id": "Aq505BuI3cE",
+    "intent": "TECHNOLOGY",
+    "title": "The Incredible Truth About The Internet Weighs The Same As A Strawberry",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About The Internet Weighs The Same As",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.79,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-10T05:44:43.269303",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 0,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-10T11:57:20.125654"
+  },
+  {
+    "video_id": "ghVdbASHSLw",
+    "intent": "TECHNOLOGY",
+    "title": "The Incredible Truth About Brain-Computer Interfaces Let Paralyzed People Type With Thoughts",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Brain-Computer Interfaces Let Paralyzed People Type",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.71,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-10T12:03:08.128318",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 75,
+    "early_likes": 1,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-10T21:19:23.528754"
+  },
+  {
+    "video_id": "SvtLwyn93fM",
+    "intent": "TECHNOLOGY",
+    "title": "The Incredible Truth About The Internet Weighs The Same As A Strawberry",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About The Internet Weighs The Same As",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.79,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-10T17:02:13.045063",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 0,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-11T01:43:36.558356"
+  },
+  {
+    "video_id": "KVOavuGldjI",
+    "intent": "MYTHOLOGY",
+    "title": "The Incredible Truth About Dragons Appear In Every Ancient Culture Independently",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Dragons Appear In Every Ancient Culture",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.75,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-10T21:26:05.961579",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 95,
+    "early_likes": 3,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-11T05:38:33.653638"
+  },
+  {
+    "video_id": "ClZvjIzgDzs",
+    "intent": "HISTORY",
+    "title": "The Incredible Truth About Writing Was Invented To Track Beer Supplies",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Writing Was Invented To Track Beer",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.72,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-11T05:45:17.732276",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 4,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-11T11:59:01.118876"
+  },
+  {
+    "video_id": "kBBvHiGuhEA",
+    "intent": "HISTORY",
+    "title": "The Incredible Truth About The Silk Road Spread Religion And Plague Simultaneously",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About The Silk Road Spread Religion And",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.32,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-11T12:06:29.202120",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 3,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-11T21:27:29.259014"
+  },
+  {
+    "video_id": "ox9EROrRYN8",
+    "intent": "CULTURE",
+    "title": "The Incredible Truth About Ancient Romans Used Crushed Mouse Brains As Toothpaste",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Ancient Romans Used Crushed Mouse Brains",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.91,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-11T17:15:35.689444",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 62,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-12T01:49:12.478053"
+  },
+  {
+    "video_id": "J-Fn9YWWKes",
+    "intent": "HISTORY",
+    "title": "The Incredible Truth About Rome Had A Population Of 1 Million Before London",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Rome Had A Population Of 1 Million",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.98,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-11T21:35:50.062651",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 1,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-12T05:25:57.177626"
+  },
+  {
+    "video_id": "wtG5AG8c4ow",
+    "intent": "NATURE",
+    "title": "The Incredible Truth About How Volcanoes Create New Land",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About How Volcanoes Create New Land",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 29.42,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-12T05:30:17.620663",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 201,
+    "early_likes": 1,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-12T16:04:01.573913"
+  },
+  {
+    "video_id": "rE9X1uj6H6E",
+    "intent": "NATURE",
+    "title": "The Incredible Truth About Permafrost Holds Twice The Carbon In Our Atmosphere",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Permafrost Holds Twice The Carbon In",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.94,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-12T11:27:16.990450",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 1,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-12T21:07:47.566873"
+  },
+  {
+    "video_id": "ZbwKrH4nK_w",
+    "intent": "NATURE",
+    "title": "The Incredible Truth About Fire Needs Living Ecosystems To Be Able To Survive",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Fire Needs Living Ecosystems To Be Able",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.94,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-12T16:09:36.474068",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 34,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-13T01:40:55.134027"
+  },
+  {
+    "video_id": "1DSyrMTfZxk",
+    "intent": "NATURE",
+    "title": "The Incredible Truth About A Single Storm Can Release Nuclear Bomb Levels Of Energy",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About A Single Storm Can Release Nuclear Bomb",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.27,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-12T21:14:25.942299",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 2,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-13T05:41:20.783321"
+  },
+  {
+    "video_id": "unSKtN-LtLs",
+    "intent": "NATURE",
+    "title": "The Incredible Truth About The Northern Lights Are Caused By Solar Wind",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About The Northern Lights Are Caused By",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.91,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-13T05:46:48.400449",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 48,
+    "early_likes": 2,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-13T12:25:56.307497"
+  },
+  {
+    "video_id": "uNaziuF5Tzc",
+    "intent": "CULTURE",
+    "title": "The Incredible Truth About Ancient Persians Debated Sober Then Drunk To Double-Check Decisions",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Ancient Persians Debated Sober Then Drunk To",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.32,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-13T12:32:08.292592",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 120,
+    "early_likes": 2,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-13T21:13:03.779986"
+  },
+  {
+    "video_id": "LyVrRXvwYw4",
+    "intent": "CULTURE",
+    "title": "The Incredible Truth About Jericho Is The Oldest Continuously Inhabited City",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Jericho Is The Oldest Continuously Inhabited",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.26,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-13T16:59:14.080306",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 97,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-14T01:58:38.509205"
+  },
+  {
+    "video_id": "HFI9Ij1LGI8",
+    "intent": "CULTURE",
+    "title": "The Incredible Truth About Ancient Egyptians Used Honey As Medicine And It Still Works",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Ancient Egyptians Used Honey As Medicine And",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.25,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-13T21:19:39.842463",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 57,
+    "early_likes": 1,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-14T13:27:56.015257"
+  },
+  {
+    "video_id": "0o3pc3mo-Gc",
+    "intent": "CULTURE",
+    "title": "The Incredible Truth About Göbekli Tepe Is 6000 Years Older Than Stonehenge",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Göbekli Tepe Is 6000 Years Older",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.01,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-14T13:34:23.232696",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 25,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-15T02:07:31.678691"
+  },
+  {
+    "video_id": "H6z30Q7m2NM",
+    "intent": "CULTURE",
+    "title": "The Incredible Truth About The Colosseum Could Flood For Mock Sea Battles",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About The Colosseum Could Flood For Mock",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.89,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-14T18:30:14.884812",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 36,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-15T02:07:31.859169"
+  },
+  {
+    "video_id": "Gm656E-Wk6E",
+    "intent": "HISTORY",
+    "title": "The Incredible Truth About Rome Had A Population Of 1 Million Before London",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Rome Had A Population Of 1 Million",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.98,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-15T05:59:37.369711",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 0,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-15T12:20:35.264136"
+  },
+  {
+    "video_id": "aWzsQXoHkBo",
+    "intent": "HISTORY",
+    "title": "The Incredible Truth About Ancient Greeks Discovered The Earth Was Round In 240 Bc",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Ancient Greeks Discovered The Earth Was Round",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.51,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-15T12:27:45.944587",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 1,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-15T21:50:24.854436"
+  },
+  {
+    "video_id": "110KyUVqtZM",
+    "intent": "HISTORY",
+    "title": "The Incredible Truth About The Silk Road Spread Religion And Plague Simultaneously",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About The Silk Road Spread Religion And",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.32,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-15T17:40:27.894295",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 0,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-16T01:58:01.926245"
+  },
+  {
+    "video_id": "uGDRCtCAkkY",
+    "intent": "HISTORY",
+    "title": "The Incredible Truth About The Silk Road Spread Religion And Plague Simultaneously",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About The Silk Road Spread Religion And",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.32,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-15T21:56:34.616359",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 0,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-16T05:39:25.822450"
+  },
+  {
+    "video_id": "FbuX85WTnQM",
+    "intent": "HISTORY",
+    "title": "The Incredible Truth About Vikings Discovered America 500 Years Before Columbus",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Vikings Discovered America 500 Years Before",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.69,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-16T05:45:13.359582",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 1,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-16T12:17:59.022667"
+  },
+  {
+    "video_id": "mXbIUcyf6d0",
+    "intent": "HISTORY",
+    "title": "The Incredible Truth About The Industrial Revolution Happened In 50 Years",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About The Industrial Revolution Happened In 50",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.51,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-16T12:26:10.579436",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 63,
+    "early_likes": 1,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-16T21:48:28.590255"
+  },
+  {
+    "video_id": "w_2RT3lh9hg",
+    "intent": "HISTORY",
+    "title": "The Incredible Truth About Genghis Khan'S Empire Was Larger Than Any In History",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Genghis Khan'S Empire Was Larger Than Any",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.38,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-16T17:38:45.233005",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 8,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-17T02:02:42.550966"
+  },
+  {
+    "video_id": "VXMem45wcIk",
+    "intent": "HISTORY",
+    "title": "The Incredible Truth About Why The Roman Empire Really Collapsed",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Why The Roman Empire Really Collapsed",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 28.78,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-16T21:55:16.415159",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 11,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-17T12:17:29.668831"
+  },
+  {
+    "video_id": "HfHRUM-_rS0",
+    "intent": "CULTURE",
+    "title": "The Incredible Truth About Ancient Romans Used Crushed Mouse Brains As Toothpaste",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Ancient Romans Used Crushed Mouse Brains",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.91,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-17T12:24:22.478377",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 16,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-17T21:50:44.316983"
+  },
+  {
+    "video_id": "IFt96wx8lOw",
+    "intent": "CULTURE",
+    "title": "The Incredible Truth About Jericho Is The Oldest Continuously Inhabited City",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Jericho Is The Oldest Continuously Inhabited",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.26,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-17T17:37:59.591303",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 158,
+    "early_likes": 2,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-18T01:49:27.473220"
+  },
+  {
+    "video_id": "8Fc2lNDsrCs",
+    "intent": "CULTURE",
+    "title": "The Incredible Truth About The Most Spoken Language In 3000 Bc Was Sumerian",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About The Most Spoken Language In 3000 Bc",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.98,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-17T21:57:06.141426",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 259,
+    "early_likes": 2,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-18T05:34:17.024093"
+  },
+  {
+    "video_id": "QEvdEn7GN_M",
+    "intent": "CULTURE",
+    "title": "The Incredible Truth About The Colosseum Could Flood For Mock Sea Battles",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About The Colosseum Could Flood For Mock",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.89,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-18T05:40:05.589326",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 444,
+    "early_likes": 15,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-18T11:58:13.334526"
+  },
+  {
+    "video_id": "vDgXNCrbZ0k",
+    "intent": "CULTURE",
+    "title": "The Incredible Truth About Göbekli Tepe Is 6000 Years Older Than Stonehenge",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Göbekli Tepe Is 6000 Years Older",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.01,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-18T12:03:08.657564",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 46,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-18T21:22:52.399646"
+  },
+  {
+    "video_id": "qG2cp1Kfrl8",
+    "intent": "CULTURE",
+    "title": "The Incredible Truth About Ancient Persians Debated Sober Then Drunk To Double-Check Decisions",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Ancient Persians Debated Sober Then Drunk To",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.32,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-18T17:04:43.313952",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 42,
+    "early_likes": 1,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-19T01:54:43.602130"
+  },
+  {
+    "video_id": "-sgQ8HPsdAo",
+    "intent": "CULTURE",
+    "title": "The Incredible Truth About The Ancient Trade Route Connected China To Rome",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About The Ancient Trade Route Connected China",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.26,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-18T21:28:59.967215",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 74,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-19T05:30:33.330865"
+  },
+  {
+    "video_id": "jTV3azvVHYY",
+    "intent": "CULTURE",
+    "title": "The Incredible Truth About Traditional Wayfinding Could Navigate The Pacific Without Instruments",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Traditional Wayfinding Could Navigate The Pacific",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.71,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-19T05:36:23.045123",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 37,
+    "early_likes": 1,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-19T11:41:57.320461"
+  },
+  {
+    "video_id": "WDiYoWEcsMk",
+    "intent": "CULTURE",
+    "title": "The Incredible Truth About Ancient Sumerian Is The Oldest Written Language Ever Found",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Ancient Sumerian Is The Oldest Written Language",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.91,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-19T11:47:09.304027",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 15,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-19T21:11:39.741603"
+  },
+  {
+    "video_id": "As0oYRbNhnE",
+    "intent": "CULTURE",
+    "title": "The Incredible Truth About Traditional Wayfinding Could Navigate The Pacific Without Instruments",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Traditional Wayfinding Could Navigate The Pacific",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.71,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-19T21:17:18.837631",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 58,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-20T11:54:40.384269"
+  },
+  {
+    "video_id": "7yk3hzXhZxY",
+    "intent": "CULTURE",
+    "title": "The Incredible Truth About Göbekli Tepe Is 6000 Years Older Than Stonehenge",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Göbekli Tepe Is 6000 Years Older",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.01,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-20T11:59:32.058020",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 8,
+    "early_likes": 1,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-21T01:58:08.255880"
+  },
+  {
+    "video_id": "5xtMtmZnorc",
+    "intent": "CULTURE",
+    "title": "The Incredible Truth About Traditional Wayfinding Could Navigate The Pacific Without Instruments",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Traditional Wayfinding Could Navigate The Pacific",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.71,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-20T16:49:00.929913",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 7,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-21T01:58:08.473383"
+  },
+  {
+    "video_id": "0PFfLDYeoDc",
+    "intent": "CULTURE",
+    "title": "The Incredible Truth About Ancient Sumerian Is The Oldest Written Language Ever Found",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Ancient Sumerian Is The Oldest Written Language",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.91,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-21T06:02:52.778149",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 19,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-21T13:27:39.982690"
+  },
+  {
+    "video_id": "y5DEuvbBpic",
+    "intent": "CULTURE",
+    "title": "The Incredible Truth About The Ancient Trade Route Connected China To Rome",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About The Ancient Trade Route Connected China",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.26,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-21T13:34:52.683273",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 22,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-21T22:23:03.015768"
+  },
+  {
+    "video_id": "pqKHFewFgPs",
+    "intent": "CULTURE",
+    "title": "The Incredible Truth About Göbekli Tepe Is 6000 Years Older Than Stonehenge",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Göbekli Tepe Is 6000 Years Older",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.01,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-21T18:37:55.123634",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 2,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-22T02:06:02.588444"
+  },
+  {
+    "video_id": "4zxTefpreBg",
+    "intent": "CULTURE",
+    "title": "The Incredible Truth About Ancient Persians Debated Sober Then Drunk To Double-Check Decisions",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Ancient Persians Debated Sober Then Drunk To",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 31.32,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-21T22:29:57.055124",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 40,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-22T05:52:51.616352"
+  },
+  {
+    "video_id": "JbswK-FPAzw",
+    "intent": "ANIMALS",
+    "title": "The Incredible Truth About Octopuses Have Three Hearts And Blue Blood",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Octopuses Have Three Hearts And Blue",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.46,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-22T05:58:08.358589",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 28,
+    "early_likes": 2,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-22T12:11:53.096648"
+  },
+  {
+    "video_id": "RJGjxmlHH_c",
+    "intent": "ANIMALS",
+    "title": "The Incredible Truth About Dolphins Call Each Other By Name",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Dolphins Call Each Other By Name",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 28.27,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-22T12:17:11.098585",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 104,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-23T02:04:07.358078"
+  },
+  {
+    "video_id": "BCUecADOg0c",
+    "intent": "CULTURE",
+    "title": "The Incredible Truth About Ancient Sumerian Is The Oldest Written Language Ever Found",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Ancient Sumerian Is The Oldest Written Language",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.91,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-22T17:40:35.248403",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ],
+    "early_views": 32,
+    "early_likes": 0,
+    "early_comments": 2,
+    "early_fetched_at": "2026-09-23T02:04:07.518326"
+  },
+  {
+    "video_id": "zZvCnbpORrU",
+    "intent": "HISTORY",
+    "title": "The Incredible Truth About Genghis Khan'S Empire Was Larger Than Any In History",
+    "hook_text": "This fact will completely change how you see the world.",
+    "script_key_sents": [
+      "This fact will completely change how you see the world",
+      "The Incredible Truth About Genghis Khan'S Empire Was Larger Than Any",
+      "Now you understand the real truth behind one of the world's most overlooked facts"
+    ],
+    "total_duration_seconds": 30.38,
+    "scene_count": 6,
+    "avg_clip_score": 1.0,
+    "quality_gate_passed": true,
+    "quality_score": 100,
+    "uploaded_at": "2026-09-23T12:33:00.380160",
+    "profile": "shorts",
+    "tts_engines": [
+      "edge-tts"
+    ]
+  }
+]

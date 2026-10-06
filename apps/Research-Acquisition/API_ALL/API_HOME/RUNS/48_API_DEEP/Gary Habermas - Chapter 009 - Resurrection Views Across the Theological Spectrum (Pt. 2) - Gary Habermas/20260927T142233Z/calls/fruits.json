@@ -1,0 +1,770 @@
+{
+  "name": "fruits",
+  "parsed": {
+    "spec_version": "0.3.0",
+    "target": {
+      "type": "paper",
+      "title": "Gary Habermas - Chapter 009 - Resurrection Views Across the Theological Spectrum (Pt. 2) - Gary Habermas",
+      "domain": "unknown; infer conservatively",
+      "unit": "complete supplied document",
+      "comparison_class": "paper of similar purpose and evidence burden",
+      "population_boundary": "persons and groups explicitly represented in the supplied document; report omissions",
+      "time_window": null
+    },
+    "gate_results": [
+      {
+        "gate_id": "gate.truth_evidence",
+        "status": "WARN",
+        "hard": true,
+        "rationale": "The source is an auto-captioned spoken interview. Factual claims about scholars, dates, and texts are mostly attributed to named persons and works, but the transcript itself supplies no page-level citations, and several key claims (e.g., the 3-to-1 citation ratio, the Jesus Seminar creed claim, the 'more liberals than conservatives' clarification) are asserted from memory or from a sheet the speaker says he does not have at hand. Traceable in principle to Habermas's volumes, but not traceable within the supplied document.",
+        "evidence_refs": [
+          "S011",
+          "S262",
+          "S286",
+          "S299",
+          "S386",
+          "S388"
+        ],
+        "resolution": "Would pass if the cited volumes and page locations were supplied; currently the document is a secondary spoken summary."
+      },
+      {
+        "gate_id": "gate.contradiction",
+        "status": "PASS",
+        "hard": true,
+        "rationale": "The apparent contradiction (Habermas said 'Christians and non-Christians' vs. his stated practice of not labeling) is explicitly raised, acknowledged, bounded to a single podcast misspeaking, and resolved by the speaker's own clarification that he meant citation frequency of critical vs. believing commentators. The host corroborates. No load-bearing unresolved contradiction remains.",
+        "evidence_refs": [
+          "S011",
+          "S012",
+          "S013",
+          "S075",
+          "S077",
+          "S262",
+          "S266",
+          "S290"
+        ],
+        "resolution": "Acknowledged and repaired within the document."
+      },
+      {
+        "gate_id": "gate.scope",
+        "status": "PASS",
+        "hard": false,
+        "rationale": "The discussion stays within its stated domain: scholarly perspectives on resurrection studies, citation practice, dating of early creeds, and the contents of volume three. Where the speaker moves toward theology (volume four preview), he flags it as a separate forthcoming volume.",
+        "evidence_refs": [
+          "S119",
+          "S121",
+          "S489",
+          "S495",
+          "S502"
+        ],
+        "resolution": null
+      },
+      {
+        "gate_id": "gate.falsifiability",
+        "status": "PASS",
+        "hard": false,
+        "rationale": "The speaker repeatedly identifies what would count against him: he invites readers to find five more clear instances if his alleged '90%' claim is real (S317-S319), says he would add his own errors to the errata list (S058), and acknowledges he may have misspoken (S481-S485). This is explicit openness to correction.",
+        "evidence_refs": [
+          "S058",
+          "S317",
+          "S318",
+          "S319",
+          "S481",
+          "S484"
+        ],
+        "resolution": null
+      },
+      {
+        "gate_id": "gate.bridge_validity",
+        "status": "UNKNOWN",
+        "hard": false,
+        "rationale": "The document makes cross-domain moves (historical method to theological conclusion, physics/Buddhism aside, NDEs) but does not lay out mapping, invariants, bridge law, recovery, prediction, alternatives, and kill condition. The bridge claims are conversational, not formal.",
+        "evidence_refs": [
+          "S238",
+          "S239",
+          "S240",
+          "S241"
+        ],
+        "resolution": null
+      },
+      {
+        "gate_id": "gate.provenance",
+        "status": "WARN",
+        "hard": false,
+        "rationale": "Authorship and channel are identified (Gary Habermas, Real Seekers, host Dale). Named scholars and works are cited (John Cook, E.P. Sanders, Jimmy Dunn, Dale Allison, Tom Wright, Gundry, Bultmann, Jesus Seminar). However, the transcript is auto-generated with caption errors (e.g., 'Habermass', 'Boltman', 'Bart Urman', 'Pinkis Leed', 'Bulmont', 'terrorists' for 'tares'), and no page-level references are given within the document.",
+        "evidence_refs": [
+          "S005",
+          "S006",
+          "S134",
+          "S159",
+          "S386",
+          "S425"
+        ],
+        "resolution": "Provenance is traceable to named works but not to specific pages within the supplied unit."
+      },
+      {
+        "gate_id": "gate.agency_noncoercion",
+        "status": "PASS",
+        "hard": true,
+        "rationale": "The interaction is a voluntary interview. The speaker explicitly refuses to label others' religious status (S015, S023-S025, S071, S097), affirms that non-Christians are welcome at his institution (S085-S086), and calls for charity toward opponents (S095, S104-S107). No concealed compulsion or destruction of agency is evidenced.",
+        "evidence_refs": [
+          "S015",
+          "S023",
+          "S071",
+          "S085",
+          "S095",
+          "S097",
+          "S104"
+        ],
+        "resolution": null
+      }
+    ],
+    "fruit_profile": [
+      {
+        "fruit_id": "fruit.love",
+        "score": 2,
+        "confidence": 0.55,
+        "mechanism": "truth-aligned relational cohesion seeking the good of the whole and each member while bearing cost and preserving agency",
+        "positive_evidence": [
+          {
+            "ref_id": "E-LOVE-1",
+            "quote_or_event": "I have no right to label somebody a Christian or a non-Christian.",
+            "location": "S015",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Refusal to consign others to a category preserves their standing and agency.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-LOVE-2",
+            "quote_or_event": "I don't ever want to say whether I think so and so is a Christian or not a Christian because you're probably asking them questions about their deepest heart.",
+            "location": "S097",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Explicit restraint from judging another's inner state.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-LOVE-3",
+            "quote_or_event": "Uh you don't have to be a Christian to come to Liberty University.",
+            "location": "S085",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Institutional inclusion of non-Christians.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-LOVE-C1",
+            "quote_or_event": "The fact that they have to look so hard and then complain just to get I assume people agreeing with them. It just bothers me because they did no research.",
+            "location": "S320",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Dismissive characterization of critics' motives and effort.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-LOVE-C2",
+            "quote_or_event": "You know, you wouldn't know because you didn't learn to read until you're 40, you know, just just anything.",
+            "location": "S455",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Quoting insulting rhetoric approvingly as illustrative of scholarly exchange.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.5,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "PASS",
+          "power": "PASS",
+          "correction": "PASS",
+          "outsider": "PASS",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "The speaker repeatedly refuses to judge others' religious status and affirms inclusion of non-Christians, which is genuine love-adjacent behavior. However, the same speaker dismisses critics as lazy and quotes insulting rhetoric without distancing himself, and the evidence is confined to a single interview context. Score 2 reflects mixed evidence."
+      },
+      {
+        "fruit_id": "fruit.joy",
+        "score": 2,
+        "confidence": 0.4,
+        "mechanism": "durable participation in real good not dependent on denial, spectacle, status, or constant stimulation",
+        "positive_evidence": [
+          {
+            "ref_id": "E-JOY-1",
+            "quote_or_event": "I love the I love the comment. Jesus saw them, they saw him, and my family and I are going to be in church worshiping next Easter. That's pretty cool.",
+            "location": "S213",
+            "evidence_type": "OUTPUT",
+            "link_reason": "Expressed delight in a substantive theological statement, not in spectacle.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-JOY-C1",
+            "quote_or_event": "It just bothers me because they did no research.",
+            "location": "S321",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Irritation at critics suggests joy is not robust under opposition.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.25,
+        "stress_tests": {
+          "source": "UNKNOWN",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "UNKNOWN",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "There is some genuine delight in scholarly and theological content, but the evidence is thin and the same speaker shows irritation under criticism. Score 2 with low confidence."
+      },
+      {
+        "fruit_id": "fruit.peace",
+        "score": 2,
+        "confidence": 0.45,
+        "mechanism": "reintegrated order in which relevant tensions are truthfully addressed without suppression",
+        "positive_evidence": [
+          {
+            "ref_id": "E-PEACE-1",
+            "quote_or_event": "I think the principle of charity, that's what I call for, right?",
+            "location": "S095",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Calls for charitable interpretation, a peace-making move.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-PEACE-2",
+            "quote_or_event": "No, I said I know a lot of real conservative Christians who get angry real easily, too.",
+            "location": "S093",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Refuses to let anger be attributed to one side only, reducing partisan hostility.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-PEACE-C1",
+            "quote_or_event": "It just bothers me because they did no research.",
+            "location": "S321",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Unresolved irritation at critics.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-PEACE-C2",
+            "quote_or_event": "The people who don't want it >> Yeah. on the far left and the far right are too often angry.",
+            "location": "S091",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Characterizes both extremes as angry, which is a mild hostility.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.4,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "PASS",
+          "power": "UNKNOWN",
+          "correction": "PASS",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "The speaker explicitly calls for charity and refuses to demonize one side, but also expresses unresolved irritation at critics. Mixed evidence, score 2."
+      },
+      {
+        "fruit_id": "fruit.patience",
+        "score": 2,
+        "confidence": 0.35,
+        "mechanism": "preservation of persons and processes across the time required for truth, growth, correction, or convergence while acting when action is due",
+        "positive_evidence": [
+          {
+            "ref_id": "E-PAT-1",
+            "quote_or_event": "I could sit here all day and give you a hundred of those. It take me time to get them here and order them.",
+            "location": "S211",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Willingness to take time to order evidence.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-PAT-2",
+            "quote_or_event": "I might end up doing another one with you a few years from now.",
+            "location": "S481",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Long-horizon willingness to continue the conversation.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-PAT-C1",
+            "quote_or_event": "It just bothers me because they did no research.",
+            "location": "S321",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Impatience with critics who have not done the work.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.25,
+        "stress_tests": {
+          "source": "UNKNOWN",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "UNKNOWN",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Some evidence of long-horizon commitment, but also impatience with critics. Score 2 with low confidence."
+      },
+      {
+        "fruit_id": "fruit.kindness",
+        "score": 2,
+        "confidence": 0.5,
+        "mechanism": "low-friction repair and assistance that reduces needless barriers without erasing truth or responsibility",
+        "positive_evidence": [
+          {
+            "ref_id": "E-KIND-1",
+            "quote_or_event": "I don't ever want to say whether I think so and so is a Christian or not a Christian because you're probably asking them questions about their deepest heart.",
+            "location": "S097",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Refusal to humiliate or expose others' inner state.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-KIND-2",
+            "quote_or_event": "If people would just give me the grace to be talking like they would do for one of their own quote unquote kind.",
+            "location": "S104",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Requests grace rather than retaliation.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-KIND-C1",
+            "quote_or_event": "It just bothers me because they did no research.",
+            "location": "S321",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Contemptuous characterization of critics.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-KIND-C2",
+            "quote_or_event": "You know, you wouldn't know because you didn't learn to read until you're 40, you know, just just anything.",
+            "location": "S455",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Quoting insulting rhetoric without distancing.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.45,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "PASS",
+          "power": "UNKNOWN",
+          "correction": "PASS",
+          "outsider": "PASS",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "The speaker shows genuine kindness in refusing to judge others' religious status and in requesting grace, but also displays contempt toward critics. Mixed evidence, score 2."
+      },
+      {
+        "fruit_id": "fruit.goodness",
+        "score": 2,
+        "confidence": 0.4,
+        "mechanism": "truth-aligned action producing real non-malign benefit after costs and externalities are counted",
+        "positive_evidence": [
+          {
+            "ref_id": "E-GOOD-1",
+            "quote_or_event": "I went back and counted volume three. I went all the way through it.",
+            "location": "S287",
+            "evidence_type": "PROCESS",
+            "link_reason": "Willingness to do the counting work to verify his own claim.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-GOOD-2",
+            "quote_or_event": "If you find that anywhere in one of my books, tell me and we'll put it in the list of ARTA to be changed in the next cuz my my editors remind me they want those all the time.",
+            "location": "S058",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Institutional errata process for correcting errors.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-GOOD-C1",
+            "quote_or_event": "I don't know that number because I just wanted to say I just wanted to say to myself, was I am I right in what I recall?",
+            "location": "S300",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Admits he does not have the number at hand, so the claim is not fully verified in the document.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.35,
+        "stress_tests": {
+          "source": "UNKNOWN",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "PASS",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "There is evidence of truth-aligned work (counting, errata process), but also an admission that the key number is not at hand. Score 2."
+      },
+      {
+        "fruit_id": "fruit.faithfulness",
+        "score": 2,
+        "confidence": 0.5,
+        "mechanism": "invariant fidelity across time, audiences, incentives, and pressure, joined to correction when the object of loyalty is false",
+        "positive_evidence": [
+          {
+            "ref_id": "E-FAITH-1",
+            "quote_or_event": "I don't say Christian or non-Christian. I if I find if you find that anywhere in one of my books, tell me and we'll put it in the list of ARTA to be changed in the next cuz my my editors remind me they want those all the time.",
+            "location": "S058",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Commitment to consistency and correction across publications.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-FAITH-2",
+            "quote_or_event": "I wrote that down and I have it on a sheet of paper where I counted com counted.",
+            "location": "S299",
+            "evidence_type": "PROCESS",
+            "link_reason": "Kept a record to verify his own claim.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-FAITH-C1",
+            "quote_or_event": "I think it was just one one time you sort of misspoke on a on a podcast and they've taken that and ran with it.",
+            "location": "S075",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Admitted inconsistency between stated practice and a podcast statement.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.4,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "PASS",
+          "power": "UNKNOWN",
+          "correction": "PASS",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "The speaker shows commitment to consistency and correction, but also admits a public inconsistency. Mixed evidence, score 2."
+      },
+      {
+        "fruit_id": "fruit.gentleness",
+        "score": 2,
+        "confidence": 0.5,
+        "mechanism": "power precisely restrained to the minimum force sufficient for the good while protecting the vulnerable",
+        "positive_evidence": [
+          {
+            "ref_id": "E-GENT-1",
+            "quote_or_event": "I have no right to label somebody a Christian or a non-Christian.",
+            "location": "S015",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Restraint of authority to categorize others.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-GENT-2",
+            "quote_or_event": "I'm not judging you.",
+            "location": "S071",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Explicit refusal to judge.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-GENT-C1",
+            "quote_or_event": "It just bothers me because they did no research.",
+            "location": "S321",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Harsh characterization of critics.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.4,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "PASS",
+          "power": "PASS",
+          "correction": "PASS",
+          "outsider": "PASS",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "The speaker restrains his authority to label others and refuses to judge, but also uses harsh language about critics. Mixed evidence, score 2."
+      },
+      {
+        "fruit_id": "fruit.self_control",
+        "score": 2,
+        "confidence": 0.4,
+        "mechanism": "boundary integrity and governance of appetite, impulse, scope, and optimization under the true good",
+        "positive_evidence": [
+          {
+            "ref_id": "E-SC-1",
+            "quote_or_event": "I don't know that number because I just wanted to say I just wanted to say to myself, was I am I right in what I recall?",
+            "location": "S300",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Refuses to assert a number he cannot verify.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-SC-2",
+            "quote_or_event": "I don't know if that's liberal or conservative.",
+            "location": "S089",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Refuses to force a categorization.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-SC-C1",
+            "quote_or_event": "It just bothers me because they did no research.",
+            "location": "S321",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Emotional reaction to critics.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.35,
+        "stress_tests": {
+          "source": "UNKNOWN",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "PASS",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Some evidence of restraint in not asserting unverified numbers, but also emotional reactivity to critics. Score 2."
+      }
+    ],
+    "contradictions": [
+      {
+        "classification": "ACKNOWLEDGED_REPAIRED",
+        "load_bearing": false,
+        "resolved": true,
+        "evidence_refs": [
+          "S011",
+          "S012",
+          "S013",
+          "S075",
+          "S077",
+          "S262",
+          "S266",
+          "S290"
+        ],
+        "fruit_relation": "The apparent contradiction between Habermas's stated practice of not labeling Christians and his podcast statement about 'Christians and non-Christians' is acknowledged and repaired by clarifying he meant citation frequency of critical vs. believing commentators.",
+        "consequence": "The repair strengthens the speaker's credibility on this point and removes a potential charge of inconsistency."
+      }
+    ],
+    "counterfeit_flags": [],
+    "anti_fruit_pressure": [
+      {
+        "ref_id": "AF-1",
+        "quote_or_event": "It just bothers me because they did no research.",
+        "location": "S321",
+        "anti_fruit": "contempt",
+        "fruit_affected": "fruit.kindness",
+        "severity": "LOW"
+      },
+      {
+        "ref_id": "AF-2",
+        "quote_or_event": "You know, you wouldn't know because you didn't learn to read until you're 40, you know, just just anything.",
+        "location": "S455",
+        "anti_fruit": "humiliation",
+        "fruit_affected": "fruit.kindness",
+        "severity": "LOW"
+      }
+    ],
+    "stakeholder_divergence": [
+      {
+        "stakeholder": "critics of Habermas",
+        "observation": "Habermas characterizes critics as lazy and not doing research (S320-S321), and quotes insulting rhetoric about them (S455).",
+        "evidence_refs": [
+          "S320",
+          "S321",
+          "S455"
+        ]
+      },
+      {
+        "stakeholder": "non-Christian scholars",
+        "observation": "Habermas affirms inclusion and refuses to judge religious status (S015, S085, S097).",
+        "evidence_refs": [
+          "S015",
+          "S085",
+          "S097"
+        ]
+      }
+    ],
+    "aggregation": {
+      "mode": "gated_profile",
+      "arithmetic_summary": 2.0,
+      "geometric_balance": 2.0,
+      "multiplicative_coherence": 0.0,
+      "minimum_fruit": {
+        "fruit_id": "fruit.joy",
+        "score": 2
+      },
+      "vetoes": []
+    },
+    "epistemic_status": "CONDITIONAL",
+    "system_status": "REPAIRABLE",
+    "confidence": 0.45,
+    "missing_evidence": [
+      "No page-level citations for the claims about volume three's citation ratio.",
+      "No independent verification of the Jesus Seminar's creed dating claim.",
+      "No evidence of behavior outside this single interview context.",
+      "No evidence of how the speaker treats critics when not in a friendly interview.",
+      "No evidence of the speaker's conduct under institutional pressure or cost."
+    ],
+    "repair_path": [
+      "Provide page-level citations for the citation-ratio claim.",
+      "Provide the actual count sheet referenced in S299.",
+      "Distinguish more clearly between quoting insulting rhetoric and endorsing it.",
+      "Acknowledge critics' work more charitably even when disagreeing."
+    ],
+    "falsifier": "Evidence that Habermas systematically misrepresents critics' work, or that his refusal to label others is contradicted by his institutional or public conduct, would lower the fruit scores.",
+    "limitations": [
+      "The source is an auto-captioned YouTube transcript with caption errors and missing speaker labels.",
+      "The document is a single interview, not a longitudinal record.",
+      "The per-sentence summary was computed separately and is used as a cross-check, not as ground truth.",
+      "No inference about hidden motives, salvation status, or divine origin is made."
+    ],
+    "formal_receipt": {}
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "fruits",
+      "attempt": 1,
+      "text": "{\n  \"spec_version\": \"0.3.0\",\n  \"target\": {\n    \"type\": \"paper\",\n    \"title\": \"Gary Habermas - Chapter 009 - Resurrection Views Across the Theological Spectrum (Pt. 2) - Gary Habermas\",\n    \"domain\": \"unknown; infer conservatively\",\n    \"unit\": \"complete supplied document\",\n    \"comparison_class\": \"paper of similar purpose and evidence burden\",\n    \"population_boundary\": \"persons and groups explicitly represented in the supplied document; report omissions\",\n    \"time_window\": null\n  },\n  \"gate_results\": [\n    {\n      \"gate_id\": \"gate.truth_evidence\",\n      \"status\": \"WARN\",\n      \"hard\": true,\n      \"rationale\": \"The source is an auto-captioned spoken interview. Factual claims about scholars, dates, and texts are mostly attributed to named persons and works, but the transcript itself supplies no page-level citations, and several key claims (e.g., the 3-to-1 citation ratio, the Jesus Seminar creed claim, the 'more liberals than conservatives' clarification) are asserted from memory or from a sheet the speaker says he does not have at hand. Traceable in principle to Habermas's volumes, but not traceable within the supplied document.\",\n      \"evidence_refs\": [\"S011\", \"S262\", \"S286\", \"S299\", \"S386\", \"S388\"],\n      \"resolution\": \"Would pass if the cited volumes and page locations were supplied; currently the document is a secondary spoken summary.\"\n    },\n    {\n      \"gate_id\": \"gate.contradiction\",\n      \"status\": \"PASS\",\n      \"hard\": true,\n      \"rationale\": \"The apparent contradiction (Habermas said 'Christians and non-Christians' vs. his stated practice of not labeling) is explicitly raised, acknowledged, bounded to a single podcast misspeaking, and resolved by the speaker's own clarification that he meant citation frequency of critical vs. believing commentators. The host corroborates. No load-bearing unresolved contradiction remains.\",\n      \"evidence_refs\": [\"S011\", \"S012\", \"S013\", \"S075\", \"S077\", \"S262\", \"S266\", \"S290\"],\n      \"resolution\": \"Acknowledged and repaired within the document.\"\n    },\n    {\n      \"gate_id\": \"gate.scope\",\n      \"status\": \"PASS\",\n      \"hard\": false,\n      \"rationale\": \"The discussion stays within its stated domain: scholarly perspectives on resurrection studies, citation practice, dating of early creeds, and the contents of volume three. Where the speaker moves toward theology (volume four preview), he flags it as a separate forthcoming volume.\",\n      \"evidence_refs\": [\"S119\", \"S121\", \"S489\", \"S495\", \"S502\"],\n      \"resolution\": null\n    },\n    {\n      \"gate_id\": \"gate.falsifiability\",\n      \"status\": \"PASS\",\n      \"hard\": false,\n      \"rationale\": \"The speaker repeatedly identifies what would count against him: he invites readers to find five more clear instances if his alleged '90%' claim is real (S317-S319), says he would add his own errors to the errata list (S058), and acknowledges he may have misspoken (S481-S485). This is explicit openness to correction.\",\n      \"evidence_refs\": [\"S058\", \"S317\", \"S318\", \"S319\", \"S481\", \"S484\"],\n      \"resolution\": null\n    },\n    {\n      \"gate_id\": \"gate.bridge_validity\",\n      \"status\": \"UNKNOWN\",\n      \"hard\": false,\n      \"rationale\": \"The document makes cross-domain moves (historical method to theological conclusion, physics/Buddhism aside, NDEs) but does not lay out mapping, invariants, bridge law, recovery, prediction, alternatives, and kill condition. The bridge claims are conversational, not formal.\",\n      \"evidence_refs\": [\"S238\", \"S239\", \"S240\", \"S241\"],\n      \"resolution\": null\n    },\n    {\n      \"gate_id\": \"gate.provenance\",\n      \"status\": \"WARN\",\n      \"hard\": false,\n      \"rationale\": \"Authorship and channel are identified (Gary Habermas, Real Seekers, host Dale). Named scholars and works are cited (John Cook, E.P. Sanders, Jimmy Dunn, Dale Allison, Tom Wright, Gundry, Bultmann, Jesus Seminar). However, the transcript is auto-generated with caption errors (e.g., 'Habermass', 'Boltman', 'Bart Urman', 'Pinkis Leed', 'Bulmont', 'terrorists' for 'tares'), and no page-level references are given within the document.\",\n      \"evidence_refs\": [\"S005\", \"S006\", \"S134\", \"S159\", \"S386\", \"S425\"],\n      \"resolution\": \"Provenance is traceable to named works but not to specific pages within the supplied unit.\"\n    },\n    {\n      \"gate_id\": \"gate.agency_noncoercion\",\n      \"status\": \"PASS\",\n      \"hard\": true,\n      \"rationale\": \"The interaction is a voluntary interview. The speaker explicitly refuses to label others' religious status (S015, S023-S025, S071, S097), affirms that non-Christians are welcome at his institution (S085-S086), and calls for charity toward opponents (S095, S104-S107). No concealed compulsion or destruction of agency is evidenced.\",\n      \"evidence_refs\": [\"S015\", \"S023\", \"S071\", \"S085\", \"S095\", \"S097\", \"S104\"],\n      \"resolution\": null\n    }\n  ],\n  \"fruit_profile\": [\n    {\n      \"fruit_id\": \"fruit.love\",\n      \"score\": 2,\n      \"confidence\": 0.55,\n      \"mechanism\": \"truth-aligned relational cohesion seeking the good of the whole and each member while bearing cost and preserving agency\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"E-LOVE-1\",\n          \"quote_or_event\": \"I have no right to label somebody a Christian or a non-Christian.\",\n          \"location\": \"S015\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Refusal to consign others to a category preserves their standing and agency.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"E-LOVE-2\",\n          \"quote_or_event\": \"I don't ever want to say whether I think so and so is a Christian or not a Christian because you're probably asking them questions about their deepest heart.\",\n          \"location\": \"S097\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Explicit restraint from judging another's inner state.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"E-LOVE-3\",\n          \"quote_or_event\": \"Uh you don't have to be a Christian to come to Liberty University.\",\n          \"location\": \"S085\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Institutional inclusion of non-Christians.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"E-LOVE-C1\",\n          \"quote_or_event\": \"The fact that they have to look so hard and then complain just to get I assume people agreeing with them. It just bothers me because they did no research.\",\n          \"location\": \"S320\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Dismissive characterization of critics' motives and effort.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"E-LOVE-C2\",\n          \"quote_or_event\": \"You know, you wouldn't know because you didn't learn to read until you're 40, you know, just just anything.\",\n          \"location\": \"S455\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Quoting insulting rhetoric approvingly as illustrative of scholarly exchange.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.5,\n      \"stress_tests\": {\n        \"source\": \"PASS\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"PASS\",\n        \"power\": \"PASS\",\n        \"correction\": \"PASS\",\n        \"outsider\": \"PASS\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"The speaker repeatedly refuses to judge others' religious status and affirms inclusion of non-Christians, which is genuine love-adjacent behavior. However, the same speaker dismisses critics as lazy and quotes insulting rhetoric without distancing himself, and the evidence is confined to a single interview context. Score 2 reflects mixed evidence.\"\n    },\n    {\n      \"fruit_id\": \"fruit.joy\",\n      \"score\": 2,\n      \"confidence\": 0.4,\n      \"mechanism\": \"durable participation in real good not dependent on denial, spectacle, status, or constant stimulation\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"E-JOY-1\",\n          \"quote_or_event\": \"I love the I love the comment. Jesus saw them, they saw him, and my family and I are going to be in church worshiping next Easter. That's pretty cool.\",\n          \"location\": \"S213\",\n          \"evidence_type\": \"OUTPUT\",\n          \"link_reason\": \"Expressed delight in a substantive theological statement, not in spectacle.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"E-JOY-C1\",\n          \"quote_or_event\": \"It just bothers me because they did no research.\",\n          \"location\": \"S321\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Irritation at critics suggests joy is not robust under opposition.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.25,\n      \"stress_tests\": {\n        \"source\": \"UNKNOWN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"UNKNOWN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"UNKNOWN\",\n        \"outsider\": \"UNKNOWN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"There is some genuine delight in scholarly and theological content, but the evidence is thin and the same speaker shows irritation under criticism. Score 2 with low confidence.\"\n    },\n    {\n      \"fruit_id\": \"fruit.peace\",\n      \"score\": 2,\n      \"confidence\": 0.45,\n      \"mechanism\": \"reintegrated order in which relevant tensions are truthfully addressed without suppression\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"E-PEACE-1\",\n          \"quote_or_event\": \"I think the principle of charity, that's what I call for, right?\",\n          \"location\": \"S095\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Calls for charitable interpretation, a peace-making move.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"E-PEACE-2\",\n          \"quote_or_event\": \"No, I said I know a lot of real conservative Christians who get angry real easily, too.\",\n          \"location\": \"S093\",\n          \"evidence_type\": \"MECHANISM\",\n          \"link_reason\": \"Refuses to let anger be attributed to one side only, reducing partisan hostility.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"E-PEACE-C1\",\n          \"quote_or_event\": \"It just bothers me because they did no research.\",\n          \"location\": \"S321\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Unresolved irritation at critics.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"E-PEACE-C2\",\n          \"quote_or_event\": \"The people who don't want it >> Yeah. on the far left and the far right are too often angry.\",\n          \"location\": \"S091\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Characterizes both extremes as angry, which is a mild hostility.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.4,\n      \"stress_tests\": {\n        \"source\": \"PASS\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"PASS\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"PASS\",\n        \"outsider\": \"UNKNOWN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"The speaker explicitly calls for charity and refuses to demonize one side, but also expresses unresolved irritation at critics. Mixed evidence, score 2.\"\n    },\n    {\n      \"fruit_id\": \"fruit.patience\",\n      \"score\": 2,\n      \"confidence\": 0.35,\n      \"mechanism\": \"preservation of persons and processes across the time required for truth, growth, correction, or convergence while acting when action is due\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"E-PAT-1\",\n          \"quote_or_event\": \"I could sit here all day and give you a hundred of those. It take me time to get them here and order them.\",\n          \"location\": \"S211\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Willingness to take time to order evidence.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"E-PAT-2\",\n          \"quote_or_event\": \"I might end up doing another one with you a few years from now.\",\n          \"location\": \"S481\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Long-horizon willingness to continue the conversation.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"E-PAT-C1\",\n          \"quote_or_event\": \"It just bothers me because they did no research.\",\n          \"location\": \"S321\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Impatience with critics who have not done the work.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.25,\n      \"stress_tests\": {\n        \"source\": \"UNKNOWN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"UNKNOWN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"UNKNOWN\",\n        \"outsider\": \"UNKNOWN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"Some evidence of long-horizon commitment, but also impatience with critics. Score 2 with low confidence.\"\n    },\n    {\n      \"fruit_id\": \"fruit.kindness\",\n      \"score\": 2,\n      \"confidence\": 0.5,\n      \"mechanism\": \"low-friction repair and assistance that reduces needless barriers without erasing truth or responsibility\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"E-KIND-1\",\n          \"quote_or_event\": \"I don't ever want to say whether I think so and so is a Christian or not a Christian because you're probably asking them questions about their deepest heart.\",\n          \"location\": \"S097\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Refusal to humiliate or expose others' inner state.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"E-KIND-2\",\n          \"quote_or_event\": \"If people would just give me the grace to be talking like they would do for one of their own quote unquote kind.\",\n          \"location\": \"S104\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Requests grace rather than retaliation.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"E-KIND-C1\",\n          \"quote_or_event\": \"It just bothers me because they did no research.\",\n          \"location\": \"S321\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Contemptuous characterization of critics.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"E-KIND-C2\",\n          \"quote_or_event\": \"You know, you wouldn't know because you didn't learn to read until you're 40, you know, just just anything.\",\n          \"location\": \"S455\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Quoting insulting rhetoric without distancing.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.45,\n      \"stress_tests\": {\n        \"source\": \"PASS\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"PASS\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"PASS\",\n        \"outsider\": \"PASS\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"The speaker shows genuine kindness in refusing to judge others' religious status and in requesting grace, but also displays contempt toward critics. Mixed evidence, score 2.\"\n    },\n    {\n      \"fruit_id\": \"fruit.goodness\",\n      \"score\": 2,\n      \"confidence\": 0.4,\n      \"mechanism\": \"truth-aligned action producing real non-malign benefit after costs and externalities are counted\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"E-GOOD-1\",\n          \"quote_or_event\": \"I went back and counted volume three. I went all the way through it.\",\n          \"location\": \"S287\",\n          \"evidence_type\": \"PROCESS\",\n          \"link_reason\": \"Willingness to do the counting work to verify his own claim.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"E-GOOD-2\",\n          \"quote_or_event\": \"If you find that anywhere in one of my books, tell me and we'll put it in the list of ARTA to be changed in the next cuz my my editors remind me they want those all the time.\",\n          \"location\": \"S058\",\n          \"evidence_type\": \"MECHANISM\",\n          \"link_reason\": \"Institutional errata process for correcting errors.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"E-GOOD-C1\",\n          \"quote_or_event\": \"I don't know that number because I just wanted to say I just wanted to say to myself, was I am I right in what I recall?\",\n          \"location\": \"S300\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Admits he does not have the number at hand, so the claim is not fully verified in the document.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.35,\n      \"stress_tests\": {\n        \"source\": \"UNKNOWN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"UNKNOWN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"PASS\",\n        \"outsider\": \"UNKNOWN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"There is evidence of truth-aligned work (counting, errata process), but also an admission that the key number is not at hand. Score 2.\"\n    },\n    {\n      \"fruit_id\": \"fruit.faithfulness\",\n      \"score\": 2,\n      \"confidence\": 0.5,\n      \"mechanism\": \"invariant fidelity across time, audiences, incentives, and pressure, joined to correction when the object of loyalty is false\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"E-FAITH-1\",\n          \"quote_or_event\": \"I don't say Christian or non-Christian. I if I find if you find that anywhere in one of my books, tell me and we'll put it in the list of ARTA to be changed in the next cuz my my editors remind me they want those all the time.\",\n          \"location\": \"S058\",\n          \"evidence_type\": \"MECHANISM\",\n          \"link_reason\": \"Commitment to consistency and correction across publications.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"E-FAITH-2\",\n          \"quote_or_event\": \"I wrote that down and I have it on a sheet of paper where I counted com counted.\",\n          \"location\": \"S299\",\n          \"evidence_type\": \"PROCESS\",\n          \"link_reason\": \"Kept a record to verify his own claim.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"E-FAITH-C1\",\n          \"quote_or_event\": \"I think it was just one one time you sort of misspoke on a on a podcast and they've taken that and ran with it.\",\n          \"location\": \"S075\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Admitted inconsistency between stated practice and a podcast statement.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.4,\n      \"stress_tests\": {\n        \"source\": \"PASS\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"PASS\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"PASS\",\n        \"outsider\": \"UNKNOWN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"The speaker shows commitment to consistency and correction, but also admits a public inconsistency. Mixed evidence, score 2.\"\n    },\n    {\n      \"fruit_id\": \"fruit.gentleness\",\n      \"score\": 2,\n      \"confidence\": 0.5,\n      \"mechanism\": \"power precisely restrained to the minimum force sufficient for the good while protecting the vulnerable\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"E-GENT-1\",\n          \"quote_or_event\": \"I have no right to label somebody a Christian or a non-Christian.\",\n          \"location\": \"S015\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Restraint of authority to categorize others.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"E-GENT-2\",\n          \"quote_or_event\": \"I'm not judging you.\",\n          \"location\": \"S071\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Explicit refusal to judge.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"E-GENT-C1\",\n          \"quote_or_event\": \"It just bothers me because they did no research.\",\n          \"location\": \"S321\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Harsh characterization of critics.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.4,\n      \"stress_tests\": {\n        \"source\": \"PASS\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"PASS\",\n        \"power\": \"PASS\",\n        \"correction\": \"PASS\",\n        \"outsider\": \"PASS\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"The speaker restrains his authority to label others and refuses to judge, but also uses harsh language about critics. Mixed evidence, score 2.\"\n    },\n    {\n      \"fruit_id\": \"fruit.self_control\",\n      \"score\": 2,\n      \"confidence\": 0.4,\n      \"mechanism\": \"boundary integrity and governance of appetite, impulse, scope, and optimization under the true good\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"E-SC-1\",\n          \"quote_or_event\": \"I don't know that number because I just wanted to say I just wanted to say to myself, was I am I right in what I recall?\",\n          \"location\": \"S300\",\n          \"evidence_type\": \"MECHANISM\",\n          \"link_reason\": \"Refuses to assert a number he cannot verify.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"E-SC-2\",\n          \"quote_or_event\": \"I don't know if that's liberal or conservative.\",\n          \"location\": \"S089\",\n          \"evidence_type\": \"MECHANISM\",\n          \"link_reason\": \"Refuses to force a categorization.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"E-SC-C1\",\n          \"quote_or_event\": \"It just bothers me because they did no research.\",\n          \"location\": \"S321\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Emotional reaction to critics.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.35,\n      \"stress_tests\": {\n        \"source\": \"UNKNOWN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"UNKNOWN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"PASS\",\n        \"outsider\": \"UNKNOWN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"Some evidence of restraint in not asserting unverified numbers, but also emotional reactivity to critics. Score 2.\"\n    }\n  ],\n  \"contradictions\": [\n    {\n      \"classification\": \"ACKNOWLEDGED_REPAIRED\",\n      \"load_bearing\": false,\n      \"resolved\": true,\n      \"evidence_refs\": [\"S011\", \"S012\", \"S013\", \"S075\", \"S077\", \"S262\", \"S266\", \"S290\"],\n      \"fruit_relation\": \"The apparent contradiction between Habermas's stated practice of not labeling Christians and his podcast statement about 'Christians and non-Christians' is acknowledged and repaired by clarifying he meant citation frequency of critical vs. believing commentators.\",\n      \"consequence\": \"The repair strengthens the speaker's credibility on this point and removes a potential charge of inconsistency.\"\n    }\n  ],\n  \"counterfeit_flags\": [],\n  \"anti_fruit_pressure\": [\n    {\n      \"ref_id\": \"AF-1\",\n      \"quote_or_event\": \"It just bothers me because they did no research.\",\n      \"location\": \"S321\",\n      \"anti_fruit\": \"contempt\",\n      \"fruit_affected\": \"fruit.kindness\",\n      \"severity\": \"LOW\"\n    },\n    {\n      \"ref_id\": \"AF-2\",\n      \"quote_or_event\": \"You know, you wouldn't know because you didn't learn to read until you're 40, you know, just just anything.\",\n      \"location\": \"S455\",\n      \"anti_fruit\": \"humiliation\",\n      \"fruit_affected\": \"fruit.kindness\",\n      \"severity\": \"LOW\"\n    }\n  ],\n  \"stakeholder_divergence\": [\n    {\n      \"stakeholder\": \"critics of Habermas\",\n      \"observation\": \"Habermas characterizes critics as lazy and not doing research (S320-S321), and quotes insulting rhetoric about them (S455).\",\n      \"evidence_refs\": [\"S320\", \"S321\", \"S455\"]\n    },\n    {\n      \"stakeholder\": \"non-Christian scholars\",\n      \"observation\": \"Habermas affirms inclusion and refuses to judge religious status (S015, S085, S097).\",\n      \"evidence_refs\": [\"S015\", \"S085\", \"S097\"]\n    }\n  ],\n  \"aggregation\": {\n    \"mode\": \"gated_profile\",\n    \"arithmetic_summary\": 2.0,\n    \"geometric_balance\": 2.0,\n    \"multiplicative_coherence\": 0.0,\n    \"minimum_fruit\": {\n      \"fruit_id\": \"fruit.joy\",\n      \"score\": 2\n    },\n    \"vetoes\": []\n  },\n  \"epistemic_status\": \"CONDITIONAL\",\n  \"system_status\": \"REPAIRABLE\",\n  \"confidence\": 0.45,\n  \"missing_evidence\": [\n    \"No page-level citations for the claims about volume three's citation ratio.\",\n    \"No independent verification of the Jesus Seminar's creed dating claim.\",\n    \"No evidence of behavior outside this single interview context.\",\n    \"No evidence of how the speaker treats critics when not in a friendly interview.\",\n    \"No evidence of the speaker's conduct under institutional pressure or cost.\"\n  ],\n  \"repair_path\": [\n    \"Provide page-level citations for the citation-ratio claim.\",\n    \"Provide the actual count sheet referenced in S299.\",\n    \"Distinguish more clearly between quoting insulting rhetoric and endorsing it.\",\n    \"Acknowledge critics' work more charitably even when disagreeing.\"\n  ],\n  \"falsifier\": \"Evidence that Habermas systematically misrepresents critics' work, or that his refusal to label others is contradicted by his institutional or public conduct, would lower the fruit scores.\",\n  \"limitations\": [\n    \"The source is an auto-captioned YouTube transcript with caption errors and missing speaker labels.\",\n    \"The document is a single interview, not a longitudinal record.\",\n    \"The per-sentence summary was computed separately and is used as a cross-check, not as ground truth.\",\n    \"No inference about hidden motives, salvation status, or divine origin is made.\"\n  ],\n  \"formal_receipt\": {}\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 15508,
+      "completion_tokens": 7210,
+      "attempts": 1,
+      "elapsed_seconds": 25.23399999999674,
+      "started_at": "2026-09-27T13:58:17.949050+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T13:58:43.180415+00:00",
+      "tokens": 22718
+    }
+  ],
+  "prompt_sha256": "7f2e51cf9166b889f5b385fe1ca7ca87ead3a96a67eb349ad96c94978f6949d2",
+  "tokens": 22718,
+  "reused": true
+}

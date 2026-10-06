@@ -1,0 +1,16 @@
+﻿node_modules/
+__pycache__/
+.venv/
+venv/
+dist/
+build/
+*.pyc
+*.log
+data/
+*.sqlite
+*.db
+*.mp4
+*.mp3
+*.zip
+*.7z
+

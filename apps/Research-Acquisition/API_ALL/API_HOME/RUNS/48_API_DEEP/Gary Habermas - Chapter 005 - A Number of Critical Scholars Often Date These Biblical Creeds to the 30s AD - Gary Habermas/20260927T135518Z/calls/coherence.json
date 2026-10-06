@@ -1,0 +1,154 @@
+{
+  "name": "coherence",
+  "parsed": {
+    "station": "coherence_score",
+    "paper_uuid": "Gary Habermas - Chapter 005 - A Number of Critical Scholars Often Date These Biblical Creeds to the 30s AD - Gary Habermas",
+    "run_uuid": "deep-22d4d7de3e11",
+    "overall": {
+      "score": 8.5,
+      "score_ceiling": 10,
+      "status": "ASSESSED",
+      "summary": "The paper's claims about early Christian creeds are internally consistent and mutually reinforcing, with only minor definitional gaps and no substantive contradictions."
+    },
+    "dimensions": [
+      {
+        "name": "internal_consistency",
+        "score": 9,
+        "reasons": [
+          "A01 (creeds predate 50 AD) is supported by A02 (1 Cor 15 creed in 30s), A04 (Romans 10:9 early), A05 (Jesus Seminar agrees), A06 (Ehrman dates to 30s), A07 (majority date to 30s), and A08 (Paul eyewitness). No claim contradicts another.",
+          "A03 (Paul's lack of definitions implies prior creedal knowledge) is consistent with A01 and A02, as it explains why Paul did not define terms.",
+          "A09 (early date prevents mythological expansion) follows naturally from A01 and A02, though it is an inference rather than a direct claim.",
+          "S006-S014 establish the pre-50 date via 1 Thessalonians dating; S016-S024 argue from Paul's lack of definitions; S027-S033 list early creeds; S035-S038 cite Ehrman and majority; S039-S047 cite Jesus Seminar; S048-S055 link Paul's conversion timing; S062-S079 reinforce the argument. All lines of evidence converge."
+        ],
+        "affected_atom_uuids": [
+          "A01",
+          "A02",
+          "A03",
+          "A04",
+          "A05",
+          "A06",
+          "A07",
+          "A08",
+          "A09"
+        ]
+      },
+      {
+        "name": "definitional_stability",
+        "score": 7,
+        "reasons": [
+          "Key terms like 'creed', 'oral tradition', and 'early' are used consistently but not formally defined. The paper assumes a shared understanding.",
+          "A03 mentions 'Lord' and its Christian meaning, but the paper does not specify what that meaning is beyond deity (S021-S023, S074-S076).",
+          "A09 uses 'mythological expansion' without definition, though context (S063) clarifies it as stories turning into myth.",
+          "No explicit definitions are provided for 'minimal fact' (S003) or 'phases' (S003), but these are peripheral to the main claims."
+        ],
+        "affected_atom_uuids": [
+          "A03",
+          "A09"
+        ]
+      },
+      {
+        "name": "inferential_connectedness",
+        "score": 8,
+        "reasons": [
+          "The central inference from early dating to reliability (A09) is supported by the chain: creeds are early (A01, A02, A04) → not enough time for myth (A09).",
+          "A03 supports A01 by arguing that Paul's silence on definitions implies prior knowledge.",
+          "A05, A06, A07, A08 provide external scholarly support for A01 and A02.",
+          "The inference in A09 is plausible but not deductively certain; it relies on the assumption that myth requires time, which is not argued in detail.",
+          "S045-S047 cite the Jesus Seminar's view that the creed predates Paul's conversion, which strengthens A02 and A05."
+        ],
+        "affected_atom_uuids": [
+          "A01",
+          "A02",
+          "A03",
+          "A04",
+          "A05",
+          "A06",
+          "A07",
+          "A08",
+          "A09"
+        ]
+      },
+      {
+        "name": "register_boundary_respect",
+        "score": 9,
+        "reasons": [
+          "The paper stays within the register of historical-critical discussion, citing scholars (Ehrman, Jesus Seminar, Bultmann) and textual evidence.",
+          "It does not make theological claims beyond what the creeds say (e.g., deity, death, resurrection) and treats them as historical data.",
+          "No category errors or conflations of historical and theological registers are evident."
+        ],
+        "affected_atom_uuids": [
+          "A01",
+          "A02",
+          "A04",
+          "A05",
+          "A06",
+          "A07",
+          "A08"
+        ]
+      }
+    ],
+    "contradictions": [],
+    "tensions": [
+      {
+        "atoms": [
+          "A06",
+          "A05"
+        ],
+        "description": "A06 states Ehrman dated the creed to the 30s, while A05 states the Jesus Seminar agrees it was before Paul's conversion. These are compatible, but the paper notes Ehrman later denied saying '30s' (S035-S036), creating a minor tension about scholarly consistency.",
+        "severity": "local"
+      },
+      {
+        "atoms": [
+          "A09"
+        ],
+        "description": "A09 (early date prevents myth) is an inference that is not fully argued; it assumes that myth requires more time than the gap allows, which is a common but not universally accepted premise.",
+        "severity": "local"
+      }
+    ],
+    "missing_definitions": [
+      {
+        "term": "creed",
+        "context": "Used throughout (A01, A02, A04, etc.) but not defined; assumed to mean a formal statement of belief.",
+        "affected_atom_uuids": [
+          "A01",
+          "A02",
+          "A04"
+        ]
+      },
+      {
+        "term": "mythological expansion",
+        "context": "A09 uses this term without definition; context suggests it means legendary development.",
+        "affected_atom_uuids": [
+          "A09"
+        ]
+      },
+      {
+        "term": "minimal fact",
+        "context": "S003 mentions 'minimal fact' but it is not defined in the excerpt.",
+        "affected_atom_uuids": []
+      }
+    ],
+    "notes": "The paper is a spoken transcript with multiple speakers, but the claims are coherent and well-supported by cited scholarship. The score reflects strong internal consistency and inferential connectedness, with minor gaps in definitional precision. No structural contradictions were found."
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "coherence",
+      "attempt": 1,
+      "text": "{\n  \"station\": \"coherence_score\",\n  \"paper_uuid\": \"Gary Habermas - Chapter 005 - A Number of Critical Scholars Often Date These Biblical Creeds to the 30s AD - Gary Habermas\",\n  \"run_uuid\": \"deep-22d4d7de3e11\",\n  \"overall\": {\n    \"score\": 8.5,\n    \"score_ceiling\": 10,\n    \"status\": \"ASSESSED\",\n    \"summary\": \"The paper's claims about early Christian creeds are internally consistent and mutually reinforcing, with only minor definitional gaps and no substantive contradictions.\"\n  },\n  \"dimensions\": [\n    {\n      \"name\": \"internal_consistency\",\n      \"score\": 9,\n      \"reasons\": [\n        \"A01 (creeds predate 50 AD) is supported by A02 (1 Cor 15 creed in 30s), A04 (Romans 10:9 early), A05 (Jesus Seminar agrees), A06 (Ehrman dates to 30s), A07 (majority date to 30s), and A08 (Paul eyewitness). No claim contradicts another.\",\n        \"A03 (Paul's lack of definitions implies prior creedal knowledge) is consistent with A01 and A02, as it explains why Paul did not define terms.\",\n        \"A09 (early date prevents mythological expansion) follows naturally from A01 and A02, though it is an inference rather than a direct claim.\",\n        \"S006-S014 establish the pre-50 date via 1 Thessalonians dating; S016-S024 argue from Paul's lack of definitions; S027-S033 list early creeds; S035-S038 cite Ehrman and majority; S039-S047 cite Jesus Seminar; S048-S055 link Paul's conversion timing; S062-S079 reinforce the argument. All lines of evidence converge.\"\n      ],\n      \"affected_atom_uuids\": [\"A01\", \"A02\", \"A03\", \"A04\", \"A05\", \"A06\", \"A07\", \"A08\", \"A09\"]\n    },\n    {\n      \"name\": \"definitional_stability\",\n      \"score\": 7,\n      \"reasons\": [\n        \"Key terms like 'creed', 'oral tradition', and 'early' are used consistently but not formally defined. The paper assumes a shared understanding.\",\n        \"A03 mentions 'Lord' and its Christian meaning, but the paper does not specify what that meaning is beyond deity (S021-S023, S074-S076).\",\n        \"A09 uses 'mythological expansion' without definition, though context (S063) clarifies it as stories turning into myth.\",\n        \"No explicit definitions are provided for 'minimal fact' (S003) or 'phases' (S003), but these are peripheral to the main claims.\"\n      ],\n      \"affected_atom_uuids\": [\"A03\", \"A09\"]\n    },\n    {\n      \"name\": \"inferential_connectedness\",\n      \"score\": 8,\n      \"reasons\": [\n        \"The central inference from early dating to reliability (A09) is supported by the chain: creeds are early (A01, A02, A04) → not enough time for myth (A09).\",\n        \"A03 supports A01 by arguing that Paul's silence on definitions implies prior knowledge.\",\n        \"A05, A06, A07, A08 provide external scholarly support for A01 and A02.\",\n        \"The inference in A09 is plausible but not deductively certain; it relies on the assumption that myth requires time, which is not argued in detail.\",\n        \"S045-S047 cite the Jesus Seminar's view that the creed predates Paul's conversion, which strengthens A02 and A05.\"\n      ],\n      \"affected_atom_uuids\": [\"A01\", \"A02\", \"A03\", \"A04\", \"A05\", \"A06\", \"A07\", \"A08\", \"A09\"]\n    },\n    {\n      \"name\": \"register_boundary_respect\",\n      \"score\": 9,\n      \"reasons\": [\n        \"The paper stays within the register of historical-critical discussion, citing scholars (Ehrman, Jesus Seminar, Bultmann) and textual evidence.\",\n        \"It does not make theological claims beyond what the creeds say (e.g., deity, death, resurrection) and treats them as historical data.\",\n        \"No category errors or conflations of historical and theological registers are evident.\"\n      ],\n      \"affected_atom_uuids\": [\"A01\", \"A02\", \"A04\", \"A05\", \"A06\", \"A07\", \"A08\"]\n    }\n  ],\n  \"contradictions\": [],\n  \"tensions\": [\n    {\n      \"atoms\": [\"A06\", \"A05\"],\n      \"description\": \"A06 states Ehrman dated the creed to the 30s, while A05 states the Jesus Seminar agrees it was before Paul's conversion. These are compatible, but the paper notes Ehrman later denied saying '30s' (S035-S036), creating a minor tension about scholarly consistency.\",\n      \"severity\": \"local\"\n    },\n    {\n      \"atoms\": [\"A09\"],\n      \"description\": \"A09 (early date prevents myth) is an inference that is not fully argued; it assumes that myth requires more time than the gap allows, which is a common but not universally accepted premise.\",\n      \"severity\": \"local\"\n    }\n  ],\n  \"missing_definitions\": [\n    {\n      \"term\": \"creed\",\n      \"context\": \"Used throughout (A01, A02, A04, etc.) but not defined; assumed to mean a formal statement of belief.\",\n      \"affected_atom_uuids\": [\"A01\", \"A02\", \"A04\"]\n    },\n    {\n      \"term\": \"mythological expansion\",\n      \"context\": \"A09 uses this term without definition; context suggests it means legendary development.\",\n      \"affected_atom_uuids\": [\"A09\"]\n    },\n    {\n      \"term\": \"minimal fact\",\n      \"context\": \"S003 mentions 'minimal fact' but it is not defined in the excerpt.\",\n      \"affected_atom_uuids\": []\n    }\n  ],\n  \"notes\": \"The paper is a spoken transcript with multiple speakers, but the claims are coherent and well-supported by cited scholarship. The score reflects strong internal consistency and inferential connectedness, with minor gaps in definitional precision. No structural contradictions were found.\"\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 3284,
+      "completion_tokens": 1385,
+      "attempts": 1,
+      "elapsed_seconds": 6.764999999999418,
+      "started_at": "2026-09-27T13:55:30.078075+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T13:55:36.840003+00:00",
+      "tokens": 4669
+    }
+  ],
+  "prompt_sha256": "95055b75c84639f241682bb72ab9f3950b0bfc614560876fc9cde92d0ded49c4",
+  "tokens": 4669
+}

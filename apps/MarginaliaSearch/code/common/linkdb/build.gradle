@@ -1,0 +1,52 @@
+plugins {
+    id 'java'
+
+    id 'jvm-test-suite'
+}
+
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(rootProject.ext.jvmVersion))
+    }
+}
+
+configurations {
+    flywayMigration.extendsFrom(implementation)
+}
+
+apply from: "$rootProject.projectDir/srcsets.gradle"
+
+dependencies {
+    implementation project(':code:common:model')
+    implementation project(':code:common:service')
+
+    implementation libs.bundles.slf4j
+
+    implementation libs.guava
+    implementation dependencies.create(libs.guice.get()) {
+        exclude group: 'com.google.guava'
+    }
+    implementation libs.bundles.gson
+
+    implementation libs.notnull
+    implementation libs.bundles.mariadb
+
+    implementation libs.sqlite
+    implementation libs.commons.lang3
+
+    implementation libs.fastutil
+
+    testImplementation libs.bundles.slf4j.test
+    testImplementation libs.bundles.junit
+    testImplementation libs.mockito
+
+    testImplementation platform('org.testcontainers:testcontainers-bom:1.21.4') {
+        exclude group: 'org.apache.commons'
+    }
+    testImplementation libs.commons.compress
+    testImplementation libs.commons.codec
+    testImplementation 'org.testcontainers:mariadb:1.21.4'
+    testImplementation 'org.testcontainers:junit-jupiter:1.21.4'
+    testImplementation project(':code:libraries:test-helpers')
+}
+

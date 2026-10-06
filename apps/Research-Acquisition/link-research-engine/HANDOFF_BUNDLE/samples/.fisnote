@@ -1,0 +1,28 @@
+---
+fis_schema: "folder-index.v1"
+folder_id: "FLD-20260907-9077f5cb"
+folder: "GitHub\Research-Acquisition\link-research-engine\HANDOFF_BUNDLE\samples"
+folder_class: "project"
+confidence: 0.6
+dependency_risk: 0.0
+dominant_family: "other"
+dominant_ratio: 0.333
+file_count: 3
+classified_at: "2026-09-07T16:07:56"
+allowed_actions: ["index", "rename_internal", "subfolder_sort", "archive_exports"]
+suggested_name: "samples"
+---
+
+# FIS Folder Index: samples
+
+**Class**: project  ·  **Confidence**: 60%  ·  **Files**: 3  ·  **Dominant**: other (33%)
+
+## Allowed actions
+- index
+- rename_internal
+- subfolder_sort
+- archive_exports
+
+**Suggested name**: `samples`  (not applied — review before use)
+
+<!-- FIS folder-index.v1: parseable note; safe to regenerate. -->

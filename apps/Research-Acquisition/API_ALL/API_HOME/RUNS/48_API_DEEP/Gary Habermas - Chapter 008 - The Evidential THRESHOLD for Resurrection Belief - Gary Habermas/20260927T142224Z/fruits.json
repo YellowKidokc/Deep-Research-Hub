@@ -1,0 +1,611 @@
+{
+  "spec_version": "0.3.0",
+  "target": {
+    "type": "paper",
+    "title": "Gary Habermas - Chapter 008 - The Evidential THRESHOLD for Resurrection Belief - Gary Habermas",
+    "domain": "historical-apologetics / New Testament studies methodology (spoken interview transcript)",
+    "unit": "complete supplied document",
+    "comparison_class": "paper of similar purpose and evidence burden",
+    "population_boundary": "Two named interlocutors (Gary Habermas, addressed as 'Dale') plus scholars cited by name (Jimmy Dunn, Bart Ehrman, Gerd Lüdemann, Mike Licona, Tacitus, Herodotus, Suetonius). No lay, harmed-party, or outsider testimony is represented; the transcript is a single conversational exchange with no independent corroboration supplied.",
+    "time_window": null
+  },
+  "gate_results": [
+    {
+      "gate_id": "gate.truth_evidence",
+      "status": "WARN",
+      "hard": true,
+      "rationale": "The document is a methodological discussion, not a presentation of the underlying evidence. Its central factual self-claims (never having counted scholars; never having required a percentage) are internally consistent and repeatedly stated, and its reports of other scholars' positions are hedged. But the substantive historical claims (empty tomb, resurrection appearances, creedal dating) are asserted by reference to off-document sources ('volume one', 'volume three', '3,700 pages') that are not supplied, so they cannot be traced within the evaluation boundary. No fabrication is evidenced; traceability is incomplete.",
+      "evidence_refs": [
+        "S003",
+        "S128",
+        "S132",
+        "S134",
+        "S151"
+      ],
+      "resolution": "Not a hard-gate failure: the untraceable items are explicitly deferred to external volumes rather than presented as self-contained proof. Would resolve to PASS if the cited volumes and the 20-evidence list were supplied."
+    },
+    {
+      "gate_id": "gate.contradiction",
+      "status": "PASS",
+      "hard": true,
+      "rationale": "The one apparent tension — the interlocutor attributing a '90%' figure to Habermas versus Habermas denying he ever required or counted a percentage — is surfaced, acknowledged, and repaired in-text: Habermas concedes he may have said it descriptively and that he must 'be real careful about that.' The contradiction is local, acknowledged, and bounded, not load-bearing.",
+      "evidence_refs": [
+        "S122",
+        "S125",
+        "S126",
+        "S130",
+        "S131",
+        "S136"
+      ],
+      "resolution": "Acknowledged and repaired within the exchange."
+    },
+    {
+      "gate_id": "gate.scope",
+      "status": "WARN",
+      "hard": false,
+      "rationale": "The stated topic is the evidential threshold for belief, and the discussion stays largely within historiographical method. However, the comparative move to Herodotus, Tacitus, and Suetonius (S100–S111) is used to license a claim about a reported resurrection without spelling out the mapping or the differing genre conventions, edging past the method's stated domain.",
+      "evidence_refs": [
+        "S097",
+        "S100",
+        "S108",
+        "S111"
+      ],
+      "resolution": null
+    },
+    {
+      "gate_id": "gate.falsifiability",
+      "status": "PASS",
+      "hard": false,
+      "rationale": "The source repeatedly identifies what would count against it and invites refutation: it names critics who would reject specific evidences ('I despise 16, 18, and probably 20'), concedes the event is 'very rare', and asks 'why don't you refute this data?' It also states its own method limits (no percentage criterion).",
+      "evidence_refs": [
+        "S036",
+        "S097",
+        "S115",
+        "S130"
+      ],
+      "resolution": null
+    },
+    {
+      "gate_id": "gate.bridge_validity",
+      "status": "WARN",
+      "hard": false,
+      "rationale": "A cross-domain bridge is attempted (ancient historians reporting supernatural events → the gospel reports are not methodologically anomalous). The mapping is gestured at but the invariants, bridge law, recovery conditions, and explicit kill condition are not made explicit; the argument rests on analogy by example.",
+      "evidence_refs": [
+        "S100",
+        "S102",
+        "S107",
+        "S108"
+      ],
+      "resolution": null
+    },
+    {
+      "gate_id": "gate.provenance",
+      "status": "WARN",
+      "hard": false,
+      "rationale": "Authorship and channel are traceable (front matter: channel, video_id, url, download date). Quotations of Dunn, Ehrman, and Lüdemann are paraphrased from memory rather than cited to page or edition, and the transcript is auto-captioned with acknowledged caption risk. The key evidentiary artifacts ('volume one', 'volume three', the 20-evidence list) are referenced but not supplied.",
+      "evidence_refs": [
+        "S048",
+        "S058",
+        "S085",
+        "S134",
+        "S151"
+      ],
+      "resolution": null
+    },
+    {
+      "gate_id": "gate.agency_noncoercion",
+      "status": "PASS",
+      "hard": true,
+      "rationale": "The exchange is a voluntary scholarly conversation. Habermas explicitly declines to impose a numeric threshold on others and frames his aim as giving readers the data to look up for themselves ('I just hate these low blows where people can't look these guys up for themselves'). No concealed compulsion or destruction of agency appears.",
+      "evidence_refs": [
+        "S020",
+        "S089",
+        "S130"
+      ],
+      "resolution": null
+    }
+  ],
+  "fruit_profile": [
+    {
+      "fruit_id": "fruit.love",
+      "score": 2,
+      "confidence": 0.3,
+      "mechanism": "truth-aligned relational cohesion seeking the good of the whole and each member while bearing cost and preserving agency",
+      "positive_evidence": [
+        {
+          "ref_id": "E-LOVE-1",
+          "quote_or_event": "I just hate these low blows where people can't look these guys up for themselves.",
+          "location": "S089",
+          "evidence_type": "STATED_INTENT",
+          "link_reason": "Concern that opponents be given the means to verify claims rather than be rhetorically trapped is a weak signal of seeking the good of the other party.",
+          "source_ref": null,
+          "time_window": null
+        }
+      ],
+      "counterevidence": [],
+      "evidence_coverage": 0.15,
+      "stress_tests": {
+        "source": "UNKNOWN",
+        "cost": "UNKNOWN",
+        "endurance": "UNKNOWN",
+        "relation": "WARN",
+        "power": "UNKNOWN",
+        "correction": "UNKNOWN",
+        "outsider": "UNKNOWN",
+        "succession": "UNKNOWN"
+      },
+      "counterfeit": {
+        "flag": false,
+        "claimed_label": null,
+        "missing_companion": null,
+        "anti_fruit_output": null,
+        "severity": "NONE"
+      },
+      "rationale": "The document is a methodological discussion with almost no relational content; the per-sentence pass scored love at 0.0 across all sentences. One courtesy/verification remark is the only weak positive. Insufficient evidence for a positive verdict; scored 2 (mixed_or_unknown) with low confidence per the missing-evidence rule."
+    },
+    {
+      "fruit_id": "fruit.joy",
+      "score": 2,
+      "confidence": 0.25,
+      "mechanism": "durable participation in real good not dependent on denial, spectacle, status, or constant stimulation",
+      "positive_evidence": [],
+      "counterevidence": [],
+      "evidence_coverage": 0.05,
+      "stress_tests": {
+        "source": "UNKNOWN",
+        "cost": "UNKNOWN",
+        "endurance": "UNKNOWN",
+        "relation": "UNKNOWN",
+        "power": "UNKNOWN",
+        "correction": "UNKNOWN",
+        "outsider": "UNKNOWN",
+        "succession": "UNKNOWN"
+      },
+      "counterfeit": {
+        "flag": false,
+        "claimed_label": null,
+        "missing_companion": null,
+        "anti_fruit_output": null,
+        "severity": "NONE"
+      },
+      "rationale": "No evidence bearing on joy in either direction; the per-sentence pass returned 0.0 with no extremes. Reported as unknown rather than scored low, since absence of evidence in a methodological transcript is not evidence of absence."
+    },
+    {
+      "fruit_id": "fruit.peace",
+      "score": 2,
+      "confidence": 0.25,
+      "mechanism": "reintegrated order in which relevant tensions are truthfully addressed without suppression",
+      "positive_evidence": [
+        {
+          "ref_id": "E-PEACE-1",
+          "quote_or_event": "Yeah, I have to be real careful about that.",
+          "location": "S125",
+          "evidence_type": "PROCESS",
+          "link_reason": "Directly addressing rather than suppressing the tension between his past wording and his stated method is a weak peace-mechanism signal (tension truthfully handled).",
+          "source_ref": null,
+          "time_window": null
+        }
+      ],
+      "counterevidence": [],
+      "evidence_coverage": 0.1,
+      "stress_tests": {
+        "source": "UNKNOWN",
+        "cost": "UNKNOWN",
+        "endurance": "UNKNOWN",
+        "relation": "UNKNOWN",
+        "power": "UNKNOWN",
+        "correction": "PASS",
+        "outsider": "UNKNOWN",
+        "succession": "UNKNOWN"
+      },
+      "counterfeit": {
+        "flag": false,
+        "claimed_label": null,
+        "missing_companion": null,
+        "anti_fruit_output": null,
+        "severity": "NONE"
+      },
+      "rationale": "The one live tension in the text is addressed openly rather than smoothed over, which is the opposite of the counterfeit (silence/avoidance). But this is a single instance in a narrow context; insufficient for a positive verdict."
+    },
+    {
+      "fruit_id": "fruit.patience",
+      "score": 2,
+      "confidence": 0.3,
+      "mechanism": "preservation of persons and processes across the time required for truth, growth, correction, or convergence while acting when action is due",
+      "positive_evidence": [
+        {
+          "ref_id": "E-PAT-1",
+          "quote_or_event": "But I don't have There At no point do I ever say I need this many evidences.",
+          "location": "S028",
+          "evidence_type": "STATED_INTENT",
+          "link_reason": "Refusal to force premature numeric closure on an evidentiary question is a weak patience signal (process preserved rather than closed early).",
+          "source_ref": null,
+          "time_window": null
+        }
+      ],
+      "counterevidence": [],
+      "evidence_coverage": 0.15,
+      "stress_tests": {
+        "source": "UNKNOWN",
+        "cost": "UNKNOWN",
+        "endurance": "UNKNOWN",
+        "relation": "UNKNOWN",
+        "power": "UNKNOWN",
+        "correction": "UNKNOWN",
+        "outsider": "UNKNOWN",
+        "succession": "UNKNOWN"
+      },
+      "counterfeit": {
+        "flag": false,
+        "claimed_label": null,
+        "missing_companion": null,
+        "anti_fruit_output": null,
+        "severity": "NONE"
+      },
+      "rationale": "The refusal to fix a threshold could be patience (not forcing convergence) or could be the counterfeit (indefinite postponement). The text does not show enough to distinguish; scored 2 with low confidence."
+    },
+    {
+      "fruit_id": "fruit.kindness",
+      "score": 2,
+      "confidence": 0.3,
+      "mechanism": "low-friction repair and assistance that reduces needless barriers without erasing truth or responsibility",
+      "positive_evidence": [
+        {
+          "ref_id": "E-KIND-1",
+          "quote_or_event": "you just laughed and you're very gracious about it.",
+          "location": "S019",
+          "evidence_type": "PROCESS",
+          "link_reason": "Acknowledging the interlocutor's graciousness and his own earlier teasing is a low-friction, non-humiliating way of handling a past friction point.",
+          "source_ref": null,
+          "time_window": null
+        }
+      ],
+      "counterevidence": [],
+      "evidence_coverage": 0.15,
+      "stress_tests": {
+        "source": "UNKNOWN",
+        "cost": "UNKNOWN",
+        "endurance": "UNKNOWN",
+        "relation": "WARN",
+        "power": "UNKNOWN",
+        "correction": "UNKNOWN",
+        "outsider": "UNKNOWN",
+        "succession": "UNKNOWN"
+      },
+      "counterfeit": {
+        "flag": false,
+        "claimed_label": null,
+        "missing_companion": null,
+        "anti_fruit_output": null,
+        "severity": "NONE"
+      },
+      "rationale": "The tone is collegial and non-contemptuous, but the transcript offers only one or two weak relational markers. Insufficient evidence for a positive verdict."
+    },
+    {
+      "fruit_id": "fruit.goodness",
+      "score": 2,
+      "confidence": 0.3,
+      "mechanism": "truth-aligned action producing real non-malign benefit after costs and externalities are counted",
+      "positive_evidence": [
+        {
+          "ref_id": "E-GOOD-1",
+          "quote_or_event": "Why not give all 20?",
+          "location": "S025",
+          "evidence_type": "STATED_INTENT",
+          "link_reason": "Stated intent to give the full evidence list rather than a favorable subset is a weak goodness signal (benefit not gated on rhetorical advantage).",
+          "source_ref": null,
+          "time_window": null
+        }
+      ],
+      "counterevidence": [],
+      "evidence_coverage": 0.15,
+      "stress_tests": {
+        "source": "UNKNOWN",
+        "cost": "UNKNOWN",
+        "endurance": "UNKNOWN",
+        "relation": "UNKNOWN",
+        "power": "UNKNOWN",
+        "correction": "UNKNOWN",
+        "outsider": "UNKNOWN",
+        "succession": "UNKNOWN"
+      },
+      "counterfeit": {
+        "flag": false,
+        "claimed_label": null,
+        "missing_companion": null,
+        "anti_fruit_output": null,
+        "severity": "NONE"
+      },
+      "rationale": "The stated intent to present all evidences is a weak positive, but no downstream outcome or cost accounting is observable within the document. Insufficient evidence."
+    },
+    {
+      "fruit_id": "fruit.faithfulness",
+      "score": 3,
+      "confidence": 0.55,
+      "mechanism": "invariant fidelity across time, audiences, incentives, and pressure, joined to correction when the object of loyalty is false",
+      "positive_evidence": [
+        {
+          "ref_id": "E-FAITH-1",
+          "quote_or_event": "I've never counted. >> Yeah. >> Except the empty tomb, and it's not one of the six, I never counted.",
+          "location": "S128",
+          "evidence_type": "PROCESS",
+          "link_reason": "Repeated, consistent admission of a method limitation that is unflattering to his own case; fidelity to the actual state of his evidence rather than to a stronger impression.",
+          "source_ref": null,
+          "time_window": null
+        },
+        {
+          "ref_id": "E-FAITH-2",
+          "quote_or_event": "That's the honest truth. >> Okay. >> The fact I've never counted them.",
+          "location": "S132",
+          "evidence_type": "PROCESS",
+          "link_reason": "Reiterates the same limitation under direct questioning, showing the standard is not audience-dependent within this exchange.",
+          "source_ref": null,
+          "time_window": null
+        },
+        {
+          "ref_id": "E-FAITH-3",
+          "quote_or_event": "Uh Actually, I just realized I used his word.",
+          "location": "S087",
+          "evidence_type": "PROCESS",
+          "link_reason": "Self-corrects a quotation attribution mid-sentence, flagging that the wording is a translation — fidelity to the source over rhetorical smoothness.",
+          "source_ref": null,
+          "time_window": null
+        },
+        {
+          "ref_id": "E-FAITH-4",
+          "quote_or_event": "He says it was probably or may have been or likely had been, he says in different ways, out within months.",
+          "location": "S073",
+          "evidence_type": "PROCESS",
+          "link_reason": "Preserves Dunn's hedged wording rather than upgrading it to a firm claim — accurate reporting of a non-ally's position.",
+          "source_ref": null,
+          "time_window": null
+        }
+      ],
+      "counterevidence": [
+        {
+          "ref_id": "E-FAITH-C1",
+          "quote_or_event": "If I say that, I mean that's how it sounds to me.",
+          "location": "S126",
+          "evidence_type": "COUNTEREXAMPLE",
+          "link_reason": "Concedes he has previously stated a '90%' figure descriptively without counts, which is a fidelity risk to his own stated method; he acknowledges and repairs it, so it is bounded rather than disqualifying.",
+          "source_ref": null,
+          "time_window": null
+        }
+      ],
+      "evidence_coverage": 0.5,
+      "stress_tests": {
+        "source": "PASS",
+        "cost": "WARN",
+        "endurance": "UNKNOWN",
+        "relation": "PASS",
+        "power": "UNKNOWN",
+        "correction": "PASS",
+        "outsider": "PASS",
+        "succession": "UNKNOWN"
+      },
+      "counterfeit": {
+        "flag": false,
+        "claimed_label": null,
+        "missing_companion": null,
+        "anti_fruit_output": null,
+        "severity": "NONE"
+      },
+      "rationale": "The strongest fruit signal in the document: repeated, consistent, self-limiting admissions about method, plus accurate hedged reporting of non-evangelical scholars (Dunn, Ehrman, Lüdemann) whose testimony cuts against a purely partisan use. The one fidelity risk (the '90%' figure) is acknowledged and repaired in-text. Scored 3 rather than 4 because endurance across time and outside this single exchange cannot be observed, and the underlying evidence artifacts are not supplied."
+    },
+    {
+      "fruit_id": "fruit.gentleness",
+      "score": 2,
+      "confidence": 0.3,
+      "mechanism": "power precisely restrained to the minimum force sufficient for the good while protecting the vulnerable",
+      "positive_evidence": [
+        {
+          "ref_id": "E-GENT-1",
+          "quote_or_event": "I won't match it with a number because you know what's going to happen",
+          "location": "S003",
+          "evidence_type": "STATED_INTENT",
+          "link_reason": "Declining to weaponize a number against opponents who would be misrepresented by it is a weak restraint-of-power signal.",
+          "source_ref": null,
+          "time_window": null
+        }
+      ],
+      "counterevidence": [],
+      "evidence_coverage": 0.15,
+      "stress_tests": {
+        "source": "UNKNOWN",
+        "cost": "UNKNOWN",
+        "endurance": "UNKNOWN",
+        "relation": "UNKNOWN",
+        "power": "WARN",
+        "correction": "UNKNOWN",
+        "outsider": "UNKNOWN",
+        "succession": "UNKNOWN"
+      },
+      "counterfeit": {
+        "flag": false,
+        "claimed_label": null,
+        "missing_companion": null,
+        "anti_fruit_output": null,
+        "severity": "NONE"
+      },
+      "rationale": "The speaker holds rhetorical power in this exchange and exercises restraint in not fixing a threshold that could be turned against opponents. But this is a single weak instance; insufficient for a positive verdict."
+    },
+    {
+      "fruit_id": "fruit.self_control",
+      "score": 3,
+      "confidence": 0.5,
+      "mechanism": "boundary integrity and governance of appetite, impulse, scope, and optimization under the true good",
+      "positive_evidence": [
+        {
+          "ref_id": "E-SC-1",
+          "quote_or_event": "I've never required a percent.",
+          "location": "S131",
+          "evidence_type": "PROCESS",
+          "link_reason": "Explicit boundary on his own method: refuses to convert an impression into a precise number, which is scope/appetite governance under the true good.",
+          "source_ref": null,
+          "time_window": null
+        },
+        {
+          "ref_id": "E-SC-2",
+          "quote_or_event": "If I want to say 90%, I should have numbers already for you, but I don't.",
+          "location": "S133",
+          "evidence_type": "PROCESS",
+          "link_reason": "Applies a self-imposed evidentiary standard to his own claims, refusing the optimization shortcut of a persuasive number.",
+          "source_ref": null,
+          "time_window": null
+        },
+        {
+          "ref_id": "E-SC-3",
+          "quote_or_event": "Uh Actually, I just realized I used his word.",
+          "location": "S087",
+          "evidence_type": "PROCESS",
+          "link_reason": "Mid-sentence impulse check: flags a translation caveat rather than letting a convenient quotation stand.",
+          "source_ref": null,
+          "time_window": null
+        }
+      ],
+      "counterevidence": [],
+      "evidence_coverage": 0.4,
+      "stress_tests": {
+        "source": "PASS",
+        "cost": "WARN",
+        "endurance": "UNKNOWN",
+        "relation": "PASS",
+        "power": "UNKNOWN",
+        "correction": "PASS",
+        "outsider": "UNKNOWN",
+        "succession": "UNKNOWN"
+      },
+      "counterfeit": {
+        "flag": false,
+        "claimed_label": null,
+        "missing_companion": null,
+        "anti_fruit_output": null,
+        "severity": "NONE"
+      },
+      "rationale": "Repeated boundary-setting on his own claims (no percentage, no count, translation caveat) is the second-strongest signal. Scored 3 rather than 4 because the behavior is observed only within one exchange and the underlying evidence artifacts are not supplied for verification."
+    }
+  ],
+  "contradictions": [
+    {
+      "classification": "ACKNOWLEDGED_REPAIRED",
+      "load_bearing": false,
+      "resolved": true,
+      "evidence_refs": [
+        "S122",
+        "S125",
+        "S126",
+        "S130",
+        "S131",
+        "S136"
+      ],
+      "fruit_relation": "Supports faithfulness and self_control: the tension between a past '90%' impression and the stated no-percentage method is surfaced and conceded rather than hidden.",
+      "consequence": "The interlocutor's premise is corrected in-text; the method claim survives with a caveat about past loose wording."
+    },
+    {
+      "classification": "APPARENT",
+      "load_bearing": false,
+      "resolved": true,
+      "evidence_refs": [
+        "S003",
+        "S020",
+        "S028"
+      ],
+      "fruit_relation": "Neutral: the refusal to give a number while discussing thresholds reads as tension but is explicitly explained as a deliberate method choice.",
+      "consequence": "No unresolved tension; the apparent contradiction is a rhetorical strategy, not a logical conflict."
+    }
+  ],
+  "counterfeit_flags": [],
+  "anti_fruit_pressure": [],
+  "stakeholder_divergence": [
+    {
+      "stakeholder": "insider (Habermas, sympathetic interlocutor)",
+      "observation": "Method is presented as careful, non-numeric, and open to non-evangelical testimony.",
+      "evidence_refs": [
+        "S128",
+        "S132",
+        "S081"
+      ]
+    },
+    {
+      "stakeholder": "outsider (critics named in-text: Ehrman, Lüdemann, unnamed 'critics')",
+      "observation": "Their positions are paraphrased from memory without page citations; no critic is given a direct voice in the transcript.",
+      "evidence_refs": [
+        "S036",
+        "S058",
+        "S085"
+      ]
+    },
+    {
+      "stakeholder": "harmed party",
+      "observation": "None represented; the document has no identified harmed party within its boundary.",
+      "evidence_refs": []
+    }
+  ],
+  "aggregation": {
+    "mode": "gated_profile",
+    "arithmetic_summary": 0.5556,
+    "geometric_balance": 0.5693,
+    "multiplicative_coherence": 0.004395,
+    "minimum_fruit": {
+      "fruit_id": "fruit.love",
+      "score": 2
+    },
+    "vetoes": []
+  },
+  "epistemic_status": "CONDITIONAL",
+  "system_status": "COHERENT_BUT_FRAGILE",
+  "confidence": 0.35,
+  "missing_evidence": [
+    "The referenced 'volume one' and 'volume three' are not supplied; the 20-evidence list for the empty tomb cannot be inspected.",
+    "No page or edition citations for the Dunn, Ehrman, and Lüdemann quotations; these are paraphrases from memory.",
+    "No independent corroboration of the historical claims (empty tomb, creedal dating, resurrection appearances) within the evaluation boundary.",
+    "No outsider or harmed-party testimony; the transcript is a two-party exchange.",
+    "No time-series or cross-context data to test endurance of any fruit mechanism.",
+    "Auto-captioned transcript with acknowledged caption risk; speaker labels are not consistently marked."
+  ],
+  "repair_path": [
+    "Supply the cited volumes and the 20-evidence list so the substantive historical claims become traceable.",
+    "Add page/edition citations for all quoted scholars (Dunn, Ehrman, Lüdemann) so provenance can be checked.",
+    "State explicitly what would falsify the minimal-facts method, not only what critics would reject.",
+    "Make the Herodotus/Tacitus/Suetonius bridge explicit: mapping, invariants, and kill condition.",
+    "Provide at least one outsider or critical-party observation to test the method against adversarial review."
+  ],
+  "falsifier": "A documented instance in which Habermas asserts a specific percentage or head-count of scholars as a criterion, or presents a paraphrased scholar quotation in a way that materially misrepresents the source, would falsify the faithfulness and self_control readings above.",
+  "limitations": [
+    "The document is a spoken interview transcript, not a formal paper; spoken hedges and caption errors are not treated as the speakers' faults.",
+    "The per-sentence summary scored love, joy, peace, patience, kindness, goodness, gentleness at 0.0 with no extremes; this report treats those zeros as absence of evidence in a methodological transcript, not as evidence of absence, and therefore scores them 2 (mixed_or_unknown) with low confidence rather than 0 or 1.",
+    "The per-sentence summary's top_toward spikes (S073, S087, S125, S128, S132) are consistent with this report's faithfulness and self_control findings; no disagreement is recorded.",
+    "The per-sentence summary reported no counterfeit or hidden-fruit candidates; this report concurs, but notes that the absence may reflect the transcript's narrow methodological scope rather than the absence of such mechanisms.",
+    "No claim is made about hidden motives, salvation status, or divine origin.",
+    "Vocabulary is not treated as character evidence; scores rest on described mechanisms and behaviors within the document."
+  ],
+  "formal_receipt": {
+    "receipt_type": "FORMAL_EVALUATION_RECEIPT",
+    "proof_status": "RULE_DERIVED_FROM_RECORDED_ASSESSMENTS",
+    "source_sha256": "e478c8337cb830a90d96ae60df5a7833dc95e7a8dbcdae8cfc853cbcd15a87ee",
+    "rubric_sha256": "44951e7c43e587a281195666a572b8469014a8eb62f62bc9ef60ebc0d591f609",
+    "prompt_sha256": "c20d2b2525a5f3a1ac7826a0fb401a9378fbbfbb4fef1c4fa02758e1fd3991f5",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "premises": [
+      "P1: the evaluated source is fixed by source_sha256",
+      "P2: all nine Fruit dimensions are present on the 0..4 scale",
+      "P3: all seven gates are recorded independently of the Fruit scores",
+      "P4: evidence uncertainty remains explicit rather than being imputed"
+    ],
+    "deductions": [
+      "D1: arithmetic_summary is the mean of the nine scores normalized by four",
+      "D2: geometric_balance penalizes low dimensions and is non-authoritative",
+      "D3: unresolved hard-gate failures and severe counterfeit mechanisms create explicit vetoes",
+      "D4: a contradiction changes the verdict only through its classified severity, resolution, and consequence"
+    ],
+    "conclusion": "epistemic_status=CONDITIONAL; system_status=COHERENT_BUT_FRAGILE; veto_count=0",
+    "scope_boundary": "This receipt proves deterministic application of the declared rubric to recorded model assessments. It does not prove hidden motive, salvation status, divine origin, or empirical validity beyond the cited evidence.",
+    "generated_at": "2026-09-27T14:22:32Z"
+  },
+  "run_metadata": {
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "generated_at": "2026-09-27T14:22:32Z"
+  }
+}

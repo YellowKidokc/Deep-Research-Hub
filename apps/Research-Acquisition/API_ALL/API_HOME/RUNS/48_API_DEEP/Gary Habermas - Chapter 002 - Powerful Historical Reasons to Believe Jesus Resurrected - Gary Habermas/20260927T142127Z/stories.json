@@ -1,0 +1,284 @@
+{
+  "station": "stories",
+  "paper_uuid": "Gary Habermas - Chapter 002 - Powerful Historical Reasons to Believe Jesus Resurrected - Gary Habermas",
+  "run_uuid": "deep-b29205e9775f",
+  "stories": [
+    {
+      "story_id": "story-001",
+      "title_or_label": "The Angry Atheist Professor and the Stolen Body",
+      "story_type": "historical_anecdote",
+      "source_span": "P379-P403",
+      "characters_or_agents": [
+        "Gary Habermas",
+        "unnamed atheist college professor"
+      ],
+      "setting_or_context": "A formal debate between Habermas and an atheist professor, in a room with a 'no smoking' sign; the professor lights a pipe before the debate.",
+      "plot_or_sequence": "Habermas presents the minimal facts. The professor, when asked what he thinks happened, says 'I don't know. Someone stole the body.' Habermas presses for reasons. The professor becomes angry, says Habermas is 'starting to make me really angry,' and quits the debate.",
+      "intended_function": "illustrate",
+      "claims_illustrated": [
+        "A05",
+        "A10"
+      ],
+      "emotional_or_rhetorical_load": "Humorous and adversarial; portrays the naturalistic alternative as ad hoc and its defenders as evasive or emotionally reactive.",
+      "boundaries": {
+        "what_it_shows": "One skeptic, in one debate, offered an unsupported 'stolen body' hypothesis and ended the exchange when pressed.",
+        "what_it_does_not_show": "It does not show that the stolen-body hypothesis is false, that all skeptics behave this way, or that the resurrection occurred.",
+        "what_would_falsify_the_narrative": "Evidence that the professor did provide reasons, that the exchange was misreported, or that the 'stolen body' hypothesis has strong independent support."
+      },
+      "evidence_for_historical_content": [],
+      "is_separable_from_argument": true,
+      "notes": "Anecdotal; functions rhetorically to discredit naturalistic theories by association rather than by argument."
+    },
+    {
+      "story_id": "story-002",
+      "title_or_label": "Paul Meyer on Enemy Attestation of Julius Caesar",
+      "story_type": "illustration",
+      "source_span": "P044-P052",
+      "characters_or_agents": [
+        "Paul Meyer (ancient historian)",
+        "Julius Caesar",
+        "an enemy of Caesar"
+      ],
+      "setting_or_context": "A hypothetical or reported ancient testimony: an enemy of Julius Caesar concedes Caesar's military brilliance.",
+      "plot_or_sequence": "An enemy of Caesar says Caesar is an idiot, full of himself, prideful, wants to be emperor, a nut. But the same enemy says: 'I was on the battlefield with him for 10 years, and the man is the sharpest military commander I've ever seen.'",
+      "intended_function": "explain",
+      "claims_illustrated": [
+        "A01"
+      ],
+      "emotional_or_rhetorical_load": "Neutral, academic; used to define the criterion of enemy attestation.",
+      "boundaries": {
+        "what_it_shows": "What 'enemy attestation' means as a historiographical criterion.",
+        "what_it_does_not_show": "It does not itself attest to any New Testament fact; it is an analogy.",
+        "what_would_falsify_the_narrative": "If the criterion of enemy attestation were shown to be methodologically invalid or inapplicable to the New Testament data."
+      },
+      "evidence_for_historical_content": [],
+      "is_separable_from_argument": true,
+      "notes": "Illustrative analogy for a criterion, not evidence for the resurrection."
+    },
+    {
+      "story_id": "story-003",
+      "title_or_label": "Anthony Flew on Paul as a First-Rate Philosopher",
+      "story_type": "testimony",
+      "source_span": "P078-P096",
+      "characters_or_agents": [
+        "Anthony Flew (former atheist philosopher)",
+        "Gary Habermas",
+        "Paul"
+      ],
+      "setting_or_context": "Habermas recounts conversations with his friend Anthony Flew, the 'world's most notorious atheist' who became a theist.",
+      "plot_or_sequence": "Flew calls Jesus a first-rate ethical philosopher and Paul a first-rate philosopher. Habermas asks why the distinction. Flew asks, 'Have you read the book of Romans?' and says Paul 'could put an argument together.'",
+      "intended_function": "persuade",
+      "claims_illustrated": [
+        "A02",
+        "A03"
+      ],
+      "emotional_or_rhetorical_load": "Warm, personal; leverages a famous atheist's respect for Paul to bolster Paul's authority.",
+      "boundaries": {
+        "what_it_shows": "That one prominent atheist philosopher regarded Paul as a rigorous thinker.",
+        "what_it_does_not_show": "It does not show that Paul's claims are true, that Paul was inspired, or that the creeds are historically reliable.",
+        "what_would_falsify_the_narrative": "Evidence that Flew did not say this, or that his view of Paul was not representative or was later retracted."
+      },
+      "evidence_for_historical_content": [],
+      "is_separable_from_argument": true,
+      "notes": "Testimonial; supports Paul's authority as a source but not the truth of the resurrection."
+    },
+    {
+      "story_id": "story-004",
+      "title_or_label": "Richard Bauckham and Jimmy Dunn Change Their Minds on High Christology",
+      "story_type": "testimony",
+      "source_span": "P211-P233",
+      "characters_or_agents": [
+        "Richard Bauckham",
+        "Jimmy Dunn",
+        "Larry Hurtado",
+        "Gary Habermas",
+        "Paul",
+        "Jesus"
+      ],
+      "setting_or_context": "Habermas recounts lunches with Richard Bauckham and Jimmy Dunn, prominent New Testament scholars.",
+      "plot_or_sequence": "Both scholars tell Habermas they used to hold that it took the church until John (c. 95 AD) to unpack the deity of Christ. They now believe the high christology was available much earlier, at the time of Paul's conversion.",
+      "intended_function": "persuade",
+      "claims_illustrated": [
+        "A02"
+      ],
+      "emotional_or_rhetorical_load": "Insider, name-dropping; presents a scholarly consensus shift as dramatic and authoritative.",
+      "boundaries": {
+        "what_it_shows": "That two named scholars reportedly changed their view on the dating of high christology.",
+        "what_it_does_not_show": "It does not show that the pre-Pauline creeds actually exist as dated, or that Jesus is divine.",
+        "what_would_falsify_the_narrative": "Evidence that Bauckham or Dunn did not say this, or that their published views differ from Habermas's report."
+      },
+      "evidence_for_historical_content": [],
+      "is_separable_from_argument": true,
+      "notes": "Anecdotal testimony; supports the claim that early high christology is now accepted by some critical scholars."
+    },
+    {
+      "story_id": "story-005",
+      "title_or_label": "The Buddhist Scriptures Concede Christianity's Early Sources",
+      "story_type": "illustration",
+      "source_span": "P246-P258",
+      "characters_or_agents": [
+        "a Buddhist PhD",
+        "Buddha",
+        "Jesus"
+      ],
+      "setting_or_context": "Habermas cites a book called 'The Buddhist Scriptures' where a Buddhist PhD reproduces key Buddhist texts.",
+      "plot_or_sequence": "On page one, the book says to Christian readers: 'We don't have what you have. You have the words of your Lord. We don't. You have the words of those who study under your Lord. We don't. You have the words of those who study under those who study under your Lord. No can do.' The sources are 600-800 years after Buddha.",
+      "intended_function": "persuade",
+      "claims_illustrated": [
+        "A02"
+      ],
+      "emotional_or_rhetorical_load": "Comparative; uses a non-Christian source to highlight the earliness of Christian texts.",
+      "boundaries": {
+        "what_it_shows": "That one Buddhist source acknowledges a lack of early texts compared to Christianity.",
+        "what_it_does_not_show": "It does not show that Christian texts are therefore true, or that Buddhist texts are historically worthless.",
+        "what_would_falsify_the_narrative": "Evidence that the Buddhist source does not say this, or that early Buddhist texts exist comparable in date to Christian creeds."
+      },
+      "evidence_for_historical_content": [],
+      "is_separable_from_argument": true,
+      "notes": "Comparative illustration; supports the uniqueness of early Christian creeds."
+    },
+    {
+      "story_id": "story-006",
+      "title_or_label": "The Blind Date Analogy",
+      "story_type": "parable",
+      "source_span": "P671-P689",
+      "characters_or_agents": [
+        "a best friend",
+        "a blind date",
+        "the person being set up",
+        "James Crossley"
+      ],
+      "setting_or_context": "A hypothetical scenario: a friend sets up a blind date.",
+      "plot_or_sequence": "The friend says the person will be impressive. The date is impressive. The friend says, 'Let's get married. Can I be your best man?' The person replies: 'You're right. This person is exceptional, but you wrongly infer that I want to get married. Maybe someday I'm not interested in getting married.'",
+      "intended_function": "explain",
+      "claims_illustrated": [
+        "A11",
+        "A12"
+      ],
+      "emotional_or_rhetorical_load": "Light, relatable; clarifies the distinction between intellectual assent and saving faith.",
+      "boundaries": {
+        "what_it_shows": "That accepting facts about Jesus is not the same as committing to him.",
+        "what_it_does_not_show": "It does not show that the facts are true, or that one ought to commit to Jesus.",
+        "what_would_falsify_the_narrative": "If the analogy were shown to misdescribe the relationship between evidence and faith."
+      },
+      "evidence_for_historical_content": [],
+      "is_separable_from_argument": true,
+      "notes": "Analogy used to explain Crossley's position and the nature of saving faith."
+    },
+    {
+      "story_id": "story-007",
+      "title_or_label": "The Doubter's Email",
+      "story_type": "testimony",
+      "source_span": "P734-P747",
+      "characters_or_agents": [
+        "an emailer (former doubter)",
+        "Gary Habermas"
+      ],
+      "setting_or_context": "Habermas receives a late-night email from a long-time doubter.",
+      "plot_or_sequence": "The doubter says he has read both sides, thinks critical arguments outnumber believing arguments 3 to 1, and that Christians are losing until he came across Habermas's minimal facts argument. He says, 'Yes, this whips the critics,' and 'I believe.'",
+      "intended_function": "motivate",
+      "claims_illustrated": [
+        "A01",
+        "A05"
+      ],
+      "emotional_or_rhetorical_load": "Inspirational; personal testimony of conversion through the argument.",
+      "boundaries": {
+        "what_it_shows": "That one person reports being persuaded by the minimal facts argument.",
+        "what_it_does_not_show": "It does not show that the argument is sound, that the facts are true, or that the email is representative.",
+        "what_would_falsify_the_narrative": "Evidence that the email was fabricated, misreported, or that the person later recanted."
+      },
+      "evidence_for_historical_content": [],
+      "is_separable_from_argument": true,
+      "notes": "Testimonial; provides emotional payoff and motivation, not evidence."
+    },
+    {
+      "story_id": "story-008",
+      "title_or_label": "Elvis Presley and Superman as Naturalistic Theories",
+      "story_type": "illustration",
+      "source_span": "P650-P666",
+      "characters_or_agents": [
+        "Elvis Presley",
+        "Superman",
+        "Clark Kent",
+        "Gary Habermas",
+        "Mike Licona"
+      ],
+      "setting_or_context": "Habermas and Licona's book on the resurrection includes 'wild' naturalistic theories.",
+      "plot_or_sequence": "Examples: Jesus was a visitor from another planet (Superman); Elvis Presley was raised from the dead and seen pumping gas in Kalamazoo, bald.",
+      "intended_function": "persuade",
+      "claims_illustrated": [
+        "A05",
+        "A10"
+      ],
+      "emotional_or_rhetorical_load": "Humorous, mocking; frames naturalistic theories as absurd.",
+      "boundaries": {
+        "what_it_shows": "That some naturalistic theories are absurd.",
+        "what_it_does_not_show": "It does not show that all naturalistic theories are absurd, or that the resurrection is the best explanation.",
+        "what_would_falsify_the_narrative": "If a serious naturalistic theory were shown to be plausible and well-evidenced."
+      },
+      "evidence_for_historical_content": [],
+      "is_separable_from_argument": true,
+      "notes": "Rhetorical humor; not an argument against specific naturalistic theories."
+    },
+    {
+      "story_id": "story-009",
+      "title_or_label": "The Shroud of Turin as Evidence of Death by Crucifixion",
+      "story_type": "illustration",
+      "source_span": "P490-P498",
+      "characters_or_agents": [
+        "the man in the Shroud of Turin",
+        "Jesus"
+      ],
+      "setting_or_context": "A discussion of medical evidence for death by crucifixion.",
+      "plot_or_sequence": "If the Shroud of Turin is Jesus's burial cloth, the man in it shows rigor mortis, postmortem blood flow, and separation of blood and serum—about six evidences that he was dead.",
+      "intended_function": "illustrate",
+      "claims_illustrated": [
+        "A07"
+      ],
+      "emotional_or_rhetorical_load": "Evidential, somewhat sensational; adds a physical artifact to the argument.",
+      "boundaries": {
+        "what_it_shows": "That if the Shroud is authentic, it provides medical evidence of death by crucifixion.",
+        "what_it_does_not_show": "It does not show that the Shroud is authentic, or that the man is Jesus.",
+        "what_would_falsify_the_narrative": "Evidence that the Shroud is medieval, or that the medical findings are misinterpreted."
+      },
+      "evidence_for_historical_content": [],
+      "is_separable_from_argument": true,
+      "notes": "Conditional illustration; Habermas says 'I think there's a fair chance' the Shroud is authentic."
+    },
+    {
+      "story_id": "story-010",
+      "title_or_label": "The Jesus Seminar Colors 1 Corinthians 15 Appearances Pink/Red",
+      "story_type": "historical_anecdote",
+      "source_span": "P604-P634",
+      "characters_or_agents": [
+        "the Jesus Seminar",
+        "Peter",
+        "Paul",
+        "the women"
+      ],
+      "setting_or_context": "The Jesus Seminar, known for color-coding sayings of Jesus, publishes a book on what Jesus did.",
+      "plot_or_sequence": "The Seminar rates the appearance to Peter as pink ('probably happened') and the appearance to Paul as red ('happened'), and the appearance to the women as red or pink.",
+      "intended_function": "persuade",
+      "claims_illustrated": [
+        "A01",
+        "A09"
+      ],
+      "emotional_or_rhetorical_load": "Surprising, ironic; even the most skeptical scholars concede the appearances.",
+      "boundaries": {
+        "what_it_shows": "That a highly skeptical group rated the resurrection appearances as probably or actually historical.",
+        "what_it_does_not_show": "It does not show that the appearances were bodily, that Jesus rose, or that the Seminar's ratings are methodologically sound.",
+        "what_would_falsify_the_narrative": "Evidence that the Seminar did not rate these as pink/red, or that the ratings were misrepresented."
+      },
+      "evidence_for_historical_content": [],
+      "is_separable_from_argument": true,
+      "notes": "Historical report about a scholarly group; used as evidence of broad concession."
+    }
+  ],
+  "narrative_arc": {
+    "opening_device": "Habermas announces two sets of data—the criteria for authenticity and the pre-Pauline creeds—that have persuaded many people of Christianity.",
+    "central_tension": "Can historical evidence compel belief in the resurrection, or do the facts leave room for skepticism and unbelief?",
+    "resolution_or_payoff": "The minimal facts are conceded by virtually all scholars, refute naturalistic theories, and yet do not compel faith—faith is a response to the data, illustrated by the blind date analogy and the doubter's email.",
+    "return_to_opening": true
+  },
+  "notes": "The paper is a lecture/interview with a strong rhetorical arc. Stories function mainly to illustrate criteria, discredit naturalistic theories, and motivate faith. None of the stories independently establish the resurrection; they are separable from the formal argument, though some (e.g., the Jesus Seminar anecdote) are used as evidence of scholarly concession."
+}

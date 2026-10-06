@@ -1,0 +1,120 @@
+{
+  "name": "stories",
+  "parsed": {
+    "station": "stories",
+    "paper_uuid": "AX_GI_03_FL_01_I_AM_THE_ROOT_SPEAKS_7c196c27",
+    "run_uuid": "deep-e6a4c3654f49",
+    "stories": [
+      {
+        "story_id": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d",
+        "title_or_label": "The Child and the Father Analogy",
+        "story_type": "illustration",
+        "source_span": "P30-P35, S050-S061",
+        "characters_or_agents": [
+          "child",
+          "father"
+        ],
+        "setting_or_context": "A child learning about his father through two means: studying the house the father built and listening to the father speak.",
+        "plot_or_sequence": "A child can learn about his father by examining the house (order, table, locks, tools, boundaries, repairs, signs of care) or by hearing the father's voice. These are not enemies; the house witnesses to the father, and the father's voice explains the house.",
+        "intended_function": "illustrate",
+        "claims_illustrated": [
+          "A04",
+          "A07"
+        ],
+        "emotional_or_rhetorical_load": "Warm, familial, and intuitive; evokes trust and relationship to soften the epistemological distinction.",
+        "boundaries": {
+          "what_it_shows": "That discovery (studying creation) and disclosure (listening to God) are distinct but complementary ways of knowing a personal God.",
+          "what_it_does_not_show": "That God actually exists, that He has spoken, or that any particular disclosure is true. It does not prove that the father in the analogy corresponds to a real divine father.",
+          "what_would_falsify_the_narrative": "If the father were absent, silent, or non-existent, the analogy would fail to illustrate disclosure; if the house were the only source of knowledge, the analogy would collapse into discovery alone."
+        },
+        "evidence_for_historical_content": [],
+        "is_separable_from_argument": true,
+        "notes": "The analogy is used to explain the relationship between discovery and disclosure; it is not offered as evidence for either."
+      },
+      {
+        "story_id": "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e",
+        "title_or_label": "Moses and the Divine Name",
+        "story_type": "historical_anecdote",
+        "source_span": "P09-P11, S014-S017",
+        "characters_or_agents": [
+          "Moses",
+          "God"
+        ],
+        "setting_or_context": "Moses asks for God's name; God responds with 'I AM WHO I AM' (Exodus 3:14).",
+        "plot_or_sequence": "Moses requests God's name. God does not give a creaturely label but declares 'I AM WHO I AM,' which the paper interprets as a boundary that refuses to define God by anything deeper.",
+        "intended_function": "identify",
+        "claims_illustrated": [
+          "A02",
+          "A08"
+        ],
+        "emotional_or_rhetorical_load": "Awe and mystery; the name is presented as a self-disclosure that establishes God's uniqueness.",
+        "boundaries": {
+          "what_it_shows": "That the biblical text presents God as self-naming and not definable by comparison to other beings.",
+          "what_it_does_not_show": "That the biblical account is historically accurate or that God actually spoke these words. It also does not prove that the interpretation of the name as a metaphysical boundary is correct.",
+          "what_would_falsify_the_narrative": "If Exodus 3:14 were shown to be a later invention or if the Hebrew phrase meant something other than self-existence, the illustrative force would be undermined."
+        },
+        "evidence_for_historical_content": [
+          "A08"
+        ],
+        "is_separable_from_argument": false,
+        "notes": "This story is structurally load-bearing for the claim that God discloses Himself; it is not merely illustrative."
+      },
+      {
+        "story_id": "c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f",
+        "title_or_label": "Jesus' 'I Am' Sayings",
+        "story_type": "testimony",
+        "source_span": "P39-P57, S068-S094",
+        "characters_or_agents": [
+          "Jesus"
+        ],
+        "setting_or_context": "In John's Gospel, Jesus uses 'I am' language to identify Himself with roles and titles that echo the divine name.",
+        "plot_or_sequence": "Jesus says 'I am the bread of life,' 'I am the light of the world,' 'I am the door,' 'I am the good shepherd,' 'I am the resurrection and the life,' 'I am the way, the truth, and the life,' and 'I am the true vine.' The paper contrasts this with what a prophet or teacher might say, arguing that Jesus is not merely giving advice but making identity claims.",
+        "intended_function": "persuade",
+        "claims_illustrated": [
+          "A03",
+          "A09"
+        ],
+        "emotional_or_rhetorical_load": "High; the repetition and escalation build a sense of Jesus' unique authority and identity.",
+        "boundaries": {
+          "what_it_shows": "That the Johannine Jesus uses 'I am' sayings that are grammatically and thematically distinct from ordinary prophetic speech.",
+          "what_it_does_not_show": "That Jesus actually said these things, that the Gospel of John is historically reliable, or that the claims are true. The paper explicitly notes that this does not prove Jesus is who Christianity says He is.",
+          "what_would_falsify_the_narrative": "If the 'I am' sayings were shown to be later theological additions rather than historical words of Jesus, or if they were shown to be ordinary idioms without divine implications, the illustrative force would be weakened."
+        },
+        "evidence_for_historical_content": [
+          "A09"
+        ],
+        "is_separable_from_argument": false,
+        "notes": "The paper acknowledges that support must come from historical and resurrection evidence; the story itself is not proof."
+      }
+    ],
+    "narrative_arc": {
+      "opening_device": "A philosophical problem: if God is the root, can we reach Him? The paper pivots to whether He has spoken.",
+      "central_tension": "Human reason can climb upward to God, but Christianity claims God has spoken from His side, making revelation not cheating but necessary.",
+      "resolution_or_payoff": "The root is not silent; God has disclosed Himself in the divine name and in Christ, and reason and revelation converge.",
+      "return_to_opening": true
+    },
+    "notes": "The paper uses the child-father analogy as a separable illustration. The Moses and Jesus stories are structurally load-bearing for the claim that God discloses Himself, but they are not treated as evidence for historical truth; the paper explicitly separates the claim from its proof."
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "stories",
+      "attempt": 1,
+      "text": "{\n  \"station\": \"stories\",\n  \"paper_uuid\": \"AX_GI_03_FL_01_I_AM_THE_ROOT_SPEAKS_7c196c27\",\n  \"run_uuid\": \"deep-e6a4c3654f49\",\n  \"stories\": [\n    {\n      \"story_id\": \"a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d\",\n      \"title_or_label\": \"The Child and the Father Analogy\",\n      \"story_type\": \"illustration\",\n      \"source_span\": \"P30-P35, S050-S061\",\n      \"characters_or_agents\": [\n        \"child\",\n        \"father\"\n      ],\n      \"setting_or_context\": \"A child learning about his father through two means: studying the house the father built and listening to the father speak.\",\n      \"plot_or_sequence\": \"A child can learn about his father by examining the house (order, table, locks, tools, boundaries, repairs, signs of care) or by hearing the father's voice. These are not enemies; the house witnesses to the father, and the father's voice explains the house.\",\n      \"intended_function\": \"illustrate\",\n      \"claims_illustrated\": [\n        \"A04\",\n        \"A07\"\n      ],\n      \"emotional_or_rhetorical_load\": \"Warm, familial, and intuitive; evokes trust and relationship to soften the epistemological distinction.\",\n      \"boundaries\": {\n        \"what_it_shows\": \"That discovery (studying creation) and disclosure (listening to God) are distinct but complementary ways of knowing a personal God.\",\n        \"what_it_does_not_show\": \"That God actually exists, that He has spoken, or that any particular disclosure is true. It does not prove that the father in the analogy corresponds to a real divine father.\",\n        \"what_would_falsify_the_narrative\": \"If the father were absent, silent, or non-existent, the analogy would fail to illustrate disclosure; if the house were the only source of knowledge, the analogy would collapse into discovery alone.\"\n      },\n      \"evidence_for_historical_content\": [],\n      \"is_separable_from_argument\": true,\n      \"notes\": \"The analogy is used to explain the relationship between discovery and disclosure; it is not offered as evidence for either.\"\n    },\n    {\n      \"story_id\": \"b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e\",\n      \"title_or_label\": \"Moses and the Divine Name\",\n      \"story_type\": \"historical_anecdote\",\n      \"source_span\": \"P09-P11, S014-S017\",\n      \"characters_or_agents\": [\n        \"Moses\",\n        \"God\"\n      ],\n      \"setting_or_context\": \"Moses asks for God's name; God responds with 'I AM WHO I AM' (Exodus 3:14).\",\n      \"plot_or_sequence\": \"Moses requests God's name. God does not give a creaturely label but declares 'I AM WHO I AM,' which the paper interprets as a boundary that refuses to define God by anything deeper.\",\n      \"intended_function\": \"identify\",\n      \"claims_illustrated\": [\n        \"A02\",\n        \"A08\"\n      ],\n      \"emotional_or_rhetorical_load\": \"Awe and mystery; the name is presented as a self-disclosure that establishes God's uniqueness.\",\n      \"boundaries\": {\n        \"what_it_shows\": \"That the biblical text presents God as self-naming and not definable by comparison to other beings.\",\n        \"what_it_does_not_show\": \"That the biblical account is historically accurate or that God actually spoke these words. It also does not prove that the interpretation of the name as a metaphysical boundary is correct.\",\n        \"what_would_falsify_the_narrative\": \"If Exodus 3:14 were shown to be a later invention or if the Hebrew phrase meant something other than self-existence, the illustrative force would be undermined.\"\n      },\n      \"evidence_for_historical_content\": [\n        \"A08\"\n      ],\n      \"is_separable_from_argument\": false,\n      \"notes\": \"This story is structurally load-bearing for the claim that God discloses Himself; it is not merely illustrative.\"\n    },\n    {\n      \"story_id\": \"c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f\",\n      \"title_or_label\": \"Jesus' 'I Am' Sayings\",\n      \"story_type\": \"testimony\",\n      \"source_span\": \"P39-P57, S068-S094\",\n      \"characters_or_agents\": [\n        \"Jesus\"\n      ],\n      \"setting_or_context\": \"In John's Gospel, Jesus uses 'I am' language to identify Himself with roles and titles that echo the divine name.\",\n      \"plot_or_sequence\": \"Jesus says 'I am the bread of life,' 'I am the light of the world,' 'I am the door,' 'I am the good shepherd,' 'I am the resurrection and the life,' 'I am the way, the truth, and the life,' and 'I am the true vine.' The paper contrasts this with what a prophet or teacher might say, arguing that Jesus is not merely giving advice but making identity claims.\",\n      \"intended_function\": \"persuade\",\n      \"claims_illustrated\": [\n        \"A03\",\n        \"A09\"\n      ],\n      \"emotional_or_rhetorical_load\": \"High; the repetition and escalation build a sense of Jesus' unique authority and identity.\",\n      \"boundaries\": {\n        \"what_it_shows\": \"That the Johannine Jesus uses 'I am' sayings that are grammatically and thematically distinct from ordinary prophetic speech.\",\n        \"what_it_does_not_show\": \"That Jesus actually said these things, that the Gospel of John is historically reliable, or that the claims are true. The paper explicitly notes that this does not prove Jesus is who Christianity says He is.\",\n        \"what_would_falsify_the_narrative\": \"If the 'I am' sayings were shown to be later theological additions rather than historical words of Jesus, or if they were shown to be ordinary idioms without divine implications, the illustrative force would be weakened.\"\n      },\n      \"evidence_for_historical_content\": [\n        \"A09\"\n      ],\n      \"is_separable_from_argument\": false,\n      \"notes\": \"The paper acknowledges that support must come from historical and resurrection evidence; the story itself is not proof.\"\n    }\n  ],\n  \"narrative_arc\": {\n    \"opening_device\": \"A philosophical problem: if God is the root, can we reach Him? The paper pivots to whether He has spoken.\",\n    \"central_tension\": \"Human reason can climb upward to God, but Christianity claims God has spoken from His side, making revelation not cheating but necessary.\",\n    \"resolution_or_payoff\": \"The root is not silent; God has disclosed Himself in the divine name and in Christ, and reason and revelation converge.\",\n    \"return_to_opening\": true\n  },\n  \"notes\": \"The paper uses the child-father analogy as a separable illustration. The Moses and Jesus stories are structurally load-bearing for the claim that God discloses Himself, but they are not treated as evidence for historical truth; the paper explicitly separates the claim from its proof.\"\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 3559,
+      "completion_tokens": 1598,
+      "attempts": 1,
+      "elapsed_seconds": 8.015999999999622,
+      "started_at": "2026-09-27T13:00:34.488173+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T13:00:42.512698+00:00",
+      "tokens": 5157
+    }
+  ],
+  "prompt_sha256": "619078572b72bc2f78adda5b3a44612eaaed62da15f1fc8bb1c1235eb1e0663b",
+  "tokens": 5157,
+  "reused": true
+}

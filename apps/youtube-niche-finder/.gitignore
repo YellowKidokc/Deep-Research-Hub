@@ -1,0 +1,16 @@
+.env
+.DS_Store
+data/
+models/
+docs/
+.idea/
+.gitnexus/
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.env.bak-*
+*.bak
+scripts/diag-output.txt
+_to_delete/

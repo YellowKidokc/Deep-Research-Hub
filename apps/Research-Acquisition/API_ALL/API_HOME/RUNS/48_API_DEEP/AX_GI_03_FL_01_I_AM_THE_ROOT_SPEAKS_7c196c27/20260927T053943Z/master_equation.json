@@ -1,0 +1,138 @@
+{
+  "core_relation": {
+    "sentence": "Christianity is built on God's self-disclosure, not merely on human upward inference; if God has not spoken, the whole claim collapses.",
+    "quote": "But Christianity is not built only on upward inference. It is built on disclosure. God speaks. God acts. God covenants. God comes. God names Himself. God reveals His character. God enters the human story in Christ. [S102-S110]"
+  },
+  "core_relation_run2": {
+    "sentence": "Knowledge of God depends on God's own self-disclosure (His speech), not only on creaturely upward inference; the two movements — reason climbing and God speaking — meet in the investigation.",
+    "quote": "Reason climbs. God speaks. The investigation happens where those two meet. [S130][S131][S132]"
+  },
+  "product_test": {
+    "run1": "multiplicative",
+    "run2": "multiplicative",
+    "status": "agreed",
+    "quote": "If God remains only an inference, then every argument about God stays trapped inside creaturely reach. [S096] ... But if God has spoken, then the highest form of knowledge is not guessing correctly about a silent source. [S117]",
+    "reason": "The paper treats divine speech as the necessary condition for the entire Christian claim; without it, the investigation is 'trapped' in creaturely inference and the conclusion fails entirely, not merely weakens."
+  },
+  "slots": [
+    {
+      "slot": "G",
+      "fit_1": "analogous",
+      "fit_2": "direct",
+      "status": "contested",
+      "plays_role": "God's self-disclosure as the external negentropy influx that breaks the closed loop of creaturely reasoning.",
+      "quote": "The root can disclose Himself. [S010]"
+    },
+    {
+      "slot": "M",
+      "fit_1": "analogous",
+      "fit_2": "analogous",
+      "status": "agreed",
+      "plays_role": "Alignment between the human investigation and God's own self-naming; the child hearing the father's voice.",
+      "quote": "The father’s voice can explain the house. [S056]"
+    },
+    {
+      "slot": "E",
+      "fit_1": "analogous",
+      "fit_2": "direct",
+      "status": "contested",
+      "plays_role": "Fidelity of the disclosed name and testimony through history, Scripture, and interpretation.",
+      "quote": "Scripture must be interpreted. History must be investigated. [S114-S115]"
+    },
+    {
+      "slot": "S_eff",
+      "fit_1": "analogous",
+      "fit_2": "analogous",
+      "status": "agreed",
+      "plays_role": "Human reasoning and creaturely labels as entropy that cannot define or reach the root from below.",
+      "quote": "You cannot define the root by pointing beneath it. [S031]"
+    },
+    {
+      "slot": "T",
+      "fit_1": "direct",
+      "fit_2": "analogous",
+      "status": "contested",
+      "plays_role": "Historical entrance of the root into the human story in Christ; revelation accumulated across covenant history.",
+      "quote": "God enters the human story in Christ. [S110]"
+    },
+    {
+      "slot": "K",
+      "fit_1": "analogous",
+      "fit_2": "direct",
+      "status": "contested",
+      "plays_role": "The divine name 'I AM' as maximal compression of God's self-existent identity, refusing creaturely categories.",
+      "quote": "It is a boundary. [S019]"
+    },
+    {
+      "slot": "R",
+      "fit_1": "analogous",
+      "fit_2": "analogous",
+      "status": "agreed",
+      "plays_role": "The shift from inference to disclosure as a phase transition in the investigation; the 'I AM' declarations as identity language.",
+      "quote": "That is not ordinary religious advice. It is identity language. [S087-S088]"
+    },
+    {
+      "slot": "Q",
+      "fit_1": "stretched",
+      "fit_2": "analogous",
+      "status": "contested",
+      "plays_role": "The unresolved possibility of God as inference versus the actualized disclosure in speech and Christ.",
+      "quote": "If God remains only an inference, then every argument about God stays trapped inside creaturely reach. [S096]"
+    },
+    {
+      "slot": "F",
+      "fit_1": "analogous",
+      "fit_2": "stretched",
+      "status": "contested",
+      "plays_role": "Non-local correlation between the root and creation, such that the root is not downstream or independent but intimately related.",
+      "quote": "He is the One from whom every “is” receives its existence. [S023]"
+    },
+    {
+      "slot": "C",
+      "fit_1": "direct",
+      "fit_2": "analogous",
+      "status": "contested",
+      "plays_role": "Christ as the local integrator who takes the divine name into Himself and reveals the Father personally.",
+      "quote": "Christ reveals the Father personally. [S061]"
+    }
+  ],
+  "contested": [
+    "G",
+    "E",
+    "T",
+    "K",
+    "Q",
+    "F",
+    "C"
+  ],
+  "analog_strength": 3,
+  "analog_strength_spread": "3-3",
+  "confidence": [
+    "medium",
+    "medium"
+  ],
+  "one_line": "The paper's core claim that Christianity rests on God's self-disclosure rather than inference maps analogously onto the master equation, with disclosure playing the role of external negentropy influx and Christ as the local integrator.",
+  "breaks": [
+    "The paper does not treat the slots as a multiplicative product with a formal zero-collapse; it presents disclosure as necessary but does not quantify or formalize the interaction.",
+    "G is framed as personal speech rather than an impersonal negentropy flux, so the analogy to external coherence influx is stretched.",
+    "Q is weakly present: the paper does not dwell on unresolved superposition; it moves quickly to actualized disclosure.",
+    "The paper adds 'revelation can be misunderstood' and 'claims of revelation can be false' as extra factors not captured by the ten slots.",
+    "The paper treats upward inference (reason climbing) as genuinely valuable and not zero — 'Those arguments may matter. Some may be strong.' [S098][S099] — which softens the strict multiplicative collapse: reason is not a zero factor, so the product test is closer to 'disclosure is necessary but inference is additive support' than to a pure χ-style product.",
+    "The 'child can hear his father speak' analogy [S053] imports a relational/personal factor that has no clean slot in the master equation's factor list; it is closer to a background condition than a multiplicative term.",
+    "The paper explicitly disclaims that its claim proves itself: 'It does not prove by itself that Jesus is who Christianity says He is.' [S089] — so the slot mapping describes the shape of the claim, not a demonstrated derivation.",
+    "Slot F is stretched: the paper's non-local correlation is theological (Christ as the root entering history) rather than a physical correlation between related systems."
+  ],
+  "extra_factors": [
+    [
+      "The possibility of false revelation and the need for historical investigation (S113-S115).",
+      "The Church's potential mishandling of revelation (S116).",
+      "The distinction between disclosure and discovery as two movements (S065-S066)."
+    ],
+    [
+      "Historical investigation / resurrection evidence [S091] — treated as a required support layer with no direct master-equation slot.",
+      "The distinction between discovery and disclosure [S064][S065][S066] — a methodological factor the equation does not name.",
+      "The skeptic's provisional stance [S120][S126] — a rhetorical/epistemic factor that conditions how the claim is received."
+    ]
+  ],
+  "equations_present": false
+}

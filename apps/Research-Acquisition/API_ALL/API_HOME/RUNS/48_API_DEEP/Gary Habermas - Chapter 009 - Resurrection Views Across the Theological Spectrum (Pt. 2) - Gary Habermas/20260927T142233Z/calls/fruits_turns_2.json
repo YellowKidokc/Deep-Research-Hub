@@ -1,0 +1,611 @@
+{
+  "name": "fruits_turns_2",
+  "parsed": {
+    "range": "T031-T060",
+    "turns": [
+      {
+        "id": "T031",
+        "speaker": "guest",
+        "v": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1
+        ],
+        "why": {
+          "love": "refuses to judge others' salvation, leaves them free",
+          "peace": "clarifies misunderstanding without stoking hostility",
+          "patience": "explains his labeling carefully step by step",
+          "kindness": "defines terms to help listener understand",
+          "goodness": "honest about his own limits in judging",
+          "faithfulness": "consistent standard for liberals and conservatives",
+          "gentleness": "restrained about others' spiritual status",
+          "self_control": "hedges where he cannot know"
+        }
+      },
+      {
+        "id": "T032",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "walks through scholars' shifting positions",
+          "kindness": "explains who each scholar is",
+          "faithfulness": "cites Sanders fairly despite disagreement",
+          "self_control": "acknowledges uncertainty about people's ends"
+        }
+      },
+      {
+        "id": "T033",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T034",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "why": {
+          "faithfulness": "invites correction if he misstates his own books"
+        }
+      },
+      {
+        "id": "T035",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T036",
+        "speaker": "guest",
+        "v": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "wants fairness for those misrepresented",
+          "peace": "names both extremes' anger honestly",
+          "patience": "explains his position at length",
+          "kindness": "illustrates with concrete example",
+          "goodness": "honest about being criticized from both sides",
+          "faithfulness": "same standard for left and right",
+          "gentleness": "refuses to demonize either extreme",
+          "self_control": "corrects misquote without inflaming"
+        }
+      },
+      {
+        "id": "T037",
+        "speaker": "guest",
+        "v": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "won't judge others' deepest heart",
+          "peace": "calls for charity toward opponents",
+          "patience": "explains why he avoids such judgments",
+          "kindness": "makes his reasoning accessible",
+          "goodness": "honest about limits of human knowledge",
+          "faithfulness": "consistent principle applied to all",
+          "gentleness": "restrained about others' standing before God",
+          "self_control": "declines to touch what he can't know"
+        }
+      },
+      {
+        "id": "T038",
+        "speaker": "guest",
+        "v": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "asks grace for himself as for others",
+          "peace": "names double standard without hostility",
+          "patience": "explains the fairness principle",
+          "kindness": "makes his plea understandable",
+          "faithfulness": "same grace for own side and other",
+          "gentleness": "fair to those who misread him",
+          "self_control": "measured about the accusation"
+        }
+      },
+      {
+        "id": "T039",
+        "speaker": "host",
+        "v": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "backs up guest against unfair attack",
+          "peace": "moves past controversy to content",
+          "patience": "explains what he found researching",
+          "kindness": "reassures guest he was vindicated",
+          "goodness": "did the work to check context",
+          "faithfulness": "checked full context before judging",
+          "gentleness": "fair to the guest",
+          "self_control": "measured, moves on"
+        }
+      },
+      {
+        "id": "T040",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "why": {
+          "patience": "sets up question clearly",
+          "kindness": "explains what he's asking for"
+        }
+      },
+      {
+        "id": "T041",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T042",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "walks through Cook's thesis carefully",
+          "kindness": "explains the German series context",
+          "goodness": "honest about his own critique being 'nice'",
+          "faithfulness": "cites Cook's own words fairly",
+          "self_control": "distinguishes Paul's view from Bultmann's"
+        }
+      },
+      {
+        "id": "T043",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T044",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "explains the distinction clearly",
+          "kindness": "defines terms for listener",
+          "faithfulness": "careful not to misattribute views",
+          "self_control": "precise about who said what"
+        }
+      },
+      {
+        "id": "T045",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T046",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "explains each scholar's contribution",
+          "kindness": "makes technical material accessible",
+          "goodness": "honest about what stunned him",
+          "faithfulness": "cites Wright, Gundry, Cook accurately",
+          "self_control": "distinguishes his view from theirs"
+        }
+      },
+      {
+        "id": "T047",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "reads the quote and explains context",
+          "kindness": "helps listener follow",
+          "faithfulness": "quotes Dale accurately",
+          "self_control": "notes his own uncertainty about the quote"
+        }
+      },
+      {
+        "id": "T048",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "reads quote twice for clarity",
+          "kindness": "makes sure listener hears it",
+          "faithfulness": "accurate quotation",
+          "self_control": "checks his own memory"
+        }
+      },
+      {
+        "id": "T049",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "explains Gundry's soma argument",
+          "kindness": "defines Greek term for audience",
+          "faithfulness": "credits Gundry as early writer",
+          "self_control": "stays on the substantive point"
+        }
+      },
+      {
+        "id": "T050",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T051",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T052",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "why": {
+          "patience": "sets up the question carefully",
+          "kindness": "explains the burden-of-proof issue"
+        }
+      },
+      {
+        "id": "T053",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T054",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T055",
+        "speaker": "guest",
+        "v": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "gives skeptics benefit of the doubt",
+          "peace": "names his own past doubt honestly",
+          "patience": "explains his ten-year skepticism at length",
+          "kindness": "makes his reasoning transparent",
+          "goodness": "honest about his own doubts and bias",
+          "faithfulness": "same standard for skeptics and believers",
+          "gentleness": "fair to those who misjudge him",
+          "self_control": "distinguishes believers from Christians carefully"
+        }
+      },
+      {
+        "id": "T056",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "explains the citation-count distinction",
+          "kindness": "clarifies what he meant",
+          "faithfulness": "consistent with earlier claim",
+          "self_control": "precise about the numbers"
+        }
+      },
+      {
+        "id": "T057",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T058",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "explains the alphabetical listing method",
+          "kindness": "makes his method transparent",
+          "faithfulness": "offers Ben as verifier",
+          "self_control": "precise about what he means"
+        }
+      },
+      {
+        "id": "T059",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T060",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "explains the counting method",
+          "kindness": "clarifies his meaning",
+          "faithfulness": "consistent with earlier claim",
+          "self_control": "precise about citations vs names"
+        }
+      }
+    ]
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "fruits_turns_2",
+      "attempt": 1,
+      "text": "{\"range\": \"T031-T060\", \"turns\": [\n  {\"id\": \"T031\", \"speaker\": \"guest\", \"v\": [1,0,1,1,1,1,2,1,1], \"why\": {\"love\": \"refuses to judge others' salvation, leaves them free\", \"peace\": \"clarifies misunderstanding without stoking hostility\", \"patience\": \"explains his labeling carefully step by step\", \"kindness\": \"defines terms to help listener understand\", \"goodness\": \"honest about his own limits in judging\", \"faithfulness\": \"consistent standard for liberals and conservatives\", \"gentleness\": \"restrained about others' spiritual status\", \"self_control\": \"hedges where he cannot know\"}},\n  {\"id\": \"T032\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,0,1,0,1], \"why\": {\"patience\": \"walks through scholars' shifting positions\", \"kindness\": \"explains who each scholar is\", \"faithfulness\": \"cites Sanders fairly despite disagreement\", \"self_control\": \"acknowledges uncertainty about people's ends\"}},\n  {\"id\": \"T033\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"T034\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,1,0,0], \"why\": {\"faithfulness\": \"invites correction if he misstates his own books\"}},\n  {\"id\": \"T035\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"T036\", \"speaker\": \"guest\", \"v\": [1,0,1,1,1,1,1,1,1], \"why\": {\"love\": \"wants fairness for those misrepresented\", \"peace\": \"names both extremes' anger honestly\", \"patience\": \"explains his position at length\", \"kindness\": \"illustrates with concrete example\", \"goodness\": \"honest about being criticized from both sides\", \"faithfulness\": \"same standard for left and right\", \"gentleness\": \"refuses to demonize either extreme\", \"self_control\": \"corrects misquote without inflaming\"}},\n  {\"id\": \"T037\", \"speaker\": \"guest\", \"v\": [1,0,1,1,1,1,1,1,1], \"why\": {\"love\": \"won't judge others' deepest heart\", \"peace\": \"calls for charity toward opponents\", \"patience\": \"explains why he avoids such judgments\", \"kindness\": \"makes his reasoning accessible\", \"goodness\": \"honest about limits of human knowledge\", \"faithfulness\": \"consistent principle applied to all\", \"gentleness\": \"restrained about others' standing before God\", \"self_control\": \"declines to touch what he can't know\"}},\n  {\"id\": \"T038\", \"speaker\": \"guest\", \"v\": [1,0,1,1,1,0,1,1,1], \"why\": {\"love\": \"asks grace for himself as for others\", \"peace\": \"names double standard without hostility\", \"patience\": \"explains the fairness principle\", \"kindness\": \"makes his plea understandable\", \"faithfulness\": \"same grace for own side and other\", \"gentleness\": \"fair to those who misread him\", \"self_control\": \"measured about the accusation\"}},\n  {\"id\": \"T039\", \"speaker\": \"host\", \"v\": [1,0,1,1,1,1,1,1,1], \"why\": {\"love\": \"backs up guest against unfair attack\", \"peace\": \"moves past controversy to content\", \"patience\": \"explains what he found researching\", \"kindness\": \"reassures guest he was vindicated\", \"goodness\": \"did the work to check context\", \"faithfulness\": \"checked full context before judging\", \"gentleness\": \"fair to the guest\", \"self_control\": \"measured, moves on\"}},\n  {\"id\": \"T040\", \"speaker\": \"host\", \"v\": [0,0,0,1,1,0,0,0,0], \"why\": {\"patience\": \"sets up question clearly\", \"kindness\": \"explains what he's asking for\"}},\n  {\"id\": \"T041\", \"speaker\": \"host\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"T042\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,1,1,0,1], \"why\": {\"patience\": \"walks through Cook's thesis carefully\", \"kindness\": \"explains the German series context\", \"goodness\": \"honest about his own critique being 'nice'\", \"faithfulness\": \"cites Cook's own words fairly\", \"self_control\": \"distinguishes Paul's view from Bultmann's\"}},\n  {\"id\": \"T043\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"T044\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,0,1,0,1], \"why\": {\"patience\": \"explains the distinction clearly\", \"kindness\": \"defines terms for listener\", \"faithfulness\": \"careful not to misattribute views\", \"self_control\": \"precise about who said what\"}},\n  {\"id\": \"T045\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"T046\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,1,1,0,1], \"why\": {\"patience\": \"explains each scholar's contribution\", \"kindness\": \"makes technical material accessible\", \"goodness\": \"honest about what stunned him\", \"faithfulness\": \"cites Wright, Gundry, Cook accurately\", \"self_control\": \"distinguishes his view from theirs\"}},\n  {\"id\": \"T047\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,0,1,0,1], \"why\": {\"patience\": \"reads the quote and explains context\", \"kindness\": \"helps listener follow\", \"faithfulness\": \"quotes Dale accurately\", \"self_control\": \"notes his own uncertainty about the quote\"}},\n  {\"id\": \"T048\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,0,1,0,1], \"why\": {\"patience\": \"reads quote twice for clarity\", \"kindness\": \"makes sure listener hears it\", \"faithfulness\": \"accurate quotation\", \"self_control\": \"checks his own memory\"}},\n  {\"id\": \"T049\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,0,1,0,1], \"why\": {\"patience\": \"explains Gundry's soma argument\", \"kindness\": \"defines Greek term for audience\", \"faithfulness\": \"credits Gundry as early writer\", \"self_control\": \"stays on the substantive point\"}},\n  {\"id\": \"T050\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"T051\", \"speaker\": \"host\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"T052\", \"speaker\": \"host\", \"v\": [0,0,0,1,1,0,0,0,0], \"why\": {\"patience\": \"sets up the question carefully\", \"kindness\": \"explains the burden-of-proof issue\"}},\n  {\"id\": \"T053\", \"speaker\": \"host\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"T054\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"T055\", \"speaker\": \"guest\", \"v\": [1,0,1,1,1,1,1,1,1], \"why\": {\"love\": \"gives skeptics benefit of the doubt\", \"peace\": \"names his own past doubt honestly\", \"patience\": \"explains his ten-year skepticism at length\", \"kindness\": \"makes his reasoning transparent\", \"goodness\": \"honest about his own doubts and bias\", \"faithfulness\": \"same standard for skeptics and believers\", \"gentleness\": \"fair to those who misjudge him\", \"self_control\": \"distinguishes believers from Christians carefully\"}},\n  {\"id\": \"T056\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,0,1,0,1], \"why\": {\"patience\": \"explains the citation-count distinction\", \"kindness\": \"clarifies what he meant\", \"faithfulness\": \"consistent with earlier claim\", \"self_control\": \"precise about the numbers\"}},\n  {\"id\": \"T057\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"T058\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,0,1,0,1], \"why\": {\"patience\": \"explains the alphabetical listing method\", \"kindness\": \"makes his method transparent\", \"faithfulness\": \"offers Ben as verifier\", \"self_control\": \"precise about what he means\"}},\n  {\"id\": \"T059\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"T060\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,0,1,0,1], \"why\": {\"patience\": \"explains the counting method\", \"kindness\": \"clarifies his meaning\", \"faithfulness\": \"consistent with earlier claim\", \"self_control\": \"precise about citations vs names\"}}\n]}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 12512,
+      "completion_tokens": 2367,
+      "attempts": 1,
+      "elapsed_seconds": 10.219000000004598,
+      "started_at": "2026-09-27T14:22:33.446584+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T14:22:43.663437+00:00",
+      "tokens": 14879
+    }
+  ],
+  "prompt_sha256": "5c77eca7c0e581791c3ef5c399203234f6c9289432a2760d03b394f91b7ddbef",
+  "tokens": 14879
+}

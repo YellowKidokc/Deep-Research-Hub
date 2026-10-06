@@ -1,0 +1,129 @@
+{
+  "core_relation": {
+    "sentence": "The resurrection of Jesus, if established as a historical event, entails a linked system: it requires God as its cause, authenticates Jesus's unique teaching about the kingdom of God and eternal life, and thereby entails downstream doctrines such as the deity of Christ and the truth of scripture.",
+    "quote": "If there's a resurrection, somebody had to do it. the somebody had to be linked with Jesus's claims in my view because nobody else did it and that God is omni benevolent. [S256]"
+  },
+  "core_relation_run2": {
+    "sentence": "The resurrection of Jesus, if established as a historical event, entails a linked system: it requires God as its cause, authenticates Jesus's unique teaching about the kingdom of God and eternal life, and thereby entails downstream doctrines such as the deity of Christ and the truth of scripture.",
+    "quote": "If there's a resurrection, somebody had to do it. the somebody had to be linked with Jesus's claims in my view because nobody else did it and that God is omni benevolent. [S256]"
+  },
+  "product_test": {
+    "run1": "multiplicative",
+    "run2": "multiplicative",
+    "status": "agreed",
+    "quote": "If pre if he preached good e ethics and yet his major teaching the kingdom of God how to get there was false. seems to me that the major the falseness of the major rules out the truth the truth of the minor. [S264]",
+    "reason": "Habermas repeatedly treats the chain as a linked system in which removing one necessary link collapses the whole: if the resurrection did not occur, the deity of Christ and the kingdom teaching fail; if Jesus's major teaching were false, his ethics cannot be trusted; if there is no God, the resurrection cannot be linked to a divine cause. The entailments are framed as all-or-nothing dependencies, not merely cumulative evidence."
+  },
+  "slots": [
+    {
+      "slot": "G",
+      "fit_1": "direct",
+      "fit_2": "direct",
+      "status": "agreed",
+      "plays_role": "God as the external cause/source who must act for the resurrection to occur; the event cannot be self-sustaining and requires an outside agent.",
+      "quote": "If there's a resurrection, somebody had to do it. the somebody had to be linked with Jesus's claims in my view because nobody else did it and that God is omni benevolent. [S256]"
+    },
+    {
+      "slot": "M",
+      "fit_1": "analogous",
+      "fit_2": "analogous",
+      "status": "agreed",
+      "plays_role": "Alignment between Jesus's claims/teachings and God's act of raising him; the resurrection is intelligible only if aligned with Jesus's kingdom message.",
+      "quote": "If if Jesus is raised from the dead and his leading teaching is true. [S262]"
+    },
+    {
+      "slot": "E",
+      "fit_1": "direct",
+      "fit_2": "direct",
+      "status": "agreed",
+      "plays_role": "Evidential transmission: historical evidence, eyewitness data, and argument must survive skeptical noise for the resurrection claim to be known.",
+      "quote": "The resurrection argument stands on a evidences volume one, b reputations volume two. [S098]"
+    },
+    {
+      "slot": "S_eff",
+      "fit_1": "analogous",
+      "fit_2": "analogous",
+      "status": "agreed",
+      "plays_role": "Skeptical objections, competing miracle claims, and naturalistic counter-explanations function as entropy/noise that lowers the coherence of the resurrection inference.",
+      "quote": "Because there are competing miracle claims out there. [S524]"
+    },
+    {
+      "slot": "T",
+      "fit_1": "direct",
+      "fit_2": "direct",
+      "status": "agreed",
+      "plays_role": "Temporal integration: 15 years of work, 52 books, 20 years on the resurrection, and the cumulative historical sequence from prediction to event.",
+      "quote": "Took me 20 years for the resurrection. [S663]"
+    },
+    {
+      "slot": "K",
+      "fit_1": "analogous",
+      "fit_2": "analogous",
+      "status": "agreed",
+      "plays_role": "Compression of the argument into volumes, chapters, and a linked theological system; ordered meaning compresses while skeptical noise does not.",
+      "quote": "I think this whole my point in the first six chapters is these all hang together. It's a it's a program. [S460-S461]"
+    },
+    {
+      "slot": "R",
+      "fit_1": "direct",
+      "fit_2": "direct",
+      "status": "agreed",
+      "plays_role": "The resurrection as a one-time, unique, threshold event that changes state rather than degree; also the phase transition from death to life.",
+      "quote": "I think the resurrection is a great connection between look it's never happened before. [S411]"
+    },
+    {
+      "slot": "Q",
+      "fit_1": "stretched",
+      "fit_2": "stretched",
+      "status": "agreed",
+      "plays_role": "Open possibility resolved by evidence: the resurrection claim is initially unresolved and must be actualized through investigation; also the future kingdom as open possibility.",
+      "quote": "I want to know if you want to get right down to it. I want to know if if you're on the other if you're the one the other side and you just accuse me of that. [S584]"
+    },
+    {
+      "slot": "F",
+      "fit_1": "analogous",
+      "fit_2": "analogous",
+      "status": "agreed",
+      "plays_role": "Non-local correlation: the resurrection is linked to Jesus's predictions, to the kingdom teaching, and to downstream doctrines; events and teachings are correlated rather than independent.",
+      "quote": "I think the resurrection is the key one that's puts the glue in there, the cement between the bricks, if you will. [S427]"
+    },
+    {
+      "slot": "C",
+      "fit_1": "analogous",
+      "fit_2": "analogous",
+      "status": "agreed",
+      "plays_role": "The integrator is the theological system itself: God, resurrection, Jesus's teaching, and scripture integrated into one coherent program.",
+      "quote": "So, I think that all goes together very well. Um, you got a God. You got an event. [S283-S285]"
+    }
+  ],
+  "contested": [],
+  "analog_strength": 3,
+  "analog_strength_spread": "3-3",
+  "confidence": [
+    "medium",
+    "medium"
+  ],
+  "one_line": "The resurrection functions as a multiplicative core event that, if zero, collapses the linked theological system of God, deity of Christ, kingdom teaching, and scripture, though the paper frames this as historical-theological entailment rather than mathematical product.",
+  "breaks": [
+    "The paper treats the resurrection as a historical event with evidential support, not as a factor in a mathematical product; the multiplicative language is an interpretive overlay.",
+    "Several slots (Q, F, C) are filled by analogy rather than by explicit claims in the text; Q in particular is weakly supported.",
+    "The paper adds factors with no clear slot: the problem of competing miracle claims, the role of suffering (Habermas's wife's cancer), and the practical application section (worship, giving) are not captured by the 10 slots.",
+    "Habermas explicitly resists a deductive 'proof' model and prefers high probability, which complicates the multiplicative product test.",
+    "The paper distinguishes between what is entailed by the resurrection and what is merely consistent with it, but the boundary is not always clear."
+  ],
+  "extra_factors": [
+    [
+      "Competing miracle claims in other religions and within Christianity",
+      "Suffering and pastoral application (chapter on suffering, wife's cancer)",
+      "Practical application: worship, giving, radical commitment",
+      "The role of prediction (Jesus foretold his death and resurrection) as an additional evidential factor"
+    ],
+    [
+      "Competing miracle claims in other religions and within Christianity",
+      "Suffering and pastoral application (chapter on suffering, wife's cancer)",
+      "Practical application: worship, giving, radical commitment",
+      "The role of prediction (Jesus foretold his death and resurrection) as an additional evidential factor"
+    ]
+  ],
+  "equations_present": false
+}

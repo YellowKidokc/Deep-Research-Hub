@@ -1,0 +1,31 @@
+---
+fis_schema: tag-ledger.v1
+run_id: 1
+folder: "stratum pop up\\08_actions"
+generated_at: "2026-06-23T17:14:16"
+ledger: "D:\\DONT TOUCH BOOT UP\\FIS\\fis_runtime\\tag_ledger.sqlite"
+tags: ["folder", "actions", "code"]
+file_count: 10
+child_folder_count: 0
+---
+
+# FIS Folder Index: 08_actions
+
+This folder has been seen by the FIS tag ledger. The ledger records names, tags, skipped items, and move status.
+
+Move state: every listed file starts as `not_moved` until a later approved mover records otherwise.
+
+## Direct Files
+
+- `01_stt.py` :: #file #code #python #ext-py #stt :: move_status=not_moved
+- `02_clean_dictation.py` :: #file #code #python #ext-py #clean #dictation :: move_status=not_moved
+- `03_overclaim_detector.py` :: #file #code #python #ext-py #overclaim #detector :: move_status=not_moved
+- `04_grammar_fix.py` :: #file #code #python #ext-py #grammar #fix :: move_status=not_moved
+- `05_rephrase_5_ways.py` :: #file #code #python #ext-py #rephrase #ways :: move_status=not_moved
+- `06_full_audit.py` :: #file #code #python #ext-py #full #audit :: move_status=not_moved
+- `07_markov_chain.py` :: #file #code #python #ext-py #markov #chain :: move_status=not_moved
+- `08_motif_scan.py` :: #file #code #python #ext-py #motif #scan :: move_status=not_moved
+- `09_adversarial_check.py` :: #file #code #python #ext-py #adversarial #check :: move_status=not_moved
+- `10_kimi_chat.py` :: #file #code #python #ext-py #kimi #chat :: move_status=not_moved
+
+<!-- FIS tag-ledger.v1: parseable note; safe to regenerate. -->

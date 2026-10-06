@@ -1,0 +1,1913 @@
+{
+  "title": "THE META ARGUMENT",
+  "source": "\\\\192.168.2.50\\h_hp\\Desktop\\Folders\\___Pipeline_Done_New\\One page paper API\\EVIDENCE\\PROCESSED_ORIGINALS\\O-08A_part_00_hook_e41c8dac.md",
+  "arguments": [
+    {
+      "id": "G1",
+      "name": "Fights are about positions on an unknown line",
+      "speaker": "David Lowe",
+      "conclusion": "Every major political fight is an argument about where to sit on a line whose existence and mathematical structure the participants do not know.",
+      "premises": [
+        "P1: Immigration, guns, abortion, healthcare, criminal justice, climate, AI, culture war, Trump, system rigging, left/right/libertarian disputes are all ongoing fights.",
+        "P2: These fights are arguments about where to sit on a line.",
+        "P3: Nobody in the argument knows the line exists.",
+        "P4: The line has a mathematical structure, a constraint making resolution impossible from inside, a repeating history, and exactly one exit off the line."
+      ],
+      "where": "P04–P07, S005–S030",
+      "strength": 2.0,
+      "strength_runs": [
+        1.5,
+        2.5
+      ],
+      "originality": 6.0,
+      "originality_runs": [
+        6,
+        6
+      ],
+      "items": {
+        "st1": {
+          "v": [
+            2,
+            2
+          ],
+          "quote": "This document makes one claim: **they are.**",
+          "why": ""
+        },
+        "st2": {
+          "v": [
+            1,
+            2
+          ],
+          "quote": "Every one of those fights is an argument about where to sit on a line.",
+          "why": ""
+        },
+        "st3": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st4": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st5": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st6": {
+          "v": [
+            0,
+            1
+          ],
+          "quote": "It has a history that shows the same pattern repeating across civilizations that never communicated.",
+          "why": ""
+        },
+        "st7": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st8": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "or1": {
+          "v": [
+            2,
+            2
+          ],
+          "quote": "Every one of those fights is an argument about where to sit on a line.",
+          "why": "No known prior work frames all political disputes as positions on a hidden mathematical line with a single off-line exit."
+        },
+        "or2": {
+          "v": [
+            1,
+            1
+          ],
+          "quote": "It has a history that shows the same pattern repeating across civilizations that never communicated.",
+          "why": "Offers a claimed cross-civilizational repeating history as new evidence, though no data is given here."
+        },
+        "or3": {
+          "v": [
+            2,
+            2
+          ],
+          "quote": "The line has a mathematical structure.",
+          "why": "Connects political conflict to mathematics and an off-line resolution point, a cross-domain bridge."
+        },
+        "or4": {
+          "v": [
+            1,
+            1
+          ],
+          "quote": "It has a constraint that makes resolution impossible from inside.",
+          "why": "Gestures at a formal constraint but no equation or model is supplied."
+        }
+      },
+      "disagree": [
+        "st2",
+        "st6"
+      ],
+      "agreement": 0.83,
+      "prior_art": "none known",
+      "weakest_link": "P2, that all these fights are literally arguments about a position on one line, is asserted without argument.",
+      "develop_next": "State the line's mathematical structure explicitly and show how each listed fight maps onto a coordinate.",
+      "case_map": [
+        "K06",
+        "K07",
+        "K13"
+      ],
+      "domain": "philosophy",
+      "key": "98981051-G1",
+      "source": "O-08A_part_00_hook_e41c8dac",
+      "title": "THE META ARGUMENT"
+    },
+    {
+      "id": "G2",
+      "name": "Good and bad are structural properties",
+      "speaker": "David Lowe",
+      "conclusion": "Good and bad are structural properties of reality, as invariant as electric charge, not cultural opinions.",
+      "premises": [
+        "P1: The document will show that good and bad are structural properties of reality.",
+        "P2: These properties are as invariant as electric charge.",
+        "P3: They are not cultural opinions that shift with the century."
+      ],
+      "where": "P10, S039–S040",
+      "strength": 2.25,
+      "strength_runs": [
+        2.0,
+        2.5
+      ],
+      "originality": 4.0,
+      "originality_runs": [
+        4,
+        4
+      ],
+      "items": {
+        "st1": {
+          "v": [
+            2,
+            2
+          ],
+          "quote": "That good and bad are structural properties of reality, as invariant as electric charge — not cultural opinions that shift with the century.",
+          "why": ""
+        },
+        "st2": {
+          "v": [
+            1,
+            2
+          ],
+          "quote": "That good and bad are structural properties of reality, as invariant as electric charge",
+          "why": ""
+        },
+        "st3": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st4": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st5": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st6": {
+          "v": [
+            1,
+            1
+          ],
+          "quote": "as invariant as electric charge",
+          "why": ""
+        },
+        "st7": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st8": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "or1": {
+          "v": [
+            1,
+            1
+          ],
+          "quote": "as invariant as electric charge",
+          "why": "Moral realism is old, but the specific invariance-to-physical-charge analogy is a variant."
+        },
+        "or2": {
+          "v": [
+            1,
+            1
+          ],
+          "quote": "as invariant as electric charge",
+          "why": "Uses a physics-invariance analogy not standard in moral realist literature."
+        },
+        "or3": {
+          "v": [
+            2,
+            2
+          ],
+          "quote": "as invariant as electric charge",
+          "why": "Bridges physics (charge invariance) to metaethics."
+        },
+        "or4": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        }
+      },
+      "disagree": [
+        "st2"
+      ],
+      "agreement": 0.92,
+      "prior_art": "Robert Adams, Finite and Infinite Goods (moral realism), 1999",
+      "weakest_link": "P2, the analogy to electric charge invariance, is asserted with no physical or metaethical derivation.",
+      "develop_next": "Define the invariance property precisely and give a test that would distinguish it from cultural drift.",
+      "case_map": [
+        "K04",
+        "K07"
+      ],
+      "domain": "philosophy",
+      "key": "98981051-G2",
+      "source": "O-08A_part_00_hook_e41c8dac",
+      "title": "THE META ARGUMENT"
+    },
+    {
+      "id": "G3",
+      "name": "No system can determine its own moral direction",
+      "speaker": "David Lowe",
+      "conclusion": "No system can determine its own moral direction from inside itself, and this is a proven mathematical result, not philosophy.",
+      "premises": [
+        "P1: The document will show that no system can determine its own moral direction from inside itself.",
+        "P2: This is mathematics, not philosophy.",
+        "P3: It has been proven."
+      ],
+      "where": "P10, S041–S042",
+      "strength": 1.75,
+      "strength_runs": [
+        1.5,
+        2.0
+      ],
+      "originality": 2.5,
+      "originality_runs": [
+        2,
+        3
+      ],
+      "items": {
+        "st1": {
+          "v": [
+            2,
+            2
+          ],
+          "quote": "That no system can determine its own moral direction from inside itself — this is mathematics, not philosophy, and it has been proven.",
+          "why": ""
+        },
+        "st2": {
+          "v": [
+            1,
+            2
+          ],
+          "quote": "this is mathematics, not philosophy, and it has been proven",
+          "why": ""
+        },
+        "st3": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st4": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st5": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st6": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st7": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st8": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "or1": {
+          "v": [
+            1,
+            1
+          ],
+          "quote": "this is mathematics, not philosophy, and it has been proven",
+          "why": "Reuses the Gödelian self-reference trope applied to morality, a variant rather than a new proof."
+        },
+        "or2": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "or3": {
+          "v": [
+            1,
+            2
+          ],
+          "quote": "this is mathematics, not philosophy",
+          "why": "Applies a formal-limitation result to moral direction, a modest cross-domain move."
+        },
+        "or4": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        }
+      },
+      "disagree": [
+        "st2",
+        "or3"
+      ],
+      "agreement": 0.83,
+      "prior_art": "Kurt Gödel, incompleteness theorems, 1931",
+      "weakest_link": "P3, the claim that this has been proven, is unsupported by any cited theorem or derivation.",
+      "develop_next": "State the actual theorem and its assumptions, and show the moral-direction case satisfies them.",
+      "case_map": [
+        "K01",
+        "K02",
+        "K08"
+      ],
+      "domain": "mathematics",
+      "key": "98981051-G3",
+      "source": "O-08A_part_00_hook_e41c8dac",
+      "title": "THE META ARGUMENT"
+    },
+    {
+      "id": "G4",
+      "name": "External reference point must exist",
+      "speaker": "David Lowe",
+      "conclusion": "An external reference point must exist for the distinction between good and bad to be meaningful, and such a reference point has maintained a continuous, accessible record throughout human history.",
+      "premises": [
+        "P1: An external reference point must exist for the good/bad distinction to be meaningful.",
+        "P2: Such a reference point has maintained a continuous, accessible record throughout human history."
+      ],
+      "where": "P10, S043–S044",
+      "strength": 1.75,
+      "strength_runs": [
+        1.5,
+        2.0
+      ],
+      "originality": 2.5,
+      "originality_runs": [
+        2,
+        3
+      ],
+      "items": {
+        "st1": {
+          "v": [
+            2,
+            2
+          ],
+          "quote": "That an external reference point must exist for the distinction between good and bad to be meaningful — and that such a reference point has maintained a continuous, accessible record throughout human history.",
+          "why": ""
+        },
+        "st2": {
+          "v": [
+            1,
+            2
+          ],
+          "quote": "an external reference point must exist for the distinction between good and bad to be meaningful",
+          "why": ""
+        },
+        "st3": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st4": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st5": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st6": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st7": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st8": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "or1": {
+          "v": [
+            0,
+            1
+          ],
+          "quote": "an external reference point must exist for the distinction between good and bad to be meaningful",
+          "why": "Essentially the standard moral-argument-from-objective-values restated."
+        },
+        "or2": {
+          "v": [
+            1,
+            1
+          ],
+          "quote": "has maintained a continuous, accessible record throughout human history",
+          "why": "Adds a historical-record premise the classical moral argument does not use."
+        },
+        "or3": {
+          "v": [
+            1,
+            1
+          ],
+          "quote": "has maintained a continuous, accessible record throughout human history",
+          "why": "Links metaethics to a historical-continuity claim."
+        },
+        "or4": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        }
+      },
+      "disagree": [
+        "st2",
+        "or1"
+      ],
+      "agreement": 0.83,
+      "prior_art": "William Lane Craig, moral argument for God, 1980s",
+      "weakest_link": "P2, the claim of one continuous accessible historical record, is asserted with no identification of that record.",
+      "develop_next": "Identify the record and give criteria for continuity and accessibility across history.",
+      "case_map": [
+        "K04",
+        "K13",
+        "K15"
+      ],
+      "domain": "theology",
+      "key": "98981051-G4",
+      "source": "O-08A_part_00_hook_e41c8dac",
+      "title": "THE META ARGUMENT"
+    },
+    {
+      "id": "G5",
+      "name": "Institutions are captured in ordered sequence",
+      "speaker": "David Lowe",
+      "conclusion": "Institutions get captured in a specific, documented, ordered sequence: money first, then government, then education, then reality-interpreters, then moral language itself.",
+      "premises": [
+        "P1: The document will show that institutions get captured in a specific, documented, ordered sequence.",
+        "P2: The sequence is money, government, education, reality-interpreters, moral language."
+      ],
+      "where": "P10, S045–S046",
+      "strength": 1.75,
+      "strength_runs": [
+        1.5,
+        2.0
+      ],
+      "originality": 3.5,
+      "originality_runs": [
+        4,
+        3
+      ],
+      "items": {
+        "st1": {
+          "v": [
+            2,
+            2
+          ],
+          "quote": "That institutions get captured in a specific, documented, ordered sequence — money first, then government, then education, then the people who interpret reality for everyone else, then the moral language itself.",
+          "why": ""
+        },
+        "st2": {
+          "v": [
+            1,
+            2
+          ],
+          "quote": "money first, then government, then education, then the people who interpret reality for everyone else, then the moral language itself",
+          "why": ""
+        },
+        "st3": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st4": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st5": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st6": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st7": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st8": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "or1": {
+          "v": [
+            2,
+            2
+          ],
+          "quote": "money first, then government, then education, then the people who interpret reality for everyone else, then the moral language itself",
+          "why": "No known prior work specifies this exact ordered capture sequence."
+        },
+        "or2": {
+          "v": [
+            1,
+            0
+          ],
+          "quote": "a specific, documented, ordered sequence",
+          "why": "Claims documentation as new evidence, though none is exhibited here."
+        },
+        "or3": {
+          "v": [
+            1,
+            1
+          ],
+          "quote": "then the moral language itself",
+          "why": "Extends institutional-capture theory into moral language, a cross-domain move."
+        },
+        "or4": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        }
+      },
+      "disagree": [
+        "st2",
+        "or2"
+      ],
+      "agreement": 0.83,
+      "prior_art": "none known",
+      "weakest_link": "P1, that the sequence is documented, is asserted without any documentation.",
+      "develop_next": "Provide dated case studies showing each stage preceding the next across multiple societies.",
+      "case_map": [
+        "K06",
+        "K07"
+      ],
+      "domain": "history",
+      "key": "98981051-G5",
+      "source": "O-08A_part_00_hook_e41c8dac",
+      "title": "THE META ARGUMENT"
+    },
+    {
+      "id": "G6",
+      "name": "Shame is the enforcement mechanism",
+      "speaker": "David Lowe",
+      "conclusion": "The enforcement mechanism is not force but shame, and governments have deployed it as official policy since at least 2015.",
+      "premises": [
+        "P1: The enforcement mechanism is shame, not force.",
+        "P2: Governments have been deploying shame as official policy since at least 2015."
+      ],
+      "where": "P10, S047–S048",
+      "strength": 2.0,
+      "strength_runs": [
+        1.5,
+        2.5
+      ],
+      "originality": 4.0,
+      "originality_runs": [
+        4,
+        4
+      ],
+      "items": {
+        "st1": {
+          "v": [
+            2,
+            2
+          ],
+          "quote": "That the enforcement mechanism is not force but shame — and that governments have been deploying it as official policy since at least 2015.",
+          "why": ""
+        },
+        "st2": {
+          "v": [
+            1,
+            2
+          ],
+          "quote": "the enforcement mechanism is not force but shame",
+          "why": ""
+        },
+        "st3": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st4": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st5": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st6": {
+          "v": [
+            0,
+            1
+          ],
+          "quote": "since at least 2015",
+          "why": ""
+        },
+        "st7": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st8": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "or1": {
+          "v": [
+            2,
+            2
+          ],
+          "quote": "the enforcement mechanism is not force but shame",
+          "why": "Framing shame as the primary enforcement mechanism of institutional capture is not a standard restatement."
+        },
+        "or2": {
+          "v": [
+            1,
+            1
+          ],
+          "quote": "governments have been deploying it as official policy since at least 2015",
+          "why": "Offers a dated policy claim as new evidence, though uncited here."
+        },
+        "or3": {
+          "v": [
+            1,
+            1
+          ],
+          "quote": "the enforcement mechanism is not force but shame",
+          "why": "Connects social psychology (shame) to political enforcement."
+        },
+        "or4": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        }
+      },
+      "disagree": [
+        "st2",
+        "st6"
+      ],
+      "agreement": 0.83,
+      "prior_art": "none known",
+      "weakest_link": "P2, the dated claim that governments have deployed shame as official policy since 2015, is unsupported.",
+      "develop_next": "Cite specific government policies from 2015 onward that use shame as an enforcement instrument.",
+      "case_map": [
+        "K07",
+        "K08"
+      ],
+      "domain": "psychology",
+      "key": "98981051-G6",
+      "source": "O-08A_part_00_hook_e41c8dac",
+      "title": "THE META ARGUMENT"
+    },
+    {
+      "id": "G7",
+      "name": "Population sorts by connection to truth",
+      "speaker": "David Lowe",
+      "conclusion": "The population sorts into two classes over time, defined not by demographics but by whether their connection to truth runs through captured institutions or directly to the source.",
+      "premises": [
+        "P1: The population sorts into two classes over time.",
+        "P2: The sorting is defined by one structural feature: connection to truth via captured institutions or directly to the source.",
+        "P3: It is not defined by any demographic variable."
+      ],
+      "where": "P10, S049–S050",
+      "strength": 1.75,
+      "strength_runs": [
+        1.5,
+        2.0
+      ],
+      "originality": 3.5,
+      "originality_runs": [
+        4,
+        3
+      ],
+      "items": {
+        "st1": {
+          "v": [
+            2,
+            2
+          ],
+          "quote": "That the population sorts into two classes over time, defined not by any demographic variable but by one structural feature: whether their connection to truth runs through the captured institutions or directly to the source.",
+          "why": ""
+        },
+        "st2": {
+          "v": [
+            1,
+            2
+          ],
+          "quote": "defined not by any demographic variable but by one structural feature: whether their connection to truth runs through the captured institutions or directly to the source",
+          "why": ""
+        },
+        "st3": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st4": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st5": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st6": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st7": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st8": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "or1": {
+          "v": [
+            2,
+            2
+          ],
+          "quote": "defined not by any demographic variable but by one structural feature: whether their connection to truth runs through the captured institutions or directly to the source",
+          "why": "A single-axis truth-connection sorting is not a standard restatement of prior social-sorting theories."
+        },
+        "or2": {
+          "v": [
+            1,
+            0
+          ],
+          "quote": "The population sorts into two classes over time",
+          "why": "Proposes an empirical sorting claim as new evidence, though no data is shown."
+        },
+        "or3": {
+          "v": [
+            1,
+            1
+          ],
+          "quote": "connection to truth runs through the captured institutions or directly to the source",
+          "why": "Links epistemology of truth-access to social stratification."
+        },
+        "or4": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        }
+      },
+      "disagree": [
+        "st2",
+        "or2"
+      ],
+      "agreement": 0.83,
+      "prior_art": "none known",
+      "weakest_link": "P1, that the population in fact sorts into exactly two classes, is asserted without data.",
+      "develop_next": "Operationalize 'connection to truth' and present longitudinal data showing bimodal sorting.",
+      "case_map": [
+        "K06",
+        "K07",
+        "K12"
+      ],
+      "domain": "psychology",
+      "key": "98981051-G7",
+      "source": "O-08A_part_00_hook_e41c8dac",
+      "title": "THE META ARGUMENT"
+    },
+    {
+      "id": "G8",
+      "name": "Communication technologies follow capture pattern",
+      "speaker": "David Lowe",
+      "conclusion": "Every communication technology in history follows the same pattern: a brief window where truth spreads, followed by institutional capture of the infrastructure.",
+      "premises": [
+        "P1: Writing, printing press, radio, television, internet, and social media are communication technologies in history.",
+        "P2: Each follows the same pattern: brief truth-spread window, then institutional capture of infrastructure."
+      ],
+      "where": "P10, S051–S052",
+      "strength": 1.75,
+      "strength_runs": [
+        1.5,
+        2.0
+      ],
+      "originality": 3.5,
+      "originality_runs": [
+        3,
+        4
+      ],
+      "items": {
+        "st1": {
+          "v": [
+            2,
+            2
+          ],
+          "quote": "That every communication technology in history — writing, the printing press, radio, television, the internet, social media — follows the same pattern: a brief window where truth spreads, followed by institutional capture of the infrastructure.",
+          "why": ""
+        },
+        "st2": {
+          "v": [
+            1,
+            2
+          ],
+          "quote": "follows the same pattern: a brief window where truth spreads, followed by institutional capture of the infrastructure",
+          "why": ""
+        },
+        "st3": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st4": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st5": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st6": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st7": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st8": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "or1": {
+          "v": [
+            1,
+            2
+          ],
+          "quote": "follows the same pattern: a brief window where truth spreads, followed by institutional capture of the infrastructure",
+          "why": "Innis already argued communication media shape and are shaped by power; this is a simplified variant."
+        },
+        "or2": {
+          "v": [
+            1,
+            1
+          ],
+          "quote": "writing, the printing press, radio, television, the internet, social media",
+          "why": "Extends the list to internet and social media, which Innis could not cover."
+        },
+        "or3": {
+          "v": [
+            1,
+            1
+          ],
+          "quote": "institutional capture of the infrastructure",
+          "why": "Connects media history to institutional-capture theory."
+        },
+        "or4": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        }
+      },
+      "disagree": [
+        "st2",
+        "or1"
+      ],
+      "agreement": 0.83,
+      "prior_art": "Harold Innis, Empire and Communications, 1950",
+      "weakest_link": "P2, the universal same-pattern claim, is supported by no case-by-case evidence.",
+      "develop_next": "Give dated timelines for at least three technologies showing the truth-window then capture.",
+      "case_map": [
+        "K06",
+        "K12"
+      ],
+      "domain": "history",
+      "key": "98981051-G8",
+      "source": "O-08A_part_00_hook_e41c8dac",
+      "title": "THE META ARGUMENT"
+    },
+    {
+      "id": "G9",
+      "name": "Justice and mercy cannot both be fully satisfied",
+      "speaker": "David Lowe",
+      "conclusion": "A mathematical constraint provable by algebra shows that justice and mercy cannot both be fully satisfied inside any closed system; someone always eats the deficit.",
+      "premises": [
+        "P1: There is a mathematical constraint provable by algebra.",
+        "P2: It shows justice and mercy cannot both be fully satisfied inside any closed system.",
+        "P3: Someone always eats the deficit.",
+        "P4: The only question is who, and whether they chose to."
+      ],
+      "where": "P10, S053–S056",
+      "strength": 1.75,
+      "strength_runs": [
+        1.5,
+        2.0
+      ],
+      "originality": 5.0,
+      "originality_runs": [
+        6,
+        4
+      ],
+      "items": {
+        "st1": {
+          "v": [
+            2,
+            2
+          ],
+          "quote": "That there is a mathematical constraint — provable by algebra — showing that justice and mercy cannot both be fully satisfied inside any closed system.",
+          "why": ""
+        },
+        "st2": {
+          "v": [
+            1,
+            2
+          ],
+          "quote": "there is a mathematical constraint — provable by algebra — showing that justice and mercy cannot both be fully satisfied inside any closed system",
+          "why": ""
+        },
+        "st3": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st4": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st5": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st6": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st7": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st8": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "or1": {
+          "v": [
+            2,
+            1
+          ],
+          "quote": "there is a mathematical constraint — provable by algebra — showing that justice and mercy cannot both be fully satisfied inside any closed system",
+          "why": "Formalizing the justice-mercy tension as an algebraic closed-system constraint is not a standard restatement."
+        },
+        "or2": {
+          "v": [
+            1,
+            0
+          ],
+          "quote": "provable by algebra",
+          "why": "Claims a proof as new support, though the algebra is not shown."
+        },
+        "or3": {
+          "v": [
+            2,
+            2
+          ],
+          "quote": "cannot both be fully satisfied inside any closed system",
+          "why": "Bridges algebra/thermodynamic-style closure to atonement theology."
+        },
+        "or4": {
+          "v": [
+            1,
+            1
+          ],
+          "quote": "provable by algebra",
+          "why": "Promises a formalization but supplies no equation."
+        }
+      },
+      "disagree": [
+        "st2",
+        "or1",
+        "or2"
+      ],
+      "agreement": 0.75,
+      "prior_art": "none known",
+      "weakest_link": "P1/P2, the claimed algebraic proof, is entirely absent from the source.",
+      "develop_next": "Write out the algebra and define the variables for justice and mercy.",
+      "case_map": [
+        "K04",
+        "K18"
+      ],
+      "domain": "mathematics",
+      "key": "98981051-G9",
+      "source": "O-08A_part_00_hook_e41c8dac",
+      "title": "THE META ARGUMENT"
+    },
+    {
+      "id": "G10",
+      "name": "Historical trajectory follows same curve",
+      "speaker": "David Lowe",
+      "conclusion": "The historical trajectory across every measurable dimension follows the same curve, in the same direction, with the same acceleration.",
+      "premises": [
+        "P1: Measurable dimensions include food sovereignty, information access, medical autonomy, educational independence, financial sovereignty, and community structure.",
+        "P2: Each follows the same curve, direction, and acceleration."
+      ],
+      "where": "P10, S057–S058",
+      "strength": 1.75,
+      "strength_runs": [
+        1.5,
+        2.0
+      ],
+      "originality": 5.0,
+      "originality_runs": [
+        5,
+        5
+      ],
+      "items": {
+        "st1": {
+          "v": [
+            2,
+            2
+          ],
+          "quote": "That the historical trajectory across every measurable dimension — food sovereignty, information access, medical autonomy, educational independence, financial sovereignty, community structure — follows the same curve, in the same direction, with the same acceleration.",
+          "why": ""
+        },
+        "st2": {
+          "v": [
+            1,
+            2
+          ],
+          "quote": "food sovereignty, information access, medical autonomy, educational independence, financial sovereignty, community structure",
+          "why": ""
+        },
+        "st3": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st4": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st5": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st6": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st7": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st8": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "or1": {
+          "v": [
+            2,
+            2
+          ],
+          "quote": "follows the same curve, in the same direction, with the same acceleration",
+          "why": "A single shared curve with shared acceleration across six dimensions is not a standard declinism restatement."
+        },
+        "or2": {
+          "v": [
+            1,
+            1
+          ],
+          "quote": "food sovereignty, information access, medical autonomy, educational independence, financial sovereignty, community structure",
+          "why": "Proposes a specific six-dimension metric set as new evidence."
+        },
+        "or3": {
+          "v": [
+            1,
+            1
+          ],
+          "quote": "with the same acceleration",
+          "why": "Imports kinematic language into social history."
+        },
+        "or4": {
+          "v": [
+            1,
+            1
+          ],
+          "quote": "follows the same curve, in the same direction, with the same acceleration",
+          "why": "Suggests a shared functional form but gives no fitted model."
+        }
+      },
+      "disagree": [
+        "st2"
+      ],
+      "agreement": 0.92,
+      "prior_art": "none known",
+      "weakest_link": "P2, that all six dimensions share the same curve and acceleration, is asserted without data.",
+      "develop_next": "Plot the six series over time and test whether a single curve fits.",
+      "case_map": [
+        "K05",
+        "K06",
+        "K14"
+      ],
+      "domain": "history",
+      "key": "98981051-G10",
+      "source": "O-08A_part_00_hook_e41c8dac",
+      "title": "THE META ARGUMENT"
+    },
+    {
+      "id": "G11",
+      "name": "One historical event reversed the trajectory",
+      "speaker": "David Lowe",
+      "conclusion": "There is exactly one event in recorded history where the trajectory reversed without the system collapsing, and it has measurable features no other candidate matches.",
+      "premises": [
+        "P1: There is exactly one event in recorded history where the trajectory reversed without system collapse.",
+        "P2: That event has measurable features that no other candidate in history matches."
+      ],
+      "where": "P10, S059–S060",
+      "strength": 1.75,
+      "strength_runs": [
+        1.5,
+        2.0
+      ],
+      "originality": 4.5,
+      "originality_runs": [
+        4,
+        5
+      ],
+      "items": {
+        "st1": {
+          "v": [
+            2,
+            2
+          ],
+          "quote": "That there is exactly one event in the recorded history of the world where this trajectory reversed without the system collapsing — and that event has measurable features that no other candidate in history matches.",
+          "why": ""
+        },
+        "st2": {
+          "v": [
+            1,
+            2
+          ],
+          "quote": "That there is exactly one event in the recorded history of the world where this trajectory reversed without the system collapsing",
+          "why": ""
+        },
+        "st3": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st4": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st5": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st6": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st7": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st8": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "or1": {
+          "v": [
+            1,
+            1
+          ],
+          "quote": "exactly one event in the recorded history of the world where this trajectory reversed without the system collapsing",
+          "why": "Resurrection as history is old, but framing it as a unique trajectory reversal is a variant."
+        },
+        "or2": {
+          "v": [
+            1,
+            1
+          ],
+          "quote": "that event has measurable features that no other candidate in history matches",
+          "why": "Offers measurable-feature uniqueness as new support, though none are listed."
+        },
+        "or3": {
+          "v": [
+            2,
+            2
+          ],
+          "quote": "where this trajectory reversed without the system collapsing",
+          "why": "Connects thermodynamic-style collapse to a historical event."
+        },
+        "or4": {
+          "v": [
+            0,
+            1
+          ],
+          "quote": "this trajectory reversed",
+          "why": "Frames the event within a trajectory model but gives no formal apparatus."
+        }
+      },
+      "disagree": [
+        "st2",
+        "or4"
+      ],
+      "agreement": 0.83,
+      "prior_art": "N. T. Wright, The Resurrection of the Son of God, 2003",
+      "weakest_link": "P1, the uniqueness claim of exactly one reversal event, is unsupported and the event is not even named.",
+      "develop_next": "Name the event, list its measurable features, and compare against rival candidates.",
+      "case_map": [
+        "K13",
+        "K15",
+        "K16"
+      ],
+      "domain": "history",
+      "key": "98981051-G11",
+      "source": "O-08A_part_00_hook_e41c8dac",
+      "title": "THE META ARGUMENT"
+    },
+    {
+      "id": "G12",
+      "name": "Ten claims form a single explanatory structure",
+      "speaker": "David Lowe",
+      "conclusion": "If the ten claims hold up, they form a single structure that explains the fights, why they occur, why they don't resolve, and what resolution would require.",
+      "premises": [
+        "P1: The ten claims are the ones listed in P10.",
+        "P2: If they hold up under examination, they form a single structure.",
+        "P3: That structure explains not just the fights but why they are had, why they don't resolve, and what resolution would require."
+      ],
+      "where": "P11, S061",
+      "strength": 3.5,
+      "strength_runs": [
+        3.5,
+        3.5
+      ],
+      "originality": 4.0,
+      "originality_runs": [
+        5,
+        3
+      ],
+      "items": {
+        "st1": {
+          "v": [
+            2,
+            2
+          ],
+          "quote": "If those ten claims hold up under examination, they form a single structure — and that structure explains not just the fights you're having, but why you're having them, why they don't resolve, and what the resolution would require.",
+          "why": ""
+        },
+        "st2": {
+          "v": [
+            1,
+            2
+          ],
+          "quote": "If those ten claims hold up under examination, they form a single structure",
+          "why": ""
+        },
+        "st3": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st4": {
+          "v": [
+            1,
+            1
+          ],
+          "quote": "If those ten claims hold up under examination, they form a single structure",
+          "why": ""
+        },
+        "st5": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st6": {
+          "v": [
+            1,
+            2
+          ],
+          "quote": "If those ten claims hold up under examination",
+          "why": ""
+        },
+        "st7": {
+          "v": [
+            1,
+            0
+          ],
+          "quote": "If those ten claims hold up under examination",
+          "why": ""
+        },
+        "st8": {
+          "v": [
+            1,
+            0
+          ],
+          "quote": "they form a single structure — and that structure explains not just the fights you're having, but why you're having them",
+          "why": ""
+        },
+        "or1": {
+          "v": [
+            2,
+            2
+          ],
+          "quote": "they form a single structure",
+          "why": "Integrating ten listed claims into one explanatory structure is not a restatement of any known prior argument."
+        },
+        "or2": {
+          "v": [
+            1,
+            0
+          ],
+          "quote": "If those ten claims hold up under examination",
+          "why": "The ten-claim set itself is the new material, though each claim is only asserted here."
+        },
+        "or3": {
+          "v": [
+            1,
+            1
+          ],
+          "quote": "why they don't resolve, and what the resolution would require",
+          "why": "Links political conflict explanation to a single multi-domain structure."
+        },
+        "or4": {
+          "v": [
+            1,
+            0
+          ],
+          "quote": "they form a single structure",
+          "why": "Claims a unifying structure but does not formalize it."
+        }
+      },
+      "disagree": [
+        "st2",
+        "st6",
+        "st7",
+        "st8",
+        "or2",
+        "or4"
+      ],
+      "agreement": 0.5,
+      "prior_art": "none known",
+      "weakest_link": "P2, that the ten claims cohere into one structure, is asserted rather than shown.",
+      "develop_next": "Show the deductive or evidential links among the ten claims explicitly.",
+      "case_map": [
+        "K06",
+        "K07"
+      ],
+      "domain": "philosophy",
+      "key": "98981051-G12",
+      "source": "O-08A_part_00_hook_e41c8dac",
+      "title": "THE META ARGUMENT"
+    },
+    {
+      "id": "G13",
+      "name": "Follow the argument and check the evidence",
+      "speaker": "David Lowe",
+      "conclusion": "The audience should not believe anything at the outset but should follow the argument, check the evidence, and see where it lands.",
+      "premises": [
+        "P1: We are not asking you to believe anything at the outset.",
+        "P2: We are asking you to follow the argument and check the evidence.",
+        "P3: See where it lands."
+      ],
+      "where": "P12, S062–S063",
+      "strength": 3.0,
+      "strength_runs": [
+        3.0,
+        3.0
+      ],
+      "originality": 2.0,
+      "originality_runs": [
+        2,
+        2
+      ],
+      "items": {
+        "st1": {
+          "v": [
+            2,
+            2
+          ],
+          "quote": "We are asking you to follow the argument, check the evidence, and see where it lands.",
+          "why": ""
+        },
+        "st2": {
+          "v": [
+            2,
+            2
+          ],
+          "quote": "We are not asking you to believe anything at the outset.",
+          "why": ""
+        },
+        "st3": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st4": {
+          "v": [
+            1,
+            0
+          ],
+          "quote": "follow the argument, check the evidence, and see where it lands",
+          "why": ""
+        },
+        "st5": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st6": {
+          "v": [
+            1,
+            2
+          ],
+          "quote": "We are not asking you to believe anything at the outset.",
+          "why": ""
+        },
+        "st7": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "st8": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "or1": {
+          "v": [
+            2,
+            2
+          ],
+          "quote": "We are not asking you to believe anything at the outset.",
+          "why": "A methodological exhortation rather than a restatement of any prior substantive argument."
+        },
+        "or2": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "or3": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "or4": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        }
+      },
+      "disagree": [
+        "st4",
+        "st6"
+      ],
+      "agreement": 0.83,
+      "prior_art": "none known",
+      "weakest_link": "P3, 'see where it lands,' gives no criterion for when the argument has landed.",
+      "develop_next": "Specify the acceptance conditions the reader should apply to the evidence.",
+      "case_map": [],
+      "domain": "philosophy",
+      "key": "98981051-G13",
+      "source": "O-08A_part_00_hook_e41c8dac",
+      "title": "THE META ARGUMENT"
+    },
+    {
+      "id": "G14",
+      "name": "Publish the break alongside the argument",
+      "speaker": "David Lowe",
+      "conclusion": "If the argument lands somewhere you don't like, show where it breaks; we'll publish the break alongside the argument because a framework that can't survive honest criticism isn't worth defending.",
+      "premises": [
+        "P1: If it lands somewhere you don't like, show us where it breaks.",
+        "P2: We'll publish the break alongside the argument.",
+        "P3: A framework that can't survive honest criticism isn't worth defending."
+      ],
+      "where": "P12, S064–S065",
+      "strength": 4.5,
+      "strength_runs": [
+        4.5,
+        4.5
+      ],
+      "originality": 2.0,
+      "originality_runs": [
+        2,
+        2
+      ],
+      "items": {
+        "st1": {
+          "v": [
+            2,
+            2
+          ],
+          "quote": "If it lands somewhere you don't like, show us where it breaks.",
+          "why": ""
+        },
+        "st2": {
+          "v": [
+            2,
+            2
+          ],
+          "quote": "We'll publish the break alongside the argument, because a framework that can't survive honest criticism isn't worth defending.",
+          "why": ""
+        },
+        "st3": {
+          "v": [
+            1,
+            1
+          ],
+          "quote": "a framework that can't survive honest criticism isn't worth defending",
+          "why": ""
+        },
+        "st4": {
+          "v": [
+            1,
+            1
+          ],
+          "quote": "We'll publish the break alongside the argument, because a framework that can't survive honest criticism isn't worth defending.",
+          "why": ""
+        },
+        "st5": {
+          "v": [
+            1,
+            0
+          ],
+          "quote": "If it lands somewhere you don't like, show us where it breaks.",
+          "why": ""
+        },
+        "st6": {
+          "v": [
+            1,
+            2
+          ],
+          "quote": "If it lands somewhere you don't like, show us where it breaks.",
+          "why": ""
+        },
+        "st7": {
+          "v": [
+            1,
+            1
+          ],
+          "quote": "show us where it breaks",
+          "why": ""
+        },
+        "st8": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "or1": {
+          "v": [
+            1,
+            2
+          ],
+          "quote": "a framework that can't survive honest criticism isn't worth defending",
+          "why": "A Popperian falsifiability norm applied to a personal framework, a variant."
+        },
+        "or2": {
+          "v": [
+            1,
+            0
+          ],
+          "quote": "We'll publish the break alongside the argument",
+          "why": "Committing to publish refutations is a concrete new practice, not a new argument."
+        },
+        "or3": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        },
+        "or4": {
+          "v": [
+            0,
+            0
+          ],
+          "quote": "",
+          "why": ""
+        }
+      },
+      "disagree": [
+        "st5",
+        "st6",
+        "or1",
+        "or2"
+      ],
+      "agreement": 0.67,
+      "prior_art": "Karl Popper, falsifiability as scientific criterion, 1934",
+      "weakest_link": "P2, the promise to publish any break, is unverifiable at the time of writing.",
+      "develop_next": "Define what counts as a break and commit to a venue and timeline for publishing it.",
+      "case_map": [],
+      "domain": "philosophy",
+      "key": "98981051-G14",
+      "source": "O-08A_part_00_hook_e41c8dac",
+      "title": "THE META ARGUMENT"
+    }
+  ],
+  "tokens_new": 27400,
+  "errors": {}
+}

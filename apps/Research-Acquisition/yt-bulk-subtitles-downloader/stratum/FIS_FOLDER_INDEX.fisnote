@@ -1,0 +1,29 @@
+---
+fis_schema: tag-ledger.v1
+run_id: 1
+folder: "stratum pop up"
+generated_at: "2026-06-23T17:14:16"
+ledger: "D:\\DONT TOUCH BOOT UP\\FIS\\fis_runtime\\tag_ledger.sqlite"
+tags: ["folder", "stratum", "pop", "other", "archive", "document", "code", "has-subfolders"]
+file_count: 8
+child_folder_count: 10
+---
+
+# FIS Folder Index: stratum pop up
+
+This folder has been seen by the FIS tag ledger. The ledger records names, tags, skipped items, and move status.
+
+Move state: every listed file starts as `not_moved` until a later approved mover records otherwise.
+
+## Direct Files
+
+- `.gitattributes` :: #file #other #gitattributes :: move_status=not_moved
+- `.gitignore` :: #file #other #gitignore :: move_status=not_moved
+- `chi_jm_diagnostic_engine_v4_gold.py` :: #file #code #python #ext-py #chi #diagnostic #engine #gold :: move_status=not_moved
+- `chi_jm_diagnostic_engine_v4_gold_bundle.zip` :: #file #archive #zip #ext-zip #chi #diagnostic #engine #gold :: move_status=not_moved
+- `files.zip` :: #file #archive #zip #ext-zip #files :: move_status=not_moved
+- `lexicons_master_enhanced.xlsx` :: #file #data #spreadsheet #ext-xlsx #lexicons #master #enhanced :: move_status=not_moved
+- `README.md` :: #file #document #markdown #ext-md #readme :: move_status=not_moved
+- `requirements.txt` :: #file #document #text #ext-txt #requirements :: move_status=not_moved
+
+<!-- FIS tag-ledger.v1: parseable note; safe to regenerate. -->

@@ -1,0 +1,28 @@
+---
+fis_schema: "folder-index.v1"
+folder_id: "FLD-20260907-fc13b180"
+folder: "GitHub\Research-Acquisition\crawl4ai\docs\md_v2\core"
+folder_class: "project"
+confidence: 0.6
+dependency_risk: 0.0
+dominant_family: "text"
+dominant_ratio: 0.957
+file_count: 23
+classified_at: "2026-09-07T16:07:40"
+allowed_actions: ["index", "rename_internal", "subfolder_sort", "archive_exports"]
+suggested_name: "core"
+---
+
+# FIS Folder Index: core
+
+**Class**: project  ·  **Confidence**: 60%  ·  **Files**: 23  ·  **Dominant**: text (96%)
+
+## Allowed actions
+- index
+- rename_internal
+- subfolder_sort
+- archive_exports
+
+**Suggested name**: `core`  (not applied — review before use)
+
+<!-- FIS folder-index.v1: parseable note; safe to regenerate. -->

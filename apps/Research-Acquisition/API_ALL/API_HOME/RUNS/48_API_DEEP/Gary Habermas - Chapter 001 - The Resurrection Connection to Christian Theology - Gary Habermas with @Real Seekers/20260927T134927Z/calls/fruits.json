@@ -1,0 +1,801 @@
+{
+  "name": "fruits",
+  "parsed": {
+    "spec_version": "0.3.0",
+    "target": {
+      "type": "paper",
+      "title": "Gary Habermas - Chapter 001 - The Resurrection Connection to Christian Theology - Gary Habermas with @Real Seekers",
+      "domain": "popular Christian apologetics interview (auto-captioned YouTube transcript)",
+      "unit": "complete supplied document (part one of a two-part interview)",
+      "comparison_class": "apologetics interview transcript of similar evidence burden",
+      "population_boundary": "speakers Gary Habermas and host Dale; named interlocutors (Hume, Russell, Flew, Shabir Ali, Joe Schmidt, Bart Ehrman, Swinburne, Allison, Del Rosario); unnamed 'skeptics' and 'critical scholars' as a class; no direct testimony from any skeptic, Catholic, Orthodox, or harmed party",
+      "time_window": "recording undated; downloaded 2026-09-15; retrospective claims span ~52 years of teaching"
+    },
+    "gate_results": [
+      {
+        "gate_id": "gate.truth_evidence",
+        "status": "WARN",
+        "hard": true,
+        "rationale": "Many factual claims are attributed to named sources (Hume, Swinburne, Allison, Mark 14, Luke 10, Romans 1-2) and are checkable, but no citations, page numbers, or quotations are given in-text; several empirical claims (Medjugorje crowd size, Quran on Muhammad's miracles, Buddha source lateness) are asserted without traceable support.",
+        "evidence_refs": [
+          "S476",
+          "S623",
+          "S667",
+          "S779"
+        ],
+        "resolution": "Would pass with page-level citations and quoted sources for the empirical claims."
+      },
+      {
+        "gate_id": "gate.contradiction",
+        "status": "WARN",
+        "hard": true,
+        "rationale": "Load-bearing tension between 'I'm not arguing for the resurrection so much anymore' and the four-volume evidential project is acknowledged and answered (S062-S068, S099-S100), so it is bounded rather than unresolved; but the claim that critics 'will make a new story up' (S085) is unfalsifiable and sits uneasily with the stated evidentialism.",
+        "evidence_refs": [
+          "S062",
+          "S085",
+          "S099"
+        ],
+        "resolution": "Acknowledged and locally repaired; the unfalsifiable-critic claim remains unrepaired."
+      },
+      {
+        "gate_id": "gate.scope",
+        "status": "WARN",
+        "hard": false,
+        "rationale": "Theological and historical conclusions are drawn from a popular-level interview; the speaker himself concedes he is not 'proving' God (S732-S747), which keeps most claims inside a probability framing, but the deity-of-Christ and kingdom claims are stated more strongly than the interview's evidence supports.",
+        "evidence_refs": [
+          "S732",
+          "S743",
+          "S747"
+        ],
+        "resolution": null
+      },
+      {
+        "gate_id": "gate.falsifiability",
+        "status": "WARN",
+        "hard": false,
+        "rationale": "The source names what would count against it in places (if Jesus' major teaching were false, S264; if the resurrection claim were false, S462) and concedes uncertainty about proof standards (S735-S747). But the dismissal of persistent skeptics as self-sealing (S084-S088) blocks correction from that quarter.",
+        "evidence_refs": [
+          "S264",
+          "S462",
+          "S084"
+        ],
+        "resolution": null
+      },
+      {
+        "gate_id": "gate.bridge_validity",
+        "status": "WARN",
+        "hard": false,
+        "rationale": "The God-to-miracle-to-kingdom bridge is laid out with explicit links (S401, S445, S466) and a stated criterion (Swinburne's one-time, message-evidencing event, S440-S441), but the mapping from 'unique event' to 'God did it' relies on an unstated premise about what God would/wouldn't do (S260, S292).",
+        "evidence_refs": [
+          "S401",
+          "S440",
+          "S260"
+        ],
+        "resolution": null
+      },
+      {
+        "gate_id": "gate.provenance",
+        "status": "WARN",
+        "hard": false,
+        "rationale": "Speakers are identifiable and the video id/url are given, but the transcript is auto-captioned with no speaker labels, proper names are garbled (S197-S198, S433, S508), and no work is cited by page.",
+        "evidence_refs": [
+          "S197",
+          "S433",
+          "S508"
+        ],
+        "resolution": null
+      },
+      {
+        "gate_id": "gate.agency_noncoercion",
+        "status": "PASS",
+        "hard": true,
+        "rationale": "No concealed compulsion or destruction of agency appears; the speaker explicitly declines to pressure his agnostic correspondent (S122-S123) and leaves listeners' judgments open (S111-S115).",
+        "evidence_refs": [
+          "S122",
+          "S123",
+          "S111"
+        ],
+        "resolution": null
+      }
+    ],
+    "fruit_profile": [
+      {
+        "fruit_id": "fruit.love",
+        "score": 2,
+        "confidence": 0.5,
+        "mechanism": "truth-aligned relational cohesion seeking the good of the whole while bearing cost and preserving agency",
+        "positive_evidence": [
+          {
+            "ref_id": "E-L1",
+            "quote_or_event": "I don't say Catholics are going to hell.",
+            "location": "S682",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Refuses to consign rival traditions to perdition; good will across boundaries.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-L2",
+            "quote_or_event": "Whatever your name over the door, what are you doing with Christ?",
+            "location": "S696",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Prioritizes the other's real standing over tribal labels.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-L3",
+            "quote_or_event": "they need to be fed.",
+            "location": "S341",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Names material care for unbelievers as a duty.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-L4",
+            "quote_or_event": "And as far as he's uh going on faith and presuppositionalism, a total total joke.",
+            "location": "S077",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Contempt toward an interlocutor class undercuts love's cost-bearing posture.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-L5",
+            "quote_or_event": "But I'm just saying those objections are absolutely silly.",
+            "location": "S089",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Dismissal rather than engagement with the objector.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.5,
+        "stress_tests": {
+          "source": "WARN",
+          "cost": "UNKNOWN",
+          "endurance": "WARN",
+          "relation": "WARN",
+          "power": "PASS",
+          "correction": "WARN",
+          "outsider": "WARN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Real cross-tradition good will (S682-S696) coexists with repeated contempt for skeptics (S077, S089, S109); mixed, mostly verbal, no cost shown."
+      },
+      {
+        "fruit_id": "fruit.joy",
+        "score": 2,
+        "confidence": 0.3,
+        "mechanism": "durable participation in real good not dependent on denial or status",
+        "positive_evidence": [
+          {
+            "ref_id": "E-J1",
+            "quote_or_event": "I'm I'm glad volume 4 is out.",
+            "location": "S011",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Satisfaction in completed work.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-J2",
+            "quote_or_event": "A number of people are telling me it's their favorite volume.",
+            "location": "S014",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Joy framed through reviewer praise and ranking, a status-dependent register.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.2,
+        "stress_tests": {
+          "source": "WARN",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "UNKNOWN",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Little direct evidence; the per-sentence pass scored joy at 0.0 with no spikes, and I agree there is no strong joy signal either way."
+      },
+      {
+        "fruit_id": "fruit.peace",
+        "score": 2,
+        "confidence": 0.35,
+        "mechanism": "reintegrated order in which tensions are truthfully addressed without suppression",
+        "positive_evidence": [
+          {
+            "ref_id": "E-P1",
+            "quote_or_event": "I can live and let live.",
+            "location": "S114",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Explicitly tolerates disagreement on minor matters.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-P2",
+            "quote_or_event": "You can't really answer these guys because here's the key.",
+            "location": "S083",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Conflict declared unaddressable rather than worked through.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.3,
+        "stress_tests": {
+          "source": "WARN",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "WARN",
+          "power": "UNKNOWN",
+          "correction": "WARN",
+          "outsider": "WARN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Calm register throughout, but the calm partly rests on writing off opponents as unreachable (S083-S088), which is closer to avoidance than reintegration."
+      },
+      {
+        "fruit_id": "fruit.patience",
+        "score": 2,
+        "confidence": 0.4,
+        "mechanism": "preservation of persons and processes across the time required for truth and convergence",
+        "positive_evidence": [
+          {
+            "ref_id": "E-PA1",
+            "quote_or_event": "Took me 20 years for the resurrection.",
+            "location": "S663",
+            "evidence_type": "PROCESS",
+            "link_reason": "Sustained long-horizon work on one question.",
+            "source_ref": null,
+            "time_window": "~20 years"
+          },
+          {
+            "ref_id": "E-PA2",
+            "quote_or_event": "I've been corresponding with the guy for I have to guess three, four years, maybe five right now.",
+            "location": "S119",
+            "evidence_type": "PROCESS",
+            "link_reason": "Sustained engagement with a slow-converging interlocutor.",
+            "source_ref": null,
+            "time_window": "3-5 years"
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-PA3",
+            "quote_or_event": "You can't really answer these guys",
+            "location": "S083",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Premature closure on a class of interlocutors.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.45,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "PASS",
+          "endurance": "PASS",
+          "relation": "WARN",
+          "power": "UNKNOWN",
+          "correction": "WARN",
+          "outsider": "WARN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Strongest evidenced fruit: 15-year project, 20-year single question, multi-year correspondence. Undercut by giving up on 'these guys' as a class."
+      },
+      {
+        "fruit_id": "fruit.kindness",
+        "score": 2,
+        "confidence": 0.45,
+        "mechanism": "low-friction repair and assistance that reduces needless barriers without erasing truth",
+        "positive_evidence": [
+          {
+            "ref_id": "E-K1",
+            "quote_or_event": "I'm just answering his questions and talking because he's talking to another person.",
+            "location": "S123",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Low-pressure assistance to an agnostic questioner.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-K2",
+            "quote_or_event": "I don't say Greek Orthodox are going to hell.",
+            "location": "S683",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Refuses a needlessly harsh verdict on rivals.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-K3",
+            "quote_or_event": "So, it's it's just laughable to say that you're you're into presuppositionalism.",
+            "location": "S109",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Mockery of an opponent's claim.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-K4",
+            "quote_or_event": "You got an F.",
+            "location": "S504",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Humiliating register toward the imagined naturalist.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.5,
+        "stress_tests": {
+          "source": "WARN",
+          "cost": "UNKNOWN",
+          "endurance": "WARN",
+          "relation": "WARN",
+          "power": "WARN",
+          "correction": "WARN",
+          "outsider": "WARN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Genuine low-friction help to one questioner, but the same speaker repeatedly uses ridicule (S077, S089, S109, S504-S507) toward the skeptic class."
+      },
+      {
+        "fruit_id": "fruit.goodness",
+        "score": 2,
+        "confidence": 0.35,
+        "mechanism": "truth-aligned action producing real non-malign benefit after costs and externalities are counted",
+        "positive_evidence": [
+          {
+            "ref_id": "E-G1",
+            "quote_or_event": "We need to get something together to feed them.",
+            "location": "S341",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Names concrete material benefit to strangers.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-G2",
+            "quote_or_event": "I think the western world arguably arguably the worst sin, you could make a case for the worst sin be materialism.",
+            "location": "S313",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Names an externalized cost of his own audience's culture.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-G3",
+            "quote_or_event": "I don't think even Christians can get away making that kind of claim.",
+            "location": "S604",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Concedes his own side's miracle claims are often unverifiable, which limits the benefit claimed.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.3,
+        "stress_tests": {
+          "source": "WARN",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "WARN",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Benefit is asserted at the level of intent; no downstream outcome is observable in the document. Notably he does concede his own side's weak claims (S604), which is not reputation management."
+      },
+      {
+        "fruit_id": "fruit.faithfulness",
+        "score": 2,
+        "confidence": 0.4,
+        "mechanism": "invariant fidelity across time, audiences, incentives, and pressure, joined to correction when the object of loyalty is false",
+        "positive_evidence": [
+          {
+            "ref_id": "E-F1",
+            "quote_or_event": "I'm still teaching full-time at the PhD level",
+            "location": "S080",
+            "evidence_type": "PROCESS",
+            "link_reason": "Sustained role across decades.",
+            "source_ref": null,
+            "time_window": "52 years"
+          },
+          {
+            "ref_id": "E-F2",
+            "quote_or_event": "I wouldn't do subjective apologetics if anybody paid me",
+            "location": "S080",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Declares a method invariant against incentive.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-F3",
+            "quote_or_event": "I'm not going to drop the gloves for this one because I'm I'm okay.",
+            "location": "S113",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Selective engagement: standards applied where the topic is central, not elsewhere.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-F4",
+            "quote_or_event": "Only don't let anybody hear me.",
+            "location": "S531",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Private concession withheld from his own audience.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.4,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "WARN",
+          "endurance": "PASS",
+          "relation": "WARN",
+          "power": "WARN",
+          "correction": "WARN",
+          "outsider": "WARN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Long tenure and a declared method invariant are real; but S113 and S531 show audience-conditional candor, which is the tribal-loyalty edge of this fruit."
+      },
+      {
+        "fruit_id": "fruit.gentleness",
+        "score": 1,
+        "confidence": 0.5,
+        "mechanism": "power precisely restrained to the minimum force sufficient for the good while protecting the vulnerable",
+        "positive_evidence": [
+          {
+            "ref_id": "E-GE1",
+            "quote_or_event": "I'm not going to drop the gloves for this one",
+            "location": "S112",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Explicit restraint of force on a minor matter.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-GE2",
+            "quote_or_event": "You got an F.",
+            "location": "S504",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Humiliation of the imagined opponent.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-GE3",
+            "quote_or_event": "Don't even sit here in class.",
+            "location": "S505",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Expulsion register toward a position, not a person, but still coercive imagery.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-GE4",
+            "quote_or_event": "a total total joke",
+            "location": "S077",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Belittling.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.5,
+        "stress_tests": {
+          "source": "WARN",
+          "cost": "UNKNOWN",
+          "endurance": "WARN",
+          "relation": "WARN",
+          "power": "WARN",
+          "correction": "WARN",
+          "outsider": "WARN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "The per-sentence pass flagged S077/S089/S109 as gentleness-negative and I agree; the restraint at S112 is real but narrow. Lowest-scoring fruit."
+      },
+      {
+        "fruit_id": "fruit.self_control",
+        "score": 2,
+        "confidence": 0.4,
+        "mechanism": "boundary integrity and governance of appetite, impulse, scope, and optimization under the true good",
+        "positive_evidence": [
+          {
+            "ref_id": "E-SC1",
+            "quote_or_event": "I can't guess for God, but I think it's okay.",
+            "location": "S026",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Explicitly refuses to overclaim on a matter outside his competence.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-SC2",
+            "quote_or_event": "I don't think there's many things we could prove apppidictically",
+            "location": "S744",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Bounds his own epistemic claims.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-SC3",
+            "quote_or_event": "You got an F.",
+            "location": "S504",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Escalating rhetorical register beyond what the argument requires.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-SC4",
+            "quote_or_event": "I think it's over 100 pages. um uh hundred I'm going to say about 130 pages",
+            "location": "S477",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Self-correcting estimate, minor; noted for completeness.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.4,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "UNKNOWN",
+          "endurance": "WARN",
+          "relation": "WARN",
+          "power": "WARN",
+          "correction": "PASS",
+          "outsider": "WARN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Notable self-bounding at S026, S732-S747 (refusing to call his theism chapter a proof) is genuine scope governance; offset by rhetorical escalation at S504-S507."
+      }
+    ],
+    "contradictions": [
+      {
+        "classification": "ACKNOWLEDGED_REPAIRED",
+        "load_bearing": true,
+        "resolved": true,
+        "evidence_refs": [
+          "S062",
+          "S065",
+          "S099",
+          "S100"
+        ],
+        "fruit_relation": "faithfulness, self_control",
+        "consequence": "The 'not apologetics' framing is reconciled with the four-volume evidential project by distinguishing halves of the book; the repair is explicit and consistent."
+      },
+      {
+        "classification": "UNRESOLVED",
+        "load_bearing": false,
+        "resolved": false,
+        "evidence_refs": [
+          "S084",
+          "S085",
+          "S086"
+        ],
+        "fruit_relation": "love, gentleness, faithfulness",
+        "consequence": "The claim that skeptics will always invent a new story makes the position immune to the correction it elsewhere invites; this is a local but real epistemic closure."
+      },
+      {
+        "classification": "LOCAL",
+        "load_bearing": false,
+        "resolved": true,
+        "evidence_refs": [
+          "S732",
+          "S743",
+          "S747"
+        ],
+        "fruit_relation": "self_control",
+        "consequence": "Speaker corrects the host's characterization of chapter one as 'proving God'; bounded and repaired in-text."
+      }
+    ],
+    "counterfeit_flags": [],
+    "anti_fruit_pressure": [
+      {
+        "ref_id": "A1",
+        "location": "S077",
+        "description": "Contempt register toward skeptics ('a total joke')."
+      },
+      {
+        "ref_id": "A2",
+        "location": "S504",
+        "description": "Humiliation register ('You got an F')."
+      },
+      {
+        "ref_id": "A3",
+        "location": "S531",
+        "description": "Candor withheld from own audience ('don't let anybody hear me')."
+      }
+    ],
+    "stakeholder_divergence": [
+      {
+        "group": "skeptics / naturalists",
+        "observation": "Represented only as a class to be refuted; no named skeptic is given space to state his own case in this document.",
+        "evidence_refs": [
+          "S083",
+          "S085",
+          "S504"
+        ]
+      },
+      {
+        "group": "Catholic / Orthodox believers",
+        "observation": "Treated charitably on salvation (S682-S683) but their miracle claims are dismissed as 'in the eye of the beholder' (S527).",
+        "evidence_refs": [
+          "S527",
+          "S682"
+        ]
+      },
+      {
+        "group": "Habermas' wife / family",
+        "observation": "Serious illness disclosed briefly (S043-S046); no downstream outcome reported.",
+        "evidence_refs": [
+          "S043",
+          "S046"
+        ]
+      }
+    ],
+    "aggregation": {
+      "mode": "gated_profile",
+      "arithmetic_summary": 1.667,
+      "geometric_balance": 1.62,
+      "multiplicative_coherence": null,
+      "minimum_fruit": {
+        "fruit_id": "fruit.gentleness",
+        "score": 1
+      },
+      "vetoes": []
+    },
+    "epistemic_status": "CONDITIONAL",
+    "system_status": "COHERENT_BUT_FRAGILE",
+    "confidence": 0.42,
+    "missing_evidence": [
+      "No page-level citations for Hume, Swinburne, Allison, Del Rosario, or the Quran/Buddha claims.",
+      "No independent verification of the Medjugorje crowd-size claim (S623-S626).",
+      "No testimony from any named skeptic, Catholic, or Orthodox interlocutor within this document.",
+      "No downstream outcome data for the claimed practical benefits of volume four.",
+      "No speaker labels in the transcript; several proper names are garbled (S197, S433, S508)."
+    ],
+    "repair_path": [
+      "Cite page numbers for every attributed claim (Hume, Swinburne, Allison, Del Rosario).",
+      "Quote the Quran and Buddhist-source claims directly rather than paraphrasing.",
+      "State the premise that links 'unique event' to 'God did it' explicitly and name what would defeat it.",
+      "Drop the unfalsifiable claim that skeptics will always invent a new story (S085), or bound it to specific named cases.",
+      "Disclose the private concession at S531 openly rather than withholding it from the audience."
+    ],
+    "falsifier": "Evidence that the speaker's public evidentialist standard is applied selectively by audience (e.g., a documented case of softening a claim for a friendly audience while stating the opposite elsewhere), or a documented instance of the S085 pattern being used to dismiss a specific, well-evidenced counterargument.",
+    "limitations": [
+      "Auto-captioned transcript with no speaker labels; attribution between the two speakers is inferred from context.",
+      "Only part one of a two-part interview is supplied; the practical-application half is absent.",
+      "The supplied scorecard is a triage signal, not a truth rating, and is not treated as evidence here.",
+      "No claim is made about the speakers' motives, salvation status, or the divine origin of any event.",
+      "The per-sentence summary's near-zero fruit means are consistent with a doctrinal interview; I agree with its top_toward (S682, S683, S696) and top_away (S077, S089, S109) selections, and I weight S504-S507 more heavily than it did."
+    ]
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "fruits",
+      "attempt": 1,
+      "text": "{\n  \"spec_version\": \"0.3.0\",\n  \"target\": {\n    \"type\": \"paper\",\n    \"title\": \"Gary Habermas - Chapter 001 - The Resurrection Connection to Christian Theology - Gary Habermas with @Real Seekers\",\n    \"domain\": \"unknown; infer conservatively — appears to be popular-level Christian apologetics / philosophy of religion dialogue (auto-captioned YouTube interview transcript)\",\n    \"unit\": \"complete supplied document\",\n    \"comparison_class\": \"paper of similar purpose and evidence burden\",\n    \"population_boundary\": \"persons and groups explicitly represented in the supplied document; report omissions\",\n    \"time_window\": null\n  },\n  \"gate_results\": [\n    {\n      \"gate_id\": \"gate.truth_evidence\",\n      \"status\": \"WARN\",\n      \"hard\": true,\n      \"rationale\": \"The speakers make many factual and historical claims (resurrection, miracle criteria, competing miracle claims, Marian apparitions, Quranic verses, Buddha source dating, Mark 14 exegesis) but the supplied unit is a conversational transcript that cites almost no traceable evidence within itself. Some claims are explicitly framed as probabilistic or as arguments from other volumes (S099, S478, S516, S747), and some are hedged (S235, S268, S271, S456). However, several load-bearing claims are asserted without in-unit evidence: e.g., 'nobody else did it' (S256, S290), 'no sources for Buddha that early' (S271), 'you can't give me a verse in the Quran that Muhammad did miracles, but there's a verse in the Quran that Jesus did miracles' (S667), and the Medjugorje account (S623-S629). The gate is not a clean PASS because the evidence is largely deferred to external volumes and not traceable inside the supplied document; it is not a FAIL because the speakers do acknowledge evidential standards and probabilistic proof (S747) and do not present the claims as self-authenticating.\",\n      \"evidence_refs\": [\"S099\", \"S235\", \"S256\", \"S268\", \"S271\", \"S290\", \"S456\", \"S478\", \"S516\", \"S623\", \"S667\", \"S747\"],\n      \"resolution\": \"Deferred evidence to volumes 1-2 and external sources; within-unit traceability is weak but not absent.\"\n    },\n    {\n      \"gate_id\": \"gate.contradiction\",\n      \"status\": \"PASS\",\n      \"hard\": true,\n      \"rationale\": \"No load-bearing contradiction is evident within the supplied unit. Apparent tensions are local and acknowledged: Habermas says volume 4 is 'not about apologetics' while also saying resurrection apologetics 'is going to come up here and there' (S062, S068); he says he is 'basically done with resurrection apologetics' yet the first half discusses God and miracles (S063-S065). These are bounded and explained by his two-halves structure (S061-S076). The disagreement with the 'silly skeptical softball' objection is a disagreement with an external critic, not an internal contradiction. The sentence-level summary's negative spikes (S077, S089, S109) are rhetorical dismissals, not contradictions.\",\n      \"evidence_refs\": [\"S061\", \"S062\", \"S063\", \"S064\", \"S065\", \"S068\", \"S075\", \"S076\", \"S077\", \"S089\", \"S109\"],\n      \"resolution\": \"Local tension acknowledged and bounded by the book's two-half structure.\"\n    },\n    {\n      \"gate_id\": \"gate.scope\",\n      \"status\": \"WARN\",\n      \"hard\": false,\n      \"rationale\": \"The speakers generally keep conclusions within the stated domain of theological and practical implications of the resurrection, and Habermas explicitly distinguishes what he is and is not proving (S732-S747). However, some claims extend beyond the supplied evidence: the inference from resurrection to the truth of scripture (S334, S359), the claim that 'nobody else taught it' and 'nobody else was raised' (S290-S291), and the broad comparative religion claims about Buddha, Confucius, Lao, Muhammad, Krishna (S228, S665-S670). These are within the paper's stated purpose but exceed what the supplied unit can support.\",\n      \"evidence_refs\": [\"S228\", \"S290\", \"S291\", \"S334\", \"S359\", \"S665\", \"S666\", \"S667\", \"S668\", \"S669\", \"S670\", \"S732\", \"S747\"],\n      \"resolution\": \"Scope mostly bounded; comparative-religion and scripture-entailment claims exceed in-unit evidence.\"\n    },\n    {\n      \"gate_id\": \"gate.falsifiability\",\n      \"status\": \"WARN\",\n      \"hard\": false,\n      \"rationale\": \"The source identifies some conditions that would count against its claims: if Jesus had not been raised, he would be a false prophet (S292, S462); if the major teaching were false, the minor is ruled out (S264); if a miracle is repeated under controlled circumstances it is not a first-rate miracle (S416). Habermas also states he is not trying to prove God deductively and that things are established by high probability (S744-S747). However, the source does not clearly state what evidence would falsify the central resurrection claim or the inference to Christian theism, and it dismisses skeptical objections as 'silly' (S089) and 'laughable' (S109) rather than engaging their falsifying potential. The gate is WARN rather than PASS because falsifiers are partial and partly rhetorical.\",\n      \"evidence_refs\": [\"S264\", \"S292\", \"S416\", \"S462\", \"S744\", \"S745\", \"S746\", \"S747\", \"S089\", \"S109\"],\n      \"resolution\": \"Partial falsifiers stated; central claim's falsification conditions not made explicit.\"\n    },\n    {\n      \"gate_id\": \"gate.bridge_validity\",\n      \"status\": \"WARN\",\n      \"hard\": false,\n      \"rationale\": \"The source makes cross-domain moves from history to theology, from miracle to God, and from resurrection to scripture. Habermas explicitly discusses prospective and retrospective arguments (S716-S721) and distinguishes proof from high probability (S744-S747). But the bridge from resurrection to the truth of scripture is asserted as 'entailed somewhere down the line' (S334) without explicit mapping, invariants, bridge law, recovery, prediction, alternatives, or kill condition. The bridge from miracle to God is argued via uniqueness and Swinburne's criteria (S440-S441) but the mapping is not fully specified in the supplied unit.\",\n      \"evidence_refs\": [\"S334\", \"S359\", \"S440\", \"S441\", \"S716\", \"S717\", \"S718\", \"S719\", \"S720\", \"S721\", \"S744\", \"S747\"],\n      \"resolution\": \"Bridge discussed but not fully specified; scripture-entailment bridge is asserted rather than demonstrated.\"\n    },\n    {\n      \"gate_id\": \"gate.provenance\",\n      \"status\": \"WARN\",\n      \"hard\": false,\n      \"rationale\": \"The source is an auto-captioned YouTube transcript with metadata (video_id, url, channel, downloaded date) and a scorecard. Authorship is identifiable (Gary Habermas, host Dale). However, the transcript is auto-generated, speaker labels are missing, and many cited works (volume 1, volume 2, Del Rosario, Swinburne, Hume, etc.) are referenced without in-unit bibliographic detail. Quotations from scripture and other authors are paraphrased or loosely cited (e.g., S337-S339, S779-S780). Provenance is traceable at the document level but weak at the claim level.\",\n      \"evidence_refs\": [\"S001\", \"S002\", \"S003\", \"S004\", \"S005\", \"S337\", \"S338\", \"S339\", \"S779\", \"S780\"],\n      \"resolution\": \"Document-level provenance present; claim-level provenance weak due to auto-captioning and deferred citations.\"\n    },\n    {\n      \"gate_id\": \"gate.agency_noncoercion\",\n      \"status\": \"PASS\",\n      \"hard\": true,\n      \"rationale\": \"The source is a voluntary interview conversation. No concealed compulsion or destruction of agency is evident. Habermas describes answering a skeptic's questions without pushing or 'witnessing' (S122-S124), and he explicitly refuses to consign Catholics or Orthodox to hell (S682-S683). He also states he will 'live and let live' on minor topics (S114-S115). The discussion is persuasive in intent but does not coerce. No evidence of manipulation, threat, or agency destruction appears in the supplied unit.\",\n      \"evidence_refs\": [\"S114\", \"S115\", \"S122\", \"S123\", \"S124\", \"S682\", \"S683\", \"S696\"],\n      \"resolution\": \"No coercion or agency destruction observed.\"\n    }\n  ],\n  \"fruit_profile\": [\n    {\n      \"fruit_id\": \"fruit.love\",\n      \"score\": 2,\n      \"confidence\": 0.4,\n      \"mechanism\": \"truth-aligned relational cohesion seeking the good of the whole and each member while bearing cost and preserving agency\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"E-LOVE-1\",\n          \"quote_or_event\": \"So, but my main point overall is, you know, I don't say Catholics are going to hell.\",\n          \"location\": \"S682\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Refuses to consign a rival Christian tradition to perdition, seeking their good rather than their destruction.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"E-LOVE-2\",\n          \"quote_or_event\": \"I don't say Greek Orthodox are going to hell.\",\n          \"location\": \"S683\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Extends the same good will to another rival tradition.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"E-LOVE-3\",\n          \"quote_or_event\": \"Now, I might have been tempted to say, unbelievers, first of all, help the person who no matter where they are, what their belief is, they're animist, they're whatever, they need to be fed.\",\n          \"location\": \"S340\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Expresses concern for the material needs of unbelievers regardless of belief.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"E-LOVE-4\",\n          \"quote_or_event\": \"We need to get something together to feed them.\",\n          \"location\": \"S341\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Concrete intention to meet physical need across belief boundaries.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"E-LOVE-N1\",\n          \"quote_or_event\": \"And as far as he's uh going on faith and presuppositionalism, a total total joke.\",\n          \"location\": \"S077\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Dismisses an opponent's position as a joke, which is low-friction hostility rather than love.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"E-LOVE-N2\",\n          \"quote_or_event\": \"But I'm just saying those objections are absolutely silly.\",\n          \"location\": \"S089\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Belittles objectors rather than seeking their good or engaging their concern.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.3,\n      \"stress_tests\": {\n        \"source\": \"WARN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"WARN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"UNKNOWN\",\n        \"outsider\": \"WARN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"Some genuine expressions of good will toward rival traditions and unbelievers (S682, S683, S340, S341), but also dismissive and mocking language toward skeptics (S077, S089, S109). The sentence-level summary's top_toward items (S682, S683, S696, S340, S341) are consistent with this. Mixed evidence; score 2 with low confidence because the unit is a single conversation and does not show love under cost or across time.\"\n    },\n    {\n      \"fruit_id\": \"fruit.joy\",\n      \"score\": 2,\n      \"confidence\": 0.3,\n      \"mechanism\": \"durable participation in real good not dependent on denial, spectacle, status, or constant stimulation\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"E-JOY-1\",\n          \"quote_or_event\": \"I'm I'm glad volume 4 is out.\",\n          \"location\": \"S011\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Expresses gladness in completed work.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"E-JOY-2\",\n          \"quote_or_event\": \"But for sure they said it's the best volume of all four. >> Awesome.\",\n          \"location\": \"S017\",\n          \"evidence_type\": \"OUTPUT\",\n          \"link_reason\": \"Positive reception of work; joy in achievement.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"E-JOY-N1\",\n          \"quote_or_event\": \"She's got um pretty bad uh well, it's not only pretty bad cancer, it's pretty bad cancer of the worst sort.\",\n          \"location\": \"S043\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Serious suffering in the speaker's life; joy is not displayed as triumphant or unaffected.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.15,\n      \"stress_tests\": {\n        \"source\": \"UNKNOWN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"UNKNOWN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"UNKNOWN\",\n        \"outsider\": \"UNKNOWN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"The sentence-level summary reports joy mean 0.0 and no positive or negative extremes. The unit contains little direct evidence of joy as a durable fruit; the speaker's gladness about the book is ordinary satisfaction, and his wife's cancer is a serious counterweight. Score 2 (mixed/unknown) with low confidence.\"\n    },\n    {\n      \"fruit_id\": \"fruit.peace\",\n      \"score\": 2,\n      \"confidence\": 0.3,\n      \"mechanism\": \"reintegrated order in which relevant tensions are truthfully addressed without suppression\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"E-PEACE-1\",\n          \"quote_or_event\": \"I can live and let live.\",\n          \"location\": \"S114\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Expresses willingness to coexist on minor disagreements.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"E-PEACE-2\",\n          \"quote_or_event\": \"Whatever your name over the door, what are you doing with Christ?\",\n          \"location\": \"S696\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Reconciliatory framing across denominational lines.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"E-PEACE-N1\",\n          \"quote_or_event\": \"And as far as he's uh going on faith and presuppositionalism, a total total joke.\",\n          \"location\": \"S077\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Combative dismissal of an opponent, indicating unresolved hostility rather than peace.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.2,\n      \"stress_tests\": {\n        \"source\": \"UNKNOWN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"WARN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"UNKNOWN\",\n        \"outsider\": \"WARN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"Some conciliatory statements (S114, S696) but also combative rhetoric (S077, S089). The sentence-level summary reports peace mean 0.004 and a track_love peace value of 0.477, indicating weak positive signal. Mixed evidence; score 2 with low confidence.\"\n    },\n    {\n      \"fruit_id\": \"fruit.patience\",\n      \"score\": 2,\n      \"confidence\": 0.3,\n      \"mechanism\": \"preservation of persons and processes across the time required for truth, growth, correction, or convergence while acting when action is due\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"E-PAT-1\",\n          \"quote_or_event\": \"Took me 20 years for the resurrection.\",\n          \"location\": \"S663\",\n          \"evidence_type\": \"PROCESS\",\n          \"link_reason\": \"Long-term engagement with a difficult question.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"E-PAT-2\",\n          \"quote_or_event\": \"I've been corresponding with the guy for I have to guess three, four years, maybe five right now.\",\n          \"location\": \"S119\",\n          \"evidence_type\": \"PROCESS\",\n          \"link_reason\": \"Sustained engagement with a skeptic over years.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"E-PAT-N1\",\n          \"quote_or_event\": \"You can't really answer these guys because here's the key.\",\n          \"location\": \"S083\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Premature closure about skeptics, suggesting impatience with continued dialogue.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.2,\n      \"stress_tests\": {\n        \"source\": \"UNKNOWN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"WARN\",\n        \"relation\": \"UNKNOWN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"UNKNOWN\",\n        \"outsider\": \"UNKNOWN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"Evidence of long-term work (S663) and sustained correspondence (S119), but also a tendency to dismiss skeptics as unanswerable (S083, S084-S088). The sentence-level summary reports patience mean 0.0 and no extremes. Mixed; score 2 with low confidence.\"\n    },\n    {\n      \"fruit_id\": \"fruit.kindness\",\n      \"score\": 2,\n      \"confidence\": 0.4,\n      \"mechanism\": \"low-friction repair and assistance that reduces needless barriers without erasing truth or responsibility\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"E-KIND-1\",\n          \"quote_or_event\": \"I don't say Catholics are going to hell.\",\n          \"location\": \"S682\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Charitable restraint toward a rival tradition.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"E-KIND-2\",\n          \"quote_or_event\": \"I don't say Greek Orthodox are going to hell.\",\n          \"location\": \"S683\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Extends charity to another rival tradition.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"E-KIND-3\",\n          \"quote_or_event\": \"I'm just answering his questions and talking because he's talking to another person.\",\n          \"location\": \"S123\",\n          \"evidence_type\": \"MECHANISM\",\n          \"link_reason\": \"Low-friction engagement with a skeptic without pressure.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"E-KIND-N1\",\n          \"quote_or_event\": \"So, it's it's just laughable to say that you're you're into presuppositionalism.\",\n          \"location\": \"S109\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Mocking an opponent's claim, which is unkind.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"E-KIND-N2\",\n          \"quote_or_event\": \"But I'm just saying those objections are absolutely silly.\",\n          \"location\": \"S089\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Dismissive characterization of objectors.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.3,\n      \"stress_tests\": {\n        \"source\": \"UNKNOWN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"WARN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"UNKNOWN\",\n        \"outsider\": \"WARN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"Charitable statements toward rival traditions and low-pressure engagement with a skeptic (S682, S683, S123), but also mocking and dismissive language (S109, S089). The sentence-level summary's top_away includes S077, S089, S109 with kindness/gentleness reasons. Mixed; score 2 with low confidence.\"\n    },\n    {\n      \"fruit_id\": \"fruit.goodness\",\n      \"score\": 2,\n      \"confidence\": 0.3,\n      \"mechanism\": \"truth-aligned action producing real non-malign benefit after costs and externalities are counted\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"E-GOOD-1\",\n          \"quote_or_event\": \"We need to get something together to feed them.\",\n          \"location\": \"S341\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Intention to produce real material benefit for those in need.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"E-GOOD-2\",\n          \"quote_or_event\": \"Let us do good unto all, but especially those of the household of faith.\",\n          \"location\": \"S339\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Endorses doing good to all, with priority to fellow believers.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"E-GOOD-N1\",\n          \"quote_or_event\": \"I don't think all my Baptist buddies are going to heaven.\",\n          \"location\": \"S684\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"A statement that could be heard as excluding some insiders, though it is framed as a critique of nominalism.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.15,\n      \"stress_tests\": {\n        \"source\": \"UNKNOWN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"UNKNOWN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"UNKNOWN\",\n        \"outsider\": \"UNKNOWN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"Some stated intentions toward material good (S341, S339), but little evidence of actual costly action or outcomes in the supplied unit. The sentence-level summary reports goodness mean 0.005 and track_love goodness 0.412. Score 2 (mixed/unknown) with low confidence.\"\n    },\n    {\n      \"fruit_id\": \"fruit.faithfulness\",\n      \"score\": 2,\n      \"confidence\": 0.3,\n      \"mechanism\": \"invariant fidelity across time, audiences, incentives, and pressure, joined to correction when the object of loyalty is false\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"E-FAITH-1\",\n          \"quote_or_event\": \"I've done 52 books and and by the way, I wouldn't know that except that I get asked once in a while, I just counted and I say, oh, I just counted and it's 50.\",\n          \"location\": \"S027\",\n          \"evidence_type\": \"PROCESS\",\n          \"link_reason\": \"Long-term productivity and commitment to a body of work.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"E-FAITH-2\",\n          \"quote_or_event\": \"I'm still teaching full-time at the PhD level I'm I'm really into this it definitely is apologetics\",\n          \"location\": \"S080\",\n          \"evidence_type\": \"PROCESS\",\n          \"link_reason\": \"Sustained commitment to teaching and apologetics over decades.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"E-FAITH-N1\",\n          \"quote_or_event\": \"If they're really skeptical, no matter what I say will make no difference.\",\n          \"location\": \"S084\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"A stance that may foreclose correction from skeptical interlocutors.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.2,\n      \"stress_tests\": {\n        \"source\": \"UNKNOWN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"WARN\",\n        \"relation\": \"UNKNOWN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"WARN\",\n        \"outsider\": \"UNKNOWN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"Evidence of long-term commitment to a scholarly project (S027, S080), but also a tendency to dismiss skeptical correction as futile (S084-S088). The sentence-level summary reports faithfulness mean 0.0 and no extremes. Mixed; score 2 with low confidence.\"\n    },\n    {\n      \"fruit_id\": \"fruit.gentleness\",\n      \"score\": 2,\n      \"confidence\": 0.4,\n      \"mechanism\": \"power precisely restrained to the minimum force sufficient for the good while protecting the vulnerable\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"E-GENT-1\",\n          \"quote_or_event\": \"I can live and let live.\",\n          \"location\": \"S114\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Restraint in pressing a minor disagreement.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"E-GENT-2\",\n          \"quote_or_event\": \"I'm not going to drop the gloves for this one because I'm I'm okay.\",\n          \"location\": \"S113\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Explicit refusal to escalate a minor dispute.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"E-GENT-N1\",\n          \"quote_or_event\": \"And as far as he's uh going on faith and presuppositionalism, a total total joke.\",\n          \"location\": \"S077\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Mocking an opponent, which is not restrained power.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"E-GENT-N2\",\n          \"quote_or_event\": \"So, it's it's just laughable to say that you're you're into presuppositionalism.\",\n          \"location\": \"S109\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Belittling an opponent's claim.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.3,\n      \"stress_tests\": {\n        \"source\": \"UNKNOWN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"WARN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"UNKNOWN\",\n        \"outsider\": \"WARN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"Some restraint on minor issues (S113, S114), but also mocking language toward opponents (S077, S109). The sentence-level summary's top_away includes S077 and S109 with gentleness reasons. Mixed; score 2 with low confidence.\"\n    },\n    {\n      \"fruit_id\": \"fruit.self_control\",\n      \"score\": 2,\n      \"confidence\": 0.3,\n      \"mechanism\": \"boundary integrity and governance of appetite, impulse, scope, and optimization under the true good\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"E-SC-1\",\n          \"quote_or_event\": \"I'm not going to drop the gloves for this one because I'm I'm okay.\",\n          \"location\": \"S113\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Restraint from escalation.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"E-SC-2\",\n          \"quote_or_event\": \"I think things are established by high probability, not by any chance to lay down some, you know, proof that nobody can argue with.\",\n          \"location\": \"S747\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Epistemic humility about proof, a form of intellectual self-control.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"E-SC-N1\",\n          \"quote_or_event\": \"You flunked. You're out of here. You got an F. Don't even sit here in class. You're out of here. You got to take class over again.\",\n          \"location\": \"S502-S507\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Escalating rhetorical force against an imagined interlocutor.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.2,\n      \"stress_tests\": {\n        \"source\": \"UNKNOWN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"UNKNOWN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"UNKNOWN\",\n        \"outsider\": \"UNKNOWN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"Some restraint and epistemic humility (S113, S747), but also rhetorical excess (S502-S507) and sweeping unhedged claims (S292). The sentence-level summary reports self_control mean -0.002 and a negative extreme at S292. Mixed; score 2 with low confidence.\"\n    }\n  ],\n  \"contradictions\": [\n    {\n      \"classification\": \"LOCAL\",\n      \"load_bearing\": false,\n      \"resolved\": true,\n      \"evidence_refs\": [\"S062\", \"S068\", \"S075\"],\n      \"fruit_relation\": \"Tension between 'not about apologetics' and 'resurrection apologetics is going to come up here and there' is resolved by the two-halves structure of the book.\",\n      \"consequence\": \"No impact on the central argument; the distinction is explained.\"\n    },\n    {\n      \"classification\": \"APPARENT\",\n      \"load_bearing\": false,\n      \"resolved\": true,\n      \"evidence_refs\": [\"S732\", \"S733\", \"S743\"],\n      \"fruit_relation\": \"Habermas says he does not try to prove God's existence in chapter one, while the host says he argued for God's existence in chapter one; Habermas clarifies he offers 'considerations' and a 'theistic universe,' not deductive proof.\",\n      \"consequence\": \"Clarified by the speaker; no unresolved contradiction.\"\n    }\n  ],\n  \"counterfeit_flags\": [],\n  \"anti_fruit_pressure\": [\n    {\n      \"ref_id\": \"AF-1\",\n      \"location\": \"S077\",\n      \"description\": \"Dismissing an opponent's position as 'a total total joke' is anti-fruit pressure against kindness and gentleness.\",\n      \"severity\": \"LOW\"\n    },\n    {\n      \"ref_id\": \"AF-2\",\n      \"location\": \"S089\",\n      \"description\": \"Calling objections 'absolutely silly' is dismissive and anti-fruit pressure against kindness.\",\n      \"severity\": \"LOW\"\n    },\n    {\n      \"ref_id\": \"AF-3\",\n      \"location\": \"S109\",\n      \"description\": \"Calling an accusation 'laughable' is mocking and anti-fruit pressure against gentleness.\",\n      \"severity\": \"LOW\"\n    }\n  ],\n  \"stakeholder_divergence\": [\n    {\n      \"ref_id\": \"SD-1\",\n      \"description\": \"Insider (host and guest) perspective is largely positive; outsider (skeptic) perspective is characterized as 'silly' and 'laughable' (S089, S109), indicating divergence in how the conversation is received.\",\n      \"evidence_refs\": [\"S089\", \"S109\"]\n    }\n  ],\n  \"aggregation\": {\n    \"mode\": \"gated_profile\",\n    \"arithmetic_summary\": 18,\n    \"geometric_balance\": 2.0,\n    \"multiplicative_coherence\": 0.0,\n    \"minimum_fruit\": {\n      \"fruit_id\": \"fruit.joy\",\n      \"score\": 2\n    },\n    \"vetoes\": []\n  },\n  \"epistemic_status\": \"",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 23111,
+      "completion_tokens": 8192,
+      "attempts": 1,
+      "elapsed_seconds": 29.875,
+      "started_at": "2026-09-27T13:50:13.574158+00:00",
+      "error": "truncated: finish_reason=length after 8192 output tokens",
+      "finish_reason": "length",
+      "finished_at": "2026-09-27T13:50:43.447038+00:00",
+      "tokens": 31303
+    },
+    {
+      "part": "fruits",
+      "attempt": 2,
+      "text": "{\"spec_version\":\"0.3.0\",\"target\":{\"type\":\"paper\",\"title\":\"Gary Habermas - Chapter 001 - The Resurrection Connection to Christian Theology - Gary Habermas with @Real Seekers\",\"domain\":\"popular Christian apologetics interview (auto-captioned YouTube transcript)\",\"unit\":\"complete supplied document (part one of a two-part interview)\",\"comparison_class\":\"apologetics interview transcript of similar evidence burden\",\"population_boundary\":\"speakers Gary Habermas and host Dale; named interlocutors (Hume, Russell, Flew, Shabir Ali, Joe Schmidt, Bart Ehrman, Swinburne, Allison, Del Rosario); unnamed 'skeptics' and 'critical scholars' as a class; no direct testimony from any skeptic, Catholic, Orthodox, or harmed party\",\"time_window\":\"recording undated; downloaded 2026-09-15; retrospective claims span ~52 years of teaching\"},\"gate_results\":[{\"gate_id\":\"gate.truth_evidence\",\"status\":\"WARN\",\"hard\":true,\"rationale\":\"Many factual claims are attributed to named sources (Hume, Swinburne, Allison, Mark 14, Luke 10, Romans 1-2) and are checkable, but no citations, page numbers, or quotations are given in-text; several empirical claims (Medjugorje crowd size, Quran on Muhammad's miracles, Buddha source lateness) are asserted without traceable support.\",\"evidence_refs\":[\"S476\",\"S623\",\"S667\",\"S779\"],\"resolution\":\"Would pass with page-level citations and quoted sources for the empirical claims.\"},{\"gate_id\":\"gate.contradiction\",\"status\":\"WARN\",\"hard\":true,\"rationale\":\"Load-bearing tension between 'I'm not arguing for the resurrection so much anymore' and the four-volume evidential project is acknowledged and answered (S062-S068, S099-S100), so it is bounded rather than unresolved; but the claim that critics 'will make a new story up' (S085) is unfalsifiable and sits uneasily with the stated evidentialism.\",\"evidence_refs\":[\"S062\",\"S085\",\"S099\"],\"resolution\":\"Acknowledged and locally repaired; the unfalsifiable-critic claim remains unrepaired.\"},{\"gate_id\":\"gate.scope\",\"status\":\"WARN\",\"hard\":false,\"rationale\":\"Theological and historical conclusions are drawn from a popular-level interview; the speaker himself concedes he is not 'proving' God (S732-S747), which keeps most claims inside a probability framing, but the deity-of-Christ and kingdom claims are stated more strongly than the interview's evidence supports.\",\"evidence_refs\":[\"S732\",\"S743\",\"S747\"],\"resolution\":null},{\"gate_id\":\"gate.falsifiability\",\"status\":\"WARN\",\"hard\":false,\"rationale\":\"The source names what would count against it in places (if Jesus' major teaching were false, S264; if the resurrection claim were false, S462) and concedes uncertainty about proof standards (S735-S747). But the dismissal of persistent skeptics as self-sealing (S084-S088) blocks correction from that quarter.\",\"evidence_refs\":[\"S264\",\"S462\",\"S084\"],\"resolution\":null},{\"gate_id\":\"gate.bridge_validity\",\"status\":\"WARN\",\"hard\":false,\"rationale\":\"The God-to-miracle-to-kingdom bridge is laid out with explicit links (S401, S445, S466) and a stated criterion (Swinburne's one-time, message-evidencing event, S440-S441), but the mapping from 'unique event' to 'God did it' relies on an unstated premise about what God would/wouldn't do (S260, S292).\",\"evidence_refs\":[\"S401\",\"S440\",\"S260\"],\"resolution\":null},{\"gate_id\":\"gate.provenance\",\"status\":\"WARN\",\"hard\":false,\"rationale\":\"Speakers are identifiable and the video id/url are given, but the transcript is auto-captioned with no speaker labels, proper names are garbled (S197-S198, S433, S508), and no work is cited by page.\",\"evidence_refs\":[\"S197\",\"S433\",\"S508\"],\"resolution\":null},{\"gate_id\":\"gate.agency_noncoercion\",\"status\":\"PASS\",\"hard\":true,\"rationale\":\"No concealed compulsion or destruction of agency appears; the speaker explicitly declines to pressure his agnostic correspondent (S122-S123) and leaves listeners' judgments open (S111-S115).\",\"evidence_refs\":[\"S122\",\"S123\",\"S111\"],\"resolution\":null}],\"fruit_profile\":[{\"fruit_id\":\"fruit.love\",\"score\":2,\"confidence\":0.5,\"mechanism\":\"truth-aligned relational cohesion seeking the good of the whole while bearing cost and preserving agency\",\"positive_evidence\":[{\"ref_id\":\"E-L1\",\"quote_or_event\":\"I don't say Catholics are going to hell.\",\"location\":\"S682\",\"evidence_type\":\"STATED_INTENT\",\"link_reason\":\"Refuses to consign rival traditions to perdition; good will across boundaries.\",\"source_ref\":null,\"time_window\":null},{\"ref_id\":\"E-L2\",\"quote_or_event\":\"Whatever your name over the door, what are you doing with Christ?\",\"location\":\"S696\",\"evidence_type\":\"STATED_INTENT\",\"link_reason\":\"Prioritizes the other's real standing over tribal labels.\",\"source_ref\":null,\"time_window\":null},{\"ref_id\":\"E-L3\",\"quote_or_event\":\"they need to be fed.\",\"location\":\"S341\",\"evidence_type\":\"STATED_INTENT\",\"link_reason\":\"Names material care for unbelievers as a duty.\",\"source_ref\":null,\"time_window\":null}],\"counterevidence\":[{\"ref_id\":\"E-L4\",\"quote_or_event\":\"And as far as he's uh going on faith and presuppositionalism, a total total joke.\",\"location\":\"S077\",\"evidence_type\":\"COUNTEREXAMPLE\",\"link_reason\":\"Contempt toward an interlocutor class undercuts love's cost-bearing posture.\",\"source_ref\":null,\"time_window\":null},{\"ref_id\":\"E-L5\",\"quote_or_event\":\"But I'm just saying those objections are absolutely silly.\",\"location\":\"S089\",\"evidence_type\":\"COUNTEREXAMPLE\",\"link_reason\":\"Dismissal rather than engagement with the objector.\",\"source_ref\":null,\"time_window\":null}],\"evidence_coverage\":0.5,\"stress_tests\":{\"source\":\"WARN\",\"cost\":\"UNKNOWN\",\"endurance\":\"WARN\",\"relation\":\"WARN\",\"power\":\"PASS\",\"correction\":\"WARN\",\"outsider\":\"WARN\",\"succession\":\"UNKNOWN\"},\"counterfeit\":{\"flag\":false,\"claimed_label\":null,\"missing_companion\":null,\"anti_fruit_output\":null,\"severity\":\"NONE\"},\"rationale\":\"Real cross-tradition good will (S682-S696) coexists with repeated contempt for skeptics (S077, S089, S109); mixed, mostly verbal, no cost shown.\"},{\"fruit_id\":\"fruit.joy\",\"score\":2,\"confidence\":0.3,\"mechanism\":\"durable participation in real good not dependent on denial or status\",\"positive_evidence\":[{\"ref_id\":\"E-J1\",\"quote_or_event\":\"I'm I'm glad volume 4 is out.\",\"location\":\"S011\",\"evidence_type\":\"STATED_INTENT\",\"link_reason\":\"Satisfaction in completed work.\",\"source_ref\":null,\"time_window\":null}],\"counterevidence\":[{\"ref_id\":\"E-J2\",\"quote_or_event\":\"A number of people are telling me it's their favorite volume.\",\"location\":\"S014\",\"evidence_type\":\"COUNTEREXAMPLE\",\"link_reason\":\"Joy framed through reviewer praise and ranking, a status-dependent register.\",\"source_ref\":null,\"time_window\":null}],\"evidence_coverage\":0.2,\"stress_tests\":{\"source\":\"WARN\",\"cost\":\"UNKNOWN\",\"endurance\":\"UNKNOWN\",\"relation\":\"UNKNOWN\",\"power\":\"UNKNOWN\",\"correction\":\"UNKNOWN\",\"outsider\":\"UNKNOWN\",\"succession\":\"UNKNOWN\"},\"counterfeit\":{\"flag\":false,\"claimed_label\":null,\"missing_companion\":null,\"anti_fruit_output\":null,\"severity\":\"NONE\"},\"rationale\":\"Little direct evidence; the per-sentence pass scored joy at 0.0 with no spikes, and I agree there is no strong joy signal either way.\"},{\"fruit_id\":\"fruit.peace\",\"score\":2,\"confidence\":0.35,\"mechanism\":\"reintegrated order in which tensions are truthfully addressed without suppression\",\"positive_evidence\":[{\"ref_id\":\"E-P1\",\"quote_or_event\":\"I can live and let live.\",\"location\":\"S114\",\"evidence_type\":\"STATED_INTENT\",\"link_reason\":\"Explicitly tolerates disagreement on minor matters.\",\"source_ref\":null,\"time_window\":null}],\"counterevidence\":[{\"ref_id\":\"E-P2\",\"quote_or_event\":\"You can't really answer these guys because here's the key.\",\"location\":\"S083\",\"evidence_type\":\"COUNTEREXAMPLE\",\"link_reason\":\"Conflict declared unaddressable rather than worked through.\",\"source_ref\":null,\"time_window\":null}],\"evidence_coverage\":0.3,\"stress_tests\":{\"source\":\"WARN\",\"cost\":\"UNKNOWN\",\"endurance\":\"UNKNOWN\",\"relation\":\"WARN\",\"power\":\"UNKNOWN\",\"correction\":\"WARN\",\"outsider\":\"WARN\",\"succession\":\"UNKNOWN\"},\"counterfeit\":{\"flag\":false,\"claimed_label\":null,\"missing_companion\":null,\"anti_fruit_output\":null,\"severity\":\"NONE\"},\"rationale\":\"Calm register throughout, but the calm partly rests on writing off opponents as unreachable (S083-S088), which is closer to avoidance than reintegration.\"},{\"fruit_id\":\"fruit.patience\",\"score\":2,\"confidence\":0.4,\"mechanism\":\"preservation of persons and processes across the time required for truth and convergence\",\"positive_evidence\":[{\"ref_id\":\"E-PA1\",\"quote_or_event\":\"Took me 20 years for the resurrection.\",\"location\":\"S663\",\"evidence_type\":\"PROCESS\",\"link_reason\":\"Sustained long-horizon work on one question.\",\"source_ref\":null,\"time_window\":\"~20 years\"},{\"ref_id\":\"E-PA2\",\"quote_or_event\":\"I've been corresponding with the guy for I have to guess three, four years, maybe five right now.\",\"location\":\"S119\",\"evidence_type\":\"PROCESS\",\"link_reason\":\"Sustained engagement with a slow-converging interlocutor.\",\"source_ref\":null,\"time_window\":\"3-5 years\"}],\"counterevidence\":[{\"ref_id\":\"E-PA3\",\"quote_or_event\":\"You can't really answer these guys\",\"location\":\"S083\",\"evidence_type\":\"COUNTEREXAMPLE\",\"link_reason\":\"Premature closure on a class of interlocutors.\",\"source_ref\":null,\"time_window\":null}],\"evidence_coverage\":0.45,\"stress_tests\":{\"source\":\"PASS\",\"cost\":\"PASS\",\"endurance\":\"PASS\",\"relation\":\"WARN\",\"power\":\"UNKNOWN\",\"correction\":\"WARN\",\"outsider\":\"WARN\",\"succession\":\"UNKNOWN\"},\"counterfeit\":{\"flag\":false,\"claimed_label\":null,\"missing_companion\":null,\"anti_fruit_output\":null,\"severity\":\"NONE\"},\"rationale\":\"Strongest evidenced fruit: 15-year project, 20-year single question, multi-year correspondence. Undercut by giving up on 'these guys' as a class.\"},{\"fruit_id\":\"fruit.kindness\",\"score\":2,\"confidence\":0.45,\"mechanism\":\"low-friction repair and assistance that reduces needless barriers without erasing truth\",\"positive_evidence\":[{\"ref_id\":\"E-K1\",\"quote_or_event\":\"I'm just answering his questions and talking because he's talking to another person.\",\"location\":\"S123\",\"evidence_type\":\"MECHANISM\",\"link_reason\":\"Low-pressure assistance to an agnostic questioner.\",\"source_ref\":null,\"time_window\":null},{\"ref_id\":\"E-K2\",\"quote_or_event\":\"I don't say Greek Orthodox are going to hell.\",\"location\":\"S683\",\"evidence_type\":\"STATED_INTENT\",\"link_reason\":\"Refuses a needlessly harsh verdict on rivals.\",\"source_ref\":null,\"time_window\":null}],\"counterevidence\":[{\"ref_id\":\"E-K3\",\"quote_or_event\":\"So, it's it's just laughable to say that you're you're into presuppositionalism.\",\"location\":\"S109\",\"evidence_type\":\"COUNTEREXAMPLE\",\"link_reason\":\"Mockery of an opponent's claim.\",\"source_ref\":null,\"time_window\":null},{\"ref_id\":\"E-K4\",\"quote_or_event\":\"You got an F.\",\"location\":\"S504\",\"evidence_type\":\"COUNTEREXAMPLE\",\"link_reason\":\"Humiliating register toward the imagined naturalist.\",\"source_ref\":null,\"time_window\":null}],\"evidence_coverage\":0.5,\"stress_tests\":{\"source\":\"WARN\",\"cost\":\"UNKNOWN\",\"endurance\":\"WARN\",\"relation\":\"WARN\",\"power\":\"WARN\",\"correction\":\"WARN\",\"outsider\":\"WARN\",\"succession\":\"UNKNOWN\"},\"counterfeit\":{\"flag\":false,\"claimed_label\":null,\"missing_companion\":null,\"anti_fruit_output\":null,\"severity\":\"NONE\"},\"rationale\":\"Genuine low-friction help to one questioner, but the same speaker repeatedly uses ridicule (S077, S089, S109, S504-S507) toward the skeptic class.\"},{\"fruit_id\":\"fruit.goodness\",\"score\":2,\"confidence\":0.35,\"mechanism\":\"truth-aligned action producing real non-malign benefit after costs and externalities are counted\",\"positive_evidence\":[{\"ref_id\":\"E-G1\",\"quote_or_event\":\"We need to get something together to feed them.\",\"location\":\"S341\",\"evidence_type\":\"STATED_INTENT\",\"link_reason\":\"Names concrete material benefit to strangers.\",\"source_ref\":null,\"time_window\":null},{\"ref_id\":\"E-G2\",\"quote_or_event\":\"I think the western world arguably arguably the worst sin, you could make a case for the worst sin be materialism.\",\"location\":\"S313\",\"evidence_type\":\"STATED_INTENT\",\"link_reason\":\"Names an externalized cost of his own audience's culture.\",\"source_ref\":null,\"time_window\":null}],\"counterevidence\":[{\"ref_id\":\"E-G3\",\"quote_or_event\":\"I don't think even Christians can get away making that kind of claim.\",\"location\":\"S604\",\"evidence_type\":\"COUNTEREXAMPLE\",\"link_reason\":\"Concedes his own side's miracle claims are often unverifiable, which limits the benefit claimed.\",\"source_ref\":null,\"time_window\":null}],\"evidence_coverage\":0.3,\"stress_tests\":{\"source\":\"WARN\",\"cost\":\"UNKNOWN\",\"endurance\":\"UNKNOWN\",\"relation\":\"UNKNOWN\",\"power\":\"UNKNOWN\",\"correction\":\"WARN\",\"outsider\":\"UNKNOWN\",\"succession\":\"UNKNOWN\"},\"counterfeit\":{\"flag\":false,\"claimed_label\":null,\"missing_companion\":null,\"anti_fruit_output\":null,\"severity\":\"NONE\"},\"rationale\":\"Benefit is asserted at the level of intent; no downstream outcome is observable in the document. Notably he does concede his own side's weak claims (S604), which is not reputation management.\"},{\"fruit_id\":\"fruit.faithfulness\",\"score\":2,\"confidence\":0.4,\"mechanism\":\"invariant fidelity across time, audiences, incentives, and pressure, joined to correction when the object of loyalty is false\",\"positive_evidence\":[{\"ref_id\":\"E-F1\",\"quote_or_event\":\"I'm still teaching full-time at the PhD level\",\"location\":\"S080\",\"evidence_type\":\"PROCESS\",\"link_reason\":\"Sustained role across decades.\",\"source_ref\":null,\"time_window\":\"52 years\"},{\"ref_id\":\"E-F2\",\"quote_or_event\":\"I wouldn't do subjective apologetics if anybody paid me\",\"location\":\"S080\",\"evidence_type\":\"STATED_INTENT\",\"link_reason\":\"Declares a method invariant against incentive.\",\"source_ref\":null,\"time_window\":null}],\"counterevidence\":[{\"ref_id\":\"E-F3\",\"quote_or_event\":\"I'm not going to drop the gloves for this one because I'm I'm okay.\",\"location\":\"S113\",\"evidence_type\":\"COUNTEREXAMPLE\",\"link_reason\":\"Selective engagement: standards applied where the topic is central, not elsewhere.\",\"source_ref\":null,\"time_window\":null},{\"ref_id\":\"E-F4\",\"quote_or_event\":\"Only don't let anybody hear me.\",\"location\":\"S531\",\"evidence_type\":\"COUNTEREXAMPLE\",\"link_reason\":\"Private concession withheld from his own audience.\",\"source_ref\":null,\"time_window\":null}],\"evidence_coverage\":0.4,\"stress_tests\":{\"source\":\"PASS\",\"cost\":\"WARN\",\"endurance\":\"PASS\",\"relation\":\"WARN\",\"power\":\"WARN\",\"correction\":\"WARN\",\"outsider\":\"WARN\",\"succession\":\"UNKNOWN\"},\"counterfeit\":{\"flag\":false,\"claimed_label\":null,\"missing_companion\":null,\"anti_fruit_output\":null,\"severity\":\"NONE\"},\"rationale\":\"Long tenure and a declared method invariant are real; but S113 and S531 show audience-conditional candor, which is the tribal-loyalty edge of this fruit.\"},{\"fruit_id\":\"fruit.gentleness\",\"score\":1,\"confidence\":0.5,\"mechanism\":\"power precisely restrained to the minimum force sufficient for the good while protecting the vulnerable\",\"positive_evidence\":[{\"ref_id\":\"E-GE1\",\"quote_or_event\":\"I'm not going to drop the gloves for this one\",\"location\":\"S112\",\"evidence_type\":\"STATED_INTENT\",\"link_reason\":\"Explicit restraint of force on a minor matter.\",\"source_ref\":null,\"time_window\":null}],\"counterevidence\":[{\"ref_id\":\"E-GE2\",\"quote_or_event\":\"You got an F.\",\"location\":\"S504\",\"evidence_type\":\"COUNTEREXAMPLE\",\"link_reason\":\"Humiliation of the imagined opponent.\",\"source_ref\":null,\"time_window\":null},{\"ref_id\":\"E-GE3\",\"quote_or_event\":\"Don't even sit here in class.\",\"location\":\"S505\",\"evidence_type\":\"COUNTEREXAMPLE\",\"link_reason\":\"Expulsion register toward a position, not a person, but still coercive imagery.\",\"source_ref\":null,\"time_window\":null},{\"ref_id\":\"E-GE4\",\"quote_or_event\":\"a total total joke\",\"location\":\"S077\",\"evidence_type\":\"COUNTEREXAMPLE\",\"link_reason\":\"Belittling.\",\"source_ref\":null,\"time_window\":null}],\"evidence_coverage\":0.5,\"stress_tests\":{\"source\":\"WARN\",\"cost\":\"UNKNOWN\",\"endurance\":\"WARN\",\"relation\":\"WARN\",\"power\":\"WARN\",\"correction\":\"WARN\",\"outsider\":\"WARN\",\"succession\":\"UNKNOWN\"},\"counterfeit\":{\"flag\":false,\"claimed_label\":null,\"missing_companion\":null,\"anti_fruit_output\":null,\"severity\":\"NONE\"},\"rationale\":\"The per-sentence pass flagged S077/S089/S109 as gentleness-negative and I agree; the restraint at S112 is real but narrow. Lowest-scoring fruit.\"},{\"fruit_id\":\"fruit.self_control\",\"score\":2,\"confidence\":0.4,\"mechanism\":\"boundary integrity and governance of appetite, impulse, scope, and optimization under the true good\",\"positive_evidence\":[{\"ref_id\":\"E-SC1\",\"quote_or_event\":\"I can't guess for God, but I think it's okay.\",\"location\":\"S026\",\"evidence_type\":\"STATED_INTENT\",\"link_reason\":\"Explicitly refuses to overclaim on a matter outside his competence.\",\"source_ref\":null,\"time_window\":null},{\"ref_id\":\"E-SC2\",\"quote_or_event\":\"I don't think there's many things we could prove apppidictically\",\"location\":\"S744\",\"evidence_type\":\"STATED_INTENT\",\"link_reason\":\"Bounds his own epistemic claims.\",\"source_ref\":null,\"time_window\":null}],\"counterevidence\":[{\"ref_id\":\"E-SC3\",\"quote_or_event\":\"You got an F.\",\"location\":\"S504\",\"evidence_type\":\"COUNTEREXAMPLE\",\"link_reason\":\"Escalating rhetorical register beyond what the argument requires.\",\"source_ref\":null,\"time_window\":null},{\"ref_id\":\"E-SC4\",\"quote_or_event\":\"I think it's over 100 pages. um uh hundred I'm going to say about 130 pages\",\"location\":\"S477\",\"evidence_type\":\"COUNTEREXAMPLE\",\"link_reason\":\"Self-correcting estimate, minor; noted for completeness.\",\"source_ref\":null,\"time_window\":null}],\"evidence_coverage\":0.4,\"stress_tests\":{\"source\":\"PASS\",\"cost\":\"UNKNOWN\",\"endurance\":\"WARN\",\"relation\":\"WARN\",\"power\":\"WARN\",\"correction\":\"PASS\",\"outsider\":\"WARN\",\"succession\":\"UNKNOWN\"},\"counterfeit\":{\"flag\":false,\"claimed_label\":null,\"missing_companion\":null,\"anti_fruit_output\":null,\"severity\":\"NONE\"},\"rationale\":\"Notable self-bounding at S026, S732-S747 (refusing to call his theism chapter a proof) is genuine scope governance; offset by rhetorical escalation at S504-S507.\"}],\"contradictions\":[{\"classification\":\"ACKNOWLEDGED_REPAIRED\",\"load_bearing\":true,\"resolved\":true,\"evidence_refs\":[\"S062\",\"S065\",\"S099\",\"S100\"],\"fruit_relation\":\"faithfulness, self_control\",\"consequence\":\"The 'not apologetics' framing is reconciled with the four-volume evidential project by distinguishing halves of the book; the repair is explicit and consistent.\"},{\"classification\":\"UNRESOLVED\",\"load_bearing\":false,\"resolved\":false,\"evidence_refs\":[\"S084\",\"S085\",\"S086\"],\"fruit_relation\":\"love, gentleness, faithfulness\",\"consequence\":\"The claim that skeptics will always invent a new story makes the position immune to the correction it elsewhere invites; this is a local but real epistemic closure.\"},{\"classification\":\"LOCAL\",\"load_bearing\":false,\"resolved\":true,\"evidence_refs\":[\"S732\",\"S743\",\"S747\"],\"fruit_relation\":\"self_control\",\"consequence\":\"Speaker corrects the host's characterization of chapter one as 'proving God'; bounded and repaired in-text.\"}],\"counterfeit_flags\":[],\"anti_fruit_pressure\":[{\"ref_id\":\"A1\",\"location\":\"S077\",\"description\":\"Contempt register toward skeptics ('a total joke').\"},{\"ref_id\":\"A2\",\"location\":\"S504\",\"description\":\"Humiliation register ('You got an F').\"},{\"ref_id\":\"A3\",\"location\":\"S531\",\"description\":\"Candor withheld from own audience ('don't let anybody hear me').\"}],\"stakeholder_divergence\":[{\"group\":\"skeptics / naturalists\",\"observation\":\"Represented only as a class to be refuted; no named skeptic is given space to state his own case in this document.\",\"evidence_refs\":[\"S083\",\"S085\",\"S504\"]},{\"group\":\"Catholic / Orthodox believers\",\"observation\":\"Treated charitably on salvation (S682-S683) but their miracle claims are dismissed as 'in the eye of the beholder' (S527).\",\"evidence_refs\":[\"S527\",\"S682\"]},{\"group\":\"Habermas' wife / family\",\"observation\":\"Serious illness disclosed briefly (S043-S046); no downstream outcome reported.\",\"evidence_refs\":[\"S043\",\"S046\"]}],\"aggregation\":{\"mode\":\"gated_profile\",\"arithmetic_summary\":1.667,\"geometric_balance\":1.62,\"multiplicative_coherence\":null,\"minimum_fruit\":{\"fruit_id\":\"fruit.gentleness\",\"score\":1},\"vetoes\":[]},\"epistemic_status\":\"CONDITIONAL\",\"system_status\":\"COHERENT_BUT_FRAGILE\",\"confidence\":0.42,\"missing_evidence\":[\"No page-level citations for Hume, Swinburne, Allison, Del Rosario, or the Quran/Buddha claims.\",\"No independent verification of the Medjugorje crowd-size claim (S623-S626).\",\"No testimony from any named skeptic, Catholic, or Orthodox interlocutor within this document.\",\"No downstream outcome data for the claimed practical benefits of volume four.\",\"No speaker labels in the transcript; several proper names are garbled (S197, S433, S508).\"],\"repair_path\":[\"Cite page numbers for every attributed claim (Hume, Swinburne, Allison, Del Rosario).\",\"Quote the Quran and Buddhist-source claims directly rather than paraphrasing.\",\"State the premise that links 'unique event' to 'God did it' explicitly and name what would defeat it.\",\"Drop the unfalsifiable claim that skeptics will always invent a new story (S085), or bound it to specific named cases.\",\"Disclose the private concession at S531 openly rather than withholding it from the audience.\"],\"falsifier\":\"Evidence that the speaker's public evidentialist standard is applied selectively by audience (e.g., a documented case of softening a claim for a friendly audience while stating the opposite elsewhere), or a documented instance of the S085 pattern being used to dismiss a specific, well-evidenced counterargument.\",\"limitations\":[\"Auto-captioned transcript with no speaker labels; attribution between the two speakers is inferred from context.\",\"Only part one of a two-part interview is supplied; the practical-application half is absent.\",\"The supplied scorecard is a triage signal, not a truth rating, and is not treated as evidence here.\",\"No claim is made about the speakers' motives, salvation status, or the divine origin of any event.\",\"The per-sentence summary's near-zero fruit means are consistent with a doctrinal interview; I agree with its top_toward (S682, S683, S696) and top_away (S077, S089, S109) selections, and I weight S504-S507 more heavily than it did.\"]}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 23145,
+      "completion_tokens": 5584,
+      "attempts": 1,
+      "elapsed_seconds": 24.906000000002678,
+      "started_at": "2026-09-27T13:50:43.447038+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T13:51:08.359221+00:00",
+      "tokens": 28729
+    }
+  ],
+  "prompt_sha256": "93934bcdd93be5f1f908686020892cc51d1ec6a9556e05942a2055bc69c8a5c5",
+  "tokens": 60032
+}

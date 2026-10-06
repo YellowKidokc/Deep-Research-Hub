@@ -1,0 +1,71 @@
+<h1 class="my-3">Message Queue</h1>
+
+<table id="queue" class="table table-rh-2">
+    <thead>
+    <tr>
+        <th>State<br>TTL</th>
+        <th>Msg ID<br>Related ID</th>
+        <th>Recipient<br>Sender</th>
+        <th>Function<br>Payload</th>
+        <th>Owner Instance<br>Owner Tick</th>
+        <th>Created<br>Updated</th>
+    </tr>
+    <tr>
+        <td colspan="2"></td>
+        <td>
+            {{#if inboxes}}
+                <div class="btn-group">
+                    <button type="button" class="btn btn-secondary btn-sm dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        Filter
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/message-queue">Show All</a></li>
+                    {{#each inboxes}}
+                        <li><a class="dropdown-item" href="/message-queue?inbox={{this}}">{{this}}</a></li>
+                    {{/each}}
+                    </ul>
+                </div>
+
+            {{/if}}
+        </td>
+        <td colspan="3" style="padding: 0.5ch">
+            <a style="float:right" href="/message-queue/new">[Add Message]</a>
+        </td>
+    </tr>
+    </thead>
+    {{#unless messages}}
+    <tr>
+        <td colspan="6" rowspan="2">No messages found</td>
+    </tr>
+    {{/unless}}
+    {{#each messages}}
+    <tr>
+        <td>{{stateCode}}&nbsp;{{state}}</td>
+        <td><a href="/message-queue/{{id}}">{{id}}</a></td>
+        <td><a href="/message-queue?inbox={{recipientInbox}}">{{recipientInbox}}</a></td>
+        <td>{{function}}</td>
+        <td>{{{readableUUID ownerInstanceFull}}}</td>
+        <td title="{{createdTime}}">{{shortTimestamp createdTime}}</td>
+    </tr>
+    <tr>
+        <td>{{ttl}}</td>
+        <td>
+        {{#if hasRelatedMessage}}<a href="/message-queue/{{relatedId}}">{{relatedId}}</a>{{else}}{{relatedId}}{{/if}}
+        /
+        {{#if hasAuditRelation}}<a href="/message-queue/{{auditRelatedId}}">{{auditRelatedId}}</a>{{else}}{{auditRelatedId}}{{/if}}
+        </td>
+        <td><a href="/message-queue?inbox={{senderInbox}}">{{senderInbox}}</a></td>
+        <td style="word-break: break-all; font-family: monospace;">{{payload}}</td>
+        <td>{{ownerTick}}</td>
+        <td title="{{updatedTime}}">{{shortTimestamp updatedTime}}</td>
+    </tr>
+    {{/each}}
+    <tfoot>
+    <tr>
+        <td colspan="6"></td>
+        <td colspan="1" style="padding: 0.5ch">
+            {{#if next}}<a href="?after={{next}}&{{mqFilter}}" style="float:right">Next</a>{{/if}}
+        </td>
+    </tr>
+    </tfoot>
+</table>

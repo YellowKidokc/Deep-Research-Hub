@@ -1,0 +1,778 @@
+{
+  "start_offset": 0,
+  "cases_processed": 110,
+  "max_links_per_case": 20,
+  "rows_written": 2176,
+  "summary": [
+    {
+      "case_id": "CASE-0001",
+      "case_title": "illuminati",
+      "matched_title": "Illuminati",
+      "page_url": "https://en.wikipedia.org/wiki/Illuminati",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0002",
+      "case_title": "conspiracy theories",
+      "matched_title": "Conspiracy theory",
+      "page_url": "https://en.wikipedia.org/wiki/Conspiracy_theory",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0003",
+      "case_title": "flat earth",
+      "matched_title": "Flat Earth",
+      "page_url": "https://en.wikipedia.org/wiki/Flat_Earth",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0004",
+      "case_title": "area 51",
+      "matched_title": "Area 51",
+      "page_url": "https://en.wikipedia.org/wiki/Area_51",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0005",
+      "case_title": "new world order",
+      "matched_title": "New World Order",
+      "page_url": "https://en.wikipedia.org/wiki/New_World_Order",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0006",
+      "case_title": "MKUltra",
+      "matched_title": "MKUltra",
+      "page_url": "https://en.wikipedia.org/wiki/MKUltra",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0007",
+      "case_title": "chemtrails",
+      "matched_title": "Chemtrail conspiracy theory",
+      "page_url": "https://en.wikipedia.org/wiki/Chemtrail_conspiracy_theory",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0008",
+      "case_title": "Bigfoot",
+      "matched_title": "Bigfoot",
+      "page_url": "https://en.wikipedia.org/wiki/Bigfoot",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0009",
+      "case_title": "reptilians",
+      "matched_title": "Reptilian conspiracy theory",
+      "page_url": "https://en.wikipedia.org/wiki/Reptilian_conspiracy_theory",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0010",
+      "case_title": "freemasons",
+      "matched_title": "Freemasonry",
+      "page_url": "https://en.wikipedia.org/wiki/Freemasonry",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0011",
+      "case_title": "moon landing conspiracy",
+      "matched_title": "Moon landing conspiracy theories",
+      "page_url": "https://en.wikipedia.org/wiki/Moon_landing_conspiracy_theories",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0012",
+      "case_title": "deep state",
+      "matched_title": "Deep state",
+      "page_url": "https://en.wikipedia.org/wiki/Deep_state",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0013",
+      "case_title": "9/11 conspiracy",
+      "matched_title": "9/11 conspiracy theories",
+      "page_url": "https://en.wikipedia.org/wiki/9/11_conspiracy_theories",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0014",
+      "case_title": "Rothschild family",
+      "matched_title": "Rothschild family",
+      "page_url": "https://en.wikipedia.org/wiki/Rothschild_family",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0015",
+      "case_title": "Bilderberg Group",
+      "matched_title": "Bilderberg Meeting",
+      "page_url": "https://en.wikipedia.org/wiki/Bilderberg_Meeting",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0016",
+      "case_title": "JFK assassination conspiracy",
+      "matched_title": "John F. Kennedy assassination conspiracy theories",
+      "page_url": "https://en.wikipedia.org/wiki/John_F._Kennedy_assassination_conspiracy_theories",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0017",
+      "case_title": "HAARP",
+      "matched_title": "High-frequency Active Auroral Research Program",
+      "page_url": "https://en.wikipedia.org/wiki/High-frequency_Active_Auroral_Research_Program",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0018",
+      "case_title": "antichrist",
+      "matched_title": "Antichrist",
+      "page_url": "https://en.wikipedia.org/wiki/Antichrist",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0019",
+      "case_title": "end times",
+      "matched_title": "Eschatology",
+      "page_url": "https://en.wikipedia.org/wiki/Eschatology",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0020",
+      "case_title": "Epstein conspiracy",
+      "matched_title": "Death of Jeffrey Epstein",
+      "page_url": "https://en.wikipedia.org/wiki/Death_of_Jeffrey_Epstein",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0021",
+      "case_title": "fluoride conspiracy",
+      "matched_title": "Opposition to water fluoridation",
+      "page_url": "https://en.wikipedia.org/wiki/Opposition_to_water_fluoridation",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0022",
+      "case_title": "COINTELPRO",
+      "matched_title": "COINTELPRO",
+      "page_url": "https://en.wikipedia.org/wiki/COINTELPRO",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0023",
+      "case_title": "vaccine conspiracy",
+      "matched_title": "Vaccine misinformation",
+      "page_url": "https://en.wikipedia.org/wiki/Vaccine_misinformation",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0024",
+      "case_title": "Skull and Bones",
+      "matched_title": "Skull and Bones",
+      "page_url": "https://en.wikipedia.org/wiki/Skull_and_Bones",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0025",
+      "case_title": "Bohemian Grove",
+      "matched_title": "Bohemian Grove",
+      "page_url": "https://en.wikipedia.org/wiki/Bohemian_Grove",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0026",
+      "case_title": "FEMA camps",
+      "matched_title": "FEMA camps conspiracy theory",
+      "page_url": "https://en.wikipedia.org/wiki/FEMA_camps_conspiracy_theory",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0027",
+      "case_title": "Operation Paperclip",
+      "matched_title": "Operation Paperclip",
+      "page_url": "https://en.wikipedia.org/wiki/Operation_Paperclip",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0028",
+      "case_title": "Pizzagate",
+      "matched_title": "Pizzagate conspiracy theory",
+      "page_url": "https://en.wikipedia.org/wiki/Pizzagate_conspiracy_theory",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0029",
+      "case_title": "QAnon",
+      "matched_title": "QAnon",
+      "page_url": "https://en.wikipedia.org/wiki/QAnon",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0030",
+      "case_title": "Georgia Guidestones",
+      "matched_title": "Georgia Guidestones",
+      "page_url": "https://en.wikipedia.org/wiki/Georgia_Guidestones",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0031",
+      "case_title": "Federal Reserve conspiracy",
+      "matched_title": "John F. Kennedy assassination conspiracy theories",
+      "page_url": "https://en.wikipedia.org/wiki/John_F._Kennedy_assassination_conspiracy_theories",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0032",
+      "case_title": "Operation Northwoods",
+      "matched_title": "Operation Northwoods",
+      "page_url": "https://en.wikipedia.org/wiki/Operation_Northwoods",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0033",
+      "case_title": "Gulf of Tonkin",
+      "matched_title": "Gulf of Tonkin incident",
+      "page_url": "https://en.wikipedia.org/wiki/Gulf_of_Tonkin_incident",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0034",
+      "case_title": "Philadelphia Experiment",
+      "matched_title": "Philadelphia Experiment",
+      "page_url": "https://en.wikipedia.org/wiki/Philadelphia_Experiment",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0035",
+      "case_title": "Mandela Effect",
+      "matched_title": "False memory",
+      "page_url": "https://en.wikipedia.org/wiki/False_memory",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0036",
+      "case_title": "Project Blue Beam",
+      "matched_title": "Serge Monast",
+      "page_url": "https://en.wikipedia.org/wiki/Serge_Monast",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0037",
+      "case_title": "CIA drug trafficking",
+      "matched_title": "CIA drug trafficking allegations",
+      "page_url": "https://en.wikipedia.org/wiki/CIA_drug_trafficking_allegations",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0038",
+      "case_title": "Sandy Hook conspiracy",
+      "matched_title": "Sandy Hook Elementary School shooting conspiracy theories",
+      "page_url": "https://en.wikipedia.org/wiki/Sandy_Hook_Elementary_School_shooting_conspiracy_theories",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0039",
+      "case_title": "Agenda 21",
+      "matched_title": "Agenda 21",
+      "page_url": "https://en.wikipedia.org/wiki/Agenda_21",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0040",
+      "case_title": "mark of the beast",
+      "matched_title": "Number of the beast",
+      "page_url": "https://en.wikipedia.org/wiki/Number_of_the_beast",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0041",
+      "case_title": "rapture",
+      "matched_title": "Rapture",
+      "page_url": "https://en.wikipedia.org/wiki/Rapture",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0042",
+      "case_title": "Trilateral Commission",
+      "matched_title": "Trilateral Commission",
+      "page_url": "https://en.wikipedia.org/wiki/Trilateral_Commission",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0043",
+      "case_title": "weather modification",
+      "matched_title": "Weather modification",
+      "page_url": "https://en.wikipedia.org/wiki/Weather_modification",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0044",
+      "case_title": "Building 7",
+      "matched_title": "7 World Trade Center (1987\u20132001)",
+      "page_url": "https://en.wikipedia.org/wiki/7_World_Trade_Center_%281987%E2%80%932001%29",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0045",
+      "case_title": "5G conspiracy",
+      "matched_title": "5G misinformation",
+      "page_url": "https://en.wikipedia.org/wiki/5G_misinformation",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0046",
+      "case_title": "Baba Vanga predictions",
+      "matched_title": "Baba Vanga",
+      "page_url": "https://en.wikipedia.org/wiki/Baba_Vanga",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0047",
+      "case_title": "Nostradamus predictions",
+      "matched_title": "Nostradamus",
+      "page_url": "https://en.wikipedia.org/wiki/Nostradamus",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0048",
+      "case_title": "Denver Airport conspiracy",
+      "matched_title": "Denver International Airport",
+      "page_url": "https://en.wikipedia.org/wiki/Denver_International_Airport",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0049",
+      "case_title": "CIA heart attack gun",
+      "matched_title": "Camp Chapman attack",
+      "page_url": "https://en.wikipedia.org/wiki/Camp_Chapman_attack",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0050",
+      "case_title": "Great Reset",
+      "matched_title": "Great Reset",
+      "page_url": "https://en.wikipedia.org/wiki/Great_Reset",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0051",
+      "case_title": "Operation Mockingbird",
+      "matched_title": "Operation Mockingbird",
+      "page_url": "https://en.wikipedia.org/wiki/Operation_Mockingbird",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0052",
+      "case_title": "Majestic 12",
+      "matched_title": "Majestic 12",
+      "page_url": "https://en.wikipedia.org/wiki/Majestic_12",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0053",
+      "case_title": "secret space program",
+      "matched_title": "Secret space program",
+      "page_url": "https://en.wikipedia.org/wiki/Secret_space_program",
+      "links_added": 17
+    },
+    {
+      "case_id": "CASE-0054",
+      "case_title": "Waco siege",
+      "matched_title": "Waco siege",
+      "page_url": "https://en.wikipedia.org/wiki/Waco_siege",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0055",
+      "case_title": "Council on Foreign Relations",
+      "matched_title": "Council on Foreign Relations",
+      "page_url": "https://en.wikipedia.org/wiki/Council_on_Foreign_Relations",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0056",
+      "case_title": "predictive programming",
+      "matched_title": "List of conspiracy theories",
+      "page_url": "https://en.wikipedia.org/wiki/List_of_conspiracy_theories",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0057",
+      "case_title": "martial law",
+      "matched_title": "Martial law",
+      "page_url": "https://en.wikipedia.org/wiki/Martial_law",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0058",
+      "case_title": "blood sacrifice",
+      "matched_title": "Sacrifice",
+      "page_url": "https://en.wikipedia.org/wiki/Sacrifice",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0059",
+      "case_title": "adrenochrome",
+      "matched_title": "Adrenochrome",
+      "page_url": "https://en.wikipedia.org/wiki/Adrenochrome",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0060",
+      "case_title": "third temple",
+      "matched_title": "Third Temple",
+      "page_url": "https://en.wikipedia.org/wiki/Third_Temple",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0061",
+      "case_title": "Operation Gladio",
+      "matched_title": "Operation Gladio",
+      "page_url": "https://en.wikipedia.org/wiki/Operation_Gladio",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0062",
+      "case_title": "Ruby Ridge",
+      "matched_title": "Ruby Ridge standoff",
+      "page_url": "https://en.wikipedia.org/wiki/Ruby_Ridge_standoff",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0063",
+      "case_title": "Bohemian Club",
+      "matched_title": "Bohemian Club",
+      "page_url": "https://en.wikipedia.org/wiki/Bohemian_Club",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0064",
+      "case_title": "UFO disclosure",
+      "matched_title": "Disclosure movement",
+      "page_url": "https://en.wikipedia.org/wiki/Disclosure_movement",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0065",
+      "case_title": "Montauk Project",
+      "matched_title": "Montauk Project",
+      "page_url": "https://en.wikipedia.org/wiki/Montauk_Project",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0066",
+      "case_title": "false flag operations",
+      "matched_title": "False flag",
+      "page_url": "https://en.wikipedia.org/wiki/False_flag",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0067",
+      "case_title": "dead internet theory",
+      "matched_title": "Dead Internet theory",
+      "page_url": "https://en.wikipedia.org/wiki/Dead_Internet_theory",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0068",
+      "case_title": "Project Monarch",
+      "matched_title": "Cathy O'Brien (conspiracy theorist)",
+      "page_url": "https://en.wikipedia.org/wiki/Cathy_O%27Brien_%28conspiracy_theorist%29",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0069",
+      "case_title": "targeted individuals",
+      "matched_title": "Targeted individual",
+      "page_url": "https://en.wikipedia.org/wiki/Targeted_individual",
+      "links_added": 7
+    },
+    {
+      "case_id": "CASE-0070",
+      "case_title": "world government",
+      "matched_title": "World government",
+      "page_url": "https://en.wikipedia.org/wiki/World_government",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0071",
+      "case_title": "Iran Contra",
+      "matched_title": "Iran\u2013Contra affair",
+      "page_url": "https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0072",
+      "case_title": "CIA black sites",
+      "matched_title": "CIA black sites",
+      "page_url": "https://en.wikipedia.org/wiki/CIA_black_sites",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0073",
+      "case_title": "mass surveillance",
+      "matched_title": "Mass surveillance",
+      "page_url": "https://en.wikipedia.org/wiki/Mass_surveillance",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0074",
+      "case_title": "blood moon prophecy",
+      "matched_title": "Blood moon prophecy",
+      "page_url": "https://en.wikipedia.org/wiki/Blood_moon_prophecy",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0075",
+      "case_title": "ancient aliens",
+      "matched_title": "Ancient Aliens",
+      "page_url": "https://en.wikipedia.org/wiki/Ancient_Aliens",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0076",
+      "case_title": "geoengineering",
+      "matched_title": "Geoengineering",
+      "page_url": "https://en.wikipedia.org/wiki/Geoengineering",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0077",
+      "case_title": "crisis actors",
+      "matched_title": "Crisis actor",
+      "page_url": "https://en.wikipedia.org/wiki/Crisis_actor",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0078",
+      "case_title": "Rothschild banking",
+      "matched_title": "Rothschild family",
+      "page_url": "https://en.wikipedia.org/wiki/Rothschild_family",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0079",
+      "case_title": "Protocols of Zion",
+      "matched_title": "The Protocols of the Elders of Zion",
+      "page_url": "https://en.wikipedia.org/wiki/The_Protocols_of_the_Elders_of_Zion",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0080",
+      "case_title": "Nikola Tesla conspiracy",
+      "matched_title": "Free energy suppression conspiracy theory",
+      "page_url": "https://en.wikipedia.org/wiki/Free_energy_suppression_conspiracy_theory",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0081",
+      "case_title": "Dulce Base",
+      "matched_title": "Dulce Base",
+      "page_url": "https://en.wikipedia.org/wiki/Dulce_Base",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0082",
+      "case_title": "Vatican secrets",
+      "matched_title": "Vatican Apostolic Archive",
+      "page_url": "https://en.wikipedia.org/wiki/Vatican_Apostolic_Archive",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0083",
+      "case_title": "Agenda 2030",
+      "matched_title": "Sustainable Development Goals",
+      "page_url": "https://en.wikipedia.org/wiki/Sustainable_Development_Goals",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0084",
+      "case_title": "missing 411",
+      "matched_title": "David Paulides",
+      "page_url": "https://en.wikipedia.org/wiki/David_Paulides",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0085",
+      "case_title": "executive orders conspiracy",
+      "matched_title": "List of executive actions by Joe Biden",
+      "page_url": "https://en.wikipedia.org/wiki/List_of_executive_actions_by_Joe_Biden",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0086",
+      "case_title": "Roswell incident",
+      "matched_title": "Roswell incident",
+      "page_url": "https://en.wikipedia.org/wiki/Roswell_incident",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0087",
+      "case_title": "USS Liberty",
+      "matched_title": "USS Liberty",
+      "page_url": "https://en.wikipedia.org/wiki/USS_Liberty",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0088",
+      "case_title": "October Surprise 1980",
+      "matched_title": "1980 October Surprise theory",
+      "page_url": "https://en.wikipedia.org/wiki/1980_October_Surprise_theory",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0089",
+      "case_title": "Phoenix Lights",
+      "matched_title": "Phoenix Lights",
+      "page_url": "https://en.wikipedia.org/wiki/Phoenix_Lights",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0090",
+      "case_title": "Club of Rome",
+      "matched_title": "Club of Rome",
+      "page_url": "https://en.wikipedia.org/wiki/Club_of_Rome",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0091",
+      "case_title": "Tuskegee experiment",
+      "matched_title": "Tuskegee Syphilis Study",
+      "page_url": "https://en.wikipedia.org/wiki/Tuskegee_Syphilis_Study",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0092",
+      "case_title": "Project ARTICHOKE",
+      "matched_title": "Project Artichoke",
+      "page_url": "https://en.wikipedia.org/wiki/Project_Artichoke",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0093",
+      "case_title": "Lavon Affair",
+      "matched_title": "Lavon Affair",
+      "page_url": "https://en.wikipedia.org/wiki/Lavon_Affair",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0094",
+      "case_title": "fractional reserve banking",
+      "matched_title": "Fractional-reserve banking",
+      "page_url": "https://en.wikipedia.org/wiki/Fractional-reserve_banking",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0095",
+      "case_title": "Rendlesham Forest",
+      "matched_title": "Rendlesham Forest incident",
+      "page_url": "https://en.wikipedia.org/wiki/Rendlesham_Forest_incident",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0096",
+      "case_title": "seven seals revelation",
+      "matched_title": "Seven seals",
+      "page_url": "https://en.wikipedia.org/wiki/Seven_seals",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0097",
+      "case_title": "four horsemen",
+      "matched_title": "Four Horsemen of the Apocalypse",
+      "page_url": "https://en.wikipedia.org/wiki/Four_Horsemen_of_the_Apocalypse",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0098",
+      "case_title": "black budget",
+      "matched_title": "Black budget",
+      "page_url": "https://en.wikipedia.org/wiki/Black_budget",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0099",
+      "case_title": "Satanic panic",
+      "matched_title": "Satanic panic",
+      "page_url": "https://en.wikipedia.org/wiki/Satanic_panic",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0100",
+      "case_title": "Bilderberg 2026",
+      "matched_title": "2025 Bilderberg Conference",
+      "page_url": "https://en.wikipedia.org/wiki/2025_Bilderberg_Conference",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0101",
+      "case_title": "DARPA conspiracy",
+      "matched_title": "New World Order conspiracy theory",
+      "page_url": "https://en.wikipedia.org/wiki/New_World_Order_conspiracy_theory",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0102",
+      "case_title": "shadow government",
+      "matched_title": "Shadow government",
+      "page_url": "https://en.wikipedia.org/wiki/Shadow_government",
+      "links_added": 12
+    },
+    {
+      "case_id": "CASE-0103",
+      "case_title": "Rockefeller conspiracy",
+      "matched_title": "New World Order conspiracy theory",
+      "page_url": "https://en.wikipedia.org/wiki/New_World_Order_conspiracy_theory",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0104",
+      "case_title": "Project Blue Book",
+      "matched_title": "Project Blue Book",
+      "page_url": "https://en.wikipedia.org/wiki/Project_Blue_Book",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0105",
+      "case_title": "transhumanism",
+      "matched_title": "Transhumanism",
+      "page_url": "https://en.wikipedia.org/wiki/Transhumanism",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0106",
+      "case_title": "water fluoridation",
+      "matched_title": "Water fluoridation",
+      "page_url": "https://en.wikipedia.org/wiki/Water_fluoridation",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0107",
+      "case_title": "depopulation agenda",
+      "matched_title": "2022 Wellington protest",
+      "page_url": "https://en.wikipedia.org/wiki/2022_Wellington_protest",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0108",
+      "case_title": "Daniel prophecy",
+      "matched_title": "Prophecy of Seventy Weeks",
+      "page_url": "https://en.wikipedia.org/wiki/Prophecy_of_Seventy_Weeks",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0109",
+      "case_title": "Ezekiel 38 war",
+      "matched_title": "Ezekiel 38",
+      "page_url": "https://en.wikipedia.org/wiki/Ezekiel_38",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0110",
+      "case_title": "Operation CHAOS",
+      "matched_title": "Operation CHAOS",
+      "page_url": "https://en.wikipedia.org/wiki/Operation_CHAOS",
+      "links_added": 20
+    }
+  ]
+}

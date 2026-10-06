@@ -1,0 +1,474 @@
+{
+  "name": "grade_a_1",
+  "parsed": {
+    "arguments": [
+      {
+        "id": "G1",
+        "name": "Habermas cites skeptics extensively in print",
+        "speaker": "Gary Habermas",
+        "conclusion": "Habermas is not avoiding or hiding skeptical scholars, because his published volumes cite thousands of sources across the ideological spectrum.",
+        "premises": [
+          "P1: Volume 3 contains roughly 8,000 footnotes and cites scholars from evangelicals to atheists.",
+          "P2: Habermas's criterion for inclusion is a terminal degree in a relevant field, regardless of the scholar's religious stance.",
+          "P3: Critics who say he refuses to name skeptics largely have not read or cited his books."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "So, I'm not hiding in any way from names."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "Uh evangelicals to atheists. It's my definition is if you have a terminal degree in a relevant field and I think I list six or seven relevant fields."
+          },
+          "st3": {
+            "v": 2,
+            "quote": "Ben told me from his counting, Ben told me I think he said there's a little less than 8,000 footnotes in that book."
+          },
+          "st4": {
+            "v": 1,
+            "quote": "But if there's 8,000 footnotes, I think I'm doing some citing and it's across the board."
+          },
+          "st5": {
+            "v": 1,
+            "quote": "But you know, you already said it. These folks largely do not site the book cuz I got a feeling am I just naive that they didn't read it and they don't know."
+          },
+          "st6": {
+            "v": 1,
+            "quote": "So, I'm not hiding in any way from names."
+          },
+          "st7": {
+            "v": 1,
+            "quote": "If you start accounting, the critics have gotten it. It's not Habermass mentions them one or two times and goes off on them 400 times."
+          },
+          "st8": {
+            "v": 2,
+            "quote": "It's jam-packed with names and citations on page after page."
+          }
+        },
+        "prior_art": "Gary Habermas, The Historical Jesus (1996) / minimal facts method",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "So, I'm not hiding in any way from names.",
+            "why": "It is a self-defense variant of the standard Habermas minimal-facts citation practice, not a new historical argument."
+          },
+          "or2": {
+            "v": 2,
+            "quote": "Ben told me from his counting, Ben told me I think he said there's a little less than 8,000 footnotes in that book.",
+            "why": "The 8,000-footnote count and the terminal-degree inclusion rule are specific new support data."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain bridge is made."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization or model is added."
+          }
+        },
+        "weakest_link": "The claim that critics have not read the books is an inference about motive, not evidence.",
+        "develop_next": "Provide an actual count or sample audit of skeptical vs. evangelical citations in volume 3.",
+        "case_map": [],
+        "domain": "history"
+      },
+      {
+        "id": "G2",
+        "name": "Volume 3 was an add-on research tool, not an attack",
+        "speaker": "Gary Habermas",
+        "conclusion": "Volume 3 was originally an add-on bibliographic catch-up volume and was not written to attack or embarrass anyone.",
+        "premises": [
+          "P1: Habermas originally planned only three volumes and began the project to update his bibliographic follow-up after 1975.",
+          "P2: Michael Licona suggested the 1,500 pages on people's views become a fourth volume, and the publisher immediately agreed.",
+          "P3: The volume is intended to help researchers, students, and podcasters quickly locate scholarly views and quotations."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "So it was an add-on volume for me to catch up and Mike said throw it in there."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "I was originally only going to do three volumes."
+          },
+          "st3": {
+            "v": 2,
+            "quote": "Michael Lona said to me, he said, \"Hey, you've got these 1500 pages on people's views. I think that would interest a lot of people. Why don't you ask your publisher if they want that to be volume four?\""
+          },
+          "st4": {
+            "v": 2,
+            "quote": "So, there was a lot of interest there."
+          },
+          "st5": {
+            "v": 1,
+            "quote": "I didn't write it with a view to upsetting somebody. Nothing like that."
+          },
+          "st6": {
+            "v": 1,
+            "quote": "But it has it has very little to do with blasting guys or giving arguments."
+          },
+          "st7": {
+            "v": 0,
+            "quote": "",
+            "why": "No kill condition or test is given."
+          },
+          "st8": {
+            "v": 1,
+            "quote": "So I was doing it for me to refamiliarize myself with sources."
+          }
+        },
+        "prior_art": "none known",
+        "originality": {
+          "or1": {
+            "v": 2,
+            "quote": "So it was an add-on volume for me to catch up and Mike said throw it in there.",
+            "why": "This is an autobiographical account of the volume's origin, not a restatement of a prior argument."
+          },
+          "or2": {
+            "v": 2,
+            "quote": "Michael Lona said to me, he said, \"Hey, you've got these 1500 pages on people's views. I think that would interest a lot of people. Why don't you ask your publisher if they want that to be volume four?\"",
+            "why": "The Licona/publisher origin story is new evidence not used in prior minimal-facts arguments."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain connection."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formal structure added."
+          }
+        },
+        "weakest_link": "The intention claim rests on Habermas's own testimony about his motives.",
+        "develop_next": "Show the volume's introduction or publisher correspondence confirming the stated origin and purpose.",
+        "case_map": [],
+        "domain": "history"
+      },
+      {
+        "id": "G3",
+        "name": "Fairness challenge to critics",
+        "speaker": "Gary Habermas",
+        "conclusion": "Critics who complain about his citation balance should produce a comparable work with the same percentage of opposing scholars cited fairly.",
+        "premises": [
+          "P1: Critics allege that most of his footnotes are to evangelicals or scholars friendly to evangelicals.",
+          "P2: Habermas challenges them to write a 1,000-page book citing the same percentage of skeptics as he cites evangelicals.",
+          "P3: He allows them to include a few critiques, just as he occasionally includes critiques of conservatives."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "Here's my challenge. Okay, you write a thousandpage book and have the same percentage of evangelicals that I have of skeptics."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "You say you don't give critiques, you sneak in a few. Okay, you can sneak in a few of evangelicals, too."
+          },
+          "st3": {
+            "v": 1,
+            "quote": "Why don't we say, \"Oh, so you quoted, I'll just make something up.\" Yeah, you've got 8,000ish footnotes, but I'm going to make it up."
+          },
+          "st4": {
+            "v": 1,
+            "quote": "I want to see who wears the skeptical work that cites as many of the conservatives nicely without same thing you critique me for without giving critiques."
+          },
+          "st5": {
+            "v": 1,
+            "quote": "I know it's just human nature to cite more people that agree with you."
+          },
+          "st6": {
+            "v": 1,
+            "quote": "But I want you to have the same percentage of treating evangelicals nicely and citing them in your work as of yours."
+          },
+          "st7": {
+            "v": 1,
+            "quote": "In fact, I have a running commentary on that in my own notes. I keep notes on it."
+          },
+          "st8": {
+            "v": 1,
+            "quote": "I think I'm quite fair in this volume."
+          }
+        },
+        "prior_art": "none known",
+        "originality": {
+          "or1": {
+            "v": 2,
+            "quote": "Here's my challenge. Okay, you write a thousandpage book and have the same percentage of evangelicals that I have of skeptics.",
+            "why": "A tu quoque fairness challenge is not a restatement of a prior resurrection argument."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "Yeah, you've got 8,000ish footnotes, but I'm going to make it up.",
+            "why": "It uses the 8,000-footnote figure but does not add new external evidence."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain bridge."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization."
+          }
+        },
+        "weakest_link": "The challenge does not itself establish that Habermas's citation balance is fair.",
+        "develop_next": "Publish the actual percentage breakdown of skeptical vs. friendly citations in volume 3.",
+        "case_map": [],
+        "domain": "history"
+      },
+      {
+        "id": "G4",
+        "name": "No numerical threshold for 'highly evidenced'",
+        "speaker": "Gary Habermas",
+        "conclusion": "The first minimal-facts criterion, 'highly evidenced,' should not be reduced to a fixed percentage; it is better understood through categories of strong historical evidence.",
+        "premises": [
+          "P1: Habermas has never counted scholars or assigned a percentage threshold except in his empty-tomb study.",
+          "P2: He measures evidence by categories such as multiple attestation, eyewitness testimony, and early sources.",
+          "P3: If he gave a number such as 80%, critics would misrepresent it as an arbitrary criterion."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "But I do not have a certain threshold that they have to have to meet."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "I'd say if I have multiple attestation, eyewitness and early sources, that's not a list of names. That's a list of categories."
+          },
+          "st3": {
+            "v": 2,
+            "quote": "When we do criteria we many many commentators have said that multiple attestation is the best evidence for documents multiple attestation."
+          },
+          "st4": {
+            "v": 2,
+            "quote": "So I would go for the stronger reasons, not the lesser reasons."
+          },
+          "st5": {
+            "v": 1,
+            "quote": "If I said, \"Well, Dale, you give uh 51. I'd like at least 80.\" They're going to go, \"See, he means 80.\""
+          },
+          "st6": {
+            "v": 1,
+            "quote": "But I don't have there. At no point do I ever say I need this many evidences."
+          },
+          "st7": {
+            "v": 1,
+            "quote": "I don't have any count to my recollection except the empty tomb."
+          },
+          "st8": {
+            "v": 2,
+            "quote": "I'd say if I have multiple attestation, eyewitness and early sources, that's not a list of names. That's a list of categories."
+          }
+        },
+        "prior_art": "Gary Habermas, minimal facts method, The Historical Jesus, 1996",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "But I do not have a certain threshold that they have to have to meet.",
+            "why": "It clarifies the existing minimal-facts criterion rather than offering a new argument."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "I'd say if I have multiple attestation, eyewitness and early sources, that's not a list of names. That's a list of categories.",
+            "why": "It names categories of evidence but these are standard historiographical criteria already used in the prior art."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain connection."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization or model."
+          }
+        },
+        "weakest_link": "The rejection of numerical thresholds leaves 'highly evidenced' vague and hard to test.",
+        "develop_next": "Specify a concrete decision rule for when the category-based evidence is sufficient.",
+        "case_map": [
+          "K13",
+          "K15",
+          "K16"
+        ],
+        "domain": "history"
+      },
+      {
+        "id": "G5",
+        "name": "Non-evangelical scholars support the minimal facts",
+        "speaker": "Gary Habermas",
+        "conclusion": "The minimal facts are strongly supported even by non-evangelical and skeptical scholars, which strengthens the case that they are not merely Christian bias.",
+        "premises": [
+          "P1: James D. G. Dunn, a non-evangelical, holds that the resurrection preaching and creedal statements may go back within months of the crucifixion.",
+          "P2: Gerd Lüdemann, an atheist New Testament scholar, says the preaching of the resurrection began immediately.",
+          "P3: Bart Ehrman concedes it is a historical fact that the disciples thought they saw the risen Jesus.",
+          "P4: Dale Allison says the minimal facts approach is the best apologetical argument and that his skeptical approach does not deny any of the minimal facts."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "So, I mean, I got to be able to say those things without being, you know, that's somebody from your home church or you're I just hate these low blows where people can't look these guys up for themselves."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "He is overboard complimenting not me but he's overboard complimenting how many of those sources we even Bartman says I'm not going to argue he Bart man says if he says I don't know how many all of them some of them he said but they thought they saw the risen Jesus he said I don't disagree with this because it's a fact of history"
+          },
+          "st3": {
+            "v": 2,
+            "quote": "He he seems like he's it sounds like he's saying the original creedle statements could have come that first year."
+          },
+          "st4": {
+            "v": 2,
+            "quote": "The preaching began immediately."
+          },
+          "st5": {
+            "v": 1,
+            "quote": "But he said it's the best of the arguments and my approach, my skeptical approach, doesn't deny any of them."
+          },
+          "st6": {
+            "v": 1,
+            "quote": "So, if I have non-eangelicals saying those things, that that interests me, but I I think more in terms of data like multiple attestation, eyewitness early testimony"
+          },
+          "st7": {
+            "v": 1,
+            "quote": "They've got some things they can signal, too."
+          },
+          "st8": {
+            "v": 2,
+            "quote": "So, if I have non-eangelicals saying those things, that that interests me"
+          }
+        },
+        "prior_art": "Gary Habermas, minimal facts method, The Historical Jesus, 1996",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "So, if I have non-eangelicals saying those things, that that interests me",
+            "why": "It is a variant of the standard minimal-facts argument, using additional named non-evangelical scholars."
+          },
+          "or2": {
+            "v": 2,
+            "quote": "The preaching began immediately.",
+            "why": "It brings specific quoted support from Dunn, Lüdemann, Ehrman and Allison that the prior art does not use."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain bridge."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization."
+          }
+        },
+        "weakest_link": "The inference from individual non-evangelical concessions to a strong scholarly consensus is not quantified.",
+        "develop_next": "Provide a systematic survey of non-evangelical scholars on each minimal fact.",
+        "case_map": [
+          "K13",
+          "K15",
+          "K16"
+        ],
+        "domain": "history"
+      },
+      {
+        "id": "G6",
+        "name": "Scholarly consensus alone is not sufficient",
+        "speaker": "Gary Habermas",
+        "conclusion": "The scholarly-consensus criterion is not by itself sufficient for rational belief; the evidence criterion is far more important.",
+        "premises": [
+          "P1: Habermas says criterion one is by far the more important of the two, perhaps 85-90% of the case.",
+          "P2: If the second criterion disappeared, one would be no worse off than other ancient historians.",
+          "P3: Scholarly consensus can be wrong if it is based on bias or social pressure."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "It's only when accompanied by high it being highly evidence that you can rationally believe. >> Yes, it's the latter."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "This sounds stupid for me to say that in my mind number one would be 90 or 85% of the game."
+          },
+          "st3": {
+            "v": 2,
+            "quote": "I even I would admit scholarly cons just the scholarly consensus alone they're often wrong. So it has to be a proper consensus. You know one that's not based on bias or some kind of social or political pressure or something like that."
+          },
+          "st4": {
+            "v": 2,
+            "quote": "I think number one is so far ahead of number two that I think if number two disappears no biggie."
+          },
+          "st5": {
+            "v": 1,
+            "quote": "But if I'm going to make it an argument at all, it's going to be down my line."
+          },
+          "st6": {
+            "v": 1,
+            "quote": "I'd say in general, no."
+          },
+          "st7": {
+            "v": 1,
+            "quote": "I'll say, \"What happens if we wake up one morning, there's a big uprising, and 10% of scholars admit this admit these data?\" I say, \"Okay, if there's a time when I have to drop my second criterion, how bad am I off?\" No worse off than uh other ancient histo ancient historians"
+          },
+          "st8": {
+            "v": 1,
+            "quote": "I think number one is so far ahead of number two"
+          }
+        },
+        "prior_art": "Gary Habermas, minimal facts method, The Historical Jesus, 1996",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "It's only when accompanied by high it being highly evidence that you can rationally believe. >> Yes, it's the latter.",
+            "why": "It is a refinement of the existing two-criteria minimal-facts method, not a different argument."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "I think number one is so far ahead of number two that I think if number two disappears no biggie.",
+            "why": "It gives a comparative weighting but no new external evidence."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain connection."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization or model."
+          }
+        },
+        "weakest_link": "The 85-90% weighting is asserted without a method for measuring it.",
+        "develop_next": "Operationalize the evidence criterion so its sufficiency can be assessed independently of consensus.",
+        "case_map": [
+          "K13",
+          "K15",
+          "K16"
+        ],
+        "domain": "history"
+      }
+    ]
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "grade_a_1",
+      "attempt": 1,
+      "text": "{\n  \"arguments\": [\n    {\n      \"id\": \"G1\",\n      \"name\": \"Habermas cites skeptics extensively in print\",\n      \"speaker\": \"Gary Habermas\",\n      \"conclusion\": \"Habermas is not avoiding or hiding skeptical scholars, because his published volumes cite thousands of sources across the ideological spectrum.\",\n      \"premises\": [\n        \"P1: Volume 3 contains roughly 8,000 footnotes and cites scholars from evangelicals to atheists.\",\n        \"P2: Habermas's criterion for inclusion is a terminal degree in a relevant field, regardless of the scholar's religious stance.\",\n        \"P3: Critics who say he refuses to name skeptics largely have not read or cited his books.\"\n      ],\n      \"strength\": {\n        \"st1\": {\n          \"v\": 2,\n          \"quote\": \"So, I'm not hiding in any way from names.\"\n        },\n        \"st2\": {\n          \"v\": 2,\n          \"quote\": \"Uh evangelicals to atheists. It's my definition is if you have a terminal degree in a relevant field and I think I list six or seven relevant fields.\"\n        },\n        \"st3\": {\n          \"v\": 2,\n          \"quote\": \"Ben told me from his counting, Ben told me I think he said there's a little less than 8,000 footnotes in that book.\"\n        },\n        \"st4\": {\n          \"v\": 1,\n          \"quote\": \"But if there's 8,000 footnotes, I think I'm doing some citing and it's across the board.\"\n        },\n        \"st5\": {\n          \"v\": 1,\n          \"quote\": \"But you know, you already said it. These folks largely do not site the book cuz I got a feeling am I just naive that they didn't read it and they don't know.\"\n        },\n        \"st6\": {\n          \"v\": 1,\n          \"quote\": \"So, I'm not hiding in any way from names.\"\n        },\n        \"st7\": {\n          \"v\": 1,\n          \"quote\": \"If you start accounting, the critics have gotten it. It's not Habermass mentions them one or two times and goes off on them 400 times.\"\n        },\n        \"st8\": {\n          \"v\": 2,\n          \"quote\": \"It's jam-packed with names and citations on page after page.\"\n        }\n      },\n      \"prior_art\": \"Gary Habermas, The Historical Jesus (1996) / minimal facts method\",\n      \"originality\": {\n        \"or1\": {\n          \"v\": 1,\n          \"quote\": \"So, I'm not hiding in any way from names.\",\n          \"why\": \"It is a self-defense variant of the standard Habermas minimal-facts citation practice, not a new historical argument.\"\n        },\n        \"or2\": {\n          \"v\": 2,\n          \"quote\": \"Ben told me from his counting, Ben told me I think he said there's a little less than 8,000 footnotes in that book.\",\n          \"why\": \"The 8,000-footnote count and the terminal-degree inclusion rule are specific new support data.\"\n        },\n        \"or3\": {\n          \"v\": 0,\n          \"quote\": \"\",\n          \"why\": \"No cross-domain bridge is made.\"\n        },\n        \"or4\": {\n          \"v\": 0,\n          \"quote\": \"\",\n          \"why\": \"No formalization or model is added.\"\n        }\n      },\n      \"weakest_link\": \"The claim that critics have not read the books is an inference about motive, not evidence.\",\n      \"develop_next\": \"Provide an actual count or sample audit of skeptical vs. evangelical citations in volume 3.\",\n      \"case_map\": [],\n      \"domain\": \"history\"\n    },\n    {\n      \"id\": \"G2\",\n      \"name\": \"Volume 3 was an add-on research tool, not an attack\",\n      \"speaker\": \"Gary Habermas\",\n      \"conclusion\": \"Volume 3 was originally an add-on bibliographic catch-up volume and was not written to attack or embarrass anyone.\",\n      \"premises\": [\n        \"P1: Habermas originally planned only three volumes and began the project to update his bibliographic follow-up after 1975.\",\n        \"P2: Michael Licona suggested the 1,500 pages on people's views become a fourth volume, and the publisher immediately agreed.\",\n        \"P3: The volume is intended to help researchers, students, and podcasters quickly locate scholarly views and quotations.\"\n      ],\n      \"strength\": {\n        \"st1\": {\n          \"v\": 2,\n          \"quote\": \"So it was an add-on volume for me to catch up and Mike said throw it in there.\"\n        },\n        \"st2\": {\n          \"v\": 2,\n          \"quote\": \"I was originally only going to do three volumes.\"\n        },\n        \"st3\": {\n          \"v\": 2,\n          \"quote\": \"Michael Lona said to me, he said, \\\"Hey, you've got these 1500 pages on people's views. I think that would interest a lot of people. Why don't you ask your publisher if they want that to be volume four?\\\"\"\n        },\n        \"st4\": {\n          \"v\": 2,\n          \"quote\": \"So, there was a lot of interest there.\"\n        },\n        \"st5\": {\n          \"v\": 1,\n          \"quote\": \"I didn't write it with a view to upsetting somebody. Nothing like that.\"\n        },\n        \"st6\": {\n          \"v\": 1,\n          \"quote\": \"But it has it has very little to do with blasting guys or giving arguments.\"\n        },\n        \"st7\": {\n          \"v\": 0,\n          \"quote\": \"\",\n          \"why\": \"No kill condition or test is given.\"\n        },\n        \"st8\": {\n          \"v\": 1,\n          \"quote\": \"So I was doing it for me to refamiliarize myself with sources.\"\n        }\n      },\n      \"prior_art\": \"none known\",\n      \"originality\": {\n        \"or1\": {\n          \"v\": 2,\n          \"quote\": \"So it was an add-on volume for me to catch up and Mike said throw it in there.\",\n          \"why\": \"This is an autobiographical account of the volume's origin, not a restatement of a prior argument.\"\n        },\n        \"or2\": {\n          \"v\": 2,\n          \"quote\": \"Michael Lona said to me, he said, \\\"Hey, you've got these 1500 pages on people's views. I think that would interest a lot of people. Why don't you ask your publisher if they want that to be volume four?\\\"\",\n          \"why\": \"The Licona/publisher origin story is new evidence not used in prior minimal-facts arguments.\"\n        },\n        \"or3\": {\n          \"v\": 0,\n          \"quote\": \"\",\n          \"why\": \"No cross-domain connection.\"\n        },\n        \"or4\": {\n          \"v\": 0,\n          \"quote\": \"\",\n          \"why\": \"No formal structure added.\"\n        }\n      },\n      \"weakest_link\": \"The intention claim rests on Habermas's own testimony about his motives.\",\n      \"develop_next\": \"Show the volume's introduction or publisher correspondence confirming the stated origin and purpose.\",\n      \"case_map\": [],\n      \"domain\": \"history\"\n    },\n    {\n      \"id\": \"G3\",\n      \"name\": \"Fairness challenge to critics\",\n      \"speaker\": \"Gary Habermas\",\n      \"conclusion\": \"Critics who complain about his citation balance should produce a comparable work with the same percentage of opposing scholars cited fairly.\",\n      \"premises\": [\n        \"P1: Critics allege that most of his footnotes are to evangelicals or scholars friendly to evangelicals.\",\n        \"P2: Habermas challenges them to write a 1,000-page book citing the same percentage of skeptics as he cites evangelicals.\",\n        \"P3: He allows them to include a few critiques, just as he occasionally includes critiques of conservatives.\"\n      ],\n      \"strength\": {\n        \"st1\": {\n          \"v\": 2,\n          \"quote\": \"Here's my challenge. Okay, you write a thousandpage book and have the same percentage of evangelicals that I have of skeptics.\"\n        },\n        \"st2\": {\n          \"v\": 2,\n          \"quote\": \"You say you don't give critiques, you sneak in a few. Okay, you can sneak in a few of evangelicals, too.\"\n        },\n        \"st3\": {\n          \"v\": 1,\n          \"quote\": \"Why don't we say, \\\"Oh, so you quoted, I'll just make something up.\\\" Yeah, you've got 8,000ish footnotes, but I'm going to make it up.\"\n        },\n        \"st4\": {\n          \"v\": 1,\n          \"quote\": \"I want to see who wears the skeptical work that cites as many of the conservatives nicely without same thing you critique me for without giving critiques.\"\n        },\n        \"st5\": {\n          \"v\": 1,\n          \"quote\": \"I know it's just human nature to cite more people that agree with you.\"\n        },\n        \"st6\": {\n          \"v\": 1,\n          \"quote\": \"But I want you to have the same percentage of treating evangelicals nicely and citing them in your work as of yours.\"\n        },\n        \"st7\": {\n          \"v\": 1,\n          \"quote\": \"In fact, I have a running commentary on that in my own notes. I keep notes on it.\"\n        },\n        \"st8\": {\n          \"v\": 1,\n          \"quote\": \"I think I'm quite fair in this volume.\"\n        }\n      },\n      \"prior_art\": \"none known\",\n      \"originality\": {\n        \"or1\": {\n          \"v\": 2,\n          \"quote\": \"Here's my challenge. Okay, you write a thousandpage book and have the same percentage of evangelicals that I have of skeptics.\",\n          \"why\": \"A tu quoque fairness challenge is not a restatement of a prior resurrection argument.\"\n        },\n        \"or2\": {\n          \"v\": 1,\n          \"quote\": \"Yeah, you've got 8,000ish footnotes, but I'm going to make it up.\",\n          \"why\": \"It uses the 8,000-footnote figure but does not add new external evidence.\"\n        },\n        \"or3\": {\n          \"v\": 0,\n          \"quote\": \"\",\n          \"why\": \"No cross-domain bridge.\"\n        },\n        \"or4\": {\n          \"v\": 0,\n          \"quote\": \"\",\n          \"why\": \"No formalization.\"\n        }\n      },\n      \"weakest_link\": \"The challenge does not itself establish that Habermas's citation balance is fair.\",\n      \"develop_next\": \"Publish the actual percentage breakdown of skeptical vs. friendly citations in volume 3.\",\n      \"case_map\": [],\n      \"domain\": \"history\"\n    },\n    {\n      \"id\": \"G4\",\n      \"name\": \"No numerical threshold for 'highly evidenced'\",\n      \"speaker\": \"Gary Habermas\",\n      \"conclusion\": \"The first minimal-facts criterion, 'highly evidenced,' should not be reduced to a fixed percentage; it is better understood through categories of strong historical evidence.\",\n      \"premises\": [\n        \"P1: Habermas has never counted scholars or assigned a percentage threshold except in his empty-tomb study.\",\n        \"P2: He measures evidence by categories such as multiple attestation, eyewitness testimony, and early sources.\",\n        \"P3: If he gave a number such as 80%, critics would misrepresent it as an arbitrary criterion.\"\n      ],\n      \"strength\": {\n        \"st1\": {\n          \"v\": 2,\n          \"quote\": \"But I do not have a certain threshold that they have to have to meet.\"\n        },\n        \"st2\": {\n          \"v\": 2,\n          \"quote\": \"I'd say if I have multiple attestation, eyewitness and early sources, that's not a list of names. That's a list of categories.\"\n        },\n        \"st3\": {\n          \"v\": 2,\n          \"quote\": \"When we do criteria we many many commentators have said that multiple attestation is the best evidence for documents multiple attestation.\"\n        },\n        \"st4\": {\n          \"v\": 2,\n          \"quote\": \"So I would go for the stronger reasons, not the lesser reasons.\"\n        },\n        \"st5\": {\n          \"v\": 1,\n          \"quote\": \"If I said, \\\"Well, Dale, you give uh 51. I'd like at least 80.\\\" They're going to go, \\\"See, he means 80.\\\"\"\n        },\n        \"st6\": {\n          \"v\": 1,\n          \"quote\": \"But I don't have there. At no point do I ever say I need this many evidences.\"\n        },\n        \"st7\": {\n          \"v\": 1,\n          \"quote\": \"I don't have any count to my recollection except the empty tomb.\"\n        },\n        \"st8\": {\n          \"v\": 2,\n          \"quote\": \"I'd say if I have multiple attestation, eyewitness and early sources, that's not a list of names. That's a list of categories.\"\n        }\n      },\n      \"prior_art\": \"Gary Habermas, minimal facts method, The Historical Jesus, 1996\",\n      \"originality\": {\n        \"or1\": {\n          \"v\": 1,\n          \"quote\": \"But I do not have a certain threshold that they have to have to meet.\",\n          \"why\": \"It clarifies the existing minimal-facts criterion rather than offering a new argument.\"\n        },\n        \"or2\": {\n          \"v\": 1,\n          \"quote\": \"I'd say if I have multiple attestation, eyewitness and early sources, that's not a list of names. That's a list of categories.\",\n          \"why\": \"It names categories of evidence but these are standard historiographical criteria already used in the prior art.\"\n        },\n        \"or3\": {\n          \"v\": 0,\n          \"quote\": \"\",\n          \"why\": \"No cross-domain connection.\"\n        },\n        \"or4\": {\n          \"v\": 0,\n          \"quote\": \"\",\n          \"why\": \"No formalization or model.\"\n        }\n      },\n      \"weakest_link\": \"The rejection of numerical thresholds leaves 'highly evidenced' vague and hard to test.\",\n      \"develop_next\": \"Specify a concrete decision rule for when the category-based evidence is sufficient.\",\n      \"case_map\": [\"K13\", \"K15\", \"K16\"],\n      \"domain\": \"history\"\n    },\n    {\n      \"id\": \"G5\",\n      \"name\": \"Non-evangelical scholars support the minimal facts\",\n      \"speaker\": \"Gary Habermas\",\n      \"conclusion\": \"The minimal facts are strongly supported even by non-evangelical and skeptical scholars, which strengthens the case that they are not merely Christian bias.\",\n      \"premises\": [\n        \"P1: James D. G. Dunn, a non-evangelical, holds that the resurrection preaching and creedal statements may go back within months of the crucifixion.\",\n        \"P2: Gerd Lüdemann, an atheist New Testament scholar, says the preaching of the resurrection began immediately.\",\n        \"P3: Bart Ehrman concedes it is a historical fact that the disciples thought they saw the risen Jesus.\",\n        \"P4: Dale Allison says the minimal facts approach is the best apologetical argument and that his skeptical approach does not deny any of the minimal facts.\"\n      ],\n      \"strength\": {\n        \"st1\": {\n          \"v\": 2,\n          \"quote\": \"So, I mean, I got to be able to say those things without being, you know, that's somebody from your home church or you're I just hate these low blows where people can't look these guys up for themselves.\"\n        },\n        \"st2\": {\n          \"v\": 2,\n          \"quote\": \"He is overboard complimenting not me but he's overboard complimenting how many of those sources we even Bartman says I'm not going to argue he Bart man says if he says I don't know how many all of them some of them he said but they thought they saw the risen Jesus he said I don't disagree with this because it's a fact of history\"\n        },\n        \"st3\": {\n          \"v\": 2,\n          \"quote\": \"He he seems like he's it sounds like he's saying the original creedle statements could have come that first year.\"\n        },\n        \"st4\": {\n          \"v\": 2,\n          \"quote\": \"The preaching began immediately.\"\n        },\n        \"st5\": {\n          \"v\": 1,\n          \"quote\": \"But he said it's the best of the arguments and my approach, my skeptical approach, doesn't deny any of them.\"\n        },\n        \"st6\": {\n          \"v\": 1,\n          \"quote\": \"So, if I have non-eangelicals saying those things, that that interests me, but I I think more in terms of data like multiple attestation, eyewitness early testimony\"\n        },\n        \"st7\": {\n          \"v\": 1,\n          \"quote\": \"They've got some things they can signal, too.\"\n        },\n        \"st8\": {\n          \"v\": 2,\n          \"quote\": \"So, if I have non-eangelicals saying those things, that that interests me\"\n        }\n      },\n      \"prior_art\": \"Gary Habermas, minimal facts method, The Historical Jesus, 1996\",\n      \"originality\": {\n        \"or1\": {\n          \"v\": 1,\n          \"quote\": \"So, if I have non-eangelicals saying those things, that that interests me\",\n          \"why\": \"It is a variant of the standard minimal-facts argument, using additional named non-evangelical scholars.\"\n        },\n        \"or2\": {\n          \"v\": 2,\n          \"quote\": \"The preaching began immediately.\",\n          \"why\": \"It brings specific quoted support from Dunn, Lüdemann, Ehrman and Allison that the prior art does not use.\"\n        },\n        \"or3\": {\n          \"v\": 0,\n          \"quote\": \"\",\n          \"why\": \"No cross-domain bridge.\"\n        },\n        \"or4\": {\n          \"v\": 0,\n          \"quote\": \"\",\n          \"why\": \"No formalization.\"\n        }\n      },\n      \"weakest_link\": \"The inference from individual non-evangelical concessions to a strong scholarly consensus is not quantified.\",\n      \"develop_next\": \"Provide a systematic survey of non-evangelical scholars on each minimal fact.\",\n      \"case_map\": [\"K13\", \"K15\", \"K16\"],\n      \"domain\": \"history\"\n    },\n    {\n      \"id\": \"G6\",\n      \"name\": \"Scholarly consensus alone is not sufficient\",\n      \"speaker\": \"Gary Habermas\",\n      \"conclusion\": \"The scholarly-consensus criterion is not by itself sufficient for rational belief; the evidence criterion is far more important.\",\n      \"premises\": [\n        \"P1: Habermas says criterion one is by far the more important of the two, perhaps 85-90% of the case.\",\n        \"P2: If the second criterion disappeared, one would be no worse off than other ancient historians.\",\n        \"P3: Scholarly consensus can be wrong if it is based on bias or social pressure.\"\n      ],\n      \"strength\": {\n        \"st1\": {\n          \"v\": 2,\n          \"quote\": \"It's only when accompanied by high it being highly evidence that you can rationally believe. >> Yes, it's the latter.\"\n        },\n        \"st2\": {\n          \"v\": 2,\n          \"quote\": \"This sounds stupid for me to say that in my mind number one would be 90 or 85% of the game.\"\n        },\n        \"st3\": {\n          \"v\": 2,\n          \"quote\": \"I even I would admit scholarly cons just the scholarly consensus alone they're often wrong. So it has to be a proper consensus. You know one that's not based on bias or some kind of social or political pressure or something like that.\"\n        },\n        \"st4\": {\n          \"v\": 2,\n          \"quote\": \"I think number one is so far ahead of number two that I think if number two disappears no biggie.\"\n        },\n        \"st5\": {\n          \"v\": 1,\n          \"quote\": \"But if I'm going to make it an argument at all, it's going to be down my line.\"\n        },\n        \"st6\": {\n          \"v\": 1,\n          \"quote\": \"I'd say in general, no.\"\n        },\n        \"st7\": {\n          \"v\": 1,\n          \"quote\": \"I'll say, \\\"What happens if we wake up one morning, there's a big uprising, and 10% of scholars admit this admit these data?\\\" I say, \\\"Okay, if there's a time when I have to drop my second criterion, how bad am I off?\\\" No worse off than uh other ancient histo ancient historians\"\n        },\n        \"st8\": {\n          \"v\": 1,\n          \"quote\": \"I think number one is so far ahead of number two\"\n        }\n      },\n      \"prior_art\": \"Gary Habermas, minimal facts method, The Historical Jesus, 1996\",\n      \"originality\": {\n        \"or1\": {\n          \"v\": 1,\n          \"quote\": \"It's only when accompanied by high it being highly evidence that you can rationally believe. >> Yes, it's the latter.\",\n          \"why\": \"It is a refinement of the existing two-criteria minimal-facts method, not a different argument.\"\n        },\n        \"or2\": {\n          \"v\": 1,\n          \"quote\": \"I think number one is so far ahead of number two that I think if number two disappears no biggie.\",\n          \"why\": \"It gives a comparative weighting but no new external evidence.\"\n        },\n        \"or3\": {\n          \"v\": 0,\n          \"quote\": \"\",\n          \"why\": \"No cross-domain connection.\"\n        },\n        \"or4\": {\n          \"v\": 0,\n          \"quote\": \"\",\n          \"why\": \"No formalization or model.\"\n        }\n      },\n      \"weakest_link\": \"The 85-90% weighting is asserted without a method for measuring it.\",\n      \"develop_next\": \"Operationalize the evidence criterion so its sufficiency can be assessed independently of consensus.\",\n      \"case_map\": [\"K13\", \"K15\", \"K16\"],\n      \"domain\": \"history\"\n    }\n  ]\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 20976,
+      "completion_tokens": 4947,
+      "attempts": 1,
+      "elapsed_seconds": 16.56300000000192,
+      "started_at": "2026-09-27T19:39:38.345879+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T19:39:54.898938+00:00",
+      "tokens": 25923
+    }
+  ],
+  "prompt_sha256": "b63f1fe536f4b5e060ab979b5145af2c98df1cf7e7780e34fabef232a0061e6d",
+  "tokens": 25923
+}

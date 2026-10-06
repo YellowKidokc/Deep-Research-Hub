@@ -1,0 +1,110 @@
+{
+  "name": "master_equation_a1",
+  "parsed": {
+    "paper": "The Evidential THRESHOLD for Resurrection Belief - Gary Habermas",
+    "core_relation": {
+      "sentence": "Habermas's core relation is that a historical fact qualifies as a minimal fact when it is highly evidenced AND has scholarly consensus, but the evidential criterion is by far the more important and can alone suffice for rational belief.",
+      "quote": "So, so in terms of that, uh the standard of evidential proof, it it sounds like you kind of follow most historians and sort of like Mike Licona. They they don't give percentages per se, but they they have these categories like it's very probable or proven beyond reasonable doubt, stuff stuff like that. is how you would Okay. >> Very common. I like that. I like categories and and I like better categories rather than weaker categories of data. So, if I have fewer names backing it up, I'll take that in instances where they strongly support multiple eyewitness early etc. I think we're going in the right direction. [S091-S096]"
+    },
+    "product_test": {
+      "answer": "multiplicative",
+      "quote": "I think if I have non-evangelical saying those things, that that interests me, but I I think more in terms of data like multiple attestation, eyewitness, early testimony, and here's uh Jimmy Dunn saying, \"Maybe the same year.\" [S081]",
+      "reason": "Habermas treats the criteria as jointly necessary: a fact qualifies only if it is both highly evidenced and has scholarly consensus; if either is missing (e.g., no multiple attestation or no early source), the argument for that fact fails entirely, not merely weakens. The language of 'categories' and 'stronger reasons' implies a threshold-like multiplicative conjunction."
+    },
+    "slots": [
+      {
+        "slot": "G",
+        "plays_role": "External negentropy influx: the broader community of non-evangelical scholars providing independent attestation and data that Habermas cannot generate alone.",
+        "quote": "But I mean, I can take I can pull Jimmy Dunn off my shelf, his Remembering Jesus book, which far as I know, he's not an he's not an evangelical, or if he is, it was late in his life. [S048]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "M",
+        "plays_role": "Alignment: Habermas aligns his method with mainstream historical criteria (multiple attestation, eyewitness, early testimony) rather than theological presuppositions, maximizing coupling with the evidence.",
+        "quote": "So, after a while, I don't measure by how many do I have. I measure by do I have a fair number of multiple attestation? I'd say if I have multiple attestation, eyewitness, and early sources, that's not a list of names, that's a list of categories. [S042-S044]",
+        "fit": "direct"
+      },
+      {
+        "slot": "E",
+        "plays_role": "Signal fidelity: the reliability of the New Testament text and the transmission of early creedal statements (e.g., 1 Corinthians 15) through time without corruption.",
+        "quote": "He he seems like he's it sounds like he's saying the original creedal statements could have come that first year. [S068]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "S_eff",
+        "plays_role": "Effective entropy: the noise introduced by skeptical critics, misrepresentation of Habermas's position, and the lack of precise counts that lowers coherence.",
+        "quote": "They're going to go, \"See, he means 80 for those guys he put that what I mean is they'll either mistake honestly mistake the number or purposely mistake the number and say, \"There you go again. [S014]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "T",
+        "plays_role": "Temporal integration: the early dating of creedal statements within months or the same year as the crucifixion, which strengthens the evidential chain.",
+        "quote": "He said months later. And I'll throw this out there. The German scholar, Gerd Lüdemann, Jesus Seminar, remember? Lüdemann said the preaching of the resurrection, now that's one of the minimal facts, the preaching began immediately. [S083-S086]",
+        "fit": "direct"
+      },
+      {
+        "slot": "K",
+        "plays_role": "Compression: the use of categories (multiple attestation, eyewitness, early sources) to compress many individual evidences into a manageable, high-signal framework.",
+        "quote": "I like categories and and I like better categories rather than weaker categories of data. [S094]",
+        "fit": "direct"
+      },
+      {
+        "slot": "R",
+        "plays_role": "Phase transition: the threshold where a fact becomes a 'minimal fact' once it meets the criteria; below threshold it is not usable, above it is.",
+        "quote": "So, if I have fewer names backing it up, I'll take that in instances where they strongly support multiple eyewitness early etc. I think we're going in the right direction. [S095-S096]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "Q",
+        "plays_role": "Superposition: the open possibility that a fact may or may not qualify depending on the evidence; Habermas refuses to assign a fixed percentage, leaving it unresolved until actualized by the data.",
+        "quote": "But I do not have a certain threshold that they have to have to meet. [S020]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "F",
+        "plays_role": "Non-local correlation: the interdependence of historical sources (e.g., Tacitus, Suetonius, Herodotus) and the way they corroborate or challenge each other across time and culture.",
+        "quote": "So, when people say historians don't do that, well, check your ancient sources first. Look at Herodotus. Look at Tacitus. Look at Suetonius before you say they don't do that stuff. [S108-S111]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "C",
+        "plays_role": "Integration: Habermas himself as the integrator who weighs the evidence, applies criteria, and synthesizes a judgment about minimal facts.",
+        "quote": "I think what motivates me the most is that of all the criterion criteria, more than one, for saying that the New Testament text is reliable or if you have 20 good evidences for the empty tomb, which I listed. [S021]",
+        "fit": "direct"
+      }
+    ],
+    "breaks": [
+      "The paper treats scholarly consensus as a secondary criterion that can be absent if evidence is strong enough, whereas the master equation treats all factors as jointly necessary.",
+      "Habermas explicitly refuses to assign numerical thresholds, which conflicts with the multiplicative product test that requires a binary zero/non-zero distinction.",
+      "The paper adds 'multiple attestation' as a key factor that has no direct slot in the master equation."
+    ],
+    "extra_factors": [
+      "Multiple attestation"
+    ],
+    "analog_strength": 3,
+    "confidence": "medium",
+    "one_line": "Habermas's evidential threshold for resurrection belief functions as an analog to the master equation: a multiplicative conjunction of evidence and consensus, with the evidential factor dominating, but lacking strict numerical thresholds.",
+    "equations_present": false
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "master_equation_a1",
+      "attempt": 1,
+      "text": "{\n  \"paper\": \"The Evidential THRESHOLD for Resurrection Belief - Gary Habermas\",\n  \"core_relation\": {\n    \"sentence\": \"Habermas's core relation is that a historical fact qualifies as a minimal fact when it is highly evidenced AND has scholarly consensus, but the evidential criterion is by far the more important and can alone suffice for rational belief.\",\n    \"quote\": \"So, so in terms of that, uh the standard of evidential proof, it it sounds like you kind of follow most historians and sort of like Mike Licona. They they don't give percentages per se, but they they have these categories like it's very probable or proven beyond reasonable doubt, stuff stuff like that. is how you would Okay. >> Very common. I like that. I like categories and and I like better categories rather than weaker categories of data. So, if I have fewer names backing it up, I'll take that in instances where they strongly support multiple eyewitness early etc. I think we're going in the right direction. [S091-S096]\"\n  },\n  \"product_test\": {\n    \"answer\": \"multiplicative\",\n    \"quote\": \"I think if I have non-evangelical saying those things, that that interests me, but I I think more in terms of data like multiple attestation, eyewitness, early testimony, and here's uh Jimmy Dunn saying, \\\"Maybe the same year.\\\" [S081]\",\n    \"reason\": \"Habermas treats the criteria as jointly necessary: a fact qualifies only if it is both highly evidenced and has scholarly consensus; if either is missing (e.g., no multiple attestation or no early source), the argument for that fact fails entirely, not merely weakens. The language of 'categories' and 'stronger reasons' implies a threshold-like multiplicative conjunction.\"\n  },\n  \"slots\": [\n    {\n      \"slot\": \"G\",\n      \"plays_role\": \"External negentropy influx: the broader community of non-evangelical scholars providing independent attestation and data that Habermas cannot generate alone.\",\n      \"quote\": \"But I mean, I can take I can pull Jimmy Dunn off my shelf, his Remembering Jesus book, which far as I know, he's not an he's not an evangelical, or if he is, it was late in his life. [S048]\",\n      \"fit\": \"analogous\"\n    },\n    {\n      \"slot\": \"M\",\n      \"plays_role\": \"Alignment: Habermas aligns his method with mainstream historical criteria (multiple attestation, eyewitness, early testimony) rather than theological presuppositions, maximizing coupling with the evidence.\",\n      \"quote\": \"So, after a while, I don't measure by how many do I have. I measure by do I have a fair number of multiple attestation? I'd say if I have multiple attestation, eyewitness, and early sources, that's not a list of names, that's a list of categories. [S042-S044]\",\n      \"fit\": \"direct\"\n    },\n    {\n      \"slot\": \"E\",\n      \"plays_role\": \"Signal fidelity: the reliability of the New Testament text and the transmission of early creedal statements (e.g., 1 Corinthians 15) through time without corruption.\",\n      \"quote\": \"He he seems like he's it sounds like he's saying the original creedal statements could have come that first year. [S068]\",\n      \"fit\": \"analogous\"\n    },\n    {\n      \"slot\": \"S_eff\",\n      \"plays_role\": \"Effective entropy: the noise introduced by skeptical critics, misrepresentation of Habermas's position, and the lack of precise counts that lowers coherence.\",\n      \"quote\": \"They're going to go, \\\"See, he means 80 for those guys he put that what I mean is they'll either mistake honestly mistake the number or purposely mistake the number and say, \\\"There you go again. [S014]\",\n      \"fit\": \"analogous\"\n    },\n    {\n      \"slot\": \"T\",\n      \"plays_role\": \"Temporal integration: the early dating of creedal statements within months or the same year as the crucifixion, which strengthens the evidential chain.\",\n      \"quote\": \"He said months later. And I'll throw this out there. The German scholar, Gerd Lüdemann, Jesus Seminar, remember? Lüdemann said the preaching of the resurrection, now that's one of the minimal facts, the preaching began immediately. [S083-S086]\",\n      \"fit\": \"direct\"\n    },\n    {\n      \"slot\": \"K\",\n      \"plays_role\": \"Compression: the use of categories (multiple attestation, eyewitness, early sources) to compress many individual evidences into a manageable, high-signal framework.\",\n      \"quote\": \"I like categories and and I like better categories rather than weaker categories of data. [S094]\",\n      \"fit\": \"direct\"\n    },\n    {\n      \"slot\": \"R\",\n      \"plays_role\": \"Phase transition: the threshold where a fact becomes a 'minimal fact' once it meets the criteria; below threshold it is not usable, above it is.\",\n      \"quote\": \"So, if I have fewer names backing it up, I'll take that in instances where they strongly support multiple eyewitness early etc. I think we're going in the right direction. [S095-S096]\",\n      \"fit\": \"analogous\"\n    },\n    {\n      \"slot\": \"Q\",\n      \"plays_role\": \"Superposition: the open possibility that a fact may or may not qualify depending on the evidence; Habermas refuses to assign a fixed percentage, leaving it unresolved until actualized by the data.\",\n      \"quote\": \"But I do not have a certain threshold that they have to have to meet. [S020]\",\n      \"fit\": \"analogous\"\n    },\n    {\n      \"slot\": \"F\",\n      \"plays_role\": \"Non-local correlation: the interdependence of historical sources (e.g., Tacitus, Suetonius, Herodotus) and the way they corroborate or challenge each other across time and culture.\",\n      \"quote\": \"So, when people say historians don't do that, well, check your ancient sources first. Look at Herodotus. Look at Tacitus. Look at Suetonius before you say they don't do that stuff. [S108-S111]\",\n      \"fit\": \"analogous\"\n    },\n    {\n      \"slot\": \"C\",\n      \"plays_role\": \"Integration: Habermas himself as the integrator who weighs the evidence, applies criteria, and synthesizes a judgment about minimal facts.\",\n      \"quote\": \"I think what motivates me the most is that of all the criterion criteria, more than one, for saying that the New Testament text is reliable or if you have 20 good evidences for the empty tomb, which I listed. [S021]\",\n      \"fit\": \"direct\"\n    }\n  ],\n  \"breaks\": [\n    \"The paper treats scholarly consensus as a secondary criterion that can be absent if evidence is strong enough, whereas the master equation treats all factors as jointly necessary.\",\n    \"Habermas explicitly refuses to assign numerical thresholds, which conflicts with the multiplicative product test that requires a binary zero/non-zero distinction.\",\n    \"The paper adds 'multiple attestation' as a key factor that has no direct slot in the master equation.\"\n  ],\n  \"extra_factors\": [\n    \"Multiple attestation\"\n  ],\n  \"analog_strength\": 3,\n  \"confidence\": \"medium\",\n  \"one_line\": \"Habermas's evidential threshold for resurrection belief functions as an analog to the master equation: a multiplicative conjunction of evidence and consensus, with the evidential factor dominating, but lacking strict numerical thresholds.\",\n  \"equations_present\": false\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 5387,
+      "completion_tokens": 1653,
+      "attempts": 1,
+      "elapsed_seconds": 7.469000000004598,
+      "started_at": "2026-09-27T13:57:21.011688+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T13:57:28.478355+00:00",
+      "tokens": 7040
+    }
+  ],
+  "prompt_sha256": "00be23a906f1cf44fae1929822f177d9fab91f450179d0da838fb06e79e110b6",
+  "tokens": 7040
+}

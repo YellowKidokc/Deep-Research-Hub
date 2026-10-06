@@ -1,0 +1,478 @@
+{
+  "name": "grade_b_1",
+  "parsed": {
+    "arguments": [
+      {
+        "id": "G1",
+        "name": "Resurrection is the decisive truth of Christianity",
+        "conclusion": "If Jesus was raised from the dead, Christianity is true, regardless of unresolved secondary disputes.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1: The resurrection is the central, most exciting subject in Scripture.",
+          "P2: Denominational and other disputed questions are non-fundamental areas.",
+          "P3: Getting the resurrection means 'game, set, and match' for Christianity.",
+          "P4: One does not have to solve every problem in the Bible or the world to know the gospel is true."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "S006 If Jesus was raised from the dead, Christianity is true."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "S010 We make We know what makes denominational lines virtually always non-fundamental areas, but highly debated areas."
+          },
+          "st3": {
+            "v": 1,
+            "quote": "S011 You get the resurrection of Jesus, as my good buddy Mike Licona says, you get the resurrection, it's game, set, and match."
+          },
+          "st4": {
+            "v": 1,
+            "quote": "S013 You don't have to solve every big problem in the world, but we do have to know the gospel's true."
+          },
+          "st5": {
+            "v": 1,
+            "quote": "S007 You don't have to solve every problem in the Bible."
+          },
+          "st6": {
+            "v": 1,
+            "quote": "S012 Christianity is true."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 0,
+            "quote": ""
+          }
+        },
+        "prior_art": "Gary Habermas & Antony Flew, Did Jesus Rise from the Dead?, 1987 (minimal-facts method)",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "S011 You get the resurrection of Jesus, as my good buddy Mike Licona says, you get the resurrection, it's game, set, and match.",
+            "why": "A rhetorical restatement of his own minimal-facts stance rather than a new argument."
+          },
+          "or2": {
+            "v": 0,
+            "quote": "",
+            "why": "No new evidence introduced for this framing claim."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain bridge."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization."
+          }
+        },
+        "weakest_link": "P3 'game, set, and match' is a slogan, not a premise: it never shows why resurrection entails the whole Christian system.",
+        "develop_next": "State explicitly which core Christian claims the resurrection alone entails and which it does not, then defend that entailment.",
+        "case_map": [
+          "K16",
+          "F4"
+        ],
+        "domain": "theology"
+      },
+      {
+        "id": "G2",
+        "name": "New Testament belief means trust and surrender, not mere assent",
+        "conclusion": "The New Testament word 'believe' means a strong, self-surrendering trust, not merely intellectual agreement.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1: The New Testament was written in Greek, where the word for believe is much stronger than the English word.",
+          "P2: Its synonym is trust; it means to jump in with both feet, surrender, and follow.",
+          "P3: This is not salvation by works, just as marriage by promise is not marriage by good works.",
+          "P4: The marriage vow 'I do' illustrates giving everything one has, which is close to the New Testament meaning of believe."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "S036 And in the New Testament, the word believe is a very strong word."
+          },
+          "st2": {
+            "v": 1,
+            "quote": "S039 In the New Testament the word believe means to jump in with both feet."
+          },
+          "st3": {
+            "v": 1,
+            "quote": "S035 But the New Testament's written in Greek, not English."
+          },
+          "st4": {
+            "v": 1,
+            "quote": "S055 Now, we don't call that marriage by good works. S056 We call it marriage by a promise."
+          },
+          "st5": {
+            "v": 1,
+            "quote": "S042 You say that that sounds like salvation by works. S043 It's not at all."
+          },
+          "st6": {
+            "v": 1,
+            "quote": "S052 Seriously, that's close to what the New Testament means by believe."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 1,
+            "quote": "S058 And that's what the New Testament believe means."
+          }
+        },
+        "prior_art": "Standard lexicographical treatments of pisteuo (e.g., BDAG; also C. S. Lewis's 'faith' discussions)",
+        "originality": {
+          "or1": {
+            "v": 0,
+            "quote": "S039 In the New Testament the word believe means to jump in with both feet.",
+            "why": "Standard lexical claim about pisteuo, not a new argument."
+          },
+          "or2": {
+            "v": 0,
+            "quote": "",
+            "why": "No new lexical data; no Greek word even cited."
+          },
+          "or3": {
+            "v": 1,
+            "quote": "S045 We all know, whatever your status in life is, we all know that you can strengthen or ruin uh whatever the rest of your life with two words. S046 I do.",
+            "why": "Marriage-vow analogy as a bridge to the Greek term."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization."
+          }
+        },
+        "weakest_link": "P1/P2: no Greek lemma or citation is given, so the 'much stronger' claim is asserted, not shown.",
+        "develop_next": "Cite the actual Greek term (pisteuo/pistis) and lexical evidence that it carries the trust/surrender sense.",
+        "case_map": [],
+        "domain": "theology"
+      },
+      {
+        "id": "G3",
+        "name": "Early creed in 1 Corinthians 15 lists resurrection witnesses",
+        "conclusion": "Paul passed on an early creed listing Jesus' death, burial, resurrection, and appearances to Peter, James, the Twelve, all the apostles, the 500, and finally Paul himself.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1: In 1 Corinthians 15:3-5 Paul says he passed on what he received: Christ died for sins, was buried, rose the third day, and appeared.",
+          "P2: The list includes two individuals, Peter and James the brother of Jesus, and three groups: the Twelve, all the apostles, and the 500.",
+          "P3: Paul adds his own name separately, indicating his appearance was not part of the early creed."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "S064 How that Christ died for our sins according to the scriptures, he was buried, rose again the third day according to the scriptures and appeared."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "S065 And here comes a list to two individuals, Peter and James, the brother of Jesus."
+          },
+          "st3": {
+            "v": 2,
+            "quote": "S068 Then Paul adds his own name in verse five. S069 It's added. S070 It's not part of this early creed."
+          },
+          "st4": {
+            "v": 2,
+            "quote": "S067 And three groups, a group called the 12, a group called a larger group called all the apostles, and the 500."
+          },
+          "st5": {
+            "v": 0,
+            "quote": ""
+          },
+          "st6": {
+            "v": 2,
+            "quote": "S071 And he said last of all, appeared to me."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 1,
+            "quote": "S072 Three individuals, three groups."
+          }
+        },
+        "prior_art": "Joachim Jeremias, The Eucharistic Words of Jesus, 1966 (creedal-tradition analysis of 1 Cor 15:3-5)",
+        "originality": {
+          "or1": {
+            "v": 0,
+            "quote": "S063 He says verse three, I gave you, I passed on to you the same thing I gave the Corinthians.",
+            "why": "A summary of the well-known creedal reading of 1 Cor 15:3-5."
+          },
+          "or2": {
+            "v": 0,
+            "quote": "",
+            "why": "No new textual or historical data."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain connection."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization."
+          }
+        },
+        "weakest_link": "P3: the claim that Paul's appearance is not part of the creed is asserted without argument.",
+        "develop_next": "Give the linguistic/textual grounds for treating 'last of all... appeared to me' as Paul's addition rather than creedal content.",
+        "case_map": [
+          "K16",
+          "F4"
+        ],
+        "domain": "history"
+      },
+      {
+        "id": "G4",
+        "name": "Critical dating still yields early resurrection evidence",
+        "conclusion": "Even using skeptical critical dates for the New Testament documents, the evidence for the resurrection remains early and strong.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1: Mark is dated about 70 AD, Luke about 85, John about 90-95, and 1 Thessalonians about 50 AD.",
+          "P2: These dates are admitted by critical New Testament specialists, including atheists, agnostics, skeptics, and non-Christian Jews.",
+          "P3: Even on their data, one still gets a resurrection."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "S093 But I'm I'm trying to show you on their data, you're still going to get a resurrection."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "S084 Most Christians will say, read the book of Mark, which is usually dated about 70 AD."
+          },
+          "st3": {
+            "v": 1,
+            "quote": "S091 They have terminal degrees, doctor's degrees in New Testament, but they are many times, more than you would know, atheists, agnostics, skeptics, non-Christian Jews."
+          },
+          "st4": {
+            "v": 1,
+            "quote": "S093 But I'm I'm trying to show you on their data, you're still going to get a resurrection."
+          },
+          "st5": {
+            "v": 1,
+            "quote": "S088 By the way, I'm using critical dates. S089 This whole thing, I'm using dates that critics admit."
+          },
+          "st6": {
+            "v": 1,
+            "quote": "S092 And these are their dates."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 1,
+            "quote": "S098 And John's the latest one at about 90 or 95 plus 65."
+          }
+        },
+        "prior_art": "Gary Habermas, The Historical Jesus, 1996 (minimal-facts argument from critically accepted data)",
+        "originality": {
+          "or1": {
+            "v": 0,
+            "quote": "S089 This whole thing, I'm using dates that critics admit.",
+            "why": "Habermas's signature minimal-facts method restated."
+          },
+          "or2": {
+            "v": 0,
+            "quote": "",
+            "why": "No new data; dates are standard."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain connection."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization."
+          }
+        },
+        "weakest_link": "P3: 'you still get a resurrection' is asserted; dating alone does not yield the resurrection conclusion.",
+        "develop_next": "Spell out the intermediate steps from early dating to the specific resurrection claim rather than asserting the leap.",
+        "case_map": [
+          "K16",
+          "F4"
+        ],
+        "domain": "history"
+      },
+      {
+        "id": "G5",
+        "name": "Eyewitness memory can reliably span 65 years",
+        "conclusion": "The claim that the Gospels are too late because eyewitnesses would have forgotten or died is false; people can reliably recall key events from 65 or more years ago.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1: Critics say that 60 years later nobody remembers such things and all eyewitnesses are dead.",
+          "P2: Habermas asks the audience how many clearly recall an eyewitness event from 65 or more years ago, and many hands go up.",
+          "P3: It would be wrong to call all those people liars, just as it is wrong to dismiss the Gospel eyewitnesses on that basis."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "S113 How many of you can remember something you were an eyewitness from 65 or more years ago?"
+          },
+          "st2": {
+            "v": 1,
+            "quote": "S103 But you'll hear things like, \"60 years later, nobody remembers that stuff for so long."
+          },
+          "st3": {
+            "v": 1,
+            "quote": "S114 Folks, there are a lot of hands up right now."
+          },
+          "st4": {
+            "v": 0,
+            "quote": "S115 I wouldn't want to call all of them liars, but that's what a lot of people want to say to believers because they think John is way too long at plus 65."
+          },
+          "st5": {
+            "v": 0,
+            "quote": ""
+          },
+          "st6": {
+            "v": 0,
+            "quote": "S113 How many of you can remember something you were an eyewitness from 65 or more years ago?"
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 0,
+            "quote": ""
+          }
+        },
+        "prior_art": "Standard memory-studies literature on eyewitness reliability (e.g., Elizabeth Loftus's work on memory distortion)",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "S112 How many of you clearly recall an event or events from 65 years ago or later, you're sure cuz you were there",
+            "why": "An anecdotal variant on the general memory-retention point."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "S114 Folks, there are a lot of hands up right now.",
+            "why": "Uses an informal audience poll as evidence, which the psychological literature does not."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain bridge."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization."
+          }
+        },
+        "weakest_link": "P2: a show-of-hands poll is self-selected, unverifiable and does not establish reliability of contested testimony.",
+        "develop_next": "Replace the hand poll with cited empirical studies on long-term memory for consequential public events (flashbulb memory research).",
+        "case_map": [
+          "K16",
+          "F4"
+        ],
+        "domain": "psychology"
+      },
+      {
+        "id": "G6",
+        "name": "Ancient historical sources are far later than the Gospels",
+        "conclusion": "The Gospels and Paul are far better sourced chronologically than standard ancient figures like Alexander the Great and Buddha, so dismissing them as too late is inconsistent.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1: The earliest source for Alexander the Great is almost 300 years after his death, and the two best sources, Arrian and Plutarch, are 425 and 450 years later.",
+          "P2: Buddhist Scriptures date from 600 to 800 years after Buddha's death, and a Buddhist PhD author admits Christians have earlier words of their Lord and disciples.",
+          "P3: By contrast, Mark is about 40 years after Jesus and Paul's first epistle about 20 years after.",
+          "P4: If Alexander and Buddha are accepted as well documented, the Gospels cannot be rejected merely for being 40-65 years later."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "S143 John stinks at plus 60."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "S138 But, the two best sources for Alexander, Arrian and Plutarch, 425 and 450."
+          },
+          "st3": {
+            "v": 2,
+            "quote": "S159 In fact, the sources in this book that I'm bringing to you may be the best sources in Buddhism, with almost any without almost any exception, date from 600 to 800 years after Buddha's death."
+          },
+          "st4": {
+            "v": 1,
+            "quote": "S145 And Mark, 40? S146 Who can believe things at 40?"
+          },
+          "st5": {
+            "v": 1,
+            "quote": "S163 And critics will say, \"That's because the Christians don't write history.\""
+          },
+          "st6": {
+            "v": 1,
+            "quote": "S142 We got good information on Alexander."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 2,
+            "quote": "S132 The earliest source for Alexander, earliest source, is just short of 300 years later."
+          }
+        },
+        "prior_art": "Craig Keener, The Historical Reliability of the Gospels, 1988/2007 (comparative ancient-source argument)",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "S127 What kind of sources do we have for Alexander the Great?",
+            "why": "A familiar comparative-source argument, here applied with Alexander and Buddha examples."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "S150 I've got a book at home on my shelf that's called The Buddhist Scriptures by PhD Buddhist",
+            "why": "Adds the Buddhist Scriptures' own scholarly admission as a data point."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain bridge."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization."
+          }
+        },
+        "weakest_link": "P4: the analogy assumes Alexander/Buddha sources are accepted for the same kind of extraordinary claim, which is not shown.",
+        "develop_next": "Specify the criteria (eyewitness proximity, genre, corroboration) and show the Gospels meet them better, not merely earlier.",
+        "case_map": [
+          "K16",
+          "F4"
+        ],
+        "domain": "history"
+      }
+    ]
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "grade_b_1",
+      "attempt": 1,
+      "text": "{\"arguments\": [\n {\"id\": \"G1\", \"name\": \"Resurrection is the decisive truth of Christianity\", \"conclusion\": \"If Jesus was raised from the dead, Christianity is true, regardless of unresolved secondary disputes.\", \"speaker\": \"Gary Habermas\",\n  \"premises\": [\"P1: The resurrection is the central, most exciting subject in Scripture.\", \"P2: Denominational and other disputed questions are non-fundamental areas.\", \"P3: Getting the resurrection means 'game, set, and match' for Christianity.\", \"P4: One does not have to solve every problem in the Bible or the world to know the gospel is true.\"],\n  \"strength\": {\n   \"st1\": {\"v\": 2, \"quote\": \"S006 If Jesus was raised from the dead, Christianity is true.\"},\n   \"st2\": {\"v\": 2, \"quote\": \"S010 We make We know what makes denominational lines virtually always non-fundamental areas, but highly debated areas.\"},\n   \"st3\": {\"v\": 1, \"quote\": \"S011 You get the resurrection of Jesus, as my good buddy Mike Licona says, you get the resurrection, it's game, set, and match.\"},\n   \"st4\": {\"v\": 1, \"quote\": \"S013 You don't have to solve every big problem in the world, but we do have to know the gospel's true.\"},\n   \"st5\": {\"v\": 1, \"quote\": \"S007 You don't have to solve every problem in the Bible.\"},\n   \"st6\": {\"v\": 1, \"quote\": \"S012 Christianity is true.\"},\n   \"st7\": {\"v\": 0, \"quote\": \"\"},\n   \"st8\": {\"v\": 0, \"quote\": \"\"}\n  },\n  \"prior_art\": \"Gary Habermas & Antony Flew, Did Jesus Rise from the Dead?, 1987 (minimal-facts method)\",\n  \"originality\": {\n   \"or1\": {\"v\": 1, \"quote\": \"S011 You get the resurrection of Jesus, as my good buddy Mike Licona says, you get the resurrection, it's game, set, and match.\", \"why\": \"A rhetorical restatement of his own minimal-facts stance rather than a new argument.\"},\n   \"or2\": {\"v\": 0, \"quote\": \"\", \"why\": \"No new evidence introduced for this framing claim.\"},\n   \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain bridge.\"},\n   \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization.\"}\n  },\n  \"weakest_link\": \"P3 'game, set, and match' is a slogan, not a premise: it never shows why resurrection entails the whole Christian system.\",\n  \"develop_next\": \"State explicitly which core Christian claims the resurrection alone entails and which it does not, then defend that entailment.\",\n  \"case_map\": [\"K16\", \"F4\"], \"domain\": \"theology\"},\n\n {\"id\": \"G2\", \"name\": \"New Testament belief means trust and surrender, not mere assent\", \"conclusion\": \"The New Testament word 'believe' means a strong, self-surrendering trust, not merely intellectual agreement.\", \"speaker\": \"Gary Habermas\",\n  \"premises\": [\"P1: The New Testament was written in Greek, where the word for believe is much stronger than the English word.\", \"P2: Its synonym is trust; it means to jump in with both feet, surrender, and follow.\", \"P3: This is not salvation by works, just as marriage by promise is not marriage by good works.\", \"P4: The marriage vow 'I do' illustrates giving everything one has, which is close to the New Testament meaning of believe.\"],\n  \"strength\": {\n   \"st1\": {\"v\": 2, \"quote\": \"S036 And in the New Testament, the word believe is a very strong word.\"},\n   \"st2\": {\"v\": 1, \"quote\": \"S039 In the New Testament the word believe means to jump in with both feet.\"},\n   \"st3\": {\"v\": 1, \"quote\": \"S035 But the New Testament's written in Greek, not English.\"},\n   \"st4\": {\"v\": 1, \"quote\": \"S055 Now, we don't call that marriage by good works. S056 We call it marriage by a promise.\"},\n   \"st5\": {\"v\": 1, \"quote\": \"S042 You say that that sounds like salvation by works. S043 It's not at all.\"},\n   \"st6\": {\"v\": 1, \"quote\": \"S052 Seriously, that's close to what the New Testament means by believe.\"},\n   \"st7\": {\"v\": 0, \"quote\": \"\"},\n   \"st8\": {\"v\": 1, \"quote\": \"S058 And that's what the New Testament believe means.\"}\n  },\n  \"prior_art\": \"Standard lexicographical treatments of pisteuo (e.g., BDAG; also C. S. Lewis's 'faith' discussions)\",\n  \"originality\": {\n   \"or1\": {\"v\": 0, \"quote\": \"S039 In the New Testament the word believe means to jump in with both feet.\", \"why\": \"Standard lexical claim about pisteuo, not a new argument.\"},\n   \"or2\": {\"v\": 0, \"quote\": \"\", \"why\": \"No new lexical data; no Greek word even cited.\"},\n   \"or3\": {\"v\": 1, \"quote\": \"S045 We all know, whatever your status in life is, we all know that you can strengthen or ruin uh whatever the rest of your life with two words. S046 I do.\", \"why\": \"Marriage-vow analogy as a bridge to the Greek term.\"},\n   \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization.\"}\n  },\n  \"weakest_link\": \"P1/P2: no Greek lemma or citation is given, so the 'much stronger' claim is asserted, not shown.\",\n  \"develop_next\": \"Cite the actual Greek term (pisteuo/pistis) and lexical evidence that it carries the trust/surrender sense.\",\n  \"case_map\": [], \"domain\": \"theology\"},\n\n {\"id\": \"G3\", \"name\": \"Early creed in 1 Corinthians 15 lists resurrection witnesses\", \"conclusion\": \"Paul passed on an early creed listing Jesus' death, burial, resurrection, and appearances to Peter, James, the Twelve, all the apostles, the 500, and finally Paul himself.\", \"speaker\": \"Gary Habermas\",\n  \"premises\": [\"P1: In 1 Corinthians 15:3-5 Paul says he passed on what he received: Christ died for sins, was buried, rose the third day, and appeared.\", \"P2: The list includes two individuals, Peter and James the brother of Jesus, and three groups: the Twelve, all the apostles, and the 500.\", \"P3: Paul adds his own name separately, indicating his appearance was not part of the early creed.\"],\n  \"strength\": {\n   \"st1\": {\"v\": 2, \"quote\": \"S064 How that Christ died for our sins according to the scriptures, he was buried, rose again the third day according to the scriptures and appeared.\"},\n   \"st2\": {\"v\": 2, \"quote\": \"S065 And here comes a list to two individuals, Peter and James, the brother of Jesus.\"},\n   \"st3\": {\"v\": 2, \"quote\": \"S068 Then Paul adds his own name in verse five. S069 It's added. S070 It's not part of this early creed.\"},\n   \"st4\": {\"v\": 2, \"quote\": \"S067 And three groups, a group called the 12, a group called a larger group called all the apostles, and the 500.\"},\n   \"st5\": {\"v\": 0, \"quote\": \"\"},\n   \"st6\": {\"v\": 2, \"quote\": \"S071 And he said last of all, appeared to me.\"},\n   \"st7\": {\"v\": 0, \"quote\": \"\"},\n   \"st8\": {\"v\": 1, \"quote\": \"S072 Three individuals, three groups.\"}\n  },\n  \"prior_art\": \"Joachim Jeremias, The Eucharistic Words of Jesus, 1966 (creedal-tradition analysis of 1 Cor 15:3-5)\",\n  \"originality\": {\n   \"or1\": {\"v\": 0, \"quote\": \"S063 He says verse three, I gave you, I passed on to you the same thing I gave the Corinthians.\", \"why\": \"A summary of the well-known creedal reading of 1 Cor 15:3-5.\"},\n   \"or2\": {\"v\": 0, \"quote\": \"\", \"why\": \"No new textual or historical data.\"},\n   \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain connection.\"},\n   \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization.\"}\n  },\n  \"weakest_link\": \"P3: the claim that Paul's appearance is not part of the creed is asserted without argument.\",\n  \"develop_next\": \"Give the linguistic/textual grounds for treating 'last of all... appeared to me' as Paul's addition rather than creedal content.\",\n  \"case_map\": [\"K16\", \"F4\"], \"domain\": \"history\"},\n\n {\"id\": \"G4\", \"name\": \"Critical dating still yields early resurrection evidence\", \"conclusion\": \"Even using skeptical critical dates for the New Testament documents, the evidence for the resurrection remains early and strong.\", \"speaker\": \"Gary Habermas\",\n  \"premises\": [\"P1: Mark is dated about 70 AD, Luke about 85, John about 90-95, and 1 Thessalonians about 50 AD.\", \"P2: These dates are admitted by critical New Testament specialists, including atheists, agnostics, skeptics, and non-Christian Jews.\", \"P3: Even on their data, one still gets a resurrection.\"],\n  \"strength\": {\n   \"st1\": {\"v\": 2, \"quote\": \"S093 But I'm I'm trying to show you on their data, you're still going to get a resurrection.\"},\n   \"st2\": {\"v\": 2, \"quote\": \"S084 Most Christians will say, read the book of Mark, which is usually dated about 70 AD.\"},\n   \"st3\": {\"v\": 1, \"quote\": \"S091 They have terminal degrees, doctor's degrees in New Testament, but they are many times, more than you would know, atheists, agnostics, skeptics, non-Christian Jews.\"},\n   \"st4\": {\"v\": 1, \"quote\": \"S093 But I'm I'm trying to show you on their data, you're still going to get a resurrection.\"},\n   \"st5\": {\"v\": 1, \"quote\": \"S088 By the way, I'm using critical dates. S089 This whole thing, I'm using dates that critics admit.\"},\n   \"st6\": {\"v\": 1, \"quote\": \"S092 And these are their dates.\"},\n   \"st7\": {\"v\": 0, \"quote\": \"\"},\n   \"st8\": {\"v\": 1, \"quote\": \"S098 And John's the latest one at about 90 or 95 plus 65.\"}\n  },\n  \"prior_art\": \"Gary Habermas, The Historical Jesus, 1996 (minimal-facts argument from critically accepted data)\",\n  \"originality\": {\n   \"or1\": {\"v\": 0, \"quote\": \"S089 This whole thing, I'm using dates that critics admit.\", \"why\": \"Habermas's signature minimal-facts method restated.\"},\n   \"or2\": {\"v\": 0, \"quote\": \"\", \"why\": \"No new data; dates are standard.\"},\n   \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain connection.\"},\n   \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization.\"}\n  },\n  \"weakest_link\": \"P3: 'you still get a resurrection' is asserted; dating alone does not yield the resurrection conclusion.\",\n  \"develop_next\": \"Spell out the intermediate steps from early dating to the specific resurrection claim rather than asserting the leap.\",\n  \"case_map\": [\"K16\", \"F4\"], \"domain\": \"history\"},\n\n {\"id\": \"G5\", \"name\": \"Eyewitness memory can reliably span 65 years\", \"conclusion\": \"The claim that the Gospels are too late because eyewitnesses would have forgotten or died is false; people can reliably recall key events from 65 or more years ago.\", \"speaker\": \"Gary Habermas\",\n  \"premises\": [\"P1: Critics say that 60 years later nobody remembers such things and all eyewitnesses are dead.\", \"P2: Habermas asks the audience how many clearly recall an eyewitness event from 65 or more years ago, and many hands go up.\", \"P3: It would be wrong to call all those people liars, just as it is wrong to dismiss the Gospel eyewitnesses on that basis.\"],\n  \"strength\": {\n   \"st1\": {\"v\": 2, \"quote\": \"S113 How many of you can remember something you were an eyewitness from 65 or more years ago?\"},\n   \"st2\": {\"v\": 1, \"quote\": \"S103 But you'll hear things like, \\\"60 years later, nobody remembers that stuff for so long.\"},\n   \"st3\": {\"v\": 1, \"quote\": \"S114 Folks, there are a lot of hands up right now.\"},\n   \"st4\": {\"v\": 0, \"quote\": \"S115 I wouldn't want to call all of them liars, but that's what a lot of people want to say to believers because they think John is way too long at plus 65.\"},\n   \"st5\": {\"v\": 0, \"quote\": \"\"},\n   \"st6\": {\"v\": 0, \"quote\": \"S113 How many of you can remember something you were an eyewitness from 65 or more years ago?\"},\n   \"st7\": {\"v\": 0, \"quote\": \"\"},\n   \"st8\": {\"v\": 0, \"quote\": \"\"}\n  },\n  \"prior_art\": \"Standard memory-studies literature on eyewitness reliability (e.g., Elizabeth Loftus's work on memory distortion)\",\n  \"originality\": {\n   \"or1\": {\"v\": 1, \"quote\": \"S112 How many of you clearly recall an event or events from 65 years ago or later, you're sure cuz you were there\", \"why\": \"An anecdotal variant on the general memory-retention point.\"},\n   \"or2\": {\"v\": 1, \"quote\": \"S114 Folks, there are a lot of hands up right now.\", \"why\": \"Uses an informal audience poll as evidence, which the psychological literature does not.\"},\n   \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain bridge.\"},\n   \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization.\"}\n  },\n  \"weakest_link\": \"P2: a show-of-hands poll is self-selected, unverifiable and does not establish reliability of contested testimony.\",\n  \"develop_next\": \"Replace the hand poll with cited empirical studies on long-term memory for consequential public events (flashbulb memory research).\",\n  \"case_map\": [\"K16\", \"F4\"], \"domain\": \"psychology\"},\n\n {\"id\": \"G6\", \"name\": \"Ancient historical sources are far later than the Gospels\", \"conclusion\": \"The Gospels and Paul are far better sourced chronologically than standard ancient figures like Alexander the Great and Buddha, so dismissing them as too late is inconsistent.\", \"speaker\": \"Gary Habermas\",\n  \"premises\": [\"P1: The earliest source for Alexander the Great is almost 300 years after his death, and the two best sources, Arrian and Plutarch, are 425 and 450 years later.\", \"P2: Buddhist Scriptures date from 600 to 800 years after Buddha's death, and a Buddhist PhD author admits Christians have earlier words of their Lord and disciples.\", \"P3: By contrast, Mark is about 40 years after Jesus and Paul's first epistle about 20 years after.\", \"P4: If Alexander and Buddha are accepted as well documented, the Gospels cannot be rejected merely for being 40-65 years later.\"],\n  \"strength\": {\n   \"st1\": {\"v\": 2, \"quote\": \"S143 John stinks at plus 60.\"},\n   \"st2\": {\"v\": 2, \"quote\": \"S138 But, the two best sources for Alexander, Arrian and Plutarch, 425 and 450.\"},\n   \"st3\": {\"v\": 2, \"quote\": \"S159 In fact, the sources in this book that I'm bringing to you may be the best sources in Buddhism, with almost any without almost any exception, date from 600 to 800 years after Buddha's death.\"},\n   \"st4\": {\"v\": 1, \"quote\": \"S145 And Mark, 40? S146 Who can believe things at 40?\"},\n   \"st5\": {\"v\": 1, \"quote\": \"S163 And critics will say, \\\"That's because the Christians don't write history.\\\"\"},\n   \"st6\": {\"v\": 1, \"quote\": \"S142 We got good information on Alexander.\"},\n   \"st7\": {\"v\": 0, \"quote\": \"\"},\n   \"st8\": {\"v\": 2, \"quote\": \"S132 The earliest source for Alexander, earliest source, is just short of 300 years later.\"}\n  },\n  \"prior_art\": \"Craig Keener, The Historical Reliability of the Gospels, 1988/2007 (comparative ancient-source argument)\",\n  \"originality\": {\n   \"or1\": {\"v\": 1, \"quote\": \"S127 What kind of sources do we have for Alexander the Great?\", \"why\": \"A familiar comparative-source argument, here applied with Alexander and Buddha examples.\"},\n   \"or2\": {\"v\": 1, \"quote\": \"S150 I've got a book at home on my shelf that's called The Buddhist Scriptures by PhD Buddhist\", \"why\": \"Adds the Buddhist Scriptures' own scholarly admission as a data point.\"},\n   \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain bridge.\"},\n   \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization.\"}\n  },\n  \"weakest_link\": \"P4: the analogy assumes Alexander/Buddha sources are accepted for the same kind of extraordinary claim, which is not shown.\",\n  \"develop_next\": \"Specify the criteria (eyewitness proximity, genre, corroboration) and show the Gospels meet them better, not merely earlier.\",\n  \"case_map\": [\"K16\", \"F4\"], \"domain\": \"history\"}\n]}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 13303,
+      "completion_tokens": 4244,
+      "attempts": 1,
+      "elapsed_seconds": 14.875,
+      "started_at": "2026-09-27T19:39:12.013987+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T19:39:26.889607+00:00",
+      "tokens": 17547
+    }
+  ],
+  "prompt_sha256": "1420cc530153a7e72887754df6c844e3e899067d7ee17e53aaf3a3913a4db79d",
+  "tokens": 17547
+}

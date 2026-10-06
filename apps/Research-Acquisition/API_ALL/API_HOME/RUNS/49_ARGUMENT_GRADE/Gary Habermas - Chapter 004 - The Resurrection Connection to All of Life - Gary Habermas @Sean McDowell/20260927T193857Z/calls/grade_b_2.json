@@ -1,0 +1,255 @@
+{
+  "name": "grade_b_2",
+  "parsed": {
+    "arguments": [
+      {
+        "id": "G7",
+        "name": "Resurrection leads to heaven",
+        "speaker": "Gary Habermas",
+        "conclusion": "The resurrection is tied to heaven by an unbreakable chain, and heaven is the conclusion of the resurrection.",
+        "premises": [
+          "P1: The resurrection plus heaven puts everything right.",
+          "P2: Near-death experiences suggest an afterlife, but the resurrection offers eternal life, which is better.",
+          "P3: If the resurrection is true, it opens the door to Jesus and the whole Christian message, including heaven.",
+          "P4: The song 'He's Alive' argues: if resurrection, then heaven; Peter says 'I'm forgiven, and heaven's gates are open wide.'"
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "So I start with resurrection I end with heaven because there's a chain that connects the two an unbreakable chain between the two and it's because of the resurrection that we have eternal life."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "Heaven is the conclusion of the resurrection. Over and over again, the resurrection plus heaven puts everything right."
+          },
+          "st3": {
+            "v": 1,
+            "quote": "Near-death experiences to me are almost are almost irrefutable."
+          },
+          "st4": {
+            "v": 1,
+            "quote": "So there's a direct argument in the song from if resurrection then heaven and I think that same argument is in the res is in new the new testament."
+          },
+          "st5": {
+            "v": 0,
+            "quote": ""
+          },
+          "st6": {
+            "v": 1,
+            "quote": "The strength of the resurrection is that you have eternal life."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 1,
+            "quote": "But if I get a hint that there's already an afterlife that's going to be somewhere, and then if I know the resurrection's true, that opens the door to Jesus and the whole Christian message."
+          }
+        },
+        "prior_art": "Gary Habermas, The Risen Jesus and Future Hope, 2003",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "Heaven is the conclusion of the resurrection.",
+            "why": "A variant of Habermas's own earlier resurrection-to-future-hope linkage rather than a new argument."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "Near-death experiences to me are almost are almost irrefutable.",
+            "why": "Adds NDE data as a second line, which his earlier volumes did not foreground."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain move beyond his own prior resurrection/hope work."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization, equation or model is given for the chain."
+          }
+        },
+        "weakest_link": "The 'unbreakable chain' from resurrection to heaven is asserted via a song lyric and 1 Peter imagery rather than argued.",
+        "develop_next": "Give an explicit premise set (e.g. Jesus's resurrection is the firstfruits of a general resurrection) showing why the resurrection entails heaven.",
+        "case_map": [
+          "K16"
+        ],
+        "domain": "theology"
+      },
+      {
+        "id": "G8",
+        "name": "Resurrection is the minimal fact that secures Christianity",
+        "speaker": "Gary Habermas",
+        "conclusion": "Even if the Bible has errors, the resurrection alone establishes the truth of Christianity, so critics cannot disprove the gospel by pointing to biblical problems.",
+        "premises": [
+          "P1: The number one objection to Christianity from English deism through German liberalism to the present is that the gospels have contradictions.",
+          "P2: Even granting errors in the gospels, the minimal facts argument can establish the resurrection without relying on inerrancy.",
+          "P3: If the Bible is inerrant, the resurrection happened; if it is only reliable, the resurrection happened; even if it is neither, one can still have a resurrection.",
+          "P4: If Jesus rose from the dead, Christianity is true, regardless of other New Testament issues."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "If Jesus rose from the dead, Christianity is true. That's the one evidential point I'd like people want to hear here."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "If the Bible is inherent, did the resurrection happen? Well, of course. If the Bible's only really reliable, Craig Bombberg wise, uh, is the Bible reliable? Oh, absolutely. What if the Bible is neither inherent nor reliable? I'll bet you don't have a resurrection now. And I say, oh, pardon me, but I do have a resurrection because I don't need the entire New Testament."
+          },
+          "st3": {
+            "v": 1,
+            "quote": "That's why the minimal facts argument says I can get there without."
+          },
+          "st4": {
+            "v": 1,
+            "quote": "If that's true, whatever you say about the New Testament doesn't stop the gospel message."
+          },
+          "st5": {
+            "v": 1,
+            "quote": "You can't disprove the deity death resurrection by saying there's errors in the gospels which I don't think there are anyway."
+          },
+          "st6": {
+            "v": 1,
+            "quote": "If Jesus rose from the dead, Christianity is true."
+          },
+          "st7": {
+            "v": 1,
+            "quote": "Please refute my resurrection argument or tell me why I shouldn't trust the God who raised his son from the dead."
+          },
+          "st8": {
+            "v": 1,
+            "quote": "I can get there without. So it goes like this. If the Bible is inherent... If the Bible's only really reliable... What if the Bible is neither inherent nor reliable?"
+          }
+        },
+        "prior_art": "Gary Habermas and Antony Flew, Did Jesus Rise from the Dead?, 1987; Habermas, The Historical Jesus, 1996",
+        "originality": {
+          "or1": {
+            "v": 0,
+            "quote": "That's why the minimal facts argument says I can get there without.",
+            "why": "This is Habermas's own long-standing minimal facts argument restated."
+          },
+          "or2": {
+            "v": 0,
+            "quote": "",
+            "why": "No new evidence is introduced beyond the standard minimal facts."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain connection."
+          },
+          "or4": {
+            "v": 1,
+            "quote": "If the Bible is inherent... If the Bible's only really reliable... What if the Bible is neither inherent nor reliable?",
+            "why": "Adds an explicit four-case conditional structure (inerrant/reliable/neither) to the familiar minimal facts claim."
+          }
+        },
+        "weakest_link": "The critical step is that the resurrection can be established from the minimal facts without any reliance on the gospels' reliability, which is asserted rather than shown here.",
+        "develop_next": "State the minimal facts list and the criteria for counting a fact as minimal, then show the inference to 'Jesus rose' explicitly.",
+        "case_map": [
+          "K16",
+          "F4"
+        ],
+        "domain": "history"
+      },
+      {
+        "id": "G9",
+        "name": "Resurrection allows living with unanswered questions",
+        "speaker": "Gary Habermas",
+        "conclusion": "Christians can live with unanswered questions about suffering because the resurrection guarantees that answers exist and will be known in eternity.",
+        "premises": [
+          "P1: Habermas does not know why God allows suffering, but he is not God and does not have to answer the question.",
+          "P2: If the resurrection is true, someday in heaven God will explain suffering in about one sentence.",
+          "P3: There are answers even if we do not know them; we can trust an omnipotent, omniscient, omnipresent, benevolent God.",
+          "P4: Paul lived with questions and suffering but did not despair because he knew believers would be raised together with Christ (2 Corinthians 4)."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "We can live with questions. Nobody should lie to themselves and say, \"Unless my life looks like the smooth cement on front of my house with nobody putting their initials in it, unless I get everything worked out, I can't be a good Christian.\""
+          },
+          "st2": {
+            "v": 2,
+            "quote": "I'll say I don't know why it's happening. And I don't know why God lets it happen, but I'm not God. And I don't have to answer this question."
+          },
+          "st3": {
+            "v": 1,
+            "quote": "Paul lived with questions. Paul tells you that, you know, in second Corinthians, he says, \"I live with these questions and they tear me up, but I don't despair.\""
+          },
+          "st4": {
+            "v": 1,
+            "quote": "If there's eternal life, here's the key. There are answers. That's not the same as me having to know the answers."
+          },
+          "st5": {
+            "v": 2,
+            "quote": "Well, isn't that just a little bit too gullible? Not when the resurrection's true. When there's no resurrection, okay, great. It's gullible. But if he was raised from the dead, please refute my resurrection argument or tell me why I shouldn't trust the God who raised his son from the dead."
+          },
+          "st6": {
+            "v": 1,
+            "quote": "There may be answers, but that doesn't mean Gary Habermass knows the answers."
+          },
+          "st7": {
+            "v": 1,
+            "quote": "But if he was raised from the dead, please refute my resurrection argument or tell me why I shouldn't trust the God who raised his son from the dead."
+          },
+          "st8": {
+            "v": 2,
+            "quote": "Paul lived with questions... he says, \"I live with these questions and they tear me up, but I don't despair.\""
+          }
+        },
+        "prior_art": "Gary Habermas, The Risen Jesus and Future Hope, 2003 (resurrection as answer to suffering); C. S. Lewis, The Problem of Pain, 1940",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "I don't know why it's happening. And I don't know why God lets it happen, but I'm not God.",
+            "why": "A variant of the standard 'skeptical theism / God knows the answer' response, here tied to the resurrection."
+          },
+          "or2": {
+            "v": 2,
+            "quote": "Someday I'm going to take a postgrad course with Paul or I'm going to take a postgrad course with somebody else. I'm going to find out what it's out there.",
+            "why": "Adds personal testimony (his wife's cancer, the card, the one-sentence-in-heaven image) not present in the prior literature."
+          },
+          "or3": {
+            "v": 1,
+            "quote": "If there's eternal life, here's the key. There are answers. That's not the same as me having to know the answers.",
+            "why": "Connects eschatology to the epistemology of suffering, a modest cross-domain link."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization or model."
+          }
+        },
+        "weakest_link": "P2 — that God will explain suffering in about one sentence and that this suffices — is an untestable eschatological promise doing the main work.",
+        "develop_next": "Give an argument for why the existence of answers beyond our ken is more probable on theism-plus-resurrection than on its denial, rather than asserting it.",
+        "case_map": [
+          "K14",
+          "K16"
+        ],
+        "domain": "philosophy"
+      }
+    ]
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "grade_b_2",
+      "attempt": 1,
+      "text": "{\"arguments\": [\n {\"id\": \"G7\", \"name\": \"Resurrection leads to heaven\", \"speaker\": \"Gary Habermas\",\n  \"conclusion\": \"The resurrection is tied to heaven by an unbreakable chain, and heaven is the conclusion of the resurrection.\",\n  \"premises\": [\n   \"P1: The resurrection plus heaven puts everything right.\",\n   \"P2: Near-death experiences suggest an afterlife, but the resurrection offers eternal life, which is better.\",\n   \"P3: If the resurrection is true, it opens the door to Jesus and the whole Christian message, including heaven.\",\n   \"P4: The song 'He's Alive' argues: if resurrection, then heaven; Peter says 'I'm forgiven, and heaven's gates are open wide.'\"\n  ],\n  \"strength\": {\n   \"st1\": {\"v\": 2, \"quote\": \"So I start with resurrection I end with heaven because there's a chain that connects the two an unbreakable chain between the two and it's because of the resurrection that we have eternal life.\"},\n   \"st2\": {\"v\": 2, \"quote\": \"Heaven is the conclusion of the resurrection. Over and over again, the resurrection plus heaven puts everything right.\"},\n   \"st3\": {\"v\": 1, \"quote\": \"Near-death experiences to me are almost are almost irrefutable.\"},\n   \"st4\": {\"v\": 1, \"quote\": \"So there's a direct argument in the song from if resurrection then heaven and I think that same argument is in the res is in new the new testament.\"},\n   \"st5\": {\"v\": 0, \"quote\": \"\"},\n   \"st6\": {\"v\": 1, \"quote\": \"The strength of the resurrection is that you have eternal life.\"},\n   \"st7\": {\"v\": 0, \"quote\": \"\"},\n   \"st8\": {\"v\": 1, \"quote\": \"But if I get a hint that there's already an afterlife that's going to be somewhere, and then if I know the resurrection's true, that opens the door to Jesus and the whole Christian message.\"}\n  },\n  \"prior_art\": \"Gary Habermas, The Risen Jesus and Future Hope, 2003\",\n  \"originality\": {\n   \"or1\": {\"v\": 1, \"quote\": \"Heaven is the conclusion of the resurrection.\", \"why\": \"A variant of Habermas's own earlier resurrection-to-future-hope linkage rather than a new argument.\"},\n   \"or2\": {\"v\": 1, \"quote\": \"Near-death experiences to me are almost are almost irrefutable.\", \"why\": \"Adds NDE data as a second line, which his earlier volumes did not foreground.\"},\n   \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain move beyond his own prior resurrection/hope work.\"},\n   \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization, equation or model is given for the chain.\"}\n  },\n  \"weakest_link\": \"The 'unbreakable chain' from resurrection to heaven is asserted via a song lyric and 1 Peter imagery rather than argued.\",\n  \"develop_next\": \"Give an explicit premise set (e.g. Jesus's resurrection is the firstfruits of a general resurrection) showing why the resurrection entails heaven.\",\n  \"case_map\": [\"K16\"], \"domain\": \"theology\"},\n {\"id\": \"G8\", \"name\": \"Resurrection is the minimal fact that secures Christianity\", \"speaker\": \"Gary Habermas\",\n  \"conclusion\": \"Even if the Bible has errors, the resurrection alone establishes the truth of Christianity, so critics cannot disprove the gospel by pointing to biblical problems.\",\n  \"premises\": [\n   \"P1: The number one objection to Christianity from English deism through German liberalism to the present is that the gospels have contradictions.\",\n   \"P2: Even granting errors in the gospels, the minimal facts argument can establish the resurrection without relying on inerrancy.\",\n   \"P3: If the Bible is inerrant, the resurrection happened; if it is only reliable, the resurrection happened; even if it is neither, one can still have a resurrection.\",\n   \"P4: If Jesus rose from the dead, Christianity is true, regardless of other New Testament issues.\"\n  ],\n  \"strength\": {\n   \"st1\": {\"v\": 2, \"quote\": \"If Jesus rose from the dead, Christianity is true. That's the one evidential point I'd like people want to hear here.\"},\n   \"st2\": {\"v\": 2, \"quote\": \"If the Bible is inherent, did the resurrection happen? Well, of course. If the Bible's only really reliable, Craig Bombberg wise, uh, is the Bible reliable? Oh, absolutely. What if the Bible is neither inherent nor reliable? I'll bet you don't have a resurrection now. And I say, oh, pardon me, but I do have a resurrection because I don't need the entire New Testament.\"},\n   \"st3\": {\"v\": 1, \"quote\": \"That's why the minimal facts argument says I can get there without.\"},\n   \"st4\": {\"v\": 1, \"quote\": \"If that's true, whatever you say about the New Testament doesn't stop the gospel message.\"},\n   \"st5\": {\"v\": 1, \"quote\": \"You can't disprove the deity death resurrection by saying there's errors in the gospels which I don't think there are anyway.\"},\n   \"st6\": {\"v\": 1, \"quote\": \"If Jesus rose from the dead, Christianity is true.\"},\n   \"st7\": {\"v\": 1, \"quote\": \"Please refute my resurrection argument or tell me why I shouldn't trust the God who raised his son from the dead.\"},\n   \"st8\": {\"v\": 1, \"quote\": \"I can get there without. So it goes like this. If the Bible is inherent... If the Bible's only really reliable... What if the Bible is neither inherent nor reliable?\"}\n  },\n  \"prior_art\": \"Gary Habermas and Antony Flew, Did Jesus Rise from the Dead?, 1987; Habermas, The Historical Jesus, 1996\",\n  \"originality\": {\n   \"or1\": {\"v\": 0, \"quote\": \"That's why the minimal facts argument says I can get there without.\", \"why\": \"This is Habermas's own long-standing minimal facts argument restated.\"},\n   \"or2\": {\"v\": 0, \"quote\": \"\", \"why\": \"No new evidence is introduced beyond the standard minimal facts.\"},\n   \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain connection.\"},\n   \"or4\": {\"v\": 1, \"quote\": \"If the Bible is inherent... If the Bible's only really reliable... What if the Bible is neither inherent nor reliable?\", \"why\": \"Adds an explicit four-case conditional structure (inerrant/reliable/neither) to the familiar minimal facts claim.\"}\n  },\n  \"weakest_link\": \"The critical step is that the resurrection can be established from the minimal facts without any reliance on the gospels' reliability, which is asserted rather than shown here.\",\n  \"develop_next\": \"State the minimal facts list and the criteria for counting a fact as minimal, then show the inference to 'Jesus rose' explicitly.\",\n  \"case_map\": [\"K16\", \"F4\"], \"domain\": \"history\"},\n {\"id\": \"G9\", \"name\": \"Resurrection allows living with unanswered questions\", \"speaker\": \"Gary Habermas\",\n  \"conclusion\": \"Christians can live with unanswered questions about suffering because the resurrection guarantees that answers exist and will be known in eternity.\",\n  \"premises\": [\n   \"P1: Habermas does not know why God allows suffering, but he is not God and does not have to answer the question.\",\n   \"P2: If the resurrection is true, someday in heaven God will explain suffering in about one sentence.\",\n   \"P3: There are answers even if we do not know them; we can trust an omnipotent, omniscient, omnipresent, benevolent God.\",\n   \"P4: Paul lived with questions and suffering but did not despair because he knew believers would be raised together with Christ (2 Corinthians 4).\"\n  ],\n  \"strength\": {\n   \"st1\": {\"v\": 2, \"quote\": \"We can live with questions. Nobody should lie to themselves and say, \\\"Unless my life looks like the smooth cement on front of my house with nobody putting their initials in it, unless I get everything worked out, I can't be a good Christian.\\\"\"},\n   \"st2\": {\"v\": 2, \"quote\": \"I'll say I don't know why it's happening. And I don't know why God lets it happen, but I'm not God. And I don't have to answer this question.\"},\n   \"st3\": {\"v\": 1, \"quote\": \"Paul lived with questions. Paul tells you that, you know, in second Corinthians, he says, \\\"I live with these questions and they tear me up, but I don't despair.\\\"\"},\n   \"st4\": {\"v\": 1, \"quote\": \"If there's eternal life, here's the key. There are answers. That's not the same as me having to know the answers.\"},\n   \"st5\": {\"v\": 2, \"quote\": \"Well, isn't that just a little bit too gullible? Not when the resurrection's true. When there's no resurrection, okay, great. It's gullible. But if he was raised from the dead, please refute my resurrection argument or tell me why I shouldn't trust the God who raised his son from the dead.\"},\n   \"st6\": {\"v\": 1, \"quote\": \"There may be answers, but that doesn't mean Gary Habermass knows the answers.\"},\n   \"st7\": {\"v\": 1, \"quote\": \"But if he was raised from the dead, please refute my resurrection argument or tell me why I shouldn't trust the God who raised his son from the dead.\"},\n   \"st8\": {\"v\": 2, \"quote\": \"Paul lived with questions... he says, \\\"I live with these questions and they tear me up, but I don't despair.\\\"\"}\n  },\n  \"prior_art\": \"Gary Habermas, The Risen Jesus and Future Hope, 2003 (resurrection as answer to suffering); C. S. Lewis, The Problem of Pain, 1940\",\n  \"originality\": {\n   \"or1\": {\"v\": 1, \"quote\": \"I don't know why it's happening. And I don't know why God lets it happen, but I'm not God.\", \"why\": \"A variant of the standard 'skeptical theism / God knows the answer' response, here tied to the resurrection.\"},\n   \"or2\": {\"v\": 2, \"quote\": \"Someday I'm going to take a postgrad course with Paul or I'm going to take a postgrad course with somebody else. I'm going to find out what it's out there.\", \"why\": \"Adds personal testimony (his wife's cancer, the card, the one-sentence-in-heaven image) not present in the prior literature.\"},\n   \"or3\": {\"v\": 1, \"quote\": \"If there's eternal life, here's the key. There are answers. That's not the same as me having to know the answers.\", \"why\": \"Connects eschatology to the epistemology of suffering, a modest cross-domain link.\"},\n   \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization or model.\"}\n  },\n  \"weakest_link\": \"P2 — that God will explain suffering in about one sentence and that this suffices — is an untestable eschatological promise doing the main work.\",\n  \"develop_next\": \"Give an argument for why the existence of answers beyond our ken is more probable on theism-plus-resurrection than on its denial, rather than asserting it.\",\n  \"case_map\": [\"K14\", \"K16\"], \"domain\": \"philosophy\"}\n]}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 15501,
+      "completion_tokens": 2665,
+      "attempts": 1,
+      "elapsed_seconds": 9.98399999999674,
+      "started_at": "2026-09-27T19:39:05.804983+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T19:39:15.803990+00:00",
+      "tokens": 18166
+    }
+  ],
+  "prompt_sha256": "e2af516febda8166bdad904dbabe653e5bf8fffba8b4424de0aadd5f6af1064a",
+  "tokens": 18166
+}

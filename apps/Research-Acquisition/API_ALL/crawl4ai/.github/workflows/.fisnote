@@ -1,0 +1,28 @@
+---
+fis_schema: "folder-index.v1"
+folder_id: "FLD-20260907-2bf3daa6"
+folder: "GitHub\Research-Acquisition\crawl4ai\.github\workflows"
+folder_class: "project"
+confidence: 0.6
+dependency_risk: 0.0
+dominant_family: "other"
+dominant_ratio: 0.5
+file_count: 6
+classified_at: "2026-09-07T16:07:35"
+allowed_actions: ["index", "rename_internal", "subfolder_sort", "archive_exports"]
+suggested_name: "workflows"
+---
+
+# FIS Folder Index: workflows
+
+**Class**: project  ·  **Confidence**: 60%  ·  **Files**: 6  ·  **Dominant**: other (50%)
+
+## Allowed actions
+- index
+- rename_internal
+- subfolder_sort
+- archive_exports
+
+**Suggested name**: `workflows`  (not applied — review before use)
+
+<!-- FIS folder-index.v1: parseable note; safe to regenerate. -->

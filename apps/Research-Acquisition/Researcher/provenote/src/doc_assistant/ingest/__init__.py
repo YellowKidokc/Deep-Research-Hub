@@ -1,0 +1,786 @@
+"""Ingestion pipeline package.
+
+Turns source documents (PDF/EPUB/HTML/DOCX/MD) into retrievable chunks across the
+two Chroma collections + the SQLite Document row, with orphan cleanup and
+partial-write self-heal. The former monolithic ``ingest.py`` is split into cohesive
+layers:
+
+* ``cache``    — extraction cache + content hashing (bottom layer)
+* ``chunking`` — text → parent/child chunks, metadata, health signals (pure)
+* ``store``    — SQLite + Chroma read/write helpers (data access)
+* ``cleanup``  — orphan detection + cross-store cleanup
+* (this module) — ``process_one_document`` / ``main`` orchestration; the CLI lives in ``__main__``
+
+The names in ``__all__`` are re-exported so ``from doc_assistant.ingest import …``
+keeps working unchanged after the split. Path/model config is read dynamically via
+``config.X`` so tests monkeypatch one seam (``config``) for all layers.
+"""
+
+from __future__ import annotations
+
+import shutil
+from collections.abc import Callable, Mapping
+from pathlib import Path
+from uuid import uuid4
+
+import structlog
+from langchain_chroma import Chroma
+from langchain_core.documents import Document
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+from sqlalchemy import select
+from tqdm import tqdm
+
+from doc_assistant import config
+from doc_assistant.db.migrations import init_db
+from doc_assistant.db.models import Document as DBDocument
+from doc_assistant.db.session import session_scope
+from doc_assistant.embeddings import (
+    get_active_model_name,
+    get_collection_name,
+    get_embeddings,
+)
+from doc_assistant.extractors import extractor_name, is_supported
+
+from .cache import doc_hash, get_cache_path, is_cache_fresh, load_or_extract
+from .chunking import (
+    PAGE_MARKER,
+    _make_baseline_splitter,
+    _make_child_splitter,
+    _make_parent_splitter,
+    build_parent_child_chunks,
+    clean_chunk_text,
+    compute_health_signals,
+    extract_chunk_metadata,
+)
+from .cleanup import (
+    _find_orphan_hashes,
+    cleanup_orphan_figures,
+    cleanup_orphans_chroma,
+    cleanup_orphans_sqlite,
+    hashes_with_no_figure_rows,
+)
+from .figures import figure_parent_text, find_figure_context
+from .store import (
+    _existing_document_id,
+    build_path_index,
+    figure_captions,
+    figure_units,
+    get_document_row_hashes,
+    get_indexed_hashes,
+    repoint_figures,
+    upsert_document_in_sqlite,
+)
+from .workers import resolve_workers, warm_extraction_cache
+
+log = structlog.get_logger(__name__)
+
+#: Called once per document as ``(done, total, current)``: ``done`` documents are finished, out of
+#: ``total``, and ``current`` is the file about to be processed — ``None`` on the final call, when
+#: nothing is in flight. Optional and purely observational: `main` never reads it back, and a
+#: caller that raises is logged and ignored (see `_report`), because a progress sink must not be
+#: able to kill a run that takes tens of minutes.
+ProgressFn = Callable[[int, int, str | None], None]
+
+__all__ = [
+    "PAGE_MARKER",
+    "_existing_document_id",
+    "_find_orphan_hashes",
+    "_make_baseline_splitter",
+    "_make_child_splitter",
+    "_make_parent_splitter",
+    "build_parent_child_chunks",
+    "build_path_index",
+    "clean_chunk_text",
+    "cleanup_orphan_figures",
+    "cleanup_orphans_chroma",
+    "cleanup_orphans_sqlite",
+    "compute_health_signals",
+    "doc_hash",
+    "extract_chunk_metadata",
+    "figure_captions",
+    "figure_units",
+    "get_active_model_name",
+    "get_cache_path",
+    "get_collection_name",
+    "get_document_row_hashes",
+    "get_embeddings",
+    "get_indexed_hashes",
+    "hashes_with_no_figure_rows",
+    "is_cache_fresh",
+    "load_documents",
+    "load_or_extract",
+    "main",
+    "process_one_document",
+    "repoint_figures",
+    "resolve_workers",
+    "upsert_document_in_sqlite",
+    "warm_extraction_cache",
+]
+
+
+def load_documents() -> list[Document]:
+    documents: list[Document] = []
+    files = [p for p in config.DOCS_PATH.rglob("*") if p.is_file() and is_supported(p)]
+    log.info("found_files", count=len(files))
+
+    for path in files:
+        try:
+            text = load_or_extract(path)
+            if not text.strip():
+                log.info("skipping_empty", file=path.name)
+                continue
+
+            documents.append(
+                Document(
+                    page_content=text,
+                    metadata={
+                        "source_original": str(path),
+                        "source_cache": str(get_cache_path(path)),
+                        "filename": path.name,
+                        "format": path.suffix.lower().lstrip("."),
+                        "doc_hash": doc_hash(text),
+                    },
+                )
+            )
+        except Exception as e:
+            log.warning("document_error", file=path.name, error=str(e))
+
+    return documents
+
+
+def _parents_in_order(pc_chunks: list[Document]) -> list[str]:
+    """The distinct parent texts of ``pc_chunks``, indexed by ``parent_index``.
+
+    Children carry their parent's text, so the parents are recovered from them rather
+    than re-chunked — re-splitting the document to find them again would be a second
+    source of truth that could drift from the one actually stored.
+
+    Gaps are impossible in practice (``build_parent_child_chunks`` emits contiguous
+    indices) but a gap would silently shift every later index, so the list is built by
+    position rather than by append order.
+    """
+    by_index: dict[int, str] = {}
+    for chunk in pc_chunks:
+        index = chunk.metadata.get("parent_index")
+        text = chunk.metadata.get("parent_text")
+        if isinstance(index, int) and isinstance(text, str):
+            by_index.setdefault(index, text)
+    if not by_index:
+        return []
+    return [by_index.get(i, "") for i in range(max(by_index) + 1)]
+
+
+def process_one_document(
+    path: Path,
+    db: Chroma,
+    pc_db: Chroma,
+    splitter: RecursiveCharacterTextSplitter,
+    indexed: set[str],
+    path_index: Mapping[str, str] | None = None,
+) -> str:
+    try:
+        text = load_or_extract(path)
+        if not text.strip():
+            return "skipped"
+
+        h = doc_hash(text)
+        if h in indexed:
+            return "skipped"
+
+        # Split with positions tracked
+        raw_chunks: list[str] = splitter.split_text(text)
+        if not raw_chunks:
+            return "skipped"
+
+        documents: list[Document] = []
+        cursor = 0
+        for i, chunk_text in enumerate(raw_chunks):
+            chunk_start = text.find(chunk_text, cursor)
+            if chunk_start == -1:
+                chunk_start = cursor
+            cursor = chunk_start + len(chunk_text)
+
+            extra = extract_chunk_metadata(chunk_text, text, chunk_start)
+
+            # A chunk that is nothing but page markers cleans down to "" — never embed it.
+            # `extract_chunk_metadata` above already read the page number off the *raw*
+            # text, so dropping the body loses nothing. A scan with no text layer produces
+            # a cache of markers only, so this can empty the document entirely (guarded at
+            # the store writes below, KI-29).
+            cleaned = clean_chunk_text(chunk_text)
+            if not cleaned:
+                continue
+
+            documents.append(
+                Document(
+                    page_content=cleaned,
+                    metadata={
+                        "source_original": str(path),
+                        "source_cache": str(get_cache_path(path)),
+                        "filename": path.name,
+                        "format": path.suffix.lower().lstrip("."),
+                        "doc_hash": h,
+                        "chunk_index": i,
+                        "page": extra["page"],
+                        "section": extra["section"],
+                        # Span in the cached markdown (ROADMAP 19). `chunk_start` was already
+                        # computed above for `extract_chunk_metadata` and thrown away; the end is
+                        # the raw chunk's own length, since this splitter's output IS the slice
+                        # it was cut from (unlike the parent/child path — see `locate_span`).
+                        "char_start": chunk_start,
+                        "char_end": chunk_start + len(chunk_text),
+                    },
+                )
+            )
+
+        # The recorded chunk_count is the baseline-chunk count, *excluding* the figure
+        # chunks appended below — snapshot it before they are added so committing the
+        # SQLite row last (below) records the same value the original pre-figure order did.
+        baseline_chunk_count = len(documents)
+
+        pages = [int(m.group(1)) for m in PAGE_MARKER.finditer(text)]
+        page_count = max(pages) if pages else None
+
+        # Compute health classification
+        from doc_assistant.health import classify_document_health
+
+        signals = compute_health_signals(documents, text)
+        health = classify_document_health(
+            chunk_count=int(signals["chunk_count"]),
+            avg_chunk_length=float(signals["avg_chunk_length"]),
+            page_count=page_count,
+            section_detection_rate=float(signals["section_detection_rate"]),
+            format=path.suffix.lower().lstrip("."),
+            reference_flagged_ratio=float(signals["reference_flagged_ratio"]),
+        )
+
+        # Resolve the document id WITHOUT writing the row (F1). A re-ingest reuses the
+        # existing row's id so its figures + other id-keyed sidecars stay linked; a new
+        # document mints a fresh UUID (figure_units() then finds none — a new doc has no
+        # figures yet). The row is committed *last*, only after both Chroma writes land,
+        # so a vector-write failure can never leave a committed Document row with no
+        # chunks. The id is needed up front because it is stamped into every chunk's
+        # metadata and is the key figure_units() queries on.
+        # Coupling: ingest <-> db Document (this id) <-> both Chroma collections.
+        document_id = _existing_document_id(h, path, path_index=path_index) or str(uuid4())
+        # The identity survived but the content moved (ADR-047): carry the figures across before
+        # anything reads them by hash. No-op when the hash is unchanged or there are no figures.
+        repoint_figures(document_id, h)
+
+        # Stamp health and document_id onto chunks
+        for doc in documents:
+            doc.metadata["document_id"] = document_id
+            doc.metadata["health"] = health.status
+
+        # Feature 4c: append described figures as `chunk_type='figure'` chunks
+        # (caption + VLM description). No-op until describe_figures has run.
+        fig_units = figure_units(document_id)
+        pc_base_metadata = {
+            "source_original": str(path),
+            "source_cache": str(get_cache_path(path)),
+            "filename": path.name,
+            "format": path.suffix.lower().lstrip("."),
+            "doc_hash": h,
+            "document_id": document_id,
+            "health": health.status,
+        }
+        for j, (fig_text, fig_page, fig_id) in enumerate(fig_units):
+            documents.append(
+                Document(
+                    page_content=fig_text,
+                    metadata={
+                        **pc_base_metadata,
+                        "chunk_index": len(raw_chunks) + j,
+                        "page": fig_page,
+                        "section": None,
+                        "chunk_type": "figure",
+                        "figure_id": fig_id,
+                    },
+                )
+            )
+
+        # --- Vector-store writes. BOTH must land before the SQLite row is committed
+        # (F1): the row write below is the last step, so an exception in either Chroma
+        # write aborts the document with no orphaned Document row left behind.
+        #
+        # Both adds are guarded on a non-empty list: Chroma raises "Expected Embeddings to
+        # be non-empty list" on an empty upsert, which would abort the document. A scanned
+        # PDF with no text layer extracts to page markers and nothing else, so once those
+        # are stripped (KI-29) it legitimately yields zero chunks. That is not an error —
+        # it is a document with nothing to retrieve, and it must still reach the SQLite
+        # write below so its row records `chunk_count=0` and health `broken` instead of
+        # vanishing or crashing the run.
+        existing_baseline = db.get(where={"doc_hash": h}, include=[])
+        if existing_baseline["ids"]:
+            log.info("removing_existing_baseline", count=len(existing_baseline["ids"]), hash=h)
+            db.delete(ids=existing_baseline["ids"])
+        if documents:
+            db.add_documents(documents)
+
+        pc_chunks = build_parent_child_chunks(text, pc_base_metadata)
+
+        # A figure retrieves on its own text but should be *read* inside the passage that
+        # uses it. Each figure keeps its own `parent_index` — sharing the citing parent's
+        # would let the dedup in `pipeline` (keyed on doc_hash+parent_index) drop the
+        # figure whenever the prose chunk was already retrieved — while its `parent_text`
+        # carries the citing passage alongside the figure's own text.
+        fig_captions = figure_captions(document_id) if fig_units else {}
+        prose_parents = _parents_in_order(pc_chunks)
+        next_parent = max((c.metadata["parent_index"] for c in pc_chunks), default=-1) + 1
+        for j, (fig_text, fig_page, fig_id) in enumerate(fig_units):
+            ctx_index, how = find_figure_context(fig_captions.get(fig_id), prose_parents)
+            context = prose_parents[ctx_index] if ctx_index is not None else None
+            pc_chunks.append(
+                Document(
+                    page_content=fig_text,
+                    metadata={
+                        **pc_base_metadata,
+                        "parent_text": figure_parent_text(fig_text, context),
+                        "parent_index": next_parent + j,
+                        "child_index": 0,
+                        "page": fig_page,
+                        "chunk_type": "figure",
+                        "figure_id": fig_id,
+                        # Which of the two rules placed it, so a reader can tell a passage
+                        # that argues from the figure from one that merely sits near it.
+                        "figure_context": how,
+                    },
+                )
+            )
+
+        existing_pc = pc_db.get(where={"doc_hash": h}, include=[])
+        if existing_pc["ids"]:
+            log.info("removing_existing_pc", count=len(existing_pc["ids"]), hash=h)
+            pc_db.delete(ids=existing_pc["ids"])
+        if pc_chunks:
+            pc_db.add_documents(pc_chunks)
+
+        if not documents and not pc_chunks:
+            log.warning(
+                "no_indexable_text",
+                file=path.name,
+                page_markers=len(PAGE_MARKER.findall(text)),
+                hint="extraction produced no text (likely a scan with no text layer); the "
+                "document is recorded with chunk_count=0 and is not retrievable",
+            )
+
+        # --- Both vector stores updated; commit the Document row + its ingestion event
+        # last, keyed by the pre-resolved document_id already stamped into the chunks.
+        upsert_document_in_sqlite(
+            document_id=document_id,
+            filename=path.name,
+            source_original=str(path),
+            source_cache=str(get_cache_path(path)),
+            doc_hash=h,
+            format=path.suffix.lower().lstrip("."),
+            extractor_used=extractor_name(path, config.PDF_EXTRACTOR),
+            chunk_count=baseline_chunk_count,
+            page_count=page_count,
+            extraction_health=health.status,
+        )
+
+        # Print a warning if anything's amiss
+        if health.status != "healthy":
+            log.warning(
+                "extraction_health", status=health.status, file=path.name, reasons=health.reasons
+            )
+
+        indexed.add(h)
+        return "added"
+    except Exception as e:
+        log.warning("document_error", file=path.name, error=str(e))
+        return "error"
+
+
+def _resolve_walk_root(scope: str | None) -> Path:
+    """Map a --path argument to a directory or file to walk.
+
+    Accepts an absolute path, a path relative to the CWD, or a path
+    relative to DOCS_PATH. Returns the resolved path. Raises FileNotFoundError
+    if nothing matches.
+
+    **Resolved in both branches, and the default one is why this is load-bearing.** Paths from
+    this walk are compared against the registry by `_drop_excluded`, whose keys are built from
+    `SourceRoot.path` — written *resolved* by `registry.ensure_library_root`. `registry.pathkey`
+    normalises case and separators but does not expand 8.3 short names, junctions or symlinks, so
+    an unresolved walk root produced keys that could never match and every standing exclusion
+    silently stopped applying. Returning `config.DOCS_PATH` raw was the one branch that did not
+    keep this function's own promise.
+    """
+    if scope is None:
+        return config.DOCS_PATH.resolve()
+    candidates = [Path(scope), Path.cwd() / scope, config.DOCS_PATH / scope]
+    for c in candidates:
+        if c.exists():
+            return c.resolve()
+    raise FileNotFoundError(
+        f"--path '{scope}' not found (tried absolute, cwd-relative, and DOCS_PATH-relative)"
+    )
+
+
+def _drop_excluded(walked: list[Path]) -> tuple[list[Path], int]:
+    """Drop files flagged ``excluded`` in the registry from an implicit walk (Decision 5).
+
+    Since AD3b the registry hands back **absolute** path keys spanning every root, so this is a
+    membership test rather than a rel_path reconstruction against one source dir — which also
+    retires the old caveat that a file walked from outside that dir could never match an
+    exclusion. Returns ``(kept, skipped)``. Registry is imported lazily to keep the locked core's
+    top-level imports intact.
+
+    ⚠ **Precondition: ``walked`` must already be resolved.** `registry.pathkey` normalises case
+    and separators without touching the filesystem — deliberately, since it also keys paths whose
+    file may be gone — so it cannot reconcile an 8.3 short name, a junction or a symlink against
+    the *resolved* form every writer of `SourceRoot.path` stores. The two sides meeting in the
+    same form is an invariant held at the ends: `_resolve_walk_root` resolves, and
+    `ensure_library_root` / `register_root` / `_seed_library_root` all store resolved. Break
+    either end and this returns ``skipped=0`` — no error, no warning, every standing exclusion
+    quietly ignored.
+    """
+    from doc_assistant.ingest import registry
+
+    with session_scope() as session:
+        excluded = registry.excluded_paths(session)
+    if not excluded:
+        return walked, 0
+    kept: list[Path] = []
+    skipped = 0
+    for f in walked:
+        if registry.pathkey(f) in excluded:
+            skipped += 1
+        else:
+            kept.append(f)
+    return kept, skipped
+
+
+def _resolve_ingest_files(scope: str | None, files: list[Path] | None) -> tuple[list[Path], int]:
+    """Resolve the files to ingest + the excluded-skipped count (feature-selective-ingestion.md).
+
+    ``files`` given → used as-is (an explicit selection; exclusions already applied or overridden
+    upstream). Otherwise walk ``_resolve_walk_root(scope)`` as before, then subtract standing
+    exclusions.
+    """
+    if files is not None:
+        return list(files), 0
+    walk_root = _resolve_walk_root(scope)
+    if walk_root.is_file():
+        walked = [walk_root] if is_supported(walk_root) else []
+    else:
+        walked = [p for p in walk_root.rglob("*") if p.is_file() and is_supported(p)]
+    return _drop_excluded(walked)
+
+
+def _dry_run_plan(scope: str | None, files: list[Path] | None) -> dict[str, int]:
+    """The dry-run plan (Decision 6): resolve + classify stat-only, report — never loads
+    embeddings or opens Chroma, so a monkeypatched `get_embeddings` trap stays untouched."""
+    from doc_assistant.ingest import registry
+
+    to_process, excluded_skipped = _resolve_ingest_files(scope, files)
+    with session_scope() as session:
+        plan = registry.plan_files(session, to_process)
+    plan["excluded"] = excluded_skipped
+    log.info("dry_run_plan", **plan)
+    return plan
+
+
+def _report(on_progress: ProgressFn | None, done: int, total: int, current: str | None) -> None:
+    """Call a progress sink, or explain in the log why the call was dropped.
+
+    Guarded for the same reason `_cache_is_fresh` is: this runs inside a loop that can be tens of
+    minutes long over thousands of documents, and a sink that raises — a closed socket, a UI that
+    went away — must not take the ingest down with it. The run is the product; the progress is not.
+    """
+    if on_progress is None:
+        return
+    try:
+        on_progress(done, total, current)
+    except Exception:
+        log.warning("ingest_progress_sink_failed", done=done, total=total, exc_info=True)
+
+
+def main(
+    force_rebuild: bool = False,
+    skip_cleanup: bool = False,
+    workers: str | int | None = None,
+    scope: str | None = None,
+    files: list[Path] | None = None,
+    dry_run: bool = False,
+    on_progress: ProgressFn | None = None,
+) -> dict[str, int]:
+    # Selective ingestion (feature-selective-ingestion.md, S1). `files` is an explicit,
+    # already-validated absolute path list (from `registry.resolve_selection` for the API, or CLI
+    # `--files`) — mutually exclusive with the walk-scoping flags. `dry_run` reports the plan
+    # without loading embeddings or opening Chroma (Decision 6).
+    if files is not None and (scope is not None or force_rebuild):
+        raise ValueError("files= is mutually exclusive with --path and --rebuild")
+
+    # Ensure the SQLite schema exists. Idempotent (create_all no-ops when the
+    # tables are already present), so this is safe on every run and removes the
+    # fresh-clone footgun of having to run migrations manually before ingest.
+    init_db()
+
+    if dry_run:
+        return _dry_run_plan(scope, files)
+
+    # parents=True: the Chroma base may be a relocated ASCII path with new intermediate
+    # dirs (KI-11, config._chroma_base), not just DATA_PATH/chroma.
+    config.CACHE_PATH.mkdir(parents=True, exist_ok=True)
+    Path(config.CHROMA_PATH).mkdir(parents=True, exist_ok=True)
+    Path(config.PC_CHROMA_PATH).mkdir(parents=True, exist_ok=True)
+
+    active_model = get_active_model_name()
+    collection = get_collection_name(active_model)
+    log.info("embedding_model", model=active_model, collection=collection)
+    embeddings = get_embeddings(active_model)
+
+    # KI-24 — a rebuild wipes the *vector stores* and re-embeds; it does NOT reset the library
+    # registry. It used to run `delete(DBDocument)` here, which FK-cascaded away folder membership
+    # (ADR-025), tags, keywords, citations, figures and every other document-keyed row, orphaned
+    # the FK-less `document_meta` overrides against ids that no longer existed, and silently reset
+    # user columns (`is_archived`, `notes`) — all invisible afterwards, because the folders
+    # themselves survived and merely looked empty. It also cost retrieval quality: with the
+    # `figures` rows gone, `figure_units()` found none and the rebuilt index carried **no figure
+    # chunks** until the (paid, VLM) describe pass was re-run. Keeping the rows means
+    # `_existing_document_id` resolves to the same id, so every association simply stays attached.
+    # Rows the rebuild does not reproduce are swept *after* the loop instead
+    # (`_sweep_rebuild_rows`) — the same gone/stale classification `cleanup_orphans_sqlite`
+    # makes, which cannot run here
+    # because it reads its candidate set from the Chroma metadata this branch just deleted.
+    rebuild_known_hashes: set[str] = set()
+    if force_rebuild:
+        if scope is not None:
+            raise ValueError("--rebuild and --path are mutually exclusive (rebuild is global)")
+        log.warning(
+            "force_rebuild",
+            hint="clearing vector stores and re-embedding; the library registry "
+            "(folders, tags, metadata, figures) is preserved",
+        )
+        shutil.rmtree(config.CHROMA_PATH, ignore_errors=True)
+        shutil.rmtree(config.PC_CHROMA_PATH, ignore_errors=True)
+        Path(config.CHROMA_PATH).mkdir(parents=True, exist_ok=True)
+        Path(config.PC_CHROMA_PATH).mkdir(parents=True, exist_ok=True)
+        rebuild_known_hashes = get_document_row_hashes()
+
+    db = Chroma(
+        persist_directory=config.CHROMA_PATH,
+        embedding_function=embeddings,
+        collection_name=collection,
+    )
+    pc_db = Chroma(
+        persist_directory=config.PC_CHROMA_PATH,
+        embedding_function=embeddings,
+        collection_name=collection,
+    )
+
+    # Orphan cleanup is global by design — skip when scoping to a subset (--path or an explicit
+    # `files=` selection), otherwise a partial walk would falsely flag everything outside the
+    # scope as missing-on-disk.
+    if not skip_cleanup and not force_rebuild and scope is None and files is None:
+        orphans = cleanup_orphans_sqlite(db)
+        # Vectors die for both kinds; figure PNGs only for a source that is actually gone
+        # (ADR-047 — a re-extracted document keeps its figures, which are crops of the PDF).
+        cleanup_orphans_chroma(db, orphans.dead_chunk_hashes, also_clean_cache=True)
+        cleanup_orphans_chroma(pc_db, orphans.dead_chunk_hashes, also_clean_cache=False)
+        # `gone` documents are over, so their crops go. A `stale` hash keeps its crops only
+        # while a Figure row still claims them — `store.repoint_figures` moves those to the new
+        # hash. One with no rows behind it is a dead directory nothing will ever read (ADR-047).
+        cleanup_orphan_figures(orphans.gone + hashes_with_no_figure_rows(orphans.stale))
+
+    # The dedup gate is the INTERSECTION of the two stores on purpose: a hash counts as
+    # "already indexed" only when it is present in BOTH the baseline and the parent-child
+    # collection. That self-heals a partial *Chroma* write — if a document landed in one
+    # store but the other add_documents failed, the hash is missing from the intersection
+    # and is reprocessed next run, completing the write. A future refactor must keep this an
+    # intersection (not a union / single store) or a half-written document is treated as
+    # done and never repaired.
+    indexed = get_indexed_hashes(db) & get_indexed_hashes(pc_db)
+
+    # Inverse-orphan reconciliation (the SQLite-side twin of the self-heal above). The
+    # intersection gate repairs a partial *Chroma* write, but not its inverse: both vector
+    # writes landing while the final upsert_document_in_sqlite commit fails leaves the hash in
+    # BOTH stores (so in the intersection) with no Document row. Subtract those no-row hashes
+    # from the dedup set so the document is reprocessed and its row committed on THIS run —
+    # nothing is deleted (process_one_document removes+re-adds chunks idempotently). A
+    # gone/content-changed no-row hash is already swept by cleanup_orphans_* above, so only the
+    # source-present + unchanged shape reaches here; that one used to need `--rebuild`. The
+    # warning makes the drift measurable. Runs unconditionally — the gate must stay correct even
+    # under --path / --skip-cleanup. See docs/DEVLOG.md (F1).
+    inverse_orphans = indexed - get_document_row_hashes()
+    if inverse_orphans:
+        log.warning(
+            "chroma_chunks_without_document_row",
+            count=len(inverse_orphans),
+            hashes=sorted(inverse_orphans),
+            hint="reprocessing to recommit the missing Document row(s)",
+        )
+        indexed -= inverse_orphans
+
+    log.info("already_indexed", count=len(indexed))
+
+    splitter = _make_baseline_splitter()
+
+    to_process, excluded_skipped = _resolve_ingest_files(scope, files)
+    log.info(
+        "found_files",
+        count=len(to_process),
+        scope=str(_resolve_walk_root(scope)) if scope is not None else None,
+        excluded_skipped=excluded_skipped,
+    )
+
+    # ADR-025 F3 — the demo auto-assign trigger is "a Document row that did not exist before this
+    # run", captured as a set-difference around the loop. Deliberately NOT keyed on
+    # process_one_document's "added": that is also returned for *re*-ingests (the inverse-orphan
+    # repair above, a --path rerun), and re-assigning an existing document would re-fight a
+    # membership the user edited by hand (spec M1/M2, docs/specs/feature-corpus-folders-demo.md).
+    # Since KI-24 a --rebuild keeps its rows, so this set is empty there and the folder is
+    # *preserved* rather than repopulated — which retires spec M3's "one honest exception".
+    rows_before = get_document_row_hashes()
+    # `indexed` is pre-seeded with whatever both stores already hold, and
+    # `process_one_document` adds to it, so the *difference* is "what this run actually
+    # produced" — the set the KI-24 sweep needs. Never assume the rebuild's wipe left it empty:
+    # a hash still in `indexed` when the loop starts was NOT reproduced by this run.
+    indexed_before = set(indexed)
+
+    # Extraction is ~89% of ingest cost and is per-document and independent, so it is warmed in
+    # parallel here and the loop below then finds every cache fresh (see `ingest.workers`). The
+    # loop itself stays serial: embedding is GPU-bound and already batched, and concurrent writers
+    # on one Chroma collection is a corruption risk rather than a speed-up. A budget of 1 skips
+    # this entirely and the run is byte-identical to the pre-2026-08-25 behaviour.
+    if to_process:
+        from doc_assistant import app_settings
+
+        budget = workers if workers is not None else app_settings.get_ingest_budget()
+        warm_extraction_cache(to_process, resolve_workers(budget))
+
+    # ADR-047's identity fallback resolves a document by its *normalised* source path, and during
+    # a corpus-wide re-extraction every hash has moved, so that fallback is the path taken for
+    # every document rather than the exception. Read once here instead of once per document:
+    # per-document it was O(documents²), which the ~10,000-document robustness contract does not
+    # survive. Built before the loop and not refreshed inside it on purpose — each source path is
+    # processed exactly once, so a row this run writes later cannot be the answer to an earlier
+    # lookup.
+    path_index = build_path_index()
+
+    stats: dict[str, int] = {"added": 0, "skipped": 0, "error": 0}
+    # `to_process` is already materialised, so the total is known before the first document —
+    # which is what lets the app show "4 of 12" rather than an unbounded spinner. Reported
+    # *before* each document so `current` names the file actually in flight, and once more after
+    # the loop with `current=None` so a watcher sees the run reach its own total.
+    total = len(to_process)
+    for done, path in enumerate(tqdm(to_process, desc="Processing")):
+        _report(on_progress, done, total, path.name)
+        result = process_one_document(path, db, pc_db, splitter, indexed, path_index)
+        stats[result] += 1
+    _report(on_progress, total, total, None)
+
+    _assign_demo_folder(get_document_row_hashes() - rows_before)
+    _apply_imported_metadata()
+
+    if force_rebuild:
+        _sweep_rebuild_rows(rebuild_known_hashes, indexed - indexed_before)
+
+    log.info(
+        "ingest_complete",
+        added=stats["added"],
+        skipped=stats["skipped"],
+        errors=stats["error"],
+    )
+    return stats
+
+
+def _apply_imported_metadata() -> None:
+    """Give newly indexed documents the metadata their catalogue already held (ADR-049).
+
+    An import records what Zotero (or another catalogue) said about a file *before* the file has
+    been extracted, because that is when the catalogue is being read. This is the other end of
+    that: the moment a `Document` row exists, the curated title, authors, year and DOI become its
+    metadata instead of whatever the first page of the PDF suggests.
+
+    Placed beside `_assign_demo_folder` because it is the same kind of step — a post-loop pass
+    over what the run produced — and it obeys the same rule: **it must never fail an ingest.** A
+    library with nothing imported does one indexed query and returns.
+    """
+    from doc_assistant.adapters.catalogue import apply_external_metadata
+    from doc_assistant.db.session import session_scope
+
+    try:
+        with session_scope() as session:
+            applied = apply_external_metadata(session)
+    except Exception as e:  # a metadata nicety must not lose a completed ingest
+        log.warning("imported_metadata_failed", error=str(e))
+        return
+    if applied.filled:
+        log.info("imported_metadata_applied", documents=applied.filled, fields=applied.fields)
+
+
+def _sweep_rebuild_rows(known_before: set[str], reproduced: set[str]) -> None:
+    """Drop the rows a ``--rebuild`` did not reproduce (KI-24's replacement for the bulk delete).
+
+    Classifies exactly like :func:`cleanup.\\_find_orphan_hashes`, but without re-hashing anything
+    — the rebuild has just told us what every present source produces:
+
+    * **stale** — another hash now exists for the same source file, i.e. the content changed. The
+      old row is a leftover duplicate and goes (this is the case the bulk delete used to be the
+      only cure for).
+    * **gone** — the source file is no longer on disk, so nothing will ever reproduce it.
+    * **kept** — the file is still there but produced nothing *this run* (an extraction error or an
+      empty extract). Deleting those would destroy folder membership, tags and metadata overrides
+      on the strength of a transient failure, so they are protected and reported. That protection
+      is new: the bulk delete removed them unconditionally, silently.
+    """
+    missing = known_before - reproduced
+    if not missing:
+        return
+    with session_scope() as session:
+        by_hash = {
+            str(h): str(src or "")
+            for h, src in session.execute(
+                select(DBDocument.doc_hash, DBDocument.source_original)
+            ).all()
+        }
+    live_sources = {by_hash[h] for h in reproduced if h in by_hash}
+
+    stale, gone, kept = [], [], []
+    for h in sorted(missing):
+        source = by_hash.get(h, "")
+        if source and source in live_sources:
+            stale.append(h)
+        elif not source or not Path(source).exists():
+            gone.append(h)
+        else:
+            kept.append(h)
+
+    if kept:
+        log.warning(
+            "rebuild_kept_unreproduced_rows",
+            count=len(kept),
+            hint="their source file is still on disk but produced nothing this run; "
+            "the library rows (folders, tags, metadata) are left intact",
+        )
+    doomed = stale + gone
+    if not doomed:
+        return
+    log.info("rebuild_removing_rows", stale=len(stale), gone=len(gone))
+    with session_scope() as session:
+        for h in doomed:
+            row = session.execute(
+                select(DBDocument).where(DBDocument.doc_hash == h)
+            ).scalar_one_or_none()
+            if row is not None:
+                session.delete(row)
+
+
+def _assign_demo_folder(new_hashes: set[str]) -> None:
+    """Put newly-ingested demo-manifest files into the demo folder (ADR-025 F3).
+
+    Never fails an ingest that otherwise succeeded: the documents are indexed and answerable
+    either way, so a folder-assignment problem is a warning, not a failure. Imported lazily to
+    keep the locked ingest core's top-level imports intact (the ``_drop_excluded`` precedent).
+    """
+    if not new_hashes:
+        return
+    try:
+        from doc_assistant import demo_corpus
+
+        demo_corpus.assign_new_documents(new_hashes)
+    except Exception as e:  # inform, never block an ingest that otherwise succeeded
+        log.warning("demo_folder_assign_failed", error=str(e))

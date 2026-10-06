@@ -1,0 +1,708 @@
+{
+  "start_offset": 310,
+  "cases_processed": 100,
+  "max_links_per_case": 20,
+  "rows_written": 1988,
+  "summary": [
+    {
+      "case_id": "CASE-0311",
+      "case_title": "Septuagint vs Masoretic",
+      "matched_title": "Anno Mundi",
+      "page_url": "https://en.wikipedia.org/wiki/Anno_Mundi",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0312",
+      "case_title": "textual criticism Bible",
+      "matched_title": "Textual criticism",
+      "page_url": "https://en.wikipedia.org/wiki/Textual_criticism",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0313",
+      "case_title": "Isaiah 7 14 virgin prophecy",
+      "matched_title": "Isaiah 7:14",
+      "page_url": "https://en.wikipedia.org/wiki/Isaiah_7%3A14",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0314",
+      "case_title": "Immanuel prophecy",
+      "matched_title": "Immanuel",
+      "page_url": "https://en.wikipedia.org/wiki/Immanuel",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0315",
+      "case_title": "Jeremiah 29 11 context",
+      "matched_title": "Book of Jeremiah",
+      "page_url": "https://en.wikipedia.org/wiki/Book_of_Jeremiah",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0316",
+      "case_title": "2 Chronicles 7 14 prophecy",
+      "matched_title": "Old Testament messianic prophecies quoted in the New Testament",
+      "page_url": "https://en.wikipedia.org/wiki/Old_Testament_messianic_prophecies_quoted_in_the_New_Testament",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0317",
+      "case_title": "Hosea prophecy fulfilled",
+      "matched_title": "Old Testament messianic prophecies quoted in the New Testament",
+      "page_url": "https://en.wikipedia.org/wiki/Old_Testament_messianic_prophecies_quoted_in_the_New_Testament",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0318",
+      "case_title": "Amos earthquake prophecy",
+      "matched_title": "Book of Amos",
+      "page_url": "https://en.wikipedia.org/wiki/Book_of_Amos",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0319",
+      "case_title": "Habakkuk end times",
+      "matched_title": "Book of Habakkuk",
+      "page_url": "https://en.wikipedia.org/wiki/Book_of_Habakkuk",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0320",
+      "case_title": "Malachi 4 Elijah",
+      "matched_title": "Elijah",
+      "page_url": "https://en.wikipedia.org/wiki/Elijah",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0321",
+      "case_title": "Acts 2 last days",
+      "matched_title": "Acts 2",
+      "page_url": "https://en.wikipedia.org/wiki/Acts_2",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0322",
+      "case_title": "1 Thessalonians rapture",
+      "matched_title": "Rapture",
+      "page_url": "https://en.wikipedia.org/wiki/Rapture",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0323",
+      "case_title": "Bob Lazar Area 51",
+      "matched_title": "Bob Lazar",
+      "page_url": "https://en.wikipedia.org/wiki/Bob_Lazar",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0324",
+      "case_title": "Travis Walton abduction",
+      "matched_title": "Travis Walton incident",
+      "page_url": "https://en.wikipedia.org/wiki/Travis_Walton_incident",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0325",
+      "case_title": "Skinwalker Ranch",
+      "matched_title": "Skinwalker Ranch",
+      "page_url": "https://en.wikipedia.org/wiki/Skinwalker_Ranch",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0326",
+      "case_title": "Dyatlov Pass conspiracy",
+      "matched_title": "Dyatlov Pass incident",
+      "page_url": "https://en.wikipedia.org/wiki/Dyatlov_Pass_incident",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0327",
+      "case_title": "Bermuda Triangle",
+      "matched_title": "Bermuda Triangle",
+      "page_url": "https://en.wikipedia.org/wiki/Bermuda_Triangle",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0328",
+      "case_title": "Nazca Lines aliens",
+      "matched_title": "Ancient astronauts",
+      "page_url": "https://en.wikipedia.org/wiki/Ancient_astronauts",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0329",
+      "case_title": "crop circles",
+      "matched_title": "Crop circle",
+      "page_url": "https://en.wikipedia.org/wiki/Crop_circle",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0330",
+      "case_title": "men in black real",
+      "matched_title": "We Real Cool: Black Men and Masculinity",
+      "page_url": "https://en.wikipedia.org/wiki/We_Real_Cool%3A_Black_Men_and_Masculinity",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0331",
+      "case_title": "Roswell autopsy film",
+      "matched_title": "Alien Autopsy (1995 film)",
+      "page_url": "https://en.wikipedia.org/wiki/Alien_Autopsy_%281995_film%29",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0332",
+      "case_title": "Betty Hill star map",
+      "matched_title": "Barney and Betty Hill incident",
+      "page_url": "https://en.wikipedia.org/wiki/Barney_and_Betty_Hill_incident",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0333",
+      "case_title": "Kecksburg UFO incident",
+      "matched_title": "Kecksburg UFO incident",
+      "page_url": "https://en.wikipedia.org/wiki/Kecksburg_UFO_incident",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0334",
+      "case_title": "Shag Harbour UFO",
+      "matched_title": "Shag Harbour UFO incident",
+      "page_url": "https://en.wikipedia.org/wiki/Shag_Harbour_UFO_incident",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0335",
+      "case_title": "Westall UFO 1966",
+      "matched_title": "Westall UFO",
+      "page_url": "https://en.wikipedia.org/wiki/Westall_UFO",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0336",
+      "case_title": "Zimbabwe school UFO 1994",
+      "matched_title": "Ariel School UFO incident",
+      "page_url": "https://en.wikipedia.org/wiki/Ariel_School_UFO_incident",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0337",
+      "case_title": "Varginha UFO Brazil",
+      "matched_title": "Varginha UFO incident",
+      "page_url": "https://en.wikipedia.org/wiki/Varginha_UFO_incident",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0338",
+      "case_title": "Belgian UFO wave",
+      "matched_title": "Belgian UFO wave",
+      "page_url": "https://en.wikipedia.org/wiki/Belgian_UFO_wave",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0339",
+      "case_title": "Japan Airlines Flight 1628",
+      "matched_title": "Japan Air Lines Cargo Flight 1628",
+      "page_url": "https://en.wikipedia.org/wiki/Japan_Air_Lines_Cargo_Flight_1628",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0340",
+      "case_title": "Colares UFO Brazil",
+      "matched_title": "UFO sightings in Brazil",
+      "page_url": "https://en.wikipedia.org/wiki/UFO_sightings_in_Brazil",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0341",
+      "case_title": "Valensole UFO encounter",
+      "matched_title": "UFO sightings in France",
+      "page_url": "https://en.wikipedia.org/wiki/UFO_sightings_in_France",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0342",
+      "case_title": "Pascagoula abduction",
+      "matched_title": "Pascagoula incident",
+      "page_url": "https://en.wikipedia.org/wiki/Pascagoula_incident",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0343",
+      "case_title": "social media censorship",
+      "matched_title": "Social media",
+      "page_url": "https://en.wikipedia.org/wiki/Social_media",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0344",
+      "case_title": "Section 230 conspiracy",
+      "matched_title": "Conspiracy theory",
+      "page_url": "https://en.wikipedia.org/wiki/Conspiracy_theory",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0345",
+      "case_title": "Twitter Files",
+      "matched_title": "Twitter Files",
+      "page_url": "https://en.wikipedia.org/wiki/Twitter_Files",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0346",
+      "case_title": "Facebook Cambridge Analytica",
+      "matched_title": "Facebook\u2013Cambridge Analytica data scandal",
+      "page_url": "https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0347",
+      "case_title": "Google censorship",
+      "matched_title": "Censorship by Google",
+      "page_url": "https://en.wikipedia.org/wiki/Censorship_by_Google",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0348",
+      "case_title": "YouTube algorithm manipulation",
+      "matched_title": "History of YouTube",
+      "page_url": "https://en.wikipedia.org/wiki/History_of_YouTube",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0349",
+      "case_title": "Palantir surveillance",
+      "matched_title": "Palantir",
+      "page_url": "https://en.wikipedia.org/wiki/Palantir",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0350",
+      "case_title": "Clearview AI facial recognition",
+      "matched_title": "Clearview AI",
+      "page_url": "https://en.wikipedia.org/wiki/Clearview_AI",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0351",
+      "case_title": "Ring doorbell police access",
+      "matched_title": "Ring (company)",
+      "page_url": "https://en.wikipedia.org/wiki/Ring_%28company%29",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0352",
+      "case_title": "Pegasus spyware",
+      "matched_title": "Pegasus (spyware)",
+      "page_url": "https://en.wikipedia.org/wiki/Pegasus_%28spyware%29",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0353",
+      "case_title": "China TikTok spying",
+      "matched_title": "TikTok",
+      "page_url": "https://en.wikipedia.org/wiki/TikTok",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0354",
+      "case_title": "Huawei backdoor",
+      "matched_title": "Huawei",
+      "page_url": "https://en.wikipedia.org/wiki/Huawei",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0355",
+      "case_title": "smart TV spying",
+      "matched_title": "Smart TV",
+      "page_url": "https://en.wikipedia.org/wiki/Smart_TV",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0356",
+      "case_title": "Alexa always listening",
+      "matched_title": "Amazon Alexa",
+      "page_url": "https://en.wikipedia.org/wiki/Amazon_Alexa",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0357",
+      "case_title": "Siri recording conversations",
+      "matched_title": "Siri",
+      "page_url": "https://en.wikipedia.org/wiki/Siri",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0358",
+      "case_title": "location tracking conspiracy",
+      "matched_title": "List of conspiracy theories",
+      "page_url": "https://en.wikipedia.org/wiki/List_of_conspiracy_theories",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0359",
+      "case_title": "metadata surveillance",
+      "matched_title": "Mass surveillance in the United States",
+      "page_url": "https://en.wikipedia.org/wiki/Mass_surveillance_in_the_United_States",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0360",
+      "case_title": "predictive policing",
+      "matched_title": "Predictive policing",
+      "page_url": "https://en.wikipedia.org/wiki/Predictive_policing",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0361",
+      "case_title": "AI deepfake elections",
+      "matched_title": "Deepfake",
+      "page_url": "https://en.wikipedia.org/wiki/Deepfake",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0362",
+      "case_title": "synthetic media manipulation",
+      "matched_title": "Synthetic media",
+      "page_url": "https://en.wikipedia.org/wiki/Synthetic_media",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0363",
+      "case_title": "Lusitania conspiracy",
+      "matched_title": "Sinking of the RMS Lusitania",
+      "page_url": "https://en.wikipedia.org/wiki/Sinking_of_the_RMS_Lusitania",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0364",
+      "case_title": "Pearl Harbor foreknowledge",
+      "matched_title": "Pearl Harbor advance-knowledge conspiracy theory",
+      "page_url": "https://en.wikipedia.org/wiki/Pearl_Harbor_advance-knowledge_conspiracy_theory",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0365",
+      "case_title": "Reichstag fire false flag",
+      "matched_title": "Reichstag fire",
+      "page_url": "https://en.wikipedia.org/wiki/Reichstag_fire",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0366",
+      "case_title": "Lincoln assassination conspiracy",
+      "matched_title": "John Wilkes Booth",
+      "page_url": "https://en.wikipedia.org/wiki/John_Wilkes_Booth",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0367",
+      "case_title": "Archduke Ferdinand conspiracy",
+      "matched_title": "Maximilian I of Mexico",
+      "page_url": "https://en.wikipedia.org/wiki/Maximilian_I_of_Mexico",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0368",
+      "case_title": "Nero burned Rome",
+      "matched_title": "Nero",
+      "page_url": "https://en.wikipedia.org/wiki/Nero",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0369",
+      "case_title": "Knights Templar treasure",
+      "matched_title": "The Lost Treasure of the Knights Templar",
+      "page_url": "https://en.wikipedia.org/wiki/The_Lost_Treasure_of_the_Knights_Templar",
+      "links_added": 8
+    },
+    {
+      "case_id": "CASE-0370",
+      "case_title": "Holy Grail conspiracy",
+      "matched_title": "The Holy Blood and the Holy Grail",
+      "page_url": "https://en.wikipedia.org/wiki/The_Holy_Blood_and_the_Holy_Grail",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0371",
+      "case_title": "Ark of the Covenant location",
+      "matched_title": "Ark of the Covenant",
+      "page_url": "https://en.wikipedia.org/wiki/Ark_of_the_Covenant",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0372",
+      "case_title": "Spear of Destiny",
+      "matched_title": "Holy Lance",
+      "page_url": "https://en.wikipedia.org/wiki/Holy_Lance",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0373",
+      "case_title": "Shroud of Turin conspiracy",
+      "matched_title": "Turin",
+      "page_url": "https://en.wikipedia.org/wiki/Turin",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0374",
+      "case_title": "Voynich Manuscript",
+      "matched_title": "Voynich manuscript",
+      "page_url": "https://en.wikipedia.org/wiki/Voynich_manuscript",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0375",
+      "case_title": "Oak Island mystery",
+      "matched_title": "Oak Island mystery",
+      "page_url": "https://en.wikipedia.org/wiki/Oak_Island_mystery",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0376",
+      "case_title": "Roanoke colony conspiracy",
+      "matched_title": "Roanoke Colony",
+      "page_url": "https://en.wikipedia.org/wiki/Roanoke_Colony",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0377",
+      "case_title": "Sphinx water erosion",
+      "matched_title": "Sphinx water erosion hypothesis",
+      "page_url": "https://en.wikipedia.org/wiki/Sphinx_water_erosion_hypothesis",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0378",
+      "case_title": "Gobekli Tepe civilization reset",
+      "matched_title": "Technology",
+      "page_url": "https://en.wikipedia.org/wiki/Technology",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0379",
+      "case_title": "Younger Dryas impact theory",
+      "matched_title": "Younger Dryas impact hypothesis",
+      "page_url": "https://en.wikipedia.org/wiki/Younger_Dryas_impact_hypothesis",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0380",
+      "case_title": "lost civilization evidence",
+      "matched_title": "Lost City of Z",
+      "page_url": "https://en.wikipedia.org/wiki/Lost_City_of_Z",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0381",
+      "case_title": "library of Alexandria conspiracy",
+      "matched_title": "Alexandria Ocasio-Cortez",
+      "page_url": "https://en.wikipedia.org/wiki/Alexandria_Ocasio-Cortez",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0382",
+      "case_title": "Smithsonian giant cover up",
+      "matched_title": "Giant human skeletons",
+      "page_url": "https://en.wikipedia.org/wiki/Giant_human_skeletons",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0383",
+      "case_title": "Knights of Malta",
+      "matched_title": "Sovereign Military Order of Malta",
+      "page_url": "https://en.wikipedia.org/wiki/Sovereign_Military_Order_of_Malta",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0384",
+      "case_title": "Opus Dei conspiracy",
+      "matched_title": "Opus Dei",
+      "page_url": "https://en.wikipedia.org/wiki/Opus_Dei",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0385",
+      "case_title": "Priory of Sion",
+      "matched_title": "Priory of Sion",
+      "page_url": "https://en.wikipedia.org/wiki/Priory_of_Sion",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0386",
+      "case_title": "Rosicrucians",
+      "matched_title": "Rosicrucianism",
+      "page_url": "https://en.wikipedia.org/wiki/Rosicrucianism",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0387",
+      "case_title": "Order of the Eastern Star",
+      "matched_title": "Order of the Eastern Star",
+      "page_url": "https://en.wikipedia.org/wiki/Order_of_the_Eastern_Star",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0388",
+      "case_title": "Shriners conspiracy",
+      "matched_title": "Shriners",
+      "page_url": "https://en.wikipedia.org/wiki/Shriners",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0389",
+      "case_title": "Thule Society",
+      "matched_title": "Thule Society",
+      "page_url": "https://en.wikipedia.org/wiki/Thule_Society",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0390",
+      "case_title": "Vril Society",
+      "matched_title": "Vril Society",
+      "page_url": "https://en.wikipedia.org/wiki/Vril_Society",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0391",
+      "case_title": "Golden Dawn occult",
+      "matched_title": "Hermetic Order of the Golden Dawn",
+      "page_url": "https://en.wikipedia.org/wiki/Hermetic_Order_of_the_Golden_Dawn",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0392",
+      "case_title": "Ordo Templi Orientis",
+      "matched_title": "Ordo Templi Orientis",
+      "page_url": "https://en.wikipedia.org/wiki/Ordo_Templi_Orientis",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0393",
+      "case_title": "Aleister Crowley conspiracy",
+      "matched_title": "Michael A. Aquino",
+      "page_url": "https://en.wikipedia.org/wiki/Michael_A._Aquino",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0394",
+      "case_title": "Jack Parsons occult",
+      "matched_title": "Jack Parsons",
+      "page_url": "https://en.wikipedia.org/wiki/Jack_Parsons",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0395",
+      "case_title": "Theosophical Society conspiracy",
+      "matched_title": "Theosophy",
+      "page_url": "https://en.wikipedia.org/wiki/Theosophy",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0396",
+      "case_title": "Lucis Trust UN conspiracy",
+      "matched_title": "Hawaiian sovereignty movement",
+      "page_url": "https://en.wikipedia.org/wiki/Hawaiian_sovereignty_movement",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0397",
+      "case_title": "Fabian Society conspiracy",
+      "matched_title": "Modern flat Earth beliefs",
+      "page_url": "https://en.wikipedia.org/wiki/Modern_flat_Earth_beliefs",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0398",
+      "case_title": "Round Table Groups",
+      "matched_title": "Round Table movement",
+      "page_url": "https://en.wikipedia.org/wiki/Round_Table_movement",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0399",
+      "case_title": "Cecil Rhodes conspiracy",
+      "matched_title": "New World Order conspiracy theory",
+      "page_url": "https://en.wikipedia.org/wiki/New_World_Order_conspiracy_theory",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0400",
+      "case_title": "Committee of 300",
+      "matched_title": "Committee of 300",
+      "page_url": "https://en.wikipedia.org/wiki/Committee_of_300",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0401",
+      "case_title": "13 bloodlines",
+      "matched_title": "Final Destination Bloodlines",
+      "page_url": "https://en.wikipedia.org/wiki/Final_Destination_Bloodlines",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0402",
+      "case_title": "black nobility",
+      "matched_title": "Black nobility",
+      "page_url": "https://en.wikipedia.org/wiki/Black_nobility",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0403",
+      "case_title": "climate change hoax",
+      "matched_title": "Climate change denial",
+      "page_url": "https://en.wikipedia.org/wiki/Climate_change_denial",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0404",
+      "case_title": "Climategate emails",
+      "matched_title": "Climatic Research Unit email controversy",
+      "page_url": "https://en.wikipedia.org/wiki/Climatic_Research_Unit_email_controversy",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0405",
+      "case_title": "oil company climate deception",
+      "matched_title": "ExxonMobil",
+      "page_url": "https://en.wikipedia.org/wiki/ExxonMobil",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0406",
+      "case_title": "IPCC conspiracy",
+      "matched_title": "Conspiracy theory",
+      "page_url": "https://en.wikipedia.org/wiki/Conspiracy_theory",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0407",
+      "case_title": "carbon tax conspiracy",
+      "matched_title": "Carbon tax",
+      "page_url": "https://en.wikipedia.org/wiki/Carbon_tax",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0408",
+      "case_title": "green new deal conspiracy",
+      "matched_title": "New Deal",
+      "page_url": "https://en.wikipedia.org/wiki/New_Deal",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0409",
+      "case_title": "electric vehicle conspiracy",
+      "matched_title": "Plug-in hybrid",
+      "page_url": "https://en.wikipedia.org/wiki/Plug-in_hybrid",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0410",
+      "case_title": "nuclear energy suppressed",
+      "matched_title": "Free energy suppression conspiracy theory",
+      "page_url": "https://en.wikipedia.org/wiki/Free_energy_suppression_conspiracy_theory",
+      "links_added": 20
+    }
+  ]
+}

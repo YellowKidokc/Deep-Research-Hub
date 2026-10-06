@@ -1,0 +1,322 @@
+syntax="proto3";
+package nu.marginalia.api.searchquery;
+
+option java_package="nu.marginalia.api.searchquery";
+option java_multiple_files=true;
+
+service QueryApi {
+  rpc query(RpcQsQuery) returns (RpcQsResponse) {}
+  rpc unrankedQuery(RpcQsUnrankedQuery) returns (RpcQsUnrankedResponse) {}
+  rpc invalidateFilterCache(RpcQsInvalidateFilter) returns (Empty) {}
+}
+
+service IndexApi {
+  rpc query(RpcIndexQuery) returns (RpcIndexQueryResponse) {}
+  rpc unrankedQuery(RpcIndexUnrankedQuery) returns (RpcIndexQueryResponse) {}
+}
+
+service IndexUrlApi {
+  rpc getUrl(RpcDocumentIdRequest) returns (RpcIndexUrlResponse) {}
+}
+
+message RpcDocumentIdRequest {
+  int64 docId = 1;
+}
+message RpcIndexUrlResponse {
+  string url = 1;
+}
+
+message Empty {}
+
+message RpcIndexQueryResponse {
+  repeated RpcDecoratedResultItem results = 2;
+
+  int64 lastResultId = 3;
+  bool finished = 4;
+}
+
+
+message RpcQsInvalidateFilter {
+  string userId = 1;
+  string filterId = 2;
+}
+
+
+message RpcQsQuery {
+  string humanQuery = 1;
+  RpcQsFilterIdentifier filterIdentifier = 2;
+  RpcQsAdHocFilter filterSpec = 3;
+  string langIsoCode = 4;
+  NSFW_FILTER_TIER nsfwFilterTier = 5;
+  RpcQueryLimits queryLimits = 6;
+  RpcQsQueryPagination pagination = 7;
+}
+
+
+message RpcQsUnrankedQuery {
+  repeated string termsRequired = 1;
+  repeated string termsExcluded = 2;
+
+  repeated int32 requiredDomainIds = 10;     // (optional) A list of domain IDs to consider
+  repeated int32 excludedDomainIds = 11;
+
+  RpcQueryLimits queryLimits = 14;
+
+  string encodedCursor = 15;
+
+  string langIsoCode = 20;
+}
+
+message RpcQsFilterIdentifier {
+  string userId = 1;
+  string identifier = 2;
+}
+
+message RpcQsAdHocFilter {
+  int64 hash = 1;
+
+  repeated int32 domainsInclude = 2;
+  repeated int32 domainsExclude = 3;
+  repeated int32 domainsPromote = 4;
+  repeated float domainsPromoteAmounts = 5;
+  string searchSetIdentifier = 6;
+  repeated string termsRequire = 7;
+  repeated string termsExclude = 8;
+  repeated string termsPromote = 9;
+  repeated float termsPromoteAmounts = 10;
+
+  RpcSpecLimit quality = 11;
+  RpcSpecLimit year = 12;
+  RpcSpecLimit size = 13;
+  RpcSpecLimit rank = 14;
+
+  RpcTemporalBias bias = 15;
+  string queryStrategy = 16;
+}
+
+/* Query service query response */
+message RpcQsResponse {
+  RpcIndexQuery specs = 1;
+  repeated RpcDecoratedResultItem results = 2;
+  repeated string searchTermsHuman = 3;
+  repeated string problems = 4;
+  string domain = 5;
+
+  RpcQsResultPagination pagination = 6;
+}
+
+message RpcQsUnrankedResponse {
+  repeated RpcDecoratedResultItem results = 1;
+  string encodedCursor = 15;
+}
+
+message RpcQsQueryPagination {
+  int32 page = 1;
+  int32 pageSize = 2;
+}
+
+message RpcQsResultPagination {
+  int32 page = 1;
+  int32 pageSize = 2;
+  int32 totalResults = 3;
+}
+
+message RpcTemporalBias {
+  enum Bias {
+    NONE = 0;
+    RECENT = 1;
+    OLD = 2;
+  }
+  Bias bias = 1;
+}
+
+message RpcIndexUnrankedQuery {
+  repeated string termsRequired = 1;
+  repeated string termsExcluded = 2;
+
+  repeated int32 requiredDomainIds = 10;     // (optional) A list of domain IDs to consider
+  repeated int32 excludedDomainIds = 11;
+
+  RpcQueryLimits queryLimits = 14;
+  int64 afterId = 15;
+
+  string langIsoCode = 20;
+}
+
+/* Index service query request */
+message RpcIndexQuery {
+  RpcQueryTerms terms = 1;
+
+  repeated int32 requiredDomainIds = 2;     // (optional) A list of domain IDs to consider
+  string searchSetIdentifier = 3; // (optional) A named set of domains to consider
+  string humanQuery = 4;          // The search query as the user entered it
+  RpcSpecLimit quality = 5;
+  RpcSpecLimit year = 6;
+  RpcSpecLimit size = 7;
+  RpcSpecLimit rank = 8;
+  RpcQueryLimits queryLimits = 10;
+  string queryStrategy = 11;      // Named query configuration
+  RpcResultRankingParameters parameters = 12;
+
+  NSFW_FILTER_TIER nsfwFilterTier = 13;
+  string langIsoCode = 14;
+  repeated int32 excludedDomainIds = 15;
+  repeated int32 priorityDomainIds = 16;
+  repeated float priorityDomainIdsWeights = 17;
+}
+
+enum NSFW_FILTER_TIER {
+  NONE = 0;
+  DANGER = 1;
+  PORN_AND_GAMBLING = 2;
+};
+
+/* A tagged union encoding some limit on a field */
+message RpcSpecLimit {
+  int32 value = 1;
+  TYPE type = 2;
+
+  enum TYPE {
+    NONE = 0;
+    EQUALS = 1;
+    LESS_THAN = 2;
+    GREATER_THAN = 3;
+  };
+}
+
+/** A search result item decorated with title and description metadata from the link database */
+message RpcDecoratedResultItem {
+  RpcRawResultItem rawItem = 1;
+  string url = 2;
+  string title = 3;
+  string description = 4;
+  double urlQuality = 5;
+  string format = 6;
+  int32 features = 7; // bitmask encoding features of the document
+  int32 pubYear = 8; // possibly a guesstimate, epoch is 1995
+  int64 dataHash = 9;
+  int32 wordsTotal = 10;
+  double rankingScore = 11; // The ranking score of this search result item, lower is better
+  int64 bestPositions = 12;
+  RpcResultRankingDetails rankingDetails = 13; // optional, only present if exportDebugData is true in RpcResultRankingParameters
+  int32 resultsFromDomain = 14;
+  int32 pubDate = 15; // day-precision date as days since 1989-03-12, 0 = unknown
+}
+
+/** A raw index-service view of a search result */
+message RpcRawResultItem {
+  int64 combinedId = 1; // raw ID with bit-encoded ranking information still present
+  int64 encodedDocMetadata = 3; // bit encoded document metadata
+  int32 htmlFeatures = 4; // bitmask encoding features of the document
+  repeated RpcResultKeywordScore keywordScores = 5;
+  bool hasPriorityTerms = 6; // true if this word is important to the document
+  MATCH_TYPE matchType = 7; // the type of match this result represents
+
+  int32 node = 8;
+
+  enum MATCH_TYPE {
+    FLAGS = 0;
+    PROXIMITY = 1;
+    PHRASE = 2;
+  };
+}
+
+/* Information about how well a keyword matches a query */
+message RpcResultKeywordScore {
+  string keyword = 1; // the keyword
+  int32 flags = 2;
+  int32 positions = 3;
+}
+
+/* Query execution parameters */
+message RpcQueryLimits {
+  int32 resultsByDomain = 1;
+  int32 resultsTotal = 2;
+  int32 timeoutMs = 3;
+}
+
+/** Parameters for the result ranking function */
+message RpcResultRankingParameters {
+  double bm25K = 1; // BM25 parameter
+  double bm25B = 2; // BM25 parameter
+
+  int32 shortDocumentThreshold = 5;
+  double shortDocumentPenalty = 6;
+  double domainRankBonus = 7;
+  double qualityPenalty = 8;
+  int32 shortSentenceThreshold = 9;
+  double shortSentencePenalty = 10;
+  double bm25Weight = 11;
+  // -- 12 unused --
+  double tcfFirstPositionWeight = 13;
+  double tcfVerbatimWeight = 14;
+  double tcfProximityWeight = 15;
+  RpcTemporalBias temporalBias = 16;
+  double temporalBiasWeight = 17;
+
+  bool exportDebugData = 18;
+  bool disablePenalties = 19;
+
+}
+
+message RpcResultRankingDetails {
+  RpcResultDocumentRankingOutputs documentOutputs = 1;
+  RpcResultTermRankingOutputs termOutputs = 2;
+}
+
+message RpcResultRankingInputs {
+  int32 rank = 1;
+  int32 asl = 2;
+  int32 quality = 3;
+  int32 size = 4;
+  int32 topology = 5;
+  int32 year = 6;
+  repeated string flags = 7;
+}
+
+/** Summary of the output of the ranking function */
+message RpcResultDocumentRankingOutputs {
+  repeated string factor = 1;
+  repeated string value = 2;
+}
+
+message RpcResultTermRankingOutputs {
+  repeated int64 termId = 1;
+  repeated string term = 2;
+  repeated string factor = 3;
+  repeated string value = 4;
+}
+
+/* Defines a single subquery */
+message RpcQueryTerms {
+  repeated string termsQuery = 1;     // These terms must be present and are ranked
+  repeated string termsExclude = 2;   // These terms must be absent
+  repeated string termsRequire = 3;   // These terms must be present, but do not affect ranking
+  repeated string termsPriority = 4;  // These terms are not mandatory, but affect ranking positively if they are present
+  repeated RpcPhrases phrases = 5;    // Groups of terms that must exist in proximity of each other
+  reserved 6;                         // Formerly: Compiled query in infix notation
+  repeated float termsPriorityWeight = 7;
+  RpcCompiledQuery compiledQuery = 8; // The ranked terms and the alternative ways of satisfying them
+}
+
+message RpcCompiledQuery {
+  repeated string terms = 1;         // String representation of terms
+  repeated RpcTermPath paths = 2;    // list of indices into 'terms'
+  repeated int32 variantClass = 3;   // Index of canonical 'terms' for a variant
+}
+
+message RpcTermPath {
+  repeated int32 term = 1;
+}
+
+/* Defines a group of search terms that must exist in the the specified order within the document */
+message RpcPhrases {
+  repeated string terms = 1;
+  TYPE type = 2;
+
+  enum TYPE {
+    OPTIONAL = 0;
+    MANDATORY = 1;
+    FULL = 2;
+  };
+}

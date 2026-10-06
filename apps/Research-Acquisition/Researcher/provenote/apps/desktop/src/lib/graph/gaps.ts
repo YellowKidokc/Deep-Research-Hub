@@ -1,0 +1,206 @@
+// Gap taxonomy + presentation ordering (ADR-004 / RG-014). Pure module — no Svelte, no imports of
+// sibling value modules — so it is unit-testable under `npm test` (node:test) and shared by both
+// ConceptGraph.svelte (the node-badge lens) and GapList.svelte (the E5 triage list).
+//
+// Why the ranking/hidden-by-default lives here, not on the server: it is a *presentation* decision
+// (RG-014). The strong signal is `single_source` — the corroboration thesis — so it leads;
+// `under_connected` measures graph degree, is dominated by vocabulary sparsity at this corpus size,
+// and stays out of the lens until the user opts in. `tone` picks the reserved semantic colour
+// (single_source is the danger-toned thesis; softer kinds warn). Stance is an EDGE property (Node B,
+// deferred), so a node gap badge and an edge stance never collide (B9).
+import type { ConceptGraphNode, Gap, GapKind } from '../core/types'
+
+export interface GapMeta {
+  rank: number
+  tone: 'danger' | 'warn'
+  label: string
+  blurb: string
+  hiddenByDefault?: boolean
+}
+
+export const GAP_META: Record<GapKind, GapMeta> = {
+  single_source: {
+    rank: 0,
+    tone: 'danger',
+    label: 'Single source',
+    blurb: 'Appears in only one document — no independent corroboration.',
+  },
+  unsourced_claim: {
+    rank: 1,
+    tone: 'warn',
+    label: 'Uncited in answers',
+    blurb:
+      'Sentences in your chat answers that mention this concept and cite no source. Depends on the model that answered; the count is approximate.',
+  },
+  citation_missing: {
+    rank: 2,
+    tone: 'warn',
+    label: 'Citation missing',
+    blurb: 'A citation could not be resolved to a source.',
+  },
+  thin_bridge: {
+    rank: 3,
+    tone: 'warn',
+    label: 'Thin bridge',
+    blurb: 'Holds a group of concepts to the rest of the graph by a single edge.',
+  },
+  isolated: {
+    rank: 3,
+    tone: 'warn',
+    label: 'Isolated',
+    blurb: 'Has no edges to the rest of the graph.',
+  },
+  thin_area: {
+    rank: 4,
+    tone: 'warn',
+    label: 'Thin area',
+    blurb: 'Sits in a sparsely covered region of the corpus.',
+  },
+  suggested_link: {
+    rank: 5,
+    tone: 'warn',
+    label: 'Suggested link',
+    blurb: 'A plausible missing connection.',
+  },
+  suggested_concept: {
+    rank: 5,
+    tone: 'warn',
+    label: 'Suggested concept',
+    blurb: 'A concept the corpus implies but does not name.',
+  },
+  under_connected: {
+    rank: 6,
+    tone: 'warn',
+    label: 'Under-connected',
+    blurb:
+      'Low graph degree — noisy at a small vocabulary; grows more meaningful as the graph fills in.',
+    hiddenByDefault: true,
+  },
+}
+
+export function gapRank(kind: GapKind): number {
+  return GAP_META[kind]?.rank ?? 9
+}
+
+/** True when a kind is kept out of the lens until the user opts in (`under_connected`). */
+export function isHiddenByDefault(kind: GapKind): boolean {
+  return GAP_META[kind]?.hiddenByDefault === true
+}
+
+/** Whether a gap of `kind` is visible under the current lens (the `under_connected` opt-in). */
+export function gapVisible(kind: GapKind, showUnderConnected: boolean): boolean {
+  return showUnderConnected || !isHiddenByDefault(kind)
+}
+
+/**
+ * Order gaps for display (RG-014): strong list-shaped kinds first (single_source, then
+ * unsourced_claim, …), ties broken by concept label. Pure and total — an unknown kind sorts last.
+ * `keyOf` extracts the sort inputs so this works for both `Gap` and `GapListItem`.
+ */
+export function orderGaps<T>(
+  items: readonly T[],
+  keyOf: (item: T) => { kind: GapKind; label: string },
+): T[] {
+  return [...items].sort((a, b) => {
+    const ka = keyOf(a)
+    const kb = keyOf(b)
+    const r = gapRank(ka.kind) - gapRank(kb.kind)
+    return r !== 0 ? r : ka.label.localeCompare(kb.label)
+  })
+}
+
+/**
+ * Effective gap lens for one concept: dismissed gaps are triaged-away and drop out (`status` is the
+ * server-resolved effective value, so this stays in sync with the GapList; promoted gaps stay — they
+ * are being acted on, not resolved), `under_connected` is opt-in, and the rest sort strongest-first.
+ */
+export function visibleConceptGaps(gaps: readonly Gap[], showUnderConnected: boolean): Gap[] {
+  return gaps
+    .filter((g) => g.status !== 'dismissed')
+    .filter((g) => gapVisible(g.kind, showUnderConnected))
+    .sort((a, b) => gapRank(a.kind) - gapRank(b.kind))
+}
+
+/**
+ * Filter a gap list by a free-text query over the concept label **and the gap kind's label**
+ * (`ui-checklist` §2 — a filter box in the Gaps tab).
+ *
+ * Matching the kind as well as the concept is the point: the list's own vocabulary is what a user
+ * types when they want one class of problem. "single" should find every Single-source row, not
+ * only a concept that happens to be called that. Empty/whitespace query returns everything.
+ */
+export function filterGapRows<T>(
+  items: readonly T[],
+  keyOf: (item: T) => { kind: GapKind; label: string },
+  query: string,
+): T[] {
+  const q = query.trim().toLowerCase()
+  if (q === '') return [...items]
+  return items.filter((it) => {
+    const k = keyOf(it)
+    const kindLabel = GAP_META[k.kind]?.label ?? k.kind
+    return k.label.toLowerCase().includes(q) || kindLabel.toLowerCase().includes(q)
+  })
+}
+
+export interface ConceptIndexRow {
+  node: ConceptGraphNode
+  gaps: Gap[]
+  rank: number
+}
+
+/**
+ * The concept index (rail): filtered by a case-insensitive label query and the gap lenses, then
+ * ordered by the strong signal — concepts with a visible gap first (best/lowest rank first), the
+ * rest alphabetically. Pure; does not mutate inputs.
+ */
+export function conceptIndexRows(
+  nodes: readonly ConceptGraphNode[],
+  gapsByConcept: ReadonlyMap<string, readonly Gap[]>,
+  query: string,
+  gapsOnly: boolean,
+  showUnderConnected: boolean,
+): ConceptIndexRow[] {
+  const q = query.trim().toLowerCase()
+  const rows = nodes
+    .filter((n) => q === '' || n.label.toLowerCase().includes(q))
+    .map((n) => {
+      const gaps = visibleConceptGaps(gapsByConcept.get(n.id) ?? [], showUnderConnected)
+      return { node: n, gaps, rank: gaps.length ? gapRank(gaps[0].kind) : Infinity }
+    })
+    .filter((r) => !gapsOnly || r.gaps.length > 0)
+  rows.sort((a, b) => {
+    if (a.rank !== b.rank) return a.rank - b.rank
+    return a.node.label.localeCompare(b.node.label)
+  })
+  return rows
+}
+
+/**
+ * How much of the library the graph covers, and the rule that decides it.
+ *
+ * **Deliberately not "N documents are missing from the graph".** A document appears once it
+ * mentions a concept in the graph vocabulary; on the reference library that is 30 of 98, and the
+ * other 68 are not waiting for a rebuild — they mention none of the 13 included concepts (of 593
+ * curated). A pending-looking count would send the user to a button that changes nothing, so the
+ * sentence states coverage and names the lever that does move it: the vocabulary (ADR-018).
+ *
+ * Every number in the sentence describes the same artifact — the graph as built (ROADMAP 54). The
+ * concept count is the skeleton's, not the vocabulary's: after a concept is added and before the
+ * rebuild, the covered documents were produced by the old set, and the stale notice says so.
+ *
+ * Returns `''` when there is nothing worth saying — an empty library, or a graph that already
+ * covers all of it.
+ */
+export function graphCoverage(s: {
+  n_documents_in_skeleton: number
+  n_documents_in_library: number
+  n_concepts_in_skeleton: number
+}): string {
+  const { n_documents_in_skeleton: covered, n_documents_in_library: total } = s
+  if (total === 0 || covered >= total) return ''
+  const concepts = s.n_concepts_in_skeleton
+  const which =
+    concepts === 1 ? 'the one concept on your graph' : `one of the ${concepts} concepts on your graph`
+  return `Covers ${covered} of your ${total} documents — a document appears once it mentions ${which}.`
+}

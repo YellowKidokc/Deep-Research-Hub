@@ -1,0 +1,112 @@
+{
+  "name": "master_equation_a1",
+  "parsed": {
+    "paper": "The Evidential THRESHOLD for Resurrection Belief - Gary Habermas",
+    "core_relation": {
+      "sentence": "A historical fact qualifies as a 'minimal fact' for resurrection belief when it is both highly evidenced (by multiple, early, eyewitness-attested data) AND held by a vast majority of qualified scholars; the evidential criterion is the dominant and sufficient condition, with scholarly consensus as a secondary confirmation.",
+      "quote": "So, if I have fewer names backing it up, I'll take that in instances where they strongly support multiple eyewitness early etc. [S095] ... That's by far the more important of the two. Way more. [S159/S160]"
+    },
+    "product_test": {
+      "answer": "threshold",
+      "quote": "if a fact is 51% evidence or higher that's good enough for me to believe it [S003] ... I do not have a certain threshold that they have to have to meet. [S020] ... criterion one on its own, that it being highly evidenced, that alone is sufficient for a rational belief. [S159]",
+      "reason": "Habermas explicitly treats evidence as a graded threshold rather than a multiplicative product. Criterion one alone suffices for rational belief (S159); criterion two (scholarly consensus) is secondary and not strictly required. He refuses to give a numeric cutoff (S020), indicating a threshold/graduated model rather than zero-collapse multiplication."
+    },
+    "slots": [
+      {
+        "slot": "G",
+        "plays_role": "External negentropy influx — the incoming stream of historical data and non-evangelical scholarly testimony that sustains the argument from outside the apologist's own community.",
+        "quote": "I think if I have non-evangelical saying those things, that that interests me [S081]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "M",
+        "plays_role": "Alignment — the criterion of scholarly consensus aligns the individual's belief with the reference community of qualified scholars.",
+        "quote": "the vast majority of qualified scholars concur with it being a fact [S003]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "E",
+        "plays_role": "Signal fidelity — the reliability of the New Testament text and the transmission of testimony through ancient sources; whether the historical signal survives.",
+        "quote": "the New Testament text is reliable [S021]",
+        "fit": "direct"
+      },
+      {
+        "slot": "S_eff",
+        "plays_role": "Effective entropy — the noise of scholarly disagreement, minority dissent, and the 'low blows' of partisan dismissal that lower the coherence of the argument.",
+        "quote": "critics are going to say, 'I despise 16, 18, and probably 20.' [S036]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "T",
+        "plays_role": "Temporal integration — the earliness of the creedal testimony (within months of the crucifixion) accumulates evidential weight over time.",
+        "quote": "if it's a spring event, and you say months, it's very possible you have that proclamation in more than one place within within the remaining eight to nine months of the year. [S074]",
+        "fit": "direct"
+      },
+      {
+        "slot": "K",
+        "plays_role": "Compression — the 'minimal facts' method itself: compressing a vast body of evidence into a small set of highly-compressed, widely-accepted claims.",
+        "quote": "with the minimal facts there are two criteria for something to qualify [S003]",
+        "fit": "direct"
+      },
+      {
+        "slot": "R",
+        "plays_role": "Phase transition — the threshold at which evidence becomes sufficient for rational belief; a qualitative shift from 'probable' to 'believable'.",
+        "quote": "criterion one on its own, that it being highly evidenced, that alone is sufficient for a rational belief [S159]",
+        "fit": "direct"
+      },
+      {
+        "slot": "Q",
+        "plays_role": "Superposition — the unresolved state of individual historical facts before the criteria are applied; the 'open possibility' of each datum prior to evaluation.",
+        "quote": "20 different evidences as critically applied using the criteria [S035]",
+        "fit": "stretched"
+      },
+      {
+        "slot": "F",
+        "plays_role": "Non-local correlation — the correlation between independent sources (Tacitus, Suetonius, Herodotus, Lüdemann, Dunn) that are no longer independent when they converge on the same fact.",
+        "quote": "Look at Herodotus. Look at Tacitus. Look at Suetonius before you say they don't do that stuff. [S109-S111]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "C",
+        "plays_role": "Integration — the historian/apologist as the local integrator who applies the criteria and synthesizes the evidence into a rational belief.",
+        "quote": "I measure by do I have a fair number of multiple attestation? [S043]",
+        "fit": "analogous"
+      }
+    ],
+    "breaks": [
+      "The paper treats scholarly consensus (slot M) as optional/secondary, whereas in the master equation every factor is required for the product to hold.",
+      "Habermas explicitly refuses a numeric threshold (S020), which conflicts with the multiplicative zero-collapse model where any zero factor collapses the whole.",
+      "The 'highly evidenced' criterion is itself a threshold concept, not a multiplicative factor — the paper's logic is threshold-based, not product-based."
+    ],
+    "extra_factors": [
+      "The distinction between 'they saw' and 'they thought they saw' (S066) introduces a phenomenological qualifier with no direct slot in the master equation.",
+      "The 'low blows' / ad hominem concern (S089) is a social-epistemic factor not captured by any slot."
+    ],
+    "analog_strength": 3,
+    "confidence": "medium",
+    "one_line": "Habermas's minimal-facts method is a threshold model of historical evidence where multiple attestation, earliness, and eyewitness testimony (K, T, E) integrate into rational belief, with scholarly consensus (M) as a secondary alignment factor — an analogy proposal, not a derivation.",
+    "equations_present": false
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "master_equation_a2",
+      "attempt": 1,
+      "text": "{\n  \"paper\": \"The Evidential THRESHOLD for Resurrection Belief - Gary Habermas\",\n  \"core_relation\": {\n    \"sentence\": \"A historical fact qualifies as a 'minimal fact' for resurrection belief when it is both highly evidenced (by multiple, early, eyewitness-attested data) AND held by a vast majority of qualified scholars; the evidential criterion is the dominant and sufficient condition, with scholarly consensus as a secondary confirmation.\",\n    \"quote\": \"So, if I have fewer names backing it up, I'll take that in instances where they strongly support multiple eyewitness early etc. [S095] ... That's by far the more important of the two. Way more. [S159/S160]\"\n  },\n  \"product_test\": {\n    \"answer\": \"threshold\",\n    \"quote\": \"if a fact is 51% evidence or higher that's good enough for me to believe it [S003] ... I do not have a certain threshold that they have to have to meet. [S020] ... criterion one on its own, that it being highly evidenced, that alone is sufficient for a rational belief. [S159]\",\n    \"reason\": \"Habermas explicitly treats evidence as a graded threshold rather than a multiplicative product. Criterion one alone suffices for rational belief (S159); criterion two (scholarly consensus) is secondary and not strictly required. He refuses to give a numeric cutoff (S020), indicating a threshold/graduated model rather than zero-collapse multiplication.\"\n  },\n  \"slots\": [\n    {\"slot\": \"G\", \"plays_role\": \"External negentropy influx — the incoming stream of historical data and non-evangelical scholarly testimony that sustains the argument from outside the apologist's own community.\", \"quote\": \"I think if I have non-evangelical saying those things, that that interests me [S081]\", \"fit\": \"analogous\"},\n    {\"slot\": \"M\", \"plays_role\": \"Alignment — the criterion of scholarly consensus aligns the individual's belief with the reference community of qualified scholars.\", \"quote\": \"the vast majority of qualified scholars concur with it being a fact [S003]\", \"fit\": \"analogous\"},\n    {\"slot\": \"E\", \"plays_role\": \"Signal fidelity — the reliability of the New Testament text and the transmission of testimony through ancient sources; whether the historical signal survives.\", \"quote\": \"the New Testament text is reliable [S021]\", \"fit\": \"direct\"},\n    {\"slot\": \"S_eff\", \"plays_role\": \"Effective entropy — the noise of scholarly disagreement, minority dissent, and the 'low blows' of partisan dismissal that lower the coherence of the argument.\", \"quote\": \"critics are going to say, 'I despise 16, 18, and probably 20.' [S036]\", \"fit\": \"analogous\"},\n    {\"slot\": \"T\", \"plays_role\": \"Temporal integration — the earliness of the creedal testimony (within months of the crucifixion) accumulates evidential weight over time.\", \"quote\": \"if it's a spring event, and you say months, it's very possible you have that proclamation in more than one place within within the remaining eight to nine months of the year. [S074]\", \"fit\": \"direct\"},\n    {\"slot\": \"K\", \"plays_role\": \"Compression — the 'minimal facts' method itself: compressing a vast body of evidence into a small set of highly-compressed, widely-accepted claims.\", \"quote\": \"with the minimal facts there are two criteria for something to qualify [S003]\", \"fit\": \"direct\"},\n    {\"slot\": \"R\", \"plays_role\": \"Phase transition — the threshold at which evidence becomes sufficient for rational belief; a qualitative shift from 'probable' to 'believable'.\", \"quote\": \"criterion one on its own, that it being highly evidenced, that alone is sufficient for a rational belief [S159]\", \"fit\": \"direct\"},\n    {\"slot\": \"Q\", \"plays_role\": \"Superposition — the unresolved state of individual historical facts before the criteria are applied; the 'open possibility' of each datum prior to evaluation.\", \"quote\": \"20 different evidences as critically applied using the criteria [S035]\", \"fit\": \"stretched\"},\n    {\"slot\": \"F\", \"plays_role\": \"Non-local correlation — the correlation between independent sources (Tacitus, Suetonius, Herodotus, Lüdemann, Dunn) that are no longer independent when they converge on the same fact.\", \"quote\": \"Look at Herodotus. Look at Tacitus. Look at Suetonius before you say they don't do that stuff. [S109-S111]\", \"fit\": \"analogous\"},\n    {\"slot\": \"C\", \"plays_role\": \"Integration — the historian/apologist as the local integrator who applies the criteria and synthesizes the evidence into a rational belief.\", \"quote\": \"I measure by do I have a fair number of multiple attestation? [S043]\", \"fit\": \"analogous\"}\n  ],\n  \"breaks\": [\n    \"The paper treats scholarly consensus (slot M) as optional/secondary, whereas in the master equation every factor is required for the product to hold.\",\n    \"Habermas explicitly refuses a numeric threshold (S020), which conflicts with the multiplicative zero-collapse model where any zero factor collapses the whole.\",\n    \"The 'highly evidenced' criterion is itself a threshold concept, not a multiplicative factor — the paper's logic is threshold-based, not product-based.\"\n  ],\n  \"extra_factors\": [\n    \"The distinction between 'they saw' and 'they thought they saw' (S066) introduces a phenomenological qualifier with no direct slot in the master equation.\",\n    \"The 'low blows' / ad hominem concern (S089) is a social-epistemic factor not captured by any slot.\"\n  ],\n  \"analog_strength\": 3,\n  \"confidence\": \"medium\",\n  \"one_line\": \"Habermas's minimal-facts method is a threshold model of historical evidence where multiple attestation, earliness, and eyewitness testimony (K, T, E) integrate into rational belief, with scholarly consensus (M) as a secondary alignment factor — an analogy proposal, not a derivation.\",\n  \"equations_present\": false\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 5387,
+      "completion_tokens": 1336,
+      "attempts": 1,
+      "elapsed_seconds": 6.453000000001339,
+      "started_at": "2026-09-27T13:57:21.012686+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T13:57:27.462554+00:00",
+      "tokens": 6723
+    }
+  ],
+  "prompt_sha256": "00be23a906f1cf44fae1929822f177d9fab91f450179d0da838fb06e79e110b6",
+  "tokens": 6723,
+  "reused": true
+}

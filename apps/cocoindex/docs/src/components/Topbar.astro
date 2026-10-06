@@ -1,0 +1,23 @@
+---
+// Docs header: the shared <Nav> bar from @cocoindex/brand, fed this site's
+// links. v1 is the only version in the header; the legacy v0 docs are linked
+// from the footer instead.
+// The phone drawer (tabbed sidebar + TOC) is MobileSheet.astro, opened by the
+// bar's hamburger; pass `mobileSheetId` to render that hamburger.
+import Nav from '@cocoindex/brand/Nav.astro';
+
+interface Props {
+  /** When set, renders the phone hamburger wired (aria-controls) to that sheet id. */
+  mobileSheetId?: string;
+}
+const { mobileSheetId } = Astro.props as Props;
+// Links + branding come from @cocoindex/brand (the canonical NAV_LINKS), so the
+// bar is identical to home + blog. `floating={false}` keeps it a fixed,
+// full-width bar — docs + examples don't collapse into the scroll pill.
+---
+
+<Nav mobileSheetId={mobileSheetId} floating={false} />
+
+<!-- Copy-to-clipboard for every `.code-figure .copy` button — shared behavior
+     from @cocoindex/brand/copy-code (identical to home + blog). -->
+<script>import '@cocoindex/brand/copy-code';</script>

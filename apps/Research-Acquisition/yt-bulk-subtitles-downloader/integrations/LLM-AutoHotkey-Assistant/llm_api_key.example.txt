@@ -1,0 +1,1 @@
+Paste an OpenRouter API key here, then save this file as llm_api_key.local.txt.

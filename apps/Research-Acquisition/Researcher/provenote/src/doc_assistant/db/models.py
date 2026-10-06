@@ -1,0 +1,1219 @@
+"""SQLAlchemy models for the doc-assistant library.
+
+Design principles:
+- SQLite is the source of truth for document-level metadata.
+- Chroma is the source of truth for chunk embeddings.
+- Both reference each other via document.id (stable UUID).
+- Schema supports Phase 4 (citations) and beyond; unused fields stay NULL.
+"""
+
+from datetime import datetime, timezone
+from uuid import uuid4
+
+from sqlalchemy import (
+    Boolean,
+    Column,
+    DateTime,
+    Float,
+    ForeignKey,
+    Index,
+    Integer,
+    String,
+    Table,
+    Text,
+    UniqueConstraint,
+)
+from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship
+
+
+def _utcnow() -> datetime:
+    return datetime.now(timezone.utc)
+
+
+class Base(DeclarativeBase):
+    pass
+
+
+# ============================================================
+# Association tables (many-to-many)
+# ============================================================
+
+document_folders = Table(
+    "document_folders",
+    Base.metadata,
+    Column(
+        "document_id", String, ForeignKey("documents.id", ondelete="CASCADE"), primary_key=True
+    ),
+    Column("folder_id", String, ForeignKey("folders.id", ondelete="CASCADE"), primary_key=True),
+)
+
+document_tags = Table(
+    "document_tags",
+    Base.metadata,
+    Column(
+        "document_id", String, ForeignKey("documents.id", ondelete="CASCADE"), primary_key=True
+    ),
+    Column("tag_id", String, ForeignKey("tags.id", ondelete="CASCADE"), primary_key=True),
+)
+
+document_keywords = Table(
+    "document_keywords",
+    Base.metadata,
+    Column(
+        "document_id", String, ForeignKey("documents.id", ondelete="CASCADE"), primary_key=True
+    ),
+    Column("keyword_id", String, ForeignKey("keywords.id", ondelete="CASCADE"), primary_key=True),
+)
+
+
+# ============================================================
+# Folder — hierarchical, but UI starts flat
+# ============================================================
+
+
+class Folder(Base):
+    __tablename__ = "folders"
+
+    id: Mapped[str] = mapped_column(String, primary_key=True, default=lambda: str(uuid4()))
+    name: Mapped[str] = mapped_column(String, nullable=False)
+    description: Mapped[str | None] = mapped_column(Text, nullable=True)
+    parent_folder_id: Mapped[str | None] = mapped_column(
+        String, ForeignKey("folders.id", ondelete="SET NULL"), nullable=True
+    )
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=_utcnow)
+
+    parent: Mapped["Folder | None"] = relationship(
+        "Folder", remote_side=[id], back_populates="children"
+    )
+    children: Mapped[list["Folder"]] = relationship("Folder", back_populates="parent")
+    documents: Mapped[list["Document"]] = relationship(
+        "Document", secondary=document_folders, back_populates="folders"
+    )
+
+    __table_args__ = (UniqueConstraint("name", "parent_folder_id", name="uq_folder_name_parent"),)
+
+
+# ============================================================
+# Tag — user-applied organizational labels
+# ============================================================
+
+
+class Tag(Base):
+    __tablename__ = "tags"
+
+    id: Mapped[str] = mapped_column(String, primary_key=True, default=lambda: str(uuid4()))
+    name: Mapped[str] = mapped_column(String, nullable=False, unique=True, index=True)
+    color: Mapped[str | None] = mapped_column(String, nullable=True)  # for UI
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=_utcnow)
+
+    documents: Mapped[list["Document"]] = relationship(
+        "Document", secondary=document_tags, back_populates="tags"
+    )
+
+
+# ============================================================
+# Keyword — content-derived subject terms
+# Distinct from tags: tags are user-applied for organization,
+# keywords describe what the document is about.
+# ============================================================
+
+
+class Keyword(Base):
+    __tablename__ = "keywords"
+
+    id: Mapped[str] = mapped_column(String, primary_key=True, default=lambda: str(uuid4()))
+    name: Mapped[str] = mapped_column(String, nullable=False, unique=True, index=True)
+    source: Mapped[str | None] = mapped_column(
+        String, nullable=True
+    )  # "author", "extracted", "manual"
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=_utcnow)
+
+    documents: Mapped[list["Document"]] = relationship(
+        "Document", secondary=document_keywords, back_populates="keywords"
+    )
+
+
+# ============================================================
+# Document
+# ============================================================
+
+
+class Document(Base):
+    __tablename__ = "documents"
+
+    # Identity
+    id: Mapped[str] = mapped_column(String, primary_key=True, default=lambda: str(uuid4()))
+    filename: Mapped[str] = mapped_column(String, nullable=False)
+    source_original: Mapped[str] = mapped_column(String, nullable=False)
+    source_cache: Mapped[str | None] = mapped_column(String, nullable=True)
+    doc_hash: Mapped[str] = mapped_column(String, nullable=False, index=True)
+    format: Mapped[str] = mapped_column(String, nullable=False)
+
+    # User-editable metadata
+    title: Mapped[str | None] = mapped_column(String, nullable=True)
+    authors: Mapped[str | None] = mapped_column(String, nullable=True)  # JSON list as string
+    year: Mapped[int | None] = mapped_column(Integer, nullable=True)
+    doi: Mapped[str | None] = mapped_column(String, nullable=True, index=True)
+    notes: Mapped[str | None] = mapped_column(Text, nullable=True)
+
+    # Extraction & health
+    extractor_used: Mapped[str | None] = mapped_column(String, nullable=True)
+    extraction_health: Mapped[str | None] = mapped_column(String, nullable=True)
+    chunk_count: Mapped[int | None] = mapped_column(Integer, nullable=True)
+    page_count: Mapped[int | None] = mapped_column(Integer, nullable=True)
+    extracted_at: Mapped[datetime | None] = mapped_column(DateTime, nullable=True)
+
+    # Lifecycle
+    added_at: Mapped[datetime] = mapped_column(DateTime, default=_utcnow)
+    updated_at: Mapped[datetime] = mapped_column(DateTime, default=_utcnow, onupdate=_utcnow)
+    is_archived: Mapped[bool] = mapped_column(Boolean, default=False)
+
+    # Relationships
+    folders: Mapped[list[Folder]] = relationship(
+        "Folder", secondary=document_folders, back_populates="documents"
+    )
+    tags: Mapped[list[Tag]] = relationship(
+        "Tag", secondary=document_tags, back_populates="documents"
+    )
+    keywords: Mapped[list[Keyword]] = relationship(
+        "Keyword", secondary=document_keywords, back_populates="documents"
+    )
+    parts: Mapped[list["DocumentPart"]] = relationship(
+        "DocumentPart",
+        back_populates="document",
+        cascade="all, delete-orphan",
+        order_by="DocumentPart.order_index",
+    )
+    citations_out: Mapped[list["Citation"]] = relationship(
+        "Citation",
+        foreign_keys="[Citation.source_document_id]",
+        back_populates="source_document",
+        cascade="all, delete-orphan",
+    )
+    citations_in: Mapped[list["Citation"]] = relationship(
+        "Citation", foreign_keys="[Citation.target_document_id]", back_populates="target_document"
+    )
+    ingestion_events: Mapped[list["IngestionEvent"]] = relationship(
+        "IngestionEvent",
+        back_populates="document",
+        cascade="all, delete-orphan",
+        order_by="IngestionEvent.timestamp.desc()",
+    )
+    figures: Mapped[list["Figure"]] = relationship(
+        "Figure",
+        back_populates="document",
+        cascade="all, delete-orphan",
+    )
+
+
+# ============================================================
+# DocumentPart — sections, chapters, etc.
+# ============================================================
+
+
+class DocumentPart(Base):
+    __tablename__ = "document_parts"
+
+    id: Mapped[str] = mapped_column(String, primary_key=True, default=lambda: str(uuid4()))
+    document_id: Mapped[str] = mapped_column(
+        String, ForeignKey("documents.id", ondelete="CASCADE"), nullable=False, index=True
+    )
+    parent_part_id: Mapped[str | None] = mapped_column(
+        String, ForeignKey("document_parts.id", ondelete="SET NULL"), nullable=True
+    )
+    kind: Mapped[str | None] = mapped_column(String, nullable=True)  # "abstract", "methods", etc.
+    title: Mapped[str | None] = mapped_column(String, nullable=True)
+    order_index: Mapped[int] = mapped_column(Integer, default=0)
+
+    document: Mapped[Document] = relationship("Document", back_populates="parts")
+    parent: Mapped["DocumentPart | None"] = relationship(
+        "DocumentPart", remote_side=[id], back_populates="children"
+    )
+    children: Mapped[list["DocumentPart"]] = relationship("DocumentPart", back_populates="parent")
+
+
+# ============================================================
+# Citation — Phase 4 territory, scaffolded now.
+# ============================================================
+
+
+class Citation(Base):
+    __tablename__ = "citations"
+
+    id: Mapped[str] = mapped_column(String, primary_key=True, default=lambda: str(uuid4()))
+    source_document_id: Mapped[str] = mapped_column(
+        String, ForeignKey("documents.id", ondelete="CASCADE"), nullable=False
+    )
+    target_document_id: Mapped[str | None] = mapped_column(
+        String, ForeignKey("documents.id", ondelete="SET NULL"), nullable=True
+    )
+    raw_citation_text: Mapped[str | None] = mapped_column(Text, nullable=True)
+    target_doi: Mapped[str | None] = mapped_column(String, nullable=True, index=True)
+    target_title: Mapped[str | None] = mapped_column(String, nullable=True)
+    target_authors: Mapped[str | None] = mapped_column(String, nullable=True)
+    target_year: Mapped[int | None] = mapped_column(Integer, nullable=True)
+    extraction_method: Mapped[str | None] = mapped_column(String, nullable=True)
+    confidence: Mapped[float | None] = mapped_column(Float, nullable=True)
+
+    source_document: Mapped[Document] = relationship(
+        "Document", foreign_keys=[source_document_id], back_populates="citations_out"
+    )
+    target_document: Mapped["Document | None"] = relationship(
+        "Document", foreign_keys=[target_document_id], back_populates="citations_in"
+    )
+
+    __table_args__ = (
+        Index("idx_citations_source", "source_document_id"),
+        Index("idx_citations_target", "target_document_id"),
+        Index("idx_citations_target_doi", "target_doi"),
+    )
+
+
+# ============================================================
+# DocSimilarity — Phase 4 close-out (sidecar table).
+# ============================================================
+
+
+class DocSimilarity(Base):
+    """A directed semantic-similarity edge between two documents.
+
+    Populated by `doc_vectors.py` from mean-pooled chunk embeddings.
+    Directed by convention: `(source, target, score)` means "target is in
+    source's top-K nearest neighbours under `embedding_model`". The
+    relation is symmetric mathematically, but the top-K trim makes the
+    persisted edge set asymmetric.
+    """
+
+    __tablename__ = "doc_similarities"
+
+    source_document_id: Mapped[str] = mapped_column(
+        String, ForeignKey("documents.id", ondelete="CASCADE"), primary_key=True
+    )
+    target_document_id: Mapped[str] = mapped_column(
+        String, ForeignKey("documents.id", ondelete="CASCADE"), primary_key=True
+    )
+    embedding_model: Mapped[str] = mapped_column(String, primary_key=True)
+    score: Mapped[float] = mapped_column(Float, nullable=False)
+    computed_at: Mapped[datetime] = mapped_column(DateTime, default=_utcnow)
+
+    __table_args__ = (
+        Index("idx_doc_sim_source", "source_document_id", "embedding_model"),
+        Index("idx_doc_sim_target", "target_document_id", "embedding_model"),
+    )
+
+
+# ============================================================
+# Figure — Phase 6 / Feature 4b (figure detection sidecar).
+# ============================================================
+
+
+class Figure(Base):
+    """One detected figure region — a sidecar record, never spliced.
+
+    Populated by `figures.py` / `scripts/extract_figures.py` from PyMuPDF
+    geometry (image blocks plus the drawing-bbox union), gated to figure pages by
+    `regions.py`. Each row points at a cropped PNG under
+    `data/figures/{doc_hash}/`; the caption text stays in the markdown
+    (figures are additive, not substituting). Binary artifacts are sidecar
+    by the Enrichment-Layer rule — tables are the one text-shaped exception.
+
+    The `vlm_*` columns ship present-but-null: Feature 4c (PR 9) fills them
+    with a VLM description and turns each figure into a retrievable chunk.
+    A caption-only row (no detectable region) carries `bbox_* = None` and
+    `image_path = None` — still a useful 4c baseline.
+
+    `doc_hash` is denormalised onto the row so a content change (which mints
+    a new `doc_hash`) makes a stale figure detectable without a join, exactly
+    like the citation/table enrichment drift story.
+    """
+
+    __tablename__ = "figures"
+
+    id: Mapped[str] = mapped_column(String, primary_key=True, default=lambda: str(uuid4()))
+    document_id: Mapped[str] = mapped_column(
+        String, ForeignKey("documents.id", ondelete="CASCADE"), nullable=False, index=True
+    )
+    doc_hash: Mapped[str] = mapped_column(String, nullable=False, index=True)
+
+    page: Mapped[int] = mapped_column(Integer, nullable=False)  # 1-based
+    # Region bbox in PDF points; all four NULL for a caption-only figure.
+    bbox_x0: Mapped[float | None] = mapped_column(Float, nullable=True)
+    bbox_y0: Mapped[float | None] = mapped_column(Float, nullable=True)
+    bbox_x1: Mapped[float | None] = mapped_column(Float, nullable=True)
+    bbox_y1: Mapped[float | None] = mapped_column(Float, nullable=True)
+
+    # The `regions.py` page verdict: "chart" | "photo" | "figure".
+    kind: Mapped[str] = mapped_column(String, nullable=False)
+    caption: Mapped[str | None] = mapped_column(Text, nullable=True)
+    image_path: Mapped[str | None] = mapped_column(String, nullable=True)
+    # "image_block" | "drawing_union" | "largest_block" | "caption_only".
+    extraction_method: Mapped[str | None] = mapped_column(String, nullable=True)
+
+    # Feature 4c (VLM) populates these; present-but-null after 4b.
+    vlm_description: Mapped[str | None] = mapped_column(Text, nullable=True, default=None)
+    vlm_call_skipped_reason: Mapped[str | None] = mapped_column(
+        String, nullable=True, default=None
+    )
+
+    extracted_at: Mapped[datetime] = mapped_column(DateTime, default=_utcnow)
+
+    document: Mapped[Document] = relationship("Document", back_populates="figures")
+
+    __table_args__ = (
+        Index("idx_figures_document", "document_id"),
+        Index("idx_figures_doc_hash", "doc_hash"),
+    )
+
+
+# ============================================================
+# ChunkEpistemics — Phase 7 / Feature 7d (knowledge-currency sidecar).
+# ============================================================
+
+
+class ChunkEpistemics(Base):
+    """Per-chunk projected epistemic weights (Feature 7d) — a regenerable sidecar.
+
+    Written by `epistemics.py` / `scripts/compute_epistemics.py` by projecting the
+    concept graph's node corroboration weights onto the chunks whose text mentions
+    each concept (structural attribution, never an LLM judgement). Keyed by the stable
+    composite `(document_id, chunk_index)` — Chroma's own ids are auto-generated UUIDs,
+    unstable across re-ingest. The whole table is replaced on each `compute_epistemics`
+    run (regenerable, dropped + rebuilt with the graph); it is never part of retrieval
+    and never mutates the chunk store. A chunk with no weighted claim gets no row.
+
+    `coverage_summary` is JSON `{"corroborated": n, "unique": n, "contested": n}`
+    (JSON-as-text, like `AnswerRecord.retrieved_chunks_json`). The unique-source rule
+    lives upstream in `compute_node_weights`: a sole-source claim is `unique`, never
+    contested, so its chunk is never marked.
+    """
+
+    __tablename__ = "chunk_epistemics"
+
+    id: Mapped[str] = mapped_column(String, primary_key=True, default=lambda: str(uuid4()))
+    document_id: Mapped[str] = mapped_column(
+        String, ForeignKey("documents.id", ondelete="CASCADE"), nullable=False, index=True
+    )
+    chunk_index: Mapped[int] = mapped_column(Integer, nullable=False)
+    # E1.1 (KI-8): the authoritative, segmentation-agnostic join key — `{doc}:{chunk_index}` for a
+    # baseline chunk, `{doc}:p{parent_index}` for a PC parent. Nullable for back-compat: a row
+    # written before this column existed reads its key from `{document_id}:{chunk_index}` (the
+    # regenerable table fills `chunk_key` on the next `compute_epistemics --apply`).
+    chunk_key: Mapped[str | None] = mapped_column(String, nullable=True, index=True)
+
+    n_claims: Mapped[int] = mapped_column(Integer, nullable=False, default=0)
+    n_contested: Mapped[int] = mapped_column(Integer, nullable=False, default=0)
+    n_superseded_trend: Mapped[int] = mapped_column(Integer, nullable=False, default=0)
+    # JSON: {"corroborated": int, "unique": int, "contested": int}.
+    coverage_summary: Mapped[str] = mapped_column(Text, nullable=False, default="{}")
+    # Structural fingerprint of the graph this projection came from (staleness check).
+    graph_version: Mapped[str | None] = mapped_column(String, nullable=True)
+
+    computed_at: Mapped[datetime] = mapped_column(DateTime, default=_utcnow)
+
+    __table_args__ = (
+        Index("idx_chunk_epistemics_document", "document_id"),
+        Index("idx_chunk_epistemics_chunk", "document_id", "chunk_index"),
+    )
+
+
+# ============================================================
+# Concept graph — REDESIGN (Phase 7 / Feature 7, curated-vocabulary skeleton)
+# ============================================================
+# The curated-vocabulary + deterministic-skeleton redesign of Feature 7
+# (docs/archive/concept-graph-redesign.md; supersedes the open-vocabulary PR-16 core,
+# KNOWN_ISSUES KI-7). Two lifecycles are kept deliberately distinct:
+#   * Concept / ConceptAlias  — CURATED user data; survive a skeleton rebuild.
+#   * ConceptEdge / ConceptPresenceRow — DERIVED sidecar rows; dropped + rebuilt on
+#     every `build_concept_skeleton` run (Enrichment-Layer Pattern: regenerable,
+#     never mutates the chunk store).
+# Producer: `concept_skeleton.py` / `scripts/build_concept_skeleton.py` (Node A is
+# deterministic + free; the LLM stance pass, Node B, is deferred).
+
+
+class Concept(Base):
+    """A user-curated concept node — the vocabulary the skeleton is built over.
+
+    CURATED, not derived: the LLM never defines or extends this vocabulary
+    (redesign Decision 1). Seeded as *candidates* from `Keyword` rows and promoted
+    by the user (`scripts/seed_concepts.py`); survives a skeleton rebuild. `folder_id`
+    ships present-but-null for the future projects-as-folders scoping (Decision 9) —
+    the first increment builds global (folder-agnostic) presence.
+    """
+
+    __tablename__ = "concepts"
+
+    id: Mapped[str] = mapped_column(String, primary_key=True, default=lambda: str(uuid4()))
+    label: Mapped[str] = mapped_column(String, nullable=False, index=True)
+    folder_id: Mapped[str | None] = mapped_column(
+        String, ForeignKey("folders.id", ondelete="SET NULL"), nullable=True
+    )
+    # "keyword" (promoted from a Keyword candidate) | "manual" | "anzsrc" (seeded field node).
+    source: Mapped[str] = mapped_column(String, nullable=False, default="manual")
+    # ADR-028 — node kind. "concept" = a text-bearing concept (matched against document
+    # text via presence); "domain" = an abstract field node (zero presence, seeded from
+    # ANZSRC). The typed taxonomy hierarchy spans both, so both share this one id-space.
+    # PRESENCE-ASSUMING CODE MUST READ ONLY kind="concept" — go through the single canonical
+    # `knowledge.taxonomy.presence_nodes()` accessor, never a scattered `WHERE kind` clause.
+    # Non-null with a "concept" default: every pre-existing row is a concept, never a domain.
+    kind: Mapped[str] = mapped_column(String, nullable=False, default="concept", index=True)
+    # Curated glossary gloss — a short definition of the concept. Optional; feeds the
+    # semantic-distance layer (embed the definition, richer than the bare label).
+    definition: Mapped[str | None] = mapped_column(Text, nullable=True)
+    # ADR-018 — is this concept part of the concept-graph vocabulary? Tag families
+    # (ADR-015) and graph nodes are the same rows, and the two want opposite things
+    # from this table: families want breadth, the graph wants a small curated map.
+    # OPT-IN by design (default false): a new row never enters the graph unbidden,
+    # which is what makes a bulk promotion unable to re-flood it. Nullable for the
+    # additive migration; NULL reads as excluded.
+    graph_include: Mapped[bool | None] = mapped_column(Boolean, nullable=True, default=False)
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=_utcnow)
+
+    aliases: Mapped[list["ConceptAlias"]] = relationship(
+        "ConceptAlias", back_populates="concept", cascade="all, delete-orphan"
+    )
+
+
+class ConceptAlias(Base):
+    """A surface form (synonym / abbreviation) for a curated `Concept`.
+
+    CURATED (Decision 1/2): alias coverage is what bounds deterministic presence
+    recall (RG-009). Unique per `(concept_id, alias)`; survives a rebuild.
+    """
+
+    __tablename__ = "concept_aliases"
+
+    id: Mapped[str] = mapped_column(String, primary_key=True, default=lambda: str(uuid4()))
+    concept_id: Mapped[str] = mapped_column(
+        String, ForeignKey("concepts.id", ondelete="CASCADE"), nullable=False, index=True
+    )
+    alias: Mapped[str] = mapped_column(String, nullable=False, index=True)
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=_utcnow)
+
+    concept: Mapped[Concept] = relationship("Concept", back_populates="aliases")
+
+    __table_args__ = (UniqueConstraint("concept_id", "alias", name="uq_concept_alias"),)
+
+
+class ConceptHierarchy(Base):
+    """A curated taxonomy edge — the user's classification DAG (ADR-028).
+
+    CURATED user data, and the load-bearing property is that it **survives a skeleton
+    rebuild**: it lives here beside `Concept`/`ConceptAlias` (not in the derived
+    `ConceptEdge`, which is dropped + rebuilt every `build_concept_skeleton` run). Storing
+    the hierarchy in `concept_edges` would let a routine rebuild wipe it — the KI-17/KI-20
+    class of bug. Additive via `create_all` — no migration.
+
+    `source --is_a--> target` is concept→broader concept; `source --in_field--> target` is
+    concept→field or field→field. Polyhierarchy-native (many rows per `source_id`); the
+    combined `is_a`/`in_field` graph is kept acyclic by `knowledge.taxonomy.add_hierarchy_edge`,
+    the only sanctioned writer.
+    """
+
+    __tablename__ = "concept_hierarchy"
+
+    id: Mapped[str] = mapped_column(String, primary_key=True, default=lambda: str(uuid4()))
+    source_id: Mapped[str] = mapped_column(
+        String, ForeignKey("concepts.id", ondelete="CASCADE"), nullable=False, index=True
+    )
+    target_id: Mapped[str] = mapped_column(
+        String, ForeignKey("concepts.id", ondelete="CASCADE"), nullable=False, index=True
+    )
+    # "is_a" (concept → broader concept) | "in_field" (concept/field → broader field).
+    type: Mapped[str] = mapped_column(String, nullable=False)
+    # "curated" (a user edit / the ANZSRC seed — always wins) | "proposed" (an auto-fill the
+    # user accepts or deletes; ADR-028 D8, increment 3). Same vocabulary as
+    # `DocumentField.origin`. A curated write over a proposed row PROMOTES it in place (the
+    # accept primitive); a proposed write never demotes a curated row.
+    origin: Mapped[str] = mapped_column(String, nullable=False, default="curated")
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=_utcnow)
+
+    __table_args__ = (
+        UniqueConstraint("source_id", "target_id", "type", name="uq_concept_hierarchy_edge"),
+    )
+
+
+class DocumentField(Base):
+    """A curated (or auto-proposed) link from a document to a taxonomy field (ADR-028).
+
+    Many-to-many: a document may sit under several fields, a field over many documents.
+    `concept_id` must resolve to a `kind="domain"` node (enforced by
+    `knowledge.taxonomy.attach_document_field`). Covers the documents that carry no concept
+    presence, which a derived-only "fields of the concepts it mentions" rule is blind to.
+    Additive via `create_all` — no migration.
+
+    `origin`: "curated" (a user edit — always wins) | "proposed" (an auto-fill the user may
+    override). The ADR-019 E1 seam; auto-propose itself is a later increment.
+    """
+
+    __tablename__ = "document_field"
+
+    id: Mapped[str] = mapped_column(String, primary_key=True, default=lambda: str(uuid4()))
+    document_id: Mapped[str] = mapped_column(
+        String, ForeignKey("documents.id", ondelete="CASCADE"), nullable=False, index=True
+    )
+    concept_id: Mapped[str] = mapped_column(
+        String, ForeignKey("concepts.id", ondelete="CASCADE"), nullable=False, index=True
+    )
+    # "curated" (user edit, wins) | "proposed" (auto-fill, overridable).
+    origin: Mapped[str] = mapped_column(String, nullable=False, default="curated")
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=_utcnow)
+
+    __table_args__ = (UniqueConstraint("document_id", "concept_id", name="uq_document_field"),)
+
+
+class ConceptEdge(Base):
+    """A derived skeleton edge between two curated concepts — a regenerable sidecar.
+
+    Dropped + rebuilt on every `build_concept_skeleton` run (Enrichment-Layer
+    Pattern). `provenance_json` is the JSON provenance set ⊆ {cooccurrence, citation,
+    similarity, llm_relation}; the edge is KEPT and ranked by `weight`, never dropped
+    for lacking an LLM stance (Decision 5). `strength_json` (R4) is the graded per-token
+    provenance strength `{token: ratio}` (citation/similarity only; null when no doc-pair
+    token applies). `relation` / `stance_json` are the deferred Node-B LLM annotation —
+    null after the deterministic Node-A build.
+    """
+
+    __tablename__ = "concept_edges"
+
+    id: Mapped[str] = mapped_column(String, primary_key=True, default=lambda: str(uuid4()))
+    source_concept_id: Mapped[str] = mapped_column(
+        String, ForeignKey("concepts.id", ondelete="CASCADE"), nullable=False
+    )
+    target_concept_id: Mapped[str] = mapped_column(
+        String, ForeignKey("concepts.id", ondelete="CASCADE"), nullable=False
+    )
+    # JSON list ⊆ ("cooccurrence", "citation", "similarity", "llm_relation").
+    provenance_json: Mapped[str] = mapped_column(Text, nullable=False, default="[]")
+    # R4: JSON {token: strength ratio} for graded doc-pair provenance; null when none.
+    strength_json: Mapped[str | None] = mapped_column(Text, nullable=True, default=None)
+    weight: Mapped[float] = mapped_column(Float, nullable=False, default=0.0)
+    n_cooccurrence_chunks: Mapped[int] = mapped_column(Integer, nullable=False, default=0)
+    # Node B (deferred): the LLM relation verb + per-document stance.
+    relation: Mapped[str | None] = mapped_column(String, nullable=True, default=None)
+    # JSON list of [document_id, polarity]; null until Node B annotates.
+    stance_json: Mapped[str | None] = mapped_column(Text, nullable=True, default=None)
+    graph_version: Mapped[str | None] = mapped_column(String, nullable=True)
+    computed_at: Mapped[datetime] = mapped_column(DateTime, default=_utcnow)
+
+    __table_args__ = (
+        Index("idx_concept_edges_source", "source_concept_id"),
+        Index("idx_concept_edges_target", "target_concept_id"),
+    )
+
+
+class ConceptPresenceRow(Base):
+    """A derived concept-presence record — which chunks a concept's surface forms hit
+    in one document. Regenerable sidecar (dropped + rebuilt each run).
+
+    `chunk_keys_json` is the JSON list of composite chunk keys
+    `"{document_id}:p{parent_index}"` (ADR-4) the concept matched in this document.
+    """
+
+    __tablename__ = "concept_presence"
+
+    id: Mapped[str] = mapped_column(String, primary_key=True, default=lambda: str(uuid4()))
+    concept_id: Mapped[str] = mapped_column(
+        String, ForeignKey("concepts.id", ondelete="CASCADE"), nullable=False, index=True
+    )
+    document_id: Mapped[str] = mapped_column(
+        String, ForeignKey("documents.id", ondelete="CASCADE"), nullable=False, index=True
+    )
+    # JSON list of "{document_id}:p{parent_index}" chunk keys (ADR-4).
+    chunk_keys_json: Mapped[str] = mapped_column(Text, nullable=False, default="[]")
+    n_mentions: Mapped[int] = mapped_column(Integer, nullable=False, default=0)
+    graph_version: Mapped[str | None] = mapped_column(String, nullable=True)
+    computed_at: Mapped[datetime] = mapped_column(DateTime, default=_utcnow)
+
+    __table_args__ = (
+        Index("idx_concept_presence_concept", "concept_id"),
+        Index("idx_concept_presence_document", "document_id"),
+    )
+
+
+# ============================================================
+# GapRow — Phase 7, gap-detection layer (deterministic Tier 1 + Tier-2a floor).
+# ============================================================
+# `docs/decisions/ADR-004-gap-detection-layer.md` + `docs/specs/feature-gap-detection.md`.
+# Deterministic rows (tier="t1" / "t2a" with determinism="deterministic") are a
+# regenerable sidecar — dropped + rebuilt on every `build_gaps` run, same as
+# `ConceptEdge`/`ConceptPresenceRow` (Enrichment-Layer Pattern). Stochastic rows
+# (the deferred Tier-2a ceiling / `gap_suggest.py`, out of this sprint's scope)
+# persist their `status` across a rebuild — the "compounding arrow" — so the
+# rebuild path must delete/replace only `determinism="deterministic"` rows.
+
+
+class GapRow(Base):
+    """One detected (or suggested) corpus gap — see `gaps.Gap` for the pure shape.
+
+    `concept_id` is not a foreign key: for a deterministic gap it is a curated
+    `Concept.id`, but a stochastic suggestion's `concept_id` may be a candidate
+    label that doesn't exist as a `Concept` yet (that's the point — it's a
+    promotion candidate). `evidence_json` holds the deterministic graph-fact ids
+    (edge/doc ids, or the contributing `answer_claims` ids) or, for a stochastic
+    row, the LLM inputs it was produced from (observability).
+    """
+
+    __tablename__ = "gaps"
+
+    id: Mapped[str] = mapped_column(String, primary_key=True, default=lambda: str(uuid4()))
+    concept_id: Mapped[str] = mapped_column(String, nullable=False, index=True)
+    tier: Mapped[str] = mapped_column(String, nullable=False)  # t1 | t2a | t2b
+    determinism: Mapped[str] = mapped_column(String, nullable=False)  # deterministic | stochastic
+    kind: Mapped[str] = mapped_column(String, nullable=False)
+    # JSON list of fact ids (deterministic) or LLM inputs (stochastic).
+    evidence_json: Mapped[str] = mapped_column(Text, nullable=False, default="[]")
+    rating: Mapped[float | None] = mapped_column(Float, nullable=True)
+    # surfaced | promoted | dismissed — the curation lifecycle (compounding arrow).
+    status: Mapped[str] = mapped_column(String, nullable=False, default="surfaced")
+    graph_version: Mapped[str | None] = mapped_column(String, nullable=True)
+    computed_at: Mapped[datetime] = mapped_column(DateTime, default=_utcnow)
+
+    __table_args__ = (
+        Index("idx_gaps_concept", "concept_id"),
+        Index("idx_gaps_determinism", "determinism"),
+    )
+
+
+class GapTriage(Base):
+    """A user's triage verdict on one gap — a *user override* in its own sidecar (ADR-017 C1,
+    ROADMAP E5), keyed on ``(concept_id, kind)``.
+
+    Why a separate table and not ``GapRow.status``: deterministic ``gaps`` rows are
+    **delete-and-replaced** on every ``build_gaps`` run (regenerable sidecar, ADR-004), so a
+    dismissal written onto the row would not survive the next rebuild — and a rebuild is part of
+    the acquire loop the gap surface exists to close (gap → ingest → rebuild). Triage is a
+    *judgment*, not derived data, so it lives here and outlives the rebuild. The **effective**
+    status a consumer shows is ``override ?? GapRow.status`` (``load_gaps`` resolves it), exactly
+    as ``DocumentMeta`` makes a user edit win over the auto-extracted default (ADR-013 A2).
+
+    ``concept_id`` is **not** a foreign key — for a stochastic suggestion it may be a candidate
+    label that is not yet a ``Concept`` (mirrors ``GapRow.concept_id``'s own note). A row exists
+    only once the user acts; resetting to the derived default deletes it. Additive table
+    (``create_all``), no migration — same pattern as ``DocumentMeta``/``ConversationMeta``.
+    """
+
+    __tablename__ = "gap_triage"
+
+    concept_id: Mapped[str] = mapped_column(String, primary_key=True)
+    kind: Mapped[str] = mapped_column(String, primary_key=True)
+    # promoted | dismissed — the two user verdicts. "surfaced" (the derived default) is the
+    # *absence* of a row, never a stored value: a reset deletes the override.
+    status: Mapped[str] = mapped_column(String, nullable=False)
+    updated_at: Mapped[datetime] = mapped_column(DateTime, default=_utcnow, onupdate=_utcnow)
+
+
+class ConceptMerge(Base):
+    """One applied concept merge — the record that makes a merge inspectable and reversible
+    (ROADMAP 53, ``knowledge.concept_curation.apply_merges`` / ``undo_merge``).
+
+    A merge folds one curated concept into another and deletes the folded row, which cascades
+    into everything keyed on it. Before 2026-09-17 that took the concept's taxonomy placements
+    with it and left its gap triage orphaned, with nothing written down. The merge now moves both
+    to the survivor first, and this row keeps what it needs to put them back: the dropped
+    concept, the surface forms the survivor gained, each placement before and after, and the
+    triage and suggestion rows re-keyed. ``record_json`` holds that as JSON.
+
+    ``keep_id``/``drop_id`` are not foreign keys: the dropped concept is gone by design, and the
+    record must outlive a later deletion of the survivor. Additive via ``create_all``.
+    """
+
+    __tablename__ = "concept_merges"
+
+    id: Mapped[str] = mapped_column(String, primary_key=True, default=lambda: str(uuid4()))
+    keep_id: Mapped[str] = mapped_column(String, nullable=False, index=True)
+    keep_label: Mapped[str] = mapped_column(String, nullable=False)
+    drop_id: Mapped[str] = mapped_column(String, nullable=False, index=True)
+    drop_label: Mapped[str] = mapped_column(String, nullable=False)
+    record_json: Mapped[str] = mapped_column(Text, nullable=False, default="{}")
+    merged_at: Mapped[datetime] = mapped_column(DateTime, default=_utcnow)
+    undone_at: Mapped[datetime | None] = mapped_column(DateTime, nullable=True)
+
+
+class ConceptDefinition(Base):
+    """One candidate definition of a concept, with where it came from (ADR-053, ROADMAP 93).
+
+    A concept's definition is **chosen from candidates**, and no source overwrites another: a
+    sentence found in the library, a model's text with the inputs it was handed, and the user's own
+    words each live here side by side. ``status`` is ``suggested`` / ``chosen`` / ``dismissed``; at
+    most one row per concept is ``chosen``, and ``Concept.definition`` mirrors its text so every
+    existing reader keeps working. Only ``knowledge.definitions`` writes either — the choose / undo
+    path is the one place the two can be kept in step.
+
+    ``source`` is ``passage`` / ``user`` / ``model``. ``provenance_key`` makes a re-run idempotent
+    (a passage is keyed on its chunk and text, so extracting twice adds nothing);
+    ``provenance_json`` holds what a reader needs to check it (document and chunk key — or model,
+    prompt version and input ids); ``evidence_json`` holds the reliability reasons and the grade
+    derived from them, recomputable, never a model's rating of itself. Additive via
+    ``create_all``.
+    """
+
+    __tablename__ = "concept_definitions"
+
+    id: Mapped[str] = mapped_column(String, primary_key=True, default=lambda: str(uuid4()))
+    concept_id: Mapped[str] = mapped_column(
+        String, ForeignKey("concepts.id", ondelete="CASCADE"), nullable=False, index=True
+    )
+    text: Mapped[str] = mapped_column(Text, nullable=False)
+    source: Mapped[str] = mapped_column(String, nullable=False)
+    provenance_key: Mapped[str] = mapped_column(String, nullable=False)
+    provenance_json: Mapped[str] = mapped_column(Text, nullable=False, default="{}")
+    evidence_json: Mapped[str] = mapped_column(Text, nullable=False, default="{}")
+    status: Mapped[str] = mapped_column(String, nullable=False, default="suggested", index=True)
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=_utcnow)
+    decided_at: Mapped[datetime | None] = mapped_column(DateTime, nullable=True)
+
+    __table_args__ = (
+        UniqueConstraint(
+            "concept_id", "source", "provenance_key", name="uq_concept_definition_provenance"
+        ),
+    )
+
+
+class ConceptDefinitionEvent(Base):
+    """One choice made about a concept's definition — the record that makes it undoable (ADR-053).
+
+    ``action`` is ``chose`` / ``dismissed`` / ``restored``. ``previous_id`` is the candidate that
+    was chosen before a ``chose`` (``None`` when there was none), which is all an undo needs: put
+    that one back. ``seq`` orders a concept's events — not ``at``: two clicks inside one tick of
+    the Windows clock get the same timestamp, and "the latest" would then be a coin toss. Not
+    foreign keys, like ``ConceptMerge``: the record must outlive the rows it names. Additive via
+    ``create_all``.
+    """
+
+    __tablename__ = "concept_definition_events"
+
+    id: Mapped[str] = mapped_column(String, primary_key=True, default=lambda: str(uuid4()))
+    concept_id: Mapped[str] = mapped_column(String, nullable=False, index=True)
+    seq: Mapped[int] = mapped_column(Integer, nullable=False, default=0)
+    definition_id: Mapped[str | None] = mapped_column(String, nullable=True)
+    action: Mapped[str] = mapped_column(String, nullable=False)
+    previous_id: Mapped[str | None] = mapped_column(String, nullable=True)
+    at: Mapped[datetime] = mapped_column(DateTime, default=_utcnow)
+    undone_at: Mapped[datetime | None] = mapped_column(DateTime, nullable=True)
+
+
+# ============================================================
+# AnswerRecord — Phase 5 / Integrity Chunk 1 (provenance card).
+# ============================================================
+
+
+class AnswerRecord(Base):
+    """One record per generated answer — the provenance card backing store.
+
+    Every chat turn that produces an answer writes one row here. Captures
+    everything needed to reproduce or audit the answer: the query, the
+    retrieved chunks (with scores), the model + prompt config that
+    produced the answer, token cost, latency.
+
+    Designed forward-compat for:
+    * **Multi-user** — `id` and `session_id` are UUIDs, never auto-increments.
+    * **Future threading / sessions** — `session_id` is nullable now; the
+      column exists so per-session aggregates don't need a schema migration.
+    * **Cost tiering** — `model_name` + `token_input` / `token_output` make
+      cost-by-model queries trivial. Phase 6+ reviewer agent can re-target
+      the same schema for its own records.
+    * **Eval harness reuse** — the eval harness will eventually consume this
+      schema; same shape of (query, retrieved_chunks, answer, scores).
+    """
+
+    __tablename__ = "answer_records"
+
+    id: Mapped[str] = mapped_column(String, primary_key=True, default=lambda: str(uuid4()))
+    session_id: Mapped[str | None] = mapped_column(String, nullable=True, index=True)
+
+    # The question, post-rewrite (what the pipeline actually retrieved on).
+    query: Mapped[str] = mapped_column(Text, nullable=False)
+    # The raw question if it was rewritten from history; else None.
+    original_query: Mapped[str | None] = mapped_column(Text, nullable=True)
+
+    # The generated answer text, streamed to completion.
+    answer: Mapped[str] = mapped_column(Text, nullable=False)
+
+    # JSON: list of {filename, doc_id, page, section, reranker_score, chunk_excerpt}.
+    # JSON-as-text avoids a new column type and keeps the schema portable.
+    retrieved_chunks_json: Mapped[str] = mapped_column(Text, nullable=False, default="[]")
+
+    # Configuration that produced this answer (forward-compat for cost analysis + diffing).
+    model_name: Mapped[str | None] = mapped_column(String, nullable=True)
+    embedding_model: Mapped[str | None] = mapped_column(String, nullable=True)
+    prompt_version: Mapped[str | None] = mapped_column(String, nullable=True, index=True)
+    top_k: Mapped[int | None] = mapped_column(Integer, nullable=True)
+    use_parent_child: Mapped[bool | None] = mapped_column(Boolean, nullable=True)
+
+    # ADR-025 F2: the retrieval scope this answer was produced under, as JSON
+    # {folder_id, folder_name, doc_count} — NULL for an unscoped (whole-library) turn, which
+    # is also how every pre-F2 row reads back. Deliberately NOT folded into `prompt_version`:
+    # a scope is a content filter, not a retrieval knob, and versioning it per folder would
+    # pollute every eval join keyed on that hash.
+    retrieval_scope_json: Mapped[str | None] = mapped_column(Text, nullable=True)
+
+    # ADR-027 D2 (E3): whether epistemics was allowed to touch the answer layer on this turn —
+    # the *effective* value after the three-layer resolution (U1b per-turn override > persisted
+    # setting > config default), snapshotted per ADR-011's instrument discipline. NULL = a
+    # pre-E3 row, which honestly reads back as "unknown", never as either boolean. Not folded
+    # into `prompt_version` for the same reason as the scope: it never reaches the prompt.
+    epistemics_markers_enabled: Mapped[bool | None] = mapped_column(Boolean, nullable=True)
+
+    # Cost + latency telemetry.
+    token_input: Mapped[int | None] = mapped_column(Integer, nullable=True)
+    token_output: Mapped[int | None] = mapped_column(Integer, nullable=True)
+    latency_ms: Mapped[float | None] = mapped_column(Float, nullable=True)
+
+    # Failure mode capture.
+    error: Mapped[str | None] = mapped_column(Text, nullable=True)
+
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=_utcnow, index=True)
+
+
+# ============================================================
+# AnswerReview — Phase 6 / Integrity Chunk 2b (reviewer agent).
+# ============================================================
+
+
+class AnswerReview(Base):
+    """One review of an AnswerRecord — typically by an LLM judge.
+
+    One-to-many with AnswerRecord: an answer may be reviewed multiple
+    times (different reviewers, different models, manual re-review).
+    Schema is reviewer-kind-agnostic so a future human review path
+    can reuse the same row shape.
+    """
+
+    __tablename__ = "answer_reviews"
+
+    id: Mapped[str] = mapped_column(String, primary_key=True, default=lambda: str(uuid4()))
+    answer_record_id: Mapped[str] = mapped_column(
+        String,
+        ForeignKey("answer_records.id", ondelete="CASCADE"),
+        nullable=False,
+        index=True,
+    )
+    # Identifies the review path. Examples: "llm_haiku", "llm_sonnet",
+    # "human", "heuristic". Lets future reviewers coexist.
+    reviewer_kind: Mapped[str] = mapped_column(String, nullable=False)
+    # The specific model id (None for human or heuristic reviews).
+    model_name: Mapped[str | None] = mapped_column(String, nullable=True)
+
+    # Rubric — 1-5 integers, nullable so partial reviews (e.g., the
+    # parse failed on one dimension) don't lose the dimensions that did succeed.
+    faithfulness: Mapped[int | None] = mapped_column(Integer, nullable=True)
+    citation_density: Mapped[int | None] = mapped_column(Integer, nullable=True)
+    hedging_adequacy: Mapped[int | None] = mapped_column(Integer, nullable=True)
+    unsupported_claims_count: Mapped[int | None] = mapped_column(Integer, nullable=True)
+
+    # Chunk 2c — a categorical failure tag from a fixed enum (reviewer.FAILURE_TAGS)
+    # alongside the free-text `notes`. The enum is what makes patterns *countable*
+    # for the self-improvement loop; "none" / NULL means no dominant fault.
+    failure_tag: Mapped[str | None] = mapped_column(String, nullable=True, index=True)
+
+    notes: Mapped[str | None] = mapped_column(Text, nullable=True)
+    error: Mapped[str | None] = mapped_column(Text, nullable=True)
+
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=_utcnow, index=True)
+
+
+# ============================================================
+# AnswerClaim — Phase 6 / Integrity Chunk 2a (dual interpretation).
+# ============================================================
+
+
+class AnswerClaim(Base):
+    """One adjudicable claim segmented from an ``ai``-mode interpretation answer.
+
+    Chunk 2a splits the AI interpretation into citation-anchored claims; each
+    becomes one row here, eager-inserted as ``pending`` when the answer is
+    produced and updated as the user accepts / rejects / edits it. Chunk 3
+    (PRISMA-trAIce) reads this as the human-AI adjudication log.
+
+    One-to-many with AnswerRecord (an answer has N claims).
+    """
+
+    __tablename__ = "answer_claims"
+
+    id: Mapped[str] = mapped_column(String, primary_key=True, default=lambda: str(uuid4()))
+    answer_record_id: Mapped[str] = mapped_column(
+        String,
+        ForeignKey("answer_records.id", ondelete="CASCADE"),
+        nullable=False,
+        index=True,
+    )
+    # Order of the claim within the answer (0-based).
+    claim_index: Mapped[int] = mapped_column(Integer, nullable=False)
+    claim_text: Mapped[str] = mapped_column(Text, nullable=False)
+    # JSON list of {source_number, filename, page} the claim cites.
+    # Empty list = uncited => an "unsupported" claim.
+    citations_json: Mapped[str] = mapped_column(Text, nullable=False, default="[]")
+    # Retrieval-derived uncertainty marker: "ok" | "weak" | "unsupported".
+    marker: Mapped[str] = mapped_column(String, nullable=False, default="ok")
+
+    # Adjudication — "pending" until the user acts; then accepted | rejected | edited.
+    decision: Mapped[str] = mapped_column(String, nullable=False, default="pending")
+    edited_text: Mapped[str | None] = mapped_column(Text, nullable=True)
+    decided_at: Mapped[datetime | None] = mapped_column(DateTime, nullable=True)
+
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=_utcnow, index=True)
+
+
+# ============================================================
+# IngestionEvent — health audit trail
+# ============================================================
+
+
+class IngestionEvent(Base):
+    __tablename__ = "ingestion_events"
+
+    id: Mapped[str] = mapped_column(String, primary_key=True, default=lambda: str(uuid4()))
+    document_id: Mapped[str] = mapped_column(
+        String, ForeignKey("documents.id", ondelete="CASCADE"), nullable=False, index=True
+    )
+    timestamp: Mapped[datetime] = mapped_column(DateTime, default=_utcnow)
+    event_type: Mapped[str] = mapped_column(String)
+    extractor: Mapped[str | None] = mapped_column(String, nullable=True)
+    chunks_produced: Mapped[int | None] = mapped_column(Integer, nullable=True)
+    health_status: Mapped[str | None] = mapped_column(String, nullable=True)
+    error_message: Mapped[str | None] = mapped_column(Text, nullable=True)
+    notes: Mapped[str | None] = mapped_column(Text, nullable=True)
+
+    document: Mapped[Document] = relationship("Document", back_populates="ingestion_events")
+
+
+class ConversationMeta(Base):
+    """Per-conversation management state (pin / archive / soft-delete), keyed by ``session_id``.
+
+    Conversations are *derived* by grouping ``AnswerRecord`` rows (there is no conversation
+    entity), so this sidecar holds the small mutable state a user sets on a whole conversation.
+    A row exists only once an action has been taken; an **absent** row means the defaults (not
+    pinned, not archived, not deleted). Additive — ``create_all`` makes the table.
+
+    **Soft delete:** ``deleted_at`` non-null hides the conversation from the list but retains its
+    ``AnswerRecord`` provenance (reversible; a permanent purge is a later, separate action).
+    """
+
+    __tablename__ = "conversation_meta"
+
+    session_id: Mapped[str] = mapped_column(String, primary_key=True)
+    pinned: Mapped[bool] = mapped_column(Boolean, nullable=False, default=False)
+    archived: Mapped[bool] = mapped_column(Boolean, nullable=False, default=False)
+    deleted_at: Mapped[datetime | None] = mapped_column(DateTime, nullable=True)
+    # A user-set title; when null the list/detail fall back to the derived first-question title.
+    title_override: Mapped[str | None] = mapped_column(Text, nullable=True)
+    updated_at: Mapped[datetime] = mapped_column(DateTime, default=_utcnow, onupdate=_utcnow)
+
+
+class DocumentMeta(Base):
+    """User-defined metadata overrides for a document, keyed by ``document_id`` (ADR-013).
+
+    ``Document.title``/``authors``/``year`` hold the *auto-extracted* values (the default,
+    populated by the metadata-enrichment pass). This sidecar holds the *user override* for each
+    field — the **effective** value shown in the library is ``override ?? default``. A row exists
+    only once the user edits a field; an **absent** row (or an all-null one) means "no overrides,
+    use the defaults". Reset-to-default = delete the row. Keeping overrides here (not on
+    ``documents``) isolates the first browse-time write path from the extraction-populated
+    registry, so a re-run of enrichment never clobbers a user edit. Additive — ``create_all``
+    makes the table, no migration (mirrors ``ConversationMeta``).
+
+    ``document_id`` is a real foreign key with ``ON DELETE CASCADE`` (ADR-026). It shipped
+    without one, which made an override *outlive* its document: the orphan sweep and the old
+    ``--rebuild`` bulk delete removed ``Document`` rows without touching this table, leaving rows
+    nothing could ever read and nothing would ever clean. ``delete_document`` still deletes the
+    override explicitly — harmless now, and it keeps the ADR-014 path readable — but correctness
+    no longer depends on every caller remembering. Unlike ``ConversationMeta``, which cannot have
+    an FK (conversations are *derived* from ``AnswerRecord`` grouping; there is no table to point
+    at), this one always had a parent to reference.
+    """
+
+    __tablename__ = "document_meta"
+
+    document_id: Mapped[str] = mapped_column(
+        String, ForeignKey("documents.id", ondelete="CASCADE"), primary_key=True
+    )
+    title_override: Mapped[str | None] = mapped_column(Text, nullable=True)
+    authors_override: Mapped[str | None] = mapped_column(Text, nullable=True)
+    year_override: Mapped[int | None] = mapped_column(Integer, nullable=True)
+    updated_at: Mapped[datetime] = mapped_column(DateTime, default=_utcnow, onupdate=_utcnow)
+
+
+class ExternalMetadata(Base):
+    """What an outside catalogue said about a file, recorded when it was imported (ADR-049).
+
+    A reference manager's metadata is *curated by a person* — it is the reason someone keeps one —
+    so it is strictly better than what `metadata_extractor` can infer from a PDF's first page, and
+    KI-54 is a standing example of the gap. This table is where that answer is kept.
+
+    **Why a table and not just a write into `Document`.** Two reasons, both about time. The
+    metadata arrives at *import*, before the file has been extracted, so there is no `Document`
+    row to write it onto yet. And once there is one, `Document.title` means "the best answer the
+    machine has" — a slot every metadata re-run overwrites by design (`reingest._rerun_metadata`).
+    Keeping the catalogue's answer here makes it survive those, and makes the *provenance*
+    recoverable: with the row present, the library can say where a title came from instead of
+    presenting a curated one and a guessed one identically.
+
+    Keyed by ``(source, path_key)`` rather than ``document_id`` for the same reason: the file is
+    known before the document is. ``path_key`` is the normalised absolute path
+    (`ingest.registry.pathkey`), which is what `Document.source_original` is matched against.
+
+    Vendor-neutral by construction (the spec's ADR-3): ``source`` is a plain label
+    (``"zotero"``), and every column here is a field any reference manager has. Nothing in this
+    table, or in anything reading it, knows a vendor schema — that lives in
+    `adapters/zotero.py` alone.
+
+    Additive via ``create_all``, like `Figure` and `DocumentMeta`. No FK: the row legitimately
+    predates any document, and outliving one is the point rather than a leak — re-importing the
+    same library must not have to re-read the catalogue.
+    """
+
+    __tablename__ = "external_metadata"
+    __table_args__ = (
+        Index("uq_external_metadata_source_path", "source", "path_key", unique=True),
+    )
+
+    id: Mapped[str] = mapped_column(String, primary_key=True, default=lambda: str(uuid4()))
+    #: Which catalogue said this — ``"zotero"`` today. A label, never an import.
+    source: Mapped[str] = mapped_column(String, nullable=False, index=True)
+    #: Normalised absolute path of the file the catalogue described (`registry.pathkey`).
+    path_key: Mapped[str] = mapped_column(String, nullable=False, index=True)
+    #: The catalogue's own id for the item, for a later re-sync. Opaque to us.
+    external_key: Mapped[str | None] = mapped_column(String, nullable=True)
+
+    title: Mapped[str | None] = mapped_column(Text, nullable=True)
+    #: Comma-joined, matching `Document.authors` — the same convention the extractor writes.
+    authors: Mapped[str | None] = mapped_column(Text, nullable=True)
+    year: Mapped[int | None] = mapped_column(Integer, nullable=True)
+    doi: Mapped[str | None] = mapped_column(String, nullable=True)
+    #: The catalogue's item type (``journalArticle``, ``book``, …) — the substrate for the dormant
+    #: `SourceFile.doc_type`, stored now so activating it needs no second import.
+    item_type: Mapped[str | None] = mapped_column(String, nullable=True)
+    #: JSON list of collection/shelf names the item sits in; the substrate for folders.
+    collections_json: Mapped[str | None] = mapped_column(Text, nullable=True)
+
+    imported_at: Mapped[datetime] = mapped_column(DateTime, default=_utcnow, onupdate=_utcnow)
+
+
+# ============================================================
+# SourceRoot / SourceFile — selective-ingestion registry (feature-selective-ingestion.md, S1),
+# made multi-root by ADR-046 (AD3b).
+# ============================================================
+
+#: The id of the one `library` root — the folder Provenote keeps copied-in documents in.
+#: A fixed sentinel rather than a uuid on purpose: the AD3b migration has to backfill every
+#: pre-existing `SourceFile` to it, and a constant makes that a literal column DEFAULT (so the
+#: ADR-026 rebuild carries the value across without a second UPDATE pass) and makes re-running
+#: the migration a no-op. Referenced roots get uuids like everything else.
+LIBRARY_ROOT_ID = "library"
+
+
+class SourceRoot(Base):
+    """A folder the registry scans. Exactly one is the ``library`` root; the rest are referenced.
+
+    ADR-046: a document you add is either **copied** into the library folder or **referenced**
+    where it already lives, and the app must know which — because delete branches on it (ADR-014
+    as amended) and because a referenced file is the user's own, sitting in their Zotero/Dropbox
+    folder. Referencing a file outside the one source dir is what makes this a schema change
+    rather than a UI one: `SourceFile` was keyed by `rel_path` alone, with no root column.
+
+    ``path`` is absolute. It is *not* unique-indexed for the library root, whose path follows
+    `app_settings.get_source_dir()` and therefore changes when the user moves their library —
+    the row is updated in place rather than re-seeded, so `root_id` references never dangle.
+
+    **Availability is not stored here.** Whether a root is reachable right now (an unplugged
+    drive, an offline share) is a fact about the filesystem this second, exactly like
+    `registry.derive_status`'s output — so it is derived at read time by
+    `registry.scan_roots`, never persisted. Storing it would create a second truth that goes
+    stale the moment a drive is plugged back in.
+    """
+
+    __tablename__ = "source_roots"
+
+    id: Mapped[str] = mapped_column(String, primary_key=True, default=lambda: str(uuid4()))
+    #: Absolute path to the folder. POSIX or native separators as the OS gave them.
+    path: Mapped[str] = mapped_column(String, nullable=False)
+    #: ``library`` (Provenote's own folder, exactly one) or ``referenced`` (the user's own).
+    kind: Mapped[str] = mapped_column(String, nullable=False, default="referenced", index=True)
+    added_at: Mapped[datetime] = mapped_column(DateTime, default=_utcnow)
+
+
+class SourceFile(Base):
+    """One discovered file under one registered `SourceRoot` — pre-ingest bookkeeping.
+
+    Populated by `ingest/registry.py::scan_sources` with a **stat-only** walk (no
+    extraction, no hashing, no content reads — listing a large corpus is instant).
+    Persists **identity** (`rel_path`, `format`, `size`, `mtime`, `first_seen`/`last_seen`)
+    and **user intent** (`excluded`); ingestion *status* is never stored — it is derived at
+    read time from the cache mtime + the `Document` rows (`registry.derive_status`). No FK to
+    `Document` (linkage is a read-time join on `source_original`, nothing to drift). Rides the
+    additive `init_db()` `create_all`, like `Figure`.
+
+    **Keyed by `(root_id, rel_path)` since ADR-046 (AD3b)** — `rel_path` alone was the key while
+    there was exactly one source dir, and it is POSIX-separated and relative to its own root. A
+    rename still orphans the row (unchanged v1 limitation: the content-hash dedup gate prevents
+    re-embedding, so only per-path metadata is lost).
+
+    `doc_type` ships **dormant** (grill lock 2026-07-15): the column exists but nothing seeds,
+    reads, or writes it in v1 — the source is flat all-PDF, so per-file classification is
+    manual busywork with no consumer yet (it is *not* a chunk/embed lever). It lives here now
+    only because `create_all` cannot ALTER a column onto an existing table later; when doc_type
+    graduates it becomes a behaviour-only add, no migration. See the spec's amendment block.
+    """
+
+    __tablename__ = "source_files"
+    __table_args__ = (
+        # Expressed as a unique *Index* rather than a UniqueConstraint deliberately: SQLite can
+        # `CREATE UNIQUE INDEX` on a live table but cannot `ALTER` a constraint onto one, so this
+        # form is reachable by migration as well as by `create_all`. It replaces the old
+        # `unique=True` on `rel_path` alone.
+        Index("uq_source_files_root_rel", "root_id", "rel_path", unique=True),
+    )
+
+    id: Mapped[str] = mapped_column(String, primary_key=True, default=lambda: str(uuid4()))
+
+    # ADR-046 (AD3b): a registered file is `(root, rel_path)`, not `rel_path`. The FK is real and
+    # enforced (`PRAGMA foreign_keys=ON`) — an FK-less link is exactly what let `document_meta`
+    # rows outlive their document until ADR-026 had to rebuild the table, and there is no reason
+    # to repeat it. `server_default` is load-bearing, not decoration: the ADR-026 rebuild copies
+    # only columns present in both shapes, so the literal DEFAULT is what backfills every
+    # pre-AD3b row to the library root during the copy itself (KI-25 discipline).
+    root_id: Mapped[str] = mapped_column(
+        String,
+        ForeignKey("source_roots.id"),
+        nullable=False,
+        server_default=LIBRARY_ROOT_ID,
+        index=True,
+    )
+    # rel_path is POSIX-style and relative to **its own root** — no longer unique on its own,
+    # because the same `papers/rag.pdf` may legitimately exist under two different roots.
+    rel_path: Mapped[str] = mapped_column(String, nullable=False, index=True)
+    format: Mapped[str] = mapped_column(String, nullable=False)  # suffix sans dot, lowercased
+    size: Mapped[int] = mapped_column(Integer, nullable=False)
+    mtime: Mapped[float] = mapped_column(Float, nullable=False)  # source st_mtime at last scan
+
+    # Dormant in v1 (see class docstring). Nullable; never seeded/read/written yet.
+    doc_type: Mapped[str | None] = mapped_column(String, nullable=True, default=None)
+    # User intent: an excluded file is skipped by every *implicit* ingest walk (an explicit
+    # --files/paths pick overrides it). The one field that genuinely needs persistence.
+    excluded: Mapped[bool] = mapped_column(Boolean, nullable=False, default=False)
+
+    # ADR-046: identity for the *add* question ("do I already have these bytes?"), as opposed to
+    # `Document.doc_hash`, which is over the EXTRACTED text and answers "already indexed?". The two
+    # deliberately coexist until RG-027 collapses them, and they can disagree.
+    #
+    # Nullable and lazily filled: rows predating AD2 have never been hashed, and `library/add.py`
+    # only ever fills a row it already had to read to answer a duplicate question. A NULL here
+    # means "not yet computed", never "no duplicate" — the size index decides what gets hashed.
+    # `index=True` matches what the AD2 migration already created on live databases
+    # (`ix_source_files_source_sha256`). Without it declared here, `create_all` would leave a
+    # FRESH database without the index a migrated one has — and the AD3b rebuild, which recreates
+    # indexes from the model, would drop it.
+    source_sha256: Mapped[str | None] = mapped_column(
+        String, nullable=True, default=None, index=True
+    )
+
+    # ADR-046 - did the app copy this file in, or is it referencing the user's own? It decides
+    # what delete may do: a *referenced* original must never be binned (ADR-014 is amended for
+    # exactly this). Defaults to 'copied' because every row predating AD3 lives under the source
+    # dir by construction, so the backfill value is the truth rather than a guess.
+    origin: Mapped[str] = mapped_column(String, nullable=False, default="copied")
+
+    first_seen: Mapped[datetime] = mapped_column(DateTime, default=_utcnow)
+    # Refreshed to now on every scan that still sees the file; a vanished file keeps its old
+    # last_seen and derives `missing`.
+    last_seen: Mapped[datetime] = mapped_column(DateTime, default=_utcnow)

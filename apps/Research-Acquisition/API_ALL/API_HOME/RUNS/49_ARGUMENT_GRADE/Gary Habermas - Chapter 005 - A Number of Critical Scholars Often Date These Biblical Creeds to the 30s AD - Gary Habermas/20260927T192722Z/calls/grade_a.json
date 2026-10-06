@@ -1,0 +1,707 @@
+{
+  "name": "grade_a",
+  "parsed": {
+    "arguments": [
+      {
+        "id": "G1",
+        "name": "Creeds predate the written Gospels",
+        "conclusion": "The earliest Christian creeds were formulated and circulating before the writing of the New Testament Gospels.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1: The best-known creeds must be pre-50 AD because 1 Thessalonians, the most commonly dated early book, is usually placed around 48-50 AD.",
+          "P2: If Jesus died around 30 AD, the gap between the crucifixion and these creeds is only about 15-20 years.",
+          "P3: This places the creeds earlier than Mark and all the Gospels."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "That's earlier than Mark earlier than all the gospels."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "I often count the creeds well we know for sure that the a number of the best known creeds have to be pre-50."
+          },
+          "st3": {
+            "v": 1,
+            "quote": "Because that's the most common date given to 1 Thessalonians."
+          },
+          "st4": {
+            "v": 1,
+            "quote": "Some people put 1 Thessalonians at uh 48."
+          },
+          "st5": {
+            "v": 0,
+            "quote": ""
+          },
+          "st6": {
+            "v": 2,
+            "quote": "Put this way 33 to 48 is only 15 years."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 0,
+            "quote": ""
+          }
+        },
+        "prior_art": "Gary Habermas, The Historical Jesus (1996) / creeds-before-Gospels argument",
+        "originality": {
+          "or1": {
+            "v": 0,
+            "quote": "we know for sure that the a number of the best known creeds have to be pre-50",
+            "why": "This is Habermas's own well-known pre-Gospel creedal dating argument, restated."
+          },
+          "or2": {
+            "v": 0,
+            "quote": "Because that's the most common date given to 1 Thessalonians.",
+            "why": "No new evidence beyond the standard 1 Thessalonians dating."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain bridge."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization or model."
+          }
+        },
+        "weakest_link": "P1 (the pre-50 dating of 1 Thessalonians) is asserted as 'most common' without citation of the dating evidence.",
+        "develop_next": "Cite the specific scholars and the reasoning that fixes 1 Thessalonians at 48-50 AD, and address the minority who date it later.",
+        "case_map": [
+          "K16",
+          "F4"
+        ],
+        "domain": "history"
+      },
+      {
+        "id": "G2",
+        "name": "Paul assumes audience knowledge of creedal content",
+        "conclusion": "Paul's letters presuppose that his audiences already knew the core creedal definitions about Jesus.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1: When Paul writes 1 Thessalonians, he does not define who Christ is or explain what makes him deity.",
+          "P2: He assumes his audience already knows those definitions.",
+          "P3: In a Greek culture, using 'Lord' without definition would be ambiguous unless the meaning was already established.",
+          "P4: This presupposes earlier material that predates 1 Thessalonians."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "So that presumes a previous material before first Cor- first Thess."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "He he they his audience knows what those definitions are."
+          },
+          "st3": {
+            "v": 1,
+            "quote": "And to a Greek culture it'd be really iffy to say Lord in Greek and assume they have the same view of Lord as you do."
+          },
+          "st4": {
+            "v": 1,
+            "quote": "Because he never gives definitions."
+          },
+          "st5": {
+            "v": 0,
+            "quote": ""
+          },
+          "st6": {
+            "v": 1,
+            "quote": "So that presumes a previous material before first Cor- first Thess."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 0,
+            "quote": ""
+          }
+        },
+        "prior_art": "Gary Habermas, The Historical Jesus (1996) / pre-Pauline tradition argument",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "to a Greek culture it'd be really iffy to say Lord in Greek and assume they have the same view of Lord as you do",
+            "why": "Variant on the standard criterion that Paul's undefined terms imply prior catechesis."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "And to a Greek culture it'd be really iffy to say Lord in Greek",
+            "why": "Adds the Greco-Roman religious-pluralism point as evidence."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain bridge."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization."
+          }
+        },
+        "weakest_link": "The inference from 'Paul gives no definitions' to 'the audience already held the full deity creed' (the argument from silence).",
+        "develop_next": "Show specific texts where Paul's assumed terminology can only be explained by an existing fixed creed rather than generic Christian preaching.",
+        "case_map": [
+          "K16",
+          "F4"
+        ],
+        "domain": "history"
+      },
+      {
+        "id": "G3",
+        "name": "Other early epistles contain early creeds",
+        "conclusion": "Creeds are also found in other early Pauline letters, reinforcing an early date for the oral tradition.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1: 1 Corinthians is often dated to around 53 AD and contains creedal material in 1 Corinthians 15:3 and following.",
+          "P2: Romans contains major creeds such as Romans 10:9 and Romans 1:3-4.",
+          "P3: These letters are early, so the creeds they cite must be earlier still."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "Well, they've got to be before those books are written."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "Rome Romans has some of the major ones. Romans 10:9, Romans 1:3 and 4."
+          },
+          "st3": {
+            "v": 1,
+            "quote": "Well, Corinthians has come back for a lot of people to 53 AD."
+          },
+          "st4": {
+            "v": 2,
+            "quote": "Well, they've got to be before those books are written."
+          },
+          "st5": {
+            "v": 0,
+            "quote": ""
+          },
+          "st6": {
+            "v": 2,
+            "quote": "I mean, these earliest ones are pretty early."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 1,
+            "quote": "Rome Romans has some of the major ones."
+          }
+        },
+        "prior_art": "Gary Habermas, The Historical Jesus (1996) / pre-Pauline creed lists",
+        "originality": {
+          "or1": {
+            "v": 0,
+            "quote": "first Corinthians 15:3 and following",
+            "why": "Standard creed-list argument already in Habermas and in the wider literature."
+          },
+          "or2": {
+            "v": 0,
+            "quote": "",
+            "why": "No new evidence."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain bridge."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization."
+          }
+        },
+        "weakest_link": "P3: that a creed quoted in a 53 AD letter must predate the letter by a significant margin (it only must predate it).",
+        "develop_next": "Establish how long before 1 Corinthians the creed must have formed (e.g., linguistic/Aramaic traces, Paul's reception language in 15:3).",
+        "case_map": [
+          "K16",
+          "F4"
+        ],
+        "domain": "history"
+      },
+      {
+        "id": "G4",
+        "name": "Bart Ehrman has dated 1 Corinthians 15 creed to the 30s",
+        "conclusion": "Even Bart Ehrman has classified the 1 Corinthians 15 creed as originating in the 30s AD, despite later distancing himself from that view.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1: Ehrman previously put the 1 Corinthians 15 creed in the 30s.",
+          "P2: Ehrman later said he did not mean that.",
+          "P3: Habermas has found 8-10 instances in Ehrman's writings where he says '30s,' and two or three where he says 'first two or three years.'"
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "he was classified putting it in the 30s for the first Corinthians 15 for example and then he's come out and said, \"No, he didn't mean that.\""
+          },
+          "st2": {
+            "v": 2,
+            "quote": "I have already I already found a list of I think it's up 10-ish, eight to 10 times where he says 30s and two or three of those he says first two or three years."
+          },
+          "st3": {
+            "v": 1,
+            "quote": "it's in his writings."
+          },
+          "st4": {
+            "v": 2,
+            "quote": "I never said that, but it's in his writings."
+          },
+          "st5": {
+            "v": 1,
+            "quote": "then he's come out and said, \"No, he didn't mean that.\""
+          },
+          "st6": {
+            "v": 2,
+            "quote": "eight to 10 times where he says 30s and two or three of those he says first two or three years"
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 0,
+            "quote": ""
+          }
+        },
+        "prior_art": "Bart Ehrman, Did Jesus Exist? (2012) / Habermas's citation of Ehrman on the 30s dating",
+        "originality": {
+          "or1": {
+            "v": 2,
+            "quote": "I already found a list of I think it's up 10-ish, eight to 10 times where he says 30s",
+            "why": "A specific documented tally of an opponent's own statements, not a restatement of a prior argument."
+          },
+          "or2": {
+            "v": 2,
+            "quote": "eight to 10 times where he says 30s and two or three of those he says first two or three years",
+            "why": "Provides source-count evidence from Ehrman's corpus."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain bridge."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization."
+          }
+        },
+        "weakest_link": "The citation trail is asserted but no specific titles/pages are given in the transcript, so the count cannot be verified from the source alone.",
+        "develop_next": "List the exact Ehrman works and page numbers for each '30s' statement so the tally is checkable.",
+        "case_map": [
+          "K16",
+          "F4"
+        ],
+        "domain": "history"
+      },
+      {
+        "id": "G5",
+        "name": "Majority of scholars date oral tradition to the 30s",
+        "conclusion": "A majority of scholars included in Habermas's volume three would place the development of the oral tradition in the 30s AD.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1: Habermas has surveyed a large number of scholars in his volumes.",
+          "P2: He states that dating the oral tradition to the 30s is very common among them."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "Oh, sometime in the 30s I think is very common."
+          },
+          "st2": {
+            "v": 1,
+            "quote": "the majority of scholars that you included in in volume three and stuff like that, they they would put this oral tradition developing in that earliest phase, sometime in the 30s"
+          },
+          "st3": {
+            "v": 1,
+            "quote": "Oh, sometime in the 30s I think is very common."
+          },
+          "st4": {
+            "v": 1,
+            "quote": "Oh, sometime in the 30s I think is very common."
+          },
+          "st5": {
+            "v": 0,
+            "quote": ""
+          },
+          "st6": {
+            "v": 1,
+            "quote": "Oh, sometime in the 30s I think is very common."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 0,
+            "quote": ""
+          }
+        },
+        "prior_art": "Gary Habermas, The Historical Jesus (1996) / survey of scholarly dating",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "the majority of scholars that you included in in volume three",
+            "why": "A variant appeal to Habermas's own multi-volume survey rather than a new argument."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "the majority of scholars that you included in in volume three",
+            "why": "Uses his own survey data as support."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain bridge."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization."
+          }
+        },
+        "weakest_link": "The claim is a bare appeal to an unpublished/unshown survey; no numbers, names or sampling method are given.",
+        "develop_next": "Report the actual survey counts (how many scholars, which dates) so 'majority' can be checked.",
+        "case_map": [
+          "K16",
+          "F4"
+        ],
+        "domain": "history"
+      },
+      {
+        "id": "G6",
+        "name": "Jesus Seminar admits pre-Pauline creed",
+        "conclusion": "Even the Jesus Seminar, despite rejecting most of Jesus's words, acknowledges that the 1 Corinthians 15 creed existed before Paul's conversion.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1: The Jesus Seminar rejects 91% of the red-letter words of Jesus, and 82% if pink words are included.",
+          "P2: In volume two, the Jesus Seminar says that 1 Corinthians 15:3-5 or more verses is a creed Paul cites but did not author.",
+          "P3: They say the creed or its component parts existed before Paul's journey to Damascus.",
+          "P4: Paul became a Christian two to three years after the cross according to both conservatives and liberals (e.g., Bultmann).",
+          "P5: Therefore the creed existed within about two to three years of the crucifixion."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "they say in volume two, toward the back, they say that the 1 Corinthians 15:3 and following, three to five or more verses, um Paul's, it's not Paul, but Paul cites a creed."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "They said that creed or its component parts was already in existence before Paul took his walk to Damascus."
+          },
+          "st3": {
+            "v": 2,
+            "quote": "conservatives and liberals believe that Paul became a Christian two to three years, Bultmann, two to three years after the cross."
+          },
+          "st4": {
+            "v": 2,
+            "quote": "If he became a Christian two to three years after the cross, that means that at probably plus two, cuz it happened before Paul's two to three."
+          },
+          "st5": {
+            "v": 1,
+            "quote": "you go, \"Well, anybody can say things that's conservative once in a while."
+          },
+          "st6": {
+            "v": 2,
+            "quote": "So if they say that and that's plus three max, I would think plus anywhere in the first 10 is pretty"
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 1,
+            "quote": "the Jesus Seminar, back to them again, who reject but the strongest rating"
+          }
+        },
+        "prior_art": "Robert Funk et al. (Jesus Seminar), The Acts of Jesus (1998); Habermas's use of the Seminar's creedal concession",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "they say in volume two, toward the back, they say that the 1 Corinthians 15:3 and following... Paul cites a creed",
+            "why": "Habermas's familiar hostile-witness move, here with the Seminar's own wording."
+          },
+          "or2": {
+            "v": 2,
+            "quote": "they say in volume two, toward the back, they say that the 1 Corinthians 15:3 and following",
+            "why": "Cites the Seminar's own published concession as new support."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain bridge."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization."
+          }
+        },
+        "weakest_link": "P4: the two-to-three-year conversion date is asserted for 'conservatives and liberals' with only Bultmann named.",
+        "develop_next": "Quote the Seminar's actual sentence and page, and cite multiple liberal and conservative scholars for the conversion date.",
+        "case_map": [
+          "K16",
+          "F4"
+        ],
+        "domain": "history"
+      },
+      {
+        "id": "G7",
+        "name": "Paul's persecution implies early creedal knowledge",
+        "conclusion": "Paul's pre-conversion persecution of the church makes sense if the early creed was already being taught.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1: Paul was 'breathing out threatenings against the church' before his conversion.",
+          "P2: He already knew what the early Christians were teaching in the creed.",
+          "P3: Romans 10:9, another early creed, contains the classic gospel of deity, death, and resurrection.",
+          "P4: If that creed was circulating before Paul's conversion, he would have been angry because it was blasphemy to him."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "Cuz he already knew what they were teaching in the early creed."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "He said, \"Breathing out threatenings against the church.\""
+          },
+          "st3": {
+            "v": 1,
+            "quote": "And verses like Romans 10:9, which is another early creed, \"If confess with your mouth that Jesus is Lord and believe in your heart that God's raised him from the dead, you'll be saved.\""
+          },
+          "st4": {
+            "v": 1,
+            "quote": "And if that was out there before he was converted, yeah, he's going to be mad because that's blasphemy."
+          },
+          "st5": {
+            "v": 0,
+            "quote": ""
+          },
+          "st6": {
+            "v": 1,
+            "quote": "Cuz he already knew what they were teaching in the early creed."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 0,
+            "quote": ""
+          }
+        },
+        "prior_art": "Gary Habermas, The Historical Jesus (1996) / pre-conversion Paul as evidence of early high christology",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "Cuz he already knew what they were teaching in the early creed.",
+            "why": "Variant on the standard argument from Paul's persecution."
+          },
+          "or2": {
+            "v": 0,
+            "quote": "",
+            "why": "No new evidence."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain bridge."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization."
+          }
+        },
+        "weakest_link": "P2: the inference that Paul's anger requires knowledge of the specific creed rather than of Christian claims generally.",
+        "develop_next": "Show from Paul's own letters (e.g., Galatians 1, Philippians 3) what he says he was persecuting and why, to ground the blasphemy motive.",
+        "case_map": [
+          "K16",
+          "F4"
+        ],
+        "domain": "history"
+      },
+      {
+        "id": "G8",
+        "name": "Paul's undisputed letters contain early creedal material",
+        "conclusion": "The seven undisputed Pauline letters contain early creedal material, and critics grant Paul was an eyewitness.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1: Critics admit Paul was an eyewitness and generally accept the seven undisputed letters: Romans, 1-2 Corinthians, Galatians, Philippians, 1 Thessalonians, and Philemon.",
+          "P2: Paul has these early verses in those letters.",
+          "P3: In Romans 10:9, Paul cites a creed and then applies an Old Testament word for Jehovah to Jesus, indicating deity.",
+          "P4: Therefore these creedal statements are very early."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "And Paul has the those verses there early."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "And that's uh Romans, first second Corinthians, Galatians, Philippians, uh first Thessalonians, and the little book Philemon."
+          },
+          "st3": {
+            "v": 1,
+            "quote": "In Romans 10:9, it's not his, but the creed he cites, he cites a verse right after it that goes to the Old Testament in the same word in the Greek calls is talking about Jehovah."
+          },
+          "st4": {
+            "v": 1,
+            "quote": "That's the word he applies to Jesus in the new."
+          },
+          "st5": {
+            "v": 0,
+            "quote": ""
+          },
+          "st6": {
+            "v": 1,
+            "quote": "So yeah, these things are very early."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 1,
+            "quote": "In Romans 10:9, it's not his, but the creed he cites"
+          }
+        },
+        "prior_art": "Gary Habermas, The Historical Jesus (1996) / undisputed-Paul methodology",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "Critics admit that Paul was an eyewitness.",
+            "why": "Variant on the standard undisputed-letters criterion used by critical scholars."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "he cites a verse right after it that goes to the Old Testament in the same word in the Greek calls is talking about Jehovah.",
+            "why": "Uses the LXX/Jehovah word-transfer as support for deity in an early creed."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain bridge."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization."
+          }
+        },
+        "weakest_link": "P3/P4: the step from 'Paul applies a Jehovah-text to Jesus' to 'the creedal material is very early' needs the linguistic link spelled out.",
+        "develop_next": "Specify the Greek word and the Old Testament passage Paul cites in Romans 10:9-13 so the deity transfer can be checked.",
+        "case_map": [
+          "K16",
+          "F4"
+        ],
+        "domain": "history"
+      },
+      {
+        "id": "G9",
+        "name": "Dating the creed to the 30s is common",
+        "conclusion": "It is very common to date the creedal tradition to the 30s AD, within the first ten years after the crucifixion.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1: The Jesus Seminar itself says the creed existed before Paul's conversion, which is at most about three years after the cross.",
+          "P2: Habermas can cite a number of scholars who date it between 30 and 39 AD.",
+          "P3: Therefore dating it anywhere in the first ten years is reasonable."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "But I think to say the 30s before 40, very common."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "I can give you a number of guys who will date it between 30."
+          },
+          "st3": {
+            "v": 1,
+            "quote": "a lot of guys who say it from 30 to 39."
+          },
+          "st4": {
+            "v": 1,
+            "quote": "So if they say that and that's plus three max, I would think plus anywhere in the first 10 is pretty"
+          },
+          "st5": {
+            "v": 1,
+            "quote": "you go, \"Well, anybody can say things that's conservative once in a while."
+          },
+          "st6": {
+            "v": 2,
+            "quote": "But I think to say the 30s before 40, very common."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 1,
+            "quote": "the Jesus Seminar itself says the creed existed before Paul's conversion"
+          }
+        },
+        "prior_art": "Gary Habermas, The Historical Jesus (1996) / scholarly consensus on early creedal dating",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "I can give you a number of guys who will date it between 30.",
+            "why": "Variant summary of the same consensus-dating argument."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "a lot of guys who say it from 30 to 39.",
+            "why": "Aggregates named scholars as support."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain bridge."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization."
+          }
+        },
+        "weakest_link": "P2: the named scholars are promised but not actually listed in the source, so the consensus claim is unverifiable here.",
+        "develop_next": "Name the scholars and their dates explicitly, with publication references, to substantiate 'very common.'",
+        "case_map": [
+          "K16",
+          "F4"
+        ],
+        "domain": "history"
+      }
+    ]
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "grade_a",
+      "attempt": 1,
+      "text": "{\"arguments\": [\n {\"id\": \"G1\", \"name\": \"Creeds predate the written Gospels\", \"conclusion\": \"The earliest Christian creeds were formulated and circulating before the writing of the New Testament Gospels.\", \"speaker\": \"Gary Habermas\",\n  \"premises\": [\"P1: The best-known creeds must be pre-50 AD because 1 Thessalonians, the most commonly dated early book, is usually placed around 48-50 AD.\", \"P2: If Jesus died around 30 AD, the gap between the crucifixion and these creeds is only about 15-20 years.\", \"P3: This places the creeds earlier than Mark and all the Gospels.\"],\n  \"strength\": {\n   \"st1\": {\"v\": 2, \"quote\": \"That's earlier than Mark earlier than all the gospels.\"},\n   \"st2\": {\"v\": 2, \"quote\": \"I often count the creeds well we know for sure that the a number of the best known creeds have to be pre-50.\"},\n   \"st3\": {\"v\": 1, \"quote\": \"Because that's the most common date given to 1 Thessalonians.\"},\n   \"st4\": {\"v\": 1, \"quote\": \"Some people put 1 Thessalonians at uh 48.\"},\n   \"st5\": {\"v\": 0, \"quote\": \"\"},\n   \"st6\": {\"v\": 2, \"quote\": \"Put this way 33 to 48 is only 15 years.\"},\n   \"st7\": {\"v\": 0, \"quote\": \"\"},\n   \"st8\": {\"v\": 0, \"quote\": \"\"}\n  },\n  \"prior_art\": \"Gary Habermas, The Historical Jesus (1996) / creeds-before-Gospels argument\",\n  \"originality\": {\n   \"or1\": {\"v\": 0, \"quote\": \"we know for sure that the a number of the best known creeds have to be pre-50\", \"why\": \"This is Habermas's own well-known pre-Gospel creedal dating argument, restated.\"},\n   \"or2\": {\"v\": 0, \"quote\": \"Because that's the most common date given to 1 Thessalonians.\", \"why\": \"No new evidence beyond the standard 1 Thessalonians dating.\"},\n   \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain bridge.\"},\n   \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization or model.\"}\n  },\n  \"weakest_link\": \"P1 (the pre-50 dating of 1 Thessalonians) is asserted as 'most common' without citation of the dating evidence.\",\n  \"develop_next\": \"Cite the specific scholars and the reasoning that fixes 1 Thessalonians at 48-50 AD, and address the minority who date it later.\",\n  \"case_map\": [\"K16\", \"F4\"], \"domain\": \"history\"},\n {\"id\": \"G2\", \"name\": \"Paul assumes audience knowledge of creedal content\", \"conclusion\": \"Paul's letters presuppose that his audiences already knew the core creedal definitions about Jesus.\", \"speaker\": \"Gary Habermas\",\n  \"premises\": [\"P1: When Paul writes 1 Thessalonians, he does not define who Christ is or explain what makes him deity.\", \"P2: He assumes his audience already knows those definitions.\", \"P3: In a Greek culture, using 'Lord' without definition would be ambiguous unless the meaning was already established.\", \"P4: This presupposes earlier material that predates 1 Thessalonians.\"],\n  \"strength\": {\n   \"st1\": {\"v\": 2, \"quote\": \"So that presumes a previous material before first Cor- first Thess.\"},\n   \"st2\": {\"v\": 2, \"quote\": \"He he they his audience knows what those definitions are.\"},\n   \"st3\": {\"v\": 1, \"quote\": \"And to a Greek culture it'd be really iffy to say Lord in Greek and assume they have the same view of Lord as you do.\"},\n   \"st4\": {\"v\": 1, \"quote\": \"Because he never gives definitions.\"},\n   \"st5\": {\"v\": 0, \"quote\": \"\"},\n   \"st6\": {\"v\": 1, \"quote\": \"So that presumes a previous material before first Cor- first Thess.\"},\n   \"st7\": {\"v\": 0, \"quote\": \"\"},\n   \"st8\": {\"v\": 0, \"quote\": \"\"}\n  },\n  \"prior_art\": \"Gary Habermas, The Historical Jesus (1996) / pre-Pauline tradition argument\",\n  \"originality\": {\n   \"or1\": {\"v\": 1, \"quote\": \"to a Greek culture it'd be really iffy to say Lord in Greek and assume they have the same view of Lord as you do\", \"why\": \"Variant on the standard criterion that Paul's undefined terms imply prior catechesis.\"},\n   \"or2\": {\"v\": 1, \"quote\": \"And to a Greek culture it'd be really iffy to say Lord in Greek\", \"why\": \"Adds the Greco-Roman religious-pluralism point as evidence.\"},\n   \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain bridge.\"},\n   \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization.\"}\n  },\n  \"weakest_link\": \"The inference from 'Paul gives no definitions' to 'the audience already held the full deity creed' (the argument from silence).\",\n  \"develop_next\": \"Show specific texts where Paul's assumed terminology can only be explained by an existing fixed creed rather than generic Christian preaching.\",\n  \"case_map\": [\"K16\", \"F4\"], \"domain\": \"history\"},\n {\"id\": \"G3\", \"name\": \"Other early epistles contain early creeds\", \"conclusion\": \"Creeds are also found in other early Pauline letters, reinforcing an early date for the oral tradition.\", \"speaker\": \"Gary Habermas\",\n  \"premises\": [\"P1: 1 Corinthians is often dated to around 53 AD and contains creedal material in 1 Corinthians 15:3 and following.\", \"P2: Romans contains major creeds such as Romans 10:9 and Romans 1:3-4.\", \"P3: These letters are early, so the creeds they cite must be earlier still.\"],\n  \"strength\": {\n   \"st1\": {\"v\": 2, \"quote\": \"Well, they've got to be before those books are written.\"},\n   \"st2\": {\"v\": 2, \"quote\": \"Rome Romans has some of the major ones. Romans 10:9, Romans 1:3 and 4.\"},\n   \"st3\": {\"v\": 1, \"quote\": \"Well, Corinthians has come back for a lot of people to 53 AD.\"},\n   \"st4\": {\"v\": 2, \"quote\": \"Well, they've got to be before those books are written.\"},\n   \"st5\": {\"v\": 0, \"quote\": \"\"},\n   \"st6\": {\"v\": 2, \"quote\": \"I mean, these earliest ones are pretty early.\"},\n   \"st7\": {\"v\": 0, \"quote\": \"\"},\n   \"st8\": {\"v\": 1, \"quote\": \"Rome Romans has some of the major ones.\"}\n  },\n  \"prior_art\": \"Gary Habermas, The Historical Jesus (1996) / pre-Pauline creed lists\",\n  \"originality\": {\n   \"or1\": {\"v\": 0, \"quote\": \"first Corinthians 15:3 and following\", \"why\": \"Standard creed-list argument already in Habermas and in the wider literature.\"},\n   \"or2\": {\"v\": 0, \"quote\": \"\", \"why\": \"No new evidence.\"},\n   \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain bridge.\"},\n   \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization.\"}\n  },\n  \"weakest_link\": \"P3: that a creed quoted in a 53 AD letter must predate the letter by a significant margin (it only must predate it).\",\n  \"develop_next\": \"Establish how long before 1 Corinthians the creed must have formed (e.g., linguistic/Aramaic traces, Paul's reception language in 15:3).\",\n  \"case_map\": [\"K16\", \"F4\"], \"domain\": \"history\"},\n {\"id\": \"G4\", \"name\": \"Bart Ehrman has dated 1 Corinthians 15 creed to the 30s\", \"conclusion\": \"Even Bart Ehrman has classified the 1 Corinthians 15 creed as originating in the 30s AD, despite later distancing himself from that view.\", \"speaker\": \"Gary Habermas\",\n  \"premises\": [\"P1: Ehrman previously put the 1 Corinthians 15 creed in the 30s.\", \"P2: Ehrman later said he did not mean that.\", \"P3: Habermas has found 8-10 instances in Ehrman's writings where he says '30s,' and two or three where he says 'first two or three years.'\"],\n  \"strength\": {\n   \"st1\": {\"v\": 2, \"quote\": \"he was classified putting it in the 30s for the first Corinthians 15 for example and then he's come out and said, \\\"No, he didn't mean that.\\\"\"},\n   \"st2\": {\"v\": 2, \"quote\": \"I have already I already found a list of I think it's up 10-ish, eight to 10 times where he says 30s and two or three of those he says first two or three years.\"},\n   \"st3\": {\"v\": 1, \"quote\": \"it's in his writings.\"},\n   \"st4\": {\"v\": 2, \"quote\": \"I never said that, but it's in his writings.\"},\n   \"st5\": {\"v\": 1, \"quote\": \"then he's come out and said, \\\"No, he didn't mean that.\\\"\"},\n   \"st6\": {\"v\": 2, \"quote\": \"eight to 10 times where he says 30s and two or three of those he says first two or three years\"},\n   \"st7\": {\"v\": 0, \"quote\": \"\"},\n   \"st8\": {\"v\": 0, \"quote\": \"\"}\n  },\n  \"prior_art\": \"Bart Ehrman, Did Jesus Exist? (2012) / Habermas's citation of Ehrman on the 30s dating\",\n  \"originality\": {\n   \"or1\": {\"v\": 2, \"quote\": \"I already found a list of I think it's up 10-ish, eight to 10 times where he says 30s\", \"why\": \"A specific documented tally of an opponent's own statements, not a restatement of a prior argument.\"},\n   \"or2\": {\"v\": 2, \"quote\": \"eight to 10 times where he says 30s and two or three of those he says first two or three years\", \"why\": \"Provides source-count evidence from Ehrman's corpus.\"},\n   \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain bridge.\"},\n   \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization.\"}\n  },\n  \"weakest_link\": \"The citation trail is asserted but no specific titles/pages are given in the transcript, so the count cannot be verified from the source alone.\",\n  \"develop_next\": \"List the exact Ehrman works and page numbers for each '30s' statement so the tally is checkable.\",\n  \"case_map\": [\"K16\", \"F4\"], \"domain\": \"history\"},\n {\"id\": \"G5\", \"name\": \"Majority of scholars date oral tradition to the 30s\", \"conclusion\": \"A majority of scholars included in Habermas's volume three would place the development of the oral tradition in the 30s AD.\", \"speaker\": \"Gary Habermas\",\n  \"premises\": [\"P1: Habermas has surveyed a large number of scholars in his volumes.\", \"P2: He states that dating the oral tradition to the 30s is very common among them.\"],\n  \"strength\": {\n   \"st1\": {\"v\": 2, \"quote\": \"Oh, sometime in the 30s I think is very common.\"},\n   \"st2\": {\"v\": 1, \"quote\": \"the majority of scholars that you included in in volume three and stuff like that, they they would put this oral tradition developing in that earliest phase, sometime in the 30s\"},\n   \"st3\": {\"v\": 1, \"quote\": \"Oh, sometime in the 30s I think is very common.\"},\n   \"st4\": {\"v\": 1, \"quote\": \"Oh, sometime in the 30s I think is very common.\"},\n   \"st5\": {\"v\": 0, \"quote\": \"\"},\n   \"st6\": {\"v\": 1, \"quote\": \"Oh, sometime in the 30s I think is very common.\"},\n   \"st7\": {\"v\": 0, \"quote\": \"\"},\n   \"st8\": {\"v\": 0, \"quote\": \"\"}\n  },\n  \"prior_art\": \"Gary Habermas, The Historical Jesus (1996) / survey of scholarly dating\",\n  \"originality\": {\n   \"or1\": {\"v\": 1, \"quote\": \"the majority of scholars that you included in in volume three\", \"why\": \"A variant appeal to Habermas's own multi-volume survey rather than a new argument.\"},\n   \"or2\": {\"v\": 1, \"quote\": \"the majority of scholars that you included in in volume three\", \"why\": \"Uses his own survey data as support.\"},\n   \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain bridge.\"},\n   \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization.\"}\n  },\n  \"weakest_link\": \"The claim is a bare appeal to an unpublished/unshown survey; no numbers, names or sampling method are given.\",\n  \"develop_next\": \"Report the actual survey counts (how many scholars, which dates) so 'majority' can be checked.\",\n  \"case_map\": [\"K16\", \"F4\"], \"domain\": \"history\"},\n {\"id\": \"G6\", \"name\": \"Jesus Seminar admits pre-Pauline creed\", \"conclusion\": \"Even the Jesus Seminar, despite rejecting most of Jesus's words, acknowledges that the 1 Corinthians 15 creed existed before Paul's conversion.\", \"speaker\": \"Gary Habermas\",\n  \"premises\": [\"P1: The Jesus Seminar rejects 91% of the red-letter words of Jesus, and 82% if pink words are included.\", \"P2: In volume two, the Jesus Seminar says that 1 Corinthians 15:3-5 or more verses is a creed Paul cites but did not author.\", \"P3: They say the creed or its component parts existed before Paul's journey to Damascus.\", \"P4: Paul became a Christian two to three years after the cross according to both conservatives and liberals (e.g., Bultmann).\", \"P5: Therefore the creed existed within about two to three years of the crucifixion.\"],\n  \"strength\": {\n   \"st1\": {\"v\": 2, \"quote\": \"they say in volume two, toward the back, they say that the 1 Corinthians 15:3 and following, three to five or more verses, um Paul's, it's not Paul, but Paul cites a creed.\"},\n   \"st2\": {\"v\": 2, \"quote\": \"They said that creed or its component parts was already in existence before Paul took his walk to Damascus.\"},\n   \"st3\": {\"v\": 2, \"quote\": \"conservatives and liberals believe that Paul became a Christian two to three years, Bultmann, two to three years after the cross.\"},\n   \"st4\": {\"v\": 2, \"quote\": \"If he became a Christian two to three years after the cross, that means that at probably plus two, cuz it happened before Paul's two to three.\"},\n   \"st5\": {\"v\": 1, \"quote\": \"you go, \\\"Well, anybody can say things that's conservative once in a while.\"},\n   \"st6\": {\"v\": 2, \"quote\": \"So if they say that and that's plus three max, I would think plus anywhere in the first 10 is pretty\"},\n   \"st7\": {\"v\": 0, \"quote\": \"\"},\n   \"st8\": {\"v\": 1, \"quote\": \"the Jesus Seminar, back to them again, who reject but the strongest rating\"}\n  },\n  \"prior_art\": \"Robert Funk et al. (Jesus Seminar), The Acts of Jesus (1998); Habermas's use of the Seminar's creedal concession\",\n  \"originality\": {\n   \"or1\": {\"v\": 1, \"quote\": \"they say in volume two, toward the back, they say that the 1 Corinthians 15:3 and following... Paul cites a creed\", \"why\": \"Habermas's familiar hostile-witness move, here with the Seminar's own wording.\"},\n   \"or2\": {\"v\": 2, \"quote\": \"they say in volume two, toward the back, they say that the 1 Corinthians 15:3 and following\", \"why\": \"Cites the Seminar's own published concession as new support.\"},\n   \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain bridge.\"},\n   \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization.\"}\n  },\n  \"weakest_link\": \"P4: the two-to-three-year conversion date is asserted for 'conservatives and liberals' with only Bultmann named.\",\n  \"develop_next\": \"Quote the Seminar's actual sentence and page, and cite multiple liberal and conservative scholars for the conversion date.\",\n  \"case_map\": [\"K16\", \"F4\"], \"domain\": \"history\"},\n {\"id\": \"G7\", \"name\": \"Paul's persecution implies early creedal knowledge\", \"conclusion\": \"Paul's pre-conversion persecution of the church makes sense if the early creed was already being taught.\", \"speaker\": \"Gary Habermas\",\n  \"premises\": [\"P1: Paul was 'breathing out threatenings against the church' before his conversion.\", \"P2: He already knew what the early Christians were teaching in the creed.\", \"P3: Romans 10:9, another early creed, contains the classic gospel of deity, death, and resurrection.\", \"P4: If that creed was circulating before Paul's conversion, he would have been angry because it was blasphemy to him.\"],\n  \"strength\": {\n   \"st1\": {\"v\": 2, \"quote\": \"Cuz he already knew what they were teaching in the early creed.\"},\n   \"st2\": {\"v\": 2, \"quote\": \"He said, \\\"Breathing out threatenings against the church.\\\"\"},\n   \"st3\": {\"v\": 1, \"quote\": \"And verses like Romans 10:9, which is another early creed, \\\"If confess with your mouth that Jesus is Lord and believe in your heart that God's raised him from the dead, you'll be saved.\\\"\"},\n   \"st4\": {\"v\": 1, \"quote\": \"And if that was out there before he was converted, yeah, he's going to be mad because that's blasphemy.\"},\n   \"st5\": {\"v\": 0, \"quote\": \"\"},\n   \"st6\": {\"v\": 1, \"quote\": \"Cuz he already knew what they were teaching in the early creed.\"},\n   \"st7\": {\"v\": 0, \"quote\": \"\"},\n   \"st8\": {\"v\": 0, \"quote\": \"\"}\n  },\n  \"prior_art\": \"Gary Habermas, The Historical Jesus (1996) / pre-conversion Paul as evidence of early high christology\",\n  \"originality\": {\n   \"or1\": {\"v\": 1, \"quote\": \"Cuz he already knew what they were teaching in the early creed.\", \"why\": \"Variant on the standard argument from Paul's persecution.\"},\n   \"or2\": {\"v\": 0, \"quote\": \"\", \"why\": \"No new evidence.\"},\n   \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain bridge.\"},\n   \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization.\"}\n  },\n  \"weakest_link\": \"P2: the inference that Paul's anger requires knowledge of the specific creed rather than of Christian claims generally.\",\n  \"develop_next\": \"Show from Paul's own letters (e.g., Galatians 1, Philippians 3) what he says he was persecuting and why, to ground the blasphemy motive.\",\n  \"case_map\": [\"K16\", \"F4\"], \"domain\": \"history\"},\n {\"id\": \"G8\", \"name\": \"Paul's undisputed letters contain early creedal material\", \"conclusion\": \"The seven undisputed Pauline letters contain early creedal material, and critics grant Paul was an eyewitness.\", \"speaker\": \"Gary Habermas\",\n  \"premises\": [\"P1: Critics admit Paul was an eyewitness and generally accept the seven undisputed letters: Romans, 1-2 Corinthians, Galatians, Philippians, 1 Thessalonians, and Philemon.\", \"P2: Paul has these early verses in those letters.\", \"P3: In Romans 10:9, Paul cites a creed and then applies an Old Testament word for Jehovah to Jesus, indicating deity.\", \"P4: Therefore these creedal statements are very early.\"],\n  \"strength\": {\n   \"st1\": {\"v\": 2, \"quote\": \"And Paul has the those verses there early.\"},\n   \"st2\": {\"v\": 2, \"quote\": \"And that's uh Romans, first second Corinthians, Galatians, Philippians, uh first Thessalonians, and the little book Philemon.\"},\n   \"st3\": {\"v\": 1, \"quote\": \"In Romans 10:9, it's not his, but the creed he cites, he cites a verse right after it that goes to the Old Testament in the same word in the Greek calls is talking about Jehovah.\"},\n   \"st4\": {\"v\": 1, \"quote\": \"That's the word he applies to Jesus in the new.\"},\n   \"st5\": {\"v\": 0, \"quote\": \"\"},\n   \"st6\": {\"v\": 1, \"quote\": \"So yeah, these things are very early.\"},\n   \"st7\": {\"v\": 0, \"quote\": \"\"},\n   \"st8\": {\"v\": 1, \"quote\": \"In Romans 10:9, it's not his, but the creed he cites\"}\n  },\n  \"prior_art\": \"Gary Habermas, The Historical Jesus (1996) / undisputed-Paul methodology\",\n  \"originality\": {\n   \"or1\": {\"v\": 1, \"quote\": \"Critics admit that Paul was an eyewitness.\", \"why\": \"Variant on the standard undisputed-letters criterion used by critical scholars.\"},\n   \"or2\": {\"v\": 1, \"quote\": \"he cites a verse right after it that goes to the Old Testament in the same word in the Greek calls is talking about Jehovah.\", \"why\": \"Uses the LXX/Jehovah word-transfer as support for deity in an early creed.\"},\n   \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain bridge.\"},\n   \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization.\"}\n  },\n  \"weakest_link\": \"P3/P4: the step from 'Paul applies a Jehovah-text to Jesus' to 'the creedal material is very early' needs the linguistic link spelled out.\",\n  \"develop_next\": \"Specify the Greek word and the Old Testament passage Paul cites in Romans 10:9-13 so the deity transfer can be checked.\",\n  \"case_map\": [\"K16\", \"F4\"], \"domain\": \"history\"},\n {\"id\": \"G9\", \"name\": \"Dating the creed to the 30s is common\", \"conclusion\": \"It is very common to date the creedal tradition to the 30s AD, within the first ten years after the crucifixion.\", \"speaker\": \"Gary Habermas\",\n  \"premises\": [\"P1: The Jesus Seminar itself says the creed existed before Paul's conversion, which is at most about three years after the cross.\", \"P2: Habermas can cite a number of scholars who date it between 30 and 39 AD.\", \"P3: Therefore dating it anywhere in the first ten years is reasonable.\"],\n  \"strength\": {\n   \"st1\": {\"v\": 2, \"quote\": \"But I think to say the 30s before 40, very common.\"},\n   \"st2\": {\"v\": 2, \"quote\": \"I can give you a number of guys who will date it between 30.\"},\n   \"st3\": {\"v\": 1, \"quote\": \"a lot of guys who say it from 30 to 39.\"},\n   \"st4\": {\"v\": 1, \"quote\": \"So if they say that and that's plus three max, I would think plus anywhere in the first 10 is pretty\"},\n   \"st5\": {\"v\": 1, \"quote\": \"you go, \\\"Well, anybody can say things that's conservative once in a while.\"},\n   \"st6\": {\"v\": 2, \"quote\": \"But I think to say the 30s before 40, very common.\"},\n   \"st7\": {\"v\": 0, \"quote\": \"\"},\n   \"st8\": {\"v\": 1, \"quote\": \"the Jesus Seminar itself says the creed existed before Paul's conversion\"}\n  },\n  \"prior_art\": \"Gary Habermas, The Historical Jesus (1996) / scholarly consensus on early creedal dating\",\n  \"originality\": {\n   \"or1\": {\"v\": 1, \"quote\": \"I can give you a number of guys who will date it between 30.\", \"why\": \"Variant summary of the same consensus-dating argument.\"},\n   \"or2\": {\"v\": 1, \"quote\": \"a lot of guys who say it from 30 to 39.\", \"why\": \"Aggregates named scholars as support.\"},\n   \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain bridge.\"},\n   \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization.\"}\n  },\n  \"weakest_link\": \"P2: the named scholars are promised but not actually listed in the source, so the consensus claim is unverifiable here.\",\n  \"develop_next\": \"Name the scholars and their dates explicitly, with publication references, to substantiate 'very common.'\",\n  \"case_map\": [\"K16\", \"F4\"], \"domain\": \"history\"}\n]}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 5156,
+      "completion_tokens": 6027,
+      "attempts": 1,
+      "elapsed_seconds": 20.17199999999866,
+      "started_at": "2026-09-27T19:27:29.703259+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T19:27:49.870961+00:00",
+      "tokens": 11183
+    }
+  ],
+  "prompt_sha256": "ee104ba96576b23f42bd012196d88b9ffa70f42d198c2667018edcbf108d33f0",
+  "tokens": 11183
+}

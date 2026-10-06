@@ -1,0 +1,38 @@
+plugins {
+    id 'java'
+
+    id 'jvm-test-suite'
+}
+
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(rootProject.ext.jvmVersion))
+    }
+}
+
+apply from: "$rootProject.projectDir/srcsets.gradle"
+
+dependencies {
+    implementation project(':code:libraries:coded-sequence')
+    implementation project(':code:functions:language-processing')
+    implementation project(':code:libraries:array')
+    implementation project(':code:common:model')
+    implementation project(':code:processes:converting-process:model')
+    implementation project(':third-party:commons-codec')
+
+    implementation libs.bundles.slf4j
+
+    implementation libs.slop
+    implementation libs.prometheus
+    implementation libs.notnull
+    implementation libs.guava
+    implementation libs.trove
+    implementation libs.zstd
+    implementation libs.fastutil
+    implementation libs.commons.lang3
+    implementation libs.roaringbitmap
+
+    testImplementation libs.bundles.slf4j.test
+    testImplementation libs.bundles.junit
+    testImplementation libs.mockito
+}

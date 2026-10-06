@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en-US">
+{{> control/partials/head-includes }}
+<head><title>Control Service: Node {{node.id}}</title></head>
+<body>
+{{> control/partials/nav}}
+
+<div class="container">
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/nodes">nodes</a></li>
+            <li class="breadcrumb-item">node-{{node.id}}</li>
+        </ol>
+    </nav>
+
+    {{> control/node/partial-node-nav }}
+
+    <div class="container">
+        {{>control/partials/storage-types}}
+
+        <h1>Storage Details</h1>
+        {{#with storage.self.storage}}
+        <table class="table">
+            <tr>
+                <th>Type</th>
+                <th>Path</th>
+                <th>Details</th>
+            </tr>
+            <tr>
+                <td>{{type}}</td>
+                <td>{{path}}</td>
+                <td>{{description}}</td>
+            </tr>
+        </table>
+        {{/with}}
+
+        <h2>Actions</h2>
+        <table class="table">
+            <tr>
+                <th>Description</th>
+                <th>Trigger</th>
+            </tr>
+            {{#with storage.self}}
+                {{#if isStatusNew}}
+                    <form method="post" action="/nodes/{{node.id}}/storage/reset-state/{{storage.id}}" onsubmit="return confirm('Confirm removal of \'NEW\' state for {{storage.path}}')">
+                        <tr>
+                            <td>Remove 'CREATING' state (use this if the generating process stopped)</td>
+                            <td><button class="btn btn-primary" type="submit">Reset State</button></td>
+                        </tr>
+                    </form>
+                {{/if}}
+
+                {{#if isDeletable}}
+                    <form method="post" action="/nodes/{{node.id}}/storage/{{storage.id}}/delete" onsubmit="return confirm('Confirm deletion of {{storage.path}}')">
+                        <tr>
+                            <td>Delete this data</td>
+                            <td><button class="btn btn-danger" type="submit">Delete</button></td>
+                        </tr>
+                    </form>
+                {{/if}}
+            {{/with}}
+        </table>
+
+        {{#if view.crawl}}
+          <h1 class="my-3">Crawl Data</h1>
+          <table class="table">
+            <tr>
+            <th>Domain</th>
+            <th>Count</th>
+            </tr>
+            <form method="get" action="/nodes/{{node.id}}/storage/details">
+                <tr>
+                    <input type="hidden" name="fid" value="{{storage.id}}">
+                    <td> <input type="text" name="filterDomain" value="{{crawlDataFiles.filter}}" placeholder="Filter"> <button class="btn btn-secondary btn-sm" type="submit">Filter</button> </td>
+                    <td></td>
+                </tr>
+            </form>
+
+            {{#each crawlDataFiles.files}}
+                <tr>
+                    <td><a href="/nodes/{{node.id}}/storage/crawl-parquet-info?fid={{storage.id}}&path={{{path}}}">{{domain}}</a></td>
+                    <td>{{count}}</td>
+                </tr>
+            {{/each}}
+
+            {{#if crawlDataFiles.nextAfter}}
+            <tr>
+                <td></td>
+                <td>
+                    <a href="/nodes/{{node.id}}/storage/details?fid={{storage.id}}&filterDomain={{crawlDataFiles.filter}}&afterDomain={{crawlDataFiles.nextAfter}}">Next</a>
+                </td>
+            </tr>
+            {{/if}}
+
+            </table>
+        {{/if}}
+
+        {{#with storage}}
+            {{>control/partials/storage-details/related}}
+        {{/with}}
+        {{#with storage}}
+            {{>control/partials/storage-details/files}}
+        {{/with}}
+
+    </div>
+
+
+
+</div>
+</body>
+{{> control/partials/foot-includes }}
+</html>

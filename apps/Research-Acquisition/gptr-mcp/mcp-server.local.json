@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "gpt-researcher-deepseek": {
+      "command": "cmd.exe",
+      "args": [
+        "/c",
+        "D:\\GitHub\\Research-Acquisition\\gptr-mcp\\START_GPTR_MCP.bat"
+      ]
+    }
+  }
+}

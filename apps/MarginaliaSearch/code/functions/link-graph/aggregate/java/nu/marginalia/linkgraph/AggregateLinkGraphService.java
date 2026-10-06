@@ -1,0 +1,104 @@
+package nu.marginalia.linkgraph;
+
+import com.google.inject.Inject;
+import io.grpc.stub.StreamObserver;
+import nu.marginalia.api.linkgraph.*;
+import nu.marginalia.api.linkgraph.PartitionLinkGraphApiGrpc.PartitionLinkGraphApiBlockingStub;
+import nu.marginalia.service.server.DiscoverableService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.util.List;
+
+/** This class is responsible for aggregating the link graph data from the partitioned link graph
+ * services.  It exposes its own gRPC service (AggregateLinkGraphApi) distinct from the per-partition
+ * LinkGraphApi to avoid ambiguous service discovery.
+ */
+public class AggregateLinkGraphService
+        extends AggregateLinkGraphApiGrpc.AggregateLinkGraphApiImplBase
+        implements DiscoverableService
+{
+    private static final Logger logger = LoggerFactory.getLogger(AggregateLinkGraphService.class);
+    private final PartitionLinkGraphClient client;
+
+    @Inject
+    public AggregateLinkGraphService(PartitionLinkGraphClient client) {
+        this.client = client;
+    }
+
+    @Override
+    public void getAllLinks(Empty request,
+                            StreamObserver<RpcDomainIdPairs> responseObserver) {
+
+        client.getChannelPool().call(PartitionLinkGraphApiBlockingStub::getAllLinks)
+                .run(Empty.getDefaultInstance(), (node, ex) -> { throw ex; })
+                .forEach(iter -> iter.forEachRemaining(responseObserver::onNext));
+
+        responseObserver.onCompleted();
+    }
+
+    @Override
+    public void getLinksFromDomain(RpcDomainId request,
+                                   StreamObserver<RpcDomainIdList> responseObserver) {
+        var rspBuilder = RpcDomainIdList.newBuilder();
+
+        client.getChannelPool().call(PartitionLinkGraphApiBlockingStub::getLinksFromDomain)
+                .run(request, (node, ex) -> logger.warn("Failed to invoke getLinksFromDomain() on partition {}", node, ex))
+                .stream()
+                .map(RpcDomainIdList::getDomainIdList)
+                .flatMap(List::stream)
+                .forEach(rspBuilder::addDomainId);
+
+        responseObserver.onNext(rspBuilder.build());
+        responseObserver.onCompleted();
+    }
+
+    @Override
+    public void getLinksToDomain(RpcDomainId request,
+                                 StreamObserver<RpcDomainIdList> responseObserver) {
+        var rspBuilder = RpcDomainIdList.newBuilder();
+
+
+        client.getChannelPool().call(PartitionLinkGraphApiBlockingStub::getLinksToDomain)
+                .run(request, (node, ex) -> logger.warn("Failed to invoke getLinksToDomain() on partition {}", node, ex))
+                .stream()
+                .map(RpcDomainIdList::getDomainIdList)
+                .flatMap(List::stream)
+                .forEach(rspBuilder::addDomainId);
+
+        responseObserver.onNext(rspBuilder.build());
+        responseObserver.onCompleted();
+    }
+
+    @Override
+    public void countLinksFromDomain(RpcDomainId request,
+                                     StreamObserver<RpcDomainIdCount> responseObserver) {
+        int sum = client.getChannelPool().call(PartitionLinkGraphApiBlockingStub::countLinksFromDomain)
+                .run(request, (node, ex) -> logger.warn("Failed to invoke countLinksFromDomain() on partition {}", node, ex))
+                .stream()
+                .mapToInt(RpcDomainIdCount::getIdCount)
+                .sum();
+
+        var rspBuilder = RpcDomainIdCount.newBuilder();
+        rspBuilder.setIdCount(sum);
+        responseObserver.onNext(rspBuilder.build());
+        responseObserver.onCompleted();
+    }
+
+    @Override
+    public void countLinksToDomain(RpcDomainId request,
+                                   StreamObserver<RpcDomainIdCount> responseObserver) {
+
+        int sum = client.getChannelPool().call(PartitionLinkGraphApiBlockingStub::countLinksToDomain)
+                .run(request, (node, ex) -> logger.warn("Failed to invoke countLinksToDomain() on partition {}", node, ex))
+                .stream()
+                .mapToInt(RpcDomainIdCount::getIdCount)
+                .sum();
+
+        var rspBuilder = RpcDomainIdCount.newBuilder();
+        rspBuilder.setIdCount(sum);
+        responseObserver.onNext(rspBuilder.build());
+        responseObserver.onCompleted();
+    }
+
+}

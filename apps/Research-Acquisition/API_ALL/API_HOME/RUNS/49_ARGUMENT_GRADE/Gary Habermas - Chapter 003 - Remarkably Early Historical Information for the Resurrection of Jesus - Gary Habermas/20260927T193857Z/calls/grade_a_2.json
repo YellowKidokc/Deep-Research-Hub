@@ -1,0 +1,475 @@
+{
+  "name": "grade_a_2",
+  "parsed": {
+    "type": "json_object",
+    "arguments": [
+      {
+        "id": "G7",
+        "name": "Gospels are Greco-Roman biographies",
+        "conclusion": "The Gospels should be classified as Greco-Roman biographies, which supports their use as historical sources for Jesus.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1: A major doctoral dissertation at the University of London in the last 20 years compared the genre of the Gospels to Greco-Roman bios.",
+          "P2: As a result, the majority view today is that the Gospels are biographies along the line of Greco-Roman biographies.",
+          "P3: This does not mean they are right in everything, but it means they are doing the work of the historian."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "the majority view today is that the Gospels are biographies along the line of Greco-Roman biographies"
+          },
+          "st2": {
+            "v": 1,
+            "quote": "a major doctoral dissertation was written at the University of London that changed the view that most critical scholars have in the New Testament"
+          },
+          "st3": {
+            "v": 1,
+            "quote": "a major doctoral dissertation was written at the University of London that changed the view that most critical scholars have in the New Testament"
+          },
+          "st4": {
+            "v": 1,
+            "quote": "Doesn't mean they're right in everything, but they're doing the work of the historian to start."
+          },
+          "st5": {
+            "v": 1,
+            "quote": "When I was in school many years ago, I was taught by a Christian teacher that you don't call the Gospels biographies because they're not."
+          },
+          "st6": {
+            "v": 1,
+            "quote": "Doesn't mean they're right in everything, but they're doing the work of the historian to start."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 0,
+            "quote": ""
+          }
+        },
+        "prior_art": "Richard Burridge, What Are the Gospels? A Comparison with Graeco-Roman Biography, 1992",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "the majority view today is that the Gospels are biographies along the line of Greco-Roman biographies",
+            "why": "Restates Burridge's genre thesis as a consensus claim rather than advancing a new argument."
+          },
+          "or2": {
+            "v": 0,
+            "quote": ""
+          },
+          "or3": {
+            "v": 0,
+            "quote": ""
+          },
+          "or4": {
+            "v": 0,
+            "quote": ""
+          }
+        },
+        "weakest_link": "The dissertation is never named and the 'majority view' is asserted without citation.",
+        "develop_next": "Name the dissertation (Burridge) and cite survey data establishing the majority-genre claim.",
+        "case_map": [
+          "K16",
+          "F4"
+        ],
+        "domain": "history"
+      },
+      {
+        "id": "G8",
+        "name": "Paul is an early, scholarly eyewitness accepted by critics",
+        "conclusion": "Paul provides early eyewitness testimony to the risen Jesus, and even skeptical critics accept that he had an experience of some sort.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1: Paul's first epistle, 1 Thessalonians, is dated about 50 AD, only about 20 years after Jesus.",
+          "P2: Even arch atheists believe Paul had an experience of some sort with the one he believed to be the risen Jesus.",
+          "P3: Paul did not make it up or steal the body; most naturalistic theories today are given up by scholars.",
+          "P4: Paul was an eyewitness, a scholar, and a Pharisee trained in carefully prescribed ways of teaching history and facts."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "But they like Paul because he's an eyewitness, and he's a scholar."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "1 Thessalonians is only 50 AD."
+          },
+          "st3": {
+            "v": 1,
+            "quote": "Josephus tells us what Pharisees did and they followed carefully prescribed ways of teaching their students that we would call history and the impartation of teaching facts today."
+          },
+          "st4": {
+            "v": 1,
+            "quote": "He had an experience of some sort with the one that he believed to be the risen Jesus."
+          },
+          "st5": {
+            "v": 1,
+            "quote": "They often don't define it."
+          },
+          "st6": {
+            "v": 1,
+            "quote": "even arch atheists believe that Paul had an experience of some sort"
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 1,
+            "quote": "Paul, one of the reasons Paul's the favorite is even arch atheists believe that Paul had an experience of some sort."
+          }
+        },
+        "prior_art": "Gary Habermas, 'The Minimal Facts Approach' / Habermas & Licona, The Case for the Resurrection of Jesus, 2004",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "Most naturalistic theories today are given up by scholars.",
+            "why": "Variant of Habermas's own minimal-facts argument, here compressed to Paul's eyewitness status."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "Josephus tells us what Pharisees did and they followed carefully prescribed ways of teaching their students",
+            "why": "Adds the Josephus/Pharisee historiographical-training point."
+          },
+          "or3": {
+            "v": 1,
+            "quote": "Josephus, by the way, was a Pharisee.",
+            "why": "Cross-domain link from first-century Jewish historiography to Pauline reliability."
+          },
+          "or4": {
+            "v": 0,
+            "quote": ""
+          }
+        },
+        "weakest_link": "P3 ('most naturalistic theories are given up') is asserted with no enumeration or citation.",
+        "develop_next": "List which naturalistic theories have been abandoned and by whom, with citations.",
+        "case_map": [
+          "K16",
+          "F4"
+        ],
+        "domain": "history"
+      },
+      {
+        "id": "G9",
+        "name": "Homologia and creeds preserve the earliest gospel message",
+        "conclusion": "The earliest agreed-upon Christian data (homologia) was the gospel preaching about Jesus' deity, death, and resurrection, and it was encapsulated in early, memorizable creeds.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1: The homologia is the earliest agreed-upon data in the early church, focused on the gospel preaching.",
+          "P2: Gerd Lüdemann says the preaching of the resurrection message started immediately after Jesus died.",
+          "P3: Creeds were early statements phrased for easy memorization because up to 90% of Jesus' audience was illiterate.",
+          "P4: Examples like 'Jack and Jill' and 'Amazing Grace' show how oral material can be taught to people who cannot read or write.",
+          "P5: The creeds were probably finished by about the time of 1 Thessalonians."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "the earliest agreed-upon data in the early church had to do with the gospel preaching"
+          },
+          "st2": {
+            "v": 2,
+            "quote": "the Creeds were early statements about the earliest church that were phrased in a way that could be easily memorized"
+          },
+          "st3": {
+            "v": 1,
+            "quote": "Gerd Lüdemann, prominent New Testament scholar, he said that when Jesus died, the preaching of the gospel message actually the preaching of the resurrection message started immediately."
+          },
+          "st4": {
+            "v": 1,
+            "quote": "The kernel is the homologia, and it's encapsulated in creeds."
+          },
+          "st5": {
+            "v": 0,
+            "quote": ""
+          },
+          "st6": {
+            "v": 1,
+            "quote": "These creeds are probably finished by about 1 Thessalonians."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 2,
+            "quote": "You say, \"Critics believe this?\" Yeah."
+          }
+        },
+        "prior_art": "Joachim Jeremias / Birger Gerhardsson on oral tradition and creedal formulae; Oscar Cullmann, The Earliest Christian Confessions, 1949",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "Picture a sunflower seed. The kernel, the part you eat, is the homologia, but now a shell has been put around it.",
+            "why": "The homologia/creed distinction is standard; the sunflower-seed image is a repackaging."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "scholars now think that not up to 90% of Jesus' audience were illiterate",
+            "why": "Brings illiteracy statistics and nursery-rhyme analogies as new support."
+          },
+          "or3": {
+            "v": 0,
+            "quote": ""
+          },
+          "or4": {
+            "v": 0,
+            "quote": ""
+          }
+        },
+        "weakest_link": "The 90% illiteracy figure and 'probably finished by 1 Thessalonians' are asserted without citation.",
+        "develop_next": "Cite the literacy studies and the specific creedal texts with their proposed dates.",
+        "case_map": [
+          "K16",
+          "F4"
+        ],
+        "domain": "history"
+      },
+      {
+        "id": "G10",
+        "name": "Bart Ehrman grants the creeds are early, Jerusalem-based, and apostolic",
+        "conclusion": "Even atheist critic Bart Ehrman concedes that the earliest creeds came from Jerusalem within 1-2 years of the cross, probably from the apostles, and that Paul knew them.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1: Bart Ehrman is the best-known critical scholar in North America and an atheist.",
+          "P2: Ehrman says the earliest creeds came out of Jerusalem, the right place, within 1-2 years after the cross, the right time.",
+          "P3: Ehrman says they possibly or probably came from the apostles, the right people, and Paul probably knew all of them.",
+          "P4: Paul was converted 2-3 years later and then met Jesus, which explains why he accepted the creeds."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "The earliest ones came out of Jerusalem, right place, within 1 to 2 years after the cross, right time, possibly or probably came from the apostles, right people, and Paul probably knew all of them."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "Bart Ehrman, best known critical scholar in North America, an atheist."
+          },
+          "st3": {
+            "v": 1,
+            "quote": "Here's what he says about these creeds."
+          },
+          "st4": {
+            "v": 1,
+            "quote": "And when Paul got killed a plus two to three years later, he was an angry man from here to here, probably because he knew those creeds and he hated the words."
+          },
+          "st5": {
+            "v": 0,
+            "quote": ""
+          },
+          "st6": {
+            "v": 1,
+            "quote": "possibly or probably came from the apostles"
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 0,
+            "quote": ""
+          }
+        },
+        "prior_art": "Bart Ehrman, Did Jesus Exist? / How Jesus Became God, 2014 (cited as hostile witness)",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "possibly or probably came from the apostles, right people, and Paul probably knew all of them",
+            "why": "Uses Ehrman as an adversarial witness, a standard minimal-facts move."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "The earliest ones came out of Jerusalem, right place, within 1 to 2 years after the cross, right time",
+            "why": "Puts Ehrman's dating concession at the center of the argument."
+          },
+          "or3": {
+            "v": 0,
+            "quote": ""
+          },
+          "or4": {
+            "v": 0,
+            "quote": ""
+          }
+        },
+        "weakest_link": "No work, page or quote is given for the Ehrman concession.",
+        "develop_next": "Supply the exact Ehrman citation and quotation rather than paraphrase.",
+        "case_map": [
+          "K16",
+          "F4"
+        ],
+        "domain": "history"
+      },
+      {
+        "id": "G11",
+        "name": "Paul's Jerusalem visit with Peter and James rules out telephone-game distortion",
+        "conclusion": "Paul's visit to Jerusalem about six years after the cross, where he spent 15 days with Peter and James, rules out the idea that the resurrection message was distorted like telephone tag.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1: Paul was converted 2-3 years after the cross and went to Jerusalem three years later, about 5-6 years after the cross.",
+          "P2: In Galatians 1:18 Paul says he spent 15 days with Peter and James, the brother of Jesus.",
+          "P3: The theme of Galatians is getting the gospel right; making it too big or too small is heresy.",
+          "P4: Paul went to Jerusalem to get the gospel right and to question the eyewitnesses.",
+          "P5: The Greek word historesai in Galatians 1:18 means to check something out, investigate, question, or ascertain, from which we get 'history.'",
+          "P6: Paul's first question would naturally be to hear the resurrection testimony of Peter and James in exchange for his Damascus road testimony.",
+          "P7: First-century sources exist for the martyrdoms of Paul, Peter, and James; nobody calls them liars or thinks they stole the body."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "It rules rules phone phone tag out because he got it from the eyewitnesses."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "He spends 15 days with Peter and James the brother of Jesus."
+          },
+          "st3": {
+            "v": 1,
+            "quote": "In Galatians 1:8, there's a Greek word historesai."
+          },
+          "st4": {
+            "v": 1,
+            "quote": "He goes to Jerusalem plus six, talks to James and Peter and questions them."
+          },
+          "st5": {
+            "v": 2,
+            "quote": "I said, well, let me make the objection worse. How do you know we don't have homologia and creeds and Paul's testimony, but it's telephone tag?"
+          },
+          "st6": {
+            "v": 1,
+            "quote": "But it keeps phone tag from being true."
+          },
+          "st7": {
+            "v": 1,
+            "quote": "You know how long it takes to make a myth?"
+          },
+          "st8": {
+            "v": 2,
+            "quote": "By the way, we have first century sources for the martyrdoms of Paul, Peter, and James."
+          }
+        },
+        "prior_art": "Gary Habermas, The Risen Jesus and Future Hope / minimal-facts literature on Galatians 1:18, 2003",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "It rules rules phone phone tag out because he got it from the eyewitnesses.",
+            "why": "Variant of the standard 'contact with eyewitnesses' argument, focused on the historesai word."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "In Galatians 1:8, there's a Greek word historesai.",
+            "why": "Foregrounds the lexical argument from historesai."
+          },
+          "or3": {
+            "v": 0,
+            "quote": ""
+          },
+          "or4": {
+            "v": 0,
+            "quote": ""
+          }
+        },
+        "weakest_link": "The inference from historesai to 'Paul interrogated Peter and James' is a lexical claim needing support.",
+        "develop_next": "Cite lexica and scholarly treatments of historesai in Gal 1:18 to secure the word study.",
+        "case_map": [
+          "K16",
+          "F4"
+        ],
+        "domain": "history"
+      },
+      {
+        "id": "G12",
+        "name": "Galatians 2 confirms Paul's gospel was affirmed by the pillars",
+        "conclusion": "At the later Jerusalem meeting, Paul presented his gospel to the pillars Peter, James, and John, and they added nothing to him, confirming his message was the same as the eyewitnesses'.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1: In Galatians 2:2 Paul says he went up again 14 years later and presented the gospel he preached to see if he had run in vain.",
+          "P2: He calls the apostles the pillars of the church and identifies James, Peter, and John as present.",
+          "P3: Paul says 'they added nothing to me,' meaning his gospel was not deficient.",
+          "P4: In Galatians 2:9 they gave Paul and Barnabas the right hand of fellowship, which is what one does with those one agrees with, not with heretics."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "They added nothing to me."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "Galatians 2:2, Paul goes up to Jerusalem 14 years later."
+          },
+          "st3": {
+            "v": 1,
+            "quote": "In Galatians 2:9 they lay hands on Paul and Barnabas."
+          },
+          "st4": {
+            "v": 1,
+            "quote": "I went to see them again, and I gave them the gospel presentation that I was preaching to see if I was running or had run in vain."
+          },
+          "st5": {
+            "v": 1,
+            "quote": "You say, \"Well, that makes sense, but how do we know that that's what they're talking about?\""
+          },
+          "st6": {
+            "v": 1,
+            "quote": "So now at just six years six is started, 14 is finished."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 1,
+            "quote": "They gave him the right hand of fellowship."
+          }
+        },
+        "prior_art": "J. B. Lightfoot / standard Galatians commentaries on the Jerusalem council and 'added nothing' (Gal 2:6), 19th c.-20th c.",
+        "originality": {
+          "or1": {
+            "v": 0,
+            "quote": "They added nothing to me.",
+            "why": "This is a straightforward exegesis of Gal 2 already standard in the literature."
+          },
+          "or2": {
+            "v": 0,
+            "quote": ""
+          },
+          "or3": {
+            "v": 0,
+            "quote": ""
+          },
+          "or4": {
+            "v": 0,
+            "quote": ""
+          }
+        },
+        "weakest_link": "The right-hand-of-fellowship inference assumes the gesture's significance without argument.",
+        "develop_next": "Cite ancient evidence for the right hand as a covenant/agreement gesture in the period.",
+        "case_map": [
+          "K16",
+          "F4"
+        ],
+        "domain": "history"
+      }
+    ]
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "grade_a_2",
+      "attempt": 1,
+      "text": "{\"type\": \"json_object\", \"arguments\": [{\"id\": \"G7\", \"name\": \"Gospels are Greco-Roman biographies\", \"conclusion\": \"The Gospels should be classified as Greco-Roman biographies, which supports their use as historical sources for Jesus.\", \"speaker\": \"Gary Habermas\", \"premises\": [\"P1: A major doctoral dissertation at the University of London in the last 20 years compared the genre of the Gospels to Greco-Roman bios.\", \"P2: As a result, the majority view today is that the Gospels are biographies along the line of Greco-Roman biographies.\", \"P3: This does not mean they are right in everything, but it means they are doing the work of the historian.\"], \"strength\": {\"st1\": {\"v\": 2, \"quote\": \"the majority view today is that the Gospels are biographies along the line of Greco-Roman biographies\"}, \"st2\": {\"v\": 1, \"quote\": \"a major doctoral dissertation was written at the University of London that changed the view that most critical scholars have in the New Testament\"}, \"st3\": {\"v\": 1, \"quote\": \"a major doctoral dissertation was written at the University of London that changed the view that most critical scholars have in the New Testament\"}, \"st4\": {\"v\": 1, \"quote\": \"Doesn't mean they're right in everything, but they're doing the work of the historian to start.\"}, \"st5\": {\"v\": 1, \"quote\": \"When I was in school many years ago, I was taught by a Christian teacher that you don't call the Gospels biographies because they're not.\"}, \"st6\": {\"v\": 1, \"quote\": \"Doesn't mean they're right in everything, but they're doing the work of the historian to start.\"}, \"st7\": {\"v\": 0, \"quote\": \"\"}, \"st8\": {\"v\": 0, \"quote\": \"\"}}, \"prior_art\": \"Richard Burridge, What Are the Gospels? A Comparison with Graeco-Roman Biography, 1992\", \"originality\": {\"or1\": {\"v\": 1, \"quote\": \"the majority view today is that the Gospels are biographies along the line of Greco-Roman biographies\", \"why\": \"Restates Burridge's genre thesis as a consensus claim rather than advancing a new argument.\"}, \"or2\": {\"v\": 0, \"quote\": \"\"}, \"or3\": {\"v\": 0, \"quote\": \"\"}, \"or4\": {\"v\": 0, \"quote\": \"\"}}, \"weakest_link\": \"The dissertation is never named and the 'majority view' is asserted without citation.\", \"develop_next\": \"Name the dissertation (Burridge) and cite survey data establishing the majority-genre claim.\", \"case_map\": [\"K16\", \"F4\"], \"domain\": \"history\"}, {\"id\": \"G8\", \"name\": \"Paul is an early, scholarly eyewitness accepted by critics\", \"conclusion\": \"Paul provides early eyewitness testimony to the risen Jesus, and even skeptical critics accept that he had an experience of some sort.\", \"speaker\": \"Gary Habermas\", \"premises\": [\"P1: Paul's first epistle, 1 Thessalonians, is dated about 50 AD, only about 20 years after Jesus.\", \"P2: Even arch atheists believe Paul had an experience of some sort with the one he believed to be the risen Jesus.\", \"P3: Paul did not make it up or steal the body; most naturalistic theories today are given up by scholars.\", \"P4: Paul was an eyewitness, a scholar, and a Pharisee trained in carefully prescribed ways of teaching history and facts.\"], \"strength\": {\"st1\": {\"v\": 2, \"quote\": \"But they like Paul because he's an eyewitness, and he's a scholar.\"}, \"st2\": {\"v\": 2, \"quote\": \"1 Thessalonians is only 50 AD.\"}, \"st3\": {\"v\": 1, \"quote\": \"Josephus tells us what Pharisees did and they followed carefully prescribed ways of teaching their students that we would call history and the impartation of teaching facts today.\"}, \"st4\": {\"v\": 1, \"quote\": \"He had an experience of some sort with the one that he believed to be the risen Jesus.\"}, \"st5\": {\"v\": 1, \"quote\": \"They often don't define it.\"}, \"st6\": {\"v\": 1, \"quote\": \"even arch atheists believe that Paul had an experience of some sort\"}, \"st7\": {\"v\": 0, \"quote\": \"\"}, \"st8\": {\"v\": 1, \"quote\": \"Paul, one of the reasons Paul's the favorite is even arch atheists believe that Paul had an experience of some sort.\"}}, \"prior_art\": \"Gary Habermas, 'The Minimal Facts Approach' / Habermas & Licona, The Case for the Resurrection of Jesus, 2004\", \"originality\": {\"or1\": {\"v\": 1, \"quote\": \"Most naturalistic theories today are given up by scholars.\", \"why\": \"Variant of Habermas's own minimal-facts argument, here compressed to Paul's eyewitness status.\"}, \"or2\": {\"v\": 1, \"quote\": \"Josephus tells us what Pharisees did and they followed carefully prescribed ways of teaching their students\", \"why\": \"Adds the Josephus/Pharisee historiographical-training point.\"}, \"or3\": {\"v\": 1, \"quote\": \"Josephus, by the way, was a Pharisee.\", \"why\": \"Cross-domain link from first-century Jewish historiography to Pauline reliability.\"}, \"or4\": {\"v\": 0, \"quote\": \"\"}}, \"weakest_link\": \"P3 ('most naturalistic theories are given up') is asserted with no enumeration or citation.\", \"develop_next\": \"List which naturalistic theories have been abandoned and by whom, with citations.\", \"case_map\": [\"K16\", \"F4\"], \"domain\": \"history\"}, {\"id\": \"G9\", \"name\": \"Homologia and creeds preserve the earliest gospel message\", \"conclusion\": \"The earliest agreed-upon Christian data (homologia) was the gospel preaching about Jesus' deity, death, and resurrection, and it was encapsulated in early, memorizable creeds.\", \"speaker\": \"Gary Habermas\", \"premises\": [\"P1: The homologia is the earliest agreed-upon data in the early church, focused on the gospel preaching.\", \"P2: Gerd Lüdemann says the preaching of the resurrection message started immediately after Jesus died.\", \"P3: Creeds were early statements phrased for easy memorization because up to 90% of Jesus' audience was illiterate.\", \"P4: Examples like 'Jack and Jill' and 'Amazing Grace' show how oral material can be taught to people who cannot read or write.\", \"P5: The creeds were probably finished by about the time of 1 Thessalonians.\"], \"strength\": {\"st1\": {\"v\": 2, \"quote\": \"the earliest agreed-upon data in the early church had to do with the gospel preaching\"}, \"st2\": {\"v\": 2, \"quote\": \"the Creeds were early statements about the earliest church that were phrased in a way that could be easily memorized\"}, \"st3\": {\"v\": 1, \"quote\": \"Gerd Lüdemann, prominent New Testament scholar, he said that when Jesus died, the preaching of the gospel message actually the preaching of the resurrection message started immediately.\"}, \"st4\": {\"v\": 1, \"quote\": \"The kernel is the homologia, and it's encapsulated in creeds.\"}, \"st5\": {\"v\": 0, \"quote\": \"\"}, \"st6\": {\"v\": 1, \"quote\": \"These creeds are probably finished by about 1 Thessalonians.\"}, \"st7\": {\"v\": 0, \"quote\": \"\"}, \"st8\": {\"v\": 2, \"quote\": \"You say, \\\"Critics believe this?\\\" Yeah.\"}}, \"prior_art\": \"Joachim Jeremias / Birger Gerhardsson on oral tradition and creedal formulae; Oscar Cullmann, The Earliest Christian Confessions, 1949\", \"originality\": {\"or1\": {\"v\": 1, \"quote\": \"Picture a sunflower seed. The kernel, the part you eat, is the homologia, but now a shell has been put around it.\", \"why\": \"The homologia/creed distinction is standard; the sunflower-seed image is a repackaging.\"}, \"or2\": {\"v\": 1, \"quote\": \"scholars now think that not up to 90% of Jesus' audience were illiterate\", \"why\": \"Brings illiteracy statistics and nursery-rhyme analogies as new support.\"}, \"or3\": {\"v\": 0, \"quote\": \"\"}, \"or4\": {\"v\": 0, \"quote\": \"\"}}, \"weakest_link\": \"The 90% illiteracy figure and 'probably finished by 1 Thessalonians' are asserted without citation.\", \"develop_next\": \"Cite the literacy studies and the specific creedal texts with their proposed dates.\", \"case_map\": [\"K16\", \"F4\"], \"domain\": \"history\"}, {\"id\": \"G10\", \"name\": \"Bart Ehrman grants the creeds are early, Jerusalem-based, and apostolic\", \"conclusion\": \"Even atheist critic Bart Ehrman concedes that the earliest creeds came from Jerusalem within 1-2 years of the cross, probably from the apostles, and that Paul knew them.\", \"speaker\": \"Gary Habermas\", \"premises\": [\"P1: Bart Ehrman is the best-known critical scholar in North America and an atheist.\", \"P2: Ehrman says the earliest creeds came out of Jerusalem, the right place, within 1-2 years after the cross, the right time.\", \"P3: Ehrman says they possibly or probably came from the apostles, the right people, and Paul probably knew all of them.\", \"P4: Paul was converted 2-3 years later and then met Jesus, which explains why he accepted the creeds.\"], \"strength\": {\"st1\": {\"v\": 2, \"quote\": \"The earliest ones came out of Jerusalem, right place, within 1 to 2 years after the cross, right time, possibly or probably came from the apostles, right people, and Paul probably knew all of them.\"}, \"st2\": {\"v\": 2, \"quote\": \"Bart Ehrman, best known critical scholar in North America, an atheist.\"}, \"st3\": {\"v\": 1, \"quote\": \"Here's what he says about these creeds.\"}, \"st4\": {\"v\": 1, \"quote\": \"And when Paul got killed a plus two to three years later, he was an angry man from here to here, probably because he knew those creeds and he hated the words.\"}, \"st5\": {\"v\": 0, \"quote\": \"\"}, \"st6\": {\"v\": 1, \"quote\": \"possibly or probably came from the apostles\"}, \"st7\": {\"v\": 0, \"quote\": \"\"}, \"st8\": {\"v\": 0, \"quote\": \"\"}}, \"prior_art\": \"Bart Ehrman, Did Jesus Exist? / How Jesus Became God, 2014 (cited as hostile witness)\", \"originality\": {\"or1\": {\"v\": 1, \"quote\": \"possibly or probably came from the apostles, right people, and Paul probably knew all of them\", \"why\": \"Uses Ehrman as an adversarial witness, a standard minimal-facts move.\"}, \"or2\": {\"v\": 1, \"quote\": \"The earliest ones came out of Jerusalem, right place, within 1 to 2 years after the cross, right time\", \"why\": \"Puts Ehrman's dating concession at the center of the argument.\"}, \"or3\": {\"v\": 0, \"quote\": \"\"}, \"or4\": {\"v\": 0, \"quote\": \"\"}}, \"weakest_link\": \"No work, page or quote is given for the Ehrman concession.\", \"develop_next\": \"Supply the exact Ehrman citation and quotation rather than paraphrase.\", \"case_map\": [\"K16\", \"F4\"], \"domain\": \"history\"}, {\"id\": \"G11\", \"name\": \"Paul's Jerusalem visit with Peter and James rules out telephone-game distortion\", \"conclusion\": \"Paul's visit to Jerusalem about six years after the cross, where he spent 15 days with Peter and James, rules out the idea that the resurrection message was distorted like telephone tag.\", \"speaker\": \"Gary Habermas\", \"premises\": [\"P1: Paul was converted 2-3 years after the cross and went to Jerusalem three years later, about 5-6 years after the cross.\", \"P2: In Galatians 1:18 Paul says he spent 15 days with Peter and James, the brother of Jesus.\", \"P3: The theme of Galatians is getting the gospel right; making it too big or too small is heresy.\", \"P4: Paul went to Jerusalem to get the gospel right and to question the eyewitnesses.\", \"P5: The Greek word historesai in Galatians 1:18 means to check something out, investigate, question, or ascertain, from which we get 'history.'\", \"P6: Paul's first question would naturally be to hear the resurrection testimony of Peter and James in exchange for his Damascus road testimony.\", \"P7: First-century sources exist for the martyrdoms of Paul, Peter, and James; nobody calls them liars or thinks they stole the body.\"], \"strength\": {\"st1\": {\"v\": 2, \"quote\": \"It rules rules phone phone tag out because he got it from the eyewitnesses.\"}, \"st2\": {\"v\": 2, \"quote\": \"He spends 15 days with Peter and James the brother of Jesus.\"}, \"st3\": {\"v\": 1, \"quote\": \"In Galatians 1:8, there's a Greek word historesai.\"}, \"st4\": {\"v\": 1, \"quote\": \"He goes to Jerusalem plus six, talks to James and Peter and questions them.\"}, \"st5\": {\"v\": 2, \"quote\": \"I said, well, let me make the objection worse. How do you know we don't have homologia and creeds and Paul's testimony, but it's telephone tag?\"}, \"st6\": {\"v\": 1, \"quote\": \"But it keeps phone tag from being true.\"}, \"st7\": {\"v\": 1, \"quote\": \"You know how long it takes to make a myth?\"}, \"st8\": {\"v\": 2, \"quote\": \"By the way, we have first century sources for the martyrdoms of Paul, Peter, and James.\"}}, \"prior_art\": \"Gary Habermas, The Risen Jesus and Future Hope / minimal-facts literature on Galatians 1:18, 2003\", \"originality\": {\"or1\": {\"v\": 1, \"quote\": \"It rules rules phone phone tag out because he got it from the eyewitnesses.\", \"why\": \"Variant of the standard 'contact with eyewitnesses' argument, focused on the historesai word.\"}, \"or2\": {\"v\": 1, \"quote\": \"In Galatians 1:8, there's a Greek word historesai.\", \"why\": \"Foregrounds the lexical argument from historesai.\"}, \"or3\": {\"v\": 0, \"quote\": \"\"}, \"or4\": {\"v\": 0, \"quote\": \"\"}}, \"weakest_link\": \"The inference from historesai to 'Paul interrogated Peter and James' is a lexical claim needing support.\", \"develop_next\": \"Cite lexica and scholarly treatments of historesai in Gal 1:18 to secure the word study.\", \"case_map\": [\"K16\", \"F4\"], \"domain\": \"history\"}, {\"id\": \"G12\", \"name\": \"Galatians 2 confirms Paul's gospel was affirmed by the pillars\", \"conclusion\": \"At the later Jerusalem meeting, Paul presented his gospel to the pillars Peter, James, and John, and they added nothing to him, confirming his message was the same as the eyewitnesses'.\", \"speaker\": \"Gary Habermas\", \"premises\": [\"P1: In Galatians 2:2 Paul says he went up again 14 years later and presented the gospel he preached to see if he had run in vain.\", \"P2: He calls the apostles the pillars of the church and identifies James, Peter, and John as present.\", \"P3: Paul says 'they added nothing to me,' meaning his gospel was not deficient.\", \"P4: In Galatians 2:9 they gave Paul and Barnabas the right hand of fellowship, which is what one does with those one agrees with, not with heretics.\"], \"strength\": {\"st1\": {\"v\": 2, \"quote\": \"They added nothing to me.\"}, \"st2\": {\"v\": 2, \"quote\": \"Galatians 2:2, Paul goes up to Jerusalem 14 years later.\"}, \"st3\": {\"v\": 1, \"quote\": \"In Galatians 2:9 they lay hands on Paul and Barnabas.\"}, \"st4\": {\"v\": 1, \"quote\": \"I went to see them again, and I gave them the gospel presentation that I was preaching to see if I was running or had run in vain.\"}, \"st5\": {\"v\": 1, \"quote\": \"You say, \\\"Well, that makes sense, but how do we know that that's what they're talking about?\\\"\"}, \"st6\": {\"v\": 1, \"quote\": \"So now at just six years six is started, 14 is finished.\"}, \"st7\": {\"v\": 0, \"quote\": \"\"}, \"st8\": {\"v\": 1, \"quote\": \"They gave him the right hand of fellowship.\"}}, \"prior_art\": \"J. B. Lightfoot / standard Galatians commentaries on the Jerusalem council and 'added nothing' (Gal 2:6), 19th c.-20th c.\", \"originality\": {\"or1\": {\"v\": 0, \"quote\": \"They added nothing to me.\", \"why\": \"This is a straightforward exegesis of Gal 2 already standard in the literature.\"}, \"or2\": {\"v\": 0, \"quote\": \"\"}, \"or3\": {\"v\": 0, \"quote\": \"\"}, \"or4\": {\"v\": 0, \"quote\": \"\"}}, \"weakest_link\": \"The right-hand-of-fellowship inference assumes the gesture's significance without argument.\", \"develop_next\": \"Cite ancient evidence for the right hand as a covenant/agreement gesture in the period.\", \"case_map\": [\"K16\", \"F4\"], \"domain\": \"history\"}]}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 13550,
+      "completion_tokens": 4134,
+      "attempts": 1,
+      "elapsed_seconds": 14.359000000004016,
+      "started_at": "2026-09-27T19:39:12.013987+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T19:39:26.378836+00:00",
+      "tokens": 17684
+    }
+  ],
+  "prompt_sha256": "2aed652e49cb66528e5ae6f0d28a6a2ebd424e6ff36b1a45e3398edb0332c30a",
+  "tokens": 17684
+}

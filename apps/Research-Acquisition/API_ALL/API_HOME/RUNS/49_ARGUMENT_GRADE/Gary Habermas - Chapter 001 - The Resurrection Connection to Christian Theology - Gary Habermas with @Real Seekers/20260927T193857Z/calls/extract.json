@@ -1,0 +1,182 @@
+{
+  "name": "extract",
+  "parsed": {
+    "arguments": [
+      {
+        "id": "G1",
+        "name": "Volume 4 is not an abandonment of resurrection apologetics",
+        "speaker": "Gary Habermas",
+        "conclusion": "Volume 4's focus on theological and practical implications does not mean Habermas has given up on evidential resurrection apologetics.",
+        "premises": [
+          "P1 The book has two halves: the first half treats God, miracles, and worldview, and the second half is almost no apologetics by his definition.",
+          "P2 Resurrection apologetics still appears here and there, but it is not the concentration of the volume.",
+          "P3 The series is built on the evidential case of volume 1 and the reputational/historical case of volume 2, without which volume 4 could not be done at a scholarly level.",
+          "P4 Habermas has always been a strict evidentialist and would not do subjective or presuppositionalist apologetics even if paid."
+        ],
+        "where": "S056-S080, S092-S101, S106-S109"
+      },
+      {
+        "id": "G2",
+        "name": "Skeptical objections are unfalsifiable and silly",
+        "speaker": "Gary Habermas",
+        "conclusion": "The objection that volume 4 abandons evidence is not worth answering because radical skeptics will never be satisfied.",
+        "premises": [
+          "P1 If skeptics are really skeptical, no answer will make a difference; they will move to another objection or invent a new story.",
+          "P2 The objection itself is absurd because Habermas continues to give reasons and evidence.",
+          "P3 The critics ignore volumes 1 and 2, which still stand as the evidential foundation."
+        ],
+        "where": "S082-S090, S093-S095"
+      },
+      {
+        "id": "G3",
+        "name": "Theism and afterlife are linked",
+        "speaker": "Gary Habermas",
+        "conclusion": "An evidential afterlife case is a strong argument for God because an afterlife cannot be explained by naturalism.",
+        "premises": [
+          "P1 Russell's Why I Am Not a Christian treats God and the afterlife as the two things needed for theism.",
+          "P2 If there is an afterlife, one must ask why; it does not follow from any naturalism Habermas knows.",
+          "P3 An afterlife cannot come from time plus chance plus the natural world.",
+          "P4 Therefore an afterlife points to a God who is needed for it."
+        ],
+        "where": "S169-S193, S195-S204"
+      },
+      {
+        "id": "G4",
+        "name": "Resurrection entails God and the deity of Christ",
+        "speaker": "Gary Habermas",
+        "conclusion": "If the resurrection occurred, it entails a God who raised Jesus and links to Jesus' unique claims, including his deity.",
+        "premises": [
+          "P1 If there is a resurrection, there must be a God who did it.",
+          "P2 No founder of the major world religions was reportedly raised from the dead, nor were Old Testament figures such as Moses, Daniel, or David.",
+          "P3 Jesus' leading teaching was the kingdom of God and how to enter it, and he claimed to hold the keys to it.",
+          "P4 God would not raise a false teacher from the dead, so Jesus' major teaching must be true.",
+          "P5 Jesus' ethical life and claims further support the link to his deity."
+        ],
+        "where": "S211-S294, S808-S826"
+      },
+      {
+        "id": "G5",
+        "name": "Scripture is entailed by the resurrection",
+        "speaker": "Gary Habermas",
+        "conclusion": "Scripture is entailed by the resurrection, though further down the line than the kingdom and ethics.",
+        "premises": [
+          "P1 If Jesus is Lord and was raised, his view of Scripture ought to be obeyed.",
+          "P2 Jesus' two greatest commandments concern loving God and loving others, and Scripture follows from accepting his teaching.",
+          "P3 God did not raise Jesus merely to affirm a view of the Bible, but Scripture is still entailed somewhere down the line."
+        ],
+        "where": "S331-S384"
+      },
+      {
+        "id": "G6",
+        "name": "Criteria for identifying a miracle",
+        "speaker": "Gary Habermas",
+        "conclusion": "A miracle is best identified as a one-time event, performed by God, with very good evidence, serving as a sign to authenticate a message.",
+        "premises": [
+          "P1 A miracle is an act of God or an invisible agent, and by Christian standards such an agent is God or God's creation.",
+          "P2 Jesus taught that miracles are signs pointing to a truth, and he tied himself to that teaching.",
+          "P3 Richard Swinburne's definition is preferable: a miracle at its best is a one-time event with very good evidence, for the purpose of evidencing a message.",
+          "P4 Repeated events under known circumstances, such as alleged levitation, are not first-rate miracles.",
+          "P5 The resurrection fits this criterion uniquely because it is unrepeatable and was predicted ahead of time."
+        ],
+        "where": "S389-S467"
+      },
+      {
+        "id": "G7",
+        "name": "Future-unknown appeals cannot defeat miracles",
+        "speaker": "Gary Habermas",
+        "conclusion": "The skeptical appeal to a future unknown natural explanation is self-defeating and cannot rationally defeat a miracle claim.",
+        "premises": [
+          "P1 If one can always say 'maybe we will discover a natural explanation in the future,' the same move can be made against any disliked claim, such as the moon landing or planetary astronomy.",
+          "P2 The proper comeback is that maybe it will not happen in the future.",
+          "P3 Naturalism itself is often a non-empirical claim, so empiricist skeptics who use it inconsistently flunk their own epistemology.",
+          "P4 Habermas argues against seventeen or eighteen such Humean empirical comebacks in volume 2."
+        ],
+        "where": "S468-S519"
+      },
+      {
+        "id": "G8",
+        "name": "Supernatural events can be linked to God rather than Satan",
+        "speaker": "Gary Habermas",
+        "conclusion": "If a skeptic grants a supernatural event, linking it to God rather than Satan is reasonable because the skeptic's own worldview cannot accommodate Satan or other supernatural beings.",
+        "premises": [
+          "P1 The skeptic who says 'maybe Satan did it' has already admitted supernatural beings into his theory, which he normally denies.",
+          "P2 If supernatural beings, intelligent design, fine-tuning, an afterlife, and objective ethics are granted, all five require a being fairly called God.",
+          "P3 Therefore the skeptic who grants the supernatural has sped up the case for God rather than avoided it."
+        ],
+        "where": "S520-S572"
+      },
+      {
+        "id": "G9",
+        "name": "Competing miracle claims do not match the resurrection",
+        "speaker": "Gary Habermas",
+        "conclusion": "Competing miracle claims from other religions or Christian traditions do not undermine the resurrection because they lack comparable evidence and often do not require God.",
+        "premises": [
+          "P1 One must investigate each alleged competing miracle, and most cannot be verified even by their own adherents.",
+          "P2 Alleged levitation or anti-gravity events do not require God and are not first-rate miracles.",
+          "P3 The Quran has no verse that Muhammad did miracles, but it does have verses that Jesus did miracles.",
+          "P4 Marian apparitions such as Medjugorje or Zeitoun are contested, often involve only a handful of visionaries, and are usually within the Christian fold.",
+          "P5 The resurrection is the culmination of Jesus' unique life, teaching, predictions, and ethical influence, so it stands alone."
+        ],
+        "where": "S575-S708"
+      },
+      {
+        "id": "G10",
+        "name": "Arguments for God and from miracles work both ways",
+        "speaker": "Gary Habermas",
+        "conclusion": "One can argue prospectively from God to the resurrection or retrospectively from the resurrection back to God, and Scripture does both.",
+        "premises": [
+          "P1 The prospective path moves from God to Jesus and his resurrection.",
+          "P2 The retrospective path begins with the unique event and asks who could have done it, then connects to arguments for God.",
+          "P3 The New Testament argues both ways, so the direction is not a problem."
+        ],
+        "where": "S710-S724"
+      },
+      {
+        "id": "G11",
+        "name": "Chapter one offers considerations, not strict proofs, for God",
+        "speaker": "Gary Habermas",
+        "conclusion": "Chapter one does not attempt to prove God's existence deductively but presents a theistic universe with good considerations and signs.",
+        "premises": [
+          "P1 Habermas calls it a theistic universe rather than proofs for God.",
+          "P2 He includes epistemic truths, morality, fine-tuning, intelligent design, and the afterlife as good extensions.",
+          "P3 He does not think many things can be proved apodictically; things are established by high probability."
+        ],
+        "where": "S725-S752"
+      },
+      {
+        "id": "G12",
+        "name": "Jesus claimed deity, especially in Mark 2 and Mark 14",
+        "speaker": "Gary Habermas",
+        "conclusion": "Jesus claimed to be deity through a multiplicity of texts, with Mark 14:61-64 being the strongest.",
+        "premises": [
+          "P1 Critics who demand a verse where Jesus says 'I am God' are misguided because Jesus never used that exact phrase.",
+          "P2 In Mark 2, Jesus forgives sins and heals to show he has authority on earth to forgive sins, which the rabbis recognized as God's prerogative.",
+          "P3 In Mark 14, Jesus says 'I am,' claims to be the cloud rider, and says he will sit at the right hand of God, which the high priest calls blasphemy.",
+          "P4 Del Rosario's dissertation on Mark 2 and Mark 14 provides the best treatment of these claims and answers to objections."
+        ],
+        "where": "S753-S826"
+      }
+    ]
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "extract",
+      "attempt": 1,
+      "text": "{\"arguments\": [{\"id\": \"G1\", \"name\": \"Volume 4 is not an abandonment of resurrection apologetics\", \"speaker\": \"Gary Habermas\", \"conclusion\": \"Volume 4's focus on theological and practical implications does not mean Habermas has given up on evidential resurrection apologetics.\", \"premises\": [\"P1 The book has two halves: the first half treats God, miracles, and worldview, and the second half is almost no apologetics by his definition.\", \"P2 Resurrection apologetics still appears here and there, but it is not the concentration of the volume.\", \"P3 The series is built on the evidential case of volume 1 and the reputational/historical case of volume 2, without which volume 4 could not be done at a scholarly level.\", \"P4 Habermas has always been a strict evidentialist and would not do subjective or presuppositionalist apologetics even if paid.\"], \"where\": \"S056-S080, S092-S101, S106-S109\"}, {\"id\": \"G2\", \"name\": \"Skeptical objections are unfalsifiable and silly\", \"speaker\": \"Gary Habermas\", \"conclusion\": \"The objection that volume 4 abandons evidence is not worth answering because radical skeptics will never be satisfied.\", \"premises\": [\"P1 If skeptics are really skeptical, no answer will make a difference; they will move to another objection or invent a new story.\", \"P2 The objection itself is absurd because Habermas continues to give reasons and evidence.\", \"P3 The critics ignore volumes 1 and 2, which still stand as the evidential foundation.\"], \"where\": \"S082-S090, S093-S095\"}, {\"id\": \"G3\", \"name\": \"Theism and afterlife are linked\", \"speaker\": \"Gary Habermas\", \"conclusion\": \"An evidential afterlife case is a strong argument for God because an afterlife cannot be explained by naturalism.\", \"premises\": [\"P1 Russell's Why I Am Not a Christian treats God and the afterlife as the two things needed for theism.\", \"P2 If there is an afterlife, one must ask why; it does not follow from any naturalism Habermas knows.\", \"P3 An afterlife cannot come from time plus chance plus the natural world.\", \"P4 Therefore an afterlife points to a God who is needed for it.\"], \"where\": \"S169-S193, S195-S204\"}, {\"id\": \"G4\", \"name\": \"Resurrection entails God and the deity of Christ\", \"speaker\": \"Gary Habermas\", \"conclusion\": \"If the resurrection occurred, it entails a God who raised Jesus and links to Jesus' unique claims, including his deity.\", \"premises\": [\"P1 If there is a resurrection, there must be a God who did it.\", \"P2 No founder of the major world religions was reportedly raised from the dead, nor were Old Testament figures such as Moses, Daniel, or David.\", \"P3 Jesus' leading teaching was the kingdom of God and how to enter it, and he claimed to hold the keys to it.\", \"P4 God would not raise a false teacher from the dead, so Jesus' major teaching must be true.\", \"P5 Jesus' ethical life and claims further support the link to his deity.\"], \"where\": \"S211-S294, S808-S826\"}, {\"id\": \"G5\", \"name\": \"Scripture is entailed by the resurrection\", \"speaker\": \"Gary Habermas\", \"conclusion\": \"Scripture is entailed by the resurrection, though further down the line than the kingdom and ethics.\", \"premises\": [\"P1 If Jesus is Lord and was raised, his view of Scripture ought to be obeyed.\", \"P2 Jesus' two greatest commandments concern loving God and loving others, and Scripture follows from accepting his teaching.\", \"P3 God did not raise Jesus merely to affirm a view of the Bible, but Scripture is still entailed somewhere down the line.\"], \"where\": \"S331-S384\"}, {\"id\": \"G6\", \"name\": \"Criteria for identifying a miracle\", \"speaker\": \"Gary Habermas\", \"conclusion\": \"A miracle is best identified as a one-time event, performed by God, with very good evidence, serving as a sign to authenticate a message.\", \"premises\": [\"P1 A miracle is an act of God or an invisible agent, and by Christian standards such an agent is God or God's creation.\", \"P2 Jesus taught that miracles are signs pointing to a truth, and he tied himself to that teaching.\", \"P3 Richard Swinburne's definition is preferable: a miracle at its best is a one-time event with very good evidence, for the purpose of evidencing a message.\", \"P4 Repeated events under known circumstances, such as alleged levitation, are not first-rate miracles.\", \"P5 The resurrection fits this criterion uniquely because it is unrepeatable and was predicted ahead of time.\"], \"where\": \"S389-S467\"}, {\"id\": \"G7\", \"name\": \"Future-unknown appeals cannot defeat miracles\", \"speaker\": \"Gary Habermas\", \"conclusion\": \"The skeptical appeal to a future unknown natural explanation is self-defeating and cannot rationally defeat a miracle claim.\", \"premises\": [\"P1 If one can always say 'maybe we will discover a natural explanation in the future,' the same move can be made against any disliked claim, such as the moon landing or planetary astronomy.\", \"P2 The proper comeback is that maybe it will not happen in the future.\", \"P3 Naturalism itself is often a non-empirical claim, so empiricist skeptics who use it inconsistently flunk their own epistemology.\", \"P4 Habermas argues against seventeen or eighteen such Humean empirical comebacks in volume 2.\"], \"where\": \"S468-S519\"}, {\"id\": \"G8\", \"name\": \"Supernatural events can be linked to God rather than Satan\", \"speaker\": \"Gary Habermas\", \"conclusion\": \"If a skeptic grants a supernatural event, linking it to God rather than Satan is reasonable because the skeptic's own worldview cannot accommodate Satan or other supernatural beings.\", \"premises\": [\"P1 The skeptic who says 'maybe Satan did it' has already admitted supernatural beings into his theory, which he normally denies.\", \"P2 If supernatural beings, intelligent design, fine-tuning, an afterlife, and objective ethics are granted, all five require a being fairly called God.\", \"P3 Therefore the skeptic who grants the supernatural has sped up the case for God rather than avoided it.\"], \"where\": \"S520-S572\"}, {\"id\": \"G9\", \"name\": \"Competing miracle claims do not match the resurrection\", \"speaker\": \"Gary Habermas\", \"conclusion\": \"Competing miracle claims from other religions or Christian traditions do not undermine the resurrection because they lack comparable evidence and often do not require God.\", \"premises\": [\"P1 One must investigate each alleged competing miracle, and most cannot be verified even by their own adherents.\", \"P2 Alleged levitation or anti-gravity events do not require God and are not first-rate miracles.\", \"P3 The Quran has no verse that Muhammad did miracles, but it does have verses that Jesus did miracles.\", \"P4 Marian apparitions such as Medjugorje or Zeitoun are contested, often involve only a handful of visionaries, and are usually within the Christian fold.\", \"P5 The resurrection is the culmination of Jesus' unique life, teaching, predictions, and ethical influence, so it stands alone.\"], \"where\": \"S575-S708\"}, {\"id\": \"G10\", \"name\": \"Arguments for God and from miracles work both ways\", \"speaker\": \"Gary Habermas\", \"conclusion\": \"One can argue prospectively from God to the resurrection or retrospectively from the resurrection back to God, and Scripture does both.\", \"premises\": [\"P1 The prospective path moves from God to Jesus and his resurrection.\", \"P2 The retrospective path begins with the unique event and asks who could have done it, then connects to arguments for God.\", \"P3 The New Testament argues both ways, so the direction is not a problem.\"], \"where\": \"S710-S724\"}, {\"id\": \"G11\", \"name\": \"Chapter one offers considerations, not strict proofs, for God\", \"speaker\": \"Gary Habermas\", \"conclusion\": \"Chapter one does not attempt to prove God's existence deductively but presents a theistic universe with good considerations and signs.\", \"premises\": [\"P1 Habermas calls it a theistic universe rather than proofs for God.\", \"P2 He includes epistemic truths, morality, fine-tuning, intelligent design, and the afterlife as good extensions.\", \"P3 He does not think many things can be proved apodictically; things are established by high probability.\"], \"where\": \"S725-S752\"}, {\"id\": \"G12\", \"name\": \"Jesus claimed deity, especially in Mark 2 and Mark 14\", \"speaker\": \"Gary Habermas\", \"conclusion\": \"Jesus claimed to be deity through a multiplicity of texts, with Mark 14:61-64 being the strongest.\", \"premises\": [\"P1 Critics who demand a verse where Jesus says 'I am God' are misguided because Jesus never used that exact phrase.\", \"P2 In Mark 2, Jesus forgives sins and heals to show he has authority on earth to forgive sins, which the rabbis recognized as God's prerogative.\", \"P3 In Mark 14, Jesus says 'I am,' claims to be the cloud rider, and says he will sit at the right hand of God, which the high priest calls blasphemy.\", \"P4 Del Rosario's dissertation on Mark 2 and Mark 14 provides the best treatment of these claims and answers to objections.\"], \"where\": \"S753-S826\"}]}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 18772,
+      "completion_tokens": 2120,
+      "attempts": 1,
+      "elapsed_seconds": 10.921999999998661,
+      "started_at": "2026-09-27T19:38:57.629196+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T19:39:08.541169+00:00",
+      "tokens": 20892
+    }
+  ],
+  "prompt_sha256": "fdc3feb7f29d8b625d29a3b0bee9043742f5546535af285ab4a69bd1a7eacc85",
+  "tokens": 20892
+}

@@ -1,0 +1,764 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2 Final//EN"><html><head>
+<title>Fun with Logic: Contradictions and Null Results</title>
+<meta name="description" content="Fun with Logic: Contradictions and Null Results">
+<meta name="keywords" content="axioms">
+<meta name="resource-type" content="document">
+<meta name="distribution" content="global">
+
+<meta name="Generator" content="LaTeX2HTML v2008">
+<meta http-equiv="Content-Style-Type" content="text/css">
+
+<link rel="STYLESHEET" href="axioms.css">
+
+<link rel="previous" href="Paradoxes.html">
+<link rel="up" href="Paradoxes.html">
+<link rel="next" href="Pit_Existential_Despair.html">
+</head>
+
+<body bgcolor="#FFFFFF" text="BLACK" link="BLUE" alink="BLUE" vlink="RED">
+<!--Navigation Panel-->
+
+<a name="tex2html806" href="Pit_Existential_Despair.html">
+<img width="20" height="20" align="BOTTOM" border="0" alt="next" src="next.png"></a> <a name="tex2html807" href="Pit_Existential_Despair.html">The Pit of Existential Despair</a>
+<br>
+
+<a name="tex2html798" href="Paradoxes.html">
+<img width="20" height="20" align="BOTTOM" border="0" alt="previous" src="prev.png"></a> <a name="tex2html799" href="Paradoxes.html">Paradoxes</a>
+<br>
+ &nbsp; <strong>  <a name="tex2html805" href="Contents.html">Contents</a></strong>
+ &nbsp;|&nbsp; <a href="http://www.phy.duke.edu/~rgb" onmouseover="return escape('rgb Home')">rgb Home</a> &nbsp;|&nbsp;
+<a href="http://www.phy.duke.edu/~rgb/Philosophy/philosophy.php" onmouseover="return escape('Philosophy Home')">Philosophy Home</a> &nbsp;|&nbsp;
+<a href="http://www.phy.duke.edu/~rgb/Philosophy/axioms.php" onmouseover="return escape('&lt;i&gt;Axioms&lt;/i&gt;')"><i>Axioms</i></a> &nbsp;|&nbsp;<br><hr>
+Other Books by rgb: &nbsp;|&nbsp;
+<a href="http://www.phy.duke.edu/~rgb/Lilith/Lilith.php" onmouseover="return escape('&lt;i&gt;The Book of Lilith&lt;/i&gt;')"><i>The Book of Lilith</i></a> &nbsp;|&nbsp;
+
+<hr>
+<br>
+
+<!--End of Navigation Panel-->
+
+<h1><a name="SECTION02710000000000000000">
+Fun with Logic: Contradictions and Null Results</a>
+</h1>
+
+<p>
+The need for a null set <img width="15" height="31" align="MIDDLE" border="0" src="img67.png" alt="$\mu$"> isn't something I'm just making up.  No
+matter what you <em>call</em> it, it has been around for a very long time
+in mathematics and logic.  It has been around for a somewhat shorter
+time in computer languages, because computers themselves are relatively
+new, but (as pointed out by Jaynes) a ``robot'' (or computer) is an
+excellent model for logic because of the entirely <em>practical</em>
+constraints associated with <em>engineering</em> it to actually work.
+
+</p><p>
+Computers are nearly ideal embodiments of the raw <em>mechanics</em> of
+logic and arithmetic.  Computers more or less directly implement a
+system of boolean logic as the underlying basis for their operation -
+all successful operations have an associated ``truth table'' and can be
+described by a set of permissble binary transformations with the
+representation.  However, the representation itself is <em>finite and
+discrete</em> and can be <em>self-referential</em> - one can program a
+computer to program a computer and work other dark magic (some of which
+is covered from time to time by such luminaries as Martin Gardner in
+<em>Scientific American</em>).
+
+</p><p>
+Computer programmers typically learn in their very first class - the
+hard way - about the null set <img width="15" height="31" align="MIDDLE" border="0" src="img67.png" alt="$\mu$"> as the result of certain
+operations.  Computers can easily be asked to take perfectly ordinary
+and reasonable results as input to operations that produce <em>no</em>
+meaningful output.  That is, they have to deal with ``Not a Number''
+(NaN) return conditions in addition to <em>other</em> (possibly domain
+specific) undefined or oscillatory conditions <em>all the time</em>.
+
+</p><p>
+For example, there is nothing to prevent <em>algebraically</em> well formed
+computer programs from attempting to divide by zero or take the inverse
+sine of 2.0, things that are <em>algebraically</em> sensible but that
+happen to be undefined for particular values or ranges of inputs.
+Indeed, it happens all the time, as people write a program without
+checking and the program manages to generate a forbidden value as input.
+Similarly it is easy to write a program that enters a loop such that the
+value that is tested to determine when to terminate the loop oscillates
+and hence never reaches the end condition with a well defined answer.
+One might even write such a program deliberately, if the program has
+some desired output that is incidentally generated along the way, and
+terminate the program only by killing it from ``outside the Universe''
+of the program, with a Ctrl-C from the keyboard. 
+
+</p><p>
+Once a NaN or indeterminate state is introduced into any computation by
+any means, all operations that include it in any way become equally
+undefined and result in NaN as well.  In fact, I was very tempted to use
+NaE (Not an Element - of a set) instead of <img width="15" height="31" align="MIDDLE" border="0" src="img67.png" alt="$\mu$"> in the formulation
+above to draw careful attention to the correspondance.
+
+</p><p>
+Nor is the abstraction of the null set unknown in formal logic.  <img width="74" height="35" align="MIDDLE" border="0" src="img91.png" alt="$(A\
+\&amp; !A)$"> is the essential statement of contradiction<a name="tex2html220" href="footnode.html#foot7086"><sup>7.1</sup></a><a name="tex2html221" href="footnode.html#foot7278"><sup>7.2</sup></a>
+</p><p>
+If you ring a contradiction into a theory (however subtly) you can prove
+anything you like <em>symbolically</em><a name="tex2html223" href="footnode.html#foot7090"><sup>7.3</sup></a>.  The argument goes
+something like this:
+
+</p><ul>
+<li>Let us state as an absolute truth some <img width="55" height="15" align="BOTTOM" border="0" src="img94.png" alt="$A \&amp; !A$">:  ``Robert Brown
+is a wise fool'' (where we define ``wise'' to be the same as ``not a
+fool'').  This is a fairly familiar oxymoron in English, and is probably
+even true...
+</li>
+<li>Suppose that God is Not A Penguin (GiNAP).  Seems like a perfectly
+plausible assertion, at least in the minds of some, although it does
+somewhat beg the question of whether or not God exists to <em>be</em> a
+penguin.  Fortunately, it is only an assertion.
+</li>
+<li>Well, if Robert Brown is wise (and he is, see the first line),
+then it is certainly true that ``if GiNAP, then Robert Brown is wise''
+(and, for that matter true that ``if God <em>is</em> a Penguin, then Robert
+Brown is wise'' - you begin to see the trap).
+</li>
+<li>This is <em>logically equivalent</em> to the statement ``if Robert
+Brown is a fool, then God <em>is</em> a Penguin''.
+</li>
+<li>But Robert Brown <em>is</em> a fool - see the first statement!
+Therefore...
+</li>
+<li>God is a Penguin!
+</li>
+</ul> 
+And you thought logic wasn't good for anything! 
+
+<p>
+We've just proven that God exists <em>and</em> is a Penguin<a name="tex2html224" href="footnode.html#foot7099"><sup>7.4</sup></a> all in one
+simple derivation<a name="tex2html225" href="footnode.html#foot7279"><sup>7.5</sup></a>!  Bertrand Russell would be so
+proud...<a name="tex2html226" href="footnode.html#foot7105"><sup>7.6</sup></a>
+</p><p>
+Or rather, we've proven no such thing.  The point is that the statement
+``Robert Brown is a wise fool'' isn't true, and it isn't false.  It is a
+<em>premise</em>, an <em>axiom</em> from which the argument proceeds.  It
+happens to be an <em>inconsistent</em> axiom, but so what?  Who would doubt
+that Robert Brown is wise is at least <em>sometimes</em> true, or <em>somewhat</em> true all of the time.  Similarly, who could doubt that Robert
+Brown is a fool is at least <em>sometimes</em> true, or <em>somewhat</em> true
+all of the time<a name="tex2html227" href="footnode.html#foot7113"><sup>7.7</sup></a>.  Socrates used to do this kind of thing
+to poor Thrasymachus in Plato's <em>Republic</em> about the same place that
+he offered to go shave lions that don't shave themselves<a name="tex2html228" href="footnode.html#foot7280"><sup>7.8</sup></a>.
+
+</p><p>
+In any event, if you use a contradiction implicitly, explicitly,
+accidentally or on purpose, or somehow insert any <em>other</em>
+undecideable Gödelian proposition in in place of the contradiction in
+a way that performs an equivalent purpose, your final result isn't
+``true'', it is a contradiction or it is itself undecideable.  In
+particular, both ``and'' and ``or'' operations involving a contradiction
+are a contradiction.  A contradiction contaminates anything it touches,
+because asserting it is ``true'' <em>or</em> ``false'' gets you into <em>equal</em> amounts of trouble, because there are always clever ways of
+inserting it into logical statements that corrupt the downstream
+processing of the truth tables.  It isn't just that the intersection of
+your final answer and the set of all true answers is either your final
+answer (shown true) or the empty set (from the law of exclusion, shown
+false).  The law of exclusion is <em>directly violated</em> by the presumed
+condition, and the <em>entire result</em> is null.
+
+</p><p>
+Finally, just for fun (in case you, dear reader, have never seen it),
+consider the following algebra.  Suppose I suppose that I have two
+variables, <img width="14" height="15" align="BOTTOM" border="0" src="img8.png" alt="$x$"> and <img width="14" height="31" align="MIDDLE" border="0" src="img95.png" alt="$y$"> that are equal.  Then:
+
+</p><p>
+<br>
+</p><div align="CENTER">
+
+<!-- MATH
+ \begin{eqnarray}
+x  & = & y \\
+ xy & = & y^2 \\
+-xy & = & -y^2 \\
+x^2 - xy & = & x^2 - y^2 \\
+x(x - y) & = & (x + y)(x - y) \\
+x & = & (x + y) \\
+x & = & 2x \\
+1 & = & 2
+\end{eqnarray}
+ -->
+<table align="CENTER" cellpadding="0" width="100%">
+<tbody><tr valign="MIDDLE"><td nowrap="" align="RIGHT"><img width="16" height="35" align="MIDDLE" border="0" src="img96.png" alt="$\displaystyle x$"></td>
+<td align="CENTER" nowrap=""><img width="20" height="35" align="MIDDLE" border="0" src="img18.png" alt="$\textstyle =$"></td>
+<td align="LEFT" nowrap=""><img width="15" height="35" align="MIDDLE" border="0" src="img97.png" alt="$\displaystyle y$"></td>
+<td width="10" align="RIGHT">
+(7.1)</td></tr>
+<tr valign="MIDDLE"><td nowrap="" align="RIGHT"><img width="26" height="35" align="MIDDLE" border="0" src="img98.png" alt="$\displaystyle xy$"></td>
+<td align="CENTER" nowrap=""><img width="20" height="35" align="MIDDLE" border="0" src="img18.png" alt="$\textstyle =$"></td>
+<td align="LEFT" nowrap=""><img width="23" height="44" align="MIDDLE" border="0" src="img99.png" alt="$\displaystyle y^2$"></td>
+<td width="10" align="RIGHT">
+(7.2)</td></tr>
+<tr valign="MIDDLE"><td nowrap="" align="RIGHT"><img width="41" height="35" align="MIDDLE" border="0" src="img100.png" alt="$\displaystyle -xy$"></td>
+<td align="CENTER" nowrap=""><img width="20" height="35" align="MIDDLE" border="0" src="img18.png" alt="$\textstyle =$"></td>
+<td align="LEFT" nowrap=""><img width="38" height="44" align="MIDDLE" border="0" src="img101.png" alt="$\displaystyle -y^2$"></td>
+<td width="10" align="RIGHT">
+(7.3)</td></tr>
+<tr valign="MIDDLE"><td nowrap="" align="RIGHT"><img width="69" height="44" align="MIDDLE" border="0" src="img102.png" alt="$\displaystyle x^2 - xy$"></td>
+<td align="CENTER" nowrap=""><img width="20" height="35" align="MIDDLE" border="0" src="img18.png" alt="$\textstyle =$"></td>
+<td align="LEFT" nowrap=""><img width="66" height="44" align="MIDDLE" border="0" src="img103.png" alt="$\displaystyle x^2 - y^2$"></td>
+<td width="10" align="RIGHT">
+(7.4)</td></tr>
+<tr valign="MIDDLE"><td nowrap="" align="RIGHT"><img width="75" height="39" align="MIDDLE" border="0" src="img104.png" alt="$\displaystyle x(x - y)$"></td>
+<td align="CENTER" nowrap=""><img width="20" height="35" align="MIDDLE" border="0" src="img18.png" alt="$\textstyle =$"></td>
+<td align="LEFT" nowrap=""><img width="124" height="39" align="MIDDLE" border="0" src="img105.png" alt="$\displaystyle (x + y)(x - y)$"></td>
+<td width="10" align="RIGHT">
+(7.5)</td></tr>
+<tr valign="MIDDLE"><td nowrap="" align="RIGHT"><img width="16" height="35" align="MIDDLE" border="0" src="img96.png" alt="$\displaystyle x$"></td>
+<td align="CENTER" nowrap=""><img width="20" height="35" align="MIDDLE" border="0" src="img18.png" alt="$\textstyle =$"></td>
+<td align="LEFT" nowrap=""><img width="64" height="39" align="MIDDLE" border="0" src="img106.png" alt="$\displaystyle (x + y)$"></td>
+<td width="10" align="RIGHT">
+(7.6)</td></tr>
+<tr valign="MIDDLE"><td nowrap="" align="RIGHT"><img width="16" height="35" align="MIDDLE" border="0" src="img96.png" alt="$\displaystyle x$"></td>
+<td align="CENTER" nowrap=""><img width="20" height="35" align="MIDDLE" border="0" src="img18.png" alt="$\textstyle =$"></td>
+<td align="LEFT" nowrap=""><img width="26" height="35" align="MIDDLE" border="0" src="img107.png" alt="$\displaystyle 2x$"></td>
+<td width="10" align="RIGHT">
+(7.7)</td></tr>
+<tr valign="MIDDLE"><td nowrap="" align="RIGHT"><img width="15" height="35" align="MIDDLE" border="0" src="img108.png" alt="$\displaystyle 1$"></td>
+<td align="CENTER" nowrap=""><img width="20" height="35" align="MIDDLE" border="0" src="img18.png" alt="$\textstyle =$"></td>
+<td align="LEFT" nowrap=""><img width="15" height="35" align="MIDDLE" border="0" src="img109.png" alt="$\displaystyle 2$"></td>
+<td width="10" align="RIGHT">
+(7.8)</td></tr>
+</tbody></table></div>
+<br clear="ALL"><p></p>
+
+<p>
+Nothing up my sleeve, right?  Or <em>is</em> there?  Every algebraic
+operation is perfectly lovely and valid without question but one, which
+has an <em>undefined exception</em> that has been delicately inserted into
+the proof.  The trick line is the one where I cancel <img width="58" height="35" align="MIDDLE" border="0" src="img110.png" alt="$(x - y)$"> from both
+sides of the fifth equation.  <img width="47" height="31" align="MIDDLE" border="0" src="img111.png" alt="$x = y$">, right?  So this is <em>zero</em>.
+I'm dividing by zero, which is an operation with an undefined answer and
+it should come as no surprise that I can prove <em>one</em> undefined,
+contradictory, null result (that 1 = 2) using another implicitly in the
+algebra.
+
+</p><p>
+As is the case with computer programs, algebraic or logical or set
+operations that lead to NaE or <img width="15" height="31" align="MIDDLE" border="0" src="img67.png" alt="$\mu$"> are usually indicative not of a
+failure in the ``computational logic'' as embodied in the computer <em>hardware</em>, they are not necessarily due to a failure in static <em>syntactical</em> validity of the program, they are due to a failure or
+mismatch between the program and its <em>data</em> - a <em>domain</em>
+failure.  One way to view <img width="55" height="15" align="BOTTOM" border="0" src="img94.png" alt="$A \&amp; !A$"> (and other <img width="15" height="31" align="MIDDLE" border="0" src="img67.png" alt="$\mu$">) is that they are
+<em>bad data</em>, ta that cannot exist in the ``Universe'' of set (or
+logical, or algebraic, or computational) operations we are considering.
+
+</p><p>
+This is an intriguing viewpoint, but (of course) is not original here -
+Jaynes points out that many of the difficulties with Aristotelian
+reasoning involving the Law of Contradiction and Law of the Excluded
+Middle, a.k.a. Western dualism, like the ones that I'm ranting about in
+this book come about because one attempts to reason in the incorrect
+domain.  To be more precise, he asserts that multivalued logical systems
+(systems with more than e.g. True <em>exclusive or</em> False, <img width="17" height="15" align="BOTTOM" border="0" src="img60.png" alt="$A$"> <em>exclusive or</em> <img width="22" height="15" align="BOTTOM" border="0" src="img93.png" alt="$!A$">, and so on) can always be reduced to two valued logic
+on a larger domain.  
+
+</p><p>
+I'm not completely certain if I agree.  If what he fundamentally means
+is that the truth values in e.g. a logical system based on true, false,
+unproveable, and contradictory (four possible values all of which appear
+like they'd be very useful in analyzing a Gödelian proposition) can be
+mapped into a <em>two</em> bit binary system (or equivalently that the base
+does not matter when you do arithmetic) then sure, I'd never argue with
+that.  On the other hand, this alone does not make it a ``dualistic''
+system as not true does not automatically imply false - it just means
+what it says, not (proven to be) true. Also, although there <em>is</em>
+still a dualistic ``partitioning'' possible - true and not true where
+not true includes false, unprovable and contradictory - the <em>truth
+tables</em> for any given partitioning seem like they'd be very
+different<a name="tex2html229" href="footnode.html#foot7137"><sup>7.9</sup></a>.
+
+</p><p>
+Jaynes also points out (doubtless correctly, as he was a careful sort of
+guy) that most of the candidate non-Aristotelian (multiple-valued)
+systems of reasoning are internally inconsistent, embody logical
+``fallacies'' (logicspeak for ``bad logic''), and even argues that
+predicate logic (the logic of human language involving categorical
+propositions) is rewritable using the ordinary expressions of algebra
+and mathematics and is nothing really different from a set theory
+analyzed with good old boolean/Aristotelian principles in disguise.
+
+</p><p>
+However, there are two fairly clear examples where it is not at all
+obvious that this is true, and both are well worth mentioning here.  The
+first is known as <em>Intuitionism</em>.  Intuitionism basically rejects
+the notion that ``<img width="17" height="15" align="BOTTOM" border="0" src="img60.png" alt="$A$"> is true'' means anything other than ``<img width="17" height="15" align="BOTTOM" border="0" src="img60.png" alt="$A$"> can be
+proven''.  For some <img width="17" height="15" align="BOTTOM" border="0" src="img60.png" alt="$A$">, the fact that it cannot be proven does <em>not
+mean</em> that <img width="22" height="15" align="BOTTOM" border="0" src="img93.png" alt="$!A$"> is proven.  In this logical/mathematical system, then,
+the Law of Excluded Middle is <em>rejected</em> as an axiom.  Nevertheless,
+Intuitionism (as a form of mathematical constructionism) appears to be a
+<em>consistent</em> form of non-Aristotelian logic where one cannot use
+<em>reductio ad absurdem</em> - assuming a proposition <img width="13" height="31" align="MIDDLE" border="0" src="img9.png" alt="$p$"> is <em>proven</em>
+and showing that it leads to a contradiction, then concluding that <img width="18" height="33" align="MIDDLE" border="0" src="img112.png" alt="$!p$">
+must be <em>proven</em>.  It is very Gödelian in this respect - a
+proposition might well be true (or false) but unprovable.
+
+</p><p>
+In real human affairs this is not an empty point - it is, in fact, part
+of the basis of the United States Constitution and common law.  Just
+because I (or ``society'' or ``the district attorney'') cannot prove
+that John did not rob the bank does <em>not</em> mean that I have proven
+that John <em>did</em> rob the bank.  
+
+</p><p>
+Even if it <em>cannot</em> be proven by <em>anybody</em> - possibly because
+there were no witnesses, John left no clues, and John himself is dead,
+it doesn't seem to follow that John is guilty because his innocence
+cannot be proven.  Consequently we require a <em>direct</em> proof that
+John is guilty, and feel more than a bit uncomfortable with
+``circumstantial'' evidence of his guilt or statements like ``John must
+have done it because nobody else could have done it''.  Does this <em>really</em> mean that this particular District Attorney cannot <em>imagine</em>
+how anyone else might have done it, or cannot prove that anybody else
+did it and wants to pick on John?  Both are logical fallacies again,
+even in Aristotelian logic.  Intuitionism carries the avoidance of such
+fallacies to the level of the rules of the logic itself so there can be
+no mistake - one has to <em>separately prove or disprove</em> <img width="17" height="15" align="BOTTOM" border="0" src="img60.png" alt="$A$">
+independent from <img width="22" height="15" align="BOTTOM" border="0" src="img93.png" alt="$!A$"> respectively, and certain rules of inference are
+thereby formally altered.
+
+</p><p>
+There is a bit of an empirical cast to this example drawn from human
+affairs (instead of mathematics per se), which is fine with me as the
+primary theme of this book is <em>Hume's</em> (not Aristotle's) empirical
+statement of knowledge, that our <em>sensory stream</em> is all that we are
+knowing of the Universe and consequently Aristotle's actually rather
+<em>absurd pronouncement</em> as a basis for all knowledge that for a thing
+to be known it must be <em>provable by reason</em> is - wait for it -
+absurd<a name="tex2html230" href="footnode.html#foot7281"><sup>7.10</sup></a>!  It cannot even be used as a logical basis
+for concluding that we know <em>nothing</em>.  As we shall see and beat
+half to death in the following chapters, although we cannot prove a
+single conclusion about the nature of that which we observe in our
+sensory stream using reason <em>alone</em>, we cannot deny that the sensory
+stream itself is <em>known</em>.
+
+</p><p>
+Jaynes acknowledges this in an indirect way as his entire first chapter
+is devoted to the notion of ``plausibility'' - basically an axiomatic
+development of the theory of probability to give us <em>plausible</em>
+grounds for concluding that John <em>did</em> rob the bank without the
+strict requirement of absolute logical rational proof.  This too seems
+quite <em>plausible</em> to me - it describes the way real humans reason.
+However, it doesn't properly seem to appreciate the non-Aristotelian
+nature of Hume's empirical statement, and how it is a statement that
+describes an <em>observation</em> (not an argument) that any of us can make
+at any time, the fundamental truth of which cannot be doubted although
+it can never be rationally proven.  To move beyond this requires axioms,
+and axioms cannot be proven rationally either.
+
+</p><p>
+Jayne's discussion of plausibility is a very good thing, because this
+entire work is devoted to showing that axioms are the basis of all that
+we <em>think</em> that we know in such a way that it cannot <em>plausibly</em>
+be doubted (although it cannot be proven as the proposition itself
+states).  ``Plausibility'' seems to be a better description of human
+knowledge. We know <em>nothing</em> for <em>certain</em> about <em>anything</em>
+but our instantaneous existential sensory stream.  This is true enough,
+but useless and (as Hume himself observed) nobody lives that way - we
+live instead as if the Universe that we imagine and infer is a <em>plausible</em> truth based on some set of axioms that are then more or less
+logically developed.
+
+</p><p>
+As <em>The Matrix</em> movie series so aptly and convincingly demonstrated,
+the price we pay for the <em>logical certainty</em> of mathematical and
+logical reasoning is that it cannot permit any certain conclusion to be
+mathematically or logically drawn about Reality.  Our sensory stream
+could <em>in principle</em> not reflect an actual external Reality at all,
+or it could reflect an actual external Reality but be mistaken in <em>every respect</em> as to its true nature.  Indeed a great deal of our
+creative energy as a culture is devoted to <em>making up</em> or
+experiencing Realities that are superimposed ``weakly'' on our minds
+through our sensory streams - dreams, interior monologues, fantasies,
+hallucinations, movies, music, books, theater, role playing games - all
+<em>mental</em> experiences that nevertheless communicate to us a <em>sensory simulation</em> of a Reality via various means that generate
+(externally or internally) sensory impressions ``like'' those that our
+presumed Reality itself generates.
+
+</p><p>
+<em>The Matrix</em> (or its literary predecessor <em>The Joy Makers</em> by
+James Gunn, or various other works by William Gibson and others) are
+science fiction stories that speculate that eventually (due to advances
+in technology) it will become possible to make the simulation
+sufficiently precise via direct neural stimulation directed by extremely
+powerful computers that humans will be unable to tell the difference
+between the ``fiction'' being presented to them electronically and
+``reality''.  At this point the layers of <em>unknowable abstraction</em>
+between reality as a sensory stream and sets of symbols that <em>might</em>
+be used as an objective basis for that stream become obvious - the
+experience of a thing does not imply its existence.  This is not a
+purely theoretical argument, as the same thing happens all the time in
+our presumably real world.  The use of certain psychoactive drugs,
+neurophysiological or neurochemical trauma, or plain old psychoses all
+can create significant deviations between what one experiences and an
+objective reality, sometimes transiently and sometimes permanently.
+
+</p><p>
+The second (and probably best known) example of a non-Aristotelian
+theory of reason (such as it is) is Alfred Korzybski's <em>Science and
+Sanity</em> and the umpty derived works by the collective of philosophers
+and thinkers who are members of the <em>Institute of General Semantics</em>
+(http://www.general-semantics.org).  This Institute, founded by
+Korzybski, promulgates a <em>semantic</em> overview of reason that in
+certain important respects resembles the viewpoint being advanced in
+this work.  It is touted as being a <em>non-Aristotelian</em> (and
+non-Newtonian and non-Euclidean) system of reasoning<a name="tex2html231" href="footnode.html#foot7282"><sup>7.11</sup></a>.
+
+</p><p>
+There is a simple mantra for its primary axiom.  ``The map is not the
+territory''.  This means that the word for something is not the thing
+itself.  Words are multivalent and categorical, things are unique;
+therefore ``whatever you say that a thing is, it is not''.  Ouch!  Seems
+like this approach has something to say about our efforts to chop up
+uncountably infinite sets like the real numbers into subsets (where the
+chopping can be done an infinite number of ways that cannot be specified
+by any compressed representation - one with less information in it than
+the points in the set).
+
+</p><p>
+However, General Semantics doesn't seem to go this way as information
+theory and random numbers aren't their thing.  Also, this is pretty
+difficult to work through and this isn't a math text.  To make this
+concrete <em>and understandable</em>, let us return to The Universe of
+Fruit (as a set theory).
+
+</p><p>
+If I wish to sort Fruit into boxes, apples in this one, oranges there,
+pineapples over there, I have to pick up a piece of fruit and make a
+decision about it.  Unfortunately, <em>every piece of fruit I pick up
+is unique!</em> <em>This</em> piece that I pick up is a complex assortment of
+objects - sugar, starch, cellulose molecules, pigments in the skin,
+antioxidants, toxins, water, alcohol, and more - that are <em>themselves</em> complex assortments of objects - protons and neutrons and
+electrons, gluons and photons, quarks - in a complex and <em>dynamic</em>
+relationship that in the not distant past was definitely <em>not</em> a
+fruit and in the not distant future will definitely <em>not</em> be a fruit
+but for a brief interval in time has come together into what we call ``a
+fruit''.  It has other coordinates and properties that contribute to
+this categorization - its origin, its size, its genetic encoding -
+many of which are examples of ``higher order'' structure yet.  <em>This</em> piece of fruit is not only unique, every <em>instant</em> of its
+existence is <em>independently</em> unique.
+
+</p><p>
+So where do I get off calling it ``an apple'' and tossing it carelessly
+into the set-theoretic box at my feet?  Even if it was an apple as it
+left my hands, quantum mechanics and thermodynamics conspire to more or
+less guarantee that it <em>might not be</em> an apple by the time that it
+lands, that it damn well won't be an apple by any standard at all after
+I eat it and excrete it, and that a year earlier my ``apple'' consisted
+of a myriad of elementary particle world lines that were gradually being
+carried from an initially random state into the <em>highly organized</em>
+and <em>extremely transient</em> state that is different from that of every
+other object on the planet that has ever been named apple.
+
+</p><p>
+Repeat <em>ad nauseam</em> (for every unique object ever given a name,
+since by your argument you aren't permitted to make general arguments
+because the things they apply to are dynamic and unique) and you too are
+now a Master of General Semantics!
+
+</p><p>
+Without disagreeing with a word of this (and in fact, duplicating some
+of the underlying reasoning here and there throughout this work for an
+entirely different purpose) it isn't, really, terribly relevant to
+logical systems and systems of knowledge.  That is because my knowledge
+of the apple, unextended by the axioms of science and inference and
+inductive reasoning, unenlightened by language and categorization and
+analysis of structure, is appallingly shallow - it is limited to my
+<em>instantaneous</em> sensory stream in which sensory impressions that may
+or may not represent ``the apple'' occur.  We are left with a profound
+paradox, not of the logical sort but the experiential and rational.
+
+</p><p>
+If I see the Universe free of all categories, with every single sensory
+impression in my sensory stream being unique and disconnected from any
+sort of memory of previous impressions, with no inferred logical
+relations between any two parts of the instantaneous stream or the
+memory of the stream at different times, then <em>there is no reason at
+all</em>.  The term doesn't apply.  Experiencing ``life'' in this manner is
+<em>entirely passive</em>, and reason leads one to no conclusions
+whatsoever.  There is no language, as language has no point, no
+mathematics because mathematics is not a sensory impression, there is
+arguably no <em>consciousness</em>, because consciousness itself seems (in
+my own mind at least) to involve a complicated feedback process
+involving the immediate memory of the past.  <em>Really</em> treating each
+moment as a unique and disconnected experience of sensory data is like
+trying to comprehend a movie as a huge pile of its individual frames,
+each cut out and flashed up on a screen in a random, disconnected order,
+while taking drugs that interfere with the formation of long term
+memory.  Chaos is the only word for it.
+
+</p><p>
+If I on the other hand use language and symbology, if I create <em>imperfect maps</em>, if I invent <em>sets</em> and methodologies for <em>sorting out objects into sets and deducing empirical relationships
+between the sets</em>, if I admit time, and memory, and causality, and
+physics, and all the other forms of science, then I'm bound to make
+mistakes because I casually reason with <em>imperfectly formed rules</em>
+for specifying sets - I throw an orange in with the apples, literally
+or metaphorically, or what I thought were parseley greens turns out to
+be aconite<a name="tex2html232" href="footnode.html#foot7211"><sup>7.12</sup></a>.  It means that I'm bound to
+get all tied up in Gödelian knots when I try to reason about notions
+such as ``all men that don't shave themselves'' as this becomes a sort
+of a <em>category error</em> - the error of putting <em>anything</em> into a
+category and trying to reason about it, especially a self-referential
+one.
+
+</p><p>
+Now, I personally am not absolutely certain that General Semantics
+qualifies as an actual system of non-Aristotelian reasoning, but it
+claims to be one and there <em>are</em> well-reasoned analyses of the idea
+that in order to sort any sort of real objects (whatever those might be)
+<em>properly</em> into sets requires an ever growing set of axioms, with a
+whole set associated with <em>each object</em> that one adds to a given
+set.  For example, I need an axiom that says something like ``This
+particular sensory impression that I'm having, that my presumed memory
+and understanding inform me is made up of a myriad of tiny whirling
+particles interacting with invisable potentials to create a wave-like
+ensemble that represents its collective `state', interacting with a
+still more unknown outside Universe that constantly makes small
+interactive changes with the ensemble, will at the moment be presumed to
+be `an apple' because it has the following inferred properties...''
+
+</p><p>
+Only nobody ever says that.  They implicitly use broader axioms and live
+(or die) with the inconsistencies, if any, that result.  So sure, it is
+all nicely pointed out.  So what.  It seems to miss the two main points
+- that it <em>isn't</em> all about identity of apples, it is about axioms,
+because without them we don't even have the ability to talk about not
+being able to call an apple an apple just because it is a <em>unique</em>
+apple and not exactly like any other apple.  That ultimately all the
+<em>non-</em>Aristotelian systems of reason are just as linked to their
+axioms every bit as much as Aristotelian ones. 
+
+</p><p>
+The issue isn't ``dualistic reasoning systems are always bad and
+multivalued ones are always good'' as dualistic logical reasoning
+systems <em>work incredibly well</em> once you've made the right axiomatic
+assumptions about the systems you're applying the logic to.  It is ``you
+have to make a set of axiomatic assumptions as a necessary prior step to
+doing any sort of reasoning at all.''  Some of these axiomatic
+assumptions will lead to systems that work pretty well as a ``symbolic
+representation'' of the time-ordered, memory looped sensory impression
+that we call our ``awareness of external Reality''.  Others will not.
+Some may be Aristotelian and work.  Some may be Aristotelian and not
+work.  Some may be non-Aristotelian and work or not work.
+
+</p><p>
+We are attempting the impossible, or asserting the impossible, or
+including in our language or symbology the inconceivable, and need to
+either restrict the range or domain of certain operations to exclude
+metaphorical division by zero or undefined inverse sines or the
+possibility of infinite non-convergent loops or reconsider the <em>meaning</em> of that which we are trying to compute, or prove, or discuss
+altogether.  Perhaps the null set is just a symbolic referent that our
+Universe isn't well matched with our logical system and ``program''.
+
+</p><p>
+However, <em>algebraically</em> introducing these very simple operational
+<em>definitions</em> (not axioms) for a NaE or null set into a naive
+existential set theory very naturally eliminates all of the Cantor,
+Barber or Russell paradoxes, as the result of the operations proposed or
+requested is undefined, or NaE, or restricted away through closure -
+the paradoxes do <em>not exist within the Universal set being
+considered</em>.  Precisely as happens in computer science, where the
+computer gives you and <em>error message</em> that says basically ``This is
+a null result, you idiot; fix your code and try again...''  OK, maybe it
+leaves off the ``you idiot'' part, but I always imagine it anyway when
+debugging my code.
+
+</p><p>
+Hopefully by now we have clarified a longstanding puzzle, or word-trap
+in the Laws of Thought.  The ``state'' of non-being is not a state.  The
+set of all <img width="14" height="15" align="BOTTOM" border="0" src="img83.png" alt="$a$"> that are not a set, where <img width="14" height="15" align="BOTTOM" border="0" src="img83.png" alt="$a$"> is permitted to be any
+object in the Universe <img width="16" height="15" align="BOTTOM" border="0" src="img11.png" alt="$S$"> <em>including the empty set</em> is not a set
+(even the empty set) in <img width="16" height="15" align="BOTTOM" border="0" src="img11.png" alt="$S$">, it is <img width="15" height="31" align="MIDDLE" border="0" src="img67.png" alt="$\mu$">.  When the Laws of Thought
+refer to ``things'' not being, this is ``the set of all things that are
+not in the set algebra'' which is just as self-contradictory as <img width="74" height="35" align="MIDDLE" border="0" src="img91.png" alt="$(A\
+\&amp; !A)$">.  With this in mind, let us reexamine the Laws of Thought first as
+they are written above, then as they are usually <em>applied</em> as the
+basis for Logic.
+
+</p><p>
+The Law of Identity is perfectly understandable as the first grouping of
+set definitions above.  All objects in the set theory live in their own
+private ``identity set'' which is disjoint from the rest of the objects
+in the set Universe.  The entire set theory is made up of the union of
+all of these objects.  These are the objects that ``have being'', where
+the empty set is considered to be a set object that ``has being'' within
+the set Universe.
+
+</p><p>
+The Law of Contradiction, which ordinary logic treats as if it involves
+the <em>empty set</em> (where it would be a vacuous result, as the empty
+set cannot contain ``things''), is now seen to refer to the <em>null
+set</em>.  In fact, it is the statement:
+<br>
+</p><div align="RIGHT">
+
+<!-- MATH
+ \begin{equation}
+\forall a \in S: I_a \bigcap \mu = \mu
+\end{equation}
+ -->
+<table width="100%" align="CENTER">
+<tbody><tr valign="MIDDLE"><td align="CENTER" nowrap=""><img width="165" height="41" border="0" src="img81.png" alt="\begin{displaymath}
+\forall a \in S: I_a \bigcap \mu = \mu
+\end{displaymath}"></td>
+<td width="10" align="RIGHT">
+(7.9)</td></tr>
+</tbody></table>
+<br clear="ALL"></div><p></p>
+where as usual, <img width="14" height="15" align="BOTTOM" border="0" src="img83.png" alt="$a$"> can be the empty object or any non-empty object and
+<img width="15" height="31" align="MIDDLE" border="0" src="img67.png" alt="$\mu$"> is now interpreted as the ``set of things that do not exist in the
+set theory''.  The empty set is <em>in</em> the set theory, where it
+performs the mundane task of defining the intersection of disjoint sets
+within the theory; <img width="15" height="31" align="MIDDLE" border="0" src="img67.png" alt="$\mu$"> is <em>not</em> in the theory.  
+
+<p>
+The Law of Contradiction <em>as stated</em> is <em>not</em> a statement about
+applying the ``not'' operation to sets within the theory as if it is
+implicitly followed by a set descriptor.  It is not (for the set of all
+fruit) that something must ``be an apple'' or ``not be an
+apple''<a name="tex2html233" href="footnode.html#foot7283"><sup>7.13</sup></a>.  It is (for the set
+of all fruit) something must be a fruit or not <em>be</em> (in the set).
+If our entire Universe is fruit, non-fruit is null, not empty, because
+<em>we defined the empty set to be in the set</em>.  We cannot then talk
+about cars as if they are ``non-fruit'' so that it is possible for some
+``thing'' to be not a fruit - not even the candy-apple red T-bird that
+I'll purchase with the vast profits from writing this book if they turn
+out to be vast enough - without <em>implicitly</em> creating a larger
+Universe for our set theory!
+
+</p><p>
+In mathematics this sort of thing is pretty obvious.  In number theory,
+for example, Fermat's Last Theorem (one of my favorite propositions)
+states that <!-- MATH
+ $a^n + b^n = c^n$
+ -->
+<img width="100" height="33" align="MIDDLE" border="0" src="img114.png" alt="$a^n + b^n = c^n$"> has no solutions for integers
+<img width="140" height="33" align="MIDDLE" border="0" src="img115.png" alt="$a&gt;0,b&gt;0,c&gt;0$"> for <img width="47" height="31" align="MIDDLE" border="0" src="img116.png" alt="$n&gt;2$">.  Of course it is <em>trivial</em> to find
+solutions for <em>any</em> <img width="143" height="33" align="MIDDLE" border="0" src="img117.png" alt="$a&gt;0,b&gt;0,n&gt;2$"> if one relaxes the requirement
+that <img width="44" height="33" align="MIDDLE" border="0" src="img118.png" alt="$a, b, c$"> be <em>integers</em>.  A whole different ballgame results if
+we let the numbers be negative (integer or not) and let <img width="15" height="15" align="BOTTOM" border="0" src="img42.png" alt="$n$"> be a real
+number - we are forced to conclude that solutions exist, but they might
+be complex.  Yet another class of results follows if <img width="15" height="15" align="BOTTOM" border="0" src="img42.png" alt="$n$"> can be complex.
+
+</p><p>
+So when Fermat asserted that this equation has no solutions, that
+solutions <em>do not exist</em>, he meant that they do not exist <em>within the Universe of positive integers</em>.  The existence (or
+non-existence) of solutions within a <em>different</em> set of numbers -
+the rational numbers, the real numbers, the complex numbers - is <em>irrelevant</em>.  They are <img width="15" height="31" align="MIDDLE" border="0" src="img67.png" alt="$\mu$">.
+
+</p><p>
+This is a much cleaner formulation.  Rather than stating that nothing
+can be and not be (leaving the exact meaning of ``something'', ``be''
+and ``not be'' ambiguous and embedded in the <em>dynamics</em> of being,
+with its implicit past and future tenses), we instead create a <em>static</em> observation in set theory that the ``set of things that do not
+exist within the Universe <img width="16" height="15" align="BOTTOM" border="0" src="img11.png" alt="$S$">'' (the null set) has no intersection with
+the ``set of things within the Universe <img width="16" height="15" align="BOTTOM" border="0" src="img11.png" alt="$S$">'' including the empty set -
+the intersection is not just <em>empty</em>, it does not exist within the
+Universe <img width="16" height="15" align="BOTTOM" border="0" src="img11.png" alt="$S$">.  The intersection of sets of imaginary unicorns with my
+box of apples isn't ``no apples'', it is ``you are out of your mind
+considering the imaginary unicorns to be a kind of fruit''.  This is a
+<em>stronger statement</em> (and more accurate statement) of ``non-being''
+than the usual Law of Contradiction.
+
+</p><p>
+Note that we <em>ignore</em> all lesser statements as being <em>trivial
+tautologies</em> that would never have even been written down in the first
+placea if one conjoined <img width="22" height="35" align="MIDDLE" border="0" src="img44.png" alt="$\{\}$"> to all sets or subsets algebraically at
+the beginning, so that the empty set is considered a ``subset'' of all
+sets of zero or more members.  In that case <!-- MATH
+ $S = I_{\O} \bigcup I_a
+\bigcup I_b...$
+ -->
+<img width="141" height="33" align="MIDDLE" border="0" src="img119.png" alt="$S = I_{\O} \bigcup I_a
+\bigcup I_b...$"> leads to <em>both</em> that Law of Contradiction <em>and</em>
+the Law of Excluded Middle as an absolutely trivial application of the
+usual definitions of intersection and union, but one is left with no way
+to deal with the inconceivable, with the self-contradictory, with <img width="15" height="31" align="MIDDLE" border="0" src="img67.png" alt="$\mu$">.
+
+</p><p>
+The Law of Excluded Middle is more troublesome to write as even an
+approximately algebraic result.  The difficulty is that <img width="15" height="31" align="MIDDLE" border="0" src="img67.png" alt="$\mu$"> has <em>no members</em> (in the set Universe) and <em>isn't even an empty set
+there</em>.  So talking about ``everything'' being either within the
+Universe <img width="16" height="15" align="BOTTOM" border="0" src="img11.png" alt="$S$"> or not within the Universe <img width="16" height="15" align="BOTTOM" border="0" src="img11.png" alt="$S$"> only makes sense if there is
+a <em>bigger</em> Universe <img width="18" height="15" align="BOTTOM" border="0" src="img120.png" alt="$U$"> in which <img width="16" height="15" align="BOTTOM" border="0" src="img11.png" alt="$S$"> is embedded, <img width="53" height="32" align="MIDDLE" border="0" src="img121.png" alt="$S \subset U$">,
+where an object that (such as a candy-apple red T-Bird) <em>exists</em> but
+isn't in <img width="16" height="15" align="BOTTOM" border="0" src="img11.png" alt="$S$">, the Universe of Fruit might be.  This is, in fact, the way
+the Law of Excluded Middle is usually applied - something must either
+be a fruit or not a fruit (in which case it must be something else).
+However, Russell paradox sets <em>cannot</em> be in such a bigger Universe.
+The set of all sets that do not contain themselves in <img width="16" height="15" align="BOTTOM" border="0" src="img11.png" alt="$S$"> doesn't exist
+in some larger <img width="18" height="15" align="BOTTOM" border="0" src="img120.png" alt="$U$">, it isn't the empty set (which contains itself
+utterly trivially), it is self-contradictory and doesn't exist.  It is
+<em>not a set</em>, in <em>any</em> Universe.
+
+</p><p>
+Instead let me define the Law of Excluded Middle backwards.  Things that
+exist (that is to say, everything) are <em>not</em> in <img width="15" height="31" align="MIDDLE" border="0" src="img67.png" alt="$\mu$">.  Since they
+exist, they must be in <img width="16" height="15" align="BOTTOM" border="0" src="img11.png" alt="$S$"> (by hypothesis, our entire Universe):
+<br>
+</p><div align="RIGHT">
+
+<!-- MATH
+ \begin{equation}
+{\rm if\ } a\ !\in \mu, {\rm\ then\ } a \in S
+\end{equation}
+ -->
+<table width="100%" align="CENTER">
+<tbody><tr valign="MIDDLE"><td align="CENTER" nowrap=""><img width="182" height="36" border="0" src="img122.png" alt="\begin{displaymath}
+{\rm if } a !\in \mu, {\rm then } a \in S
+\end{displaymath}"></td>
+<td width="10" align="RIGHT">
+(7.10)</td></tr>
+</tbody></table>
+<br clear="ALL"></div><p></p>
+We see that Excluded Middle is basically the <em>existential constraint
+on the set Universe</em>.  This is the statement that effectively eliminates
+all possibility of paradox, explicitly, by construction!
+
+<p>
+Thus we eliminate imaginary unicorns and red T-birds from the World of
+Fruit, integer numbers from the Universe of Pocket Change, complex
+numbers from the real line.  We also eliminate the Universal
+Contradiction from set relationships - the metaphorical or real
+division by zero, the <img width="74" height="35" align="MIDDLE" border="0" src="img91.png" alt="$(A\
+\&amp; !A)$">, the inverse sine of 2, the set of
+all sets that do not include themselves, the set of all Universes where
+a male barber shaves all males that do not shave themselves - the <em>inconceivable</em> - these exist within <em>no</em>
+Universes<a name="tex2html234" href="footnode.html#foot7284"><sup>7.14</sup></a>.
+
+</p><p>
+Now, how does one get from set theory as the Mother of all Math to <em>real</em> mathematics, to physics, to the <em>good stuff?</em> At this point we
+(as a species, as represented by its brightest scientists and
+mathematicians) have a pretty good idea how to proceed at least for
+mathematics and physics and the other sciences.  I'll devote
+considerable space to discussing this in detail in later chapters and
+you'll have to just keep reading and trust that I'll get to it
+eventually.
+
+</p><p>
+</p><hr>
+<!--Navigation Panel-->
+<a name="tex2html806" href="Pit_Existential_Despair.html">
+<img width="20" height="20" align="BOTTOM" border="0" alt="next" src="next.png"></a> <a name="tex2html807" href="Pit_Existential_Despair.html">The Pit of Existential Despair</a>
+<br>
+
+<a name="tex2html798" href="Paradoxes.html">
+<img width="20" height="20" align="BOTTOM" border="0" alt="previous" src="prev.png"></a> <a name="tex2html799" href="Paradoxes.html">Paradoxes</a>
+<br>
+ &nbsp; <strong>  <a name="tex2html805" href="Contents.html">Contents</a></strong>
+ &nbsp;|&nbsp; <a href="http://www.phy.duke.edu/~rgb" onmouseover="return escape('rgb Home')">rgb Home</a> &nbsp;|&nbsp;
+<a href="http://www.phy.duke.edu/~rgb/Philosophy/philosophy.php" onmouseover="return escape('Philosophy Home')">Philosophy Home</a> &nbsp;|&nbsp;
+<a href="http://www.phy.duke.edu/~rgb/Philosophy/axioms.php" onmouseover="return escape('&lt;i&gt;Axioms&lt;/i&gt;')"><i>Axioms</i></a> &nbsp;|&nbsp;<br><hr>
+Other Books by rgb: &nbsp;|&nbsp;
+<a href="http://www.phy.duke.edu/~rgb/Lilith/Lilith.php" onmouseover="return escape('&lt;i&gt;The Book of Lilith&lt;/i&gt;')"><i>The Book of Lilith</i></a> &nbsp;|&nbsp;
+
+<!--End of Navigation Panel-->
+<address>
+<hr>Copyright © <i>2010-01-21</i><br>
+
+Duke Physics Department <br>
+Box 90305 <br>
+Durham, NC 27708-0305
+
+</address>
+
+
+</body></html>

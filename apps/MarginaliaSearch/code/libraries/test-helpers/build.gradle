@@ -1,0 +1,36 @@
+plugins {
+    id 'java'
+
+    id "com.google.protobuf" version "0.9.4"
+}
+
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(rootProject.ext.jvmVersion))
+    }
+}
+
+apply from: "$rootProject.projectDir/protobuf.gradle"
+apply from: "$rootProject.projectDir/srcsets.gradle"
+
+dependencies {
+    implementation libs.bundles.protobuf
+    implementation libs.guava
+    libs.bundles.grpc.get().each {
+        implementation dependencies.create(it) {
+            exclude group: 'com.google.guava'
+        }
+    }
+
+
+    implementation libs.bundles.slf4j
+    implementation libs.bundles.mariadb
+    implementation libs.bundles.slf4j.test
+    implementation libs.bundles.junit
+    implementation libs.mockito
+    implementation libs.bundles.flyway
+}
+
+test {
+    useJUnitPlatform()
+}

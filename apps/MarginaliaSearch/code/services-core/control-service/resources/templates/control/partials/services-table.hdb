@@ -1,0 +1,13 @@
+<h1>Services</h1>
+<table id="services" class="table">
+    <tr>
+        <th>Service ID</th>
+        <th>UUID</th>
+    </tr>
+    {{#each services}}
+    <tr class="{{#if isMissing}}table-danger{{/if}}">
+        <td><a href="/services/{{serviceId}}">{{serviceId}}</a></td>
+        <td>{{{readableUUID uuidFull}}}</td>
+    </tr>
+    {{/each}}
+</table>

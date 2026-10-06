@@ -1,0 +1,142 @@
+<!-- status: active · updated: 2026-09-17 (KL1: contested?/superseded? chips labelled experimental; unsourced_claim shown as Uncited in answers) · class: living -->
+
+# How answers work — evidence vs. interpretation
+
+This assistant is built for research, so it tries to be clear about **what comes
+from your documents and what comes from the AI**. Every answer is built in two
+visible layers.
+
+## The two layers
+
+**1. Evidence — what your sources actually say.**
+These are the passages the retriever found and the reranker ranked highest, shown
+*verbatim* with their source, page, and a relevance score (e.g. `dpr.pdf, p.4 ·
+relevance 0.82`). No model rewrites this layer — it is the ground truth you can
+check.
+
+**2. Interpretation — the AI's synthesis.**
+This is the model's answer, written from the evidence above and **clearly labelled
+as AI interpretation**. It cites its sources inline (`[1]`, `[2]`, …), each number
+pointing at a passage in the evidence layer.
+
+The point of the split: you can always see where the documents stop and the model's
+reasoning starts, so an AI inference never gets mistaken for a citable fact.
+
+## Per-claim markers (and why they're trustworthy)
+
+The interpretation is broken into claims (roughly one per sentence). Each claim
+carries a marker derived from **retrieval signals, not the model's own
+confidence** (language models are systematically over-confident, so we don't ask
+them how sure they are):
+
+- **(unmarked)** — the claim cites a source the reranker scored as relevant.
+- **⚠ weakly grounded** — the claim cites a source with a low relevance score.
+- **⚠ unsupported** — the claim cites *no* source.
+
+The interface stays quiet when everything is clean: review buttons appear **only**
+on the flagged claims. Markers are a heuristic signal to look closer, not a
+correctness guarantee.
+
+## You stay in control
+
+On a flagged claim you can **accept**, **reject**, or **edit** it. Your decision is
+logged alongside the answer's provenance record — so AI-assisted output stays
+auditable (and, later, exportable as a methodology disclosure).
+
+## Two modes
+
+Set `SYNTHESIS_MODE` in `.env` (or check the current one with `/synthesis`):
+
+- **`ai`** (default) — both layers: evidence + the labelled AI interpretation with
+  per-claim markers and the accept/reject/edit loop.
+- **`human`** — **evidence only**. The AI returns the passages and does *not* write
+  an interpretation — the synthesis is yours. (It's also faster: no generation call.)
+
+## The flow
+
+```mermaid
+flowchart LR
+    Q[Your question] --> R["Retrieve + rerank<br/>(top passages + scores)"]
+    R --> EV["Evidence layer<br/>passages shown verbatim"]
+    R -->|mode = ai| GEN["AI interpretation<br/>cited, claim by claim"]
+    GEN --> MK["Per-claim markers<br/>from rerank scores"]
+    MK --> ADJ["Accept / reject / edit<br/>(logged)"]
+    R -->|mode = human| EVONLY["Evidence only —<br/>you interpret"]
+```
+
+## What the markers can and can't tell you
+
+A marker comes from one signal: the reranker's **relevance score** for the source a
+claim cites. That score answers *"how relevant was this passage to your question?"* —
+not *"is this sentence true?"* and not *"does this passage actually support this exact
+claim?"* Two consequences follow:
+
+- **A clean (unmarked) claim is not "verified."** A high score means the cited passage
+  was relevant to the query — the model can still misstate what a genuinely-relevant
+  source says, or cite a passage that's on-topic but doesn't back that specific
+  sentence. No marker means *"retrieval looked fine here,"* not *"this is correct."*
+- **A ⚠ flag is not proof of a problem.** The most common false alarm is a sentence
+  that got separated from its citation. We've seen exactly this: *"…DPR outperforms
+  BM25 [2]. 42.9% in Top-5 accuracy on Natural Questions."* — the `[2]` sits on the
+  first sentence, so the statistic, read alone, looks uncited and is flagged
+  `unsupported`, even though the same source backs it.
+
+So read the markers as **"look here,"** not as a fact-check. They're deliberately a
+cheap, *observable* signal — derived from retrieval, never from the model rating its
+own confidence (language models are systematically over-confident, which is the whole
+reason we don't use self-reported scores).
+
+## How claims are split — and why you can edit them
+
+So you can review the answer point by point, it's broken into separate claims —
+roughly one per sentence. The split is kept deliberately simple: the app decides where
+the breaks go by sentence, rather than asking the AI to decide what counts as a claim.
+The upside is that it's predictable; the downside is that it isn't always tidy — a
+single sentence can make two points, one point can run across two sentences (a claim
+and then its supporting number, as in the example above), or a heading can end up as
+its own "claim."
+
+When a claim comes out cut awkwardly — or just needs rewording — you can **edit** it.
+Your version replaces the original and is saved with the answer, so the record shows
+what you actually settled on, not the AI's first draft.
+
+## Indicators vs. retrieval — what actually reorders your results
+
+Several scores are shown alongside an answer, but
+**only one decides which passages you see.** The rest are *indicators* —
+signals for you to look closer, with zero effect on ranking. Keeping this line sharp
+matters, because an indicator that looks like a ranking signal invites the wrong
+mental model.
+
+| Signal | What it is | Reorders retrieval? |
+|---|---|---|
+| BM25 (keyword) | Sparse lexical match score | **Yes** — but only shapes the pre-rerank candidate pool |
+| Vector similarity | Dense cosine match score | **Yes** — but only shapes the pre-rerank candidate pool |
+| Ensemble fusion (`BM25_WEIGHT`) | Blends the two arms above | **Yes** — pre-rerank only; can't change the final top-K |
+| **Cross-encoder reranker** | Query–passage relevance, 0–1 | **Yes — this alone sets the final ranking and top-K** |
+| Relevance score (shown per source) | The reranker score, surfaced | No — it's the reranker output, *displayed* |
+| Per-claim markers (weak / unsupported) | Derived from the cited source's rerank score | No — reader indicator |
+| Confidence signals (weak retrieval, single-source…) | Post-answer heuristics | No — reader indicator |
+| Epistemic markers (contested / superseded) | An experimental stance pass over concept pairs, computed offline — **not a corpus measurement** (KI-33) | No — reader indicator, **off by default** (ADR-005) |
+
+**The one-line version:** the reranker orders your results; everything else is either
+an input to the pool it reranks, or an annotation on top of what it chose. BM25 and
+the vector arm feed the reranker a candidate pool but don't get the final say — the
+cross-encoder re-scores the whole pool and its sort is what you see.
+
+**Epistemic markers are the case to watch.** Today they're purely advisory (a
+"contested? (experimental)" chip) and gated off by default. They are computed from the
+concept graph, *after* retrieval, and never touch ranking. This is a deliberate
+default (ADR-005, superseded by ADR-027), **not** a permanent design: once the corpus is
+large enough and
+retrieval breadth (`TOP_K`/`CANDIDATE_K`) grows, promoting epistemic status into a
+ranking signal — down-weighting superseded or contested passages — is a plausible
+future change. If that happens, this table is the thing to update, because the signal
+would move from the bottom (indicator) group into the top (retrieval) group.
+
+## The deeper check
+
+A reference-free **LLM reviewer** can grade the answer's faithfulness against the
+retrieved text — a real model judgment, not a retrieval heuristic. To keep cost down
+it runs **only** on answers the confidence signals already flag (or on demand via
+`/review`), so it complements the markers rather than replacing them.

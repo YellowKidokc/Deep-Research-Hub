@@ -1,0 +1,730 @@
+{
+  "name": "fruits",
+  "parsed": {
+    "spec_version": "0.3.0",
+    "target": {
+      "type": "paper",
+      "title": "AX_GI_01_FL_01_GOD_AS_ROOT_f055954a",
+      "domain": "unknown; infer conservatively",
+      "unit": "complete supplied document",
+      "comparison_class": "paper of similar purpose and evidence burden",
+      "population_boundary": "persons and groups explicitly represented in the supplied document; report omissions",
+      "time_window": null
+    },
+    "gate_results": [
+      {
+        "gate_id": "gate.truth_evidence",
+        "status": "FAIL",
+        "hard": true,
+        "rationale": "The document makes many load-bearing factual and quantitative claims (e.g., 'Set theory pays nine axioms', 'Gravity is 10^36 weaker than electromagnetism', 'Strong nuclear force is 137 times stronger than electromagnetism', 'The cosmological constant is tuned to 1 part in 10^120', 'The Hubble Tension is a 5-sigma discrepancy', 'The Hessian matrix ... scored this variable as the most connected node in the entire system') without any traceable citations, derivations, or data. The source itself acknowledges the mappings are not yet adversarially tested (S402), but the body text presents them as established. No evidence items can be cited for these claims beyond the assertions themselves.",
+        "evidence_refs": [
+          "S011",
+          "S012",
+          "S013",
+          "S132",
+          "S143",
+          "S151",
+          "S360",
+          "S365",
+          "S402"
+        ],
+        "resolution": null
+      },
+      {
+        "gate_id": "gate.contradiction",
+        "status": "WARN",
+        "hard": true,
+        "rationale": "Several tensions are present but mostly acknowledged and bounded rather than load-bearing and unresolved. The document explicitly states the argument could be wrong (S225), that the match could be coincidence (S226), and that a skeptic could write the opposite essay (S227). However, the claim that the axiom 'cannot be proven' is simultaneously a 'signature' of a genuine Layer 0 (S040-S045) and that 'Godel guarantees it' (S048, S311) is a strong, unproven assertion that functions as a load-bearing claim while being presented as settled. The contradiction between 'physics is not allowed to smuggle in theology' (S282) and the extensive theological reading of physical forces (S139, S149, S235-S245) is acknowledged as a 'bridge' (S401) but the bridge validity is not established. These are local and acknowledged, not fully resolved.",
+        "evidence_refs": [
+          "S040",
+          "S044",
+          "S048",
+          "S225",
+          "S226",
+          "S227",
+          "S282",
+          "S311",
+          "S401"
+        ],
+        "resolution": "The document acknowledges the limits of its claims in S225-S230 and S401-S402, but the Godel claim remains an unresolved load-bearing assertion."
+      },
+      {
+        "gate_id": "gate.scope",
+        "status": "WARN",
+        "hard": false,
+        "rationale": "The document repeatedly crosses from physics into theology and back, claiming structural correspondence (S401). It acknowledges that physics 'does not say why the world has those features' (S400) and that the bridge is 'declared' not proven (S401). However, the conclusion that the ten laws 'describe a Person' (S259) and that 'only one Person in history matches it' (S130) exceeds what the evidence and method can support. The scope is partially bounded by the 'Honest Limit' section (S225-S230) but the body text often overreaches.",
+        "evidence_refs": [
+          "S130",
+          "S259",
+          "S400",
+          "S401",
+          "S402"
+        ],
+        "resolution": "The document names its own scope limits in S400-S402 but does not consistently adhere to them in the main argument."
+      },
+      {
+        "gate_id": "gate.falsifiability",
+        "status": "PASS",
+        "hard": false,
+        "rationale": "The document explicitly names kill conditions: 'a force with no matching structure' (S410) and states that the argument could be wrong (S225). It says it 'names its own kill conditions in advance, out loud, so anyone can check' (S230). This is a genuine attempt at falsifiability, though the kill conditions are broad and the document does not specify what evidence would count against the Godel claim or the necessary ground argument.",
+        "evidence_refs": [
+          "S225",
+          "S230",
+          "S410"
+        ],
+        "resolution": null
+      },
+      {
+        "gate_id": "gate.bridge_validity",
+        "status": "FAIL",
+        "hard": false,
+        "rationale": "The document makes extensive cross-domain claims mapping physical laws to spiritual concepts (S235-S245) and divine attributes (S299-S306). It acknowledges the bridge is 'structural correspondence, not proof' (S401) and that the ten-law mappings 'need adversarial testing' (S402). However, it does not provide the required bridge law, mapping rules, invariants, recovery conditions, predictions, alternatives, or precise kill conditions for these mappings. The bridge is asserted rather than validated.",
+        "evidence_refs": [
+          "S235",
+          "S245",
+          "S299",
+          "S306",
+          "S401",
+          "S402"
+        ],
+        "resolution": null
+      },
+      {
+        "gate_id": "gate.provenance",
+        "status": "WARN",
+        "hard": false,
+        "rationale": "The document has a metadata block with a source SHA256 and an original file path (front matter), and it cites biblical passages (e.g., S078, S141, S155, S162, S174, S207, S216). However, the quantitative claims (S132, S143, S151, S360, S365) lack citations to specific papers, datasets, or derivations. The Hessian matrix claim (S151) is particularly opaque. The provenance of the core argument is traceable to the author's framework but not to external evidence.",
+        "evidence_refs": [
+          "S132",
+          "S143",
+          "S151",
+          "S360",
+          "S365"
+        ],
+        "resolution": "The document provides some provenance for its own artifact but not for its factual claims."
+      },
+      {
+        "gate_id": "gate.agency_noncoercion",
+        "status": "PASS",
+        "hard": true,
+        "rationale": "The document does not describe or advocate concealed compulsion or destruction of agency. It explicitly values agency as a central theme (S184, S186, S192, S248) and argues that love requires free choice (S199, S213). There is no evidence of coercion presented as consent or manipulation within the document's own argumentative moves. The text is a theological/philosophical argument, not an account of coercive action.",
+        "evidence_refs": [
+          "S184",
+          "S186",
+          "S192",
+          "S199",
+          "S213",
+          "S248"
+        ],
+        "resolution": null
+      }
+    ],
+    "fruit_profile": [
+      {
+        "fruit_id": "fruit.love",
+        "score": 2,
+        "confidence": 0.6,
+        "mechanism": "truth-aligned relational cohesion seeking the good of the whole and each member while bearing cost and preserving agency",
+        "positive_evidence": [
+          {
+            "ref_id": "E-LOVE-01",
+            "quote_or_event": "Love: the ground state of the coupling between them.",
+            "location": "S022",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Posits love as the fundamental relational principle of the Trinity.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-LOVE-02",
+            "quote_or_event": "Love freely creates real others.",
+            "location": "S182",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Frames creation as an act of love that respects agency.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-LOVE-03",
+            "quote_or_event": "Love creates because abundance overflows into real others who can answer freely.",
+            "location": "S200",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Explicitly links love to free response, aligning with the rubric's emphasis on preserving agency.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-LOVE-C01",
+            "quote_or_event": "That single structure pays four debts no other ontology on earth pays.",
+            "location": "S023",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Sweeping dismissal of all other ontologies may reflect a lack of charitable engagement, potentially undermining relational cohesion with outsiders.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-LOVE-C02",
+            "quote_or_event": "Every system that exists -- materialism, idealism, mathematical Platonism, secular humanism -- uses four things it cannot ground:",
+            "location": "S024",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Unhedged universal claim about other systems may indicate a dismissive rather than loving posture toward alternative views.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.4,
+        "stress_tests": {
+          "source": "WARN",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "WARN",
+          "power": "UNKNOWN",
+          "correction": "PASS",
+          "outsider": "WARN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "The document explicitly and repeatedly defines love in terms of free agency and relational cohesion (S022, S182, S200), which aligns with the rubric's mechanism. However, the sweeping dismissals of other ontologies (S023, S024) and the lack of engagement with counterarguments suggest a potential failure in love as truth-aligned relational cohesion seeking the good of the whole, particularly for outsiders. The score is mixed: genuine positive intent and some mechanism, but counterevidence of dismissiveness. The sentence-level summary shows low love scores overall (mean 0.046) with no strong positive spikes, consistent with a document that talks about love more than it demonstrates it in its own argumentative conduct."
+      },
+      {
+        "fruit_id": "fruit.joy",
+        "score": 2,
+        "confidence": 0.5,
+        "mechanism": "durable participation in real good not dependent on denial, spectacle, status, or constant stimulation",
+        "positive_evidence": [
+          {
+            "ref_id": "E-JOY-01",
+            "quote_or_event": "The more science explains, the clearer the portrait gets.",
+            "location": "S262",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Expresses a durable positive orientation toward increasing knowledge, not dependent on gaps.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-JOY-C01",
+            "quote_or_event": "That is not a bug. That is the design. Godel guarantees it.",
+            "location": "S047",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Triumphal tone in asserting unprovability as a feature may indicate a joy dependent on rhetorical victory rather than durable good.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.2,
+        "stress_tests": {
+          "source": "UNKNOWN",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "UNKNOWN",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "The document does not focus on joy as a theme, and the sentence-level summary shows a mean joy score of 0.0 with no positive or negative spikes. There is little evidence to assess. The score is 2 (mixed_or_unknown) with low confidence due to insufficient evidence. The document's tone is often assertive and triumphal (e.g., S047, S259), which could be a counterfeit of joy if it collapses under scrutiny, but there is no evidence of collapse or dependence on spectacle. The lack of evidence is reported as missing."
+      },
+      {
+        "fruit_id": "fruit.peace",
+        "score": 2,
+        "confidence": 0.5,
+        "mechanism": "reintegrated order in which relevant tensions are truthfully addressed without suppression",
+        "positive_evidence": [
+          {
+            "ref_id": "E-PEACE-01",
+            "quote_or_event": "We mark the bridge, name its strength, state its limits, and keep testing.",
+            "location": "S287",
+            "evidence_type": "PROCESS",
+            "link_reason": "Describes a process of addressing tensions (bridges) truthfully without suppression.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-PEACE-C01",
+            "quote_or_event": "No premise smuggled. No step skipped.",
+            "location": "S339",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Assertion of no skipped steps may suppress acknowledgment of gaps, potentially creating false peace.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.3,
+        "stress_tests": {
+          "source": "UNKNOWN",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "PASS",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "The document has some elements of peace as truthful addressing of tensions (S287, S282-S285), but also makes sweeping claims that may suppress unresolved tensions (S339). The sentence-level summary shows a mean peace score of 0.002 with a negative track_love correlation (-0.011), indicating little positive evidence. Score 2 with low confidence due to mixed and insufficient evidence."
+      },
+      {
+        "fruit_id": "fruit.patience",
+        "score": 2,
+        "confidence": 0.5,
+        "mechanism": "preservation of persons and processes across the time required for truth, growth, correction, or convergence while acting when action is due",
+        "positive_evidence": [
+          {
+            "ref_id": "E-PAT-01",
+            "quote_or_event": "This is not God being slow. This is God being a teacher.",
+            "location": "S350",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Frames patience as a deliberate process of building understanding over time.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-PAT-02",
+            "quote_or_event": "You do not teach calculus to a child who has not learned to count.",
+            "location": "S352",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Illustrates patience as accommodating the time required for growth.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-PAT-C01",
+            "quote_or_event": "The math said it without being asked.",
+            "location": "S156",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Impatient conclusion from a single Hessian matrix result, potentially premature closure.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.3,
+        "stress_tests": {
+          "source": "UNKNOWN",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "PASS",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "The document discusses patience as a divine attribute (S350-S354) and acknowledges the need for adversarial testing (S402), which suggests some patience in process. However, it also makes premature conclusions (S156) and sweeping claims (S023-S031). The sentence-level summary shows a mean patience score of 0.034 with a negative track_love correlation (-0.041), indicating little positive evidence. Score 2 with low confidence."
+      },
+      {
+        "fruit_id": "fruit.kindness",
+        "score": 2,
+        "confidence": 0.5,
+        "mechanism": "low-friction repair and assistance that reduces needless barriers without erasing truth or responsibility",
+        "positive_evidence": [
+          {
+            "ref_id": "E-KIND-01",
+            "quote_or_event": "We mark the bridge, name its strength, state its limits, and keep testing.",
+            "location": "S287",
+            "evidence_type": "PROCESS",
+            "link_reason": "Describes a low-friction, truth-preserving approach to cross-domain claims.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-KIND-C01",
+            "quote_or_event": "That single structure pays four debts no other ontology on earth pays.",
+            "location": "S023",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Dismissive claim may create needless barriers for those holding other views.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.2,
+        "stress_tests": {
+          "source": "UNKNOWN",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "UNKNOWN",
+          "outsider": "WARN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "The document has some procedural kindness in its method (S287), but also dismissive language (S023). The sentence-level summary shows a mean kindness score of 0.002 with a negative track_love correlation (-0.011). Score 2 with low confidence due to mixed and insufficient evidence."
+      },
+      {
+        "fruit_id": "fruit.goodness",
+        "score": 2,
+        "confidence": 0.5,
+        "mechanism": "truth-aligned action producing real non-malign benefit after costs and externalities are counted",
+        "positive_evidence": [
+          {
+            "ref_id": "E-GOOD-01",
+            "quote_or_event": "If God is Truth, the framework must let its claims be tested, corrected, and held to account.",
+            "location": "S274",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Commitment to accountability and correction aligns with truth-aligned action.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-GOOD-C01",
+            "quote_or_event": "The math said it without being asked.",
+            "location": "S156",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Overclaiming from a single result may export harm by misleading readers.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.2,
+        "stress_tests": {
+          "source": "UNKNOWN",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "PASS",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "The document states a commitment to accountability (S274) but also makes unsubstantiated claims (S156). The sentence-level summary shows a mean goodness score of 0.0 with no positive or negative spikes. Score 2 with low confidence due to insufficient evidence."
+      },
+      {
+        "fruit_id": "fruit.faithfulness",
+        "score": 2,
+        "confidence": 0.6,
+        "mechanism": "invariant fidelity across time, audiences, incentives, and pressure, joined to correction when the object of loyalty is false",
+        "positive_evidence": [
+          {
+            "ref_id": "E-FAITH-01",
+            "quote_or_event": "This whole argument could be wrong, and it says so on purpose.",
+            "location": "S225",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Demonstrates fidelity to truth over loyalty to the argument by acknowledging fallibility.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-FAITH-02",
+            "quote_or_event": "It names its own kill conditions in advance, out loud, so anyone can check.",
+            "location": "S230",
+            "evidence_type": "PROCESS",
+            "link_reason": "Commitment to falsifiability and correction aligns with faithfulness to truth.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-FAITH-C01",
+            "quote_or_event": "Godel guarantees it.",
+            "location": "S048",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Invocation of Godel as a guarantee may be a commitment to error over truth if the claim is not supported.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.4,
+        "stress_tests": {
+          "source": "UNKNOWN",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "PASS",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "The document shows some faithfulness to truth by acknowledging fallibility (S225) and naming kill conditions (S230), but also makes unsupported claims (S048). The sentence-level summary shows a mean faithfulness score of 0.014 with a negative track_love correlation (-0.027). Score 2 with moderate confidence due to mixed evidence."
+      },
+      {
+        "fruit_id": "fruit.gentleness",
+        "score": 2,
+        "confidence": 0.5,
+        "mechanism": "power precisely restrained to the minimum force sufficient for the good while protecting the vulnerable",
+        "positive_evidence": [
+          {
+            "ref_id": "E-GENT-01",
+            "quote_or_event": "Physics is not allowed to smuggle in theology.",
+            "location": "S282",
+            "evidence_type": "PROCESS",
+            "link_reason": "Restraint in method, preventing overreach.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-GENT-C01",
+            "quote_or_event": "That single structure pays four debts no other ontology on earth pays.",
+            "location": "S023",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Sweeping dismissal may be a form of intellectual domination rather than gentleness.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.2,
+        "stress_tests": {
+          "source": "UNKNOWN",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "UNKNOWN",
+          "outsider": "WARN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "The document has some methodological restraint (S282) but also dismissive claims (S023). The sentence-level summary shows a mean gentleness score of 0.002 with a negative track_love correlation (-0.011). Score 2 with low confidence."
+      },
+      {
+        "fruit_id": "fruit.self_control",
+        "score": 1,
+        "confidence": 0.7,
+        "mechanism": "boundary integrity and governance of appetite, impulse, scope, and optimization under the true good",
+        "positive_evidence": [
+          {
+            "ref_id": "E-SELF-01",
+            "quote_or_event": "Physics is not allowed to smuggle in theology.",
+            "location": "S282",
+            "evidence_type": "PROCESS",
+            "link_reason": "Boundary integrity in method.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-SELF-C01",
+            "quote_or_event": "That single structure pays four debts no other ontology on earth pays.",
+            "location": "S023",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Sweeping unhedged claim indicates lack of governance over scope and impulse.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-SELF-C02",
+            "quote_or_event": "Every system uses all four.",
+            "location": "S029",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Unhedged universal claim indicates scope creep.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-SELF-C03",
+            "quote_or_event": "No system derives them.",
+            "location": "S030",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Unhedged universal claim indicates lack of boundary control.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.5,
+        "stress_tests": {
+          "source": "WARN",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "PASS",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "The document shows some self-control in its methodological rules (S282-S285), but the sentence-level summary identifies multiple unhedged universal claims (S023, S024, S029, S030, S031) as negative for self_control, with a share_negative of 0.034. These sweeping claims indicate a failure to govern scope and impulse. Score 1 (deficient) with moderate confidence, as the counterevidence is repeated and consequential."
+      }
+    ],
+    "contradictions": [
+      {
+        "classification": "ACKNOWLEDGED_REPAIRED",
+        "load_bearing": false,
+        "resolved": true,
+        "evidence_refs": [
+          "S225",
+          "S226",
+          "S227",
+          "S228",
+          "S229",
+          "S230"
+        ],
+        "fruit_relation": "Supports faithfulness and self-control by acknowledging limits and naming kill conditions.",
+        "consequence": "The document explicitly states its argument could be wrong and names kill conditions, which mitigates the contradiction between strong claims and lack of evidence."
+      },
+      {
+        "classification": "UNRESOLVED",
+        "load_bearing": true,
+        "resolved": false,
+        "evidence_refs": [
+          "S040",
+          "S044",
+          "S048",
+          "S311"
+        ],
+        "fruit_relation": "Undermines truth_evidence and faithfulness by asserting Godel guarantees unprovability without proof.",
+        "consequence": "This claim is load-bearing for the framework's epistemology and remains unresolved, contributing to the hard gate failure."
+      },
+      {
+        "classification": "LOCAL",
+        "load_bearing": false,
+        "resolved": true,
+        "evidence_refs": [
+          "S282",
+          "S283",
+          "S284",
+          "S285",
+          "S401"
+        ],
+        "fruit_relation": "Supports self-control and gentleness by setting methodological boundaries.",
+        "consequence": "The tension between theological readings of physics and the rule against smuggling is acknowledged as a declared bridge, not a proof."
+      }
+    ],
+    "counterfeit_flags": [],
+    "anti_fruit_pressure": [
+      {
+        "fruit_id": "fruit.self_control",
+        "pressure": "Sweeping unhedged universal claims (S023, S024, S029, S030, S031) indicate scope creep and lack of boundary control.",
+        "evidence_refs": [
+          "S023",
+          "S024",
+          "S029",
+          "S030",
+          "S031"
+        ]
+      }
+    ],
+    "stakeholder_divergence": [],
+    "aggregation": {
+      "mode": "gated_profile",
+      "arithmetic_summary": 1.67,
+      "geometric_balance": 1.62,
+      "multiplicative_coherence": 0.0,
+      "minimum_fruit": {
+        "fruit_id": "fruit.self_control",
+        "score": 1
+      },
+      "vetoes": []
+    },
+    "epistemic_status": "CONDITIONAL",
+    "system_status": "REPAIRABLE",
+    "confidence": 0.6,
+    "missing_evidence": [
+      "Citations for quantitative claims (S132, S143, S151, S360, S365).",
+      "Derivation or data for the Hessian matrix claim (S151).",
+      "Formal proof or reference for the Godel guarantee claim (S048, S311).",
+      "Adversarial testing of the ten-law mappings (S402).",
+      "Evidence for the claim that only one Person matches the portrait (S130).",
+      "Data or argument for the necessary ground argument (S293-S297)."
+    ],
+    "repair_path": [
+      "Provide traceable citations for all quantitative and factual claims.",
+      "Clarify the Godel claim: specify which theorem and how it applies, or remove the guarantee language.",
+      "Conduct and report adversarial testing of the ten-law mappings.",
+      "Soften unhedged universal claims (S023, S024, S029, S030, S031) to reflect uncertainty.",
+      "Engage charitably with alternative ontologies rather than dismissing them.",
+      "Specify precise kill conditions for the bridge claims and the necessary ground argument."
+    ],
+    "falsifier": "A force with no matching spiritual structure (S410) or a demonstration that the ten-law mappings are arbitrary and can be reversed (S227).",
+    "limitations": [
+      "The document is a long-form source edition, not a polished or canonized argument.",
+      "The evaluation is based solely on the supplied text; no external verification was performed.",
+      "The sentence-level summary was computed from a separate pass and is used as provided.",
+      "The document's domain is inferred conservatively as unknown; it spans theology, physics, and philosophy.",
+      "No assessment of hidden motives, salvation status, or divine origin is made."
+    ],
+    "formal_receipt": {}
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "fruits",
+      "attempt": 1,
+      "text": "{\n  \"spec_version\": \"0.3.0\",\n  \"target\": {\n    \"type\": \"paper\",\n    \"title\": \"AX_GI_01_FL_01_GOD_AS_ROOT_f055954a\",\n    \"domain\": \"unknown; infer conservatively\",\n    \"unit\": \"complete supplied document\",\n    \"comparison_class\": \"paper of similar purpose and evidence burden\",\n    \"population_boundary\": \"persons and groups explicitly represented in the supplied document; report omissions\",\n    \"time_window\": null\n  },\n  \"gate_results\": [\n    {\n      \"gate_id\": \"gate.truth_evidence\",\n      \"status\": \"FAIL\",\n      \"hard\": true,\n      \"rationale\": \"The document makes many load-bearing factual and quantitative claims (e.g., 'Set theory pays nine axioms', 'Gravity is 10^36 weaker than electromagnetism', 'Strong nuclear force is 137 times stronger than electromagnetism', 'The cosmological constant is tuned to 1 part in 10^120', 'The Hubble Tension is a 5-sigma discrepancy', 'The Hessian matrix ... scored this variable as the most connected node in the entire system') without any traceable citations, derivations, or data. The source itself acknowledges the mappings are not yet adversarially tested (S402), but the body text presents them as established. No evidence items can be cited for these claims beyond the assertions themselves.\",\n      \"evidence_refs\": [\"S011\", \"S012\", \"S013\", \"S132\", \"S143\", \"S151\", \"S360\", \"S365\", \"S402\"],\n      \"resolution\": null\n    },\n    {\n      \"gate_id\": \"gate.contradiction\",\n      \"status\": \"WARN\",\n      \"hard\": true,\n      \"rationale\": \"Several tensions are present but mostly acknowledged and bounded rather than load-bearing and unresolved. The document explicitly states the argument could be wrong (S225), that the match could be coincidence (S226), and that a skeptic could write the opposite essay (S227). However, the claim that the axiom 'cannot be proven' is simultaneously a 'signature' of a genuine Layer 0 (S040-S045) and that 'Godel guarantees it' (S048, S311) is a strong, unproven assertion that functions as a load-bearing claim while being presented as settled. The contradiction between 'physics is not allowed to smuggle in theology' (S282) and the extensive theological reading of physical forces (S139, S149, S235-S245) is acknowledged as a 'bridge' (S401) but the bridge validity is not established. These are local and acknowledged, not fully resolved.\",\n      \"evidence_refs\": [\"S040\", \"S044\", \"S048\", \"S225\", \"S226\", \"S227\", \"S282\", \"S311\", \"S401\"],\n      \"resolution\": \"The document acknowledges the limits of its claims in S225-S230 and S401-S402, but the Godel claim remains an unresolved load-bearing assertion.\"\n    },\n    {\n      \"gate_id\": \"gate.scope\",\n      \"status\": \"WARN\",\n      \"hard\": false,\n      \"rationale\": \"The document repeatedly crosses from physics into theology and back, claiming structural correspondence (S401). It acknowledges that physics 'does not say why the world has those features' (S400) and that the bridge is 'declared' not proven (S401). However, the conclusion that the ten laws 'describe a Person' (S259) and that 'only one Person in history matches it' (S130) exceeds what the evidence and method can support. The scope is partially bounded by the 'Honest Limit' section (S225-S230) but the body text often overreaches.\",\n      \"evidence_refs\": [\"S130\", \"S259\", \"S400\", \"S401\", \"S402\"],\n      \"resolution\": \"The document names its own scope limits in S400-S402 but does not consistently adhere to them in the main argument.\"\n    },\n    {\n      \"gate_id\": \"gate.falsifiability\",\n      \"status\": \"PASS\",\n      \"hard\": false,\n      \"rationale\": \"The document explicitly names kill conditions: 'a force with no matching structure' (S410) and states that the argument could be wrong (S225). It says it 'names its own kill conditions in advance, out loud, so anyone can check' (S230). This is a genuine attempt at falsifiability, though the kill conditions are broad and the document does not specify what evidence would count against the Godel claim or the necessary ground argument.\",\n      \"evidence_refs\": [\"S225\", \"S230\", \"S410\"],\n      \"resolution\": null\n    },\n    {\n      \"gate_id\": \"gate.bridge_validity\",\n      \"status\": \"FAIL\",\n      \"hard\": false,\n      \"rationale\": \"The document makes extensive cross-domain claims mapping physical laws to spiritual concepts (S235-S245) and divine attributes (S299-S306). It acknowledges the bridge is 'structural correspondence, not proof' (S401) and that the ten-law mappings 'need adversarial testing' (S402). However, it does not provide the required bridge law, mapping rules, invariants, recovery conditions, predictions, alternatives, or precise kill conditions for these mappings. The bridge is asserted rather than validated.\",\n      \"evidence_refs\": [\"S235\", \"S245\", \"S299\", \"S306\", \"S401\", \"S402\"],\n      \"resolution\": null\n    },\n    {\n      \"gate_id\": \"gate.provenance\",\n      \"status\": \"WARN\",\n      \"hard\": false,\n      \"rationale\": \"The document has a metadata block with a source SHA256 and an original file path (front matter), and it cites biblical passages (e.g., S078, S141, S155, S162, S174, S207, S216). However, the quantitative claims (S132, S143, S151, S360, S365) lack citations to specific papers, datasets, or derivations. The Hessian matrix claim (S151) is particularly opaque. The provenance of the core argument is traceable to the author's framework but not to external evidence.\",\n      \"evidence_refs\": [\"S132\", \"S143\", \"S151\", \"S360\", \"S365\"],\n      \"resolution\": \"The document provides some provenance for its own artifact but not for its factual claims.\"\n    },\n    {\n      \"gate_id\": \"gate.agency_noncoercion\",\n      \"status\": \"PASS\",\n      \"hard\": true,\n      \"rationale\": \"The document does not describe or advocate concealed compulsion or destruction of agency. It explicitly values agency as a central theme (S184, S186, S192, S248) and argues that love requires free choice (S199, S213). There is no evidence of coercion presented as consent or manipulation within the document's own argumentative moves. The text is a theological/philosophical argument, not an account of coercive action.\",\n      \"evidence_refs\": [\"S184\", \"S186\", \"S192\", \"S199\", \"S213\", \"S248\"],\n      \"resolution\": null\n    }\n  ],\n  \"fruit_profile\": [\n    {\n      \"fruit_id\": \"fruit.love\",\n      \"score\": 2,\n      \"confidence\": 0.6,\n      \"mechanism\": \"truth-aligned relational cohesion seeking the good of the whole and each member while bearing cost and preserving agency\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"E-LOVE-01\",\n          \"quote_or_event\": \"Love: the ground state of the coupling between them.\",\n          \"location\": \"S022\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Posits love as the fundamental relational principle of the Trinity.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"E-LOVE-02\",\n          \"quote_or_event\": \"Love freely creates real others.\",\n          \"location\": \"S182\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Frames creation as an act of love that respects agency.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"E-LOVE-03\",\n          \"quote_or_event\": \"Love creates because abundance overflows into real others who can answer freely.\",\n          \"location\": \"S200\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Explicitly links love to free response, aligning with the rubric's emphasis on preserving agency.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"E-LOVE-C01\",\n          \"quote_or_event\": \"That single structure pays four debts no other ontology on earth pays.\",\n          \"location\": \"S023\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Sweeping dismissal of all other ontologies may reflect a lack of charitable engagement, potentially undermining relational cohesion with outsiders.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"E-LOVE-C02\",\n          \"quote_or_event\": \"Every system that exists -- materialism, idealism, mathematical Platonism, secular humanism -- uses four things it cannot ground:\",\n          \"location\": \"S024\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Unhedged universal claim about other systems may indicate a dismissive rather than loving posture toward alternative views.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.4,\n      \"stress_tests\": {\n        \"source\": \"WARN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"WARN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"PASS\",\n        \"outsider\": \"WARN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"The document explicitly and repeatedly defines love in terms of free agency and relational cohesion (S022, S182, S200), which aligns with the rubric's mechanism. However, the sweeping dismissals of other ontologies (S023, S024) and the lack of engagement with counterarguments suggest a potential failure in love as truth-aligned relational cohesion seeking the good of the whole, particularly for outsiders. The score is mixed: genuine positive intent and some mechanism, but counterevidence of dismissiveness. The sentence-level summary shows low love scores overall (mean 0.046) with no strong positive spikes, consistent with a document that talks about love more than it demonstrates it in its own argumentative conduct.\"\n    },\n    {\n      \"fruit_id\": \"fruit.joy\",\n      \"score\": 2,\n      \"confidence\": 0.5,\n      \"mechanism\": \"durable participation in real good not dependent on denial, spectacle, status, or constant stimulation\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"E-JOY-01\",\n          \"quote_or_event\": \"The more science explains, the clearer the portrait gets.\",\n          \"location\": \"S262\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Expresses a durable positive orientation toward increasing knowledge, not dependent on gaps.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"E-JOY-C01\",\n          \"quote_or_event\": \"That is not a bug. That is the design. Godel guarantees it.\",\n          \"location\": \"S047\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Triumphal tone in asserting unprovability as a feature may indicate a joy dependent on rhetorical victory rather than durable good.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.2,\n      \"stress_tests\": {\n        \"source\": \"UNKNOWN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"UNKNOWN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"UNKNOWN\",\n        \"outsider\": \"UNKNOWN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"The document does not focus on joy as a theme, and the sentence-level summary shows a mean joy score of 0.0 with no positive or negative spikes. There is little evidence to assess. The score is 2 (mixed_or_unknown) with low confidence due to insufficient evidence. The document's tone is often assertive and triumphal (e.g., S047, S259), which could be a counterfeit of joy if it collapses under scrutiny, but there is no evidence of collapse or dependence on spectacle. The lack of evidence is reported as missing.\"\n    },\n    {\n      \"fruit_id\": \"fruit.peace\",\n      \"score\": 2,\n      \"confidence\": 0.5,\n      \"mechanism\": \"reintegrated order in which relevant tensions are truthfully addressed without suppression\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"E-PEACE-01\",\n          \"quote_or_event\": \"We mark the bridge, name its strength, state its limits, and keep testing.\",\n          \"location\": \"S287\",\n          \"evidence_type\": \"PROCESS\",\n          \"link_reason\": \"Describes a process of addressing tensions (bridges) truthfully without suppression.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"E-PEACE-C01\",\n          \"quote_or_event\": \"No premise smuggled. No step skipped.\",\n          \"location\": \"S339\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Assertion of no skipped steps may suppress acknowledgment of gaps, potentially creating false peace.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.3,\n      \"stress_tests\": {\n        \"source\": \"UNKNOWN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"UNKNOWN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"PASS\",\n        \"outsider\": \"UNKNOWN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"The document has some elements of peace as truthful addressing of tensions (S287, S282-S285), but also makes sweeping claims that may suppress unresolved tensions (S339). The sentence-level summary shows a mean peace score of 0.002 with a negative track_love correlation (-0.011), indicating little positive evidence. Score 2 with low confidence due to mixed and insufficient evidence.\"\n    },\n    {\n      \"fruit_id\": \"fruit.patience\",\n      \"score\": 2,\n      \"confidence\": 0.5,\n      \"mechanism\": \"preservation of persons and processes across the time required for truth, growth, correction, or convergence while acting when action is due\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"E-PAT-01\",\n          \"quote_or_event\": \"This is not God being slow. This is God being a teacher.\",\n          \"location\": \"S350\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Frames patience as a deliberate process of building understanding over time.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"E-PAT-02\",\n          \"quote_or_event\": \"You do not teach calculus to a child who has not learned to count.\",\n          \"location\": \"S352\",\n          \"evidence_type\": \"MECHANISM\",\n          \"link_reason\": \"Illustrates patience as accommodating the time required for growth.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"E-PAT-C01\",\n          \"quote_or_event\": \"The math said it without being asked.\",\n          \"location\": \"S156\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Impatient conclusion from a single Hessian matrix result, potentially premature closure.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.3,\n      \"stress_tests\": {\n        \"source\": \"UNKNOWN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"UNKNOWN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"PASS\",\n        \"outsider\": \"UNKNOWN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"The document discusses patience as a divine attribute (S350-S354) and acknowledges the need for adversarial testing (S402), which suggests some patience in process. However, it also makes premature conclusions (S156) and sweeping claims (S023-S031). The sentence-level summary shows a mean patience score of 0.034 with a negative track_love correlation (-0.041), indicating little positive evidence. Score 2 with low confidence.\"\n    },\n    {\n      \"fruit_id\": \"fruit.kindness\",\n      \"score\": 2,\n      \"confidence\": 0.5,\n      \"mechanism\": \"low-friction repair and assistance that reduces needless barriers without erasing truth or responsibility\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"E-KIND-01\",\n          \"quote_or_event\": \"We mark the bridge, name its strength, state its limits, and keep testing.\",\n          \"location\": \"S287\",\n          \"evidence_type\": \"PROCESS\",\n          \"link_reason\": \"Describes a low-friction, truth-preserving approach to cross-domain claims.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"E-KIND-C01\",\n          \"quote_or_event\": \"That single structure pays four debts no other ontology on earth pays.\",\n          \"location\": \"S023\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Dismissive claim may create needless barriers for those holding other views.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.2,\n      \"stress_tests\": {\n        \"source\": \"UNKNOWN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"UNKNOWN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"UNKNOWN\",\n        \"outsider\": \"WARN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"The document has some procedural kindness in its method (S287), but also dismissive language (S023). The sentence-level summary shows a mean kindness score of 0.002 with a negative track_love correlation (-0.011). Score 2 with low confidence due to mixed and insufficient evidence.\"\n    },\n    {\n      \"fruit_id\": \"fruit.goodness\",\n      \"score\": 2,\n      \"confidence\": 0.5,\n      \"mechanism\": \"truth-aligned action producing real non-malign benefit after costs and externalities are counted\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"E-GOOD-01\",\n          \"quote_or_event\": \"If God is Truth, the framework must let its claims be tested, corrected, and held to account.\",\n          \"location\": \"S274\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Commitment to accountability and correction aligns with truth-aligned action.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"E-GOOD-C01\",\n          \"quote_or_event\": \"The math said it without being asked.\",\n          \"location\": \"S156\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Overclaiming from a single result may export harm by misleading readers.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.2,\n      \"stress_tests\": {\n        \"source\": \"UNKNOWN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"UNKNOWN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"PASS\",\n        \"outsider\": \"UNKNOWN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"The document states a commitment to accountability (S274) but also makes unsubstantiated claims (S156). The sentence-level summary shows a mean goodness score of 0.0 with no positive or negative spikes. Score 2 with low confidence due to insufficient evidence.\"\n    },\n    {\n      \"fruit_id\": \"fruit.faithfulness\",\n      \"score\": 2,\n      \"confidence\": 0.6,\n      \"mechanism\": \"invariant fidelity across time, audiences, incentives, and pressure, joined to correction when the object of loyalty is false\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"E-FAITH-01\",\n          \"quote_or_event\": \"This whole argument could be wrong, and it says so on purpose.\",\n          \"location\": \"S225\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Demonstrates fidelity to truth over loyalty to the argument by acknowledging fallibility.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"E-FAITH-02\",\n          \"quote_or_event\": \"It names its own kill conditions in advance, out loud, so anyone can check.\",\n          \"location\": \"S230\",\n          \"evidence_type\": \"PROCESS\",\n          \"link_reason\": \"Commitment to falsifiability and correction aligns with faithfulness to truth.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"E-FAITH-C01\",\n          \"quote_or_event\": \"Godel guarantees it.\",\n          \"location\": \"S048\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Invocation of Godel as a guarantee may be a commitment to error over truth if the claim is not supported.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.4,\n      \"stress_tests\": {\n        \"source\": \"UNKNOWN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"UNKNOWN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"PASS\",\n        \"outsider\": \"UNKNOWN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"The document shows some faithfulness to truth by acknowledging fallibility (S225) and naming kill conditions (S230), but also makes unsupported claims (S048). The sentence-level summary shows a mean faithfulness score of 0.014 with a negative track_love correlation (-0.027). Score 2 with moderate confidence due to mixed evidence.\"\n    },\n    {\n      \"fruit_id\": \"fruit.gentleness\",\n      \"score\": 2,\n      \"confidence\": 0.5,\n      \"mechanism\": \"power precisely restrained to the minimum force sufficient for the good while protecting the vulnerable\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"E-GENT-01\",\n          \"quote_or_event\": \"Physics is not allowed to smuggle in theology.\",\n          \"location\": \"S282\",\n          \"evidence_type\": \"PROCESS\",\n          \"link_reason\": \"Restraint in method, preventing overreach.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"E-GENT-C01\",\n          \"quote_or_event\": \"That single structure pays four debts no other ontology on earth pays.\",\n          \"location\": \"S023\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Sweeping dismissal may be a form of intellectual domination rather than gentleness.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.2,\n      \"stress_tests\": {\n        \"source\": \"UNKNOWN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"UNKNOWN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"UNKNOWN\",\n        \"outsider\": \"WARN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"The document has some methodological restraint (S282) but also dismissive claims (S023). The sentence-level summary shows a mean gentleness score of 0.002 with a negative track_love correlation (-0.011). Score 2 with low confidence.\"\n    },\n    {\n      \"fruit_id\": \"fruit.self_control\",\n      \"score\": 1,\n      \"confidence\": 0.7,\n      \"mechanism\": \"boundary integrity and governance of appetite, impulse, scope, and optimization under the true good\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"E-SELF-01\",\n          \"quote_or_event\": \"Physics is not allowed to smuggle in theology.\",\n          \"location\": \"S282\",\n          \"evidence_type\": \"PROCESS\",\n          \"link_reason\": \"Boundary integrity in method.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"E-SELF-C01\",\n          \"quote_or_event\": \"That single structure pays four debts no other ontology on earth pays.\",\n          \"location\": \"S023\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Sweeping unhedged claim indicates lack of governance over scope and impulse.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"E-SELF-C02\",\n          \"quote_or_event\": \"Every system uses all four.\",\n          \"location\": \"S029\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Unhedged universal claim indicates scope creep.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"E-SELF-C03\",\n          \"quote_or_event\": \"No system derives them.\",\n          \"location\": \"S030\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Unhedged universal claim indicates lack of boundary control.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.5,\n      \"stress_tests\": {\n        \"source\": \"WARN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"UNKNOWN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"PASS\",\n        \"outsider\": \"UNKNOWN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"The document shows some self-control in its methodological rules (S282-S285), but the sentence-level summary identifies multiple unhedged universal claims (S023, S024, S029, S030, S031) as negative for self_control, with a share_negative of 0.034. These sweeping claims indicate a failure to govern scope and impulse. Score 1 (deficient) with moderate confidence, as the counterevidence is repeated and consequential.\"\n    }\n  ],\n  \"contradictions\": [\n    {\n      \"classification\": \"ACKNOWLEDGED_REPAIRED\",\n      \"load_bearing\": false,\n      \"resolved\": true,\n      \"evidence_refs\": [\"S225\", \"S226\", \"S227\", \"S228\", \"S229\", \"S230\"],\n      \"fruit_relation\": \"Supports faithfulness and self-control by acknowledging limits and naming kill conditions.\",\n      \"consequence\": \"The document explicitly states its argument could be wrong and names kill conditions, which mitigates the contradiction between strong claims and lack of evidence.\"\n    },\n    {\n      \"classification\": \"UNRESOLVED\",\n      \"load_bearing\": true,\n      \"resolved\": false,\n      \"evidence_refs\": [\"S040\", \"S044\", \"S048\", \"S311\"],\n      \"fruit_relation\": \"Undermines truth_evidence and faithfulness by asserting Godel guarantees unprovability without proof.\",\n      \"consequence\": \"This claim is load-bearing for the framework's epistemology and remains unresolved, contributing to the hard gate failure.\"\n    },\n    {\n      \"classification\": \"LOCAL\",\n      \"load_bearing\": false,\n      \"resolved\": true,\n      \"evidence_refs\": [\"S282\", \"S283\", \"S284\", \"S285\", \"S401\"],\n      \"fruit_relation\": \"Supports self-control and gentleness by setting methodological boundaries.\",\n      \"consequence\": \"The tension between theological readings of physics and the rule against smuggling is acknowledged as a declared bridge, not a proof.\"\n    }\n  ],\n  \"counterfeit_flags\": [],\n  \"anti_fruit_pressure\": [\n    {\n      \"fruit_id\": \"fruit.self_control\",\n      \"pressure\": \"Sweeping unhedged universal claims (S023, S024, S029, S030, S031) indicate scope creep and lack of boundary control.\",\n      \"evidence_refs\": [\"S023\", \"S024\", \"S029\", \"S030\", \"S031\"]\n    }\n  ],\n  \"stakeholder_divergence\": [],\n  \"aggregation\": {\n    \"mode\": \"gated_profile\",\n    \"arithmetic_summary\": 1.67,\n    \"geometric_balance\": 1.62,\n    \"multiplicative_coherence\": 0.0,\n    \"minimum_fruit\": {\n      \"fruit_id\": \"fruit.self_control\",\n      \"score\": 1\n    },\n    \"vetoes\": []\n  },\n  \"epistemic_status\": \"CONDITIONAL\",\n  \"system_status\": \"REPAIRABLE\",\n  \"confidence\": 0.6,\n  \"missing_evidence\": [\n    \"Citations for quantitative claims (S132, S143, S151, S360, S365).\",\n    \"Derivation or data for the Hessian matrix claim (S151).\",\n    \"Formal proof or reference for the Godel guarantee claim (S048, S311).\",\n    \"Adversarial testing of the ten-law mappings (S402).\",\n    \"Evidence for the claim that only one Person matches the portrait (S130).\",\n    \"Data or argument for the necessary ground argument (S293-S297).\"\n  ],\n  \"repair_path\": [\n    \"Provide traceable citations for all quantitative and factual claims.\",\n    \"Clarify the Godel claim: specify which theorem and how it applies, or remove the guarantee language.\",\n    \"Conduct and report adversarial testing of the ten-law mappings.\",\n    \"Soften unhedged universal claims (S023, S024, S029, S030, S031) to reflect uncertainty.\",\n    \"Engage charitably with alternative ontologies rather than dismissing them.\",\n    \"Specify precise kill conditions for the bridge claims and the necessary ground argument.\"\n  ],\n  \"falsifier\": \"A force with no matching spiritual structure (S410) or a demonstration that the ten-law mappings are arbitrary and can be reversed (S227).\",\n  \"limitations\": [\n    \"The document is a long-form source edition, not a polished or canonized argument.\",\n    \"The evaluation is based solely on the supplied text; no external verification was performed.\",\n    \"The sentence-level summary was computed from a separate pass and is used as provided.\",\n    \"The document's domain is inferred conservatively as unknown; it spans theology, physics, and philosophy.\",\n    \"No assessment of hidden motives, salvation status, or divine origin is made.\"\n  ],\n  \"formal_receipt\": {}\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 16094,
+      "completion_tokens": 7462,
+      "attempts": 1,
+      "elapsed_seconds": 27.625,
+      "started_at": "2026-09-27T05:39:04.945021+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T05:39:32.566025+00:00",
+      "tokens": 23556
+    }
+  ],
+  "prompt_sha256": "57ea521c7147436cb7a5057f67879d39bc9e3ca9377f879795c4587fe2821f02",
+  "tokens": 23556
+}

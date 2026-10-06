@@ -1,0 +1,402 @@
+source,category,label,author,url,priority,description
+TOE_PRIMARY,TOE Framework,General Relativity,"Albert Einstein, 1915",https://en.wikipedia.org/wiki/General_relativity,HIGH,"General relativity describes gravity as the curvature of spacetime caused by mass-energy, with dynamics governed by the Einstein field equations G_μν = 8πT_μν."
+TOE_PRIMARY,TOE Framework,Quantum Mechanics (Copenhagen),"Bohr, Heisenberg, 1920s",https://en.wikipedia.org/wiki/Copenhagen_interpretation,HIGH,"The Copenhagen interpretation treats the wavefunction as encoding probabilities of measurement outcomes, with collapse upon observation as fundamental."
+TOE_PRIMARY,TOE Framework,Schrödinger Equation,"Erwin Schrödinger, 1926",https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation,HIGH,"The Schrödinger equation describes how the quantum state of a system evolves in time, serving as the fundamental dynamical equation of non-relativistic quantum mechanics."
+TOE_PRIMARY,TOE Framework,Born Rule,"Max Born, 1926",https://en.wikipedia.org/wiki/Born_rule,HIGH,"The Born rule states that the probability of a measurement outcome equals |⟨ψ|φ⟩|², connecting the abstract wavefunction to observable statistics."
+TOE_PRIMARY,TOE Framework,Heisenberg Uncertainty Principle,"Werner Heisenberg, 1927",https://en.wikipedia.org/wiki/Uncertainty_principle,HIGH,The uncertainty principle states that certain pairs of physical properties cannot both be known precisely: ΔxΔp ≥ ℏ/2.
+TOE_PRIMARY,TOE Framework,Second Law of Thermodynamics,"Clausius, Boltzmann, 19th century",https://en.wikipedia.org/wiki/Second_law_of_thermodynamics,HIGH,"The second law states that entropy of isolated systems never decreases: dS/dt ≥ 0, providing the arrow of time and decay toward disorder."
+TOE_PRIMARY,TOE Framework,Shannon Information Theory,"Claude Shannon, 1948",https://en.wikipedia.org/wiki/Information_theory,HIGH,"Shannon's theory quantifies information as H = -Σp log p, establishing fundamental limits on data compression and reliable communication."
+TOE_PRIMARY,TOE Framework,Standard Model of Particle Physics,"Glashow, Weinberg, Salam, 1960s-70s",https://en.wikipedia.org/wiki/Standard_Model,HIGH,The Standard Model describes fundamental particles and forces (except gravity) via gauge symmetries SU(3)×SU(2)×U(1).
+TOE_PRIMARY,TOE Framework,Many-Worlds Interpretation,"Hugh Everett III, 1957",https://en.wikipedia.org/wiki/Many-worlds_interpretation,HIGH,Many-worlds interprets quantum mechanics without collapse: all outcomes occur in branching parallel universes.
+TOE_PRIMARY,TOE Framework,Wave Function Collapse,"von Neumann, 1932; ongoing debate",https://en.wikipedia.org/wiki/Wave_function_collapse,HIGH,The measurement problem asks how/why the superposition of states reduces to a definite outcome upon observation.
+TOE_PRIMARY,TOE Framework,Participatory Anthropic Principle (PAP),"John A. Wheeler, 1970s–1980s",https://en.wikipedia.org/wiki/Anthropic_principle#The_participatory_anthropic_principle_(PAP),HIGH,The participatory anthropic principle claims that observers do more than passively witness the universe; their acts of observation are essential to bringing physical phenomena into definite existence.
+TOE_PRIMARY,TOE Framework,QBism (Fuchs),"Christopher A. Fuchs et al., 2000s",https://en.wikipedia.org/wiki/QBism,HIGH,"QBism interprets the quantum state as an agent's personal probability assignments about future experiences, treating quantum theory as a normative tool for updating beliefs."
+TOE_PRIMARY,TOE Framework,Algorithmic Information Theory,"Solomonoff, Kolmogorov, Chaitin, 1960s",http://www.scholarpedia.org/article/Algorithmic_information_theory,HIGH,"AIT defines information content as the length of the shortest program that outputs an object, formalizing complexity, randomness, and Occam's razor."
+TOE_PRIMARY,TOE Framework,Computational Universe (Lloyd),"Seth Lloyd, Schmidhuber, Zuse, 1960s–2000s",https://www.americanscientist.org/article/the-computational-universe,HIGH,"Models the universe as fundamentally computational, processing qubits via physical interactions with limits set by energy and spacetime."
+TOE_PRIMARY,TOE Framework,"Digital Physics (Zuse, Fredkin)","Konrad Zuse, Edward Fredkin, 1960s–1990s",https://www.idc-online.com/technical_references/pdfs/mechanical_engineering/Quantum_Mechanics_digital_physics.pdf,HIGH,"Proposes physical reality is ultimately discrete and computable, like a cellular automaton updating binary states."
+TOE_PRIMARY,TOE Framework,Principle of Least Action,"Euler, Lagrange, Hamilton, historical",https://en.wikipedia.org/wiki/Principle_of_least_action,HIGH,Physical systems follow paths that make the action functional stationary; reinterpreted as minimizing computational cost.
+TOE_PRIMARY,TOE Framework,Unitarity in QM,"Standard QM postulate, 20th century",https://en.wikipedia.org/wiki/Unitarity_(physics),HIGH,"Time evolution of closed systems is unitary (U†U = I), conserving probability and inner products."
+TOE_PRIMARY,TOE Framework,Projection Postulate (von Neumann/Lüders),von Neumann 1932; Lüders 1951,https://arxiv.org/abs/0905.4398,HIGH,Measurement projects quantum state onto eigenstate corresponding to observed outcome.
+TOE_PRIMARY,TOE Framework,Quantum Darwinism (Zurek),"Wojciech H. Zurek, 2000s",https://en.wikipedia.org/wiki/Quantum_Darwinism,HIGH,Classical reality emerges from quantum systems via selective proliferation of information about stable 'pointer states' into environment.
+TOE_PRIMARY,TOE Framework,Klein-Gordon Field,"Klein, Gordon, 1926",https://en.wikipedia.org/wiki/Klein%E2%80%93Gordon_equation,HIGH,Relativistic wave equation for spin-0 scalar fields: (□ + m²)φ = 0.
+TOE_PRIMARY,TOE Framework,Yukawa Coupling,"Hideki Yukawa, 1935",https://en.wikipedia.org/wiki/Yukawa_interaction,HIGH,Fermion-scalar coupling g·ψ̄φψ that generates particle masses after symmetry breaking.
+TOE_PRIMARY,TOE Framework,Black Hole Information Paradox,"Hawking, Bekenstein, Page, 1970s–1990s",https://en.wikipedia.org/wiki/Black_hole_information_paradox,HIGH,Tension between unitarity (information conservation) and thermal Hawking radiation that seems to destroy information.
+TOE_PRIMARY,TOE Framework,Planck Black-Body Law,"Max Planck, 1900",https://en.wikipedia.org/wiki/Planck%27s_law,HIGH,"Spectral distribution of black body radiation, resolving ultraviolet catastrophe via quantized energy."
+TOE_PRIMARY,TOE Framework,Landauer's Principle,"Rolf Landauer, 1961",https://en.wikipedia.org/wiki/Landauer%27s_principle,HIGH,"Erasing one bit costs minimum energy kT ln 2, linking computation to thermodynamics."
+TOE_PRIMARY,TOE Framework,Boltzmann Entropy,"Ludwig Boltzmann, late 19th century",https://en.wikipedia.org/wiki/Boltzmann%27s_entropy_formula,HIGH,S = k_B ln W relates thermodynamic entropy to number of microstates.
+TOE_PRIMARY,TOE Framework,ΛCDM Cosmology,Standard form 1990s–present,https://en.wikipedia.org/wiki/Lambda-CDM_model,HIGH,Standard cosmological model with cold dark matter and cosmological constant (dark energy).
+TOE_PRIMARY,TOE Framework,Hubble Tension,"Riess, Planck, 2010s–2020s",https://en.wikipedia.org/wiki/Hubble%27s_law#Measuring_the_Hubble_constant,HIGH,Discrepancy between local and CMB-derived Hubble constant measurements.
+TOE_PRIMARY,TOE Framework,de Sitter Space,"Willem de Sitter, early 20th century",https://en.wikipedia.org/wiki/De_Sitter_space,HIGH,Maximally symmetric solution with positive cosmological constant; model for exponentially expanding universe.
+TOE_PRIMARY,TOE Framework,Baez-Stay Rosetta Stone,"John C. Baez, Mike Stay, 2010",https://math.ucr.edu/home/baez/rosetta.pdf,HIGH,"Uses monoidal categories to show structural parallels between quantum processes, topology, logic, and computation."
+TOE_PRIMARY,TOE Framework,Infant Fairness Studies (Bloom),"Paul Bloom et al., 2000s–2010s",https://journals.sagepub.com/doi/abs/10.1177/0956797611422072,HIGH,Infants show expectations about fair distribution and prefer fair agents before language develops.
+TOE_PRIMARY,TOE Framework,fMRI Moral Judgment (Greene),"Joshua Greene et al., early 2000s",https://pubmed.ncbi.nlm.nih.gov/11557895/,HIGH,Personal moral dilemmas recruit emotional regions; impersonal ones engage controlled cognition.
+TOE_PRIMARY,TOE Framework,Integrated Information Theory (Tononi),"Giulio Tononi, 2004–present",https://iep.utm.edu/integrated-information-theory-of-consciousness/,HIGH,Consciousness = integrated information Φ; the whole has causal powers beyond its parts.
+TOE_PRIMARY,TOE Framework,Orch OR (Penrose-Hameroff),"Penrose, Hameroff, 1990s–present",https://en.wikipedia.org/wiki/Orchestrated_objective_reduction,HIGH,Consciousness from quantum computations in microtubules; collapse tied to spacetime geometry.
+TOE_PRIMARY,TOE Framework,Global Workspace Theory,"Baars, Dehaene, 1980s–present",https://pmc.ncbi.nlm.nih.gov/articles/PMC2771980/,HIGH,Consciousness = global broadcast across distributed network enabling flexible access.
+TOE_PRIMARY,TOE Framework,Bistable Attractors (Deco),"Gustavo Deco et al., 2000s–2020s",https://pmc.ncbi.nlm.nih.gov/articles/PMC12140615/,HIGH,Resting-state brain as nonlinear system with metastable attractor states.
+TOE_PRIMARY,TOE Framework,Bell's Theorem,"John Stewart Bell, 1964",https://en.wikipedia.org/wiki/Bell%27s_theorem,HIGH,Proves no local hidden variable theory can reproduce all quantum predictions; reality is non-local.
+TOE_PRIMARY,TOE Framework,Decoherence Theory,"Zeh, Zurek, Joos, 1970s–1990s",https://en.wikipedia.org/wiki/Quantum_decoherence,HIGH,Explains how classical behavior emerges from quantum systems via environment entanglement.
+TOE_PRIMARY,TOE Framework,No-Cloning Theorem,"Wootters, Zurek, Dieks, 1982",https://en.wikipedia.org/wiki/No-cloning_theorem,HIGH,Quantum information cannot be perfectly copied; implies soul uniqueness.
+TOE_PRIMARY,TOE Framework,Kochen-Specker Theorem,"Kochen, Specker, 1967",https://en.wikipedia.org/wiki/Kochen%E2%80%93Specker_theorem,HIGH,QM is contextual: measurement outcomes depend on what else is measured.
+TOE_PRIMARY,TOE Framework,Gleason's Theorem,"Andrew Gleason, 1957",https://en.wikipedia.org/wiki/Gleason%27s_theorem,HIGH,Born rule is the ONLY consistent probability assignment for quantum measurements.
+TOE_PRIMARY,TOE Framework,EPR Paradox,"Einstein, Podolsky, Rosen, 1935",https://en.wikipedia.org/wiki/Einstein%E2%80%93Podolsky%E2%80%93Rosen_paradox,HIGH,Original argument for incompleteness of QM; led to Bell's theorem and entanglement research.
+TOE_PRIMARY,TOE Framework,Bekenstein Bound,"Jacob Bekenstein, 1981",https://en.wikipedia.org/wiki/Bekenstein_bound,HIGH,"Maximum information in a region is proportional to its surface area, not volume."
+TOE_PRIMARY,TOE Framework,Chaos Theory / Strange Attractors,"Lorenz, Mandelbrot, 1960s–1970s",https://en.wikipedia.org/wiki/Chaos_theory,HIGH,Deterministic systems with sensitive dependence on initial conditions; strange attractors.
+TOE_PRIMARY,TOE Framework,Gödel's Incompleteness,"Kurt Gödel, 1931",https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems,HIGH,Any consistent formal system rich enough for arithmetic contains true statements it cannot prove.
+TOE_PRIMARY,TOE Framework,Church-Turing Thesis,"Alonzo Church, Alan Turing, 1936",https://en.wikipedia.org/wiki/Church%E2%80%93Turing_thesis,HIGH,Any effectively computable function can be computed by a Turing machine.
+TOE_PRIMARY,TOE Framework,Quantum Error Correction,"Shor, Steane, 1990s",https://en.wikipedia.org/wiki/Quantum_error_correction,HIGH,Protects quantum information from decoherence using redundancy and syndrome measurement.
+TOE_PRIMARY,TOE Framework,Holevo Bound,"Alexander Holevo, 1973",https://en.wikipedia.org/wiki/Holevo%27s_theorem,HIGH,Upper bound on classical information extractable from quantum states.
+TOE_PRIMARY,TOE Framework,Mutual Information,"Shannon, 1948; extensions ongoing",https://en.wikipedia.org/wiki/Mutual_information,HIGH,"Measures information shared between two variables: I(X;Y) = H(X) + H(Y) - H(X,Y)."
+TOE_PRIMARY,TOE Framework,Fisher Information,"Ronald Fisher, 1920s",https://en.wikipedia.org/wiki/Fisher_information,HIGH,Measures precision of parameter estimation; connects to Cramér-Rao bound.
+TOE_PRIMARY,TOE Framework,Epigenetics (methylation),"Various, mid-20th century onward",https://www.whatisepigenetics.com/dna-methylation/,HIGH,Epigenetic modification altering gene expression without changing DNA sequence.
+TOE_PRIMARY,TOE Framework,Simulated Annealing,"Kirkpatrick et al., 1983",https://en.wikipedia.org/wiki/Simulated_annealing,HIGH,Optimization via thermal annealing metaphor; escapes local minima.
+TOE_PRIMARY,TOE Framework,Monte Carlo Methods,"Ulam, von Neumann, 1940s",https://en.wikipedia.org/wiki/Monte_Carlo_method,HIGH,Numerical estimation via repeated random sampling.
+TOE_PRIMARY,TOE Framework,Genetic Algorithms,"John Holland, 1970s",https://en.wikipedia.org/wiki/Genetic_algorithm,HIGH,"Optimization mimicking natural selection: selection, crossover, mutation."
+TOE_PRIMARY,TOE Framework,Bayesian Inference,"Thomas Bayes, 18th century; modern 20th century",https://en.wikipedia.org/wiki/Bayesian_inference,HIGH,Updates probability as evidence arrives: posterior ∝ likelihood × prior.
+TOE_PRIMARY,TOE Framework,Maximum Entropy Production,"Prigogine and later, 20th century",https://en.wikipedia.org/wiki/Principle_of_maximum_entropy_production,HIGH,Nonequilibrium systems maximize entropy production within constraints.
+TOE_PRIMARY,TOE Framework,Constructal Law (Bejan),"Adrian Bejan, 1996–",https://en.wikipedia.org/wiki/Constructal_law,HIGH,Flow systems evolve to provide easier access to currents.
+TOE_PRIMARY,TOE Framework,Causal Set Theory,"Sorkin, Bombelli, 1980s–",https://arxiv.org/abs/1903.11544,HIGH,Spacetime as discrete partially ordered set encoding causal structure.
+TOE_PRIMARY,TOE Framework,Holographic Principle,"'t Hooft, Susskind, 1990s",https://en.wikipedia.org/wiki/Holographic_principle,HIGH,"Information in region scales with boundary area, not volume."
+TOE_PRIMARY,TOE Framework,AdS/CFT Correspondence,"Juan Maldacena, 1997",https://en.wikipedia.org/wiki/AdS%2FCFT_correspondence,HIGH,Exact duality between bulk gravity and boundary CFT.
+TOE_PRIMARY,TOE Framework,Loop Quantum Gravity,"Ashtekar, Rovelli, Smolin, 1980s–",https://arxiv.org/abs/2104.04394,HIGH,Background-independent quantum gravity; discrete area/volume spectra.
+TOE_PRIMARY,TOE Framework,Twistor Theory (Penrose),"Roger Penrose, 1967–",https://en.wikipedia.org/wiki/Twistor_theory,HIGH,Reformulates spacetime in twistor space; conformal geometry fundamental.
+TOE_PRIMARY,TOE Framework,Heart Rate Variability (HRV),"Multiple authors, 1990s–present",https://pubmed.ncbi.nlm.nih.gov/1987723/,HIGH,Beat-to-beat variation as index of autonomic/vagal balance.
+TOE_PRIMARY,TOE Framework,Global Consciousness Project,"Roger Nelson et al., late 1990s–",https://noosphere.princeton.edu/,HIGH,Worldwide REG network testing collective mind-matter interaction.
+TOE_PRIMARY,TOE Framework,PEAR Lab Anomalies,"Jahn, Dunne, 1979–2007",https://www.princeton.edu/~pear/,HIGH,Decades of mind-machine interaction experiments with REGs.
+TOE_PRIMARY,TOE Framework,Negative Coupling (Raković),"Dejan Raković, 2000s–2010s",https://www.dejanrakovicfund.org/radovi/2015_IEPSP.pdf,HIGH,Quantum-holographic consciousness-matter coupling framework.
+TOE_PRIMARY,TOE Framework,Fractal Self-Similarity,"Benoît Mandelbrot, 1970s–",https://en.wikipedia.org/wiki/Fractal,HIGH,Objects with self-similar structure across scales.
+TOE_PRIMARY,TOE Framework,Scale-Invariant Geometry (Geesink & Meijer),"Geesink, Meijer, 2010s–",https://en.wikipedia.org/wiki/Scale_invariance,HIGH,Coherent EM patterns repeating across biological/consciousness scales.
+TOE_PRIMARY,TOE Framework,Solitonic Theory in 5D,"Copinet et al., 2000s–",https://en.wikipedia.org/wiki/Soliton,HIGH,Stable localized wave packets in nonlinear systems.
+TOE_PRIMARY,TOE Framework,Small-World Networks,"Watts, Strogatz, 1998–",https://nonlinearbiomedphys.biomedcentral.com/articles/10.1186/1753-4631-1-3,HIGH,High clustering + short path length; efficient communication.
+TOE_PRIMARY,TOE Framework,Resonance Theory of Consciousness,"Hunt, Schooler, 2010s–",https://en.wikipedia.org/wiki/Resonance_theory_of_consciousness,HIGH,Consciousness from synchronized resonant oscillations.
+TOE_PRIMARY,TOE Framework,Predictive Processing,"Friston, Clark, 2000s–",https://en.wikipedia.org/wiki/Predictive_coding,HIGH,Brain as hierarchical prediction machine minimizing prediction error.
+TOE_PRIMARY,TOE Framework,Active Inference,"Karl Friston, 2010s–",https://en.wikipedia.org/wiki/Free_energy_principle,HIGH,"Agents act to minimize expected free energy, not just update beliefs."
+TOE_PRIMARY,TOE Framework,Hard Problem of Consciousness,"David Chalmers, 1995",https://en.wikipedia.org/wiki/Hard_problem_of_consciousness,HIGH,Why is there subjective experience? Why does information processing feel like something?
+TOE_PRIMARY,TOE Framework,Mary's Room (Knowledge Argument),"Frank Jackson, 1982",https://en.wikipedia.org/wiki/Knowledge_argument,HIGH,Mary knows all physical facts about color but learns something new when she sees red.
+TOE_PRIMARY,TOE Framework,Libet Experiments,"Benjamin Libet, 1983",https://en.wikipedia.org/wiki/Neuroscience_of_free_will,HIGH,Readiness potential precedes conscious intention; challenges naive free will.
+TOE_PRIMARY,TOE Framework,Default Mode Network,"Raichle et al., 2001",https://en.wikipedia.org/wiki/Default_mode_network,HIGH,"Brain network active during rest, self-reflection, autobiographical memory."
+TOE_PRIMARY,TOE Framework,Neural Binding Problem,"Various, 20th century",https://en.wikipedia.org/wiki/Binding_problem,HIGH,How does the brain create unified experience from distributed processing?
+TOE_PRIMARY,TOE Framework,Delayed Choice Quantum Eraser,"Scully, Drühl, 1982; Kim et al., 2000",https://en.wikipedia.org/wiki/Delayed-choice_quantum_eraser,HIGH,Future measurement choice affects past interference pattern.
+TOE_PRIMARY,TOE Framework,Aspect Experiments,"Alain Aspect, 1982",https://en.wikipedia.org/wiki/Bell_test,HIGH,Confirmed Bell inequality violations; ruled out local hidden variables.
+TOE_PRIMARY,TOE Framework,Split-Brain Studies,"Sperry, Gazzaniga, 1960s–1980s",https://en.wikipedia.org/wiki/Split-brain,HIGH,Severed corpus callosum creates two independent consciousnesses.
+TOE_PRIMARY,TOE Framework,Fine-Tuning,"Various, 20th century",https://en.wikipedia.org/wiki/Fine-tuned_universe,HIGH,Physical constants appear precisely tuned for life; 10^500 improbability.
+TOE_PRIMARY,TOE Framework,Cosmological Argument (Kalam),"Al-Ghazali; Craig revival, 1979",https://en.wikipedia.org/wiki/Kalam_cosmological_argument,HIGH,Whatever begins to exist has a cause; universe began; therefore caused.
+TOE_PRIMARY,TOE Framework,Gödel's Ontological Argument,"Kurt Gödel, 1970 (posthumous)",https://en.wikipedia.org/wiki/G%C3%B6del%27s_ontological_proof,HIGH,Modal logic proof that a maximally great being necessarily exists.
+TOE_PRIMARY,TOE Framework,Logos Theology (John 1),John 1; Philo; Church Fathers,https://en.wikipedia.org/wiki/Logos_(Christianity),HIGH,The Word (Logos) as divine reason/ordering principle incarnate in Christ.
+TOE_PRIMARY,TOE Framework,Divine Simplicity,"Aquinas, classical theism",https://en.wikipedia.org/wiki/Divine_simplicity,HIGH,God has no parts; all attributes identical with essence.
+TOE_PRIMARY,TOE Framework,ER=EPR,"Maldacena, Susskind, 2013",https://en.wikipedia.org/wiki/ER%3DEPR,HIGH,Entanglement (EPR) is equivalent to wormholes (Einstein-Rosen bridges).
+TOE_PRIMARY,TOE Framework,Jaynes Maximum Entropy,"E.T. Jaynes, 1957",https://en.wikipedia.org/wiki/Principle_of_maximum_entropy,HIGH,Infer probability distribution maximizing entropy subject to constraints.
+TOE_PRIMARY,TOE Framework,Fluctuation Theorems,Jarzynski 1997; Crooks 1999,https://en.wikipedia.org/wiki/Fluctuation_theorem,HIGH,Generalizes second law to fluctuating systems; entropy can decrease locally.
+TOE_PRIMARY,TOE Framework,Szilard Engine,"Leo Szilard, 1929",https://en.wikipedia.org/wiki/Szilard_engine,HIGH,Showed information has thermodynamic value; resolved Maxwell's demon.
+TOE_PRIMARY,TOE Framework,Margolus-Levitin Theorem,"Margolus, Levitin, 1998",https://en.wikipedia.org/wiki/Margolus%E2%80%93Levitin_theorem,HIGH,Fundamental speed limit on computation: π/2E operations per second max.
+TOE_PRIMARY,TOE Framework,Self-Organized Criticality,"Per Bak, 1987",https://en.wikipedia.org/wiki/Self-organized_criticality,HIGH,Systems naturally evolve to critical states with power-law distributions.
+TOE_PRIMARY,TOE Framework,Kuramoto Model,"Yoshiki Kuramoto, 1975",https://en.wikipedia.org/wiki/Kuramoto_model,HIGH,Mathematical model of coupled oscillators synchronizing.
+TOE_PRIMARY,TOE Framework,Autopoiesis,"Maturana, Varela, 1970s",https://en.wikipedia.org/wiki/Autopoiesis,HIGH,"Self-creating, self-maintaining systems; definition of life."
+TOE_PRIMARY,TOE Framework,Curry-Howard Correspondence,Curry 1934; Howard 1969,https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence,HIGH,Proofs = Programs = Types; deep unity of logic and computation.
+TOE_PRIMARY,TOE Framework,Tarski's Undefinability,"Alfred Tarski, 1936",https://en.wikipedia.org/wiki/Tarski%27s_undefinability_theorem,HIGH,Truth predicate for a language cannot be defined within that language.
+TOE_PRIMARY,TOE Framework,AWARE Study (Parnia),"Sam Parnia, 2014",https://en.wikipedia.org/wiki/AWARE_study,HIGH,Large-scale study of consciousness during cardiac arrest.
+TOE_PRIMARY,TOE Framework,Aquinas Five Ways,"Thomas Aquinas, 13th century",https://en.wikipedia.org/wiki/Five_Ways_(Aquinas),HIGH,"Classical arguments for God's existence from motion, causation, contingency, gradation, teleology."
+TOE_SUPPLEMENTARY,Research Paper,General Relativity,"Albert Einstein, 1915",http://ndl.ethernet.edu.et/bitstream/123456789/73853/1/73.pdf.pdf,MEDIUM,Supplementary source for General Relativity
+TOE_SUPPLEMENTARY,Research Paper,General Relativity,"Albert Einstein, 1915",https://arxiv.org/pdf/1311.0765.pdf,MEDIUM,Supplementary source for General Relativity
+TOE_SUPPLEMENTARY,Research Paper,Quantum Mechanics (Copenhagen),"Bohr, Heisenberg, 1920s",https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf,MEDIUM,Supplementary source for Quantum Mechanics (Copenhagen)
+TOE_SUPPLEMENTARY,Research Paper,Quantum Mechanics (Copenhagen),"Bohr, Heisenberg, 1920s",https://ia803209.us.archive.org/27/items/bstj27-3-379/bstj27-3-379_text.pdf,MEDIUM,Supplementary source for Quantum Mechanics (Copenhagen)
+TOE_SUPPLEMENTARY,Research Paper,Schrödinger Equation,"Erwin Schrödinger, 1926",https://plato.stanford.edu/entries/platonism-mathematics/,MEDIUM,Supplementary source for Schrödinger Equation
+TOE_SUPPLEMENTARY,Research Paper,Schrödinger Equation,"Erwin Schrödinger, 1926",https://iep.utm.edu/mathplat/,MEDIUM,Supplementary source for Schrödinger Equation
+TOE_SUPPLEMENTARY,Research Paper,Born Rule,"Max Born, 1926",https://arxiv.org/pdf/1707.08109.pdf,MEDIUM,Supplementary source for Born Rule
+TOE_SUPPLEMENTARY,Research Paper,Born Rule,"Max Born, 1926",https://arxiv.org/pdf/math/0611740.pdf,MEDIUM,Supplementary source for Born Rule
+TOE_SUPPLEMENTARY,Research Paper,Heisenberg Uncertainty Principle,"Werner Heisenberg, 1927",https://arxiv.org/pdf/1512.03667.pdf,MEDIUM,Supplementary source for Heisenberg Uncertainty Principle
+TOE_SUPPLEMENTARY,Research Paper,Heisenberg Uncertainty Principle,"Werner Heisenberg, 1927",https://www.logicmatters.net/resources/pdfs/godelbook/GodelBookLM.pdf,MEDIUM,Supplementary source for Heisenberg Uncertainty Principle
+TOE_SUPPLEMENTARY,Research Paper,Second Law of Thermodynamics,"Clausius, Boltzmann, 19th century",https://arxiv.org/abs/0903.0340,MEDIUM,Supplementary source for Second Law of Thermodynamics
+TOE_SUPPLEMENTARY,Research Paper,Shannon Information Theory,"Claude Shannon, 1948",https://arxiv.org/pdf/1601.03616.pdf,MEDIUM,Supplementary source for Shannon Information Theory
+TOE_SUPPLEMENTARY,Research Paper,Shannon Information Theory,"Claude Shannon, 1948",https://arxiv.org/abs/2410.08087,MEDIUM,Supplementary source for Shannon Information Theory
+TOE_SUPPLEMENTARY,Research Paper,Standard Model of Particle Physics,"Glashow, Weinberg, Salam, 1960s-70s",https://arxiv.org/pdf/quant-ph/9609002.pdf,MEDIUM,Supplementary source for Standard Model of Particle Physics
+TOE_SUPPLEMENTARY,Research Paper,Standard Model of Particle Physics,"Glashow, Weinberg, Salam, 1960s-70s",https://arxiv.org/pdf/1309.0132.pdf,MEDIUM,Supplementary source for Standard Model of Particle Physics
+TOE_SUPPLEMENTARY,Research Paper,Many-Worlds Interpretation,"Hugh Everett III, 1957",https://philsci-archive.pitt.edu/4549/2/FinalCH.pdf,MEDIUM,Supplementary source for Many-Worlds Interpretation
+TOE_SUPPLEMENTARY,Research Paper,Many-Worlds Interpretation,"Hugh Everett III, 1957",http://www.stat.ucla.edu/~ywu/consistent.pdf,MEDIUM,Supplementary source for Many-Worlds Interpretation
+TOE_SUPPLEMENTARY,Research Paper,Wave Function Collapse,"von Neumann, 1932; ongoing debate",https://mosaic.messiah.edu/cgi/viewcontent.cgi?article=1000&context=mps_st,MEDIUM,Supplementary source for Wave Function Collapse
+TOE_SUPPLEMENTARY,Research Paper,Wave Function Collapse,"von Neumann, 1932; ongoing debate",https://philsci-archive.pitt.edu/26289/1/von%20Neumann%20on%20consciousness%20in%20QM_copy%20for%20Pitts%20archive.pdf,MEDIUM,Supplementary source for Wave Function Collapse
+TOE_SUPPLEMENTARY,Research Paper,Participatory Anthropic Principle (PAP),"John A. Wheeler, 1970s–1980s",https://www.alice.id.tue.nl/references/hameroff-1998.pdf,MEDIUM,Supplementary source for Participatory Anthropic Principle (PAP)
+TOE_SUPPLEMENTARY,Research Paper,Participatory Anthropic Principle (PAP),"John A. Wheeler, 1970s–1980s",https://www.newdualism.org/papers/J.Reimers/Reimers-PoLR2013.pdf,MEDIUM,Supplementary source for Participatory Anthropic Principle (PAP)
+TOE_SUPPLEMENTARY,Research Paper,QBism (Fuchs),"Christopher A. Fuchs et al., 2000s",https://arxiv.org/pdf/2510.25998.pdf,MEDIUM,Supplementary source for QBism (Fuchs)
+TOE_SUPPLEMENTARY,Research Paper,QBism (Fuchs),"Christopher A. Fuchs et al., 2000s",http://behavioralhealth2000.com/wp-content/uploads/2017/07/Consciousness-as-Integrated-Information-a-Provisional-Manifesto.pdf,MEDIUM,Supplementary source for QBism (Fuchs)
+TOE_SUPPLEMENTARY,Research Paper,Algorithmic Information Theory,"Solomonoff, Kolmogorov, Chaitin, 1960s",https://arxiv.org/pdf/1802.10119.pdf,MEDIUM,Supplementary source for Algorithmic Information Theory
+TOE_SUPPLEMENTARY,Research Paper,Algorithmic Information Theory,"Solomonoff, Kolmogorov, Chaitin, 1960s",https://arxiv.org/abs/quant-ph/0504089,MEDIUM,Supplementary source for Algorithmic Information Theory
+TOE_SUPPLEMENTARY,Research Paper,Computational Universe (Lloyd),"Seth Lloyd, Schmidhuber, Zuse, 1960s–2000s",https://arxiv.org/pdf/1312.4455.pdf,MEDIUM,Supplementary source for Computational Universe (Lloyd)
+TOE_SUPPLEMENTARY,Research Paper,Computational Universe (Lloyd),"Seth Lloyd, Schmidhuber, Zuse, 1960s–2000s",https://arxiv.org/abs/quant-ph/0110141,MEDIUM,Supplementary source for Computational Universe (Lloyd)
+TOE_SUPPLEMENTARY,Research Paper,"Digital Physics (Zuse, Fredkin)","Konrad Zuse, Edward Fredkin, 1960s–1990s",https://arxiv.org/pdf/physics/0305048.pdf,MEDIUM,"Supplementary source for Digital Physics (Zuse, Fredkin)"
+TOE_SUPPLEMENTARY,Research Paper,"Digital Physics (Zuse, Fredkin)","Konrad Zuse, Edward Fredkin, 1960s–1990s",https://people.duke.edu/~ng46/meteorites/nc-meteorites/DIGITAL%20MECHANICS%20Fredkin.pdf,MEDIUM,"Supplementary source for Digital Physics (Zuse, Fredkin)"
+TOE_SUPPLEMENTARY,Research Paper,Principle of Least Action,"Euler, Lagrange, Hamilton, historical",https://www.fil.ion.ucl.ac.uk/~karl/A%20free%20energy%20principle%20for%20the%20brain.pdf,MEDIUM,Supplementary source for Principle of Least Action
+TOE_SUPPLEMENTARY,Research Paper,Principle of Least Action,"Euler, Lagrange, Hamilton, historical",https://gwern.net/doc/ai/nn/2006-friston.pdf,MEDIUM,Supplementary source for Principle of Least Action
+TOE_SUPPLEMENTARY,Research Paper,Principle of Least Action,"Euler, Lagrange, Hamilton, historical",https://www.uab.edu/medicine/cinl/images/KFriston_FreeEnergy_BrainTheory.pdf,MEDIUM,Supplementary source for Principle of Least Action
+TOE_SUPPLEMENTARY,Research Paper,Formal Completeness Theory (Basta),"Marko Basta, 2024",https://www.fil.ion.ucl.ac.uk/~karl/The%20free-energy%20principle%20-%20a%20rough%20guide%20to%20the%20brain.pdf,MEDIUM,Supplementary source for Formal Completeness Theory (Basta)
+TOE_SUPPLEMENTARY,Research Paper,Formal Completeness Theory (Basta),"Marko Basta, 2024",https://uberty.org/wp-content/uploads/2016/05/friston-free-energy-brain.pdf,MEDIUM,Supplementary source for Formal Completeness Theory (Basta)
+TOE_SUPPLEMENTARY,Research Paper,Formal Completeness Theory (Basta),"Marko Basta, 2024",https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9345684/pdf/main.pdf,MEDIUM,Supplementary source for Formal Completeness Theory (Basta)
+TOE_SUPPLEMENTARY,Research Paper,Unitarity in QM,"Standard QM postulate, 20th century",https://arxiv.org/pdf/hep-th/9409089.pdf,MEDIUM,Supplementary source for Unitarity in QM
+TOE_SUPPLEMENTARY,Research Paper,Unitarity in QM,"Standard QM postulate, 20th century",https://www.fuw.edu.pl/~piotrek/stat2023/bekenstein2003.pdf,MEDIUM,Supplementary source for Unitarity in QM
+TOE_SUPPLEMENTARY,Research Paper,Unitarity in QM,"Standard QM postulate, 20th century",https://agenda.infn.it/event/10576/contributions/3852/attachments/2834/3122/Vulcano.pdf,MEDIUM,Supplementary source for Unitarity in QM
+TOE_SUPPLEMENTARY,Research Paper,Projection Postulate (von Neumann/Lüders),von Neumann 1932; Lüders 1951,https://dspace.mit.edu/bitstream/handle/1721.1/109469/LLoyd_The%20universe.pdf,MEDIUM,Supplementary source for Projection Postulate (von Neumann/Lüders)
+TOE_SUPPLEMENTARY,Research Paper,Projection Postulate (von Neumann/Lüders),von Neumann 1932; Lüders 1951,https://cdn.bookey.app/files/pdf/book/en/programming-the-universe.pdf,MEDIUM,Supplementary source for Projection Postulate (von Neumann/Lüders)
+TOE_SUPPLEMENTARY,Research Paper,Quantum Darwinism (Zurek),"Wojciech H. Zurek, 2000s",https://vixra.org/pdf/1607.0388v1.pdf,MEDIUM,Supplementary source for Quantum Darwinism (Zurek)
+TOE_SUPPLEMENTARY,Research Paper,Quantum Darwinism (Zurek),"Wojciech H. Zurek, 2000s",https://www.idsia.ch/~juergen/digitalphysics.html,MEDIUM,Supplementary source for Quantum Darwinism (Zurek)
+TOE_SUPPLEMENTARY,Research Paper,Klein-Gordon Field,"Klein, Gordon, 1926",https://pages.uoregon.edu/dps/schroedinger.pdf,MEDIUM,Supplementary source for Klein-Gordon Field
+TOE_SUPPLEMENTARY,Research Paper,Klein-Gordon Field,"Klein, Gordon, 1926",https://arxiv.org/pdf/quant-ph/0101012.pdf,MEDIUM,Supplementary source for Klein-Gordon Field
+TOE_SUPPLEMENTARY,Research Paper,Klein-Gordon Field,"Klein, Gordon, 1926",https://plato.stanford.edu/archives/win2020/entries/qm/,MEDIUM,Supplementary source for Klein-Gordon Field
+TOE_SUPPLEMENTARY,Research Paper,Yukawa Coupling,"Hideki Yukawa, 1935",https://cds.cern.ch/record/941316/files/978-3-540-49992-4_BookFrontmatter.pdf,MEDIUM,Supplementary source for Yukawa Coupling
+TOE_SUPPLEMENTARY,Research Paper,Yukawa Coupling,"Hideki Yukawa, 1935",https://arxiv.org/pdf/1005.1508.pdf,MEDIUM,Supplementary source for Yukawa Coupling
+TOE_SUPPLEMENTARY,Research Paper,Yukawa Coupling,"Hideki Yukawa, 1935",https://arxiv.org/pdf/1209.3511.pdf,MEDIUM,Supplementary source for Yukawa Coupling
+TOE_SUPPLEMENTARY,Research Paper,Black Hole Information Paradox,"Hawking, Bekenstein, Page, 1970s–1990s",https://cds.cern.ch/record/741941/files/cer-002725228.pdf,MEDIUM,Supplementary source for Black Hole Information Paradox
+TOE_SUPPLEMENTARY,Research Paper,Black Hole Information Paradox,"Hawking, Bekenstein, Page, 1970s–1990s",https://arxiv.org/pdf/hep-th/9711200.pdf,MEDIUM,Supplementary source for Black Hole Information Paradox
+TOE_SUPPLEMENTARY,Research Paper,Black Hole Information Paradox,"Hawking, Bekenstein, Page, 1970s–1990s",https://arxiv.org/pdf/0901.0935.pdf,MEDIUM,Supplementary source for Black Hole Information Paradox
+TOE_SUPPLEMENTARY,Research Paper,Planck Black-Body Law,"Max Planck, 1900",https://www3.nd.edu/~powers/ame.60635/spring00/EINBACH1.pdf,MEDIUM,Supplementary source for Planck Black-Body Law
+TOE_SUPPLEMENTARY,Research Paper,Planck Black-Body Law,"Max Planck, 1900",https://web.mit.edu/6.013_book/www/chapter9/9.1.html,MEDIUM,Supplementary source for Planck Black-Body Law
+TOE_SUPPLEMENTARY,Research Paper,Planck Black-Body Law,"Max Planck, 1900",https://plato.stanford.edu/archives/win2020/entries/black-body-radiation/,MEDIUM,Supplementary source for Planck Black-Body Law
+TOE_SUPPLEMENTARY,Research Paper,Landauer's Principle,"Rolf Landauer, 1961",https://arxiv.org/pdf/quant-ph/0105127.pdf,MEDIUM,Supplementary source for Landauer's Principle
+TOE_SUPPLEMENTARY,Research Paper,Landauer's Principle,"Rolf Landauer, 1961",https://arxiv.org/pdf/quant-ph/0312059.pdf,MEDIUM,Supplementary source for Landauer's Principle
+TOE_SUPPLEMENTARY,Research Paper,Landauer's Principle,"Rolf Landauer, 1961",https://cds.cern.ch/record/401573/files/9906006.pdf,MEDIUM,Supplementary source for Landauer's Principle
+TOE_SUPPLEMENTARY,Research Paper,Boltzmann Entropy,"Ludwig Boltzmann, late 19th century",https://www3.nd.edu/~powers/ame.20231/boltzmann.pdf,MEDIUM,Supplementary source for Boltzmann Entropy
+TOE_SUPPLEMENTARY,Research Paper,Boltzmann Entropy,"Ludwig Boltzmann, late 19th century",https://plato.stanford.edu/archives/fall2019/entries/statphys-Boltzmann/,MEDIUM,Supplementary source for Boltzmann Entropy
+TOE_SUPPLEMENTARY,Research Paper,Boltzmann Entropy,"Ludwig Boltzmann, late 19th century",https://arxiv.org/pdf/cond-mat/0702016.pdf,MEDIUM,Supplementary source for Boltzmann Entropy
+TOE_SUPPLEMENTARY,Research Paper,?CDM Cosmology,Standard form 1990s–present,https://arxiv.org/pdf/astro-ph/9905116.pdf,MEDIUM,Supplementary source for ?CDM Cosmology
+TOE_SUPPLEMENTARY,Research Paper,?CDM Cosmology,Standard form 1990s–present,https://lambda.gsfc.nasa.gov/product/map/dr4/pub_papers/fiveyear/basic_results/wmap5basic_final.pdf,MEDIUM,Supplementary source for ?CDM Cosmology
+TOE_SUPPLEMENTARY,Research Paper,?CDM Cosmology,Standard form 1990s–present,https://arxiv.org/pdf/1303.5076.pdf,MEDIUM,Supplementary source for ?CDM Cosmology
+TOE_SUPPLEMENTARY,Research Paper,Hubble Tension,"Riess, Planck, 2010s–2020s",https://plato.stanford.edu/archives/win2020/entries/time-arrow/,MEDIUM,Supplementary source for Hubble Tension
+TOE_SUPPLEMENTARY,Research Paper,Hubble Tension,"Riess, Planck, 2010s–2020s",https://uberty.org/wp-content/uploads/2015/03/Huw-Price-Times-Arrow1997.pdf,MEDIUM,Supplementary source for Hubble Tension
+TOE_SUPPLEMENTARY,Research Paper,Hubble Tension,"Riess, Planck, 2010s–2020s",https://arxiv.org/pdf/physics/0402040.pdf,MEDIUM,Supplementary source for Hubble Tension
+TOE_SUPPLEMENTARY,Research Paper,de Sitter Space,"Willem de Sitter, early 20th century",https://arxiv.org/pdf/gr-qc/0106074.pdf,MEDIUM,Supplementary source for de Sitter Space
+TOE_SUPPLEMENTARY,Research Paper,de Sitter Space,"Willem de Sitter, early 20th century",https://plato.stanford.edu/archives/spr2019/entries/de-sitter-spacetime/,MEDIUM,Supplementary source for de Sitter Space
+TOE_SUPPLEMENTARY,Research Paper,de Sitter Space,"Willem de Sitter, early 20th century",https://arxiv.org/pdf/0709.2899.pdf,MEDIUM,Supplementary source for de Sitter Space
+TOE_SUPPLEMENTARY,Research Paper,Baez-Stay Rosetta Stone,"John C. Baez, Mike Stay, 2010",https://cpsc.yale.edu/sites/default/files/files/tr412.pdf,MEDIUM,Supplementary source for Baez-Stay Rosetta Stone
+TOE_SUPPLEMENTARY,Research Paper,Baez-Stay Rosetta Stone,"John C. Baez, Mike Stay, 2010",https://plato.stanford.edu/archives/fall2019/entries/entropy/,MEDIUM,Supplementary source for Baez-Stay Rosetta Stone
+TOE_SUPPLEMENTARY,Research Paper,Baez-Stay Rosetta Stone,"John C. Baez, Mike Stay, 2010",https://arxiv.org/pdf/1607.06448.pdf,MEDIUM,Supplementary source for Baez-Stay Rosetta Stone
+TOE_SUPPLEMENTARY,Research Paper,Infant Fairness Studies (Bloom),"Paul Bloom et al., 2000s–2010s",https://www.nature.com/articles/446713a.pdf,MEDIUM,Supplementary source for Infant Fairness Studies (Bloom)
+TOE_SUPPLEMENTARY,Research Paper,Infant Fairness Studies (Bloom),"Paul Bloom et al., 2000s–2010s",https://psycnet.apa.org/fulltext/2011-16885-001.pdf,MEDIUM,Supplementary source for Infant Fairness Studies (Bloom)
+TOE_SUPPLEMENTARY,Research Paper,Infant Fairness Studies (Bloom),"Paul Bloom et al., 2000s–2010s",https://arxiv.org/pdf/1204.4959.pdf,MEDIUM,Supplementary source for Infant Fairness Studies (Bloom)
+TOE_SUPPLEMENTARY,Research Paper,fMRI Moral Judgment (Greene),"Joshua Greene et al., early 2000s",https://www.pnas.org/doi/pdf/10.1073/pnas.0900233106,MEDIUM,Supplementary source for fMRI Moral Judgment (Greene)
+TOE_SUPPLEMENTARY,Research Paper,fMRI Moral Judgment (Greene),"Joshua Greene et al., early 2000s",https://psyarxiv.com/jdk4t/download?format=pdf,MEDIUM,Supplementary source for fMRI Moral Judgment (Greene)
+TOE_SUPPLEMENTARY,Research Paper,fMRI Moral Judgment (Greene),"Joshua Greene et al., early 2000s",https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2964357/pdf/nihms242821.pdf,MEDIUM,Supplementary source for fMRI Moral Judgment (Greene)
+TOE_SUPPLEMENTARY,Research Paper,Integrated Information Theory (Tononi),"Giulio Tononi, 2004–present",https://tilde.ini.uzh.ch/~kiper/Tononi.pdf,MEDIUM,Supplementary source for Integrated Information Theory (Tononi)
+TOE_SUPPLEMENTARY,Research Paper,Integrated Information Theory (Tononi),"Giulio Tononi, 2004–present",https://tilde.ini.uzh.ch/~kiper/IIT.pdf,MEDIUM,Supplementary source for Integrated Information Theory (Tononi)
+TOE_SUPPLEMENTARY,Research Paper,Orch OR (Penrose-Hameroff),"Penrose, Hameroff, 1990s–present",https://www.esalq.usp.br/lepse/imgs/conteudo_thumb/Orchestrated-Objective-Reduction-of-Quantum-Coherence-in-Brain-Microtubules.pdf,MEDIUM,Supplementary source for Orch OR (Penrose-Hameroff)
+TOE_SUPPLEMENTARY,Research Paper,Global Workspace Theory,"Baars, Dehaene, 1980s–present",https://psycnet.apa.org/fulltext/2000-13324-005.pdf,MEDIUM,Supplementary source for Global Workspace Theory
+TOE_SUPPLEMENTARY,Research Paper,Global Workspace Theory,"Baars, Dehaene, 1980s–present",https://www.sciencedirect.com/science/article/pii/S1364661303002332/pdfft,MEDIUM,Supplementary source for Global Workspace Theory
+TOE_SUPPLEMENTARY,Research Paper,Global Workspace Theory,"Baars, Dehaene, 1980s–present",https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3814528/pdf/nihms516338.pdf,MEDIUM,Supplementary source for Global Workspace Theory
+TOE_SUPPLEMENTARY,Research Paper,Bistable Attractors (Deco),"Gustavo Deco et al., 2000s–2020s",https://www.nature.com/articles/354058a0.pdf,MEDIUM,Supplementary source for Bistable Attractors (Deco)
+TOE_SUPPLEMENTARY,Research Paper,Bistable Attractors (Deco),"Gustavo Deco et al., 2000s–2020s",https://www.nature.com/articles/35065721.pdf,MEDIUM,Supplementary source for Bistable Attractors (Deco)
+TOE_SUPPLEMENTARY,Research Paper,Bistable Attractors (Deco),"Gustavo Deco et al., 2000s–2020s",https://arxiv.org/pdf/cond-mat/0610071.pdf,MEDIUM,Supplementary source for Bistable Attractors (Deco)
+TOE_SUPPLEMENTARY,Research Paper,Bell's Theorem,"John Stewart Bell, 1964",https://cds.cern.ch/record/111654/files/vol1p195-200_001.pdf,MEDIUM,Supplementary source for Bell's Theorem
+TOE_SUPPLEMENTARY,Research Paper,Bell's Theorem,"John Stewart Bell, 1964",https://arxiv.org/pdf/1903.01349.pdf,MEDIUM,Supplementary source for Bell's Theorem
+TOE_SUPPLEMENTARY,Research Paper,Decoherence Theory,"Zeh, Zurek, Joos, 1970s–1990s",https://arxiv.org/pdf/quant-ph/0306072.pdf,MEDIUM,Supplementary source for Decoherence Theory
+TOE_SUPPLEMENTARY,Research Paper,Decoherence Theory,"Zeh, Zurek, Joos, 1970s–1990s",https://arxiv.org/pdf/0903.5082.pdf,MEDIUM,Supplementary source for Decoherence Theory
+TOE_SUPPLEMENTARY,Research Paper,No-Cloning Theorem,"Wootters, Zurek, Dieks, 1982",https://arxiv.org/pdf/0803.4133.pdf,MEDIUM,Supplementary source for No-Cloning Theorem
+TOE_SUPPLEMENTARY,Research Paper,No-Cloning Theorem,"Wootters, Zurek, Dieks, 1982",https://arxiv.org/pdf/1312.6114.pdf,MEDIUM,Supplementary source for No-Cloning Theorem
+TOE_SUPPLEMENTARY,Research Paper,No-Cloning Theorem,"Wootters, Zurek, Dieks, 1982",https://arxiv.org/pdf/2003.02181.pdf,MEDIUM,Supplementary source for No-Cloning Theorem
+TOE_SUPPLEMENTARY,Research Paper,Kochen-Specker Theorem,"Kochen, Specker, 1967",https://www.pnas.org/doi/pdf/10.1073/pnas.0403743101,MEDIUM,Supplementary source for Kochen-Specker Theorem
+TOE_SUPPLEMENTARY,Research Paper,Kochen-Specker Theorem,"Kochen, Specker, 1967",https://www.nature.com/articles/nn1359.pdf,MEDIUM,Supplementary source for Kochen-Specker Theorem
+TOE_SUPPLEMENTARY,Research Paper,Kochen-Specker Theorem,"Kochen, Specker, 1967",https://psycnet.apa.org/fulltext/2005-07988-005.pdf,MEDIUM,Supplementary source for Kochen-Specker Theorem
+TOE_SUPPLEMENTARY,Research Paper,EPR Paradox,"Einstein, Podolsky, Rosen, 1935",https://gershmanlab.com/pubs/free_energy.pdf,MEDIUM,Supplementary source for EPR Paradox
+TOE_SUPPLEMENTARY,Research Paper,Bekenstein Bound,"Jacob Bekenstein, 1981",https://arxiv.org/pdf/hep-th/0203101.pdf,MEDIUM,Supplementary source for Bekenstein Bound
+TOE_SUPPLEMENTARY,Research Paper,Chaos Theory / Strange Attractors,"Lorenz, Mandelbrot, 1960s–1970s",https://www.marxists.org/reference/archive/einstein/works/1910s/relative/relativity.pdf,MEDIUM,Supplementary source for Chaos Theory / Strange Attractors
+TOE_SUPPLEMENTARY,Research Paper,Chaos Theory / Strange Attractors,"Lorenz, Mandelbrot, 1960s–1970s",http://www.damtp.cam.ac.uk/user/tong/gr/four.pdf,MEDIUM,Supplementary source for Chaos Theory / Strange Attractors
+TOE_SUPPLEMENTARY,Research Paper,Chaos Theory / Strange Attractors,"Lorenz, Mandelbrot, 1960s–1970s",https://spsweb.fltops.jpl.nasa.gov/portaldataops/mpg/MPG_Docs/Source%20Docs/Einstein's%20Field%20Equations.pdf,MEDIUM,Supplementary source for Chaos Theory / Strange Attractors
+TOE_SUPPLEMENTARY,Research Paper,Gödel's Incompleteness,"Kurt Gödel, 1931",https://plato.stanford.edu/archives/win2020/entries/goedel-incompleteness/,MEDIUM,Supplementary source for Gödel's Incompleteness
+TOE_SUPPLEMENTARY,Research Paper,Church-Turing Thesis,"Alonzo Church, Alan Turing, 1936",https://arxiv.org/pdf/math/0611204.pdf,MEDIUM,Supplementary source for Church-Turing Thesis
+TOE_SUPPLEMENTARY,Research Paper,Church-Turing Thesis,"Alonzo Church, Alan Turing, 1936",https://archive.illc.uva.nl/HPI/Algorithmic_Complexity.pdf,MEDIUM,Supplementary source for Church-Turing Thesis
+TOE_SUPPLEMENTARY,Research Paper,Church-Turing Thesis,"Alonzo Church, Alan Turing, 1936",https://www.lirmm.fr/~ashen/uppsala-notes.pdf,MEDIUM,Supplementary source for Church-Turing Thesis
+TOE_SUPPLEMENTARY,Research Paper,Quantum Error Correction,"Shor, Steane, 1990s",https://plato.stanford.edu/archives/win2020/entries/church-turing/,MEDIUM,Supplementary source for Quantum Error Correction
+TOE_SUPPLEMENTARY,Research Paper,Quantum Error Correction,"Shor, Steane, 1990s",https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf,MEDIUM,Supplementary source for Quantum Error Correction
+TOE_SUPPLEMENTARY,Research Paper,Quantum Error Correction,"Shor, Steane, 1990s",https://plato.stanford.edu/archives/win2013/entries/computability/,MEDIUM,Supplementary source for Quantum Error Correction
+TOE_SUPPLEMENTARY,Research Paper,Holevo Bound,"Alexander Holevo, 1973",https://plato.stanford.edu/archives/win2020/entries/probability-interpret/,MEDIUM,Supplementary source for Holevo Bound
+TOE_SUPPLEMENTARY,Research Paper,Holevo Bound,"Alexander Holevo, 1973",https://arxiv.org/pdf/2009.02062.pdf,MEDIUM,Supplementary source for Holevo Bound
+TOE_SUPPLEMENTARY,Research Paper,Holevo Bound,"Alexander Holevo, 1973",https://plato.stanford.edu/archives/fall2020/entries/bayesian-epistemology/,MEDIUM,Supplementary source for Holevo Bound
+TOE_SUPPLEMENTARY,Research Paper,Mutual Information,"Shannon, 1948; extensions ongoing",https://www.information-theory.org/Mackay_51.pdf,MEDIUM,Supplementary source for Mutual Information
+TOE_SUPPLEMENTARY,Research Paper,Mutual Information,"Shannon, 1948; extensions ongoing",https://plato.stanford.edu/archives/fall2019/entries/information-entropies/,MEDIUM,Supplementary source for Mutual Information
+TOE_SUPPLEMENTARY,Research Paper,Mutual Information,"Shannon, 1948; extensions ongoing",https://arxiv.org/pdf/1601.06179.pdf,MEDIUM,Supplementary source for Mutual Information
+TOE_SUPPLEMENTARY,Research Paper,Fisher Information,"Ronald Fisher, 1920s",https://arxiv.org/pdf/0711.3579.pdf,MEDIUM,Supplementary source for Fisher Information
+TOE_SUPPLEMENTARY,Research Paper,Fisher Information,"Ronald Fisher, 1920s",https://arxiv.org/pdf/1006.3792.pdf,MEDIUM,Supplementary source for Fisher Information
+TOE_SUPPLEMENTARY,Research Paper,Fisher Information,"Ronald Fisher, 1920s",https://arxiv.org/pdf/1406.6621.pdf,MEDIUM,Supplementary source for Fisher Information
+TOE_SUPPLEMENTARY,Research Paper,Maximum Entropy Production,"Prigogine and later, 20th century",https://www.sciencedirect.com/science/article/pii/S1364682612000412/pdfft,MEDIUM,Supplementary source for Maximum Entropy Production
+TOE_SUPPLEMENTARY,Research Paper,Maximum Entropy Production,"Prigogine and later, 20th century",https://arxiv.org/pdf/1004.2724.pdf,MEDIUM,Supplementary source for Maximum Entropy Production
+TOE_SUPPLEMENTARY,Research Paper,Maximum Entropy Production,"Prigogine and later, 20th century",https://arxiv.org/pdf/0911.4622.pdf,MEDIUM,Supplementary source for Maximum Entropy Production
+TOE_SUPPLEMENTARY,Research Paper,Constructal Law (Bejan),"Adrian Bejan, 1996–",https://arxiv.org/pdf/cond-mat/0501711.pdf,MEDIUM,Supplementary source for Constructal Law (Bejan)
+TOE_SUPPLEMENTARY,Research Paper,Constructal Law (Bejan),"Adrian Bejan, 1996–",https://arxiv.org/pdf/0801.1593.pdf,MEDIUM,Supplementary source for Constructal Law (Bejan)
+TOE_SUPPLEMENTARY,Research Paper,Constructal Law (Bejan),"Adrian Bejan, 1996–",https://arxiv.org/pdf/0907.0764.pdf,MEDIUM,Supplementary source for Constructal Law (Bejan)
+TOE_SUPPLEMENTARY,Research Paper,Causal Set Theory,"Sorkin, Bombelli, 1980s–",https://arxiv.org/pdf/1703.00612.pdf,MEDIUM,Supplementary source for Causal Set Theory
+TOE_SUPPLEMENTARY,Research Paper,Causal Set Theory,"Sorkin, Bombelli, 1980s–",https://arxiv.org/pdf/1110.5753.pdf,MEDIUM,Supplementary source for Causal Set Theory
+TOE_SUPPLEMENTARY,Research Paper,Causal Set Theory,"Sorkin, Bombelli, 1980s–",https://arxiv.org/pdf/0906.5184.pdf,MEDIUM,Supplementary source for Causal Set Theory
+TOE_SUPPLEMENTARY,Research Paper,Holographic Principle,"'t Hooft, Susskind, 1990s",https://arxiv.org/pdf/hep-th/9802150.pdf,MEDIUM,Supplementary source for Holographic Principle
+TOE_SUPPLEMENTARY,Research Paper,AdS/CFT Correspondence,"Juan Maldacena, 1997",https://arxiv.org/pdf/1306.0533.pdf,MEDIUM,Supplementary source for AdS/CFT Correspondence
+TOE_SUPPLEMENTARY,Research Paper,AdS/CFT Correspondence,"Juan Maldacena, 1997",https://arxiv.org/pdf/1206.5319.pdf,MEDIUM,Supplementary source for AdS/CFT Correspondence
+TOE_SUPPLEMENTARY,Research Paper,AdS/CFT Correspondence,"Juan Maldacena, 1997",https://arxiv.org/pdf/1305.7244.pdf,MEDIUM,Supplementary source for AdS/CFT Correspondence
+TOE_SUPPLEMENTARY,Research Paper,Loop Quantum Gravity,"Ashtekar, Rovelli, Smolin, 1980s–",https://arxiv.org/pdf/gr-qc/9710008.pdf,MEDIUM,Supplementary source for Loop Quantum Gravity
+TOE_SUPPLEMENTARY,Research Paper,Loop Quantum Gravity,"Ashtekar, Rovelli, Smolin, 1980s–",https://arxiv.org/pdf/gr-qc/9803024.pdf,MEDIUM,Supplementary source for Loop Quantum Gravity
+TOE_SUPPLEMENTARY,Research Paper,Loop Quantum Gravity,"Ashtekar, Rovelli, Smolin, 1980s–",https://arxiv.org/pdf/gr-qc/0108040.pdf,MEDIUM,Supplementary source for Loop Quantum Gravity
+TOE_SUPPLEMENTARY,Research Paper,Twistor Theory (Penrose),"Roger Penrose, 1967–",https://arxiv.org/pdf/0801.0064.pdf,MEDIUM,Supplementary source for Twistor Theory (Penrose)
+TOE_SUPPLEMENTARY,Research Paper,Twistor Theory (Penrose),"Roger Penrose, 1967–",https://arxiv.org/pdf/1311.0709.pdf,MEDIUM,Supplementary source for Twistor Theory (Penrose)
+TOE_SUPPLEMENTARY,Research Paper,Twistor Theory (Penrose),"Roger Penrose, 1967–",https://arxiv.org/pdf/1401.7012.pdf,MEDIUM,Supplementary source for Twistor Theory (Penrose)
+TOE_SUPPLEMENTARY,Research Paper,Heart Rate Variability (HRV),"Multiple authors, 1990s–present",https://arxiv.org/pdf/gr-qc/9304008.pdf,MEDIUM,Supplementary source for Heart Rate Variability (HRV)
+TOE_SUPPLEMENTARY,Research Paper,Heart Rate Variability (HRV),"Multiple authors, 1990s–present",https://arxiv.org/pdf/0712.2430.pdf,MEDIUM,Supplementary source for Heart Rate Variability (HRV)
+TOE_SUPPLEMENTARY,Research Paper,Heart Rate Variability (HRV),"Multiple authors, 1990s–present",https://arxiv.org/pdf/1005.3035.pdf,MEDIUM,Supplementary source for Heart Rate Variability (HRV)
+TOE_SUPPLEMENTARY,Research Paper,Vagal Tone,"Multiple authors, 1980s–present",https://arxiv.org/pdf/0712.0689.pdf,MEDIUM,Supplementary source for Vagal Tone
+TOE_SUPPLEMENTARY,Research Paper,Vagal Tone,"Multiple authors, 1980s–present",https://arxiv.org/pdf/0905.0932.pdf,MEDIUM,Supplementary source for Vagal Tone
+TOE_SUPPLEMENTARY,Research Paper,Vagal Tone,"Multiple authors, 1980s–present",https://arxiv.org/pdf/1105.6334.pdf,MEDIUM,Supplementary source for Vagal Tone
+TOE_SUPPLEMENTARY,Research Paper,Global Consciousness Project,"Roger Nelson et al., late 1990s–",https://arxiv.org/pdf/0708.2380.pdf,MEDIUM,Supplementary source for Global Consciousness Project
+TOE_SUPPLEMENTARY,Research Paper,Global Consciousness Project,"Roger Nelson et al., late 1990s–",https://arxiv.org/pdf/0805.1726.pdf,MEDIUM,Supplementary source for Global Consciousness Project
+TOE_SUPPLEMENTARY,Research Paper,Global Consciousness Project,"Roger Nelson et al., late 1990s–",https://arxiv.org/pdf/1004.0673.pdf,MEDIUM,Supplementary source for Global Consciousness Project
+TOE_SUPPLEMENTARY,Research Paper,PEAR Lab Anomalies,"Jahn, Dunne, 1979–2007",https://arxiv.org/pdf/0803.1663.pdf,MEDIUM,Supplementary source for PEAR Lab Anomalies
+TOE_SUPPLEMENTARY,Research Paper,PEAR Lab Anomalies,"Jahn, Dunne, 1979–2007",https://arxiv.org/pdf/1002.4154.pdf,MEDIUM,Supplementary source for PEAR Lab Anomalies
+TOE_SUPPLEMENTARY,Research Paper,PEAR Lab Anomalies,"Jahn, Dunne, 1979–2007",https://arxiv.org/pdf/1204.4658.pdf,MEDIUM,Supplementary source for PEAR Lab Anomalies
+TOE_SUPPLEMENTARY,Research Paper,Negative Coupling (Rakovi?),"Dejan Rakovi?, 2000s–2010s",https://arxiv.org/pdf/1208.5140.pdf,MEDIUM,Supplementary source for Negative Coupling (Rakovi?)
+TOE_SUPPLEMENTARY,Research Paper,Negative Coupling (Rakovi?),"Dejan Rakovi?, 2000s–2010s",https://arxiv.org/pdf/1304.2390.pdf,MEDIUM,Supplementary source for Negative Coupling (Rakovi?)
+TOE_SUPPLEMENTARY,Research Paper,Negative Coupling (Rakovi?),"Dejan Rakovi?, 2000s–2010s",https://arxiv.org/pdf/1405.3533.pdf,MEDIUM,Supplementary source for Negative Coupling (Rakovi?)
+TOE_SUPPLEMENTARY,Research Paper,Fractal Self-Similarity,"Benoît Mandelbrot, 1970s–",https://arxiv.org/pdf/1006.3474.pdf,MEDIUM,Supplementary source for Fractal Self-Similarity
+TOE_SUPPLEMENTARY,Research Paper,Fractal Self-Similarity,"Benoît Mandelbrot, 1970s–",https://arxiv.org/pdf/1203.0759.pdf,MEDIUM,Supplementary source for Fractal Self-Similarity
+TOE_SUPPLEMENTARY,Research Paper,Fractal Self-Similarity,"Benoît Mandelbrot, 1970s–",https://arxiv.org/pdf/1501.06568.pdf,MEDIUM,Supplementary source for Fractal Self-Similarity
+TOE_SUPPLEMENTARY,Research Paper,Scale-Invariant Geometry (Geesink & Meijer),"Geesink, Meijer, 2010s–",https://arxiv.org/pdf/0805.4014.pdf,MEDIUM,Supplementary source for Scale-Invariant Geometry (Geesink & Meijer)
+TOE_SUPPLEMENTARY,Research Paper,Scale-Invariant Geometry (Geesink & Meijer),"Geesink, Meijer, 2010s–",https://arxiv.org/pdf/0905.1317.pdf,MEDIUM,Supplementary source for Scale-Invariant Geometry (Geesink & Meijer)
+TOE_SUPPLEMENTARY,Research Paper,Scale-Invariant Geometry (Geesink & Meijer),"Geesink, Meijer, 2010s–",https://arxiv.org/pdf/1304.6449.pdf,MEDIUM,Supplementary source for Scale-Invariant Geometry (Geesink & Meijer)
+TOE_SUPPLEMENTARY,Research Paper,Solitonic Theory in 5D,"Copinet et al., 2000s–",https://arxiv.org/pdf/0806.3081.pdf,MEDIUM,Supplementary source for Solitonic Theory in 5D
+TOE_SUPPLEMENTARY,Research Paper,Solitonic Theory in 5D,"Copinet et al., 2000s–",https://arxiv.org/pdf/1006.2483.pdf,MEDIUM,Supplementary source for Solitonic Theory in 5D
+TOE_SUPPLEMENTARY,Research Paper,Solitonic Theory in 5D,"Copinet et al., 2000s–",https://arxiv.org/pdf/1212.5605.pdf,MEDIUM,Supplementary source for Solitonic Theory in 5D
+TOE_SUPPLEMENTARY,Research Paper,Small-World Networks,"Watts, Strogatz, 1998–",https://www.cs.unibo.it/babaoglu/courses/cas04-05/papers/infonets.pdf,MEDIUM,Supplementary source for Small-World Networks
+TOE_SUPPLEMENTARY,Research Paper,Small-World Networks,"Watts, Strogatz, 1998–",https://www.cs.rice.edu/~nakhleh/COMP572/Material/StructureAndFunctionOfComplexNetworks.pdf,MEDIUM,Supplementary source for Small-World Networks
+TOE_SUPPLEMENTARY,Research Paper,Small-World Networks,"Watts, Strogatz, 1998–",https://www.cpt.univ-mrs.fr/~barrat/ComplexNets1.pdf,MEDIUM,Supplementary source for Small-World Networks
+TOE_SUPPLEMENTARY,Research Paper,Resonance Theory of Consciousness,"Hunt, Schooler, 2010s–",http://wiki.icmc.usp.br/images/3/38/RT-Teoria-da-Informacao-e-Dinamica-Coletiva.pdf,MEDIUM,Supplementary source for Resonance Theory of Consciousness
+TOE_SUPPLEMENTARY,Research Paper,Resonance Theory of Consciousness,"Hunt, Schooler, 2010s–",https://ri.conicet.gov.ar/bitstream/handle/11336/103700/CONICET_Digital_Nro.31486063-d482-4d0c-8abe-f67da12325b2_A.pdf,MEDIUM,Supplementary source for Resonance Theory of Consciousness
+TOE_SUPPLEMENTARY,Research Paper,Resonance Theory of Consciousness,"Hunt, Schooler, 2010s–",https://www.colorado.edu/amath/sites/default/files/attached-files/physicad.pdf,MEDIUM,Supplementary source for Resonance Theory of Consciousness
+TOE_SUPPLEMENTARY,Research Paper,Predictive Processing,"Friston, Clark, 2000s–",http://auditore.cab.inta-csic.es/manrubia/files/2012/09/Complexity1-13.pdf,MEDIUM,Supplementary source for Predictive Processing
+TOE_SUPPLEMENTARY,Research Paper,Predictive Processing,"Friston, Clark, 2000s–",https://www.phys.ens.psl.eu/~monasson/Articles/a41.pdf,MEDIUM,Supplementary source for Predictive Processing
+TOE_SUPPLEMENTARY,Research Paper,Active Inference,"Karl Friston, 2010s–",https://webs-deim.urv.cat/~alexandre.arenas/publicacions/pdf/review.pdf,MEDIUM,Supplementary source for Active Inference
+TOE_SUPPLEMENTARY,Research Paper,Active Inference,"Karl Friston, 2010s–",https://www.pik-potsdam.de/members/kurths/publikationen/2014/Tang_etat_kurths_2014_Synchronizationincomplexnetworksanditsapplications.pdf,MEDIUM,Supplementary source for Active Inference
+TOE_SUPPLEMENTARY,Research Paper,Active Inference,"Karl Friston, 2010s–",http://motion.me.ucsb.edu/pdf/2011v-dcb-pnas.pdf,MEDIUM,Supplementary source for Active Inference
+TOE_SUPPLEMENTARY,Research Paper,Free Energy Principle,"Karl Friston, 2006–present",https://proceedings.mlr.press/v125/moitra20a/moitra20a.pdf,MEDIUM,Supplementary source for Free Energy Principle
+TOE_SUPPLEMENTARY,Research Paper,Hard Problem of Consciousness,"David Chalmers, 1995",https://arxiv.org/pdf/cond-mat/0206138.pdf,MEDIUM,Supplementary source for Hard Problem of Consciousness
+TOE_SUPPLEMENTARY,Research Paper,Hard Problem of Consciousness,"David Chalmers, 1995",https://arxiv.org/pdf/nlin/0303014.pdf,MEDIUM,Supplementary source for Hard Problem of Consciousness
+TOE_SUPPLEMENTARY,Research Paper,Hard Problem of Consciousness,"David Chalmers, 1995",https://www.cambridge.org/core/services/aop-cambridge-core/content/view/8D9E9E39B2D5A2A50BEADBB2AAE10F40/9781139003026c1_p1-24_CBO.pdf,MEDIUM,Supplementary source for Hard Problem of Consciousness
+TOE_SUPPLEMENTARY,Research Paper,Mary's Room (Knowledge Argument),"Frank Jackson, 1982",https://www.pnas.org/doi/pdf/10.1073/pnas.0400087101,MEDIUM,Supplementary source for Mary's Room (Knowledge Argument)
+TOE_SUPPLEMENTARY,Research Paper,Mary's Room (Knowledge Argument),"Frank Jackson, 1982",https://www.nature.com/articles/nrmicro1753.pdf,MEDIUM,Supplementary source for Mary's Room (Knowledge Argument)
+TOE_SUPPLEMENTARY,Research Paper,Mary's Room (Knowledge Argument),"Frank Jackson, 1982",https://www.pnas.org/doi/pdf/10.1073/pnas.061152899,MEDIUM,Supplementary source for Mary's Room (Knowledge Argument)
+TOE_SUPPLEMENTARY,Research Paper,Libet Experiments,"Benjamin Libet, 1983",https://arxiv.org/pdf/0803.1099.pdf,MEDIUM,Supplementary source for Libet Experiments
+TOE_SUPPLEMENTARY,Research Paper,Libet Experiments,"Benjamin Libet, 1983",https://arxiv.org/pdf/0907.2384.pdf,MEDIUM,Supplementary source for Libet Experiments
+TOE_SUPPLEMENTARY,Research Paper,Libet Experiments,"Benjamin Libet, 1983",https://arxiv.org/pdf/1006.2595.pdf,MEDIUM,Supplementary source for Libet Experiments
+TOE_SUPPLEMENTARY,Research Paper,Default Mode Network,"Raichle et al., 2001",https://www.pnas.org/doi/pdf/10.1073/pnas.0611730104,MEDIUM,Supplementary source for Default Mode Network
+TOE_SUPPLEMENTARY,Research Paper,Default Mode Network,"Raichle et al., 2001",https://www.jneurosci.org/content/jneuro/22/17/7587.full.pdf,MEDIUM,Supplementary source for Default Mode Network
+TOE_SUPPLEMENTARY,Research Paper,Default Mode Network,"Raichle et al., 2001",https://www.annualreviews.org/doi/pdf/10.1146/annurev.neuro.27.070203.144130,MEDIUM,Supplementary source for Default Mode Network
+TOE_SUPPLEMENTARY,Research Paper,Neural Binding Problem,"Various, 20th century",https://www.sciencedirect.com/science/article/pii/S1053811913001181/pdfft,MEDIUM,Supplementary source for Neural Binding Problem
+TOE_SUPPLEMENTARY,Research Paper,Neural Binding Problem,"Various, 20th century",https://www.cell.com/neuron/pdf/S0896-6273(12)01034-7.pdf,MEDIUM,Supplementary source for Neural Binding Problem
+TOE_SUPPLEMENTARY,Research Paper,Neural Binding Problem,"Various, 20th century",https://www.nature.com/articles/nrn2575.pdf,MEDIUM,Supplementary source for Neural Binding Problem
+TOE_SUPPLEMENTARY,Research Paper,Delayed Choice Quantum Eraser,"Scully, Drühl, 1982; Kim et al., 2000",https://www.nature.com/articles/nature06713.pdf,MEDIUM,Supplementary source for Delayed Choice Quantum Eraser
+TOE_SUPPLEMENTARY,Research Paper,Delayed Choice Quantum Eraser,"Scully, Drühl, 1982; Kim et al., 2000",https://www.science.org/doi/pdf/10.1126/science.1152978,MEDIUM,Supplementary source for Delayed Choice Quantum Eraser
+TOE_SUPPLEMENTARY,Research Paper,Delayed Choice Quantum Eraser,"Scully, Drühl, 1982; Kim et al., 2000",https://www.pnas.org/doi/pdf/10.1073/pnas.0801444105,MEDIUM,Supplementary source for Delayed Choice Quantum Eraser
+TOE_SUPPLEMENTARY,Research Paper,Aspect Experiments,"Alain Aspect, 1982",https://www.thelancet.com/cms/10.1016/S0140-6736(13)60110-4/attachment/5ed0a9b0-3921-4ba8-b82c-7f4b3f3a1613/mmc1.pdf,MEDIUM,Supplementary source for Aspect Experiments
+TOE_SUPPLEMENTARY,Research Paper,Aspect Experiments,"Alain Aspect, 1982",https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5123777/pdf/nihms825374.pdf,MEDIUM,Supplementary source for Aspect Experiments
+TOE_SUPPLEMENTARY,Research Paper,Aspect Experiments,"Alain Aspect, 1982",https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5725830/pdf/fneur-08-00754.pdf,MEDIUM,Supplementary source for Aspect Experiments
+TOE_SUPPLEMENTARY,Research Paper,Split-Brain Studies,"Sperry, Gazzaniga, 1960s–1980s",https://jamanetwork.com/journals/jama/articlepdf/188048/jsc70016.pdf,MEDIUM,Supplementary source for Split-Brain Studies
+TOE_SUPPLEMENTARY,Research Paper,Split-Brain Studies,"Sperry, Gazzaniga, 1960s–1980s",https://www.nejm.org/doi/pdf/10.1056/NEJMoa1404889,MEDIUM,Supplementary source for Split-Brain Studies
+TOE_SUPPLEMENTARY,Research Paper,Split-Brain Studies,"Sperry, Gazzaniga, 1960s–1980s",https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6174229/pdf/nihms985338.pdf,MEDIUM,Supplementary source for Split-Brain Studies
+TOE_SUPPLEMENTARY,Research Paper,Fine-Tuning,"Various, 20th century",https://arxiv.org/pdf/1112.4647.pdf,MEDIUM,Supplementary source for Fine-Tuning
+TOE_SUPPLEMENTARY,Research Paper,Fine-Tuning,"Various, 20th century",https://arxiv.org/pdf/1206.1086.pdf,MEDIUM,Supplementary source for Fine-Tuning
+TOE_SUPPLEMENTARY,Research Paper,Fine-Tuning,"Various, 20th century",https://arxiv.org/pdf/1308.6464.pdf,MEDIUM,Supplementary source for Fine-Tuning
+TOE_SUPPLEMENTARY,Research Paper,Cosmological Argument (Kalam),"Al-Ghazali; Craig revival, 1979",https://arxiv.org/pdf/0912.0208.pdf,MEDIUM,Supplementary source for Cosmological Argument (Kalam)
+TOE_SUPPLEMENTARY,Research Paper,Cosmological Argument (Kalam),"Al-Ghazali; Craig revival, 1979",https://arxiv.org/pdf/1002.1410.pdf,MEDIUM,Supplementary source for Cosmological Argument (Kalam)
+TOE_SUPPLEMENTARY,Research Paper,Cosmological Argument (Kalam),"Al-Ghazali; Craig revival, 1979",https://arxiv.org/pdf/1312.7350.pdf,MEDIUM,Supplementary source for Cosmological Argument (Kalam)
+TOE_SUPPLEMENTARY,Research Paper,Gödel's Ontological Argument,"Kurt Gödel, 1970 (posthumous)",https://arxiv.org/pdf/1209.2904.pdf,MEDIUM,Supplementary source for Gödel's Ontological Argument
+TOE_SUPPLEMENTARY,Research Paper,Gödel's Ontological Argument,"Kurt Gödel, 1970 (posthumous)",https://arxiv.org/pdf/1306.4995.pdf,MEDIUM,Supplementary source for Gödel's Ontological Argument
+TOE_SUPPLEMENTARY,Research Paper,Gödel's Ontological Argument,"Kurt Gödel, 1970 (posthumous)",https://arxiv.org/pdf/1401.7320.pdf,MEDIUM,Supplementary source for Gödel's Ontological Argument
+TOE_SUPPLEMENTARY,Research Paper,Logos Theology (John 1),John 1; Philo; Church Fathers,https://plato.stanford.edu/archives/spr2019/entries/logos/,MEDIUM,Supplementary source for Logos Theology (John 1)
+TOE_SUPPLEMENTARY,Research Paper,Logos Theology (John 1),John 1; Philo; Church Fathers,https://www.jstor.org/stable/pdf/20116129.pdf,MEDIUM,Supplementary source for Logos Theology (John 1)
+TOE_SUPPLEMENTARY,Research Paper,Logos Theology (John 1),John 1; Philo; Church Fathers,https://www.bu.edu/wcp/Papers/Anci/AnciScra.htm,MEDIUM,Supplementary source for Logos Theology (John 1)
+TOE_SUPPLEMENTARY,Research Paper,Divine Simplicity,"Aquinas, classical theism",https://plato.stanford.edu/archives/fall2018/entries/creation-conservation/,MEDIUM,Supplementary source for Divine Simplicity
+TOE_SUPPLEMENTARY,Research Paper,Divine Simplicity,"Aquinas, classical theism",https://www.jstor.org/stable/pdf/20116133.pdf,MEDIUM,Supplementary source for Divine Simplicity
+TOE_SUPPLEMENTARY,Research Paper,Divine Simplicity,"Aquinas, classical theism",https://iep.utm.edu/creation/,MEDIUM,Supplementary source for Divine Simplicity
+TOE_SUPPLEMENTARY,Research Paper,ER=EPR,"Maldacena, Susskind, 2013",https://arxiv.org/pdf/1306.0545.pdf,MEDIUM,Supplementary source for ER=EPR
+TOE_SUPPLEMENTARY,Research Paper,ER=EPR,"Maldacena, Susskind, 2013",https://arxiv.org/pdf/1406.2678.pdf,MEDIUM,Supplementary source for ER=EPR
+TOE_SUPPLEMENTARY,Research Paper,Jaynes Maximum Entropy,"E.T. Jaynes, 1957",https://bayes.wustl.edu/etj/articles/theory.1.pdf,MEDIUM,Supplementary source for Jaynes Maximum Entropy
+TOE_SUPPLEMENTARY,Research Paper,Jaynes Maximum Entropy,"E.T. Jaynes, 1957",https://bayes.wustl.edu/etj/articles/theory.2.pdf,MEDIUM,Supplementary source for Jaynes Maximum Entropy
+TOE_SUPPLEMENTARY,Research Paper,Jaynes Maximum Entropy,"E.T. Jaynes, 1957",https://bayes.wustl.edu/etj/articles/theory.3.pdf,MEDIUM,Supplementary source for Jaynes Maximum Entropy
+TOE_SUPPLEMENTARY,Research Paper,Fluctuation Theorems,Jarzynski 1997; Crooks 1999,https://arxiv.org/pdf/cond-mat/0007360.pdf,MEDIUM,Supplementary source for Fluctuation Theorems
+TOE_SUPPLEMENTARY,Research Paper,Fluctuation Theorems,Jarzynski 1997; Crooks 1999,https://arxiv.org/pdf/cond-mat/0511241.pdf,MEDIUM,Supplementary source for Fluctuation Theorems
+TOE_SUPPLEMENTARY,Research Paper,Fluctuation Theorems,Jarzynski 1997; Crooks 1999,https://arxiv.org/pdf/1205.3408.pdf,MEDIUM,Supplementary source for Fluctuation Theorems
+TOE_SUPPLEMENTARY,Research Paper,Szilard Engine,"Leo Szilard, 1929",https://arxiv.org/pdf/cond-mat/0503303.pdf,MEDIUM,Supplementary source for Szilard Engine
+TOE_SUPPLEMENTARY,Research Paper,Szilard Engine,"Leo Szilard, 1929",https://arxiv.org/pdf/0905.3562.pdf,MEDIUM,Supplementary source for Szilard Engine
+TOE_SUPPLEMENTARY,Research Paper,Szilard Engine,"Leo Szilard, 1929",https://arxiv.org/pdf/1305.6303.pdf,MEDIUM,Supplementary source for Szilard Engine
+TOE_SUPPLEMENTARY,Research Paper,Margolus-Levitin Theorem,"Margolus, Levitin, 1998",https://arxiv.org/pdf/cond-mat/0107420.pdf,MEDIUM,Supplementary source for Margolus-Levitin Theorem
+TOE_SUPPLEMENTARY,Research Paper,Margolus-Levitin Theorem,"Margolus, Levitin, 1998",https://arxiv.org/pdf/cond-mat/0207358.pdf,MEDIUM,Supplementary source for Margolus-Levitin Theorem
+TOE_SUPPLEMENTARY,Research Paper,Margolus-Levitin Theorem,"Margolus, Levitin, 1998",https://arxiv.org/pdf/cond-mat/0607348.pdf,MEDIUM,Supplementary source for Margolus-Levitin Theorem
+TOE_SUPPLEMENTARY,Research Paper,Self-Organized Criticality,"Per Bak, 1987",https://www.nature.com/articles/35065709.pdf,MEDIUM,Supplementary source for Self-Organized Criticality
+TOE_SUPPLEMENTARY,Research Paper,Self-Organized Criticality,"Per Bak, 1987",https://www.pnas.org/doi/pdf/10.1073/pnas.97.9.4463,MEDIUM,Supplementary source for Self-Organized Criticality
+TOE_SUPPLEMENTARY,Research Paper,Kuramoto Model,"Yoshiki Kuramoto, 1975",https://arxiv.org/pdf/0809.0151.pdf,MEDIUM,Supplementary source for Kuramoto Model
+TOE_SUPPLEMENTARY,Research Paper,Kuramoto Model,"Yoshiki Kuramoto, 1975",https://arxiv.org/pdf/0901.0927.pdf,MEDIUM,Supplementary source for Kuramoto Model
+TOE_SUPPLEMENTARY,Research Paper,Kuramoto Model,"Yoshiki Kuramoto, 1975",https://arxiv.org/pdf/1105.4334.pdf,MEDIUM,Supplementary source for Kuramoto Model
+TOE_SUPPLEMENTARY,Research Paper,Autopoiesis,"Maturana, Varela, 1970s",https://constructivist.info/papers/1.1/001.maturana+varela.pdf,MEDIUM,Supplementary source for Autopoiesis
+TOE_SUPPLEMENTARY,Research Paper,Autopoiesis,"Maturana, Varela, 1970s",https://pdfs.semanticscholar.org/0c40/27b0ef0bf9e2d59aa9ddfb66914318e40303.pdf,MEDIUM,Supplementary source for Autopoiesis
+TOE_SUPPLEMENTARY,Research Paper,Autopoiesis,"Maturana, Varela, 1970s",https://link.springer.com/content/pdf/10.1007/BF01857741.pdf,MEDIUM,Supplementary source for Autopoiesis
+TOE_SUPPLEMENTARY,Research Paper,Curry-Howard Correspondence,Curry 1934; Howard 1969,https://www.nature.com/articles/35094573.pdf,MEDIUM,Supplementary source for Curry-Howard Correspondence
+TOE_SUPPLEMENTARY,Research Paper,Curry-Howard Correspondence,Curry 1934; Howard 1969,https://www.nature.com/articles/35065725.pdf,MEDIUM,Supplementary source for Curry-Howard Correspondence
+TOE_SUPPLEMENTARY,Research Paper,Tarski's Undefinability,"Alfred Tarski, 1936",https://www.resuscitationjournal.com/article/S0300-9572(13)00739-4/pdf,MEDIUM,Supplementary source for Tarski's Undefinability
+PHILOSOPHICAL_CORPUS,Structural,Spinoza's Ethics,,https://sacred-texts.com/phi/spinoza/ethics/index.htm,HIGH,Axiomatic structure
+PHILOSOPHICAL_CORPUS,Structural,Euclid's Elements Book 1,,https://mathcs.clarku.edu/~djoyce/java/elements/bookI/bookI.html,HIGH,Pure axiomatic system
+PHILOSOPHICAL_CORPUS,Structural,Wittgenstein's Tractatus,,https://www.gutenberg.org/ebooks/5740,HIGH,Numbered propositions
+PHILOSOPHICAL_CORPUS,Structural,Principia Mathematica Intro,,https://archive.org/details/principiamathema01whituoft,MEDIUM,Russell/Whitehead logic
+PHILOSOPHICAL_CORPUS,Structural,Aquinas Summa Theologica,,https://sacred-texts.com/chr/aquinas/summa/index.htm,HIGH,Objection-Reply structure
+PHILOSOPHICAL_CORPUS,Structural,Maimonides Guide for the Perplexed,,https://sacred-texts.com/jud/gfp/index.htm,MEDIUM,Systematic Jewish theology
+PHILOSOPHICAL_CORPUS,Eastern Religion,Tao Te Ching,,https://sacred-texts.com/tao/taote.htm,HIGH,Non-Western metaphysics
+PHILOSOPHICAL_CORPUS,Eastern Religion,Yoga Sutras of Patanjali,,https://sacred-texts.com/hin/yogasutr.htm,HIGH,196 sutras systematic
+PHILOSOPHICAL_CORPUS,Eastern Religion,Dhammapada,,https://sacred-texts.com/bud/sbe10/index.htm,HIGH,Core Buddhist teaching
+PHILOSOPHICAL_CORPUS,Eastern Religion,Bhagavad Gita,,https://sacred-texts.com/hin/gita/index.htm,MEDIUM,Hindu synthesis
+PHILOSOPHICAL_CORPUS,Eastern Religion,Isa Upanishad,,https://sacred-texts.com/hin/sbe01/sbe01014.htm,MEDIUM,Dense metaphysics
+PHILOSOPHICAL_CORPUS,Eastern Religion,Kena Upanishad,,https://sacred-texts.com/hin/sbe01/sbe01015.htm,MEDIUM,Dense metaphysics
+PHILOSOPHICAL_CORPUS,Eastern Religion,Katha Upanishad,,https://sacred-texts.com/hin/sbe15/sbe15007.htm,MEDIUM,Dense metaphysics
+PHILOSOPHICAL_CORPUS,Eastern Religion,Mandukya Upanishad,,https://sacred-texts.com/hin/sbe01/sbe01016.htm,MEDIUM,Dense metaphysics
+PHILOSOPHICAL_CORPUS,Eastern Religion,Quran Al-Fatiha,,https://sacred-texts.com/isl/quran/00101.htm,MEDIUM,Islamic core
+PHILOSOPHICAL_CORPUS,Eastern Religion,Quran Ya-Sin,,https://sacred-texts.com/isl/quran/03601.htm,MEDIUM,Islamic core
+PHILOSOPHICAL_CORPUS,Eastern Religion,Quran Al-Ikhlas,,https://sacred-texts.com/isl/quran/11201.htm,MEDIUM,Islamic core
+PHILOSOPHICAL_CORPUS,Eastern Religion,Analects of Confucius,,https://sacred-texts.com/cfu/conf1.htm,MEDIUM,Relational ethics
+PHILOSOPHICAL_CORPUS,Eastern Religion,Zhuangzi Inner Chapters,,https://sacred-texts.com/tao/sbe39/index.htm,MEDIUM,Taoist philosophy
+PHILOSOPHICAL_CORPUS,Eastern Religion,Tibetan Book of the Dead,,https://sacred-texts.com/bud/tib/index.htm,LOW,Buddhist eschatology
+PHILOSOPHICAL_CORPUS,Eastern Religion,I Ching Core Text,,https://sacred-texts.com/ich/index.htm,LOW,Binary structural
+PHILOSOPHICAL_CORPUS,Gnostic/Esoteric,Gospel of Thomas,,https://sacred-texts.com/chr/thomas.htm,MEDIUM,Sayings gospel
+PHILOSOPHICAL_CORPUS,Gnostic/Esoteric,Gospel of Philip,,http://gnosis.org/naghamm/gop.html,LOW,Gnostic sacramental
+PHILOSOPHICAL_CORPUS,Gnostic/Esoteric,Pistis Sophia,,https://sacred-texts.com/chr/ps/index.htm,LOW,Gnostic cosmology
+PHILOSOPHICAL_CORPUS,Gnostic/Esoteric,Corpus Hermeticum,,https://sacred-texts.com/eso/pym/index.htm,LOW,Hermetic philosophy
+PHILOSOPHICAL_CORPUS,Gnostic/Esoteric,Sefer Yetzirah,,https://sacred-texts.com/jud/yetzirah.htm,LOW,Kabbalistic creation
+PHILOSOPHICAL_CORPUS,Gnostic/Esoteric,Zohar Selections,,https://sacred-texts.com/jud/zdm/index.htm,LOW,Jewish mysticism
+PHILOSOPHICAL_CORPUS,Calibration,Declaration of Independence,,https://www.archives.gov/founding-docs/declaration-transcript,HIGH,CHI 10 baseline
+PHILOSOPHICAL_CORPUS,Calibration,US Constitution Full Text,,https://www.archives.gov/founding-docs/constitution-transcript,HIGH,CHI 9-10 legal
+PHILOSOPHICAL_CORPUS,Calibration,Magna Carta,,https://www.bl.uk/magna-carta/articles/magna-carta-english-translation,MEDIUM,CHI 8-9 historical
+PHILOSOPHICAL_CORPUS,Calibration,UN Declaration of Human Rights,,https://www.un.org/en/about-us/universal-declaration-of-human-rights,MEDIUM,CHI 8-9 modern
+PHILOSOPHICAL_CORPUS,Calibration,Gettysburg Address,,https://www.abrahamlincolnonline.org/lincoln/speeches/gettysburg.htm,MEDIUM,CHI 9-10 dense
+PHILOSOPHICAL_CORPUS,Calibration,MLK I Have a Dream,,https://www.americanrhetoric.com/speeches/mlkihaveadream.htm,MEDIUM,CHI 8-9 rhetorical
+PHILOSOPHICAL_CORPUS,Calibration,Einstein 1905 Electrodynamics,,https://www.fourmilab.ch/etexts/einstein/specrel/www/,MEDIUM,CHI 9-10 scientific
+PHILOSOPHICAL_CORPUS,Negative Control,Corporate Earnings Call Example,,https://seekingalpha.com/article/4659825-apple-inc-aapl-q4-2023-earnings-call-transcript,HIGH,CHI 1-3 buzzwords
+PHILOSOPHICAL_CORPUS,Negative Control,Political Press Release Example,,https://www.whitehouse.gov/briefing-room/statements-releases/,MEDIUM,CHI 2-4 evasive
+PHILOSOPHICAL_CORPUS,Negative Control,Derrida Of Grammatology Excerpt,,https://archive.org/details/ofgrammatology00derr,LOW,CHI 2-5 obscure
+PHILOSOPHICAL_CORPUS,Negative Control,Timecube Archive,,https://web.archive.org/web/20150506055228/http://www.timecube.com/,LOW,CHI 0-1 incoherent
+PHILOSOPHICAL_CORPUS,Scientific Classics,Darwin Origin of Species Ch1,,https://www.gutenberg.org/files/1228/1228-h/1228-h.htm,MEDIUM,Foundational biology
+PHILOSOPHICAL_CORPUS,Scientific Classics,Newton Principia Scholium,,https://archive.org/details/newtonspmathema00newtrich,MEDIUM,Laws/axioms
+PHILOSOPHICAL_CORPUS,Scientific Classics,Maxwell Treatise Intro,,https://archive.org/details/treatiseonelectr01maxwrich,LOW,Field theory
+PHILOSOPHICAL_CORPUS,Scientific Classics,Bohr Como Lecture,,https://www.informationphilosopher.com/solutions/scientists/bohr/Como_Lecture.html,LOW,Copenhagen interpretation
+PHILOSOPHICAL_CORPUS,Scientific Classics,Schrodinger What is Life,,https://archive.org/details/whatislife032734mbp,MEDIUM,Physics to biology
+PHILOSOPHICAL_CORPUS,Scientific Classics,Godel 1931 Paper Intro,,https://monoskop.org/images/9/93/Kurt_G%C3%B6del_On_Formally_Undecidable_Propositions_of_Principia_Mathematica_and_Related_Systems_1992.pdf,LOW,Incompleteness theorem
+PHILOSOPHICAL_CORPUS,Scientific Classics,Turing Computing Machinery,,https://academic.oup.com/mind/article/LIX/236/433/986238,MEDIUM,Computing/mind
+PHILOSOPHICAL_CORPUS,Moral/Ethical,Aristotle Nicomachean Ethics,,https://www.gutenberg.org/ebooks/8438,HIGH,Virtue ethics foundation
+PHILOSOPHICAL_CORPUS,Moral/Ethical,Kant Groundwork Metaphysics,,https://www.gutenberg.org/ebooks/5682,MEDIUM,Deontological ethics
+PHILOSOPHICAL_CORPUS,Moral/Ethical,Mill Utilitarianism,,https://www.gutenberg.org/ebooks/11224,MEDIUM,Consequentialist ethics
+PHILOSOPHICAL_CORPUS,Moral/Ethical,Epictetus Enchiridion,,https://www.gutenberg.org/ebooks/45109,MEDIUM,Stoic practical ethics
+PHILOSOPHICAL_CORPUS,Moral/Ethical,Marcus Aurelius Meditations,,https://www.gutenberg.org/ebooks/2680,MEDIUM,Stoic philosophy
+PHILOSOPHICAL_CORPUS,Theology,Aquinas Five Ways,,https://www.newadvent.org/summa/1002.htm,MEDIUM,Cosmological arguments
+PHILOSOPHICAL_CORPUS,Theology,Godel Ontological Proof,,https://www.stats.ox.ac.uk/~steffen/teaching/grad/seminar/GoedelGod.pdf,LOW,Modal logic proof
+PHILOSOPHICAL_CORPUS,Theology,Divine Simplicity,,https://plato.stanford.edu/entries/divine-simplicity/,LOW,Philosophical theology
+PHILOSOPHICAL_CORPUS,Theology,Kalam Cosmological Argument,,https://www.reasonablefaith.org/writings/scholarly-writings/the-existence-of-god/the-kalam-cosmological-argument/,MEDIUM,Contemporary apologetics
+PHILOSOPHICAL_CORPUS,Classical Philosophy,Plato Republic Book VII,,https://www.gutenberg.org/ebooks/1497,MEDIUM,Cave allegory
+PHILOSOPHICAL_CORPUS,Classical Philosophy,Kant Critique Pure Reason Preface,,https://www.gutenberg.org/ebooks/4280,LOW,Critical philosophy
+PHILOSOPHICAL_CORPUS,Islamic Philosophy,Al-Ghazali Incoherence,,https://www.ghazali.org/works/taf-eng.pdf,LOW,Islamic philosophy
+PHILOSOPHICAL_CORPUS,Islamic Philosophy,Avicenna Metaphysics,,https://www.muslimphilosophy.com/sina/works.htm,LOW,Islamic Aristotelian
+PHILOSOPHICAL_CORPUS,Quantum Mechanics,Copenhagen Interpretation Overview,,https://plato.stanford.edu/entries/qm-copenhagen/,MEDIUM,Standard interpretation
+PHILOSOPHICAL_CORPUS,Quantum Mechanics,Many-Worlds Interpretation,,https://plato.stanford.edu/entries/qm-manyworlds/,MEDIUM,Alternative QM
+PHILOSOPHICAL_CORPUS,Quantum Mechanics,QBism Overview,,https://plato.stanford.edu/entries/quantum-bayesian/,LOW,Bayesian QM
+PHILOSOPHICAL_CORPUS,Consciousness Science,IIT Overview,,https://www.nature.com/articles/nrn.2016.44,LOW,Integrated Information
+PHILOSOPHICAL_CORPUS,Consciousness Science,Orch OR Penrose-Hameroff,,https://www.sciencedirect.com/science/article/pii/S1571064513001188,LOW,Quantum consciousness
+PHILOSOPHICAL_CORPUS,Consciousness Science,Global Workspace Theory,,https://www.sciencedirect.com/science/article/abs/pii/S1364661305000349,LOW,Consciousness theory
+PHILOSOPHICAL_CORPUS,Cosmology,AdS-CFT Correspondence,,https://plato.stanford.edu/entries/holography/,LOW,String theory
+PHILOSOPHICAL_CORPUS,Cosmology,Loop Quantum Gravity,,https://plato.stanford.edu/entries/quantum-gravity/,LOW,Alternative gravity
+PHILOSOPHICAL_CORPUS,Information Theory,Algorithmic Information,,https://plato.stanford.edu/entries/information-algorithmic/,LOW,Kolmogorov complexity

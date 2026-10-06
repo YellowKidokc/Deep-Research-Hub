@@ -1,0 +1,41 @@
+<h1 class="my-3">Load</h1>
+
+{{#unless allProcessedData}}
+    No <a href="storage/processed">processed data</a> is currently set as active for this node.  Loading is not possible.
+{{/unless}}
+
+{{#if allProcessedData}}
+    <div class="my-3 p-3 border bg-light">
+    This will load <a href="storage/processed">processed data</a> on Node {{node.id}}.  This isn't typically necessary for crawled data,
+    but is necessary for sideloaded data.  Select the processed data to be loaded below.
+    </div>
+
+    <form method="post" action="actions/load">
+
+    <table class="table">
+        <tr>
+            <th>Use</th>
+            <th>Path</th>
+            <th>Description</th>
+            <th>Details</th>
+        </tr>
+
+        {{#each allProcessedData}}
+            <tr>
+                <td><input {{#if active}}checked{{/if}}  {{#if new}}disabled{{/if}} {{#if delete}}disabled{{/if}} class="form-check-input" type="checkbox" name="source" id="{{id}}" value="{{id}}"></td>
+                <td><label for="{{id}}" class="form-check-label" >{{path}}</label></td>
+                <td>{{description}}
+                    <span class="text-danger">{{#if new}}[CREATING]{{/if}}</span>
+                    <span class="text-danger">{{#if delete}}[DELETING]{{/if}}</span>
+                </td>
+                <td><a href="/nodes/{{node}}/storage/details?fid={{id}}">[Details]</a></td>
+            </tr>
+        {{/each}}
+    </table>
+        <button
+                class="btn btn-primary me-md-2"
+                onclick="return confirm('Confirm loading of the selected data on node {{node.id}}');"
+                type="submit">
+            Trigger Loading</button>
+    </form>
+{{/if}}

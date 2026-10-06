@@ -1,0 +1,183 @@
+package nu.marginalia.converting.processor.logic;
+
+import nu.marginalia.converting.model.DisqualifiedException;
+import nu.marginalia.converting.model.DocumentTags;
+import nu.marginalia.domclassifier.DomSampleClassification;
+import nu.marginalia.model.DocumentFormat;
+import nu.marginalia.model.crawl.HtmlFeature;
+import nu.marginalia.model.crawldata.CrawledDocument;
+import org.apache.commons.lang3.StringUtils;
+import org.jetbrains.annotations.NotNull;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.nodes.Node;
+import org.jsoup.select.NodeVisitor;
+
+import java.util.Set;
+
+import static nu.marginalia.domclassifier.DomSampleClassification.*;
+
+public class DocumentValuator {
+
+    public double getQuality(CrawledDocument crawledDocument,
+                             DocumentFormat htmlStandard,
+                             Document parsedDocument,
+                             DocumentTags tags,
+                             int textLength) throws DisqualifiedException {
+
+        double scriptPenalty = getScriptPenalty(parsedDocument, tags);
+        double chatGptPenalty = getChatGptContentFarmPenalty(tags);
+
+        int rawLength = crawledDocument.documentBodyBytes.length;
+
+        if (textLength == 0) {
+            throw new DisqualifiedException(DisqualifiedException.DisqualificationReason.LENGTH);
+        }
+
+        return Math.log(textLength / (double) (1+rawLength))*htmlStandard.scale
+                + htmlStandard.offset
+                - scriptPenalty
+                - chatGptPenalty;
+    }
+
+    private double getChatGptContentFarmPenalty(DocumentTags tags) {
+        // easily 90% of modern AI-authored content farm spam has these nonsense headers
+
+        boolean benefitsOf = false, keyBenefits = false, keyTakeaways = false;
+
+        for (var elem : tags.allHeadingTags()) {
+            if (benefitsOf && keyBenefits && keyTakeaways)
+                break;
+
+            String text = elem.text().toLowerCase();
+
+            benefitsOf = benefitsOf || text.startsWith("benefits of");
+            keyBenefits = keyBenefits || text.startsWith("key benefits");
+            keyTakeaways = keyTakeaways || text.startsWith("key takeaways");
+        }
+
+        double penalty = 0;
+
+        if (benefitsOf) penalty += 10;
+        if (keyBenefits) penalty += 5;
+        if (keyTakeaways) penalty += 5;
+
+        return penalty;
+    }
+
+
+    private int getScriptPenalty(Document parsed, DocumentTags tags) {
+        var scriptVisitor = new ScriptVisitor();
+
+        tags.scriptTags().traverse(scriptVisitor);
+        int value = scriptVisitor.score();
+
+        for (var links : parsed.head().getElementsByTag("link")) {
+            if (links.hasAttr("onerror") || links.hasAttr("onload")) {
+                value += 1;
+            }
+        }
+
+        return value;
+    }
+
+    public double adjustQuality(double quality, Set<HtmlFeature> features) {
+        double adjustment = 0;
+
+        if (features.contains(HtmlFeature.TRACKING_ADTECH)) {
+            adjustment -= 2.5;
+        }
+        if (features.contains(HtmlFeature.TRACKING)) {
+            adjustment -= 2.5;
+        }
+        if (features.contains(HtmlFeature.AFFILIATE_LINK)) {
+            adjustment -= 1.5;
+        }
+        if (features.contains(HtmlFeature.GA_SPAM)) {
+            adjustment -= 1;
+        }
+        if (features.contains(HtmlFeature.COOKIES)) {
+            adjustment -= 1;
+        }
+        if (features.contains(HtmlFeature.KEBAB_CASE_URL)) {
+            adjustment -= 2;
+        }
+
+        if (features.contains(HtmlFeature.COOKIELAW)) {
+            adjustment -= 1;
+        }
+        if (features.contains(HtmlFeature.PARDOT)) {
+            adjustment -= 1;
+        }
+        if (features.contains(HtmlFeature.QUANTCAST)) {
+            adjustment -= 1;
+        }
+
+        if (features.contains(HtmlFeature.WEBMENTION)) {
+            adjustment += 1;
+        }
+        if (features.contains(HtmlFeature.INDIEAUTH)) {
+            adjustment += 1;
+        }
+
+        if (quality + adjustment > 0) {
+            return 0;
+        }
+
+        return quality + adjustment;
+    }
+
+    public double getQuality(Set<DomSampleClassification> classifications) {
+        double quality = 0;
+        if (classifications.contains(ADS)) {
+            quality -= 6;
+        }
+        if (classifications.contains(TRACKING)) {
+            quality -= 4;
+        }
+
+        if (classifications.contains(CONSENT)) {
+            quality -= 4;
+        }
+        else if (classifications.contains(POPOVER)) {
+            quality -= 4;
+        }
+
+        return quality;
+    }
+
+    public static class ScriptVisitor implements NodeVisitor {
+        boolean hasBadScript = false;
+        int scriptLength = 0;
+        double penalty = 0.;
+
+        public int score() {
+            return (int)(penalty + (hasBadScript?1:0) + (scriptLength)/1000.);
+        }
+
+        @Override
+        public void head(@NotNull Node node, int depth) {
+            if (node instanceof Element el) {
+                visitTag(el);
+            }
+        }
+
+        public void visitTag(Element el) {
+            String srcAttr = el.attr("src");
+
+            if (srcAttr.contains("wp-content") || srcAttr.contains("wp-includes") || srcAttr.contains("jquery")) {
+                penalty += 0.49;
+            } else if (!StringUtils.isBlank(srcAttr)) {
+                penalty += 1;
+            } else {
+                var wt = el.wholeText();
+                scriptLength += wt.length();
+                penalty += 0.25;
+
+                if (!hasBadScript) {
+                    hasBadScript = wt.contains(".createElement(");
+                }
+            }
+        }
+    }
+}

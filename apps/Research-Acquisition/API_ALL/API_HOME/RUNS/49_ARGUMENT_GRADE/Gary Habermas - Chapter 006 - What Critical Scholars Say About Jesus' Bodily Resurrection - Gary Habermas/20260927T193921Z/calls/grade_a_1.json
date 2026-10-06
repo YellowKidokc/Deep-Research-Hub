@@ -1,0 +1,469 @@
+{
+  "name": "grade_a_1",
+  "parsed": {
+    "arguments": [
+      {
+        "id": "G1",
+        "name": "John Cook's thesis: Paul taught bodily resurrection",
+        "conclusion": "Paul's view of the resurrection is that he saw the same bodily appearances of Jesus described in the Gospels (Matthew, Luke, John), not a ghostly or non-bodily view.",
+        "speaker": "Gary Habermas (reporting John Cook)",
+        "premises": [
+          "John Cook states his thesis up front in his resurrection volume, published in the respected German Wissenschaftliche series.",
+          "Cook explicitly denies that Paul teaches a 'Casper' (ghostly) view of resurrection appearances.",
+          "Cook holds that Paul teaches the same bodily appearances found in Matthew, Luke, and John."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "And he says in the beginning my thesis is that Paul's view of the resurrection is that he saw the same body as described in the Gospels, not Mark of course, but described in the Gospels on the resurrection appearances of Jesus."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "He teaches the same bodily appearances Matthew, Luke, and John do."
+          },
+          "st3": {
+            "v": 1,
+            "quote": "they're both included in the uh German uh Wissenschaftliche series, which is now hundreds of volumes."
+          },
+          "st4": {
+            "v": 2,
+            "quote": "He teaches the same bodily appearances Matthew, Luke, and John do."
+          },
+          "st5": {
+            "v": 1,
+            "quote": "we said uh it would be nice, but we said this is inadequate for a whatever it was 600-700 page book on this topic."
+          },
+          "st6": {
+            "v": 1,
+            "quote": "He teaches the same bodily appearances Matthew, Luke, and John do."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 1,
+            "quote": "So, does Michael Licona. So, does um uh Gundry in his book on Soma."
+          }
+        },
+        "prior_art": "John Cook, Resurrection in the Wissenschaftliche series (as reported by Habermas)",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "And he says in the beginning my thesis is that Paul's view of the resurrection is that he saw the same body as described in the Gospels",
+            "why": "Habermas is reporting Cook's own thesis rather than restating a prior argument of his own; it is a variant of the standard bodily-resurrection reading."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "He's doing mostly Greco- Greco-Roman historiography.",
+            "why": "Points to Cook's Greco-Roman historiographical method as support, not standard in popular defenses."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain connection made."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization or model."
+          }
+        },
+        "weakest_link": "The inference from Cook's stated thesis to its truth: the source only reports what Cook says, not evidence that Paul actually taught this.",
+        "develop_next": "Cite the specific Pauline texts (e.g. 1 Cor 15) Cook exegetes to show the thesis is textually grounded.",
+        "case_map": [
+          "K16"
+        ],
+        "domain": "history"
+      },
+      {
+        "id": "G2",
+        "name": "Bodily resurrection view is now widely accepted",
+        "conclusion": "The view that Paul believed in bodily resurrection is now very widely taught, despite being extremely unpopular when Cook's books first appeared.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "Cook's bodily-resurrection thesis was extremely unpopular when his volumes first came out.",
+          "The fact that Paul believes in bodily resurrection is now very widely taught by scholars today."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "But now it's kind of taken the day, the fact that Paul believes in bodily resurrection is very widely taught today."
+          },
+          "st2": {
+            "v": 1,
+            "quote": "That's extremely impo- unpopular when this these books first came out or even after."
+          },
+          "st3": {
+            "v": 0,
+            "quote": ""
+          },
+          "st4": {
+            "v": 1,
+            "quote": "Very widely taught by the guys."
+          },
+          "st5": {
+            "v": 0,
+            "quote": ""
+          },
+          "st6": {
+            "v": 1,
+            "quote": "Very widely taught by the guys."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 1,
+            "quote": "Now Dale Allison, just give you an example, Dale Allison said Paul believed in bodily resurrection appearance like the Gospels do."
+          }
+        },
+        "prior_art": "none known",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "But now it's kind of taken the day, the fact that Paul believes in bodily resurrection is very widely taught today.",
+            "why": "A sociological claim about scholarly consensus rather than a new argument."
+          },
+          "or2": {
+            "v": 0,
+            "quote": "",
+            "why": "No new evidence beyond assertion of consensus."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain connection."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization."
+          }
+        },
+        "weakest_link": "The consensus claim is asserted without names, numbers or citations.",
+        "develop_next": "Provide a survey or list of named scholars and works demonstrating the consensus.",
+        "case_map": [
+          "K16"
+        ],
+        "domain": "history"
+      },
+      {
+        "id": "G3",
+        "name": "Dale Allison concedes Paul meant bodily resurrection",
+        "conclusion": "Even a scholar not personally committed to the bodily view, Dale Allison, affirms that Paul meant bodily resurrection.",
+        "speaker": "Gary Habermas (reporting Dale Allison)",
+        "premises": [
+          "Dale Allison says Paul believed in bodily resurrection appearances like the Gospels do.",
+          "Allison states he is more open to non-bodily things and is not on the bodily side himself.",
+          "Allison insists one must distinguish what Paul said from what Bultmann said about Paul."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "Dale Allison said Paul believed in bodily resurrection appearance like the Gospels do."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "Dale says, \"I'm more open to non-bodily things but I am telling you even though I'm not on that interpret- I'm not in the bodily side in my view, I think Paul meant bodily resurrection."
+          },
+          "st3": {
+            "v": 1,
+            "quote": "But, in volume three, he starts the book This might This might be the winner."
+          },
+          "st4": {
+            "v": 2,
+            "quote": "You have got to make this distinguish between what Paul said and somebody else going \"Well, Bultmann says Paul believed bodily resurrection.\""
+          },
+          "st5": {
+            "v": 1,
+            "quote": "Dale says, \"I'm more open to non-bodily things but I am telling you even though I'm not on that interpret- I'm not in the bodily side in my view, I think Paul meant bodily resurrection."
+          },
+          "st6": {
+            "v": 2,
+            "quote": "I think Paul meant bodily resurrection."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 1,
+            "quote": "So, does Michael Licona. So, does um uh Gundry in his book on Soma."
+          }
+        },
+        "prior_art": "Dale Allison, Resurrecting Jesus, 2005",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "Dale Allison said Paul believed in bodily resurrection appearance like the Gospels do.",
+            "why": "A citation of Allison's concession, a variant of the standard appeal to hostile-witness scholarship."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "Dale says, \"I'm more open to non-bodily things but I am telling you even though I'm not on that interpret- I'm not in the bodily side in my view, I think Paul meant bodily resurrection.",
+            "why": "Uses Allison's own non-commitment as evidence, a specific hostile-witness datum."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain connection."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization."
+          }
+        },
+        "weakest_link": "Relies on a paraphrased quotation without page citation from Allison's volume.",
+        "develop_next": "Quote Allison verbatim with a page reference so the concession can be verified.",
+        "case_map": [
+          "K16"
+        ],
+        "domain": "history"
+      },
+      {
+        "id": "G4",
+        "name": "Bultmann affirmed Paul taught bodily resurrection",
+        "conclusion": "Bultmann himself acknowledged that Paul believed in bodily resurrection, even though Bultmann did not accept it.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "Bultmann can say Paul believed in bodily resurrection while personally rejecting it.",
+          "This is the distinction Allison was drawing between Paul's view and Bultmann's own view."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "But But Bultmann can say Paul believed it, but I don't."
+          },
+          "st2": {
+            "v": 1,
+            "quote": "You have got to make this distinguish between what Paul said and somebody else going \"Well, Bultmann says Paul believed bodily resurrection.\""
+          },
+          "st3": {
+            "v": 0,
+            "quote": ""
+          },
+          "st4": {
+            "v": 1,
+            "quote": "And that's what Dale was saying."
+          },
+          "st5": {
+            "v": 0,
+            "quote": ""
+          },
+          "st6": {
+            "v": 1,
+            "quote": "But But Bultmann can say Paul believed it, but I don't."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 0,
+            "quote": ""
+          }
+        },
+        "prior_art": "Rudolf Bultmann, Theology of the New Testament, 1951",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "But But Bultmann can say Paul believed it, but I don't.",
+            "why": "A variant of the standard appeal to Bultmann's exegesis of Paul."
+          },
+          "or2": {
+            "v": 0,
+            "quote": "",
+            "why": "No new evidence beyond assertion."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain connection."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization."
+          }
+        },
+        "weakest_link": "No textual citation is given for what Bultmann actually wrote about Paul.",
+        "develop_next": "Cite the passage in Bultmann where he affirms Paul's bodily resurrection belief.",
+        "case_map": [
+          "K16"
+        ],
+        "domain": "history"
+      },
+      {
+        "id": "G5",
+        "name": "Cook's narrow view is credible, not fundamentalist",
+        "conclusion": "John Cook's adoption of a narrow bodily-resurrection view is a stunning and credible scholarly move, not the product of fundamentalist bias.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "Cook states up front that he is taking a narrow view.",
+          "Cook would not be blamed as one of the 'fighting fundy' type guys.",
+          "German scholarship still carries a certain credibility of scholarship."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "But, you wouldn't blame him with being one of these fighting fundy type guys at all."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "When John Cook starts out the volume and says, uh I want to let you know I'm taking this kind of narrow view."
+          },
+          "st3": {
+            "v": 1,
+            "quote": "Now, see, the Germans have already published these things, so you know there's a certain credibility of scholarship."
+          },
+          "st4": {
+            "v": 1,
+            "quote": "German scholarship still means German scholarship."
+          },
+          "st5": {
+            "v": 0,
+            "quote": ""
+          },
+          "st6": {
+            "v": 1,
+            "quote": "And uh that was a stunning one."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 1,
+            "quote": "So, does Michael Licona. So, does um uh Gundry in his book on Soma."
+          }
+        },
+        "prior_art": "none known",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "But, you wouldn't blame him with being one of these fighting fundy type guys at all.",
+            "why": "An ad hominem-avoidance move rather than a substantive new argument."
+          },
+          "or2": {
+            "v": 0,
+            "quote": "",
+            "why": "No new evidence beyond reputation."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain connection."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization."
+          }
+        },
+        "weakest_link": "Credibility by reputation (German series, not a fundy) does not bear on whether the view is true.",
+        "develop_next": "Argue from Cook's method and evidence rather than from his scholarly reputation.",
+        "case_map": [
+          "K16"
+        ],
+        "domain": "history"
+      },
+      {
+        "id": "G6",
+        "name": "Wright compares resurrection knowability to Caesar's Rubicon",
+        "conclusion": "The resurrection is as historically knowable as Julius Caesar crossing the Rubicon.",
+        "speaker": "Gary Habermas (reporting Tom Wright)",
+        "premises": [
+          "Tom Wright made a comment comparing the knowability of the resurrection to Caesar's crossing of the Rubicon.",
+          "Habermas and his interlocutor recognize the quote and attribute it to Wright."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "that the resurrection is as knowable as the Rubicon?"
+          },
+          "st2": {
+            "v": 1,
+            "quote": "There's it's as solid to me as the Jesus raised from the dead as a Julius Caesar crossed the uh Is that Pardon me? >> Rubicon."
+          },
+          "st3": {
+            "v": 0,
+            "quote": ""
+          },
+          "st4": {
+            "v": 1,
+            "quote": "that the resurrection is as knowable as the Rubicon?"
+          },
+          "st5": {
+            "v": 0,
+            "quote": ""
+          },
+          "st6": {
+            "v": 1,
+            "quote": "that the resurrection is as knowable as the Rubicon?"
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 0,
+            "quote": ""
+          }
+        },
+        "prior_art": "N.T. Wright, The Resurrection of the Son of God, 2003",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "that the resurrection is as knowable as the Rubicon?",
+            "why": "A variant of Wright's standard historical-knowability analogy."
+          },
+          "or2": {
+            "v": 0,
+            "quote": "",
+            "why": "No new evidence beyond the analogy itself."
+          },
+          "or3": {
+            "v": 1,
+            "quote": "that the resurrection is as knowable as the Rubicon?",
+            "why": "Connects New Testament resurrection history to Roman political history as a comparative epistemic benchmark."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization."
+          }
+        },
+        "weakest_link": "The analogy asserts parity of knowability without showing the evidence for the Rubicon and the resurrection is comparable.",
+        "develop_next": "Spell out the criteria of historical knowability and show both events meet them equally.",
+        "case_map": [
+          "K16"
+        ],
+        "domain": "history"
+      }
+    ]
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "grade_a_1",
+      "attempt": 1,
+      "text": "{\"arguments\": [\n {\"id\": \"G1\", \"name\": \"John Cook's thesis: Paul taught bodily resurrection\", \"conclusion\": \"Paul's view of the resurrection is that he saw the same bodily appearances of Jesus described in the Gospels (Matthew, Luke, John), not a ghostly or non-bodily view.\", \"speaker\": \"Gary Habermas (reporting John Cook)\", \"premises\": [\"John Cook states his thesis up front in his resurrection volume, published in the respected German Wissenschaftliche series.\", \"Cook explicitly denies that Paul teaches a 'Casper' (ghostly) view of resurrection appearances.\", \"Cook holds that Paul teaches the same bodily appearances found in Matthew, Luke, and John.\"], \"strength\": {\"st1\": {\"v\": 2, \"quote\": \"And he says in the beginning my thesis is that Paul's view of the resurrection is that he saw the same body as described in the Gospels, not Mark of course, but described in the Gospels on the resurrection appearances of Jesus.\"}, \"st2\": {\"v\": 2, \"quote\": \"He teaches the same bodily appearances Matthew, Luke, and John do.\"}, \"st3\": {\"v\": 1, \"quote\": \"they're both included in the uh German uh Wissenschaftliche series, which is now hundreds of volumes.\"}, \"st4\": {\"v\": 2, \"quote\": \"He teaches the same bodily appearances Matthew, Luke, and John do.\"}, \"st5\": {\"v\": 1, \"quote\": \"we said uh it would be nice, but we said this is inadequate for a whatever it was 600-700 page book on this topic.\"}, \"st6\": {\"v\": 1, \"quote\": \"He teaches the same bodily appearances Matthew, Luke, and John do.\"}, \"st7\": {\"v\": 0, \"quote\": \"\"}, \"st8\": {\"v\": 1, \"quote\": \"So, does Michael Licona. So, does um uh Gundry in his book on Soma.\"}}, \"prior_art\": \"John Cook, Resurrection in the Wissenschaftliche series (as reported by Habermas)\", \"originality\": {\"or1\": {\"v\": 1, \"quote\": \"And he says in the beginning my thesis is that Paul's view of the resurrection is that he saw the same body as described in the Gospels\", \"why\": \"Habermas is reporting Cook's own thesis rather than restating a prior argument of his own; it is a variant of the standard bodily-resurrection reading.\"}, \"or2\": {\"v\": 1, \"quote\": \"He's doing mostly Greco- Greco-Roman historiography.\", \"why\": \"Points to Cook's Greco-Roman historiographical method as support, not standard in popular defenses.\"}, \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain connection made.\"}, \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization or model.\"}}, \"weakest_link\": \"The inference from Cook's stated thesis to its truth: the source only reports what Cook says, not evidence that Paul actually taught this.\", \"develop_next\": \"Cite the specific Pauline texts (e.g. 1 Cor 15) Cook exegetes to show the thesis is textually grounded.\", \"case_map\": [\"K16\"], \"domain\": \"history\"},\n {\"id\": \"G2\", \"name\": \"Bodily resurrection view is now widely accepted\", \"conclusion\": \"The view that Paul believed in bodily resurrection is now very widely taught, despite being extremely unpopular when Cook's books first appeared.\", \"speaker\": \"Gary Habermas\", \"premises\": [\"Cook's bodily-resurrection thesis was extremely unpopular when his volumes first came out.\", \"The fact that Paul believes in bodily resurrection is now very widely taught by scholars today.\"], \"strength\": {\"st1\": {\"v\": 2, \"quote\": \"But now it's kind of taken the day, the fact that Paul believes in bodily resurrection is very widely taught today.\"}, \"st2\": {\"v\": 1, \"quote\": \"That's extremely impo- unpopular when this these books first came out or even after.\"}, \"st3\": {\"v\": 0, \"quote\": \"\"}, \"st4\": {\"v\": 1, \"quote\": \"Very widely taught by the guys.\"}, \"st5\": {\"v\": 0, \"quote\": \"\"}, \"st6\": {\"v\": 1, \"quote\": \"Very widely taught by the guys.\"}, \"st7\": {\"v\": 0, \"quote\": \"\"}, \"st8\": {\"v\": 1, \"quote\": \"Now Dale Allison, just give you an example, Dale Allison said Paul believed in bodily resurrection appearance like the Gospels do.\"}}, \"prior_art\": \"none known\", \"originality\": {\"or1\": {\"v\": 1, \"quote\": \"But now it's kind of taken the day, the fact that Paul believes in bodily resurrection is very widely taught today.\", \"why\": \"A sociological claim about scholarly consensus rather than a new argument.\"}, \"or2\": {\"v\": 0, \"quote\": \"\", \"why\": \"No new evidence beyond assertion of consensus.\"}, \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain connection.\"}, \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization.\"}}, \"weakest_link\": \"The consensus claim is asserted without names, numbers or citations.\", \"develop_next\": \"Provide a survey or list of named scholars and works demonstrating the consensus.\", \"case_map\": [\"K16\"], \"domain\": \"history\"},\n {\"id\": \"G3\", \"name\": \"Dale Allison concedes Paul meant bodily resurrection\", \"conclusion\": \"Even a scholar not personally committed to the bodily view, Dale Allison, affirms that Paul meant bodily resurrection.\", \"speaker\": \"Gary Habermas (reporting Dale Allison)\", \"premises\": [\"Dale Allison says Paul believed in bodily resurrection appearances like the Gospels do.\", \"Allison states he is more open to non-bodily things and is not on the bodily side himself.\", \"Allison insists one must distinguish what Paul said from what Bultmann said about Paul.\"], \"strength\": {\"st1\": {\"v\": 2, \"quote\": \"Dale Allison said Paul believed in bodily resurrection appearance like the Gospels do.\"}, \"st2\": {\"v\": 2, \"quote\": \"Dale says, \\\"I'm more open to non-bodily things but I am telling you even though I'm not on that interpret- I'm not in the bodily side in my view, I think Paul meant bodily resurrection.\"}, \"st3\": {\"v\": 1, \"quote\": \"But, in volume three, he starts the book This might This might be the winner.\"}, \"st4\": {\"v\": 2, \"quote\": \"You have got to make this distinguish between what Paul said and somebody else going \\\"Well, Bultmann says Paul believed bodily resurrection.\\\"\"}, \"st5\": {\"v\": 1, \"quote\": \"Dale says, \\\"I'm more open to non-bodily things but I am telling you even though I'm not on that interpret- I'm not in the bodily side in my view, I think Paul meant bodily resurrection.\"}, \"st6\": {\"v\": 2, \"quote\": \"I think Paul meant bodily resurrection.\"}, \"st7\": {\"v\": 0, \"quote\": \"\"}, \"st8\": {\"v\": 1, \"quote\": \"So, does Michael Licona. So, does um uh Gundry in his book on Soma.\"}}, \"prior_art\": \"Dale Allison, Resurrecting Jesus, 2005\", \"originality\": {\"or1\": {\"v\": 1, \"quote\": \"Dale Allison said Paul believed in bodily resurrection appearance like the Gospels do.\", \"why\": \"A citation of Allison's concession, a variant of the standard appeal to hostile-witness scholarship.\"}, \"or2\": {\"v\": 1, \"quote\": \"Dale says, \\\"I'm more open to non-bodily things but I am telling you even though I'm not on that interpret- I'm not in the bodily side in my view, I think Paul meant bodily resurrection.\", \"why\": \"Uses Allison's own non-commitment as evidence, a specific hostile-witness datum.\"}, \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain connection.\"}, \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization.\"}}, \"weakest_link\": \"Relies on a paraphrased quotation without page citation from Allison's volume.\", \"develop_next\": \"Quote Allison verbatim with a page reference so the concession can be verified.\", \"case_map\": [\"K16\"], \"domain\": \"history\"},\n {\"id\": \"G4\", \"name\": \"Bultmann affirmed Paul taught bodily resurrection\", \"conclusion\": \"Bultmann himself acknowledged that Paul believed in bodily resurrection, even though Bultmann did not accept it.\", \"speaker\": \"Gary Habermas\", \"premises\": [\"Bultmann can say Paul believed in bodily resurrection while personally rejecting it.\", \"This is the distinction Allison was drawing between Paul's view and Bultmann's own view.\"], \"strength\": {\"st1\": {\"v\": 2, \"quote\": \"But But Bultmann can say Paul believed it, but I don't.\"}, \"st2\": {\"v\": 1, \"quote\": \"You have got to make this distinguish between what Paul said and somebody else going \\\"Well, Bultmann says Paul believed bodily resurrection.\\\"\"}, \"st3\": {\"v\": 0, \"quote\": \"\"}, \"st4\": {\"v\": 1, \"quote\": \"And that's what Dale was saying.\"}, \"st5\": {\"v\": 0, \"quote\": \"\"}, \"st6\": {\"v\": 1, \"quote\": \"But But Bultmann can say Paul believed it, but I don't.\"}, \"st7\": {\"v\": 0, \"quote\": \"\"}, \"st8\": {\"v\": 0, \"quote\": \"\"}}, \"prior_art\": \"Rudolf Bultmann, Theology of the New Testament, 1951\", \"originality\": {\"or1\": {\"v\": 1, \"quote\": \"But But Bultmann can say Paul believed it, but I don't.\", \"why\": \"A variant of the standard appeal to Bultmann's exegesis of Paul.\"}, \"or2\": {\"v\": 0, \"quote\": \"\", \"why\": \"No new evidence beyond assertion.\"}, \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain connection.\"}, \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization.\"}}, \"weakest_link\": \"No textual citation is given for what Bultmann actually wrote about Paul.\", \"develop_next\": \"Cite the passage in Bultmann where he affirms Paul's bodily resurrection belief.\", \"case_map\": [\"K16\"], \"domain\": \"history\"},\n {\"id\": \"G5\", \"name\": \"Cook's narrow view is credible, not fundamentalist\", \"conclusion\": \"John Cook's adoption of a narrow bodily-resurrection view is a stunning and credible scholarly move, not the product of fundamentalist bias.\", \"speaker\": \"Gary Habermas\", \"premises\": [\"Cook states up front that he is taking a narrow view.\", \"Cook would not be blamed as one of the 'fighting fundy' type guys.\", \"German scholarship still carries a certain credibility of scholarship.\"], \"strength\": {\"st1\": {\"v\": 2, \"quote\": \"But, you wouldn't blame him with being one of these fighting fundy type guys at all.\"}, \"st2\": {\"v\": 2, \"quote\": \"When John Cook starts out the volume and says, uh I want to let you know I'm taking this kind of narrow view.\"}, \"st3\": {\"v\": 1, \"quote\": \"Now, see, the Germans have already published these things, so you know there's a certain credibility of scholarship.\"}, \"st4\": {\"v\": 1, \"quote\": \"German scholarship still means German scholarship.\"}, \"st5\": {\"v\": 0, \"quote\": \"\"}, \"st6\": {\"v\": 1, \"quote\": \"And uh that was a stunning one.\"}, \"st7\": {\"v\": 0, \"quote\": \"\"}, \"st8\": {\"v\": 1, \"quote\": \"So, does Michael Licona. So, does um uh Gundry in his book on Soma.\"}}, \"prior_art\": \"none known\", \"originality\": {\"or1\": {\"v\": 1, \"quote\": \"But, you wouldn't blame him with being one of these fighting fundy type guys at all.\", \"why\": \"An ad hominem-avoidance move rather than a substantive new argument.\"}, \"or2\": {\"v\": 0, \"quote\": \"\", \"why\": \"No new evidence beyond reputation.\"}, \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain connection.\"}, \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization.\"}}, \"weakest_link\": \"Credibility by reputation (German series, not a fundy) does not bear on whether the view is true.\", \"develop_next\": \"Argue from Cook's method and evidence rather than from his scholarly reputation.\", \"case_map\": [\"K16\"], \"domain\": \"history\"},\n {\"id\": \"G6\", \"name\": \"Wright compares resurrection knowability to Caesar's Rubicon\", \"conclusion\": \"The resurrection is as historically knowable as Julius Caesar crossing the Rubicon.\", \"speaker\": \"Gary Habermas (reporting Tom Wright)\", \"premises\": [\"Tom Wright made a comment comparing the knowability of the resurrection to Caesar's crossing of the Rubicon.\", \"Habermas and his interlocutor recognize the quote and attribute it to Wright.\"], \"strength\": {\"st1\": {\"v\": 2, \"quote\": \"that the resurrection is as knowable as the Rubicon?\"}, \"st2\": {\"v\": 1, \"quote\": \"There's it's as solid to me as the Jesus raised from the dead as a Julius Caesar crossed the uh Is that Pardon me? >> Rubicon.\"}, \"st3\": {\"v\": 0, \"quote\": \"\"}, \"st4\": {\"v\": 1, \"quote\": \"that the resurrection is as knowable as the Rubicon?\"}, \"st5\": {\"v\": 0, \"quote\": \"\"}, \"st6\": {\"v\": 1, \"quote\": \"that the resurrection is as knowable as the Rubicon?\"}, \"st7\": {\"v\": 0, \"quote\": \"\"}, \"st8\": {\"v\": 0, \"quote\": \"\"}}, \"prior_art\": \"N.T. Wright, The Resurrection of the Son of God, 2003\", \"originality\": {\"or1\": {\"v\": 1, \"quote\": \"that the resurrection is as knowable as the Rubicon?\", \"why\": \"A variant of Wright's standard historical-knowability analogy.\"}, \"or2\": {\"v\": 0, \"quote\": \"\", \"why\": \"No new evidence beyond the analogy itself.\"}, \"or3\": {\"v\": 1, \"quote\": \"that the resurrection is as knowable as the Rubicon?\", \"why\": \"Connects New Testament resurrection history to Roman political history as a comparative epistemic benchmark.\"}, \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization.\"}}, \"weakest_link\": \"The analogy asserts parity of knowability without showing the evidence for the Rubicon and the resurrection is comparable.\", \"develop_next\": \"Spell out the criteria of historical knowability and show both events meet them equally.\", \"case_map\": [\"K16\"], \"domain\": \"history\"}\n]}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 4336,
+      "completion_tokens": 3487,
+      "attempts": 1,
+      "elapsed_seconds": 12.312000000005355,
+      "started_at": "2026-09-27T19:39:26.261935+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T19:39:38.576053+00:00",
+      "tokens": 7823
+    }
+  ],
+  "prompt_sha256": "9ca642eae3936174b7ba49fb1a59a24c0c4ba9a79e0231238ef393a4a96876df",
+  "tokens": 7823
+}

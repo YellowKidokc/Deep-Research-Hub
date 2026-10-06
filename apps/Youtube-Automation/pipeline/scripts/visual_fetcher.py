@@ -1,0 +1,1035 @@
+"""
+STEP 6 — Visual Fetch (Pexels / Pixabay)
+
+For each scene:
+  1. Groq converts scene keywords + emotion + shot_type → optimised search query
+  2. Pexels is tried first (per_page=15, size=large, original URL);
+     Pixabay is the fallback (per_page=15, min_width=1920, imageURL preferred)
+  3. Up to 15 candidate photos are iterated per source; the first one whose
+     MD5 hash is not in the persistent image registry is selected.
+  4. Image saved to visuals_dir as scene_{id}_visual.png
+
+Image deduplication — two levels:
+  - Query-level  : used_prompts.json tracks query hashes (prevents same search
+                   across videos, forcing modifier suffixes)
+  - Content-level: used_images.json tracks MD5 hashes of downloaded images
+                   (prevents the same photo appearing twice, even if fetched
+                   via a different query)
+"""
+
+import hashlib
+import json
+import logging
+import os
+import subprocess
+import time
+from pathlib import Path
+from typing import Optional
+
+import requests
+
+log = logging.getLogger(__name__)
+
+# ── Constants ─────────────────────────────────────────────────────────────────
+
+GROQ_MODEL = "llama-3.1-8b-instant"
+GROQ_API_BASE = "https://api.groq.com/openai/v1/chat/completions"
+
+MAX_RETRIES   = 3
+RETRY_BASE_S  = 5
+
+_HF_MODEL_URL = "https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-schnell"
+_HF_KEYS = [
+    os.getenv("HUGGINGFACE_API_KEY_1", "").strip(),
+    os.getenv("HUGGINGFACE_API_KEY_2", "").strip(),
+    os.getenv("HUGGINGFACE_API_KEY_3", "").strip(),
+    os.getenv("HUGGINGFACE_API_KEY_4", "").strip(),
+    os.getenv("HUGGINGFACE_API_KEY_5", "").strip(),
+]
+
+_LOGS_DIR = Path(__file__).parent.parent / "logs"
+
+# Query registry — prevents reusing the same search string across videos
+PROMPT_REGISTRY  = _LOGS_DIR / "used_prompts.json"
+REGISTRY_LIMIT   = 300
+
+# Image registry — prevents the same photo content appearing in any two videos
+IMAGE_REGISTRY       = _LOGS_DIR / "used_images.json"
+IMAGE_REGISTRY_LIMIT = 2000      # ~180 days at 3 videos/day × 10 scenes
+
+
+def _auto_hf_steps() -> int:
+    try:
+        p = _LOGS_DIR / "auto_fixes.json"
+        if p.exists():
+            return 8 + int(json.loads(p.read_text()).get("hf_steps_adjust", 0))
+    except Exception:
+        pass
+    return 8
+
+
+# Modifiers cycled when a duplicate query is detected
+_UNIQUE_MODIFIERS = [
+    "different angle", "alternative perspective", "unique composition",
+    "contrasting viewpoint", "shifted framing", "varied lighting",
+    "opposite vantage point", "distinct atmosphere",
+]
+
+# Shot types that produce naturally tall subjects — prefer portrait orientation
+_PORTRAIT_SHOTS = {"EXTREME_CLOSE", "CLOSE"}
+
+# Category-specific fallback queries for the thumbnail background image
+# These are hard-coded "last resort" dramatic queries used when Groq fails.
+_INTENT_THUMB_FALLBACK: dict[str, str] = {
+    "SPACE":       "galaxy nebula explosion cosmic dramatic dark",
+    "SCIENCE":     "laboratory experiment dramatic neon closeup",
+    "HISTORY":     "ancient ruins dramatic storm lightning",
+    "ANIMALS":     "wild predator dramatic intense closeup",
+    "NATURE":      "storm lightning forest dark dramatic",
+    "GEOGRAPHY":   "dramatic cliffside storm waves crash",
+    "OCEAN":       "deep ocean bioluminescent creature dark",
+    "CULTURE":     "ancient temple ruins dramatic sunset fire",
+    "TECHNOLOGY":  "circuit board neon glow dramatic dark",
+    "PSYCHOLOGY":  "human brain neuron neon glow dramatic",
+    "MYTHOLOGY":   "ancient statue lightning storm ruins",
+    "MEDICINE":    "microscope cell dramatic neon closeup",
+    "MATHEMATICS": "fractal geometry colorful dramatic glow",
+    "ECONOMICS":   "city skyline night golden dramatic storm",
+    "PHYSICS":     "plasma energy explosion dramatic burst",
+}
+
+
+# ── Main entry ────────────────────────────────────────────────────────────────
+
+def _warmup_huggingface() -> None:
+    keys = [k for k in _HF_KEYS if k]
+    if not keys:
+        return
+    try:
+        r = requests.post(
+            _HF_MODEL_URL,
+            headers={"Authorization": f"Bearer {keys[0]}"},
+            json={"inputs": "warm up", "parameters": {"num_inference_steps": 1,
+                                                    "width": 512, "height": 512}},
+            timeout=45,
+        )
+        if r.status_code == 503:
+            log.info("HuggingFace warming up — waiting 30s")
+            time.sleep(30)
+        else:
+            log.info("HuggingFace model ready")
+    except Exception as exc:
+        log.debug("HuggingFace warmup: %s", exc)
+
+
+def fetch_visuals(timeline: dict, visuals_dir: Path) -> dict:
+    """
+    Input:  timeline dict with scenes[] containing visual_keywords, emotion,
+            shot_type, scene_id, duration_ms; plus width, height, intent fields
+    Output: same timeline dict with each scene updated:
+            visual_file (str filename), clip_type ("image"/"black"), clip_score (float)
+    """
+    visuals_dir.mkdir(parents=True, exist_ok=True)
+
+    # Remove PNG files from previous runs (> 2 h old) so images are never reused
+    _cleanup_stale_visuals(visuals_dir, max_age_hours=2)
+
+    W, H      = timeline["width"], timeline["height"]
+    intent    = timeline.get("intent", "SCIENCE")
+    is_shorts = timeline.get("profile") == "shorts"
+
+    # Load both registries
+    used_registry      = _load_prompt_registry()    # list[str] — query hashes
+    used_img_registry  = _load_image_registry()     # set[str]  — image MD5 hashes
+    session_img_hashes: set[str] = set()            # added this run (merged at end)
+
+    def _known_images() -> set[str]:
+        return used_img_registry | session_img_hashes
+
+    for sc in timeline["scenes"]:
+        # Close scene is a branded card — skip visual fetch
+        if sc.get("clip_type") == "close" or sc.get("visual_keyword") == "CLOSE":
+            sc.update(visual_file="CLOSE", clip_type="close", clip_score=1.0)
+            sc["extra_visual_files"] = []
+            continue
+
+        scene_id  = sc["scene_id"]
+        dur_s     = sc["duration_ms"] / 1000
+        kw_list   = sc.get("visual_keywords") or [sc["visual_keyword"]]
+        emotion   = sc.get("emotion", "neutral")
+        shot_type = sc.get("shot_type", "MEDIUM")
+
+        # ── Scene 1: real video clip for maximum hook impact ─────────────────
+        # Real footage stops the swipe far better than any AI-generated image.
+        # Groq picks a shocking/dramatic search term from the script text,
+        # Pexels returns an actual HD video clip, assembler plays it directly.
+        # Shorts = portrait (9:16), standard/long = landscape (16:9).
+        if scene_id == 1:
+            script_text  = sc.get("script_text", " ".join(kw_list))
+            shock_query  = _groq_to_shock_video_query(script_text)
+            video_out    = visuals_dir / f"scene_{scene_id}_visual.mp4"
+            orient       = "portrait" if is_shorts else "landscape"
+            log.info("Scene 1 | shock video query: %s (orient=%s)", shock_query, orient)
+
+            video_ok = _pexels_video_fetch(shock_query, video_out, _known_images(), orientation=orient)
+            if video_ok:
+                h = _img_hash(video_out)
+                if h:
+                    session_img_hashes.add(h)
+                sc["visual_file"]  = video_out.name
+                sc["clip_type"]    = "video"
+                sc["clip_score"]   = 1.0
+                log.info("Scene 1: real Pexels video → %s", video_out.name)
+
+                # Fetch a second clip for micro-cuts
+                extra_vids: list[str] = []
+                alt_vq   = shock_query + " close up detail"
+                alt_vout = visuals_dir / f"scene_{scene_id}_visual_b.mp4"
+                if _pexels_video_fetch(alt_vq, alt_vout, _known_images(), orientation=orient):
+                    extra_vids.append(alt_vout.name)
+                    log.info("Scene 1: extra video clip → %s", alt_vout.name)
+                sc["extra_visual_files"] = extra_vids
+                continue   # skip image fetch for scene 1
+            else:
+                log.warning("Scene 1: Pexels video failed — falling back to image")
+
+        out_path  = visuals_dir / f"scene_{scene_id}_visual.png"
+
+        # Step 1 — Build search query via Groq (falls back to keyword join)
+        # 1s delay between scenes — key 2 rotates in on 429 so we stay
+        # under the 30 RPM limit without long waits.
+        if scene_id > 1:
+            time.sleep(1.0)
+        raw_query = _groq_to_search_query(
+            keywords  = kw_list,
+            emotion   = emotion,
+            shot_type = shot_type,
+            intent    = intent,
+        )
+
+        # Ensure the query is unique within this video and across recent videos
+        query = _ensure_unique_query(raw_query, session_img_hashes, used_registry, scene_id)
+        log.info("Scene %d | query: %s", scene_id, query)
+
+        qh = _prompt_hash(query)
+        used_registry.append(qh)
+
+        # ── All formats scenes 2+: try video clip first — video holds attention
+        # much better than static images (60-70% swipe-away on images vs ~30% on clips).
+        # Shorts = portrait, standard/long = landscape. Falls back to image if unavailable.
+        orient    = "portrait" if is_shorts else "landscape"
+        video_out = visuals_dir / f"scene_{scene_id}_visual.mp4"
+        video_ok  = _pexels_video_fetch(query, video_out, _known_images(), orientation=orient)
+        if video_ok:
+            vh = _img_hash(video_out)
+            if vh:
+                session_img_hashes.add(vh)
+
+            # Fetch a second clip for micro-cuts
+            extra_vids2: list[str] = []
+            alt_vq2    = query + " detail view"
+            alt_vout2  = visuals_dir / f"scene_{scene_id}_visual_b.mp4"
+            if _pexels_video_fetch(alt_vq2, alt_vout2, _known_images(), orientation=orient):
+                extra_vids2.append(alt_vout2.name)
+                log.info("Scene %d: extra video clip → %s", scene_id, alt_vout2.name)
+
+            sc.update(
+                visual_file       = video_out.name,
+                clip_type         = "video",
+                clip_score        = 1.0,
+                extra_visual_files= extra_vids2,
+                retry_count       = 0,
+            )
+            log.info("Scene %d: Pexels video clip → %s", scene_id, video_out.name)
+            continue   # skip image fetch entirely for this scene
+        log.debug("Scene %d: Pexels video failed — falling back to image", scene_id)
+
+        # Step 2 — Fetch primary image: HuggingFace → Pexels → Pixabay → black clip
+        success = _huggingface_fetch(query, out_path, _known_images())
+
+        if not success:
+            log.debug("Scene %d: HuggingFace failed — trying Pexels", scene_id)
+            success = _pexels_fetch(query, out_path, shot_type, _known_images())
+
+        if not success:
+            log.warning("Scene %d: Pexels failed — trying Pixabay", scene_id)
+            success = _pixabay_fetch(query, out_path, _known_images())
+
+        if success and not _validate_image(out_path, scene_id):
+            out_path.unlink(missing_ok=True)
+            success = False
+
+        if success:
+            h = _img_hash(out_path)
+            if h in _known_images():
+                # Content-level duplicate — fetch alternate
+                log.warning("Scene %d: duplicate image content — fetching alternate", scene_id)
+                alt_q    = _ensure_unique_query(
+                    _fallback_query(kw_list[1:] if len(kw_list) > 1 else kw_list),
+                    session_img_hashes, used_registry, scene_id + 5000,
+                )
+                alt_path = visuals_dir / f"scene_{scene_id}_visual_alt.png"
+                alt_ok   = (_pexels_fetch(alt_q, alt_path, shot_type, _known_images()) or
+                            _pixabay_fetch(alt_q, alt_path, _known_images()))
+                if alt_ok and _validate_image(alt_path, scene_id):
+                    out_path.unlink(missing_ok=True)
+                    alt_path.rename(out_path)
+                    h = _img_hash(out_path)
+                else:
+                    alt_path.unlink(missing_ok=True)
+            session_img_hashes.add(h)
+
+        if success:
+            sc["visual_file"]  = out_path.name
+            sc["clip_type"]    = "image"
+            sc["clip_score"]   = 1.0
+        else:
+            log.warning("Scene %d: all sources failed — black fallback", scene_id)
+            bp = _black_clip(
+                visuals_dir / f"scene_{scene_id}_visual.mp4", dur_s, W, H
+            )
+            sc["visual_file"] = bp.name
+            sc["clip_type"]   = "black"
+            sc["clip_score"]  = 0.0
+
+        sc["retry_count"] = 0
+
+        # Step 3 — Always fetch a 2nd image per scene for slideshow variety
+        extra_files: list[str] = []
+        if success:
+            alt_query  = _ensure_unique_query(
+                query + " alternative view",
+                session_img_hashes, used_registry, scene_id + 1000
+            )
+            extra_path = visuals_dir / f"scene_{scene_id}_visual_b.png"
+            extra_ok   = (_huggingface_fetch(alt_query, extra_path, _known_images()) or
+                          _pexels_fetch(alt_query, extra_path, shot_type, _known_images()) or
+                          _pixabay_fetch(alt_query, extra_path, _known_images()))
+            if extra_ok and _validate_image(extra_path, scene_id):
+                eh = _img_hash(extra_path)
+                if eh not in _known_images():
+                    session_img_hashes.add(eh)
+                    extra_files.append(extra_path.name)
+                    log.info("Scene %d | extra image: %s", scene_id, extra_path.name)
+                else:
+                    extra_path.unlink(missing_ok=True)
+            else:
+                extra_path.unlink(missing_ok=True)
+
+        sc["extra_visual_files"] = extra_files
+
+    # ── Dedicated thumbnail background image ─────────────────────────────────
+    # Fetch one purpose-built "shocking/dramatic" image for the thumbnail.
+    # Uses hook-scene keywords + category to generate a query optimised for
+    # visual impact (contrast, saturation) rather than content accuracy.
+    thumb_bg = visuals_dir / "thumbnail_bg.png"
+    if not thumb_bg.exists() or thumb_bg.stat().st_size < 5_000:
+        hook_sc = next(
+            (sc for sc in timeline["scenes"]
+             if sc.get("segment_label") == "HOOK" or sc.get("scene_id") == 1),
+            None,
+        )
+        hook_kw = (
+            (hook_sc.get("visual_keywords") or [hook_sc.get("visual_keyword", "dramatic")])
+            if hook_sc else [intent.lower(), "dramatic"]
+        )
+        time.sleep(1.0)
+        tb_query = _groq_thumbnail_bg_query(hook_kw, intent)
+        log.info("Thumbnail BG query: %s", tb_query)
+
+        tb_ok = (_huggingface_fetch(tb_query, thumb_bg, _known_images()) or
+                 _pexels_fetch(tb_query, thumb_bg, "MEDIUM", _known_images()))
+
+        if tb_ok and _validate_image(thumb_bg, 9999):
+            th = _img_hash(thumb_bg)
+            if th:
+                session_img_hashes.add(th)
+            log.info("Thumbnail BG saved: %s", thumb_bg.name)
+        else:
+            thumb_bg.unlink(missing_ok=True)
+            log.warning("Thumbnail BG: all sources failed — thumbnail will use best scene image")
+
+    # Persist both registries
+    _save_prompt_registry(used_registry)
+    _save_image_registry(used_img_registry | session_img_hashes)
+
+    return timeline
+
+
+# ── Image deduplication helpers ───────────────────────────────────────────────
+
+def _prompt_hash(text: str) -> str:
+    return hashlib.sha256(text.encode()).hexdigest()[:16]
+
+
+def _load_prompt_registry() -> list[str]:
+    try:
+        if PROMPT_REGISTRY.exists():
+            data = json.loads(PROMPT_REGISTRY.read_text(encoding="utf-8"))
+            if isinstance(data, list):
+                return data[-REGISTRY_LIMIT:]
+    except Exception as exc:
+        log.debug("Prompt registry load error: %s", exc)
+    return []
+
+
+def _save_prompt_registry(registry: list[str]) -> None:
+    try:
+        _LOGS_DIR.mkdir(parents=True, exist_ok=True)
+        PROMPT_REGISTRY.write_text(
+            json.dumps(registry[-REGISTRY_LIMIT:], indent=2), encoding="utf-8"
+        )
+    except Exception as exc:
+        log.debug("Prompt registry save error: %s", exc)
+
+
+def _load_image_registry() -> set[str]:
+    try:
+        if IMAGE_REGISTRY.exists():
+            data = json.loads(IMAGE_REGISTRY.read_text(encoding="utf-8"))
+            if isinstance(data, list):
+                return set(data[-IMAGE_REGISTRY_LIMIT:])
+    except Exception as exc:
+        log.debug("Image registry load error: %s", exc)
+    return set()
+
+
+def _save_image_registry(hashes: set[str]) -> None:
+    try:
+        _LOGS_DIR.mkdir(parents=True, exist_ok=True)
+        trimmed = list(hashes)[-IMAGE_REGISTRY_LIMIT:]
+        IMAGE_REGISTRY.write_text(
+            json.dumps(trimmed, indent=2), encoding="utf-8"
+        )
+    except Exception as exc:
+        log.debug("Image registry save error: %s", exc)
+
+
+def _ensure_unique_query(
+    query: str,
+    session_img_hashes: set[str],
+    used_registry: list[str],
+    scene_id: int,
+) -> str:
+    registry_set = set(used_registry)
+    modifier_idx = 0
+    current      = query
+
+    for _ in range(len(_UNIQUE_MODIFIERS) + 1):
+        qh = _prompt_hash(current)
+        if qh not in registry_set:
+            return current
+        if modifier_idx < len(_UNIQUE_MODIFIERS):
+            mod     = _UNIQUE_MODIFIERS[modifier_idx]
+            current = f"{query} {mod}"
+            modifier_idx += 1
+        else:
+            current = f"{query} scene {scene_id}"
+            break
+
+    return current
+
+
+def _cleanup_stale_visuals(visuals_dir: Path, max_age_hours: int = 2) -> None:
+    cutoff = time.time() - max_age_hours * 3600
+    for pattern in ("scene_*_visual.png", "scene_*_visual_b.png",
+                    "scene_*_visual_alt.png", "scene_*_visual.mp4"):
+        for f in visuals_dir.glob(pattern):
+            try:
+                if f.stat().st_mtime < cutoff:
+                    f.unlink()
+                    log.debug("Removed stale visual: %s", f.name)
+            except Exception:
+                pass
+
+
+# ── Groq: scene 1 shock video query ──────────────────────────────────────────
+
+def _groq_to_shock_video_query(script_text: str) -> str:
+    """Generate a visually shocking/dramatic Pexels video search query for scene 1."""
+    api_keys = [
+        os.getenv("GROQ_API_KEY_1", "").strip(),
+        os.getenv("GROQ_API_KEY_2", "").strip(),
+    ]
+    api_keys = [k for k in api_keys if k]
+    if not api_keys:
+        return " ".join(script_text.split()[:4])
+    api_key = api_keys[0]
+
+    system_prompt = (
+        "You generate search queries to find SHOCKING or STUNNING stock video footage.\n"
+        "Rules:\n"
+        "- Output ONLY the search query. No explanation, no quotes.\n"
+        "- 3 to 5 words maximum.\n"
+        "- The query must relate to the script topic.\n"
+        "- Target visually DRAMATIC real-world moments cameras can capture:\n"
+        "  wild animals attacking or hunting, extreme weather (tornado, lightning, tsunami),\n"
+        "  volcanic eruptions, space explosions, deep sea creatures, avalanche, wildfire,\n"
+        "  extreme sports crashes, natural disasters, microscopic discoveries.\n"
+        "- NEVER use abstract or invisible concepts.\n"
+        "BAD: 'space facts shocking'  → GOOD: 'asteroid explosion space bright'\n"
+        "BAD: 'ocean is deep'         → GOOD: 'great white shark attack water'\n"
+        "BAD: 'human brain powerful'  → GOOD: 'brain neuron firing closeup microscope'\n"
+        "BAD: 'history is surprising' → GOOD: 'ancient ruins crumbling collapse'\n"
+    )
+    user_message = (
+        f"Script opening (first scene): {script_text[:400]}\n\n"
+        "Generate a shocking/dramatic stock video search query for this topic."
+    )
+
+    for attempt in range(1, MAX_RETRIES + 1):
+        try:
+            r = requests.post(
+                GROQ_API_BASE,
+                headers={"Authorization": f"Bearer {api_key}",
+                         "Content-Type":  "application/json"},
+                json={
+                    "model":       GROQ_MODEL,
+                    "messages":    [{"role": "system", "content": system_prompt},
+                                    {"role": "user",   "content": user_message}],
+                    "max_tokens":  30,
+                    "temperature": 0.5,
+                },
+                timeout=15,
+            )
+            if r.ok:
+                q = r.json()["choices"][0]["message"]["content"].strip()
+                return " ".join(q.split()[:5])
+            if r.status_code == 429 and len(api_keys) > 1:
+                api_key = api_keys[1]
+            else:
+                break
+        except Exception as exc:
+            log.debug("shock query attempt %d: %s", attempt, exc)
+            if attempt < MAX_RETRIES:
+                time.sleep(RETRY_BASE_S)
+
+    return " ".join(script_text.split()[:4])
+
+
+# ── Pexels: real video clip for scene 1 ──────────────────────────────────────
+
+def _pexels_video_fetch(query: str, out_path: Path,
+                        avoid_hashes: set[str] | None = None,
+                        orientation: str = "portrait") -> bool:
+    """
+    Downloads a real HD video clip from Pexels Videos API.
+    orientation: "portrait" for Shorts (9:16), "landscape" for standard/long (16:9).
+    Falls back gracefully: returns False if API key missing or no results.
+    """
+    api_key = os.getenv("PEXELS_API_KEY", "")
+    if not api_key:
+        return False
+
+    avoid = avoid_hashes or set()
+
+    try:
+        r = requests.get(
+            "https://api.pexels.com/videos/search",
+            headers={"Authorization": api_key},
+            params={
+                "query":       query,
+                "per_page":    10,
+                "orientation": orientation,  # portrait=Shorts, landscape=standard/long
+                "size":        "medium",     # excludes tiny low-res clips
+            },
+            timeout=20,
+        )
+        if not r.ok:
+            log.warning("Pexels Video API %d: %s", r.status_code, r.text[:120])
+            return False
+
+        videos = r.json().get("videos", [])
+        if not videos:
+            # Retry without orientation constraint — portrait stock video is rarer
+            r2 = requests.get(
+                "https://api.pexels.com/videos/search",
+                headers={"Authorization": api_key},
+                params={"query": query, "per_page": 10, "size": "medium"},
+                timeout=20,
+            )
+            if r2.ok:
+                videos = r2.json().get("videos", [])
+
+        for video in videos:
+            files = video.get("video_files", [])
+            if not files:
+                continue
+
+            # Prefer correctly-oriented HD files, fall back to any HD, then any file
+            if orientation == "portrait":
+                oriented = [f for f in files if f.get("height", 0) > f.get("width", 0)]
+            else:
+                oriented = [f for f in files if f.get("width", 0) >= f.get("height", 0)]
+            hd   = [f for f in (oriented or files) if f.get("quality") in ("hd", "uhd")]
+            pool = hd or oriented or files
+
+            best = max(pool, key=lambda f: f.get("width", 0) * f.get("height", 0))
+            link = best.get("link")
+            if not link:
+                continue
+
+            tmp = out_path.with_suffix(".tmp.mp4")
+            if not _download(link, tmp):
+                tmp.unlink(missing_ok=True)
+                continue
+
+            if tmp.stat().st_size < 50_000:   # reject tiny/corrupt files
+                tmp.unlink(missing_ok=True)
+                continue
+
+            h = _img_hash(tmp)
+            if h and h not in avoid:
+                tmp.rename(out_path)
+                log.info("Pexels VIDEO scene 1: '%s' → %dx%d %s",
+                         query, best.get("width", 0), best.get("height", 0),
+                         best.get("quality", "?"))
+                return True
+
+            tmp.unlink(missing_ok=True)
+            log.debug("Pexels video id=%s duplicate — trying next", video.get("id"))
+
+    except Exception as exc:
+        log.warning("Pexels video fetch error: %s", exc)
+
+    return False
+
+
+# ── Groq: dedicated thumbnail background query ───────────────────────────────
+
+def _groq_thumbnail_bg_query(hook_keywords: list[str], intent: str) -> str:
+    """
+    Generate a search query specifically for a shocking thumbnail background.
+    Result is more dramatic than scene queries — optimised for CTR, not content accuracy.
+    """
+    api_keys = [
+        os.getenv("GROQ_API_KEY_1", "").strip(),
+        os.getenv("GROQ_API_KEY_2", "").strip(),
+    ]
+    api_keys = [k for k in api_keys if k]
+    if not api_keys:
+        return _INTENT_THUMB_FALLBACK.get(intent, "dramatic explosion dark fire")
+
+    system_prompt = (
+        "You generate stock-image search queries for YouTube thumbnail backgrounds.\n"
+        "The image must look SHOCKING, DRAMATIC, and CLICKABLE.\n"
+        "Rules:\n"
+        "- Output ONLY the search query. No explanation. No quotes.\n"
+        "- 4 to 6 words.\n"
+        "- Prefer: explosions, extreme weather, deep-sea creatures, cosmic phenomena,\n"
+        "  animals in dramatic moments, extreme close-ups, lightning, fire, lava,\n"
+        "  vivid bioluminescence, dramatic silhouettes, ruins, microscopy, neon glows.\n"
+        "- The image MUST have HIGH CONTRAST and VIVID COLOR — no flat or grey shots.\n"
+        "- Must be a real photographable subject. Never use abstract words.\n"
+        "EXAMPLES:\n"
+        "  ocean glow + OCEAN   → 'bioluminescent ocean wave night blue'\n"
+        "  volcano eruption + NATURE → 'lava explosion volcano dramatic dark'\n"
+        "  black hole + SPACE → 'nebula explosion galaxy dark cosmic'\n"
+        "  brain memory + PSYCHOLOGY → 'neuron glow brain neon dark closeup'\n"
+        "  Roman Empire + HISTORY → 'ancient ruins dramatic lightning storm'\n"
+    )
+    user_message = (
+        f"Keywords: {', '.join(hook_keywords[:5])}\n"
+        f"Category: {intent}\n"
+        "Generate a shocking/dramatic thumbnail background search query."
+    )
+
+    for attempt in range(2):
+        try:
+            r = requests.post(
+                GROQ_API_BASE,
+                headers={"Authorization": f"Bearer {api_keys[0]}",
+                         "Content-Type":  "application/json"},
+                json={
+                    "model":       GROQ_MODEL,
+                    "messages":    [{"role": "system", "content": system_prompt},
+                                    {"role": "user",   "content": user_message}],
+                    "max_tokens":  30,
+                    "temperature": 0.5,
+                },
+                timeout=15,
+            )
+            if r.ok:
+                q = r.json()["choices"][0]["message"]["content"].strip()
+                return " ".join(q.split()[:6])
+            if r.status_code == 429 and len(api_keys) > 1:
+                api_keys[0] = api_keys[1]
+        except Exception as exc:
+            log.debug("thumbnail bg query: %s", exc)
+            break
+
+    return _INTENT_THUMB_FALLBACK.get(intent, "dramatic storm explosion dark fire")
+
+
+# ── Groq: scene metadata → search query ──────────────────────────────────────
+
+def _groq_to_search_query(
+    keywords:  list[str],
+    emotion:   str,
+    shot_type: str,
+    intent:    str,
+) -> str:
+    api_keys = [
+        os.getenv("GROQ_API_KEY_1", "").strip(),
+        os.getenv("GROQ_API_KEY_2", "").strip(),
+    ]
+    api_keys = [k for k in api_keys if k]
+    if not api_keys:
+        return _fallback_query(keywords)
+    api_key = api_keys[0]
+
+    system_prompt = (
+        "You convert educational video scene metadata into stock-photo search queries.\n"
+        "Rules:\n"
+        "- Output ONLY the search query. No explanation, no preamble, no quotes.\n"
+        "- 4 to 7 words.\n"
+        "- Think: what would a PHOTOGRAPHER actually photograph for this scene?\n"
+        "  Translate abstract/scientific concepts into visible, physical subjects.\n"
+        "  BAD: 'neutron star explosion'  (no stock photos exist)\n"
+        "  GOOD: 'bright star night sky cosmic'\n"
+        "  BAD: 'DNA CRISPR editing'\n"
+        "  GOOD: 'scientist microscope laboratory closeup'\n"
+        "  BAD: 'Vikings discovering America'\n"
+        "  GOOD: 'ancient wooden ship ocean voyage'\n"
+        "- Match the emotion and shot type to the visual mood.\n"
+        "- Use concrete, searchable nouns and adjectives only.\n"
+        "- Never use abstract words: 'concept', 'idea', 'mystery', 'fact', 'truth'."
+    )
+
+    user_message = (
+        f"Keywords: {', '.join(keywords)}\n"
+        f"Emotion: {emotion}\n"
+        f"Shot type: {shot_type}\n"
+        f"Category: {intent}\n"
+        "Generate a stock-photo search query that will find a visually relevant image."
+    )
+
+    for attempt in range(1, MAX_RETRIES + 1):
+        try:
+            r = requests.post(
+                GROQ_API_BASE,
+                headers={
+                    "Authorization": f"Bearer {api_key}",
+                    "Content-Type":  "application/json",
+                },
+                json={
+                    "model":       GROQ_MODEL,
+                    "messages":    [
+                        {"role": "system", "content": system_prompt},
+                        {"role": "user",   "content": user_message},
+                    ],
+                    "max_tokens":  50,
+                    "temperature": 0.4,
+                },
+                timeout=15,
+            )
+            if r.ok:
+                query = r.json()["choices"][0]["message"]["content"].strip()
+                return " ".join(query.split()[:7])
+            elif r.status_code == 429:
+                # Rate limited — rotate to next key immediately
+                if len(api_keys) > 1:
+                    api_key = api_keys[1]
+                    log.info("Groq 429 — rotated to key 2")
+                else:
+                    wait = RETRY_BASE_S * attempt
+                    log.warning("Groq 429 rate limit — waiting %ds", wait)
+                    time.sleep(wait)
+            else:
+                log.warning("Groq query API %d: %s", r.status_code, r.text[:200])
+                break
+        except requests.exceptions.ConnectionError as exc:
+            wait = RETRY_BASE_S * attempt
+            log.warning("Groq connection error (attempt %d/%d) — waiting %ds: %s",
+                        attempt, MAX_RETRIES, wait, str(exc)[:120])
+            time.sleep(wait)
+        except requests.exceptions.InvalidHeader as exc:
+            log.error("GROQ_API_KEY contains illegal characters — fix the env var: %s", exc)
+            break
+        except Exception as exc:
+            log.warning("Groq query call failed: %s", exc)
+            break
+
+    return _fallback_query(keywords)
+
+
+def _huggingface_fetch(query: str, out_path: Path,
+                       avoid_hashes: set[str] | None = None) -> bool:
+    keys = [k for k in _HF_KEYS if k]
+    if not keys:
+        return False
+    avoid  = avoid_hashes or set()
+    prompt = f"{query}, photorealistic, cinematic, dramatic lighting, high quality"
+    for key in keys:
+        for attempt in range(2):
+            try:
+                r = requests.post(
+                    _HF_MODEL_URL,
+                    headers={"Authorization": f"Bearer {key}"},
+                    json={"inputs": prompt, "parameters": {"num_inference_steps": min(50, max(1, _auto_hf_steps())),
+                                                        "width": 1280, "height": 720}},
+                    timeout=60,
+                )
+                if r.status_code == 503:
+                    log.debug("HuggingFace: model loading — waiting 20s")
+                    time.sleep(20)
+                    continue
+                if r.status_code == 429:
+                    log.debug("HuggingFace: rate limit key …%s — trying next", key[-4:])
+                    break
+                if not r.ok or len(r.content) < 1000:
+                    log.debug("HuggingFace: %d bad response", r.status_code)
+                    break
+                tmp = out_path.with_suffix(".hf.tmp.png")
+                tmp.write_bytes(r.content)
+                h = _img_hash(tmp)
+                if h and h not in avoid:
+                    tmp.rename(out_path)
+                    log.info("HuggingFace: generated image for '%s'", query[:50])
+                    return True
+                tmp.unlink(missing_ok=True)
+                break
+            except Exception as exc:
+                log.debug("HuggingFace fetch: %s", exc)
+                break
+    return False
+
+
+def _fallback_query(keywords: list[str]) -> str:
+    return " ".join(keywords[:4])
+
+
+# ── Image validation & hash helpers ──────────────────────────────────────────
+
+def _validate_image(path: Path, scene_id: int) -> bool:
+    if not path.exists() or path.stat().st_size < 5_000:
+        log.warning("Scene %d: image file missing or too small after fetch", scene_id)
+        return False
+    try:
+        from PIL import Image
+        with Image.open(path) as img:
+            img.verify()   # catches truncated / corrupt files
+        with Image.open(path) as img:
+            w, h = img.size
+            if w < 960 or h < 540:
+                log.warning("Scene %d: image resolution too low (%dx%d) — skipping",
+                            scene_id, w, h)
+                return False
+    except ImportError:
+        pass   # PIL not installed — accept based on file size only
+    except Exception as exc:
+        log.warning("Scene %d: image corrupt or unreadable (%s) — skipping",
+                    scene_id, exc)
+        return False
+    return True
+
+
+def _img_hash(path: Path) -> str:
+    try:
+        return hashlib.md5(path.read_bytes()[:65536]).hexdigest()
+    except Exception:
+        return ""
+
+
+# ── Pexels fetcher ────────────────────────────────────────────────────────────
+
+def _pexels_fetch(query: str, out_path: Path,
+                  shot_type: str = "MEDIUM",
+                  avoid_hashes: set[str] | None = None) -> bool:
+    """
+    Fetches the best available full-HD photo from Pexels.
+    Requests 15 candidates, iterates through them and picks the first
+    whose content MD5 is not in avoid_hashes.
+    Uses original URL for full resolution; size=large filters to ≥ 4 MP.
+    """
+    api_key = os.getenv("PEXELS_API_KEY", "")
+    if not api_key:
+        return False
+
+    avoid = avoid_hashes or set()
+
+    # Reuse if already downloaded this run (< 2 h old) and not a known duplicate
+    cutoff = time.time() - 2 * 3600
+    if (out_path.exists()
+            and out_path.stat().st_mtime > cutoff
+            and out_path.stat().st_size > 10_000):
+        h = _img_hash(out_path)
+        if h not in avoid:
+            log.info("Reusing current-run image: %s", out_path.name)
+            return True
+        out_path.unlink(missing_ok=True)
+
+    orientation = "portrait" if shot_type in _PORTRAIT_SHOTS else "landscape"
+    try:
+        r = requests.get(
+            "https://api.pexels.com/v1/search",
+            headers={"Authorization": api_key},
+            params={
+                "query":       query,
+                "per_page":    15,
+                "orientation": orientation,
+                "size":        "large",      # Pexels: only images ≥ 4 MP
+            },
+            timeout=15,
+        )
+        if not r.ok:
+            log.warning("Pexels API %d: %s", r.status_code, r.text[:120])
+            return False
+
+        photos = r.json().get("photos", [])
+        for photo in photos:
+            src = photo.get("src", {})
+            # original = full resolution; large2x ≈ 1880 px as fallback
+            img_url = src.get("original") or src.get("large2x")
+            if not img_url:
+                continue
+            tmp = out_path.with_suffix(".tmp.png")
+            if not _download(img_url, tmp):
+                tmp.unlink(missing_ok=True)
+                continue
+            h = _img_hash(tmp)
+            if h and h not in avoid:
+                tmp.rename(out_path)
+                log.debug("Pexels photo id=%s  size=%s",
+                          photo.get("id"), photo.get("width"))
+                return True
+            # This photo is a duplicate — discard and try the next
+            log.debug("Pexels photo id=%s is duplicate — trying next", photo.get("id"))
+            tmp.unlink(missing_ok=True)
+
+    except Exception as exc:
+        log.warning("Pexels fetch error: %s", exc)
+
+    return False
+
+
+# ── Pixabay fetcher ───────────────────────────────────────────────────────────
+
+def _pixabay_fetch(query: str, out_path: Path,
+                   avoid_hashes: set[str] | None = None) -> bool:
+    """
+    Fetches the best available full-HD photo from Pixabay.
+    Requests 15 candidates with min_width=1920; prefers imageURL (original
+    resolution) → largeImageURL (1280 px) → webformatURL (640 px).
+    Iterates until finding a photo whose MD5 is not in avoid_hashes.
+    """
+    api_key = os.getenv("PIXABAY_API_KEY", "").strip()
+    if not api_key:
+        return False
+
+    avoid = avoid_hashes or set()
+
+    # Reuse if already downloaded this run (< 2 h old) and not a known duplicate
+    cutoff = time.time() - 2 * 3600
+    if (out_path.exists()
+            and out_path.stat().st_mtime > cutoff
+            and out_path.stat().st_size > 10_000):
+        h = _img_hash(out_path)
+        if h not in avoid:
+            log.info("Reusing current-run image: %s", out_path.name)
+            return True
+        out_path.unlink(missing_ok=True)
+
+    try:
+        r = requests.get(
+            "https://pixabay.com/api/",
+            params={
+                "key":        api_key,
+                "q":          "+".join(query.split()[:4]),
+                "image_type": "photo",
+                "per_page":   15,
+                "safesearch": "true",
+                "min_width":  1920,
+                "min_height": 1080,
+                "order":      "popular",
+            },
+            timeout=15,
+        )
+        if not r.ok:
+            log.warning("Pixabay API %d: %s", r.status_code, r.text[:120])
+            return False
+
+        hits = r.json().get("hits", [])
+
+        # Retry without resolution constraint if no results at 1920p
+        if not hits:
+            r2 = requests.get(
+                "https://pixabay.com/api/",
+                params={
+                    "key":        api_key,
+                    "q":          "+".join(query.split()[:4]),
+                    "image_type": "photo",
+                    "per_page":   15,
+                    "safesearch": "true",
+                    "order":      "popular",
+                },
+                timeout=15,
+            )
+            if r2.ok:
+                hits = r2.json().get("hits", [])
+
+        for hit in hits:
+            # Prefer full-resolution → 1280 px → 640 px fallback
+            img_url = (hit.get("imageURL")
+                       or hit.get("fullHDURL")
+                       or hit.get("largeImageURL")
+                       or hit.get("webformatURL"))
+            if not img_url:
+                continue
+            tmp = out_path.with_suffix(".tmp.png")
+            if not _download(img_url, tmp):
+                tmp.unlink(missing_ok=True)
+                continue
+            h = _img_hash(tmp)
+            if h and h not in avoid:
+                tmp.rename(out_path)
+                log.debug("Pixabay id=%s  %dx%d",
+                          hit.get("id"), hit.get("imageWidth", 0), hit.get("imageHeight", 0))
+                return True
+            log.debug("Pixabay id=%s is duplicate — trying next", hit.get("id"))
+            tmp.unlink(missing_ok=True)
+
+    except Exception as exc:
+        log.warning("Pixabay fetch error: %s", exc)
+
+    return False
+
+
+# ── Helpers ───────────────────────────────────────────────────────────────────
+
+def _download(url: str, path: Path) -> bool:
+    try:
+        r = requests.get(url, timeout=30, stream=True)
+        if r.ok:
+            path.write_bytes(r.content)
+            return path.stat().st_size > 1_000
+    except Exception as exc:
+        log.debug("Download %s: %s", url[:60], exc)
+    return False
+
+
+def _trim(src: Path, dur_s: float, scene_id: int, out_dir: Path) -> Optional[Path]:
+    out = out_dir / f"scene_{scene_id}_visual_trimmed.mp4"
+    try:
+        subprocess.run(
+            ["ffmpeg", "-y", "-i", str(src),
+             "-ss", "0", "-t", str(dur_s),
+             "-c:v", "copy", "-an", str(out)],
+            capture_output=True, timeout=60,
+        )
+        if out.exists() and out.stat().st_size > 1_000:
+            return out
+    except Exception as exc:
+        log.debug("Trim: %s", exc)
+    return None
+
+
+def _black_clip(path: Path, dur_s: float, W: int, H: int) -> Path:
+    subprocess.run(
+        ["ffmpeg", "-y", "-f", "lavfi",
+         "-i", f"color=c=black:size={W}x{H}:rate=30",
+         "-t", str(dur_s), "-c:v", "libx264",
+         "-pix_fmt", "yuv420p", "-an", str(path)],
+        capture_output=True, timeout=60,
+    )
+    return path

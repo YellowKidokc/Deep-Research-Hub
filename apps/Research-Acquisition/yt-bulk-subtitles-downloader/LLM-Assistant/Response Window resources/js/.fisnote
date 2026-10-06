@@ -1,0 +1,28 @@
+---
+fis_schema: "folder-index.v1"
+folder_id: "FLD-20260907-1d66d60c"
+folder: "GitHub\Research-Acquisition\yt-bulk-subtitles-downloader\LLM-Assistant\Response Window resources\js"
+folder_class: "project"
+confidence: 0.6
+dependency_risk: 0.0
+dominant_family: "code"
+dominant_ratio: 0.857
+file_count: 7
+classified_at: "2026-09-07T16:08:00"
+allowed_actions: ["index", "rename_internal", "subfolder_sort", "archive_exports"]
+suggested_name: "js"
+---
+
+# FIS Folder Index: js
+
+**Class**: project  ·  **Confidence**: 60%  ·  **Files**: 7  ·  **Dominant**: code (86%)
+
+## Allowed actions
+- index
+- rename_internal
+- subfolder_sort
+- archive_exports
+
+**Suggested name**: `js`  (not applied — review before use)
+
+<!-- FIS folder-index.v1: parseable note; safe to regenerate. -->

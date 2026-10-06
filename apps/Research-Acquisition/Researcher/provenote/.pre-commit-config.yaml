@@ -1,0 +1,93 @@
+repos:
+  # Ruff: lint + format (two separate hooks — order matters).
+  # Scope = src/ tests/ apps/ scripts/, to mirror CI exactly (widened 2026-09-10: apps/api is
+  # the HTTP boundary and sat outside every gate; the note below predates that and is kept as-is).
+  # Historical: `uv run ruff check src/ tests/`,
+  # `uv run ruff format --check src/ tests/` in .github/workflows/ci.yml). Without this,
+  # the hook passed staged filenames and linted repo-wide — so a one-time reference script
+  # under scripts/ (outside CI's lint scope, see [tool.ruff] src=["src","tests"]) could fail
+  # the commit while CI stayed green. pass_filenames:false + explicit paths = same tree as CI;
+  # files:^(src|tests)/ keeps the trigger scoped so the hook only fires on relevant changes.
+  # rev pinned to match the uv.lock ruff (0.15.13) + pyproject floor, so the local
+  # format hook produces byte-identical output to the CI gate (`ruff format --check`).
+  # A skew here (old hook formatting one way, newer locked CI ruff another) silently
+  # reddened CI — see docs/DEVLOG.md 2026-06-27.
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.15.13
+    hooks:
+      - id: ruff
+        args: [--fix, src/, tests/, apps/, scripts/]
+        pass_filenames: false
+        files: ^(src|tests)/
+      - id: ruff-format
+        args: [src/, tests/, apps/, scripts/]
+        pass_filenames: false
+        files: ^(src|tests)/
+
+  # mypy: type checking — runs CI's effective command (`uv run mypy src/`) in the PROJECT venv so
+  # the local pre-check matches CI exactly. Why not the isolated mirrors-mypy hook:
+  #   - The old hook (additional_dependencies: []) ran mypy in pre-commit's own env WITHOUT project
+  #     deps, so it false-failed `import-not-found` on every third-party import not in pyproject's
+  #     mypy `ignore_missing_imports` set (anthropic, numpy, duckdb, pydantic, dotenv, sqlalchemy…),
+  #     plus the strict subclass-Any cascade (BaseModel/DeclarativeBase → "subclass has type Any")
+  #     and bogus unused-`type: ignore`s — all while CI was green. `language: system` + `uv run`
+  #     uses the resolved project env, so every import resolves and the results match CI.
+  #   - `--no-sync` is REQUIRED, not cosmetic: a bare `uv run` re-resolves torch WITHOUT the
+  #     cpu/cu130 extra and pulls the heavy CUDA wheel (the exact hazard CI guards with
+  #     UV_NO_SYNC=1). --no-sync reuses the already-synced env untouched. See
+  #     docs/specs/torch-backend-per-machine.md.
+  #   - Strictness comes from [tool.mypy] strict=true, NOT a `--strict` arg — the old arg also
+  #     re-enabled warn_unused_ignores (the config turns it off), another divergence from CI.
+  #   - `files: ^src/` keeps the trigger scoped (runs only when an src file is staged); with
+  #     pass_filenames:false it checks the whole src/ tree like CI. src/-only is intended — the
+  #     eval harness + other non-src .py are outside the strict gate (architecture.md).
+  # CONSTRAINT: needs `uv` on PATH and the env synced at commit time (true on any dev box; run
+  # `uv sync` first on a fresh clone). CI (.github/workflows/ci.yml) remains the authoritative gate.
+  - repo: local
+    hooks:
+      - id: mypy
+        name: mypy (strict, project venv via uv — mirrors CI)
+        entry: uv run --no-sync mypy
+        language: system
+        args: [src]
+        pass_filenames: false
+        files: ^src/
+
+  # bandit: security SAST
+  - repo: https://github.com/PyCQA/bandit
+    rev: 1.7.9
+    hooks:
+      - id: bandit
+        args: [-r, src/, -c, pyproject.toml]
+        pass_filenames: false
+
+  # detect-secrets: secret scanning
+  - repo: https://github.com/Yelp/detect-secrets
+    rev: v1.5.0
+    hooks:
+      - id: detect-secrets
+        args: [--baseline, .secrets.baseline]
+
+  # Standard file hygiene
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
+    hooks:
+      - id: trailing-whitespace
+        # data/anzsrc-2020-for-20210429.ttl is a VENDORED upstream artifact — the official
+        # ANZSRC 2020 SKOS/Turtle file from linked.data.gov.au, kept verbatim so the derived
+        # data/anzsrc_2020_for.json can cite it (`_meta.source_file`) under CC BY 4.0.
+        # Every one of its 28 trailing-whitespace hits sits INSIDE a `"""..."""` literal
+        # (skos:definition / skos:scopeNote), so stripping them rewrites the vocabulary's
+        # own text rather than reformatting the file. Nothing parses it at runtime — rdflib
+        # is not even a dependency — so the fix is worth exactly nothing and the cost is a
+        # third-party dataset that no longer matches what was published. Excluded, not edited.
+        exclude: ^data/anzsrc-2020-for-.*\.ttl$
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-toml
+      - id: check-merge-conflict
+      - id: check-added-large-files
+        args: [--maxkb=500]
+        # docs/assets/ holds deliberate README media (the demo GIF, ~1.7 MB); the 500 KB
+        # guard stays strict everywhere else to catch accidental blobs (weights, DBs).
+        exclude: ^docs/assets/

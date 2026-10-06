@@ -1,0 +1,686 @@
+{
+  "name": "fruits",
+  "parsed": {
+    "spec_version": "0.3.0",
+    "target": {
+      "type": "paper",
+      "title": "AX_GI_03_FL_01_I_AM_THE_ROOT_SPEAKS_7c196c27",
+      "domain": "unknown; infer conservatively — the supplied document is a theological/argumentative essay on divine self-disclosure (Exodus 3:14, Johannine 'I am' sayings) with a stated project frame ('Theophysics'); no empirical method is specified",
+      "unit": "complete supplied document",
+      "comparison_class": "paper of similar purpose and evidence burden",
+      "population_boundary": "persons and groups explicitly represented in the supplied document; report omissions",
+      "time_window": null
+    },
+    "gate_results": [
+      {
+        "gate_id": "gate.truth_evidence",
+        "status": "WARN",
+        "hard": true,
+        "rationale": "The document's load-bearing claims are explicitly framed as report of what Christianity claims, not as established fact (S124, S126, S134-S135), and it names the evidence burden it has not discharged (S091). The one direct citation (S016-S017, Exodus 3:14) is traceable to a named source. However, the Johannine 'I am' sayings (S072-S078) are quoted without citation, and no historical, textual, or translation evidence is supplied anywhere in the document. Factual claims are therefore mostly supported only as claims-about-a-tradition, with the supporting layer deferred.",
+        "evidence_refs": [
+          "S016",
+          "S017",
+          "S072",
+          "S078",
+          "S091",
+          "S124",
+          "S126"
+        ],
+        "resolution": "Not a hard-gate failure: the document does not assert the disputed facts as established. It remains WARN because the deferred support layer (S091) is absent from the supplied unit and the scripture quotations beyond Exodus 3:14 are uncited."
+      },
+      {
+        "gate_id": "gate.contradiction",
+        "status": "PASS",
+        "hard": true,
+        "rationale": "No load-bearing contradiction is present. The apparent tension between reason and revelation is explicitly addressed and held as convergent rather than contradictory (S054, S062-S063, S129-S132). The document also acknowledges that its own arguments may fail (S100) and that revelation claims may be false (S113).",
+        "evidence_refs": [
+          "S054",
+          "S062",
+          "S063",
+          "S100",
+          "S113",
+          "S129",
+          "S132"
+        ],
+        "resolution": null
+      },
+      {
+        "gate_id": "gate.scope",
+        "status": "PASS",
+        "hard": false,
+        "rationale": "The document stays within its stated scope: describing what Christianity claims and where not to look for God (S043-S045), while explicitly declining to answer every philosophical question (S040-S042) and explicitly deferring historical and evidential questions to a support layer (S091).",
+        "evidence_refs": [
+          "S040",
+          "S041",
+          "S042",
+          "S043",
+          "S091"
+        ],
+        "resolution": null
+      },
+      {
+        "gate_id": "gate.falsifiability",
+        "status": "WARN",
+        "hard": false,
+        "rationale": "The document identifies what would count against it in general terms — revelation can be misunderstood, claims of revelation can be false, Scripture must be interpreted, history must be investigated, the Church can mishandle what it receives (S112-S116) — and concedes some arguments may fail (S100). But it does not state a specific, testable condition under which its own central claim ('God has disclosed Himself') would be judged false.",
+        "evidence_refs": [
+          "S100",
+          "S112",
+          "S113",
+          "S114",
+          "S115",
+          "S116"
+        ],
+        "resolution": "A kill condition for the central claim is not supplied in this unit; it may be deferred to the referenced support layer."
+      },
+      {
+        "gate_id": "gate.bridge_validity",
+        "status": "WARN",
+        "hard": false,
+        "rationale": "A cross-domain bridge is asserted between discovery (what the world requires) and disclosure (whom God says He is) at S064-S066, and the document insists the two methods not be collapsed (S062-S063). But the bridge is stated as a posture, not as an explicit mapping with invariants, bridge law, recovery, prediction, alternatives, and kill condition. The 'Theophysics' frame (S062) is named without a stated method.",
+        "evidence_refs": [
+          "S062",
+          "S063",
+          "S064",
+          "S065",
+          "S066"
+        ],
+        "resolution": "Bridge elements are gestured at but not formally specified in this unit."
+      },
+      {
+        "gate_id": "gate.provenance",
+        "status": "WARN",
+        "hard": false,
+        "rationale": "Front matter supplies title, pair_id, sequence, edition, paired article, derivative status, and a support link, and one scripture citation is given with book, chapter, and verse (S016). But the Johannine quotations (S072-S078) carry no citation, and the 'support layer' referenced at S091 is not included in the supplied unit, so its contents cannot be traced.",
+        "evidence_refs": [
+          "S016",
+          "S072",
+          "S078",
+          "S091"
+        ],
+        "resolution": "Partial: metadata and one citation are traceable; the bulk of quoted scripture and the referenced support layer are not."
+      },
+      {
+        "gate_id": "gate.agency_noncoercion",
+        "status": "PASS",
+        "hard": true,
+        "rationale": "The document explicitly preserves reader agency: a skeptic need not accept the Bible's authority to follow the argument (S120), the paper disclaims the coercive inference 'Exodus 3:14 is in the Bible, therefore God exists' (S122), and it states the disclosed portrait can be stated honestly before it is proven publicly (S126). No concealed compulsion or destruction of agency appears in the text.",
+        "evidence_refs": [
+          "S120",
+          "S122",
+          "S126"
+        ],
+        "resolution": null
+      }
+    ],
+    "fruit_profile": [
+      {
+        "fruit_id": "fruit.love",
+        "score": 2,
+        "confidence": 0.4,
+        "mechanism": "truth-aligned relational cohesion seeking the good of the whole and each member while bearing cost and preserving agency",
+        "positive_evidence": [
+          {
+            "ref_id": "EV-LOVE-01",
+            "quote_or_event": "A skeptic does not have to accept the Bible’s authority to understand what this paper is doing.",
+            "location": "S120",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Preserves the reader's agency and seeks the reader's understanding rather than assent by pressure; the per-sentence pass also scored this sentence highest toward love (sum 4, love 1) for 'preserves skeptic's agency, no coercion'.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "EV-LOVE-02",
+            "quote_or_event": "It is saying: “If Christianity is being treated as testimony, this is the kind of God it identifies: self-existent, non-derived, personal, speaking, faithful, and finally revealed in Christ.”",
+            "location": "S124",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Frames the claim as testimony offered for consideration rather than imposed conclusion; the per-sentence pass lists S123 as a love turn.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "EV-LOVE-03",
+            "quote_or_event": "The support layer must face the historical questions, the Johannine context, rival religious claims, translation issues, and resurrection evidence.",
+            "location": "S091",
+            "evidence_type": "MISSING",
+            "link_reason": "The document names the work required to seek the good of the whole (including rival claimants and outsiders) but does not perform it in this unit; the cost-bearing side of love is asserted as deferred, not demonstrated.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.3,
+        "stress_tests": {
+          "source": "WARN",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "PASS",
+          "power": "PASS",
+          "correction": "WARN",
+          "outsider": "PASS",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "The document's love-relevant mechanism is agency preservation toward the reader (S120, S122, S126) and inclusion of rival claims in the deferred work (S091). This is genuine but thin: it is a posture stated in one context, with no cost borne, no relational repair shown, and no outsider review performed within the unit. Score 2 (mixed/insufficient) with low confidence; the per-sentence pass's near-zero love mean (0.007) is consistent with a document that is argumentative rather than relational, and I do not treat that near-zero as evidence of anti-fruit."
+      },
+      {
+        "fruit_id": "fruit.joy",
+        "score": 2,
+        "confidence": 0.2,
+        "mechanism": "durable participation in real good not dependent on denial, spectacle, status, or constant stimulation",
+        "positive_evidence": [],
+        "counterevidence": [],
+        "evidence_coverage": 0.05,
+        "stress_tests": {
+          "source": "UNKNOWN",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "UNKNOWN",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "The document makes no joy claim and displays no joy mechanism; the per-sentence pass reports a joy mean of 0.0 with no positive or negative extremes. Absence of evidence is reported as absence, not as deficiency: score 2 with very low confidence per the missing-evidence rule. No counterfeit flag, since no joy label is claimed."
+      },
+      {
+        "fruit_id": "fruit.peace",
+        "score": 2,
+        "confidence": 0.3,
+        "mechanism": "reintegrated order in which relevant tensions are truthfully addressed without suppression",
+        "positive_evidence": [
+          {
+            "ref_id": "EV-PEACE-01",
+            "quote_or_event": "It needs to let them converge without pretending they are the same thing.",
+            "location": "S063",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Addresses the reason/revelation tension by integration rather than suppression; the per-sentence pass records a peace track of 0.573 and scores P37 (S063) at 1.0.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "EV-PEACE-02",
+            "quote_or_event": "Those are not enemies.",
+            "location": "S054",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Explicitly refuses to frame the two routes to knowledge as hostile; the per-sentence pass scores P33 (S054) at 1.0.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "EV-PEACE-03",
+            "quote_or_event": "The Church can mishandle what it receives.",
+            "location": "S116",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Acknowledges unresolved conflict in the receiving community without describing any repair; the tension is named but not reintegrated within the unit.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.25,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "PASS",
+          "power": "UNKNOWN",
+          "correction": "WARN",
+          "outsider": "PASS",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Peace appears as a stated integrative posture toward the reason/revelation tension (S054, S062-S063, S129-S132), which is the rubric's mechanism rather than imposed silence. But it is a posture about ideas, not demonstrated reintegration of persons or communities, and the acknowledged church-level mishandling (S116) is left unrepaired. Score 2 with low confidence."
+      },
+      {
+        "fruit_id": "fruit.patience",
+        "score": 2,
+        "confidence": 0.2,
+        "mechanism": "preservation of persons and processes across the time required for truth, growth, correction, or convergence while acting when action is due",
+        "positive_evidence": [
+          {
+            "ref_id": "EV-PAT-01",
+            "quote_or_event": "The disclosed portrait can be stated honestly before it is proven publicly.",
+            "location": "S126",
+            "evidence_type": "PROCESS",
+            "link_reason": "Sequences disclosure before proof, tolerating an interval in which the claim is stated but not yet established — a patience-shaped process rather than premature closure.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "EV-PAT-02",
+            "quote_or_event": "The support layer must face the historical questions, the Johannine context, rival religious claims, translation issues, and resurrection evidence.",
+            "location": "S091",
+            "evidence_type": "MISSING",
+            "link_reason": "The document defers the long work to a support layer not present in the unit; whether the deferral is due patience or is indefinite postponement cannot be determined from the supplied text.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.15,
+        "stress_tests": {
+          "source": "UNKNOWN",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "WARN",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "The per-sentence pass reports a patience mean of 0.0 and no extremes. The only patience-adjacent mechanism is the stated sequencing at S126, and the deferral at S091 could be read either as patience or as postponement; the unit does not let us distinguish. Score 2, low confidence, no counterfeit flag."
+      },
+      {
+        "fruit_id": "fruit.kindness",
+        "score": 2,
+        "confidence": 0.35,
+        "mechanism": "low-friction repair and assistance that reduces needless barriers without erasing truth or responsibility",
+        "positive_evidence": [
+          {
+            "ref_id": "EV-KIND-01",
+            "quote_or_event": "A skeptic does not have to accept the Bible’s authority to understand what this paper is doing.",
+            "location": "S120",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Removes an unnecessary barrier to the reader's participation without conceding the truth claim; the per-sentence pass scores this sentence's kindness track at 1.0.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "EV-KIND-02",
+            "quote_or_event": "This paper is not saying: “Exodus 3:14 is in the Bible, therefore God exists.”",
+            "location": "S122",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Declines a rhetorical shortcut that would burden the reader with an argument the paper does not need; reduces friction without erasing the claim.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [],
+        "evidence_coverage": 0.2,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "PASS",
+          "power": "UNKNOWN",
+          "correction": "UNKNOWN",
+          "outsider": "PASS",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Kindness appears as reader-facing barrier reduction (S120, S122) and is not used to refuse necessary correction — the document keeps its truth claims intact (S134-S135). It is present in one context only, with no cost or repair shown. Score 2 with low confidence; the per-sentence pass's kindness track of 1.0 on S120 supports the direction but rests on a single sentence."
+      },
+      {
+        "fruit_id": "fruit.goodness",
+        "score": 2,
+        "confidence": 0.2,
+        "mechanism": "truth-aligned action producing real non-malign benefit after costs and externalities are counted",
+        "positive_evidence": [],
+        "counterevidence": [],
+        "evidence_coverage": 0.05,
+        "stress_tests": {
+          "source": "UNKNOWN",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "UNKNOWN",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "The document performs no action whose costs and externalities could be counted; it is an argumentative essay, and the per-sentence pass reports a goodness mean of 0.0. No evidence either way: score 2, very low confidence, no counterfeit flag."
+      },
+      {
+        "fruit_id": "fruit.faithfulness",
+        "score": 2,
+        "confidence": 0.4,
+        "mechanism": "invariant fidelity across time, audiences, incentives, and pressure, joined to correction when the object of loyalty is false",
+        "positive_evidence": [
+          {
+            "ref_id": "EV-FAITH-01",
+            "quote_or_event": "It does not prove by itself that Jesus is who Christianity says He is. Anyone can make a large claim.",
+            "location": "S089",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Fidelity to the claim is joined to correction: the document refuses to overstate what its own identity-language argument establishes.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "EV-FAITH-02",
+            "quote_or_event": "Revelation can be misunderstood. Claims of revelation can be false. Scripture must be interpreted. History must be investigated. The Church can mishandle what it receives.",
+            "location": "S112",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Applies a correction standard to the tradition the document is defending, including its own community — the rubric's requirement that fidelity be joined to correction when the object of loyalty may be false.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "EV-FAITH-03",
+            "quote_or_event": "The support layer must face the historical questions, the Johannine context, rival religious claims, translation issues, and resurrection evidence.",
+            "location": "S091",
+            "evidence_type": "MISSING",
+            "link_reason": "The correction standard is stated but not applied within the unit; the historical and rival-claim work is deferred, so fidelity under evidential pressure is asserted rather than shown.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.3,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "PASS",
+          "power": "WARN",
+          "correction": "PASS",
+          "outsider": "WARN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "The document shows a correction-joined fidelity: it states its claim strongly (S134-S135) while conceding the argument's limits (S089-S090) and naming failure modes of its own tradition (S112-S116). That is the opposite of tribal stubbornness. But the fidelity is not tested by any cost, pressure, or rival-claim engagement inside the unit, and the per-sentence pass's faithfulness track is slightly negative (-0.007), which I read as noise on a near-zero signal rather than as counterevidence. Score 2 with low confidence."
+      },
+      {
+        "fruit_id": "fruit.gentleness",
+        "score": 2,
+        "confidence": 0.35,
+        "mechanism": "power precisely restrained to the minimum force sufficient for the good while protecting the vulnerable",
+        "positive_evidence": [
+          {
+            "ref_id": "EV-GENT-01",
+            "quote_or_event": "A skeptic does not have to accept the Bible’s authority to understand what this paper is doing.",
+            "location": "S120",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Restrains the paper's rhetorical power over the reader; the per-sentence pass scores this sentence's gentleness track at 1.0 for 'grants reader freedom to withhold assent'.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "EV-GENT-02",
+            "quote_or_event": "The disclosed portrait can be stated honestly before it is proven publicly.",
+            "location": "S126",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Declines to leverage proof-pressure on the reader; states the claim at the minimum force needed for the argument to proceed.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [],
+        "evidence_coverage": 0.2,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "PASS",
+          "power": "PASS",
+          "correction": "UNKNOWN",
+          "outsider": "PASS",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Gentleness appears as restrained rhetorical power toward a dissenting reader (S120, S126) and is not appeasement: the document does not soften its central claim to avoid offense (S134-S135). Present in one context, no cost or endurance shown. Score 2 with low confidence."
+      },
+      {
+        "fruit_id": "fruit.self_control",
+        "score": 2,
+        "confidence": 0.4,
+        "mechanism": "boundary integrity and governance of appetite, impulse, scope, and optimization under the true good",
+        "positive_evidence": [
+          {
+            "ref_id": "EV-SC-01",
+            "quote_or_event": "The name does not answer every philosophical question. It does not hand us a diagram of God’s essence. It does not remove mystery.",
+            "location": "S040",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Explicit scope discipline: the document refuses to over-claim what its central text establishes. The per-sentence pass scores P23 (S040-S042) at 1.0 and gives self_control the highest fruit mean in the document (0.127).",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "EV-SC-02",
+            "quote_or_event": "It does not prove by itself that Jesus is who Christianity says He is. Anyone can make a large claim.",
+            "location": "S089",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Governs the impulse to overstate the identity-language argument; keeps the claim within what the argument supports.",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "EV-SC-03",
+            "quote_or_event": "This paper is not saying: “Exodus 3:14 is in the Bible, therefore God exists.”",
+            "location": "S122",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Refuses the shortcut inference; boundary integrity between what the text says and what the paper claims.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "EV-SC-04",
+            "quote_or_event": "Theophysics does not need to collapse those into one method.",
+            "location": "S062",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "The 'Theophysics' frame is invoked without a stated method or boundary, which is a mild scope-creep risk: a named synthesis is asserted while its rules are deferred. The per-sentence pass's self_control track is slightly negative (-0.032), consistent with a small unresolved scope question.",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.4,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "PASS",
+          "power": "PASS",
+          "correction": "PASS",
+          "outsider": "PASS",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Self-control is the document's strongest fruit signal: repeated scope discipline across more than one context (S040-S042, S089-S090, S122, S126), which the per-sentence pass independently ranks highest (mean 0.127). It is not yet robust — no cost, pressure, or correction event tests it, and the unnamed 'Theophysics' method (S062) is a small boundary gap. Score 2 with moderate confidence; I would not raise it to 3 on a single document with no external pressure."
+      }
+    ],
+    "contradictions": [
+      {
+        "classification": "ACKNOWLEDGED_REPAIRED",
+        "load_bearing": false,
+        "resolved": true,
+        "evidence_refs": [
+          "S054",
+          "S062",
+          "S063",
+          "S129",
+          "S132"
+        ],
+        "fruit_relation": "peace",
+        "consequence": "The apparent tension between upward reasoning and divine disclosure is named and held as convergent rather than suppressed; it supports the peace reading and does not threaten any gate."
+      },
+      {
+        "classification": "ACKNOWLEDGED_REPAIRED",
+        "load_bearing": false,
+        "resolved": true,
+        "evidence_refs": [
+          "S089",
+          "S090",
+          "S091"
+        ],
+        "fruit_relation": "faithfulness, self_control",
+        "consequence": "The tension between the strength of the identity-language claim and its evidential support is acknowledged and explicitly deferred to a support layer; because the deferral is stated, it is not a load-bearing unresolved contradiction within this unit."
+      },
+      {
+        "classification": "UNRESOLVED",
+        "load_bearing": false,
+        "resolved": false,
+        "evidence_refs": [
+          "S062",
+          "S091"
+        ],
+        "fruit_relation": "self_control",
+        "consequence": "The 'Theophysics' synthesis is named but its method and the referenced support layer are absent from the supplied unit; this is a bounded, acknowledged gap rather than a contradiction, and it does not fail the contradiction gate."
+      }
+    ],
+    "counterfeit_flags": [],
+    "anti_fruit_pressure": [],
+    "stakeholder_divergence": [
+      {
+        "stakeholder": "insider (Christian reader)",
+        "observation": "Receives a strong statement of the tradition's central claim (S134-S135) with internal correction standards attached (S112-S116).",
+        "evidence_refs": [
+          "S112",
+          "S116",
+          "S134",
+          "S135"
+        ]
+      },
+      {
+        "stakeholder": "outsider (skeptic)",
+        "observation": "Explicitly granted standing to follow the argument without conceding biblical authority (S120, S122); rival religious claims are named as work still owed (S091) but are not engaged in this unit.",
+        "evidence_refs": [
+          "S091",
+          "S120",
+          "S122"
+        ]
+      },
+      {
+        "stakeholder": "harmed or affected parties",
+        "observation": "None identified in the supplied document; no population is described as bearing cost or harm from the claims made.",
+        "evidence_refs": []
+      }
+    ],
+    "aggregation": {
+      "mode": "gated_profile",
+      "arithmetic_summary": 18,
+      "geometric_balance": 2.0,
+      "multiplicative_coherence": null,
+      "minimum_fruit": {
+        "fruit_id": "fruit.joy",
+        "score": 2
+      },
+      "vetoes": []
+    },
+    "epistemic_status": "CONDITIONAL",
+    "system_status": "COHERENT_BUT_FRAGILE",
+    "confidence": 0.35,
+    "missing_evidence": [
+      "The referenced support layer (S091) is not included in the supplied unit; its historical, Johannine-context, rival-claim, translation, and resurrection evidence cannot be assessed.",
+      "Johannine 'I am' sayings (S072-S078) are quoted without book/chapter/verse citations, so the quotations cannot be traced to a specific translation or edition.",
+      "No stated kill condition for the central claim that God has disclosed Himself.",
+      "No method specification for the 'Theophysics' frame (S062).",
+      "No evidence of the document's behavior under cost, pressure, correction, or affected-party review; all such stress tests are UNKNOWN.",
+      "No time_window is supplied, so endurance and succession cannot be assessed."
+    ],
+    "repair_path": [
+      "Include or link the support layer named at S091 so the deferred historical and rival-claim work can be evaluated.",
+      "Add citations (book, chapter, verse, translation) for the Johannine quotations at S072-S078.",
+      "State an explicit falsification condition for the claim that God has disclosed Himself.",
+      "Specify the method and boundaries of the 'Theophysics' synthesis named at S062.",
+      "Provide at least one instance of the document's claims being tested under cost or correction, so faithfulness and self-control can be assessed beyond stated posture."
+    ],
+    "falsifier": "This assessment would be overturned by evidence that the document's deferrals at S091 are indefinite rather than bounded (which would move patience and faithfulness toward counterfeit), by discovery that the uncited Johannine quotations are misquoted or misattributed (which would fail gate.truth_evidence), or by evidence that the reader-agency language at S120/S122/S126 is contradicted elsewhere in the project by coercive framing (which would fail gate.agency_noncoercion).",
+    "limitations": [
+      "The supplied unit is a single argumentative essay; most fruits have no behavioral trace to score, so scores of 2 reflect missing evidence rather than measured deficiency.",
+      "The per-sentence summary's near-zero fruit means (love 0.007, joy 0.0, patience 0.0, goodness 0.0) are consistent with an argumentative genre and are not treated as anti-fruit evidence; I disagree with reading them as character signals in either direction.",
+      "The per-sentence summary reports no counterfeit or hidden-fruit candidates; I concur, and note that its top_toward list (S120, S091, S040-S042) matches the evidence I cite for love, faithfulness, and self_control.",
+      "No claim is made about the author's motives, salvation status, or the divine origin of any claim; only the text's mechanism is scored.",
+      "The 'Theophysics' project frame is referenced but not defined in this unit, so cross-document claims cannot be verified here."
+    ],
+    "formal_receipt": {
+      "rubric_id": "fruits.epistemic.v0.3.0",
+      "aggregation_mode": "gated_profile",
+      "source_sha256": "e072bc5047250206a3e3c362f76842ac80d274ba3c45abc3af77d2de0910d97a",
+      "hard_gates": {
+        "gate.truth_evidence": "WARN",
+        "gate.contradiction": "PASS",
+        "gate.agency_noncoercion": "PASS"
+      },
+      "hard_gate_failures": 0,
+      "vetoes": 0,
+      "sentence_summary_used": true,
+      "sentence_summary_disagreements": [
+        "The per-sentence pass's near-zero love mean is not treated as evidence of low love; the document's love-relevant mechanism is agency preservation, which the pass itself scores at S120."
+      ]
+    }
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "fruits",
+      "attempt": 1,
+      "text": "{\n  \"spec_version\": \"0.3.0\",\n  \"target\": {\n    \"type\": \"paper\",\n    \"title\": \"AX_GI_03_FL_01_I_AM_THE_ROOT_SPEAKS_7c196c27\",\n    \"domain\": \"unknown; infer conservatively — the supplied document is a theological/argumentative essay on divine self-disclosure (Exodus 3:14, Johannine 'I am' sayings) with a stated project frame ('Theophysics'); no empirical method is specified\",\n    \"unit\": \"complete supplied document\",\n    \"comparison_class\": \"paper of similar purpose and evidence burden\",\n    \"population_boundary\": \"persons and groups explicitly represented in the supplied document; report omissions\",\n    \"time_window\": null\n  },\n  \"gate_results\": [\n    {\n      \"gate_id\": \"gate.truth_evidence\",\n      \"status\": \"WARN\",\n      \"hard\": true,\n      \"rationale\": \"The document's load-bearing claims are explicitly framed as report of what Christianity claims, not as established fact (S124, S126, S134-S135), and it names the evidence burden it has not discharged (S091). The one direct citation (S016-S017, Exodus 3:14) is traceable to a named source. However, the Johannine 'I am' sayings (S072-S078) are quoted without citation, and no historical, textual, or translation evidence is supplied anywhere in the document. Factual claims are therefore mostly supported only as claims-about-a-tradition, with the supporting layer deferred.\",\n      \"evidence_refs\": [\"S016\", \"S017\", \"S072\", \"S078\", \"S091\", \"S124\", \"S126\"],\n      \"resolution\": \"Not a hard-gate failure: the document does not assert the disputed facts as established. It remains WARN because the deferred support layer (S091) is absent from the supplied unit and the scripture quotations beyond Exodus 3:14 are uncited.\"\n    },\n    {\n      \"gate_id\": \"gate.contradiction\",\n      \"status\": \"PASS\",\n      \"hard\": true,\n      \"rationale\": \"No load-bearing contradiction is present. The apparent tension between reason and revelation is explicitly addressed and held as convergent rather than contradictory (S054, S062-S063, S129-S132). The document also acknowledges that its own arguments may fail (S100) and that revelation claims may be false (S113).\",\n      \"evidence_refs\": [\"S054\", \"S062\", \"S063\", \"S100\", \"S113\", \"S129\", \"S132\"],\n      \"resolution\": null\n    },\n    {\n      \"gate_id\": \"gate.scope\",\n      \"status\": \"PASS\",\n      \"hard\": false,\n      \"rationale\": \"The document stays within its stated scope: describing what Christianity claims and where not to look for God (S043-S045), while explicitly declining to answer every philosophical question (S040-S042) and explicitly deferring historical and evidential questions to a support layer (S091).\",\n      \"evidence_refs\": [\"S040\", \"S041\", \"S042\", \"S043\", \"S091\"],\n      \"resolution\": null\n    },\n    {\n      \"gate_id\": \"gate.falsifiability\",\n      \"status\": \"WARN\",\n      \"hard\": false,\n      \"rationale\": \"The document identifies what would count against it in general terms — revelation can be misunderstood, claims of revelation can be false, Scripture must be interpreted, history must be investigated, the Church can mishandle what it receives (S112-S116) — and concedes some arguments may fail (S100). But it does not state a specific, testable condition under which its own central claim ('God has disclosed Himself') would be judged false.\",\n      \"evidence_refs\": [\"S100\", \"S112\", \"S113\", \"S114\", \"S115\", \"S116\"],\n      \"resolution\": \"A kill condition for the central claim is not supplied in this unit; it may be deferred to the referenced support layer.\"\n    },\n    {\n      \"gate_id\": \"gate.bridge_validity\",\n      \"status\": \"WARN\",\n      \"hard\": false,\n      \"rationale\": \"A cross-domain bridge is asserted between discovery (what the world requires) and disclosure (whom God says He is) at S064-S066, and the document insists the two methods not be collapsed (S062-S063). But the bridge is stated as a posture, not as an explicit mapping with invariants, bridge law, recovery, prediction, alternatives, and kill condition. The 'Theophysics' frame (S062) is named without a stated method.\",\n      \"evidence_refs\": [\"S062\", \"S063\", \"S064\", \"S065\", \"S066\"],\n      \"resolution\": \"Bridge elements are gestured at but not formally specified in this unit.\"\n    },\n    {\n      \"gate_id\": \"gate.provenance\",\n      \"status\": \"WARN\",\n      \"hard\": false,\n      \"rationale\": \"Front matter supplies title, pair_id, sequence, edition, paired article, derivative status, and a support link, and one scripture citation is given with book, chapter, and verse (S016). But the Johannine quotations (S072-S078) carry no citation, and the 'support layer' referenced at S091 is not included in the supplied unit, so its contents cannot be traced.\",\n      \"evidence_refs\": [\"S016\", \"S072\", \"S078\", \"S091\"],\n      \"resolution\": \"Partial: metadata and one citation are traceable; the bulk of quoted scripture and the referenced support layer are not.\"\n    },\n    {\n      \"gate_id\": \"gate.agency_noncoercion\",\n      \"status\": \"PASS\",\n      \"hard\": true,\n      \"rationale\": \"The document explicitly preserves reader agency: a skeptic need not accept the Bible's authority to follow the argument (S120), the paper disclaims the coercive inference 'Exodus 3:14 is in the Bible, therefore God exists' (S122), and it states the disclosed portrait can be stated honestly before it is proven publicly (S126). No concealed compulsion or destruction of agency appears in the text.\",\n      \"evidence_refs\": [\"S120\", \"S122\", \"S126\"],\n      \"resolution\": null\n    }\n  ],\n  \"fruit_profile\": [\n    {\n      \"fruit_id\": \"fruit.love\",\n      \"score\": 2,\n      \"confidence\": 0.4,\n      \"mechanism\": \"truth-aligned relational cohesion seeking the good of the whole and each member while bearing cost and preserving agency\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"EV-LOVE-01\",\n          \"quote_or_event\": \"A skeptic does not have to accept the Bible’s authority to understand what this paper is doing.\",\n          \"location\": \"S120\",\n          \"evidence_type\": \"MECHANISM\",\n          \"link_reason\": \"Preserves the reader's agency and seeks the reader's understanding rather than assent by pressure; the per-sentence pass also scored this sentence highest toward love (sum 4, love 1) for 'preserves skeptic's agency, no coercion'.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"EV-LOVE-02\",\n          \"quote_or_event\": \"It is saying: “If Christianity is being treated as testimony, this is the kind of God it identifies: self-existent, non-derived, personal, speaking, faithful, and finally revealed in Christ.”\",\n          \"location\": \"S124\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Frames the claim as testimony offered for consideration rather than imposed conclusion; the per-sentence pass lists S123 as a love turn.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"EV-LOVE-03\",\n          \"quote_or_event\": \"The support layer must face the historical questions, the Johannine context, rival religious claims, translation issues, and resurrection evidence.\",\n          \"location\": \"S091\",\n          \"evidence_type\": \"MISSING\",\n          \"link_reason\": \"The document names the work required to seek the good of the whole (including rival claimants and outsiders) but does not perform it in this unit; the cost-bearing side of love is asserted as deferred, not demonstrated.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.3,\n      \"stress_tests\": {\n        \"source\": \"WARN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"PASS\",\n        \"power\": \"PASS\",\n        \"correction\": \"WARN\",\n        \"outsider\": \"PASS\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"The document's love-relevant mechanism is agency preservation toward the reader (S120, S122, S126) and inclusion of rival claims in the deferred work (S091). This is genuine but thin: it is a posture stated in one context, with no cost borne, no relational repair shown, and no outsider review performed within the unit. Score 2 (mixed/insufficient) with low confidence; the per-sentence pass's near-zero love mean (0.007) is consistent with a document that is argumentative rather than relational, and I do not treat that near-zero as evidence of anti-fruit.\"\n    },\n    {\n      \"fruit_id\": \"fruit.joy\",\n      \"score\": 2,\n      \"confidence\": 0.2,\n      \"mechanism\": \"durable participation in real good not dependent on denial, spectacle, status, or constant stimulation\",\n      \"positive_evidence\": [],\n      \"counterevidence\": [],\n      \"evidence_coverage\": 0.05,\n      \"stress_tests\": {\n        \"source\": \"UNKNOWN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"UNKNOWN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"UNKNOWN\",\n        \"outsider\": \"UNKNOWN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"The document makes no joy claim and displays no joy mechanism; the per-sentence pass reports a joy mean of 0.0 with no positive or negative extremes. Absence of evidence is reported as absence, not as deficiency: score 2 with very low confidence per the missing-evidence rule. No counterfeit flag, since no joy label is claimed.\"\n    },\n    {\n      \"fruit_id\": \"fruit.peace\",\n      \"score\": 2,\n      \"confidence\": 0.3,\n      \"mechanism\": \"reintegrated order in which relevant tensions are truthfully addressed without suppression\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"EV-PEACE-01\",\n          \"quote_or_event\": \"It needs to let them converge without pretending they are the same thing.\",\n          \"location\": \"S063\",\n          \"evidence_type\": \"MECHANISM\",\n          \"link_reason\": \"Addresses the reason/revelation tension by integration rather than suppression; the per-sentence pass records a peace track of 0.573 and scores P37 (S063) at 1.0.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"EV-PEACE-02\",\n          \"quote_or_event\": \"Those are not enemies.\",\n          \"location\": \"S054\",\n          \"evidence_type\": \"MECHANISM\",\n          \"link_reason\": \"Explicitly refuses to frame the two routes to knowledge as hostile; the per-sentence pass scores P33 (S054) at 1.0.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"EV-PEACE-03\",\n          \"quote_or_event\": \"The Church can mishandle what it receives.\",\n          \"location\": \"S116\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Acknowledges unresolved conflict in the receiving community without describing any repair; the tension is named but not reintegrated within the unit.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.25,\n      \"stress_tests\": {\n        \"source\": \"PASS\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"PASS\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"WARN\",\n        \"outsider\": \"PASS\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"Peace appears as a stated integrative posture toward the reason/revelation tension (S054, S062-S063, S129-S132), which is the rubric's mechanism rather than imposed silence. But it is a posture about ideas, not demonstrated reintegration of persons or communities, and the acknowledged church-level mishandling (S116) is left unrepaired. Score 2 with low confidence.\"\n    },\n    {\n      \"fruit_id\": \"fruit.patience\",\n      \"score\": 2,\n      \"confidence\": 0.2,\n      \"mechanism\": \"preservation of persons and processes across the time required for truth, growth, correction, or convergence while acting when action is due\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"EV-PAT-01\",\n          \"quote_or_event\": \"The disclosed portrait can be stated honestly before it is proven publicly.\",\n          \"location\": \"S126\",\n          \"evidence_type\": \"PROCESS\",\n          \"link_reason\": \"Sequences disclosure before proof, tolerating an interval in which the claim is stated but not yet established — a patience-shaped process rather than premature closure.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"EV-PAT-02\",\n          \"quote_or_event\": \"The support layer must face the historical questions, the Johannine context, rival religious claims, translation issues, and resurrection evidence.\",\n          \"location\": \"S091\",\n          \"evidence_type\": \"MISSING\",\n          \"link_reason\": \"The document defers the long work to a support layer not present in the unit; whether the deferral is due patience or is indefinite postponement cannot be determined from the supplied text.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.15,\n      \"stress_tests\": {\n        \"source\": \"UNKNOWN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"UNKNOWN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"WARN\",\n        \"outsider\": \"UNKNOWN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"The per-sentence pass reports a patience mean of 0.0 and no extremes. The only patience-adjacent mechanism is the stated sequencing at S126, and the deferral at S091 could be read either as patience or as postponement; the unit does not let us distinguish. Score 2, low confidence, no counterfeit flag.\"\n    },\n    {\n      \"fruit_id\": \"fruit.kindness\",\n      \"score\": 2,\n      \"confidence\": 0.35,\n      \"mechanism\": \"low-friction repair and assistance that reduces needless barriers without erasing truth or responsibility\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"EV-KIND-01\",\n          \"quote_or_event\": \"A skeptic does not have to accept the Bible’s authority to understand what this paper is doing.\",\n          \"location\": \"S120\",\n          \"evidence_type\": \"MECHANISM\",\n          \"link_reason\": \"Removes an unnecessary barrier to the reader's participation without conceding the truth claim; the per-sentence pass scores this sentence's kindness track at 1.0.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"EV-KIND-02\",\n          \"quote_or_event\": \"This paper is not saying: “Exodus 3:14 is in the Bible, therefore God exists.”\",\n          \"location\": \"S122\",\n          \"evidence_type\": \"MECHANISM\",\n          \"link_reason\": \"Declines a rhetorical shortcut that would burden the reader with an argument the paper does not need; reduces friction without erasing the claim.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [],\n      \"evidence_coverage\": 0.2,\n      \"stress_tests\": {\n        \"source\": \"PASS\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"PASS\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"UNKNOWN\",\n        \"outsider\": \"PASS\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"Kindness appears as reader-facing barrier reduction (S120, S122) and is not used to refuse necessary correction — the document keeps its truth claims intact (S134-S135). It is present in one context only, with no cost or repair shown. Score 2 with low confidence; the per-sentence pass's kindness track of 1.0 on S120 supports the direction but rests on a single sentence.\"\n    },\n    {\n      \"fruit_id\": \"fruit.goodness\",\n      \"score\": 2,\n      \"confidence\": 0.2,\n      \"mechanism\": \"truth-aligned action producing real non-malign benefit after costs and externalities are counted\",\n      \"positive_evidence\": [],\n      \"counterevidence\": [],\n      \"evidence_coverage\": 0.05,\n      \"stress_tests\": {\n        \"source\": \"UNKNOWN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"UNKNOWN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"UNKNOWN\",\n        \"outsider\": \"UNKNOWN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"The document performs no action whose costs and externalities could be counted; it is an argumentative essay, and the per-sentence pass reports a goodness mean of 0.0. No evidence either way: score 2, very low confidence, no counterfeit flag.\"\n    },\n    {\n      \"fruit_id\": \"fruit.faithfulness\",\n      \"score\": 2,\n      \"confidence\": 0.4,\n      \"mechanism\": \"invariant fidelity across time, audiences, incentives, and pressure, joined to correction when the object of loyalty is false\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"EV-FAITH-01\",\n          \"quote_or_event\": \"It does not prove by itself that Jesus is who Christianity says He is. Anyone can make a large claim.\",\n          \"location\": \"S089\",\n          \"evidence_type\": \"MECHANISM\",\n          \"link_reason\": \"Fidelity to the claim is joined to correction: the document refuses to overstate what its own identity-language argument establishes.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"EV-FAITH-02\",\n          \"quote_or_event\": \"Revelation can be misunderstood. Claims of revelation can be false. Scripture must be interpreted. History must be investigated. The Church can mishandle what it receives.\",\n          \"location\": \"S112\",\n          \"evidence_type\": \"MECHANISM\",\n          \"link_reason\": \"Applies a correction standard to the tradition the document is defending, including its own community — the rubric's requirement that fidelity be joined to correction when the object of loyalty may be false.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"EV-FAITH-03\",\n          \"quote_or_event\": \"The support layer must face the historical questions, the Johannine context, rival religious claims, translation issues, and resurrection evidence.\",\n          \"location\": \"S091\",\n          \"evidence_type\": \"MISSING\",\n          \"link_reason\": \"The correction standard is stated but not applied within the unit; the historical and rival-claim work is deferred, so fidelity under evidential pressure is asserted rather than shown.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.3,\n      \"stress_tests\": {\n        \"source\": \"PASS\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"PASS\",\n        \"power\": \"WARN\",\n        \"correction\": \"PASS\",\n        \"outsider\": \"WARN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"The document shows a correction-joined fidelity: it states its claim strongly (S134-S135) while conceding the argument's limits (S089-S090) and naming failure modes of its own tradition (S112-S116). That is the opposite of tribal stubbornness. But the fidelity is not tested by any cost, pressure, or rival-claim engagement inside the unit, and the per-sentence pass's faithfulness track is slightly negative (-0.007), which I read as noise on a near-zero signal rather than as counterevidence. Score 2 with low confidence.\"\n    },\n    {\n      \"fruit_id\": \"fruit.gentleness\",\n      \"score\": 2,\n      \"confidence\": 0.35,\n      \"mechanism\": \"power precisely restrained to the minimum force sufficient for the good while protecting the vulnerable\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"EV-GENT-01\",\n          \"quote_or_event\": \"A skeptic does not have to accept the Bible’s authority to understand what this paper is doing.\",\n          \"location\": \"S120\",\n          \"evidence_type\": \"MECHANISM\",\n          \"link_reason\": \"Restrains the paper's rhetorical power over the reader; the per-sentence pass scores this sentence's gentleness track at 1.0 for 'grants reader freedom to withhold assent'.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"EV-GENT-02\",\n          \"quote_or_event\": \"The disclosed portrait can be stated honestly before it is proven publicly.\",\n          \"location\": \"S126\",\n          \"evidence_type\": \"MECHANISM\",\n          \"link_reason\": \"Declines to leverage proof-pressure on the reader; states the claim at the minimum force needed for the argument to proceed.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [],\n      \"evidence_coverage\": 0.2,\n      \"stress_tests\": {\n        \"source\": \"PASS\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"PASS\",\n        \"power\": \"PASS\",\n        \"correction\": \"UNKNOWN\",\n        \"outsider\": \"PASS\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"Gentleness appears as restrained rhetorical power toward a dissenting reader (S120, S126) and is not appeasement: the document does not soften its central claim to avoid offense (S134-S135). Present in one context, no cost or endurance shown. Score 2 with low confidence.\"\n    },\n    {\n      \"fruit_id\": \"fruit.self_control\",\n      \"score\": 2,\n      \"confidence\": 0.4,\n      \"mechanism\": \"boundary integrity and governance of appetite, impulse, scope, and optimization under the true good\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"EV-SC-01\",\n          \"quote_or_event\": \"The name does not answer every philosophical question. It does not hand us a diagram of God’s essence. It does not remove mystery.\",\n          \"location\": \"S040\",\n          \"evidence_type\": \"MECHANISM\",\n          \"link_reason\": \"Explicit scope discipline: the document refuses to over-claim what its central text establishes. The per-sentence pass scores P23 (S040-S042) at 1.0 and gives self_control the highest fruit mean in the document (0.127).\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"EV-SC-02\",\n          \"quote_or_event\": \"It does not prove by itself that Jesus is who Christianity says He is. Anyone can make a large claim.\",\n          \"location\": \"S089\",\n          \"evidence_type\": \"MECHANISM\",\n          \"link_reason\": \"Governs the impulse to overstate the identity-language argument; keeps the claim within what the argument supports.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"EV-SC-03\",\n          \"quote_or_event\": \"This paper is not saying: “Exodus 3:14 is in the Bible, therefore God exists.”\",\n          \"location\": \"S122\",\n          \"evidence_type\": \"MECHANISM\",\n          \"link_reason\": \"Refuses the shortcut inference; boundary integrity between what the text says and what the paper claims.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"EV-SC-04\",\n          \"quote_or_event\": \"Theophysics does not need to collapse those into one method.\",\n          \"location\": \"S062\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"The 'Theophysics' frame is invoked without a stated method or boundary, which is a mild scope-creep risk: a named synthesis is asserted while its rules are deferred. The per-sentence pass's self_control track is slightly negative (-0.032), consistent with a small unresolved scope question.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.4,\n      \"stress_tests\": {\n        \"source\": \"PASS\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"PASS\",\n        \"power\": \"PASS\",\n        \"correction\": \"PASS\",\n        \"outsider\": \"PASS\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"Self-control is the document's strongest fruit signal: repeated scope discipline across more than one context (S040-S042, S089-S090, S122, S126), which the per-sentence pass independently ranks highest (mean 0.127). It is not yet robust — no cost, pressure, or correction event tests it, and the unnamed 'Theophysics' method (S062) is a small boundary gap. Score 2 with moderate confidence; I would not raise it to 3 on a single document with no external pressure.\"\n    }\n  ],\n  \"contradictions\": [\n    {\n      \"classification\": \"ACKNOWLEDGED_REPAIRED\",\n      \"load_bearing\": false,\n      \"resolved\": true,\n      \"evidence_refs\": [\"S054\", \"S062\", \"S063\", \"S129\", \"S132\"],\n      \"fruit_relation\": \"peace\",\n      \"consequence\": \"The apparent tension between upward reasoning and divine disclosure is named and held as convergent rather than suppressed; it supports the peace reading and does not threaten any gate.\"\n    },\n    {\n      \"classification\": \"ACKNOWLEDGED_REPAIRED\",\n      \"load_bearing\": false,\n      \"resolved\": true,\n      \"evidence_refs\": [\"S089\", \"S090\", \"S091\"],\n      \"fruit_relation\": \"faithfulness, self_control\",\n      \"consequence\": \"The tension between the strength of the identity-language claim and its evidential support is acknowledged and explicitly deferred to a support layer; because the deferral is stated, it is not a load-bearing unresolved contradiction within this unit.\"\n    },\n    {\n      \"classification\": \"UNRESOLVED\",\n      \"load_bearing\": false,\n      \"resolved\": false,\n      \"evidence_refs\": [\"S062\", \"S091\"],\n      \"fruit_relation\": \"self_control\",\n      \"consequence\": \"The 'Theophysics' synthesis is named but its method and the referenced support layer are absent from the supplied unit; this is a bounded, acknowledged gap rather than a contradiction, and it does not fail the contradiction gate.\"\n    }\n  ],\n  \"counterfeit_flags\": [],\n  \"anti_fruit_pressure\": [],\n  \"stakeholder_divergence\": [\n    {\n      \"stakeholder\": \"insider (Christian reader)\",\n      \"observation\": \"Receives a strong statement of the tradition's central claim (S134-S135) with internal correction standards attached (S112-S116).\",\n      \"evidence_refs\": [\"S112\", \"S116\", \"S134\", \"S135\"]\n    },\n    {\n      \"stakeholder\": \"outsider (skeptic)\",\n      \"observation\": \"Explicitly granted standing to follow the argument without conceding biblical authority (S120, S122); rival religious claims are named as work still owed (S091) but are not engaged in this unit.\",\n      \"evidence_refs\": [\"S091\", \"S120\", \"S122\"]\n    },\n    {\n      \"stakeholder\": \"harmed or affected parties\",\n      \"observation\": \"None identified in the supplied document; no population is described as bearing cost or harm from the claims made.\",\n      \"evidence_refs\": []\n    }\n  ],\n  \"aggregation\": {\n    \"mode\": \"gated_profile\",\n    \"arithmetic_summary\": 18,\n    \"geometric_balance\": 2.0,\n    \"multiplicative_coherence\": null,\n    \"minimum_fruit\": {\n      \"fruit_id\": \"fruit.joy\",\n      \"score\": 2\n    },\n    \"vetoes\": []\n  },\n  \"epistemic_status\": \"CONDITIONAL\",\n  \"system_status\": \"COHERENT_BUT_FRAGILE\",\n  \"confidence\": 0.35,\n  \"missing_evidence\": [\n    \"The referenced support layer (S091) is not included in the supplied unit; its historical, Johannine-context, rival-claim, translation, and resurrection evidence cannot be assessed.\",\n    \"Johannine 'I am' sayings (S072-S078) are quoted without book/chapter/verse citations, so the quotations cannot be traced to a specific translation or edition.\",\n    \"No stated kill condition for the central claim that God has disclosed Himself.\",\n    \"No method specification for the 'Theophysics' frame (S062).\",\n    \"No evidence of the document's behavior under cost, pressure, correction, or affected-party review; all such stress tests are UNKNOWN.\",\n    \"No time_window is supplied, so endurance and succession cannot be assessed.\"\n  ],\n  \"repair_path\": [\n    \"Include or link the support layer named at S091 so the deferred historical and rival-claim work can be evaluated.\",\n    \"Add citations (book, chapter, verse, translation) for the Johannine quotations at S072-S078.\",\n    \"State an explicit falsification condition for the claim that God has disclosed Himself.\",\n    \"Specify the method and boundaries of the 'Theophysics' synthesis named at S062.\",\n    \"Provide at least one instance of the document's claims being tested under cost or correction, so faithfulness and self-control can be assessed beyond stated posture.\"\n  ],\n  \"falsifier\": \"This assessment would be overturned by evidence that the document's deferrals at S091 are indefinite rather than bounded (which would move patience and faithfulness toward counterfeit), by discovery that the uncited Johannine quotations are misquoted or misattributed (which would fail gate.truth_evidence), or by evidence that the reader-agency language at S120/S122/S126 is contradicted elsewhere in the project by coercive framing (which would fail gate.agency_noncoercion).\",\n  \"limitations\": [\n    \"The supplied unit is a single argumentative essay; most fruits have no behavioral trace to score, so scores of 2 reflect missing evidence rather than measured deficiency.\",\n    \"The per-sentence summary's near-zero fruit means (love 0.007, joy 0.0, patience 0.0, goodness 0.0) are consistent with an argumentative genre and are not treated as anti-fruit evidence; I disagree with reading them as character signals in either direction.\",\n    \"The per-sentence summary reports no counterfeit or hidden-fruit candidates; I concur, and note that its top_toward list (S120, S091, S040-S042) matches the evidence I cite for love, faithfulness, and self_control.\",\n    \"No claim is made about the author's motives, salvation status, or the divine origin of any claim; only the text's mechanism is scored.\",\n    \"The 'Theophysics' project frame is referenced but not defined in this unit, so cross-document claims cannot be verified here.\"\n  ],\n  \"formal_receipt\": {\n    \"rubric_id\": \"fruits.epistemic.v0.3.0\",\n    \"aggregation_mode\": \"gated_profile\",\n    \"source_sha256\": \"e072bc5047250206a3e3c362f76842ac80d274ba3c45abc3af77d2de0910d97a\",\n    \"hard_gates\": {\n      \"gate.truth_evidence\": \"WARN\",\n      \"gate.contradiction\": \"PASS\",\n      \"gate.agency_noncoercion\": \"PASS\"\n    },\n    \"hard_gate_failures\": 0,\n    \"vetoes\": 0,\n    \"sentence_summary_used\": true,\n    \"sentence_summary_disagreements\": [\n      \"The per-sentence pass's near-zero love mean is not treated as evidence of low love; the document's love-relevant mechanism is agency preservation, which the pass itself scores at S120.\"\n    ]\n  }\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 7724,
+      "completion_tokens": 7850,
+      "attempts": 1,
+      "elapsed_seconds": 30.20299999999952,
+      "started_at": "2026-09-27T05:39:57.733179+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T05:40:27.944961+00:00",
+      "tokens": 15574
+    }
+  ],
+  "prompt_sha256": "582234354d0aa8f825218f0a751a64aaf817df7872ca0a5af26dd3edf234cb6b",
+  "tokens": 15574
+}

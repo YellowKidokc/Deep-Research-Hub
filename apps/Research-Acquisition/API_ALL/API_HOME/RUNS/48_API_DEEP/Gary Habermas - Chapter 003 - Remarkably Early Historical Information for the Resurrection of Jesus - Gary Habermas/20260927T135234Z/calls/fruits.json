@@ -1,0 +1,723 @@
+{
+  "name": "fruits",
+  "parsed": {
+    "spec_version": "0.3.0",
+    "target": {
+      "type": "paper",
+      "title": "Gary Habermas - Chapter 003 - Remarkably Early Historical Information for the Resurrection of Jesus - Gary Habermas",
+      "domain": "Christian apologetics / historical argument for the resurrection (spoken lecture transcript)",
+      "unit": "complete supplied document",
+      "comparison_class": "paper of similar purpose and evidence burden",
+      "population_boundary": "Speaker (Gary Habermas) and named scholars/critics he cites; audience addressed but not individually represented; no outsider or harmed-party testimony included",
+      "time_window": "lecture delivered ~2020s; historical claims span 30-95 AD and modern scholarship"
+    },
+    "gate_results": [
+      {
+        "gate_id": "gate.truth_evidence",
+        "status": "WARN",
+        "hard": true,
+        "rationale": "Claims are tied to named scholars and texts (Lüdemann, Ehrman, Galatians 1-2, 1 Cor 15) and dates are explicitly flagged as critical/consensus dates, but quotations are paraphrased from memory, no citations given, and several datings are asserted without sourcing.",
+        "evidence_refs": [
+          "S088",
+          "S089",
+          "S090",
+          "S091",
+          "S092",
+          "S242",
+          "S290",
+          "S292",
+          "S303"
+        ],
+        "resolution": "Traceable in outline; would need page-level citation to pass."
+      },
+      {
+        "gate_id": "gate.contradiction",
+        "status": "PASS",
+        "hard": true,
+        "rationale": "Speaker acknowledges disputes (Galatians dating, Peter-behind-Mark majority 'barely', 30 vs 33 AD) and treats them as bounded, not load-bearing.",
+        "evidence_refs": [
+          "S078",
+          "S185",
+          "S318"
+        ],
+        "resolution": null
+      },
+      {
+        "gate_id": "gate.scope",
+        "status": "WARN",
+        "hard": false,
+        "rationale": "Historical-evidence argument is kept within its method, but the leap from 'critics grant the data' to 'Christianity is true' (S006, S012) exceeds what historical method alone yields.",
+        "evidence_refs": [
+          "S006",
+          "S012",
+          "S093",
+          "S544"
+        ],
+        "resolution": null
+      },
+      {
+        "gate_id": "gate.falsifiability",
+        "status": "WARN",
+        "hard": false,
+        "rationale": "Speaker names what would count against him (myth, telephone-tag, misconstrued data) and engages the objection, but does not state what evidence would overturn his own conclusion.",
+        "evidence_refs": [
+          "S324",
+          "S350",
+          "S353",
+          "S358",
+          "S412"
+        ],
+        "resolution": null
+      },
+      {
+        "gate_id": "gate.bridge_validity",
+        "status": "UNKNOWN",
+        "hard": false,
+        "rationale": "Cross-domain moves (psychology of doubt, genre theory of Greco-Roman bios) are invoked without explicit bridge conditions or kill criteria.",
+        "evidence_refs": [
+          "S173",
+          "S178",
+          "S557",
+          "S561"
+        ],
+        "resolution": null
+      },
+      {
+        "gate_id": "gate.provenance",
+        "status": "WARN",
+        "hard": false,
+        "rationale": "Named sources and scripture refs are given, but no bibliographic citations; transcript is auto-captioned with acknowledged caption noise and no speaker labels.",
+        "evidence_refs": [
+          "S233",
+          "S234",
+          "S430",
+          "S434"
+        ],
+        "resolution": null
+      },
+      {
+        "gate_id": "gate.agency_noncoercion",
+        "status": "PASS",
+        "hard": true,
+        "rationale": "Persuasion by argument in a voluntary lecture setting; no coercion, threat, or concealed compulsion; audience free to reject (S547, S548).",
+        "evidence_refs": [
+          "S547",
+          "S548",
+          "S724"
+        ],
+        "resolution": null
+      }
+    ],
+    "fruit_profile": [
+      {
+        "fruit_id": "fruit.love",
+        "score": 2,
+        "confidence": 0.4,
+        "mechanism": "truth-aligned relational cohesion seeking the good of the whole and each member while bearing cost and preserving agency",
+        "positive_evidence": [
+          {
+            "ref_id": "E-L1",
+            "quote_or_event": "I hope it's going to help all of you in your walk with the Lord.",
+            "location": "S727",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Beneficent intent toward audience",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-L2",
+            "quote_or_event": "God uses wounded lives.",
+            "location": "S524",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Pastoral framing toward the broken",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-L3",
+            "quote_or_event": "John stinks at plus 60.",
+            "location": "S143",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Mocking dismissal of an interlocutor's position",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.3,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "WARN",
+          "power": "PASS",
+          "correction": "UNKNOWN",
+          "outsider": "FAIL",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Warm pastoral intent toward in-group; no evidence of costly love toward outsiders or critics."
+      },
+      {
+        "fruit_id": "fruit.joy",
+        "score": 2,
+        "confidence": 0.4,
+        "mechanism": "durable participation in real good not dependent on denial, spectacle, status, or constant stimulation",
+        "positive_evidence": [
+          {
+            "ref_id": "E-J1",
+            "quote_or_event": "The resurrection of Jesus is the most exciting, I think, subject in scripture.",
+            "location": "S004",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Expressed durable delight in subject",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-J2",
+            "quote_or_event": "Christ gives us the abundant life now and eternity.",
+            "location": "S721",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Joy grounded in claimed good, not spectacle",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [],
+        "evidence_coverage": 0.25,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "UNKNOWN",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Genuine enthusiasm expressed; no evidence of joy persisting under cost or across contexts."
+      },
+      {
+        "fruit_id": "fruit.peace",
+        "score": 2,
+        "confidence": 0.3,
+        "mechanism": "reintegrated order in which relevant tensions are truthfully addressed without suppression",
+        "positive_evidence": [
+          {
+            "ref_id": "E-P1",
+            "quote_or_event": "Be steadfast.",
+            "location": "S621",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Exhortation to stability amid doubt",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-P2",
+            "quote_or_event": "You have to tell your emotions where to get off.",
+            "location": "S595",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Frames emotional tension as to be suppressed rather than addressed",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.2,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "UNKNOWN",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Peace framed as resolve; emotional doubt handled by dismissal of feeling, a possible suppression pattern."
+      },
+      {
+        "fruit_id": "fruit.patience",
+        "score": 2,
+        "confidence": 0.3,
+        "mechanism": "preservation of persons and processes across the time required for truth, growth, correction, or convergence while acting when action is due",
+        "positive_evidence": [
+          {
+            "ref_id": "E-PA1",
+            "quote_or_event": "We This took us years.",
+            "location": "S558",
+            "evidence_type": "PROCESS",
+            "link_reason": "Sustained multi-year research effort",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [],
+        "evidence_coverage": 0.2,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "UNKNOWN",
+          "endurance": "WARN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "UNKNOWN",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Long research program cited; little evidence of patience toward opposing views."
+      },
+      {
+        "fruit_id": "fruit.kindness",
+        "score": 2,
+        "confidence": 0.35,
+        "mechanism": "low-friction repair and assistance that reduces needless barriers without erasing truth or responsibility",
+        "positive_evidence": [
+          {
+            "ref_id": "E-K1",
+            "quote_or_event": "two of them are on my website, garyhabermas.com. They're free.",
+            "location": "S550",
+            "evidence_type": "OUTPUT",
+            "link_reason": "Free resource offered to doubters",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-K2",
+            "quote_or_event": "I don't sell anything on my website.",
+            "location": "S552",
+            "evidence_type": "OUTPUT",
+            "link_reason": "Declines monetization of help",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-K3",
+            "quote_or_event": "John stinks at plus 60.",
+            "location": "S143",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Contemptuous phrasing toward opposing view",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-K4",
+            "quote_or_event": "Baloney.",
+            "location": "S329",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Blunt dismissal of a common apologetic",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.35,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "PASS",
+          "endurance": "UNKNOWN",
+          "relation": "WARN",
+          "power": "UNKNOWN",
+          "correction": "UNKNOWN",
+          "outsider": "WARN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Real low-cost assistance (free books) alongside dismissive rhetoric toward critics."
+      },
+      {
+        "fruit_id": "fruit.goodness",
+        "score": 2,
+        "confidence": 0.35,
+        "mechanism": "truth-aligned action producing real non-malign benefit after costs and externalities are counted",
+        "positive_evidence": [
+          {
+            "ref_id": "E-G1",
+            "quote_or_event": "He takes up an offering, probably the third one that day, for for Some of you know what I mean.",
+            "location": "S709",
+            "evidence_type": "OUTPUT",
+            "link_reason": "Cited charitable collection for the poor",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-G2",
+            "quote_or_event": "They're free.",
+            "location": "S551",
+            "evidence_type": "OUTPUT",
+            "link_reason": "Non-monetized distribution of work",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [],
+        "evidence_coverage": 0.25,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "WARN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "UNKNOWN",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Benefit is mostly intellectual/pastoral; no evidence of exported harm, but also little verified downstream benefit."
+      },
+      {
+        "fruit_id": "fruit.faithfulness",
+        "score": 3,
+        "confidence": 0.5,
+        "mechanism": "invariant fidelity across time, audiences, incentives, and pressure, joined to correction when the object of loyalty is false",
+        "positive_evidence": [
+          {
+            "ref_id": "E-F1",
+            "quote_or_event": "I'm using critical dates.",
+            "location": "S088",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Commits to opponent-admitted data rather than favorable sources",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-F2",
+            "quote_or_event": "I'm not saying that that that word has to mean history in that context",
+            "location": "S436",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Declines to overclaim on a lexical point",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-F3",
+            "quote_or_event": "This is just my view.",
+            "location": "S638",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Flags own opinion as opinion",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-F4",
+            "quote_or_event": "I said, I don't know.",
+            "location": "S322",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Admits gap in his own argument",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.5,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "WARN",
+          "endurance": "PASS",
+          "relation": "PASS",
+          "power": "UNKNOWN",
+          "correction": "WARN",
+          "outsider": "WARN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Consistent method across the lecture, self-limits on contested points; correction of his own claims is present but narrow."
+      },
+      {
+        "fruit_id": "fruit.gentleness",
+        "score": 2,
+        "confidence": 0.35,
+        "mechanism": "power precisely restrained to the minimum force sufficient for the good while protecting the vulnerable",
+        "positive_evidence": [
+          {
+            "ref_id": "E-GE1",
+            "quote_or_event": "I wouldn't want to call all of them liars",
+            "location": "S115",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Restrains harsh characterization of opponents",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-GE2",
+            "quote_or_event": "I was going to make a little joke, but I won't do that.",
+            "location": "S468",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Self-restraint to avoid needless offense",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-GE3",
+            "quote_or_event": "John stinks at plus 60.",
+            "location": "S143",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Ridicule of a position",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.3,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "WARN",
+          "power": "PASS",
+          "correction": "UNKNOWN",
+          "outsider": "WARN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Some deliberate restraint; occasional ridicule of critics shows force not fully minimized."
+      },
+      {
+        "fruit_id": "fruit.self_control",
+        "score": 2,
+        "confidence": 0.4,
+        "mechanism": "boundary integrity and governance of appetite, impulse, scope, and optimization under the true good",
+        "positive_evidence": [
+          {
+            "ref_id": "E-SC1",
+            "quote_or_event": "I'm not going to be able to do all eight, but I'm going to do the most four most important ones for you tonight.",
+            "location": "S208",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Scopes claims to what time allows",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-SC2",
+            "quote_or_event": "I'm only speaking for myself.",
+            "location": "S639",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Bounds own authority",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-SC3",
+            "quote_or_event": "I'm going to do this part real fast.",
+            "location": "S082",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Rushed delivery risks underdeveloped claims",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.3,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "WARN",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Explicit scoping and self-limitation; some rushed, over-broad framing ('Christianity is true')."
+      }
+    ],
+    "contradictions": [
+      {
+        "classification": "ACKNOWLEDGED_REPAIRED",
+        "load_bearing": false,
+        "resolved": true,
+        "evidence_refs": [
+          "S078",
+          "S185",
+          "S318"
+        ],
+        "fruit_relation": "faithfulness",
+        "consequence": "Dating and source disputes flagged as disputed rather than hidden."
+      },
+      {
+        "classification": "LOCAL",
+        "load_bearing": false,
+        "resolved": false,
+        "evidence_refs": [
+          "S006",
+          "S012",
+          "S093"
+        ],
+        "fruit_relation": "self_control",
+        "consequence": "Historical-evidence method and metaphysical conclusion sit at different confidence levels; not reconciled in text."
+      }
+    ],
+    "counterfeit_flags": [],
+    "anti_fruit_pressure": [
+      {
+        "fruit_id": "fruit.kindness",
+        "pressure": "LOW",
+        "evidence_refs": [
+          "S143",
+          "S329"
+        ]
+      },
+      {
+        "fruit_id": "fruit.gentleness",
+        "pressure": "LOW",
+        "evidence_refs": [
+          "S143"
+        ]
+      }
+    ],
+    "stakeholder_divergence": [
+      {
+        "group": "critics/non-Christian scholars",
+        "observation": "Cited as authorities whose data is accepted, but characterized in places as motivated by worldview rather than evidence (S219-S222).",
+        "evidence_refs": [
+          "S219",
+          "S220",
+          "S221",
+          "S222"
+        ]
+      },
+      {
+        "group": "audience",
+        "observation": "Addressed warmly; emotional doubters told their doubt is not factual (S561).",
+        "evidence_refs": [
+          "S561",
+          "S571"
+        ]
+      }
+    ],
+    "aggregation": {
+      "mode": "gated_profile",
+      "arithmetic_summary": 2.11,
+      "geometric_balance": 2.0,
+      "multiplicative_coherence": null,
+      "minimum_fruit": {
+        "fruit_id": "fruit.love",
+        "score": 2
+      },
+      "vetoes": []
+    },
+    "epistemic_status": "CONDITIONAL",
+    "system_status": "COHERENT_BUT_FRAGILE",
+    "confidence": 0.4,
+    "missing_evidence": [
+      "No bibliographic citations for Lüdemann, Ehrman, or the University of London dissertation",
+      "No outsider or critic self-report; critics characterized only through the speaker",
+      "No evidence of downstream outcomes of the free books or the psychological study",
+      "No speaker labels in transcript; some sentences ambiguous between speakers"
+    ],
+    "repair_path": [
+      "Add page-level citations for every scholar quoted",
+      "State explicitly what evidence would falsify the resurrection conclusion",
+      "Separate historical-method conclusion from the metaphysical claim 'Christianity is true'",
+      "Include critic self-representation rather than paraphrase"
+    ],
+    "falsifier": "A documented case where the speaker's cited critical datings or quotations are materially misrepresented, or where he refuses correction of a load-bearing claim when shown wrong.",
+    "limitations": [
+      "Auto-captioned transcript; caption errors and missing speaker labels are not the speaker's fault",
+      "Single lecture; no longitudinal or cross-context behavioral evidence",
+      "Fruit scores rest on spoken intent and process, not verified outcomes",
+      "Per-sentence summary shows near-zero fruit signal; I treat its 'top_away' items (S006, S012, S143) as weak signals only, and disagree that S006/S012 are anti-fruit — they are scope issues, not character evidence"
+    ],
+    "formal_receipt": {}
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "fruits",
+      "attempt": 1,
+      "text": "{\n  \"spec_version\": \"0.3.0\",\n  \"target\": {\n    \"type\": \"paper\",\n    \"title\": \"Gary Habermas - Chapter 003 - Remarkably Early Historical Information for the Resurrection of Jesus - Gary Habermas\",\n    \"domain\": \"Christian apologetics / historical argument for the resurrection (popular lecture transcript)\",\n    \"unit\": \"complete supplied document\",\n    \"comparison_class\": \"paper of similar purpose and evidence burden\",\n    \"population_boundary\": \"persons and groups explicitly represented in the supplied document; report omissions\",\n    \"time_window\": null\n  },\n  \"gate_results\": [\n    {\n      \"gate_id\": \"gate.truth_evidence\",\n      \"status\": \"WARN\",\n      \"hard\": true,\n      \"rationale\": \"The lecture's load-bearing factual claims are mostly sourced to named scholars and texts (Lüdemann, Ehrman, Josephus, 1 Corinthians 15, Galatians 1-2), and the speaker repeatedly says he is using critics' dates. But several specific claims are asserted without traceable citation in the transcript: the 'major doctoral dissertation at the University of London' that changed the majority view on Gospel genre (S173, S178); the claim that 'the majority view today' holds the Gospels are Greco-Roman biographies (S178); the claim that 'most naturalistic theories today are given up by scholars' (S193); the claim that 'virtually everyone who studies this' dates the creeds within one to two years (S303); and the claim that '80%' of homologia and creeds are about death and resurrection (S606). These are checkable empirical claims presented without in-transcript citation. The gate is not failed because the core argument does cite named sources and the speaker explicitly flags his method (using critics' dates), but the uncited quantitative and consensus claims are a material weakness.\",\n      \"evidence_refs\": [\"S173\", \"S178\", \"S193\", \"S303\", \"S606\", \"S088\", \"S089\", \"S090\", \"S091\", \"S092\", \"S093\"],\n      \"resolution\": \"Provide citations for the London dissertation, the genre-consensus claim, the 'most naturalistic theories given up' claim, the 1-2 year creed dating, and the 80% figure.\"\n    },\n    {\n      \"gate_id\": \"gate.contradiction\",\n      \"status\": \"PASS\",\n      \"hard\": true,\n      \"rationale\": \"No load-bearing contradiction is left unresolved. The speaker acknowledges the main counter-position (myth/telephone-tag objection) and addresses it directly (S324-S354). He also acknowledges his own uncertainty on some points (S185 on Galatians dating; S318 on the Peter-behind-Mark majority; S436 on whether historesai means 'history' in context; S638-S639 on his own view vs. majority). The apparent tension between 'believe' as simple and 'believe' as surrender is explicitly resolved by the Greek-word argument (S033-S058). No contradiction is load-bearing and unresolved.\",\n      \"evidence_refs\": [\"S185\", \"S318\", \"S436\", \"S638\", \"S639\", \"S324\", \"S325\", \"S326\", \"S327\", \"S328\", \"S329\", \"S330\", \"S331\", \"S332\", \"S333\", \"S334\"],\n      \"resolution\": null\n    },\n    {\n      \"gate_id\": \"gate.scope\",\n      \"status\": \"WARN\",\n      \"hard\": false,\n      \"rationale\": \"The conclusion ('Christianity is true', S006, S012) is broader than the historical-evidence method can deliver. The speaker himself distinguishes factual from emotional doubt (S556-S573) and says most doubt is emotional, not factual (S561), which implicitly concedes that historical evidence does not settle the whole question. The move from 'the resurrection is historically well-evidenced' to 'Christianity is true' (S006, S012) exceeds the domain of the historical method used. This is a scope overreach, though the speaker does not claim the evidence alone produces faith (S219-S223).\",\n      \"evidence_refs\": [\"S006\", \"S012\", \"S219\", \"S220\", \"S221\", \"S222\", \"S223\", \"S556\", \"S561\"],\n      \"resolution\": \"Restrict the conclusion to what the historical method can support, or explicitly mark the further step as a faith commitment rather than a historical conclusion.\"\n    },\n    {\n      \"gate_id\": \"gate.falsifiability\",\n      \"status\": \"WARN\",\n      \"hard\": false,\n      \"rationale\": \"The speaker engages the strongest counter-hypothesis (myth/telephone-tag, S324-S354) and identifies what would count against his case: if the earliest material were late, if it were merely Peter's reminiscence at +40 (S346-S349), if it were misconstrued data (S350-S354). He also names the mythicist position and Ehrman's rebuttal (S365-S369). However, he does not state a clear kill condition for his own positive case, and the rhetorical framing ('game, set, and match', S011) suggests the conclusion is treated as settled rather than as a hypothesis with specified defeaters. Partial credit: counter-arguments are engaged, but no explicit falsification condition for the positive claim is given.\",\n      \"evidence_refs\": [\"S011\", \"S324\", \"S346\", \"S347\", \"S348\", \"S349\", \"S350\", \"S351\", \"S352\", \"S353\", \"S354\", \"S365\", \"S366\", \"S367\", \"S368\", \"S369\"],\n      \"resolution\": \"State what evidence would defeat the early-eyewitness case (e.g., demonstrably late creedal formulation, or evidence the Galatians 1-2 meetings did not concern resurrection testimony).\"\n    },\n    {\n      \"gate_id\": \"gate.bridge_validity\",\n      \"status\": \"WARN\",\n      \"hard\": false,\n      \"rationale\": \"The lecture makes cross-domain moves: from historical method to theological conclusion (S006, S012), and from historical evidence to the claim that emotional doubters should not be answered with data (S571-S573). The historical-to-theological bridge is asserted rather than argued with explicit mapping, invariants, and kill conditions. The psychological claim (most doubt is emotional, S561) is supported by reference to a clinical psychologist and a battery of tests (S557-S560) but without published citation. Bridge elements are partially present (the speaker distinguishes factual from emotional doubt, S556) but not fully specified.\",\n      \"evidence_refs\": [\"S006\", \"S012\", \"S556\", \"S557\", \"S558\", \"S559\", \"S560\", \"S561\", \"S571\", \"S572\", \"S573\"],\n      \"resolution\": \"Make the historical-to-theological inference explicit, and cite the psychological study.\"\n    },\n    {\n      \"gate_id\": \"gate.provenance\",\n      \"status\": \"WARN\",\n      \"hard\": false,\n      \"rationale\": \"Many sources are named and traceable: Lüdemann (S242), Ehrman (S290, S368), Josephus (S198, S199), 1 Corinthians 15 (S017), Galatians 1-2 (S378, S389, S451, S452), the Gospel of the Hebrews (S515), the Buddhist Scriptures book (S150). However, several key claims lack traceable citation: the University of London dissertation (S173), the 'majority view' on Gospel genre (S178), the 'most naturalistic theories given up' claim (S193), the 1-2 year creed dating (S303), and the 80% figure (S606). The transcript is auto-captioned (front matter), so some proper names may be garbled (e.g., 'Fontec' at S370, 'homologia'/'homologea' spelling variants at S230, S234, S415). Provenance is partially present but incomplete for load-bearing quantitative claims.\",\n      \"evidence_refs\": [\"S150\", \"S173\", \"S178\", \"S193\", \"S198\", \"S199\", \"S242\", \"S290\", \"S303\", \"S368\", \"S378\", \"S389\", \"S451\", \"S452\", \"S515\", \"S606\"],\n      \"resolution\": \"Add citations for the dissertation, genre consensus, naturalistic-theory abandonment, creed dating, and the 80% figure.\"\n    },\n    {\n      \"gate_id\": \"gate.agency_noncoercion\",\n      \"status\": \"PASS\",\n      \"hard\": true,\n      \"rationale\": \"The lecture is a persuasive talk, not a coercive intervention. The speaker explicitly preserves audience agency: he asks for a show of hands rather than demanding assent (S111-S114), he distinguishes factual from emotional doubt and says data will not work for emotional doubters (S571-S573), he tells doubters where to find free resources rather than pressuring them (S549-S555), and he frames belief as trust/surrender (S039-S041) without threatening non-believers. There is no concealed compulsion, no destruction of agency, and no coercion presented as consent. The rhetorical 'game, set, and match' (S011) is assertive but not coercive.\",\n      \"evidence_refs\": [\"S011\", \"S039\", \"S040\", \"S041\", \"S111\", \"S112\", \"S113\", \"S114\", \"S549\", \"S550\", \"S551\", \"S552\", \"S553\", \"S554\", \"S555\", \"S571\", \"S572\", \"S573\"],\n      \"resolution\": null\n    }\n  ],\n  \"fruit_profile\": [\n    {\n      \"fruit_id\": \"fruit.love\",\n      \"score\": 2,\n      \"confidence\": 0.4,\n      \"mechanism\": \"truth-aligned relational cohesion seeking the good of the whole and each member while bearing cost and preserving agency\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"love-pos-1\",\n          \"quote_or_event\": \"God uses wounded lives.\",\n          \"location\": \"S524\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Seeks the good of hearers by framing failure as usable rather than disqualifying; a cohesion-seeking, restorative move.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"love-pos-2\",\n          \"quote_or_event\": \"They're free. I don't sell anything on my website.\",\n          \"location\": \"S551-S552\",\n          \"evidence_type\": \"PROCESS\",\n          \"link_reason\": \"Offers resources for doubters at no cost, seeking their good without extracting value.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"love-pos-3\",\n          \"quote_or_event\": \"But if you answer an emotional doubter with data, it won't work.\",\n          \"location\": \"S571\",\n          \"evidence_type\": \"MECHANISM\",\n          \"link_reason\": \"Attends to the doubter's actual condition rather than to winning the argument; seeks the person's good.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"love-neg-1\",\n          \"quote_or_event\": \"John stinks at plus 60.\",\n          \"location\": \"S143\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Mocking dismissal of a named Gospel writer; low-friction contempt rather than truth-aligned relational cohesion.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"love-neg-2\",\n          \"quote_or_event\": \"You guys, you're nasty. You keep thinking it's a fact.\",\n          \"location\": \"S599-S600\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Gender-based dismissal of men's doubt as 'nasty'; relational cohesion is strained by stereotyping.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.35,\n      \"stress_tests\": {\n        \"source\": \"WARN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"WARN\",\n        \"power\": \"PASS\",\n        \"correction\": \"UNKNOWN\",\n        \"outsider\": \"WARN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"The lecture shows genuine concern for doubters (free resources, attention to emotional doubt) but also contains mocking dismissal of John (S143) and gender stereotyping (S599-S600). Love is mixed: some restorative intent, some contempt. Score 2 with low confidence because the unit is a single lecture and evidence is thin.\"\n    },\n    {\n      \"fruit_id\": \"fruit.joy\",\n      \"score\": 2,\n      \"confidence\": 0.4,\n      \"mechanism\": \"durable participation in real good not dependent on denial, spectacle, status, or constant stimulation\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"joy-pos-1\",\n          \"quote_or_event\": \"The resurrection of Jesus is the most exciting, I think, subject in scripture.\",\n          \"location\": \"S004\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Expresses durable positive engagement with the subject matter.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"joy-pos-2\",\n          \"quote_or_event\": \"Christ gives us the abundant life now and eternity.\",\n          \"location\": \"S721\",\n          \"evidence_type\": \"STATED_INTENT\",\n          \"link_reason\": \"Frames joy as present and durable rather than dependent on spectacle.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"joy-neg-1\",\n          \"quote_or_event\": \"If Jesus was raised from the dead, Christianity is true.\",\n          \"location\": \"S006\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Joy is made conditional on a single propositional outcome; if the argument fails, the joy collapses. This is a fragile, argument-dependent joy.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.25,\n      \"stress_tests\": {\n        \"source\": \"UNKNOWN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"UNKNOWN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"UNKNOWN\",\n        \"outsider\": \"UNKNOWN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"The speaker expresses enthusiasm for the resurrection and frames abundant life as present, but the joy is tightly bound to the success of a historical argument (S006, S011). No evidence of joy persisting under cost or failure. Score 2 with low confidence.\"\n    },\n    {\n      \"fruit_id\": \"fruit.peace\",\n      \"score\": 2,\n      \"confidence\": 0.3,\n      \"mechanism\": \"reintegrated order in which relevant tensions are truthfully addressed without suppression\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"peace-pos-1\",\n          \"quote_or_event\": \"Most people have world-view beliefs that give them their beliefs more than anything else.\",\n          \"location\": \"S220\",\n          \"evidence_type\": \"MECHANISM\",\n          \"link_reason\": \"Acknowledges the role of worldview in belief formation, a step toward truthful engagement with disagreement rather than suppression.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"peace-neg-1\",\n          \"quote_or_event\": \"You get the resurrection of Jesus, as my good buddy Mike Licona says, you get the resurrection, it's game, set, and match.\",\n          \"location\": \"S011\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Triumphal framing that treats the matter as settled; may suppress rather than address remaining tensions.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.2,\n      \"stress_tests\": {\n        \"source\": \"UNKNOWN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"UNKNOWN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"UNKNOWN\",\n        \"outsider\": \"UNKNOWN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"Little direct evidence of peace as a mechanism. The lecture is argumentative and occasionally triumphal. Score 2 with low confidence; insufficient evidence.\"\n    },\n    {\n      \"fruit_id\": \"fruit.patience\",\n      \"score\": 2,\n      \"confidence\": 0.4,\n      \"mechanism\": \"preservation of persons and processes across the time required for truth, growth, correction, or convergence while acting when action is due\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"pat-pos-1\",\n          \"quote_or_event\": \"We This took us years. He did most of the work.\",\n          \"location\": \"S558-S559\",\n          \"evidence_type\": \"PROCESS\",\n          \"link_reason\": \"Sustained multi-year work on doubt research; patience in process.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"pat-pos-2\",\n          \"quote_or_event\": \"I'm going to spend the rest of this lecture today talking about some things.\",\n          \"location\": \"S201\",\n          \"evidence_type\": \"PROCESS\",\n          \"link_reason\": \"Willingness to develop an argument at length rather than prematurely closing.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"pat-neg-1\",\n          \"quote_or_event\": \"I'm going to do this part real fast.\",\n          \"location\": \"S082\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Repeatedly rushes through material ('real fast', S032, S082, S356), suggesting impatience with process.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.3,\n      \"stress_tests\": {\n        \"source\": \"UNKNOWN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"WARN\",\n        \"relation\": \"UNKNOWN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"UNKNOWN\",\n        \"outsider\": \"UNKNOWN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"Some evidence of sustained work (years on doubt research) but also repeated rushing. Mixed. Score 2 with low confidence.\"\n    },\n    {\n      \"fruit_id\": \"fruit.kindness\",\n      \"score\": 2,\n      \"confidence\": 0.4,\n      \"mechanism\": \"low-friction repair and assistance that reduces needless barriers without erasing truth or responsibility\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"kind-pos-1\",\n          \"quote_or_event\": \"They're free. I don't sell anything on my website.\",\n          \"location\": \"S551-S552\",\n          \"evidence_type\": \"PROCESS\",\n          \"link_reason\": \"Provides free resources, reducing barriers for doubters.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"kind-pos-2\",\n          \"quote_or_event\": \"But if you answer an emotional doubter with data, it won't work.\",\n          \"location\": \"S571\",\n          \"evidence_type\": \"MECHANISM\",\n          \"link_reason\": \"Attends to the doubter's emotional state, a low-friction repair move.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"kind-neg-1\",\n          \"quote_or_event\": \"John stinks at plus 60.\",\n          \"location\": \"S143\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Mocking dismissal of a named figure; contempt rather than kindness.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"kind-neg-2\",\n          \"quote_or_event\": \"You guys, you're nasty.\",\n          \"location\": \"S599\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Gender-based insult; needless friction.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.35,\n      \"stress_tests\": {\n        \"source\": \"WARN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"WARN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"UNKNOWN\",\n        \"outsider\": \"WARN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"Genuine kindness toward doubters (free resources, emotional sensitivity) coexists with mocking dismissal and gender stereotyping. Mixed. Score 2 with low confidence.\"\n    },\n    {\n      \"fruit_id\": \"fruit.goodness\",\n      \"score\": 2,\n      \"confidence\": 0.4,\n      \"mechanism\": \"truth-aligned action producing real non-malign benefit after costs and externalities are counted\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"good-pos-1\",\n          \"quote_or_event\": \"They're free. I don't sell anything on my website.\",\n          \"location\": \"S551-S552\",\n          \"evidence_type\": \"OUTPUT\",\n          \"link_reason\": \"Provides free resources, a real non-malign benefit.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"good-pos-2\",\n          \"quote_or_event\": \"We This took us years. He did most of the work.\",\n          \"location\": \"S558-S559\",\n          \"evidence_type\": \"PROCESS\",\n          \"link_reason\": \"Sustained effort to produce benefit for doubters.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"good-neg-1\",\n          \"quote_or_event\": \"I'm not going to be able to do all eight, but I'm going to do the most four most important ones for you tonight.\",\n          \"location\": \"S208\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Selective presentation of evidence; the four omitted arguments are not disclosed, which may export the cost of incompleteness to the audience.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.3,\n      \"stress_tests\": {\n        \"source\": \"UNKNOWN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"UNKNOWN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"UNKNOWN\",\n        \"outsider\": \"UNKNOWN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"Some real benefit (free resources, years of research) but also selective presentation of evidence. Mixed. Score 2 with low confidence.\"\n    },\n    {\n      \"fruit_id\": \"fruit.faithfulness\",\n      \"score\": 2,\n      \"confidence\": 0.4,\n      \"mechanism\": \"invariant fidelity across time, audiences, incentives, and pressure, joined to correction when the object of loyalty is false\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"faith-pos-1\",\n          \"quote_or_event\": \"By the way, I'm using critical dates. This whole thing, I'm using dates that critics admit.\",\n          \"location\": \"S088-S089\",\n          \"evidence_type\": \"MECHANISM\",\n          \"link_reason\": \"Commits to using adversarial sources' dates, a fidelity-to-truth move rather than tribal loyalty.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"faith-pos-2\",\n          \"quote_or_event\": \"I'm not saying that that that word has to mean history in that context, but that word historesai means to check something out.\",\n          \"location\": \"S436\",\n          \"evidence_type\": \"MECHANISM\",\n          \"link_reason\": \"Refuses to overclaim on a lexical point; fidelity to the evidence.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"faith-pos-3\",\n          \"quote_or_event\": \"This is just my view. I think it's probably the majority view today, but I'm only speaking for myself.\",\n          \"location\": \"S638-S639\",\n          \"evidence_type\": \"MECHANISM\",\n          \"link_reason\": \"Distinguishes his own view from consensus; fidelity to accurate representation.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"faith-neg-1\",\n          \"quote_or_event\": \"Baloney.\",\n          \"location\": \"S329\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Dismisses a common apologetic argument ('too early to be myth') without argument; selective standard.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"faith-neg-2\",\n          \"quote_or_event\": \"I'm not going to be able to do all eight, but I'm going to do the most four most important ones for you tonight.\",\n          \"location\": \"S208\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Selective presentation of the strongest arguments; the weaker four are omitted without disclosure.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.4,\n      \"stress_tests\": {\n        \"source\": \"PASS\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"UNKNOWN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"WARN\",\n        \"outsider\": \"UNKNOWN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"Strong evidence of fidelity to evidence in several places (using critics' dates, refusing to overclaim on historesai, distinguishing his view from consensus). But also selective presentation and dismissive 'baloney' without argument. Mixed. Score 2 with low confidence.\"\n    },\n    {\n      \"fruit_id\": \"fruit.gentleness\",\n      \"score\": 2,\n      \"confidence\": 0.4,\n      \"mechanism\": \"power precisely restrained to the minimum force sufficient for the good while protecting the vulnerable\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"gent-pos-1\",\n          \"quote_or_event\": \"I don't necessarily expect a lot of hands, but if you want to walk look around, it's going to be enough for me to make my point.\",\n          \"location\": \"S111\",\n          \"evidence_type\": \"MECHANISM\",\n          \"link_reason\": \"Does not pressure the audience; invites rather than demands participation.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"gent-pos-2\",\n          \"quote_or_event\": \"But if you answer an emotional doubter with data, it won't work.\",\n          \"location\": \"S571\",\n          \"evidence_type\": \"MECHANISM\",\n          \"link_reason\": \"Restrains the use of force (argument) where it would harm the vulnerable doubter.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"gent-neg-1\",\n          \"quote_or_event\": \"John stinks at plus 60.\",\n          \"location\": \"S143\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Mocking dismissal; needless damage to a named figure.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"gent-neg-2\",\n          \"quote_or_event\": \"You guys, you're nasty.\",\n          \"location\": \"S599\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Gender-based insult; uncontrolled force in speech.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.35,\n      \"stress_tests\": {\n        \"source\": \"WARN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"WARN\",\n        \"power\": \"PASS\",\n        \"correction\": \"UNKNOWN\",\n        \"outsider\": \"WARN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"Restraint toward the audience (no pressure, sensitivity to emotional doubt) coexists with mocking dismissal and gender stereotyping. Mixed. Score 2 with low confidence.\"\n    },\n    {\n      \"fruit_id\": \"fruit.self_control\",\n      \"score\": 2,\n      \"confidence\": 0.4,\n      \"mechanism\": \"boundary integrity and governance of appetite, impulse, scope, and optimization under the true good\",\n      \"positive_evidence\": [\n        {\n          \"ref_id\": \"sc-pos-1\",\n          \"quote_or_event\": \"I'm not saying that that that word has to mean history in that context, but that word historesai means to check something out.\",\n          \"location\": \"S436\",\n          \"evidence_type\": \"MECHANISM\",\n          \"link_reason\": \"Restrains the impulse to overclaim on a lexical point; boundary integrity.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"sc-pos-2\",\n          \"quote_or_event\": \"This is just my view. I think it's probably the majority view today, but I'm only speaking for myself.\",\n          \"location\": \"S638-S639\",\n          \"evidence_type\": \"MECHANISM\",\n          \"link_reason\": \"Distinguishes personal view from consensus; scope discipline.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"counterevidence\": [\n        {\n          \"ref_id\": \"sc-neg-1\",\n          \"quote_or_event\": \"You get the resurrection of Jesus, as my good buddy Mike Licona says, you get the resurrection, it's game, set, and match.\",\n          \"location\": \"S011\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Triumphal overclaim; scope creep beyond what the evidence can support.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        },\n        {\n          \"ref_id\": \"sc-neg-2\",\n          \"quote_or_event\": \"I'm going to do this part real fast.\",\n          \"location\": \"S082\",\n          \"evidence_type\": \"COUNTEREXAMPLE\",\n          \"link_reason\": \"Impulse to rush; governance of pace is weak.\",\n          \"source_ref\": null,\n          \"time_window\": null\n        }\n      ],\n      \"evidence_coverage\": 0.35,\n      \"stress_tests\": {\n        \"source\": \"WARN\",\n        \"cost\": \"UNKNOWN\",\n        \"endurance\": \"UNKNOWN\",\n        \"relation\": \"UNKNOWN\",\n        \"power\": \"UNKNOWN\",\n        \"correction\": \"WARN\",\n        \"outsider\": \"UNKNOWN\",\n        \"succession\": \"UNKNOWN\"\n      },\n      \"counterfeit\": {\n        \"flag\": false,\n        \"claimed_label\": null,\n        \"missing_companion\": null,\n        \"anti_fruit_output\": null,\n        \"severity\": \"NONE\"\n      },\n      \"rationale\": \"Some evidence of restraint (refusing to overclaim on historesai, distinguishing his view from consensus) but also triumphal overclaim and rushing. Mixed. Score 2 with low confidence.\"\n    }\n  ],\n  \"contradictions\": [\n    {\n      \"classification\": \"ACKNOWLEDGED_REPAIRED\",\n      \"load_bearing\": false,\n      \"resolved\": true,\n      \"evidence_refs\": [\"S033\", \"S034\", \"S035\", \"S036\", \"S037\", \"S038\", \"S039\", \"S040\", \"S041\", \"S042\", \"S043\", \"S044\", \"S045\", \"S046\", \"S047\", \"S048\", \"S049\", \"S050\", \"S051\", \"S052\", \"S053\", \"S054\", \"S055\", \"S056\", \"S057\", \"S058\"],\n      \"fruit_relation\": \"The apparent tension between 'believe' as simple assent and 'believe' as surrender is explicitly addressed and resolved via the Greek-word argument. This is a productive clarification, not a contradiction.\",\n      \"consequence\": \"Strengthens the argument's internal coherence.\"\n    },\n    {\n      \"classification\": \"ACKNOWLEDGED_REPAIRED\",\n      \"load_bearing\": false,\n      \"resolved\": true,\n      \"evidence_refs\": [\"S185\", \"S318\", \"S436\", \"S638\", \"S639\"],\n      \"fruit_relation\": \"The speaker acknowledges uncertainty on Galatians dating, the Peter-behind-Mark majority, the historesai lexical point, and his own view vs. consensus. These are bounded, acknowledged uncertainties, not unresolved contradictions.\",\n      \"consequence\": \"Increases credibility; shows willingness to mark limits.\"\n    },\n    {\n      \"classification\": \"UNRESOLVED\",\n      \"load_bearing\": true,\n      \"resolved\": false,\n      \"evidence_refs\": [\"S006\", \"S012\", \"S011\", \"S556\", \"S561\", \"S571\", \"S572\", \"S573\"],\n      \"fruit_relation\": \"The claim that the historical evidence makes 'Christianity true' (S006, S012) is in tension with the speaker's own concession that most doubt is emotional, not factual (S561), and that data will not resolve emotional doubt (S571-S573). If the historical evidence does not settle the question for most doubters, the claim that it settles 'Christianity is true' is overstated. This tension is load-bearing for the scope gate.\",\n      \"consequence\": \"Weakens the scope gate; the conclusion exceeds the method's domain.\"\n    }\n  ],\n  \"counterfeit_flags\": [],\n  \"anti_fruit_pressure\": [\n    {\n      \"anti_fruit\": \"contempt\",\n      \"evidence_refs\": [\"S143\", \"S599\"],\n      \"description\": \"Mocking dismissal of John ('John stinks') and gender-based insult ('you guys, you're nasty') are low-level anti-fruit pressures against kindness and gentleness.\"\n    },\n",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 14916,
+      "completion_tokens": 8192,
+      "attempts": 1,
+      "elapsed_seconds": 30.093999999997322,
+      "started_at": "2026-09-27T13:53:19.621854+00:00",
+      "error": "truncated: finish_reason=length after 8192 output tokens",
+      "finish_reason": "length",
+      "finished_at": "2026-09-27T13:53:49.711982+00:00",
+      "tokens": 23108
+    },
+    {
+      "part": "fruits",
+      "attempt": 2,
+      "text": "{\"spec_version\":\"0.3.0\",\"target\":{\"type\":\"paper\",\"title\":\"Gary Habermas - Chapter 003 - Remarkably Early Historical Information for the Resurrection of Jesus - Gary Habermas\",\"domain\":\"Christian apologetics / historical argument for the resurrection (spoken lecture transcript)\",\"unit\":\"complete supplied document\",\"comparison_class\":\"paper of similar purpose and evidence burden\",\"population_boundary\":\"Speaker (Gary Habermas) and named scholars/critics he cites; audience addressed but not individually represented; no outsider or harmed-party testimony included\",\"time_window\":\"lecture delivered ~2020s; historical claims span 30-95 AD and modern scholarship\"},\"gate_results\":[{\"gate_id\":\"gate.truth_evidence\",\"status\":\"WARN\",\"hard\":true,\"rationale\":\"Claims are tied to named scholars and texts (Lüdemann, Ehrman, Galatians 1-2, 1 Cor 15) and dates are explicitly flagged as critical/consensus dates, but quotations are paraphrased from memory, no citations given, and several datings are asserted without sourcing.\",\"evidence_refs\":[\"S088\",\"S089\",\"S090\",\"S091\",\"S092\",\"S242\",\"S290\",\"S292\",\"S303\"],\"resolution\":\"Traceable in outline; would need page-level citation to pass.\"},{\"gate_id\":\"gate.contradiction\",\"status\":\"PASS\",\"hard\":true,\"rationale\":\"Speaker acknowledges disputes (Galatians dating, Peter-behind-Mark majority 'barely', 30 vs 33 AD) and treats them as bounded, not load-bearing.\",\"evidence_refs\":[\"S078\",\"S185\",\"S318\"],\"resolution\":null},{\"gate_id\":\"gate.scope\",\"status\":\"WARN\",\"hard\":false,\"rationale\":\"Historical-evidence argument is kept within its method, but the leap from 'critics grant the data' to 'Christianity is true' (S006, S012) exceeds what historical method alone yields.\",\"evidence_refs\":[\"S006\",\"S012\",\"S093\",\"S544\"],\"resolution\":null},{\"gate_id\":\"gate.falsifiability\",\"status\":\"WARN\",\"hard\":false,\"rationale\":\"Speaker names what would count against him (myth, telephone-tag, misconstrued data) and engages the objection, but does not state what evidence would overturn his own conclusion.\",\"evidence_refs\":[\"S324\",\"S350\",\"S353\",\"S358\",\"S412\"],\"resolution\":null},{\"gate_id\":\"gate.bridge_validity\",\"status\":\"UNKNOWN\",\"hard\":false,\"rationale\":\"Cross-domain moves (psychology of doubt, genre theory of Greco-Roman bios) are invoked without explicit bridge conditions or kill criteria.\",\"evidence_refs\":[\"S173\",\"S178\",\"S557\",\"S561\"],\"resolution\":null},{\"gate_id\":\"gate.provenance\",\"status\":\"WARN\",\"hard\":false,\"rationale\":\"Named sources and scripture refs are given, but no bibliographic citations; transcript is auto-captioned with acknowledged caption noise and no speaker labels.\",\"evidence_refs\":[\"S233\",\"S234\",\"S430\",\"S434\"],\"resolution\":null},{\"gate_id\":\"gate.agency_noncoercion\",\"status\":\"PASS\",\"hard\":true,\"rationale\":\"Persuasion by argument in a voluntary lecture setting; no coercion, threat, or concealed compulsion; audience free to reject (S547, S548).\",\"evidence_refs\":[\"S547\",\"S548\",\"S724\"],\"resolution\":null}],\"fruit_profile\":[{\"fruit_id\":\"fruit.love\",\"score\":2,\"confidence\":0.4,\"mechanism\":\"truth-aligned relational cohesion seeking the good of the whole and each member while bearing cost and preserving agency\",\"positive_evidence\":[{\"ref_id\":\"E-L1\",\"quote_or_event\":\"I hope it's going to help all of you in your walk with the Lord.\",\"location\":\"S727\",\"evidence_type\":\"STATED_INTENT\",\"link_reason\":\"Beneficent intent toward audience\",\"source_ref\":null,\"time_window\":null},{\"ref_id\":\"E-L2\",\"quote_or_event\":\"God uses wounded lives.\",\"location\":\"S524\",\"evidence_type\":\"STATED_INTENT\",\"link_reason\":\"Pastoral framing toward the broken\",\"source_ref\":null,\"time_window\":null}],\"counterevidence\":[{\"ref_id\":\"E-L3\",\"quote_or_event\":\"John stinks at plus 60.\",\"location\":\"S143\",\"evidence_type\":\"COUNTEREXAMPLE\",\"link_reason\":\"Mocking dismissal of an interlocutor's position\",\"source_ref\":null,\"time_window\":null}],\"evidence_coverage\":0.3,\"stress_tests\":{\"source\":\"PASS\",\"cost\":\"UNKNOWN\",\"endurance\":\"UNKNOWN\",\"relation\":\"WARN\",\"power\":\"PASS\",\"correction\":\"UNKNOWN\",\"outsider\":\"FAIL\",\"succession\":\"UNKNOWN\"},\"counterfeit\":{\"flag\":false,\"claimed_label\":null,\"missing_companion\":null,\"anti_fruit_output\":null,\"severity\":\"NONE\"},\"rationale\":\"Warm pastoral intent toward in-group; no evidence of costly love toward outsiders or critics.\"},{\"fruit_id\":\"fruit.joy\",\"score\":2,\"confidence\":0.4,\"mechanism\":\"durable participation in real good not dependent on denial, spectacle, status, or constant stimulation\",\"positive_evidence\":[{\"ref_id\":\"E-J1\",\"quote_or_event\":\"The resurrection of Jesus is the most exciting, I think, subject in scripture.\",\"location\":\"S004\",\"evidence_type\":\"STATED_INTENT\",\"link_reason\":\"Expressed durable delight in subject\",\"source_ref\":null,\"time_window\":null},{\"ref_id\":\"E-J2\",\"quote_or_event\":\"Christ gives us the abundant life now and eternity.\",\"location\":\"S721\",\"evidence_type\":\"STATED_INTENT\",\"link_reason\":\"Joy grounded in claimed good, not spectacle\",\"source_ref\":null,\"time_window\":null}],\"counterevidence\":[],\"evidence_coverage\":0.25,\"stress_tests\":{\"source\":\"PASS\",\"cost\":\"UNKNOWN\",\"endurance\":\"UNKNOWN\",\"relation\":\"UNKNOWN\",\"power\":\"UNKNOWN\",\"correction\":\"UNKNOWN\",\"outsider\":\"UNKNOWN\",\"succession\":\"UNKNOWN\"},\"counterfeit\":{\"flag\":false,\"claimed_label\":null,\"missing_companion\":null,\"anti_fruit_output\":null,\"severity\":\"NONE\"},\"rationale\":\"Genuine enthusiasm expressed; no evidence of joy persisting under cost or across contexts.\"},{\"fruit_id\":\"fruit.peace\",\"score\":2,\"confidence\":0.3,\"mechanism\":\"reintegrated order in which relevant tensions are truthfully addressed without suppression\",\"positive_evidence\":[{\"ref_id\":\"E-P1\",\"quote_or_event\":\"Be steadfast.\",\"location\":\"S621\",\"evidence_type\":\"STATED_INTENT\",\"link_reason\":\"Exhortation to stability amid doubt\",\"source_ref\":null,\"time_window\":null}],\"counterevidence\":[{\"ref_id\":\"E-P2\",\"quote_or_event\":\"You have to tell your emotions where to get off.\",\"location\":\"S595\",\"evidence_type\":\"COUNTEREXAMPLE\",\"link_reason\":\"Frames emotional tension as to be suppressed rather than addressed\",\"source_ref\":null,\"time_window\":null}],\"evidence_coverage\":0.2,\"stress_tests\":{\"source\":\"PASS\",\"cost\":\"UNKNOWN\",\"endurance\":\"UNKNOWN\",\"relation\":\"UNKNOWN\",\"power\":\"UNKNOWN\",\"correction\":\"UNKNOWN\",\"outsider\":\"UNKNOWN\",\"succession\":\"UNKNOWN\"},\"counterfeit\":{\"flag\":false,\"claimed_label\":null,\"missing_companion\":null,\"anti_fruit_output\":null,\"severity\":\"NONE\"},\"rationale\":\"Peace framed as resolve; emotional doubt handled by dismissal of feeling, a possible suppression pattern.\"},{\"fruit_id\":\"fruit.patience\",\"score\":2,\"confidence\":0.3,\"mechanism\":\"preservation of persons and processes across the time required for truth, growth, correction, or convergence while acting when action is due\",\"positive_evidence\":[{\"ref_id\":\"E-PA1\",\"quote_or_event\":\"We This took us years.\",\"location\":\"S558\",\"evidence_type\":\"PROCESS\",\"link_reason\":\"Sustained multi-year research effort\",\"source_ref\":null,\"time_window\":null}],\"counterevidence\":[],\"evidence_coverage\":0.2,\"stress_tests\":{\"source\":\"PASS\",\"cost\":\"UNKNOWN\",\"endurance\":\"WARN\",\"relation\":\"UNKNOWN\",\"power\":\"UNKNOWN\",\"correction\":\"UNKNOWN\",\"outsider\":\"UNKNOWN\",\"succession\":\"UNKNOWN\"},\"counterfeit\":{\"flag\":false,\"claimed_label\":null,\"missing_companion\":null,\"anti_fruit_output\":null,\"severity\":\"NONE\"},\"rationale\":\"Long research program cited; little evidence of patience toward opposing views.\"},{\"fruit_id\":\"fruit.kindness\",\"score\":2,\"confidence\":0.35,\"mechanism\":\"low-friction repair and assistance that reduces needless barriers without erasing truth or responsibility\",\"positive_evidence\":[{\"ref_id\":\"E-K1\",\"quote_or_event\":\"two of them are on my website, garyhabermas.com. They're free.\",\"location\":\"S550\",\"evidence_type\":\"OUTPUT\",\"link_reason\":\"Free resource offered to doubters\",\"source_ref\":null,\"time_window\":null},{\"ref_id\":\"E-K2\",\"quote_or_event\":\"I don't sell anything on my website.\",\"location\":\"S552\",\"evidence_type\":\"OUTPUT\",\"link_reason\":\"Declines monetization of help\",\"source_ref\":null,\"time_window\":null}],\"counterevidence\":[{\"ref_id\":\"E-K3\",\"quote_or_event\":\"John stinks at plus 60.\",\"location\":\"S143\",\"evidence_type\":\"COUNTEREXAMPLE\",\"link_reason\":\"Contemptuous phrasing toward opposing view\",\"source_ref\":null,\"time_window\":null},{\"ref_id\":\"E-K4\",\"quote_or_event\":\"Baloney.\",\"location\":\"S329\",\"evidence_type\":\"COUNTEREXAMPLE\",\"link_reason\":\"Blunt dismissal of a common apologetic\",\"source_ref\":null,\"time_window\":null}],\"evidence_coverage\":0.35,\"stress_tests\":{\"source\":\"PASS\",\"cost\":\"PASS\",\"endurance\":\"UNKNOWN\",\"relation\":\"WARN\",\"power\":\"UNKNOWN\",\"correction\":\"UNKNOWN\",\"outsider\":\"WARN\",\"succession\":\"UNKNOWN\"},\"counterfeit\":{\"flag\":false,\"claimed_label\":null,\"missing_companion\":null,\"anti_fruit_output\":null,\"severity\":\"NONE\"},\"rationale\":\"Real low-cost assistance (free books) alongside dismissive rhetoric toward critics.\"},{\"fruit_id\":\"fruit.goodness\",\"score\":2,\"confidence\":0.35,\"mechanism\":\"truth-aligned action producing real non-malign benefit after costs and externalities are counted\",\"positive_evidence\":[{\"ref_id\":\"E-G1\",\"quote_or_event\":\"He takes up an offering, probably the third one that day, for for Some of you know what I mean.\",\"location\":\"S709\",\"evidence_type\":\"OUTPUT\",\"link_reason\":\"Cited charitable collection for the poor\",\"source_ref\":null,\"time_window\":null},{\"ref_id\":\"E-G2\",\"quote_or_event\":\"They're free.\",\"location\":\"S551\",\"evidence_type\":\"OUTPUT\",\"link_reason\":\"Non-monetized distribution of work\",\"source_ref\":null,\"time_window\":null}],\"counterevidence\":[],\"evidence_coverage\":0.25,\"stress_tests\":{\"source\":\"PASS\",\"cost\":\"WARN\",\"endurance\":\"UNKNOWN\",\"relation\":\"UNKNOWN\",\"power\":\"UNKNOWN\",\"correction\":\"UNKNOWN\",\"outsider\":\"UNKNOWN\",\"succession\":\"UNKNOWN\"},\"counterfeit\":{\"flag\":false,\"claimed_label\":null,\"missing_companion\":null,\"anti_fruit_output\":null,\"severity\":\"NONE\"},\"rationale\":\"Benefit is mostly intellectual/pastoral; no evidence of exported harm, but also little verified downstream benefit.\"},{\"fruit_id\":\"fruit.faithfulness\",\"score\":3,\"confidence\":0.5,\"mechanism\":\"invariant fidelity across time, audiences, incentives, and pressure, joined to correction when the object of loyalty is false\",\"positive_evidence\":[{\"ref_id\":\"E-F1\",\"quote_or_event\":\"I'm using critical dates.\",\"location\":\"S088\",\"evidence_type\":\"MECHANISM\",\"link_reason\":\"Commits to opponent-admitted data rather than favorable sources\",\"source_ref\":null,\"time_window\":null},{\"ref_id\":\"E-F2\",\"quote_or_event\":\"I'm not saying that that that word has to mean history in that context\",\"location\":\"S436\",\"evidence_type\":\"MECHANISM\",\"link_reason\":\"Declines to overclaim on a lexical point\",\"source_ref\":null,\"time_window\":null},{\"ref_id\":\"E-F3\",\"quote_or_event\":\"This is just my view.\",\"location\":\"S638\",\"evidence_type\":\"MECHANISM\",\"link_reason\":\"Flags own opinion as opinion\",\"source_ref\":null,\"time_window\":null}],\"counterevidence\":[{\"ref_id\":\"E-F4\",\"quote_or_event\":\"I said, I don't know.\",\"location\":\"S322\",\"evidence_type\":\"COUNTEREXAMPLE\",\"link_reason\":\"Admits gap in his own argument\",\"source_ref\":null,\"time_window\":null}],\"evidence_coverage\":0.5,\"stress_tests\":{\"source\":\"PASS\",\"cost\":\"WARN\",\"endurance\":\"PASS\",\"relation\":\"PASS\",\"power\":\"UNKNOWN\",\"correction\":\"WARN\",\"outsider\":\"WARN\",\"succession\":\"UNKNOWN\"},\"counterfeit\":{\"flag\":false,\"claimed_label\":null,\"missing_companion\":null,\"anti_fruit_output\":null,\"severity\":\"NONE\"},\"rationale\":\"Consistent method across the lecture, self-limits on contested points; correction of his own claims is present but narrow.\"},{\"fruit_id\":\"fruit.gentleness\",\"score\":2,\"confidence\":0.35,\"mechanism\":\"power precisely restrained to the minimum force sufficient for the good while protecting the vulnerable\",\"positive_evidence\":[{\"ref_id\":\"E-GE1\",\"quote_or_event\":\"I wouldn't want to call all of them liars\",\"location\":\"S115\",\"evidence_type\":\"MECHANISM\",\"link_reason\":\"Restrains harsh characterization of opponents\",\"source_ref\":null,\"time_window\":null},{\"ref_id\":\"E-GE2\",\"quote_or_event\":\"I was going to make a little joke, but I won't do that.\",\"location\":\"S468\",\"evidence_type\":\"MECHANISM\",\"link_reason\":\"Self-restraint to avoid needless offense\",\"source_ref\":null,\"time_window\":null}],\"counterevidence\":[{\"ref_id\":\"E-GE3\",\"quote_or_event\":\"John stinks at plus 60.\",\"location\":\"S143\",\"evidence_type\":\"COUNTEREXAMPLE\",\"link_reason\":\"Ridicule of a position\",\"source_ref\":null,\"time_window\":null}],\"evidence_coverage\":0.3,\"stress_tests\":{\"source\":\"PASS\",\"cost\":\"UNKNOWN\",\"endurance\":\"UNKNOWN\",\"relation\":\"WARN\",\"power\":\"PASS\",\"correction\":\"UNKNOWN\",\"outsider\":\"WARN\",\"succession\":\"UNKNOWN\"},\"counterfeit\":{\"flag\":false,\"claimed_label\":null,\"missing_companion\":null,\"anti_fruit_output\":null,\"severity\":\"NONE\"},\"rationale\":\"Some deliberate restraint; occasional ridicule of critics shows force not fully minimized.\"},{\"fruit_id\":\"fruit.self_control\",\"score\":2,\"confidence\":0.4,\"mechanism\":\"boundary integrity and governance of appetite, impulse, scope, and optimization under the true good\",\"positive_evidence\":[{\"ref_id\":\"E-SC1\",\"quote_or_event\":\"I'm not going to be able to do all eight, but I'm going to do the most four most important ones for you tonight.\",\"location\":\"S208\",\"evidence_type\":\"MECHANISM\",\"link_reason\":\"Scopes claims to what time allows\",\"source_ref\":null,\"time_window\":null},{\"ref_id\":\"E-SC2\",\"quote_or_event\":\"I'm only speaking for myself.\",\"location\":\"S639\",\"evidence_type\":\"MECHANISM\",\"link_reason\":\"Bounds own authority\",\"source_ref\":null,\"time_window\":null}],\"counterevidence\":[{\"ref_id\":\"E-SC3\",\"quote_or_event\":\"I'm going to do this part real fast.\",\"location\":\"S082\",\"evidence_type\":\"COUNTEREXAMPLE\",\"link_reason\":\"Rushed delivery risks underdeveloped claims\",\"source_ref\":null,\"time_window\":null}],\"evidence_coverage\":0.3,\"stress_tests\":{\"source\":\"PASS\",\"cost\":\"UNKNOWN\",\"endurance\":\"UNKNOWN\",\"relation\":\"UNKNOWN\",\"power\":\"UNKNOWN\",\"correction\":\"WARN\",\"outsider\":\"UNKNOWN\",\"succession\":\"UNKNOWN\"},\"counterfeit\":{\"flag\":false,\"claimed_label\":null,\"missing_companion\":null,\"anti_fruit_output\":null,\"severity\":\"NONE\"},\"rationale\":\"Explicit scoping and self-limitation; some rushed, over-broad framing ('Christianity is true').\"}],\"contradictions\":[{\"classification\":\"ACKNOWLEDGED_REPAIRED\",\"load_bearing\":false,\"resolved\":true,\"evidence_refs\":[\"S078\",\"S185\",\"S318\"],\"fruit_relation\":\"faithfulness\",\"consequence\":\"Dating and source disputes flagged as disputed rather than hidden.\"},{\"classification\":\"LOCAL\",\"load_bearing\":false,\"resolved\":false,\"evidence_refs\":[\"S006\",\"S012\",\"S093\"],\"fruit_relation\":\"self_control\",\"consequence\":\"Historical-evidence method and metaphysical conclusion sit at different confidence levels; not reconciled in text.\"}],\"counterfeit_flags\":[],\"anti_fruit_pressure\":[{\"fruit_id\":\"fruit.kindness\",\"pressure\":\"LOW\",\"evidence_refs\":[\"S143\",\"S329\"]},{\"fruit_id\":\"fruit.gentleness\",\"pressure\":\"LOW\",\"evidence_refs\":[\"S143\"]}],\"stakeholder_divergence\":[{\"group\":\"critics/non-Christian scholars\",\"observation\":\"Cited as authorities whose data is accepted, but characterized in places as motivated by worldview rather than evidence (S219-S222).\",\"evidence_refs\":[\"S219\",\"S220\",\"S221\",\"S222\"]},{\"group\":\"audience\",\"observation\":\"Addressed warmly; emotional doubters told their doubt is not factual (S561).\",\"evidence_refs\":[\"S561\",\"S571\"]}],\"aggregation\":{\"mode\":\"gated_profile\",\"arithmetic_summary\":2.11,\"geometric_balance\":2.0,\"multiplicative_coherence\":null,\"minimum_fruit\":{\"fruit_id\":\"fruit.love\",\"score\":2},\"vetoes\":[]},\"epistemic_status\":\"CONDITIONAL\",\"system_status\":\"COHERENT_BUT_FRAGILE\",\"confidence\":0.4,\"missing_evidence\":[\"No bibliographic citations for Lüdemann, Ehrman, or the University of London dissertation\",\"No outsider or critic self-report; critics characterized only through the speaker\",\"No evidence of downstream outcomes of the free books or the psychological study\",\"No speaker labels in transcript; some sentences ambiguous between speakers\"],\"repair_path\":[\"Add page-level citations for every scholar quoted\",\"State explicitly what evidence would falsify the resurrection conclusion\",\"Separate historical-method conclusion from the metaphysical claim 'Christianity is true'\",\"Include critic self-representation rather than paraphrase\"],\"falsifier\":\"A documented case where the speaker's cited critical datings or quotations are materially misrepresented, or where he refuses correction of a load-bearing claim when shown wrong.\",\"limitations\":[\"Auto-captioned transcript; caption errors and missing speaker labels are not the speaker's fault\",\"Single lecture; no longitudinal or cross-context behavioral evidence\",\"Fruit scores rest on spoken intent and process, not verified outcomes\",\"Per-sentence summary shows near-zero fruit signal; I treat its 'top_away' items (S006, S012, S143) as weak signals only, and disagree that S006/S012 are anti-fruit — they are scope issues, not character evidence\"],\"formal_receipt\":{}}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 14950,
+      "completion_tokens": 4244,
+      "attempts": 1,
+      "elapsed_seconds": 18.18800000000192,
+      "started_at": "2026-09-27T13:53:49.711982+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T13:54:07.902238+00:00",
+      "tokens": 19194
+    }
+  ],
+  "prompt_sha256": "c7544f919fa497b1e388f3daddcc641725175e784ec75d1870d01a0d33888c98",
+  "tokens": 42302
+}

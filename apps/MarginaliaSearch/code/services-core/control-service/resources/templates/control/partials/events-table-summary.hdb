@@ -1,0 +1,16 @@
+<h2>Event Summary</h2>
+
+<table id="events" class="table">
+    <tr>
+        <th>Event Time</th>
+        <th>Type</th>
+        <th>Message</th>
+    </tr>
+    {{#each events}}
+    <tr>
+        <td title="{{eventDateTime}}">{{shortTimestamp eventDateTime}}</td>
+        <td>{{eventType}}</td>
+        <td>{{eventMessage}}</td>
+    </tr>
+    {{/each}}
+</table>

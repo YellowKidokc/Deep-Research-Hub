@@ -1,0 +1,28 @@
+---
+fis_schema: "folder-index.v1"
+folder_id: "FLD-20260907-792e4c07"
+folder: "GitHub\Research-Acquisition\ZZZ_Archive\gpt-researcher1_SUPERSEDED_2026-08-24\docs\docs\gpt-researcher\getting-started"
+folder_class: "project"
+confidence: 0.6
+dependency_risk: 0.0
+dominant_family: "text"
+dominant_ratio: 0.857
+file_count: 7
+classified_at: "2026-09-07T16:08:04"
+allowed_actions: ["index", "rename_internal", "subfolder_sort", "archive_exports"]
+suggested_name: "getting-started"
+---
+
+# FIS Folder Index: getting-started
+
+**Class**: project  ·  **Confidence**: 60%  ·  **Files**: 7  ·  **Dominant**: text (86%)
+
+## Allowed actions
+- index
+- rename_internal
+- subfolder_sort
+- archive_exports
+
+**Suggested name**: `getting-started`  (not applied — review before use)
+
+<!-- FIS folder-index.v1: parseable note; safe to regenerate. -->

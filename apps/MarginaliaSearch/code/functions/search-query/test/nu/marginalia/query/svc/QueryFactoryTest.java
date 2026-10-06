@@ -1,0 +1,441 @@
+package nu.marginalia.query.svc;
+
+import nu.marginalia.WmsaHome;
+import nu.marginalia.api.searchquery.*;
+import nu.marginalia.api.searchquery.model.CompiledSearchFilterSpec;
+import nu.marginalia.api.searchquery.model.query.*;
+import nu.marginalia.db.DbDomainQueries;
+import nu.marginalia.functions.searchquery.QueryFactory;
+import nu.marginalia.language.NounVariants;
+import nu.marginalia.functions.searchquery.query_parser.QueryExpansion;
+import nu.marginalia.language.config.LanguageConfigLocation;
+import nu.marginalia.language.config.LanguageConfiguration;
+import nu.marginalia.segmentation.NgramLexicon;
+import nu.marginalia.term_frequency_dict.TermFrequencyDict;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+import org.mockito.Mockito;
+import org.xml.sax.SAXException;
+
+import javax.xml.parsers.ParserConfigurationException;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.List;
+import java.util.OptionalInt;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.Mockito.when;
+
+public class QueryFactoryTest {
+
+    static QueryFactory queryFactory;
+
+    @BeforeAll
+    public static void setUpAll() throws IOException, ParserConfigurationException, SAXException {
+
+        var lm = WmsaHome.getLanguageModels();
+
+        DbDomainQueries domainQueriesMock = Mockito.mock(DbDomainQueries.class);
+        when(domainQueriesMock.tryGetDomainId(any())).thenReturn(OptionalInt.of(451));
+
+        queryFactory = new QueryFactory(new QueryExpansion(new TermFrequencyDict(lm),
+                new NounVariants(),
+                new NgramLexicon(lm)),
+                domainQueriesMock,
+                new LanguageConfiguration(lm, new LanguageConfigLocation.Experimental()));
+    }
+
+    public RpcIndexQuery parseAndGetQuery(String query) {
+        return queryFactory.createQuery(
+                RpcQsQuery.newBuilder()
+                        .setHumanQuery(query)
+                        .setLangIsoCode("en")
+                        .build(),
+                CompiledSearchFilterSpec.builder("test", "test").build(),
+                null).indexQuery;
+    }
+
+    public ProcessedQuery parse(String query) {
+        return queryFactory.createQuery(
+                RpcQsQuery.newBuilder()
+                        .setHumanQuery(query)
+                        .setLangIsoCode("en")
+                        .build(),
+                CompiledSearchFilterSpec.builder("test", "test").build(),
+                null);
+    }
+
+    @Test
+    void qsec10() {
+        Path webis = Path.of("/home/vlofgren/Exports/qsec10/webis-qsec-10-training-set/webis-qsec-10-training-set-queries.txt");
+
+        if (!Files.exists(webis))
+            return;
+
+        try (var lines = Files.lines(webis)) {
+            lines.limit(1000).forEach(line -> {
+                String[] parts = line.split("\t");
+                if (parts.length == 2) {
+                    System.out.println(parts[1]);
+                    System.out.println(parseAndGetQuery(parts[1]).getTerms().getCompiledQuery());
+                }
+            });
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    @Test
+    public void testParseNoSpecials() {
+        var year = parseAndGetQuery("in the year 2000").getYear();
+        var size = parseAndGetQuery("in the year 2000").getSize();
+        var quality = parseAndGetQuery("in the year 2000").getQuality();
+
+        assertEquals(RpcSpecLimit.TYPE.NONE, year.getType());
+        assertEquals(RpcSpecLimit.TYPE.NONE, size.getType());
+        assertEquals(RpcSpecLimit.TYPE.NONE, quality.getType());
+    }
+
+    @Test
+    public void testParseSite() {
+        var query = parse("plato site:en.wikipedia.org");
+        Assertions.assertEquals("en.wikipedia.org", query.domain);
+        Assertions.assertEquals(List.of(), query.indexQuery.getTerms().getTermsRequireList());
+        Assertions.assertEquals(List.of("plato"), query.indexQuery.getTerms().getTermsQueryList());
+        Assertions.assertEquals(List.of(451), query.indexQuery.getRequiredDomainIdsList());
+    }
+
+    @Test
+    public void testParseSite__only_site_tag() {
+        // This is a special flow that ensures we are enable to enumerate all documents for a domain
+
+        var query = parse("site:en.wikipedia.org");
+        Assertions.assertEquals("en.wikipedia.org", query.domain);
+        Assertions.assertEquals(List.of(), query.indexQuery.getTerms().getTermsRequireList());
+        Assertions.assertEquals(List.of("site:en.wikipedia.org"), query.indexQuery.getTerms().getTermsQueryList());
+        Assertions.assertEquals(List.of(451), query.indexQuery.getRequiredDomainIdsList());
+    }
+
+    @Test
+    public void testParseSiteWildcard() {
+        var query = parse("plato site:*.wikipedia.org");
+        Assertions.assertEquals("wikipedia.org", query.domain);
+        Assertions.assertEquals(List.of("site:wikipedia.org"), query.indexQuery.getTerms().getTermsRequireList());
+        Assertions.assertEquals(List.of("plato"), query.indexQuery.getTerms().getTermsQueryList());
+        Assertions.assertTrue(query.indexQuery.getRequiredDomainIdsList().isEmpty());
+    }
+
+    @Test
+    public void testParseSiteWildcard__only_site_tag() {
+        // This is a special flow that ensures we are enable to enumerate all documents for a domain
+
+        var query = parse("site:*.wikipedia.org");
+        Assertions.assertEquals("wikipedia.org", query.domain);
+        Assertions.assertEquals(List.of(), query.indexQuery.getTerms().getTermsRequireList());
+        Assertions.assertEquals(List.of("site:wikipedia.org"), query.indexQuery.getTerms().getTermsQueryList());
+        Assertions.assertTrue(query.indexQuery.getRequiredDomainIdsList().isEmpty());
+    }
+
+    @Test
+    public void testLongQuotedQueryIsRejected() {
+        // A quoted phrase parses as a single token, so it slips past the token count limit
+        StringBuilder monsterQuery = new StringBuilder("\"");
+        for (int i = 0; i < 50; i++) {
+            monsterQuery.append("word").append(i).append(' ');
+        }
+        monsterQuery.append("\"");
+
+        var query = parse(monsterQuery.toString());
+        Assertions.assertTrue(query.indexQuery.getTerms().getTermsQueryList().isEmpty());
+    }
+
+    @Test
+    public void testQuotedQueryOfReasonableLength() {
+        var query = parse("\"to be or not to be that is the question\"");
+        Assertions.assertFalse(query.indexQuery.getTerms().getTermsQueryList().isEmpty());
+    }
+
+    @Test
+    public void testParseYearEq() {
+        var year = parseAndGetQuery("year=2000").getYear();
+        assertEquals(RpcSpecLimit.TYPE.EQUALS, year.getType());
+        assertEquals(2000, year.getValue());
+    }
+
+    @Test
+    public void testParseYearLt() {
+        var year = parseAndGetQuery("year<2000").getYear();
+        assertEquals(RpcSpecLimit.TYPE.LESS_THAN, year.getType());
+        assertEquals(2000, year.getValue());
+    }
+
+    @Test
+    public void testParseYearGt() {
+        var year = parseAndGetQuery("year>2000").getYear();
+        assertEquals(RpcSpecLimit.TYPE.GREATER_THAN, year.getType());
+        assertEquals(2000, year.getValue());
+    }
+
+    @Test
+    public void testParseSizeEq() {
+        var size = parseAndGetQuery("size=2000").getSize();
+        assertEquals(RpcSpecLimit.TYPE.EQUALS, size.getType());
+        assertEquals(2000, size.getValue());
+    }
+
+    @Test
+    public void testParseSizeLt() {
+        var size = parseAndGetQuery("size<2000").getSize();
+        assertEquals(RpcSpecLimit.TYPE.LESS_THAN, size.getType());
+        assertEquals(2000, size.getValue());
+    }
+
+    @Test
+    public void testParseSizeGt() {
+        var size = parseAndGetQuery("size>2000").getSize();
+        assertEquals(RpcSpecLimit.TYPE.GREATER_THAN, size.getType());
+        assertEquals(2000, size.getValue());
+    }
+
+    @Test
+    public void testParseQualityEq() {
+        var quality = parseAndGetQuery("q=2000").getQuality();
+        assertEquals(RpcSpecLimit.TYPE.EQUALS, quality.getType());
+        assertEquals(2000, quality.getValue());
+    }
+
+    @Test
+    public void testParseQualityLt() {
+        var quality = parseAndGetQuery("q<2000").getQuality();
+        assertEquals(RpcSpecLimit.TYPE.LESS_THAN, quality.getType());
+        assertEquals(2000, quality.getValue());
+    }
+
+    @Test
+    public void testParseQualityGt() {
+        var quality = parseAndGetQuery("q>2000").getQuality();
+        assertEquals(RpcSpecLimit.TYPE.GREATER_THAN, quality.getType());
+        assertEquals(2000, quality.getValue());
+    }
+
+    @Test
+    public void testPriorityTerm() {
+        var subquery = parseAndGetQuery("physics ?tld:edu").getTerms();
+        assertEquals(List.of("tld:edu"), subquery.getTermsPriorityList());
+        assertEquals(List.of("physics"), subquery.getCompiledQuery().getTermsList());
+    }
+
+    private List<String> mandatoryPhrase(RpcQueryTerms terms) {
+        for (var phrase : terms.getPhrasesList()) {
+            if (phrase.getType() == RpcPhrases.TYPE.MANDATORY) {
+                return phrase.getTermsList();
+            }
+        }
+        return List.of();
+    }
+
+    @Test
+    public void testQuotedPhraseWithTokenizerDiscardedToken() {
+        var terms = parseAndGetQuery("\"coca - cola\"").getTerms();
+        assertEquals(List.of("coca", "cola"), terms.getTermsQueryList());
+        assertEquals(List.of("coca", "cola"), mandatoryPhrase(terms));
+    }
+
+    @Test
+    public void testQuotedPhraseWithAsterisk() {
+        var terms = parseAndGetQuery("\"five * six\"").getTerms();
+        assertEquals(List.of("five", "six"), terms.getTermsQueryList());
+        assertEquals(List.of("five", "six"), mandatoryPhrase(terms));
+    }
+
+    @Test
+    public void testQuotedPhraseWithJunkWord() {
+        var terms = parseAndGetQuery("\"part number 123456789012345678 in stock\"").getTerms();
+        assertEquals(List.of("part", "number", "in", "stock"), terms.getTermsQueryList());
+        assertEquals(List.of("part", "number", "", "in", "stock"), mandatoryPhrase(terms));
+    }
+
+    @Test
+    public void testQuotedSingleWordPossessive() {
+        var terms = parseAndGetQuery("\"cat's\"").getTerms();
+        assertEquals(List.of("cat"), terms.getTermsQueryList());
+    }
+
+    @Test
+    public void testNegatedQuotedPhrase() {
+        var terms = parseAndGetQuery("pottery -\"artisanal cheese\"").getTerms();
+        assertEquals(List.of("pottery"), terms.getTermsQueryList());
+        assertEquals(List.of("artisanal", "cheese"), terms.getTermsExcludeList());
+        assertEquals(List.of(), mandatoryPhrase(terms));
+    }
+
+    @Test
+    public void testExpansion() {
+        var subquery = parseAndGetQuery("elden ring mechanical keyboard slackware linux duke nukem 3d").getTerms();
+
+        System.out.println(subquery.getCompiledQuery());
+    }
+
+    @Test
+    public void testRomanNumeralExpansion() {
+        var subquery = parseAndGetQuery("world war 2").getTerms();
+        System.out.println(subquery);
+        Assertions.assertTrue(subquery.getCompiledQuery().getTermsList().contains("ii"));
+    }
+
+    @Test
+    public void testRomanNumeralExpansionBackwards() {
+        var subquery = parseAndGetQuery("world war ii").getTerms();
+        System.out.println(subquery);
+        Assertions.assertTrue(subquery.getCompiledQuery().getTermsList().contains("2"));
+    }
+
+
+
+    @Test
+    public void testExpansion2() {
+        var subquery = parseAndGetQuery("need for speed").getTerms();
+        System.out.println(subquery);
+
+    }
+    @Test
+    public void testExpansionMK() {
+        var subquery = parseAndGetQuery("mechanical keyboard").getTerms();
+        System.out.println(subquery);
+    }
+    @Test
+    public void testExpansion3() {
+        var subquery = parseAndGetQuery("buy rimonabant buy acomplia");
+        System.out.println(subquery);
+    }
+
+    @Test
+    public void testExpansion4() {
+        var subquery = parseAndGetQuery("The Vietnam of computer science");
+        System.out.println(subquery);
+    }
+
+    @Test
+    public void testExpansion5() {
+        var subquery = parseAndGetQuery("The");
+        System.out.println(subquery);
+    }
+
+    @Test
+    public void testExpansion6() {
+        var subquery = parseAndGetQuery("burning the nerves in the neck");
+        System.out.println(subquery);
+    }
+
+    @Test
+    public void testExpansion7() {
+        var subquery = parseAndGetQuery("amazing work being done");
+        System.out.println(subquery);
+    }
+
+    @Test
+    public void testExpansion8() {
+        var subquery = parseAndGetQuery("success often consists of");
+        System.out.println(subquery);
+    }
+
+
+    @Test
+    public void testExpansion10() {
+        var subquery = parseAndGetQuery("when was captain james cook born");
+        System.out.println(subquery);
+
+    }
+
+    @Test
+    public void testExpansion11() {
+        var subquery = parseAndGetQuery("traceroute vs tracepath");
+        System.out.println(subquery);
+    }
+
+    @Test
+    public void testContractionWordNum() {
+        var subquery = parseAndGetQuery("glove 80");
+
+        Assertions.assertTrue(subquery.getTerms().getCompiledQuery().getTermsList().contains("glove"));
+        Assertions.assertTrue(subquery.getTerms().getCompiledQuery().getTermsList().contains("80"));
+        Assertions.assertTrue(subquery.getTerms().getCompiledQuery().getTermsList().contains("glove-80"));
+        Assertions.assertTrue(subquery.getTerms().getCompiledQuery().getTermsList().contains("glove80"));
+    }
+
+
+    @Test
+    public void testCplusPlus() {
+        var subquery = parseAndGetQuery("std::vector::push_back vector");
+        System.out.println(subquery);
+    }
+
+    @Test
+    public void testQuotedApostrophe() {
+        var subquery = parseAndGetQuery("\"bob's cars\"");
+
+        System.out.println(subquery);
+
+        Assertions.assertTrue(subquery.getTerms().getCompiledQuery().getTermsList().contains("bob"));
+        Assertions.assertFalse(subquery.getTerms().getCompiledQuery().getTermsList().contains("bob's"));
+    }
+
+    @Test
+    public void testStrayParentheses() {
+        // Escaped parentheses survive tokenization as literal terms, but are never
+        // indexed and must not become query terms
+        List<String> queries = List.of(
+                "test \\(",
+                "\\(",
+                "test \\)",
+                "\\)",
+                "\\) sobre el perfil del egresado de la",
+                "\") sobre el perfil del egresado de la\""
+        );
+
+        for (String query : queries) {
+            var terms = parseAndGetQuery(query).getTerms();
+
+            Assertions.assertDoesNotThrow(() -> IndexProtobufCodec.convertCompiledQuery(terms.getCompiledQuery()), query);
+            Assertions.assertFalse(terms.getTermsQueryList().contains("("), query);
+            Assertions.assertFalse(terms.getTermsQueryList().contains(")"), query);
+        }
+    }
+
+    @Test
+    public void testStrayPipe() {
+        var terms = parseAndGetQuery("foo | bar").getTerms();
+
+        assertEquals(List.of("foo", "bar"), terms.getTermsQueryList());
+        Assertions.assertDoesNotThrow(() -> IndexProtobufCodec.convertCompiledQuery(terms.getCompiledQuery()));
+    }
+
+    @Test
+    public void testExpansion9() {
+        var subquery = parseAndGetQuery("pie recipe");
+
+        Assertions.assertTrue(subquery.getTerms().getCompiledQuery().getTermsList().contains("category:food"));
+
+        subquery = parseAndGetQuery("recipe pie");
+
+        Assertions.assertFalse(subquery.getTerms().getCompiledQuery().getTermsList().contains("category:food"));
+    }
+
+    @Test
+    public void testParsing() {
+        var subquery = parseAndGetQuery("strlen()");
+        assertEquals(List.of("strlen"), subquery.getTerms().getCompiledQuery().getTermsList());
+        System.out.println(subquery);
+    }
+
+    @Test
+    public void testAdvice() {
+        var subquery = parseAndGetQuery("mmap (strlen)");
+        assertEquals(List.of("mmap"), subquery.getTerms().getCompiledQuery().getTermsList());
+        assertEquals(List.of("strlen"), subquery.getTerms().getTermsRequireList());
+        System.out.println(subquery);
+    }
+}

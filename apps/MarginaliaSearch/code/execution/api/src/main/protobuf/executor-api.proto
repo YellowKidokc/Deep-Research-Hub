@@ -1,0 +1,192 @@
+syntax="proto3";
+
+package nu.marginalia.functions.execution.api;
+
+option java_package="nu.marginalia.functions.execution.api";
+option java_multiple_files=true;
+
+service ExecutorApi {
+  rpc startFsm(RpcFsmName) returns (Empty) {}
+  rpc stopFsm(RpcFsmName) returns (Empty) {}
+  rpc stopProcess(RpcProcessId) returns (Empty) {}
+
+  rpc getActorStates(Empty) returns (RpcActorRunStates) {}
+  rpc listSideloadDir(Empty) returns (RpcUploadDirContents) {}
+  rpc listFileStorage(RpcFileStorageId) returns (RpcFileStorageContent) {}
+
+  rpc downloadSampleData(RpcDownloadSampleData) returns (Empty) {}
+  rpc calculateAdjacencies(Empty) returns (Empty) {}
+  rpc restoreBackup(RpcFileStorageId) returns (Empty) {}
+
+  rpc updateNsfwFilters(RpcUpdateNsfwFilters) returns (Empty) {}
+
+  rpc triggerNewDomainsDiscovery(RpcNewDomainsDiscovery) returns (Empty) {}
+
+  rpc restartExecutorService(Empty) returns (Empty) {}
+
+  rpc fetchCrawlDataSample(RpcCrawlDataSampleReq) returns (RpcCrawlDataSampleRsp) {}
+}
+
+service ExecutorCrawlApi {
+  rpc triggerCrawl(RpcFileStorageId) returns (Empty) {}
+  rpc triggerSingleDomainRecrawl(RpcFileStorageIdWithDomainName) returns (Empty) {}
+  rpc triggerConvert(RpcFileStorageId) returns (Empty) {}
+  rpc triggerConvertAndLoad(RpcFileStorageId) returns (Empty) {}
+  rpc loadProcessedData(RpcFileStorageIds) returns (Empty) {}
+  rpc createCrawlSpecFromDownload(RpcCrawlSpecFromDownload) returns (Empty) {}
+}
+
+service ExecutorSideloadApi {
+  rpc sideloadEncyclopedia(RpcSideloadEncyclopedia) returns (Empty) {}
+  rpc sideloadDirtree(RpcSideloadDirtree) returns (Empty) {}
+  rpc sideloadWarc(RpcSideloadWarc) returns (Empty) {}
+  rpc sideloadReddit(RpcSideloadReddit) returns (Empty) {}
+  rpc sideloadStackexchange(RpcSideloadStackexchange) returns (Empty) {}
+}
+
+service ExecutorExportApi {
+  rpc exportAtags(RpcExportRequest) returns (Empty) {}
+  rpc exportSegmentationModel(RpcExportSegmentationModel) returns (Empty) {}
+  rpc exportSampleData(RpcExportSampleData) returns (Empty) {}
+  rpc exportDomSampleData(RpcExportDomSampleData) returns (Empty) {}
+  rpc exportRssFeeds(RpcExportRequest) returns (Empty) {}
+  rpc exportTermFrequencies(RpcExportRequest) returns (Empty) {}
+  rpc exportData(Empty) returns (Empty) {}
+
+  rpc exportAllAtags(Empty) returns (Empty) {}
+  rpc exportAllFeeds(Empty) returns (Empty) {}
+  rpc exportAllTfreqs(Empty) returns (Empty) {}
+}
+
+message Empty {}
+
+message RpcFsmName {
+  string actorName = 1;
+}
+message RpcProcessId {
+  string processId = 1;
+}
+message RpcFileStorageId {
+  int64 fileStorageId = 1;
+}
+message RpcExportRequest {
+  int64 fileStorageId = 1;
+  int64 msgId = 2;
+}
+message RpcUpdateNsfwFilters {
+  int64 msgId = 1;
+}
+message RpcNewDomainsDiscovery {
+  int32 goal = 1;
+}
+message RpcFileStorageIdWithDomainName {
+  int64 fileStorageId = 1;
+  string targetDomainName = 2;
+}
+message RpcFileStorageIds {
+  repeated int64 fileStorageIds = 1;
+}
+message RpcSideloadEncyclopedia {
+  string sourcePath = 1;
+  string baseUrl = 2;
+}
+message RpcExportSegmentationModel {
+  string sourcePath = 1;
+}
+message RpcSideloadDirtree {
+  string sourcePath = 1;
+}
+message RpcSideloadWarc {
+  string sourcePath = 1;
+}
+message RpcSideloadReddit {
+  string sourcePath = 1;
+}
+message RpcSideloadStackexchange {
+  string sourcePath = 1;
+}
+message RpcCrawlSpecFromDownload {
+  string description = 1;
+  string url = 2;
+}
+message RpcExportSampleData {
+  int64 fileStorageId = 1;
+  int32 size = 2;
+  string name = 3;
+  string ctFilter = 4;
+}
+
+message RpcExportDomSampleData {
+  int64 msgId = 1;
+}
+
+message RpcDownloadSampleData {
+  string sampleSet = 1;
+}
+message RpcActorRunStates {
+  int32 node = 1;
+  repeated RpcActorRunState actorRunStates = 2;
+}
+message RpcActorRunState {
+  string actorName = 1;
+  string state = 2;
+  string actorDescription = 3;
+  string stateDescription = 4;
+  bool terminal = 5;
+  bool canStart = 6;
+}
+message RpcUploadDirContents {
+  string path = 1;
+  repeated RpcUploadDirEntry entries = 2;
+}
+message RpcUploadDirEntry {
+  string name = 1;
+  string lastModifiedTime = 2;
+  bool isDirectory = 3;
+  int64 size = 4;
+}
+message RpcFileStorageContent {
+  repeated RpcFileStorageEntry entries = 1;
+}
+message RpcFileStorageEntry {
+  string name = 1;
+  int64 size = 2;
+  string lastModifiedTime = 3;
+}
+
+
+message RpcCrawlDataSampleReq {
+  int64 fileStorageId = 1;
+  string path = 2;
+
+  int32 after = 3;
+  string urlGlob = 4;
+  string contentType = 5;
+  int32 httpStatus = 6;
+}
+
+message RpcCrawlDataSampleRsp {
+  repeated RpcCrawlDataSampleRecord records = 1;
+  repeated RpcCrawlDataSamplesByStatusCode byStatusCode = 2;
+  repeated RpcCrawlDataSamplesByContentType byContentType = 3;
+  string domain = 4;
+}
+
+message RpcCrawlDataSampleRecord {
+  string url = 1;
+  string contentType = 2;
+  int32 httpStatus = 3;
+  bool hasBody = 4;
+  string etag = 5;
+  string lastModified = 6;
+}
+
+message RpcCrawlDataSamplesByStatusCode {
+  int32 statusCode = 1;
+  int32 count = 2;
+}
+
+message RpcCrawlDataSamplesByContentType {
+  string contentType = 1;
+  int32 count = 2;
+}

@@ -1,0 +1,124 @@
+{
+  "core_relation": {
+    "sentence": "The reliability of the earliest Christian proclamation depends on the creeds being pre-Pauline and therefore datable to within a few years of the crucifixion, which is established by the convergence of early creedal material, Paul's conversion timeline, and critical scholars' own admissions.",
+    "quote": "So that presumes a previous material before first Cor- first Thess. [S024]"
+  },
+  "core_relation_run2": {
+    "sentence": "The reliability of the earliest Christian proclamation depends on the creeds being pre-Pauline and therefore datable to within a few years of the crucifixion, which is established by the convergence of early creedal material, Paul's conversion timeline, and critical scholars' own admissions.",
+    "quote": "So that presumes a previous material before first Cor- first Thess. [S024]"
+  },
+  "product_test": {
+    "run1": "multiplicative",
+    "run2": "multiplicative",
+    "status": "agreed",
+    "quote": "But if you go okay Jesus died in 30 and why do you say they have to be before 50? Because that's the most common date given to 1 Thessalonians. [S010-S011]",
+    "reason": "The argument requires the conjunction of: (a) creeds existing before Paul's writings, (b) Paul's conversion being 2-3 years after the cross, and (c) the creed being pre-Pauline. If any one link fails (e.g., if the creed post-dates Paul, or if Paul's conversion was late, or if the creed was authored by Paul), the entire dating argument collapses. Habermas treats these as jointly necessary, not independently sufficient. The 'breathing out threatenings' [S051] detail only makes sense if the creed already existed before Paul's conversion—remove that and the motive for his anger disappears."
+  },
+  "slots": [
+    {
+      "slot": "G",
+      "fit_1": "direct",
+      "fit_2": "direct",
+      "status": "agreed",
+      "plays_role": "The external source of coherence is the pre-Pauline creedal tradition itself—an oral tradition that existed before Paul's writings and even before his conversion. It is the negentropy influx that keeps the early proclamation from decaying into myth.",
+      "quote": "They said that creed or its component parts was already in existence before Paul took his walk to Damascus. [S047]"
+    },
+    {
+      "slot": "M",
+      "fit_1": "analogous",
+      "fit_2": "analogous",
+      "status": "agreed",
+      "plays_role": "Alignment between Paul's persecution of the church and the content of the creed he was persecuting. His anger ('breathing out threatenings') is aligned with the blasphemy he perceived in the deity claims of the creed.",
+      "quote": "Cuz he already knew what they were teaching in the early creed. [S052]"
+    },
+    {
+      "slot": "E",
+      "fit_1": "direct",
+      "fit_2": "direct",
+      "status": "agreed",
+      "plays_role": "Signal fidelity is the transmission of the creedal content through the oral tradition without corruption into myth. The paper's central worry is whether the creeds were expanded until they became myth, i.e., whether the signal survived.",
+      "quote": "What keeps the creeds from being expanded until they become myth and they're not really the words of the eyewitnesses. [S063]"
+    },
+    {
+      "slot": "S_eff",
+      "fit_1": "analogous",
+      "fit_2": "analogous",
+      "status": "agreed",
+      "plays_role": "Effective entropy is the corruption of the oral tradition over time—the expansion of creeds into myth, which would destroy their evidentiary value. The pre-50 dating is precisely what limits this entropy.",
+      "quote": "What keeps the creeds from being expanded until they become myth and they're not really the words of the eyewitnesses. [S063]"
+    },
+    {
+      "slot": "T",
+      "fit_1": "direct",
+      "fit_2": "direct",
+      "status": "agreed",
+      "plays_role": "Temporal integration is the dating window: 30-50 AD, 33-48 AD, or 30-39 AD. The shorter the gap, the stronger the argument. Time is the variable that turns possibility into accumulated consequence.",
+      "quote": "Put this way 33 to 48 is only 15 years. [S013]"
+    },
+    {
+      "slot": "K",
+      "fit_1": "analogous",
+      "fit_2": "analogous",
+      "status": "agreed",
+      "plays_role": "Compression is the creedal formula itself—a compact summary of the gospel (deity, death, resurrection) that compresses the essential message into transmissible form. The creed is the compression of the eyewitness testimony.",
+      "quote": "That's the classic gospel of deity, death, resurrection. [S054]"
+    },
+    {
+      "slot": "R",
+      "fit_1": "analogous",
+      "fit_2": "analogous",
+      "status": "agreed",
+      "plays_role": "Phase transition is the conversion of Paul—a discrete event that changes his state from persecutor to apostle and anchors the dating of the creed. It is a threshold, not a degree.",
+      "quote": "Now, conservatives and liberals believe that Paul became a Christian two to three years, Bultmann, two to three years after the cross. [S048]"
+    },
+    {
+      "slot": "Q",
+      "fit_1": "stretched",
+      "fit_2": "stretched",
+      "status": "agreed",
+      "plays_role": "Superposition is the unresolved dating of the creeds before the evidence is weighed—the open possibility that the creed could be early or late, which is only actualized by the convergence of Paul's timeline and the Jesus Seminar's admission.",
+      "quote": "I don't know if that if that >> Yeah, I I think Yeah, so you are right. [S034]"
+    },
+    {
+      "slot": "F",
+      "fit_1": "direct",
+      "fit_2": "direct",
+      "status": "agreed",
+      "plays_role": "Non-local correlation is the agreement between conservatives and liberals (including the Jesus Seminar and Bart Ehrman) on the early dating—independent sources that are no longer independent once they converge on the same date.",
+      "quote": "Now, conservatives and liberals believe that Paul became a Christian two to three years, Bultmann, two to three years after the cross. [S048]"
+    },
+    {
+      "slot": "C",
+      "fit_1": "direct",
+      "fit_2": "direct",
+      "status": "agreed",
+      "plays_role": "Integration is Habermas himself as the integrator, synthesizing the creeds, the dating of Paul's letters, the Jesus Seminar's admissions, and the conversion timeline into a single argument. The paper is his integration.",
+      "quote": "I make the point over and over again at first in volume one and in all four volumes over and over. [S062]"
+    }
+  ],
+  "contested": [],
+  "analog_strength": 3,
+  "analog_strength_spread": "3-3",
+  "confidence": [
+    "medium",
+    "medium"
+  ],
+  "one_line": "The paper's argument that the creeds date to the 30s AD is analogous to the master equation in that it requires the multiplicative conjunction of early creedal material, Paul's conversion timeline, and critical scholars' admissions—if any one fails, the dating argument collapses.",
+  "breaks": [
+    "The paper is a spoken interview, not a formal argument, so the 'product test' is inferred from the logic of the dating argument rather than stated as a formal equation.",
+    "Slot Q (superposition) is weakly present—the paper does not explicitly treat the dating as an unresolved possibility that is later actualized; it presents the dating as already settled by the evidence.",
+    "Slot M (alignment) is stretched: the paper does not develop a theory of alignment; it simply notes Paul's anger as consistent with the creed's content.",
+    "The paper adds an extra factor not in the master equation: the authority of critical scholars' admissions (the Jesus Seminar, Bart Ehrman, Bultmann). This functions as a social-epistemic warrant rather than a physical factor."
+  ],
+  "extra_factors": [
+    [
+      "The admissions of critical scholars (Jesus Seminar, Bart Ehrman, Bultmann) function as an independent warrant for the early dating, not captured by any slot in the master equation.",
+      "The 'seven books' of Paul (Romans, 1-2 Corinthians, Galatians, Philippians, 1 Thessalonians, Philemon) serve as a fixed corpus that critics grant, providing a stable anchor for the argument."
+    ],
+    [
+      "The admissions of critical scholars (Jesus Seminar, Bart Ehrman, Bultmann) function as an independent warrant for the early dating, not captured by any slot in the master equation.",
+      "The 'seven books' of Paul (Romans, 1-2 Corinthians, Galatians, Philippians, 1 Thessalonians, Philemon) serve as a fixed corpus that critics grant, providing a stable anchor for the argument."
+    ]
+  ],
+  "equations_present": false
+}

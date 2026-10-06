@@ -1,0 +1,1388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DeepCrawl</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0a0a0a;color:#e0e0e0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;padding:24px;max-width:1200px;margin:0 auto}
+h1{font-size:1.4rem;margin-bottom:6px;color:#ccc}
+.subtitle{color:#555;font-size:.8rem;margin-bottom:20px}
+.tabs{display:flex;gap:4px;margin-bottom:16px;flex-wrap:wrap}
+.tab{padding:10px 20px;background:#111;border:1px solid #222;border-bottom:none;border-radius:6px 6px 0 0;cursor:pointer;color:#888;font-size:.85rem}
+.tab.active{background:#1a2a3a;color:#5ba3d9;border-color:#2a3a4a}
+.tab.crawl-tab{color:#a8a}
+.tab.crawl-tab.active{background:#1a2a1a;color:#5bd95b;border-color:#2a4a2a}
+.tab.search-tab{color:#a88}
+.tab.search-tab.active{background:#2a1a1a;color:#d95b5b;border-color:#4a2a2a}
+.panel{display:none;background:#111;border:1px solid #222;border-radius:0 6px 6px 6px;padding:20px}
+.panel.active{display:block}
+input[type=text],input[type=number],textarea,select{width:100%;padding:12px 14px;font-size:.95rem;background:#0a0a0a;border:1px solid #333;border-radius:6px;color:#eee;outline:none;font-family:inherit}
+input:focus,textarea:focus,select:focus{border-color:#5ba3d9}
+textarea{min-height:120px;resize:vertical;font-family:'Cascadia Code','Fira Code',monospace;font-size:.85rem}
+label{display:block;color:#888;font-size:.8rem;margin-bottom:4px;margin-top:12px}
+.row{display:flex;gap:10px;align-items:end;margin-top:12px}
+button{padding:10px 24px;font-size:.9rem;background:#1a2a3a;color:#5ba3d9;border:1px solid #2a3a4a;border-radius:6px;cursor:pointer;white-space:nowrap}
+button:hover{background:#2a3a4a}
+button:disabled{opacity:.4;cursor:wait}
+button.danger{background:#2a1a1a;color:#d95b5b;border-color:#4a2a2a}
+button.danger:hover{background:#3a2a2a}
+button.success{background:#1a2a1a;color:#5bd95b;border-color:#2a4a2a}
+button.success:hover{background:#2a3a2a}
+.small-btn{padding:6px 14px;font-size:.8rem}
+.status{font-size:.8rem;color:#666;margin:12px 0 8px}
+#output{background:#0a0a0a;border:1px solid #222;border-radius:6px;padding:16px;min-height:250px;max-height:65vh;overflow:auto;white-space:pre-wrap;font-family:'Cascadia Code','Fira Code',monospace;font-size:.82rem;line-height:1.5;margin-top:12px}
+.error{color:#e55}
+.count{color:#5ba3d9;font-weight:bold}
+.match-count{color:#5bd95b;font-weight:bold}
+.help{color:#555;font-size:.75rem;margin-top:4px}
+.link-list{list-style:none;max-height:400px;overflow-y:auto;margin:12px 0}
+.link-item{display:flex;align-items:center;gap:8px;padding:6px 8px;border-bottom:1px solid #1a1a1a;font-size:.82rem}
+.link-item:hover{background:#111}
+.link-item input[type=checkbox]{width:auto;margin:0;accent-color:#5ba3d9}
+.link-item a{color:#5ba3d9;text-decoration:none;word-break:break-all;flex:1}
+.link-item a:hover{text-decoration:underline}
+.link-item .snippet{color:#666;font-size:.75rem;display:block;margin-top:2px}
+.link-item .title{color:#ccc;font-size:.85rem}
+.link-item .match-highlight{color:#5bd95b;font-size:.75rem;display:block;margin-top:1px}
+.controls-bar{display:flex;gap:8px;align-items:center;margin:10px 0;flex-wrap:wrap}
+.badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:.7rem;background:#1a2a3a;color:#5ba3d9}
+.badge-green{background:#1a2a1a;color:#5bd95b}
+.settings-row{display:flex;gap:12px;align-items:end;flex-wrap:wrap}
+.settings-row>div{flex:1;min-width:150px}
+.progress-bar{height:4px;background:#222;border-radius:2px;margin:8px 0;overflow:hidden}
+.progress-fill{height:100%;background:#5ba3d9;border-radius:2px;transition:width .3s;width:0%}
+.stop-btn{background:#3a1a1a;color:#e55;border-color:#5a2a2a;display:none}
+.stop-btn:hover{background:#4a2a2a}
+.live-stats{display:flex;gap:16px;margin:10px 0;font-size:.8rem;flex-wrap:wrap}
+.live-stats span{color:#888}
+.live-stats .val{color:#5ba3d9;font-weight:bold}
+.live-stats .match-val{color:#5bd95b;font-weight:bold}
+.keyword-tag{display:inline-block;padding:2px 8px;margin:2px;border-radius:10px;font-size:.75rem;background:#1a2a1a;color:#5bd95b;border:1px solid #2a4a2a}
+</style>
+</head>
+<body>
+<h1>DeepCrawl</h1>
+<div class="subtitle">Crawl + Search + Scrape &mdash; deepcrawl-worker-v0.davidokc28.workers.dev</div>
+
+<div class="tabs">
+  <div class="tab active" onclick="switchTab(0)">Single Page</div>
+  <div class="tab" onclick="switchTab(1)">Batch URLs</div>
+  <div class="tab" onclick="switchTab(2)">Extract Links</div>
+  <div class="tab crawl-tab" onclick="switchTab(3)">Download Site</div>
+  <div class="tab crawl-tab" onclick="switchTab(4)">Spider</div>
+  <div class="tab search-tab" onclick="switchTab(5)">Exa Search</div>
+  <div class="tab search-tab" onclick="switchTab(6)">SearXNG</div>
+  <div class="tab search-tab" onclick="switchTab(7)">Papers</div>
+  <div class="tab crawl-tab" onclick="switchTab(8)">Bulk Research</div>
+  <div class="tab" onclick="switchTab(9)" style="color:#666">Settings</div>
+</div>
+
+<!-- SINGLE PAGE -->
+<div class="panel active" id="panel0">
+  <label>URL to scrape</label>
+  <div class="row" style="margin-top:0">
+    <input type="text" id="singleUrl" placeholder="https://example.com/article">
+    <button onclick="scrapeSingle()">Scrape</button>
+    <button class="small-btn" onclick="copyOutput()">Copy</button>
+    <button class="small-btn" onclick="downloadOutput()">Save .md</button>
+  </div>
+  <div class="help">Returns clean Markdown. Press Enter to scrape.</div>
+</div>
+
+<!-- BATCH URLs -->
+<div class="panel" id="panel1">
+  <label>Paste URLs (one per line)</label>
+  <textarea id="batchUrls" placeholder="https://example.com/page-1
+https://example.com/page-2
+https://example.com/page-3"></textarea>
+  <div class="row">
+    <button onclick="scrapeBatch()">Scrape All</button>
+    <button class="small-btn" onclick="downloadAll()">Save All .md</button>
+    <button class="small-btn stop-btn" onclick="stopWork()" id="stopBtn">Stop</button>
+  </div>
+  <div class="help">Each URL scraped to Markdown. Concurrency set in Settings tab.</div>
+</div>
+
+<!-- EXTRACT LINKS -->
+<div class="panel" id="panel2">
+  <label>URL to extract links from</label>
+  <div class="row" style="margin-top:0">
+    <input type="text" id="linksUrl" placeholder="https://example.com">
+    <button onclick="extractLinks()">Get Links</button>
+    <button class="small-btn" onclick="copyOutput()">Copy</button>
+  </div>
+  <div class="help">Returns hierarchical link tree from the page.</div>
+</div>
+
+<!-- DOWNLOAD SITE -->
+<div class="panel" id="panel3">
+  <label>Website URL (homepage)</label>
+  <div class="row" style="margin-top:0">
+    <input type="text" id="dlSiteUrl" placeholder="https://reasonablefaith.org  or  https://coldcasechristianity.com">
+    <button class="success" onclick="downloadSite()">Download Entire Site</button>
+    <button class="small-btn stop-btn" onclick="stopWork()" id="dlStopBtn">Stop</button>
+  </div>
+
+  <div class="settings-row" style="margin-top:10px">
+    <div>
+      <label>Max pages</label>
+      <select id="dlMax">
+        <option value="50">50</option>
+        <option value="100">100</option>
+        <option value="250">250</option>
+        <option value="500" selected>500</option>
+        <option value="1000">1,000</option>
+        <option value="2500">2,500</option>
+        <option value="5000">5,000</option>
+        <option value="10000">10,000</option>
+      </select>
+    </div>
+    <div>
+      <label>Crawl depth</label>
+      <select id="dlDepth">
+        <option value="3">3 levels</option>
+        <option value="5" selected>5 levels</option>
+        <option value="10">10 levels (deep)</option>
+        <option value="99">Unlimited</option>
+      </select>
+    </div>
+    <div>
+      <label>Scope</label>
+      <select id="dlScope">
+        <option value="yes" selected>Same domain only</option>
+        <option value="loose">Include subdomains</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="row">
+    <button class="small-btn" onclick="downloadSiteMarkdown()">Save All as .md</button>
+    <button class="small-btn" onclick="downloadSiteUrls()">Save URL List</button>
+    <button class="small-btn" onclick="copyOutput()">Copy</button>
+  </div>
+
+  <div class="live-stats" id="dlStats" style="display:none">
+    <span>Pages: <span class="val" id="dlStatPages">0</span></span>
+    <span>Queue: <span class="val" id="dlStatQueue">0</span></span>
+    <span>Errors: <span class="val" id="dlStatErrors">0</span></span>
+    <span>Size: <span class="val" id="dlStatSize">0 KB</span></span>
+  </div>
+
+  <div id="dlPageList"></div>
+  <div class="help">Paste an apologetics site, hit go. Downloads every page on that domain as clean Markdown. Stays on that domain only — won't wander off to other sites. Save the whole thing as one big .md file.</div>
+</div>
+
+<!-- SPIDER / KEYWORD CRAWLER -->
+<div class="panel" id="panel4">
+  <label>Starting URL (seed)</label>
+  <input type="text" id="spiderUrl" placeholder="https://example.com  or  https://en.wikipedia.org/wiki/Mathematics_and_theology">
+
+  <label>Keywords to find (comma separated)</label>
+  <input type="text" id="spiderKeywords" placeholder="Jesus, Bible, scripture, theology, divine, Christ, God, mathematics">
+  <div class="help">Pages containing ANY of these keywords (case-insensitive) will be saved. Leave blank to save everything.</div>
+
+  <div class="settings-row" style="margin-top:10px">
+    <div>
+      <label>Max depth</label>
+      <select id="spiderDepth">
+        <option value="1">1 (links on seed page only)</option>
+        <option value="2" selected>2 (follow links 1 hop out)</option>
+        <option value="3">3 (2 hops out)</option>
+        <option value="5">5 (deep crawl)</option>
+      </select>
+    </div>
+    <div>
+      <label>Max pages</label>
+      <select id="spiderMax">
+        <option value="25">25</option>
+        <option value="50">50</option>
+        <option value="100" selected>100</option>
+        <option value="250">250</option>
+        <option value="500">500</option>
+        <option value="1000">1,000</option>
+        <option value="5000">5,000</option>
+        <option value="10000">10,000</option>
+      </select>
+    </div>
+    <div>
+      <label>Stay on domain?</label>
+      <select id="spiderDomain">
+        <option value="yes">Yes (same domain only)</option>
+        <option value="no" selected>No (follow all links)</option>
+        <option value="loose">Loose (same root domain)</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="row">
+    <button class="success" onclick="startSpider()">Start Crawling</button>
+    <button class="small-btn stop-btn" onclick="stopWork()" id="spiderStopBtn">Stop</button>
+    <button class="small-btn" onclick="downloadMatches()">Save Matches .md</button>
+    <button class="small-btn" onclick="downloadMatchLinks()">Save Match URLs</button>
+    <button class="small-btn" onclick="copyOutput()">Copy</button>
+  </div>
+
+  <div class="live-stats" id="spiderStats" style="display:none">
+    <span>Crawled: <span class="val" id="statCrawled">0</span></span>
+    <span>Queue: <span class="val" id="statQueue">0</span></span>
+    <span>Matches: <span class="match-val" id="statMatches">0</span></span>
+    <span>Errors: <span class="val" id="statErrors">0</span></span>
+    <span>Depth: <span class="val" id="statDepth">0</span></span>
+  </div>
+
+  <div id="spiderMatchList"></div>
+  <div class="help">The Spider starts at your seed URL, follows every link it finds, reads each page, and checks for your keywords. Matching pages get saved. It's a real web crawler.</div>
+</div>
+
+<!-- EXA SEARCH -->
+<div class="panel" id="panel5">
+  <label>Search the entire internet with Exa AI</label>
+  <div class="row" style="margin-top:0">
+    <input type="text" id="exaQuery" placeholder="mathematics related to Jesus Christ and the Bible">
+    <button onclick="exaSearch()">Search</button>
+  </div>
+  <div class="settings-row" style="margin-top:10px">
+    <div>
+      <label>Results</label>
+      <select id="exaCount">
+        <option value="10">10</option>
+        <option value="25" selected>25</option>
+        <option value="50">50</option>
+        <option value="100">100</option>
+      </select>
+    </div>
+    <div>
+      <label>Type</label>
+      <select id="exaType">
+        <option value="auto">Auto</option>
+        <option value="neural">Neural (semantic)</option>
+        <option value="keyword">Keyword (exact)</option>
+      </select>
+    </div>
+    <div>
+      <label>Category</label>
+      <select id="exaCategory">
+        <option value="">Any</option>
+        <option value="research paper">Research Papers</option>
+        <option value="news">News</option>
+        <option value="pdf">PDFs</option>
+        <option value="github">GitHub</option>
+        <option value="tweet">Tweets</option>
+        <option value="company">Companies</option>
+        <option value="wikipedia">Wikipedia</option>
+        <option value="personal site">Personal Sites</option>
+      </select>
+    </div>
+  </div>
+  <div id="exaResults"></div>
+  <div class="help">Exa uses neural search. Describe what you want in plain English. Click "Scrape Selected" to pull full markdown, or "Send to Spider" to deep-crawl the results.</div>
+</div>
+
+<!-- SEARXNG -->
+<div class="panel" id="panel6">
+  <label>Search with your local SearXNG instance</label>
+  <div class="row" style="margin-top:0">
+    <input type="text" id="searxQuery" placeholder="biblical mathematics equations theology">
+    <button onclick="searxSearch()">Search</button>
+  </div>
+  <div class="settings-row" style="margin-top:10px">
+    <div>
+      <label>Pages to fetch</label>
+      <select id="searxPages">
+        <option value="1">1 page (~10)</option>
+        <option value="3" selected>3 pages (~30)</option>
+        <option value="5">5 pages (~50)</option>
+        <option value="10">10 pages (~100)</option>
+        <option value="20">20 pages (~200)</option>
+      </select>
+    </div>
+    <div>
+      <label>Engines</label>
+      <select id="searxEngines">
+        <option value="">All</option>
+        <option value="google">Google</option>
+        <option value="bing">Bing</option>
+        <option value="duckduckgo">DuckDuckGo</option>
+        <option value="google scholar">Google Scholar</option>
+        <option value="arxiv">arXiv</option>
+        <option value="wikipedia">Wikipedia</option>
+      </select>
+    </div>
+  </div>
+  <div id="searxResults"></div>
+  <div class="help">Searches your local SearXNG at <span id="searxUrlDisplay">192.168.1.177:5147</span>. Click "Send to Spider" to deep-crawl the results.</div>
+</div>
+
+<!-- ACADEMIC PAPERS -->
+<div class="panel" id="panel7">
+  <label>Search for academic papers</label>
+  <div class="row" style="margin-top:0">
+    <input type="text" id="paperQuery" placeholder="Bronze Age archaeology, biblical mathematics, apologetics theology">
+    <button onclick="searchPapers()">Search Papers</button>
+  </div>
+  <div class="settings-row" style="margin-top:10px">
+    <div>
+      <label>Results</label>
+      <select id="paperCount">
+        <option value="10">10</option>
+        <option value="25">25</option>
+        <option value="50" selected>50</option>
+        <option value="100">100</option>
+      </select>
+    </div>
+    <div>
+      <label>Source</label>
+      <select id="paperSource">
+        <option value="semantic" selected>Semantic Scholar</option>
+        <option value="arxiv">arXiv</option>
+        <option value="both">Both</option>
+      </select>
+    </div>
+    <div>
+      <label>Open Access only</label>
+      <select id="paperOA">
+        <option value="yes" selected>Yes (free PDFs only)</option>
+        <option value="no">No (show all)</option>
+      </select>
+    </div>
+    <div>
+      <label>Year range</label>
+      <select id="paperYear">
+        <option value="">Any year</option>
+        <option value="2020-">2020+</option>
+        <option value="2015-">2015+</option>
+        <option value="2010-">2010+</option>
+        <option value="2000-">2000+</option>
+        <option value="1990-">1990+</option>
+      </select>
+    </div>
+  </div>
+
+  <div id="paperResults"></div>
+
+  <div class="row">
+    <button class="small-btn" onclick="downloadPaperList()">Save Paper List</button>
+    <button class="small-btn" onclick="copyOutput()">Copy</button>
+  </div>
+  <div class="help">Searches Semantic Scholar (200M+ papers) and arXiv. "Open Access only" filters to papers with free PDF downloads. Click any PDF link to download directly.</div>
+</div>
+
+<!-- BULK RESEARCH -->
+<div class="panel" id="panel8">
+  <label>Topics to research (one per line)</label>
+  <textarea id="bulkTopics" style="min-height:180px" placeholder="Genesis 1 vs Genesis 2 creation order contradiction
+Did Judas hang himself or fall in a field
+How did Saul die - suicide or killed by Amalekite
+Who bought the potter's field - Judas or priests
+How many angels at the tomb - one or two
+...paste all 646 here"></textarea>
+
+  <div class="settings-row" style="margin-top:10px">
+    <div>
+      <label>Search engine</label>
+      <select id="bulkEngine">
+        <option value="searx" selected>SearXNG (your local)</option>
+        <option value="exa">Exa (AI search)</option>
+      </select>
+    </div>
+    <div>
+      <label>Results per topic</label>
+      <select id="bulkPerTopic">
+        <option value="5">5 pages each</option>
+        <option value="10" selected>10 pages each</option>
+        <option value="15">15 pages each</option>
+        <option value="20">20 pages each</option>
+      </select>
+    </div>
+    <div>
+      <label>Auto-scrape results?</label>
+      <select id="bulkScrape">
+        <option value="yes" selected>Yes (search + scrape)</option>
+        <option value="no">No (search only, save URLs)</option>
+      </select>
+    </div>
+  </div>
+
+  <label>Extra search terms (appended to every topic)</label>
+  <input type="text" id="bulkSuffix" placeholder="Bible contradiction apologetics response" value="Bible contradiction apologetics response">
+  <div class="help">These words get added to each search. Helps focus results. Leave blank to search topics as-is.</div>
+
+  <div class="row">
+    <button class="success" onclick="startBulkResearch()">Start Research</button>
+    <button class="small-btn stop-btn" onclick="stopWork()" id="bulkStopBtn">Stop</button>
+    <button class="small-btn" onclick="downloadBulkResults()">Save All .md</button>
+    <button class="small-btn" onclick="downloadBulkUrls()">Save URL List</button>
+    <button class="small-btn" onclick="copyOutput()">Copy</button>
+  </div>
+
+  <div class="live-stats" id="bulkStats" style="display:none">
+    <span>Topics: <span class="val" id="bulkStatTopics">0/0</span></span>
+    <span>URLs found: <span class="val" id="bulkStatUrls">0</span></span>
+    <span>Scraped: <span class="match-val" id="bulkStatScraped">0</span></span>
+    <span>Errors: <span class="val" id="bulkStatErrors">0</span></span>
+  </div>
+
+  <div class="help">Paste your list of topics. For each one, it searches the web, grabs the top results, and scrapes every page to markdown. 646 topics x 10 results = ~6,460 pages. It'll take a while but it'll get them all. You can stop anytime and save what you have.</div>
+</div>
+
+<!-- SETTINGS -->
+<div class="panel" id="panel9">
+  <label>Exa API Key</label>
+  <input type="text" id="exaKey" placeholder="paste your Exa API key here — get one at exa.ai">
+  <div class="help">Stored in your browser only (localStorage). Never sent anywhere except Exa's API.</div>
+
+  <label>SearXNG URL</label>
+  <input type="text" id="searxUrl" value="http://192.168.1.177:5147">
+  <div class="help">Your local SearXNG instance. Must have JSON format enabled.</div>
+
+  <label>Scrape Concurrency</label>
+  <input type="number" id="concurrency" value="5" min="1" max="20" style="width:80px">
+  <div class="help">How many pages to scrape at once. 5 is safe, 10 is aggressive, 20 is max.</div>
+
+  <div class="row">
+    <button onclick="saveSettings()">Save Settings</button>
+    <button class="small-btn" onclick="clearAllData()">Clear All Saved Data</button>
+  </div>
+</div>
+
+<div class="status" id="status">Ready</div>
+<div class="progress-bar" id="progressBar" style="display:none"><div class="progress-fill" id="progressFill"></div></div>
+<div id="output">Pick a tab and go. The Spider tab is the real crawler — give it a URL, keywords, and let it loose.</div>
+
+<script>
+const API = 'https://deepcrawl-worker-v0.davidokc28.workers.dev';
+const TOKEN = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkYXZpZCIsImlhdCI6MTc3NjQxNzc5MywiZXhwIjoxODA3OTUzNzkzfQ.2j-j1X3MXjcf8v2rmJNPd8bI_al5pAUiK8DkORMmqFw';
+const HEADERS = { 'Authorization': `Bearer ${TOKEN}` };
+const EXA_API = 'https://api.exa.ai';
+
+let allResults = [];
+let searchResults = [];
+let spiderMatches = [];
+let abortFlag = false;
+
+// ─── Settings ────────────────────────────────────
+function loadSettings() {
+  const k = localStorage.getItem('dc_exa_key'); if (k) document.getElementById('exaKey').value = k;
+  const s = localStorage.getItem('dc_searx_url'); if (s) document.getElementById('searxUrl').value = s;
+  const c = localStorage.getItem('dc_concurrency'); if (c) document.getElementById('concurrency').value = c;
+  document.getElementById('searxUrlDisplay').textContent = getSearxUrl().replace(/^https?:\/\//, '');
+}
+function saveSettings() {
+  localStorage.setItem('dc_exa_key', document.getElementById('exaKey').value.trim());
+  localStorage.setItem('dc_searx_url', document.getElementById('searxUrl').value.trim());
+  localStorage.setItem('dc_concurrency', document.getElementById('concurrency').value);
+  document.getElementById('searxUrlDisplay').textContent = getSearxUrl().replace(/^https?:\/\//, '');
+  stat().textContent = 'Settings saved!'; setTimeout(() => stat().textContent = 'Ready', 1500);
+}
+function clearAllData() { localStorage.clear(); location.reload(); }
+function getExaKey() { return document.getElementById('exaKey').value.trim() || localStorage.getItem('dc_exa_key') || ''; }
+function getSearxUrl() { return document.getElementById('searxUrl').value.trim() || localStorage.getItem('dc_searx_url') || 'http://192.168.1.177:5147'; }
+function getConcurrency() { return parseInt(document.getElementById('concurrency').value) || 5; }
+
+// ─── Core ────────────────────────────────────────
+function switchTab(n) {
+  document.querySelectorAll('.tab').forEach((t,i) => t.classList.toggle('active', i===n));
+  document.querySelectorAll('.panel').forEach((p,i) => p.classList.toggle('active', i===n));
+}
+const out = () => document.getElementById('output');
+const stat = () => document.getElementById('status');
+function showProgress(pct) {
+  const bar = document.getElementById('progressBar'), fill = document.getElementById('progressFill');
+  bar.style.display = pct >= 0 ? 'block' : 'none'; fill.style.width = Math.min(pct, 100) + '%';
+}
+function disableButtons(disabled) { document.querySelectorAll('button:not(.stop-btn)').forEach(b => b.disabled = disabled); }
+function stopWork() { abortFlag = true; }
+function escapeHtml(s) { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+
+// ─── DeepCrawl API ───────────────────────────────
+async function fetchRead(url) {
+  const resp = await fetch(`${API}/read?url=${encodeURIComponent(url)}`, { headers: HEADERS });
+  if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+  const ct = resp.headers.get('content-type') || '';
+  return ct.includes('json') ? JSON.stringify(await resp.json(), null, 2) : await resp.text();
+}
+
+async function fetchLinks(url) {
+  const resp = await fetch(`${API}/links?url=${encodeURIComponent(url)}`, { headers: HEADERS });
+  if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+  const ct = resp.headers.get('content-type') || '';
+  const raw = ct.includes('json') ? await resp.json() : await resp.text();
+  // Extract URLs from whatever format the links endpoint returns
+  if (typeof raw === 'string') {
+    const urlRegex = /https?:\/\/[^\s"'<>\])+,]+/g;
+    return [...new Set(raw.match(urlRegex) || [])];
+  }
+  if (Array.isArray(raw)) return raw.map(r => typeof r === 'string' ? r : r.url || r.href).filter(Boolean);
+  if (raw.links) return raw.links.map(r => typeof r === 'string' ? r : r.url || r.href).filter(Boolean);
+  // Fallback: extract from JSON string
+  const str = JSON.stringify(raw);
+  const urlRegex = /https?:\/\/[^\s"'<>\])+,\\]+/g;
+  return [...new Set(str.match(urlRegex) || [])];
+}
+
+// ─── Single Page ─────────────────────────────────
+async function scrapeSingle() {
+  const url = document.getElementById('singleUrl').value.trim(); if (!url) return;
+  out().textContent = ''; out().className = '';
+  stat().textContent = `Scraping ${url}...`; disableButtons(true);
+  const start = Date.now();
+  try {
+    const text = await fetchRead(url); out().textContent = text; allResults = [{ url, text }];
+    stat().innerHTML = `Done in ${((Date.now()-start)/1000).toFixed(1)}s &mdash; <span class="count">${text.length.toLocaleString()}</span> chars`;
+  } catch(e) { out().className = 'error'; out().textContent = e.message; stat().textContent = 'Error'; }
+  finally { disableButtons(false); }
+}
+
+// ─── Batch Scrape ────────────────────────────────
+async function scrapeBatch() {
+  const urls = document.getElementById('batchUrls').value.trim().split('\n').map(u => u.trim()).filter(Boolean);
+  if (!urls.length) return;
+  abortFlag = false; out().textContent = ''; out().className = ''; allResults = [];
+  disableButtons(true); document.getElementById('stopBtn').style.display = '';
+  showProgress(0); const start = Date.now(); let done = 0, failed = 0;
+  const conc = getConcurrency();
+
+  for (let i = 0; i < urls.length; i += conc) {
+    if (abortFlag) break;
+    const chunk = urls.slice(i, i + conc);
+    await Promise.all(chunk.map(async url => {
+      try {
+        const text = await fetchRead(url); allResults.push({ url, text });
+        out().textContent += `\n${'='.repeat(60)}\n# ${url}\n${'='.repeat(60)}\n\n${text}\n`; done++;
+      } catch(e) { out().textContent += `\n# ERROR: ${url} — ${e.message}\n`; failed++; }
+    }));
+    stat().textContent = `[${Math.min(i+conc,urls.length)}/${urls.length}] ${done} done, ${failed} errors`;
+    showProgress(((i+conc)/urls.length)*100);
+  }
+  showProgress(-1); document.getElementById('stopBtn').style.display = 'none';
+  stat().innerHTML = `${abortFlag?'Stopped':'Done'} in ${((Date.now()-start)/1000).toFixed(1)}s &mdash; <span class="count">${done}/${urls.length}</span> scraped`;
+  disableButtons(false);
+}
+
+// ─── Extract Links ───────────────────────────────
+async function extractLinks() {
+  const url = document.getElementById('linksUrl').value.trim(); if (!url) return;
+  out().textContent = ''; out().className = '';
+  stat().textContent = `Extracting links from ${url}...`; disableButtons(true);
+  const start = Date.now();
+  try {
+    const resp = await fetch(`${API}/links?url=${encodeURIComponent(url)}`, { headers: HEADERS });
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    const ct = resp.headers.get('content-type') || '';
+    const text = ct.includes('json') ? JSON.stringify(await resp.json(), null, 2) : await resp.text();
+    out().textContent = text; allResults = [{ url, text }];
+    stat().innerHTML = `Done in ${((Date.now()-start)/1000).toFixed(1)}s`;
+  } catch(e) { out().className = 'error'; out().textContent = e.message; stat().textContent = 'Error'; }
+  finally { disableButtons(false); }
+}
+
+// ─── DOWNLOAD ENTIRE SITE ────────────────────────
+let dlPages = [];
+
+async function downloadSite() {
+  const seedUrl = document.getElementById('dlSiteUrl').value.trim();
+  if (!seedUrl) return;
+
+  const maxPages = parseInt(document.getElementById('dlMax').value);
+  const maxDepth = parseInt(document.getElementById('dlDepth').value);
+  const scopeMode = document.getElementById('dlScope').value;
+  const conc = getConcurrency();
+
+  let seedHost;
+  try { seedHost = new URL(seedUrl).hostname; } catch { stat().textContent = 'Invalid URL'; return; }
+  const seedRoot = seedHost.split('.').slice(-2).join('.');
+
+  function domainOk(url) {
+    try {
+      const h = new URL(url).hostname;
+      return scopeMode === 'yes' ? h === seedHost : h.endsWith(seedRoot);
+    } catch { return false; }
+  }
+
+  // Setup
+  abortFlag = false; dlPages = []; allResults = [];
+  out().textContent = ''; out().className = '';
+  document.getElementById('dlStats').style.display = 'flex';
+  document.getElementById('dlStopBtn').style.display = '';
+  document.getElementById('dlPageList').innerHTML = '';
+  disableButtons(true); showProgress(0);
+
+  const visited = new Set();
+  let queue = [{ url: seedUrl, depth: 0 }];
+  let errors = 0, totalChars = 0;
+  const start = Date.now();
+
+  out().textContent = `Downloading ${seedHost}...\n${'='.repeat(60)}\n`;
+  stat().textContent = `Starting download of ${seedHost}...`;
+
+  while (queue.length > 0 && dlPages.length < maxPages && !abortFlag) {
+    const batch = [];
+    while (batch.length < conc && queue.length > 0) {
+      const item = queue.shift();
+      if (visited.has(item.url)) continue;
+      visited.add(item.url);
+      if (!domainOk(item.url)) continue;
+      // Skip non-page resources
+      if (item.url.match(/\.(jpg|jpeg|png|gif|svg|css|js|pdf|zip|mp3|mp4|wav|woff|ico|xml|rss)(\?|$)/i)) continue;
+      batch.push(item);
+    }
+    if (!batch.length) continue;
+
+    await Promise.all(batch.map(async ({ url, depth }) => {
+      if (abortFlag) return;
+      try {
+        const text = await fetchRead(url);
+        dlPages.push({ url, text, depth });
+        allResults.push({ url, text });
+        totalChars += text.length;
+
+        // Update live stats
+        document.getElementById('dlStatPages').textContent = dlPages.length;
+        document.getElementById('dlStatQueue').textContent = queue.length;
+        document.getElementById('dlStatErrors').textContent = errors;
+        const sizeKB = (totalChars / 1024).toFixed(0);
+        const sizeMB = (totalChars / (1024*1024)).toFixed(1);
+        document.getElementById('dlStatSize').textContent = totalChars > 1024*1024 ? `${sizeMB} MB` : `${sizeKB} KB`;
+
+        // Follow links if not at max depth
+        if (depth < maxDepth) {
+          try {
+            const links = await fetchLinks(url);
+            for (const link of links) {
+              if (!visited.has(link) && domainOk(link) && !link.match(/\.(jpg|jpeg|png|gif|svg|css|js|pdf|zip|mp3|mp4|wav|woff|ico|xml|rss)(\?|$)/i)) {
+                queue.push({ url: link, depth: depth + 1 });
+              }
+            }
+          } catch(e) { /* ignore */ }
+        }
+      } catch(e) { errors++; }
+    }));
+
+    stat().textContent = `Downloading ${seedHost}... ${dlPages.length} pages, ${queue.length} in queue`;
+    showProgress((dlPages.length / maxPages) * 100);
+  }
+
+  // Done
+  showProgress(-1);
+  document.getElementById('dlStopBtn').style.display = 'none';
+  disableButtons(false);
+  const elapsed = ((Date.now()-start)/1000).toFixed(1);
+  const sizeMB = (totalChars / (1024*1024)).toFixed(1);
+  stat().innerHTML = `${abortFlag ? 'Stopped' : 'Done'} in ${elapsed}s &mdash; <span class="count">${dlPages.length}</span> pages, ${sizeMB} MB`;
+
+  // Show summary in output
+  out().textContent = `SITE DOWNLOAD: ${seedHost}\n`;
+  out().textContent += `${dlPages.length} pages downloaded, ${sizeMB} MB total\n`;
+  out().textContent += `${'='.repeat(60)}\n\n`;
+  out().textContent += `PAGES:\n`;
+  dlPages.forEach((p, i) => {
+    out().textContent += `${i+1}. ${p.url}\n`;
+  });
+  out().textContent += `\n${'='.repeat(60)}\nFULL CONTENT BELOW\n${'='.repeat(60)}\n`;
+  dlPages.forEach(p => {
+    out().textContent += `\n${'='.repeat(60)}\n# ${p.url}\n${'='.repeat(60)}\n\n${p.text}\n`;
+  });
+
+  // Render page list
+  renderDlPages();
+}
+
+function renderDlPages() {
+  const container = document.getElementById('dlPageList');
+  if (!dlPages.length) { container.innerHTML = ''; return; }
+  let html = `<div class="controls-bar">
+    <span class="badge badge-green">${dlPages.length} pages downloaded</span>
+  </div><ul class="link-list" style="max-height:200px">`;
+  dlPages.forEach((p, i) => {
+    html += `<li class="link-item"><div>
+      <a href="${escapeHtml(p.url)}" target="_blank">${escapeHtml(p.url)}</a>
+    </div></li>`;
+  });
+  html += '</ul>';
+  container.innerHTML = html;
+}
+
+function downloadSiteMarkdown() {
+  if (!dlPages.length) return;
+  let md = `# Site Download: ${dlPages[0] ? new URL(dlPages[0].url).hostname : 'site'}\n`;
+  md += `# ${new Date().toISOString()}\n# ${dlPages.length} pages\n\n`;
+  dlPages.forEach((p, i) => {
+    md += `\n${'='.repeat(60)}\n# ${i+1}. ${p.url}\n${'='.repeat(60)}\n\n${p.text}\n`;
+  });
+  const blob = new Blob([md], { type: 'text/markdown' });
+  const a = document.createElement('a'); a.href = URL.createObjectURL(blob);
+  const host = dlPages[0] ? new URL(dlPages[0].url).hostname.replace(/\./g, '_') : 'site';
+  a.download = `${host}_${dlPages.length}_pages_${new Date().toISOString().slice(0,10)}.md`;
+  a.click();
+}
+
+function downloadSiteUrls() {
+  if (!dlPages.length) return;
+  const text = dlPages.map(p => p.url).join('\n');
+  const blob = new Blob([text], { type: 'text/plain' });
+  const a = document.createElement('a'); a.href = URL.createObjectURL(blob);
+  const host = dlPages[0] ? new URL(dlPages[0].url).hostname.replace(/\./g, '_') : 'site';
+  a.download = `${host}_urls_${new Date().toISOString().slice(0,10)}.txt`;
+  a.click();
+}
+
+// ─── SPIDER (the real crawler) ───────────────────
+async function startSpider() {
+  const seedUrl = document.getElementById('spiderUrl').value.trim();
+  if (!seedUrl) return;
+
+  const keywordsRaw = document.getElementById('spiderKeywords').value.trim();
+  const keywords = keywordsRaw ? keywordsRaw.split(',').map(k => k.trim().toLowerCase()).filter(Boolean) : [];
+  const maxDepth = parseInt(document.getElementById('spiderDepth').value);
+  const maxPages = parseInt(document.getElementById('spiderMax').value);
+  const domainMode = document.getElementById('spiderDomain').value;
+  const conc = getConcurrency();
+
+  // Domain filtering
+  let seedHost;
+  try { seedHost = new URL(seedUrl).hostname; } catch { stat().textContent = 'Invalid URL'; return; }
+  const seedRoot = seedHost.split('.').slice(-2).join('.'); // e.g. example.com
+
+  function domainAllowed(url) {
+    if (domainMode === 'no') return true;
+    try {
+      const h = new URL(url).hostname;
+      if (domainMode === 'yes') return h === seedHost;
+      if (domainMode === 'loose') return h.endsWith(seedRoot);
+    } catch { return false; }
+    return false;
+  }
+
+  // Setup
+  abortFlag = false;
+  spiderMatches = [];
+  allResults = [];
+  out().textContent = '';
+  out().className = '';
+  document.getElementById('spiderMatchList').innerHTML = '';
+  document.getElementById('spiderStats').style.display = 'flex';
+  document.getElementById('spiderStopBtn').style.display = '';
+  disableButtons(true);
+  showProgress(0);
+
+  const visited = new Set();
+  // Queue: [{url, depth}]
+  let queue = [{ url: seedUrl, depth: 0 }];
+  let crawled = 0, errors = 0;
+
+  function updateStats() {
+    document.getElementById('statCrawled').textContent = crawled;
+    document.getElementById('statQueue').textContent = queue.length;
+    document.getElementById('statMatches').textContent = spiderMatches.length;
+    document.getElementById('statErrors').textContent = errors;
+    showProgress((crawled / maxPages) * 100);
+  }
+
+  const start = Date.now();
+  stat().textContent = 'Spider starting...';
+
+  // Show keywords
+  if (keywords.length) {
+    out().textContent = `KEYWORDS: ${keywords.join(', ')}\nSearching for pages containing any of these terms...\n${'='.repeat(60)}\n`;
+  } else {
+    out().textContent = `NO KEYWORDS — saving ALL pages.\n${'='.repeat(60)}\n`;
+  }
+
+  while (queue.length > 0 && crawled < maxPages && !abortFlag) {
+    // Grab next batch from queue
+    const batch = [];
+    while (batch.length < conc && queue.length > 0) {
+      const item = queue.shift();
+      if (visited.has(item.url)) continue;
+      visited.add(item.url);
+      if (!domainAllowed(item.url)) continue;
+      batch.push(item);
+    }
+    if (!batch.length) continue;
+
+    stat().textContent = `Crawling... ${crawled} pages checked, ${spiderMatches.length} matches, ${queue.length} in queue`;
+    updateStats();
+
+    await Promise.all(batch.map(async ({ url, depth }) => {
+      if (abortFlag) return;
+      try {
+        // Read the page content
+        const text = await fetchRead(url);
+        crawled++;
+        document.getElementById('statDepth').textContent = depth;
+
+        // Check for keyword matches
+        const textLower = text.toLowerCase();
+        const matched = keywords.length === 0 || keywords.some(kw => textLower.includes(kw));
+
+        if (matched) {
+          const matchedKws = keywords.filter(kw => textLower.includes(kw));
+          spiderMatches.push({ url, text, keywords: matchedKws, depth });
+          allResults.push({ url, text });
+
+          // Show in output
+          const kwLabel = matchedKws.length ? ` [${matchedKws.join(', ')}]` : '';
+          out().textContent += `\nMATCH #${spiderMatches.length}${kwLabel}\n${url}\n${'-'.repeat(40)}\n${text.substring(0, 500)}${text.length > 500 ? '...' : ''}\n\n`;
+
+          // Update match list in the panel
+          renderSpiderMatches();
+        }
+
+        // If not at max depth, get links from this page and add to queue
+        if (depth < maxDepth) {
+          try {
+            const links = await fetchLinks(url);
+            let added = 0;
+            for (const link of links) {
+              if (!visited.has(link) && domainAllowed(link) && !link.match(/\.(jpg|jpeg|png|gif|svg|css|js|pdf|zip|mp3|mp4|wav)(\?|$)/i)) {
+                queue.push({ url: link, depth: depth + 1 });
+                added++;
+              }
+            }
+          } catch(e) { /* ignore link extraction errors */ }
+        }
+      } catch(e) {
+        errors++;
+      }
+    }));
+
+    updateStats();
+  }
+
+  // Done
+  showProgress(-1);
+  document.getElementById('spiderStopBtn').style.display = 'none';
+  disableButtons(false);
+  const elapsed = ((Date.now()-start)/1000).toFixed(1);
+  stat().innerHTML = `${abortFlag ? 'Stopped' : 'Done'} in ${elapsed}s &mdash; crawled <span class="count">${crawled}</span> pages, found <span class="match-count">${spiderMatches.length}</span> matches`;
+
+  if (spiderMatches.length) {
+    out().textContent += `\n${'='.repeat(60)}\nCRAWL COMPLETE\n${crawled} pages crawled, ${spiderMatches.length} matches found\n`;
+    out().textContent += spiderMatches.map((m,i) => `${i+1}. ${m.url} [${m.keywords.join(', ')}]`).join('\n');
+  }
+}
+
+function renderSpiderMatches() {
+  const container = document.getElementById('spiderMatchList');
+  if (!spiderMatches.length) { container.innerHTML = ''; return; }
+  let html = `<div class="controls-bar">
+    <span class="badge badge-green">${spiderMatches.length} matches</span>
+    <button class="small-btn" onclick="sendMatchesToBatch()">Send All to Batch</button>
+    <button class="small-btn" onclick="downloadMatches()">Save Matches .md</button>
+  </div><ul class="link-list">`;
+  spiderMatches.forEach((m, i) => {
+    html += `<li class="link-item"><div>
+      <span class="title">#${i+1} (depth ${m.depth})</span>
+      <a href="${escapeHtml(m.url)}" target="_blank">${escapeHtml(m.url)}</a>
+      ${m.keywords.length ? `<span class="match-highlight">Keywords: ${m.keywords.join(', ')}</span>` : ''}
+    </div></li>`;
+  });
+  html += '</ul>';
+  container.innerHTML = html;
+}
+
+function sendMatchesToBatch() {
+  document.getElementById('batchUrls').value = spiderMatches.map(m => m.url).join('\n');
+  switchTab(1);
+  stat().textContent = `${spiderMatches.length} match URLs loaded into Batch tab.`;
+}
+
+function downloadMatches() {
+  if (!spiderMatches.length) return;
+  let md = `# Spider Crawl Results\n# ${new Date().toISOString()}\n# ${spiderMatches.length} matches\n\n`;
+  spiderMatches.forEach((m, i) => {
+    md += `\n${'='.repeat(60)}\n# ${i+1}. ${m.url}\n# Keywords: ${m.keywords.join(', ')}\n${'='.repeat(60)}\n\n${m.text}\n`;
+  });
+  const blob = new Blob([md], { type: 'text/markdown' });
+  const a = document.createElement('a'); a.href = URL.createObjectURL(blob);
+  a.download = `spider_${spiderMatches.length}_matches_${new Date().toISOString().slice(0,10)}.md`;
+  a.click();
+}
+
+function downloadMatchLinks() {
+  if (!spiderMatches.length) return;
+  const text = spiderMatches.map((m,i) => `${m.url}\t${m.keywords.join(', ')}`).join('\n');
+  const blob = new Blob([text], { type: 'text/plain' });
+  const a = document.createElement('a'); a.href = URL.createObjectURL(blob);
+  a.download = `spider_urls_${spiderMatches.length}_${new Date().toISOString().slice(0,10)}.txt`;
+  a.click();
+}
+
+// ─── Search result rendering ─────────────────────
+function renderSearchResults(results, containerId) {
+  searchResults = results;
+  const container = document.getElementById(containerId);
+  if (!results.length) { container.innerHTML = '<div style="color:#666;padding:12px">No results found.</div>'; return; }
+  let html = `<div class="controls-bar">
+    <button class="small-btn" onclick="toggleAll(true,'${containerId}')">Select All</button>
+    <button class="small-btn" onclick="toggleAll(false,'${containerId}')">Deselect All</button>
+    <button class="success" onclick="scrapeSelected()">Scrape Selected</button>
+    <button class="small-btn" onclick="sendSelectedToSpider()">Send to Spider</button>
+    <button class="small-btn" onclick="copyLinks()">Copy Links</button>
+    <button class="small-btn" onclick="sendToBatch()">Send to Batch</button>
+    <span class="badge">${results.length} results</span>
+  </div><ul class="link-list">`;
+  results.forEach((r, i) => {
+    html += `<li class="link-item">
+      <input type="checkbox" checked data-idx="${i}" class="result-cb">
+      <div>
+        <span class="title">${escapeHtml(r.title || r.url)}</span>
+        <a href="${escapeHtml(r.url)}" target="_blank">${escapeHtml(r.url)}</a>
+        ${r.snippet ? `<span class="snippet">${escapeHtml(r.snippet.substring(0,200))}</span>` : ''}
+      </div>
+    </li>`;
+  });
+  html += '</ul>';
+  container.innerHTML = html;
+}
+
+function toggleAll(checked, cid) { document.querySelectorAll(`#${cid} .result-cb`).forEach(cb => cb.checked = checked); }
+function getSelectedUrls() { return Array.from(document.querySelectorAll('.result-cb:checked')).map(cb => searchResults[+cb.dataset.idx].url); }
+function copyLinks() {
+  const urls = getSelectedUrls(); navigator.clipboard.writeText(urls.join('\n'));
+  const s = stat().textContent; stat().textContent = `Copied ${urls.length} links!`; setTimeout(()=>stat().textContent=s,1500);
+}
+function sendToBatch() {
+  document.getElementById('batchUrls').value = getSelectedUrls().join('\n'); switchTab(1);
+  stat().textContent = `${getSelectedUrls().length} URLs loaded into Batch tab.`;
+}
+function sendSelectedToSpider() {
+  // Take first selected URL as seed, rest go in queue via starting multiple seeds
+  const urls = getSelectedUrls();
+  if (!urls.length) return;
+  document.getElementById('spiderUrl').value = urls[0];
+  switchTab(4);
+  stat().textContent = `${urls.length} URL(s) loaded. Set your keywords and hit Start Crawling.`;
+}
+async function scrapeSelected() {
+  const urls = getSelectedUrls(); if (!urls.length) { stat().textContent = 'No links selected.'; return; }
+  document.getElementById('batchUrls').value = urls.join('\n'); switchTab(1); await scrapeBatch();
+}
+
+// ─── Exa Search ──────────────────────────────────
+async function exaSearch() {
+  const query = document.getElementById('exaQuery').value.trim(); if (!query) return;
+  const key = getExaKey();
+  if (!key) { switchTab(9); stat().textContent = 'Enter your Exa API key in Settings first.'; document.getElementById('exaKey').focus(); return; }
+  stat().textContent = `Searching Exa for "${query}"...`; disableButtons(true);
+  const start = Date.now();
+  try {
+    const body = { query, numResults: parseInt(document.getElementById('exaCount').value), contents: { text: { maxCharacters: 300 } } };
+    const st = document.getElementById('exaType').value; if (st !== 'auto') body.type = st;
+    const cat = document.getElementById('exaCategory').value; if (cat) body.category = cat;
+    const resp = await fetch(`${EXA_API}/search`, { method: 'POST', headers: { 'Content-Type': 'application/json', 'x-api-key': key }, body: JSON.stringify(body) });
+    if (!resp.ok) throw new Error(`Exa ${resp.status}: ${await resp.text()}`);
+    const data = await resp.json();
+    const results = (data.results||[]).map(r => ({ url: r.url, title: r.title||'', snippet: r.text||r.highlights?.[0]||'' }));
+    renderSearchResults(results, 'exaResults');
+    stat().innerHTML = `Found <span class="count">${results.length}</span> results in ${((Date.now()-start)/1000).toFixed(1)}s`;
+    out().textContent = `Exa: "${query}" — ${results.length} results. Select above and Scrape, or Send to Spider.`;
+  } catch(e) { document.getElementById('exaResults').innerHTML = ''; out().className = 'error'; out().textContent = e.message; stat().textContent = 'Exa failed'; }
+  finally { disableButtons(false); }
+}
+
+// ─── SearXNG Search ──────────────────────────────
+async function searxSearch() {
+  const query = document.getElementById('searxQuery').value.trim(); if (!query) return;
+  const baseUrl = getSearxUrl(); const pages = parseInt(document.getElementById('searxPages').value);
+  const engines = document.getElementById('searxEngines').value;
+  stat().textContent = `Searching SearXNG for "${query}"...`; disableButtons(true);
+  const start = Date.now(); let all = [];
+  try {
+    for (let p = 1; p <= pages; p++) {
+      stat().textContent = `SearXNG page ${p}/${pages}...`;
+      const params = new URLSearchParams({ q: query, format: 'json', pageno: p });
+      if (engines) params.set('engines', engines);
+      const resp = await fetch(`${baseUrl}/search?${params}`);
+      if (!resp.ok) throw new Error(`SearXNG ${resp.status}`);
+      const data = await resp.json();
+      if (!data.results?.length) break;
+      for (const r of data.results) {
+        if (!all.find(x => x.url === r.url)) all.push({ url: r.url, title: r.title||'', snippet: r.content||'' });
+      }
+    }
+    renderSearchResults(all, 'searxResults');
+    stat().innerHTML = `Found <span class="count">${all.length}</span> results in ${((Date.now()-start)/1000).toFixed(1)}s`;
+    out().textContent = `SearXNG: "${query}" — ${all.length} results. Select above and Scrape, or Send to Spider.`;
+  } catch(e) {
+    document.getElementById('searxResults').innerHTML = '';
+    out().className = 'error'; out().textContent = `SearXNG error: ${e.message}\n\nMake sure it's running at ${baseUrl} with JSON format enabled.`;
+    stat().textContent = 'SearXNG failed';
+  } finally { disableButtons(false); }
+}
+
+// ─── ACADEMIC PAPERS ─────────────────────────────
+let paperList = [];
+
+async function searchPapers() {
+  const query = document.getElementById('paperQuery').value.trim();
+  if (!query) return;
+  const count = parseInt(document.getElementById('paperCount').value);
+  const source = document.getElementById('paperSource').value;
+  const oaOnly = document.getElementById('paperOA').value === 'yes';
+  const yearRange = document.getElementById('paperYear').value;
+
+  stat().textContent = `Searching for papers on "${query}"...`;
+  disableButtons(true);
+  const start = Date.now();
+  paperList = [];
+
+  try {
+    // Semantic Scholar
+    if (source === 'semantic' || source === 'both') {
+      stat().textContent = `Searching Semantic Scholar for "${query}"...`;
+      const params = new URLSearchParams({
+        query,
+        limit: Math.min(count, 100),
+        fields: 'title,authors,year,abstract,url,openAccessPdf,externalIds,citationCount,isOpenAccess'
+      });
+      if (yearRange) {
+        const yr = yearRange.replace('-', '');
+        params.set('year', yearRange);
+      }
+      if (oaOnly) params.set('openAccessPdf', '');
+
+      const resp = await fetch(`https://api.semanticscholar.org/graph/v1/paper/search?${params}`);
+      if (!resp.ok) throw new Error(`Semantic Scholar ${resp.status}: ${await resp.text()}`);
+      const data = await resp.json();
+
+      for (const p of (data.data || [])) {
+        if (oaOnly && !p.openAccessPdf?.url) continue;
+        paperList.push({
+          title: p.title || 'Untitled',
+          authors: (p.authors || []).map(a => a.name).join(', '),
+          year: p.year || '',
+          abstract: (p.abstract || '').substring(0, 300),
+          url: p.url || '',
+          pdfUrl: p.openAccessPdf?.url || '',
+          citations: p.citationCount || 0,
+          source: 'Semantic Scholar',
+          doi: p.externalIds?.DOI || ''
+        });
+      }
+    }
+
+    // arXiv
+    if (source === 'arxiv' || source === 'both') {
+      stat().textContent = `Searching arXiv for "${query}"...`;
+      const arxivQuery = encodeURIComponent(query);
+      const maxArxiv = source === 'both' ? Math.min(count, 50) : count;
+      const resp = await fetch(`https://export.arxiv.org/api/query?search_query=all:${arxivQuery}&start=0&max_results=${maxArxiv}&sortBy=relevance`);
+      if (!resp.ok) throw new Error(`arXiv ${resp.status}`);
+      const xmlText = await resp.text();
+
+      // Parse arXiv XML
+      const parser = new DOMParser();
+      const xml = parser.parseFromString(xmlText, 'text/xml');
+      const entries = xml.querySelectorAll('entry');
+
+      entries.forEach(entry => {
+        const title = entry.querySelector('title')?.textContent?.trim() || 'Untitled';
+        const authors = Array.from(entry.querySelectorAll('author name')).map(n => n.textContent).join(', ');
+        const published = entry.querySelector('published')?.textContent || '';
+        const year = published ? published.substring(0, 4) : '';
+        const abstract = (entry.querySelector('summary')?.textContent?.trim() || '').substring(0, 300);
+        const id = entry.querySelector('id')?.textContent || '';
+        const pdfLink = Array.from(entry.querySelectorAll('link')).find(l => l.getAttribute('title') === 'pdf');
+        const pdfUrl = pdfLink ? pdfLink.getAttribute('href') : id.replace('abs', 'pdf');
+
+        if (yearRange) {
+          const minYear = parseInt(yearRange);
+          if (year && parseInt(year) < minYear) return;
+        }
+
+        paperList.push({
+          title, authors, year, abstract,
+          url: id,
+          pdfUrl: pdfUrl || '',
+          citations: 0,
+          source: 'arXiv',
+          doi: ''
+        });
+      });
+    }
+
+    // Render results
+    renderPaperResults();
+    const elapsed = ((Date.now()-start)/1000).toFixed(1);
+    stat().innerHTML = `Found <span class="count">${paperList.length}</span> papers in ${elapsed}s`;
+
+    // Show summary in output
+    out().textContent = `PAPER SEARCH: "${query}"\n${paperList.length} papers found\n${'='.repeat(60)}\n\n`;
+    paperList.forEach((p, i) => {
+      out().textContent += `${i+1}. ${p.title}\n   ${p.authors} (${p.year})${p.citations ? ` — ${p.citations} citations` : ''}\n   ${p.pdfUrl ? 'PDF: ' + p.pdfUrl : 'No free PDF'}\n\n`;
+    });
+
+  } catch(e) {
+    document.getElementById('paperResults').innerHTML = '';
+    out().className = 'error';
+    out().textContent = e.message;
+    stat().textContent = 'Paper search failed';
+  } finally {
+    disableButtons(false);
+  }
+}
+
+function renderPaperResults() {
+  const container = document.getElementById('paperResults');
+  if (!paperList.length) { container.innerHTML = '<div style="color:#666;padding:12px">No papers found.</div>'; return; }
+
+  let html = `<div class="controls-bar">
+    <span class="badge">${paperList.length} papers</span>
+    <button class="small-btn" onclick="downloadAllPdfs()">Open All PDFs</button>
+    <button class="small-btn" onclick="downloadPaperList()">Save List</button>
+    <button class="small-btn" onclick="sendPapersToScrape()">Scrape All Abstracts</button>
+  </div><ul class="link-list">`;
+
+  paperList.forEach((p, i) => {
+    const pdfBadge = p.pdfUrl
+      ? `<a href="${escapeHtml(p.pdfUrl)}" target="_blank" style="color:#5bd95b;text-decoration:none;font-size:.75rem;background:#1a2a1a;padding:2px 6px;border-radius:4px;margin-left:6px">PDF</a>`
+      : '<span style="color:#555;font-size:.7rem;margin-left:6px">no PDF</span>';
+    const cites = p.citations ? `<span style="color:#d9a55b;font-size:.7rem;margin-left:6px">${p.citations} cited</span>` : '';
+    html += `<li class="link-item"><div style="width:100%">
+      <span class="title">${escapeHtml(p.title)}</span>${pdfBadge}${cites}
+      <span style="color:#888;font-size:.75rem;display:block">${escapeHtml(p.authors)} (${p.year}) — ${p.source}</span>
+      <a href="${escapeHtml(p.url)}" target="_blank" style="font-size:.75rem">${escapeHtml(p.url)}</a>
+      ${p.abstract ? `<span class="snippet">${escapeHtml(p.abstract)}</span>` : ''}
+    </div></li>`;
+  });
+  html += '</ul>';
+  container.innerHTML = html;
+}
+
+function downloadAllPdfs() {
+  const pdfs = paperList.filter(p => p.pdfUrl);
+  if (!pdfs.length) { stat().textContent = 'No PDFs available'; return; }
+  // Open PDFs in new tabs (browser will download or display them)
+  let opened = 0;
+  for (const p of pdfs.slice(0, 20)) {
+    window.open(p.pdfUrl, '_blank');
+    opened++;
+  }
+  stat().textContent = `Opened ${opened} PDFs (max 20 at a time to avoid popup blocker). ${pdfs.length} total available.`;
+}
+
+function downloadPaperList() {
+  if (!paperList.length) return;
+  let md = `# Paper Search Results\n# ${new Date().toISOString()}\n# ${paperList.length} papers\n\n`;
+  paperList.forEach((p, i) => {
+    md += `## ${i+1}. ${p.title}\n`;
+    md += `- **Authors:** ${p.authors}\n`;
+    md += `- **Year:** ${p.year}\n`;
+    md += `- **Source:** ${p.source}\n`;
+    md += `- **Citations:** ${p.citations}\n`;
+    md += `- **URL:** ${p.url}\n`;
+    if (p.pdfUrl) md += `- **PDF:** ${p.pdfUrl}\n`;
+    if (p.doi) md += `- **DOI:** ${p.doi}\n`;
+    if (p.abstract) md += `\n> ${p.abstract}\n`;
+    md += '\n---\n\n';
+  });
+  const blob = new Blob([md], { type: 'text/markdown' });
+  const a = document.createElement('a'); a.href = URL.createObjectURL(blob);
+  a.download = `papers_${paperList.length}_${new Date().toISOString().slice(0,10)}.md`;
+  a.click();
+}
+
+function sendPapersToScrape() {
+  const urls = paperList.map(p => p.url).filter(Boolean);
+  document.getElementById('batchUrls').value = urls.join('\n');
+  switchTab(1);
+  stat().textContent = `${urls.length} paper URLs loaded into Batch tab for scraping.`;
+}
+
+// ─── BULK RESEARCH ───────────────────────────────
+let bulkData = []; // [{topic, urls:[], scraped:[{url, text}]}]
+
+async function startBulkResearch() {
+  const raw = document.getElementById('bulkTopics').value.trim();
+  if (!raw) return;
+  const topics = raw.split('\n').map(t => t.trim()).filter(Boolean);
+  if (!topics.length) return;
+
+  const engine = document.getElementById('bulkEngine').value;
+  const perTopic = parseInt(document.getElementById('bulkPerTopic').value);
+  const doScrape = document.getElementById('bulkScrape').value === 'yes';
+  const suffix = document.getElementById('bulkSuffix').value.trim();
+  const conc = getConcurrency();
+
+  // Check Exa key if needed
+  if (engine === 'exa' && !getExaKey()) {
+    switchTab(9); stat().textContent = 'Enter your Exa API key in Settings first.';
+    document.getElementById('exaKey').focus(); return;
+  }
+
+  abortFlag = false; bulkData = []; allResults = [];
+  out().textContent = ''; out().className = '';
+  document.getElementById('bulkStats').style.display = 'flex';
+  document.getElementById('bulkStopBtn').style.display = '';
+  disableButtons(true); showProgress(0);
+
+  let totalUrls = 0, totalScraped = 0, totalErrors = 0;
+  const start = Date.now();
+
+  out().textContent = `BULK RESEARCH: ${topics.length} topics, ${perTopic} results each\nEngine: ${engine}, Scraping: ${doScrape ? 'YES' : 'no'}\n${'='.repeat(60)}\n`;
+
+  for (let ti = 0; ti < topics.length; ti++) {
+    if (abortFlag) break;
+    const topic = topics[ti];
+    const query = suffix ? `${topic} ${suffix}` : topic;
+
+    stat().textContent = `[${ti+1}/${topics.length}] Searching: ${topic}...`;
+    document.getElementById('bulkStatTopics').textContent = `${ti+1}/${topics.length}`;
+    showProgress(((ti+1) / topics.length) * 100);
+
+    let urls = [];
+
+    try {
+      if (engine === 'searx') {
+        const baseUrl = getSearxUrl();
+        const params = new URLSearchParams({ q: query, format: 'json', pageno: 1 });
+        const resp = await fetch(`${baseUrl}/search?${params}`);
+        if (resp.ok) {
+          const data = await resp.json();
+          urls = (data.results || []).slice(0, perTopic).map(r => r.url).filter(Boolean);
+        }
+        // If we need more, get page 2
+        if (urls.length < perTopic) {
+          const params2 = new URLSearchParams({ q: query, format: 'json', pageno: 2 });
+          try {
+            const resp2 = await fetch(`${baseUrl}/search?${params2}`);
+            if (resp2.ok) {
+              const data2 = await resp2.json();
+              const more = (data2.results || []).map(r => r.url).filter(Boolean);
+              for (const u of more) { if (urls.length < perTopic && !urls.includes(u)) urls.push(u); }
+            }
+          } catch(e) {}
+        }
+      } else {
+        // Exa
+        const body = { query, numResults: perTopic };
+        const resp = await fetch(`${EXA_API}/search`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'x-api-key': getExaKey() },
+          body: JSON.stringify(body)
+        });
+        if (resp.ok) {
+          const data = await resp.json();
+          urls = (data.results || []).map(r => r.url).filter(Boolean);
+        }
+      }
+    } catch(e) {
+      out().textContent += `\n# SEARCH ERROR: ${topic}\n${e.message}\n`;
+      totalErrors++;
+    }
+
+    totalUrls += urls.length;
+    document.getElementById('bulkStatUrls').textContent = totalUrls;
+
+    const topicData = { topic, urls, scraped: [] };
+
+    // Scrape results if enabled
+    if (doScrape && urls.length > 0) {
+      out().textContent += `\n${'='.repeat(60)}\n# ${ti+1}. ${topic}\n# ${urls.length} results found\n${'='.repeat(60)}\n`;
+
+      for (let i = 0; i < urls.length; i += conc) {
+        if (abortFlag) break;
+        const chunk = urls.slice(i, i + conc);
+        stat().textContent = `[${ti+1}/${topics.length}] "${topic}" — scraping ${i+1}-${Math.min(i+conc, urls.length)} of ${urls.length}...`;
+
+        await Promise.all(chunk.map(async url => {
+          try {
+            const text = await fetchRead(url);
+            topicData.scraped.push({ url, text });
+            allResults.push({ url, text });
+            totalScraped++;
+            out().textContent += `\n--- ${url} ---\n${text.substring(0, 1000)}${text.length > 1000 ? '\n[...truncated in preview, full text saved...]' : ''}\n`;
+          } catch(e) { totalErrors++; }
+        }));
+
+        document.getElementById('bulkStatScraped').textContent = totalScraped;
+        document.getElementById('bulkStatErrors').textContent = totalErrors;
+      }
+    } else if (!doScrape && urls.length > 0) {
+      out().textContent += `\n# ${ti+1}. ${topic} — ${urls.length} URLs\n${urls.join('\n')}\n`;
+    }
+
+    bulkData.push(topicData);
+
+    // Small delay between topics to not hammer search engine
+    if (ti < topics.length - 1 && !abortFlag) {
+      await new Promise(r => setTimeout(r, engine === 'searx' ? 1500 : 500));
+    }
+  }
+
+  // Done
+  showProgress(-1);
+  document.getElementById('bulkStopBtn').style.display = 'none';
+  disableButtons(false);
+  const elapsed = ((Date.now()-start)/1000/60).toFixed(1);
+  stat().innerHTML = `${abortFlag ? 'Stopped' : 'Done'} in ${elapsed} min &mdash; <span class="count">${bulkData.length}</span> topics, <span class="count">${totalUrls}</span> URLs, <span class="match-count">${totalScraped}</span> pages scraped`;
+}
+
+function downloadBulkResults() {
+  if (!bulkData.length) return;
+  let md = `# Bulk Research Results\n# ${new Date().toISOString()}\n# ${bulkData.length} topics\n\n`;
+  bulkData.forEach((t, i) => {
+    md += `\n${'#'.repeat(1)} ${i+1}. ${t.topic}\n\n`;
+    if (t.scraped.length) {
+      t.scraped.forEach(s => {
+        md += `\n${'='.repeat(60)}\n## ${s.url}\n${'='.repeat(60)}\n\n${s.text}\n`;
+      });
+    } else {
+      md += `URLs found:\n${t.urls.join('\n')}\n`;
+    }
+    md += '\n---\n\n';
+  });
+  const blob = new Blob([md], { type: 'text/markdown' });
+  const a = document.createElement('a'); a.href = URL.createObjectURL(blob);
+  a.download = `bulk_research_${bulkData.length}_topics_${new Date().toISOString().slice(0,10)}.md`;
+  a.click();
+}
+
+function downloadBulkUrls() {
+  if (!bulkData.length) return;
+  let text = '';
+  bulkData.forEach(t => {
+    text += `# ${t.topic}\n`;
+    t.urls.forEach(u => text += `${u}\n`);
+    text += '\n';
+  });
+  const blob = new Blob([text], { type: 'text/plain' });
+  const a = document.createElement('a'); a.href = URL.createObjectURL(blob);
+  a.download = `bulk_urls_${bulkData.length}_topics_${new Date().toISOString().slice(0,10)}.txt`;
+  a.click();
+}
+
+// ─── Utils ───────────────────────────────────────
+function copyOutput() {
+  navigator.clipboard.writeText(out().textContent);
+  const s = stat().textContent; stat().textContent = 'Copied!'; setTimeout(()=>stat().textContent=s,1500);
+}
+function downloadOutput() {
+  if (!allResults.length) return;
+  const blob = new Blob([out().textContent], { type: 'text/markdown' }); const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `${allResults.length===1?new URL(allResults[0].url).hostname:'batch'}_${new Date().toISOString().slice(0,10)}.md`; a.click();
+}
+function downloadAll() {
+  if (!allResults.length) return;
+  const blob = new Blob([out().textContent], { type: 'text/markdown' }); const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob); a.download = `batch_${allResults.length}_${new Date().toISOString().slice(0,10)}.md`; a.click();
+}
+
+// ─── Key bindings ────────────────────────────────
+document.getElementById('singleUrl').addEventListener('keydown', e => { if(e.key==='Enter') scrapeSingle() });
+document.getElementById('linksUrl').addEventListener('keydown', e => { if(e.key==='Enter') extractLinks() });
+document.getElementById('exaQuery').addEventListener('keydown', e => { if(e.key==='Enter') exaSearch() });
+document.getElementById('searxQuery').addEventListener('keydown', e => { if(e.key==='Enter') searxSearch() });
+document.getElementById('dlSiteUrl').addEventListener('keydown', e => { if(e.key==='Enter') downloadSite() });
+document.getElementById('spiderKeywords').addEventListener('keydown', e => { if(e.key==='Enter') startSpider() });
+document.getElementById('paperQuery').addEventListener('keydown', e => { if(e.key==='Enter') searchPapers() });
+
+// ─── Init ────────────────────────────────────────
+loadSettings();
+</script>
+</body>
+</html>

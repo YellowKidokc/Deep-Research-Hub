@@ -1,0 +1,3024 @@
+{
+  "title": "Remarkably Early Historical Information for the Resurrection of Jesus - Gary Habermas",
+  "source": "C:\\Users\\David\\Documents\\faiththruphysics.com\\30_FRAMEWORKS\\YOUTUBE\\CHANNEL - Gary Habermas - 2026-09-15\\Gary Habermas - Chapter 003 - Remarkably Early Historical Information for the Resurrection of Jesus - Gary Habermas.md",
+  "order": [
+    "fruits",
+    "axiom_nodes",
+    "atoms",
+    "lean4",
+    "stories",
+    "master_equation",
+    "coherence"
+  ],
+  "fruits": {
+    "spec_version": "0.3.0",
+    "target": {
+      "type": "paper",
+      "title": "Gary Habermas - Chapter 003 - Remarkably Early Historical Information for the Resurrection of Jesus - Gary Habermas",
+      "domain": "Christian apologetics / historical argument for the resurrection (spoken lecture transcript)",
+      "unit": "complete supplied document",
+      "comparison_class": "paper of similar purpose and evidence burden",
+      "population_boundary": "Speaker (Gary Habermas) and named scholars/critics he cites; audience addressed but not individually represented; no outsider or harmed-party testimony included",
+      "time_window": "lecture delivered ~2020s; historical claims span 30-95 AD and modern scholarship"
+    },
+    "gate_results": [
+      {
+        "gate_id": "gate.truth_evidence",
+        "status": "WARN",
+        "hard": true,
+        "rationale": "Claims are tied to named scholars and texts (Lüdemann, Ehrman, Galatians 1-2, 1 Cor 15) and dates are explicitly flagged as critical/consensus dates, but quotations are paraphrased from memory, no citations given, and several datings are asserted without sourcing.",
+        "evidence_refs": [
+          "S088",
+          "S089",
+          "S090",
+          "S091",
+          "S092",
+          "S242",
+          "S290",
+          "S292",
+          "S303"
+        ],
+        "resolution": "Traceable in outline; would need page-level citation to pass."
+      },
+      {
+        "gate_id": "gate.contradiction",
+        "status": "PASS",
+        "hard": true,
+        "rationale": "Speaker acknowledges disputes (Galatians dating, Peter-behind-Mark majority 'barely', 30 vs 33 AD) and treats them as bounded, not load-bearing.",
+        "evidence_refs": [
+          "S078",
+          "S185",
+          "S318"
+        ],
+        "resolution": null
+      },
+      {
+        "gate_id": "gate.scope",
+        "status": "WARN",
+        "hard": false,
+        "rationale": "Historical-evidence argument is kept within its method, but the leap from 'critics grant the data' to 'Christianity is true' (S006, S012) exceeds what historical method alone yields.",
+        "evidence_refs": [
+          "S006",
+          "S012",
+          "S093",
+          "S544"
+        ],
+        "resolution": null
+      },
+      {
+        "gate_id": "gate.falsifiability",
+        "status": "WARN",
+        "hard": false,
+        "rationale": "Speaker names what would count against him (myth, telephone-tag, misconstrued data) and engages the objection, but does not state what evidence would overturn his own conclusion.",
+        "evidence_refs": [
+          "S324",
+          "S350",
+          "S353",
+          "S358",
+          "S412"
+        ],
+        "resolution": null
+      },
+      {
+        "gate_id": "gate.bridge_validity",
+        "status": "UNKNOWN",
+        "hard": false,
+        "rationale": "Cross-domain moves (psychology of doubt, genre theory of Greco-Roman bios) are invoked without explicit bridge conditions or kill criteria.",
+        "evidence_refs": [
+          "S173",
+          "S178",
+          "S557",
+          "S561"
+        ],
+        "resolution": null
+      },
+      {
+        "gate_id": "gate.provenance",
+        "status": "WARN",
+        "hard": false,
+        "rationale": "Named sources and scripture refs are given, but no bibliographic citations; transcript is auto-captioned with acknowledged caption noise and no speaker labels.",
+        "evidence_refs": [
+          "S233",
+          "S234",
+          "S430",
+          "S434"
+        ],
+        "resolution": null
+      },
+      {
+        "gate_id": "gate.agency_noncoercion",
+        "status": "PASS",
+        "hard": true,
+        "rationale": "Persuasion by argument in a voluntary lecture setting; no coercion, threat, or concealed compulsion; audience free to reject (S547, S548).",
+        "evidence_refs": [
+          "S547",
+          "S548",
+          "S724"
+        ],
+        "resolution": null
+      }
+    ],
+    "fruit_profile": [
+      {
+        "fruit_id": "fruit.love",
+        "score": 2,
+        "confidence": 0.4,
+        "mechanism": "truth-aligned relational cohesion seeking the good of the whole and each member while bearing cost and preserving agency",
+        "positive_evidence": [
+          {
+            "ref_id": "E-L1",
+            "quote_or_event": "I hope it's going to help all of you in your walk with the Lord.",
+            "location": "S727",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Beneficent intent toward audience",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-L2",
+            "quote_or_event": "God uses wounded lives.",
+            "location": "S524",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Pastoral framing toward the broken",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-L3",
+            "quote_or_event": "John stinks at plus 60.",
+            "location": "S143",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Mocking dismissal of an interlocutor's position",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.3,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "WARN",
+          "power": "PASS",
+          "correction": "UNKNOWN",
+          "outsider": "FAIL",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Warm pastoral intent toward in-group; no evidence of costly love toward outsiders or critics."
+      },
+      {
+        "fruit_id": "fruit.joy",
+        "score": 2,
+        "confidence": 0.4,
+        "mechanism": "durable participation in real good not dependent on denial, spectacle, status, or constant stimulation",
+        "positive_evidence": [
+          {
+            "ref_id": "E-J1",
+            "quote_or_event": "The resurrection of Jesus is the most exciting, I think, subject in scripture.",
+            "location": "S004",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Expressed durable delight in subject",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-J2",
+            "quote_or_event": "Christ gives us the abundant life now and eternity.",
+            "location": "S721",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Joy grounded in claimed good, not spectacle",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [],
+        "evidence_coverage": 0.25,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "UNKNOWN",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Genuine enthusiasm expressed; no evidence of joy persisting under cost or across contexts."
+      },
+      {
+        "fruit_id": "fruit.peace",
+        "score": 2,
+        "confidence": 0.3,
+        "mechanism": "reintegrated order in which relevant tensions are truthfully addressed without suppression",
+        "positive_evidence": [
+          {
+            "ref_id": "E-P1",
+            "quote_or_event": "Be steadfast.",
+            "location": "S621",
+            "evidence_type": "STATED_INTENT",
+            "link_reason": "Exhortation to stability amid doubt",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-P2",
+            "quote_or_event": "You have to tell your emotions where to get off.",
+            "location": "S595",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Frames emotional tension as to be suppressed rather than addressed",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.2,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "UNKNOWN",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Peace framed as resolve; emotional doubt handled by dismissal of feeling, a possible suppression pattern."
+      },
+      {
+        "fruit_id": "fruit.patience",
+        "score": 2,
+        "confidence": 0.3,
+        "mechanism": "preservation of persons and processes across the time required for truth, growth, correction, or convergence while acting when action is due",
+        "positive_evidence": [
+          {
+            "ref_id": "E-PA1",
+            "quote_or_event": "We This took us years.",
+            "location": "S558",
+            "evidence_type": "PROCESS",
+            "link_reason": "Sustained multi-year research effort",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [],
+        "evidence_coverage": 0.2,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "UNKNOWN",
+          "endurance": "WARN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "UNKNOWN",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Long research program cited; little evidence of patience toward opposing views."
+      },
+      {
+        "fruit_id": "fruit.kindness",
+        "score": 2,
+        "confidence": 0.35,
+        "mechanism": "low-friction repair and assistance that reduces needless barriers without erasing truth or responsibility",
+        "positive_evidence": [
+          {
+            "ref_id": "E-K1",
+            "quote_or_event": "two of them are on my website, garyhabermas.com. They're free.",
+            "location": "S550",
+            "evidence_type": "OUTPUT",
+            "link_reason": "Free resource offered to doubters",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-K2",
+            "quote_or_event": "I don't sell anything on my website.",
+            "location": "S552",
+            "evidence_type": "OUTPUT",
+            "link_reason": "Declines monetization of help",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-K3",
+            "quote_or_event": "John stinks at plus 60.",
+            "location": "S143",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Contemptuous phrasing toward opposing view",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-K4",
+            "quote_or_event": "Baloney.",
+            "location": "S329",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Blunt dismissal of a common apologetic",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.35,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "PASS",
+          "endurance": "UNKNOWN",
+          "relation": "WARN",
+          "power": "UNKNOWN",
+          "correction": "UNKNOWN",
+          "outsider": "WARN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Real low-cost assistance (free books) alongside dismissive rhetoric toward critics."
+      },
+      {
+        "fruit_id": "fruit.goodness",
+        "score": 2,
+        "confidence": 0.35,
+        "mechanism": "truth-aligned action producing real non-malign benefit after costs and externalities are counted",
+        "positive_evidence": [
+          {
+            "ref_id": "E-G1",
+            "quote_or_event": "He takes up an offering, probably the third one that day, for for Some of you know what I mean.",
+            "location": "S709",
+            "evidence_type": "OUTPUT",
+            "link_reason": "Cited charitable collection for the poor",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-G2",
+            "quote_or_event": "They're free.",
+            "location": "S551",
+            "evidence_type": "OUTPUT",
+            "link_reason": "Non-monetized distribution of work",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [],
+        "evidence_coverage": 0.25,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "WARN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "UNKNOWN",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Benefit is mostly intellectual/pastoral; no evidence of exported harm, but also little verified downstream benefit."
+      },
+      {
+        "fruit_id": "fruit.faithfulness",
+        "score": 3,
+        "confidence": 0.5,
+        "mechanism": "invariant fidelity across time, audiences, incentives, and pressure, joined to correction when the object of loyalty is false",
+        "positive_evidence": [
+          {
+            "ref_id": "E-F1",
+            "quote_or_event": "I'm using critical dates.",
+            "location": "S088",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Commits to opponent-admitted data rather than favorable sources",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-F2",
+            "quote_or_event": "I'm not saying that that that word has to mean history in that context",
+            "location": "S436",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Declines to overclaim on a lexical point",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-F3",
+            "quote_or_event": "This is just my view.",
+            "location": "S638",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Flags own opinion as opinion",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-F4",
+            "quote_or_event": "I said, I don't know.",
+            "location": "S322",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Admits gap in his own argument",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.5,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "WARN",
+          "endurance": "PASS",
+          "relation": "PASS",
+          "power": "UNKNOWN",
+          "correction": "WARN",
+          "outsider": "WARN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Consistent method across the lecture, self-limits on contested points; correction of his own claims is present but narrow."
+      },
+      {
+        "fruit_id": "fruit.gentleness",
+        "score": 2,
+        "confidence": 0.35,
+        "mechanism": "power precisely restrained to the minimum force sufficient for the good while protecting the vulnerable",
+        "positive_evidence": [
+          {
+            "ref_id": "E-GE1",
+            "quote_or_event": "I wouldn't want to call all of them liars",
+            "location": "S115",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Restrains harsh characterization of opponents",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-GE2",
+            "quote_or_event": "I was going to make a little joke, but I won't do that.",
+            "location": "S468",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Self-restraint to avoid needless offense",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-GE3",
+            "quote_or_event": "John stinks at plus 60.",
+            "location": "S143",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Ridicule of a position",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.3,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "WARN",
+          "power": "PASS",
+          "correction": "UNKNOWN",
+          "outsider": "WARN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Some deliberate restraint; occasional ridicule of critics shows force not fully minimized."
+      },
+      {
+        "fruit_id": "fruit.self_control",
+        "score": 2,
+        "confidence": 0.4,
+        "mechanism": "boundary integrity and governance of appetite, impulse, scope, and optimization under the true good",
+        "positive_evidence": [
+          {
+            "ref_id": "E-SC1",
+            "quote_or_event": "I'm not going to be able to do all eight, but I'm going to do the most four most important ones for you tonight.",
+            "location": "S208",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Scopes claims to what time allows",
+            "source_ref": null,
+            "time_window": null
+          },
+          {
+            "ref_id": "E-SC2",
+            "quote_or_event": "I'm only speaking for myself.",
+            "location": "S639",
+            "evidence_type": "MECHANISM",
+            "link_reason": "Bounds own authority",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "counterevidence": [
+          {
+            "ref_id": "E-SC3",
+            "quote_or_event": "I'm going to do this part real fast.",
+            "location": "S082",
+            "evidence_type": "COUNTEREXAMPLE",
+            "link_reason": "Rushed delivery risks underdeveloped claims",
+            "source_ref": null,
+            "time_window": null
+          }
+        ],
+        "evidence_coverage": 0.3,
+        "stress_tests": {
+          "source": "PASS",
+          "cost": "UNKNOWN",
+          "endurance": "UNKNOWN",
+          "relation": "UNKNOWN",
+          "power": "UNKNOWN",
+          "correction": "WARN",
+          "outsider": "UNKNOWN",
+          "succession": "UNKNOWN"
+        },
+        "counterfeit": {
+          "flag": false,
+          "claimed_label": null,
+          "missing_companion": null,
+          "anti_fruit_output": null,
+          "severity": "NONE"
+        },
+        "rationale": "Explicit scoping and self-limitation; some rushed, over-broad framing ('Christianity is true')."
+      }
+    ],
+    "contradictions": [
+      {
+        "classification": "ACKNOWLEDGED_REPAIRED",
+        "load_bearing": false,
+        "resolved": true,
+        "evidence_refs": [
+          "S078",
+          "S185",
+          "S318"
+        ],
+        "fruit_relation": "faithfulness",
+        "consequence": "Dating and source disputes flagged as disputed rather than hidden."
+      },
+      {
+        "classification": "LOCAL",
+        "load_bearing": false,
+        "resolved": false,
+        "evidence_refs": [
+          "S006",
+          "S012",
+          "S093"
+        ],
+        "fruit_relation": "self_control",
+        "consequence": "Historical-evidence method and metaphysical conclusion sit at different confidence levels; not reconciled in text."
+      }
+    ],
+    "counterfeit_flags": [],
+    "anti_fruit_pressure": [
+      {
+        "fruit_id": "fruit.kindness",
+        "pressure": "LOW",
+        "evidence_refs": [
+          "S143",
+          "S329"
+        ]
+      },
+      {
+        "fruit_id": "fruit.gentleness",
+        "pressure": "LOW",
+        "evidence_refs": [
+          "S143"
+        ]
+      }
+    ],
+    "stakeholder_divergence": [
+      {
+        "group": "critics/non-Christian scholars",
+        "observation": "Cited as authorities whose data is accepted, but characterized in places as motivated by worldview rather than evidence (S219-S222).",
+        "evidence_refs": [
+          "S219",
+          "S220",
+          "S221",
+          "S222"
+        ]
+      },
+      {
+        "group": "audience",
+        "observation": "Addressed warmly; emotional doubters told their doubt is not factual (S561).",
+        "evidence_refs": [
+          "S561",
+          "S571"
+        ]
+      }
+    ],
+    "aggregation": {
+      "mode": "gated_profile",
+      "arithmetic_summary": 0.5278,
+      "geometric_balance": 0.5461,
+      "multiplicative_coherence": 0.00293,
+      "minimum_fruit": {
+        "fruit_id": "fruit.love",
+        "score": 2
+      },
+      "vetoes": []
+    },
+    "epistemic_status": "CONDITIONAL",
+    "system_status": "COHERENT_BUT_FRAGILE",
+    "confidence": 0.4,
+    "missing_evidence": [
+      "No bibliographic citations for Lüdemann, Ehrman, or the University of London dissertation",
+      "No outsider or critic self-report; critics characterized only through the speaker",
+      "No evidence of downstream outcomes of the free books or the psychological study",
+      "No speaker labels in transcript; some sentences ambiguous between speakers"
+    ],
+    "repair_path": [
+      "Add page-level citations for every scholar quoted",
+      "State explicitly what evidence would falsify the resurrection conclusion",
+      "Separate historical-method conclusion from the metaphysical claim 'Christianity is true'",
+      "Include critic self-representation rather than paraphrase"
+    ],
+    "falsifier": "A documented case where the speaker's cited critical datings or quotations are materially misrepresented, or where he refuses correction of a load-bearing claim when shown wrong.",
+    "limitations": [
+      "Auto-captioned transcript; caption errors and missing speaker labels are not the speaker's fault",
+      "Single lecture; no longitudinal or cross-context behavioral evidence",
+      "Fruit scores rest on spoken intent and process, not verified outcomes",
+      "Per-sentence summary shows near-zero fruit signal; I treat its 'top_away' items (S006, S012, S143) as weak signals only, and disagree that S006/S012 are anti-fruit — they are scope issues, not character evidence"
+    ],
+    "formal_receipt": {
+      "receipt_type": "FORMAL_EVALUATION_RECEIPT",
+      "proof_status": "RULE_DERIVED_FROM_RECORDED_ASSESSMENTS",
+      "source_sha256": "4e9a442e34397a126eea2f8a0b7ce95fe8f81129f989b24dffa788761063684b",
+      "rubric_sha256": "44951e7c43e587a281195666a572b8469014a8eb62f62bc9ef60ebc0d591f609",
+      "prompt_sha256": "c7544f919fa497b1e388f3daddcc641725175e784ec75d1870d01a0d33888c98",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "premises": [
+        "P1: the evaluated source is fixed by source_sha256",
+        "P2: all nine Fruit dimensions are present on the 0..4 scale",
+        "P3: all seven gates are recorded independently of the Fruit scores",
+        "P4: evidence uncertainty remains explicit rather than being imputed"
+      ],
+      "deductions": [
+        "D1: arithmetic_summary is the mean of the nine scores normalized by four",
+        "D2: geometric_balance penalizes low dimensions and is non-authoritative",
+        "D3: unresolved hard-gate failures and severe counterfeit mechanisms create explicit vetoes",
+        "D4: a contradiction changes the verdict only through its classified severity, resolution, and consequence"
+      ],
+      "conclusion": "epistemic_status=CONDITIONAL; system_status=COHERENT_BUT_FRAGILE; veto_count=0",
+      "scope_boundary": "This receipt proves deterministic application of the declared rubric to recorded model assessments. It does not prove hidden motive, salvation status, divine origin, or empirical validity beyond the cited evidence.",
+      "generated_at": "2026-09-27T13:54:07Z"
+    },
+    "run_metadata": {
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "generated_at": "2026-09-27T13:54:07Z"
+    }
+  },
+  "fruits_sentences_summary": {
+    "scored": 727,
+    "total": 727,
+    "missing": [],
+    "fruit_means": {
+      "love": 0.001,
+      "joy": 0.003,
+      "peace": 0.0,
+      "patience": 0.0,
+      "kindness": -0.001,
+      "goodness": 0.0,
+      "faithfulness": 0.0,
+      "gentleness": 0.0,
+      "self_control": 0.001
+    },
+    "fruit_extremes": {
+      "love": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "joy": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "peace": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "patience": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "kindness": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.001
+      },
+      "goodness": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "faithfulness": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "gentleness": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "self_control": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.003
+      }
+    },
+    "track_love": {
+      "joy": -0.002,
+      "peace": null,
+      "patience": null,
+      "kindness": 0.001,
+      "goodness": null,
+      "faithfulness": null,
+      "gentleness": null,
+      "self_control": -0.001
+    },
+    "top_toward": [
+      {
+        "id": "S004",
+        "para": "P03",
+        "sum": 1,
+        "love": 0,
+        "text": "The resurrection of Jesus is the most exciting, I think, subject in scripture.",
+        "why": {}
+      },
+      {
+        "id": "S436",
+        "para": "P03",
+        "sum": 1,
+        "love": 0,
+        "text": "Now, I'm not saying that that that word has to mean history in that context, but that word historesai means to check something out.",
+        "why": {}
+      },
+      {
+        "id": "S479",
+        "para": "P03",
+        "sum": 1,
+        "love": 0,
+        "text": "I love this.",
+        "why": {}
+      },
+      {
+        "id": "S638",
+        "para": "P03",
+        "sum": 1,
+        "love": 0,
+        "text": "This is just my view.",
+        "why": {}
+      },
+      {
+        "id": "S639",
+        "para": "P03",
+        "sum": 1,
+        "love": 0,
+        "text": "I think it's probably the majority view today, but I'm only speaking for myself.",
+        "why": {}
+      }
+    ],
+    "top_away": [
+      {
+        "id": "S006",
+        "para": "P03",
+        "sum": -1,
+        "love": 0,
+        "text": "If Jesus was raised from the dead, Christianity is true.",
+        "why": {}
+      },
+      {
+        "id": "S012",
+        "para": "P03",
+        "sum": -1,
+        "love": 0,
+        "text": "Christianity is true.",
+        "why": {}
+      },
+      {
+        "id": "S143",
+        "para": "P03",
+        "sum": -1,
+        "love": 0,
+        "text": "John stinks at plus 60.",
+        "why": {
+          "kindness": "mocking dismissal of John's reliability"
+        }
+      }
+    ],
+    "love_turns": [
+      "S725"
+    ],
+    "counterfeit_candidates": [],
+    "hidden_fruit": [],
+    "paragraph_love": {
+      "P01": 0.0,
+      "P02": 0.0,
+      "P03": 0.0
+    },
+    "paragraph_total": {
+      "P01": 0.0,
+      "P02": 0.0,
+      "P03": 0.0
+    }
+  },
+  "axiom_nodes": {
+    "paper_uuid": "yt-98uoFLGOCXk-ch003",
+    "title": "Remarkably Early Historical Information for the Resurrection of Jesus - Gary Habermas",
+    "summary": "A historical-apologetics lecture arguing from critically-accepted dating that the earliest Christian message (homologia) and pre-Pauline creeds about Jesus' death and resurrection originated in Jerusalem within one to two years of the cross, that Paul was converted within two to three years and verified his gospel with the eyewitnesses Peter and James, and that this early eyewitness chain rules out legendary development. The paper engages the canon mainly at the level of evidential/historical scaffolding for the resurrection and the reliability of early testimony; it does not state or derive the formal axiom system, though it touches the terminal-observer/BC family and the grace-versus-works distinction in passing.",
+    "primary_mode": "HY_EVIDENCE",
+    "axiom_nodes": [
+      {
+        "node_id": "BC1",
+        "name": "BC1 — Terminal Observer Exists",
+        "mode": "HY_EVIDENCE",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "The lecture's whole argument presupposes a risen, self-authenticating Jesus as the terminal witness behind the early testimony, but it never frames this as the BC1 terminal-observer requirement."
+      },
+      {
+        "node_id": "BC5",
+        "name": "BC5 — Superposition Preserved Until Collapse",
+        "mode": "HY_EVIDENCE",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "Habermas argues the resurrection data is too early to be myth, i.e., the tradition was not allowed to drift before being fixed by eyewitnesses; this is a historical analogue to preserving content until an authoritative observer fixes it, but no quantum claim is made."
+      },
+      {
+        "node_id": "BC7",
+        "name": "BC7 — Information Conservation",
+        "mode": "HY_EVIDENCE",
+        "alignment": "supported",
+        "evidence_quote": "But it keeps phone tag from being true.",
+        "confidence": "medium",
+        "notes": "The core historical claim is that the original apostolic testimony was conserved intact through Paul's direct verification with Peter and James, ruling out lossy transmission."
+      },
+      {
+        "node_id": "BC8",
+        "name": "BC8 — Voluntary Coupling",
+        "mode": "HY_EVIDENCE",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "The martyrdoms of Paul, Peter, and James are cited as evidence of sincerity, which is adjacent to voluntary coupling, but the lecture does not develop a coupling axiom."
+      },
+      {
+        "node_id": "A9.1",
+        "name": "A9.1 — External Intervention Required",
+        "mode": "HY_EVIDENCE",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "Paul's conversion is presented as an external encounter ('He meets Jesus') that reverses his prior hostility, but the lecture does not state an axiom of required external intervention."
+      },
+      {
+        "node_id": "C8.2",
+        "name": "C8.2 — Works Salvation Impossible",
+        "mode": "HY_EVIDENCE",
+        "alignment": "directly_asserted",
+        "evidence_quote": "Good works will not get you in heaven.",
+        "confidence": "high",
+        "notes": "Explicitly asserted in the closing application, with the qualification that post-salvation works determine reward capacity."
+      },
+      {
+        "node_id": "P9.2",
+        "name": "P9.2 — Voluntary Coupling Preserved",
+        "mode": "HY_EVIDENCE",
+        "alignment": "supported",
+        "evidence_quote": "In the New Testament the word believe means to jump in with both feet.",
+        "confidence": "medium",
+        "notes": "Habermas insists NT belief is trust/surrender rather than mere assent, preserving a voluntary, non-coerced response; he explicitly denies this makes salvation by works."
+      },
+      {
+        "node_id": "P9.5",
+        "name": "P9.5 — Grace Available To All",
+        "mode": "HY_EVIDENCE",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "The gospel is presented as universally offered and universally preached, but the lecture does not formulate an availability axiom."
+      },
+      {
+        "node_id": "P10.1",
+        "name": "P10.1 — Soul Continuity",
+        "mode": "HY_EVIDENCE",
+        "alignment": "supported",
+        "evidence_quote": "If you'll ever be eternal in the future, you're eternal now.",
+        "confidence": "medium",
+        "notes": "Eternal life is said to begin in this life and continue into eternity, implying continuity of the person across death."
+      },
+      {
+        "node_id": "P10.2",
+        "name": "P10.2 — Soul Identity Persistence",
+        "mode": "HY_EVIDENCE",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "The claim that believers 'belong to the Lord' and leave with their king for eternity assumes personal persistence, but identity persistence is not argued."
+      },
+      {
+        "node_id": "T12.1",
+        "name": "T12.1 — Heaven As High-Phi Attractor",
+        "mode": "HY_EVIDENCE",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "Heaven and eternal reward are discussed in ordinary theological terms, not as a coherence attractor state."
+      },
+      {
+        "node_id": "T12.2",
+        "name": "T12.2 — Hell As Low-Phi Attractor",
+        "mode": "HY_EVIDENCE",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "The alternative to salvation is implied ('if not, you're not') but never characterized as a low-coherence attractor."
+      },
+      {
+        "node_id": "T16.1",
+        "name": "T16.1 — Christianity 8 of 8 BCs",
+        "mode": "HY_EVIDENCE",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "Habermas argues Christianity is uniquely vindicated by the resurrection data, which is structurally parallel to the 8-of-8 BC claim, but he never invokes the BC framework."
+      },
+      {
+        "node_id": "T16.6",
+        "name": "T16.6 — Atheism Fails BC1-BC6",
+        "mode": "HY_EVIDENCE",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "Atheist and agnostic scholars are cited as conceding the historical data yet not believing, which Habermas attributes to worldview rather than evidence; this is adjacent to but not the BC1-BC6 failure claim."
+      },
+      {
+        "node_id": "EV15.1",
+        "name": "EV15.1 — Biblical Prophecy Validation",
+        "mode": "HY_EVIDENCE",
+        "alignment": "supported",
+        "evidence_quote": "How that Christ died for our sins according to the scriptures, he was buried, rose again the third day according to the scriptures and appeared.",
+        "confidence": "medium",
+        "notes": "The creedal formula is quoted as grounding the resurrection in the scriptures, functioning as scriptural validation of the event."
+      },
+      {
+        "node_id": "BRIDGE-PHY-THEO",
+        "name": "BRIDGE-PHY-THEO - Physics-Theology Bridge",
+        "mode": "HY_EVIDENCE",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "The lecture is purely historical-theological; it makes no physics bridge, though it supplies evidence the canon's bridge would need to accommodate."
+      },
+      {
+        "node_id": "PERSONHOOD",
+        "name": "PERSONHOOD — Agency, Intentionality, Relational Capacity",
+        "mode": "HY_EVIDENCE",
+        "alignment": "supported",
+        "evidence_quote": "It means to surrender.",
+        "confidence": "medium",
+        "notes": "Belief is characterized as personal trust, surrender, and covenant commitment ('I do'), presupposing agency, intentionality, and relational capacity."
+      }
+    ],
+    "unmapped_claims": [
+      "A01",
+      "A02",
+      "A03",
+      "A04",
+      "A05",
+      "A06",
+      "A07",
+      "A08",
+      "A09",
+      "A10",
+      "A11",
+      "A12",
+      "A13",
+      "A14",
+      "A15",
+      "A16",
+      "A17",
+      "A18",
+      "A19",
+      "A20",
+      "A21",
+      "A22"
+    ]
+  },
+  "atoms": {
+    "paper_uuid": "yt-98uoFLGOCXk-ch03",
+    "title": "Remarkably Early Historical Information for the Resurrection of Jesus - Gary Habermas",
+    "domainType": "theology",
+    "summary": "Habermas argues that early, critically-accepted data (homologia, pre-Pauline creeds, Paul's conversion, and Paul's Jerusalem consultations with Peter and James) establish eyewitness testimony to the resurrection within 2-6 years of the cross, defeating 'telephone tag' myth objections. He also distinguishes factual from emotional doubt and closes with exhortation from 1 Cor 15:58.",
+    "atoms": [
+      {
+        "nodeType": "claim",
+        "stage": "01_canonical",
+        "name": "Resurrection is Christianity's load-bearing claim",
+        "statementTechnical": "If Jesus was raised from the dead, Christianity is true; all other doctrinal disputes are non-fundamental.",
+        "statementPlain": "If Jesus rose, Christianity is true; you don't have to solve every Bible problem.",
+        "claimClass": "floor-axiom",
+        "falsificationCondition": "Demonstration that Jesus did not rise (e.g., tomb not empty / body produced) would falsify Christianity on this axiom.",
+        "verificationStatus": "informal",
+        "challengeStatus": "challenged-open",
+        "edges": [
+          {
+            "type": "feedsInto",
+            "target": "tp:theology/L1/C2",
+            "grade": "structural_identity",
+            "propagates": "true"
+          }
+        ],
+        "source_sentences": [
+          "S006",
+          "S011",
+          "S012"
+        ],
+        "notes": "Mike Licona quote: 'game, set, match.'",
+        "atom_id": "A01"
+      },
+      {
+        "nodeType": "claim",
+        "stage": "01_canonical",
+        "name": "Homologia: earliest agreed-upon gospel data",
+        "statementTechnical": "The earliest agreed-upon data (homologia) in the early church centered on Jesus' deity, death, and resurrection, preached immediately after the crucifixion.",
+        "statementPlain": "The first Christians' earliest agreed message was the death and resurrection of Jesus, preached right away.",
+        "claimClass": "empirical-anchor",
+        "falsificationCondition": "Evidence that earliest Christian preaching centered on other topics, or that resurrection preaching began decades later, would falsify.",
+        "verificationStatus": "informal",
+        "challengeStatus": "challenged-open",
+        "edges": [
+          {
+            "type": "feedsInto",
+            "target": "tp:theology/L1/C3",
+            "grade": "structural_identity",
+            "propagates": "true"
+          }
+        ],
+        "source_sentences": [
+          "S228",
+          "S235",
+          "S238",
+          "S242",
+          "S244"
+        ],
+        "notes": "Cites Gerd Lüdemann.",
+        "atom_id": "A02"
+      },
+      {
+        "nodeType": "claim",
+        "stage": "01_canonical",
+        "name": "Pre-Pauline creeds date within 1-2 years of the cross",
+        "statementTechnical": "Early creedal formulations (memorizable summaries of the homologia) originated in Jerusalem within 1-2 years of the crucifixion, likely from the apostles, and Paul probably knew them all.",
+        "statementPlain": "The earliest Christian creeds came from Jerusalem within a year or two of Jesus' death, from the apostles themselves.",
+        "claimClass": "empirical-anchor",
+        "falsificationCondition": "Demonstration that the creeds postdate Paul or originate outside Jerusalem/apostolic circles would falsify.",
+        "verificationStatus": "informal",
+        "challengeStatus": "challenged-open",
+        "edges": [
+          {
+            "type": "dependsOn",
+            "target": "tp:theology/L1/C2",
+            "grade": "structural_identity",
+            "propagates": "true"
+          }
+        ],
+        "source_sentences": [
+          "S252",
+          "S253",
+          "S285",
+          "S292"
+        ],
+        "notes": "Cites Bart Ehrman's concession.",
+        "atom_id": "A03"
+      },
+      {
+        "nodeType": "claim",
+        "stage": "01_canonical",
+        "name": "Paul's conversion within 2-3 years of the cross",
+        "statementTechnical": "Paul was converted approximately 2-3 years after the crucifixion, an event granted by critical scholars, giving an eyewitness link to the earliest data.",
+        "statementPlain": "Paul became a Christian just two or three years after Jesus died.",
+        "claimClass": "empirical-anchor",
+        "falsificationCondition": "Evidence that Paul's conversion occurred much later, or that he had no contact with pre-resurrection eyewitnesses, would falsify.",
+        "verificationStatus": "informal",
+        "challengeStatus": "challenged-open",
+        "edges": [
+          {
+            "type": "feedsInto",
+            "target": "tp:theology/L1/C4",
+            "grade": "structural_identity",
+            "propagates": "true"
+          }
+        ],
+        "source_sentences": [
+          "S294",
+          "S304",
+          "S377"
+        ],
+        "notes": "",
+        "atom_id": "A04"
+      },
+      {
+        "nodeType": "claim",
+        "stage": "01_canonical",
+        "name": "Paul verified the gospel with Peter and James (Gal 1-2)",
+        "statementTechnical": "Paul visited Jerusalem ~3 years post-conversion (Gal 1:18) spending 15 days with Peter and James, and again 14 years later (Gal 2:2,9) where the pillars added nothing to his gospel and gave the right hand of fellowship.",
+        "statementPlain": "Paul checked his gospel with Peter and James, the eyewitnesses, and they confirmed it.",
+        "claimClass": "empirical-anchor",
+        "falsificationCondition": "Demonstration that Galatians is late/inauthentic, or that Paul's Jerusalem visits did not involve gospel verification with eyewitnesses, would falsify.",
+        "verificationStatus": "informal",
+        "challengeStatus": "challenged-open",
+        "edges": [
+          {
+            "type": "dependsOn",
+            "target": "tp:theology/L1/C4",
+            "grade": "structural_identity",
+            "propagates": "true"
+          }
+        ],
+        "source_sentences": [
+          "S378",
+          "S390",
+          "S441",
+          "S481",
+          "S486"
+        ],
+        "notes": "historesai = to investigate/question.",
+        "atom_id": "A05"
+      },
+      {
+        "nodeType": "claim",
+        "stage": "01_canonical",
+        "name": "Early eyewitness chain rules out 'telephone tag' myth",
+        "statementTechnical": "The 2-6 year chain from cross to Paul's verified contact with Peter and James precludes legendary development ('telephone tag'), since myths require far longer transmission.",
+        "statementPlain": "The data is too early for the story to be a garbled myth.",
+        "claimClass": "prediction",
+        "falsificationCondition": "A demonstrated case of a comparable myth forming within 2-6 years among multiple living eyewitnesses would falsify.",
+        "verificationStatus": "informal",
+        "challengeStatus": "challenged-open",
+        "edges": [
+          {
+            "type": "dependsOn",
+            "target": "tp:theology/L1/C5",
+            "grade": "structural_identity",
+            "propagates": "true"
+          }
+        ],
+        "source_sentences": [
+          "S324",
+          "S412",
+          "S413"
+        ],
+        "notes": "Habermas rejects 'too early to be myth' as a slogan but defends the underlying chronology.",
+        "atom_id": "A06"
+      },
+      {
+        "nodeType": "claim",
+        "stage": "01_canonical",
+        "name": "Gospels are Greco-Roman biographies",
+        "statementTechnical": "Following a University of London doctoral dissertation, the majority critical view now classifies the Gospels as Greco-Roman bios, i.e., historiographical work.",
+        "statementPlain": "Scholars now agree the Gospels are biographies, not a special Holy Spirit genre.",
+        "claimClass": "empirical-anchor",
+        "falsificationCondition": "Scholarly consensus reverting to non-biographical genre classification would falsify.",
+        "verificationStatus": "informal",
+        "challengeStatus": "challenged-open",
+        "edges": [],
+        "source_sentences": [
+          "S173",
+          "S178",
+          "S179"
+        ],
+        "notes": "",
+        "atom_id": "A07"
+      },
+      {
+        "nodeType": "claim",
+        "stage": "01_canonical",
+        "name": "Most doubt is emotional, not factual",
+        "statementTechnical": "Clinical-psychological testing of Christians' doubts shows the great majority are emotional rather than factual, characterized by 'what if' questions and affective pain, and are not resolved by evidence.",
+        "statementPlain": "Most doubt isn't about facts; it's emotional, and data won't fix it.",
+        "claimClass": "empirical-anchor",
+        "falsificationCondition": "Psychological data showing most religious doubt is evidence-driven and resolved by evidence would falsify.",
+        "verificationStatus": "informal",
+        "challengeStatus": "challenged-open",
+        "edges": [],
+        "source_sentences": [
+          "S561",
+          "S571",
+          "S574",
+          "S585"
+        ],
+        "notes": "Habermas cites co-work with a clinical psychologist.",
+        "atom_id": "A08"
+      },
+      {
+        "nodeType": "claim",
+        "stage": "01_canonical",
+        "name": "80% of early creedal material centers on death and resurrection",
+        "statementTechnical": "Approximately 80% of the homologia and creedal material in the New Testament concerns Jesus' death and resurrection, indicating divine prioritization of the gospel core.",
+        "statementPlain": "Most of the earliest Christian statements are about Jesus' death and resurrection.",
+        "claimClass": "empirical-anchor",
+        "falsificationCondition": "Content analysis showing creedal material predominantly addresses other topics would falsify.",
+        "verificationStatus": "informal",
+        "challengeStatus": "challenged-open",
+        "edges": [
+          {
+            "type": "dependsOn",
+            "target": "tp:theology/L1/C3",
+            "grade": "structural_identity",
+            "propagates": "true"
+          }
+        ],
+        "source_sentences": [
+          "S606",
+          "S616",
+          "S617"
+        ],
+        "notes": "",
+        "atom_id": "A09"
+      },
+      {
+        "nodeType": "claim",
+        "stage": "01_canonical",
+        "name": "Post-salvation works determine eternal capacity for reward",
+        "statementTechnical": "Good works do not save, but post-salvation labor in the Lord is not in vain and determines the capacity of eternal enjoyment (1 Cor 15:58).",
+        "statementPlain": "Works don't save you, but what you do after salvation shapes your eternity.",
+        "claimClass": "definition",
+        "falsificationCondition": "Scriptural or theological demonstration that post-salvation works have no bearing on eternal reward would falsify.",
+        "verificationStatus": "informal",
+        "challengeStatus": "challenged-open",
+        "edges": [],
+        "source_sentences": [
+          "S641",
+          "S646",
+          "S650"
+        ],
+        "notes": "",
+        "atom_id": "A10"
+      },
+      {
+        "nodeType": "evidence",
+        "stage": "05_evidence",
+        "name": "Alexander the Great source gap (~300-450 yrs)",
+        "statementTechnical": "Earliest source for Alexander is ~300 years after his death; best sources (Arrian, Plutarch) 425-450 years later.",
+        "statementPlain": "We trust Alexander sources written centuries later but doubt Gospels written decades later.",
+        "edges": [
+          {
+            "type": "feedsInto",
+            "target": "tp:theology/L1/C6",
+            "grade": "structural_analogy",
+            "propagates": "true"
+          }
+        ],
+        "source_sentences": [
+          "S132",
+          "S138"
+        ],
+        "notes": "",
+        "atom_id": "A11"
+      },
+      {
+        "nodeType": "evidence",
+        "stage": "05_evidence",
+        "name": "Buddhist scriptures 600-800 years after Buddha",
+        "statementTechnical": "A PhD Buddhist scholar concedes Buddhist sources date 600-800 years after Buddha's death, with no chain of Lord/disciple sources comparable to Christianity's.",
+        "statementPlain": "Buddhist texts are far later than the Gospels.",
+        "edges": [
+          {
+            "type": "feedsInto",
+            "target": "tp:theology/L1/C6",
+            "grade": "structural_analogy",
+            "propagates": "true"
+          }
+        ],
+        "source_sentences": [
+          "S152",
+          "S159"
+        ],
+        "notes": "",
+        "atom_id": "A12"
+      },
+      {
+        "nodeType": "evidence",
+        "stage": "05_evidence",
+        "name": "Audience recall of 65-year-old events",
+        "statementTechnical": "Audience poll shows many clearly recall eyewitness events from 65+ years prior, undercutting the claim that John's late date destroys reliability.",
+        "statementPlain": "People really do remember things from 65 years ago.",
+        "edges": [
+          {
+            "type": "feedsInto",
+            "target": "tp:theology/L1/C6",
+            "grade": "structural_analogy",
+            "propagates": "true"
+          }
+        ],
+        "source_sentences": [
+          "S112",
+          "S114"
+        ],
+        "notes": "",
+        "atom_id": "A13"
+      },
+      {
+        "nodeType": "evidence",
+        "stage": "05_evidence",
+        "name": "Critical dating of NT documents",
+        "statementTechnical": "Critical (including non-Christian) scholars date Mark ~70, Matthew ~80, Luke ~85, John ~90-95, 1 Thessalonians ~50, Paul's epistles 50-60.",
+        "statementPlain": "Even skeptical scholars date the sources early.",
+        "edges": [
+          {
+            "type": "feedsInto",
+            "target": "tp:theology/L1/C6",
+            "grade": "structural_identity",
+            "propagates": "true"
+          }
+        ],
+        "source_sentences": [
+          "S084",
+          "S095",
+          "S098",
+          "S184",
+          "S204"
+        ],
+        "notes": "",
+        "atom_id": "A14"
+      },
+      {
+        "nodeType": "kill",
+        "stage": "06_falsification",
+        "name": "Telephone-tag / myth objection",
+        "statementTechnical": "If the gospel message were garbled transmission over decades, the resurrection data would be unreliable.",
+        "edges": [
+          {
+            "type": "challenges",
+            "target": "tp:theology/L1/C6",
+            "grade": "structural_identity",
+            "propagates": "true"
+          }
+        ],
+        "source_sentences": [
+          "S103",
+          "S106",
+          "S324",
+          "S358"
+        ],
+        "notes": "Habermas's target objection.",
+        "atom_id": "A15"
+      },
+      {
+        "nodeType": "kill",
+        "stage": "06_falsification",
+        "name": "Jesus mythicism",
+        "statementTechnical": "If Jesus never lived, all resurrection claims collapse.",
+        "edges": [
+          {
+            "type": "challenges",
+            "target": "tp:theology/L1/C1",
+            "grade": "structural_identity",
+            "propagates": "true"
+          }
+        ],
+        "source_sentences": [
+          "S365",
+          "S368",
+          "S369"
+        ],
+        "notes": "Habermas notes only two accredited scholars hold this; Ehrman wrote against it.",
+        "atom_id": "A16"
+      },
+      {
+        "nodeType": "objection",
+        "stage": "08_objections",
+        "name": "'Christianity is too easy — just believe'",
+        "statementTechnical": "Objection that salvation by belief alone is trivial; Habermas replies that NT 'believe' (pisteuo) means trust/surrender, like marriage vows.",
+        "edges": [
+          {
+            "type": "challenges",
+            "target": "tp:theology/L1/C1",
+            "grade": "structural_analogy",
+            "propagates": "false"
+          }
+        ],
+        "source_sentences": [
+          "S025",
+          "S034",
+          "S052",
+          "S056"
+        ],
+        "notes": "",
+        "atom_id": "A17"
+      },
+      {
+        "nodeType": "objection",
+        "stage": "08_objections",
+        "name": "'If the data is so good, why don't critics believe?'",
+        "statementTechnical": "Habermas answers that worldview commitments, not data, drive most disbelief.",
+        "edges": [
+          {
+            "type": "challenges",
+            "target": "tp:theology/L1/C6",
+            "grade": "structural_identity",
+            "propagates": "false"
+          }
+        ],
+        "source_sentences": [
+          "S219",
+          "S220",
+          "S548"
+        ],
+        "notes": "",
+        "atom_id": "A18"
+      },
+      {
+        "nodeType": "bridge",
+        "stage": "03_synthesis",
+        "name": "Pharisaic historiographical method behind Paul's verification",
+        "statementTechnical": "Josephus documents Pharisaic teaching-by-repetition and historical transmission; Paul, a Pharisee, applied this method in questioning Peter and James (historesai).",
+        "statementPlain": "Paul checked the facts the way Pharisees were trained to.",
+        "edges": [
+          {
+            "type": "bridgesTo",
+            "target": "tp:theology/L1/C5",
+            "grade": "structural_isomorphism",
+            "propagates": "true"
+          }
+        ],
+        "source_sentences": [
+          "S197",
+          "S199",
+          "S430",
+          "S435",
+          "S465"
+        ],
+        "notes": "",
+        "atom_id": "A19"
+      },
+      {
+        "nodeType": "result",
+        "stage": "13_fulfilled",
+        "name": "Eight critical-accepted lines of evidence",
+        "statementTechnical": "Eight separate lines of evidence from cross to end of Paul's epistles are accepted by critical scholars; four presented here.",
+        "edges": [
+          {
+            "type": "feedsInto",
+            "target": "tp:theology/L1/C6",
+            "grade": "structural_identity",
+            "propagates": "true"
+          }
+        ],
+        "source_sentences": [
+          "S203",
+          "S208",
+          "S536"
+        ],
+        "notes": "",
+        "atom_id": "A20"
+      },
+      {
+        "nodeType": "reach",
+        "stage": "12_audience",
+        "name": "God uses wounded lives",
+        "statementTechnical": "Peter, James, and Paul each failed grievously yet were commissioned; application: God uses wounded lives.",
+        "edges": [],
+        "source_sentences": [
+          "S508",
+          "S524",
+          "S527"
+        ],
+        "notes": "",
+        "atom_id": "A21"
+      },
+      {
+        "nodeType": "raw",
+        "stage": "00_inbox_working",
+        "name": "Unclassified closing exhortation material",
+        "statementPlain": "Exhortation on steadfastness, reward, and Christ's victory over death (1 Cor 15:55-58).",
+        "edges": [],
+        "source_sentences": [
+          "S620",
+          "S661",
+          "S684",
+          "S720"
+        ],
+        "notes": "Devotional close; not a discrete falsifiable claim.",
+        "atom_id": "A22"
+      }
+    ]
+  },
+  "lean4": {
+    "station": "lean4",
+    "paper_uuid": "Gary Habermas - Chapter 003 - Remarkably Early Historical Information for the Resurrection of Jesus - Gary Habermas",
+    "run_uuid": "deep-4e9a442e3439",
+    "template": "00_FULL_LEAN_TEMPLATE.md",
+    "formal_candidates": [
+      {
+        "identity": {
+          "claim_id": "A03",
+          "candidate_uuid": "lean4-A03-0001"
+        },
+        "source_selection": {
+          "exact_source_expression": "The earliest Christian creeds came from Jerusalem within a year or two of Jesus' death, from the apostles themselves.",
+          "selection_disposition": "FORMALIZE",
+          "reason": "This is a dated, source-critical historical claim with a clear propositional content (creed origin, provenance, temporal interval, and apostolic transmission). It can be modeled as a formal historical-source relation over a finite set of creedal texts, dates, and provenance relations, with the substantive historical premises left as explicit axioms rather than proved."
+        },
+        "formal_object": {
+          "object_type": "DEFINITION",
+          "exact_proposed_statement": "Define a structure `CreedalSource` with fields: `text : Type`, `date : ℝ`, `provenance : text → City`, `transmittedBy : text → Set Person`, and a predicate `IsEarlyCreed (c : CreedalSource) (t_cross : ℝ) : Prop := c.date - t_cross ≤ 2 ∧ c.provenance = Jerusalem ∧ Apostles ⊆ c.transmittedBy`. Then state the target theorem `habermas_early_creeds : ∃ (c : CreedalSource), IsEarlyCreed c t_cross` under the historical axioms listed below.",
+          "fully_qualified_declaration": "Habermas.Chapter003.CreedalSource",
+          "project_root": "HabermasResurrection",
+          "module": "Habermas.Chapter003.EarlyCreeds"
+        },
+        "symbol_table": [
+          {
+            "term": "homologia",
+            "formal_definition": "earliest agreed-upon data; modeled as a distinguished element of a set of creedal texts",
+            "reader_meaning": "the earliest agreed-upon gospel message",
+            "source_correspondence": "S228–S238"
+          },
+          {
+            "term": "creed",
+            "formal_definition": "a short, memorizable statement encapsulating the homologia",
+            "reader_meaning": "early Christian creedal formula",
+            "source_correspondence": "S252–S258, S272–S283"
+          },
+          {
+            "term": "Jerusalem provenance",
+            "formal_definition": "provenance : text → City with Jerusalem as a distinguished city",
+            "reader_meaning": "the creed originated from the Jerusalem church",
+            "source_correspondence": "S292"
+          },
+          {
+            "term": "apostolic transmission",
+            "formal_definition": "transmittedBy : text → Set Person with Apostles as a distinguished set",
+            "reader_meaning": "the creed was handed on by the apostles",
+            "source_correspondence": "S292"
+          },
+          {
+            "term": "within 1–2 years",
+            "formal_definition": "c.date - t_cross ≤ 2",
+            "reader_meaning": "the creed dates within one to two years of the crucifixion",
+            "source_correspondence": "S292, S303"
+          }
+        ],
+        "assumptions_and_dependencies": {
+          "explicit_premises": [
+            "There exists a crucifixion event with date t_cross.",
+            "There exists at least one creedal text c.",
+            "The provenance of c is Jerusalem.",
+            "The transmission set of c includes the apostles.",
+            "The date of c is within two years of t_cross."
+          ],
+          "custom_axioms": [
+            "axiom habermas_creed_exists : ∃ c : CreedalSource, True",
+            "axiom habermas_creed_jerusalem : ∀ c, c.provenance = Jerusalem",
+            "axiom habermas_creed_apostolic : ∀ c, Apostles ⊆ c.transmittedBy",
+            "axiom habermas_creed_early : ∀ c, c.date - t_cross ≤ 2"
+          ],
+          "theological_starting_premises": "The historical reliability of Acts and Galatians as sources for the Jerusalem church and apostolic transmission is assumed, not proved.",
+          "non_vacuity_requirement": "The type `CreedalSource` must be inhabited; the axioms above must be consistent with a concrete finite model in which at least one creed exists."
+        },
+        "verification_controls": [
+          {
+            "check": "module compilation",
+            "command_or_evidence": "lake build Habermas.Chapter003.EarlyCreeds",
+            "status": "NOT_RUN",
+            "interpretation": "Lean corpus was not searched in this run; no build attempted."
+          },
+          {
+            "check": "declaration inspection",
+            "command_or_evidence": "#check Habermas.Chapter003.CreedalSource",
+            "status": "NOT_RUN",
+            "interpretation": "No Lean environment available in this run."
+          },
+          {
+            "check": "axiom dependency",
+            "command_or_evidence": "#print axioms habermas_early_creeds",
+            "status": "NOT_RUN",
+            "interpretation": "Custom axioms are declared; dependency audit not performed."
+          },
+          {
+            "check": "non-vacuity",
+            "command_or_evidence": "Construct a concrete `CreedalSource` instance with date = t_cross + 1, provenance = Jerusalem, transmittedBy = Apostles.",
+            "status": "NOT_RUN",
+            "interpretation": "Non-vacuity witness not yet constructed."
+          },
+          {
+            "check": "negative control",
+            "command_or_evidence": "Attempt to prove the negation under a model where provenance ≠ Jerusalem.",
+            "status": "NOT_RUN",
+            "interpretation": "Negative control not attempted."
+          }
+        ],
+        "result_and_boundary": {
+          "verification_status": "CANDIDATE",
+          "what_is_established": "A formal schema for the claim that early creeds exist with Jerusalem provenance, apostolic transmission, and a 1–2 year date relative to the crucifixion.",
+          "what_remains_open": "The historical truth of the axioms is not established by Lean; the formalization only encodes the logical structure of the claim.",
+          "encoding_fidelity_review": "The encoding captures the propositional content but abstracts away from textual criticism, manuscript dating, and the distinction between 'possibly' and 'probably' in Ehrman's statement.",
+          "interpretive_connections": "Connects to A02 (homologia), A04 (Paul's conversion), A05 (Paul's verification), and A20 (eight lines of evidence)."
+        },
+        "reproduction_receipt": {},
+        "corpus_links": {}
+      },
+      {
+        "identity": {
+          "claim_id": "A05",
+          "candidate_uuid": "lean4-A05-0002"
+        },
+        "source_selection": {
+          "exact_source_expression": "Paul checked his gospel with Peter and James, the eyewitnesses, and they confirmed it.",
+          "selection_disposition": "FORMALIZE",
+          "reason": "This is a verifiable historical claim about Paul's visit to Jerusalem and the confirmation of his gospel by Peter and James. It can be modeled as a relation between Paul, Peter, James, and a gospel proposition, with a confirmation predicate."
+        },
+        "formal_object": {
+          "object_type": "THEOREM",
+          "exact_proposed_statement": "Theorem `paul_verified_gospel_with_peter_james` : ∃ (g : Gospel) (p : Person), p = Paul ∧ VerifiedBy p g {Peter, James} ∧ ConfirmedBy {Peter, James} g.",
+          "fully_qualified_declaration": "Habermas.Chapter003.paul_verified_gospel_with_peter_james",
+          "project_root": "HabermasResurrection",
+          "module": "Habermas.Chapter003.PaulVerification"
+        },
+        "symbol_table": [
+          {
+            "term": "Paul",
+            "formal_definition": "distinguished person constant",
+            "reader_meaning": "the Apostle Paul",
+            "source_correspondence": "S378–S390"
+          },
+          {
+            "term": "Peter",
+            "formal_definition": "distinguished person constant",
+            "reader_meaning": "the Apostle Peter",
+            "source_correspondence": "S390"
+          },
+          {
+            "term": "James",
+            "formal_definition": "distinguished person constant",
+            "reader_meaning": "James the brother of Jesus",
+            "source_correspondence": "S390"
+          },
+          {
+            "term": "gospel",
+            "formal_definition": "a propositional content g : Gospel",
+            "reader_meaning": "the gospel message Paul preached",
+            "source_correspondence": "S392–S399"
+          },
+          {
+            "term": "historesai",
+            "formal_definition": "a verification relation `VerifiedBy : Person → Gospel → Set Person → Prop`",
+            "reader_meaning": "to check something out, investigate, question",
+            "source_correspondence": "S430–S440"
+          }
+        ],
+        "assumptions_and_dependencies": {
+          "explicit_premises": [
+            "Paul visited Jerusalem approximately 3 years after his conversion (Gal 1:18).",
+            "Paul spent 15 days with Peter and James.",
+            "The theme of Galatians is the gospel.",
+            "Paul went to Jerusalem to get the gospel right."
+          ],
+          "custom_axioms": [
+            "axiom galatians_1_18 : Paul.visited Jerusalem (t_cross + 6)",
+            "axiom galatians_1_19 : Paul.spentDaysWith Peter 15 ∧ Paul.spentDaysWith James 15",
+            "axiom galatians_2_2 : Paul.wentToJerusalemToVerifyGospel",
+            "axiom galatians_2_9 : ConfirmedBy {Peter, James, John} Paul.gospel"
+          ],
+          "theological_starting_premises": "The historical reliability of Galatians 1–2 as a source for Paul's visit is assumed.",
+          "non_vacuity_requirement": "There must exist at least one gospel proposition and one verification event."
+        },
+        "verification_controls": [
+          {
+            "check": "module compilation",
+            "command_or_evidence": "lake build Habermas.Chapter003.PaulVerification",
+            "status": "NOT_RUN",
+            "interpretation": "No build attempted."
+          },
+          {
+            "check": "declaration inspection",
+            "command_or_evidence": "#check Habermas.Chapter003.paul_verified_gospel_with_peter_james",
+            "status": "NOT_RUN",
+            "interpretation": "No Lean environment available."
+          },
+          {
+            "check": "axiom dependency",
+            "command_or_evidence": "#print axioms paul_verified_gospel_with_peter_james",
+            "status": "NOT_RUN",
+            "interpretation": "Custom axioms declared; audit not performed."
+          },
+          {
+            "check": "non-vacuity",
+            "command_or_evidence": "Construct a concrete Gospel and verification event.",
+            "status": "NOT_RUN",
+            "interpretation": "Non-vacuity witness not constructed."
+          }
+        ],
+        "result_and_boundary": {
+          "verification_status": "CANDIDATE",
+          "what_is_established": "A formal schema for Paul's verification of his gospel with Peter and James.",
+          "what_remains_open": "The historical truth of the Galatians account is not established by Lean.",
+          "encoding_fidelity_review": "The encoding captures the verification relation but abstracts away from the textual and historical details of the visit.",
+          "interpretive_connections": "Connects to A03 (early creeds), A04 (Paul's conversion), A19 (Pharisaic method), and A20 (eight lines of evidence)."
+        },
+        "reproduction_receipt": {},
+        "corpus_links": {}
+      },
+      {
+        "identity": {
+          "claim_id": "A04",
+          "candidate_uuid": "lean4-A04-0003"
+        },
+        "source_selection": {
+          "exact_source_expression": "Paul became a Christian just two or three years after Jesus died.",
+          "selection_disposition": "FORMALIZE",
+          "reason": "This is a dated historical claim with a clear temporal interval. It can be modeled as a conversion event with a date relative to the crucifixion."
+        },
+        "formal_object": {
+          "object_type": "DEFINITION",
+          "exact_proposed_statement": "Define `PaulConversion : ℝ` with axiom `paul_conversion_date : PaulConversion - t_cross ∈ {2, 3}`. Then state `paul_converted_early : PaulConversion - t_cross ≤ 3`.",
+          "fully_qualified_declaration": "Habermas.Chapter003.PaulConversion",
+          "project_root": "HabermasResurrection",
+          "module": "Habermas.Chapter003.PaulConversion"
+        },
+        "symbol_table": [
+          {
+            "term": "Paul's conversion",
+            "formal_definition": "a real number `PaulConversion` representing the date",
+            "reader_meaning": "the event of Paul becoming a Christian",
+            "source_correspondence": "S294, S304, S380–S384"
+          },
+          {
+            "term": "t_cross",
+            "formal_definition": "a real number representing the date of the crucifixion",
+            "reader_meaning": "the death of Jesus",
+            "source_correspondence": "S170, S227"
+          }
+        ],
+        "assumptions_and_dependencies": {
+          "explicit_premises": [
+            "Paul was converted 2–3 years after the crucifixion.",
+            "The crucifixion has a definite date."
+          ],
+          "custom_axioms": [
+            "axiom paul_conversion_date : PaulConversion - t_cross ∈ {2, 3}"
+          ],
+          "theological_starting_premises": "The historicity of Paul's conversion as described in Acts and Galatians is assumed.",
+          "non_vacuity_requirement": "The set {2, 3} is non-empty; the axiom is satisfiable."
+        },
+        "verification_controls": [
+          {
+            "check": "module compilation",
+            "command_or_evidence": "lake build Habermas.Chapter003.PaulConversion",
+            "status": "NOT_RUN",
+            "interpretation": "No build attempted."
+          },
+          {
+            "check": "non-vacuity",
+            "command_or_evidence": "Instantiate PaulConversion = t_cross + 2.",
+            "status": "NOT_RUN",
+            "interpretation": "Non-vacuity witness not constructed."
+          }
+        ],
+        "result_and_boundary": {
+          "verification_status": "CANDIDATE",
+          "what_is_established": "A formal schema for the early date of Paul's conversion.",
+          "what_remains_open": "The historical truth of the date is not established by Lean.",
+          "encoding_fidelity_review": "The encoding captures the temporal interval but abstracts away from the debate between 2 and 3 years.",
+          "interpretive_connections": "Connects to A03 (early creeds), A05 (Paul's verification), and A20 (eight lines of evidence)."
+        },
+        "reproduction_receipt": {},
+        "corpus_links": {}
+      },
+      {
+        "identity": {
+          "claim_id": "A02",
+          "candidate_uuid": "lean4-A02-0004"
+        },
+        "source_selection": {
+          "exact_source_expression": "The first Christians' earliest agreed message was the death and resurrection of Jesus, preached right away.",
+          "selection_disposition": "FORMALIZE",
+          "reason": "This is a claim about the content and timing of the earliest Christian preaching. It can be modeled as a predicate over a set of early Christian messages."
+        },
+        "formal_object": {
+          "object_type": "DEFINITION",
+          "exact_proposed_statement": "Define `EarliestMessage : Type` with fields `content : Set Proposition`, `date : ℝ`, and predicate `IsHomologia (m : EarliestMessage) : Prop := DeathOfJesus ∈ m.content ∧ ResurrectionOfJesus ∈ m.content ∧ m.date - t_cross ≤ 1`. Then state `homologia_exists : ∃ m, IsHomologia m`.",
+          "fully_qualified_declaration": "Habermas.Chapter003.Homologia",
+          "project_root": "HabermasResurrection",
+          "module": "Habermas.Chapter003.Homologia"
+        },
+        "symbol_table": [
+          {
+            "term": "homologia",
+            "formal_definition": "the earliest agreed-upon data",
+            "reader_meaning": "the earliest agreed-upon gospel message",
+            "source_correspondence": "S228–S238"
+          },
+          {
+            "term": "death of Jesus",
+            "formal_definition": "a distinguished proposition `DeathOfJesus`",
+            "reader_meaning": "the crucifixion",
+            "source_correspondence": "S064, S239"
+          },
+          {
+            "term": "resurrection of Jesus",
+            "formal_definition": "a distinguished proposition `ResurrectionOfJesus`",
+            "reader_meaning": "the resurrection",
+            "source_correspondence": "S064, S239"
+          }
+        ],
+        "assumptions_and_dependencies": {
+          "explicit_premises": [
+            "The earliest Christian message centered on the death and resurrection of Jesus.",
+            "This message was preached immediately after the crucifixion."
+          ],
+          "custom_axioms": [
+            "axiom homologia_content : ∀ m, IsHomologia m → DeathOfJesus ∈ m.content ∧ ResurrectionOfJesus ∈ m.content",
+            "axiom homologia_immediate : ∀ m, IsHomologia m → m.date - t_cross ≤ 1"
+          ],
+          "theological_starting_premises": "The historical reliability of Acts 1–2 and 1 Corinthians 15 as sources for early preaching is assumed.",
+          "non_vacuity_requirement": "There must exist at least one earliest message."
+        },
+        "verification_controls": [
+          {
+            "check": "module compilation",
+            "command_or_evidence": "lake build Habermas.Chapter003.Homologia",
+            "status": "NOT_RUN",
+            "interpretation": "No build attempted."
+          },
+          {
+            "check": "non-vacuity",
+            "command_or_evidence": "Construct a concrete EarliestMessage with content = {DeathOfJesus, ResurrectionOfJesus} and date = t_cross + 0.5.",
+            "status": "NOT_RUN",
+            "interpretation": "Non-vacuity witness not constructed."
+          }
+        ],
+        "result_and_boundary": {
+          "verification_status": "CANDIDATE",
+          "what_is_established": "A formal schema for the content and timing of the earliest Christian message.",
+          "what_remains_open": "The historical truth of the claim is not established by Lean.",
+          "encoding_fidelity_review": "The encoding captures the content and timing but abstracts away from the distinction between 'preached' and 'agreed-upon'.",
+          "interpretive_connections": "Connects to A03 (early creeds), A09 (80% creedal material), and A20 (eight lines of evidence)."
+        },
+        "reproduction_receipt": {},
+        "corpus_links": {}
+      },
+      {
+        "identity": {
+          "claim_id": "A06",
+          "candidate_uuid": "lean4-A06-0005"
+        },
+        "source_selection": {
+          "exact_source_expression": "The data is too early for the story to be a garbled myth.",
+          "selection_disposition": "FORMALIZE",
+          "reason": "This is a claim about the temporal threshold for myth formation. It can be modeled as a predicate over transmission chains, with a threshold parameter."
+        },
+        "formal_object": {
+          "object_type": "THEOREM",
+          "exact_proposed_statement": "Theorem `too_early_for_myth` : ∀ (chain : TransmissionChain), chain.length ≤ 6 → ¬ IsMyth chain.",
+          "fully_qualified_declaration": "Habermas.Chapter003.too_early_for_myth",
+          "project_root": "HabermasResurrection",
+          "module": "Habermas.Chapter003.MythThreshold"
+        },
+        "symbol_table": [
+          {
+            "term": "transmission chain",
+            "formal_definition": "a sequence of transmissions from eyewitnesses to later sources",
+            "reader_meaning": "the chain of transmission of the gospel message",
+            "source_correspondence": "S324–S358"
+          },
+          {
+            "term": "myth",
+            "formal_definition": "a predicate `IsMyth : TransmissionChain → Prop`",
+            "reader_meaning": "a garbled or legendary account",
+            "source_correspondence": "S108, S328–S333"
+          },
+          {
+            "term": "too early",
+            "formal_definition": "chain.length ≤ 6",
+            "reader_meaning": "within six years of the crucifixion",
+            "source_correspondence": "S214, S379, S496"
+          }
+        ],
+        "assumptions_and_dependencies": {
+          "explicit_premises": [
+            "Myth formation requires a minimum transmission time.",
+            "The gospel data is within six years of the crucifixion."
+          ],
+          "custom_axioms": [
+            "axiom myth_threshold : ∀ chain, chain.length ≤ 6 → ¬ IsMyth chain"
+          ],
+          "theological_starting_premises": "The historical reliability of the early data is assumed.",
+          "non_vacuity_requirement": "There must exist at least one transmission chain of length ≤ 6."
+        },
+        "verification_controls": [
+          {
+            "check": "module compilation",
+            "command_or_evidence": "lake build Habermas.Chapter003.MythThreshold",
+            "status": "NOT_RUN",
+            "interpretation": "No build attempted."
+          },
+          {
+            "check": "negative control",
+            "command_or_evidence": "Construct a chain of length 100 and show IsMyth is not ruled out.",
+            "status": "NOT_RUN",
+            "interpretation": "Negative control not attempted."
+          }
+        ],
+        "result_and_boundary": {
+          "verification_status": "CANDIDATE",
+          "what_is_established": "A formal schema for the claim that early data rules out myth.",
+          "what_remains_open": "The threshold for myth formation is not established by Lean; it is an empirical assumption.",
+          "encoding_fidelity_review": "The encoding captures the temporal threshold but abstracts away from the qualitative nature of myth formation.",
+          "interpretive_connections": "Connects to A15 (telephone-tag objection), A03 (early creeds), and A05 (Paul's verification)."
+        },
+        "reproduction_receipt": {},
+        "corpus_links": {}
+      }
+    ],
+    "existing_matches": [],
+    "notes": "The Lean corpus was not searched in this run. All verification controls are NOT_RUN and all verification statuses are CANDIDATE or NOT_ATTEMPTED. The formal candidates encode the logical structure of the historical claims but do not establish their historical truth. The claims are drawn from an auto-captioned YouTube transcript; caption errors and missing speaker labels are not the speakers' faults. The strongest candidate is A03 (early creeds), followed by A05 (Paul's verification), A04 (Paul's conversion), A02 (homologia), and A06 (too early for myth)."
+  },
+  "stories": {
+    "station": "stories",
+    "paper_uuid": "Gary Habermas - Chapter 003 - Remarkably Early Historical Information for the Resurrection of Jesus - Gary Habermas",
+    "run_uuid": "deep-4e9a442e3439",
+    "stories": [
+      {
+        "story_id": "st-001",
+        "title_or_label": "Marriage Vows as the Meaning of 'Believe'",
+        "story_type": "illustration",
+        "source_span": "P03 S044-S058",
+        "characters_or_agents": [
+          "Gary Habermas",
+          "Habermas's second wife",
+          "the pastor who married them"
+        ],
+        "setting_or_context": "Habermas's own wedding ceremony; he explains that his first wife died of stomach cancer in 1995 and he later remarried a family friend.",
+        "plot_or_sequence": "At the wedding, the pastor tells Gary he is about to give away everything he owns. During the vows, his wife stops and emphatically says 'Yes.' Habermas uses this to explain that New Testament 'believe' (pisteuo) means trust, surrender, and self-giving, like saying 'I do' in marriage.",
+        "intended_function": "explain",
+        "claims_illustrated": [
+          "A17"
+        ],
+        "emotional_or_rhetorical_load": "Warm, personal, humorous (audience laughter); leverages the gravity of marriage commitment to elevate the meaning of faith.",
+        "boundaries": {
+          "what_it_shows": "That 'believe' in the NT can carry the sense of total trust and surrender, analogous to marital vows.",
+          "what_it_does_not_show": "That pisteuo lexically or contextually must mean this in every NT occurrence; nor that salvation is by works.",
+          "what_would_falsify_the_narrative": "Lexical evidence that NT 'believe' never carries the sense of trust/surrender, or that Habermas's anecdote misrepresents the wedding event."
+        },
+        "evidence_for_historical_content": [],
+        "is_separable_from_argument": true,
+        "notes": "Personal anecdote used to defuse the 'Christianity is too easy' objection; not load-bearing for the resurrection argument."
+      },
+      {
+        "story_id": "st-002",
+        "title_or_label": "Audience Poll: Remembering Events 65+ Years Ago",
+        "story_type": "testimony",
+        "source_span": "P03 S110-S116",
+        "characters_or_agents": [
+          "Habermas",
+          "audience members who raise hands"
+        ],
+        "setting_or_context": "Live lecture; Habermas asks how many in the audience clearly recall an eyewitness event from 65 or more years ago.",
+        "plot_or_sequence": "Habermas asks for a show of hands; many hands go up. He says he would not want to call them liars, yet critics dismiss John's Gospel (dated +65) on the grounds that no one remembers that far back.",
+        "intended_function": "persuade",
+        "claims_illustrated": [
+          "A13",
+          "A06"
+        ],
+        "emotional_or_rhetorical_load": "Interactive, mildly confrontational; uses audience participation to create a lived counterexample.",
+        "boundaries": {
+          "what_it_shows": "That some people can and do recall events from 65+ years ago.",
+          "what_it_does_not_show": "That such memories are reliable in detail, that the Gospel traditions were transmitted with comparable fidelity, or that the resurrection appearances were remembered accurately.",
+          "what_would_falsify_the_narrative": "Evidence that the raised hands were mistaken, or that long-term eyewitness memory is systematically unreliable for the relevant kind of event."
+        },
+        "evidence_for_historical_content": [],
+        "is_separable_from_argument": true,
+        "notes": "Rhetorical counterexample to the 'too late to remember' objection; does not by itself establish the reliability of the Gospel traditions."
+      },
+      {
+        "story_id": "st-003",
+        "title_or_label": "Alexander the Great's Late Sources",
+        "story_type": "historical_anecdote",
+        "source_span": "P03 S122-S148",
+        "characters_or_agents": [
+          "Alexander the Great",
+          "Julius Caesar",
+          "Arrian",
+          "Plutarch"
+        ],
+        "setting_or_context": "Comparison of ancient historiographical source gaps.",
+        "plot_or_sequence": "The earliest source for Alexander the Great comes almost 300 years after his death; the two best sources, Arrian and Plutarch, come 425 and 450 years later. Yet historians consider the Alexander sources good. By contrast, critics dismiss John at +60 or Mark at +40.",
+        "intended_function": "persuade",
+        "claims_illustrated": [
+          "A11",
+          "A06"
+        ],
+        "emotional_or_rhetorical_load": "Argument by comparative absurdity; highlights alleged critical inconsistency.",
+        "boundaries": {
+          "what_it_shows": "That historians sometimes accept late sources for other ancient figures.",
+          "what_it_does_not_show": "That the Gospels are therefore reliable, or that the standards for Alexander and for a resurrection claim are equivalent.",
+          "what_would_falsify_the_narrative": "Evidence that the Alexander source gap is much smaller than stated, or that historians do not in fact treat those sources as reliable."
+        },
+        "evidence_for_historical_content": [
+          "A11"
+        ],
+        "is_separable_from_argument": true,
+        "notes": "Comparative illustration; the underlying historical claim (A11) is an evidence atom, but the rhetorical force is analogical."
+      },
+      {
+        "story_id": "st-004",
+        "title_or_label": "Buddhist Scriptures 600-800 Years After Buddha",
+        "story_type": "historical_anecdote",
+        "source_span": "P03 S149-S162",
+        "characters_or_agents": [
+          "Buddha",
+          "the PhD Buddhist author of The Buddhist Scriptures"
+        ],
+        "setting_or_context": "Habermas cites a book on his shelf by a PhD Buddhist scholar.",
+        "plot_or_sequence": "The Buddhist author concedes that Christians have the words of their Lord, of the disciples, and of the disciples' disciples, while Buddhists do not; the best Buddhist sources date 600-800 years after Buddha's death.",
+        "intended_function": "persuade",
+        "claims_illustrated": [
+          "A12",
+          "A06"
+        ],
+        "emotional_or_rhetorical_load": "Appeal to a non-Christian authority conceding Christian advantage.",
+        "boundaries": {
+          "what_it_shows": "That some Buddhist scriptures are dated much later than the NT documents.",
+          "what_it_does_not_show": "That the NT documents are therefore historically reliable or that the resurrection occurred.",
+          "what_would_falsify_the_narrative": "Evidence that the cited Buddhist sources are earlier than claimed, or that the author's concession is misrepresented."
+        },
+        "evidence_for_historical_content": [
+          "A12"
+        ],
+        "is_separable_from_argument": true,
+        "notes": "Comparative illustration; relies on a quoted authority rather than independent argument."
+      },
+      {
+        "story_id": "st-005",
+        "title_or_label": "Sunflower Seed and Shell: Homologia and Creeds",
+        "story_type": "illustration",
+        "source_span": "P03 S272-S286",
+        "characters_or_agents": [
+          "Habermas",
+          "Habermas's son"
+        ],
+        "setting_or_context": "Explanation of the relationship between the earliest gospel message (homologia) and the early creeds.",
+        "plot_or_sequence": "Picture a sunflower seed: the kernel is the homologia (the earliest agreed-upon message of Jesus' death and resurrection); the shell is the creed that encapsulates it for memorization and transmission. Some people eat the shell too, but most go for the kernel.",
+        "intended_function": "explain",
+        "claims_illustrated": [
+          "A02",
+          "A03"
+        ],
+        "emotional_or_rhetorical_load": "Concrete, homely imagery; makes an abstract historiographical distinction memorable.",
+        "boundaries": {
+          "what_it_shows": "A conceptual model for how early Christian preaching was packaged into memorizable creedal statements.",
+          "what_it_does_not_show": "That the creeds accurately preserve the homologia, or that the homologia is historically true.",
+          "what_would_falsify_the_narrative": "Evidence that the creeds were not early, not memorizable, or not derived from the earliest preaching."
+        },
+        "evidence_for_historical_content": [],
+        "is_separable_from_argument": true,
+        "notes": "Pedagogical metaphor; the underlying claims are A02 and A03."
+      },
+      {
+        "story_id": "st-006",
+        "title_or_label": "Telephone Tag / Misconstrued Message at Dinner",
+        "story_type": "illustration",
+        "source_span": "P03 S324-S354",
+        "characters_or_agents": [
+          "Habermas",
+          "Bob (hypothetical friend)"
+        ],
+        "setting_or_context": "Habermas illustrates how quickly a message can be garbled.",
+        "plot_or_sequence": "Habermas imagines having dinner with someone named Bob, misunderstanding that Bob's father died, and then telling a third party. Bob is not present to correct it. In five minutes, the message is misconstrued. Habermas uses this to show that 'telephone tag' can happen quickly, but then argues that Paul's verification with Peter and James rules out telephone tag for the resurrection message.",
+        "intended_function": "persuade",
+        "claims_illustrated": [
+          "A15",
+          "A05",
+          "A06"
+        ],
+        "emotional_or_rhetorical_load": "Self-deprecating humor ('I'm practically deaf'); sets up the need for the eyewitness verification argument.",
+        "boundaries": {
+          "what_it_shows": "That oral transmission can be garbled quickly under some conditions.",
+          "what_it_does_not_show": "That the early Christian transmission was in fact garbled, or that Paul's verification fully eliminates the possibility of distortion.",
+          "what_would_falsify_the_narrative": "Evidence that Paul's meeting with Peter and James did not function as a verification of the resurrection message, or that early Christian transmission was uncontrolled."
+        },
+        "evidence_for_historical_content": [],
+        "is_separable_from_argument": true,
+        "notes": "Hypothetical illustration used to frame the 'telephone tag' objection before answering it with Galatians 1-2."
+      },
+      {
+        "story_id": "st-007",
+        "title_or_label": "Paul Questions Peter and James: 'Tell Me What You Saw'",
+        "story_type": "narrative",
+        "source_span": "P03 S370-S499",
+        "characters_or_agents": [
+          "Paul",
+          "Peter",
+          "James the brother of Jesus",
+          "John",
+          "Barnabas",
+          "Stephen"
+        ],
+        "setting_or_context": "Jerusalem, approximately 3-6 years after the crucifixion (Galatians 1:18), and again 14 years later (Galatians 2:2).",
+        "plot_or_sequence": "Paul, formerly a persecutor who stood at Stephen's killing, is converted 2-3 years after the cross. Three years later he goes to Jerusalem and spends 15 days with Peter and James. Habermas imagines Paul saying: 'Tell me what you saw on Easter Sunday morning, and I'll tell you what I saw on the road to Damascus.' Paul uses the Greek word historesai (to check out, investigate, question). Fourteen years later Paul returns and presents his gospel to the 'pillars'—Peter, James, and John—to see if he had run in vain. They added nothing to him and gave him the right hand of fellowship.",
+        "intended_function": "explain",
+        "claims_illustrated": [
+          "A04",
+          "A05",
+          "A19",
+          "A06"
+        ],
+        "emotional_or_rhetorical_load": "Dramatic reconstruction; positions Paul as a careful researcher and the Jerusalem leaders as eyewitness verifiers.",
+        "boundaries": {
+          "what_it_shows": "That Paul reports visiting Peter and James and later checking his gospel with the Jerusalem leaders (Gal 1-2).",
+          "what_it_does_not_show": "That the content of their conversation was specifically about resurrection appearances, or that their agreement guarantees the resurrection occurred.",
+          "what_would_falsify_the_narrative": "Evidence that Galatians 1-2 does not describe a verification of the gospel, or that the visits did not involve Peter and James."
+        },
+        "evidence_for_historical_content": [
+          "A04",
+          "A05"
+        ],
+        "is_separable_from_argument": false,
+        "notes": "Structurally load-bearing: this narrative is the core of Habermas's fourth argument against 'telephone tag.' The imagined dialogue is explicitly a reconstruction, not a quotation."
+      },
+      {
+        "story_id": "st-008",
+        "title_or_label": "God Uses Wounded Lives: Peter, James, and Paul",
+        "story_type": "sermon_arc",
+        "source_span": "P03 S500-S527",
+        "characters_or_agents": [
+          "Peter",
+          "James",
+          "Paul",
+          "Jesus",
+          "Habermas"
+        ],
+        "setting_or_context": "Application point within the lecture, imagining the conversation between Paul, Peter, and James.",
+        "plot_or_sequence": "Habermas imagines Paul saying to Peter and James: all three of us have been losers. Peter denied the Savior three times; James grew up with Jesus and likely resented him; Paul killed people. Yet all three were commissioned. The practical conclusion: God uses wounded lives and huge ministries.",
+        "intended_function": "motivate",
+        "claims_illustrated": [
+          "A21"
+        ],
+        "emotional_or_rhetorical_load": "Pastoral, encouraging; uses the failures of the three leaders to offer hope.",
+        "boundaries": {
+          "what_it_shows": "That the NT depicts Peter, James, and Paul as having significant failures before being used by God.",
+          "what_it_does_not_show": "That this pattern is universal, or that it provides evidence for the resurrection.",
+          "what_would_falsify_the_narrative": "Evidence that the NT does not depict these figures as having failed, or that their commissioning did not follow failure."
+        },
+        "evidence_for_historical_content": [],
+        "is_separable_from_argument": true,
+        "notes": "Application/exhortation; separable from the historical argument."
+      },
+      {
+        "story_id": "st-009",
+        "title_or_label": "Emotional Doubters and the 'What If' Spiral",
+        "story_type": "illustration",
+        "source_span": "P03 S548-S602",
+        "characters_or_agents": [
+          "Habermas",
+          "clinical psychologist collaborator",
+          "emotional doubters",
+          "Habermas's wife",
+          "C. S. Lewis"
+        ],
+        "setting_or_context": "Habermas's research on doubt, including a psychological battery of tests administered with a clinical psychologist.",
+        "plot_or_sequence": "Habermas says most doubts are emotional, not factual. Emotional doubters ask 'What if?' questions with no evidence and are not helped by more data. He cites C. S. Lewis's line about telling your emotions where to get off. His wife jokes that women doubt more but at least know they're emotional, while men turn over the wrong rocks thinking it's a fact.",
+        "intended_function": "explain",
+        "claims_illustrated": [
+          "A08",
+          "A18"
+        ],
+        "emotional_or_rhetorical_load": "Humorous, pastoral; uses gender stereotype humor to make a point about the nature of doubt.",
+        "boundaries": {
+          "what_it_shows": "That Habermas and a psychologist found many doubts to be emotional rather than factual.",
+          "what_it_does_not_show": "That all doubt is emotional, or that factual evidence is irrelevant to all doubters.",
+          "what_would_falsify_the_narrative": "Evidence that most doubt is in fact driven by factual concerns, or that the psychological battery did not support the conclusion."
+        },
+        "evidence_for_historical_content": [],
+        "is_separable_from_argument": true,
+        "notes": "Illustrates the distinction between factual and emotional doubt; supports the claim that data alone will not resolve most doubt."
+      },
+      {
+        "story_id": "st-010",
+        "title_or_label": "Boiling a Frog Slowly: The Deceitfulness of Sin",
+        "story_type": "illustration",
+        "source_span": "P03 S629-S633",
+        "characters_or_agents": [
+          "a frog",
+          "Habermas"
+        ],
+        "setting_or_context": "Closing exhortation on steadfastness.",
+        "plot_or_sequence": "Habermas cites the old saying that a frog placed in water will not jump out as the water heats slowly. He uses this to illustrate Hebrews' warning not to be hardened by the deceitfulness of sin.",
+        "intended_function": "motivate",
+        "claims_illustrated": [
+          "A22"
+        ],
+        "emotional_or_rhetorical_load": "Cautionary; uses a familiar folk image to warn against gradual spiritual drift.",
+        "boundaries": {
+          "what_it_shows": "A memorable image of gradual hardening.",
+          "what_it_does_not_show": "That the frog anecdote is biologically accurate, or that spiritual hardening works exactly like the metaphor.",
+          "what_would_falsify_the_narrative": "Evidence that frogs do jump out of slowly heated water (the anecdote is scientifically dubious)."
+        },
+        "evidence_for_historical_content": [],
+        "is_separable_from_argument": true,
+        "notes": "Folk illustration; not load-bearing for any historical claim."
+      },
+      {
+        "story_id": "st-011",
+        "title_or_label": "Paul Trash-Talking Death and the Devil",
+        "story_type": "sermon_arc",
+        "source_span": "P03 S667-S724",
+        "characters_or_agents": [
+          "Paul",
+          "Death",
+          "the devil",
+          "Jesus",
+          "Habermas"
+        ],
+        "setting_or_context": "Closing exposition of 1 Corinthians 15:55-58.",
+        "plot_or_sequence": "Paul quotes the Old Testament: 'Death, where is your sting? Grave, where is your victory?' Habermas says Paul is not being a poet but is trash-talking death and the devil. Death has been defeated; the empty tomb means the devil has lost his prized possession. Believers can be hurt but cannot be kept. Therefore be steadfast, work, and know that eternal life starts now.",
+        "intended_function": "motivate",
+        "claims_illustrated": [
+          "A22",
+          "A10"
+        ],
+        "emotional_or_rhetorical_load": "Triumphalistic, rousing; the climax of the lecture.",
+        "boundaries": {
+          "what_it_shows": "That 1 Corinthians 15 ends with a triumphant exhortation based on the resurrection.",
+          "what_it_does_not_show": "That the resurrection occurred, or that the devil exists as a personal being.",
+          "what_would_falsify_the_narrative": "Evidence that 1 Corinthians 15:55-58 is not about victory over death, or that Paul did not intend it as a taunt."
+        },
+        "evidence_for_historical_content": [],
+        "is_separable_from_argument": true,
+        "notes": "Exhortational climax; depends on the resurrection claim but does not establish it."
+      }
+    ],
+    "narrative_arc": {
+      "opening_device": "Habermas opens with the bold claim that the resurrection is Christianity's load-bearing claim: 'If Jesus was raised from the dead, Christianity is true. You don't have to solve every problem in the Bible.'",
+      "central_tension": "Critics dismiss the resurrection as late legend ('telephone tag'), but Habermas argues that the earliest data—homologia, creeds, Paul's conversion, and Paul's verification with Peter and James—are too early for myth.",
+      "resolution_or_payoff": "By approximately six years after the cross, the earliest preaching, the creeds, Paul's conversion, and Paul's verification with the eyewitnesses are all in place, ruling out telephone tag and providing early eyewitness evidence.",
+      "return_to_opening": true
+    },
+    "notes": "The lecture is structured as a cumulative historical argument with embedded illustrations and a closing sermon. The most structurally load-bearing story is st-007 (Paul's verification with Peter and James), which is not separable from the argument. The other stories are illustrative, comparative, or exhortational and are separable from the historical case. Historical claims within stories are linked to evidence atoms where the schema provides them; the imagined dialogue in st-007 is explicitly a reconstruction, not a quotation."
+  },
+  "master_equation": {
+    "core_relation": {
+      "sentence": "The resurrection of Jesus is established as true if and only if the earliest Christian testimony (homologia, creeds, Paul's conversion, and Paul's verification with Peter and James) is both early enough and rooted in eyewitnesses, which together rule out legend or 'telephone tag'.",
+      "quote": "If Jesus was raised from the dead, Christianity is true. [S006]"
+    },
+    "core_relation_run2": {
+      "sentence": "The truth of Christianity stands or falls on the historical fact of the resurrection, which is established by early, eyewitness-grounded testimony (homologia, creeds, Paul's conversion, and his Jerusalem verification) that collectively rules out legend or telephone-tag distortion.",
+      "quote": "If Jesus was raised from the dead, Christianity is true. [S006]"
+    },
+    "product_test": {
+      "run1": "multiplicative",
+      "run2": "multiplicative",
+      "status": "agreed",
+      "quote": "You get the resurrection of Jesus, as my good buddy Mike Licona says, you get the resurrection, it's game, set, and match. Christianity is true. [S011]",
+      "reason": "The argument is structured so that if any one of the four early-evidence pillars (immediate preaching, early creeds, Paul's conversion, Paul's verification with eyewitnesses) is removed or shown to be late/misconstrued, the conclusion of a reliably transmitted resurrection witness collapses entirely, not merely weakens. Habermas explicitly treats the chain as a package: 'How do you know it's not phone tag? ... It rules phone tag out because he got it from the eyewitnesses.' [S412-S413]"
+    },
+    "slots": [
+      {
+        "slot": "G",
+        "fit_1": "analogous",
+        "fit_2": "analogous",
+        "status": "agreed",
+        "plays_role": "External negentropy influx: the revelatory act of God raising Jesus, which is the outside source that initiates and sustains the entire chain of testimony.",
+        "quote": "If Jesus was raised from the dead, Christianity is true. [S006]"
+      },
+      {
+        "slot": "M",
+        "fit_1": "analogous",
+        "fit_2": "direct",
+        "status": "contested",
+        "plays_role": "Alignment: the apostolic church and Paul are aligned with the gospel kernel; the Jerusalem pillars and Paul verify they are on the same page.",
+        "quote": "I went to see them again, and I gave them the gospel presentation that I was preaching to see if I was running or had run in vain. [S456]"
+      },
+      {
+        "slot": "E",
+        "fit_1": "direct",
+        "fit_2": "direct",
+        "status": "agreed",
+        "plays_role": "Signal fidelity: the transmission of the resurrection message through homologia, creeds, and Paul's testimony without distortion; 'telephone tag' is the noise the argument rules out.",
+        "quote": "It rules phone tag out because he got it from the eyewitnesses. [S413]"
+      },
+      {
+        "slot": "S_eff",
+        "fit_1": "analogous",
+        "fit_2": "direct",
+        "status": "contested",
+        "plays_role": "Effective entropy: the tendency of oral tradition to decay into myth or misconstrued data, which the early dating and eyewitness links are meant to counteract.",
+        "quote": "You know how long it takes to make a myth? ... Paul was too early to be myth. Baloney. [S325-S331]"
+      },
+      {
+        "slot": "T",
+        "fit_1": "direct",
+        "fit_2": "direct",
+        "status": "agreed",
+        "plays_role": "Temporal integration: the compressed timeline from the cross to the creeds, Paul's conversion, and the Jerusalem meetings is the central evidence; time is the variable that makes or breaks the case.",
+        "quote": "How about six? ... How about six four arguments all from eyewitnesses. [S214]"
+      },
+      {
+        "slot": "K",
+        "fit_1": "direct",
+        "fit_2": "direct",
+        "status": "agreed",
+        "plays_role": "Compression: the homologia and creeds are deliberately compressed, memorizable kernels that preserve the gospel for an illiterate audience.",
+        "quote": "Picture a sunflower seed. The kernel, the part you eat, is the homologia, but now a shell has been put around it. [S276-S277]"
+      },
+      {
+        "slot": "R",
+        "fit_1": "analogous",
+        "fit_2": "analogous",
+        "status": "agreed",
+        "plays_role": "Phase transition: Paul's conversion on the Damascus road is a discontinuous state change from persecutor to apostle, which the argument treats as a discrete event that validates the creeds.",
+        "quote": "And then something happened. Boom. He meets Jesus and now magically all the creeds are true. [S296-S297]"
+      },
+      {
+        "slot": "Q",
+        "fit_1": "stretched",
+        "fit_2": "stretched",
+        "status": "agreed",
+        "plays_role": "Superposition: the open question of whether the tradition is reliable or 'telephone tag' is held unresolved until the evidence is examined; the argument aims to collapse it to one outcome.",
+        "quote": "How do you know we don't have homologia and creeds and Paul's testimony, but it's telephone tag? [S324]"
+      },
+      {
+        "slot": "F",
+        "fit_1": "analogous",
+        "fit_2": "analogous",
+        "status": "agreed",
+        "plays_role": "Non-local correlation: the early church in Jerusalem, Paul, Peter, James, and John are correlated witnesses whose independent testimonies converge; the 'right people, right place, right time' convergence.",
+        "quote": "The earliest ones came out of Jerusalem, right place, within 1 to 2 years after the cross, right time, possibly or probably came from the apostles, right people, and Paul probably knew all of them. [S292]"
+      },
+      {
+        "slot": "C",
+        "fit_1": "analogous",
+        "fit_2": "direct",
+        "status": "contested",
+        "plays_role": "Integration: Paul functions as the local integrator who gathers the homologia, creeds, and eyewitness testimony into a verified gospel, checking it with the pillars.",
+        "quote": "He goes to Jerusalem plus six, talks to James and Peter and questions them. [S441]"
+      }
+    ],
+    "contested": [
+      "M",
+      "S_eff",
+      "C"
+    ],
+    "analog_strength": 3,
+    "analog_strength_spread": "3-3",
+    "confidence": [
+      "medium",
+      "medium"
+    ],
+    "one_line": "Habermas's argument is best read as a multiplicative evidential chain where early testimony, eyewitness verification, and compressed creeds must all hold together for the resurrection conclusion to stand, though several master-equation slots are only loosely mapped.",
+    "breaks": [
+      "The paper treats the resurrection event itself (G) as a historical premise rather than a negentropy influx that must be sustained; the analogy to a continuous external source is weak.",
+      "The slot Q (superposition) is not a native category; the paper presents the evidence as already resolved, not as an open possibility awaiting actualization.",
+      "The paper adds a strong apologetic/polemical factor (defeating skeptical alternatives) that has no slot in the master equation; this is an extra dimension not captured by the product.",
+      "The emotional-doubt discussion at the end introduces a psychological factor (emotional vs. factual doubt) that is entirely outside the master-equation slots.",
+      "The paper's argument is primarily evidential and historical, not a formal multiplicative law; the 'product' is rhetorical/conditional rather than mathematical.",
+      "Slot Q (superposition) is only weakly present: the paper treats the resurrection as a past fact to be established, not as an unresolved possibility held open until actualization.",
+      "Slot G is treated as a revelatory act rather than a measurable external negentropy source; the analogy is theological rather than physical.",
+      "The paper adds an 'emotional vs. factual doubt' distinction [S561, S571] that has no slot in the master equation.",
+      "The paper's '80% of creeds center on the gospel' [S606] is an extra quantitative factor not represented in the ten slots."
+    ],
+    "extra_factors": [
+      [
+        "The distinction between factual and emotional doubt, and the claim that most doubts are emotional, which functions as a separate explanatory layer.",
+        "The pastoral application (be steadfast, labor not in vain) which is not part of the evidential product but is the paper's stated conclusion."
+      ],
+      [
+        "Emotional vs. factual doubt taxonomy [S561, S571, S586]",
+        "80% of homologia/creeds focused on death and resurrection [S606]",
+        "The 'wounded lives' application point [S524]",
+        "The role of illiteracy in driving creedal compression [S255]"
+      ]
+    ],
+    "equations_present": false
+  },
+  "master_equation_b": null,
+  "coherence": {
+    "station": "coherence_score",
+    "paper_uuid": "Gary Habermas - Chapter 003 - Remarkably Early Historical Information for the Resurrection of Jesus - Gary Habermas",
+    "run_uuid": "deep-4e9a442e3439",
+    "overall": {
+      "score": 7.5,
+      "score_ceiling": 10,
+      "status": "ASSESSED",
+      "summary": "The paper presents a largely coherent cumulative case for the resurrection, with minor definitional ambiguities and a few inferential gaps, but no major contradictions."
+    },
+    "dimensions": [
+      {
+        "name": "internal_consistency",
+        "score": 8,
+        "reasons": [
+          "The central claim that early, eyewitness-based data rules out myth (A06) is consistently supported by the homologia (A02), creeds (A03), Paul's conversion (A04), and verification with Peter and James (A05).",
+          "The objection that Christianity is too easy (A17) is addressed by redefining 'believe' as trust/surrender, which aligns with the overall argument that the resurrection is the load-bearing claim (A01).",
+          "The claim that most doubt is emotional (A08) is consistent with the later discussion of emotional doubt and the distinction between factual and emotional doubt (S561-S571).",
+          "No direct contradictions between atoms were found; the narrative flows logically from early data to verification to application."
+        ],
+        "affected_atom_uuids": [
+          "A01",
+          "A02",
+          "A03",
+          "A04",
+          "A05",
+          "A06",
+          "A08",
+          "A17"
+        ]
+      },
+      {
+        "name": "definitional_stability",
+        "score": 7,
+        "reasons": [
+          "Key terms like 'homologia' (A02) and 'creeds' (A03) are defined and used consistently, though the exact relationship between them is clarified via the sunflower seed metaphor (S276-S283).",
+          "The term 'believe' is redefined from mere intellectual assent to trust/surrender (A17), which is crucial for the argument but may not be universally accepted.",
+          "The concept of 'early' is used flexibly: homologia is immediate, creeds within 1-2 years, Paul's conversion within 2-3 years, and his Jerusalem visit 3 years later (A03, A04, A05). This is generally consistent but could benefit from more precise dating.",
+          "The phrase 'critical scholars' is used throughout but not explicitly defined; however, context suggests it refers to non-Christian specialists who accept certain historical facts (S088-S093)."
+        ],
+        "affected_atom_uuids": [
+          "A02",
+          "A03",
+          "A04",
+          "A05",
+          "A17"
+        ]
+      },
+      {
+        "name": "inferential_connectedness",
+        "score": 7,
+        "reasons": [
+          "The argument that early data rules out myth (A06) is supported by the chain: homologia (A02) -> creeds (A03) -> Paul's conversion (A04) -> verification (A05). Each step is linked to the next.",
+          "The inference from Paul's Pharisaic training (A19) to his careful verification (A05) is plausible but relies on an external source (Josephus) and may not be universally accepted.",
+          "The claim that 80% of early creedal material centers on death and resurrection (A09) is used to support the centrality of the gospel, but the connection to the overall argument is somewhat tangential.",
+          "The leap from historical data to the conclusion that 'Christianity is true' (A01) is a theological inference, not strictly historical, but this is acknowledged as a faith commitment."
+        ],
+        "affected_atom_uuids": [
+          "A01",
+          "A02",
+          "A03",
+          "A04",
+          "A05",
+          "A06",
+          "A09",
+          "A19"
+        ]
+      },
+      {
+        "name": "register_boundary_respect",
+        "score": 8,
+        "reasons": [
+          "The paper distinguishes between historical evidence and theological interpretation, e.g., acknowledging that the resurrection is a matter of faith (A01) while presenting historical data.",
+          "The use of secular examples (Alexander the Great, Buddhist scriptures) to illustrate the earliness of Christian sources respects the boundary between historical method and theological claim (A11, A12).",
+          "The discussion of emotional doubt (A08) moves into psychological territory but is clearly marked as a separate category from factual doubt.",
+          "The closing exhortation (A22) shifts to pastoral application, which is appropriate for the genre but does not confuse the historical argument."
+        ],
+        "affected_atom_uuids": [
+          "A01",
+          "A08",
+          "A11",
+          "A12",
+          "A22"
+        ]
+      }
+    ],
+    "contradictions": [],
+    "tensions": [
+      {
+        "atoms": [
+          "A03",
+          "A04"
+        ],
+        "description": "The dating of the creeds (within 1-2 years) and Paul's conversion (2-3 years) are close but not identical; the timeline could be seen as slightly overlapping or sequential, but no clear contradiction.",
+        "severity": "local"
+      },
+      {
+        "atoms": [
+          "A08",
+          "A18"
+        ],
+        "description": "A08 claims most doubt is emotional, while A18 says worldview commitments drive disbelief. These are complementary but could be seen as competing explanations for why people don't believe.",
+        "severity": "local"
+      }
+    ],
+    "missing_definitions": [
+      {
+        "term": "homologia",
+        "description": "Defined as 'earliest agreed-upon data' (S235), but its exact relationship to creeds and how it was transmitted is not fully specified.",
+        "atom_uuid": "A02"
+      },
+      {
+        "term": "critical scholars",
+        "description": "Used frequently but not explicitly defined; context suggests non-Christian specialists who accept certain historical facts, but the criteria for inclusion are unclear.",
+        "atom_uuid": null
+      },
+      {
+        "term": "early",
+        "description": "Used relatively (e.g., 'within 1-2 years', '2-3 years') but no absolute threshold is given for what counts as early enough to rule out myth.",
+        "atom_uuid": "A06"
+      }
+    ],
+    "notes": "The paper is a spoken lecture, so some repetition and informal language are expected. The coherence is generally strong, with a clear cumulative argument. The main weaknesses are minor definitional ambiguities and a few inferential leaps that rely on theological assumptions. The score reflects a well-structured presentation that largely avoids internal contradiction."
+  },
+  "love_truth": {
+    "truth_engine": {
+      "words": 7152,
+      "hits": {
+        "fruit": 112,
+        "anti_fruit": 0,
+        "grounding": 114,
+        "contradiction": 85,
+        "propaganda": 54,
+        "academic_jargon": 0
+      },
+      "per_100_words": {
+        "fruit": 1.566,
+        "anti_fruit": 0.0,
+        "grounding": 1.594,
+        "contradiction": 1.188,
+        "propaganda": 0.755,
+        "academic_jargon": 0.0
+      },
+      "sentence_share": {
+        "fruit": 0.135,
+        "anti_fruit": 0.0,
+        "grounding": 0.131,
+        "contradiction": 0.11,
+        "propaganda": 0.072,
+        "academic_jargon": 0.0
+      },
+      "subcategories": {
+        "contradiction:": 85,
+        "fruit:Unclassified": 71,
+        "propaganda:absolutism": 46,
+        "grounding:calibration": 33,
+        "grounding:general": 28,
+        "fruit:Epistemic": 28,
+        "grounding:evidence": 21,
+        "grounding:logic": 17,
+        "grounding:attribution": 10,
+        "fruit:Spiritual": 7,
+        "propaganda:false_urgency": 7,
+        "grounding:specifics": 5,
+        "fruit:Relational": 4,
+        "propaganda:false_certainty": 1,
+        "fruit:Phrases": 1
+      },
+      "truth_score_raw": 2.65,
+      "truth_score_0_1": 0.79,
+      "top_words": {
+        "fruit": {
+          "just": 29,
+          "good": 14,
+          "doubt": 9,
+          "steadfast": 9,
+          "love": 7,
+          "evidence": 7,
+          "source": 6,
+          "kind": 4
+        },
+        "anti_fruit": {},
+        "grounding": {
+          "early": 16,
+          "because": 16,
+          "probably": 15,
+          "data": 13,
+          "could": 13,
+          "evidence": 7,
+          "source": 6,
+          "time": 6
+        },
+        "contradiction": {
+          "but": 73,
+          "maybe": 6,
+          "actually": 3,
+          "yet": 2,
+          "though": 1
+        },
+        "propaganda": {
+          "all": 37,
+          "always": 6,
+          "immediately": 5,
+          "right now": 2,
+          "clearly": 1,
+          "none": 1,
+          "never": 1,
+          "every single": 1
+        },
+        "academic_jargon": {}
+      }
+    },
+    "characterizations": [],
+    "profile": {
+      "version": "0.3.0-draft",
+      "status": "ASSESSED",
+      "source": "sentences",
+      "sentences": 727,
+      "active_share": 0.012,
+      "net_per_100": {
+        "love": 0.14,
+        "joy": 0.28,
+        "peace": 0.0,
+        "patience": 0.0,
+        "kindness": -0.14,
+        "goodness": 0.0,
+        "faithfulness": 0.0,
+        "gentleness": 0.0,
+        "self_control": 0.14
+      },
+      "active_sentences": {
+        "love": 1,
+        "joy": 2,
+        "peace": 0,
+        "patience": 0,
+        "kindness": 1,
+        "goodness": 0,
+        "faithfulness": 0,
+        "gentleness": 0,
+        "self_control": 5
+      },
+      "love_axis": 0.502,
+      "truth_axis": 0.733,
+      "truth_parts": {
+        "lexicon": 0.79,
+        "coherence": 0.75,
+        "truth_gate": 0.66
+      },
+      "quadrant": "No Signal (nearest: Grace and Truth)",
+      "levels": [
+        "No Signal"
+      ],
+      "shapes_matched": [],
+      "shapes_ranked": [
+        {
+          "name": "Enthusiast",
+          "gap": 0.14,
+          "match": false,
+          "high": [
+            "joy",
+            "love"
+          ],
+          "low": [
+            "patience",
+            "self_control"
+          ],
+          "low_means": "negative",
+          "blocked": "low fruits are absent, not negative"
+        },
+        {
+          "name": "Zealot",
+          "gap": 0.09,
+          "match": false,
+          "high": [
+            "faithfulness",
+            "joy"
+          ],
+          "low": [
+            "patience",
+            "gentleness",
+            "self_control"
+          ],
+          "low_means": "negative",
+          "blocked": "low fruits are absent, not negative"
+        },
+        {
+          "name": "Pharisee",
+          "gap": 0.07,
+          "match": false,
+          "high": [
+            "self_control",
+            "faithfulness"
+          ],
+          "low": [
+            "love",
+            "kindness",
+            "gentleness"
+          ],
+          "low_means": "negative",
+          "blocked": "low fruits are absent, not negative"
+        },
+        {
+          "name": "Prophet",
+          "gap": 0.05,
+          "match": false,
+          "high": [
+            "faithfulness",
+            "goodness",
+            "self_control"
+          ],
+          "low": [
+            "peace",
+            "gentleness"
+          ],
+          "low_means": "absent"
+        },
+        {
+          "name": "Witness",
+          "gap": 0.03,
+          "match": false,
+          "high": [
+            "faithfulness",
+            "love"
+          ],
+          "low": [],
+          "low_means": ""
+        },
+        {
+          "name": "Peacekeeper (false peace)",
+          "gap": 0.0,
+          "match": false,
+          "high": [
+            "peace",
+            "gentleness"
+          ],
+          "low": [
+            "goodness",
+            "faithfulness"
+          ],
+          "low_means": "absent"
+        },
+        {
+          "name": "Peacemaker",
+          "gap": -0.07,
+          "match": false,
+          "high": [
+            "peace",
+            "gentleness",
+            "patience"
+          ],
+          "low": [],
+          "low_means": ""
+        },
+        {
+          "name": "Shepherd",
+          "gap": -0.14,
+          "match": false,
+          "high": [
+            "patience",
+            "gentleness",
+            "kindness"
+          ],
+          "low": [],
+          "low_means": ""
+        },
+        {
+          "name": "Stoic",
+          "gap": -0.14,
+          "match": false,
+          "high": [
+            "self_control",
+            "patience"
+          ],
+          "low": [
+            "joy",
+            "love"
+          ],
+          "low_means": "absent"
+        },
+        {
+          "name": "Servant",
+          "gap": -0.15,
+          "match": false,
+          "high": [
+            "kindness",
+            "goodness"
+          ],
+          "low": [],
+          "low_means": ""
+        }
+      ],
+      "profile_deviation": {
+        "love": 0.09,
+        "joy": 0.23,
+        "peace": -0.05,
+        "patience": -0.05,
+        "kindness": -0.19,
+        "goodness": -0.05,
+        "faithfulness": -0.05,
+        "gentleness": -0.05,
+        "self_control": 0.09
+      }
+    },
+    "verdict_profile": {
+      "version": "0.3.0-draft",
+      "scores": {
+        "love": 2,
+        "joy": 2,
+        "peace": 2,
+        "patience": 2,
+        "kindness": 2,
+        "goodness": 2,
+        "faithfulness": 3,
+        "gentleness": 2,
+        "self_control": 2
+      },
+      "mean_confidence": 0.372,
+      "status": "ASSESSED",
+      "love_axis": 0.528,
+      "truth_axis": 0.733,
+      "truth_parts": {
+        "lexicon": 0.79,
+        "coherence": 0.75,
+        "truth_gate": 0.66
+      },
+      "quadrant": "No Signal (nearest: Grace and Truth)",
+      "levels": [
+        "No Signal"
+      ],
+      "shapes_matched": [],
+      "shapes_ranked": [
+        {
+          "name": "Pharisee",
+          "gap": 0.5,
+          "match": false,
+          "high": [
+            "self_control",
+            "faithfulness"
+          ],
+          "low": [
+            "love",
+            "kindness",
+            "gentleness"
+          ]
+        },
+        {
+          "name": "Zealot",
+          "gap": 0.5,
+          "match": false,
+          "high": [
+            "faithfulness",
+            "joy"
+          ],
+          "low": [
+            "patience",
+            "gentleness",
+            "self_control"
+          ]
+        },
+        {
+          "name": "Witness",
+          "gap": 0.5,
+          "match": false,
+          "high": [
+            "faithfulness",
+            "love"
+          ],
+          "low": []
+        },
+        {
+          "name": "Prophet",
+          "gap": 0.33,
+          "match": false,
+          "high": [
+            "faithfulness",
+            "goodness",
+            "self_control"
+          ],
+          "low": [
+            "peace",
+            "gentleness"
+          ]
+        },
+        {
+          "name": "Stoic",
+          "gap": 0.0,
+          "match": false,
+          "high": [
+            "self_control",
+            "patience"
+          ],
+          "low": [
+            "joy",
+            "love"
+          ]
+        },
+        {
+          "name": "Enthusiast",
+          "gap": 0.0,
+          "match": false,
+          "high": [
+            "joy",
+            "love"
+          ],
+          "low": [
+            "patience",
+            "self_control"
+          ]
+        },
+        {
+          "name": "Servant",
+          "gap": -0.14,
+          "match": false,
+          "high": [
+            "kindness",
+            "goodness"
+          ],
+          "low": []
+        },
+        {
+          "name": "Shepherd",
+          "gap": -0.17,
+          "match": false,
+          "high": [
+            "patience",
+            "gentleness",
+            "kindness"
+          ],
+          "low": []
+        },
+        {
+          "name": "Peacemaker",
+          "gap": -0.17,
+          "match": false,
+          "high": [
+            "peace",
+            "gentleness",
+            "patience"
+          ],
+          "low": []
+        },
+        {
+          "name": "Peacekeeper (false peace)",
+          "gap": -0.5,
+          "match": false,
+          "high": [
+            "peace",
+            "gentleness"
+          ],
+          "low": [
+            "goodness",
+            "faithfulness"
+          ]
+        }
+      ],
+      "profile_deviation": {
+        "love": -0.11,
+        "joy": -0.11,
+        "peace": -0.11,
+        "patience": -0.11,
+        "kindness": -0.11,
+        "goodness": -0.11,
+        "faithfulness": 0.89,
+        "gentleness": -0.11,
+        "self_control": -0.11
+      }
+    }
+  }
+}

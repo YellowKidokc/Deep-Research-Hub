@@ -1,0 +1,28 @@
+---
+fis_schema: "folder-index.v1"
+folder_id: "FLD-20260907-d17f0632"
+folder: "GitHub\Research-Acquisition\crawl4ai\bible_contradictions_HUD\4_DEFINITION_GAME\sources"
+folder_class: "project"
+confidence: 0.6
+dependency_risk: 0.0
+dominant_family: "text"
+dominant_ratio: 0.99
+file_count: 99
+classified_at: "2026-09-07T16:07:35"
+allowed_actions: ["index", "rename_internal", "subfolder_sort", "archive_exports"]
+suggested_name: "sources"
+---
+
+# FIS Folder Index: sources
+
+**Class**: project  ·  **Confidence**: 60%  ·  **Files**: 99  ·  **Dominant**: text (99%)
+
+## Allowed actions
+- index
+- rename_internal
+- subfolder_sort
+- archive_exports
+
+**Suggested name**: `sources`  (not applied — review before use)
+
+<!-- FIS folder-index.v1: parseable note; safe to regenerate. -->

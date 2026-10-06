@@ -1,0 +1,23 @@
+# Atheist/Skeptic Channels - Original List
+ATHEIST_SKEPTIC_CHANNELS = [
+    "theatheistexperience",
+    "MattDillahuntyOfficial",
+    "CosmicSkeptic",
+    "RationalityRules",
+    "AronRa",
+    "HolyKoolaid",
+    "TheThinkingAtheist",
+    "GeneticallyModifiedSkeptic",
+    "TelltaleAtheist",
+    "JaclynGlenn",
+    "PinecreekDoug",
+    "AnthonyMagnabosco",
+    "destiny",
+    "ModernDayDebate",
+    "Paulogia",
+    "TheAtheistVoice",
+    "DarkMatter2525",
+    "NonStampCollector",
+    "MrAtheist",
+    "ProfessorStick",
+]

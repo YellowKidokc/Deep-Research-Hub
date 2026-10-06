@@ -1,0 +1,113 @@
+{
+  "name": "master_equation_a1",
+  "parsed": {
+    "paper": "What Scholars Believe About Jesus' Resurrection (Pt. 1) - Gary Habermas",
+    "equations_present": false,
+    "core_relation": {
+      "sentence": "A historical fact (like the resurrection) is rationally believable only when it is both highly evidenced in its own right AND affirmed by a broad consensus of qualified scholars who have published in the field — and the evidential criterion is by far the weightier of the two.",
+      "quote": "So, so in terms of that uh the standard of evidential proof, it it sounds like you kind of follow most historians and sort of like Mike Lacona, they they don't give percentages per se, but they they have these categories like it's very probable or proven beyond reasonable doubt. [S270] ... That's by far the more important of the two. Way more. [S326] ... It's only when accompanied by high it being highly evidence that you can rationally believe. [S385]"
+    },
+    "product_test": {
+      "answer": "additive",
+      "quote": "I think number one is so far ahead of number two that I think if number two disappears no biggie. [S403] ... I'll say, \"What happens if we wake up one morning, there's a big uprising, and 10% of scholars admit this admit these data?\" I say, \"Okay, if there's a time when I have to drop my second criterion, how bad am I off?\" No worse off than uh other ancient histo ancient historians [S399-S401]",
+      "reason": "Habermas explicitly states that criterion two (scholarly consensus) can be dropped entirely without loss ('no biggie'), while criterion one (high evidence) carries the argument. This is the definition of an additive relationship: removing one ingredient weakens but does not collapse the conclusion. It is not multiplicative because the consensus factor is treated as a bonus, not a necessary multiplier."
+    },
+    "slots": [
+      {
+        "slot": "G",
+        "plays_role": "The external data-source influx: the body of published scholarly literature (8,000 footnotes, 3,700 pages, 20 evidences for the empty tomb) that must be drawn from outside the arguer to sustain the case. Also the outside 'work' the critics are challenged to produce.",
+        "quote": "Ben took 1,500 pages of manuscript data and I gave it to him. [S035] ... But still, there's a lot of room between 1,500 and 1,000. [S037] ... Ben told me I think he said there's a little less than 8,000 footnotes in that book. [S039]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "M",
+        "plays_role": "Alignment with the evidence rather than with a camp: Habermas repeatedly claims he 'goes where the evidence leads' and cites scholars across the spectrum, and says he is 'slanted toward liberal scholars' to avoid alignment bias.",
+        "quote": "I try to go where the evidence leads and that's my I I hope a lot of us can say that's my credo. [S538] ... I do say I am slanted toward liberal scholars. [S589]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "E",
+        "plays_role": "Whether the historical signal survives transmission through hostile scholarship: the minimal facts are said to be affirmed even by skeptical/critical scholars (Allison, Dunn, Bultmann, Lüdemann, the Jesus Seminar), which is presented as evidence the signal is robust.",
+        "quote": "My skeptical approach doesn't deny any of the minimal facts. [S355] ... He said, \"So therefore, at the very beginning, we decided no postc cross articles.\" [S748] ... the earliest disciples preached that he was raised from the dead. [S490]",
+        "fit": "direct"
+      },
+      {
+        "slot": "S_eff",
+        "plays_role": "The noise that lowers coherence: skeptical objections, bias accusations, ad hominem attacks, and presuppositions (e.g., 'dead men don't rise') that corrupt the scholarly signal.",
+        "quote": "So, a lot of skeptics have kind of picked up on the fact that in your inter your interviews or YouTube or podcasts, you will try your best not to mention names [S020] ... dead men don't rise and so for us his life ends on Good Friday evening. [S550]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "T",
+        "plays_role": "Temporal accumulation of scholarship: the study runs from 1975 to the present, 3,700 pages built over decades, with early creeds datable to within months of the crucifixion, and the empty tomb accumulating 20 evidences over time.",
+        "quote": "I started this study from 1975 on because my dissertation was done in 76. [S531] ... we know that and he says this creed in 1 Corinthians 15 or those like it Romans 10:9 that mention the gospel and the resurrection he says it was probably or may have been or likely have been he says it in different ways out within months. [S251]",
+        "fit": "direct"
+      },
+      {
+        "slot": "K",
+        "plays_role": "Compression of ordered meaning: the 'minimal facts' approach itself — reducing a vast literature to six facts that compress the essential signal while excluding noise; also the 8,000 footnotes as a compressed index of the field.",
+        "quote": "you've always mentioned with the minimal facts, there are two criteria for something to qualify. [S166] ... I can find my six facts over and over and over and over and over. [S439]",
+        "fit": "direct"
+      },
+      {
+        "slot": "R",
+        "plays_role": "Threshold/phase transition: the 51% vs 80% vs 90% debate, and the claim that once evidence crosses a threshold the conclusion changes state from 'not believable' to 'rationally believable' — though Habermas resists giving a number.",
+        "quote": "for me 51% or higher if a fact is 51% evidenced or higher uh that's good enough for me to believe it. [S172] ... I don't have a certain threshold that they have to have to meet. [S206] ... I think number one is so far ahead of number two [S403]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "Q",
+        "plays_role": "Open possibility unresolved until actualized: the 'minimal fact' is deliberately left as 'they thought they saw' rather than 'they saw,' preserving the unresolved state of the claim until evidence decides.",
+        "quote": "They said they saw and that's the minimal fact point, not they saw, but they thought they saw. [S245]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "F",
+        "plays_role": "Non-local correlation: the scholarly consensus is claimed to hold across ideological camps (atheist, agnostic, liberal, evangelical) — scholars who are otherwise independent converge on the same facts, and Habermas cites cross-spectrum agreement as evidence.",
+        "quote": "And that, by the way, is why Bob Price and and James Taber and I I think why we get along so well is cuz we allow each other's data when it even crosses over into our yard. [S372] ... I use this so often. There's a there's 20 books here that I use so often in my writing. [S418]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "C",
+        "plays_role": "The local integrator: Habermas himself as the author who sets the criteria, integrates the sources, and signs the contract — the 'I' who decides what counts and what goes in the book.",
+        "quote": "I'm the author of these four volumes. I'm setting down my own criteria. [S659-S660] ... I have a right to require the languages I want to require. [S675]",
+        "fit": "direct"
+      }
+    ],
+    "breaks": [
+      "The product test fails: Habermas explicitly says criterion two (consensus) can vanish with 'no biggie' [S403], so the relation is additive, not multiplicative — unlike χ where any zero collapses the whole.",
+      "The R slot is resisted by the speaker: Habermas refuses to give a numerical threshold [S206], so the 'phase transition' is claimed but not operationalized.",
+      "G is not truly external negentropy influx in the physics sense — it is a body of human scholarship, which is itself generated by the system under study, not an outside source.",
+      "The paper adds a factor with no χ slot: the author's authority to set criteria ('I'm the author... that's my right to set the parameters' [S661]), which functions as a kind of meta-rule not present in the master equation.",
+      "S_eff is treated as something to be refuted rather than something that structurally lowers coherence — the paper's whole rhetorical move is that noise (objections) can be answered, not that it necessarily degrades the signal."
+    ],
+    "extra_factors": [
+      "Authorial prerogative: the right of the author to define the criteria and scope (languages, scholars) — 'I have a right to require the languages I want to require' [S675].",
+      "Institutional/publishing gatekeeping: the publisher's decision to include volume three, the editor's role (Ben Shaw), the peer-review process — factors that shape what counts as 'the literature' but have no slot in χ."
+    ],
+    "analog_strength": 2,
+    "confidence": "medium",
+    "one_line": "Habermas's minimal-facts method maps onto the master equation as an additive (not multiplicative) relation where evidence (E) and temporal accumulation (T) dominate, consensus (F) is optional, and the author (C) sets the criteria — a stretched but recognizable analogy."
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "master_equation_a1",
+      "attempt": 1,
+      "text": "{\n  \"paper\": \"What Scholars Believe About Jesus' Resurrection (Pt. 1) - Gary Habermas\",\n  \"equations_present\": false,\n  \"core_relation\": {\n    \"sentence\": \"A historical fact (like the resurrection) is rationally believable only when it is both highly evidenced in its own right AND affirmed by a broad consensus of qualified scholars who have published in the field — and the evidential criterion is by far the weightier of the two.\",\n    \"quote\": \"So, so in terms of that uh the standard of evidential proof, it it sounds like you kind of follow most historians and sort of like Mike Lacona, they they don't give percentages per se, but they they have these categories like it's very probable or proven beyond reasonable doubt. [S270] ... That's by far the more important of the two. Way more. [S326] ... It's only when accompanied by high it being highly evidence that you can rationally believe. [S385]\"\n  },\n  \"product_test\": {\n    \"answer\": \"additive\",\n    \"quote\": \"I think number one is so far ahead of number two that I think if number two disappears no biggie. [S403] ... I'll say, \\\"What happens if we wake up one morning, there's a big uprising, and 10% of scholars admit this admit these data?\\\" I say, \\\"Okay, if there's a time when I have to drop my second criterion, how bad am I off?\\\" No worse off than uh other ancient histo ancient historians [S399-S401]\",\n    \"reason\": \"Habermas explicitly states that criterion two (scholarly consensus) can be dropped entirely without loss ('no biggie'), while criterion one (high evidence) carries the argument. This is the definition of an additive relationship: removing one ingredient weakens but does not collapse the conclusion. It is not multiplicative because the consensus factor is treated as a bonus, not a necessary multiplier.\"\n  },\n  \"slots\": [\n    {\n      \"slot\": \"G\",\n      \"plays_role\": \"The external data-source influx: the body of published scholarly literature (8,000 footnotes, 3,700 pages, 20 evidences for the empty tomb) that must be drawn from outside the arguer to sustain the case. Also the outside 'work' the critics are challenged to produce.\",\n      \"quote\": \"Ben took 1,500 pages of manuscript data and I gave it to him. [S035] ... But still, there's a lot of room between 1,500 and 1,000. [S037] ... Ben told me I think he said there's a little less than 8,000 footnotes in that book. [S039]\",\n      \"fit\": \"analogous\"\n    },\n    {\n      \"slot\": \"M\",\n      \"plays_role\": \"Alignment with the evidence rather than with a camp: Habermas repeatedly claims he 'goes where the evidence leads' and cites scholars across the spectrum, and says he is 'slanted toward liberal scholars' to avoid alignment bias.\",\n      \"quote\": \"I try to go where the evidence leads and that's my I I hope a lot of us can say that's my credo. [S538] ... I do say I am slanted toward liberal scholars. [S589]\",\n      \"fit\": \"analogous\"\n    },\n    {\n      \"slot\": \"E\",\n      \"plays_role\": \"Whether the historical signal survives transmission through hostile scholarship: the minimal facts are said to be affirmed even by skeptical/critical scholars (Allison, Dunn, Bultmann, Lüdemann, the Jesus Seminar), which is presented as evidence the signal is robust.\",\n      \"quote\": \"My skeptical approach doesn't deny any of the minimal facts. [S355] ... He said, \\\"So therefore, at the very beginning, we decided no postc cross articles.\\\" [S748] ... the earliest disciples preached that he was raised from the dead. [S490]\",\n      \"fit\": \"direct\"\n    },\n    {\n      \"slot\": \"S_eff\",\n      \"plays_role\": \"The noise that lowers coherence: skeptical objections, bias accusations, ad hominem attacks, and presuppositions (e.g., 'dead men don't rise') that corrupt the scholarly signal.\",\n      \"quote\": \"So, a lot of skeptics have kind of picked up on the fact that in your inter your interviews or YouTube or podcasts, you will try your best not to mention names [S020] ... dead men don't rise and so for us his life ends on Good Friday evening. [S550]\",\n      \"fit\": \"analogous\"\n    },\n    {\n      \"slot\": \"T\",\n      \"plays_role\": \"Temporal accumulation of scholarship: the study runs from 1975 to the present, 3,700 pages built over decades, with early creeds datable to within months of the crucifixion, and the empty tomb accumulating 20 evidences over time.\",\n      \"quote\": \"I started this study from 1975 on because my dissertation was done in 76. [S531] ... we know that and he says this creed in 1 Corinthians 15 or those like it Romans 10:9 that mention the gospel and the resurrection he says it was probably or may have been or likely have been he says it in different ways out within months. [S251]\",\n      \"fit\": \"direct\"\n    },\n    {\n      \"slot\": \"K\",\n      \"plays_role\": \"Compression of ordered meaning: the 'minimal facts' approach itself — reducing a vast literature to six facts that compress the essential signal while excluding noise; also the 8,000 footnotes as a compressed index of the field.\",\n      \"quote\": \"you've always mentioned with the minimal facts, there are two criteria for something to qualify. [S166] ... I can find my six facts over and over and over and over and over. [S439]\",\n      \"fit\": \"direct\"\n    },\n    {\n      \"slot\": \"R\",\n      \"plays_role\": \"Threshold/phase transition: the 51% vs 80% vs 90% debate, and the claim that once evidence crosses a threshold the conclusion changes state from 'not believable' to 'rationally believable' — though Habermas resists giving a number.\",\n      \"quote\": \"for me 51% or higher if a fact is 51% evidenced or higher uh that's good enough for me to believe it. [S172] ... I don't have a certain threshold that they have to have to meet. [S206] ... I think number one is so far ahead of number two [S403]\",\n      \"fit\": \"analogous\"\n    },\n    {\n      \"slot\": \"Q\",\n      \"plays_role\": \"Open possibility unresolved until actualized: the 'minimal fact' is deliberately left as 'they thought they saw' rather than 'they saw,' preserving the unresolved state of the claim until evidence decides.\",\n      \"quote\": \"They said they saw and that's the minimal fact point, not they saw, but they thought they saw. [S245]\",\n      \"fit\": \"analogous\"\n    },\n    {\n      \"slot\": \"F\",\n      \"plays_role\": \"Non-local correlation: the scholarly consensus is claimed to hold across ideological camps (atheist, agnostic, liberal, evangelical) — scholars who are otherwise independent converge on the same facts, and Habermas cites cross-spectrum agreement as evidence.\",\n      \"quote\": \"And that, by the way, is why Bob Price and and James Taber and I I think why we get along so well is cuz we allow each other's data when it even crosses over into our yard. [S372] ... I use this so often. There's a there's 20 books here that I use so often in my writing. [S418]\",\n      \"fit\": \"analogous\"\n    },\n    {\n      \"slot\": \"C\",\n      \"plays_role\": \"The local integrator: Habermas himself as the author who sets the criteria, integrates the sources, and signs the contract — the 'I' who decides what counts and what goes in the book.\",\n      \"quote\": \"I'm the author of these four volumes. I'm setting down my own criteria. [S659-S660] ... I have a right to require the languages I want to require. [S675]\",\n      \"fit\": \"direct\"\n    }\n  ],\n  \"breaks\": [\n    \"The product test fails: Habermas explicitly says criterion two (consensus) can vanish with 'no biggie' [S403], so the relation is additive, not multiplicative — unlike χ where any zero collapses the whole.\",\n    \"The R slot is resisted by the speaker: Habermas refuses to give a numerical threshold [S206], so the 'phase transition' is claimed but not operationalized.\",\n    \"G is not truly external negentropy influx in the physics sense — it is a body of human scholarship, which is itself generated by the system under study, not an outside source.\",\n    \"The paper adds a factor with no χ slot: the author's authority to set criteria ('I'm the author... that's my right to set the parameters' [S661]), which functions as a kind of meta-rule not present in the master equation.\",\n    \"S_eff is treated as something to be refuted rather than something that structurally lowers coherence — the paper's whole rhetorical move is that noise (objections) can be answered, not that it necessarily degrades the signal.\"\n  ],\n  \"extra_factors\": [\n    \"Authorial prerogative: the right of the author to define the criteria and scope (languages, scholars) — 'I have a right to require the languages I want to require' [S675].\",\n    \"Institutional/publishing gatekeeping: the publisher's decision to include volume three, the editor's role (Ben Shaw), the peer-review process — factors that shape what counts as 'the literature' but have no slot in χ.\"\n  ],\n  \"analog_strength\": 2,\n  \"confidence\": \"medium\",\n  \"one_line\": \"Habermas's minimal-facts method maps onto the master equation as an additive (not multiplicative) relation where evidence (E) and temporal accumulation (T) dominate, consensus (F) is optional, and the author (C) sets the criteria — a stretched but recognizable analogy.\"\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 19763,
+      "completion_tokens": 2216,
+      "attempts": 1,
+      "elapsed_seconds": 11.625,
+      "started_at": "2026-09-27T13:58:43.854276+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T13:58:55.476113+00:00",
+      "tokens": 21979
+    }
+  ],
+  "prompt_sha256": "5a38cd9b556eb5db50f97b80778329928de7b9dc2eb78ed5d77cf7f40fe7893f",
+  "tokens": 21979
+}

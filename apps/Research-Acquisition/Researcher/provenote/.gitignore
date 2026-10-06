@@ -1,0 +1,125 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv*/
+.pytest_cache/
+.coverage
+.mypy_cache/
+# `just typecheck-strict` keeps the divergent flag set in its own cache dir, so the two option
+# sets can't cold-start each other (2.4s vs 40.5s — see the justfile note).
+.mypy_cache-strict/
+.files/
+
+# Editor
+.vscode/
+.idea/
+
+# Secrets
+.env
+
+# Claude
+# AGENTS.md (canonical entry file) + CLAUDE.md (its one-line @AGENTS.md stub) + the module
+# CLAUDE.md files are COMMITTED — shared, public-safe agent instructions (ADR-021).
+# Personal/transient notes go in CLAUDE.local.md (gitignored).
+# ALL of .claude/ is local working state (ADR-029, 2026-07-25): CONTEXT.md, KNOWN_ISSUES.md and
+# RIGOR_TODO.md left the allowlist with the second machine. ADR-020 committed RIGOR_TODO.md purely
+# to converge two boxes' disjoint copies; with one box git is not a sync mechanism, only a
+# publication channel, and these files are addressed to the builder, not to a reader of a public
+# repo. AGENTS.md's digest is what an out-of-clone reader gets; see docs/local-only.md.
+# ⚠ Consequence: nothing here has an off-machine copy any more — back up .claude/ yourself.
+CLAUDE.local.md
+.claude/
+# Rotated-out baton entries (cpc rotation, ADR-018 rule 11) — local-only, like the baton itself.
+docs/archive/SESSION-archive-*.md
+# The retired Lab4Tech box's baton history, rescued from its backup 2026-07-25 (49 rotated archives
+# + its final baton). Same class as the above — per-machine session history, local-only. It is the
+# only record of the 2026-07-23/24 taxonomy + UI sessions, which were never batoned on this box.
+docs/archive/lab4tech/
+# Working docs, local-only for the same reason (ADR-029): dated planning docs, review reports and
+# the UI punch list are working notes, not the project's public record (which is README · ADRs ·
+# specs · DEVLOG · ROADMAP). Committed docs still link to them — docs/local-only.md explains why
+# those links don't resolve in a clone.
+docs/plans/PLAN_*.md
+docs/reviews/REVIEW_*.md
+docs/ui-checklist.md
+# Archived working docs of the same classes (closed PLAN_/REVIEW_ docs, rotated CONTEXT/RIGOR narrative)
+# — local-only like their sources; docs/archive/ itself stays tracked (DEVLOG/KI/ROADMAP archives).
+docs/archive/local/
+# Local-only convention gates that depend on a private tooling repo — never shared (see ADR-001).
+.pre-commit-config.cpc.yaml
+tools/conventions/
+
+# Runtime data
+# settings.json is the app's persisted per-machine settings (provider/model selection, U1c) —
+# written by the app at runtime, never committed (it would pin one user's choice for everyone).
+data/settings.json
+data/cache/
+data/chroma/
+data/chroma_pc/
+data/sources/
+data/sources_manifest.yaml
+data/issues/
+data/library.db
+data/eval.duckdb
+data/eval.duckdb.wal
+# Dated hand-made safety copies of the two databases above (`library.db.bak-20260808-preswep`,
+# `eval.duckdb.bak-20260808`). The bare names are ignored but a suffixed copy was NOT, so
+# `git add -A` staged 14 MB of the private corpus's metadata into a public repo (caught
+# 2026-08-09, before any commit). Ignore the whole family, not the two names that bit.
+data/*.bak*
+data/tables_debug/
+data/figures/
+data/wiki/
+data/graph/
+data/skeleton/
+data/exports/
+# Derived BM25 launch snapshot (ADR-035). Nothing writes it since ADR-038 retired the in-RAM arm;
+# kept ignored so a snapshot left over from an older checkout can never be committed by accident.
+data/bm25_index.pkl
+
+# Derived sparse retrieval index (ADR-036) — ~41 MB at 33k chunks, an SQLite/FTS5 rebuild of the
+# chunk store, fingerprint-invalidated. Same class as the line above: pure derived data.
+data/sparse_index.sqlite3
+data/sparse_index.sqlite3-*
+data/*.building
+
+# Separate multi-domain test corpus (open-access arXiv PDFs + derived DB/vectors; RG-001
+# multi-domain re-check, kept apart from the public corpus). All downloaded/derived.
+data_multidomain/
+
+# Backups
+backups/
+
+# Test artifacts
+tests/eval/results_*.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Other
+core.py
+HANDOFF.md
+
+# private: personal research library — never in the public repo. The public eval suite
+# (tests/eval/cases.public.yaml + corpus_manifest.yaml) stays committed; these fixtures run
+# only against the local private corpus, so they are kept local. library.bib regenerates via
+# `python -m scripts.export_bibtex`.
+docs/library.bib
+tests/eval/cases.yaml
+tests/eval/eval_set.json
+tests/eval/qualitative_questions.md
+tests/eval/baselines/strict_baseline_2026_05_12.json
+tests/eval/baselines/strict_parentchild_2026_05_12.json
+tests/eval/baselines/strict_pc_topk8_2026_05_12.json
+
+# private: interview-prep, not for the public repo
+docs/STUDY_PLAN.md
+Marker_Testings.ipynb
+*.ipynb
+docs/DEVLOG.md.bak
+.chainlit_run.log

@@ -1,0 +1,3459 @@
+{
+ "source": "\\192.168.2.50\\h_hp\\Desktop\\Folders\\ALL EXCEL\\Fruits Template (1) (1).xlsx (TRUTH ENGINE v2.0)",
+ "fruit": [
+  {
+   "term": "love",
+   "cat": "Spiritual"
+  },
+  {
+   "term": "loving",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "beloved",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "cherish",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "compassion",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "compassionate",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "affection",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "affectionate",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "joy",
+   "cat": "Spiritual"
+  },
+  {
+   "term": "joyful",
+   "cat": "Spiritual"
+  },
+  {
+   "term": "joyfulness",
+   "cat": "Spiritual"
+  },
+  {
+   "term": "delight",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "delightful",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "gladness",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "rejoice",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "rejoicing",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "peace",
+   "cat": "Spiritual"
+  },
+  {
+   "term": "peaceful",
+   "cat": "Spiritual"
+  },
+  {
+   "term": "peaceable",
+   "cat": "Spiritual"
+  },
+  {
+   "term": "reconcile",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "reconciliation",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "harmony",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "harmonious",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "shalom",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "patience",
+   "cat": "Spiritual"
+  },
+  {
+   "term": "patient",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "long-suffering",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "endurance",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "enduring",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "perseverance",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "persevering",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "forbearance",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "kindness",
+   "cat": "Spiritual"
+  },
+  {
+   "term": "kind",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "tender",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "tenderhearted",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "benevolence",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "benevolent",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "goodness",
+   "cat": "Spiritual"
+  },
+  {
+   "term": "good",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "upright",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "righteous",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "wholesome",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "noble",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "faithfulness",
+   "cat": "Spiritual"
+  },
+  {
+   "term": "faithful",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "loyalty",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "loyal",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "steadfast",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "trustworthy",
+   "cat": "Relational"
+  },
+  {
+   "term": "reliable",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "dependable",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "gentleness",
+   "cat": "Spiritual"
+  },
+  {
+   "term": "gentle",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "meek",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "mild",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "softness",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "tender",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "tenderness",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "self-control",
+   "cat": "Spiritual"
+  },
+  {
+   "term": "self-restraint",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "temperance",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "temperate",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "discipline",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "disciplined",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "restraint",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "generosity",
+   "cat": "Spiritual"
+  },
+  {
+   "term": "generous",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "giving",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "liberality",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "magnanimous",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "magnanimity",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "modesty",
+   "cat": "Spiritual"
+  },
+  {
+   "term": "modest",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "humility",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "humble",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "unpretentious",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "chastity",
+   "cat": "Spiritual"
+  },
+  {
+   "term": "purity",
+   "cat": "Spiritual"
+  },
+  {
+   "term": "pure",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "integrity",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "incorruptibility",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "incorruptible",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "truth",
+   "cat": "Epistemic"
+  },
+  {
+   "term": "truthful",
+   "cat": "Epistemic"
+  },
+  {
+   "term": "truthfulness",
+   "cat": "Epistemic"
+  },
+  {
+   "term": "honest",
+   "cat": "Epistemic"
+  },
+  {
+   "term": "honesty",
+   "cat": "Epistemic"
+  },
+  {
+   "term": "candor",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "candid",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "frankness",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "frank",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "transparency",
+   "cat": "Epistemic"
+  },
+  {
+   "term": "transparent",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "openness",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "open",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "accuracy",
+   "cat": "Epistemic"
+  },
+  {
+   "term": "accurate",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "precision",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "precise",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "exactness",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "exact",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "verify",
+   "cat": "Epistemic"
+  },
+  {
+   "term": "verification",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "verifiable",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "verifying",
+   "cat": "Epistemic"
+  },
+  {
+   "term": "verified",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "falsifiable",
+   "cat": "Epistemic"
+  },
+  {
+   "term": "falsifiability",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "falsification",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "evidence",
+   "cat": "Epistemic"
+  },
+  {
+   "term": "evidential",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "proof",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "provable",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "proven",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "acknowledge",
+   "cat": "Epistemic"
+  },
+  {
+   "term": "acknowledged",
+   "cat": "Epistemic"
+  },
+  {
+   "term": "acknowledgment",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "admit",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "admitted",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "concede",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "conceded",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "concession",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "uncertainty",
+   "cat": "Epistemic"
+  },
+  {
+   "term": "uncertain",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "nuance",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "nuanced",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "qualified",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "qualifier",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "caveat",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "correction",
+   "cat": "Epistemic"
+  },
+  {
+   "term": "corrected",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "correcting",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "retraction",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "retracted",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "update",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "updated",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "question",
+   "cat": "Epistemic"
+  },
+  {
+   "term": "questioning",
+   "cat": "Epistemic"
+  },
+  {
+   "term": "inquiry",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "inquire",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "investigate",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "investigation",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "investigating",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "doubt",
+   "cat": "Epistemic"
+  },
+  {
+   "term": "doubtful",
+   "cat": "Epistemic"
+  },
+  {
+   "term": "skepticism",
+   "cat": "Epistemic"
+  },
+  {
+   "term": "skeptical",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "challenge",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "scrutiny",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "scrutinize",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "steelman",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "steelmanning",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "charitable interpretation",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "source",
+   "cat": "Epistemic"
+  },
+  {
+   "term": "sourced",
+   "cat": "Epistemic"
+  },
+  {
+   "term": "sourcing",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "citation",
+   "cat": "Epistemic"
+  },
+  {
+   "term": "cite",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "cited",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "documented",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "document",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "documentation",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "freedom",
+   "cat": "Civic"
+  },
+  {
+   "term": "free",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "liberty",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "liberate",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "liberation",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "liberating",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "dignity",
+   "cat": "Civic"
+  },
+  {
+   "term": "dignified",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "respect",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "respectful",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "respecting",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "consent",
+   "cat": "Civic"
+  },
+  {
+   "term": "consenting",
+   "cat": "Civic"
+  },
+  {
+   "term": "voluntary",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "voluntarily",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "willingness",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "willing",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "sovereignty",
+   "cat": "Civic"
+  },
+  {
+   "term": "sovereign",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "self-determination",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "autonomy",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "autonomous",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "rights",
+   "cat": "Civic"
+  },
+  {
+   "term": "natural rights",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "inalienable",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "constitutional",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "accountability",
+   "cat": "Civic"
+  },
+  {
+   "term": "accountable",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "responsible",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "responsibility",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "justice",
+   "cat": "Civic"
+  },
+  {
+   "term": "just",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "fairness",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "fair",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "impartial",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "impartiality",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "conscience",
+   "cat": "Civic"
+  },
+  {
+   "term": "conscientious",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "service",
+   "cat": "Civic"
+  },
+  {
+   "term": "serve",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "serving",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "servant",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "duty",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "sacrifice",
+   "cat": "Civic"
+  },
+  {
+   "term": "sacrificial",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "solidarity",
+   "cat": "Relational"
+  },
+  {
+   "term": "community",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "fellowship",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "belonging",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "gratitude",
+   "cat": "Relational"
+  },
+  {
+   "term": "grateful",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "thankful",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "thankfulness",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "thanksgiving",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "forgiveness",
+   "cat": "Relational"
+  },
+  {
+   "term": "forgive",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "forgiving",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "mercy",
+   "cat": "Relational"
+  },
+  {
+   "term": "merciful",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "grace",
+   "cat": "Relational"
+  },
+  {
+   "term": "gracious",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "encouragement",
+   "cat": "Relational"
+  },
+  {
+   "term": "encourage",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "encouraging",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "uplift",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "uplifting",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "restore",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "restoration",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "hope",
+   "cat": "Relational"
+  },
+  {
+   "term": "hopeful",
+   "cat": "Relational"
+  },
+  {
+   "term": "hopefulness",
+   "cat": "Relational"
+  },
+  {
+   "term": "aspire",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "aspiration",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "aspiring",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "healing",
+   "cat": "Relational"
+  },
+  {
+   "term": "heal",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "wholeness",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "whole",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "courage",
+   "cat": "Relational"
+  },
+  {
+   "term": "courageous",
+   "cat": "Relational"
+  },
+  {
+   "term": "brave",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "bravery",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "fortitude",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "wisdom",
+   "cat": "Relational"
+  },
+  {
+   "term": "wise",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "discernment",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "discern",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "discerning",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "prudence",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "prudent",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "understanding",
+   "cat": "Relational"
+  },
+  {
+   "term": "empathy",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "empathetic",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "compassion",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "trust",
+   "cat": "Relational"
+  },
+  {
+   "term": "trusting",
+   "cat": "Relational"
+  },
+  {
+   "term": "credibility",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "credible",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "i could be wrong",
+   "cat": "Phrases"
+  },
+  {
+   "term": "the evidence suggests",
+   "cat": "Phrases"
+  },
+  {
+   "term": "i don't know",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "to be fair",
+   "cat": "Phrases"
+  },
+  {
+   "term": "on the other hand",
+   "cat": "Phrases"
+  },
+  {
+   "term": "it's worth noting",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "let me correct",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "as far as we can verify",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "sources say",
+   "cat": "Epistemic"
+  },
+  {
+   "term": "i want to be honest",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "there's genuine uncertainty",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "i acknowledge",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "to steelman",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "in fairness",
+   "cat": "Unclassified"
+  },
+  {
+   "term": "admittedly",
+   "cat": "Phrases"
+  },
+  {
+   "term": "granted",
+   "cat": "Phrases"
+  },
+  {
+   "term": "it must be said",
+   "cat": "Unclassified"
+  }
+ ],
+ "anti_fruit": [
+  {
+   "term": "programmable money",
+   "cat": "fitts_monetary"
+  },
+  {
+   "term": "programmable currency",
+   "cat": "fitts_monetary"
+  },
+  {
+   "term": "programmable stablecoins",
+   "cat": "fitts_monetary"
+  },
+  {
+   "term": "programmable asset",
+   "cat": "fitts_monetary"
+  },
+  {
+   "term": "cbdc",
+   "cat": "fitts_monetary"
+  },
+  {
+   "term": "central bank digital currency",
+   "cat": "fitts_monetary"
+  },
+  {
+   "term": "all-digital monetary",
+   "cat": "fitts_monetary"
+  },
+  {
+   "term": "digital financial system",
+   "cat": "general"
+  },
+  {
+   "term": "enforced money",
+   "cat": "general"
+  },
+  {
+   "term": "surveilled money",
+   "cat": "general"
+  },
+  {
+   "term": "rules-embedded currency",
+   "cat": "fitts_monetary"
+  },
+  {
+   "term": "financial transaction control",
+   "cat": "general"
+  },
+  {
+   "term": "real-time transaction control",
+   "cat": "general"
+  },
+  {
+   "term": "fiscal policy capture",
+   "cat": "fitts_monetary"
+  },
+  {
+   "term": "monetary policy capture",
+   "cat": "fitts_monetary"
+  },
+  {
+   "term": "cut off bank account",
+   "cat": "general"
+  },
+  {
+   "term": "debanking",
+   "cat": "fitts_monetary"
+  },
+  {
+   "term": "debank",
+   "cat": "fitts_monetary"
+  },
+  {
+   "term": "financial exclusion",
+   "cat": "general"
+  },
+  {
+   "term": "no cash",
+   "cat": "general"
+  },
+  {
+   "term": "cashless society",
+   "cat": "fitts_monetary"
+  },
+  {
+   "term": "war on cash",
+   "cat": "general"
+  },
+  {
+   "term": "negative interest",
+   "cat": "general"
+  },
+  {
+   "term": "expiring money",
+   "cat": "general"
+  },
+  {
+   "term": "geo-fenced spending",
+   "cat": "general"
+  },
+  {
+   "term": "spending caps",
+   "cat": "general"
+  },
+  {
+   "term": "behavioral triggers",
+   "cat": "woke_language"
+  },
+  {
+   "term": "esg enforcement",
+   "cat": "general"
+  },
+  {
+   "term": "carbon wallet",
+   "cat": "general"
+  },
+  {
+   "term": "vaccine passport payment",
+   "cat": "fitts_identity"
+  },
+  {
+   "term": "panopticon",
+   "cat": "fitts_surveillance"
+  },
+  {
+   "term": "financial panopticon",
+   "cat": "fitts_surveillance"
+  },
+  {
+   "term": "control grid",
+   "cat": "general"
+  },
+  {
+   "term": "digital surveillance",
+   "cat": "fitts_surveillance"
+  },
+  {
+   "term": "surveillance infrastructure",
+   "cat": "fitts_surveillance"
+  },
+  {
+   "term": "track and monitor",
+   "cat": "general"
+  },
+  {
+   "term": "24/7 tracking",
+   "cat": "fitts_surveillance"
+  },
+  {
+   "term": "satellite surveillance",
+   "cat": "fitts_surveillance"
+  },
+  {
+   "term": "orbital platform",
+   "cat": "general"
+  },
+  {
+   "term": "surveillance weaponry",
+   "cat": "fitts_surveillance"
+  },
+  {
+   "term": "autonomous weapons",
+   "cat": "general"
+  },
+  {
+   "term": "weaponized drones",
+   "cat": "fitts_surveillance"
+  },
+  {
+   "term": "palantir",
+   "cat": "general"
+  },
+  {
+   "term": "public distributed ledger",
+   "cat": "general"
+  },
+  {
+   "term": "blockchain control",
+   "cat": "general"
+  },
+  {
+   "term": "smart city",
+   "cat": "general"
+  },
+  {
+   "term": "sensor grid",
+   "cat": "fitts_surveillance"
+  },
+  {
+   "term": "facial recognition",
+   "cat": "fitts_surveillance"
+  },
+  {
+   "term": "license plate reader",
+   "cat": "general"
+  },
+  {
+   "term": "stingray device",
+   "cat": "general"
+  },
+  {
+   "term": "social graph mapping",
+   "cat": "general"
+  },
+  {
+   "term": "behavioral tracking",
+   "cat": "fitts_surveillance"
+  },
+  {
+   "term": "geolocation enforcement",
+   "cat": "general"
+  },
+  {
+   "term": "digital id",
+   "cat": "fitts_identity"
+  },
+  {
+   "term": "digital identity",
+   "cat": "fitts_identity"
+  },
+  {
+   "term": "persistent identity",
+   "cat": "general"
+  },
+  {
+   "term": "traceable transactions",
+   "cat": "general"
+  },
+  {
+   "term": "social credit system",
+   "cat": "fitts_identity"
+  },
+  {
+   "term": "social credit score",
+   "cat": "fitts_identity"
+  },
+  {
+   "term": "nudging",
+   "cat": "fitts_identity"
+  },
+  {
+   "term": "nudge",
+   "cat": "fitts_identity"
+  },
+  {
+   "term": "rules enforced centrally",
+   "cat": "general"
+  },
+  {
+   "term": "central enforcement",
+   "cat": "general"
+  },
+  {
+   "term": "ai enforcement",
+   "cat": "general"
+  },
+  {
+   "term": "no contact function",
+   "cat": "general"
+  },
+  {
+   "term": "biometric id",
+   "cat": "fitts_identity"
+  },
+  {
+   "term": "vaccine passport",
+   "cat": "fitts_identity"
+  },
+  {
+   "term": "health passport",
+   "cat": "fitts_identity"
+  },
+  {
+   "term": "qr code access",
+   "cat": "general"
+  },
+  {
+   "term": "tiered citizenship",
+   "cat": "general"
+  },
+  {
+   "term": "behavioral scoring",
+   "cat": "fitts_identity"
+  },
+  {
+   "term": "reputation score",
+   "cat": "general"
+  },
+  {
+   "term": "carbon score",
+   "cat": "general"
+  },
+  {
+   "term": "travel permit",
+   "cat": "general"
+  },
+  {
+   "term": "financial coup",
+   "cat": "fitts_power"
+  },
+  {
+   "term": "coup d'état",
+   "cat": "fitts_power"
+  },
+  {
+   "term": "secret governance",
+   "cat": "fitts_power"
+  },
+  {
+   "term": "mr global",
+   "cat": "fitts_power"
+  },
+  {
+   "term": "mr. global",
+   "cat": "general"
+  },
+  {
+   "term": "centralized control",
+   "cat": "general"
+  },
+  {
+   "term": "control monetary policy",
+   "cat": "fitts_monetary"
+  },
+  {
+   "term": "cut out congress",
+   "cat": "general"
+  },
+  {
+   "term": "replace executive",
+   "cat": "general"
+  },
+  {
+   "term": "technocracy",
+   "cat": "fitts_power"
+  },
+  {
+   "term": "economic totalitarianism",
+   "cat": "general"
+  },
+  {
+   "term": "harvesting",
+   "cat": "general"
+  },
+  {
+   "term": "resource management of humans",
+   "cat": "general"
+  },
+  {
+   "term": "managed population",
+   "cat": "general"
+  },
+  {
+   "term": "human farming",
+   "cat": "general"
+  },
+  {
+   "term": "plunder",
+   "cat": "general"
+  },
+  {
+   "term": "black budget",
+   "cat": "fitts_power"
+  },
+  {
+   "term": "missing money",
+   "cat": "general"
+  },
+  {
+   "term": "covert finance",
+   "cat": "general"
+  },
+  {
+   "term": "public-private partnership",
+   "cat": "general"
+  },
+  {
+   "term": "regulatory capture",
+   "cat": "general"
+  },
+  {
+   "term": "deep state finance",
+   "cat": "fitts_power"
+  },
+  {
+   "term": "shadow government",
+   "cat": "fitts_power"
+  },
+  {
+   "term": "off-balance-sheet",
+   "cat": "general"
+  },
+  {
+   "term": "continuity of government",
+   "cat": "general"
+  },
+  {
+   "term": "ai enforce rules",
+   "cat": "general"
+  },
+  {
+   "term": "robotics replacing",
+   "cat": "general"
+  },
+  {
+   "term": "automation firing",
+   "cat": "general"
+  },
+  {
+   "term": "cloud dependency",
+   "cat": "general"
+  },
+  {
+   "term": "teaching robots",
+   "cat": "general"
+  },
+  {
+   "term": "control grid infrastructure",
+   "cat": "general"
+  },
+  {
+   "term": "iot monitoring",
+   "cat": "general"
+  },
+  {
+   "term": "smart meters",
+   "cat": "general"
+  },
+  {
+   "term": "smart grid",
+   "cat": "general"
+  },
+  {
+   "term": "5g surveillance",
+   "cat": "fitts_surveillance"
+  },
+  {
+   "term": "satellite internet dependency",
+   "cat": "fitts_surveillance"
+  },
+  {
+   "term": "drone enforcement",
+   "cat": "fitts_surveillance"
+  },
+  {
+   "term": "ai decision-making",
+   "cat": "general"
+  },
+  {
+   "term": "opportunity zones",
+   "cat": "general"
+  },
+  {
+   "term": "pump and dump",
+   "cat": "general"
+  },
+  {
+   "term": "eliminate middle class",
+   "cat": "general"
+  },
+  {
+   "term": "two-class system",
+   "cat": "general"
+  },
+  {
+   "term": "uber class",
+   "cat": "general"
+  },
+  {
+   "term": "vast peasantry",
+   "cat": "general"
+  },
+  {
+   "term": "reduced human population",
+   "cat": "general"
+  },
+  {
+   "term": "don't need humans",
+   "cat": "general"
+  },
+  {
+   "term": "transhumanism",
+   "cat": "fitts_population"
+  },
+  {
+   "term": "human augmentation control",
+   "cat": "general"
+  },
+  {
+   "term": "depopulation",
+   "cat": "fitts_population"
+  },
+  {
+   "term": "managed scarcity",
+   "cat": "general"
+  },
+  {
+   "term": "lockdown compliance",
+   "cat": "fitts_population"
+  },
+  {
+   "term": "movement restrictions",
+   "cat": "fitts_population"
+  },
+  {
+   "term": "vaccine mandates",
+   "cat": "fitts_population"
+  },
+  {
+   "term": "quarantine enforcement",
+   "cat": "general"
+  },
+  {
+   "term": "equity",
+   "cat": "woke_dei"
+  },
+  {
+   "term": "equitable",
+   "cat": "general"
+  },
+  {
+   "term": "inequity",
+   "cat": "woke_dei"
+  },
+  {
+   "term": "inclusion",
+   "cat": "woke_dei"
+  },
+  {
+   "term": "inclusive",
+   "cat": "general"
+  },
+  {
+   "term": "inclusivity",
+   "cat": "general"
+  },
+  {
+   "term": "belonging",
+   "cat": "general"
+  },
+  {
+   "term": "belongingness",
+   "cat": "general"
+  },
+  {
+   "term": "diversity",
+   "cat": "woke_dei"
+  },
+  {
+   "term": "diversify",
+   "cat": "woke_dei"
+  },
+  {
+   "term": "representation",
+   "cat": "general"
+  },
+  {
+   "term": "representational",
+   "cat": "general"
+  },
+  {
+   "term": "underrepresented",
+   "cat": "woke_dei"
+  },
+  {
+   "term": "underserved",
+   "cat": "general"
+  },
+  {
+   "term": "marginalized",
+   "cat": "woke_dei"
+  },
+  {
+   "term": "accessibility",
+   "cat": "general"
+  },
+  {
+   "term": "accessible",
+   "cat": "general"
+  },
+  {
+   "term": "affirmative action",
+   "cat": "general"
+  },
+  {
+   "term": "preferential hiring",
+   "cat": "general"
+  },
+  {
+   "term": "dei",
+   "cat": "woke_dei"
+  },
+  {
+   "term": "deia",
+   "cat": "woke_dei"
+  },
+  {
+   "term": "deib",
+   "cat": "woke_dei"
+  },
+  {
+   "term": "edi",
+   "cat": "general"
+  },
+  {
+   "term": "anti-racism",
+   "cat": "woke_dei"
+  },
+  {
+   "term": "anti-racist",
+   "cat": "woke_dei"
+  },
+  {
+   "term": "race-conscious",
+   "cat": "general"
+  },
+  {
+   "term": "race-aware",
+   "cat": "general"
+  },
+  {
+   "term": "equity of outcome",
+   "cat": "woke_dei"
+  },
+  {
+   "term": "lived experience",
+   "cat": "general"
+  },
+  {
+   "term": "centering marginalized voices",
+   "cat": "woke_dei"
+  },
+  {
+   "term": "equity-centered",
+   "cat": "woke_dei"
+  },
+  {
+   "term": "culturally responsive",
+   "cat": "general"
+  },
+  {
+   "term": "culturally sustaining",
+   "cat": "general"
+  },
+  {
+   "term": "equity audit",
+   "cat": "woke_dei"
+  },
+  {
+   "term": "belonging initiative",
+   "cat": "general"
+  },
+  {
+   "term": "inclusive excellence",
+   "cat": "general"
+  },
+  {
+   "term": "systemic racism",
+   "cat": "woke_crt"
+  },
+  {
+   "term": "structural racism",
+   "cat": "woke_crt"
+  },
+  {
+   "term": "institutional racism",
+   "cat": "woke_crt"
+  },
+  {
+   "term": "white privilege",
+   "cat": "woke_crt"
+  },
+  {
+   "term": "white supremacy",
+   "cat": "woke_crt"
+  },
+  {
+   "term": "whiteness",
+   "cat": "woke_crt"
+  },
+  {
+   "term": "white fragility",
+   "cat": "woke_crt"
+  },
+  {
+   "term": "white centering",
+   "cat": "woke_dei"
+  },
+  {
+   "term": "oppressor",
+   "cat": "woke_crt"
+  },
+  {
+   "term": "oppressed",
+   "cat": "woke_crt"
+  },
+  {
+   "term": "oppression",
+   "cat": "woke_crt"
+  },
+  {
+   "term": "bipoc",
+   "cat": "woke_crt"
+  },
+  {
+   "term": "poc",
+   "cat": "general"
+  },
+  {
+   "term": "bame",
+   "cat": "general"
+  },
+  {
+   "term": "intersectionality",
+   "cat": "woke_crt"
+  },
+  {
+   "term": "intersectional",
+   "cat": "woke_crt"
+  },
+  {
+   "term": "colorblind",
+   "cat": "general"
+  },
+  {
+   "term": "antiblackness",
+   "cat": "general"
+  },
+  {
+   "term": "anti-black",
+   "cat": "general"
+  },
+  {
+   "term": "racial equity",
+   "cat": "woke_dei"
+  },
+  {
+   "term": "racial justice",
+   "cat": "general"
+  },
+  {
+   "term": "critical race theory",
+   "cat": "general"
+  },
+  {
+   "term": "crt",
+   "cat": "general"
+  },
+  {
+   "term": "decolonize",
+   "cat": "woke_crt"
+  },
+  {
+   "term": "decolonization",
+   "cat": "woke_crt"
+  },
+  {
+   "term": "decolonial",
+   "cat": "woke_crt"
+  },
+  {
+   "term": "colonialism",
+   "cat": "general"
+  },
+  {
+   "term": "settler colonialism",
+   "cat": "general"
+  },
+  {
+   "term": "reparations",
+   "cat": "woke_crt"
+  },
+  {
+   "term": "racial reckoning",
+   "cat": "general"
+  },
+  {
+   "term": "disparate impact",
+   "cat": "general"
+  },
+  {
+   "term": "systems of oppression",
+   "cat": "woke_crt"
+  },
+  {
+   "term": "dismantling racism",
+   "cat": "woke_crt"
+  },
+  {
+   "term": "root causes of racism",
+   "cat": "woke_crt"
+  },
+  {
+   "term": "challenging dominant narratives",
+   "cat": "general"
+  },
+  {
+   "term": "interrogate your privilege",
+   "cat": "woke_crt"
+  },
+  {
+   "term": "complicity in racism",
+   "cat": "woke_crt"
+  },
+  {
+   "term": "do the work",
+   "cat": "general"
+  },
+  {
+   "term": "silence is violence",
+   "cat": "general"
+  },
+  {
+   "term": "white adjacency",
+   "cat": "woke_crt"
+  },
+  {
+   "term": "racial capitalism",
+   "cat": "general"
+  },
+  {
+   "term": "cisgender",
+   "cat": "woke_gender"
+  },
+  {
+   "term": "cis",
+   "cat": "general"
+  },
+  {
+   "term": "cisnormativity",
+   "cat": "general"
+  },
+  {
+   "term": "transgender",
+   "cat": "woke_gender"
+  },
+  {
+   "term": "trans",
+   "cat": "general"
+  },
+  {
+   "term": "nonbinary",
+   "cat": "woke_gender"
+  },
+  {
+   "term": "non-binary",
+   "cat": "general"
+  },
+  {
+   "term": "gender identity",
+   "cat": "woke_gender"
+  },
+  {
+   "term": "gender expression",
+   "cat": "woke_gender"
+  },
+  {
+   "term": "gender-affirming",
+   "cat": "woke_gender"
+  },
+  {
+   "term": "gender fluid",
+   "cat": "woke_gender"
+  },
+  {
+   "term": "genderqueer",
+   "cat": "woke_gender"
+  },
+  {
+   "term": "deadnaming",
+   "cat": "general"
+  },
+  {
+   "term": "misgendering",
+   "cat": "woke_gender"
+  },
+  {
+   "term": "pronouns",
+   "cat": "woke_gender"
+  },
+  {
+   "term": "preferred pronouns",
+   "cat": "woke_gender"
+  },
+  {
+   "term": "they/them",
+   "cat": "general"
+  },
+  {
+   "term": "heteronormativity",
+   "cat": "woke_gender"
+  },
+  {
+   "term": "heteronormative",
+   "cat": "woke_gender"
+  },
+  {
+   "term": "lgbtq+",
+   "cat": "general"
+  },
+  {
+   "term": "lgbtqia+",
+   "cat": "general"
+  },
+  {
+   "term": "queer",
+   "cat": "general"
+  },
+  {
+   "term": "queerness",
+   "cat": "general"
+  },
+  {
+   "term": "two-spirit",
+   "cat": "general"
+  },
+  {
+   "term": "enby",
+   "cat": "general"
+  },
+  {
+   "term": "patriarchy",
+   "cat": "woke_gender"
+  },
+  {
+   "term": "toxic masculinity",
+   "cat": "general"
+  },
+  {
+   "term": "hegemonic masculinity",
+   "cat": "general"
+  },
+  {
+   "term": "sex assigned at birth",
+   "cat": "general"
+  },
+  {
+   "term": "afab",
+   "cat": "general"
+  },
+  {
+   "term": "amab",
+   "cat": "general"
+  },
+  {
+   "term": "reproductive justice",
+   "cat": "general"
+  },
+  {
+   "term": "gender-neutral",
+   "cat": "woke_gender"
+  },
+  {
+   "term": "gender-inclusive",
+   "cat": "woke_gender"
+  },
+  {
+   "term": "birthing person",
+   "cat": "woke_gender"
+  },
+  {
+   "term": "chest feeding",
+   "cat": "general"
+  },
+  {
+   "term": "people who menstruate",
+   "cat": "woke_gender"
+  },
+  {
+   "term": "affirm gender",
+   "cat": "woke_gender"
+  },
+  {
+   "term": "gender spectrum",
+   "cat": "woke_gender"
+  },
+  {
+   "term": "binary is construct",
+   "cat": "general"
+  },
+  {
+   "term": "privilege",
+   "cat": "woke_crt"
+  },
+  {
+   "term": "unpacking privilege",
+   "cat": "woke_crt"
+  },
+  {
+   "term": "power structures",
+   "cat": "general"
+  },
+  {
+   "term": "power dynamics",
+   "cat": "general"
+  },
+  {
+   "term": "hegemony",
+   "cat": "general"
+  },
+  {
+   "term": "hegemonic",
+   "cat": "general"
+  },
+  {
+   "term": "hierarchy",
+   "cat": "general"
+  },
+  {
+   "term": "dismantling hierarchy",
+   "cat": "general"
+  },
+  {
+   "term": "anti-capitalism",
+   "cat": "general"
+  },
+  {
+   "term": "late capitalism",
+   "cat": "general"
+  },
+  {
+   "term": "extractive capitalism",
+   "cat": "general"
+  },
+  {
+   "term": "wealth gap",
+   "cat": "general"
+  },
+  {
+   "term": "wealth inequality",
+   "cat": "general"
+  },
+  {
+   "term": "redistribution",
+   "cat": "general"
+  },
+  {
+   "term": "solidarity economics",
+   "cat": "general"
+  },
+  {
+   "term": "mutual aid",
+   "cat": "general"
+  },
+  {
+   "term": "defund",
+   "cat": "general"
+  },
+  {
+   "term": "abolition",
+   "cat": "general"
+  },
+  {
+   "term": "abolitionist",
+   "cat": "general"
+  },
+  {
+   "term": "problematic",
+   "cat": "woke_language"
+  },
+  {
+   "term": "harmful",
+   "cat": "woke_language"
+  },
+  {
+   "term": "harm reduction",
+   "cat": "general"
+  },
+  {
+   "term": "trauma-informed",
+   "cat": "general"
+  },
+  {
+   "term": "trauma-centered",
+   "cat": "general"
+  },
+  {
+   "term": "safe space",
+   "cat": "woke_language"
+  },
+  {
+   "term": "brave space",
+   "cat": "general"
+  },
+  {
+   "term": "trigger warning",
+   "cat": "woke_language"
+  },
+  {
+   "term": "content warning",
+   "cat": "general"
+  },
+  {
+   "term": "microaggression",
+   "cat": "woke_language"
+  },
+  {
+   "term": "microinvalidation",
+   "cat": "general"
+  },
+  {
+   "term": "microinsult",
+   "cat": "general"
+  },
+  {
+   "term": "gaslighting",
+   "cat": "woke_language"
+  },
+  {
+   "term": "epistemic injustice",
+   "cat": "general"
+  },
+  {
+   "term": "epistemic violence",
+   "cat": "general"
+  },
+  {
+   "term": "ways of knowing",
+   "cat": "general"
+  },
+  {
+   "term": "positionality",
+   "cat": "general"
+  },
+  {
+   "term": "standpoint theory",
+   "cat": "general"
+  },
+  {
+   "term": "centering",
+   "cat": "woke_dei"
+  },
+  {
+   "term": "decentering",
+   "cat": "woke_dei"
+  },
+  {
+   "term": "narratives",
+   "cat": "general"
+  },
+  {
+   "term": "counter-narratives",
+   "cat": "general"
+  },
+  {
+   "term": "voice",
+   "cat": "general"
+  },
+  {
+   "term": "amplifying voices",
+   "cat": "general"
+  },
+  {
+   "term": "platform that view",
+   "cat": "general"
+  },
+  {
+   "term": "erasure",
+   "cat": "woke_language"
+  },
+  {
+   "term": "erase",
+   "cat": "general"
+  },
+  {
+   "term": "do better",
+   "cat": "general"
+  },
+  {
+   "term": "educate yourself",
+   "cat": "woke_language"
+  },
+  {
+   "term": "unpack that",
+   "cat": "general"
+  },
+  {
+   "term": "sit with discomfort",
+   "cat": "general"
+  },
+  {
+   "term": "impact over intent",
+   "cat": "general"
+  },
+  {
+   "term": "words cause harm",
+   "cat": "general"
+  },
+  {
+   "term": "language matters",
+   "cat": "general"
+  }
+ ],
+ "grounding": [
+  {
+   "term": "evidence",
+   "cat": "evidence"
+  },
+  {
+   "term": "proof",
+   "cat": "evidence"
+  },
+  {
+   "term": "data",
+   "cat": "evidence"
+  },
+  {
+   "term": "study",
+   "cat": "evidence"
+  },
+  {
+   "term": "research",
+   "cat": "evidence"
+  },
+  {
+   "term": "experiment",
+   "cat": "scientific"
+  },
+  {
+   "term": "observation",
+   "cat": "general"
+  },
+  {
+   "term": "measurement",
+   "cat": "general"
+  },
+  {
+   "term": "tested",
+   "cat": "general"
+  },
+  {
+   "term": "demonstrated",
+   "cat": "general"
+  },
+  {
+   "term": "verified",
+   "cat": "evidence"
+  },
+  {
+   "term": "confirmed",
+   "cat": "evidence"
+  },
+  {
+   "term": "validated",
+   "cat": "specifics"
+  },
+  {
+   "term": "peer-reviewed",
+   "cat": "evidence"
+  },
+  {
+   "term": "replicated",
+   "cat": "evidence"
+  },
+  {
+   "term": "replication",
+   "cat": "evidence"
+  },
+  {
+   "term": "reproducible",
+   "cat": "general"
+  },
+  {
+   "term": "because",
+   "cat": "logic"
+  },
+  {
+   "term": "therefore",
+   "cat": "logic"
+  },
+  {
+   "term": "thus",
+   "cat": "logic"
+  },
+  {
+   "term": "hence",
+   "cat": "logic"
+  },
+  {
+   "term": "consequently",
+   "cat": "general"
+  },
+  {
+   "term": "as a result",
+   "cat": "general"
+  },
+  {
+   "term": "given that",
+   "cat": "general"
+  },
+  {
+   "term": "it follows",
+   "cat": "general"
+  },
+  {
+   "term": "implies",
+   "cat": "logic"
+  },
+  {
+   "term": "entails",
+   "cat": "general"
+  },
+  {
+   "term": "predicts",
+   "cat": "logic"
+  },
+  {
+   "term": "prediction",
+   "cat": "general"
+  },
+  {
+   "term": "hypothesis",
+   "cat": "logic"
+  },
+  {
+   "term": "theory",
+   "cat": "logic"
+  },
+  {
+   "term": "model",
+   "cat": "general"
+  },
+  {
+   "term": "framework",
+   "cat": "general"
+  },
+  {
+   "term": "mechanism",
+   "cat": "logic"
+  },
+  {
+   "term": "falsifiable",
+   "cat": "scientific"
+  },
+  {
+   "term": "testable",
+   "cat": "scientific"
+  },
+  {
+   "term": "experiment",
+   "cat": "scientific"
+  },
+  {
+   "term": "control group",
+   "cat": "scientific"
+  },
+  {
+   "term": "sample size",
+   "cat": "scientific"
+  },
+  {
+   "term": "correlation",
+   "cat": "general"
+  },
+  {
+   "term": "causation",
+   "cat": "general"
+  },
+  {
+   "term": "variable",
+   "cat": "general"
+  },
+  {
+   "term": "confounding",
+   "cat": "scientific"
+  },
+  {
+   "term": "bias",
+   "cat": "scientific"
+  },
+  {
+   "term": "p-value",
+   "cat": "scientific"
+  },
+  {
+   "term": "statistical",
+   "cat": "general"
+  },
+  {
+   "term": "significant",
+   "cat": "general"
+  },
+  {
+   "term": "confidence interval",
+   "cat": "general"
+  },
+  {
+   "term": "according to",
+   "cat": "attribution"
+  },
+  {
+   "term": "source",
+   "cat": "attribution"
+  },
+  {
+   "term": "citation",
+   "cat": "attribution"
+  },
+  {
+   "term": "reference",
+   "cat": "attribution"
+  },
+  {
+   "term": "documented in",
+   "cat": "attribution"
+  },
+  {
+   "term": "published in",
+   "cat": "attribution"
+  },
+  {
+   "term": "reported by",
+   "cat": "attribution"
+  },
+  {
+   "term": "stated by",
+   "cat": "general"
+  },
+  {
+   "term": "expert",
+   "cat": "attribution"
+  },
+  {
+   "term": "specialist",
+   "cat": "general"
+  },
+  {
+   "term": "researcher",
+   "cat": "evidence"
+  },
+  {
+   "term": "scientist",
+   "cat": "general"
+  },
+  {
+   "term": "professor",
+   "cat": "general"
+  },
+  {
+   "term": "dr.",
+   "cat": "general"
+  },
+  {
+   "term": "phd",
+   "cat": "general"
+  },
+  {
+   "term": "probably",
+   "cat": "calibration"
+  },
+  {
+   "term": "likely",
+   "cat": "calibration"
+  },
+  {
+   "term": "possibly",
+   "cat": "calibration"
+  },
+  {
+   "term": "might",
+   "cat": "calibration"
+  },
+  {
+   "term": "may",
+   "cat": "calibration"
+  },
+  {
+   "term": "could",
+   "cat": "calibration"
+  },
+  {
+   "term": "suggests",
+   "cat": "calibration"
+  },
+  {
+   "term": "indicates",
+   "cat": "general"
+  },
+  {
+   "term": "appears",
+   "cat": "calibration"
+  },
+  {
+   "term": "seems",
+   "cat": "calibration"
+  },
+  {
+   "term": "tentatively",
+   "cat": "calibration"
+  },
+  {
+   "term": "preliminary",
+   "cat": "calibration"
+  },
+  {
+   "term": "initial",
+   "cat": "general"
+  },
+  {
+   "term": "early",
+   "cat": "general"
+  },
+  {
+   "term": "emerging",
+   "cat": "general"
+  },
+  {
+   "term": "developing",
+   "cat": "general"
+  },
+  {
+   "term": "specific",
+   "cat": "specifics"
+  },
+  {
+   "term": "concrete",
+   "cat": "specifics"
+  },
+  {
+   "term": "precise",
+   "cat": "specifics"
+  },
+  {
+   "term": "exact",
+   "cat": "general"
+  },
+  {
+   "term": "particular",
+   "cat": "general"
+  },
+  {
+   "term": "measured",
+   "cat": "specifics"
+  },
+  {
+   "term": "quantified",
+   "cat": "general"
+  },
+  {
+   "term": "calculated",
+   "cat": "general"
+  },
+  {
+   "term": "documented",
+   "cat": "attribution"
+  },
+  {
+   "term": "fasb",
+   "cat": "general"
+  },
+  {
+   "term": "sec filing",
+   "cat": "general"
+  },
+  {
+   "term": "audit",
+   "cat": "general"
+  },
+  {
+   "term": "investigation",
+   "cat": "general"
+  },
+  {
+   "term": "report",
+   "cat": "general"
+  },
+  {
+   "term": "trillion",
+   "cat": "specifics"
+  },
+  {
+   "term": "billion",
+   "cat": "specifics"
+  },
+  {
+   "term": "million",
+   "cat": "specifics"
+  },
+  {
+   "term": "percent",
+   "cat": "specifics"
+  },
+  {
+   "term": "ratio",
+   "cat": "general"
+  },
+  {
+   "term": "year",
+   "cat": "specifics"
+  },
+  {
+   "term": "date",
+   "cat": "specifics"
+  },
+  {
+   "term": "time",
+   "cat": "general"
+  },
+  {
+   "term": "location",
+   "cat": "general"
+  },
+  {
+   "term": "event",
+   "cat": "general"
+  }
+ ],
+ "contradiction": [
+  {
+   "term": "however",
+   "cat": null
+  },
+  {
+   "term": "but",
+   "cat": null
+  },
+  {
+   "term": "although",
+   "cat": null
+  },
+  {
+   "term": "though",
+   "cat": null
+  },
+  {
+   "term": "yet",
+   "cat": null
+  },
+  {
+   "term": "nevertheless",
+   "cat": null
+  },
+  {
+   "term": "nonetheless",
+   "cat": null
+  },
+  {
+   "term": "despite",
+   "cat": null
+  },
+  {
+   "term": "in spite of",
+   "cat": null
+  },
+  {
+   "term": "on the contrary",
+   "cat": null
+  },
+  {
+   "term": "conversely",
+   "cat": null
+  },
+  {
+   "term": "alternatively",
+   "cat": null
+  },
+  {
+   "term": "instead",
+   "cat": null
+  },
+  {
+   "term": "rather",
+   "cat": null
+  },
+  {
+   "term": "actually",
+   "cat": null
+  },
+  {
+   "term": "correction",
+   "cat": null
+  },
+  {
+   "term": "clarification",
+   "cat": null
+  },
+  {
+   "term": "to be clear",
+   "cat": null
+  },
+  {
+   "term": "what i meant",
+   "cat": null
+  },
+  {
+   "term": "let me rephrase",
+   "cat": null
+  },
+  {
+   "term": "i misspoke",
+   "cat": null
+  },
+  {
+   "term": "i was wrong",
+   "cat": null
+  },
+  {
+   "term": "arguably",
+   "cat": null
+  },
+  {
+   "term": "perhaps",
+   "cat": null
+  },
+  {
+   "term": "maybe",
+   "cat": null
+  },
+  {
+   "term": "supposedly",
+   "cat": null
+  },
+  {
+   "term": "allegedly",
+   "cat": null
+  },
+  {
+   "term": "claimed",
+   "cat": null
+  },
+  {
+   "term": "purported",
+   "cat": null
+  },
+  {
+   "term": "rumored",
+   "cat": null
+  },
+  {
+   "term": "unconfirmed",
+   "cat": null
+  },
+  {
+   "term": "paradox",
+   "cat": null
+  },
+  {
+   "term": "inconsistent",
+   "cat": null
+  },
+  {
+   "term": "contradictory",
+   "cat": null
+  },
+  {
+   "term": "conflict",
+   "cat": null
+  },
+  {
+   "term": "tension",
+   "cat": null
+  },
+  {
+   "term": "doesn't match",
+   "cat": null
+  },
+  {
+   "term": "contrary to",
+   "cat": null
+  },
+  {
+   "term": "opposite",
+   "cat": null
+  }
+ ],
+ "propaganda": [
+  {
+   "term": "they don't want you to know",
+   "cat": "enemy_reification"
+  },
+  {
+   "term": "they're coming for",
+   "cat": "enemy_reification"
+  },
+  {
+   "term": "they want to control",
+   "cat": "enemy_reification"
+  },
+  {
+   "term": "the elites",
+   "cat": "enemy_reification"
+  },
+  {
+   "term": "the powers that be",
+   "cat": "enemy_reification"
+  },
+  {
+   "term": "the establishment",
+   "cat": "enemy_reification"
+  },
+  {
+   "term": "the system",
+   "cat": "enemy_reification"
+  },
+  {
+   "term": "right now",
+   "cat": "false_urgency"
+  },
+  {
+   "term": "before it's too late",
+   "cat": "false_urgency"
+  },
+  {
+   "term": "this is the moment",
+   "cat": "false_urgency"
+  },
+  {
+   "term": "time is running out",
+   "cat": "false_urgency"
+  },
+  {
+   "term": "act now",
+   "cat": "false_urgency"
+  },
+  {
+   "term": "we must",
+   "cat": "false_urgency"
+  },
+  {
+   "term": "immediately",
+   "cat": "false_urgency"
+  },
+  {
+   "term": "urgent",
+   "cat": "false_urgency"
+  },
+  {
+   "term": "crisis",
+   "cat": "false_urgency"
+  },
+  {
+   "term": "it's obvious",
+   "cat": "false_certainty"
+  },
+  {
+   "term": "clearly",
+   "cat": "false_certainty"
+  },
+  {
+   "term": "everyone knows",
+   "cat": "false_certainty"
+  },
+  {
+   "term": "no one can deny",
+   "cat": "false_certainty"
+  },
+  {
+   "term": "the fact is",
+   "cat": "false_certainty"
+  },
+  {
+   "term": "make no mistake",
+   "cat": "false_certainty"
+  },
+  {
+   "term": "without question",
+   "cat": "false_certainty"
+  },
+  {
+   "term": "undeniable",
+   "cat": "false_certainty"
+  },
+  {
+   "term": "wake up",
+   "cat": "conspiracy_signals"
+  },
+  {
+   "term": "connect the dots",
+   "cat": "conspiracy_signals"
+  },
+  {
+   "term": "do your own research",
+   "cat": "conspiracy_signals"
+  },
+  {
+   "term": "think about it",
+   "cat": "conspiracy_signals"
+  },
+  {
+   "term": "it's all connected",
+   "cat": "conspiracy_signals"
+  },
+  {
+   "term": "the plan",
+   "cat": "conspiracy_signals"
+  },
+  {
+   "term": "they planned this",
+   "cat": "conspiracy_signals"
+  },
+  {
+   "term": "coincidence?",
+   "cat": "conspiracy_signals"
+  },
+  {
+   "term": "no coincidences",
+   "cat": "conspiracy_signals"
+  },
+  {
+   "term": "open your eyes",
+   "cat": "conspiracy_signals"
+  },
+  {
+   "term": "only two options",
+   "cat": "false_binary"
+  },
+  {
+   "term": "either/or",
+   "cat": "false_binary"
+  },
+  {
+   "term": "if not this then",
+   "cat": "false_binary"
+  },
+  {
+   "term": "you're either with us",
+   "cat": "false_binary"
+  },
+  {
+   "term": "there's no middle ground",
+   "cat": "false_binary"
+  },
+  {
+   "term": "the only solution",
+   "cat": "false_binary"
+  },
+  {
+   "term": "our children",
+   "cat": "emotional_manipulation"
+  },
+  {
+   "term": "our freedom",
+   "cat": "emotional_manipulation"
+  },
+  {
+   "term": "our way of life",
+   "cat": "emotional_manipulation"
+  },
+  {
+   "term": "everything we hold dear",
+   "cat": "emotional_manipulation"
+  },
+  {
+   "term": "patriotic",
+   "cat": "emotional_manipulation"
+  },
+  {
+   "term": "betrayal",
+   "cat": "emotional_manipulation"
+  },
+  {
+   "term": "traitor",
+   "cat": "emotional_manipulation"
+  },
+  {
+   "term": "threat to democracy",
+   "cat": "emotional_manipulation"
+  },
+  {
+   "term": "always",
+   "cat": "absolutism"
+  },
+  {
+   "term": "never",
+   "cat": "absolutism"
+  },
+  {
+   "term": "all",
+   "cat": "absolutism"
+  },
+  {
+   "term": "none",
+   "cat": "absolutism"
+  },
+  {
+   "term": "every single",
+   "cat": "absolutism"
+  },
+  {
+   "term": "without exception",
+   "cat": "absolutism"
+  },
+  {
+   "term": "absolutely",
+   "cat": "absolutism"
+  },
+  {
+   "term": "completely",
+   "cat": "absolutism"
+  },
+  {
+   "term": "totally",
+   "cat": "absolutism"
+  },
+  {
+   "term": "utterly",
+   "cat": "absolutism"
+  },
+  {
+   "term": "entirely",
+   "cat": "absolutism"
+  },
+  {
+   "term": "i was there",
+   "cat": "insider_appeal"
+  },
+  {
+   "term": "i saw it",
+   "cat": "insider_appeal"
+  },
+  {
+   "term": "i witnessed",
+   "cat": "insider_appeal"
+  },
+  {
+   "term": "trust me",
+   "cat": "insider_appeal"
+  },
+  {
+   "term": "believe me",
+   "cat": "insider_appeal"
+  },
+  {
+   "term": "take my word",
+   "cat": "insider_appeal"
+  },
+  {
+   "term": "as someone who knows",
+   "cat": "insider_appeal"
+  },
+  {
+   "term": "can't be disproven",
+   "cat": "omission_falsification"
+  },
+  {
+   "term": "no evidence against",
+   "cat": "omission_falsification"
+  },
+  {
+   "term": "nothing can stop",
+   "cat": "omission_falsification"
+  },
+  {
+   "term": "inevitable",
+   "cat": "omission_falsification"
+  },
+  {
+   "term": "unstoppable",
+   "cat": "omission_falsification"
+  },
+  {
+   "term": "already happening",
+   "cat": "omission_falsification"
+  }
+ ],
+ "academic_jargon": [
+  {
+   "term": "and ebonics",
+   "cat": null
+  },
+  {
+   "term": "problematize",
+   "cat": null
+  },
+  {
+   "term": "theorize",
+   "cat": null
+  },
+  {
+   "term": "conceptualize",
+   "cat": null
+  },
+  {
+   "term": "contextualize",
+   "cat": null
+  },
+  {
+   "term": "utilize",
+   "cat": null
+  },
+  {
+   "term": "leverage",
+   "cat": null
+  },
+  {
+   "term": "facilitate",
+   "cat": null
+  },
+  {
+   "term": "implement",
+   "cat": null
+  },
+  {
+   "term": "optimize",
+   "cat": null
+  },
+  {
+   "term": "synergize",
+   "cat": null
+  },
+  {
+   "term": "paradigm",
+   "cat": null
+  },
+  {
+   "term": "framework",
+   "cat": null
+  },
+  {
+   "term": "construct",
+   "cat": null
+  },
+  {
+   "term": "modality",
+   "cat": null
+  },
+  {
+   "term": "heuristic",
+   "cat": null
+  },
+  {
+   "term": "hermeneutic",
+   "cat": null
+  },
+  {
+   "term": "epistemological",
+   "cat": null
+  },
+  {
+   "term": "ontological",
+   "cat": null
+  },
+  {
+   "term": "phenomenological",
+   "cat": null
+  },
+  {
+   "term": "praxis",
+   "cat": null
+  },
+  {
+   "term": "dialectic",
+   "cat": null
+  },
+  {
+   "term": "hegemonic",
+   "cat": null
+  },
+  {
+   "term": "normative",
+   "cat": null
+  },
+  {
+   "term": "discursive",
+   "cat": null
+  },
+  {
+   "term": "liminal",
+   "cat": null
+  },
+  {
+   "term": "interstitial",
+   "cat": null
+  },
+  {
+   "term": "performative",
+   "cat": null
+  },
+  {
+   "term": "iterative",
+   "cat": null
+  },
+  {
+   "term": "multivalent",
+   "cat": null
+  },
+  {
+   "term": "polysemic",
+   "cat": null
+  },
+  {
+   "term": "heterogeneous",
+   "cat": null
+  },
+  {
+   "term": "homogeneous",
+   "cat": null
+  },
+  {
+   "term": "exogenous",
+   "cat": null
+  },
+  {
+   "term": "endogenous",
+   "cat": null
+  },
+  {
+   "term": "in terms of",
+   "cat": null
+  },
+  {
+   "term": "with regard to",
+   "cat": null
+  },
+  {
+   "term": "in relation to",
+   "cat": null
+  },
+  {
+   "term": "as it pertains to",
+   "cat": null
+  },
+  {
+   "term": "within the context of",
+   "cat": null
+  },
+  {
+   "term": "from the perspective of",
+   "cat": null
+  },
+  {
+   "term": "vis-à-vis",
+   "cat": null
+  },
+  {
+   "term": "qua",
+   "cat": null
+  },
+  {
+   "term": "ipso facto",
+   "cat": null
+  },
+  {
+   "term": "a priori",
+   "cat": null
+  },
+  {
+   "term": "a posteriori",
+   "cat": null
+  },
+  {
+   "term": "mutatis mutandis",
+   "cat": null
+  },
+  {
+   "term": "aforementioned",
+   "cat": null
+  },
+  {
+   "term": "heretofore",
+   "cat": null
+  },
+  {
+   "term": "henceforth",
+   "cat": null
+  },
+  {
+   "term": "wherein",
+   "cat": null
+  },
+  {
+   "term": "whereby",
+   "cat": null
+  },
+  {
+   "term": "notwithstanding",
+   "cat": null
+  },
+  {
+   "term": "inasmuch",
+   "cat": null
+  },
+  {
+   "term": "insofar",
+   "cat": null
+  },
+  {
+   "term": "whilst",
+   "cat": null
+  }
+ ],
+ "weights": {
+  "fruit": 1,
+  "anti_fruit": -1.5,
+  "grounding": 2,
+  "contradiction": -0.5,
+  "academic_jargon": -0.3,
+  "propaganda": -2
+ },
+ "characterizations": [
+  {
+   "name": "Coherent Storyteller",
+   "conditions": "coherence>0.5 AND grounding<0.1 AND kill_conditions=0",
+   "output": "Coherent narrative structure. Low evidence grounding. No falsifiable predictions offered."
+  },
+  {
+   "name": "Grounded Truth-Teller",
+   "conditions": "grounding>0.3 AND fruit>0.2 AND propaganda<0.05",
+   "output": "Well-grounded in evidence. Virtuous framing. Minimal propaganda markers."
+  },
+  {
+   "name": "Sophisticated Propagandist",
+   "conditions": "coherence>0.5 AND propaganda>0.15 AND grounding<0.1",
+   "output": "High internal consistency with structural deception patterns. Persuasive but ungrounded."
+  },
+  {
+   "name": "Academic Gatekeeper",
+   "conditions": "jargon>0.2 AND grounding<0.15",
+   "output": "Dense jargon obscuring weak substance. Pharisee Function active."
+  },
+  {
+   "name": "Fear Merchant",
+   "conditions": "anti_fruit>0.2 AND propaganda>0.1 AND fruit<0.05",
+   "output": "Heavy control/threat language with propaganda markers. Minimal virtuous framing."
+  },
+  {
+   "name": "Prophet Without Kill Conditions",
+   "conditions": "role=prophet AND kill_conditions=0 AND propaganda>0.1",
+   "output": "Unverifiable future claims. No stated conditions for being wrong. Prophecy without accountability."
+  },
+  {
+   "name": "Balanced Analyst",
+   "conditions": "grounding>0.2 AND contradiction>0.05 AND fruit>0.1",
+   "output": "Evidence-based with acknowledged tensions. Healthy contradiction markers suggest intellectual honesty."
+  },
+  {
+   "name": "Woke Ideologue",
+   "conditions": "anti_fruit_woke>0.15 AND jargon>0.1",
+   "output": "Ideology-heavy language from institutional equity/identity framework. Jargon-dense."
+  },
+  {
+   "name": "Fitts-Pattern Analyst",
+   "conditions": "anti_fruit_fitts>0.15 AND grounding>0.1",
+   "output": "Control grid vocabulary with some evidence grounding. Verify cited sources independently."
+  },
+  {
+   "name": "Pure Fruit",
+   "conditions": "fruit>0.4 AND anti_fruit<0.02 AND grounding<0.05",
+   "output": "Heavily virtuous language. Beautiful — but check for substance beneath the language."
+  }
+ ]
+}

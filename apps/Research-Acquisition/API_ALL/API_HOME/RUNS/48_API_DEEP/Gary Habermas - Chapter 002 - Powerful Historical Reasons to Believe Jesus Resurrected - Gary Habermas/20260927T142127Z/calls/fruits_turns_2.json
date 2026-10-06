@@ -1,0 +1,469 @@
+{
+  "name": "fruits_turns_2",
+  "parsed": {
+    "range": "T031-T050",
+    "turns": [
+      {
+        "id": "T031",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "explains criteria step by step",
+          "kindness": "defines terms for listeners",
+          "goodness": "honest about what critics grant",
+          "faithfulness": "cites skeptical scholars fairly",
+          "self_control": "hedges on eyewitness category"
+        }
+      },
+      {
+        "id": "T032",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "walks through creed transmission slowly",
+          "kindness": "explains plagiarism analogy",
+          "goodness": "notes what Paul actually claims",
+          "faithfulness": "distinguishes Paul's words from sources",
+          "self_control": "careful about dating"
+        }
+      },
+      {
+        "id": "T033",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "builds timeline step by step",
+          "kindness": "illustrates with gestures",
+          "goodness": "concedes different definitions",
+          "faithfulness": "cites Bartman's category fairly",
+          "self_control": "notes scholarly disagreement"
+        }
+      },
+      {
+        "id": "T034",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "explains high christology carefully",
+          "kindness": "defines terms for audience",
+          "goodness": "honest about Dunn's dissent",
+          "faithfulness": "reports both scholars' views",
+          "self_control": "hedges on what they meant"
+        }
+      },
+      {
+        "id": "T035",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "compares religions methodically",
+          "kindness": "says not putting Buddhism down",
+          "goodness": "cites Buddhist source honestly",
+          "faithfulness": "fair to other religions",
+          "self_control": "acknowledges bias charge"
+        }
+      },
+      {
+        "id": "T036",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "lists texts one by one",
+          "kindness": "explains Romans road",
+          "goodness": "notes dating difficulty",
+          "faithfulness": "cites Bartman and critics",
+          "self_control": "hedges on exact dates"
+        }
+      },
+      {
+        "id": "T037",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "explains shema argument slowly",
+          "kindness": "defines Jehovah/Yahweh",
+          "goodness": "reports Dunn's counter fairly",
+          "faithfulness": "includes dissenting view",
+          "self_control": "notes hot discussion"
+        }
+      },
+      {
+        "id": "T038",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "explains methodology step by step",
+          "kindness": "defines minimal facts",
+          "goodness": "honest about criteria",
+          "faithfulness": "same standard for all facts",
+          "self_control": "limits to six facts"
+        }
+      },
+      {
+        "id": "T039",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "walks through each fact",
+          "kindness": "explains burial views",
+          "goodness": "concedes Crossley's view",
+          "faithfulness": "notes no critic holds theft",
+          "self_control": "hedges on empty tomb"
+        }
+      },
+      {
+        "id": "T040",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "explains each fact carefully",
+          "kindness": "defines terms for audience",
+          "goodness": "honest about what he can't prove",
+          "faithfulness": "cites Bartman's concession",
+          "self_control": "watches his words"
+        }
+      },
+      {
+        "id": "T041",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "unpacks sources methodically",
+          "kindness": "explains shroud aside",
+          "goodness": "honest about uncertainty",
+          "faithfulness": "cites skeptical scholars",
+          "self_control": "hedges on shroud"
+        }
+      },
+      {
+        "id": "T042",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "explains Crossley dialogue",
+          "kindness": "reports opponent fairly",
+          "goodness": "honest about Crossley's reasons",
+          "faithfulness": "fair to agnostic scholars",
+          "self_control": "notes dating debate"
+        }
+      },
+      {
+        "id": "T043",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "explains Galatians timeline",
+          "kindness": "defines Greek word",
+          "goodness": "honest about what word proves",
+          "faithfulness": "cites non-evangelical studies",
+          "self_control": "hedges on historeo"
+        }
+      },
+      {
+        "id": "T044",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "explains Paul's Jerusalem visits",
+          "kindness": "defines eyewitness criteria",
+          "goodness": "honest about Gospel authorship",
+          "faithfulness": "cites majority scholarship",
+          "self_control": "notes critics' views"
+        }
+      },
+      {
+        "id": "T045",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "walks through Galatians 2",
+          "kindness": "explains right hand fellowship",
+          "goodness": "honest about what Paul claims",
+          "faithfulness": "cites 1 Corinthians 15",
+          "self_control": "stays on argument"
+        }
+      },
+      {
+        "id": "T046",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "explains Jesus Seminar colors",
+          "kindness": "defines color scheme",
+          "goodness": "honest about their skepticism",
+          "faithfulness": "reports their findings fairly",
+          "self_control": "notes their disbelief"
+        }
+      },
+      {
+        "id": "T047",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "summarizes minimal facts",
+          "kindness": "explains percentages",
+          "goodness": "honest about empty tomb evidence",
+          "faithfulness": "cites scholar agreement",
+          "self_control": "limits claims to evidence"
+        }
+      },
+      {
+        "id": "T048",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "explains naturalistic theories",
+          "kindness": "uses humor to illustrate",
+          "goodness": "honest about crazy theories",
+          "faithfulness": "cites his book with Licona",
+          "self_control": "notes critics gave up theories"
+        }
+      },
+      {
+        "id": "T049",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "explains blind date analogy",
+          "kindness": "fair to those not believing",
+          "goodness": "honest about faith response",
+          "faithfulness": "cites Crossley fairly",
+          "self_control": "distinguishes data from faith"
+        }
+      },
+      {
+        "id": "T050",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "explains Casper appearances",
+          "kindness": "thanks audience for backing",
+          "goodness": "honest about critic views",
+          "faithfulness": "cites Bartman's position",
+          "self_control": "notes where he disagrees"
+        }
+      }
+    ]
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "fruits_turns_2",
+      "attempt": 1,
+      "text": "{\"range\": \"T031-T050\", \"turns\": [\n  {\"id\": \"T031\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,1,2,0,1], \"why\": {\"patience\": \"explains criteria step by step\", \"kindness\": \"defines terms for listeners\", \"goodness\": \"honest about what critics grant\", \"faithfulness\": \"cites skeptical scholars fairly\", \"self_control\": \"hedges on eyewitness category\"}},\n  {\"id\": \"T032\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,1,2,0,1], \"why\": {\"patience\": \"walks through creed transmission slowly\", \"kindness\": \"explains plagiarism analogy\", \"goodness\": \"notes what Paul actually claims\", \"faithfulness\": \"distinguishes Paul's words from sources\", \"self_control\": \"careful about dating\"}},\n  {\"id\": \"T033\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,1,2,0,1], \"why\": {\"patience\": \"builds timeline step by step\", \"kindness\": \"illustrates with gestures\", \"goodness\": \"concedes different definitions\", \"faithfulness\": \"cites Bartman's category fairly\", \"self_control\": \"notes scholarly disagreement\"}},\n  {\"id\": \"T034\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,1,2,0,1], \"why\": {\"patience\": \"explains high christology carefully\", \"kindness\": \"defines terms for audience\", \"goodness\": \"honest about Dunn's dissent\", \"faithfulness\": \"reports both scholars' views\", \"self_control\": \"hedges on what they meant\"}},\n  {\"id\": \"T035\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,1,2,0,1], \"why\": {\"patience\": \"compares religions methodically\", \"kindness\": \"says not putting Buddhism down\", \"goodness\": \"cites Buddhist source honestly\", \"faithfulness\": \"fair to other religions\", \"self_control\": \"acknowledges bias charge\"}},\n  {\"id\": \"T036\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,1,2,0,1], \"why\": {\"patience\": \"lists texts one by one\", \"kindness\": \"explains Romans road\", \"goodness\": \"notes dating difficulty\", \"faithfulness\": \"cites Bartman and critics\", \"self_control\": \"hedges on exact dates\"}},\n  {\"id\": \"T037\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,1,2,0,1], \"why\": {\"patience\": \"explains shema argument slowly\", \"kindness\": \"defines Jehovah/Yahweh\", \"goodness\": \"reports Dunn's counter fairly\", \"faithfulness\": \"includes dissenting view\", \"self_control\": \"notes hot discussion\"}},\n  {\"id\": \"T038\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,1,2,0,1], \"why\": {\"patience\": \"explains methodology step by step\", \"kindness\": \"defines minimal facts\", \"goodness\": \"honest about criteria\", \"faithfulness\": \"same standard for all facts\", \"self_control\": \"limits to six facts\"}},\n  {\"id\": \"T039\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,1,2,0,1], \"why\": {\"patience\": \"walks through each fact\", \"kindness\": \"explains burial views\", \"goodness\": \"concedes Crossley's view\", \"faithfulness\": \"notes no critic holds theft\", \"self_control\": \"hedges on empty tomb\"}},\n  {\"id\": \"T040\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,1,2,0,1], \"why\": {\"patience\": \"explains each fact carefully\", \"kindness\": \"defines terms for audience\", \"goodness\": \"honest about what he can't prove\", \"faithfulness\": \"cites Bartman's concession\", \"self_control\": \"watches his words\"}},\n  {\"id\": \"T041\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,1,2,0,1], \"why\": {\"patience\": \"unpacks sources methodically\", \"kindness\": \"explains shroud aside\", \"goodness\": \"honest about uncertainty\", \"faithfulness\": \"cites skeptical scholars\", \"self_control\": \"hedges on shroud\"}},\n  {\"id\": \"T042\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,1,2,0,1], \"why\": {\"patience\": \"explains Crossley dialogue\", \"kindness\": \"reports opponent fairly\", \"goodness\": \"honest about Crossley's reasons\", \"faithfulness\": \"fair to agnostic scholars\", \"self_control\": \"notes dating debate\"}},\n  {\"id\": \"T043\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,1,2,0,1], \"why\": {\"patience\": \"explains Galatians timeline\", \"kindness\": \"defines Greek word\", \"goodness\": \"honest about what word proves\", \"faithfulness\": \"cites non-evangelical studies\", \"self_control\": \"hedges on historeo\"}},\n  {\"id\": \"T044\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,1,2,0,1], \"why\": {\"patience\": \"explains Paul's Jerusalem visits\", \"kindness\": \"defines eyewitness criteria\", \"goodness\": \"honest about Gospel authorship\", \"faithfulness\": \"cites majority scholarship\", \"self_control\": \"notes critics' views\"}},\n  {\"id\": \"T045\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,1,2,0,1], \"why\": {\"patience\": \"walks through Galatians 2\", \"kindness\": \"explains right hand fellowship\", \"goodness\": \"honest about what Paul claims\", \"faithfulness\": \"cites 1 Corinthians 15\", \"self_control\": \"stays on argument\"}},\n  {\"id\": \"T046\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,1,2,0,1], \"why\": {\"patience\": \"explains Jesus Seminar colors\", \"kindness\": \"defines color scheme\", \"goodness\": \"honest about their skepticism\", \"faithfulness\": \"reports their findings fairly\", \"self_control\": \"notes their disbelief\"}},\n  {\"id\": \"T047\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,1,2,0,1], \"why\": {\"patience\": \"summarizes minimal facts\", \"kindness\": \"explains percentages\", \"goodness\": \"honest about empty tomb evidence\", \"faithfulness\": \"cites scholar agreement\", \"self_control\": \"limits claims to evidence\"}},\n  {\"id\": \"T048\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,1,2,0,1], \"why\": {\"patience\": \"explains naturalistic theories\", \"kindness\": \"uses humor to illustrate\", \"goodness\": \"honest about crazy theories\", \"faithfulness\": \"cites his book with Licona\", \"self_control\": \"notes critics gave up theories\"}},\n  {\"id\": \"T049\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,1,2,0,1], \"why\": {\"patience\": \"explains blind date analogy\", \"kindness\": \"fair to those not believing\", \"goodness\": \"honest about faith response\", \"faithfulness\": \"cites Crossley fairly\", \"self_control\": \"distinguishes data from faith\"}},\n  {\"id\": \"T050\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,1,2,0,1], \"why\": {\"patience\": \"explains Casper appearances\", \"kindness\": \"thanks audience for backing\", \"goodness\": \"honest about critic views\", \"faithfulness\": \"cites Bartman's position\", \"self_control\": \"notes where he disagrees\"}}\n]}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 13426,
+      "completion_tokens": 1962,
+      "attempts": 1,
+      "elapsed_seconds": 8.014999999999418,
+      "started_at": "2026-09-27T14:21:27.353796+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T14:21:35.381855+00:00",
+      "tokens": 15388
+    }
+  ],
+  "prompt_sha256": "f68f5040b61e11c95c51266cf89dbf34f409288d2291f417656ccff57bd4e8d5",
+  "tokens": 15388
+}

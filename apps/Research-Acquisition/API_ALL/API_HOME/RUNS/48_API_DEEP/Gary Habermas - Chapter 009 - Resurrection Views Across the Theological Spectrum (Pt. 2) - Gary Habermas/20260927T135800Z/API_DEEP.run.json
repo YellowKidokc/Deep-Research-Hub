@@ -1,0 +1,144 @@
+{
+  "station": "48_API_DEEP",
+  "source": "C:\\Users\\David\\Documents\\faiththruphysics.com\\30_FRAMEWORKS\\YOUTUBE\\CHANNEL - Gary Habermas - 2026-09-15\\Gary Habermas - Chapter 009 - Resurrection Views Across the Theological Spectrum (Pt. 2) - Gary Habermas.md",
+  "source_sha256": "45bbe45eba687be135d0bd5177af829c7f47d6a4ede9fe6ded6bafd9f97e7d15",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "focus_text": "",
+  "focus_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "finished_at": "2026-09-27T13:58:43.339024+00:00",
+  "errors": {},
+  "tokens_new": 250696,
+  "prompt_files": {
+    "ATOMS_V1_1_INTAKE.md": "db6e9a321f05314a261fce5854aff8c22186a08913c46a0c206d6eaa20e1cfec",
+    "AXIOM_NODES.md": "0c1b184283c6496dbd8bca7b2839658b72744ae9218cdab0505147226fb98515",
+    "AXIOMS_PART1_MODE_CLASSIFICATION.md": "b6e0eb37276b2ccd21bb9e495b0978d4f3c62e85207bbc22cff48b04f1e994c6",
+    "character_profiles.json": "ee2bff2c06bc3c7e9f8dde19d3778b135db84b0812632b93e5627c27a5f9ae5b",
+    "CHARACTER_PROFILES.md": "bc03198519983ffdcba8938af3acf6093357888835526717df149bd074cddedc",
+    "COHERENCE_SCORE.md": "435b6af363ebb30ec45be95a8956877e988e6467240d6a343fe651a1d4160cad",
+    "fruits_report_v0.3.0.schema.json": "543c743fb0b5a5f4f31c8d54b978260be87ddda3bff482aadad87936fffaf5c6",
+    "fruits_rubric_v0.3.0.json": "cc1274786bc105c1fe1226866790b6fe5f878e59e8f3f8019ab8db0b0ff67bd9",
+    "FRUITS_SENTENCES.md": "169c272f869c23043af8aed1bc73edae2e082ddabc1289f066a0f21640cfb027",
+    "FRUITS_SYSTEM_v0.3.0.md": "ceb2d714b4d7871509ddc62a42590e57bc563752b014892f9f36b7133462613a",
+    "FRUITS_V1.md": "c58d9e73b68517bf77fca52394f03842c2a21b7211aaa04e5d04f7af21043af0",
+    "LEAN4.md": "188f8d87a6d3111ce0f9d7aea2b506b57fdd8f4de6e2b614131626f1e065ef6b",
+    "MASTER_EQUATION_V1_PART_B.md": "e3a8d030f2d99428da1b7a17277b0040104276277ee87a5a860241b074e93c86",
+    "MASTER_EQUATION_V2.md": "1a14a22f0423d3b947b5eaee2057162d04da8d4417bdab139e28f3a4cde789db",
+    "STORIES.md": "6a534baa303dbec134bb1aa15cc55cd67eab0a1c643a595cb9d9e232173e953e",
+    "truth_engine_v2_lexicons.json": "3ed54096dcd45220992dbbcf2948c5e1df78ab8ba0c3f747bbe387ffb651785e"
+  },
+  "calls": [
+    {
+      "name": "atoms",
+      "prompt_sha256": "aa511440cd2bed0ac5f2165f16b72c04df256a3acae00f89a1ccecb3def95443",
+      "tokens": 17439,
+      "error": null,
+      "reused": null
+    },
+    {
+      "name": "fruits_sentences_1",
+      "prompt_sha256": "10d80aedfe154dffe27a919918b436501049f82348e0d098d8227a9bee893e24",
+      "tokens": 14597,
+      "error": null,
+      "reused": null
+    },
+    {
+      "name": "fruits_sentences_2",
+      "prompt_sha256": "3ec512674cd1f6bfb2c4e0a15897b1c4867324af52f551693dbd186b25bc0d0b",
+      "tokens": 14542,
+      "error": null,
+      "reused": null
+    },
+    {
+      "name": "fruits_sentences_3",
+      "prompt_sha256": "80002d1086735240936363ac5047c46abd880ec3a7188b82c74d7f20441fc172",
+      "tokens": 14512,
+      "error": null,
+      "reused": null
+    },
+    {
+      "name": "fruits_sentences_4",
+      "prompt_sha256": "0663a29e66503943511cb20fdca571e5303fbc35617d351e0671ed068944cd53",
+      "tokens": 14512,
+      "error": null,
+      "reused": null
+    },
+    {
+      "name": "fruits_sentences_5",
+      "prompt_sha256": "d05e64a033744ac703578719cecf8bf7d58c6745d99aa3f52887f2d8ff49a36c",
+      "tokens": 14574,
+      "error": null,
+      "reused": null
+    },
+    {
+      "name": "fruits_sentences_6",
+      "prompt_sha256": "d8caf3f393e4db47bf345d3d8b0e86e37e3d63e0593bd6d60d117427bfd6f451",
+      "tokens": 14512,
+      "error": null,
+      "reused": null
+    },
+    {
+      "name": "fruits_sentences_7",
+      "prompt_sha256": "9c841b13a2d2878de478da8d0b5b86b5ba62de7fed2767967eb813f18af46220",
+      "tokens": 14512,
+      "error": null,
+      "reused": null
+    },
+    {
+      "name": "fruits_sentences_8",
+      "prompt_sha256": "06ff6b2f7eccae9255652ab026d378083f9b03f30a8969282bed8170ca7c8a60",
+      "tokens": 13730,
+      "error": null,
+      "reused": null
+    },
+    {
+      "name": "master_equation_a1",
+      "prompt_sha256": "cfe1a98b967a609dd224b08c0ee9592c22b9a66f4a24d776b49ad2bbcc1871f7",
+      "tokens": 14390,
+      "error": null,
+      "reused": null
+    },
+    {
+      "name": "master_equation_a2",
+      "prompt_sha256": "cfe1a98b967a609dd224b08c0ee9592c22b9a66f4a24d776b49ad2bbcc1871f7",
+      "tokens": 14107,
+      "error": null,
+      "reused": null
+    },
+    {
+      "name": "fruits",
+      "prompt_sha256": "7f2e51cf9166b889f5b385fe1ca7ca87ead3a96a67eb349ad96c94978f6949d2",
+      "tokens": 22718,
+      "error": null,
+      "reused": null
+    },
+    {
+      "name": "axiom_nodes",
+      "prompt_sha256": "6a8fdab0f1e6dd04841c61fe0f9f0930907800ca3751db9abd37d803fd9252c5",
+      "tokens": 18717,
+      "error": null,
+      "reused": null
+    },
+    {
+      "name": "lean4",
+      "prompt_sha256": "31998b2d15972fd858b0d643c2a054ea7b4a8c443c33c7d8974bdf6a5ec0925b",
+      "tokens": 17248,
+      "error": null,
+      "reused": null
+    },
+    {
+      "name": "stories",
+      "prompt_sha256": "62a6e19549054a8f4fd31d531fa00140215dc1b05400706999e2ce13bb849e88",
+      "tokens": 16555,
+      "error": null,
+      "reused": null
+    },
+    {
+      "name": "coherence",
+      "prompt_sha256": "441a3e328d8ea1ef1d80e084d37ee7c4f99da74e468fbaec1a55a3bdc2a6e384",
+      "tokens": 14031,
+      "error": null,
+      "reused": null
+    }
+  ]
+}

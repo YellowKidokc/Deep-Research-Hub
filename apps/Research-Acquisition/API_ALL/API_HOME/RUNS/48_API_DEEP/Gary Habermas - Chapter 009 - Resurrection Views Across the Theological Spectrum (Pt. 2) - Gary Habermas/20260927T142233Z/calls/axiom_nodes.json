@@ -1,0 +1,281 @@
+{
+  "name": "axiom_nodes",
+  "parsed": {
+    "paper_uuid": "youtube_n84H0KhZ2p8_ch009",
+    "title": "Resurrection Views Across the Theological Spectrum (Pt. 2) - Gary Habermas",
+    "summary": "An interview transcript in which Gary Habermas discusses the scholarly spectrum on the resurrection, his citation practices, the dating of the 1 Corinthians 15 creed, and the practical/theological payoff of the resurrection. The material is almost entirely historical-apologetic and methodological; it touches the axiom system only at the edges, mainly through the general idea that evidence and testimony bear on a resurrection claim and that the resurrection has existential/practical import. It does not engage the formal axioms, definitions, or equations of the canon.",
+    "primary_mode": "HY_EVIDENCE",
+    "axiom_nodes": [
+      {
+        "node_id": "A1.1",
+        "name": "A1.1 — Existence",
+        "mode": "AX_CORE",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "The whole discussion presupposes that Jesus, Paul, and the resurrection events either occurred or did not, but the source never states or argues the bare axiom of existence."
+      },
+      {
+        "node_id": "A1.2",
+        "name": "A1.2 — Distinction",
+        "mode": "AX_CORE",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "Habermas repeatedly distinguishes believers/unbelievers, liberals/conservatives, bodily/non-bodily views, but this is ordinary categorical sorting, not an assertion of the metaphysical axiom of distinction."
+      },
+      {
+        "node_id": "A5.1",
+        "name": "A5.1 — Observation Requirement",
+        "mode": "AX_CORE",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "The interview is about eyewitness testimony and historical observation of resurrection appearances, but it does not assert the axiom that observation is required for actualization."
+      },
+      {
+        "node_id": "BC1",
+        "name": "BC1 — Terminal Observer Exists",
+        "mode": "AX_DERIVED",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "God is mentioned as the one who separates wheat from tares and as the one who views people, but the source does not assert the terminal-observer boundary condition."
+      },
+      {
+        "node_id": "BC2",
+        "name": "BC2 — Grace External To System",
+        "mode": "AX_DERIVED",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "Grace language appears only in the colloquial sense of giving someone grace in interpretation; no claim about grace as an external operator."
+      },
+      {
+        "node_id": "BC7",
+        "name": "BC7 — Information Conservation",
+        "mode": "AX_DERIVED",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "The dating and preservation of early creeds is discussed, but not as a claim about information conservation in the formal sense."
+      },
+      {
+        "node_id": "BC8",
+        "name": "BC8 — Voluntary Coupling",
+        "mode": "AX_DERIVED",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "Belief and unbelief are discussed as free scholarly stances, but the source does not assert the voluntary-coupling axiom."
+      },
+      {
+        "node_id": "D1.1",
+        "name": "D1.1 — Information Definition",
+        "mode": "AX_DERIVED",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "The source deals with historical information and testimony but never defines information in the canon's technical sense."
+      },
+      {
+        "node_id": "D5.1",
+        "name": "D5.1 — Observer Definition",
+        "mode": "AX_DERIVED",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "Eyewitnesses and scholars function as observers of evidence, but no formal observer definition is asserted."
+      },
+      {
+        "node_id": "D19.7",
+        "name": "D19.7 — Law VII Definition (Actualization Requirement)",
+        "mode": "AX_DERIVED",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "The resurrection is treated as an actual event that must be established by evidence, but the source does not state the actualization-requirement law."
+      },
+      {
+        "node_id": "LN1.2",
+        "name": "LN1.2 — It From Bit",
+        "mode": "AX_DERIVED",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "The interview is about historical testimony and creedal information, not about information as ontologically prior to matter."
+      },
+      {
+        "node_id": "A11.1",
+        "name": "A11.1 — Moral Realism",
+        "mode": "AX_DERIVED",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "Jesus's commands to love God and neighbor are cited as practical implications, but the source does not assert moral realism as an axiom."
+      },
+      {
+        "node_id": "A11.2",
+        "name": "A11.2 — Coherence-Morality Identity",
+        "mode": "AX_DERIVED",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "Moral practice is discussed, but not as identical to coherence."
+      },
+      {
+        "node_id": "T11.1",
+        "name": "T11.1 — Virtue As High Phi",
+        "mode": "AX_DERIVED",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "Love of God and neighbor are mentioned as commands, but not framed in terms of integrated information or Phi."
+      },
+      {
+        "node_id": "T12.1",
+        "name": "T12.1 — Heaven As High-Phi Attractor",
+        "mode": "AX_DERIVED",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "Heaven is mentioned in a joke about who will be there, but not as a high-Phi attractor."
+      },
+      {
+        "node_id": "T12.2",
+        "name": "T12.2 — Hell As Low-Phi Attractor",
+        "mode": "AX_DERIVED",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "Hell is mentioned only in a colloquial aside, not as a low-Phi attractor."
+      },
+      {
+        "node_id": "T16.1",
+        "name": "T16.1 — Christianity 8 of 8 BCs",
+        "mode": "AX_DERIVED",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "The interview is broadly Christian-apologetic but never engages the boundary-condition scorecard."
+      },
+      {
+        "node_id": "T16.4",
+        "name": "T16.4 — Buddhism Fails BC1",
+        "mode": "AX_DERIVED",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "Habermas mentions he nearly became a Buddhist and that Buddhism is sometimes claimed to provide a metaphysical background for physics, but he does not evaluate Buddhism against BC1."
+      },
+      {
+        "node_id": "T16.6",
+        "name": "T16.6 — Atheism Fails BC1-BC6",
+        "mode": "AX_DERIVED",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "Atheism and skepticism are discussed as scholarly positions, but not assessed against the boundary conditions."
+      },
+      {
+        "node_id": "PERSONHOOD",
+        "name": "PERSONHOOD — Agency, Intentionality, Relational Capacity",
+        "mode": "AX_DERIVED",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "The source treats scholars and historical figures as agents with intentions and relationships, but does not assert the personhood axiom."
+      },
+      {
+        "node_id": "BRIDGE-PHY-THEO",
+        "name": "BRIDGE-PHY-THEO - Physics-Theology Bridge",
+        "mode": "FW_EXTENDED",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "Habermas briefly mentions the claim that Buddhism provides a metaphysical background for physics, but he does not develop or endorse a physics-theology bridge."
+      },
+      {
+        "node_id": "U3",
+        "name": "U3 — Grace Universal",
+        "mode": "AX_DERIVED",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "Grace is invoked only in the ordinary interpersonal sense, not as a universal principle."
+      },
+      {
+        "node_id": "U4",
+        "name": "U4 — Fruits Universal",
+        "mode": "AX_DERIVED",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "The practical fruits of resurrection belief are discussed, but not as the canon's fruits universal."
+      },
+      {
+        "node_id": "F1",
+        "name": "F1 — Love Measurement Domain",
+        "mode": "FW_EXTENDED",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "Love of God and neighbor are cited as commands, but not as a measurement domain."
+      },
+      {
+        "node_id": "F7",
+        "name": "F7 — Faithfulness Measurement Domain",
+        "mode": "FW_EXTENDED",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "Faith/belief is discussed as a scholarly stance, not as a measurable fruit."
+      },
+      {
+        "node_id": "F9",
+        "name": "F9 — Self-Control Measurement Domain",
+        "mode": "FW_EXTENDED",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "Anger and charity in debate are discussed, but not as self-control measurement."
+      }
+    ],
+    "unmapped_claims": [
+      "A01",
+      "A02",
+      "A03",
+      "A04",
+      "A05",
+      "A06",
+      "A07",
+      "A08",
+      "A09",
+      "A10",
+      "A11",
+      "A12"
+    ]
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "axiom_nodes",
+      "attempt": 1,
+      "text": "{\n  \"paper_uuid\": \"youtube_n84H0KhZ2p8_ch009\",\n  \"title\": \"Resurrection Views Across the Theological Spectrum (Pt. 2) - Gary Habermas\",\n  \"summary\": \"An interview transcript in which Gary Habermas discusses the scholarly spectrum on the resurrection, his citation practices, the dating of the 1 Corinthians 15 creed, and the practical/theological payoff of the resurrection. The material is almost entirely historical-apologetic and methodological; it touches the axiom system only at the edges, mainly through the general idea that evidence and testimony bear on a resurrection claim and that the resurrection has existential/practical import. It does not engage the formal axioms, definitions, or equations of the canon.\",\n  \"primary_mode\": \"HY_EVIDENCE\",\n  \"axiom_nodes\": [\n    {\n      \"node_id\": \"A1.1\",\n      \"name\": \"A1.1 — Existence\",\n      \"mode\": \"AX_CORE\",\n      \"alignment\": \"relevant_but_not_asserted\",\n      \"evidence_quote\": \"\",\n      \"confidence\": \"low\",\n      \"notes\": \"The whole discussion presupposes that Jesus, Paul, and the resurrection events either occurred or did not, but the source never states or argues the bare axiom of existence.\"\n    },\n    {\n      \"node_id\": \"A1.2\",\n      \"name\": \"A1.2 — Distinction\",\n      \"mode\": \"AX_CORE\",\n      \"alignment\": \"relevant_but_not_asserted\",\n      \"evidence_quote\": \"\",\n      \"confidence\": \"low\",\n      \"notes\": \"Habermas repeatedly distinguishes believers/unbelievers, liberals/conservatives, bodily/non-bodily views, but this is ordinary categorical sorting, not an assertion of the metaphysical axiom of distinction.\"\n    },\n    {\n      \"node_id\": \"A5.1\",\n      \"name\": \"A5.1 — Observation Requirement\",\n      \"mode\": \"AX_CORE\",\n      \"alignment\": \"relevant_but_not_asserted\",\n      \"evidence_quote\": \"\",\n      \"confidence\": \"low\",\n      \"notes\": \"The interview is about eyewitness testimony and historical observation of resurrection appearances, but it does not assert the axiom that observation is required for actualization.\"\n    },\n    {\n      \"node_id\": \"BC1\",\n      \"name\": \"BC1 — Terminal Observer Exists\",\n      \"mode\": \"AX_DERIVED\",\n      \"alignment\": \"relevant_but_not_asserted\",\n      \"evidence_quote\": \"\",\n      \"confidence\": \"low\",\n      \"notes\": \"God is mentioned as the one who separates wheat from tares and as the one who views people, but the source does not assert the terminal-observer boundary condition.\"\n    },\n    {\n      \"node_id\": \"BC2\",\n      \"name\": \"BC2 — Grace External To System\",\n      \"mode\": \"AX_DERIVED\",\n      \"alignment\": \"relevant_but_not_asserted\",\n      \"evidence_quote\": \"\",\n      \"confidence\": \"low\",\n      \"notes\": \"Grace language appears only in the colloquial sense of giving someone grace in interpretation; no claim about grace as an external operator.\"\n    },\n    {\n      \"node_id\": \"BC7\",\n      \"name\": \"BC7 — Information Conservation\",\n      \"mode\": \"AX_DERIVED\",\n      \"alignment\": \"relevant_but_not_asserted\",\n      \"evidence_quote\": \"\",\n      \"confidence\": \"low\",\n      \"notes\": \"The dating and preservation of early creeds is discussed, but not as a claim about information conservation in the formal sense.\"\n    },\n    {\n      \"node_id\": \"BC8\",\n      \"name\": \"BC8 — Voluntary Coupling\",\n      \"mode\": \"AX_DERIVED\",\n      \"alignment\": \"relevant_but_not_asserted\",\n      \"evidence_quote\": \"\",\n      \"confidence\": \"low\",\n      \"notes\": \"Belief and unbelief are discussed as free scholarly stances, but the source does not assert the voluntary-coupling axiom.\"\n    },\n    {\n      \"node_id\": \"D1.1\",\n      \"name\": \"D1.1 — Information Definition\",\n      \"mode\": \"AX_DERIVED\",\n      \"alignment\": \"relevant_but_not_asserted\",\n      \"evidence_quote\": \"\",\n      \"confidence\": \"low\",\n      \"notes\": \"The source deals with historical information and testimony but never defines information in the canon's technical sense.\"\n    },\n    {\n      \"node_id\": \"D5.1\",\n      \"name\": \"D5.1 — Observer Definition\",\n      \"mode\": \"AX_DERIVED\",\n      \"alignment\": \"relevant_but_not_asserted\",\n      \"evidence_quote\": \"\",\n      \"confidence\": \"low\",\n      \"notes\": \"Eyewitnesses and scholars function as observers of evidence, but no formal observer definition is asserted.\"\n    },\n    {\n      \"node_id\": \"D19.7\",\n      \"name\": \"D19.7 — Law VII Definition (Actualization Requirement)\",\n      \"mode\": \"AX_DERIVED\",\n      \"alignment\": \"relevant_but_not_asserted\",\n      \"evidence_quote\": \"\",\n      \"confidence\": \"low\",\n      \"notes\": \"The resurrection is treated as an actual event that must be established by evidence, but the source does not state the actualization-requirement law.\"\n    },\n    {\n      \"node_id\": \"LN1.2\",\n      \"name\": \"LN1.2 — It From Bit\",\n      \"mode\": \"AX_DERIVED\",\n      \"alignment\": \"relevant_but_not_asserted\",\n      \"evidence_quote\": \"\",\n      \"confidence\": \"low\",\n      \"notes\": \"The interview is about historical testimony and creedal information, not about information as ontologically prior to matter.\"\n    },\n    {\n      \"node_id\": \"A11.1\",\n      \"name\": \"A11.1 — Moral Realism\",\n      \"mode\": \"AX_DERIVED\",\n      \"alignment\": \"relevant_but_not_asserted\",\n      \"evidence_quote\": \"\",\n      \"confidence\": \"low\",\n      \"notes\": \"Jesus's commands to love God and neighbor are cited as practical implications, but the source does not assert moral realism as an axiom.\"\n    },\n    {\n      \"node_id\": \"A11.2\",\n      \"name\": \"A11.2 — Coherence-Morality Identity\",\n      \"mode\": \"AX_DERIVED\",\n      \"alignment\": \"relevant_but_not_asserted\",\n      \"evidence_quote\": \"\",\n      \"confidence\": \"low\",\n      \"notes\": \"Moral practice is discussed, but not as identical to coherence.\"\n    },\n    {\n      \"node_id\": \"T11.1\",\n      \"name\": \"T11.1 — Virtue As High Phi\",\n      \"mode\": \"AX_DERIVED\",\n      \"alignment\": \"relevant_but_not_asserted\",\n      \"evidence_quote\": \"\",\n      \"confidence\": \"low\",\n      \"notes\": \"Love of God and neighbor are mentioned as commands, but not framed in terms of integrated information or Phi.\"\n    },\n    {\n      \"node_id\": \"T12.1\",\n      \"name\": \"T12.1 — Heaven As High-Phi Attractor\",\n      \"mode\": \"AX_DERIVED\",\n      \"alignment\": \"relevant_but_not_asserted\",\n      \"evidence_quote\": \"\",\n      \"confidence\": \"low\",\n      \"notes\": \"Heaven is mentioned in a joke about who will be there, but not as a high-Phi attractor.\"\n    },\n    {\n      \"node_id\": \"T12.2\",\n      \"name\": \"T12.2 — Hell As Low-Phi Attractor\",\n      \"mode\": \"AX_DERIVED\",\n      \"alignment\": \"relevant_but_not_asserted\",\n      \"evidence_quote\": \"\",\n      \"confidence\": \"low\",\n      \"notes\": \"Hell is mentioned only in a colloquial aside, not as a low-Phi attractor.\"\n    },\n    {\n      \"node_id\": \"T16.1\",\n      \"name\": \"T16.1 — Christianity 8 of 8 BCs\",\n      \"mode\": \"AX_DERIVED\",\n      \"alignment\": \"relevant_but_not_asserted\",\n      \"evidence_quote\": \"\",\n      \"confidence\": \"low\",\n      \"notes\": \"The interview is broadly Christian-apologetic but never engages the boundary-condition scorecard.\"\n    },\n    {\n      \"node_id\": \"T16.4\",\n      \"name\": \"T16.4 — Buddhism Fails BC1\",\n      \"mode\": \"AX_DERIVED\",\n      \"alignment\": \"relevant_but_not_asserted\",\n      \"evidence_quote\": \"\",\n      \"confidence\": \"low\",\n      \"notes\": \"Habermas mentions he nearly became a Buddhist and that Buddhism is sometimes claimed to provide a metaphysical background for physics, but he does not evaluate Buddhism against BC1.\"\n    },\n    {\n      \"node_id\": \"T16.6\",\n      \"name\": \"T16.6 — Atheism Fails BC1-BC6\",\n      \"mode\": \"AX_DERIVED\",\n      \"alignment\": \"relevant_but_not_asserted\",\n      \"evidence_quote\": \"\",\n      \"confidence\": \"low\",\n      \"notes\": \"Atheism and skepticism are discussed as scholarly positions, but not assessed against the boundary conditions.\"\n    },\n    {\n      \"node_id\": \"PERSONHOOD\",\n      \"name\": \"PERSONHOOD — Agency, Intentionality, Relational Capacity\",\n      \"mode\": \"AX_DERIVED\",\n      \"alignment\": \"relevant_but_not_asserted\",\n      \"evidence_quote\": \"\",\n      \"confidence\": \"low\",\n      \"notes\": \"The source treats scholars and historical figures as agents with intentions and relationships, but does not assert the personhood axiom.\"\n    },\n    {\n      \"node_id\": \"BRIDGE-PHY-THEO\",\n      \"name\": \"BRIDGE-PHY-THEO - Physics-Theology Bridge\",\n      \"mode\": \"FW_EXTENDED\",\n      \"alignment\": \"relevant_but_not_asserted\",\n      \"evidence_quote\": \"\",\n      \"confidence\": \"low\",\n      \"notes\": \"Habermas briefly mentions the claim that Buddhism provides a metaphysical background for physics, but he does not develop or endorse a physics-theology bridge.\"\n    },\n    {\n      \"node_id\": \"U3\",\n      \"name\": \"U3 — Grace Universal\",\n      \"mode\": \"AX_DERIVED\",\n      \"alignment\": \"relevant_but_not_asserted\",\n      \"evidence_quote\": \"\",\n      \"confidence\": \"low\",\n      \"notes\": \"Grace is invoked only in the ordinary interpersonal sense, not as a universal principle.\"\n    },\n    {\n      \"node_id\": \"U4\",\n      \"name\": \"U4 — Fruits Universal\",\n      \"mode\": \"AX_DERIVED\",\n      \"alignment\": \"relevant_but_not_asserted\",\n      \"evidence_quote\": \"\",\n      \"confidence\": \"low\",\n      \"notes\": \"The practical fruits of resurrection belief are discussed, but not as the canon's fruits universal.\"\n    },\n    {\n      \"node_id\": \"F1\",\n      \"name\": \"F1 — Love Measurement Domain\",\n      \"mode\": \"FW_EXTENDED\",\n      \"alignment\": \"relevant_but_not_asserted\",\n      \"evidence_quote\": \"\",\n      \"confidence\": \"low\",\n      \"notes\": \"Love of God and neighbor are cited as commands, but not as a measurement domain.\"\n    },\n    {\n      \"node_id\": \"F7\",\n      \"name\": \"F7 — Faithfulness Measurement Domain\",\n      \"mode\": \"FW_EXTENDED\",\n      \"alignment\": \"relevant_but_not_asserted\",\n      \"evidence_quote\": \"\",\n      \"confidence\": \"low\",\n      \"notes\": \"Faith/belief is discussed as a scholarly stance, not as a measurable fruit.\"\n    },\n    {\n      \"node_id\": \"F9\",\n      \"name\": \"F9 — Self-Control Measurement Domain\",\n      \"mode\": \"FW_EXTENDED\",\n      \"alignment\": \"relevant_but_not_asserted\",\n      \"evidence_quote\": \"\",\n      \"confidence\": \"low\",\n      \"notes\": \"Anger and charity in debate are discussed, but not as self-control measurement.\"\n    }\n  ],\n  \"unmapped_claims\": [\n    \"A01\",\n    \"A02\",\n    \"A03\",\n    \"A04\",\n    \"A05\",\n    \"A06\",\n    \"A07\",\n    \"A08\",\n    \"A09\",\n    \"A10\",\n    \"A11\",\n    \"A12\"\n  ]\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 15994,
+      "completion_tokens": 2723,
+      "attempts": 1,
+      "elapsed_seconds": 10.139999999999418,
+      "started_at": "2026-09-27T13:58:17.949050+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T13:58:28.096658+00:00",
+      "tokens": 18717
+    }
+  ],
+  "prompt_sha256": "6a8fdab0f1e6dd04841c61fe0f9f0930907800ca3751db9abd37d803fd9252c5",
+  "tokens": 18717,
+  "reused": true
+}

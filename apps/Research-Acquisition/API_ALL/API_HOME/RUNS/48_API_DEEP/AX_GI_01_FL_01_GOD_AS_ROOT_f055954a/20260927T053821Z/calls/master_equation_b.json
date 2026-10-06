@@ -1,0 +1,528 @@
+{
+  "name": "master_equation_b",
+  "parsed": {
+    "station": "master_equation",
+    "paper_uuid": "AX_GI_01_FL_01_GOD_AS_ROOT_f055954a",
+    "run_uuid": "20260927T053821Z",
+    "master_equation_analysis": {
+      "references_master_equation": true,
+      "reference_spans": [
+        "S393 9. The Master Equation -- the formal center"
+      ],
+      "relationship": "not_assessable",
+      "reason": "The paper references 'The Master Equation' only as a title in the Canon Reading Order (S393), identifying it as 'the formal center' of the series. No mathematical expression, structure, or formal content of the master equation is stated, instantiated, approximated, or contradicted in this paper. The paper's own mathematical content consists of quantitative physical facts (force ratios, fine-tuning, Hubble tension) and a qualitative 24-step causal chain, none of which is presented as the master equation. Relationship cannot be assessed without the master equation's actual form."
+    },
+    "equations": [
+      {
+        "equation_id": "eq-god-as-root-001",
+        "exact_expression": "E = mc^2",
+        "plain_meaning": "Mass and energy are interconvertible; the equation operated in nature for 4.6 billion years before Einstein formulated it.",
+        "symbols": [
+          {
+            "symbol": "E",
+            "definition": "energy",
+            "units_or_type": "joules (J)",
+            "scope": "physics"
+          },
+          {
+            "symbol": "m",
+            "definition": "mass",
+            "units_or_type": "kilograms (kg)",
+            "scope": "physics"
+          },
+          {
+            "symbol": "c",
+            "definition": "speed of light in vacuum",
+            "units_or_type": "meters per second (m/s)",
+            "scope": "physics"
+          }
+        ],
+        "types_domain_codomain": "real scalars -> real scalar",
+        "units": "J = kg * (m/s)^2",
+        "premises_and_boundary_conditions": "Special relativity; inertial reference frames; c constant in vacuum.",
+        "status": "checked",
+        "dimensional_check": "PASS",
+        "source_span": "S357",
+        "atom_uuids": [
+          "A10"
+        ]
+      },
+      {
+        "equation_id": "eq-god-as-root-002",
+        "exact_expression": "cosmological constant tuned to 1 part in 10^120",
+        "plain_meaning": "The cosmological constant's observed value is extraordinarily small relative to naive quantum-field-theory estimates, a fine-tuning claim.",
+        "symbols": [
+          {
+            "symbol": "Lambda",
+            "definition": "cosmological constant",
+            "units_or_type": "1/m^2 (or energy density)",
+            "scope": "cosmology"
+          },
+          {
+            "symbol": "10^120",
+            "definition": "order-of-magnitude ratio of naive QFT vacuum energy to observed dark energy density",
+            "units_or_type": "dimensionless ratio",
+            "scope": "cosmology"
+          }
+        ],
+        "types_domain_codomain": "dimensionless ratio",
+        "units": "dimensionless",
+        "premises_and_boundary_conditions": "Standard cosmological model; quantum field theory vacuum energy estimates; observed dark energy density.",
+        "status": "proposed",
+        "dimensional_check": "PASS",
+        "source_span": "S360",
+        "atom_uuids": [
+          "A11"
+        ]
+      },
+      {
+        "equation_id": "eq-god-as-root-003",
+        "exact_expression": "Hubble tension: 5-sigma discrepancy between two expansion-rate measurements",
+        "plain_meaning": "Two independent measurement methods yield statistically incompatible values for the universe's expansion rate at 5-sigma significance.",
+        "symbols": [
+          {
+            "symbol": "H0",
+            "definition": "Hubble constant / present expansion rate",
+            "units_or_type": "km/s/Mpc",
+            "scope": "cosmology"
+          },
+          {
+            "symbol": "5-sigma",
+            "definition": "statistical significance of the discrepancy",
+            "units_or_type": "dimensionless (standard deviations)",
+            "scope": "statistics"
+          }
+        ],
+        "types_domain_codomain": "measurement comparison",
+        "units": "km/s/Mpc for H0; sigma dimensionless",
+        "premises_and_boundary_conditions": "Assumes standard cosmological model and independent calibration of distance ladder vs. CMB methods.",
+        "status": "open",
+        "dimensional_check": "PASS",
+        "source_span": "S364-S365",
+        "atom_uuids": [
+          "A12"
+        ]
+      },
+      {
+        "equation_id": "eq-god-as-root-004",
+        "exact_expression": "Gravity is 10^36 weaker than electromagnetism",
+        "plain_meaning": "The gravitational force between particles is roughly 10^36 times weaker than the electromagnetic force at comparable scales.",
+        "symbols": [
+          {
+            "symbol": "F_gravity",
+            "definition": "gravitational force",
+            "units_or_type": "newtons (N)",
+            "scope": "physics"
+          },
+          {
+            "symbol": "F_EM",
+            "definition": "electromagnetic force",
+            "units_or_type": "newtons (N)",
+            "scope": "physics"
+          },
+          {
+            "symbol": "10^36",
+            "definition": "order-of-magnitude ratio F_EM/F_gravity",
+            "units_or_type": "dimensionless",
+            "scope": "physics"
+          }
+        ],
+        "types_domain_codomain": "dimensionless ratio",
+        "units": "dimensionless",
+        "premises_and_boundary_conditions": "Comparison at particle scale (e.g., proton-electron); hierarchy problem context.",
+        "status": "checked",
+        "dimensional_check": "PASS",
+        "source_span": "S132",
+        "atom_uuids": [
+          "A03"
+        ]
+      },
+      {
+        "equation_id": "eq-god-as-root-005",
+        "exact_expression": "Strong nuclear force is 137 times stronger than electromagnetism",
+        "plain_meaning": "The strong nuclear force coupling is approximately 137 times the electromagnetic coupling at relevant scales.",
+        "symbols": [
+          {
+            "symbol": "alpha_s",
+            "definition": "strong coupling constant",
+            "units_or_type": "dimensionless",
+            "scope": "particle physics"
+          },
+          {
+            "symbol": "alpha_EM",
+            "definition": "fine-structure constant",
+            "units_or_type": "dimensionless (~1/137)",
+            "scope": "particle physics"
+          },
+          {
+            "symbol": "137",
+            "definition": "ratio alpha_s/alpha_EM",
+            "units_or_type": "dimensionless",
+            "scope": "particle physics"
+          }
+        ],
+        "types_domain_codomain": "dimensionless ratio",
+        "units": "dimensionless",
+        "premises_and_boundary_conditions": "Comparison at nuclear energy scale; running couplings.",
+        "status": "checked",
+        "dimensional_check": "PASS",
+        "source_span": "S143",
+        "atom_uuids": [
+          "A03"
+        ]
+      },
+      {
+        "equation_id": "eq-god-as-root-006",
+        "exact_expression": "Second Law: entropy always increases in a closed system",
+        "plain_meaning": "In an isolated system, total entropy is non-decreasing; decay is irreversible from within.",
+        "symbols": [
+          {
+            "symbol": "S",
+            "definition": "entropy",
+            "units_or_type": "J/K",
+            "scope": "thermodynamics"
+          },
+          {
+            "symbol": "dS/dt",
+            "definition": "rate of entropy change",
+            "units_or_type": "J/(K*s)",
+            "scope": "thermodynamics"
+          }
+        ],
+        "types_domain_codomain": "state function -> real scalar",
+        "units": "J/K",
+        "premises_and_boundary_conditions": "Closed (isolated) system; macroscopic thermodynamics; statistical mechanics.",
+        "status": "checked",
+        "dimensional_check": "PASS",
+        "source_span": "S164",
+        "atom_uuids": [
+          "A02",
+          "A09"
+        ]
+      },
+      {
+        "equation_id": "eq-god-as-root-007",
+        "exact_expression": "Maxwell's four equations unify electricity and magnetism",
+        "plain_meaning": "Four partial differential equations describe all classical electromagnetic phenomena.",
+        "symbols": [
+          {
+            "symbol": "E",
+            "definition": "electric field",
+            "units_or_type": "V/m",
+            "scope": "electromagnetism"
+          },
+          {
+            "symbol": "B",
+            "definition": "magnetic field",
+            "units_or_type": "T",
+            "scope": "electromagnetism"
+          },
+          {
+            "symbol": "rho",
+            "definition": "charge density",
+            "units_or_type": "C/m^3",
+            "scope": "electromagnetism"
+          },
+          {
+            "symbol": "J",
+            "definition": "current density",
+            "units_or_type": "A/m^2",
+            "scope": "electromagnetism"
+          }
+        ],
+        "types_domain_codomain": "vector fields -> vector fields",
+        "units": "V/m, T, C/m^3, A/m^2",
+        "premises_and_boundary_conditions": "Classical electrodynamics; continuous media; no quantum corrections.",
+        "status": "checked",
+        "dimensional_check": "PASS",
+        "source_span": "S161",
+        "atom_uuids": [
+          "A03"
+        ]
+      },
+      {
+        "equation_id": "eq-god-as-root-008",
+        "exact_expression": "Set theory pays nine axioms; Peano arithmetic pays five; general relativity pays two postulates; this framework pays one.",
+        "plain_meaning": "Formal systems rest on unprovable axioms; the framework claims a single axiom (the Trinity) grounds all else.",
+        "symbols": [
+          {
+            "symbol": "axiom count",
+            "definition": "number of foundational assumptions",
+            "units_or_type": "integer",
+            "scope": "formal systems"
+          }
+        ],
+        "types_domain_codomain": "integer counts",
+        "units": "dimensionless",
+        "premises_and_boundary_conditions": "Standard axiomatizations (ZFC, Peano, GR postulates); framework's own derivation grammar.",
+        "status": "proposed",
+        "dimensional_check": "NOT_APPLICABLE",
+        "source_span": "S011-S014",
+        "atom_uuids": [
+          "A01"
+        ]
+      },
+      {
+        "equation_id": "eq-god-as-root-009",
+        "exact_expression": "The Descent: 24-step causal chain from God to the Cross",
+        "plain_meaning": "A qualitative sequence of 24 logical/causal steps tracing being from God through creation, distinction, information, relation, value, morality, agency, world, decay, adversary, debt, justice, mercy, grace, to Christ.",
+        "symbols": [
+          {
+            "symbol": "step n",
+            "definition": "n-th causal step in the chain",
+            "units_or_type": "ordinal",
+            "scope": "theological/philosophical argument"
+          }
+        ],
+        "types_domain_codomain": "qualitative causal chain",
+        "units": "not applicable",
+        "premises_and_boundary_conditions": "Theological premises; no formal proof; 'no premise smuggled, no step skipped' claimed but not formally verified.",
+        "status": "proposed",
+        "dimensional_check": "NOT_APPLICABLE",
+        "source_span": "S315-S338",
+        "atom_uuids": [
+          "A06"
+        ]
+      },
+      {
+        "equation_id": "eq-god-as-root-010",
+        "exact_expression": "Five mathematical requirements map to five classical divine attributes: Necessary existence -> Aseity; Self-grounding -> Self-sufficiency; Eternal -> Eternality; Universal -> Omnipresence; Origin of coherence -> Logos; Active sustenance -> Providence; Personal ground of morality -> Personhood",
+        "plain_meaning": "A mapping table between mathematical requirements for a necessary ground and classical theological attributes.",
+        "symbols": [
+          {
+            "symbol": "requirement",
+            "definition": "property required of the necessary ground",
+            "units_or_type": "qualitative",
+            "scope": "philosophical theology"
+          },
+          {
+            "symbol": "attribute",
+            "definition": "classical divine attribute",
+            "units_or_type": "qualitative",
+            "scope": "theology"
+          }
+        ],
+        "types_domain_codomain": "qualitative mapping",
+        "units": "not applicable",
+        "premises_and_boundary_conditions": "Moral realism; Second Law; coherence/decoherence as universal; five proofs claimed but not shown.",
+        "status": "proposed",
+        "dimensional_check": "NOT_APPLICABLE",
+        "source_span": "S299-S306",
+        "atom_uuids": [
+          "A05"
+        ]
+      },
+      {
+        "equation_id": "eq-god-as-root-011",
+        "exact_expression": "Ten laws map to ten spiritual readings with agency as the repeated missing piece",
+        "plain_meaning": "A table mapping ten physical laws to spiritual concepts, each with 'agency' as the structural gap.",
+        "symbols": [
+          {
+            "symbol": "physical law",
+            "definition": "one of ten physical structures",
+            "units_or_type": "qualitative",
+            "scope": "physics"
+          },
+          {
+            "symbol": "spiritual reading",
+            "definition": "corresponding spiritual concept",
+            "units_or_type": "qualitative",
+            "scope": "theology"
+          },
+          {
+            "symbol": "agency",
+            "definition": "capacity for choice/refusal",
+            "units_or_type": "qualitative",
+            "scope": "philosophy/theology"
+          }
+        ],
+        "types_domain_codomain": "qualitative mapping",
+        "units": "not applicable",
+        "premises_and_boundary_conditions": "Structural correspondence claimed, not proof; needs adversarial testing per S402.",
+        "status": "open",
+        "dimensional_check": "NOT_APPLICABLE",
+        "source_span": "S235-S245",
+        "atom_uuids": [
+          "A03",
+          "A04"
+        ]
+      },
+      {
+        "equation_id": "eq-god-as-root-012",
+        "exact_expression": "Hessian matrix scored the strong nuclear force variable as the most connected node in the system",
+        "plain_meaning": "A Hessian matrix computation over ten differential equations identified the strong-force variable as the most connected node.",
+        "symbols": [
+          {
+            "symbol": "H",
+            "definition": "Hessian matrix of second derivatives",
+            "units_or_type": "matrix",
+            "scope": "dynamical systems"
+          },
+          {
+            "symbol": "coupling strength",
+            "definition": "off-diagonal Hessian entries",
+            "units_or_type": "varies",
+            "scope": "dynamical systems"
+          }
+        ],
+        "types_domain_codomain": "function -> matrix",
+        "units": "depends on system variables",
+        "premises_and_boundary_conditions": "Ten differential equations; coupling strengths computed; no derivation shown in this paper.",
+        "status": "open",
+        "dimensional_check": "NOT_RUN",
+        "source_span": "S151",
+        "atom_uuids": [
+          "A03"
+        ]
+      }
+    ],
+    "symbol_dictionary": [
+      {
+        "symbol": "E",
+        "definition": "energy",
+        "scope": "physics",
+        "alternative_uses": [],
+        "definition_link": "eq-god-as-root-001"
+      },
+      {
+        "symbol": "m",
+        "definition": "mass",
+        "scope": "physics",
+        "alternative_uses": [],
+        "definition_link": "eq-god-as-root-001"
+      },
+      {
+        "symbol": "c",
+        "definition": "speed of light in vacuum",
+        "scope": "physics",
+        "alternative_uses": [],
+        "definition_link": "eq-god-as-root-001"
+      },
+      {
+        "symbol": "Lambda",
+        "definition": "cosmological constant",
+        "scope": "cosmology",
+        "alternative_uses": [],
+        "definition_link": "eq-god-as-root-002"
+      },
+      {
+        "symbol": "H0",
+        "definition": "Hubble constant / present expansion rate",
+        "scope": "cosmology",
+        "alternative_uses": [],
+        "definition_link": "eq-god-as-root-003"
+      },
+      {
+        "symbol": "S",
+        "definition": "entropy",
+        "scope": "thermodynamics",
+        "alternative_uses": [],
+        "definition_link": "eq-god-as-root-006"
+      },
+      {
+        "symbol": "E (field)",
+        "definition": "electric field",
+        "scope": "electromagnetism",
+        "alternative_uses": [
+          "energy in E=mc^2"
+        ],
+        "definition_link": "eq-god-as-root-007"
+      },
+      {
+        "symbol": "B",
+        "definition": "magnetic field",
+        "scope": "electromagnetism",
+        "alternative_uses": [],
+        "definition_link": "eq-god-as-root-007"
+      },
+      {
+        "symbol": "rho",
+        "definition": "charge density",
+        "scope": "electromagnetism",
+        "alternative_uses": [],
+        "definition_link": "eq-god-as-root-007"
+      },
+      {
+        "symbol": "J",
+        "definition": "current density",
+        "scope": "electromagnetism",
+        "alternative_uses": [],
+        "definition_link": "eq-god-as-root-007"
+      },
+      {
+        "symbol": "alpha_s",
+        "definition": "strong coupling constant",
+        "scope": "particle physics",
+        "alternative_uses": [],
+        "definition_link": "eq-god-as-root-005"
+      },
+      {
+        "symbol": "alpha_EM",
+        "definition": "fine-structure constant",
+        "scope": "particle physics",
+        "alternative_uses": [],
+        "definition_link": "eq-god-as-root-005"
+      },
+      {
+        "symbol": "H",
+        "definition": "Hessian matrix",
+        "scope": "dynamical systems",
+        "alternative_uses": [
+          "Hubble constant H0"
+        ],
+        "definition_link": "eq-god-as-root-012"
+      },
+      {
+        "symbol": "agency",
+        "definition": "capacity for genuine choice and refusal",
+        "scope": "philosophy/theology",
+        "alternative_uses": [],
+        "definition_link": "eq-god-as-root-011"
+      },
+      {
+        "symbol": "CDR",
+        "definition": "Coherence-Degradation-Restoration grammar",
+        "scope": "framework",
+        "alternative_uses": [],
+        "definition_link": "S409"
+      },
+      {
+        "symbol": "DG1",
+        "definition": "derivation grammar rule for Layer 0",
+        "scope": "framework",
+        "alternative_uses": [],
+        "definition_link": "S044"
+      },
+      {
+        "symbol": "Layer 0",
+        "definition": "root layer requiring nothing beneath it",
+        "scope": "framework",
+        "alternative_uses": [],
+        "definition_link": "S044"
+      }
+    ],
+    "dimensional_issues": [],
+    "notes": "The paper references 'The Master Equation' only as a title in the Canon Reading Order (S393), calling it 'the formal center' of the series. No mathematical expression or formal structure of the master equation is provided in this paper. The paper's mathematical content consists of: (1) standard physics equations and constants (E=mc^2, Maxwell's equations, Second Law, force ratios, fine-tuning, Hubble tension); (2) qualitative causal chains (24-step Descent); (3) mapping tables between physics and theology; and (4) a claimed Hessian matrix computation whose details are not shown. The relationship to the master equation is therefore not_assessable from this paper alone. The paper's own framework claims a single axiom (Trinity) and a derivation grammar (DG1, CDR) but does not present the master equation itself."
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "master_equation_b",
+      "attempt": 1,
+      "text": "{\n  \"station\": \"master_equation\",\n  \"paper_uuid\": \"AX_GI_01_FL_01_GOD_AS_ROOT_f055954a\",\n  \"run_uuid\": \"20260927T053821Z\",\n  \"master_equation_analysis\": {\n    \"references_master_equation\": true,\n    \"reference_spans\": [\n      \"S393 9. The Master Equation -- the formal center\"\n    ],\n    \"relationship\": \"not_assessable\",\n    \"reason\": \"The paper references 'The Master Equation' only as a title in the Canon Reading Order (S393), identifying it as 'the formal center' of the series. No mathematical expression, structure, or formal content of the master equation is stated, instantiated, approximated, or contradicted in this paper. The paper's own mathematical content consists of quantitative physical facts (force ratios, fine-tuning, Hubble tension) and a qualitative 24-step causal chain, none of which is presented as the master equation. Relationship cannot be assessed without the master equation's actual form.\"\n  },\n  \"equations\": [\n    {\n      \"equation_id\": \"eq-god-as-root-001\",\n      \"exact_expression\": \"E = mc^2\",\n      \"plain_meaning\": \"Mass and energy are interconvertible; the equation operated in nature for 4.6 billion years before Einstein formulated it.\",\n      \"symbols\": [\n        {\"symbol\": \"E\", \"definition\": \"energy\", \"units_or_type\": \"joules (J)\", \"scope\": \"physics\"},\n        {\"symbol\": \"m\", \"definition\": \"mass\", \"units_or_type\": \"kilograms (kg)\", \"scope\": \"physics\"},\n        {\"symbol\": \"c\", \"definition\": \"speed of light in vacuum\", \"units_or_type\": \"meters per second (m/s)\", \"scope\": \"physics\"}\n      ],\n      \"types_domain_codomain\": \"real scalars -> real scalar\",\n      \"units\": \"J = kg * (m/s)^2\",\n      \"premises_and_boundary_conditions\": \"Special relativity; inertial reference frames; c constant in vacuum.\",\n      \"status\": \"checked\",\n      \"dimensional_check\": \"PASS\",\n      \"source_span\": \"S357\",\n      \"atom_uuids\": [\"A10\"]\n    },\n    {\n      \"equation_id\": \"eq-god-as-root-002\",\n      \"exact_expression\": \"cosmological constant tuned to 1 part in 10^120\",\n      \"plain_meaning\": \"The cosmological constant's observed value is extraordinarily small relative to naive quantum-field-theory estimates, a fine-tuning claim.\",\n      \"symbols\": [\n        {\"symbol\": \"Lambda\", \"definition\": \"cosmological constant\", \"units_or_type\": \"1/m^2 (or energy density)\", \"scope\": \"cosmology\"},\n        {\"symbol\": \"10^120\", \"definition\": \"order-of-magnitude ratio of naive QFT vacuum energy to observed dark energy density\", \"units_or_type\": \"dimensionless ratio\", \"scope\": \"cosmology\"}\n      ],\n      \"types_domain_codomain\": \"dimensionless ratio\",\n      \"units\": \"dimensionless\",\n      \"premises_and_boundary_conditions\": \"Standard cosmological model; quantum field theory vacuum energy estimates; observed dark energy density.\",\n      \"status\": \"proposed\",\n      \"dimensional_check\": \"PASS\",\n      \"source_span\": \"S360\",\n      \"atom_uuids\": [\"A11\"]\n    },\n    {\n      \"equation_id\": \"eq-god-as-root-003\",\n      \"exact_expression\": \"Hubble tension: 5-sigma discrepancy between two expansion-rate measurements\",\n      \"plain_meaning\": \"Two independent measurement methods yield statistically incompatible values for the universe's expansion rate at 5-sigma significance.\",\n      \"symbols\": [\n        {\"symbol\": \"H0\", \"definition\": \"Hubble constant / present expansion rate\", \"units_or_type\": \"km/s/Mpc\", \"scope\": \"cosmology\"},\n        {\"symbol\": \"5-sigma\", \"definition\": \"statistical significance of the discrepancy\", \"units_or_type\": \"dimensionless (standard deviations)\", \"scope\": \"statistics\"}\n      ],\n      \"types_domain_codomain\": \"measurement comparison\",\n      \"units\": \"km/s/Mpc for H0; sigma dimensionless\",\n      \"premises_and_boundary_conditions\": \"Assumes standard cosmological model and independent calibration of distance ladder vs. CMB methods.\",\n      \"status\": \"open\",\n      \"dimensional_check\": \"PASS\",\n      \"source_span\": \"S364-S365\",\n      \"atom_uuids\": [\"A12\"]\n    },\n    {\n      \"equation_id\": \"eq-god-as-root-004\",\n      \"exact_expression\": \"Gravity is 10^36 weaker than electromagnetism\",\n      \"plain_meaning\": \"The gravitational force between particles is roughly 10^36 times weaker than the electromagnetic force at comparable scales.\",\n      \"symbols\": [\n        {\"symbol\": \"F_gravity\", \"definition\": \"gravitational force\", \"units_or_type\": \"newtons (N)\", \"scope\": \"physics\"},\n        {\"symbol\": \"F_EM\", \"definition\": \"electromagnetic force\", \"units_or_type\": \"newtons (N)\", \"scope\": \"physics\"},\n        {\"symbol\": \"10^36\", \"definition\": \"order-of-magnitude ratio F_EM/F_gravity\", \"units_or_type\": \"dimensionless\", \"scope\": \"physics\"}\n      ],\n      \"types_domain_codomain\": \"dimensionless ratio\",\n      \"units\": \"dimensionless\",\n      \"premises_and_boundary_conditions\": \"Comparison at particle scale (e.g., proton-electron); hierarchy problem context.\",\n      \"status\": \"checked\",\n      \"dimensional_check\": \"PASS\",\n      \"source_span\": \"S132\",\n      \"atom_uuids\": [\"A03\"]\n    },\n    {\n      \"equation_id\": \"eq-god-as-root-005\",\n      \"exact_expression\": \"Strong nuclear force is 137 times stronger than electromagnetism\",\n      \"plain_meaning\": \"The strong nuclear force coupling is approximately 137 times the electromagnetic coupling at relevant scales.\",\n      \"symbols\": [\n        {\"symbol\": \"alpha_s\", \"definition\": \"strong coupling constant\", \"units_or_type\": \"dimensionless\", \"scope\": \"particle physics\"},\n        {\"symbol\": \"alpha_EM\", \"definition\": \"fine-structure constant\", \"units_or_type\": \"dimensionless (~1/137)\", \"scope\": \"particle physics\"},\n        {\"symbol\": \"137\", \"definition\": \"ratio alpha_s/alpha_EM\", \"units_or_type\": \"dimensionless\", \"scope\": \"particle physics\"}\n      ],\n      \"types_domain_codomain\": \"dimensionless ratio\",\n      \"units\": \"dimensionless\",\n      \"premises_and_boundary_conditions\": \"Comparison at nuclear energy scale; running couplings.\",\n      \"status\": \"checked\",\n      \"dimensional_check\": \"PASS\",\n      \"source_span\": \"S143\",\n      \"atom_uuids\": [\"A03\"]\n    },\n    {\n      \"equation_id\": \"eq-god-as-root-006\",\n      \"exact_expression\": \"Second Law: entropy always increases in a closed system\",\n      \"plain_meaning\": \"In an isolated system, total entropy is non-decreasing; decay is irreversible from within.\",\n      \"symbols\": [\n        {\"symbol\": \"S\", \"definition\": \"entropy\", \"units_or_type\": \"J/K\", \"scope\": \"thermodynamics\"},\n        {\"symbol\": \"dS/dt\", \"definition\": \"rate of entropy change\", \"units_or_type\": \"J/(K*s)\", \"scope\": \"thermodynamics\"}\n      ],\n      \"types_domain_codomain\": \"state function -> real scalar\",\n      \"units\": \"J/K\",\n      \"premises_and_boundary_conditions\": \"Closed (isolated) system; macroscopic thermodynamics; statistical mechanics.\",\n      \"status\": \"checked\",\n      \"dimensional_check\": \"PASS\",\n      \"source_span\": \"S164\",\n      \"atom_uuids\": [\"A02\", \"A09\"]\n    },\n    {\n      \"equation_id\": \"eq-god-as-root-007\",\n      \"exact_expression\": \"Maxwell's four equations unify electricity and magnetism\",\n      \"plain_meaning\": \"Four partial differential equations describe all classical electromagnetic phenomena.\",\n      \"symbols\": [\n        {\"symbol\": \"E\", \"definition\": \"electric field\", \"units_or_type\": \"V/m\", \"scope\": \"electromagnetism\"},\n        {\"symbol\": \"B\", \"definition\": \"magnetic field\", \"units_or_type\": \"T\", \"scope\": \"electromagnetism\"},\n        {\"symbol\": \"rho\", \"definition\": \"charge density\", \"units_or_type\": \"C/m^3\", \"scope\": \"electromagnetism\"},\n        {\"symbol\": \"J\", \"definition\": \"current density\", \"units_or_type\": \"A/m^2\", \"scope\": \"electromagnetism\"}\n      ],\n      \"types_domain_codomain\": \"vector fields -> vector fields\",\n      \"units\": \"V/m, T, C/m^3, A/m^2\",\n      \"premises_and_boundary_conditions\": \"Classical electrodynamics; continuous media; no quantum corrections.\",\n      \"status\": \"checked\",\n      \"dimensional_check\": \"PASS\",\n      \"source_span\": \"S161\",\n      \"atom_uuids\": [\"A03\"]\n    },\n    {\n      \"equation_id\": \"eq-god-as-root-008\",\n      \"exact_expression\": \"Set theory pays nine axioms; Peano arithmetic pays five; general relativity pays two postulates; this framework pays one.\",\n      \"plain_meaning\": \"Formal systems rest on unprovable axioms; the framework claims a single axiom (the Trinity) grounds all else.\",\n      \"symbols\": [\n        {\"symbol\": \"axiom count\", \"definition\": \"number of foundational assumptions\", \"units_or_type\": \"integer\", \"scope\": \"formal systems\"}\n      ],\n      \"types_domain_codomain\": \"integer counts\",\n      \"units\": \"dimensionless\",\n      \"premises_and_boundary_conditions\": \"Standard axiomatizations (ZFC, Peano, GR postulates); framework's own derivation grammar.\",\n      \"status\": \"proposed\",\n      \"dimensional_check\": \"NOT_APPLICABLE\",\n      \"source_span\": \"S011-S014\",\n      \"atom_uuids\": [\"A01\"]\n    },\n    {\n      \"equation_id\": \"eq-god-as-root-009\",\n      \"exact_expression\": \"The Descent: 24-step causal chain from God to the Cross\",\n      \"plain_meaning\": \"A qualitative sequence of 24 logical/causal steps tracing being from God through creation, distinction, information, relation, value, morality, agency, world, decay, adversary, debt, justice, mercy, grace, to Christ.\",\n      \"symbols\": [\n        {\"symbol\": \"step n\", \"definition\": \"n-th causal step in the chain\", \"units_or_type\": \"ordinal\", \"scope\": \"theological/philosophical argument\"}\n      ],\n      \"types_domain_codomain\": \"qualitative causal chain\",\n      \"units\": \"not applicable\",\n      \"premises_and_boundary_conditions\": \"Theological premises; no formal proof; 'no premise smuggled, no step skipped' claimed but not formally verified.\",\n      \"status\": \"proposed\",\n      \"dimensional_check\": \"NOT_APPLICABLE\",\n      \"source_span\": \"S315-S338\",\n      \"atom_uuids\": [\"A06\"]\n    },\n    {\n      \"equation_id\": \"eq-god-as-root-010\",\n      \"exact_expression\": \"Five mathematical requirements map to five classical divine attributes: Necessary existence -> Aseity; Self-grounding -> Self-sufficiency; Eternal -> Eternality; Universal -> Omnipresence; Origin of coherence -> Logos; Active sustenance -> Providence; Personal ground of morality -> Personhood\",\n      \"plain_meaning\": \"A mapping table between mathematical requirements for a necessary ground and classical theological attributes.\",\n      \"symbols\": [\n        {\"symbol\": \"requirement\", \"definition\": \"property required of the necessary ground\", \"units_or_type\": \"qualitative\", \"scope\": \"philosophical theology\"},\n        {\"symbol\": \"attribute\", \"definition\": \"classical divine attribute\", \"units_or_type\": \"qualitative\", \"scope\": \"theology\"}\n      ],\n      \"types_domain_codomain\": \"qualitative mapping\",\n      \"units\": \"not applicable\",\n      \"premises_and_boundary_conditions\": \"Moral realism; Second Law; coherence/decoherence as universal; five proofs claimed but not shown.\",\n      \"status\": \"proposed\",\n      \"dimensional_check\": \"NOT_APPLICABLE\",\n      \"source_span\": \"S299-S306\",\n      \"atom_uuids\": [\"A05\"]\n    },\n    {\n      \"equation_id\": \"eq-god-as-root-011\",\n      \"exact_expression\": \"Ten laws map to ten spiritual readings with agency as the repeated missing piece\",\n      \"plain_meaning\": \"A table mapping ten physical laws to spiritual concepts, each with 'agency' as the structural gap.\",\n      \"symbols\": [\n        {\"symbol\": \"physical law\", \"definition\": \"one of ten physical structures\", \"units_or_type\": \"qualitative\", \"scope\": \"physics\"},\n        {\"symbol\": \"spiritual reading\", \"definition\": \"corresponding spiritual concept\", \"units_or_type\": \"qualitative\", \"scope\": \"theology\"},\n        {\"symbol\": \"agency\", \"definition\": \"capacity for choice/refusal\", \"units_or_type\": \"qualitative\", \"scope\": \"philosophy/theology\"}\n      ],\n      \"types_domain_codomain\": \"qualitative mapping\",\n      \"units\": \"not applicable\",\n      \"premises_and_boundary_conditions\": \"Structural correspondence claimed, not proof; needs adversarial testing per S402.\",\n      \"status\": \"open\",\n      \"dimensional_check\": \"NOT_APPLICABLE\",\n      \"source_span\": \"S235-S245\",\n      \"atom_uuids\": [\"A03\", \"A04\"]\n    },\n    {\n      \"equation_id\": \"eq-god-as-root-012\",\n      \"exact_expression\": \"Hessian matrix scored the strong nuclear force variable as the most connected node in the system\",\n      \"plain_meaning\": \"A Hessian matrix computation over ten differential equations identified the strong-force variable as the most connected node.\",\n      \"symbols\": [\n        {\"symbol\": \"H\", \"definition\": \"Hessian matrix of second derivatives\", \"units_or_type\": \"matrix\", \"scope\": \"dynamical systems\"},\n        {\"symbol\": \"coupling strength\", \"definition\": \"off-diagonal Hessian entries\", \"units_or_type\": \"varies\", \"scope\": \"dynamical systems\"}\n      ],\n      \"types_domain_codomain\": \"function -> matrix\",\n      \"units\": \"depends on system variables\",\n      \"premises_and_boundary_conditions\": \"Ten differential equations; coupling strengths computed; no derivation shown in this paper.\",\n      \"status\": \"open\",\n      \"dimensional_check\": \"NOT_RUN\",\n      \"source_span\": \"S151\",\n      \"atom_uuids\": [\"A03\"]\n    }\n  ],\n  \"symbol_dictionary\": [\n    {\"symbol\": \"E\", \"definition\": \"energy\", \"scope\": \"physics\", \"alternative_uses\": [], \"definition_link\": \"eq-god-as-root-001\"},\n    {\"symbol\": \"m\", \"definition\": \"mass\", \"scope\": \"physics\", \"alternative_uses\": [], \"definition_link\": \"eq-god-as-root-001\"},\n    {\"symbol\": \"c\", \"definition\": \"speed of light in vacuum\", \"scope\": \"physics\", \"alternative_uses\": [], \"definition_link\": \"eq-god-as-root-001\"},\n    {\"symbol\": \"Lambda\", \"definition\": \"cosmological constant\", \"scope\": \"cosmology\", \"alternative_uses\": [], \"definition_link\": \"eq-god-as-root-002\"},\n    {\"symbol\": \"H0\", \"definition\": \"Hubble constant / present expansion rate\", \"scope\": \"cosmology\", \"alternative_uses\": [], \"definition_link\": \"eq-god-as-root-003\"},\n    {\"symbol\": \"S\", \"definition\": \"entropy\", \"scope\": \"thermodynamics\", \"alternative_uses\": [], \"definition_link\": \"eq-god-as-root-006\"},\n    {\"symbol\": \"E (field)\", \"definition\": \"electric field\", \"scope\": \"electromagnetism\", \"alternative_uses\": [\"energy in E=mc^2\"], \"definition_link\": \"eq-god-as-root-007\"},\n    {\"symbol\": \"B\", \"definition\": \"magnetic field\", \"scope\": \"electromagnetism\", \"alternative_uses\": [], \"definition_link\": \"eq-god-as-root-007\"},\n    {\"symbol\": \"rho\", \"definition\": \"charge density\", \"scope\": \"electromagnetism\", \"alternative_uses\": [], \"definition_link\": \"eq-god-as-root-007\"},\n    {\"symbol\": \"J\", \"definition\": \"current density\", \"scope\": \"electromagnetism\", \"alternative_uses\": [], \"definition_link\": \"eq-god-as-root-007\"},\n    {\"symbol\": \"alpha_s\", \"definition\": \"strong coupling constant\", \"scope\": \"particle physics\", \"alternative_uses\": [], \"definition_link\": \"eq-god-as-root-005\"},\n    {\"symbol\": \"alpha_EM\", \"definition\": \"fine-structure constant\", \"scope\": \"particle physics\", \"alternative_uses\": [], \"definition_link\": \"eq-god-as-root-005\"},\n    {\"symbol\": \"H\", \"definition\": \"Hessian matrix\", \"scope\": \"dynamical systems\", \"alternative_uses\": [\"Hubble constant H0\"], \"definition_link\": \"eq-god-as-root-012\"},\n    {\"symbol\": \"agency\", \"definition\": \"capacity for genuine choice and refusal\", \"scope\": \"philosophy/theology\", \"alternative_uses\": [], \"definition_link\": \"eq-god-as-root-011\"},\n    {\"symbol\": \"CDR\", \"definition\": \"Coherence-Degradation-Restoration grammar\", \"scope\": \"framework\", \"alternative_uses\": [], \"definition_link\": \"S409\"},\n    {\"symbol\": \"DG1\", \"definition\": \"derivation grammar rule for Layer 0\", \"scope\": \"framework\", \"alternative_uses\": [], \"definition_link\": \"S044\"},\n    {\"symbol\": \"Layer 0\", \"definition\": \"root layer requiring nothing beneath it\", \"scope\": \"framework\", \"alternative_uses\": [], \"definition_link\": \"S044\"}\n  ],\n  \"dimensional_issues\": [],\n  \"notes\": \"The paper references 'The Master Equation' only as a title in the Canon Reading Order (S393), calling it 'the formal center' of the series. No mathematical expression or formal structure of the master equation is provided in this paper. The paper's mathematical content consists of: (1) standard physics equations and constants (E=mc^2, Maxwell's equations, Second Law, force ratios, fine-tuning, Hubble tension); (2) qualitative causal chains (24-step Descent); (3) mapping tables between physics and theology; and (4) a claimed Hessian matrix computation whose details are not shown. The relationship to the master equation is therefore not_assessable from this paper alone. The paper's own framework claims a single axiom (Trinity) and a derivation grammar (DG1, CDR) but does not present the master equation itself.\"\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 11139,
+      "completion_tokens": 4241,
+      "attempts": 1,
+      "elapsed_seconds": 16.110000000000582,
+      "started_at": "2026-09-27T05:39:04.948052+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T05:39:21.051870+00:00",
+      "tokens": 15380
+    }
+  ],
+  "prompt_sha256": "6c9c1827f299bfd7e769be392d2bbf4b5193b2f1e332a1576a91592b3a9b3be3",
+  "tokens": 15380
+}

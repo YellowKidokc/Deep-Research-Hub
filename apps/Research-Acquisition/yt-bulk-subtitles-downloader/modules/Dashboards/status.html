@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>POF 2828 - System Status</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
+*{box-sizing:border-box}
+:root{
+  --bg:#0a0c10;--pane:#10131a;--card:#151923;--card2:#1b202c;--line:#252b3a;
+  --text:#d8dbe5;--muted:#858a9b;--dim:#555b6f;--gold:#e8a912;--cyan:#4ac4d4;
+  --green:#31d08f;--red:#dc5a5a;--purple:#8d7ce2;--font:'DM Mono','Cascadia Mono','Menlo',monospace;
+}
+html,body{height:100%;margin:0}
+body{background:var(--bg);color:var(--text);font-family:var(--font);font-size:11px;display:flex;flex-direction:column;max-width:460px;margin-inline:auto;overflow:hidden}
+button{cursor:pointer;font:inherit}
+::-webkit-scrollbar{width:5px}::-webkit-scrollbar-thumb{background:#30364a;border-radius:4px}
+.topbar{display:flex;align-items:center;gap:8px;padding:8px 10px;background:var(--pane);border-bottom:1px solid var(--line);flex-shrink:0}
+.brand{color:var(--gold);font-size:10px;font-weight:500;letter-spacing:1.4px;flex:1}
+.sub{color:var(--muted);font-size:9px;letter-spacing:.8px;text-transform:uppercase}
+.refresh-btn{background:rgba(232,169,18,.1);border:1px solid rgba(232,169,18,.3);color:var(--gold);border-radius:6px;padding:4px 10px;font-size:9px;letter-spacing:.8px}
+.refresh-btn:hover{background:rgba(232,169,18,.2)}
+.scroll{flex:1;overflow-y:auto;padding:8px}
+
+.section-label{color:var(--muted);text-transform:uppercase;letter-spacing:1px;font-size:8px;margin:8px 0 5px;padding-left:2px}
+
+.svc-card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:9px 10px;margin-bottom:6px;display:grid;grid-template-columns:10px 1fr auto;gap:8px;align-items:center}
+.dot{width:9px;height:9px;border-radius:50%;background:var(--dim);flex-shrink:0;box-shadow:0 0 0 0 transparent;transition:background .3s,box-shadow .3s}
+.dot.green{background:var(--green);box-shadow:0 0 7px var(--green)}
+.dot.red{background:var(--red);box-shadow:0 0 7px var(--red)}
+.dot.spin{background:var(--gold);animation:pulse 1s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+.svc-body{min-width:0}
+.svc-name{color:var(--text);font-weight:500;font-size:11px;margin-bottom:2px}
+.svc-detail{color:var(--muted);font-size:9px;line-height:1.5;white-space:pre-wrap;word-break:break-all}
+.retry-btn{background:transparent;border:1px solid var(--line);color:var(--muted);border-radius:5px;padding:3px 8px;font-size:8px;letter-spacing:.6px;white-space:nowrap}
+.retry-btn:hover{border-color:var(--cyan);color:var(--cyan)}
+
+.stats-grid{display:grid;grid-template-columns:1fr 1fr;gap:5px;margin-bottom:8px}
+.stat-box{background:var(--card);border:1px solid var(--line);border-radius:7px;padding:8px 10px}
+.stat-val{font-size:22px;font-weight:500;color:var(--gold);line-height:1}
+.stat-key{color:var(--muted);font-size:8px;text-transform:uppercase;letter-spacing:.7px;margin-top:2px}
+
+.action-grid{display:grid;grid-template-columns:1fr 1fr;gap:5px;margin-bottom:8px}
+.action-btn{background:var(--card);border:1px solid var(--line);border-radius:7px;padding:10px 8px;text-align:center;color:var(--muted);font-size:9px;letter-spacing:.8px;text-transform:uppercase}
+.action-btn:hover{border-color:var(--gold);color:var(--gold);background:rgba(232,169,18,.07)}
+.action-btn.primary{border-color:rgba(49,208,143,.3);color:var(--green);background:rgba(49,208,143,.07)}
+.action-btn.primary:hover{background:rgba(49,208,143,.15)}
+.action-icon{display:block;font-size:18px;margin-bottom:4px}
+
+.footer{display:flex;align-items:center;justify-content:space-between;padding:6px 10px;background:var(--pane);border-top:1px solid var(--line);flex-shrink:0;color:var(--dim);font-size:8px}
+.countdown{color:var(--gold)}
+</style>
+</head>
+<body>
+<div class="topbar">
+  <span class="brand">POF 2828</span>
+  <span class="sub">System Status</span>
+  <button class="refresh-btn" onclick="checkAll()">REFRESH</button>
+</div>
+
+<div class="scroll">
+
+  <div class="section-label">Services</div>
+
+  <div class="svc-card">
+    <div class="dot spin" id="dot-python"></div>
+    <div class="svc-body">
+      <div class="svc-name">Python Server</div>
+      <div class="svc-detail" id="detail-python">Checking localhost:3456…</div>
+    </div>
+    <button class="retry-btn" onclick="checkPython()">RETRY</button>
+  </div>
+
+  <div class="svc-card">
+    <div class="dot spin" id="dot-db"></div>
+    <div class="svc-body">
+      <div class="svc-name">Database</div>
+      <div class="svc-detail" id="detail-db">Checking clipboard.db…</div>
+    </div>
+    <button class="retry-btn" onclick="checkPython()">RETRY</button>
+  </div>
+
+  <div class="svc-card">
+    <div class="dot spin" id="dot-ahk"></div>
+    <div class="svc-body">
+      <div class="svc-name">AutoHotkey</div>
+      <div class="svc-detail" id="detail-ahk">Checking process list…</div>
+    </div>
+    <button class="retry-btn" onclick="checkPython()">RETRY</button>
+  </div>
+
+  <div class="svc-card">
+    <div class="dot spin" id="dot-cf"></div>
+    <div class="svc-body">
+      <div class="svc-name">Cloudflare</div>
+      <div class="svc-detail" id="detail-cf">Checking clipboard.dlowehomelab.com…</div>
+    </div>
+    <button class="retry-btn" onclick="checkCloudflare()">RETRY</button>
+  </div>
+
+  <div class="svc-card">
+    <div class="dot spin" id="dot-lan"></div>
+    <div class="svc-body">
+      <div class="svc-name">LAN Server</div>
+      <div class="svc-detail" id="detail-lan">Checking 192.168.1.177:3456…</div>
+    </div>
+    <button class="retry-btn" onclick="checkLAN()">RETRY</button>
+  </div>
+
+  <div class="section-label">Stats</div>
+  <div class="stats-grid">
+    <div class="stat-box"><div class="stat-val" id="stat-clips">–</div><div class="stat-key">Total Clips</div></div>
+    <div class="stat-box"><div class="stat-val" id="stat-slots">–</div><div class="stat-key">Slots Filled</div></div>
+    <div class="stat-box"><div class="stat-val" id="stat-pinned">–</div><div class="stat-key">Pinned</div></div>
+    <div class="stat-box"><div class="stat-val" id="stat-cache">–</div><div class="stat-key">Slot Cache Files</div></div>
+  </div>
+
+  <div class="section-label">Actions</div>
+  <div class="action-grid">
+    <button class="action-btn primary" onclick="syncSlots()"><span class="action-icon">⚡</span>Sync Slots</button>
+    <button class="action-btn" onclick="open('/clipboard3','_self')"><span class="action-icon">📋</span>Clipboard</button>
+    <button class="action-btn" onclick="open('/prompts','_self')"><span class="action-icon">💬</span>Prompts</button>
+    <button class="action-btn" onclick="open('/calendar','_self')"><span class="action-icon">📅</span>Calendar</button>
+  </div>
+
+</div>
+
+<div class="footer">
+  <span id="last-checked">Not checked yet</span>
+  <span>Auto-refresh in <span class="countdown" id="countdown">15</span>s</span>
+</div>
+
+<script>
+const LOCAL = 'http://localhost:3456';
+const CF    = 'http://clipboard.dlowehomelab.com';
+const LAN   = 'http://192.168.1.177:3456';
+
+function dot(id, state) {
+  const el = document.getElementById('dot-' + id);
+  el.className = 'dot ' + state;
+}
+function detail(id, txt) {
+  document.getElementById('detail-' + id).textContent = txt;
+}
+
+async function checkPython() {
+  dot('python', 'spin'); dot('db', 'spin'); dot('ahk', 'spin');
+  detail('python', 'Checking…'); detail('db', 'Checking…'); detail('ahk', 'Checking…');
+  try {
+    const t0 = performance.now();
+    const r = await fetch(LOCAL + '/api/status', { signal: AbortSignal.timeout(4000) });
+    const ms = Math.round(performance.now() - t0);
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    const d = await r.json();
+
+    dot('python', 'green');
+    detail('python', `OK · ${ms}ms · port 3456`);
+
+    dot('db', d.db ? 'green' : 'red');
+    detail('db', d.db
+      ? `${d.clip_count} clips · ${d.slots_filled} slots · ${d.pinned_count} pinned`
+      : 'Cannot read clipboard.db');
+
+    dot('ahk', d.ahk_running ? 'green' : 'red');
+    detail('ahk', d.ahk_running ? 'AutoHotkey process is running' : 'Not detected — may need restart');
+
+    document.getElementById('stat-clips').textContent  = d.clip_count ?? '–';
+    document.getElementById('stat-slots').textContent  = d.slots_filled ?? '–';
+    document.getElementById('stat-pinned').textContent = d.pinned_count ?? '–';
+    document.getElementById('stat-cache').textContent  = d.slot_cache_files ?? '–';
+  } catch (e) {
+    dot('python', 'red'); detail('python', 'OFFLINE — ' + e.message);
+    dot('db', 'red');     detail('db', 'Cannot reach server');
+    dot('ahk', 'red');    detail('ahk', 'Cannot reach server');
+  }
+}
+
+async function checkCloudflare() {
+  dot('cf', 'spin'); detail('cf', 'Checking clipboard.dlowehomelab.com…');
+  try {
+    const t0 = performance.now();
+    const r = await fetch(CF + '/api/clips?limit=1', { signal: AbortSignal.timeout(5000) });
+    const ms = Math.round(performance.now() - t0);
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    dot('cf', 'green');
+    detail('cf', `Online · ${ms}ms · clipboard.dlowehomelab.com`);
+  } catch (e) {
+    dot('cf', 'red');
+    detail('cf', 'Offline · ' + (e.name === 'TimeoutError' ? 'Timed out' : e.message));
+  }
+}
+
+async function checkLAN() {
+  dot('lan', 'spin'); detail('lan', 'Checking 192.168.1.177:3456…');
+  try {
+    const t0 = performance.now();
+    const r = await fetch(LAN + '/health', { signal: AbortSignal.timeout(3000) });
+    const ms = Math.round(performance.now() - t0);
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    dot('lan', 'green');
+    detail('lan', `Online · ${ms}ms · 192.168.1.177:3456`);
+  } catch (e) {
+    dot('lan', 'red');
+    detail('lan', 'Offline · ' + (e.name === 'TimeoutError' ? 'Timed out (not on LAN?)' : e.message));
+  }
+}
+
+async function syncSlots() {
+  try {
+    const r = await fetch(LOCAL + '/api/slots/refresh');
+    const d = await r.json();
+    document.getElementById('stat-cache').textContent = d.written ?? '?';
+    alert('Slot cache refreshed — ' + (d.written ?? 0) + ' files written');
+  } catch {
+    alert('Could not reach server');
+  }
+}
+
+async function checkAll() {
+  resetCountdown();
+  await Promise.all([checkPython(), checkCloudflare(), checkLAN()]);
+  const now = new Date();
+  document.getElementById('last-checked').textContent =
+    'Last checked ' + now.toLocaleTimeString();
+}
+
+let countdown = 15;
+function resetCountdown() { countdown = 15; document.getElementById('countdown').textContent = 15; }
+setInterval(() => {
+  countdown--;
+  document.getElementById('countdown').textContent = Math.max(countdown, 0);
+  if (countdown <= 0) checkAll();
+}, 1000);
+
+checkAll();
+</script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+{
+  "start_offset": 0,
+  "cases_processed": 5,
+  "source_hubs": 12,
+  "batch_rows_written": 2,
+  "summary": [
+    {
+      "case_id": "CASE-0001",
+      "case_title": "illuminati",
+      "links_added": 2
+    },
+    {
+      "case_id": "CASE-0002",
+      "case_title": "conspiracy theories",
+      "links_added": 0
+    },
+    {
+      "case_id": "CASE-0003",
+      "case_title": "flat earth",
+      "links_added": 0
+    },
+    {
+      "case_id": "CASE-0004",
+      "case_title": "area 51",
+      "links_added": 0
+    },
+    {
+      "case_id": "CASE-0005",
+      "case_title": "new world order",
+      "links_added": 0
+    }
+  ]
+}

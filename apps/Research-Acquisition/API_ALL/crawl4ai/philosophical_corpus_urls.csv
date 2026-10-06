@@ -1,0 +1,314 @@
+but you never hear about Christ ,Category,Text,URL,Priority,Notes
+TOE,TOE Framework,General Relativity,https://en.wikipedia.org/wiki/General_relativity,HIGH,General relativity describes gravity as the curvature of spacetime caused by mass-energy
+TOE,TOE Framework,Quantum Mechanics (Copenhagen),https://en.wikipedia.org/wiki/Copenhagen_interpretation,HIGH,The Copenhagen interpretation treats the wavefunction as encoding probabilities of measurement outcomes
+TOE,TOE Framework,Schrödinger Equation,https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation,HIGH,The Schrödinger equation describes how the quantum state of a system evolves in time
+TOE,TOE Framework,Born Rule,https://en.wikipedia.org/wiki/Born_rule,HIGH,The Born rule states that the probability of a measurement outcome equals the squared amplitude
+TOE,TOE Framework,Heisenberg Uncertainty Principle,https://en.wikipedia.org/wiki/Uncertainty_principle,HIGH,The uncertainty principle states that certain pairs of physical properties cannot both be known precisely
+TOE,TOE Framework,Second Law of Thermodynamics,https://en.wikipedia.org/wiki/Second_law_of_thermodynamics,HIGH,The second law states that entropy of isolated systems never decreases
+TOE,TOE Framework,Shannon Information Theory,https://en.wikipedia.org/wiki/Information_theory,HIGH,Shannon theory quantifies information as H = -Σp log p establishing fundamental limits
+TOE,TOE Framework,Standard Model of Particle Physics,https://en.wikipedia.org/wiki/Standard_Model,HIGH,The Standard Model describes fundamental particles and forces via gauge symmetries
+TOE,TOE Framework,Many-Worlds Interpretation,https://en.wikipedia.org/wiki/Many-worlds_interpretation,HIGH,Many-worlds interprets quantum mechanics without collapse - all outcomes occur in branching universes
+TOE,TOE Framework,Wave Function Collapse,https://en.wikipedia.org/wiki/Wave_function_collapse,HIGH,The measurement problem asks how the superposition reduces to a definite outcome
+TOE,TOE Framework,Participatory Anthropic Principle,https://en.wikipedia.org/wiki/Anthropic_principle,HIGH,Wheeler proposed observers are necessary for the universe to exist
+TOE,TOE Framework,QBism,https://en.wikipedia.org/wiki/QBism,HIGH,QBism treats quantum states as personal probability assignments not objective features
+TOE,TOE Framework,Algorithmic Information Theory,https://en.wikipedia.org/wiki/Algorithmic_information_theory,HIGH,Kolmogorov complexity measures information content by shortest program length
+TOE,TOE Framework,Computational Universe Hypothesis,https://en.wikipedia.org/wiki/Digital_physics,HIGH,Zuse-Lloyd hypothesis - the universe is a giant quantum computer
+TOE,TOE Framework,Digital Physics,https://en.wikipedia.org/wiki/Digital_physics,HIGH,Reality is fundamentally information-theoretic and computable
+TOE,TOE Framework,Principle of Least Action,https://en.wikipedia.org/wiki/Principle_of_least_action,HIGH,Physical systems follow paths that extremize the action integral
+TOE,TOE Framework,Gödel Incompleteness,https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems,HIGH,Any consistent formal system contains true but unprovable statements
+TOE,TOE Framework,Unitarity,https://en.wikipedia.org/wiki/Unitarity_(physics),HIGH,Quantum evolution preserves total probability via unitary operators
+TOE,TOE Framework,Projection Postulate,https://en.wikipedia.org/wiki/Wave_function_collapse,MEDIUM,Upon measurement the state projects onto an eigenstate of the measured observable
+TOE,TOE Framework,Quantum Darwinism,https://en.wikipedia.org/wiki/Quantum_Darwinism,HIGH,Classical reality emerges via redundant encoding of information in environment
+TOE,TOE Framework,Klein-Gordon Equation,https://en.wikipedia.org/wiki/Klein%E2%80%93Gordon_equation,MEDIUM,Relativistic wave equation for spin-0 particles
+TOE,TOE Framework,Yukawa Coupling,https://en.wikipedia.org/wiki/Yukawa_interaction,MEDIUM,Interaction between scalar field and Dirac field giving fermion masses
+TOE,TOE Framework,Black Hole Information Paradox,https://en.wikipedia.org/wiki/Black_hole_information_paradox,HIGH,Conflict between quantum unitarity and Hawking radiation
+TOE,TOE Framework,Planck's Law,https://en.wikipedia.org/wiki/Planck%27s_law,HIGH,Blackbody radiation spectrum requiring energy quantization
+TOE,TOE Framework,Landauer's Principle,https://en.wikipedia.org/wiki/Landauer%27s_principle,HIGH,Erasing one bit of information dissipates at least kT ln 2 energy
+TOE,TOE Framework,Boltzmann Entropy,https://en.wikipedia.org/wiki/Boltzmann%27s_entropy_formula,HIGH,S = k ln W connects entropy to number of microstates
+TOE,TOE Framework,ΛCDM Cosmology,https://en.wikipedia.org/wiki/Lambda-CDM_model,HIGH,Standard model of cosmology with dark energy and cold dark matter
+TOE,TOE Framework,Hubble Tension,https://en.wikipedia.org/wiki/Hubble%27s_law,HIGH,Discrepancy between local and CMB measurements of expansion rate
+TOE,TOE Framework,de Sitter Space,https://en.wikipedia.org/wiki/De_Sitter_space,MEDIUM,Maximally symmetric spacetime with positive cosmological constant
+TOE,TOE Framework,Rosetta Stone (Physics-Math-CS),https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence,HIGH,Baez-Stay unification of physics logic and computation
+TOE,TOE Framework,Infant Moral Cognition,https://en.wikipedia.org/wiki/Infant_cognition,HIGH,Experimental evidence for innate moral sense in infants
+TOE,TOE Framework,fMRI Moral Judgment,https://en.wikipedia.org/wiki/Functional_magnetic_resonance_imaging,MEDIUM,Neural correlates of moral decision making
+TOE,TOE Framework,Integrated Information Theory,https://en.wikipedia.org/wiki/Integrated_information_theory,HIGH,Tononi's IIT - consciousness equals integrated information Φ
+TOE,TOE Framework,Orch OR (Penrose-Hameroff),https://en.wikipedia.org/wiki/Orchestrated_objective_reduction,HIGH,Quantum consciousness via microtubule collapse
+TOE,TOE Framework,Global Workspace Theory,https://pmc.ncbi.nlm.nih.gov/articles/PMC2771980/,HIGH,Baars' theater model of conscious access
+TOE,TOE Framework,Bistable Perception,https://en.wikipedia.org/wiki/Multistable_perception,MEDIUM,Neural dynamics of perceptual switching
+TOE,TOE Framework,Bell's Theorem,https://en.wikipedia.org/wiki/Bell%27s_theorem,HIGH,No local hidden variable theory can reproduce quantum correlations
+TOE,TOE Framework,Decoherence,https://en.wikipedia.org/wiki/Quantum_decoherence,HIGH,Environmental interaction destroys quantum superpositions
+TOE,TOE Framework,No-Cloning Theorem,https://en.wikipedia.org/wiki/No-cloning_theorem,HIGH,Quantum states cannot be perfectly copied
+TOE,TOE Framework,Kochen-Specker Theorem,https://en.wikipedia.org/wiki/Kochen%E2%80%93Specker_theorem,HIGH,Quantum observables lack pre-existing values
+TOE,TOE Framework,Gleason's Theorem,https://en.wikipedia.org/wiki/Gleason%27s_theorem,MEDIUM,Uniqueness of quantum probability measure
+TOE,TOE Framework,EPR Paradox,https://en.wikipedia.org/wiki/EPR_paradox,HIGH,Einstein's challenge to quantum completeness
+TOE,TOE Framework,Bekenstein Bound,https://en.wikipedia.org/wiki/Bekenstein_bound,HIGH,Maximum entropy in bounded region
+TOE,TOE Framework,Chaos Theory,https://en.wikipedia.org/wiki/Chaos_theory,HIGH,Sensitive dependence on initial conditions
+TOE,TOE Framework,Church-Turing Thesis,https://en.wikipedia.org/wiki/Church%E2%80%93Turing_thesis,HIGH,All computable functions are Turing computable
+TOE,TOE Framework,Quantum Error Correction,https://en.wikipedia.org/wiki/Quantum_error_correction,HIGH,Protecting quantum information from decoherence
+TOE,TOE Framework,Holevo Bound,https://en.wikipedia.org/wiki/Holevo%27s_theorem,MEDIUM,Limit on classical information from quantum states
+TOE,TOE Framework,Mutual Information,https://en.wikipedia.org/wiki/Mutual_information,HIGH,Measure of shared information between variables
+TOE,TOE Framework,Fisher Information,https://en.wikipedia.org/wiki/Fisher_information,MEDIUM,Information about parameter from observable
+TOE,TOE Framework,Epigenetics,https://en.wikipedia.org/wiki/Epigenetics,HIGH,Heritable changes not involving DNA sequence
+TOE,TOE Framework,Simulated Annealing,https://en.wikipedia.org/wiki/Simulated_annealing,MEDIUM,Optimization via thermal fluctuation analog
+TOE,TOE Framework,Monte Carlo Methods,https://en.wikipedia.org/wiki/Monte_Carlo_method,MEDIUM,Stochastic sampling for integration/optimization
+TOE,TOE Framework,Genetic Algorithms,https://en.wikipedia.org/wiki/Genetic_algorithm,MEDIUM,Evolutionary optimization techniques
+TOE,TOE Framework,Bayesian Inference,https://en.wikipedia.org/wiki/Bayesian_inference,HIGH,Updating beliefs via evidence
+TOE,TOE Framework,Maximum Entropy Production,https://en.wikipedia.org/wiki/Maximum_entropy_production,HIGH,Far-from-equilibrium thermodynamics principle
+TOE,TOE Framework,Constructal Law,https://en.wikipedia.org/wiki/Constructal_law,MEDIUM,Flow systems evolve for greater access
+TOE,TOE Framework,Causal Set Theory,https://en.wikipedia.org/wiki/Causal_sets,HIGH,Discrete spacetime from causal ordering
+TOE,TOE Framework,Holographic Principle,https://en.wikipedia.org/wiki/Holographic_principle,HIGH,Boundary encodes bulk information
+TOE,TOE Framework,AdS/CFT Correspondence,https://en.wikipedia.org/wiki/AdS/CFT_correspondence,HIGH,Gravity-gauge theory duality
+TOE,TOE Framework,Loop Quantum Gravity,https://en.wikipedia.org/wiki/Loop_quantum_gravity,HIGH,Quantized spacetime from spin networks
+TOE,TOE Framework,Twistor Theory,https://en.wikipedia.org/wiki/Twistor_theory,MEDIUM,Penrose's reformulation of spacetime
+TOE,TOE Framework,Heart Rate Variability,https://en.wikipedia.org/wiki/Heart_rate_variability,MEDIUM,Autonomic nervous system measure
+TOE,TOE Framework,Vagal Tone,https://en.wikipedia.org/wiki/Vagal_tone,MEDIUM,Parasympathetic activity index
+TOE,TOE Framework,Global Consciousness Project,https://noosphere.princeton.edu/,HIGH,Princeton anomalies research
+TOE,TOE Framework,PEAR Lab,https://www.princeton.edu/~pear/,HIGH,Mind-matter interaction research
+TOE,TOE Framework,Negative Coupling,https://en.wikipedia.org/wiki/Coupling_(physics),MEDIUM,Repulsive or anti-correlated interactions
+TOE,TOE Framework,Fractal Self-Similarity,https://en.wikipedia.org/wiki/Fractal,HIGH,Scale-invariant geometric patterns
+TOE,TOE Framework,Scale-Invariant Geometry,https://en.wikipedia.org/wiki/Scale_invariance,MEDIUM,Systems unchanged under scaling
+TOE,TOE Framework,Kaluza-Klein Theory,https://en.wikipedia.org/wiki/Kaluza%E2%80%93Klein_theory,HIGH,5D unification of gravity and electromagnetism
+TOE,TOE Framework,Small-World Networks,https://en.wikipedia.org/wiki/Small-world_network,HIGH,Networks with high clustering and short paths
+TOE,TOE Framework,Resonance Theory of Consciousness,https://en.wikipedia.org/wiki/Resonance_theory_of_consciousness,HIGH,Consciousness from synchronized oscillations
+TOE,TOE Framework,Predictive Processing,https://en.wikipedia.org/wiki/Predictive_coding,HIGH,Brain as prediction machine
+TOE,TOE Framework,Active Inference,https://en.wikipedia.org/wiki/Free_energy_principle,HIGH,Action minimizes prediction error
+TOE,TOE Framework,Free Energy Principle,https://en.wikipedia.org/wiki/Free_energy_principle,HIGH,Friston's unifying brain theory
+TOE,TOE Framework,Hard Problem of Consciousness,https://en.wikipedia.org/wiki/Hard_problem_of_consciousness,HIGH,Why subjective experience exists
+TOE,TOE Framework,Mary's Room,https://en.wikipedia.org/wiki/Knowledge_argument,HIGH,Knowledge argument for qualia
+TOE,TOE Framework,Libet Experiments,https://en.wikipedia.org/wiki/Neuroscience_of_free_will,HIGH,Neural timing of conscious will
+TOE,TOE Framework,Default Mode Network,https://en.wikipedia.org/wiki/Default_mode_network,HIGH,Brain network active at rest
+TOE,TOE Framework,Neural Binding Problem,https://en.wikipedia.org/wiki/Binding_problem,HIGH,How brain integrates features
+TOE,TOE Framework,Delayed Choice Quantum Eraser,https://en.wikipedia.org/wiki/Delayed-choice_quantum_eraser,HIGH,Retrocausal implications experiment
+TOE,TOE Framework,Aspect Experiments,https://en.wikipedia.org/wiki/Aspect%27s_experiment,HIGH,Bell inequality violation
+TOE,TOE Framework,Split-Brain Studies,https://en.wikipedia.org/wiki/Split-brain,HIGH,Severed corpus callosum research
+TOE,TOE Framework,Fine-Tuning Argument,https://en.wikipedia.org/wiki/Fine-tuned_universe,HIGH,Physical constants permit life
+TOE,TOE Framework,Kalam Cosmological Argument,https://en.wikipedia.org/wiki/Kalam_cosmological_argument,HIGH,Causal argument for creation
+TOE,TOE Framework,Gödel's Ontological Argument,https://en.wikipedia.org/wiki/G%C3%B6del%27s_ontological_proof,HIGH,Modal logic proof of God
+TOE,TOE Framework,Logos Theology,https://en.wikipedia.org/wiki/Logos,HIGH,Divine reason/word concept
+TOE,TOE Framework,Divine Simplicity,https://en.wikipedia.org/wiki/Divine_simplicity,HIGH,God has no parts doctrine
+TOE,TOE Framework,ER=EPR Conjecture,https://en.wikipedia.org/wiki/ER%3DEPR,HIGH,Wormholes equal entanglement
+TOE,TOE Framework,Jaynes Maximum Entropy,https://en.wikipedia.org/wiki/Principle_of_maximum_entropy,HIGH,Least biased probability assignment
+TOE,TOE Framework,Fluctuation Theorems,https://en.wikipedia.org/wiki/Fluctuation_theorem,HIGH,Far-from-equilibrium thermodynamics
+TOE,TOE Framework,Szilard Engine,https://en.wikipedia.org/wiki/Szilard_engine,MEDIUM,Information-work conversion
+TOE,TOE Framework,Margolus-Levitin Theorem,https://en.wikipedia.org/wiki/Margolus%E2%80%93Levitin_theorem,MEDIUM,Maximum computational rate
+TOE,TOE Framework,Self-Organized Criticality,https://en.wikipedia.org/wiki/Self-organized_criticality,HIGH,Systems evolve to critical state
+TOE,TOE Framework,Kuramoto Model,https://en.wikipedia.org/wiki/Kuramoto_model,HIGH,Synchronization of oscillators
+TOE,TOE Framework,Autopoiesis,https://en.wikipedia.org/wiki/Autopoiesis,HIGH,Self-producing systems
+TOE,TOE Framework,Curry-Howard Correspondence,https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence,HIGH,Proofs as programs
+TOE,TOE Framework,Tarski's Undefinability,https://en.wikipedia.org/wiki/Tarski%27s_undefinability_theorem,HIGH,Truth not definable within system
+TOE,TOE Framework,AWARE Study,https://en.wikipedia.org/wiki/AWARE_study,HIGH,Near-death experience research
+TOE,TOE Framework,Aquinas Five Ways,https://en.wikipedia.org/wiki/Five_Ways_(Aquinas),HIGH,Classical proofs of God
+Structural,Structural,Spinoza's Ethics,https://sacred-texts.com/phi/spinoza/ethics/index.htm,HIGH,Axiomatic structure
+Structural,Structural,Euclid's Elements Book 1,https://mathcs.clarku.edu/~djoyce/java/elements/bookI/bookI.html,HIGH,Pure axiomatic system
+Structural,Structural,Wittgenstein Tractatus,https://www.gutenberg.org/files/5740/5740-pdf.pdf,HIGH,Logical atomism
+Structural,Structural,Principia Mathematica Intro,https://archive.org/details/principiamathema01whit,HIGH,Russell-Whitehead foundations
+Structural,Structural,Aquinas Summa Theologica,https://sacred-texts.com/chr/aquinas/summa/index.htm,HIGH,Systematic theology
+Structural,Structural,Maimonides Guide,https://sacred-texts.com/jud/gfp/index.htm,HIGH,Jewish philosophy
+Eastern Religion,Eastern Religion,Tao Te Ching,https://sacred-texts.com/tao/taote.htm,HIGH,Fundamental Chinese philosophy
+Eastern Religion,Eastern Religion,Yoga Sutras,https://sacred-texts.com/hin/yogasutr.htm,HIGH,Classical yoga philosophy
+Eastern Religion,Eastern Religion,Dhammapada,https://sacred-texts.com/bud/sbe10/sbe1003.htm,HIGH,Buddhist ethics
+Eastern Religion,Eastern Religion,Bhagavad Gita,https://sacred-texts.com/hin/gita/index.htm,HIGH,Hindu scripture
+Eastern Religion,Eastern Religion,Upanishads Selection,https://sacred-texts.com/hin/upan/index.htm,HIGH,Vedantic philosophy
+Eastern Religion,Eastern Religion,Quran Selection,https://sacred-texts.com/isl/quran/index.htm,HIGH,Islamic scripture
+Eastern Religion,Eastern Religion,Analects Confucius,https://sacred-texts.com/cfu/conf1.htm,HIGH,Confucian ethics
+Eastern Religion,Eastern Religion,Zhuangzi,https://sacred-texts.com/tao/sbe39/index.htm,HIGH,Taoist philosophy
+Eastern Religion,Eastern Religion,Tibetan Book of Dead,https://sacred-texts.com/bud/tib/index.htm,HIGH,Buddhist eschatology
+Eastern Religion,Eastern Religion,I Ching,https://sacred-texts.com/ich/index.htm,HIGH,Chinese cosmology
+Eastern Religion,Eastern Religion,Heart Sutra,https://sacred-texts.com/bud/bear.htm,MEDIUM,Buddhist emptiness
+Eastern Religion,Eastern Religion,Lotus Sutra,https://sacred-texts.com/bud/lotus/index.htm,MEDIUM,Mahayana teaching
+Eastern Religion,Eastern Religion,Rumi Masnavi,https://sacred-texts.com/isl/masnavi/index.htm,MEDIUM,Sufi poetry
+Eastern Religion,Eastern Religion,Tao Te Ching (Alt),https://www.gutenberg.org/ebooks/216,MEDIUM,Alternative translation
+Eastern Religion,Eastern Religion,Upanishads (Alt),https://www.gutenberg.org/ebooks/3283,MEDIUM,Alternative translation
+Gnostic/Esoteric,Gnostic/Esoteric,Gospel of Thomas,https://sacred-texts.com/chr/thomas.htm,HIGH,Gnostic sayings
+Gnostic/Esoteric,Gnostic/Esoteric,Gospel of Philip,https://www.sacred-texts.com/chr/ps/index.htm,HIGH,Valentinian Gnosticism
+Gnostic/Esoteric,Gnostic/Esoteric,Pistis Sophia,https://sacred-texts.com/chr/ps/index.htm,HIGH,Gnostic cosmology
+Gnostic/Esoteric,Gnostic/Esoteric,Corpus Hermeticum,https://sacred-texts.com/chr/herm/index.htm,HIGH,Hermetic philosophy
+Gnostic/Esoteric,Gnostic/Esoteric,Sefer Yetzirah,https://sacred-texts.com/jud/yetzirah.htm,HIGH,Kabbalistic cosmology
+Gnostic/Esoteric,Gnostic/Esoteric,Zohar Selection,https://sacred-texts.com/jud/zdm/index.htm,HIGH,Kabbalistic mysticism
+Calibration,Calibration,Declaration of Independence,https://www.archives.gov/founding-docs/declaration-transcript,HIGH,Founding document
+Calibration,Calibration,US Constitution,https://www.archives.gov/founding-docs/constitution-transcript,HIGH,Legal foundation
+Calibration,Calibration,Magna Carta,https://www.archives.gov/exhibits/featured-documents/magna-carta,HIGH,Rights document
+Calibration,Calibration,UN Declaration Human Rights,https://www.un.org/en/about-us/universal-declaration-of-human-rights,HIGH,Modern rights baseline
+Calibration,Calibration,Gettysburg Address,https://www.abrahamlincolnonline.org/lincoln/speeches/gettysburg.htm,HIGH,Rhetorical calibration
+Calibration,Calibration,MLK I Have a Dream,https://www.archives.gov/files/press/exhibits/dream-speech.pdf,HIGH,Moral rhetoric
+Calibration,Calibration,Einstein 1905 Papers,https://www.fourmilab.ch/etexts/einstein/specrel/www/,HIGH,Revolutionary physics
+Negative Control,Negative Control,Corporate Earnings Call,https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=8-K,LOW,Low-coherence baseline
+Negative Control,Negative Control,Political Press Release,https://www.whitehouse.gov/briefing-room/,LOW,Rhetorical analysis
+Negative Control,Negative Control,Derrida Selection,https://archive.org/details/writingdifferenc0000derr,LOW,Postmodern baseline
+Negative Control,Negative Control,Timecube Archive,https://timecube.2enp.com/,LOW,Incoherence baseline
+Scientific Classics,Scientific Classics,Darwin Origin Intro,https://www.gutenberg.org/ebooks/1228,HIGH,Evolutionary theory
+Scientific Classics,Scientific Classics,Newton Principia Preface,https://archive.org/details/newtonspmathema00newtrich,HIGH,Classical mechanics
+Scientific Classics,Scientific Classics,Maxwell Treatise,https://archive.org/details/electricandmagne01maxwrich,HIGH,Electromagnetic theory
+Scientific Classics,Scientific Classics,Bohr Como Lecture,https://www.informationphilosopher.com/solutions/scientists/bohr/Como_Lecture.html,HIGH,Complementarity
+Scientific Classics,Scientific Classics,Schrödinger What is Life,https://archive.org/details/whatislife00schr,HIGH,Life and physics
+Scientific Classics,Scientific Classics,Gödel 1931 Paper,https://www.research.ibm.com/people/h/hirzel/papers/canon00-goedel.pdf,HIGH,Incompleteness
+Scientific Classics,Scientific Classics,Turing 1936 Paper,https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf,HIGH,Computability
+Moral/Ethical,Moral/Ethical,Aristotle Nicomachean Ethics,https://classics.mit.edu/Aristotle/nicomachaen.html,HIGH,Virtue ethics
+Moral/Ethical,Moral/Ethical,Kant Groundwork,https://www.gutenberg.org/ebooks/5682,HIGH,Deontological ethics
+Moral/Ethical,Moral/Ethical,Mill Utilitarianism,https://www.gutenberg.org/ebooks/11224,HIGH,Consequentialism
+Moral/Ethical,Moral/Ethical,Epictetus Enchiridion,https://classics.mit.edu/Epictetus/epicench.html,HIGH,Stoic ethics
+Moral/Ethical,Moral/Ethical,Marcus Aurelius Meditations,https://classics.mit.edu/Antoninus/meditations.html,HIGH,Stoic practice
+Theology,Theology,Aquinas Five Ways Full,https://sacred-texts.com/chr/aquinas/summa/sum015.htm,HIGH,Natural theology
+Theology,Theology,Gödel Ontological Proof,https://www.stats.uwaterloo.ca/~cgsmall/ontology.html,HIGH,Modal logic theology
+Theology,Theology,Divine Simplicity Article,https://plato.stanford.edu/entries/divine-simplicity/,HIGH,Classical theism
+Theology,Theology,Kalam Argument Full,https://plato.stanford.edu/entries/cosmological-argument/,HIGH,Cosmological argument
+Quantum Mechanics,Quantum Mechanics,Copenhagen Interpretation,https://plato.stanford.edu/entries/qm-copenhagen/,HIGH,Standard interpretation
+Quantum Mechanics,Quantum Mechanics,Many-Worlds Full,https://plato.stanford.edu/entries/qm-manyworlds/,HIGH,Everett interpretation
+Quantum Mechanics,Quantum Mechanics,QBism Full,https://plato.stanford.edu/entries/quantum-bayesian/,HIGH,Subjective interpretation
+Consciousness Science,Consciousness Science,IIT Overview,https://www.nature.com/articles/nrn.2016.44,HIGH,Integrated Information Theory
+Consciousness Science,Consciousness Science,Orch OR Penrose-Hameroff,https://www.sciencedirect.com/science/article/pii/S1571064513001188,HIGH,Quantum consciousness
+Consciousness Science,Consciousness Science,Global Workspace Theory,https://www.sciencedirect.com/science/article/abs/pii/S1364661305000422,HIGH,Theater of consciousness
+Cosmology,Cosmology,Lambda-CDM Model,https://plato.stanford.edu/entries/cosmology/,HIGH,Standard cosmology
+Cosmology,Cosmology,AdS-CFT Overview,https://plato.stanford.edu/entries/physics-holography/,HIGH,Holographic duality
+Information Theory,Information Theory,Landauer Principle,https://plato.stanford.edu/entries/information-entropy/,HIGH,Physics of information
+Classical Philosophy,Classical Philosophy,Plato Republic Book VII,https://classics.mit.edu/Plato/republic.8.vii.html,HIGH,Cave allegory
+Classical Philosophy,Classical Philosophy,Aristotle Metaphysics I,https://classics.mit.edu/Aristotle/metaphysics.1.i.html,HIGH,First philosophy
+Islamic Philosophy,Islamic Philosophy,Al-Ghazali Incoherence,https://archive.org/details/IncoherenceOfPhilosophers,HIGH,Occasionalism
+Islamic Philosophy,Islamic Philosophy,Avicenna Flying Man,https://plato.stanford.edu/entries/ibn-sina/,HIGH,Self-awareness argument
+CONSCIOUSNESS,Consciousness Theory,Higher Order Thought (HOT) Theory,https://plato.stanford.edu/entries/consciousness-higher/,HIGH,Consciousness requires higher-order representation of mental states
+CONSCIOUSNESS,Consciousness Theory,Attention Schema Theory,https://en.wikipedia.org/wiki/Attention_schema_theory,HIGH,Brain constructs attention schema model creating subjective experience
+CONSCIOUSNESS,Consciousness Theory,Recurrent Processing Theory,https://www.sciencedirect.com/science/article/abs/pii/S1364661306001318,HIGH,Consciousness requires recurrent neural processing
+CONSCIOUSNESS,Consciousness Theory,Predictive Processing,https://plato.stanford.edu/entries/perception-action/,HIGH,Brain as prediction machine minimizing surprise
+CONSCIOUSNESS,Consciousness Theory,Panpsychism,https://plato.stanford.edu/entries/panpsychism/,HIGH,Consciousness as fundamental feature of reality
+CONSCIOUSNESS,Consciousness Theory,Biological Naturalism,https://en.wikipedia.org/wiki/Biological_naturalism,MEDIUM,Consciousness is biological process like digestion
+CONSCIOUSNESS,Consciousness Theory,Illusionism,https://keithfrankish.github.io/articles/Frankish_Illusionism%20as%20a%20theory%20of%20consciousness_eprint.pdf,MEDIUM,Phenomenal consciousness is an illusion
+CONSCIOUSNESS,Consciousness Theory,Enactivism,https://plato.stanford.edu/entries/enactivism/,HIGH,Consciousness emerges from embodied action in environment
+CONSCIOUSNESS,Quantum Consciousness,Quantum Mind (Stapp),https://en.wikipedia.org/wiki/Quantum_mind,HIGH,Quantum mechanics and consciousness connection
+CONSCIOUSNESS,Quantum Consciousness,Bohm Implicate Order,https://en.wikipedia.org/wiki/Implicate_and_explicate_order,HIGH,Hidden order underlying manifest reality and mind
+CONSCIOUSNESS,Quantum Consciousness,Mind-Matter Interaction,https://www.princeton.edu/~pear/,HIGH,Experimental evidence for consciousness affecting physical systems
+CONSCIOUSNESS,Neuroscience,Neural Correlates of Consciousness,https://plato.stanford.edu/entries/consciousness-neuroscience/,HIGH,Minimal neural mechanisms for conscious experience
+CONSCIOUSNESS,Neuroscience,Claustrum Theory,https://en.wikipedia.org/wiki/Claustrum,MEDIUM,Claustrum as conductor of consciousness
+CONSCIOUSNESS,Neuroscience,Thalamic Reticular Theory,https://en.wikipedia.org/wiki/Reticular_nucleus_of_the_thalamus,MEDIUM,Thalamic gating of consciousness
+CONSCIOUSNESS,Neuroscience,Gamma Oscillations,https://en.wikipedia.org/wiki/Gamma_wave,MEDIUM,40Hz binding and consciousness
+CONSCIOUSNESS,Philosophy of Mind,Functionalism,https://plato.stanford.edu/entries/functionalism/,HIGH,Mental states defined by functional role
+CONSCIOUSNESS,Philosophy of Mind,Property Dualism,https://plato.stanford.edu/entries/dualism/,HIGH,Mental properties distinct from physical
+CONSCIOUSNESS,Philosophy of Mind,Epiphenomenalism,https://plato.stanford.edu/entries/epiphenomenalism/,MEDIUM,Mental states are causal byproducts
+CONSCIOUSNESS,Philosophy of Mind,Neutral Monism,https://plato.stanford.edu/entries/neutral-monism/,MEDIUM,Mind and matter from neutral substance
+CONSCIOUSNESS,Philosophy of Mind,Anomalous Monism,https://plato.stanford.edu/entries/anomalous-monism/,MEDIUM,Mental events are physical but not law-governed
+CONSCIOUSNESS,Key Papers,What Is It Like to Be a Bat,https://www.jstor.org/stable/2183914,HIGH,Foundational paper on subjective experience
+CONSCIOUSNESS,Key Papers,Facing Up to Hard Problem,https://consc.net/papers/facing.html,HIGH,Defines the hard problem of consciousness
+CONSCIOUSNESS,Key Papers,Explaining Consciousness,https://en.wikipedia.org/wiki/Consciousness_Explained,HIGH,Multiple drafts model of consciousness
+CONSCIOUSNESS,Key Papers,Phi: A Voyage from Brain to Soul,https://en.wikipedia.org/wiki/Phi:_A_Voyage_from_the_Brain_to_the_Soul,MEDIUM,IIT presented through philosophical dialogue
+CONSCIOUSNESS,Extended Mind,Extended Mind Thesis,https://en.wikipedia.org/wiki/Extended_mind_thesis,HIGH,Mind extends beyond brain into environment
+CONSCIOUSNESS,Extended Mind,Embodied Cognition,https://plato.stanford.edu/entries/embodied-cognition/,HIGH,Cognition shaped by body and environment
+CONSCIOUSNESS,Extended Mind,4E Cognition,https://en.wikipedia.org/wiki/4E_cognition,MEDIUM,Embodied embedded enacted extended cognition
+CONSCIOUSNESS,Altered States,Psychedelic Neuroscience,https://www.nature.com/articles/nrn.2019.62,HIGH,Entropic brain hypothesis and psychedelics
+CONSCIOUSNESS,Altered States,Near Death Experiences,https://en.wikipedia.org/wiki/Near-death_experience,HIGH,Consciousness during clinical death
+CONSCIOUSNESS,Altered States,Meditation Neuroscience,https://en.wikipedia.org/wiki/Research_on_meditation,MEDIUM,Neural correlates of meditative states
+PAPERS,Research Paper,General Relativity,https://arxiv.org/pdf/gr-qc/9911051.pdf,HIGH,Comprehensive GR review
+PAPERS,Research Paper,General Relativity,https://arxiv.org/pdf/1012.4869.pdf,HIGH,Centennial GR perspectives
+PAPERS,Research Paper,General Relativity,https://www.einstein-online.info/wp-content/uploads/Einsteinian_Gravity.pdf,HIGH,Einstein gravity explained
+PAPERS,Research Paper,Quantum Mechanics (Copenhagen),https://arxiv.org/pdf/1905.08657.pdf,HIGH,Copenhagen foundations
+PAPERS,Research Paper,Quantum Mechanics (Copenhagen),https://arxiv.org/pdf/1508.04270.pdf,HIGH,Copenhagen revisited
+PAPERS,Research Paper,Born Rule,https://arxiv.org/pdf/quant-ph/0405161.pdf,HIGH,Born rule derivation
+PAPERS,Research Paper,Born Rule,https://arxiv.org/pdf/0706.2134.pdf,HIGH,Born rule from quantum theory
+PAPERS,Research Paper,Born Rule,https://arxiv.org/pdf/quant-ph/0409144.pdf,HIGH,Born probability
+PAPERS,Research Paper,Heisenberg Uncertainty Principle,https://arxiv.org/pdf/quant-ph/0105039.pdf,HIGH,Uncertainty review
+PAPERS,Research Paper,Heisenberg Uncertainty Principle,https://arxiv.org/pdf/1106.3234.pdf,HIGH,Modern uncertainty
+PAPERS,Research Paper,Second Law of Thermodynamics,https://arxiv.org/pdf/cond-mat/9708200.pdf,HIGH,Second law foundations
+PAPERS,Research Paper,Second Law of Thermodynamics,https://arxiv.org/pdf/1611.01990.pdf,HIGH,Thermodynamics review
+PAPERS,Research Paper,Second Law of Thermodynamics,https://arxiv.org/pdf/0709.4102.pdf,HIGH,Entropy in physics
+PAPERS,Research Paper,Shannon Information Theory,https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf,HIGH,Original Shannon paper
+PAPERS,Research Paper,Shannon Information Theory,https://www.princeton.edu/~wbialek/rome/refs/shannon_1948.pdf,HIGH,Shannon theory
+PAPERS,Research Paper,Shannon Information Theory,https://www.cs.virginia.edu/~robins/Shannon_Comm_Theory_1948.pdf,HIGH,Communication theory
+PAPERS,Research Paper,Many-Worlds Interpretation,https://arxiv.org/pdf/quant-ph/9709032.pdf,HIGH,Many-worlds review
+PAPERS,Research Paper,Many-Worlds Interpretation,https://arxiv.org/pdf/0905.0624.pdf,HIGH,Everett interpretation
+PAPERS,Research Paper,Many-Worlds Interpretation,https://www-tc.pbs.org/wgbh/nova/manyworlds/pdf/dissertation.pdf,HIGH,Original Everett thesis
+PAPERS,Research Paper,Wave Function Collapse,https://arxiv.org/pdf/quant-ph/0301080.pdf,HIGH,Collapse theories
+PAPERS,Research Paper,Wave Function Collapse,https://arxiv.org/pdf/1502.01531.pdf,HIGH,Collapse models
+PAPERS,Research Paper,Participatory Anthropic Principle,https://arxiv.org/pdf/1112.4661.pdf,HIGH,Wheeler participatory
+PAPERS,Research Paper,QBism,https://arxiv.org/pdf/1003.5209.pdf,HIGH,QBism foundations
+PAPERS,Research Paper,QBism,https://arxiv.org/pdf/1301.3274.pdf,HIGH,QBism review
+PAPERS,Research Paper,QBism,https://www.physics.umass.edu/~caves/papers/fuchs.pdf,HIGH,Fuchs QBism
+PAPERS,Research Paper,Algorithmic Information Theory,https://www.cs.auckland.ac.nz/~chaitin/cup.pdf,HIGH,Chaitin algorithmic
+PAPERS,Research Paper,Algorithmic Information Theory,https://arxiv.org/pdf/math/0503488.pdf,HIGH,Kolmogorov complexity
+PAPERS,Research Paper,Computational Universe Hypothesis,https://arxiv.org/pdf/quant-ph/0110141.pdf,HIGH,Lloyd universe computer
+PAPERS,Research Paper,Computational Universe Hypothesis,https://arxiv.org/pdf/0704.0646.pdf,HIGH,It from qubit
+PAPERS,Research Paper,Digital Physics,https://arxiv.org/pdf/hep-th/0510225.pdf,HIGH,Digital physics
+PAPERS,Research Paper,Digital Physics,https://arxiv.org/pdf/quant-ph/0206089.pdf,HIGH,Computation universe
+PAPERS,Research Paper,Digital Physics,https://www.worldscientific.com/doi/pdf/10.1142/S0218271802002129,HIGH,Zuse thesis
+PAPERS,Research Paper,Principle of Least Action,https://arxiv.org/pdf/physics/0503063.pdf,HIGH,Action principles
+PAPERS,Research Paper,Principle of Least Action,https://www.damtp.cam.ac.uk/user/tong/qft/qft.pdf,HIGH,Quantum field theory
+PAPERS,Research Paper,Gödel Incompleteness,https://www.research.ibm.com/people/h/hirzel/papers/canon00-goedel.pdf,HIGH,Original Gödel
+PAPERS,Research Paper,Gödel Incompleteness,https://arxiv.org/pdf/math/0505030.pdf,HIGH,Incompleteness review
+PAPERS,Research Paper,Unitarity,https://arxiv.org/pdf/hep-th/0312171.pdf,HIGH,Unitarity and gravity
+PAPERS,Research Paper,Unitarity,https://arxiv.org/pdf/1509.00113.pdf,HIGH,Unitarity constraints
+PAPERS,Research Paper,Quantum Darwinism,https://arxiv.org/pdf/0903.5082.pdf,HIGH,Quantum Darwinism
+PAPERS,Research Paper,Quantum Darwinism,https://arxiv.org/pdf/quant-ph/0308163.pdf,HIGH,Zurek decoherence
+PAPERS,Research Paper,Quantum Darwinism,https://arxiv.org/pdf/quant-ph/0105127.pdf,HIGH,Zurek einselection
+PAPERS,Research Paper,Black Hole Information Paradox,https://arxiv.org/pdf/hep-th/9501044.pdf,HIGH,Susskind information
+PAPERS,Research Paper,Black Hole Information Paradox,https://arxiv.org/pdf/1606.08444.pdf,HIGH,Information paradox review
+PAPERS,Research Paper,Black Hole Information Paradox,https://arxiv.org/pdf/hep-th/9306069.pdf,HIGH,'t Hooft black hole
+PAPERS,Research Paper,Landauer's Principle,https://www.tandfonline.com/doi/pdf/10.1080/00107510110102424,HIGH,Landauer review
+PAPERS,Research Paper,Landauer's Principle,https://arxiv.org/pdf/1302.4783.pdf,HIGH,Landauer verification
+PAPERS,Research Paper,Boltzmann Entropy,https://arxiv.org/pdf/cond-mat/0501076.pdf,HIGH,Entropy foundations
+PAPERS,Research Paper,ΛCDM Cosmology,https://arxiv.org/pdf/2105.05208.pdf,HIGH,Modern ΛCDM
+PAPERS,Research Paper,ΛCDM Cosmology,https://arxiv.org/pdf/1604.01424.pdf,HIGH,Cosmology review
+PAPERS,Research Paper,Hubble Tension,https://arxiv.org/pdf/2103.01183.pdf,HIGH,Hubble tension review
+PAPERS,Research Paper,Hubble Tension,https://arxiv.org/pdf/1907.10625.pdf,HIGH,Tension analysis
+PAPERS,Research Paper,IIT Overview,https://arxiv.org/pdf/2112.03890.pdf,HIGH,IIT 4.0
+PAPERS,Research Paper,Orch OR (Penrose-Hameroff),https://www.esalq.usp.br/lepse/imgs/conteudo_thumb/Orchestrated-Objective-Reduction-of-Quantum-Coherence-in-Brain-Microtubules---The-Orch-OR-Model-for-Consciousness--copy--.pdf,HIGH,Original Orch OR
+PAPERS,Research Paper,Global Workspace Theory,https://psycnet.apa.org/fulltext/2000-13324-005.pdf,HIGH,Baars workspace
+PAPERS,Research Paper,Global Workspace Theory,https://www.sciencedirect.com/science/article/pii/S1364661305000422,HIGH,Global workspace review
+PAPERS,Research Paper,Global Workspace Theory,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3814528/pdf/nihms515587.pdf,HIGH,Workspace consciousness
+PAPERS,Research Paper,Bell's Theorem,https://arxiv.org/pdf/quant-ph/0402001.pdf,HIGH,Bell review
+PAPERS,Research Paper,Bell's Theorem,https://cds.cern.ch/record/111654/files/vol1p195-200_001.pdf,HIGH,Original Bell
+PAPERS,Research Paper,Decoherence,https://arxiv.org/pdf/quant-ph/0105127.pdf,HIGH,Decoherence review
+PAPERS,Research Paper,Decoherence,https://arxiv.org/pdf/quant-ph/0306072.pdf,HIGH,Zurek decoherence
+PAPERS,Research Paper,No-Cloning Theorem,https://arxiv.org/pdf/quant-ph/0111088.pdf,HIGH,No-cloning review
+PAPERS,Research Paper,Kochen-Specker Theorem,https://arxiv.org/pdf/quant-ph/9912086.pdf,HIGH,KS theorem
+PAPERS,Research Paper,EPR Paradox,https://journals.aps.org/pr/pdf/10.1103/PhysRev.47.777,HIGH,Original EPR
+PAPERS,Research Paper,EPR Paradox,https://arxiv.org/pdf/quant-ph/9605024.pdf,HIGH,EPR review
+PAPERS,Research Paper,Bekenstein Bound,https://arxiv.org/pdf/gr-qc/9305012.pdf,HIGH,Bekenstein original
+PAPERS,Research Paper,Bekenstein Bound,https://arxiv.org/pdf/hep-th/0309057.pdf,HIGH,Bekenstein review
+PAPERS,Research Paper,Chaos Theory,https://www.uvm.edu/pdodds/files/papers/others/1963/lorenz1963a.pdf,HIGH,Lorenz original
+PAPERS,Research Paper,Church-Turing Thesis,https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf,HIGH,Turing original
+PAPERS,Research Paper,Quantum Error Correction,https://arxiv.org/pdf/quant-ph/9712048.pdf,HIGH,QEC review
+PAPERS,Research Paper,Quantum Error Correction,https://arxiv.org/pdf/0904.2557.pdf,HIGH,Modern QEC
+PAPERS,Research Paper,Mutual Information,https://arxiv.org/pdf/quant-ph/0512014.pdf,HIGH,Quantum mutual info
+PAPERS,Research Paper,Fisher Information,https://arxiv.org/pdf/physics/9808009.pdf,HIGH,Fisher physics
+PAPERS,Research Paper,Epigenetics,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3712405/pdf/nihms484788.pdf,HIGH,Epigenetics review
+PAPERS,Research Paper,Bayesian Inference,https://arxiv.org/pdf/1901.02731.pdf,HIGH,Bayesian review
+PAPERS,Research Paper,Maximum Entropy Production,https://arxiv.org/pdf/1602.02952.pdf,HIGH,MEP review
+PAPERS,Research Paper,Causal Set Theory,https://arxiv.org/pdf/gr-qc/0601121.pdf,HIGH,Causal sets
+PAPERS,Research Paper,Holographic Principle,https://arxiv.org/pdf/hep-th/9409089.pdf,HIGH,Susskind holographic
+PAPERS,Research Paper,Holographic Principle,https://arxiv.org/pdf/hep-th/9806039.pdf,HIGH,'t Hooft holographic
+PAPERS,Research Paper,AdS/CFT Correspondence,https://arxiv.org/pdf/hep-th/9905111.pdf,HIGH,Maldacena AdS/CFT
+PAPERS,Research Paper,AdS/CFT Correspondence,https://arxiv.org/pdf/hep-th/9711200.pdf,HIGH,Original AdS/CFT
+PAPERS,Research Paper,Loop Quantum Gravity,https://arxiv.org/pdf/gr-qc/0404018.pdf,HIGH,LQG review
+PAPERS,Research Paper,Loop Quantum Gravity,https://arxiv.org/pdf/1004.1780.pdf,HIGH,Modern LQG
+PAPERS,Research Paper,Global Consciousness Project,https://arxiv.org/pdf/0708.2380.pdf,HIGH,GCP data
+PAPERS,Research Paper,Global Consciousness Project,https://arxiv.org/pdf/0805.1726.pdf,HIGH,GCP analysis
+PAPERS,Research Paper,Global Consciousness Project,https://arxiv.org/pdf/1004.0673.pdf,HIGH,GCP review
+PAPERS,Research Paper,Resonance Theory of Consciousness,http://wiki.icmc.usp.br/images/3/38/RT-Teoria-da-Informacao-Integrada.pdf,HIGH,Resonance consciousness
+PAPERS,Research Paper,Resonance Theory of Consciousness,https://ri.conicet.gov.ar/bitstream/handle/11336/103700/CONICET_Digital_Nro.a7e8dd38-00cd-4b1f-97e3-63a50f8bc6e5_A.pdf,HIGH,Resonance theory
+PAPERS,Research Paper,Resonance Theory of Consciousness,https://www.colorado.edu/amath/sites/default/files/attached-files/resonance_theory_of_consciousness.pdf,HIGH,Consciousness resonance
+PAPERS,Research Paper,Predictive Processing,https://arxiv.org/pdf/1901.02731.pdf,HIGH,Predictive processing
+PAPERS,Research Paper,Active Inference,https://arxiv.org/pdf/2006.01720.pdf,HIGH,Active inference
+PAPERS,Research Paper,Free Energy Principle,https://arxiv.org/pdf/2012.01714.pdf,HIGH,Friston FEP
+PAPERS,Research Paper,Free Energy Principle,https://www.fil.ion.ucl.ac.uk/~karl/The%20free-energy%20principle%20-%20a%20unified%20brain%20theory.pdf,HIGH,FEP original
+PAPERS,Research Paper,Hard Problem of Consciousness,https://arxiv.org/pdf/cond-mat/0206138.pdf,HIGH,Hard problem physics
+PAPERS,Research Paper,Hard Problem of Consciousness,https://arxiv.org/pdf/nlin/0303014.pdf,HIGH,Consciousness complexity
+PAPERS,Research Paper,Hard Problem of Consciousness,https://www.cambridge.org/core/services/aop-cambridge-core/content/view/3B74C9D2AD97F9F5C37619F5F9A5F8BD/S1355770X19000317a.pdf,HIGH,Hard problem review
+PAPERS,Research Paper,Libet Experiments,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1311136/pdf/jphysiol00574-0143.pdf,HIGH,Original Libet
+PAPERS,Research Paper,Default Mode Network,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3012381/pdf/nihms254689.pdf,HIGH,DMN review
+PAPERS,Research Paper,Neural Binding Problem,https://www.sciencedirect.com/science/article/pii/S1053811911001418,HIGH,Binding problem
+PAPERS,Research Paper,Neural Binding Problem,https://www.cell.com/neuron/pdf/S0896-6273(12)01034-7.pdf,HIGH,Binding review
+PAPERS,Research Paper,Neural Binding Problem,https://www.nature.com/articles/nrn2575.pdf,HIGH,Neural binding
+PAPERS,Research Paper,Delayed Choice Quantum Eraser,https://arxiv.org/pdf/quant-ph/9903047.pdf,HIGH,DCQE experiment
+PAPERS,Research Paper,Aspect Experiments,https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.49.91,HIGH,Aspect original
+PAPERS,Research Paper,Split-Brain Studies,https://jamanetwork.com/journals/jama/articlepdf/188048/jsc70015.pdf,HIGH,Split-brain review
+PAPERS,Research Paper,Split-Brain Studies,https://www.nejm.org/doi/pdf/10.1056/NEJMoa1404889,HIGH,Modern split-brain
+PAPERS,Research Paper,Split-Brain Studies,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6174229/pdf/nihms1505988.pdf,HIGH,Consciousness split
+PAPERS,Research Paper,Fine-Tuning Argument,https://arxiv.org/pdf/1603.05506.pdf,HIGH,Fine-tuning physics
+PAPERS,Research Paper,Fine-Tuning Argument,https://arxiv.org/pdf/1112.4647.pdf,HIGH,Fine-tuning review
+PAPERS,Research Paper,Kalam Cosmological Argument,https://arxiv.org/pdf/physics/0411098.pdf,HIGH,Cosmological argument
+PAPERS,Research Paper,ER=EPR Conjecture,https://arxiv.org/pdf/1306.0533.pdf,HIGH,ER=EPR original
+PAPERS,Research Paper,ER=EPR Conjecture,https://arxiv.org/pdf/1604.08444.pdf,HIGH,ER=EPR review
+PAPERS,Research Paper,Fluctuation Theorems,https://arxiv.org/pdf/cond-mat/0501322.pdf,HIGH,Fluctuation theorems
+PAPERS,Research Paper,Self-Organized Criticality,https://arxiv.org/pdf/cond-mat/9907478.pdf,HIGH,SOC review
+PAPERS,Research Paper,Self-Organized Criticality,https://www.pnas.org/doi/pdf/10.1073/pnas.0400830101,HIGH,SOC foundations
+PAPERS,Research Paper,Kuramoto Model,https://arxiv.org/pdf/1403.2083.pdf,HIGH,Kuramoto review
+PAPERS,Research Paper,Autopoiesis,https://philpapers.org/archive/VARACA-11.pdf,HIGH,Autopoiesis cognition
+PAPERS,Research Paper,Curry-Howard Correspondence,https://arxiv.org/pdf/1001.0927.pdf,HIGH,Curry-Howard
+PAPERS,Research Paper,AWARE Study,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4161858/pdf/main.pdf,HIGH,AWARE results

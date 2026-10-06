@@ -1,0 +1,60 @@
+plugins {
+    id 'java'
+    id 'jvm-test-suite'
+    id "com.google.protobuf" version "0.9.4"
+}
+
+jar.archiveBaseName = 'execution-api'
+
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(rootProject.ext.jvmVersion))
+    }
+}
+
+
+apply from: "$rootProject.projectDir/protobuf.gradle"
+
+
+sourceSets {
+    main {
+        proto {
+            srcDir 'protobuf'
+        }
+    }
+}
+
+apply from: "$rootProject.projectDir/srcsets.gradle"
+
+dependencies {
+    implementation project(':code:common:model')
+    implementation project(':code:index:api')
+    implementation project(':code:common:config')
+    implementation project(':code:common:service')
+    implementation project(':code:common:db')
+    implementation project(':code:libraries:message-queue')
+
+    implementation libs.bundles.slf4j
+
+    implementation libs.prometheus
+    implementation libs.notnull
+    implementation libs.guava
+    implementation dependencies.create(libs.guice.get()) {
+        exclude group: 'com.google.guava'
+    }
+    implementation libs.bundles.protobuf
+    implementation libs.guava
+    libs.bundles.grpc.get().each {
+        implementation dependencies.create(it) {
+            exclude group: 'com.google.guava'
+        }
+    }
+
+
+    implementation libs.gson
+
+    testImplementation libs.bundles.slf4j.test
+    testImplementation libs.bundles.junit
+    testImplementation libs.mockito
+
+}

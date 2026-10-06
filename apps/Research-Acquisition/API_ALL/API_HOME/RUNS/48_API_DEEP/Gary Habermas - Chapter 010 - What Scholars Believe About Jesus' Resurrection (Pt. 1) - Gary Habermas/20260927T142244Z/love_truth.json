@@ -1,0 +1,675 @@
+{
+  "truth_engine": {
+    "words": 14025,
+    "hits": {
+      "fruit": 252,
+      "anti_fruit": 0,
+      "grounding": 243,
+      "contradiction": 205,
+      "propaganda": 85,
+      "academic_jargon": 7
+    },
+    "per_100_words": {
+      "fruit": 1.797,
+      "anti_fruit": 0.0,
+      "grounding": 1.733,
+      "contradiction": 1.462,
+      "propaganda": 0.606,
+      "academic_jargon": 0.05
+    },
+    "sentence_share": {
+      "fruit": 0.214,
+      "anti_fruit": 0.0,
+      "grounding": 0.234,
+      "contradiction": 0.21,
+      "propaganda": 0.098,
+      "academic_jargon": 0.007
+    },
+    "subcategories": {
+      "fruit:Unclassified": 209,
+      "contradiction:": 205,
+      "propaganda:absolutism": 80,
+      "grounding:logic": 61,
+      "grounding:evidence": 56,
+      "grounding:general": 52,
+      "grounding:calibration": 43,
+      "fruit:Epistemic": 36,
+      "grounding:attribution": 15,
+      "grounding:specifics": 13,
+      "academic_jargon:": 7,
+      "fruit:Spiritual": 4,
+      "propaganda:false_urgency": 3,
+      "grounding:scientific": 3,
+      "fruit:Relational": 2
+    },
+    "truth_score_raw": 3.305,
+    "truth_score_0_1": 0.839,
+    "top_words": {
+      "fruit": {
+        "just": 79,
+        "kind": 24,
+        "good": 17,
+        "evidence": 12,
+        "i don't know": 12,
+        "whole": 12,
+        "fair": 9,
+        "skeptical": 8
+      },
+      "anti_fruit": {},
+      "grounding": {
+        "because": 56,
+        "research": 21,
+        "time": 19,
+        "data": 13,
+        "probably": 13,
+        "evidence": 12,
+        "could": 12,
+        "phd": 12
+      },
+      "contradiction": {
+        "but": 166,
+        "maybe": 10,
+        "actually": 9,
+        "though": 5,
+        "yet": 4,
+        "rather": 3,
+        "instead": 2,
+        "opposite": 2
+      },
+      "propaganda": {
+        "all": 50,
+        "never": 17,
+        "always": 6,
+        "totally": 3,
+        "absolutely": 2,
+        "none": 2,
+        "immediately": 2,
+        "right now": 1
+      },
+      "academic_jargon": {
+        "in terms of": 7
+      }
+    }
+  },
+  "characterizations": [
+    {
+      "name": "Balanced Analyst",
+      "output": "Evidence-based with acknowledged tensions. Healthy contradiction markers suggest intellectual honesty.",
+      "conditions": "grounding>0.2 AND contradiction>0.05 AND fruit>0.1"
+    }
+  ],
+  "profile": {
+    "version": "0.3.0-draft",
+    "status": "ASSESSED",
+    "source": "turns",
+    "unit": "turns",
+    "sentences": 120,
+    "active_share": 0.575,
+    "net_per_100": {
+      "love": 3.33,
+      "joy": 0.83,
+      "peace": 0.0,
+      "patience": 50.83,
+      "kindness": 51.67,
+      "goodness": 48.33,
+      "faithfulness": 105.0,
+      "gentleness": 49.17,
+      "self_control": 52.5
+    },
+    "active_sentences": {
+      "love": 4,
+      "joy": 1,
+      "peace": 0,
+      "patience": 61,
+      "kindness": 62,
+      "goodness": 58,
+      "faithfulness": 67,
+      "gentleness": 59,
+      "self_control": 61
+    },
+    "love_axis": 1.0,
+    "truth_axis": 0.75,
+    "truth_parts": {
+      "lexicon": 0.839,
+      "coherence": 0.75,
+      "truth_gate": 0.66
+    },
+    "quadrant": "Grace and Truth",
+    "levels": [],
+    "shapes_matched": [
+      {
+        "name": "Stoic",
+        "gap": 49.59,
+        "match": true,
+        "high": [
+          "self_control",
+          "patience"
+        ],
+        "low": [
+          "joy",
+          "love"
+        ],
+        "low_means": "absent"
+      },
+      {
+        "name": "Prophet",
+        "gap": 44.03,
+        "match": true,
+        "high": [
+          "faithfulness",
+          "goodness",
+          "self_control"
+        ],
+        "low": [
+          "peace",
+          "gentleness"
+        ],
+        "low_means": "absent"
+      }
+    ],
+    "shapes_ranked": [
+      {
+        "name": "Stoic",
+        "gap": 49.59,
+        "match": true,
+        "high": [
+          "self_control",
+          "patience"
+        ],
+        "low": [
+          "joy",
+          "love"
+        ],
+        "low_means": "absent"
+      },
+      {
+        "name": "Prophet",
+        "gap": 44.03,
+        "match": true,
+        "high": [
+          "faithfulness",
+          "goodness",
+          "self_control"
+        ],
+        "low": [
+          "peace",
+          "gentleness"
+        ],
+        "low_means": "absent"
+      },
+      {
+        "name": "Pharisee",
+        "gap": 44.03,
+        "match": false,
+        "high": [
+          "self_control",
+          "faithfulness"
+        ],
+        "low": [
+          "love",
+          "kindness",
+          "gentleness"
+        ],
+        "low_means": "negative",
+        "blocked": "low fruits are absent, not negative"
+      },
+      {
+        "name": "Witness",
+        "gap": 17.98,
+        "match": true,
+        "high": [
+          "faithfulness",
+          "love"
+        ],
+        "low": [],
+        "low_means": ""
+      },
+      {
+        "name": "Shepherd",
+        "gap": 15.56,
+        "match": true,
+        "high": [
+          "patience",
+          "gentleness",
+          "kindness"
+        ],
+        "low": [],
+        "low_means": ""
+      },
+      {
+        "name": "Servant",
+        "gap": 12.62,
+        "match": true,
+        "high": [
+          "kindness",
+          "goodness"
+        ],
+        "low": [],
+        "low_means": ""
+      },
+      {
+        "name": "Zealot",
+        "gap": 2.08,
+        "match": false,
+        "high": [
+          "faithfulness",
+          "joy"
+        ],
+        "low": [
+          "patience",
+          "gentleness",
+          "self_control"
+        ],
+        "low_means": "negative",
+        "blocked": "low fruits are absent, not negative"
+      },
+      {
+        "name": "Peacemaker",
+        "gap": -10.28,
+        "match": false,
+        "high": [
+          "peace",
+          "gentleness",
+          "patience"
+        ],
+        "low": [],
+        "low_means": ""
+      },
+      {
+        "name": "Enthusiast",
+        "gap": -49.59,
+        "match": false,
+        "high": [
+          "joy",
+          "love"
+        ],
+        "low": [
+          "patience",
+          "self_control"
+        ],
+        "low_means": "negative",
+        "blocked": "low fruits are absent, not negative"
+      },
+      {
+        "name": "Peacekeeper (false peace)",
+        "gap": -52.08,
+        "match": false,
+        "high": [
+          "peace",
+          "gentleness"
+        ],
+        "low": [
+          "goodness",
+          "faithfulness"
+        ],
+        "low_means": "absent"
+      }
+    ],
+    "profile_deviation": {
+      "love": -36.85,
+      "joy": -39.35,
+      "peace": -40.18,
+      "patience": 10.65,
+      "kindness": 11.49,
+      "goodness": 8.15,
+      "faithfulness": 64.82,
+      "gentleness": 8.99,
+      "self_control": 12.32
+    }
+  },
+  "sentence_profile": {
+    "version": "0.3.0-draft",
+    "status": "ASSESSED",
+    "source": "sentences",
+    "unit": "sentences",
+    "sentences": 808,
+    "active_share": 0.045,
+    "net_per_100": {
+      "love": 0.5,
+      "joy": 0.37,
+      "peace": 0.25,
+      "patience": 0.0,
+      "kindness": 0.62,
+      "goodness": 0.0,
+      "faithfulness": 0.0,
+      "gentleness": 0.12,
+      "self_control": 3.22
+    },
+    "active_sentences": {
+      "love": 4,
+      "joy": 3,
+      "peace": 2,
+      "patience": 0,
+      "kindness": 5,
+      "goodness": 0,
+      "faithfulness": 0,
+      "gentleness": 1,
+      "self_control": 26
+    },
+    "love_axis": 0.528,
+    "truth_axis": 0.75,
+    "truth_parts": {
+      "lexicon": 0.839,
+      "coherence": 0.75,
+      "truth_gate": 0.66
+    },
+    "quadrant": "No Signal (nearest: Grace and Truth)",
+    "levels": [
+      "No Signal"
+    ],
+    "shapes_matched": [],
+    "shapes_ranked": [
+      {
+        "name": "Pharisee",
+        "gap": 1.2,
+        "match": false,
+        "high": [
+          "self_control",
+          "faithfulness"
+        ],
+        "low": [
+          "love",
+          "kindness",
+          "gentleness"
+        ],
+        "low_means": "negative",
+        "blocked": "low fruits are absent, not negative"
+      },
+      {
+        "name": "Stoic",
+        "gap": 1.18,
+        "match": false,
+        "high": [
+          "self_control",
+          "patience"
+        ],
+        "low": [
+          "joy",
+          "love"
+        ],
+        "low_means": "absent"
+      },
+      {
+        "name": "Prophet",
+        "gap": 0.89,
+        "match": false,
+        "high": [
+          "faithfulness",
+          "goodness",
+          "self_control"
+        ],
+        "low": [
+          "peace",
+          "gentleness"
+        ],
+        "low_means": "absent"
+      },
+      {
+        "name": "Peacekeeper (false peace)",
+        "gap": 0.18,
+        "match": false,
+        "high": [
+          "peace",
+          "gentleness"
+        ],
+        "low": [
+          "goodness",
+          "faithfulness"
+        ],
+        "low_means": "absent"
+      },
+      {
+        "name": "Servant",
+        "gap": -0.33,
+        "match": false,
+        "high": [
+          "kindness",
+          "goodness"
+        ],
+        "low": [],
+        "low_means": ""
+      },
+      {
+        "name": "Witness",
+        "gap": -0.4,
+        "match": false,
+        "high": [
+          "faithfulness",
+          "love"
+        ],
+        "low": [],
+        "low_means": ""
+      },
+      {
+        "name": "Shepherd",
+        "gap": -0.48,
+        "match": false,
+        "high": [
+          "patience",
+          "gentleness",
+          "kindness"
+        ],
+        "low": [],
+        "low_means": ""
+      },
+      {
+        "name": "Peacemaker",
+        "gap": -0.66,
+        "match": false,
+        "high": [
+          "peace",
+          "gentleness",
+          "patience"
+        ],
+        "low": [],
+        "low_means": ""
+      },
+      {
+        "name": "Zealot",
+        "gap": -0.93,
+        "match": false,
+        "high": [
+          "faithfulness",
+          "joy"
+        ],
+        "low": [
+          "patience",
+          "gentleness",
+          "self_control"
+        ],
+        "low_means": "negative",
+        "blocked": "low fruits are absent, not negative"
+      },
+      {
+        "name": "Enthusiast",
+        "gap": -1.18,
+        "match": false,
+        "high": [
+          "joy",
+          "love"
+        ],
+        "low": [
+          "patience",
+          "self_control"
+        ],
+        "low_means": "negative",
+        "blocked": "low fruits are absent, not negative"
+      }
+    ],
+    "profile_deviation": {
+      "love": -0.06,
+      "joy": -0.19,
+      "peace": -0.31,
+      "patience": -0.56,
+      "kindness": 0.06,
+      "goodness": -0.56,
+      "faithfulness": -0.56,
+      "gentleness": -0.44,
+      "self_control": 2.66
+    }
+  },
+  "verdict_profile": {
+    "version": "0.3.0-draft",
+    "scores": {
+      "love": 2,
+      "joy": 2,
+      "peace": 2,
+      "patience": 2,
+      "kindness": 2,
+      "goodness": 2,
+      "faithfulness": 2,
+      "gentleness": 2,
+      "self_control": 2
+    },
+    "mean_confidence": 0.367,
+    "status": "ASSESSED",
+    "love_axis": 0.5,
+    "truth_axis": 0.75,
+    "truth_parts": {
+      "lexicon": 0.839,
+      "coherence": 0.75,
+      "truth_gate": 0.66
+    },
+    "quadrant": "No Signal (nearest: Grace and Truth)",
+    "levels": [
+      "No Signal"
+    ],
+    "shapes_matched": [],
+    "shapes_ranked": [
+      {
+        "name": "Shepherd",
+        "gap": 0.0,
+        "match": false,
+        "high": [
+          "patience",
+          "gentleness",
+          "kindness"
+        ],
+        "low": []
+      },
+      {
+        "name": "Prophet",
+        "gap": 0.0,
+        "match": false,
+        "high": [
+          "faithfulness",
+          "goodness",
+          "self_control"
+        ],
+        "low": [
+          "peace",
+          "gentleness"
+        ]
+      },
+      {
+        "name": "Pharisee",
+        "gap": 0.0,
+        "match": false,
+        "high": [
+          "self_control",
+          "faithfulness"
+        ],
+        "low": [
+          "love",
+          "kindness",
+          "gentleness"
+        ]
+      },
+      {
+        "name": "Stoic",
+        "gap": 0.0,
+        "match": false,
+        "high": [
+          "self_control",
+          "patience"
+        ],
+        "low": [
+          "joy",
+          "love"
+        ]
+      },
+      {
+        "name": "Zealot",
+        "gap": 0.0,
+        "match": false,
+        "high": [
+          "faithfulness",
+          "joy"
+        ],
+        "low": [
+          "patience",
+          "gentleness",
+          "self_control"
+        ]
+      },
+      {
+        "name": "Peacemaker",
+        "gap": 0.0,
+        "match": false,
+        "high": [
+          "peace",
+          "gentleness",
+          "patience"
+        ],
+        "low": []
+      },
+      {
+        "name": "Peacekeeper (false peace)",
+        "gap": 0.0,
+        "match": false,
+        "high": [
+          "peace",
+          "gentleness"
+        ],
+        "low": [
+          "goodness",
+          "faithfulness"
+        ]
+      },
+      {
+        "name": "Enthusiast",
+        "gap": 0.0,
+        "match": false,
+        "high": [
+          "joy",
+          "love"
+        ],
+        "low": [
+          "patience",
+          "self_control"
+        ]
+      },
+      {
+        "name": "Servant",
+        "gap": 0.0,
+        "match": false,
+        "high": [
+          "kindness",
+          "goodness"
+        ],
+        "low": []
+      },
+      {
+        "name": "Witness",
+        "gap": 0.0,
+        "match": false,
+        "high": [
+          "faithfulness",
+          "love"
+        ],
+        "low": []
+      }
+    ],
+    "profile_deviation": {
+      "love": 0.0,
+      "joy": 0.0,
+      "peace": 0.0,
+      "patience": 0.0,
+      "kindness": 0.0,
+      "goodness": 0.0,
+      "faithfulness": 0.0,
+      "gentleness": 0.0,
+      "self_control": 0.0
+    }
+  }
+}

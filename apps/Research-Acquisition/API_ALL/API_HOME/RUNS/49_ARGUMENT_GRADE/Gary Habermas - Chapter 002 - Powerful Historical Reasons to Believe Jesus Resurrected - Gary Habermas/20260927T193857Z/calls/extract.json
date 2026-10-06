@@ -1,0 +1,138 @@
+{
+  "name": "extract",
+  "parsed": {
+    "arguments": [
+      {
+        "id": "G1",
+        "name": "New Testament criteria establish reliable historical data",
+        "speaker": "Gary Habermas",
+        "conclusion": "The New Testament criteria (eyewitness, early, embarrassment, enemy attestation, Aramaic substrata) provide reliable historical data for Christianity.",
+        "premises": [
+          "P1: The criteria are used freely by almost all historical Jesus scholars, including skeptics like Bart Ehrman.",
+          "P2: These criteria test whether texts are early, eyewitness, embarrassing, or attested by enemies.",
+          "P3: Embarrassing passages (e.g., Peter's denial, James's unbelief, Paul's persecution) would not be invented by Christians.",
+          "P4: Enemy attestation (e.g., hostile sources admitting Jesus's crucifixion) strengthens historical reliability.",
+          "P5: Aramaic substrata point to earlier strata before translation into Greek."
+        ],
+        "where": "S005-S054, S105-S113"
+      },
+      {
+        "id": "G2",
+        "name": "Paul's seven undisputed epistles are authoritative",
+        "speaker": "Gary Habermas",
+        "conclusion": "Paul's seven undisputed epistles (Romans, 1-2 Corinthians, Galatians, Philippians, 1 Thessalonians, Philemon) are authoritative historical sources.",
+        "premises": [
+          "P1: Critical scholars unanimously accept these seven as authentic.",
+          "P2: Critics consider Paul authoritative and a good source, even if not inspired.",
+          "P3: Paul was a trained scholar and first-rate philosopher (as even atheist Anthony Flew admitted).",
+          "P4: Paul would not lie or change the truth purposely."
+        ],
+        "where": "S055-S100"
+      },
+      {
+        "id": "G3",
+        "name": "Early creeds are pre-Pauline and high Christology",
+        "speaker": "Gary Habermas",
+        "conclusion": "Early Christian creeds embedded in the New Testament are pre-Pauline and present a high Christology, showing Paul did not invent Christianity.",
+        "premises": [
+          "P1: Creeds are early traditions Paul explicitly says he received (e.g., 1 Corinthians 15:3).",
+          "P2: These creeds predate the books containing them and are pre-Pauline (before Paul's conversion).",
+          "P3: About 80% of these creeds focus on the gospel facts: deity, death, and resurrection of Jesus.",
+          "P4: They present a high Christology, as Richard Bauckham says, 'The earliest Christology is the highest Christology.'",
+          "P5: Even skeptical scholars like Bart Ehrman date some high Christology texts to 2-3 years after the cross."
+        ],
+        "where": "S116-S160, S185-S210, S266-S274"
+      },
+      {
+        "id": "G4",
+        "name": "Six minimal facts are conceded by nearly all scholars",
+        "speaker": "Gary Habermas",
+        "conclusion": "Six minimal historical facts about Jesus are conceded by about 95% of critical scholars and provide strong evidence for the resurrection.",
+        "premises": [
+          "P1: Jesus died by crucifixion.",
+          "P2: Jesus was buried.",
+          "P3: Jesus's disciples had real experiences they thought were appearances of the risen Jesus.",
+          "P4: The disciples were transformed and willing to die for their faith.",
+          "P5: The message was proclaimed at a very early date.",
+          "P6: Two skeptics (Paul and James) had experiences they believed were resurrection appearances.",
+          "P7: These facts are conceded by virtually all critical scholars, including skeptics like Bart Ehrman and James Crossley."
+        ],
+        "where": "S347-S474"
+      },
+      {
+        "id": "G5",
+        "name": "Paul's Jerusalem visits confirm eyewitness testimony",
+        "speaker": "Gary Habermas",
+        "conclusion": "Paul's visits to Jerusalem to interview Peter and James provide close access to eyewitness testimony, confirming the gospel message.",
+        "premises": [
+          "P1: Paul went to Jerusalem 3 years after his conversion and spent 15 days with Peter and James (Galatians 1:18).",
+          "P2: The Greek word 'historesai' indicates Paul was doing firsthand research/interviewing.",
+          "P3: Bart Ehrman calls this one of the two strongest arguments for the historicity of Jesus.",
+          "P4: 14 years later Paul returned and presented his gospel to the leaders, who 'added nothing' to it (Galatians 2:6).",
+          "P5: This shows the gospel message was consistent from the earliest eyewitnesses."
+        ],
+        "where": "S520-S590"
+      },
+      {
+        "id": "G6",
+        "name": "The empty tomb is well-evidenced though not universally conceded",
+        "speaker": "Gary Habermas",
+        "conclusion": "The empty tomb is probably the most evidenced fact for the resurrection, though only about 75% of scholars concede it.",
+        "premises": [
+          "P1: The empty tomb has more evidence in its favor than any other fact.",
+          "P2: About 75% of scholars concede it, compared to 95% for the six minimal facts.",
+          "P3: Even if the burial was in a pit, the empty tomb argument still holds because the body would need to be raised.",
+          "P4: No critic has seriously held the 'stolen body' theory for over 200 years."
+        ],
+        "where": "S417-S419, S642-S643"
+      },
+      {
+        "id": "G7",
+        "name": "Naturalistic theories fail to explain the facts",
+        "speaker": "Gary Habermas",
+        "conclusion": "Naturalistic theories cannot adequately explain the minimal facts, and most critics have given up on them.",
+        "premises": [
+          "P1: The minimal facts can refute every naturalistic theory.",
+          "P2: Most critics today have given up naturalistic theories.",
+          "P3: Bart Ehrman says, 'History can't prove miracles, but neither can history disprove miracles.'",
+          "P4: More critical scholars now accept either a bodily resurrection or a real appearance experience (Casper view) rather than denying the resurrection entirely."
+        ],
+        "where": "S644-S733"
+      },
+      {
+        "id": "G8",
+        "name": "Christianity's early testimony is unique among world religions",
+        "speaker": "Gary Habermas",
+        "conclusion": "Christianity has earlier and better-attested historical sources than any other religion or ancient figure.",
+        "premises": [
+          "P1: The earliest sources for Alexander the Great are about 300 years after his death.",
+          "P2: Buddhist sources are 600-800 years after Buddha.",
+          "P3: Paul Barnett, an Australian historian, says nothing in ancient history, secular or religious, has anything like the early Christian testimony.",
+          "P4: Even Bart Ehrman admits we have high Christology texts from 2-3 years after the cross."
+        ],
+        "where": "S239-S268"
+      }
+    ]
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "extract",
+      "attempt": 1,
+      "text": "{\n  \"arguments\": [\n    {\n      \"id\": \"G1\",\n      \"name\": \"New Testament criteria establish reliable historical data\",\n      \"speaker\": \"Gary Habermas\",\n      \"conclusion\": \"The New Testament criteria (eyewitness, early, embarrassment, enemy attestation, Aramaic substrata) provide reliable historical data for Christianity.\",\n      \"premises\": [\n        \"P1: The criteria are used freely by almost all historical Jesus scholars, including skeptics like Bart Ehrman.\",\n        \"P2: These criteria test whether texts are early, eyewitness, embarrassing, or attested by enemies.\",\n        \"P3: Embarrassing passages (e.g., Peter's denial, James's unbelief, Paul's persecution) would not be invented by Christians.\",\n        \"P4: Enemy attestation (e.g., hostile sources admitting Jesus's crucifixion) strengthens historical reliability.\",\n        \"P5: Aramaic substrata point to earlier strata before translation into Greek.\"\n      ],\n      \"where\": \"S005-S054, S105-S113\"\n    },\n    {\n      \"id\": \"G2\",\n      \"name\": \"Paul's seven undisputed epistles are authoritative\",\n      \"speaker\": \"Gary Habermas\",\n      \"conclusion\": \"Paul's seven undisputed epistles (Romans, 1-2 Corinthians, Galatians, Philippians, 1 Thessalonians, Philemon) are authoritative historical sources.\",\n      \"premises\": [\n        \"P1: Critical scholars unanimously accept these seven as authentic.\",\n        \"P2: Critics consider Paul authoritative and a good source, even if not inspired.\",\n        \"P3: Paul was a trained scholar and first-rate philosopher (as even atheist Anthony Flew admitted).\",\n        \"P4: Paul would not lie or change the truth purposely.\"\n      ],\n      \"where\": \"S055-S100\"\n    },\n    {\n      \"id\": \"G3\",\n      \"name\": \"Early creeds are pre-Pauline and high Christology\",\n      \"speaker\": \"Gary Habermas\",\n      \"conclusion\": \"Early Christian creeds embedded in the New Testament are pre-Pauline and present a high Christology, showing Paul did not invent Christianity.\",\n      \"premises\": [\n        \"P1: Creeds are early traditions Paul explicitly says he received (e.g., 1 Corinthians 15:3).\",\n        \"P2: These creeds predate the books containing them and are pre-Pauline (before Paul's conversion).\",\n        \"P3: About 80% of these creeds focus on the gospel facts: deity, death, and resurrection of Jesus.\",\n        \"P4: They present a high Christology, as Richard Bauckham says, 'The earliest Christology is the highest Christology.'\",\n        \"P5: Even skeptical scholars like Bart Ehrman date some high Christology texts to 2-3 years after the cross.\"\n      ],\n      \"where\": \"S116-S160, S185-S210, S266-S274\"\n    },\n    {\n      \"id\": \"G4\",\n      \"name\": \"Six minimal facts are conceded by nearly all scholars\",\n      \"speaker\": \"Gary Habermas\",\n      \"conclusion\": \"Six minimal historical facts about Jesus are conceded by about 95% of critical scholars and provide strong evidence for the resurrection.\",\n      \"premises\": [\n        \"P1: Jesus died by crucifixion.\",\n        \"P2: Jesus was buried.\",\n        \"P3: Jesus's disciples had real experiences they thought were appearances of the risen Jesus.\",\n        \"P4: The disciples were transformed and willing to die for their faith.\",\n        \"P5: The message was proclaimed at a very early date.\",\n        \"P6: Two skeptics (Paul and James) had experiences they believed were resurrection appearances.\",\n        \"P7: These facts are conceded by virtually all critical scholars, including skeptics like Bart Ehrman and James Crossley.\"\n      ],\n      \"where\": \"S347-S474\"\n    },\n    {\n      \"id\": \"G5\",\n      \"name\": \"Paul's Jerusalem visits confirm eyewitness testimony\",\n      \"speaker\": \"Gary Habermas\",\n      \"conclusion\": \"Paul's visits to Jerusalem to interview Peter and James provide close access to eyewitness testimony, confirming the gospel message.\",\n      \"premises\": [\n        \"P1: Paul went to Jerusalem 3 years after his conversion and spent 15 days with Peter and James (Galatians 1:18).\",\n        \"P2: The Greek word 'historesai' indicates Paul was doing firsthand research/interviewing.\",\n        \"P3: Bart Ehrman calls this one of the two strongest arguments for the historicity of Jesus.\",\n        \"P4: 14 years later Paul returned and presented his gospel to the leaders, who 'added nothing' to it (Galatians 2:6).\",\n        \"P5: This shows the gospel message was consistent from the earliest eyewitnesses.\"\n      ],\n      \"where\": \"S520-S590\"\n    },\n    {\n      \"id\": \"G6\",\n      \"name\": \"The empty tomb is well-evidenced though not universally conceded\",\n      \"speaker\": \"Gary Habermas\",\n      \"conclusion\": \"The empty tomb is probably the most evidenced fact for the resurrection, though only about 75% of scholars concede it.\",\n      \"premises\": [\n        \"P1: The empty tomb has more evidence in its favor than any other fact.\",\n        \"P2: About 75% of scholars concede it, compared to 95% for the six minimal facts.\",\n        \"P3: Even if the burial was in a pit, the empty tomb argument still holds because the body would need to be raised.\",\n        \"P4: No critic has seriously held the 'stolen body' theory for over 200 years.\"\n      ],\n      \"where\": \"S417-S419, S642-S643\"\n    },\n    {\n      \"id\": \"G7\",\n      \"name\": \"Naturalistic theories fail to explain the facts\",\n      \"speaker\": \"Gary Habermas\",\n      \"conclusion\": \"Naturalistic theories cannot adequately explain the minimal facts, and most critics have given up on them.\",\n      \"premises\": [\n        \"P1: The minimal facts can refute every naturalistic theory.\",\n        \"P2: Most critics today have given up naturalistic theories.\",\n        \"P3: Bart Ehrman says, 'History can't prove miracles, but neither can history disprove miracles.'\",\n        \"P4: More critical scholars now accept either a bodily resurrection or a real appearance experience (Casper view) rather than denying the resurrection entirely.\"\n      ],\n      \"where\": \"S644-S733\"\n    },\n    {\n      \"id\": \"G8\",\n      \"name\": \"Christianity's early testimony is unique among world religions\",\n      \"speaker\": \"Gary Habermas\",\n      \"conclusion\": \"Christianity has earlier and better-attested historical sources than any other religion or ancient figure.\",\n      \"premises\": [\n        \"P1: The earliest sources for Alexander the Great are about 300 years after his death.\",\n        \"P2: Buddhist sources are 600-800 years after Buddha.\",\n        \"P3: Paul Barnett, an Australian historian, says nothing in ancient history, secular or religious, has anything like the early Christian testimony.\",\n        \"P4: Even Bart Ehrman admits we have high Christology texts from 2-3 years after the cross.\"\n      ],\n      \"where\": \"S239-S268\"\n    }\n  ]\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 12641,
+      "completion_tokens": 1604,
+      "attempts": 1,
+      "elapsed_seconds": 7.188000000001921,
+      "started_at": "2026-09-27T19:38:57.630203+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T19:39:04.819884+00:00",
+      "tokens": 14245
+    }
+  ],
+  "prompt_sha256": "ffb22044272aa95338e39d16dfd864b9c88adbcc95108c87f114d829252956e4",
+  "tokens": 14245
+}

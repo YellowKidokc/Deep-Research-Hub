@@ -1,0 +1,471 @@
+{
+  "station": "lean4",
+  "paper_uuid": "AX_GI_01_FL_01_GOD_AS_ROOT_f055954a",
+  "run_uuid": "20260927T053821Z",
+  "template": "00_FULL_LEAN_TEMPLATE.md",
+  "formal_candidates": [
+    {
+      "identity": {
+        "claim_id": "A01",
+        "candidate_uuid": "c1a01e00-0000-4000-8000-000000000001"
+      },
+      "source_selection": {
+        "exact_source_expression": "God is the floor beneath everything; you can't prove Him because a provable axiom would rest on something deeper.",
+        "selection_disposition": "FORMALIZE",
+        "reason": "The claim has a precise formal shape: an unprovable ground axiom for a derivation system, with a meta-theorem that provability of the ground would contradict its foundational role. This is expressible in Lean 4 using a small axiomatic derivation system and a predicate for 'is the ground'."
+      },
+      "formal_object": {
+        "object_type": "THEOREM",
+        "exact_proposed_statement": "For any derivation system D with a distinguished ground axiom G, if G is the unique axiom of D and D is sound, then there is no derivation in D of G from the empty set of premises; moreover, if G were derivable from some proper subsystem, G would not be the ground.",
+        "fully_qualified_declaration": "GodAsRoot.ground_axiom_unprovable",
+        "project_root": "GodAsRoot",
+        "module": "GodAsRoot.GroundAxiom"
+      },
+      "symbol_table": [
+        {
+          "term": "DerivationSystem",
+          "formal_definition": "structure DerivationSystem where\n  Formula : Type\n  Axiom : Formula → Prop\n  Derives : Set Formula → Formula → Prop\n  sound : ∀ {Γ φ}, Derives Γ φ → (∀ ψ ∈ Γ, True) → True",
+          "reader_meaning": "A formal system with formulas, axioms, and a derivability relation.",
+          "source_correspondence": "The paper's 'formal system' with a floor it cannot dig beneath (S010)."
+        },
+        {
+          "term": "GroundAxiom",
+          "formal_definition": "def GroundAxiom (D : DerivationSystem) (G : D.Formula) : Prop := D.Axiom G ∧ ∀ φ, D.Axiom φ → φ = G",
+          "reader_meaning": "The single axiom on which the system rests.",
+          "source_correspondence": "The Trinity as the single ground axiom (A01, S015–S022)."
+        },
+        {
+          "term": "UnprovableFromEmpty",
+          "formal_definition": "def UnprovableFromEmpty (D : DerivationSystem) (G : D.Formula) : Prop := ¬ D.Derives ∅ G",
+          "reader_meaning": "The ground axiom cannot be derived from no premises.",
+          "source_correspondence": "The axiom cannot be proven (S040–S045)."
+        }
+      ],
+      "assumptions_and_dependencies": {
+        "explicit_premises": [
+          "D is a derivation system with a distinguished formula G.",
+          "G is the unique axiom of D.",
+          "D is sound in the sense that derivability from premises implies truth under any valuation satisfying the premises."
+        ],
+        "custom_axioms": [],
+        "theological_starting_premises": "The Trinity is the single ground axiom (A01).",
+        "non_vacuity_requirement": "There must exist at least one derivation system with a unique axiom; e.g., the trivial system with one axiom and no rules."
+      },
+      "verification_controls": [
+        {
+          "check": "module compilation",
+          "command_or_evidence": "lake build GodAsRoot.GroundAxiom",
+          "status": "NOT_RUN",
+          "interpretation": "Lean corpus not searched; no build attempted."
+        },
+        {
+          "check": "declaration inspection",
+          "command_or_evidence": "#check GodAsRoot.ground_axiom_unprovable",
+          "status": "NOT_RUN",
+          "interpretation": "Declaration not yet inspected."
+        },
+        {
+          "check": "non-vacuity",
+          "command_or_evidence": "Construct a concrete DerivationSystem with a unique axiom and prove the theorem for it.",
+          "status": "NOT_RUN",
+          "interpretation": "Non-vacuity not yet established."
+        }
+      ],
+      "result_and_boundary": {
+        "verification_status": "CANDIDATE",
+        "what_is_established": "If formalized, the theorem would establish that in any sound derivation system with a unique ground axiom, that axiom is not derivable from no premises.",
+        "what_remains_open": "Whether the abstract derivation system faithfully models the paper's derivation grammar (DG1) and whether the Trinity satisfies the GroundAxiom predicate.",
+        "encoding_fidelity_review": "The formalization captures the logical structure of 'unprovable ground axiom' but does not capture the theological content of the Trinity.",
+        "interpretive_connections": "Connects to Gödel's incompleteness theorems as referenced in S048 and S311."
+      },
+      "reproduction_receipt": {
+        "run_id": "",
+        "timestamp": "",
+        "source_hashes": {},
+        "commands": [],
+        "exit_codes": [],
+        "log_paths": [],
+        "declarations_checked": []
+      },
+      "corpus_links": {
+        "human_companion": "",
+        "corpus_claim_register": "",
+        "supporting_summaries": []
+      }
+    },
+    {
+      "identity": {
+        "claim_id": "A05",
+        "candidate_uuid": "c1a05e00-0000-4000-8000-000000000002"
+      },
+      "source_selection": {
+        "exact_source_expression": "The universe needs a source outside itself that is necessary, self-grounding, active, and personal — the God theologians already described.",
+        "selection_disposition": "FORMALIZE",
+        "reason": "The necessary ground argument has a clear modal and mereological structure: a contingent universe requires a necessary, self-grounding, active, personal ground. This can be formalized using modal logic and a predicate for 'grounds'."
+      },
+      "formal_object": {
+        "object_type": "THEOREM",
+        "exact_proposed_statement": "If the universe is contingent (possibly not existing) and every contingent entity requires a ground that is not contingent, then there exists a necessary, self-grounding, active, personal ground of the universe.",
+        "fully_qualified_declaration": "GodAsRoot.necessary_ground_argument",
+        "project_root": "GodAsRoot",
+        "module": "GodAsRoot.NecessaryGround"
+      },
+      "symbol_table": [
+        {
+          "term": "Contingent",
+          "formal_definition": "def Contingent (x : Entity) : Prop := ∃ (w : World), ¬ ExistsIn x w",
+          "reader_meaning": "An entity that could fail to exist.",
+          "source_correspondence": "The universe is not self-sufficient (S290)."
+        },
+        {
+          "term": "Grounds",
+          "formal_definition": "def Grounds (g x : Entity) : Prop := Necessary g ∧ SelfGrounding g ∧ Active g ∧ Personal g ∧ Sustains g x",
+          "reader_meaning": "The relation between a necessary ground and what it sustains.",
+          "source_correspondence": "The required properties of the source (S293–S297)."
+        },
+        {
+          "term": "Necessary",
+          "formal_definition": "def Necessary (x : Entity) : Prop := ∀ (w : World), ExistsIn x w",
+          "reader_meaning": "An entity that exists in all possible worlds.",
+          "source_correspondence": "Necessary existence (S293)."
+        }
+      ],
+      "assumptions_and_dependencies": {
+        "explicit_premises": [
+          "The universe is contingent.",
+          "Every contingent entity requires a ground that is not contingent.",
+          "The ground must be necessary, self-grounding, active, and personal."
+        ],
+        "custom_axioms": [
+          "axiom grounding_principle : ∀ x, Contingent x → ∃ g, Grounds g x"
+        ],
+        "theological_starting_premises": "The God theologians described is the necessary, self-grounding, active, personal ground (A05).",
+        "non_vacuity_requirement": "There must exist at least one contingent entity (the universe) and at least one necessary entity (God)."
+      },
+      "verification_controls": [
+        {
+          "check": "module compilation",
+          "command_or_evidence": "lake build GodAsRoot.NecessaryGround",
+          "status": "NOT_RUN",
+          "interpretation": "Lean corpus not searched; no build attempted."
+        },
+        {
+          "check": "axiom dependency",
+          "command_or_evidence": "#print axioms GodAsRoot.necessary_ground_argument",
+          "status": "NOT_RUN",
+          "interpretation": "Axiom dependencies not yet checked."
+        },
+        {
+          "check": "non-vacuity",
+          "command_or_evidence": "Construct a model with a contingent universe and a necessary ground.",
+          "status": "NOT_RUN",
+          "interpretation": "Non-vacuity not yet established."
+        }
+      ],
+      "result_and_boundary": {
+        "verification_status": "CANDIDATE",
+        "what_is_established": "If formalized, the theorem would establish that under the grounding principle, a contingent universe implies a necessary, self-grounding, active, personal ground.",
+        "what_remains_open": "Whether the grounding principle is metaphysically justified and whether the formal predicates capture the intended theological attributes.",
+        "encoding_fidelity_review": "The formalization captures the modal structure but leaves the content of 'personal' and 'active' as uninterpreted predicates.",
+        "interpretive_connections": "Connects to classical cosmological arguments and the paper's five mathematical requirements (S293–S297)."
+      },
+      "reproduction_receipt": {
+        "run_id": "",
+        "timestamp": "",
+        "source_hashes": {},
+        "commands": [],
+        "exit_codes": [],
+        "log_paths": [],
+        "declarations_checked": []
+      },
+      "corpus_links": {
+        "human_companion": "",
+        "corpus_claim_register": "",
+        "supporting_summaries": []
+      }
+    },
+    {
+      "identity": {
+        "claim_id": "A03",
+        "candidate_uuid": "c1a03e00-0000-4000-8000-000000000003"
+      },
+      "source_selection": {
+        "exact_source_expression": "Read the ten laws together and they describe one Person; the same gap — agency — appears ten times.",
+        "selection_disposition": "FORMALIZE",
+        "reason": "The claim that ten physical laws share a common structural gap (agency) can be formalized as a property of a set of structures: each law has a missing variable of the same type, and the collection of laws with that variable filled describes a unique person."
+      },
+      "formal_object": {
+        "object_type": "THEOREM",
+        "exact_proposed_statement": "For a set of ten physical law structures L₁,…,L₁₀, if each Lᵢ has a distinguished missing variable of type Agency, and the completion of each Lᵢ with Agency yields a property Pᵢ, then the conjunction of Pᵢ describes a unique person (the Christ).",
+        "fully_qualified_declaration": "GodAsRoot.ten_laws_portrait",
+        "project_root": "GodAsRoot",
+        "module": "GodAsRoot.TenLaws"
+      },
+      "symbol_table": [
+        {
+          "term": "PhysicalLaw",
+          "formal_definition": "structure PhysicalLaw where\n  Name : String\n  Properties : Set (String × ℝ)\n  MissingVariable : Type",
+          "reader_meaning": "A physical law with measurable properties and a missing variable.",
+          "source_correspondence": "The ten laws in the table (S235–S245)."
+        },
+        {
+          "term": "Agency",
+          "formal_definition": "inductive Agency : Type | canRefuse | canReject | canSuppress | canDeny | canIgnore | canAbandon | canWithhold | canBreak | canRejectCoherence",
+          "reader_meaning": "The capacity for free choice, which is the repeated missing piece.",
+          "source_correspondence": "Agency is the repeated structural gap (S248)."
+        },
+        {
+          "term": "DescribesPerson",
+          "formal_definition": "def DescribesPerson (properties : Set (String × ℝ)) (p : Person) : Prop := ∀ prop ∈ properties, HasProperty p prop",
+          "reader_meaning": "A set of properties matches a person.",
+          "source_correspondence": "The portrait matches one Person (S130)."
+        }
+      ],
+      "assumptions_and_dependencies": {
+        "explicit_premises": [
+          "There are exactly ten physical laws under consideration.",
+          "Each law has a missing variable of type Agency.",
+          "The completion of each law with Agency yields a property.",
+          "There is a unique person who has all the resulting properties."
+        ],
+        "custom_axioms": [
+          "axiom ten_laws : List PhysicalLaw",
+          "axiom ten_laws_length : ten_laws.length = 10",
+          "axiom unique_person : ∃! p : Person, ∀ L ∈ ten_laws, DescribesPerson (complete L Agency) p"
+        ],
+        "theological_starting_premises": "The person described is Christ (A03).",
+        "non_vacuity_requirement": "There must exist at least one person satisfying the properties."
+      },
+      "verification_controls": [
+        {
+          "check": "module compilation",
+          "command_or_evidence": "lake build GodAsRoot.TenLaws",
+          "status": "NOT_RUN",
+          "interpretation": "Lean corpus not searched; no build attempted."
+        },
+        {
+          "check": "non-vacuity",
+          "command_or_evidence": "Provide a concrete list of ten laws and a person satisfying the properties.",
+          "status": "NOT_RUN",
+          "interpretation": "Non-vacuity not yet established."
+        },
+        {
+          "check": "countermodel",
+          "command_or_evidence": "Attempt to construct a different person satisfying the same properties.",
+          "status": "NOT_RUN",
+          "interpretation": "Uniqueness not yet tested."
+        }
+      ],
+      "result_and_boundary": {
+        "verification_status": "CANDIDATE",
+        "what_is_established": "If formalized, the theorem would establish that under the given axioms, the ten laws with agency filled describe a unique person.",
+        "what_remains_open": "Whether the physical laws actually have the stated properties and whether the uniqueness claim is empirically justified.",
+        "encoding_fidelity_review": "The formalization captures the structural pattern but relies on axioms for the specific properties and uniqueness.",
+        "interpretive_connections": "Connects to the Hessian matrix analysis (S151–S156) and the ten-law table (S235–S245)."
+      },
+      "reproduction_receipt": {
+        "run_id": "",
+        "timestamp": "",
+        "source_hashes": {},
+        "commands": [],
+        "exit_codes": [],
+        "log_paths": [],
+        "declarations_checked": []
+      },
+      "corpus_links": {
+        "human_companion": "",
+        "corpus_claim_register": "",
+        "supporting_summaries": []
+      }
+    },
+    {
+      "identity": {
+        "claim_id": "A09",
+        "candidate_uuid": "c1a09e00-0000-4000-8000-000000000004"
+      },
+      "source_selection": {
+        "exact_source_expression": "The empty tomb says the pattern outlives the substrate and decay gets reversed from outside.",
+        "selection_disposition": "FORMALIZE",
+        "reason": "The claim has two formal components: (1) information/pattern survival after substrate destruction, and (2) local entropy reversal by an external source. Both can be modeled abstractly."
+      },
+      "formal_object": {
+        "object_type": "THEOREM",
+        "exact_proposed_statement": "If a pattern P is instantiated in a substrate S, and S is destroyed, then P can be re-instantiated in a new substrate S' by an external source E; moreover, if a closed system has entropy increasing, an external source can locally decrease entropy.",
+        "fully_qualified_declaration": "GodAsRoot.empty_tomb_physics",
+        "project_root": "GodAsRoot",
+        "module": "GodAsRoot.EmptyTomb"
+      },
+      "symbol_table": [
+        {
+          "term": "Pattern",
+          "formal_definition": "structure Pattern where\n  id : String\n  structure : Type",
+          "reader_meaning": "An information-bearing structure.",
+          "source_correspondence": "The pattern that outlives the substrate (S221)."
+        },
+        {
+          "term": "Substrate",
+          "formal_definition": "structure Substrate where\n  material : Type\n  instantiate : Pattern → Prop",
+          "reader_meaning": "A physical container for a pattern.",
+          "source_correspondence": "The container that is destroyed (S222)."
+        },
+        {
+          "term": "ExternalSource",
+          "formal_definition": "structure ExternalSource where\n  energy : ℝ\n  canRestore : Pattern → Substrate → Prop",
+          "reader_meaning": "A source outside the closed system.",
+          "source_correspondence": "The source outside itself (S223)."
+        }
+      ],
+      "assumptions_and_dependencies": {
+        "explicit_premises": [
+          "A pattern P is instantiated in substrate S.",
+          "S is destroyed.",
+          "There exists an external source E that can re-instantiate P in a new substrate S'.",
+          "Entropy in a closed system increases, but an external source can locally decrease it."
+        ],
+        "custom_axioms": [
+          "axiom pattern_survival : ∀ P S, Instantiated P S → Destroyed S → ∃ S', Instantiated P S'",
+          "axiom entropy_reversal : ∀ system, Closed system → EntropyIncreasing system → ∃ E, External E ∧ LocallyDecreasesEntropy E system"
+        ],
+        "theological_starting_premises": "The empty tomb is a physics claim (A09).",
+        "non_vacuity_requirement": "There must exist at least one pattern and one substrate."
+      },
+      "verification_controls": [
+        {
+          "check": "module compilation",
+          "command_or_evidence": "lake build GodAsRoot.EmptyTomb",
+          "status": "NOT_RUN",
+          "interpretation": "Lean corpus not searched; no build attempted."
+        },
+        {
+          "check": "non-vacuity",
+          "command_or_evidence": "Construct a concrete pattern and substrate.",
+          "status": "NOT_RUN",
+          "interpretation": "Non-vacuity not yet established."
+        },
+        {
+          "check": "negative control",
+          "command_or_evidence": "Attempt to prove pattern survival without an external source.",
+          "status": "NOT_RUN",
+          "interpretation": "Negative control not yet run."
+        }
+      ],
+      "result_and_boundary": {
+        "verification_status": "CANDIDATE",
+        "what_is_established": "If formalized, the theorem would establish that under the given axioms, patterns can survive substrate destruction and entropy can be locally reversed by an external source.",
+        "what_remains_open": "Whether the axioms correspond to actual physics and whether the empty tomb is the specific instance.",
+        "encoding_fidelity_review": "The formalization captures the abstract structure but relies on axioms for the physical claims.",
+        "interpretive_connections": "Connects to information theory and thermodynamics as discussed in S171–S175 and S219–S223."
+      },
+      "reproduction_receipt": {
+        "run_id": "",
+        "timestamp": "",
+        "source_hashes": {},
+        "commands": [],
+        "exit_codes": [],
+        "log_paths": [],
+        "declarations_checked": []
+      },
+      "corpus_links": {
+        "human_companion": "",
+        "corpus_claim_register": "",
+        "supporting_summaries": []
+      }
+    },
+    {
+      "identity": {
+        "claim_id": "A06",
+        "candidate_uuid": "c1a06e00-0000-4000-8000-000000000005"
+      },
+      "source_selection": {
+        "exact_source_expression": "Follow being all the way down and you arrive at the Cross.",
+        "selection_disposition": "FORMALIZE",
+        "reason": "The 24-step causal chain can be formalized as a directed graph or a sequence of implications, with the conclusion being the Cross. This is a candidate for a formal derivation."
+      },
+      "formal_object": {
+        "object_type": "THEOREM",
+        "exact_proposed_statement": "Given the 24-step causal chain from God to the Cross, if each step is a valid implication, then the chain terminates at the Cross.",
+        "fully_qualified_declaration": "GodAsRoot.descent_chain",
+        "project_root": "GodAsRoot",
+        "module": "GodAsRoot.Descent"
+      },
+      "symbol_table": [
+        {
+          "term": "Step",
+          "formal_definition": "inductive Step : Type | godCreates | creationStands | ... | christConvergence",
+          "reader_meaning": "A step in the causal chain.",
+          "source_correspondence": "The 24 steps in S315–S338."
+        },
+        {
+          "term": "Implication",
+          "formal_definition": "def Implication (s₁ s₂ : Step) : Prop := True",
+          "reader_meaning": "A valid implication between steps.",
+          "source_correspondence": "Each step follows from the previous (S339–S341)."
+        },
+        {
+          "term": "TerminatesAt",
+          "formal_definition": "def TerminatesAt (chain : List Step) (s : Step) : Prop := chain.getLast? = some s",
+          "reader_meaning": "The chain ends at a given step.",
+          "source_correspondence": "The chain arrives at the Cross (S341)."
+        }
+      ],
+      "assumptions_and_dependencies": {
+        "explicit_premises": [
+          "There is a sequence of 24 steps.",
+          "Each step implies the next.",
+          "The last step is the Cross."
+        ],
+        "custom_axioms": [
+          "axiom chain : List Step",
+          "axiom chain_length : chain.length = 24",
+          "axiom chain_valid : ∀ i, i + 1 < chain.length → Implication (chain[i]) (chain[i+1])",
+          "axiom last_step : chain.getLast? = some Step.christConvergence"
+        ],
+        "theological_starting_premises": "The Cross is the convergence point (A06).",
+        "non_vacuity_requirement": "The chain must be non-empty and the steps must be distinct."
+      },
+      "verification_controls": [
+        {
+          "check": "module compilation",
+          "command_or_evidence": "lake build GodAsRoot.Descent",
+          "status": "NOT_RUN",
+          "interpretation": "Lean corpus not searched; no build attempted."
+        },
+        {
+          "check": "non-vacuity",
+          "command_or_evidence": "Provide a concrete list of 24 steps.",
+          "status": "NOT_RUN",
+          "interpretation": "Non-vacuity not yet established."
+        },
+        {
+          "check": "proof escape",
+          "command_or_evidence": "Check for sorry in the proof.",
+          "status": "NOT_RUN",
+          "interpretation": "Proof escape not yet checked."
+        }
+      ],
+      "result_and_boundary": {
+        "verification_status": "CANDIDATE",
+        "what_is_established": "If formalized, the theorem would establish that the given chain terminates at the Cross.",
+        "what_remains_open": "Whether the implications are metaphysically valid and whether the chain is exhaustive.",
+        "encoding_fidelity_review": "The formalization captures the sequence but treats implications as axioms.",
+        "interpretive_connections": "Connects to the narrative maps section (S314–S341)."
+      },
+      "reproduction_receipt": {
+        "run_id": "",
+        "timestamp": "",
+        "source_hashes": {},
+        "commands": [],
+        "exit_codes": [],
+        "log_paths": [],
+        "declarations_checked": []
+      },
+      "corpus_links": {
+        "human_companion": "",
+        "corpus_claim_register": "",
+        "supporting_summaries": []
+      }
+    }
+  ],
+  "existing_matches": [],
+  "notes": "The Lean corpus was not searched in this run. All verification controls are NOT_RUN and verification_status is CANDIDATE or NOT_ATTEMPTED. The formal candidates are proposed targets, not verified Lean declarations. The theological and physical premises are not established by formalization alone."
+}

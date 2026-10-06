@@ -1,0 +1,8 @@
+{
+  "last_batch_start_offset": 310,
+  "last_batch_cases_processed": 100,
+  "master_rows_written": 8196,
+  "batch_rows_written": 1988,
+  "batch_file": "D:\\GitHub\\crawl4ai\\case_lists\\case_links_batch_310_100.csv",
+  "batch_summary_file": "D:\\GitHub\\crawl4ai\\case_lists\\case_links_batch_310_100_summary.json"
+}

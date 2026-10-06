@@ -1,0 +1,581 @@
+{
+  "name": "fruits_turns_1",
+  "parsed": {
+    "range": "T001-T030",
+    "turns": [
+      {
+        "id": "T001",
+        "speaker": "host",
+        "v": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "why": {
+          "love": "warm welcome and concern for guest's wife",
+          "joy": "enthusiastic about finale",
+          "patience": "lets guest answer fully",
+          "kindness": "invites update on wife gently"
+        }
+      },
+      {
+        "id": "T002",
+        "speaker": "guest",
+        "v": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "why": {
+          "joy": "glad volume 4 is out"
+        }
+      },
+      {
+        "id": "T003",
+        "speaker": "guest",
+        "v": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "why": {
+          "joy": "delight in positive reviews"
+        }
+      },
+      {
+        "id": "T004",
+        "speaker": "guest",
+        "v": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "why": {
+          "joy": "enthusiasm for volume's importance"
+        }
+      },
+      {
+        "id": "T005",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "explains book count and overlap carefully",
+          "kindness": "addresses imagined listener objection",
+          "faithfulness": "clarifies no overlap between books",
+          "self_control": "corrects own count without overclaiming"
+        }
+      },
+      {
+        "id": "T006",
+        "speaker": "guest",
+        "v": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "why": {
+          "love": "shares wife's cancer openly, asks prayers",
+          "patience": "explains medical staging detail",
+          "kindness": "thanks host for asking",
+          "faithfulness": "honest about suffering and book relevance",
+          "self_control": "measured tone on painful topic"
+        }
+      },
+      {
+        "id": "T007",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T008",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "why": {
+          "patience": "sets up objection before asking",
+          "kindness": "explains the skeptical softball format"
+        }
+      },
+      {
+        "id": "T009",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "patience": "breaks objection into four points, explains each",
+          "kindness": "defines what he means by apologetics",
+          "faithfulness": "consistent with earlier volumes' claims",
+          "gentleness": "calls objection silly but not the objector",
+          "self_control": "clarifies scope rather than overclaiming"
+        }
+      },
+      {
+        "id": "T010",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "walks through why skeptics won't be moved",
+          "faithfulness": "admits no answer will satisfy some",
+          "self_control": "concedes limits of argument"
+        }
+      },
+      {
+        "id": "T011",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T012",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "why": {
+          "kindness": "supports guest's point",
+          "faithfulness": "notes volumes one and two still stand"
+        }
+      },
+      {
+        "id": "T013",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "explains series structure step by step",
+          "faithfulness": "says four built on one and two",
+          "self_control": "qualifies scholarly vs lay level"
+        }
+      },
+      {
+        "id": "T014",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "why": {
+          "faithfulness": "vouches for Gary's consistent evidentialism"
+        }
+      },
+      {
+        "id": "T015",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "patience": "explains when he does or doesn't press",
+          "kindness": "describes not pushing agnostic friend",
+          "faithfulness": "consistent evidential standard",
+          "gentleness": "live-and-let-live on minor topics",
+          "self_control": "distinguishes central from minor issues"
+        }
+      },
+      {
+        "id": "T016",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T017",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T018",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T019",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T020",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T021",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "patience": "explains why he can't pick one favorite",
+          "kindness": "defines terms for listener",
+          "faithfulness": "consistent with earlier claims",
+          "gentleness": "fair to miracle chapter's lesser weight",
+          "self_control": "hedges on which is most important"
+        }
+      },
+      {
+        "id": "T022",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T023",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "why": {
+          "patience": "sets up question with context",
+          "kindness": "notes Gary not known for this topic"
+        }
+      },
+      {
+        "id": "T024",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "patience": "explains Lewis/Plantinga argument step by step",
+          "kindness": "defines the epistemic argument",
+          "faithfulness": "credits sources fairly",
+          "gentleness": "warm aside about 'Big Al'",
+          "self_control": "hedges on who originated argument"
+        }
+      },
+      {
+        "id": "T025",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "patience": "explains Russell's influence at length",
+          "kindness": "says something nice about Jesus as Russell did",
+          "faithfulness": "cites Russell fairly despite disagreement",
+          "gentleness": "fair to skeptical opponent",
+          "self_control": "distinguishes theism from Christian theism"
+        }
+      },
+      {
+        "id": "T026",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "patience": "explains afterlife argument carefully",
+          "kindness": "defines terms for listener",
+          "faithfulness": "cites Schaeffer accurately",
+          "gentleness": "fair to naturalist position",
+          "self_control": "hedges 'probably not as strong'"
+        }
+      },
+      {
+        "id": "T027",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T028",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T029",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T030",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "patience": "explains Russell and Flew references",
+          "kindness": "calls Russell 'a good guy'",
+          "faithfulness": "cites Russell's book accurately",
+          "gentleness": "fair to Flew despite debates",
+          "self_control": "corrects name without overclaiming"
+        }
+      }
+    ]
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "fruits_turns_1",
+      "attempt": 1,
+      "text": "{\n  \"range\": \"T001-T030\",\n  \"turns\": [\n    {\"id\": \"T001\", \"speaker\": \"host\", \"v\": [1, 1, 0, 1, 1, 0, 0, 0, 0], \"why\": {\"love\": \"warm welcome and concern for guest's wife\", \"joy\": \"enthusiastic about finale\", \"patience\": \"lets guest answer fully\", \"kindness\": \"invites update on wife gently\"}},\n    {\"id\": \"T002\", \"speaker\": \"guest\", \"v\": [0, 1, 0, 0, 0, 0, 0, 0, 0], \"why\": {\"joy\": \"glad volume 4 is out\"}},\n    {\"id\": \"T003\", \"speaker\": \"guest\", \"v\": [0, 1, 0, 0, 0, 0, 0, 0, 0], \"why\": {\"joy\": \"delight in positive reviews\"}},\n    {\"id\": \"T004\", \"speaker\": \"guest\", \"v\": [0, 1, 0, 0, 0, 0, 0, 0, 0], \"why\": {\"joy\": \"enthusiasm for volume's importance\"}},\n    {\"id\": \"T005\", \"speaker\": \"guest\", \"v\": [0, 0, 0, 1, 1, 0, 1, 0, 1], \"why\": {\"patience\": \"explains book count and overlap carefully\", \"kindness\": \"addresses imagined listener objection\", \"faithfulness\": \"clarifies no overlap between books\", \"self_control\": \"corrects own count without overclaiming\"}},\n    {\"id\": \"T006\", \"speaker\": \"guest\", \"v\": [1, 0, 0, 1, 1, 0, 1, 0, 1], \"why\": {\"love\": \"shares wife's cancer openly, asks prayers\", \"patience\": \"explains medical staging detail\", \"kindness\": \"thanks host for asking\", \"faithfulness\": \"honest about suffering and book relevance\", \"self_control\": \"measured tone on painful topic\"}},\n    {\"id\": \"T007\", \"speaker\": \"host\", \"v\": [0, 0, 0, 0, 0, 0, 0, 0, 0]},\n    {\"id\": \"T008\", \"speaker\": \"host\", \"v\": [0, 0, 0, 1, 1, 0, 0, 0, 0], \"why\": {\"patience\": \"sets up objection before asking\", \"kindness\": \"explains the skeptical softball format\"}},\n    {\"id\": \"T009\", \"speaker\": \"guest\", \"v\": [0, 0, 0, 1, 1, 0, 1, 1, 1], \"why\": {\"patience\": \"breaks objection into four points, explains each\", \"kindness\": \"defines what he means by apologetics\", \"faithfulness\": \"consistent with earlier volumes' claims\", \"gentleness\": \"calls objection silly but not the objector\", \"self_control\": \"clarifies scope rather than overclaiming\"}},\n    {\"id\": \"T010\", \"speaker\": \"guest\", \"v\": [0, 0, 0, 1, 0, 0, 1, 0, 1], \"why\": {\"patience\": \"walks through why skeptics won't be moved\", \"faithfulness\": \"admits no answer will satisfy some\", \"self_control\": \"concedes limits of argument\"}},\n    {\"id\": \"T011\", \"speaker\": \"host\", \"v\": [0, 0, 0, 0, 0, 0, 0, 0, 0]},\n    {\"id\": \"T012\", \"speaker\": \"host\", \"v\": [0, 0, 0, 0, 1, 0, 1, 0, 0], \"why\": {\"kindness\": \"supports guest's point\", \"faithfulness\": \"notes volumes one and two still stand\"}},\n    {\"id\": \"T013\", \"speaker\": \"guest\", \"v\": [0, 0, 0, 1, 0, 0, 1, 0, 1], \"why\": {\"patience\": \"explains series structure step by step\", \"faithfulness\": \"says four built on one and two\", \"self_control\": \"qualifies scholarly vs lay level\"}},\n    {\"id\": \"T014\", \"speaker\": \"host\", \"v\": [0, 0, 0, 0, 0, 0, 1, 0, 0], \"why\": {\"faithfulness\": \"vouches for Gary's consistent evidentialism\"}},\n    {\"id\": \"T015\", \"speaker\": \"guest\", \"v\": [0, 0, 0, 1, 1, 0, 1, 1, 1], \"why\": {\"patience\": \"explains when he does or doesn't press\", \"kindness\": \"describes not pushing agnostic friend\", \"faithfulness\": \"consistent evidential standard\", \"gentleness\": \"live-and-let-live on minor topics\", \"self_control\": \"distinguishes central from minor issues\"}},\n    {\"id\": \"T016\", \"speaker\": \"host\", \"v\": [0, 0, 0, 0, 0, 0, 0, 0, 0]},\n    {\"id\": \"T017\", \"speaker\": \"host\", \"v\": [0, 0, 0, 0, 0, 0, 0, 0, 0]},\n    {\"id\": \"T018\", \"speaker\": \"host\", \"v\": [0, 0, 0, 0, 0, 0, 0, 0, 0]},\n    {\"id\": \"T019\", \"speaker\": \"host\", \"v\": [0, 0, 0, 0, 0, 0, 0, 0, 0]},\n    {\"id\": \"T020\", \"speaker\": \"host\", \"v\": [0, 0, 0, 0, 0, 0, 0, 0, 0]},\n    {\"id\": \"T021\", \"speaker\": \"guest\", \"v\": [0, 0, 0, 1, 1, 0, 1, 1, 1], \"why\": {\"patience\": \"explains why he can't pick one favorite\", \"kindness\": \"defines terms for listener\", \"faithfulness\": \"consistent with earlier claims\", \"gentleness\": \"fair to miracle chapter's lesser weight\", \"self_control\": \"hedges on which is most important\"}},\n    {\"id\": \"T022\", \"speaker\": \"host\", \"v\": [0, 0, 0, 0, 0, 0, 0, 0, 0]},\n    {\"id\": \"T023\", \"speaker\": \"host\", \"v\": [0, 0, 0, 1, 1, 0, 0, 0, 0], \"why\": {\"patience\": \"sets up question with context\", \"kindness\": \"notes Gary not known for this topic\"}},\n    {\"id\": \"T024\", \"speaker\": \"guest\", \"v\": [0, 0, 0, 1, 1, 0, 1, 1, 1], \"why\": {\"patience\": \"explains Lewis/Plantinga argument step by step\", \"kindness\": \"defines the epistemic argument\", \"faithfulness\": \"credits sources fairly\", \"gentleness\": \"warm aside about 'Big Al'\", \"self_control\": \"hedges on who originated argument\"}},\n    {\"id\": \"T025\", \"speaker\": \"guest\", \"v\": [0, 0, 0, 1, 1, 0, 1, 1, 1], \"why\": {\"patience\": \"explains Russell's influence at length\", \"kindness\": \"says something nice about Jesus as Russell did\", \"faithfulness\": \"cites Russell fairly despite disagreement\", \"gentleness\": \"fair to skeptical opponent\", \"self_control\": \"distinguishes theism from Christian theism\"}},\n    {\"id\": \"T026\", \"speaker\": \"guest\", \"v\": [0, 0, 0, 1, 1, 0, 1, 1, 1], \"why\": {\"patience\": \"explains afterlife argument carefully\", \"kindness\": \"defines terms for listener\", \"faithfulness\": \"cites Schaeffer accurately\", \"gentleness\": \"fair to naturalist position\", \"self_control\": \"hedges 'probably not as strong'\"}},\n    {\"id\": \"T027\", \"speaker\": \"host\", \"v\": [0, 0, 0, 0, 0, 0, 0, 0, 0]},\n    {\"id\": \"T028\", \"speaker\": \"host\", \"v\": [0, 0, 0, 0, 0, 0, 0, 0, 0]},\n    {\"id\": \"T029\", \"speaker\": \"host\", \"v\": [0, 0, 0, 0, 0, 0, 0, 0, 0]},\n    {\"id\": \"T030\", \"speaker\": \"guest\", \"v\": [0, 0, 0, 1, 1, 0, 1, 1, 1], \"why\": {\"patience\": \"explains Russell and Flew references\", \"kindness\": \"calls Russell 'a good guy'\", \"faithfulness\": \"cites Russell's book accurately\", \"gentleness\": \"fair to Flew despite debates\", \"self_control\": \"corrects name without overclaiming\"}}\n  ]\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 19637,
+      "completion_tokens": 2269,
+      "attempts": 1,
+      "elapsed_seconds": 8.655999999995402,
+      "started_at": "2026-09-27T14:21:13.652755+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T14:21:22.307512+00:00",
+      "tokens": 21906
+    }
+  ],
+  "prompt_sha256": "0c21fee8ad27de81717f0b345e64e65cf51765ca8262d9920000c77fe8798056",
+  "tokens": 21906
+}

@@ -1,0 +1,231 @@
+# FolderWatcher — AI-readable project summary
+
+> TL;DR: A single-file, zero-config Python plugin that watches folders and fires a
+> callback the instant a file is created, modified, deleted, or moved. Wraps
+> `watchdog` with production-grade debouncing, deduplication, noise filtering, and
+> macOS atomic-save handling. Built for RAG document pipelines, but works for any
+> "react when files change" workflow.
+
+## Metadata
+
+- name: FolderWatcher
+- type: Python library / plugin (single file: `FolderWatcher.py`)
+- language: Python 3.10+
+- dependency: watchdog >= 4.0.0 (only runtime dependency)
+- platforms: macOS, Linux
+- license: MIT
+- entry points: class `FolderWatcher`, function `watch()`, CLI `folder-watcher`
+- primary use cases: RAG re-indexing, live reload, ETL ingestion
+
+## Table of contents
+
+1. What this project does
+2. When to use it (use cases)
+3. Install
+4. Quick start
+5. Core API (FolderWatcher, watch)
+6. Return modes
+7. Event types
+8. Worked examples (RAG)
+9. Run in background
+10. Key behaviours (guarantees)
+11. CLI
+12. File structure
+13. FAQ
+
+---
+
+## 1. What this project does
+
+FolderWatcher watches one or more directories for filesystem changes and invokes a
+user-supplied callback. It turns noisy, low-level OS filesystem events (FSEvents on
+macOS, inotify on Linux) into **clean, deduplicated, verified, event-driven**
+callbacks. It is self-contained: copy `FolderWatcher.py` into any project, or
+`pip install .` to get the package plus a `folder-watcher` CLI command.
+
+Value proposition: instead of polling folders on a timer (wastes compute, adds lag),
+you react **only when something actually changed**.
+
+---
+
+## 2. When to use it
+
+Use FolderWatcher whenever downstream state must stay in sync with files on disk.
+
+### Use case A — RAG (Retrieval-Augmented Generation) pipelines
+A vector store is only as fresh as its source documents. FolderWatcher triggers
+**event-driven re-indexing**: when a document is added/modified, re-embed only that
+file; when deleted, remove it from the index. No full re-index, no staleness.
+
+### Use case B — General
+Live reload, static-site rebuilds, ETL ingestion, backup/sync triggers, or any
+"do X when files change" automation.
+
+---
+
+## 3. Install
+
+```bash
+pip install -r requirements.txt   # dependency only (watchdog)
+pip install .                     # installs package + CLI command
+```
+
+---
+
+## 4. Quick start
+
+```python
+import sys
+from pathlib import Path
+from FolderWatcher import FolderWatcher
+
+def my_function(changed: list[tuple[str, Path]]) -> None:
+    for event_type, path in changed:
+        print(f"{event_type}: {path}")
+
+folder = sys.argv[1] if len(sys.argv) > 1 else "."
+FolderWatcher(path=folder, callback=my_function, return_mode="files").run_forever()
+```
+
+Run: `python3 quickstart.py /your/folder`
+
+---
+
+## 5. Core API
+
+### Class: `FolderWatcher`
+
+```python
+FolderWatcher(
+    path="/path/to/watch",                  # str | Path | list[str | Path]
+    callback=my_function,                   # Callable — receives payload
+    recursive=True,                         # watch subdirectories (default True)
+    extensions=[".pdf", ".md", ".txt"],     # None = all files (default None)
+    debounce=1.0,                           # seconds quiet before firing (default 1.0)
+    return_mode="files",                    # "files" | "folder" | "message" (default "files")
+)
+```
+
+Methods: `.start()` (non-blocking) · `.stop()` · `.run_forever()` (blocks until Ctrl+C)
+Context manager supported: `with FolderWatcher(...) as w: ...`  (auto start/stop)
+
+### Convenience function: `watch()`
+
+```python
+from FolderWatcher import watch
+watch("/path", callback=my_fn, return_mode="message")  # creates watcher + run_forever()
+```
+
+---
+
+## 6. Return modes
+
+| `return_mode` | Callback argument type | Example value |
+|---|---|---|
+| `"files"` | `list[tuple[str, Path]]` | `[("modified", Path("/docs/a.pdf")), ("deleted", Path("/docs/b.txt"))]` |
+| `"folder"` | `Path` or `list[Path]` | `Path("/data/docs")` |
+| `"message"` | `str` | `"Folder updated: /data/docs — 1 created, 2 modified"` |
+
+---
+
+## 7. Event types (in `"files"` mode tuples)
+
+- `"created"` — new file appeared and exists on disk
+- `"modified"` — file content changed (atomic-save patterns normalised here)
+- `"deleted"` — file was permanently removed
+- `"moved"` — file was renamed or moved within the watched tree
+
+---
+
+## 8. Worked examples
+
+### RAG pipeline
+
+```python
+from pathlib import Path
+from FolderWatcher import FolderWatcher
+
+def on_change(changed: list[tuple[str, Path]]) -> None:
+    for event_type, path in changed:
+        if event_type in ("created", "modified"):
+            pass  # vector_store.upsert(path)
+        elif event_type == "deleted":
+            pass  # vector_store.delete(path)
+
+FolderWatcher(
+    path=["/data/documents", "/data/reports"],
+    callback=on_change,
+    recursive=True,
+    extensions=[".pdf", ".md", ".txt", ".docx"],
+    debounce=1.0,
+    return_mode="files",
+).run_forever()
+```
+
+---
+
+## 9. Run in background (macOS/Linux)
+
+```bash
+nohup python3 quickstart.py /your/folder > watcher.log 2>&1 &
+```
+
+For always-on (starts at login), use launchd on macOS or a systemd unit on Linux —
+see README.md.
+
+---
+
+## 10. Key behaviours (guarantees)
+
+1. **Existence verification** — created/modified events where the file doesn't exist are dropped; deleted events where the file still exists are dropped (handles macOS atomic saves).
+2. **Re-verification at fire time** — if a deleted file exists again when the callback fires, it is reclassified as `modified`.
+3. **Debounce** — timer resets on every new event; callback fires only after `debounce` seconds of quiet, so bursty writes collapse into one clean call.
+4. **Deduplication** — events fingerprinted as `(path, mtime_ns, event_type)`; duplicates within `debounce * 2` seconds are dropped.
+5. **File stability** — polls `st_size` every 0.2s until two consecutive reads match (max 5s) before reporting, so partially-written / large files are never handed over mid-write.
+6. **Folder deletion** — per-file events inside a deleted directory are suppressed; the directory itself is reported once.
+7. **Noise filtering** — silently ignores `.DS_Store`, `._*`, `~$*`, `.~lock.*`, `.sb-*`, `.tmp`, `.swp`, `.swo`, `.swn`, `*~`, `Thumbs.db`, `desktop.ini`, `.Spotlight-V100`, `.Trashes`, `.fseventsd`, `4913`.
+8. **Priority** — same file, multiple events in one window resolve by priority: `deleted (4) > created (3) > moved (2) > modified (1)`.
+9. **Low CPU** — observer + timer threads only; main loop sleeps.
+10. **Graceful shutdown** — Ctrl+C safe; context-manager and `run_forever()` supported.
+
+---
+
+## 11. CLI (after `pip install .`)
+
+```bash
+folder-watcher /path/to/watch                 # files mode, 1.0s debounce
+folder-watcher /path/to/watch message         # message mode
+folder-watcher /path/to/watch files 0.5       # files mode, 0.5s debounce
+```
+
+Signature: `folder-watcher <path> [mode=files|folder|message] [debounce=1.0]`
+
+---
+
+## 12. File structure
+
+```
+FolderWatcher.py    — self-contained plugin (~530 lines)
+quickstart.py       — minimal integration example
+requirements.txt    — watchdog>=4.0.0
+pyproject.toml      — package + CLI entry (folder-watcher command)
+README.md           — full human-readable documentation
+llms.txt            — this file
+```
+
+---
+
+## 13. FAQ
+
+- **Does it work on Windows?** Designed and tested for macOS and Linux. Windows noise
+  files (`Thumbs.db`, `desktop.ini`) are filtered, but Windows is not a supported target.
+- **How do I watch multiple folders?** Pass a list to `path`, e.g. `["/a", "/b"]`.
+- **How do I only react to certain file types?** Set `extensions=[".pdf", ".yaml"]`.
+- **Will I get called before a big file finishes writing?** No — the file-stability
+  check waits until the size stops changing (up to 5s) before reporting.
+- **How do I reduce chattiness on bursty writes?** Increase `debounce` (seconds).
+- **How do I run it without blocking?** Use `.start()` / `.stop()` instead of
+  `run_forever()`, or the `with FolderWatcher(...)` context manager.
+- **What does the callback receive?** Depends on `return_mode`: a list of
+  `(event_type, Path)` tuples (`files`), a `Path`/list of roots (`folder`), or a
+  summary string (`message`).

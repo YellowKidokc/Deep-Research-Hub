@@ -1,0 +1,72 @@
+<h2>Actors</h2>
+<table id="actors" class="table">
+    <tr>
+        <th>Actor</th>
+        <th>State</th>
+        <th>Action</th>
+    </tr>
+    {{#each actors}}
+    <tr>
+        <td title="{{actorDescription}}">{{name}}</td>
+        <td title="{{stateDescription}}">{{stateIcon}}&nbsp;{{state}}</td>
+        <td>
+            {{#unless terminal}}
+                <form id="toggle-{{name}}"
+                    action="fsms/{{name}}/stop"
+                    method="post"
+                    onsubmit="return toggleActorSwitch('{{name}}')">
+                    <input
+                            type="submit"
+                            {{#if daemon}}value="Disable"{{/if}}
+                            {{#unless daemon}}value="Terminate"{{/unless}}
+                            class="toggle-switch-on"
+                            id="toggle-{{name}}-button"
+                            title="Terminate the actor"
+                    >
+                </form>
+            {{/unless}}
+            {{#if terminal}}
+                <form id="toggle-{{name}}"
+                    action="fsms/{{name}}/start"
+                    method="post"
+                    onsubmit="return toggleActorSwitch('{{name}}')">
+                    <input
+                        type="submit"
+                        {{#unless canStart}}
+                        disabled
+                        value="Enable"
+                        title="This actor cannot be started here"
+                        {{/unless}}
+                        {{#if canStart}}
+                        {{#if daemon}}value="Enable"{{/if}}
+                        {{#unless daemon}}value="Start"{{/unless}}
+                        title="Start the actor"
+                        {{/if}}
+                        class="toggle-switch-off"
+
+                        id="toggle-{{name}}-button">
+                </form>
+            {{/if}}
+
+        </td>
+    </tr>
+    {{/each}}
+</table>
+
+<script>
+    function toggleActorSwitch(name) {
+        var toggle = document.getElementById("toggle-" + name + "-button");
+        toggle.classList.remove('toggle-switch-on');
+        toggle.classList.remove('toggle-switch-off');
+        toggle.classList.add("toggle-switch-active");
+        toggle.value = '...';
+
+        var form = document.getElementById("toggle-" + name);
+        var xhr = new XMLHttpRequest();
+        xhr.open(form.method, form.action, true);
+        xhr.send();
+
+        return false;
+    }
+
+</script>

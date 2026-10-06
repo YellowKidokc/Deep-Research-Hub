@@ -1,0 +1,290 @@
+package nu.marginalia.functions.searchquery;
+
+import com.google.inject.Inject;
+import com.google.inject.Singleton;
+import it.unimi.dsi.fastutil.ints.IntArrayList;
+import it.unimi.dsi.fastutil.ints.IntList;
+import nu.marginalia.api.searchquery.*;
+import nu.marginalia.api.searchquery.model.CompiledSearchFilterSpec;
+import nu.marginalia.api.searchquery.model.query.*;
+import nu.marginalia.api.searchquery.model.results.PrototypeRankingParameters;
+import nu.marginalia.db.DbDomainQueries;
+import nu.marginalia.functions.searchquery.query_parser.QueryExpansion;
+import nu.marginalia.functions.searchquery.query_parser.QueryParser;
+import nu.marginalia.functions.searchquery.query_parser.token.QueryToken;
+import nu.marginalia.language.WordPatterns;
+import nu.marginalia.language.config.LanguageConfiguration;
+import nu.marginalia.language.model.LanguageDefinition;
+import nu.marginalia.model.EdgeDomain;
+import org.apache.commons.lang3.StringUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import javax.annotation.Nullable;
+import java.util.*;
+
+@Singleton
+public class QueryFactory {
+    private final Logger logger = LoggerFactory.getLogger(getClass());
+
+    private final QueryParser queryParser = new QueryParser();
+    private final QueryExpansion queryExpansion;
+    private final DbDomainQueries domainQueries;
+    private final LanguageConfiguration languageConfiguration;
+
+    @Inject
+    public QueryFactory(QueryExpansion queryExpansion,
+                        DbDomainQueries domainQueries,
+                        LanguageConfiguration languageConfiguration)
+    {
+        this.queryExpansion = queryExpansion;
+        this.domainQueries = domainQueries;
+        this.languageConfiguration = languageConfiguration;
+    }
+
+
+    public ProcessedQuery createQuery(RpcQsQuery request,
+                                      CompiledSearchFilterSpec searchFilter,
+                                      @Nullable RpcResultRankingParameters rankingParams) {
+
+        LanguageDefinition languageDefinition = languageConfiguration.getLanguage(request.getLangIsoCode());
+
+        final var query = request.getHumanQuery();
+
+        if (query.length() > 1000) {
+            throw new IllegalArgumentException("Query too long");
+        }
+
+        List<String> searchTermsHuman = new ArrayList<>();
+        List<String> problems = new ArrayList<>();
+
+        List<QueryToken> basicQuery = queryParser.parse(languageDefinition, query);
+
+        if (basicQuery.size() >= 12) {
+            problems.add("Your search query is too long");
+            basicQuery.clear();
+        }
+
+        if (countWords(basicQuery) > MAX_QUERY_WORDS) {
+            problems.add("Your search query is too long");
+            basicQuery.clear();
+        }
+
+        SearchQuery.SearchQueryBuilder queryBuilder = SearchQuery.builder();
+
+        SpecificationLimit qualityLimit = searchFilter.quality();
+        SpecificationLimit year = searchFilter.year();
+        SpecificationLimit size = searchFilter.size();
+        SpecificationLimit rank = searchFilter.rank();
+        QueryStrategy queryStrategy = searchFilter.queryStrategy();
+
+        String domain = null;
+        String userSearchSet = null;
+
+        IntList domainIds = new IntArrayList(searchFilter.domainsInclude());
+
+        for (QueryToken t : basicQuery) {
+            switch (t) {
+                case QueryToken.QuotTerm(String str, String displayStr) -> {
+                    analyzeSearchTerm(problems, str, displayStr);
+                    searchTermsHuman.addAll(Arrays.asList(displayStr.replace("\"", "").split("\\s+")));
+
+                    String[] parts = StringUtils.split(str, '_');
+
+                    // Trim down tokens to match the behavior of the tokenizer used in indexing
+                    for (int i = 0; i < parts.length; i++) {
+                        String part = parts[i];
+
+                        if (part.endsWith("'s") && part.length() > 2) {
+                            part = part.substring(0, part.length() - 2);
+                        }
+
+                        parts[i] = part;
+                    }
+
+                    // Tokens that are never indexed must not become required terms
+                    List<String> searchableParts = new ArrayList<>(parts.length);
+                    for (String part : parts) {
+                        if (!WordPatterns.isStopWord(part) && !WordPatterns.isDiscardedByTokenizer(part)) {
+                            searchableParts.add(part);
+                        }
+                    }
+
+                    if (parts.length > 1) {
+                        // Require that the terms appear in sequence
+                        queryBuilder.phraseConstraint(SearchPhraseConstraint.mandatory(parts));
+
+                        // Construct a regular query from the parts in the quoted string
+                        queryBuilder.queryTerms(searchableParts.toArray(String[]::new));
+
+                        // Prefer that the actual n-gram is present
+                        queryBuilder.priority(str, 1.0f);
+                    } else if (!searchableParts.isEmpty()) {
+                        // If the quoted word is a single word, we don't need to do more than include it in the search
+                        queryBuilder.queryTerms(searchableParts.getFirst());
+                    }
+                }
+
+                case QueryToken.LiteralTerm(String str, String displayStr) -> {
+                    analyzeSearchTerm(problems, str, displayStr);
+                    searchTermsHuman.addAll(Arrays.asList(displayStr.split("\\s+")));
+
+                    if (!WordPatterns.isDiscardedByTokenizer(str)) {
+                        queryBuilder.queryTerms(str);
+                    }
+                }
+
+                case QueryToken.ExcludeTerm(String str, _) -> queryBuilder.exclude(str);
+                case QueryToken.ExcludePhrase(String str, _) -> {
+                    // We don't support excluding sentences so this is a bit of a stopgap
+                    for (String part : StringUtils.split(str, '_')) {
+                        queryBuilder.exclude(part);
+                    }
+                }
+                case QueryToken.PriorityTerm(String str, _) -> queryBuilder.priority(str, 1.0f);
+                case QueryToken.AdviceTerm(String str, _) when str.startsWith("site:*.") -> {
+                    String prefix = "site:*.";
+                    domain = str.substring(prefix.length());
+
+                    queryBuilder.require("site:" + domain);
+                }
+                case QueryToken.AdviceTerm(String str, _) when str.startsWith("site:") -> {
+                    domain = str.substring("site:".length());
+
+                    OptionalInt domainIdMaybe = domainQueries.tryGetDomainId(new EdgeDomain(domain));
+                    if (domainIdMaybe.isPresent()) {
+                        domainIds = IntList.of(domainIdMaybe.getAsInt());
+                    } else {
+                        domainIds = IntList.of(-1);
+                    }
+
+                    if (basicQuery.size() == 1) {
+                        // Ensure we can enumerate documents from a website by adding this dummy term
+                        // when this is the only token in the query
+
+                        queryBuilder.require("site:" + domain);
+                    }
+                }
+                case QueryToken.AdviceTerm(String str, _) -> queryBuilder.require(str);
+
+                case QueryToken.YearTerm(SpecificationLimit limit, _) -> year = limit;
+                case QueryToken.SizeTerm(SpecificationLimit limit, _) -> size = limit;
+                case QueryToken.RankTerm(SpecificationLimit limit, _) -> rank = limit;
+                case QueryToken.QualityTerm(SpecificationLimit limit, _) -> qualityLimit = limit;
+                case QueryToken.QsTerm(String str) -> queryStrategy = parseQueryStrategy(str);
+                case QueryToken.SetTerm(String str, _) -> userSearchSet = str.toUpperCase();
+                // No-op for lang term
+                case QueryToken.LangTerm(String str, _) -> {}
+                default -> {}
+            }
+        }
+
+        queryBuilder.searchTermsRequire.addAll(searchFilter.termsRequire());
+        queryBuilder.searchTermsPriority.addAll(searchFilter.termsPromote());
+        queryBuilder.searchTermsPriorityWeight.addAll(searchFilter.termsPromoteAmounts());
+        queryBuilder.searchTermsExclude.addAll(searchFilter.termsExclude());
+
+        queryBuilder.promoteNonRankingTerms();
+
+        var limits = request.getQueryLimits();
+        // Disable limits on number of results per domain if we're searching with a site:-type term
+        if (domain != null) {
+            limits = RpcQueryLimits.newBuilder(limits)
+                    .setResultsByDomain(limits.getResultsTotal())
+                    .build();
+        }
+
+        var expansion = queryExpansion.expandQuery(
+                languageDefinition.isoCode(),
+                queryBuilder.searchTermsQuery);
+
+        // Query expansion may produce suggestions for phrase constraints,
+        // add these to the query
+        for (var coh : expansion.optionalPharseConstraints()) {
+            queryBuilder.phraseConstraint(SearchPhraseConstraint.optional(coh));
+        }
+
+        for (var cons : expansion.fullPhraseConstraints()) {
+            queryBuilder.phraseConstraint(SearchPhraseConstraint.full(cons));
+        }
+        queryBuilder.compiledQuery(expansion.compiledQuery());
+
+        if (!"NONE".equals(searchFilter.temporalBias())) {
+            if (rankingParams == null) {
+                rankingParams = RpcResultRankingParameters.newBuilder(PrototypeRankingParameters.sensibleDefaults())
+                        .setTemporalBias(RpcTemporalBias.newBuilder().setBias(RpcTemporalBias.Bias.valueOf(searchFilter.temporalBias()))).build();
+            }
+            else {
+                rankingParams = RpcResultRankingParameters.newBuilder(rankingParams)
+                        .setTemporalBias(RpcTemporalBias.newBuilder().setBias(RpcTemporalBias.Bias.valueOf(searchFilter.temporalBias()))).build();
+            }
+        }
+
+        RpcIndexQuery.Builder indexQueryBuilder = RpcIndexQuery.newBuilder()
+                .setHumanQuery(request.getHumanQuery())
+                .addAllRequiredDomainIds(domainIds)
+                .addAllExcludedDomainIds(searchFilter.domainsExclude())
+                .addAllPriorityDomainIds(searchFilter.domainsPromote())
+                .addAllPriorityDomainIdsWeights(searchFilter.domainsPromoteAmounts())
+                .setLangIsoCode(request.getLangIsoCode())
+                .setNsfwFilterTierValue(request.getNsfwFilterTierValue());
+
+        if (!qualityLimit.isNone()) indexQueryBuilder.setQuality(IndexProtobufCodec.convertSpecLimit(qualityLimit));
+        if (!year.isNone()) indexQueryBuilder.setYear(IndexProtobufCodec.convertSpecLimit(year));
+        if (!size.isNone()) indexQueryBuilder.setSize(IndexProtobufCodec.convertSpecLimit(size));
+        if (!rank.isNone()) indexQueryBuilder.setRank(IndexProtobufCodec.convertSpecLimit(rank));
+        if (!QueryStrategy.AUTO.equals(queryStrategy)) indexQueryBuilder.setQueryStrategy(queryStrategy.name());
+
+        if (null != userSearchSet) {
+            indexQueryBuilder.setSearchSetIdentifier(userSearchSet);
+        }
+        else if (null != searchFilter.searchSetIdentifier() && !"NONE".equals(searchFilter.searchSetIdentifier())) {
+            indexQueryBuilder.setSearchSetIdentifier(searchFilter.searchSetIdentifier());
+        }
+
+        indexQueryBuilder
+                .setQueryLimits(limits)
+                .setTerms(queryBuilder.build());
+
+        if (null != rankingParams)
+            indexQueryBuilder.setParameters(rankingParams);
+
+
+        return new ProcessedQuery(indexQueryBuilder.build(), searchTermsHuman, domain, request.getLangIsoCode());
+    }
+
+    private static final int MAX_QUERY_WORDS = 32;
+
+    private static int countWords(List<QueryToken> tokens) {
+        int words = 0;
+        for (QueryToken t : tokens) {
+            words += 1 + StringUtils.countMatches(t.str(), '_');
+        }
+        return words;
+    }
+
+    private void analyzeSearchTerm(List<String> problems, String str, String displayStr) {
+        final String word = str;
+
+        if (word.length() < WordPatterns.MIN_WORD_LENGTH) {
+            problems.add("Search term \"" + displayStr + "\" too short");
+        }
+        if (!word.contains("_") && word.length() >= WordPatterns.MAX_WORD_LENGTH) {
+            problems.add("Search term \"" + displayStr + "\" too long");
+        }
+    }
+
+
+    private QueryStrategy parseQueryStrategy(String str) {
+        return switch (str.toUpperCase()) {
+            case "RF_TITLE" -> QueryStrategy.REQUIRE_FIELD_TITLE;
+            case "RF_SUBJECT" -> QueryStrategy.REQUIRE_FIELD_SUBJECT;
+            case "RF_SITE" -> QueryStrategy.REQUIRE_FIELD_SITE;
+            case "RF_URL" -> QueryStrategy.REQUIRE_FIELD_URL;
+            case "RF_DOMAIN" -> QueryStrategy.REQUIRE_FIELD_DOMAIN;
+            case "SENTENCE" -> QueryStrategy.SENTENCE;
+            case "TOPIC" -> QueryStrategy.TOPIC;
+            default -> QueryStrategy.AUTO;
+        };
+    }
+}

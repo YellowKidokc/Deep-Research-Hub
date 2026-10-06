@@ -1,0 +1,302 @@
+{
+  "paper_uuid": "tp:meta-argument-2026",
+  "title": "THE META ARGUMENT",
+  "domainType": "theology",
+  "summary": "The Meta Argument introduces a framework claiming that political and cultural disputes are surface-level arguments about positions on a hidden mathematical line. It asserts that good and bad are structural properties of reality, that no closed system can determine its own moral direction, and that an external reference point is necessary. The document outlines ten claims covering moral realism, systemic capture, shame as enforcement, population sorting, communication technology patterns, a justice-mercy constraint, historical trajectory, and a unique reversal event. It invites rigorous examination and falsification.",
+  "atoms": [
+    {
+      "nodeType": "claim",
+      "stage": "01_canonical",
+      "name": "Good and bad are structural properties of reality",
+      "statementTechnical": "Good and bad are invariant structural properties of reality, analogous to electric charge, not culturally relative opinions.",
+      "statementPlain": "Right and wrong are built into the fabric of reality, like electric charge, not just cultural opinions that change over time.",
+      "claimClass": "floor-axiom",
+      "falsificationCondition": "If moral properties are shown to vary arbitrarily across cultures without any underlying invariant structure, or if they can be reduced entirely to social convention, the claim is falsified.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "feedsInto",
+          "target": "",
+          "grade": "structural_analogy",
+          "propagates": true
+        }
+      ],
+      "source_sentences": [
+        "S040"
+      ],
+      "atom_id": "A01"
+    },
+    {
+      "nodeType": "claim",
+      "stage": "01_canonical",
+      "name": "No system can determine its own moral direction from inside itself",
+      "statementTechnical": "It is mathematically proven that no closed system can determine its own moral direction from within itself.",
+      "statementPlain": "A system cannot figure out its own moral direction on its own—this is a mathematical fact, not just philosophy.",
+      "claimClass": "theorem",
+      "falsificationCondition": "If a closed system is demonstrated to determine its own moral direction without external reference, the claim is falsified.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "feedsInto",
+          "target": "",
+          "grade": "structural_identity",
+          "propagates": true
+        }
+      ],
+      "source_sentences": [
+        "S042"
+      ],
+      "atom_id": "A02"
+    },
+    {
+      "nodeType": "claim",
+      "stage": "01_canonical",
+      "name": "An external reference point must exist for moral distinction",
+      "statementTechnical": "An external reference point is necessary for the distinction between good and bad to be meaningful, and such a reference point has maintained a continuous, accessible record throughout human history.",
+      "statementPlain": "There must be an outside reference point for good and bad to mean anything, and that reference point has been continuously accessible throughout history.",
+      "claimClass": "bridge",
+      "falsificationCondition": "If no continuous, accessible external reference point can be identified in human history, or if moral distinctions are shown to be meaningful without one, the claim is falsified.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "dependsOn",
+          "target": "",
+          "grade": "structural_identity",
+          "propagates": true
+        }
+      ],
+      "source_sentences": [
+        "S044"
+      ],
+      "atom_id": "A03"
+    },
+    {
+      "nodeType": "claim",
+      "stage": "01_canonical",
+      "name": "Institutions get captured in a specific ordered sequence",
+      "statementTechnical": "Institutions are captured in a documented, ordered sequence: money first, then government, then education, then media/reality interpreters, then moral language itself.",
+      "statementPlain": "Institutions get taken over in a specific order: money, then government, then education, then media, then moral language.",
+      "claimClass": "empirical-anchor",
+      "falsificationCondition": "If historical or contemporary cases show institutional capture occurring in a different order or without this sequence, the claim is falsified.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "feedsInto",
+          "target": "",
+          "grade": "structural_analogy",
+          "propagates": true
+        }
+      ],
+      "source_sentences": [
+        "S046"
+      ],
+      "atom_id": "A04"
+    },
+    {
+      "nodeType": "claim",
+      "stage": "01_canonical",
+      "name": "Shame is the enforcement mechanism, deployed by governments since 2015",
+      "statementTechnical": "The enforcement mechanism for institutional capture is shame, not force, and governments have deployed it as official policy since at least 2015.",
+      "statementPlain": "Shame, not force, is used to enforce control, and governments have been doing this officially since at least 2015.",
+      "claimClass": "empirical-anchor",
+      "falsificationCondition": "If government policies since 2015 do not show systematic deployment of shame as an enforcement mechanism, or if force is the primary mechanism, the claim is falsified.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "feedsInto",
+          "target": "",
+          "grade": "structural_analogy",
+          "propagates": true
+        }
+      ],
+      "source_sentences": [
+        "S048"
+      ],
+      "atom_id": "A05"
+    },
+    {
+      "nodeType": "claim",
+      "stage": "01_canonical",
+      "name": "Population sorts into two classes by connection to truth",
+      "statementTechnical": "The population sorts into two classes over time, defined not by demographics but by whether their connection to truth runs through captured institutions or directly to the source.",
+      "statementPlain": "People split into two groups over time: those who get truth through captured institutions and those who get it directly from the source.",
+      "claimClass": "prediction",
+      "falsificationCondition": "If population sorting does not correlate with the specified structural feature, or if no such two-class division emerges, the claim is falsified.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "feedsInto",
+          "target": "",
+          "grade": "structural_analogy",
+          "propagates": true
+        }
+      ],
+      "source_sentences": [
+        "S050"
+      ],
+      "atom_id": "A06"
+    },
+    {
+      "nodeType": "claim",
+      "stage": "01_canonical",
+      "name": "Communication technologies follow a pattern of truth spread then capture",
+      "statementTechnical": "Every communication technology in history follows the same pattern: a brief window where truth spreads, followed by institutional capture of the infrastructure.",
+      "statementPlain": "All communication technologies—writing, printing, radio, TV, internet, social media—follow the same pattern: a short period of free truth, then institutions take over.",
+      "claimClass": "empirical-anchor",
+      "falsificationCondition": "If a communication technology is shown to not follow this pattern, or if the pattern is not universal, the claim is falsified.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "feedsInto",
+          "target": "",
+          "grade": "structural_analogy",
+          "propagates": true
+        }
+      ],
+      "source_sentences": [
+        "S052"
+      ],
+      "atom_id": "A07"
+    },
+    {
+      "nodeType": "claim",
+      "stage": "01_canonical",
+      "name": "Justice and mercy cannot both be fully satisfied in a closed system",
+      "statementTechnical": "A mathematical constraint, provable by algebra, shows that justice and mercy cannot both be fully satisfied inside any closed system; someone always bears the deficit.",
+      "statementPlain": "It's mathematically impossible for a closed system to fully satisfy both justice and mercy—someone always pays the price.",
+      "claimClass": "theorem",
+      "falsificationCondition": "If a closed system is shown to fully satisfy both justice and mercy without any deficit, the claim is falsified.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "feedsInto",
+          "target": "",
+          "grade": "structural_identity",
+          "propagates": true
+        }
+      ],
+      "source_sentences": [
+        "S054",
+        "S055",
+        "S056"
+      ],
+      "atom_id": "A08"
+    },
+    {
+      "nodeType": "claim",
+      "stage": "01_canonical",
+      "name": "Historical trajectory across measurable dimensions follows same curve",
+      "statementTechnical": "The historical trajectory across every measurable dimension—food sovereignty, information access, medical autonomy, educational independence, financial sovereignty, community structure—follows the same curve, in the same direction, with the same acceleration.",
+      "statementPlain": "Across all measurable areas—food, information, medicine, education, money, community—history follows the same downward curve at the same accelerating rate.",
+      "claimClass": "empirical-anchor",
+      "falsificationCondition": "If any measurable dimension shows a different trajectory or direction, the claim is falsified.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "feedsInto",
+          "target": "",
+          "grade": "structural_analogy",
+          "propagates": true
+        }
+      ],
+      "source_sentences": [
+        "S058"
+      ],
+      "atom_id": "A09"
+    },
+    {
+      "nodeType": "claim",
+      "stage": "01_canonical",
+      "name": "One historical event reversed the trajectory without system collapse",
+      "statementTechnical": "There is exactly one event in recorded history where the trajectory reversed without the system collapsing, and that event has measurable features that no other candidate matches.",
+      "statementPlain": "Only one event in history reversed the downward trend without the system collapsing, and it has unique measurable features.",
+      "claimClass": "empirical-anchor",
+      "falsificationCondition": "If another event is found that reversed the trajectory without collapse, or if the identified event lacks the claimed measurable features, the claim is falsified.",
+      "verificationStatus": "informal",
+      "challengeStatus": "challenged-open",
+      "edges": [
+        {
+          "type": "feedsInto",
+          "target": "",
+          "grade": "structural_analogy",
+          "propagates": true
+        }
+      ],
+      "source_sentences": [
+        "S060"
+      ],
+      "atom_id": "A10"
+    },
+    {
+      "nodeType": "raw",
+      "stage": "00_inbox_working",
+      "name": "Part 0 — The Hook",
+      "statementTechnical": "",
+      "statementPlain": "",
+      "claimClass": "",
+      "falsificationCondition": "",
+      "verificationStatus": "informal",
+      "challengeStatus": "unchallenged",
+      "edges": [],
+      "source_sentences": [
+        "S001",
+        "S002",
+        "S003",
+        "S004",
+        "S005",
+        "S006",
+        "S007",
+        "S008",
+        "S009",
+        "S010",
+        "S011",
+        "S012",
+        "S013",
+        "S014",
+        "S015",
+        "S016",
+        "S017",
+        "S018",
+        "S019",
+        "S020",
+        "S021",
+        "S022",
+        "S023",
+        "S024",
+        "S025",
+        "S026",
+        "S027",
+        "S028",
+        "S029",
+        "S030",
+        "S031",
+        "S032",
+        "S033",
+        "S034",
+        "S035",
+        "S036",
+        "S037",
+        "S038",
+        "S039",
+        "S061",
+        "S062",
+        "S063",
+        "S064",
+        "S065",
+        "S066",
+        "S067",
+        "S068"
+      ],
+      "atom_id": "A11"
+    }
+  ]
+}

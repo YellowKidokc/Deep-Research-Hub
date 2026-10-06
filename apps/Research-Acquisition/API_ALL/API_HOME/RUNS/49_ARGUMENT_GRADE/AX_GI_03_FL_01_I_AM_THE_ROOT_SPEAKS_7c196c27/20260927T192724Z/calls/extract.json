@@ -1,0 +1,138 @@
+{
+  "name": "extract",
+  "parsed": {
+    "arguments": [
+      {
+        "id": "G1",
+        "name": "The root can disclose Himself",
+        "speaker": "Author",
+        "conclusion": "If God is the root, He is not confined to the far end of human investigation but can disclose Himself.",
+        "premises": [
+          "P1 Human beings can reason upward from existence, truth, relation, order, consciousness, morality, beauty, suffering, and history to ask what kind of root could carry all of that.",
+          "P2 But if God is actually God, He is not trapped at the far end of our investigation.",
+          "P3 The root can disclose Himself."
+        ],
+        "where": "S004-S010"
+      },
+      {
+        "id": "G2",
+        "name": "The divine name is a boundary, not a creaturely label",
+        "speaker": "Author",
+        "conclusion": "The name 'I AM WHO I AM' functions as a boundary that prevents God from being defined by comparison to created things.",
+        "premises": [
+          "P1 Most names work by comparison, placing things among other things and noticing what separates them.",
+          "P2 But the One being named is not one object among others.",
+          "P3 You cannot define the root by pointing beneath it, because if something deeper explains God, then God was not the root.",
+          "P4 You cannot place God inside a category larger than God, because then the category would be more ultimate than God.",
+          "P5 Therefore the divine name refuses to let God be measured from below."
+        ],
+        "where": "S025-S035"
+      },
+      {
+        "id": "G3",
+        "name": "Revelation is not cheating",
+        "speaker": "Author",
+        "conclusion": "It is not irrational to listen to a personal God who can speak, and revelation is a legitimate route to knowledge of Him.",
+        "premises": [
+          "P1 If God speaks, then revelation is not cheating.",
+          "P2 It is not irrational to listen to a person who can speak.",
+          "P3 If God is personal, and if creation is not God, then creatures should not assume that their upward reasoning is the only possible route to knowledge of Him.",
+          "P4 A child can learn about his father both by studying the house the father built and by hearing his father speak.",
+          "P5 The house can witness to the father, and the father's voice can explain the house."
+        ],
+        "where": "S047-S056"
+      },
+      {
+        "id": "G4",
+        "name": "Jesus takes the divine name into Himself",
+        "speaker": "Author",
+        "conclusion": "Jesus's 'I am' declarations are identity language that press the root question into history, not ordinary religious advice.",
+        "premises": [
+          "P1 In John's Gospel, Jesus repeatedly says 'I am' and attaches to Himself roles too large for a mere teacher.",
+          "P2 A prophet can say 'God gives bread,' but Jesus says 'I am the bread.'",
+          "P3 A teacher can say 'I will show you truth,' but Jesus says 'I am the truth.'",
+          "P4 A guide can say 'I know the way,' but Jesus says 'I am the way.'",
+          "P5 A comforter can say 'God will raise the dead,' but Jesus says 'I am the resurrection and the life.'",
+          "P6 That is not ordinary religious advice; it is identity language."
+        ],
+        "where": "S068-S088"
+      },
+      {
+        "id": "G5",
+        "name": "Christianity is built on disclosure, not only inference",
+        "speaker": "Author",
+        "conclusion": "Christianity is not built only on upward inference but on God's disclosure of Himself.",
+        "premises": [
+          "P1 If God remains only an inference, then every argument about God stays trapped inside creaturely reach.",
+          "P2 We can argue from effects to cause, from order to source, from morality to ground, from consciousness to personhood, from beauty to meaning.",
+          "P3 Those arguments may matter, some may be strong, some may fail, some may only point.",
+          "P4 But Christianity is not built only on upward inference; it is built on disclosure.",
+          "P5 God speaks, acts, covenants, comes, names Himself, reveals His character, and enters the human story in Christ."
+        ],
+        "where": "S096-S110"
+      },
+      {
+        "id": "G6",
+        "name": "Revelation does not remove the need for argument",
+        "speaker": "Author",
+        "conclusion": "Even if God has spoken, argument, interpretation, and investigation remain necessary.",
+        "premises": [
+          "P1 Revelation can be misunderstood.",
+          "P2 Claims of revelation can be false.",
+          "P3 Scripture must be interpreted.",
+          "P4 History must be investigated.",
+          "P5 The Church can mishandle what it receives.",
+          "P6 Therefore revelation does not remove the need for argument."
+        ],
+        "where": "S111-S116"
+      },
+      {
+        "id": "G7",
+        "name": "The paper's claim is conditional, not a proof of God's existence",
+        "speaker": "Author",
+        "conclusion": "The paper is not arguing 'Exodus 3:14 is in the Bible, therefore God exists,' but rather describing the kind of God Christianity identifies.",
+        "premises": [
+          "P1 A skeptic does not have to accept the Bible's authority to understand what this paper is doing.",
+          "P2 The paper is not saying 'Exodus 3:14 is in the Bible, therefore God exists.'",
+          "P3 It is saying 'If Christianity is being treated as testimony, this is the kind of God it identifies: self-existent, non-derived, personal, speaking, faithful, and finally revealed in Christ.'",
+          "P4 The disclosed portrait can be stated honestly before it is proven publicly.",
+          "P5 We can ask what Christianity claims, then ask whether reality, reason, history, and experience converge with that claim."
+        ],
+        "where": "S120-S128"
+      },
+      {
+        "id": "G8",
+        "name": "The I AM declarations prevent reductionism",
+        "speaker": "Author",
+        "conclusion": "The 'I AM' declarations keep us from reducing God to an object at the end of an argument and from reducing Jesus to a moral teacher.",
+        "premises": [
+          "P1 The 'I AM' declarations belong here because they keep us from reducing God to an object at the end of an argument.",
+          "P2 They also keep us from reducing Jesus to a moral teacher with unusually devoted followers.",
+          "P3 The Bible's claim is far larger: the root is not silent, the root speaks, and in Christ the root walks into the room."
+        ],
+        "where": "S136-S142"
+      }
+    ]
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "extract",
+      "attempt": 1,
+      "text": "{\n  \"arguments\": [\n    {\n      \"id\": \"G1\",\n      \"name\": \"The root can disclose Himself\",\n      \"speaker\": \"Author\",\n      \"conclusion\": \"If God is the root, He is not confined to the far end of human investigation but can disclose Himself.\",\n      \"premises\": [\n        \"P1 Human beings can reason upward from existence, truth, relation, order, consciousness, morality, beauty, suffering, and history to ask what kind of root could carry all of that.\",\n        \"P2 But if God is actually God, He is not trapped at the far end of our investigation.\",\n        \"P3 The root can disclose Himself.\"\n      ],\n      \"where\": \"S004-S010\"\n    },\n    {\n      \"id\": \"G2\",\n      \"name\": \"The divine name is a boundary, not a creaturely label\",\n      \"speaker\": \"Author\",\n      \"conclusion\": \"The name 'I AM WHO I AM' functions as a boundary that prevents God from being defined by comparison to created things.\",\n      \"premises\": [\n        \"P1 Most names work by comparison, placing things among other things and noticing what separates them.\",\n        \"P2 But the One being named is not one object among others.\",\n        \"P3 You cannot define the root by pointing beneath it, because if something deeper explains God, then God was not the root.\",\n        \"P4 You cannot place God inside a category larger than God, because then the category would be more ultimate than God.\",\n        \"P5 Therefore the divine name refuses to let God be measured from below.\"\n      ],\n      \"where\": \"S025-S035\"\n    },\n    {\n      \"id\": \"G3\",\n      \"name\": \"Revelation is not cheating\",\n      \"speaker\": \"Author\",\n      \"conclusion\": \"It is not irrational to listen to a personal God who can speak, and revelation is a legitimate route to knowledge of Him.\",\n      \"premises\": [\n        \"P1 If God speaks, then revelation is not cheating.\",\n        \"P2 It is not irrational to listen to a person who can speak.\",\n        \"P3 If God is personal, and if creation is not God, then creatures should not assume that their upward reasoning is the only possible route to knowledge of Him.\",\n        \"P4 A child can learn about his father both by studying the house the father built and by hearing his father speak.\",\n        \"P5 The house can witness to the father, and the father's voice can explain the house.\"\n      ],\n      \"where\": \"S047-S056\"\n    },\n    {\n      \"id\": \"G4\",\n      \"name\": \"Jesus takes the divine name into Himself\",\n      \"speaker\": \"Author\",\n      \"conclusion\": \"Jesus's 'I am' declarations are identity language that press the root question into history, not ordinary religious advice.\",\n      \"premises\": [\n        \"P1 In John's Gospel, Jesus repeatedly says 'I am' and attaches to Himself roles too large for a mere teacher.\",\n        \"P2 A prophet can say 'God gives bread,' but Jesus says 'I am the bread.'\",\n        \"P3 A teacher can say 'I will show you truth,' but Jesus says 'I am the truth.'\",\n        \"P4 A guide can say 'I know the way,' but Jesus says 'I am the way.'\",\n        \"P5 A comforter can say 'God will raise the dead,' but Jesus says 'I am the resurrection and the life.'\",\n        \"P6 That is not ordinary religious advice; it is identity language.\"\n      ],\n      \"where\": \"S068-S088\"\n    },\n    {\n      \"id\": \"G5\",\n      \"name\": \"Christianity is built on disclosure, not only inference\",\n      \"speaker\": \"Author\",\n      \"conclusion\": \"Christianity is not built only on upward inference but on God's disclosure of Himself.\",\n      \"premises\": [\n        \"P1 If God remains only an inference, then every argument about God stays trapped inside creaturely reach.\",\n        \"P2 We can argue from effects to cause, from order to source, from morality to ground, from consciousness to personhood, from beauty to meaning.\",\n        \"P3 Those arguments may matter, some may be strong, some may fail, some may only point.\",\n        \"P4 But Christianity is not built only on upward inference; it is built on disclosure.\",\n        \"P5 God speaks, acts, covenants, comes, names Himself, reveals His character, and enters the human story in Christ.\"\n      ],\n      \"where\": \"S096-S110\"\n    },\n    {\n      \"id\": \"G6\",\n      \"name\": \"Revelation does not remove the need for argument\",\n      \"speaker\": \"Author\",\n      \"conclusion\": \"Even if God has spoken, argument, interpretation, and investigation remain necessary.\",\n      \"premises\": [\n        \"P1 Revelation can be misunderstood.\",\n        \"P2 Claims of revelation can be false.\",\n        \"P3 Scripture must be interpreted.\",\n        \"P4 History must be investigated.\",\n        \"P5 The Church can mishandle what it receives.\",\n        \"P6 Therefore revelation does not remove the need for argument.\"\n      ],\n      \"where\": \"S111-S116\"\n    },\n    {\n      \"id\": \"G7\",\n      \"name\": \"The paper's claim is conditional, not a proof of God's existence\",\n      \"speaker\": \"Author\",\n      \"conclusion\": \"The paper is not arguing 'Exodus 3:14 is in the Bible, therefore God exists,' but rather describing the kind of God Christianity identifies.\",\n      \"premises\": [\n        \"P1 A skeptic does not have to accept the Bible's authority to understand what this paper is doing.\",\n        \"P2 The paper is not saying 'Exodus 3:14 is in the Bible, therefore God exists.'\",\n        \"P3 It is saying 'If Christianity is being treated as testimony, this is the kind of God it identifies: self-existent, non-derived, personal, speaking, faithful, and finally revealed in Christ.'\",\n        \"P4 The disclosed portrait can be stated honestly before it is proven publicly.\",\n        \"P5 We can ask what Christianity claims, then ask whether reality, reason, history, and experience converge with that claim.\"\n      ],\n      \"where\": \"S120-S128\"\n    },\n    {\n      \"id\": \"G8\",\n      \"name\": \"The I AM declarations prevent reductionism\",\n      \"speaker\": \"Author\",\n      \"conclusion\": \"The 'I AM' declarations keep us from reducing God to an object at the end of an argument and from reducing Jesus to a moral teacher.\",\n      \"premises\": [\n        \"P1 The 'I AM' declarations belong here because they keep us from reducing God to an object at the end of an argument.\",\n        \"P2 They also keep us from reducing Jesus to a moral teacher with unusually devoted followers.\",\n        \"P3 The Bible's claim is far larger: the root is not silent, the root speaks, and in Christ the root walks into the room.\"\n      ],\n      \"where\": \"S136-S142\"\n    }\n  ]\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 2437,
+      "completion_tokens": 1526,
+      "attempts": 1,
+      "elapsed_seconds": 5.60899999999674,
+      "started_at": "2026-09-27T19:27:24.225475+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T19:27:29.849103+00:00",
+      "tokens": 3963
+    }
+  ],
+  "prompt_sha256": "875b7f2bdad177e994ea89ef40108ff35334f04bb2f7c09f566ead075119f555",
+  "tokens": 3963
+}

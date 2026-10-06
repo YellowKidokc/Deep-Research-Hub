@@ -1,0 +1,127 @@
+{
+  "station": "coherence_score",
+  "paper_uuid": "AX_GI_03_FL_01_I_AM_THE_ROOT_SPEAKS_7c196c27",
+  "run_uuid": "20260927T053943Z",
+  "overall": {
+    "score": 8,
+    "score_ceiling": 10,
+    "status": "ASSESSED",
+    "summary": "The paper maintains a tightly coherent disclosure/discovery framework across its claims, with only minor definitional looseness around 'root' and 'disclosure' and an acknowledged but unresolved evidential gap regarding the Johannine 'I am' sayings."
+  },
+  "dimensions": [
+    {
+      "name": "internal_consistency",
+      "score": 8,
+      "reasons": [
+        "The central distinction between disclosure and discovery is stated consistently (S047-S049, S064-S066, S129-S132) and never reversed or contradicted.",
+        "The claim that revelation does not remove the need for argument (S111-S116) coheres with the earlier concession that the disclosed portrait can be stated before it is proven (S126-S128).",
+        "The skeptic-facing clarification (S120-S125) is consistent with the paper's stated posture that it is not arguing 'the Bible says it, so it is true' (S122).",
+        "Minor tension: S089-S091 concedes the 'I am' sayings do not prove Jesus' identity and that historical questions remain, yet S092-S094 treats the shape of the claim as 'unmistakable'—this is a rhetorical intensification rather than a logical contradiction, but it slightly strains the paper's otherwise careful epistemic hedging."
+      ],
+      "affected_atom_uuids": [
+        "A01",
+        "A04",
+        "A05",
+        "A06",
+        "A10",
+        "A11",
+        "A12"
+      ]
+    },
+    {
+      "name": "definitional_stability",
+      "score": 7,
+      "reasons": [
+        "'Disclosure' and 'discovery' are defined functionally and consistently (S064-S066; A04, A07), and the child/father analogy (S050-S056; A14) reinforces the distinction without collapsing it.",
+        "'Root' is used throughout as a boundary concept meaning non-derived, non-categorized source (S020-S023, S031-S033, S044-S045), which is stable in use but never given a formal definition—it functions more as a regulative metaphor than a defined term.",
+        "'I AM' is characterized as a boundary rather than a label (S018-S019; A02), but the paper does not specify what kind of boundary (semantic, ontological, epistemic), leaving the term underdetermined.",
+        "The paper explicitly acknowledges that the name does not answer every philosophical question and does not give a diagram of God's essence (S040-S042), which is a candid admission of definitional limits rather than a defect."
+      ],
+      "affected_atom_uuids": [
+        "A02",
+        "A04",
+        "A07",
+        "A14"
+      ]
+    },
+    {
+      "name": "inferential_connectedness",
+      "score": 8,
+      "reasons": [
+        "The argument moves coherently from the premise that God is root (S002-S003) to the conclusion that disclosure is the primary mode of knowledge (S102-S110), with the bridge atom A07 doing real connective work.",
+        "The convergence prediction (A12; S128) is properly framed as a conditional ('If Christianity is true...') rather than an asserted result, which keeps the inference honest.",
+        "The paper distinguishes what it is claiming from what it is not claiming (S121-S125), which strengthens inferential clarity.",
+        "Gap: the move from 'Jesus uses I am language' (S071-S078) to 'Jesus takes the divine name into Himself' (S068-S070) is asserted rather than argued; the paper acknowledges this needs support (S089-S091) but does not supply the inferential bridge within this text."
+      ],
+      "affected_atom_uuids": [
+        "A03",
+        "A05",
+        "A06",
+        "A12",
+        "A13"
+      ]
+    },
+    {
+      "name": "register_boundary_respect",
+      "score": 9,
+      "reasons": [
+        "The paper consistently distinguishes the descriptive/testimonial register from the probative register: it states what Christianity claims (S124) before asking whether reality converges (S127-S128).",
+        "The objection handling (S112-S116; A11) explicitly respects the boundary between revelation claims and their verification, listing misunderstanding, false claims, interpretation, history, and ecclesial error as open items.",
+        "The skeptic clause (S120-S125; A10) is a model of register discipline: it tells the reader what the paper is not doing before proceeding.",
+        "The bridge atom A07 (S064-S066) cleanly separates the two questions ('what the world requires' vs. 'whom God says He is') without conflating them."
+      ],
+      "affected_atom_uuids": [
+        "A06",
+        "A10",
+        "A11",
+        "A12"
+      ]
+    }
+  ],
+  "contradictions": [],
+  "tensions": [
+    {
+      "atoms": [
+        "A03",
+        "A11"
+      ],
+      "description": "The paper asserts that Jesus' 'I am' sayings are identity language pressing the root question into history (S068-S070, S092-S094), while simultaneously conceding that these sayings do not prove the claim and that historical, contextual, and translation questions remain (S089-S091). This is a tension between rhetorical confidence and epistemic caution, not a formal contradiction.",
+      "severity": "local"
+    },
+    {
+      "atoms": [
+        "A02",
+        "A04"
+      ],
+      "description": "The divine name is said to function as a boundary that refuses measurement from below (S018-S019, S031-S035), yet the paper also invites convergence between disclosure and discovery (S063-S066, S128). If the name is a strict boundary against external definition, the precise sense in which discovery can 'fit' disclosure without measuring it remains under-specified.",
+      "severity": "local"
+    }
+  ],
+  "missing_definitions": [
+    {
+      "term": "root",
+      "description": "Used as a boundary concept for the non-derived source (S020-S023, S031-S033) but never formally defined; its meaning is carried by contrast and metaphor rather than stipulation.",
+      "affected_atom_uuids": [
+        "A02",
+        "A07"
+      ]
+    },
+    {
+      "term": "disclosure",
+      "description": "Defined functionally as 'whom God says He is' (S066) but not distinguished from related terms like 'revelation' (S047, S112) or 'testimony' (S124) in a way that fixes its scope.",
+      "affected_atom_uuids": [
+        "A04",
+        "A05",
+        "A07"
+      ]
+    },
+    {
+      "term": "boundary",
+      "description": "Applied to the divine name (S019) without specifying whether the boundary is semantic, ontological, or epistemic.",
+      "affected_atom_uuids": [
+        "A02"
+      ]
+    }
+  ],
+  "notes": "The paper is unusually self-aware about its own limits: it repeatedly flags what it is not claiming (S121-S125), what remains to be investigated (S089-S091, S112-S116), and where the reader is not required to follow (S120). This self-awareness raises coherence even where definitions remain loose. The main coherence risk is not contradiction but the unargued inferential leap from Johannine 'I am' sayings to identity with the divine name; the paper acknowledges this gap but does not close it within this text. No structural contradictions were found."
+}

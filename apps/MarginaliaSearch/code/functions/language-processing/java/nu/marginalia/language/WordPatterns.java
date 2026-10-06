@@ -1,0 +1,83 @@
+package nu.marginalia.language;
+
+/** Logic for deciding which words are eligible to be keywords.
+ */
+public class WordPatterns {
+    public static final int MIN_WORD_LENGTH = 1;
+    public static final int MAX_WORD_LENGTH = 64;
+
+    public static final String WORD_TOKEN_JOINER = "_";
+
+    /** Run checks on the word and exclude terms with too many special characters
+     */
+    public static boolean isNotJunkWord(String word) {
+        if (word.isBlank()) {
+            return false;
+        }
+        if (hasMoreThanN(word, '-', 4)) {
+            return false;
+        }
+        if (hasMoreThanN(word, '+', 2)) {
+            return false;
+        }
+        if (word.startsWith("-")
+                || word.endsWith("-")
+        ) {
+            return false;
+        }
+
+        int numDigits = 0;
+        for (int i = 0; i < word.length(); i++) {
+            if (Character.isDigit(word.charAt(i))) {
+                numDigits++;
+            }
+            if (numDigits > 16)
+                return false;
+        }
+
+        return true;
+    }
+
+    private static boolean hasMoreThanN(String s, char c, int max) {
+        int idx = 0;
+        for (int i = 0; i <= max; i++) {
+            idx = s.indexOf(c, idx+1);
+            if (idx < 0 || idx >= s.length() - 1)
+                return false;
+        }
+        return true;
+    }
+
+    // Stopword exclusion has been moved to the index.  We just filter out
+    // junk words here now.
+    public static boolean isStopWord(String s) {
+        if (!isNotJunkWord(s)) {
+            return true;
+        }
+
+        return false;
+    }
+
+    private static final String SEPARATOR_ONLY_CHARS = "/*-()|,.;";
+
+    /** Tokens the sentence splitter discards before word positions are assigned.
+     * The query side needs to make the same call when translating a quoted phrase
+     * into positional constraints, since these tokens leave no gap in the position
+     * sequence.
+     */
+    public static boolean isDiscardedByTokenizer(String word) {
+        if (word.isBlank()) {
+            return true;
+        }
+        if (word.length() >= MAX_WORD_LENGTH) {
+            return true;
+        }
+        for (int i = 0; i < word.length(); i++) {
+            if (SEPARATOR_ONLY_CHARS.indexOf(word.charAt(i)) < 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+}

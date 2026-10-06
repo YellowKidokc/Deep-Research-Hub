@@ -1,0 +1,594 @@
+{
+  "name": "fruits_turns_2",
+  "parsed": {
+    "range": "T031-T060",
+    "turns": [
+      {
+        "id": "T031",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T032",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1
+        ],
+        "why": {
+          "patience": "explains citation practice step by step",
+          "kindness": "answers critic charitably, no ridicule",
+          "goodness": "honest about his own bias and limits",
+          "faithfulness": "cites skeptics and friends by same standard",
+          "gentleness": "restrained toward unnamed critics",
+          "self_control": "hedges counts, admits uncertainty"
+        }
+      },
+      {
+        "id": "T033",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1
+        ],
+        "why": {
+          "patience": "walks through book's origin in detail",
+          "kindness": "credits editor Ben Shaw generously",
+          "goodness": "honest about personal comments in book",
+          "faithfulness": "keeps faith with sources and collaborators",
+          "gentleness": "fair to critics, no personal attacks",
+          "self_control": "distinguishes his comments from arguments"
+        }
+      },
+      {
+        "id": "T034",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "why": {
+          "faithfulness": "acknowledges publisher's editorial request"
+        }
+      },
+      {
+        "id": "T035",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T036",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T037",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T038",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T039",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T040",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1
+        ],
+        "why": {
+          "patience": "explains plagiarism anecdote fully",
+          "kindness": "handles offender privately, not publicly",
+          "goodness": "honest about his own prejudice",
+          "faithfulness": "consistent standard for sources",
+          "gentleness": "corrects without humiliating",
+          "self_control": "admits bias rather than overclaiming"
+        }
+      },
+      {
+        "id": "T041",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1
+        ],
+        "why": {
+          "patience": "lays out challenge carefully",
+          "kindness": "invites critics to test him",
+          "goodness": "fair challenge, admits own prejudice",
+          "faithfulness": "same standard for critics and friends",
+          "gentleness": "challenges without contempt",
+          "self_control": "concedes he is prejudiced"
+        }
+      },
+      {
+        "id": "T042",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1
+        ],
+        "why": {
+          "patience": "explains his method step by step",
+          "kindness": "fair to critics' objections",
+          "goodness": "honest about limits of counting",
+          "faithfulness": "keeps faith with evidence",
+          "gentleness": "no personal attacks",
+          "self_control": "hedges where evidence is thin"
+        }
+      },
+      {
+        "id": "T043",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T044",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T045",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1
+        ],
+        "why": {
+          "patience": "explains criteria at length",
+          "kindness": "answers host's question directly",
+          "goodness": "honest about not counting",
+          "faithfulness": "consistent with earlier claims",
+          "gentleness": "fair to critics",
+          "self_control": "refuses to give unsupported percentage"
+        }
+      },
+      {
+        "id": "T046",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1
+        ],
+        "why": {
+          "patience": "explains why he avoids percentages",
+          "kindness": "gracious about host's 51%",
+          "goodness": "honest about lack of count",
+          "faithfulness": "keeps faith with evidence",
+          "gentleness": "no contempt for critics",
+          "self_control": "declines to overclaim numbers"
+        }
+      },
+      {
+        "id": "T047",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1
+        ],
+        "why": {
+          "patience": "explains multiple attestation carefully",
+          "kindness": "fair to non-evangelical scholars",
+          "goodness": "honest about what he can and cannot count",
+          "faithfulness": "cites Dunn fairly despite disagreement",
+          "gentleness": "respectful toward critics",
+          "self_control": "hedges on numbers"
+        }
+      },
+      {
+        "id": "T048",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T049",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T050",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T051",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1
+        ],
+        "why": {
+          "patience": "explains categories of evidence",
+          "kindness": "fair to ancient historians",
+          "goodness": "honest about rare event",
+          "faithfulness": "cites Tacitus, Suetonius fairly",
+          "gentleness": "no mockery of opponents",
+          "self_control": "stays on the evidential question"
+        }
+      },
+      {
+        "id": "T052",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1
+        ],
+        "why": {
+          "patience": "explains consensus criterion carefully",
+          "kindness": "answers host's follow-up",
+          "goodness": "honest about never counting",
+          "faithfulness": "consistent with earlier claims",
+          "gentleness": "fair to critics",
+          "self_control": "refuses to overclaim percentages"
+        }
+      },
+      {
+        "id": "T053",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T054",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T055",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T056",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1
+        ],
+        "why": {
+          "patience": "explains why he avoids numbers",
+          "kindness": "fair to both sides",
+          "goodness": "honest about lack of count",
+          "faithfulness": "consistent with earlier claims",
+          "gentleness": "no contempt",
+          "self_control": "declines to overclaim"
+        }
+      },
+      {
+        "id": "T057",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1
+        ],
+        "why": {
+          "patience": "explains criterion one at length",
+          "kindness": "fair to host's view",
+          "goodness": "honest about his method",
+          "faithfulness": "consistent with earlier claims",
+          "gentleness": "no personal attacks",
+          "self_control": "hedges on percentages"
+        }
+      },
+      {
+        "id": "T058",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T059",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1
+        ],
+        "why": {
+          "patience": "explains Allison quote and context",
+          "kindness": "fair to skeptical scholars",
+          "goodness": "honest about his own motives",
+          "faithfulness": "cites Allison accurately",
+          "gentleness": "no contempt for critics",
+          "self_control": "stays on the evidence"
+        }
+      },
+      {
+        "id": "T060",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1
+        ],
+        "why": {
+          "patience": "explains Bultmann and Jesus Seminar carefully",
+          "kindness": "fair to left-wing scholars",
+          "goodness": "honest about his bias",
+          "faithfulness": "cites Bultmann fairly despite disagreement",
+          "gentleness": "no mockery of opponents",
+          "self_control": "hedges where uncertain"
+        }
+      }
+    ]
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "fruits_turns_2",
+      "attempt": 1,
+      "text": "{\n  \"range\": \"T031-T060\",\n  \"turns\": [\n    {\"id\": \"T031\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,0,0,0]},\n    {\"id\": \"T032\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,1,2,1,1], \"why\": {\"patience\": \"explains citation practice step by step\", \"kindness\": \"answers critic charitably, no ridicule\", \"goodness\": \"honest about his own bias and limits\", \"faithfulness\": \"cites skeptics and friends by same standard\", \"gentleness\": \"restrained toward unnamed critics\", \"self_control\": \"hedges counts, admits uncertainty\"}},\n    {\"id\": \"T033\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,1,2,1,1], \"why\": {\"patience\": \"walks through book's origin in detail\", \"kindness\": \"credits editor Ben Shaw generously\", \"goodness\": \"honest about personal comments in book\", \"faithfulness\": \"keeps faith with sources and collaborators\", \"gentleness\": \"fair to critics, no personal attacks\", \"self_control\": \"distinguishes his comments from arguments\"}},\n    {\"id\": \"T034\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,1,0,0], \"why\": {\"faithfulness\": \"acknowledges publisher's editorial request\"}},\n    {\"id\": \"T035\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,0,0,0]},\n    {\"id\": \"T036\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,0,0,0]},\n    {\"id\": \"T037\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,0,0,0]},\n    {\"id\": \"T038\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,0,0,0]},\n    {\"id\": \"T039\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,0,0,0]},\n    {\"id\": \"T040\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,1,2,1,1], \"why\": {\"patience\": \"explains plagiarism anecdote fully\", \"kindness\": \"handles offender privately, not publicly\", \"goodness\": \"honest about his own prejudice\", \"faithfulness\": \"consistent standard for sources\", \"gentleness\": \"corrects without humiliating\", \"self_control\": \"admits bias rather than overclaiming\"}},\n    {\"id\": \"T041\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,1,2,1,1], \"why\": {\"patience\": \"lays out challenge carefully\", \"kindness\": \"invites critics to test him\", \"goodness\": \"fair challenge, admits own prejudice\", \"faithfulness\": \"same standard for critics and friends\", \"gentleness\": \"challenges without contempt\", \"self_control\": \"concedes he is prejudiced\"}},\n    {\"id\": \"T042\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,1,2,1,1], \"why\": {\"patience\": \"explains his method step by step\", \"kindness\": \"fair to critics' objections\", \"goodness\": \"honest about limits of counting\", \"faithfulness\": \"keeps faith with evidence\", \"gentleness\": \"no personal attacks\", \"self_control\": \"hedges where evidence is thin\"}},\n    {\"id\": \"T043\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,0,0,0]},\n    {\"id\": \"T044\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,0,0,0]},\n    {\"id\": \"T045\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,1,2,1,1], \"why\": {\"patience\": \"explains criteria at length\", \"kindness\": \"answers host's question directly\", \"goodness\": \"honest about not counting\", \"faithfulness\": \"consistent with earlier claims\", \"gentleness\": \"fair to critics\", \"self_control\": \"refuses to give unsupported percentage\"}},\n    {\"id\": \"T046\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,1,2,1,1], \"why\": {\"patience\": \"explains why he avoids percentages\", \"kindness\": \"gracious about host's 51%\", \"goodness\": \"honest about lack of count\", \"faithfulness\": \"keeps faith with evidence\", \"gentleness\": \"no contempt for critics\", \"self_control\": \"declines to overclaim numbers\"}},\n    {\"id\": \"T047\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,1,2,1,1], \"why\": {\"patience\": \"explains multiple attestation carefully\", \"kindness\": \"fair to non-evangelical scholars\", \"goodness\": \"honest about what he can and cannot count\", \"faithfulness\": \"cites Dunn fairly despite disagreement\", \"gentleness\": \"respectful toward critics\", \"self_control\": \"hedges on numbers\"}},\n    {\"id\": \"T048\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,0,0,0]},\n    {\"id\": \"T049\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,0,0,0]},\n    {\"id\": \"T050\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,0,0,0]},\n    {\"id\": \"T051\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,1,2,1,1], \"why\": {\"patience\": \"explains categories of evidence\", \"kindness\": \"fair to ancient historians\", \"goodness\": \"honest about rare event\", \"faithfulness\": \"cites Tacitus, Suetonius fairly\", \"gentleness\": \"no mockery of opponents\", \"self_control\": \"stays on the evidential question\"}},\n    {\"id\": \"T052\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,1,2,1,1], \"why\": {\"patience\": \"explains consensus criterion carefully\", \"kindness\": \"answers host's follow-up\", \"goodness\": \"honest about never counting\", \"faithfulness\": \"consistent with earlier claims\", \"gentleness\": \"fair to critics\", \"self_control\": \"refuses to overclaim percentages\"}},\n    {\"id\": \"T053\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,0,0,0]},\n    {\"id\": \"T054\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,0,0,0]},\n    {\"id\": \"T055\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,0,0,0]},\n    {\"id\": \"T056\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,1,2,1,1], \"why\": {\"patience\": \"explains why he avoids numbers\", \"kindness\": \"fair to both sides\", \"goodness\": \"honest about lack of count\", \"faithfulness\": \"consistent with earlier claims\", \"gentleness\": \"no contempt\", \"self_control\": \"declines to overclaim\"}},\n    {\"id\": \"T057\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,1,2,1,1], \"why\": {\"patience\": \"explains criterion one at length\", \"kindness\": \"fair to host's view\", \"goodness\": \"honest about his method\", \"faithfulness\": \"consistent with earlier claims\", \"gentleness\": \"no personal attacks\", \"self_control\": \"hedges on percentages\"}},\n    {\"id\": \"T058\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,0,0,0]},\n    {\"id\": \"T059\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,1,2,1,1], \"why\": {\"patience\": \"explains Allison quote and context\", \"kindness\": \"fair to skeptical scholars\", \"goodness\": \"honest about his own motives\", \"faithfulness\": \"cites Allison accurately\", \"gentleness\": \"no contempt for critics\", \"self_control\": \"stays on the evidence\"}},\n    {\"id\": \"T060\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,1,2,1,1], \"why\": {\"patience\": \"explains Bultmann and Jesus Seminar carefully\", \"kindness\": \"fair to left-wing scholars\", \"goodness\": \"honest about his bias\", \"faithfulness\": \"cites Bultmann fairly despite disagreement\", \"gentleness\": \"no mockery of opponents\", \"self_control\": \"hedges where uncertain\"}}\n  ]\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 19638,
+      "completion_tokens": 2203,
+      "attempts": 1,
+      "elapsed_seconds": 9.0,
+      "started_at": "2026-09-27T14:22:44.716784+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T14:22:53.713297+00:00",
+      "tokens": 21841
+    }
+  ],
+  "prompt_sha256": "d4795709ca7e894e321a8ae2b63c79c931a422b1b00d415e38e2f2fd9757283c",
+  "tokens": 21841
+}

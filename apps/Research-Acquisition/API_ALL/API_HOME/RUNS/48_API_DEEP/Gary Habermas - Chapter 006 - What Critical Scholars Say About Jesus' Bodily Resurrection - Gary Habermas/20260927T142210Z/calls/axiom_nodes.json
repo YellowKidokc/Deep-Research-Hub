@@ -1,0 +1,78 @@
+{
+  "name": "axiom_nodes",
+  "parsed": {
+    "paper_uuid": "youtube_Q4TzI59pRIc_ch6",
+    "title": "What Critical Scholars Say About Jesus' Bodily Resurrection - Gary Habermas",
+    "summary": "This chapter is a historical-apologetics discussion in which Gary Habermas surveys critical scholars (John Cook, Dale Allison, Tom Wright, Michael Licona, Robert Gundry) who affirm that Paul and the earliest disciples believed in a bodily resurrection of Jesus. It engages the axiom system only at the level of historical evidence for the resurrection and the reliability of apostolic witness; it does not state or develop any of the formal axioms, definitions, or equations of the Theophysics canon.",
+    "primary_mode": "HY_EVIDENCE",
+    "axiom_nodes": [
+      {
+        "node_id": "EV15.1",
+        "name": "EV15.1 — Biblical Prophecy Validation",
+        "mode": "HY_EVIDENCE",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "The chapter offers historical-scholarly evidence for the bodily resurrection (a biblical event), which is the kind of evidence EV15.1 concerns, but it does not address prophecy validation as such."
+      },
+      {
+        "node_id": "BC1",
+        "name": "BC1 — Terminal Observer Exists",
+        "mode": "AX_CORE",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "The resurrection appearances of Jesus could be read as a terminal-observer event, but the speakers treat them purely as historical claims and never frame them in observer/BC terms."
+      },
+      {
+        "node_id": "ID7.1",
+        "name": "ID7.1 — Terminal Observer Is God",
+        "mode": "AX_DERIVED",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "Jesus' resurrection is theologically adjacent to the claim that the terminal observer is God, but the source does not make or engage that identification."
+      },
+      {
+        "node_id": "P9.4",
+        "name": "P9.4 — Superposition Preserved Until Faith",
+        "mode": "AX_DERIVED",
+        "alignment": "relevant_but_not_asserted",
+        "evidence_quote": "",
+        "confidence": "low",
+        "notes": "Dale Allison's statement that he believes the disciples saw Jesus and will be in church next Easter is a faith response to resurrection testimony, but the source does not discuss superposition or collapse."
+      }
+    ],
+    "unmapped_claims": [
+      "A01",
+      "A02",
+      "A03",
+      "A04",
+      "A05",
+      "A06",
+      "A07"
+    ]
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "axiom_nodes",
+      "attempt": 1,
+      "text": "{\n  \"paper_uuid\": \"youtube_Q4TzI59pRIc_ch6\",\n  \"title\": \"What Critical Scholars Say About Jesus' Bodily Resurrection - Gary Habermas\",\n  \"summary\": \"This chapter is a historical-apologetics discussion in which Gary Habermas surveys critical scholars (John Cook, Dale Allison, Tom Wright, Michael Licona, Robert Gundry) who affirm that Paul and the earliest disciples believed in a bodily resurrection of Jesus. It engages the axiom system only at the level of historical evidence for the resurrection and the reliability of apostolic witness; it does not state or develop any of the formal axioms, definitions, or equations of the Theophysics canon.\",\n  \"primary_mode\": \"HY_EVIDENCE\",\n  \"axiom_nodes\": [\n    {\n      \"node_id\": \"EV15.1\",\n      \"name\": \"EV15.1 — Biblical Prophecy Validation\",\n      \"mode\": \"HY_EVIDENCE\",\n      \"alignment\": \"relevant_but_not_asserted\",\n      \"evidence_quote\": \"\",\n      \"confidence\": \"low\",\n      \"notes\": \"The chapter offers historical-scholarly evidence for the bodily resurrection (a biblical event), which is the kind of evidence EV15.1 concerns, but it does not address prophecy validation as such.\"\n    },\n    {\n      \"node_id\": \"BC1\",\n      \"name\": \"BC1 — Terminal Observer Exists\",\n      \"mode\": \"AX_CORE\",\n      \"alignment\": \"relevant_but_not_asserted\",\n      \"evidence_quote\": \"\",\n      \"confidence\": \"low\",\n      \"notes\": \"The resurrection appearances of Jesus could be read as a terminal-observer event, but the speakers treat them purely as historical claims and never frame them in observer/BC terms.\"\n    },\n    {\n      \"node_id\": \"ID7.1\",\n      \"name\": \"ID7.1 — Terminal Observer Is God\",\n      \"mode\": \"AX_DERIVED\",\n      \"alignment\": \"relevant_but_not_asserted\",\n      \"evidence_quote\": \"\",\n      \"confidence\": \"low\",\n      \"notes\": \"Jesus' resurrection is theologically adjacent to the claim that the terminal observer is God, but the source does not make or engage that identification.\"\n    },\n    {\n      \"node_id\": \"P9.4\",\n      \"name\": \"P9.4 — Superposition Preserved Until Faith\",\n      \"mode\": \"AX_DERIVED\",\n      \"alignment\": \"relevant_but_not_asserted\",\n      \"evidence_quote\": \"\",\n      \"confidence\": \"low\",\n      \"notes\": \"Dale Allison's statement that he believes the disciples saw Jesus and will be in church next Easter is a faith response to resurrection testimony, but the source does not discuss superposition or collapse.\"\n    }\n  ],\n  \"unmapped_claims\": [\n    \"A01\",\n    \"A02\",\n    \"A03\",\n    \"A04\",\n    \"A05\",\n    \"A06\",\n    \"A07\"\n  ]\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 6378,
+      "completion_tokens": 639,
+      "attempts": 1,
+      "elapsed_seconds": 3.2960000000020955,
+      "started_at": "2026-09-27T13:55:55.947619+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T13:55:59.247316+00:00",
+      "tokens": 7017
+    }
+  ],
+  "prompt_sha256": "2a83043f30f063e08882675932c7c08c8da409ddc59b803e92f5352d23f66d09",
+  "tokens": 7017,
+  "reused": true
+}

@@ -1,0 +1,607 @@
+{
+  "name": "fruits_turns_2",
+  "parsed": {
+    "range": "T031-T060",
+    "turns": [
+      {
+        "id": "T031",
+        "speaker": "guest",
+        "v": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "affirms gospel as deepest truth for listener",
+          "joy": "warm agreement about Christ's work",
+          "peace": "builds shared ground on suffering",
+          "kindness": "encouraging affirmation of host's point",
+          "goodness": "points listener to real comfort",
+          "faithfulness": "keeps consistent gospel-centered standard",
+          "gentleness": "gentle agreement, no edge",
+          "self_control": "brief, measured, stays on topic"
+        }
+      },
+      {
+        "id": "T032",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "why": {
+          "peace": "distinguishes truth from our need for coherence",
+          "faithfulness": "careful distinction, no overclaim",
+          "self_control": "hedges 'in our minds'"
+        }
+      },
+      {
+        "id": "T033",
+        "speaker": "host",
+        "v": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "why": {
+          "love": "asks question for listener's benefit",
+          "patience": "sets up topic carefully",
+          "kindness": "frames question helpfully"
+        }
+      },
+      {
+        "id": "T034",
+        "speaker": "guest",
+        "v": [
+          1,
+          0,
+          0,
+          2,
+          1,
+          1,
+          2,
+          1,
+          1
+        ],
+        "why": {
+          "love": "wants to help emotional doubters",
+          "patience": "explains doubt categories step by step",
+          "kindness": "defines terms for listener",
+          "goodness": "gives practical benefit, cites Ellis fairly",
+          "faithfulness": "cites atheist Ellis as source honestly",
+          "gentleness": "no condescension toward doubters",
+          "self_control": "gives stats, stays measured"
+        }
+      },
+      {
+        "id": "T035",
+        "speaker": "guest",
+        "v": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "why": {
+          "love": "offers practical help to strugglers",
+          "patience": "walks through cognitive method",
+          "kindness": "encourages with homework framing",
+          "faithfulness": "grounds claim in Philippians, Psalms",
+          "self_control": "stays on the doubt question"
+        }
+      },
+      {
+        "id": "T036",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "why": {
+          "faithfulness": "cites Paul's list accurately",
+          "self_control": "measured exegesis of Philippians"
+        }
+      },
+      {
+        "id": "T037",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "why": {
+          "faithfulness": "notes Greek emphatic translation",
+          "self_control": "careful about translation nuance"
+        }
+      },
+      {
+        "id": "T038",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T039",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T040",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "explains analogy step by step",
+          "kindness": "uses relatable Monday example",
+          "faithfulness": "keeps argument consistent",
+          "self_control": "stays on point"
+        }
+      },
+      {
+        "id": "T041",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T042",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "explains bodily resurrection carefully",
+          "kindness": "defines Plato contrast for listener",
+          "faithfulness": "cites Philippians 3:10 accurately",
+          "self_control": "measured theological claim"
+        }
+      },
+      {
+        "id": "T043",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T044",
+        "speaker": "guest",
+        "v": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "why": {
+          "love": "shares personal struggle to help others",
+          "patience": "walks through his practice step by step",
+          "kindness": "vulnerable, not preachy",
+          "faithfulness": "honest about his own method",
+          "self_control": "measured personal testimony"
+        }
+      },
+      {
+        "id": "T045",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "why": {
+          "faithfulness": "consistent with earlier claims",
+          "self_control": "stays on the resurrection theme"
+        }
+      },
+      {
+        "id": "T046",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "explains near-death vs resurrection distinction",
+          "kindness": "clarifies for listener",
+          "faithfulness": "fair about near-death evidence limits",
+          "self_control": "hedges appropriately"
+        }
+      },
+      {
+        "id": "T047",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T048",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "explains chain from resurrection to heaven",
+          "kindness": "uses song example accessibly",
+          "faithfulness": "cites hymn and NT consistently",
+          "self_control": "stays on argument"
+        }
+      },
+      {
+        "id": "T049",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T050",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "re-explains emotional doubt method",
+          "kindness": "defines terms for listener",
+          "faithfulness": "cites Ellis and Paul fairly",
+          "self_control": "measured, stays on question"
+        }
+      },
+      {
+        "id": "T051",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T052",
+        "speaker": "guest",
+        "v": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "why": {
+          "love": "shares painful personal story to help",
+          "patience": "walks through card story slowly",
+          "kindness": "vulnerable, not performative",
+          "faithfulness": "honest about ongoing grief",
+          "self_control": "measured emotional testimony"
+        }
+      },
+      {
+        "id": "T053",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "explains publishing story step by step",
+          "kindness": "self-deprecating humor, warm",
+          "faithfulness": "honest about collaboration",
+          "self_control": "stays on topic"
+        }
+      },
+      {
+        "id": "T054",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T055",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "why": {
+          "kindness": "credits students generously",
+          "faithfulness": "honest about who wrote what",
+          "self_control": "measured, no overclaim"
+        }
+      },
+      {
+        "id": "T056",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T057",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "why": {
+          "patience": "explains simple living options carefully",
+          "kindness": "shares Wesley anecdote accessibly",
+          "faithfulness": "cites Wesley diary honestly",
+          "self_control": "stays on application theme"
+        }
+      },
+      {
+        "id": "T058",
+        "speaker": "host",
+        "v": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "why": {
+          "love": "invites audience participation for guest's good",
+          "kindness": "encouraging, supportive framing"
+        }
+      },
+      {
+        "id": "T059",
+        "speaker": "host",
+        "v": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "why": {
+          "love": "asks sensitive question with care",
+          "patience": "gives guest room to decline",
+          "kindness": "gentle framing of hard question"
+        }
+      },
+      {
+        "id": "T060",
+        "speaker": "guest",
+        "v": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "honest about not knowing, serves listener",
+          "peace": "names suffering honestly, points to hope",
+          "patience": "explains his epistemic humility step by step",
+          "kindness": "accessible, humble framing",
+          "goodness": "honest about limits, real comfort",
+          "faithfulness": "consistent standard, admits ignorance",
+          "gentleness": "humble, non-defensive",
+          "self_control": "hedges where warranted, no overclaim"
+        }
+      }
+    ]
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "fruits_turns_2",
+      "attempt": 1,
+      "text": "{\"range\": \"T031-T060\", \"turns\": [\n  {\"id\": \"T031\", \"speaker\": \"guest\", \"v\": [1,1,1,0,1,1,1,1,1], \"why\": {\"love\": \"affirms gospel as deepest truth for listener\", \"joy\": \"warm agreement about Christ's work\", \"peace\": \"builds shared ground on suffering\", \"kindness\": \"encouraging affirmation of host's point\", \"goodness\": \"points listener to real comfort\", \"faithfulness\": \"keeps consistent gospel-centered standard\", \"gentleness\": \"gentle agreement, no edge\", \"self_control\": \"brief, measured, stays on topic\"}},\n  {\"id\": \"T032\", \"speaker\": \"guest\", \"v\": [0,0,1,0,0,0,1,0,1], \"why\": {\"peace\": \"distinguishes truth from our need for coherence\", \"faithfulness\": \"careful distinction, no overclaim\", \"self_control\": \"hedges 'in our minds'\"}},\n  {\"id\": \"T033\", \"speaker\": \"host\", \"v\": [1,0,0,1,1,0,0,0,0], \"why\": {\"love\": \"asks question for listener's benefit\", \"patience\": \"sets up topic carefully\", \"kindness\": \"frames question helpfully\"}},\n  {\"id\": \"T034\", \"speaker\": \"guest\", \"v\": [1,0,0,2,1,1,2,1,1], \"why\": {\"love\": \"wants to help emotional doubters\", \"patience\": \"explains doubt categories step by step\", \"kindness\": \"defines terms for listener\", \"goodness\": \"gives practical benefit, cites Ellis fairly\", \"faithfulness\": \"cites atheist Ellis as source honestly\", \"gentleness\": \"no condescension toward doubters\", \"self_control\": \"gives stats, stays measured\"}},\n  {\"id\": \"T035\", \"speaker\": \"guest\", \"v\": [1,0,0,1,1,0,1,0,1], \"why\": {\"love\": \"offers practical help to strugglers\", \"patience\": \"walks through cognitive method\", \"kindness\": \"encourages with homework framing\", \"faithfulness\": \"grounds claim in Philippians, Psalms\", \"self_control\": \"stays on the doubt question\"}},\n  {\"id\": \"T036\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,1,0,1], \"why\": {\"faithfulness\": \"cites Paul's list accurately\", \"self_control\": \"measured exegesis of Philippians\"}},\n  {\"id\": \"T037\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,1,0,1], \"why\": {\"faithfulness\": \"notes Greek emphatic translation\", \"self_control\": \"careful about translation nuance\"}},\n  {\"id\": \"T038\", \"speaker\": \"host\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"T039\", \"speaker\": \"host\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"T040\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,0,1,0,1], \"why\": {\"patience\": \"explains analogy step by step\", \"kindness\": \"uses relatable Monday example\", \"faithfulness\": \"keeps argument consistent\", \"self_control\": \"stays on point\"}},\n  {\"id\": \"T041\", \"speaker\": \"host\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"T042\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,0,1,0,1], \"why\": {\"patience\": \"explains bodily resurrection carefully\", \"kindness\": \"defines Plato contrast for listener\", \"faithfulness\": \"cites Philippians 3:10 accurately\", \"self_control\": \"measured theological claim\"}},\n  {\"id\": \"T043\", \"speaker\": \"host\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"T044\", \"speaker\": \"guest\", \"v\": [1,0,0,1,1,0,1,0,1], \"why\": {\"love\": \"shares personal struggle to help others\", \"patience\": \"walks through his practice step by step\", \"kindness\": \"vulnerable, not preachy\", \"faithfulness\": \"honest about his own method\", \"self_control\": \"measured personal testimony\"}},\n  {\"id\": \"T045\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,1,0,1], \"why\": {\"faithfulness\": \"consistent with earlier claims\", \"self_control\": \"stays on the resurrection theme\"}},\n  {\"id\": \"T046\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,0,1,0,1], \"why\": {\"patience\": \"explains near-death vs resurrection distinction\", \"kindness\": \"clarifies for listener\", \"faithfulness\": \"fair about near-death evidence limits\", \"self_control\": \"hedges appropriately\"}},\n  {\"id\": \"T047\", \"speaker\": \"host\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"T048\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,0,1,0,1], \"why\": {\"patience\": \"explains chain from resurrection to heaven\", \"kindness\": \"uses song example accessibly\", \"faithfulness\": \"cites hymn and NT consistently\", \"self_control\": \"stays on argument\"}},\n  {\"id\": \"T049\", \"speaker\": \"host\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"T050\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,0,1,0,1], \"why\": {\"patience\": \"re-explains emotional doubt method\", \"kindness\": \"defines terms for listener\", \"faithfulness\": \"cites Ellis and Paul fairly\", \"self_control\": \"measured, stays on question\"}},\n  {\"id\": \"T051\", \"speaker\": \"host\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"T052\", \"speaker\": \"guest\", \"v\": [1,0,0,1,1,0,1,0,1], \"why\": {\"love\": \"shares painful personal story to help\", \"patience\": \"walks through card story slowly\", \"kindness\": \"vulnerable, not performative\", \"faithfulness\": \"honest about ongoing grief\", \"self_control\": \"measured emotional testimony\"}},\n  {\"id\": \"T053\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,0,1,0,1], \"why\": {\"patience\": \"explains publishing story step by step\", \"kindness\": \"self-deprecating humor, warm\", \"faithfulness\": \"honest about collaboration\", \"self_control\": \"stays on topic\"}},\n  {\"id\": \"T054\", \"speaker\": \"host\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"T055\", \"speaker\": \"guest\", \"v\": [0,0,0,0,1,0,1,0,1], \"why\": {\"kindness\": \"credits students generously\", \"faithfulness\": \"honest about who wrote what\", \"self_control\": \"measured, no overclaim\"}},\n  {\"id\": \"T056\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"T057\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,0,1,0,1], \"why\": {\"patience\": \"explains simple living options carefully\", \"kindness\": \"shares Wesley anecdote accessibly\", \"faithfulness\": \"cites Wesley diary honestly\", \"self_control\": \"stays on application theme\"}},\n  {\"id\": \"T058\", \"speaker\": \"host\", \"v\": [1,0,0,0,1,0,0,0,0], \"why\": {\"love\": \"invites audience participation for guest's good\", \"kindness\": \"encouraging, supportive framing\"}},\n  {\"id\": \"T059\", \"speaker\": \"host\", \"v\": [1,0,0,1,1,0,0,0,0], \"why\": {\"love\": \"asks sensitive question with care\", \"patience\": \"gives guest room to decline\", \"kindness\": \"gentle framing of hard question\"}},\n  {\"id\": \"T060\", \"speaker\": \"guest\", \"v\": [1,0,1,1,1,1,1,1,1], \"why\": {\"love\": \"honest about not knowing, serves listener\", \"peace\": \"names suffering honestly, points to hope\", \"patience\": \"explains his epistemic humility step by step\", \"kindness\": \"accessible, humble framing\", \"goodness\": \"honest about limits, real comfort\", \"faithfulness\": \"consistent standard, admits ignorance\", \"gentleness\": \"humble, non-defensive\", \"self_control\": \"hedges where warranted, no overclaim\"}}\n]}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 14571,
+      "completion_tokens": 2248,
+      "attempts": 1,
+      "elapsed_seconds": 9.593000000000757,
+      "started_at": "2026-09-27T14:21:53.705380+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T14:22:03.302583+00:00",
+      "tokens": 16819
+    }
+  ],
+  "prompt_sha256": "5382a409e70958d676e07b30d4f7ecbf2ab9420ea23a1dfc2d50c3a1745a6e43",
+  "tokens": 16819
+}

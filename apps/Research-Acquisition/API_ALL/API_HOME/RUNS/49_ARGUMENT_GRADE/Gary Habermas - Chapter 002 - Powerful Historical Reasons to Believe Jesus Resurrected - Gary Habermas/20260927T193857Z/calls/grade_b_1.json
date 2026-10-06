@@ -1,0 +1,480 @@
+{
+  "name": "grade_b_1",
+  "parsed": {
+    "arguments": [
+      {
+        "id": "G1",
+        "name": "New Testament criteria establish reliable historical data",
+        "conclusion": "The New Testament criteria (eyewitness, early, embarrassment, enemy attestation, Aramaic substrata) provide reliable historical data for Christianity.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1: The criteria are used freely by almost all historical Jesus scholars, including skeptics like Bart Ehrman.",
+          "P2: These criteria test whether texts are early, eyewitness, embarrassing, or attested by enemies.",
+          "P3: Embarrassing passages would not be invented by Christians.",
+          "P4: Enemy attestation strengthens historical reliability.",
+          "P5: Aramaic substrata point to earlier strata before translation into Greek."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "there's two sets of data that you may or may not be familiar with, but they're pretty recent kinds of data, and they persuaded a lot of people today that there's good evidence for Christianity. Now, these two bodies of data, one are called the criteria, the New Testament criteria."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "Is the text written by an eyewitness? ... Is it early? ... What about embarrassment? ... So embarrassing text, enemy texts. ... If there's an Aramaic substrata"
+          },
+          "st3": {
+            "v": 1,
+            "quote": "As Paul Meyer, he's retired now, but professor of ancient history, Western Michigan University, he says, 'If an enemy of Julius Caesar says the guy's an idiot... But I'm going to tell you something. I was on the battlefield with him for 10 years, and the man is the sharpest military commander I've ever seen in my life.' That's called enemy attestation."
+          },
+          "st4": {
+            "v": 1,
+            "quote": "So embarrassing text, enemy texts. ... So Aramaic usually critics think points to the earlier strata before the Aramaic was translated into Greek. So that's good to go."
+          },
+          "st5": {
+            "v": 0,
+            "quote": ""
+          },
+          "st6": {
+            "v": 1,
+            "quote": "Almost all the historical Jesus guys use these freely."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 2,
+            "quote": "One way is the criteria. ... What about embarrassment? ... enemy texts. ... If there's an Aramaic substrata"
+          }
+        },
+        "prior_art": "John P. Meier, A Marginal Jew, 1991 (criteria of authenticity)",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "these two bodies of data, one are called the criteria, the New Testament criteria. Bartman uses them freely.",
+            "why": "Restatement of the standard criteria-of-authenticity toolkit with a Habermasian packaging."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "As Paul Meyer, he's retired now, but professor of ancient history, Western Michigan University, he says... That's called enemy attestation.",
+            "why": "Adds the Paul Meyer Julius Caesar analogy as fresh illustrative support."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain transfer beyond standard historiography."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization or model."
+          }
+        },
+        "weakest_link": "The bridge from 'criteria are widely used' to 'the resulting data are reliable' is asserted, not argued.",
+        "develop_next": "Specify a falsification test: what pattern of embarrassing/enemy/Aramaic data would defeat the criteria.",
+        "case_map": [],
+        "domain": "history"
+      },
+      {
+        "id": "G2",
+        "name": "Paul's seven undisputed epistles are authoritative",
+        "conclusion": "Paul's seven undisputed epistles are authoritative historical sources.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1: Critical scholars unanimously accept these seven as authentic.",
+          "P2: Critics consider Paul authoritative and a good source, even if not inspired.",
+          "P3: Paul was a trained scholar and first-rate philosopher.",
+          "P4: Paul would not lie or change the truth purposely."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "of the 13 books that have Paul's name on it, they will grant you the use of seven of them. Seven books because they think they're authentic."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "they don't think Paul's inspired, but they think he's authoritative. They think he's a good source."
+          },
+          "st3": {
+            "v": 1,
+            "quote": "Anthony Flu would say Jesus is a first rate ethical philosopher and Paul is a first rate philosopher."
+          },
+          "st4": {
+            "v": 1,
+            "quote": "if he's wrong, he wouldn't he wouldn't lie to you purposely. He wouldn't mis he wouldn't uh change the truth just to make a point."
+          },
+          "st5": {
+            "v": 0,
+            "quote": ""
+          },
+          "st6": {
+            "v": 1,
+            "quote": "So yes, you can cite those seven books."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 1,
+            "quote": "the man basically has a PhD in Old Testament. He's a scholar, scholar, great thinker."
+          }
+        },
+        "prior_art": "Bart Ehrman, The New Testament: A Historical Introduction (undisputed Pauline corpus)",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "of the 13 books that have Paul's name on it, they will grant you the use of seven of them.",
+            "why": "Standard critical consensus on the Hauptbriefe, repackaged apologetically."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "Anthony Flu... would say Jesus is a first rate ethical philosopher and Paul is a first rate philosopher.",
+            "why": "Uses Flew's assessment as added support."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain connection."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization."
+          }
+        },
+        "weakest_link": "P4 ('Paul would not lie') is an assumption about character, not evidence.",
+        "develop_next": "Cite independent historical grounds for Paul's truthfulness rather than his scholarly pedigree.",
+        "case_map": [],
+        "domain": "history"
+      },
+      {
+        "id": "G3",
+        "name": "Early creeds are pre-Pauline and high Christology",
+        "conclusion": "Early Christian creeds embedded in the New Testament are pre-Pauline and present a high Christology, showing Paul did not invent Christianity.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1: Creeds are early traditions Paul explicitly says he received.",
+          "P2: These creeds predate the books containing them and are pre-Pauline.",
+          "P3: About 80% focus on deity, death, and resurrection.",
+          "P4: They present a high Christology.",
+          "P5: Even skeptics date some high Christology texts to 2-3 years after the cross."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "These are extremely early. Okay, since they're pre-Pauline, Paul didn't invent Christianity as some Christians think."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "Paul says, 'I gave you that which I also received.' In Aramaic subtra, those are technical words for passing on tradition. That means these words aren't Paul's."
+          },
+          "st3": {
+            "v": 2,
+            "quote": "Bartman says, 'We have several of these high christologology texts from two to three years after the cross.'"
+          },
+          "st4": {
+            "v": 1,
+            "quote": "these couple dozen creedle texts are 80% of them are on the facts of the gospel, deity, death, resurrection of Jesus. And they present what scholars call today a high christologology."
+          },
+          "st5": {
+            "v": 1,
+            "quote": "Jimmy Dunn said, 'Yeah, I don't think he's not as conservative as the other two, but he he said, 'Yeah, I don't think Jesus makes it into the shama here.' ... You know what Bacham said to that in response? He that's a bunch of bologoney."
+          },
+          "st6": {
+            "v": 1,
+            "quote": "How early? early enough that no other religion in the world has anything like this."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 2,
+            "quote": "Bartman says, 'We have several of these high christologology texts from two to three years after the cross.' ... Richard Balkam says... 'The earliest Christologology is the highest christologology.'"
+          }
+        },
+        "prior_art": "Richard Bauckham, Jesus and the God of Israel, 2008 (earliest Christology is highest)",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "Richard Balkam says, think about this phrase, one line. ... He says, 'The earliest Christologology is the highest christologology.'",
+            "why": "Variant of Bauckham's thesis deployed as apologetic, not a new argument."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "Bartman says, 'We have several of these high christologology texts from two to three years after the cross.'",
+            "why": "Adds Ehrman's dating as hostile-witness support."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain transfer."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization."
+          }
+        },
+        "weakest_link": "P2's pre-Pauline dating is contested and rests on inference from 1 Cor 15:3 alone.",
+        "develop_next": "Produce a criterion for identifying creedal material independent of the conclusions it supports.",
+        "case_map": [
+          "K15"
+        ],
+        "domain": "history"
+      },
+      {
+        "id": "G4",
+        "name": "Six minimal facts are conceded by nearly all scholars",
+        "conclusion": "Six minimal historical facts about Jesus are conceded by about 95% of critical scholars and provide strong evidence for the resurrection.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1: Jesus died by crucifixion.",
+          "P2: Jesus was buried.",
+          "P3: Disciples had experiences they thought were appearances of the risen Jesus.",
+          "P4: The disciples were transformed and willing to die for their faith.",
+          "P5: The message was proclaimed at a very early date.",
+          "P6: Two skeptics had experiences they believed were resurrection appearances.",
+          "P7: These facts are conceded by virtually all critical scholars."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "of the six facts that I'm going to give you that are straightforward... virtually every historical every critical scholar will concede these six."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "Jesus died by crucifixion. ... Second, he was buried. ... Jesus's disciples had real experiences that they thought were appearances the risen Jesus."
+          },
+          "st3": {
+            "v": 1,
+            "quote": "If you count all the pieces of data that evidence just these six, the pieces of data number more than 100 evidences all by the year 100 AD"
+          },
+          "st4": {
+            "v": 1,
+            "quote": "these facts are enough. Critics don't go after them."
+          },
+          "st5": {
+            "v": 1,
+            "quote": "Well, Don Crossson believes Mark bait up the empty tomb and they threw Jesus's body in a pit and the dogs got him. Okay, notice I didn't distinguish, but by far the com the private burial in a tomb is by far the most common view."
+          },
+          "st6": {
+            "v": 1,
+            "quote": "I don't say I can prove all the disciples died as martyrs. I say they were willing to die."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 2,
+            "quote": "Bartman, Maurice Casey, James Crossley. ... I put the six facts out there, and he didn't dispute anything. He said, 'I'll give you all six.'"
+          }
+        },
+        "prior_art": "Gary Habermas & Michael Licona, The Case for the Resurrection of Jesus, 2004",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "I started with a longer list about 12, and then I shortened it to a shorter list, which I called the minimal or core historical facts.",
+            "why": "The minimal-facts method is Habermas's own prior work, restated here."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "I put the six facts out there, and he didn't dispute anything. He said, 'I'll give you all six.'",
+            "why": "Adds the Crossley dialogue as fresh hostile-witness concession."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain connection."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization."
+          }
+        },
+        "weakest_link": "The '95% of scholars' figure is asserted without a survey or citation.",
+        "develop_next": "Document the scholar-concession rates with a citable survey rather than anecdote.",
+        "case_map": [
+          "K16"
+        ],
+        "domain": "history"
+      },
+      {
+        "id": "G5",
+        "name": "Paul's Jerusalem visits confirm eyewitness testimony",
+        "conclusion": "Paul's visits to Jerusalem to interview Peter and James provide close access to eyewitness testimony, confirming the gospel message.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1: Paul spent 15 days with Peter and James (Galatians 1:18).",
+          "P2: 'historesai' indicates firsthand research/interviewing.",
+          "P3: Ehrman calls this one of the two strongest arguments for the historicity of Jesus.",
+          "P4: 14 years later the leaders 'added nothing' to Paul's gospel (Galatians 2:6).",
+          "P5: The gospel was consistent from the earliest eyewitnesses."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "Paul's there and he met with him. ... Probably the most important thing Paul brings to the table is he had 15 days with the eyewitnesses and he ascertained their experiences."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "He says 3 years later I went to Jerusalem. ... And he said, 'I spent 15 days with Peter and James, the brother of Jesus.'"
+          },
+          "st3": {
+            "v": 2,
+            "quote": "Bartman calls this one of the two strongest arguments for the historicity of Jesus. is that Paul goes twice to Jerusalem and there it's narrated in Galatians 1 and then again in Galatians 2."
+          },
+          "st4": {
+            "v": 1,
+            "quote": "Now you can't say because it's used for history in later sources therefore Paul meant he was playing the role of the historian. But a number of non-eangelical studies on histo conclude that what Paul is doing there is doing firsthand research."
+          },
+          "st5": {
+            "v": 0,
+            "quote": ""
+          },
+          "st6": {
+            "v": 1,
+            "quote": "Where do we get closer to eyewitness testimony anywhere in the New Testament than right here?"
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 2,
+            "quote": "Bartman calls this one of the two strongest arguments for the historicity of Jesus. ... And then he says, 'Where do we get closer to eyewitness testimony?'"
+          }
+        },
+        "prior_art": "Bart Ehrman, Did Jesus Exist?, 2012 (Galatians 1-2 as evidence)",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "Bartman calls this one of the two strongest arguments for the historicity of Jesus.",
+            "why": "Uses Ehrman's own prior argument, so largely a restatement."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "The Greek word is hysteresi. The root word is to transliterate into English h i s t o r greek word from which we get our English word history.",
+            "why": "Adds the historesai lexical point as new support."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain transfer."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization."
+          }
+        },
+        "weakest_link": "The lexical argument from historesai to 'interviewing' is admitted to be indirect and is contested.",
+        "develop_next": "Show that 15 days with Peter/James actually transmits reliable content, not just proximity.",
+        "case_map": [
+          "K16"
+        ],
+        "domain": "history"
+      },
+      {
+        "id": "G6",
+        "name": "The empty tomb is well-evidenced though not universally conceded",
+        "conclusion": "The empty tomb is probably the most evidenced fact for the resurrection, though only about 75% of scholars concede it.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1: The empty tomb has more evidence in its favor than any other fact.",
+          "P2: About 75% of scholars concede it, versus 95% for the six minimal facts.",
+          "P3: Even if the burial was in a pit, the argument holds because the body would need to be raised.",
+          "P4: No critic has seriously held the 'stolen body' theory for over 200 years."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "the empty tomb, by the way, is probably the most evidenced of the facts if I don't count it as one of my uh six because it meets makes the first grade, but it's not conceded by 95% of scholars. Probably 75% conceded."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "If you robbed the grave and stole the body, can't be the disciples because they were willing to die for it. It would be too silly for them to forget they stole the body just a little bit beforehand."
+          },
+          "st3": {
+            "v": 1,
+            "quote": "By the way, no critic has said this for over 200 years. They make suggestions, but to say they hold it, they don't want you to nail them with that."
+          },
+          "st4": {
+            "v": 1,
+            "quote": "But I'm saying here anywhere he's buried it makes no difference. My point still holds. And here's my point. If you robbed the grave and stole the body, can't be the disciples..."
+          },
+          "st5": {
+            "v": 1,
+            "quote": "Well, Don Crossson believes Mark bait up the empty tomb and they threw Jesus's body in a pit and the dogs got him."
+          },
+          "st6": {
+            "v": 1,
+            "quote": "Probably 75% conceded."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 1,
+            "quote": "The empty tomb has more evidence in its favor than any other fact."
+          }
+        },
+        "prior_art": "William Lane Craig, Assessing the New Testament Evidence for the Historicity of the Resurrection, 1989",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "the empty tomb, by the way, is probably the most evidenced of the facts",
+            "why": "Standard empty-tomb argument, restated with a concession-rate framing."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "Probably 75% conceded.",
+            "why": "Adds the scholar-concession statistic as new packaging."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain transfer."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization."
+          }
+        },
+        "weakest_link": "P1 ('more evidence than any other fact') is asserted without enumerating the evidence.",
+        "develop_next": "Enumerate the specific evidences and show each is multiply attested.",
+        "case_map": [
+          "K16"
+        ],
+        "domain": "history"
+      }
+    ]
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "grade_b_1",
+      "attempt": 1,
+      "text": "{\"arguments\": [\n {\"id\": \"G1\", \"name\": \"New Testament criteria establish reliable historical data\", \"conclusion\": \"The New Testament criteria (eyewitness, early, embarrassment, enemy attestation, Aramaic substrata) provide reliable historical data for Christianity.\", \"speaker\": \"Gary Habermas\", \"premises\": [\"P1: The criteria are used freely by almost all historical Jesus scholars, including skeptics like Bart Ehrman.\", \"P2: These criteria test whether texts are early, eyewitness, embarrassing, or attested by enemies.\", \"P3: Embarrassing passages would not be invented by Christians.\", \"P4: Enemy attestation strengthens historical reliability.\", \"P5: Aramaic substrata point to earlier strata before translation into Greek.\"], \"strength\": {\"st1\": {\"v\": 2, \"quote\": \"there's two sets of data that you may or may not be familiar with, but they're pretty recent kinds of data, and they persuaded a lot of people today that there's good evidence for Christianity. Now, these two bodies of data, one are called the criteria, the New Testament criteria.\"}, \"st2\": {\"v\": 2, \"quote\": \"Is the text written by an eyewitness? ... Is it early? ... What about embarrassment? ... So embarrassing text, enemy texts. ... If there's an Aramaic substrata\"}, \"st3\": {\"v\": 1, \"quote\": \"As Paul Meyer, he's retired now, but professor of ancient history, Western Michigan University, he says, 'If an enemy of Julius Caesar says the guy's an idiot... But I'm going to tell you something. I was on the battlefield with him for 10 years, and the man is the sharpest military commander I've ever seen in my life.' That's called enemy attestation.\"}, \"st4\": {\"v\": 1, \"quote\": \"So embarrassing text, enemy texts. ... So Aramaic usually critics think points to the earlier strata before the Aramaic was translated into Greek. So that's good to go.\"}, \"st5\": {\"v\": 0, \"quote\": \"\"}, \"st6\": {\"v\": 1, \"quote\": \"Almost all the historical Jesus guys use these freely.\"}, \"st7\": {\"v\": 0, \"quote\": \"\"}, \"st8\": {\"v\": 2, \"quote\": \"One way is the criteria. ... What about embarrassment? ... enemy texts. ... If there's an Aramaic substrata\"}}, \"prior_art\": \"John P. Meier, A Marginal Jew, 1991 (criteria of authenticity)\", \"originality\": {\"or1\": {\"v\": 1, \"quote\": \"these two bodies of data, one are called the criteria, the New Testament criteria. Bartman uses them freely.\", \"why\": \"Restatement of the standard criteria-of-authenticity toolkit with a Habermasian packaging.\"}, \"or2\": {\"v\": 1, \"quote\": \"As Paul Meyer, he's retired now, but professor of ancient history, Western Michigan University, he says... That's called enemy attestation.\", \"why\": \"Adds the Paul Meyer Julius Caesar analogy as fresh illustrative support.\"}, \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain transfer beyond standard historiography.\"}, \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization or model.\"}}, \"weakest_link\": \"The bridge from 'criteria are widely used' to 'the resulting data are reliable' is asserted, not argued.\", \"develop_next\": \"Specify a falsification test: what pattern of embarrassing/enemy/Aramaic data would defeat the criteria.\", \"case_map\": [], \"domain\": \"history\"},\n {\"id\": \"G2\", \"name\": \"Paul's seven undisputed epistles are authoritative\", \"conclusion\": \"Paul's seven undisputed epistles are authoritative historical sources.\", \"speaker\": \"Gary Habermas\", \"premises\": [\"P1: Critical scholars unanimously accept these seven as authentic.\", \"P2: Critics consider Paul authoritative and a good source, even if not inspired.\", \"P3: Paul was a trained scholar and first-rate philosopher.\", \"P4: Paul would not lie or change the truth purposely.\"], \"strength\": {\"st1\": {\"v\": 2, \"quote\": \"of the 13 books that have Paul's name on it, they will grant you the use of seven of them. Seven books because they think they're authentic.\"}, \"st2\": {\"v\": 2, \"quote\": \"they don't think Paul's inspired, but they think he's authoritative. They think he's a good source.\"}, \"st3\": {\"v\": 1, \"quote\": \"Anthony Flu would say Jesus is a first rate ethical philosopher and Paul is a first rate philosopher.\"}, \"st4\": {\"v\": 1, \"quote\": \"if he's wrong, he wouldn't he wouldn't lie to you purposely. He wouldn't mis he wouldn't uh change the truth just to make a point.\"}, \"st5\": {\"v\": 0, \"quote\": \"\"}, \"st6\": {\"v\": 1, \"quote\": \"So yes, you can cite those seven books.\"}, \"st7\": {\"v\": 0, \"quote\": \"\"}, \"st8\": {\"v\": 1, \"quote\": \"the man basically has a PhD in Old Testament. He's a scholar, scholar, great thinker.\"}}, \"prior_art\": \"Bart Ehrman, The New Testament: A Historical Introduction (undisputed Pauline corpus)\", \"originality\": {\"or1\": {\"v\": 1, \"quote\": \"of the 13 books that have Paul's name on it, they will grant you the use of seven of them.\", \"why\": \"Standard critical consensus on the Hauptbriefe, repackaged apologetically.\"}, \"or2\": {\"v\": 1, \"quote\": \"Anthony Flu... would say Jesus is a first rate ethical philosopher and Paul is a first rate philosopher.\", \"why\": \"Uses Flew's assessment as added support.\"}, \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain connection.\"}, \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization.\"}}, \"weakest_link\": \"P4 ('Paul would not lie') is an assumption about character, not evidence.\", \"develop_next\": \"Cite independent historical grounds for Paul's truthfulness rather than his scholarly pedigree.\", \"case_map\": [], \"domain\": \"history\"},\n {\"id\": \"G3\", \"name\": \"Early creeds are pre-Pauline and high Christology\", \"conclusion\": \"Early Christian creeds embedded in the New Testament are pre-Pauline and present a high Christology, showing Paul did not invent Christianity.\", \"speaker\": \"Gary Habermas\", \"premises\": [\"P1: Creeds are early traditions Paul explicitly says he received.\", \"P2: These creeds predate the books containing them and are pre-Pauline.\", \"P3: About 80% focus on deity, death, and resurrection.\", \"P4: They present a high Christology.\", \"P5: Even skeptics date some high Christology texts to 2-3 years after the cross.\"], \"strength\": {\"st1\": {\"v\": 2, \"quote\": \"These are extremely early. Okay, since they're pre-Pauline, Paul didn't invent Christianity as some Christians think.\"}, \"st2\": {\"v\": 2, \"quote\": \"Paul says, 'I gave you that which I also received.' In Aramaic subtra, those are technical words for passing on tradition. That means these words aren't Paul's.\"}, \"st3\": {\"v\": 2, \"quote\": \"Bartman says, 'We have several of these high christologology texts from two to three years after the cross.'\"}, \"st4\": {\"v\": 1, \"quote\": \"these couple dozen creedle texts are 80% of them are on the facts of the gospel, deity, death, resurrection of Jesus. And they present what scholars call today a high christologology.\"}, \"st5\": {\"v\": 1, \"quote\": \"Jimmy Dunn said, 'Yeah, I don't think he's not as conservative as the other two, but he he said, 'Yeah, I don't think Jesus makes it into the shama here.' ... You know what Bacham said to that in response? He that's a bunch of bologoney.\"}, \"st6\": {\"v\": 1, \"quote\": \"How early? early enough that no other religion in the world has anything like this.\"}, \"st7\": {\"v\": 0, \"quote\": \"\"}, \"st8\": {\"v\": 2, \"quote\": \"Bartman says, 'We have several of these high christologology texts from two to three years after the cross.' ... Richard Balkam says... 'The earliest Christologology is the highest christologology.'\"}}, \"prior_art\": \"Richard Bauckham, Jesus and the God of Israel, 2008 (earliest Christology is highest)\", \"originality\": {\"or1\": {\"v\": 1, \"quote\": \"Richard Balkam says, think about this phrase, one line. ... He says, 'The earliest Christologology is the highest christologology.'\", \"why\": \"Variant of Bauckham's thesis deployed as apologetic, not a new argument.\"}, \"or2\": {\"v\": 1, \"quote\": \"Bartman says, 'We have several of these high christologology texts from two to three years after the cross.'\", \"why\": \"Adds Ehrman's dating as hostile-witness support.\"}, \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain transfer.\"}, \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization.\"}}, \"weakest_link\": \"P2's pre-Pauline dating is contested and rests on inference from 1 Cor 15:3 alone.\", \"develop_next\": \"Produce a criterion for identifying creedal material independent of the conclusions it supports.\", \"case_map\": [\"K15\"], \"domain\": \"history\"},\n {\"id\": \"G4\", \"name\": \"Six minimal facts are conceded by nearly all scholars\", \"conclusion\": \"Six minimal historical facts about Jesus are conceded by about 95% of critical scholars and provide strong evidence for the resurrection.\", \"speaker\": \"Gary Habermas\", \"premises\": [\"P1: Jesus died by crucifixion.\", \"P2: Jesus was buried.\", \"P3: Disciples had experiences they thought were appearances of the risen Jesus.\", \"P4: The disciples were transformed and willing to die for their faith.\", \"P5: The message was proclaimed at a very early date.\", \"P6: Two skeptics had experiences they believed were resurrection appearances.\", \"P7: These facts are conceded by virtually all critical scholars.\"], \"strength\": {\"st1\": {\"v\": 2, \"quote\": \"of the six facts that I'm going to give you that are straightforward... virtually every historical every critical scholar will concede these six.\"}, \"st2\": {\"v\": 2, \"quote\": \"Jesus died by crucifixion. ... Second, he was buried. ... Jesus's disciples had real experiences that they thought were appearances the risen Jesus.\"}, \"st3\": {\"v\": 1, \"quote\": \"If you count all the pieces of data that evidence just these six, the pieces of data number more than 100 evidences all by the year 100 AD\"}, \"st4\": {\"v\": 1, \"quote\": \"these facts are enough. Critics don't go after them.\"}, \"st5\": {\"v\": 1, \"quote\": \"Well, Don Crossson believes Mark bait up the empty tomb and they threw Jesus's body in a pit and the dogs got him. Okay, notice I didn't distinguish, but by far the com the private burial in a tomb is by far the most common view.\"}, \"st6\": {\"v\": 1, \"quote\": \"I don't say I can prove all the disciples died as martyrs. I say they were willing to die.\"}, \"st7\": {\"v\": 0, \"quote\": \"\"}, \"st8\": {\"v\": 2, \"quote\": \"Bartman, Maurice Casey, James Crossley. ... I put the six facts out there, and he didn't dispute anything. He said, 'I'll give you all six.'\"}}, \"prior_art\": \"Gary Habermas & Michael Licona, The Case for the Resurrection of Jesus, 2004\", \"originality\": {\"or1\": {\"v\": 1, \"quote\": \"I started with a longer list about 12, and then I shortened it to a shorter list, which I called the minimal or core historical facts.\", \"why\": \"The minimal-facts method is Habermas's own prior work, restated here.\"}, \"or2\": {\"v\": 1, \"quote\": \"I put the six facts out there, and he didn't dispute anything. He said, 'I'll give you all six.'\", \"why\": \"Adds the Crossley dialogue as fresh hostile-witness concession.\"}, \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain connection.\"}, \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization.\"}}, \"weakest_link\": \"The '95% of scholars' figure is asserted without a survey or citation.\", \"develop_next\": \"Document the scholar-concession rates with a citable survey rather than anecdote.\", \"case_map\": [\"K16\"], \"domain\": \"history\"},\n {\"id\": \"G5\", \"name\": \"Paul's Jerusalem visits confirm eyewitness testimony\", \"conclusion\": \"Paul's visits to Jerusalem to interview Peter and James provide close access to eyewitness testimony, confirming the gospel message.\", \"speaker\": \"Gary Habermas\", \"premises\": [\"P1: Paul spent 15 days with Peter and James (Galatians 1:18).\", \"P2: 'historesai' indicates firsthand research/interviewing.\", \"P3: Ehrman calls this one of the two strongest arguments for the historicity of Jesus.\", \"P4: 14 years later the leaders 'added nothing' to Paul's gospel (Galatians 2:6).\", \"P5: The gospel was consistent from the earliest eyewitnesses.\"], \"strength\": {\"st1\": {\"v\": 2, \"quote\": \"Paul's there and he met with him. ... Probably the most important thing Paul brings to the table is he had 15 days with the eyewitnesses and he ascertained their experiences.\"}, \"st2\": {\"v\": 2, \"quote\": \"He says 3 years later I went to Jerusalem. ... And he said, 'I spent 15 days with Peter and James, the brother of Jesus.'\"}, \"st3\": {\"v\": 2, \"quote\": \"Bartman calls this one of the two strongest arguments for the historicity of Jesus. is that Paul goes twice to Jerusalem and there it's narrated in Galatians 1 and then again in Galatians 2.\"}, \"st4\": {\"v\": 1, \"quote\": \"Now you can't say because it's used for history in later sources therefore Paul meant he was playing the role of the historian. But a number of non-eangelical studies on histo conclude that what Paul is doing there is doing firsthand research.\"}, \"st5\": {\"v\": 0, \"quote\": \"\"}, \"st6\": {\"v\": 1, \"quote\": \"Where do we get closer to eyewitness testimony anywhere in the New Testament than right here?\"}, \"st7\": {\"v\": 0, \"quote\": \"\"}, \"st8\": {\"v\": 2, \"quote\": \"Bartman calls this one of the two strongest arguments for the historicity of Jesus. ... And then he says, 'Where do we get closer to eyewitness testimony?'\"}}, \"prior_art\": \"Bart Ehrman, Did Jesus Exist?, 2012 (Galatians 1-2 as evidence)\", \"originality\": {\"or1\": {\"v\": 1, \"quote\": \"Bartman calls this one of the two strongest arguments for the historicity of Jesus.\", \"why\": \"Uses Ehrman's own prior argument, so largely a restatement.\"}, \"or2\": {\"v\": 1, \"quote\": \"The Greek word is hysteresi. The root word is to transliterate into English h i s t o r greek word from which we get our English word history.\", \"why\": \"Adds the historesai lexical point as new support.\"}, \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain transfer.\"}, \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization.\"}}, \"weakest_link\": \"The lexical argument from historesai to 'interviewing' is admitted to be indirect and is contested.\", \"develop_next\": \"Show that 15 days with Peter/James actually transmits reliable content, not just proximity.\", \"case_map\": [\"K16\"], \"domain\": \"history\"},\n {\"id\": \"G6\", \"name\": \"The empty tomb is well-evidenced though not universally conceded\", \"conclusion\": \"The empty tomb is probably the most evidenced fact for the resurrection, though only about 75% of scholars concede it.\", \"speaker\": \"Gary Habermas\", \"premises\": [\"P1: The empty tomb has more evidence in its favor than any other fact.\", \"P2: About 75% of scholars concede it, versus 95% for the six minimal facts.\", \"P3: Even if the burial was in a pit, the argument holds because the body would need to be raised.\", \"P4: No critic has seriously held the 'stolen body' theory for over 200 years.\"], \"strength\": {\"st1\": {\"v\": 2, \"quote\": \"the empty tomb, by the way, is probably the most evidenced of the facts if I don't count it as one of my uh six because it meets makes the first grade, but it's not conceded by 95% of scholars. Probably 75% conceded.\"}, \"st2\": {\"v\": 2, \"quote\": \"If you robbed the grave and stole the body, can't be the disciples because they were willing to die for it. It would be too silly for them to forget they stole the body just a little bit beforehand.\"}, \"st3\": {\"v\": 1, \"quote\": \"By the way, no critic has said this for over 200 years. They make suggestions, but to say they hold it, they don't want you to nail them with that.\"}, \"st4\": {\"v\": 1, \"quote\": \"But I'm saying here anywhere he's buried it makes no difference. My point still holds. And here's my point. If you robbed the grave and stole the body, can't be the disciples...\"}, \"st5\": {\"v\": 1, \"quote\": \"Well, Don Crossson believes Mark bait up the empty tomb and they threw Jesus's body in a pit and the dogs got him.\"}, \"st6\": {\"v\": 1, \"quote\": \"Probably 75% conceded.\"}, \"st7\": {\"v\": 0, \"quote\": \"\"}, \"st8\": {\"v\": 1, \"quote\": \"The empty tomb has more evidence in its favor than any other fact.\"}}, \"prior_art\": \"William Lane Craig, Assessing the New Testament Evidence for the Historicity of the Resurrection, 1989\", \"originality\": {\"or1\": {\"v\": 1, \"quote\": \"the empty tomb, by the way, is probably the most evidenced of the facts\", \"why\": \"Standard empty-tomb argument, restated with a concession-rate framing.\"}, \"or2\": {\"v\": 1, \"quote\": \"Probably 75% conceded.\", \"why\": \"Adds the scholar-concession statistic as new packaging.\"}, \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain transfer.\"}, \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization.\"}}, \"weakest_link\": \"P1 ('more evidence than any other fact') is asserted without enumerating the evidence.\", \"develop_next\": \"Enumerate the specific evidences and show each is multiply attested.\", \"case_map\": [\"K16\"], \"domain\": \"history\"}\n]}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 15034,
+      "completion_tokens": 4468,
+      "attempts": 1,
+      "elapsed_seconds": 15.968999999997322,
+      "started_at": "2026-09-27T19:39:04.823886+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T19:39:20.790318+00:00",
+      "tokens": 19502
+    }
+  ],
+  "prompt_sha256": "206e09540e67a4942d52a927fe5dc4e39608df02ec3a338f57ab616eb1a5d6c6",
+  "tokens": 19502
+}

@@ -1,0 +1,480 @@
+{
+  "name": "grade_b_1",
+  "parsed": {
+    "arguments": [
+      {
+        "id": "G1",
+        "name": "Minimal facts consensus is not merely Christian bias",
+        "conclusion": "The scholarly consensus on the minimal facts for the resurrection is not undermined by the fact that many scholars who accept them are Christians, because non-Christian and skeptical scholars also accept them.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1: The Jesus Seminar, which dedicated its work to skeptics like David Hume and Thomas Jefferson and praised David Strauss, still admits many of the minimal facts.",
+          "P2: James D. G. Dunn, who held a non-orthodox christological view, can be found affirming the six facts repeatedly.",
+          "P3: Antony Flew, the world's best-known philosophical atheist at the time, accepted all twelve facts in a debate with Habermas.",
+          "P4: If Christian bias were the explanation, the empty tomb would be a minimal fact, but many Christians deny it because they follow the data."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "One of the number one objections, not just to you, but to to anytime a minimal facts approach is brought up, it's it's an objection I've always heard is that they'll say, \"Sure, you've got the scholarly consensus, but take a look at the Society of Biblical Literature or, you know, the EPS or something."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "And the two volumes the two major volumes put up by the Jesus Seminar. Now, I'm not going to argue whether they are Christians or not Christians, but when they de- uh devote their book to people like David Hume, Thomas Jefferson"
+          },
+          "st3": {
+            "v": 1,
+            "quote": "I can find my six facts over and over and over and over and over in James D. G. Dunn."
+          },
+          "st4": {
+            "v": 1,
+            "quote": "So, if anything, I think I'm prejudiced, Dale."
+          },
+          "st5": {
+            "v": 1,
+            "quote": "Oh, isn't he your fellow professor at Liberty University? I mean, you know, they'll try to they'll try to squeeze anything to anything"
+          },
+          "st6": {
+            "v": 1,
+            "quote": "So, they'll just say, \"Well, that's a bi- it's a bias in that the sample no one uh Christians are going to agree with your minimal facts to begin with."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 2,
+            "quote": "Tony Flew as far as I know when he was an atheist had no problems with the minimal facts. In fact, we started one of the three debates."
+          }
+        },
+        "prior_art": "Gary Habermas, The Historical Jesus (1996) and minimal facts literature",
+        "originality": {
+          "or1": {
+            "v": 0,
+            "quote": "One of the number one objections, not just to you, but to to anytime a minimal facts approach is brought up, it's it's an objection I've always heard",
+            "why": "This is Habermas restating his own long-standing defense of the minimal facts method."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "I can find my six facts over and over and over and over and over in James D. G. Dunn.",
+            "why": "Adds named non-conservative exemplars but no new data."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain connection."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formal structure added."
+          }
+        },
+        "weakest_link": "P3: Flew's acceptance of 12 facts is asserted without a citable source in the transcript.",
+        "develop_next": "Provide exact citations and dates for each skeptic's acceptance of the facts.",
+        "case_map": [
+          "K15",
+          "F4"
+        ],
+        "domain": "history"
+      },
+      {
+        "id": "G2",
+        "name": "Even radical critics like Bultmann support early sources",
+        "conclusion": "Even Rudolf Bultmann, a very liberal scholar, affirms key historical data such as a pre-Markan passion narrative and early Jerusalem church sayings, which strengthens the case for the minimal facts.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1: Bultmann is listed among critical scholars who accept a pre-Markan passion narrative that may predate AD 37.",
+          "P2: Bultmann says the early sayings go back to the very earliest Jerusalem church.",
+          "P3: In his 1941 essay, Bultmann states that the earliest disciples preached that Jesus was raised from the dead.",
+          "P4: Bultmann is to the left of Bart Ehrman and does not like historical backup for faith, yet he still concedes these points."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "Bultmann's name is in that list, and he doesn't accept a whole lot of the verses, but he says there was a Markan pre-Markan narrative, and he only uses a few verses."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "He says, \"These early sayings go back to the very earliest Jerusalem church.\""
+          },
+          "st3": {
+            "v": 2,
+            "quote": "Also, in his 1941 essay, uh New Testament Mythology, the very famous thing that got rolling toward demythologization, uh Bultmann says, \"What can we say about the um aftermath of the cross?\""
+          },
+          "st4": {
+            "v": 1,
+            "quote": "If Mark is that much about the uh from the trial on, if Mark is that much how powerful would be a source from the 30s be that he borrowed from?"
+          },
+          "st5": {
+            "v": 0,
+            "quote": ""
+          },
+          "st6": {
+            "v": 1,
+            "quote": "That doesn't mean it's the 50s. That doesn't mean it's the 90s, and that's and that's Bultmann."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 1,
+            "quote": "In the back, he's reproduced Soards' essay on the pre-Markan passion narrative."
+          }
+        },
+        "prior_art": "Rudolf Bultmann, New Testament Mythology, 1941; Soards essay on pre-Markan passion narrative",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "Bultmann's name is in that list, and he doesn't accept a whole lot of the verses, but he says there was a Markan pre-Markan narrative",
+            "why": "Uses Bultmann as a hostile witness, a variant on standard minimal-facts argumentation."
+          },
+          "or2": {
+            "v": 2,
+            "quote": "Also, in his 1941 essay, uh New Testament Mythology, the very famous thing that got rolling toward demythologization, uh Bultmann says, \"What can we say about the um aftermath of the cross?\""
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain connection."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formal structure added."
+          }
+        },
+        "weakest_link": "The inference that Bultmann's concessions strengthen the minimal facts rather than merely his source criticism.",
+        "develop_next": "Quote Bultmann's exact sentences with page numbers to show the concession is unambiguous.",
+        "case_map": [
+          "K15",
+          "F4"
+        ],
+        "domain": "history"
+      },
+      {
+        "id": "G3",
+        "name": "Christian scholars debate the evidence, not just assume resurrection",
+        "conclusion": "The fact that many scholars are Christians does not mean they simply assume the resurrection; they debate the evidence and reach conclusions based on data.",
+        "speaker": "Bill (co-host)",
+        "premises": [
+          "P1: If Christian bias determined conclusions, the empty tomb would be a minimal fact, but many Christians deny it.",
+          "P2: The quotes in Habermas's volumes show scholars debating the evidence rather than merely asserting Christian beliefs.",
+          "P3: The strong consensus on the six minimal facts stems from the strength of the data, not from shared faith."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "This easy assumption that Oh, well, just because they were Christian, that means they're just going to biasly accept them in all facts."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "Because if if that was true, then the empty tomb would be a minimal fact."
+          },
+          "st3": {
+            "v": 1,
+            "quote": "So, just because someone's a Christian and maybe oh, okay, they already believe in the resurrection. That alone says nothing about their conclusions about the minimal facts because you can see from the quotes in there, they're debating the evidence."
+          },
+          "st4": {
+            "v": 1,
+            "quote": "It's because even though they're Christians, they're basing their conclusions on the data."
+          },
+          "st5": {
+            "v": 1,
+            "quote": "So, they'll just say, \"Well, that's a bi- it's a bias in that the sample no one uh Christians are going to agree with your minimal facts to begin with."
+          },
+          "st6": {
+            "v": 1,
+            "quote": "And the data is so strong in the case of your six minimal facts, that's why there is that strong consensus."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 1,
+            "quote": "And the data is so strong in the case of your six minimal facts, that's why there is that strong consensus."
+          }
+        },
+        "prior_art": "Gary Habermas, minimal facts method literature",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "This easy assumption that Oh, well, just because they were Christian, that means they're just going to biasly accept them in all facts.",
+            "why": "A variant of the standard bias reply, voiced by the co-host."
+          },
+          "or2": {
+            "v": 0,
+            "quote": "",
+            "why": "No new evidence beyond Habermas's volumes."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain connection."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formal structure added."
+          }
+        },
+        "weakest_link": "P1: the empty tomb's exclusion is asserted without documenting which Christians deny it.",
+        "develop_next": "List specific Christian scholars who deny the empty tomb and cite them.",
+        "case_map": [
+          "K15",
+          "F4"
+        ],
+        "domain": "history"
+      },
+      {
+        "id": "G4",
+        "name": "Bultmann himself calls resurrection a myth",
+        "conclusion": "Bultmann explicitly dismisses the resurrection as a myth, showing that even a scholar who accepts some historical data rejects the resurrection itself.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1: In his 1941 essay, Bultmann begins a section on the resurrection by asking, 'Is it not a myth pure and simple?'",
+          "P2: Bultmann does not weigh pros and cons; he already treats it as a myth that did not happen."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "And what about the resurrection? {question mark} Is it not a myth pure and simple? {question mark} And then he doesn't say, well, let's do the pros and cons."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "No, he's done with it. He's already said it's a myth. It didn't happen."
+          },
+          "st3": {
+            "v": 2,
+            "quote": "By the way, here's here's Bultmann's quote. It is 1941 essay."
+          },
+          "st4": {
+            "v": 1,
+            "quote": "And then he doesn't say, well, let's do the pros and cons. No, he's done with it."
+          },
+          "st5": {
+            "v": 0,
+            "quote": ""
+          },
+          "st6": {
+            "v": 1,
+            "quote": "He's already said it's a myth. It didn't happen."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 0,
+            "quote": ""
+          }
+        },
+        "prior_art": "Rudolf Bultmann, New Testament Mythology, 1941",
+        "originality": {
+          "or1": {
+            "v": 0,
+            "quote": "By the way, here's here's Bultmann's quote. It is 1941 essay.",
+            "why": "Simply quotes Bultmann's known position."
+          },
+          "or2": {
+            "v": 0,
+            "quote": "",
+            "why": "No new evidence."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain connection."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formal structure added."
+          }
+        },
+        "weakest_link": "The rhetorical quote does not establish that Bultmann's myth judgment is wrong or irrelevant.",
+        "develop_next": "Explain why Bultmann's myth verdict should not undercut his historical concessions.",
+        "case_map": [
+          "K15",
+          "F4"
+        ],
+        "domain": "history"
+      },
+      {
+        "id": "G5",
+        "name": "Scholarly consensus should target informed scholars who publish",
+        "conclusion": "A scholarly consensus argument should focus on scholars who have published in the field of resurrection research because they have informed opinions, not on all PhDs regardless of expertise.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1: Scholars like Bethany Hughes have a PhD in history but have never published on resurrection research, so their opinion is uninformed.",
+          "P2: We want people who have actually studied the resurrection research and published an opinion.",
+          "P3: Habermas defines a critical scholar as one with a terminal degree who has worked in a relevant area such as New Testament, Old Testament, history, philosophy, archaeology, or world religions.",
+          "P4: He allows exceptions for people without terminal degrees who know the data, such as G. A. Wells, but generally requires publication or public scholarly engagement."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "One thing is that now, that criterion, that doesn't help me oh, you're doing that to avoid uh and then some made-up thing you don't want these guys involved."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "But when I say I I say a critical scholar ha- it I this is defined in volume one in particular has the following uh characteristics. They have a terminal degree."
+          },
+          "st3": {
+            "v": 1,
+            "quote": "Um G. A. Wells, I introduce I have this stuff all over the book. G. A. Wells, yeah, he had a PhD in German. I I I wouldn't call that in somebody in a field, but I cite him cuz he knows how to do research."
+          },
+          "st4": {
+            "v": 1,
+            "quote": "So, if you work in the field, and I think the Old Testament guys make it because they do genre, they do genre studies and so on in that area with the tools."
+          },
+          "st5": {
+            "v": 1,
+            "quote": "So, so some I've seen some skeptics say, well, how can you make a scholarly consensus argument if you're not interviewing all scholars, only the subset who publish in the literature."
+          },
+          "st6": {
+            "v": 1,
+            "quote": "I can only take people who have published on things or maybe have done, you know, an interview for the History Channel or they've done an interview that I can follow because how do I know your view?"
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 1,
+            "quote": "I hardly have a problem, Dale, with anybody in that book or I probably wouldn't have put them there."
+          }
+        },
+        "prior_art": "Gary Habermas, The Historical Jesus (1996) and his four-volume minimal facts series",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "But when I say I I say a critical scholar ha- it I this is defined in volume one in particular has the following uh characteristics.",
+            "why": "A methodological variant on his published criteria, clarified in conversation."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "Um G. A. Wells, I introduce I have this stuff all over the book. G. A. Wells, yeah, he had a PhD in German.",
+            "why": "Adds the specific Wells exception as illustration."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain connection."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formal structure added."
+          }
+        },
+        "weakest_link": "The exception policy (Wells, 19th-century Germans) risks making the criteria ad hoc.",
+        "develop_next": "State a single, exception-free inclusion rule and apply it consistently.",
+        "case_map": [
+          "K15",
+          "F4"
+        ],
+        "domain": "history"
+      },
+      {
+        "id": "G6",
+        "name": "Habermas is deliberately lenient toward liberal scholars",
+        "conclusion": "Habermas's selection criteria are biased in favor of liberal scholars, not conservative ones, because he wants to include critics and give everyone a fair shot.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1: He states at the beginning of his book that he is slanted toward liberal scholars.",
+          "P2: He includes scholars like Bultmann who are far to the left and not conservative in almost anything.",
+          "P3: He makes allowances for people who do not meet his criteria, such as 19th-century German philosophers without terminal degrees, because they are well-known for certain views.",
+          "P4: Critics who question his fairness are not reading the data carefully."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "However, I do say this at the beginning of the book. I do say I am slanted toward liberal scholars."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "I really do think I I'm more lenient with liberals than I am with conservatives because I want to put people in there who don't have all the training, but I want to be honest giving everybody a shot."
+          },
+          "st3": {
+            "v": 1,
+            "quote": "A number of the naturalistic theories I give in volume two. A number of the naturalistic theories are guys that don't qualify by my criteria, but they're well very well known by certain for certain views here."
+          },
+          "st4": {
+            "v": 1,
+            "quote": "I'm more lenient with liberals than I am with conservatives because I want to put people in there who don't have all the training, but I want to be honest giving everybody a shot."
+          },
+          "st5": {
+            "v": 1,
+            "quote": "And people who question me on that, they're they're not being fair with reading through the data."
+          },
+          "st6": {
+            "v": 1,
+            "quote": "I really do think I I'm more lenient with liberals than I am with conservatives because I want to put people in there who don't have all the training, but I want to be honest giving everybody a shot."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 1,
+            "quote": "I quote Rudolf Bultmann a lot in my four volumes."
+          }
+        },
+        "prior_art": "Gary Habermas, preface to his four-volume minimal facts series",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "However, I do say this at the beginning of the book. I do say I am slanted toward liberal scholars.",
+            "why": "A self-defense variant of his published methodological preface."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "I quote Rudolf Bultmann a lot in my four volumes.",
+            "why": "Cites his own volumes as evidence of liberal inclusion."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain connection."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formal structure added."
+          }
+        },
+        "weakest_link": "P4: dismissing critics as not reading carefully is an ad hominem rather than a check on bias.",
+        "develop_next": "Publish the full inclusion list with liberal/conservative labels so the claim can be audited.",
+        "case_map": [
+          "K15",
+          "F4"
+        ],
+        "domain": "history"
+      }
+    ]
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "grade_b_1",
+      "attempt": 1,
+      "text": "{\"arguments\": [\n {\"id\": \"G1\", \"name\": \"Minimal facts consensus is not merely Christian bias\", \"conclusion\": \"The scholarly consensus on the minimal facts for the resurrection is not undermined by the fact that many scholars who accept them are Christians, because non-Christian and skeptical scholars also accept them.\", \"speaker\": \"Gary Habermas\", \"premises\": [\"P1: The Jesus Seminar, which dedicated its work to skeptics like David Hume and Thomas Jefferson and praised David Strauss, still admits many of the minimal facts.\", \"P2: James D. G. Dunn, who held a non-orthodox christological view, can be found affirming the six facts repeatedly.\", \"P3: Antony Flew, the world's best-known philosophical atheist at the time, accepted all twelve facts in a debate with Habermas.\", \"P4: If Christian bias were the explanation, the empty tomb would be a minimal fact, but many Christians deny it because they follow the data.\"], \"strength\": {\"st1\": {\"v\": 2, \"quote\": \"One of the number one objections, not just to you, but to to anytime a minimal facts approach is brought up, it's it's an objection I've always heard is that they'll say, \\\"Sure, you've got the scholarly consensus, but take a look at the Society of Biblical Literature or, you know, the EPS or something.\"}, \"st2\": {\"v\": 2, \"quote\": \"And the two volumes the two major volumes put up by the Jesus Seminar. Now, I'm not going to argue whether they are Christians or not Christians, but when they de- uh devote their book to people like David Hume, Thomas Jefferson\"}, \"st3\": {\"v\": 1, \"quote\": \"I can find my six facts over and over and over and over and over in James D. G. Dunn.\"}, \"st4\": {\"v\": 1, \"quote\": \"So, if anything, I think I'm prejudiced, Dale.\"}, \"st5\": {\"v\": 1, \"quote\": \"Oh, isn't he your fellow professor at Liberty University? I mean, you know, they'll try to they'll try to squeeze anything to anything\"}, \"st6\": {\"v\": 1, \"quote\": \"So, they'll just say, \\\"Well, that's a bi- it's a bias in that the sample no one uh Christians are going to agree with your minimal facts to begin with.\"}, \"st7\": {\"v\": 0, \"quote\": \"\"}, \"st8\": {\"v\": 2, \"quote\": \"Tony Flew as far as I know when he was an atheist had no problems with the minimal facts. In fact, we started one of the three debates.\"}}, \"prior_art\": \"Gary Habermas, The Historical Jesus (1996) and minimal facts literature\", \"originality\": {\"or1\": {\"v\": 0, \"quote\": \"One of the number one objections, not just to you, but to to anytime a minimal facts approach is brought up, it's it's an objection I've always heard\", \"why\": \"This is Habermas restating his own long-standing defense of the minimal facts method.\"}, \"or2\": {\"v\": 1, \"quote\": \"I can find my six facts over and over and over and over and over in James D. G. Dunn.\", \"why\": \"Adds named non-conservative exemplars but no new data.\"}, \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain connection.\"}, \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formal structure added.\"}}, \"weakest_link\": \"P3: Flew's acceptance of 12 facts is asserted without a citable source in the transcript.\", \"develop_next\": \"Provide exact citations and dates for each skeptic's acceptance of the facts.\", \"case_map\": [\"K15\", \"F4\"], \"domain\": \"history\"},\n {\"id\": \"G2\", \"name\": \"Even radical critics like Bultmann support early sources\", \"conclusion\": \"Even Rudolf Bultmann, a very liberal scholar, affirms key historical data such as a pre-Markan passion narrative and early Jerusalem church sayings, which strengthens the case for the minimal facts.\", \"speaker\": \"Gary Habermas\", \"premises\": [\"P1: Bultmann is listed among critical scholars who accept a pre-Markan passion narrative that may predate AD 37.\", \"P2: Bultmann says the early sayings go back to the very earliest Jerusalem church.\", \"P3: In his 1941 essay, Bultmann states that the earliest disciples preached that Jesus was raised from the dead.\", \"P4: Bultmann is to the left of Bart Ehrman and does not like historical backup for faith, yet he still concedes these points.\"], \"strength\": {\"st1\": {\"v\": 2, \"quote\": \"Bultmann's name is in that list, and he doesn't accept a whole lot of the verses, but he says there was a Markan pre-Markan narrative, and he only uses a few verses.\"}, \"st2\": {\"v\": 2, \"quote\": \"He says, \\\"These early sayings go back to the very earliest Jerusalem church.\\\"\"}, \"st3\": {\"v\": 2, \"quote\": \"Also, in his 1941 essay, uh New Testament Mythology, the very famous thing that got rolling toward demythologization, uh Bultmann says, \\\"What can we say about the um aftermath of the cross?\\\"\"}, \"st4\": {\"v\": 1, \"quote\": \"If Mark is that much about the uh from the trial on, if Mark is that much how powerful would be a source from the 30s be that he borrowed from?\"}, \"st5\": {\"v\": 0, \"quote\": \"\"}, \"st6\": {\"v\": 1, \"quote\": \"That doesn't mean it's the 50s. That doesn't mean it's the 90s, and that's and that's Bultmann.\"}, \"st7\": {\"v\": 0, \"quote\": \"\"}, \"st8\": {\"v\": 1, \"quote\": \"In the back, he's reproduced Soards' essay on the pre-Markan passion narrative.\"}}, \"prior_art\": \"Rudolf Bultmann, New Testament Mythology, 1941; Soards essay on pre-Markan passion narrative\", \"originality\": {\"or1\": {\"v\": 1, \"quote\": \"Bultmann's name is in that list, and he doesn't accept a whole lot of the verses, but he says there was a Markan pre-Markan narrative\", \"why\": \"Uses Bultmann as a hostile witness, a variant on standard minimal-facts argumentation.\"}, \"or2\": {\"v\": 2, \"quote\": \"Also, in his 1941 essay, uh New Testament Mythology, the very famous thing that got rolling toward demythologization, uh Bultmann says, \\\"What can we say about the um aftermath of the cross?\\\"\"}, \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain connection.\"}, \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formal structure added.\"}}, \"weakest_link\": \"The inference that Bultmann's concessions strengthen the minimal facts rather than merely his source criticism.\", \"develop_next\": \"Quote Bultmann's exact sentences with page numbers to show the concession is unambiguous.\", \"case_map\": [\"K15\", \"F4\"], \"domain\": \"history\"},\n {\"id\": \"G3\", \"name\": \"Christian scholars debate the evidence, not just assume resurrection\", \"conclusion\": \"The fact that many scholars are Christians does not mean they simply assume the resurrection; they debate the evidence and reach conclusions based on data.\", \"speaker\": \"Bill (co-host)\", \"premises\": [\"P1: If Christian bias determined conclusions, the empty tomb would be a minimal fact, but many Christians deny it.\", \"P2: The quotes in Habermas's volumes show scholars debating the evidence rather than merely asserting Christian beliefs.\", \"P3: The strong consensus on the six minimal facts stems from the strength of the data, not from shared faith.\"], \"strength\": {\"st1\": {\"v\": 2, \"quote\": \"This easy assumption that Oh, well, just because they were Christian, that means they're just going to biasly accept them in all facts.\"}, \"st2\": {\"v\": 2, \"quote\": \"Because if if that was true, then the empty tomb would be a minimal fact.\"}, \"st3\": {\"v\": 1, \"quote\": \"So, just because someone's a Christian and maybe oh, okay, they already believe in the resurrection. That alone says nothing about their conclusions about the minimal facts because you can see from the quotes in there, they're debating the evidence.\"}, \"st4\": {\"v\": 1, \"quote\": \"It's because even though they're Christians, they're basing their conclusions on the data.\"}, \"st5\": {\"v\": 1, \"quote\": \"So, they'll just say, \\\"Well, that's a bi- it's a bias in that the sample no one uh Christians are going to agree with your minimal facts to begin with.\"}, \"st6\": {\"v\": 1, \"quote\": \"And the data is so strong in the case of your six minimal facts, that's why there is that strong consensus.\"}, \"st7\": {\"v\": 0, \"quote\": \"\"}, \"st8\": {\"v\": 1, \"quote\": \"And the data is so strong in the case of your six minimal facts, that's why there is that strong consensus.\"}}, \"prior_art\": \"Gary Habermas, minimal facts method literature\", \"originality\": {\"or1\": {\"v\": 1, \"quote\": \"This easy assumption that Oh, well, just because they were Christian, that means they're just going to biasly accept them in all facts.\", \"why\": \"A variant of the standard bias reply, voiced by the co-host.\"}, \"or2\": {\"v\": 0, \"quote\": \"\", \"why\": \"No new evidence beyond Habermas's volumes.\"}, \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain connection.\"}, \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formal structure added.\"}}, \"weakest_link\": \"P1: the empty tomb's exclusion is asserted without documenting which Christians deny it.\", \"develop_next\": \"List specific Christian scholars who deny the empty tomb and cite them.\", \"case_map\": [\"K15\", \"F4\"], \"domain\": \"history\"},\n {\"id\": \"G4\", \"name\": \"Bultmann himself calls resurrection a myth\", \"conclusion\": \"Bultmann explicitly dismisses the resurrection as a myth, showing that even a scholar who accepts some historical data rejects the resurrection itself.\", \"speaker\": \"Gary Habermas\", \"premises\": [\"P1: In his 1941 essay, Bultmann begins a section on the resurrection by asking, 'Is it not a myth pure and simple?'\", \"P2: Bultmann does not weigh pros and cons; he already treats it as a myth that did not happen.\"], \"strength\": {\"st1\": {\"v\": 2, \"quote\": \"And what about the resurrection? {question mark} Is it not a myth pure and simple? {question mark} And then he doesn't say, well, let's do the pros and cons.\"}, \"st2\": {\"v\": 2, \"quote\": \"No, he's done with it. He's already said it's a myth. It didn't happen.\"}, \"st3\": {\"v\": 2, \"quote\": \"By the way, here's here's Bultmann's quote. It is 1941 essay.\"}, \"st4\": {\"v\": 1, \"quote\": \"And then he doesn't say, well, let's do the pros and cons. No, he's done with it.\"}, \"st5\": {\"v\": 0, \"quote\": \"\"}, \"st6\": {\"v\": 1, \"quote\": \"He's already said it's a myth. It didn't happen.\"}, \"st7\": {\"v\": 0, \"quote\": \"\"}, \"st8\": {\"v\": 0, \"quote\": \"\"}}, \"prior_art\": \"Rudolf Bultmann, New Testament Mythology, 1941\", \"originality\": {\"or1\": {\"v\": 0, \"quote\": \"By the way, here's here's Bultmann's quote. It is 1941 essay.\", \"why\": \"Simply quotes Bultmann's known position.\"}, \"or2\": {\"v\": 0, \"quote\": \"\", \"why\": \"No new evidence.\"}, \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain connection.\"}, \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formal structure added.\"}}, \"weakest_link\": \"The rhetorical quote does not establish that Bultmann's myth judgment is wrong or irrelevant.\", \"develop_next\": \"Explain why Bultmann's myth verdict should not undercut his historical concessions.\", \"case_map\": [\"K15\", \"F4\"], \"domain\": \"history\"},\n {\"id\": \"G5\", \"name\": \"Scholarly consensus should target informed scholars who publish\", \"conclusion\": \"A scholarly consensus argument should focus on scholars who have published in the field of resurrection research because they have informed opinions, not on all PhDs regardless of expertise.\", \"speaker\": \"Gary Habermas\", \"premises\": [\"P1: Scholars like Bethany Hughes have a PhD in history but have never published on resurrection research, so their opinion is uninformed.\", \"P2: We want people who have actually studied the resurrection research and published an opinion.\", \"P3: Habermas defines a critical scholar as one with a terminal degree who has worked in a relevant area such as New Testament, Old Testament, history, philosophy, archaeology, or world religions.\", \"P4: He allows exceptions for people without terminal degrees who know the data, such as G. A. Wells, but generally requires publication or public scholarly engagement.\"], \"strength\": {\"st1\": {\"v\": 2, \"quote\": \"One thing is that now, that criterion, that doesn't help me oh, you're doing that to avoid uh and then some made-up thing you don't want these guys involved.\"}, \"st2\": {\"v\": 2, \"quote\": \"But when I say I I say a critical scholar ha- it I this is defined in volume one in particular has the following uh characteristics. They have a terminal degree.\"}, \"st3\": {\"v\": 1, \"quote\": \"Um G. A. Wells, I introduce I have this stuff all over the book. G. A. Wells, yeah, he had a PhD in German. I I I wouldn't call that in somebody in a field, but I cite him cuz he knows how to do research.\"}, \"st4\": {\"v\": 1, \"quote\": \"So, if you work in the field, and I think the Old Testament guys make it because they do genre, they do genre studies and so on in that area with the tools.\"}, \"st5\": {\"v\": 1, \"quote\": \"So, so some I've seen some skeptics say, well, how can you make a scholarly consensus argument if you're not interviewing all scholars, only the subset who publish in the literature.\"}, \"st6\": {\"v\": 1, \"quote\": \"I can only take people who have published on things or maybe have done, you know, an interview for the History Channel or they've done an interview that I can follow because how do I know your view?\"}, \"st7\": {\"v\": 0, \"quote\": \"\"}, \"st8\": {\"v\": 1, \"quote\": \"I hardly have a problem, Dale, with anybody in that book or I probably wouldn't have put them there.\"}}, \"prior_art\": \"Gary Habermas, The Historical Jesus (1996) and his four-volume minimal facts series\", \"originality\": {\"or1\": {\"v\": 1, \"quote\": \"But when I say I I say a critical scholar ha- it I this is defined in volume one in particular has the following uh characteristics.\", \"why\": \"A methodological variant on his published criteria, clarified in conversation.\"}, \"or2\": {\"v\": 1, \"quote\": \"Um G. A. Wells, I introduce I have this stuff all over the book. G. A. Wells, yeah, he had a PhD in German.\", \"why\": \"Adds the specific Wells exception as illustration.\"}, \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain connection.\"}, \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formal structure added.\"}}, \"weakest_link\": \"The exception policy (Wells, 19th-century Germans) risks making the criteria ad hoc.\", \"develop_next\": \"State a single, exception-free inclusion rule and apply it consistently.\", \"case_map\": [\"K15\", \"F4\"], \"domain\": \"history\"},\n {\"id\": \"G6\", \"name\": \"Habermas is deliberately lenient toward liberal scholars\", \"conclusion\": \"Habermas's selection criteria are biased in favor of liberal scholars, not conservative ones, because he wants to include critics and give everyone a fair shot.\", \"speaker\": \"Gary Habermas\", \"premises\": [\"P1: He states at the beginning of his book that he is slanted toward liberal scholars.\", \"P2: He includes scholars like Bultmann who are far to the left and not conservative in almost anything.\", \"P3: He makes allowances for people who do not meet his criteria, such as 19th-century German philosophers without terminal degrees, because they are well-known for certain views.\", \"P4: Critics who question his fairness are not reading the data carefully.\"], \"strength\": {\"st1\": {\"v\": 2, \"quote\": \"However, I do say this at the beginning of the book. I do say I am slanted toward liberal scholars.\"}, \"st2\": {\"v\": 2, \"quote\": \"I really do think I I'm more lenient with liberals than I am with conservatives because I want to put people in there who don't have all the training, but I want to be honest giving everybody a shot.\"}, \"st3\": {\"v\": 1, \"quote\": \"A number of the naturalistic theories I give in volume two. A number of the naturalistic theories are guys that don't qualify by my criteria, but they're well very well known by certain for certain views here.\"}, \"st4\": {\"v\": 1, \"quote\": \"I'm more lenient with liberals than I am with conservatives because I want to put people in there who don't have all the training, but I want to be honest giving everybody a shot.\"}, \"st5\": {\"v\": 1, \"quote\": \"And people who question me on that, they're they're not being fair with reading through the data.\"}, \"st6\": {\"v\": 1, \"quote\": \"I really do think I I'm more lenient with liberals than I am with conservatives because I want to put people in there who don't have all the training, but I want to be honest giving everybody a shot.\"}, \"st7\": {\"v\": 0, \"quote\": \"\"}, \"st8\": {\"v\": 1, \"quote\": \"I quote Rudolf Bultmann a lot in my four volumes.\"}}, \"prior_art\": \"Gary Habermas, preface to his four-volume minimal facts series\", \"originality\": {\"or1\": {\"v\": 1, \"quote\": \"However, I do say this at the beginning of the book. I do say I am slanted toward liberal scholars.\", \"why\": \"A self-defense variant of his published methodological preface.\"}, \"or2\": {\"v\": 1, \"quote\": \"I quote Rudolf Bultmann a lot in my four volumes.\", \"why\": \"Cites his own volumes as evidence of liberal inclusion.\"}, \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain connection.\"}, \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formal structure added.\"}}, \"weakest_link\": \"P4: dismissing critics as not reading carefully is an ad hominem rather than a check on bias.\", \"develop_next\": \"Publish the full inclusion list with liberal/conservative labels so the claim can be audited.\", \"case_map\": [\"K15\", \"F4\"], \"domain\": \"history\"}\n]}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 8257,
+      "completion_tokens": 4537,
+      "attempts": 1,
+      "elapsed_seconds": 15.171999999998661,
+      "started_at": "2026-09-27T19:39:29.175807+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T19:39:44.336945+00:00",
+      "tokens": 12794
+    }
+  ],
+  "prompt_sha256": "4ff72afd8a3c086672f86812e6ebe9413f3acd01c533f754c8685f1acc4dd9a2",
+  "tokens": 12794
+}

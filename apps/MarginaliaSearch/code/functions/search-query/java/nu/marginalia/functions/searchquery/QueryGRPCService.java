@@ -1,0 +1,362 @@
+package nu.marginalia.functions.searchquery;
+
+import com.google.common.collect.Lists;
+import com.google.inject.Inject;
+import com.google.inject.Singleton;
+import io.grpc.Context;
+import io.grpc.Status;
+import io.grpc.StatusRuntimeException;
+import io.grpc.stub.StreamObserver;
+import io.prometheus.metrics.core.metrics.Counter;
+import io.prometheus.metrics.core.metrics.Histogram;
+import nu.marginalia.api.searchquery.*;
+import nu.marginalia.api.searchquery.model.CompiledSearchFilterSpec;
+import nu.marginalia.api.searchquery.model.SearchFilterDefaults;
+import nu.marginalia.api.searchquery.model.query.NsfwFilterTier;
+import nu.marginalia.api.searchquery.model.query.ProcessedQuery;
+import nu.marginalia.api.searchquery.model.results.DecoratedSearchResultItem;
+import nu.marginalia.db.DbDomainQueries;
+import nu.marginalia.functions.searchquery.searchfilter.SearchFilterStore;
+import nu.marginalia.index.UnrankedCursor;
+import nu.marginalia.index.api.IndexClient;
+import nu.marginalia.model.EdgeDomain;
+import nu.marginalia.nsfw.domain.NsfwDomainFilter;
+import nu.marginalia.functions.searchquery.searchfilter.SearchFilterCache;
+import nu.marginalia.service.server.DiscoverableService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.util.List;
+import java.util.Optional;
+import java.util.OptionalInt;
+import java.util.concurrent.ExecutionException;
+
+@Singleton
+public class QueryGRPCService
+        extends QueryApiGrpc.QueryApiImplBase
+        implements DiscoverableService
+{
+
+    private final Logger logger = LoggerFactory.getLogger(QueryGRPCService.class);
+
+    private static final Histogram wmsa_qs_query_time_grpc = Histogram.builder()
+            .name("wmsa_qs_query_time_grpc")
+            .labelNames("timeout", "count")
+            .classicLinearUpperBounds(0.05, 0.05, 15)
+            .help("QS-side query time (GRPC endpoint)")
+            .register();
+    private static final Histogram wmsa_qs_query_unranked_time_grpc = Histogram.builder()
+            .name("wmsa_qs_query_unranked_time_grpc")
+            .labelNames("timeout", "count")
+            .classicLinearUpperBounds(0.05, 0.05, 15)
+            .help("QS-side unranked query time (GRPC endpoint)")
+            .register();
+    private static final Counter wmsa_qs_queries_shed = Counter.builder()
+            .name("wmsa_qs_queries_shed")
+            .help("Queries rejected before query construction due to client saturation")
+            .register();
+
+
+    private final QueryFactory queryFactory;
+    private final NsfwDomainFilter nsfwDomainFilter;
+    private final IndexClient indexClient;
+    private final DbDomainQueries domainQueries;
+    private final SearchFilterCache searchFilterCache;
+
+    @Inject
+    public QueryGRPCService(QueryFactory queryFactory,
+                            NsfwDomainFilter nsfwDomainFilter,
+                            IndexClient indexClient,
+                            DbDomainQueries domainQueries,
+                            SearchFilterStore searchFilterStore,
+                            SearchFilterCache searchFilterCache)
+    {
+        this.queryFactory = queryFactory;
+        this.nsfwDomainFilter = nsfwDomainFilter;
+        this.indexClient = indexClient;
+        this.domainQueries = domainQueries;
+        this.searchFilterCache = searchFilterCache;
+        searchFilterStore.loadDefaultConfigs();
+    }
+
+    private Optional<CompiledSearchFilterSpec> getFilter(RpcQsQuery request) {
+        final CompiledSearchFilterSpec identifierFilter;
+        final CompiledSearchFilterSpec adHocFilter;
+
+        // A filter identifier is provided
+        if (request.hasFilterIdentifier()) {
+            try {
+                var identifier = request.getFilterIdentifier();
+
+                identifierFilter = searchFilterCache.get(
+                        identifier.getUserId(),
+                        identifier.getIdentifier()
+                );
+
+            }
+            catch (ExecutionException ex) {
+                return Optional.empty();
+            }
+        }
+        else {
+            identifierFilter = null;
+        }
+
+        // An ad-hoc filter is provided
+        if (request.hasFilterSpec()) {
+            adHocFilter = new CompiledSearchFilterSpec(request.getFilterSpec());
+        }
+        else {
+            adHocFilter = null;
+        }
+
+        if (identifierFilter != null && adHocFilter != null) {
+            CompiledSearchFilterSpec combinedFilter =
+                    CompiledSearchFilterSpec.merge(identifierFilter, adHocFilter);
+
+            return Optional.of(combinedFilter);
+        }
+        else if (identifierFilter != null) return Optional.of(identifierFilter);
+        else if (adHocFilter != null) return Optional.of(adHocFilter);
+
+        // Neither a filter identifier, or an ad-hoc filter is provided
+        try {
+            return Optional.of(searchFilterCache.get(SearchFilterDefaults.SYSTEM_USER_ID, SearchFilterDefaults.SYSTEM_DEFAULT_FILTER));
+        }
+        catch (Exception ex) {
+            throw new IllegalStateException("This should not happen (TM)", ex);
+        }
+
+    }
+
+    Optional<ProcessedQuery> createQuery(RpcQsQuery request) {
+
+        return getFilter(request)
+                .map(compiledSearchFilterSpec ->
+                        queryFactory.createQuery(
+                                request,
+                                compiledSearchFilterSpec,
+                                null)
+                );
+
+    }
+
+    public void query(RpcQsQuery request,
+                            StreamObserver<RpcQsResponse> responseObserver) {
+        try {
+            if (Context.current().isCancelled()) {
+                responseObserver.onError(Status.CANCELLED.asRuntimeException());
+                return;
+            }
+
+            if (!indexClient.hasAvailableCapacity()) {
+                wmsa_qs_queries_shed.inc();
+                responseObserver.onError(Status.RESOURCE_EXHAUSTED
+                        .withDescription("Too many concurrent queries in flight")
+                        .asRuntimeException());
+                return;
+            }
+
+            IndexClient.Pagination pagination = new IndexClient.Pagination(request.getPagination());
+
+            Optional<ProcessedQuery> maybeQuery = createQuery(request);
+            if (maybeQuery.isEmpty()) {
+                responseObserver.onError(Status.NOT_FOUND.asRuntimeException());
+                return;
+            }
+
+            ProcessedQuery query = maybeQuery.get();
+
+            // Execute the query on the index partitions
+            IndexClient.AggregateQueryResponse response =
+                    wmsa_qs_query_time_grpc
+                            .labelValues(Integer.toString(request.getQueryLimits().getTimeoutMs()),
+                                    Integer.toString(request.getQueryLimits().getResultsTotal()))
+                            .time(() -> indexClient.executeQueries(query.indexQuery, pagination));
+
+            // Convert results to response and send it back
+            var responseBuilder = RpcQsResponse.newBuilder()
+                    .addAllResults(response.results())
+                    .setPagination(
+                            RpcQsResultPagination.newBuilder()
+                                    .setPage(pagination.page())
+                                    .setPageSize(pagination.pageSize())
+                                    .setTotalResults(response.totalResults())
+                    )
+                    .setSpecs(query.indexQuery)
+                    .addAllSearchTermsHuman(query.searchTermsHuman);
+
+            if (query.domain != null) {
+                responseBuilder.setDomain(query.domain);
+            }
+
+            responseObserver.onNext(responseBuilder.build());
+            responseObserver.onCompleted();
+
+        } catch (StatusRuntimeException e) {
+            responseObserver.onError(e);
+        } catch (Exception e) {
+            logger.error("Exception", e);
+            responseObserver.onError(Status.INTERNAL.withCause(e).asRuntimeException());
+        }
+    }
+
+    @Override
+    public void unrankedQuery(RpcQsUnrankedQuery request, StreamObserver<RpcQsUnrankedResponse> responseObserver) {
+        if (Context.current().isCancelled()) {
+            responseObserver.onError(Status.CANCELLED.asRuntimeException());
+            return;
+        }
+
+        if (!indexClient.hasAvailableCapacity()) {
+            wmsa_qs_queries_shed.inc();
+            responseObserver.onError(Status.RESOURCE_EXHAUSTED
+                    .withDescription("Too many concurrent queries in flight")
+                    .asRuntimeException());
+            return;
+        }
+
+
+
+        RpcIndexUnrankedQuery.Builder unrankedQueryPrototype = RpcIndexUnrankedQuery.newBuilder()
+                .addAllTermsExcluded(request.getTermsExcludedList())
+                .addAllRequiredDomainIds(request.getRequiredDomainIdsList())
+                .addAllExcludedDomainIds(request.getExcludedDomainIdsList())
+                .setQueryLimits(request.getQueryLimits())
+                .setLangIsoCode(request.getLangIsoCode());
+
+
+        // Simplified version of site term logic from query factory
+        for (var term: request.getTermsRequiredList()) {
+            if (term.startsWith("site:*.")) {
+                unrankedQueryPrototype.addTermsRequired("site:" + term.substring("site:*.".length()));
+            }
+            else if (term.startsWith("site:")) {
+                String siteName = term.substring("site:".length());
+                OptionalInt domainId = domainQueries.tryGetDomainId(new EdgeDomain(siteName));
+                if (domainId.isPresent()) {
+                    unrankedQueryPrototype.addRequiredDomainIds(domainId.getAsInt());
+                }
+
+                // Still add the term regardless, so we have at least one keyword to search for
+                unrankedQueryPrototype.addTermsRequired(term);
+            }
+            else {
+                unrankedQueryPrototype.addTermsRequired(term);
+            }
+        }
+
+        UnrankedCursor cursor;
+
+        try {
+            cursor = UnrankedCursor.parse(request.getEncodedCursor());
+        } catch (NumberFormatException e) {
+            responseObserver.onError(Status.INVALID_ARGUMENT.withDescription("Invalid cursor").asRuntimeException());
+            return;
+        }
+
+        if (cursor instanceof UnrankedCursor.Terminal) {
+            responseObserver.onNext(RpcQsUnrankedResponse.newBuilder().setEncodedCursor(request.getEncodedCursor()).build());
+            responseObserver.onCompleted();
+            return;
+        }
+
+        try {
+            var response = wmsa_qs_query_unranked_time_grpc
+                    .labelValues(Integer.toString(request.getQueryLimits().getTimeoutMs()), Integer.toString(request.getQueryLimits().getResultsTotal()))
+                    .time(() -> indexClient.executeQueries(unrankedQueryPrototype.build(), cursor));
+
+            responseObserver.onNext(RpcQsUnrankedResponse.newBuilder()
+                    .setEncodedCursor(response.cursor().encode())
+                    .addAllResults(response.results())
+                    .build());
+
+            responseObserver.onCompleted();
+        }
+        catch (StatusRuntimeException ex) {
+            responseObserver.onError(ex);
+        }
+        catch (Exception ex) {
+            logger.error("Exception", ex);
+            responseObserver.onError(Status.INTERNAL.withCause(ex).asRuntimeException());
+        }
+    }
+
+    public record DetailedDirectResult(ProcessedQuery processedQuery,
+                                       List<DecoratedSearchResultItem> result,
+                                       int totalResults) {
+
+    }
+
+    /** Local query execution, without GRPC. */
+    public DetailedDirectResult executeDirect(
+            String originalQuery,
+            RpcQueryLimits limits,
+            String set,
+            String langIsoCode,
+            IndexClient.Pagination pagination,
+            RpcResultRankingParameters rankingParameters) {
+
+        var mockQsQuery = RpcQsQuery.newBuilder()
+                .setQueryLimits(limits)
+                .setLangIsoCode(langIsoCode)
+                .setHumanQuery(originalQuery)
+                .build();
+
+        var query = queryFactory.createQuery(mockQsQuery,
+                CompiledSearchFilterSpec
+                        .builder("AD-HOC", "set:"+set)
+                        .searchSetIdentifier(set)
+                        .build(),
+                rankingParameters);
+
+        IndexClient.AggregateQueryResponse response
+                = indexClient.executeQueries(query.indexQuery, pagination);
+
+        return new DetailedDirectResult(query,
+                Lists.transform(response.results(), QueryProtobufCodec::convertQueryResult),
+                response.totalResults());
+    }
+
+    public DetailedDirectResult executeApiQuery(
+            String originalQuery,
+            RpcQueryLimits limits,
+            String langIsoCode,
+            NsfwFilterTier nsfwTier,
+            QueryFilterSpec filterSpec,
+            IndexClient.Pagination pagination)
+    {
+        RpcQsQuery.Builder queryBuilder = RpcQsQuery.newBuilder()
+                .setQueryLimits(limits)
+                .setLangIsoCode(langIsoCode)
+                .setHumanQuery(originalQuery)
+                .setNsfwFilterTierValue(nsfwTier.getCodedValue());
+
+        filterSpec.configure(queryBuilder);
+
+        RpcQsQuery rpcQuery = queryBuilder.build();
+
+        Optional<ProcessedQuery> maybeQuery = createQuery(rpcQuery);
+        if (maybeQuery.isEmpty()) {
+            return new DetailedDirectResult(null, List.of(), 0);
+        }
+
+        ProcessedQuery query = maybeQuery.get();
+
+        IndexClient.AggregateQueryResponse response
+                = indexClient.executeQueries(query.indexQuery, pagination);
+
+        return new DetailedDirectResult(query,
+                Lists.transform(response.results(), QueryProtobufCodec::convertQueryResult),
+                response.totalResults());
+    }
+
+    public void invalidateFilterCache(RpcQsInvalidateFilter request,
+                                      StreamObserver<Empty> responseObserver) {
+
+        searchFilterCache.invalidate(request.getUserId(), request.getFilterId());
+
+        responseObserver.onNext(Empty.getDefaultInstance());
+        responseObserver.onCompleted();
+    }
+}

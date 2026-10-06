@@ -1,0 +1,708 @@
+{
+  "start_offset": 110,
+  "cases_processed": 100,
+  "max_links_per_case": 20,
+  "rows_written": 1995,
+  "summary": [
+    {
+      "case_id": "CASE-0111",
+      "case_title": "Wuhan lab leak",
+      "matched_title": "COVID-19 lab leak theory",
+      "page_url": "https://en.wikipedia.org/wiki/COVID-19_lab_leak_theory",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0112",
+      "case_title": "central banking conspiracy",
+      "matched_title": "Titanic conspiracy theories",
+      "page_url": "https://en.wikipedia.org/wiki/Titanic_conspiracy_theories",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0113",
+      "case_title": "food industry conspiracy",
+      "matched_title": "GMO conspiracy theories",
+      "page_url": "https://en.wikipedia.org/wiki/GMO_conspiracy_theories",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0114",
+      "case_title": "pharmaceutical conspiracy",
+      "matched_title": "List of conspiracy theories",
+      "page_url": "https://en.wikipedia.org/wiki/List_of_conspiracy_theories",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0115",
+      "case_title": "Matthew 24 signs",
+      "matched_title": "Matthew 24",
+      "page_url": "https://en.wikipedia.org/wiki/Matthew_24",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0116",
+      "case_title": "Revelation timeline",
+      "matched_title": "Age of Revelation",
+      "page_url": "https://en.wikipedia.org/wiki/Age_of_Revelation",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0117",
+      "case_title": "MK Ultra survivors",
+      "matched_title": "MKUltra",
+      "page_url": "https://en.wikipedia.org/wiki/MKUltra",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0118",
+      "case_title": "NSA wiretapping",
+      "matched_title": "NSA warrantless surveillance (2001\u20132007)",
+      "page_url": "https://en.wikipedia.org/wiki/NSA_warrantless_surveillance_%282001%E2%80%932007%29",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0119",
+      "case_title": "globalist agenda",
+      "matched_title": "New World Order conspiracy theory",
+      "page_url": "https://en.wikipedia.org/wiki/New_World_Order_conspiracy_theory",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0120",
+      "case_title": "Israel Palestine conspiracy",
+      "matched_title": "Greater Israel",
+      "page_url": "https://en.wikipedia.org/wiki/Greater_Israel",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0121",
+      "case_title": "two witnesses Revelation",
+      "matched_title": "Two witnesses",
+      "page_url": "https://en.wikipedia.org/wiki/Two_witnesses",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0122",
+      "case_title": "red heifer prophecy",
+      "matched_title": "Red heifer",
+      "page_url": "https://en.wikipedia.org/wiki/Red_heifer",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0123",
+      "case_title": "Isaiah 17 Damascus",
+      "matched_title": "Isaiah 17",
+      "page_url": "https://en.wikipedia.org/wiki/Isaiah_17",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0124",
+      "case_title": "Psalm 83 war",
+      "matched_title": "Psalm 83",
+      "page_url": "https://en.wikipedia.org/wiki/Psalm_83",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0125",
+      "case_title": "666 meaning",
+      "matched_title": "666 (number)",
+      "page_url": "https://en.wikipedia.org/wiki/666_%28number%29",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0126",
+      "case_title": "great tribulation",
+      "matched_title": "Great Tribulation",
+      "page_url": "https://en.wikipedia.org/wiki/Great_Tribulation",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0127",
+      "case_title": "abomination of desolation",
+      "matched_title": "Abomination of desolation",
+      "page_url": "https://en.wikipedia.org/wiki/Abomination_of_desolation",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0128",
+      "case_title": "Armageddon",
+      "matched_title": "Armageddon",
+      "page_url": "https://en.wikipedia.org/wiki/Armageddon",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0129",
+      "case_title": "one world religion",
+      "matched_title": "World religions",
+      "page_url": "https://en.wikipedia.org/wiki/World_religions",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0130",
+      "case_title": "Abraham Accords prophecy",
+      "matched_title": "Genealogy of Jesus",
+      "page_url": "https://en.wikipedia.org/wiki/Genealogy_of_Jesus",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0131",
+      "case_title": "Operation Condor",
+      "matched_title": "Operation Condor",
+      "page_url": "https://en.wikipedia.org/wiki/Operation_Condor",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0132",
+      "case_title": "Bohemian Grove Cremation of Care",
+      "matched_title": "Cremation of Care",
+      "page_url": "https://en.wikipedia.org/wiki/Cremation_of_Care",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0133",
+      "case_title": "ECHELON",
+      "matched_title": "ECHELON",
+      "page_url": "https://en.wikipedia.org/wiki/ECHELON",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0134",
+      "case_title": "suppressed inventions",
+      "matched_title": "Free energy suppression conspiracy theory",
+      "page_url": "https://en.wikipedia.org/wiki/Free_energy_suppression_conspiracy_theory",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0135",
+      "case_title": "Georgia Guidestones text",
+      "matched_title": "Georgia Guidestones",
+      "page_url": "https://en.wikipedia.org/wiki/Georgia_Guidestones",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0136",
+      "case_title": "Clinton body count",
+      "matched_title": "Clinton body count conspiracy theory",
+      "page_url": "https://en.wikipedia.org/wiki/Clinton_body_count_conspiracy_theory",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0137",
+      "case_title": "underground bases",
+      "matched_title": "Iranian underground missile bases",
+      "page_url": "https://en.wikipedia.org/wiki/Iranian_underground_missile_bases",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0138",
+      "case_title": "Tic Tac UFO",
+      "matched_title": "Pentagon UFO videos",
+      "page_url": "https://en.wikipedia.org/wiki/Pentagon_UFO_videos",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0139",
+      "case_title": "Project Veritas",
+      "matched_title": "Project Veritas",
+      "page_url": "https://en.wikipedia.org/wiki/Project_Veritas",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0140",
+      "case_title": "World Economic Forum conspiracy",
+      "matched_title": "World Economic Forum",
+      "page_url": "https://en.wikipedia.org/wiki/World_Economic_Forum",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0141",
+      "case_title": "CERN conspiracy",
+      "matched_title": "CERN ritual hoax",
+      "page_url": "https://en.wikipedia.org/wiki/CERN_ritual_hoax",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0142",
+      "case_title": "organ harvesting",
+      "matched_title": "Forced organ harvesting from Falun Gong practitioners in China",
+      "page_url": "https://en.wikipedia.org/wiki/Forced_organ_harvesting_from_Falun_Gong_practitioners_in_China",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0143",
+      "case_title": "Jesuits conspiracy",
+      "matched_title": "Jesuit conspiracy theories",
+      "page_url": "https://en.wikipedia.org/wiki/Jesuit_conspiracy_theories",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0144",
+      "case_title": "AIDS manufactured",
+      "matched_title": "History of hearing aids",
+      "page_url": "https://en.wikipedia.org/wiki/History_of_hearing_aids",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0145",
+      "case_title": "Federal Reserve Act 1913",
+      "matched_title": "Federal Reserve Act",
+      "page_url": "https://en.wikipedia.org/wiki/Federal_Reserve_Act",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0146",
+      "case_title": "Revelation 12 sign",
+      "matched_title": "Revelation 12",
+      "page_url": "https://en.wikipedia.org/wiki/Revelation_12",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0147",
+      "case_title": "Temple Mount",
+      "matched_title": "Temple Mount",
+      "page_url": "https://en.wikipedia.org/wiki/Temple_Mount",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0148",
+      "case_title": "Nephilim",
+      "matched_title": "Nephilim",
+      "page_url": "https://en.wikipedia.org/wiki/Nephilim",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0149",
+      "case_title": "Sumerian Anunnaki",
+      "matched_title": "Anunnaki",
+      "page_url": "https://en.wikipedia.org/wiki/Anunnaki",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0150",
+      "case_title": "Operation Ajax",
+      "matched_title": "1953 Iranian coup d'\u00e9tat",
+      "page_url": "https://en.wikipedia.org/wiki/1953_Iranian_coup_d%27%C3%A9tat",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0151",
+      "case_title": "Georgia runoff conspiracy",
+      "matched_title": "Marjorie Taylor Greene",
+      "page_url": "https://en.wikipedia.org/wiki/Marjorie_Taylor_Greene",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0152",
+      "case_title": "Blackrock conspiracy",
+      "matched_title": "BlackRock house-buying conspiracy theory",
+      "page_url": "https://en.wikipedia.org/wiki/BlackRock_house-buying_conspiracy_theory",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0153",
+      "case_title": "smart meter conspiracy",
+      "matched_title": "Smart city",
+      "page_url": "https://en.wikipedia.org/wiki/Smart_city",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0154",
+      "case_title": "Georgia Stones destruction",
+      "matched_title": "Georgia Guidestones",
+      "page_url": "https://en.wikipedia.org/wiki/Georgia_Guidestones",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0155",
+      "case_title": "USS Indianapolis",
+      "matched_title": "USS Indianapolis (CA-35)",
+      "page_url": "https://en.wikipedia.org/wiki/USS_Indianapolis_%28CA-35%29",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0156",
+      "case_title": "banking cartel",
+      "matched_title": "Eurodollar",
+      "page_url": "https://en.wikipedia.org/wiki/Eurodollar",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0157",
+      "case_title": "cancer cure suppressed",
+      "matched_title": "List of unproven and disproven cancer treatments",
+      "page_url": "https://en.wikipedia.org/wiki/List_of_unproven_and_disproven_cancer_treatments",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0158",
+      "case_title": "planned obsolescence",
+      "matched_title": "Planned obsolescence",
+      "page_url": "https://en.wikipedia.org/wiki/Planned_obsolescence",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0159",
+      "case_title": "Davos conspiracy",
+      "matched_title": "Great Reset",
+      "page_url": "https://en.wikipedia.org/wiki/Great_Reset",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0160",
+      "case_title": "Maui fires conspiracy",
+      "matched_title": "2023 Hawaii wildfires",
+      "page_url": "https://en.wikipedia.org/wiki/2023_Hawaii_wildfires",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0161",
+      "case_title": "GMO conspiracy",
+      "matched_title": "GMO conspiracy theories",
+      "page_url": "https://en.wikipedia.org/wiki/GMO_conspiracy_theories",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0162",
+      "case_title": "oil conspiracy",
+      "matched_title": "Conspiracy theory",
+      "page_url": "https://en.wikipedia.org/wiki/Conspiracy_theory",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0163",
+      "case_title": "media manipulation",
+      "matched_title": "Media manipulation",
+      "page_url": "https://en.wikipedia.org/wiki/Media_manipulation",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0164",
+      "case_title": "cashless society conspiracy",
+      "matched_title": "Race of the future",
+      "page_url": "https://en.wikipedia.org/wiki/Race_of_the_future",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0165",
+      "case_title": "Operation Warp Speed",
+      "matched_title": "Operation Warp Speed",
+      "page_url": "https://en.wikipedia.org/wiki/Operation_Warp_Speed",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0166",
+      "case_title": "Antarctica conspiracy",
+      "matched_title": "List of conspiracy theories",
+      "page_url": "https://en.wikipedia.org/wiki/List_of_conspiracy_theories",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0167",
+      "case_title": "Tartaria",
+      "matched_title": "Tartarian Empire",
+      "page_url": "https://en.wikipedia.org/wiki/Tartarian_Empire",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0168",
+      "case_title": "stolen election 2020",
+      "matched_title": "Big lie",
+      "page_url": "https://en.wikipedia.org/wiki/Big_lie",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0169",
+      "case_title": "Soros conspiracy",
+      "matched_title": "George Soros",
+      "page_url": "https://en.wikipedia.org/wiki/George_Soros",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0170",
+      "case_title": "Bohemian Grove guest list",
+      "matched_title": "Bohemian Grove",
+      "page_url": "https://en.wikipedia.org/wiki/Bohemian_Grove",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0171",
+      "case_title": "rapture date predictions",
+      "matched_title": "RaptureTok",
+      "page_url": "https://en.wikipedia.org/wiki/RaptureTok",
+      "links_added": 15
+    },
+    {
+      "case_id": "CASE-0172",
+      "case_title": "Israel prophecy",
+      "matched_title": "Prophets in Judaism",
+      "page_url": "https://en.wikipedia.org/wiki/Prophets_in_Judaism",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0173",
+      "case_title": "one world currency",
+      "matched_title": "World currency",
+      "page_url": "https://en.wikipedia.org/wiki/World_currency",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0174",
+      "case_title": "AI antichrist",
+      "matched_title": "Peter Thiel",
+      "page_url": "https://en.wikipedia.org/wiki/Peter_Thiel",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0175",
+      "case_title": "ten kings prophecy",
+      "matched_title": "Bible prophecy",
+      "page_url": "https://en.wikipedia.org/wiki/Bible_prophecy",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0176",
+      "case_title": "two state solution prophecy",
+      "matched_title": "Hitler's prophecy",
+      "page_url": "https://en.wikipedia.org/wiki/Hitler%27s_prophecy",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0177",
+      "case_title": "Gog Magog war",
+      "matched_title": "Gog and Magog",
+      "page_url": "https://en.wikipedia.org/wiki/Gog_and_Magog",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0178",
+      "case_title": "millennial reign",
+      "matched_title": "Premillennialism",
+      "page_url": "https://en.wikipedia.org/wiki/Premillennialism",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0179",
+      "case_title": "seal judgments",
+      "matched_title": "Seven seals",
+      "page_url": "https://en.wikipedia.org/wiki/Seven_seals",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0180",
+      "case_title": "trumpet judgments",
+      "matched_title": "Events of Revelation",
+      "page_url": "https://en.wikipedia.org/wiki/Events_of_Revelation",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0181",
+      "case_title": "Event 201",
+      "matched_title": "Johns Hopkins Center for Health Security",
+      "page_url": "https://en.wikipedia.org/wiki/Johns_Hopkins_Center_for_Health_Security",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0182",
+      "case_title": "Gain of function research",
+      "matched_title": "Gain-of-function research",
+      "page_url": "https://en.wikipedia.org/wiki/Gain-of-function_research",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0183",
+      "case_title": "USS Pueblo",
+      "matched_title": "USS Pueblo (AGER-2)",
+      "page_url": "https://en.wikipedia.org/wiki/USS_Pueblo_%28AGER-2%29",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0184",
+      "case_title": "Havana Syndrome",
+      "matched_title": "Havana syndrome",
+      "page_url": "https://en.wikipedia.org/wiki/Havana_syndrome",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0185",
+      "case_title": "alien abduction",
+      "matched_title": "Alien abduction",
+      "page_url": "https://en.wikipedia.org/wiki/Alien_abduction",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0186",
+      "case_title": "secret societies list",
+      "matched_title": "Secret society",
+      "page_url": "https://en.wikipedia.org/wiki/Secret_society",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0187",
+      "case_title": "Pentagon missing trillions",
+      "matched_title": "Military budget of the United States",
+      "page_url": "https://en.wikipedia.org/wiki/Military_budget_of_the_United_States",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0188",
+      "case_title": "Bohemian Grove owl",
+      "matched_title": "Bohemian Grove",
+      "page_url": "https://en.wikipedia.org/wiki/Bohemian_Grove",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0189",
+      "case_title": "MH370 conspiracy",
+      "matched_title": "Malaysia Airlines Flight 370 disappearance theories",
+      "page_url": "https://en.wikipedia.org/wiki/Malaysia_Airlines_Flight_370_disappearance_theories",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0190",
+      "case_title": "TWA 800",
+      "matched_title": "TWA Flight 800",
+      "page_url": "https://en.wikipedia.org/wiki/TWA_Flight_800",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0191",
+      "case_title": "weather warfare",
+      "matched_title": "Weather warfare",
+      "page_url": "https://en.wikipedia.org/wiki/Weather_warfare",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0192",
+      "case_title": "aspartame conspiracy",
+      "matched_title": "Aspartame controversy",
+      "page_url": "https://en.wikipedia.org/wiki/Aspartame_controversy",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0193",
+      "case_title": "social credit system",
+      "matched_title": "Social credit system",
+      "page_url": "https://en.wikipedia.org/wiki/Social_credit_system",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0194",
+      "case_title": "Bohemian Grove Nixon",
+      "matched_title": "Bohemian Grove",
+      "page_url": "https://en.wikipedia.org/wiki/Bohemian_Grove",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0195",
+      "case_title": "Bilderberg attendees",
+      "matched_title": "List of Bilderberg participants",
+      "page_url": "https://en.wikipedia.org/wiki/List_of_Bilderberg_participants",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0196",
+      "case_title": "directed energy weapons",
+      "matched_title": "Directed-energy weapon",
+      "page_url": "https://en.wikipedia.org/wiki/Directed-energy_weapon",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0197",
+      "case_title": "UFO crash retrieval",
+      "matched_title": "Roswell incident",
+      "page_url": "https://en.wikipedia.org/wiki/Roswell_incident",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0198",
+      "case_title": "cattle mutilation",
+      "matched_title": "Cattle mutilation",
+      "page_url": "https://en.wikipedia.org/wiki/Cattle_mutilation",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0199",
+      "case_title": "Dulles brothers",
+      "matched_title": "The Brothers (Kinzer book)",
+      "page_url": "https://en.wikipedia.org/wiki/The_Brothers_%28Kinzer_book%29",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0200",
+      "case_title": "Paul McCartney death conspiracy",
+      "matched_title": "Paul is dead",
+      "page_url": "https://en.wikipedia.org/wiki/Paul_is_dead",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0201",
+      "case_title": "Operation Midnight Climax",
+      "matched_title": "Operation Midnight Climax",
+      "page_url": "https://en.wikipedia.org/wiki/Operation_Midnight_Climax",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0202",
+      "case_title": "Bay of Pigs conspiracy",
+      "matched_title": "Bay of Pigs Invasion",
+      "page_url": "https://en.wikipedia.org/wiki/Bay_of_Pigs_Invasion",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0203",
+      "case_title": "Watergate deeper conspiracy",
+      "matched_title": "Watergate scandal",
+      "page_url": "https://en.wikipedia.org/wiki/Watergate_scandal",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0204",
+      "case_title": "Pentagon Papers",
+      "matched_title": "Pentagon Papers",
+      "page_url": "https://en.wikipedia.org/wiki/Pentagon_Papers",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0205",
+      "case_title": "Project Stargate remote viewing",
+      "matched_title": "Stargate Project (U.S. Army unit)",
+      "page_url": "https://en.wikipedia.org/wiki/Stargate_Project_%28U.S._Army_unit%29",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0206",
+      "case_title": "CIA assassination attempts Castro",
+      "matched_title": "CIA assassination attempts on Fidel Castro",
+      "page_url": "https://en.wikipedia.org/wiki/CIA_assassination_attempts_on_Fidel_Castro",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0207",
+      "case_title": "Operation Timber Sycamore",
+      "matched_title": "Timber Sycamore",
+      "page_url": "https://en.wikipedia.org/wiki/Timber_Sycamore",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0208",
+      "case_title": "Rex 84",
+      "matched_title": "Rex 84",
+      "page_url": "https://en.wikipedia.org/wiki/Rex_84",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0209",
+      "case_title": "Operation Fast and Furious",
+      "matched_title": "ATF gunwalking scandal",
+      "page_url": "https://en.wikipedia.org/wiki/ATF_gunwalking_scandal",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0210",
+      "case_title": "Benghazi conspiracy",
+      "matched_title": "13 Hours: The Secret Soldiers of Benghazi",
+      "page_url": "https://en.wikipedia.org/wiki/13_Hours%3A_The_Secret_Soldiers_of_Benghazi",
+      "links_added": 20
+    }
+  ]
+}

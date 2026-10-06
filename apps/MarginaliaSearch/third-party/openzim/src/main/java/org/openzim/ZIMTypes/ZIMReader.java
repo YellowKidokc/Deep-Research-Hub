@@ -1,0 +1,314 @@
+/*
+ * Copyright (C) 2011 Arunesh Mathur
+ * 
+ * This file is a part of zimreader-java.
+ *
+ * zimreader-java is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License version 3.0 as 
+ * published by the Free Software Foundation.
+ *
+ * zimreader-java is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with zimreader-java.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+package org.openzim.ZIMTypes;
+
+import com.github.luben.zstd.RecyclingBufferPool;
+import com.github.luben.zstd.ZstdInputStream;
+import org.openzim.util.RandomAcessFileZIMInputStream;
+import org.openzim.util.Utilities;
+import org.tukaani.xz.SingleXZInputStream;
+
+import java.io.*;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.TreeMap;
+import java.util.function.BiConsumer;
+import java.util.function.Consumer;
+import java.util.function.Predicate;
+
+/**
+ * @author Arunesh Mathur
+ * 
+ *         A ZIMReader that reads data from the ZIMFile
+ * 
+ */
+public class ZIMReader {
+
+	private final ZIMFile mFile;
+	private RandomAcessFileZIMInputStream mReader;
+	private final int targetMime;
+
+	public ZIMReader(ZIMFile file) {
+		this.mFile = file;
+		targetMime = file.getMIMETypes().entrySet().stream().filter(e -> "text/html".equals(e.getValue())).map(Map.Entry::getKey).findFirst().orElseThrow();
+		try {
+			mReader = new RandomAcessFileZIMInputStream(new RandomAccessFile(
+					mFile, "r"));
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+	}
+
+	// Gives the minimum required information needed for the given articleName
+	public DirectoryEntry forEachArticles(BiConsumer<String, String> consumer, Predicate<Integer> blobPred)
+			throws IOException, InterruptedException {
+
+		int numberOfArticles = mFile.getArticleCount();
+		long beg = mFile.getUrlPtrPos();
+		long end = beg + (numberOfArticles * 8L);
+
+		System.out.println(numberOfArticles);
+
+		Map<Integer, Map<Integer, String>> data = new TreeMap<>();
+		System.out.println("Indexing");
+
+		for (long i = beg; i < end; i+=8) {
+			var entry = getDirectoryInfoAtUrlPosition(i);
+
+			if (Thread.interrupted()) {
+				throw new InterruptedException();
+			}
+
+			if (((i-beg)%100_000) == 0) {
+				System.out.printf("%f%%\n", ((i-beg) * 100.) / (end-beg));
+			}
+
+			if (entry.mimeType == targetMime && entry instanceof ArticleEntry) {
+				ArticleEntry ae = (ArticleEntry) entry;
+				data.computeIfAbsent(ae.clusterNumber, (cn) -> new HashMap<>()).put(ae.blobnumber, ae.url);
+			}
+		}
+
+		System.out.println("Iterating over " + data.keySet().stream().mapToInt(Integer::intValue).max() + "clusters");
+
+		var iter = data.entrySet().iterator();
+		while (iter.hasNext()) {
+			if (Thread.interrupted()) throw new InterruptedException();
+
+			var next = iter.next();
+			int pos = next.getKey();
+
+			if (!blobPred.test(pos)) continue;
+			Map<Integer, String> blobs = next.getValue();
+
+			try {
+				getArticleData(consumer, pos, blobs);
+			}
+			catch (Exception ex) {
+				throw new RuntimeException(ex);
+			}
+		}
+
+		return null;
+	}
+
+
+	public DirectoryEntry forEachTitles(Consumer<String> titleConsumer)
+			throws IOException {
+
+		int numberOfArticles = mFile.getArticleCount();
+		long beg = mFile.getUrlPtrPos();
+		long end = beg + (numberOfArticles * 8L);
+
+		System.err.println(numberOfArticles);
+		long start = System.currentTimeMillis();
+
+		for (long i = beg; i < end; i+=8) {
+			var entry = getDirectoryInfoAtUrlPosition(i);
+			titleConsumer.accept(entry.title);
+		}
+
+		return null;
+
+	}
+
+	public String getArticleData(BiConsumer<String, String> consumer, int clusterNumber, Map<Integer,String> blobToUrl) throws IOException {
+
+		byte[] buffer = new byte[8];
+
+		// Cast to ArticleEntry
+
+		// Get the cluster and blob numbers from the article
+
+		// Move to the cluster entry in the clusterPtrPos
+		mReader.seek(mFile.getClusterPtrPos() + clusterNumber * 8L);
+
+		// Read the location of the cluster
+		long clusterPos = mReader
+				.readEightLittleEndianBytesValue(buffer);
+
+		// Move to the cluster
+		mReader.seek(clusterPos);
+
+		// Read the first byte, for compression information
+		int compressionType = mReader.read();
+
+		InputStream is;
+		InputStream cis;
+		switch (compressionType) {
+			case 0:
+			case 1:
+				is = mReader;
+				cis = null;
+				break;
+			case 4:
+				cis = is = new SingleXZInputStream(mReader, 4194304);
+				break;
+			case 5:
+				cis = is = new ZstdInputStream(new BufferedInputStream(mReader, 65535), RecyclingBufferPool.INSTANCE);
+				break;
+			default:
+				throw new IllegalArgumentException();
+		}
+
+		try {
+			buffer = new byte[4];
+			is.read(buffer);
+			var firstOffset = Utilities.toFourLittleEndianInteger(buffer);
+			int numberOfBlobs = firstOffset / 4;
+
+			long[] offsets = new long[numberOfBlobs];
+			offsets[0] = firstOffset;
+
+			buffer = new byte[4*(numberOfBlobs-1)];
+			int rb = 0, trb = 0;
+			while (trb < buffer.length) {
+				rb = is.read(buffer, trb, buffer.length - trb);
+				trb += rb;
+			}
+
+			for (int blobNumber = 0; blobNumber < numberOfBlobs-1; blobNumber++) {
+				offsets[blobNumber+1] = ((buffer[4*blobNumber] & 0xFF) | ((buffer[4*blobNumber+1] & 0xFF) << 8)
+						| ((buffer[4*blobNumber+2] & 0xFF) << 16) | ((buffer[4*blobNumber+3] & 0xFF) << 24));
+			}
+
+			int minRelBlob = blobToUrl.keySet().stream().mapToInt(Integer::intValue).min().orElse(0);
+			int maxRelBlob = blobToUrl.keySet().stream().mapToInt(Integer::intValue).max().orElse(0);
+
+			if (minRelBlob > 0) {
+				Utilities.skipFully(is, offsets[minRelBlob] - offsets[0]);
+			}
+
+			for (int blobNumber = minRelBlob; blobNumber < maxRelBlob; blobNumber++) {
+				int differenceOffset = (int)(offsets[blobNumber+1] - offsets[blobNumber]);
+
+				if (!blobToUrl.containsKey(blobNumber)) {
+					Utilities.skipFully(is, differenceOffset);
+				}
+				else {
+					byte[] data = new byte[differenceOffset];
+					trb = rb = 0;
+					while (trb < data.length) {
+						rb = is.read(data, trb, data.length - trb);
+						trb += rb;
+					}
+					try {
+						consumer.accept(blobToUrl.get(blobNumber), new String(data));
+					}
+					catch (Exception ex) {
+						ex.printStackTrace();
+					}
+				}
+			}
+			System.out.println(clusterNumber + " " + blobToUrl.size());
+
+		}
+		finally {
+			if (null != cis) {
+				cis.close();
+			}
+		}
+
+
+		return null;
+
+	}
+
+    public DirectoryEntry getDirectoryInfoAtUrlPosition(long position)
+            throws IOException {
+
+        // Helpers
+        long pos;
+        byte[] buffer = new byte[8];
+
+        // At the appropriate position in the titlePtrPos
+        mReader.seek(position);
+
+        // Get value of article at index
+        pos = mReader.readEightLittleEndianBytesValue(buffer);
+
+        // Move to the position in urlPtrPos
+        mReader.seek(mFile.getUrlPtrPos() + 8L * pos);
+
+        // Get value of article in urlPtrPos
+        pos = mReader.readEightLittleEndianBytesValue(buffer);
+
+        // Go to the location of the directory entry
+        mReader.seek(pos);
+
+        int type = mReader.readTwoLittleEndianBytesValue(buffer);
+
+        // Ignore the parameter length
+        mReader.read();
+
+        char namespace = (char) mReader.read();
+        // System.out.println("Namepsace: " + namespace);
+
+        int revision = mReader.readFourLittleEndianBytesValue(buffer);
+        // System.out.println("Revision: " + revision);
+
+        // TODO: Remove redundant if condition code
+        // Article or Redirect entry
+        if (type == 65535) {
+
+            // System.out.println("MIMEType: " + type);
+
+            int redirectIndex = mReader.readFourLittleEndianBytesValue(buffer);
+            // System.out.println("RedirectIndex: " + redirectIndex);
+
+            String url = mReader.readString();
+            // System.out.println("URL: " + url);
+
+            String title = mReader.readString();
+            title = title.equals("") ? url : title;
+            // System.out.println("Title: " + title);
+
+            return new RedirectEntry(type, namespace, revision, redirectIndex,
+                    url, title, (int)(position - mFile.getUrlPtrPos()) / 8);
+
+        } else {
+
+            // System.out.println("MIMEType: " + mFile.getMIMEType(type));
+
+            int clusterNumber = mReader.readFourLittleEndianBytesValue(buffer);
+            // System.out.println("Cluster Number: " + clusterNumber);
+
+            int blobNumber = mReader.readFourLittleEndianBytesValue(buffer);
+            // System.out.println("Blob Number: " + blobNumber);
+
+            String url = mReader.readString();
+            // System.out.println("URL: " + url);
+
+            String title = mReader.readString();
+            title = title.equals("") ? url : title;
+            // System.out.println("Title: " + title);
+
+            // Parameter data ignored
+
+            return new ArticleEntry(type, namespace, revision, clusterNumber,
+                    blobNumber, url, title,
+                    (int)(position - mFile.getUrlPtrPos()) / 8);
+        }
+
+    }
+
+	public ZIMFile getZIMFile() {
+		return mFile;
+	}
+}

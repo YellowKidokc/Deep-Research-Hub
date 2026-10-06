@@ -1,0 +1,20 @@
+/* Brand fonts — self-hosted WOFF2, the single font source for every surface
+   (provided by @cocoindex/brand; docs no longer self-hosts its own). */
+@import '@cocoindex/brand/fonts.css';
+/* Shared design layer — from @cocoindex/brand, the single source of truth across
+   home, blog, and docs. tokens.css = :root tokens; components.css = the shared
+   primitives (callouts, .btn, .t-* tags, inline code + .code-figure, cards, prose). */
+@import '@cocoindex/brand/tokens.css';
+@import '@cocoindex/brand/components.css';
+/* Docs-only chrome (sidebar groups, TOC, pager, breadcrumb, search button,
+   version dropdown, doc footer). Not in components.css — home/blog don't need it. */
+@import '@cocoindex/brand/docs-chrome.css';
+/* Docs layout (3-pane shell, mobile drawer content, intro-meta, responsive) and
+   the DocSearch modal theme — both moved into @cocoindex/brand so docs styling
+   lives in one place. Docs-only brand files (home/blog don't import them). */
+@import '@cocoindex/brand/docs-layout.css';
+@import '@cocoindex/brand/docsearch.css';
+/* Section-overview cards (DocCard / DocCardGrid) — the hum-07 color-shift grid
+   used on the docs landing/section overview pages. */
+@import '@cocoindex/brand/doc-card.css';
+@import '@cocoindex/brand/doc-card-grid.css';

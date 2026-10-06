@@ -1,0 +1,28 @@
+---
+fis_schema: "folder-index.v1"
+folder_id: "FLD-20260907-655a6ddd"
+folder: "GitHub\Research-Acquisition\ZZZ_Archive\gpt-researcher1_SUPERSEDED_2026-08-24\docs\blog\2024-09-7-hybrid-research"
+folder_class: "project"
+confidence: 0.6
+dependency_risk: 0.0
+dominant_family: "other"
+dominant_ratio: 0.333
+file_count: 3
+classified_at: "2026-09-07T16:08:03"
+allowed_actions: ["index", "rename_internal", "subfolder_sort", "archive_exports"]
+suggested_name: "2024-09-7-hybrid-research"
+---
+
+# FIS Folder Index: 2024-09-7-hybrid-research
+
+**Class**: project  ·  **Confidence**: 60%  ·  **Files**: 3  ·  **Dominant**: other (33%)
+
+## Allowed actions
+- index
+- rename_internal
+- subfolder_sort
+- archive_exports
+
+**Suggested name**: `2024-09-7-hybrid-research`  (not applied — review before use)
+
+<!-- FIS folder-index.v1: parseable note; safe to regenerate. -->

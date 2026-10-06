@@ -1,0 +1,167 @@
+{
+  "name": "coherence",
+  "parsed": {
+    "station": "coherence_score",
+    "paper_uuid": "AX_GI_01_FL_01_GOD_AS_ROOT_f055954a",
+    "run_uuid": "deep-c4257a456793",
+    "overall": {
+      "score": 7,
+      "score_ceiling": 10,
+      "status": "ASSESSED",
+      "summary": "The paper is broadly coherent in its central theological-physical analogy, but it carries unresolved tensions around the status of the Trinity as an axiom, the nature of the ten-law mapping, and the relationship between physics and grace."
+    },
+    "dimensions": [
+      {
+        "name": "internal_consistency",
+        "score": 7,
+        "reasons": [
+          "S040-S045 and S310-S312 consistently assert that God cannot be proven from within the system, aligning with the axiom status.",
+          "S056-S058 and S113-S121 consistently distinguish physics as created medium from God and grace.",
+          "S228-S229 and S410 consistently state that the argument does not rely on gaps but on completions.",
+          "However, S023-S039 claims the Trinity pays four debts (existence, distinction, relation, orientation) from one structure, while S290-S297 presents a separate necessary-ground argument with five properties; the relationship between these two grounding arguments is not fully integrated.",
+          "S151-S156 cites a Hessian matrix scoring 'love' as most connected, but no formal model or data is provided, creating a tension between the claim of mathematical support and the absence of reproducible detail."
+        ],
+        "affected_atom_uuids": [
+          "A01",
+          "A02",
+          "A05",
+          "A13",
+          "A20"
+        ]
+      },
+      {
+        "name": "definitional_stability",
+        "score": 6,
+        "reasons": [
+          "Key terms like 'axiom' (S010-S014, S040-S045) and 'Layer 0' (S044) are used consistently within the paper.",
+          "The ten laws are listed in S235-S245 with spiritual readings, but the criteria for mapping a physical law to a spiritual concept are not defined; the mapping appears analogical rather than formal.",
+          "The term 'agency' is identified as the repeated missing piece (S246-S249), but its precise definition and how it functions as a structural gap are not fully specified.",
+          "The 'Cross-Resolution Method' (S276-S288) defines registers and bridge rules, but the strength criteria for bridges are not quantified.",
+          "The 'necessary ground' argument (S290-S297) lists five properties, but the derivation of these properties from the premises is not fully shown."
+        ],
+        "affected_atom_uuids": [
+          "A03",
+          "A04",
+          "A08",
+          "A20"
+        ]
+      },
+      {
+        "name": "inferential_connectedness",
+        "score": 7,
+        "reasons": [
+          "The Descent (S315-S338) presents a 24-step causal chain with explicit logical connectors, though some steps (e.g., S322 'relation reveals value') are asserted rather than derived.",
+          "The argument from physics to the character of God (S124-S156) relies on reading properties together as a portrait; the inferential leap from properties to a specific Person is acknowledged as a bridge (S401) but not formally justified.",
+          "The necessary ground argument (S290-S297) moves from cosmological and coherence premises to divine attributes, but the step from 'active' to 'personal' (S297) is supported only by a parenthetical appeal to moral realism.",
+          "The claim that the empty tomb is a physics claim (S219-S223) connects information survival and entropy reversal to resurrection, but the physical principles are used analogically rather than as direct evidence."
+        ],
+        "affected_atom_uuids": [
+          "A05",
+          "A06",
+          "A09",
+          "A10",
+          "A11",
+          "A12"
+        ]
+      },
+      {
+        "name": "register_boundary_respect",
+        "score": 8,
+        "reasons": [
+          "The paper explicitly defines registers (theology, physics, mathematics, lived reality, bridge) in S277-S281 and states rules against smuggling (S282-S285).",
+          "It repeatedly marks bridges as declared and not proof (S401, S410).",
+          "It acknowledges the modest status of physics (S400) and the need for adversarial testing (S402).",
+          "However, some passages blur the boundary, e.g., S151-S156 presents a mathematical result (Hessian matrix) as supporting a theological claim without detailing the model, and S219-S223 calls the empty tomb a 'physics claim' while the physics is used analogically.",
+          "The claim that 'the math said it without being asked' (S156) risks implying that mathematics independently confirms theology, which would violate the stated bridge rules."
+        ],
+        "affected_atom_uuids": [
+          "A02",
+          "A08",
+          "A09",
+          "A20"
+        ]
+      }
+    ],
+    "contradictions": [
+      {
+        "atoms": [
+          "A01",
+          "A05"
+        ],
+        "description": "A01 states the Trinity is the single ground axiom and cannot be proven. A05 presents a necessary ground argument that derives a personal, self-grounding source from cosmological and coherence premises. If the Trinity is the axiom, the necessary ground argument is either redundant or implies the Trinity can be partially proven from other premises, creating tension about the foundational status of the Trinity.",
+        "severity": "structural"
+      },
+      {
+        "atoms": [
+          "A03",
+          "A20"
+        ],
+        "description": "A03 claims the ten laws compose a portrait of Christ with agency as the repeated gap. A20 states the ten-law mappings need adversarial testing and are only partially formalized. This is a tension between the strong claim of a specific portrait and the acknowledged lack of formal validation.",
+        "severity": "local"
+      }
+    ],
+    "tensions": [
+      {
+        "atoms": [
+          "A02",
+          "A09"
+        ],
+        "description": "A02 says physics is the created medium, not grace. A09 says the empty tomb is a physics claim about information survival and entropy reversal. The latter uses physics as direct evidence for a miraculous event, which may blur the boundary between medium and grace."
+      },
+      {
+        "atoms": [
+          "A04",
+          "A13"
+        ],
+        "description": "A04 claims God is in the completions, not the gaps. A13 acknowledges the match could be coincidence and a skeptic could write the opposite essay. This is an honest tension between the strength of the pattern and its potential coincidental nature."
+      },
+      {
+        "atoms": [
+          "A05",
+          "A20"
+        ],
+        "description": "A05 presents the necessary ground argument as having five proofs. A20 says mathematics is partially formalized and the necessary ground argument has five proofs, but the ten-law mappings need testing. The status of the five proofs is unclear: are they fully formalized or not?"
+      }
+    ],
+    "missing_definitions": [
+      {
+        "term": "agency",
+        "description": "Used as the repeated missing piece in the ten-law mapping (S246-S249) but not formally defined as a structural variable."
+      },
+      {
+        "term": "bridge strength",
+        "description": "The Cross-Resolution Method (S286-S288) says to name bridge strength, but no scale or criteria are provided."
+      },
+      {
+        "term": "coherence",
+        "description": "Central to the framework (e.g., S291, S295) but not defined in physical or mathematical terms within the paper."
+      },
+      {
+        "term": "Layer 0",
+        "description": "Mentioned in S044 as a derivation grammar concept, but the grammar itself is not fully specified."
+      }
+    ],
+    "notes": "The paper is a long-form source edition marked as candidate, not canonized. Its coherence is strengthened by explicit method rules and self-imposed kill conditions, but weakened by unresolved integration of multiple grounding arguments and reliance on analogical mappings without formal criteria. The score reflects a generally coherent but not fully systematized framework."
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "coherence",
+      "attempt": 1,
+      "text": "{\n  \"station\": \"coherence_score\",\n  \"paper_uuid\": \"AX_GI_01_FL_01_GOD_AS_ROOT_f055954a\",\n  \"run_uuid\": \"deep-c4257a456793\",\n  \"overall\": {\n    \"score\": 7,\n    \"score_ceiling\": 10,\n    \"status\": \"ASSESSED\",\n    \"summary\": \"The paper is broadly coherent in its central theological-physical analogy, but it carries unresolved tensions around the status of the Trinity as an axiom, the nature of the ten-law mapping, and the relationship between physics and grace.\"\n  },\n  \"dimensions\": [\n    {\n      \"name\": \"internal_consistency\",\n      \"score\": 7,\n      \"reasons\": [\n        \"S040-S045 and S310-S312 consistently assert that God cannot be proven from within the system, aligning with the axiom status.\",\n        \"S056-S058 and S113-S121 consistently distinguish physics as created medium from God and grace.\",\n        \"S228-S229 and S410 consistently state that the argument does not rely on gaps but on completions.\",\n        \"However, S023-S039 claims the Trinity pays four debts (existence, distinction, relation, orientation) from one structure, while S290-S297 presents a separate necessary-ground argument with five properties; the relationship between these two grounding arguments is not fully integrated.\",\n        \"S151-S156 cites a Hessian matrix scoring 'love' as most connected, but no formal model or data is provided, creating a tension between the claim of mathematical support and the absence of reproducible detail.\"\n      ],\n      \"affected_atom_uuids\": [\n        \"A01\",\n        \"A02\",\n        \"A05\",\n        \"A13\",\n        \"A20\"\n      ]\n    },\n    {\n      \"name\": \"definitional_stability\",\n      \"score\": 6,\n      \"reasons\": [\n        \"Key terms like 'axiom' (S010-S014, S040-S045) and 'Layer 0' (S044) are used consistently within the paper.\",\n        \"The ten laws are listed in S235-S245 with spiritual readings, but the criteria for mapping a physical law to a spiritual concept are not defined; the mapping appears analogical rather than formal.\",\n        \"The term 'agency' is identified as the repeated missing piece (S246-S249), but its precise definition and how it functions as a structural gap are not fully specified.\",\n        \"The 'Cross-Resolution Method' (S276-S288) defines registers and bridge rules, but the strength criteria for bridges are not quantified.\",\n        \"The 'necessary ground' argument (S290-S297) lists five properties, but the derivation of these properties from the premises is not fully shown.\"\n      ],\n      \"affected_atom_uuids\": [\n        \"A03\",\n        \"A04\",\n        \"A08\",\n        \"A20\"\n      ]\n    },\n    {\n      \"name\": \"inferential_connectedness\",\n      \"score\": 7,\n      \"reasons\": [\n        \"The Descent (S315-S338) presents a 24-step causal chain with explicit logical connectors, though some steps (e.g., S322 'relation reveals value') are asserted rather than derived.\",\n        \"The argument from physics to the character of God (S124-S156) relies on reading properties together as a portrait; the inferential leap from properties to a specific Person is acknowledged as a bridge (S401) but not formally justified.\",\n        \"The necessary ground argument (S290-S297) moves from cosmological and coherence premises to divine attributes, but the step from 'active' to 'personal' (S297) is supported only by a parenthetical appeal to moral realism.\",\n        \"The claim that the empty tomb is a physics claim (S219-S223) connects information survival and entropy reversal to resurrection, but the physical principles are used analogically rather than as direct evidence.\"\n      ],\n      \"affected_atom_uuids\": [\n        \"A05\",\n        \"A06\",\n        \"A09\",\n        \"A10\",\n        \"A11\",\n        \"A12\"\n      ]\n    },\n    {\n      \"name\": \"register_boundary_respect\",\n      \"score\": 8,\n      \"reasons\": [\n        \"The paper explicitly defines registers (theology, physics, mathematics, lived reality, bridge) in S277-S281 and states rules against smuggling (S282-S285).\",\n        \"It repeatedly marks bridges as declared and not proof (S401, S410).\",\n        \"It acknowledges the modest status of physics (S400) and the need for adversarial testing (S402).\",\n        \"However, some passages blur the boundary, e.g., S151-S156 presents a mathematical result (Hessian matrix) as supporting a theological claim without detailing the model, and S219-S223 calls the empty tomb a 'physics claim' while the physics is used analogically.\",\n        \"The claim that 'the math said it without being asked' (S156) risks implying that mathematics independently confirms theology, which would violate the stated bridge rules.\"\n      ],\n      \"affected_atom_uuids\": [\n        \"A02\",\n        \"A08\",\n        \"A09\",\n        \"A20\"\n      ]\n    }\n  ],\n  \"contradictions\": [\n    {\n      \"atoms\": [\n        \"A01\",\n        \"A05\"\n      ],\n      \"description\": \"A01 states the Trinity is the single ground axiom and cannot be proven. A05 presents a necessary ground argument that derives a personal, self-grounding source from cosmological and coherence premises. If the Trinity is the axiom, the necessary ground argument is either redundant or implies the Trinity can be partially proven from other premises, creating tension about the foundational status of the Trinity.\",\n      \"severity\": \"structural\"\n    },\n    {\n      \"atoms\": [\n        \"A03\",\n        \"A20\"\n      ],\n      \"description\": \"A03 claims the ten laws compose a portrait of Christ with agency as the repeated gap. A20 states the ten-law mappings need adversarial testing and are only partially formalized. This is a tension between the strong claim of a specific portrait and the acknowledged lack of formal validation.\",\n      \"severity\": \"local\"\n    }\n  ],\n  \"tensions\": [\n    {\n      \"atoms\": [\n        \"A02\",\n        \"A09\"\n      ],\n      \"description\": \"A02 says physics is the created medium, not grace. A09 says the empty tomb is a physics claim about information survival and entropy reversal. The latter uses physics as direct evidence for a miraculous event, which may blur the boundary between medium and grace.\"\n    },\n    {\n      \"atoms\": [\n        \"A04\",\n        \"A13\"\n      ],\n      \"description\": \"A04 claims God is in the completions, not the gaps. A13 acknowledges the match could be coincidence and a skeptic could write the opposite essay. This is an honest tension between the strength of the pattern and its potential coincidental nature.\"\n    },\n    {\n      \"atoms\": [\n        \"A05\",\n        \"A20\"\n      ],\n      \"description\": \"A05 presents the necessary ground argument as having five proofs. A20 says mathematics is partially formalized and the necessary ground argument has five proofs, but the ten-law mappings need testing. The status of the five proofs is unclear: are they fully formalized or not?\"\n    }\n  ],\n  \"missing_definitions\": [\n    {\n      \"term\": \"agency\",\n      \"description\": \"Used as the repeated missing piece in the ten-law mapping (S246-S249) but not formally defined as a structural variable.\"\n    },\n    {\n      \"term\": \"bridge strength\",\n      \"description\": \"The Cross-Resolution Method (S286-S288) says to name bridge strength, but no scale or criteria are provided.\"\n    },\n    {\n      \"term\": \"coherence\",\n      \"description\": \"Central to the framework (e.g., S291, S295) but not defined in physical or mathematical terms within the paper.\"\n    },\n    {\n      \"term\": \"Layer 0\",\n      \"description\": \"Mentioned in S044 as a derivation grammar concept, but the grammar itself is not fully specified.\"\n    }\n  ],\n  \"notes\": \"The paper is a long-form source edition marked as candidate, not canonized. Its coherence is strengthened by explicit method rules and self-imposed kill conditions, but weakened by unresolved integration of multiple grounding arguments and reliance on analogical mappings without formal criteria. The score reflects a generally coherent but not fully systematized framework.\"\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 11047,
+      "completion_tokens": 1804,
+      "attempts": 1,
+      "elapsed_seconds": 9.59400000000096,
+      "started_at": "2026-09-27T13:00:05.187815+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T13:00:14.788255+00:00",
+      "tokens": 12851
+    }
+  ],
+  "prompt_sha256": "5c19a0f36a48e3ad60b12a1a0f899294767b18c68026b43942e11801d2480af0",
+  "tokens": 12851
+}

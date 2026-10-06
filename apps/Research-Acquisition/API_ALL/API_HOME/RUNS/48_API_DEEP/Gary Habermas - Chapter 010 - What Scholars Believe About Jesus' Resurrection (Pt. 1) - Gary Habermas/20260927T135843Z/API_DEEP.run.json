@@ -1,0 +1,172 @@
+{
+  "station": "48_API_DEEP",
+  "source": "C:\\Users\\David\\Documents\\faiththruphysics.com\\30_FRAMEWORKS\\YOUTUBE\\CHANNEL - Gary Habermas - 2026-09-15\\Gary Habermas - Chapter 010 - What Scholars Believe About Jesus' Resurrection (Pt. 1) - Gary Habermas.md",
+  "source_sha256": "bddcdd5b011acd439fa74692c0db15ab1747321dffa814226ebc4aa3a6a4b62c",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "focus_text": "",
+  "focus_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "finished_at": "2026-09-27T13:59:33.322245+00:00",
+  "errors": {},
+  "tokens_new": 454937,
+  "prompt_files": {
+    "ATOMS_V1_1_INTAKE.md": "db6e9a321f05314a261fce5854aff8c22186a08913c46a0c206d6eaa20e1cfec",
+    "AXIOM_NODES.md": "0c1b184283c6496dbd8bca7b2839658b72744ae9218cdab0505147226fb98515",
+    "AXIOMS_PART1_MODE_CLASSIFICATION.md": "b6e0eb37276b2ccd21bb9e495b0978d4f3c62e85207bbc22cff48b04f1e994c6",
+    "character_profiles.json": "ee2bff2c06bc3c7e9f8dde19d3778b135db84b0812632b93e5627c27a5f9ae5b",
+    "CHARACTER_PROFILES.md": "bc03198519983ffdcba8938af3acf6093357888835526717df149bd074cddedc",
+    "COHERENCE_SCORE.md": "435b6af363ebb30ec45be95a8956877e988e6467240d6a343fe651a1d4160cad",
+    "fruits_report_v0.3.0.schema.json": "543c743fb0b5a5f4f31c8d54b978260be87ddda3bff482aadad87936fffaf5c6",
+    "fruits_rubric_v0.3.0.json": "cc1274786bc105c1fe1226866790b6fe5f878e59e8f3f8019ab8db0b0ff67bd9",
+    "FRUITS_SENTENCES.md": "169c272f869c23043af8aed1bc73edae2e082ddabc1289f066a0f21640cfb027",
+    "FRUITS_SYSTEM_v0.3.0.md": "ceb2d714b4d7871509ddc62a42590e57bc563752b014892f9f36b7133462613a",
+    "FRUITS_V1.md": "c58d9e73b68517bf77fca52394f03842c2a21b7211aaa04e5d04f7af21043af0",
+    "LEAN4.md": "188f8d87a6d3111ce0f9d7aea2b506b57fdd8f4de6e2b614131626f1e065ef6b",
+    "MASTER_EQUATION_V1_PART_B.md": "e3a8d030f2d99428da1b7a17277b0040104276277ee87a5a860241b074e93c86",
+    "MASTER_EQUATION_V2.md": "1a14a22f0423d3b947b5eaee2057162d04da8d4417bdab139e28f3a4cde789db",
+    "STORIES.md": "6a534baa303dbec134bb1aa15cc55cd67eab0a1c643a595cb9d9e232173e953e",
+    "truth_engine_v2_lexicons.json": "3ed54096dcd45220992dbbcf2948c5e1df78ab8ba0c3f747bbe387ffb651785e"
+  },
+  "calls": [
+    {
+      "name": "atoms",
+      "prompt_sha256": "fec5139bb57400cabaa8c31854f78010a1850d2b8679b6811b196c35cc31ec9b",
+      "tokens": 27406,
+      "error": null,
+      "reused": null
+    },
+    {
+      "name": "fruits_sentences_1",
+      "prompt_sha256": "bd9cb0dd902c6ca64f42403585af6d1de4bb8f4dd757a5a9bd2ded811adc1a20",
+      "tokens": 21638,
+      "error": null,
+      "reused": null
+    },
+    {
+      "name": "fruits_sentences_2",
+      "prompt_sha256": "795603fc27e04abaff321ed2398069d44c573026ef8adf6195048e3744622025",
+      "tokens": 21638,
+      "error": null,
+      "reused": null
+    },
+    {
+      "name": "fruits_sentences_3",
+      "prompt_sha256": "5b8c08ad09003018a6380f3ce0f594de46e6891281fef77a9694d1b8a88b062f",
+      "tokens": 21638,
+      "error": null,
+      "reused": null
+    },
+    {
+      "name": "fruits_sentences_4",
+      "prompt_sha256": "5a5ff17cdf19d100a7dd5d05098795af39320984e5039e7522f5b6790f694cc5",
+      "tokens": 21638,
+      "error": null,
+      "reused": null
+    },
+    {
+      "name": "fruits_sentences_5",
+      "prompt_sha256": "b7f9fd852b20a72f69e1e9f8241a2ceeda14bcceee43350267d68dcabaf10bb6",
+      "tokens": 21638,
+      "error": null,
+      "reused": null
+    },
+    {
+      "name": "fruits_sentences_6",
+      "prompt_sha256": "3ed70d2ba9e1bbc6573f867584aca4c1d586ddc5f3bc49f30c4abde13dfe247e",
+      "tokens": 21638,
+      "error": null,
+      "reused": null
+    },
+    {
+      "name": "fruits_sentences_7",
+      "prompt_sha256": "4fad950bb60da8e75ec133dbaca332215191308fb5d52373fbfdedc7c350aca1",
+      "tokens": 21638,
+      "error": null,
+      "reused": null
+    },
+    {
+      "name": "fruits_sentences_8",
+      "prompt_sha256": "b77cf1e69c4279475e4b939aa7d78053ee8d21d52d97e03f9ff7848afd13f181",
+      "tokens": 21638,
+      "error": null,
+      "reused": null
+    },
+    {
+      "name": "fruits_sentences_9",
+      "prompt_sha256": "f51de2ef9690ab73073575b79889f80f99179f67d543a82a4fd68df61a709712",
+      "tokens": 21638,
+      "error": null,
+      "reused": null
+    },
+    {
+      "name": "fruits_sentences_10",
+      "prompt_sha256": "1ad1087562571a319f91e56c3b29f134910956552212481b2907ff09d47a595c",
+      "tokens": 21657,
+      "error": null,
+      "reused": null
+    },
+    {
+      "name": "fruits_sentences_11",
+      "prompt_sha256": "03101bbb9bda36c7bb449609c48eb5bf7d0343fc7f01ba0fbab3e5b61e76678d",
+      "tokens": 21638,
+      "error": null,
+      "reused": null
+    },
+    {
+      "name": "fruits_sentences_12",
+      "prompt_sha256": "b255058ba32c04775e84a3c2fbf333170bbd08aba747130d7175dfccaeac50e6",
+      "tokens": 20680,
+      "error": null,
+      "reused": null
+    },
+    {
+      "name": "master_equation_a1",
+      "prompt_sha256": "5a38cd9b556eb5db50f97b80778329928de7b9dc2eb78ed5d77cf7f40fe7893f",
+      "tokens": 21979,
+      "error": null,
+      "reused": null
+    },
+    {
+      "name": "master_equation_a2",
+      "prompt_sha256": "5a38cd9b556eb5db50f97b80778329928de7b9dc2eb78ed5d77cf7f40fe7893f",
+      "tokens": 21299,
+      "error": null,
+      "reused": null
+    },
+    {
+      "name": "fruits",
+      "prompt_sha256": "ba34a6f953b2503cf7117e70c85a787b0fc0aafbea0c6388d7a69587c7ea151f",
+      "tokens": 29508,
+      "error": null,
+      "reused": null
+    },
+    {
+      "name": "axiom_nodes",
+      "prompt_sha256": "4cfd9c5ef77a56f3538dd599703789e0274173af433c3b952d82a627c1de9c6d",
+      "tokens": 23793,
+      "error": null,
+      "reused": null
+    },
+    {
+      "name": "lean4",
+      "prompt_sha256": "95537202c280711d69a9f65f1d82e29333b18c96dfea591a0af8071420c576d6",
+      "tokens": 25065,
+      "error": null,
+      "reused": null
+    },
+    {
+      "name": "stories",
+      "prompt_sha256": "cec4607b2c1c3f53a07895fcbd5fd94fdef0e2e36b743d9d55eaefdc85efd608",
+      "tokens": 25819,
+      "error": null,
+      "reused": null
+    },
+    {
+      "name": "coherence",
+      "prompt_sha256": "55a02ebe2ede8d78a755df63e5eba7cd776798a64692c0f47c4a0ba347933690",
+      "tokens": 21351,
+      "error": null,
+      "reused": null
+    }
+  ]
+}

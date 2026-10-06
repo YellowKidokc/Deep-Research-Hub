@@ -1,0 +1,117 @@
+{
+  "station": "coherence_score",
+  "paper_uuid": "Gary Habermas - Chapter 006 - What Critical Scholars Say About Jesus' Bodily Resurrection - Gary Habermas",
+  "run_uuid": "deep-29499d7076b3",
+  "overall": {
+    "score": 8,
+    "score_ceiling": 10,
+    "status": "ASSESSED",
+    "summary": "The chapter is internally coherent: its central claim that critical scholars increasingly affirm Paul's bodily resurrection view is consistently supported by cited examples, with only minor definitional looseness around 'critical' and 'bodily'."
+  },
+  "dimensions": [
+    {
+      "name": "internal_consistency",
+      "score": 9,
+      "reasons": [
+        "A01 (Paul believed in bodily resurrection) is directly supported by S020, S024, S027, S029, S031.",
+        "A02 (critical scholars increasingly affirm bodily resurrection) is supported by S027-S029 and S040-S044.",
+        "A03 (Dale Allison's testimony) is accurately quoted in S071 and S074.",
+        "A04 (Tom Wright's analogy) is reported in S046-S051 with only minor uncertainty about attribution.",
+        "A05 (Gundry's Soma against Bultmann) is supported by S079-S081.",
+        "A06 (Bultmann's view distinguished from Paul's) is supported by S032-S035.",
+        "No sentence contradicts another; the narrative consistently distinguishes what Paul believed from what scholars personally believe."
+      ],
+      "affected_atom_uuids": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06"
+      ]
+    },
+    {
+      "name": "definitional_stability",
+      "score": 7,
+      "reasons": [
+        "The key term 'bodily resurrection' is used consistently to mean a physical, non-ghostly appearance (S020-S024, S031).",
+        "The term 'critical scholars' is not explicitly defined; the chapter relies on examples (Dale Allison, John Cook, Tom Wright, Gundry) without specifying criteria for 'critical' (S029, S037, S040, S042).",
+        "The distinction between what a scholar believes and what they say Paul believed is clearly drawn in S032-S035, stabilizing the central claim.",
+        "Minor ambiguity: 'Casper' and 'Jedi Jesus' are used as informal labels for non-bodily views (S021-S023) without formal definition, but context makes them clear."
+      ],
+      "affected_atom_uuids": [
+        "A01",
+        "A02",
+        "A06"
+      ]
+    },
+    {
+      "name": "inferential_connectedness",
+      "score": 8,
+      "reasons": [
+        "The chapter moves from specific scholarly examples (John Cook, Dale Allison, Tom Wright, Gundry) to the general conclusion that bodily resurrection is widely taught (S027-S029, S040-S044).",
+        "The inference from individual testimonies to a broader trend is supported by multiple independent examples, though the sample is selective.",
+        "The link between Paul's view and the Gospels' view is asserted (S020, S024) and reinforced by Allison's statement (S031).",
+        "No major inferential gaps; the argument is cumulative rather than deductive."
+      ],
+      "affected_atom_uuids": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05"
+      ]
+    },
+    {
+      "name": "register_boundary_respect",
+      "score": 8,
+      "reasons": [
+        "The chapter stays within the register of historical-theological reportage, citing scholars and their views without overclaiming proof.",
+        "It distinguishes between historical claim (Paul believed X) and personal belief (Bultmann rejects X) in S032-S035.",
+        "It does not conflate historical evidence with theological truth; the focus is on what scholars say.",
+        "Minor boundary blur: the host's enthusiasm ('that one by Dale probably takes the cake', S084) is evaluative but does not distort the reporting."
+      ],
+      "affected_atom_uuids": [
+        "A01",
+        "A02",
+        "A06"
+      ]
+    }
+  ],
+  "contradictions": [],
+  "tensions": [
+    {
+      "atoms": [
+        "A02",
+        "A06"
+      ],
+      "description": "The chapter claims critical scholars increasingly affirm bodily resurrection, yet Bultmann is cited as a critical scholar who personally rejects it. This is not a contradiction because the claim is about what scholars say Paul believed, not what they personally believe (S032-S035).",
+      "severity": "local"
+    }
+  ],
+  "missing_definitions": [
+    {
+      "term": "critical scholars",
+      "description": "No explicit criteria are given for what makes a scholar 'critical'; the chapter relies on named examples.",
+      "sentence_ids": [
+        "S029",
+        "S037",
+        "S040",
+        "S042"
+      ]
+    },
+    {
+      "term": "bodily resurrection",
+      "description": "Used consistently but not formally defined; context (contrast with 'Casper'/'Jedi Jesus') clarifies meaning.",
+      "sentence_ids": [
+        "S020",
+        "S021",
+        "S022",
+        "S023",
+        "S024",
+        "S031"
+      ]
+    }
+  ],
+  "notes": "The chapter is a spoken transcript with auto-caption errors (e.g., 'John Cook' likely refers to John S. Kloppenborg or similar; 'Michael Cona' likely Michael Licona; 'Wissenschaftliche' refers to WUNT series). These do not affect coherence. The score reflects strong internal consistency and clear inferential structure, with minor definitional looseness typical of conversational discourse."
+}

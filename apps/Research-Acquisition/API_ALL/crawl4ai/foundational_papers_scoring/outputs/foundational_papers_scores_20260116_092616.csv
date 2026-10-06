@@ -1,0 +1,12 @@
+paper,paper_stem,word_count,chi,total_score,normalized_score,grade,interpretation,f1_grace,f2_hope,f3_patience,f4_faithfulness,f5_self_control,f6_love,f7_peace,f8_truth,f9_humility,f10_goodness,f11_unity,f12_joy
+P2_QUANTUM_BRIDGE_SYNTHESIS.md,P2_QUANTUM_BRIDGE_SYNTHESIS,2210,0.875,9.0,87.5,A-,"Coherence-stable, long-term viable",1.0,0.0,1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+Theophysics axioms.md,Theophysics axioms,4087,0.8541666666666666,8.5,85.4,A-,"Coherence-stable, long-term viable",1.0,1.0,1.0,0.0,1.0,0.5,0.0,1.0,1.0,1.0,1.0,0.0
+Theophysics_axioms_STRUCTURED.md,Theophysics_axioms_STRUCTURED,4728,0.8541666666666666,8.5,85.4,A-,"Coherence-stable, long-term viable",1.0,1.0,1.0,0.0,1.0,0.5,0.0,1.0,1.0,1.0,1.0,0.0
+Untitled 1.md,Untitled 1,4597,0.7840416666666666,6.817,78.4,B+,"Partially stable, repairable",1.0,1.0,0.2,-1.0,0.867,1.0,0.75,1.0,0.0,1.0,1.0,0.0
+00_MATH_SUMMARY.md,00_MATH_SUMMARY,3504,0.7824166666666666,6.778,78.2,B+,"Partially stable, repairable",0.778,1.0,0.0,1.0,1.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0
+AXIOMS_THEOPHYSICS_COMPLETE.md,AXIOMS_THEOPHYSICS_COMPLETE,8241,0.75775,6.186,75.8,B+,"Partially stable, repairable",0.723,0.077,0.143,-0.333,1.0,1.0,0.0,0.576,1.0,1.0,1.0,0.0
+SUBSECTION_TEMPLATE.md,SUBSECTION_TEMPLATE,884,0.7083333333333334,5.0,70.8,B,"Partially stable, repairable",1.0,0.0,0.0,0.0,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0
+Master EQUATION.md,Master EQUATION,1634,0.7083333333333334,5.0,70.8,B,"Partially stable, repairable",1.0,0.0,-1.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0
+Theophysics Math Translation Layer by Domain.md,Theophysics Math Translation Layer by Domain,5378,0.69475,4.674,69.5,B-,"Partially stable, repairable",0.931,1.0,0.143,0.0,0.0,1.0,0.0,0.6,0.0,0.0,1.0,0.0
+AXIOM_DERIVATION_FROM_CHI.md,AXIOM_DERIVATION_FROM_CHI,1948,0.686375,4.473,68.6,B-,"Partially stable, repairable",0.273,0.2,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,0.0
+Theophysics Paper 2.md,Theophysics Paper 2,2639,0.6405,3.372,64.0,C+,"Partially stable, repairable",1.0,0.905,0.0,-1.0,1.0,0.0,0.0,0.467,1.0,0.0,0.0,0.0

@@ -1,0 +1,181 @@
+{
+  "name": "grade_b_2",
+  "parsed": {
+    "arguments": [
+      {
+        "id": "G7",
+        "name": "Jesus Seminar presupposes that dead men do not rise",
+        "speaker": "Gary Habermas",
+        "conclusion": "The Jesus Seminar's rejection of resurrection sayings rests on a bare presupposition that dead men do not rise, which is a weak starting point for historical study.",
+        "premises": [
+          "P1: The Jesus Seminar lists 38 or 39 presuppositions at the beginning of volume one.",
+          "P2: One presupposition states that people wonder why they have no words from the resurrected Jesus in the Gospels, and the reason is 'Dead men don't rise.'",
+          "P3: They conclude that Jesus's life ends on Good Friday evening.",
+          "P4: This is a massive presupposition that simply assumes the point at issue."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "They said, \"Okay, first of all, that's one whale of a presupposition. You're just going to say that's true? I think that's kind of weak.\""
+          },
+          "st2": {
+            "v": 2,
+            "quote": "They say, \"People wonder why we don't have any words that are purported from the resurrected Jesus in the Gospels. There's a reason for it. Dead men don't rise. And so for us, his life ends on Good Friday evening.\""
+          },
+          "st3": {
+            "v": 2,
+            "quote": "Go to the beginning of volume one of their two and they have 30-something, 38, 39 presuppositions with which they wrote these things. And one of them says, uh and and they do this in the forward and in the beginning."
+          },
+          "st4": {
+            "v": 2,
+            "quote": "You're just going to say that's true? I think that's kind of weak. But my point is, if you're going to say, 'Oh, they were probably all believers. Yeah, they're they're to the left, but they're probably all believers.' And they're saying right at the beginning, 'Resurrection, not us. That's not part of our study.'"
+          },
+          "st5": {
+            "v": 1,
+            "quote": "I'm not going to argue whether they are Christians or not Christians"
+          },
+          "st6": {
+            "v": 2,
+            "quote": "They said, \"Okay, first of all, that's one whale of a presupposition. You're just going to say that's true? I think that's kind of weak.\""
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 1,
+            "quote": "Go to the beginning of volume one of their two and they have 30-something, 38, 39 presuppositions with which they wrote these things."
+          }
+        },
+        "prior_art": "Albert Schweitzer, The Quest of the Historical Jesus, 1906 (critique of presupposition-laden critical lives of Jesus); Jesus Seminar, The Five Gospels, 1993 (the target text)",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "Go to the beginning of volume one of their two and they have 30-something, 38, 39 presuppositions with which they wrote these things.",
+            "why": "The general charge that critics beg the question against miracle is old (Hume, Schweitzer); the specific textual-vetting of the Jesus Seminar's own presupposition list is a variant with a new target."
+          },
+          "or2": {
+            "v": 2,
+            "quote": "one of them says, uh and and they do this in the forward and in the beginning. They say, \"People wonder why we don't have any words that are purported from the resurrected Jesus in the Gospels. There's a reason for it. Dead men don't rise.\"",
+            "why": "Uses the Seminar's own printed presupposition as evidence, which the older critique did not have available."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain connection is made; the argument stays within historical-critical method."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization, model, or equation is added."
+          }
+        },
+        "weakest_link": "P4's leap from 'they list this as a presupposition' to 'this simply assumes the point at issue' assumes the Seminar could not defend the presupposition as a methodological default rather than a conclusion.",
+        "develop_next": "Quote the presupposition verbatim with page number and address the Seminar's likely reply that historians may legitimately adopt methodological naturalism as a working rule rather than a substantive claim.",
+        "case_map": [
+          "K16",
+          "F4"
+        ],
+        "domain": "history"
+      },
+      {
+        "id": "G8",
+        "name": "Mythicists are not qualified to be included",
+        "speaker": "Gary Habermas",
+        "conclusion": "Jesus mythicists are excluded from the scholarly consensus because they lack relevant credentials and are rejected even by critical scholars like Bart Ehrman.",
+        "premises": [
+          "P1: Bart Ehrman devotes 20 pages in The Evidence for Jesus to explaining why mythicists do not line up with scholarship.",
+          "P2: Ehrman says mythicists have all their sources but are the only ones who have them, and nobody likes them.",
+          "P3: One mythicist claims a PhD and expertise in ancient subjects but has no college degrees.",
+          "P4: Habermas makes allowances for people without PhDs who know the data, but not for those who lack relevant expertise."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "I get I get attacked so often by the so-called Jesus mythers. \"Why don't you allow us?\""
+          },
+          "st2": {
+            "v": 2,
+            "quote": "But you can't claim to have a PhD, as I told one guy does in that group. He claims to have a PhD and be an expert in ancient um ancient subjects and languages, and has no college degrees."
+          },
+          "st3": {
+            "v": 1,
+            "quote": "Bart Ehrman introduces this question in The Evidence for Jesus, his volume. And he takes 20 pages by telling you why the mythicists don't line up."
+          },
+          "st4": {
+            "v": 1,
+            "quote": "I would I make allowances for people who don't have PhDs, but who know the data."
+          },
+          "st5": {
+            "v": 0,
+            "quote": ""
+          },
+          "st6": {
+            "v": 1,
+            "quote": "But you can't claim to have a PhD, as I told one guy does in that group."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 2,
+            "quote": "Bart Ehrman introduces this question in The Evidence for Jesus, his volume. And he takes 20 pages by telling you why the mythicists don't line up. He says, \"They have all their sources, but they're the only ones that have them. Nobody likes them.\""
+          }
+        },
+        "prior_art": "Bart Ehrman, Did Jesus Exist?, 2012 (critique of mythicism)",
+        "originality": {
+          "or1": {
+            "v": 0,
+            "quote": "Bart Ehrman introduces this question in The Evidence for Jesus, his volume. And he takes 20 pages by telling you why the mythicists don't line up.",
+            "why": "Essentially restates Ehrman's already-published case against mythicism, adding only an anecdote."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "But you can't claim to have a PhD, as I told one guy does in that group. He claims to have a PhD and be an expert in ancient um ancient subjects and languages, and has no college degrees.",
+            "why": "Adds a personal credential-check anecdote not in Ehrman's book."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain connection."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization or model."
+          }
+        },
+        "weakest_link": "P2's appeal to Ehrman's authority (and the vague 'nobody likes them') does not itself establish that mythicists lack the relevant expertise; it is an ad populum/authority step.",
+        "develop_next": "State and apply explicit, independently defensible criteria for relevant expertise (terminal degree in a relevant field plus peer-reviewed publication on the resurrection) to the specific mythicist claimants rather than resting on Ehrman's verdict.",
+        "case_map": [
+          "K15",
+          "K16",
+          "F4"
+        ],
+        "domain": "history"
+      }
+    ]
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "grade_b_2",
+      "attempt": 1,
+      "text": "{\n  \"arguments\": [\n    {\n      \"id\": \"G7\",\n      \"name\": \"Jesus Seminar presupposes that dead men do not rise\",\n      \"speaker\": \"Gary Habermas\",\n      \"conclusion\": \"The Jesus Seminar's rejection of resurrection sayings rests on a bare presupposition that dead men do not rise, which is a weak starting point for historical study.\",\n      \"premises\": [\n        \"P1: The Jesus Seminar lists 38 or 39 presuppositions at the beginning of volume one.\",\n        \"P2: One presupposition states that people wonder why they have no words from the resurrected Jesus in the Gospels, and the reason is 'Dead men don't rise.'\",\n        \"P3: They conclude that Jesus's life ends on Good Friday evening.\",\n        \"P4: This is a massive presupposition that simply assumes the point at issue.\"\n      ],\n      \"strength\": {\n        \"st1\": {\"v\": 2, \"quote\": \"They said, \\\"Okay, first of all, that's one whale of a presupposition. You're just going to say that's true? I think that's kind of weak.\\\"\"},\n        \"st2\": {\"v\": 2, \"quote\": \"They say, \\\"People wonder why we don't have any words that are purported from the resurrected Jesus in the Gospels. There's a reason for it. Dead men don't rise. And so for us, his life ends on Good Friday evening.\\\"\"},\n        \"st3\": {\"v\": 2, \"quote\": \"Go to the beginning of volume one of their two and they have 30-something, 38, 39 presuppositions with which they wrote these things. And one of them says, uh and and they do this in the forward and in the beginning.\"},\n        \"st4\": {\"v\": 2, \"quote\": \"You're just going to say that's true? I think that's kind of weak. But my point is, if you're going to say, 'Oh, they were probably all believers. Yeah, they're they're to the left, but they're probably all believers.' And they're saying right at the beginning, 'Resurrection, not us. That's not part of our study.'\"},\n        \"st5\": {\"v\": 1, \"quote\": \"I'm not going to argue whether they are Christians or not Christians\"},\n        \"st6\": {\"v\": 2, \"quote\": \"They said, \\\"Okay, first of all, that's one whale of a presupposition. You're just going to say that's true? I think that's kind of weak.\\\"\"},\n        \"st7\": {\"v\": 0, \"quote\": \"\"},\n        \"st8\": {\"v\": 1, \"quote\": \"Go to the beginning of volume one of their two and they have 30-something, 38, 39 presuppositions with which they wrote these things.\"}\n      },\n      \"prior_art\": \"Albert Schweitzer, The Quest of the Historical Jesus, 1906 (critique of presupposition-laden critical lives of Jesus); Jesus Seminar, The Five Gospels, 1993 (the target text)\",\n      \"originality\": {\n        \"or1\": {\"v\": 1, \"quote\": \"Go to the beginning of volume one of their two and they have 30-something, 38, 39 presuppositions with which they wrote these things.\", \"why\": \"The general charge that critics beg the question against miracle is old (Hume, Schweitzer); the specific textual-vetting of the Jesus Seminar's own presupposition list is a variant with a new target.\"},\n        \"or2\": {\"v\": 2, \"quote\": \"one of them says, uh and and they do this in the forward and in the beginning. They say, \\\"People wonder why we don't have any words that are purported from the resurrected Jesus in the Gospels. There's a reason for it. Dead men don't rise.\\\"\", \"why\": \"Uses the Seminar's own printed presupposition as evidence, which the older critique did not have available.\"},\n        \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain connection is made; the argument stays within historical-critical method.\"},\n        \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization, model, or equation is added.\"}\n      },\n      \"weakest_link\": \"P4's leap from 'they list this as a presupposition' to 'this simply assumes the point at issue' assumes the Seminar could not defend the presupposition as a methodological default rather than a conclusion.\",\n      \"develop_next\": \"Quote the presupposition verbatim with page number and address the Seminar's likely reply that historians may legitimately adopt methodological naturalism as a working rule rather than a substantive claim.\",\n      \"case_map\": [\"K16\", \"F4\"],\n      \"domain\": \"history\"\n    },\n    {\n      \"id\": \"G8\",\n      \"name\": \"Mythicists are not qualified to be included\",\n      \"speaker\": \"Gary Habermas\",\n      \"conclusion\": \"Jesus mythicists are excluded from the scholarly consensus because they lack relevant credentials and are rejected even by critical scholars like Bart Ehrman.\",\n      \"premises\": [\n        \"P1: Bart Ehrman devotes 20 pages in The Evidence for Jesus to explaining why mythicists do not line up with scholarship.\",\n        \"P2: Ehrman says mythicists have all their sources but are the only ones who have them, and nobody likes them.\",\n        \"P3: One mythicist claims a PhD and expertise in ancient subjects but has no college degrees.\",\n        \"P4: Habermas makes allowances for people without PhDs who know the data, but not for those who lack relevant expertise.\"\n      ],\n      \"strength\": {\n        \"st1\": {\"v\": 2, \"quote\": \"I get I get attacked so often by the so-called Jesus mythers. \\\"Why don't you allow us?\\\"\"},\n        \"st2\": {\"v\": 2, \"quote\": \"But you can't claim to have a PhD, as I told one guy does in that group. He claims to have a PhD and be an expert in ancient um ancient subjects and languages, and has no college degrees.\"},\n        \"st3\": {\"v\": 1, \"quote\": \"Bart Ehrman introduces this question in The Evidence for Jesus, his volume. And he takes 20 pages by telling you why the mythicists don't line up.\"},\n        \"st4\": {\"v\": 1, \"quote\": \"I would I make allowances for people who don't have PhDs, but who know the data.\"},\n        \"st5\": {\"v\": 0, \"quote\": \"\"},\n        \"st6\": {\"v\": 1, \"quote\": \"But you can't claim to have a PhD, as I told one guy does in that group.\"},\n        \"st7\": {\"v\": 0, \"quote\": \"\"},\n        \"st8\": {\"v\": 2, \"quote\": \"Bart Ehrman introduces this question in The Evidence for Jesus, his volume. And he takes 20 pages by telling you why the mythicists don't line up. He says, \\\"They have all their sources, but they're the only ones that have them. Nobody likes them.\\\"\"}\n      },\n      \"prior_art\": \"Bart Ehrman, Did Jesus Exist?, 2012 (critique of mythicism)\",\n      \"originality\": {\n        \"or1\": {\"v\": 0, \"quote\": \"Bart Ehrman introduces this question in The Evidence for Jesus, his volume. And he takes 20 pages by telling you why the mythicists don't line up.\", \"why\": \"Essentially restates Ehrman's already-published case against mythicism, adding only an anecdote.\"},\n        \"or2\": {\"v\": 1, \"quote\": \"But you can't claim to have a PhD, as I told one guy does in that group. He claims to have a PhD and be an expert in ancient um ancient subjects and languages, and has no college degrees.\", \"why\": \"Adds a personal credential-check anecdote not in Ehrman's book.\"},\n        \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain connection.\"},\n        \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization or model.\"}\n      },\n      \"weakest_link\": \"P2's appeal to Ehrman's authority (and the vague 'nobody likes them') does not itself establish that mythicists lack the relevant expertise; it is an ad populum/authority step.\",\n      \"develop_next\": \"State and apply explicit, independently defensible criteria for relevant expertise (terminal degree in a relevant field plus peer-reviewed publication on the resurrection) to the specific mythicist claimants rather than resting on Ehrman's verdict.\",\n      \"case_map\": [\"K15\", \"K16\", \"F4\"],\n      \"domain\": \"history\"\n    }\n  ]\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 7517,
+      "completion_tokens": 1954,
+      "attempts": 1,
+      "elapsed_seconds": 7.76600000000326,
+      "started_at": "2026-09-27T19:39:29.175807+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T19:39:36.937158+00:00",
+      "tokens": 9471
+    }
+  ],
+  "prompt_sha256": "9b8eda80fee9b7b72f15dcc7044b59bdfedf260d8cc65024c4dc2c9b89769d4b",
+  "tokens": 9471
+}

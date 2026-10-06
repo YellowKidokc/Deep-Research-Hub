@@ -1,0 +1,114 @@
+{
+  "name": "master_equation_a2",
+  "parsed": {
+    "paper": "The Resurrection Connection to All of Life - Gary Habermas @Sean McDowell",
+    "core_relation": {
+      "sentence": "The resurrection is the necessary, all-or-nothing center of the gospel, theology, practice, and every application of the Christian life; remove it and everything else collapses.",
+      "quote": "Paul says, \"Remove that one thing and forget all the heavy theology we talk about.\" [S005]"
+    },
+    "product_test": {
+      "answer": "multiplicative",
+      "quote": "if Jesus died but does wasn't raised his death was in vain. So you need the resurrection to complete the gospel. [S034][S035]",
+      "reason": "The paper repeatedly treats the resurrection as a non-negotiable factor: without it the cross means nothing, the gospel is incomplete, Christianity is false, and none of the practical applications (suffering, doubt, fear of death, heaven) can stand. This is a zero-collapse structure, not mere weakening."
+    },
+    "slots": [
+      {
+        "slot": "G",
+        "plays_role": "The external negentropy influx is the resurrection itself—an act of God from outside the system that injects meaning and power into human life.",
+        "quote": "if Jesus is raised from the dead. It doesn't say if you can figure it all out, you're going to heaven. It says if Jesus was raised from the dead and you committed yourself to him, you're going to heaven. [S216][S218]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "M",
+        "plays_role": "Alignment is radical commitment—giving all of oneself to God and neighbor, as in marriage.",
+        "quote": "love your Lord your God with all your heart, soul, strength and mind which I take to be salvation. [S075]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "E",
+        "plays_role": "Signal fidelity is the truth of the gospel message surviving transmission through doubt, error, and suffering.",
+        "quote": "no matter what critics scream at you about errors in the gospels, here what you here's where you take your stand. Deity, death, resurrection. [S200][S201]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "S_eff",
+        "plays_role": "Effective entropy is suffering, doubt, and fear that lower coherence and are counteracted by the resurrection.",
+        "quote": "It takes the force out of suffering. [S228]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "T",
+        "plays_role": "Temporal integration is the accumulation of faith through suffering and the eternal perspective that makes present pain bearable.",
+        "quote": "if the resurrection lets me see her again and walk down the streets of heaven hand in hand, I can wait. [S402]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "K",
+        "plays_role": "Compression is the minimal facts argument and the distillation of the gospel to deity, death, and resurrection.",
+        "quote": "the minimal facts argument says I can get there without. [S158]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "R",
+        "plays_role": "Phase transition is the resurrection as a threshold event that changes everything—from death to life, doubt to faith, suffering to hope.",
+        "quote": "if the resurrection is true, we're going to be we're going to rise bodily, not just as a uh wispy spirit like Plato believed, but we're going to rise as a body. [S293]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "Q",
+        "plays_role": "Superposition is the unresolved tension of questions and suffering held open until the resurrection resolves them.",
+        "quote": "I don't know why much of suffering occurs, but I do know the resurrection. [S557]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "F",
+        "plays_role": "Non-local correlation is the communal resurrection—believers are raised together and sit with Christ in heaven.",
+        "quote": "He says you and I will be raised together and sit with Christ in heaven. [S595]",
+        "fit": "analogous"
+      },
+      {
+        "slot": "C",
+        "plays_role": "Integration is the local integrator—the individual believer applying the resurrection to every area of life.",
+        "quote": "what does this have to do with the resurrection? How does it change things for you? [S230][S231]",
+        "fit": "analogous"
+      }
+    ],
+    "breaks": [
+      "The paper treats the resurrection as a single non-negotiable factor, whereas the master equation is a product of ten distinct factors; the paper does not distinguish separate multiplicative components.",
+      "The paper's 'radical commitment' (M) is presented as a response to grace, not as a factor that must be non-zero for the gospel to be true; it is more consequence than condition.",
+      "The paper does not treat S_eff as a factor that can be zeroed out; suffering is real but not a variable that can collapse the equation.",
+      "The paper's logic is more binary (resurrection true/false) than multiplicative across ten slots."
+    ],
+    "extra_factors": [
+      "Heaven as the conclusion and unbreakable chain from resurrection",
+      "The Holy Spirit as the agent of application and conviction",
+      "Scripture (New Testament) as the source of evidence and truth"
+    ],
+    "analog_strength": 3,
+    "confidence": "medium",
+    "one_line": "The resurrection functions as the single non-negotiable factor whose removal collapses the entire Christian life, making the paper's logic multiplicative in a binary rather than ten-slot sense.",
+    "equations_present": false
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "master_equation_a2",
+      "attempt": 1,
+      "text": "{\n  \"paper\": \"The Resurrection Connection to All of Life - Gary Habermas @Sean McDowell\",\n  \"core_relation\": {\n    \"sentence\": \"The resurrection is the necessary, all-or-nothing center of the gospel, theology, practice, and every application of the Christian life; remove it and everything else collapses.\",\n    \"quote\": \"Paul says, \\\"Remove that one thing and forget all the heavy theology we talk about.\\\" [S005]\"\n  },\n  \"product_test\": {\n    \"answer\": \"multiplicative\",\n    \"quote\": \"if Jesus died but does wasn't raised his death was in vain. So you need the resurrection to complete the gospel. [S034][S035]\",\n    \"reason\": \"The paper repeatedly treats the resurrection as a non-negotiable factor: without it the cross means nothing, the gospel is incomplete, Christianity is false, and none of the practical applications (suffering, doubt, fear of death, heaven) can stand. This is a zero-collapse structure, not mere weakening.\"\n  },\n  \"slots\": [\n    {\"slot\": \"G\", \"plays_role\": \"The external negentropy influx is the resurrection itself—an act of God from outside the system that injects meaning and power into human life.\", \"quote\": \"if Jesus is raised from the dead. It doesn't say if you can figure it all out, you're going to heaven. It says if Jesus was raised from the dead and you committed yourself to him, you're going to heaven. [S216][S218]\", \"fit\": \"analogous\"},\n    {\"slot\": \"M\", \"plays_role\": \"Alignment is radical commitment—giving all of oneself to God and neighbor, as in marriage.\", \"quote\": \"love your Lord your God with all your heart, soul, strength and mind which I take to be salvation. [S075]\", \"fit\": \"analogous\"},\n    {\"slot\": \"E\", \"plays_role\": \"Signal fidelity is the truth of the gospel message surviving transmission through doubt, error, and suffering.\", \"quote\": \"no matter what critics scream at you about errors in the gospels, here what you here's where you take your stand. Deity, death, resurrection. [S200][S201]\", \"fit\": \"analogous\"},\n    {\"slot\": \"S_eff\", \"plays_role\": \"Effective entropy is suffering, doubt, and fear that lower coherence and are counteracted by the resurrection.\", \"quote\": \"It takes the force out of suffering. [S228]\", \"fit\": \"analogous\"},\n    {\"slot\": \"T\", \"plays_role\": \"Temporal integration is the accumulation of faith through suffering and the eternal perspective that makes present pain bearable.\", \"quote\": \"if the resurrection lets me see her again and walk down the streets of heaven hand in hand, I can wait. [S402]\", \"fit\": \"analogous\"},\n    {\"slot\": \"K\", \"plays_role\": \"Compression is the minimal facts argument and the distillation of the gospel to deity, death, and resurrection.\", \"quote\": \"the minimal facts argument says I can get there without. [S158]\", \"fit\": \"analogous\"},\n    {\"slot\": \"R\", \"plays_role\": \"Phase transition is the resurrection as a threshold event that changes everything—from death to life, doubt to faith, suffering to hope.\", \"quote\": \"if the resurrection is true, we're going to be we're going to rise bodily, not just as a uh wispy spirit like Plato believed, but we're going to rise as a body. [S293]\", \"fit\": \"analogous\"},\n    {\"slot\": \"Q\", \"plays_role\": \"Superposition is the unresolved tension of questions and suffering held open until the resurrection resolves them.\", \"quote\": \"I don't know why much of suffering occurs, but I do know the resurrection. [S557]\", \"fit\": \"analogous\"},\n    {\"slot\": \"F\", \"plays_role\": \"Non-local correlation is the communal resurrection—believers are raised together and sit with Christ in heaven.\", \"quote\": \"He says you and I will be raised together and sit with Christ in heaven. [S595]\", \"fit\": \"analogous\"},\n    {\"slot\": \"C\", \"plays_role\": \"Integration is the local integrator—the individual believer applying the resurrection to every area of life.\", \"quote\": \"what does this have to do with the resurrection? How does it change things for you? [S230][S231]\", \"fit\": \"analogous\"}\n  ],\n  \"breaks\": [\n    \"The paper treats the resurrection as a single non-negotiable factor, whereas the master equation is a product of ten distinct factors; the paper does not distinguish separate multiplicative components.\",\n    \"The paper's 'radical commitment' (M) is presented as a response to grace, not as a factor that must be non-zero for the gospel to be true; it is more consequence than condition.\",\n    \"The paper does not treat S_eff as a factor that can be zeroed out; suffering is real but not a variable that can collapse the equation.\",\n    \"The paper's logic is more binary (resurrection true/false) than multiplicative across ten slots.\"\n  ],\n  \"extra_factors\": [\n    \"Heaven as the conclusion and unbreakable chain from resurrection\",\n    \"The Holy Spirit as the agent of application and conviction\",\n    \"Scripture (New Testament) as the source of evidence and truth\"\n  ],\n  \"analog_strength\": 3,\n  \"confidence\": \"medium\",\n  \"one_line\": \"The resurrection functions as the single non-negotiable factor whose removal collapses the entire Christian life, making the paper's logic multiplicative in a binary rather than ten-slot sense.\",\n  \"equations_present\": false\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 14696,
+      "completion_tokens": 1235,
+      "attempts": 1,
+      "elapsed_seconds": 6.235000000000582,
+      "started_at": "2026-09-27T13:54:08.871981+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T13:54:15.103203+00:00",
+      "tokens": 15931
+    }
+  ],
+  "prompt_sha256": "249b1d9794d11b7545e51b362d4895633dacac33de209a60b5f3a413d4329921",
+  "tokens": 15931,
+  "reused": true
+}

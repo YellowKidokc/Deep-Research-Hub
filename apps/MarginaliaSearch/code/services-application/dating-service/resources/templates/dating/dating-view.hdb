@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>Website Explorer - {{url}}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
+    <style type="text/css">
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        * {
+            margin: 0;
+        }
+
+        :root {
+            --btn-size: 60px;
+            /* give slight roundess to some things so box shadow corners are a bit more subtle  */
+            --roundness: 5px;
+            --spacing: 1rem;
+            --glow: 0px 0px 0.5ch black, 0px 0px 1ch red, 0px 0px 1.5ch orange, 0px 0px 2ch yellow, 0px 0px 2.5ch green, 0px 0px 3ch cyan, 0px 0px 3.5ch blue, 0px 0px 4ch indigo, 0px 0px 4.5ch violet;
+        }
+
+        body {
+            background-color: #000;
+            color: #fff;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 1.5rem;
+            margin: 1em 0;
+            overflow-wrap: break-word;
+            /* or could remove overflow-wrap above and set overflow auto for scrollable text */
+            /* overflow: auto; */
+        }
+
+        h1 > a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        h1 > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: min-content auto min-content;
+            place-content: center;
+            place-items: center;
+            gap: var(--spacing);
+            padding: 0 var(--spacing);
+        }
+
+        #main-link {
+            display: block;
+            grid-column: 2 / span 1;
+            grid-row: 1 / -1;
+        }
+
+        #main-link:focus-within #screenshot {
+            box-shadow: #ccca 0px 0px 50px;
+        }
+
+        #back-button {
+            grid-column: 1 / span 1;
+            grid-row: 1 / -1;
+        }
+
+        [data-back="false"] #back-button {
+            visibility: hidden;
+        }
+
+        #next-button {
+            grid-column: 3 / span 1;
+            grid-row: 1 / -1;
+        }
+
+        #screenshot {
+            max-width: 100%;
+            display: block;
+            border: 5px solid #ccc;
+            box-shadow: 0px 0px 15px #f0f;
+            border-radius: var(--roundness);
+        }
+
+        .button {
+            font-size: 2.5rem;
+            line-height: 1;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: var(--roundness);
+            background-color: #00a6ed;
+            width: var(--btn-size);
+            height: var(--btn-size);
+        }
+
+        .button:hover, .button:focus {
+            box-shadow: none;
+            text-shadow: var(--glow);
+            background-color: transparent;
+            outline: none;
+        }
+
+        #secondary {
+            display: flex;
+            justify-content: center;
+            padding: var(--spacing);
+            gap: var(--spacing);
+        }
+
+        /* changed to max-width insetad of max-device-width, overflows on narrow desktop window otherwise */
+        @media only screen and (max-width: 768px) {
+            main {
+                grid-template-columns: auto auto;
+                grid-template-rows: auto;
+            }
+
+            main .button {
+                border-radius: var(--roundness);
+                width: 100%;
+            }
+
+            #main-link {
+                grid-column: 1 / -1;
+                grid-row: 1 / -1;
+            }
+
+            #back-button {
+                grid-column: 1 / span 1;
+                grid-row: 2 / -1;
+            }
+
+            #next-button {
+                grid-column: 2 / span 1;
+                grid-row: 2 / -1;
+            }
+
+            [data-back='false'] #back-button {
+                display: none;
+                grid-row: 1 / -1;
+
+            }
+
+            [data-back='false'] #next-button {
+                grid-column: 1 / -1;
+
+            }
+
+            .button:hover, .button:focus {
+                box-shadow: var(--glow);
+                background-color: #00a6ed;
+                text-shadow: none;
+                outline: none;
+            }
+        }
+    </style>
+</head>
+
+<body data-back="true">
+    <h1 id="url">
+        <a rel="nofollow" href="{{url}}">{{url}}</a>
+    </h1>
+
+    <main>
+        <a rel="nofollow" id="main-link" href="{{url}}">
+            <img id="screenshot" src="https://explore.marginalia.nu/screenshot/{{domainId}}"
+            alt="Screenshot of {{url}}">
+        </a>
+
+        <a title="Previous Website" class="button" id="back-button" href="/rewind">&#11013;&#65039;</a>
+        <a title="Next website" class="button" id="next-button" href="/next">&#10145;&#65039;</a>
+    </main>
+
+    <div id="secondary">
+        <a title="This is not good! Reset selection." class="button" id="reset-button" href="/reset">&#128256;</a>
+        <a title="I like this! More like this!" class="button" id="like-button" href="/similar/{{domainId}}">&#129321;</a>
+    </div>
+</body>

@@ -1,0 +1,157 @@
+{
+  "paper_uuid": "yt_xtd7V4vxxuQ_ch2",
+  "title": "Powerful Historical Reasons to Believe Jesus Resurrected - Gary Habermas",
+  "summary": "A historical-apologetics lecture arguing from 'minimal facts' (crucifixion, burial, disciples' experiences, transformation, early proclamation, Paul/James conversions) and pre-Pauline creeds that the resurrection is the best explanation. It engages the axiom system mainly at the level of evidence for a terminal, external, non-naturalistic intervention (grace) and the insufficiency of naturalistic closure, but does not state the formal axioms.",
+  "primary_mode": "HY_EVIDENCE",
+  "axiom_nodes": [
+    {
+      "node_id": "BC2",
+      "name": "BC2 — Grace External To System",
+      "mode": "HY_EVIDENCE",
+      "alignment": "supported",
+      "evidence_quote": "if he's raised from the dead, dead men can't raise themselves.",
+      "confidence": "medium",
+      "notes": "Resurrection requires external agency (the Father acting on Jesus), paralleling grace external to the system."
+    },
+    {
+      "node_id": "A9.1",
+      "name": "A9.1 — External Intervention Required",
+      "mode": "HY_EVIDENCE",
+      "alignment": "supported",
+      "evidence_quote": "dead men can't raise themselves.",
+      "confidence": "medium",
+      "notes": "Naturalistic closure fails; an external intervention is needed."
+    },
+    {
+      "node_id": "A9.2",
+      "name": "A9.2 — Non-Unitarity Of Grace",
+      "mode": "HY_EVIDENCE",
+      "alignment": "relevant_but_not_asserted",
+      "evidence_quote": "",
+      "confidence": "low",
+      "notes": "Resurrection as non-naturalistic event is nearby but not framed in these terms."
+    },
+    {
+      "node_id": "BC1",
+      "name": "BC1 — Terminal Observer Exists",
+      "mode": "HY_EVIDENCE",
+      "alignment": "relevant_but_not_asserted",
+      "evidence_quote": "",
+      "confidence": "low",
+      "notes": "God as agent behind resurrection is implied but not argued as a terminal observer."
+    },
+    {
+      "node_id": "ID7.1",
+      "name": "ID7.1 — Terminal Observer Is God",
+      "mode": "HY_EVIDENCE",
+      "alignment": "relevant_but_not_asserted",
+      "evidence_quote": "",
+      "confidence": "low",
+      "notes": "The Father acting on Jesus is implied; not developed as terminal observer identity."
+    },
+    {
+      "node_id": "P9.4",
+      "name": "P9.4 — Superposition Preserved Until Faith",
+      "mode": "HY_EVIDENCE",
+      "alignment": "relevant_but_not_asserted",
+      "evidence_quote": "",
+      "confidence": "low",
+      "notes": "Crossley's 'I'm just not into faith' is a nearby analogue but not the axiom."
+    },
+    {
+      "node_id": "P9.2",
+      "name": "P9.2 — Voluntary Coupling Preserved",
+      "mode": "HY_EVIDENCE",
+      "alignment": "supported",
+      "evidence_quote": "salvation is saying I do to the factual data about Jesus.",
+      "confidence": "medium",
+      "notes": "Faith as voluntary response to data; facts do not compel assent."
+    },
+    {
+      "node_id": "P9.5",
+      "name": "P9.5 — Grace Available To All",
+      "mode": "HY_EVIDENCE",
+      "alignment": "relevant_but_not_asserted",
+      "evidence_quote": "",
+      "confidence": "low",
+      "notes": "Universal availability of the gospel implied but not stated as axiom."
+    },
+    {
+      "node_id": "T16.1",
+      "name": "T16.1 — Christianity 8 of 8 BCs",
+      "mode": "HY_EVIDENCE",
+      "alignment": "supported",
+      "evidence_quote": "no other religion in the world has anything like this.",
+      "confidence": "medium",
+      "notes": "Uniqueness of Christian evidence vs. other religions, echoing BC-satisfaction claim."
+    },
+    {
+      "node_id": "T16.4",
+      "name": "T16.4 — Buddhism Fails BC1",
+      "mode": "HY_EVIDENCE",
+      "alignment": "supported",
+      "evidence_quote": "the sources in this book are almost totally 600 to 800 years after Buddha lived.",
+      "confidence": "medium",
+      "notes": "Buddhist sources too late to ground a terminal-observer claim."
+    },
+    {
+      "node_id": "T16.6",
+      "name": "T16.6 — Atheism Fails BC1-BC6",
+      "mode": "HY_EVIDENCE",
+      "alignment": "supported",
+      "evidence_quote": "Most critics today have given up naturalistic theories.",
+      "confidence": "medium",
+      "notes": "Naturalism cannot account for the minimal facts."
+    },
+    {
+      "node_id": "FINAL-3",
+      "name": "FINAL-3 — Unique Solution (Christianity as Unique BC Solution)",
+      "mode": "HY_EVIDENCE",
+      "alignment": "supported",
+      "evidence_quote": "no other religion in the world has anything like this.",
+      "confidence": "medium",
+      "notes": "Christianity uniquely satisfies the historical-evidence boundary conditions."
+    },
+    {
+      "node_id": "EV15.1",
+      "name": "EV15.1 — Biblical Prophecy Validation",
+      "mode": "HY_EVIDENCE",
+      "alignment": "supported",
+      "evidence_quote": "Jesus predicted his resurrection ahead of time.",
+      "confidence": "medium",
+      "notes": "Prediction of resurrection treated as evidence."
+    },
+    {
+      "node_id": "A6.3",
+      "name": "A6.3 — Irreversibility",
+      "mode": "HY_EVIDENCE",
+      "alignment": "relevant_but_not_asserted",
+      "evidence_quote": "",
+      "confidence": "low",
+      "notes": "Death by crucifixion as irreversible state is implied but not framed as axiom."
+    },
+    {
+      "node_id": "A1.1",
+      "name": "A1.1 — Existence",
+      "mode": "AX_CORE",
+      "alignment": "relevant_but_not_asserted",
+      "evidence_quote": "",
+      "confidence": "low",
+      "notes": "Historical existence of Jesus assumed throughout; not asserted as axiom."
+    }
+  ],
+  "unmapped_claims": [
+    "A01",
+    "A03",
+    "A04",
+    "A05",
+    "A06",
+    "A07",
+    "A08",
+    "A09",
+    "A10",
+    "A11",
+    "A12",
+    "A13"
+  ]
+}

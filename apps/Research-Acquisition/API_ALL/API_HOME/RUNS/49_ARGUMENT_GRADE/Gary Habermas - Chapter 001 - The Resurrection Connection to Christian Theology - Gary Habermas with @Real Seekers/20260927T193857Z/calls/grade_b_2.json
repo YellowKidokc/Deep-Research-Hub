@@ -1,0 +1,482 @@
+{
+  "name": "grade_b_2",
+  "parsed": {
+    "arguments": [
+      {
+        "id": "G7",
+        "name": "Future-unknown appeals cannot defeat miracles",
+        "conclusion": "The skeptical appeal to a future unknown natural explanation is self-defeating and cannot rationally defeat a miracle claim.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1 If one can always say 'maybe we will discover a natural explanation in the future,' the same move can be made against any disliked claim, such as the moon landing or planetary astronomy.",
+          "P2 The proper comeback is that maybe it will not happen in the future.",
+          "P3 Naturalism itself is often a non-empirical claim, so empiricist skeptics who use it inconsistently flunk their own epistemology.",
+          "P4 Habermas argues against seventeen or eighteen such Humean empirical comebacks in volume 2."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "And the comeback, the right comeback is, and maybe it won't happen in the future."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "What if I find out in the future we didn't go to the moon? Or let's make it worse. All the photographs of the planets that was a big fake"
+          },
+          "st3": {
+            "v": 1,
+            "quote": "In volume two, I have a lot of pages, two chapters divi devoted to David Hume."
+          },
+          "st4": {
+            "v": 1,
+            "quote": "If naturalism is not an empirical claim, but your epistemology requires empirical claims. Guess what? You flunked."
+          },
+          "st5": {
+            "v": 0,
+            "quote": ""
+          },
+          "st6": {
+            "v": 1,
+            "quote": "you can say it about anything you don't like well maybe it'll be done in the future"
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 1,
+            "quote": "it just makes induction impossible. Like you throw your science out the window."
+          }
+        },
+        "prior_art": "David Hume, Of Miracles (Enquiry Concerning Human Understanding, 1748); Antony Flew, Hume's Philosophy of Belief, 1961",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "I argue against I think it's 17 or 18 of them in the second Hume chapter in in volume two.",
+            "why": "Hume's own argument is inverted rather than restated; the tu quoque about future science is a variation on standard anti-Humean replies."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "I think it's over 100 pages. um uh hundred I'm going to say about 130 pages for David Hume",
+            "why": "Adds a systematic catalogue of 17-18 Humean empirical comebacks, but the underlying data are Hume's own examples."
+          },
+          "or3": {
+            "v": 1,
+            "quote": "If naturalism is not an empirical claim, but your epistemology requires empirical claims.",
+            "why": "Connects philosophy of science (induction, empirical meaning) to apologetics, though this link is well worn."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization or model is offered."
+          }
+        },
+        "weakest_link": "P4's appeal to a future discovery is never shown to be illegitimate in principle, only rhetorically symmetric.",
+        "develop_next": "State the epistemic principle that makes 'maybe a future natural explanation' rationally inert rather than merely annoying.",
+        "case_map": [
+          "K16"
+        ],
+        "domain": "philosophy"
+      },
+      {
+        "id": "G8",
+        "name": "Supernatural events can be linked to God rather than Satan",
+        "conclusion": "If a skeptic grants a supernatural event, linking it to God rather than Satan is reasonable because the skeptic's own worldview cannot accommodate Satan or other supernatural beings.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1 The skeptic who says 'maybe Satan did it' has already admitted supernatural beings into his theory, which he normally denies.",
+          "P2 If supernatural beings, intelligent design, fine-tuning, an afterlife, and objective ethics are granted, all five require a being fairly called God.",
+          "P3 Therefore the skeptic who grants the supernatural has sped up the case for God rather than avoided it."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "If you have supernatural beings, if you have intelligent design, if you have fine-tuning, if you have an afterlife, if you have objective ethics, um, from, you know, out of nowhere, uh, causally, uh, I think all five of those require, uh, a being that that's fair to call him God."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "Maybe Satan did it. Uh excuse me, but last time I checked, you don't allow Satan anywhere in your theory."
+          },
+          "st3": {
+            "v": 0,
+            "quote": ""
+          },
+          "st4": {
+            "v": 1,
+            "quote": "if you're going to grant supernatural things to me that's like saying hey if intelligent design is True. That may not prove God, but it sure helps."
+          },
+          "st5": {
+            "v": 0,
+            "quote": ""
+          },
+          "st6": {
+            "v": 1,
+            "quote": "That may not prove God, but it sure helps."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 1,
+            "quote": "Life after death. Wow, that's tough. It sure helps."
+          }
+        },
+        "prior_art": "C.S. Lewis, Miracles, 1947 (argument from the naturalist's implicit theism)",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "you don't allow Satan anywhere in your theory",
+            "why": "A variant of the standard tu quoque against naturalism, applied to the Satan objection specifically."
+          },
+          "or2": {
+            "v": 0,
+            "quote": "",
+            "why": "No new evidence; the five items are generic theistic arguments."
+          },
+          "or3": {
+            "v": 1,
+            "quote": "five things here that seem that they require God",
+            "why": "Bundles five distinct domains (design, fine-tuning, afterlife, ethics, supernatural beings) into one lever."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formal structure."
+          }
+        },
+        "weakest_link": "P2 - that all five items require 'a being fairly called God' is asserted, not argued.",
+        "develop_next": "Show why each of the five items cannot be satisfied by a finite or morally ambiguous supernatural being.",
+        "case_map": [
+          "K13",
+          "F4"
+        ],
+        "domain": "philosophy"
+      },
+      {
+        "id": "G9",
+        "name": "Competing miracle claims do not match the resurrection",
+        "conclusion": "Competing miracle claims from other religions or Christian traditions do not undermine the resurrection because they lack comparable evidence and often do not require God.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1 One must investigate each alleged competing miracle, and most cannot be verified even by their own adherents.",
+          "P2 Alleged levitation or anti-gravity events do not require God and are not first-rate miracles.",
+          "P3 The Quran has no verse that Muhammad did miracles, but it does have verses that Jesus did miracles.",
+          "P4 Marian apparitions such as Medjugorje or Zeitoun are contested, often involve only a handful of visionaries, and are usually within the Christian fold.",
+          "P5 The resurrection is the culmination of Jesus' unique life, teaching, predictions, and ethical influence, so it stands alone."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "The the resurrection just isn't the big thing alone. It's the end of a culmination of things. You put them all together and nobody's like several of them."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "you can't give me a verse in the Quran that that Muhammad did miracles, but there's a verse in the Quran that Jesus did miracles."
+          },
+          "st3": {
+            "v": 1,
+            "quote": "in Medigoria the people watch the kids watch Mary. There's only a handful of them."
+          },
+          "st4": {
+            "v": 1,
+            "quote": "Well, this guy, he levitated. Okay, last time I checked, the problem with this is that doesn't require God. It's anti-gravity."
+          },
+          "st5": {
+            "v": 1,
+            "quote": "I would like to know instead of just talking and passing on, I want to know what these competing miracle claims are."
+          },
+          "st6": {
+            "v": 1,
+            "quote": "We're never going to get to the end of this because we have to investigate each one and be sure it's true."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 2,
+            "quote": "he predicted them ahead of time."
+          }
+        },
+        "prior_art": "Norman Geisler, When Critics Ask / general comparative-religions apologetics; Craig Keener, Miracles, 2011",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "it's night and day. Well, Christianity is unique in terms of the",
+            "why": "A variant of the standard evidential-superiority reply to the competing-miracles objection."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "in Medigoria the people watch the kids watch Mary. There's only a handful of them.",
+            "why": "Brings concrete apparition data (Medjugorje, Zeitoun) and Quranic verses into the comparison."
+          },
+          "or3": {
+            "v": 1,
+            "quote": "The biggest case for the appearance of Mary is Greek Orthodox, not Roman Catholic.",
+            "why": "Crosses comparative religion with intra-Christian polemics."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formal criteria or model."
+          }
+        },
+        "weakest_link": "P5 - 'the resurrection stands alone' is asserted by cumulative impression rather than by a comparative evidential metric.",
+        "develop_next": "Give explicit criteria (multiple attestation, hostile witness, early dating) and score each competing claim against them.",
+        "case_map": [
+          "K15",
+          "K16",
+          "F4"
+        ],
+        "domain": "history"
+      },
+      {
+        "id": "G10",
+        "name": "Arguments for God and from miracles work both ways",
+        "conclusion": "One can argue prospectively from God to the resurrection or retrospectively from the resurrection back to God, and Scripture does both.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1 The prospective path moves from God to Jesus and his resurrection.",
+          "P2 The retrospective path begins with the unique event and asks who could have done it, then connects to arguments for God.",
+          "P3 The New Testament argues both ways, so the direction is not a problem."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "I think not only it works both ways or can I think in scripture it works both ways."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "arguing for God to Jesus and his resurrection I call prospective. Once you have God you move forward to the resurrection. Then the other one I call retrospective"
+          },
+          "st3": {
+            "v": 1,
+            "quote": "I think the New Testament argues both ways."
+          },
+          "st4": {
+            "v": 1,
+            "quote": "I don't have an I don't have an issue with it. So I think that's a a moot point too."
+          },
+          "st5": {
+            "v": 0,
+            "quote": ""
+          },
+          "st6": {
+            "v": 1,
+            "quote": "I think you can do it both ways and again I think New Testament does it that way."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 1,
+            "quote": "I have a little book well I've got maybe two of those other books I referred"
+          }
+        },
+        "prior_art": "William Lane Craig, Reasonable Faith, 1984 (prospective/retrospective distinction)",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "I call prospective... Then the other one I call retrospective",
+            "why": "The distinction is Craig's; Habermas applies it to the resurrection without new argument."
+          },
+          "or2": {
+            "v": 0,
+            "quote": "",
+            "why": "No new evidence."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain bridge."
+          },
+          "or4": {
+            "v": 1,
+            "quote": "I have a diagram in the book",
+            "why": "A diagram is added, but no formal model."
+          }
+        },
+        "weakest_link": "P3 - scriptural practice does not establish that both directions are epistemically sound.",
+        "develop_next": "Specify what each direction assumes and where they could conflict (e.g., circularity).",
+        "case_map": [
+          "K13"
+        ],
+        "domain": "theology"
+      },
+      {
+        "id": "G11",
+        "name": "Chapter one offers considerations, not strict proofs, for God",
+        "conclusion": "Chapter one does not attempt to prove God's existence deductively but presents a theistic universe with good considerations and signs.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1 Habermas calls it a theistic universe rather than proofs for God.",
+          "P2 He includes epistemic truths, morality, fine-tuning, intelligent design, and the afterlife as good extensions.",
+          "P3 He does not think many things can be proved apodictically; things are established by high probability."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "I don't argue that I don't try to prove God's existence in chapter one. What I'm saying there is I call it a theistic universe, not proofs for God."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "EP epis epistemic truths, how do we know anything? I mentioned morality even though I didn't do it. Fine-tuning, intelligent design, uh, afterlife."
+          },
+          "st3": {
+            "v": 1,
+            "quote": "I think those are really good extensions"
+          },
+          "st4": {
+            "v": 1,
+            "quote": "I think things are established by high probability, not by any chance to lay down some, you know, proof that nobody can argue with."
+          },
+          "st5": {
+            "v": 0,
+            "quote": ""
+          },
+          "st6": {
+            "v": 2,
+            "quote": "I wasn't trying to quote unquote prove God's existence."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 1,
+            "quote": "Fine-tuning, intelligent design, uh, afterlife."
+          }
+        },
+        "prior_art": "Alvin Plantinga, Warranted Christian Belief, 2000 (properly basic belief / non-deductive theism)",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "I like CS Lewis's which is also Alvin Planaga's uh of you know sorts the argument uh the epistemic argument",
+            "why": "A restatement of the Lewis/Plantinga epistemic argument, framed as a modesty claim."
+          },
+          "or2": {
+            "v": 0,
+            "quote": "",
+            "why": "No new evidence."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain bridge."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization."
+          }
+        },
+        "weakest_link": "P3 - 'high probability' is never given a threshold or a probability model.",
+        "develop_next": "State the probabilistic standard being used and show the considerations meet it.",
+        "case_map": [
+          "K01",
+          "K02"
+        ],
+        "domain": "philosophy"
+      },
+      {
+        "id": "G12",
+        "name": "Jesus claimed deity, especially in Mark 2 and Mark 14",
+        "conclusion": "Jesus claimed to be deity through a multiplicity of texts, with Mark 14:61-64 being the strongest.",
+        "speaker": "Gary Habermas",
+        "premises": [
+          "P1 Critics who demand a verse where Jesus says 'I am God' are misguided because Jesus never used that exact phrase.",
+          "P2 In Mark 2, Jesus forgives sins and heals to show he has authority on earth to forgive sins, which the rabbis recognized as God's prerogative.",
+          "P3 In Mark 14, Jesus says 'I am,' claims to be the cloud rider, and says he will sit at the right hand of God, which the high priest calls blasphemy.",
+          "P4 Del Rosario's dissertation on Mark 2 and Mark 14 provides the best treatment of these claims and answers to objections."
+        ],
+        "strength": {
+          "st1": {
+            "v": 2,
+            "quote": "Probably I think the best text for Jesus claiming to be deity is Mark 14:61-64."
+          },
+          "st2": {
+            "v": 2,
+            "quote": "The son of man has power on earth. Rise up and walk."
+          },
+          "st3": {
+            "v": 2,
+            "quote": "He did a whole dissertation on two New Testament texts that Jesus claimed to be deity."
+          },
+          "st4": {
+            "v": 1,
+            "quote": "the high priest immediately tears his garment and says you committed blasphemy"
+          },
+          "st5": {
+            "v": 1,
+            "quote": "some critics will say, I I challenge you Christians. Give me one verse where Jesus says, \"I am God.\" Okay, that is so bogus."
+          },
+          "st6": {
+            "v": 1,
+            "quote": "I think the fact that he claimed to be deity or divinity is shown by a multiplicity of things."
+          },
+          "st7": {
+            "v": 0,
+            "quote": ""
+          },
+          "st8": {
+            "v": 2,
+            "quote": "It's a Mark 8. It's a Mark 9. It's a Mark 10. It's a Mark 14. It's over and over."
+          }
+        },
+        "prior_art": "Larry Hurtado, Lord Jesus Christ, 2003; Richard Bauckham, Jesus and the God of Israel, 2008",
+        "originality": {
+          "or1": {
+            "v": 1,
+            "quote": "I would take Mark 14 there to over any verse in the Gospel of John.",
+            "why": "A variant of the standard 'implicit Christology' argument, prioritizing Mark over John."
+          },
+          "or2": {
+            "v": 1,
+            "quote": "D Rosario does the whole book on Mark Mark 2 and Mark 14.",
+            "why": "Brings Del Rosario's dissertation as new supporting scholarship."
+          },
+          "or3": {
+            "v": 0,
+            "quote": "",
+            "why": "No cross-domain connection."
+          },
+          "or4": {
+            "v": 0,
+            "quote": "",
+            "why": "No formalization."
+          }
+        },
+        "weakest_link": "P3 - the cloud-rider and right-hand-of-God claims are read as deity claims without establishing that the historical Jesus said them.",
+        "develop_next": "Give the criteria for historicity of the Mark 14 sayings and show they meet them independently of the resurrection.",
+        "case_map": [
+          "K13",
+          "K15",
+          "F4"
+        ],
+        "domain": "history"
+      }
+    ]
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "grade_b_2",
+      "attempt": 1,
+      "text": "{\"arguments\": [\n {\"id\": \"G7\", \"name\": \"Future-unknown appeals cannot defeat miracles\", \"conclusion\": \"The skeptical appeal to a future unknown natural explanation is self-defeating and cannot rationally defeat a miracle claim.\", \"speaker\": \"Gary Habermas\",\n  \"premises\": [\n   \"P1 If one can always say 'maybe we will discover a natural explanation in the future,' the same move can be made against any disliked claim, such as the moon landing or planetary astronomy.\",\n   \"P2 The proper comeback is that maybe it will not happen in the future.\",\n   \"P3 Naturalism itself is often a non-empirical claim, so empiricist skeptics who use it inconsistently flunk their own epistemology.\",\n   \"P4 Habermas argues against seventeen or eighteen such Humean empirical comebacks in volume 2.\"\n  ],\n  \"strength\": {\n   \"st1\": {\"v\": 2, \"quote\": \"And the comeback, the right comeback is, and maybe it won't happen in the future.\"},\n   \"st2\": {\"v\": 2, \"quote\": \"What if I find out in the future we didn't go to the moon? Or let's make it worse. All the photographs of the planets that was a big fake\"},\n   \"st3\": {\"v\": 1, \"quote\": \"In volume two, I have a lot of pages, two chapters divi devoted to David Hume.\"},\n   \"st4\": {\"v\": 1, \"quote\": \"If naturalism is not an empirical claim, but your epistemology requires empirical claims. Guess what? You flunked.\"},\n   \"st5\": {\"v\": 0, \"quote\": \"\"},\n   \"st6\": {\"v\": 1, \"quote\": \"you can say it about anything you don't like well maybe it'll be done in the future\"},\n   \"st7\": {\"v\": 0, \"quote\": \"\"},\n   \"st8\": {\"v\": 1, \"quote\": \"it just makes induction impossible. Like you throw your science out the window.\"}\n  },\n  \"prior_art\": \"David Hume, Of Miracles (Enquiry Concerning Human Understanding, 1748); Antony Flew, Hume's Philosophy of Belief, 1961\",\n  \"originality\": {\n   \"or1\": {\"v\": 1, \"quote\": \"I argue against I think it's 17 or 18 of them in the second Hume chapter in in volume two.\", \"why\": \"Hume's own argument is inverted rather than restated; the tu quoque about future science is a variation on standard anti-Humean replies.\"},\n   \"or2\": {\"v\": 1, \"quote\": \"I think it's over 100 pages. um uh hundred I'm going to say about 130 pages for David Hume\", \"why\": \"Adds a systematic catalogue of 17-18 Humean empirical comebacks, but the underlying data are Hume's own examples.\"},\n   \"or3\": {\"v\": 1, \"quote\": \"If naturalism is not an empirical claim, but your epistemology requires empirical claims.\", \"why\": \"Connects philosophy of science (induction, empirical meaning) to apologetics, though this link is well worn.\"},\n   \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization or model is offered.\"}\n  },\n  \"weakest_link\": \"P4's appeal to a future discovery is never shown to be illegitimate in principle, only rhetorically symmetric.\",\n  \"develop_next\": \"State the epistemic principle that makes 'maybe a future natural explanation' rationally inert rather than merely annoying.\",\n  \"case_map\": [\"K16\"], \"domain\": \"philosophy\"},\n\n {\"id\": \"G8\", \"name\": \"Supernatural events can be linked to God rather than Satan\", \"conclusion\": \"If a skeptic grants a supernatural event, linking it to God rather than Satan is reasonable because the skeptic's own worldview cannot accommodate Satan or other supernatural beings.\", \"speaker\": \"Gary Habermas\",\n  \"premises\": [\n   \"P1 The skeptic who says 'maybe Satan did it' has already admitted supernatural beings into his theory, which he normally denies.\",\n   \"P2 If supernatural beings, intelligent design, fine-tuning, an afterlife, and objective ethics are granted, all five require a being fairly called God.\",\n   \"P3 Therefore the skeptic who grants the supernatural has sped up the case for God rather than avoided it.\"\n  ],\n  \"strength\": {\n   \"st1\": {\"v\": 2, \"quote\": \"If you have supernatural beings, if you have intelligent design, if you have fine-tuning, if you have an afterlife, if you have objective ethics, um, from, you know, out of nowhere, uh, causally, uh, I think all five of those require, uh, a being that that's fair to call him God.\"},\n   \"st2\": {\"v\": 2, \"quote\": \"Maybe Satan did it. Uh excuse me, but last time I checked, you don't allow Satan anywhere in your theory.\"},\n   \"st3\": {\"v\": 0, \"quote\": \"\"},\n   \"st4\": {\"v\": 1, \"quote\": \"if you're going to grant supernatural things to me that's like saying hey if intelligent design is True. That may not prove God, but it sure helps.\"},\n   \"st5\": {\"v\": 0, \"quote\": \"\"},\n   \"st6\": {\"v\": 1, \"quote\": \"That may not prove God, but it sure helps.\"},\n   \"st7\": {\"v\": 0, \"quote\": \"\"},\n   \"st8\": {\"v\": 1, \"quote\": \"Life after death. Wow, that's tough. It sure helps.\"}\n  },\n  \"prior_art\": \"C.S. Lewis, Miracles, 1947 (argument from the naturalist's implicit theism)\",\n  \"originality\": {\n   \"or1\": {\"v\": 1, \"quote\": \"you don't allow Satan anywhere in your theory\", \"why\": \"A variant of the standard tu quoque against naturalism, applied to the Satan objection specifically.\"},\n   \"or2\": {\"v\": 0, \"quote\": \"\", \"why\": \"No new evidence; the five items are generic theistic arguments.\"},\n   \"or3\": {\"v\": 1, \"quote\": \"five things here that seem that they require God\", \"why\": \"Bundles five distinct domains (design, fine-tuning, afterlife, ethics, supernatural beings) into one lever.\"},\n   \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formal structure.\"}\n  },\n  \"weakest_link\": \"P2 - that all five items require 'a being fairly called God' is asserted, not argued.\",\n  \"develop_next\": \"Show why each of the five items cannot be satisfied by a finite or morally ambiguous supernatural being.\",\n  \"case_map\": [\"K13\", \"F4\"], \"domain\": \"philosophy\"},\n\n {\"id\": \"G9\", \"name\": \"Competing miracle claims do not match the resurrection\", \"conclusion\": \"Competing miracle claims from other religions or Christian traditions do not undermine the resurrection because they lack comparable evidence and often do not require God.\", \"speaker\": \"Gary Habermas\",\n  \"premises\": [\n   \"P1 One must investigate each alleged competing miracle, and most cannot be verified even by their own adherents.\",\n   \"P2 Alleged levitation or anti-gravity events do not require God and are not first-rate miracles.\",\n   \"P3 The Quran has no verse that Muhammad did miracles, but it does have verses that Jesus did miracles.\",\n   \"P4 Marian apparitions such as Medjugorje or Zeitoun are contested, often involve only a handful of visionaries, and are usually within the Christian fold.\",\n   \"P5 The resurrection is the culmination of Jesus' unique life, teaching, predictions, and ethical influence, so it stands alone.\"\n  ],\n  \"strength\": {\n   \"st1\": {\"v\": 2, \"quote\": \"The the resurrection just isn't the big thing alone. It's the end of a culmination of things. You put them all together and nobody's like several of them.\"},\n   \"st2\": {\"v\": 2, \"quote\": \"you can't give me a verse in the Quran that that Muhammad did miracles, but there's a verse in the Quran that Jesus did miracles.\"},\n   \"st3\": {\"v\": 1, \"quote\": \"in Medigoria the people watch the kids watch Mary. There's only a handful of them.\"},\n   \"st4\": {\"v\": 1, \"quote\": \"Well, this guy, he levitated. Okay, last time I checked, the problem with this is that doesn't require God. It's anti-gravity.\"},\n   \"st5\": {\"v\": 1, \"quote\": \"I would like to know instead of just talking and passing on, I want to know what these competing miracle claims are.\"},\n   \"st6\": {\"v\": 1, \"quote\": \"We're never going to get to the end of this because we have to investigate each one and be sure it's true.\"},\n   \"st7\": {\"v\": 0, \"quote\": \"\"},\n   \"st8\": {\"v\": 2, \"quote\": \"he predicted them ahead of time.\"}\n  },\n  \"prior_art\": \"Norman Geisler, When Critics Ask / general comparative-religions apologetics; Craig Keener, Miracles, 2011\",\n  \"originality\": {\n   \"or1\": {\"v\": 1, \"quote\": \"it's night and day. Well, Christianity is unique in terms of the\", \"why\": \"A variant of the standard evidential-superiority reply to the competing-miracles objection.\"},\n   \"or2\": {\"v\": 1, \"quote\": \"in Medigoria the people watch the kids watch Mary. There's only a handful of them.\", \"why\": \"Brings concrete apparition data (Medjugorje, Zeitoun) and Quranic verses into the comparison.\"},\n   \"or3\": {\"v\": 1, \"quote\": \"The biggest case for the appearance of Mary is Greek Orthodox, not Roman Catholic.\", \"why\": \"Crosses comparative religion with intra-Christian polemics.\"},\n   \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formal criteria or model.\"}\n  },\n  \"weakest_link\": \"P5 - 'the resurrection stands alone' is asserted by cumulative impression rather than by a comparative evidential metric.\",\n  \"develop_next\": \"Give explicit criteria (multiple attestation, hostile witness, early dating) and score each competing claim against them.\",\n  \"case_map\": [\"K15\", \"K16\", \"F4\"], \"domain\": \"history\"},\n\n {\"id\": \"G10\", \"name\": \"Arguments for God and from miracles work both ways\", \"conclusion\": \"One can argue prospectively from God to the resurrection or retrospectively from the resurrection back to God, and Scripture does both.\", \"speaker\": \"Gary Habermas\",\n  \"premises\": [\n   \"P1 The prospective path moves from God to Jesus and his resurrection.\",\n   \"P2 The retrospective path begins with the unique event and asks who could have done it, then connects to arguments for God.\",\n   \"P3 The New Testament argues both ways, so the direction is not a problem.\"\n  ],\n  \"strength\": {\n   \"st1\": {\"v\": 2, \"quote\": \"I think not only it works both ways or can I think in scripture it works both ways.\"},\n   \"st2\": {\"v\": 2, \"quote\": \"arguing for God to Jesus and his resurrection I call prospective. Once you have God you move forward to the resurrection. Then the other one I call retrospective\"},\n   \"st3\": {\"v\": 1, \"quote\": \"I think the New Testament argues both ways.\"},\n   \"st4\": {\"v\": 1, \"quote\": \"I don't have an I don't have an issue with it. So I think that's a a moot point too.\"},\n   \"st5\": {\"v\": 0, \"quote\": \"\"},\n   \"st6\": {\"v\": 1, \"quote\": \"I think you can do it both ways and again I think New Testament does it that way.\"},\n   \"st7\": {\"v\": 0, \"quote\": \"\"},\n   \"st8\": {\"v\": 1, \"quote\": \"I have a little book well I've got maybe two of those other books I referred\"}\n  },\n  \"prior_art\": \"William Lane Craig, Reasonable Faith, 1984 (prospective/retrospective distinction)\",\n  \"originality\": {\n   \"or1\": {\"v\": 1, \"quote\": \"I call prospective... Then the other one I call retrospective\", \"why\": \"The distinction is Craig's; Habermas applies it to the resurrection without new argument.\"},\n   \"or2\": {\"v\": 0, \"quote\": \"\", \"why\": \"No new evidence.\"},\n   \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain bridge.\"},\n   \"or4\": {\"v\": 1, \"quote\": \"I have a diagram in the book\", \"why\": \"A diagram is added, but no formal model.\"}\n  },\n  \"weakest_link\": \"P3 - scriptural practice does not establish that both directions are epistemically sound.\",\n  \"develop_next\": \"Specify what each direction assumes and where they could conflict (e.g., circularity).\",\n  \"case_map\": [\"K13\"], \"domain\": \"theology\"},\n\n {\"id\": \"G11\", \"name\": \"Chapter one offers considerations, not strict proofs, for God\", \"conclusion\": \"Chapter one does not attempt to prove God's existence deductively but presents a theistic universe with good considerations and signs.\", \"speaker\": \"Gary Habermas\",\n  \"premises\": [\n   \"P1 Habermas calls it a theistic universe rather than proofs for God.\",\n   \"P2 He includes epistemic truths, morality, fine-tuning, intelligent design, and the afterlife as good extensions.\",\n   \"P3 He does not think many things can be proved apodictically; things are established by high probability.\"\n  ],\n  \"strength\": {\n   \"st1\": {\"v\": 2, \"quote\": \"I don't argue that I don't try to prove God's existence in chapter one. What I'm saying there is I call it a theistic universe, not proofs for God.\"},\n   \"st2\": {\"v\": 2, \"quote\": \"EP epis epistemic truths, how do we know anything? I mentioned morality even though I didn't do it. Fine-tuning, intelligent design, uh, afterlife.\"},\n   \"st3\": {\"v\": 1, \"quote\": \"I think those are really good extensions\"},\n   \"st4\": {\"v\": 1, \"quote\": \"I think things are established by high probability, not by any chance to lay down some, you know, proof that nobody can argue with.\"},\n   \"st5\": {\"v\": 0, \"quote\": \"\"},\n   \"st6\": {\"v\": 2, \"quote\": \"I wasn't trying to quote unquote prove God's existence.\"},\n   \"st7\": {\"v\": 0, \"quote\": \"\"},\n   \"st8\": {\"v\": 1, \"quote\": \"Fine-tuning, intelligent design, uh, afterlife.\"}\n  },\n  \"prior_art\": \"Alvin Plantinga, Warranted Christian Belief, 2000 (properly basic belief / non-deductive theism)\",\n  \"originality\": {\n   \"or1\": {\"v\": 1, \"quote\": \"I like CS Lewis's which is also Alvin Planaga's uh of you know sorts the argument uh the epistemic argument\", \"why\": \"A restatement of the Lewis/Plantinga epistemic argument, framed as a modesty claim.\"},\n   \"or2\": {\"v\": 0, \"quote\": \"\", \"why\": \"No new evidence.\"},\n   \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain bridge.\"},\n   \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization.\"}\n  },\n  \"weakest_link\": \"P3 - 'high probability' is never given a threshold or a probability model.\",\n  \"develop_next\": \"State the probabilistic standard being used and show the considerations meet it.\",\n  \"case_map\": [\"K01\", \"K02\"], \"domain\": \"philosophy\"},\n\n {\"id\": \"G12\", \"name\": \"Jesus claimed deity, especially in Mark 2 and Mark 14\", \"conclusion\": \"Jesus claimed to be deity through a multiplicity of texts, with Mark 14:61-64 being the strongest.\", \"speaker\": \"Gary Habermas\",\n  \"premises\": [\n   \"P1 Critics who demand a verse where Jesus says 'I am God' are misguided because Jesus never used that exact phrase.\",\n   \"P2 In Mark 2, Jesus forgives sins and heals to show he has authority on earth to forgive sins, which the rabbis recognized as God's prerogative.\",\n   \"P3 In Mark 14, Jesus says 'I am,' claims to be the cloud rider, and says he will sit at the right hand of God, which the high priest calls blasphemy.\",\n   \"P4 Del Rosario's dissertation on Mark 2 and Mark 14 provides the best treatment of these claims and answers to objections.\"\n  ],\n  \"strength\": {\n   \"st1\": {\"v\": 2, \"quote\": \"Probably I think the best text for Jesus claiming to be deity is Mark 14:61-64.\"},\n   \"st2\": {\"v\": 2, \"quote\": \"The son of man has power on earth. Rise up and walk.\"},\n   \"st3\": {\"v\": 2, \"quote\": \"He did a whole dissertation on two New Testament texts that Jesus claimed to be deity.\"},\n   \"st4\": {\"v\": 1, \"quote\": \"the high priest immediately tears his garment and says you committed blasphemy\"},\n   \"st5\": {\"v\": 1, \"quote\": \"some critics will say, I I challenge you Christians. Give me one verse where Jesus says, \\\"I am God.\\\" Okay, that is so bogus.\"},\n   \"st6\": {\"v\": 1, \"quote\": \"I think the fact that he claimed to be deity or divinity is shown by a multiplicity of things.\"},\n   \"st7\": {\"v\": 0, \"quote\": \"\"},\n   \"st8\": {\"v\": 2, \"quote\": \"It's a Mark 8. It's a Mark 9. It's a Mark 10. It's a Mark 14. It's over and over.\"}\n  },\n  \"prior_art\": \"Larry Hurtado, Lord Jesus Christ, 2003; Richard Bauckham, Jesus and the God of Israel, 2008\",\n  \"originality\": {\n   \"or1\": {\"v\": 1, \"quote\": \"I would take Mark 14 there to over any verse in the Gospel of John.\", \"why\": \"A variant of the standard 'implicit Christology' argument, prioritizing Mark over John.\"},\n   \"or2\": {\"v\": 1, \"quote\": \"D Rosario does the whole book on Mark Mark 2 and Mark 14.\", \"why\": \"Brings Del Rosario's dissertation as new supporting scholarship.\"},\n   \"or3\": {\"v\": 0, \"quote\": \"\", \"why\": \"No cross-domain connection.\"},\n   \"or4\": {\"v\": 0, \"quote\": \"\", \"why\": \"No formalization.\"}\n  },\n  \"weakest_link\": \"P3 - the cloud-rider and right-hand-of-God claims are read as deity claims without establishing that the historical Jesus said them.\",\n  \"develop_next\": \"Give the criteria for historicity of the Mark 14 sayings and show they meet them independently of the resurrection.\",\n  \"case_map\": [\"K13\", \"K15\", \"F4\"], \"domain\": \"history\"}\n]}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 21070,
+      "completion_tokens": 4412,
+      "attempts": 1,
+      "elapsed_seconds": 15.860000000000582,
+      "started_at": "2026-09-27T19:39:08.547177+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T19:39:24.401276+00:00",
+      "tokens": 25482
+    }
+  ],
+  "prompt_sha256": "29383ec7949144c6a6b581129b8b29f57977cf6ae129a556828dd7936fce7466",
+  "tokens": 25482
+}

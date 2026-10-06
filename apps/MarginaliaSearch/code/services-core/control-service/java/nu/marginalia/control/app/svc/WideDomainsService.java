@@ -1,0 +1,139 @@
+package nu.marginalia.control.app.svc;
+
+import com.google.inject.Inject;
+import com.zaxxer.hikari.HikariDataSource;
+import nu.marginalia.control.ControlRendererFactory;
+import nu.marginalia.control.Redirects;
+import nu.marginalia.executor.client.ExecutorClient;
+import nu.marginalia.model.EdgeDomain;
+import nu.marginalia.nodecfg.NodeConfigurationService;
+import nu.marginalia.nodecfg.model.NodeProfile;
+import spark.Request;
+import spark.Response;
+import spark.Spark;
+
+import java.io.IOException;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.Optional;
+
+public class WideDomainsService {
+
+    private final HikariDataSource dataSource;
+    private final ControlRendererFactory rendererFactory;
+    private final NodeConfigurationService nodeConfigurationService;
+    private final ExecutorClient executorClient;
+
+    @Inject
+    public WideDomainsService(HikariDataSource dataSource,
+                              ControlRendererFactory rendererFactory,
+                              NodeConfigurationService nodeConfigurationService,
+                              ExecutorClient executorClient) {
+        this.dataSource = dataSource;
+        this.rendererFactory = rendererFactory;
+        this.nodeConfigurationService = nodeConfigurationService;
+        this.executorClient = executorClient;
+    }
+
+    public void register() throws IOException {
+        var renderer = rendererFactory.renderer("control/app/wide-domains");
+
+        Spark.get("/wide-domains", this::wideDomainsModel, renderer::render);
+        Spark.post("/wide-domains", this::updateRoots, new Redirects.HtmlRedirect("/wide-domains"));
+        Spark.post("/wide-domains/migrate", this::triggerMigration, new Redirects.HtmlRedirect("/wide-domains"));
+        Spark.post("/wide-domains/cleanup", this::triggerCleanup, new Redirects.HtmlRedirect("/wide-domains"));
+    }
+
+    private Object wideDomainsModel(Request request, Response response) {
+        return Map.of(
+                "roots", listRoots(),
+                "hasWideNode", wideNodeId().isPresent());
+    }
+
+    private Object updateRoots(Request request, Response response) {
+        String domainParam = request.queryParams("domain");
+        if (domainParam == null || domainParam.isBlank()) {
+            return "";
+        }
+
+        String topDomain = new EdgeDomain(domainParam).topDomain;
+
+        if ("add".equals(request.queryParams("act"))) {
+            addRoot(topDomain);
+        } else if ("del".equals(request.queryParams("act"))) {
+            removeRoot(topDomain);
+        }
+
+        return "";
+    }
+
+    private Object triggerMigration(Request request, Response response) {
+        wideNodeId().ifPresent(nodeId -> executorClient.startFsm(nodeId, "MIGRATE_DOMAINS"));
+        return "";
+    }
+
+    private Object triggerCleanup(Request request, Response response) {
+        // Cleanup runs on the batch-capable nodes that domains may have been migrated away from.
+        for (var config : nodeConfigurationService.getAll()) {
+            if (config.disabled() || config.profile().isWideDomains() || !config.profile().permitBatchCrawl()) {
+                continue;
+            }
+            executorClient.startFsm(config.node(), "CLEANUP_MIGRATED_DOMAINS");
+        }
+        return "";
+    }
+
+    /** The id of the node with the WIDE_DOMAINS profile, if one is configured. */
+    private Optional<Integer> wideNodeId() {
+        return nodeConfigurationService.getAll().stream()
+                .filter(config -> !config.disabled())
+                .filter(config -> config.profile() == NodeProfile.WIDE_DOMAINS)
+                .map(config -> config.node())
+                .min(Integer::compareTo);
+    }
+
+    private void addRoot(String topDomain) {
+        try (var conn = dataSource.getConnection();
+             var stmt = conn.prepareStatement("INSERT IGNORE INTO WIDE_DOMAIN_ROOTS (DOMAIN_TOP) VALUES (?)")) {
+            stmt.setString(1, topDomain);
+            stmt.executeUpdate();
+        }
+        catch (SQLException ex) {
+            throw new RuntimeException(ex);
+        }
+    }
+
+    private void removeRoot(String topDomain) {
+        try (var conn = dataSource.getConnection();
+             var stmt = conn.prepareStatement("DELETE FROM WIDE_DOMAIN_ROOTS WHERE DOMAIN_TOP = ?")) {
+            stmt.setString(1, topDomain);
+            stmt.executeUpdate();
+        }
+        catch (SQLException ex) {
+            throw new RuntimeException(ex);
+        }
+    }
+
+    private List<String> listRoots() {
+        List<String> roots = new ArrayList<>();
+
+        try (var conn = dataSource.getConnection();
+             var stmt = conn.prepareStatement("""
+                    SELECT DOMAIN_TOP
+                    FROM WIDE_DOMAIN_ROOTS
+                    ORDER BY DOMAIN_TOP
+                    """)) {
+            var rs = stmt.executeQuery();
+            while (rs.next()) {
+                roots.add(rs.getString("DOMAIN_TOP"));
+            }
+        }
+        catch (SQLException ex) {
+            throw new RuntimeException(ex);
+        }
+
+        return roots;
+    }
+}

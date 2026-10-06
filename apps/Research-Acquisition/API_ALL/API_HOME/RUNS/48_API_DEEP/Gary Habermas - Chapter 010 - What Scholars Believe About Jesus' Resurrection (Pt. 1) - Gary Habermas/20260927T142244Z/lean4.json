@@ -1,0 +1,397 @@
+{
+  "station": "lean4",
+  "paper_uuid": "Gary Habermas - Chapter 010 - What Scholars Believe About Jesus' Resurrection (Pt. 1) - Gary Habermas",
+  "run_uuid": "deep-bddcdd5b011a",
+  "template": "00_FULL_LEAN_TEMPLATE.md",
+  "formal_candidates": [
+    {
+      "identity": {
+        "claim_id": "A01",
+        "candidate_uuid": "lean4-A01-0001"
+      },
+      "source_selection": {
+        "exact_source_expression": "For something to be a minimal fact, it must have strong evidence and most experts must agree on it.",
+        "selection_disposition": "FORMALIZE",
+        "reason": "This is a definitional claim about a two-place predicate (minimal fact) over propositions and scholar populations. It is the load-bearing definition for the entire minimal-facts methodology and can be encoded as a definition plus a theorem about the conjunctive structure."
+      },
+      "formal_object": {
+        "object_type": "DEFINITION",
+        "exact_proposed_statement": "A proposition P is a minimal fact relative to an evidence relation E and a scholar population S iff P is highly evidenced by E and a vast majority of S concurs that P.",
+        "fully_qualified_declaration": "MinimalFacts.IsMinimalFact",
+        "project_root": "MinimalFacts",
+        "module": "MinimalFacts.Basic"
+      },
+      "symbol_table": [
+        {
+          "term": "minimal fact",
+          "formal_definition": "IsMinimalFact E S P := HighlyEvidenced E P ∧ VastMajorityConcurs S P",
+          "reader_meaning": "A historical claim that meets both an evidential bar and a scholarly-consensus bar.",
+          "source_correspondence": "A01, S166-S168"
+        },
+        {
+          "term": "highly evidenced",
+          "formal_definition": "HighlyEvidenced E P := E P",
+          "reader_meaning": "There is strong evidence for P.",
+          "source_correspondence": "A01, A03, S167, S171-S175"
+        },
+        {
+          "term": "vast majority concurs",
+          "formal_definition": "VastMajorityConcurs S P := ∀ s ∈ S, Concurs s P",
+          "reader_meaning": "Most qualified scholars agree that P.",
+          "source_correspondence": "A01, S168"
+        }
+      ],
+      "assumptions_and_dependencies": {
+        "explicit_premises": [
+          "E is a predicate on propositions representing 'has strong evidence'.",
+          "S is a finite or infinite set of scholars.",
+          "Concurs is a predicate relating a scholar to a proposition."
+        ],
+        "custom_axioms": [],
+        "theological_starting_premises": "None. The definition is neutral with respect to whether any minimal fact is true.",
+        "non_vacuity_requirement": "There must exist at least one P, E, S such that IsMinimalFact E S P holds; otherwise the definition is vacuous."
+      },
+      "verification_controls": [
+        {
+          "check": "module compilation",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "Lean corpus was not searched and no build was attempted in this run."
+        },
+        {
+          "check": "non-vacuity",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No witness for IsMinimalFact was constructed."
+        }
+      ],
+      "result_and_boundary": {
+        "verification_status": "CANDIDATE",
+        "what_is_established": "A precise Lean 4 definition of the minimal-fact predicate as a conjunction of an evidential condition and a consensus condition.",
+        "what_remains_open": "Whether any actual historical proposition satisfies the definition; the definition does not assert existence of minimal facts.",
+        "encoding_fidelity_review": "The source uses 'strong evidence' and 'most experts must agree'; the formalization abstracts these into predicates E and Concurs. The threshold for 'most' is left as a parameter, matching Habermas's refusal to give a numerical threshold (A03).",
+        "interpretive_connections": "Connects to A02 (criterion 1 more important than criterion 2) and A06 (consensus alone insufficient)."
+      },
+      "reproduction_receipt": {
+        "run_id": "",
+        "timestamp": "",
+        "source_hashes": {},
+        "commands": [],
+        "exit_codes": [],
+        "log_paths": [],
+        "declarations_checked": []
+      },
+      "corpus_links": {
+        "human_companion": "",
+        "corpus_claim_register": "",
+        "supporting_summaries": []
+      }
+    },
+    {
+      "identity": {
+        "claim_id": "A02",
+        "candidate_uuid": "lean4-A02-0002"
+      },
+      "source_selection": {
+        "exact_source_expression": "Having strong evidence matters much more than having a majority of scholars agree.",
+        "selection_disposition": "FORMALIZE",
+        "reason": "This is a comparative priority claim between the two criteria. It can be encoded as a theorem about a weighting function or a lexicographic order on the two criteria."
+      },
+      "formal_object": {
+        "object_type": "THEOREM",
+        "exact_proposed_statement": "For any two minimal-fact candidates P and Q, if P is highly evidenced and Q is not, then P is rationally preferable to Q regardless of the consensus levels of P and Q.",
+        "fully_qualified_declaration": "MinimalFacts.evidence_dominates_consensus",
+        "project_root": "MinimalFacts",
+        "module": "MinimalFacts.Priority"
+      },
+      "symbol_table": [
+        {
+          "term": "rationally preferable",
+          "formal_definition": "Preferable E S P Q := HighlyEvidenced E P ∧ ¬ HighlyEvidenced E Q",
+          "reader_meaning": "P is a better candidate for rational belief than Q.",
+          "source_correspondence": "A02, S326-S331"
+        },
+        {
+          "term": "criterion 1",
+          "formal_definition": "HighlyEvidenced E P",
+          "reader_meaning": "The fact is highly evidenced.",
+          "source_correspondence": "A02, S167"
+        },
+        {
+          "term": "criterion 2",
+          "formal_definition": "VastMajorityConcurs S P",
+          "reader_meaning": "The vast majority of qualified scholars concur.",
+          "source_correspondence": "A02, S168"
+        }
+      ],
+      "assumptions_and_dependencies": {
+        "explicit_premises": [
+          "Preferable is defined as a relation that ignores consensus when evidence differs.",
+          "The domain of propositions is nonempty."
+        ],
+        "custom_axioms": [],
+        "theological_starting_premises": "None.",
+        "non_vacuity_requirement": "There must exist at least two propositions P and Q with differing evidence status."
+      },
+      "verification_controls": [
+        {
+          "check": "module compilation",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No build attempted."
+        },
+        {
+          "check": "negative control",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No countermodel was constructed to test whether the priority claim is consistent with the definition."
+        }
+      ],
+      "result_and_boundary": {
+        "verification_status": "CANDIDATE",
+        "what_is_established": "A formal statement of the priority of evidence over consensus, conditional on the definition of Preferable.",
+        "what_remains_open": "Whether the priority claim is normatively correct; the theorem only encodes the stated priority, it does not justify it.",
+        "encoding_fidelity_review": "The source says criterion 1 is 'by far the more important' and '90 or 85% of the game' (S329). The formalization captures the qualitative priority but not the quantitative weighting.",
+        "interpretive_connections": "Connects to A06 (consensus alone insufficient) and A01 (definition of minimal fact)."
+      },
+      "reproduction_receipt": {
+        "run_id": "",
+        "timestamp": "",
+        "source_hashes": {},
+        "commands": [],
+        "exit_codes": [],
+        "log_paths": [],
+        "declarations_checked": []
+      },
+      "corpus_links": {
+        "human_companion": "",
+        "corpus_claim_register": "",
+        "supporting_summaries": []
+      }
+    },
+    {
+      "identity": {
+        "claim_id": "A06",
+        "candidate_uuid": "lean4-A06-0003"
+      },
+      "source_selection": {
+        "exact_source_expression": "Just because most scholars agree doesn't mean you should believe it; you also need strong evidence.",
+        "selection_disposition": "FORMALIZE",
+        "reason": "This is a sufficiency claim: consensus alone is not sufficient for rational belief. It can be encoded as a theorem that VastMajorityConcurs does not imply RationalBelief without HighlyEvidenced."
+      },
+      "formal_object": {
+        "object_type": "THEOREM",
+        "exact_proposed_statement": "There exists a proposition P and scholar population S such that VastMajorityConcurs S P holds but RationalBelief P does not hold, because HighlyEvidenced E P fails.",
+        "fully_qualified_declaration": "MinimalFacts.consensus_not_sufficient",
+        "project_root": "MinimalFacts",
+        "module": "MinimalFacts.Sufficiency"
+      },
+      "symbol_table": [
+        {
+          "term": "rational belief",
+          "formal_definition": "RationalBelief E S P := HighlyEvidenced E P ∧ VastMajorityConcurs S P",
+          "reader_meaning": "One is rationally justified in believing P.",
+          "source_correspondence": "A06, S385"
+        },
+        {
+          "term": "consensus alone",
+          "formal_definition": "VastMajorityConcurs S P",
+          "reader_meaning": "Most scholars agree that P.",
+          "source_correspondence": "A06, S383-S385"
+        }
+      ],
+      "assumptions_and_dependencies": {
+        "explicit_premises": [
+          "RationalBelief is defined as the conjunction of the two criteria.",
+          "There exists at least one proposition with consensus but no evidence."
+        ],
+        "custom_axioms": [],
+        "theological_starting_premises": "None.",
+        "non_vacuity_requirement": "The existential claim requires a witness; without a concrete P the theorem is conditional."
+      },
+      "verification_controls": [
+        {
+          "check": "non-vacuity",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No witness was provided."
+        },
+        {
+          "check": "countermodel",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No model was constructed to test the claim."
+        }
+      ],
+      "result_and_boundary": {
+        "verification_status": "CANDIDATE",
+        "what_is_established": "A formal statement that consensus alone does not entail rational belief under Habermas's definition.",
+        "what_remains_open": "Whether the definition of RationalBelief is the correct one; the theorem is relative to that definition.",
+        "encoding_fidelity_review": "The source explicitly says 'it's the latter' (S385), meaning both criteria are needed. The formalization matches this.",
+        "interpretive_connections": "Connects to A01 and A02."
+      },
+      "reproduction_receipt": {
+        "run_id": "",
+        "timestamp": "",
+        "source_hashes": {},
+        "commands": [],
+        "exit_codes": [],
+        "log_paths": [],
+        "declarations_checked": []
+      },
+      "corpus_links": {
+        "human_companion": "",
+        "corpus_claim_register": "",
+        "supporting_summaries": []
+      }
+    },
+    {
+      "identity": {
+        "claim_id": "A03",
+        "candidate_uuid": "lean4-A03-0004"
+      },
+      "source_selection": {
+        "exact_source_expression": "Gary doesn't say you need a certain percentage of evidence; he looks for things like many sources, eyewitnesses, and early accounts.",
+        "selection_disposition": "FORMALIZE",
+        "reason": "This is a claim about the absence of a numerical threshold and the presence of qualitative criteria. It can be encoded as a definition of an evidence profile with no numeric threshold."
+      },
+      "formal_object": {
+        "object_type": "DEFINITION",
+        "exact_proposed_statement": "An evidence profile for a proposition P is a tuple of qualitative criteria (multiple attestation, eyewitness testimony, early accounts) with no numerical threshold.",
+        "fully_qualified_declaration": "MinimalFacts.EvidenceProfile",
+        "project_root": "MinimalFacts",
+        "module": "MinimalFacts.Evidence"
+      },
+      "symbol_table": [
+        {
+          "term": "multiple attestation",
+          "formal_definition": "MultipleAttestation P := ∃ n ≥ 2, AttestedBy P n",
+          "reader_meaning": "P is attested by multiple independent sources.",
+          "source_correspondence": "A03, S216-S217"
+        },
+        {
+          "term": "eyewitness",
+          "formal_definition": "Eyewitness P := ∃ w, Witness w P",
+          "reader_meaning": "There is an eyewitness to P.",
+          "source_correspondence": "A03, S221-S224"
+        },
+        {
+          "term": "early account",
+          "formal_definition": "EarlyAccount P := ∃ c, Creed c ∧ Contains c P",
+          "reader_meaning": "P appears in an early creed or account.",
+          "source_correspondence": "A03, S224, S247-S252"
+        }
+      ],
+      "assumptions_and_dependencies": {
+        "explicit_premises": [
+          "AttestedBy, Witness, and Contains are predicates.",
+          "No numerical threshold is imposed."
+        ],
+        "custom_axioms": [],
+        "theological_starting_premises": "None.",
+        "non_vacuity_requirement": "There must exist at least one proposition with a nonempty evidence profile."
+      },
+      "verification_controls": [
+        {
+          "check": "module compilation",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No build attempted."
+        }
+      ],
+      "result_and_boundary": {
+        "verification_status": "CANDIDATE",
+        "what_is_established": "A formal definition of an evidence profile using qualitative criteria rather than a percentage.",
+        "what_remains_open": "How to aggregate the criteria into a single 'highly evidenced' predicate; the source does not specify a combination rule.",
+        "encoding_fidelity_review": "The source says 'I don't have a certain threshold' (S206) and lists categories (S226-S228). The formalization captures the categories but leaves the aggregation open.",
+        "interpretive_connections": "Connects to A01 and A02."
+      },
+      "reproduction_receipt": {
+        "run_id": "",
+        "timestamp": "",
+        "source_hashes": {},
+        "commands": [],
+        "exit_codes": [],
+        "log_paths": [],
+        "declarations_checked": []
+      },
+      "corpus_links": {
+        "human_companion": "",
+        "corpus_claim_register": "",
+        "supporting_summaries": []
+      }
+    },
+    {
+      "identity": {
+        "claim_id": "A05",
+        "candidate_uuid": "lean4-A05-0005"
+      },
+      "source_selection": {
+        "exact_source_expression": "Gary says he can choose to use only French, German, and English sources because he's the author, and those are the main languages for research.",
+        "selection_disposition": "FORMALIZE",
+        "reason": "This is a claim about authorial rights and language restriction. It can be encoded as a definition of a restricted scholar population and a theorem that the restriction is permissible by authorial fiat."
+      },
+      "formal_object": {
+        "object_type": "DEFINITION",
+        "exact_proposed_statement": "A language-restricted scholar population S_L is the subset of scholars who publish in languages L. The author may choose L = {French, German, English}.",
+        "fully_qualified_declaration": "MinimalFacts.LanguageRestrictedPopulation",
+        "project_root": "MinimalFacts",
+        "module": "MinimalFacts.Languages"
+      },
+      "symbol_table": [
+        {
+          "term": "language-restricted population",
+          "formal_definition": "LanguageRestrictedPopulation L := { s | PublishesIn s l ∧ l ∈ L }",
+          "reader_meaning": "The set of scholars who publish in the selected languages.",
+          "source_correspondence": "A05, S658-S661"
+        },
+        {
+          "term": "authorial right",
+          "formal_definition": "AuthorialRight L := True",
+          "reader_meaning": "The author is entitled to set the language parameters.",
+          "source_correspondence": "A05, S659-S661"
+        }
+      ],
+      "assumptions_and_dependencies": {
+        "explicit_premises": [
+          "PublishesIn is a predicate relating scholars to languages.",
+          "L is a finite set of languages."
+        ],
+        "custom_axioms": [],
+        "theological_starting_premises": "None.",
+        "non_vacuity_requirement": "There must exist at least one scholar publishing in each of the selected languages."
+      },
+      "verification_controls": [
+        {
+          "check": "module compilation",
+          "command_or_evidence": "",
+          "status": "NOT_RUN",
+          "interpretation": "No build attempted."
+        }
+      ],
+      "result_and_boundary": {
+        "verification_status": "CANDIDATE",
+        "what_is_established": "A formal definition of a language-restricted scholar population.",
+        "what_remains_open": "Whether the restriction is epistemically justified; the formalization only encodes the author's stated right, not its normative validity.",
+        "encoding_fidelity_review": "The source says 'I'm the author... that's my right' (S659-S661). The formalization treats AuthorialRight as an uninterpreted predicate.",
+        "interpretive_connections": "Connects to A01 and A04."
+      },
+      "reproduction_receipt": {
+        "run_id": "",
+        "timestamp": "",
+        "source_hashes": {},
+        "commands": [],
+        "exit_codes": [],
+        "log_paths": [],
+        "declarations_checked": []
+      },
+      "corpus_links": {
+        "human_companion": "",
+        "corpus_claim_register": "",
+        "supporting_summaries": []
+      }
+    }
+  ],
+  "existing_matches": [],
+  "notes": "The Lean corpus was not searched in this run. All verification controls are NOT_RUN and all verification statuses are CANDIDATE or NOT_ATTEMPTED. The formal candidates are limited to the five strongest mathematically or formally relevant claims. Claims A07-A24 are primarily bibliographic, biographical, or rhetorical and are not formalized here. No reproduction receipts or corpus links are provided because no commands were run and no corpus was searched."
+}

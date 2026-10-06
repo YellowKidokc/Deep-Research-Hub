@@ -1,0 +1,303 @@
+"""User-configurable runtime settings (the desktop "point at a folder" flow).
+
+The *locked* RAG knobs live in :mod:`doc_assistant.config` (changed only via an eval
+experiment). This module owns the *user*-facing settings a non-dev sets at runtime through the
+desktop app — currently just the **source documents folder** to ingest from — persisted as JSON
+in the data home so the choice survives a sidecar restart.
+
+Kept out of ``config`` (which is import-time + effectively immutable) because these are mutable,
+user-owned, and per-install. The data *home* (where the index/DB live) stays managed by
+``config._resolve_data_path`` (per-user when frozen, ASCII-safe Chroma via KI-11); the user only
+points at where *their documents* are.
+"""
+
+from __future__ import annotations
+
+import json
+import os
+from pathlib import Path
+from typing import Any
+
+import structlog
+
+from doc_assistant import config
+
+log = structlog.get_logger(__name__)
+
+SETTINGS_PATH = config.DATA_PATH / "settings.json"
+
+
+def load_user_settings() -> dict[str, Any]:
+    """Read the persisted user settings; ``{}`` if absent or unreadable (fail-safe)."""
+    try:
+        data = json.loads(SETTINGS_PATH.read_text(encoding="utf-8"))
+    except FileNotFoundError:
+        return {}
+    except (json.JSONDecodeError, OSError) as e:
+        log.warning("user_settings_unreadable", path=str(SETTINGS_PATH), error=str(e))
+        return {}
+    return data if isinstance(data, dict) else {}
+
+
+def save_user_settings(settings: dict[str, Any]) -> None:
+    """Persist the user settings as JSON in the data home (creating the dir if needed)."""
+    SETTINGS_PATH.parent.mkdir(parents=True, exist_ok=True)
+    SETTINGS_PATH.write_text(json.dumps(settings, indent=2), encoding="utf-8")
+
+
+def get_source_dir() -> Path:
+    """The folder ingest reads documents from.
+
+    Precedence: ``DOC_SOURCE_DIR`` env override > the persisted ``source_dir`` > the default
+    ``config.DOCS_PATH`` (``<data home>/sources``).
+    """
+    override = os.getenv("DOC_SOURCE_DIR")
+    if override:
+        return Path(override).expanduser().resolve()
+    stored = load_user_settings().get("source_dir")
+    if isinstance(stored, str) and stored:
+        return Path(stored).expanduser().resolve()
+    return config.DOCS_PATH
+
+
+def set_source_dir(path: str) -> Path:
+    """Validate ``path`` is an existing directory, persist it, and return the resolved path.
+
+    Raises :class:`ValueError` if the path doesn't exist or isn't a directory (the API maps that
+    to 400) — inform-don't-corrupt: never persist a folder we can't read.
+    """
+    resolved = Path(path).expanduser().resolve()
+    if not resolved.is_dir():
+        raise ValueError(f"not a directory: {resolved}")
+    settings = load_user_settings()
+    settings["source_dir"] = str(resolved)
+    save_user_settings(settings)
+    log.info("source_dir_set", path=str(resolved))
+    return resolved
+
+
+# ============================================================
+# LLM provider/model selection (ADR-011, U1c — desktop provider switch)
+# ============================================================
+# A non-secret, user-owned, per-install choice — same shape as source_dir. The API key stays in
+# .env (v1 handles no secret); this module only remembers *which already-configured provider* the
+# user picked, so it survives a sidecar restart. `chat_controller.ChatController` applies it at
+# construction (RAGPipeline.set_chat_model) and on a live POST /api/settings switch.
+
+
+def get_llm_selection() -> tuple[str | None, str | None]:
+    """The persisted ``(provider, model)`` selection, or ``(None, None)`` if never set."""
+    stored = load_user_settings()
+    provider = stored.get("llm_provider")
+    model = stored.get("llm_model")
+    if isinstance(provider, str) and provider and isinstance(model, str) and model:
+        return provider, model
+    return None, None
+
+
+def set_llm_selection(provider: str, model: str) -> None:
+    """Validate and persist a provider/model choice.
+
+    Raises :class:`ValueError` (the API maps that to 400) for an unknown provider or one whose
+    credential is absent — inform-don't-corrupt: never persist a selection that can't run.
+    """
+    from doc_assistant.llm import provider_available
+
+    key = provider.strip().lower()
+    if key not in ("anthropic", "ollama"):
+        raise ValueError(f"unknown provider '{provider}' — valid options: anthropic, ollama")
+    if not provider_available(key):
+        raise ValueError(f"provider '{key}' has no credential configured (add it to .env)")
+    # A blank model must never be persisted: build_chat_model would get an empty name, and
+    # get_llm_selection's own truthiness gate would then silently drop the selection on the next
+    # boot (reverting to the config default) — inform-don't-corrupt.
+    model = model.strip()
+    if not model:
+        raise ValueError("model must not be empty")
+    settings = load_user_settings()
+    settings["llm_provider"] = key
+    settings["llm_model"] = model
+    save_user_settings(settings)
+    log.info("llm_selection_set", provider=key, model=model)
+
+
+def effective_llm() -> tuple[str, str]:
+    """The live ``(provider, model)``: the persisted selection if present, else the config
+    default (``config.LLM_PROVIDER``/``LLM_MODEL``). The single source of "what's actually live" —
+    ``RAGPipeline``/``ChatController`` and the settings view both read through this, never the
+    import-time config constants directly, so a switch and a fresh boot agree."""
+    provider, model = get_llm_selection()
+    if provider is not None and model is not None:
+        return provider, model
+    return config.LLM_PROVIDER, config.LLM_MODEL
+
+
+# ============================================================
+# Epistemics answer-layer toggle (ADR-027 D2, E3)
+# ============================================================
+# Whether epistemics *influences* the answer layer (the marker chips on sources) — a persisted,
+# user-owned default layered between the config env default and U1b's per-turn sandbox override:
+#   per-turn RagOverrides.epistemics_markers_enabled  >  this setting  >  config default.
+# Governs the answer surface ONLY: the D3 source-evaluation strip is always-on and never reads
+# this (ADR-027's boundary). Same shape as the LLM selection above — a non-secret per-install
+# preference, so it survives a sidecar restart.
+
+
+def get_markers_enabled() -> bool | None:
+    """The persisted answer-layer epistemics choice, or ``None`` if the user never set one."""
+    stored = load_user_settings().get("epistemics_markers_enabled")
+    return stored if isinstance(stored, bool) else None
+
+
+def set_markers_enabled(enabled: bool) -> None:
+    """Persist whether epistemics may influence the answer layer (ADR-027 D2)."""
+    settings = load_user_settings()
+    settings["epistemics_markers_enabled"] = enabled
+    save_user_settings(settings)
+    log.info("epistemics_markers_enabled_set", enabled=enabled)
+
+
+def effective_markers_enabled() -> bool:
+    """The live answer-layer default: the persisted choice if present, else the config default
+    (``config.EPISTEMICS_MARKERS_ENABLED``). The per-turn resolution and the settings view both
+    read through this — mirroring :func:`effective_llm` — so a toggle and a fresh boot agree.
+    U1b's per-turn override is applied by the caller on top, never here (request-scoped)."""
+    stored = get_markers_enabled()
+    if stored is not None:
+        return stored
+    return config.EPISTEMICS_MARKERS_ENABLED
+
+
+# ============================================================
+# Demo-corpus bookkeeping (ADR-025 F3)
+# ============================================================
+# Two per-install pointers, not user-facing preferences: which folder holds the demo corpus, and
+# whether the one-time backfill has already run. They live here rather than in the schema because
+# they are *pointers*, not document data (spec M5) — resolving the folder by id is what makes
+# renaming it stick, and the backfill flag is what stops a second run from re-adding documents the
+# user removed (M8).
+
+
+def get_demo_folder_id() -> str | None:
+    """The folder id the demo corpus is assigned into, or None if never created."""
+    stored = load_user_settings().get("demo_folder_id")
+    return stored if isinstance(stored, str) and stored else None
+
+
+def set_demo_folder_id(folder_id: str) -> None:
+    """Remember which folder holds the demo corpus (id-keyed, so a rename is respected)."""
+    settings = load_user_settings()
+    settings["demo_folder_id"] = folder_id
+    save_user_settings(settings)
+    log.info("demo_folder_id_set", folder_id=folder_id)
+
+
+def demo_backfill_done() -> bool:
+    """Whether the one-time demo backfill has already been applied on this install."""
+    return load_user_settings().get("demo_backfill_done") is True
+
+
+def mark_demo_backfill_done() -> None:
+    """Record that the one-time demo backfill has run (see ``scripts/backfill_demo_folder.py``)."""
+    settings = load_user_settings()
+    settings["demo_backfill_done"] = True
+    save_user_settings(settings)
+    log.info("demo_backfill_marked_done")
+
+
+# ============================================================
+# Update check (ADR-044)
+# ============================================================
+# Whether the app may check *automatically* for a newer release, and when it last did. Same
+# per-install, non-secret shape as the settings above. Two things to keep straight:
+#   * The toggle governs the AUTOMATIC daily check only. A manual "check now" always runs — an
+#     explicit press is its own consent, and gating it would make "I don't know if I'm current"
+#     unreachable for a user who declined background traffic (ADR-044).
+#   * It defaults to OFF. This app makes no outbound calls the user did not ask for, and a
+#     default-on version check would be the first one.
+
+
+def get_update_check_enabled() -> bool:
+    """Whether automatic daily update checks are on. Off unless the user turned them on."""
+    return load_user_settings().get("update_check_enabled") is True
+
+
+def set_update_check_enabled(enabled: bool) -> None:
+    """Persist the automatic-update-check choice (ADR-044)."""
+    settings = load_user_settings()
+    settings["update_check_enabled"] = enabled
+    save_user_settings(settings)
+    log.info("update_check_enabled_set", enabled=enabled)
+
+
+def get_update_last_checked() -> str | None:
+    """ISO timestamp of the last completed check, or ``None`` if it has never run."""
+    stored = load_user_settings().get("update_last_checked")
+    return stored if isinstance(stored, str) and stored else None
+
+
+def set_update_last_checked(when: str) -> None:
+    """Record when a check completed, so the automatic one stays at most daily.
+
+    Written for a *failed* check too: the rate limit exists to protect the endpoint and the
+    user's network, and retrying a down server every launch would defeat it.
+    """
+    settings = load_user_settings()
+    settings["update_last_checked"] = when
+    save_user_settings(settings)
+
+
+def get_update_last_seen_version() -> str | None:
+    """The newest release version the last successful check saw, or ``None``.
+
+    Deliberately the *version*, not the verdict. A stored "an update is available" would keep
+    saying so after the user installed it, and a stored "current" would keep saying so after a
+    release was cut; storing the observed version instead lets the verdict be **recomputed**
+    against the running version on every read, so both of those correct themselves.
+    """
+    stored = load_user_settings().get("update_last_seen_version")
+    return stored if isinstance(stored, str) and stored else None
+
+
+def set_update_last_seen_version(version: str | None) -> None:
+    """Remember the newest release the last check saw; ``None`` clears it (a failed check).
+
+    Clearing matters: keeping the previous answer after a failure would show a verdict with a
+    fresh "checked at" stamp that no successful check backs (ADR-044's three-state rule).
+    """
+    settings = load_user_settings()
+    if version:
+        settings["update_last_seen_version"] = version
+    else:
+        settings.pop("update_last_seen_version", None)
+    save_user_settings(settings)
+
+
+def get_ingest_budget() -> str:
+    """How much of this machine an ingest may use: ``off`` | ``light`` | ``balanced`` | ``full``.
+
+    A **politeness** control, not a performance knob — see `ingest.workers`. It is output-neutral
+    (worker count cannot change what an answer says), which is the test ADR-037 used to decide
+    whether a knob is safe to expose, and it is read per ingest run rather than at pipeline
+    construction, so ADR-037's "no restart semantics" objection does not apply either.
+    """
+    from doc_assistant.ingest.workers import BUDGETS, DEFAULT_BUDGET
+
+    value = load_user_settings().get("ingest_budget")
+    if isinstance(value, str) and value.strip().lower() in BUDGETS:
+        return value.strip().lower()
+    return DEFAULT_BUDGET
+
+
+def set_ingest_budget(budget: str) -> str:
+    """Persist the ingest politeness budget. Returns what was stored."""
+    from doc_assistant.ingest.workers import BUDGETS
+
+    name = budget.strip().lower()
+    if name not in BUDGETS:
+        raise ValueError(f"unknown ingest budget {budget!r}; expected one of {', '.join(BUDGETS)}")
+    settings = load_user_settings()
+    settings["ingest_budget"] = name
+    save_user_settings(settings)
+    log.info("ingest_budget_set", budget=name)
+    return name

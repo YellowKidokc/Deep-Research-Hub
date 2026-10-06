@@ -1,0 +1,28 @@
+---
+fis_schema: "folder-index.v1"
+folder_id: "FLD-20260907-33836256"
+folder: "GitHub\Research-Acquisition\duke_axioms_crawl\source_html_complete"
+folder_class: "project"
+confidence: 0.6
+dependency_risk: 0.0
+dominant_family: "code"
+dominant_ratio: 0.983
+file_count: 60
+classified_at: "2026-09-07T16:07:43"
+allowed_actions: ["index", "rename_internal", "subfolder_sort", "archive_exports"]
+suggested_name: "source_html_complete"
+---
+
+# FIS Folder Index: source_html_complete
+
+**Class**: project  ·  **Confidence**: 60%  ·  **Files**: 60  ·  **Dominant**: code (98%)
+
+## Allowed actions
+- index
+- rename_internal
+- subfolder_sort
+- archive_exports
+
+**Suggested name**: `source_html_complete`  (not applied — review before use)
+
+<!-- FIS folder-index.v1: parseable note; safe to regenerate. -->

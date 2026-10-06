@@ -1,0 +1,708 @@
+{
+  "start_offset": 210,
+  "cases_processed": 100,
+  "max_links_per_case": 20,
+  "rows_written": 1998,
+  "summary": [
+    {
+      "case_id": "CASE-0211",
+      "case_title": "IRS targeting scandal",
+      "matched_title": "IRS targeting controversy",
+      "page_url": "https://en.wikipedia.org/wiki/IRS_targeting_controversy",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0212",
+      "case_title": "NSA Room 641A",
+      "matched_title": "Room 641A",
+      "page_url": "https://en.wikipedia.org/wiki/Room_641A",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0213",
+      "case_title": "Stuxnet",
+      "matched_title": "Stuxnet",
+      "page_url": "https://en.wikipedia.org/wiki/Stuxnet",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0214",
+      "case_title": "Operation Acoustic Kitty",
+      "matched_title": "Acoustic Kitty",
+      "page_url": "https://en.wikipedia.org/wiki/Acoustic_Kitty",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0215",
+      "case_title": "DARPA LifeLog Facebook",
+      "matched_title": "DARPA LifeLog",
+      "page_url": "https://en.wikipedia.org/wiki/DARPA_LifeLog",
+      "links_added": 18
+    },
+    {
+      "case_id": "CASE-0216",
+      "case_title": "In-Q-Tel CIA venture capital",
+      "matched_title": "In-Q-Tel",
+      "page_url": "https://en.wikipedia.org/wiki/In-Q-Tel",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0217",
+      "case_title": "Total Information Awareness",
+      "matched_title": "Total Information Awareness",
+      "page_url": "https://en.wikipedia.org/wiki/Total_Information_Awareness",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0218",
+      "case_title": "Carnivore FBI surveillance",
+      "matched_title": "Carnivore (software)",
+      "page_url": "https://en.wikipedia.org/wiki/Carnivore_%28software%29",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0219",
+      "case_title": "PROMIS software conspiracy",
+      "matched_title": "American Conspiracy: The Octopus Murders",
+      "page_url": "https://en.wikipedia.org/wiki/American_Conspiracy%3A_The_Octopus_Murders",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0220",
+      "case_title": "Danny Casolaro Octopus",
+      "matched_title": "American Conspiracy: The Octopus Murders",
+      "page_url": "https://en.wikipedia.org/wiki/American_Conspiracy%3A_The_Octopus_Murders",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0221",
+      "case_title": "Operation Ore",
+      "matched_title": "Operation Ore",
+      "page_url": "https://en.wikipedia.org/wiki/Operation_Ore",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0222",
+      "case_title": "MKULTRA Canada",
+      "matched_title": "MKUltra",
+      "page_url": "https://en.wikipedia.org/wiki/MKUltra",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0223",
+      "case_title": "Church Committee findings",
+      "matched_title": "Plausible deniability",
+      "page_url": "https://en.wikipedia.org/wiki/Plausible_deniability",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0224",
+      "case_title": "Pike Committee",
+      "matched_title": "Pike Committee",
+      "page_url": "https://en.wikipedia.org/wiki/Pike_Committee",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0225",
+      "case_title": "Executive Order 11110",
+      "matched_title": "Executive Order 11110",
+      "page_url": "https://en.wikipedia.org/wiki/Executive_Order_11110",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0226",
+      "case_title": "Project SHAD",
+      "matched_title": "Project SHAD",
+      "page_url": "https://en.wikipedia.org/wiki/Project_SHAD",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0227",
+      "case_title": "Operation Big Buzz",
+      "matched_title": "Operation Big Buzz",
+      "page_url": "https://en.wikipedia.org/wiki/Operation_Big_Buzz",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0228",
+      "case_title": "Operation Sea Spray",
+      "matched_title": "Operation Sea-Spray",
+      "page_url": "https://en.wikipedia.org/wiki/Operation_Sea-Spray",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0229",
+      "case_title": "Tuskegee airmen vs experiment",
+      "matched_title": "List of programs broadcast by the History Channel",
+      "page_url": "https://en.wikipedia.org/wiki/List_of_programs_broadcast_by_the_History_Channel",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0230",
+      "case_title": "USS Maine conspiracy",
+      "matched_title": "USS Maine (1890)",
+      "page_url": "https://en.wikipedia.org/wiki/USS_Maine_%281890%29",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0231",
+      "case_title": "vaccine autism link",
+      "matched_title": "MMR vaccine and autism",
+      "page_url": "https://en.wikipedia.org/wiki/MMR_vaccine_and_autism",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0232",
+      "case_title": "Wakefield study fraud",
+      "matched_title": "Andrew Wakefield",
+      "page_url": "https://en.wikipedia.org/wiki/Andrew_Wakefield",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0233",
+      "case_title": "thimerosal mercury vaccines",
+      "matched_title": "Thiomersal and vaccines",
+      "page_url": "https://en.wikipedia.org/wiki/Thiomersal_and_vaccines",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0234",
+      "case_title": "SV40 contamination",
+      "matched_title": "Vaccine contamination with SV40",
+      "page_url": "https://en.wikipedia.org/wiki/Vaccine_contamination_with_SV40",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0235",
+      "case_title": "statin conspiracy",
+      "matched_title": "Age and health concerns about Donald Trump",
+      "page_url": "https://en.wikipedia.org/wiki/Age_and_health_concerns_about_Donald_Trump",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0236",
+      "case_title": "mammography screening conspiracy",
+      "matched_title": "Christiane Northrup",
+      "page_url": "https://en.wikipedia.org/wiki/Christiane_Northrup",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0237",
+      "case_title": "psychiatry conspiracy",
+      "matched_title": "Conspiracy theory",
+      "page_url": "https://en.wikipedia.org/wiki/Conspiracy_theory",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0238",
+      "case_title": "SSRI school shootings",
+      "matched_title": "Annunciation Catholic Church shooting",
+      "page_url": "https://en.wikipedia.org/wiki/Annunciation_Catholic_Church_shooting",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0239",
+      "case_title": "MSG conspiracy",
+      "matched_title": "Gurmeet Ram Rahim Singh",
+      "page_url": "https://en.wikipedia.org/wiki/Gurmeet_Ram_Rahim_Singh",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0240",
+      "case_title": "seed oil conspiracy",
+      "matched_title": "Seed oil misinformation",
+      "page_url": "https://en.wikipedia.org/wiki/Seed_oil_misinformation",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0241",
+      "case_title": "sugar industry cover up",
+      "matched_title": "Sugar industry in the United States",
+      "page_url": "https://en.wikipedia.org/wiki/Sugar_industry_in_the_United_States",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0242",
+      "case_title": "tobacco science playbook",
+      "matched_title": "Tobacco industry playbook",
+      "page_url": "https://en.wikipedia.org/wiki/Tobacco_industry_playbook",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0243",
+      "case_title": "opioid crisis conspiracy",
+      "matched_title": "Opioid epidemic in the United States",
+      "page_url": "https://en.wikipedia.org/wiki/Opioid_epidemic_in_the_United_States",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0244",
+      "case_title": "Purdue Pharma",
+      "matched_title": "Purdue Pharma",
+      "page_url": "https://en.wikipedia.org/wiki/Purdue_Pharma",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0245",
+      "case_title": "ivermectin suppressed",
+      "matched_title": "Ivermectin during the COVID-19 pandemic",
+      "page_url": "https://en.wikipedia.org/wiki/Ivermectin_during_the_COVID-19_pandemic",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0246",
+      "case_title": "hydroxychloroquine conspiracy",
+      "matched_title": "QAnon",
+      "page_url": "https://en.wikipedia.org/wiki/QAnon",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0247",
+      "case_title": "Lyme disease bioweapon",
+      "matched_title": "Lyme disease",
+      "page_url": "https://en.wikipedia.org/wiki/Lyme_disease",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0248",
+      "case_title": "Plum Island bioweapon",
+      "matched_title": "Plum Island Animal Disease Center",
+      "page_url": "https://en.wikipedia.org/wiki/Plum_Island_Animal_Disease_Center",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0249",
+      "case_title": "mycoplasma fermentans",
+      "matched_title": "Mycoplasma fermentans",
+      "page_url": "https://en.wikipedia.org/wiki/Mycoplasma_fermentans",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0250",
+      "case_title": "Morgellons disease",
+      "matched_title": "Morgellons",
+      "page_url": "https://en.wikipedia.org/wiki/Morgellons",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0251",
+      "case_title": "gold price manipulation",
+      "matched_title": "Fideres",
+      "page_url": "https://en.wikipedia.org/wiki/Fideres",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0252",
+      "case_title": "silver market manipulation",
+      "matched_title": "Market manipulation",
+      "page_url": "https://en.wikipedia.org/wiki/Market_manipulation",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0253",
+      "case_title": "LIBOR scandal",
+      "matched_title": "Libor scandal",
+      "page_url": "https://en.wikipedia.org/wiki/Libor_scandal",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0254",
+      "case_title": "forex rigging scandal",
+      "matched_title": "Forex scandal",
+      "page_url": "https://en.wikipedia.org/wiki/Forex_scandal",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0255",
+      "case_title": "Panama Papers",
+      "matched_title": "Panama Papers",
+      "page_url": "https://en.wikipedia.org/wiki/Panama_Papers",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0256",
+      "case_title": "Paradise Papers",
+      "matched_title": "Paradise Papers",
+      "page_url": "https://en.wikipedia.org/wiki/Paradise_Papers",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0257",
+      "case_title": "Pandora Papers",
+      "matched_title": "Pandora Papers",
+      "page_url": "https://en.wikipedia.org/wiki/Pandora_Papers",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0258",
+      "case_title": "offshore tax havens",
+      "matched_title": "Offshore financial centre",
+      "page_url": "https://en.wikipedia.org/wiki/Offshore_financial_centre",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0259",
+      "case_title": "ESG conspiracy",
+      "matched_title": "BlackRock",
+      "page_url": "https://en.wikipedia.org/wiki/BlackRock",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0260",
+      "case_title": "Vanguard Blackrock conspiracy",
+      "matched_title": "BlackRock",
+      "page_url": "https://en.wikipedia.org/wiki/BlackRock",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0261",
+      "case_title": "Bitcoin created by CIA",
+      "matched_title": "Gavin Andresen",
+      "page_url": "https://en.wikipedia.org/wiki/Gavin_Andresen",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0262",
+      "case_title": "cryptocurrency conspiracy",
+      "matched_title": "Cryptocurrency exchange",
+      "page_url": "https://en.wikipedia.org/wiki/Cryptocurrency_exchange",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0263",
+      "case_title": "petrodollar conspiracy",
+      "matched_title": "Petrodollar recycling",
+      "page_url": "https://en.wikipedia.org/wiki/Petrodollar_recycling",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0264",
+      "case_title": "Nixon gold standard",
+      "matched_title": "Nixon shock",
+      "page_url": "https://en.wikipedia.org/wiki/Nixon_shock",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0265",
+      "case_title": "PPT Plunge Protection Team",
+      "matched_title": "Working Group on Financial Markets",
+      "page_url": "https://en.wikipedia.org/wiki/Working_Group_on_Financial_Markets",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0266",
+      "case_title": "Exchange Stabilization Fund",
+      "matched_title": "Exchange Stabilization Fund",
+      "page_url": "https://en.wikipedia.org/wiki/Exchange_Stabilization_Fund",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0267",
+      "case_title": "quantitative easing conspiracy",
+      "matched_title": "Currency war",
+      "page_url": "https://en.wikipedia.org/wiki/Currency_war",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0268",
+      "case_title": "Wall Street bailout conspiracy",
+      "matched_title": "Effects of the 2008\u20132010 automotive industry crisis on the United States",
+      "page_url": "https://en.wikipedia.org/wiki/Effects_of_the_2008%E2%80%932010_automotive_industry_crisis_on_the_United_States",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0269",
+      "case_title": "GameStop conspiracy",
+      "matched_title": "GameStop short squeeze",
+      "page_url": "https://en.wikipedia.org/wiki/GameStop_short_squeeze",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0270",
+      "case_title": "dark pools conspiracy",
+      "matched_title": "Vampire: The Masquerade",
+      "page_url": "https://en.wikipedia.org/wiki/Vampire%3A_The_Masquerade",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0271",
+      "case_title": "Daniel statue prophecy",
+      "matched_title": "Four kingdoms of Daniel",
+      "page_url": "https://en.wikipedia.org/wiki/Four_kingdoms_of_Daniel",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0272",
+      "case_title": "seventy weeks of Daniel",
+      "matched_title": "Prophecy of Seventy Weeks",
+      "page_url": "https://en.wikipedia.org/wiki/Prophecy_of_Seventy_Weeks",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0273",
+      "case_title": "fig tree generation prophecy",
+      "matched_title": "Cursing of the fig tree",
+      "page_url": "https://en.wikipedia.org/wiki/Cursing_of_the_fig_tree",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0274",
+      "case_title": "Jubilee year prophecy",
+      "matched_title": "Shmita",
+      "page_url": "https://en.wikipedia.org/wiki/Shmita",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0275",
+      "case_title": "Shemitah cycle",
+      "matched_title": "Shmita",
+      "page_url": "https://en.wikipedia.org/wiki/Shmita",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0276",
+      "case_title": "blood covenant prophecy",
+      "matched_title": "Covenant theology",
+      "page_url": "https://en.wikipedia.org/wiki/Covenant_theology",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0277",
+      "case_title": "Ezekiel dry bones prophecy",
+      "matched_title": "Vision of the Valley of Dry Bones",
+      "page_url": "https://en.wikipedia.org/wiki/Vision_of_the_Valley_of_Dry_Bones",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0278",
+      "case_title": "Zechariah 14 prophecy",
+      "matched_title": "Book of Zechariah",
+      "page_url": "https://en.wikipedia.org/wiki/Book_of_Zechariah",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0279",
+      "case_title": "Obadiah Edom prophecy",
+      "matched_title": "Book of Obadiah",
+      "page_url": "https://en.wikipedia.org/wiki/Book_of_Obadiah",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0280",
+      "case_title": "Joel locust army prophecy",
+      "matched_title": "Book of Joel",
+      "page_url": "https://en.wikipedia.org/wiki/Book_of_Joel",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0281",
+      "case_title": "Micah 5 Bethlehem prophecy",
+      "matched_title": "Micah (prophet)",
+      "page_url": "https://en.wikipedia.org/wiki/Micah_%28prophet%29",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0282",
+      "case_title": "Isaiah 53 suffering servant",
+      "matched_title": "Isaiah 53",
+      "page_url": "https://en.wikipedia.org/wiki/Isaiah_53",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0283",
+      "case_title": "Psalm 22 crucifixion prophecy",
+      "matched_title": "Psalm 22",
+      "page_url": "https://en.wikipedia.org/wiki/Psalm_22",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0284",
+      "case_title": "Daniel 12 sealed book",
+      "matched_title": "Seven seals",
+      "page_url": "https://en.wikipedia.org/wiki/Seven_seals",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0285",
+      "case_title": "Revelation 13 beast system",
+      "matched_title": "The Beast (Revelation)",
+      "page_url": "https://en.wikipedia.org/wiki/The_Beast_%28Revelation%29",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0286",
+      "case_title": "Babylon the Great",
+      "matched_title": "Whore of Babylon",
+      "page_url": "https://en.wikipedia.org/wiki/Whore_of_Babylon",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0287",
+      "case_title": "Mystery Babylon America",
+      "matched_title": "The Babylon Bee",
+      "page_url": "https://en.wikipedia.org/wiki/The_Babylon_Bee",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0288",
+      "case_title": "Whore of Babylon",
+      "matched_title": "Whore of Babylon",
+      "page_url": "https://en.wikipedia.org/wiki/Whore_of_Babylon",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0289",
+      "case_title": "false prophet Revelation",
+      "matched_title": "False prophet",
+      "page_url": "https://en.wikipedia.org/wiki/False_prophet",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0290",
+      "case_title": "144000 Revelation",
+      "matched_title": "144,000",
+      "page_url": "https://en.wikipedia.org/wiki/144%2C000",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0291",
+      "case_title": "new Jerusalem",
+      "matched_title": "New Jerusalem",
+      "page_url": "https://en.wikipedia.org/wiki/New_Jerusalem",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0292",
+      "case_title": "lake of fire",
+      "matched_title": "Lake of fire",
+      "page_url": "https://en.wikipedia.org/wiki/Lake_of_fire",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0293",
+      "case_title": "sheep goat judgment",
+      "matched_title": "The Sheep and the Goats",
+      "page_url": "https://en.wikipedia.org/wiki/The_Sheep_and_the_Goats",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0294",
+      "case_title": "white throne judgment",
+      "matched_title": "Last Judgment",
+      "page_url": "https://en.wikipedia.org/wiki/Last_Judgment",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0295",
+      "case_title": "wedding supper of the Lamb",
+      "matched_title": "Mass of the Lord's Supper",
+      "page_url": "https://en.wikipedia.org/wiki/Mass_of_the_Lord%27s_Supper",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0296",
+      "case_title": "parable ten virgins",
+      "matched_title": "Parable of the Ten Virgins",
+      "page_url": "https://en.wikipedia.org/wiki/Parable_of_the_Ten_Virgins",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0297",
+      "case_title": "Elijah must come first",
+      "matched_title": "Elijah",
+      "page_url": "https://en.wikipedia.org/wiki/Elijah",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0298",
+      "case_title": "John the Baptist Elijah",
+      "matched_title": "Elijah",
+      "page_url": "https://en.wikipedia.org/wiki/Elijah",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0299",
+      "case_title": "Enoch taken prophecy",
+      "matched_title": "Book of Enoch",
+      "page_url": "https://en.wikipedia.org/wiki/Book_of_Enoch",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0300",
+      "case_title": "Methuselah prophecy name",
+      "matched_title": "Ahijah the Shilonite",
+      "page_url": "https://en.wikipedia.org/wiki/Ahijah_the_Shilonite",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0301",
+      "case_title": "tower of Babel conspiracy",
+      "matched_title": "Nimrod",
+      "page_url": "https://en.wikipedia.org/wiki/Nimrod",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0302",
+      "case_title": "Nimrod one world government",
+      "matched_title": "Nimrod",
+      "page_url": "https://en.wikipedia.org/wiki/Nimrod",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0303",
+      "case_title": "Genesis 6 conspiracy",
+      "matched_title": "Genesis creation narrative",
+      "page_url": "https://en.wikipedia.org/wiki/Genesis_creation_narrative",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0304",
+      "case_title": "Book of Enoch conspiracy",
+      "matched_title": "Mike Enoch",
+      "page_url": "https://en.wikipedia.org/wiki/Mike_Enoch",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0305",
+      "case_title": "Dead Sea Scrolls cover up",
+      "matched_title": "Isaiah Scroll",
+      "page_url": "https://en.wikipedia.org/wiki/Isaiah_Scroll",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0306",
+      "case_title": "Nag Hammadi texts",
+      "matched_title": "Nag Hammadi library",
+      "page_url": "https://en.wikipedia.org/wiki/Nag_Hammadi_library",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0307",
+      "case_title": "lost books of the Bible",
+      "matched_title": "The Lost Books of the Bible and the Forgotten Books of Eden",
+      "page_url": "https://en.wikipedia.org/wiki/The_Lost_Books_of_the_Bible_and_the_Forgotten_Books_of_Eden",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0308",
+      "case_title": "Council of Nicaea conspiracy",
+      "matched_title": "Phantom time conspiracy theory",
+      "page_url": "https://en.wikipedia.org/wiki/Phantom_time_conspiracy_theory",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0309",
+      "case_title": "Bible changed conspiracy",
+      "matched_title": "Biblical conspiracy theory",
+      "page_url": "https://en.wikipedia.org/wiki/Biblical_conspiracy_theory",
+      "links_added": 20
+    },
+    {
+      "case_id": "CASE-0310",
+      "case_title": "King James Bible conspiracy",
+      "matched_title": "James VI and I",
+      "page_url": "https://en.wikipedia.org/wiki/James_VI_and_I",
+      "links_added": 20
+    }
+  ]
+}

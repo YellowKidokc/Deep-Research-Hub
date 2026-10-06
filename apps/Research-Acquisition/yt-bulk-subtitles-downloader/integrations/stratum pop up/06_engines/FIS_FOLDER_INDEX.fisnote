@@ -1,0 +1,22 @@
+---
+fis_schema: tag-ledger.v1
+run_id: 1
+folder: "stratum pop up\\06_engines"
+generated_at: "2026-06-23T17:14:16"
+ledger: "D:\\DONT TOUCH BOOT UP\\FIS\\fis_runtime\\tag_ledger.sqlite"
+tags: ["folder", "engines", "other"]
+file_count: 1
+child_folder_count: 0
+---
+
+# FIS Folder Index: 06_engines
+
+This folder has been seen by the FIS tag ledger. The ledger records names, tags, skipped items, and move status.
+
+Move state: every listed file starts as `not_moved` until a later approved mover records otherwise.
+
+## Direct Files
+
+- `create_engine_links.cmd` :: #file #other #ext-cmd #create #engine #links :: move_status=not_moved
+
+<!-- FIS tag-ledger.v1: parseable note; safe to regenerate. -->

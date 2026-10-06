@@ -1,0 +1,4589 @@
+{
+  "summary": {
+    "scored": 164,
+    "total": 164,
+    "missing": [],
+    "fruit_means": {
+      "love": 0.0,
+      "joy": 0.0,
+      "peace": 0.0,
+      "patience": 0.0,
+      "kindness": 0.0,
+      "goodness": 0.0,
+      "faithfulness": 0.03,
+      "gentleness": 0.0,
+      "self_control": 0.098
+    },
+    "fruit_extremes": {
+      "love": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "joy": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "peace": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "patience": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "kindness": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "goodness": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "faithfulness": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "gentleness": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      },
+      "self_control": {
+        "plus2": 0,
+        "minus2": 0,
+        "share_negative": 0.0
+      }
+    },
+    "track_love": {
+      "joy": null,
+      "peace": null,
+      "patience": null,
+      "kindness": null,
+      "goodness": null,
+      "faithfulness": null,
+      "gentleness": null,
+      "self_control": null
+    },
+    "top_toward": [
+      {
+        "id": "S073",
+        "para": "P03",
+        "sum": 2,
+        "love": 0,
+        "text": "He says it was probably or may have been or likely had been, he says in different ways, out within months.",
+        "why": {
+          "faithfulness": "accurately reports Dunn's hedged wording",
+          "self_control": "preserves the source's uncertainty"
+        }
+      },
+      {
+        "id": "S087",
+        "para": "P03",
+        "sum": 2,
+        "love": 0,
+        "text": "Uh Actually, I just realized I used his word.",
+        "why": {
+          "faithfulness": "acknowledges using a translated word",
+          "self_control": "flags translation caveat"
+        }
+      },
+      {
+        "id": "S125",
+        "para": "P03",
+        "sum": 2,
+        "love": 0,
+        "text": "Where does that come from? >> Um well, just because you've descriptively said in the past that the minimal facts have at least 90% or more um of scholars that support those facts, kind of getting >> Yeah, I have to be real careful about tha",
+        "why": {
+          "faithfulness": "concedes his own past loose wording",
+          "self_control": "admits need for care"
+        }
+      },
+      {
+        "id": "S128",
+        "para": "P03",
+        "sum": 2,
+        "love": 0,
+        "text": "I've never counted. >> Yeah. >> Except the empty tomb, and it's not one of the six, I never counted.",
+        "why": {
+          "faithfulness": "admits never counting scholars",
+          "self_control": "limits his own claim"
+        }
+      },
+      {
+        "id": "S132",
+        "para": "P03",
+        "sum": 2,
+        "love": 0,
+        "text": "That's the honest truth. >> Okay. >> The fact I've never counted them.",
+        "why": {
+          "faithfulness": "candid admission about method",
+          "self_control": "owns lack of counts"
+        }
+      }
+    ],
+    "top_away": [],
+    "love_turns": [],
+    "counterfeit_candidates": [],
+    "hidden_fruit": [],
+    "paragraph_love": {
+      "P01": 0.0,
+      "P02": 0.0,
+      "P03": 0.0
+    },
+    "paragraph_total": {
+      "P01": 0.0,
+      "P02": 0.0,
+      "P03": 0.13
+    }
+  },
+  "sentences": [
+    {
+      "id": "S001",
+      "para": "P01",
+      "text": "# Chapter 008 — The Evidential THRESHOLD for Resurrection Belief - Gary Habermas",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [
+          "evidential"
+        ],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S002",
+      "para": "P02",
+      "text": "## Transcript",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S003",
+      "para": "P03",
+      "text": "your scholarly consensus criterion and starting off so going back with volume one you've always mentioned with the minimal facts there are two criteria for something to qualify so that the first is that the fact is highly evidenced right and secondly that the vast majority of qualified scholars concur with it being a fact and I just wanted to kind of get some clarification in terms of your threshold for each of these criteria so let let's first start with criterion number one even though that's not directly related to volume three I'm just curious what what does it mean for a fact to be highly evidenced because if you'll remember you kind of uh playfully mocked me a bit where you know I for me 51% or higher if a fact is 51% evidence or higher that's good enough for me to believe it and I'm just kind of wondering where do you put that evidential threshold that does it have to be like 80% is there a specific number like what qualifies as highly evidenced for you just curious >> well you know what here I'm a little slow to I won't I won't match your you gave a number I won't match it with a number because you know what's going to happen I'm right on the real seeker show he told the percentage that he wanted of these guys before he would use them once again I first of all let me be honest I've never counted those who think I'm playing fast and loose the only thing I can remember ever counting and giving a head count was my own study and on the empty tomb which is strictly not one of the minimal minimal facts so I don't count those guys I don't have you're not going to find my notes around here I got I got mounds I got feet and feet and feet of sources for this thing 3,700 pages.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [
+          "qualified",
+          "just",
+          "kind",
+          "just",
+          "kind",
+          "evidence",
+          "good",
+          "just",
+          "kind",
+          "evidential",
+          "just",
+          "honest",
+          "giving"
+        ],
+        "anti_fruit": [],
+        "grounding": [
+          "because",
+          "evidence",
+          "specific",
+          "because",
+          "study"
+        ],
+        "contradiction": [
+          "clarification",
+          "though"
+        ],
+        "propaganda": [
+          "always",
+          "the fact is",
+          "all",
+          "never"
+        ],
+        "academic_jargon": [
+          "in terms of"
+        ]
+      }
+    },
+    {
+      "id": "S004",
+      "para": "P03",
+      "text": "I and I don't have a rundown and they go, \"Oh, Habermas probably found there was a minority on this subject or that subject and so he never gave it.\"",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [
+          "probably"
+        ],
+        "contradiction": [],
+        "propaganda": [
+          "never"
+        ],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S005",
+      "para": "P03",
+      "text": "I don't have any count to my recollection except the empty tomb. >> So, okay, granted.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [
+          "granted"
+        ],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S006",
+      "para": "P03",
+      "text": "And just to clarify though, I'm I'm not asking about the scholarly consensus yet.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [
+          "just"
+        ],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [
+          "though",
+          "yet"
+        ],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S007",
+      "para": "P03",
+      "text": "I I'm curious about your first criterion, like the >> Right.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S008",
+      "para": "P03",
+      "text": "Right.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S009",
+      "para": "P03",
+      "text": "Right.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S010",
+      "para": "P03",
+      "text": "Right.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S011",
+      "para": "P03",
+      "text": "No, you want to know what do I count as good evidence.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [
+          "good",
+          "evidence"
+        ],
+        "anti_fruit": [],
+        "grounding": [
+          "evidence"
+        ],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S012",
+      "para": "P03",
+      "text": "What I'm saying is if I said, \"Well, Dale, you give uh 51.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S013",
+      "para": "P03",
+      "text": "I'd like at least 80.\"",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S014",
+      "para": "P03",
+      "text": "They're going to go, \"See, he means 80 for those guys he put that what I mean is they'll either mistake honestly mistake the number or purposely mistake the number and say, \"There you go again.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S015",
+      "para": "P03",
+      "text": "You're telling us what percentage you have to have.\"",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S016",
+      "para": "P03",
+      "text": "They're not You're right.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S017",
+      "para": "P03",
+      "text": "That's not what I'm doing in volume three, but somebody will say that was the number he gave.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [
+          "but"
+        ],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S018",
+      "para": "P03",
+      "text": "And uh I'm not doing that at all.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [
+          "all"
+        ],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S019",
+      "para": "P03",
+      "text": "I I actually Dale, to be super honest with you, you used the number 51 and back in your agnostic days, you would have had hours and hours and hours of talks and I teased you for that and you just laughed and you're very gracious about it.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [
+          "honest",
+          "just",
+          "gracious"
+        ],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [
+          "actually"
+        ],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S020",
+      "para": "P03",
+      "text": "But I do not have a certain threshold that they have to have to meet.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [
+          "but"
+        ],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S021",
+      "para": "P03",
+      "text": "I think what motivates me the most is that of all the criterion criteria, more than one, for saying that the New Testament text is reliable or if you have 20 good evidences for the empty tomb, which I listed.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [
+          "reliable",
+          "good"
+        ],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [
+          "all"
+        ],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S022",
+      "para": "P03",
+      "text": "I They're there in a volume one as I recall.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S023",
+      "para": "P03",
+      "text": "If you have 20 evidences for the empty tomb, I think that's more than a good number of of evidences.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [
+          "good"
+        ],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S024",
+      "para": "P03",
+      "text": "And because I had 20, the last thing I wanted to do was quit after 10.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [
+          "because"
+        ],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S025",
+      "para": "P03",
+      "text": "Why not give all 20?",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [
+          "all"
+        ],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S026",
+      "para": "P03",
+      "text": "This is a full-throated, you know, it's a big work.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S027",
+      "para": "P03",
+      "text": "Why not just list them?",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [
+          "just"
+        ],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S028",
+      "para": "P03",
+      "text": "But I don't have There At no point do I ever say I need this many evidences.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [
+          "but"
+        ],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S029",
+      "para": "P03",
+      "text": "But I will use an analogy.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [
+          "but"
+        ],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S030",
+      "para": "P03",
+      "text": "When we do criteria, we many many commentators have said that multiple attestation is the best evidence for documents.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [
+          "evidence"
+        ],
+        "anti_fruit": [],
+        "grounding": [
+          "evidence"
+        ],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S031",
+      "para": "P03",
+      "text": "Multiple attestation.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S032",
+      "para": "P03",
+      "text": "So, if you can give I don't know what the number is, but if you can give if you can give Oh, you see empty tomb.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [
+          "i don't know"
+        ],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [
+          "but"
+        ],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S033",
+      "para": "P03",
+      "text": "I put that there.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S034",
+      "para": "P03",
+      "text": "Not the head count, but the number of evidences.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [
+          "but"
+        ],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S035",
+      "para": "P03",
+      "text": "20 different evidences as critically applied using the criteria.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S036",
+      "para": "P03",
+      "text": "Now, critics are going to say, \"I despise 16, 18, and probably 20.\"",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [
+          "probably"
+        ],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S037",
+      "para": "P03",
+      "text": "Okay, I get that.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S038",
+      "para": "P03",
+      "text": "But I'll bet you you like um multiple attestation.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [
+          "but"
+        ],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S039",
+      "para": "P03",
+      "text": "I'll bet you don't mind if we have an eyewitness, the Apostle Paul or something.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S040",
+      "para": "P03",
+      "text": "I don't know if the Apostle Paul and the empty tomb.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [
+          "i don't know"
+        ],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S041",
+      "para": "P03",
+      "text": "I'm not saying that, but I mean, if we can use eyewitnesses, if we have early accounts like in the creeds, yeah, those are great evidences.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [
+          "early"
+        ],
+        "contradiction": [
+          "but"
+        ],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S042",
+      "para": "P03",
+      "text": "So, after a while, I don't measure by how many do I have.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S043",
+      "para": "P03",
+      "text": "I measure by do I have a fair number of multiple attestation?",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [
+          "fair"
+        ],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S044",
+      "para": "P03",
+      "text": "I'd say if I have multiple attestation, eyewitness, and early sources, that's not a list of names, that's a list of categories.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [
+          "early"
+        ],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S045",
+      "para": "P03",
+      "text": "And I think those categories to have several of those makes a strong argument.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S046",
+      "para": "P03",
+      "text": "So, I would go for the stronger reasons, not the lesser reasons.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S047",
+      "para": "P03",
+      "text": "And then I really don't even I don't even guess or count how many people take those reasons.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S048",
+      "para": "P03",
+      "text": "But I mean, I can take I can pull Jimmy Dunn off my shelf, his Remembering Jesus book, which far as I know, he's not an he's not an evangelical, or if he is, it was late in his life.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [
+          "but"
+        ],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S049",
+      "para": "P03",
+      "text": "I don't know, but in his early life he took as far as I can tell, he took some alternate christological positions.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [
+          "i don't know"
+        ],
+        "anti_fruit": [],
+        "grounding": [
+          "early"
+        ],
+        "contradiction": [
+          "but"
+        ],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S050",
+      "para": "P03",
+      "text": "And but he said, nice guy, number one, a lot of people are.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [
+          "but"
+        ],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S051",
+      "para": "P03",
+      "text": "He's a nice guy.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S052",
+      "para": "P03",
+      "text": "He's very open to data wherever it comes from.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [
+          "open"
+        ],
+        "anti_fruit": [],
+        "grounding": [
+          "data"
+        ],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S053",
+      "para": "P03",
+      "text": "If it's on the left side, he says, \"Yeah, this kind of shoots down that one that apologetics often give.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [
+          "kind"
+        ],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S054",
+      "para": "P03",
+      "text": "Okay, that that's fine.\"",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S055",
+      "para": "P03",
+      "text": "Said, \"But this is a good one for this or that.\"",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [
+          "good"
+        ],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [
+          "but"
+        ],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S056",
+      "para": "P03",
+      "text": "And he's the one who says the preaching of the resurrection appearances, which is one of the minimal facts, that the disciples had experiences that they thought were appearances of the risen Jesus.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S057",
+      "para": "P03",
+      "text": "He is overboard complimenting, not me, but he's overboard complimenting how many of those sources we have.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [
+          "but"
+        ],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S058",
+      "para": "P03",
+      "text": "He even Bart Ehrman says, \"I'm not going to argue.\"",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S059",
+      "para": "P03",
+      "text": "He Bart Ehrman says, \"If he says, \"I don't know how many.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [
+          "i don't know"
+        ],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S060",
+      "para": "P03",
+      "text": "All of them?",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [
+          "all"
+        ],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S061",
+      "para": "P03",
+      "text": "Some of them?\"",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S062",
+      "para": "P03",
+      "text": "He said, \"But they thought they saw the risen Jesus.\"",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [
+          "but"
+        ],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S063",
+      "para": "P03",
+      "text": "He said, \"I don't disagree with this because it's a fact of history.\"",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [
+          "because"
+        ],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S064",
+      "para": "P03",
+      "text": "So, some of the guys who put fact in parentheses all the time, Bart Ehrman says, \"It's a fact of history that people said they saw the risen Jesus.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [
+          "time"
+        ],
+        "contradiction": [],
+        "propaganda": [
+          "all"
+        ],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S065",
+      "para": "P03",
+      "text": "Right, wrong, or in between, they said they saw.\"",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S066",
+      "para": "P03",
+      "text": "And that's the minimal fact point, not they saw, but they thought they saw.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [
+          "but"
+        ],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S067",
+      "para": "P03",
+      "text": "And Jimmy Dunn, there's very few people better.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S068",
+      "para": "P03",
+      "text": "He he seems like he's it sounds like he's saying the original creedal statements could have come that first year.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [
+          "seems",
+          "could",
+          "year"
+        ],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S069",
+      "para": "P03",
+      "text": "And you go, \"How do you get that?\"",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S070",
+      "para": "P03",
+      "text": "He doesn't say that.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S071",
+      "para": "P03",
+      "text": "No, he doesn't.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S072",
+      "para": "P03",
+      "text": "But if if the crucifixion was in the spring, and we know that, and he says, \"This creed in 1 Corinthians 15 or those like it, Romans 10:9, that mention the gospel and the resurrection.\"",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [
+          "but"
+        ],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S073",
+      "para": "P03",
+      "text": "He says it was probably or may have been or likely had been, he says in different ways, out within months.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "why": {
+        "faithfulness": "accurately reports Dunn's hedged wording",
+        "self_control": "preserves the source's uncertainty"
+      },
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [
+          "probably",
+          "may",
+          "likely"
+        ],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S074",
+      "para": "P03",
+      "text": "Now, if it's a spring event, and you say months, it's very possible you have that proclamation in more than one place within within the remaining eight to nine months of the year.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [
+          "event",
+          "year"
+        ],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S075",
+      "para": "P03",
+      "text": "So, he's very open about that.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [
+          "open"
+        ],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S076",
+      "para": "P03",
+      "text": "I appreciate him saying that. >> Okay. >> So, again, he's he's not he's not teaching at my school.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S077",
+      "para": "P03",
+      "text": "I'm not saying he would even try to sign our doctrinal statement or whatever.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S078",
+      "para": "P03",
+      "text": "Um I'm talking about doctrinal statement, not what I'm writing You know what I mean?",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S079",
+      "para": "P03",
+      "text": "I'm talking about what denominations and churches expect.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S080",
+      "para": "P03",
+      "text": "Um And no, he wouldn't go along with that, but I think he's very honest.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [
+          "honest"
+        ],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [
+          "but"
+        ],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S081",
+      "para": "P03",
+      "text": "Anyway, I'm saying it over and over, but I think if I have non-evangelical saying those things, that that interests me, but I I think more in terms of data like multiple attestation, eyewitness, early testimony, and here's uh Jimmy Dunn saying, \"Maybe the same year.\"",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [
+          "data",
+          "early",
+          "year"
+        ],
+        "contradiction": [
+          "but",
+          "but",
+          "maybe"
+        ],
+        "propaganda": [],
+        "academic_jargon": [
+          "in terms of"
+        ]
+      }
+    },
+    {
+      "id": "S082",
+      "para": "P03",
+      "text": "But, it can't be long.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [
+          "but"
+        ],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S083",
+      "para": "P03",
+      "text": "He said months later.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S084",
+      "para": "P03",
+      "text": "And I'll throw this out there.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S085",
+      "para": "P03",
+      "text": "The German scholar, Gerd Lüdemann, Jesus Seminar, remember?",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S086",
+      "para": "P03",
+      "text": "Lüdemann said the preaching of the resurrection, now that's one of the minimal facts, the preaching began immediately.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [
+          "immediately"
+        ],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S087",
+      "para": "P03",
+      "text": "Uh Actually, I just realized I used his word.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "why": {
+        "faithfulness": "acknowledges using a translated word",
+        "self_control": "flags translation caveat"
+      },
+      "lexicon": {
+        "fruit": [
+          "just"
+        ],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [
+          "actually"
+        ],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S088",
+      "para": "P03",
+      "text": "It's a translation from German, but Lüdemann says the preaching of the resurrection appearances happened immediately. >> Mhm. >> That's a uh an atheist New Testament scholar.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [
+          "but"
+        ],
+        "propaganda": [
+          "immediately"
+        ],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S089",
+      "para": "P03",
+      "text": "So, >> Okay. >> I got to be able to say those things without being you know, that's somebody from your home church or your denomi- I just hate these low blows where people can't look these guys up for themselves. >> Yeah.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [
+          "just"
+        ],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S090",
+      "para": "P03",
+      "text": "Yeah, it's So, okay.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S091",
+      "para": "P03",
+      "text": "So, so in terms of that, uh the standard of evidential proof, it it sounds like you kind of follow most historians and sort of like Mike Licona.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [
+          "evidential",
+          "proof",
+          "kind"
+        ],
+        "anti_fruit": [],
+        "grounding": [
+          "proof"
+        ],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": [
+          "in terms of"
+        ]
+      }
+    },
+    {
+      "id": "S092",
+      "para": "P03",
+      "text": "They they don't give percentages per se, but they they have these categories like it's very probable or proven beyond reasonable doubt, stuff stuff like that. is how you would Okay. >> Very common.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [
+          "proven",
+          "doubt"
+        ],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [
+          "but"
+        ],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S093",
+      "para": "P03",
+      "text": "I like that.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S094",
+      "para": "P03",
+      "text": "I like categories and and I like better categories rather than weaker categories of data.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [
+          "data"
+        ],
+        "contradiction": [
+          "rather"
+        ],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S095",
+      "para": "P03",
+      "text": "So, if I have fewer names backing it up, I'll take that in instances where they strongly support multiple eyewitness early etc.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [
+          "early"
+        ],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S096",
+      "para": "P03",
+      "text": "I think we're going in the right direction.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S097",
+      "para": "P03",
+      "text": "And you compare that to other ancient historic you go, \"Yeah, but you reported a very rare event.\"",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [
+          "event"
+        ],
+        "contradiction": [
+          "but"
+        ],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S098",
+      "para": "P03",
+      "text": "Okay, really?",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S099",
+      "para": "P03",
+      "text": "Well, that's true.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S100",
+      "para": "P03",
+      "text": "But, why don't you talk about Herodotus?",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [
+          "but"
+        ],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S101",
+      "para": "P03",
+      "text": "Or why don't you talk about um Get this.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S102",
+      "para": "P03",
+      "text": "Tacitus reports very few supernatural events.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S103",
+      "para": "P03",
+      "text": "Uh several.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S104",
+      "para": "P03",
+      "text": "But, Suetonius same time period about 118 AD few years after the Gospel of John traditionally written.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [
+          "time"
+        ],
+        "contradiction": [
+          "but"
+        ],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S105",
+      "para": "P03",
+      "text": "Um Suetonius is a well-known Roman historian, well accepted.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S106",
+      "para": "P03",
+      "text": "His book 12 Caesars.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S107",
+      "para": "P03",
+      "text": "He He lists more supernatural things.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S108",
+      "para": "P03",
+      "text": "So, when people say historians don't do that, well, check your ancient sources first.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S109",
+      "para": "P03",
+      "text": "Look at Herodotus.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S110",
+      "para": "P03",
+      "text": "Look at Tacitus.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S111",
+      "para": "P03",
+      "text": "Look at Suetonius before you say they don't do that stuff.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S112",
+      "para": "P03",
+      "text": "And And if If you go, \"Well, yeah, they did.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S113",
+      "para": "P03",
+      "text": "Well, they were stupid.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S114",
+      "para": "P03",
+      "text": "That was a long time ago.\"",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [
+          "time"
+        ],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S115",
+      "para": "P03",
+      "text": "Well, then why don't you refute this data? >> Yeah.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [
+          "data"
+        ],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S116",
+      "para": "P03",
+      "text": "Yeah, very good.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [
+          "good"
+        ],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S117",
+      "para": "P03",
+      "text": "Yeah, it's Even Tacitus, he had special interests in certain types of miracles uh if I remember properly kind of thing, right? >> Yeah, especially when Caesars are said to have done them. >> Yeah.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [
+          "kind"
+        ],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S118",
+      "para": "P03",
+      "text": "Oh, yeah. >> Tacitus is famous for that.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S119",
+      "para": "P03",
+      "text": "Yep. >> Okay.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S120",
+      "para": "P03",
+      "text": "Okay, so uh just to my follow-up question, and you might have already answered this, but I wanted to So, we have the evidential threshold.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [
+          "just",
+          "question",
+          "evidential"
+        ],
+        "anti_fruit": [],
+        "grounding": [
+          "might"
+        ],
+        "contradiction": [
+          "but"
+        ],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S121",
+      "para": "P03",
+      "text": "Then on the criterion two on the scholarly consensus, and again, I think you might have already answered this, but just to clarify.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [
+          "just"
+        ],
+        "anti_fruit": [],
+        "grounding": [
+          "might"
+        ],
+        "contradiction": [
+          "but"
+        ],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S122",
+      "para": "P03",
+      "text": "So, uh I know there was a descript uh 90% of scholars or thereabout estimated is good enough to qualify.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [
+          "good"
+        ],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S123",
+      "para": "P03",
+      "text": "Um with the empty tomb, 80% is not good enough, right?",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [
+          "good"
+        ],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S124",
+      "para": "P03",
+      "text": "Um >> So, where are you getting Where are you getting the question that 90% is good enough?",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [
+          "question",
+          "good"
+        ],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S125",
+      "para": "P03",
+      "text": "Where does that come from? >> Um well, just because you've descriptively said in the past that the minimal facts have at least 90% or more um of scholars that support those facts, kind of getting >> Yeah, I have to be real careful about that.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "why": {
+        "faithfulness": "concedes his own past loose wording",
+        "self_control": "admits need for care"
+      },
+      "lexicon": {
+        "fruit": [
+          "just",
+          "kind"
+        ],
+        "anti_fruit": [],
+        "grounding": [
+          "because"
+        ],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S126",
+      "para": "P03",
+      "text": "If I say that, I mean that's how it sounds to me.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S127",
+      "para": "P03",
+      "text": "Here's the point.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S128",
+      "para": "P03",
+      "text": "I've never counted. >> Yeah. >> Except the empty tomb, and it's not one of the six, I never counted.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "why": {
+        "faithfulness": "admits never counting scholars",
+        "self_control": "limits his own claim"
+      },
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [
+          "never",
+          "never"
+        ],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S129",
+      "para": "P03",
+      "text": "So, if I say these look to me like it's pretty high, and if somebody in a questionnaire goes 90, I'd say, \"I don't know.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [
+          "i don't know"
+        ],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S130",
+      "para": "P03",
+      "text": "When I'm reading it, it seems like that, but that's not one of my criteria.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "why": {
+        "self_control": "distinguishes impression from criterion"
+      },
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [
+          "seems"
+        ],
+        "contradiction": [
+          "but"
+        ],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S131",
+      "para": "P03",
+      "text": "I've never required a percent.\"",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "why": {
+        "self_control": "denies requiring a percentage"
+      },
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [
+          "percent"
+        ],
+        "contradiction": [],
+        "propaganda": [
+          "never"
+        ],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S132",
+      "para": "P03",
+      "text": "That's the honest truth. >> Okay. >> The fact I've never counted them.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "why": {
+        "faithfulness": "candid admission about method",
+        "self_control": "owns lack of counts"
+      },
+      "lexicon": {
+        "fruit": [
+          "honest",
+          "truth"
+        ],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [
+          "never"
+        ],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S133",
+      "para": "P03",
+      "text": "If I If I If I'm this numbers guy who want to prove everything with numbers, if I want to say 90%, I should have numbers already for you, but I don't.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "why": {
+        "self_control": "concedes he lacks the numbers"
+      },
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [
+          "but"
+        ],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S134",
+      "para": "P03",
+      "text": "The only ones I do, and then people who thought that was going to be in volume three, I say in the beginning of volume three, \"Whatever you may have heard or thought, this is not a volume that gives percentages of scholars for everything.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "why": {
+        "self_control": "scopes volume three's claims"
+      },
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [
+          "may"
+        ],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S135",
+      "para": "P03",
+      "text": "The only time I've done that is the empty tomb.\"",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "why": {
+        "self_control": "limits percentage claim to one topic"
+      },
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [
+          "time"
+        ],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S136",
+      "para": "P03",
+      "text": "And other than that, I'm reporting where people are across the board, not telling you who's in which camps. >> Okay. >> Okay. >> All right. >> I appreciate you making that point though about descriptive, cuz I I would just there's no way I've ever said, \"If it doesn't meet this\" How can I say it's got to meet this number?",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [
+          "just"
+        ],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [
+          "though"
+        ],
+        "propaganda": [
+          "all"
+        ],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S137",
+      "para": "P03",
+      "text": "You didn't say that, but how can I say it's got to meet this percentage if I don't know the percentage because I've never counted. >> Yeah. >> Yeah, but it's important.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "why": {
+        "self_control": "refuses a percentage he cannot support"
+      },
+      "lexicon": {
+        "fruit": [
+          "i don't know"
+        ],
+        "anti_fruit": [],
+        "grounding": [
+          "because"
+        ],
+        "contradiction": [
+          "but",
+          "but"
+        ],
+        "propaganda": [
+          "never"
+        ],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S138",
+      "para": "P03",
+      "text": "I mean, I think one of the biggest reasons is very human.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S139",
+      "para": "P03",
+      "text": "If I'm going to do this in a group, I'd rather have nobody mad at me on either side.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [
+          "rather"
+        ],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S140",
+      "para": "P03",
+      "text": "Sometimes conservatives can get more mad at you when you're on their side than a liberal can.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S141",
+      "para": "P03",
+      "text": "And liberals let things slide sometimes, and they're okay with that.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S142",
+      "para": "P03",
+      "text": "And I can tell you guys I've dialogued who are like that.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S143",
+      "para": "P03",
+      "text": "But they could they could be upset with me for not doing something else.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [
+          "could",
+          "could"
+        ],
+        "contradiction": [
+          "but"
+        ],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S144",
+      "para": "P03",
+      "text": "And I might give you some examples.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [
+          "might"
+        ],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S145",
+      "para": "P03",
+      "text": "This is the proudest example.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S146",
+      "para": "P03",
+      "text": "But I get I get yelled at for my position.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [
+          "but"
+        ],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S147",
+      "para": "P03",
+      "text": "But if I can't tell you if I can show something's 95% of scholars, shouldn't I be yelling it from the rooftops?",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [
+          "but"
+        ],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S148",
+      "para": "P03",
+      "text": "Shouldn't I say, \"Yeah, I'm not shy about this.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S149",
+      "para": "P03",
+      "text": "It's 95%.\"",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S150",
+      "para": "P03",
+      "text": "But I don't have any numbers.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [
+          "but"
+        ],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S151",
+      "para": "P03",
+      "text": "But I got piles of sheets of paper.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [
+          "but"
+        ],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S152",
+      "para": "P03",
+      "text": "I got a file cabinet just holding these things.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [
+          "just"
+        ],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S153",
+      "para": "P03",
+      "text": "And you won't find any number count except on the empty >> Fair enough.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [
+          "fair"
+        ],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S154",
+      "para": "P03",
+      "text": "Fair enough.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [
+          "fair"
+        ],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S155",
+      "para": "P03",
+      "text": "Okay.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S156",
+      "para": "P03",
+      "text": "All right.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [
+          "all"
+        ],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S157",
+      "para": "P03",
+      "text": "So So let's move on from that.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S158",
+      "para": "P03",
+      "text": "I Now I'm just kind of curious.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [
+          "just",
+          "kind"
+        ],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S159",
+      "para": "P03",
+      "text": "In terms of having a a rational belief, with these two criteria, you've kind of said that criterion one on its own, that it being highly evidenced, that alone is sufficient for a rational belief. >> That's by far the more important of the two.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [
+          "kind"
+        ],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": [
+          "in terms of"
+        ]
+      }
+    },
+    {
+      "id": "S160",
+      "para": "P03",
+      "text": "Way more.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S161",
+      "para": "P03",
+      "text": "If you If you want me to give percentages, I'd say number one is I got to think about this.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S162",
+      "para": "P03",
+      "text": "This sounds stupid for me to say that in my mind number one would be 90 or 85% of the game.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S163",
+      "para": "P03",
+      "text": "If I've got that much probability, golly, you're the guy that accepts 51.",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    },
+    {
+      "id": "S164",
+      "para": "P03",
+      "text": "You'd be happy with 85 or 90, right?",
+      "v": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "why": {},
+      "lexicon": {
+        "fruit": [],
+        "anti_fruit": [],
+        "grounding": [],
+        "contradiction": [],
+        "propaganda": [],
+        "academic_jargon": []
+      }
+    }
+  ]
+}

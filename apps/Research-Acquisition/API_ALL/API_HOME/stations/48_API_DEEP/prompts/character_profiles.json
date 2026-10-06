@@ -1,0 +1,166 @@
+{
+  "version": "0.3.0-draft",
+  "meaning": "CHARACTER_PROFILES.md",
+  "quadrant_cut": 0.5,
+  "shape_gap": 3.0,
+  "quadrants": {
+    "love_high_truth_high": "Grace and Truth",
+    "love_high_truth_low": "Sentimentalist",
+    "love_low_truth_high": "Clanging Cymbal",
+    "love_low_truth_low": "Propagandist / Fear Merchant"
+  },
+  "levels": [
+    {
+      "name": "Mature Fruit",
+      "rule": "all_at_least",
+      "value": 10
+    },
+    {
+      "name": "Anti-Fruit",
+      "rule": "count_at_most",
+      "value": -5,
+      "count": 5
+    },
+    {
+      "name": "No Signal",
+      "rule": "active_share_below",
+      "value": 0.05
+    }
+  ],
+  "shapes": [
+    {
+      "name": "Shepherd",
+      "high": [
+        "patience",
+        "gentleness",
+        "kindness"
+      ],
+      "low": []
+    },
+    {
+      "name": "Prophet",
+      "high": [
+        "faithfulness",
+        "goodness",
+        "self_control"
+      ],
+      "low": [
+        "peace",
+        "gentleness"
+      ],
+      "low_means": "absent"
+    },
+    {
+      "name": "Pharisee",
+      "high": [
+        "self_control",
+        "faithfulness"
+      ],
+      "low": [
+        "love",
+        "kindness",
+        "gentleness"
+      ],
+      "low_means": "negative"
+    },
+    {
+      "name": "Stoic",
+      "high": [
+        "self_control",
+        "patience"
+      ],
+      "low": [
+        "joy",
+        "love"
+      ],
+      "low_means": "absent"
+    },
+    {
+      "name": "Zealot",
+      "high": [
+        "faithfulness",
+        "joy"
+      ],
+      "low": [
+        "patience",
+        "gentleness",
+        "self_control"
+      ],
+      "low_means": "negative"
+    },
+    {
+      "name": "Peacemaker",
+      "high": [
+        "peace",
+        "gentleness",
+        "patience"
+      ],
+      "low": []
+    },
+    {
+      "name": "Peacekeeper (false peace)",
+      "high": [
+        "peace",
+        "gentleness"
+      ],
+      "low": [
+        "goodness",
+        "faithfulness"
+      ],
+      "low_means": "absent"
+    },
+    {
+      "name": "Enthusiast",
+      "high": [
+        "joy",
+        "love"
+      ],
+      "low": [
+        "patience",
+        "self_control"
+      ],
+      "low_means": "negative"
+    },
+    {
+      "name": "Servant",
+      "high": [
+        "kindness",
+        "goodness"
+      ],
+      "low": []
+    },
+    {
+      "name": "Witness",
+      "high": [
+        "faithfulness",
+        "love"
+      ],
+      "low": []
+    }
+  ],
+  "source": "sentences: each fruit = net points per 100 sentences (sum of the -2..+2 sentence values x 100 / sentences)",
+  "axis_scale": 10,
+  "min_active_sentences": 3,
+  "verdict_levels": [
+    {
+      "name": "Mature Fruit",
+      "rule": "all_at_least",
+      "value": 3,
+      "love_at_least": 3
+    },
+    {
+      "name": "Anti-Fruit",
+      "rule": "count_at_most",
+      "value": 1,
+      "count": 5
+    },
+    {
+      "name": "No Signal",
+      "rule": "count_equal",
+      "value": 2,
+      "count": 7,
+      "or_mean_confidence_below": 0.35
+    }
+  ],
+  "verdict_shape_gap": 0.75
+}

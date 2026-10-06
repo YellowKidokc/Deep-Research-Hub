@@ -1,0 +1,592 @@
+{
+  "name": "fruits_turns_1",
+  "parsed": {
+    "range": "T001-T030",
+    "turns": [
+      {
+        "id": "T001",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T002",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T003",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T004",
+        "speaker": "guest",
+        "v": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "refuses to judge others' salvation, leaves them free",
+          "peace": "defuses Christian/non-Christian labeling dispute",
+          "patience": "explains his liberal/conservative distinction at length",
+          "kindness": "clarifies meaning rather than dismissing questioner",
+          "goodness": "honest about his own interpretive limits",
+          "faithfulness": "same standard applied to critics and allies",
+          "gentleness": "restrains authority, won't label anyone Christian",
+          "self_control": "hedges where he cannot know people's hearts"
+        }
+      },
+      {
+        "id": "T005",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "patience": "walks through Sanders, Dunn, Brown examples carefully",
+          "kindness": "explains each scholar's self-designation",
+          "faithfulness": "cites Sanders' own self-label as liberal",
+          "gentleness": "fair to scholars across the spectrum",
+          "self_control": "notes uncertainty about where people ended up"
+        }
+      },
+      {
+        "id": "T006",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "patience": "explains Tony's letter and conversion trajectory",
+          "kindness": "tells story without mocking the deconverter",
+          "faithfulness": "distinguishes what he knows from what he doesn't",
+          "gentleness": "charitable about Tony's shifting views",
+          "self_control": "admits he doesn't know where Tony ended"
+        }
+      },
+      {
+        "id": "T007",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "patience": "spells out his actual terminology step by step",
+          "kindness": "invites correction if he ever misspoke",
+          "goodness": "offers to fix any book error, honest about method",
+          "faithfulness": "same standard for left and right scholars",
+          "gentleness": "won't judge minds, only reads published positions",
+          "self_control": "careful distinction between reading and mind-reading"
+        }
+      },
+      {
+        "id": "T008",
+        "speaker": "host",
+        "v": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        "why": {
+          "love": "backs guest up, seeks his good",
+          "peace": "defuses the controversy charitably",
+          "kindness": "reassures guest he's been consistent",
+          "faithfulness": "notes nothing in book says that",
+          "gentleness": "attributes issue to one misspoken podcast"
+        }
+      },
+      {
+        "id": "T009",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T010",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T011",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "peace": "acknowledges criticism from both right and left",
+          "patience": "explains Liberty's actual admissions policy",
+          "kindness": "clarifies rather than defends defensively",
+          "goodness": "honest about being criticized from both sides",
+          "faithfulness": "consistent standard for right and left critics",
+          "gentleness": "fair to those who attack him",
+          "self_control": "stays measured about being 'nailed' from right"
+        }
+      },
+      {
+        "id": "T012",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "why": {
+          "kindness": "concrete Buddhist hockey player example clarifies point"
+        }
+      },
+      {
+        "id": "T013",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T014",
+        "speaker": "guest",
+        "v": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "wants fairness for all, not victory",
+          "peace": "names anger on both extremes truthfully",
+          "kindness": "corrects misquote gently",
+          "goodness": "honest that conservatives also get angry",
+          "faithfulness": "same standard applied to left and right",
+          "gentleness": "refuses to demonize either extreme",
+          "self_control": "clarifies he didn't call liberals angry"
+        }
+      },
+      {
+        "id": "T015",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "why": {
+          "peace": "names principle of charity as the reconciling move"
+        }
+      },
+      {
+        "id": "T016",
+        "speaker": "guest",
+        "v": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "refuses to judge others' deepest heart questions",
+          "peace": "avoids stoking Christian/non-Christian hostility",
+          "patience": "explains why he won't pronounce on salvation",
+          "kindness": "takes listener's heart questions seriously",
+          "goodness": "honest about limits of human knowledge",
+          "faithfulness": "consistent refusal to judge across contexts",
+          "gentleness": "restraint in not pronouncing on others",
+          "self_control": "won't touch what he can't know"
+        }
+      },
+      {
+        "id": "T017",
+        "speaker": "guest",
+        "v": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "asks for grace for himself as for others",
+          "peace": "names double standard as the problem",
+          "patience": "explains the charity asymmetry carefully",
+          "kindness": "asks only for same grace given to one's own",
+          "goodness": "honest about wanting fair treatment",
+          "faithfulness": "same standard for own side and other side",
+          "gentleness": "appeals rather than attacks",
+          "self_control": "measured complaint about double standards"
+        }
+      },
+      {
+        "id": "T018",
+        "speaker": "host",
+        "v": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        "why": {
+          "love": "backs guest, seeks fair reading of him",
+          "peace": "calls for charitable full-context reading",
+          "kindness": "reassures guest he's been clear",
+          "faithfulness": "notes consistency across all interviews",
+          "gentleness": "charitable interpretation of the misspoken clip"
+        }
+      },
+      {
+        "id": "T019",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T020",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T021",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "why": {
+          "faithfulness": "says he checked the record and found guest vindicated"
+        }
+      },
+      {
+        "id": "T022",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T023",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T024",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T025",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T026",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T027",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "why": {
+          "patience": "asks clarifying question about what host means",
+          "kindness": "tries to understand the question before answering"
+        }
+      },
+      {
+        "id": "T028",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "why": {
+          "patience": "clarifies his question rather than repeating it",
+          "kindness": "helps guest understand what he's asking"
+        }
+      },
+      {
+        "id": "T029",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "why": {
+          "patience": "asks what angle before answering",
+          "kindness": "tries to pin down the question helpfully"
+        }
+      },
+      {
+        "id": "T030",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "patience": "walks through Cook, Wright, Gundry, Allison examples",
+          "kindness": "explains each scholar's position clearly",
+          "goodness": "honest about his own critique of Cook",
+          "faithfulness": "cites Cook's own thesis statement fairly",
+          "gentleness": "fair to Cook despite disagreeing",
+          "self_control": "distinguishes what Paul said from what critics say"
+        }
+      }
+    ]
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "fruits_turns_1",
+      "attempt": 1,
+      "text": "{\"range\": \"T001-T030\", \"turns\": [\n  {\"id\": \"T001\", \"speaker\": \"host\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"T002\", \"speaker\": \"host\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"T003\", \"speaker\": \"host\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"T004\", \"speaker\": \"guest\", \"v\": [1,0,1,1,1,1,1,1,1], \"why\": {\"love\": \"refuses to judge others' salvation, leaves them free\", \"peace\": \"defuses Christian/non-Christian labeling dispute\", \"patience\": \"explains his liberal/conservative distinction at length\", \"kindness\": \"clarifies meaning rather than dismissing questioner\", \"goodness\": \"honest about his own interpretive limits\", \"faithfulness\": \"same standard applied to critics and allies\", \"gentleness\": \"restrains authority, won't label anyone Christian\", \"self_control\": \"hedges where he cannot know people's hearts\"}},\n  {\"id\": \"T005\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,0,1,1,1], \"why\": {\"patience\": \"walks through Sanders, Dunn, Brown examples carefully\", \"kindness\": \"explains each scholar's self-designation\", \"faithfulness\": \"cites Sanders' own self-label as liberal\", \"gentleness\": \"fair to scholars across the spectrum\", \"self_control\": \"notes uncertainty about where people ended up\"}},\n  {\"id\": \"T006\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,0,1,1,1], \"why\": {\"patience\": \"explains Tony's letter and conversion trajectory\", \"kindness\": \"tells story without mocking the deconverter\", \"faithfulness\": \"distinguishes what he knows from what he doesn't\", \"gentleness\": \"charitable about Tony's shifting views\", \"self_control\": \"admits he doesn't know where Tony ended\"}},\n  {\"id\": \"T007\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,1,1,1,1], \"why\": {\"patience\": \"spells out his actual terminology step by step\", \"kindness\": \"invites correction if he ever misspoke\", \"goodness\": \"offers to fix any book error, honest about method\", \"faithfulness\": \"same standard for left and right scholars\", \"gentleness\": \"won't judge minds, only reads published positions\", \"self_control\": \"careful distinction between reading and mind-reading\"}},\n  {\"id\": \"T008\", \"speaker\": \"host\", \"v\": [1,0,1,0,1,0,1,1,0], \"why\": {\"love\": \"backs guest up, seeks his good\", \"peace\": \"defuses the controversy charitably\", \"kindness\": \"reassures guest he's been consistent\", \"faithfulness\": \"notes nothing in book says that\", \"gentleness\": \"attributes issue to one misspoken podcast\"}},\n  {\"id\": \"T009\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"T010\", \"speaker\": \"host\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"T011\", \"speaker\": \"guest\", \"v\": [0,0,1,1,1,1,1,1,1], \"why\": {\"peace\": \"acknowledges criticism from both right and left\", \"patience\": \"explains Liberty's actual admissions policy\", \"kindness\": \"clarifies rather than defends defensively\", \"goodness\": \"honest about being criticized from both sides\", \"faithfulness\": \"consistent standard for right and left critics\", \"gentleness\": \"fair to those who attack him\", \"self_control\": \"stays measured about being 'nailed' from right\"}},\n  {\"id\": \"T012\", \"speaker\": \"guest\", \"v\": [0,0,0,0,1,0,0,0,0], \"why\": {\"kindness\": \"concrete Buddhist hockey player example clarifies point\"}},\n  {\"id\": \"T013\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"T014\", \"speaker\": \"guest\", \"v\": [1,0,1,0,1,1,1,1,1], \"why\": {\"love\": \"wants fairness for all, not victory\", \"peace\": \"names anger on both extremes truthfully\", \"kindness\": \"corrects misquote gently\", \"goodness\": \"honest that conservatives also get angry\", \"faithfulness\": \"same standard applied to left and right\", \"gentleness\": \"refuses to demonize either extreme\", \"self_control\": \"clarifies he didn't call liberals angry\"}},\n  {\"id\": \"T015\", \"speaker\": \"host\", \"v\": [0,0,1,0,0,0,0,0,0], \"why\": {\"peace\": \"names principle of charity as the reconciling move\"}},\n  {\"id\": \"T016\", \"speaker\": \"guest\", \"v\": [1,0,1,1,1,1,1,1,1], \"why\": {\"love\": \"refuses to judge others' deepest heart questions\", \"peace\": \"avoids stoking Christian/non-Christian hostility\", \"patience\": \"explains why he won't pronounce on salvation\", \"kindness\": \"takes listener's heart questions seriously\", \"goodness\": \"honest about limits of human knowledge\", \"faithfulness\": \"consistent refusal to judge across contexts\", \"gentleness\": \"restraint in not pronouncing on others\", \"self_control\": \"won't touch what he can't know\"}},\n  {\"id\": \"T017\", \"speaker\": \"guest\", \"v\": [1,0,1,1,1,1,1,1,1], \"why\": {\"love\": \"asks for grace for himself as for others\", \"peace\": \"names double standard as the problem\", \"patience\": \"explains the charity asymmetry carefully\", \"kindness\": \"asks only for same grace given to one's own\", \"goodness\": \"honest about wanting fair treatment\", \"faithfulness\": \"same standard for own side and other side\", \"gentleness\": \"appeals rather than attacks\", \"self_control\": \"measured complaint about double standards\"}},\n  {\"id\": \"T018\", \"speaker\": \"host\", \"v\": [1,0,1,0,1,0,1,1,0], \"why\": {\"love\": \"backs guest, seeks fair reading of him\", \"peace\": \"calls for charitable full-context reading\", \"kindness\": \"reassures guest he's been clear\", \"faithfulness\": \"notes consistency across all interviews\", \"gentleness\": \"charitable interpretation of the misspoken clip\"}},\n  {\"id\": \"T019\", \"speaker\": \"host\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"T020\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"T021\", \"speaker\": \"host\", \"v\": [0,0,0,0,0,0,1,0,0], \"why\": {\"faithfulness\": \"says he checked the record and found guest vindicated\"}},\n  {\"id\": \"T022\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"T023\", \"speaker\": \"host\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"T024\", \"speaker\": \"host\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"T025\", \"speaker\": \"host\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"T026\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,0,0,0]},\n  {\"id\": \"T027\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,0,0,0,0], \"why\": {\"patience\": \"asks clarifying question about what host means\", \"kindness\": \"tries to understand the question before answering\"}},\n  {\"id\": \"T028\", \"speaker\": \"host\", \"v\": [0,0,0,1,1,0,0,0,0], \"why\": {\"patience\": \"clarifies his question rather than repeating it\", \"kindness\": \"helps guest understand what he's asking\"}},\n  {\"id\": \"T029\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,0,0,0,0], \"why\": {\"patience\": \"asks what angle before answering\", \"kindness\": \"tries to pin down the question helpfully\"}},\n  {\"id\": \"T030\", \"speaker\": \"guest\", \"v\": [0,0,0,1,1,1,1,1,1], \"why\": {\"patience\": \"walks through Cook, Wright, Gundry, Allison examples\", \"kindness\": \"explains each scholar's position clearly\", \"goodness\": \"honest about his own critique of Cook\", \"faithfulness\": \"cites Cook's own thesis statement fairly\", \"gentleness\": \"fair to Cook despite disagreeing\", \"self_control\": \"distinguishes what Paul said from what critics say\"}}\n]}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 12512,
+      "completion_tokens": 2296,
+      "attempts": 1,
+      "elapsed_seconds": 9.531000000002678,
+      "started_at": "2026-09-27T14:22:33.445584+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T14:22:42.966030+00:00",
+      "tokens": 14808
+    }
+  ],
+  "prompt_sha256": "de03d71f9537e49f94400676f01642becca7ea74c05b18f2430c16d42eaa45a1",
+  "tokens": 14808
+}

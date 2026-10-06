@@ -1,0 +1,28 @@
+---
+fis_schema: "folder-index.v1"
+folder_id: "FLD-20260907-036d79b8"
+folder: "GitHub\Research-Acquisition\crawl4ai\case_lists"
+folder_class: "project"
+confidence: 0.6
+dependency_risk: 0.0
+dominant_family: "document"
+dominant_ratio: 0.407
+file_count: 27
+classified_at: "2026-09-07T16:07:36"
+allowed_actions: ["index", "rename_internal", "subfolder_sort", "archive_exports"]
+suggested_name: "case_lists"
+---
+
+# FIS Folder Index: case_lists
+
+**Class**: project  ·  **Confidence**: 60%  ·  **Files**: 27  ·  **Dominant**: document (41%)
+
+## Allowed actions
+- index
+- rename_internal
+- subfolder_sort
+- archive_exports
+
+**Suggested name**: `case_lists`  (not applied — review before use)
+
+<!-- FIS folder-index.v1: parseable note; safe to regenerate. -->

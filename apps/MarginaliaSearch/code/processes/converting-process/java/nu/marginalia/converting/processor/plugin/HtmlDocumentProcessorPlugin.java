@@ -1,0 +1,333 @@
+package nu.marginalia.converting.processor.plugin;
+
+import com.google.inject.Inject;
+import nu.marginalia.converting.model.DisqualifiedException;
+import nu.marginalia.converting.model.DocumentHeaders;
+import nu.marginalia.converting.model.DocumentTags;
+import nu.marginalia.converting.model.GeneratorType;
+import nu.marginalia.converting.model.ProcessedDocumentDetails;
+import nu.marginalia.converting.processor.DocumentClass;
+import nu.marginalia.converting.processor.MetaRobotsTag;
+import nu.marginalia.converting.processor.classifier.AcceptableAds;
+import nu.marginalia.converting.processor.logic.*;
+import nu.marginalia.converting.processor.logic.links.FileLinks;
+import nu.marginalia.converting.processor.logic.links.LinkProcessor;
+import nu.marginalia.converting.processor.plugin.specialization.HtmlProcessorSpecializations;
+import nu.marginalia.converting.processor.pubdate.PubDateSniffer;
+import nu.marginalia.domclassifier.DomSampleClassification;
+import nu.marginalia.gregex.GuardedRegex;
+import nu.marginalia.gregex.GuardedRegexFactory;
+import nu.marginalia.keyword.DocumentKeywordExtractor;
+import nu.marginalia.keyword.LinkTexts;
+import nu.marginalia.keyword.model.DocumentKeywordsBuilder;
+import nu.marginalia.language.config.LanguageConfiguration;
+import nu.marginalia.language.model.DocumentLanguageData;
+import nu.marginalia.language.model.UnsupportedLanguageException;
+import nu.marginalia.language.sentence.ThreadLocalSentenceExtractorProvider;
+import nu.marginalia.link_parser.LinkParser;
+import nu.marginalia.model.DocumentFormat;
+import nu.marginalia.model.EdgeDomain;
+import nu.marginalia.model.EdgeUrl;
+import nu.marginalia.model.crawl.HtmlFeature;
+import nu.marginalia.model.crawl.PubDate;
+import nu.marginalia.model.crawldata.CrawledDocument;
+import nu.marginalia.model.idx.DocumentFlags;
+import nu.marginalia.model.idx.DocumentMetadata;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.io.IOException;
+import java.net.URISyntaxException;
+import java.util.*;
+
+import static nu.marginalia.converting.model.DisqualifiedException.DisqualificationReason;
+
+
+public class HtmlDocumentProcessorPlugin extends AbstractDocumentProcessorPlugin {
+
+    private final Logger logger = LoggerFactory.getLogger(getClass());
+
+    private final FeatureExtractor featureExtractor;
+    private final DocumentKeywordExtractor keywordExtractor;
+    private final PubDateSniffer pubDateSniffer;
+
+    private final LanguageConfiguration languageConfiguration;
+    private final DocumentLengthLogic documentLengthLogic;
+
+    private final MetaRobotsTag metaRobotsTag;
+    private final DocumentGeneratorExtractor documentGeneratorExtractor;
+    private static final DocumentValuator documentValuator = new DocumentValuator();
+
+    private static final LinkParser linkParser = new LinkParser();
+
+    private final ThreadLocalSentenceExtractorProvider sentenceExtractorProvider;
+    private final HtmlProcessorSpecializations htmlProcessorSpecializations;
+
+    private static boolean lenientProcessing = Boolean.getBoolean("converter.lenientProcessing");
+
+    @Inject
+    public HtmlDocumentProcessorPlugin(
+            LanguageConfiguration languageConfiguration,
+            FeatureExtractor featureExtractor,
+            DocumentKeywordExtractor keywordExtractor,
+            PubDateSniffer pubDateSniffer,
+            DocumentLengthLogic documentLengthLogic,
+            MetaRobotsTag metaRobotsTag,
+            DocumentGeneratorExtractor documentGeneratorExtractor,
+            ThreadLocalSentenceExtractorProvider sentenceExtractorProvider,
+            HtmlProcessorSpecializations specializations)
+    {
+        this.languageConfiguration = languageConfiguration;
+        this.documentLengthLogic = documentLengthLogic;
+        this.featureExtractor = featureExtractor;
+
+        this.keywordExtractor = keywordExtractor;
+        this.pubDateSniffer = pubDateSniffer;
+        this.metaRobotsTag = metaRobotsTag;
+
+        this.documentGeneratorExtractor = documentGeneratorExtractor;
+        this.sentenceExtractorProvider = sentenceExtractorProvider;
+        this.htmlProcessorSpecializations = specializations;
+    }
+
+    @Override
+    public boolean isApplicable(CrawledDocument doc) {
+        return doc.contentType.toLowerCase().contains("html");
+    }
+
+    @Override
+    public DetailsWithWords createDetails(CrawledDocument crawledDocument,
+                                          LinkTexts linkTexts,
+                                          Set<DomSampleClassification> domSampleClassifications, DocumentClass documentClass)
+            throws DisqualifiedException, URISyntaxException, IOException, UnsupportedLanguageException {
+
+        Document doc = crawledDocument.parseBody();
+
+        if (!lenientProcessing && AcceptableAds.hasAcceptableAdsTag(doc)) {
+            throw new DisqualifiedException(DisqualifiedException.DisqualificationReason.ACCEPTABLE_ADS);
+        }
+
+        final DocumentTags documentTags = new DocumentTags(doc);
+
+        if (!metaRobotsTag.allowIndexingByMetaTag(documentTags)) {
+            throw new DisqualifiedException(DisqualificationReason.FORBIDDEN);
+        }
+
+        final EdgeUrl url = new EdgeUrl(crawledDocument.url);
+        final DocumentHeaders documentHeaders = new DocumentHeaders(crawledDocument.headers);
+
+        final var generatorParts = documentGeneratorExtractor.detectGenerator(url, doc, documentHeaders, documentTags);
+
+        final var specialization = htmlProcessorSpecializations.select(generatorParts, url);
+
+        if (!lenientProcessing && !specialization.shouldIndex(url)) {
+            throw new DisqualifiedException(DisqualificationReason.IRRELEVANT);
+        }
+
+        var prunedDoc = specialization.prune(doc);
+
+        final int length = documentTags.textLength();
+        final DocumentFormat format = getDocumentFormat(doc);
+        final double quality;
+
+        if (domSampleClassifications.contains(DomSampleClassification.UNCLASSIFIED)) {
+            quality = documentValuator.getQuality(crawledDocument, format, doc, documentTags, length);
+        }
+        else {
+            quality = documentValuator.getQuality(domSampleClassifications);
+        }
+
+        if (!lenientProcessing && isDisqualified(documentClass, url, quality, doc.title())) {
+            throw new DisqualifiedException(DisqualificationReason.QUALITY);
+        }
+
+        DocumentLanguageData dld = sentenceExtractorProvider.get().extractSentences(prunedDoc);
+        final String languageIsoCode = dld.language().isoCode();
+
+        var ret = new ProcessedDocumentDetails();
+
+        ret.length = length;
+        ret.format = format;
+        ret.title = specialization.getTitle(doc, dld, crawledDocument.url);
+        ret.languageIsoCode = languageIsoCode;
+
+        final Set<HtmlFeature> features = featureExtractor.getFeatures(url, doc, documentHeaders, documentTags, dld);
+
+        if (!documentLengthLogic.validateLength(dld, specialization.lengthModifier() * documentClass.lengthLimitModifier())) {
+            features.add(HtmlFeature.SHORT_DOCUMENT);
+        }
+
+
+        ret.features = features;
+        ret.quality = documentValuator.adjustQuality(quality, features);
+        ret.hashCode = dld.localitySensitiveHashCode();
+
+        PubDate pubDate = pubDateSniffer.getPubDate(documentHeaders, url, doc, documentTags, format, true);
+
+        EnumSet<DocumentFlags> documentFlags = documentFlags(features, generatorParts.type());
+
+        ret.metadata = new DocumentMetadata(
+                documentLengthLogic.getEncodedAverageLength(dld),
+                pubDate.yearByte(),
+                (int) -ret.quality, // ret.quality is negative
+                documentFlags);
+
+        DocumentKeywordsBuilder words = keywordExtractor.extractKeywords(dld, linkTexts, url);
+
+        ret.setDocumentText(dld.reconstructText());
+        ret.generator = generatorParts.type();
+
+        var tagWords = new MetaTagsBuilder()
+                .addPubDate(pubDate)
+                .addUrl(url)
+                .addFeatures(features)
+                .addFormat(format)
+                .addGenerator(generatorParts.keywords())
+                .addLanguage(languageIsoCode)
+                .build();
+
+
+
+        words.addAllSyntheticTerms(tagWords);
+        specialization.amendWords(doc, words);
+
+        getLinks(url, ret, documentTags, words);
+
+        if (pubDate.hasYear()) {
+            ret.pubYear = pubDate.year();
+        }
+        ret.pubDate = pubDate.dateShort();
+
+        return new DetailsWithWords(ret, words);
+    }
+
+    private EnumSet<DocumentFlags> documentFlags(Set<HtmlFeature> features, GeneratorType type) {
+        EnumSet<DocumentFlags> flags = EnumSet.noneOf(DocumentFlags.class);
+
+        if (features.contains(HtmlFeature.JS)) {
+            flags.add(DocumentFlags.Javascript);
+        }
+
+        switch (type) {
+            case DOCS -> flags.add(DocumentFlags.GeneratorDocs);
+            case FORUM -> flags.add(DocumentFlags.GeneratorForum);
+            case WIKI -> flags.add(DocumentFlags.GeneratorWiki);
+            default -> {} // no flags
+        }
+
+        return flags;
+    }
+
+    private static final GuardedRegex mastodonFeedRegex = GuardedRegexFactory.startsWith("/@", "^/@[^/]+/?$");
+
+    private boolean isDisqualified(DocumentClass documentClass,
+                                   EdgeUrl url,
+                                   double quality,
+                                   String title) {
+
+        // These pages shouldn't be publicly accessible
+        if ("phpinfo()".equals(title)) {
+            return true;
+        }
+
+        // Urls that look like /@foo are typically Mastodon or other twitter-like feeds,
+        // we don't want to index them because they change so rapidly; subdirectories are
+        // fine though
+        //
+        if (mastodonFeedRegex.test(url.path)) {
+            return true;
+        }
+
+        // Annoying blog crap
+        if (url.path.contains("/tag/") && url.path.endsWith("/")) {
+            return true;
+        }
+        if (url.path.contains("/tags/") && url.path.endsWith("/")) {
+            return true;
+        }
+        if (url.path.contains("/category/") && url.path.endsWith("/")) {
+            return true;
+        }
+        if (url.path.contains("/categories/") && url.path.endsWith("/")) {
+            return true;
+        }
+        if (url.path.contains("/section/") && url.path.endsWith("/")) {
+            return true;
+        }
+        if (url.path.contains("/sections/") && url.path.endsWith("/")) {
+            return true;
+        }
+        return false;
+    }
+
+
+    private void getLinks(EdgeUrl baseUrl, ProcessedDocumentDetails ret, DocumentTags tags, DocumentKeywordsBuilder words) {
+
+        final LinkProcessor lp = new LinkProcessor(ret, baseUrl);
+
+        baseUrl = linkParser.getBaseLink(tags.baseTags(), baseUrl);
+
+        EdgeDomain domain = baseUrl.domain;
+
+        List<EdgeUrl> allParsedUrls = new ArrayList<>();
+
+        for (Element atag : tags.aTags()) {
+            var linkOpt = linkParser.parseLinkPermissive(baseUrl, atag);
+            if (linkOpt.isEmpty())
+                continue;
+            EdgeUrl link = linkOpt.get();
+
+            if (linkParser.shouldIndexLink(atag)) {
+                lp.accept(link);
+            }
+            else if (linkParser.hasBinarySuffix(link.path.toLowerCase())) {
+                lp.acceptNonIndexable(link);
+            }
+
+            allParsedUrls.add(link);
+        }
+
+        for (Element frame : tags.frameTags()) {
+            linkParser.parseFrame(baseUrl, frame).ifPresent(lp::accept);
+        }
+        for (Element meta : tags.metaTags()) {
+            if (DocumentTags.attrIs(meta, "http-equiv", "refresh")) {
+                linkParser.parseMetaRedirect(baseUrl, meta).ifPresent(lp::accept);
+            }
+        }
+
+        words.addAllSyntheticTerms(FileLinks.createFileLinkKeywords(lp, domain));
+        words.addAllSyntheticTerms(FileLinks.createFileEndingKeywords(allParsedUrls));
+        words.addAllSyntheticTerms(createLinkKeywords(lp, domain));
+    }
+
+    private Set<String> createLinkKeywords(LinkProcessor lp, EdgeDomain domain) {
+        final Set<String> linkTerms = new HashSet<>();
+
+        for (var fd : lp.getForeignDomains()) {
+            linkTerms.add("links:"+fd.toString().toLowerCase());
+            linkTerms.add("links:"+fd.getTopDomain().toLowerCase());
+        }
+
+        // Add keyword terms for the first 128 external links, with no prefix
+        for (EdgeUrl link : lp.getSeenUrls()) {
+            if (linkTerms.size() > 128) break;
+            if (domain.hasSameTopDomain(link.domain)) continue;
+
+            linkTerms.add(link.toString());
+        }
+
+        return linkTerms;
+    }
+
+    private DocumentFormat getDocumentFormat(Document doc) {
+        DocumentFormat format = HtmlStandardExtractor.parseDocType(doc.documentType());
+        if (DocumentFormat.UNKNOWN.equals(format)) {
+            return HtmlStandardExtractor.sniffHtmlStandard(doc);
+        }
+        return format;
+    }
+
+}

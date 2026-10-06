@@ -1,0 +1,264 @@
+"""Integration tests for the taxonomy router (ADR-028 increment 2a).
+
+Drive the read + write endpoints over a temp DB through ``create_app`` with a fake controller — no
+model load, no network, no LLM. The write seam's invariants (cycle rejection, domain-only document
+attach) are unit-tested in ``tests/unit/test_taxonomy.py``; here we prove the HTTP status mapping.
+"""
+
+from __future__ import annotations
+
+from pathlib import Path
+
+import pytest
+from apps.api.main import create_app
+from fastapi.testclient import TestClient
+
+from doc_assistant.db.models import Concept, Document
+from doc_assistant.db.session import session_scope
+
+
+class FakeController:
+    def chunk_count(self) -> int:
+        return 0
+
+
+@pytest.fixture
+def temp_db(tmp_path: Path, monkeypatch: pytest.MonkeyPatch):
+    from sqlalchemy import create_engine
+    from sqlalchemy.orm import sessionmaker
+
+    from doc_assistant.db import session as session_mod
+    from doc_assistant.db.models import Base
+
+    engine = create_engine(f"sqlite:///{tmp_path / 'test.db'}", future=True)
+    Base.metadata.create_all(engine)
+    factory = sessionmaker(bind=engine, autoflush=False, autocommit=False, future=True)
+    monkeypatch.setattr(session_mod, "_engine", engine)
+    monkeypatch.setattr(session_mod, "_SessionLocal", factory)
+    yield
+    engine.dispose()
+
+
+@pytest.fixture
+def client(temp_db: None) -> TestClient:
+    return TestClient(create_app(controller=FakeController()))
+
+
+def _seed_field(fid: str, label: str, *, kind: str = "domain") -> None:
+    with session_scope() as s:
+        # A seeded concept is a graph concept: the header counts the graph vocabulary (ROADMAP 54).
+        s.add(Concept(id=fid, label=label, kind=kind, graph_include=kind == "concept"))
+
+
+def test_get_taxonomy_zero_state(client: TestClient) -> None:
+    _seed_field("div", "Information and computing sciences")
+    _seed_field("grp", "Machine learning")
+    _seed_field("c1", "Embeddings", kind="concept")
+    client.post(
+        "/api/taxonomy/hierarchy",
+        json={"source_id": "grp", "target_id": "div", "type": "in_field"},
+    )
+
+    r = client.get("/api/taxonomy")
+    assert r.status_code == 200
+    body = r.json()
+    assert len(body["fields"]) == 2  # only domains are fields; the concept is not
+    assert body["roots"] == ["div"]
+    assert body["n_concepts_total"] == 1
+    assert body["n_unassigned_concepts"] == 1
+    assert all(f["n_concepts_rollup"] == 0 for f in body["fields"])
+
+
+def test_attach_concept_rolls_up(client: TestClient) -> None:
+    _seed_field("div", "ICS")
+    _seed_field("grp", "ML")
+    _seed_field("c1", "Embeddings", kind="concept")
+    client.post(
+        "/api/taxonomy/hierarchy",
+        json={"source_id": "grp", "target_id": "div", "type": "in_field"},
+    )
+
+    # attach the concept to the group via the same hierarchy endpoint
+    r = client.post(
+        "/api/taxonomy/hierarchy",
+        json={"source_id": "c1", "target_id": "grp", "type": "in_field"},
+    )
+    assert r.status_code == 201
+
+    fields = {f["id"]: f for f in client.get("/api/taxonomy").json()["fields"]}
+    assert fields["grp"]["n_concepts_direct"] == 1
+    assert fields["div"]["n_concepts_rollup"] == 1  # crossed grp -> div
+
+
+def test_hierarchy_cycle_is_409(client: TestClient) -> None:
+    _seed_field("a", "A")
+    _seed_field("b", "B")
+    client.post(
+        "/api/taxonomy/hierarchy", json={"source_id": "a", "target_id": "b", "type": "in_field"}
+    )
+    r = client.post(
+        "/api/taxonomy/hierarchy", json={"source_id": "b", "target_id": "a", "type": "in_field"}
+    )
+    assert r.status_code == 409
+
+
+def test_hierarchy_bad_type_is_422(client: TestClient) -> None:
+    _seed_field("a", "A")
+    _seed_field("b", "B")
+    # `type` is a Literal on the request model — an unknown value is a 422 (pydantic), not a 400.
+    r = client.post(
+        "/api/taxonomy/hierarchy", json={"source_id": "a", "target_id": "b", "type": "related"}
+    )
+    assert r.status_code == 422
+
+
+def test_hierarchy_missing_id_is_404(client: TestClient) -> None:
+    _seed_field("a", "A")
+    r = client.post(
+        "/api/taxonomy/hierarchy",
+        json={"source_id": "a", "target_id": "ghost", "type": "in_field"},
+    )
+    assert r.status_code == 404
+
+
+def test_remove_hierarchy_is_idempotent(client: TestClient) -> None:
+    _seed_field("a", "A")
+    _seed_field("b", "B")
+    client.post(
+        "/api/taxonomy/hierarchy", json={"source_id": "a", "target_id": "b", "type": "in_field"}
+    )
+    r1 = client.request(
+        "DELETE",
+        "/api/taxonomy/hierarchy",
+        json={"source_id": "a", "target_id": "b", "type": "in_field"},
+    )
+    assert r1.status_code == 200 and r1.json()["removed"] == 1
+    r2 = client.request(
+        "DELETE",
+        "/api/taxonomy/hierarchy",
+        json={"source_id": "a", "target_id": "b", "type": "in_field"},
+    )
+    assert r2.json()["removed"] == 0
+
+
+def test_attach_document_field(client: TestClient) -> None:
+    _seed_field("grp", "ML")
+    _seed_field("concept-node", "Embeddings", kind="concept")
+    with session_scope() as s:
+        s.add(Document(id="d1", filename="p.pdf", source_original="p", doc_hash="h", format="pdf"))
+
+    # to a domain -> 201, idempotent
+    r = client.post("/api/taxonomy/documents/d1/fields/grp")
+    assert r.status_code == 201
+    assert client.post("/api/taxonomy/documents/d1/fields/grp").status_code == 201
+    # to a non-domain node -> 400
+    assert client.post("/api/taxonomy/documents/d1/fields/concept-node").status_code == 400
+    # non-existent document -> 404
+    assert client.post("/api/taxonomy/documents/ghost/fields/grp").status_code == 404
+
+    # detach is the reject half (ADR-028 D8) and is idempotent
+    r = client.delete("/api/taxonomy/documents/d1/fields/grp")
+    assert r.status_code == 200 and r.json()["removed"] == 1
+    assert client.delete("/api/taxonomy/documents/d1/fields/grp").json()["removed"] == 0
+
+
+def test_proposed_links_are_marked_on_the_wire(client: TestClient) -> None:
+    """DoD 9 (increment 3): a proposal reaches the UI *labelled* as one, and an accept (the same
+    curated POST) flips it — so the frontend can never render a machine guess as a user edit."""
+    _seed_field("grp", "ML")
+    _seed_field("c1", "Embeddings", kind="concept")
+    with session_scope() as s:
+        s.add(Document(id="d1", filename="p.pdf", source_original="p", doc_hash="h", format="pdf"))
+    with session_scope() as s:
+        from doc_assistant.knowledge.taxonomy import add_hierarchy_edge, attach_document_field
+
+        add_hierarchy_edge(s, "c1", "grp", "in_field", origin="proposed")
+        attach_document_field(s, "d1", "grp", origin="proposed")
+
+    detail = client.get("/api/taxonomy/fields/grp").json()
+    assert [m["origin"] for m in detail["concepts"]] == ["proposed"]
+    assert [m["origin"] for m in detail["documents"]] == ["proposed"]
+    field = {f["id"]: f for f in client.get("/api/taxonomy").json()["fields"]}["grp"]
+    assert (field["n_concepts_direct"], field["n_concepts_proposed"]) == (1, 1)
+    assert (field["n_documents_direct"], field["n_documents_proposed"]) == (1, 1)
+
+    # accepting = the existing curated write of the same edge (no new endpoint, ADR-028 D8)
+    assert (
+        client.post(
+            "/api/taxonomy/hierarchy",
+            json={"source_id": "c1", "target_id": "grp", "type": "in_field"},
+        ).status_code
+        == 201
+    )
+    accepted = client.get("/api/taxonomy/fields/grp").json()
+    assert [m["origin"] for m in accepted["concepts"]] == ["curated"]
+
+    # a proposed *document* classification accepts the same way — re-attaching promotes it
+    assert client.post("/api/taxonomy/documents/d1/fields/grp").status_code == 201
+    assert [m["origin"] for m in client.get("/api/taxonomy/fields/grp").json()["documents"]] == [
+        "curated"
+    ]
+
+
+def test_proposals_list_carries_both_edge_types_and_empties_as_they_are_reviewed(
+    client: TestClient,
+) -> None:
+    """ROADMAP 51 / TX3b. An `is_a` proposal has no field to sit under, so without this route a
+    concept->concept proposal would exist in the DB and nowhere in the app."""
+    _seed_field("grp", "ML")
+    _seed_field("narrow", "beta oscillations", kind="concept")
+    _seed_field("broad", "oscillations", kind="concept")
+    with session_scope() as s:
+        s.add(Document(id="d1", filename="p.pdf", source_original="p", doc_hash="h", format="pdf"))
+    with session_scope() as s:
+        from doc_assistant.knowledge.taxonomy import add_hierarchy_edge, attach_document_field
+
+        add_hierarchy_edge(s, "narrow", "broad", "is_a", origin="proposed")
+        add_hierarchy_edge(s, "broad", "grp", "in_field", origin="proposed")
+        attach_document_field(s, "d1", "grp", origin="proposed")
+
+    proposals = client.get("/api/taxonomy/proposals").json()["proposals"]
+    # is_a first, then concepts in a field, then documents — the count the app shows is every
+    # proposal, so it cannot contradict what the field pane displays.
+    assert [(p["source_label"], p["target_label"], p["source_kind"]) for p in proposals] == [
+        ("beta oscillations", "oscillations", "concept"),
+        ("oscillations", "ML", "concept"),
+        ("p.pdf", "ML", "document"),
+    ]
+    assert client.delete("/api/taxonomy/documents/d1/fields/grp").json()["removed"] == 1
+
+    # accept the is_a, reject the in_field — both leave the list
+    assert (
+        client.post(
+            "/api/taxonomy/hierarchy",
+            json={"source_id": "narrow", "target_id": "broad", "type": "is_a"},
+        ).status_code
+        == 201
+    )
+    assert (
+        client.request(
+            "DELETE",
+            "/api/taxonomy/hierarchy",
+            json={"source_id": "broad", "target_id": "grp", "type": "in_field"},
+        ).json()["removed"]
+        == 1
+    )
+    assert client.get("/api/taxonomy/proposals").json()["proposals"] == []
+
+
+def test_an_is_a_edge_must_join_two_concepts(client: TestClient) -> None:
+    """ROADMAP 51. The raw POST was the only `is_a` writer and it accepted concept -> field."""
+    _seed_field("grp", "ML")
+    _seed_field("c1", "Embeddings", kind="concept")
+    r = client.post(
+        "/api/taxonomy/hierarchy", json={"source_id": "c1", "target_id": "grp", "type": "is_a"}
+    )
+    assert r.status_code == 400 and "is_a joins two concepts" in r.json()["detail"]
+
+
+def test_field_detail_404_for_non_field(client: TestClient) -> None:
+    _seed_field("grp", "ML")
+    assert client.get("/api/taxonomy/fields/grp").status_code == 200
+    _seed_field("c1", "Embeddings", kind="concept")
+    assert client.get("/api/taxonomy/fields/c1").status_code == 404  # a concept is not a field
+    assert client.get("/api/taxonomy/fields/ghost").status_code == 404

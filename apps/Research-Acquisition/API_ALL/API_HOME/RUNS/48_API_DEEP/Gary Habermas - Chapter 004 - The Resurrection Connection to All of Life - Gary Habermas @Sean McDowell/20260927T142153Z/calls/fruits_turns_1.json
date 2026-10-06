@@ -1,0 +1,678 @@
+{
+  "name": "fruits_turns_1",
+  "parsed": {
+    "range": "T001-T030",
+    "turns": [
+      {
+        "id": "T001",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T002",
+        "speaker": "guest",
+        "v": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1
+        ],
+        "why": {
+          "love": "wants lives changed, not just arguments won",
+          "joy": "delight in the resurrection's centrality",
+          "patience": "explains why he switched step by step",
+          "kindness": "defines terms for listeners",
+          "goodness": "honest about his own doubt and loss",
+          "faithfulness": "keeps citing Paul and 1 Corinthians 15",
+          "self_control": "hedges dates and personal details carefully"
+        }
+      },
+      {
+        "id": "T003",
+        "speaker": "guest",
+        "v": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1
+        ],
+        "why": {
+          "love": "wants the resurrection to help others live",
+          "joy": "warmth about seeing lives changed",
+          "patience": "unpacks the many-faceted diamond slowly",
+          "kindness": "explains his aim plainly",
+          "goodness": "honest about wanting to spread it around",
+          "faithfulness": "cites Paul and New Testament consistently",
+          "self_control": "qualifies his claims about evidence"
+        }
+      },
+      {
+        "id": "T004",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T005",
+        "speaker": "host",
+        "v": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "why": {
+          "love": "affirms Gary's book and its impact",
+          "patience": "sets up the question carefully",
+          "kindness": "encourages before asking",
+          "faithfulness": "accurately recalls Gary's earlier work"
+        }
+      },
+      {
+        "id": "T006",
+        "speaker": "guest",
+        "v": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1
+        ],
+        "why": {
+          "love": "wants the resurrection to change lives",
+          "joy": "enthusiasm for the diamond image",
+          "patience": "explains centrality at length",
+          "kindness": "defines terms for listeners",
+          "goodness": "honest about what he can't think of",
+          "faithfulness": "cites 1 Corinthians 15 and Acts fairly",
+          "self_control": "qualifies his claims about other doctrines"
+        }
+      },
+      {
+        "id": "T007",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T008",
+        "speaker": "host",
+        "v": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "why": {
+          "love": "affirms Gary's connections",
+          "patience": "sets up the next question",
+          "kindness": "encourages Gary",
+          "faithfulness": "accurately recalls the earlier book"
+        }
+      },
+      {
+        "id": "T009",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T010",
+        "speaker": "guest",
+        "v": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1
+        ],
+        "why": {
+          "love": "wants listeners to live the radical commitment",
+          "joy": "warmth in explaining the lawyer passage",
+          "patience": "walks through Luke 10 step by step",
+          "kindness": "defines 'lawyer' for listeners",
+          "goodness": "honest about the cost of commitment",
+          "faithfulness": "cites Luke 10 and Ephesians 2 fairly",
+          "self_control": "distinguishes faith from works carefully"
+        }
+      },
+      {
+        "id": "T011",
+        "speaker": "guest",
+        "v": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1
+        ],
+        "why": {
+          "love": "wants listeners to embrace radical commitment",
+          "joy": "delight in the marriage analogy",
+          "patience": "explains the two commands slowly",
+          "kindness": "uses accessible examples",
+          "goodness": "honest about the cost of discipleship",
+          "faithfulness": "cites Ephesians 2:8-10 accurately",
+          "self_control": "distinguishes by/unto carefully"
+        }
+      },
+      {
+        "id": "T012",
+        "speaker": "host",
+        "v": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "why": {
+          "love": "affirms Gary's chapter",
+          "patience": "summarizes before next question",
+          "kindness": "encourages Gary",
+          "faithfulness": "accurately restates Gary's point"
+        }
+      },
+      {
+        "id": "T013",
+        "speaker": "guest",
+        "v": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "shares personal suffering to help others",
+          "joy": "hope amid grief",
+          "patience": "explains cancer details carefully",
+          "kindness": "vulnerable and generous with listeners",
+          "goodness": "honest about his pain and questions",
+          "faithfulness": "accurate about medical details",
+          "gentleness": "tender about his wife's illness",
+          "self_control": "doesn't overclaim about God's purposes"
+        }
+      },
+      {
+        "id": "T014",
+        "speaker": "guest",
+        "v": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "wants to help others through suffering",
+          "joy": "hope in resurrection amid pain",
+          "patience": "explains his reasoning step by step",
+          "kindness": "transparent about his struggle",
+          "goodness": "honest about not knowing why",
+          "faithfulness": "cites scripture and scholars fairly",
+          "gentleness": "gentle about his wife and family",
+          "self_control": "hedges where evidence is unclear"
+        }
+      },
+      {
+        "id": "T015",
+        "speaker": "guest",
+        "v": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "wants to help suffering believers",
+          "joy": "hope in resurrection",
+          "patience": "explains the minimal facts argument slowly",
+          "kindness": "makes the argument accessible",
+          "goodness": "honest about gospel errors objection",
+          "faithfulness": "cites Craig Blomberg fairly",
+          "gentleness": "fair to critics",
+          "self_control": "concedes possible errors without overclaiming"
+        }
+      },
+      {
+        "id": "T016",
+        "speaker": "guest",
+        "v": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "wants to help those suffering persecution",
+          "joy": "hope in heaven amid persecution",
+          "patience": "explains the gospel center step by step",
+          "kindness": "makes it accessible to families",
+          "goodness": "honest about the cost of persecution",
+          "faithfulness": "cites Paul and scripture accurately",
+          "gentleness": "fair to those who question",
+          "self_control": "stays on the question"
+        }
+      },
+      {
+        "id": "T017",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T018",
+        "speaker": "guest",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T019",
+        "speaker": "guest",
+        "v": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "wants to help persecuted believers",
+          "joy": "hope in resurrection",
+          "patience": "explains the argument step by step",
+          "kindness": "makes it accessible",
+          "goodness": "honest about suffering",
+          "faithfulness": "cites scripture and Joseph Son fairly",
+          "gentleness": "fair to critics",
+          "self_control": "stays on the question"
+        }
+      },
+      {
+        "id": "T020",
+        "speaker": "guest",
+        "v": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "wants to help those suffering",
+          "joy": "hope in resurrection",
+          "patience": "explains the application slowly",
+          "kindness": "makes it accessible",
+          "goodness": "honest about his own down days",
+          "faithfulness": "cites Paul and scripture accurately",
+          "gentleness": "fair to doubters",
+          "self_control": "stays on the question"
+        }
+      },
+      {
+        "id": "T021",
+        "speaker": "guest",
+        "v": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "wants to help emotional doubters",
+          "joy": "hope in resurrection",
+          "patience": "explains cognitive therapy step by step",
+          "kindness": "makes it accessible",
+          "goodness": "honest about his own struggles",
+          "faithfulness": "cites Albert Ellis and Paul fairly",
+          "gentleness": "fair to atheist Ellis",
+          "self_control": "stays on the question"
+        }
+      },
+      {
+        "id": "T022",
+        "speaker": "guest",
+        "v": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "wants to help those fearing death",
+          "joy": "hope in bodily resurrection",
+          "patience": "explains Plato contrast step by step",
+          "kindness": "makes it accessible",
+          "goodness": "honest about philosophical echoes",
+          "faithfulness": "cites Philippians 3:10 accurately",
+          "gentleness": "fair to Plato",
+          "self_control": "stays on the question"
+        }
+      },
+      {
+        "id": "T023",
+        "speaker": "host",
+        "v": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "why": {
+          "love": "affirms Gary's point",
+          "patience": "sets up next question",
+          "kindness": "encourages Gary",
+          "faithfulness": "accurately recalls Klay Jones"
+        }
+      },
+      {
+        "id": "T024",
+        "speaker": "host",
+        "v": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "why": {
+          "love": "affirms Gary's work",
+          "patience": "sets up question",
+          "kindness": "encourages Gary",
+          "faithfulness": "accurately cites Philippians 3:10"
+        }
+      },
+      {
+        "id": "T025",
+        "speaker": "guest",
+        "v": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "wants to help with fear and sin",
+          "joy": "hope in resurrection power",
+          "patience": "explains his practice step by step",
+          "kindness": "makes it accessible",
+          "goodness": "honest about his own struggle",
+          "faithfulness": "cites scripture accurately",
+          "gentleness": "gentle about his own weakness",
+          "self_control": "stays on the question"
+        }
+      },
+      {
+        "id": "T026",
+        "speaker": "host",
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T027",
+        "speaker": "guest",
+        "v": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "wants to help people facing death",
+          "joy": "hope in heaven",
+          "patience": "explains near-death experiences carefully",
+          "kindness": "makes it accessible",
+          "goodness": "honest about limits of NDEs",
+          "faithfulness": "cites scripture and scholars fairly",
+          "gentleness": "fair to other views",
+          "self_control": "hedges where evidence is limited"
+        }
+      },
+      {
+        "id": "T028",
+        "speaker": "guest",
+        "v": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "wants to help doubters and sufferers",
+          "joy": "hope in resurrection",
+          "patience": "explains cognitive truth step by step",
+          "kindness": "makes it accessible",
+          "goodness": "honest about medicine and limits",
+          "faithfulness": "cites Ellis and Paul fairly",
+          "gentleness": "fair to those on medication",
+          "self_control": "stays on the question"
+        }
+      },
+      {
+        "id": "T029",
+        "speaker": "guest",
+        "v": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "why": {
+          "love": "wants to help those suffering",
+          "joy": "hope in resurrection",
+          "patience": "explains his personal journey slowly",
+          "kindness": "vulnerable and generous",
+          "goodness": "honest about his pain",
+          "faithfulness": "cites scripture accurately",
+          "gentleness": "tender about his wife",
+          "self_control": "doesn't overclaim about God's purposes"
+        }
+      },
+      {
+        "id": "T030",
+        "speaker": "host",
+        "v": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "why": {
+          "love": "thanks Gary warmly",
+          "kindness": "encourages Gary",
+          "faithfulness": "accurately summarizes the interview"
+        }
+      }
+    ]
+  },
+  "error": null,
+  "receipts": [
+    {
+      "part": "fruits_turns_1",
+      "attempt": 1,
+      "text": "{\n  \"range\": \"T001-T030\",\n  \"turns\": [\n    {\"id\": \"T001\", \"v\": [0,0,0,0,0,0,0,0,0]},\n    {\"id\": \"T002\", \"speaker\": \"guest\", \"v\": [1,1,0,1,1,1,1,0,1], \"why\": {\"love\": \"wants lives changed, not just arguments won\", \"joy\": \"delight in the resurrection's centrality\", \"patience\": \"explains why he switched step by step\", \"kindness\": \"defines terms for listeners\", \"goodness\": \"honest about his own doubt and loss\", \"faithfulness\": \"keeps citing Paul and 1 Corinthians 15\", \"self_control\": \"hedges dates and personal details carefully\"}},\n    {\"id\": \"T003\", \"speaker\": \"guest\", \"v\": [1,1,0,1,1,1,1,0,1], \"why\": {\"love\": \"wants the resurrection to help others live\", \"joy\": \"warmth about seeing lives changed\", \"patience\": \"unpacks the many-faceted diamond slowly\", \"kindness\": \"explains his aim plainly\", \"goodness\": \"honest about wanting to spread it around\", \"faithfulness\": \"cites Paul and New Testament consistently\", \"self_control\": \"qualifies his claims about evidence\"}},\n    {\"id\": \"T004\", \"speaker\": \"host\", \"v\": [0,0,0,0,0,0,0,0,0]},\n    {\"id\": \"T005\", \"speaker\": \"host\", \"v\": [1,0,0,1,1,0,1,0,0], \"why\": {\"love\": \"affirms Gary's book and its impact\", \"patience\": \"sets up the question carefully\", \"kindness\": \"encourages before asking\", \"faithfulness\": \"accurately recalls Gary's earlier work\"}},\n    {\"id\": \"T006\", \"speaker\": \"guest\", \"v\": [1,1,0,1,1,1,1,0,1], \"why\": {\"love\": \"wants the resurrection to change lives\", \"joy\": \"enthusiasm for the diamond image\", \"patience\": \"explains centrality at length\", \"kindness\": \"defines terms for listeners\", \"goodness\": \"honest about what he can't think of\", \"faithfulness\": \"cites 1 Corinthians 15 and Acts fairly\", \"self_control\": \"qualifies his claims about other doctrines\"}},\n    {\"id\": \"T007\", \"speaker\": \"host\", \"v\": [0,0,0,0,0,0,0,0,0]},\n    {\"id\": \"T008\", \"speaker\": \"host\", \"v\": [1,0,0,1,1,0,1,0,0], \"why\": {\"love\": \"affirms Gary's connections\", \"patience\": \"sets up the next question\", \"kindness\": \"encourages Gary\", \"faithfulness\": \"accurately recalls the earlier book\"}},\n    {\"id\": \"T009\", \"speaker\": \"host\", \"v\": [0,0,0,0,0,0,0,0,0]},\n    {\"id\": \"T010\", \"speaker\": \"guest\", \"v\": [1,1,0,1,1,1,1,0,1], \"why\": {\"love\": \"wants listeners to live the radical commitment\", \"joy\": \"warmth in explaining the lawyer passage\", \"patience\": \"walks through Luke 10 step by step\", \"kindness\": \"defines 'lawyer' for listeners\", \"goodness\": \"honest about the cost of commitment\", \"faithfulness\": \"cites Luke 10 and Ephesians 2 fairly\", \"self_control\": \"distinguishes faith from works carefully\"}},\n    {\"id\": \"T011\", \"speaker\": \"guest\", \"v\": [1,1,0,1,1,1,1,0,1], \"why\": {\"love\": \"wants listeners to embrace radical commitment\", \"joy\": \"delight in the marriage analogy\", \"patience\": \"explains the two commands slowly\", \"kindness\": \"uses accessible examples\", \"goodness\": \"honest about the cost of discipleship\", \"faithfulness\": \"cites Ephesians 2:8-10 accurately\", \"self_control\": \"distinguishes by/unto carefully\"}},\n    {\"id\": \"T012\", \"speaker\": \"host\", \"v\": [1,0,0,1,1,0,1,0,0], \"why\": {\"love\": \"affirms Gary's chapter\", \"patience\": \"summarizes before next question\", \"kindness\": \"encourages Gary\", \"faithfulness\": \"accurately restates Gary's point\"}},\n    {\"id\": \"T013\", \"speaker\": \"guest\", \"v\": [1,1,0,1,1,1,1,1,1], \"why\": {\"love\": \"shares personal suffering to help others\", \"joy\": \"hope amid grief\", \"patience\": \"explains cancer details carefully\", \"kindness\": \"vulnerable and generous with listeners\", \"goodness\": \"honest about his pain and questions\", \"faithfulness\": \"accurate about medical details\", \"gentleness\": \"tender about his wife's illness\", \"self_control\": \"doesn't overclaim about God's purposes\"}},\n    {\"id\": \"T014\", \"speaker\": \"guest\", \"v\": [1,1,0,1,1,1,1,1,1], \"why\": {\"love\": \"wants to help others through suffering\", \"joy\": \"hope in resurrection amid pain\", \"patience\": \"explains his reasoning step by step\", \"kindness\": \"transparent about his struggle\", \"goodness\": \"honest about not knowing why\", \"faithfulness\": \"cites scripture and scholars fairly\", \"gentleness\": \"gentle about his wife and family\", \"self_control\": \"hedges where evidence is unclear\"}},\n    {\"id\": \"T015\", \"speaker\": \"guest\", \"v\": [1,1,0,1,1,1,1,1,1], \"why\": {\"love\": \"wants to help suffering believers\", \"joy\": \"hope in resurrection\", \"patience\": \"explains the minimal facts argument slowly\", \"kindness\": \"makes the argument accessible\", \"goodness\": \"honest about gospel errors objection\", \"faithfulness\": \"cites Craig Blomberg fairly\", \"gentleness\": \"fair to critics\", \"self_control\": \"concedes possible errors without overclaiming\"}},\n    {\"id\": \"T016\", \"speaker\": \"guest\", \"v\": [1,1,0,1,1,1,1,1,1], \"why\": {\"love\": \"wants to help those suffering persecution\", \"joy\": \"hope in heaven amid persecution\", \"patience\": \"explains the gospel center step by step\", \"kindness\": \"makes it accessible to families\", \"goodness\": \"honest about the cost of persecution\", \"faithfulness\": \"cites Paul and scripture accurately\", \"gentleness\": \"fair to those who question\", \"self_control\": \"stays on the question\"}},\n    {\"id\": \"T017\", \"speaker\": \"host\", \"v\": [0,0,0,0,0,0,0,0,0]},\n    {\"id\": \"T018\", \"speaker\": \"guest\", \"v\": [0,0,0,0,0,0,0,0,0]},\n    {\"id\": \"T019\", \"speaker\": \"guest\", \"v\": [1,1,0,1,1,1,1,1,1], \"why\": {\"love\": \"wants to help persecuted believers\", \"joy\": \"hope in resurrection\", \"patience\": \"explains the argument step by step\", \"kindness\": \"makes it accessible\", \"goodness\": \"honest about suffering\", \"faithfulness\": \"cites scripture and Joseph Son fairly\", \"gentleness\": \"fair to critics\", \"self_control\": \"stays on the question\"}},\n    {\"id\": \"T020\", \"speaker\": \"guest\", \"v\": [1,1,0,1,1,1,1,1,1], \"why\": {\"love\": \"wants to help those suffering\", \"joy\": \"hope in resurrection\", \"patience\": \"explains the application slowly\", \"kindness\": \"makes it accessible\", \"goodness\": \"honest about his own down days\", \"faithfulness\": \"cites Paul and scripture accurately\", \"gentleness\": \"fair to doubters\", \"self_control\": \"stays on the question\"}},\n    {\"id\": \"T021\", \"speaker\": \"guest\", \"v\": [1,1,0,1,1,1,1,1,1], \"why\": {\"love\": \"wants to help emotional doubters\", \"joy\": \"hope in resurrection\", \"patience\": \"explains cognitive therapy step by step\", \"kindness\": \"makes it accessible\", \"goodness\": \"honest about his own struggles\", \"faithfulness\": \"cites Albert Ellis and Paul fairly\", \"gentleness\": \"fair to atheist Ellis\", \"self_control\": \"stays on the question\"}},\n    {\"id\": \"T022\", \"speaker\": \"guest\", \"v\": [1,1,0,1,1,1,1,1,1], \"why\": {\"love\": \"wants to help those fearing death\", \"joy\": \"hope in bodily resurrection\", \"patience\": \"explains Plato contrast step by step\", \"kindness\": \"makes it accessible\", \"goodness\": \"honest about philosophical echoes\", \"faithfulness\": \"cites Philippians 3:10 accurately\", \"gentleness\": \"fair to Plato\", \"self_control\": \"stays on the question\"}},\n    {\"id\": \"T023\", \"speaker\": \"host\", \"v\": [1,0,0,1,1,0,1,0,0], \"why\": {\"love\": \"affirms Gary's point\", \"patience\": \"sets up next question\", \"kindness\": \"encourages Gary\", \"faithfulness\": \"accurately recalls Klay Jones\"}},\n    {\"id\": \"T024\", \"speaker\": \"host\", \"v\": [1,0,0,1,1,0,1,0,0], \"why\": {\"love\": \"affirms Gary's work\", \"patience\": \"sets up question\", \"kindness\": \"encourages Gary\", \"faithfulness\": \"accurately cites Philippians 3:10\"}},\n    {\"id\": \"T025\", \"speaker\": \"guest\", \"v\": [1,1,0,1,1,1,1,1,1], \"why\": {\"love\": \"wants to help with fear and sin\", \"joy\": \"hope in resurrection power\", \"patience\": \"explains his practice step by step\", \"kindness\": \"makes it accessible\", \"goodness\": \"honest about his own struggle\", \"faithfulness\": \"cites scripture accurately\", \"gentleness\": \"gentle about his own weakness\", \"self_control\": \"stays on the question\"}},\n    {\"id\": \"T026\", \"speaker\": \"host\", \"v\": [0,0,0,0,0,0,0,0,0]},\n    {\"id\": \"T027\", \"speaker\": \"guest\", \"v\": [1,1,0,1,1,1,1,1,1], \"why\": {\"love\": \"wants to help people facing death\", \"joy\": \"hope in heaven\", \"patience\": \"explains near-death experiences carefully\", \"kindness\": \"makes it accessible\", \"goodness\": \"honest about limits of NDEs\", \"faithfulness\": \"cites scripture and scholars fairly\", \"gentleness\": \"fair to other views\", \"self_control\": \"hedges where evidence is limited\"}},\n    {\"id\": \"T028\", \"speaker\": \"guest\", \"v\": [1,1,0,1,1,1,1,1,1], \"why\": {\"love\": \"wants to help doubters and sufferers\", \"joy\": \"hope in resurrection\", \"patience\": \"explains cognitive truth step by step\", \"kindness\": \"makes it accessible\", \"goodness\": \"honest about medicine and limits\", \"faithfulness\": \"cites Ellis and Paul fairly\", \"gentleness\": \"fair to those on medication\", \"self_control\": \"stays on the question\"}},\n    {\"id\": \"T029\", \"speaker\": \"guest\", \"v\": [1,1,0,1,1,1,1,1,1], \"why\": {\"love\": \"wants to help those suffering\", \"joy\": \"hope in resurrection\", \"patience\": \"explains his personal journey slowly\", \"kindness\": \"vulnerable and generous\", \"goodness\": \"honest about his pain\", \"faithfulness\": \"cites scripture accurately\", \"gentleness\": \"tender about his wife\", \"self_control\": \"doesn't overclaim about God's purposes\"}},\n    {\"id\": \"T030\", \"speaker\": \"host\", \"v\": [1,0,0,0,1,0,1,0,0], \"why\": {\"love\": \"thanks Gary warmly\", \"kindness\": \"encourages Gary\", \"faithfulness\": \"accurately summarizes the interview\"}}\n  ]\n}",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "prompt_tokens": 14571,
+      "completion_tokens": 3025,
+      "attempts": 1,
+      "elapsed_seconds": 12.0,
+      "started_at": "2026-09-27T14:21:53.705380+00:00",
+      "error": null,
+      "finish_reason": "stop",
+      "finished_at": "2026-09-27T14:22:05.707041+00:00",
+      "tokens": 17596
+    }
+  ],
+  "prompt_sha256": "933b14e1381efc896d413812e7b0e815507d6096cad055e85936e198e484feba",
+  "tokens": 17596
+}

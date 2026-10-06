@@ -1,0 +1,126 @@
+{
+  "core_relation": {
+    "sentence": "The resurrection is the necessary, all-or-nothing center of the gospel, theology, practice, and every application of the Christian life; remove it and everything else collapses.",
+    "quote": "Paul says, \"Remove that one thing and forget all the heavy theology we talk about.\" [S005]"
+  },
+  "core_relation_run2": {
+    "sentence": "The resurrection is the necessary, all-or-nothing center of the gospel, theology, practice, and every application of the Christian life; remove it and everything else collapses.",
+    "quote": "Paul says, \"Remove that one thing and forget all the heavy theology we talk about.\" [S005]"
+  },
+  "product_test": {
+    "run1": "multiplicative",
+    "run2": "multiplicative",
+    "status": "agreed",
+    "quote": "if Jesus died but does wasn't raised his death was in vain. So you need the resurrection to complete the gospel. [S034][S035]",
+    "reason": "The paper repeatedly treats the resurrection as a non-negotiable factor: without it the cross means nothing, the gospel is incomplete, Christianity is false, and none of the practical applications (suffering, doubt, fear of death, heaven) can stand. This is a zero-collapse structure, not mere weakening."
+  },
+  "slots": [
+    {
+      "slot": "G",
+      "fit_1": "analogous",
+      "fit_2": "analogous",
+      "status": "agreed",
+      "plays_role": "The external negentropy influx is the resurrection itself—an act of God from outside the system that injects meaning and power into human life.",
+      "quote": "if Jesus is raised from the dead. It doesn't say if you can figure it all out, you're going to heaven. It says if Jesus was raised from the dead and you committed yourself to him, you're going to heaven. [S216][S218]"
+    },
+    {
+      "slot": "M",
+      "fit_1": "analogous",
+      "fit_2": "analogous",
+      "status": "agreed",
+      "plays_role": "Alignment is radical commitment—giving all of oneself to God and neighbor, as in marriage.",
+      "quote": "love your Lord your God with all your heart, soul, strength and mind which I take to be salvation. [S075]"
+    },
+    {
+      "slot": "E",
+      "fit_1": "analogous",
+      "fit_2": "analogous",
+      "status": "agreed",
+      "plays_role": "Signal fidelity is the truth of the gospel message surviving transmission through doubt, error, and suffering.",
+      "quote": "no matter what critics scream at you about errors in the gospels, here what you here's where you take your stand. Deity, death, resurrection. [S200][S201]"
+    },
+    {
+      "slot": "S_eff",
+      "fit_1": "analogous",
+      "fit_2": "analogous",
+      "status": "agreed",
+      "plays_role": "Effective entropy is suffering, doubt, and fear that lower coherence and are counteracted by the resurrection.",
+      "quote": "It takes the force out of suffering. [S228]"
+    },
+    {
+      "slot": "T",
+      "fit_1": "analogous",
+      "fit_2": "analogous",
+      "status": "agreed",
+      "plays_role": "Temporal integration is the accumulation of faith through suffering and the eternal perspective that makes present pain bearable.",
+      "quote": "if the resurrection lets me see her again and walk down the streets of heaven hand in hand, I can wait. [S402]"
+    },
+    {
+      "slot": "K",
+      "fit_1": "analogous",
+      "fit_2": "analogous",
+      "status": "agreed",
+      "plays_role": "Compression is the minimal facts argument and the distillation of the gospel to deity, death, and resurrection.",
+      "quote": "the minimal facts argument says I can get there without. [S158]"
+    },
+    {
+      "slot": "R",
+      "fit_1": "analogous",
+      "fit_2": "analogous",
+      "status": "agreed",
+      "plays_role": "Phase transition is the resurrection as a threshold event that changes everything—from death to life, doubt to faith, suffering to hope.",
+      "quote": "if the resurrection is true, we're going to be we're going to rise bodily, not just as a uh wispy spirit like Plato believed, but we're going to rise as a body. [S293]"
+    },
+    {
+      "slot": "Q",
+      "fit_1": "analogous",
+      "fit_2": "analogous",
+      "status": "agreed",
+      "plays_role": "Superposition is the unresolved tension of questions and suffering held open until the resurrection resolves them.",
+      "quote": "I don't know why much of suffering occurs, but I do know the resurrection. [S557]"
+    },
+    {
+      "slot": "F",
+      "fit_1": "analogous",
+      "fit_2": "analogous",
+      "status": "agreed",
+      "plays_role": "Non-local correlation is the communal resurrection—believers are raised together and sit with Christ in heaven.",
+      "quote": "He says you and I will be raised together and sit with Christ in heaven. [S595]"
+    },
+    {
+      "slot": "C",
+      "fit_1": "analogous",
+      "fit_2": "analogous",
+      "status": "agreed",
+      "plays_role": "Integration is the local integrator—the individual believer applying the resurrection to every area of life.",
+      "quote": "what does this have to do with the resurrection? How does it change things for you? [S230][S231]"
+    }
+  ],
+  "contested": [],
+  "analog_strength": 3,
+  "analog_strength_spread": "3-3",
+  "confidence": [
+    "medium",
+    "medium"
+  ],
+  "one_line": "The resurrection functions as the single non-negotiable factor whose removal collapses the entire Christian life, making the paper's logic multiplicative in a binary rather than ten-slot sense.",
+  "breaks": [
+    "The paper treats the resurrection as a single non-negotiable factor, whereas the master equation is a product of ten distinct factors; the paper does not distinguish separate multiplicative components.",
+    "The paper's 'radical commitment' (M) is presented as a response to grace, not as a factor that must be non-zero for the gospel to be true; it is more consequence than condition.",
+    "The paper does not treat S_eff as a factor that can be zeroed out; suffering is real but not a variable that can collapse the equation.",
+    "The paper's logic is more binary (resurrection true/false) than multiplicative across ten slots."
+  ],
+  "extra_factors": [
+    [
+      "Heaven as the conclusion and unbreakable chain from resurrection",
+      "The Holy Spirit as the agent of application and conviction",
+      "Scripture (New Testament) as the source of evidence and truth"
+    ],
+    [
+      "Heaven as the conclusion and unbreakable chain from resurrection",
+      "The Holy Spirit as the agent of application and conviction",
+      "Scripture (New Testament) as the source of evidence and truth"
+    ]
+  ],
+  "equations_present": false
+}

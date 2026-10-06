@@ -1,0 +1,158 @@
+{
+  "station": "stories",
+  "paper_uuid": "AX_GI_03_FL_01_I_AM_THE_ROOT_SPEAKS_7c196c27",
+  "run_uuid": "20260927T053943Z",
+  "stories": [
+    {
+      "story_id": "a1f0c2e4-7b3d-4c9a-9e21-5d6f8a0b1c23",
+      "title_or_label": "The Child and the Father Analogy",
+      "story_type": "illustration",
+      "source_span": "[P30]–[P35], S050–S061",
+      "characters_or_agents": [
+        "child",
+        "father"
+      ],
+      "setting_or_context": "A child learning about his father through two routes: studying the house the father built and hearing the father speak.",
+      "plot_or_sequence": "A child can study the house the father built—its order, rooms, table, locks, tools, boundaries, repairs, signs of care. The child can also hear the father speak. These are not enemies: the house witnesses to the father, and the father's voice explains the house. This maps onto science studying the house, philosophy asking what the house requires, Scripture recording the Father speaking, and Christ revealing the Father personally.",
+      "intended_function": "explain",
+      "claims_illustrated": [
+        "A04",
+        "A05",
+        "A07",
+        "A12"
+      ],
+      "emotional_or_rhetorical_load": "Warm, domestic, intuitive; lowers the stakes of the disclosure/discovery distinction by making it feel like ordinary family life rather than a methodological crisis.",
+      "boundaries": {
+        "what_it_shows": "That two distinct routes to knowledge of a person—inference from artifacts and direct speech—can coexist and converge without collapsing into one method.",
+        "what_it_does_not_show": "That the father actually exists, that the house actually has a builder, that the father has actually spoken, or that any particular claim of divine speech is true. It also does not show that the two routes will in fact converge in any given case.",
+        "what_would_falsify_the_narrative": "If the two routes were shown to be mutually exclusive or systematically contradictory—e.g., if listening to the father reliably contradicted what the house revealed—the analogy's convergence claim would fail."
+      },
+      "evidence_for_historical_content": [],
+      "is_separable_from_argument": true,
+      "notes": "The analogy is illustrative and motivational; it carries no independent evidential weight for the existence or speech of God. It is structurally load-bearing for the paper's posture (A07) but not for its truth."
+    },
+    {
+      "story_id": "b2e1d3f5-8c4a-4d0b-af32-6e7a9b1c2d34",
+      "title_or_label": "Moses at the Burning Bush: The Divine Name as Boundary",
+      "story_type": "narrative",
+      "source_span": "[P08]–[P26], S012–S045; Exodus 3:14 cited at [P11] S016–S017",
+      "characters_or_agents": [
+        "God",
+        "Moses"
+      ],
+      "setting_or_context": "Moses asks God for His name; God answers from the burning bush with 'I AM WHO I AM.'",
+      "plot_or_sequence": "God is introduced not as an object awaiting definition but as the One who calls, commands, creates, names, promises, judges, forgives, and reveals. When Moses asks for His name, God does not give a creaturely label but says 'I AM WHO I AM.' This is not a slogan but a boundary: God is not one being inside a larger field of being, not a powerful object in the universe, not the biggest thing among things. He is the One from whom every 'is' receives its existence. The name refuses to let God be measured from below; it names Him from His own side. It does not answer every philosophical question or remove mystery, but it tells us where not to look: not as one more dependent thing, not downstream.",
+      "intended_function": "identify",
+      "claims_illustrated": [
+        "A02",
+        "A01",
+        "A13"
+      ],
+      "emotional_or_rhetorical_load": "Reverent, awe-inducing, boundary-setting; the narrative carries the weight of a foundational self-disclosure that reorients the entire investigation.",
+      "boundaries": {
+        "what_it_shows": "The shape of the biblical claim about God's self-naming: that the divine name functions as a boundary against treating God as a dependent being among beings.",
+        "what_it_does_not_show": "That the Exodus narrative is historically accurate, that God actually spoke to Moses, or that the metaphysical reading of the name is the only or correct interpretation. It also does not prove that God exists or that the biblical text is authoritative.",
+        "what_would_falsify_the_narrative": "Historical or textual evidence that Exodus 3:14 is a late composition with no connection to Moses, or that the Hebrew 'ehyeh asher ehyeh' is better read as a creaturely label or a refusal to give a name rather than a self-designation of underived existence."
+      },
+      "evidence_for_historical_content": [
+        "A08"
+      ],
+      "is_separable_from_argument": false,
+      "notes": "This narrative is structurally load-bearing: the paper's central claim (A01, A02) depends on the reading of Exodus 3:14. The historical content is flagged as evidence atom A08 but is not independently verified in this paper; the support layer is said to face historical questions (S091)."
+    },
+    {
+      "story_id": "c3f2e4a6-9d5b-4e1c-b043-7f8b0c2d3e45",
+      "title_or_label": "Jesus Takes the Divine Name: The Johannine 'I Am' Sayings",
+      "story_type": "narrative",
+      "source_span": "[P39]–[P57], S068–S094; John's Gospel cited at [P43] S072–S078",
+      "characters_or_agents": [
+        "Jesus",
+        "prophets",
+        "teachers",
+        "guides",
+        "comforters"
+      ],
+      "setting_or_context": "In John's Gospel, Jesus repeatedly uses 'I am' language and attaches to Himself roles too large for a mere teacher.",
+      "plot_or_sequence": "Jesus does not merely speak about God from a distance; He identifies Himself in ways that press the root question into history. He says 'I am the bread of life,' 'I am the light of the world,' 'I am the door,' 'I am the good shepherd,' 'I am the resurrection and the life,' 'I am the way, and the truth, and the life,' 'I am the true vine.' A prophet can say 'God gives bread'; Jesus says 'I am the bread.' A teacher can say 'I will show you truth'; Jesus says 'I am the truth.' A guide can say 'I know the way'; Jesus says 'I am the way.' A comforter can say 'God will raise the dead'; Jesus says 'I am the resurrection and the life.' This is identity language, not ordinary religious advice. It does not prove by itself that Jesus is who Christianity says He is—anyone can make a large claim—but the shape of the claim is unmistakable: Christianity says the Root entered history and spoke in the first person.",
+      "intended_function": "persuade",
+      "claims_illustrated": [
+        "A03",
+        "A05"
+      ],
+      "emotional_or_rhetorical_load": "High, dramatic, almost confrontational; the repeated contrast between what a prophet/teacher/guide/ comforter says and what Jesus says builds a rhetorical crescendo around identity rather than advice.",
+      "boundaries": {
+        "what_it_shows": "The rhetorical shape and identity-claim structure of the Johannine 'I am' sayings, and how they differ from ordinary prophetic or teaching speech.",
+        "what_it_does_not_show": "That Jesus actually said these things, that the Johannine sayings are historically reliable, that they are correctly translated or interpreted as claims to divinity, or that Jesus is in fact divine. The paper explicitly concedes this (S089–S091).",
+        "what_would_falsify_the_narrative": "Evidence that the Johannine 'I am' sayings are late theological constructions with no historical basis in Jesus' own speech, or that the Greek 'egō eimi' in these passages is not intended as a divine-name claim."
+      },
+      "evidence_for_historical_content": [
+        "A09"
+      ],
+      "is_separable_from_argument": false,
+      "notes": "Structurally load-bearing for the paper's christological claim (A03). The paper itself flags that the support layer must face historical questions, Johannine context, rival claims, translation issues, and resurrection evidence (S091)."
+    },
+    {
+      "story_id": "d4a3f5b7-0e6c-4f2d-c154-8a9c1d3e4f56",
+      "title_or_label": "The Skeptic's Objection and the Disclosed Portrait",
+      "story_type": "sermon_arc",
+      "source_span": "[P67]–[P78], S119–S132",
+      "characters_or_agents": [
+        "skeptic",
+        "the paper's author/arguer"
+      ],
+      "setting_or_context": "A rhetorical framing in which a skeptic is addressed directly and assured that belief in the Bible's authority is not required to follow the paper's argument.",
+      "plot_or_sequence": "A skeptic does not have to accept the Bible's authority to understand what the paper is doing. The paper is not saying 'Exodus 3:14 is in the Bible, therefore God exists.' It is saying: 'If Christianity is being treated as testimony, this is the kind of God it identifies: self-existent, non-derived, personal, speaking, faithful, and finally revealed in Christ.' That is a different claim. The disclosed portrait can be stated honestly before it is proven publicly. We can ask what Christianity claims, then ask whether reality, reason, history, and experience converge with that claim. The public story needs both movements: reason climbs, God speaks, and the investigation happens where those two meet.",
+      "intended_function": "motivate",
+      "claims_illustrated": [
+        "A06",
+        "A10",
+        "A12"
+      ],
+      "emotional_or_rhetorical_load": "Conciliatory, disarming, invitational; it lowers the barrier for skeptical readers by distinguishing the paper's descriptive task from a proof of God's existence.",
+      "boundaries": {
+        "what_it_shows": "That the paper's method is to state the Christian disclosure-claim descriptively before arguing for it, and that this method does not require the reader to grant biblical authority at the outset.",
+        "what_it_does_not_show": "That the disclosed portrait is true, that reality/reason/history/experience actually converge with it, or that the convergence argument succeeds. It only shows the structure of the proposed investigation.",
+        "what_would_falsify_the_narrative": "If the paper were shown to actually depend on biblical authority for its descriptive claim, or if the convergence test were shown to be unfalsifiable or vacuous, the distinction between 'stating the portrait' and 'proving it' would collapse."
+      },
+      "evidence_for_historical_content": [],
+      "is_separable_from_argument": true,
+      "notes": "This is a meta-rhetorical arc about the paper's own method rather than a story about events. It is separable from the substantive argument but shapes how the argument is received."
+    },
+    {
+      "story_id": "e5b4a6c8-1f7d-4a3e-d265-9b0d2e4f5a67",
+      "title_or_label": "The Root Speaks: The Central Sermon Arc",
+      "story_type": "sermon_arc",
+      "source_span": "[P01]–[P07], S001–S010; [P58]–[P66], S095–S118; [P79]–[P86], S133–S142",
+      "characters_or_agents": [
+        "God (the Root)",
+        "human beings",
+        "Christ"
+      ],
+      "setting_or_context": "The paper's overarching framing: if God is the root, the first problem is not only whether we can reach Him but whether He has spoken.",
+      "plot_or_sequence": "Human beings can reason upward—looking at existence, truth, relation, order, consciousness, morality, beauty, suffering, and history—and ask what kind of root could carry all of that. But if God is actually God, He is not trapped at the far end of our investigation. The root can disclose Himself. That is the biblical claim. If God remains only an inference, every argument about God stays trapped inside creaturely reach. But Christianity is not built only on upward inference; it is built on disclosure. God speaks, acts, covenants, comes, names Himself, reveals His character, and enters the human story in Christ. This does not remove the need for argument—revelation can be misunderstood, claims of revelation can be false, Scripture must be interpreted, history investigated, the Church can mishandle what it receives—but if God has spoken, the highest form of knowledge is not guessing correctly about a silent source; it is receiving the One who gives Himself to be known. The root is not silent. The root speaks. And in Christ, Christianity says, the root walks into the room.",
+      "intended_function": "persuade",
+      "claims_illustrated": [
+        "A01",
+        "A05",
+        "A11",
+        "A13"
+      ],
+      "emotional_or_rhetorical_load": "Elevated, declarative, almost homiletic; the closing lines ('the root walks into the room') are designed to land with emotional and rhetorical force.",
+      "boundaries": {
+        "what_it_shows": "The overall shape of the paper's thesis: that Christianity claims divine disclosure, not merely human inference, and that this reframes the entire investigation.",
+        "what_it_does_not_show": "That God has in fact spoken, that Christianity is true, that the convergence of reason and revelation obtains, or that the biblical texts are reliable. The paper explicitly acknowledges that revelation can be misunderstood and false claims exist (S112–S116).",
+        "what_would_falsify_the_narrative": "If it were shown that no credible instance of divine disclosure exists, or that the Christian claim reduces entirely to human inference, the sermon arc's central contrast would collapse."
+      },
+      "evidence_for_historical_content": [],
+      "is_separable_from_argument": false,
+      "notes": "This is the paper's master narrative frame; it is not separable from the argument because the argument's entire structure is built around the disclosure/discovery distinction it dramatizes."
+    }
+  ],
+  "narrative_arc": {
+    "opening_device": "A conditional premise: 'If God is the root, then the first problem is not only whether we can reach Him. It is whether He has spoken.' This reframes the usual apologetic question from human ascent to divine initiative.",
+    "central_tension": "The tension between discovery (human reasoning upward from the world) and disclosure (God speaking from His own side). The paper argues that Christianity is built on the latter, not merely the former, while insisting the two must converge rather than collapse into one method.",
+    "resolution_or_payoff": "The resolution is the claim that the root is not silent—God speaks, acts, covenants, comes, names Himself, and enters history in Christ. The payoff is the closing image: 'the root walks into the room.'",
+    "return_to_opening": true
+  },
+  "notes": "The paper is heavily narrative and homiletic in structure. Its stories function primarily as explanatory and motivational devices; none of them independently establish the truth of the claims they illustrate. The Exodus and Johannine narratives are the most structurally load-bearing, and the paper itself flags that their historical verification belongs to a separate support layer (S091). The child/father analogy is the most clearly separable illustration. The skeptic-facing arc is a meta-rhetorical frame about method rather than a story about events."
+}

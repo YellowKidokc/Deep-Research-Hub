@@ -1,0 +1,470 @@
+{
+  "spec_version": "0.3.0",
+  "target": {
+    "type": "paper",
+    "title": "Gary Habermas - Chapter 006 - What Critical Scholars Say About Jesus' Bodily Resurrection - Gary Habermas",
+    "domain": "unknown; infer conservatively",
+    "unit": "complete supplied document",
+    "comparison_class": "paper of similar purpose and evidence burden",
+    "population_boundary": "persons and groups explicitly represented in the supplied document; report omissions",
+    "time_window": null
+  },
+  "gate_results": [
+    {
+      "gate_id": "gate.truth_evidence",
+      "status": "WARN",
+      "hard": true,
+      "rationale": "The source is a spoken, auto-captioned conversation that reports what named scholars (John Cook, Dale Allison, Tom Wright, Michael Licona, Robert Gundry, Bultmann) are said to hold. It supplies no bibliographic citations, page numbers, or verbatim quotations beyond short paraphrases and one repeated sentence attributed to Dale Allison. The claims are traceable in principle to named works and authors, but the supplied document itself does not carry the traceable evidence. This is a WARN, not a FAIL, because the claims are attributed to identifiable scholars and works and are not presented as the speaker's own novel factual assertions.",
+      "evidence_refs": [
+        "S005",
+        "S010",
+        "S013",
+        "S020",
+        "S029",
+        "S031",
+        "S040",
+        "S041",
+        "S042",
+        "S057",
+        "S059",
+        "S071",
+        "S074"
+      ],
+      "resolution": "Would be resolved by supplying the cited volumes, page numbers, and exact quotations for each attributed view."
+    },
+    {
+      "gate_id": "gate.contradiction",
+      "status": "PASS",
+      "hard": true,
+      "rationale": "The apparent tension between Bultmann's view and Paul's view is explicitly distinguished rather than conflated: the speaker notes that Bultmann can say Paul believed in bodily resurrection while Bultmann himself does not, and that Dale Allison distinguishes what Paul said from what others say about Paul. No load-bearing contradiction is left unresolved within the document's scope.",
+      "evidence_refs": [
+        "S031",
+        "S032",
+        "S033",
+        "S034",
+        "S035"
+      ],
+      "resolution": null
+    },
+    {
+      "gate_id": "gate.scope",
+      "status": "PASS",
+      "hard": false,
+      "rationale": "The document stays within its stated scope: reporting what critical scholars say about Jesus' bodily resurrection. It does not extend the conclusion beyond the cited scholarly opinions into independent historical proof.",
+      "evidence_refs": [
+        "S001",
+        "S003",
+        "S029",
+        "S040",
+        "S041",
+        "S042"
+      ],
+      "resolution": null
+    },
+    {
+      "gate_id": "gate.falsifiability",
+      "status": "WARN",
+      "hard": false,
+      "rationale": "The source does not explicitly state what evidence would count against its report of scholarly views, nor does it identify a correction mechanism. It does, however, acknowledge that views change and that scholars like Dale Allison hold positions different from the speaker's own, which implicitly permits correction.",
+      "evidence_refs": [
+        "S031",
+        "S054",
+        "S055"
+      ],
+      "resolution": "Would be resolved by stating what would count against the claim that these scholars hold these views."
+    },
+    {
+      "gate_id": "gate.bridge_validity",
+      "status": "UNKNOWN",
+      "hard": false,
+      "rationale": "No cross-domain bridge claim is made in the supplied document. The comparison between the resurrection and Julius Caesar crossing the Rubicon is a reported analogy by Tom Wright, not a bridge law advanced by the source.",
+      "evidence_refs": [
+        "S048",
+        "S049",
+        "S050"
+      ],
+      "resolution": null
+    },
+    {
+      "gate_id": "gate.provenance",
+      "status": "WARN",
+      "hard": false,
+      "rationale": "Authorship is partially traceable: the channel and video are identified, and named scholars and works are mentioned. However, the transcript is auto-generated, speaker labels are missing, and no page numbers, editions, or exact quotations are supplied for the attributed views. The document itself notes that the German Wissenschaftliche series and specific volumes exist, which aids traceability.",
+      "evidence_refs": [
+        "S005",
+        "S009",
+        "S010",
+        "S057",
+        "S058",
+        "S059"
+      ],
+      "resolution": "Would be resolved by supplying exact citations and speaker labels."
+    },
+    {
+      "gate_id": "gate.agency_noncoercion",
+      "status": "PASS",
+      "hard": true,
+      "rationale": "The document reports scholarly positions and disagreements without coercion, manipulation, or destruction of agency. It explicitly distinguishes what scholars say from what others say about them and respects the difference between Paul's view and Bultmann's view.",
+      "evidence_refs": [
+        "S031",
+        "S032",
+        "S033",
+        "S034",
+        "S035",
+        "S067"
+      ],
+      "resolution": null
+    }
+  ],
+  "fruit_profile": [
+    {
+      "fruit_id": "fruit.love",
+      "score": 2,
+      "confidence": 0.3,
+      "mechanism": "truth-aligned relational cohesion seeking the good of the whole and each member while bearing cost and preserving agency",
+      "positive_evidence": [
+        {
+          "ref_id": "E-LOVE-01",
+          "quote_or_event": "I love the I love the comment.",
+          "location": "S085",
+          "evidence_type": "STATED_INTENT",
+          "link_reason": "Expresses appreciation for a scholar's statement, indicating positive regard.",
+          "source_ref": null,
+          "time_window": null
+        },
+        {
+          "ref_id": "E-LOVE-02",
+          "quote_or_event": "That's pretty cool.",
+          "location": "S087",
+          "evidence_type": "OUTPUT",
+          "link_reason": "Positive affective response to a scholar's statement.",
+          "source_ref": null,
+          "time_window": null
+        }
+      ],
+      "counterevidence": [],
+      "evidence_coverage": 0.1,
+      "stress_tests": {
+        "source": "UNKNOWN",
+        "cost": "UNKNOWN",
+        "endurance": "UNKNOWN",
+        "relation": "UNKNOWN",
+        "power": "UNKNOWN",
+        "correction": "UNKNOWN",
+        "outsider": "UNKNOWN",
+        "succession": "UNKNOWN"
+      },
+      "counterfeit": {
+        "flag": false,
+        "claimed_label": null,
+        "missing_companion": null,
+        "anti_fruit_output": null,
+        "severity": "NONE"
+      },
+      "rationale": "The document is a scholarly report; love is not a central mechanism. The only positive signals are expressions of appreciation for a scholar's statement. No evidence of cost-bearing, relational cohesion, or preservation of agency is present. Score 2 with low confidence due to insufficient evidence."
+    },
+    {
+      "fruit_id": "fruit.joy",
+      "score": 2,
+      "confidence": 0.3,
+      "mechanism": "durable participation in real good not dependent on denial, spectacle, status, or constant stimulation",
+      "positive_evidence": [
+        {
+          "ref_id": "E-JOY-01",
+          "quote_or_event": "That's pretty cool.",
+          "location": "S087",
+          "evidence_type": "OUTPUT",
+          "link_reason": "Expresses positive affect, but not durable joy.",
+          "source_ref": null,
+          "time_window": null
+        }
+      ],
+      "counterevidence": [],
+      "evidence_coverage": 0.1,
+      "stress_tests": {
+        "source": "UNKNOWN",
+        "cost": "UNKNOWN",
+        "endurance": "UNKNOWN",
+        "relation": "UNKNOWN",
+        "power": "UNKNOWN",
+        "correction": "UNKNOWN",
+        "outsider": "UNKNOWN",
+        "succession": "UNKNOWN"
+      },
+      "counterfeit": {
+        "flag": false,
+        "claimed_label": null,
+        "missing_companion": null,
+        "anti_fruit_output": null,
+        "severity": "NONE"
+      },
+      "rationale": "No evidence of durable joy independent of circumstance. The sentence-level summary gives joy a mean of 0.034, with no plus2 or minus2 extremes. Score 2 with low confidence due to insufficient evidence."
+    },
+    {
+      "fruit_id": "fruit.peace",
+      "score": 2,
+      "confidence": 0.3,
+      "mechanism": "reintegrated order in which relevant tensions are truthfully addressed without suppression",
+      "positive_evidence": [],
+      "counterevidence": [],
+      "evidence_coverage": 0.0,
+      "stress_tests": {
+        "source": "UNKNOWN",
+        "cost": "UNKNOWN",
+        "endurance": "UNKNOWN",
+        "relation": "UNKNOWN",
+        "power": "UNKNOWN",
+        "correction": "UNKNOWN",
+        "outsider": "UNKNOWN",
+        "succession": "UNKNOWN"
+      },
+      "counterfeit": {
+        "flag": false,
+        "claimed_label": null,
+        "missing_companion": null,
+        "anti_fruit_output": null,
+        "severity": "NONE"
+      },
+      "rationale": "No evidence of peace or its anti-fruit. The document addresses scholarly tensions but does not exhibit peace as a mechanism. Score 2 with low confidence due to insufficient evidence."
+    },
+    {
+      "fruit_id": "fruit.patience",
+      "score": 2,
+      "confidence": 0.3,
+      "mechanism": "preservation of persons and processes across the time required for truth, growth, correction, or convergence while acting when action is due",
+      "positive_evidence": [],
+      "counterevidence": [],
+      "evidence_coverage": 0.0,
+      "stress_tests": {
+        "source": "UNKNOWN",
+        "cost": "UNKNOWN",
+        "endurance": "UNKNOWN",
+        "relation": "UNKNOWN",
+        "power": "UNKNOWN",
+        "correction": "UNKNOWN",
+        "outsider": "UNKNOWN",
+        "succession": "UNKNOWN"
+      },
+      "counterfeit": {
+        "flag": false,
+        "claimed_label": null,
+        "missing_companion": null,
+        "anti_fruit_output": null,
+        "severity": "NONE"
+      },
+      "rationale": "No evidence of patience or its anti-fruit. The document reports on scholarly views without demonstrating patience as a mechanism. Score 2 with low confidence due to insufficient evidence."
+    },
+    {
+      "fruit_id": "fruit.kindness",
+      "score": 2,
+      "confidence": 0.3,
+      "mechanism": "low-friction repair and assistance that reduces needless barriers without erasing truth or responsibility",
+      "positive_evidence": [],
+      "counterevidence": [],
+      "evidence_coverage": 0.0,
+      "stress_tests": {
+        "source": "UNKNOWN",
+        "cost": "UNKNOWN",
+        "endurance": "UNKNOWN",
+        "relation": "UNKNOWN",
+        "power": "UNKNOWN",
+        "correction": "UNKNOWN",
+        "outsider": "UNKNOWN",
+        "succession": "UNKNOWN"
+      },
+      "counterfeit": {
+        "flag": false,
+        "claimed_label": null,
+        "missing_companion": null,
+        "anti_fruit_output": null,
+        "severity": "NONE"
+      },
+      "rationale": "No evidence of kindness or its anti-fruit. The document is a scholarly report and does not exhibit kindness as a mechanism. Score 2 with low confidence due to insufficient evidence."
+    },
+    {
+      "fruit_id": "fruit.goodness",
+      "score": 2,
+      "confidence": 0.3,
+      "mechanism": "truth-aligned action producing real non-malign benefit after costs and externalities are counted",
+      "positive_evidence": [],
+      "counterevidence": [],
+      "evidence_coverage": 0.0,
+      "stress_tests": {
+        "source": "UNKNOWN",
+        "cost": "UNKNOWN",
+        "endurance": "UNKNOWN",
+        "relation": "UNKNOWN",
+        "power": "UNKNOWN",
+        "correction": "UNKNOWN",
+        "outsider": "UNKNOWN",
+        "succession": "UNKNOWN"
+      },
+      "counterfeit": {
+        "flag": false,
+        "claimed_label": null,
+        "missing_companion": null,
+        "anti_fruit_output": null,
+        "severity": "NONE"
+      },
+      "rationale": "No evidence of goodness or its anti-fruit. The document reports on scholarly views without demonstrating goodness as a mechanism. Score 2 with low confidence due to insufficient evidence."
+    },
+    {
+      "fruit_id": "fruit.faithfulness",
+      "score": 2,
+      "confidence": 0.3,
+      "mechanism": "invariant fidelity across time, audiences, incentives, and pressure, joined to correction when the object of loyalty is false",
+      "positive_evidence": [
+        {
+          "ref_id": "E-FAITH-01",
+          "quote_or_event": "I respect guys who do this.",
+          "location": "S067",
+          "evidence_type": "STATED_INTENT",
+          "link_reason": "Expresses respect for scholars who state their views clearly, indicating value for fidelity in scholarship.",
+          "source_ref": null,
+          "time_window": null
+        }
+      ],
+      "counterevidence": [],
+      "evidence_coverage": 0.1,
+      "stress_tests": {
+        "source": "UNKNOWN",
+        "cost": "UNKNOWN",
+        "endurance": "UNKNOWN",
+        "relation": "UNKNOWN",
+        "power": "UNKNOWN",
+        "correction": "UNKNOWN",
+        "outsider": "UNKNOWN",
+        "succession": "UNKNOWN"
+      },
+      "counterfeit": {
+        "flag": false,
+        "claimed_label": null,
+        "missing_companion": null,
+        "anti_fruit_output": null,
+        "severity": "NONE"
+      },
+      "rationale": "The document reports on scholarly fidelity to evidence and clear statement of views, but does not demonstrate faithfulness as a mechanism across time and pressure. Score 2 with low confidence due to insufficient evidence."
+    },
+    {
+      "fruit_id": "fruit.gentleness",
+      "score": 2,
+      "confidence": 0.3,
+      "mechanism": "power precisely restrained to the minimum force sufficient for the good while protecting the vulnerable",
+      "positive_evidence": [],
+      "counterevidence": [],
+      "evidence_coverage": 0.0,
+      "stress_tests": {
+        "source": "UNKNOWN",
+        "cost": "UNKNOWN",
+        "endurance": "UNKNOWN",
+        "relation": "UNKNOWN",
+        "power": "UNKNOWN",
+        "correction": "UNKNOWN",
+        "outsider": "UNKNOWN",
+        "succession": "UNKNOWN"
+      },
+      "counterfeit": {
+        "flag": false,
+        "claimed_label": null,
+        "missing_companion": null,
+        "anti_fruit_output": null,
+        "severity": "NONE"
+      },
+      "rationale": "No evidence of gentleness or its anti-fruit. The document does not exhibit gentleness as a mechanism. Score 2 with low confidence due to insufficient evidence."
+    },
+    {
+      "fruit_id": "fruit.self_control",
+      "score": 2,
+      "confidence": 0.3,
+      "mechanism": "boundary integrity and governance of appetite, impulse, scope, and optimization under the true good",
+      "positive_evidence": [],
+      "counterevidence": [],
+      "evidence_coverage": 0.0,
+      "stress_tests": {
+        "source": "UNKNOWN",
+        "cost": "UNKNOWN",
+        "endurance": "UNKNOWN",
+        "relation": "UNKNOWN",
+        "power": "UNKNOWN",
+        "correction": "UNKNOWN",
+        "outsider": "UNKNOWN",
+        "succession": "UNKNOWN"
+      },
+      "counterfeit": {
+        "flag": false,
+        "claimed_label": null,
+        "missing_companion": null,
+        "anti_fruit_output": null,
+        "severity": "NONE"
+      },
+      "rationale": "No evidence of self-control or its anti-fruit. The document does not exhibit self-control as a mechanism. Score 2 with low confidence due to insufficient evidence."
+    }
+  ],
+  "contradictions": [],
+  "counterfeit_flags": [],
+  "anti_fruit_pressure": [],
+  "stakeholder_divergence": [],
+  "aggregation": {
+    "mode": "gated_profile",
+    "arithmetic_summary": 0.5,
+    "geometric_balance": 0.5238,
+    "multiplicative_coherence": 0.001953,
+    "minimum_fruit": {
+      "fruit_id": "fruit.love",
+      "score": 2
+    },
+    "vetoes": []
+  },
+  "epistemic_status": "UNRESOLVED",
+  "system_status": "REPAIRABLE",
+  "confidence": 0.3,
+  "missing_evidence": [
+    "Exact bibliographic citations (page numbers, editions) for the attributed views of John Cook, Dale Allison, Tom Wright, Michael Licona, Robert Gundry, and Bultmann.",
+    "Speaker labels for the auto-generated transcript.",
+    "Verbatim quotations of the scholars' statements beyond the one sentence attributed to Dale Allison.",
+    "Context for the Julius Caesar/Rubicon analogy attributed to Tom Wright.",
+    "Any evidence of the fruits of the Spirit as mechanisms in the speakers' behavior beyond expressions of appreciation."
+  ],
+  "repair_path": [
+    "Supply exact citations and page numbers for each attributed scholarly view.",
+    "Provide speaker labels to clarify who says what.",
+    "Include verbatim quotations of the scholars' statements.",
+    "State what evidence would count against the claim that these scholars hold these views."
+  ],
+  "falsifier": "Evidence that the named scholars do not hold the views attributed to them, or that the quotations are misattributed or misrepresented.",
+  "limitations": [
+    "The source is an auto-captioned YouTube transcript with missing speaker labels and potential caption errors.",
+    "The document is a report of scholarly opinions, not a demonstration of the fruits of the Spirit.",
+    "No evidence of the fruits of the Spirit as mechanisms in the speakers' behavior is present.",
+    "The sentence-level summary shows near-zero fruit means across all dimensions, indicating the document is not a fruitful source for this rubric."
+  ],
+  "formal_receipt": {
+    "receipt_type": "FORMAL_EVALUATION_RECEIPT",
+    "proof_status": "RULE_DERIVED_FROM_RECORDED_ASSESSMENTS",
+    "source_sha256": "29499d7076b36b8c41cdd04a69f79a7b549260e01c7f12f3341e6e8d78a1e482",
+    "rubric_sha256": "44951e7c43e587a281195666a572b8469014a8eb62f62bc9ef60ebc0d591f609",
+    "prompt_sha256": "ae5ffef867317f8a183229aa2623e407f39e87bf022d8094206eb2abd7e28816",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "premises": [
+      "P1: the evaluated source is fixed by source_sha256",
+      "P2: all nine Fruit dimensions are present on the 0..4 scale",
+      "P3: all seven gates are recorded independently of the Fruit scores",
+      "P4: evidence uncertainty remains explicit rather than being imputed"
+    ],
+    "deductions": [
+      "D1: arithmetic_summary is the mean of the nine scores normalized by four",
+      "D2: geometric_balance penalizes low dimensions and is non-authoritative",
+      "D3: unresolved hard-gate failures and severe counterfeit mechanisms create explicit vetoes",
+      "D4: a contradiction changes the verdict only through its classified severity, resolution, and consequence"
+    ],
+    "conclusion": "epistemic_status=UNRESOLVED; system_status=REPAIRABLE; veto_count=0",
+    "scope_boundary": "This receipt proves deterministic application of the declared rubric to recorded model assessments. It does not prove hidden motive, salvation status, divine origin, or empirical validity beyond the cited evidence.",
+    "generated_at": "2026-09-27T13:56:16Z"
+  },
+  "run_metadata": {
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "generated_at": "2026-09-27T13:56:16Z"
+  }
+}
