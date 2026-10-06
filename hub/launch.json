@@ -1,0 +1,18 @@
+[
+  {
+    "id": "pipeline-workflows.help",
+    "label": "pipeline-workflows: evaluate_question.py --help",
+    "app": "pipeline-workflows",
+    "cwd": ".",
+    "program": "python",
+    "args": ["evaluate_question.py", "--help"]
+  },
+  {
+    "id": "research-acquisition.ytdlp-version",
+    "label": "Research-Acquisition: yt-dlp --version",
+    "app": "Research-Acquisition",
+    "cwd": "youtube-transcript-ytdlp",
+    "program": "python",
+    "args": ["-m", "yt_dlp", "--version"]
+  }
+]

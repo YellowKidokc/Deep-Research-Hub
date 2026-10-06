@@ -1,0 +1,13 @@
+[package]
+name = "drh-hub"
+version = "0.1.0"
+edition = "2021"
+description = "Deep Research Hub wrapper: spawns apps/, serves web/, keeps state"
+
+# Every crate here is already used by an app under apps/ (cocoindex, Rust-Search-).
+[dependencies]
+anyhow = "1"
+axum = "0.8"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tokio = { version = "1", features = ["full"] }
