@@ -3,7 +3,7 @@
 //! page (and the hub after a restart) can show exactly what ran.
 
 use std::collections::HashMap;
-use std::path::{Path, PathBuf};
+use std::path::{Component, Path, PathBuf};
 use std::process::Stdio;
 use std::sync::Arc;
 use std::time::{SystemTime, UNIX_EPOCH};
@@ -123,9 +123,18 @@ impl Procs {
         if !app_dir.is_dir() {
             bail!("no such app folder: apps/{}", launch.app);
         }
-        let cwd = app_dir.join(&launch.cwd);
-        if !cwd.starts_with(&app_dir) || !cwd.is_dir() {
-            bail!("bad cwd {} for app {}", launch.cwd, launch.app);
+        // Plain folder names only: "." is dropped, "..", roots and drive
+        // prefixes are refused, so the working directory stays inside the app.
+        let mut cwd = app_dir.clone();
+        for part in Path::new(&launch.cwd).components() {
+            match part {
+                Component::Normal(p) => cwd.push(p),
+                Component::CurDir => {}
+                _ => bail!("bad cwd {} for app {}: must stay inside the app folder", launch.cwd, launch.app),
+            }
+        }
+        if !cwd.is_dir() {
+            bail!("bad cwd {} for app {}: not a folder", launch.cwd, launch.app);
         }
         let program = if launch.program == "python" {
             python_for(&app_dir, &cwd)
