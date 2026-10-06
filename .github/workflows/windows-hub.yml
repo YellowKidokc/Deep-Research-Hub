@@ -13,6 +13,9 @@ jobs:
       run:
         shell: pwsh
     steps:
+      # apps/Research-Acquisition has paths over Windows' 260-char limit.
+      - name: Allow long paths
+        run: git config --system core.longpaths true
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
