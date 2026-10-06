@@ -70,7 +70,7 @@ jobs:
           if ($a.status -ne "exited" -or $a.exit_code -ne 0) { throw "app did not exit 0" }
 
           # no venv: falls back to plain 'python' on PATH
-          $b = Run "research-acquisition.ytdlp-version"
+          $b = Run "research-acquisition.ytgrab-help"
           if ($b.cmd[0] -ne "python") { throw "expected fallback 'python', got $($b.cmd[0])" }
 
           Stop-Process -Id $hub.Id

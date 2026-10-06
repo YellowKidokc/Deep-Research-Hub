@@ -1,5 +1,6 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { api, post } from "../api.js";
+import Log from "../components/Log.jsx";
 
 const time = (s) => (s ? new Date(s * 1000).toLocaleString() : "");
 
@@ -48,7 +49,11 @@ export default function Home() {
               <td>{l.label}</td>
               <td>{l.app}/{l.cwd === "." ? "" : l.cwd}</td>
               <td className="mono">{[l.program, ...l.args].join(" ")}</td>
-              <td><button onClick={() => run(l.id)}>Run</button></td>
+              <td>
+                {l.params?.length
+                  ? <a href={`#/${l.id.split(".")[0]}`} className="dim">needs input</a>
+                  : <button onClick={() => run(l.id)}>Run</button>}
+              </td>
             </tr>
           ))}
         </tbody>
@@ -89,39 +94,5 @@ export default function Home() {
         </tbody>
       </table>
     </div>
-  );
-}
-
-// Tails data/procs/<id>.log through the hub, by byte offset.
-function Log({ id }) {
-  const [text, setText] = useState("");
-  const [status, setStatus] = useState("");
-  const next = useRef(0);
-
-  useEffect(() => {
-    setText("");
-    next.current = 0;
-    let stop = false;
-    const tick = async () => {
-      try {
-        const r = await api(`/procs/${id}/log?from=${next.current}`);
-        if (stop) return;
-        if (r.text) setText((t) => t + r.text);
-        next.current = r.next;
-        setStatus(r.status);
-        if (r.status === "running") setTimeout(tick, 1000);
-      } catch {
-        if (!stop) setTimeout(tick, 2000);
-      }
-    };
-    tick();
-    return () => { stop = true; };
-  }, [id]);
-
-  return (
-    <>
-      <h2>Output #{id} <span className="dim">{status}</span></h2>
-      <pre className="log">{text || " "}</pre>
-    </>
   );
 }

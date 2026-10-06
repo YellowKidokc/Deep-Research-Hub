@@ -3,6 +3,9 @@ import { SCREENS } from "./screens.js";
 import { Icon } from "./Icons.jsx";
 import Home from "./screens/Home.jsx";
 import Placeholder from "./screens/Placeholder.jsx";
+import YouTube from "./screens/youtube/index.jsx";
+
+const BUILT = { youtube: YouTube };
 
 // Route lives in the URL hash (#/youtube/Intake) so a reload lands in the same place.
 function readHash() {
@@ -20,6 +23,7 @@ export default function App() {
 
   const screen = SCREENS.find((s) => s.id === route.screen);
   const tab = screen && screen.tabs.includes(route.tab) ? route.tab : screen?.tabs[0];
+  const Built = screen && BUILT[screen.id];
 
   return (
     <div className="shell">
@@ -44,7 +48,7 @@ export default function App() {
           )}
         </header>
         <section className="body">
-          {screen ? <Placeholder screen={screen} tab={tab} /> : <Home />}
+          {!screen ? <Home /> : Built ? <Built tab={tab} /> : <Placeholder screen={screen} tab={tab} />}
         </section>
       </div>
     </div>

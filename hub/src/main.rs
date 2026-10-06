@@ -6,14 +6,17 @@
 //! Run from the repo root (or set DRH_ROOT):  cargo run --manifest-path hub/Cargo.toml
 //! Then open http://127.0.0.1:2828  (DRH_PORT to change).
 
+mod jobs;
 mod procs;
 
+use std::collections::BTreeMap;
 use std::net::SocketAddr;
 use std::path::{Component, Path, PathBuf};
 use std::sync::Arc;
 
 use anyhow::{Context, Result};
 use axum::{
+    body::Bytes,
     extract::{Path as UrlPath, Query, State},
     http::{header, StatusCode, Uri},
     response::{IntoResponse, Response},
@@ -26,8 +29,8 @@ use serde_json::json;
 use procs::{Launch, Procs};
 
 #[derive(Clone)]
-struct Hub {
-    root: PathBuf,
+pub struct Hub {
+    pub root: PathBuf,
     procs: Arc<Procs>,
 }
 
@@ -46,6 +49,8 @@ async fn main() -> Result<()> {
         .route("/api/procs/{id}", get(get_proc))
         .route("/api/procs/{id}/log", get(get_log))
         .route("/api/procs/{id}/stop", post(stop_proc))
+        .route("/api/youtube/library", get(jobs::youtube::library))
+        .route("/api/youtube/file", get(jobs::youtube::file))
         .fallback(static_file)
         .with_state(hub);
 
@@ -109,7 +114,22 @@ async fn list_launch(State(hub): State<Hub>) -> Response {
     }
 }
 
-async fn start_launch(State(hub): State<Hub>, UrlPath(id): UrlPath<String>) -> Response {
+#[derive(Deserialize, Default)]
+struct StartBody {
+    #[serde(default)]
+    params: BTreeMap<String, String>,
+}
+
+/// Body is optional: {"params": {"url": "..."}} for entries that declare params.
+async fn start_launch(State(hub): State<Hub>, UrlPath(id): UrlPath<String>, body: Bytes) -> Response {
+    let body: StartBody = if body.is_empty() {
+        StartBody::default()
+    } else {
+        match serde_json::from_slice(&body) {
+            Ok(b) => b,
+            Err(e) => return err(StatusCode::BAD_REQUEST, format!("bad body: {e}")),
+        }
+    };
     let launches = match read_launch(&hub.root) {
         Ok(l) => l,
         Err(e) => return err(StatusCode::INTERNAL_SERVER_ERROR, format!("{e:#}")),
@@ -117,7 +137,7 @@ async fn start_launch(State(hub): State<Hub>, UrlPath(id): UrlPath<String>) -> R
     let Some(launch) = launches.into_iter().find(|l| l.id == id) else {
         return err(StatusCode::NOT_FOUND, format!("no launch entry {id}"));
     };
-    match hub.procs.start(&launch).await {
+    match hub.procs.start(&launch, &body.params).await {
         Ok(rec) => {
             println!("[hub] started #{} {} ({})", rec.id, rec.label, rec.status);
             Json(rec).into_response()

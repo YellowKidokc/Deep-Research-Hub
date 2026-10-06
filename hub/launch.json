@@ -1,5 +1,24 @@
 [
   {
+    "id": "youtube.grab",
+    "label": "YouTube: ytgrab.py -> data/youtube, then baseline summary",
+    "app": "Research-Acquisition",
+    "cwd": "yt-transcript-downloader",
+    "program": "python",
+    "args": ["ytgrab.py", "{url}", "--out", "{data}/youtube", "--limit={limit}"],
+    "params": [
+      { "name": "url", "label": "Video or channel URL", "kind": "youtube_url" },
+      { "name": "limit", "label": "At most N videos this run (blank = all)", "kind": "count", "optional": true }
+    ],
+    "then": [
+      {
+        "program": "python",
+        "cwd": ".",
+        "args": ["prompts/run_slot.py", "Y", "1", "--dir", "{data}/youtube", "--since", "{started}", "--append"]
+      }
+    ]
+  },
+  {
     "id": "pipeline-workflows.help",
     "label": "pipeline-workflows: evaluate_question.py --help",
     "app": "pipeline-workflows",
@@ -8,11 +27,11 @@
     "args": ["evaluate_question.py", "--help"]
   },
   {
-    "id": "research-acquisition.ytdlp-version",
-    "label": "Research-Acquisition: yt-dlp --version",
+    "id": "research-acquisition.ytgrab-help",
+    "label": "Research-Acquisition: ytgrab.py --help",
     "app": "Research-Acquisition",
-    "cwd": "youtube-transcript-ytdlp",
+    "cwd": "yt-transcript-downloader",
     "program": "python",
-    "args": ["-m", "yt_dlp", "--version"]
+    "args": ["ytgrab.py", "--help"]
   }
 ]

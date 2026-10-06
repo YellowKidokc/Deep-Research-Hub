@@ -1,0 +1,37 @@
+{
+  "set": "Y",
+  "name": "YouTube intake",
+  "description": "Model calls run on transcripts that ytgrab.py writes into data/youtube/.",
+  "slots": {
+    "1": {
+      "id": "baseline_summary",
+      "label": "Baseline CKG summary",
+      "source": "apps/Research-Acquisition/_attic/API_ALL/01_YOUTUBE/deepseek-home: home.py task 'summary'. Same parts, order, model and temperature; files copied verbatim on 2026-10-06.",
+      "provider": {
+        "kind": "openai-compatible",
+        "base_url": "https://api.deepseek.com",
+        "model": "deepseek-chat",
+        "key_env": "DEEPSEEK_API_KEY"
+      },
+      "temperature": 0.3,
+      "prompt": {
+        "join": "\n\n---\n\n",
+        "strip_comments": true,
+        "parts": [
+          { "file": "Y_youtube/HOME.md" },
+          { "file": "Y_youtube/GLOSSARY.md" },
+          { "file": "Y_youtube/STATE.md" },
+          { "file": "Y_youtube/summary.md" },
+          { "input": "# INPUT\nsource: {title} [video ID: {video_id}]\n\n{text}" }
+        ]
+      },
+      "skip_if": {
+        "min_words": 200,
+        "contains": ["**Retrieved via:** failed", "**Retrieved via:** no_transcript"]
+      },
+      "output": { "append_heading": "## Baseline Summary" }
+    },
+    "2": null, "3": null, "4": null, "5": null,
+    "6": null, "7": null, "8": null, "9": null, "10": null
+  }
+}

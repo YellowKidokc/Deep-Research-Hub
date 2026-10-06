@@ -45,3 +45,11 @@ button { background: var(--bg); color: var(--fg); border: 1px solid var(--dim); 
 button:hover { border-color: var(--accent); color: var(--accent); }
 
 pre.log { border: 1px solid var(--line); padding: 8px; margin: 0; max-height: 50vh; overflow: auto; white-space: pre-wrap; }
+
+.row { display: flex; gap: 8px; align-items: center; margin: 8px 0; }
+.grow { flex: 1; min-width: 0; }
+.narrow { width: 72px; }
+input { background: var(--bg); color: var(--fg); border: 1px solid var(--line); border-radius: 0; padding: 3px 6px; font: inherit; }
+input:focus { outline: none; border-color: var(--accent); }
+button:disabled { color: var(--dim); border-color: var(--line); cursor: default; }
+pre.doc { max-height: none; }

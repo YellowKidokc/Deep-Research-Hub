@@ -18,10 +18,12 @@ function metadata() {
   const title =
     document.querySelector("h1.ytd-watch-metadata yt-formatted-string")?.textContent ||
     document.title.replace(/ - YouTube$/, "");
-  const channel =
-    document.querySelector("ytd-watch-metadata ytd-channel-name a")?.textContent ||
-    document.querySelector("#owner #channel-name a")?.textContent || "";
-  return { title: title.trim(), channel: channel.trim() };
+  const link =
+    document.querySelector("ytd-watch-metadata ytd-channel-name a") ||
+    document.querySelector("#owner #channel-name a");
+  const channel = link?.textContent || "";
+  const channel_url = link?.href ? new URL(link.href, location.origin).href : "";
+  return { title: title.trim(), channel: channel.trim(), channel_url };
 }
 
 function showPrompt(video) {
@@ -32,10 +34,11 @@ function showPrompt(video) {
     "position:fixed;right:20px;bottom:20px;z-index:999999;background:#212121;color:#fff;" +
     "padding:14px 16px;border-radius:10px;box-shadow:0 4px 20px #0008;font:14px Roboto,Arial;max-width:340px";
   box.innerHTML = `
-    <div style="margin-bottom:10px">Download this video?<br>
+    <div style="margin-bottom:10px">Download this?<br>
       <b style="display:block;margin-top:4px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap"></b></div>
-    <button data-a="yes" style="background:#c00;color:#fff;border:0;padding:6px 12px;border-radius:6px;cursor:pointer">Download</button>
-    <button data-a="no"  style="background:#444;color:#fff;border:0;padding:6px 12px;border-radius:6px;cursor:pointer;margin-left:6px">Not now</button>
+    <button data-a="yes"     style="background:#c00;color:#fff;border:0;padding:6px 12px;border-radius:6px;cursor:pointer">This video</button>
+    <button data-a="channel" style="background:#c00;color:#fff;border:0;padding:6px 12px;border-radius:6px;cursor:pointer;margin-left:6px">Whole channel</button>
+    <button data-a="no"      style="background:#444;color:#fff;border:0;padding:6px 12px;border-radius:6px;cursor:pointer;margin-left:6px">Skip</button>
     <span id="ytwl-msg" style="margin-left:8px;color:#aaa"></span>`;
   box.querySelector("b").textContent = video.title || video.video_id;
   document.body.appendChild(box);
@@ -48,6 +51,10 @@ function showPrompt(video) {
     if (a === "yes") {
       const r = await send("/api/download", video);
       box.querySelector("#ytwl-msg").textContent = r.ok ? "Queued ✓" : "Server offline";
+    } else if (a === "channel") {
+      const r = await send("/api/download-channel", video);
+      box.querySelector("#ytwl-msg").textContent =
+        !r.ok ? "Server offline" : r.data.error ? r.data.error : "Channel queued ✓";
     } else {
       await send("/api/skip", video);
       box.querySelector("#ytwl-msg").textContent = "Skipped";

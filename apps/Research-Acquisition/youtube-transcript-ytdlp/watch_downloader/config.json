@@ -1,7 +1,13 @@
 {
   "port": 8765,
   "mode": "transcript",
-  "ytbsd_dir": "D:/GitHub/Research-Acquisition/yt-transcript-downloader",
+  "ytbsd_dir": "../../yt-transcript-downloader",
+  "out_dir": "../../../../data/youtube",
+  "hub_root": "../../../..",
+  "summary": {
+    "set": "Y",
+    "slot": 1
+  },
   "ytbsd_args": [
     "--free-proxies"
   ],
