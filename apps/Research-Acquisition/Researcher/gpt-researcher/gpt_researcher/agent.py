@@ -176,7 +176,9 @@ class GPTResearcher:
         self.verbose = verbose
         self.context = context or []
         self.headers = headers or {}
-        self.read_receipt = ReadReceipt(query=query, doc_path=getattr(self.cfg, "doc_path", None),
+        reads_folder = self.report_source in (ReportSource.Local.value, ReportSource.Hybrid.value)
+        self.read_receipt = ReadReceipt(query=query,
+                                        doc_path=getattr(self.cfg, "doc_path", None) if reads_folder else None,
                                         report_source=self.report_source)
         self.read_receipt.settings = {
             **{k: getattr(self.cfg, k.lower(), None) for k in sorted(self.OVERRIDABLE)},

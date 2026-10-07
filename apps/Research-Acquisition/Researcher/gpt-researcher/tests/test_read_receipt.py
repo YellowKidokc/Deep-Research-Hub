@@ -156,6 +156,11 @@ def test_sub_query_error_is_recorded(tmp_path, monkeypatch):
     assert rec["errors"][0]["error"] == "RuntimeError: embeddings offline"
 
 
+def test_web_job_receipt_names_no_folder(monkeypatch):
+    monkeypatch.setenv("OPENAI_API_KEY", "dummy-not-used")
+    assert GPTResearcher(query="q", report_source="web").get_read_receipt()["doc_path"] is None
+
+
 def test_override_whitelist():
     os.environ.setdefault("OPENAI_API_KEY", "dummy-not-used")
     with pytest.raises(ValueError, match="not allowed"):

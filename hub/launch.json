@@ -59,6 +59,59 @@
     ]
   },
   {
+    "id": "deep.queue",
+    "label": "Deep Research: run the job queue (data/jobs)",
+    "app": "Research-Acquisition",
+    "cwd": "Researcher/gpt-researcher",
+    "program": "python",
+    "args": [
+      "drh_queue.py",
+      "--jobs",
+      "{data}/jobs",
+      "--out",
+      "{data}/deep_research",
+      "--parallel={parallel}"
+    ],
+    "params": [
+      {
+        "name": "parallel",
+        "label": "Jobs at once (blank = 1)",
+        "kind": "count",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "id": "deep.check",
+    "label": "Deep Research: check the job queue (dry run)",
+    "app": "Research-Acquisition",
+    "cwd": "Researcher/gpt-researcher",
+    "program": "python",
+    "args": [
+      "drh_queue.py",
+      "--jobs",
+      "{data}/jobs",
+      "--out",
+      "{data}/deep_research",
+      "--dry-run"
+    ]
+  },
+  {
+    "id": "deep.retry",
+    "label": "Deep Research: put failed jobs back in the queue",
+    "app": "Research-Acquisition",
+    "cwd": "Researcher/gpt-researcher",
+    "program": "python",
+    "args": [
+      "drh_queue.py",
+      "--jobs",
+      "{data}/jobs",
+      "--out",
+      "{data}/deep_research",
+      "--retry-failed"
+    ]
+  },
+  {
     "id": "pipeline-workflows.help",
     "label": "pipeline-workflows: evaluate_question.py --help",
     "app": "pipeline-workflows",

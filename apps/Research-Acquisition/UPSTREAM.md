@@ -29,3 +29,12 @@ ytgrab.py (`yt-transcript-downloader/`) is the downloader. Its markdown output i
 - `tests/test_read_receipt.py`, `tests/test_doc_path_request.py` (new).
 
 **Found, not changed:** after the similarity filter the context keeps the *first* 10 chunks in document order, not the 10 most similar (`EmbeddingsFilter` with `k=None`, then `pretty_print_docs(top_n=10)`). In a large folder, files `os.walk` reaches first take the context. The receipt reports it (`max_results_cut`).
+
+### 2026-10-07 — Deep Research screen, step 2 (queue folder)
+
+Added in `Researcher/gpt-researcher/` (nothing existing changed except one line in `agent.py`):
+- `drh_queue.py`: runs every `data/jobs/<name>.yaml` (merged over `_defaults.yaml`) through GPTResearcher as a library. Claims each job by moving it to `running/`, then `done/` or `failed/`. One folder per run, `data/deep_research/<name>/<stamp>/`: `report.md`, `receipt.json`, `sources.json`, `run.json`, `events.jsonl` (every streamed log event). One ledger line per run in `data/deep_research/_ledger/<chapter or name>.jsonl`; `visited_urls_from` seeds a run with a ledger's visited URLs. `--parallel N`, `--dry-run`, `--only`, `--retry-failed`; per-job `timeout_minutes` (a dead provider otherwise retries for many minutes). Per-job model (provider:model) and retrievers. Only `job_type: standard` runs until the step 3 templates exist; the others are refused, not run as standard. Replaces `research_queue.txt` + `continuous_runner.py`.
+- `make_jobs.py`: one job file per DEBATE MAP question (by subject or ID), question id and subject kept in `meta`.
+- `jobs_defaults.example.yaml`: copied to `data/jobs/_defaults.yaml` on the first run.
+- `gpt_researcher/agent.py`: the receipt names a folder only for local / hybrid jobs.
+- `tests/test_drh_queue.py` (new).

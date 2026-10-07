@@ -53,3 +53,5 @@ input { background: var(--bg); color: var(--fg); border: 1px solid var(--line); 
 input:focus { outline: none; border-color: var(--accent); }
 button:disabled { color: var(--dim); border-color: var(--line); cursor: default; }
 pre.doc { max-height: none; }
+td.links a { color: var(--accent); cursor: pointer; }
+.st-done, .st-exited { color: var(--fg); }

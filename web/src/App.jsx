@@ -4,8 +4,9 @@ import { Icon } from "./Icons.jsx";
 import Home from "./screens/Home.jsx";
 import Placeholder from "./screens/Placeholder.jsx";
 import YouTube from "./screens/youtube/index.jsx";
+import DeepResearch from "./screens/deep/index.jsx";
 
-const BUILT = { youtube: YouTube };
+const BUILT = { deep: DeepResearch, youtube: YouTube };
 
 // Route lives in the URL hash (#/youtube/Intake) so a reload lands in the same place.
 function readHash() {

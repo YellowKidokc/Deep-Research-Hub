@@ -1,6 +1,6 @@
 // The seven screens, in walk-through order. `build` is the milestone that fills it in.
 export const SCREENS = [
-  { id: "deep", n: 1, name: "Deep Research", build: 7, tabs: ["Jobs", "Fork map", "Reading view"] },
+  { id: "deep", n: 1, name: "Deep Research", build: 7, tabs: ["Queue", "Runs"] },
   { id: "targeted", n: 2, name: "Targeted Research", build: 6, tabs: ["Battery", "Facts"] },
   { id: "acquire", n: 3, name: "Acquisition", build: 3, tabs: ["Scrape", "Links", "Crawl", "Search"] },
   { id: "search", n: 4, name: "Search Engine", build: 4, tabs: ["Query", "Index status", "What's in here"] },

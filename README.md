@@ -4,7 +4,7 @@ One local application, seven screens, that takes a question or a folder of files
 
 | # | Screen | What it does | Status |
 |---|--------|--------------|--------|
-| 1 | Deep Research | Fork finder: every position on a question, in its authors' words, with provenance | milestone 7 |
+| 1 | Deep Research | Job queue over GPT Researcher: folder per job, read receipt, run ledger (fork finder: next version) | **steps 1–2 built** |
 | 2 | Targeted Research | Fixed battery (etymology, first statement, first study, last 30 days, apologetics) → `facts.json` | milestone 6 |
 | 3 | Acquisition | Scrape / Links / Crawl / Search → files | milestone 3 |
 | 4 | Search Engine | cocoindex + MarginaliaSearch over `data/` | milestone 4 |
@@ -42,6 +42,19 @@ For front-end work, `cd web && npm run dev` serves on vite's port and proxies `/
 Each entry in `hub/launch.json` names an `apps/` folder, a working directory inside it, a program, and arguments. `"program": "python"` means the app's own interpreter: the first `.venv` or `venv` found between the working directory and the app root (`Scripts\python.exe` on Windows, `bin/python` elsewhere), else the system Python. Apps never share an environment.
 
 Output (stdout and stderr) goes to `data/procs/<id>.log`; the record goes to `data/procs/<id>.json`. A page reload, or a hub restart, shows the same list. Anything that was running when the hub died is marked `lost`.
+
+## Screen 1, Deep Research
+
+One job file per question in `data/jobs/` (merged over `data/jobs/_defaults.yaml`); the Queue tab runs them, N at a time, through GPT Researcher (`apps/Research-Acquisition/Researcher/gpt-researcher/drh_queue.py`). Each run gets `data/deep_research/<job>/<stamp>/` with the report, its read receipt (files and chunks read, kept, dropped), sources, run record and event log, plus a line in the chapter's ledger. Field reference: `jobs_defaults.example.yaml` in that folder.
+
+Make jobs from the DEBATE MAP:
+
+```
+cd apps/Research-Acquisition/Researcher/gpt-researcher
+.venv\Scripts\python make_jobs.py path\to\DEBATE_MAP.md --jobs ..\..\..\..\data\jobs --subjects S-CHURCH S-PERSONAL
+```
+
+GPT Researcher needs its own venv in that folder (`python -m venv .venv`, then `pip install -r requirements.txt`), `DEEPSEEK_API_KEY` and `TAVILY_API_KEY` in the environment, and Ollama running for embeddings (`PROVIDERS.env`).
 
 ## Screen 5, YouTube
 

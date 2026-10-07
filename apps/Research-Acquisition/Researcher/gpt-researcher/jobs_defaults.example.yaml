@@ -1,0 +1,24 @@
+# data/jobs/_defaults.yaml — every job file is merged over this one.
+# A job file only needs the fields that differ, usually just `query`.
+#
+# query:             the question (required, per job)
+# chapter:           AX_GI_01 .. AX_GI_20 (optional; also names the ledger)
+# job_type:          standard | cold_derive | prior_art | hybrid_rule  (only standard is built so far)
+# report_source:     web | local | hybrid
+# report_type:       research_report | detailed_report | resource_report | outline_report
+# doc_path:          local folder, for local / hybrid
+# retrievers:        [tavily, arxiv, semantic_scholar, ...]   (blank = PROVIDERS.env RETRIEVER)
+# model:             provider:model for fast/smart/strategic  (blank = PROVIDERS.env)
+# custom_prompt:     replaces the report prompt
+# tone:              (reserved)
+# overrides:         research-profile knobs for this job, e.g. {MAX_SEARCH_RESULTS_PER_QUERY: 10, SIMILARITY_THRESHOLD: 0.3}
+# visited_urls_from: ledger name(s) (a chapter or job name) whose visited URLs this run skips
+# meta:              free-form; copied into run.json (question id, subject, ...)
+# timeout_minutes:   a job still running after this is stopped and marked failed (default 60)
+
+job_type: standard
+report_source: web
+report_type: research_report
+timeout_minutes: 60
+overrides:
+  CURATE_SOURCES: false
