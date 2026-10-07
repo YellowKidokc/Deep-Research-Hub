@@ -6,6 +6,7 @@
  *   GET  /api/drh/status               where the hub is, whether it was found
  *   GET  /api/drh/checklist?docId=     checklist items + this doc's ticks
  *   POST /api/drh/checklist            { docId, id, done, note } -> saved
+ *                                      id: item id, `<outline>.<section>`, or `_outline` with { value }
  *   GET  /api/drh/research?q=          research cards whose topic matches q
  *
  * Everything lives in the hub's plain files, never in OpenWriter's state:
@@ -137,6 +138,17 @@ function researchCards(root: string, q: string): Card[] {
   return cards.sort((a, b) => b.score - a.score).slice(0, 20);
 }
 
+/** A tickable key: an item id, an outline section as `<outline>.<section>`, or `_outline` (the chosen outline). */
+function validKey(def: any, key: string): boolean {
+  if (!def || !key) return false;
+  if (key === '_outline') return true;
+  if (def.items?.some((i: any) => i.id === key)) return true;
+  const dot = key.indexOf('.');
+  if (dot < 1) return false;
+  const outline = def.outlines?.find((o: any) => o.id === key.slice(0, dot));
+  return !!outline?.sections?.some((sec: any) => sec.id === key.slice(dot + 1));
+}
+
 const plugin = {
   name: '@openwriter/plugin-drh',
   version: '0.1.0',
@@ -169,12 +181,22 @@ const plugin = {
       const docId = safeId(req.body?.docId);
       const itemId = typeof req.body?.id === 'string' ? req.body.id : '';
       const def = readJson(checklistFile);
-      if (!docId || !def?.items?.some((i: any) => i.id === itemId)) {
+      if (!docId || !validKey(def, itemId)) {
         return res.status(400).json({ error: 'bad docId or item id' });
       }
       mkdirSync(stateDir, { recursive: true });
       const file = join(stateDir, `${docId}.json`);
       const state = readJson(file) ?? {};
+      if (itemId === '_outline') {
+        // Which outline this doc follows ('' = none).
+        const value = typeof req.body.value === 'string' ? req.body.value : '';
+        if (value && !def?.outlines?.some((o: any) => o.id === value)) {
+          return res.status(400).json({ error: 'unknown outline' });
+        }
+        state._outline = { value, at: new Date().toISOString() };
+        writeFileSync(file, JSON.stringify(state, null, 2));
+        return res.json({ ok: true, state });
+      }
       state[itemId] = {
         done: !!req.body.done,
         note: typeof req.body.note === 'string' ? req.body.note.slice(0, 500) : state[itemId]?.note ?? '',

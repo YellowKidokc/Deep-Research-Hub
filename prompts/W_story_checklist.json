@@ -1,18 +1,82 @@
 {
   "name": "Story checklist",
-  "description": "Baseline storytelling checks for any article, shown in the Writer's right column (OpenWriter, Story tab). Core items apply to every article; the rest are used when they fit. An item turns green when it is marked done. Later each item gets a scoring slot (prompts/) so it can be checked automatically; until then it is the writer's call.",
+  "description": "Storytelling checks for any article, shown in the Writer's right column (OpenWriter, Story tab). Core items apply to every article. Optional techniques are the extras in the loop: go after one when it fits, never required. An outline can be picked per document; its sections tick off the same way. Items turn green when marked done. Later each item can get a scoring slot in prompts/; until then it is the writer's call. Sources: each technique cites the video and the 5-minute section where it is taught (t = seconds into the video).",
   "paragraph_band": { "min_words": 40, "max_words": 140, "opening_max_words": 90 },
+  "sources": {
+    "lghSjBl9yGM": { "title": "How to Tell Stories Better Than 99% of People", "channel": "Shannon Jenkins", "url": "https://www.youtube.com/watch?v=lghSjBl9yGM" },
+    "mHAwMt_mZXg": { "title": "How to Speak So People Act on Your Ideas", "channel": "Shannon Jenkins", "url": "https://www.youtube.com/watch?v=mHAwMt_mZXg" },
+    "cE2mGI86QoE": { "title": "How to Sell Your Ideas Better Than 99% of Your Colleagues", "channel": "Shannon Jenkins", "url": "https://www.youtube.com/watch?v=cE2mGI86QoE" },
+    "9GjevuCBfQ4": { "title": "How to Use Stories to Influence Senior Leaders", "channel": "Shannon Jenkins", "url": "https://www.youtube.com/watch?v=9GjevuCBfQ4" }
+  },
+  "groups": [
+    { "id": "core", "label": "Core" },
+    { "id": "lghSjBl9yGM", "label": "Tell stories better than 99%" },
+    { "id": "mHAwMt_mZXg", "label": "Speak so people act" },
+    { "id": "cE2mGI86QoE", "label": "Sell your ideas" },
+    { "id": "9GjevuCBfQ4", "label": "Influence senior leaders" },
+    { "id": "yours", "label": "Yours" }
+  ],
   "items": [
-    { "id": "opening",      "core": true,  "label": "Great opening",                    "question": "Does the first paragraph make the reader need the next one?" },
-    { "id": "curiosity",    "core": true,  "label": "Creates curiosity",                "question": "Is there an open question the reader wants answered?" },
-    { "id": "holdback",     "core": true,  "label": "Holds information back",           "question": "Is the answer withheld until it pays off, not given away early?" },
-    { "id": "moment",       "core": true,  "label": "Drops you into a specific moment", "question": "Is there one concrete scene: a time, a place, a person?" },
-    { "id": "tension",      "core": true,  "label": "Creates tension",                  "question": "Is something at stake, with real resistance before the resolution?" },
-    { "id": "explains",     "core": true,  "label": "Explains enough",                  "question": "Is every idea as explained as it needs to be, no more (not lengthy, not too concise)?" },
-    { "id": "personality",  "core": true,  "label": "Has its own personality",          "question": "Does it sound like you, not like a summary?" },
-    { "id": "payoff",       "core": true,  "label": "Pays off",                         "question": "Does the ending answer the question the opening raised?" },
-    { "id": "cost",         "core": false, "label": "Costs the teller something",       "question": "Is there a piece of you in it: a fact or a story that compels the listener?" },
-    { "id": "unforgotten",  "core": false, "label": "Unforgotten sentence",             "question": "Is there one line people will repeat?" },
-    { "id": "receipts",     "core": false, "label": "Claims carry receipts",            "question": "Does every fact, origin or quote point to its source?" }
+    { "id": "opening",     "group": "core", "core": true, "label": "Great opening",                    "question": "Does the first paragraph make the reader need the next one?" },
+    { "id": "curiosity",   "group": "core", "core": true, "label": "Creates curiosity",                "question": "Is there an open question the reader wants answered?", "source": "lghSjBl9yGM", "t": 0 },
+    { "id": "holdback",    "group": "core", "core": true, "label": "Holds information back",           "question": "Is the answer withheld until it pays off, not given away early?", "source": "lghSjBl9yGM", "t": 300 },
+    { "id": "moment",      "group": "core", "core": true, "label": "Drops you into a specific moment", "question": "Is there one concrete scene: a time, a place, a person? Not the helicopter view.", "source": "lghSjBl9yGM", "t": 0 },
+    { "id": "tension",     "group": "core", "core": true, "label": "Creates tension",                  "question": "Is something uncertain and important at stake, that the reader wants resolved?", "source": "lghSjBl9yGM", "t": 900 },
+    { "id": "explains",    "group": "core", "core": true, "label": "Explains enough",                  "question": "Is every idea as explained as it needs to be, no more (not lengthy, not too concise)?" },
+    { "id": "personality", "group": "core", "core": true, "label": "Has its own personality",          "question": "Does it sound like you, not like a summary?" },
+    { "id": "payoff",      "group": "core", "core": true, "label": "Lands with a takeaway",            "question": "Does the ending say what it meant, so the reader thinks: that's why you told me that?", "source": "lghSjBl9yGM", "t": 900 },
+
+    { "id": "pace",        "group": "lghSjBl9yGM", "label": "Changes the pace",             "question": "Slow down at the moments to experience; speed through what the reader only needs to know.", "source": "lghSjBl9yGM", "t": 600 },
+    { "id": "unexpected",  "group": "lghSjBl9yGM", "label": "Starts somewhere unexpected",  "question": "Does it open where nobody expected, so there is a reason to keep reading?", "source": "lghSjBl9yGM", "t": 600 },
+    { "id": "twist",       "group": "lghSjBl9yGM", "label": "Leads, then twists",           "question": "Is the reader led to a reasonable assumption, then shown something that makes them reinterpret it?", "source": "lghSjBl9yGM", "t": 600 },
+    { "id": "detail",      "group": "lghSjBl9yGM", "label": "Just the right detail",        "question": "Not lots of detail: the few specifics that let us see and feel it (Sunday afternoons, a sports bar, age 10 to 16).", "source": "lghSjBl9yGM", "t": 300 },
+    { "id": "personal",    "group": "lghSjBl9yGM", "label": "A personal detail",            "question": "One well-chosen personal detail shows the human behind the expertise. Personal, not private.", "source": "lghSjBl9yGM", "t": 900 },
+
+    { "id": "mainpoint",   "group": "mHAwMt_mZXg", "label": "Leads with the main point",    "question": "Is the point stated early, like a headline, so everything after it is easy to follow?", "source": "mHAwMt_mZXg", "t": 300 },
+    { "id": "nosteps",     "group": "mHAwMt_mZXg", "label": "No skipped steps",             "question": "Curse of knowledge: does it assume what the reader doesn't know? Jargon explained or gone?", "source": "mHAwMt_mZXg", "t": 0 },
+    { "id": "objection",   "group": "mHAwMt_mZXg", "label": "Names the objection and answers it", "question": "Is the strongest resistance said in the reader's words, then answered? Naming it alone is not enough.", "source": "mHAwMt_mZXg", "t": 600 },
+    { "id": "datasoul",    "group": "mHAwMt_mZXg", "label": "Data with a soul",             "question": "Does a number come with what it means in someone's life, not just the figure?", "source": "mHAwMt_mZXg", "t": 900 },
+    { "id": "sensory",     "group": "mHAwMt_mZXg", "label": "Vivid sensory detail",         "question": "Is the reader put in the room: what they would see and feel?", "source": "mHAwMt_mZXg", "t": 900 },
+    { "id": "pathos",      "group": "mHAwMt_mZXg", "label": "Logic, credibility and feeling", "question": "Logos and ethos are there; is pathos there too?", "source": "mHAwMt_mZXg", "t": 600 },
+
+    { "id": "lessobvious", "group": "cE2mGI86QoE", "label": "A less obvious answer",        "question": "What would everyone else say here? Is there something they missed?", "source": "cE2mGI86QoE", "t": 0 },
+    { "id": "thirdvoice",  "group": "cE2mGI86QoE", "label": "A third voice, not you vs them", "question": "Does a respected other (a mentor, a study, a witness) carry the challenge instead of your opinion?", "source": "cE2mGI86QoE", "t": 300 },
+    { "id": "feel",        "group": "cE2mGI86QoE", "label": "Makes them feel it",           "question": "Is the reader made to feel the idea, not only argued into it?", "source": "cE2mGI86QoE", "t": 300 },
+    { "id": "reframe",     "group": "cE2mGI86QoE", "label": "Reframes before the answer",   "question": "Is the thing seen differently first (not a wheel: a time machine), before the new answer lands?", "source": "cE2mGI86QoE", "t": 600 },
+    { "id": "soundbite",   "group": "cE2mGI86QoE", "label": "A sound bite",                 "question": "One short, sharp line that carries the whole idea?", "source": "cE2mGI86QoE", "t": 600 },
+    { "id": "letitland",   "group": "cE2mGI86QoE", "label": "Lets it land",                 "question": "Once the idea has landed, does it stop, instead of explaining it again?", "source": "cE2mGI86QoE", "t": 600 },
+
+    { "id": "whyfirst",    "group": "9GjevuCBfQ4", "label": "Why it matters before how it works", "question": "Does it say why it matters before explaining the mechanism?", "source": "9GjevuCBfQ4", "t": 0 },
+    { "id": "nojargon",    "group": "9GjevuCBfQ4", "label": "Simple words",                 "question": "Every term either explained (this means X) or replaced with one everyone knows?", "source": "9GjevuCBfQ4", "t": 300 },
+    { "id": "loss",        "group": "9GjevuCBfQ4", "label": "What they would lose",         "question": "Losses weigh about twice as much as gains (Kahneman). Is the cost of not acting shown?", "source": "9GjevuCBfQ4", "t": 600 },
+
+    { "id": "cost",        "group": "yours", "label": "Costs the teller something", "question": "Is there a piece of you in it: a fact or a story that compels the listener?" },
+    { "id": "unforgotten", "group": "yours", "label": "Unforgotten sentence",       "question": "Is there one line people will repeat?" },
+    { "id": "receipts",    "group": "yours", "label": "Claims carry receipts",      "question": "Does every fact, origin or quote point to its source?" }
+  ],
+  "outlines": [
+    {
+      "id": "ppp",
+      "label": "Hook → Pain or possibility → Proof → Payoff → Call to action",
+      "source": "9GjevuCBfQ4", "t": 300,
+      "sections": [
+        { "id": "hook",    "label": "Hook",                "question": "One line that makes the stakes felt." },
+        { "id": "pain",    "label": "Pain or possibility", "question": "The specific problem, or the opportunity: why it matters." },
+        { "id": "proof",   "label": "Proof",               "question": "Data, research, cases: evidence it is real." },
+        { "id": "payoff",  "label": "Payoff",              "question": "Why the reward outweighs the cost, effort or risk; objections answered." },
+        { "id": "action",  "label": "Call to action",      "question": "What the reader should do or think now." }
+      ]
+    },
+    {
+      "id": "cart",
+      "label": "CART: Context → Action → Result → Takeaway",
+      "source": "lghSjBl9yGM", "t": 600,
+      "sections": [
+        { "id": "context",  "label": "Context",  "question": "Where and when; who; what was at stake." },
+        { "id": "action",   "label": "Action",   "question": "What happened, at the right pace." },
+        { "id": "result",   "label": "Result",   "question": "How it turned out." },
+        { "id": "takeaway", "label": "Takeaway", "question": "What it means for the reader: why you told it." }
+      ]
+    }
   ]
 }

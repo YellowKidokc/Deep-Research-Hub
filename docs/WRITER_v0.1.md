@@ -60,7 +60,7 @@ OpenWriter plugins can add agent tools (MCP), server routes, right-click actions
 
 ## Build order (proposed)
 
-1. **Built.** Right column (OpenWriter's Story tab) + `drh` plugin: story checklist from `prompts/W_story_checklist.json` (green when done, saved per doc), paragraph word/sentence counts against a band, research cards matched by topic. Classification not yet.
+1. **Built.** Right column (OpenWriter's Story tab) + `drh` plugin: story checklist from `prompts/W_story_checklist.json` (green when done, saved per doc), paragraph word/sentence counts against a band, research cards matched by topic. Optional techniques from four Shannon Jenkins videos as "extras in the loop" (grouped by video, linked to the minute they are taught) and two outlines to pick from (PPP: hook → pain or possibility → proof → payoff → call to action; CART: context → action → result → takeaway). Classification not yet.
 2. Rewrite-by-selection actions wired to `prompts/` slots.
 3. Classification proposals (after Phase 0 fixtures exist).
 4. Pills per source, then the story pass, once the Story API pages are ready.

@@ -4,6 +4,9 @@
  *   Story checklist   baseline storytelling checks; an item turns green when
  *                     marked done. Definition: <hub>/prompts/W_story_checklist.json.
  *                     Ticks are saved per doc in <hub>/data/writer/checklists/.
+ *   Extras            optional techniques grouped by the video that teaches
+ *                     them, with a link to the moment; go after one when it fits.
+ *   Outline           pick one (or none) per doc; its sections tick the same way.
  *   Paragraphs        words per paragraph against the checklist's band, with
  *                     the opening paragraph checked on its own. Computed here
  *                     from the editor; nothing is sent anywhere.
@@ -17,10 +20,17 @@ import { useCallback, useEffect, useMemo, useState } from 'react';
 import type { RightRailTabProps } from '../types';
 import './StoryTab.css';
 
-interface Item { id: string; core: boolean; label: string; question: string }
-interface Tick { done: boolean; note?: string; at?: string }
+interface Item { id: string; group?: string; core?: boolean; label: string; question: string; source?: string; t?: number }
+interface Tick { done?: boolean; note?: string; at?: string; value?: string }
+interface Source { title: string; channel?: string; url: string }
+interface Group { id: string; label: string }
+interface Section { id: string; label: string; question: string }
+interface Outline { id: string; label: string; source?: string; t?: number; sections: Section[] }
 interface Checklist {
   items: Item[];
+  groups?: Group[];
+  sources?: Record<string, Source>;
+  outlines?: Outline[];
   state: Record<string, Tick>;
   paragraph_band: { min_words: number; max_words: number; opening_max_words: number };
 }
@@ -46,6 +56,17 @@ function readDoc(editor: RightRailTabProps['editors'][number] | undefined): { he
   return { heading, paras };
 }
 
+const mmss = (t: number) => `${Math.floor(t / 60)}:${String(Math.floor(t % 60)).padStart(2, '0')}`;
+
+/** Link to the moment in the source video where a technique is taught. */
+function sourceLink(sources: Checklist['sources'], id?: string, t?: number): { href: string; text: string; title: string } | null {
+  const src = id ? sources?.[id] : undefined;
+  if (!src) return null;
+  const at = typeof t === 'number' ? t : 0;
+  const href = /youtube\.com|youtu\.be/.test(src.url) ? `${src.url}${src.url.includes('?') ? '&' : '?'}t=${at}s` : src.url;
+  return { href, text: `around ${mmss(at)}`, title: src.title };
+}
+
 function median(xs: number[]): number {
   if (!xs.length) return 0;
   const s = [...xs].sort((a, b) => a - b);
@@ -68,7 +89,7 @@ export default function StoryTab({ editors, docId, currentFilename }: RightRailT
   const [doc, setDoc] = useState(() => readDoc(editor));
   const [topic, setTopic] = useState('');
   const [cards, setCards] = useState<Card[] | null>(null);
-  const [showAll, setShowAll] = useState(false);
+  const [openGroups, setOpenGroups] = useState<Record<string, boolean>>({});
 
   // Paragraph stats follow the editor, debounced.
   useEffect(() => {
@@ -112,16 +133,20 @@ export default function StoryTab({ editors, docId, currentFilename }: RightRailT
   }, []);
   useEffect(() => { if (checklist) search(topic); }, [checklist, topic, search]);
 
-  const toggle = (item: Item) => {
+  const save = (body: Record<string, unknown>, optimistic: Record<string, Tick>) => {
     if (!key || !checklist) return;
-    const done = !checklist.state[item.id]?.done;
-    setChecklist({ ...checklist, state: { ...checklist.state, [item.id]: { ...checklist.state[item.id], done } } });
+    setChecklist({ ...checklist, state: { ...checklist.state, ...optimistic } });
     fetch('/api/drh/checklist', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ docId: key, id: item.id, done }),
+      body: JSON.stringify({ docId: key, ...body }),
     }).then((r) => r.json()).then((b) => b.state && setChecklist((c) => (c ? { ...c, state: b.state } : c))).catch(() => {});
   };
+  const toggle = (id: string) => {
+    const done = !checklist?.state[id]?.done;
+    save({ id, done }, { [id]: { ...checklist?.state[id], done } });
+  };
+  const pickOutline = (value: string) => save({ id: '_outline', value }, { _outline: { value } });
 
   const stats = useMemo(() => {
     const band = checklist?.paragraph_band ?? { min_words: 40, max_words: 140, opening_max_words: 90 };
@@ -153,7 +178,33 @@ export default function StoryTab({ editors, docId, currentFilename }: RightRailT
   const items = checklist?.items ?? [];
   const core = items.filter((i) => i.core);
   const coreDone = core.filter((i) => checklist?.state[i.id]?.done).length;
-  const shown = showAll ? items : core;
+  const extras = items.filter((i) => !i.core);
+  const extraGroups = (checklist?.groups ?? [])
+    .map((g) => ({ ...g, items: extras.filter((i) => (i.group ?? 'yours') === g.id) }))
+    .filter((g) => g.items.length);
+  const ungrouped = extras.filter((i) => !extraGroups.some((g) => g.id === (i.group ?? 'yours')));
+  if (ungrouped.length) extraGroups.push({ id: '_other', label: 'Other', items: ungrouped });
+  const extrasDone = extras.filter((i) => checklist?.state[i.id]?.done).length;
+  const outlineId = checklist?.state._outline?.value ?? '';
+  const outline = checklist?.outlines?.find((o) => o.id === outlineId);
+
+  const row = (id: string, label: string, question: string, link?: ReturnType<typeof sourceLink>) => {
+    const done = !!checklist?.state[id]?.done;
+    return (
+      <div key={id} className={`story-tab__item${done ? ' is-done' : ''}`}>
+        <button type="button" className="story-tab__item-hit" onClick={() => toggle(id)} title={question}>
+          <span className="story-tab__mark" aria-hidden="true">{done ? '✓' : ''}</span>
+          <span className="story-tab__item-text">
+            <span className="story-tab__item-label">{label}</span>
+            <span className="story-tab__item-q">{question}</span>
+          </span>
+        </button>
+        {link && (
+          <a className="story-tab__src" href={link.href} target="_blank" rel="noreferrer" title={link.title}>{link.text}</a>
+        )}
+      </div>
+    );
+  };
 
   return (
     <div className="story-tab">
@@ -162,30 +213,60 @@ export default function StoryTab({ editors, docId, currentFilename }: RightRailT
           Story checklist <span className="story-tab__count">{coreDone}/{core.length} core</span>
         </div>
         {error && <div className="story-tab__note story-tab__error">{error}</div>}
-        {shown.map((item) => {
-          const done = !!checklist?.state[item.id]?.done;
-          return (
-            <button
-              type="button"
-              key={item.id}
-              className={`story-tab__item${done ? ' is-done' : ''}`}
-              onClick={() => toggle(item)}
-              title={item.question}
-            >
-              <span className="story-tab__mark" aria-hidden="true">{done ? '✓' : ''}</span>
-              <span className="story-tab__item-text">
-                <span className="story-tab__item-label">{item.label}</span>
-                <span className="story-tab__item-q">{item.question}</span>
-              </span>
-            </button>
-          );
-        })}
-        {items.length > core.length && (
-          <button type="button" className="story-tab__more" onClick={() => setShowAll(!showAll)}>
-            {showAll ? 'Core only' : `+ ${items.length - core.length} more when they fit`}
-          </button>
-        )}
+        {core.map((i) => row(i.id, i.label, i.question, sourceLink(checklist?.sources, i.source, i.t)))}
       </section>
+
+      {extraGroups.length > 0 && (
+        <section className="story-tab__group">
+          <div className="story-tab__label">
+            Extras in the loop <span className="story-tab__count">{extrasDone} used · optional</span>
+          </div>
+          {extraGroups.map((g) => {
+            const open = !!openGroups[g.id];
+            const used = g.items.filter((i) => checklist?.state[i.id]?.done).length;
+            const src = checklist?.sources?.[g.id];
+            return (
+              <div key={g.id} className="story-tab__extras">
+                <button type="button" className="story-tab__extras-head" onClick={() => setOpenGroups({ ...openGroups, [g.id]: !open })}>
+                  <span aria-hidden="true">{open ? '▾' : '▸'}</span> {g.label}
+                  <span className="story-tab__count">{used ? `${used}/` : ''}{g.items.length}</span>
+                </button>
+                {open && (
+                  <>
+                    {src && (
+                      <a className="story-tab__src story-tab__src--group" href={src.url} target="_blank" rel="noreferrer">
+                        {src.title}{src.channel ? ` · ${src.channel}` : ''}
+                      </a>
+                    )}
+                    {g.items.map((i) => row(i.id, i.label, i.question, sourceLink(checklist?.sources, i.source, i.t)))}
+                  </>
+                )}
+              </div>
+            );
+          })}
+        </section>
+      )}
+
+      {(checklist?.outlines?.length ?? 0) > 0 && (
+        <section className="story-tab__group">
+          <div className="story-tab__label">
+            Outline {outline && <span className="story-tab__count">{outline.sections.filter((x) => checklist?.state[`${outline.id}.${x.id}`]?.done).length}/{outline.sections.length}</span>}
+          </div>
+          <select className="story-tab__topic" value={outlineId} onChange={(e) => pickOutline(e.target.value)} aria-label="Outline">
+            <option value="">None</option>
+            {checklist?.outlines?.map((o) => <option key={o.id} value={o.id}>{o.label}</option>)}
+          </select>
+          {outline && (() => {
+            const link = sourceLink(checklist?.sources, outline.source, outline.t);
+            return (
+              <>
+                {link && <a className="story-tab__src story-tab__src--group" href={link.href} target="_blank" rel="noreferrer">{link.title} · {link.text}</a>}
+                {outline.sections.map((x) => row(`${outline.id}.${x.id}`, x.label, x.question))}
+              </>
+            );
+          })()}
+        </section>
+      )}
 
       <section className="story-tab__group">
         <div className="story-tab__label">
