@@ -132,5 +132,18 @@
       "ytgrab.py",
       "--help"
     ]
+  },
+  {
+    "id": "openwriter.server",
+    "label": "OpenWriter (the Writer surface) on 127.0.0.1:5050",
+    "app": "openwriter",
+    "cwd": ".",
+    "program": "node",
+    "args": [
+      "packages/openwriter/dist/bin/pad.js",
+      "--port",
+      "5050",
+      "--no-open"
+    ]
   }
 ]

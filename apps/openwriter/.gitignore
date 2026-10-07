@@ -1,0 +1,54 @@
+node_modules/
+dist/
+.env
+*.tsbuildinfo
+.turbo/
+.claude/*
+!.claude/project.json
+*.stackdump
+
+# Project-internal (not for public repo)
+CLAUDE.md
+AGENTS.md
+docs/
+!skills/*/docs/
+!plugins/*/skill/docs/
+!claude-plugin/skills/*/docs/
+.playwright-mcp/
+TODO.md
+
+# Skills framework install artifacts
+.agents/
+.windsurf/
+skills-lock.json
+registry.json
+skills/*/
+!skills/openwriter/
+!skills/x-writer/
+!skills/book-writer/
+!skills/polish/
+!skills/anti-ai/
+!skills/beat-writer/
+!skills/blog-writer/
+!skills/newsletter-writer/
+
+# Session scratch
+/.greprag/runtime/
+tasks/
+sidebar-preview.html
+
+# Debug screenshots
+*.png
+!packages/openwriter/public/*.png
+!claude-plugin/logo.png
+
+# Operator book content — local one-off stitch scripts carry real beat docIds +
+# chapter/beat titles from the user's live book. Public repo: never commit.
+packages/openwriter/scripts/stitch-*.mjs
+
+# Privacy gate personal denylist — lists the operator's ventures/book/identity
+# terms. Gitignored so the public scanner never enumerates them.
+scripts/privacy-denylist.local.json
+
+# Internal chip-session design scratch — not for the public repo.
+chip-notes/

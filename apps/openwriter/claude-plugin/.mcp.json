@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "openwriter": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "openwriter@0.46.0",
+        "--no-open"
+      ]
+    }
+  }
+}

@@ -10,7 +10,7 @@ One local application, seven screens, that takes a question or a folder of files
 | 4 | Search Engine | cocoindex + MarginaliaSearch over `data/` | milestone 4 |
 | 5 | YouTube | Video or channel → ytgrab.py markdown in `data/youtube/<Channel>/`, baseline summary appended | **built** |
 | 6 | API Layer | Prompt bench: system prompt, ten slots, swappable slot sets | milestone 5 |
-| 7 | The Writer | Story API variance engine → story / college / PhD markdown | milestone 8 |
+| 7 | The Writer | OpenWriter (`apps/openwriter`) as the surface: research and classifications in the side columns, rewrite by selection, Story API calls | app added; design in `docs/WRITER_v0.1.md` |
 
 Suggested order 1 → 2 → 3/4/5 → 6 → 7. Nothing enforces it; every screen runs on its own.
 
@@ -20,7 +20,7 @@ Suggested order 1 → 2 → 3/4/5 → 6 → 7. Nothing enforces it; every screen
 hub/        Rust wrapper: spawns apps/, serves web/dist, keeps state in data/
   launch.json   the only commands the page can start (no raw command lines over HTTP)
 web/        JSX front end (react + vite, same as Top-of-Mind)
-apps/       the twelve existing repos, each with UPSTREAM.md recording any change made here
+apps/       the thirteen apps (twelve originals + openwriter), each with UPSTREAM.md recording any change made here
 prompts/    the API Layer's slot sets; every model call is defined here (run_slot.py runs one)
 scripts/    one-off maintenance (archive_pre_ytgrab.py)
 data/       everything produced (git-ignored): procs/ (each run's record and log), youtube/, api/
