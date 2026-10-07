@@ -18,10 +18,10 @@ Kept in place: ytgrab.py, the modules it imports, its launchers, and the watch p
 | `API_ALL/crawl4ai/` | 7959 | crawl4ai crawler. Not used by ytgrab.py or the watch plugin. Candidate to restore when screen 3 (Acquisition) wraps a crawler. |
 | `Deep-Research-Hub/` | 1 | An old one-file README copy of this repo. |
 | `RECOVERED_CLOUDFLARE_DEEPCRAWL_2026-08-31/` | 3 | Recovered HTML of an earlier crawl GUI. |
-| `Researcher/` | 1681 | gpt-researcher, provenote and deepdoc research apps. Not used by ytgrab.py or the watch plugin. Candidate to restore for screen 1 or 2. |
+| `Researcher/` | 1681 | gpt-researcher, provenote and deepdoc research apps. Not used by ytgrab.py or the watch plugin. **Restored 2026-10-07** (Deep Research screen). |
 | `Rust-Search-/` | 11 | tpsearch, a Rust markdown search engine. Not used by ytgrab.py or the watch plugin. Candidate to restore for screen 4 (Search Engine). |
 | `ZZZ_Archive/` | 888 | Already archived by its owner (gpt-researcher superseded 2026-08-24). |
-| `gptr-mcp/` | 15 | GPT Researcher MCP server. Not used by ytgrab.py or the watch plugin. |
+| `gptr-mcp/` | 15 | GPT Researcher MCP server. Not used by ytgrab.py or the watch plugin. **Restored 2026-10-07** (Deep Research screen). |
 | `link-research-engine/` | 41 | Link ingestion and source research. Not used by ytgrab.py or the watch plugin. Candidate to restore for screen 3 (Acquisition, Links/Crawl). |
 | `open-science/` | 5871 | AIPOCH Open-Science research workbench. Not used by ytgrab.py or the watch plugin. |
 | `theophysics-link-harvester/` | 45 | Link harvester. Not used by ytgrab.py or the watch plugin. Candidate to restore for screen 3 (Acquisition). |
@@ -23287,7 +23287,7 @@ Original path (under `apps/Research-Acquisition/`):
 
 ## `Researcher/`
 
-gpt-researcher, provenote and deepdoc research apps. Not used by ytgrab.py or the watch plugin. Candidate to restore for screen 1 or 2.
+gpt-researcher, provenote and deepdoc research apps. Not used by ytgrab.py or the watch plugin. Candidate to restore for screen 1 or 2. **Restored 2026-10-07** to `apps/Research-Acquisition/Researcher/` for the Deep Research screen; the files listed below are no longer in `_attic`.
 
 Original path (under `apps/Research-Acquisition/`):
 
@@ -25888,7 +25888,7 @@ Original path (under `apps/Research-Acquisition/`):
 
 ## `gptr-mcp/`
 
-GPT Researcher MCP server. Not used by ytgrab.py or the watch plugin.
+GPT Researcher MCP server. Not used by ytgrab.py or the watch plugin. **Restored 2026-10-07** to `apps/Research-Acquisition/gptr-mcp/` for the Deep Research screen; the files listed below are no longer in `_attic`.
 
 Original path (under `apps/Research-Acquisition/`):
 

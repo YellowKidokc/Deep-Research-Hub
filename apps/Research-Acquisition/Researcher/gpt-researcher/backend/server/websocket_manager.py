@@ -98,7 +98,7 @@ class WebSocketManager:
             except Exception:
                 pass  # If this fails too, there's nothing more we can do
 
-    async def start_streaming(self, task, report_type, report_source, source_urls, document_urls, tone, websocket, headers=None, query_domains=[], mcp_enabled=False, mcp_strategy="fast", mcp_configs=[], max_search_results=None):
+    async def start_streaming(self, task, report_type, report_source, source_urls, document_urls, tone, websocket, headers=None, query_domains=[], mcp_enabled=False, mcp_strategy="fast", mcp_configs=[], max_search_results=None, doc_path=None, config_overrides=None, return_researcher=False):
         """Start streaming the output."""
         tone = Tone[tone]
         # add customized JSON config file path here
@@ -109,11 +109,13 @@ class WebSocketManager:
             task, report_type, report_source, source_urls, document_urls, tone, websocket, 
             headers=headers, query_domains=query_domains, config_path=config_path,
             mcp_enabled=mcp_enabled, mcp_strategy=mcp_strategy, mcp_configs=mcp_configs,
-            max_search_results=max_search_results
+            max_search_results=max_search_results,
+            doc_path=doc_path, config_overrides=config_overrides,
+            return_researcher=return_researcher,
         )
         return report
 
-async def run_agent(task, report_type, report_source, source_urls, document_urls, tone: Tone, websocket, stream_output=stream_output, headers=None, query_domains=[], config_path="", return_researcher=False, mcp_enabled=False, mcp_strategy="fast", mcp_configs=[], max_search_results=None):
+async def run_agent(task, report_type, report_source, source_urls, document_urls, tone: Tone, websocket, stream_output=stream_output, headers=None, query_domains=[], config_path="", return_researcher=False, mcp_enabled=False, mcp_strategy="fast", mcp_configs=[], max_search_results=None, doc_path=None, config_overrides=None):
     """Run the agent."""    
     # Create logs handler for this research task
     logs_handler = CustomLogsHandler(websocket, task)
@@ -156,6 +158,8 @@ async def run_agent(task, report_type, report_source, source_urls, document_urls
             mcp_configs=mcp_configs if mcp_enabled else None,
             mcp_strategy=mcp_strategy if mcp_enabled else None,
             max_search_results=max_search_results,
+            doc_path=doc_path,
+            config_overrides=config_overrides,
         )
         report = await researcher.run()
         
@@ -174,6 +178,8 @@ async def run_agent(task, report_type, report_source, source_urls, document_urls
             mcp_configs=mcp_configs if mcp_enabled else None,
             mcp_strategy=mcp_strategy if mcp_enabled else None,
             max_search_results=max_search_results,
+            doc_path=doc_path,
+            config_overrides=config_overrides,
         )
         report = await researcher.run()
 

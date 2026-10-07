@@ -991,6 +991,23 @@ const GPTResearcher = (() => {
         max_search_results: parseInt(document.getElementById('maxSearchResults').value, 10) || 5,
       }
 
+      // Per-request local folder and research-profile knobs (blank = server default)
+      const docPath = (document.getElementById('docPath')?.value || '').trim()
+      if (docPath) requestData.doc_path = docPath
+      const overrides = {}
+      const knobs = {
+        DEEP_RESEARCH_BREADTH: 'profileBreadth',
+        DEEP_RESEARCH_DEPTH: 'profileDepth',
+        DEEP_RESEARCH_CONCURRENCY: 'profileConcurrency',
+        SIMILARITY_THRESHOLD: 'profileSimilarity',
+        CURATE_SOURCES: 'profileCurate',
+      }
+      for (const [key, id] of Object.entries(knobs)) {
+        const value = (document.getElementById(id)?.value || '').trim()
+        if (value !== '') overrides[key] = value
+      }
+      if (Object.keys(overrides).length) requestData.config_overrides = overrides
+
       // Add MCP configuration if enabled
       const mcpData = collectMCPData();
       if (mcpData) {
@@ -1140,6 +1157,7 @@ const GPTResearcher = (() => {
     updateLink('downloadLinkWord', docx);
     updateLink('downloadLinkMd', md);
     updateLink('downloadLinkJson', json);
+    updateLink('downloadLinkReceipt', data.output.receipt);
 
     // Update duplicate buttons above the report
     updateLink('downloadLinkTop', pdf);

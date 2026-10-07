@@ -18,6 +18,7 @@ ROOT = Path(__file__).resolve().parent
 RUNTIME = ROOT / ".runtime"
 LAST_DOC_PATH = ROOT / "LOCAL_DOCUMENTS_PATH.txt"
 RESEARCH_PROFILE = ROOT / "RESEARCH_PROFILE.env"
+PROVIDERS = ROOT / "PROVIDERS.env"
 URL = "http://127.0.0.1:8000"
 
 
@@ -62,6 +63,19 @@ def apply_research_profile(env: dict[str, str]) -> None:
             env[key] = value
 
 
+def apply_providers(env: dict[str, str]) -> None:
+    """Provider choices (no keys); anything already set wins."""
+    if not PROVIDERS.exists():
+        return
+    for raw_line in PROVIDERS.read_text(encoding="utf-8-sig").splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, value = (part.strip() for part in line.split("=", 1))
+        if key and value:
+            env.setdefault(key, value)
+
+
 def healthy() -> bool:
     try:
         with urllib.request.urlopen(URL + "/docs", timeout=2) as response:
@@ -101,6 +115,7 @@ def stop_managed_server_if_needed(mode: str, doc_path: Path | None) -> None:
 
 def start(mode: str, no_browser: bool = False, documents: str | None = None) -> int:
     env = os.environ.copy()
+    apply_providers(env)
     apply_research_profile(env)
     doc_path = None
     if mode == "local":

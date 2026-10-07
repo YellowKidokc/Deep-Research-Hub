@@ -19,9 +19,11 @@ from .actions import (
     table_of_contents,
 )
 from .config import Config
+from .config.variables.base import BaseConfig
 from .llm_provider import GenericLLMProvider
 from .memory import Memory
 from .prompts import get_prompt_family
+from .receipts import ReadReceipt
 from .skills.browser import BrowserManager
 from .skills.context_manager import ContextManager
 from .skills.curator import SourceCurator
@@ -80,6 +82,8 @@ class GPTResearcher:
         mcp_configs: list[dict] | None = None,
         mcp_max_iterations: int | None = None,
         mcp_strategy: str | None = None,
+        doc_path: str | None = None,
+        config_overrides: dict | None = None,
         **kwargs
     ):
         """
@@ -134,12 +138,22 @@ class GPTResearcher:
                 - "fast" (default): Run MCP once with original query for best performance
                 - "deep": Run MCP for all sub-queries for maximum thoroughness  
                 - "disabled": Skip MCP entirely, use only web retrievers
+            doc_path (str, optional): Local documents folder for this request only
+                (report_source local/hybrid). Overrides DOC_PATH; no restart needed.
+            config_overrides (dict, optional): Research-profile settings for this
+                request only, e.g. {"MAX_SEARCH_RESULTS_PER_QUERY": 10,
+                "SIMILARITY_THRESHOLD": 0.3}. Keys must be in OVERRIDABLE.
         """
         self.kwargs = kwargs
         self.query = query
         self.report_type = report_type
         self.cfg = Config(config_path)
         self.cfg.set_verbose(verbose)
+        applied = self._apply_config_overrides(config_overrides)
+        if doc_path:
+            if not os.path.isdir(doc_path):
+                raise ValueError(f"doc_path is not a folder: {doc_path}")
+            self.cfg.doc_path = os.path.abspath(doc_path)
         self.report_source = report_source if report_source else getattr(self.cfg, 'report_source', None)
         self.report_format = report_format
         self.max_subtopics = max_subtopics
@@ -162,6 +176,12 @@ class GPTResearcher:
         self.verbose = verbose
         self.context = context or []
         self.headers = headers or {}
+        self.read_receipt = ReadReceipt(query=query, doc_path=getattr(self.cfg, "doc_path", None),
+                                        report_source=self.report_source)
+        self.read_receipt.settings = {
+            **{k: getattr(self.cfg, k.lower(), None) for k in sorted(self.OVERRIDABLE)},
+            "overrides": applied,
+        }
         self.research_costs = 0.0
         self.step_costs: dict[str, float] = {}
         self._current_step: str = "general"
@@ -200,6 +220,36 @@ class GPTResearcher:
         # Handle MCP strategy configuration with backwards compatibility
         self.mcp_strategy = self._resolve_mcp_strategy(mcp_strategy, mcp_max_iterations)
     
+    # Research-profile knobs a single request may change. Model, provider and
+    # path settings are deliberately not here.
+    OVERRIDABLE = {
+        "MAX_SEARCH_RESULTS_PER_QUERY", "DEEP_RESEARCH_BREADTH", "DEEP_RESEARCH_DEPTH",
+        "DEEP_RESEARCH_CONCURRENCY", "CURATE_SOURCES", "SIMILARITY_THRESHOLD",
+        "MAX_ITERATIONS", "MAX_SUBTOPICS", "TOTAL_WORDS",
+    }
+
+    def _apply_config_overrides(self, overrides: dict | None) -> dict:
+        """Set per-request research-profile values on self.cfg. Returns what was applied."""
+        applied = {}
+        for key, value in (overrides or {}).items():
+            k = str(key).upper()
+            if k not in self.OVERRIDABLE:
+                raise ValueError(f"config override not allowed: {key}")
+            if value is None or value == "":
+                continue
+            hint = BaseConfig.__annotations__[k]
+            converted = Config.convert_env_value(k, str(value), hint)
+            setattr(self.cfg, k.lower(), converted)
+            applied[k] = converted
+        return applied
+
+    def get_read_receipt(self) -> dict:
+        """What this run read, kept and dropped (see gpt_researcher.receipts)."""
+        return self.read_receipt.to_dict()
+
+    def write_read_receipt(self, path: str) -> str:
+        return self.read_receipt.write(path)
+
     def _generate_research_id(self) -> str:
         """Generate a unique research ID for this session.
         

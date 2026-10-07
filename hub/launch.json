@@ -5,17 +5,57 @@
     "app": "Research-Acquisition",
     "cwd": "yt-transcript-downloader",
     "program": "python",
-    "args": ["ytgrab.py", "{url}", "--out", "{data}/youtube", "--limit={limit}"],
+    "args": [
+      "ytgrab.py",
+      "{url}",
+      "--out",
+      "{data}/youtube",
+      "--limit={limit}"
+    ],
     "params": [
-      { "name": "url", "label": "Video or channel URL", "kind": "youtube_url" },
-      { "name": "limit", "label": "At most N videos this run (blank = all)", "kind": "count", "optional": true }
+      {
+        "name": "url",
+        "label": "Video or channel URL",
+        "kind": "youtube_url"
+      },
+      {
+        "name": "limit",
+        "label": "At most N videos this run (blank = all)",
+        "kind": "count",
+        "optional": true
+      }
     ],
     "then": [
       {
         "program": "python",
         "cwd": ".",
-        "args": ["prompts/run_slot.py", "Y", "1", "--dir", "{data}/youtube", "--since", "{started}", "--append"]
+        "args": [
+          "prompts/run_slot.py",
+          "Y",
+          "1",
+          "--dir",
+          "{data}/youtube",
+          "--since",
+          "{started}",
+          "--append"
+        ]
       }
+    ]
+  },
+  {
+    "id": "gptr.server",
+    "label": "GPT Researcher server (127.0.0.1:8000)",
+    "app": "Research-Acquisition",
+    "cwd": "Researcher/gpt-researcher",
+    "program": "python",
+    "args": [
+      "-m",
+      "uvicorn",
+      "main:app",
+      "--host",
+      "127.0.0.1",
+      "--port",
+      "8000"
     ]
   },
   {
@@ -24,7 +64,10 @@
     "app": "pipeline-workflows",
     "cwd": ".",
     "program": "python",
-    "args": ["evaluate_question.py", "--help"]
+    "args": [
+      "evaluate_question.py",
+      "--help"
+    ]
   },
   {
     "id": "research-acquisition.ytgrab-help",
@@ -32,6 +75,9 @@
     "app": "Research-Acquisition",
     "cwd": "yt-transcript-downloader",
     "program": "python",
-    "args": ["ytgrab.py", "--help"]
+    "args": [
+      "ytgrab.py",
+      "--help"
+    ]
   }
 ]

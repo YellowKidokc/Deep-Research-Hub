@@ -30,7 +30,7 @@ from ..memory.embeddings import OPENAI_EMBEDDING_MODEL
 from ..prompts import PromptFamily
 from ..utils.costs import estimate_embedding_cost
 from ..vector_store import VectorStoreWrapper
-from .retriever import SearchAPIRetriever, SectionRetriever
+from .retriever import _MAX_CONTENT_CHARS, SearchAPIRetriever, SectionRetriever
 
 
 class VectorstoreCompressor:
@@ -102,6 +102,8 @@ class ContextCompressor:
         max_results: int = 5,
         similarity_threshold: float | None = None,
         prompt_family: type[PromptFamily] | PromptFamily = PromptFamily,
+        receipt=None,
+        receipt_query: str | None = None,
         **kwargs,
     ):
         """Initialize the ContextCompressor.
@@ -123,6 +125,9 @@ class ContextCompressor:
             similarity_threshold = float(os.environ.get("SIMILARITY_THRESHOLD", 0.35))
         self.similarity_threshold = similarity_threshold
         self.prompt_family = prompt_family
+        # Optional ReadReceipt: counts of chunks produced / kept / returned.
+        self.receipt = receipt
+        self.receipt_query = receipt_query
 
     def __get_contextual_retriever(self):
         """Build the contextual compression retriever pipeline.
@@ -178,13 +183,44 @@ class ContextCompressor:
                 )
                 for doc in self.documents[:max_results]
             ]
+            if self.receipt:
+                per_source = {}
+                for i, doc in enumerate(self.documents):
+                    src = doc.get("source") or doc.get("url") or ""
+                    c = per_source.setdefault(src, {"chunks": 0, "kept": 0, "returned": 0})
+                    c["chunks"] += 1
+                    c["kept"] += 1
+                    c["returned"] += 1 if i < max_results else 0
+                self.receipt.compression(
+                    self.receipt_query or query, path="fast", documents=len(self.documents), truncated=0,
+                    threshold=None, max_results=max_results, per_source=per_source)
             return self.prompt_family.pretty_print_docs(direct_docs, max_results)
 
         # Standard path: use compression for large content
         compressed_docs = self.__get_contextual_retriever()
         if cost_callback:
             cost_callback(estimate_embedding_cost(model=OPENAI_EMBEDDING_MODEL, docs=self.documents))
-        relevant_docs = await asyncio.to_thread(compressed_docs.invoke, query, **self.kwargs)
+        if not self.receipt:
+            relevant_docs = await asyncio.to_thread(compressed_docs.invoke, query, **self.kwargs)
+            return self.prompt_family.pretty_print_docs(relevant_docs, max_results)
+
+        # Same pipeline, one step at a time, so each cut can be counted:
+        # pages (truncated to MAX_CONTENT_CHARS) -> splitter -> similarity filter -> top max_results.
+        base = compressed_docs.base_retriever.invoke(query)
+        splitter, relevance_filter = compressed_docs.base_compressor.transformers
+        chunks = await asyncio.to_thread(splitter.transform_documents, base)
+        relevant_docs = await asyncio.to_thread(relevance_filter.compress_documents, chunks, query)
+        per_source = {}
+        for d in chunks:
+            per_source.setdefault(d.metadata.get("source", ""), {"chunks": 0, "kept": 0, "returned": 0})["chunks"] += 1
+        for i, d in enumerate(relevant_docs):
+            c = per_source.setdefault(d.metadata.get("source", ""), {"chunks": 0, "kept": 0, "returned": 0})
+            c["kept"] += 1
+            c["returned"] += 1 if i < max_results else 0
+        truncated = sum(1 for p in self.documents if len(p.get("raw_content") or "") > _MAX_CONTENT_CHARS)
+        self.receipt.compression(
+            self.receipt_query or query, path="filtered", documents=len(self.documents), truncated=truncated,
+            threshold=self.similarity_threshold, max_results=max_results, per_source=per_source)
         return self.prompt_family.pretty_print_docs(relevant_docs, max_results)
 
 
