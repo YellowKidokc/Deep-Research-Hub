@@ -1,0 +1,18 @@
+{
+  "name": "Story checklist",
+  "description": "Baseline storytelling checks for any article, shown in the Writer's right column (OpenWriter, Story tab). Core items apply to every article; the rest are used when they fit. An item turns green when it is marked done. Later each item gets a scoring slot (prompts/) so it can be checked automatically; until then it is the writer's call.",
+  "paragraph_band": { "min_words": 40, "max_words": 140, "opening_max_words": 90 },
+  "items": [
+    { "id": "opening",      "core": true,  "label": "Great opening",                    "question": "Does the first paragraph make the reader need the next one?" },
+    { "id": "curiosity",    "core": true,  "label": "Creates curiosity",                "question": "Is there an open question the reader wants answered?" },
+    { "id": "holdback",     "core": true,  "label": "Holds information back",           "question": "Is the answer withheld until it pays off, not given away early?" },
+    { "id": "moment",       "core": true,  "label": "Drops you into a specific moment", "question": "Is there one concrete scene: a time, a place, a person?" },
+    { "id": "tension",      "core": true,  "label": "Creates tension",                  "question": "Is something at stake, with real resistance before the resolution?" },
+    { "id": "explains",     "core": true,  "label": "Explains enough",                  "question": "Is every idea as explained as it needs to be, no more (not lengthy, not too concise)?" },
+    { "id": "personality",  "core": true,  "label": "Has its own personality",          "question": "Does it sound like you, not like a summary?" },
+    { "id": "payoff",       "core": true,  "label": "Pays off",                         "question": "Does the ending answer the question the opening raised?" },
+    { "id": "cost",         "core": false, "label": "Costs the teller something",       "question": "Is there a piece of you in it: a fact or a story that compels the listener?" },
+    { "id": "unforgotten",  "core": false, "label": "Unforgotten sentence",             "question": "Is there one line people will repeat?" },
+    { "id": "receipts",     "core": false, "label": "Claims carry receipts",            "question": "Does every fact, origin or quote point to its source?" }
+  ]
+}

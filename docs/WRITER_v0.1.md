@@ -1,6 +1,6 @@
 # The Writer (screen 7) — design v0.1
 
-**Date:** 2026-10-07 · **Owner:** David Lowe · **Status:** DRAFT, nothing built yet.
+**Date:** 2026-10-07 · **Owner:** David Lowe · **Status:** DRAFT. Built: the Story tab (right column) with checklist, paragraph stats and research cards (build step 1).
 **Surface:** OpenWriter (`apps/openwriter`, MIT, unchanged upstream copy). It is the last app added to the hub.
 
 The Writer is where everything gathered on one topic lands, gets sorted, and becomes a story. Research (screen 1 and 2), transcripts (screen 5) and classifications all feed into it. The person decides every word that stays.
@@ -60,7 +60,7 @@ OpenWriter plugins can add agent tools (MCP), server routes, right-click actions
 
 ## Build order (proposed)
 
-1. Right column + a `drh` plugin route that shows existing research cards for the open document by topic (no classification yet). Proves the plumbing.
+1. **Built.** Right column (OpenWriter's Story tab) + `drh` plugin: story checklist from `prompts/W_story_checklist.json` (green when done, saved per doc), paragraph word/sentence counts against a band, research cards matched by topic. Classification not yet.
 2. Rewrite-by-selection actions wired to `prompts/` slots.
 3. Classification proposals (after Phase 0 fixtures exist).
 4. Pills per source, then the story pass, once the Story API pages are ready.

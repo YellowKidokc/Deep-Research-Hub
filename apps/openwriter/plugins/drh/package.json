@@ -1,0 +1,24 @@
+{
+  "name": "@openwriter/plugin-drh",
+  "version": "0.1.0",
+  "description": "Deep Research Hub: story checklist, paragraph stats and research cards for the right rail.",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "typescript": "^5.6.0"
+  },
+  "openwriter": {
+    "displayName": "Deep Research Hub",
+    "category": "productivity"
+  },
+  "files": [
+    "dist/",
+    "package.json"
+  ]
+}

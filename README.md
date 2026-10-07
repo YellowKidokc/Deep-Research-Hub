@@ -66,6 +66,10 @@ Old `.srt`/`.txt` transcripts from the retired downloaders: `python scripts/arch
 
 Cloning on Windows needs `git config --global core.longpaths true`: a few paths under `apps/Research-Acquisition/_attic/` are over 260 characters.
 
+## Screen 7, The Writer
+
+OpenWriter is the writing surface: build it once (`cd apps/openwriter && npm install && npx turbo run build`), start it from the Home launch list (or `node packages/openwriter/dist/bin/pad.js`), enable **Deep Research Hub** in its Plugins tab, and restart it. The **Story** tab in its right rail shows the story checklist (`prompts/W_story_checklist.json`; ticks saved in `data/writer/checklists/`), paragraph lengths against the band, and research cards from `data/deep_research/` and `data/youtube/` that match the document's heading.
+
 ## Independence test
 
 Kill the hub, `cd` into any `apps/` folder, run the app by hand. If it works, the wrapper is a wrapper.

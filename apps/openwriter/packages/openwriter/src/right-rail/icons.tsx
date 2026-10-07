@@ -34,6 +34,14 @@ export const BacklinksIcon = () => (
   </svg>
 );
 
+// Deep Research Hub: Story tab (an open book).
+export const StoryIcon = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+    <path d="M2 4h7a3 3 0 0 1 3 3v13a2 2 0 0 0-2-2H2z" stroke="currentColor" {...s} />
+    <path d="M22 4h-7a3 3 0 0 0-3 3v13a2 2 0 0 1 2-2h8z" stroke="currentColor" {...s} />
+  </svg>
+);
+
 export const ExportsIcon = () => (
   <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
     <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" stroke="currentColor" {...s} />
