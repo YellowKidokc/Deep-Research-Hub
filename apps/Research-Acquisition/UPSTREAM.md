@@ -38,3 +38,15 @@ Added in `Researcher/gpt-researcher/` (nothing existing changed except one line 
 - `jobs_defaults.example.yaml`: copied to `data/jobs/_defaults.yaml` on the first run.
 - `gpt_researcher/agent.py`: the receipt names a folder only for local / hybrid jobs.
 - `tests/test_drh_queue.py` (new).
+
+### 2026-10-07 — Deep Research screen, step 4 (visible pipeline + fork finder)
+
+Added in `Researcher/gpt-researcher/` (GPT Researcher's own files unchanged):
+- `drh_pipeline.py`: `job_type: fork_map`. Stages, each written to the run folder as it runs: **premise** (what the question assumes, loaded terms, the legs expected before searching) → **cast** (neutral queries, the same number per leg and per contested premise; missing targets are filled, verdict-shaped queries are flagged) → **triage** (every result kept or dropped with a reason; one recast round for legs nothing kept speaks to) → **extract** (passages checked verbatim against the page text, with character offsets; quotes not in the page are rejected and listed) → **forks** (atomic claims → forks → positions, each tied to passages; legs expected but unsourced, and positions found but not expected, are both reported) → **synthesize** (report written only from passages; unknown and missing citations counted). `--resume <run> --from <stage>` reruns from a stage; `overrides.json` (`keep`/`drop` URLs) is a person's triage ruling. Uses GPT Researcher's retrievers, scraper (SSRF guard included) and LLM providers; not its similarity filter or report writer.
+- `drh_queue.py`: `fork_map` job type and a `pipeline:` settings field (unknown settings refused); its summary goes to `run.json` and the ledger.
+- `make_jobs.py`: `--job-type`.
+- `jobs_defaults.example.yaml`: the new fields.
+- `tests/test_drh_pipeline.py` (new): the "devil" fixture through every stage, recast, seen URLs, resume with overrides, a failed stage, and a fork_map job through the queue.
+
+Prompts are in the hub's `prompts/R_web/` (`premise`, `cast`, `triage`, `extract`, `forks`, `synthesize`).
+

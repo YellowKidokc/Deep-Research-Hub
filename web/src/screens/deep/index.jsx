@@ -112,9 +112,19 @@ function Runs() {
   };
 
   if (!runs) return <p className="dim">{error || "Loading…"}</p>;
-  const rc = (r) => r.receipt
-    ? `${r.receipt.files_loaded}/${r.receipt.files_found} files · ${r.receipt.chunks_returned}/${r.receipt.chunks_produced} chunks`
-    : "";
+  const rc = (r) => {
+    const x = r.receipt;
+    if (!x) return "";
+    if (r.job_type === "fork_map") {
+      const missing = (x.legs_expected_not_found || []).join(", ");
+      return `${x.forks ?? 0} forks · ${x.legs_expected_found ?? 0}/${x.expected_legs ?? 0} expected legs sourced`
+        + (x.legs_found_not_expected ? ` · +${x.legs_found_not_expected} unexpected` : "")
+        + (missing ? ` · no source: ${missing}` : "") + ` · ${x.passages ?? 0} passages`;
+    }
+    return `${x.files_loaded}/${x.files_found} files · ${x.chunks_returned}/${x.chunks_produced} chunks`;
+  };
+  const FORK_FILES = [["forks.md", "forks"], ["premise.json", "premise"], ["triage.json", "triage"],
+    ["passages.json", "passages"], ["pipeline.json", "pipeline"]];
 
   return (
     <div>
@@ -134,7 +144,9 @@ function Runs() {
               <td>{r.seconds}</td>
               <td className="links">
                 <a onClick={() => open(r, r.status === "done" ? "report.md" : "error.txt")}>{r.status === "done" ? "report" : "error"}</a>
-                {" · "}<a onClick={() => open(r, "receipt.json")}>receipt</a>
+                {r.job_type === "fork_map"
+                  ? FORK_FILES.map(([f, label]) => <span key={f}>{" · "}<a onClick={() => open(r, f)}>{label}</a></span>)
+                  : <>{" · "}<a onClick={() => open(r, "receipt.json")}>receipt</a></>}
                 {" · "}<a onClick={() => open(r, "sources.json")}>sources</a>
               </td>
             </tr>

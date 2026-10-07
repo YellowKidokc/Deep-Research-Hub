@@ -3,6 +3,7 @@
     python make_jobs.py DEBATE_MAP.md --jobs ../../../../data/jobs --subjects S-CHURCH S-PERSONAL
     python make_jobs.py DEBATE_MAP.md --jobs ... --ids Q-EVIL-REAL-GOOD Q-ORIGIN-FEAR
     python make_jobs.py DEBATE_MAP.md --jobs ... --subjects S-BIBLE --list     # show, write nothing
+    python make_jobs.py DEBATE_MAP.md --jobs ... --subjects S-EVIL --job-type fork_map
 
 Reads "## S-XXX · Title" headings and "- `Q-ID` question" lines. Each job is
 <Q-ID>.yaml with the question as its query and {question_id, subject} in meta;
@@ -40,6 +41,7 @@ def main():
     ap.add_argument("--subjects", nargs="*", default=[])
     ap.add_argument("--ids", nargs="*", default=[])
     ap.add_argument("--list", action="store_true")
+    ap.add_argument("--job-type", help="written into each job (e.g. fork_map); default: from _defaults.yaml")
     args = ap.parse_args()
 
     qs = parse(Path(args.debate_map).read_text(encoding="utf-8"))
@@ -61,7 +63,8 @@ def main():
         query = q["question"].replace('"', '\\"')
         path.write_text(
             f'query: "{query}"\n'
-            f"meta:\n  question_id: {q['id']}\n  subject: {q['subject']}\n  subject_title: \"{q['title']}\"\n",
+            + (f"job_type: {args.job_type}\n" if args.job_type else "")
+            + f"meta:\n  question_id: {q['id']}\n  subject: {q['subject']}\n  subject_title: \"{q['title']}\"\n",
             encoding="utf-8")
         written += 1
     if not args.list:

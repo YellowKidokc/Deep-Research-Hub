@@ -17,7 +17,10 @@ This is the "next version" of the Deep Research screen: the web search and resul
 
 ---
 
-## 1. The visible pipeline (screen 1, next version)
+## 1. The visible pipeline (screen 1, next version) — **built** (job_type `fork_map`)
+
+**Built 2026-10-07** as `drh_pipeline.py` with a stage 0 ahead of the four below: **premise audit**. Before searching, the question's presuppositions, loaded terms and the expected legs (distinct positions, including ones that reject the question's premises) are written down. The cast then gets the same number of queries per leg and per contested premise, so balance comes from the casting rather than from filtering afterwards. At the end, expected legs with no source and positions nobody expected are both reported: the difference between the two is a measure of the premise bias the audit started with. Stage 3 checks every quote against the page text and rejects any that are not there. Not built yet: the critic lane on a different model; human override is a file (`overrides.json`) plus `--resume`, not a screen.
+
 
 The same four stages every AI research tool runs internally, each one exposed and stored.
 
@@ -46,7 +49,7 @@ Input: a topic ("the devil"). Output: N forks.
 
 Worked example from the conversation: "the devil" produced 12 forks (ontological status, origin / privatio boni, OT ha-satan vs NT Satan, scope of power, theodicy, serpent identification, possession vs mental illness, dualism, mechanism of sin, secular dismissal, atheistic Satanism, entropy-as-adversary). Use it as the first fixture.
 
-**ASK DAVID:** the fork pill fields above are the proposal; confirm or change before it is built.
+**ASK DAVID:** the fork pill fields above were the proposal. Built with them plus `tests_presupposition`, `strongest_form`, `matches_leg`, `status` (sourced / one source / no source) and source hosts; `receipts[]` are the passages (verbatim quote, url, character offsets). Not dated yet: the extractor does not record publication dates. Confirm or change.
 
 ---
 
@@ -104,8 +107,8 @@ v1 of the Writer is the smallest loop: present options → pick → log → adju
 
 ## 6. Build order proposed for the research side
 
-1. **Visible pipeline on one question** (§1): stages 1–4 stored as JSON beside the report; synthesize-from-passages with claim → passage links. Reuses GPTR acquisition and the existing queue/receipt/ledger.
-2. **Fork map** (§2) on the stored passages; first fixture "the devil".
+1. **Built.** **Visible pipeline on one question** (§1): stages 1–4 stored as JSON beside the report; synthesize-from-passages with claim → passage links. Reuses GPTR acquisition and the existing queue/receipt/ledger.
+2. **Built (first pass).** **Fork map** (§2) on the stored passages; first fixture "the devil".
 3. **Specialist job types** (§3): `origin_trace`, `precursor`, `essence_paper`, with the receipts rules as hard validation (a hop or precursor without a dated quote is rejected, not softened).
 4. Classification (§4) and the Writer (§5) are separate builds.
 

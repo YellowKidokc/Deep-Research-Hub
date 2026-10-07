@@ -10,6 +10,9 @@ Claim:  a job is moved to <jobs>/running/ before it starts, then to done/ or fai
 Output: <out>/<name>/<YYYYmmdd-HHMMSS>/
           report.md      the report
           receipt.json   what was read, kept and dropped (gpt_researcher.receipts)
+          (job_type fork_map instead writes the visible pipeline's files: premise.json,
+           net.json, triage.json, passages.json, forks.json, forks.md, pipeline.json;
+           see drh_pipeline.py)
           sources.json   source URLs used and every URL visited
           run.json       the merged job, status, timings, model, costs
           events.jsonl   every streamed log event, timestamped
@@ -34,15 +37,15 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 
-JOB_TYPES = {"standard", "cold_derive", "prior_art", "hybrid_rule"}
-BUILT_TYPES = {"standard"}            # the others arrive with their templates (step 3)
+JOB_TYPES = {"standard", "fork_map", "cold_derive", "prior_art", "hybrid_rule"}
+BUILT_TYPES = {"standard", "fork_map"}            # the others arrive with their templates (step 3)
 SOURCES = {"web", "local", "hybrid"}
 REPORT_TYPES = {"research_report", "detailed_report", "resource_report", "outline_report"}
 FIELDS = {
     "query": str, "chapter": str, "job_type": str, "report_source": str, "report_type": str,
     "doc_path": str, "retrievers": list, "model": str, "custom_prompt": str, "tone": str,
     "overrides": dict, "visited_urls_from": (str, list), "meta": dict,
-    "timeout_minutes": (int, float),
+    "timeout_minutes": (int, float), "pipeline": dict,
 }
 DEFAULTS_EXAMPLE = HERE / "jobs_defaults.example.yaml"
 
@@ -88,7 +91,14 @@ def validate(name: str, job: dict) -> list[str]:
     if jt not in JOB_TYPES:
         errs.append(f"job_type must be one of {sorted(JOB_TYPES)}")
     elif jt not in BUILT_TYPES:
-        errs.append(f"job_type {jt!r}: its template is not built yet (step 3); use standard")
+        errs.append(f"job_type {jt!r}: its template is not built yet (step 3); use standard or fork_map")
+    elif jt == "fork_map" and src_of(job) != "web":
+        errs.append("job_type fork_map searches the web; report_source must be web")
+    if job.get("pipeline"):
+        drh_pipeline = load_pipeline()
+        unknown = set(job["pipeline"]) - set(drh_pipeline.DEFAULTS)
+        if unknown:
+            errs.append(f"pipeline: unknown setting(s) {sorted(unknown)}; known: {sorted(drh_pipeline.DEFAULTS)}")
     src = job.get("report_source", "web")
     if src not in SOURCES:
         errs.append(f"report_source must be one of {sorted(SOURCES)}")
@@ -107,6 +117,18 @@ def validate(name: str, job: dict) -> list[str]:
     if job.get("chapter") and not re.fullmatch(r"AX_GI_\d\d", job["chapter"]):
         errs.append("chapter must look like AX_GI_01")
     return [f"{name}: {e}" for e in errs]
+
+
+def load_pipeline():
+    """drh_pipeline.py, which sits beside this file."""
+    if str(HERE) not in sys.path:
+        sys.path.insert(0, str(HERE))
+    import drh_pipeline
+    return drh_pipeline
+
+
+def src_of(job: dict) -> str:
+    return job.get("report_source", "web")
 
 
 def ledger_key(name: str, job: dict) -> str:
@@ -150,7 +172,7 @@ async def run_job(name: str, job: dict, jobs: Path, out: Path, claimed: Path) ->
     started = time.time()
     record = {"job_name": name, "job": job, "status": "running",
               "started": dt.datetime.now().isoformat(timespec="seconds")}
-    researcher = None
+    researcher = pipe = None
     print(f"[start] {name}: {job['query'][:90]}", flush=True)
     try:
         seed_urls = read_ledger_urls(ledger_dir, job.get("visited_urls_from"))
@@ -174,7 +196,18 @@ async def run_job(name: str, job: dict, jobs: Path, out: Path, claimed: Path) ->
         record["retrievers"] = [r.__name__ for r in researcher.retrievers]
         record["seeded_visited_urls"] = len(seed_urls)
 
+        pipe = None
+        if job.get("job_type") == "fork_map":
+            drh_pipeline = load_pipeline()
+            deps = drh_pipeline.gptr_deps(researcher.cfg, researcher.retrievers, researcher.add_costs)
+            pipe = drh_pipeline.Pipeline(job["query"], run_dir, deps, job.get("pipeline"), skip_urls=seed_urls,
+                                         log=lambda m: print(f"  {name} {m}", flush=True))
+            record["model"] = deps.models
+
         async def work():
+            if pipe is not None:
+                await pipe.run()
+                return (run_dir / "report.md").read_text(encoding="utf-8")
             await researcher.conduct_research()
             return await researcher.write_report(custom_prompt=job.get("custom_prompt") or "")
 
@@ -198,8 +231,12 @@ async def run_job(name: str, job: dict, jobs: Path, out: Path, claimed: Path) ->
     record["seconds"] = round(time.time() - started, 1)
     summary = None
     if researcher is not None:
-        researcher.write_read_receipt(str(run_dir / "receipt.json"))
-        summary = researcher.get_read_receipt()["summary"]
+        if pipe is not None:
+            summary = pipe.summary()
+            researcher.visited_urls.update(pipe.visited_urls())
+        else:
+            researcher.write_read_receipt(str(run_dir / "receipt.json"))
+            summary = researcher.get_read_receipt()["summary"]
         visited = sorted(researcher.visited_urls)
         (run_dir / "sources.json").write_text(json.dumps({
             "source_urls": researcher.get_source_urls(), "visited_urls": visited}, indent=2), encoding="utf-8")
@@ -216,7 +253,12 @@ async def run_job(name: str, job: dict, jobs: Path, out: Path, claimed: Path) ->
     dest = jobs / ("done" if record["status"] == "done" else "failed")
     dest.mkdir(exist_ok=True)
     shutil.move(str(claimed), str(dest / f"{stamp}_{name}.yaml"))
-    tail = f"{summary['files_loaded']} files, {summary['chunks_returned']} chunks used" if summary else ""
+    tail = ""
+    if summary and "files_loaded" in summary:
+        tail = f"{summary['files_loaded']} files, {summary['chunks_returned']} chunks used"
+    elif summary:
+        tail = (f"{summary.get('forks')} forks, {summary.get('legs_expected_found')}/{summary.get('expected_legs')} "
+                f"expected legs sourced, +{summary.get('legs_found_not_expected')} unexpected, {summary.get('passages')} passages")
     print(f"[{record['status']}] {name} in {record['seconds']}s {tail} -> {run_dir}"
           + (f"\n        {record['error']}" if record.get("error") else ""), flush=True)
     return record["status"] == "done"

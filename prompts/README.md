@@ -20,4 +20,7 @@ Each call writes its exact request to `data/api/requests/` and one line to `data
 
 ## Not slot sets
 
+`R_web/` holds the prompts of the visible web pipeline (`drh_pipeline.py`, job_type `fork_map`), one file per stage: `premise`, `cast`, `triage`, `extract`, `forks`, `synthesize`. Each file is the system prompt for that stage; the stage's input is sent as JSON. The model comes from the job (`model:`) or `PROVIDERS.env`; triage uses the fast model, the rest the smart one.
+
+
 `W_story_checklist.json` is the Writer's story checklist (OpenWriter, Story tab), not a slot set. Core items apply to every article; the other items are optional techniques ("extras in the loop"), grouped by the video that teaches them (`source` = video id in `sources`, `t` = seconds in). `outlines` are picked per document and their sections tick off like items. Edit the file to change the list; the tab reads it on load.

@@ -14,7 +14,12 @@ use serde_json::{json, Value};
 
 use crate::Hub;
 
-const RUN_FILES: [&str; 6] = ["report.md", "receipt.json", "sources.json", "run.json", "error.txt", "events.jsonl"];
+const RUN_FILES: [&str; 14] = [
+    "report.md", "receipt.json", "sources.json", "run.json", "error.txt", "events.jsonl",
+    // job_type fork_map (drh_pipeline.py)
+    "premise.json", "net.json", "triage.json", "passages.json", "forks.json", "forks.md", "pipeline.json",
+    "overrides.json",
+];
 
 fn jobs_dir(hub: &Hub) -> PathBuf {
     hub.root.join("data").join("jobs")
@@ -89,6 +94,7 @@ pub async fn runs(State(hub): State<Hub>) -> Response {
                     "stamp": run.file_name().to_string_lossy(),
                     "status": rec.get("status").cloned().unwrap_or(json!("running")),
                     "query": rec.pointer("/job/query").cloned().unwrap_or(Value::Null),
+                    "job_type": rec.pointer("/job/job_type").cloned().unwrap_or(json!("standard")),
                     "model": rec.get("model").cloned().unwrap_or(Value::Null),
                     "seconds": rec.get("seconds").cloned().unwrap_or(Value::Null),
                     "error": rec.get("error").cloned().unwrap_or(Value::Null),

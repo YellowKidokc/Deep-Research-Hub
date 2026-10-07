@@ -3,7 +3,9 @@
 #
 # query:             the question (required, per job)
 # chapter:           AX_GI_01 .. AX_GI_20 (optional; also names the ledger)
-# job_type:          standard | cold_derive | prior_art | hybrid_rule  (only standard is built so far)
+# job_type:          standard | fork_map | cold_derive | prior_art | hybrid_rule  (standard and fork_map are built)
+#                      fork_map = the visible pipeline (drh_pipeline.py): premise audit -> neutral cast ->
+#                      triage -> verbatim passages -> fork map -> report from passages. Web only.
 # report_source:     web | local | hybrid
 # report_type:       research_report | detailed_report | resource_report | outline_report
 # doc_path:          local folder, for local / hybrid
@@ -15,6 +17,8 @@
 # visited_urls_from: ledger name(s) (a chapter or job name) whose visited URLs this run skips
 # meta:              free-form; copied into run.json (question id, subject, ...)
 # timeout_minutes:   a job still running after this is stopped and marked failed (default 60)
+# pipeline:          fork_map settings, e.g. {max_results_per_query: 8, max_keep: 20, triage_batch: 30,
+#                      window_chars: 12000, windows_per_page: 3, max_quotes: 6, recast: true}
 
 job_type: standard
 report_source: web

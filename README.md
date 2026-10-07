@@ -4,7 +4,7 @@ One local application, seven screens, that takes a question or a folder of files
 
 | # | Screen | What it does | Status |
 |---|--------|--------------|--------|
-| 1 | Deep Research | Job queue over GPT Researcher: folder per job, read receipt, run ledger (fork finder: next version) | **steps 1–2 built** |
+| 1 | Deep Research | Job queue over GPT Researcher: folder per job, read receipt, run ledger; `fork_map` jobs: premise audit → neutral cast → triage → verbatim passages → fork map | **steps 1, 2, 4 built** |
 | 2 | Targeted Research | Fixed battery (etymology, first statement, first study, last 30 days, apologetics) → `facts.json` | milestone 6 |
 | 3 | Acquisition | Scrape / Links / Crawl / Search → files | milestone 3 |
 | 4 | Search Engine | cocoindex + MarginaliaSearch over `data/` | milestone 4 |
@@ -47,11 +47,14 @@ Output (stdout and stderr) goes to `data/procs/<id>.log`; the record goes to `da
 
 One job file per question in `data/jobs/` (merged over `data/jobs/_defaults.yaml`); the Queue tab runs them, N at a time, through GPT Researcher (`apps/Research-Acquisition/Researcher/gpt-researcher/drh_queue.py`). Each run gets `data/deep_research/<job>/<stamp>/` with the report, its read receipt (files and chunks read, kept, dropped), sources, run record and event log, plus a line in the chapter's ledger. Field reference: `jobs_defaults.example.yaml` in that folder.
 
+`job_type: fork_map` runs the visible pipeline instead (`drh_pipeline.py`, prompts in `prompts/R_web/`). Before any search it lists what the question assumes and every leg (distinct position) a serious person holds, then searches each leg equally in neutral words, keeps only passages found verbatim in the pages, and maps forks → positions → passages. The run folder adds `premise.json`, `net.json`, `triage.json`, `passages.json`, `forks.json`, `forks.md` and `pipeline.json`; the Runs tab shows how many expected legs found a source, which found none, and which positions turned up that nobody expected. To overrule triage, write `overrides.json` (`{"keep": [urls], "drop": [urls]}`) in the run folder and run `drh_pipeline.py --resume <run folder> --from extract`.
+
 Make jobs from the DEBATE MAP:
 
 ```
 cd apps/Research-Acquisition/Researcher/gpt-researcher
 .venv\Scripts\python make_jobs.py path\to\DEBATE_MAP.md --jobs ..\..\..\..\data\jobs --subjects S-CHURCH S-PERSONAL
+.venv\Scripts\python make_jobs.py path\to\DEBATE_MAP.md --jobs ..\..\..\..\data\jobs --subjects S-EVIL --job-type fork_map
 ```
 
 GPT Researcher needs its own venv in that folder (`python -m venv .venv`, then `pip install -r requirements.txt`), `DEEPSEEK_API_KEY` and `TAVILY_API_KEY` in the environment, and Ollama running for embeddings (`PROVIDERS.env`).
