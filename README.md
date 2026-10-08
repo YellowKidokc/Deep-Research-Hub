@@ -20,7 +20,7 @@ Suggested order 1 → 2 → 3/4/5 → 6 → 7. Nothing enforces it; every screen
 hub/        Rust wrapper: spawns apps/, serves web/dist, keeps state in data/
   launch.json   the only commands the page can start (no raw command lines over HTTP)
 web/        JSX front end (react + vite, same as Top-of-Mind)
-apps/       the thirteen apps (twelve originals + openwriter), each with UPSTREAM.md recording any change made here
+apps/       the eleven apps (ten originals + openwriter), each with UPSTREAM.md recording any change made here
 prompts/    the API Layer's slot sets; every model call is defined here (run_slot.py runs one)
 scripts/    one-off maintenance (archive_pre_ytgrab.py)
 data/       everything produced (git-ignored): procs/ (each run's record and log), youtube/, api/
@@ -67,7 +67,7 @@ The browser prompt is the watch plugin: `apps/Research-Acquisition/youtube-trans
 
 Old `.srt`/`.txt` transcripts from the retired downloaders: `python scripts/archive_pre_ytgrab.py` zips them to `data/youtube/_archive/<date>_pre-ytgrab.zip` with an index (`--dry-run` to see the list first, `--src` for folders outside the repo).
 
-Cloning on Windows needs `git config --global core.longpaths true`: a few paths under `apps/Research-Acquisition/_attic/` are over 260 characters.
+`apps/Research-Acquisition/` carries only what ytgrab.py, the watch plugin and GPT Researcher need; the rest of Research-Acquisition stays in `D:\GitHub\Research-Acquisition` and is git-ignored here (`_attic/`). `git config --global core.longpaths true` is still a good idea on Windows.
 
 ## Screen 7, The Writer
 

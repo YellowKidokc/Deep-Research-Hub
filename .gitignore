@@ -15,3 +15,7 @@ data/
 *.7z
 
 target/
+
+# copies of Research-Acquisition that ytgrab.py and the watch plugin do not need; originals live in D:\GitHub\Research-Acquisition
+apps/Research-Acquisition/_attic/
+.venv-*/

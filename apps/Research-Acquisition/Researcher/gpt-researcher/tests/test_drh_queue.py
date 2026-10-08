@@ -64,13 +64,13 @@ def test_queue_runs_moves_and_records(tmp_path, stubbed):
     assert not list((jobs / "running").iterdir())
     run_dir = next((out / "one").iterdir())
     assert {p.name for p in run_dir.iterdir()} >= {"report.md", "receipt.json", "sources.json", "run.json", "events.jsonl"}
-    rec = json.loads((run_dir / "run.json").read_text())
+    rec = json.loads((run_dir / "run.json").read_text(encoding="utf-8"))
     assert rec["status"] == "done" and rec["job"]["meta"] == {"question_id": "Q-A"}
-    assert len(json.loads((run_dir / "sources.json").read_text())["visited_urls"]) == 3
+    assert len(json.loads((run_dir / "sources.json").read_text(encoding="utf-8"))["visited_urls"]) == 3
     by_q = {s["query"]: s for s in stubbed}
     assert by_q["second question"]["model"] == "deepseek-reasoner"
     assert by_q["second question"]["retrievers"] == ["ArxivSearch"]
-    ledger = (out / "_ledger" / "AX_GI_03.jsonl").read_text().splitlines()
+    ledger = (out / "_ledger" / "AX_GI_03.jsonl").read_text(encoding="utf-8").splitlines()
     assert len(ledger) == 2  # both jobs share the chapter ledger
 
     # Next run on the same chapter skips what was already visited.
@@ -78,7 +78,7 @@ def test_queue_runs_moves_and_records(tmp_path, stubbed):
     assert run(jobs, out) == 0
     third = next(s for s in stubbed if s["query"] == "third")
     assert len(third["visited_in"]) == 6
-    rec3 = json.loads(next((out / "three").iterdir()).joinpath("run.json").read_text())
+    rec3 = json.loads(next((out / "three").iterdir()).joinpath("run.json").read_text(encoding="utf-8"))
     assert rec3["seeded_visited_urls"] == 6
 
 
@@ -104,7 +104,7 @@ def test_failure_goes_to_failed(tmp_path, stubbed, monkeypatch):
     assert run(jobs, out) == 1
     assert len(list((jobs / "failed").iterdir())) == 1
     run_dir = next((out / "x").iterdir())
-    assert json.loads((run_dir / "run.json").read_text())["error"] == "RuntimeError: provider down"
+    assert json.loads((run_dir / "run.json").read_text(encoding="utf-8"))["error"] == "RuntimeError: provider down"
     assert (run_dir / "error.txt").exists() and (run_dir / "receipt.json").exists()
 
     assert run(jobs, out, retry_failed=True) == 0

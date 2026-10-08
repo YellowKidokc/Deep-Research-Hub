@@ -168,18 +168,18 @@ def test_full_pipeline_writes_every_stage(tmp_path, deps):
     assert [s for s in rec["stages"]] == dp.STAGES
     assert all(v["status"] == "done" for v in rec["stages"].values())
 
-    net = json.loads((tmp_path / "net.json").read_text())
+    net = json.loads((tmp_path / "net.json").read_text(encoding="utf-8"))
     targets = {q["targets"]: q["source"] for q in net["queries"]}
     assert targets["L3"] == "filled" and targets["A2"] == "filled"      # balance by construction
     assert any("verdict" in w and "debunked" in w for w in rec["warnings"])
     listicle = next(r for r in net["results"] if r["url"].endswith("listicle"))
     assert len(listicle["found_by"]) == 2                               # deduped, both finders kept
 
-    tri = json.loads((tmp_path / "triage.json").read_text())
+    tri = json.loads((tmp_path / "triage.json").read_text(encoding="utf-8"))
     assert all(r["reason"] for r in tri["results"])
     assert [r["keep"] for r in tri["results"] if r["url"].endswith("listicle")] == [False]
 
-    ps = json.loads((tmp_path / "passages.json").read_text())
+    ps = json.loads((tmp_path / "passages.json").read_text(encoding="utf-8"))
     quotes = {p["id"]: p for p in ps["passages"]}
     assert len(quotes) == 4
     p1 = next(p for p in ps["passages"] if "hasatan" in p["url"])
@@ -188,7 +188,7 @@ def test_full_pipeline_writes_every_stage(tmp_path, deps):
     assert any(p["elided"] for p in ps["passages"])
     assert [r["quote"] for r in ps["rejected"]] == ["Ha-satan is clearly the same being as Lucifer."]
 
-    forks = json.loads((tmp_path / "forks.json").read_text())
+    forks = json.loads((tmp_path / "forks.json").read_text(encoding="utf-8"))
     legs = forks["legs"]
     assert legs["expected_not_found"] == ["L3"]                          # the empty leg is a finding
     assert legs["found_not_expected"] == ["F2.d"]                        # L9 doesn't exist -> unexpected
@@ -197,12 +197,12 @@ def test_full_pipeline_writes_every_stage(tmp_path, deps):
     assert "P99" not in pos["F2.a"]["passages"]
     assert pos["F2.b"]["status"] == "no source"
     assert any("do not exist" in w and "P99" in w for w in rec["warnings"])
-    md = (tmp_path / "forks.md").read_text()
+    md = (tmp_path / "forks.md").read_text(encoding="utf-8")
     assert "L3 (A cosmic rival equal to God)" in md and "### F2.b" in md
 
     syn = rec["stages"]["synthesize"]
     assert syn["unknown_ids"] == ["P42"] and syn["sentences_without_citation"] == 1
-    report = (tmp_path / "report.md").read_text()
+    report = (tmp_path / "report.md").read_text(encoding="utf-8")
     assert "## Passages" in report and "chars" in report
 
     assert pipe.summary()["legs_expected_not_found"] == ["L3"]
@@ -214,10 +214,10 @@ def test_recast_runs_once_for_uncovered_legs(tmp_path, deps):
     d, calls = deps
     pipe = dp.Pipeline("Who is the devil?", tmp_path, d, {"recast": True}, log=lambda m: None)
     asyncio.run(pipe.run())
-    tri = json.loads((tmp_path / "triage.json").read_text())
+    tri = json.loads((tmp_path / "triage.json").read_text(encoding="utf-8"))
     assert tri["recast"]["legs"] == ["L3"]
     assert tri["recast"]["still_uncovered"] == ["L3"]
-    net = json.loads((tmp_path / "net.json").read_text())
+    net = json.loads((tmp_path / "net.json").read_text(encoding="utf-8"))
     assert [q["source"] for q in net["queries"]].count("recast") == 1
 
 
@@ -226,7 +226,7 @@ def test_seen_urls_are_not_triaged(tmp_path, deps):
     pipe = dp.Pipeline("Who is the devil?", tmp_path, d, {"recast": False},
                        skip_urls={"https://example.org/secular"}, log=lambda m: None)
     asyncio.run(pipe.run())
-    tri = json.loads((tmp_path / "triage.json").read_text())
+    tri = json.loads((tmp_path / "triage.json").read_text(encoding="utf-8"))
     sec = next(r for r in tri["results"] if r["url"].endswith("secular"))
     assert not sec["keep"] and "earlier run" in sec["reason"]
 
@@ -243,10 +243,10 @@ def test_resume_applies_person_overrides(tmp_path, deps):
     assert calls[0] == "extract" and "premise" not in calls and "triage" not in calls
     assert rec["overrides_applied"] == 2
     assert set(rec["stages"]) == set(dp.STAGES)                          # earlier stages' record kept
-    tri = json.loads((tmp_path / "triage.json").read_text())
+    tri = json.loads((tmp_path / "triage.json").read_text(encoding="utf-8"))
     lst = next(r for r in tri["results"] if r["url"].endswith("listicle"))
     assert lst["keep"] and lst["by"] == "person" and "model said: listicle" in lst["reason"]
-    ps = json.loads((tmp_path / "passages.json").read_text())
+    ps = json.loads((tmp_path / "passages.json").read_text(encoding="utf-8"))
     assert not any("secular" in p["url"] for p in ps["passages"])
 
 
@@ -262,7 +262,7 @@ def test_failed_stage_is_recorded(tmp_path, deps):
     pipe = dp.Pipeline("Who is the devil?", tmp_path, d, log=lambda m: None)
     with pytest.raises(RuntimeError):
         asyncio.run(pipe.run())
-    rec = json.loads((tmp_path / "pipeline.json").read_text())
+    rec = json.loads((tmp_path / "pipeline.json").read_text(encoding="utf-8"))
     assert rec["failed_at"] == "triage" and rec["stages"]["triage"]["status"] == "failed"
     assert rec["stages"]["cast"]["status"] == "done"
 
@@ -301,10 +301,10 @@ def test_queue_runs_fork_map_job(tmp_path, monkeypatch, deps):
     assert asyncio.run(drh_queue.main_async(args)) == 1                  # bad.yaml is a problem, not run
     assert (jobs / "bad.yaml").exists()
     run_dir = next((out / "devil").iterdir())
-    rec = json.loads((run_dir / "run.json").read_text())
+    rec = json.loads((run_dir / "run.json").read_text(encoding="utf-8"))
     assert rec["status"] == "done", rec.get("error")
     assert rec["receipt_summary"]["legs_expected_not_found"] == ["L3"]
-    assert (run_dir / "forks.md").exists() and (run_dir / "report.md").read_text().startswith("# The devil")
-    ledger = (out / "_ledger" / "devil.jsonl").read_text().splitlines()
+    assert (run_dir / "forks.md").exists() and (run_dir / "report.md").read_text(encoding="utf-8").startswith("# The devil")
+    ledger = (out / "_ledger" / "devil.jsonl").read_text(encoding="utf-8").splitlines()
     assert "https://example.org/hasatan" in json.loads(ledger[0])["visited_urls"]
     assert list((jobs / "done").glob("*_devil.yaml"))

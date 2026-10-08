@@ -1,6 +1,0 @@
-runtime/
-logs/
-data/preferences/*.jsonl
-__pycache__/
-*.pyc
-

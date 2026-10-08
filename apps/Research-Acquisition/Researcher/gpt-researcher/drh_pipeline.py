@@ -344,10 +344,26 @@ class Pipeline:
                 recast = {"legs": uncovered, "queries": len(queries), "new_results": len(new),
                           "still_uncovered": self._uncovered(p, rows)}
 
-        # max_keep is a hard cap; trim the latest keeps, recorded as such.
+        # max_keep is a hard cap. Trim round-robin across the targets each page
+        # bears on, so the cap never falls on the legs that happen to come last
+        # (results are listed neutral -> presuppositions -> legs in order; a
+        # tail trim would cut the last legs first and undo the balanced cast).
+        cap = int(self.s["max_keep"]) + (len(recast.get("legs", [])) * 2)
         kept = [r for r in rows if r["keep"]]
-        for r in kept[int(self.s["max_keep"]) + (len(recast.get("legs", [])) * 2):]:
-            r["keep"], r["reason"] = False, f"over max_keep (was kept: {r['reason']})"
+        if len(kept) > cap:
+            by_target: dict[str, list] = {}
+            for r in kept:
+                key = (r["bears_on"] or r["found_by"] or ["neutral"])[0]
+                by_target.setdefault(key, []).append(r)
+            chosen, lanes = [], list(by_target.values())
+            while len(chosen) < cap and any(lanes):
+                for lane in lanes:
+                    if lane and len(chosen) < cap:
+                        chosen.append(lane.pop(0))
+            keep_ids = {r["id"] for r in chosen}
+            for r in kept:
+                if r["id"] not in keep_ids:
+                    r["keep"], r["reason"] = False, f"over max_keep, per-leg round robin (was kept: {r['reason']})"
         self.write("triage.json", {"results": rows, "recast": recast})
         kept = [r for r in rows if r["keep"]]
         return {"kept": len(kept), "dropped": len(rows) - len(kept),
