@@ -59,6 +59,8 @@ class ResearchRequest(BaseModel):
     repo_name: str
     branch_name: str
     generate_in_background: bool = True
+    doc_path: str | None = None            # local folder for this request (local/hybrid)
+    config_overrides: dict | None = None   # research-profile knobs for this request
 
 
 class ChatRequest(BaseModel):
@@ -343,7 +345,9 @@ async def write_report(research_request: ResearchRequest, research_id: str = Non
         headers=research_request.headers,
         query_domains=[],
         config_path="",
-        return_researcher=True
+        return_researcher=True,
+        doc_path=research_request.doc_path,
+        config_overrides=research_request.config_overrides,
     )
 
     docx_path = await write_md_to_word(report_information[0], research_id)
@@ -357,6 +361,7 @@ async def write_report(research_request: ResearchRequest, research_id: str = Non
                 "research_costs": researcher.get_costs(),
                 "visited_urls": list(researcher.visited_urls),
                 "research_images": researcher.get_research_images(),
+                "read_receipt": researcher.get_read_receipt(),
                 # "research_sources": researcher.get_research_sources(),  # Raw content of sources may be very large
             },
             "report": report,

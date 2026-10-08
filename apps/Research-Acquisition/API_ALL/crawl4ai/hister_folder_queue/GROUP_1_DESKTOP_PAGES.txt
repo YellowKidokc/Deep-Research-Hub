@@ -1,4 +1,0 @@
-# One full folder path per line. Lines beginning with # are ignored.
-# This first group is intentionally limited to generated/research pages,
-# rather than indexing every private file under H:\Desktop.
-H:\Desktop\FIS

@@ -22,6 +22,8 @@ class BasicReport:
         mcp_configs=None,
         mcp_strategy=None,
         max_search_results=None,
+        doc_path=None,
+        config_overrides=None,
     ):
         self.query = query
         self.query_domains = query_domains
@@ -50,6 +52,14 @@ class BasicReport:
             "websocket": self.websocket,
             "headers": self.headers,
         }
+
+        # Per-request local folder and research-profile settings
+        if doc_path:
+            gpt_researcher_params["doc_path"] = doc_path
+        if config_overrides:
+            gpt_researcher_params["config_overrides"] = config_overrides
+        self.doc_path = doc_path
+        self.config_overrides = config_overrides
 
         # Add MCP parameters if provided
         if mcp_configs is not None:

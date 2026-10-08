@@ -1,0 +1,53 @@
+/* Story tab (Deep Research Hub). Uses the app's theme variables only. */
+.story-tab { padding: 8px 12px 24px; font-family: var(--font-body); }
+.story-tab__group { margin-bottom: 18px; }
+.story-tab__label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-light); margin: 6px 0 8px; }
+.story-tab__count { margin-left: 6px; color: var(--ink-light); text-transform: none; letter-spacing: 0; }
+.story-tab__note { font-size: 12px; color: var(--ink-light); margin: 4px 0 8px; }
+.story-tab__error { color: var(--color-pending-delete); }
+.story-tab__empty { padding: 24px 12px; }
+.story-tab__empty-title { color: var(--ink-dark); margin-bottom: 4px; }
+
+.story-tab__item {
+  border: 1px solid var(--border); border-radius: 6px; margin-bottom: 6px;
+}
+.story-tab__item:hover { background: var(--bg-hover); }
+.story-tab__item-hit {
+  display: flex; gap: 8px; width: 100%; text-align: left; align-items: flex-start;
+  background: none; border: none; padding: 7px 8px; cursor: pointer; color: var(--ink-body); font: inherit;
+}
+.story-tab__mark {
+  flex: none; width: 16px; height: 16px; border: 1px solid var(--border); border-radius: 4px;
+  font-size: 11px; line-height: 14px; text-align: center; margin-top: 1px;
+}
+.story-tab__item.is-done { border-color: var(--color-pending-insert); }
+.story-tab__item.is-done .story-tab__mark { background: var(--color-pending-insert); border-color: var(--color-pending-insert); color: var(--bg-surface); }
+.story-tab__item.is-done .story-tab__item-label { color: var(--color-pending-insert); }
+.story-tab__item-text { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.story-tab__item-label { font-size: 13px; color: var(--ink-dark); }
+.story-tab__item-q { font-size: 11px; color: var(--ink-light); }
+.story-tab__src { display: block; font-size: 11px; color: var(--accent); padding: 0 8px 6px 32px; text-decoration: none; }
+.story-tab__src:hover { text-decoration: underline; }
+.story-tab__src--group { padding: 0 0 6px; }
+.story-tab__extras { margin-bottom: 4px; }
+.story-tab__extras-head {
+  display: block; width: 100%; text-align: left; background: none; border: none; cursor: pointer;
+  font: inherit; font-size: 13px; color: var(--ink-dark); padding: 4px 0;
+}
+
+.story-tab__paras { display: flex; flex-direction: column; gap: 3px; }
+.story-tab__para { display: grid; grid-template-columns: 56px 1fr auto; gap: 6px; align-items: center; font-size: 11px; color: var(--ink-light); }
+.story-tab__para-bar { height: 6px; border-radius: 3px; background: var(--color-pending-insert); justify-self: start; min-width: 2px; }
+.story-tab__para.is-short .story-tab__para-bar,
+.story-tab__para.is-long .story-tab__para-bar { background: var(--color-pending-delete); }
+.story-tab__para.is-short .story-tab__para-w,
+.story-tab__para.is-long .story-tab__para-w { color: var(--color-pending-delete); }
+
+.story-tab__topic {
+  width: 100%; box-sizing: border-box; font: inherit; font-size: 12px; padding: 5px 7px; margin-bottom: 8px;
+  border: 1px solid var(--border); border-radius: 6px; background: var(--bg-surface); color: var(--ink-dark);
+}
+.story-tab__card { border: 1px solid var(--border); border-radius: 6px; padding: 7px 8px; margin-bottom: 6px; }
+.story-tab__card-kind { font-size: 10px; color: var(--ink-light); text-transform: uppercase; letter-spacing: 0.04em; }
+.story-tab__card-title { font-size: 13px; color: var(--ink-dark); margin: 2px 0; }
+.story-tab__card-snippet { font-size: 12px; color: var(--ink-body); white-space: pre-wrap; max-height: 7.5em; overflow: hidden; }

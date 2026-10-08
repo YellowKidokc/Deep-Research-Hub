@@ -1,1 +1,0 @@
-"""Truth and consistency helpers."""

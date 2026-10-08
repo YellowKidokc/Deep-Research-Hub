@@ -1,0 +1,149 @@
+[
+  {
+    "id": "youtube.grab",
+    "label": "YouTube: ytgrab.py -> data/youtube, then baseline summary",
+    "app": "Research-Acquisition",
+    "cwd": "yt-transcript-downloader",
+    "program": "python",
+    "args": [
+      "ytgrab.py",
+      "{url}",
+      "--out",
+      "{data}/youtube",
+      "--limit={limit}"
+    ],
+    "params": [
+      {
+        "name": "url",
+        "label": "Video or channel URL",
+        "kind": "youtube_url"
+      },
+      {
+        "name": "limit",
+        "label": "At most N videos this run (blank = all)",
+        "kind": "count",
+        "optional": true
+      }
+    ],
+    "then": [
+      {
+        "program": "python",
+        "cwd": ".",
+        "args": [
+          "prompts/run_slot.py",
+          "Y",
+          "1",
+          "--dir",
+          "{data}/youtube",
+          "--since",
+          "{started}",
+          "--append"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gptr.server",
+    "label": "GPT Researcher server (127.0.0.1:8000)",
+    "app": "Research-Acquisition",
+    "cwd": "Researcher/gpt-researcher",
+    "program": "python",
+    "args": [
+      "-m",
+      "uvicorn",
+      "main:app",
+      "--host",
+      "127.0.0.1",
+      "--port",
+      "8000"
+    ]
+  },
+  {
+    "id": "deep.queue",
+    "label": "Deep Research: run the job queue (data/jobs)",
+    "app": "Research-Acquisition",
+    "cwd": "Researcher/gpt-researcher",
+    "program": "python",
+    "args": [
+      "drh_queue.py",
+      "--jobs",
+      "{data}/jobs",
+      "--out",
+      "{data}/deep_research",
+      "--parallel={parallel}"
+    ],
+    "params": [
+      {
+        "name": "parallel",
+        "label": "Jobs at once (blank = 1)",
+        "kind": "count",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "id": "deep.check",
+    "label": "Deep Research: check the job queue (dry run)",
+    "app": "Research-Acquisition",
+    "cwd": "Researcher/gpt-researcher",
+    "program": "python",
+    "args": [
+      "drh_queue.py",
+      "--jobs",
+      "{data}/jobs",
+      "--out",
+      "{data}/deep_research",
+      "--dry-run"
+    ]
+  },
+  {
+    "id": "deep.retry",
+    "label": "Deep Research: put failed jobs back in the queue",
+    "app": "Research-Acquisition",
+    "cwd": "Researcher/gpt-researcher",
+    "program": "python",
+    "args": [
+      "drh_queue.py",
+      "--jobs",
+      "{data}/jobs",
+      "--out",
+      "{data}/deep_research",
+      "--retry-failed"
+    ]
+  },
+  {
+    "id": "pipeline-workflows.help",
+    "label": "pipeline-workflows: evaluate_question.py --help",
+    "app": "pipeline-workflows",
+    "cwd": ".",
+    "program": "python",
+    "args": [
+      "evaluate_question.py",
+      "--help"
+    ]
+  },
+  {
+    "id": "research-acquisition.ytgrab-help",
+    "label": "Research-Acquisition: ytgrab.py --help",
+    "app": "Research-Acquisition",
+    "cwd": "yt-transcript-downloader",
+    "program": "python",
+    "args": [
+      "ytgrab.py",
+      "--help"
+    ]
+  },
+  {
+    "id": "openwriter.server",
+    "label": "OpenWriter (the Writer surface) on 127.0.0.1:5050",
+    "app": "openwriter",
+    "cwd": ".",
+    "program": "node",
+    "args": [
+      "packages/openwriter/dist/bin/pad.js",
+      "--port",
+      "5050",
+      "--no-open"
+    ]
+  }
+]

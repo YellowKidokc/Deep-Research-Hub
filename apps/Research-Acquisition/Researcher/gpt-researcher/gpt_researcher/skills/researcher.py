@@ -163,7 +163,7 @@ class ResearchConductor:
             research_data = await self._get_context_by_web_search(self.researcher.query, [], self.researcher.query_domains)
         elif self.researcher.report_source == ReportSource.Local.value:
             self.logger.info("Using local search")
-            document_data = await DocumentLoader(self.researcher.cfg.doc_path).load()
+            document_data = await DocumentLoader(self.researcher.cfg.doc_path, receipt=self.researcher.read_receipt).load()
             self.logger.info(f"Loaded {len(document_data)} documents")
             if self.researcher.vector_store:
                 self.researcher.vector_store.load(document_data)
@@ -174,7 +174,7 @@ class ResearchConductor:
             if self.researcher.document_urls:
                 document_data = await OnlineDocumentLoader(self.researcher.document_urls).load()
             else:
-                document_data = await DocumentLoader(self.researcher.cfg.doc_path).load()
+                document_data = await DocumentLoader(self.researcher.cfg.doc_path, receipt=self.researcher.read_receipt).load()
             if self.researcher.vector_store:
                 self.researcher.vector_store.load(document_data)
             # The local-docs pass and the web pass are independent, so run
@@ -643,6 +643,9 @@ class ResearchConductor:
             
         except Exception as e:
             self.logger.error(f"Error processing sub-query {sub_query}: {e}", exc_info=True)
+            receipt = getattr(self.researcher, "read_receipt", None)
+            if receipt:
+                receipt.sub_query_error(sub_query, f"{type(e).__name__}: {e}")
             if self.researcher.verbose:
                 await stream_output(
                     "logs",

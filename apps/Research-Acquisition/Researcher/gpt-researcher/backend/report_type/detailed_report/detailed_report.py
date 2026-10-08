@@ -25,6 +25,8 @@ class DetailedReport:
         mcp_configs=None,
         mcp_strategy=None,
         max_search_results=None,
+        doc_path=None,
+        config_overrides=None,
     ):
         self.query = query
         self.report_type = report_type
@@ -57,6 +59,14 @@ class DetailedReport:
             "headers": self.headers,
             "complement_source_urls": self.complement_source_urls,
         }
+
+        # Per-request local folder and research-profile settings
+        if doc_path:
+            gpt_researcher_params["doc_path"] = doc_path
+        if config_overrides:
+            gpt_researcher_params["config_overrides"] = config_overrides
+        self.doc_path = doc_path
+        self.config_overrides = config_overrides
 
         # Add MCP parameters if provided
         if mcp_configs is not None:
@@ -154,8 +164,12 @@ class DetailedReport:
             source_urls=self.source_urls,
             # Propagate MCP configuration so follow-up researchers can use MCP
             mcp_configs=self.gpt_researcher.mcp_configs,
-            mcp_strategy=self.gpt_researcher.mcp_strategy
+            mcp_strategy=self.gpt_researcher.mcp_strategy,
+            doc_path=self.doc_path,
+            config_overrides=self.config_overrides,
         )
+        # One receipt per report: subtopic reads land in the parent's receipt.
+        subtopic_assistant.read_receipt = self.gpt_researcher.read_receipt
 
         # Propagate max_search_results override to subtopic researcher
         if self.max_search_results is not None:

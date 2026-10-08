@@ -5,6 +5,9 @@ YouTube Watch Logger + Downloader (local server)
 - When you click "Download" in the popup, the video is queued and yt-dlp runs
 - Proxies from config.json are rotated / retried on failure
 - Dashboard at http://127.0.0.1:8765/ lets you download everything at once
+- Transcript mode: the prompt offers this video / whole channel / skip; both
+  downloads run ytgrab.py --out <out_dir> (the hub's data/youtube), then the
+  baseline summary slot (prompts/Y_youtube.json) is appended to each new file
 """
 
 import json
@@ -13,12 +16,21 @@ import subprocess
 import threading
 import queue
 import itertools
+import sys
+import time
 from datetime import datetime
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 
-HERE = Path(__file__).parent
+HERE = Path(__file__).resolve().parent
 CONFIG = json.loads((HERE / "config.json").read_text(encoding="utf-8"))
+
+
+def config_path(key, default=""):
+    """Paths in config.json may be relative to this folder."""
+    return (HERE / CONFIG.get(key, default)).resolve()
+
+
 DB_PATH = HERE / "watch_log.db"
 DOWNLOAD_DIR = Path(CONFIG["download_dir"])
 DOWNLOAD_DIR.mkdir(parents=True, exist_ok=True)
@@ -50,6 +62,12 @@ def init_db():
                 status       TEXT DEFAULT 'watched',  -- watched|skipped|queued|downloading|done|failed
                 error        TEXT
             )""")
+        # scope: 'video' or 'channel' (the whole channel this video is on)
+        cols = {r["name"] for r in conn.execute("PRAGMA table_info(videos)")}
+        if "scope" not in cols:
+            conn.execute("ALTER TABLE videos ADD COLUMN scope TEXT DEFAULT 'video'")
+        if "channel_url" not in cols:
+            conn.execute("ALTER TABLE videos ADD COLUMN channel_url TEXT")
         # anything left mid-download from a previous run goes back in the queue
         conn.execute("UPDATE videos SET status='queued' WHERE status='downloading'")
 
@@ -126,8 +144,11 @@ def download(video_id, url):
     print(f"[failed] {video_id}: {last_err}")
 
 
-YTBSD_DIR = Path(CONFIG.get("ytbsd_dir", ""))
-YTBSD_OUT = YTBSD_DIR / "subtitles"
+YTBSD_DIR = config_path("ytbsd_dir")
+# The hub's data/youtube when out_dir is set; ytgrab's own subtitles/ otherwise.
+YTBSD_OUT = config_path("out_dir") if CONFIG.get("out_dir") else YTBSD_DIR / "subtitles"
+HUB_ROOT = config_path("hub_root") if CONFIG.get("hub_root") else None
+summary_lock = threading.Lock()
 
 
 _head_cache = {}          # path -> (mtime, video_id, head)
@@ -201,8 +222,10 @@ def grab_transcripts(jobs):
     """
     for vid, _ in jobs:
         set_status(vid, "downloading")
-    cmd = [str(YTBSD_DIR / "venv/Scripts/python.exe"), "ytgrab.py",
-           *[url for _, url in jobs], *CONFIG.get("ytbsd_args", [])]
+    YTBSD_OUT.mkdir(parents=True, exist_ok=True)
+    started = time.time()
+    cmd = [ytbsd_python(), "ytgrab.py",
+           *[url for _, url in jobs], "--out", str(YTBSD_OUT), *CONFIG.get("ytbsd_args", [])]
     print(f"[ytbsd] {len(jobs)} video(s): {' '.join(cmd[2:])}")
     open_ids = {vid for vid, _ in jobs}
     last_line = ""
@@ -221,6 +244,37 @@ def grab_transcripts(jobs):
     for vid in open_ids:
         if not _mark_if_saved(vid):
             set_status(vid, "failed", last_line or "transcript not captured")
+    summarize_since(started)
+
+
+def grab_channel(video_id, channel_url):
+    """Whole channel: one ytgrab.py run on the channel URL. ytgrab skips videos
+    already saved, so a channel opened twice only fetches what is new."""
+    grab_transcripts([(video_id, channel_url)])
+
+
+def ytbsd_python():
+    """ytgrab's own venv; the interpreter running this server if it has none."""
+    for rel in ("venv/Scripts/python.exe", "venv/bin/python"):
+        p = YTBSD_DIR / rel
+        if p.exists():
+            return str(p)
+    return sys.executable
+
+
+def summarize_since(started):
+    """Append the baseline summary slot to every transcript written since `started`."""
+    s = CONFIG.get("summary")
+    if not s or not HUB_ROOT:
+        return
+    cmd = [sys.executable, str(HUB_ROOT / "prompts" / "run_slot.py"), str(s["set"]), str(s["slot"]),
+           "--dir", str(YTBSD_OUT), "--since", str(int(started) - 1), "--append"]
+    with summary_lock:  # two workers must not both append to the same file
+        proc = subprocess.run(cmd, cwd=HUB_ROOT, capture_output=True, text=True,
+                              encoding="utf-8", errors="replace")
+    for line in (proc.stdout + proc.stderr).splitlines():
+        if line.strip():
+            print(f"  [summary] {line}")
 
 
 def reconcile():
@@ -245,22 +299,29 @@ def reconcile():
 def worker():
     while True:
         jobs = [job_queue.get()]
+        channel_jobs = []
         if CONFIG.get("mode") == "transcript":
-            # grab everything else already waiting so bulk downloads run as one YTBSD call
+            # grab everything else already waiting so bulk downloads run as one YTBSD call;
+            # whole-channel jobs run on their own
             while len(jobs) < CONFIG.get("batch_size", 25):
                 try:
                     jobs.append(job_queue.get_nowait())
                 except queue.Empty:
                     break
+            channel_jobs = [j for j in jobs if j[2] == "channel"]
         try:
             if CONFIG.get("mode") == "transcript":
-                grab_transcripts(jobs)
+                for video_id, channel_url, _ in channel_jobs:
+                    grab_channel(video_id, channel_url)
+                videos = [(v, u) for v, u, kind in jobs if kind != "channel"]
+                if videos:
+                    grab_transcripts(videos)
             else:
-                for video_id, url in jobs:
+                for video_id, url, _ in jobs:
                     set_status(video_id, "downloading")
                     download(video_id, url)
         except Exception as e:
-            for video_id, _ in jobs:
+            for video_id, _, _ in jobs:
                 set_status(video_id, "failed", str(e))
         finally:
             for _ in jobs:
@@ -270,7 +331,27 @@ def worker():
 def enqueue(video_id, url=None):
     url = url or f"https://www.youtube.com/watch?v={video_id}"
     set_status(video_id, "queued")
-    job_queue.put((video_id, url))
+    with db_lock, db() as conn:
+        conn.execute("UPDATE videos SET scope='video' WHERE video_id=?", (video_id,))
+    job_queue.put((video_id, url, "video"))
+
+
+CHANNEL_PREFIXES = ("https://www.youtube.com/@", "https://www.youtube.com/channel/",
+                    "https://www.youtube.com/c/", "https://www.youtube.com/user/")
+
+
+def enqueue_channel(video_id, channel_url):
+    """Queue the whole channel this video belongs to."""
+    if CONFIG.get("mode") != "transcript":
+        raise ValueError("whole channel is for transcript mode only")
+    channel_url = (channel_url or "").strip()
+    if not channel_url.startswith(CHANNEL_PREFIXES) or any(c.isspace() for c in channel_url):
+        raise ValueError("no channel link found on the page")
+    set_status(video_id, "queued")
+    with db_lock, db() as conn:
+        conn.execute("UPDATE videos SET scope='channel', channel_url=? WHERE video_id=?",
+                     (channel_url, video_id))
+    job_queue.put((video_id, channel_url, "channel"))
 
 
 # ---------------------------------------------------------------- HTTP
@@ -314,6 +395,13 @@ class Handler(BaseHTTPRequestHandler):
         elif self.path == "/api/download":
             enqueue(body["video_id"], body.get("url"))
             self._send(200, {"queued": body["video_id"]})
+        elif self.path == "/api/download-channel":
+            try:
+                enqueue_channel(body["video_id"], body.get("channel_url"))
+            except ValueError as e:
+                self._send(400, {"error": str(e)})
+                return
+            self._send(200, {"queued": body["channel_url"]})
         elif self.path == "/api/skip":
             set_status(body["video_id"], "skipped")
             self._send(200, {"skipped": body["video_id"]})
@@ -342,7 +430,10 @@ def main():
         threading.Thread(target=worker, daemon=True).start()
     for v in list_videos():  # resume unfinished queue
         if v["status"] == "queued":
-            job_queue.put((v["video_id"], v["url"]))
+            if v.get("scope") == "channel" and v.get("channel_url"):
+                job_queue.put((v["video_id"], v["channel_url"], "channel"))
+            else:
+                job_queue.put((v["video_id"], v["url"], "video"))
 
     port = CONFIG["port"]
     print("=" * 60)
@@ -350,6 +441,9 @@ def main():
     print(f"Mode:                  {CONFIG.get('mode')}")
     print(f"Downloads ->           {YTBSD_OUT if CONFIG.get('mode') == 'transcript' else DOWNLOAD_DIR}")
     print(f"Proxies:               {len(CONFIG['proxies']) or 'none (direct)'}")
+    if CONFIG.get("mode") == "transcript":
+        s = CONFIG.get("summary")
+        print(f"Summary slot:          {s['set']}/{s['slot']} via {HUB_ROOT}" if s and HUB_ROOT else "Summary slot:          off")
     print("=" * 60)
     ThreadingHTTPServer(("127.0.0.1", port), Handler).serve_forever()
 

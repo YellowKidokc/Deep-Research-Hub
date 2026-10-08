@@ -57,6 +57,8 @@ class ContextManager:
             embeddings=self.researcher.memory.get_embeddings(),
             similarity_threshold=getattr(self.researcher.cfg, "similarity_threshold", None),
             prompt_family=self.researcher.prompt_family,
+            receipt=getattr(self.researcher, "read_receipt", None),
+            receipt_query=query,
             **self.researcher.kwargs
         )
         return await context_compressor.async_get_context(

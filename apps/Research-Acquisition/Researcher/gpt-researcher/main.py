@@ -27,6 +27,9 @@ logging.getLogger('fontTools.ttLib').setLevel(logging.WARNING)
 logger = logging.getLogger(__name__)
 
 load_dotenv()
+# Provider choices (no keys). .env and the real environment win; this only
+# fills what is unset, so a bare launch never falls back to OpenAI silently.
+load_dotenv(Path(__file__).resolve().parent / "PROVIDERS.env", override=False)
 
 from backend.server.app import app
 

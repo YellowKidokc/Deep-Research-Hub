@@ -1,0 +1,77 @@
+# Starts the real hub on Windows and checks that it runs an app with that
+# app's own interpreter (apps\<app>\.venv\Scripts\python.exe).
+name: hub on windows
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  hub-windows:
+    runs-on: windows-latest
+    defaults:
+      run:
+        shell: pwsh
+    steps:
+      # apps/Research-Acquisition has paths over Windows' 260-char limit.
+      - name: Allow long paths
+        run: git config --system core.longpaths true
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Build web
+        working-directory: web
+        run: |
+          npm ci
+          npm run build
+
+      - name: Build hub
+        run: cargo build --manifest-path hub/Cargo.toml
+
+      - name: Give pipeline-workflows its own venv
+        run: python -m venv apps\pipeline-workflows\.venv
+
+      - name: Start hub, run one app, check the interpreter
+        run: |
+          $hub = Start-Process -FilePath hub\target\debug\drh-hub.exe -PassThru `
+                   -RedirectStandardOutput hub-out.log -RedirectStandardError hub-err.log
+          $base = "http://127.0.0.1:2828"
+          for ($i = 0; $i -lt 30; $i++) {
+            try { Invoke-RestMethod "$base/api/health" | Out-Null; break } catch { Start-Sleep 1 }
+          }
+
+          $page = Invoke-WebRequest "$base/" -UseBasicParsing
+          if ($page.Content -notmatch "Deep Research Hub") { throw "web/dist not served" }
+
+          function Run($id) {
+            $rec = Invoke-RestMethod -Method Post "$base/api/launch/$id"
+            for ($i = 0; $i -lt 30 -and $rec.status -eq "running"; $i++) {
+              Start-Sleep 1
+              $rec = Invoke-RestMethod "$base/api/procs/$($rec.id)"
+            }
+            $log = Invoke-RestMethod "$base/api/procs/$($rec.id)/log"
+            Write-Host "--- $id"
+            Write-Host "interpreter: $($rec.cmd[0])"
+            Write-Host "cwd:         $($rec.cwd)"
+            Write-Host "status:      $($rec.status) exit=$($rec.exit_code)"
+            Write-Host $log.text
+            return $rec
+          }
+
+          # venv present: must resolve to that app's Scripts\python.exe
+          $a = Run "pipeline-workflows.help"
+          $want = (Resolve-Path "apps\pipeline-workflows\.venv\Scripts\python.exe").Path
+          if ($a.cmd[0] -ne $want) { throw "expected $want, got $($a.cmd[0])" }
+          if ($a.status -ne "exited" -or $a.exit_code -ne 0) { throw "app did not exit 0" }
+
+          # no venv: falls back to plain 'python' on PATH
+          $b = Run "research-acquisition.ytgrab-help"
+          if ($b.cmd[0] -ne "python") { throw "expected fallback 'python', got $($b.cmd[0])" }
+
+          Stop-Process -Id $hub.Id
+          Get-Content hub-out.log, hub-err.log

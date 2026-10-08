@@ -145,6 +145,8 @@ async def handle_start_command(websocket, data: str, manager):
         mcp_strategy,
         mcp_configs,
         max_search_results,
+        doc_path,
+        config_overrides,
     ) = extract_command_data(json_data)
 
     if not task or not report_type:
@@ -163,7 +165,7 @@ async def handle_start_command(websocket, data: str, manager):
 
     sanitized_filename = sanitize_filename(f"task_{int(time.time())}_{task}")
 
-    report = await manager.start_streaming(
+    result = await manager.start_streaming(
         task,
         report_type,
         report_source,
@@ -177,11 +179,22 @@ async def handle_start_command(websocket, data: str, manager):
         mcp_strategy,
         mcp_configs,
         max_search_results,
+        doc_path=doc_path,
+        config_overrides=config_overrides,
+        return_researcher=True,
     )
+    report, researcher = result if isinstance(result, tuple) else (result, None)
     report = str(report)
     file_paths = await generate_report_files(report, sanitized_filename)
     # Add JSON log path to file_paths
     file_paths["json"] = os.path.relpath(logs_handler.log_file)
+    if researcher is not None and hasattr(researcher, "write_read_receipt"):
+        # The read receipt sits next to the report: <name>.receipt.json
+        receipt_path = os.path.splitext(file_paths["md"])[0] + ".receipt.json"
+        researcher.write_read_receipt(receipt_path)
+        file_paths["receipt"] = receipt_path
+        await websocket.send_json({"type": "logs", "content": "read_receipt",
+                                   "output": "Read receipt written", "metadata": researcher.get_read_receipt()["summary"]})
     await send_file_paths(websocket, file_paths)
 
 
@@ -416,4 +429,6 @@ def extract_command_data(json_data: Dict) -> tuple:
         json_data.get("mcp_strategy", "fast"),
         json_data.get("mcp_configs", []),
         json_data.get("max_search_results"),
+        json_data.get("doc_path"),
+        json_data.get("config_overrides"),
     )
