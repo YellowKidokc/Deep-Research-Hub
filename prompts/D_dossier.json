@@ -1,0 +1,24 @@
+{
+  "set": "D",
+  "name": "Dossier",
+  "description": "The Writer's dossier (scripts/dossier.py): a dump of material on one topic is broken into pills (slot 1), then sorted into a workflow's sections or cut with a reason (slot 2). Sorts; never writes the paper.",
+  "slots": {
+    "1": {
+      "id": "pills",
+      "label": "Break one source into pills",
+      "provider": { "kind": "openai-compatible", "base_url": "https://api.deepseek.com", "model": "deepseek-chat", "key_env": "DEEPSEEK_API_KEY" },
+      "temperature": 0.2,
+      "max_tokens": 8000,
+      "prompt": { "join": "\n\n---\n\n", "strip_comments": true, "parts": [ { "file": "D_dossier/pills.md" } ] }
+    },
+    "2": {
+      "id": "sort",
+      "label": "Sort pills into the workflow's sections",
+      "provider": { "kind": "openai-compatible", "base_url": "https://api.deepseek.com", "model": "deepseek-chat", "key_env": "DEEPSEEK_API_KEY" },
+      "temperature": 0.1,
+      "max_tokens": 8000,
+      "prompt": { "join": "\n\n---\n\n", "strip_comments": true, "parts": [ { "file": "D_dossier/sort.md" } ] }
+    },
+    "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "10": null
+  }
+}

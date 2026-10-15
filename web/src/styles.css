@@ -55,3 +55,11 @@ button:disabled { color: var(--dim); border-color: var(--line); cursor: default;
 pre.doc { max-height: none; }
 td.links a { color: var(--accent); cursor: pointer; }
 .st-done, .st-exited { color: var(--fg); }
+
+/* Targeted Research facts */
+.fact { border-top: 1px solid var(--line); padding: 8px 0; }
+.fact h3 { margin: 4px 0; font-weight: 400; }
+.fact .badge { font-size: 12px; margin-left: 8px; }
+.fact blockquote { margin: 4px 0 4px 12px; padding-left: 8px; border-left: 2px solid var(--line); color: var(--fg); }
+.fact blockquote a, .fact a { color: var(--accent); }
+.small { font-size: 12px; }

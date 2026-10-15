@@ -50,3 +50,10 @@ Added in `Researcher/gpt-researcher/` (GPT Researcher's own files unchanged):
 
 Prompts are in the hub's `prompts/R_web/` (`premise`, `cast`, `triage`, `extract`, `forks`, `synthesize`).
 
+### 2026-10-15 — Targeted Research (screen 2)
+
+Added in `Researcher/gpt-researcher/` (GPT Researcher's own files unchanged):
+- `drh_targeted.py`: one topic through a fixed battery of narrow lookups (`<hub>/prompts/T_targeted/battery.json`: origin, first statement, first study, apologetics; essence paper and last 30 days listed but skipped until a fork map / the last30days arm exists). Per item: hint queries plus a few from the model → search → read the top pages → verbatim passages → findings → check. A finding is rejected unless it cites passages that exist and every field the item requires (who / when / where) is filled, with who and when stated in a cited passage (whole words / whole numbers). No accepted finding = `unknown`. Writes `data/targeted/<topic>/<stamp>/facts.json`, `facts.md`, `run.json`, `items/<id>/` (queries, results, passages, answer). `--topic` (repeatable), `--topics-file`, `--items`, `--list`.
+- `drh_pipeline.py`: `load_prompt(name, folder)` so both pipelines read their own prompt folder.
+- `tests/test_drh_targeted.py` (new): the battery on a scripted fixture, rejection of unsupported dates and names, unknown as an answer, skipped items, one failed item not stopping the others.
+

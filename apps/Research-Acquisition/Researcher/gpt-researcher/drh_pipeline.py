@@ -65,11 +65,12 @@ def find_hub_root(start: Path = HERE) -> Path | None:
     return None
 
 
-def load_prompt(name: str) -> str:
+def load_prompt(name: str, folder: str = "R_web") -> str:
+    """<hub>/prompts/<folder>/<name>.md (R_web: this pipeline; T_targeted: drh_targeted.py)."""
     root = find_hub_root()
     if not root:
         raise FileNotFoundError("prompts/R_web not found; set DRH_ROOT to the Deep Research Hub folder")
-    return (root / "prompts" / "R_web" / f"{name}.md").read_text(encoding="utf-8")
+    return (root / "prompts" / folder / f"{name}.md").read_text(encoding="utf-8")
 
 
 def parse_json(text: str) -> Any:

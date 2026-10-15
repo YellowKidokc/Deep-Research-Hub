@@ -5,7 +5,7 @@ One local application, seven screens, that takes a question or a folder of files
 | # | Screen | What it does | Status |
 |---|--------|--------------|--------|
 | 1 | Deep Research | Job queue over GPT Researcher: folder per job, read receipt, run ledger; `fork_map` jobs: premise audit → neutral cast → triage → verbatim passages → fork map | **steps 1, 2, 4 built** |
-| 2 | Targeted Research | Fixed battery (etymology, first statement, first study, last 30 days, apologetics) → `facts.json` | milestone 6 |
+| 2 | Targeted Research | Fixed battery (origin and first use, first statement, first study, apologetics; essence paper and last 30 days to come) → `facts.json`, every finding tied to a verbatim quote | **built** |
 | 3 | Acquisition | Scrape / Links / Crawl / Search → files | milestone 3 |
 | 4 | Search Engine | cocoindex + MarginaliaSearch over `data/` | milestone 4 |
 | 5 | YouTube | Video or channel → ytgrab.py markdown in `data/youtube/<Channel>/`, baseline summary appended | **built** |
@@ -59,6 +59,12 @@ cd apps/Research-Acquisition/Researcher/gpt-researcher
 
 GPT Researcher needs its own venv in that folder (`python -m venv .venv`, then `pip install -r requirements.txt`), `DEEPSEEK_API_KEY` and `TAVILY_API_KEY` in the environment, and Ollama running for embeddings (`PROVIDERS.env`).
 
+## Screen 2, Targeted Research
+
+Type a topic, pick battery items, Run. Each item is a narrow lookup with its own searches (`prompts/T_targeted/battery.json`; edit it to change the battery): **origin and first use**, **first statement / precursor**, **first study**, **apologetics**. Every finding cites passages copied verbatim from the pages read, and the date and name a finding gives must be written in those passages, or it is rejected (and listed with the reason). "unknown" is a legal answer. The Facts tab shows each item's findings with their quotes and links, what was rejected and why, and how much was searched and read. Output: `data/targeted/<topic>/<stamp>/facts.json` and `facts.md`.
+
+Several topics in one go: `python drh_targeted.py --topics-file topics.txt --out ..\..\..\..\data\targeted` (in `apps/Research-Acquisition/Researcher/gpt-researcher`).
+
 ## Screen 5, YouTube
 
 Paste a video or channel URL on the Intake tab. The hub runs `ytgrab.py <url> --out data/youtube`, then slot `Y/1` appends `## Baseline Summary` to each transcript that run wrote. The summary calls DeepSeek, so `DEEPSEEK_API_KEY` must be set in the environment the hub (or the watch plugin) starts from; without it the run ends `failed` and the transcripts are kept without a summary. Re-running the slot later fills in what is missing: `python prompts/run_slot.py Y 1 --dir data/youtube --append`.
@@ -72,6 +78,8 @@ Old `.srt`/`.txt` transcripts from the retired downloaders: `python scripts/arch
 ## Screen 7, The Writer
 
 OpenWriter is the writing surface: build it once (`cd apps/openwriter && npm install && npx turbo run build`), start it from the Home launch list (or `node packages/openwriter/dist/bin/pad.js`), enable **Deep Research Hub** in its Plugins tab, and restart it. The **Story** tab in its right rail shows the story checklist (`prompts/W_story_checklist.json`; ticks saved in `data/writer/checklists/`), paragraph lengths against the band, and research cards from `data/deep_research/` and `data/youtube/` that match the document's heading.
+
+**Dossier tab** (also in the right rail): one folder per topic in `data/writer/dossiers/<name>/`. Dump into it the open document, pasted text, or links to research already in the hub, then **Sort**: every source is broken into pills, each tied to its own words, and each pill is placed in a section of the saved workflow (`prompts/D_dossier/workflows/default.json`: core claims, origin, who said what, evidence, numbers, arguments for, objections, stories, weird facts, terms, open questions) or cut with a reason. It sorts; it never writes the paper. `dossier.md` is the sorted dossier, `cuts.md` what was cut and why, `ledger.json` where every pill went. Sorting again reads only what is new. An agent connected to OpenWriter's MCP server can do the same with the `drh_dossier_*` tools. Needs `DEEPSEEK_API_KEY` in the environment OpenWriter starts from; from a terminal: `python scripts/dossier.py new|add|run|list`.
 
 ## Independence test
 

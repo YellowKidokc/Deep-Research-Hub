@@ -3,4 +3,5 @@
 //! through hub\launch.json like everything else.
 
 pub mod deep_research;
+pub mod targeted;
 pub mod youtube;

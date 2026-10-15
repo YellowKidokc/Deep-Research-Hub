@@ -51,3 +51,16 @@
 .story-tab__card-kind { font-size: 10px; color: var(--ink-light); text-transform: uppercase; letter-spacing: 0.04em; }
 .story-tab__card-title { font-size: 13px; color: var(--ink-dark); margin: 2px 0; }
 .story-tab__card-snippet { font-size: 12px; color: var(--ink-body); white-space: pre-wrap; max-height: 7.5em; overflow: hidden; }
+
+/* Dossier tab (same file: one stylesheet for the hub's tabs) */
+.dossier__row { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 8px; }
+.dossier__btn {
+  font: inherit; font-size: 12px; padding: 4px 9px; border-radius: 6px; cursor: pointer;
+  border: 1px solid var(--border); background: var(--bg-surface); color: var(--ink-dark);
+}
+.dossier__btn:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); }
+.dossier__btn:disabled { color: var(--ink-light); cursor: default; }
+.dossier__form { display: flex; flex-direction: column; gap: 0; margin-top: 6px; }
+.dossier__paste { min-height: 70px; resize: vertical; }
+.dossier__log { font-size: 11px; max-height: 160px; overflow: auto; white-space: pre-wrap; color: var(--ink-light); }
+.dossier__pill .story-tab__card-snippet { max-height: 5em; }

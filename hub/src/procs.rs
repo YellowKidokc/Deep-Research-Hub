@@ -131,6 +131,22 @@ fn check_param(kind: &str, v: &str) -> Result<()> {
                 bail!("expected a whole number");
             }
         }
+        // Free text such as a research topic. It reaches the program as one argv
+        // element (never a shell), so it only has to stay short, printable, not
+        // look like a flag, and carry no {placeholder} of its own.
+        "text" => {
+            if v.chars().count() > 300 || v.chars().any(char::is_control) || v.contains(['{', '}']) || v.starts_with('-') {
+                bail!("expected one line of text, up to 300 characters, not starting with '-' and without braces");
+            }
+        }
+        // A comma list of short ids, e.g. battery items: origin,first_study
+        "id_list" => {
+            let ok = v.len() <= 200
+                && v.split(',').all(|t| !t.is_empty() && t.len() <= 40 && t.chars().all(|c| c.is_ascii_lowercase() || c.is_ascii_digit() || c == '_'));
+            if !ok {
+                bail!("expected a comma list of ids like origin,first_study");
+            }
+        }
         other => bail!("unknown param kind {other}"),
     }
     Ok(())
@@ -417,4 +433,28 @@ fn python_for(app_dir: &Path, cwd: &Path) -> PathBuf {
         dir = d.parent();
     }
     system_python()
+}
+
+#[cfg(test)]
+mod tests {
+    use super::check_param;
+
+    #[test]
+    fn text_param() {
+        assert!(check_param("text", "privatio boni").is_ok());
+        assert!(check_param("text", "Why does God allow evil? (Job 1:6)").is_ok());
+        assert!(check_param("text", "--out=C:\\x").is_err());
+        assert!(check_param("text", "a {data} b").is_err());
+        assert!(check_param("text", "line\nbreak").is_err());
+        assert!(check_param("text", &"x".repeat(301)).is_err());
+    }
+
+    #[test]
+    fn id_list_param() {
+        assert!(check_param("id_list", "origin").is_ok());
+        assert!(check_param("id_list", "origin,first_study,apologetics").is_ok());
+        assert!(check_param("id_list", "origin,,x").is_err());
+        assert!(check_param("id_list", "Origin").is_err());
+        assert!(check_param("id_list", "origin;rm").is_err());
+    }
 }

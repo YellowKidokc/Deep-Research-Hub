@@ -1,0 +1,63 @@
+{
+  "name": "Targeted Research battery",
+  "description": "Screen 2. One topic in; each item below is a narrow lookup with its own searches and its own rules for what counts as an answer. Every accepted finding cites a passage copied verbatim from a fetched page. When an item requires a date or a name, that date or name must appear in the passage it cites, or the finding is rejected. 'unknown' is a legal answer. Edit this file to change the battery; {topic} in a query hint is replaced by the topic.",
+  "defaults": { "max_pages": 6, "results_per_query": 6, "windows_per_page": 2, "window_chars": 12000, "max_quotes": 6, "model_queries": 3 },
+  "items": [
+    {
+      "id": "origin",
+      "label": "Origin and first use",
+      "question": "Where and when does this term or idea first appear, who coined it, what is its etymology, and how did it travel from there?",
+      "requires": ["when"],
+      "default": true,
+      "query_hints": ["{topic} etymology", "{topic} earliest known use", "{topic} coined by", "{topic} origin of the term", "{topic} first recorded use", "{topic} history of the word"],
+      "instructions": "Give one finding per hop of the chain, oldest first: the form of the word or idea at that point, who used it, when, and where (the work). The earliest hop you can support is the earliest FOUND, not proven first: say so in its note. Never fill a gap between hops; a missing hop is a gap, and you name it in status_note. Search engines rank by relevance and recency, which is the opposite of first attestation, so be suspicious of a clean, tidy family tree."
+    },
+    {
+      "id": "first_statement",
+      "label": "First statement / precursor",
+      "question": "Who first stated this idea in recognisable form, and who said it long before its time?",
+      "requires": ["who", "when"],
+      "default": true,
+      "query_hints": ["{topic} first proposed by", "{topic} first described", "who first said {topic}", "{topic} precursor anticipated", "{topic} ancient origins idea", "{topic} history of the idea"],
+      "instructions": "A precursor is a person plus a dated statement by that person. A name without a dated statement is a rumour: do not return it. Quote what the person said, not what someone later said about them, when the passages allow; when only a secondary source is available, say so in the note."
+    },
+    {
+      "id": "first_study",
+      "label": "First study",
+      "question": "What is the first study, experiment or paper that tested this, and what did it find?",
+      "requires": ["who", "when", "where"],
+      "default": true,
+      "query_hints": ["{topic} first study", "{topic} first experiment", "{topic} original study published", "{topic} landmark study", "{topic} first empirical evidence", "{topic} pioneering research"],
+      "instructions": "who = the authors, when = the year, where = the journal, book or venue. One finding per study; mark in its note what it tested and what it found. 'Landmark' is not 'first': if the passages only support 'an early study', say that."
+    },
+    {
+      "id": "apologetics",
+      "label": "Apologetics",
+      "question": "How is this used in apologetics and counter-apologetics: which arguments rely on it, what are the strongest objections, and who makes each?",
+      "requires": ["who"],
+      "default": true,
+      "query_hints": ["{topic} apologetics argument", "{topic} objection to argument", "{topic} debate theist atheist", "{topic} Christian apologetics", "{topic} critique skeptic", "{topic} philosophy of religion"],
+      "instructions": "One finding per argument or objection, each naming who makes it. Give arguments and objections the same care; do not grade them. In the note, say whether it is an argument for, an objection, or a reply."
+    },
+    {
+      "id": "essence_paper",
+      "label": "Essence paper",
+      "question": "Which study, experiment or paper captures the load-bearing claim of this question?",
+      "requires": ["who", "when", "where"],
+      "default": false,
+      "needs": "fork_map",
+      "query_hints": [],
+      "instructions": "Runs only after a fork map exists for the topic, because the fork map says what the load-bearing claim is."
+    },
+    {
+      "id": "last30",
+      "label": "Last 30 days (live)",
+      "question": "What is being said about it now, by whom, in named places?",
+      "requires": [],
+      "default": false,
+      "needs": "last30days",
+      "query_hints": [],
+      "instructions": "The live arm runs on the last30days engine; see docs/LAST30DAYS_SCREEN_BUILD_PROMPT_v0.1.md."
+    }
+  ]
+}

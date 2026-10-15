@@ -42,6 +42,13 @@ export const StoryIcon = () => (
   </svg>
 );
 
+export const DossierIcon = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+    <path d="M3 6a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" stroke="currentColor" {...s} />
+    <path d="M7 11h10M7 15h6" stroke="currentColor" {...s} />
+  </svg>
+);
+
 export const ExportsIcon = () => (
   <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
     <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" stroke="currentColor" {...s} />
