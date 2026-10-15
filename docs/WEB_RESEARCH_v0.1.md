@@ -67,6 +67,8 @@ David's call, and structurally right: one agent per question type, because each 
 | `cold_derive` | Root + one claim, no framework vocabulary: what follows, where does it fail? | a derivation with its failure points | a test, not research |
 | `hybrid_rule` | Local article + web: rule on, rewrite, add, cut; show diffs | diffs | — |
 
+**Built 2026-10-15 on screen 2** (`drh_targeted.py`): origin, first statement / precursor, first study, apologetics, with the receipts rule enforced in code (a finding whose date or name is not written in its cited passage is rejected). `essence_paper` waits for a fork map; `prior_art` stays a Deep Research job type.
+
 These three (origin, essence, precursor) are the same battery the original hub spec put on **screen 2, Targeted Research** (etymology and first use, first person to state it, first study, who predicted it a century out). One definition, used by both screens.
 
 **Why origin is the dangerous one:** search ranks by relevance and recency, which is the opposite of first attestation. A model asked for an origin will produce a plausible, smooth, wrong family tree. The receipts rule above is the guard.

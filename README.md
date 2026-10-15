@@ -5,7 +5,7 @@ One local application, seven screens, that takes a question or a folder of files
 | # | Screen | What it does | Status |
 |---|--------|--------------|--------|
 | 1 | Deep Research | Job queue over GPT Researcher: folder per job, read receipt, run ledger; `fork_map` jobs: premise audit → neutral cast → triage → verbatim passages → fork map | **steps 1, 2, 4 built** |
-| 2 | Targeted Research | Fixed battery (etymology, first statement, first study, last 30 days, apologetics) → `facts.json` | milestone 6 |
+| 2 | Targeted Research | Fixed battery (origin and first use, first statement, first study, apologetics; essence paper and last 30 days to come) → `facts.json`, every finding tied to a verbatim quote | **built** |
 | 3 | Acquisition | Scrape / Links / Crawl / Search → files | milestone 3 |
 | 4 | Search Engine | cocoindex + MarginaliaSearch over `data/` | milestone 4 |
 | 5 | YouTube | Video or channel → ytgrab.py markdown in `data/youtube/<Channel>/`, baseline summary appended | **built** |
@@ -58,6 +58,12 @@ cd apps/Research-Acquisition/Researcher/gpt-researcher
 ```
 
 GPT Researcher needs its own venv in that folder (`python -m venv .venv`, then `pip install -r requirements.txt`), `DEEPSEEK_API_KEY` and `TAVILY_API_KEY` in the environment, and Ollama running for embeddings (`PROVIDERS.env`).
+
+## Screen 2, Targeted Research
+
+Type a topic, pick battery items, Run. Each item is a narrow lookup with its own searches (`prompts/T_targeted/battery.json`; edit it to change the battery): **origin and first use**, **first statement / precursor**, **first study**, **apologetics**. Every finding cites passages copied verbatim from the pages read, and the date and name a finding gives must be written in those passages, or it is rejected (and listed with the reason). "unknown" is a legal answer. The Facts tab shows each item's findings with their quotes and links, what was rejected and why, and how much was searched and read. Output: `data/targeted/<topic>/<stamp>/facts.json` and `facts.md`.
+
+Several topics in one go: `python drh_targeted.py --topics-file topics.txt --out ..\..\..\..\data\targeted` (in `apps/Research-Acquisition/Researcher/gpt-researcher`).
 
 ## Screen 5, YouTube
 

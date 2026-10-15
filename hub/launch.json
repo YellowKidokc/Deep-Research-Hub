@@ -112,6 +112,34 @@
     ]
   },
   {
+    "id": "targeted.run",
+    "label": "Targeted Research: run the battery on one topic",
+    "app": "Research-Acquisition",
+    "cwd": "Researcher/gpt-researcher",
+    "program": "python",
+    "args": [
+      "drh_targeted.py",
+      "--topic",
+      "{topic}",
+      "--items={items}",
+      "--out",
+      "{data}/targeted"
+    ],
+    "params": [
+      {
+        "name": "topic",
+        "label": "Topic",
+        "kind": "text"
+      },
+      {
+        "name": "items",
+        "label": "Battery items (blank = defaults)",
+        "kind": "id_list",
+        "optional": true
+      }
+    ]
+  },
+  {
     "id": "pipeline-workflows.help",
     "label": "pipeline-workflows: evaluate_question.py --help",
     "app": "pipeline-workflows",

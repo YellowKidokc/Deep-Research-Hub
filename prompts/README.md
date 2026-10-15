@@ -20,6 +20,9 @@ Each call writes its exact request to `data/api/requests/` and one line to `data
 
 ## Not slot sets
 
+`T_targeted/` is Targeted Research (screen 2, `drh_targeted.py`): `battery.json` defines the items (question, query hints, which fields a finding must state, instructions); `queries.md`, `extract.md` and `answer.md` are the three model calls each item makes.
+
+
 `R_web/` holds the prompts of the visible web pipeline (`drh_pipeline.py`, job_type `fork_map`), one file per stage: `premise`, `cast`, `triage`, `extract`, `forks`, `synthesize`. Each file is the system prompt for that stage; the stage's input is sent as JSON. The model comes from the job (`model:`) or `PROVIDERS.env`; triage uses the fast model, the rest the smart one.
 
 
