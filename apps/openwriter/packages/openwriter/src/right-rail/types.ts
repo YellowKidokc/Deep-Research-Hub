@@ -16,7 +16,8 @@ export type TabId =
   | 'plugins'
   | 'connections'
   | 'appearance'
-  | 'story';
+  | 'story'
+  | 'dossier';
 
 /**
  * Scope determines which app state a tab reads from. The rail container does

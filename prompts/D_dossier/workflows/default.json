@@ -1,0 +1,20 @@
+{
+  "id": "default",
+  "label": "Research dossier",
+  "description": "Everything on a topic, sorted for writing: what is claimed, where it comes from, who said it, the evidence, both sides, and the story material. No prose. Copy this file to make another workflow; a dossier names its workflow in workflow.json.",
+  "chunk_chars": 12000,
+  "sort_batch": 120,
+  "sections": [
+    { "id": "core", "label": "Core claims", "holds": "The main claims the topic turns on, stated plainly." },
+    { "id": "origin", "label": "Origin and history", "holds": "Where the idea or term comes from, first uses, how it developed, with dates." },
+    { "id": "people", "label": "Who said what", "holds": "Named people and their positions or statements, with dates." },
+    { "id": "evidence", "label": "Evidence and studies", "holds": "Studies, experiments, sources and primary texts that support or test a claim." },
+    { "id": "numbers", "label": "Numbers", "holds": "Statistics, measurements, counts, dates that carry weight." },
+    { "id": "for", "label": "Best arguments for", "holds": "Arguments that support the topic's main claims." },
+    { "id": "against", "label": "Strongest objections", "holds": "Objections, counter-evidence and criticisms, with any replies to them." },
+    { "id": "stories", "label": "Stories and scenes", "holds": "Human anchors: specific moments, people, places that could open or carry a piece." },
+    { "id": "weird", "label": "Weird facts", "holds": "Surprising, counter-intuitive or little-known facts that make a reader stop." },
+    { "id": "terms", "label": "Definitions and terms", "holds": "Definitions, technical terms, etymology." },
+    { "id": "open", "label": "Open questions", "holds": "Unresolved questions, gaps, things to look up next." }
+  ]
+}

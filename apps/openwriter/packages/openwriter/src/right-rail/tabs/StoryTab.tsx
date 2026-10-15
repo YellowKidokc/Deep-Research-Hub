@@ -10,8 +10,8 @@
  *   Paragraphs        words per paragraph against the checklist's band, with
  *                     the opening paragraph checked on its own. Computed here
  *                     from the editor; nothing is sent anywhere.
- *   Research          cards from the hub's Deep Research runs and YouTube
- *                     transcripts whose topic matches this doc.
+ *   Research          cards from the hub's Deep Research runs, Targeted Research
+ *                     facts and YouTube transcripts whose topic matches this doc.
  *
  * Data comes from the drh plugin (plugins/drh); enable it in the Plugins tab.
  * Added in the Deep Research Hub copy of OpenWriter; see apps/openwriter/UPSTREAM.md.
@@ -34,7 +34,7 @@ interface Checklist {
   state: Record<string, Tick>;
   paragraph_band: { min_words: number; max_words: number; opening_max_words: number };
 }
-interface Card { kind: 'deep_research' | 'youtube'; title: string; detail: string; snippet: string; path: string; score: number }
+interface Card { kind: 'deep_research' | 'youtube' | 'targeted'; title: string; detail: string; snippet: string; path: string; score: number }
 interface Para { n: number; words: number; sentences: number; text: string }
 
 const countWords = (t: string) => (t.match(/\S+/g) || []).length;
@@ -311,7 +311,7 @@ export default function StoryTab({ editors, docId, currentFilename }: RightRailT
         )}
         {cards?.map((c) => (
           <div key={c.path} className="story-tab__card" title={c.path}>
-            <div className="story-tab__card-kind">{c.kind === 'youtube' ? 'YouTube' : 'Deep Research'} · {c.detail}</div>
+            <div className="story-tab__card-kind">{c.kind === 'youtube' ? 'YouTube' : c.kind === 'targeted' ? 'Targeted Research' : 'Deep Research'} · {c.detail}</div>
             <div className="story-tab__card-title">{c.title}</div>
             {c.snippet && <div className="story-tab__card-snippet">{c.snippet}</div>}
           </div>

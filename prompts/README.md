@@ -7,6 +7,7 @@ One JSON file per set: `<letter>_<name>.json`, ten numbered slots (`"1"` … `"1
 | Set | Slots |
 |---|---|
 | `Y_youtube.json` | 1 `baseline_summary`: the baseline CKG summary, appended to each transcript as `## Baseline Summary` |
+| `D_dossier.json` | 1 `pills`: break one source into pills tied to its own words; 2 `sort`: place each pill in a workflow section or cut it with a reason. Workflows (the saved section layouts) are in `D_dossier/workflows/`. Run by `scripts/dossier.py`; `DRH_API_BASE_URL` points it at another OpenAI-compatible host |
 
 `run_slot.py` runs one slot. Standard library only, so any Python runs it:
 

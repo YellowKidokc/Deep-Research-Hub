@@ -18,4 +18,12 @@ Checks: frontend and server `tsc --noEmit` clean; `turbo run build` 7/7; `npm te
 
 Checks: `turbo run build` 7/7; `tsc --noEmit` clean; Chromium run ticked a core item, an extra and an outline section, and the outline and ticks survived a reload; bad section ids and unknown outlines get 400.
 
+### 2026-10-15 — Dossier tab and agent tools
+
+- `plugins/drh/src/index.ts`: dossiers (one implementation, two doors). Routes for the tab: `GET /api/drh/workflows`, `GET|POST /api/drh/dossiers`, `GET /api/drh/dossiers/:name`, `POST /api/drh/dossiers/:name/add` (`{text,title}` or `{link}` to a path under `data/`), `POST /api/drh/dossiers/:name/run` (spawns `scripts/dossier.py run`; `DRH_PYTHON` picks the interpreter). MCP tools for an agent: `drh_dossier_list`, `drh_dossier_create`, `drh_dossier_add`, `drh_dossier_run`, `drh_dossier_read`, `drh_research_search`. Research cards now include Targeted Research runs, and each card carries the `link` a dossier stores.
+- `packages/openwriter/src/right-rail/tabs/DossierTab.tsx` (new) + styles appended to `StoryTab.css`: pick or make a dossier, add this document / pasted text / linked research, sort, read sections strongest-first, cut (with reasons) and unsorted, insert a pill's quote and source into the document.
+- `tabs.tsx`, `types.ts`, `icons.tsx`: the `dossier` tab entry, id and icon. `StoryTab.tsx`: labels Targeted Research cards.
+
+Checks: `turbo run build` 7/7, `tsc --noEmit` clean (app and plugin). Chromium: made a dossier, added the open document and pasted text, sorted, opened sections and cuts, inserted a quote. MCP: a stdio client (the way an agent connects; proxy mode to the running server) listed the six tools and ran create → add text → research search → add link → run → read; a path outside `data/` is refused.
+
 Upstream behaviour noticed, not changed: a plugin enabled while the server runs only serves its routes after a restart (its routes are added after the app's catch-all). The Story tab says so when the plugin's routes are missing.

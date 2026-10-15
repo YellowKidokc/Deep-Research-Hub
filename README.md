@@ -79,6 +79,8 @@ Old `.srt`/`.txt` transcripts from the retired downloaders: `python scripts/arch
 
 OpenWriter is the writing surface: build it once (`cd apps/openwriter && npm install && npx turbo run build`), start it from the Home launch list (or `node packages/openwriter/dist/bin/pad.js`), enable **Deep Research Hub** in its Plugins tab, and restart it. The **Story** tab in its right rail shows the story checklist (`prompts/W_story_checklist.json`; ticks saved in `data/writer/checklists/`), paragraph lengths against the band, and research cards from `data/deep_research/` and `data/youtube/` that match the document's heading.
 
+**Dossier tab** (also in the right rail): one folder per topic in `data/writer/dossiers/<name>/`. Dump into it the open document, pasted text, or links to research already in the hub, then **Sort**: every source is broken into pills, each tied to its own words, and each pill is placed in a section of the saved workflow (`prompts/D_dossier/workflows/default.json`: core claims, origin, who said what, evidence, numbers, arguments for, objections, stories, weird facts, terms, open questions) or cut with a reason. It sorts; it never writes the paper. `dossier.md` is the sorted dossier, `cuts.md` what was cut and why, `ledger.json` where every pill went. Sorting again reads only what is new. An agent connected to OpenWriter's MCP server can do the same with the `drh_dossier_*` tools. Needs `DEEPSEEK_API_KEY` in the environment OpenWriter starts from; from a terminal: `python scripts/dossier.py new|add|run|list`.
+
 ## Independence test
 
 Kill the hub, `cd` into any `apps/` folder, run the app by hand. If it works, the wrapper is a wrapper.
