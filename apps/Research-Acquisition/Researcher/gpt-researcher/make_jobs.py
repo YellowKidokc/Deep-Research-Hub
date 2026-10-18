@@ -1,11 +1,12 @@
 """Write one job file per DEBATE MAP question.
 
-    python make_jobs.py DEBATE_MAP.md --jobs ../../../../data/jobs --subjects S-CHURCH S-PERSONAL
-    python make_jobs.py DEBATE_MAP.md --jobs ... --ids Q-EVIL-REAL-GOOD Q-ORIGIN-FEAR
-    python make_jobs.py DEBATE_MAP.md --jobs ... --subjects S-BIBLE --list     # show, write nothing
-    python make_jobs.py DEBATE_MAP.md --jobs ... --subjects S-EVIL --job-type fork_map
+    python make_jobs.py ../../../pipeline-workflows/debate_map.md --jobs ../../../../data/jobs --subjects S-CHURCH S-PERSONAL
+    python make_jobs.py ../../../pipeline-workflows/debate_map.md --jobs ... --ids Q-EVIL-REAL-GOOD Q-ORIGIN-FEAR
+    python make_jobs.py ../../../pipeline-workflows/debate_map.md --jobs ... --subjects S-BIBLE --list     # show, write nothing
+    python make_jobs.py ../../../pipeline-workflows/debate_map.md --jobs ... --subjects S-EVIL --job-type fork_map
 
-Reads "## S-XXX · Title" headings and "- `Q-ID` question" lines. Each job is
+Reads "S-XXX · Title" subject headings and "Q-ID question" question lines
+(with or without leading "## " / "- `" markdown decoration). Each job is
 <Q-ID>.yaml with the question as its query and {question_id, subject} in meta;
 everything else comes from _defaults.yaml. Existing job files are not overwritten.
 """
@@ -14,8 +15,8 @@ import re
 import sys
 from pathlib import Path
 
-SUBJECT = re.compile(r"^##\s+(S-[A-Z0-9-]+)\s*·\s*(.+)$")
-QUESTION = re.compile(r"^-\s+`(Q-[A-Z0-9-]+)`(?:\s*\([^)]*\))?\s+(.+)$")
+SUBJECT = re.compile(r"^(?:##\s+)?(S-[A-Z0-9-]+)\s*·\s*(.+)$")
+QUESTION = re.compile(r"^(?:-\s+)?`?(Q-[A-Z0-9-]+)`?(?:\s*\([^)]*\))?\s+(.+)$")
 
 
 def parse(text):

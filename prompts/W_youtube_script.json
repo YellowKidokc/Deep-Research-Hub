@@ -1,0 +1,29 @@
+{
+  "set": "V",
+  "name": "Video script from research",
+  "description": "Turn a paper or deep-research report into a YouTube script and a short video script. Run by the drh plugin (POST /api/drh/youtube-script) or by prompts/run_slot.py V 1 --file <paper.md>.",
+  "slots": {
+    "1": {
+      "id": "video_script",
+      "label": "Video script from research",
+      "provider": {
+        "kind": "openai-compatible",
+        "base_url": "https://openrouter.ai/api/v1",
+        "model": "openai/gpt-4o-mini",
+        "key_env": "OPENROUTER_API_KEY"
+      },
+      "temperature": 0.7,
+      "max_tokens": 8000,
+      "prompt": {
+        "join": "\n\n---\n\n",
+        "strip_comments": true,
+        "parts": [
+          { "file": "W_youtube_script/script.md" },
+          { "input": "Topic: {topic}\n\nSource paper / research:\n<source>\n{text}\n</source>\n\nRelevant research cards from the hub:\n{cards}\n\nReturn only the JSON object." }
+        ]
+      }
+    },
+    "2": null, "3": null, "4": null, "5": null,
+    "6": null, "7": null, "8": null, "9": null, "10": null
+  }
+}
