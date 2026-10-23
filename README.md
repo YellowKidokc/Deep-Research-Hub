@@ -6,7 +6,7 @@ One local application, seven screens, that takes a question or a folder of files
 |---|--------|--------------|--------|
 | 1 | Deep Research | Job queue over GPT Researcher: folder per job, read receipt, run ledger; `fork_map` jobs: premise audit → neutral cast → triage → verbatim passages → fork map | **steps 1, 2, 4 built** |
 | 2 | Targeted Research | Fixed battery (etymology, first statement, first study, last 30 days, apologetics) → `facts.json` | milestone 6 |
-| 3 | Acquisition | Scrape / Links / Crawl / Search → files | milestone 3 |
+| 3 | Acquisition | Scrape / Links / Crawl over a local Deepcrawl worker; Search = Marginalia result links → files | **built** |
 | 4 | Search Engine | cocoindex + MarginaliaSearch over `data/` | milestone 4 |
 | 5 | YouTube | Video or channel → ytgrab.py markdown in `data/youtube/<Channel>/`, baseline summary appended | **built** |
 | 6 | API Layer | Prompt bench: system prompt, ten slots, swappable slot sets | milestone 5 |
@@ -58,6 +58,23 @@ cd apps/Research-Acquisition/Researcher/gpt-researcher
 ```
 
 GPT Researcher needs its own venv in that folder (`python -m venv .venv`, then `pip install -r requirements.txt`), `DEEPSEEK_API_KEY` and `TAVILY_API_KEY` in the environment, and Ollama running for embeddings (`PROVIDERS.env`).
+
+## Screen 3, Acquisition
+
+Scrape, Links and Crawl run `apps/deepcrawl/drh_crawl.py` against Deepcrawl's API worker, run locally with
+`apps/deepcrawl/apps/workers/v0/wrangler.local.jsonc` (no auth, local KV/D1, nothing on deepcrawl.dev). Start it from
+the screen ("Start worker") or Home ("Deepcrawl API worker", 127.0.0.1:8080). First time only:
+`cd apps/deepcrawl && pnpm install --filter "deepcrawl-worker-v0..."`, then
+`cd apps/workers/v0 && pnpm exec wrangler d1 migrations apply DB_V0 --local -c wrangler.local.jsonc`.
+
+- Scrape: one page → `data/crawl/<host>/<stamp>/pages/001_*.md` (front matter: url, title, description, fetched).
+- Links: every link on a page, internal and external (its citations) → `data/links/<host>/<stamp>/links.txt`, `links.json`, `tree.json`.
+- Crawl: same-host breadth-first walk, `pages` and `depth` limits → markdown per page, `links.json`, `index.md`, `crawl.json`.
+- Search: `apps/MarginaliaSearch/drh_search.py` takes result links from Marginalia's official API → `data/search/<query>/<stamp>/results.json`,
+  `links.txt`, `results.md`; `read N` also pulls the top N to markdown through Deepcrawl. The shared `public` key runs out
+  (per minute and per day); put a personal key in `MARGINALIA_API_KEY` (free for non-commercial use: kontakt@marginalia.nu) and restart the hub.
+
+Launch params `web_url` (http/https, no spaces) and `query` (1-300 chars, never starting with `-`) are checked by the hub.
 
 ## Screen 5, YouTube
 

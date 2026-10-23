@@ -1,0 +1,118 @@
+{
+  "set": "D",
+  "name": "Debate Map asset generator",
+  "description": "Turn one source essay into the five assets every DEBATE_MAP question folder now expects: claims, evidence, YouTube script, short script, and rebuttals.",
+  "slots": {
+    "1": {
+      "id": "extract_claims",
+      "label": "Extract claims",
+      "description": "Pull every claim the source makes that answers or supports the implied debate question, with in-source support.",
+      "provider": {
+        "kind": "openai-compatible",
+        "base_url": "https://api.deepseek.com",
+        "model": "deepseek-chat",
+        "key_env": "DEEPSEEK_API_KEY"
+      },
+      "temperature": 0.3,
+      "prompt": {
+        "join": "\n\n---\n\n",
+        "strip_comments": true,
+        "parts": [
+          { "file": "D_debate_map/extract_claims.md" },
+          { "input": "# INPUT\nsource: {title}\n\n{text}" }
+        ]
+      },
+      "skip_if": { "min_words": 0 },
+      "output": {}
+    },
+    "2": {
+      "id": "extract_evidence",
+      "label": "Extract evidence",
+      "description": "Pull empirical findings, named studies, survey data, quotations and citations from the source.",
+      "provider": {
+        "kind": "openai-compatible",
+        "base_url": "https://api.deepseek.com",
+        "model": "deepseek-chat",
+        "key_env": "DEEPSEEK_API_KEY"
+      },
+      "temperature": 0.3,
+      "prompt": {
+        "join": "\n\n---\n\n",
+        "strip_comments": true,
+        "parts": [
+          { "file": "D_debate_map/extract_evidence.md" },
+          { "input": "# INPUT\nsource: {title}\n\n{text}" }
+        ]
+      },
+      "skip_if": { "min_words": 0 },
+      "output": {}
+    },
+    "3": {
+      "id": "youtube_script",
+      "label": "YouTube script",
+      "description": "Write a 5-7 minute spoken script for a general audience based on the source.",
+      "provider": {
+        "kind": "openai-compatible",
+        "base_url": "https://api.deepseek.com",
+        "model": "deepseek-chat",
+        "key_env": "DEEPSEEK_API_KEY"
+      },
+      "temperature": 0.5,
+      "prompt": {
+        "join": "\n\n---\n\n",
+        "strip_comments": true,
+        "parts": [
+          { "file": "D_debate_map/youtube_script.md" },
+          { "input": "# INPUT\nsource: {title}\n\n{text}" }
+        ]
+      },
+      "skip_if": { "min_words": 0 },
+      "output": {}
+    },
+    "4": {
+      "id": "short_script",
+      "label": "Short script",
+      "description": "Write a 60-second short-video script with one sharp point from the source.",
+      "provider": {
+        "kind": "openai-compatible",
+        "base_url": "https://api.deepseek.com",
+        "model": "deepseek-chat",
+        "key_env": "DEEPSEEK_API_KEY"
+      },
+      "temperature": 0.5,
+      "prompt": {
+        "join": "\n\n---\n\n",
+        "strip_comments": true,
+        "parts": [
+          { "file": "D_debate_map/short_script.md" },
+          { "input": "# INPUT\nsource: {title}\n\n{text}" }
+        ]
+      },
+      "skip_if": { "min_words": 0 },
+      "output": {}
+    },
+    "5": {
+      "id": "rebuttals",
+      "label": "Rebuttals",
+      "description": "Generate objection/response pairs a skeptic would raise against the source's argument.",
+      "provider": {
+        "kind": "openai-compatible",
+        "base_url": "https://api.deepseek.com",
+        "model": "deepseek-chat",
+        "key_env": "DEEPSEEK_API_KEY"
+      },
+      "temperature": 0.4,
+      "prompt": {
+        "join": "\n\n---\n\n",
+        "strip_comments": true,
+        "parts": [
+          { "file": "D_debate_map/rebuttals.md" },
+          { "input": "# INPUT\nsource: {title}\n\n{text}" }
+        ]
+      },
+      "skip_if": { "min_words": 0 },
+      "output": {}
+    },
+    "6": null, "7": null, "8": null, "9": null, "10": null
+  }
+}

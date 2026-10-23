@@ -1,0 +1,311 @@
+Now I see the missing piece. And I think it's the most important addition we've discussed.
+
+You're trying to build a library of preloaded argumentative paragraphs that you can drag into a 12–15-point argument, combine with psychological techniques, and have OpenWriter recognize, track, and improve as you write.
+
+But there's a deeper opportunity here: the paragraph doesn't have to be the fundamental unit. The argumentative job should be the fundamental unit.
+
+One argument might need a single paragraph. Another might need a story, a comparison table, three paragraphs of evidence, and a carefully framed objection.
+
+So rather than locking paragraphs into templates, I would give each argument a flexible container that can hold several compatible loops.
+
+I would call it an Argument Block.
+§1. The three layers that should work together
+Layer 1 — The argument
+
+What must this point establish?
+
+Claim → Evidence → Reasoning → Objection → Conclusion
+
+
+Layer 2 — The psychological and rhetorical moves
+
+How should the reader encounter the argument?
+
+Story + Socratic question + Mirror + Concession
+
+
+Layer 3 — The presentation
+
+How do we make the argument easier to follow?
+
+Prose + Comparison + Evidence table + Insight
+
+
+One completed Argument Block
+
+Movable, expandable, measurable, and reusable
+
+
+This solves the problem of stacking. A Socratic question and a mirror test might be different techniques, but they can serve the same argumentative job. They should remain independently selectable while sharing one container.
+
+And when two techniques really are different, keep both. Don't merge them just because they sound similar.
+§2. The missing category: Story Loops
+You're right that stories deserve their own family, not just a footnote under openings.
+
+I'd add at least these seven:
+Loop	Job
+S01 — Micro-scene	Make an abstract problem visible in 2–4 sentences
+S02 — Human witness	Show how an issue affects one specific person
+S03 — Everyday analogy	Explain an unfamiliar structure through a familiar experience
+S04 — Thought experiment	Let the reader test a principle in an imagined case
+S05 — Before/after	Show what changes when one assumption changes
+S06 — Return scene	Revisit an earlier story after the argument develops
+S07 — Counterexample story	Test whether a claim survives an uncomfortable case
+A story can be the opening, the evidence illustration, the transition, or the conclusion. Its position is not locked.
+
+And it needs an important distinction: a hypothetical story illustrates reasoning; a verified real story can provide evidence about an actual event. The system should never confuse the two.
+§3. The preloaded Argument Block — this is what I think you want to drag around
+Imagine you're working on argument 7 of a 15-point article. You drag a block into the body. Before you've written a sentence, OpenWriter already knows what this argument needs to accomplish.
+
+Here is a working mockup of that interaction.
+Argument Block 07
+Editable composition workspace
+Draft
+
+What this argument must establishMoral disagreement does not by itself establish that moral truth is subjective.
+
+
+Choose the loops to stack
+
+Select any combination. Nothing is mandatory.
+[x] Thought experiment
+
+Story · Give the reader a concrete situation to test
+
+
+
+[x] Swap test
+
+Kait · Change one relevant variable and compare judgments
+
+
+
+[x] Socratic discovery
+
+Psychology · Ask a question that reveals an assumption
+
+
+
+[ ] Cognitive dissonance
+
+Psychology · Expose a genuine inconsistency
+
+
+
+[ ] Strongest opposing case
+
+Kait · Present the best counterargument fairly
+
+
+
+[ ] Refused claim
+
+Trust · Explain an attractive claim you cannot justify
+
+
+
+[x] Comparison table
+
+Visual · Place parallel arguments side by side
+
+
+
+[ ] Insight callout
+
+Visual · Isolate the most important takeaway
+
+
+
+
+
+Preloaded composition
+
+The block expands according to your selected techniques.
+1
+
+Thought experiment
+
+Give the reader a concrete situation to test
+
+
+2
+
+Swap test
+
+Change one relevant variable and compare judgments
+
+
+3
+
+Socratic discovery
+
+Ask a question that reveals an assumption
+
+
+4
+
+Comparison table
+
+Place parallel arguments side by side
+
+
+
+Generate paragraph scaffolds 
+Notice that the block has an argumentative obligation independent of the techniques. Even if you select every psychological move, the argument still has to establish its point.
+
+That separation is crucial for your goal of producing rigorous work.
+§4. Build a 15-point argument spine first
+I would give the document a higher-level Argument Spine. This is where you lay out the 12–15 points you believe are necessary to establish your central case.
+
+Each point gets its own Argument Block, and each block can have a different arrangement of loops.
+
+For example, a hypothetical Math Is Moral outline might look like this:
+Block	Argumentative job	Candidate combination
+01	Establish the question	Micro-scene + K05
+02	Define the central distinction	K29 + comparison
+03	Map rival explanations	K16 + table
+04	Establish shared premises	Socratic + concrete example
+05	Explain mathematical objectivity	Historical witness + evidence
+06	Examine moral objectivity	Mirror + counterexample
+07	Address disagreement	Thought experiment + K21
+08	Address evolutionary explanations	Strongest objection + mirror
+09	Examine logical obligation	Step-by-step reasoning + equation if needed
+10	Investigate proportionality	Story + evidence sequence
+11	Test parity between domains	K33 + side-by-side comparison
+12	Address the strongest remaining objection	K21 + K38
+13	Explore metaphysical implications	Home question + competing models
+14	State the justified conclusion	K32 + insight
+15	Return to the human stakes	S06 + K45
+These are proposed argumentative jobs, not fifteen established proofs. The evidence audit could reveal that a point needs qualification, replacement, or removal.
+
+What matters is that you can move block 11 before block 8, replace its techniques, or expand it into five paragraphs without losing track of its purpose.
+§5. How to reduce cognitive load without making the writing simplistic
+Here's the psychological distinction I would build directly into the software.
+
+Readers face different kinds of mental effort. Some effort is necessary because the subject is difficult. Other effort comes from confusing presentation.
+
+Your engine should reduce the second kind without pretending it can eliminate the first.
+
+Progressive disclosure
+
+Show the reader the main argument first. Let them expand the derivation, evidence ledger, or technical details when needed. This fits your existing MTL and claim-drawer architecture.
+
+
+
+Visual mapping
+
+When a point compares three explanations, a table or branching diagram may be easier to follow than three dense paragraphs. Use the visual that matches the reasoning.
+
+
+
+Concrete-to-abstract sequencing
+
+Begin with a recognizable example, identify the principle, then introduce technical language. The story gives readers a mental reference point for the abstraction.
+
+
+
+Argument checkpoints
+
+After several complex steps, briefly show what has been established, what remains uncertain, and why the next step matters.
+
+
+
+I'd also change the two-paragraph rule slightly at the implementation level: keep it as a default visual-rhythm check, but allow an author-approved exception. Otherwise the software may insert a pointless visual break into an explanation that genuinely needs three paragraphs.
+§6. The registry should store three different kinds of information
+This is the data structure I would use as the foundation of your API system.
+{
+  "id": "ARG-007",
+  "claim": "Moral disagreement does not establish subjectivity",
+  "status": "draft",
+  "obligations": {
+    "define_claim": "pending",
+    "present_evidence": "pending",
+    "connect_reasoning": "pending",
+    "address_objection": "pending",
+    "state_boundary": "pending"
+  },
+  "loops": [
+    {
+      "id": "S04",
+      "role": "illustration",
+      "status": "selected"
+    },
+    {
+      "id": "K33",
+      "role": "argument_test",
+      "status": "detected"
+    },
+    {
+      "id": "P05",
+      "role": "reader_discovery",
+      "status": "selected"
+    },
+    {
+      "id": "V02",
+      "role": "visual_comparison",
+      "status": "selected"
+    }
+  ],
+  "paragraphs": [],
+  "evidence_refs": [],
+  "claim_refs": [],
+  "metrics": {
+    "suggestions_shown": 0,
+    "suggestions_accepted": 0,
+    "revision_count": 0,
+    "author_rating": null,
+    "reader_comprehension": null
+  }
+}
+
+
+I would also add three architectural safeguards:
+
+Stable IDs. Psychology techniques get P identifiers, stories get S, visual elements get V, and Kait moves retain K01–K53. This makes your existing material interoperable.
+
+A compatibility registry. Some loops combine naturally, others duplicate one another, and some compete for the same paragraph position. Store those relationships rather than hardcoding a single preferred stack.
+
+Outcome measurement. Track not only whether a technique was used, but whether it survived editing, improved author-rated clarity, or performed better in actual reader comprehension tests. Usage frequency alone cannot establish effectiveness.
+
+That last part is what allows your system to evolve from a writing assistant into a genuine editorial learning system.
+§7. The additional feature I'd build: the Argument Coverage Map
+This is the part that could make your 15-point workflow especially useful.
+
+Instead of only highlighting which rhetorical moves have been used, the system highlights which argumentative obligations have been satisfied.
+Argument 07 — Coverage
+
+Illustrative state
+
+Claim clearly defined
+
+Supporting evidence
+
+Reasoning connects evidence to claim
+Review
+
+Strongest objection addressed
+
+Boundary stated
+
+
+Coverage is a structural check, not proof that the argument is sound. Evidence and reasoning still require validation.
+
+This means your writing environment could tell you:
+
+You've already used a mirror and a Socratic question. You don't need another rhetorical device here. What this argument lacks is a fair treatment of the strongest objection.
+
+That's much more valuable than simply recommending another impressive-sounding paragraph.
+
+The one structural decision I would make now
+I would keep your existing Loops Method and expand it into four interconnected libraries:
+1. Argument Library — the jobs each block must accomplish, including claim, evidence, inference, objection, and boundary.
+2. Technique Library — your persuasive psychology principles, Kait's 53 moves, and the new story loops.
+3. Presentation Library — paragraph rhythm, tables, quotations, diagrams, MTL units, callouts, and progressive disclosure.
+4. Learning Library — detection results, author choices, combinations, revision history, and eventual reader outcomes.
+The author controls the argument. The libraries supply possibilities. The API helps with individual tasks. The document continuously records what actually happened.
+
+And the crucial insight is this:
+
+You don't want 15 paragraphs written 15 different ways merely for variety. You want 15 arguments, each equipped with the most suitable combination of reasoning, storytelling, psychology, and presentation techniques to make that particular point understandable and defensible.
+
+I think that's the system you've been reaching for. And it gives us a much clearer foundation for structuring the actual loops.json, argument-block schema, right-rail interface, and targeted API calls without replacing the method you've already built.

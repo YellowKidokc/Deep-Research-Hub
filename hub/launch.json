@@ -134,6 +134,29 @@
     ]
   },
   {
+    "id": "axiom.navigator",
+    "label": "Axiom Navigator (the finished canon) on 127.0.0.1:8774",
+    "app": "Axiom-Navigator",
+    "cwd": ".",
+    "program": "node",
+    "args": [
+      "local-server.mjs"
+    ]
+  },
+  {
+    "id": "axiom.build",
+    "label": "Axiom Navigator: rebuild the canon site after editing canon docs",
+    "app": "Axiom-Navigator",
+    "cwd": ".",
+    "program": "cmd",
+    "args": [
+      "/c",
+      "npm",
+      "run",
+      "build"
+    ]
+  },
+  {
     "id": "openwriter.server",
     "label": "OpenWriter (the Writer surface) on 127.0.0.1:5050",
     "app": "openwriter",
@@ -143,7 +166,136 @@
       "packages/openwriter/dist/bin/pad.js",
       "--port",
       "5050",
-      "--no-open"
+      "--no-open",
+      "--plugins",
+      "@openwriter/plugin-drh"
+    ]
+  },
+  {
+    "id": "deepcrawl.server",
+    "label": "Deepcrawl API worker (page -> markdown, links) on 127.0.0.1:8080",
+    "app": "deepcrawl",
+    "cwd": "apps/workers/v0",
+    "program": "cmd",
+    "args": [
+      "/c",
+      "pnpm",
+      "exec",
+      "wrangler",
+      "dev",
+      "-c",
+      "wrangler.local.jsonc"
+    ]
+  },
+  {
+    "id": "acquire.scrape",
+    "label": "Acquisition: Scrape one page to markdown",
+    "app": "deepcrawl",
+    "cwd": ".",
+    "program": "python",
+    "args": [
+      "drh_crawl.py",
+      "{url}",
+      "--out",
+      "{data}/crawl",
+      "--pages",
+      "1"
+    ],
+    "params": [
+      {
+        "name": "url",
+        "label": "Web page URL",
+        "kind": "web_url"
+      }
+    ]
+  },
+  {
+    "id": "acquire.links",
+    "label": "Acquisition: Links on a page (internal + external) and the site tree",
+    "app": "deepcrawl",
+    "cwd": ".",
+    "program": "python",
+    "args": [
+      "drh_crawl.py",
+      "{url}",
+      "--out",
+      "{data}/links",
+      "--links-only"
+    ],
+    "params": [
+      {
+        "name": "url",
+        "label": "Web page URL",
+        "kind": "web_url"
+      }
+    ]
+  },
+  {
+    "id": "acquire.crawl",
+    "label": "Acquisition: Crawl a site (same host) to markdown",
+    "app": "deepcrawl",
+    "cwd": ".",
+    "program": "python",
+    "args": [
+      "drh_crawl.py",
+      "{url}",
+      "--out",
+      "{data}/crawl",
+      "--pages={pages}",
+      "--depth={depth}"
+    ],
+    "params": [
+      {
+        "name": "url",
+        "label": "Web page URL",
+        "kind": "web_url"
+      },
+      {
+        "name": "pages",
+        "label": "Pages to read (default 1)",
+        "kind": "count",
+        "optional": true
+      },
+      {
+        "name": "depth",
+        "label": "Link hops from the start page (default 3)",
+        "kind": "count",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "id": "search.marginalia",
+    "label": "Search: Marginalia result links (optionally read the top N)",
+    "app": "MarginaliaSearch",
+    "cwd": ".",
+    "program": "python",
+    "args": [
+      "drh_search.py",
+      "{query}",
+      "--out",
+      "{data}/search",
+      "--count={count}",
+      "--read={read}"
+    ],
+    "params": [
+      {
+        "name": "query",
+        "label": "Search words",
+        "kind": "query"
+      },
+      {
+        "name": "count",
+        "label": "Results (default 30, max 100)",
+        "kind": "count",
+        "optional": true
+      },
+      {
+        "name": "read",
+        "label": "Also read the top N to markdown",
+        "kind": "count",
+        "optional": true
+      }
     ]
   }
 ]

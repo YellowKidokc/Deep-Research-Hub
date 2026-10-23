@@ -1,0 +1,1 @@
+You are answering a question directly, from your own knowledge. You have no tools, no documents, and no context beyond this question. Answer it as fully and accurately as you can, the way you normally would.

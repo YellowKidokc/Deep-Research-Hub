@@ -7,6 +7,11 @@ One JSON file per set: `<letter>_<name>.json`, ten numbered slots (`"1"` … `"1
 | Set | Slots |
 |---|---|
 | `Y_youtube.json` | 1 `baseline_summary`: the baseline CKG summary, appended to each transcript as `## Baseline Summary` |
+| `W_rewrite.json` | 1 `shorter`, 2 `plainer`, 3 `as_the_skeptic`, 4 `unforgotten_sentence`, 5 `custom` (`{instruction}`): rewrite-by-selection for the Writer. Run by OpenWriter's drh plugin (`POST /api/drh/rewrite`), not `run_slot.py` — file parts become the system message, the input template the user message |
+| `W_revise.json` | 1 `run_goals` (the Story tab's Run: picked checklist items as goals), 2 `chat` (the chat column beside the doc): whole-document revision returning `{ reply, edits }` as JSON; each edit lands in the doc as a pending rewrite, outlined and labelled with the model. Run by OpenWriter's drh plugin (`POST /api/drh/revise`), same assembly as `W_rewrite`, chat history between system and user message |
+| `W_actions.json` | The Writer's preset API calls (left column "API calls", right rail "APIs" tab): 1 `rate` (scored report by part with rubric; each issue pinned as a comment on the quoted words), 2 `fix_from_rating` (acts on the last Rate report), 3 `tighten`, 4 `plainer`. Slots carry `output` (`notes` or `edits`) and `description`. The writer's own API calls live in `data/writer/actions.json`. Run by the drh plugin (`POST /api/drh/action`) |
+| `S_synthesize.json` | 1 `stack_to_page`: a research record (checked notes, quotes, sources) in, one coherent 900–1,300 word article out; quotes verbatim, nothing invented. `python prompts/run_slot.py S 1 --file <record.md> --out data/writer/drafts/<name>.md`, then `POST` it to OpenWriter's `/api/documents` |
+| `W_craft.json` | 1 `craft_opening`: craft three openings (research / story / YouTube-grounded) from the doc's current opening plus the hub's research, each graded against the story checklist; saved as a story file for the Story tab's variant cycler. Run by OpenWriter's drh plugin (`POST /api/drh/craft-opening`), same assembly as `W_rewrite` |
 
 `run_slot.py` runs one slot. Standard library only, so any Python runs it:
 

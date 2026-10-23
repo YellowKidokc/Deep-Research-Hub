@@ -1,0 +1,30 @@
+{
+  "set": "S",
+  "name": "Synthesize",
+  "description": "Turn a research record (a stack of checked notes, quotes and sources) into a coherent article of one to two pages for the Writer.",
+  "slots": {
+    "1": {
+      "id": "stack_to_page",
+      "label": "Stack to page",
+      "description": "Research record in, one coherent 900-1,300 word article out. Quotes kept verbatim, nothing invented, contested premises flagged.",
+      "provider": {
+        "kind": "openai-compatible",
+        "base_url": "https://api.deepseek.com",
+        "model": "deepseek-chat",
+        "key_env": "DEEPSEEK_API_KEY"
+      },
+      "temperature": 0.4,
+      "prompt": {
+        "join": "\n\n---\n\n",
+        "strip_comments": true,
+        "parts": [
+          { "file": "S_synthesize/RULES.md" },
+          { "input": "# RESEARCH RECORD: {title}\n\n{text}" }
+        ]
+      },
+      "skip_if": { "min_words": 0 },
+      "output": {}
+    },
+    "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "10": null
+  }
+}

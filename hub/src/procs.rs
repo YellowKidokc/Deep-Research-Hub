@@ -68,7 +68,7 @@ pub struct Param {
     pub name: String,
     #[serde(default)]
     pub label: String,
-    /// youtube_url | count
+    /// youtube_url | count | web_url | query
     pub kind: String,
     /// An empty optional param drops every argument that mentions it.
     #[serde(default)]
@@ -129,6 +129,20 @@ fn check_param(kind: &str, v: &str) -> Result<()> {
         "count" => {
             if v.len() > 6 || !v.chars().all(|c| c.is_ascii_digit()) {
                 bail!("expected a whole number");
+            }
+        }
+        "web_url" => {
+            if v.len() > 2000
+                || v.chars().any(|c| c.is_whitespace() || c.is_control())
+                || !(v.starts_with("https://") || v.starts_with("http://"))
+            {
+                bail!("expected an http:// or https:// link with no spaces");
+            }
+        }
+        "query" => {
+            // Passed as one argument (no shell); must not look like a flag.
+            if v.is_empty() || v.chars().count() > 300 || v.starts_with('-') || v.chars().any(char::is_control) {
+                bail!("expected search words (1-300 characters, not starting with -)");
             }
         }
         other => bail!("unknown param kind {other}"),

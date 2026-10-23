@@ -3,6 +3,7 @@
     python prompts/run_slot.py Y 1 --file "data/youtube/<Channel>/<Title>.md" --append
     python prompts/run_slot.py Y 1 --dir data/youtube --since 1791323565 --append
     python prompts/run_slot.py Y 1 --file x.md --dry-run
+    python prompts/run_slot.py S 1 --file record.md --out data/writer/drafts/page.md
 
 The slot (prompts/<SET>_*.json) defines the provider, model, key variable and
 prompt parts; nothing about the call is written in this file. Standard library
@@ -128,7 +129,12 @@ def run_file(slot, path, args):
                               "slot": slot["_ref"], "slot_id": slot["id"], "model": prov["model"],
                               "file": str(path), "tokens_in": t_in, "tokens_out": t_out}) + "\n")
     heading = slot.get("output", {}).get("append_heading")
-    if args.append and heading:
+    if args.out:
+        out = pathlib.Path(args.out)
+        out.parent.mkdir(parents=True, exist_ok=True)
+        out.write_text(reply.strip() + "\n", encoding="utf-8")
+        print(f"  ok    {path.name}: reply written to {out}")
+    elif args.append and heading:
         block = (f"\n\n{heading}\n\n"
                  f"*{prov['model']} · slot {slot['_ref']} `{slot['id']}` · "
                  f"{stamp:%Y-%m-%d %H:%M} · tokens in {t_in}, out {t_out} · "
@@ -150,6 +156,7 @@ def main():
     src.add_argument("--dir", help="every .md under this folder")
     ap.add_argument("--since", type=float, default=0, help="with --dir: only files modified at or after this unix time")
     ap.add_argument("--append", action="store_true", help="append the reply under the slot's heading")
+    ap.add_argument("--out", help="write the reply to this file (one input file only)")
     ap.add_argument("--dry-run", action="store_true", help="build and save the request, no API call")
     ap.add_argument("--base-url", help="override the provider URL (testing)")
     args = ap.parse_args()
@@ -161,6 +168,8 @@ def main():
         files = sorted(p for p in pathlib.Path(args.dir).rglob("*.md")
                        if not SKIP_DIRS.intersection(p.relative_to(args.dir).parts[:-1])
                        and p.stat().st_mtime >= args.since)
+    if args.out and len(files) != 1:
+        sys.exit("--out takes exactly one input file")
     print(f"slot {slot['_ref']} {slot['id']}: {len(files)} file(s)")
     counts = {}
     for f in files:
