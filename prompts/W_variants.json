@@ -1,0 +1,23 @@
+{
+  "set": "V",
+  "name": "Sentence Variant Explorer",
+  "description": "Generates alternative versions of the key sentence in a paragraph. Used by OpenWriter's Variants feature (right-click Explore variants or API calls panel).",
+  "slots": {
+    "1": {
+      "id": "better_sentence",
+      "label": "Better sentence",
+      "description": "Propose 3 alternative versions of the paragraph's key sentence",
+      "provider": { "kind": "openai-compatible", "base_url": "https://api.deepseek.com", "model": "deepseek-chat", "key_env": "DEEPSEEK_API_KEY" },
+      "temperature": 0.6,
+      "max_tokens": 4000,
+      "prompt": {
+        "join": "\n\n---\n\n",
+        "strip_comments": true,
+        "parts": [
+          { "file": "W_variants/better_sentence.md" },
+          { "input": "{inputs}" }
+        ]
+      }
+    }
+  }
+}

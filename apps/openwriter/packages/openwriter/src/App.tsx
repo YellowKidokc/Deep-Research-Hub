@@ -30,6 +30,12 @@ import { articleExtensions } from './editor/extensions';
 import type { ParsedLinkHref } from './editor/link-href';
 import { useReadingSpot, isSpotRestored } from './editor/useReadingSpot';
 import './decorations/styles.css';
+import ChatColumn from './drh/ChatColumn';
+import VariantCard from './drh/VariantCard';
+import { setActionContext } from './drh/actions-store';
+import { setVariantContext, useVariants, startVariants } from './drh/variants-store';
+import { forceVariantRefresh } from './decorations/variant-decoration-plugin';
+import { collectParagraphs } from './drh/ai-edits';
 
 // Loaded on first use: it carries twitter-text, which no other view needs.
 const TweetComposeView = lazy(() => import('./tweet-compose/TweetComposeView'));
@@ -92,6 +98,19 @@ export default function App() {
   const editorRef = useRef<Editor | null>(null);
   const allEditorsRef = useRef<Editor[]>([]);
   const [editorInstance, setEditorInstance] = useState<Editor | null>(null);
+  // Deep Research Hub chat column (drh/ChatColumn.tsx): open state survives reloads.
+  const [chatOpen, setChatOpenState] = useState<boolean>(() => {
+    try { return localStorage.getItem('drh-chat-open') === '1'; } catch { return false; }
+  });
+  const setChatOpen = useCallback((open: boolean) => {
+    setChatOpenState(open);
+    try { localStorage.setItem('drh-chat-open', open ? '1' : '0'); } catch { /* storage off */ }
+  }, []);
+  useEffect(() => {
+    const onOpen = () => setChatOpen(true);
+    window.addEventListener('drh-open-chat', onOpen);
+    return () => window.removeEventListener('drh-open-chat', onOpen);
+  }, [setChatOpen]);
   const [activeEditor, setActiveEditor] = useState<Editor | null>(null);
   const [allEditors, setAllEditors] = useState<Editor[]>([]);
   const [title, setTitle] = useState('Untitled');
@@ -856,6 +875,43 @@ export default function App() {
 
   // A page refresh returns to the same spot, cursor and focus.
   useReadingSpot(editorInstance, metadata?.docId);
+  // API calls (drh/actions-store) run against whatever doc is open.
+  useEffect(() => {
+    setActionContext({ editor: editorInstance, filename: activeFilename, topic: title });
+  }, [editorInstance, activeFilename, title]);
+
+  // Sentence Variant Explorer context + decoration refresh when session changes.
+  const { session: variantSession } = useVariants();
+  useEffect(() => {
+    setVariantContext({ editor: editorInstance, filename: activeFilename });
+  }, [editorInstance, activeFilename]);
+  useEffect(() => {
+    if (!editorInstance || editorInstance.isDestroyed) return;
+    forceVariantRefresh(editorInstance.view);
+  }, [variantSession, editorInstance]);
+
+  // Sidebar "Variants" button triggers exploration on the paragraph at the cursor.
+  useEffect(() => {
+    if (!editorInstance || editorInstance.isDestroyed) return;
+    const onExplore = () => {
+      const { $head } = editorInstance.state.selection;
+      let paragraphId: string | null = null;
+      editorInstance.state.doc.nodesBetween($head.before($head.depth), $head.after($head.depth), (node) => {
+        if (node.isTextblock && node.attrs?.id) { paragraphId = node.attrs.id; return false; }
+        return true;
+      });
+      if (!paragraphId) return;
+      const paras = collectParagraphs(editorInstance);
+      const idx = paras.findIndex((p) => p.nodeId === paragraphId);
+      if (idx < 0) return;
+      const contextBefore = paras.slice(Math.max(0, idx - 2), idx).map((p) => p.text);
+      const contextAfter = paras.slice(idx + 1, idx + 3).map((p) => p.text);
+      startVariants(paragraphId, paras[idx].text, contextBefore, contextAfter)
+        .then(() => { if (!editorInstance.isDestroyed) forceVariantRefresh(editorInstance.view); });
+    };
+    window.addEventListener('ow-explore-variants', onExplore);
+    return () => window.removeEventListener('ow-explore-variants', onExplore);
+  }, [editorInstance]);
 
   // Consume pendingScroll after a doc loads. Tries nodeId first, then quote
   // fallback, then scroll-to-top (the default for doc-level links).
@@ -1324,7 +1380,18 @@ export default function App() {
             />
           )}
         </div>
+        {!chatOpen && !focusMode && (
+          <button type="button" className="drh-chat-toggle" onClick={() => setChatOpen(true)} title="Open the chat column">CHAT</button>
+        )}
       </div>
+      {chatOpen && !focusMode && (
+        <ChatColumn
+          editor={editorInstance}
+          docKey={(metadata?.docId as string) || activeFilename || 'scratch'}
+          topic={title}
+          onClose={() => setChatOpen(false)}
+        />
+      )}
       {overlay && (sidebarDrawer || railVisible) && (
         <div
           className="ow-scrim"
@@ -1358,6 +1425,7 @@ export default function App() {
           : 'Voice heatmap — attribution starts on the next edit'}
       />
       <ContextMenu editorRef={editorRef} allEditors={allEditors} documentId={activeFilename} />
+      <VariantCard />
       <CommentPopover documentId={activeFilename} />
       {showSyncSetup && (
         <SyncSetupModal

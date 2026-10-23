@@ -1,6 +1,6 @@
 # The Writer (screen 7) — design v0.1
 
-**Date:** 2026-10-07 · **Owner:** David Lowe · **Status:** DRAFT. Built: the Story tab (right column) with checklist, paragraph stats and research cards (build step 1).
+**Date:** 2026-10-07 · **Owner:** David Lowe · **Status:** DRAFT. Built: the Story tab (right column) with checklist, paragraph stats and research cards (build step 1); story import in the Story tab, dual: pipeline story JSON from `data/writer/stories/` plus craft-on-demand (one call crafts three openings from the doc's opening and the hub's research, each graded against the live story checklist; choices saved per doc in `data/writer/story-state/`); and rewrite-by-selection (build step 2): right-click → "Rewrite: …" runs the slots in `prompts/W_rewrite.json` through OpenRouter with the user's own `OPENROUTER_API_KEY` (gpt-4o-mini by default — DeepSeek is blocked by this account's provider allowlist), landing as pending rewrites; and truth nodes: right-click a selection → "Save as truth node" (or paste one in the Story tab), search them, insert at the cursor — the snippet library lives in `data/writer/nodes.json`. Next features are queued in `docs/WRITER_FEATURES_v0.2.md`.
 **Surface:** OpenWriter (`apps/openwriter`, MIT, unchanged upstream copy). It is the last app added to the hub.
 
 The Writer is where everything gathered on one topic lands, gets sorted, and becomes a story. Research (screen 1 and 2), transcripts (screen 5) and classifications all feed into it. The person decides every word that stays.

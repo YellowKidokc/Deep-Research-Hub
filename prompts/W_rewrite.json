@@ -1,0 +1,108 @@
+{
+  "set": "W",
+  "name": "Rewrite by selection",
+  "description": "Rewrite the selected passage, from OpenWriter's right-click menu (the drh plugin's POST /api/drh/rewrite). File parts become the system message; the input template becomes the user message. Placeholders: {text} (the selection), {instruction} (slot 5), {contextBefore} / {contextAfter} (surrounding paragraphs). These slots are run by the OpenWriter drh plugin, not run_slot.py.",
+  "slots": {
+    "1": {
+      "id": "shorter",
+      "label": "Rewrite: shorter",
+      "provider": {
+        "kind": "openai-compatible",
+        "base_url": "https://openrouter.ai/api/v1",
+        "model": "openai/gpt-4o-mini",
+        "key_env": "OPENROUTER_API_KEY"
+      },
+      "temperature": 0.4,
+      "prompt": {
+        "join": "\n\n---\n\n",
+        "strip_comments": true,
+        "parts": [
+          { "file": "W_rewrite/RETURN.md" },
+          { "file": "W_rewrite/shorter.md" },
+          { "input": "Context before (do not rewrite):\n{contextBefore}\n\n<rewrite>\n{text}\n</rewrite>\n\nContext after (do not rewrite):\n{contextAfter}\n\nReturn only the rewritten passage." }
+        ]
+      }
+    },
+    "2": {
+      "id": "plainer",
+      "label": "Rewrite: plainer",
+      "provider": {
+        "kind": "openai-compatible",
+        "base_url": "https://openrouter.ai/api/v1",
+        "model": "openai/gpt-4o-mini",
+        "key_env": "OPENROUTER_API_KEY"
+      },
+      "temperature": 0.4,
+      "prompt": {
+        "join": "\n\n---\n\n",
+        "strip_comments": true,
+        "parts": [
+          { "file": "W_rewrite/RETURN.md" },
+          { "file": "W_rewrite/plainer.md" },
+          { "input": "Context before (do not rewrite):\n{contextBefore}\n\n<rewrite>\n{text}\n</rewrite>\n\nContext after (do not rewrite):\n{contextAfter}\n\nReturn only the rewritten passage." }
+        ]
+      }
+    },
+    "3": {
+      "id": "as_the_skeptic",
+      "label": "Rewrite: as the Skeptic",
+      "provider": {
+        "kind": "openai-compatible",
+        "base_url": "https://openrouter.ai/api/v1",
+        "model": "openai/gpt-4o-mini",
+        "key_env": "OPENROUTER_API_KEY"
+      },
+      "temperature": 0.4,
+      "prompt": {
+        "join": "\n\n---\n\n",
+        "strip_comments": true,
+        "parts": [
+          { "file": "W_rewrite/RETURN.md" },
+          { "file": "W_rewrite/as_the_skeptic.md" },
+          { "input": "Context before (do not rewrite):\n{contextBefore}\n\n<rewrite>\n{text}\n</rewrite>\n\nContext after (do not rewrite):\n{contextAfter}\n\nReturn only the rewritten passage." }
+        ]
+      }
+    },
+    "4": {
+      "id": "unforgotten_sentence",
+      "label": "Rewrite: the unforgotten sentence",
+      "provider": {
+        "kind": "openai-compatible",
+        "base_url": "https://openrouter.ai/api/v1",
+        "model": "openai/gpt-4o-mini",
+        "key_env": "OPENROUTER_API_KEY"
+      },
+      "temperature": 0.7,
+      "prompt": {
+        "join": "\n\n---\n\n",
+        "strip_comments": true,
+        "parts": [
+          { "file": "W_rewrite/RETURN.md" },
+          { "file": "W_rewrite/unforgotten_sentence.md" },
+          { "input": "Context before (do not rewrite):\n{contextBefore}\n\n<rewrite>\n{text}\n</rewrite>\n\nContext after (do not rewrite):\n{contextAfter}\n\nReturn only the rewritten sentence." }
+        ]
+      }
+    },
+    "5": {
+      "id": "custom",
+      "label": "Rewrite: custom…",
+      "provider": {
+        "kind": "openai-compatible",
+        "base_url": "https://openrouter.ai/api/v1",
+        "model": "openai/gpt-4o-mini",
+        "key_env": "OPENROUTER_API_KEY"
+      },
+      "temperature": 0.4,
+      "prompt": {
+        "join": "\n\n---\n\n",
+        "strip_comments": true,
+        "parts": [
+          { "file": "W_rewrite/RETURN.md" },
+          { "file": "W_rewrite/custom.md" },
+          { "input": "Instruction: {instruction}\n\nContext before (do not rewrite):\n{contextBefore}\n\n<rewrite>\n{text}\n</rewrite>\n\nContext after (do not rewrite):\n{contextAfter}\n\nReturn only the rewritten passage." }
+        ]
+      }
+    },
+    "6": null, "7": null, "8": null, "9": null, "10": null
+  }
+}

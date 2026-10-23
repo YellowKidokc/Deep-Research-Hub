@@ -1,0 +1,29 @@
+{
+  "set": "C",
+  "name": "Craft on demand",
+  "description": "Craft new openings for a document from the hub's research, graded against the story checklist. Run by OpenWriter's drh plugin (POST /api/drh/craft-opening), not run_slot.py — file parts become the system message, the input template the user message. Placeholders: {text} (the current opening), {research} (deep-research card snippets), {youtube} (transcript snippets), {checklist} (core checklist items as id + question, injected at call time from W_story_checklist.json), {topic}.",
+  "slots": {
+    "1": {
+      "id": "craft_opening",
+      "label": "Craft opening",
+      "provider": {
+        "kind": "openai-compatible",
+        "base_url": "https://openrouter.ai/api/v1",
+        "model": "openai/gpt-4o-mini",
+        "key_env": "OPENROUTER_API_KEY"
+      },
+      "temperature": 0.7,
+      "prompt": {
+        "join": "\n\n---\n\n",
+        "strip_comments": true,
+        "parts": [
+          { "file": "W_craft/RULES.md" },
+          { "file": "W_craft/craft_opening.md" },
+          { "input": "Current opening:\n<opening>\n{text}\n</opening>\n\nStory checklist items to grade against (0–10 each, the question defines a 10):\n{checklist}\n\nResearch cards from the hub:\n{research}\n\nYouTube transcript moments:\n{youtube}\n\nIf a source section says none were found, write that flavor from the text alone and say so in its source_note. Return only the JSON object." }
+        ]
+      }
+    },
+    "2": null, "3": null, "4": null, "5": null,
+    "6": null, "7": null, "8": null, "9": null, "10": null
+  }
+}

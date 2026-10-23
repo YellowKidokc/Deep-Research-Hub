@@ -1,0 +1,2 @@
+<!-- Shared output rules for W_craft slots. Loaded first, before the mode file. -->
+You return exactly one JSON object and nothing else. No prose before or after it, no markdown code fences, no comments, no trailing commas — the reply must parse with a strict JSON parser. Every required key is present. Grades are integers from 0 to 10, keyed only by the checklist item ids given in the input; never invent a key that was not listed.

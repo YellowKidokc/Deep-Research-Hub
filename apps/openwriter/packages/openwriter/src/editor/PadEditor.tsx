@@ -9,8 +9,11 @@ import FloatingToolbar from './FloatingToolbar';
 import { createPendingDecorationPlugin, isPreviewActive } from '../decorations/plugin';
 import { replaceChangedContent } from '../decorations/apply';
 import { createCommentDecorationPlugin } from '../decorations/comments-plugin';
+import { createStorySpanDecorationPlugin } from '../decorations/story-spans-plugin';
+import { createAiEditBadgePlugin } from '../decorations/ai-edit-badges-plugin';
 import { createBacklinkDecorationPlugin } from '../decorations/backlinks-plugin';
 import { createAttributionDecorationPlugin } from '../decorations/attribution-plugin';
+import { createVariantDecorationPlugin } from '../decorations/variant-decoration-plugin';
 import { handleImagePaste, handleImageDrop } from './uploadImage';
 import { cleanPastedHTML } from './pasteCleanup';
 import { parseLinkHref, type ParsedLinkHref } from './link-href';
@@ -172,6 +175,28 @@ export default function PadEditor({ documentId, initialContent, extensions, onUp
     editor.view.updateState(newState);
   }, [editor]);
 
+  // Register the story-span decoration plugin (amber highlight on spans a
+  // story JSON offers rewrite variants for; driven by the Story tab)
+  useEffect(() => {
+    if (!editor) return;
+    const { state } = editor.view;
+    if (state.plugins.some((p: any) => p.key === 'storySpanDecoration$')) return;
+    const plugin = createStorySpanDecorationPlugin();
+    const newState = state.reconfigure({ plugins: [...state.plugins, plugin] });
+    editor.view.updateState(newState);
+  }, [editor]);
+
+  // Register the AI-edit badge plugin (outline + "API · model" badge with
+  // Original ⇄ AI / accept / reject on every pending change; drh/ai-edits.ts)
+  useEffect(() => {
+    if (!editor) return;
+    const { state } = editor.view;
+    if (state.plugins.some((p: any) => p.key === 'aiEditBadges$')) return;
+    const plugin = createAiEditBadgePlugin(editor);
+    const newState = state.reconfigure({ plugins: [...state.plugins, plugin] });
+    editor.view.updateState(newState);
+  }, [editor]);
+
   // Register the backlink decoration plugin (dotted underline on linked paragraphs)
   useEffect(() => {
     if (!editor) return;
@@ -189,6 +214,17 @@ export default function PadEditor({ documentId, initialContent, extensions, onUp
     const { state } = editor.view;
     if (state.plugins.some((p: any) => p.key === 'attributionDecoration$')) return;
     const plugin = createAttributionDecorationPlugin();
+    const newState = state.reconfigure({ plugins: [...state.plugins, plugin] });
+    editor.view.updateState(newState);
+  }, [editor]);
+
+  // Register the variant-decoration plugin (highlights the original sentence
+  // while the Sentence Variant Explorer is active).
+  useEffect(() => {
+    if (!editor) return;
+    const { state } = editor.view;
+    if (state.plugins.some((p: any) => p.key === 'variantDecorations$')) return;
+    const plugin = createVariantDecorationPlugin(editor);
     const newState = state.reconfigure({ plugins: [...state.plugins, plugin] });
     editor.view.updateState(newState);
   }, [editor]);

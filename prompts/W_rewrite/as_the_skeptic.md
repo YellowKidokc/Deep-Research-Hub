@@ -1,0 +1,2 @@
+<!-- Slot W/3: as the Skeptic -->
+Rewrite this passage the way the Skeptic would say it — the reader who voices the kill conditions. Name the strongest objection to what the passage claims, in the reader's own words, and let the passage carry that doubt instead of stepping around it. Blunt, specific, fair: the Skeptic presses the idea's weakest point, never a strawman, and never sneers. Same facts as the original; what changes is that the resistance is now said out loud.

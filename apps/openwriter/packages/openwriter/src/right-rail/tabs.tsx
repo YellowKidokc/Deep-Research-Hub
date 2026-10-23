@@ -27,6 +27,7 @@ import {
   ConnectionsIcon,
   AppearanceIcon,
   StoryIcon,
+  ApisIcon,
 } from './icons';
 import ReviewTab from './tabs/ReviewTab';
 import VersionsTab from './tabs/VersionsTab';
@@ -37,11 +38,14 @@ import PluginsTab from './tabs/PluginsTab';
 import ConnectionsTab from './tabs/ConnectionsTab';
 import AppearanceTab from './tabs/AppearanceTab';
 import StoryTab from './tabs/StoryTab';
+import ApisTab from './tabs/ApisTab';
 
 export const TAB_REGISTRY: TabDefinition[] = [
   { id: 'review',      label: 'Review',      scope: 'doc',       icon: <ReviewIcon />,      Component: ReviewTab },
   // Deep Research Hub: story checklist, paragraph stats, research cards (plugins/drh).
   { id: 'story',       label: 'Story',       scope: 'doc',       icon: <StoryIcon />,       Component: StoryTab },
+  // Deep Research Hub: preset + your own API calls on the open doc (drh/actions-store).
+  { id: 'apis',        label: 'APIs',        scope: 'doc',       icon: <ApisIcon />,        Component: ApisTab },
   { id: 'activity',    label: 'Activity',    scope: 'workspace', icon: <ActivityIcon />,    Component: ActivityTab },
   { id: 'backlinks',   label: 'Backlinks',   scope: 'doc',       icon: <BacklinksIcon />,   Component: BacklinksTab },
   { id: 'exports',     label: 'Export',      scope: 'doc',       icon: <ExportsIcon />,     Component: ExportsTab },

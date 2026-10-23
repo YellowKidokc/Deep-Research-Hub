@@ -313,6 +313,29 @@ function readNodes(file: string): any[] {
   return Array.isArray(raw) ? raw : [];
 }
 
+/** Read the API key from the slot's configured env var, or fall back to OpenRouter. */
+function providerKey(slot: any, ctx: RouteContext): string {
+  const envName = slot?.provider?.key_env;
+  if (envName && typeof process.env[envName] === 'string') return process.env[envName]!;
+  return ctx.config.openrouterKey || process.env.OPENROUTER_API_KEY || '';
+}
+
+function providerBaseUrl(slot: any): string {
+  return (slot?.provider?.base_url || 'https://openrouter.ai/api/v1').replace(/\/$/, '');
+}
+
+function providerHint(slot: any): string {
+  const envName = slot?.provider?.key_env || 'OPENROUTER_API_KEY';
+  return `set ${envName} in the environment (or the Deep Research Hub plugin's openrouterKey setting), then restart OpenWriter.`;
+}
+
+/** Prefer the configured model only when it looks like a model id (contains '/').
+ *  Some copies have an API key saved in the model field; ignore those. */
+function pickModel(configured: unknown, fallback: string): string {
+  if (typeof configured === 'string' && configured.includes('/') && !configured.startsWith('sk-')) return configured;
+  return fallback || 'openai/gpt-4o-mini';
+}
+
 const plugin = {
   name: '@openwriter/plugin-drh',
   version: '0.1.0',
@@ -445,6 +468,19 @@ const plugin = {
       res.json({ ok: true, state });
     });
 
+    // Kait loops: reusable paragraph-level rhetorical scaffolds stored in
+    // data/writer/loops.json. The Story tab renders them as insertable templates.
+    const loopsFile = root ? join(root, 'data', 'writer', 'loops.json') : '';
+
+    ctx.app.get('/api/drh/loops', (_req: Request, res: Response) => {
+      if (!root) return res.status(503).json({ error: 'Deep Research Hub folder not found; set DRH_ROOT' });
+      const raw = readJson(loopsFile);
+      const loops = Array.isArray(raw)
+        ? raw.filter((l: any) => l && typeof l.id === 'string' && typeof l.label === 'string' && typeof l.scaffold === 'string')
+        : [];
+      res.json({ loops });
+    });
+
     // Truth nodes: reusable passages saved from the doc or pasted from
     // chats/books, dropped into documents later from the Story tab.
     const nodesFile = root ? join(root, 'data', 'writer', 'nodes.json') : '';
@@ -522,12 +558,12 @@ const plugin = {
       const contextBefore = asText(req.body?.contextBefore).join('\n\n');
       const contextAfter = asText(req.body?.contextAfter).join('\n\n');
 
-      const apiKey = ctx.config.openrouterKey || process.env.OPENROUTER_API_KEY || '';
+      const apiKey = providerKey(slot, ctx);
       if (!apiKey) {
-        return res.status(503).json({ error: 'Rewrite needs an OpenRouter key: set OPENROUTER_API_KEY in the environment (or the Deep Research Hub plugin’s openrouterKey setting), then restart OpenWriter.' });
+        return res.status(503).json({ error: 'Rewrite needs an API key: ' + providerHint(slot) });
       }
-      const model = ctx.config.model || slot.provider?.model;
-      const baseUrl = (slot.provider?.base_url || 'https://openrouter.ai/api/v1').replace(/\/$/, '');
+      const model = pickModel(ctx.config.model, slot.provider?.model);
+      const baseUrl = providerBaseUrl(slot);
       const fill = (s: string) => s
         .replaceAll('{text}', text)
         .replaceAll('{instruction}', instruction)
@@ -616,12 +652,12 @@ const plugin = {
       const coreIds = new Set<string>(coreItems.map((i: any) => i.id));
       const checklist = coreItems.map((i: any) => `- ${i.id}: ${i.question}`).join('\n');
 
-      const apiKey = ctx.config.openrouterKey || process.env.OPENROUTER_API_KEY || '';
+      const apiKey = providerKey(slot, ctx);
       if (!apiKey) {
-        return res.status(503).json({ error: 'Craft needs an OpenRouter key: set OPENROUTER_API_KEY in the environment (or the Deep Research Hub plugin’s openrouterKey setting), then restart OpenWriter.' });
+        return res.status(503).json({ error: 'Craft needs an API key: ' + providerHint(slot) });
       }
-      const model = ctx.config.model || slot.provider?.model;
-      const baseUrl = (slot.provider?.base_url || 'https://openrouter.ai/api/v1').replace(/\/$/, '');
+      const model = pickModel(ctx.config.model, slot.provider?.model);
+      const baseUrl = providerBaseUrl(slot);
       const fill = (s: string) => s
         .replaceAll('{text}', text)
         .replaceAll('{research}', research)
@@ -681,7 +717,7 @@ const plugin = {
         return out;
       };
       const flavorVariants = (Array.isArray(parsed?.variants) ? parsed.variants : [])
-        .filter((v: any) => v && typeof v.text === 'string' && v.text.trim() && ['research', 'story', 'youtube'].includes(v.flavor));
+        .filter((v: any) => v && typeof v.text === 'string' && v.text.trim() && typeof v.flavor === 'string' && v.flavor.trim());
       if (!flavorVariants.length) {
         return res.status(502).json({ error: 'The model returned no usable openings; try again' });
       }
@@ -758,12 +794,12 @@ const plugin = {
         .map((m: any) => ({ role: m.role, content: m.content.slice(0, 4000) }));
       const topic = typeof req.body?.topic === 'string' ? req.body.topic.trim().slice(0, 200) : '';
 
-      const apiKey = ctx.config.openrouterKey || process.env.OPENROUTER_API_KEY || '';
+      const apiKey = providerKey(slot, ctx);
       if (!apiKey) {
-        return res.status(503).json({ error: 'Needs an OpenRouter key: set OPENROUTER_API_KEY in the environment (or the Deep Research Hub plugin’s openrouterKey setting), then restart OpenWriter.' });
+        return res.status(503).json({ error: 'Needs an API key: ' + providerHint(slot) });
       }
-      const model = ctx.config.model || slot.provider?.model;
-      const baseUrl = (slot.provider?.base_url || 'https://openrouter.ai/api/v1').replace(/\/$/, '');
+      const model = pickModel(ctx.config.model, slot.provider?.model);
+      const baseUrl = providerBaseUrl(slot);
       const fill = (s: string) => s
         .replaceAll('{document}', docText)
         .replaceAll('{goals}', goals || '(none — follow the instruction)')
@@ -869,12 +905,12 @@ const plugin = {
       const cardLine = (c: Card) => `- ${c.title} (${c.detail}): ${c.snippet.slice(0, 300)}`;
       const cardsText = cards.slice(0, 5).map(cardLine).join('\n') || '(none found)';
 
-      const apiKey = ctx.config.openrouterKey || process.env.OPENROUTER_API_KEY || '';
+      const apiKey = providerKey(slot, ctx);
       if (!apiKey) {
-        return res.status(503).json({ error: 'Needs an OpenRouter key: set OPENROUTER_API_KEY in the environment (or the Deep Research Hub plugin’s openrouterKey setting), then restart OpenWriter.' });
+        return res.status(503).json({ error: 'Needs an API key: ' + providerHint(slot) });
       }
-      const model = ctx.config.model || slot.provider?.model;
-      const baseUrl = (slot.provider?.base_url || 'https://openrouter.ai/api/v1').replace(/\/$/, '');
+      const model = pickModel(ctx.config.model, slot.provider?.model);
+      const baseUrl = providerBaseUrl(slot);
       const fill = (s: string) => s
         .replaceAll('{text}', text)
         .replaceAll('{topic}', topic || '(not given)')
@@ -970,7 +1006,7 @@ const plugin = {
 
     ctx.app.get('/api/drh/actions', (_req: Request, res: Response) => {
       if (!root) return res.status(503).json({ error: 'Deep Research Hub folder not found; set DRH_ROOT' });
-      res.json({ actions: listActions(), defaultModel: ctx.config.model || '' });
+      res.json({ actions: listActions(), defaultModel: pickModel(ctx.config.model, '') });
     });
 
     ctx.app.post('/api/drh/actions', (req: Request, res: Response) => {
@@ -1049,12 +1085,12 @@ const plugin = {
       };
       if (!slot) return res.status(500).json({ error: 'prompts/W_actions.json missing or slot empty' });
 
-      const apiKey = ctx.config.openrouterKey || process.env.OPENROUTER_API_KEY || '';
+      const apiKey = providerKey(slot, ctx);
       if (!apiKey) {
-        return res.status(503).json({ error: 'Needs an OpenRouter key: set OPENROUTER_API_KEY in the environment (or the Deep Research Hub plugin’s openrouterKey setting), then restart OpenWriter.' });
+        return res.status(503).json({ error: 'Needs an API key: ' + providerHint(slot) });
       }
-      const model = action.model || ctx.config.model || slot.provider?.model || 'openai/gpt-4o-mini';
-      const baseUrl = (slot.provider?.base_url || 'https://openrouter.ai/api/v1').replace(/\/$/, '');
+      const model = action.model || pickModel(ctx.config.model, slot.provider?.model) || 'openai/gpt-4o-mini';
+      const baseUrl = providerBaseUrl(slot);
       const inputs = [
         `Topic: ${topic || '(not given)'}`,
         context ? `Earlier result to work from:\n<earlier>\n${context}\n</earlier>` : '',
@@ -1168,6 +1204,113 @@ const plugin = {
         .filter((e: any) => allowed.has(e.id) && !seen.has(e.id) && seen.add(e.id) && e.text !== original.get(e.id));
       res.json({ output: 'edits', model, reply, edits });
     });
+
+    // Sentence Variant Explorer: propose alternatives to the key sentence in one paragraph.
+    ctx.app.post('/api/drh/variants', async (req: Request, res: Response) => {
+      if (!root) return res.status(503).json({ error: 'Deep Research Hub folder not found; set DRH_ROOT' });
+      const promptsDir = join(root, 'prompts');
+      const set = readJson(join(promptsDir, 'W_variants.json'));
+      const slot = set?.slots?.['1'];
+      if (!slot) return res.status(500).json({ error: 'prompts/W_variants.json missing or slot 1 empty' });
+
+      const paragraphId = safeId(req.body?.paragraphId);
+      const docId = safeId(req.body?.docId);
+      const text = typeof req.body?.text === 'string' ? req.body.text.trim() : '';
+      if (!paragraphId || !docId || !text) return res.status(400).json({ error: 'paragraphId, docId and text are required' });
+      const wordCount = text.split(/\s+/).length;
+      if (wordCount > 2000) return res.status(400).json({ error: `paragraph too long (${wordCount} words; max 2000)` });
+
+      const contextBefore = (Array.isArray(req.body?.contextBefore) ? req.body.contextBefore : [])
+        .filter((t: unknown) => typeof t === 'string').map((t: string) => t.trim()).filter(Boolean).slice(-2).join('\n\n');
+      const contextAfter = (Array.isArray(req.body?.contextAfter) ? req.body.contextAfter : [])
+        .filter((t: unknown) => typeof t === 'string').map((t: string) => t.trim()).filter(Boolean).slice(0, 2).join('\n\n');
+
+      const apiKey = providerKey(slot, ctx);
+      if (!apiKey) {
+        return res.status(503).json({ error: 'Needs an API key: ' + providerHint(slot) });
+      }
+      const model = slot.provider?.model || pickModel(ctx.config.model, 'deepseek-chat');
+      const baseUrl = providerBaseUrl(slot);
+      const inputs = [
+        contextBefore ? `Context before:\n<before>\n${contextBefore}\n</before>` : '',
+        `Paragraph to improve:\n<paragraph>\n${text}\n</paragraph>`,
+        contextAfter ? `Context after:\n<after>\n${contextAfter}\n</after>` : '',
+        'Return only the JSON object.',
+      ].filter(Boolean).join('\n\n');
+      const fill = (s: string) => s.replaceAll('{inputs}', inputs);
+      const { system, user } = buildSlotMessages(promptsDir, slot, fill);
+      const requestBody: Record<string, unknown> = {
+        model,
+        temperature: slot.temperature ?? 0.6,
+        response_format: { type: 'json_object' },
+        messages: [{ role: 'system', content: system }, { role: 'user', content: user }],
+      };
+      if (slot.max_tokens) requestBody.max_tokens = slot.max_tokens;
+
+      const stamp = new Date();
+      const pad = (n: number) => String(n).padStart(2, '0');
+      const rid = `${stamp.getFullYear()}${pad(stamp.getMonth() + 1)}${pad(stamp.getDate())}-${pad(stamp.getHours())}${pad(stamp.getMinutes())}${pad(stamp.getSeconds())}_${slot.id}_variants`;
+      const apiDir = join(root, 'data', 'api');
+      mkdirSync(join(apiDir, 'requests'), { recursive: true });
+      writeFileSync(join(apiDir, 'requests', `${rid}.json`), JSON.stringify(requestBody, null, 2));
+
+      let data: any;
+      try {
+        const upstream = await fetch(`${baseUrl}/chat/completions`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${apiKey}` },
+          body: JSON.stringify(requestBody),
+          signal: AbortSignal.timeout(120_000),
+        });
+        data = await upstream.json().catch(() => null);
+        if (!upstream.ok) {
+          const msg = data?.error?.message || (typeof data?.error === 'string' ? data.error : '') || `HTTP ${upstream.status}`;
+          return res.status(502).json({ error: `DeepSeek: ${msg}` });
+        }
+      } catch (err: any) {
+        const msg = err?.name === 'TimeoutError' ? 'DeepSeek took too long (120s); try again' : `DeepSeek request failed: ${err?.message || err}`;
+        return res.status(502).json({ error: msg });
+      }
+
+      const content = data?.choices?.[0]?.message?.content;
+      if (typeof content !== 'string' || !content.trim()) return res.status(502).json({ error: 'DeepSeek returned no text' });
+      let parsed: any;
+      try {
+        parsed = JSON.parse(content.trim().replace(/^```(?:json)?\s*\n?/i, '').replace(/\n?```\s*$/, ''));
+      } catch {
+        return res.status(502).json({ error: 'The model did not return parseable JSON; try again' });
+      }
+
+      const str = (v: unknown, max: number) => (typeof v === 'string' ? v.trim().slice(0, max) : '');
+      const variants = (Array.isArray(parsed?.variants) ? parsed.variants : [])
+        .filter((v: any) => v && typeof v.text === 'string' && v.text.trim())
+        .slice(0, 6)
+        .map((v: any) => ({ text: str(v.text, 1000), why: str(v.why, 500) }));
+      const result = {
+        paragraphId,
+        originalSentence: str(parsed?.original_sentence, 1000),
+        variants,
+        model,
+        created: stamp.toISOString(),
+      };
+
+      const variantsDir = join(root, 'data', 'writer', 'variants', docId);
+      mkdirSync(variantsDir, { recursive: true });
+      writeFileSync(join(variantsDir, `${paragraphId}.json`), JSON.stringify(result, null, 2));
+
+      const usage = data?.usage ?? {};
+      appendFileSync(join(apiDir, 'log.jsonl'), JSON.stringify({
+        id: rid,
+        time: stamp.toISOString().slice(0, 19),
+        slot: 'V/1',
+        slot_id: slot.id,
+        model,
+        file: 'openwriter-variants',
+        tokens_in: usage.prompt_tokens ?? null,
+        tokens_out: usage.completion_tokens ?? null,
+      }) + '\n');
+      res.json(result);
+    });
   },
 
   contextMenuItems() {
@@ -1178,6 +1321,7 @@ const plugin = {
       { label: 'Rewrite: the unforgotten sentence', action: 'drh:unforgotten_sentence', condition: 'has-selection' as const },
       { label: 'Rewrite: custom…', action: 'drh:custom', condition: 'has-selection' as const, promptForInput: true },
       { label: 'Save as truth node', action: 'drh:save-node', condition: 'has-selection' as const },
+      { label: 'Explore variants', action: 'drh:explore-variants', condition: 'has-selection' as const },
     ];
   },
 };

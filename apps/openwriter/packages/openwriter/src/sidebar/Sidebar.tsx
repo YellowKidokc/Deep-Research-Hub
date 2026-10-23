@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
+import SidebarApis from '../drh/SidebarApis';
 import type { PendingDocsPayload } from '../ws/client';
 import { useSidebarData } from './sidebar-data';
 import { useSidebarActions } from './sidebar-actions';
@@ -307,6 +308,7 @@ export default function Sidebar({ open, onSwitchDocument, onCreateDocument, refr
         <>
           {searchBar}
           {renderMode()}
+          <SidebarApis />
         </>
       )}
       {resizeHandle}

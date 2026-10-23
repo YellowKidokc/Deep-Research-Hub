@@ -1,0 +1,51 @@
+{
+  "set": "V",
+  "name": "Revise the document",
+  "description": "Whole-document revision from OpenWriter: slot 1 is the Story tab's Run (picked checklist items as goals), slot 2 the chat column. Run by the drh plugin (POST /api/drh/revise), not run_slot.py — file parts become the system message, the input template the user message (chat history goes between them). Placeholders: {document} (numbered paragraphs, [pN] text), {goals} (picked checklist items, label: question), {instruction} (extra instruction or chat message), {editable} (paragraph ids the model may change), {topic}. The reply must be JSON: { reply, edits: [{ id, text, why }] }; each edit lands in the doc as a pending rewrite.",
+  "slots": {
+    "1": {
+      "id": "run_goals",
+      "label": "Run checklist goals on the doc",
+      "provider": {
+        "kind": "openai-compatible",
+        "base_url": "https://openrouter.ai/api/v1",
+        "model": "openai/gpt-4o-mini",
+        "key_env": "OPENROUTER_API_KEY"
+      },
+      "temperature": 0.5,
+      "max_tokens": 12000,
+      "prompt": {
+        "join": "\n\n---\n\n",
+        "strip_comments": true,
+        "parts": [
+          { "file": "W_revise/RULES.md" },
+          { "file": "W_revise/run_goals.md" },
+          { "input": "Topic: {topic}\n\nGoals (from the story checklist):\n{goals}\n\nExtra instruction: {instruction}\n\nEditable paragraphs: {editable}\n\nDocument:\n<document>\n{document}\n</document>\n\nReturn only the JSON object." }
+        ]
+      }
+    },
+    "2": {
+      "id": "chat",
+      "label": "Chat beside the doc",
+      "provider": {
+        "kind": "openai-compatible",
+        "base_url": "https://openrouter.ai/api/v1",
+        "model": "openai/gpt-4o-mini",
+        "key_env": "OPENROUTER_API_KEY"
+      },
+      "temperature": 0.5,
+      "max_tokens": 12000,
+      "prompt": {
+        "join": "\n\n---\n\n",
+        "strip_comments": true,
+        "parts": [
+          { "file": "W_revise/RULES.md" },
+          { "file": "W_revise/chat.md" },
+          { "input": "Topic: {topic}\n\nEditable paragraphs: {editable}\n\nDocument as it stands now:\n<document>\n{document}\n</document>\n\nWriter's message:\n{instruction}\n\nReturn only the JSON object." }
+        ]
+      }
+    },
+    "3": null, "4": null, "5": null,
+    "6": null, "7": null, "8": null, "9": null, "10": null
+  }
+}

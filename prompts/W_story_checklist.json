@@ -14,9 +14,21 @@
     { "id": "mHAwMt_mZXg", "label": "Speak so people act" },
     { "id": "cE2mGI86QoE", "label": "Sell your ideas" },
     { "id": "9GjevuCBfQ4", "label": "Influence senior leaders" },
-    { "id": "yours", "label": "Yours" }
+    { "id": "yours", "label": "Yours" },
+    { "id": "kait", "label": "Kait loops" },
+    { "id": "kait_backbone", "label": "Kait backbone" },
+    { "id": "kait_open", "label": "Kait open" },
+    { "id": "kait_frame", "label": "Kait frame" },
+    { "id": "kait_body", "label": "Kait body" },
+    { "id": "kait_turn", "label": "Kait turn" },
+    { "id": "kait_trust", "label": "Kait trust" },
+    { "id": "kait_close", "label": "Kait close" },
+    { "id": "kait_voice", "label": "Kait voice" }
   ],
   "items": [
+    { "id": "say",       "group": "core", "core": true, "label": "Says one thing",                  "question": "What are you trying to say? One sentence, plain — if you can't say it simply, the piece isn't ready." },
+    { "id": "believe",   "group": "core", "core": true, "label": "Believes it",                     "question": "Why do you believe what you're saying? The reason itself, not a citation." },
+    { "id": "original",  "group": "core", "core": true, "label": "Backed in your own words",        "question": "What original thoughts or words back this up? Receipts point to sources; the spine of the argument has to be yours." },
     { "id": "opening",     "group": "core", "core": true, "label": "Great opening",                    "question": "Does the first paragraph make the reader need the next one?" },
     { "id": "curiosity",   "group": "core", "core": true, "label": "Creates curiosity",                "question": "Is there an open question the reader wants answered?", "source": "lghSjBl9yGM", "t": 0 },
     { "id": "holdback",    "group": "core", "core": true, "label": "Holds information back",           "question": "Is the answer withheld until it pays off, not given away early?", "source": "lghSjBl9yGM", "t": 300 },
@@ -52,7 +64,47 @@
 
     { "id": "cost",        "group": "yours", "label": "Costs the teller something", "question": "Is there a piece of you in it: a fact or a story that compels the listener?" },
     { "id": "unforgotten", "group": "yours", "label": "Unforgotten sentence",       "question": "Is there one line people will repeat?" },
-    { "id": "receipts",    "group": "yours", "label": "Claims carry receipts",      "question": "Does every fact, origin or quote point to its source?" }
+    { "id": "receipts",    "group": "yours", "label": "Claims carry receipts",      "question": "Does every fact, origin or quote point to its source?" },
+
+    { "id": "kait_number",        "group": "kait", "label": "Open with a concrete number",       "question": "Does the paragraph land on one specific number, ratio, or trend that re-frames the topic?" },
+    { "id": "kait_comment",       "group": "kait", "label": "Quote a comment + engagement",      "question": "Is there a comment, quote, or testimony with its engagement count or source attached?" },
+    { "id": "kait_study",         "group": "kait", "label": "Cite a study + sample size",        "question": "Does a study appear with its sample size, journal, or year so the reader trusts the number?" },
+    { "id": "kait_contradiction", "group": "kait", "label": "Hold a contradiction side-by-side", "question": "Are two opposing facts or quotes placed next to each other so the tension is visible?" },
+    { "id": "kait_predictor",     "group": "kait", "label": "Name a dead predictor",             "question": "Does it name someone who predicted this long ago, then grade them against what actually happened?" },
+    { "id": "kait_before_after",  "group": "kait", "label": "Before / after stat with years",    "question": "Is there a clear then-vs-now comparison with concrete years and numbers?" },
+    { "id": "kait_pricing",       "group": "kait", "label": "Reframe as pricing / exchange",     "question": "Is the argument translated into what someone pays, what they get, and whether the deal still holds?" },
+    { "id": "kait_hedge",         "group": "kait", "label": "The honest version is narrow",      "question": "Does it narrow the claim to what the evidence actually supports, instead of overreaching?" },
+
+    { "id": "kait_K01", "group": "kait_backbone", "label": "Not-X-but-Y relabeling", "question": "Does the piece swap a word the reader already has for the truer one at least once?" },
+    { "id": "kait_K02", "group": "kait_backbone", "label": "Not because ___. Because ___.", "question": "Does it kill the default cause and install the real one?" },
+    { "id": "kait_K03", "group": "kait_backbone", "label": "Numbered engine", "question": "If the piece is long, does it use a counted spine so progress feels inevitable?" },
+
+    { "id": "kait_K04", "group": "kait_open", "label": "Sentence that turns on itself", "question": "Does the opening betray an expectation in the second half?" },
+    { "id": "kait_K05", "group": "kait_open", "label": "Small fact, enormous implication", "question": "Does the opening give a tiny concrete fact that implies a much larger conclusion?" },
+    { "id": "kait_K06", "group": "kait_open", "label": "Asymmetry", "question": "Does the opening place two numbers side-by-side that should match but don't?" },
+
+    { "id": "kait_K14", "group": "kait_frame", "label": "Declare what you're not doing", "question": "Does it lower the reader's guard by narrowing the battlefield?" },
+    { "id": "kait_K16", "group": "kait_frame", "label": "Map the options", "question": "Does it give the reader the whole map early?" },
+    { "id": "kait_K18", "group": "kait_frame", "label": "Mechanism not villain", "question": "Does it explain the other side's behavior as a pattern that works for them, not as evil?" },
+
+    { "id": "kait_K20", "group": "kait_body", "label": "Walk the evidence like a clock", "question": "Does the middle walk evidence slowly and concretely so the conclusion grows out of it?" },
+    { "id": "kait_K21", "group": "kait_body", "label": "Show the other phone", "question": "Does it steel-man the other side's best evidence in their own words?" },
+    { "id": "kait_K23", "group": "kait_body", "label": "Witness with year and book", "question": "Does it bring in a historical thinker with a specific citation and build on one line?" },
+    { "id": "kait_K24", "group": "kait_body", "label": "Hold that in your mind", "question": "Does it load an idea early and fire it later, stitching the argument together?" },
+
+    { "id": "kait_K31", "group": "kait_turn", "label": "Both true at once", "question": "Does it hold a paradox side-by-side without collapsing it?" },
+    { "id": "kait_K33", "group": "kait_turn", "label": "Swap test", "question": "Does it use a mirror swap that collapses the opposing verdict?" },
+    { "id": "kait_K34", "group": "kait_turn", "label": "The question was never X", "question": "Does it re-ask the question at a deeper level before the close?" },
+
+    { "id": "kait_K36", "group": "kait_trust", "label": "Convict your own side", "question": "Does it concede your own camp's fault first, with data?" },
+    { "id": "kait_K38", "group": "kait_trust", "label": "Refused number", "question": "Does it name a claim it will NOT make, and why?" },
+    { "id": "kait_K40", "group": "kait_trust", "label": "Compassion to the other side", "question": "Does it show real empathy for the person it is critiquing?" },
+
+    { "id": "kait_K44", "group": "kait_close", "label": "Aphorism run", "question": "Does the close land with 2-4 short hard sentences people could quote?" },
+    { "id": "kait_K45", "group": "kait_close", "label": "Carry-question", "question": "Does it leave one portable question the reader can keep using?" },
+    { "id": "kait_K48", "group": "kait_close", "label": "Ring to the opening", "question": "Does the close return to the opening's concrete scene or names?" },
+
+    { "id": "kait_K50", "group": "kait_voice", "label": "List then cut", "question": "Does it use a run of concrete nouns ending in one short sentence for rhythm?" }
   ],
   "outlines": [
     {

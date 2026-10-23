@@ -82,6 +82,83 @@ img.pending-stale, pre.pending-stale {
   text-decoration-color: var(--accent, #2563eb);
 }
 
+/* Story span: a stretch of the doc a story JSON offers rewrite variants for
+ * (Story tab → "Story import"). Warm amber — deliberately off the
+ * green/blue/red pending-edit palette. */
+.story-span {
+  background-color: rgba(217, 119, 6, 0.10);
+  box-shadow: inset 0 -1.5px 0 rgba(217, 119, 6, 0.45);
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+}
+.story-span:hover { background-color: rgba(217, 119, 6, 0.18); }
+.story-span--active {
+  background-color: rgba(217, 119, 6, 0.22);
+  box-shadow: inset 0 -2px 0 rgba(217, 119, 6, 0.8);
+}
+.story-span--active:hover { background-color: rgba(217, 119, 6, 0.28); }
+.story-span--resolved {
+  background-color: rgba(100, 116, 139, 0.08);
+  box-shadow: inset 0 -1px 0 rgba(100, 116, 139, 0.35);
+  opacity: 0.75;
+}
+.story-span--resolved:hover { opacity: 0.9; }
+
+/* AI edit: every pending change gets an outline and a badge pinned above it
+ * ("API · model · who asked", Original ⇄ AI, ✓, ✕). See
+ * decorations/ai-edit-badges-plugin.ts and drh/ai-edits.ts. */
+.ai-edit-outline {
+  position: relative;
+  outline: 1.5px solid var(--color-pending-rewrite-border, #2563eb);
+  outline-offset: 5px;
+  border-radius: 2px;
+  margin-top: 1.9em !important;
+}
+.ai-edit-outline--insert { outline-color: var(--color-pending-insert-border, #16a34a); }
+.ai-edit-outline--delete { outline-color: var(--color-pending-delete-border, #dc2626); outline-style: dashed; }
+.ai-edit-outline--unlabelled { outline-style: dashed; }
+.ai-edit-flash { animation: ai-edit-flash 1.2s ease-out; }
+@keyframes ai-edit-flash {
+  0% { box-shadow: 0 0 0 6px rgba(37, 99, 235, 0.35); }
+  100% { box-shadow: 0 0 0 6px rgba(37, 99, 235, 0); }
+}
+.ai-edit-badge {
+  position: absolute;
+  top: calc(-1.75em - 5px);
+  left: -6px;
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  height: 1.55em;
+  padding: 0 2px 0 7px;
+  font: 500 11px/1 var(--font-ui, system-ui, sans-serif);
+  letter-spacing: 0.01em;
+  color: #fff;
+  background: var(--color-pending-rewrite-border, #2563eb);
+  border-radius: 4px 4px 0 0;
+  white-space: nowrap;
+  user-select: none;
+  z-index: 2;
+  text-indent: 0;
+}
+.ai-edit-badge--insert { background: var(--color-pending-insert-border, #16a34a); }
+.ai-edit-badge--delete { background: var(--color-pending-delete-border, #dc2626); }
+.ai-edit-badge.is-original { background: #64748b; }
+.ai-edit-badge__label { padding-right: 4px; max-width: 320px; overflow: hidden; text-overflow: ellipsis; }
+.ai-edit-badge__btn {
+  height: 1.3em;
+  padding: 0 6px;
+  border: 0;
+  border-radius: 3px;
+  font: inherit;
+  color: inherit;
+  background: rgba(255, 255, 255, 0.16);
+  cursor: pointer;
+}
+.ai-edit-badge__btn:hover { background: rgba(255, 255, 255, 0.32); }
+.ai-edit-badge__flip { font-weight: 600; }
+
 /* Comment popover: hover-anchored card. View mode shows a stack of comment
  * cards (one per sibling/nested comment), edit/compose mode swaps in a
  * textarea. Positioned via inline styles by CommentPopover. */
@@ -1049,5 +1126,15 @@ img.pending-delete {
 /* Mixed — both authors touched this block. Faded amber. */
 .attr-mixed { background-color: var(--color-attr-mixed-bg, rgba(180, 83, 9, 0.10)); }
 /* Unknown — pre-attribution content. No overlay (deliberately blank). */
+
+/* Variant target: the original sentence being cycled in the Sentence Variant Explorer.
+   Warm amber inline highlight, deliberately distinct from pending edits. */
+.variant-target {
+  background-color: rgba(217, 119, 6, 0.16);
+  box-shadow: inset 0 -2px 0 rgba(217, 119, 6, 0.55);
+  border-radius: 2px;
+  transition: background-color 0.15s ease, box-shadow 0.15s ease;
+}
+
 /* The toggle now lives as an icon button in the right-rail topbar
  * (src/right-rail/RightRail.tsx), not a floating pill. adr: adr/document-history-attribution.md */

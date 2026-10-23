@@ -42,6 +42,12 @@ export const StoryIcon = () => (
   </svg>
 );
 
+export const ApisIcon = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+    <path d="M13 2 4 14h7l-1 8 9-12h-7z" stroke="currentColor" {...s} />
+  </svg>
+);
+
 export const ExportsIcon = () => (
   <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
     <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" stroke="currentColor" {...s} />

@@ -7,6 +7,9 @@ import type { SelectionRange } from '../decorations/apply';
 import { getCommentsData } from '../decorations/comments-plugin';
 import { getBacklinksForNode, type BacklinkEntry } from '../decorations/backlinks-plugin';
 import { injectSelectionMarkers, stripSelectionMarkers } from './selection-markers';
+import { recordAiEdit, collectParagraphs } from '../drh/ai-edits';
+import { startVariants, closeVariants } from '../drh/variants-store';
+import { forceVariantRefresh } from '../decorations/variant-decoration-plugin';
 import { formatLinkHref, linkHrefIdentifier } from '../editor/link-href';
 import { showToast } from '../utils/toast';
 import { openTopupCheckout } from '../utils/av-billing';
@@ -113,6 +116,8 @@ export default function ContextMenu({ editorRef, allEditors, documentId }: Conte
   const capturedSelection = useRef<CapturedSelection | null>(null);
   // Track which editor was right-clicked (for thread mode with multiple editors)
   const activeEditorRef = useRef<Editor | null>(null);
+  // Paragraph actually under the right-click pointer (for paragraph-scoped actions).
+  const clickedBlockIdRef = useRef<string | null>(null);
 
   // Find which editor contains the click target
   const findEditorForTarget = useCallback((target: Node): Editor | null => {
@@ -346,6 +351,7 @@ export default function ContextMenu({ editorRef, allEditors, documentId }: Conte
         }
       }
       setBookmarkTarget(clickedBlockId);
+      clickedBlockIdRef.current = clickedBlockId;
       setBookmarkEditor(null);
 
       e.preventDefault();
@@ -443,6 +449,29 @@ export default function ContextMenu({ editorRef, allEditors, documentId }: Conte
     let { nodes, nodeIds } = captured;
     const { from, to } = captured;
 
+    // drh:save-node: truth nodes — save the selection to the hub's snippet
+    // library. No LLM, no pending rewrite, no loading blur; just a toast.
+    if (action === 'drh:save-node') {
+      setVisible(false);
+      setShowCustom(false);
+      try {
+        const res = await fetch('/api/drh/nodes', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            text: captured.text,
+            source: documentId ? `doc: ${documentId}` : '',
+          }),
+        });
+        const b = await res.json().catch(() => ({}));
+        if (!res.ok) throw new Error(b.error || `Save failed (${res.status})`);
+        showToast('Saved as truth node');
+      } catch (err: any) {
+        showToast(err?.message || 'Save failed', 'error');
+      }
+      return;
+    }
+
     setLoading(true);
     setVisible(false);
     setShowCustom(false);
@@ -451,6 +480,10 @@ export default function ContextMenu({ editorRef, allEditors, documentId }: Conte
     // Strip namespace prefix early (needed for action-type detection)
     const backendAction = action.includes(':') ? action.split(':').slice(1).join(':') : action;
     const isInsertAction = ['insert', 'fill', 'fill-sentence'].includes(backendAction);
+    // drh-namespaced actions are the hub's rewrite-by-selection: they go to the
+    // drh plugin's /api/drh/rewrite (plain text in/out, prompts/ slots), not the
+    // hosted AV endpoint — which does not exist in this copy. See UPSTREAM.md.
+    const isDrhRewrite = action.startsWith('drh:');
 
     if (isInsertAction) {
       // Bouncing-dots spinner at cursor position (works for empty + inline)
@@ -510,17 +543,32 @@ export default function ContextMenu({ editorRef, allEditors, documentId }: Conte
       // Full document text for broad context awareness
       const fullDocText = editor.state.doc.textContent;
 
-      const body: any = {
-        nodes: markedNodes,
-        action: backendAction,
-        nodeIds,
-        contextBefore: nodesBefore.slice(-3),
-        contextAfter: nodesAfter.slice(0, 3),
-        fullDocument: fullDocText,
-        documentId,
-        debug: true,
-      };
-      if (isSubParagraph) body.hasSelectionMarkers = true;
+      // Plain text of a captured node (text + hardBreaks), markers included
+      // when they were injected — this is what the drh rewrite route rewrites.
+      const linearNodeText = (n: any): string =>
+        (Array.isArray(n?.content) ? n.content : []).reduce(
+          (s: string, c: any) => s + (typeof c.text === 'string' ? c.text : (c.type === 'hardBreak' ? '\n' : '')),
+          '',
+        );
+
+      const body: any = isDrhRewrite
+        ? {
+            slot: backendAction,
+            text: markedNodes.map(linearNodeText).join('\n\n'),
+            contextBefore: nodesBefore.slice(-3),
+            contextAfter: nodesAfter.slice(0, 3),
+          }
+        : {
+            nodes: markedNodes,
+            action: backendAction,
+            nodeIds,
+            contextBefore: nodesBefore.slice(-3),
+            contextAfter: nodesAfter.slice(0, 3),
+            fullDocument: fullDocText,
+            documentId,
+            debug: true,
+          };
+      if (!isDrhRewrite && isSubParagraph) body.hasSelectionMarkers = true;
       if (instruction) body.instruction = instruction;
 
       // ── Selection-size guard (toast + cancel before the request) ──
@@ -535,7 +583,9 @@ export default function ContextMenu({ editorRef, allEditors, documentId }: Conte
         return;
       }
 
-      const res = await fetch(`${window.location.origin}/api/voice/apply-editor`, {
+      const res = await fetch(isDrhRewrite
+        ? `${window.location.origin}/api/drh/rewrite`
+        : `${window.location.origin}/api/voice/apply-editor`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(body),
@@ -550,7 +600,9 @@ export default function ContextMenu({ editorRef, allEditors, documentId }: Conte
         // `error`. Prefer message → error → a status fallback.
         const msg = (typeof errData?.message === 'string' && errData.message)
           || (typeof errData?.error === 'string' && errData.error)
-          || `Enhance failed (${res.status}). Please try again.`;
+          || (isDrhRewrite
+            ? `Rewrite failed (${res.status}). Please try again.`
+            : `Enhance failed (${res.status}). Please try again.`);
         // Insufficient balance (HTTP 402, `error: 'insufficient_balance'`) is recoverable: give
         // the user a one-click "Top up" affordance that opens Stripe checkout (default $5) via
         // the proxied billing route, instead of a dead-end error. Other errors stay plain toasts.
@@ -562,7 +614,35 @@ export default function ContextMenu({ editorRef, allEditors, documentId }: Conte
         return;
       }
 
-      const data = await res.json();
+      let data = await res.json();
+      if (isDrhRewrite) {
+        // The drh route returns plain text; wrap it as the node JSON the
+        // landing code below expects. Markers (sub-paragraph selections) stay
+        // in the text — stripSelectionMarkers below removes them. Multi-node
+        // selections come back as paragraphs split on blank lines. Inline
+        // formatting inside a rewritten paragraph is not preserved (v1).
+        const rewritten = typeof data.text === 'string' ? data.text.trim() : '';
+        // Label the paragraphs for the AI-edit badge ("API · model · Right-click").
+        if (rewritten) {
+          for (const id of nodeIds) recordAiEdit(id, { source: `Right-click: ${backendAction.replace(/_/g, ' ')}`, model: typeof data.model === 'string' ? data.model : '', why: '' });
+        }
+        let responseNodes: any[] = [];
+        if (rewritten) {
+          if (nodes.length === 1) {
+            responseNodes = [{ ...nodes[0], content: [{ type: 'text', text: rewritten }] }];
+          } else {
+            responseNodes = rewritten
+              .split(/\n\s*\n/)
+              .map((p: string) => p.trim())
+              .filter(Boolean)
+              .map((p: string, i: number) => ({
+                type: nodes[Math.min(i, nodes.length - 1)]?.type || 'paragraph',
+                content: [{ type: 'text', text: p }],
+              }));
+          }
+        }
+        data = { success: !!rewritten, nodes: responseNodes };
+      }
       if (data.success && data.nodes) {
         // Flatten nested arrays (backend sometimes wraps in extra array)
         let responseNodes = data.nodes;
@@ -751,6 +831,23 @@ export default function ContextMenu({ editorRef, allEditors, documentId }: Conte
 
   const handleAction = useCallback((item: MenuItem) => {
     const { action, isPlugin, promptForInput } = item;
+
+    if (action === 'drh:explore-variants') {
+      const editor = activeEditorRef.current || editorRef.current;
+      if (!editor) { setVisible(false); return; }
+      const paragraphId = clickedBlockIdRef.current || capturedSelection.current?.nodeIds[0];
+      if (!paragraphId) { setVisible(false); return; }
+      const paras = collectParagraphs(editor);
+      const target = paras.find((p) => p.nodeId === paragraphId);
+      if (!target) { setVisible(false); return; }
+      const idx = paras.findIndex((p) => p.nodeId === paragraphId);
+      const contextBefore = paras.slice(Math.max(0, idx - 2), idx).map((p) => p.text);
+      const contextAfter = paras.slice(idx + 1, idx + 3).map((p) => p.text);
+      setVisible(false);
+      startVariants(paragraphId, target.text, contextBefore, contextAfter)
+        .then(() => { if (!editor.isDestroyed) forceVariantRefresh(editor.view); });
+      return;
+    }
 
     if (isPlugin && promptForInput) {
       setCustomAction(action);

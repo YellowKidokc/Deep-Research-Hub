@@ -1,0 +1,116 @@
+{
+  "set": "A",
+  "name": "API calls (preset actions on the whole doc)",
+  "description": "The preset API calls in OpenWriter's left column (API calls section) and right rail (APIs tab). Run by the drh plugin (POST /api/drh/action), not run_slot.py. Each slot adds two fields to the usual shape: `output` ('notes' = scored report, issues pinned as comments on the quoted words, contract W_actions/NOTES.md; 'edits' = changes land in the doc as pending rewrites, contract W_revise/RULES.md) and `description` (one line under the button). Placeholder {inputs} = topic, earlier result (the last Rate report, for Fix from the rating), extra instruction, editable ids and the numbered document. The writer's own API calls are saved in data/writer/actions.json (same fields + `prompt`) and run with slot 1's provider.",
+  "slots": {
+    "1": {
+      "id": "rate",
+      "label": "Rate",
+      "description": "Score the piece by part, with the rubric, and pin each issue on the words",
+      "output": "notes",
+      "provider": { "kind": "openai-compatible", "base_url": "https://openrouter.ai/api/v1", "model": "openai/gpt-4o-mini", "key_env": "OPENROUTER_API_KEY" },
+      "temperature": 0.3,
+      "max_tokens": 8000,
+      "prompt": {
+        "join": "\n\n---\n\n",
+        "strip_comments": true,
+        "parts": [
+          { "file": "W_actions/NOTES.md" },
+          { "file": "W_actions/rate.md" },
+          { "input": "{inputs}" }
+        ]
+      }
+    },
+    "2": {
+      "id": "fix_from_rating",
+      "label": "Fix from the rating",
+      "description": "Act on the last Rate report; changes land in the doc to keep or reject",
+      "output": "edits",
+      "provider": { "kind": "openai-compatible", "base_url": "https://openrouter.ai/api/v1", "model": "openai/gpt-4o-mini", "key_env": "OPENROUTER_API_KEY" },
+      "temperature": 0.5,
+      "max_tokens": 12000,
+      "prompt": {
+        "join": "\n\n---\n\n",
+        "strip_comments": true,
+        "parts": [
+          { "file": "W_revise/RULES.md" },
+          { "file": "W_actions/fix_from_rating.md" },
+          { "input": "{inputs}" }
+        ]
+      }
+    },
+    "3": {
+      "id": "tighten",
+      "label": "Tighten",
+      "description": "Cut filler and run-ons, keep every claim",
+      "output": "edits",
+      "provider": { "kind": "openai-compatible", "base_url": "https://openrouter.ai/api/v1", "model": "openai/gpt-4o-mini", "key_env": "OPENROUTER_API_KEY" },
+      "temperature": 0.4,
+      "max_tokens": 12000,
+      "prompt": {
+        "join": "\n\n---\n\n",
+        "strip_comments": true,
+        "parts": [
+          { "file": "W_revise/RULES.md" },
+          { "file": "W_actions/tighten.md" },
+          { "input": "{inputs}" }
+        ]
+      }
+    },
+    "4": {
+      "id": "plainer",
+      "label": "Plainer",
+      "description": "Gloss jargon on first use, one idea per sentence",
+      "output": "edits",
+      "provider": { "kind": "openai-compatible", "base_url": "https://openrouter.ai/api/v1", "model": "openai/gpt-4o-mini", "key_env": "OPENROUTER_API_KEY" },
+      "temperature": 0.4,
+      "max_tokens": 12000,
+      "prompt": {
+        "join": "\n\n---\n\n",
+        "strip_comments": true,
+        "parts": [
+          { "file": "W_revise/RULES.md" },
+          { "file": "W_actions/plainer.md" },
+          { "input": "{inputs}" }
+        ]
+      }
+    },
+    "5": {
+      "id": "fallacies",
+      "label": "Fallacies",
+      "description": "Find every logical fallacy in the text and pin each one to the exact words",
+      "output": "notes",
+      "provider": { "kind": "openai-compatible", "base_url": "https://api.deepseek.com", "model": "deepseek-chat", "key_env": "DEEPSEEK_API_KEY" },
+      "temperature": 0.3,
+      "max_tokens": 12000,
+      "prompt": {
+        "join": "\n\n---\n\n",
+        "strip_comments": true,
+        "parts": [
+          { "file": "W_actions/NOTES.md" },
+          { "file": "W_actions/fallacies.md" },
+          { "input": "{inputs}" }
+        ]
+      }
+    },
+    "6": {
+      "id": "score_intro",
+      "label": "Score intro",
+      "description": "Grade the selected opening against the story checklist and Kait loops",
+      "output": "notes",
+      "provider": { "kind": "openai-compatible", "base_url": "https://openrouter.ai/api/v1", "model": "openai/gpt-4o-mini", "key_env": "OPENROUTER_API_KEY" },
+      "temperature": 0.3,
+      "max_tokens": 6000,
+      "prompt": {
+        "join": "\n\n---\n\n",
+        "strip_comments": true,
+        "parts": [
+          { "file": "W_actions/NOTES.md" },
+          { "file": "W_actions/score_intro.md" },
+          { "input": "{inputs}" }
+        ]
+      }
+    },
+    "7": null, "8": null, "9": null, "10": null
+  }
+}

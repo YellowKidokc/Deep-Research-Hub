@@ -1,0 +1,84 @@
+/* Chat column (Deep Research Hub). Uses the app's theme variables only. */
+.drh-chat-column {
+  position: relative;
+  flex-shrink: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-sidebar);
+  border-left: 1px solid var(--border);
+  font-family: var(--font-body);
+}
+.app--overlay .drh-chat-column {
+  position: absolute; top: 0; right: 0; bottom: 0; z-index: 55;
+  box-shadow: -2px 0 18px rgba(0, 0, 0, 0.22);
+}
+.drh-chat-resize {
+  position: absolute; top: 0; left: -2px; bottom: 0; width: 6px; cursor: col-resize; z-index: 10;
+}
+.drh-chat-resize:hover { background: color-mix(in srgb, var(--accent) 35%, transparent); }
+.drh-chat-head {
+  height: 48px; flex: none; display: flex; align-items: center; gap: 8px;
+  padding: 0 10px 0 14px; border-bottom: 1px solid var(--border);
+}
+.drh-chat-title { font-size: 13px; font-weight: 600; color: var(--ink-dark); }
+.drh-chat-sub { font-size: 11px; color: var(--ink-light); }
+.drh-chat-spacer { flex: 1; }
+.drh-chat-iconbtn {
+  background: none; border: 1px solid transparent; border-radius: 5px; padding: 3px 7px;
+  font: inherit; font-size: 12px; color: var(--ink-light); cursor: pointer;
+}
+.drh-chat-iconbtn:hover { background: var(--bg-hover); color: var(--ink-dark); }
+
+.drh-chat-list { flex: 1; overflow-y: auto; padding: 12px; display: flex; flex-direction: column; gap: 10px; }
+.drh-chat-empty { font-size: 12px; line-height: 1.55; color: var(--ink-light); padding: 8px 2px; }
+.drh-chat-msg { max-width: 100%; }
+.drh-chat-msg--user { align-self: flex-end; max-width: 88%; }
+.drh-chat-msg--user .drh-chat-text {
+  background: color-mix(in srgb, var(--accent) 18%, transparent); color: var(--ink-dark);
+  border-radius: 10px 10px 2px 10px; padding: 7px 10px;
+}
+.drh-chat-msg--assistant .drh-chat-text { color: var(--ink-body); padding: 2px 0; }
+.drh-chat-msg.is-error .drh-chat-text { color: var(--color-pending-delete); }
+.drh-chat-text { font-size: 13px; line-height: 1.5; white-space: pre-wrap; overflow-wrap: anywhere; }
+.drh-chat-typing { color: var(--ink-light) !important; font-style: italic; }
+.drh-chat-meta { font-size: 10.5px; color: var(--ink-light); margin: 3px 0; text-align: right; }
+.drh-chat-msg--assistant .drh-chat-meta { text-align: left; }
+.drh-chat-changes { display: flex; flex-direction: column; gap: 4px; margin-top: 6px; }
+.drh-chat-change {
+  display: flex; gap: 6px; align-items: baseline; text-align: left; width: 100%;
+  background: none; border: 1px solid var(--color-pending-rewrite-border); border-radius: 5px;
+  padding: 5px 7px; cursor: pointer; font: inherit; color: var(--ink-body);
+}
+.drh-chat-change:hover { background: var(--color-pending-rewrite-bg); }
+.drh-chat-change-kind {
+  flex: none; font-size: 10px; text-transform: uppercase; letter-spacing: 0.05em;
+  color: var(--color-pending-rewrite-border);
+}
+.drh-chat-change-text { font-size: 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+.drh-chat-compose { flex: none; border-top: 1px solid var(--border); padding: 10px 12px 12px; }
+.drh-chat-input {
+  width: 100%; resize: vertical; min-height: 60px; max-height: 260px;
+  background: var(--bg-surface, var(--bg-primary)); color: var(--ink-dark);
+  border: 1px solid var(--border); border-radius: 6px; padding: 8px 10px;
+  font: inherit; font-size: 13px; line-height: 1.45;
+}
+.drh-chat-input:focus { outline: none; border-color: var(--accent); }
+.drh-chat-compose-row { display: flex; align-items: center; justify-content: space-between; margin-top: 6px; }
+.drh-chat-scope { font-size: 11px; color: var(--ink-light); }
+.drh-chat-send {
+  background: var(--accent); color: #fff; border: none; border-radius: 6px;
+  padding: 5px 14px; font: inherit; font-size: 12px; font-weight: 600; cursor: pointer;
+}
+.drh-chat-send:disabled { opacity: 0.45; cursor: default; }
+
+/* Toggle tab on the doc's right edge when the column is closed. */
+.drh-chat-toggle {
+  position: absolute; top: 58px; right: 0; z-index: 20;
+  writing-mode: vertical-rl; padding: 10px 5px;
+  background: var(--bg-sidebar); color: var(--ink-light);
+  border: 1px solid var(--border); border-right: none; border-radius: 6px 0 0 6px;
+  font: 600 11px var(--font-body); letter-spacing: 0.08em; cursor: pointer;
+}
+.drh-chat-toggle:hover { color: var(--ink-dark); background: var(--bg-hover); }
