@@ -14,6 +14,8 @@ const P = {
   api: <path d="M7 3H6a2 2 0 0 0-2 2v3l-2 2 2 2v3a2 2 0 0 0 2 2h1M13 3h1a2 2 0 0 1 2 2v3l2 2-2 2v3a2 2 0 0 1-2 2h-1" />,
   // pen nib on a line
   writer: <path d="M3 17l2-6L14 2l4 4-9 9-6 2zM12 4l4 4M2 19h16" />,
+  // open book
+  canon: <path d="M10 5v12M10 5C8 3.5 5 3 2 3.5v12c3-.5 6 0 8 1.5 2-1.5 5-2 8-1.5v-12C15 3 12 3.5 10 5z" />,
 };
 
 export function Icon({ id }) {

@@ -38,7 +38,7 @@ jobs:
 
       - name: Start hub, run one app, check the interpreter
         run: |
-          $hub = Start-Process -FilePath hub\target\debug\drh-hub.exe -PassThru `
+          $hub = Start-Process -FilePath hub\target\debug\drh-hub.exe -ArgumentList "--headless" -PassThru `
                    -RedirectStandardOutput hub-out.log -RedirectStandardError hub-err.log
           $base = "http://127.0.0.1:2828"
           for ($i = 0; $i -lt 30; $i++) {

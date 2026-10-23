@@ -7,3 +7,8 @@ export async function api(path, opts = {}) {
 }
 
 export const post = (path) => api(path, { method: "POST" });
+
+// Every AI call goes here: the hub passes it to Forge, which holds the keys.
+// Never call a model provider from the page. If Forge is down this throws
+// with the hub's "Forge is down" message.
+export const forge = (path, opts = {}) => api(`/forge${path}`, opts);
