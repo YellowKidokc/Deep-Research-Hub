@@ -10,15 +10,24 @@
 A continuously running (or scheduled) research agent with ONE job:
 keep the argument folders fed.
 
-The argument tree is the target, not a suggestion:
+The argument tree is the target, not a suggestion.
+**CORRECTED 2026-10-23 (David ruled): the home is the Canon DEBATE_MAP, not the NAS copy.**
 
 ```
-\\192.168.2.50\h_hp\Desktop\Youtube API CKG\_API\_ARGUMENTS\
-  01_S-EVIL_Evil_and_suffering\Q-EVIL-EVIDENTIAL\ ... (21 sections, ~100 Q-code folders)
-  argument_ledger.csv / argument_ledger.json
-  build_folders.py
-  DEBATE_MAP.md
+C:\Users\David\Documents\faiththruphysics.com\Canon\DEBATE_MAP\
+  P00_GROUND_RULES ... P10_PEOPLE   (11 parts, 112 Q-folders in case order; restacked Oct 19)
+  00_INDEX.md, CASE_STACK.md, DEBATE_MAP.md, MIRROR_QUESTIONS.md, RESTACK_LOG.md
+  restack.py, build_folders.py
 ```
+
+Every question carries a domain tag: SHARED / SCI / THEO / PASTORAL (see CASE_STACK.md).
+The older topic-layout copy at `\\192.168.2.50\h_hp\Desktop\Youtube API CKG\_API\_ARGUMENTS\`
+(21 S-sections, Oct 17) is SUPERSEDED. Do not write to it. Its `argument_ledger.csv` must be
+migrated or rebuilt against the Canon tree before milestone 1. The 00_PREP gate
+(`docs/superpowers/specs/2026-10-20-api-prep-gate-design.md`) is DESIGNED to produce
+`debate_map_matches` per item but is NOT BUILT yet (checked 2026-10-23: no `00_prep.py`, no
+`debate_map` key in `paths.json`). When it lands, Lane B's stub writer consumes those matches
+and does not redo the matching. Until then Lane B must do its own Tier-0 matching.
 
 Two lanes, same agent:
 
@@ -136,3 +145,66 @@ they restate this doc's rules in their own words; wrong restatement = stop.
 ---
 *Blast radius of this whole spec: LOCAL. It writes stubs, ledger rows, and _intake files.
 Nothing in canon, no source repo, and no existing pipeline is modified.*
+
+
+---
+
+## Dry-run findings (2026-10-23) — READ BEFORE BUILDING LANE B
+
+A read-only prototype exists at `scripts/argument_match_dryrun.py` (Python, no writes into the vault
+or DEBATE_MAP; reports go to `D:\FIS_REPORTS\argument-match-dryrun-2026-10-23\`). It scored the seven
+vault roots under `C:\Users\David\Documents\faiththruphysics.com\10_VAULTS\_ Theophysics_Case_for_Christ\`.
+Treat it as a sketch to learn from, not code to extend.
+
+**Corpus reality (832 files in the 7 roots, only 69 are scorable prose):**
+- `_first_principles_to_god` (31 md): a 26-question public Q&A "story spine" (Q00-Q25). It is a THIRD
+  question set; it needs a crosswalk table (Q00-Q25 -> debate-map Q-IDs) that David approves row by row.
+- `01-Historical-Jesus` (19): mostly unnamed "Clipboard Text (N).txt" dumps. Match on content, not names.
+- `00_CORE_ARGUMENTS` (740 files, 508 MB): almost all Lean build output (.lean/.olean/.hash), 66 PDFs,
+  spreadsheets and scripts. Prose lives in `06_TikTok_Core_Ideas` (18 md/txt, incl. a 559-topic URL list).
+  PDFs need text extraction. Lean build artifacts must be excluded outright.
+- `01_Tik Tok`, `00_CANONICAL`, `02_PHILOSOPHY_AND_WORLDVIEWS`, `01_Proofs-and-Arguments`: skeletons
+  (.fisnote files, a few spreadsheets/scripts). Nothing to match yet.
+- The vault root has ~20 more folders in two numbering styles (hyphen and underscore). Likely where
+  more prose lives. Not yet scanned. Ask David before including them.
+
+**Traps found (the build must handle each):**
+1. Framework vocabulary poisons keyword matching: "coherence" appears everywhere in David's writing,
+   so six Q-series files all landed on Q-GOD-COHERENCE. Keep a framework-term stoplist and confirm with
+   the model before anything counts as MATCHED.
+2. Multi-topic list files (e.g. `bulk_urls_559_topics_*.txt`) match one question at 1.00. Match at
+   chunk/line level for list-like files, never whole-document.
+3. Generic filenames ("Clipboard Text", "Untitled", "index", "README") must not contribute tokens.
+4. Single-token questions saturate scores. Require 2+ distinct matched terms for any score above ~0.5.
+5. 20 of 112 questions have no question text in DEBATE_MAP.md (the restack-added ones); their
+   `QUESTION.md` files are blank too. Flag them; do not guess text for them.
+
+**Where stubs land:** every question folder already has `00_FINAL, 01_CLAIMS, 02_EVIDENCE, 03_REVIEWS,
+04_SOURCES, 05_SCRIPTS, 06_SHORTS, 07_REBUTTALS, EVIDENCE` plus QUESTION/MIRROR/OUR_ANSWER/README/VERDICT.
+Source stubs go in `04_SOURCES`. Claim/evidence stubs are a later pass.
+
+**Safety:** the vault is a git repo AND under Syncthing (`.stfolder`, `.stversions`). Anything written
+there syncs and versions. Dry-run first, show David the report, write stubs only after his go, in small
+batches, and never touch `.fisnote` or `.fis_meta.json`.
+
+**Pipeline per file (matches the 00_PREP design):** Tier-0 keyword shortlist -> model confirmation through
+Forge (never direct) returning 0-5 matches with score + one-line reason -> David approves (or a threshold
+he sets) -> stub + ledger row. Everything below MATCHED is a CANDIDATE shown for review, not filed.
+
+### Run 2 (2026-10-23): "Tick tock" + loose TikTok docs
+
+- `Tick tock\` is the real TikTok arsenal: 91 files in 11 subfolders (00_COMBAT_DOCTRINE, 01_ATTACK_VECTORS,
+  02_APOLOGETIC = APO-01..APO-20 argument cards, 03_THEOLOGICAL_WEAPONS, 04_BERNAYS_AND_PERSUASION,
+  05_DRAFTS_AND_FRAGMENTS, 06_CONVERSATION_TRANSCRIPTS, 07_RESEARCH_BACKING, 08_REFERENCE_DATA,
+  09_FRAMEWORK_SEPARATED, 999Z_ARCHIVE). Four more TikTok docs sit loose at the vault root
+  (TIKTOK_ARGUMENT_STRUCTURE, TIKTOK_COMBAT_DOCTRINE, TIKTOK_DEBATE_ARSENAL, TikTok_Arguments_Master).
+- `Theophysics_Case_for_Christ\` (inner) and `V2Theophysics_Case_for_Christ\` are EMPTY skeletons. Skip.
+- Single-topic cards match well (about 12 of 20 APO top picks right by eye): Moral Law, Consciousness,
+  Unity of Laws, Historical Jesus, Why Anything, Cumulative Case, Fine-Tuning. Misses: Justice, Purpose and
+  Experience all landed on Q-BEGIN-NOTHING (a generic-word magnet); Coherence landed on Q-MIND-PHYSICAL.
+  Down-weight generic stems ("noth", "someth", "mean") and rely on the model confirmation step.
+- EXCLUDE: `999Z_ARCHIVE` (editor backups / duplicates) and `09_FRAMEWORK_SEPARATED` (25 framework-layer
+  rewrites, mean best score 0.43: they are not question-matched documents).
+- Multi-topic files again need chunk-level matching: SHORTFORM_SCRIPT_PACK_10_ARGUMENTS,
+  SHORTFORM_ARGUMENT_PACK_10_HOOKS, TOP_20_ATTACK_VECTORS_DATABASE, TikTok_Arguments_Master.
+- Candidate for David's "the 30": the 20 APO cards + the 10-argument shortform pack. UNCONFIRMED.
