@@ -1,0 +1,59 @@
+# This Atheist Policeman Was Born Again After Doing This
+
+**Channel:** [[Living Waters]] (`LW`) · Chapter 2031 of 2497 · Length 11m 27s · [[00 - Channel Summary]]
+**Video ID:** `-RTP7mr8KnY`
+**URL:** https://www.youtube.com/watch?v=-RTP7mr8KnY
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 03:43
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:17|Part 2 · 10:17]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] I can be arrested if you want don't put your hands in my face I can be arrested if you want put your hands in my face never put your hand in a police officer's face I'll tell you why in a minute you may have seen this clip where a Christian brother was preaching in England and was arrested by the police what's your face you put your hand you better you bet you better you better even make your life to the Lord Jesus Christ what are you doing I am preaching got preaching I'm going to require you to go away you can never okay then I will arrest you for a breach of Peace plain and simple breach
+
+[00:38] of peace is what you're doing at the moment you're causing problems you're disturbing people's days and you're breaching their peace okay so to for that be dealt with if you won't go away voluntarily you will have to arrest you I will not go away because I need to tell them the truth because Jesus is the only way the truth Jesus is the only way the truth and the life I appreciate that I appreciate that but nobody wants to listen to that they want you to go away you don't want to listen to that you will listen when you are dead you will listen when you are dead you will listen take me take me
+
+[01:15] no no no no no no don't don't take my B don't take my Bible away take I gave you the simple option don't take my Bible away not Tak we're not taking it away before that sir okay no problem thank you whatever you like you can even do whatever you like GL do you park huh Parks anyway we're going to go for a walk now firstly let me say God bless this faithful brother for sharing the gospel I admire his courage and what happened reminded me of my open air preaching back in New Zealand I've been preaching open air for probably about 45 years years and back in New Zealand I did so almost every day
+
+[02:01] for 12 years and I don't think I was ever harassed by the police in fact the opposite was the case the chief superintendent of our city was a Christian and day after day for many years he would sit during the lunch hour and listen to the preaching so that was wonderful when I came to the US I did get stopped by a police officer when I was preaching on the beach at w Kei I was very respectful of the people I said uh folks it's a dream for you to come to famous W key and bask in the Sun and in the surf and it must be a nightmare to have a preacher stand up and preach to you but I trust you'll
+
+[02:32] be patient with me and just let me share for a few moments after about 10 minutes the police officer approached me and he said hey I've uh had eight complaints I thought I better ask you to wind down I guess the guy was a Christian first thing I noticed about the US is the police officers had a gun that was different in New Zealand police officers in those times didn't carry guns and so it set me on the right foot to show respect for the police because I really didn't want to be killed or thrown in prison so if you're you're ever approached in the US by a police officer when you're open air
+
+[03:02] preaching uh don't wave your hands in his face because he's been trained that it could be a distraction uh you're going to stab him in the stomach as you wave your hand in his face so he wants to get home to see his family so just be very careful and don't preach at him if you want to upset him do that but if you want to keep preaching and stay out of jail just be swift to hear and slow to speak use a little discretion because the police officer is not the enemy the Bible says is that we wrestle not against flesh and blood so don't treat them like an enemy and if you're respectful and say Sir
+
+[03:34] can I help you am I doing something wrong uh I want to you know do that which is right he may say look you're a very reasonable person I don't see any problem here just carry on that does happen so when I'm approached by a police officer if he says uh I want you to move on I say absolutely sir where would you suggest I could keep speaking is there another area I could go to and I've often had them say oh if you could just move down say 50 yards down there uh that would be much better would just stop people complaining you see many of these Street Preachers and I'm not saying this guy is like
+
+[04:05] this but many of these Street Preachers aren't part of a local church they see the police as the enemy and they treat them as such and that's one of the reasons I don't like being called a Street Preacher We Gather a crowd and people are there of their own free will and they listen and they leave if they don't like it so I hope this is helpful to those of you who uh really want to obey the Great Commission and preach the gospel to every creature and to stay out of jail [Music] friends from England contacted me and said that the officer on the right who took the Bible from the preacher came to
+
+[04:38] Faith In Jesus and is now attending their Church they showed him the original video of the arrest that we posted back in 2019 and he left this comment I am one of the officers in this video one with here I was saved by Jesus Christ in September of 2023 then he went on to say that the Lord is merciful forgive and loving he was a devout atheist at the time of the arrest and commuted to work with another officer who was a Christian during the time of the commute they often spoke of spiritual things one day he visited his family in Florida and found that his brother-in-law had come to Faith
+
+[05:14] shortly before his visit his brother-in-law then began to share his faith with him and when he returned to England he started asking his police officer friend more questions he's now a Believer and growing in his Newfound Faith he said when they arrested the Street Preacher he knew that he hadn't really done anything wrong he also said that they drove him about 5 miles away and essentially de arrested him which is good to hear you may be interested in a new book we've published called 50 years of open air preaching everything I've learned and stay tuned now for the type of open air preaching
+
+[05:49] of which I'm speaking where people gather of their own free will this video which also went online back in 2019 is called she Li laughs at first then the preacher said this it has millions of views I hope you enjoy [Music] it I'm a good person okay Jessica jump up there let's go for it you ready I'm nervous I was going to say you nervous it's going to get worse are you ready yes how many lies have you told in your life a lot a lot speak up ni allow so can I would say over a hundred okay if youever stolen something yes so what do you call someone who steals things a thief so what are you a
+
+[06:36] thief you're not you're a lying Thief I'm a lying thief and they still think you're a good person I'm a good person you think a lying Thief is a good person no so you're not a good person that was me before oh what what are you now I'm a good person what happened I changed you change I grew how long did it take you to change from being a thief to a non- thief maturity level and how how would you handle that in the court of law with a judge a judge I stole but it was last week I've changed doesn't work that way Jessica you're still you're always a thief right now have you ever used God's name
+
+[07:10] in vain yes that's called blasphemy no way you do that do I know why I do that you know why you do it it's a slip up yeah know but why use God's name as a cuss word but you use your mother's name is a c word absolutely not why not cuz she's right there she beat you up and so it's wrong to use God's name as a c word agreed okay now one to go Jesus said if you look with lust you commit adultery in the heart never L his last yes okay Jessica I'm not judging you cuz I like you I think you're a colorful person but I got to tell you it's about honesty right yeah you're honesty okay I'm not judging
+
+[07:48] you youve just told me you're a lying Thief a blasphemer and an adulter of H and you have to face God on Judgment Day will you be innocent or guilty on Judgment Day if he judges you byut 10 M uh innocent why cuz forgiveness no you'll be guilty like the rest of us okay if you're guilty on judgment are would you go to heaven or hell hell now does that concern you a little bit that concerns me a big bit I care about you I don't want you ain't up in hell meither now do you know what God did for guilty Sinners so they wouldn't have to go to hell forgiveness so he did something do you know what he
+
+[08:27] did I do not you do but you forgot I forgot 2,000 years ago God became a human being Jesus of Nazareth who gave his life on the cross okay and he did it to take the punishment for the sin of the world you probably know that you may not know this ASP and I appreciate you listening stay with me okay okay okay please The Ten Commandments are called the moral law you and I broke the law Jesus Paid the fine if you're in court and someone pays your fine even though you're guilty the judge can let you go he can say J is guilty someone's pay to find is out of here well the good news of the Gospel is
+
+[09:04] God can let you go he can dismiss your case forgive your sins commute your death sentence cuz that's what you're under at the moment Bible says the soul that sins that shall die okay I know you think this is funny I don't this is terly serious because you could die tonight that's why I'm so Earnest about this Christ died for your sins rose again on the third day and if you'll repent and trust in him God will forgive his sins at the moment you're like a man on the edge of plane 10,000 ft up and he's going to Flap his arms to save himself it's not going to work he need to trust the parish and
+
+[09:34] at the moment you say I'm a good person I'll be fine on Judgment Day no you won't you're not good you're like the rest of us trust in Jesus Christ Alone transfer your trust from yourself to sa you I will does that make sense it does you have a Bible at home yes now you're not laughing at me anymore is that because you're thinking seriously about this yes I appreciate that I'm going to give you a gift I'm going to give you a book J thanks for listening to me can I give you a book this tract is called ticket to Heaven it says if you don't need a ticket to Heaven tear this up if you can and then
+
+## Part 2 · 10:17
+
+[10:17] it has places where you can put your thumbs so you can try and tear it up but it's made of untearable paper and on the back it has the gospel you can get these at livingwaters.com home am I trying to rip this well it says if you don't need the ticket to Heaven go ahead and rip it okay so should we try to rip it can we rip it you don't need the ticket R pretty awesome huh what is it wait why does it rip you guys need it yeah we need it wait what does it say why Living Waters exists as a nonprofit Ministry to help you grow in your faith here are three things to help you do just that the Living
+
+[10:59] Waters podcast the evidence Study Bible everything you've ever wanted to know about the Christian faith and the starter kit four of our most popular gospel tracks these and much more are available at livingwaters.com if you've not watched our video Christian stumps Jehovah's Witness with one question I think you'll enjoy it it's had well over a million views and you can watch it right now by clicking on the top video

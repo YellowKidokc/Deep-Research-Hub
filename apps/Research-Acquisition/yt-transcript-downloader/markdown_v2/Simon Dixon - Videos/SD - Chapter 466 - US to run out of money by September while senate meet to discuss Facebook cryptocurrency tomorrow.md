@@ -1,0 +1,52 @@
+# US to run out of money by September while senate meet to discuss Facebook cryptocurrency tomorrow
+
+**Channel:** [[Simon Dixon - Videos]] (`SD`) · Chapter 466 of 556 · Length 12m 18s · [[00 - Channel Summary]]
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:02|Part 1 · 00:02]]
+- [[#Part 2 · 10:37|Part 2 · 10:37]]
+
+---
+
+## Part 1 · 00:02
+
+[00:02] morning everybody Simon Dixon here in news that really didn't get enough attention more attention deserve definitely the US Treasury Secretary has actually come out and said that if the u.s.
+
+[00:55] does not increase his debt ceiling very soon then by September the US government could run out money and it cannot fulfill its obligations and yet we don't really hear much about it or many people talking about it 22 trillion dollars over twenty two trillion dollars of debt and the US Treasury stating that by September they cannot meet their obligations unless Donald Trump or whoever the powers may be increase the debt ceiling in the US so I mean there's no surprise for anyone that understands you know many of the things that I talk about regularly in terms of fractional reserve banking means
+
+[01:09] that there's not enough money to cover all the debt and therefore because money is based upon debt and the government have outsourced the money creation supply to the private banking system then you always have to perpetuate debt in order to have economic growth and meet some of the debt obligations of either the government individuals or businesses but you know the fact that we're okay and we just really skirt over news like the u.s.
+
+[01:56] stating that if they don't allow us to you know us to borrow more now that we're 22 trillion in debt that we could run out of money and people think that the economy is healthy and that this is good and the stock market should be at all-time highs and that we're still in a bull run if you know there's this I don't know it just baffles the mind to me but that's the situation we're in today that it's okay the the US Treasury is begging for an increase in the debt ceiling so it can meet its obligations and push through 23 trillion 24 trillion 25 trillion and to me this is marking the demise of
+
+[02:31] the beginning of the end for the US dollar a shift in power a systemic financial risk event on a scale that we haven't seen before a global financial crisis driven by some of the systemic risk in the traditional financial system and many of the things I talk about in other videos where I talked about how they will use blockchain technology the the the central bank the government's will launch their own blockchain base crypto currency in order to bail out the system to create a new money supply a central bank backed money supply and allow banks to go bust so that without consumers losing their
+
+[03:14] money as the depositors can replace their depositor a bank with the newly issued digital currency that will be issued by the central bank which will be you know lost financial system was bailed out by quantitative easing but this one will be bailed out by a central bank created digital currency and and it will compete with whatever happens tomorrow so where there is the Senate Banking maybe I'm not saying these things right I'm not in the US but I think it's the Senate Banking Committee meet tomorrow with Facebook to discuss the future of Facebook now this one is really shaking up the world
+
+[03:59] so at the same time as the dollar being backed by more you know being backed by the US government which is in has more debt than it can service and is potential to run out of money to services debt in September we have the bank lobbyists out in full force trying to make sure that Facebook not create a it's cryptocurrency and the cryptocurrency will compete with the US dollar and the bill that has allegedly been drafted no one can really confirm whether it's real or not or what the situation is is a proposal to keep big tech companies out of currency issuance through crypto currencies which
+
+[04:50] will have a few effects I talked about it in depth in yesterday's video so check out my livestream on Twitter to get more details on that but tomorrow's the big day when Facebook will be meeting with the Senate Banking Committee and we'll find out what they're going to do with it now there could be a couple of outcomes the first one is they could remember that Facebook's cryptocurrency although it's going to be used on Facebook Instagram and whatsapp allegedly it isn't actually being created by Facebook the US company or the Irish company or whatever whatever tax structure they've set up in
+
+[05:34] their jurisdictions but it is going to be created by a Swiss foundation I believe called calibra and therefore the jurisdiction of the US can stretch as far as it can but the end result might just be a couple of things the first thing is that it might just not be available for US people to use so if the u.s. decides that they don't want something competing with the US dollar there's nothing as far as I can tell with all the legal power of Facebook and their team to launch the project Libre the Facebook's cryptocurrency but restrict it from u.s.
+
+[06:24] users and obviously Facebook being the know your customer king of the world that knows more about anyone than anything then you know anything than anyone then they could obviously do a very good job of ensuring that the US users residents and using that but what that means is that it will end up being kyc hell and you know people all these challenges that face today when someone visits America whether they're able to use it or not but Facebook might just end up doing what many people are doing in the cryptocurrency innovation space and the financial technology innovation space which is just leaving out the u.s.
+
+[07:03] so then the US will have a decision to make are we holding on to this power of the dollar when the dollar can't even meet our financial obligations by September if we don't increase the debt ceiling or do we give up some of that control and give it to Silicon Valley and our tech companies and essentially this is Wall Street versus Silicon Valley do we keep Wall Street alive where the government has outsourced the ability to create money to the private banking sector or do we give some of that power to Silicon Valley where we can control companies like Facebook and have a backdoor to a global
+
+[07:47] currency around the world so I think after the initial reactions I believe that this is it could potentially be the demise of Wall Street when during the next financial crisis during the next systemic risk of n the central banks allow Wall Street large banks to go bankrupt they replace it rather than bailing in and bailing out they replace it with a digital currency that they issue meaning that central banks are going to compete with retail banks and then at the same time they're gonna have to in order to remain competitive allow Silicon Valley to get into the business of banking because the
+
+[08:30] central bank doesn't want to service all the customers and become a retail bank they're gonna allow companies like Facebook and Google the control much of the world's data to actually become global mega banks and issue competing currencies to the dollar so that they can get control in both ways and so what we could end up with is Silicon Valley being at the other side of the API keys of the central bank with the central bank being the issuer of the currency and in fact we could move away from a fractional reserve banking system because Facebook's plans is to back it by a basket of assets and
+
+[09:16] this could be a movement towards full reserve banking where the tech companies become full Reserve Banks and issuers of currency the central banks actually issue currency direct to the technology companies and FinTech companies around the world and you know if the bill happens where large companies are not allowed to issue their own cryptocurrency in the US then smaller FinTech companies are and larger financial technology companies odd which creates an interesting scenario of lots and lots of smaller competing currencies but at the end of the day the genies out of the bottle a percentage of
+
+[09:55] those people will understand the value of only narrow money spending euro money and having a financial sovereignty through cryptocurrency Bitcoin which is not at the mercy of many of these forces because no one know who created it there is no CA CA there is no office to knock in the door there's no one to invite to your Senate Banking Committee it's not running out of money by September it can't take on debt and it's moving us towards an exit from the traditional financial system more economic choice and I believe in the end better fiat currencies say today is definitely one of the most
+
+## Part 2 · 10:37
+
+[10:37] exciting times in financial history we're seeing unparalleled change on a scale we've never seen before as a result of this this little social economic experiment called Bitcoin so tomorrow's the big day September apparently the US run out of money if they don't increase their debt ceiling and I'll keep giving the commentary as we try and find out what is actually going to be the trigger of next systemic risk event in the financial system and I'll try and keep commentary of how what types of things you can do to try and prepare for such an eventuality and please do check out other streams one
+
+[11:18] of them was a beginner's guide to buying Bitcoin and the things you need to know another one was on the financial crisis I'm going to try and upload the these to the Simon Dixon YouTube channel so if you want to completely stay up to date then head over to go to YouTube Google Simon Dixon I think has a couple of channels there there's one that's called approximately five to six thousand subscribers at this time rot versus the one that's caught like only about 30 or something subscribers I've recently revived the channel subscribe there and then if you hit the bell button every time I go live
+
+[11:54] it will notify you and send you an email from YouTube as we're trying give commentary on how this all unfolds I want more people to be prepared so please retweet this please share this please like it if you enjoy it and please let me know what other topics you'd like me to cover in future streams in future videos I'm gonna go back to work over and out

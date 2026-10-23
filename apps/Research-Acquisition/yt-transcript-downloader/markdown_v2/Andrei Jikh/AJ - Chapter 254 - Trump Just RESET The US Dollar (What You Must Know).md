@@ -1,0 +1,73 @@
+# Trump Just RESET The US Dollar (What You Must Know)
+
+**Channel:** [[Andrei Jikh]] (`AJ`) · Chapter 254 of 322 · Length 14m 35s · [[00 - Channel Summary]]
+**Video ID:** `qNqJvlyLB58`
+**URL:** https://www.youtube.com/watch?v=qNqJvlyLB58
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-25 11:45
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:08|Part 2 · 10:08]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] Something just happened that could completely reshape how the world works. On May 13th, President Donald Trump stood in Riyad, Saudi Arabia, and announced a $600 billion investment deal between Saudi Arabia and the United States. Now, this wasn't just about oil or weapons or technology, but it could be the beginning of a new era for the petro dollar. A $1.8 8 trillion shift from the Middle East straight into the US economy. It's something we haven't seen on this scale in decades.
+
+[00:41] And at the same time, the president helped broker a ceasefire between India and Pakistan, pulling two nuclear countries back from the brink of war. And that alone would be historic. But at the same time, the US and China agreed to pause their tariffs, cutting the rates from 145% down to 30, and the market exploded. The S&P 500 went way up, the Dow Jones went up, and even Bitcoin is now trading above $100,000 a coin. And then to cap it all off, Coinbase did something that no crypto company has ever done before.
+
+[01:20] It was just added to the S&P 500 index, making crypto and Bitcoin officially part of the American financial mainstream. And this is huge. So, if you felt like something big just happened, you're not wrong. This is not just a feeling. The entire economic order is shifting in real time. And this might be the moment that defines the next decade for a lot of investors. So, in today's video, I want to break it all down and explain what it means, why it matters, and how I'm personally investing. So, let's get into it. Hi, my name is Andre Jick. Hope you're doing well.
+
+[01:51] Come for the finance and stay for the petro dollar 2.0. Now, on May 13th, President Donald Trump landed in Riyad, Saudi Arabia, and walked away with a $600 billion investment commitment. and he gave what might be one of the most respectful and strategic speeches that we've heard from a US president to the Middle East in a long, long time. The transformations have been unbelievably remarkable. Before our eyes, a new generation of leaders is transcending the ancient conflicts of tired divisions of the past and forging a future where the Middle East is defined by commerce, not chaos.
+
+[02:30] Where it exports technology, not terrorism, and where people of different nations, religions, and creeds are building cities together, not bombing each other out of existence. We don't want that. [Music] Now, this might be the beginning of a huge realignment, a petrod dollar 2.0, so to speak. And here's how. As part of this deal, Saudi Arabia is going to put hundreds of billions of dollars into the US economy. And the breakdown goes something like this.
+
+[03:17] a $142 billion arms agreement, which is the biggest defense cooperation in US history, covering everything from missile defense systems to military communications. Another $20 billion is going to go into USbased AI infrastructure by a Saudi company called Datava, including building the kind of data centers that power things like chat GPT. There's also autonomous vehicle investments and every major investment over the next decade. Now, another $80 billion is going to go into partnerships with Google, Oracle, Salesforce, AMD, and Uber to develop what they're calling transformative technologies.
+
+[03:45] And it's not just tech or defense. It touches almost every single sector. Infrastructure deals with Hill International and AECOM, $14 billion in energy exports via GE, $5.8 billion into healthcare and manufacturing in Michigan, $4.8 8 billion to aerospace for Boeing aircraft. I mean, we're talking on and on and on. And this deal with Saudi Arabia was just the beginning because days later, President Trump got a $1.2 trillion commitment from Qatar. That includes a $96 billion deal with Qatar Airways for up to 210 Boeing aircraft along with a $ 38 billion expansion.
+
+[04:31] But then the president flew to Abu Dhabi in the United Arab Emirates where he was able to get another $1.4 trillion commitment over the next 10 years. And most of that money will be for the energy and defense sectors as well. All in the total investment commitments from the Middle East is over $3 trillion. And that is massive. This is a full-blown economic realiance between the US and the Middle East because now the Middle East is placing its bets directly inside the US economy. So the next question is, okay, that's cool, but how does this affect me as an investor?
+
+[05:09] And here's why this is such a big deal. This is about where the world is placing its bets. Now Saudi Arabia is home to one of the biggest sovereign wealth funds in the world. and they're saying we're betting on American innovation on American defense and American infrastructure. And the reason that it's so important is because remember the stock market loves being able to predict the future. And when countries come together to make an alliance of peace and prosperity, the market really likes that because that's predictable unlike war which isn't.
+
+[05:42] And when you zoom out, it almost looks like this is a response to the rise of China bricks and the fear that the US dollar is somehow losing global dominance. So this is almost like a reset back to the global order, not through war, but through investment, alliances, and economics. And why that matters so much is because when this kind of foreign money floods into US companies, whether it's Boeing, Oracle, GE, doesn't matter. That money doesn't just sit there. It moves markets. It lifts stock prices. It raises earnings expectations. It creates jobs.
+
+[06:17] And it gives the US companies the resources to compete. So now the US is fighting back but not just with tariffs or sanctions but by using scale money and strategic alliances and investments as its weapon instead of just war. Now another huge development that happened though is that just days before the China deal, President Trump also helped broker a ceasefire between India and Pakistan. These are two nuclear powers that were literally exchanging missiles earlier this month. For a moment, the world genuinely thought a regional war might break out.
+
+[06:52] But behind the scenes, the US was working really hard to diffuse the situation. And in just under 48 hours, both countries agreed to stand down. And by May 10th, a full military ceasefire was in place. Now, time will tell how long that ceasefire is going to last, but this is huge. And again, if you're wondering how any of this relates to investing, it's the same story. Predictability, stability, and confidence. With more confidence, money flows into the markets faster. The hunger for investment risk grows and markets tend to go up, which is usually the pattern.
+
+[07:26] But the story doesn't stop there. Now, here's a headline that really stood out to me. US payroll growth totals 177,000 in April, topping expectations. And that sounds great, but Ground News showed me something way more interesting. Turns out this story was covered by over 300 sources and each side told a completely different version of what it means. Left-leaning outlets, for example, called it a sign of resilience despite Trump's trade war turmoil and even trying to tie it to shaken markets and Elon Musk's Doge.
+
+[07:59] But right-leaning sources, on the other hand, highlighted the strong numbers as proof that the economy is defying the doomsayers and focused on companies that might benefit from tariffs. Same numbers, same unemployment rate, but totally different interpretations of why it's happening. And that's exactly why I use Ground News, the sponsor of today's video. It pulls together news from across the political spectrum and shows you how biased or factual each source is, plus who owns it, so you can compare how the same story is being told.
+
+[08:26] It's like media literacy in your pocket, and I genuinely use it to help research for this video. So, if you want a better way to stay informed, go to ground.news/jick news/jick to get 40% off the same Vantage plan I use or just click the link below. Supporting Ground News supports this channel and more importantly, it supports independent journalism that puts you in control. Thanks to Ground News for sponsoring this part of the video and now let's get back to it. The US and China announced a surprise pause on tariffs. Now, to understand why this is such a big deal, I have to rewind.
+
+[08:53] Over the past year, the US ramped up tariffs on Chinese imports all the way up to 145%. That was a huge increase from the already high 25% range we saw during President Trump's first term. Now, China fought back with 125% tariffs of their own. And the result was exactly what everyone expected. Global supply chains got squeezed. US companies started reporting shrinking margins, inflation pressure spiked, and the stock market reacted pretty badly. That's right around the same time people were calling for a recession and a stock market collapse, which never happened yet.
+
+[09:33] But a lot of this is what caused the volatility because markets hate not being able to predict the future. And a full-scale trade war between two of the world's biggest economies is about as scary as it can get. So, that's what made this week's announcement such a big deal because both countries, the US and China, agreed to cut their tariffs dramatically from 145% all the way down to just 30. And because these tariffs are now paused, the markets didn't just go up, they exploded.
+
+## Part 2 · 10:08
+
+[10:08] The S&P 500 went up, the Dow Jones went up, the NASDAQ recovered, and it was some of the best times for stocks in years. And then something happened. one of the biggest crypto exchanges in the US was quietly added to the S&P 500 index. And this is something no crypto company has ever done before. And why this matters so much is because when a company joins the S&P 500 index, every major retirement account in America starts to buy in. Index funds, pensions, even grandpa and grandma's 401ks. And this means billions in new demand overnight.
+
+[10:44] And every dollar that gets put into this S&P 500 index gets allocated to Coinbase indirectly. And as Coinbase grows bigger and bigger because of it, it moves up the ladder. So it gets more and more pennies of that dollar. And for investors of Coinbase like this guy who bought at the peak, it's more than just some financial boost. This is a huge symbolic moment. It means that crypto is not just this crazy thing that exists outside the system. It's now officially part of the financial mainstream and it's being embraced and it's only going to get bigger.
+
+[11:19] And that brings me to Bitcoin, which is now trading above $100,000 a coin again. After the price went down earlier this year, Bitcoin's recovered. And while a lot of that has to do with ETF flows and institutional demand, keep in mind the Google searches for Bitcoin are not at their peak. Bitcoin is still near its all-time high and a $100,000 Bitcoin now seems kind of boring. That's a really important perspective to keep in mind because this is not 2022 anymore. Interest rates are still high, but the world is starting to stabilize.
+
+[11:52] And in moments like that, investors don't just hide their money, they look for places for it to go. So, if you're wondering why Bitcoin's going higher, why Coinbase is outperforming, why the S&P 500 index is hitting levels we haven't seen in a long time, it's all part of the same story. Peace creates clarity. Clarity creates confidence, and confidence fuels the markets to go higher. So, here's how I'm personally investing and how I'm thinking about all of this.
+
+[12:22] When the world starts to shift, like when money and politics and power all start to realign, I don't really want to be sitting out on the sidelines just waiting. I don't want to take advice from someone saying that we're about to see the biggest crash ever. Yes, that might happen, but I do want to be in the position of staying invested in the markets, even if they're acting like this. So, here's what that looks like for me right now. I'm still dollar cost averaging into the S&P 500, and I'm still buying VTI, which is the broad stock market.
+
+[12:46] V is another stock I own, and the two are pretty much 99% correlated. They're almost the same thing. So, that hasn't changed because I think even in moments of chaos or change, America's biggest companies will still find a way to adapt. And history has shown that time and time again that in the long term, the trend is up, especially when money is flowing back into the US like it is right now.
+
+[13:15] Now, second, I'm still buying Bitcoin, not because I think it's going to go to the moon tomorrow or it's going to be worth a million dollars anytime soon, but because I think it's becoming a permanent asset in the financial system. It's not just speculation anymore. And every single week and every month that passes, that becomes more and more true. And for going into this new financial era, which I think we are, I want to have some exposure to the thing that exists outside the system while it's still early. Yes, even at $100,000 a coin, I still think that's really early.
+
+[13:38] But I'm also keeping more cash on hand than usual. Not because I'm scared that the market's going to go down, but because I want to have money to live on and invest with if something were to happen, and a big chunk of that money is sitting in what are called short-term treasury bonds, paying me about 4% per year. So, I don't want to have to sell anything. Whether you believe this moment is the start of a new golden era or it's a temporary spike and we're going to crash at some point, which could also be true, the signal so far is money is moving into the markets.
+
+[14:11] Alliances are shifting and a new financial era is starting to happen. And the biggest risk for me isn't being wrong. It's being unprepared and staying out of the market. At least for someone in my situation who has some time to stay invested. But as always, I hope you have a wonderful rest of your day. Smash the like button. Subscribe if you haven't already. I'd love to see you back here next week. I'll see you soon. Bye-bye.

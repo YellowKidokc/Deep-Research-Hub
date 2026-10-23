@@ -1,0 +1,61 @@
+# A Tough Evangelism Encounter on a Plane
+
+**Channel:** [[Living Waters]] (`LW`) · Chapter 91 of 2497 · Length 12m 39s · [[00 - Channel Summary]]
+**Video ID:** `OHy683uuK3s`
+**URL:** https://www.youtube.com/watch?v=OHy683uuK3s
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 05:01
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:08|Part 1 · 00:08]]
+- [[#Part 2 · 10:09|Part 2 · 10:09]]
+
+---
+
+## Part 1 · 00:08
+
+[00:08] this is Gordon very nice for a friendly guy city was a Christian young to marijuana stores within five minutes of sitting down next to me they used the f-word at least six times this was very difficult for me because I knew that if I loved him I had to challenge him as to the genuineness of his conversion I hope this is helpful you shared that your background is pretty heavy as there anything off-limits can I ask you about your background no you're good got a wild teenage years yes very end up in prison yes come I was 22 and how long did you spend in prison six years you got a very intricate
+
+[00:47] tattoo there what is that zekiel 25 17 and what does it say it's pretty much saying like FAR's in God's eyes if you're gonna do people wrong then he's gonna have a rap on you if you do people good then he's gonna take care of you and be good to you why do you wear a cross because I'm a Christian and I want to show them they're not that's my belief and that's what I'm proud of I'm trying to hide that I'm a Christian when I want to eat I pray when I go to bed I could pray like I don't want to try to hide Who I am or what my beliefs are from anybody I'm not embarrassed of it if I was to say it
+
+[01:24] to you how do I become a Christian what would you tell me of course you're gonna have to be saved but like I have different beliefs than most people far as the Christian belief like most people that are Christians believe that you have to believe in Jesus to be able to go to heaven and all that like I don't really me personally I don't believe that I believe if you're a good person you treat people right you have good karma then God's gonna look on you and you're gonna go to heaven do you think you're a good person for the most part but most people is gonna think they're a good person even an
+
+[01:55] evil person thinks they're good that's exactly right I don't go to church because I don't want the things that I do in life to reflect on what people think God's about like because I don't want to give some a false testimony and they think that's what God's about like they see me over here in a bar or doing something wild or crazy and then they think oh there he's going to church oh that's what God's about and then that leads them away from going to church how often do you read the Bible I would say anywhere from once or twice a month I don't do it every night I don't do it every week it's
+
+[02:25] just on a seldom basis if I feel like I need to then I do sound of 1 to 10 how would you say your walk with Christ is 10 you're just on fire for God you're loving them feeding on its word and fellowship sharing the gospel with sinners 1 is you really lukewarm where would you be I would say a 6 to be honest so if I was on the edge of a plane 10,000 feet up and you said to me ray if you don't your parachute on one out of 10 I said ah it's about a 6 you probably say to me don't jump on that you want to be on a 10 because this is your life now you said you're basically a good person I'm gonna put
+
+[03:07] that to the test we're gonna have a little court case I'm gonna be the prosecutor you'll be the defendant okay all I want from you is your honesty and a little patience with me can it gonna be patient with me yes how many lies have you told in your life more than I encounter a stolen something once when I was a child yes have you ever used God's name in the vein yes sir jesus said if you look at a woman and lust for her you commit adultery whether in your heart have you ever looked at a woman with lust yes have you had sex outside of marriage lots and lots of it have you ever hated somebody
+
+[03:46] yes so Gordon I'm not judging you but you have just told me you're a lying thieving blasphemous fornicating murderous adulterer at heart that's how God sees you because the Bible says whoever hates his brother as a murderer so here's the big question and appreciate your patience and your honesty if God judges you by the ten commandments we've looked at six of them on judgement day you're going to be innocent or guilty only guilty heaven or hell I'm going to heaven why are you going to heaven could I believe in Jesus cross do you know what a false conversion is honestly now well Jesus spoke of
+
+[04:28] it in the parable of the sower and you're familiar with the parable of the sower this is what he said the soul when to sow seed and some fell by the wayside some fell on thorny ground some fell on stony ground in some fell on good soil and the disciples said what are you talking about so Jesus gave the interpretation he said when the gospel preached some people don't let the seed go and they just that's just trash and they just walk on some people receive the seed of the gospel into a heart where they have got lots of concerns and the thorns and thistles the cares of the world just choke the
+
+[05:03] seed some fall on stony ground whether some earth and it lasts for time the seed grows up or when the Sun comes out it causes the plant to wither and die Jesus hid the Sun as tribulation temptation and persecution and the last one as the seed that falls on good soil and those are those that receive the word that are good and honest hard and they bring forth fruit a hundredfold some forty some 60 some 104 and the disciples said what does that mean and he was referring to true and false conversion he said the church is filled with people who aren't genuinely saved he called them tears among the
+
+[05:41] wheat goats among the Sheep bad fish among the good and he said on the day of judgment they going to be sorted out and this is why I'm concerned for you jesus said on the day of judgment many will say to me Lord Lord we did many wonderful things in your name but I profess to you I never knew you depart from me you worker of lawlessness I never knew you so the such a thing is false conversion now when you said you're a good person this is when my antenna went up Jesus said there's none good but God God standard for Humanity is utter perfection holiness and thought word and deed so it's it's
+
+[06:21] vital that you find a place of genuine repentance sorrow for sin and you bring forth fruit now do you know what the fruit is the Bible speaking of the video will continue in a few seconds but I wanted to remind you to please subscribe to our Channel and click on the notifications bell and don't forget to like comment and share thank you it's talking in the fruit of righteousness the fruit of holiness fruit of repentance the fruit of the Spirit love joy peace patience goodness gentleness faith meekness and temperance so if you are genuinely saved of which millions are not there'll be the fruit
+
+[07:05] of righteousness the fruit of holiness separation from sin you'll love God's Word you'll feed on it daily you know I've been reading the word every day for 45 years without fail it's my sustenance prayer is us talking to God and the Bible is God speaking to us we should be swift to hear and slow to speak can you explain to me in your own words why Jesus died on the cross they my own words instead of being generic and what everybody else would say he's not eight when he died for our sins but he gave a sacrifice of his life to show that how much he cared for us yeah well it's as simple as this
+
+[07:49] the Ten Commandments are called the moral law you and I broke the law Jesus paid the fine that's what happened on the cross that's a way cried out it is finished in other words the debt has been paid if you're in court and someone pays your fine even though you're guilty the judge can let you go he can say a lot Gordon's guilty someone's paid his fine he's out of here and it can be just you can legally let you go even though you're guilty and God can legally let us go even though we're guilty because Jesus paid the fine and for when he rose from the dead of feat of death and if we repent and
+
+[08:25] Trust alone in him God will remit our sins and grant us everlasting life you may not realize this Gordon but I I seriously love you and I'm deeply concerned for you and that's why I'm talking to you like this they could offend you by saying I'm concerned for your salvation but I am I'm deeply condemned the consent for a number of other reasons one you know you're not on fellowship you know with other Christians you're not feeding on the word your language to me made my hair curl when I first met you and the Bible says that the mouth speaks the abundance of the heart there's a great scripture
+
+[08:59] in Proverbs it says open rebuke is better than secret love in other words if your concern for someone and you tell them that shows you really love them and maybe in the past you've never seen sinners being really serious have you heard of the Bible verse the wages of sin is death it's Romans 6:23 God has paid us in death he's given us the death sentence the soul that sins that you'll die the wages of sin is death it's like a judge in a courtroom he's got a heinous criminal before him who's raped and murdered three young girls slit their throats and the judge says you have earned the death
+
+[09:34] sentence this is what you've got coming to you because you have committed such a serious crime and sinners so serious to God it demands the death sentence and that's why we die and after this the judgment this is the other thing I wanted to mention do you know whether one of the greatest sins is an our nation any idea taking her own life not really jesus said no greater love has a man of this than he lay down his life for his friends so this argument over suicide some people can give their lives for other people people jumped off the will trade center committed suicide because they chose not
+
+## Part 2 · 10:09
+
+[10:09] to be burned alive they leaned forward and fell so it's a it's a contentious issue I think the greatest sin of our nation is the sin that was committed by Israel in the Old Testament again and again and one that God saw fit to address and the first two of the Ten Commandments this is one of this the first two Ten Commandments is assigned the Lord your God you shall have no other gods before me in other words don't make a god to suit yourself that's what we tend to do I did it before us a Christian I had a God that I felt comfortable were the kind of snugly cuddling goddess am I'm a celestial
+
+[10:44] Santa Claus a divine Butler that came running when I click my fingers and so if you make a god to suit yourself that God has no moral dictate it doesn't tell you what to do and tell you what not to do it doesn't say you shall not commit adultery Charlotte lie Sheriff steel it's a dumb idle doesn't speak to you it doesn't exist it's a figment of the imagination that's the sin of America because when you choose your own God you've got no fear of God before your eyes you don't you're not concerned about your sins but once you see God and true the fear of the Lord causes you to depart from evil
+
+[11:15] Bible says the fear of the Lord is the beginning of wisdom and so when you see sin in its true light that it's serious it demands the death sentence that will help you to be sorry for your sins you'll say man this is serious Jesus died so I wouldn't have to end up at hell God forgive me and you'll find a place of true repentance godly sorrow works repentance and then you can be assured of genuine salvation because you're a good soil here you've you've had out good and honest heart and you'll bring forth fruit a hundredfold the fruit of righteousness and holiness and the things that accompany
+
+[11:48] salvation Gordon I really appreciate you listening to me I thank you for your patience oh you've been very respectful is this giving you some food for thought yes thank you so you're gonna think seriously about it oh yes very very pray with you [Music] you [Music]

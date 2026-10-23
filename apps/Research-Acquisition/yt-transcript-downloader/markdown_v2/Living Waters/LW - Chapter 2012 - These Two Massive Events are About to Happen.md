@@ -1,0 +1,69 @@
+# These Two Massive Events are About to Happen
+
+**Channel:** [[Living Waters]] (`LW`) · Chapter 2012 of 2497 · Length 12m 17s · [[00 - Channel Summary]]
+**Video ID:** `JVINod1Xxjw`
+**URL:** https://www.youtube.com/watch?v=JVINod1Xxjw
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 03:26
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:21|Part 2 · 10:21]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] The world is on the edge of something huge. For years, Bible students have warned that Russia and China would combine and attack Israel. What's been happening lately must be making deniers of Bible prophecy a little nervous because of late both Russia and Iran have strengthened military ties. >> Russia is aiding Iran's war effort by providing intel on US military targets. >> And China continues to deepen its relationship with Iran. >> China says it supports Iran defending its sovereignty and has condemned strikes by the US and Israel.
+
+[00:38] >> Iran's foreign minister, Sayyid Abbas Araqchi, publicly confirmed that Russia and China are Iran's strategic partners, including military cooperation. >> Add to that that Israel finds itself isolated on the world stage. For students of Bible prophecy, the question naturally arises, could we be watching the stage being set for a future attack on Israel? The prophet Ezekiel wrote about this more than 2,500 years ago of a massive coalition of nations that would come against Israel in the last days. The identity of Persia is modern-day Iran.
+
+[01:14] The debate centers on the leader of this coalition called Gog of the land of Magog. Many respected Bible teachers have identified Magog and related regions with modern Russia or territories north of Israel. Ezekiel repeatedly says that this invasion comes from the far north. From Israel's perspective, Russia lies directly to the north. This is one reason many prophecy teachers believe Russia will play a central role in the future conflict. What about China? Well, many prophecy students connect China with the enormous Eastern armies described in the Book of Revelation.
+
+[01:52] >> The People's Liberation Army, 2 million strong, serving China's Communist Party and its supreme leader Xi Jinping. >> Today we see something remarkable. Russia and Iran are aligned. China and Iran are aligned. All three nations have expressed hostility towards Israel and toward Western influence. >> Sealing together for the first time. [music] >> [snorts] >> The strongmen of Eurasia closing ranks against [music] the West. >> Does this mean that Ezekiel 38 is about to be fulfilled? Well, no one really knows. But we do know this.
+
+[02:33] Israel has been re-gathered to her land exactly as the scriptures foretold. Two members of the Israeli Defense Force asked if they could come into our studio to present Israel's position in the Middle East. We agreed on one condition. They would allow us to share the gospel with them and they said yes. What followed was a tense but respectful conversation. Then we read Isaiah 53 together. >> So I'll just give you a quote and you tell me who that is. This is what it says about them. It says, "Surely he has borne our griefs and carried our sorrows.
+
+[03:05] Yet we esteemed him stricken, smitten by God and afflicted. He was wounded for our transgressions." Who might that be talking about? >> When he said who he thought it was, it blew us away. And then he asked us, >> Where's that from? >> Did he think it was Jesus? You'll find the answer at the end of this video. Do you have a study Bible prophecy? >> See, no, not prophecy. >> No. >> Yes. >> You keeping your eye on Russia and China? What's happening in the world? >> No, not really. >> They're backing Iran militarily. Did you know that? >> No. >> Do you know that's in Bible prophecy? >> Yes.
+
+[03:36] >> What have Russia and China got in common? Do you know? >> No. >> They're communistic. >> Mhm. >> That means they're atheists. >> Yeah. >> That means there's no right or wrong. There's no absolute right and wrong. That means you can kill people in mass and not feel guilty because there's no God. >> Right, that's right. >> And that's really scary. >> scary. It's It's concerning. >> It's concerning when you don't know the Lord. Because the one thing I do know, the Bible's going to fulfill itself whether you believe in God or not. It's going to happen.
+
+[04:04] >> You said you'd walk off if I talked about God, correct? I'm going to try something here, which is a risk on my part, but let's see if I can get away with it. I'm going to try and talk about God without mentioning God. >> The things that God has done in that Bible, in my opinion, are the worst atrocities that have ever been committed. I think he is pure evil. >> Do you believe in God? >> I still believe in him. I just don't think the Bible of the the God of the Christian Bible is of good moral character anymore after reading it. I'd rather die standing than live kneeling.
+
+[04:35] >> Oh boy, where did you hear that? >> All over the place. I didn't come up with that, but that's a good line. >> It's stupid. Is God justified to put you to death? Are you that evil or are you a good person? >> I do think I'm a good person. >> How many lies have you told in your life? >> A fair amount. >> Have you ever stolen something? >> No. >> Have you ever downloaded music off the internet that's not yours? >> Yes, I have actually. >> That's theft. Have you ever used God's name in vain? >> Absolutely. >> You've taken his holy name and used it as a curse word to express disgust.
+
+[05:02] Appreciate your patience with me. One to go. Jesus said whoever looks upon a woman to lust for her has committed adultery already with her in his heart. Have you ever looked at a woman with lust? >> I have. >> When did you last look at pornography? >> A couple days ago. >> Mhm. That's looking with lust. Have you had sex before marriage? >> I have. >> Here's a quick summation of your court case on judgement day. Parker, you've just told me you're a lying thief, a blasphemer, a fornicator, an adulterer at heart, and you're self-righteous in thinking you're a good person when you're not.
+
+[05:28] You're just like the rest of us, and that's a sin in God's eyes. If God judges you by the 10 Commandments on judgement day, you're going to be innocent or guilty? >> Oh, by the Christian God? Definitely guilty. >> There's no Christian God. There's only one creator. That's the one you must face. He's the one that gave you eyes, he's the one that gave you ears and a brain, and And the one that sees your sins. >> Thousands of religions on this planet, how do we know that Yahweh is the actual one god? >> That's a really good question.
+
+[05:55] >> The first commandment talks about having no other gods above him. >> Do you know what that means? You don't make up a false god like you've just done before when you says I believe in the god that's not the god of the Bible. Can you articulate the gospel in a couple of sentences? >> I could single it down to one word and it would probably be love. >> You said you'll walk off if I talk about god. >> Correct. >> I'm going to try something here which is a risk on my part. But let's see if I can get away with it. Your creator is going to put you to death for your sins.
+
+[06:19] That's what the teaching of the Bible is. The wages of sin is death. God's given you the death sentence. You're on death row. You're in a nice holding cell, good blue roof, good air conditioning, good lighting. But this life is a holding cell and your death will be evidence to you that god is deadly serious about sin. And David, I don't want you to go to hell. Please listen to what I'm saying. God offers you everlasting life as a free gift because of the death and resurrection of Jesus.
+
+[06:44] If you're in court and you've got speeding fines and you plead guilty, the judge will let you go if someone pays those fines. He'll say, "You're out of here, David. You're guilty, but you can leave because someone paid your fine." Well, god can legally take death off you because Jesus paid the fine in full on that cross. Rose from the dead, defeated death, and if you'll simply repent of your sins and you never do that while you think you're a good person, and trust in Jesus, not your goodness, god promises he'll grant you everlasting life as a free gift. >> None of that is my belief system.
+
+[07:07] So, it's all irrelevant. >> That's why I'm talking to you. You're called an unbeliever. I don't talk to believers. I talk to unbelievers. Now, let me give you that book. You believe in science? Can I give it to you? >> Let's see at the end. I've had people trying to convert me for a a long time into this way of thinking, including one of my best friends, and it still hasn't worked. >> God's not going to give up on you. He's got me to talk to you today. >> And go for it. >> Hey, I love you, David. Can I give you a hug? >> Sure. >> That there is a Gospel of John.
+
+[07:38] It's the fourth book of the New Testament and it's called Save Yourself Some Pain. Listen now as to why he has quote zero respect for Jesus. You're not going to believe this. >> First responders, people who put their life on the line, you know, we call them heroes because they pay the ultimate sacrifice, because they give their life for other humans. And we call that the ultimate sacrifice because they know they won't come back.
+
+[08:07] If you're saying, "Oh, hey, I'm going to do the ultimate sacrifice for all of humanity, and then you come back 3 days, but you knew you're going to do that," I zero respect for you. >> Although scripture teaches that Jesus had to die for our sins, something even more profound was taking place. Jesus didn't merely endure execution, he bore rejection, humiliation, scourging, and the weight of God's wrath against our sin. As scripture says, he must suffer before entering into his glory. Let me just say this, and I'm saying this in love.
+
+[08:34] If my eyes meet your eyes on judgement day and you're still in your sins, I'm free from your blood because I've told you the truth. I've loved you enough to even risk offending you because I don't want to see you in hell. I want to see you in heaven, and all I can do is plead with you. Parker, please think about this. Don't be closed-minded. You having sex with your girlfriend? >> Yeah. >> That'll hold you back from getting right with God. The Bible says men love darkness rather than light because their deeds are evil. Neither will they come to the light least their deeds be exposed.
+
+[09:00] So, all I'm asking is please think about this and examine my motive. Why am I so earnest? It's because I love you. >> I do believe you have good intentions, so I appreciate that. >> 54 million people die every year. And if this girl you're having sex with a few, love her, lead her into the path of everlasting life. Don't leave her in her sins. Get right with God yourself and then talk with her about the fear of death that haunts her, and tell her that God can save her from death if she'll trust in Jesus.
+
+[09:31] >> The things that the being God has done in that Bible, in my opinion, are the worst atrocities that have ever been committed. I think he is pure evil. >> I've been reading the Bible every day without fail for 53 years. There's no mistakes in it. It's God's word. The prophecies of the Bible substantiated be true. The scientific facts written thousands of years before man discovered them prove the fingerprint of God all over scripture. And the reason you hate God without cause is the Bible says it's the same reason criminals hate the police.
+
+[09:56] God did some very, very heavy things in the Old Testament. He hasn't changed. Jesus said, "Fear not him who has power to kill your body and afterwards do no more, but fear him who has power to kill your body and destroy your soul in hell." He said, "What shall it profit a man if he gains the whole world and loses his own soul?" So, please think about this. Get rid of your prejudice. Forget about all these silly things you've read that atheists have said. Again, thanks for your patience, man. >> Absolutely. >> This book right here will be finished before I go to sleep tonight.
+
+## Part 2 · 10:21
+
+[10:21] >> I help you get to sleep tonight? >> Yes. >> All right. So, I'll just give you a quote and you tell me who that is. [music] This is what it says about them. It says, "Surely he has borne our griefs and carried our sorrows. Yet we esteemed him stricken, >> [music] >> smitten by God and afflicted." Someone in human history, if you had to put a name on it, who would fulfill those those shoes? >> Definitely remind me of Jesus. >> Where's that from? >> Isaiah 53. >> Okay. >> Your scriptures. >> Your scriptures, yeah. >> Okay. >> Speaking of the Messiah.
+
+[10:51] >> Don't miss this amazing video coming soon on the Living Waters YouTube channel. If you enjoy apologetics, you might like to know the Evidence [music] Study Bible is packed with apologetics. >> [music] [music] [music] >> I've got a gift for you, Cayman. >> That's a coin with the Ten Commandments on it. Which is the hardest of the Ten Commandments to keep? That one question is amazing because it cuts to the chase.
+
+[11:41] It immediately causes the person to reveal their prevalent sin. >> Thou [music] shalt not lie. >> Or take my name in vain. >> Adultery. >> This happens because of the Ten Commandments coin. I use it all the time and I love it because it has a perceived value. [music] >> Wow. >> And it comes in different sized, high quality, genuine wood treasure chests in lots of a thousand, 500, 300, [music] 100, or in bags of 50. We even have one that has gold coins [music] for that very special person. Treasure chests and bags of 50 coins are available at livingwaters.com.

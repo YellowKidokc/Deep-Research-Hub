@@ -1,0 +1,50 @@
+# Is Religion Just Death Anxiety?
+
+**Channel:** [[Alex O'Connor]] (`AOC`) · Chapter 194 of 419 · Length 9m 36s · [[00 - Channel Summary]]
+**Video ID:** `gBG0SeSGg9I`
+**URL:** https://www.youtube.com/watch?v=gBG0SeSGg9I
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-07 03:11
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] sigmaphroid said that religion will exist as long as human beings are afraid of death do you think he's on something with that possible I mean related to this is the idea of religion as a terror management system so we are you know uniquely cursed as a species that we know we're going to eventually die and that thought if we think about it too much is traumatic and we need to cope with it somehow we need to negotiate it somehow and so much of religion is you know coping with the idea of death thinking about the afterlife and what might come after this this Earthly life uh it's I it's full of
+
+[00:37] stories about people that have cheated death and have survived death and so much of it are rituals dealing with death funerary rituals being some of the most conservative rituals out there like they they look the same Century after Century after Century burying people in a special place and marking that grave I mean it's amazing how uh funerary rights stay the same over the over the course of Millennia uh I don't I don't know too much about this this scholarship but from what I've read it it seems to be empirically proven so if you show people so you'll have a control group or you just you
+
+[01:17] know show them normal images then you have the experiment group where you're showing them like deeply traumatic images like dead bodies uh decomposing bodies and then measuring people who have strong belief in the afterlife versus people that don't have a strong belief in the afterlife the people that believe in the afterlife are less distraught by the images um yeah Andrew is so much worse than that I I had a I had a look uh at Terror management Theory as a as a subject and it is one of the most interesting things that I've ever come across Terror management Theory is this idea that we have
+
+[01:55] a self-preservation Instinct within us to stay alive but we also as you say are in a unique position among other animals of knowing about the inevitability of our own death and this creates a psychological conflict we want to preserve our lives but we know that death is inescapably coming our way and this produces Terror which needs to be managed hence Terror management Theory and so the idea is that people invent ideas to give themselves a sense of immortality most obviously in religion which literally promises immortality but also in things like the creation of the nation or engaging in the
+
+[02:32] Arts you know creating some magnets open magnum opus that will exist long after you die these are seen by Terror management theorists as ways of denying our own death Ernest Becker's famous book the denial of death is the origin of this kind of thought now some of the examples that I found are just incredible the first study one of the earlier studies that was that was uh conducted that you'll surely have heard of was Municipal Court judges in Tucson Arizona judges of course have a a very clear set of values as part of their worldview which is upholding the law Terror management theory has an
+
+[03:13] idea within it called the mortality salience hypothesis and this is the idea that if these constructs of religion and community and engaging in arts are in are a result of the denial of death then when people are reminded of their deaths they should momentarily or temporarily have an increased need for affirming these religious ideas these Community Spirits this kind of thing and so these judges in in Arizona they were given questionnaires and the questionnaires they weren't really happy they weren't showing them traumatic images they weren't reminding them of their own death in a significant
+
+[03:51] way but they just mentioned death on the on the questionnaire the control judges no mention of death the other judges when they've filled out the questionnaire there are some questions about their own death maybe what do you think happens when you die this kind of thing and afterwards they were asked to do something very simple which is to look at a court case this one being the solicitation of prostitution and they were just asked to recommend a bond for the prostitute the judges who were reminded of their death before being asked recommended an average bond of 455 dollars the control judges
+
+[04:25] recommended an average of 50 which is a huge difference massive yeah just based on being reminded of death now it's been shown that you can you can produce similar results just by flashing the word death on a screen so quick that the person doesn't even register that they've seen it but by doing so here are some for you Christians become more derogatory towards Jews Jews become more derogatory towards Muslims Germans reminded of their death will sit further away from Turkish people Americans become more physically aggressive to other Americans with different political views Americans also
+
+[05:01] become more enthusiastic about preemptive nuclear chemical and biological strikes against countries which pose no immediate threat to them Iranians are more supportive of suicide bombing and more likely to consider becoming suicide bombers themselves after being reminded of death it can also increase our contempt and disregard of our contempt of and disregard for nature people who are reminded of their death are more likely to deny that humans are animals they have more negative views towards animals considering it more appropriate to kill them for reasons other than food and medical research
+
+[05:37] it also makes people more uncomfortable in natural settings so there were some Dutch psychologists who showed Dutch people pictures of forests and then pictures of suburban neighborhoods and ask them which they like the look of better the control groups like The Look of the forest they like the look of the nature but people who were reminded of their own deaths preferred the Suburban neighborhoods and the mortality salience hypothesis here says that the reason this is happening is because upon being reminded of your death the need for these death denying aspects of our community are increased
+
+[06:15] and so when you look at a forest which represents the natural world Decay death this kind of thing and you look at a Suburban neighborhood which represents community and the the fostering of a sense of immortality and that this community will exist after you you're more likely to prefer it and all of this kind of stuff comes about just by being reminded of death not not having some long meditation on what it means to die but just having it somewhere there in the subconscious people uh become more uncomfortable in their own bodies sex becomes more aversive to people who are reminded of Their
+
+[06:49] Own Death people have higher physical aspirations and say that they intend to spend more on clothing and entertainment uh they also want more like cars and Rolexes and this kind of things and I'll give you one more because I found this one really interesting people who are reminded of their own death there's a there's a link between this and becoming more materialistic people were asked to draw pictures of dollars and coins and the people who were reminded of Their Own Death Drew physically larger pictures of dollars and coins there is just this this Niagara of of evidence that the mere
+
+[07:28] reminder of death in our minds astronomically increases our need for reminders about Community material Goods uh religion you know there's obviously a strong link people who are who have a high death anxiety are have been shown to to be more religious and that includes atheists by the way even if you're an atheist if you're reminded of your own death and you induce death anxiety within an atheist they might not become religious but they become more religious than they were before the problem of course is that all of this seems to point to the idea of religion being essentially as you say a
+
+[08:10] management of our fear of death which many people might find quite upsetting and offensive because one of the key points of Terror management theory if this happens subconsciously people aren't going this is what I think people need to understand when I suggest that religion is a is an exercise in the denial of death I'm not saying that people are consciously going I'm going to die I'm really terrified I'm going to invent this story to help myself get out of it if this happens subconsciously people really do believe that this stuff is actually true and has good philosophical and historical
+
+[08:40] grounding because they have to because you couldn't deny death just for the sake of denying death because you knew you would know that you're that you're deceiving yourself so of course people are really going to believe that this is a result of genuine philosophical you know inquiry but there's a good deal of evidence here that seems to suggest that at least part of religious belief has a lot to do with just the denial of death I find that fascinating did you enjoy that clip you must have done at least a little bit because you made it to the end well guess what there's more the full
+
+[09:11] conversation that that clip that you just watched was taken from is available by clicking the link that just appeared on your screen or click just below it to watch more clips from the within reason podcast and don't forget to subscribe to the YouTube channel and the clips Channel as well and if you haven't already find us on iTunes and Spotify for the audio only versions it's far too much information most of you have gone already if you haven't thanks for sticking with me and I'll see you in the next one

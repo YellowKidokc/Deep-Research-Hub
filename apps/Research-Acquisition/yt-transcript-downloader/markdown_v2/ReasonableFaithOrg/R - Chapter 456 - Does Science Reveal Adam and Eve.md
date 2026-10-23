@@ -1,0 +1,59 @@
+# Does Science Reveal Adam and Eve?
+
+**Channel:** [[ReasonableFaithOrg]] (`R`) · Chapter 456 of 1167 · Length 15m 08s · [[00 - Channel Summary]]
+**Video ID:** `0j6TslfrWpg`
+**URL:** https://www.youtube.com/watch?v=0j6TslfrWpg
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 03:29
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:06|Part 1 · 00:06]]
+- [[#Part 2 · 10:18|Part 2 · 10:18]]
+
+---
+
+## Part 1 · 00:06
+
+[00:06] bill that always gets our attention when a major news Outlet mentions your name in this case The Daily Mail in the UK has a report from their science editor William Hunter on the evidence for Adam and Eve It's seems to have some characteristics of popular press sensationalism but maybe this provides some teaching moments from you on today's podcast bill I think you're right Kevin that the article does involve some sensationalism and it was no worthy to me that uh Hunter did not bother to interview either Josh swamidoss or me even though he apparently knows of our published work on the topic
+
+[00:48] so we had no input into this article at all let's go through the main points of this report the first line says quote it's a story that almost any Christian would be instantly familiar with according to the Bible Adam and Eve were the first man and woman on earth end of quote most of his readers would probably agree with that Bill yes they would and I think that's what makes the challenge of Josh Swami das's model so interesting on Swami das's view Adam and Eve are the progenitors of everyone alive on Earth today but they are not the ancestors of every person who has ever lived on Earth so
+
+[01:37] one of the challenging things about Swami das's position is that he denies this traditional belief let's go to the next line Hunter writes quote said to be made out of dust and to have lived in the Garden of Eden the two figures are Central to the belief that everyone descended from a single pair of Original ancestors end of quot I cringed at that line a little bill because I've heard so many Skeptics poke fun at the notion that God scooped up a handful of dirt and made a human of course they also deri the belief that everyone descended from a a single pair yeah I think Kevin it's clearly a
+
+[02:18] figurative language when it describes God's creating Adam Out of the Dust of the earth and breathing into his nostrils the Breath of Life um but you're right they also do deride the belief that there is a founding pair from Human whom the human RAC has descended and the surprising thing to me is that that second belief I think is quite defensible the article continues quote while this might seem far-fetched there is now a growing body of evidence which suggests that at least some parts of the story could be true archaeologists have found surprising signs that Eden was not only a real place
+
+[03:01] but could have been the birthplace of civilization as we know it end of quote and he's talking about the Fertile Crescent in the Mesopotamia bill you devote a few pages in your book on the rivers and the Genesis location of Eden What's the bottom line I think the bottom line is that it remains ambiguous where the Garden of Eden was conceived to be located uh provocative possibility is that the Persian Gulf Basin was once an oasis into which the Tigris and the Euphrates rivers flowed and it only became the Persian Gulf that we know today when the ocean broke through the Straits of hormo to
+
+[03:49] flood that Persian Gulf Basin as a result of the rise in the sea levels when the glaciers melted at the end of the last ice age as a result of the melting of the glacial ice sea levels Rose and the ocean spilled through the Straits of Hormuz and formed the Persian Gulf uh so that the original location of the Garden of Eden would today be uh submarine the Crux of the article is the genetic evidence for Adam and Eve and this is where where Hunter brings in you and Josh swamidoss he begins by saying quote it might come as a surprise to learn that scientists really do believe that all living
+
+[04:38] humans are descended from a single woman the so-called mitochondrial e is the common female ancestor to which the DNA of all modern human beings can be traced this common ancestor exists because no matter how big your initial population is the chances are that most female lineages will eventually come to an end end of quote and the article goes on to include why chromosone atom saying that they lived about 200,000 years ago but the scientist don't think humans descended from a single pair what do we need to know Bill about mitochondrial eve it's really an irrelevancy Kevin uh it has nothing
+
+[05:22] to do with an original human pair one of Josh swamp as's most important emphasis is that biblical ancestry is genealogical not genetic uh ancient authors knew nothing about genes what they understood was genealogical ancestry and so that is really the focus of our inquiry is whether or not all human beings are descended from a common uh Gene theological ancestor Josh swam das's work comes up next bill the article quotes Josh saying quote many individuals are each individually ancestors of all the living all humans alive descend from each of these Universal ancestors the same can be said for
+
+[06:19] all alive in ad1 or all alive when recorded history begins two of them could be a particular couple named Adam and Eve in scripture from whom we all descend end of quote there and then further down quoting it is important to note that Dr swamidass is not offering a positive case for the existence of Adam and Eve rather he's merely showing that there is nothing in our understanding of evolutionary biology that prohibits the existence of Adam and Eve as a couple end of quote there is Josh accurately represented here Bill yes he is that the point he's making is that at different times in history
+
+[07:03] there will be different Universal common ancestors of uh everyone uh and so these different Universal common ancestors are far from unique they're not truly Universal in the sense of being ancestors of everyone who has ever lived so um there is a universal common ancestor for everybody who is alive today but that same couple or person is not the universal common ancestor for everyone that was alive say in um the first century ad the universal common ancestors that Josh is talking about are plural uh and they are not the ancestors of everybody who has ever lived I don't think he's read your
+
+[08:00] book bill but he uh he does quote your article in first things yeah he begins by saying that you argue that Adam and Eve must have been the first people to truly be human comment on that if you would yeah the Bible says that Adam and Eve were the first human beings ever created and therefore if there is a historical Adam and Eve it seems to me that they must been the ancestors of everyone who has ever lived and this would be the most significant uh difference between Joshua's View and my view I am looking for a founding couple of the human race who are truly uh the universal common ancestors
+
+[08:50] of everyone who has ever lived on this planet then he quotes you from the first things article uh your quote Adam and Eve may plausibly be identified as belonging to the last common ancestor of homo sapiens and Neanderthals usually denominated homo hyob bensis Adam plausibly lived sometime between around 1 million years ago to 750,000 years ago a conclusion consistent with the evidence of population genetics end of quote there and then Hunter uh rebuts the this with about four things he says although there is nothing impossible about this claim it doesn't put forward much positive evidence
+
+[09:33] even if homo hurens is is the first human and humans could have descended from a single pair there's still no reason to believe that this pair were the only humans on Earth additionally if Adam were a homo Hut ores then he wouldn't have lived in the proposed location for the Garden of Eden in Iraq likewise admitting that Adam and Eve worder even Homo sapiens is likely to Rattle a few more conservative Christian thinkers additionally some scientists have criticized the idea that humanness is a binary characteristic with a simple starting point end of quote there your response Bill well let's
+
+## Part 2 · 10:18
+
+[10:18] take these four objections one at a time okay first my ambition is not to prove that there was a founding pair I mean if you think about that Kevin it would be scientifically impossible to prove such a thing how could you ever prove that certain skeletal remains were those of the first person to ever exist how do you know that there weren't other remains that have never been found of of people who lived earlier we'll never know exactly when and how Humanity originated we can at best give a window of time during which the human race first appeared on this planet and that's what I tried to do
+
+[11:03] in the book secondly as for the geographical local of the Garden of Eden homo heidleberg Enis is what's called a Cosmopolitan human species uh remains have been found in the Far East uh in Africa in the Middle East in Europe so he could have originated anywhere uh certainly could have originated in the Middle East and then migrated South into Africa and uh Westward into Europe um identifying Adam and Eve with homo heidleberg genus is is perfectly consistent with these traditional uh locations of the Garden of Eden thirdly as for rattling uh conservative Christians um hter probably isn't aware
+
+[11:56] that young Earth creation ists are very open to the idea that neanderthals were equally human as Homo sapiens that they are not some sort of Apen or or or something of that sort that they too were human beings just like us uh well not just like us but similar to us and so this is not really a big deal to suggest that Adam and Eve were homo he highle B enes um that species of humans had a brain capacity which overlaps that of modern Homo sapiens and he also had the cognitive abilities that contemporary Homo sapiens do as well so I think there's no problem with identifying Adam and Eve as
+
+[12:44] members of the species homo H highle berenis as for number four about humanness being a binary characteristic I think the idea here is that an organism could have some human traits but not be fully human and that's certainly true uh one thinks of OST opines which were bipedal Apes that had some human characteristics but they were certainly not fully human so it's certainly true that um an organism could have some human traits without being human uh but from a theological perspective you either have a human soul or you do not um if God has infused a rational Soul into a hominin body then you
+
+[13:39] have a true and fully human being if that hominin lacks a rational Soul then it is not uh truly human so as long as we think in terms of soul body dualism I think there certainly can be a first fully human being and indeed I would say there would have to be um you you can't be almost or partially pregnant uh and similarly you either have a rational Soul or you don't the report wraps up with this line quote it is a striking fact that there is nothing in our current theories of human evolution that strictly prohibits the existence of an original Adam and Eve couple in at least some sense end of
+
+[14:27] quote there you know uh Bill people really need to get your book in quest of the historical atom uh it deals with just about everything in this article but at any rate wrap it up for us okay well I think that this is an accurate summary that Hunter gives of both Ma and Swami das's competing models there's nothing in the evidence of paleoanthropology that precludes the existence of the found ing human pair whom we call Adam and Eve [Music]

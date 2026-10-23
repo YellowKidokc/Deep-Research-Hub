@@ -1,0 +1,61 @@
+# Atheist Comic Turns To GOD After Hearing These 5 Words!
+
+**Channel:** [[Daily Dose Of Wisdom]] (`DDOW`) · Chapter 77 of 916 · Length 11m 09s · [[00 - Channel Summary]]
+**Video ID:** `SIBgPt41d_Q`
+**URL:** https://www.youtube.com/watch?v=SIBgPt41d_Q
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 05:06
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:21|Part 2 · 10:21]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] so she takes me to an AA meeting and they tell me to pray I said to what I didn't believe in God and they said we'll find something in the universe bigger than yourself that single question does God exist and if he does who is he overrode my life for about eight years God is a delusion Jesus is a myth Christianity is a fairy tale these are the types of things that comedian Jeff Allen used to believe and you might be wondering what would cause a sane grown man to change his opinion and to actually come to believe that Jesus Christ is real whether you're watching this as an atheist or as a
+
+[00:34] Believer there's definitely something of Merit in this for you so let's get into it I had a lot of learning to do if God had sat me down on day one of Alcoholics Anonymous and said this is what I want to put you and your wife through for the next eight years but at the end of these eight years you're going to know my son Jesus Christ and you're going to know a peace that you never knew could exist on this planet I would have never signed on 8 years into my search people were still telling me you need a higher power you need a higher power and I go what is that and they go well it's whatever
+
+[01:01] you want it to be it's just you know I said look if I'm making up a deity that makes me delusional I get it God exists or he doesn't but what what what is this I mean it's great until you got life you know death of a child a loss of a job cancer and you're on your knees praying for some calm in the middle of a storm that's all I want you want some peace in the storm grab me to surrender accept I can't change the circumstances but I can certainly accept it please help me and your brain is serpent what what are you praying to who you praying to you made it up and in the same token if I walked
+
+[01:35] in Alcoholics Anonymous 32 years ago and somebody would have put me to arm around me said you need Jesus Christ out of left God put me right where I needed to be with the people I needed to be and I needed I needed time I'm a skeptic at heart I'm not an easy sale let's put it that way I wasn't coming into a church I met God and his disciple on a golf course and we were working together he was a million in there he was doing comedy for a hobby for 100 bucks a week and I was reading a Rand at this point I went through New Age I went through Buddhism I went through you know Socrates said an
+
+[02:09] unexamined life is not worth living I was examining my life and still doing those prayers remove me from the bondage of self so we're on a golf course one day and we I'm talking about a Randon I'm talking about this and that and I said if it's materialism maybe I can make enough money I can keep the house and maybe Tammy will be happier so how do you accumulate wealth he said something like you cannot begin to enjoy the creation to have a relationship with the one who created it yeah he said materialism never will bring you Joy I said that sounds cool where'd you read that he goes it's in the
+
+[02:54] Bible I go the Bible okay couple holes went by said some else go that's great you where you read I goes the Bible I said stop it with the Bible he goes what do you mean I go who who reads the Bible I mean really you know little archaic God God's word come on we're in the 20th century here he said well well let's back up what's in the Bible you don't think is true I go I don't know I'm an atheist I don't I don't believe in God let Al you know I've never read the Bible he goes then you're not an atheist you're a you know and uh anybody here knows that clicked you know I wanted to hit him but I
+
+[03:30] had a enough restraint I saidwell how so he said I'll give you the short answer that this kind an infinite God and an infinite Universe which you're denying exists as an omnicient being in order to truly deny that you yourself have to be omnicient it's a self-defeating argument you cannot defend an absolute negative I looked at that man and said what he said I say this out of love you're not smart enough to be an [Applause] atheist I said you don't know either he go I think I do and he said I'd like to help you out this is discipleship I'd like to help you out I said how so he goes I go to a
+
+[04:06] church in Dent in Texas they have a tape Ministry he teaches the Bible I think you'd enjoy his teaching he doesn't condescend and he doesn't hide and run from the hard verses I think you'd enjoy that I said well it cost me any money he goes nope and I said well you send me what you want he said can I send you a Bible I said you can send me whatever you want as long as I don't have to pay for it the Bible came 3 days after we parted company I threw it in a junk drawer tape started coming and year and a half a year and a half God put my wife and I through hell to the point where we were 10
+
+[04:33] minutes from filing divorce papers we had them filled out we had them notorized and 10 minutes from the courthouse Tammy says this is wrong let's go home if you don't think God will bring you to the edge in your life I drive 10 more minutes I drop those papers off I lose 23 years with a woman I never knew I could love the way I love this woman I never knew I would not know my grand I would not know I I I don't even want to go down the long Litany of things I would lose and it wasn't easy but we went home after six months she takes the kids she goes I'm going to Ohio I'm getting away from you
+
+[05:01] for a few months I'm taking them to my parents you need to figure out what you're going to do with your adult life if you don't want to do comedy don't do comedy but Jeff you got to do something we're losing the house and as she leaves she gathers up these tapes and she throws them at my feet and I got to hurry up here but I the first one I opened up was Ecclesiastes The Book of Ecclesiastes I couldn't even pronounce Eccles I got so anyway then I remember I got a Bible it's in the junk drawer if you got a junk drawer nothing ever leaves a junk drawer until you get a shed that's a Suburban
+
+[05:27] version of a junk drawer so anyway I pull the Bible out open up Ecclesiastes from the beginning of that tape meaningless meaningless all in life was meaningless my heart leapt I went wa that's in the that true that summed up eight years I came to those same conclusions nothing of this Earth will ever give you lasting joy and basically what I got out of that first sermon was this life without God will have no meaning without meaning to your life there's no purpose to your life without purpose to your life you might as well off yourself and I heard that sermon and I went that's in the Bible so
+
+[05:56] I ripped open every EV looking for more Eccles closy tapes there's got to be another one in there and the other one was if happiness was an act of human will we'd all be happy because you ask anybody what they want out of life they're going to tell you I want to be happy what do you want for your kids I want them to be happy well how do you define that if it's the next iPhone the next gym shoe the next house the next car the next relationship we live in a wealthy wealthy Nation you could stuff that into your body forever if you got enough money and resources bla Pascal described it as a
+
+[06:23] god-shaped hole that's inside every human being and we keep trying to stuff the world into this hold and it never last and it's never satisfying but the truth is something outside of us has to come inside of us and it works its way out into the form of service service you want to be loved you got to be loving so then you ask yourself well how is that what does loving look like while Ephesians gave us an entire book on how I'm to love my wife and we have built our marriage on the foundation of that for 22 years we have tried we've tried it's far from perfect believe me but that is our go-to we
+
+[06:57] go to the but I'm telling you I I did a year and a half wor the Bible study in about 2 months I was in the car staring with one leg making notes in my but I almost met Jesus before I met Jesus and people people were people were waving one finger at a time at me just hey you know just you know hey you know I gave my life to Christ 20 some years AG but what that means is to give you put it in perspective that would be like me driving a Yugo 74 Yugo into a Lamborghini dealership and then telling the salesman all right I'm ready to trade you even up if you want to know what service looks like go
+
+[07:40] to the Cross just look at what was done on the cross look at Jesus's life that is service that is love to sacrifice for another I want to read this to you guys really quick this is Matthew 18 it says this at that time the disciples came to Jesus and asked who then is the greatest in the Kingdom of Heaven he called a little child to him and placed the child among them he said to them truly I tell you unless you change and become like little children you will never enter the Kingdom of Heaven therefore whoever takes the lowly position of this child is the greatest in the kingdom of heaven and
+
+[08:13] whoever welcomes one such as a child in my name welcomes me then a few verses later he says this if a man owns a hundred sheep and one of them wanders away will he not leave the 99 on the Hills to go look for the one that wandered off if he finds it truly I tell you he is happier about the one sheep than about the 99 and that did not wander off in the same way your father in Heaven is not willing that any of these little ones should perish you can see the heart of God is for us not against us the great Overcomer of the problem of evil God himself Christ the hope of glory I hope that when you
+
+[08:51] hear this your heart doesn't Harden against it and say I don't need that I don't need forgiveness I'm not not affected by the problem of evil I'm above it I'm outside of it no you're not you're very much a part of it so am I we all need God because we're all equally in in a state of deficit it's a hard pill to swallow to acknowledge that we're all closer to Adolf Hitler than we are Jesus Christ from a moral perspective God sets the record straight takes our place washes us clean but then more than that it's not just getting righteous it's becoming suitable for him he is the joy of Heaven he
+
+[09:35] is the reward of Heaven knowing god is not just an idea it's a reality you can actually know your creator through Jesus Christ in relationship he he his peace passes understanding his spirit is available to you if if you're a Believer and you know what it's like to live apart from and with God you know exactly what I'm talking about if you're not it could sound crazy but you need you need to be willing to come to him on his terms and say God if you actually are real if you actually have something for me if I'm really not alone in this Cosmos if if I'm really here on purpose not by accident
+
+## Part 2 · 10:21
+
+[10:21] but on purpose then God will you make it clear to me that's the type of prayer you have to pray you have to open yourself up to even the possibil of God and say God if you're really real if if the gospel is really true if you really came and died for me and bled for me if you really want me then I want you pray that prayer I challenge you and see what happens dig into the word of God even if you're allergic to it even if you think it's crazy read the book of John read the Gospel of John see what happens I say that because I know that there's power in it and I know that the power in it is from
+
+[10:55] the most powerful Source in the universe God himself so I'm praying today for every person watching this video that today would be the day of salvation thanks for your time see you guys in the next one

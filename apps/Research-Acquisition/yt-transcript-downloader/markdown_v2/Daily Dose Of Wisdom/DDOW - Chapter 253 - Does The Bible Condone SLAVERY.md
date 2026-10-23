@@ -1,0 +1,45 @@
+# Does The Bible Condone SLAVERY?
+
+**Channel:** [[Daily Dose Of Wisdom]] (`DDOW`) · Chapter 253 of 916 · Length 7m 53s · [[00 - Channel Summary]]
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] (https://www.youtube.com/watch?v=aaB_Mz3_nSw&t=0s) The clip you're about to watch is Ben Shapiro and John McArthur. It's in the context of a longer conversation, this section of the conversation they're getting into the question of, Does the Bible condone slavery? We're gonna get into it now and then I'll give you some of my thoughts on the back end per usual, enjoy. I've never been in a position where I had to try to explain something that was a legitimate contradiction in the Bible. So what do you do with the socalled, difficult sections of the Bible?
+
+[00:23] (https://www.youtube.com/watch?v=aaB_Mz3_nSw&t=23s) So the case that to play Devil's Advocate for a second? And obviously it's it's interesting to do this because you and I agree about the veracity of at least the first half of the Bible. We have a disagreement on where to file The New Testament. You put in the nonfiction section. And I don't, I'm Jewish, but with that said, the and we'll get to those disagreements in just seconds. I'd be remiss if we didn't. But to take the difficult sections of the Bible, Sam Harris makes the case that and I use Sam, but Richard Dawkins does the same thing.
+
+[00:46] (https://www.youtube.com/watch?v=aaB_Mz3_nSw&t=46s) People who sort of have a cursory glance at the Bible, read it once through on their nightstand at a hotel. And now are experts and they I don't mean to be dismissive, but I do, but the but the I. But the idea, yeah, is that they will pick out a section that is particularly awkward and they will say, Okay, well, the Bible was fine with this. So what's the deal? So let's do a couple of those sections if you don't mind, so let's take slavery. This is the the example that's very often used that the Bible is okay with slavery.
+
+[01:09] (https://www.youtube.com/watch?v=aaB_Mz3_nSw&t=69s) There are particular sections in The Old Testament. That specifically, talk about, for example, taking female captives and then shaving their heads and then marrying them for enforcing them into marriage. How do we square this with the basic sense of Western morality now, which is that slavery is in a terrible evil? How could the Bible, not why didn't the Bible just abolish slavery 3000 years ago? Well, first of all, the Bible would never condone taking women as slaves, shaving their heads and turning them into some kind of abject slavery.
+
+[01:37] (https://www.youtube.com/watch?v=aaB_Mz3_nSw&t=97s) That that's that would never be advocated. The Old Testament elevates women, obviously, so does the New Testament, but let's talk about slavery. The Bible never condones mistreating anyone, not even an animal the Bible never condones mistreating anyone. I want to make that very clear. The Bible calls for love and kindness and support and encouragement and protection and provision. (https://www.youtube.com/watch?v=aaB_Mz3_nSw&t=130s) One of the social constructs in which that occurred in the purposes of God was a form of slavery.
+
+[02:10] The word and the fact that slavery and being a servant were so close is shows in the word EBED, which could mean both. Which is to say that that the only difference between being a servant who showed up in the morning at nine o'clock and left at six. And being a slave was, you lived, you had been purchased, what that meant was you had food, you had family, you had protection, you had provision. (https://www.youtube.com/watch?v=aaB_Mz3_nSw&t=170s) This was, for many people, the most secure kind of employment they could have ever hoped for.
+
+[02:50] With a good master, with a faithful master, with a loving master and, in The New Testament, fascinating. The New Testament word for slave is Doulas, and it's It's the equivalent to ebbed in the Old Testament. But Doulas is the word for slave, and it is used dozens of times to refer to a Christian. When we confess Jesus as Lord, we are saying he is curious Lord, I am Doulas is slave. I can't think of a more wonderful relationship that any human being could ever have than to be the slave of one who loved and died.
+
+[03:27] (https://www.youtube.com/watch?v=aaB_Mz3_nSw&t=207s) For him, who provided everything he or she would ever need, who promises eternal protection, eternal blessing, Who raises that? Slave to become a son adopts that slave into his family and makes him a joint heir of everything he possesses in the Eternal Kingdom. So just taking the concept of slave and turning it into some kind of a pejorative thing misses the point that there were lots of social constructs.
+
+[03:58] (https://www.youtube.com/watch?v=aaB_Mz3_nSw&t=238s) Some of the safest places people could be in the ancient world would be with a master who loved them and cared for them. The Bible explicitly rejects any mistreatment of slaves ever. They are to be treated with kindness and love in a way that honors God and demonstrates care for them. Now that's very different. That kind of thing than transporting people across an ocean, putting them in chains, making them basically nothing but an elevated animal. If even elevated, that the Bible would never tolerate, but keep this in mind.
+
+[04:41] (https://www.youtube.com/watch?v=aaB_Mz3_nSw&t=281s) There were probably 70 million slaves in the Roman Empire during the life of Jesus never tried to abolish slavery. If Jesus came to abolish slavery, he failed. If the apostle Paul came to abolish slavery, he failed. If the rest of the Apostles agenda was to change the culture, knock off Caesar and wipe out slavery, they failed. If that's true, then Jesus went to the cross and said It is finished, but it wasn't. He didn't pull it off.
+
+[05:16] But if he came to prevent us from going to hell forever by bearing our sins and his body on the cross, then he did accomplish his mission that was his mission not to restructure the social order of society. (https://www.youtube.com/watch?v=aaB_Mz3_nSw&t=316s) There's There's a book in The New Testament called Philemon, and Paul writes this letter to Philemon. Because Philemon had a slave named Onesimus and he ran away. So he ends up in Rome and he runs into the apostle. Paul and Paul tells him about Christ, then he becomes a brother in Christ.
+
+[05:53] So Paul says, Go back, go back to Philemon and tell him you're his brother and tell him You're sorry that you left and make it right with him. (https://www.youtube.com/watch?v=aaB_Mz3_nSw&t=353s) And he writes this letter to Philemon and says, Take him back. Contrary to abolishing slavery, Paul is saying, Go back and fulfill your responsibility to him as his brother. So slavery is just a social contract at its best that it's worse. It is the horrible kinds of thing that people sort of depicted as today. Okay, that's unacceptable. I hope you guys enjoyed the conversation.
+
+[06:29] One thing I wanted to add is just this, that the new atheist, as they're called that, they reference here in the video. (https://www.youtube.com/watch?v=aaB_Mz3_nSw&t=389s) The Sam Harris is the Richard Dawkins they love to use this idea that the Bible condones slavery and that the slavery that's being talked about in the context of the Bible is the same as the slavery that took place in the American South, and that's just foul play.
+
+[06:56] That's just intellectually dishonest and lacking integrity, because anybody who has studied either of those time periods knows that they are very, very different things. Although that same word slavery is used in both instances. (https://www.youtube.com/watch?v=aaB_Mz3_nSw&t=416s) But to try to argue that the Bible condones what took place in the American South is just is just not honest. That being said, I hope you guys enjoyed this conversation. I love hearing bench bureau and people like John McArthur get together and talk.
+
+[07:22] I love kind of hearing those little gospel threads that John McArthur kind of weaves throughout the conversation, those little seeds that he's planting along the way. It's a really, It's a really great conversation, so I hope you guys enjoy and I will see you guys in the next video. (https://www.youtube.com/watch?v=aaB_Mz3_nSw&t=442s) Sorry. One other huge point that I almost forgot that has to be mentioned is that the abolitionists were Christians, both in Europe and in America. The abolitionists were motivated by their Christian understanding of the value of human life, their Christian.
+
+[07:51] Understanding. That all people are created equal, that they are endowed by their creator with certain unalienable rights. So all of that is downstream from a biblical understanding about the dignity of human life. (https://www.youtube.com/watch?v=aaB_Mz3_nSw&t=471s) And that's why people abolish slavery because of their Christian understanding. So I got to mention that as well. Okay, peace bikers, that's really good.

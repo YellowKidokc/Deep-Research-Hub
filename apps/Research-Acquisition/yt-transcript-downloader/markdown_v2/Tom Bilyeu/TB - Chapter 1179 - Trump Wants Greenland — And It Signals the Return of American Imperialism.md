@@ -1,0 +1,81 @@
+# Trump Wants Greenland — And It Signals the Return of American Imperialism
+
+**Channel:** [[Tom Bilyeu]] (`TB`) · Chapter 1179 of 1389 · Length 14m 08s · [[00 - Channel Summary]]
+**Video ID:** `LezwCmbVmXo`
+**URL:** https://www.youtube.com/watch?v=LezwCmbVmXo
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-20 16:03
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:16|Part 2 · 10:16]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] Greenland is going to continue to be a flash point. Trump is saying up and down that we are going to control Greenland. And now that he's got control of Venezuela, this is where I expect people know that he's willing to make a move. This is going to change the way that people approach Trump. And that's one of the things that's got most of Europe telling him to back off. Uh but Trump has repeatedly stated that the United States needs to control Greenland for national security reasons. And he said directly to reporters, "Greenland is covered with Russian and Chinese ships all over the place.
+
+[00:32] And we need Greenland from the standpoint of national security. And Denmark This is still part of the quote. And Denmark is not going to be able to do it." So, that's end quote. Needless to say, Denmark has vehement disagreement with that statement. They believe that there that nobody needs anything more that they've been doing this for a very long time. They've got it completely under control. But Trump is not budging on this one and is not going to rule out using military intervention, which is wild. Multiple people from the White House have backed that up.
+
+[01:04] Yesterday, White House Press Secretary Caroline Leavitt said in a statement, and I quote, "President Trump has made it well known that acquiring Greenland is a national security priority of the United States. The president and his team are discussing a range of options to pursue this important foreign policy goal. And of course, utilizing the US military is always an option at the commander-in-chief's disposal. Talk about bullying." That's end of the quote. All right.
+
+[01:38] White House Deputy Chief of Staff Stephen Miller, who is not known for his restraint, echoed the sentiment asserting the US's entitlement to Greenland. I hate that, but nonetheless he did it. And dismissed the possibility of military opposition. Not that we wouldn't do something militarily aggressive, but that we wouldn't get any opposition if the US does decide to be aggressive.
+
+[02:08] He said, and I quote, "Nobody's going to fight the United States military over the future of Greenland." The way that I'm reading that is him saying like, "Yeah, we might go in there and no one is going to do about it. Who going to stop me? Period." Yeah, so now it's unclear how serious Trump is actually getting about being aggressive versus just trying to bully Denmark off the X, which is certainly his style. But all of the smack talking has prompted a stern joint statement, which you're going to see more and more of these European joint statements from seven major powers.
+
+[02:31] Denmark's Mette Frederiksen, that's my best guess. France's Macron, Germany's Merz, UK's Starmer, plus Italy, Poland, and Spain. They all declared, "These are universal principles. Sovereignty, territorial integrity, inviolability of borders, and we will not stop defending them." End quote. Yeah, we'll see. I mean, look, all of this is rhetoric. I'm not expecting some huge blowup over Greenland, but this is where like you just start bothering enough people.
+
+[03:05] With each one of these moves, you make someone inside of the different countries your enemy and you start stacking up enough enemies and eventually people will do things even that go against their best interest because they feel some type of way. Trump should not act as if you can just bully, bully, bully. He's going to have to have some carrots. Now, the carrots are always economic. So, if you've got a way to either use the Venezuelan crude oil to lower the costs in cross Europe for energy, well, okay, maybe.
+
+[03:29] Listen, I'm going to be slapping you around in Greenland, but like we're going to really back you over here. >> I'm seeing a lot of comments in the chat. My general consensus is that like Europe don't want these problems. Y'all haven't fought a real war since the '40s. Y'all can't even take care of your own stuff. We're still the number one military. We got it. Now, I don't want this to just be American hubris, but is it really like nobody can stop America and we're just we're going to keep expanding until we meet a sustainable force that can stop us? >> Yes, certainly right now.
+
+[03:54] But remember, it's there are two things that will restrain a nation. Thing number one is just military might. You run into another military. We're not going to go roll up on China. We know that that would be suicide. >> But yeah, but like speaking of Greenland, I don't see anybody on the Greenland side rolling up with a tank trying to meet us. >> Correct. And I think Stephen Miller is right about that, and we'll get to that in a second. The second thing is the own internal conscience of your country.
+
+[04:21] So, your country has a culture, it has a value system, and it will stop you from overstepping that value system. That's the thing that's going to keep us in check. So, it becomes a question of how much is Trump willing to ignore the populace, or how much is the populace behind him? Maybe he can sell it, and everybody's like, "Yeah, let's go get Greenland." Okay, so those are the two forces that can restrain you.
+
+[04:45] Now, in terms of him going into Greenland, if he's really that serious and really is that concerned about something, uh because there you can look at maps and understand why Greenland really is so important.
+
+[05:09] If you believe that Russia is a major problem for you, if you believe that Russia and China, yeah, if you can look at your screens, uh if you believe that Russia and China are pairing up against you, that any nuclear potential nuclear strike coming out of Russia would go directly over Greenland, and so you want the ability to intercept or shut it down or whatever, uh or you're just worried about the cuz I think there's enough melting going on that you're actually at some point going to be able to take ships like through a lane there. I've not researched that.
+
+[05:17] Like, I'm purely at the headline level, but people are saying that like Chinese and Russian ships might have a way that's faster than one of the other routes that you can take because of melting. If that ends up being true, and I don't know that it will, but if it ends up being true and you're trying to protect yourself, make sure that you can control those lanes. I get why you get on a hobby horse about Greenland, and you get really serious about taking back control of the Panama Canal, and taking control of this area in Denmark. Uh sorry, Greenland controlled by Denmark. So, I get it.
+
+[05:44] And if you do it, certainly Europe isn't going to make that the flash point and push back militarily, but you break NATO at that point. You go, "Hey, NATO is this alliance where we all agree Russia is a problem, and we're all going to protect each other should something bad happen." Well, if if you've got like a neighborhood watch, and you're like, "Hey, we're good. We're going to keep everybody out." And then you break into your neighbor's house and take They're going to be like, "What the Like, you ran the neighborhood watch. Like, bro, like this is dead now.
+
+[06:14] We can't trust you." And so, Trump uh he's acting like he doesn't get it. I think he gets it. I think he knows certainly he's going to have people around him that know. So, that's one of those things that's like, would anything happen immediately if you break NATO? No. Will it play out over 5 or 10 years? Possibly. And that's where like breaking your allies now like just not a wise idea. Let's say he's right. Run the thought experiment. Back yourself into the difficult corner.
+
+[06:52] If you, dear listener, were to see all the information, and you, dear listener, walk away going oh, we really do have to have Greenland, then it's like, what do you do? Do you run the risk that, okay, I'm going to alienate myself. I'm going to be isolated, but I'm still the strongest military on planet Earth. I am still first or second largest economy. I'm certainly not without a lot of power. I know China is in trouble. China is pumping money into their economy as if it were COVID. It's wild. So, they're in an economically fragile position.
+
+[07:24] So, it's like, you know that it's not like they can just go guns a blazing either. So, it's like you can sort of set them aside. Pure competitor. I'm going to have to deal with them in a minute, but for right now, I just I know I've got to protect myself from a Russia-China alliance. I know that these shipping lanes are opening. Remember, this is hypothetical, but I know that these shipping lanes are opening, so I have to be very careful. I've got to lock this down.
+
+[07:48] I know that if they were going to launch a nuclear strike, which feels maybe increasingly likely, I've got to control that airspace. To do that, I've got to control Greenland. I'm looking at Europe, and I'm like, these twits haven't done anything to beef up the defenses there in God knows how long. We pay for most of their defenses anyway. I do not trust Denmark with like a key strategic defensive area. Now, remember, in this thought experiment, you, dear listener, agree with all of this. Then what do you do?
+
+[08:15] Now, in that thought experiment, we might say, "Ooh, it's tough because I put myself in a weakened position, and down the road that may come back to bite me in the But, I have a today problem, and I've got to address my today problem. So, I can see Trump building a mental model where that's the truth, and he feels like he has to do this. Now, I don't have enough information to believe that that's true. So, for me, I'm like, "What are you doing? This is crazy talk. Like, you've got enough cover story with China on the Venezuela Well, look, cuz you had a dictator that was inviting him in.
+
+[08:42] Denmark is your ally, your long-standing ally. So, bro, go to them and be like, "Hey, we want to put some joint forces here. I don't have to like control everything in name. I can just be like, 'Listen, we want to help you, Denmark. We have a reason. Let's put all these troops here. Let's make sure that our guys are like in charge of how we're running the watch mechanisms. Let's build whatever we need to build, but it's yours. Like, we love you guys. You know, ally, ally, ally.' Sure, at any time, you know, later, you can play this card of I'm militarily going to take you over.
+
+[09:22] Uh, so, if you know you've got that card, why be a right out of the gate? Like, seduction, boys and girls. But, who am I kidding, Drew? This is the guy that when he flirts with a chick, he grabs them in the It's wild, and you We seeing this manifest. Like, he's grabbing Greenland by the >> That's what's happening right now. >> that. Please please please. I never wanted something clipped more. Yeah, please. >> Can we please [laughter] buy a bottle of wine, okay? Let's slow this down. >> please. >> You know what I mean? [laughter] Like, listen, she's telling you she's into you.
+
+[09:52] You don't have to open with that move. This is so wild. So, yeah, I mean, there are better ways to do this. >> We already have bases on Greenland, though. So, that's what's like I I think what is being told is different than the underlying story. So, I do think that there is something in a Manila envelope that if they slid across his desk, I'm like, "Yep, we need Greenland. We need to go right now." But, if you're just telling me it's for national security, we have two bases there already. We have the most bases in any country. We have bases in South America. We have bases in Europe.
+
+## Part 2 · 10:16
+
+[10:16] We have bases in Japan. We have bases around all the people that even might think about doing something to America. We even have a whole nation-state in Israel that like so, we have every proxy we can need. So, to bang your drum about Greenland, similar to Venezuela, "Oh, he's a dictator. He's a dictator. He's a dictator." Oh, yeah, we got 30 billions of oil. So, I'm sure with Greenland it's going to be the same thing. "National security. National security.
+
+[10:42] Oh, we got a rare earth deal for the next 40 years." Like, there's definitely something else that we're not being shown, that's not being talked about, that is fueling this motivation cuz I don't buy the whole security guarantee thing. >> Well, so, anytime you can advantage yourself economically, that's going to sweeten the pot, for sure. And so, if Trump is looking at, "Mm, my tariffs might be going away, and I've got to buy midterms, I've got to have made things better for the American people." I mean, it's certainly possible that it's just like, "Okay, I've got a China problem.
+
+[11:06] Uh, they can choke me out from a rare earth mineral perspective. I need to solve that." He says he's already solved it. Maybe he has, maybe he hasn't. That's part of it. Oil helps a little bit. I mean, so, it's possible that that's playing a bigger role in his decision-making than I think.
+
+[11:39] But, I really, when I look at this and I go, this is just a president who's trying to increase America from an economic position, going in and doing a strike on Venezuela and kidnapping their um dictator when you know that like there now gangs roving the streets that are pro Maduro that are like pulling people over and checking to see if they've posted anything on social media that's pro Trump. So it's like you know that overseeing all of that long term is going to just be filled with question marks. So if you're only doing it for that reason like Jesus Christ, this would be the dumbest way.
+
+[11:55] Go back to drill baby drill like go back to building better alliances in the Middle East. All of that would make sense. But going into a hostile nation and trying to take them over trying to like coup the government, what? Now, when you go they were allowing China in my backyard. Yeah, to understand how ferociously one country will respond when they believe that their adversary is posting up an advantage in your backyard. America walked America and Russia walked the entire world to the brink of nuclear annihilation because Russia moved weapons into Cuba.
+
+[12:37] And America was like, we will legitimately nuke you. You have to get them the out. Like that's the you you push a nation into believing that it has an existential threat on its doorstep. Once I go that's the mental model that his advisers have like forget remember Trump's not a guy sitting alone in a room being like we should invade Venezuela. He's surrounded by a bunch of people that are like bro, let me walk you through the history. Let me show you how this stuff plays out. Let me tell you about the Monroe Doctrine, right?
+
+[13:06] So this is when you plug it into that boom, it clicks into place and it's like oh, the oil's a sweetener. Oh, being able to pay back our companies who I'm sure have been barking at every president since the 70s about give me my money back. All of those are sweeteners for sure. Like it's not like that stuff is lost on him. But I'm just saying you don't make a move this potentially risky. Because listen, between now and the midterms, Venezuela could go so wrong. Like anybody that's clapping like a seal and is like, "Oh, Venezuela is settled." What?
+
+[13:36] Like right now, Maduro's number two is in position and you may have to coup her if she gets out of pocket. So, it's like if the US citizen watches you keep sending like these lightning strikes to do like the crazy snatch them in the middle of the night exercises, they're going to get increasingly nervous. So, this has to start paying off. It has to pay off quickly. It could go wrong a thousand different ways. So, if it was just about the money, there's just easier ways to make money. >> Yeah.

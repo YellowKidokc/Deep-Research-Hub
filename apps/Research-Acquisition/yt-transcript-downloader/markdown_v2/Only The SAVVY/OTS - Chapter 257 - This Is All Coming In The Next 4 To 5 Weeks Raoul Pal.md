@@ -1,0 +1,59 @@
+# "This Is All Coming In The Next 4 To 5 Weeks" | Raoul Pal
+
+**Channel:** [[Only The SAVVY]] (`OTS`) · Chapter 257 of 514 · Length 11m 56s · [[00 - Channel Summary]]
+**Video ID:** `tgPY0Ulp_9E`
+**URL:** https://www.youtube.com/watch?v=tgPY0Ulp_9E
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 01:15
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:09|Part 2 · 10:09]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] so the market is currently obsessed by inflation it's obsessed by the central banks it's obsessed by interest rates going super high we saw Billet coming out today yesterday saying you know it interest rates need to go up to the Moon I stepped back from the narrative and start looking at okay what is the reality of that and I think the reality is that what we've actually done is utterly destroy demand already we've had the largest rate of change of interest rates in history the largest rate of change of Commodities in history um we've had the largest rate of change of mortgage rates all sorts
+
+[00:39] of stuff a very perky dollar as well a strong dollar that makes a big difference to this those things tend to be Financial conditions tightening we can see it in the equity Market we can see it in the housing market you can sit in the crypto Market is conditions have tightened dramatically the Market's still looking at the previous CPI prints and CPI is a lagging indicator the forward-looking stuff of the business cycle is collapsing and that's interesting to me because that fits with my secular framework which is disinflationary slower growth over time um with this aging population
+
+[01:19] demographics all of this stuff all coming together so that's why I'm really paying attention right now I think the Market's probably wrong and I think that it's going to sell up for a whole bunch of opportunities as the FED pivot fast and the economy goes into recession much quicker than anybody expects in an interview with Delphi media Raul pal the co-founder and CEO of real vision and Global macro investor went into depth with exactly where he sees the crypto Market going in the short term in the economy in the long term the crypto Market has been trading sideways for quite some time
+
+[01:50] currently trading at twenty nine thousand five hundred Seventeen dollars at the time of writing down seven percent in the past seven days and five percent in the past 24 hours ethereum is trading at one thousand seven hundred fifty two dollars down twelve percent in the past seven days according to Raul the crypto Market isn't looking exactly like other markets because the adoption is still prevalent but the next five to six weeks will be crucial for the crypto Market his Outlook isn't exactly bullish at the moment but long term we can expect growth in crypto listen to what Raul has to say
+
+[02:24] people are waiting for what is the shoe to drop for this cycle I think the shoe is the economy like 1974 and it's not a financial event more an economic event and probably the U.S consumer event now in 2008 the FED discovered the new trick which was the balance sheet now if you understand the balance sheet as you expand it automatically makes the s p and other risk assets reprice higher because the denominator's Fallen that stopped the rods because the collateral in the system goes up in price and everything kind of resets and every time the FED have used the balance sheet since it's had
+
+[03:01] exactly the same impact which is an immediate and turn in asset prices at an immediate turn once it was used in 2009 it had immediate turn when it was used in um in the pandemic and it had immediate term when it stopped you know when when the market started to sniff it out in 2018 I don't see any reason why the FED won't do it again so I'm anticipating a short very sharp recession and a return to use of the FED balance sheet direct transfer payments to give money directly to poorer people um and the FED having to support some parts of the markets again um but let's see how it plays out the
+
+[03:44] main point being is we've got the worst ahead of us it's not fully priced in by markets it's going to be faster than people expect it's going to be more severe Than People expect and then we can look out looking forwards so that's my pretty horrific story from here how does that how does it play out for stuff like crypto well the crypto story is still amazing right crypto story is still a technological adoption curve it's still metcalf's law it's a slow year for adoption but adoption's actually been sideways people haven't left the crypto ecosystem like in 2018 which is why we've had a much
+
+[04:19] more of a sloppy sideways range and I think that adoption continues and if it continues this way you know by the end by The End by the time we get to 2030 we end up with five billion people or four billion people using crypto this chart's actually been updated since and we found that the rate of adoption was even faster last year we had a 186 percent rate of adoption you can see what that's like compared to the internet overall it's about twice the speed of internet adoption and that's truly extraordinary and it tells us that going forwards even though the internet as it becomes a more
+
+[04:53] adopted Network the rate of growth comes down but the numbers become huge and that's what's important to the valuation of the market cap of crypto so again if we look at the these updated numbers even if we assume some slowdown whether it slows down by the same percentage change that the internet did after year six starting at five million users took year six after that it started slowing down to 43 percent if we adjusted by the same amount we get to 76 growth in crypto we still get to 2.8 billion users in the next four years if we slow it down to match that of the internet we get 1.2 billion
+
+[05:32] users um and the internet at that stage was at 500 million so you can see the dramatic increase and this is what increases the value of crypto this is metcalf's law this is Network adoption and what what we're also finding is technology each one at a time comes at a faster speed so bitcoin's adoption was extremely rapid ethereum has been much more rapid and I think some of the other layer ones like Solana have been even more rapid than Bitcoin and I expect that to continue because the base layer was there Bitcoin was adopted so fast because the internet existed ethereum was adopted so fast
+
+[06:13] because Bitcoin had um existed and had been adopted and the same with the other layer ones same with nfts which were even faster in adoption if we think of the value accretion to the board 8 Yacht Club for example it's probably the fastest value accretion to any asset in all history it's about 250 000 in a year which is truly extraordinary so that's kind of what's going on and if Network adoption models are the key models I've spent a long time looking at this because a lot of people still don't really understand it and I thought how can I model this in a way that makes sense to an idiot like
+
+[06:48] me because metcalf's law is a complicated formula where we don't have the simple input so we can just put it into a model so I went through all of the different things on chain and the various factors and found that I could best describe the price action of Bitcoin via looking at the total transaction volumes in dollar terms versus the number of active addresses and that makes total sense a network of two people transacting a billion dollars a week is nice but it's not a network but the same billion dollars a week transacted by a billion people is incredibly valuable so Bitcoin transact more
+
+[07:35] volumes than anything else and it has a lot of active addresses and what's amazing is the two charts even the numbers are wildly different the two charts mirror each other perfectly it tells you that price is actually a great indicator of network adoption so it doesn't give you a lead and I'm working on rate of change models and other things to give us some leads on this but generic tells you cryptos are generally well priced by the market it's very efficient in what it does now don't forget price is not an input in in the model and it works for every single crypto asset I've ever looked at
+
+[08:13] so here's ethereum works perfectly too exactly the same and it works for I've I've seen it in all sorts of things from polka dot through to xrp people don't want to believe that they want to believe that crypto is all about Network adoption models that are unique to that particular crypto no it's the narrative that builds the network and the utility of the network but they're all priced in the same way so net net how does this all come together it all comes together in what I think is a dramatic risk off that happens over the next four to five weeks much like the end of 2018.
+
+[08:57] those of you from the crypto markets will remember Bitcoin fell 50 over that period and put in the low I think we're starting to see that kind of scary price action the equity Market as of today is has put in a dmarc indicator daily low but this is around the month-end rebalance effects and we know the month and rebalance is going to be one of the largest ever meaning Pension funds to rebalance their portfolios have to buy a lot of equities they're doing that they probably need to get it done before of the the long weekend in the United States after that I think crypto is telling us it's all
+
+[09:32] going to roll over again and we'll see the big sell-off I expect bond yields to continue to Rally as they stop pricing in the probability that the FED have to Pivot and the economy's gone too far and inflation is broken I then would love to see oil break I'm not 100 sure of that one but I think it's likely it's mapping very very well oil in 2001 and all in 2001 almost identical price action you can overlay the charts and it collapsed 45 much like it did in 2018 so I think that's probably coming that changes the narrative and eventually the FED sometime in the summer are going to go and
+
+## Part 2 · 10:09
+
+[10:09] probably after the June meeting they're probably going to go okay we'll monitor the situation and maybe we won't um tighten the balance sheet yet that signal is the signal for risk assets I believe and I think we'll see growth end of tech which has been utterly destroyed and is down 70 plus and crypto and probably gold actually start to outperform along with bonds and those should be the Phoenix that Rise From the Ashes and some of these other more cyclical plays will do less well those are the things that have been outperforming over the last 18 months the big question is what is it going
+
+[10:49] forwards is this going to be a longer recession in which case everything rallies and then comes back down again the FED have to do a lot more is that will bring the FED balance sheet in is the markets roll over and the economy looks terrible I'm not sure my best my base case scenario is a v-shaped recovery from a from a absolute Cliff Edge um but it could be something more drawn out in which case we've got a much nicer Equity bear Market to come but we'll wait and see so it's a pretty Grim prognosis but I think this is the opportunity I've been looking for if you want to listen to the full
+
+[11:26] interview check out the link in the description what do you think of Raul's analysis do you think he's accurate in the short term leave a comment if you found value in the content hit the like button as that greatly helps the channel find similar viewers like you if you're not subscribed make sure to hit the Subscribe Button as we put out daily content to keep you up to date on the market thanks for watching and we'll see you in the next one foreign [Applause]

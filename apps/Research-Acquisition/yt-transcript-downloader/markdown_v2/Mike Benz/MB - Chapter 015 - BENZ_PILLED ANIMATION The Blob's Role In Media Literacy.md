@@ -1,0 +1,75 @@
+# @BENZ_PILLED ANIMATION: The Blob's Role In "Media Literacy"
+
+**Channel:** [[Mike Benz]] (`MB`) · Chapter 15 of 690 · Length 12m 29s · [[00 - Channel Summary]]
+**Video ID:** `eV0rx02yhiQ`
+**URL:** https://www.youtube.com/watch?v=eV0rx02yhiQ
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 02:12
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:08|Part 2 · 10:08]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] How many people in the chat remember this term that I've publicly crusaded about media literacy? Media literacy is this idea that if you don't read the right media sources, you need to get your mind right because you are media illiterate. So to be literate in using the media, you have to read their propaganda and their propaganda only. So under the guise of this term, this field quote media literacy or they will call it digital literacy as it relates to online news or online news sources or social media. digital literacy, media literacy, information literacy, it's all the same field.
+
+[00:32] And using this concept that it's important to teach young people how to make sense of a complex information world, they have gotten control over what kind of news sources can be cited in schools and in colleges. This is how hundreds of millions of dollars of money is flowed out of US aid and the state department and the National Science Foundation and the Department of Education to fund these NOS's and private sector groups to give them big fat censorship contracts so that they can rig systems and curriculums so that you can only read or site the New York Times or Wikipedia.
+
+[01:08] The field of media literacy did exist in a kind of zombie state before the 2016 election. This was a pretty much dormant field for like 30 years. It was just about studying how media flows. But you have to remember the world completely changed in 2016 when Trump won. A schism opened up in the world and we are still living in that schism. A new cold war was declared. Just like there was a cold war against communism, there was a cold war against populism.
+
+[01:42] So when the blob started losing to populism in particular in 2016 with Brexit and the Trump vote, they blamed the election loss on free speech on the internet. This is predominantly a crew operation. crew was jointly run by Norm Eisen and Richard Painter. Richard Painter was from the Republican side, Norm Eisen was from the Democrat side. So it's like a uni party blob thing. So this is a chat GPT back of the napkin.
+
+[02:04] I asked to estimate the total market size for the field of media literacy for each year from 2015, the year before Trump won the election to present, including both public and private sources, including from USA, the State Department, the National Science Foundation, DHS, the Department of Education, DoD. We're going to see even DoD is involved in this field. The military is involved in media literacy because they argue that controlling people's minds and what media they read is a national security imperative.
+
+[02:24] That's how you have these Bill Crystal McCain Institute types leveraging the military for censorship. In 2015, the year before Trump won the 2016 election and schisomed the earth and created this second cold war of the blob versus populism. It was only $4 million in government funding and only about $und00 million in total if you include from private foundations and nonprofits and for-profit corporate social responsibility funds. Okay? And that doubled as soon as Trump won the election in 2017 went from 4 million to 8 million in government funding overnight.
+
+[02:55] It also doubled the total amount of total funding to almost 200 million. And today it stands at $33.6 million. And again, that number is probably well over hund00 million. As I noted, I identified over $100 million from the National Science Foundation alone to mis and malinformation, including media literacy, and 775 million in total. You see how it went from 100 million to almost 800 million. That's an incredible growth rate. If you take the 2015 numbers, that would be like the whole field grew by 100% every year for 10 years straight.
+
+[03:27] And this was all because media literacy came to encompass the disinformation beat. And this comes out of this normisen type network which was the strategic plan of action in January 2017. This was the David Brock normisen autopsy of why we lost the 2016 election. And what they argue here is that they lost it because of free speech on the internet. And even though Trump won the election, Norm Eisen and David Brock say the country did not really vote for Trump style change even though they voted for Trump. And so we still have the mandate.
+
+[03:57] Trump has the legal authority but we have the moral authority. we are going to resist the normalization of Trump. So what they said is Trump disseminated information and misinformation to influence the media. This was the big fake news push. Fake news, fake news until Trump co-opted that term. A little bit of background, David Brock ran something called correct the record. This is a pro Clinton super PAC founded by David Brock. David Brock and like the astroturfed fake truth squad.
+
+[04:25] The pack in 2016 aimed to find and confront social media users who posted unflattering messages about the Democrat party frontr runner. This is like a DNC super PACF funded troll farm to reply to you that you're wrong on Twitter and Reddit and 4chan. I'm not even joking. This is literally the kind of they were doing when they started losing the internet during the 2016 election cycle. The idea was they were losing the internet to Donald Trump. So this super PAC had to be funded to go after Bernie Sanders. And at the time, Bernie Sanders was a lot more brave than he is now, shall we say.
+
+[04:52] He was against open borders. He wanted to cut back military spending. He wanted to cut back US aid spending because he wanted all that money for free healthcare and free college tuition. So, he wanted to take it from the military industrial complex and from multinational business subsidies. This was how stressed they were about free speech on the internet supporting Donald Trump. And in January 2017, they say, "We will apply lessons learned." Generally speaking and simply put, Democrats got clobbered in the digital space.
+
+[05:22] Digital programs failed to actively listen and engage the online grassroots universe. So they acknowledged it was grassroots support for Trump. The Trump camp spoke effectively to the grassroots and relied on online channels to disseminate information and misinformation and influence the media. The right colonized Facebook which has established a virtual monopoly on information distribution. We will adapt to the new reality and we will win. Media Matters will continue mission of disarming right-wing misinformation. Here's what success will look like.
+
+[05:48] Serial misinformers and right-wing propagandists from social media to the highest levels of government will be exposed and discredited. Internet and social media platforms like Google and Facebook will no longer uncritically and without consequence host right-wing news sources or influencers. The goal in January 2017 was to get Google and Facebook to kick Trump supporters off of Google and Facebook. toxic alt-right social media fueled harassment campaigns that silence disscent and poison our national discourse will be punished and halted.
+
+[06:15] And then they went on to say Trump will be defeated either through impeachment or at the battle. This is in January 2017. Crew normisen shop will be taking this on. Trump will be afflicted by a steady flow of damaging information. Trump allies will be forced to step down. We will delegitimize Donald Trump's presidency stopping fake news and propaganda. This is coming from the propagandist with a propaganda super PAC. They were going after Breitbart. Breitbart at the time was making tens of millions of dollars in online advertising revenue.
+
+[06:39] They were the fastest growing media site in the world at the time in 2017. And again, all this stuff is now banned under media literacy. You can't cite Breitbart in school with media literacy programs. They bragged, for example, about how they led a campaign to stop broadcast media from allowing Trump to do phone interviews. Think about how sick that is. But this is how they were in 2017. They punched people in the mouth for a living, and they'd never been punched back. This was a donor memo, guys.
+
+[07:06] This is how they were soliciting money from donors, bragging about stopping major networks from allowing Donald Trump to speak by phone to them. So again, it was all about the fact that they lost control because of the online ecosystem and controlling the journalism space, controlling the media space. Hence, media literacy became their big push. Over the years, Media Matters has won or assisted in a number of tangible victories. These are the tangible victories, okay? From getting Glenn Beck off cable news to holding 60 Minutes accountable for faulty Benghazi reporting.
+
+[07:29] When Breitbart applied for press credentials, Media Matters was quick to act by advising the credentiing committee that Breitbart violated the requirements. So they stopped Breitbart from getting a press pass to the Senate Gallery. They brag about deplatforming, deplatform, deplatforming. And this is what media literacy does. It deplatforms news so it can't be cited. It can't be accessed. Media Matters be vigilant holding news media accountable for even the slightest bit of normalization of Trump.
+
+[07:56] predictive technology to identify which individuals and outlets are the most destructive forces driving fake news, misinformation, and harassment. Harassment just meant challenging journalists. Media Matters has already secured access to raw data from Facebook, Twitter, and other social media sites. So, they had a proprietary relationship to get raw data. They were a privileged trusted flagger. Media Matters put in place AI technology to automatically mine basically just proTrump messaging. Anyone who wants closed borders, this is back to this weapons of mass deletion concept.
+
+[08:21] so that they can identify the origins of a lie with mathematical precision. This is Crowd Strike and these AI weapons of mass deletion technology tools they were using. Google revised their terms of service to prohibit so-called fake news sites from using their advertising network. They went after the advertising dollars. Collaborating with social media platforms, outlets that push fake news are completely dependent on Facebook. Media Matters has the unique ability to change that. Facebook responds to our campaigns. They take action when we flag things to Facebook.
+
+[08:48] got Facebook to commit to fighting the rise of fake news. During the 2016 election, Facebook refused to do anything about the dangerous rise of fake news or even acknowledge the role in promoting disinformation. Mark Zuckerberg called the notion that fake news is a problem crazy. In November, we launched a campaign. So, as soon as Trump won in November, we launched a campaign pressuring Facebook to acknowledge the problem and its consequences for our democracy and commit to taking action to fix the problem. As a result of our push on Facebook, Zuckerberg did both.
+
+[09:16] And again, they used Russia Gate as the crowbar for this in many ways. They used the national security state, the ODNI, the CIA, the FBI, DHS. They conflated this with the Russian disinformation That's where the Norm Eisen Network comes into the picture. Stopping Steve Bannon, Breitbart News, creating a massive grassroots truth squad. We added 40,000 new participants to our action list. And these people will all be professionals now in media literacy. This is where they're all hiding now.
+
+[09:43] so that journalists, activists, allies, pal politicians, and the general public can weaponize our research to go after key right-wing targets who will see their influence and reach diminish. Facebook will continue to adjust its model to whatever we say. They bragged about pushing Roger Stone off cable news. Media Matter succeed in pressuring CNN, MSNBC, and even Fox News to stop booking Roger Stone. They brag about derailing Rudy Giuliani's cabinet nomination. This is how they're bragging to get donor money. Remember, Norm Eisen is still in this game today, just like he was a decade ago.
+
+## Part 2 · 10:08
+
+[10:08] Normisen Pillars of Democracy Playbook 2025. This is the Normizon playbook for how to do rental riots and street mobilizations and also to quote counter disinformation. 138 references to disinformation in Normis's 2025 playbook in 178 pages. Almost every page mentions the word disinformation. Normisen brags in here. This is in pillar 6 defeat disinformation. How does Norm Eisen say to do this? Social media has these downsides. The advent of disinformation. The advent like disinformation was invented in the year 2016. Like disinformation didn't exist in the stone age.
+
+[10:46] The European Commission 2022 guidelines highlight strategies for combating disinformation demonetizing. So he's doing the same going after the advertising revenue that he was doing in 2017. This is in 2025. And promoting media literacy and factchecking. This is the European Digital Censorship Act which is administered by the European Commission. And they note media literacy is their strategy for stopping the monetization of misinformation. It's right here. Media literacy. This is the normis in 2025 playbook that he published in Brookings.
+
+[11:17] The key role of social media companies prioritize digital media literacy. Remove material. Support government regulations to go after disinformation include weapons of mass deletion AI and of course ensure the proprietary access to algorithms with so-called researchers so that they can rig the algorithms. But the first thing is going after digital media literacy. Defeat disinformation. How to address the challenge? Social media companies should prioritize digital media literacy like Finland is teaching in schools.
+
+[11:48] Now you understand, by the way, remember Finland was ranked number one in media freedom. Do you guys remember from last stream the Freedom House report of media freedom and I noted that Finland has turned into a total censorship state. It got NATOized to counter disinformation. And I said, "Isn't that a perfect encapsulation of it?" And of course, Norm Eisen is saying, "Copy Finland. It's illiterate to read anything that challenges NATO." And he cites, for example, Meta partnered with US A to launch an initiative for 200 university students in Indonesia to promote digital literacy.
+
+[12:13] So, normies and bragging about US aid sponsoring digital literacy programs. Digital neiteracy to everyone. Schools, practitioners, social scientists, media, private sector, all to control the information space to get rid of Trump. [Music]

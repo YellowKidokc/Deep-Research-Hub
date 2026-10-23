@@ -1,0 +1,80 @@
+# Bickies or cookies?
+
+**Channel:** [[Answers in Genesis]] (`AIG`) · Chapter 285 of 1947 · Length 21m 13s · [[00 - Channel Summary]]
+**Video ID:** `ZWr-xq3C66A`
+**URL:** https://www.youtube.com/watch?v=ZWr-xq3C66A
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 06:56
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:01|Part 1 · 00:01]]
+- [[#Part 2 · 10:07|Part 2 · 10:07]]
+- [[#Part 3 · 20:42|Part 3 · 20:42]]
+
+---
+
+## Part 1 · 00:01
+
+[00:01] okay hi everyone guess where I am in fact you know just as we wait for the notifications to go out and I'm actually doing social distancing in a bakery that's what I'm doing this is the new the new term social distancing SD social distance social distancing yeah I guess maybe we should call a bakery distancing yeah around the table distance okay so alright we for done two of these it's a junior bacon cause yes I'm gonna you know ask people have a guess where I am alright what's the name of this bakery I see see how they go because this bakery is in Dry Ridge Kentucky yes it is and you're just
+
+[00:44] two exits from the I five miles five mile from the Ark Encounter and a lot of people stay in the hotels here they sure do and a lot of them visit this bakery well Cafe and Bakery well we're in the bakery part we're in the baby not in the cafe part right now which is open but closed it's open yeah where it's open the drive absorb dry screws open take out his open delivery and delivery actually you know my wife did today what'd she do she stopped at Dean's Cafe and Bakery she stopped there and got her hat and got me a oh yeah it is two on a hat there we are and got me a latte yep and was it
+
+[01:27] okay Oh excellent I love you I love your coffee and then course second to the arc no no equal to the arc but and then okay have a guess which don't actually go for me was my favorite donut from beans mmm maple maple doughnut that's my favorite it is all right so enough with all the introductions this is Richard hey-ho yep who owns beans Cafe and Bakery and his son Asha ashes daughter Sadie Asha isn't isn't a sure in the bible hashers your name in the Bible yes and what does it mean he doesn't know what it mean yeah sure actually Asher's job in the Bible was the was the king's baker yep and
+
+[02:19] you know what you know what Richard means Richard means like a king so thanks for being my baby Kings Bay right all right thanks well that is really great so you do a jr.
+
+[03:02] bacon course here yes for sure and on Thursday nights and you do it two different age groups yes I got to give the length of that at the end to go to beans Cafe and Bakery dot-com /jr Baker's yes and they can find out about those courses I want my granddaughter's to come to do these courses but today we're going to teach people because you know a lot of people at home parents might be crawling the walls yeah you know we taught them how to make bread in a bag we did and pizza dough in a bag you wouldn't believe the number of photographs that kids sent me yeah I sent me a ton there was some
+
+[03:10] t-rex's there was a rocket ship yeah it was a number of different I know he passed him on to you and it was exciting to see I got a lot more today actually that you haven't seen wonderful and so maybe they could even send photos in of what they cooked for this to us and we'll give them an address in the comments but it'll be advancement at Answers in Genesis tour because one of the one of the ladies in advancement is one of the ones that's looking after that for me okay great name is Carlotta so today Sadie what are we going to be cooking chocolate chip cookies chocolate I see okay I'm gonna
+
+[03:47] teach you something here you're gonna be cooking chocolate chip Vicky's you know Ricky is a Becky I'm Australian we don't have cookies we have big E's can you say piggies piggies piggies that's it okay so we're gonna do chocolate chip viki's today but thing is were in America I guess we were too cool cause cookies yeah we'll make them as bicky's yeah okay that's what we'll do okay oh do you guys I have no idea how to make chocolate chip cookies but this is party or jr.
+
+[04:25] baking course so get ready copy down the recipe as they go along and watch what they do and carriage you guys to do this have fun and and that'll be part of your homeschooling right now because most families are homeschooling they're actually they're all homeschooling that's right yeah all right that's great so where's the secret recipe on the back of the bag oh that's when the secret recipe is a little on the back of which bag chocolate chips semi-sweet so the recipe is right here in the corner on the back there we are and I thought it was a secret recipe handed down for millions of years
+
+[04:59] for many generations well these are not the one of the recipe that we use we we change it a little bit so we can have it slightly as they used to do the episode of a secret little secret beans recipe but we're doing this one today because it's easy okay easy to find it's on the back of everyone's good bag of chocolate chips you can buy cookies in five minutes okay go to it okay so we're gonna start off with a cup of butter softened Sadie's gonna do that for us Kappa I die so soften what does that mean we just put it in the microwave and melted it for a few minutes okay can you leave it on the
+
+[05:39] counter will it come be soft enough that way too you can okay so that's already softened so that's pre softened okay pretty softened but okay okay what's next we're gonna do 1/4 3/4 cup of sugar and brown sugar okay two kinds of three quarters of a cup and brown sugar that's interesting I wonder why use sugar and you use brown sugar what's the difference between white sugar and brown sugar Australia grew up in the northern tropics where they had sugar cane brew sugar cane yeah and when you went in to see the sugar cane being crushed well you know they would crush it and then you'd end up with
+
+[06:35] the brown sugar eventually and then it will be sent away to be refined into the white sugar but the brown sugar has a lot more molasses 17 very good okay what's it so when you put your brown sugar in you got to make sure you pack it down into your cup and then we're going to take it to the mixer and mix it okay so you bring her over to the mixer all right we'll all reorient I'm gonna keep my distance does this family does their thing okay so so what did you have to pack down the brown sugar because it requires more than the granulated sugar okay just to make sure you get a bigger cup yeah
+
+[07:25] okay that makes sense okay there's a hint for you all those watching here all right we're gonna use the paddle okay so use the paddle all right so put it on two and there we go it's sort of like like a little mini washing machine isn't it see I got a laugh at it at a Sadie yeah yeah so we mix it up brown sugar sugar but uh pre softened butter make it some Vicki's okay American cookies the interesting thing is in Australia if you say cookie everyone knows what it is cuz they used to American television and so on and actually a lot of American companies in Australia that sell cookies anyway but
+
+[08:35] does the packaging say cookies yeah some of them yeah but over here in America you say bicky's and people know what you're talking about no no idea oh they're going as a creaming okay good reaming and we gonna add a okay so Richard you you make your own cookies for the cafe yes we sure do so you do it on a much bigger scale right yep we make a very very large batch we probably would make a batch equal to oh how many cups of sugar did we use quarter of a cup we would probably make it about a hundred times larger than that okay so what are we adding in now one teaspoon of vanilla okay one
+
+[09:25] teaspoon of vanilla okay we're adding that in you know seriously at the Ark of the Creation Museum we also have zip lines yes well and gardens and so on where people can come and have fun because you want a family environment yes and you know I I like doing these for the kids because it's all part of living in this world and having fun and it is kids to be able to be trained to do this and for us as Christians to be able to help others at this time and so I think it's great yeah you see this first Richard the teacher teach our children so all right what's next we're going to leave that over
+
+## Part 2 · 10:07
+
+[10:07] there because now we're gonna weigh out our dry ingredients and then we're gonna do two and a quarter cups of all-purpose flour all right what's between scooping and how do you do it here in the bakery when you make a big batch do you scoop it by the cup no we use weight because it's more accurate that's right it's always the same you don't have to do the patting down right how's it going there Roger the Kings Baker he's working was working on this there we go so you teach all these kids and you jr.
+
+[11:01] baking course how to do this right yes I do have you graduated from the junior bakers yet I don't know I think you did you've done it a couple of times all right so now we got the flour so what is next we're gonna add one table one teaspoon of baking soda and 1 teaspoon of salt one teaspoon of baking soda 1/2 teaspoon of salt there we go see Ashley knows the one to use when teaspoon of salt okay and now one teaspoon of baking soda there we go and I have the feeling by the way for all those watching the venue I was coming and they probably got some ready out there in the oven but we'll find
+
+[11:45] out okay and so next we're gonna take this over and mix it into our creamed make sure we left that done okay so nobody mix that in okay so we do that next okay this looks pretty simple to me so it's like a waterfall that again we're gonna add it slowly and we're gonna mix it on the lowest speed on your mixer okay there we go so what was speed on that exact there we go just one until it mixes in and then we'll bump it up to two see isn't it great at this time and all these kids are at home and parents can put him in front of the part of the computer when it watch us watch watch how to make
+
+[12:47] couple things and it's like it's like it's like The Cooking Channel yep this is the Answers in Genesis and and and beans and homemade cooking champ yep there we go because my sister from Australia watched the last two and you know what she said oh did she she said you didn't make anything you just made watch them make it yeah that's true that's true I'm here to watch you make it alright what's the next one one and a half cups of chocolate chips hmm that looks like a lot of chocolate chips 1/2 cups of chocolate chips okay you guys with all the right the right tools for this I think we should
+
+[13:43] do this these are the extra chopped those are the extra chocolate chippies chips cookies oh the Kings whatever okay we're gonna dump those in and then just mix them in real quick the chocolate chips just need to be coded by the dough Oh so you don't sort of mix them up they just a little bit okay did you get that all right so there's technique as well as just the ingredients right so that was a lot of chips in the cookies okay then what are these two eggs sitting here do you use the eggs we did we did use the eggs we just grabbed extra we cracked them ahead of time oh that's already done so
+
+[14:58] already yep okay so how do we get this off we're gonna use our spatula okay and dip them off onto our sprayed parchment paper okay now a shot when you do these you're gonna shape them in a star shape of Australia right in the shape of the strong yeah so it looks a bit like Texas the other way around or something okay we'll just do round ones in Australia that's that island off the coast of New Zealand yeah New Zealanders would like to say that all right so now they spoon to me out hmm that looks like a lot of chocolate chips and then you just cook them right yeah yeah so you should pre-heat
+
+[16:08] your oven to 375 and then you're gonna bake them for nine minutes 375 in the oven for nine minutes very good so I got a question Richard why why do Americans like chocolate chip cookies you know it is none of the hood of a chocolate chip cookie chocolate layer yeah is the number one selling cookie that in our bakery and I I wouldn't be surprised if that was in most bakeries and in organized day somebody somehow try to hook people on chocolate chip cookies must've indoctrinate them and they're all brainwashed know is that sort of thing is that it like like I was you know a doctor made to eat
+
+[16:51] Vegemite from that right little kid kind of like pickles it's an acquired taste now I don't think you're going to get a hundred from here I think you've got some pretty good-sized ones they're very big okay so once you once you get them pumped out like that yep all right now what take them out to our oven that's preheated at 375 okay and I got a feeling you've already sort of done some of this ahead of time all right I'm gonna let you guys go out there oh I just saw actually do what I used to do you know I was like I saw that too and that was to take the extra off the beater and eat it all
+
+[17:40] right I'm gonna go out here to the bakery this is where they're making all the stuff actually beans bakery and cafe supply items for the Ark Encounter American desserts and some bread and I think cookies other sorts of things that's why we have such a great relationship it's a local business they have great lattes and great donuts and sandwiches here we go so putting them in the oven we're putting them in the oven they'll be for 9 minutes 9 minutes 375 degrees there we go and once you do that oh look what happened here's how they come out that nine minutes went well I realized very very
+
+[18:42] quickly yeah it did all right who's going to try one I want to see someone try one oh okay Ashley's gonna try one alright let's see what it's like oh that's nice yeah yeah I guess the head-nodding means they're pretty good is that right yeah they're pretty good excellent well there we are another junior Baker's course hey you know what if I keep going like this I'll graduate soon you will you will one more course so they'll be really something if I could not graduate now there's that's a big mixer that what's the big mojo yeah that's the biggest one we have so now we're gonna do another
+
+[19:25] program what are we doing next time next time we're gonna do donuts donuts okay so we're gonna show kids how to make a donut well we're going to show them how we make a dope all right it's a big deal it's a big deal so they just couldn't do it at home in the they could but it's not something that is typically done at home so we're gonna show them how to make a donut they're better off coming over to better off coming over and we will teach them if they come to the course okay so this is all part of the jr.
+
+[20:01] Baker course so Richard Hemet we show them the link where they can get the recipes okay and also find out more about the jr.
+
+## Part 3 · 20:42
+
+[20:42] baker course so we'll go and do that we've got it written on the wall there so if you want to get the recipe you can either get those Nestle's semi-sweet packets of chocolate chocolate chips or you can go here to beans Cafe and Bakery comm slash recipe and find out more about the junior Baker's course means Cafe and Bakery com / junior Baker's yes and if you want to visit beans when you come to the Ark Encounter or you're just driving on Interstate 75 and you're going through Dry Ridge you're right off the interstate just right near Toyota right and very easy to find areas if I yep and so
+
+[20:49] Richard we want to try to support you know local businesses and support people that we can and you know during this time we need to be supporting each other and helping each other so okay we'll learn about Donuts next time yes we were a what's for the next program it'll be three o'clock the next day yep and that doughnuts okay thank you right here all right

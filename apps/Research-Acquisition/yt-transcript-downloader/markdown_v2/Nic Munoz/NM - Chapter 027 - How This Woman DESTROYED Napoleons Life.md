@@ -1,0 +1,63 @@
+# How This Woman DESTROYED Napoleons Life
+
+**Channel:** [[Nic Munoz]] (`NM`) · Chapter 27 of 67 · Length 11m 02s · [[00 - Channel Summary]]
+**Video ID:** `8W0GDNEoXzY`
+**URL:** https://www.youtube.com/watch?v=8W0GDNEoXzY
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-06 03:54
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:03|Part 1 · 00:03]]
+- [[#Part 2 · 10:30|Part 2 · 10:30]]
+
+---
+
+## Part 1 · 00:03
+
+[00:03] everyone knows the story of Napoleon the man who marched through it Le crowned console of France and of course the man who took over Europe but it's kind of crazy that not many people have heard of this [Music] woman behind every great man there is a great woman and behind the downfall of every great man there is to a great woman the story of Napoleon and Josephine seems to be one that every men will go through at some point in their lives and I think it's important to learn from these archetypal narratives that will play out throughout the rest of time so this is a story of Josephine deoa
+
+[00:41] okay gentlemen this video is mostly for you guys however Ladies If you're looking towards greatness I see no reason why this can't apply for you as well everyone knows the saying behind a successful man is a strong woman and I think in almost all cases this holds true you see it countless times throughout history you see it with mitz amerck and Albert Einstein Ian and Walt Disney and even Michelle and morack Obama and you can even take it a step further and say that it doesn't even have to be from a romantic relationship for Nicola Tesla it was his mother who homeschooled him and inspired him
+
+[01:08] all these men would not be anywhere near where they are had they not had their woman beside them and to me that just shows how important the specific relationship is to your success in any Endeavor but just as a woman can make you great she can also destroy you which leads me to one of the weirdest most confusing but fascinating relationships of all of history Joseph and Napoleon Napoleon and Josephine met at a society ball in 1795 Napoleon was a general in the Army and Josephine was a mother of two but Napoleon immediately fell for her and they began to have an affair it's actually really
+
+[01:45] crazy but immediately they got to writing to each other and within a month they were already in Love Now falling in love this fast really does crazy things to you and we're going to start using these Napoleon said I wake full of you your image image and the memory of last night's intoxicating pleasure has left no rest to my senses sweet incomparable Josephine clearly what they had was intense the problem was that Josephine was kind of a nightmare from the start she was having tons of affairs with tons of politicians including Paul fris and Jean Nicola bar so she had a lot going on but
+
+[02:18] Napoleon at the time didn't and honestly you can kind of see that he was a little desperate and so he fell for Josephine it's kind of funny too Napoleon's entire family was shocked at his decision and they did not approve of their relationship at all they actually really really didn't like her and I think a lot of people would immediately see this as a red flag at this point Napoleon was a general but he hadn't really done all that much to really be known to the public he was just kind of a behind the scenes guy but it was really the year 1796 where Napoleon became Napoleon where his life
+
+[02:47] changed in January of this year he proposed and 2 months later they got married one week later he was sent out to fight for France but there was something different about him he had an edge to him a uniqueness to his War tactics and a desire for more Napoleon invented a system in which he would divide his army into groups called cores these cores were able to move faster and quicker than the other Army which would usually just spread their troops out and engage the core system had never really been used before and it was a big risk but it worked Napoleon stormed through Italy and became a
+
+[03:17] hero back in France a lot of historians actually think that a large part of why Napoleon had so much Drive was just to try and impress Josephine back in France and this is what leads me to the letters these letters show Napoleon and Josephine's story very clearly throughout the Italian campaign starting with these three from April to July of that same year oh I really don't want to read these there are many days when you don't write what do you do then no my darling I am not jealous but sometimes worried since I left you I've been constantly depressed my happiness is to be near you without
+
+[03:52] Josephine without the Assurance of her love what is left him upon Earth what can he do so Napoleon is clearly depressed about being apart from Josephine and at this point she is kind of already ruining him because while he is out at War she is literally in France hanging out with the upper class and shopping it was actually one of the things they argued about most because every time he would come back to France she would have huge amount of debt but it was about to get a whole lot worse for him in November of that year rumors begin to spread that Josephine was unfaithful and that she was
+
+[04:20] running around with one of his officers but Napoleon refuses to believe this in this letter he just gets more passionate and he says I don't love you anymore on the contrary I detest you you are a vile beastly soon I hope I will hold you in my arms then I will cover you with a million hot kisses burning like the equator now Josephine may be unfaithful but Napoleon is also oblivious to what is happening and this is kind of what love does to you it blinds you even if something is so so clear love can still blind you from it and I think it's so important to know this because it's so important to
+
+[04:57] know where our weaknesses arep was having success after success after success all throughout Europe but when it came to his own wife he couldn't even deal with what was actually happening he refused to deal with the idea that she was having an affair so I know relationships are pretty touchy but maybe just maybe if your friends and family really dislike the girl you're with maybe you should just try and look at it from their point of view because you might find something there and you might save yourself a ton of time and you might even save your Empire it took Napoleon 2 years to finally
+
+[05:27] accept it was only when Josephine's brother tells him straight up in 1798 and Napoleon is furious he was in Egypt at the time and in retaliation to the news he ended up taking Pauline bis for as his own mistress and she became known as Napoleon's Cleopatra and this is where things get kind of dicey Napoleon finally realizes that he can't trust Josephine and he is kind of in shatters at the same time while in Egypt the British completely destroyed the French navy which left the French army stuck in Egypt at which Napoleon wrote The Veil is torn it is very sad when one and the same heart is
+
+[06:01] torn by such conflicting feelings for one person I need to be alone I am tired of grandeur all of my feelings have now dried up I no longer care about my glory at 29 I have exhausted everything and hold up it actually gets even worse for him the British Navy actually intercepted this letter and published it in the London paper so he was kind of ridiculed for this and now everyone knew how he felt about Josephine in 1799 Napoleon returned to France and ordered for Josephine to be moved out of their malma Zone Josephine actually arrives at the house and when the guards don't allow her in she
+
+[06:33] pushes past them and runs to Napoleon's room where there are accounts of her breaking down crying for hours just begging for him to take her back and you know Napoleon being Napoleon takes her back but this is where their relationship completely changed Josephine would never take on another lover again and Napoleon pretty much could do whatever he wanted but there was still some kind of connection between the two the next few years went kind of well and they got crowned Emperor and Empress in 1804 and things things were good until the year 1806 in 1806 Napoleon has a child with one of his
+
+[07:04] Mistresses and this is really awkward because up until that point and this is really crazy Josephine literally gaslighted him into thinking that he was the reason that they couldn't have a child she told him things like I've already had two and you haven't had any to try and convince him that he was the problem so that he wouldn't divorce her because even though Napoleon kind of does what he wants now and he gets with all these Mistresses she's still living a good life she's still part of the Royal Family and this divorce would affect her very much so she lies to him she just makes him think
+
+[07:33] it's his fault when she very well knows that it's hers and if I haven't convinced you that she's crazy yet I really really don't know what will this girl is off her rockers until Napoleon realizes that the problem isn't him but it's her Napoleon writes to his brother Josephine is decidedly old as she cannot now have any children she is very melancholy about it and tiresome she fears divorce divorce or even worse it was a couple of years of this and in 1809 on November 30th Napoleon breaks the news to her and brings up divorce she obviously does not take it well but in 1810 they get divorced
+
+[08:08] and from the letters you can tell that both of them were kind of accepting of it Napoleon talking about his love for her and Josephine talking about her failure but both of them continued to stay on good terms at this point Napoleon maybe grew a little too big for his ego as he failed to invade Russia in 1814 and was exiled from France the last time that he would see Josephine that same year Josephine died of a cold and it was said that Napoleon didn't come out of his room while in exile for 2 days after Napoleon came back to France everyone just kind of accepted him back as king he was never
+
+[08:42] really Napoleon again and this is something that I find really interesting that I don't think a lot of people really talk about Napoleon was only Napoleon in the times when Josephine was in his life on his Conquest through Europe this time he didn't take any risks he didn't use the core system and he was quickly Deed by the British at the Battle of waterl he died in 1821 and it was said that his last words were laf France L Ted Dari Josephine so what can you take away from this I'm going to try and be sensitive here because this is kind of a touchy topic for a lot of people and there is going
+
+[09:21] to be generalizing involved but that's just sort of the world we live in guys there are going to be josephin in your life women who can absolutely destroy not just your mental health but leave marks on the Legacy that you leave behind women who will try to split your Empire there are so many biblical stories that talk about this time and time again but there will also be women that will build you up that will support you in everything that you do that will push you to be the best version of yourself and that will tell you the coldhearted truth of the world when you need to hear it this will
+
+[09:51] be one of the most important decisions that you will ever make in your life and even with weird topics like this one I I think it's still so valuable to learn from these stories of history from the successes and failures of the great people who lived before us I truly hope that you all end up finding your soulmates and I hope to see all of your Empires flourish so I will see you in the next [Music] one okay so you might be wondering how we actually know all this stuff about Josephine and Napoleon and it's actually thanks to these These are I don't know how to hold both of these at the same
+
+## Part 2 · 10:30
+
+[10:30] time okay these are all the letters that Josephine and Napoleon wrote to each other throughout their lifetimes or at least the ones that we still have and they're actually available online for everyone to read um I read through all of them they're kind of embarrassing but helps us get an accurate Insight on what their lives were actually like and how they actually felt about each other so it's really cool that we have that um yeah I really like history I really like making these videos let me know what other people you like or want to learn more about and yeah thank you guys for watching the
+
+[11:00] channel I really appreciate it

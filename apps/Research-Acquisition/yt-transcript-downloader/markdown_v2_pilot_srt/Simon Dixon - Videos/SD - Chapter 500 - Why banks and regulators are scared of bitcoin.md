@@ -1,0 +1,39 @@
+# Why banks and regulators are scared of bitcoin
+
+**Channel:** [[Simon Dixon - Videos]] (`SD`) · Chapter 500 of 556 · Length 7m 57s · [[00 - Channel Summary]]
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:09|Part 1 · 00:09]]
+
+---
+
+## Part 1 · 00:09
+
+[00:09] so it's important to understand what the fundamental differences between Bitcoin and banking are um and I like to break it into three main sections the first is when you deposit your money with a Traditional Bank um the bank actually owns that money so you may have heard of um bins in Cyprus where Banks confiscated people's deposits um that's because they own that money and they have the legal right to do that um with Bitcoin my money is stored on my phone on my iPad on my desktop it's actually stored in in a cold storage at a bank as well um so you actually own your own money and so that's a
+
+[00:46] fundamental difference the second difference is that with Bitcoin you spend your money as you wish with banking there's lots of complex transactions that are happening in the background where the banks are essentially spending your money um whether it goes through a fund manager or whether it goes through collateral for a mortgage or whatever it is there's a layers and layers of complexity where people don't know that their money is actually being spent um with Bitcoin it's a it's what's called a peer-to-peer Network so if I transfer money from my phone to your phone then there's no
+
+[01:18] intermediat in that process at all it's just my money to you and we own it if I own it and I transfer it to you then you earn it um the third thing that's different between Bitcoin and banking is the process by which money is actually created so with a bank many people don't understand the complexities of how money is created um when you when you borrow money from a bank it's actually new deposits that are created into existence and deposited in your bank the money didn't exist in the first place so banks have a license to create money essentially it's why we always have an over stimulation
+
+[01:52] of debt because um in order for money to exist you have to have someone borrowing that money into existence and essentially Banks make a lot of profit out of that process of creating money it's a very very lucrative business to be in with Bitcoin um Banks uh don't create money it's is anyone that wants to participate in this network that lends some of their computer power to the network that actually profits from the process of creating those Bitcoins in the first place and so the profits from money creation or Bitcoin creation are distributed amongst the people using that Network and it gets
+
+[02:24] a bit complicated CU what they're actually doing is they're not just spec ating on the network they're actually providing value because in the background when their computers are creating those coins they're actually verifying all the transactions and making the most secure payment Network there is out there every bank that I know of has a person employed specifically with the intention of investigating the opportunity that Bitcoin or its related Technologies produce so Bitcoin the technology behind it is something that many banks are interested in because uh it's a global neutral um way of
+
+[03:04] transferring any kind of value whether that's money or stocks or shares or anything um around the world to anyone that's connected to the internet and can participate in the network that's never existed before so for traditional financial institutions that's both a threat and an opportunity the the opportunities that Banks can gain from implementing the technology behind Bitcoin coin or working with Bitcoin is um they can for the first time offer transparency to their customers rather than relying upon a system where banks have to be honest to regulators and Regulators have to implement
+
+[03:43] systems and controls to make sure they are being honest and what time has proven is that humans have an incentive to be dishonest and that's what why we have these uh these systems and these problems in in banking what the opportunity of Bitcoin is for the first time they can prove to their clients that they're what they're doing with the money how the money is moving um they can actually Implement clearing systems whereby value can be transferred without actually having to rely upon some kind of internal Ledger um they can have access to to Global markets on a scale they've never seen before
+
+[04:18] um but the real opportunities are Financial inclusion so traditionally Banks um have only been able to deal with people that have meanss that have wealth um if they Embrace this type of Technology uh there's you know financial markets open up to the five billion OD people out there that don't have access to all the credit markets the banking system and everything and so the opportunities for anybody an entrepreneur um an individual that wants to use the network or a bank or a financial institution is that they can get involved in this um and offer Financial Services on a scale it's kind of
+
+[04:57] like imagine you know when when uh when Apple invented the App Store um what they essentially did is they opened up Apple's technology whereby anybody in the world an entrepreneur a financial institution anyone could create an application that could be sold on apples and used on people's phones um Bitcoin technology is the same we don't know what entrepreneurs and and businesses and financial institutions are going to create but Bitcoin invented programmable money and programmable money also translates into programmable financial services and programmable means that anyone in the world can
+
+[05:34] start coding or pay someone to code and create a solve a problem um traditionally we had to rely upon banks in a monopolistic environment to create all the Innovation because they had access to the system where you can clear money now the now the system to clear money is open for everyone to innovate equally Bitcoin is is like nothing we've ever seen before um it operates so differently from the last few hundred years of financial Innovation um that it's very scary for Regulators because um many of the traditional Rules by which they've regulated financial institutions don't actually apply to
+
+[06:18] bitcoin and blockchain um it does things very differently and it uh scares them from some of the ways of the world that they've traditionally understood so an example is that because every transaction is transparent and anyone can see every transaction um the security of the network relies on anonymity of the user because people don't want people to know that they're behind the transaction because it's public for people to see um traditional regulations rely upon financial institutions identifying their customers knowing their customers making sure they're not using that money for any kind of
+
+[06:57] elicit activity um so if you apply a traditional regulation which is attach identity to everybody um to uh a system where the security relies on anonymity you get this strange scenario where uh they can do you know anti-money laundering procedures but it will be at the expense of consumer protection because it makes the network more risky because it relies on anonymity so there's ways around that and there's lots of things you can do because this is the first trans Trans arent financial system that uh can work without many of the traditional regulations but it requires a lot of learning and
+
+[07:36] also you know two of the most jargon Rich environments in the world are finance and Technology when you put finance and Technology together you have a really jargon Rich geeky environment that's very hard for everyday people to understand and and also Regulators to understand

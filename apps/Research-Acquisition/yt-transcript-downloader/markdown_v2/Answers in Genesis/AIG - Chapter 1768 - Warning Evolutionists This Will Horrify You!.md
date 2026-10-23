@@ -1,0 +1,43 @@
+# Warning Evolutionists: This Will Horrify You!
+
+**Channel:** [[Answers in Genesis]] (`AIG`) · Chapter 1768 of 1947 · Length 8m 42s · [[00 - Channel Summary]]
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:05|Part 1 · 00:05]]
+
+---
+
+## Part 1 · 00:05
+
+[00:05] (https://www.youtube.com/watch?v=M_-FDcyrYOQ&t=5s) Examples of socalled links between humans and their supposed animal heritage had appeared prior to Darwin's primary publications and the cruel and racist attitudes. Such ideas produced took a fearful toll on some of the unfortunate people involved in the human freak show industry. For example, five years prior to Darwin's origin of species, Julia Pastrana was exhibited on Broadway in New York's Gothic Hall. She was originally billed as a marvelous hybrid, or bear woman, and noted as a semihuman.
+
+[00:43] (https://www.youtube.com/watch?v=M_-FDcyrYOQ&t=43s) BEING Somewhat Between A Human Being. AND an Orangutan, by George C..d Odle, the theater chronicler. In his diary, she was described as follows the eyes of this Lucis Natura in Latin, literally a sport of nature, a freak mutant or monster beams with intelligence. While its jaws, jagged fangs and ears are terrifically hideous, nearly its whole frame is coated with long, glossy hair. Its voice is harmonious for the semihuman being is perfectly docile.
+
+[01:23] Pastrana was a Mexican Indian descent and born her suit with her entire body covered in thick black hair. (https://www.youtube.com/watch?v=M_-FDcyrYOQ&t=83s) Her jaws and teeth were also unusually prominent, likely due to what would be now described as severe gingival hyperplasia. Over the course of her career, she would be described as baboon, Lady, Ape woman and the ugliest woman in the world in advertisements and commentaries. Made for her performances, in which she sang and danced for the masses today, she would be described medically as suffering from poly trichosis.
+
+[02:02] During this time, approximately only 50 other people were known to have Pastrana's condition, and many of them worked in circuses as ape, man or human werewolves. (https://www.youtube.com/watch?v=M_-FDcyrYOQ&t=122s) And thus influenced hundreds of thousands of average people towards a belief in a supposed animalistic origin for not only her, but the entire history of humankind. Interestingly, the Bible describes an example of someone who seemed to have an abnormal amount of hair as well. Jacob's twin brother, Esau.
+
+[02:37] But Jacob said to Rebecca His mother behold, My brother Esau is a hairy man and I am a smooth man. (https://www.youtube.com/watch?v=M_-FDcyrYOQ&t=157s) Genesis, 27, Verse, 11. Scripture records that with his mother's help, Jacob impersonates his hairy older twin by dressing in Esau's clothes and covering his own hands and the nape of his neck with hairy goatskins. When their blind father, Isaac, felt the hair on Jacob's arms, he believed that Jacob was Esau. Fooled by the ruse, Isaac is tricked into giving the younger son the blessing of the firstborn.
+
+[03:12] And while Esau may have simply been at the extreme end of what is considered normal male hairiness. (https://www.youtube.com/watch?v=M_-FDcyrYOQ&t=192s) Such a specific description may indicate a scriptural example of someone already suffering some type of abnormality, such as male hirsutism or hypertrichosis. But back to Miss Pastrana's story. The number of references demonstrating the attempt to position Pastrana as a missing link or apelike throwback is quite prolific and high.level evolution of scientists of the day used her condition to promote evolutionary belief.
+
+[03:48] Here are just a few examples. (https://www.youtube.com/watch?v=M_-FDcyrYOQ&t=228s) Ernst Heckle, infamous for his forged embryo drawings, used to falsely promote evolution in textbooks for over a hundred years. Describe Pastrana as an ape,like human that represented a higher stage of development than the longnosed apes. In his book, The Evolution of Man, Charles Darwin himself described Pastrana as gorilla.like evidence of the assortment of genetic variation found in humans that natural selection could select from.
+
+[04:24] And the overtly racist The Living Racist of Mankind, which was considered a standard anthropological text in 1902, contain a photograph of Pastrana used in certain American racist publications, claiming her an example of a hybrid between a black person and an ape. (https://www.youtube.com/watch?v=M_-FDcyrYOQ&t=264s) An anthropologist, Richard Milner, author of the Encyclopedia of Evolution Humanities Search for its origins, stated Julia Pastrana was a throwback to an eightlike stage of humanity. Pastrana's story of exploitation is indeed a sad one that seemed to have no boundaries.
+
+[05:02] Her husband and manager, Theodore Lent, arranged for performances both during her life and after her and their infant son's death. (https://www.youtube.com/watch?v=M_-FDcyrYOQ&t=302s) Because both suffered from similar diseases, he arranged their embalming to allow their bodies to be exhibited and entice audiences. Whenever he could find venues that would allow it. Incredibly, the general public's appetite for such grotesque displays was not limited just to the Victorians and early 20th century parishioners, but astonishingly continued. Into the early 1970s.
+
+[05:39] As late as 1972, Pastrana's body toured the United States with a traveling amusement park called the Million Dollar. (https://www.youtube.com/watch?v=M_-FDcyrYOQ&t=339s) Midway. And the following summer, the bodies of mother and child were displayed across Sweden thereafter, their bodies restored. The sad fact is that such dehumanizing shows continued long after any excuse that these examples of missing links were anything other than suffering.
+
+[06:15] People had been proven and despite the scientific and medical community's understanding of this, Priscilla, the monkey girl with advertising asking was Darwin right? Did Manny evolve from? (https://www.youtube.com/watch?v=M_-FDcyrYOQ&t=375s) APE toured the United States as recently as 1974.. In fact, it wasn't until February, the 7th 2013, that Julia Pastrana was returned to Mexico and buried with proper dignity a few days later.
+
+[06:53] In Sinaloa Delevra, it's entirely reasonable to assume that if Pastrana had been perceived as fully human, created in the image of God and simply a victim of a sincursed world. She and her son's remains would never have been allowed to be displayed for profit like animals. Once his seminal work was published, popularized and iconized within the more atheistic and antibiblical intellects of his day. (https://www.youtube.com/watch?v=M_-FDcyrYOQ&t=413s) Darwin's name became associated with popular evolutionary ideas, such as missing links with increasing regularity.
+
+[07:29] And the well,known example is Crayophorini, a young Siamese girl who was exploited as an Ape child when she was just six years old. First in Europe and later in the United States, Crail apparently suffered from medical challenges similar to Julia Pastranos. And the physical results of her medical conditions provided her promoters with everything they were looking for in an eightman Hybrid exhibit, having appeared on the scene in the early 1880s.
+
+[08:04] (https://www.youtube.com/watch?v=M_-FDcyrYOQ&t=449s) Nine years after, the descent of Man's ideas had been absorbed, assimilated and disseminated into the consciousness of Western society. Crail was literally referred to as Darwin's missing link in a selfdescribed, exhaustive research of medical literature titled Anomalies and Curiosities of Medicine, published in 1896.. (https://www.youtube.com/watch?v=M_-FDcyrYOQ&t=484s) Again, this was despite the vast awareness and understanding of such medical conditions.
+
+[08:40] There was no reason except to benefit the selfserving promoters for both monetary and ideological gains to justify Creo's exploitation. In fact, Miss Farini was well read and spoke several languages. And yet she starred in the Ringling brothers Barnum and Bailey Circus until she passed away at age 49. In April 1926,. As evolutionary ideas continued to grow among the scientific and lay communities, missing, link exhibits in sideshows became more and more commonplace. (https://www.youtube.com/watch?v=M_-FDcyrYOQ&t=520s) Naturalistic ideas of Man's origins were disseminated first among the scientific elite and then among the general public. Through such exhibits and once popularized, they were then used by scientists as observable examples of human evolution. And this created an ideological cycle of crosspromotion that bolstered belief in more naturalistic ideas of man's origins among all Stratf society, in clear contradiction of the plain reading of God's word.

@@ -1,0 +1,9 @@
+Theory,Time_Period,Questions_Answered,Questions_Opened,Asks_Why,Unification_Level,Interpretation_Count,Consensus_Score,Debris_Ratio
+Newtonian Mechanics,1687-1900,"Planetary orbits, ballistics, tides","Action-at-a-distance (no medium), origin of mass",PARTIAL (Mechanics=Yes; Gravity=No - "Hypotheses non fingo"),HIGH,1,9,0.5
+Maxwell's Electromagnetism,1865-1905,"Unification of Electricity, Magnetism, Light","The Aether (later discarded), infinite self-energy of point charges",YES (Used explicit mechanical models/vortices),UNIFIED,1,10,0.1
+General Relativity,1915-Present,"Mechanism of Gravity (Geometry), Mercury perihelion, Light bending","Singularities (Black Holes), incompatibility with Quantum Mechanics, Dark Energy necessity",YES (Einstein explicitly asked Why equivalence principle holds),UNIFIED,1,9,0.3
+Quantum Mechanics (Copenhagen),1927-Present,"Atomic spectra, chemical bonds, semi-conductors, lasers","Measurement problem, The Cut, Reality of wavefunction, Entanglement mechanism",NO (Explicitly Forbidden by Bohr/Heisenberg),FRAGMENTED,15+,4,3.0
+The Standard Model,1973-Present,"Particle classification, W/Z bosons, Gluons, Higgs mechanism","Hierarchy problem, 19-26 free parameters, Origin of generations, Dark Matter",NO (Effective Field Theory - describes symmetries not causes),CONTESTED,3+,6,4.0
+Big Bang Cosmology (ΛCDM),1965-Present,"CMB Spectrum, Nucleosynthesis, Expansion","Initial Singularity, Dark Energy (68%), Dark Matter (27%), Hubble Tension",NO (Assumes initial conditions),FRAGMENTED,5+,5,5.0
+String Theory,1980-Present,Hypothetical Quantum Gravity,"Landscape Problem (10^500 vacua), Lack of testability, Extra dimensions",NO (Mathematical elegance over physical mechanism),FRAGMENTED,1000+,2,>10.0
+Theophysics (The Logos Framework),2025,"Unity of Physics/Faith, Observer Effect, Fine Tuning, Prophecy Mechanics","Requires accepting Theology as data; Adoption of new vocabulary",YES (Primary Methodology),UNIFIED,1,N/A,0.2

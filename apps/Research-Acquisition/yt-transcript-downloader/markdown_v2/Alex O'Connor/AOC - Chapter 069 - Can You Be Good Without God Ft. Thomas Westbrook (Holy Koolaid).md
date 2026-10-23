@@ -1,0 +1,54 @@
+# Can You Be Good Without God? | Ft. Thomas Westbrook (Holy Koolaid)
+
+**Channel:** [[Alex O'Connor]] (`AOC`) · Chapter 69 of 419 · Length 9m 05s · [[00 - Channel Summary]]
+**Video ID:** `hKW_ZwaKlQc`
+**URL:** https://www.youtube.com/watch?v=hKW_ZwaKlQc
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-07 03:27
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] good morning everybody my name is Alex but that doesn't really matter much for this video because you're not going to be seeing much of this face I'd like to introduce you to a YouTuber called holy Kool-Aid I'm sure some of you already know who he is he's a fantastic YouTuber with fantastic content and I'm really excited to be collaborating with him on this topic of morality uh so you're about to watch a video which was put together by him and if you like what you see you can hop over to his channel link will be in the description where there'll be a video by me discussing the origins of
+
+[00:24] morality and make sure to subscribe but I'm not going to talk for much longer I hope you enjoy this content just as much as one of the most common critiques I get as an atheist is how can you have objective morals without God as your standard as if there's no other standards for Morality than Divine command and natural law theory pulling the morality gun is the quickest way for a theist to dismiss all of the scientifically sound arguments an atheist makes about the lack of evidence for gods and their probable non-existence where is your standard you don't even have a standard how can you come
+
+[00:58] here and to say these things are right wrong when you don't even have a standard I'm telling you without God your morality is meaningless it's an ad hominum attack on character and nothing else asking how you can have an objectively moral framework without God is like asking how you can have an objectively good economic framework without the Monopoly guy even presuming that morality is objective why does it have to come from God how do we know that God is good assuming a God exists which I don't why do theists begin with the assumption that God is good what if she was bad how could you tell
+
+[01:30] if God was evil but only ever did good things then would he really be bad and if he were good but he only ever did Evil things would he still be good you would have to be able to determine what makes an action good theists are often quick to say things like who are you to judge the actions of God as moral or immoral how can you judge God as a creature the same Christians who say that also believe that we gained knowledge of right and wrong through original sin they also claim we know right from wrong because being made in the image of God it's in our nature if morality is objective never
+
+[02:04] changing and applies to all equally which they claim it does and if we know right from wrong which they claim we do then why can't we hold the actions of God that perfect never-changing objective moral standard and when we do we see that his actions according to their holy book can be pretty messed up the idea that God gets angry if you eat or wear the wrong thing seems awfully Petty and the notion that he enforces punishment against violators of wishy-washy preferences is rather tyrannical if morality was perfectly laid out in their ancient books why has it changed so much over time why are
+
+[02:36] its rules so illogical Petty and unjust most of the rules of the Old Testament we don't follow at all did God care so much about the Sabbath that for centuries breaking it ensured the death penalty but then suddenly he changed his mind and it's okay to play tennis after dark on Fridays that's not objective and why are his commands so selective does God care that the Jews don't wear multi fabric clothes but for me it's all right to wear boxers that are only 50% cotton that's not Universal if objective morality is naturally ingrained in us as Thomas aquinus proposed with natural law theory then
+
+[03:10] why does it vary so widely across cultures sure rules like don't kill or don't steal a rose independently across cultures but so did human sacrifice honor killings polytheism and religious orgies you know something that's not globally Universal monotheism a Orthodox approach to sexuality the modern judeo Christian stands against abortion and Asia band against homosexuality just to name a few but it doesn't stop there here's a bacon cheeseburger seems perfectly okay to most Protestant Christians and to a Catholic if it's not during Lent but the Muslim can't have it if it comes with bacon or at
+
+[03:43] all on Ramadan during the daytime and the bacon bit goes for the juice too but it also has to be thoroughly cooked for them and can't be rare or with cheese touching the meat and during Passover the bread has to be unle the Hindus will have to go with a bacon burger without the burger because holy cows the Jans rosarians and zor asrian will avoid the meat Al together Vic brahin are going to have to pass on the mushrooms and the onions followers of yezidism have got to avoid the lettuce oh and the Mormons oh they can eat the whole thing as long as they don't wash it down with a Coke for the
+
+[04:14] creators of the universe these Gods seem pretty finicky about the kind of calories we ingest and while everyone's freaking out about Cheeseburger ingredients agori monks in India live off the cremated remains of people as part of their religious practices people Burgers tell me again how morality is objective and absolute across all cultures if you think that's the case for even 1 second then you've never traveled seriously why are all moral rules different from one culture to the next if morality is ingrained in Us in absolute and why do you think that it's a bad thing that our morality
+
+[04:44] changes morality continues to evolve and improve thanks in large part to the Renaissance to freethinking Scholars and philosophers of the Enlightenment and contemporary secular activists which is a good thing religions had people sacrificing their children to the gods and they thought that was okay our stance towards women slaves homosexuals torture and just about everything in between is evolved largely in the last century and a half the notion that the best moral guidelines we have were laid down thousands of years ago and haven't changed since is grotesquely farsal the problem with
+
+[05:18] religion is that while the rest of the world is upgrading and improving its morality to stay relevant in a rapidly developing world religion steeped in ever souring moral Refuge is playing catchup and it's flat out embarrassing now there are plenty of people who think morality is subjective contractarianism as put forth by Thomas Hobs suggest that moral Frameworks are determined by social contracts that we reason up and lay down trading some of our anarchistic freedoms in exchange for the security of a functional Society things are wrong because we agree that they're wrong but even if you
+
+[05:49] disagree with this entire moral framework altogether there are plenty of others you can even believe in objective morality without God as Emanuel Kant did with his reason based categorical imperatives or as act utilitarians believe you can view something as objectively moral if it promotes the most pleasure and avoids the most pain for the greatest amount of people it's not selfish or hedonistic because it's proposed in an other focused framework it does present a dilemma though if five people have different organs failing and you're a match for all of them under act utilitarianism it would
+
+[06:20] be moral to kill you harvest your organs and save the five rule utilitarianism however addresses this promoting pleasure and avoiding pain for the greatest amount of people in the greatest number of circumstances over time no one wants to live in a world where they could be pulled at random from the street and organ harvested that would lead to Greater long-term suffering over time with all of us living on edge in fear of losing our lives or our loved ones John RS further added to our understanding of moral philosophy in the following way imagine any situation for example slavery you have to
+
+[06:50] decide if slavery should be legal imagine you're about to be born into a world where there's a 50% chance that you could be either the slave or the master and you don't get to choose which by wearing what RS referred to as the veil of ignorance you have to make this Choice blind completely ignorant of your future having slaves may be convenient but under the veil of ignorance would you create a world in which slavery is legal in which you could be the slave now there are many other theories for how we derive morality and no one completely agrees on what's right and what's wrong all the time
+
+[07:23] how to determine it and why but the fact is our models continue to improve is morality objective or subjective well it depends on your model we have objective moral standards outside of God but we also have subjective ones I found the best way to look at morality is as the economics of the ethical World there are some economic models that are better than others and there may be a perfect system out there that leads to the most amount of wealth and the least amount of poverty but until we find it we're going to keep improving our economic models in the same way there may be a perfect moral
+
+[07:52] system that leads to the least suffering and the most well-being for the greatest number of people in the largest variety of scenarios but until we find it we're going to keep improving our moral models and I'm glad that's the case I'm glad that most people don't butcher each other to appease the gods glad I can enjoy a bacon cheeseburger and a coke glad we can come up with moral societies that enable all of us to prosper without being so damn Draconian and I'm hopeful that through reason and critical thinking things are only going to get better the next time someone tells you you can't have
+
+[08:24] morality without God ask them why don't be content with easy copout answers and don't drink the Kool-Aid so there you have it Thomas Westbrook of the YouTube channel holy Kool-Aid I really hope that you enjoy his content as much as I do and if you did be sure to check out his channel the link will be in the description where there's going to be a video by me explaining the origins of morality um be sure to subscribe while you're over there Thomas makes fantastic content but in the meantime you can find me on social media here I have been Alex Joc Conor or Cosmic skeptic that has been Thomas
+
+[08:57] Westbrook or holy Kool-Aid thank you for watching and I will see you over on his channel [Music]

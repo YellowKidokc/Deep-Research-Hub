@@ -1,0 +1,63 @@
+# Purpose In Leadership: 7 steps to virtual success
+
+**Channel:** [[Run The Play Show with Justin Owens]] (`RTPSWJO`) · Chapter 76 of 99 · Length 10m 58s · [[00 - Channel Summary]]
+**Video ID:** `chB5QSm9ekw`
+**URL:** https://www.youtube.com/watch?v=chB5QSm9ekw
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** direct
+**Captured:** 2026-10-11 23:58
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:04|Part 2 · 10:04]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] you know some people trust you but they trust you to be late all the time so some people trust you but they trust you to not always do what you say you're gonna do some people trust you they're like oh he said he's he's 15 minutes away oh he's really dirty they trust you to not hold your word they trust you to not be true and I'm telling you right there if you're building a business people need to trust you to be able to stand on what you say are you ready we're gonna run [Music] that's what the Journey's about yeah what's going on everybody this is Justin Owens I'm your host this is The
+
+[00:49] Running Place show where I help break down the top plays of success from Top leaders entrepreneurs and personalities by sharing gems from their personal Playbook and today we're in my playbook because we're talking about how to lead and manage teams effectively in a remote or virtual setting because it requires a different approach than just a traditional office setting like you know right now since covert the world is changing now in my opinion this is like a you know it's a prediction I think we got to be careful but I do believe that cuts are coming in the economy and I do believe that
+
+[01:23] listen as as as uh people in the workplace uh the ones that are virtual probably have a higher chance to get cut right now this is just the thought because you know companies are trying to figure out how to cut costs and what I want you to do is be one be prepared in this market of like okay if I'm going to be virtual how can I be more effective I'm going to be a virtual leader how can I be effective to show people that I can get the maximum amount of output from the people that I'm managing from the people that I'm leading okay because things have changed like it's not like like in a virtual
+
+[01:54] world you can't just walk by somebody's office like I know people that work virtually and they just got the laptop open and they're not really doing anything but they're sticking their job done so so how do we set up an environment where's great morale where people are doing well and people feel great about what they're doing but also the results of this so number one is you gotta establish clear expectations and goals I believe the expectations are probably one of the most important things in all of business in fact in all of relationships you've got to clearly communicate your expectations
+
+[02:24] for performance on the front end leaders from the beginning because sometimes we can let you know uh uh the frustrations of the irritations of how people handle things like from when they get on Zoom calls the the the how they're supposed to handle Zoom calls like if you want people on the camera and on time and things like that like you have to act like yo this is still a virtual office but it's still a business we still have to show up on time you still have to be presentable we still have to be able to collaborate you still have to be you still have to put in your input you can't turn off
+
+[02:56] your camera turn off your camera in today's world is like closing your eyes in the meeting we don't know if you're there it's like dozing off in the presentation when you got the CEO and the owners in place no you got to be locked in so make sure everyone's aware of their responsibilities but also the goals they have when they're working towards uh things they want to come to the business number two which I think is really important especially in today's world is Foster opening communication you have to create an environment where people are encouraged to be open and honest but frequent
+
+[03:26] communication between team members and between team members and their leaders this is very important a lot of times people don't want honest feedback but you know what this does it helps build trust and it makes sure that people are felt heard and it makes sure that everybody's on the same page we talk about it all the time most organizations fall apart from the inside how do you fix this where you start preparing ahead of time don't wait for a disaster strike to go try to build relationships don't wait for things to start falling apart to go start trying to connect with people no start
+
+[03:58] connecting with people so that if there's a breakdown in relationships you can catch it early you know what I'm saying like when you got friends and you're not y'all don't talk to each other the same way or you text a little bit different you know how you catch that because you communicate all the time there's friends when I can tell the way they sometimes they shirt with you sometimes they don't respond as fast sometimes they're real dry in their response but you know how you can pick up on the change of energy because there's constant communication well virtually it's even more important
+
+[04:26] because I may not see how you shrugging me off I can't see how you side on me but you may be doing it virtually how many of us have done that talk to somebody on the phone hey yeah yeah okay and we're rolling our eyes the whole time right you can't see that virtually so you got to make sure you're having that that communication and it's open and it's honest and then as a leader you got to make sure that you're receiving what's being given number three in this virtual world today is learning how to utilize technology to your advantage leveraging technology now don't let it don't let it use you
+
+[04:55] you should use technology but leverage it like there's some people right now even with AI there oh AI is going to be the end of the world is going to be the end of jobs no you know it's gonna be the end of jobs somebody with AI set combining the two that's just gonna take your job it's not just AI it's gonna be somebody that knows how to use it so you got to start learning how to embrace it like what is it with humans well we just naturally just always fight oh social media oh this is this is gonna be into things and the internet is going to just tear things down and I don't know I mean maybe
+
+[05:28] maybe it did kind of tear stuff down a little bit I don't know but it's definitely made improvements listen there's some places I wouldn't get to on time without GPS there's some things that I wouldn't have if I didn't leverage technology there's some companies that wouldn't be around today if they didn't look at what was already being built and say okay how can we build on top of it so tools like what tools like video conferencing project management software instant messaging those can keep everyone on track and working together okay number four prioritize inclusiveness make sure that
+
+[06:00] everyone on the team feels included and valued regardless of where they're located like sometimes we make things very convenient for one person or very convenient for you know a certain individual or certain group of people but you want to encourage participation like you know like what we've done in some businesses like okay listen we still gonna do team meetups but it's not always in Atlanta where it's convenient for Justin maybe it's in a place where it's inconvenient for the leader or maybe it's convenient inconvenient for you know somebody else like sometimes you might have to put it in
+
+[06:28] a place where somebody else can get to because now listen are we thinking about do people have kids are there kids in school do they have parents or somebody that's sick that they got to take care of that they can't get away and go to a whole another state so so encourage participation from the team members and actively seek out their opinions and suggestions actively seek out you heard that actively see God see sometimes as Leaders we say oh they didn't come to me no no actively seek Out means I go to you and I seek out feedback I go to you and I seek out uh uh issues I go to you and I seek
+
+[06:59] out solutions to see what we can do to make sure that we are on the same page number five is building trust trust is man it's so important to build uh any business or any relationship but specifically remote or virtual teams because listen you the transparency is going to be big accountability is Big collaboration is big but guess what what makes people start working together more and more and more is trust like okay I trust that you're going to do this why I can't see you every day so I gotta trust you right how do you build trust man you start by doing what you say you're going to do you
+
+[07:33] start hiring people based on the right criteria you're looking at the intangibles but you can but the intangibles always show up the intentions will show up on people's resumes the intention would show up when people's uh uh actions the things they say they're gonna do so you got to start saying okay am I a trustworthy person if I say I'm going to do something something like I'm getting on this call at this time do I consistently show up but am I consistently late you know some people trust you but they trust you to be late all the time so some people trust you but they trust you to not
+
+[08:02] always do what you say you're gonna do some people trust you but like oh he said he's he's 15 minutes away oh he's really dirty they trust you to not hold your word they trust you to not be true and I'm telling you right there if you're building a business people need to trust you to be able to stand on what you say okay number six Provide support and resources you gotta make sure your team has the resources and support they need to be able to succeed including access to the tools and Technologies they need to do their job if you if you're asking your team for feedback if you're asking your
+
+[08:34] team for what they think about stuff and they tell you what they need you have to be in a position where you give it to them right like we like sometimes we ask for feedback but we don't really want feedback we just want people to do what we want to do that's called faking people that makes people not trust you they're like because then what starts happening people start saying man don't even waste your time talking to him or her because all they're going to do is spin it and make you do what they want you do at the beginning anyway what that starts doing is guess what it starts breaking down
+
+[09:01] communication it starts breaking down people opening up it starts breaking down people telling you how they feeling what they think about stuff okay number seven adapt to changing needs remote and virtual work is constantly changing and so you got to be flexible and open and change um evaluate your approach see what's working are people still hearing you are people still getting what they need and make adjustments like so that people could be effective and get things done I know some companies they've changed we're not hello we're virtual most times but hey look one sweet somebody gotta come
+
+[09:31] we gotta come to the office twice what you got to come into office but guess what if you're on the other side of that you got to still be uh uh uh uh adapting right um there's there's leadership that that's required with us and it's a combination of clear communication technology and to be supportive and inclusive by just focus on these areas that that we talked about here guys so listen yep the world is changing yep things are getting better yep companies are trying to find ways to save money and save on costs and things of that nature but listen if you focus on these areas as a leader
+
+## Part 2 · 10:04
+
+[10:04] whether it's virtual matter of fact even in person these are things that can help you to have a team that is successful productive whether it's remote or virtual or in your face so listen we just gave you plays to help your team get better to better help your business get stronger and better in this virtual environment don't run it what's going on listen make me make sure you guys go to run the playstore.com get your official run to play gear we talk about shirts socks jackets for everybody that's running to play all across the world are you ready we're going to run duh yeah [Music] but
+
+[10:50] believing that your blessing is near do you know it is [Music]

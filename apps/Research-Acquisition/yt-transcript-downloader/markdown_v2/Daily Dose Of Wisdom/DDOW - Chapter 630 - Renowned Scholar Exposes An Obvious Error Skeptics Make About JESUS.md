@@ -1,0 +1,79 @@
+# Renowned Scholar Exposes An Obvious Error Skeptics Make About JESUS
+
+**Channel:** [[Daily Dose Of Wisdom]] (`DDOW`) · Chapter 630 of 916 · Length 16m 33s · [[00 - Channel Summary]]
+**Video ID:** `QfHOZJ29z_s`
+**URL:** https://www.youtube.com/watch?v=QfHOZJ29z_s
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 04:52
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:28|Part 2 · 10:28]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] When you lay out the sources chronologically, over time, Jesus starts changing the sorts of things that he says. Guys like man just don't have a clue how the deity of Christ permeates through the whole New Testament. They just have done a sloppy reading of the text. If Jesus did go around calling himself a divine being, um, you know, if that really happened, as John says, John says it happened. Uh, and it's it's the major teaching of Jesus in John. If that's what happened, why isn't it in marker Q?
+
+[00:35] Is it is it that they didn't think it was important to report that part of Jesus teachings or a more plausible explanation for most people, for most critical scholars, a more plausible explanation is that over time the Christians understanding of Jesus changed and they started seeing him as less of just a human messiah and more as some kind of divine being. Do you have anything that you want to say about that that sort of developmental view idea uh where history somewhere along the way kind of turned into mythology?
+
+[01:03] One of the things that man does is he says we just don't see this highristologology until very late in the New Testament, John's gospel. Uh but he's making assumptions that are just so dead wrong about some of these other books. For example, Mark's gospel, which is the earliest gospel we have. Some date it uh between 65 and 70. I actually think it's dated a little bit earlier. And I'm basing it on uh the belief that the book of Acts is the the clearest document from which we can uh use as an anchor to date other books. We we know some of the dates in Acts.
+
+[01:44] And when Luke writes his gospel, he's basing it on Mark uh to a large degree. So it's called Mark and Priority. Mark's gospel starts out by speaking of of Jesus in the very first sentence, the beginning of the gospel of Jesus Christ, the son of God. And it culminates with the centurion's confession in Mark 15:39. this man was truly God's son. Son of God, God's son. There's a high christologology in Mark. And Luke does the same thing, but he finishes his highristologology in the book of Acts.
+
+[02:30] And Matthew starts out Matthew 1:23, the angel tells Joseph, "You will call him Emmanuel, which means God with us." At the end of Matthew, Jesus claims, "Heaven and earth, all authority in heaven and earth has been given to me." Sound familiar? Sounds like what Paul wrote in Philippians 2. And then he says, "And behold, I am with you always." Matthew 1:23, Emanuel, God is with you. I am with you always. What are we supposed to conclude from that? You can't come away with saying these books don't affirm the deity of Christ. It's everywhere in the New Testament.
+
+[03:02] And the best defense of this by far that man has not read is by Rob Bowman and Ed Kamashvski the incarnate Christ and his critics. And the second best defense which is a little bit easier to follow but uh uh it's about half the length. It's only about 600 pages is putting Jesus in his place written about 18 years ago I think by Rob Bowman and Ed Kamasheski. The incarnate Christ and its critics that came out just last year is certainly the best defense of the deity of Christ in the 21st century and perhaps in all of church history.
+
+[03:43] It's an amazing work that guys like man just don't have a clue how the deity of Christ permeates through the whole New Testament. They just have done a sloppy reading of the text. Yeah, it's interesting because I I first came across the claim that Jesus uh nowhere claims to be God from Muslim sources because that's one of their ideas. I don't know if you know David Wood or not, but I like the way he puts it. He says that Oh, yeah. Great guy. Great guy. Yeah.
+
+[04:15] They say that or he says that they use the exact words criterion and he kind of does a cool job of exposing well if if the requirement to believe in the divinity of Jesus is for Jesus to have said it is I Jesus and I am God in those exact words then if that's the standard then you would have to have somewhere saying I I am Jesus and I am not God in order to make the alternative case which is I think a fair point.
+
+[04:43] Um, and and so it's but but a lot of the stuff that you're talking about I also think is so interesting because it it all ties into the Jewish and the and the Greek the Greco Roman uh mentalities and what would have meant the most to them resonated the most to them what would have been the aha moments that they would have gotten through all of the references that are made and things like that. Uh, at least that's what what seems to stand out to me, I think, of the um I I I'm totally open to hear anything that you would want to add to that.
+
+[05:11] But do you let me let me connect that idea to uh do you have any thoughts about or is there any scholarship that points to um for the person who would say, "Yeah, I can kind of see that he he does heal the person." And then say, "Well, do you prefer your sins are forgiven?" And he does say before Abraham was, I am. And he does walk on water. And he does uh you know, but he doesn't really quite come out and say it that that he's God. Uh what would you say to that person? I'd say that is accurate. He doesn't quite come out and say that he's God except in one very very clear place.
+
+[05:56] Have you ever left your house without locking the front door? Probably yes. Not the smartest move, but I think we've all been there. It's basically what you're doing when you browse the internet without protecting your personal data. Let me explain. Here's the deal for those that don't know. Data brokers are constantly harvesting your private information. Things like your full name, your email address, your home address, even sensitive stuff like your health or location data are now being sold, all without your consent or permission.
+
+[06:23] I honestly did not even realize this was a thing until I experienced it firsthand, and I did not like it. That's when I started looking for a solution, and that's when I came across Incogn, a service that hunts down where your data is being stored and sends official legal request to have it removed. There's no guesswork, there's no paperwork. They handle everything behind the scenes. And since signing up, by the way, I've actually noticed a change.
+
+[06:51] Way fewer scam calls, less spam email, and most importantly, at least to me, is the removal of that sort of low-level stress of just wondering how people might use some personal information against you in a negative way. Right? So, that is now gone. So, if you're tired of being the product, it's time to push back. Head to incogn.com/doseseofwisdom or use the promo code doseofwisdom at checkout to get 60% off your annual plan. That's incognito.com/dosseofwisdomd or use the promo code doseofwisdom. Take your data out of their hands before they sell it to someone else.
+
+[07:19] Except in one very very clear place and that's his trial scene before Caiaphas and the Sanhedrin. Because if Jesus had come out and said he was God publicly, then immediately he'd be executed. He's giving hints here and there. And we see in the gospels just as Bowman and Kamashvsky has argued that Jesus shares the honors with God. Same honors that God has the attributes the name the deeds and the seat hands. The hands acronym all point to the deity of Christ.
+
+[08:02] But he can't come out and say I am God ahead of time because he's he's got a time the time of his crucifixion is very important for him to have his crucifixion at Passover because he's the true Passover lamb. There's all sorts of things that Jesus was in control of what's going on. But in in Mark's gospel towards the end of the gospel, verses 53 through uh 64, we have the trial scene before all the chief priests and elders and experts in the law. And uh let me just um read to you out of the Net Bible.
+
+[08:35] The Net Bible, the New English Translation, is one I was the senior New Testament editor for, but you're going to get this in any translation. They're all pretty clear on this. I don't know how guys like man can deny that this is a strong affirmation of the deity of Christ. Before I read it, let me just mention this. In the first century Israel, Palestine, there were two things, really three, that the Jews held as absolute sacred. They may have been messed up on a lot of things, but first of all, they kept the Sabbath. That was a holy day to them. and and they didn't work on the Sabbath.
+
+[09:11] Secondly is they um they had no no images that they could have representing thing when uh Pontius Pilate came in with his uh eagles on the standards. There was a riot AD 26 he becomes the prefect of Judea and immediately there's a riot and he gets word from Rome you better watch what you're doing there buddy because we don't want any more riots in and with these troublesome Jews. The third thing is they were absolutely jealous for God, for his name, who he was. He shared no honors, no attributes, no deeds, no hands, no no names, no no uh seat with anyone else.
+
+[09:54] And so Jesus doesn't have to say those things when he's bore the before the Sanhedrin. And they uh in verse 55, Mark 14:55, the chief priests and the whole Sanhedrin were looking for evidence against Jesus so that they could put him to death, but they did not find anything. Many gave false testimony uh against him, but their testimony did not agree. Some stood up and gave this false testimony against him. We heard him say, "I will destroy this temple made with hands and in three days build another not made with hands." Yet even on this point, their testimony did not agree. Okay?
+
+## Part 2 · 10:28
+
+[10:28] So you can see they did not come with clear testimony where Jesus had publicly said, "I am God in the flesh." And and that's because his timing was to die at the Passover when he's the farthest away from Jerusalem in his public ministry. Jesus is with his disciples up near Cesaria Philippi. And that's where he asks them, "Who do people say that I am? Who do you say that I am?" "You are the Christ." Peter acknowledges. And then Jesus says, "Uh, you you know this, but the Son of Man has to suffer and die and rise again from the dead." 3 days later, immediately Peter takes him aside.
+
+[11:12] And this is Mark chapter 8. And he says, "No, I rebuke you. You can't do this. You can't say that. That's not my idea of what the Messiah is." He's going to come in and kick some Roman butt, get the get these Romans out of our country. That was his idea of a political military messiah. And Jesus reveals that he's the Messiah to his disciples at the farthest away point from Jerusalem so that on the way back he can fill what that means with meaning. I am the son of man, which is actually an affirmation of his deity and I am the Messiah. But my messiahship involves suffering and dying.
+
+[11:48] Peter didn't even hear and I'll rise from the dead three days later. Jesus repeats this a couple more times on different occasions. These guys didn't have a clue what he was saying. The very next chapter after the transfiguration, Jesus comes down with three of the apostles, uh, Peter, James, and John after they see him transfigured. And he says, uh, again repeats that he's going to suffer and die. And uh uh after 3 days uh he's going to rise from the dead. And the next verse says, "And they were debating what rise from the dead meant." He was speaking very clearly.
+
+[12:25] There was no concept in their mind of what that could possibly mean. So they have a military messiah in mind. And when Jesus speaks to Caiaphas and the Sanhedrin, what he's saying, he's he's got this whole trip to Jerusalem. That's his final journey to Jerusalem where he intends to be there by Passover so he can die on Passover. And so then the high priest stood up back to Mark 14 before them and asked Jesus, "Have you no answer? What is this? They are testifying against you." But he was silent and did not answer.
+
+[13:06] Again, the high priest questioned him, "Are you the Christ, the son of the blessed one?" And when finally when the high priest asks a direct question about his identity, that's when Jesus speaks up and he says, "I am." Verse 62, "I am," said Jesus. Not only does he say that, he goes beyond that and he says, "And you will see the son of man sitting at the right hand of the power," which is another name for God, "and coming with the clouds of heaven." That's verse 62. Mark 14:62. Here's what's going on with that.
+
+[13:48] He's saying, but when he says sitting at the right hand of God, he's not saying a different throne. He's sitting at God's right hand on the same throne. We actually have archae archaeological evidence to say shows that sitting at the right hand of someone on on a throne means you're on the same throne. You're equal with God. And he says you will see him sitting on the throne uh at the right hand of the power and coming with the clouds of heaven which is all this picture of deity.
+
+[14:19] M what Jesus is essentially saying here is the holy of holies which Caiaphas could enter once a year was just a replica of what the holy of holies in heaven was all about. The place where only Jesus can enter and sit at the right hand of God on his throne. That's the real Holy of Holies. And he said, "You think you're judging me in this little place? I'm the one judging you." He didn't need to add this, but he said it so that it's a very clear testimony to them that he is in fact God in the flesh. So what does Caiaphas do?
+
+[14:50] Then the high priest tore his clothes and said, "Why do we still need witnesses? You have heard the blasphemy and this has to be blasphemy. You tear your clothes for blasphemy for I think there was one other thing, but you the the high priest would tear his clothes for blasphemy." when people on Malta saw Paul uh and they and uh a snake bit him and they said he's a god. What does Paul do? He's a god. Paul tears his clothes because it's blasphemy even to make him approach any kind of deity. Mhm.
+
+[15:24] Kaiapus tears his clothes because Jesus claimed to be God as his testimony that went far beyond just claiming he was the Christ. You have heard the blasphemy. What is your verdict? They all condemned him as deserving death. Then some began to spit on him and to blindfold him and to strike him with their fists, saying, "Prophesy." The guards also took him and beat him. How people like Bartman can look at that passage, our earliest gospel, which is going to give us the clearest historical record, I think, of all the gospels of what happened and say, "Oh, no.
+
+[15:54] This is not really this." How does a person like him, how do these skeptics explain why the Sanhedrin wanted to crucify Jesus? Why? Why do they want to do it? It's because he was claiming to be God in the flesh. If you like these kind of videos but aren't subscribed, help us reach that million milestone. It also helps other people see this type of content in the future. I'll leave a link in the description where you can watch a documentary that I made.
+
+[16:26] It's got Nabil Keshi, Lee Stroel, William Lang Craig, and a bunch of other people in there that answer a lot of the questions that I've had about God over the years. I think you'll really like it, and it's totally free. [Music]

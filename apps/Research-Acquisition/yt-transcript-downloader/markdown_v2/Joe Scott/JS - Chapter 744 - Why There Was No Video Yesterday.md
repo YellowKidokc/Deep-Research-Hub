@@ -1,0 +1,54 @@
+# Why There Was No Video Yesterday
+
+**Channel:** [[Joe Scott]] (`JS`) · Chapter 744 of 763 · Length 9m 34s · [[00 - Channel Summary]]
+**Video ID:** `X1CGQkJJ7Cc`
+**URL:** https://www.youtube.com/watch?v=X1CGQkJJ7Cc
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-07 04:28
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] hey there everybody um so you may have noticed yesterday there was a monday and there was not a video so first of all let me just say don't panic the world is not ending i'm not dead yeah i got a lot of uh comments on on twitter and other places yesterday from from people that were concerned about me because i never miss mondays but uh those people clearly don't watch our ludicrous future because i did talk uh on last friday's video that uh i am going to be taking a little bit of a break in april and i should probably go ahead and issue an apology i i meant for uh this little announcement
+
+[00:35] that i'm not gonna be really posting things in april this this video right now was supposed to come out yesterday uh but i've been busy doing things around the house and whatnot so it's coming out today so um yeah so that's that's the deal and this is to the best of my knowledge anyway the first time since the fall of 2014 that i have actually missed a monday video somebody may correct me on that because you guys pay pretty close attention to things but probably closer attention than i do but no i really don't think i have missed a monday video since the fall of 2014.
+
+[01:08] it's been six plus years uh that was kind of like what i based this whole channel around that was my entire strategy just post every monday no matter what um and yesterday was the first day i didn't do it and uh april is the first month that i'm really gonna be kind of stepping away from the channel for a minute um it's not really stepping away from the channel i'll let me let me reframe that i'm not really stepping away from the channel so much as um stepping back from the regular posting schedule that i've been on for the last six years at least just for april anyway so don't worry things
+
+[01:38] are going to be back to normal in about a month's time and there's there's a lot of reasons for this um one of them is just that um as you know there was this huge storm that came through a couple of months ago and the house got some damage we had some burst water pipes literally just now getting to the point where we can fix that um and while we're at it we're doing some things around the house we've been in this house for about 12 years now so there's a lot of upgrades and just fixing and maintenance of things that have been kind of been put off for a long time so we're kind of just taking
+
+[02:11] care of all that um so literally the house has kind of been under some form of construction for the last i don't know month and a half which has made shooting videos pretty difficult uh but there's other things it's kind of time to refigure my setup here a little bit um i'm definitely gonna be doing some stuff to the to the background over here but there's also uh some of you have noticed i get these little glitchy things still in my in my uh in my videos that um i'm trying to work my way around that try to figure out a solution to it um so it's just kind of time it's been a little bit over a
+
+[02:46] year since i upgraded everything so it's it's just better to take a minute to you know not be worrying about putting out videos while you're working on the system that you use to shoot your videos and before anybody um says anything about it the the whole nebula series that i've got going on some people might say oh he's stepping away so he can work on the nebula series well a little yeah there's a little bit of that that's a whole other thing that i'm working on um that's uh taking up a little bit of time on its own so again instead of let having that compete with my regular output of videos
+
+[03:17] for the next several months i decided let's just take april focus a little bit more on that and get that out out the door so i can get back to you know regular focusing on videos here so it's not the main part of it if i were to break it down it might be like 10 of the overall reasons for doing this but but it's in there i'm not gonna lie and i mean there's i want to take a little time to work on just kind of big picture stuff around the channel um you know now that now the channels hit a million you know back in december um it's it's kind of in a new league and so i want to be able to play
+
+[03:49] in that league i want to kind of um uh you know perform at the level that a channel this size should be performing at and there's a lot of big things that i now have opportunities to do that i didn't have before so i want to take advantage of those and um so there's a little bit of stepping back and kind of looking at where things are going and the best way to to move forward and and you know kind of create bigger and better things for the channel and last but not least uh probably most important if we're for being honest about it um i do kind of just need a break honestly um i've had some
+
+[04:23] people in a lot of videos recently be like dude get some sleep you need to get some sleep and you're right i i do need to get some sleep i do need a little bit of a um a little bit of mental health time self-care time if you will um especially with the the house stuff that's been going on and everything it's definitely been a lot it's been a lot um and look i'm not i don't mean to complain this is the best job in the world and i'm super you know appreciative that i get to do it um but being on a weekly grind for six years um you know there there does come a point where you have to kind of
+
+[05:00] just take a second and kind of look at what's going on and uh give give yourself a little love so yeah i i actually meant to take a break when the channel hit a million um it's an arbitrary number but it was just kind of like once i hit a million i was gonna be like okay now i can take a break you know it was like i've reached that milestone and now i can step back a little bit um i thought that that was going to happen in mid to early november and i was going to take december off to sort of just do the holiday thing but then the channel slowed down quite a bit november and december and it
+
+[05:34] didn't wind up happening until literally christmas so uh i didn't get to take the break that i was hoping for and then in q1 um you know we had already gone ahead and lined up all the sponsor all the sponsored videos for q1 so um i couldn't really back out of those so now i was kind of committed to doing videos through march so um when probably in back mid to early march i realized that you know i didn't really have anything set up yet sponsor sponsor-wise in april it was kind of like okay that's a good opportunity to go ahead and go ahead and take this break so that's what i'm doing but yeah
+
+[06:11] there's there's still a lot going on i'm i've still been pretty busy so far of course it's only about the fifth sixth of april um but uh really it i shouldn't be saying that i'm taking a break from the channel it's really more like it's not taking a break so much as not forcing myself to be on a weekly schedule so i can focus on bigger picture things and make the channel better in the future but that's that's a lot of syllables also i need to trim my nails geez now having said that i don't want anybody to freak out because people do tend to get really i don't know they take ownership of a
+
+[06:48] channel and when the creator goes in and changes things drastically it can really throw people for a loop especially if you're posting on a regular schedule like i do and it becomes kind of a part of people's routine there's something about that stability that that you know is i think that's part of the that's part of the allure of my channel if i'm being honest um so i don't want everyone to freak out and think that i'm gonna go off on some other thing it's gonna be a whole different situation when i come back in may that's not the case it's it's still going to be the channel you love
+
+[07:17] hopefully you love but if it changes in any direction it will just be bigger and better now in the meantime um i'm not stepping away completely i'm doing a lot of stuff behind the scenes but i also plan on putting out some videos on the tmi channel so if you haven't checked out my second channel the tmi channel i'll put a link down below you can go see that it's it's going to be content on that channel is a lot more like what i'm doing right now it's not really scripted it's just kind of off the cuff i've been really bad about posting on there lately but i'm going to try to get back into it
+
+[07:48] especially this month another thing is and i don't know how you guys feel about this but i thought i would give it a try i am on tick tock now some of you might have noticed in the last video on my little social media thing that pops out that little a little bug that pops out uh i replace snapchat with tick tock because i like never get on snapchat anymore and i barely ever did in the first place but take talk um i put it off for the longest time but i know they're trying to get some more educational creators on there and focusing on that so you know i used to be on vine i used to love vine i
+
+[08:25] really enjoyed it quite a bit so i'm hoping that tick tock can kind of be like like that and i can i can get into it and and enjoy it so anyway i've just started posting on there i have no clue what i'm doing um but if you just kind of want to see little snippets of short content from me then then you can go there especially this month because i'm not going to be posting here as much and yeah i'll still be doing our ludicrous feature with ben and tim if you haven't had a chance to check that out i'll put that link down the description too anyway no need to drone on any further i've got to go
+
+[08:51] build some patio furniture outside and it's already starting to warm up that's kind of been what i've been doing so far but um until we see again you know again i may post some more things on this channel throughout the month they might be a little bit more like this just kind of random stuff i might possibly have a guest host do a video or two so this this channel is not going to be just completely dormant um it's it's just uh it's just not gonna be your regularly scheduled content but it will come back in may i promise but until then you can find me on my socials check me out on tech talk
+
+[09:26] or whatever and um and i'll be around so take care of yourselves and i'll see you next time love you guys take care

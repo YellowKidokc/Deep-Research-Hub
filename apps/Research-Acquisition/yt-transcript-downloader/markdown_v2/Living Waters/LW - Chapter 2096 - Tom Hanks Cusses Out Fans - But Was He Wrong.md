@@ -1,0 +1,61 @@
+# Tom Hanks Cusses Out Fans - But Was He Wrong?
+
+**Channel:** [[Living Waters]] (`LW`) · Chapter 2096 of 2497 · Length 13m 03s · [[00 - Channel Summary]]
+**Video ID:** `DSdpbYPP3Ko`
+**URL:** https://www.youtube.com/watch?v=DSdpbYPP3Ko
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 03:58
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:02|Part 1 · 00:02]]
+- [[#Part 2 · 10:32|Part 2 · 10:32]]
+
+---
+
+## Part 1 · 00:02
+
+[00:02] [Music] oh come on man tom hanks let out his frustration by cussing experts tell us that this is the intelligent thing to do and that can actually be good for your health not only that cussing can make people happy my favorite cursing language would definitely be spanish oh wow some of them are kind of just delicious [Laughter] they're so good when you need to let it out you know and they're longer more elaborate here some of them are like yeah they're punchy here yeah you know there is like attack you have more time to explode the anger is fantastic but before you follow this world's
+
+[01:22] philosophy keep in mind that the same evil world will tell you that adultery is good for your marriage and that pornography can be good for your health the christian is called to get up out of the pigsty of this world listen to what the scriptures say about the use of bad language do not let unwholesome foul profane worthless vulgar words ever come out of your mouth but such speech as is good for building up others the problem is that this world puts personal happiness above the love of righteousness if it makes you happy do it even if your conscience tells you that it's morally wrong stephen
+
+[01:58] pinker delineates five types of swearing first of all some words are bad on purpose they are created and or used with the intent to hurt others he calls this abusive swearing using words to insult humiliate objectify or marginalize disfavored people now if that disfavored person is god we're talking about supernatural swearing which was particularly taboo in victorian times but now it's completely accepted by this evil world even christians try and justify using god's name as a cuss word in the comments of almost every video somebody says god is not his name it's justice title and i have to
+
+[02:44] point out that if i speak ill of the governor of california without mentioning his name i'm speaking ill of him this is because his title and his person are synonymous and the scriptures warn the lord will not hold him guiltless who takes his name in vain the merriam-webster dictionary defines blasphemy as the act of insulting or showing contempt or lack of reverence for god psalm 139 says your enemies take your name in vain blasphemy is evidence that sinners hate god they're offended by him simply because he requires moral accountability and that's not a pleasant thought for sin loving
+
+[03:27] sinners what do you think of the god of the bible not really a fan i don't believe that there was a historical jesus there's too many inconsistencies with the story [Music] so tell me your thoughts on the afterlife uh well as a pagan we don't necessarily believe in an afterlife specifically um and and specifically i'm a wiccan so there's different types of pagan could you define what you mean so that we can be educated when you say pagan a pagan is someone who follows uh typically gods before christianity um and they were they were labeled pagans by christians um in an effort to vilify them
+
+[04:11] there's been sort of a of a reawakening of the old gods and the old ways a wiccan is someone who believes in sort of the unification of the divine and nature and so not only is is there a divine but it's all around us and through everything so anything natural is god so michael tell me tell me your thoughts on god does your god think not as an entity as a single singular entity um but just the same way that that a computer can be built to to have artificial intelligence the the more parts you have the greater the group think and the group mind so god can't think is he a bit slow bad memory no
+
+[05:00] not exactly um the the divine is not necessarily a singular entity everything is god everything is divine you know what that's called what's that pantheism yeah exactly it's believing that god is in the flowers and the birds and trees my socks and my shoes god is just everything he doesn't think he doesn't hold anyone accountable he doesn't believe in justice and truth and righteousness what do you think of the god of the bible not really a fan um what don't you like about him i feel that the god of the bible was a construct of man not that man was created in his image but god was created in
+
+[05:37] ours because we needed something to answer questions that we didn't know the answers to you found the answers to the questions i don't have the same questions well what's going to happen when people die that's the big question to our consciousness it turns off switches off sure of that i in in my heart i am yeah so you trust your own heart of course the bible says he who trusts his own heart is a fool many people have overtaken a truck and made an estimation they trusted their judgments are right and they ended up dead with a head-on collision so don't trust young heart especially when it
+
+[06:14] comes to eternity i mean you're saying i believe you just switch off when you die well you're putting yourself up against jesus the greatest man to ever live who said that after death you have to face god and to fear god and realize god's going to hold you morally accountable what do you think of jesus i think that this the story of jesus is a very good teaching tool uh i don't believe that there was a historical jesus um there's too many inconsistencies with the story let me give you a consistency what year is it uh we call it 20 times who and oh domino since who uh they're saying since
+
+[06:53] christ that's your evidence we take our calendar he's so impacted humanity that we take our time since his birth what do you think of the sermon on the mount never a man spoke like that man never a man said the things that he said he said love your enemies do good to those that despise you they're just wonderful words what's the first of the ten commandments thou shalt not kill i believe that's the sixth that's the sixth i don't know them in order yeah the first one is i am the lord your god you shall have no other gods before me right we tend as human beings to make a god in our own image
+
+[07:31] the god of the bible is offensive to us and romans 8 verse 7 tells us what offends us this is what it says it says the carnal mind that's our natural unspiritual mind is in a place of hostility towards god specifically against his moral law the ten commandments we hate the thought of god for the same reason a thief hates the thought of a policeman they'll call them pigs because they're criminals and please stand for that which is right so here's a big question for you mike do you think you're a good person i do how many lies have you told in your life quite a few i've stolen something yes
+
+[08:07] you're a lying thief yep you still think you're a good person i do okay have you ever used god's name in vain i have why would you use god's name as a cuss word it doesn't make sense i can understand someone using a filth word when they hit their thumb with a hammer they want to express absolute filth so they'll say a filth word beginning with this but why put god's name or the name of jesus christ in its place why societal norm yes that's become so common but jesus said why he said the world hates me because i testify of its deeds that they're evil that's why we hate god the same reason the
+
+[08:41] thief hates the police one to go i appreciate your honesty jesus said whoever looks at a woman and lusts for her has committed adultery already whether in his heart have you ever looked at a woman with lust yes sex before marriage yes so so i'm not judging you this is for you to judge yourself mike you've told me you're a lying thieving blasphemous fornicating idolatrous adulterer at heart and you have to face god on judgment day the god that revealed himself in scripture if god judges you by the ten commandments which are written on your heart by your conscience you're gonna be innocent or
+
+[09:21] guilty if he's fair innocent well if he's fear if he does that which is right you'll be guilty and end up in hell because he's just and holy and good and righteous the bible says all lies will be apart in the lake of fire that horrifies me i love you i care about you i don't want you to go to hell if death seized on you today and god gave you justice you'd end up in hell you don't want god's fairness you want us mercy it's what you call on you know when you're standing in front of a judge and you can't justify yourself you've committed crimes you don't want god the judge to be fear because
+
+[09:54] he's going to send you to jail you wanted to be merciful you throw yourself on the mercy of the judge now tell me what did god do for guilty sinners so we wouldn't have to go to hell gave his only begotten son so that he may absolve our sins yeah we brought god's law all of us under the death sentence and jesus paid the fine that's what happened on that cross you were kind of quoting john 3 16 for god so loved the world that he gave his only begotten son that whoever believes in him should not perish but have everlasting life that's what god offers you in the gospel and yet we embrace
+
+## Part 2 · 10:32
+
+[10:32] idolatrous uh beliefs that as we make up a god to suit ourselves i did it before i was a christian i was a pagan in one sense i made up a god in my own image so that i'd feel comfortable with them but if you'll repent of idolatry and all those other sins and trust in jesus god promises he'll grant you the gift of everlasting life he'll take the death sentence off you all because of what jesus did on the cross that's the promise of god in the bible then jesus rose from the dead and defeated our greatest enemy death itself just repent and trust in christ don't trust your goodness because you
+
+[11:06] haven't gotten here like the rest of us you're a sinner trust in jesus and you've got a promise from the god who cannot lie that he'll grant you everlasting life as a free gift is this making sense it would yeah is it like i said it would if you can believe in the bible you think beliefs are important no well they are if i told you mike you're heading for a land mine down this path if you believe me you turn around but if you didn't believe you'd go ahead and walk on it so beliefs can govern your destiny and beliefs can govern your eternal salvation because if you don't believe the gospel you
+
+[11:42] won't obey it if you don't believe you're in trouble with god you won't repent of sin and that means you have to face them on judgment day you know the book of isaiah says oh lord who has believed our report all i'm wanting you to do is believe what i'm saying is true and i wouldn't lie to you this is the gospel truth sir what do you think about what we talked about today uh not going to change my opinions that's all right as long as you just think about it we all have opinions but god is greater than our opinions and i'm believing and so people that see this are believing for god to break
+
+[12:11] your heart heart as he did ours and bring you to himself because the bible says no man can come to the son unless the father draws him you know we're so rebellious we got our fist held high it takes god's mercy to draw us to himself to soften our hearts so he can grant us everlasting life as a free gift do you have a bible at home i'm sure i do please dust it off and give us some thought hey thanks for your honesty i appreciate you listening to me thank you make sure you check out the living waters podcast and this it's everything i've ever learned in 50 years of apologetics and evangelism
+
+[12:45] get your copy of the evidence study bible and check out the starter kit while you're there at livingwaters.com have you seen our video christian and witch have fascinating encounter you've got to see it you can watch it right now by clicking up to your left

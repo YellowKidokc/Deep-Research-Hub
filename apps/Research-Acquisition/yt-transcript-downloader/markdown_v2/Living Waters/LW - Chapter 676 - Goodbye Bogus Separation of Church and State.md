@@ -1,0 +1,61 @@
+# Goodbye Bogus Separation of Church and State
+
+**Channel:** [[Living Waters]] (`LW`) · Chapter 676 of 2497 · Length 12m 01s · [[00 - Channel Summary]]
+**Video ID:** `3UZNODFx6FU`
+**URL:** https://www.youtube.com/watch?v=3UZNODFx6FU
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 03:36
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:24|Part 2 · 10:24]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] thank you Mr pres let's pray father we thank you uh for this awesome privilege father to be in your presence God thank you that you've allowed us to see this day the Bible says that your mercies are new every morning and father God we give you the glory and the honor thank you God for president Trump father for appointing us father God thank you for anointing us to do this job father we pray uh you'll give the president the vice president wisdom father God as they lead father I pray for of my colleagues that are here around the table and in this room Lord God we pray that uh we would lead
+
+[00:35] with a righteous Clarity father God as we serve the people of this country in every prospective agency every job that we have father we would humble ourselves before you and we would lead in the manner that you've called us to lead and to serve father the Bible says that blessed is the nation whose God is the lord well father we today honor you and in your rightful place father thank you for giving us this opportunity to restore faith in this country and be a blessing to the people of America and Lord God today in our meeting we pray that you will be glorified in our conversation in Jesus
+
+[01:09] name amen amen Scott that was a very good job you did you've done that before praying like this in the White House must be driving the secular media and every atheist into a frustrating frenzy but the separation of church and state are not in the Constitution the principle originates from a Thomas Jefferson 1802 letter to the danry Baptists where he described the First Amendment as creating a wall of separation between church and state in this letter he reassured the Baptists that the government would not interfere with religious practice or expression the influence of Faith isn't just in
+
+[01:50] words it's etched into the very structures of Washington DC Mr Speaker on July 30th we celebrate the 60th anniversary of our national motto in God We Trust which is displayed directly above your chair in the War of 1812 we found those words in our national anthem when Francis Scott Key wrote and this be our motto and God is our trust in 1864 Congress found them when it authorized the secretary of the treasur to add the inscription and God we trust on coins and God We Trust was first introduced on US coins during the Civil War starting with the 18642 cent coin this phrase gained prominence
+
+[02:27] when President Eisenhower signed a bill in 19 1955 requiring it on all currency it reflects America's spiritual Foundation as stated by representative Charles E Bennett Secretary of the Treasury salmon P Chase endorsed The Motto after receiving appeals from citizens by 1956 it was declared the official national motto expressing a Timeless trust in God Moses the great lawgiver of the Bible is depicted in the US Supreme Court alongside other figures of Justice his presence reminds us that Divine Law influenced America's legal foundations US presidents from George Washington to today have taken
+
+[03:05] the oath of office with a hand on the Bible symbolizing their commitment to lead under God's Authority Governor are you prepared to take the Constitutional oath I am if you place your left hand on the B Bible and raise your right hand and repeat after me preserve protect and defend the Constitution of the United States the Constitution of the United States so help you God so help me God now I congratulate but there's more the presidential Bible many presidents use the same Bible as past leaders like Lincoln's Bible or Washington's Bible the National Day of Prayer declared in 1952 and still
+
+[03:44] observed annually The Ten Commandments displayed in US government buildings the Congressional prayer room a chapel in the US capital for lawmakers to pray church services in the capital in the early 18 hundreds Congress hosted Sunday church services in the capital building the Liberty Bell inscription It quotes Leviticus 2510 Proclaim Liberty throughout all the land unto all the inhabitants thereof what's America's motto do you know I don't I actually don't I have no idea I have no idea it's in God we trust did you know that no do you believe in God yes I do do you yes I do why because God
+
+[04:32] made everything that we that exists today it's easy to believe in God because of creation creation couldn't create itself it's magnificent so you can see the genius of God's creative hand in creation do you ever read the Bible I do do you read the Bible uh no unfortunately I don't but I would like to get to it do you know the message of the Bible no yeah in the Old Testament God promised he would destroy death and in the New Testament we're told how he did it did you know that oh no I didn't but the Bible says the wages of sin is death you ever heard that verse no it's saying that God is
+
+[05:07] paying you in death for your sins like a judge who looks at a criminal who's committed murder but he says I'm a good person judge the judge says I'm going to show you how serious your crime is I'm giving you the death sentence this is your wages this is what you've earned and ladies sin is so serious to a holy God he's given you the death sentence you're on death row you're in a holding cell nice Blue Roof good air conditioning but this life is a holding cell and your death will be evidence to you that God is deadly serious about Sin so here's a question do you think God has justified in
+
+[05:40] putting you to death for your sins or are you a good person what do you think I'm a good person are you a good person yes I am yes yes I'm a good person okay I'm going to challenge you on that see if I can change your mind and there's a reason for it how many lies have you told in your life so many so many can't keep count you've lost count and you a lot a lot you ever stolen something even if it's small in your whole life yes yes yes no have you ever used God's name in vain yes yes yes you yes yes do you love your mom yes yes would you ever use her name as a cuss word no cuz you respect her
+
+[06:19] yes but you don't respect the god that gave you a mother you've taken His holy name and used as a cuss word very serious it's called blasphemy when you use God's name is a cuss word and it's punishable by death in the Old Testament it's that serious here's the summation of your court case on Judgment Day the four of you have told me except for you that you're lying thieves and blasphemous and you have to face God on Judgment Day if he judges You by The Ten Commandments you're going to be innocent or guilty guilty guilty and what about you guilty you know the Bible says all liars of their part
+
+[06:52] in the Lake of Fire no Thief no blasphemer no adulter one here at the kingdom of God so you've earned your way ages now does it concern you that if you die today and were found guilty by God on Judgment Day you'd end up in hell does that worry you yes it does what did God do for guilty sinners like you and me so we wouldn't have to go to hell do you know no um forgave our sins no God did something died on the cross right yes he died on the cross now most people know that but they don't know this and ladies if you can get a grip of this it's going to change everything for you so don't let
+
+[07:26] anything distract you you okay okay the Ten Commandments are called the moral law you and I broke the law Jesus Paid the fine that's what happened on that cross that's why he said it is finished just before he died he was saying paid in full if you're in court you've got speeding fines and you plead guilty the judge will let you go if someone pays those fines you say you're guilty but you can go someone's paid you fine and it's legal well God can legally take death off you and let you live forever all because Jesus Paid the fine on that cross rose from the dead defeated death if you'll simply
+
+[08:04] repent of your sins and you'll never do that while you think you're a good person and trust in Jesus like you trust a parachute God promises he'll Grant you everlasting life as a free gift not because you're good but because he's good and kind and rich in Mercy is this making sense yes that Mak sense to you yes yes you going to think about what we talked about yes definitely a lot yeah a lot yes period one last question for you if you were going to jump out of a plane 10,000 ft why would you put on a parachute so I don't die yeah and your motivation is fear and that fear is your friend not
+
+[08:42] your enemy because it's making you put on a parachute and ladies because I care about you I've tried to put the fear of God in you today try to make you a little scared make your mouth go dry hoping you'll see that fear as your friend not your enemy because it'll make you serious with the god that gave you life can you hear what I'm saying yes so when are you ladies going to repent and put your trust in Jesus instead of your goodness now soon soon today you serious yeah are you sorry for your sins yes and when are you going to get right with the Lord um soon every year 54 million people die
+
+[09:20] 54 million and a lot of young people so youth is no Guaranty of old age so please examine my my tone why am I speaking like this it's cuz I really care about you and I want to see you in heaven not in hell and I know what I'm saying is true can I pray with you ladies will that embarrass you yes you can you may father I pray for these young ladies that they will think seriously about their secret sins they'll think about your Holiness and how you love them and don't have any pleasure in their death and I pray this day they'll be born again they'll truly repent put their faith in Jesus and pass
+
+[09:51] from Death to life with the love of righteousness glorifying You by their lives and may they have the knowledge they have everlasting life all because of your amazing in Grace in Jesus name we pray amen do you have a Bible at home yes you I do yes Catholic Bible here's the difference between Catholic and Christian Christian believes there's nothing you can do to save yourself it all comes by God's Amazing Grace eternal life is a free gift and you can't earn it by taking the Eucharist by confessing to a priest by being part of the Catholic Church nothing you can do can save you only God's
+
+## Part 2 · 10:24
+
+[10:24] mercy and mercy can't be earned and so when I me to Catholic I just tell him eternal life is free that's according to the Bible the wages of sin is death but the gift of God is eternal life through Jesus Christ their lord can I give you ladies a book I wrote called scientific facts in the Bible yeah mhm okay let me get up for you this is so cool really yes so you going to read it yes of course definitely now I have no excuses for sure yes well nice to meet you ladies thank you thanks to the generosity of our Publishers we were able to get a massive print of scientific facts in the Bible which
+
+[11:04] means you can get them for as low as 99 cents per copy if you order them in bulk see livingwaters.com for details sexual immorality has devastated Too Many Men damaged too many families and marred the gospel's testimony too many times now is the time to prepare yourself to fight win the war on Purity and get our latest book fight like a man living War Waters exists as a nonprofit Ministry to help you grow in your faith here are three things to help you do just that the Living Waters podcast the evidence Study Bible everything you've ever wanted to know about the Christian faith and the
+
+[11:42] starter kit four of our most popular gospel tracks these and much more are available at livingwaters.com if you'd like to see the actual moment someone is Born Again watch the video up to your right you're going to love it make sure you have your Clinic's ready

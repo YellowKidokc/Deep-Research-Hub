@@ -1,0 +1,28 @@
+---
+fis_schema: "folder-index.v1"
+folder_id: "FLD-20260829-94952d35"
+folder: "Documents\#recycle\axiom dump\B\transfer\Axiom-Navigator-extracted\Axiom-Navigator\04_MOTION\LAWS\Law New\4 LAw"
+folder_class: "project"
+confidence: 0.6
+dependency_risk: 0.0
+dominant_family: "text"
+dominant_ratio: 0.833
+file_count: 6
+classified_at: "2026-08-29T14:22:31"
+allowed_actions: ["index", "rename_internal", "subfolder_sort", "archive_exports"]
+suggested_name: "4-law"
+---
+
+# FIS Folder Index: 4 LAw
+
+**Class**: project  ·  **Confidence**: 60%  ·  **Files**: 6  ·  **Dominant**: text (83%)
+
+## Allowed actions
+- index
+- rename_internal
+- subfolder_sort
+- archive_exports
+
+**Suggested name**: `4-law`  (not applied — review before use)
+
+<!-- FIS folder-index.v1: parseable note; safe to regenerate. -->

@@ -1,0 +1,61 @@
+# $1 Million Dollar Bitcoin Is Coming | Michael Saylor Bitcoin Price Prediction
+
+**Channel:** [[Only The SAVVY]] (`OTS`) · Chapter 1 of 514 · Length 13m 23s · [[00 - Channel Summary]]
+**Video ID:** `62WH93b5Rxg`
+**URL:** https://www.youtube.com/watch?v=62WH93b5Rxg
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 01:03
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:21|Part 2 · 10:21]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] I think uh in 10 years we'll reasonably be in uh seven figures million dollar Bitcoin we're going to actually see a reversal I would predict uh you'll see first in the US a reversal of nuclear power policy we'll start building nuclear power plants again and I would then guess probably in Germany at some point they'll come to their census and do the same thing yeah hope so and and the reason they'll do it is not because of humanitarians saying it's cheap energy and it's better they'll do it because Microsoft and Apple will tell them to do it in this recent interview on bitcoin Magazine with
+
+[00:35] Michael sailor we explore bitcoin's current position political ideas about its future and energy centralization issues Bitcoin is trading around $63,000 down 1% in 24 hours but up 2% over the week sailor emphasizes that Bitcoin is not just a currency it's a revolution in how we think about money he distinguishes between money as economic energy and currency as a method of moving that energy noting that Fiat currencies dissipate energy over time sailor believes that Bitcoin could become a 250 trillion ecosystem without threatening any nation state by demonetizing various assets before we dive
+
+[01:14] in please like subscribe and share this channel now let's hear from Michael sailor I think Bitcoin is technology and it's digital capital and I think there's a transformation of capital from analog to digital and I think that that uh every company every government every investor every technologist will look at that and people will embrace it at whatever rate they want to embrace it like let's take the internet for example did the internet change politics in the last 30 years I mean if you look at the development of the European Union what was the role of the internet or if you look at the
+
+[01:58] development in China Russia and the crisis and what was the role of the internet if you look at everything that happened in South America in the last 30 years what was the role of the internet I mean the internet spread everywhere it's gone everywhere on Earth it's changed everything but you still have economic conflict political conflict military conflict you have evolution in society and and uh the internet just keeps spreading so I think bitcoin's going to spread like digital capital I don't think you need any cataclysmic event for it to spread I think it's just a better idea like uh it
+
+[02:39] would spread regardless of whether there is a conflict and you know con conflict chaos hyperinflation will accelerate the spread but you know if Apple computer builds the Bitcoin into the iPhone it's going to spread because Apple built Bitcoin into the iPhone and why will they build it in the iPhone because they'll make hundreds of billions of dollars if they build it in the iPhone why wouldn't they want to make billions of billions of dollar so people will do it because they can do it and uh countries will adopt it at whatever rate and investors will adopt at whatever rate they will it's
+
+[03:16] just a better idea it's digital Capital just like digital information this is digital Capital it's going to permeate Society what I'd say is Bitcoin it doesn't solve all the problems in the world it just solves half it's the half where you need economic power or wealth to do anything right who wants power everybody wants power who doesn't want power right what are you going to do with the power well everybody has a difference of opinion on what they're going to do with it but I think everybody can agree they would like more economic power not less economic power and uh the world seems very
+
+[03:54] simple to me it's like there's $900 trillion dollars of wealth measured in dollars the dollar will continue to expand 7 to 10% a year that means in 7 to 10 years there'll be twice as much of that if if Bitcoin you know goes by a a factor of 10 or a factor of 15 so it'll go from 1.3 trillion to 20 trillion it could be 1% of the wealth of the world and a million dollars of coin and the world will be whatever is doing right so I'm I'm not really I don't I'm not of the opinion that there needs to be some catastrophe or there'll be some major you know world event order change I think that this is
+
+[04:48] just good technology it's going to spread just like mobile phones spread as we just heard Michael sailor discuss bitcoin's current position now let's hear him elaborate on the energy Dynamics surrounding Bitcoin say emphasizes that Bitcoin is not just a currency it's a revolution in how we think about money and energy he explains that Bitcoin can be viewed as digital energy with the ability to store and transfer economic value efficiently sailor points out that while Bitcoin mining is often criticized for energy consumption it's actually driving innovation in sustainable energy production he
+
+[05:20] notes that major tech companies like Microsoft and Apple are currently buying up large amounts of energy similar to bitcoin miners but for different purposes sailor argues that Bitcoin is the cleanest most efficient use of energy in the world as it incentivizes the development of renewable energy sources and utilizes excess energy that would otherwise be wasted now let's listen to what Michael sailor has to say on bitcoin magazine yeah I would say the principle of paradigm shift is people only adopt a new paradigm in war or in death yeah so you either have to you know all the old guard has to
+
+[05:54] die right uh teenagers and 20 something they're at the beginning of their life right what do you want you want fame you want fortune you want respect you want a family you want a girlfriend right you have none of those things you have no assets true therefore you have nothing to lose everything to gain and someone presents you with the idea of YouTube or a mobile phone or Bitcoin or electric guitar right whatever it is and you embrace it right the new the new paradigm when you're 75 years old you've already had the family the respect you've already got the respect you yeah you've already got
+
+[06:46] the money you're like you don't need to prove anything maybe you've already messed up your life maybe maybe you haven't but the point really is you have the most to lose the least amount of time the lowest amount of neuroplasticity the least gain you're the most resisted of new ideas yeah so so youth will adopt a new idea you seniors will reject the new idea uh the exception of that is in a war when you reject air power and then the enemy drops bombs on your city and blows up your headquarters and you look up then you realize that your thesis was incorrect M you know if you have Cavalry and
+
+[07:32] they have tanks you know then you realize the thesis was incorrect right so um so in war time when you have when you have massive trauma people all think they're going to fight the next war with the weapons from the last war and when the next War comes along and there's 87,000 robot Dron swarming wasp things to come through your window you'll realize that all the stuff you had from 1990 that you were going to fight with is useless yeah right so that'll be a paradigm shift and I think that uh co co was like the paradigm shift that but it doesn't catalyze everybody because a lot of people
+
+[08:15] didn't lose everything in covid only some people lost everything in Co some people gained yeah right and uh so so that that's a catalyst chaos will continue to be a catalyst but there's a Tipping Point right with these things there's a point when something flips from being out of consensus right strange terrifying to being absolutely normal to them being essential and I think if you look in the history of Technology look at the photos of New York City in you know 1905 versus 1915 and somehow people went from horses on the streets and carriage to automobiles yeah you know and there was a state
+
+[09:02] change and everybody was against it before they were for it yeah and there's a lot of things like that in the history of Technology you know whether it's electricity or whether it's automobiles or whether it's mobile phones where it's just you know people are against and then all of a sudden they just flip and it happens in a hurry when it happens yeah I think that the world is changing at a more rapid rate I think the next 10 years are are a very rapid transformation along at least two Dimensions that I'm familiar with there may be more than two that I am not familiar with but the two I'm
+
+[09:39] familiar with would be digital money and digital intelligence yeah and it's pretty clear that that um there's hundreds of trillions of dollars of capital which is analog money and as people start to transform the analog to the digital you're going to see profound disruptions in business models and uh and uh Financial applications and financial institutions and you know a lot of things people took for granted for last 30 years they'll just throw out the window and say what like you if I run a survey on Twitter right now and I ask how many of you are going to you know invest in Bitcoin versus
+
+## Part 2 · 10:21
+
+[10:21] equities versus gold versus something else I think like 3% of the people say equity if you roll the clock back 20 years it's like what like 3% right so there are certain things where people just don't think that way anymore um yeah it's a transition and I think with intelligence yeah you know the the AIS didn't work until they started working and I guess they started working last year and we're either in year maybe we're year two we're year one or year two I think we're Year One of adoption of digital money and I think maybe we're year two of adoption of digital intelligence and I think
+
+[11:07] they're going to spread like wallfire and if you had to trace catalytic events I would say the catalytic event for digital intelligence was the success of chat GPT 40 yeah when it went from zero to 100 million users you know like in a month or something what yeah and that was after 40 Years of trying and 40 Years of garbage like like people use Siri or Alexa to pick their playlist you know pick out a song right that's the only app people can come up with and then all of a sudden this thing is composing you know perfect you know Shakespearean poetry or you know whatever it is and it's like not
+
+[11:51] bad so I think that that that kind of caused people to wake up and that caused Microsoft to wake up and of course the capital markets react with Nvidia stock and Microsoft and the like and and uh you know the hyperscalers are going to build 60 gaws of data centers a year and they want 600 gaws like that's like all the electricity in the world like it's so powerful right that digital intelligence move is so powerful that it has flipped all of the big tech companies to buy up all the electricity in Europe and the us but also caused them to flip and become pro-nuclear power to watch the full
+
+[12:34] interview check out the link in the description Michael sailor provides a compelling analysis of Bitcoin as digital energy and its impact on the global energy landscape he emphasizes that Bitcoin is the cleanest most efficient use of energy in the world and explains how it's driving innovation in sustainable energy production we would love to hear your thoughts on some questions how do you think bitcoin's energy consumption will shape the future of renewable energy development and what role do you believe Bitcoin could play in optimizing Global energy distribution and usage thank you for
+
+[13:03] tuning in to Only The Savvy if you enjoyed this discussion Please Subscribe like and share our video for more engaging content diving into the Innovative world of decentralized Technologies [Applause] [Applause]

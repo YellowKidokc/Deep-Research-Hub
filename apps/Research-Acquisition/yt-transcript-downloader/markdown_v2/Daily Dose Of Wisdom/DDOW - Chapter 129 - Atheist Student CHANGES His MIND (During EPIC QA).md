@@ -1,0 +1,52 @@
+# Atheist Student CHANGES His MIND (During EPIC Q&A)
+
+**Channel:** [[Daily Dose Of Wisdom]] (`DDOW`) · Chapter 129 of 916 · Length 10m 14s · [[00 - Channel Summary]]
+**Video ID:** `AqoRkzoHWfY`
+**URL:** https://www.youtube.com/watch?v=AqoRkzoHWfY
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 05:34
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] the question is maybe I'm just not stating it properly what's wrong with murder if there's no God why shouldn't I kill other people to get what I want if there's no God because it doesn't help Society but why do I care about Society because as a group should worry about Society we should be making the betterment of ourselves but Kyle you're you're importing a moral frame that that says and deny there's an author which is true but there would be no book to read unless there was an author the same is true when it comes to morality you can know what the right thing to do is and deny there's a
+
+[00:41] God but there would be no right thing to do unless there was a god that makes sense I guess I can see your point guys I've done some videos like this but this one is a little bit different in that the questioner in this q a line who's talking to Frank Turek actually allows himself to Think Through the ideas and allows himself to question the assumptions that he came into the question with it's a very very cool thing to see and the direction that this conversation takes also has a little bit of a unexpected plot twist if you will that I think is also very cool so I'll leave a little bit of
+
+[01:12] commentary I'll try to let the clip mostly play out and then I'll give you guys some of my thoughts as well on the back end so that being said let's dive in there you go hi I'm Kyle hey Kyle I'm an atheist and thanks for coming of course of course um I love uh hearing these kind of debates and stuff um you asked why would you be a atheist if you possibly might know if God exists my answer that question is simple it's just the fact that there's so many terrible things in the Bible like at one point Jesus says to you know one of his disciples it's great that they're you know torturing their
+
+[01:45] sleeves here but only lightly you know even though they did nothing wrong it's great that they're doing it he doesn't give any reason to why he says that he doesn't do anything I don't understand why you would want to follow such a God and my question to you is why you would follow okay let's let's not even look at the context of that passage let's just assume what you said is 100 True okay as an atheist why is that wrong why is that wrong yeah morally I would think that each and every human being here is the same we are all we all have the same rights we all the same Juan's needs um I think
+
+[02:20] we all should do the same thing especially the god that we should follow should have higher expectations okay but you seem to be assuming that certain things are really right and people have certain rights even if there is no God how do you justify that what's your standard of brightness would be a fair Society what do you mean by fair fair everything is equal I personally I have nothing wrong I find nothing wrong with communistic State that's just my opinion um I don't think it's something you can be afraid of everybody seems to be afraid of it okay um in the United States at least but my
+
+[02:59] that's just my thought of fairness is the idea that All Humans should be the same we all okay so it's just it's your thought of fairness what if Hitler has a different idea of fairness is he wrong he's not wrong he is Hitler's not wrong he is not well in in a kind of idea that we all have our own opinions I feel like we should take the utilitary view and go with what is best for the most amount of us okay but what do you mean by best what would mean the greatest positives uh for all for the most amount of people okay but you're assuming that you're assuming there's a vest out there you're
+
+[03:37] assuming a moral law where does that moral law come from if there's no God oh well I personally just think that human beings don't make up their own their own laws I mean each people in time have found their own moral laws and I think that they've become better and better over time better but you you wouldn't even know what better was unless you knew what best was so I'm asking you what is your standard of best to say that certain people are closer to the best or better than others what what's the standard is it just your opinion or is there something beyond your opinion which says this is
+
+[04:07] good well I mean we've all heard about Utopias and a perfect society and things like that that would be great in a way but also we all we've all seen like the books like uh huxley's I believe I forget what it's called he makes a book on you know great for the world um it's that perfect society that everybody's perfect everything you know there's no murder there's no end of that okay but the question is if maybe I'm just not stating it properly what's wrong with murder if there's no God why shouldn't I kill other people to get what I want if there's no doubt because it doesn't help Society why
+
+[04:40] do I care about Society should worry about Society we should be making the betterment of ourselves but Kyle you're importing the moral law into a frame that has no moral law you're as an atheist you're trying to say there is no God which means there is no standard of rightness out there but I'm saying this is my personal standard of brightness which would mean somebody else could come along like Hitler or Stalin and say Kyle if there's no standard Beyond neither you or me then I can do whatever I want including killing you to get what you have it's a very good point that is such a beautifully
+
+[05:21] pregnant pause that you see right there as he actually comprehends what Frank Turek has said in this moment you can see him actually processing that basically his entire life he has essentially been standing on the shoulders of giants and pretending that he could fly ideologically as it relates to morality that being said let's keep going I can see where you're coming from um I don't think that God is needed in in a sense for I'm not looking I don't think anybody here is you know I'm not looking for that I'm looking for human beings just to Simply work together to better Society I don't I
+
+[06:00] again I don't really see that need for a perfect identity of above I don't okay I I mean I'm not saying that an atheist can't be a good person I'm not saying atheists don't know right or wrong that's not my point my point is is that it seems to me it's difficult to justify what rightness is if everything is reduced to human opinion which human gets to decide right it's just it's subjective then as as Levi was saying before it's just in my subjective mind if there's not an external reference to say that this is good and this is evil then we're all just here and we're fending for ourselves a
+
+[06:37] lot of people will say and I appreciate your questions a very good question a lot of people will say uh well we need to cooperate to get along right actually that's not true take somebody like Stalin he cooperated with very few people just his henchmen and he killed 20 million people to gut to get what he wanted and then he died on his deathbed at the age of 74 shaken his fisted God one last time he never paid for his sins on this life okay so the problem it seems to me is we know and you know right you know what what's right and wrong and I know it too and I don't need to believe in God to
+
+[07:15] know that I just need there to be in God to justify it let me put it this way um a lot of atheists say look I know right from wrong and I agree with you know right from wrong but that's like saying I can know what a book says and deny there's an author which is true but there would be no book to read unless there was an author the same is true when it comes to morality you can know what the right thing to do is and deny there's a God but there would be no right thing to do unless there was a god that makes sense I guess I can see your point yes this guy is such a legend I love the humility
+
+[07:56] that he shows in this moment where he admits that the logic that he has just been shown by Frank Turek actually does hold up it actually does make sense and rather than feeling like he has to just rebut that or has to sort of clap back if you will he just listens and actually recognizes that perhaps there is uh something beneath the assumptions that he has been operating by there must be a guiding principle beneath those assumptions to actually justify human dignity to justify human rights otherwise we're in a scenario exactly like he described which is called moral utilitarianism it really
+
+[08:33] does boil down to then might makes right where if the majority can agree on something then by definition that becomes what is best for the society the problem with that and he it's interesting that he brought up communism as well because the problem with this is that you have more death and the 20th century than all other other centuries combined through the atheistic regimes that took center stage in human history I mean that's a really significant that's a really significant point that you actually see once once God was sort of dethroned from a certain position in society it created a space
+
+[09:10] where you could have you know atheistic communist dictatorships that took that took over and through that just a a horrific tremendous amount of death and atrocity the fact that we can agree on that raises the deeper question which is why can we all agree on that why is there such a commonly understood a common sense uh approach to morality where we we basically know what is right and what is wrong but but how is this possible how do we have this moral law embedded into our into our Consciousness and that raises the bigger question where did it come from how do we know how are we able to
+
+[09:47] determine right from wrong this way so it's very interesting but I really I really like this young guy and I like the humility that I see this actual video is about about eight years old and so I don't know where he's at now I just pray that the seeds that were planted this day have been watered and that he would come home to God in Jesus name amen thank you foreign

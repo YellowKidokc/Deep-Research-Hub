@@ -1,0 +1,79 @@
+# What We Could Never Explain to an Alien - Hank Green
+
+**Channel:** [[Alex O'Connor]] (`AOC`) · Chapter 367 of 419 · Length 14m 55s · [[00 - Channel Summary]]
+**Video ID:** `HDNa17t-CEA`
+**URL:** https://www.youtube.com/watch?v=HDNa17t-CEA
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** direct
+**Captured:** 2026-10-07 02:41
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:21|Part 2 · 10:21]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] If you said oh like you know Alex why are you wearing a jacket and I said because it's cold you'd be like okay but if you were some alien creature who didn't have like sense data on your skin and didn't understand that there was this that cold was then me saying because it's cold would prompt you to then go what's cold what's that and why does that do that and what it's a but because in the context we've sort of got this baseline agreement we can say oh you >> I would love love to explain cold to an alien. Yeah right? That would be so fun. Yeah but I think it would be impossible. >> doable.
+
+[00:38] You >> [laughter] >> Okay okay. Like like Thank you. >> [laughter] >> Good debate. cliffhanger the next time. What What do you mean? What do you mean you could >> Well so so like you mean like an alien who couldn't feel cold? >> Yeah well I couldn't explain the sensation to them. So what could you explain? >> I could explain I could say uh so so the way that our bodies function chemically is that we have all we have like these molecules. Yeah. >> And they they function optimally when there's a certain amount of energy in the system. >> Mhm.
+
+[01:15] And if there's not enough energy in the system they stop working and our like the thing that is us like the continuity that is is like our bodies stops. And like they probably have some analog for that. Um and uh and so our bodies tell us when we get even a little bit we start to get even a little bit close to that it's a little unpleasant. When we get very close to that it's very unpleasant. >> Mhm. But even when we're like just a couple of degrees off when we have a little bit more or less energy >> Mhm. than is optimal for our bodies >> Yeah.
+
+[01:49] our bodies send us signals and they say we you know this isn't optimal and it's a little unpleasant. Like the sensation is unpleasantness. >> But suppose the alien said to you like what's what's that what's unpleasant? What does that mean? Yeah I mean it's it's a it's an aversion signal. So it's a signal that our bodies are giving to us that >> my my spaceship has an aversion signal. Yeah. You know so so that's kind of So the spaceship's feeling cold? >> Well the question is does this alien also have consciousness?
+
+[02:20] Yeah okay but then if it has consciousness but not that kind of consciousness Yeah so imagine so like so like alien please give me an example of a qualia. Like give me something that you feel. >> Yeah. That's that like drives you in a in a either toward or away from a sensation. >> maybe the reason why we just said opposite things is because we're talking about two different things which is there's like the the physical processes Mhm. >> that like correlate with the experience or the or the qualia and then there's the experience of the qualia itself right?
+
+[02:49] I mean you did crash course psychology some Nine years ago. 11 years ago. >> nine years ago? >> Something like that. >> Something like that about a decade ago and you did the consciousness thing. So you know you'll I don't know to what extent doing that or thinking about that like gave you like hardline views about this but you probably like you're familiar with I imagine Mary's room the thought experiment have you come across this? I talk about this sometimes I talk about this a lot.
+
+[03:20] Sorry to my audience who have heard me bang on about the same things over and over again but I think it is it is it is really useful which is this. Mary is in a room >> [laughter] >> and it's black and white there's no color and she's born in this room. >> Uh-huh. And what she does is she gets given like every single possible bit of information that it could in principle ever even be possible >> Yes I have heard you write about. >> Yeah blue right? >> Yeah.
+
+[03:46] And so she knows everything there is to know about blue that can even possibly be written down onto a piece of paper and then at the end of her life >> Right. she walks outside she sees something blue has she learned something new? And the answer seems to be yes. >> Yes. And can we agree that like we couldn't explain that thing >> sure to an alien. >> Absolutely. But isn't that what like cold is? Well it could be. I mean there is so like you can define things in many different ways.
+
+[04:18] So like is cold is cold is cold the the sensation of cold or is cold the tool that has evolved to to like help us survive. >> Yeah. I think that is the difference and that's why we disagreed about whether you could explain this to an alien because maybe we're talking about two different things. >> But look if you can explain to an alien like mechanistic process by which organisms you know move from cold into into hot like it's cool that you can do that but it kind of suddenly becomes a little bit uninteresting. Do you know it becomes like >> And now we're going to fight.
+
+[04:45] >> It's like a little bit like okay like it's a bit like explaining it's a bit like you know explaining to an alien that like like tech plate tectonics or something. It's like it's cool it's interesting yeah we've got this thing called and they'd be like oh nice so your rocks kind of like bump into each other yeah sweet man that's cool. But if you said to them oh and by the way when they do that it comes along with this like intangible experience >> I that's what I think. I think that the alien has consciousness. >> Yeah.
+
+[05:12] >> And so they have they might not have hot and cold because maybe their chemistry I don't see how this would happen but maybe their chemistry doesn't require it. Uh but but if they have sensations like there are things that they sense um and and I it would be so it's so hard for me to imagine >> Mhm. a complex living system like a multicellular organism that doesn't have experience. Mhm. Yeah there's a there's a a really famous essay that was written by Thomas Nagel in the 70s called what is it like to be a bat. Mhm. And it's a sort of really groundbreaking philosophical essay.
+
+[05:50] Because like you can imagine being a bat and and the reason he uses a bat is because the bats can see can't they they're not actually blind but they they echolocate right? And you can imagine being a bat in the sense of you can imagine being yourself like you can imagine hanging upside down like like clicking around trying to get around. But that's not imagining what it's like to be a bat that's imagining what it's like to be you pretending to be a bat. >> Yeah. Right but what it's actually like to be a bat for a bat >> Uh-huh.
+
+[06:20] his essential conclusion from this essay is that it's not possible to know. It's not possible to take that experiential thing and reduce it to scientific explanation or put it into words. And yeah we know that there are animals that can sense like infrared you know? And we can't. >> Mhm. And we can like mimic it by like an infrared camera but we're not seeing infrared there we're we're seeing normal color >> Yeah I mean echolocation is much weirder. Yeah. >> To me it's like oh infrared maybe it's another color like imagine all the colors but with more. I can kind of do that.
+
+[06:49] But with echolocation that they're not like clicking and having it and and like I don't know. Like like what is it? What are they what are they experiencing because it's not one of our senses. >> Yeah. It's not like one of our senses turned up or down or with like a wider range it's it's a whole other one. >> Yeah or like the >> What does it feel like? Does it smell? Does it does it taste? Does it >> be its own thing wouldn't it?
+
+[07:20] >> Is it is it received it's probably I mean probably we know whether it's probably somebody's put a bat in an fMRI probably and knows that it's what part of the brain is activating. So they might see >> But who cares? >> sound you know? Who cares what part of the brain is activated because you know you because again to us cuz now we're the aliens right? And and we we look at the echolocation we're like oh that's cool. That's that's interesting but the thing that really grips us is like what is that like you know? Or like the birds who can navigate using the magnetic field of the earth.
+
+[07:41] What is that Yeah. Well here's like isn't isn't this cool that we have like like hunger is not like sight. Mhm. Like two sensations they're not like each other but they are like each other. >> Mhm. Like they and and so I kind of kind of imagine it like I like inside of me there's like a central trading post >> Mhm. and and and there and everybody's trading like fish for berries you know? >> Yeah. >> And like fish and berries are totally different things. Like it's just like hunger and fear are totally different things.
+
+[08:14] But like there's something inside of me that's like okay well you have all of these things and so we have to like weigh all of this stuff. >> Mhm. You have to weigh anxiety we have to weigh love we have to weigh cold we have to weigh um you know thirst all of these things at the same time and and pain Mhm. pain like the original one you know like it's got to be the first sensation. Yeah. Either that or like the most pure sensation to like >> I see that must No it must be it must because I was going to say maybe it's like light >> Mhm.
+
+[08:44] >> about sort of light perception but then you kind of have to for that to be useful there needs to be some rudimentary sense in which you you like want >> Yeah. the light and you don't want the dark or vice versa >> Yeah yeah just just like a like want is the want is the craziest thing. Yeah. And I think it's it's almost like all of those currencies add up to the want. >> Mhm. I think so I mean it seems to me that all action requires want. Mhm. Because in order to do anything >> Yeah.
+
+[09:20] you need at least consciously you need to sort of want the world to be a way that it's not otherwise you can't act even if it's like really rudimentary. >> Mhm. And I think want kind of requires some semblance of like pain and pleasure. Because like what to to to have a preference is kind of to say you know this is better than this. >> Yeah. >> Which means I prefer this to this which means at least comparatively this is like bad I don't like and that's that's kind of what pain is.
+
+[09:53] >> Yeah I mean that's the if you go if you go far enough down if you think of like silly ants like I don't think maybe you disagree. I don't think that they have they have sensations. I don't think that they feel. I think that they there's like a there's a gradient of acid and they're moving away or toward it. There's a gradient of light and they're moving away or toward it. And so that's still kind of it's not want in the way that we think. Um but it is it is acting in the world to make the world the way that is better for you. Yeah. Yeah.
+
+## Part 2 · 10:21
+
+[10:21] But at some point like the the place where that transitions into sensation Yes. Like that just seems to me like a thing that would evolve. You know? It seems it seems like it it's there's just too much to have it be like a math equation where it's it's a bunch of chemicals receiving signals and and thus resulting in an action. Eventually you have to have the central trading post where all of these sensations is kind of turned into like one thing. Yeah. And isn't that what experience is? >> Yeah.
+
+[11:00] Because it it seems like the the great mystery in the philosophy of mind, the so-called hard problem of consciousness is this weirdness of adding together like atoms, a bunch of like material, and then you get like >> thing out that that feels different to people. >> the taste of Coca-Cola or something. It's it's not even like you don't just get you know, all the brain activity correlated with it's like you get this thing the taste of Coca-Cola. And there are like a few issues with that. Firstly, they seem to be different kinds of things.
+
+[11:29] I've sometimes compared it to like taking a bunch of tangerines and if you just put them in the right order then you get like the concept of divorce. It just it just doesn't make sense. >> Yeah. I don't like yeah. Yeah. I I'm not sure I agree but I I understand what you mean. But here's the other thing, the so-called China brain experiment which you may or may not have heard of.
+
+[11:57] I'm throwing all these I you know, I hate when someone names something and says, "Have you heard of this?" and you're like, "No." And then they start describing and you're like, "Yeah, I yes I have heard of this." >> [laughter] >> I mean the bloody name and now I look like I don't. So so it's this idea like if all that a brain is is just like you know, neurons sort of firing information. It's just information moving around and then if you just have enough information moving in the right way in a complex organization, you get the taste of Coca-Cola. You get the so-called consciousness.
+
+[12:18] Then in theory, you could replicate this. You actually need many many many more people than are in China. But Yeah. They picked China because there was a lot of people and you just imagine that you take a brain and for every single neuron in your brain, there is a human being somewhere on some planet with like a little you know, sticky note passing a bit of information and you replicate it one for one. Would there be a brain >> heard of this one. this big >> Yeah. Uh-huh.
+
+[12:53] taste of Coca-Cola like in the China in the China brain like >> [laughter] >> because it seems like It wouldn't it would that wouldn't happen. >> Yeah, but but how can you say that? Because if if all that the sensation or experience is is just the movement of information in the right way, well I've got the same thing. It's just like it's just like bigger. >> [gasps] >> So why not? Well so so cuz some people say like, "Huh, yeah. I guess I guess it would. Yeah, I guess there would be a big China brain." But you seem to think that there there wouldn't be?
+
+[13:16] Um you know, I haven't spent a ton of time with the thought experiment yet. But there there's I mean There's like mecha like some mechanistic problems there where it's not all binary. So it's not like passing a note. But but that could be solved. >> Yeah. Yeah. We could solve that. Um the It would be really weird. It would be really weird. I think So I get the brain will always be the final frontier, you know? It's very strange. So like a you know most complicated thing in the known universe outside of all the other brains.
+
+[14:03] And and I just I think that we're like still quite at the beginning of it. Yeah. And I'm really interested like the the question of like when or whether a computer will suffer which is kind of the China brain a little bit. Yeah. is really interesting and not like like we've had this script in this I show pitch document for years. And we like we just can't write it. What about when a computer will suffer? >> Yeah, when when will it like when will a computer suffer? >> Yeah. Well what is it is it when will it suffer or will it ever suffer? I mean what's it Alex?
+
+[14:36] It's which whichever title gets more clicks. >> [laughter] >> If you enjoyed that clip, you can watch the full episode with Hank Green by clicking the link that's on your screen. To support my work and get early ad-free access to episodes, subscribe to my Substack at alexoconnor.com. Thanks for watching.

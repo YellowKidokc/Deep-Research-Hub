@@ -1,0 +1,52 @@
+# Why Human Connection Matters Now More Than Ever | Jud Brewer on Impact Theory
+
+**Channel:** [[Tom Bilyeu]] (`TB`) · Chapter 1293 of 1389 · Length 9m 55s · [[00 - Channel Summary]]
+**Video ID:** `CIIsSVSSTzQ`
+**URL:** https://www.youtube.com/watch?v=CIIsSVSSTzQ
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-20 18:16
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] the worst punishment that a human being can have is to be isolated you actually see fractures and people's psyches if they're isolated long enough which I cannot believe is true but does seem to be actually true even people in solitary confinement in prison would rather be around murderous rapists than to be completely isolated I legitimately that just seems shocking to me so what is it about isolation what's going on in the brain that would actually be really interesting and then in this time period I think that the pet thing is huge fostering for anybody that didn't hear the distinction
+
+[00:34] between adopting and fostering fostering would be a temporary replacement of course if you end up falling in love of your dog's as much as I love mine then maybe it does become a permanent home but that that's really interesting are there things beyond that that we can do to get out of that so just a recap isolation what's going on in the brain and then beyond pets is there anything that we can do to feel more connected over the internet I don't know anything yeah so it's interesting you mentioned solitary confinement because to really kind of torture and I really feel like it's torture for
+
+[01:07] solitary confinement to work to fracture people's psyche they can't have any contact right so no you know they they try to you know talk to people through the cells and all this they it's just like complete silence they have to be with themselves so in the brain I don't know all of the specific ins and outs of that I'm not sure that people have done fMRI studies if people have been in solitary confinement but what I what I can say is it's you know it's pretty clear that as you're pointing out the social isolation is really challenging the nice thing here is we have this thing this
+
+[01:41] double-edged sword called the internet and so on one hand it can spread social contagion in a negative way on another hand it can spread social Purell so to speak or brain sanitizer in a positive way so we can stay connected with others through texting each other calling each other on the phone getting on skype like we're doing and just having these face-to-face interactions and I think the face-to-face is really key here there's something really different about having a conversation with somebody on the phone then having it with them face to face a lot of that probably has to do with most
+
+[02:17] communication actually happens non-verbally your your nodding your head right now so I've just you've just communicated with me non-verbally right now you're smiling so all this stuff so the fact that we've got Skype and zoom and all these teleconferencing and videoconferencing pieces is really helpful I actually run a live group every week for the people using our apps and we use zoom to tell it to videoconference and it's really connecting people connect from all over the world and to be able to answer questions and interact with people literally face to face even if they're in Europe or in
+
+[02:51] Australia or whatever is really really helpful yeah so I've always been shocked when my wife and I first got together obviously boyfriend and girlfriend at the time she was living in London I was here in LA and all we had was phone call and email and this is in the days of long-distance and I was poor so doing phone calls was we did it rarely so it was mostly email and when Skype and video calls came out I was like I can't believe how impactful this is makes a huge difference if I'm able to see her or anybody for that matter or just hear them it's really interesting have you done VR with
+
+[03:31] other people I have not but I would do now you're peeking my curiosity I'm telling you right now do it it is crazy so I did a version with just like a Samsung phone so it was really low quality but it was it was filming I think oh one of the the Cirque de Soleil and so there was this character from oh and they start really far away in the background and they just keep walking closer and closer and closer to the camera until they're you literally feel like you need to back up because the sense of presence is so real I was really surprised by how impactful that was I think that's a really good
+
+[04:10] piece of advice for people is just if you've got somebody that you can video with do it I'm gonna ask you a curveball question so let's say that somebody unfortunately finds himself in this position they are sort of social isolationist they because they're bumping into people the time they don't even think about it so they they don't have a network of friends they don't have somebody that they call and hang out with on a video call just reading help that's a great question thank you for the curveball let's see how I do so there I would say if we can connect with the characters in the book
+
+[04:48] like if it's a really good novel it's a there's a feeling of connection there where it's like oh and I don't know about you but when I read a really good book feels pretty darn good so that that's the first thing I would say is you know if you're reading a book don't read a book about kovat 19 because there probably isn't one because nobody's written the book yet but I would say read a really good book where you can really relate to the characters and in that sense we're gonna start to fire off these brain systems that are around you know really around like being able to put ourselves in
+
+[05:23] other people's shoes and I'm good I would guess that that absolutely can foster connection as well but it's an experiment that people can try for themselves yeah it's one that so I was thinking about this like I've often thought about because I don't feel compelled to be around people which I think would surprise people but I find especially it I don't know call the last 10 or 15 years of my life I have felt very introverted which wasn't necessarily true when I was growing up I definitely would have identified as an extrovert as a kid but as I got older I found myself retreating more and more
+
+[05:57] into my imagination and so I thought like what I really like Raik if i were isolated long enough and I've I've I don't know why but like thought what if I were like Tom Hanks in how men I'm blanking on the movie lost I know where he he is the island lost on the desert island we're yes blanking on the name of this believe it I've seen this movie so many times it's so good but anyway he's on the desert island by himself and would I overtime break would I be able to talk to an inanimate object or something like that I thought I really feel like I would because when I'm reading a book I get so
+
+[06:38] first in that world and I am it really makes me want to know why isolation is so hard is it what you're talking about is it projecting yourself into somebody else's shoes you know what what are the mechanisms is it the emotional change because there are things from the outside that are taking you on this emotional roller coaster because you're getting input from the outside I don't know but for me reading books even more even though I am definitely a movie guy over books I would say reading has an intimacy that nothing else has and so the good news is if you have even if you don't have books
+
+[07:13] in your house if you have an internet connection you'd be able to get into a book and I have a feeling at least in the short term that it would be a pre viable way to solve whatever that pain is that's created through isolation which is my big concern so when I think about like what's gonna freak people out and this admittedly is probably just a blindness that I have I don't get freaked out by the disease itself there's even though we don't know a lot about it there just seems way too much data like I would say most people probably pay get at one to one and a half percent fatality rate you
+
+[07:54] see some people saying even lower even if it was insane and it was five percent which it is not but if it was ninety five percent survival rate right so I that one doesn't freak me out but the thought of people having to isolate themselves the thought of like the economic disaster that could happen from that that's where I worry about people I'm really beginning to wind themselves up as you're saying and having a hard time and so going back to that pleasure loop of having some way to emotionally connect with something as a way to lower that book seem like the sort of great equalizer
+
+[08:30] absolutely absolutely and I and I think there's one other piece that we can even add to that and I love your idea about books I didn't thought about that's brilliant this fear of the future anxiety is about fear of the future and so if we think about you know you brought up a couple of things like Oh what about economic collapse what about this you know in our spiral out of control right they wind up more and more and more the more out in the future we get because the lesson less certainty we have so the idea there's this comes I learned so much from my patients one day at a time right if we
+
+[09:04] notice that our mind spiraling out and say hey take a deep breath ground yourself in your experience you know use a short mindfulness practice let your prefrontal cortex come back online and say hey do I need to worry about six months right now I don't know what six months are gonna look like let's start with today and if today even seems overwhelming let's start with what needs to happen this next hour so we can take or this next minute or this next moment right so we can take it moment by moment and that will help us stay grounded in actionable stuff because we have accurate information for
+
+[09:36] this moment like do I need to eat something do I need to drink something do I need to relax do I need to cuddle my pet you know what do I need right now we know that and we can say okay let's take it this moment let's take it this hour let's take it today and then we'll worry about tomorrow tomorrow or not worry about tomorrow we'll plan for tomorrow as tomorrow comes

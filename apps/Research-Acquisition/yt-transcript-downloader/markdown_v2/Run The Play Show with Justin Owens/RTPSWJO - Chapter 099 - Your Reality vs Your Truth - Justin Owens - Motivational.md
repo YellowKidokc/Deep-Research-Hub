@@ -1,0 +1,50 @@
+# Your Reality vs Your Truth - Justin Owens - Motivational
+
+**Channel:** [[Run The Play Show with Justin Owens]] (`RTPSWJO`) · Chapter 99 of 99 · Length 8m 42s · [[00 - Channel Summary]]
+**Video ID:** `JTiqjYvpXAU`
+**URL:** https://www.youtube.com/watch?v=JTiqjYvpXAU
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-12 00:04
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] [Applause] [Music] [Applause] I feel like Superman they going to remember me I think I know I can who says it's hard to reach who's going to stop me on the road to success I don't know [Music] [Music] what's up guys it's Justin man I got to tell you right now look I'm super excited I'm super pumped because of the message I got to share with you guys today look you're going to need this going into 2017 I got to share with you on something that is going to impact a lot of people let me tell you why because there's so many people that's going through it look I've been traveling around the
+
+[00:49] country Mee people in different areas man and I and I see it man I feel it people are frustrated they they feel like they like they can't accomplish anything they some people scared like I'm seeing man all of my my Facebook uh post and and Instagram and all these different areas people man people are frightened they're nervous they stop believing they look they don't even feel like they deserve things any like I've talked to some people like as I've been traveling they don't even feel like they deserve to become successful right I we were having a conversation we're having a little event and
+
+[01:16] and a young lady start telling us her story of how she got over and how she started to believe my my kids could have a better life if I wasn't around man if she wasn't there anymore if she wasn't in their life anymore if she wasn't living anymore that they would be better off without her my family could do so much more if I wasn't a burden on them and I started to understand man like how so many people sometimes get down on them St that they start believing something that's not the truth they start believing stuff that's not really the reality and I got to tell you guys if you ever believe
+
+[01:50] that if you got somebody around you that's believe it maybe sometimes you got somebody that's dealing with depression look guys I got to tell you right now there's a lot of people that's depressed don't even know it why because they start talking to the themselves they start listening to themselves and started listening to things like who's I got a question for you who you listening to right because if you're listening to yourself and that's the kind of stuff that you're giving yourself guess what you're going to be in a bad spot but the nice thing for her is that she start getting around a
+
+[02:15] group of people that can help her change her mentality that can help her to think differently let me tell you something that that that maybe nobody's ever told you before if if you're watching the video right maybe nobody's ever told you that you can do something that you can be more but I want to tell you that no matter what your trying to accomplish you deserve it like like I don't care if nobody in your life has ever told you sometimes you need somebody to just tell you like look you're great look you're special you can accomplish something I'm here to tell you today you deserve whatever
+
+[02:40] it is that you want what happened for me ladies and gentlemen is I got to a point where I not only believe that I can accomplish things but I start getting to a point where I felt like I deserved it like where I could see it and I can feel it and that's the one of the things that I had to do look when I had dark spots in my life when I when things were dark in my life I had to be able to speak light into it like so you got to start speaking life into your darkness when things are in a dark spot you got to start telling yourself the truth in those situations Justin what do you mean tell
+
+[03:11] yourself the truth look here's the reality where you are is not who you are right if you got a negative bank account if you got poor relationships that's not you right that's just some stuff that's going on around you you're not your bank account you're not the car you drive you're not where you live you're not any of that stuff and you got to stop connecting yourself to all these different things that you're not so what did I do I start speaking life into my situation I stop saying Jus you know what you're not your bank account guess what your bank account might be negative guess what you're
+
+[03:40] positive that's the truth right so you might be in a tough situation but guess what that's not the truth the truth is you're going to be out of it look you got to start looking if you're going through some health challenges right now you say look I don't know how I can do it I I I'm tired I'm tired of going through it you got to start talking to yourself every single day and Speak Life into you speak life into your situation say you know what my situation might be in a I might in a tough situation right now but guess what I'm getting out of it I might be in a bad spot but guess what my health
+
+[04:03] is getting better every single day you're in a bad relationship do the same thing stop speaking Darkness on Darkness look anybody can speak negativity on negativity that don't take any type of skill you ain't got to be special to talk bad about something that's bad What It Takes skill to do is when something's negative talk positive about it that's what happened for me and my life people say Justin how did you go from you didn't have any college degree right you you didn't you didn't have any secular training what did you have look I started surrounding myself around mentors and I got to a
+
+[04:32] point where I didn't have a job right I've been doing this for over 12 years ladies and gentlemen and guess what got to a point where now I run multi-million doll companies how did you do it the stuff I'm telling you right now I believed it I saw it right and what I started to do is I got to a point where I started I started envisioning I started seeing my future but I was grinding in my present I'm going to say that again I started seeing my future I was visualizing it I I was feeling it on every sing day but I grinded my current situation every single day and guess what one day I woke up
+
+[05:03] and I was where I was visualizing one day I woke up and everything that I wanted in my life I had it you got to do the same thing you got to stop visualizing darkness when you're in darkness don't take no skill to do that and stop quitting I get people coming to be like just man I'm so I'm so tired of starting over every year I'm tired of starting over I said look if you tired of starting over stop quitting like everybody quits look I used to be a habitual quitter every time something got difficult I quit every time I ran into a challenge I run every time I ran into some type of a speed bump
+
+[05:36] it didn't go the way I thought it was going to go I would run and I said you know what Justin man you know what happens when you quit fine what have happened if you stay find out what happened in your life if you just say stayed through some stuff like I'm look I'm tell you right now like I ain't smarter than most people I wasn't the best dresser when I when I started I wasn't the best speaker or none of that stuff but what did I do do when most people quit I kept going when everybody else found a reason to quit I found a reason to keep keep going and then you do that over years after years
+
+[06:08] after years and then people come up to you like man how did you do it overnight man overnight was 12 years man overnight is still going it don't happen overnight but what happens is you just stop quitting because one thing's for sure you'll never be successful being a quitter so here's what I want you to do right I want you to write out your goals right and I want you to start seeing it I want you to not only see it but I want you to feel it I want you to put some emotion in there start seeing the car that you want start seeing that good health start seeing that good relationship and then
+
+[06:37] start feeling it how would you feel when you pull up in that car how would you feel when you get that new equipment for your business how are you going to feel being healthy how you going to feel passing that test how you going to feel getting that degree how you going to feel moving out that neighborhood how is that experience going to be when you change your life forever how your kids going to be how they going to live start visualizing it start seeing it and start guess what y'all see it already right start believing it so how did I do it I believed it I found a way to believe when
+
+[07:12] sometimes nobody else believed in me I I stopped looking for other people to believe in me and I said look I believe in me so guess what the day your life will change when you wake up and you know what you didn't need another book you you didn't need another video you didn't need another year to come you didn't need nothing else to come but for you to look inside of yourself and say you know what self this is it I'm changing my life and when that happens man everything will change for you I promise you so here's what I encourage you to do right as you step into another set of goals as you
+
+[07:40] step into the new vision of yourself write out what you want see it feel it believe it you already know why by now and that's because I truly believe you deserve it have a nice one [Music] [Music] [Music] they just automatically started at the top and what they don't understand is that all of us have had failures disappointments and even haters but with most maybe you just take a vacation from them here's what I'm here to tell you it's okay there's going to be things that come up people say look it doesn't make any sense I don't see why you're doing that do it [Music]

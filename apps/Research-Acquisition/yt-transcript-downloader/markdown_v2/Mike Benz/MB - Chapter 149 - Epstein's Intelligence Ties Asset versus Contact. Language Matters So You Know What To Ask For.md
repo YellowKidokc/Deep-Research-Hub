@@ -1,0 +1,60 @@
+# Epstein's Intelligence Ties: Asset versus Contact. Language Matters So You Know What To Ask For.
+
+**Channel:** [[Mike Benz]] (`MB`) · Chapter 149 of 690 · Length 13m 30s · [[00 - Channel Summary]]
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:05|Part 2 · 10:05]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] (https://www.youtube.com/watch?v=x82rgwau9B0&t=0s) Well, Yunangan says asset. No, that is the opposite of what I'm trying to tell you guys. Asset has a technical meaning. And this word asset is going to up this whole thing if people don't understand this. This is a facilitator, a CIA facilitator, what they'll call a cooperative contact, a liaison, not an asset. (https://www.youtube.com/watch?v=x82rgwau9B0&t=25s) Let me do a brief detour here. Now, let me explain this to you because this is where they're going to try hoodwink you. This is the heart of the matter.
+
+[00:25] There's something called a 2011 file. Okay, there's a file that's kept on all assets and I want to just go through this with you here. Okay, the human intelligence food chain asset is recruited in the CIA asset validation system. It's recorded in a database. (https://www.youtube.com/watch?v=x82rgwau9B0&t=53s) There's an annual revalidation and there is a counter intelligence check. There's a there's a need to vet their links to foreign intelligence yada. Everyone who's a formal asset or who's an agent gets a 2011 file on them. They are an asset formally.
+
+[00:53] But there are levels to working with the CIA but not formally working for the CIA where there is no 2011 file. I'm going to go through some of these levels. (https://www.youtube.com/watch?v=x82rgwau9B0&t=83s) There's a cooperative contact. Someone who wittingly responds to tasking but is unwilling to enter a controlled clandestine relationship. Co-opy, a private individual who assists on a temporary or opportunistic basis. Ad hoc help, for example, arranging a charter flight, passing a suitcase. (https://www.youtube.com/watch?v=x82rgwau9B0&t=107s) They are not considered formally assets.
+
+[01:47] They are a friend of the station. And then there are liaison, facilitators, business intermediaries, friends of the station, casual quid proquo relationships, occasionally helpful, never formally recruited. (https://www.youtube.com/watch?v=x82rgwau9B0&t=127s) This is what I'm trying to describe to you about Jeffrey Epstein.
+
+[02:07] So when Alex Aosta is asked in footnote 244 of the how do you square these two statements, Alex Aosta tells the Trump transition team that he gave Jeffrey Epstein the sweetheart plea deal because he was told to back off because Epstein belongs to intelligence and to leave it alone because it was above his pay grade with the fact that when 12 years later when the DOJ office of professional responsibility asked him, "Do you have any knowledge that (https://www.youtube.com/watch?v=x82rgwau9B0&t=167s) Epstein was an intelligence asset?" in quotes, direct quotes.
+
+[02:47] And Aosta answers, "The answer is no." How are those two statements consistent? Well, in a deposition, you answer the literal question asked of you. You don't expound on it. For example, if you are deposed and you didn't brush your teeth today and the person asking you the questions in the deposition says, "Did you brush your teeth?" And you want to hide the fact that you didn't brush your teeth today. And they ask you, "Did you brush your teeth?" You (https://www.youtube.com/watch?v=x82rgwau9B0&t=210s) Say yes.
+
+[03:30] Cuz they didn't ask you, "Did you brush your teeth today?" So if you ask someone in a deposition, did you brush your teeth? And they say, yes, I brushed my teeth. Your second question should be, did you brush your teeth today? No. (https://www.youtube.com/watch?v=x82rgwau9B0&t=229s) When Alex Aosta is asked as he is in the I'll show you right here. We covered this last stream, but we'll just do it again. This is all we know about the internal investigation into Epstein's intelligence ties.
+
+[03:49] This single footnote on page 169 when OPR asked Acasta about his apparent equivocation during his 2019 press conference in answering a media question about whether he had knowledge of Epstein being quote an intelligence asset. Acasta stated to OPR, "The answer is no." Well, then how do you square that with (https://www.youtube.com/watch?v=x82rgwau9B0&t=268s) The reporting that you said you backed off Epstein because you were told he belonged to intelligence? How do you belong to intelligence without being an intelligence asset? Because you're in this category. You're not an asset.
+
+[04:28] There is no 2011 file on you. (https://www.youtube.com/watch?v=x82rgwau9B0&t=286s) You don't work for the CIA on a full ter full-time basis. But you occasionally, when interests align, arrange for financing covertly for a project that the CIA wants done, but that the donors in Epstein's network also profit from. (https://www.youtube.com/watch?v=x82rgwau9B0&t=308s) This is what happened in the case of Bruce Rapaort, Mark Rich, and a dozen others that we're going to go through over the course of the next few hours here. You guys following along with me?
+
+[05:08] Now, I'll I'll show you an example of what this looks like because, as we're going to see, and I'm going to emphasize this point a few times. Let me do a quick detour to show you what this looks like in CIA speak. (https://www.youtube.com/watch?v=x82rgwau9B0&t=334s) Here's a declassified CIA secret memo from 1974, declassified in 2006, to the chief of the CIA's European Division. Subject groovy European media assets Austria in depress. It's an independent daily newspaper newspapers circulation 61,000 an influential Can you guys see this? Do I need zoom?
+
+[05:34] An influential Austrian paper with Salberger Nakriten has significant readership outside Austria. (https://www.youtube.com/watch?v=x82rgwau9B0&t=370s) What is our access to this newspaper? Okay, so this is a description of the newspaper and here is our point of contact to instrumentalize the newspaper. GR camera is the cryptony. Okay, this is a cryptony. So the facilitator here has a cryptony. (https://www.youtube.com/watch?v=x82rgwau9B0&t=391s) Now you can have a cryptony if you're an asset. You can also have a cryptony if you are a facilitator liaison. But they're hiding his name.
+
+[06:31] Editor-inchief does not accept direct placements, placements for stories. This is the CIA wanting to plant media stories in European media. He does not accept direct placements from the CIA on a routine basis, but is a witting cooperative contact who will occasionally place a special story in response to our guidance or suggestion. (https://www.youtube.com/watch?v=x82rgwau9B0&t=426s) So, this guy probably does not have a 2011 file. He's not an agent. He's not necessarily an asset.
+
+[07:06] He is a cooperative contact, usually not on the roles as an asset, no control measures over him, does not work for the CIA, but he speaks not infrequently with the CIA with the CIA as a witting cooperative contact for the CIA who does not do everything the CIA says. (https://www.youtube.com/watch?v=x82rgwau9B0&t=473s) He does not always print the story the CIA contact tells him to print, but will occasionally place a special story when we really urge him to or it aligns with something that he wants printed anyway.
+
+[07:53] Okay, this is what the relationship is with Epstein as I'm trying to convey when covert financing needs to be arranged with outside bankers, outside hedge funds, outside high- netw worth individuals, he is a witting cooperative contact. (https://www.youtube.com/watch?v=x82rgwau9B0&t=511s) This is how you have the same equivoc equivocation from Jeffrey Epstein that you have with Alex Acasta about it. Jeffrey Epstein bragged I think in what was it the Sunday Tribune or something in the UK that he worked for the CIA and then they said years later he denied it.
+
+[08:31] Well, because you're not working at the CIA. You're not even really working for the CIA, but in glib terms as a witting cooperative contact who occasionally arranges deals when the interests align. Then you are (https://www.youtube.com/watch?v=x82rgwau9B0&t=546s) Simultaneously working with the CIA without working for the CIA. So they say, "Okay, here's another one. This one name redacted because there's no cryptony.
+
+[09:06] Editor for military and European security affairs is a cooperative contact willing to place a story on occasion if it has a bearing on his areas of interest." So this is not an agent working full-time. This is not an asset who's doing everything the CIA says. (https://www.youtube.com/watch?v=x82rgwau9B0&t=574s) He will occasionally do what the CIA wants. He'll occasionally not do what the CIA wants. But the CIA has a line of communication who reaches out and says, "Listen, I think this will be good for both of us.
+
+[09:34] You want can you do this?" And if Epstein or in this case redacted media guy says, "Ah, okay, this is actually on my area of interest." Yeah, I'll place that story. (https://www.youtube.com/watch?v=x82rgwau9B0&t=605s) Now, let's see how it looks like with other folks who are assets. Vienna, the Walking Press, an independent political, economic, cultural, weekly that has wide readership in leading Austrian governmental, economic, and intellectual circles. What is our access at the CIA to Woke Press, this highly influential magazine, newspaper read by a lot of Austrian government officials.
+
+## Part 2 · 10:05
+
+[10:05] Well, our access is name redacted, foreign news editor at the at that newspaper. Now, he was a salaried asset (https://www.youtube.com/watch?v=x82rgwau9B0&t=640s) Until late 1968 when he asked for a temporary suspension of the of contact with the CIA the CIA point of contact, but he was re-recruited as an asset 6 years later in 1974 and he has agreed to accept press placements appropriate to his area of responsibility. (https://www.youtube.com/watch?v=x82rgwau9B0&t=663s) Do you see the distinction? One is simply a cooperative contact who when the interests align, they work with the CIA.
+
+[11:03] One is a salaried asset working for the CIA. This guy's going to have a 2011 file. If you were to ask, if this guy were to get a sweetheart deal and Alex Aosta was asked under oath, was is this an intelligence asset? You would have to say yes. This one you can say no. (https://www.youtube.com/watch?v=x82rgwau9B0&t=695s) Do you follow? But that's a salaried asset. Now let's go to this one. Newspaper in Vienna. Durkier independent daily. Circulation 450,000. One of Austria's two largest mass circulation dailies. Somewhat less sensational than his chief rival Du Crosenette.
+
+[11:57] (https://www.youtube.com/watch?v=x82rgwau9B0&t=717s) Access. Name redacted. A winning unsalaried asset. So you have a winning So we now have three different categories of working with the CIA. We have a salaried asset who's get who's getting who's got a 2011 file classified as an asset and getting paid by the CIA to do it. Then you have an asset who's got a 2011 file, but they're not getting money for it, who freelances there and has placed several stories at the request of the CIA station.
+
+[12:37] He is essentially a reporter rather than a commentator and (https://www.youtube.com/watch?v=x82rgwau9B0&t=757s) Prefers placements with newsworthy value. But notice how they make the distinction. This guy's an asset we don't pay, but he's been vetted and there's a file on him. This guy's an asset we do pay. He's vetted. There's a file on him. (https://www.youtube.com/watch?v=x82rgwau9B0&t=774s) This is just a contact, but he's helpful to us from time to time. And if you know, if you want to read more about this, like here, I'll just send you a link to the Okay, it's interesting document.
+
+[12:54] You'll see, for example, cooperative contact, an editor with good potential. He's placed articles at the request. Our contact lapsed, but he's currently being reconted. (https://www.youtube.com/watch?v=x82rgwau9B0&t=808s) Okay, now let's get back to Bruce Rapaort.

@@ -1,0 +1,28 @@
+---
+fis_schema: "folder-index.v1"
+folder_id: "FLD-20260829-4d6a1590"
+folder: "Documents\#recycle\axiom dump\B\transfer\Axiom-Navigator-extracted\Axiom-Navigator\client\src\pages"
+folder_class: "project"
+confidence: 0.6
+dependency_risk: 0.0
+dominant_family: "code"
+dominant_ratio: 0.944
+file_count: 18
+classified_at: "2026-08-29T14:22:41"
+allowed_actions: ["index", "rename_internal", "subfolder_sort", "archive_exports"]
+suggested_name: "pages"
+---
+
+# FIS Folder Index: pages
+
+**Class**: project  ·  **Confidence**: 60%  ·  **Files**: 18  ·  **Dominant**: code (94%)
+
+## Allowed actions
+- index
+- rename_internal
+- subfolder_sort
+- archive_exports
+
+**Suggested name**: `pages`  (not applied — review before use)
+
+<!-- FIS folder-index.v1: parseable note; safe to regenerate. -->

@@ -1,0 +1,56 @@
+# Watch This Get Him Mad At The Preacher
+
+**Channel:** [[Living Waters]] (`LW`) · Chapter 2186 of 2497 · Length 9m 33s · [[00 - Channel Summary]]
+**Video ID:** `pwCRns7iCos`
+**URL:** https://www.youtube.com/watch?v=pwCRns7iCos
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 03:33
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] You just have to ask if God's love is conditional or unconditional. I'm not a lying thief for sure. Don't be putting words in my mouth. Have you heard of the tragedy that happened in Texas? 27 young kids from a Christian camp were drowned. I have said this a hundred times and I will say it again. We need your prayers. We need your prayers. Pray for the families who have lost their loved ones. So, we say God bless all of the people that have gone through so much and God bless God bless the state of Texas. Prayer matters and we thank God Almighty.
+
+[00:39] God has blessed Texas and will continue to bless our great state. Every parent that sent those kids to the camp no doubt prayed that God would take care of them. Evidently, he didn't. They died. Either God doesn't exist or he doesn't care. Yeah. If you assert that he's all powerful and all loving. Yeah. There's another argument that you won't hear in the media. And that is the Bible says we live in a falling creation. In the next 24 hours, 150,000 people will die and many will be children. Some will drown, some be killed in car accidents, some will get cancer, but they'll die.
+
+[01:08] Every time you hear of someone dying, it's evidence what the Bible says is true. God's given you the death sentence. You're on death row. You're in a nice holding cell with a nice blue roof, good air conditioning, but this life is a holding cell, and your death will be evidence to you that God is deadly serious about sin. Watch until the end of this video to find out what happened with both of these men. You're going to love it. And to find out the reason tragedies of this sort don't rattle our faith in God. You've just been to a funeral. I just went to a funeral for my good friend's dad.
+
+[01:36] He died at 94. What happens when people die? Where do they go? Heaven. Everyone goes to heaven. No, not everybody. Sometimes if you're a bad guy like people in Iraq, they go to hell. Are you a good guy or a bad guy? I'm a good guy. How many lies have you told in your life? Uh, none. I'm an honest guy. Oh, maybe when I was a kid. You started lying when you were young. No, I don't lie. You ever stolen something? When I was a kid? You ever used God's name in vain? I guess. Yeah. You've taken his holy name and used as a cuss word, Diego. That's called blasphemy. Very serious in God's eyes.
+
+[02:06] Punishable by death. In the Old Testament, Jesus said, "If you look at a woman and lust for her, you commit adultery with her in your heart." Have you ever looked at a woman with lust? At the beach. What do you expect? Had sex before marriage. Oh, yeah. I was a teenager in '8s. So, you've told me you're a lying thief and an adulterer. I'm not a lying thief. Don't be putting words in my mouth. You started lying when you were young and stealing when you were young. No, I didn't steal. I borrowed it and I I had to go give it back, my dad said.
+
+[02:33] And you're a fornicator besides an adulterer at heart. Oh, no. If God judges you by the Ten Commandments on judgment day, bearing in mind, I'm going up there. Well, the Bible says differently. It says all liars will live their part in the lake of fire. I don't know. No thief, no adulter fornicator. I've already repented for my sins a long time ago. How long do we have to do this for? Cuz I want to go to the end of the pier. Be 2 minutes. Okay, it's already been 2 minutes. Okay, get to the good part. I'm done with that bad part. We're all sinners. We're heading for hell, but God provided.
+
+[03:01] Hell in a bad place to be. It's a song from AC/DC. Oh, please don't make jokes about hell cuz I don't want you to end up there. I'm not going there. I'm going up there. How can God forgive your sins? What did he do so we could be forgiven? He put his begotten son on the cross to die for our sins. Now most people know that but they don't know this. So just listen for a second without butting in and let me share it with you and get your thoughts. Okay. You and I broke God's law. Jesus paid the fine. That's what happened on that cross. That's why he said it is finished.
+
+[03:27] Just before he died, he was saying paid in full. If you're in court and you've got speeding fines and you plead guilty, a judge will let you go if someone pays those fines. They say you're out of here and it's legal to let you go. Well, God can legally take death off you because of what Jesus did on the cross and paying our fine, rising from the dead, defeating death. And if you'll simply repent of your sins, and that means to confess and forsake them. It means to turn from them.
+
+[03:57] The Bible says, "Let everyone that names the name of Christ depart from iniquity or sin and trust alone in Jesus, not your goodness. God promises he'll grant you everlasting life as a free gift, not because you're good, but because he's good and kind and rich in mercy." Does that make sense? That makes sense. You going to think about what we talked about? Yes. Yes, I am. Just have to ask if God's love is conditional or unconditional. The Bible says God is love, but he's not a slave to his love. Does that make sense? It makes sense.
+
+[04:22] Um, I guess for me, step one is to be convinced of the Christian God's existence. Yeah. Well, you've got no choice. You're in your sins heading for hell, and there's only one savior. And there's a reason we deny the God of the Bible. It's because he demands morality. He's offensive to us. He's the one that says, "You shall not commit adultery. Whoever looks on a woman to lust for her has committed adultery wither in his heart. So your problem isn't that you can't be convinced Christianity is the right God or the right way to go. It's the fact that you love your sins. It's as simple as that.
+
+[04:49] You love your sins and you don't want to repent and trust in Christ. The Bible says the wicked through the pride of his countenance will not seek after God. It's not that you can't find God. It's you don't want to find God for the same reason a thief doesn't want to find a policeman. If I was convinced today that God genuinely did exist and that he he will judge me for my sins, I would immediately put all my sins down and try my best to repent and to speak with God every day and I would I would become a lifelong Christian. And he knows that I would become a lifelong Christian.
+
+[05:16] So Diego, what's your problem then? I want to reach out and grab you and say, "Come into the kingdom." The Bible says others save with fear pulling them from the fire. You're like a man who's in bed. His house is on fire. You're awakened, but you're not alarmed. I want you to run out of the house. I want you to see the night. You could die in your sins. Aneurysm in your sleep. Heart attack. This is your life we're talking about. And examine my tone. Why am I talking so earnestly? It's because I do love you and I want to see you in heaven, not in hell. That would break my heart.
+
+[05:46] Will you at least think about what we talked about? Yeah, of course. I I've watched YouTube videos like this before. Can I give you a book I've written called Scientific Facts in the Bible? Sure. When did you last read your Bible? Uh, Can't Tell a Lie. uh 5 years ago. It's God's love letter to you. God gave you life. Put him first in your life. Hey, thanks for listening to me, man. I really appreciate it. No worries. That's the gospel of John. What's in there is more valuable than all the money in the world? So, you like that? Yeah. Yeah. I'm going to read John, actually.
+
+[06:17] Diego, would you be embarrassed if I pray for you? No. Can we pray now? Sure, you could pray. Father, I pray for Diego. I know the battle that's going on within his heart, the battle between light and darkness, sin and righteousness. And I pray today he'll look past that and realize that you are the lover of his soul. And you proved your love by Jesus dying on the cross. And may this day you truly repent and trust alone in Jesus and pass from death to life. All because of your amazing grace. In Jesus' name we pray. Amen. Do you have a Bible at home? I'm actually into Genesis right now.
+
+[06:50] And I'm Are you reading Genesis right now? I'm on Genesis 34. I think I'm going to get to Exodus, Job, and then Matthew, Mark, Luke, and John, and then Revelation. Those are the ones I chose. It's a conversation I enjoyed. Still, why would God allow more than 100 people to die in this flood? In the book of Luke, Jesus spoke of a contemporary tragedy, those 18 on whom the tower in Salom fell and killed them, do you think that they were worse sinners than all other men who dwelt in Jerusalem? He didn't say that those 18 who died were being punished.
+
+[07:21] Instead, he kept quiet about it, and so should we, because we don't know the mind of God. Oh, the depth of the riches both of the wisdom and knowledge of God. How uncarchable are his judgments and is ways past finding out. Being a Christian doesn't mean that we're free from the terrible storms of life. But it does mean that we have the consolation that death has lost its sting for those who trust in Jesus and of the fact that God promises to work all things together for the good for those who love him.
+
+[07:52] So we should pray for those who are going through such suffering and we should continually speak of the love of God because he proved his love for us by Christ dying on the cross. No matter how intense the storms of life become, nothing can change that fact. [Music] This is our highquality genuine wood treasure chest and it's packed with 300 metallic, these are not plastic, ten commandment coins. They have the Ten Commandments on one side and the gospel on the other. We also have one that contains 500 coins and another that contains a thousand.
+
+[08:26] We even have one that has gold coins for that very special person. These are so easy to give out. You just say, "I've got a gift for you. It's a coin with the Ten Commandments on it. How many can you name?" Treasure chests and bags of 50 coins are available at livingwaters.com. Sexual immorality has devastated too many men, damaged too many families, and marred the gospel's testimony too many times. Now is the time to prepare yourself to fight, win the war on purity, and get our latest book, Fight Like a Man. Living Waters exists as a nonprofit ministry to help you grow in your faith.
+
+[09:06] Here are three things to help you do just that. the Living Waters podcast, the Evidence Study Bible, everything you've ever wanted to know about the Christian faith, and the starter kit, four of our most popular gospel tracks. These and much more are available at livingwaters.com. If you've never seen our very moving video, Watch God Do a Work in Her Heart, you can watch it right now by clicking up to your right.

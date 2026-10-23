@@ -1,0 +1,19 @@
+# What do women owe men in relationships? #relationship #love #men #dating #marriage
+
+**Channel:** [[Kait Willett]] (`KW`) · Chapter 249 of 325 · Length — (prose source, no timestamps) · [[00 - Channel Summary]]
+**Video ID:** `kL1ASbVJ-yw`
+**URL:** https://www.youtube.com/watch?v=kL1ASbVJ-yw
+
+---
+
+### [00:00](https://www.youtube.com/watch?v=kL1ASbVJ-yw&t=0s)
+
+We hear a lot about men's duties in a relationship, right? Men have duties. Do women have any duties?
+
+— I think that that's the crux of the conversation that we're not willing to have when it comes to relationships, marriage, and why marriage rates are at the lowest that they've ever been. I mean, the majority of Gen Z women don't want to get married, and the idea of having obligations, I think is such an important conversation cuz even when we talk about me meeting my husband's needs, you being my husband, right? Women get up in arms about the fact that it's about if he does it, too. Well, him, too. Well, him first. Well, it's such self-abandonment and exhausting if you do this and they don't respond or they don't reciprocate. And we create this image where men are required to give first and women are not always required to reciprocate. And there's an excuse and a justification as to why they don't show up, why they don't give, why they don't support, why they're not patient, why they're not kind, why they're not loyal, why they're disrespectful, right?
+
+And they do all of these things and there's always an excuse for them as to why instead of holding them accountable to recognizing that there are certain virtues, certain values, and certain responsibilities that you have when you agree and you commit to being a wife to somebody. And that agreement, those convictions, those responsibilities are not dependent upon him having a mood, him being stressed out, him being a little bit distant, him going through things, him not being able to give you what you want when you want it, how you want it. And because we do not hold women to that same standard, there's a plethora of people and conversations online where it's like what men need to do. Have they stepped up? Have they tried harder? Have they gone to therapy? Have they done the work? Are they growing? Are they providing? Are they successful? Are they trying harder? Are they being more empathetic and compassionate?
+
+Are they listening? Are they controlling their emotions, specifically anger? Right? All of these things that men have to fix, change, evolve, and grow into, and we're not having that conversation about women. And when you try to have that conversation about women, what you're met with is men, typically, or some women who will kind of rah-rah behind this, is that women were already ahead of the curve. And I completely disagree with that sentiment. It's like women have already done the work. Women are already evolved. Women have already gone to therapy. Yeah, they're going to therapy and they're not actually applying any tools. They're using their therapist most of the time to just enable certain behaviors or make them feel justified and they'll come home and they'll say, "Well, my therapist said you're avoided." "Well, my therapist said you're controlling." "My therapist said, my therapist said, my therapist said." And it's like therapists should not be having a conversation or diagnosing somebody who's not in the room to be diagnosed.
+
+That is not their job, it's not their role. And the fact that we aren't holding those standards in place also like surrounding influences on women, it's all falling apart and we need to be able to have women with standards and responsibility so that when things get hard, we're not using clinical language to diagnose something when it's just a disagreement or just a marital struggle that is normal.

@@ -1,0 +1,63 @@
+# The Real Reason China Wants Taiwan
+
+**Channel:** [[Tucker Carlson]] (`TC`) · Chapter 642 of 990 · Length 11m 01s · [[00 - Channel Summary]]
+**Video ID:** `EM4IGawga4M`
+**URL:** https://www.youtube.com/watch?v=EM4IGawga4M
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 03:14
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:08|Part 2 · 10:08]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] I think there's a chance that if we enter war with nuclear Allied Russia and China the United States as we know it we may take a risk of it ceasing to exist of course okay I'm glad you appreciate that that's good because many people are like what are you talking about the United States ceased to exist no I actually think well in a nuclear conflict yes well because we don't have nuclear defense capabilities now my view is this is also another heresy that I uh I think have recently managed to cross last night which is that I think our commitments to go to war in that situation or to at least
+
+[00:31] even militarily engage in that situation should change if it's before or after we have semiconductor Independence in this country well yeah I mean I think so right I agree completely but I um for people who aren't following this explain what you mean yeah yeah so this is a you know long history here but for historical circumstances that you know are long and and unfortunate we are dependent on a tiny island nation off the Southeast coast of China for our entire mod way of life these lights wouldn't work the phones in our pockets wouldn't work these you know TV screens and cameras wouldn't
+
+[01:04] work if it weren't for Leading Edge semiconductors that are manufactured by basically one company and a set of companies around them tsmc on Taiwan that power our entire modern way of life that's just a hard fact how we got here it's a long story I think it's sad that we are where we are but we are where we are China has two reasons to want to go for Taiwan okay one is a nationalistic reason which is that back in 1949 they had this complicated War Chen Kai Sheek yeah yeah you know went to Taiwan and claimed that that was actually where the real Republic of China was based and Malong said no
+
+[01:38] no no it's the Communist Party of China out of Beijing and for the longest time actually the US and the UN recognized actually the real china as being run out of Taipei but at some point along the way switched to saying no it's actually run out of Beijing and so there's this nationalistic thing going on that's super complicated history over there but there's a more modern motivation for Shian ping which is wait a minute if I now have control over that Island I have control over the entire United States because I now have the economic leverage to get to a deal that the US wouldn't have said
+
+[02:08] yes to and I think what xijinping is going for is the basic deal where he says I get to make your stuff as long as I get all of your IP and everything else in return and right now if he says that to the us we're not going to go for that deal but if he's squatting on the semiconductor supply chain well then that's how we ultimately get to parody consummate the codependent relationship and I think that's step one of a broader conquest of of the modern West how hard would it be to achieve as you said semiconductor Independence in the United States it's not going to be easy but I'm confident that
+
+[02:38] with Focus I can lead us there by the end of my first term in office and my basic rule of thumb on this one Tucker is just to be very practical looking at this from American interests I do not consent to xiin Ping holding an economic gun to our head and lording that over for the next 100 Years of the future of the United States but if we're no longer dependent on that tiny island nation then I will not send our sons and daughters to die over somebody else's nationalistic dispute how is it to I mean it's it's interesting and you said there's a complex history that I'm not familiar with uh
+
+[03:15] behind it but how complex is it to build your own semiconductor it's complicated because a lot of it relies on knowhow so it's not just raw production capability but it's the knowhow of how you actually make it and so I think that requires pulling people from you know tsmc and Taiwan to the United States and I think that that's something that we should be intensely focused on right now there's new you know giant projects manufacturing projects in Arizona near where I live actually in my home state of Ohio that are going to be steps forward in that direction I also think that like it or not a
+
+[03:48] relationship with South Korea and Japan is going to have to play a role in speeding up our semiconductor self-reliance as well Samsung is the next best leader it's not even an American company after tsmc there's like a big jump down then it's Samsung then there's a big jump down there's Intel and everybody else here so I think that it's going to require and I don't like multilateral trade agreements but if we're going to have to do them let's keep it bilateral bilateral agreements with Japan with South Korea that's a big part of what's going to be required and so my view is let's think about
+
+[04:18] first chman office as it relates to this dimension of foreign policy end the Ukraine war on terms that help pull Russia out of China's hands that's going to require rebuilding a lot of trust I think I'm up for that job and I believe that Putin can trust us to follow our self-interest as long as we trust him to follow his reopen economic relations with Russia freeze the current lines of control make a permanent commitment that NATO will not admit Ukraine to Nato but in return weaken if not disband that Russia China Alliance I'd get India back on side and you know if there's a guy who's going
+
+[04:53] to rebuild trust with India it better be a guy with the name V ramaswami who might be up for that task but you know getting India on on side to say you know what we're going to be making sure that in a conflict situation in Taiwan that we're at least on side with the United States but then more importantly get Semiconductor self-sufficiency in the United States reduce our economic dependence on China if we're there by the end of my first term by the end of 2028 the stakes are now just a lot lower with respect to what's actually happening in Taiwan and if you know is it preferable for China to
+
+[05:24] Annex Taiwan even after that scenario no probably not but that's a different for whether or not we're going to actually be willing to send our sons and daughters to die over it and in the meantime there's one aspect of Our National Defense that surprisingly nobody's talking about Tucker which is actually our National Defense of the Homeland where we have actually badly missed the plot for super EMP attacks cyber attacks nuclear defense you we helped Israel build an iron Dome how about an equivalent of an Iron Dome for the United States and our own Homeland and so that's where I'm focused in
+
+[05:58] my first term if I on foreign policy if I can get us to semiconductor Independence if I can get us to significantly reduced if not total economic independence from China weaken the Russia China Alliance by ending the war in Ukraine that actually keeps China at Bay from not having an economic gun to our head over our modern way of life at which point we then have a different set of commitments where after that we're going to be in good shape no matter what happens and so I wasn't you know planning to get into some foreign policy detour but that's that's the way I'm thinking the first term that
+
+[06:29] all of that makes sense you think so I'm not sure what is controversial about any of that well I think what's controversal about is they how far those priority it's weak that's what I heard yesterday yeah I mean I I from whom well from a lot of Republicans actually and is there a dumber group I mean than than the foreign policy Republicans I I'm not talking about Republican voters I mean the members of Congress the low IQ guys from including your state I hate to say it Texas who make their in entire career about seeming strong and quoting Reagan and under whose watch the country has become
+
+[07:05] demonstrably weaker it has become and that's doesn't lead to strength actually where are we now and the funny part with our transgender Army like seriously well people also miss this Tucker and this makes people uncomfortable they get very upset when I say this I think there's a chance that if we enter war with nuclear Allied Russia and China the United States as we know it we may take a risk of it ceasing to exist of course glad you appreciate that that's good because many people are like what are you talking about the United States ceased to exist no I actually think well in a nuclear
+
+[07:34] conflict yes well because we don't have nuclear defense capabilities now you know defense National Defense has not been about defense for a very long time right and so by the way super EMP capabilities take out our electric grids we have you know 60 Chinese Transformers that are in the midst nodes in our own electric grid they could shut down our modern way of life with that you want to talk about actual Cyber attack capabilities we're better on offense we have no defense of capabilities and and so you know when I think about a modern foreign policy Vision I'd revive a modern Monroe Doctrine
+
+[08:07] you don't mess with the United States on our own soil we are not okay with a Chinese spy balloon flying over half our country we are not okay we do not consent to a Chinese spy base off the Southeast coast of the United States or in Cuba spying on the Southeast Corridor of the United States we're not okay with intentionally pumped fentanyl you know the the raw materials literally coming I'm not making this up from Wuhan two Mexican drug cartels that are intentionally being pumped across our Southern border as part of really a one-sided Opium War no we're not okay with that or with
+
+[08:38] interference in the Western Hemisphere or with China having control over the Panama Canal something that people forget as well no we're not okay with that but that is also our top priority protect the Homeland and the interests of citizens here at home that is how America is strong and actually leads on the global stage and so the irony is at least like the you know know the Reagan version of this was yes all of that projection piece through strength but Strategic Defense Initiative nuclear defense here at home now we're in the worst of all worlds where you have a generation of people who
+
+[09:08] vaguely remember the slogans and feel like they want to Puff their chest but can't really do it super confidently so they're like doing it as like a second language well altogether forgetting about the actual defense of the Homeland it's even worse because the peace through strength part well the strength part actually provokes that which we're not even prepared to handle back at home and and the you know so I end up talking to a lot of neocons actually in terms of you know bolstering me up because they they don't have the the right strategic Vision but they know all like the names of like
+
+[09:34] you know what an Ohio class ssgn versus ssbn isn't I don't know these things all the war porn they love that I mean I wasn't born with this knowledge but I'm going to be US president I better Darnell and trained to know it and so I'm probably talking to more liberal hegemony neocon people training me not because I'm taking their views I deeply disagree with them but they you know know the Lexicon and so you know I want to put myself in a position where it's it's easily dismissible this guy doesn't know what a what an Ohio class ssgn versus a versus ssbn is well okay well now I do it turns out
+
+## Part 2 · 10:08
+
+[10:08] it took all of about 30 minutes to get that one under our belt but it doesn't matter you're missing the plot if you're actually failing to actually Advance is there a single neocon of the happy personal life like imagine I haven't drilled into it dinner at Bill Crystal's house the misery do you know what I mean like it does seem like I I don't want to psychoanalyze here but it it does seem like their project has nothing to do with helping the United States in any way and it is psychosexual or something they they're for they for war war as long as other people fight it I mean it's all very
+
+[10:41] it's like a syndrome yall people say the news is full of lies can's motorave 239 of [Music] Jeffrey [Music]

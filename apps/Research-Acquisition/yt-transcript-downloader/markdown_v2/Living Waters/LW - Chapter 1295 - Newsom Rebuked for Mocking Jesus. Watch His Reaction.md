@@ -1,0 +1,61 @@
+# Newsom Rebuked for Mocking Jesus. Watch His Reaction
+
+**Channel:** [[Living Waters]] (`LW`) · Chapter 1295 of 2497 · Length 11m 16s · [[00 - Channel Summary]]
+**Video ID:** `cCiuNEXxJIA`
+**URL:** https://www.youtube.com/watch?v=cCiuNEXxJIA
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 03:36
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:13|Part 2 · 10:13]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] saying that the Bible is pornographic is so insulting to faithful Christians across the country we then talk about how I do not drink he seemed very surprised by this considering he owns a very nice Vineyard in Napa Valley as you can see I kind of slipped that in there I remember back when I was lieutenant governor I think Bill Maher was trying to get on the UC campus or something they were saying Bill Maher was too conservative Bill Maher a guy known to say a lot of controversial things most recently with this comment about Islam it's the only religion that acts like the mafia will kill you
+
+[00:28] if you say the wrong thing draw the wrong picture or write the wrong book and now he's bringing that controversy to UCC Berkeley where he's invited to be the fall graduation speaker something a group of students are actively trying to stop we called that out at the time it complet but it's equally insane that people are boycotting budlight I celebrated my day 365 of Womanhood the bruhaha stems from budlight shortlived partnership with transgender influencer Dylan Mulaney love you the Fury from the right enough to the throne budlight as the bestselling beer in America for the first time in two
+
+[01:04] decades Kid Rock made his feelings known when he posted this video shooting up cases of Bud Light I mean how is that not called out I don't drink but yeah I mean like you don't drink at all I I mean no by the way I'm just that's interesting you don't no never have I have Yeah couple years what happened a couple years ago you stopped what you stopped why' you stop I just uh wanted to be more successful I love that what were you drinking uh Napa Valley Wine right are we going get my Lord and Savior in vain like that for by the way forgive me I I deeply Respect by the way do respect F serious
+
+[01:40] forgive me I I deeply Respect by the way do respect your fa I'm serious the fourth time I come on what did he say I'll repeat it slowly so you can hear what the normally eloquent Governor just said are we forgive by the way forgive me I appre I deeply Respect by the way do respect your faith I'm serious then comes that nervous laughter he intuitively knows via his god-given conscience that blasphemy is wrong and it left him like a deer in the headlights the work of the law written on their hearts the conscience also bearing witness why is the name of Jesus used as a cuss word no other name
+
+[02:25] has ever been used in such a way not Buddha not Mohammad not Hitler or mosalini only Jesus lives in our country Kirk thou shall not take the lord's name in vain whatever have don't get over it why Jesus told us in John 7:7 the world cannot hate you but it hates me because I testify of it that it's works are evil this world hates Jesus for the same reason criminals hate the police police there are those who say the Bible says you shall not take the name of the Lord your God in vain God is a title it's not a name therefore to use it to cuss isn't a violation of that commandment but if I was to
+
+[03:11] say I'm from California and I intensely dislike our sleazy Governor he's a snake if I was to say that it would be an insult to the governor even though I didn't mention his name this is because his title governor and his name gav Nome are one and the same so what's the big deal surely some say God isn't so petty that he'd be worried about words watch as I explain the Commandment to this man and don't forget to watch till the end of this video when you hear Nome talk about the Bible being pornographic what's your biggest problem in life I don't know it's death that's your big problem death is
+
+[03:50] waiting for you be a problem when it happens there will be a problem when it happens I I won't be here no more so yeah but where will you be when you pass on where you going to pass on to do you know the answer or of course okay so what's the answer let me give you the biblical answer it's appointed to man wants to die and after this the Judgment there's an appointment you have to keep you get out of a dancest appointment but you won't get out of the the appointment with death 10 out of 10 die and then after death the Judgment you have to face a holy God so where you going when you die so I'm
+
+[04:19] I'm definitely going to heaven you a good person I fall short yes but I am a good person okay now Jesus said there's none good but God who's long Ling you are Jesus definitely me so I want to show you that the way to heaven is not to be a good person can you be honest with me yes how many lies have you told in your life a lot ever stolen something yes so you're a lying Thief yes ever Ed God's name in vain yes when did you last do that probably just a little bit ago do you love your mom yes I love my mom would you ever use her name as a cuss word no cuz you respect her yes but you don't
+
+[04:55] respect the god that gave you a mother You' have taken His holy name and used it to cast very serious bread it's called blasphemy one ago Jesus said if you look at a woman and Lust For Her you commit adultery with in your heart have you ever looked at a woman with lust yes when didd your last look at pornography been a while how long a week what do you think God thinks of that he don't like it yeah it's committing adultery in your heart so Brad here's the summation of your court case on Judgment Day you've told me that you're a lying Thief a blasphemer and an adulterer at heart have you had
+
+[05:27] sex before marriage yes add fornicator to that list and the Bible says fornicators will not inherit the kingdom of God if you're guilty on Judgment Day would you go to heaven or hell heaven you know the Bible tells us that there are many people who name the name of Christ but don't depart from iniquity they call themselves Christians they confess Jesus is Lord and believe in their heart that God raised him from the dead but they fail to truly repent and there's a reason for it they haven't seen sin in its true light they think lightly of sin they think they're good people and so they don't
+
+[05:58] find a place of biblical repentance that leads to life can you hear what I'm saying yes if you die and your sins you'll go to hell I don't want that to happen to you the Bible says all liars of their part in the Lake of Fire no Thief no blasphemy no fornicator will inherit the kingdom of God so you're in big trouble and I want to see you saved I want to see you in heaven not in hell that would break my heart what did God do for guilty sinners like you and me so we wouldn't have to go to hell oh he died for our sins he died for our sins now most people know that but they don't know this and
+
+[06:28] Rees if you can get a grip of this it'll change everything for you the Ten Commandments are called the moral law you and I broke the law Jesus Paid the fine that's what happened on that cross that's why he said it is finished just before he died he was saying paid in full if you're in court you've got speeding fines and you plead guilty a judge will let you go if someone pays those fines he'll say you're out of here someone paid your fine and it's legal well God can legally take death off you because Jesus Paid the fine and fall on that cross rose again on the third day and if you'll truly
+
+[07:01] repent as I said you'll never repent biblically if you think you're a good person and put your trust in Jesus God promises he'll Grant you everlasting life as a free gift not because you're good but because he's good and kind and rich in Mercy does that Mak sense that makes absolute perfect sense please don't be foolish think about this this is your eternity and examine my tone why am I talking to you like this it's because I really love you and I don't want you to go to hell and I know what I'm saying is true so will you think about this with a sense of urgency yeah absolutely I I think
+
+[07:32] that's a beautiful thing that you just said right there when are you going to repent and trust in Jesus rather than trust in your own goodness when are you going to do that I'm working on it man well it's not something you work on it's something you do you say God I'm I'm sorry I've done things that are morally wrong and I need your forgiveness create in me a clean heart the minute you do that God will remit your sin so when are you going to do that now are you sorry for your sins yes can I pray with you yes father I pray for bread than thank you for his open and honest heart I pray today
+
+[08:01] he'll remember his secret sins and tremble at the thought of sinning against a holy God but at the same time catch a glimpse of your love for him expressed through the cross I pray this day he'll truly be born again bring forth fruit worthy of repentance with the love of righteousness and the knowledge he has everlasting life all because of your Amazing Grace in Jesus name we pray amen amen amen and now this is the second most viral part of our conversation where Governor Nome thought he had me bringing up book Banning I should have probably said this in the discussion but saying that the
+
+[08:32] Bible is pornographic is so insulting to faithful Christians across the country I mean like I think we can both agree pornography should not be taught to nine-year-old fair point so that's a book band all right well Mom's for Liberty Movement that you made a big thing of was just no porn to 10-year-olds yeah we agree those books should be banned okay so what we should do right now is every California school that has porn in their Library should be kicked out that the Bible Well I wouldn't say the Song of Solomon is porn no but I mean some have made that point and the district received an
+
+[09:03] anonymous grievance that said the school district was ignoring quote one of the most sex written books around the Bible adding that this edition of The Bible quote has no serious values for miners because it's pornographic by our new definition get this porn out of our schools now is that a fair point or I don't think that's fair as a man of faith and I deeply admire that about you thank you but no I mean I'm really enjoying reading this book you know people give me books all the time all the time and somebody gave me this book at a change my mind event at Cal State Fullerton and I looked at
+
+[09:40] it and it said over 350,000 copies in print I said wow I looked it up it's a author by the name of Ray Comfort I'd never heard of him I'm sure some of you are going to ridicule me for that and it's terrific and it talks about the proper way to present the gospel so I'm just going to tease you about that and we'll really dive into it on Friday I'm so glad whoever gave it to me I don't know your name thank you we'll be right back this is our highquality genuine wood treasure chest and it's packed with 300 metallic these are not plastic 10 commandment coins with the Ten Commandments on one side
+
+## Part 2 · 10:13
+
+[10:13] and the gospel on the other side the wooden treasure chest is available at livingwaters.com thanks to the generosity of our Publishers we were able to get a massive print of scientific facts in the Bible which means you can get them for as low as 99 cents per copy if you order them in bulk see living waters.com for details sexual immorality has devastated Too Many Men damaged too many families and marred the gospels testimony too many times now is the time to prepare yourself to fight win the war on Purity and get Al lat's book Fight Like a Man Living Waters exists as a nonprofit Ministry to
+
+[10:57] help you grow in your faith here are three things to help you do just that the Living Waters podcast the evidence Study Bible everything you've ever wanted to know about the Christian faith and the starter kit four of our most popular gospel tracks these and much more are available at livingwaters.com

@@ -1,0 +1,81 @@
+# Liquid Metal Batteries - As Good As The Hype? | Answers With Joe
+
+**Channel:** [[Joe Scott]] (`JS`) · Chapter 334 of 763 · Length 13m 00s · [[00 - Channel Summary]]
+**Video ID:** `FZHqIKIHSWo`
+**URL:** https://www.youtube.com/watch?v=FZHqIKIHSWo
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-07 04:25
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:10|Part 2 · 10:10]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] This video is supported by Skillshare. Last month on July 13th, the United States saw the end of an era. It happened quietly. Most people had no idea it even happened, but it marked the final nail in the coffin of a technology that helped shape public opinion for nearly 80 years. That thing was the NTSC broadcast signal. The NTSC analog standard was adopted in 1941 and was used to broadcast standard definition TV signals until 2009 when it was replaced by the digital standard called ATSC that can handle higher compression technologies and resolutions.
+
+[00:34] The major broadcast stations uh switched over back then, but there were some smaller stations that kind of kept going with their 525 line signals that became known as Franken FM stations. They were supposed to go quiet in 2015, but for various reasons that got pushed back to 2021, and yeah, now they're gone for good. Think about all the biggest news events of the 20th century. The moon landings, the assassination of JFK, the Challenger disaster. We watched all of those things through the NTSC standard, and now it's gone.
+
+[01:04] And if you're anything like me, you're hearing this news right now, and all you can think is those are still around. The world changes and technology changes with it and vice versa. And right now we're seeing a major shift happening in the energy sector as well. New technologies are springing up left and right to facilitate cleaner, more stable renewable energy, especially in the field of energy storage. So today, let's take a look at one of the newer concepts that's helping to speed this transition along. And this idea, it's pretty metal.
+
+[01:37] [Music] If humans are going to survive into the next century, we have to curb our addiction on fossil fuels. Some experts say that we're already past the tipping point unless some drastic changes are made. Not going to lie, it looks pretty bleak. But there are reasons for hope. China recently committed to being carbon neutral by60. And solar power is so popular in Australia, the fuel industry there is suffering a minor crisis. Yay, crisis. I mean, obviously a crisis isn't good, but this is fossil fuel. But h don't know how I feel about that. Green energy is booming.
+
+[02:06] Obviously, that's a great thing for the planet. But it's almost a victim of its own success because our energy grid was made to deliver energy, not store it for a rainy day. And by that, I mean a literal rainy day when there's not as much solar power coming in. Renewable energy needs some kind of storage solution in order to meet 24/7 365 demand. Simply put, our grid needs to be able to store energy as well as move it around. Tesla, of course, is leveraging their lithium ion battery production to put into packs that power homes and neighborhoods and communities.
+
+[02:36] And they're doing amazing stuff for sure. But lithium ion has its drawbacks like thermal runaway. When lithium ion batteries overheat, they can explode. So, they require a lot of cooling and engineering to keep the temperature down. And these systems contain thousands of batteries. So, if one battery goes down, it can start a chain reaction that can set off all the others. Plus, they degrade over time. They're not easy to recycle. Don't get me wrong, lithium-ion batteries are great for mobile applications. That's what they're made for, but who says that one battery has to do it all?
+
+[03:05] In stationary applications, there may be some other battery technologies that might be more scalable and reliable and won't degrade so much over time. I talked previously about flow batteries and the potential that they have. Flow batteries, they actually use a a liquid electrolyte to sort of store all the energy in. Um, this idea is similar to that except that liquid that we're talking about is molten metal. About a hundred years ago, William Hoops of the Aluminum Company of America patented a process for refining aluminum.
+
+[03:33] In the Hoops process, crude aluminum alloy is purified by passing electric current through a tank. The tank contains a liquid alloy, molten salt, and pre- purified liquid aluminum. Since the salt is less dense than the alloy, and the aluminum is less dense than the salt, the three chemicals float in layers, like oil and vinegar in a salad dressing. Adding current causes aluminum ions to leave the alloy, move up through the salt, and add to the top layer of pure aluminum. And with that, they can just skim the aluminum off the surface and the process is complete. But here's the thing.
+
+[03:58] During this process, this is basically a rechargeable battery. Several inventors picked up on this idea and started developing batteries like this around 1960. But work kind of stalled on liquid metal batteries around 1976 when lithium ion started gaining steam. Fast forward to the early 2000s when Dr. Donald Sataway of MIT started thinking about grid energy storage solutions. He also happened to be studying aluminum processing at the time and he thought that there might be some potential there.
+
+[04:29] So with some help from his grad students, he started testing out different battery chemistry starting around 2009. And he clearly saw something that he liked because one year later he created a company called Ambry. Ambry was set up to work specifically on liquid metal batteries and they started perfecting their chemistry over the year and then last year in 2020 they signed a deal with Terascale to power one of their data centers. This is a 250 megawatt hour power station that's supposed to go up in Reno in 2022. So, what are some of the biggest advantages to liquid metal batteries?
+
+[04:53] Well, two of the biggest are safety and durability, which might sound weird considering that it's literally as hot as the surface of Venus. But the battery has what they call a fault tolerant design. Um, each one of the cells is basically a steel vault that contains different metal chemistries. When the cell is cold, it's completely inert. It's just it's just a brick basically. But once it's heated up to 500° C, that's when the magic happens.
+
+[05:24] Now, this takes a little bit of energy to get started, of course, but once it's up to speed, once it's, you know, heated up, each one of the cells can heat up all the other cells in a thermal enclosure. There are no combustible elements in the cell, nothing to explode or flare out or anything. And if it gets knocked over, it basically just gets turned back into a metal block. Uh, this is known as freezing, and it's totally reversible. You just heat it up and it starts working again. But maybe the main advantage is durability because these liquid metal batteries, they can last for decades.
+
+[05:44] And one of the downsides of lithium-ion batteries is that as the heat goes up and down as they're operated, uh these hard metal components can flex and bend and these cause weaknesses that over time degrades the performance. But there are no solid components in a liquid metal battery. Shooting those ions around in it are just like hitting a T1000 with bullets. Liquid metal batteries are also immune to the dendrites, the dreaded dendrites that can put down lithium ion cells and cause them to short out. There's just there's just no place for dendrites to grow in a liquid environment.
+
+[06:19] But a third upside, and this is a pretty big one, is cost. According to a report by Bloomberg New Energy Finance, cost per kilowatt hour could go as low as $17 compared to $51.2 for lithium ion systems. Now, these are not current prices. These are projections based off of the cost of materials and maintenance and economies of scale.
+
+[06:47] I mean, we're dealing with extreme temperatures here, but we're talking about just kind of pouring metals into a kil as opposed to creating thousands of tiny little batteries and then having to cool them off and arrange them and engineer them and all that kind of stuff. So, if the Tesla mega packs are the gold standard right now, how do these Ambry batteries compare? Ambry advertises the maximum capacity of its standard 10-ft shipping container of liquid metal battery cells, 600 cells total, at 1,000 kwatt hours.
+
+[07:04] This means that the container can store or supply 1,000 kilowatts of power per hour of operation. 1,00 kilowatt hours is enough to supply 34 average American homes. For comparison, a single Tesla mega pack can supply 102 average American homes. That's three times the homes, but at three times the operating cost. So, it's kind of tomato tomato, except there's no chance of it exploding and it lasts way longer. Three Amber containers have about the same footprint as two Tesla mega packs. So, it's sort of like safety versus real estate.
+
+[07:30] But there is one advantage that the Mega Pack that Tesla's Mega Pack has over the Ambry battery and that's capability. So capacity versus capability. What's the difference? Well, let's say you were drinking Coke through a straw out of a bottle. The bottle is capacity. The straw is capability. To increase capacity, you can just put the straw in a 2 L bottle as opposed to a 16oz bottle. But to increase capability, you need a bigger straw. Amber's 10-ft container unit has a capability of 250 kW. That is the max amount that it can push out.
+
+[08:02] Tesla's biggest mega pack has over 1,200 kowatt capability. Now, that's a different mega pack configuration than I was talking about earlier, but that's kind of the point. Mega packs can be configured to work better for capability or capacity. And from what I've been able to read anyway, Amber's batteries don't really seem to be able to do that. Multiple Ambry containers are connected in parallel. So this is kind of like connecting one Coke bottle to another one using a siphon. So the capacity doubles. It can be expanded on, but the capability is the same.
+
+[08:30] So the choice actually comes down to real estate, safety, and application. If you want to run energy efficient appliances on green energy at night, Ambry is a good solution. But for more intensive applications like say charging cars, a mega pack would probably be a better option. Again, it is nowhere written that one battery solution should serve all of our needs. You know, more options are better. Now let's compare the liquid metal batteries with the flow batteries that I mentioned earlier.
+
+[08:56] Flow batteries operate at a much more manageable temperature, but their components and their chemicals are pretty toxic. Now the liquid metal battery has some toxic chemicals in it as well, but the flow batteries operate at a temperature where it could turn into a vapor. A recent government report on energy storage hazards said that flow batteries could cause a lethal spill of hydrochloric acid. And flow battery chemicals are said to be really harmful to aquatic life. So liquid metal batteries went out on the safety side of things again.
+
+[09:20] But uh when you go back to that capacity versus capability thing, flow batteries can be configured to be better in both of those counts. And costwise, flow batteries are expected to get down to around $25 per kilowatt hour, which is half of lithium ion, but still more than liquid metal. Now, it is worth mentioning that uh liquid metal batteries have some interesting applications in extreme environments. Since they generate their own heat, they work well in arctic conditions as well as desert conditions.
+
+[09:45] Ambry clients have asked about using some of the excess heat to just pipe into homes to heat up the homes. And there's nothing saying that you can't use all this extra heat to, you know, turn water into steam and turn a turbine just like any other power station. And I mentioned it earlier being about as hot as the surface of Venus. Well, it turns out that NASA's been talking to Dr. Sataway about using liquid metal batteries on a potential Venus mission. And I recently did a video talking about moon mining and what we can get from the regalith.
+
+## Part 2 · 10:10
+
+[10:10] Well, it turns out that there's stuff in the moon regalith that you can use to make liquid metal batteries as well. This is super interesting technology and it's just one of many different battery technologies that are kind of coming out right now. Each of them have their own use cases. I'm sure I will cover all of them on the channel at some point. Energy storage is just going to be such a big thing in the next coming decades. Like, I'm not a financial adviser.
+
+[10:34] This is not financial advice, but absolutely close out all your accounts and put all your money into some kind of energy storage company. As fast as renewable energy is growing, it's the storage solutions for energy that are going to really get us to that day when where the news will quietly drop that the last fossil fuel station has shut down and we'll all be like, "Those are still around?" So, what do you think about the liquid metal battery? Do you think it has a place in our energy grid? Do you think it's just another idea that's going to fizzle out? Think you got a better idea?
+
+[10:58] Do you think you can do better than this? Well, if you do or you have any kind of big idea, you'll probably at some point need to build a business around it. And if that's something you need to get caught up on, I can recommend the class Art of the Start: Turning Ideas into High Growth Businesses on Skillshare. Presented by Guy Kawasaki and Bill Riker, who have helped start hundreds of businesses, including Pandora.
+
+[11:22] They offer some of the best tips they've learned over the years and walk you through the process of starting, launching, fundraising, pitching, and marketing your big idea to turn it into a sustainable growing business. Some of you know I do have a side business called Canker Boy and we've been kind of starting to redo some things on it. It's it's a long story, but uh no, I watched this class to get some ideas on some things that uh that we could do there and I'm going to be using some of it. It was really helpful.
+
+[11:41] This is of course just one of hundreds of courses you can take on Skillshare covering design, marketing, social media, photography, music, video production, as well as productivity courses, which I think we could all use help with. Skillshare's online classes are super affordable. The first thousand people to sign up with my link below will get a 1 month free trial of Skillshare so you can start exploring your creativity today. So shake things up, try something new. Links down in the description.
+
+[12:05] Big thanks to Skillshare for supporting this video and a huge shout out to the Answer Files on Patreon that are supporting this channel uh forming an awesome community and just being generally really cool people. There's some new names I got to murder real quick. We've got Huzzle, uh, Fior, John Humanist, John Peg, Benjamin Lambert, Melissa Payen, Tristan, Jeff Nutson, Patrick Eeken, and Ashley Castile. Why do I struggle with those so much? Uh, thank you guys so much.
+
+[12:34] If you would like to join them and get early access to videos, uh, get exclusive live streams and all kinds of fun stuff, you can go to patreon.com/anserswithjo. Please do like and share this video if you liked it. And if this is your first time here, Google thinks you might like this video, so you might want to check that out. Or any of the others down here that have my face on them, uh, on the little sidebar, wherever you might be. Um, I invite you to go check those out. And if you do enjoy them, um, I invite you to subscribe. I come back with videos every Monday.
+
+[12:53] All right, that's it for now. You guys go out there, have an eye openening rest of the week, stay safe, and I'll see you next Monday. Love you guys. Take care.

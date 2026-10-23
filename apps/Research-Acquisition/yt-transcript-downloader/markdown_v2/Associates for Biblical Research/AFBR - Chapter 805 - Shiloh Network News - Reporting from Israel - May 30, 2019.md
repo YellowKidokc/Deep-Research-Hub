@@ -1,0 +1,41 @@
+# Shiloh Network News - Reporting from Israel - May 30, 2019
+
+**Channel:** [[Associates for Biblical Research]] (`AFBR`) · Chapter 805 of 1142 · Length 7m 22s · [[00 - Channel Summary]]
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:02|Part 1 · 00:02]]
+
+---
+
+## Part 1 · 00:02
+
+[00:02] (https://www.youtube.com/watch?v=C9mUfllhKzk&t=2s) Welcome to Shiloh Network News with Dr.. Scott stripping Hi, I'm Scott Stripling and I'm Doug Petrovich with Shiloh Network News Doug. We're standing here at an amazing spot called Keep on Puttin. What is it that we're looking at? We're looking in an amazing altar that has four corners and obviously was long enough to hold an animal here. What do you think would have been here? Well, even a bowl, something of that size. This is enormous, it is. And can you imagine, dragging a bull all the way up here to slaughter?
+
+[00:35] (https://www.youtube.com/watch?v=C9mUfllhKzk&t=35s) It? Just would the manpower that would have taken, and when we looked at the side, it's like eight feet down, yeah, it's a flat drop. We can see that it's been worked on the top very carefully to make it flat, and the size are mostly flat as well. Now this has been documented by Professor Y Elite Sword, and he dates it to about the transition between the Iron Age and the late Bronze Age. So maybe thirty two hundred years ago there Abouts, Yeah, and it's about a mile away or so from Sheilo, so that's a big question.
+
+[01:04] (https://www.youtube.com/watch?v=C9mUfllhKzk&t=64s) What about the fact that we have the tabernacle here in this high place? This fourcornered horned altar. You know, there's only seven, four horned altars ever found in Israel, two of them here in the Sheilo region. And you raise, I think, the critical point if we're worshiping Yahweh as Sheilo, then what's happening here, exactly? And that's something that's worth researching and we're talking about, you know, the Bible talks about syncretism, and the prophets are condemning this.
+
+[01:31] (https://www.youtube.com/watch?v=C9mUfllhKzk&t=91s) You're worshiping Yahweh and the other gods. Could this be one of those high places that the Bible talks about? It very well could be, and the question, of course, is, did the Israelites use this? Were they a part of the cult that was here? And it begs the question, You know, which God will you serve? Well, right? So if you're if you're half polytheistic and half monotheistic, do you go off for sacrifices? Sheilo then come over here in sacrifice to Beoh. Cover all your bases, right? That's polytheist.
+
+[01:58] (https://www.youtube.com/watch?v=C9mUfllhKzk&t=118s) Yeah, that's polytheism. And so, you know, once again we see a picture painted in the Bible, and the material culture supports it, absolutely. This works together perfectly with what we see throughout Biblical history. Well, this is fascinating, folks, and these are the type of places that we're exploring. I'm Scot Stripling and I'm Doug Petrovic with Shovel Network News. I'm here at our Pottery reading table. We've already classified this pottery earlier in the week and now Leora, who is our ceramic type ologist, is here with us.
+
+[02:26] (https://www.youtube.com/watch?v=C9mUfllhKzk&t=146s) And she's one of the top experts here in Israel. For early period pottery. And then Pettit's of event also works with us on the late period pottery. So this is Suzanne Latimer, our administrative director. You're a Freud. Abigail Levin or Objects Registrar Gary Byers, our assistant director, and LIA tremors are in charge of our pottery reconstruction. So we have here. The square is a H28 and Locus one, so that that's why I separate it. And then if you look, this is all this is locus. (https://www.youtube.com/watch?v=C9mUfllhKzk&t=181s) Two.
+
+[03:01] We separate the rims from the body and the handles. And I, what my job now is to find if we can find a full rIM from the different types. If we decide that there is restoration here and that there is potential restoration, then I may take it to the lab in Aereo during pottery reading. Usually we decide if there's restoration or not. For now, we're keeping everything because Doug needs to go through it. My name is Doug Petrovic I teach at the Bible Seminary, where I'm professor of Biblical history and art and exegesis. (https://www.youtube.com/watch?v=C9mUfllhKzk&t=222s) And we're here on site.
+
+[03:42] At Tel Shiloh, we're looking at the pottery where I examine each and every potsherd. Both diagnostic potsherd, which would tell us what type of vessel it is and what period it's from. As well as just normal body shirts, body shirts would be larger in most cases. And they're considered to be less significant because they don't give us these diagnostic features. So usually an archaeology body, Serge are just quickly discarded once they're looked at briefly.
+
+[04:15] (https://www.youtube.com/watch?v=C9mUfllhKzk&t=255s) But what we're doing is, I think, the first of its kind, where we're taking each and every pot surety, even the nondiagnostic ones, and we're looking at them carefully to see if there's any epigraphic ulrike fillet, look for them. We may miss something that's really important. That could be extremely useful in understanding the site better or the ancient world better. Or, if about biblical text, better. So what we'll do is we'll take a potsherd and put it on our table here, which has a black material on it.
+
+[04:49] (https://www.youtube.com/watch?v=C9mUfllhKzk&t=289s) Here we have an infrared machine that is going to send in four infrared light right onto the pottery. And what that's going to do is it's going to help create a look that's visible for us on the screen here to show us if there may be depressions or inscribed areas where there could be letters. So we're looking for things such as dark marks here, where there are shadows or movements such as this that could be recording a letter.
+
+[05:26] For us, the TV sets essential because the light that's being here like this is this thing is flooded, obviously with light, but our eyes can't see anything. (https://www.youtube.com/watch?v=C9mUfllhKzk&t=326s) So a screen obviously converts it into visible light. That's why you must use some type of a computer monitor. We're very meticulous with the pottery because it helps us date the stratification that we have. So, leora, why don't you kind of show us what Iron Age pottery would look like? What it did indicate? I want age, which is unfolded and we see the burnished inside.
+
+[06:03] The critical will burn of the iron Edge , and we see the typical cooking parts of the period. (https://www.youtube.com/watch?v=C9mUfllhKzk&t=363s) Cooking pot material is very dark, brown with a lot of bits inside and the shape of the room is okay, so our protocols are very specific. Suzanne is writing the information on the tags, and then Abigail's making sure that the right pottery goes back in the right bag. Then it goes down to Gail at the end. I should have said, Is our pottery registrar, and she's pretending to be busy down there camera.
+
+[06:34] But then it's up to Gail to get it into the database correctly. And so without clean data, then we can't arrive at the right decisions, so this is how the pottery flow works. (https://www.youtube.com/watch?v=C9mUfllhKzk&t=394s) We examined about 2,000 pieces every day we have 20 days. I think that's 40,000 pieces of pottery in the season that we will wash and examine, and then of that will save. 5 or something like that for further study. So this is the Pottery Reading team from Ancient Shiloh signing off for Shiloh Network News. Here they are, so this is our Numismatist UI.
+
+[07:20] How do you stick your head out and smile? You have? (https://www.youtube.com/watch?v=C9mUfllhKzk&t=440s) Okay? So we clean the coins with the Orgonite and then we take the coins to go up. Because 3D. And now we're going to take up the Mike who's going to photograph them, and that's how the process works. Thank you, my friend, I'll see you soon. Okay, how's it going today? It's the worst day of my life. What do you think? Say hello to my little friend. Do you want the trial? You can't handle the trial? Give me all your dirt, why? Because I got a trout, you call that a troll that's a trout, you.

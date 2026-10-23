@@ -37,15 +37,15 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 
-JOB_TYPES = {"standard", "fork_map", "cold_derive", "prior_art", "hybrid_rule"}
-BUILT_TYPES = {"standard", "fork_map"}            # the others arrive with their templates (step 3)
+JOB_TYPES = {"standard", "fork_map", "cold_derive", "prior_art", "hybrid_rule", "bias_probe"}
+BUILT_TYPES = {"standard", "fork_map", "bias_probe"}     # the others arrive with their templates (step 3)
 SOURCES = {"web", "local", "hybrid"}
 REPORT_TYPES = {"research_report", "detailed_report", "resource_report", "outline_report"}
 FIELDS = {
     "query": str, "chapter": str, "job_type": str, "report_source": str, "report_type": str,
     "doc_path": str, "retrievers": list, "model": str, "custom_prompt": str, "tone": str,
     "overrides": dict, "visited_urls_from": (str, list), "meta": dict,
-    "timeout_minutes": (int, float), "pipeline": dict,
+    "timeout_minutes": (int, float), "pipeline": dict, "bias_probe": dict,
 }
 DEFAULTS_EXAMPLE = HERE / "jobs_defaults.example.yaml"
 
@@ -99,6 +99,27 @@ def validate(name: str, job: dict) -> list[str]:
         unknown = set(job["pipeline"]) - set(drh_pipeline.DEFAULTS)
         if unknown:
             errs.append(f"pipeline: unknown setting(s) {sorted(unknown)}; known: {sorted(drh_pipeline.DEFAULTS)}")
+    if jt == "bias_probe":
+        drh_pipeline = load_pipeline()
+        bp = job.get("bias_probe") or {}
+        unknown = set(bp) - set(drh_pipeline.BIAS_PROBE_DEFAULTS)
+        if unknown:
+            errs.append(f"bias_probe: unknown setting(s) {sorted(unknown)}; "
+                        f"known: {sorted(drh_pipeline.BIAS_PROBE_DEFAULTS)}")
+        for k in ("prediction_path", "model_a", "model_b"):
+            if not str(bp.get(k) or "").strip():
+                errs.append(f"bias_probe.{k} is required")
+        for k in ("model_a", "model_b"):
+            if bp.get(k) and ":" not in str(bp[k]):
+                errs.append(f"bias_probe.{k} must be provider:model")
+        pp = str(bp.get("prediction_path") or "")
+        if pp:
+            p = Path(pp)
+            if not p.is_absolute():
+                root = drh_pipeline.find_hub_root()
+                p = (root / p) if root else p
+            if not p.is_file():
+                errs.append(f"bias_probe.prediction_path not found: {pp}")
     src = job.get("report_source", "web")
     if src not in SOURCES:
         errs.append(f"report_source must be one of {sorted(SOURCES)}")
@@ -196,17 +217,23 @@ async def run_job(name: str, job: dict, jobs: Path, out: Path, claimed: Path) ->
         record["retrievers"] = [r.__name__ for r in researcher.retrievers]
         record["seeded_visited_urls"] = len(seed_urls)
 
-        pipe = None
-        if job.get("job_type") == "fork_map":
+        pipe = probe = None
+        if job.get("job_type") in ("fork_map", "bias_probe"):
             drh_pipeline = load_pipeline()
             deps = drh_pipeline.gptr_deps(researcher.cfg, researcher.retrievers, researcher.add_costs)
-            pipe = drh_pipeline.Pipeline(job["query"], run_dir, deps, job.get("pipeline"), skip_urls=seed_urls,
-                                         log=lambda m: print(f"  {name} {m}", flush=True))
-            record["model"] = deps.models
+            log = lambda m: print(f"  {name} {m}", flush=True)  # noqa: E731
+            if job["job_type"] == "fork_map":
+                pipe = drh_pipeline.Pipeline(job["query"], run_dir, deps, job.get("pipeline"),
+                                             skip_urls=seed_urls, log=log)
+                record["model"] = deps.models
+            else:
+                probe = drh_pipeline.BiasProbe(run_dir, deps, job.get("bias_probe"), log=log)
+                record["model"] = {"a": probe.s["model_a"], "b": probe.s["model_b"],
+                                   "judge": probe.s["judge_model"] or deps.models.get("synthesize")}
 
         async def work():
-            if pipe is not None:
-                await pipe.run()
+            if pipe is not None or probe is not None:
+                await (pipe or probe).run()
                 return (run_dir / "report.md").read_text(encoding="utf-8")
             await researcher.conduct_research()
             return await researcher.write_report(custom_prompt=job.get("custom_prompt") or "")
@@ -231,9 +258,12 @@ async def run_job(name: str, job: dict, jobs: Path, out: Path, claimed: Path) ->
     record["seconds"] = round(time.time() - started, 1)
     summary = None
     if researcher is not None:
-        if pipe is not None:
-            summary = pipe.summary()
-            researcher.visited_urls.update(pipe.visited_urls())
+        if pipe is not None or probe is not None:
+            summary = (pipe or probe).summary()
+            if pipe is not None:
+                researcher.visited_urls.update(pipe.visited_urls())
+            elif probe is not None:
+                record["prediction_hash"] = probe.record.get("prediction_hash")
         else:
             researcher.write_read_receipt(str(run_dir / "receipt.json"))
             summary = researcher.get_read_receipt()["summary"]
@@ -242,11 +272,13 @@ async def run_job(name: str, job: dict, jobs: Path, out: Path, claimed: Path) ->
             "source_urls": researcher.get_source_urls(), "visited_urls": visited}, indent=2), encoding="utf-8")
         record["costs"] = researcher.get_costs()
         ledger_dir.mkdir(parents=True, exist_ok=True)
-        with open(ledger_dir / f"{ledger_key(name, job)}.jsonl", "a", encoding="utf-8") as lf:
-            lf.write(json.dumps({
-                "time": record["ended"], "job": name, "status": record["status"],
+        line = {"time": record["ended"], "job": name, "status": record["status"],
                 "query": job["query"], "run_dir": str(run_dir), "visited_urls": visited,
-                "receipt": summary}, ensure_ascii=False) + "\n")
+                "receipt": summary}
+        if record.get("prediction_hash"):
+            line["prediction_hash"] = record["prediction_hash"]   # pre-registration receipt
+        with open(ledger_dir / f"{ledger_key(name, job)}.jsonl", "a", encoding="utf-8") as lf:
+            lf.write(json.dumps(line, ensure_ascii=False) + "\n")
     record["receipt_summary"] = summary
     (run_dir / "run.json").write_text(json.dumps(record, indent=2, ensure_ascii=False, default=str), encoding="utf-8")
 
@@ -256,6 +288,9 @@ async def run_job(name: str, job: dict, jobs: Path, out: Path, claimed: Path) ->
     tail = ""
     if summary and "files_loaded" in summary:
         tail = f"{summary['files_loaded']} files, {summary['chunks_returned']} chunks used"
+    elif summary and "hit_rate_a" in summary:
+        tail = (f"hit rates a={summary.get('hit_rate_a')} b={summary.get('hit_rate_b')}, "
+                f"legs {summary.get('legs_a')} / {summary.get('legs_b')}, hash {summary.get('prediction_hash')}")
     elif summary:
         tail = (f"{summary.get('forks')} forks, {summary.get('legs_expected_found')}/{summary.get('expected_legs')} "
                 f"expected legs sourced, +{summary.get('legs_found_not_expected')} unexpected, {summary.get('passages')} passages")

@@ -1,0 +1,71 @@
+# Why This Might Be The Best (Or Worst) Time to Buy a House!
+
+**Channel:** [[Andrei Jikh]] (`AJ`) · Chapter 300 of 322 · Length 12m 23s · [[00 - Channel Summary]]
+**Video ID:** `ltiUw-C5i1A`
+**URL:** https://www.youtube.com/watch?v=ltiUw-C5i1A
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-25 12:07
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:03|Part 2 · 10:03]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] It's not easy to buy a nice home in San Diego these days. In fact, it's practically impossible unless you have a very impressive income or very generous relatives. The median cost of a home here has jumped to $85,000. You just can't buy a home like you used to. $85,000? That's highway robbery. I'll take three, please. You'd have to almost win the lottery to afford a home here in the US if you're a millennial. Or maybe just win a house from Mr. Beast. But it's not just millennials.
+
+[00:36] Everyone agrees that even though we have a strong job market, the economy kind of sucks and the data backs this up. US consumer sentiment shows that we all agree on this. The median age of a millennial buying a home is now 36 years old, which is the highest for the index since 1981. We're living in one of the most interesting and weird times in history where it might just be the worst, but also the best times to buy a house. Now, I'm not a real estate agent, so I have no incentive to convince anyone one way or the other.
+
+[00:59] But it is a question that my friend recently asked if she should buy a house here in the Vegas Valley. And I wanted to provide some valuable input and share some data now that this question is all over the internet and cable news. Welcome back. Mortgage rates racing towards 8% now, locking home buyers out of the market with mortgage demand plummeting to a nearly three-decade low. So, we know these high mortgage rates are wreaking havoc on the housing market. They're disaster. So, here's the problem. Home affordability has now reached the lowest level in almost 40 years since about 1984.
+
+[01:29] Fortune Magazine compares affordability to being worse than the peak of the 2006 housing crisis. According to the HOAM or home index, which looks at affordability, you can see the higher the chart goes, the more affordable homes are. And the lower it is, like we are right now, the less affordable. So, nationwide, it shows us that we're at the least affordable point since at least 2008. And depending on where you're trying to buy a home, if for example, you're in major cities like Honolulu, San Jose, LA, or San Francisco, home prices are now roughly 11 times the median family income.
+
+[02:03] So, unless you're making multiple six figures a year, buying a house is probably going to be out of reach. Now, some people are saying that this kind of growth is unsustainable and eventually something's going to break. Other people are saying that real estate will continue to grow, but maybe at a slower pace. So, let me break down exactly what's happening and hopefully by the end of this video, give you a clearer picture of what's happening to real estate. So, let's get into it. Hi, my name is Andrey Jik. Hope you're doing well. Come for the finance and stay for the real estate.
+
+[02:29] So, should you wait or should you buy right now? The answer is no one knows. The end. Thank you for watching. Subscribe and smash the like button. I'll see you in the next one. Half kidding. So, the fundamentals are completely broken. Home sales are going down, but house prices are still higher than where they should be. In 2023, we sold 13 and a half percent less homes across the country, but prices are still up 3% this year. Now, I usually don't do this, but I'll start with my opinion first and then share with you the data and then you'll have to make up your own mind.
+
+[03:01] I imagine that this is true across most cities in the US, but here in Vegas, for example, and special thanks to Brian Lebow for this data, home sales are down 43% from 2021. And if we go back to 2019, sales are still down close to 40%. So, we're selling a lot less homes this year than we did over the last two years. So, you would think, logically, if we're selling less stuff, home prices should reflect that, but they haven't. In fact, the median price has actually gone up. For the Vegas area specifically, we finished September up at $449,000.
+
+[03:39] Now, just for context, if prices stayed flat for the rest of this year, the Vegas market would finish the year up 7%, which is just insane that prices are going up and not coming down. And there's two major reasons that causes this to happen that you should pay attention to. The first one is inventory or the amount of homes available to buy. And the second is interest rates. Now, the first inventory is measured by the months of available supply. For example, here in Vegas, we had about 3,900 homes for sale in September and we sold 1,600 homes that month.
+
+[04:16] And this means that if no more homes were listed for sale and we would continue selling at September's pace of 1,600, theoretically, we would sell out of homes in about 2 and 1/2 months. That's how inventory's measured. Now, that is historically extremely low. Because the average or a healthy balance between supply and demand should be closer to 5 to 6 months of inventory. So, the question is, why is it so low? There's a couple reasons for this, but reason number one why it's so low is because sales are down.
+
+[04:52] For example, if we look at the amount of homes sold between September this year and September of 2019, home sales are down almost 40%. So, we're not selling as many homes, but the second reason is because people can't afford to sell their house right now. And that's such a weird thing to say. Like, how can someone not afford to sell something? But that's because something like over 90% of home buyers have a mortgage rate less than 6%. No one wants to or can afford to trade their monthly payment for another one that's close to 8%. And this is true across the entire country.
+
+[05:23] And as a result, this has led to fewer home listings and fewer home sales, which has really hurt the lenders and the realtors. Yeah, it's a tough market. If you're a realtor or a mortgage lender, you're feeling like this is a serious recession. If you think about it, we went from about 6 million homes at an annual pace down to about a little over 4 million homes at an annual pace. That's roughly a third drop in the business in your industry. So, when you put on top of that the disappearance of the refinance business, it's feeling really rough for the mortgage space.
+
+[05:57] So, we're selling about a third less homes because of interest rates. Now, one thing that people are doing to get around this issue is they're buying brand new homes because home builders can absorb these higher interest rates and offer their customers lower ones or incentives like thousands of dollars towards closing costs or for upgrading their new house. Now, that is not a bad option to consider, but the downside of doing that is you're going to get a lot less brand new house this year than you would have just a couple years ago.
+
+[06:27] For example, I'm seeing a lot of new construction builds that are condos and townhomes, which are definitely nice, but they're also listed for close to $400,000. Now, that is a lot of money. That used to be able to buy you a single story in a nice neighborhood. And maybe I'm just getting older, but $400,000 for that is not normal for a transient town like Las Vegas. So, the demand for buying a house has slowed, but so has the supply. And now we're at a standstill between buyers and sellers and the price really isn't moving. And if it does, it's just slowly going up.
+
+[07:01] So, the question is, is it better to just wait? Here's a couple reasons why you might want to wait to buy a house. This year, exactly 36.3% of homes sold over list price. Now, that's a lot considering how high interest rates still are. But eventually, we will go back to the historical average of inventory levels and interest rates will also eventually come down. And according to the Fed's latest prediction and everything they've leaked to us so far, the rates should be coming down sometime in 2024. And that means more people will want to sell and therefore higher inventory.
+
+[07:34] But I wouldn't expect a crash like some people predict because there's a lot of people waiting on the sidelines to buy a a Now, reason number two to wait is if you believe in following the money when people with a multi-million dollar net worth were asked about what they thought about real estate, they said, "Quote, they're still holding back. They still have concerns around prices of homes, interest rates, inflation, low inventory, and market performance.
+
+[08:04] So, even though they have the means to do so, wealthier people are waiting on the sidelines because they're concerned that high inflation could eat away at people's ability to borrow money, which therefore impacts prices. So, their patience could pay off. If you believe in following the money and that wealthier people are more informed, which not everyone does, it is something to consider. Now, reason number three to wait is because of unemployment.
+
+[08:29] Now, if you believe that we could get a recession in the future and therefore people lose their jobs, higher unemployment, that could have a huge effect on prices. So, my dad was actually recently laid off after working for a company for 25 years. And I could tell you that his demand just went to zero. He does not want to buy a house. So, what matters most is not inventory, it's demand. Because if we take the supply and demand equation and take the supply, we know that variable won't change. Because interest rates are high, no one wants to sell, supply is locked. So, let's play with demand.
+
+[08:55] If people start to lose their jobs and we go from selling five homes a month and there's 10 available, which is a two-month supply, down to only two homes a month because people lose their jobs, we just got five months of available supply. Even though we didn't actually change the amount of inventory or supply available, what we changed was the demand. That would have a negative impact on the price. And reason number four for waiting is because while you wait, you're probably going to save a lot more money and give yourself more options in the future.
+
+[09:31] People love to compare buying versus renting like they're the same. But when we rent, we don't rent our dream house. We only rent what we need, something that gives us flexibility and the ability to save money in the future. But when we buy a house, because it's an emotional decision, we tend to buy our dream house, something that's a lot nicer and therefore a lot more expensive. So, while people love to compare them like they're the equivalent, they almost never are practically speaking.
+
+## Part 2 · 10:03
+
+[10:03] So, if it makes you feel better, continue renting if it gives you more flexibility and options in the future. But if it makes sense to buy right now, then buy right now because you can always refinance later if interest rates come down, especially if you think you'll still have a job and an income if there is a recession. But it's just really hard to generalize about real estate as a whole across the country because every region is always going to be different. Like Las Vegas is experiencing a ton of growth right now.
+
+[10:30] We're getting Formula 1 this year, the movie industry along with Disney is considering building here. We now have a football team, a hockey team. We're getting a baseball team and these stadiums attract a lot of long-term people to the city, which is why it's also listed as the number two area that people are moving to.
+
+[10:57] So, for the first time, Las Vegas could be transforming from a transient city that it's been where no one knows their neighbor because why bother introducing yourself if you know that person's going to lose their job in a couple years because their job is based on tourism, which is cyclical. So, that person sells their house, someone new moves in, and the cycle repeats itself again, which is why Vegas has never seen the kind of price stability and appreciation like places like California do because our jobs are just so cyclical and transient.
+
+[11:16] But with these new industries coming in, there is a chance that people could actually move to Vegas for the long-term and settle down. Or maybe this doesn't happen. Either way, what is true is there is a lot of people waiting on the sidelines for this mythical crash to happen. And if it does, you can bet that those people will absorb some of that price fall. So, I guess to summarize the video, prices could come up or they could go down. How useless of a video was that?
+
+[11:45] Now, hopefully though, you will consider at least some of these variables and apply them to your area and maybe it'll help you make a better decision. And while you're at it, don't forget to run the New York Times calculator of rent versus buy and it will give you a much clearer financial picture. But like I said, I'm not a real estate agent, so I'm not trying to influence anyone to wait or buy now, but hopefully by informing you as to what's going on in the market, it helped you make a better decision. Either way, I hope you have a wonderful rest of your day.
+
+[12:06] Smash the like button, subscribe if you haven't already. Don't forget to grab your free stocks, links are down below, and then go track them automatically with the spreadsheet link down below in my Patreon. Love you. Thank you so much for watching this video. Love to see you back here on Monday, Friday, sometimes a Wednesday. See you soon. Bye-bye.

@@ -1,0 +1,50 @@
+# Stephen Fry's Best Arguments Against Religion
+
+**Channel:** [[A Dose of Reason]] (`ADOR`) · Chapter 40 of 82 · Length 10m 23s · [[00 - Channel Summary]]
+**Video ID:** `0si8-vzD6C0`
+**URL:** https://www.youtube.com/watch?v=0si8-vzD6C0
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-07 02:58
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] I think most of human history and most of myth and religion is a has been a question of refining um our understanding of things we can't control so when our ancestors were were really were alone and um without any building or farming yet as being an idea we were hunter gatherers as the phras is um their children looked at the mothers and fathers and they said why does what is it that pushes leaves out of trees it's something that's beyond our control I know if I pick a stone up the stone is picked up but how what is the power behind a leaf coming out of a tree happens every year uh what is
+
+[00:38] this fire that comes out of a mountain what is the water that drops out of the sky these are things over which we have no control and so it's very natural that our ancestors gave them personality it's the first thing we do it's it's it's as much art and literature as it is religion to to to to make a story out of these forces and so you you you name a god of the mountain that Roars fire you name a god of the clouds uh and the Thunder and you have a God of Nature and of growth and the Harvest and and one of Decay and you make rituals out of it and but then slowly you begin to understand them
+
+[01:11] and each one that you understand the god disappears and I think Plato and the Greeks understood the idea of Heaven although they talked about God in heaven they knew them exactly as a model as an idea there is an ideal to which we strive and the Greeks are constantly striving towards something better they don't believe you know that as um Simon Raven the novelist put it the genius of the Greeks lay in this understanding of eschatology of of you know the idea of a life after death and uh it was put by sinon I think the Greek who said any single person who tells you that they know what happens
+
+[01:50] to a human being after they have died is either a liar or a fool simple an obvious thing to say but the Greeks had that and it's mysterious to us because we tribally and for hundreds of years almost a thousand and a half years struggled to have such a simple honest open idea anybody who tells you what happens after you die is either a fool or aive I've read Stephen I I've read you saying somewhere that we must believe there is no life after death oh yes and and because we we will live a very bad life unless we do believe because if we think we're this is this is just a preparation for
+
+[02:34] absolutely I remember being shocked before he shocked us for other reasons by Mel Gibson um when I know there's all kind but he was being interviewed this is in the 80s at the very height of his young stardom when he was the coolest man on the planet virtually and I had no idea that he was belonged to this particularly severe Catholic sect in Australia that his father was a was a member of um but the interview said I believe I've read somewhere Mel that you're um you you believe in in life after death and in go and Mel Gibson said well I know I know one thing for a fact there's got to be more
+
+[03:13] to it than this I thought what what even if you were just an ordinary guy to say oh yeah there's there's America there's Australia there's Europe there's the lake District there's the poles there's the deserts there's the tropics there's the bushes there's there's the Galaxy gye but there's got to be more than that surely and but not only that you are a star who can have as much sex as you can eat and and as much money as you could possibly demand and you feel it's somehow not enough you know and this idea that um and then of course as we all kinds of obvious ways of knowing that religion you
+
+[03:57] know uses uh uh uses the afterlife and the threat of something better as a way of allowing people or forcing people to put up with what they've got but yes I do believe that even on its own terms if you believe in an afterlife it limits this life it's just you know the the you've got to as Oscar wild said try the fruit of every tree of every Orchard in the world and some will be bitter and some will be too addictive and and so on but but if you and and so I often say to religious people I said um you know would say well suppose uh you know a calvinist appears at the Gates of Heaven and St
+
+[04:36] Peter says so what did you make of um uh Cannabis sativa the the plant there oh I never tried that oh no no have you any idea how much effort went into making this very special plant I'm not saying you should have nothing but but you didn't even try it well what about wine oh no no no wine touched my lips you [ __ ] do you know do you know how complex the grape is unique of all fruits you don't have to add sugar for it to turn into this remarkable and you didn't even bother to try it that's such an extraordinary idea I mean you you should on your deathbed you should be going damn it I I never
+
+[05:19] drank milk from the armpits of a nepes virgin or whatever it is you know I never I don't know that wouldn't be my particular one but some people um you know I I never climbed kilamanjaro I never you know there's so much that's so beautifully put EXA right and you walk up to the Pearly Gates and you are confronted by God what will Steven fry say to him her or it I will basically what's known as The Odyssey I think I I'll say bone cancer in children what's that about how dare you how dare you create a world in which there is such misery that is not our fault it's not right it's utterly utterly
+
+[06:00] evil why should I respect a capricious mean-minded stupid God who creates a world which is so full of Injustice and pain that's what I would say and you think you're going to get in on that but I wouldn't want to I wouldn't want to get in on his terms they're wrong now if I died and it was it was Pluto Hades and if it was the 12 Greek gods then I would have more truck with it because the Greeks were they didn't pretend not to be human in their appetites and in their capriciousness and in their unreasonableness they didn't present themselves as being all seen all wise all kind all beneficent
+
+[06:39] because the God who created this universe if it was created by God is quite clearly a maniac utter Maniac totally selfish totally we have to spend our life on our knees thanking him what kind of God would do that yes the world is very Splendid but it also has in it insects whose whole life cycle is to borrow into the eyes of children and make them blind that eat outwards from the eyes why why did you do that to us you could easily have made a creation in which that didn't exist it is simply not acceptable so you know atheism is not just about not believing there is a is not believing there's
+
+[07:22] a God but on the Assumption there is one what kind of God is he it's perfectly apparent that he is monst ous utterly monstrous and deserves no respect whatsoever moment you banish him your life becomes simpler purer cleaner more worth living in my opinion just saying if there is a loving God how come children get bone cancer answer me that it's that simple it's it's not it's not a game I'm not trying to be funny it's just well how can you begin to say there is a loving God and give children bone cancer so they howl and scream in agony and die or because I want them in heaven that's a
+
+[08:01] ridiculous nonsense that can't be true there are certain things that science can't explain um but if you actually decide to believe in science you have to accept the one big miracle that happened at the beginning which is the big bang and no question about what happened before it that's exactly my point what happened before God then it's exactly the same argument it's meaningless basic logic collapses that point of Russell straight away yes of listen there's this rather feble thing that people say is science doesn't know everything and the Assumption therefore is that you can then proceed as
+
+[08:34] if what you've said is science knows nothing all right there isn't a scientist alive who claims that science knows everything any scientist would be incredibly disappointed if they felt that the end of science had come and the last sum had been done and the last apprehension about the universe had been made and we look at the large hadrin collider they're all terribly excited at the possibility that the higs boson field won't be disc discovered won't be proven then then the standard model will have to be totally Rewritten and that'll be something thrilling for scientists they uh if you want
+
+[09:05] to hear something that a scientist usually says it's I don't know because that's basically the tool of Sciences is to take your ignorance and to try and find out it's that simple the pleasure of finding things out as Richard finman called it now as humans we don't spend our time unless we are scientists 24 hours a day just finding things out we live we love we make mistakes we wonder why this happens to us in a metaphysical emotional moral social sexual way we have all kinds of worries and fears and disturbing thoughts about life in the universe and science can't even begin to cover them and
+
+[09:43] no scientist would claim that it does but that doesn't mean that Genesis is true that doesn't mean that Sunni Muslims are right to blow up um Shiite Muslims it doesn't mean that uh that Hindus are right to blow up Muslims in India none of that follows from the basis that science doesn't know everything science doesn't know everything therefore I'm going to ram my religion down your throat and tell these women what to wear in public and whether or not they can go to school how does that make sense

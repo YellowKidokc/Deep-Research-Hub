@@ -1,0 +1,50 @@
+# “I’ve Already Tried Christianity”—What Would You Say?
+
+**Channel:** [[Living Waters]] (`LW`) · Chapter 2471 of 2497 · Length 9m 31s · [[00 - Channel Summary]]
+**Video ID:** `emCEmshtDbA`
+**URL:** https://www.youtube.com/watch?v=emCEmshtDbA
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 09:46
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:04|Part 1 · 00:04]]
+
+---
+
+## Part 1 · 00:04
+
+[00:04] [Music] all right here's a clip I think that you're going to enjoy Ry is sharing the gospel with a guy named Mike who is a self-admitted pervert I'll be back with you in just a minute did you get your trilli all right thank you you you'll thank me when you get the change I'll tell you that's the gospel track what do you think happens when someone dies do you think there's an after life I have no idea do you ever think about it on occasion afraid of dying I wouldn't want I not for myself but more for the people that I leave behind I'm more more concerned for the people that I leave behind you
+
+[00:38] know myself I you know I can't determine what happens I don't know what happens nobody does nobody knows what what happens because uh nobody's been back so he you know nobody knows what happens cuz no one's been back to tell us what are you sure pretty sure have celebrated Easter yeah that's just that that actually was a pagan holiday to begin with okay okay do you think God exists not the white haired bearded old person that I agree with you yeah that's crazy something I don't know what it is but there is something do you think this creator that made all things is good uh I would hope so do
+
+[01:21] you think you'll punish someone like Hitler uh should and how are you going to do on Judgment Day are you a good person I think think I am how many lies have you told in your life uh thousands thousands what do you call someone who tells lies a liar you ever stolen anything even if it's small what do you call someone who steals a thief have you ever used God's name in vain of course now Jesus said if you look at a woman and Lust For Her you commit adultery with her in your heart have you ever done that I just got busted by the lifeguards on the beach right now for snapping pictures of pretty
+
+[01:53] girls so you have you br say yes so Mike I'm not judging you but by your own admission you're a lying Thief a blasphemer and an adulterate heart so and a pervert no don't forget that we've established that so if God judges You by The 10 Commandments on the day of judgment do you think you'd be innocent or guilty uh guilty Heaven or Hell hell if there is one does that concern you is that a concern for me yeah not really you don't mind going to hell really no I surpris see all my friends there'll be no no love or fellowship and and hell it's a place of punishment you know if there is a God and
+
+[02:30] he's good he must punish someone like Hitler and Jeffrey dmer and thieves and liars and fornicators and blasphemers man I'm really really concerned for even though you're not concerned for yourself I'm horrified at the thought of a guy like you going to hell because you want to live there's something used just don't want to die is that true that's true do you know what God did for Sinners so we wouldn't have to go to hell have you any idea go ahead and tell me Well 2,000 years ago God became a person and suffered and died on the cross became a person yeah how did that well the Bible says God
+
+[03:01] was manifest In the Flesh Bible the Bible that was written by man for man is that ises that that's right absolutely now how now are are you going to be working tomorrow doing this or do you know people that work tomorrow yeah okay and tomorrow is what Sunday yeah and and do you believe in the things that that are in the Bible as God's word and you follow all those things now in the Bible doesn't it say that those who work on Sunday shall be stoned to death no yes it does no it does it say Saturday it's the Sabbath not okay Saturday Sunday but today Saturday today is a Sabbath yeah of the old
+
+[03:32] The Jewish Sabbath let just go back for a minute you know what though I have to go give me give me one 60 seconds please just 60 seconds yeah yeah okay I will if you get a ticket come back and I'll pay it God's a judge okay you're a criminal you've violated his law You' broken The Ten Commandments 200000 years ago Jesus Paid you a fine on the cross that means God can legally dismiss your case Mike you can have you can have your case you can be forgiven your case can be dismissed because of what Jesus did on the cross well I've been I I grew up in a Christian home and I've been baptized and
+
+[04:10] born again and all that and the older I get the harder it is for me to believe in that okay because could it be you had a false conversion Blind Faith is just that blind so how do you explain someone like Mike he grew up in a Christian home he was baptized and born again and all all that now he's puffing on a cigarette saying he just can't believe anymore well the answer is is in what Mike said he said that Faith to him is just a blind faith he likely believed in God or Jesus in the same way he believed in Santa Claus or the Easter Bunny or the tooth fairy and now that he's older he can't do
+
+[04:50] that anymore it's very important to note that there is a huge difference between Blind Faith and true Faith see true faith is a gift that God gives you when you see the reality of your sin and you see a real need for God's forgiveness therefore you look to the real Jesus who lived and died on a cross 2,000 years ago when you repent and put your trust in him God opens the eyes of your understanding and he saves your soul it's not Blind Faith it's saving Faith what you've got to do this time is repent and Trust the Savior then you come to know the Lord you pass from Death to life or wouldn't
+
+[05:30] lie to you our churches are filled with false converts people have never truly repented and they sit amongst God's people and the Bible warns that goats among the Sheep false converts that will be sorted out on the day of judgment so this is so important you got a family yes I do do you love them well I have a son yes you want him to live forever so look into this with all your heart and really sincerely because the saddest thing is when a parent says to a son who says Dad I'm scared to die and say son just face it like a man you got no answer but the Bible gives an answer you can find
+
+[06:00] everlasting life through repentance and trusting in Jesus Christ and you know the TRU now what about people who believe in the Quran or what about uh Buddhist or what about any other religion there's Christianity seems very self-righteous to me because there is no religion that has ever proven to be correct okay everybody wants to be corrected it's like a giant it's like the world's biggest gang fight Mike that's a good question let me give you a really quick answer all those religions you mentioned are what's called work righteousness religions they think they can do something to Merit
+
+[06:31] everlasting life lying on beds and Nails facing Mecca praying fasting repentance or whatever whatever they think they can do something to Merit everlasting life but God says you will not bribe the judge of the universe we're criminals our good works un good works their attempts to bribe God but God provided the gift of everlasting right through one savior given to all men so a Buddhist can find everlasting life by repenting and finding faith in Jesus so can a a Muslim they have their own their own religion their Works righteousness they're trying to Bri God who who are you to say that they
+
+[07:05] are wrong I'm saying they'll never find everlasting life for good works how do you know that I've got the Bible as my guide that doesn't mean anything how do you know that you it doesn't how do you know right but but to to them you mean nothing either just like just like to them to you they mean nothing they're they're Rel one moment M let me answer that cuz it's a good question when I talk to a Muslim and say hey you can't earn everlasting life it's a gift of God he'll go really and then I show him that he's sinned against God and he's the little leap that he's trying to make to Heaven is
+
+[07:34] wider than the whitest part of the Grand Canyon he's not going to bribe God on Judgment Day by his good works salvation comes by the mercy of God as a free gift and that was offered in Jesus Christ and it's for all Humanity that's why missionaries go to places where they where they where they risk getting killed because they've got the message that God is is Holy and he offers eternal life as a free gift so please think about this what do you think about it I'll think about it you know own son's sake for your loved one's sake and for your own salvation sake Mike thanks for stopping and
+
+[08:02] talking thank you very much thank you man bye bye learn how to share your faith biblically each week we send out a free ministry update and it contains a short video clip Ray finds colorful characters he witnesses to them and then I chalk talk the clip here's some s do you believe in god of course I believe God actually learns through us that there's a heaven right here multiple times a day God hugs me what planet are you living on I have no problem standing before the Lord as I am after seeing new clips each week and understanding the Biblical principles behind them you will end up saying I
+
+[08:52] could do that there's no charge for the update just go here and sign up here and we'll will send it to you every week for God so loved the world that he gave his only forgotten son also while you're there check out the school of biblical evangelism the school of biblical evangelism is a full-blown online evangelism course it'll help you overcome your fears it'll help give you the answers to the hundred most commonly asked questions and objections to the Christian [Music] faith you'll find details on livingwaters.com

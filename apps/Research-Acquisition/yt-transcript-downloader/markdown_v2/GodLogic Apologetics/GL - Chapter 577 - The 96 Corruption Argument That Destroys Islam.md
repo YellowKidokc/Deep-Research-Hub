@@ -1,0 +1,69 @@
+# The 96% Corruption Argument That Destroys Islam
+
+**Channel:** [[GodLogic Apologetics]] (`GL`) · Chapter 577 of 663 · Length 12m 24s · [[00 - Channel Summary]]
+**Video ID:** `n39YB80qBwg`
+**URL:** https://www.youtube.com/watch?v=n39YB80qBwg
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-29 15:47
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:09|Part 2 · 10:09]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] For the Muslims that are going to come up, I want you guys to know you are embarrassing yourselves. You're embarrassing Islam. Rightfully so. They're like, "This is what Islam does to you." But I'm just saying we don't we're not doing it. We're not making fun of you. We're not trapping you. This is what you're doing to yourselves. So the Torah, Gospel, and Psalms are Islamic scriptures, and they're corrupted. So you have corrupted scripture in Islam. Correct. >> Yeah. Based on what I said, then it's true. Yeah. Awesome.
+
+[00:33] You said that the reason why you wouldn't trust a religion that has corrupted scripture is because it wouldn't be from God. You also acknowledged that Islam contains corrupted scripture. So therefore, by your own logic and the conclusion is is that because Islam has corrupted scripture within it, therefore Islam is not from God. Right? >> So we're talking about scriptures. So if I were to say that anything corrupted does not come from God, that would mean that the Bible, the Psalm, and the Torah have been corrupted and the Quran has not been corrupted.
+
+[01:05] So the word of God being the Quran is not corrupted. So Islam is not an untrustworthy religion because we follow the Quran. >> Let me let me let me just ask you the same question. Is the Torah corrupted? >> Sorry. Go ahead and ask me again. >> Yeah. Has the Torah been corrupt? >> What is happening, bro? Okay. So, would you follow a religion with corrupted scripture? >> No, definitely not. >> All right. How many sets of scriptures did your god reveal? Before the Quran. >> Three before the Quran. >> Three before the Quran. Cool. What happened to them? >> It got corrupted. >> Cool.
+
+[01:43] So, you do follow religion with corrupted scripture. >> No, we dropped those three corrupt corrupted scriptures. They're not part of our >> because those three scriptures were what? >> Corrupted. >> And they were whose scriptures? >> Our scriptures were dead. >> So your script >> Yeah, but we don't use them anymore. >> I can't, bro. So in your religion, you do have corrupted scriptures. >> We had corrupted scriptures. We don't them anymore. >> Get off my stage, you numb digger. So earlier you said you wouldn't follow a religion with corrupted scriptures.
+
+[02:23] Can you switch that now and say you do follow a religion with corrupted scriptures? And on top of that the majority of your scriptures in your religion are corrupted. But within your religion >> say within your religion cuz it's not part they were built upon my religion. >> Are these Did Allah reveal Did Allah reveal the scriptures? >> Yes. So are they Allah's scriptures? Okay. So are they Allah's scriptures? >> Yes. revealed to prophets >> under the religion of Islam, right? >> Um, sure. >> Okay. So, these are your religious scriptures within Islam that have been corrupted.
+
+[02:54] So, the majority of your scriptures revealed in your religion have been corrupted. So, please be honest. You do follow a religion with corrupted scripture. >> Sorry, we're just just cleaning up around >> like these are these are these these are the same people that are getting >> we're just helping you clean it up a bit. >> Oh, logic. Huh? Logic. Oh, throw that in here. There we go. >> There we go. You got it. You got it. >> I got it. I got it. Good. Good. >> So, no, I we got you. So, according to everything you laid out, the Quran is the only book that Allah promised to preserve.
+
+[03:26] His other books, he allowed them to get corrupted. He didn't promise to preserve those. So, he has a track record of letting his books get corrupted except for one. Is that right? >> Yeah. But also, it comes with common sense that people memorize them. >> I got you. >> But here's basically the thing. Okay. >> So, this would be the original thing. This would be the original book that available with them. This would part beings. So when the prophet comes to confirm, right? He's confirming what they have that's actually legitimate. So when the prophet comes and says for example 1 2 3 six, right?
+
+[03:53] He's not saying any four and five. You know what else they might have with them? They might have camels. They might have sandals. They have so many other things. >> So if I were to say, hey, that sticky note that you have, that sticky note that's with you, I'm confirming it. So does that include all six sentences? Well, here's the point that I'm making though, right? >> Is the sticky note with >> Yeah, I have it right now. >> Okay. So, if I say I'm confirming the sticky note with you, that includes those two corrupted lines on the sticky note, right? >> What does the verse say?
+
+[04:24] >> Confirming what is with them. >> Confirming what is with them. You know what else is with me? A cup of soup. >> It's talking about It's talking about the scriptures, bro. It's talking about the scriptures. >> It's talking about what they have with Right. But there's a lot of things that could be Muhammad. I need you to I need you to focus here cuz if I say that I'm confirming that sticky note with you, does that include all six lines on that sticky note? >> No.
+
+[04:51] >> If you're confirming the sticky note with me, if you're saying you're confirming the sticky note with me, then it'll be all six lines. >> Exactly. So, unfortunately though with that statement, I'm confirming even those two corrupted lines on that sticky note. Right. >> It's confirming. But again, I now I feel like we're going in circles again. Right. Answer >> once more. And look, this is where this is where we have in the Quran. It talks about it too, right? >> You got to answer, bro. Please. >> No, because I I am answering you.
+
+[05:16] I told you when you say I'm confirming that sticky note, you're saying this to me, right, in this conversation. Absolutely. >> So that so that means that that means that I just confirmed even the two corrupted lines in that sticky note, right? >> The two corrupted lines. But the point that I'm trying to make here, so let me just make a point real quick. Okay. if you can deal with this cuz this is in this is crucial. Dude, >> this is what this topic do to them, bro.
+
+[05:51] >> You get you get you get some of the most confusing answers and you just let them talk and you just be like, "Do you hear yourself?" And apparently they don't cuz they don't even they can't even repeat what they said 10 seconds ago. >> Would you follow a religion with corrupted scripture? >> No. That's what you guys are for. >> Okay. You said no, you wouldn't. Uh, is the Torah are the Torah, Psalms, and Gospel Islamic scriptures? >> They were. Yes. >> What happened to them? >> They got corrupted by you guys. >> So, Islam has corrupted scripture. So, therefore, it's untrustworthy.
+
+[06:15] Is the Torah a Christian book or an Islamic book? Yep. >> Yeah. The original Torah is Islamic book, but not this version. No. >> The Psalms. Is that a Christian book or an Islamic book? >> The original book. Yes. >> The Gospel. Is that an Islamic book or a Christian book? >> The original. Oh yes. >> So all of these books are Islamic scriptures, correct? >> Yes. The original. Sure. >> And these original Islamic scriptures got corrupted. Correct. >> The original ones got corrupted by man to make space for the Quran to come and give >> Got it.
+
+[06:50] So So, so basically it was Allah's will for these scriptures to be corrupted to make space for the Quran. >> No, we as humans have free will and humans like you guys corrupted the books. Brother, why did you why did you why did you just say no to what you just said? I repeated you word for word what you just said and then you said no to it. >> What did you say? >> No, no, no. You should be asking what did you say? You didn't you don't remember what you said. >> I I said the Quran came as the final message. So now you said other books. >> That's not what you said. >> Are you final?
+
+[07:20] >> That's not what you said. Did you not did you not say that the previous scriptures were corrupted to make space for the Quran as the final revelation? Did is that not what you said? >> Yeah, I said the original message got corrupted. >> Allah willed for the previous scriptures to be corrupted to make space for the Quran because if the Torah, Psalms, and Gospel were preserved and authoritative, there would be no need for the Quran. So Allah said, "You know what I'm going to do?
+
+[07:51] I'm going to send these scriptures, but I'm going to have them be corrupted so that there's room for the Quran to come. >> So trustworthy. Very trustworthy. >> Would you believe in a religion with corrupted scripture? >> That's kind of a dumb question. >> Well, can you answer the dumb question? >> It's so >> Is the Ail still corrupted today? >> Yes. >> So you still have corrupted scripture in your religion? >> It's no longer a part of our religion. >> It is part of your religion. It's just corrupted. You have corrupted part of it's been corrupted. It's no longer part of their religion.
+
+[08:18] The way if somebody's belief is corrupted how it works can take them out of the fold. That's not how it works. >> Yes, it is how it works. >> All right, cool. Find me Muhammad in the jail. >> Why does Muhammad need to be in the jail? >> Cuz your Quran says he is. >> Uh give proof. >> Chapter 7 verse 157. >> Can you read it out? >> Those who follow the unlettered prophet whom they find written with them in the Torah and the Inil.
+
+[08:50] Obviously, I don't have the verse, but I I know for a fact that if you took two seconds to research one of my scholars giving a verse where Muhammad is mentioned, it's >> No, I don't have >> I'm not asking you to give me the exact verse. What is the source that he's going to >> the Torah? >> So, we still have the Torah today. >> No. >> So, then why would your scholar be still going be going to the Torah if we don't have it? If he didn't have it, how is he going to the Torah? And he said, "Why does he need why does that need to >> Huh?
+
+[09:11] >> You don't have it and it's not part of your religion anymore. So what are they going to? It shouldn't be nothing they should go they can go to. >> It doesn't need to be a part of their religion to go to it for a one certain topic." >> What? Hold on. I got confused. >> The the Torah you're saying was corrupted and is therefore no longer part of the religion. Yet your scholars are still going to the Torah to find Muhammad mentioned in there like their Quran says he would. that they can.
+
+[09:41] So that means that the Torah they're going to is part of the religion still that contains Allah's revelation, right? >> Give me the Wait, can you give me the verse again? >> Yeah, I'll give you the verse. I I'll give you Go find the freaking stage, man. Somebody said Brandon said Allah one and four. He putting up Shaq numbers. >> Would you put Shaq at the free throw if it's if it's if it's for the game for the series? Absolutely not. Is is Shaq trustworthy at the free throw line? If he one and four, if he won for four, man, would you trust him?
+
+## Part 2 · 10:09
+
+[10:09] >> According to the according to the Muslims, he is. They put Shaq at the line every time. >> Every time, man. >> They only trust. >> They They only tr they only trust that one free throw he made. >> That one. Hey, Shaq made it once, so he trustworthy, man. We could trust him every time he go through the line. He good. >> The mother the mother three free throws he shot, he he didn't shoot anymore. Would you would you would you trust the religion with corrupted scripture, Mo? >> No. >> Did Allah reveal the Torah, Gospel, and Psalms? >> Yes. >> Did they get corrupted? >> You quick with it, too.
+
+[10:38] >> No. >> The Torah, Gospel, and Psalms did not get corrupted. >> No. >> Awesome. So, that means that the Torah, Gospel, and Psalms are still intact to this day. Yeah. >> Uh, incorrect. >> I can't do I ain't going to lie, bro. This can't be four guests in a row, bro. Come on, bro. What? Muslims, please, please stop, bro. Four guests in a row. >> In all of the other books, Allah never said that the that they couldn't be corrupted. In this book, >> but he does he does say that no one can change his words. Right? >> He says that in the Quran, nobody could change his words.
+
+[11:17] >> He doesn't say in the Quran, he just says no one can change his words. Period. He says none among all creation can change his words. When he says nobody could change his words, he means that you you still can. But if you do change his words, it's it's a sin. >> Wait, wait, wait. Think about it. >> Wait, wait. I'm thinking about it. You're saying when he says blatantly that no one can change his words, what he means is is that people can change his words. >> Is that what he really means when he says no one can do it? He means the opposite of what he's saying.
+
+[11:48] You got you got to you got to think about this. You feel me? If we're being honest and we take the Quran for what it says, Allah says no one can change his words. The Torah are the words of Allah, right? At least they used to be, right? The the Psalms, the Gospel, these were all Allah's words at one point in time, right? >> Correct. >> That means none of them can be changed cuz none of Allah's words can be changed. But but if they were changed then that means that Allah is untrustworthy and he did not tell the truth when he said none of his words can be changed.

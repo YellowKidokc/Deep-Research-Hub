@@ -1,0 +1,63 @@
+# Live from the lab at the Creation Museum
+
+**Channel:** [[Answers in Genesis]] (`AIG`) · Chapter 1119 of 1947 · Length 14m 24s · [[00 - Channel Summary]]
+**Video ID:** `LLvJWEARDvY`
+**URL:** https://www.youtube.com/watch?v=LLvJWEARDvY
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 06:53
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:02|Part 2 · 10:02]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] [Music] hello everybody we're live here at the creation museum science lab i'm roger patterson and i'm going to be doing some demonstrations of science ideas and activities for you over the next couple weeks as people are homebound and looking for interesting things to do as you've probably heard the creation museum and the ark encounter have closed to help prevent the spread of the coronavirus so we're doing these things to encourage you as a family to be engaged okay so if you look here at the table you see this brown bottle probably familiar with what that is that's hydrogen peroxide but
+
+[00:39] why does it come in a brown bottle might be your question if you think about something like rubbing alcohol it's in a clear bottle so why the brown bottle for hydrogen peroxide well it is a photo sensitive so if you can imagine what that means it undergoes a chemical reaction when light shines on it and that is a decomposition reaction so if we could look at an individual molecule of hydrogen peroxide it would look like this it has the chemical formula h2 represented by these little white balls o2 represented by the little red balls so this hydrogen peroxide molecule undergoes decomposition
+
+[01:21] and it forms a water molecule and oxygen molecules now we'd have to balance the equation and think about how these pieces work together exactly but that's the basic idea so we're going to talk today about the reaction of the decomposition reaction of hydrogen peroxide and look at it in detail so here in this set of test tubes i've got a mixture of a little bit of food coloring so that you can see things happening a little better and just the standard hydrogen peroxide that you buy in the store this is about a three percent concentration so it's not very concentrated it's diluted down quite a
+
+[02:04] bit and we'll look at another concentration here in just a minute so inside of these test tubes right now because light is shining on these test tubes it's undergoing this decomposition reaction all right so can you all see the bubbles forming inside of this test tube oh no you can't because it's happening so slowly that you don't really see anything happening so inside of this test tube we're going to use it as our control and then we're going to use these other test tubes to look at how we can speed up this reaction so here in this little dish i have a substance called manganese dioxide all
+
+[02:44] right manganese dioxide is a black powder and i'm going to add a little bit of that to this second test tube and it's what we call a catalyst it's going to speed up the reaction and it's going to cause that decomposition reaction to go just a little bit faster so if you look there you can see the bubbles starting to form little gas bubbles coming up there right up to the top and if i held it over here to the microphone you probably hear that fizzing sound just a little bit hopefully that wasn't too loud but you can see that reaction sped up quite a bit it's happening much more rapidly it's
+
+[03:26] happening in this test tube but we can't see any bubbles so that catalyst helps speed up the reaction inside of this this test tube now another substance we can use to do that is called potassium iodide and it's these little white crystals in this container and we're going to add a smidge of that to test tube number three and see what that does and as those go in you'll probably start to see the bubbles forming there and it's fizzing up and we don't have the black color in there and they're not increasing the surface tension at all but this reaction is going quite quickly down there in the
+
+[04:09] bottom of the test tube and one way we can test to see if this is actually oxygen forming in here is called the splint test so i'm going to take a little splint of wood and we're going to light this on fire because chemistry is much more fun with fire we're going to let it burn for a second and as you know oxygen is required for a fire to burn so if i blow this splint out and stick it inside of this test tube it will reignite not enough oxygen to ignite lots of oxygen down inside the tube causing it to reignite so we have positive proof that the gas that's being liberated there is actually
+
+[04:53] oxygen another thing you'd notice if we had super special cameras is this test tube is getting warm to the touch as we'd say this is an exothermic reaction it's giving off heat some reactions require heat to be added in for them to go so they are endothermic okay so we've got reactions happening here we've got reactions happening here and we've got nothing happening still in this to this test tube so what we're going to do here we're going to add a touch of something you've all got around the house of dish soap now the job of the dish soap in this test tube is to help increase the surface
+
+[05:35] tension of the of the liquid so it's going to give us a an increased surface tension and what that's going to cause to happen when we add the bubbles we'll hope this doesn't get too messy we'll clean it up if it does when we add the bubbles into there we get that reaction going and you'll start to see it growing and swelling out of the tube because the bubbles can't pop the soap is binding the bubbles together and so they're not popping like they are in these tubes and so it's slowly slowly increasing and if we let that go too long here we're going to have a bit of a mess on our hands and
+
+[06:29] we'll actually be doing this one in a little bit a higher concentration and a bigger container in a few minutes we're going to set this one aside so that it doesn't make too much of a mess over here for us okay so let's look at something else now we have we use the red ones in these i've put a higher concentration of the peroxide in these we have 35 percent concentration so this is a much more concentrated solution of the hydrogen peroxide this is not stuff you can buy in the grocery store it's typically used for cleaning commercial surfaces and things in kitchens and that type of stuff so
+
+[07:11] much more concentrated you always want to work with gloves and glasses when you're handling this so when i prepped these that was the case so again we have the 35 solution here is our control you can't see any of the bubbles but i promise you if we could go down to a molecular level that decomposition reaction is happening so let's add the manganese dioxide to this one now if it let's make a prediction if it's a higher concentration we would expect that the reaction might be a little bit more vigorous and there we see quite a dramatic reaction and again we i'm hearing a lot of sizzling we've
+
+[07:52] got a lot of bubbling and since this is a higher concentration it's going to heat up quite a bit more rapidly so that reaction because it was more concentrated happened much more quickly so concentration increases the speed of reactions so let's try the same thing with the potassium iodide and we'll drop that into the 35 solution and you can see a much more vigorous reaction happening there i will catch some of that with a paper towel and you might notice you can't see my face anymore because there's a lot of steam moving around through the air so this is an extremely efficient demonstration
+
+[08:37] of the exothermic nature i can hold my hand over here and this feels very warm to the touch so we get a very vigorous reaction out of these because they're very concentrated the other ones only a three percent solution not quite as fast of a reaction so we can control the rates of reactions if we increase and decrease the concentration so this might get a little crazy and we'll probably have to grab a couple extra pieces of paper towel here but we're going to try this with a touch of the dish soap in there to increase the surface tension all right we're going to throw a couple more paper
+
+[09:21] towels under here to catch some of this it's gonna be a little bit messy but messes are fun did you hear that kids messes are fun tell your parents okay so when we add our potassium iodide to this to this test tube i'm gonna go a little bit lighter on this one and the surface tension's there and it's going to make this foamy substance now again the foam that we're seeing we saw that in the test tube with just the potassium iodide but that foam that we're seeing is because the air bubbles are being trapped by the soap it has a higher surface tension and again we've got the steam coming off
+
+## Part 2 · 10:02
+
+[10:02] here so the water molecules that are being liberated from that reaction are actually evaporating off there's so much heat they're evaporating off of steam okay so we've got a nice little demonstration of here how the concentration really affects how quickly the reaction happens okay so one area this is very useful and not just to make fun stuff bubble up in a test tube if you think about the way your airbag works in your car your airbag has to ignite very quickly and generate a lot of gas very rapidly oh there's a little bubble pop we popped it okay so it has to generate a lot of gas very
+
+[10:47] quickly so that that airbag can inflate around you so using an electrical ignition and a chemical reaction with that catalyst present at a high concentration it rapidly inflates to protect us in automobile accidents so understanding things like concentration and catalyst and how those work is more than just making fun bubbly stuff there's another bubble pop right it's about doing real things that can benefit us in real life and solve real problems in chemistry okay so this was kind of fun but it's little and it didn't make much of a mess what if we did the same thing in a beaker this size so
+
+[11:29] we're going to go outside to do this one and what i've got here is the same 35 solution added a little bit of blue food coloring just for fun to give it and give it some color we're going to take this outside and we're going to try to add our potassium iodate solution and we're going to see if we can get a little bit more dramatic reaction out of this one so if you visited the creation museum we're out on the patio the waterfall steps are over here the lake's back behind me cafe is up above us on the table and we're going to do this reaction i'm going to dump this whole bundle of the
+
+[12:19] potassium salt into here as the catalyst to start this reaction and then i'm gonna get out of the way i've also necked down this nozzle a little bit so we're gonna dump this in here gonna give it a little swirl and i'm gonna get back so you can see the reaction happening very rapidly and then at some point it'll pick up dramatically and we get this huge pillow of nice blue foam and you can see the steam rolling off of there we've got lots of lots of warm air in here if i stuck my hand in there i'd probably get burned i think we scared the geese off the pond over there but just an example of
+
+[13:08] how quickly we can make those reactions go and increase the rate of reaction with the concentration adding that catalyst and creating these gases that we can use for various purposes all right i hope you've learned a little bit about things today thinking about decomposition reactions and and how concentration and catalysts work and affect us we'll be doing more of these facebook live events through the day at noon we'll have a speaker at three o'clock and then at 7 30 this evening as well so keep an eye on the webpage for all of those pieces and we also are offering a discount on our website
+
+[13:46] for for you to take advantage of our resources during this time where you might be locked up at home fewer things to do travel restrictions those types of things you can go to the website and there'll be more information about a coupon code there for you using coupon code matthew6 as a way to get that discount so look for that information it'll be posted throughout the day and more information to come again i'm roger patterson and it was a great pleasure to be with you today i hope you've learned something about god's creation and how he's created these chemicals in predictable ways and thank
+
+[14:19] you for being with us

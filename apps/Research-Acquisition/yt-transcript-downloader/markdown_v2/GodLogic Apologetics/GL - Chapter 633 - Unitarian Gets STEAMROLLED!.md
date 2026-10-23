@@ -1,0 +1,79 @@
+# Unitarian Gets STEAMROLLED!
+
+**Channel:** [[GodLogic Apologetics]] (`GL`) · Chapter 633 of 663 · Length 13m 10s · [[00 - Channel Summary]]
+**Video ID:** `6tpGSB_o4Uc`
+**URL:** https://www.youtube.com/watch?v=6tpGSB_o4Uc
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-29 16:07
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:06|Part 2 · 10:06]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] You reject the Trinity? Yes. You What's What's your belief system? You Muslim? I I would just say I'm a Unitarian. I believe that Yahweh is Yahweh and Jesus is not Yahweh. Do you believe the Bible? I believe the parts that are true. What does that even mean? What's your epistemic principle for when it's true and when it's not? Uh when it corresponds to reality. So like what? The system that you assume? Well, like for instance, like we know that Trinitarians added 1 John 5:7, so we can't say every single verse is true.
+
+[00:33] Well, the Trinity is not based on that The Trinity's not based on that verse anyway. What's your epistemic principle? You said the Trinity The Trinitarians did this. I'm asking your epistemic principle. You said it's reality. What does that mean? So when the Bible corresponds to reality is when it's true. So like if if if it presents some sort of history is when it's true, so that's a circle. Well, truth is what corresponds to reality. So reality is when it corresponds to what you just said is what the Bible says when it's your position.
+
+[00:57] So how do you What's your epistemic principle is what I'm asking. The epistemic principle is we read what the Bible says and we analyze it from the Bible. You said when it's according to what's true. You have a prior principle. What's the basis of the prior principle? The The prior principle is logic according to reality. So we read the Bible and we we ask It means we read the Bible and we ask what do the words mean and do they do they violate the laws of logic? You're going Okay, so now what's the basis for believing in the laws of logic?
+
+[01:26] The basis of believing laws of logic is that we use our minds to form abstract concepts. How does use justify it? That doesn't mean that it That doesn't explain its existence, how it is, where it is. Right. So reality exists, right? What is that What is that You So you you're making all these metaphysical assertions. I don't know what those things mean. There's There's a lot of those are tautologies. They're just restatements. So one of your problems, Jay, is I I know you're straying to the personal. And now so Are you going to answer an epistemic question or just keep going in circles?
+
+[01:55] Well, okay, I won't to it personal, but I'll say this is this is the problem with presupposition. It's not actually nothing to do with presupposition. It's an epistemic question. So yeah, yeah. So presupposition actually gets epistemology wrong. Oh, really? So what are you foundationalist? Uh I would say I believe in correspondence theory of truth. That has nothing to do with foundationalism. Okay, well, can you please define foundationalism? Do you think there's self-evident maxims?
+
+[02:22] Because it seems like you keep just referring to these sort of self-evident things like logic and I'm asked for a justification. we have to we have to we have to assume certain things. Yes. Well, how do we know what the right assumptions are? You said logic. What's the basis We can't So absolute certainty, when you say know, I would define that as absolute certainty of truth. So there's no have to have We don't have to have absolute certainty. Okay. Well, I would say when you when you use the word term know, we can't really know anything. How do you know That's a contradiction right there.
+
+[02:47] Yes. So we we can we can we can form you know How do you know that you can't know anything? You just said that you know that we can't know anything. That's a contradiction. It's a universal you do you know that? Do you know that you can't know anything? I would say we can form beliefs that we think are true, but they may not be true. Yeah, but you're missing the point because every time you assert something, that's a knowledge claim. And you're also saying that we can't know knowledge claims. You give up yet? We can't We No, no, hold on.
+
+[03:14] You either don't know epistemology and you're not familiar with like the basics of circular claims. We We can believe something, but we can't know it's true at There we go. So that's fideism and it. I believe it. But you don't know it. It might be false. You're making a universal claim that is at the same time not universal. That's a contradiction. I can Well, let me say this. I I can I can believe a proposition, but I can't know it's true. But you're missing the point because that proposition itself is intended to be a universal claim. And you're you're canceling it out by the next statement.
+
+[03:45] Okay. So let's let's go with this. Can we Can we agree that Can we agree that there's a reality that exists? Uh again, I'm not going to grant you your dogmatic assertion any more than you would grant me in a debate my dogmatic assertion. Okay, well, in my opinion Are you going to grant me in a debate if I just say the Trinity just is? No, I'm not. Okay, so I'm not going to grant you, well, my view of logic just is. And so, just give me that I get to start there. No, you don't. Okay, well, yeah, we're trying we're trying to build our epistemological foundations.
+
+[04:14] For me, it starts with reality, which is an emanation of God. meaningless metaphysical assertion that you've not justified. If you get to just start with that and you get to pack all this metaphysical baggage into it, I get to do the same thing. Well, where should I start? Where should I start? What is more fundamental than give me a coherent starting point. I'm saying that I can't think of anything more fundamental than reality itself. Unless fact that you can't think of it doesn't make it justified in the first place. that.
+
+[04:38] I'm just saying I and there may be something more fundamental than reality. isn't justifiable. That's fine. It is justifiable as far as I can tell. Let me say that. So, if you can if you can give me that of that at all? So, in that in philosophy and epistemology, that means that it gets you nowhere. If you can give me something more fundamental than reality, I'll go with it.
+
+[05:03] But, as of this moment, I can't think of anything more fundamental than all, the irony of that is that in the history of philosophy, words like reality or reasoning are vastly elastic phrases that various philosophers stick all kinds of things into. So, the idea that something like reality is self-evident, which is I think where you're trying to go, is a dead end because it's not even answering the question of how do we know that that's self-evident. This is called the criterion problem.
+
+[05:24] So, in other words, if you assert something as self-evident as the starting point of a criteria of a worldview, whatever, we need to know why that's the thing that's self-evident and why the other things aren't. And the problem right there is you've got another standard by which you're dividing the the self-evident and the non-self-evident things out. And so, if there's a prior standard, then the self-evident things aren't self-evident because they're relying on another standard. So, you're you're in an infinite regress of self-referencing circular starting points. Okay.
+
+[05:47] Well, well, what I would say is what the presupposers do is they presuppose the truth of the Bible and and judge reality according and judge the rest of their observations according to that. What I do is I I judge the Bible according to what my rational mind and empirical observations tell me is true. But which for which you have no basis. Okay, yeah, but if the if the Bible says okay, yeah, yeah. Okay, yeah, but. Well, here's what here's here's the situation. Who has a better methodology?
+
+[06:24] If the Bible says if the Bible says the moon is made of cheese, would we presuppose it's true or would we go to the moon and find out if it's made of cheese or not? the Bible doesn't say that, so that's a false analogy. Yeah. It's not going to work because that's that would be like me telling you, "What if reality says the moon is made of cheese?" You wouldn't accept that. Let's do let's let's do this, A. Let's do this. So, this this was enough. Do you believe that the Bible teaches the Trinity, bro?
+
+[06:53] Uh I can I can see how if you piece certain verses together, you would get a very skeletal framework for the Trinity, but it wouldn't be the full Trinity doctrine that has been developed through the councils and everything. How is it that how is it that there's dozens and dozens of references throughout the Old Testament? I did a 5-hour lecture series just on the Old Testament references to multiplicity in Yahweh. Problem with the idea that the Trinity is in the Old Testament is that there are literally zero Jews who were Trinitarian. So, if the Trinity Not true.
+
+[07:22] I've got about I've got five Jewish texts right here arguing that the Old Testament had a multiplicity of persons in Yahweh. You can you can say there's a So, so you No, I've got them right here. I've got them literally on the screen. Yeah, I see the screen. I see the screen. What I'm saying is I assume one of them is probably is it Seagull's Two Powers in Heaven? Correct. The other one is Summer's Bodies of God. The other one is Shaffer. Uh there's also Boyarin. Yeah. So, the problem with the problem with two powers in heaven theory is you need three to make a trinity.
+
+[07:49] But but the argument is not that the early Jewish people were strictly orthodox trinitarians. The argument is that they're not unitarian. That's the point. So, if if you went to um And by the way, the thousands of the thousands of Jews that begin the church are trinitarian in the book of Acts. I In my In my opinion, no, the book of Acts is is anti-trinitarian as it gets. Uh so, you're just asserting that. I'm talking about the Jewish Christians as the basis of the church confessed the deity of the person of Christ.
+
+[08:20] For example, when Stephen is stoned, he's stoned because he he confesses the deity of Christ. Okay, you're going to have to prove that to me. I I just have a I have a question for you. Um this is 1 Corinthians chapter 10 verse 9 here. And it says here that we must not put Christ to the test as some of them did and were destroyed by serpents. When did the Israelites put Christ to the test and then as a result were killed by serpents? Uh I remember when they put Christ to the test and were killed by serpents.
+
+[08:52] You know what this is a reference That'd be a reference to something that happened in the New Testament or the Old Testament? It's the book of Numbers. You're not even reading the Bible. You're not even reading the Bible. No, no, I am. I Okay, that's true. not. If you would know that that's the book of Numbers. Well, here's the problem. I knew I knew Numbers, you know, the the problem is with The problem is not Just it's like John 3:14, just as Moses lifted the rod and you know, it healed people from the serpent. Yeah, so so right here.
+
+[09:17] So, when did when did they put Christ to the test and then as a result were destroyed by I had I did not know that was a reference in Numbers. The problem I have with that is that Christ was not know the Bible. Well, Christ was not in the in the Old Testament. Well, so so again, that's why I'm asking you since he says he is. God logic. Text right here. Well, yep, this is why I'm asking you.
+
+[09:45] If you're saying that Christ was not in the Old Testament, what is Paul talking about when he says that as some of the Israelites put Christ to the test and as a result were killed by serpents, when did this happen? Uh, okay, I guess that would probably be a reference to with a number 22? Numbers 21. 21? Yeah. So, that is in the Old Testament, huh? Okay. Okay, and John 5 when Jesus was talking to the Pharisees and explains that no one sees the Father at any time, yet Moses saw God face to face. Jesus is saying that he was there on the mountain talking to Moses. Let me ask a question.
+
+## Part 2 · 10:06
+
+[10:06] Did uh did That's a blow past the pastors. Did did Jesus Christ in any of his discourses claim to be having representation before Yeah, yeah, he does. He just gave you He literally just gave you a reference. And even you gave a reference when you talked about lifting up the serpent. But, you I don't want you to get away from this here. So, Paul is a saying that Jesus was the one who was tested by the Israelites in Numbers 21, right? That appears to be what he's saying. Okay.
+
+[10:40] So, when we go to Numbers 21 and we see who actually was tested, it says that it was Yahweh who they spoke against, right? And then Yahweh sent him sent serpents upon them, right? You see this? Yeah. Yeah. And the people spoke against God and against Moses, "Why have you brought us out to Egypt to die in the wilderness? There's no food or water." yada yada yada. Then Yahweh sent fiery serpents among the people and they bit the people so that many people of Israel died. So, the Yahweh that Paul is saying was in the Old Testament is actually Christ who was tested, right?
+
+[11:07] That could be a valid interpretation. I I'd have to look at it, but for my for my that for my understanding and when I read the epistles of Paul, he seems he seems to be anti-Trinitarian as well. Okay, so how is he anti-Trinitarian if he says if he's identifying Christ as Yahweh who was there in the Old Testament being tested by the Israelites? It could be it could be a figurative representat- representative Figurative of what? You can't an agency type thing where It's It's no There's no agent is called Yahweh. The Bible literally says in Psalms 83:18 that you alone are Yahweh.
+
+[11:43] Then Nehemiah 9:6, you alone whose name is Yahweh. So, Paul, a monotheistic Jew who's well familiar with the law and the prophets, is not going to call a creature or an agent of God Yahweh, right? Yeah, but you have to understand sometimes the There are There are verses in the Old Testament which are are applied to Christ, but that is not Oh, yeah. Yahweh verses? Yah- Yahweh verses are the There are Yahweh verses that are applied to Christ, which are So, those are the ones that he rejects. Oh, reject I don't reject them. I don't reject those. No.
+
+[12:16] No, I I don't I You said at the beginning that the passages that do not conform with Unitarianism and with quote reality are the ones that you don't accept. That was the first thing you said when you came on here. No, I never said Well, oh, did I Okay. Well, I said I did I didn't say that don't I don't reject things cuz they don't conform with you know, you know, with our Unitarianism. That's what you said at the beginning. If I did What I meant to say is I reject them if they don't correspond to what's true, okay? All right.
+
+[12:40] So, you're you have an epistemic principle that is your own position that judges the Bible. That's what this amounts to. And you know, when the counter evidence when the counter evidence comes up, they're all reinterpreted or rejected. Yeah. Look look, I want I want to thank you for coming, man. Take a look at this. Like, revisit this. Look at those Yahweh passages. And I would say, let the Bible speak for itself, bro, okay? I do have a lot of guests that I got to get to, but All right. Thank you. I do want to thank you for coming, all right? Okay. I hope that was funny.
+
+[13:06] Jay, you be cracking me up, dude. You crack me up because it's so nonchalant.

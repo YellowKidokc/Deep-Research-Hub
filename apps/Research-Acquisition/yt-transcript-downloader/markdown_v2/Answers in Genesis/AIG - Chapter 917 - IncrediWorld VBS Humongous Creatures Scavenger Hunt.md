@@ -1,0 +1,59 @@
+# IncrediWorld VBS: Humongous Creatures & Scavenger Hunt
+
+**Channel:** [[Answers in Genesis]] (`AIG`) · Chapter 917 of 1947 · Length 15m 54s · [[00 - Channel Summary]]
+**Video ID:** `mRj9J6jwIE8`
+**URL:** https://www.youtube.com/watch?v=mRj9J6jwIE8
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 06:28
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:07|Part 1 · 00:07]]
+- [[#Part 2 · 10:21|Part 2 · 10:21]]
+
+---
+
+## Part 1 · 00:07
+
+[00:07] [Music] well today's incredible animals are humongous and humongous means big hey i got an idea on the count of three yell out a big animal as quick as it comes to your mind one two three well i heard a lot of names out there but one of the names that i heard of humongous animal would be an elephant in fact did you know that an african elephant can weigh seven tons seven tons and then it stands about 13 feet tall at its shoulders and some elephants their foot is as big as a doormat on a house i think i heard some of you say blue whale and you're absolutely right the blue whale is the largest
+
+[00:54] living animal that is on our planet today these critters are so big that if we'd be able to check out the mouth of a blue whale and it would open its mouth and we had run inside and with it we'd check out his tongue like this we'd find that the tongue of a blue whale is the size of an elephant and then if we could check out that heart that would be beating it's the size of a small automobile now that is humongous did i hear somebody say dinosaurs well yes some dinosaurs got to be giants but not all of them some dinosaurs fully grown were not all that big like these velociraptors these are
+
+[01:32] life-sized velociraptors only about six feet long or so and some full-grown dinosaurs were smaller than this they'd only be the size of chickens and some full-grown dinosaurs were even smaller than chickens fully grown but the dinosaurs that are the most famous are the ones that were humongous hey i want you on the count of three to name a big dinosaur ready here we go one two three did i hear somebody say sauropod dinosaur if i did will you guys get an a because they were the largest animals that ever walked on planet earth they were big that's what some boys and girls like to call the long
+
+[02:13] neck dinosaurs because it had a really long neck a great big long tail that would sway back and forth as these animals would walk had a big body built kind of like a tank with pillar-like legs that would hold that body up and some of these dinosaurs were so tall so tall that they could look right inside the top of a four-story building now how tall would that be well just imagine a house that has a downstairs and an upstairs and take another house and put it on top of that house that has the downstairs and upstairs some of these dinosaurs like these big sauropod dinosaurs they were so
+
+[02:46] humongous that they could peek right inside that top story of that house and look at you i'd say mercy [Music] so you may not know this but dinosaurs are mentioned in the bible in the book of job it talks about a sauropod type dinosaur and job knew this creature by the name of behemoth in fact god goes out of his way to describe what this creature looked like much more so than if he'd be describing what some of the other animals look like that's mentioned in the bible so you know what that tells me this is an important animal and one that we should take note of but it's important anytime you
+
+[03:22] hear somebody talk about dinosaurs that you put your biblical glasses on because you're going to probably hear a story from man's point of view that would sound something like this you scared me i didn't know anybody was in here dinosaurs ruled the earth for about 140 million years and during that time they were the kings of the planet then they died out now we're not sure why they died out but some of my colleagues paleontologists believe the dinosaurs died out because a huge big meteorite struck the earth and that's what caused the death of the dinosaurs but still some other colleagues they
+
+[04:09] say no no that's not the reason they died out because of constipation yeah that's what they say other others say no the reason the dinosaurs died out is because they starve to death wasn't enough food for them to go around and some of my colleagues say no that's not the reason there's plenty of food in fact they died of indigestion they ate too much food it's what they say then i have another group of scientists they know the dinosaurs died because their brains were so small they could no longer compete with the other animals that started to fill the planet so when you hear that you need to
+
+[04:45] know that the bible teaches a true history of dinosaurs from their creator so today during dino day we're going to learn and clear up the confusion about dinosaurs and find out when they lived on this planet how they died and why it is so important for us to know this when you see seismo the dinosaur it's important to remember that there is a sar-pod dinosaur that's mentioned in the bible and it's called behemoth there is much evidence starting with the bible and confirmed by science that these animals actually lived not that long ago right along with people [Music] hello it is i doctor
+
+[05:42] mister and we are back at my incredible lab where today we're going to be talking about how our incredible god made some incredible creatures called dinosaurs oh i love to think about dinosaurs and study them and find out all kinds of amazing facts about them did you know that our great god created some great big dinosaurs he also created some smaller dinosaurs but when i think of dinosaurs i usually think about great big dinosaurs so today for our science experiment it's actually going to be a science scavenger hunt and the only supplies you need are a measuring tape and your imagination oh
+
+[06:38] it's going to be so much fun so here's what we're going to do we're going to use our measuring tape to measure some of our features and then we're gonna find some things maybe around our houses around where you live maybe you have to go outside you may need an adult to help you as well because we're going to measure some amazing things to see some of the great big features that god designed when he created the great big dinosaurs are you ready okay let's begin now the first thing i want you to do is i want you to measure how long your leg is from the ground to your hip here is my hip here is
+
+[07:28] the ground and i look oh i have about 37 inches from the ground to my hip and you see how big your leg is okay once you have figured out how long your leg is we have the first step in our scavenger hunt so here's what i want you to do when i say go you're going to go find something that is 15 feet tall wow that's even taller than my lab so you may not have anything inside that is 15 feet tall so you might even have to go outside so if you need an adult to go with you please do that but go find something that is 15 feet tall and when you do i want you to use your imagination because that is
+
+[08:27] the same length or height i should say as the leg of an apatosaurus can you believe it their leg is 15 foot tall so go find something 15 feet and think that's how tall the leg of an apathesaurus is on your mark get set go welcome back i hope that you are able to find something 15 feet tall isn't it amazing that that is just the size of the leg of one of the amazing creatures god created the second thing i want you to do is go ahead and use your tape measure to measure your foot okay my foot is about oh 11 inches long just a little my foot is just a little smaller than a foot oh that's so
+
+[09:24] funny anyway and then the second part of our scavenger hunt is for you to find something that is one two three three feet wide now that could be inside or it could be outside again it's up to you but when you find something three feet wide i want you to think wow that is about the same size as some dinosaur footprints who and think about how big their foot would be compared to your foot are you ready on your mark get set go welcome back i hope you were able to find something as big as a dinosaur footprint now i want you to measure something that is small we've measured some things that are
+
+## Part 2 · 10:21
+
+[10:21] big now let's find something a little smaller like a tooth or this one i cannot see how big my tooth is because well my eyes are up here and my mouth is down here and my eyes cannot see in my mouth but i could have a friend help me and tell me how big my biggest truth is okay now once you've done that we are going to go and do our firm scavenger hunt oh this is so much fun and now i want you to find something that is about ooh six inches long okay you're gonna find something six inches long because that is about the size of the tooth of a t-rex oh isn't that huge that's much bigger than my
+
+[11:08] tooth so press pause when i say go and find something that is six inches long on your mark get set go welcome back were you able to find something that was six inches long well this is kind of like what a t-rex tooth may look like this is almost six inches long oh isn't that great that would make eating pizza so easy wouldn't it yes i think so now are you ready for our next scavenger hunt this one is a little more difficult you probably need some help with this one too now i want you to measure how tall you are okay you may already know this but you can still do it again okay if you want to
+
+[12:04] you can also measure how high you are okay but that doesn't matter so measure how tall you are and now we're gonna go find something very tall or it could be very long as well you need to find something that is 30 feet long wow 30 feet long and when you find this thing that is 30 feet long i want you to imagine a triceratops oh isn't that a cool dinosaur because a triceratops was about 30 feet long that is huge and they're not even the biggest dinosaurs that god created so when i say go press pause and find something 30 feet long on your mac get set go welcome back i hope you were able to
+
+[13:04] find something that is as long as a triceratops very good now did you know that the book of job talks about a huge creature called behemoth in in the description of behemoth the bible says it had a tail like a cedar tree now i know a little bit about cedar trees maybe you know this maybe you don't but did you know that some cedar trees are 40 feet high oh that's bigger than the triceratops we just mentioned but you have to stand it up but cedar trees can grow to be 200 feet high that's many times bigger than a triceratops wow and did you know that a cedar tree can be somewhere between 8 feet
+
+[14:03] and 12 feet wide so here's your last scavenger hunt you need to go and find something that is about eight or twelve feet long or anywhere in between there okay so when i say go go find something that is about eight feet long or up to twelve feet long on get set go welcome back i hope you were able to find something that was between 8 and 12 feet wide that would be about the same size as a cedar tree and think behemoth is described as having a tail like a cedar tree now think have you ever seen an animal either in the wild or in the zoo that would have a tail like a cedar tree i know i haven't
+
+[15:05] behemoth sure sounds like a giant land dinosaur that god created on day six so if we think about how huge and how powerful all these dinosaurs were it makes me think about how wise and how powerful the god who created the dinosaurs is and he just didn't create the dinosaurs he created everything including you and including me when i think of dinosaurs i think about how amazing and how incredible god is and i always remember god is great and god is good

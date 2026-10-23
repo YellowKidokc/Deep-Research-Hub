@@ -1,0 +1,52 @@
+# 5 Billionaires Who Could Make Immortality Possible | Answers With Joe
+
+**Channel:** [[Joe Scott]] (`JS`) · Chapter 26 of 763 · Length 8m 33s · [[00 - Channel Summary]]
+**Video ID:** `G350NwRCGMU`
+**URL:** https://www.youtube.com/watch?v=G350NwRCGMU
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-07 05:26
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:01|Part 1 · 00:01]]
+
+---
+
+## Part 1 · 00:01
+
+[00:01] there are people alive today who fought during World War II and there were people alive during World War II who fought during the Civil War and there were people alive during the Civil War who fought during the American Revolution isn't that an insane thought the United States is only three lifetimes old but here's an even crazier thought some scientists believe that the first person to live a thousand years has already been [Music] born thanks for joining it's time for another round of questions from answer files on patreon if you'd like to get some questions answered yourself join in some
+
+[00:33] live uh video chats join a private Facebook group or just get some exclusive emails from me you can join at patreon.com anwers withth Joe and GI till it hurts people now what can I do to get you in this here new car I'm the worst salesperson first question comes from Matt Herring who asks can you do a video about the ideological touring test and how it can be applied for more logical and constructive conversations holy crap this could not be more relevant right now the touring test was conceived by touring in 1950 he was an early computer Pioneer who famously cracked the Nazis Enigma code in
+
+[01:04] World War II which was depicted in the movie The imitation game the touring test was first proposed by touring in his paper Computing machinery and intelligence which began by asking I propose to consider the question can machines think he went on to wonder if someday a machine could be intelligent enough that the average person could have a conversation with it and have no idea that they're talking to a machine it's a theoretical test that's never been quite passed although some of our speech AI is getting pretty close and the fact that Turing was even thinking about this at a time when
+
+[01:29] computers are made up of thousands of vacuum tubes is actually just totally amazing and deserves a video all its own but we're not talking about that right now no no we're talking about the ideological touring test this is a way to determine if somebody can understand the political views of their opponents the test asks a person to write an essay and do it in favor of a position that they don't personally believe in and see if they can write it in such a way that an average reader would think that they actually do believe that in other words if you were pro gun you would be asked to write an
+
+[01:57] essay in favor of gun control and see if if somebody reading it would think that you were sincere in your beliefs the idea was put forth by Brian Kaplan who's an anarcho capitalist which is like libertarianism on steroids and Red Bull in response to left-leaning Economist pra Krugman when he said in an article that he thought liberals understood conservative positions better than conservatives understood liberal positions there are three ways to do it one the reader knows the identity and politics of the author and know that they're participating in a test and other words you know that the
+
+[02:23] author is Bill O'Reilly and that he's normally conservative but he's trying to pass himself off as a liberal two the identity and political stance of the author are known but it's not known to the reader that it's a test so in this case if you're the reader you know that Bill O'Reilly wrote it and you know that he's conservative but for some reason he wrote a paper about how awesome abortion is and three the identity of the author is secret and the reader doesn't know it's a test they think they're just reading genuine beliefs so in this case you're just reading an article and you have no
+
+[02:48] idea who wrote it and you have no idea that this is a test now I'll be honest I looked around for some results of these tests and I had trouble finding any so if you guys know of some please share them down in the comments I did find a forum on the conservative eono log website where Brian Kaplan first posted this ideological touring test and it was kind of interesting because most of the people on there were conservative and they got a zero out of five like almost all of them in other words they weren't able to correctly identify any of the articles that were written by actual liberals or
+
+[03:13] which ones were conservatives posing as liberals and my favorite part was that many of them were convinced that the Liberals who wrote the articles for this thing had spiked them just a mess with their results and then there were others that were convinced that they were just way too generous and that apparently Liberals are just way dumber than they thought so lesson learned ultimately who performs better is not the point at all the ultimate point is just getting people to see things from the other person's perspective or at least try to and the sad thing is a lot of people these days aren't
+
+[03:41] even willing to attempt it just the idea of performing a thought experiment of trying to think like their opposition is just anathema to them and that's a shame we are at one of the most polarized moments in American history but deep down inside we all have the same wants and the same fears and the same needs and if we can come to an understanding on those things then maybe we've got a little bit of hope we have to be brave enough to try at the very least Gavin Peto said I'd like to see a video on the Immortals the Silicon Valley billionaires who are working on living forever billionaires are
+
+[04:09] by definition very ambitious people when you have more money than you could possibly spend in a th lifetimes the idea of just living a thousand lifetimes doesn't seem so improbable and there are a handful of billionaires working on this issue and some of their plans are kind of insane you can't talk about this without mentioning Dimitri isakov the 3 2-year-old Russian billionaire who created the 2045 initiative it's a multi-discipline effort to make immortality feasible by 2045 to do it they propose a series of avatars starting in the year 2020 Avatar a is a robotic copy of a human body
+
+[04:42] controlled remotely much like the movie Avatar they claim that 85% of the technology required for this is already available and would have applications including Next Level teletravel and cyber tourism Rehabilitation of paraplegics and disabled persons and increased safety for First Responders they believe this is capable by the year 20 avatar B takes it a step further it's a full body prosthesis under which your head would be transplanted at the end of your health span so it's a lot like Avatar a except instead of controlling it remotely you're transplanted right into it they plan for this
+
+[05:10] to be possible by 2030 by 2040 they plan to La Avatar c a completely non-biological brain and body that your Consciousness can be transported into this would be a non-aging mechanical custommade body with greater than human capabilities and the last one is Avatar D which is a hologram like Avatar that I don't honestly fully understand it's the ultimate goal of the project but it's optional since Avatar C would give you full immortality according to their estimates this would be possible by 2045 of course whenever you talk about the transfer of Consciousness from one thing to another you have
+
+[05:39] the whole teleportation problem which is how do you know that the original stream of Consciousness continues from one place to the other how do you know that you're not just making a copy of that Consciousness and letting the original one end because to the person or machine where the Consciousness wakes up in it would feel like a continuation of Consciousness just like going to sleep and waking up again but there's no way of knowing that the experience of the original original Consciousness is just like going to sleep and then this is why I can't sleep at night other people involved in
+
+[06:09] immortality and Longevity research include Larry Ellison the CEO of Oracle his biographer once said that he sees death as just another corporate competitor that he can out Fox and his foundation gives out $40 million a year to life extension research venture capitalist Paul F Glenn heavily supports longevity research at MIT Stanford Princeton and Harvard and has supported the methusa foundation which is run by Rasputin lookalike Aubrey de gry PayPal co-founder Peter teal has put millions of dollars towards the S Foundation which is researching a cure for mortality and Google co-founder Sergey
+
+[06:42] Bren is heavily involved in Singularity University which is Ray Kur while stomping grounds links for all these places in the downstairs as long as humans have been able to contemplate our mortality we've been trying to find ways to cheat death both spiritually and physically the Epic of gilgames considered the very first work of recorded literature was about a man seeking the secret for eternal life many of our early explorers were seeking the mythical Fountain of Youth I'm looking at you Pon ston and Emperor chin the man that China was named after famously died from mercury poisoning which
+
+[07:09] he was ingesting trying to live forever but with the exponential growth of Technology over the last 100 years and this amount of money being thrown at the problem are we on the cusp of beating death I for one am hopeful but skeptical immortality to me feels a lot like end times people you know for thousands of years people have have known that it was just right around the corner and they've always been wrong having said that average life expectancy has gone up 3 months for every single year that's passed since 1840 that's a trend that doesn't seem like it's going to stop in lie of a giant
+
+[07:43] plague of some kind of course there are some people that are predicting a postantibiotic age where super bugs are prevalent and just a tiny scratch could kill you so uh yay by the way if you're interested in the 2045 initiative and want to be a part of you can go to 245.20 and I'll see you next time love you guys take care

@@ -1,0 +1,69 @@
+# Epstein's Lawyer - "I Know The Names... I Know Why It's Being Suppressed"
+
+**Channel:** [[Tom Bilyeu]] (`TB`) · Chapter 268 of 1389 · Length 12m 08s · [[00 - Channel Summary]]
+**Video ID:** `IbN6e1gv8rs`
+**URL:** https://www.youtube.com/watch?v=IbN6e1gv8rs
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-20 16:15
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:12|Part 2 · 10:12]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] Alan Dersowitz is saying the Epstein files are indeed being suppressed, that we've got some major action, major players that are being protected. Politicians, famous people, you name it, they're in there. Just giving you the facts. You can draw whatever conclusion you want, but our episode on Epstein got age restricted. Reputation is largely built on taking controversial and often unpopular cases. So, let me tell you, I know for a fact documents are being suppressed, and they're being suppressed to protect individuals. I know the names of the individuals. I know why they're being suppressed.
+
+[00:33] I know who's suppressing them. But I'm bound by confidentiality from a judge and cases, and I can't disclose what I know, but I hand to God, I know I know the names of people, and that's wrong. >> We've been talking about this. It's been bouncing around the podcast circus. Now, at this point, >> everybody is going to reveal themselves in how they respond to social media, being able to talk about everything. Cameras being everywhere, and some people are going to want to clamp down. They're going to want you to only see things that are approved. This much information has a deranging effect.
+
+[01:05] It just isn't only deranging. To me, this is like being able to farm and create industrial farming where you can just have calories all the time, anytime, whenever you want. If you give that to people that have no control, they're going to become, you know, 600 lb. They're going to eat terrible food. They're going to be dying of malnutrition despite being morbidly obese. Yeah, I get it. But that doesn't mean that I would rather force everybody back to where you have to hunt and fish and risk starvation when winter comes. Like, it's absurd.
+
+[01:42] The logic that people use around, hey, some people are going to say dumb things and some people are going to believe dumb things and therefore we have to control this [ __ ] It is the weirdest logical progression ever. You know that at some point you're saying I don't want the trust to be voluntary. I want the force the trust to be forced. Like what is happening? How do people look at history and go >> it works out so well. Drew >> it's not a problem. It's crazy. >> What do you say though to the people that say there's miss this uh Swiss bliss? I don't know. All the misinformation.
+
+[02:13] I like that. >> Yeah. Like if I say a lie loud enough, and we even experimented on the show jokingly. We all have examples of that. >> Some people still think you're 53. I love that so much. He is 53, by the way. >> If you say it loud enough, it will be effective. And at the political level, there should be a level of responsibility there. So, is it It's free speech when you're talking about, you know, technology. It's free speech when you're talking about video games, movies, things like that. But politics should be restricted. Like, is that a middle ground? Nope.
+
+[02:38] >> You just think full stop, no restriction. Like, you cannot do that. >> Correct. Here's the thing, Drew. Oh, god. I love and care about you truly as a human being, but I think you're out of your mind to believe in God. Imagine that I got to tell you, you can't talk about that. It's not true. How out of your you'd be willing to fight and kill almost certainly if people told you, uh, no, that's not real and you can't talk about it. And I would be able to show you the proof of all the scientific things that show that's not real. And yet you would say, "This is the most absurd thing ever.
+
+[03:11] you are wrong. I don't care what your science says. And what I'm saying is correct. You should be able to say and believe the things that you say and believe. And if I'm completely honest, you should be able to lie because I don't want people to try to be the adjudicators of truth. Yeah. >> So, it's like listen, this is the reality of the human condition. We are in this position. People must think for themselves. They have to be able to live in a world where there's all kinds of terrible food and eat the right ones and figure out which is which.
+
+[03:51] We have to live in a world where um people are going to be hearing miss this mal information coming at them from all angles and they've got to figure out how to navigate this. And there are going to be some people that do not have the intellectual capacity to make it. And we have to accept that those people's lives will be worse. that God has found it absolutely okay to give people an IQ that just makes the world impossible to navigate. >> It is what it is.
+
+[04:20] Like it is maniacal when people go, "Well, but I see everything so clearly." >> I'm going to say that like these institutions shouldn't be optionally listened to. They shouldn't have to compete for uh people's respect and trust. You should just trust. >> These are them. politicians if that's people's bag or the New York Times if that's people's bag or the National Institute of Health. Hard pass. This is where people have to take ownership of their lives and say yes, there's going to be a whole bunch of information that I totally disagree with and I'm going to have to find a way to parse this.
+
+[04:46] I'm going to have to think from first principles. I'm going to have to map cause and effect and I'm going to have to try to get to what's true. I have to get out of my own way. I have to stop believing everything that I feel. I have to stop believing everything that I believed yesterday because it no longer maps to reality. It just is what it is. And listen, I'm all for that 1776 energy. I need people to understand, you cannot expect to go through life with all of the sharp edges padded. >> You have to say life is going to be hard. There's a huge chance of failure.
+
+[05:17] And instead of making sure that I can't ever get hurt, I want uncapped upside. And so the great irony is in real life I want to live in a more moderate space, but there's no energy for that. And so I find myself feeling like I've got to like push harder and harder to get people to hear me because right now all I hear is people clamoring for nobody left behind, nobody can get hurt, we've got to control the information. Like it and I'm talking from well-meaning, really smart people. It is a value system that has already bankrupted this country. We are living on fumes.
+
+[05:54] I would like to remind everybody that fiat currency is born only of confidence and now we're going to lose confidence and that is going to be a bloodbath and the only way to pull back from that is you have to go listen we want to create the soil. That's what a nation is in my opinion. We want to create the soil in which people can thrive as much as their drive, intelligence, uh discipline will allow them to. And some people are going to get some people are going to live a terrible life. >> That reminds me of a Nick Saven speech that I definitely want to pull up.
+
+[06:30] >> You get up every day, you're entitled to nothing. Nobody owes you nothing. >> I love this already. >> You could have talent, but if you don't have discipline and you don't execute, you don't focus, what do you get? Nothing. If you're complacent and not paying attention to detail, what does that get you? Nothing. So nothing is acceptable but your best. >> So we need to be everything is determined by what you do and you trying to be your best so that you can build on positive performance >> so that and that's that's the only thing There should be nothing else. All right,
+
+[07:24] but that >> and I just I like how he just started it off like you're entitled to nothing. You wake up every day, nobody owes you anything. And the internalization of that I think is important. So although I understand the motivations behind a lot of these things about okay, hey guys, election cycles can swing. There's grave consequences to elections. We have to be careful who we vote for. But that also means do your research. That also means don't just listen to don't get all your information from X. That also means talk to people. get out.
+
+[07:51] So instead of saying let's put more policing on the actual policies, it should be the other side, the individual stepping up and saying, okay, maybe I do need to understand more information. I need to gather more things. Just diversify your sources, whatever it may be. There was a question in the chat though was like, is there any limit? Do you fall on the side like, okay, at least you shouldn't incite violence at the very minimum. >> Yeah, I'm I'm all for the regulations that we have in effect right now. No direct calls for violence.
+
+[08:18] I should probably go and break out like what the actual things are that the Supreme Court has ruled on, >> but for the most part, it's a wild west. Say whatever you think is true. And the problem is >> we are so bad at identifying what is true >> that once you give somebody the power to start censoring, blocking, punishing you for you slide into totalitarianism so fast. And I will forever point people back to Semlow Wise, the Hungarian doctor who I think just epitomizes why you can't do that. And that was just colleagues. That wasn't even the state.
+
+[08:56] >> And Semlwise, to speedrun his story, >> he was a Hungarian doctor that worked in a hospital that was divided into two. So they're in the same building, same space. And uh one side of this separate uh setup had a death rate that was like five times higher than the other side. And so he's like, "What is going on?" And what he the conclusion that he came to because this was all tied to women giving birth and they were just dropping like flies.
+
+[09:24] Came up with what we now call germ theory that people were doing autopsies in the morning and then delivering babies in the afternoon, but they weren't washing. And so he came up with a sanitizing solution and he made doctors wash their hands. and the birth rate didn't just go down, it absolutely plummeted. Tells all his colleagues, "Hey, germ theory, wash your hands." And they're all like, "Nope, you're an idiot. Uh, this has nothing to do with us." And he ends up dying penniless and in an insane asylum because they so broke his will.
+
+[09:45] Like they alienated him, told him he was a [ __ ] kicked him out of the hospital, all of this, cuz they just couldn't accept that they had had anything to do with these deaths. Like the update that that required to their sense of self was just too profound. They couldn't do it. The moral of that story is he was right. they were wrong. But it took 20 years of people saying like that's not something we can talk about. It's exactly what happened during co. It's what happens all the time. People think they know uh and they really don't. And so have humility.
+
+## Part 2 · 10:12
+
+[10:12] Like I know the things that I say most aggressively. I know that they could be wrong. And so I'm always open to finding out that oh this thing that was like this is my hill to die on. And then I find out oh okay you did die on that hill. And then it's like, well, thank God. In reality, that's just a metaphor because I need to be updating my thinking. And life has just taught me that when you update your thinking enough, you can get outcomes that are so desirable that it's worth >> letting go of the, "Well, I was right about this." And listen, you're going to hear me do it every now and then.
+
+[10:39] When I'm right about something, I'm going to beat my chest like anybody else. But then I will immediately remind myself, this is so dangerous. Like, do not overinvest. Just because you were right this once, you were going to be wrong so many times. That's how you get rich. Like I want people to understand that the very thing that has made me successful is my willingness to go, I'm the fool. I'm the one that's wrong. I I don't need to point a bunch of fingers at everybody else. This is a me problem. And when you wake up every day and you go, this is a me problem.
+
+[11:06] >> Then it's like, okay, you're staying in control. You're staying disciplined. You're trying to find cause and effect. You're thinking from first principles. Does this violate the laws of physics? If it does, I'm not going to pursue it. >> Uh if it doesn't, then it's like, okay, this is possible. So, am I willing to figure this thing out and go down that road? But inevitably there's going to be 35 things that are like core to who I am that I'm going to have to realize, oh my god, none of these are true.
+
+[11:32] So for instance, four months ago, I would have said there's no benefit to modern monetary theory except to bankers. Okay, well doing the research just isn't true. Okay, so now you're back to the Thomas Soul thing. It's just trade-offs. If we want the modern monetary system, okay, let me just tell you how and why this goes wrong, what it leads to over and over and over and over and over and over and over. And so instead of me going, "Oh, like hard money saves everything," it does not save everything. It has its own problems.
+
+[11:58] If I wasn't willing to update my thinking, I would have been like, "I have a cool talking point." And I would have just ridden that horse until the world was like, "This guy's a [ __ ] idiot. He doesn't listen." But because I want to get even richer, Drew, >> I need to figure out what's

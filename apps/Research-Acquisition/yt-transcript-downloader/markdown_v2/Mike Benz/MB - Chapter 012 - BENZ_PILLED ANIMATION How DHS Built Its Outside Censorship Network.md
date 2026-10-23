@@ -1,0 +1,47 @@
+# @BENZ_PILLED ANIMATION: How DHS Built Its Outside Censorship Network
+
+**Channel:** [[Mike Benz]] (`MB`) · Chapter 12 of 690 · Length 6m 54s · [[00 - Channel Summary]]
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] (https://www.youtube.com/watch?v=BMBzyeWJ7Zg&t=0s) This is the government DHS's formal partner saying even the notion of having misinformation policies cover delegitimization of elections would not have been done without us. So what they're going to say here is EIP is the election integrity partnership which would respawn after the 2020 election as something called the virality project to do exactly what they did for election censorship for co censorship. And this is the Atlanta Council with seven CIA directors on board and government funding.
+
+[00:31] Government (https://www.youtube.com/watch?v=BMBzyeWJ7Zg&t=31s) Funding from the Pentagon. Government funding from the state department. Government funding from the National Down for Democracy. Graphica was the second one in EIP. They get $7 million worth of Pentagon contracts. So government funded. The University of Stanford and the University of Washington who are both government funded through the National Science Foundation. All four of these are government funded to do censorship work. And here they are all collaborating after the 2020 election.
+
+[00:52] (https://www.youtube.com/watch?v=BMBzyeWJ7Zg&t=52s) There is 13 of them all on this Zoom call. And I have another clip where they talk about the huge teams of 120 people in this apparatus. Now, this is really important. Now, here they go over how they got the platforms to put in the delegitimization terms of service. And that was the one that had by their own math 22 million tweets that they designated as being relating to misinformation narratives and therefore censorable under this delegitimization thing.
+
+[01:18] If you question (https://www.youtube.com/watch?v=BMBzyeWJ7Zg&t=78s) Mail and ballots that delegitimize the election, all tweets about mail and ballots, all tweets about early voting dropboxes, all tweets about ballot tabulation issues, all tweets about Dominion or Smartmatic or any of the issues with the voting machines, all censorable under this new terms of service policy. They even have a timeline of the grid of every social media company that instituted their delegitimization policy, including the very day they launched. (https://www.youtube.com/watch?v=BMBzyeWJ7Zg&t=102s) Facebook did it.
+
+[01:42] Of course, Alex Damos came directly from Facebook. So, here you He says, "I think EIP really helped (https://www.youtube.com/watch?v=BMBzyeWJ7Zg&t=107s) Really help push the envelope with (https://www.youtube.com/watch?v=BMBzyeWJ7Zg&t=109s) Push the envelope." So EIP is the Department of Homeland Security. They were formally cut out of the Department of Homeland Security. They were asked by the Department of Homeland Security to do this. They pitched it to the Department of Homeland Security.
+
+[01:49] The Department of Homeland Security gave them proprietary access to their 24/7 cyber mission control so that they could do their censorship work in direct coordination with the social media companies who were coordinating (https://www.youtube.com/watch?v=BMBzyeWJ7Zg&t=130s) With DHS already on security issues. But they gave them that for censorship. And in fact, the Twitter files even showed they had a special portal on par with DHS and the FBI. So there were three people with access to that portal.
+
+[02:10] The FBI, the Department of Homeland Security, and EIP because EIP was the Department of Homeland Security's designated disinformation flagger. So this is the government claiming that they were successful in quote pushing the envelope with things (https://www.youtube.com/watch?v=BMBzyeWJ7Zg&t=154s) Things like just the notion that this pre this delegitimization of electoral processes that we were seeing in the summer and early fall that this should be against content moderation policies on these platforms. (https://www.youtube.com/watch?v=BMBzyeWJ7Zg&t=168s) Did you hear that?
+
+[02:48] I know I've played this clip a million times, but this is the government, DHS's formal partner saying even the notion of having misinformation policies cover delegitimization of elections would not have been done without us. Like just the notion that this create this delegitimization of electoral processes that we were seeing in just this notion. (https://www.youtube.com/watch?v=BMBzyeWJ7Zg&t=191s) They wouldn't have even had the notion to censor tens of millions of pieces of content for quote delegitimizing the election unless we the government applied pressure.
+
+[03:11] That should be page one of the complaint and the very first sentence of the oral argument presented to the Supreme Court of the United States. It's a slam dunk. In the summer and early fall that this should be against content moderation policies on these platforms and to begin to take proactive steps there (https://www.youtube.com/watch?v=BMBzyeWJ7Zg&t=220s) And to begin to take proactive steps there. So the platforms unlike what Amy Conar says here with the outbreak of CO 19 they now say they would enforce these policies.
+
+[03:40] Well, they did it because they were prodded by the federal government to take proactive steps there in their own direct quote. They were not proactive. Contra the very first paragraph of the Scotas decision. They were proacted actually by US taxpayer funded sensors operating at the behest of the US federal government. (https://www.youtube.com/watch?v=BMBzyeWJ7Zg&t=248s) We did get industry partners to push the envelope. (https://www.youtube.com/watch?v=BMBzyeWJ7Zg&t=251s) We did get industry partners, meaning Facebook, YouTube, Twitter, Twitch, Discord. We did get them to push the envelope.
+
+[04:11] We, the US federal government, contra paragraph 1 of Murthy got the platforms to push the envelope on expanding their censorship policies, their terms of service policies. So again, they announced they would begin enforcing these policies because the government pushed them, coerced them to do it. (https://www.youtube.com/watch?v=BMBzyeWJ7Zg&t=282s) That's unbelievable that that has gone over the head of the Supreme Court. This is Emerson Brooking at the Atlanta Council. $2 million in funding from the Pentagon, the State Department, the National Endowment for Democracy and US Aid.
+
+[04:52] (https://www.youtube.com/watch?v=BMBzyeWJ7Zg&t=292s) Get industry partners to push the envelope. (https://www.youtube.com/watch?v=BMBzyeWJ7Zg&t=294s) We got them. We got them to push the envelope. They did not announce it. They were gotten to do it by the federal government. (https://www.youtube.com/watch?v=BMBzyeWJ7Zg&t=301s) A little bit in the US context. But how can a similar kind of pressure (https://www.youtube.com/watch?v=BMBzyeWJ7Zg&t=306s) But how can a similar kind of pressure the platforms did not announce that they would enforce these policies?
+
+[05:06] The platforms were pressured by the US federal government. The Department of Homeland Security and the Department of Homeland Security's handpicked flaggers given special DHS access and said to represent DHS got them to pass the censorship policies through pressure. So this is the federal government saying we got them to censor this one thing through pressure. But how can a similar (https://www.youtube.com/watch?v=BMBzyeWJ7Zg&t=335s) Pressure and responsiveness be elicited? Responsiveness to our pressure.
+
+[05:35] Not the platforms doing it proactively or unilaterally, but being gotten to do it through pressure so that they would be responsive to that pressure (https://www.youtube.com/watch?v=BMBzyeWJ7Zg&t=348s) And responsiveness be elicited from platforms when it's not a US election. (https://www.youtube.com/watch?v=BMBzyeWJ7Zg&t=355s) We got them to pass a terms of services policy called delegitimization which impacted tens of millions of pieces of content across Twitter, Facebook, YouTube. We did it through pressure. This is a confession. We did it through pressure.
+
+[05:55] But we want to do this for more than just speech about elections. We want to do this for every sensitive policy issue. So how can we, the US federal government, and we as a cutout working directly with the federal government to do this, elicit the same (https://www.youtube.com/watch?v=BMBzyeWJ7Zg&t=384s) Responsiveness through pressure even when it's not a US election (https://www.youtube.com/watch?v=BMBzyeWJ7Zg&t=388s) With huge regulatory stakes for these companies? (https://www.youtube.com/watch?v=BMBzyeWJ7Zg&t=391s) With huge regulatory stakes for these companies. Do you hear that?
+
+[06:31] The Department of Homeland Security confessing that they held huge regulatory stakes over the companies if they did not pass expanded censorship laws and that they only did it because of pressure. (https://www.youtube.com/watch?v=BMBzyeWJ7Zg&t=412s) That they were pushed to. The envelope was pushed to because the US federal government coerced them with the threat of huge regulatory stakes if they didn't censor their political opponents. This framing is insane.
+
+[06:52] And it's my hope that when this case goes back to Scotas, which I think it will in a couple of years time, that the attorney generals are going to make this point crystal frigin clear so that it cannot be missed again.

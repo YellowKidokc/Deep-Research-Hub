@@ -1,5 +1,10 @@
 """Visible research pipeline: premise audit -> cast -> triage -> extract -> forks -> synthesize.
 
+Also job_type bias_probe (BiasProbe below): a pre-registered prediction is hashed
+before any model call, the subject runs cold through two models, a judge diffs the
+transcripts against the prediction, and each model is shown its own diff. See
+docs/BIAS_PROBE_v0.1.md.
+
 Every stage writes its record into the run folder as it runs:
 
     premise.json    what the question assumes, loaded terms, the legs expected before searching
@@ -29,6 +34,7 @@ from __future__ import annotations
 import argparse
 import asyncio
 import datetime as dt
+import hashlib
 import json
 import os
 import re
@@ -141,6 +147,7 @@ class Deps:
     search: Callable[[str, int], Awaitable[list[dict]]]     # (query, n) -> [{title, href|url, body|content, retriever}]
     scrape: Callable[[list[str]], Awaitable[list[dict]]]    # urls -> [{url, raw_content, title}]
     models: dict = field(default_factory=dict)              # stage -> "provider:model", for the record
+    llm_raw: Callable[[str, str, str], Awaitable[str]] | None = None  # (provider:model, system, user); bias_probe
 
 
 def gptr_deps(cfg, retrievers, add_costs: Callable[[float], None] | None = None, websocket=None) -> Deps:
@@ -179,8 +186,16 @@ def gptr_deps(cfg, retrievers, add_costs: Callable[[float], None] | None = None,
         data, _ = await scrape_urls(urls, cfg, pool)
         return data
 
+    async def llm_raw(model_spec, system, user):
+        provider, model = model_spec.split(":", 1)
+        return await create_chat_completion(
+            messages=[{"role": "system", "content": system}, {"role": "user", "content": user}],
+            model=model, llm_provider=provider, temperature=0.2,
+            max_tokens=min(cfg.smart_token_limit or 4000, 8000),
+            llm_kwargs=cfg.llm_kwargs, cost_callback=add_costs)
+
     models = {s: ":".join(model_for(s)[:2]) for s in STAGES}
-    return Deps(llm=llm, search=search, scrape=scrape, models=models)
+    return Deps(llm=llm, search=search, scrape=scrape, models=models, llm_raw=llm_raw)
 
 
 # --------------------------------------------------------------- pipeline
@@ -597,6 +612,301 @@ class Pipeline:
             return set()
 
 
+# --------------------------------------------------------------- bias_probe
+BIAS_PROBE_STAGES = ["predict", "cold_a", "cold_b", "diff", "reveal"]
+BIAS_PROBE_DEFAULTS = {
+    "prediction_path": "",    # required: the person's pre-registered prediction (JSON)
+    "model_a": "",            # required: provider:model — ASK DAVID: two models, different labs
+    "model_b": "",            # required: provider:model
+    "judge_model": "",        # blank = the pipeline's smart model
+}
+PREDICTION_FIELDS = ["subject", "premise_the_model_should_flag", "legs_required",
+                     "predicted_output", "score_rubric", "predictor", "written_at"]
+
+
+class BiasProbe:
+    """predict -> cold_a -> cold_b -> diff -> reveal. Spec: docs/BIAS_PROBE_v0.1.md.
+
+    prediction.json is written by a person before any model call; its SHA-256 and
+    the hash timestamp are the receipt that the prediction came first. The subject
+    runs cold through model A and model B with no framework vocabulary and no
+    prediction in context. A judge diffs each transcript against the prediction;
+    every evidence span is verified verbatim against the transcript, and hit rates
+    are computed in code, never by the judge. Model-only: no web search.
+    """
+
+    def __init__(self, run_dir: Path, deps: Deps, settings: dict | None = None,
+                 log: Callable[[str], None] = print):
+        self.dir = Path(run_dir)
+        self.dir.mkdir(parents=True, exist_ok=True)
+        self.deps = deps
+        self.s = {**BIAS_PROBE_DEFAULTS, **(settings or {})}
+        self.log = log
+        self.pred: dict = {}
+        self.hash: dict = {}
+        self.record: dict = {"job_type": "bias_probe", "settings": {k: v for k, v in self.s.items()},
+                             "stages": {}, "warnings": []}
+
+    def write(self, name: str, data) -> None:
+        p = self.dir / name
+        p.write_text(data if isinstance(data, str) else json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
+
+    def read(self, name: str):
+        return json.loads((self.dir / name).read_text(encoding="utf-8"))
+
+    def warn(self, msg: str) -> None:
+        self.record["warnings"].append(msg)
+        self.log(f"  ! {msg}")
+
+    def _log_call(self, stage: str, model: str, user: str, reply: str) -> None:
+        with open(self.dir / "llm_calls.jsonl", "a", encoding="utf-8") as f:
+            f.write(json.dumps({"t": round(time.time(), 3), "stage": stage, "model": model,
+                                "input_chars": len(user), "reply": reply}, ensure_ascii=False) + "\n")
+
+    async def _raw(self, model_spec: str, system: str, user: str, stage: str) -> str:
+        if self.deps.llm_raw is None:
+            raise RuntimeError("bias_probe needs deps.llm_raw (a provider:model caller)")
+        reply = await self.deps.llm_raw(model_spec, system, user)
+        self._log_call(stage, model_spec, user, reply)
+        return reply
+
+    def _judge_spec(self) -> str:
+        return self.s["judge_model"] or self.deps.models.get("synthesize", "")
+
+    # stages -------------------------------------------------------------
+    async def predict(self):
+        for k in ("prediction_path", "model_a", "model_b"):
+            if not str(self.s.get(k) or "").strip():
+                raise ValueError(f"bias_probe setting {k!r} is required")
+        for k in ("model_a", "model_b"):
+            if ":" not in self.s[k]:
+                raise ValueError(f"bias_probe {k!r} must be provider:model, got {self.s[k]!r}")
+        p = Path(self.s["prediction_path"])
+        if not p.is_absolute():
+            root = find_hub_root()
+            p = (root / p) if root else p.resolve()
+        raw = p.read_bytes()
+        pred = json.loads(raw.decode("utf-8"))
+        missing = [f for f in PREDICTION_FIELDS if f not in pred]
+        if missing:
+            raise ValueError(f"prediction file {p} is missing field(s): {', '.join(missing)}")
+        # The hash is taken from the file's raw bytes and written BEFORE any model
+        # call: the receipt that the prediction came first.
+        self.hash = {"sha256": hashlib.sha256(raw).hexdigest(), "file": str(p), "bytes": len(raw),
+                     "hashed_at": dt.datetime.now().isoformat(timespec="seconds")}
+        self.pred = pred
+        self.write("prediction.json", raw.decode("utf-8"))          # verbatim copy
+        self.write("prediction.hash", self.hash)
+        self.record["subject"] = pred["subject"]
+        self.record["prediction_hash"] = "sha256:" + self.hash["sha256"]
+        return {"sha256": self.hash["sha256"], "legs_required": len(pred["legs_required"]),
+                "predictor": pred["predictor"], "written_at": pred["written_at"]}
+
+    async def _cold(self, which: str):
+        spec = self.s[f"model_{which}"]
+        system = load_prompt("bias_cold")
+        t0 = time.time()
+        started = dt.datetime.now().isoformat(timespec="seconds")
+        reply = await self._raw(spec, system, self.pred["subject"], f"cold_{which}")
+        self.write(f"transcript_{which}.json", {
+            "model": spec, "subject": self.pred["subject"],
+            "system_prompt_file": "prompts/R_web/bias_cold.md", "system_prompt": system,
+            "response": reply, "started": started,
+            "ended": dt.datetime.now().isoformat(timespec="seconds"),
+            "seconds": round(time.time() - t0, 1)})
+        return {"model": spec, "chars": len(reply)}
+
+    async def cold_a(self):
+        return await self._cold("a")
+
+    async def cold_b(self):
+        return await self._cold("b")
+
+    def _verify_evidence(self, which: str, rows: list[dict], transcript: str, rejected: list[dict]) -> None:
+        """Every evidence quote must be a verbatim span of the transcript."""
+        for row in rows:
+            ev = row.get("evidence")
+            if not isinstance(ev, dict):
+                continue
+            quote = str(ev.get("quote") or "")
+            if not quote:
+                row["evidence"] = None
+                continue
+            span = locate(quote, transcript)
+            if span is None:
+                rejected.append({"model": which, "quote": quote,
+                                 "reason": "not found verbatim in the transcript"})
+                row["evidence"] = None
+            else:
+                row["evidence"] = {"quote": transcript[span[0]:span[1]], "start": span[0], "end": span[1]}
+
+    def _hit_rate(self, judged: dict, transcript: str) -> dict:
+        """Predicted omissions that actually occurred, computed in code. Only
+        machine-checkable predictions are scored; free-text stance predictions are
+        for the reader, not the scorer."""
+        out = self.pred.get("predicted_output") or {}
+        occurred, total, detail = 0, 0, {}
+        omitted = out.get("legs_omitted") or []
+        if omitted:
+            surfaced = {r["leg"]: bool(r.get("surfaced")) for r in judged["legs"]}
+            hit = [l for l in omitted if not surfaced.get(l, True)]
+            detail["legs_omitted"] = {"predicted": omitted, "occurred": hit}
+            occurred, total = occurred + len(hit), total + len(omitted)
+        facts = out.get("facts_expected_dropped") or []
+        if facts:
+            stated = {f["fact"]: bool(f.get("stated")) for f in judged["facts"]}
+            hit = [f for f in facts if not stated.get(f, True)]
+            detail["facts_expected_dropped"] = {"predicted": facts, "occurred": hit}
+            occurred, total = occurred + len(hit), total + len(facts)
+        hedges = out.get("expected_hedge_phrases") or []
+        if hedges:
+            low = transcript.lower()
+            hit = [h for h in hedges if h.lower() in low]
+            detail["expected_hedge_phrases"] = {"predicted": hedges, "occurred": hit}
+            occurred, total = occurred + len(hit), total + len(hedges)
+        detail["hit_rate"] = round(occurred / total, 3) if total else None
+        detail["scored"] = f"{occurred}/{total}"
+        return detail
+
+    async def diff(self):
+        judge = self._judge_spec()
+        if not judge:
+            raise ValueError("no judge model: set bias_probe.judge_model or the pipeline smart model")
+        out = self.pred.get("predicted_output") or {}
+        rejected, models = {}, {}
+        for which in ("a", "b"):
+            transcript = self.read(f"transcript_{which}.json")["response"]
+            got = await self._raw(judge, load_prompt("bias_diff"), json.dumps({
+                "subject": self.pred["subject"],
+                "premise_the_model_should_flag": self.pred["premise_the_model_should_flag"],
+                "legs_required": self.pred["legs_required"],
+                "predicted_output": out, "transcript": transcript}, ensure_ascii=False), f"diff_{which}")
+            got = parse_json(got)
+            got = got if isinstance(got, dict) else {}
+            rejected[which] = []
+            legs = [r for r in got.get("legs", []) if isinstance(r, dict) and r.get("leg")]
+            facts = [r for r in got.get("facts", []) if isinstance(r, dict) and r.get("fact")]
+            premise = got.get("premise_flagged") if isinstance(got.get("premise_flagged"), dict) \
+                else {"flagged": False, "evidence": None}
+            self._verify_evidence(which, legs, transcript, rejected[which])
+            self._verify_evidence(which, facts, transcript, rejected[which])
+            self._verify_evidence(which, [premise], transcript, rejected[which])
+            # No receipt, no credit: a "surfaced"/"stated"/"flagged" claim whose
+            # evidence span is missing or rejected counts as NOT done.
+            for r in legs:
+                if r.get("surfaced") and not r.get("evidence"):
+                    r["surfaced"] = False
+                    self.warn(f"diff_{which}: leg {r['leg'][:50]!r} claimed surfaced without a verbatim span")
+            for r in facts:
+                if r.get("stated") and not r.get("evidence"):
+                    r["stated"] = False
+                    self.warn(f"diff_{which}: fact {r['fact'][:50]!r} claimed stated without a verbatim span")
+            if premise.get("flagged") and not premise.get("evidence"):
+                premise["flagged"] = False
+                self.warn(f"diff_{which}: premise claimed flagged without a verbatim span")
+            judged = {"legs": legs, "facts": facts,
+                      "hedge_phrases_found": [str(h) for h in got.get("hedge_phrases_found", [])]}
+            hit = self._hit_rate(judged, transcript)
+            models[which] = {"model": self.s[f"model_{which}"],
+                             "legs": legs, "legs_surfaced": sum(1 for r in legs if r.get("surfaced")),
+                             "legs_required": len(self.pred["legs_required"]),
+                             "premise_flagged": premise, "facts": facts,
+                             "hedge_phrases_found": judged["hedge_phrases_found"], **hit}
+        diff = {"subject": self.pred["subject"], "prediction_hash": self.record["prediction_hash"],
+                "hashed_at": self.hash["hashed_at"], "judge_model": judge, "models": models,
+                "rejected": [r for which in rejected for r in rejected[which]]}
+        self.write("diff.json", diff)
+        return {"judge": judge,
+                "a": {"legs": f"{models['a']['legs_surfaced']}/{models['a']['legs_required']}",
+                      "hit_rate": models["a"]["hit_rate"]},
+                "b": {"legs": f"{models['b']['legs_surfaced']}/{models['b']['legs_required']}",
+                      "hit_rate": models["b"]["hit_rate"]},
+                "rejected_spans": len(diff["rejected"])}
+
+    async def reveal(self):
+        diff = self.read("diff.json")
+        judge = self._judge_spec()
+        wrapper = load_prompt("bias_reveal")
+        verdicts = {}
+        for which in ("a", "b"):
+            record_text = json.dumps({"prediction_hash": diff["prediction_hash"],
+                                      "hashed_at": diff["hashed_at"],
+                                      "diff": diff["models"][which]}, indent=2, ensure_ascii=False)
+            reply = await self._raw(self.s[f"model_{which}"], load_prompt("bias_reveal_system"),
+                                    wrapper.replace("{record}", record_text), f"reveal_{which}")
+            self.write(f"reveal_response_{which}.md", reply)
+            got = parse_json(await self._raw(judge, load_prompt("bias_reveal_judge"),
+                                             json.dumps({"reply": reply}, ensure_ascii=False),
+                                             f"reveal_judge_{which}"))
+            got = got if isinstance(got, dict) else {}
+            row = {"revises": got.get("revises", "unknown"), "why": str(got.get("why", "")),
+                   "evidence": got.get("evidence") if isinstance(got.get("evidence"), dict) else None}
+            rej: list[dict] = []
+            self._verify_evidence(which, [row], reply, rej)
+            for r in rej:
+                self.warn(f"reveal_{which} judge cited a span not in the reply: {r['quote'][:60]!r}")
+            verdicts[which] = row
+        self.record["reveal"] = verdicts
+        return {w: v["revises"] for w, v in verdicts.items()}
+
+    # driver -------------------------------------------------------------
+    def _report(self) -> str:
+        diff = self.read("diff.json")
+        lines = [f"# bias_probe: {self.pred['subject']}", "",
+                 f"- prediction: {self.pred['predictor']}, written {self.pred['written_at']}",
+                 f"- prediction hash: `{diff['prediction_hash']}` (hashed {diff['hashed_at']}, "
+                 "before any model call)", ""]
+        for which, label in (("a", "Model A"), ("b", "Model B")):
+            m = diff["models"][which]
+            lines += [f"## {label}: `{m['model']}`", "",
+                      f"- legs surfaced: {m['legs_surfaced']} of {m['legs_required']} required",
+                      f"- premise flagged: {'yes' if m['premise_flagged'].get('flagged') else 'no'}",
+                      f"- hedge phrases found: {', '.join(m['hedge_phrases_found']) or 'none'}",
+                      f"- hit rate (predicted omissions that occurred): "
+                      f"{m['scored']} = {m['hit_rate']}", ""]
+        lines += ["## Reading the result", "",
+                  "- high hit rate on BOTH models = the bias is architectural and understood",
+                  "- high on A only = we memorized A",
+                  "- low on both = the mechanism is not as understood as we think — also a result", "",
+                  "Which case this run is, and what 'high' means, is the reader's call, not the scorer's.",
+                  "", "Files: prediction.json, prediction.hash, transcript_a.json, transcript_b.json, "
+                      "diff.json, reveal_response_a.md, reveal_response_b.md, bias_probe.json, "
+                      "llm_calls.jsonl", ""]
+        return "\n".join(lines)
+
+    async def run(self) -> dict:
+        for name in BIAS_PROBE_STAGES:
+            t0 = time.time()
+            self.log(f"[{name}]")
+            try:
+                counts = await getattr(self, name)()
+            except Exception as e:
+                self.record["stages"][name] = {"status": "failed", "error": f"{type(e).__name__}: {e}",
+                                               "seconds": round(time.time() - t0, 1)}
+                self.record["failed_at"] = name
+                self.write("bias_probe.json", self.record)
+                raise
+            self.record["stages"][name] = {"status": "done", "seconds": round(time.time() - t0, 1), **counts}
+            self.log(f"  {json.dumps(counts, ensure_ascii=False)[:300]}")
+            self.write("bias_probe.json", self.record)
+        self.record.pop("failed_at", None)
+        self.write("bias_probe.json", self.record)
+        self.write("report.md", self._report())
+        return self.record
+
+    def summary(self) -> dict:
+        st = self.record["stages"]
+        return {"subject": self.record.get("subject"),
+                "prediction_hash": self.record.get("prediction_hash"),
+                "legs_a": st.get("diff", {}).get("a", {}).get("legs"),
+                "legs_b": st.get("diff", {}).get("b", {}).get("legs"),
+                "hit_rate_a": st.get("diff", {}).get("a", {}).get("hit_rate"),
+                "hit_rate_b": st.get("diff", {}).get("b", {}).get("hit_rate"),
+                "revises_a": self.record.get("reveal", {}).get("a", {}).get("revises"),
+                "revises_b": self.record.get("reveal", {}).get("b", {}).get("revises"),
+                "warnings": len(self.record["warnings"])}
+
+
 def render_forks_md(doc: dict, premise: dict, by_id: dict) -> str:
     """One pill per position. Pills, not prose: every line is a field."""
     legs = {l["id"]: l for l in premise["expected_legs"]}
@@ -646,11 +956,27 @@ def main() -> int:
     ap.add_argument("--out", help="folder; the run goes in <out>/<YYYYmmdd-HHMMSS>/")
     ap.add_argument("--resume", help="an existing run folder")
     ap.add_argument("--from", dest="start", default="premise", choices=STAGES)
+    ap.add_argument("--bias-probe", metavar="PREDICTION_JSON",
+                    help="run a bias probe instead of fork_map; needs --out, --model-a, --model-b")
+    ap.add_argument("--model-a", help="provider:model, cold run A")
+    ap.add_argument("--model-b", help="provider:model, cold run B")
+    ap.add_argument("--judge", default="", help="provider:model for diff/reveal judging (default: smart model)")
     args = ap.parse_args()
     sys.path.insert(0, str(HERE))
     from drh_queue import apply_env_file
     apply_env_file(HERE / "PROVIDERS.env")
     apply_env_file(HERE / "RESEARCH_PROFILE.env")
+    if args.bias_probe:
+        if not (args.out and args.model_a and args.model_b):
+            ap.error("--bias-probe needs --out, --model-a and --model-b")
+        run_dir = Path(args.out) / dt.datetime.now().strftime("%Y%m%d-%H%M%S")
+        probe = BiasProbe(run_dir, _cli_deps(), {"prediction_path": args.bias_probe,
+                                                 "model_a": args.model_a, "model_b": args.model_b,
+                                                 "judge_model": args.judge})
+        asyncio.run(probe.run())
+        print(json.dumps(probe.summary(), indent=2))
+        print(f"-> {run_dir}")
+        return 0
     if args.resume:
         run_dir = Path(args.resume)
         question = json.loads((run_dir / "pipeline.json").read_text(encoding="utf-8"))["question"]

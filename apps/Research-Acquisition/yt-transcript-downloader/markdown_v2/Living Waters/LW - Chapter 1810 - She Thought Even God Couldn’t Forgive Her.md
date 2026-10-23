@@ -1,0 +1,60 @@
+# She Thought Even God Couldn’t Forgive Her
+
+**Channel:** [[Living Waters]] (`LW`) · Chapter 1810 of 2497 · Length 10m 09s · [[00 - Channel Summary]]
+**Video ID:** `tmR3_WA7yCs`
+**URL:** https://www.youtube.com/watch?v=tmR3_WA7yCs
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 03:24
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] I really would like to strengthen [music] my relationship with God, but done things like drink and smoke and all of those, you know, activities. >> [music] >> And it always like it always made me feel like, oh, well, I'm just going to go to hell anyways. You know what I You know what I'm saying? >> You said a word that I think is one of the biggest, most destructive words in the [music] entire universe. You know what it was? >> What? >> The word but. I really want to get right with God.
+
+[00:28] I really, you know, want to da da da, but and you just [music] destroy everything you've said with that word but. And what you've got to do is realize the Bible uses the word but not in a destructive way, but in a creative way. This is what it says, the wages of sin is death, [music] but the gift of God is eternal life through Jesus Christ our Lord. What Satan wants to do with you is blind you to the gospel, that everlasting life is a gift of God. Mark and I pray those blinders come off. You realize what's happening and say, "God, please open my eyes." >> Here Here's our position.
+
+[00:56] We're We're Christians. We believe that Christianity is intelligent. >> Mhm. >> Uh we believe that we're on a journey like everybody else, but we believe that the most important questions are answered within Christianity, such as how did I get here? What's the meaning of life? And what's going to happen to me when I die? >> Mhm. >> Do you ever give that any sort of thought? Or do you have a separate question that maybe you want to ask? The floor is yours. Whatever you want to do, strangers that just became friends. Fair enough? >> Fair enough. Absolutely.
+
+[01:22] A human brain can't really understand, but I never really understood how, you know, if God created the heavens and the earth, you know, what is God? Or where did God come from? >> Are you basically asking who made God? >> No, I not who made God, but like the whole thing is like what is God? >> Let me share something with you I shared with my friends just the other day. The Bible says, "Who has known the mind of the Lord?" No one can understand what God is like because he dwells everywhere. >> Mhm. >> He sees everything. Nothing is hid from his eyes. >> Mhm. >> He sees your brain.
+
+[01:49] He knows exactly what you're thinking. I used to say to my kids when they were younger, "Think of a number. Don't tell anyone. Now only you and God know that number because he sees your thoughts. Do you have a dog? >> No, yeah, I did. I have. >> I got a dog. I love my dog. And one of my favorite things to do with my dog is lie on the ground and look into her eyes and speak to her. I say, "You you chased a rat this morning." And immediately her eyes go like that. I can see her processing the information that I'm giving her. And I don't think how great this dog is that it can do this.
+
+[02:18] I think how could God make a an eye where I can see the soul of a dog as it understands what I'm talking about. How could God do that? How could God make a brain? How could he know how many ears are on a head? >> Yeah. >> How does he make a child in the womb and have its bones grow over a 9-month period? All all around us we see the miracle of God's genius. And we can't understand it. We haven't got a clue how God does these things. So, there are certain things you just let go because you can't understand. And that's called trust. You trust him. It's like a little kid.
+
+[02:50] His dad says, "I'm going to take care of you." The kid takes him by the hand. He doesn't get worried cuz he trusts his father's ability. And once you see God's ability, that means you can trust him. Do you ever get suicidal thoughts? >> Um not not so much, no. >> You have have them? >> Maybe when I was younger, yeah. >> Yeah. Pretty horrible, aren't they? >> Yeah, definitely. >> Yeah, and they can easily come back if you lost your mom or your dad. Death seized upon them. They could come back.
+
+[03:17] And what you've got to do is fortify yourself as a human being by establishing your life on the teachings of Jesus. This is what he said. Whoever hears my sayings and keeps them is like a man who built his house upon a rock. And when the floods came, the rain descended, the winds blew, it didn't fall. But whoever hears my sayings and doesn't keep them is like a foolish man who built his house on sand. And when the floods came, the storms it crashed and great was the fall of it. So, the best thing you can do with your life is obey Jesus. Trust in him. Do you think you're a good person morally?
+
+[03:45] >> Um I think I'm all right. >> Okay, let's just see. How many lies have you told in your life? >> I'm not sure. I don't think anyone can know that. I I not to be a liar, though. >> So, you've told a few. >> Oh, yeah. >> Yeah. Ever stolen something, even if it's small? >> Yeah. >> So, you're a lying thief. >> Um I guess so, yeah. >> Yeah, it's pretty hard to put it like that, isn't it? Have you ever used God's name in vain? >> Yeah, I have. >> That's using God's holy name as a cuss word. >> Yeah. >> In place of human excrement. >> Mhm. >> Using it to cuss when he gave you life.
+
+[04:16] So, what those commandments do, we've looked at three of them, is show that you're a sinner. You need a savior, and if you die in your sins, you'll end up in hell because God is just and holy. Now, why did Jesus die on the cross? >> Well, because, you know, he was sacrificing his life for others. >> Yeah, well >> giving himself up. >> Molly, it's as simple as this. You and I broke God's law, the 10 Commandments, we're heading for hell. Jesus paid the fine.
+
+[04:44] If you're in court, someone pays your fine, the judge can legally let you go, and God can take death off you legally because Jesus paid the fine on the cross, rose from the dead, defeated death, and if you'll truly repent, you know what that is? Turn from sin, trust in Jesus like you trust a parachute, God will forgive your sins and grant you everlasting life. Now, Mark may have a few things to say to you. >> You know, there's a lot of things in life that we trust, maybe that we haven't really thought through.
+
+[05:05] You get on a plane and you trust a pilot to take you to your destination, and you never met the pilot, or maybe you take a prescription, and you never did all the research, maybe even the side effects that can affect you, and you can even die from that prescription. We trust chairs. So, there's a lot of things that we do trust, and I would say, if you're going to trust someone or something, what deserves your trust more than anything else or anyone else would be God. He made you. >> Mhm. >> He knows what makes your heart beat. He knows your thoughts from afar.
+
+[05:34] But, Molly, he also knows your far-off thoughts. >> Mhm. >> Right? When you're thinking, "Nobody knows what I'm going through." >> What makes uh you believe in God? Like, just in a simple answer. Like, just >> Why do we believe in God? >> Yeah, as a as a Christian because I I would still consider myself you know, partly Christian even though I don't really go to church as much anymore. I don't read my Bible. I don't you practice, but I do have my beliefs and like in like a simple answer if what makes you like believe in God?
+
+[06:13] >> The book of Hebrews chapter 3 verse 4 it says every building or every house has been built by someone and he that built all things is God. So, how do we know God exists? The same way reason we know a builder exists when we look at a building. Buildings cannot build themselves. Be insane to say a building built itself. >> Yeah. >> And creation proves there's a creator. Flowers, birds, trees, sun, moon, and stars, puppies, kittens, the marbles of the human eye, the miracle of childbirth, the power of distraction, all these things show us that God exists. >> Mhm.
+
+[06:43] >> What God wants from you is not your acknowledgement of his existence, he wants your obedience because without Jesus you'll end up in hell. The Bible says he has no pleasure in the death of the wicked. So, make sure you don't say I believe in God and console yourself in your sins. Say, "I'm in big trouble with God. I need a savior, someone who can wash me clean." And we're here to say, "Please, Molly, repent and trust in Jesus.
+
+[07:14] Let God wash away your sins, give you a new heart with new desires, open the eyes of your understanding, and take you out of darkness into light, death into life." And that's the promise of the gospel. Everlasting life is a free gift. >> I really would like to strengthen my relationship with God and you know, re-strengthen my relationship with the church, but I you know, I'm a sinner and I've stolen and I've I've lied and I've cheated and I've done these things, you know, done things like drink and smoke and all of those, you know, activities.
+
+[07:38] It always made me feel like, "Oh, well, I'm just going to go to hell anyways." You know, you know what I'm saying? >> You said a that I think is one of the biggest, most destructive words in the entire universe. You know what it was? >> What? >> The word but. I really want to get right with God. I really, you know, want to da da da, but and you just destroy everything you've said with that word but. And what you got to do is realize the Bible uses the word but not in a destructive way, but in a creative way. This is what it says.
+
+[08:08] The wages of sin is death, but the gift of God is eternal life through Jesus Christ our Lord. Do you believe in the devil? >> Yeah, absolutely. If there's no there's no good without evil. >> Okay, and you know what Satan does according to the Bible? The god of this world, that's Satan, small g, has blinded the minds of those who believe not lest the light of the glorious gospel who of Christ who is the image of God should shine unto them. What Satan wants to do with you is blind you to the gospel, that everlasting life is a gift of God.
+
+[08:36] And today you would Mark and I pray those blinders come off. You realize what's happening and say, "God, please open my eyes. This is my forever. If I was to die today, I'd be damned. What a what a horror beyond words." And Molly, what we'd like to do today and if with your permission is just pray for you. >> All right. >> Pray that God would open the eyes of your understanding and see our motive that we really care about you and we want to see you in heaven not in hell. So, is that okay? >> Sure. >> Mark, would you like to pray for Molly?
+
+[09:03] >> Father, I just want to pray for Molly and I ask in Jesus name that you would just meet her where she's at. You say if we draw near to you, you will draw near to us. So, I ask that that would take place. As Molly continues to ask questions, I pray that she would stick around for the answers, whether that's tomorrow when she's alone, when she's driving along inside of her car, whatever she's doing. I pray God that you would have mercy upon her and help her to not to throw the baby out with the bathwater, to have good answers to these tough questions. What do I need to do to go to heaven?
+
+[09:34] And it's in Jesus name we pray. Amen. >> Amen. >> Molly, you like In-N-Out? >> Yeah. >> You have a two $5 In-N-Out. >> Oh, thank you. >> We are living in days that the Bible says that many would be deceived. That's why you should read your Bible every day. Living Waters is a non-profit ministry that exists to help you share your faith effectively. That's why we produce the evidence study Bible. Among many other things, it answers over 200 commonly asked questions about the Christian faith. It's commanded by Franklin Graham and you can get it at livingwaters.com.

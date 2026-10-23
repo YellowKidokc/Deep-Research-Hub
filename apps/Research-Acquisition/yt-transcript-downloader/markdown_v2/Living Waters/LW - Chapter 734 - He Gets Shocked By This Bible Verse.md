@@ -1,0 +1,63 @@
+# He Gets Shocked By This Bible Verse
+
+**Channel:** [[Living Waters]] (`LW`) · Chapter 734 of 2497 · Length 11m 08s · [[00 - Channel Summary]]
+**Video ID:** `007iEWO1tj8`
+**URL:** https://www.youtube.com/watch?v=007iEWO1tj8
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 04:26
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:30|Part 2 · 10:30]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] a man was really bored with life as an ordering guy no one knew about him he robbed a bank things went wrong and he killed three people is he still an ordinary guy that nobody knows about or has something happened something happened for sure i mean he's still the same person but he killed people and what's going to happen to him he's going to go to jail probably if he doesn't get away with it the police are going to hound him because he's done something morally wrong [Music] what's your thoughts on the afterlife i believe that there's an afterlife i do not think so why do you believe that um
+
+[00:38] i come from an all-christian family and um it's kind of what i was taught and raised to believe and also i just feel like i'd rather have an or i'd rather believe in something rather than believe in nothing you know i'm not sure you're not sure yeah think about death no i try not to it's not a pleasant thought is it not the best you love life oh yeah you're thankful for it yes who too who too who am i thankful for trying to say is do you believe in god's existence oh like yeah are you thankful to him for your life for sure yeah how is your walk with the lord is it really good or is it a
+
+[01:13] little lukewarm let's give it 10 out of 10 you're really going great with the lord one out of ten there's nothing much happening where would you be to be honest probably not too strong i i mean it kind of goes through phases sometimes i'm sometimes like an eight sometimes i'm like a two because um it comes in comes and goes and faces but i think it's i lack consistency sometimes you know do you believe in god's uh no do you think all this happened by accident beautiful blue sky the seasons the fruits flowers birds trees puppies kittens everything came from nothing is that right no i believe
+
+[01:49] it came from somewhere just not in the fact that there's like an actual creator a man was really bored with life as an ordering guy no one knew about him he robbed a bank things went wrong and he killed three people is he still an ordinary guy that nobody knows about or has something happened something happened for sure i mean he's still the same person but he killed people and what's going to happen to him he's going to go to jail probably if he doesn't get away with it the police are going to hound him because he's done something morally wrong yeah why bother about justice why not just say
+
+[02:24] oh the guy killed a few people who cares survival of the fittest why do we care about justice shh you give people what they deserve i guess i don't know give people what they deserve that's what justice does i guess that is a really good definition of justice getting what you deserve so what's going to happen to you after you die you're going to get what you deserve probably where are you going to go heaven or hell i don't know if you died today where would you go i hope i'll go to heaven you're not sure not not 100 sure but i think i would do you think you're a good person yeah i would say
+
+[03:02] i'm a good person i'm a good person i'll i'll make it to heaven morally good person i think so how many lies have you told in your life a lot plenty uh i don't lie too much to be honest with you you have a stolen something yeah so you're a lying safe yeah just don't think you're a morally good person yeah i do have you ever used god's name in vain yeah i have now jesus said whoever looks upon a woman to lust for her has committed adultery already with her in his heart have you ever looked at a woman with lust um yeah sure no i haven't you haven't no are you homosexual no i am not when's your
+
+[03:39] last look at pornography probably like in the past week so sam i'm not judging you but you have this is for you and not for me well you're a lying thieving blasphemous adulterer at home god if god judges you by the ten commandments on judgment day you're gonna be innocent or guilty i would be innocent probably why just do the minor like it's just not as big as you think it would be like the white lies aren't i mean not necessarily white lies but sometimes in life you lie just because you know what you're doing huh you're trying to justify yourself you're trivializing your sins and your god
+
+[04:18] says sin is so serious it's punishable by death god's given you the death sentence for your sins it's like that man who shot the three people when he was robbing a bank and saying judge it was no big deal they were just ordinary people this is not serious judges say let me show you how serious it is we're sending you to the electric chair so juan you're in debt to the law you're not just an ordinary guy among billions you're in debt to god's law his wrath abides on you just like the wrath of the law abides upon a man who's committed a bank robbery and murdered people they'll chase them
+
+[04:48] they'll hound him to bring him to justice the bible says god will hound you and bring you to justice he's given you the death sentence already because of your sin the wages of sin is death the bible says so sin is so serious in god's eyes that he's given you the death sentence you're under capital punishment but then we don't know until we actually die and everyone's gonna we do we do we've got god's word on it there's no higher authority the bible says if you die in your sins you'll end up damned and i don't want that to happen do you i don't want you to go to hell so i better stop lying
+
+[05:15] that won't help you people that won't help you so then what do you try and then whatever then what are you going to say you need god's mercy because god will forgive you and cleanse you and wash away those sins in an instant because jesus took the punishment for them on the cross did you know that yeah i did so but what's the difference between doing all those things wrong your last day and then you're saying okay let me let me just go back to god and ask for forgiveness on my last day before i die and then you die and you ask for forgiveness before you die and then you're fine right no not
+
+[05:44] right that'd be a dumb thing to do because god could kill you just before you just before you decide you know he did that with a guy in genesis chapter 38 he didn't like what a man did sexually and it says therefore the lord killed him yeah so we're talking serious business jesus said if your eye causes you to sin pluck it out and cast it from you for it's better to enter heaven without an eye then go to hell with both your eyes man man this your life is so precious don't don't throw it away by serving sin why i wasn't scared of death is because i'm um i see it as leaving something behind
+
+[06:19] when you die and then even if you die if you go to hell or you know wherever the other place is um you would leave something good behind like kids family and then you know it all depends how the world is going to be at that point you know lots of things are changing well you can thank god that you left family behind god gave you the ability to reproduce after your own kind he gave the ability to have sex and enjoy the pleasures of sex and so you can have your own children because god gave you that ability now what did god do for guilty sinners so he wouldn't have to go to hell do you know
+
+[06:51] based on what the bible says kind of he he had to die for everyone's sins you and i brought god's law the ten commandments jesus paid the fine yeah that's why he said it is finished just before he died in other words the debt is being paid sam if you're in court and someone pays you fine even though you're guilty a judge can let you go because someone else paid the fine and you can do that which is legal he can say sam there's a stack of speeding fines here this is deadly serious but someone's paid them you're out of here and you can do that which is legal because someone paid the fine well
+
+[07:22] god can dismiss your case take death off you save you from hell because jesus paid the fine in his life's blood yeah understand that yeah i get that and you can do that which is legal towards you because christ paid the fine and fulfilled god's law and then he rose from the dead defeated death and now god offers you everlasting life as a free gift upon your repentance and faith in jesus at the moment you're serving money bible says you cannot serve god and ma'am and you'll either love one and hate the other or hate one and love the other so either love god or love money you'll either have
+
+[07:53] faith in god or have faith and money as your future provider as a human as a basically an animal that we are we need to survive and if that's basically the best way to survive out there you know like um survival of the fittest then that's basically how i take it you gotta survive in this world that we live in let me answer that question at the moment you're not fit to survive you're gonna die but god will make you fit to survive by forgiving your sins and grounding you everlasting life and by the way you're not a beast you're not a primate you're not an animal you're made in the image of god
+
+[08:24] with a sense of right and wrong and a responsibility to him for your sins and he's offering you everlasting life as a free gift whoops time is going it's going for all of us so please think about this will you think about what we talked about today i think of the possibility that everyone might die you know at any moment at it at any second like i'm a firm believer of that okay i'm pleased you are because jesus spoke of a man that was so rich he built bigger bonds to put his goods in and he says i'm going to take it easy from now on and jesus said god said to him you fool tonight your soul is
+
+[08:53] required of you and who will have those things that you've that you've saved so so is he that is not rich towards god so think about it with that attitude you got a bible at home uh yeah i don't read though i don't read any books why not it's too boring i never sit down and just read you know a man was very rich he was on a ship the ship began to sink he had a gold uh belt around a belt filled with gold a money belt and it weighed 40 pounds so packed with gold but when he fell in the water he wouldn't take it off because he because he so loved it so it took him to his death and sim will do
+
+[09:26] that to you we so love it it's so pleasurable pornography fornication lying stealing we love darkness but it'll take you to hell so it's not worth it and the moment you repent and trust in christ god will give you a new heart so you love righteousness that's what a christian is someone who loves that which is right and that's a miracle for a sin loving sinner is this making sense it does it makes sense gonna think about what we talked about for sure do you have a bible at home i do but i don't remember the last time it was moved please dust it off man it's god's love letter to you yeah dust
+
+[09:56] it off it's god's love letter to you and don't neglect your eternal salvation there's nothing more important seek first the kingdom of god and this righteousness everything else will be added to you sam you've been a good sport can i give you some literature hey thanks for listening to me i really appreciate it no worries it means a lot thank you this is the evidence study bible we can hardly keep it in stock it's everything you've ever wanted to know about apologetics and reaching the lost including 200 of the most commonly asked questions of the christian faith it will arm you with
+
+## Part 2 · 10:30
+
+[10:30] practical training on evolution atheism the teachings of mormons hindus muslims and jehovah's witnesses and much more including how to effectively lovingly and logically share the truth of the gospel you'll find that as hundreds of inspiring quotes from renowned christian leaders and its practical tips on defending the faith will be a great encouragement the evidence study bible is available at livingwaters.com by the way there's a special going on at the moment buy two and when you put a third one in your cart that third one will be free go to livingwaters.com click on store books and then
+
+[11:06] the evidence study bible

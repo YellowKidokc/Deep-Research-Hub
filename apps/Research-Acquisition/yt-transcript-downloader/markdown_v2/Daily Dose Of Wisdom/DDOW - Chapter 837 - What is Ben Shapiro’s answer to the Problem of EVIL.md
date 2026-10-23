@@ -1,0 +1,45 @@
+# What is Ben Shapiro’s answer to the Problem of EVIL?
+
+**Channel:** [[Daily Dose Of Wisdom]] (`DDOW`) · Chapter 837 of 916 · Length 7m 00s · [[00 - Channel Summary]]
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] (https://www.youtube.com/watch?v=Ubf1XXYJWKA&t=0s) It's Lex Friedman and Ben Shapiro, they're talking about God, they're talking about the problem of evil. How is it possible that there can be so much evil and suffering in this world and God still exists? If he's allegedly powerful and good, it's a great conversation, it's a great question. I actually really like Ben's answer. Let's dive into it here. It is. Why does God allow cruelty and suffering in the world? One of the tough questions? So we're going deep here.
+
+[00:28] There's two types of cruelty and suffering, so if we're talking about human cruelty and suffering because God does not intervene. (https://www.youtube.com/watch?v=Ubf1XXYJWKA&t=28s) To prevent people from exercising their free will because to do so would be to deprive human beings of the choice that makes them human. And this is the sin of the Garden of Eden, basically, is that God could make you an angel. In which case, you wouldn't have the choice to do the wrong thing.
+
+[00:54] But so long as we are going to allow for cause and effect in a universe shaped by your choice, cruelty and evil are going to exist. (https://www.youtube.com/watch?v=Ubf1XXYJWKA&t=54s) And then there's the question of just the natural cruelty and vicissitudes of life, and the answer there is, I think, that God obscures himself. I think that if God were to appear in all of his glory to people on a regular basis, I think they would make faith and you wouldn't need it, there'd be no such thing as faith, right? It would just be reality, right?
+
+[01:21] Nobody has to prove to you that the sun rises every day. But if God is to allow us the choice to believe in him, which is the ultimate choice. (https://www.youtube.com/watch?v=Ubf1XXYJWKA&t=81s) From a religious point of view, then he's going to have to obscure himself behind tragedy and horror and all those other things. I mean, this is a fairly wellknown, kabbalistic concept called TSUM in Judaism. Which is the idea that when God created the universe, he sort of withdrew in order to make space for all of these things to happen. So God doesn't have an instrumental perspective on liberty.
+
+[01:47] In a chief sense he does, because the best use of liberty is going to be belief in him. (https://www.youtube.com/watch?v=Ubf1XXYJWKA&t=107s) And you can misuse your liberty, right? Help. There will be consequences if you believe in an afterlife. Or if you believe in sort of a generalized, better version of life led by faith, then Liberty does have a purpose. But he also believes that you have to give people from a cosmic perspective the liberty to do wrong without threatening all the institutions of society.
+
+[02:13] I mean, that's that's why it does say in the Bible that if man sheds blood by man, shall his blood be shed right? There are punishments that are that are in Biblical thought, for doing things that are wrong. (https://www.youtube.com/watch?v=Ubf1XXYJWKA&t=133s) So for a human being who lacks the faith in God? So if you're an atheist, can you still be a good person? Of course, 100, and there are a lot of religious people who are crappy people. How do we understand that tension well from a religious perspective?
+
+[02:40] What you would say is that it is perfectly plausible to live in accordance with a set of rules that don't damage other people. Without believing. In God, you just might be understanding. (https://www.youtube.com/watch?v=Ubf1XXYJWKA&t=160s) The reason for doing that wrong is what a religious person would say. There's the conversation again that I had with Sam, basically, is you and I agree, I said this to him. You and I grew on nearly everything. When it comes tomorrow, I disagree on 15 to 20 of things, the other 80 is because you grew up in a Judeochristian society, and so do I.
+
+[03:03] And we grew up 10 miles from each other, you know, around the turn of the millennium, so there's that. So you can perfectly well be an atheist. (https://www.youtube.com/watch?v=Ubf1XXYJWKA&t=183s) Living a good moral, decent life because you can live a good moral, decent life with regard to other people without believing in God, I don't think he built a society on that, because, I think that, you know, that relies on the sort of goodness of mankind, natural goodness of mankind. I don't believe in the natural goodness of mankind you don't. No, I believe in.
+
+[03:29] I believe that man has created both sinful and with the capacity for sin in the capacity for good. But if you let them be on their own, isn't, doesn't it? (https://www.youtube.com/watch?v=Ubf1XXYJWKA&t=209s) Without social institutions to shape them, I think that that's very likely to go poorly. Oh, interesting. Well, we came to something we disagree on, but that may be that might reflect itself in our approach to Twitter as well. I think, if, okay, I'm gonna go ahead and pause here because they kind of move on to a slightly different topic.
+
+[03:54] I have three really quick observations that I want to make, and then I'll let you guys get back to your day. Number one, when Ben is talking about the obscurity of God in the face of evil, I want to add something from a Christian New Testament perspective, which is this when we look at the evil and the suffering in the world. (https://www.youtube.com/watch?v=Ubf1XXYJWKA&t=234s) One thing that we cannot say is that it's because God doesn't care. The gospel message tells us that God cares so much that he's actually the one who suffered the most that he actually left. Perfection in.
+
+[04:26] Heaven, traveled into time and space, put on flesh, became a person suffered on a cross for the sins of the world. For what reason? (https://www.youtube.com/watch?v=Ubf1XXYJWKA&t=266s) An order that people would be able to have each eternal joy with God in order that people would be able to be unified to God. And that's a eternal blessing. That is an eternal promise that Christ offers us on the cross. That really, if you think about it, is a Trump card over any temporal suffering that anybody experiences, I'll give an analogy.
+
+[04:56] It's like we live in the middle of childbirth and we look and we see blood and we see horror. And we think there's no way that this could possibly add up to anything good. (https://www.youtube.com/watch?v=Ubf1XXYJWKA&t=296s) But we don't have the whole perspective of the rest of the of the lifespan that follows. And in this case of heaven, we're talking about literally eternity. We don't understand that the birth pains, the blood, the horror of pregnancy is actually leading to life if a person should allow it to. And so that's an important analogy to understand.
+
+[05:26] When we look at the pain, the suffering, the evil, the tragedy that exists during this temporary amount of time on this planet. Also second comment When Ben is talking about the essential role that Free will plays, he's absolutely right, he's absolutely right. (https://www.youtube.com/watch?v=Ubf1XXYJWKA&t=326s) If there's not legitimate free will that humans have, then the question of evil and suffering becomes really diabolical. Because it means God is actually programming every bad thing that happens, God is actually programming. You know, the rapist to rape, for example.
+
+[05:57] So, but the understanding of legitimate free will means that God has created people in such a way that we can actually say yes to him, and in order for us to actually be able to say yes to him. (https://www.youtube.com/watch?v=Ubf1XXYJWKA&t=357s) The alternative to that is that we actually have to be able to say no to him also. And that ability to say no, which is what happened in the Book of Genesis, right? Originally, Adam and Eve said Thanks, but no thanks. We are going to do things our own way and that nature that humans have.
+
+[06:27] The ability to say no to God is actually the cause of the fallen cosmos in. And that includes all natural disasters, cancers, everything else. (https://www.youtube.com/watch?v=Ubf1XXYJWKA&t=387s) That is a byproduct of humans exerting their free will to work in opposition to God. And then, obviously also all of the things that are carried out by individuals, the wars, the abuses, the tragedies, all the things that people do to people are also obviously a byproduct of when people use their Godgiven free will to act outside of God's will. So those are my thoughts.
+
+[06:58] Basically, I love Ben's actual commentary. I obviously love Lex Freeman, he's such a great conversationalist and podcaster. (https://www.youtube.com/watch?v=Ubf1XXYJWKA&t=418s) If you guys like the Ben and Lex stuff, let me know. And we can cover other deep, amazing, important topics like this in future, videos like Subscribe All the Things and I'll see you guys in the next one. Peace, all right, bye.

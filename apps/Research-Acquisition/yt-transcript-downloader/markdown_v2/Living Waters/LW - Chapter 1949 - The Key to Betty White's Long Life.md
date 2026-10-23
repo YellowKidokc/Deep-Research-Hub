@@ -1,0 +1,69 @@
+# The Key to Betty White's Long Life
+
+**Channel:** [[Living Waters]] (`LW`) · Chapter 1949 of 2497 · Length 13m 12s · [[00 - Channel Summary]]
+**Video ID:** `CNXPzxQJ0JU`
+**URL:** https://www.youtube.com/watch?v=CNXPzxQJ0JU
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 04:09
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:03|Part 2 · 10:03]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] [Music] I hate to have to do to do this, but we have sad breaking news from Hollywood. The Associated Press is reporting that legendary actress Betty White has died at the age of 99. For all of her accomplishments, the Screen Actors Guild presented Betty White with its lifetime achievement award in 2010. Blessed with good health. That's the bottom line, and that's the thing I'm luckiest about. I've got to be honest, the first thing I ever think about when somebody dies is, did they know the Lord? Were they born again? Had they found God's gift of everlasting life?
+
+[00:35] So, I typed in Betty White and God. And I was surprised. Nothing came up. It doesn't matter who the celebrity is, something always comes up. They've got some thoughts about God. But not Betty White. That doesn't mean to say that she didn't know the Lord. Doesn't mean to say she didn't have faith, but she knew, I'm sure, that if she said that she belonged to Jesus Christ in Hollywood, she'd be blacklisted.
+
+[01:07] I remember a friend of mine who is a very well-known celebrity took me to meet his managers in Hollywood once and while I was present they told him that if he continued his relationship with me and this whole God thing it would be the death of his career. You know what he said to them? He said you can go to heaven. Thankfully he chose to serve the Lord and keep our friendship. Of course Hollywood blacklisted him.
+
+[01:32] It's a sad irony that just yesterday I heard that Betty White at the age of 99 coming up to 100 had said that she believed the key to her long life was avoiding green foods that is vegetables. Just the opposite of what your mom said. And I remember thinking perhaps she's right today. I changed my mind. Death is a great mystery to the world. They don't know what happens after death. They don't know why they die. But as Christians, we know that death is wages given to us by God. Romans 6:23 says, "The wages of sin is death." God pays us in death for our sins.
+
+[01:58] Like a judge who sees a heinous criminal that's murdered three girls, he said, "You've earned the death sentence. This is your wages. This is what's due to you. This is what we're paying you. And sin is so serious to a holy God. He's given us the death sentence. The soul that sins, it shall die." The whole world seems to mourn when a celebrity dies. And it's very sad. But every day 150,000 people die. That should make us Christians mourn. And even more so to think that many of them have died in their sins.
+
+[02:31] Every person that dies should remind us the responsibility that we have as Christians to share the gospel of everlasting life with this lost and dying world. That Jesus Christ has abolished death and brought life and immortality to light through the gospel. Now watch this. You going to think about what we talked about? I am. I am. When are you going to repent and trust in Jesus? Now, starting now. Andrea, what's your thoughts of the afterlife? Um, I do think an afterlife um exists. Um, I think because there's so much suffering on earth. I personally believe that this is hell.
+
+[03:07] Um, and I I feel like the way things are going, there has to be more to life. This can't be it. There's no way. And then you know um scientifically that energy never dies. So that that too I I do believe we're just inhibiting a body effort experience. Do you believe in God? Um I don't know if that's the correct term but I do be believe in a creator. Yes. Yeah. It's hard not to believe in a creator when you look at creation all around us. We see the genius of the creator's hand. Right. You said you don't believe in hell. Your creator must be pretty weak. I I I believe we're living in hell.
+
+[03:47] So, I mean, by that I mean there are people that rape women and then murder them. Yes. And you say there's no punishment for that. Um, you got me there. There definitely has to be a punishment. Yeah, you do got me. You do have me there. So, there's obviously a hell, God's prison for those who transgress his law, right? How does that make you feel? Good or bad? Um I good because I every I think anything bad needs a consequence. Any as well as good needs a consequence too. Yeah. I mean we spend literally trillions of dollars as humanity make sure that justice is done. We pay judges have prisons.
+
+[04:23] We have court cases. We'll chase a man to the ends of the earth to make sure justice is done. And yet we're not exactly good and yet we believe in justice. So, how much more will the creator have his day of justice? So, how are you going to do on judgment day? Um, I'm doing the best I can. You know, we're humans. We're not perfect. Um, I think I on judgment day, I think I think I might pass by good. You said you might be all right on judgment day. We better find out. And if you're not, we better find out how you can be right. Okay. Okay. You think you're a good person? Um, yeah. Overall, yes.
+
+[04:59] How many lies have you told in your life? Um, well, when I was a little kid, I You started lying as a little kid. So, what do you call someone who tells lies? A liar. So, what are you? A former liar. Aren't we all? Everything's Everything's in the past. Even what I just said then is in the past. I formerly said that. Have you ever stolen something? Uh, maybe candy from the liquor store. Just from a little liquor store. Little candy. Yeah. Nothing big. No. No. What do you call someone who steals? A stealer. A thief. Oh, yeah. A thief. So, what are you? A former thief. A former lying thief.
+
+[05:43] I appreciate your honesty. Have you ever used God's name in vain? No. OMG. No. Oh, yeah. That's not giving it due honor. It's using in place of a cuss word. Actually, would you do that with your mother's name? You thumb with a hammer and you want to say something horrible like sh. You wouldn't use your mother's name in its place. Well, it doesn't even make sense. No, but using God's name makes sense. Why? Um, I think it's just because it's a thing that we hear growing up like, oh my um to like to express exactly um how we feel. Yeah. Yeah. Yeah. Or you might use sh in its place. Yeah. Yeah.
+
+[06:21] That's equating God's name with that which is called blasphemy. Very serious. Punishable by death in the Old Testament. Again, I appreciate your honesty. Now, we're gonna get personal. Can you handle that? Uh, a little bit. Okay, we'll just give you a little bit and I'll back off if I see you don't like it. Okay. Jesus said, "If you look with lust, you commit adultery in your heart." Uhhuh. Have you ever looked with lust? Yeah. Okay. You've had sex before marriage. Yeah. That's pretty personal. So, look, I'm not judging you. This is for you, not for me. This is for you to judge yourself.
+
+[06:53] You've told me you're a lying, thieving, blasphemous, fornicating adulterer at heart. And you have to face God on judgment day. If he judges you by the ten commandments, we've looked at four of them. You're going to be innocent or guilty. Well, based off what you said, I would be guilty. Here's the big question. This is where we're going with this. And I know this has been uncomfortable for you and for me, but it's most necessary. This is where we're going. If you're guilty on judgment day, would you go to heaven or hell? Uh, it depends on how strict they're being. Very strict. Yeah.
+
+[07:28] Well, then we would all go to hell. It's exactly what the Bible says. Then we're all going to hell. Says all liars will have their part in the lake of fire. Do you know what death actually is according to the Bible? Uh, no. It's wages. Wages. Wages. Yeah. The Bible says the wages of sin is death. In other words, sin is so serious to God, he's given you the death sentence. It's like a judge looks at a criminal who's raped three girls and murdered them. He says, "You've earned the death sentence. This is your wages. This is what's due to you. This is what we're paying you.
+
+[07:58] And sin is trivial to you and me. Who doesn't lie and steal and fornicate and blaspheme. Yeah. But to a holy God, it demands the death sentence. Is that serious? Proof that you've sinned against God will be your death. So, it deeply concerns me that if you died today, you'd end up in hell. You got kids? Yeah. What are you going to say to them when they say to you, "Mommy, I'm scared of dying. What can I do?" that, you know, um I don't know what I'm gonna what I would say, but I feel like it goes um this this country was built off of sin.
+
+[08:34] So, it's it's kind of like it's kind of hard to run from it cuz Yeah. Like I said, this country was literally built off of sin. Yes. Like sin city. So, do you know what God did for guilty sinners so we wouldn't have to go to hell? He did something incredible. He died for He died for our sins. Yes. Do you understand the legal implications of that? No. Okay. Let me share them with you. Then you'll have something to share with your kids. Okay? Okay. The ten commandments are called the moral law. You and I broke the law. Jesus paid the fine. Uhhuh. That's what happened on that cross.
+
+[09:03] That's why he said it is finished just before he died. Right. It is finished. You're saying the debt has been paid. Like in a like in court, if you've got a stack of speeding fines, someone else can pay them for you. And the judge can let you go. He can say, "This is serious. A lot of speeding fines, but someone's paid them. You're out of here." Right? And God can legally dismiss your case, forgive your sins, let you legally live forever. He can take the death sentence off you, right? All because Jesus paid that fine in his life's blood. Are you familiar with John 3:16? Um, no.
+
+[09:32] Says, "For God so loved the world, that's you, that he gave his only begotten son that whoever believes or trusts in him should not perish but have everlasting life." And after Jesus died, he then rose from the dead, defeated death. And if you'll simply repent of your sins, turn from them, and trust in Jesus, you've got God's promise, and he cannot lie because he's without sin. That he'll grant you everlasting life as a free gift. That's what you can tell your children when they say, "Mommy, I don't want to die. Why am I going to die?" He said, "Well, Jesus dealt with it all on the cross.
+
+## Part 2 · 10:03
+
+[10:03] Just have to trust in him like you trust a parachute." Yeah. If you're going to jump out of a plane, scary thing to jump without a parachute and you put it on because of your fears, right? And fear is your friend in that case. And what I've tried to do with you is put the fear of God in you today. Make you see this is deadly serious. This is your life. And I trust that you'll see that fear as your friend, not your enemy. Cuz it's going to drive you to the foot of that cross where you'll say, "God, forgive me. I'm a sinner." Is this making sense? No, it it definitely is.
+
+[10:33] You're going to think about what we talked about. I am. I am. When are you going to repent and trust in Jesus? Now. Starting now. Can I pray with you? Sure. Father, I pray for Andrea. I thank you uh for open and honest heart today and I pray that she'll see her sins in in their true light and that she'll flee from your wrath and trust in Jesus. Grant her genuine repentance, sorrow for sin and may she pass from death to life this day because she's putting her faith in the Savior. In Jesus name we pray. Amen. Amen. Can I give you a gift? Sure. It's a bundle of hundreds.
+
+[11:11] It's actually a Gospel of John. Oh, you know what? I've been wanting one. Hey, let me just say one more thing. Make sure you read the Bible daily. It's God's love letter to you. So, you feed your stomach daily. This is more important. So, make sure you read God's word daily. Okay. Okay. Thank you so much. Don't forget to subscribe and click on the notification bell and make sure you don't miss the Living Waters podcast.
+
+[11:44] The Evidence Study Bible will give you everything you've ever wanted to know about subjects such as the theory of evolution, as well as valuable information about the cults and different religions, atheism, and biblical archaeology. It also contains hundreds of quality quotes, fascinating articles, amazing scientific facts in the Bible, and so much more. It even includes answers to 200 of the most commonly asked questions of the Christian faith. The evidence study Bible will thoroughly enrich your trust in God and in his precious word. Get yours at livingwaters.com.
+
+[12:14] Approaching a stranger is a little bit scary for most of us. That's why we've produced the starter kit. It contains four of our most popular gospel tracks. This is 101 of the world's funniest oneliners. These really are funny and the gospel is hidden way inside. It's so easy to give out. You simply say, "This is 101 of the world's funniest oneliners. It'll cheer up your day." This is the good person test. It's exactly what I say to people in comic form. And who can resist a comic? This is the Ten Commandments coin with a gospel on the back.
+
+[12:53] I tossed a handful to teenagers once on a sidewalk and watched them fight over them. It's a great gift to give to anyone. And of course, our ever popular Milliondoll Bill. Just say, "Did you get your million?" and watch people's faces light up. There's a total of 350 tracks in the starter kit. Get yours today at livingwaters.com.

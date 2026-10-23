@@ -1,0 +1,63 @@
+# Tim Keller Explains Where Secularism FAILS (12 Minute Brilliancy!)
+
+**Channel:** [[Daily Dose Of Wisdom]] (`DDOW`) · Chapter 772 of 916 · Length 12m 46s · [[00 - Channel Summary]]
+**Video ID:** `v2tZWriRn7g`
+**URL:** https://www.youtube.com/watch?v=v2tZWriRn7g
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 20:02
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:39|Part 2 · 10:39]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] you have moral feelings right everybody in this room has some things you feel this is I feel this is right I feel this is wrong and if you don't believe in God no problem explaining them it could be Evolution that's why we have those feelings or it could be your culture has taught you those things or it could be an existential choice of yours whatever but if there is no God it's hard to see how there could be moral obligation see a moral feeling says I feel this is wrong a moral obligation is to say You must stop doing that whether you feel it's wrong or not we're going to feature Tim Keller
+
+[00:29] who went to Google and we're going to feature two portions of this lecture that he gave the problems that one Faces by rejecting God and the often unseen beauty within Christianity let's get into it number one if you don't believe in God there is a problem with meaning because the meaning that you create for yourself will be too thin for you to handle suffering the secular culture unlike uh religious cultures do do make you find your meeting in life in some here which means suffering can take it away and every other culture whether it's Hindu or Islam or Christian what every other kind of
+
+[01:07] religion helps you locate your meaning in life outside of this life so that suffering can actually help you accomplish your meaning in life but if you're a secular person suffering will destroy your meaning in life and secular culture gives its members less resources to deal with suffering than any culture in the history of the world and we are much more traumatized by it number two just these secularism the idea there's no God gives you a view of identity which is incredibly fragile every other religion says you find Who You Are by connecting to something more important than you the secular
+
+[01:41] culture says you find your identity by looking inside and doing whatever you think you want to do most and you assert it over and against everybody else and lots and lots of Studies have shown that that kind of identity which is really unique it it's not the way it works in the rest of the world or in history makes you incredibly fragile because you you desperately need a kind of recognition that it actually can enslave you uh thirdly it's not just a problem of meaning and a problem of of of identity there's also the problem of Freedom uh modern culture say defines Freedom as the absence of
+
+[02:17] restrictions Isaiah Berlin the philosopher Isaiah Berlin say there's two kinds of Freedom there's negative Freedom there's positive Freedom negative freedom is freedom from positive freedom is freedom for negative fre simply says I'm only free if I have no restrictions at all and I hope you all know that that means um uh if if that's really what freedom is then that is antithetical to love because the greater the more committed Your Love relationship is the less free you are and yet by the way the more you are in a wonderful committed love relationship generally the happier you are the fact
+
+[02:53] is we've got a culture that uh and a belief set that doesn't support positive Freedom it you know it only supports negative freedom and as a result Freedom actually tends to eat up love love relationships and it's one of the reasons why we have fewer and fewer lifetime committed love relationships because the the view of Freedom that comes from highly individualistic view that goes along with the secular view undermines that so there's a whole lot of emotional problems but then there's the rational problems and I'll just simply mention them there's the problem by the way of uh existence
+
+[03:28] itself there are really good arguments that say it's difficult to understand if there is no God how why there's something rather than nothing if you want to ask me about that we can go into it but it's one of the it's one of the problems you have if you don't believe in God another problem you have when you don't believe in God is the problem of moral obligation if you don't believe in God no trouble um accounting for moral feelings like you have moral feelings right everybody in this room has some things you feel I feel this is right I feel this is wrong and if you don't believe in God no
+
+[04:03] problem explaining him it could be Evolution that's why we have those feelings or it could be your culture has taught you those things or it could be an existential choice of yours whatever but if there's no God it's hard to see how there could be moral obligation see a moral feeling says I feel this is wrong a moral obligation is to say You must stop doing that whether you feel it's wrong or not see how can you say to another person even though you feel it's okay it's wrong and you ought to obligation stop doing it see why should your feeling Trump that person's feeling well the only way to
+
+[04:42] say that is to say there's a higher law there's something outside there's a moral Source outside of both of us we all have to honor that but what could that be if there's no God you know Martin Luther King Jr in his famous letter at Birmingham Jail put it like this he said if there's no higher Divine Law if there's no God no higher Divine Law there would be no way to tell if a particular human law was unjust or not because it would just be my feelings versus your feelings big problem lastly the beauty the beauty that we find within it um Christianity has a beauty to it I mean there's first of
+
+[05:24] all there's the idea that God the Christian idea of God is that God is not an individual but God is a a trinity of three persons who've known and loved each other from all eternity I can just imagine someone wanting to debate each of those claims wanting to sort of knee-jerk into just a defensive mode before you go there just pause one second and can you at least hear Dr Keller out here on the often misunderstood or overlooked beauty within Christianity sometimes people get so offended by the truth claims or the idea that there is you know that there's one way or that there's any type of
+
+[06:09] prescription at all for some reason the idea of a prescription is is offensive to people that they actually let that offense block them from seeing the true beauty inside of the Christian story so let's play this out if you're into a love relationship that's when you're really the happiest so if you have Father Son and Holy Spirit according to the Christian teaching having perfect love relationships for all eternity they were utterly happy totally happy you might say why would you create a world filled with other personal beings if you're already per perfectly happy the answer is to share
+
+[06:46] your happiness with them there's no other good reason you already have everything why would he so the Christian idea is that God actually created us to share his happiness and love then secondly the the Christian story is that we turned away from him and that's the reason why Things Fall Apart the center cannot hold M Anarchy is loosed upon the world Christianity has a has a a story of what happened to the universe that explains both the ruin and the glory of the human race any any story that just looks at human beings as as trash or any story that looks at human beings as basically good and
+
+[07:25] does not recognize the good and the evil in them them doesn't really account for how things are it doesn't lead you to expect what's going to happen tomorrow and so Christianity the beauty of the story is a God who wants to share his love and and happiness with us a um an account of what's wrong with us then thirdly a love story he comes into the world as Jesus Christ darthy sers wrote a um darthy s is one of the first women who ever went to Oxford and she wrote detective novels and one of her detectives was Lord Peter Whimsy and she wrote a series of stories and novels about him he solves
+
+[08:01] you know Mysteries at halfway through the uh the the the uh the stories suddenly a woman shows up named Harriet vain she's one of the very first people who ever um uh you know went to she one of the very first women who went to Oxford and she was also one of the very first um she also write mystery stories so Harriet vain character shows up in the Peter Whimsy stories she's one of the first women uh graduates of Oxford she writes mystery stories and she's not particularly good-look wait a minute who is this darthy sers which many people believe looked at this character that she had created
+
+[08:44] saw how lonely he was and wrote herself into the story out of love and harri ban saves him and of course the Christian story is you you know might you might say oh that's sweet what a sweet idea the Christian story is that's exactly what God did did he looks into the world he created he sees us harming each other ruining each other and he writes himself in the story and in Jesus Christ he goes to the cross and dies to pay for our sins so that God can forgive us and still be a just God you know if you're really a if you're a judge you can't just forgive people you know the law needs to be paid
+
+[09:19] you can't just say oh it doesn't matter what you've done you know you you go off well then Justice falls apart but how could God be both just and forgive us and the answer was Jesus Christ God in a sense writes himself into the story and because he loves us and does all that for us and that's the reason why In The End by the way many people if you read the gospels one of the main reasons that people uh come to believe in Jesus Christ is they um they read the gospels and they see Jesus they see his claims they see his humility they see uh his grace they see his courage and you read through the
+
+[09:58] go goels of Matthew markk Luke and John and you're amazed of this and some years ago there was a um uh Pastor I knew who was confronted by a non-believer who said I would believe in in God if you can give me a watertight argument and the guy said the minister said read the New Testament and uh he said you mean there's a watertight argument there he says well not exactly there's Jesus Christ and he says you know what if God didn't give us a watertight argument to lead us to himself what if he gave us a watertight person against whom in the end there is no argument read him and you'll see
+
+## Part 2 · 10:39
+
+[10:39] there's almost no way to account for the beauty of this of this person unless maybe he is who he said he is I was talking to my atheist friend the other day and he said what's the big deal about God being sinless about Jesus being sinless if he's really God if he's really the wonderful counselor Everlasting father then of course he could be sinless what's the big deal and I thought about this and it didn't totally make sense to me right away and then I ended up just responding by saying that the far bigger deal than that Jesus was sinless that he was a water typ person like Tim Keller said is
+
+[11:11] that as a watertight person if you will as a sinless as the only sinless one the only perfect person he also chose to bore our sins that is the big deal that that a perfect holy God would be willing because of the love that he has for Humanity to enter into darkness as perfect light to live a life that that he was not on the hook to live in order that he could win back his beloved that's the insane part of the Christian story is that Humanity isn't just a an aberration or or an an evolution out of some material Fleck of the universe humanity is the object of Love of a perfectly holy God we
+
+[11:58] are his beloved and he is ours and if the Christian story is true then it tells us so much about the God who is it tells us that the God who created all things is absolutely heroic and is absolutely wonderful and worship worthy and magnificent and that we can connect ourself to him through this amazing thing that he's done for us and when we do that we find Ultimate fulfillment the wages of sin is death the gift of God is eternal life and again that eternal life is also magnificent and abundant and it's connected to Ultimate Reality himself I'll leave it at that thank you guys for watching
+
+[12:39] see you in the next video [Music]

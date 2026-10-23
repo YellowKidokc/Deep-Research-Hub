@@ -1,0 +1,45 @@
+# Why Peter Navarro Is Going to Jail
+
+**Channel:** [[Tucker Carlson]] (`TC`) · Chapter 903 of 990 · Length 8m 03s · [[00 - Channel Summary]]
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] (https://www.youtube.com/watch?v=Ai1Gc-N3aIw&t=0s) Just in case you were a little confused about how the justice system works and who the laws apply to. Last year, Hunter Biden blew off a congressional subpoena Hunter Biden, the president's son. He decided he didn't want to testify before Congress, and he didn't have to. Then this year, January 2024, he showed up at a congressional hearing, but then a member of Congress appeared to speak. And Hunter Biden, as an expression of contempt for that member and for Congress itself, just walked out. What happened to Hunter Biden?
+
+[00:31] (https://www.youtube.com/watch?v=Ai1Gc-N3aIw&t=31s) Well, he's still selling his childish artwork for hundreds of thousands of dollars a piece to Democratic donors who are reaping the benefits of that. You can be certain that little donation to the Hunter Biden Lifestyle Fund, so that's Hunter Biden's experience of our justice system now. Peter Navaro, who is a college professor for years and not especially political, wound up in the Trump administration as a trade official trying to narrow the trade gap between the United States and China.
+
+[01:00] He got caught up for reasons that were never clear in the January 6th Committee, the fake partisan committee run effectively by Dick Cheney's daughter. (https://www.youtube.com/watch?v=Ai1Gc-N3aIw&t=60s) That, we now know did nothing to bring the truth to light about January 6th. But EDDD a coverup of what actually happened that day. And yes, it was a setup. And that's not a conspiracy theory. That's an obvious conclusion based on the now emerged facts, so Peter Navaro did not testify before that quote committee. What happened to him well?
+
+[01:32] Peter Navaro was just sentenced to 4 months in prison for that dastardly act, defying a congressional subpoena by the fake committee. (https://www.youtube.com/watch?v=Ai1Gc-N3aIw&t=92s) Okay, so you would think in a functioning country where people had a commitment not just to party, but to principal and in living together peacefully. Maybe for the next hundred years or so people would be standing up for Peter Navaro, No. Here's one of the dumbest people ever to serve the United States Senate, Clar McCal of Missouri, celebrating that sentence on MSNBC. Watch.
+
+[02:02] (https://www.youtube.com/watch?v=Ai1Gc-N3aIw&t=122s) Well, you know, as a person, I wish it was four years instead of four months. But it is always heartening to see the system work. And to see someone who has worn a suit and tie to work forever and has been in the halls of power be held accountable for refusing. But, you know, I wish more people had been charged with contempt of Congress. I understand why they weren't. But Congress has to work on oversight. He should do four years in prison four years until he's dead.
+
+[02:36] Remember, they told us that female leaders are going to be more compassionate and empathetic and kinder. (https://www.youtube.com/watch?v=Ai1Gc-N3aIw&t=156s) A lot of them turned out to be bloodthirsty and punitive. Maybe we should reassess that assumption. But in any case, Peter Navaro is all things being equal headed to prison very soon for the crime of not obeying Dick Cheney's daughter. We thought we would talk to him before that happens, He joins us now. Naro, thank you so much for coming on. Tucker So much appreciate this time.
+
+[03:05] The best way folks out there in Tucker America can help me right now is to go to my legal defense fund. (https://www.youtube.com/watch?v=Ai1Gc-N3aIw&t=185s) Gio.com Naro, that's Gio.com Naro U. I've already had to lay out over half a million dollars in legal fees for the lower court that found me guilty of this charge. But Tucker, the good news here is that this is just going to be in my hope and judgment. A landmark constitutional case on the constitutional separation of powers and the use of executive privilege as a tool of sound presidential decisionmaking.
+
+[03:49] The remarkable things hold on, wait, wait, Peter, for one second. (https://www.youtube.com/watch?v=Ai1Gc-N3aIw&t=229s) First of all, I could not support you more vehemently. I think you're being railroaded for political reasons. I think it's very obvious to any reasonable person watching this, whether that person voted for Trump or not or likes you or not. But I don't think we're at the stage of regime collapse, where constitutional precedents maybe are the operative question. I think it's about force, and they're trying to put you in prison because they don't like you.
+
+[04:16] And they want to send a message to others that if Trump gets elected, don't serve that administration. (https://www.youtube.com/watch?v=Ai1Gc-N3aIw&t=256s) You'll wind up like Peter Navaro spending your 70s in jail. So my question to you is And this has got to be obvious to you. If they, I think it's 57 or so days from now, they can put you in prison, no matter what you say, whether it's appealed or not, yes, if ordered to go to prison, why would you comply with that? Like at a certain point, do you just say to yourself, I, this is all fake?
+
+[04:43] It's not our system you're upholding, it's our system you're destroying, and I'm not going to participate in it. (https://www.youtube.com/watch?v=Ai1Gc-N3aIw&t=283s) No, I look, I obey the law. I obeyed the law when I failed to respond to concessional subpoena because the law. Tucker, for more than 50 years across Democrat and Republican presidencies, has been that senior White House officials like me. Alter Oses to the president shall not and cannot and legally cannot be compelled to testify for Congress.
+
+[05:23] And the reason is very simple is because executive privilege is something that goes right. Back to George Washington, our first president, who understood that confidential communic ations within the White House are critical to effective decisionmaking. (https://www.youtube.com/watch?v=Ai1Gc-N3aIw&t=323s) That's something that the Supreme Court has long recognized, and that's something that the Pelosi Congress, with the J6 committee, trampled all over. You're kind of making my point for me, though, aren't you? Wait, hold on, aren't you?
+
+[05:53] Making the point for me, which is, everybody knows that it's long established. Eric Holder, attorney general, blew off a congressional subpoena from a real committee. (https://www.youtube.com/watch?v=Ai1Gc-N3aIw&t=353s) This was January 6th, whatever. That body was, not a real committee, it was a coverup operation that committed crimes. Okay, so they didn't even have the moral authority to tell anybody to do anything. They should be charged. But their precedent was very, very clear. You're not the first White House official to say you can't subpoena me.
+
+[06:20] So they knew that when they sentenced you to prison so they don't care about the law, only you care about the law. So isn't it kind of asymmetrical here? (https://www.youtube.com/watch?v=Ai1Gc-N3aIw&t=380s) Well, it's certainly asymetrical. They have the power, and it's it's my firm belief, as is yours, that we live in a world where the justice system has indeed been weaponized. I mean, look, they want to put Donald Trump in prison, there's no question about that. I'm I'm the appetizer, as it were the chum in the water.
+
+[06:56] And we do have an election going on, it's very important to get him elected. But look, this issue from a legal point of view, is is interesting. Tucker Because I literally am the first person ever in this republic to ever be actually charged. (https://www.youtube.com/watch?v=Ai1Gc-N3aIw&t=416s) All the other people you mentioned never got charged, so there's no what they call settle law. I mean, the central legal question is whether people like me can be compelled to testify for Congress. The law is not settled on that there's not.
+
+[07:27] The law is not settled on questions like, What's the burden of Congress to get the information it's seeking? They're not supposed to have investigations to punish people, they're supposed to seek information. (https://www.youtube.com/watch?v=Ai1Gc-N3aIw&t=447s) One of the remarkable things Tucker is that from the outset, I said, Look, President has invoked executive privilege, which he undeniably did. It's not my privilege by law to wave and that I'm more than happy to comply with your subena. If you just call the president and ask him to weigh the privilege, you know what?
+
+[08:01] Not one single phone call, either from the J6 people or the government itself, instead the government instead. This is your twotier system. (https://www.youtube.com/watch?v=Ai1Gc-N3aIw&t=481s) Instead of like calling me and saying, Okay, we got an indictment, please peacefully surrender like they do with everybody else. They put me in leg irons, leg irons, of course, as they did to Roger Stone. And a lot of other people that you worked with like. And that's kind of my question the whole world.

@@ -1,0 +1,91 @@
+# How Big Tech Weaponizes our Financial System
+
+**Channel:** [[Mike Benz]] (`MB`) · Chapter 196 of 690 · Length 17m 04s · [[00 - Channel Summary]]
+**Video ID:** `zDUVLw6JUpA`
+**URL:** https://www.youtube.com/watch?v=zDUVLw6JUpA
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 02:58
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:17|Part 2 · 10:17]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] Let's call this what it is, they're nationalizing the internet, right? Yeah, they are. They're putting it back in the box.
+
+[00:31] I mean, the internet really started as a national project, as a military project, when it was back when it was ARPA, before ARPA became DARPA, and that was in the 1960s, and it was a national project for 30 years until the basically 1991, when it became a private thing with the World Wide Web, and now we are we are witnessing it go back in the box as that as these same sort of military and government structures are threatened by freedom on the internet and are attempting to reassert control over it.
+
+[00:37] So, we're going to talk about illegal memes in a little bit, but one of my favorite memes, which is not yet illegal, is with the two astronauts and one sort of pointing the gun at the other one, and they're looking at the world and Always has always has been. Has the internet always been kind of a government thing? How private did it ever really get?
+
+[01:06] You know, that's a great point because in the 1960s and '70s, back when there was this vigorous anti-war left-wing movement in the country, there were protests at Harvard about the early use of the internet as a military means for control over society. It was It was referred to The internet The early internet was referred to as a kind of octopus-type control mechanism by the military because its initial use case was compiling intelligence dossiers for the military to control insurgency groups overseas as part of this newly burgeoning American empire during the Cold War.
+
+[01:27] So, the the military was getting all of this information from our social science folks in academia and in think tanks, and it was all on paper. There was But there was so so much of it, and we had control over so much territory from the Philippines to Vietnam to the Marshall Plan reconstruction in in Europe. And so, digitizing all that information within within internet with it making it digital was a huge efficiency for the military.
+
+[02:05] And at the time, there the left the left wing in this country was apoplectic about the threats of of the internet as as because of a concern that third world peoples were going to be controlled by the military. But what we've seen now is it's gone from sort of a hypothetical with non-US countries being controlled to our own internal politics being controlled now by uh by military control over speech and by government control over speech, which is really kind of the dead center of the censorship industry.
+
+[02:32] You have these huge Pentagon, State Department, and intelligence communities connections to control over speech, basically reasserting the digital age the kind of control mechanisms they had over media in the 20th century.
+
+[02:59] This is so wild because, you know, the story that we usually hear about the birth of the internet, uh especially with regards to the military's involvement and kind of how why the logic of why it was created is usually something more along the lines of, well, you know, we had to survive nuclear war, and if there was going to be sort of mutual assured destruction, then we wanted to still be the ones to survive, and you know, insert Dr. Strangelove reference here.
+
+[03:09] And so, what better way to do that than to make sure that information could be exchanged between all these kind of points across the domestic grid, so America could live on even after the nukes flew. What you're telling me is it's actually uh more accurate to say that the the military-industrial complex, the the global American empire, obsolesced the medium of print by simply exceeding the bounds of what printed matter could do. No, that's exactly right. And then you you can make an argument that even the privatization of the internet was part of a military blueprint as well.
+
+[03:39] Certain I mean, one of the the data points that I talk about a lot, and this is all covered in a great book by Yasha Levine called Surveillance Valley. He sort of comes at it from a different angle, but all the data points are there, which is that all of the initial freedom of speech um technology that that we now have today, VPNs, virtual private networks to hide your IP address, end-to-end encrypted chats, tour, the dark web to be able to buy and sell goods anonymously.
+
+[04:13] We're all actually US government-funded projects in order to support US-backed insurgency movements overseas who were being throttled by their own government. When we wanted to create an insurgency or do a regime change operation it to topple a hostile foreign government, we would pump in the internet to them essentially. We would train bloggers, dissident bloggers, and and dissident forum owners and to be able to create an independent media ecosystem in their country independent from state-run media so that they could organize and achieve a critical mass to overthrow their governments.
+
+[04:42] And this is for example what we saw with the Arab Spring, which is which was heralded by the press as, you know, the the the finest moment of the internet. It was internet diplomacy at its best. It was a These were Facebook and Twitter-fueled revolutions that serendipitously toppled every adversary government of the Obama administration in the Middle East Democracy in action. Right, but you know, these groups were all were all getting funding from the US State Department. They were all assisted by our CIA. They These countries were all in the crosshairs of our Pentagon.
+
+[05:11] And free speech was our weapon to be able to inflate that into a critical mass to overthrow the government. The And then as soon as as a free speech on the internet started threatening their own interests with the Philippines election in 2016 going the wrong way, with the Brexit referendum, and with the Trump election, suddenly they switched from an insurgency free speech modality to a counterinsurgency censorship modality and we're living in in basically the middle stages of that transition. Yeah, they get you coming and going.
+
+[05:45] I mean, this is such a pain point for I I look, you know, I I'm glad it's not my job to figure out how to run the Biden administration right now. They do have some tough choices. It's a tough world out there. Um but but just looking at the way in which we've become so reliant on these technologies that if you sort of what's in the the toolkit of American statecraft right now, how can we respond to genuine challenges, genuine threats, genuine geopolitical uh issues that need to be addressed? What's the blueprint?
+
+[06:15] What's the path forward for, you know, maybe it's not American uh a complete domination of the entire world, but you know, everyone still wants America to more or less be on top. What's in the toolkit? You dump it out and it's like, well, it's taking over the internet. That's painful cuz if we can't if that's bad, and you know, one of my rules of thumb right now is everyone basically actually agrees on the facts. We pretend that we disagree on the facts. Everyone knows what's going on. It's just one side says, "And that's good." to whatever the fact is.
+
+[06:39] And one side says, "And that's bad." And so, okay, maybe it's good, maybe it's bad, but if that's the only tool left in the toolbox, what are we going to do if we look at that tool and we say, "Well, wait a minute, this isn't America anymore." Yeah, and I mean, there's there's so much blowback from this strategy as well. I mean, these countries remember it when we try to topple their governments.
+
+[07:09] And you know, we had a pretty good strategy during the Cold War of building up ourselves so that we had more assets to play with in that toolkit back when we had a domestic manufacturing base in this country and it wasn't all offshored and we weren't reliant on supply chains so much overseas because we had such a robust you know, we we had a you know, all of our manufacturing was basically at home from the from the steel companies to uh you know, to to all of the domestic labor and and and these were all leverage points that we could assert in diplomacy as as part of uh value-based trades.
+
+[07:33] You know, I I sort of talk a lot about how uh we've transitioned from doing diplomacy on the basis of value to diplomacy on the basis of values, which means instead of doing these sort of okay, you will vote the way we want you to vote at at this UN Security Council meeting or you will allow us to have a military base or whatever because we are selling you these goods and you are getting value from that or we are building your bridges and you need us for for that that's an exchange of value. You'll do this for us and we'll do that for you and we both, you know, get something out of it.
+
+[08:05] And because we don't really have that value to offer anymore um for a number of reasons, we've transitioned to statecraft on the basis of values, which is just basically weaponizing our financial system and saying if you do not, you know, adopt this migration policy or if you do not allow in you know, independent media, State Department funded NGOs and proxies into your country or this you know, this policy on LGBT issues as we're doing in Africa or whatnot, uh then we will sanction you. We will cut you off from the US dollar. We will cut you off from US banks.
+
+[08:42] Um or or and we will organize a color revolution within your country to oust your government. That is that is a very dirty way of doing diplomacy and as much flak as China gets and I'm as much of a China hawk as anybody else, uh I think in in the sort of Trump State Department, um but they don't do diplomacy this way. They do good old fashion bribery. They do good old fashion, you know, what the US did in the 20th century. They they're building ports and bridges.
+
+[09:15] They are they're they're giving you know, they're building infrastructure and helping countries grow and then letting them have the the culture that they have indigenously and they don't weaponize the use of, you know, the remini they they are not uh they're not doing this value they're doing value-based diplomacy and and the US I think got lazy at some point and saw how easy it was because how powerful we were during that unipolar moment in the 1990s after we won the Cold War that no one could stop us. So, we can just throw our weight around. We can sanction whoever we want.
+
+[09:44] And it's like that meme, you know, where it's you know, you're yelling at somebody at at in that at a party and then enough people start to start to yell at enough people that you go from kicking somebody out of your little friend group to being the only one by yourself and everybody else that you've made enemies out of are friends. I saw that at the State Department, by the way, when we were getting outvoted in the International Telecommunication Union by every by all these countries who were affiliated with China. I thought the US was on top.
+
+## Part 2 · 10:17
+
+[10:17] And when I got to the State Department and, you know, was was our sort of representative at the oldest multilateral organization on Earth, which is the the the ITU, the International Telecommunication Union. We we were outvoted by China and we had to be we had to we were desperate just to get a stalemate. And this is because China is is They are actually in much more I I think it's frankly more ethical than what we're currently doing to do good old-fashioned bribery and building as opposed to these dirty tactics that we're doing now.
+
+[10:52] Let's let's try to take a step back and just just establish what world it is that we're actually living in. Uh what is the situation that the United States finds itself in geopolitically with regards to tech? Uh you you look at a guy like David Goldman, a friend of mine, we do fun stuff together with with Claremont. His thesis is sinification. The Chinese have sort of cracked the code on digital. They're already maybe, you know, I don't know if it's 10 or 15 years ahead of us. He wants to show people just like, "Here's Shanghai today.
+
+[11:17] Here's a town that didn't exist 10 years ago." just so that Americans can really start to understand how ahead they are on sort of digitalization and just building raw stuff. Uh especially with with robots now. They've, you know, they've automated so much of this stuff. Uh his thesis is uh that kind of Chinese framework is uh, at a breakneck pace spreading around the world. World's going to become Chinese basically unless we do something about it. Uh, is that your read?
+
+[11:44] Do you think that we're we're really facing a situation where it's sort of like, well, if we don't kind of pull out all the stops, then China's just going to swallow the world as soon as as tech finishes eating the world? Yeah, I mean, that's an issue that I was right over the center of at at state, which is, you know, China was really the first to 5G in in the in the tele com space. And the US didn't have anything in that. Nobody even came close to what Huawei was able to to do.
+
+[12:14] And Huawei was using the fact that they had the world's, you know, basically fastest, you know, um, you know, 5G network combined with their diplomacy efforts for developing second and third world countries to be able to to be able to essentially try to swap the IT infrastructure that most of the world uses from being sort of US you know, tele- telecom companies to to China's, you know, largely state state-owned giant. And we had a big diplomacy issue there, which is that we didn't have any US national champions who could compete.
+
+[12:44] So, we had to make alliances with, you know, uh, Nokia or, uh, or, you know, we we basically had to go to Finland and to South Korea to try to find other countries who had national champions and prop them up Samsung. as proxies. Yeah, exactly. And so, um, you know, part of you know, part of that I look at is being, you know, in the 20th century, our military industrial complex, um, you know, obviously got fat off government contracts, but there actually was a military investment. There was a government investment in American industry.
+
+[13:19] And, uh, that that those subsidies have now been completely dispersed across these, you know, sort of social, political, you know, quasi humanitarian causes that have no utility whatsoever in terms of creating value. And China is focused on the prize, which is building things, the things that make the world work, the things that you know, are are physical and are not political or are social constructs, the real hard physical objects. A real hard physical, you know, telecommunication system, real hard physical, you know, high-speed rail, real hard physical ports and roads.
+
+[13:59] Uh and you know, the the American empire went from having that exact spirit in the 20th century and and the 19th century with the industrial revolution and with with our manufacturing miracle uh to, you know, basically going off into philosopher zone and social division zone. And there is a place for that, but we've wandered so far into it that I I do have very serious concerns that that the trajectory right now is is headed in exactly the way that you articulate as the worst-case scenario because I don't see any any course correction.
+
+[14:37] If anything, major US financial and corporate firms are now skating towards China because they're they've lost faith in the US. You look at these major firms like like Morgan Stanley, you know, I mean, pouring billions, tens of billions of dollars into China. And the our financial institutions, our banks, you even have the World Economic Forum put out a video 3 years ago talking about, you know, the world in in 2030 and what it'll look like. And it says the US will no longer be the world's number one superpower. And as they're saying that on screen, they've got picture of the Chinese flag.
+
+[15:05] Well, the World Economic Forum is BlackRock. And it's the US Chamber of Commerce. They're all skating to where the puck is going. And part of that is, you know, the US is is is losing our frankly, our own internal dysfunction and politicization of our legal system and of our and of our trade and of our sanctions policies have lost us the value proposition we always had over China that they were an authoritarian country where your investments aren't safe. Well, look what Delaware just did to Elon Musk. You know, look at the It's an authoritarian country where your investments aren't safe.
+
+[15:41] Exactly. So, you know, it's um So, as we as we lost our positive power projection in the sense that we lost our manufacturing miracle. That the you know, the manufacturing heartland of the country is now a rust belt. Uh the not only do do our supplies come from supply chain come from overseas, but our labor is now largely overseas. We we don't as we lost that, the thing that we had to hold our hat on to is well, we are we are distinct in terms of the values that we have in the US. We have free speech.
+
+[16:26] We have we have a rule of law which will protect you, you know, in in court always be able to defend your rights and and and what we've seen instead is this wanton abuse of the sanctions system so that anybody who does business uh in a way that that upsets our State Department or or Defense Department or intelligence community gets sanctioned.
+
+[16:58] I mean, frankly, I think the sanctions um you know, the war that started you know, with much of this Russia stuff was you know, was an escalation beyond repair on that back after Crimea in 2014, but we don't abide by this free trade concept anymore because any any trade between two other countries that bothers us, we sanction.

@@ -1,0 +1,56 @@
+# The Doctrine of Death with Dr. Terry Mortenson
+
+**Channel:** [[Answers in Genesis]] (`AIG`) · Chapter 1466 of 1947 · Length 11m 19s · [[00 - Channel Summary]]
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:08|Part 2 · 10:08]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] (https://www.youtube.com/watch?v=jCllwjOdC-Y&t=0s) That's I want to focus on a few other doctrines I've found. A lot of Christians haven't thought about, including most of our Christian seminary and Christian college professors. Which is why most of them accept the millions of years, and many of them are accepting evolution. One of those is the doctrine of death. We're all going to die someday and we don't know when that will be for somebody. It could be somebody here, it could be today. A car accident, a crime, heart attack, but why is there death, and why is it sometimes what we call tragic?
+
+[00:35] (https://www.youtube.com/watch?v=jCllwjOdC-Y&t=35s) Actually, I think all death is tragic, but I think of one of my friends who used to work here at A.I.G. Who has had five children. And a year ago, his threemonth,old son died in the ambulance on the way to the hospital. Did God make a world where three month old babies would die? And what about those really tragic events that we call natural disasters, like the 280,000 that died in the earthquake in Haiti in 2010? Or the several tens of thousands that died in the tsunami in Japan the next year?
+
+[01:10] (https://www.youtube.com/watch?v=jCllwjOdC-Y&t=70s) Or the hundreds that died in the Hurricanes last summer, and the connected tornadoes and we'll die from hurricanes and tornadoes this year? Did God make a world where there would be hurricanes and tornadoes and tsunamis and earthquakes? And then it's not just human death that we struggle with, we should struggle with the death that we see. In the rocks of the Earth. They're called fossils, this is a dinosaur fossil.
+
+[01:45] But all over the Earth, on every continent, there are thousands of feet of sedimentary rocks containing billions and billions of former living things. (https://www.youtube.com/watch?v=jCllwjOdC-Y&t=105s) We're living on a massive graveyard. Why is it there? Did God make the world that way? And when we look at that fossil record, we don't just see evidence of death, we see evidence of pain, creatures being buried alive, we see evidence of killing. There are creatures fossilized in the stomach's of other creatures we see evidence of thorns and disease and extinction it.
+
+[02:23] And for the last 200 years, the scientific majority has been telling the world that it is an absolute proven scientific fact. (https://www.youtube.com/watch?v=jCllwjOdC-Y&t=143s) Two plus two is for those rocks and fossils are millions of years old. But if we're going to believe what the Bible says about death, we have to reject that idea. Because the evolutionary view of death and the biblical view of death are exactly the opposite. You see, in the evolutionary view, you have millions of years of death and bloodshed and violence.
+
+[02:56] Asteroids slamming into the earth, wiping out all the dinosaurs supposedly 65 million years ago. (https://www.youtube.com/watch?v=jCllwjOdC-Y&t=176s) It's nature red in tooth and claw. It's the survival of the fittest, which means that billions of unfit didn't survive, and it's that process according to evolution. That led to Man's existence. But the Bible says just the opposite. It says Man was created in a perfect world where there was no death disease suffering natural disasters. Man sinned against God, and that brought the judgment of God on the whole creation.
+
+[03:32] So you see in evolution you have death before man and the Bible, you have man before death, you can't believe both of those things. (https://www.youtube.com/watch?v=jCllwjOdC-Y&t=212s) At the same time, one of those views is right and the other one is wrong. And I believe what God said and look at what he said at the end of the sixth day, God said to Adam, Behold, I've given you every plant yielding seed that is on the surface of all the earth and every tree which has fruit yielding seed, it shall be food for you.
+
+[04:07] So man was originally vegetarian that God didn't give permission to eat meat until after Noah's flood. Genesis 9,3. God said, As I gave you the green plant, now I give you all things. (https://www.youtube.com/watch?v=jCllwjOdC-Y&t=247s) But the very next verse says this, and to every beast of the Earth and to every bird of the sky and to everything that moves on the Earth. Which, as life, I have given every green plant for food. And it was so so. The animals were also originally vegetarian and noticed the mpho in the verse, it says.
+
+[04:43] And to every beast and to every bird, and to everything that moves, not to some, to every so. Originally the alligator, the eagle, the lion, the Tyrannosaurus Rex, they were vegetarian. (https://www.youtube.com/watch?v=jCllwjOdC-Y&t=283s) And God tells us what he thinks of his creation. At this point. In the very next verse, God saw all that he had made and behold. It was very good, but it didn't stay very good for very long. Because God gave Adam and Eve a test and they failed the test, they rebelled against God and we read the consequences of that. Fall in Sin in Genesis Chapter 3.
+
+[05:19] And we need to pay careful attention to what the Bible says. Because there are Christian theologians and scientists today who are telling the Church that the only thing that happened in Genesis 3 was that man died spiritually. (https://www.youtube.com/watch?v=jCllwjOdC-Y&t=319s) But that's not what the Bible says the very first creature that God judged was not Adam or Eve, but The Serpent who deceived Eve and God said On your belly, you will crawl. It was a physical judgement. Now.
+
+[05:52] We don't know whether it changed the physical appearance of the creature so that it had legs and lost them or added them. Or if it was just a change in behavior, but it was a physical judgment. (https://www.youtube.com/watch?v=jCllwjOdC-Y&t=352s) That same verse says Cursed Are you serpent more than all the cattle and beasts of the field? So animals were cursed in verse 16 Eve was judged physically with increased pain and childbirth. Adam and Eve were judged physically, with the death process beginning in Verse 19.
+
+[06:29] And we know it's physical death because God said, from dust you came and to dust, you shall return. The ground was cursed in Verse 17, and it's implied in Verse 21 that God killed the first animals to make coats of skin to cover Adam and Eve's nakedness. (https://www.youtube.com/watch?v=jCllwjOdC-Y&t=389s) Then, in Verse 18, we read both thorns and thistles. The ground shall grow for you. So if God cursed, we the Earth with thorns after Adam Sinned, which is what the Bible says. We've got a problem if we accept millions of years.
+
+[07:06] The problem is this there are fossil thorns and thistles in rock layers that the evolutionists say are three to four hundred million years old. If those rock layers and fossils are really that old, then God lied. Thorns and thistles didn't come into the creation after Adam Sinned they were already in the creation for hundreds of millions of years. (https://www.youtube.com/watch?v=jCllwjOdC-Y&t=426s) But if God is telling the truth and I believe he is, then those millions of years are lie. They never happened. They're makebelieve, the result of faulty dating methods based on faulty assumptions.
+
+[07:38] We've got another problem if we accept millions of years because many dinosaurs had cancer. Researchers have discovered their tumors were like those of human patients, showing that cancer has been around essentially unchanged for a very long time. (https://www.youtube.com/watch?v=jCllwjOdC-Y&t=458s) Diseases look the same independent of what critter is effected cancer in dinosaur bones What's the problem here? Well, the problem is that, according to the evolutionists, the dinosaurs existed from 245 to 65 million years before. Man.
+
+[08:18] So if those millions of years really happened, we had cancer in the creation before Adam in a time period. That God called very good, which then means that God called cancer very good, but what kind of a God would call cancer very good? (https://www.youtube.com/watch?v=jCllwjOdC-Y&t=498s) I don't know any human beings who think cancer is good. I submit to you, not the God of the Bible. And then we turned to The New Testament and the Apostle. Paul tells us in Romans 8 that we know that the whole creation groans and suffers the pains of childbirth together until now.
+
+[08:53] So from beginning to end, the Bible gives a consistent message. We start with a perfect world where there's no death disease suffering man sins, and that brings the judgment of God, the whole creation. (https://www.youtube.com/watch?v=jCllwjOdC-Y&t=533s) And we have death and disease and natural disasters, and Jesus was born into that world and we live in that world. But it's not the very good world of the beginning. It is now a fallen, cursed creation, but Jesus died on the cross, he rose from the dead, he ascended to heaven, and he's coming back someday to create a new heavens.
+
+[09:33] And a new Earth where there won't be any more death or suffering. Many Christians today believe that there's always been death and disease and natural disaster right from the very beginning. (https://www.youtube.com/watch?v=jCllwjOdC-Y&t=573s) And by believing in millions of years, that's what they're believing, whether they realize it or not. But if you start out that way, then what in the world is the promise in the Bible about the future state? Are we going to have to look forward to millions of years of more natural disasters? Death disease?
+
+## Part 2 · 10:08
+
+[10:08] That is absolutely incompatible with what the Bible has to say. You know, as I said, a lot of Christians that I've met or read their writings in various countries have implied or said. (https://www.youtube.com/watch?v=jCllwjOdC-Y&t=608s) It doesn't matter when God created how God created or how long he took to create. Don't worry about that. Whenever I hear that, I know that person hasn't thought about this issue of death. Because the conflict over the age of the of the Earth, whether just thousands of years, as the Bible says, or billions of years.
+
+[10:44] As the evolutionists say, the conflict is a conflict over two histories of death in the Biblical view. No death at the beginning, no death. At the end, when Jesus comes sandwiched between those events, we have death and disease and suffering, and the Bible calls death an enemy. (https://www.youtube.com/watch?v=jCllwjOdC-Y&t=644s) It's a temporary part of history, but in the evolutionary view, as long as there's been life, there's been death, as long as there will be life, there will be death. It's been going on for millions of years, it's going to continue for millions of years.
+
+[11:17] So why do you cry when your dog dies, why do you cry when your grandmother dies, or your spouse or your child? It's normal, its natural, and yet everything in our soul says it's not right, it shouldn't be that way, and we cry. (https://www.youtube.com/watch?v=jCllwjOdC-Y&t=677s) We should cry to different histories of death.

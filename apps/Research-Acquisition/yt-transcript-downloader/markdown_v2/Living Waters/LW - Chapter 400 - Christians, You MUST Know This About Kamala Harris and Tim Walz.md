@@ -1,0 +1,61 @@
+# Christians, You MUST Know This About Kamala Harris and Tim Walz.
+
+**Channel:** [[Living Waters]] (`LW`) · Chapter 400 of 2497 · Length 11m 05s · [[00 - Channel Summary]]
+**Video ID:** `iteV8QGTV6U`
+**URL:** https://www.youtube.com/watch?v=iteV8QGTV6U
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 03:40
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:21|Part 2 · 10:21]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] Cala Harris says she's a Christian to really be true to the teachings of Christ one must think of our faith as a verb do you believe him no I don't know why I shouldn't I don't know no because I don't see fruit Jesus is telling us then about yes we must love thy neighbor but let's define and be clear about who is our neighbor no probably not no absolutely not no I think she's the exact opposite I don't believe anything that comes out of her mouth whatever she says with her mouth actions betray that I don't think that she practices I just think if she is a Christian it's a name only for votes
+
+[00:34] she's a pro-abortion and so when we think about Justice let's also remember all the prophets spoke about Justice they spoke about it Proverbs 319 speak up for the poor and the helpless and see that they get Justice and when Congress passes a law to restore reproductive freedoms as president of the United States I will sign into law three bills signed into Minnesota law one is long they're all long long overdue one of them protects people seeking or providing abortions we are witnessing a full-on attack against hardfought hard one freedoms and rights take reproductive Freedom well Tim and I
+
+[01:22] have a message for Trump and others who want to turn back the clock on our fundamental freedom we're not going back we're not going back and so let me say about Tim wals he has shown up to stand against these attacks long before he stood on the stage with me after Ro was overturned he was the first governor in the country to sign a new law that enshrined reproductive Freedom as a fund Al right she's Pro all the transgender stuff you know we have to stay woke like everybody needs to be woke and you can talk about if you're the wokeist or woker but just a more woke than less woke whatever uh
+
+[02:18] she's a disaster she's the worst in the history of the Border what do you think of Harris I think she's crazy we're witnessing in real time ruination of the greatest country ever and the only hope for this great country is the gospel and this Harris Trump million contains the [Music] gospel I don't have an opinion on how to get to heaven you but think about it no it's not my thing it should be because you're going to die one day you don't think about your own death oh yeah all the time every day the Bible says we're haunted by I don't care what the Bible says to be honest well let me finish
+
+[03:10] the Bible says we're haunted by the fear of death all their lifetime and it's true there's a haunting feeling everything you love is going to be ripped from your hands by This Thing Called Death you believe in god of course what do you think of Jesus have no opinion on that well let's see what you think of what he said I don't care what people said he said I'm not a Christian I'm a Jew I would say the teachings of Christ was to be Humane so I have tremendous respect for him let me give you the quote more politics I'd like to hear your thoughts then we'll get back to politics okay yeah yeah
+
+[03:40] Jesus said if you look at a woman and Lust For Her you commit adultery with her in your heart did you know that it's mouth stopping isn't it because we all do that and that's the standard God's going to judge with on Judgment Day and that's why you need a savior someone who can wash away your sins oh no I don't I don't need a SA when did you last read your Bible I don't know a long time ago bro maybe in before College a long time ago how are you going to do on judgment day going to find out if there even is a judgment day and then if there is one we're going to find out how I do let's have a
+
+[04:10] quick little preview okay how many lies have you told in your life you I don't know if I can count them like anybody else I just try not to lie anymore you stolen something yeah when I was a kid I stole something from Target but I told my parents right away and I felt bad you started young ever used God's name in vain of course what happened most of us Jim Jesus said if you look at a woman and Lust For Her you commit adultery with her in your heart did you know that no that's going that's really going too far it's outrageous I I don't believe that Jim are you familiar with King David not
+
+[04:40] really so much yeah this is what he said you require truth in the inward paths in other words God sees your thought life and every time you sin you store up God's anger that's going to be revealed on the day of judgment have you lied and stolen have you broken the ninth and eighth Commandments no I haven't broken any you've never lied in your life you know from time to time you may lie because to prevent violence have you ever used God's name in vain that's the third commandment yes I know that's the third have you ever done that God sometimes it happens that you are frustrated about the
+
+[05:18] events that are happening in your life it's called blasphemy and remember the third commandment says you shall not take the name of the Lord your God in vain for the Lord will not hold him Guiltless who takes his name in vain so what are you going to do on Judgment Day When God judges you as a liar a blasphemer and an adulterer at heart how can your sins be washed away I must I must ad admit that I'm not really so much into religion have you ever looked at a woman with lust oh like every day here look around every day I just did on the pier a couple times in fact have you had sex before
+
+[05:49] marriage yes so here's a quick summation of your court case on Judgment Day all right you've just told me you're a lying thieving Blasphemous fornicating adulterate heart so on that day will you be innocent or guilty to you're breaking God's Commandments I think God's going to give me a pass on certain ones but I cuz I'll be genuinely sorry about other ones but things like looking at a girl I think God's going to give me a pass cuz he wants me to procreate do you know what that's called tell me it's called idolatry it's making up a false god it's breaking the first and second commandments I
+
+[06:14] did it before I was a Christian I created a God that I prayed to that was congenial like a teddy bear that didn't have any sense of justice and truth and that's what we tend to do we say I think God is like this and we make a God to suit our sins okay and the Bible says idolators will not in at the kingdom of God so man if you die in your sins you're going to hell that breaks my heart I've just met you but I love you I don't want you to go to hell the Bible says all liars of their part in the Lake of Fire no Thief no blasphemer no adulter will inh here at God's kingdom what did God do for
+
+[06:42] guilty sinners like you and me so we wouldn't have to go to hell he died for their sins The Ten Commandments are called the moral law you and I broke the law Jesus Paid the fine that's why he said it is finished just before he died he was saying paid in full if you're in court and you've got speeding fines and you guilty a judge will let you go if someone pays those fines you say you're out of here someone's paid your fine and it's legal well God can legally take death off you and let you live forever as a free gift because Jesus Paid the fine on the cross then he rose from the dead and
+
+[07:12] defeated death and if you'll simply repent of your sins and you'll never do that while you think you're a good person but we've looked at sin and it's true light today that it's exceedingly sinful in God's eyes lust is adultery hatred is murder the Bible says and now you can find a place of sorrow for your sin because you've seen how serious it is and then you put your trust in Jesus like your trust a parachute and God promises and he cannot lie you'll Grant you everlasting life is a free gift not because you're good but because he's good and kind and Rich and mercy as a person I'm a realist
+
+[07:42] and I I look at life in the things that are happening today and we have to deal with it in our everyday life how old are you Jim over 65 I'm well over 65 myself and every day you wake up you should thank God that you're still alive because do you're going to die one day and the Bible says appointed a man once to die and after this the Judgment so you have to stand before God in judgment if you die in your sins you'll end up in hell that that breaks my heart I love you I don't want you to go to hell John the Baptist when he saw Jesus for the first time said this Behold the Lamb of God who
+
+[08:19] takes away the sin of the world what did Moses put on the door so that death would pass over during the Passover my field of study is really political science and econom have you heard of the Passover of course I heard of Passover I observe Passover Moses told the children of Israel to put the blood of the Lamb on the door so death would pass over and Jesus was the Lamb of God that God supplied so that his blood would wash us clean of our sins so death could pass over you we broke the Ten Commandments God's law Jesus Paid the fine on the cross he took our punishment he took our sins upon
+
+[08:53] himself so we could be forgiven and then he rose from the dead and defeated death and if you'll simply repent of your sins ask God to forgive you and put your trust in Jesus God promises you'll Grant you everlasting life as a free gift if you're going to jump out of a plane 10,000 ft why would you put on a parachute chances are I'm going to I'm going to die yeah and your motivation is fear and that fear is your friend not your enemy cuz it's making you put on a parachute and Terry because I love you I've tried to put the fear of God on you today I've tried to make you a little scared hoping
+
+[09:21] you'll see that fear is your friend not your enemy because it'll make you serious with the god that gave you life it'll cause you to confess and forsake your sins and Trust alone in Jesus and find everlasting life is this making sense yes you going to think about what we talked about absolutely when are you going to repent and put your trust in Jesus instead of your own goodness today today yeah are you sorry for your sins of course I'm sorry for my sins can I pray with you sure father I pray for Terry thank you for his open and honest heart today and I pray you'll Grant him genuine
+
+[09:50] repentance may he be sorry for his sins May understand your wrath against sin at the same time your love for him Illustrated in the cross that Christ died for us while we're yet sinners and this day may he be truly Born Again pass from Death to life all because of your Amazing Grace in Jesus name we pray amen amen do you have a Bible at home yes I do I'm going to give you a book I've written called scientific facts in the Bible it's been great to talk to you well thank you very much for crossing paths with me yeah I'm pleased with cross paths I believe it's a Divine encounter let me give you
+
+## Part 2 · 10:21
+
+[10:21] that book you're a man of science I wrote a book it's a bestseller called scientific facts in the Bible I'd like to give give you a copy you know I if I had the knowledge of religion maybe I could have made better comments well I've given you some knowledge today and that book will give you more knowledge too so thank you for listening to me thank you so much for everything so you are going to think about what we talked about of course okay I appreciate it thank you it's called scientific facts in the Bible great to meet you man all right you too Care thank you thanks to the generosity of our
+
+[10:52] Publishers we were able to get a massive print of scientific facts in the Bible so that you could get them for Less than a dollar each see details about the million dooll track and the book at livingwaters.com

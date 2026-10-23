@@ -1,0 +1,61 @@
+# Escape from Darkness, Part 3
+
+**Channel:** [[Answers in Genesis]] (`AIG`) · Chapter 572 of 1947 · Length 16m 01s · [[00 - Channel Summary]]
+**Video ID:** `UHDcFX4v79o`
+**URL:** https://www.youtube.com/watch?v=UHDcFX4v79o
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 08:05
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:09|Part 2 · 10:09]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] I lost you know nearly killed in Iran why a person should carry all this pain with himself I complain to God I was angry at him I know in my philosophy I know even though I had lost my Islam in you know till that time still I I was carrying that culture but you know I was doubting in Islam but I knew in My Philosophy God is mighty he can help me but he's ignoring me I was angry at him really I wanted him closer to me to punch him what is wrong with me talk to me what is wrong with you I'm so glad for the first time I was serious with God even though I was angry that opened the door for me I I
+
+[00:47] think I think we need to be serious with God as a simple person to be serious with it with him I love the stories of prophets they cry to God you know G IAH says I said to you don't send me he is serious with God that seriousness opened the door for me the following night I had a dream I was in my father's house a muddy Countryside house painful alone there there were earthquake everywhere violent wind fire houses destroyed people died I was terrified I called God please help me in that time a light appeared to me in the sky and said to me I am Jesus I will help you come out from your
+
+[01:38] father's house I went out from my father's house the house fell down I woke up I saw that was a dream I couldn't sleep any anymore I was painful especially to lose your father's house your father's house is destroyed that's not a good idea you ask God to to help you but he even destroyed your old house he says to you go and leave outside that was my interpretation but the amazing thing happened the following Sunday I went to the church a preacher was preaching there the title of his message was the house on the rock of Jesus in his message he said come out from your old house come out from
+
+[02:22] your father's house live in the house that Jesus has built for you on the rock your father's house is built on Sand if rain comes washes it and destroys it because it's the house of immorality it's the house of sin House of Pain come out and Release Yourself leaving the house that Jesus has built for you that's the house of absolute Joy absolute peace absolute freedom the kind of your listening describes the quality of your house if you listen to Jesus nothing is able to destroy your house but if you do not listen your house will be destroyed Jesus like Eagle soaring on the high he said
+
+[03:10] calling us come to me I will be build you I will establish you on a higher ground this is the ground of God Satan cannot reach there come out come out let him to release you do not ignore him I was amazed I said what is this man talking about I have seen this in my dream that day I became interested to read their books I said can I have a book they gave me the New Testament I had the New Testament with me on the way home always his words got repeated in my mind come out from your old house come out from your altar I knew what he was talking about he was talking about spiritual newness most
+
+[03:58] Muslims desire for that cry for that our great Parts cried for that this man I said to you molana roomi he said he cries to his God he complains to his God he said you have chained me and given the key to Satan and then you're asking me to release yourself he says I am a cut read people have cut me and put whole on the on that read made the flute he is speaking about flute they're blowing in me I'm always crying is there anyone come and take me and put me on my original route to give me life it was it was powerful that his words always got repeated in my mind come out from your altars this is
+
+[04:56] the message of the Lord Jesus Christ the to the world come out let you be released from the darkness you have from your heart unfortunately sometimes we Christian are still in that house we do not come out we keep some of those darknesses in our life but this is the absolute calling of Jesus for absolute purification come out from your old house I said I have to read this book this is amazing I started to read the gospel I was amazed I was amazed in all dimensions of my life that's why I have committed myself to him I'm not afraid I get death threat from Muslims your life is going to finish
+
+[05:42] very soon that doesn't bother me I was amazed because I'm amazed in all dimensions of my life philosophically spiritually doctrinally morally socially politically I am an amazed man polit sorry spiritually and philosophically I discovered that God is a personal God is a relational God because he is personal he's there to build relationship between you and he himself that really made sense to me for years I believe that gods are impersonal because all gods in all other religions in including Islam are impersonal God they cannot build relationship with their creatures that's why they left
+
+[06:38] everything for the life after when your good deeds outweigh your bad Deeds you will be saved I'm dying here they're living before for the life after I'm crying here I'm chained here Allah says don't worry if you die after that your good deeds outweigh your bad Deeds you might be able to go to Paradise or Hinduism if your good deeds after your bad Deeds you might be a rich American or if not possibly you become a worm God is a personal God here it made sense to me yes the creator of a personal being should be personal he touched me he hugged me he shaved me he breathed in me everything is just
+
+[07:29] describing the you know personality of God God must be personal if God is not personal by the way how he create impersonal Gods cannot create because you cannot attribute hands to them mouth ears eyes they do not reveal great new platonism says to you we even cannot say God is one or two or three or four why because he's imp person he cannot reveal himself and I'm saying to you imp personal God does not exist if man is going to describe the being of God without the revelation of God that God does not exist only personal God the one who reveals himself we can describe that God it just
+
+[08:20] perfectly made sense to me when Jesus said the kingdom of God is in you if God is not personal the kingdom of God cannot be in you I was amazed I was amazed doctrinally I say to your friends the doctrine of Jesus is amazing if we understand this Doctrine we shake the world we Amaze the world Jesus is forgotten in your universities his beautiful moral values examples his Doctrine is forgotten in his Doctrine says Paul says the Sin in the Bible comes from a man but in all other religions sins are coming from Gods gods are the creators of sin Allah has created sin Allah has inspired sin in
+
+[09:18] humankind congratulation you're asking me do not sin but you have inspired sin in me that doesn't make sense it's like this you say to your child go steal go kill and then you say why did you do that well you taught me you inspired in Me by the way doctrinally creating sin itself is a sin if you create sin you're sinner Islamic Doctrine is saying to me Allah is sinner but in the Bible says God cannot create sin he cannot touch sin why because he's holy Holiness doesn't have the essence of sin in itself in order to be able to create sin that's why God says I cannot touch sin I love you but
+
+## Part 2 · 10:09
+
+[10:09] don't touch me you have to first let me to purify you and then I touch you I was amazed this is so simple friends I asked from many Muslims that I led them to Christ I just simply said to them I have got two Gods two kinds of God one creates sin the other one does not create sin which one do you like all of them said the one doesn't create sin and then they realize the one who creates sin is their God and the one who is Holy is my God again Jesus says doctrinally come home first search the kingdom first then everything will be given to you this is the powerful philosophy powerful Doctrine if
+
+[10:59] you're not in the Kingdom of Peace if if you're not in the Kingdom of righteousness if you're not in the Kingdom of Freedom you cannot speak about them at all because you haven't tasted that you cannot say I'm a peacemaker if you're not in the Kingdom of Peace that's why Jesus is saying to you come home first search the kingdom first then everything will be given to you that's not the case in other religions they are in the Kingdom of Satan they do not not know where they are they do not know they they they know that they are not with their own God but they try to be good it's impossible if
+
+[11:39] you're not in the kingdom of God you're in the Kingdom of Satan there are two kingdoms in the world if you're in the Kingdom of Satan he does not believe in doing good in being good Jesus says you have to first discover your identity Paul says you have to have the citizenship of Heaven Heaven first and then call yourself the child of heaven and to be a peacemaker to other people to be able to teach about Freedom teach about salvation if you're not with God by the way you cannot know God you're not able to know God if you haven't seen him if he has not revealed himself to you how you are able
+
+[12:22] to know him and to speak about him and the second question is this where is this Coran coming from if God has not revealed himself to you you're saying that I'm the messenger of Allah but he is impersonal he does not reveal himself how can I trust you this is amazing things that we can learn and shake the world two years ago two Jah Witnesses came to my home this time I was I had a little bit freedom I open the door one of them said to me sir we you speak about go God are you interested I said I'm so much interested but I have to test you first whether or not you can speak about God he was
+
+[13:11] shocked wow this face is going to test me I was hoping to win him he said oh you're going to test us I said yes I have no choice but to do that he said to me all right test me I said simply simple question are you saved he said no what about your friend they were two I don't I don't think so he said I said well this is going to make our discussion harder I going to ask you some question and you will not you will not be able to respond because you're not saved sir I think you can help me you can go to your temple send someone who is saved I'm so eager to talk that that to that person he said
+
+[13:56] to me we do not have such a person in our Temple I said are you serious I knew he I knew he was serious but I just wanted to challenge him are you serious he said yeah we do not have I said you cannot talk about God sir you're not saved sir in other words God has not revealed himself to you he is not sitting on the throne of your heart sir he's not closer to you sir because he's not closer to you you're not sensing him then you do not know him sir now my question is this if you do not know someone how you're able to speak about him he was amazed he was just looking at my faith I said come in
+
+[14:39] we are going to have wonderful discussion with each other by the way they didn't come in I begged them really I said in a minute ago you said you're interested please come in I care for you're my fellow citizen they didn't come in this is it you have to become Jesus said come home first know your father know your Creator and then go as Ambassador as Paul says we are the ambassador of God why because we have seen him he has revealed himself to us I was amazed of course if you're amazed spiritually doctrinally philosophically you'll be amazed in other aspect of life too wow I can't love my wife
+
+[15:32] now as a Muslim committed Muslim you do not love your wife your wife is a mute animal well possibly you American do not understand that you love your animals but Jesus is saying to me he's she's just like you in my eyes the same hand the

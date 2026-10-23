@@ -1,0 +1,67 @@
+# What Keeps Muslims From Accepting JESUS (Ex Muslim Explains) | POWERFUL!
+
+**Channel:** [[Daily Dose Of Wisdom]] (`DDOW`) · Chapter 846 of 916 · Length 15m 14s · [[00 - Channel Summary]]
+**Video ID:** `a13u3jwrLlk`
+**URL:** https://www.youtube.com/watch?v=a13u3jwrLlk
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 20:02
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:15|Part 2 · 10:15]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] chap 5: 72 of the Quran makes it very clear if you believe Jesus Is God you are going to hell chapter 5:
+
+[00:41] 72 of the Quran is classified as the only unforgivable sin shik believing someone other than Allah is God and the example that's given there is Jesus so if I'm wrong about this I'm going to hell forever that didn't quite bother me as much as the other two though the next one was Muslims if they leave their Islamic faith even here in the United States they are often killed for it now around the world definitely all four schools of Sunni thought believe in the law of apostasy Sunni being one of the major divisions of Islam all three schools of Shia thought believe in the law of apostasy under
+
+[00:46] certain circumstances you can be killed for leaving your faith but even here that very year 2004 a family in New Jersey was stabbed to death because they accepted Christ and left Islam but the Bigg issue for me was that if I as the only son in my family accepted Christ my family would feel like I had stabbed them in the heart I mean my mom and my dad who loved me so much who cared for me who raised me who gave up everything for me would feel like I was attacking them you have to understand Islam for Muslims is more than just a set of beliefs it's their identity and our parents were not just
+
+[01:29] just followers of Islam they they lived Islam Islam was their life as it was mine and to leave it would be like betrayal I didn't realize this this wasn't something I was consciously thinking I just looked at the evidence and I said oh I'm not convinced but the thing that was keeping me from being convinced was the cost that I would have to pay subconsciously and so I began to pray and I prayed fervently and I prayed to God I said God I have come to a point where I realize that I cannot figure out who you are you have to tell me who you are and if you will tell me to be a Christian and to
+
+[02:04] follow Jesus I will follow you and if you tell me to stay a Muslim I will follow you just give me a vision give me a dream give me something so that I know you're telling me what's the truth and he did he gave me a vision and he gave me three dreams over the course of a few months and I can't go into the details today because you guys got in for free right if you paid I'd give you details really quick on this point I want to just let you guys know that I'm going to kind of unpack what he's saying here about the visions and the dreams in the back end because I can kind of just anticipate the
+
+[02:43] skepticism as I'm hearing him say this so I'm going to provide actually a little bit of data to talk about what's going on specifically within Islam in the Middle East uh around this subject so I'll let him continue and then we'll hit that on the back end I can't give you details today but I will tell tell you this through the vision and through the dreams I realized that I had been given an invitation into heaven and the only way I could accept that in the only way I could get into heaven is if I accepted that invitation the gospel message and that's the only way I would be saved otherwise I
+
+[03:16] would be lost God made this abundantly clear to me through dreams and Visions as he does with many Muslims around the world by the way and it was at that point that I was able to get away from the argument get away from the the the debates and all that and just really focus on the message I couldn't hear the gospel message before this point I it it just did not make sense to me but at this point when I realized how much was at stake and God was showing me things and I had evidence and I had spiritual guidance now I heard the message and the Christian message is this we have separated
+
+[03:50] ourselves from God our loving father through our sins now as a that didn't make any sense to me because as a Muslim I believe that if you do bad Deeds you can just do good deeds and you'll kind of cover them up it'll be it'll be taken care of you know if you if you run through one red light stop at the next one twice you know you'll be okay you know just it's all you know at the end just do more good than bad and you'll be fine but what I realized when I really listened to the Christian message and understood it I realized that sin is not like that at all in fact what what makes sin so
+
+[04:26] devastating is that God is Holy what does holy mean holy means set apart it means god is above is beyond he's set apart from everything and who is God God is life God is love God is goodness God is Joy God is hope God is peace God is purpose and if I sin what I am doing is I am intentionally removing myself from all of that I'm removing myself from life from Love from Joy from Hope from peace from purpose I am taking myself away from the source of all goodness when I sin I am destroying my soul because sin is devastating it's not just I can do more good things than bad no I'm supposed to do
+
+[05:10] good anyway the sin destroys you I heard that message and I grasped it and then I realized wait a minute how can I are you telling me that I have separated myself from God how can I bring myself back I can't I can not bring myself back but God knows that and God knew that from the creation of the world and he loves us so much that he is willing to take my sins these are the things that I did against him these are the things that I did to him telling him I wasn't going to follow him these are the things where I put my desires above my Creator's desires he's willing to take those very things
+
+[05:54] upon himself because he loves us that much this doesn't make any sense to the Muslim mind it took me a long long time to grasp it it made no sense because I couldn't Envision God leaving his throne God is up there in heaven somewhere being worshiped By Angels surrounded by light and love and and Bliss and that's where God is why in the world would he come here he never would come here he's too Majestic for that but the Christian message tells us that God did not consider his majesty something to grasp something to hold on to this is Philippians 2 he did not consider his place his status
+
+[06:33] greater than his love for us are you telling me that the one who created the expanse of the universe you guys live in Colorado you can look up in the sky you can see the stars bright as day at night time and they're gorgeous and there are billions of stars out there you're telling me that the God who made and placed every single one of those in the sky who knows know exactly how long they're going to be there exactly how long they have been there exactly how bright their light is exactly how hot they burn the God who knows all of those every single star ever made from the beginning of the
+
+[07:11] universe till the end he knows all of them he placed them there as easily as by thinking about it that God knew me and created me exactly the way he made me for a reason and he knew that I would rebel against him and yet he entered into this world into this dirty filthy sinful World why that kind of love makes no sense and and then when he came did he come as a king did he come as a prince did he come with all kinds of riches no he came and was born to two kids in a manger and grew up as a carpenter working with his hands serving other people living and becoming friends with fishermen people
+
+[07:53] who couldn't even make it through school and those people who he poured himself into turned around and betrayed him one of them with a kiss so that he would have to go to his death and what kind of death you're telling me that our God was willing to suffer death on a cross what is death on a cross is that bad yeah they had invented the most humiliating painful way to kill someone at exactly the moment in history where God says yes that death is still worth it when they whip you before putting you on the cross they had determined exactly how to do it so that medically you would be in your most
+
+[08:42] vulnerable state they took a tail a cat of Ninetails is what it was called a Roman Whip and they put little leather dumb leather balls at the end of them and they'd put metal dumbbells in shards of bone on these leather balls so that when they hit your skin the the metal dumbbells would cause your blood vessels to vasodilate Bringing more blood to the surface of your skin so that when the bones would latch into your skin and rip your skin off you would bleed profusely and you'd lose all energy and they do that across your entire body so that by the time you get to the Cross you have no energy
+
+[09:20] left when they drive nails through your nerves and destroy your hands and your feet and every time you have to breathe one of your last rattling breaths on the cross you have to scrape a back that is devoid of skin up and down splintered wood for each breath God did that he loves us that much it's incomprehensible but we know it's true we know it's true the resurrection happened Jesus claimed to be God then he died on the cross and he proved it by rising from the dead God died on the cross that God who made the universe suffered that death because he loves us that much that is the Christian
+
+## Part 2 · 10:15
+
+[10:15] message that is worth believing now if you ask me naal you had a perfect life you had a family that loves you you had you had you were becoming a doctor you had you had a good place in society everything was great for you was it worth it abs absolutely it was worth it I would do it a hundred times over again today my my mom and dad didn't come to my wedding every single time I see a video of a son dancing with his mother at his wedding I have to think that it was worth it every time I see parents lovingly hug their children and say we're proud of you I have to think it was worth it because it
+
+[10:57] was worth it it and if I have to die the same kind of death that Christ died in order to Proclaim this message of Hope to other people who are here that would be the greatest honor I could ever have what makes this even more profound is that nibel did die young and he died um gloriously without ever um rejecting Christ without rejecting this message he died uh physically painful but joyfully ready to embrace the eternity before him and I'm fully confident that he is with Jesus now in a far happier place and and a far more joyful place than any of us currently are this video is heavy this
+
+[11:45] video contains um it contains a truth about God that I think is often overlooked which is the connection between the majesty and the infiniteness of the creator but then the the intimate nature that God has in the sense that he comes low and Embraces death on a cross and offers himself for each and every person it does Boggle the mind it does I totally understand the Muslim sentiment that God couldn't do that shouldn't do that couldn't possibly be be willing to do that but there is such a power within the notion that the creator of all things and the perfect holy God is also willing to get
+
+[12:38] his hands dirty to enter into our mess to solve our biggest problem to contend against the problem of evil and to provide to us through his death and his resurrection the mechanism by which Humanity can have eternal life and eternal Joy through connection with him not just righteousness for righteousness sake but righteousness provided to us for the sake of knowing him for becoming suitable creatures for the relationship with our creator that he apparently desires enough to be willing to do all of this for so why why would we why do we resist the greatest Grace why do we resist the greatest
+
+[13:24] joy set before us when he embra rced the greatest hell for the joy set before him I I will not I will I will forever um struggle to understand the extent of the Rebellion within the human heart against a God so loving and So Glorious but if you're if you're listening to this video today and some aspect of this great glorious God and what he's done for you is uh is reaching you if the truth of this is reaching your heart I just want to say take action on it don't just be a hearer of the word give your life to God Embrace Christ he who has the son has life he who does not have the son does not
+
+[14:13] have life uh it's it's so clear in scripture like Open up The Gospel according to John read it read the whole thing today I dare you life is so short don't waste another day Life Is Life is is a Vapor Rising it's the blink of an eye it's so short but the decisions that we make as it relates to this glorious cross and the Christ who is slain for us ring out throughout eternity they have eternal implications so so choose this day whom you will serve and know that Abundant Life is found in Christ I can say for myself I once was lost but now I'm found I once was dead but now I've been made alive
+
+[14:56] I once was blind but now I see the time is late the king is coming choose this day whom you will serve [Music]

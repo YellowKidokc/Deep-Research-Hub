@@ -1,0 +1,63 @@
+# Brazil Banned X. Is America Next?
+
+**Channel:** [[Mike Benz]] (`MB`) · Chapter 55 of 690 · Length 12m 23s · [[00 - Channel Summary]]
+**Video ID:** `0rSaNfJHvSo`
+**URL:** https://www.youtube.com/watch?v=0rSaNfJHvSo
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 03:08
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:27|Part 2 · 10:27]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] the sort of the you know reup efforts on the Constitution the Russian disinformation narrative resurging all of these narratives converging like I I ended last block I don't think it votes well for the election what are your thoughts well starting with the amending the Constitution push that we're seeing in the New York Times in Politico from The deans of law school I think it's very important for people to keep in mind when they see this that this is all the transition Integrity project blueprint from 2020 being reup now in case they need it at for 2024 so in 2020 there was this group called
+
+[00:36] The Transition Integrity project was headed by Rosa Brooks who was a senior White House official for the Obama Administration with a CIA blue badge who ran this uh her and her group the transition Integrity project ran this tabletop uh simulation for how to stop a trump coup was nominally what they did they basically said listen we're a bunch of military intelligence political statecraft people whose jobs in the past have been overthrowing foreign countries when they have authoritarian dictators who are holding on to power so we need to be able to create the same sort of mechanism here at
+
+[01:13] home in case Trump loses the election and refuses to leave office that's what they said but if you look at the simulations they actually ran they ran for simulations but simulation three was called clear Trump win how can we still run Trump out of office even if he wins fairen Square in the Electoral College and what they what they tablet topped with John podesta no less Hillary Clinton's campaign manager and now the climate are in charge of nearly $400 billion dollar of of of White House funds uh is is they ran this simulation called the clear Trump win which in which involved invoking a
+
+[01:53] breakdown on January 6 to prevent Donald Trump's certification they ran this in June 2020 so 5 months before before election day and 7 months before January 6 2021 they ran a crisis Simulator for how they could get their assets including in left-wing Street muscle paramilitary groups like black lives matter and antifa to take to the streets and to be receptive to a Biden call to take to the streets to shut down the country to basically terrorize uh the the country to even have States uh threatened to secede from the union they in the tabletop exercise they even created this this uh sort of
+
+[02:33] breakaway American region called Cascadia which involved California Oregon and Washington State seceding a uh unless Donald Trump was prevented from taking the O the oath of office and certain structural reforms are made such as determining elections by a popular vote instead of the Electoral College and part of the Lynch pin of that is they was to invoke a constitutional crisis that the Electoral College was no longer Val valid under what the Constitution should be and so the winner should be the popular vote so if it so happened Trump won the Electoral College they would still be able to
+
+[03:07] run him out of office color Revolution style and simply say well whoever won the popular vote should really be the president if you want the destabilization and destruction of our country to end so what you're seeing right now is essentially this kind of academic journalistic predicate being laid months before the election to be able to give gravitas to be able to give institutional support to this technique should they need to use it and we know that they are already considering running back that Playbook because Rosa Brooks and her group just a month ago published in the guardian that they
+
+[03:42] ran a similar tabletop exercise in 2024 and the Lynch pin it are public protests and destabilization so I don't see any of this as an accident not not one bit what they're doing is they are laying a predicate for extra constitutional action should they decide they need to use it an overhaul that's a euphemism if I've ever heard one I think another fake distinction that we see like you pointed out in your wonderful wonderful interview with Tucker um is the distinction between America's foreign policy and domestic policy right there there really is none and when you look overseas what's
+
+[04:17] happening not even in the case of France and the telegram arrests but now Brazil and the sort of X back and forth and frankly the lack of United States explicit involvement in terms of issuing statements which to me means they're you know tacitly involved on the underhanded side of things can you kind of walk the audience through where we stand on I guess both those situations but what that means the implications for censorship here at home yeah if you recall two years ago the United States United States passed sanctions on Iran for censoring their own people in 2017 the state department
+
+[04:52] passed sanctions on North Korea for censoring their own people this is a common trick that we did we did this in bellus uh but you know people need to understand that free speech is an instrument of us statecraft but now after 2016 when the technology and institutional swell uh shored up into the censorship apparatus censorship became an instrument of statecraft and all around the world in 140 countries now the US state department has its tentacles into other Count's own censorship activities in order to strategically censor Rising political opposition who might rise to power and oppose the
+
+[05:31] state Department's agenda there and what they're doing in in Brazil against X is the culmination of six years of State Department activity in the region when I say State Department I mean the state department us Aid uh and about a thousand USF funded government organized non-governmental organizations essentially CIA cutouts and state department grantees who all swarmed into the region in order to influence Brazil's own internal speech laws and speech edicts through their censorship Court the tsse in order to prevent any pro bolsonaro sentiment from being shared by and among the Brazilian
+
+[06:08] people so it started really in 2018 when bolsonaro was running the state department had already basically gotten Facebook YouTube and Twitter under control in terms of censoring bolsonaro this is the reason that most of gab's first user base regionally came from Brazil it's because they were already censored by the US censorship apparatus who deemed them to be far right and so we're all we're kicking them off of social media for hate speech and and the like for supporting bolsonaro so then this uh these these Pro bolsonaro supporters in Brazil started flocking to WhatsApp and telegram so the
+
+[06:44] state department leaned on Facebook and that brought WhatsApp to heal WhatsApp folded to Brazil's censorship requirements within two and a half days uh it took telegram about 2 and a half years uh of holding out before telegram was actually banned in Brazil for about 48 hours there was a full it was illegal to access Telegram in Brazil in 2022 uh until they agreed to certain misinformation reforms that would prevent anyone from who supported bolsonaro from being able to have a popular telegram Channel and so they brought telegram to heel in 2022 uh but then a funny thing happened one of their
+
+[07:23] little pawns Twitter 1.0 was acquired by Elon Musk which said about this heart attack of in the state department that they were now going to all the hard work all the effort they had poured the all the millions of dollars they had poured into into targeting bolsonaro supporters on all these different us platforms and non- US platforms like telegram uh was all coming undone because X was is you know the largest incubator of political thought it it's got long form video too so it's basically in everything app and X was completely free from censorship in Brazil so they crack down and what we're
+
+[08:02] seeing right now is a coordinated effort and the way I describe it is Brazil like the United States has a sprawling spiderweb of censorship institutions you have the censorship uh Court the tsse you have the Brazilian Supreme Court the stf which oversees that you have these advisory committees these external stakeholder groups on disinformation you have legal scholarship on disinformation there you have these University centers dedicated disinformation there you have these journalism Outlets with disinformation Beats there you have these fact cheer networks with disinformation Beats there you
+
+[08:35] have these activists calling for this you have this totally astroturfed US government funded censorship spiderweb within Brazil that provides the political support for demores the you know this Tyrant who's making these decrees to have the political capacity to do what he's currently doing but that spiderweb comes from the United States so when you see this Brazilian spider sinking its you know its fangs into the fly of a US platform those those are Star Spangled fangs that is the US state department and US Aid and the National Endowment for democracy and a thousand US government funded
+
+[09:15] institutions coming from truck D our it's our members of Congress too and I know that you've been hammering them Time After Time on Twitter but you've been saying fly me into DC let me brief you guys they're willing to put out tweets talking a tough game when it comes to you know defending X in Brazil but then why are they still funding all these entities that are propping up this censorship spider that that you're alluding to what does Congress need to do to actually move the needle on this issue and not just put out another damn strongly worded letter well there's any one of five
+
+[09:49] congressional committees which can get the ball rolling for momentum against this house Foreign Affairs house intelligence house weaponization house oversight and House Appropriations you know part of the issue is house Foreign Affairs has been a complete Black boox for protecting Americans against censorship I mean think about this Natalie a month ago the head of the EU commission for enforcement of the Digital Services act threatened Elon Musk with arrest and practically forbade him from talking to the current Presidential nominee of the Republican party as well as the former US president
+
+## Part 2 · 10:27
+
+[10:27] and the Republican control house Foreign Affairs committee said I ain't looking not a single reaction not a single statement not a single hearing not a single subena to the US ambassador to the EU not a single demand for all Communications with the EU between the EU and the US state department ambassador to the EU none of it so the the house Foreign Affairs committee has either been in a coma for 6 years now or they're captured now now hopefully that can start to change over the course of the coming weeks as pressure I think is is being applied to have them actually wake up from this remember
+
+[11:07] it took about four or five years for house the house representatives in Congress to take on the censorship issue the fact is in 2017 and 2018 when there was a republican controlled Congress all of this censorship infrastructure was being laid down I was screaming about it even then at the top of my lungs but republicans in Congress were holding hearings about how Russia may have interfered on Facebook and they should actually do more to censor so now that has started to change as we've had I think excellent uh interrogations into the censorship industry by folks like Jim Jordan at
+
+[11:41] weaponization and oversight from James comr and Dan Bishop from the house homel security committee but the fact is is they that the state department the global blob is not really their perview it could be but the fact is is they already have their hands full taking on weaponization of the justice department Department the FBI DHS and so many of these Rogue agencies the house Foreign Affairs committee has one job you oversee and hold to account the US state department us a Ned and all these other soft power institutions who do democracy promotion programs well guess what censorship is now part
+
+[12:18] of the toolkit of democracy promotion

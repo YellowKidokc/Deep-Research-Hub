@@ -1,0 +1,67 @@
+# He Asked This Crazy Question
+
+**Channel:** [[Living Waters]] (`LW`) · Chapter 705 of 2497 · Length 11m 42s · [[00 - Channel Summary]]
+**Video ID:** `oH9Clq6qcMw`
+**URL:** https://www.youtube.com/watch?v=oH9Clq6qcMw
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 03:22
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:25|Part 2 · 10:25]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] [music] [music] >> Have you done anything in your life that you really deeply regret? >> Oh, I'm Catholic and I keep asking my mom and my [music] grandma and other Catholics and other Christians, they can't really seem to answer the question. >> Explain this one. The Bible says in the book of Job the earth hangs upon nothing. So, you said you've been starting to watch our channel. >> Yeah, I checked it out. >> You did? >> the video where your sign got kicked. >> Well, that's different than what you said earlier. >> You're not allowed on campus, by the way.
+
+[00:38] >> We know that when bad things happen to Christians, God works everything out for their good. Think about it. This guy so hates me, he kicks my sign really hard while two cameras were rolling. We put it on YouTube and him doing that exploded that video to well over 100,000 views and took the gospel with it. Then a student who didn't know the Lord watched the video of the sign getting kicked, saw it as a sign from God, and came back to me to ask how to get saved. Reading the Bible, you've read the whole Gospel of John. What did you think of Jesus? >> That he's um the truth. >> Pull it up.
+
+[01:13] Okay, what does it say? >> In the beginning was the word and the word was with God and the word was God. He was with God in the beginning. >> Why did he become a human being? >> Like to teach others about God. >> Well, he came to die. >> Yeah. >> He came to suffer for our sins. Do you realize you're a sinner? When you going to repent and trust in Jesus? >> Now. >> Now, are you sorry for your sins? >> Yes. >> Can I pray with you? >> Sure. >> Okay. Now, this prayer is not going to save you. I'm just going to pray that God helps you. Father, I pray for Young Ko.
+
+[01:48] I I thank you you've led him to me today. I pray this day may pass from death to life. In Jesus' name we pray. Amen. >> Amen. >> Oh, I'm Catholic and I keep asking my mom and my grandma and other Catholics and other Christians. They can't really seem to answer the question of what is the significance of like Patrick, Saint Patrick, or the significance of Saint Valentine? I don't read the Bible, but I wish to. >> The Catholic Church has got a lot of traditions and they have what's called saints. They exalt people after they die to sainthood.
+
+[02:23] Um the moment you become a Christian, the Bible says you become a saint. You don't have to die and be dead for 300 years for the Pope to make you a saint. The second you confess and forsake your sins and trust in Jesus, you'll be born again and you'll become a saint in God's eyes. >> [music] >> If you don't believe that, read the book of Colossians in the Bible or Ephesians. It begins with to the saints that are Ephesus, to the saints that are Colossae. Now, you said you're a Christian. You're trusting in Jesus, but there's a lot of fear.
+
+[02:56] If I gave you a parachute that would save you from a jump, 10,000 ft jump, and you trusted that parachute, would you be fearful? >> Yes. >> Yeah. >> No, you wouldn't. If you totally trust the parachute, you'll have no fear. >> Yeah. >> If you half trust the parachute, you'll have fear. If you don't trust the parachute, you're going to be terrified. The Bible says put on the Lord Jesus Christ, trust in him. If you've got fear, it means you don't totally trust him. So, when you get before God and confess your sins, confess the sin of unbelief. Say, "God, I didn't I haven't been trusting you.
+
+[03:26] I thought you were deceitful. You weren't trustworthy." You say to your boss, "I don't trust you." You're going to be out of a job. You say to your spouse, "I don't trust you." Your marriage is going to fall in pieces. So, trust is the essence of any relationship. If you trust a friend, you've got a good friendship. Make sure you totally trust God and don't have unbelief in your heart. And unbelief is exposed by fear. >> Have you done anything in your life that you really deeply regret? >> Yeah, lots of things. >> Is there one that sticks out to you the most?
+
+[04:00] >> Boy, that's a heavy question to ask. >> Sorry. >> There are secret sins that nobody knows about. >> Mhm. >> Every secret sin's been forgiven in an instant. The Bible says God will remove our sins as far as the east is from the west. Do you know how far that is? It's an infinite distance. You can find north, the north pole, you can find the south, but you'll never find east or west. It's infinite. >> Mhm. >> And that's how far God will remove your sins. The Bible says there's no condemnation to those that are in Christ.
+
+[04:33] So, if you're in Jesus, you're trusting in him, you're clean in God's sight. And on judgement day, you'll be free from his anger. >> Oh. How do you recognize God's love like in your everyday life? >> Well, I could say God showered his kindness on you by giving you a blue sky, lungs that work, eyes that see, ears that hear, >> Mhm. >> good music, friends, family, food, fellowship, freedom of this country, but you could get cancer tonight and all that goes down the drain. >> Mhm. >> Cuz you think God doesn't love me because of terrible things happen to me. There is one way to know God loves you.
+
+[05:03] There's a Bible verse that says God commanded his love toward us or demonstrated his love toward us. >> Mhm. >> Do you know how he did that? >> By dying on the cross. >> By dying on the cross. >> [snorts] >> So, if you always look to the cross as evidence of God's love, it doesn't matter if you're in the lion's den or you're going through the Red Sea or you're having a great time, you can rejoice in his love. >> Mhm. >> Does that make sense? >> It does. >> I mean, explain this one. The Bible says in the book of Job the earth hangs upon nothing.
+
+[05:36] Science at that time thought the earth sat on the back of three gigantic tortoises. That's what scientists thought cuz it's got to sit on something. It's too heavy to hang on nothing. >> Yeah, and then they also believed that we were the the of the universe instead of the sun. >> Yeah, and the Bible says the opposite, doesn't say that. So, be careful what you read about the Bible online because there's a lot of lies out there. The Bible's the world's most loved and the world's most hated book because of what it says. It accuses us of sin and that's not a good feeling for sin-loving sinners.
+
+[06:02] Do you trust your own judgments? >> For the most part. >> Spell the word shop. >> S H O P >> What do you do when you come to a green light? >> Stop. >> Green light. >> Oh, go. >> Yeah. So, never trust your heart. That's the wisdom of the Bible. It says, "He who trusts his heart is a fool." So, don't trust your own heart. Don't trust your judgment. Scripture warns, "There is a way that seems right to man, but the end of that way is death." >> Yeah. >> And so, you need to get before God and say, "I need to know truth. I need you to lead me and guide me." Because God's the lover of your soul.
+
+[06:30] He knows how many hairs are on your head. He knows every thought of your heart. Nothing is hid from his eyes. And you need his mercy. >> Mhm. >> More than you need the air you breathe. >> Does your soul go somewhere? >> Yeah, it does. >> Like as a final resting place and where would it be? >> It's not a final resting place. This rest in peace is just not true. You know, someone dies, we say rest in peace. >> Yeah. >> No, no. There's going to be a resurrection. And if you're in Christ, you're resurrected in peace. >> Oh.
+
+[06:58] >> But if you're not in Christ, you're still in your sins, you're resurrected in wrath. And you're talking about the soul, that's the life within our body. >> Right. >> Everyone has a soul. We have a life. >> Yeah. >> When we die, that life leaves and we have to stand before God and give an account of everything we've done. Jesus said every idle word we speak will give an account of on the day of judgment. >> So, now I'm kind of lost and confused like, all right, how do I know if this is a good sin or bad sin? Like, >> There's no such a thing as good sin.
+
+[07:25] Like, good murder, good adultery, good lying, good stealing. Sin is evil and sin causes death. >> So, how do we know like when cuz you said it's up to our conscience. >> You've got to have a tender conscience that's sensitive to the Holy Spirit. If you're a Christian, you've got to walk with the Lord and your conscience will be very, very tender and you'll know when you're sinning. You know when you lie or steal or fornicate or blaspheme. >> When reading the Bible, what parts have been tampered with? >> Well, no parts have been tampered with. That's dealt with straight away.
+
+[07:49] The Bible says, "All scripture is given by inspiration of God and is profitable for correction, for instruction of righteousness in righteousness." So, God's preserved his word. It hasn't changed. Don't you believe the lies on the internet. >> This has been on my mind for a while. I actually I've been I'm someone who's tried to become Christian. >> When you say "tried to become a Christian," what do you mean? >> With me when it comes to mental health, I reached like really down. And >> What do you mean mental health? Did you get depressed? >> Yeah. >> That's not mental health.
+
+[08:21] Let me tell you why. Life is depressing. We're all going to die. Every one of us Every time you look around you, there's pain and suffering and disease and death. If you If you get depressed, you're not mental. You're intelligent. That means you think about life and the issues that matter. Steven, you're not mental. You're an intelligent person thinking about life and death. Does that make sense? >> Yeah, I get it. >> If you died today, where would you go? >> No doubt I would not go to heaven. >> So, you'd go to hell. >> Mhm. >> So, you You've done things that are morally wrong.
+
+[08:49] >> I lost my chastity. >> You need to repent and trust in Jesus. >> Mhm. >> When are you going to do that? >> I really need to start now. >> Are you sorry for your sins? >> Very. >> Well, why don't you repent now? Just say, "God, I'm sorry." Within your heart. And I'll pray with you. Is that all right? >> Yeah. >> Adam did die that very day, spiritually. The moment he sinned, he was separated from God, the source of all life. His relationship with his creator was broken and the process of physical death began.
+
+[09:31] Although Adam lived physically for many years afterward, spiritual death was immediate. That's why the Bible describes unbelievers as being dead in trespasses and sins. And why Jesus said we must be born again. In Christ, we pass from spiritual death into everlasting life. This is what I give to people [music] when I want to get them on camera. I say, "Would you like to do an interview on YouTube?" And it immediately makes them smile. And on the back, it's got a quick response [music] code where they can run their camera over it and take them directly to the site.
+
+[09:57] And then it says, "Hidden message, take pic, enlarge." So they can take a picture of this gospel presentation. If you're like me and you're a little nervous to give tracts with the gospel on it, and you want getaway time, this is perfect. You can say to a stranger, "Excuse me, do you like dogs?" And immediately give them the tract. They'll see the dog with the sunglasses. It'll make them smile and [music] say it's a YouTube channel. It's free. So you can get these cards at livingwaters.com.
+
+## Part 2 · 10:25
+
+[10:25] When I go into a men's wear store for the first [music] time, I really appreciate it when an attendant says, "If you're looking for jackets, our most popular items are on that rack over there, and they're on special at the moment. So, welcome to our store. Here are some of our most popular tracts, and they're on [music] special at the moment." We call this the starter kit. It's made up of 100 of each tract and 50 [music] 10 Commandments coins. These coins are really easy to give out. Just begin with a warm good morning, and then say something like, "I've got a gift for you.
+
+[10:51] It's a coin with the 10 Commandments on one side >> [music] >> and the gospel on the other." I've even tossed a handful of these on the sidewalk among teenagers as I rode by, and you should have seen them fight to get one. This is the good person test in comic form. Who can resist reading a comic? Then there's 101 of the world's funniest one-liners, and these really are funny. Just say, >> [music] >> "This will lift your day. It's 101 of the world's funniest one-liners, and of course, it contains the gospel." And finally, our super popular million-dollar bill.
+
+[11:25] Just say, "Did you get your million?" People love these. Or you could just put it down somewhere, it's sure to get picked up. These 300 tracts and 50 coins would normally cost $38, but they're on special [music] in the starter kit for just $29. Go to livingwaters.com, click on the store, and then tracts.

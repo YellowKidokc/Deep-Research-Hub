@@ -1,0 +1,50 @@
+# Shared My Faith With an Atheist. It Didn't Go Well.
+
+**Channel:** [[Living Waters]] (`LW`) · Chapter 1772 of 2497 · Length 8m 46s · [[00 - Channel Summary]]
+**Video ID:** `_4-m9DfNXio`
+**URL:** https://www.youtube.com/watch?v=_4-m9DfNXio
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 03:58
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] but i care about you you don't know me you're twisting the story a little bit and i'm starting to get a little uncomfortable [Music] do you think there's an afterlife i don't so you've got no hope in your death if you put it that way no i don't i think when you die you die so what do you tell your kids when they say to you mommy i don't want to die i tell them to eat their vegetables stay healthy until you die exactly do you give any credence to the bible particularly the book of genesis which says in the beginning god created the heavens and the earth i believe in evolution i don't believe
+
+[00:32] in the bible have you ever read the bible as the world's biggest selling book of all time not cover to cover but i was raised in a very fundamentalist southern missionary baptist very conservative household so i'm by no means an expert but i am familiar with the bible so you're familiar with the famous bible verse the wages of sin is death yes did you know that death is wages that god pays you did you know that i know that that's what some people believe um i don't believe that's how the world works well we're all gonna die i agree but i don't think it's it's god right it's science it's
+
+[01:05] stupidity my 13 year old was asking if he could do a flip off of the pier and i said no because i don't want you to die if i allowed him it'd be my stupidity that caused his death not his wages of sin and god imposing death on him but he's going to die anyway he can die healthy could die next week next month or next year or when he's 83 but he's gonna die it's like a judge in a court of law who says to a criminal who's committed serious crimes we're paying you in the death sentence we have murdered three young ladies this is your wages this is what you've earned this is what you deserve are
+
+[01:40] you morally a good person i think so yes so what standard do you judge by as an evolutionist i think if it's something that you wouldn't want someone to do to you or your children or your family so you're quoting jesus no he said do to others who should have them do you the golden rule i don't know that that attributes back to jesus no one knows that jesus wasn't the originator of that quote how do you know that uh i don't but how do you know that it was it's written in the sermon on the mouth or he said that's a book of fiction right no one knows that's a massive statement that means that
+
+[02:15] you know what people know and what they don't know eight billion people on the earth all you can say is as far as i know no one knows but i can't say no one knows so let's let's see if you're a good person how many lies have you told in your life oh i don't i don't know quite a few of course everyone has have you ever stolen something even if it's small irrespective of its value in your whole life yes what do you call someone who steals a thief so what are you i have stolen in my life i don't think that i'm a thief have you ever used god's name in vain sure would you use your mother's name as
+
+[02:48] a cuss word no why not because it's it's not a nice thing to do it's a horrible thing to do it's dishonoring her using her name in place of a filthy beginning with s but that's what you've done with the name of the god that gave you your children and gave you life and eyesight and hearing and all the blessings of this life it's called blasphemy brandy and it's so so serious in god's eyes it's punishable by death in the old testament appreciate your patience for me and your honesty jesus said if you look with lust this is in the sermon on the mount you commit adultery in your heart have you
+
+[03:19] ever looked with lust yeah sure everyone has randy i'm not judging you this is for you to judge yourself you told me you're a lying thieving blasphemous adulterer at heart and you have to face god on judgment day whether you believe in him or not if he judged you by the ten commandments we've looked at four of them on judgment day would you be innocent or guilty i'd be guilty but everyone would be that's exactly what the bible says i'm guilty you're guilty we've all earned our wages the wages of sin is death but do you know the last part of that famous verse not off the top of my head but the
+
+[03:49] gift of god is eternal life through jesus christ our lord and the reason god can save you from death in hell is because he's rich in mercy and he provided a savior jesus suffered and died on the cross took the punishment for the sin of the world so that you could be forgiven in other words we broke god's law the ten commandments jesus paid the fine that's what happened on the cross and then he rose from the dead defeated death and if you'll just simply repent and trust in jesus for your salvation not your goodness because that's not going to work on judgment there just trust in jesus it's so
+
+[04:20] simple i'm not trying to convince you that genesis is the word of god or the bible's the word of god i'm saying brandy this is your eternal salvation this is the salvation of your children i'm just saying please believe the gospel that jesus took the punishment so you can go free on judgment day so you can have everlasting life so what do you think about what we talked about i have thought about it again i was raised in that environment and i spent a lot of time thinking about it and it's something i don't believe in i'm very comfortable in that decision and i'm not trying to impose my
+
+[04:50] non-belief on you i don't think that you should try to impose your beliefs on me but i care about you you don't know me but if you're in danger i don't have to know you if you're going to jump off the end of a pier onto concrete on the bottom thinking you're going to be fine i have to say randy don't do it don't do it do you know i can prove to you god's existence in about 30 seconds you can't but okay do you want me to give it a try sure every building is proof of a builder buildings don't build themselves when you look at a building you know there was a builder intuitively even if you died
+
+[05:19] 100 years ago you know there's a bill because buildings don't build themselves every painting is proof of the painter you don't have to see the painter he could have died 500 years ago but you know there was a painter because paintings don't paint themselves and creation is evidence of god's creative hand you can see the genius of his hand everywhere you look and your children and creation and flowers and birds and seasons and fruits all those things show us that god exists which we know intuitively and we have a conscience so we know right from wrong keep that in mind and examine my motive i
+
+[05:53] don't get anything out of doing this i felt as awkward with you as you have with me but the reason i do is because i care about you i'm like a doctor with a cure of cancer in his pocket you've got cancer and don't know it and i want to give you the cure and the only way it's going to happen is if i can convince you of the disease so you'll appreciate and appropriate the cure i i want to refute a couple of things yeah sure go for it right my children are not from god my children are a result of an activity that we all know what produces children uh god has nothing to do with that you made your
+
+[06:19] children's eyes 137 million light sensitive cells if their eyes got poked out yet they come to you and say mommy i need another eye could you make another eye i guarantee you weren't thinking of your children's eyes when they were conceived you were looking at the eyes of the person you love god's given us the ability to reproduce after our own kind that's a miracle baby is a miracle it's life is a miracle it's it's the genius of god's creativeness that's science you're twisting the story a little bit and i'm starting to get a little uncomfortable i do apologize i didn't what did i twist you
+
+[06:53] keep going back uh you're twisting my words right so you're you're taking thing you're taking facts and twisting it into feeling um and that's that's that's indicative of most uh you know kind of right-wing super conservative christians um do you remember what i do that with your words because i'd like to apologize how did i twist your words well i wanted to talk about right science and um you're saying that my kids are created by god but they're not my kids are created from an act that it has nothing to do with god and according to what you say right is is lustful and very no god made adam
+
+[07:32] and eve naked and told them to have sex there's nothing wrong with sex it's not lustful to be married and make children it's a wonderful idea my parents did that with me and i'm thankful i i'm thankful too but i don't think that god has anything to do with it okay well i appreciate you listening to me i hope you'll think about it and um i wish you all the best likewise thank you make sure you check out the living waters podcast and this is the evidence study bible it's everything i've learned and more than 50 years of reaching out to the lost it's packed with information on apologetics cults
+
+[08:06] evolution atheism and much more over 1900 pages including 200 of the most commonly asked questions of the christian faith and make sure you check out the starter kit it contains four of our most popular tracks including 50 10 commandment coins [Music] available at livingwaters.com if you want to see a staunch atheist change your mind and then embrace the gospel you're going to love atheist changes mind with this info you can watch it right now by clicking up to your left

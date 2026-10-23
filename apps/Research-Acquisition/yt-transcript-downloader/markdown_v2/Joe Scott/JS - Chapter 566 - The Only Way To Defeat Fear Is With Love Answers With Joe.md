@@ -1,0 +1,50 @@
+# The Only Way To Defeat Fear Is With Love | Answers With Joe
+
+**Channel:** [[Joe Scott]] (`JS`) · Chapter 566 of 763 · Length 9m 52s · [[00 - Channel Summary]]
+**Video ID:** `K52deYomqnU`
+**URL:** https://www.youtube.com/watch?v=K52deYomqnU
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-07 05:35
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:01|Part 1 · 00:01]]
+
+---
+
+## Part 1 · 00:01
+
+[00:01] last week horrible attack happened in Paris we all know about it by now I don't think that I am some kind of expert that needs to speak on this but I'm going to because you know I talk a lot about science stuff on this channel which is great and I enjoy doing that but we also I think need to step into the real world every once in a while and talk about the things that are going on around us and more importantly what we can do about it so how do we respond to this France has responded by bombing Isis territories the United States has responded by putting boots on the ground in Syria Russia has
+
+[00:42] responded by fighting against Isis mostly because they bombed a plane of theirs all this is understandable this is an understandable response it's it's understandable that people want to lash out again with violence but haven't we done that already it makes me think of that Einstein quote insanity is doing the same thing over and over it again and expecting a different result we've been doing this for like a hundred years now the whole fighting in the Middle East and bombing and look where it's gotten us where we're right here in this probably one of the biggest Quagmire's in the last couple
+
+[01:26] hundred years in Syria I mean we have all these different people fighting each other and and there's no end in sight and nobody even knows what side to take anymore there are no good guys anymore we actually find ourselves in a really interesting and weird position I think because we have three enemies of the United States now fighting each other we have the Syrian government we have Isis and we have Iran all fighting each other and then we consider all of them our enemies and we're sitting here like okay so which one of our enemies do we sign up with here and and I guess my question is do we
+
+[02:03] have to sign up with any of them I mean when all your enemies are fighting each other is it best to just let it happen and of course even as I say that I feel I feel awful because you're literally letting death and destruction just happen and say well what can you do and I don't like that either but the one thing we haven't tried is love and I know it sounds like I'm getting my foreign policy advice from a John Lennon song or something it's very hippie dippie you know live mean come on peace dude but that's not what it's about Isis wants us to go back in there and drop more bombs they want us
+
+[02:39] to turn against Muslims in general this is not only the conclusion of many counterterrorism experts in the world it's also their stated goal it's in they they have a magazine did you know that Isis has a magazine and they have stated in their magazine that their end goal is to bring about world war 3 to bring about a world war between the rest of the world and Muslims because they believe that Allah is going to be on their side and they're gonna win out in this great war and then there will be a Muslim caliphate the world over it's become this cliche at this point to say that you know if you
+
+[03:13] do this the terrorists win but in this case it's completely apt that's exactly what they want they want the rest of the world to fear and hate Muslims that sounds like it makes no sense but in a way it kind of makes perfect sense because they want the rest of the world to turn against Muslims and then Muslims would have only one place to go for security and protection and refuge that's them it's a recruiting tool so at this point I believe they've captured and killed all the perpetrators of the Paris attacks and they were all European Nationals and none of them had any passports on them
+
+[03:47] except for one guy who had a Syrian passport that the French police later found out was a fake Syrian passport so there's only one reason why they would leave one guy with a passport that happened to be a fake Syrian passports because they wanted it to be found they wanted the Syrians to be blamed for this they want people to turn against Syrian refugees they want them to have no place to go so that their only hope is to turn to Isis and they kind of want revenge against these guys they left instead of joining them and and they want them back so that they can you know in some cases slaughter
+
+[04:17] them so now in the United States there's this big debate over do we take the Syrian refugees do we turn them away 22 state governors said that they are not going to accept any Syrian refugees which is kind of laughable because they don't have the authority to do that and I think they know they don't have the authority to do that if the federal government says no we're going to take in these refugees they can't put up borders at the states and say that they you know can't come into that particular state once they're in the United States they're free to go wherever they want the governors know
+
+[04:46] that they're just politically grandstanding to their base which is pathetic but that's just fear and if there's one thing that we are not good at as a species and I think especially here in the United States let's be honest is we are not that good at risk assessment if there's a message that I want to convey here is that we can't live through fear the opposite of fear is love people always say the opposite of love is hate but that's not true it's those are very similar feelings actually love and hate the opposite of love is fear hate is easy it's the easiest thing in the world to do we're
+
+[05:19] almost hardwired to do it it's a lot harder to look at somebody and feel love toward them and empathy consider for a moment the Paris attacks 130 something people killed in one night tragic horrible without without a doubt but then think about Syria for a second 250,000 people have died in the Syrian civil war since 2011 that is literally a Paris attack every single day for four straight years and before the civil war Syria was actually a pretty well developed country it wasn't like some third-world hovel there were doctors or lawyers there's public servants of all kinds that are now fleeing
+
+[06:03] the country because guess what their wife just got killed their kids just got killed they have nothing left and they have no place to go now we can talk about the dangers of welcoming in Syrian refugees there might be one or two Isis you know infiltrators in there or something like that first of all that's not very possible if you know anything about our refugees scanning process we're not gonna be letting in random people it's always going to be people that are professionals it's always gonna be people who have families and that kind of thing but the challenge is not to look at 65,000 people
+
+[06:33] and say oh no one or two people in there might be bad guys but instead say there's sixty 4995 doctors lawyers family members priests people who have lost everything and could really contribute to society in some way and would be so incredibly grateful if we let them in over here for the rest of their lives there would be tens of thousands of people who see the United States as a refuge as a safe haven as the place that gave them a second chance and took them in and gave them a life again and actually more than tens of thousands because these people are gonna come here they're gonna have kids
+
+[07:11] they're gonna have generations of people who are thankful to the United States and super loyal to the people that gave them a chance in life or we could turn them away and have tens of thousands of people eventually hundreds of thousands of people that hold a grudge against the United States for not taking them in for not opening their doors for hating them for something they didn't do for turning them away for fleeing the very people that we are fighting I'm not I don't hold it against people for being scared of welcoming in refugees or being scared of loving the other as it were that's
+
+[07:48] natural that's normal I don't blame anybody for that you know sometimes the world is a big scary haunted house and all we can do is just cling to each other and close our eyes and grit our teeth until we can get to the end of it and that's us and our best is when we come together and hold on to each other and our worst is when we turn against each other and we can't let that impulse take over we can't give in to that because it doesn't further any agenda other than the agenda of the people who want us to be scared who want us to turn against each other and even though a lot of this sounds
+
+[08:31] very hippie dippie I know it's our only real weapon I can't sit here and talk about any specific tactics to fix this problem it seems to be an unfixable problem right now but we have to start with ourselves I have no control over what my government does and nor does anybody who watches this I'm sure but all we can really do is look at ourselves and our own filters and how we're looking at it and my my challenge my my my thing that I would like for you to take away from this is to find a way to view this through the eyes of love and not fear because if we can get everybody looking at it that
+
+[09:14] way maybe there's a hope anyway yeah no jokes in this one and I apologize for that but just doesn't seem like the time for jokes I felt like I needed to say something substantive and sometimes jokes aren't the best way to do that so to wrap up I hope you all are safe wherever you are and there's a reason why I say I love you guys at the end of every video it's because I do it's a nice thing to say and we should be saying it more often so I love you guys everybody be safe out there and I'll see you next time

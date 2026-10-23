@@ -1,0 +1,59 @@
+# How Muslims Are Being DECEIVED About Jesus (Important "End Times" Expectations!)
+
+**Channel:** [[Daily Dose Of Wisdom]] (`DDOW`) · Chapter 406 of 916 · Length 14m 32s · [[00 - Channel Summary]]
+**Video ID:** `PIDf7Q53phQ`
+**URL:** https://www.youtube.com/watch?v=PIDf7Q53phQ
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 20:02
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:49|Part 2 · 10:49]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] why do you think the figure of Christ is Central both to the Muslim faith and the Christian faith and what do you think that says about what we share in common cuz I really don't understand that it's a mystery to me okay Muslims are the only other major world religion who believe in Jesus Christ as the Messiah as the prophet had the this is a strange thing so we should definitely be try to sort that out when you hear Muslims say that they believe in Jesus as the Messiah as the prophet I think it's easy to think that we're all talking about the same thing here and it gets even more confusing
+
+[00:31] when you hear things like this no muslim is a Muslim if he does not believe in Jesus Christ peace be upon him we believe that he was one of the mightiest messengers of almighty God we believe that he was the Messiah translated Christ we believe that he was born miraculously without any male Intervention which many modern day Christian do not believe we believe that he gave life to the Dead with God's permission we believe he healed those born blind and lepers with God's permission the Muslim and the Christians are going to so in this video what I've done is condensed a lecture given by John
+
+[01:03] MacArthur where he highlights the differences between the Muslim understanding of Jesus and the Christian understanding of Jesus what I would call the actual understanding of Jesus in particular the way that these two understandings tie into the end times expectations within Islam and within Christianity is actually pretty wild let me quote what their literature says he will shatter crosses then he will die and be buried by Muhammad but not until he has destroyed Christianity by revealing who he really is who is this and by pretty wild I mean extremely important to be aware of let's dive in
+
+[01:44] in their system they have Jesus Jesus was a man he was not God he did not die he went to heaven like Elijah he did not die therefore he did not rise he did not die therefore he did not provide an atonement for anyone because no one can provide an atonement for anyone else he is a man he is a prophet he is nothing more he went to heaven like Elijah and he's in heaven right now standing alongside Allah waiting for Allah to send him back now the question to ask is why would Allah want to send Jesus back as a lot of prophet to pick from why does he send Jesus back answer so that when he shows up
+
+[02:37] he can correct all the Christians who have misunderstood who he is sources for this again the Coran and the sunna the great event of the coming of Christ of coming of Jesus is so that this Prophet this man who comes back can straighten out the misdirected misguided misconceiving Christians who think he was God who died and rose again and provided atonement he'll come back and straighten it out and by the way after he gets here he'll get married have children and die and be buried next to Muhammad that's the Muslim Jesus in their eschatology again quoting their sources exclusively there are
+
+[03:23] three great signs of the end of history and each of them is a man the first man that will come in the end of history is the Mi M ahdi sometimes he's called the 12th Imam every time madad over in Iran gives a speech he says glory to the Mii glory to the 12th Imam he's waiting for the coming of the Mii what is he coming to do let me summarize the Mii will be a Messianic figure he will be a descendant of Muhammad he will be an unparalleled unequal leader he will come out of a crisis of turmoil he will take control of the world he will establish a new world order he will destroy all who resist
+
+[04:16] him he will invade many nations he will make a seven-year peace treaty with the Jews he will conquer Israel and Massacre the Jews he will establish Islamic World Headquarters at Jerusalem he will rule for seven years establish Islam as the only religion he will come on a white horse with Supernatural power he will be loved by all people on Earth if that sounds familiar that is a precise description of the biblical Antichrist absolutely step by step by step by step the Bible's Antichrist is their M we know that the rider on the white horse in Revelation 6 is the Antichrist they they use that
+
+[04:59] verse to describe their Mii why am I giving you all this because the description of the Mii is exactly the description of the biblical Antichrist the Beast of Revelation 13 and you go into any kind of a study of that and you will find that all the details match up perfectly the the Bible's Antichrist is Islam's Savior and World Conqueror it was establishes a universal Islamic kingdom and there's a second sign the second person and it is Jesus the Mii is not Jesus the Mii is greater than Jesus and that's important to their system because if you have somebody greater than Jesus then the
+
+[05:47] Christians were wrong so Jesus will return Yes Muslims believe that Jesus will come again they believe in the return of Jesus not the true Jesus the Jesus of Islam not God didn't die didn't rise didn't provide a sacrifice for sin but he does return he's a prophet and he comes back and he has one purpose when he comes back and that is to assist and Aid the Mii he returns listen to this as a radical Muslim he comes back as a radical Muslim he will arrive by the way at a minet near Damascus and he will come back holding the wings of two angels who flew him down to meet the Gathering Army of the
+
+[06:45] Mii in the East the army of the black flags Jesus when he comes back will pray to the Mii who is greater than he he will acknowledge the Mii as his Lord he will make a pilgrimage to Mecca he will worship Allah and thus he will lead all Christians who will follow him to reject their notion of Jesus and accept the real Jesus who is nothing but a prophet and a man he will establish worldwide Sharia law he will become the greatest Muslim evangelist and he will be the final witness on the day of judgment against non-muslims Christians everywhere will affirm that they were wrong that the gospel is
+
+[07:41] wrong the New Testament is wrong he didn't die he didn't rise he isn't God he isn't the Son of God he himself will come back and point out how wrong we've been he will correct all misinterpretations and all misrepresentations let me quote what their literature says he will shatter crosses that's metaphoric for the destruction of the church the symbol of Christianity being placed in the church he will kill pigs he will abolish the tax on non-muslims because there won't be any living non-muslims can't tax dead people and then he will do one more thing he will kill the Islamic Antichrist he will
+
+[08:30] kill the Islamic Antichrist then he will die and be buried by Muhammad but not until he has destroyed Christianity by revealing who he really is who is this you compare what he does to the false prophet in the Book of Revelation chapter 1316 192 20 refer to the beasts coming out of the Earth the false prophet who AIDS and abets the Antichrist he is as the Mi is the exact replica of the Antichrist the Jesus prophet in Islam is the exact parallel to the false prophet who AIDS and abets the Antichrist one of their writings says he espouses the cause of the Mii he is the M's executioner he is the
+
+[09:27] m enforcer he is the M's prophet and it is he who kills the Antichrist that leads me to the third person the Antichrist will show up the Muslims call him daal he is The Great Deceiver he comes to Earth on a mule and he's blind in one eye he is an Infidel he is a false Miracle Worker this Antichrist this Islamic Antichrist but you know who he claims to be he claims to be Jesus the son of God he claims to be deity he will attempt to stop the Mii and the true Jesus but the true Jesus Will Slaughter him this is their view of the true Christ Our Jesus is their Antichrist our Antichrist is their
+
+## Part 2 · 10:49
+
+[10:49] redeemer it is a satanic counterfeit that is in complete reverse the Army this is a quot quot the army of Satan will be led by a person who will claim to be Jesus Christ there will be a great battle the Muslim Jesus will fight the false Jesus and kill him and establish Islam forever the truth is the true Jesus will destroy the Antichrist and the false prophet and establish his kingdom Forever This is Satan's complete counterfeit Muslims world domination and Islam is moving across the West rapidly in Europe isn't it so right at the very end somebody's going to say I'm Jesus somebody else going
+
+[11:40] to say I'm Jesus who are you going to believe that's just one form of this deception that will show up at the end and even now it's deceiving people there are a whole world of Muslims who who who think Jesus is someone he is not and consequently reject the true Jesus now I understand that if you're watching this video as a Muslim you might want to turn right back around and say no your Jesus is the counterfeit and then the Christian goes no yours is and then the Muslim goes no yours is honey the kids are fighting again so let me add another layer to this to see which perspective makes more
+
+[12:17] sense in light of what Jesus is doing today check this out this is actually from gotquestions.org it has to do with Muslims dreams and Visions this idea of if Jesus is RIS is he still operating in the world today so there are many reports of Muslims converting to Christianity due to having a dream or experiencing a vision in which Jesus appeared to them the accounts vary somewhat but they virtually all have the same aspects in common one Jesus appears to them two Jesus tells them to find and speak to a person at a certain time and place three when the Muslim follows Jesus's instructions he or
+
+[12:54] she finds the person exactly at the right place and time and the person explains who Jesus is and presents the gospel to them four the Muslim believes that Jesus is the Messiah and savior and places his or her faith in him renouncing Islam it's very compelling that again 25% of Muslims who come to Christ do so because he came to them first in a Visionary dream if you guys like this kind of content these types of conversations I urge you to join the wisdom Society you're probably wondering what is the wisdom Society I'm glad you asked check this out and what it is is a growing community of
+
+[13:33] Believers from around the world we meet weekly discuss tough questions read scripture pray there's also a book club where we are joined by the author of the book so that we can discuss the book directly with the author we have Paul Copan Steven Meyer Jay Warner Wallace Hugh Ross and other experts that you've seen on this channel in that book club I'm trying to connect the experts with you guys in a more intimate capacity this just launched it's currently less than a dollar a day for access to everything I've put a ton of time and resources into building this so join today support the channel
+
+[14:05] invest in yourself grow in faith connect with Believers from around the world and the experts that you see on this channel I hope this is a huge blessing to you guys I hope it's a no-brainer to join based on the way that it's structured and I hope to meet you there inside of the wisdom Society if you enjoyed this video please consider joining the wisdom Society support the Miss invest in yourself join the community

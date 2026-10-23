@@ -1,0 +1,50 @@
+# “I Don’t Believe in Heaven or Hell”—Ray Talks With Luis
+
+**Channel:** [[Living Waters]] (`LW`) · Chapter 2443 of 2497 · Length 9m 06s · [[00 - Channel Summary]]
+**Video ID:** `4GquyjOHnpA`
+**URL:** https://www.youtube.com/watch?v=4GquyjOHnpA
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 08:49
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] just a young punk rock kid that knows what's going on an everlasting life is a free gift to all those who repent and trust in him in the whole Heaven and Hell thing uh I think that's up to you so the philosophy class got rid of Heaven and Hell for you yeah basically it destroyed any thought of justice for Hitler and any hope for you as a human being is that what it did basically in this next clip you're going to see a young man named Lewis who took a philosophy course in college and lost his religion this is actually pretty common uh people try to excel in thinking and they lose their belief
+
+[00:37] in the one who actually created their brain Lewis hasn't completely lost his religion because he does wonder about heaven and hell watch as Rey gets him to think seriously about his salvation you took a philosophy class yes and what do they tell you about the afterlife uh they basically just open up your mind and like told you to step back from it we cuz I went into when I took the class I was into religion but when I came out you know it open my it did open up my mind and open your mind up and religion fell out something like that I kind of took it like I started second thinking it do you
+
+[01:13] believe in God's existence yes I do believe God exists but I God as a super human being but in the whole Heaven and Hell thing uh I think that's up to you so the philosophy class got rid of Heaven and Hell for you yeah basically it destroyed any thought of justice for Hitler and any hope for you as a human being is that what it did basically because I think once you die you know that's it but did that do you a favor I mean it got rid of any sense of justice Hitler you know who Hitler was yeah I know H he killed 6 million Jews and he's not going to get punished for it okay and you've got no
+
+[01:49] hope of living forever death is the end for you and it could come tonight that's what philosophy did for you that's true yeah do you believe the Bible I believe in the Bible okay the Bible says you have to be born again to enter Heaven are you born again it says that yeah you got to be born again to enter Heaven John chapter three Jesus said Marvel not that I say to you you must be born again I don't know that are you born again um I don't know well let's find out I know if this is my first or second life well we're not talking about reincarnation we're talking about a supernatural experience
+
+[02:21] where God forgives you your sins and gives you everlasting life but how do you know how do you know well this is how you know this is how you know you're a sinner for a start we'll start at square one do you think you're a good person I think I'm a good person how many lies have you told in your life life um lies yeah in your whole life probably a lot I'll say a lot what do you call someone who's told lots of Lies pretty much a liar uhhuh have you ever stolen something yes okay you're a lying Thief uh no because I just said I have Li and you mean it's in the past yeah it's in the past
+
+[02:56] everything's in the past okay doesn't mean it's likeing a judge judge raped that woman but it was in the past it's so what so um do you still think you're a good person as a self admitted lying Thief pretty much yeah okay he just took all what I said just threw it in me yeah AR have you used God's name in vain uh yeah it's called blasphemy Louis it's very serious Jesus said if you look at a woman and Lust For Her you commit adultery with her in your heart have you ever looked at a woman with lust yeah okay I'll say so so L by your own admission you're a lying Thief a blasphemer and an
+
+[03:31] adulterate heart do you still think you're a good person I still think I'm a good person yeah now you know what the problem is what fallacies well no your your um idea of good is very very low your standard is low you think someone who's a lying thief and a blasphemer and an adulterate heart is a good person but God's God's is very very high when he says good he means moral perfection and thought word and deed so are you perfect no human is perfect that's exactly right we're all Sinners yeah as we're born we're all Sinners so on judgment day you're going to be innocent or guilty we're all
+
+[04:06] going to be guilty are you going to go to heaven or hell there is no heaven in Hell how do you know that how do you know there is oh I know I've got the highest Authority on this Earth there's a lot of reasons that tell me hell exists number one God is good would you agree with that God is good if a judge is good should he see that Justice is done or should you just let criminals Go free cuz he just doesn't care about Justice is's good he must care about Justice isn't that true that's true okay now God cares about Justice he's going to punish murderers he's going to punish Hitler rapists
+
+[04:36] thieves and liars and fornicators and his place of punishment is Hell okay so reason demands that if God is good there must be a day of justice and secondly the Bible warns of a place called hell Jesus warned again and again of a place called hell he said if your eye offends you pluck it out and cast it from you for it's better to enter Heaven without an eye than go to hell with both your eyes where the fire is never quenched and the worm Never Dies he spoke of hell as being a place of terrible torment being damned forever so there definitely is a place called hell so you'd be guilty on
+
+[05:08] Judgment Day so would you go to heaven or hell I guess I would go hell based on your description of it does that concern you uh not at the moment because I think that once the time comes we're all going to face the what we did throughout our whole lives well you've got a choice today God can forgive every sin you've ever committed and allow you into heaven if you get born again so you need to you need to say how how can I get born again how can I enter Heaven that means if you care about your life you should inquire what you must do to be saved do you want to be saved yeah but doesn't it say
+
+[05:40] doesn't he say that he'll forgive everyone no Hitler won't be forgiven uh if he doesn't repent and Trust in Christ and he killed himself and a lot of people die in their sins and if you die in your sins it's too late you're sealed forever but you're still alive leis you can repent and trust in Jesus you know he died on the cross for your sins did you know that I know that did you know know that God's a judge and you're a criminal in his eyes you violated his law but Jesus Paid your fine that means God can legally dismiss your case Lewis God can forgive every sin you've ever committed commute
+
+[06:09] your death sentence and let you live because your fine was paid for by another who then rose from the dead and defeated death and what you've got to do to find everlasting life is repent that's turn from all sin and trust in Jesus the minute you do that you'll know the truth and the truth will make you free God will give you everlasting life he'll take you out of die Darkness into light he'll Open the Eyes of your understanding and he'll give you everlasting life it's a free gift of God you know the Bible verse for God so loved the world that he gave his only begotten son that whoever
+
+[06:41] believes in him that means trusts in him should not perish but have everlasting life this is the greatest news you could ever hope to hear so why would you continue in sin and darkness heading for death and Hell When God says turn and I'll give you everlasting life does that make sense that makes sense but you know a lot of people go out through you know saying they believe in God saying they believe God such as me and and once the moment comes you know that Judgment Day comes we're actually going to bow down to our knees and say oh you know too late us too late today is the day of salvation
+
+[07:14] bear your knee today say God I'm giving up sin today please forgive me and change me today how do we know it's today well today is the day of your salvation the Bible says today uh you've got a choice you may not be here tomorrow Le you could die tonight your heart could out okay right now on thee so will you think about this I'll think about it do you have a Bible at home yeah okay crank it open at the Gospel of John and don't be afraid to pray because the Bible says if you seek God with all your heart earnestly you'll surely find him and he's the very source of life and without him you're
+
+[07:46] going to perish okay hey thanks a lot for listening to me all right thanks a lot learn how to share your faith biblically each week we send out a free ministry update and it contains a short video CP clip Ry finds colorful characters he witnesses to them and then I chalk talk the clip here's some samples do you believe in god of course I believe God actually learns through us that there's a heaven right here multiple times a day God hugs me what planet are you living on I have no problem standing before the Lord as I am after seeing new clips each week and understanding the Biblical
+
+[08:26] principles behind them you will end up saying I could do bet there's no charge for the update just go here and sign up here and we'll send it to you every week for God so loved the world that he gave his only forgotten son also while you're there check out the school of biblical evangelism the school of biblical evangelism is a full-blown online evangelism course it'll help you overcome your fears it'll help give you the answers to the 100 most commonly asked questions and objections to the Christian faith [Music] you'll find details on livingwaters.com

@@ -1,0 +1,50 @@
+# "We're Entering The Most BAT S**T CRAZY Time To Make Money In Human History" | Raoul Pal
+
+**Channel:** [[Only The SAVVY]] (`OTS`) · Chapter 314 of 514 · Length 10m 34s · [[00 - Channel Summary]]
+**Video ID:** `q3Gi7iFHlwE`
+**URL:** https://www.youtube.com/watch?v=q3Gi7iFHlwE
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 00:53
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] cuz we're about to go into the most batshit crazy phase of human existence over the next few years and the way to make money out of it is crypto in a lively and engaging interview thread guy hosts renowned investor Raul pal to discuss the intersection of AI crypto and strategies for wealth creation in the rapidly evolving technological landscape of 2025 the conversation touches on key themes such as crypto's role in a changing economy the exponential age of Technology and the potential for massive economic shifts by 2030 Rell emphasizes the importance of seizing the next 5 years to maximize
+
+[00:38] Financial opportunities before an unpredictable economic reality emerges urging viewers to invest strategically in crypto and stay informed and so I'm just super focused on that so whether it's real Vision enter educating people getting Community built you know they're sharing trade ideas and creating all sorts of value for each other or it's the asset management firm exponential age which is just a crypto hedge fund investment vehicle it's a fund of funds or whether it's Global macro investor which is my like OG service it's all the same thing all I'm trying to do is reach as many as people
+
+[01:09] as possible and help them in this journey and I think 2025 is going to be a big year we ain't seen nothing yet I don't think it's this cycle where it gets really big because and we'll talk about this is why I don't think the AI meme is the big thing yet what's about to happen is really going to happen in in 25 and 26 and people don't know how to invest in it the normies in equity land right but it's going to change every business it's going to bate everybody the people who adopt it and the people who don't and I just feel that the bubble the the next bull market of the 27 to 30 3 31 is going
+
+[01:52] to be beyond our comprehension of what above is that that's my general view cuz I've always had the opinion that we're about to go into something I call the economic Singularity which is when we don't know what a economy looks like past about 2030 2032 we don't know what jobs we have what a business is whether you need to be live streaming or it's you and me doing our video avatars or whether what is the value of money in the end of all of the all of this [ __ ] what economies how they work who gets paid who makes the money is it the agents is it right all of this stuff is going to hit by
+
+[02:30] about 2030 and so my view on all of this is we basically have five years left I've been saying it was six years but we've got 5 years left to make as much money as possible before everything we understood about the world is going to change crypto adoption is only going to go up hoarding cash maybe not the right thing hoarding crypto yes and you and I know it's very volatile take some Bulls to do but if you got a long enough time Arizon it works out just fine so crypto fills like the right answer even in a world of AI you you know we all know that agents will use crypto payment rails they have
+
+[03:01] to so I just think you might as well own those assets it's easy if you just own Bitcoin because you don't have to think about anything else other stuff you have to asset allocate and think is this going to survive are people going to build on it all of that stuff so it's more difficult but you make more money by figuring that stuff out so I just think from that that's the easiest opportunity of all you could just literally do nothing and own Bitcoin and come back in is time and and you'll be much better off than you are rul highlights the transformative potential of AI and its integration
+
+[03:35] with cryptocurrencies predicting that the true Aid driven economic Revolution will occur around 2025 to 2026 leading to a massive bubble between 2027 and 2030 he stresses that while crypto adoption will continue to grow long-term holding particularly of Bitcoin offers a straightforward path to substantial returns drawing from his own experiences he cautions against frequent trading illustrating how simple Buy and Hold strategies have consistently outperformed more complex approaches in the volatile crypto Market yeah I I went to hang out with a friend of mine [ __ ] the guy's amazing I can't
+
+[04:13] mention him by name a but he's very famous in the Bitcoin Community cuz he was Silicon Valley patient zero he got Mark andreon he got everybody into it Peter teal the lot and he invested $2 million in Bitcoin at three bucks so that's if you work it out today if he hadn't cashed in any of that it's $66 billion so let's assume he took slice profits all the way it's still $10 billion he has never been out of the market or done anything what he's done like I did last cycle was actually just buy the lows because your view is a longer term especially if you're your age I mean you shouldn't ever
+
+[04:58] sell it you should just thinking how can I generate enough cash to buy tokens down 70% now because the issue I've got is we've had three Cycles where the Market's gone down like 75% great so we all think it's going to go down 75% we've just brought in a bunch of Institutions and the Michael Sailors and all sorts of weird stuff so what happens if it goes down 40 and thread guys sold his stack somewhere near the top 20% off the top did pretty well and you're expecting to get a 75 and the thing doesn't and it goes up it goes down 40% goes up and you're like no it's going to come back down again
+
+[05:38] I know how this goes It goes down 75 and you don't get in so that's one the other one I know from Full Experience is you will not if you take x amount of T money off the table at the top and you time it close you know 10 20% from the top you will not put in the same amount at the low you you psychologically can't do it because you're like Peak fear it's going to go down another 50% and this is the worst thing I can do and you'll be chasing it all the way up what I did this time around I've done every I'll give you my story in a sec but I've done everything but this time around I just stayed
+
+[06:17] 100% invested and just piled in cash in 2022 using the kind of macro indicators I've got and so I was back at alltime highs in pin L well before all the markets were and I made the right I got salana and I got Su fine so if I go back and look at my journey I bought Bitcoin at 200 bucks in 2013 so I was early early I think if I value it like gold using how much gold is known and how much is above ground in circulation stock to flow I think bitcoin's worth 700 oun of gold which was at the time a million bucks it's now two and a bit million so I'm like assume I'm a total [ __ ] by 90% just
+
+[07:01] discount me for being a total idiot cuz it was $200 how can I write something's worth a million bucks it's stupid I discount it to and say listen at least it's $100,000 this is still the best opportunity of all time so I invest I put a decent stack in not massive not like I did in 2020 but a decent enough bet one of my bigger bets and um I it went up 5x in a few months and I'm like clearly I'm a God right I can I can do no wrong then it falls 87% but I'm like okay look this is a 10-year bet so I I don't worry about the volatility I've written it off as a zero then in 2017 it's at2 and a half
+
+[07:45] th000 $2,000 so I'm up 10x which is like that's pretty good this is before we got used to mean coins doing 10x in one day but like this is right the best return I've ever had in my entire life and I thought this Bitcoin Fork was going on you know Bitcoin cash versus Bitcoin and I'm like I don't understand what's going on and we going to back the wrong horse I'm out I'll take my money it went up another 10x in 5 months into the end of the year to 20,000 it then fell 85% again and then the covid it started rallying in 2019 the covid crash came down 50% I probably average B in between 6 and a
+
+[08:30] half and 10,000 so I I bought the the dip all of this stuff but when I look back if I'd have just kept my original investment I'd have made five times as much money damn by doing nothing by doing nothing and that really struck me is you know the easiest way to is to trade so if I'm honest with myself having been in the kind of trading investment macro industry my whole life I can probably count five people who've made money trading versus investing the discussion also delves into meme coins and their role in tokenized attention economies acknowledging their cultural significance and
+
+[09:12] speculative appeal Raul humorously critiques fleeting Trends while advocating for a focus on enduring assets like Bitcoin and Dogecoin throughout he shares personal anecdotes including lessons from past investment cycles and underscores the need for thoughtful long-term strategies as the world moves toward an economic Singularity the episode concludes with a mix of serious insights and light-hearted banter making it both informative and entertaining Sim swap fraud is sweeping the globe and your mobile security is at risk switch to eani and lock out sim swap fraud and get the most elite mobile
+
+[09:49] protection in the world ephon guarantees 100% protection from SIM swaps backed by a $5 million insurance policy stay secure with iable coverage free international roaming and unlimited data trust aani to keep your Communications and assets secure get military grade protection 24/7 concierge service and a hassle-free upgrade click the link below for $1 [Music] off thanks for watching help support this Channel and receive exclusive offers from one of our partners located in the description we'll see you on the next one [Music]

@@ -1,0 +1,75 @@
+# "The Big Problem I Have With Lex Fridman, Neil deGrasse Tyson & Sam Harris" | Gad Saad
+
+**Channel:** [[Tom Bilyeu]] (`TB`) · Chapter 880 of 1389 · Length 14m 50s · [[00 - Channel Summary]]
+**Video ID:** `nQqMlTiINZ4`
+**URL:** https://www.youtube.com/watch?v=nQqMlTiINZ4
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-20 17:00
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:32|Part 2 · 10:32]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] You're breaking things into the the two camps, the sort of never do's and the conditionally do's. How does one do that well? So, let's take truth and freedom, which are I think two very important things because I have a North Star of human um flourishing. And so, everything that I do, I'm trying to aim it towards what improves human flourishing for the largest number of people, what decreases human suffering. But, most people don't have a North Star. They've never thought about it. Right.
+
+[00:39] Um so, do you have like a set of principles that you've knowingly walked through that people will need to walk through in order to be happy? Like, do you have things that you're like, "These are the things that are inviolable." As relating to the deontological versus consequentialism. everybody So, if you think about this, your book feels like an instruction manual. So, if I think about your book as an instruction manual, and I think about, okay, you have to be the architect of your happiness, and you have to do the work, then I want to get really specific about what that work is.
+
+[01:03] So, first to me is what's your North Star? And then it's, okay, what are the things that if you don't do, you will inevitably violate that North Star? So, I'll give one, which the thing I find myself thinking about more and more is right now freedom of speech is coming under attack. And when I think about my North Star is human flourishing, I don't think you can get there without freedom of speech. I couldn't agree more, right? I mean, freedom of speech is everything. It truly is.
+
+[01:37] Now, I say this both as someone who comes from the Middle East, where that's not an enshrined universal value, right? It freedom of speech in the Middle East, as has been throughout the entire history of the human condition, is really a consequential thing. Yes, you have freedom of speech, but don't criticize religion X. Yes, you have freedom of speech, but don't criticize dictator Y. Yes, you have right? And that's why I get upset, by the way, when I see contemporary public intellectuals exactly committing those types of deep moral transgressions, right?
+
+[02:10] Yes, I believe in freedom of speech fully, but surely not for the orange Himmler, Donald Trump. Yes, I believe Orange Himmler. Right. Yes, I believe in the presumption of innocence principle in American jurisprudence, but certainly not for gang rapist Brett Kavanaugh. Sure, there is no real evidence that he did any of those things, but we can't take a risk with this guy. And so, let's presume that he is guilty, cuz after all, it's only a job interview, right?
+
+[02:46] Sure, I believe in journalistic integrity, but it was perfectly fine to suppress the Hunter Biden story, because otherwise, orange Himmler would have become president. So, you see how in each of those three examples that I just gave, it there's a deontological principle that you should always adhere to, but somehow, because you've suddenly become a political tribal person, you're now willing to violate using a consequentialist calculus.
+
+[03:15] This is wrong, and that's, by the way, one of the reasons why when I've gone after some of the folks that we might know in common, I really did it advisedly, because at first I thought, you know, I don't want to burn a bridge with this person. They're a nice person. I went after another person recently, by the way, uh in a contrary to pragmatic calculus. Let me explain. There's this gentleman who has a very large show, not Joe Rogan level, but one that I certainly would have wanted to get on, given that I am trying to promote my book. So, now there is this tug, this pragmatic tug.
+
+[03:42] On the other hand, this gentleman is peddling some full positivity that's really pissing me off. So, am I going to be quiet and pragmatic so that I can get on his show and sell a couple of thousand extra copies or am I going to be authentic and say, "Cut it out."? Guess which one I chose. Cut it out. Cut it out. And but again, then I not I regret it after, but because I sometimes go after people in a uniquely Gad style, they they then get offended, but my purpose was never to offend them individually. It's that I'm attacking their position with satire.
+
+[04:25] With satire and that can be quite punchy, right? So, Neil deGrasse Tyson, I'll mention his name since I don't know him personally. Uh although the faux positivity guy I also don't know personally. Uh Neil deGrasse Tyson, have you seen his recent famous clip where he So, he's a physicist. So, he's been on the show. Okay. Yeah, yeah. But you don't I haven't seen the recent thing, but he basically said, "Look, it's very clear gender is done on a spectrum. And I'm I'm paraphrasing. I don't remember the exact words, but you could go look it up. I just did a sad truth satire on this whole thing.
+
+[04:55] Where he says, "Look, today I wake up and I feel 80% male. And then I might put on some makeup. And then I'm now more female. Right? So, already he's saying something insane, which is your your mask you know, your maleness or femaleness is defined by the accoutrements that you wear. Right. And so I said, "Okay, well, let how can I attack such a ridiculous thing? Through satire." So, what I did is Here's the Usually, if you hear the following words in the sad household, you know trouble is coming up.
+
+[05:30] I call my my daughter and I say, "Bring the Halloween wigs." When I When I make that When I give that instruction, you know there's going to be trouble. And so I take I took all the wigs. I looked at the camera. I said, "Look, I completely agree with Neil deGrasse Tyson cuz he's super smart cuz he's a physicist. And so look, now I am 100% male. I am the epitome of manhood. And now watch how I'm going to transition into female as I wear different wigs of different lengths, different colors, and then I put lipstick either 25% of my lips, 50%, 75, or 100.
+
+[06:05] And so, I literally took verbatim what he said and mocked it into oblivion, and it went viral. Now, I didn't do that because I'm a mean guy who is trying to hurt Neil deGrasse Tyson's feelings, but Neil deGrasse Tyson has an obligation. He's a public intellectual who has a large platform. If you're going to go and use your scientific imprimatur to say, "It is settled, gender is on a spectrum," I'm coming after you. That's called authenticity. So, now we get into another part of your book, which I think is really important, which which is variety.
+
+[06:40] Now, you will and I'm sure we'll talk more about other areas, but one of the areas you say variety becomes important is intellectual. Oh, yes. And so, this is and the person one of the people I think you were making oblique reference to that I'll I'll drag into the light here, uh with truly with love, is Sam Harris. Yes. So, I recently had him on the show, and I disagree with Sam around freedom of speech very much. But, I think the way that people are dismissing him is a mistake. And so, the reason I think that is because he's grappling with a problem.
+
+[07:14] Again, I think he's come to the wrong conclusion, but he's grappling with a real problem. And I want, because of epistemic humility, my absolute just pervasive not only fear that I'm wrong, I know I am frequently wrong. Right. And so, I want challenges to my ideas, which you also talk about in the book. Again, guys, this is a book about happiness, but you're you're you're really giving a um a value stack that I think is critical for people to work through in their own lives in order to actually make this real.
+
+[07:51] You're talking about people really do have to understand you you have to want to be challenged. That's going to be the thing that makes you stronger. You have to want intellectual even variety in your life. And so where this gets very difficult, I think Sam is being authentic. So for him to look himself in the mirror, even though from the outside I look at and go, "Sam, that's the wrong conclusion.
+
+[08:21] Not only is it wrong, it's dangerous." But he's on the opposite side of that intuition saying, "Tom, not only have you come to the wrong conclusion, but it's dangerous." And so the problem he's dealing with, I think these are not his words. This is my interpretation. What he's dealing with is the realities of a world driven by algorithm where ideas have extreme velocity. Right. And they're all crushed down into memes. So there's no more depth, there's no more nuance. It's headline that is fed to you algorithmically, so you're being manipulated and you don't even know it.
+
+[08:43] And the ideas come at you so fast Right. that even if you're smart, you're not going to be able to hold a nuanced position on that thing. You don't have time to think through all of the ideas. And so in grappling with that, again, I don't agree with his conclusion, but I really think he's approaching the problem sincerely. I do think that he's authentic. So contrary to the full positivity guy who I think is putting on kind of like I think I know who you're talking about, but I don't know him. Right. I don't know him either personally.
+
+[09:17] It it it almost can't be that a functioning adult can spew some of the vacuous platitudes that he puts out on his Twitter feed. It's impossible. We can conquer war through love. Oh, jeez. If if only the Nazis had been more loving then we wouldn't have had it. You know the Okay, that's ridiculous, I admit, but here you Okay. you have to anchor to something. Yeah. Right? So, for instance, when I had Neil deGrasse Tyson on the show, he said, uh I don't think I'm right for your show. And I was like, whoa, why? And he was like, you're trying to bend everything to empowerment.
+
+[09:50] And I was like, these are not the actual words he used, but this is the punchline. And he was right. And so, but I'm not being fake. But at the same time, it forced the interview into an angle. So, I think Look, we're talking about Lex Friedman. Yes, I think. Okay. Yes. So, uh do not know him. Have never met him. Do I think that he owns a position that puts him into at times he's being silly and naive, but I fall into the same bucket of trying to make things like, you can take control and you can find your way out. So, I understand how I'm just as guilty of something.
+
+## Part 2 · 10:32
+
+[10:32] So, if I look at my own behavior, I'm like, what am I trying to do? I'm trying to anchor my life. I need a way to think about the world. I need a way to organize the complexity. So, just as my eyes don't go, there's 17,000 photons in this wavelength bouncing bouncing off of that quarter inch of thing, it just goes, that's gray, that's blue, right? And so, ah, now I can deal with the world. He we all need an orienting mechanism. Yeah. Now, if all of us go, there's limitations to my orienting mechanism, and I have to distrust myself, then you probably are in better shape.
+
+[11:17] And I I will speak for myself. If you made fun of one of my ideas through um satire. One, I'd be like, I made it. And then two, I'd be like, it does sting, man. I won't lie. Yeah. But at the same time, it's kind of how I think about Dave Chappelle when he makes fun of white people. Right. I'm like, Dave Chappelle's one of the most insightful people I've ever seen in my life. Never met him, but oh dear god, do I think that we need him? And so, I'm like, word. Like, I I find it funny. But that's what antifragility is, right?
+
+[11:53] I mean, yes, Nassim Taleb was the guy who kind of popularized that term, but the concept of antifragility exists since the time of certainly Seneca. So, I have a In one of the chapters of the happiness book, I have an epigraph from Seneca where he basically argues that strong trees are and that have deep roots are precisely those that have been exposed to severe wind stressors. That That That's why they then become non-brittle. Trees that haven't been exposed to wind stressors then break off very easily.
+
+[12:27] Well, of course, that antifragility concept, squeaky doors don't break, that which doesn't kill you makes you that those concepts, those maxims apply to uh your ideas being scrutinized, right? So, for example, when I went after uh Sam Harris's ideas or when I go after the full positivity of Lex Fridman, a In my view, someone with testicular fortitude would basically say, "Hey guy, why don't you come on my show and let's hash it out?" Or, "Hey, why don't I come on your show?" Because, right? There There has never been a context where I've said something and that I wasn't willing to stand by it.
+
+[13:00] Because, for better or worse, when I say something, good luck to you if you want to debate me on it because I I I, just like you, I have epistemic humility. I'm very modulated about what I know and what I don't know. When I know something, I walk with the swagger of someone who knows it, but there's a million things that I know almost nothing about. So, if you ask me, "What has been the repercussions of the legalization of marijuana in Canada? You know, you're Canadian. What What do you think? You know what, Tom? I I know very little about this. I'm not going to try to wing it.
+
+[13:30] I simply don't know enough to offer you an intelligent answer. But, if you take the positions that some of these gentlemen or other gentlemen have taken in the public sphere, then expect guys like me to say, "I'm calling you out on it." Now, a someone with strength, with a spine, says, "Let's hash it out." But, then when you block me and all this kind of stuff, people thought, "Oh, I'm hurt." I I don't care if you block me or not. What it does to me, it's it's a dishonorable act. It comes from my Middle Eastern background, perhaps, right? You don't block, you fight.
+
+[14:02] I fight not physically, you fight the ideas. And so, and to go back to happiness, the reason why uh people say, you know, you always seem to be, you know, twinkle in your eye, you always smile, because I'm confident within my personhood. There are no fissures in in God. So, even though I'm not a tall person, I walk as though I'm 15 ft tall. Why? Because I exactly don't have to remember 73 stories. There's only one story I remember. It's called the truth.
+
+[14:38] And so, that's why I think truth and freedom are so fundamental, not just as an existential philosophical thing, but to my flourishing, to my happiness, to why I'm smiling all the time, because I I have a non-fractured personhood. If you liked that clip, check out the full powerful episode here, and I'll see you there.

@@ -1,0 +1,54 @@
+# Our Airspace Is Being Invaded
+
+**Channel:** [[Tucker Carlson]] (`TC`) · Chapter 504 of 990 · Length 9m 31s · [[00 - Channel Summary]]
+**Video ID:** `XrJUczTBILE`
+**URL:** https://www.youtube.com/watch?v=XrJUczTBILE
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 03:13
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] the the stakes in this particular story seem pretty high since the government has evidence that we're not alone in the universe there is some form of intelligent life or something that is creating these crafts they're buzzing the Earth we don't know if they're from outer space they're Spiritual Beings I mean we we just don't know the answer but the government does know but they're lying about it because why and so do does it occur that maybe the the billions of unaccounted Pentagon funds that you mentioned that turn up in every uh accounting process that maybe that they're not lost through
+
+[00:33] incompetence maybe those are attached to programs that we're not allowed to know about I completely think it's intentional Tucker you're exactly right as usual um you know they've been lying about it since 1947 and then all of a sudden we're going to pass legislation and they're going to say oh we're going to come out and tell you the truth I mean this you know Schumer's thing everybody's on me because I'm not really sure about the the Schumer Amendment because it it it basically is modeled after the uh the Kennedy assassination um files in the and here we are 60 years later we haven't done
+
+[01:04] that I I guess it's a good step forward but the reality is we're going to tell them to tell us the truth after they've been lying to us and they've been funding these programs Lou alzando for instance he the program that he was involved with for for the longest period of time they said it didn't exist yet he shows up and he's got a department that works for him and so you know this thing has just been going on like I said at least since 1947 and we know it's been going on maybe for then at some point it's it's a worldwide phenomena we have we have some of the best Pilots not not in East
+
+[01:34] Tennessee the best pilots in the world that are telling me their crafts have been buzzed by this you know and I've had I've had members of Congress say burett you know we need to be on something important well let me ask you what's more important than something in our airspace buzzing 5060 million doll aircraft putting American Pilots at risk and that we don't know who it is or what it is and then we have a government that claims they don't exist and now all of a sudden people like yourself have brought this issue to the Forefront over half the American public believes that they're out there
+
+[02:07] and now the Pentagon is it smells dollars is what I think it is that's why they're they're putting all this out in each department NASA and everybody else has their little pamphlets out now of of you know NASA's I think it said something about we want do robust research well you know what robust research means they want to they want more of your tax dollars I just want them to come for come forward with the with the truthful information that they've been hiding from us for decades do we possess this technology or don't we and if we do where is it and there have been as noted earlier a number
+
+[02:38] of pretty ominous indications over the years from apparently informed people that the US government has been in direct contact with these forces whatever they are the people who created and flew these objects whatever they are but there has been direct dialogue um between the US government maybe other governments and these entities ities are you aware of that has anyone even asked that question to say the president of the United States or someone else who could answer it I'm aware of it and I'm talk to people about it but it's it's just another Rabbit Hole I go down and I have to be real
+
+[03:12] careful Tucker to be honest with you because you would not believe the amount of research and things I've gotten poured on me from all over the world people send me books and and photographs and things and of course a lot of that is I think it's it's fake um because they're trying to get me to embarrass me further I guess in this issue but I'm I'm not biting on all of it I don't usually put any of it out actually just because you know I don't know if any of it's if it's truthful or if it's it's a government entity putting this garbage out to um to uh discredit you know this community or what
+
+[03:44] have you but it's a it's a complete um it just it's it shows the the mistrust the public has of our government and and for good reason yeah it's been well earned so where is this legislation going I mean will there be disclosure short term will these two committee chairman the Speaker of the House Mitch McConnell will they shut it down well the Senate passed it um the amendment to the National Defense authorization act but it hasn't been signed into law yet the house is in negotiations from what I understand over this amendment I'll be talking to the speaker today or tomorrow about this
+
+[04:20] amendment and just telling him how important it is to this community and and transparency that that's really all I want is transparency where we're spending all this money on something and where is it going and why do they not trust the American public those are the things that people need to ask you can you know as I said at the at the hearing I said we're not going to bring in a UFO we're not going to bring in Little Green Men but what we want is transparency and and unfortunately we don't have much of that United States Congress because they'll oh look there's another shiny object over
+
+[04:50] here they'll misdirect us over here they'll misdirect us over there but I believe this community is very very in tune to what's going on and the cover up that's been going on yeah I mean if this if this is real it clearly is real 10 people have come for with security clearances to say yes it's real well the the interesting thing about that was you said 10 and that kind of jogged my memory we asked more than 10 people to to testify before our committee and several of them were scared off they were told by uh their overlords or whoever at the Pentagon that no they could not come speak and then
+
+[05:24] the three that we got were Dynamite obviously um because that really lit the fuse but but there's several more out there and several more have come forward and I was sending a text just was as I was in here getting ready to come on your show from somebody else but again I have to be real careful with those because they get up there and embarrass the whole Community then we we're we're two steps back no that's exactly right and I and I think they've saled disinformation lies uh throughout this story um in order to discredit the people um who tell it last question what you come out with the
+
+[05:59] statement that we played at the beginning of this interview pretty compelling kind of hard to see what the counterargument is what are your fellow me members of Congress say to you about that and what is the excuse that they give you to your face for not disclosing this information to the public well as I've stated many times there's several members have come forward to me some of them fairly prominent in both parties that have actually seen something as a child or in the military or other things um I think now that the the their phone lines have been lit up cuz the UFO Community if one thing
+
+[06:32] they are Relentless and they call and they're informed and they'll they call and and um and some of them actually you know theyve they've called my office in support of me and I always tell them you know I appreciate it but I'm good y'all need to get on with with your own Congressman or your senators and so they they've made a great they've great made a great effort of that and I believe now um at Congress even if they don't believe it they're going to start looking into it because they know this public this this group is is is well well versed and I'm and I'm glad of it because you know the
+
+[07:04] thing that happened to me was they um they started this stuff and then and sure enough I get home and and somebody's running a running a poll against me to figure out my weaknesses and who do you think's doing that so you know and and I fully expect this to be a an issue on the ballot next time I mean me being on the ballot as well um that that would be um you know they're going to be running that against me but I don't I don't think they're going to get anywhere with it because I think they're you know they're still driving around in their 72 Vegas and their blue leisure suits with their
+
+[07:36] zipup dingo boats listed to an eight track tape player I think they're they're a little bit behind the times right now who who do you think just I'm interested who do who do you think did that who do you think's coming after your seat for your willingness to talk about this I think it's probably one or three people you know I don't know maybe any of those people that you mentioned um and there's some that that that there others too I mean that you figure they've got unlimited funds and that that's what scares me about the whole thing they have unlimited funds where they could literally buy a
+
+[08:06] seat in Congress which I know that's that'd be naive of me to think that that's never happened in the past but but um in Tennessee we we are fairly independent people and it and it and that that bothers me a great deal well it's just interesting I mean that they're willing to go to that effort you think they say you know oh bur he's crazy believes in UFOs but they're very threatened by this which tells you that they've got something to hide that implicates them that's that's what I'm learning absolutely they're threatened because people like Tucker Carlson are adding a ER of legitimacy to
+
+[08:38] this thing and they and they know that however M millions of viewers that you have are watching this and they're scratching their head and then and then they're going home to their barber shops and some guy who's who was in the Navy who was on an aircraft carrier and was and saw something and was told by when they got back to report that some men in some suits said hey you didn't see anything this is National Security you ever bring this up you're going to the federal penitentiary and break rocks for the rest of your life you know those stories are coming out daily and it's and it's happening
+
+[09:11] more and more and so I think they're they're they're taking a step back now y people say the news is full of lies can's motorc 239 death of Jeffrey EP [Music]

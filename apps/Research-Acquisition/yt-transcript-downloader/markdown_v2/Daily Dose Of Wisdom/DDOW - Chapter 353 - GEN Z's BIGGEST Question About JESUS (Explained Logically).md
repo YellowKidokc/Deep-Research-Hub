@@ -1,0 +1,45 @@
+# GEN Z's BIGGEST Question About JESUS (Explained Logically)
+
+**Channel:** [[Daily Dose Of Wisdom]] (`DDOW`) · Chapter 353 of 916 · Length 9m 04s · [[00 - Channel Summary]]
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] (https://www.youtube.com/watch?v=ywBT9iUhd0s&t=0s) To the billions of nonchristian denomination, I'm talking about the Jewish, the Buddhist, the confucious morons and so forth. Is their salvation a heaven for them, or are they all condemned to hell? Every human being chooses an identity, it's either chosen, it's either based on the grace of God, or it's basically based on your own performance. Charlie Kirk recently asked Cliff and Stewart this question if you had to really bring it down? What is the limiting current belief of Gen Z?
+
+[00:32] When confronted with the truth that prevents them from accepting Jesus, what would that be? (https://www.youtube.com/watch?v=ywBT9iUhd0s&t=32s) And their answer is actually extremely important. Yeah, moral relativism, for sure, and this white, Western adopted philosophy, which is all religions, are true, and how dare you say that you have the right religion? So they will say, Look at the elephant, look at all paths, lead up to the mountaintop, so all religions are just grabbing.
+
+[00:59] One's grabbing the ear, one's grabbing the foot of the elephant, one's grabbing the trunk and see you got are all just grabbing part of God. (https://www.youtube.com/watch?v=ywBT9iUhd0s&t=59s) What you don't realize is you are not only spiritually elitist, but you are also rejecting the exclusive truth. Claims of 95 of the world. One thing about this that I think is extremely ironic is that the whole coexist concept is basically predicated upon the idea that every one of the letters in that word are actually wrong.
+
+[01:30] It only makes sense if they're all wrong, and in order to say that they're all wrong, that every religion is wrong, the religious pluralist must be right. (https://www.youtube.com/watch?v=ywBT9iUhd0s&t=90s) There's a type of modernistic chauvinism, Western Chauvinism, ironically, that is kind of concern in his heart here. And I want to just say, I get this question, I get where he's coming from, let's play this. The question I'm going to ask is a very, very basic and has been bothering me for many years of my adult life.
+
+[02:27] To the billions of nonchristian denomination, I'm talking about the Jewish, the Buddhists, the confucious Mormons and so forth that truly believe in their faith. (https://www.youtube.com/watch?v=ywBT9iUhd0s&t=147s) That that lived a very good life. According to their fate, my question is, Is there salvation a heaven for them, or are they all condemned to hell? The answer to that from the word of God is they will all perish in hell because there is only one way to go to heaven.
+
+[03:07] There is no salvation in any other name than the name of Jesus Christ, Jesus said, You will die in your sins to the Jewish leaders. Because you believe not on me, because you believe, not on me. John 3,16 So lov the world that he gave his only Begotten son that whoever believes on him shall not perish. (https://www.youtube.com/watch?v=ywBT9iUhd0s&t=187s) There is only one heaven, and there's only one way into heaven, and that is through faith in Christ. It is. It is the only hope that is why we are told to go to the ends of the Earth. Preach the gospel to every creature.
+
+[03:42] Now I know for a lot of you guys, this is obviously a huge trigger warning. John MacArthur does not mince his words. He's shooting as straight as can possibly be. But the question I have, and probably the question that some of you guys have in hearing that is basically, why would why is Jesus the only way? (https://www.youtube.com/watch?v=ywBT9iUhd0s&t=222s) Why wouldn't there be some other options available? How you know, How can, how can you be so narrow? How can you be so exclusive?
+
+[04:16] When there are so many different people in different parts of this planet at different times in history who are practicing religion in different ways? Tim Keller was asked basically the same question at the Veritas Forum. His answer was a little bit different. I think that his answer unfolds a little bit more of the why to the response that MacArthur just gave. (https://www.youtube.com/watch?v=ywBT9iUhd0s&t=256s) So let's do this, do you believe that there is only one God and that there is only one way to approach that? God, if yes, if okay, yes. If I'm speaking as a Christian here.
+
+[05:03] If Jesus Christ is who he says he is, that is if he is the son of God from heaven, if he is, if he really was bodily raised from the dead. And if he was our original creator, I mean, if all that's true, that's what he says. Then, of course, it'd have to be just one way to God because our souls would need him. (https://www.youtube.com/watch?v=ywBT9iUhd0s&t=303s) Or they would shrivel eternally, just like your body needs food, or it would shrivel. I mean, the fact is my body needs food, or it will shrivel. That's not narrow,minded to say that's just the way it is.
+
+[05:37] If Jesus is who he said he is, then our souls would have to get him in order to be eternally full and thrive. And if we don't get him, then we would eternally shrivel. So to say it seems so narrow to claim that there's only one way to God to say that actually precludes the possibility that Jesus is who he says he is. (https://www.youtube.com/watch?v=ywBT9iUhd0s&t=337s) I mean, if he is who he says he is, then that's what we're, that's what we have to say. If he's not who he says he is, then, of course it's narrow.
+
+[06:05] So basically you have to sit down and ask yourself the question about the facts of Jesus life. And look at that and not say I don't even want to look at Jesus. I don't even want to hear the claims of Christianity because they seem so exclusive. Here's all I can tell you unless you get Jesus Christ, who created you to start with unless you are re united with him sometime. (https://www.youtube.com/watch?v=ywBT9iUhd0s&t=365s) There is no eternal future for of thriving. It just makes sense again. I'm trying to go back to this idea that that if he is who he says he is, you got to have him.
+
+[06:36] If right now a person doesn't have them, he needs to, he or she needs to get them. If they if they die, they've never if they if they die and they don't have Jesus Christ, I don't know. In other words, I have a need to know basis. This is the only thing I know you need Jesus. (https://www.youtube.com/watch?v=ywBT9iUhd0s&t=396s) I certainly know that God is wiser than me, more merciful than me. And per I do know that when I finally find out how God is dealing with every individual soul, I won't have any, I won't have any questions about it. Okay, but if this is the only way to God.
+
+[07:21] And if Christians are heading for a place called Heaven, does that mean, therefore, by deduction that millions of Muslims siks Hindus, Jews, all of whom hold their faith with enormous integrity? All of them are heading for hell. (https://www.youtube.com/watch?v=ywBT9iUhd0s&t=441s) There's a lot of people who were born in Indianapolis, Indiana, and they grew up in First Baptist Church there, who are also headed for a christless eternity. Every human being chooses an identity, it's either chosen. It's either based on the grace of God.
+
+[08:01] Or it's basically based on your own performance and your own ability, and therefore on your own self. And if a billion years from now, you've put your hope in the grace of God, you will be beautiful and happy. If you, a billion years from now, youve, put your you based, your identity on your own self and your own abilities and your own performance, you'll be miserable. (https://www.youtube.com/watch?v=ywBT9iUhd0s&t=481s) In fact, you can see it even now. Selfcentered people are miserable even now, not a billion years from now, so there are plenty of people who are raised. Christians.
+
+[08:28] There's plenty of people who were raised in First Baptist Church, but in their hearts have not turned toward the grace of God. People in other religions, unless they find Christ. I don't know any other way. But I also get information on a need to no basis if there's some, if there's some trapo or something like that. (https://www.youtube.com/watch?v=ywBT9iUhd0s&t=508s) I haven't been told about it, but I also don't know. I guess I want to know this. I want to know when a person says I need to know everything about how God is going to deal with in all eternity with all individuals.
+
+[09:02] Before I can bite down on Christianity, I feel that you actually are maybe projecting your American Democratic, individualistic understanding of you really want a president or a governor or a mayor, you don't really want a king. (https://www.youtube.com/watch?v=ywBT9iUhd0s&t=542s) And I can understand that because human kings, human beings are flawed and therefore monarchy was not a very good approach to things. But if you have a perfect God perfect King comes and suffers in Jesus Christ. Then at this, at a certain point, I trust him.

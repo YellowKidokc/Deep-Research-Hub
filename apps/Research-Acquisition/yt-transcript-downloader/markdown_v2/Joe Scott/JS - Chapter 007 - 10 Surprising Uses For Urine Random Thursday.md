@@ -1,0 +1,67 @@
+# 10 Surprising Uses For Urine | Random Thursday
+
+**Channel:** [[Joe Scott]] (`JS`) · Chapter 7 of 763 · Length 11m 43s · [[00 - Channel Summary]]
+**Video ID:** `wGDvJ1NuZMI`
+**URL:** https://www.youtube.com/watch?v=wGDvJ1NuZMI
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-07 04:42
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:15|Part 2 · 10:15]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] look I'm a word guy and I love finding out the origins of phrases and words that we use all the time now because they usually go back to a time and reference things that don't really exist anymore which is why most of them don't really make any sense like the phrase can't hold a candle you always hear people say that you can't hold a candle that guy well where'd that come from well back in the day craftsman had assistants that would light up their workspace with the candle they would sit there and hold a candle while the craftsman did his work so to say that you can't hold a candle to
+
+[00:31] somebody basically says that you're not even qualified to be somebody's assistant but one of my favorites is the term piss-poor it's meant to imply that you're beyond poor like you're not just poor your piss-poor and it's evolved over the years to mean other things as well it also means you've just done a bad job at something like you did a piss-poor job holding that candle jebadiah but the origin of the term piss-poor comes from hundreds of years ago back when urine was actually used to do a lot of stuff so even if you couldn't get a job even if you didn't have anything you could sell you
+
+[00:59] could always sell your urine making you piss poor but things could be worse you could be so poor that you don't have a pot to piss in and I love these little facts because they speak to a time when you had to be more industrious you had to use whatever was at your disposal and now one of the things that we dispose of all the time they used to find quite useful peepee before we jump in today's video yes this is a video about urine I put it in the title I put it in the thumbnail so you clicked on it if you're squeamish this is this is totally on you and if you're really into your and then
+
+[01:39] you're welcome the second thing I want to say before I really jump into this is don't try any of this at home I know DIY stuff is fun and all but you can all go getting this stuff at the store there's no need to you know play around with your pee don't go telling your mom that Jo told you to play with your pee okay just don't urine is a liquid byproduct of metabolism it carries nitrogen rich waste throughout your body and deposited in the bladder for you to then excrete later on it's basically the way the body cleans itself out but some of those waste products while not great for your body
+
+[02:18] are super useful for other things like number one tanning not tanning like in a tanning bed don't go swimming in pee and then jump in a tanning bed that's oh my god I'm disgusted the thing about one component of urine is a chemical compound called urea which eventually will break down into nitrogen try hydride also known as ammonia when you mix us with water it creates a weak base with a high pH level that does a really good job of breaking down organic compounds this makes it an ideal tool for softening and tanning leather which without it you would have to beat for hours just to make the
+
+[02:48] leather a little bit pliable also soaking animal skin and urine makes it easier to remove bits of hair and flesh which is a sentence I never thought I would have to say number two dying again not like you're dying but dying materials dieters who worked with textiles back in the day used to use urine as a mordant which is basically a sealant that kind of helps the fabric to grip and hold onto colors this actually cut down on the time that it took four tires to get textiles to take it on a color but it also prevented long-term fading nowadays we use direct dyes which are chemically altered to
+
+[03:22] have binding agents involved and infused into the dye but the fact that urine was actually so useful and valuable for this back in the day that the Romans actually put a tax on urine so if you think the we're over tax these days at least you're not being taxed every time you take a piss when the son of emperor vespasian complained that taxing urine was disgusting the emperor responded by saying thick 'union non Alette which means money does not stink clearly the emperor never stuck a dollar in my shoe before number three laundry so money might not stink but urine often does which is kind of
+
+[03:51] weird to think that for a long time it was actually used as a household cleaner in Roman times urine was often used as a cleaning solution for dirty laundry once again the ammonia involved in it helped to keep up with the whites brighter and keep the colors from fading take that Tide Pods number four whiter teeth laundry was not all that they used urine to clean again the Romans back in the day they used to use urine to swish around on their mouths to whiten their teeth then I mentioned don't try this at home speaking of teeth and urine in China right now some researchers are working on ways
+
+[04:26] to use stem cells derived from urine to actually regenerate dental tissue it's a fascinating study way too complicated to talk about here I'll put a link to it down the description and number five survival of course anybody who's seen an episode of man vs.
+
+[04:58] wild with Bear Grylls knows that in desperate survival situations sometimes the best option is to drink your own piss even so most experts agree that drinking your urine will only extend your life for a couple of days at most the reason is that every time you ingest your own waste matter the waste matter in your body builds up and builds up until it becomes toxic eventually but it's a basic idea that we still use today up on the space station they use this thing called the forward osmosis bag to turn urine into drinkable water just make sure you're drinking from the right end of course in
+
+[05:12] times gone by drinking your own urine was considered something of a folksy health supplement that you could take Gandhi apparently did it Madonna did it once upon a time because those two are the same the general claim is that there are leftover nutrients in the urine that can kind of replenish the body and calm the mind and I'm just going to leave it at that did I mention don't do what I'm saying in this video people but if there is one particular field where urine has been especially helpful it's the medical field number six medical diagnosis in ancient Greece Hippocrates helped to sort of
+
+[05:48] you'll arise the idea of using urine as a way to diagnose medical conditions his way of doing it was based on the idea of humor ISM the idea that the body had four humors that you know had to be kept in balance in order to keep diseases from happening this is way outdated at this point but he was surprisingly effective at diagnosing things this way he was especially successful at diagnosing different kidney diseases but Galen in Roman times many centuries later actually was able to use it to diagnose wheat today called diabetes number seven pregnancy tests pregnancy tests are nothing new like
+
+[06:17] remotely new I mean arguably back then knowing that you were pregnant ahead of time was a lot more important than today with you know the timing of planting crops and whatnot and the unavailability of you know medical stuff back then popular method back in ancient Egypt was if a woman thought she might be pregnant the idea was she was supposed to pee over wheat and barley seeds over the course of several days and if the wheat seeds sprouted then that means that she was pregnant with a girl the barley seed sprouted she was pregnant with a boy and if neither of them sprouted she wasn't pregnant
+
+[06:46] all now that sounds bananas it is but this was recreated in the 20th century under medically supervised conditions and it was accurate 70% of the time number 8 fertility speaking of pregnancy in the 1960s a physician named Bruno legen field actually created a fertility drug using the urine of menopausal nuns menopausal because when a woman goes through menopause her pituitary gland actually over produces hormones to sort of release all the eggs at once it's kind of a going-out-of-business sale and nuns because I don't know maybe he just have a thing for nuns number 9 sterilization in some
+
+[07:23] cases urine can be used to sterilize wounds a barber surgeon in the 1500s named Leonardo Fioravanti famously used his urine to sterilize a man's excised nose before sewing him back on his face Oh doctor hurry up oh it hurts what are you doing Henry the eighth's personal sergeant Thomas Vickery advised that all battle wounds be washed and urine to sterilize it and he also recommended using it for gangrenous ulcers and venomous stings you're thinking about that Friends episode right now aren't you Chandler Bing it should be noted that while urine is mostly sterile it can contain bacteria so
+
+[08:00] this is an really a recommended treatment these days having said that back in those days urine was probably a cleaner option than the water supply which people and animals bathed and dumped their filth into there was actually a huge medical breakthrough involving urine in 1828 German chemist friedrich wöhler was actually able to recreate urea in a lab using silver cyanate and ammonium chloride this was the first time anybody ever created an organic compound from inorganic compounds in a lab which was a huge breakthrough not just for the fact that it was the first time that that was done but
+
+[08:30] back in the day they really believed that humans were separate completely from nature and this went against that this opened up the field of organic chemistry which produced numerous and medical treatments after that not to mention things like plastic and nylon and number 10 war because hey you know if something exists humans are gonna weaponize it gunpowder is comprised of 15% charcoal 10% sulfur in 50% potassium nitrate while those first two ingredients are really easy to come by potassium nitrate not so much easy to find in nature but it is found in your pee as weapons of war evolved and
+
+[09:06] gunpowder was more necessary armies actually took to collecting the urine from their soldiers to collect the potassium in it potassium that could be used in a months-long process to create potassium nitrate further on in the timeline in World War one gas attacks became a common thing and gas masks weren't always plentiful so soldiers we're told to urinate on socks or handkerchiefs and hold that over their mouths to protect themselves from gas attacks the idea being that the ammonia and the pee would help protect against the chlorine and the gas it wasn't a perfect solution but it did help
+
+[09:41] mitigate the melting of your lungs so that's good I'm just write this down reason 5 million in 72y World War one was a freaking nightmare so like this is kind of fun to look back and see all the different ways that we use urine it's kind of a ha ha talked about it at work kind of thing but somebody got to keep in mind this wasn't just some funny thing that happened along the way in our past this was the beginnings of organic chemistry as we know it back then we didn't really know why these things worked we just knew that it worked you know we had the big picture and then later as we figured
+
+## Part 2 · 10:15
+
+[10:15] out why it worked knowledge something also to keep in mind is that it wasn't weird back then in fact the way we used urine and things like that back in the day that's the way it was done for the vast majority of human history we are the aberration but actually even today we're still coming up with new uses for urine in Nigeria for teenage girls created a urine power electric generator the device they built actually stores the yarn in an electrolytic cell which separates out the hydrogen and uses that to generate electricity one litre of urine results in six hours of electricity and
+
+[10:49] researchers at the University of the West and England and Bristol had pointed out that bacteria feeding on urine produce enough electricity to power a cell phone within the next few years they say we could have a quote smart toilet that you can pee into and then use it to charge your phone overnight and these same researchers hope to eventually get their microbial fuel cell large enough to actually power an automobile as Richard Tsao a writer for The Guardian said about this quote perhaps one day drivers won't stop to use the toilet but use the toilet so that they don't have to stop at all
+
+[11:16] I'm guessing the gas cap would be on the inside of the car at that point well anyway thanks for coming with me on that urine-soaked adventure I hope you enjoyed it if this is your first time here maybe check out this video because Google thinks you might like that one or any of the others down here on the side that have my face on it and if you do like those and you want to see more I invite you to subscribe but come back with videos every Monday and every Thursday and that's it for now you guys go out there have an eye-opening rest of the week and I'll see you on Monday love you guys take
+
+[11:41] care

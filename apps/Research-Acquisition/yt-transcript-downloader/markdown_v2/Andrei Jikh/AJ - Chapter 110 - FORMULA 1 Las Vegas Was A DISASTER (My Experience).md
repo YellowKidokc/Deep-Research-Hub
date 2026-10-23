@@ -1,0 +1,65 @@
+# FORMULA 1 Las Vegas Was A DISASTER (My Experience)
+
+**Channel:** [[Andrei Jikh]] (`AJ`) · Chapter 110 of 322 · Length 11m 23s · [[00 - Channel Summary]]
+**Video ID:** `ZnekQGL2ShQ`
+**URL:** https://www.youtube.com/watch?v=ZnekQGL2ShQ
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-25 12:06
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:19|Part 2 · 10:19]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] so F1 is finally here in Las Vegas I was there last night for the first practice session and it was a disaster now I'll get to that in just a minute but let me rewind and show you how it all began in 1982 Formula 1 raced in the parking lot of the Caesar's Palace Hotel and Casino there was an estimated 40,000 people in attendance and it was 100% free to go and watch but fast forward to 2023 and Formula 1 is returning to the famous Las Vegas strip and it's all happening this weekend 20 cars will race around a top speed of 210 mph around a 3.8 M track buzzing past casinos and historical
+
+[00:36] landmarks of the biggest playground in the world the construction of the track was done in just under a year and it's set to become the biggest live event Las Vegas has ever hosted with an expected turnout of over a 100,000 people per day this will be considered one of f1's most expensive Investments of all time with a cost of over $500 million but if they can get it right this three-year contract has a potential to be extended to an extremely lucrative 10-year deal and the pressure is on because the event is estimated to generate $ 1.7 billion for the city which is about twice as much as the
+
+[01:09] Super Bowl but there's a problem actually there's a lot of problems locals are upset with construction that they've endured for over 9 months temporary bridges that now block their path from getting to work visiting tourists have also had their views blocked and they're upset this event has completely ruined their entire trip ticket resale prices are also collapsing by more than 50% in some cases there's instances of canceled promises that have left fans and locals feeling like they've been scammed and overall there's a pressure on the city's police and the local government to provide funding
+
+[01:38] and Catering to every request of Formula 1 and as a Las Vegas local of 25 years long who was just there last night at this event I do feel the pain of a lot of these criticisms and I want to share with you the issues facing this event it's about to be a crazy ride so let's get into it hi my name is Andre J hope you're doing well come for the finance and stay for F1 so I'll start with my own personal experiences because obviously my problems are more important than everybody else's now personally I like cars but I've never been a huge F1 fanatic I do know that Max verstappen is probably going
+
+[02:10] to win this season because he wins like 85% of all the races and he's really good and I somehow know that this guy Charles the Clair which you got to pronounce just like that is the ladies man some might even say he's got a head start on life the point is my girlfriend's been super excited to go to this event so back in March of this year I got an email that allowed me to buy the tickets in a pre sale through American Express platinum's invite where I purchased two tickets and it was a full 3-day event starting with the practice session which was last night on Thursday now it was supposed to start at 8:30 p.m.
+
+[02:39] and to everyone's surprise it started on time but 9 minutes into the practice session one of the Ferrari drivers hit a loose drain cover that ignited a huge amount of Sparks and caused millions of dollars in Damages to his car the track was deemed not safe and the first practice session of the day which was supposed to last an hour was completely cancelled they had to cover 40 of these holes throughout the track which apparently they somehow did not account for we were then told that the second practice session would resume is scheduled at midnight so we stayed an extra 3 and 1/2 hours and by
+
+[03:12] midnight there was no more news other than a rumor that it could be delayed as late as 2:30 a.m. now I didn't want to stay that long because the session itself lasts an hour and it would take us about an hour just to get back home so we left but then at 1:30 a.m.
+
+[03:42] they announced that they were closing all the sections to the public and the practice session would be held in private and that's kind of all a bummer because that's a third of the experience that's now completely gone that people paid for that's day one of three now day two of three happens to be today and that's the qualifying race which determines who gets to start at the front of the race which is also known as the pole position and then the final race day takes place on Saturday so I'll get to find out tonight if they repaired the road but that was my first day of the experience and
+
+[03:56] that's not even the half of it let me show you these ticket prices now at the time of pre-release you had to be waiting on the website at the exact moment of the drop which was like 10:00 a.m.
+
+[04:27] and the cheapest general admission ticket you could buy was almost $800 and that was only for the standing tickets you wouldn't even get a seat with that and that meant for someone like me who's not super tall we wouldn't even be able to see anything but prices went up from there including 12,000 per person VIP packages I saw 155,000 for packages from the major hotels and even some experiences like the one from the wi Resorts which were selling for $1 million and if you think that's high Caesar's Palace not to be outdone sold something called The Emperor's package which offered a five night
+
+[04:38] stay at the noble Sky Villa and that had a price tag of $5 million all of which to say is that the starting price of some of these tickets was extremely high and yet the initial tickets sold out in just a couple minutes creating the illusion that this was a highly anticipated event which had very limited capacity the reality though is that they got too greedy and they charged people way too much to begin with and now the prices of some of those tickets have dropped by as much as half and that includes hotel prices as well in fact over 10,000 tickets have not been sold yet here's just a map of
+
+[05:09] one of the sections where you can see the spots in blue Mark the areas that are not yet sold and purple which is people trying to sell their tickets there's just a lot more Supply than there is demand and that's why the people that bought their tickets really early on like last year feel like they've been scammed but that's just the start of all the problems because the bigger problem is Liberty Media which is the company that owns F1 now a huge shout out to Jacob's life in Vegas who did an incredible expose video on this if you haven't seen it I'll leave a link down below but Jacob sums it
+
+[05:40] up really well so 100,000 Hospitality workers have had their lives disrupted for months millions of tourists have had their vacation time interfered with and throughout all of this the details for the finances for this project were not finalized that's right so the lvc CVA which is the Las Vegas Convention and visitors Authority signed a deal with Liberty Media before they figured out the money part the thinking was hopefully this event would bring the city so much money that it wouldn't even matter who ended up paying for it but so far Liberty Media has made a horrible impression on the
+
+[06:16] city's locals and the businesses because one of the first things they did was threaten local businesses to block the city's views unless they paid millions in licensing fees in fact F1 cares so much that people don't watch this event for free that they tried to charge $1,500 per person up to the max capacity for all the clubs and restaurants on the Strip so if you're a restaurant that's on the strip and you have a Max Capacity of 1,500 people you'd have to pay 2.25 million just to make sure they didn't obstruct the views with their lights and bleachers now as a result of that F1 got so much
+
+[06:52] push back they eventually lowered prices to a flat fee of only $50,000 per venue but that doesn't change the fact fact that they have gone out of their way to make sure that they block the views of this race from anyone trying to see it and that includes putting up barricades and Banners on the bridges and even posting a sign that says they're clearing the underground tunnels in Las Vegas where there are communities of homeless who have made it their shelter and that's just one example of the kind of corporate greed that upset a lot of people but another example is that during the building
+
+[07:22] process F1 demanded that the city pay for half of the $80 million Paving costs and that angered a lot of locals because Liberty Media also happens to be worth over $20 billion so why then would one of the most valuable brands in the world ask the city to pay for it with tax money so far Las Vegas hasn't agreed to do it but presumably if this event brings enough money to Los Vegas than they would at some point but so far we won't know until after the race what we do know though is that it could bring over 13 billion to the local economy but the question is who actually benefits who sees the
+
+[07:58] 1.3 billion do is it the largest corporations is it our service people is it the education system so far no one knows for sure but according to the commission chairman $100 million in taxes May benefit education and Healthcare key word though is May benefit they also estimate 7,700 jobs have been created with $360 Million worth of payroll which works out to be around $ 46,7 53 a person but still the question is are those jobs permanent or will they disappear here once F1 leaves because Las Vegas's economy is based on tourism it's a service-based economy where employees rely on tips and
+
+[08:35] people's generosity and European culture which loves F1 has a very different mindset when it comes to tipping so much so in fact that the Nevada taxi cab Authority board decided to get ahead of this by imposing a $15 search charge on top of people's cab fairs during the F1 weekend they even released a map that shows all the different city zones and the minimum cab fairs for for driving there and that's a small way to compensate Las Vegas drivers who have had to deal with the increased traffic times but the Las Vegas economy is more than just our drivers it's also the weight staff the
+
+[09:09] bartenders valet front desk housekeeping and so much more will all those people see an increase in benefits enough to offset 9 months of tripled commute times and all the other things they've had to deal with in just 3 days some people say there's just no way that a 3-day weekend of business will compensate for all of that so far there have only been just a couple benefits of F1 coming to Las Vegas and the first benefit is that the Las Vegas Strip now that it's paved to F1 standards feels extremely smooth I drove in it last night and it felt like hot butter on a bald monkey it was amazing but
+
+[09:44] the real benefit I would say is an increased wage for union workers imagine if all the people that served the food and drink for an event like this decided to call in and not show up that was the plan for this this week on Wednesday over 25,000 people were prepared to go on strike to demand better wages but just before it happened Caesar's entertainment and MGM Resorts came to an agreement to give the largest wage increases ever negotiated by the union workload reductions mandated room cleaning daily and increased workplace safety protections and that's a massive win unfortunately not
+
+## Part 2 · 10:19
+
+[10:19] everyone who works in Vegas Works within a union but this is still a master class in negotiations negotiate when you have leverage ask for more money before you do the thing not after ultimately F1 did Issue a public apology for disrupting the city but most of us locals are still skeptical that the costs might not outweigh the long-term benefits as for me I'm off to go endure this crazy traffic in cold weather for her birthday but I'm just hoping it doesn't rain because if it does the whole experience is going to go like [Music] this for now though in true Las Vegas fashion I feel like this
+
+[10:57] whole 500 million dooll thing is just a gamble but if you want to keep up with me I'll be posting my stories on Instagram so follow me there if you're not already and as always I hope you have a wonderful rest of your day smash the like button subscribe if you haven't already don't forget to grab your free stocks links are down below and then go track them automatically with the spreadsheet linked Down Below in my patreon love you thank you so much for watching this video I'd love to see you back here on Monday Friday sometimes a Wednesday see you soon bye-bye

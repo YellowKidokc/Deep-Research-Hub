@@ -1,0 +1,43 @@
+# Bill O'Reilly Reacts to His Viral Freak Out
+
+**Channel:** [[Tucker Carlson]] (`TC`) · Chapter 60 of 990 · Length 8m 35s · [[00 - Channel Summary]]
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] (https://www.youtube.com/watch?v=KONCZhwWq6E&t=0s) I have to, I can't, I just can't resist, and I don't mean this as a criticism because I actually love it. But the most famous video on the Internet is You shot off camera in a previous job before F What am I doing? Going live is that you're going live? We'll do it live, Okay, we do it, live it, do it live, I can, I'll write it and we'll do it live thing sucks. I was in Iceland and I had some gnome come up to me, goes, You're the going live guy. I said, What, I'm in Iceland, that was in Rikic, Yeah, and I'm it's all over the world.
+
+[00:39] (https://www.youtube.com/watch?v=KONCZhwWq6E&t=39s) I mean, there are Japanese guys going a life guy. I mean ridiculous, so I'm on Inside Edition and they can't tape it every two minutes they go, Oh, we didn't get the audio, Oh, you were out of frame. Oh, there's a giant glob on your ear and they couldn't get it taped. So finally Irish guy, went he. We do it live, do it live, I can, I'll write it and we'll do it. Live thing sucks and there it goes everywhere, exactly what happened. Thank you're welcome. I've wondered about that, but here's what people don't understand about television news.
+
+[01:23] (https://www.youtube.com/watch?v=KONCZhwWq6E&t=83s) It's like professional football, the N.F.L. If you are a talent, both Carlson and I are a talent. That's the what they call us because we're on television. You have to beat the shows that are up against you, right? So when I was at Inside Edition, I had to beat Wheel of Fortune or whoever I was competing against. Okay, or at least come close. You have to beat the other team and if you do beat them like you did and I did, then you're rewarded with money, not love, not loyalty money.
+
+[02:05] (https://www.youtube.com/watch?v=KONCZhwWq6E&t=125s) It's a pure play, so when personnel changes, then it's all thrown into chaos. So Tom Brady leaves the New England Patriots right. Yeah, the entire dynamic of the organization changes now, some might say, for the better, some might say for the worst. But it's totally different without Tom Brady. But here's where the analogy breaks down. The Patriots didn't fire Tom Brady the minute he won the Super Bowl and then denounced him as a sex criminal or a racist. So why would you fire the guy in your case?
+
+[02:44] (https://www.youtube.com/watch?v=KONCZhwWq6E&t=164s) For example, who had dominated the space was continuing. Still, number one like that just seems acting against interest, like Why would you ever fire the top guy? Matt Laau actually asked me that question Yeah, good question, okay, and he asked me it on the today's show in a kind of huy way. I said was business pride Goeth before the fall? So I never asked them why they did what they did ever, but why attack? Listen to me from that, this is important. I never asked them why they did what they did.
+
+[03:16] (https://www.youtube.com/watch?v=KONCZhwWq6E&t=196s) I accepted it okay, and then, as I said, we got the contracts in order. But at the time they were trying to buy Sky News. And the Sky operation runs all the soccer in Europe. Huge moneymaking. Oh yeah, all right, News corpor. Trying to buy them, the British regulators were giving them an awful hard time for a number of reasons. And in my mind, I thought that might have something to do with it, but I have to tell you this. Honestly, I didn't care. I had been there for 20 years. I was time for a change.
+
+[03:56] (https://www.youtube.com/watch?v=KONCZhwWq6E&t=236s) When I started cable news, it was nothing but I knew it was going to be huge. And then I said, You know, what's going to be the next huge alternative independent media? Yes, and I just scampered on over to it. I think there was a week only a week before I started. BILL OY.COM We already ended up and running as a news operation. I took a number of people from Fox with me, good people, and to this day it's been six and a half years. It's the most SU successful independent news agency in the world world.
+
+[04:29] (https://www.youtube.com/watch?v=KONCZhwWq6E&t=269s) Where? But so you didn't spend any time locked in your bedroom with a bottle of vodka at all? No, I don't drink, I'm too boring to drink, that's why I don't drink never. I don't think feeling sorry for yourself is a good use of anybody's time. Yeah, I accepted the situation, which is the key to life. I knew I wasn't going to change it right. They made a decision, they made a decision, so why am I going to brood about it? I, me a lot of Irish guy's brood. Yes, it's a it's a brooding island, it is, but I'm not really a brooder.
+
+[05:03] (https://www.youtube.com/watch?v=KONCZhwWq6E&t=303s) I'm like, Okay, that happened. The concern I was for my children, I protected my children as best I could, and I succeeded on that, I think, but for me it was now we're going to do this and we're going to make this sing, and we have amazing. So, you know, you lost no time, none. In fact, I was writing books, I was doing radio, I mean, my radio franchise stayed right where it was. Nothing happened there at all. Nothing happened in publishing. I mean, you know, Killing The Witches is the 13th killing book.
+
+[05:39] (https://www.youtube.com/watch?v=KONCZhwWq6E&t=339s) There was no interruption in that the only interruption was on cable news, and so I went to another news forum. How did you keep yourself from getting bitter? Though? I'm just bitter about everything anyway, so that Wasy def. Yeah, I was like, Oh, you know, how much more bitter can I get? I'm just bitter 247. I have what they call an edge to me, all right, and so, but again, where's that from Leev Town?
+
+[06:15] You know, after World War II, the baby Boomers, 100 kids, and if you they didn't like you, it was like, Okay, here we go, no kicking, though we had rules at L No kicking brawling, couldn't kick had pre UFC. (https://www.youtube.com/watch?v=KONCZhwWq6E&t=375s) Yeah, no tattoos at that time, but anyway, I have a philosophy of life that I've developed, and I stick to it in that discipline. I don't. I don't go to a psychiatrist because why drive them crazy? You know, that's not fair to the psychiatrist. If I would walk in, I don't do any of that.
+
+[06:49] You know, I think I'm here for a reason put on the planet for a reason. I'm try to be an honest guy. And I make everybody that I work for money. (https://www.youtube.com/watch?v=KONCZhwWq6E&t=409s) But you know what, the greatest thing is, I'll never work for anybody again. I run my own show now, so is that the future? I me, what is? You said? You worked everywhere in television, right, like, What is the future of cable news, What is the future of news? Cable news will be there. Yeah, but it's like the network news.
+
+[07:19] When was the last time you said you heard somebody say, Wow, did you see that on? NORA ODONNELL What was the last time you heard somebody say that I don't think I ever have? No, no, but when Kronite was there, yeah, and rather, and Broka and Jennings do his juice. (https://www.youtube.com/watch?v=KONCZhwWq6E&t=439s) Yeah, it was a real thing. So Cable stay where it is and Fox will win, by the way, because Fox has better talent. Fox wins. Not because of this ideologic, although they have an advantage because traditional Americans have nowhere else to go except Newsmax.
+
+[07:58] But Fox has better talent, the talent is better and that's it, so people gravitate to talent. I train waters, Jesse Waters, I train them, Okay, so whether you like them or not, he's talented, for sure. (https://www.youtube.com/watch?v=KONCZhwWq6E&t=478s) L is talent, Hannity's talented, He can deliver a broadcast. Did you give Jesse advice before he started? I only give advice when people ask me, so you yourself have never asked me for advice, but that's totally false. I did. I slept to your No, that is totally. When I took over, I waited in the anti room of your office. Yes, I did.
+
+[08:33] It was in fact, Els told me, Go Kiss O's ass, and that's the first thing I did. A man never stands so tall as when he stoops to kiss an ass. What what did I tell you? (https://www.youtube.com/watch?v=KONCZhwWq6E&t=513s) Said? It's a very treacherous business, Mind your own business, Just stay in your own lane, do your thing. Okay, I thought that was a good advice. Yes, it was okay. I'm sorry, but I'm old now, so I forget things right. What's your name again? Y Heard people say the news is full of lies. Can's Motor C 239 Death of Jeffrey EP.

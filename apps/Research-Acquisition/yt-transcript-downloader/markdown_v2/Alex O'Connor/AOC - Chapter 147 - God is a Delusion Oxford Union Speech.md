@@ -1,0 +1,50 @@
+# God is a Delusion | Oxford Union Speech
+
+**Channel:** [[Alex O'Connor]] (`AOC`) · Chapter 147 of 419 · Length 9m 55s · [[00 - Channel Summary]]
+**Video ID:** `cS75cQocF1c`
+**URL:** https://www.youtube.com/watch?v=cS75cQocF1c
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-07 03:00
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] [Music] Madame President it's good to see you again D and I met about a month or so ago on a boat uh by sheer coincidence on the river temps somewhere and I was told that there was an upcoming debate at this Union that Michael Shermer had pulled out of that was on essentially the existence of God or whether it was a delusion and that they were in need of a replacement speaker now I won't go as far especially given the circumstances to call this Providence however it does leave you with a slight sense that there might have been more than chance at play in bringing me to this chamber tonight
+
+[00:36] but it is exactly that kind of thinking the seeking of agency and design where there is in fact none that I've traveled here in an attempt to dispel we've heard a lot about arguments but as a psychological phenomenon I wonder how relevant these really are to God belief that is when you hear somebody recounting a conversion Story how often does it really begin with premise one you're more likely to hear a narrative or a story some kind of an account of an experience indeed the most high-profile conversion perhaps of this Millennium happened just a few weeks ago when the fifth horoman of new
+
+[01:10] atheism aan hery Ali announced in a long and celebrated essay that she had embraced Christianity I was far from the first reviewer to notice something rather peculiar about this publication that is its somewhat conspicuous lack of arguments for the existence of God or for the truth of Christianity instead she devoted the entire thing to talking about culture she talked about the looming threats of Russia and China of global islamism of wokeism I think that an essay which mentions Osama Bin Laden Vladimir Putin and indeed Professor Richard Dawkins exactly as many times as it mentions Jesus
+
+[01:52] Christ might tell us that we're looking at a conversion that is at best insensitive to the truth claims of religious belief and instead an attempt to escape or or a result I should say of a desire to escape certain unfortunate social realities that is where God appeared in a dream to Joseph or to Zachariah it seems that the president of Russia appeared in a nightmare to aan her Ali and also endowed her with a skill that I'm unable of which is to adopt a belief simply because of its political or existential convenience again perhaps my desire for my philosophical convictions to be you know
+
+[02:33] true is just too high uh a margin to demand what I really want to ask is whether this should be any kind of surprise this approach I mean there is some recognition even amongst the religious that this is at least in part what religion does what religion is it provides some kind of unifying ethic to suppress the more depraved elements of our human nature Eveland war was once uh asked how he reconciled his private Hedonism and gluttony he was accused of being rude and and self-indulgent how he reconciles this with his professed Christianity he accepted the charge and simply said can you imagine
+
+[03:09] how much worse I would be if I wasn't a Catholic fair enough um I think that I'm far from the first to suggest that religion is in essence nothing more than a mtic entity that serves some kind of social purpose like this that's what it's for but isn't actually true and I'm glad to hear that at least one member of the opposition this evening seems to agree with me I'm not sure if you'll see it that way too ladies and gentlemen but I won't say that I know this is the case of course I I can't do so I will simply ask a question of you what would you expect to see if God existed and all of this
+
+[03:45] was being supervised what would you expect the world to look like how would you expect life to have evolved and if we assume the alternative hypothesis that is atheism materialism that is that the world we find ourselves in is just an amoral Arena of accidentally existing organisms competing in an endless struggle for survival what would we expect to find and what do we find a system of natural selection which explains the Origin of Species on planet Earth that does not just cause or bring about but relies upon suffering and death survival of the fittest is the same thing as the death and
+
+[04:20] destruction of the unfit 99% plus of all of the species species let alone animals that have ever inhabited this planet have been brutally wiped from existence and for what for our development it seems that unimaginable Indescribable and seemingly inexplicable suffering is embedded into the very mechanism by which I'm told God decided to create human beings I'm not saying this can't be explained on theism I I of course I can't say that you could say that this is all part of some grand plan of jobian proportion in its unintelligibility ility maybe there's some kind of compensation in the
+
+[05:00] afterlife maybe dogs do go to heaven after all Shore I'm just asking you what you would actually expect to be the case I think that we wouldn't expect to see anything like what I've just described if we assume that there is a benevolent invigilator overseeing the process however if we assume atheism not only do we come to explain this phenomenon but in my view we also come to expect it if I'm wrong however if the truth of theism is indeed as plain and graspable as many on the opposition would doubtless like to suggest this evening then I must ask why religious belief has traditionally if not
+
+[05:35] essentially delusional in essence relied so heavily on if you like non-rational modes of convincing a sign as sure as they come of delusional belief is an inability to muster and a resistance against rational defense of that belief especially in the face of Challenge and most evidence when the threat or enforcement indeed of suppression or physical violence uh violence is substituted in its place that is the place of rational argument and this hardly needs explication just 600t from the door of this chamber there's an easily missable cross on the floor of Broad Street which marks the spot
+
+[06:10] where three Bishops of the Church of England were burned at the stake not even for being the wrong religion but so close the wrong denomination the wrong interpretation of the words doctrinal disputes like this have a long and violent history within the religious tradition and I think it's worth asking why that's the case oh you think that the Sun you think that the sun proceeds from the father alone not the father and the Holy Spirit you're about to find out as you meet your maker wherever religious authorities have had the political power to do so I would say and found the threat of
+
+[06:46] Otherworldly Hellfire to have somewhat lost its efficacy on certain people then it provides or they provide shall we say a corporeal simulacrum of this bringing the Flames into our own veil of Tears providing a very worldly Inferno to ready the heretic for The Inferno that's to come in Hades reducing Heretics to literal ashes in the full view of anybody else who might have the tarity to compare to to question or to challenge the authority and compassion of the church why might a religious tradition which I'm told is balanced upon reason and provability evolve such a kneejerk mortal resistance
+
+[07:28] to Freedom of thought of course in our modern Agee where the state is no longer the principal auxiliary of religious violence I of course understand that that's the case this is something that happened hundreds of years ago now that ignoble mantle is taken up instead by individual religious Fanatics who cannot and will not be deterred by the morality of their fellow creatures or indeed by the laws of their country because there is no legislation written by any person of any time that could even count one iot against the dictates of the supernatural creator of the universe access to to whose
+
+[07:58] precise and exacting will is of course only a delusion when it's somebody else's God when it's the wrong God if that's not the case then not only is this belief in God and access to his will not delusionary but now I'm told is actually a prerequisite for reason for science for Morality all of the noble Pursuits that Humanity entertains this despite the fact that most of the important developments historically in all of these areas have regularly been made by dissidents who subverted the clerical authoritarianism of the very religious Traditions that now wish to claim these developments as
+
+[08:36] their own touch scandalous I think you'll agree I hope you'll agree I should say again I can simply ask you what best explains this psychological condition might this suppressive and sensorial historical attitude which seems essentially tied to the history of religious thought be compatible with the truth of religious claims of course absolutely is it best better explained by an inability to provide serious and conclusive rational defenses of those beliefs Maybe Might this also explain the characteristic taboo on the criticism of people's religious belief that survives with us in many ways to
+
+[09:16] this day perhaps also I'm not sure might this also explain why Faith as we've already heard that is belief without evidence just reflect on that for a moment the might also explain why this is proposed as a virtue and indeed the foundation of belief in God blessed after all are those who believe without saying without seeing I don't know it's not really for someone like myself who strictly speaking is is an agnostic it's not really for me to say but I can only leave it with you and I suppose the remainder of the opposition thank [Applause] you

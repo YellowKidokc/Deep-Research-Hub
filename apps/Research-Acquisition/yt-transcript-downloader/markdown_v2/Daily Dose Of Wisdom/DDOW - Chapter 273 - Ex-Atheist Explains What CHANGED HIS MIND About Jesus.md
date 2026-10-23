@@ -1,0 +1,53 @@
+# Ex-Atheist Explains What CHANGED HIS MIND About Jesus
+
+**Channel:** [[Daily Dose Of Wisdom]] (`DDOW`) · Chapter 273 of 916 · Length 9m 24s · [[00 - Channel Summary]]
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] (https://www.youtube.com/watch?v=rh83sFPy73E&t=0s) I've been a Christian for a few years now. I grew up an atheist. My whole household and whatnot. And I've seen, you know, God do major work in my life. One of the big things is that I was lustful. And now I and it's it's God is cleaning that away from me. He's He's taking that away from me. (https://www.youtube.com/watch?v=rh83sFPy73E&t=23s) And that that to me is miraculous because I never thought that would be a possibility for me. So, it's it's it's amazing.
+
+[00:23] I asked him, "Hey, you know, please take away my lust." and I believe in the resurrection. (https://www.youtube.com/watch?v=rh83sFPy73E&t=38s) I believe in that. And I think he came through and did that for me. So, I have major respect for God and everything like that. That's so cool, man. I Do Do you mind sharing like just a little bit about your journey from being an atheist to the place that you are today? Because I spend so much of my time thinking about how to build a bridge into the mindset of an atheist in an effective way for Christ.
+
+[00:38] And so, I mean, maybe I have something to learn from you. (https://www.youtube.com/watch?v=rh83sFPy73E&t=72s) So, I looked at the historical record of Jesus. And that's how I came from being an atheist to a Christian initially. That was the big focal point for me. I actually didn't even know much about Jesus. You know, I didn't I didn't ever think about whether or not he was a real person or whatever. I was just completely apathetic to that whole thing. But then I started to learn more about Jesus.
+
+[01:39] (https://www.youtube.com/watch?v=rh83sFPy73E&t=99s) And over the last few years, I've looked very deeply into the resurrection. And to me, it's so amazing what Jesus was able to accomplish there. I mean, first and foremost, the whole message of God raising his son and then exalting him to his right hand. That's beautiful. (https://www.youtube.com/watch?v=rh83sFPy73E&t=115s) But also, when we look at the evidence, right? You got this widespread of people. You got an enemy like Paul. You got James who was, you know, you can argue was a skeptic of Jesus. You got the disciples.
+
+[01:55] You got this widespread of people and individually and in groups seeing Jesus after he was crucified. (https://www.youtube.com/watch?v=rh83sFPy73E&t=136s) Now, that's pretty big-time stuff. And when I tell this to other people, some people resonate with it, others don't. But to me, that really resonated with me as an atheist. Also, fine-tuning, like Hugh Ross. I don't know if you talked to him on your channel. I love Hugh Ross. Yeah, Hugh Ross was, you know, I was I didn't like the creationist stuff, like the young Earth stuff.
+
+[02:16] So, I was looking for people to that held the same like beliefs that I would if I were to be a (https://www.youtube.com/watch?v=rh83sFPy73E&t=166s) Christian, which is like I believe in evolution and all of that. And Hugh Ross with the fine-tuning stuff, that was awesome. And his passion and the passion of all of these people, like even Cliff and stuff, like these people are really helping a new generation become Christian. (https://www.youtube.com/watch?v=rh83sFPy73E&t=182s) Yeah. But then I looked into the historical stuff. That's the stuff.
+
+[03:02] And that widespread of belief amongst all of these people and individuals and groups and all that stuff, that to me was amazing. And also, something I figured out was, you know, the disciples saw Jesus in a group. And I think we have really good evidence of that. We have Paul's letter to the Corinthian church where he says Jesus appeared to the 12. (https://www.youtube.com/watch?v=rh83sFPy73E&t=206s) You can argue that he's talking about a group appearance. You got the Gospels that say that Jesus appeared to them in a group.
+
+[03:26] So, I think the disciples themselves claimed that Jesus appeared to them in a group. And what I learned about collective hallucinations, there's actually a paper that I was reading. The vision is never seen by all who are present. But with the disciples, all who were present at that time saw Jesus. So, that type of stuff doesn't happen. We don't have anything in history that (https://www.youtube.com/watch?v=rh83sFPy73E&t=233s) Could of that's anything comparable to that. So, there's a lot of stuff with the resurrection that for me really made me a believer.
+
+[03:53] You know what else is really interesting that I've been thinking about in just the last couple of days. (https://www.youtube.com/watch?v=rh83sFPy73E&t=250s) And I want to be clear, like I'm I'm not equating the two events other than in the sense that I'm about to describe. But I was thinking about how in the wake of someone being publicly unalived, the claim that that person isn't actually unalived is offensive. (https://www.youtube.com/watch?v=rh83sFPy73E&t=278s) Can you imagine if someone started saying that right now? It would be It would be It's so insensitive. It's so offensive.
+
+[04:38] Because it's like, "What are you talk We're all in the middle of mourning and facing the reality of this. What do you Why would you ever say that they're that they haven't actually passed on? Like this is such a grotesque interjection of the of the mourning process." And I was thinking about that just in the past couple of days as it relates to (https://www.youtube.com/watch?v=rh83sFPy73E&t=305s) The resurrection of Jesus.
+
+[05:05] And I was thinking about how that claim especially for those who walked with him for 3 years and sat at his feet for 3 years, what would motivate you to say something so grotesque and insensitive unless you actually had seen him alive again? Right. (https://www.youtube.com/watch?v=rh83sFPy73E&t=328s) And that struck me in a in a different way just in, you know, in the past couple days. Totally. And I think that even what the skeptical historians like agreed that they saw Jesus risen. Of course, they did. Of course, they did. They won't say that they actually saw him risen.
+
+[05:28] They'll say that they were having some dream or vision or something. (https://www.youtube.com/watch?v=rh83sFPy73E&t=351s) But again, when you have that these things happening in groups, and you have enemies, and you have his own family saying that they've seen him risen, I you know, that this is like this is where faith comes into play. Do you believe that he actually rose or do you think they were all having hallucinations? That's what they tell us all the time. (https://www.youtube.com/watch?v=rh83sFPy73E&t=372s) But Well, you have to combine You also have to combine theories.
+
+[06:12] They stole the body and they somehow got rid of the guards and they rolled the stone away and they hallucinated and Paul hallucinated and James the Like you have to You have to combine all of these all of these different theories together in order to account for the historic record. Yeah, Paul Peter had a grief-induced hallucination, then told the disciples they had mass hysteria, then James had a grief-induced (https://www.youtube.com/watch?v=rh83sFPy73E&t=402s) Hallucination, then Paul had a guilt-induced hallucination, or they were all mentally ill or whatever, right?
+
+[06:49] Like (https://www.youtube.com/watch?v=rh83sFPy73E&t=409s) Right. What are we doing here, right? But Yeah, I mean, that's that's all I wanted to say, man. I just look into the resurrection a lot. And that's that to me is all I need. I just believe in that. I think people need to do that more. Look at the evidence for the resurrection because if I were to talk to the average Christian and ask them, "Hey, do you know what the 1 Corinthians letter to the Corinthian church is?" You'd be surprised how many don't.
+
+[07:15] (https://www.youtube.com/watch?v=rh83sFPy73E&t=435s) And so, I think that we need to take a more skeptical approach to our faith. And to do that, just investigate the claims and see if they stack up. And that's what I always recommend people to do. Yeah, that's awesome, man.
+
+[07:47] I love how in your story, too, you did connect basically the like the scientific evidence for the existence of God to then once you've accept like once you've realized that it's not only perfectly logical, but it's actually logically necessary that God (https://www.youtube.com/watch?v=rh83sFPy73E&t=467s) Exists, then the resurrection of Jesus is and it's not a problem at all. If God exists, of course Jesus can rise. If God doesn't exist, then the resurrection is totally absurd. Correct.
+
+[08:13] Yeah, that's what they'll say, like any naturalistic explanation is more reasonable than any than somebody raising. But of course, if God exists, then it'd be really easy to do that. And I heard William Lane Craig say that once. It'd be like child's play to raise someone from the dead if he (https://www.youtube.com/watch?v=rh83sFPy73E&t=493s) Existed. So, Yeah. (https://www.youtube.com/watch?v=rh83sFPy73E&t=496s) Awesome. Well, I appreciate man. I always love hearing a darkness-to-light story. So, I appreciate what you shared. And you're You know what's You know what's really cool, man?
+
+[08:16] I guess one last thought. It's really cool to hear people's testimonies because they're so diverse. Yours is actually a bit more intellectual. (https://www.youtube.com/watch?v=rh83sFPy73E&t=517s) The next person I talk to, it could just be like I was you know, driving down the road and I and I was suddenly like, you know, like I realized that I was convicted of sin. I realized that I needed help. I've read a read the Bible and I realized it was the answer and something happened like mystically.
+
+[08:37] You know, like it just it's crazy how all over the board the diverse ways that Jesus reaches people is. And you're You're more like me in the sense that you would needed to know (https://www.youtube.com/watch?v=rh83sFPy73E&t=542s) Is it actually does it have veracity? Does it Does it hold up intellectually? And then once you got through that, then you're like, "Okay, what do I do with this?" Yo. Yeah, I just got a call, so I missed a little bit of that. But yes, man, it's Yeah, I see Yeah. I missed a little bit of that.
+
+[09:22] (https://www.youtube.com/watch?v=rh83sFPy73E&t=562s) Well, I appreciate it, man. Thanks for hopping on. Thank you so much, man. I'll check out some more of your stuff, too, when I get a chance. But thanks a lot, man.

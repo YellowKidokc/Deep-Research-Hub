@@ -1,0 +1,89 @@
+# "I Warned That This Would Happen... And Now We Finally Have Proof" | Whitney Webb
+
+**Channel:** [[Only The SAVVY]] (`OTS`) · Chapter 86 of 514 · Length 17m 07s · [[00 - Channel Summary]]
+**Video ID:** `XYgWR0jpKUg`
+**URL:** https://www.youtube.com/watch?v=XYgWR0jpKUg
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 00:22
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:01|Part 2 · 10:01]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] And there's a lot of people, you know, in the Bitcoin space that are just, you know, very caught up in the electoral politics and the emotions of it and and feeling validated for what, you know, the industry they've been in for several years that's obviously um sort of not been favored by the establishment. You know, some people are maybe thinking, "Oh, you know, since the establish is favoring this, let's cheer it on." But is it really the best system for everybody and is it the best for financial freedom [music] and and all of that?
+
+[00:31] So, I you know, I again, I would urge people to uh consider, you know, what is it that you want Bitcoin to be used for? >> Trump's mandatory financial disclosure released this week revealed he made at least $2.2 billion in 2025, including $1.4 billion from crypto ventures alone. $500 million came from World Liberty Financial, a crypto company he co-founded with his sons. A UAE investment firm bought nearly half of World Liberty Financial days before his inauguration. The UAE then received a deal for valuable AI chips over the objections of some national security officials.
+
+[01:07] Trump told reporters at Joint Base Andrews that he has a blind account and purposely never speaks to the people who run his money. He said, "Everybody is profiting because the stock market is going up." Whitney Webb told Natalie Brunell at Coin Stories exactly how this system works, who benefits, and why the crypto play is not about financial freedom. Here is what she said. Before the interview, here is the specific framework Webb laid out that applies directly to what you just read in today's disclosure. Webb's argument is not that Trump is uniquely corrupt.
+
+[01:44] It is that regardless of who is in office, the same financial interests are called upon to solve every crisis and every crisis results in a massive wealth transfer upward while regular Americans are told the solution is necessary and urgent. She documents this through BlackRock being brought in to handle the 2008 bailouts under Obama, then brought back into design Trump's COVID fiscal policy using what she calls the going direct reset, a BlackRock plan pitched at Jackson Hole in 2019 to route emergency money directly to private banks rather than public entities.
+
+[02:16] BlackRock received emergency funds meant for Main Street [music] and used them to buy shares in its own ETFs. Now, in Trump's second term, the disclosure shows $1.4 billion flowing to Trump's crypto ventures, including through a UAE sovereign fund buying half of World Liberty Financial before inauguration, followed by a policy decision those sovereign fund investors directly benefited from. Web predicted this exact model months before it happened.
+
+[02:49] She said the stablecoin play would be the instrument of the next wealth transfer, that dollar stablecoins are just as programmable and surveilled as CBDCs, and that Tether specifically [music] has partnered with the FBI and Secret Service, and seizes wallets at the behest of the US government. [music] The disclosure published this week is the paper trail of what she described. New York Times, June 30th, 2026. President Trump reaped a stunning windfall in his first year back in the White House, including about $1.4 billion from his family's cryptocurrency businesses.
+
+[03:18] One of his biggest hauls came when an investment firm tied to the United Arab Emirates bought nearly half of the Trump family's main crypto company, World Liberty Financial, a transaction that blurred the line between foreign policy and private enterprise. The Hill, July 1st, [music] 2026, quoting Trump at Joint Base Andrews, "We have funds that run my money. I've made a lot of money before I became president. They're big institutions and they run it.
+
+[03:52] I think it's called a blind account, but they basically they take it and I purposely I never speak to any of the people that run the money." The Guardian, July 1st, 2026, quoting Trump. Everybody is profiting because the stock market's going up. So, we're all profiting. I'm profiting because I have a lot of money and a lot of cash, and I give it to institutions.
+
+[04:22] Trump's 2025 mandatory financial disclosure shows $500 million from World Liberty Financial token sales, $600 million from dollar sign Trump meme coin sales, >> [music] >> and more than $200 million the UAE investment in World Liberty Financial, which happened days before his inauguration. The UAE subsequently received a deal for advanced AI chips that some national security officials objected to. Trump told reporters he has a blind account and does not speak to the people managing his money. The White House [music] rejected conflict of interest concerns.
+
+[04:46] Webb's interview with Natalie Brunell, recorded before Trump's second term, documents the pattern behind all of this. How the same financial players get called in across administrations. How crises are used to execute wealth transfers. How stable coins specifically are the instrument by which the programmable money system gets installed while being marketed as the opposite of a government digital currency. And why the UAE angle specifically connects to the broader dollarization agenda she has documented in her reporting on Latin America.
+
+[05:19] >> The same people tend to be called upon to solve the crisis. So, you know, a good example of that would be the 2008 economic crisis. You know, BlackRock was basically sent in to help handle the the banker bailouts. And then, uh during COVID when Trump was in office, you know, BlackRock was brought in uh to essentially design the COVID uh fiscal policy, uh which the ramifications of which which we're still dealing with.
+
+[05:50] You know, that's just one example, but you know, there's so much, whether it's uh funding wars or funding, you know, you know, the state of Israel for example with billions of US tax dollars and things like that. There tends to be bipartisan consensus about a lot of things. I think it's pretty obvious that it's the conservative camp really only aside from, you know, RFK being an independent.
+
+[06:15] Are they interested in really appealing to the Bitcoin base at all as it as it relates to electoral politics and they've done so [music] very successfully but I think again um what you're seeing here is sort of what we saw over the course of the past year was sort of Wall Street warming up to Bitcoin >> [music] >> and what we're seeing that it's just another extension of the establishment cosying up to Bitcoin I guess.
+
+[06:40] So I guess you could frame you know, Larry Fink's [music] about-face and and all of that as sort of the private sector >> [music] >> establishment turnaround and this is sort of the public sector establishment turnaround but as far as it relates to financial freedom, I don't think the policies expressed by you know, Trump or at least what Trump [music] expressed or hinted at in his speech because he didn't you know, as far as RFK's went he was more deliberate about what his policies specific and Trump was a little more vague but based on what you know,
+
+[07:04] Trump said talking about sort of yoking Bitcoin and the dollar together and using that to expand the [music] dollar's power and hegemony globally and then also bringing in stablecoins which of course would be in this case dollar denominated stablecoins into the play. We have to consider what that means if the reason we're voting for it is to ensure that Bitcoin will be used to propagate [music] financial freedom globally.
+
+[07:35] So you know, if you're of the opinion that you want Bitcoin to be you know, hyper bitcoinization to come at all costs even if that means it not being a tool for financial freedom anymore or it being used by intelligence agencies to surveil people or by Wall Street to, you know, do do their thing. You know, then maybe it's fine.
+
+[08:03] But if you're of the idea that, you know, I want >> [music] >> uh Bitcoin to be empowered to end irresponsible fiscal policy at the national level >> [music] >> and want it to ensure financial freedom for everybody, then I don't think Trump's policies necessarily spell that out, unfortunately. And part of that has to do with the whole stablecoin play. Um so Trump has been openly um >> [music] >> against central bank digital currencies, but the problem with stablecoins, particularly the big ones, >> [music] >> um is that they're just as programmable and surveillable as CBDCs could be.
+
+[08:23] So most people are against CBDCs because of the programmability aspect and how we in the surveillability aspect, being able to trace and surveil every dollar you spend. Um and, you know, stablecoins can offer that as well because most of them are, uh you know, built they're like ERC-20 uh tokens, right, at the end of the day and have that programmability functionality and some, you know, stablecoin issuers that are prominent like Circle openly talk about the programmability aspects of their stablecoin.
+
+[08:56] And, you know, they're in a very deep alliance with BlackRock, Circle particularly, and Tether itself has made an alliance with the FBI and the Secret Service and, you know, other aspects of the US [music] government to freeze wallets at the behest of the US government, thereby making Tether sort of a soft extension of of US foreign and fiscal policy [music] abroad as it relates to sanctions and other things, some of which the US, of course, in the past has used to facilitate regime change operations and other things, not necessarily stop terrorism as they are inclined to say.
+
+[09:25] So it's important to keep that in mind. Um And, you know, if you're allowing intelligence agencies, which the FBI technically is, you know, to be on boarded on Tether stablecoin, you know, it's really not a private sector thing. It's a public-private partnership. Uh And public-private partnership is the model that the US and really most of the world essentially favors. And so, you know, I think these stablecoins [music] offer that same kind of threat to financial freedom or you know, easily could were things to develop that way.
+
+## Part 2 · 10:01
+
+[10:01] And so, you know, if programmability and surveillability is the threat to financial freedom, then we should not support that, right?
+
+[10:35] And instead look for ways to build a robust privacy tools on the base layer of Bitcoin maybe and and try and [music] make it something that's transactable as opposed to this idea of having it be in a storage and >> [music] >> technology for asset storage as as Larry Fink says and and something no one spends and people just hold, which is you know, what you know, Larry Fink wants and also you know, the way Bitcoin would be utilized in in the framework that was laid out in in the Trump speech at the conference.
+
+[10:43] >> What you just heard is Webb explaining that Trump's Bitcoin conference speech was about yoking Bitcoin and the dollar together and expanding dollar hegemony globally through stablecoins. That this is not a financial freedom play. That Tether has partnered with the FBI and [music] Secret Service and seizes wallets at the government's request. That Circle openly promotes the programmability of its stablecoin. And that the question of whether you want Bitcoin to be freedom money or asset storage for Larry Fink is one that nobody in electoral politics is asking.
+
+[11:09] What comes next is Webb explaining the going direct reset, who designed it, how it worked during COVID, how the same mechanism will be used again during the next debt crisis. [music] And exactly why whoever wins in any election will propose the same stablecoin solution >> [music] >> when the crisis arrives. Not just well, again, you know, there's some people that are hyper bitcoinization at all cost. It doesn't matter if we totally abandon the original ethos behind Bitcoin and getting there. Um and I think there definitely are a significant amount of those people, but I don't agree with that.
+
+[11:42] I think the ethos is very important. I think Bitcoin is unique and it's really the only opportunity like this we're likely to have at least in this >> [music] >> uh you know, important window of time and you know, people need to decide if they're going to um use it to fight for those things or if they're going to acquiesce [music] to this system that's being set up and is going to be pushed on people most likely through regulation and executive orders.
+
+[12:12] And it's very likely that in the next 2 years, whoever wins in November is going to be president during an unprecedented US government debt [music] crisis. And this is you know, if you already see it in Trump's policy, if he's in office, this is the system he's going to propose as the solution. And when there is a crisis in the situ- the solution is proposed, a lot of people because it's a crisis and are demanding a rapid resolution to that crisis, they don't think about what's best [music] um in the long term necessarily. They're just looking for something to solve the immediate crisis.
+
+[12:37] >> [music] >> Um and so I think this is sort of hinting at what we're going to see. But again, I would urge people to go back to what uh Trump did when he was in office during the COVID crisis and the fiscal policy [music] that his Treasury Department uh presided over uh which was uh very bad and very criminal.
+
+[13:11] Um and I you know, um for people that aren't familiar, I would encourage them to look up the work of uh John Titus [music] um about the going direct reset where essentially before there was a financial crisis related to COVID um in late 2019, uh BlackRock created [music] this plan that it was that pitched it pitched to the central bankers at the Jackson Hole meeting in 2019 [music] about going direct. And basically the idea was during the next crisis, let's QE again, but instead of giving the QE money to public entities, let's give it straight [music] to the private banks.
+
+[13:28] Um and uh that's essentially what happened and one of the people that received those funds, those emergency funds that were meant for Main Street, [music] was BlackRock and they used it to buy shares in their own ETFs [music] instead of bailing out the people whose governments or sorry, whose businesses uh were forced to close as part of government policy. >> [music] >> And so really uh this is one of the key reasons why you saw an unprecedented wealth transfer happen during COVID. And this plan wasn't implemented as soon as COVID started.
+
+[13:59] They actually started when the repo market started to go haywire at the end of 2019 >> [music] >> and used COVID as the excuse to ramp it up. So, you know, Larry Fink's involvement in that and also his involvement in the 2008 financial crisis, for example, these same people at Wall Street um of when there's a crisis affect these massive wealth transfers that take, you know, money from regular Americans to the very top who are now richer than ever, especially after COVID. And you know, regardless of who wins in November when this debt crisis comes home to roost, that's what's going to happen.
+
+[14:31] And I think they're going to use that as well to saddle the American people with surveillable, programmable money. Um maybe it's more likely if Kamala gets in it'll be a CBDC. Um and but it seems quite clear that if Trump [music] gets in it will be a, you know, a private bank digital currency or um you know, some of these private bank-issued stablecoins or tokenized deposits and things like that, which again are just as surveillable and programmable as stablecoins and maybe it'll be framed as a win, but a win for what really, you know?
+
+[15:05] Um Again, I'm not super optimistic about that, but again, I mean I my view is that the government is essentially run by, you know, organized crime and intelligence agencies that have fused uh what they do and it's been very profitable uh for them and they're going to continue to do that and pull the strings of both parties. And when there's a crisis, this is invariably uh what happens and there's plenty of historical precedents to look at as as far as you know, the the economics of it are concerned. >> Trump's financial disclosure shows $2.2 billion in 2025. $1.4 billion from crypto.
+
+[15:39] A UAE sovereign fund bought half his crypto company days before inauguration. The UAE got AI chips over national security objections. Trump says blind account, everybody is profiting, [music] the stock market is up. Webb said in this interview, BlackRock designed Trump's COVID fiscal policy. The same people get called in every time. The stablecoin play is the vehicle for the next wealth transfer. Tether is partnered with the FBI. Dollar stablecoins are just as programmable and surveillable as CBDCs.
+
+[16:18] [music] And when the debt crisis arrives, people will accept the solution because [music] they will be desperate and won't think about what it means long-term. The disclosure this week is the documentation of what she predicted. Read the full New York Times, Hill, and Guardian coverage linked below. >> [music] >> Subscribe and we will keep tracking this as the stablecoin legislation and the World Liberty Financial conflict of interest develop through the summer. >> [music] [music] [music] [music]

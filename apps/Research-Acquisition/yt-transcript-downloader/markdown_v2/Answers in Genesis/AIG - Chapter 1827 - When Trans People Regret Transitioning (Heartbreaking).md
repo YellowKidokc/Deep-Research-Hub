@@ -1,0 +1,54 @@
+# When Trans People Regret Transitioning (Heartbreaking)
+
+**Channel:** [[Answers in Genesis]] (`AIG`) · Chapter 1827 of 1947 · Length 9m 49s · [[00 - Channel Summary]]
+**Video ID:** `qK6oR1OWxiE`
+**URL:** https://www.youtube.com/watch?v=qK6oR1OWxiE
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 05:42
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] I 100 feel like I was part of some cruel medical and social experiment I've now been living as a woman for 28 years and I fully regret this I can't believe this happened I ruined my life today's video has some sensitive information content so just be wise on how much you let your kids watch this and what you choose to share with them the first video we're going to look at is of a young woman who has transitioned to a so-called man and now she regrets it I want to take a look at that in many other cases as well here we go I'm angry what's gonna happen to them kids and the youth I'm sad for
+
+[00:36] Humanity and the children and what's gonna happen so surely as you see that video you think well that's just a one-off right this can't be that prevalent and I wish that were the case but this is popping up more and more and more as these things become more common in our culture here are just a few examples I wish I could just like very harshly say to my young pre-testosterone but trans identifying self like don't do any of this don't go on T don't get surgery don't even change your name like just just stop I lived eight years as Laura Jensen until I woke up and realized that it was totally
+
+[01:15] insane to live this out so obviously as you watch these videos and look at these people's lives there's a lot of Brokenness but what are we really talking about here what is gender transition what is happening here this is kind of a neuter culture at least to this degree so it's helpful to Define terms and so defining gender transition verywellhealth.com says it like this a transgender people are people who feel that their gender identity is different from the gender associated with our science sex at Birth when a transgender person chooses to undergo a process to align their desired gender
+
+[01:48] that is called gender transitioning an individual may go through social transition by changing their name and pronouns we've seen that in our culture of course we're a medical transition by changing their body through hormone therapy or surgery people wish to transition May undertake one all or none of these steps and so essentially it's saying that someone feels a particular way and the way they feel they said in regards to gender it doesn't line up with the physical reality that they have that God's actually given them from birth and so they feel they can change that they want to somehow
+
+[02:20] make their body line up with the way they feel with the different gender they feel they are and so understand that biblically we have a different understanding of this issue that yes people can feel wrongly about things people can be broken in any number of ways you end up being one of them but we're all broken because of sin and just because we're broken my sin doesn't mean we should try to form our bodies or reality to the sin that we feel and so as we're defining our terms understand that those who are struggling with this from the secular perspective those who are struggling with their
+
+[02:51] gender this is called gender dysphoria where they feel a particular way that doesn't line up with their physical reality and so the technical term is gender dysphoria if someone say that you should have a transition to match your felt reality at least in your mind to match your physical reality and so Junior dysphoria is that confusion and then they are trying to seek the ways to remedy that from their perspective all right so now that we've defined our terms how many people are really struggling with this well according to numerous statistics the numbers are exploding in recent years as one
+
+[03:18] example we'll take a look here at a clinic in the UK called the Tavistock gender identity Clinic for Children and young people and they've seen just a surge in referrals in the last 10 years in the last decade or so and these numbers are similar throughout the Western world including here in America but in 2011 they had 210 referrals those struggling with gender dysphoria and so forth in 2021 there were 3585 referrals to 17 times increase in the number of referrals because this is so on the conscience of our culture and so many kids are being hit with this ideology when they're struggling
+
+[03:57] with their confused I think this might be the answer so they're going to these places to try to find the answers as this is on the Forefront of the thinking of our culture today this is what I mean this is how deep my voice is um it's gotten deeper over time and it's settled um this is what I mean by hair loss and it just keeps getting worse it keeps thinning it keeps receding backwards my heart breaks for this young lady that you just watched this girl who has bought in to the secular nonsense the anti-biblical ideology to try to find Hope and restoration and she's found nothing but
+
+[04:35] Brokenness from this and she feels trapped you see the Bible tells us this in Genesis 1 verse 27 so God created man in his own image in the image of God he created him male and female he created them God has made us male and female from the beginning and if he's made you a boy he's made you a boy on purpose for his glory and you're good if he made you a girl he made you a girl on purpose for his glory and for your good and if you have broken feelings about that physical reality well that's because of sin and we're all broken by sin to one degree or another you're not unique in that if you're
+
+[05:09] struggling we're all broken by sin but then we need to turn back to God's word Define what truth is and what our real identity is found which is we're made in God's image and God indeed he assigns those Juniors when he makes us he does so right rightly and does so far good and for his glory but the Western world has rejected that truth has rejected those biblical norms and has replaced Truth For Life you've got medical professionals who are pushing this ideology when people are coming to them teens young adults come to them and say I've got all these struggles well here's an answer for you
+
+[05:42] right here change your gender transition so-called that'll fix your problems or make things better you have the left this gender ideology which is pushed in every Avenue of our culture bringing drag performers together with little kids it's kind of a perfect relationship we're not the only ones talking about this there are so many people both Christians and not Christians alike who are speaking up about this because of how horrific the consequences can indeed be when you're talking about this particular issue on reddit.com there's a subreddit that deals with the Trans those who have
+
+[06:14] detransition and the struggles they've gone through you can look at a new documentary called disconnected dealing with this issue I think plenty of videos on YouTube on those who are trying to de-transition but these things are everywhere they're exploding while because these ideas been pushed for a while people have bought into them they suffer the consequences and people are coming out and speaking about those consequences in their lives my name is Chloe cool and I am an 18 year old former transgender child I transitioned from the age of 12 up until 16 when I realized it all was a lie my
+
+[06:44] story is cautionary too children and parents across the country have been caught off guard by gender ideology how did we get to this point guys there is hope in Christ you look at these videos you see these people who are so broken so tortured over their decisions and their Brokenness and you can tell they feel hopeless and that may be you who are watching this right now but can I just encourage you and tell you the good news that there is hope Number One You're Made In God's image you have inherent indelible value it cannot be taken away because you're made in the image of the Living God
+
+[07:19] Second Corinthians 5 or 17 tells you this therefore if anyone is in Christ he is a new creation the old has passed away behold the new has come when you are Christ you are a new creation Galatians chapter 2 verse 21 my favorite Bible verses says this I have been crucified with Christ it is no longer I who live but Christ who lives in me and the life I now live in the flesh I live by faith in the Son of God who loved me and gave himself for me we are new in Christ we are a new creation the life we live now we live by faith and the Son of God who loved us and gave his life for us so not only is
+
+[07:59] your identity found in the factory many God's image if you put your faith in Christ your identity is found now in Christ your new creation you can be redeemed in Christ no one is irredeemable if you repent put your faith in him there's Redemption there for eternity but then also there's Eternal hope in Christ Revelation 21 4 says this that he will wipe away every tear from their eyes and Death Shall be no more neither shall there be mourning nor crying nor pain anymore for the former things have passed away there'll be a new Heaven and a new birth there'll be eternity with God we'll have new
+
+[08:31] perfected bodies no matter how broken your body may be now from the choices you made in the past there's an eternal hope for a new perfective body with Christ forever Eternal purposes we can work out as we follow him in this life there is hope both now and forever in Christ for those who are pushing this ideology for the doctors who are pushing these things on kids teenagers for those who are pushing these ideas and saying these are the answers I'm calling you to repent turn away from this what you're pushing is an evil ideology it's literally the doctrine of demons that leaves nothing but
+
+[09:09] Brokenness and death and destruction in its wake but there's hope for you too repent of your sins put your faith in Christ a savior for all anyone who repented for their faith in him so if you want more on this topic check out this video right here it's from answers nudes it's a weekly biblical commentary on the social issues and the scientific issues of our day the first thing they cover is dealing with this issue directly and you will get a lot from that and Christians recognize that so many people are broken by this and guys we have the answer and the hope that they so desperately need so
+
+[09:44] let's keep standing on God's word defending the faith and reclaiming the good news of Jesus Christ

@@ -1,0 +1,50 @@
+# "There is no evidence for God"
+
+**Channel:** [[Alex O'Connor]] (`AOC`) · Chapter 330 of 419 · Length 8m 32s · [[00 - Channel Summary]]
+**Video ID:** `dqEt1D2ciGA`
+**URL:** https://www.youtube.com/watch?v=dqEt1D2ciGA
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-07 03:09
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] so the first one is there is no evidence that's it there is no evidence there is no evidence but there is no evidence for God there is no evidence because there is no evidence there's a bit of a strong claim although I do know some people who might take that um some sort of some Skeptics and some emotivists indeed in the context of the god discussion uh I think it is a ridiculous claim to suggest that there is no evidence for God but I can understand I think why some people would make this claim and it has a lot to do with the fact that people fail to consider a cumulative case for the
+
+[00:33] existence of God what I mean by that is there are two forms of successful argument I spoke a little bit about this in the event that I did um with Trent horn recently uh that there are two there are two type there are two ways in which an argument can be successful and I forget what they they're called there is a name for them um but in essence an argument could be successful in the sense that it makes the conclusion more probably true than false that's one way an argument can be successful but another way an argument can be successful is if it makes a conclusion more probably true then it
+
+[01:10] was Sans the argument so a lot of people have this idea in their head that if you hear an argument for God or evidence for God and it's it's hard to kind of draw a distinction there exactly but certain teleological Arguments for God's existence like the fine-tuning argument you know you might say that the uh the the constant of the this the strength of the strong nuclear force is evidence for God now does this make God's existence more likely TR like uh more likely true than false does it make God more likely to exist than not exist no but does it make him more likely to exist than without
+
+[01:49] that consideration I think yes at least marginally now this might only increase your Credence from say two percent to three percent but I think that a lot of people are expecting that successful evidence must push us over the 50 boundary it must be that this piece of evidence is only a functional piece of evidence if it manages to essentially establish God's existence or make it more likely true than not but I think you can also get successful evidence that just slightly increases your Credence because of course if you get enough of those kinds of evidence uh evidences then even if it's only
+
+[02:25] marginally pushing up your Credence it may eventually push it over 50 percent but even so this is talking about the the metrics for good evidence these are two ways that evidence can be successful but of course you can have unsuccessful evidence or bad evidence or evidence that kind of doesn't really do anything for you you could still consider it evidence it's just kind of bad evidence um and so to say there's absolutely no evidence in favor of God I think is is a mistake but I kind of understand the mindset of somebody who says that I think what they mean to say is that they've never heard
+
+[02:58] any consideration that has made them go yeah that establishes God's existence in the way that they might look at a scientific explanation for something like you you look at natural selection you look at the evidence for natural selection and you say if we look at the fossil record this this evidence seems to establish the truth of natural selection so there is evidence for natural selection but of course there's some forms of evidence for natural selection that only slightly increase our Credence in it like the the vestigial traits for example the fact that we have a tail bone I don't think
+
+[03:30] the fact that we have a tailbone alone is enough to establish natural selection as the origin of our species but it does marginally increase our Credence and so if we're considering that kind of evidence to be successful too there are lots of wonderful evidences for for God's existence I just don't think their power powerful enough to push me into the plus 50 boundary yeah so there's a philosopher a friend of mine his name is Josh Rasmus and he's got a really good distinction that he makes between having some evidence on the one hand and then having sufficient evidence on the other so the
+
+[04:01] evidence might not be sufficient on its own like you were saying to get you over that 50 Mark or whatever percent Mark you want to put it at but you could nevertheless have some evidence that might increase your Credence a little bit like you said that you the numbers you gave were like from two to three percent and I think that that's right you can still have some evidence but it doesn't necessarily mean that you've got sufficient evidence for the existence of God now obviously as a Christian theist I think that the evidence is sufficient well I guess that doesn't actually necessarily follow
+
+[04:30] for me being a Christian theist but I do think that the evidence there there is some yes evidence when taken together would get you over that of course not all Christians are evidentialists right exactly this is something that that uh Christopher Hitchens brought up in his debate with with William Lane Craig criticizing his claim of being an evidentialist by saying that Craig himself had said that well there's this quote that keeps coming up by by Craig what is it he says there's uh there's a difference between how you know something and how you show something yes right he said this before
+
+[05:00] and Hitchens kind of pressed him uh on this point and said look you call yourself an evidentialist but we have it in writing that the reason you're a Christian is because of the witness of the Holy Spirit and even if the evidence pointed away from that you would still favor Christianity because of the witness of the holy spirit dostoyevski said the same thing interestingly in a he wrote a letter to a friend in which he said that even if all of the evidence and all of the truth pointed away from Christ I'd still reject the truth and put myself in with Christ or reject the facts and put myself
+
+[05:34] in with Christ as if to say I don't really care what the evidence says I'm a Christian because of the witness of the Holy Spirit now I don't think there's a problem with this intrinsically if somebody wishes to live their life thinking that their metric for truth is what they feel as being spoken to in their soul then they can go right ahead the only reason why this kind of view gets mocked or not taken seriously is because in the context of a discussion that is the only time you're going to see somebody arguing well this is why I'm a Christian and you should be too that would be a weird
+
+[06:02] thing to say the religious experience and the witness of the Holy Spirit whatever that means is certainly a good reason for an individual to become a Christian I can understand why they would do so but it's never going to be enough to convince somebody else so in the context of a debate or an apologetic or something like this it would be mocked if somebody tried to put that forward as evidence but for them it's worth bearing in mind that they're not a Christian because of the evidence at all I well I for for Dr Craig I think it's he mentions that he's got like two sources of Warrant so one
+
+[06:34] one of the sources is the Holy Spirit and then the other are the arguments Greg he said you know as strong as Dostoevsky on that point but he at least recognizes that there's an element and a a strong element of his faith that is not based on the other right but rather based on the words of the Holy Spirit although see then we get into questions of like what do we actually mean by evidence right because it can be personal evidence this is why when I uh debate Jonathan mclachy which I've done twice now he has a strong emphasis being an evidentialist on the public evidence it's not just that
+
+[07:04] there's good evidence for God but there's good public evidence there's evidence that everybody can see but I don't even like that distance you don't no because the public evidence still has to be interpreted through your own personal your own your own senses and experience as you say it depends on what counters the evidence right because if the evidence is how we Define the term if the evidence is the finely tuned constant then observation of a finely tuned constant in the universe is publicly available anybody can do the do the observations do the maths and work out what the constant is uh
+
+[07:34] that's clearly of a different category to something like a personal religious experience seeing a blinding light and hearing Cameron Cameron why you personally came from me you know that's that's clearly a different kind of experience and I think that each are going to be equally valid in a person coming to belief in God each is going to be in fact the the latter is going to be more powerful but it's going to be less useful in an apologetic scenario and that's why you have to bear in mind when you're watching people debate that especially for like a Christian who is debating this kind of
+
+[08:06] stuff but maybe isn't only a Christian because of the evidence but does think there is good evidence uh you have to keep in mind that there's a whole element of their faith which is not really subject to that mode of discussion did you enjoy that clip you must have done at least a little bit because you made it to the end well guess what there's more the full conversation that that clip that you just watched was taken from is available by clicking the link that just appeared on your screen and I'll see you in the next one

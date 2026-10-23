@@ -1,0 +1,79 @@
+# You Won't Believe What This MUSLIM Doctor Said!
+
+**Channel:** [[GodLogic Apologetics]] (`GL`) · Chapter 654 of 663 · Length 15m 21s · [[00 - Channel Summary]]
+**Video ID:** `efd5oWtlhT4`
+**URL:** https://www.youtube.com/watch?v=efd5oWtlhT4
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-29 15:43
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:02|Part 2 · 10:02]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] What's the only thing we do here, babe? >> We just We just read. >> We just read around here, [laughter] man. >> It's God. [music] [singing] It's God. It's God. [music and singing] >> What's going on everybody? Welcome back to another episode. I'm here with Lady Logic yet again. And my wife, we got somebody that actually started to react to your stuff, man. How you feel? >> Um, it's fun. Yeah, >> I like to see their reactions. It's interesting. >> Yeah. Some dude named Dr. Nasser, uh he's a Tik Tocker.
+
+[00:42] Um he does reaction videos and he uh reacted to the conversation that you guys did on the Dr. Dav show. Um you guys could go watch the original video, the conversation between four Muslim uh ladies and four Christian ladies. Um it's blowing up right now. It's doing awesome. and he reacted to this and so there was a lot of backlash. A lot of Muslims did not like how the Muslim ladies represented Islam. >> Yeah. >> Right. Uh [laughter] that was pretty funny. If you guys want to check that out, we did a video. That link will be in the description. So you excited to see what he has to say?
+
+[01:11] >> Very. >> All right. So let's see what what does Dr. Naser think? Were you guys correct on the issue? Uh did he think the Muslim ladies did well? Let's see what he says here. >> Do you believe Christians will go to heaven? I do. >> Do you guys believe? Yes, we do. The the Christian who are following their book, they do the 185 times >> Allah addresses the believers in the Quran. He never addresses all Muslims ever. It's all believers. Believers in it's an overarching that includes any believer in the God of Abraham. It's not Muslims.
+
+[01:50] So when the verse says believers or Muslims, the word Muslim, the root of it is submission to God. By the word Muslim, the book does not mean Muslim who prays and fast. He means anybody who submits to God. >> All right. Uh I can't prove it, but uh I kind of get a feeling that this fouron four was kind of a setup.
+
+[02:23] It feels like the Muslim sisters were told, "Listen, just show up for a friendly conversation." Like, "Okay, why not?" And then the Christians seem like they came really prepped and ready and trained for a debate with all sorts of citations chapter and verse and even certain numbers of a hadith. Like they really seem like they came for battle. So I feel like it was a bit of a setup and it's a bit unfair. Wow. So listen to this guys. Christian women come knowing what they're talking about. The Muslim women don't know what they're talking about when it comes to their own religion.
+
+[02:43] And therefore, we got to assume that it's unfair. It was set up um somehow uh if you're a Christian and you know Islam and you know the Quran, you know the Hadith, it's an unfair matchup. Um dang, baby, what what you got to what you got to say about that? How did this was it set up like this? Did it >> was it was it on fair grounds or what what how was how did this go, >> man? Um we all got the prompts in advance. It was definitely not a setup. And I think that >> we did come to have a friendly conversation.
+
+[03:21] >> I think if anything in the moments where it might seem like the Christians are pressing the Muslim ladies, it's because we were getting dishonest answers. >> So, it'll be interesting to see if this guy thinks that the answers that I received are honest or dishonest according to the sources, not according to feelings. Now, according to the like where he's watching the conversation, the conversation was about whether or not disbelievers go to heaven or hell according to Islam. If you are a disbeliever, can you go do you go to hell? Um, and they were what was their answer?
+
+[03:49] >> Their answer was yes. And so I was asking them cuz um >> they were saying if you're a believer, if you're a disbeliever, you still go to hell in Islam. If you're a Christian or a Jew or a disbeliever, you can still go to heaven regardless because being a Muslim just means submitting to God no matter who that might be. >> And what was y'all's retort? >> Well, one of the Muslim ladies tried to use 262 to say that Christians and Jews go to heaven. >> So, I was asking, how do you reconcile that with a verse like 385? >> Yeah. >> And I wasn't really getting an answer.
+
+[04:24] So, I was pressing them a bit. How do you reconcile these verses if that's your interpretation of 262? What do you do with 385? >> Yeah. 385986 that talks about Jews and Christians are going to be in the hellfire because they disbelieve. Uh 385 talking about how, you know, the only religion that Allah accepts is Islam. So, how do you reconcile Jews and Christians going to heaven according to Islam when the Quran clearly says otherwise in other verses? >> A lot of other verses. It was funny because that same Muslim lima told me not to take one verse out of context.
+
+[04:59] >> So I was just in the most friendly way I could saying, "Hey, >> you guys are taking this one verse out of context because what are you going to do with all of the verses that are explicit, >> right?" So to be clear, you guys got the prompts ahead of time, everybody. >> Yes, we did. That's how I came prepared. So I got a lot of um love and hate for having the A hadith number on deck. Yeah. Yeah. Saying that they knew the the numbers and the chapter verses and the name of the hadith. Like it's a it's a slack against you. But that's that's really you being ready. >> I was ready.
+
+[05:32] It was something that I wanted to talk about and I was hoping to have an honest, friendly conversation about it. I never would have expected the answers that I received. But >> yeah, not >> that's the beauty of conversation. You never know what you're going to get. >> The Mumboons didn't expect that either. That's why they up in the in in the war. All right. So, let's see what else he's going to say. So, let's see how he's going to critique this. So he already is mudd muddying the water. He can't prove it, but this is a setup.
+
+[06:00] It seems unfair that the Christian women were prepared for the discussion and studied the topics that they were given, but the Muslim women were not. It's a losing battle. You're defending Islam. You're not going to win. Period. It's already unfair because you're def trying to uh defend a false religion, a false position. So it's tough. All right, let's see what else he has to say. That being said, let's clarify. Definitely definitely you have to embrace the religion of Islam. That is the true Islam. The prophet says what I swear by the one who holds Muhammad's soul in his hands.
+
+[06:42] He says, "Nobody from this community of the Jews or the Christians hear about me and then dies not having believed in what was sent what I was sent with except that he will be from the companions of the fire." So in other words, >> so right here he's like he agrees with Christina and the other ladies. He agrees with y'all. He's saying y'all was right. Well, I don't think that the Muslims from the show would agree with him because he used a hadith and we don't know where those come from. We don't believe them. I think they would even tell him, hey, >> you know, be careful.
+
+[07:14] [laughter] >> Yeah, you can. We don't we don't know if that is authentic, right? >> You know, we don't know if that is authentic. >> I mean, it's sahi, but we don't know what that means. >> We don't know if sahi is sah. If authentic is authentic, we don't know, right? And then also on top of that, uh, if it if it contradicts the Quran, we throw it out of the sight. >> Out of the sight. >> We throw it out of the sight. You understand? So, yeah, the Muslim ladies might get on him for this. >> She would tell him that that contradicts with 262. [laughter] >> Sheesh. All right.
+
+[07:46] So, let's see if he continues. How how you going how you going to continue? >> So, in other words, what we believe about a person who goes to hell is somebody who is a cafir, someone who is a disbeliever, someone who rejects the truth. So if you know the truth of Islam, if you understand the beauty and the clarity and the truth of Islam and then you reject it, then uh you will be punished for that. And of course, just logically, why would we go out and preach to every religion in including Christians if we thought they were going to he heaven anyway? It doesn't make any sense.
+
+[08:11] No, we're preaching to them because we think they're misguided. We're trying to bring them to guidance. Allah says that Allah says indeed Allah does not forgive associ association with him but he forgives what is lesser than that for whom he wills. In other words, Allah is saying I don't forgive when you do shik when you associate partners with me. So how is it possible that we could worship a man and then get away with that? No. Allah says I don't forgive that. Un.
+
+[08:46] So, this was something that was brought up in y'all's conversation as well that they were saying that trinitarians um that you guys serve the same God, you know, and so, but Dr. Nasser is saying, "No, you guys as Christians, you guys commit sherk with this trinity belief. You're associating a partner with God." How do you think the uh how do you think the sisters would respond to this, man? The Muslim sisters, >> I think that they would firmly disagree with him. I think that they would tell him that we have a what did they say? a core or a common share core common. >> Yes.
+
+[09:13] And that's all that matters. Um that being a Muslim doesn't mean that you submit to Allah. It just means that you submit to God. >> And so it doesn't matter who it is, >> right? That makes perfect sense. Alhamdulillah. [laughter] Alhamdulillah. Um yeah.
+
+[09:49] So now of course he obviously misrepresents our faith just by saying that you know why would we do this and worship a man and stuff like that when you got Allah who has hands feet wears curly hair just know that he's just not oneeyed all right but he looks exactly like the djal um but he said something interesting babe he said that the reason why we go out and give dollar to Jews and Christians is because we believe that they're misguided and and the Quran is clear that if you're misguided and you heard of Islam you're going to go to hell. Allah won't accept you.
+
+## Part 2 · 10:02
+
+[10:02] But there's something that he's missing. He's a Muslim, >> right? >> He's a Muslim, right? Okay. He's a Muslim. He doesn't know. It seems that even as a Muslim, he's deemed to go to hell. It's decreed that even the Muslims will go to hell. Now, that's what's the only thing we do here, babe? >> We just we just read. >> We just read around here, [laughter] babe. We just read. So, let's just open the Quran up. This is chapter 19. We're going to read verse 68 to 72. And let's see if it says exactly what we're saying. We're just going to read around here. Let's do this.
+
+[10:32] It says, "Now by thy Lord we shall surely muster them and the Satans. Then we shall parade them about Gehenna hobbling on their knees." So this the devils, the Satans are going to go uh to G to Gehenna. That's hell. Hobbling on their knees. Jesus says, "Then we shall pluck from every party whichever of them was the most hardened in disdain of the all merciful." Then we shall know very well those most deserving to burn there. Okay. >> Okay. >> No, no confusion on what it's talking about. Right. Right. >> All right. Let's see what else he says. >> Not one of you there is. >> Not one.
+
+[11:16] Now, how many? >> Not one. Not one of you there is, but he shall go down to it, that for your Lord is a thing decreed determined. Then we shall deliver those that were god-fearing, and the evildoers we shall leave there hobbling on their knees. So it doesn't matter if you're a Jew, it don't matter if you're a Christian, it don't matter if you a Shayan, a jin, it doesn't matter. Each and every one of you Muslims, you're going down to hell. You're going to burn and then Allah maybe is going to pull you out of hell determined depending on if you are God-fearing enough or not.
+
+[12:02] But that the the rest he's going to leave there to burn. >> Now shake logic. I've got a question for you. >> Yeah. Who would try to convince you that if you believe in him, you're definitely going to go to hell, but only for a little while and then he'll get you out? >> That sound like the devil to me. Honestly, that's that sounds something like straight from Satan. I'm not going to lie to you. >> Am I Am I hot? >> Sounds about right to me. >> Sounds about right. Yeah. [laughter] Sounds about right.
+
+[12:32] So, it look like we got we got Satan in disguise again saying, "Hey, you don't worry about it, guys. You're Muslims. You're going to be just fine. You're just going to go to hell for a little while." um you know, I'll bail you out. >> I'll get you out of there eventually. I'll get you out. See, there is no reason to be a Muslim. >> To be a Muslim, you're going to go to hell regardless if you're a believer or a disbeliever. It doesn't matter because it's a matter decreed by Allah. He says he's going to fill hell up. It doesn't matter if you're a baby in your loins, in your father's loins.
+
+[12:55] He created some for paradise. He created others for hell. But all of you are going to taste hell. Every single one of you according to the Quran.
+
+[13:35] Now according to the reverse we have the gospel >> right >> the gospel what does Jesus say when it comes to hellfire believers what does he teach about this >> Jesus promises us that we will receive eternal life and that he is preparing a place for us in his father's house >> and um it doesn't sound like that place is hell >> right Jesus literally says do not be afraid believe in God believe also in me he guarantees us He says, "In my father's house, there are many rooms. If it were not so, I would I'd not tell you that I'm going to prepare a place for you, and I'm going to go away.
+
+[13:43] He's going to come and take you back to himself." This is a guarantee that Jesus gives us when we believe. We have nothing to fear, right? This is the opposite of Islam. Islam promises you hellfire. Jesus promises you salvation. So to my Muslim friends, me and Lady Logic, we say, "What you going to do?" >> Right. Now, imagine if I had brought that verse to those ladies. >> Yeah. They would have been like, "You're you're taking this out of context." >> Oh, that setup would have been real. >> Yeah. [laughter] All right, y'all. With that being said, man, we appreciate you guys.
+
+[14:20] Hit the like button. Make sure you hit the comment section. Check out our other reaction video that we did. Um reacted to some of the conversation on the Dr. Dav show uh featuring Lady Logic and some other uh hard heavyhitter uh Christian women who were holding it down. >> Shout out to Kalia, Tai, and Chanasa. >> Yes, sir. Yes, sir. Yes, sir. All right, but that with being said, make sure you guys subscribe, hit the comment section what you guys thought about this, y'all y'all think Dr.
+
+[14:50] Nasa had a point, what y'all think about the verses we shared, and do you guys want to see more reaction videos like this? You guys like this type of content? Let us know [music] and we'll pump out some more. All right, with that being said, we just got one question for y'all, man. >> What's the deal? >> What the deal is? >> Oh my god. >> Logic. [music] [music]

@@ -1,0 +1,77 @@
+# Why Atheism Self-Destructs (And Points To GOD)
+
+**Channel:** [[Daily Dose Of Wisdom]] (`DDOW`) · Chapter 866 of 916 · Length 16m 25s · [[00 - Channel Summary]]
+**Video ID:** `0bTk8P5e6zg`
+**URL:** https://www.youtube.com/watch?v=0bTk8P5e6zg
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 04:49
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:02|Part 2 · 10:02]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] My main reason for not being an atheist as a scientist is not that I'm a Christian. It's because I can do science. Because the only thing that makes reasonable the effectiveness of mathematics is my faith in God. Whether you're a seeker, a skeptic, a believer, you're welcome here. Let's reason together. This particular video is very interesting. It's John Lennin in the south of France. He gets into some really, really big questions. I'm going to rattle off a few here as a way of teasing you guys. So, what is the difference between the mind and the brain? What is human consciousness?
+
+[00:37] Is it reasonable to trust reason if the universe and reality itself is purely material? And much more. It's an amazing clip. And then I'll give you guys some of my thoughts as well as a very poignant CS Lewis quote that kind of ties all this together on the back end. That being said, let's do it. What it narrows down to is the very interesting fact that mathematics works. >> That idea that math makes sense somehow that the world is under that that that that's that the world of science is related to mathematical equations. Most lay people uh would never think about that.
+
+[01:16] And even when I have read about this concept in a newspaper article that some uh mathematician or some scientist is marveling at the idea that the laws of nature can be understood and that they can be described by math. They they seem to make it sound stunning that that it's startling. But to lay people, it's almost as though we don't understand why it's stunning. In other words, we maybe we associate math and science in such a way that we think, well, of course, it's got to be that way. >> That's right. That's right. But it took a really great mind to see it was stunning.
+
+[01:53] Einstein, Albert Einstein said, the only incomprehensible thing about the universe is that it's comprehensible. And he was clever enough to see there was an issue. Oygene Vner who also with Einstein won the Nobel Prize for physics. He wrote a paper which is much loved by mathematicians in 1961 and he called it the unreasonable effectiveness of mathematics. >> The unreasonable effect. >> Now that's very interesting. In other words, you shouldn't expect mathematics to work. Now Richard Fineman, the great American Nobel Prize winning physicist said the same thing.
+
+[02:33] It it's just stunning that it actually works. Here is somebody and she's a mathematician and she's thinking in here about the universe out there and she comes up with equations and they describe what's out there. How I mean how does that possibly work in such a way that it gives us power over these things? Newton law of gravity and his laws of motion alone without even Einstein's corrections can help us send a person to the moon. How does that actually work? Now what interested me and this is a bit later on at university. I read Vner's paper. I've read it several times.
+
+[03:08] >> So Vner wrote the paper as late as 61. You said >> yes the unreasonable effectiveness. And I said what do you mean unreasonable? What is the world view that's driving that verdict? And that opened a whole world to me that wasn't apparent in terms of its significance until the last 10 years or so when I saw how powerful it is. Because one of the things now that I say to people is my main reason for not being an atheist as a scientist is not that I'm a Christian. It's because I can do science. Because the only thing that makes reasonable the effectiveness of mathematics is my faith in God.
+
+[03:50] >> That's a very radical statement. >> It's a very radical statement. >> One almost never hears that statement even from people speaking on the very subject uh on which we're speaking that that that you're saying that not only are science and God uh compatible, you're saying no, in a way that's wrong. They're they're not merely compatible. Science drives you to believe in God. >> That's right. Let me make it even more provocative because I can tell that you're quite a provocative guy and I like it. You see, let me put it this way.
+
+[04:30] I feel I think and I believe there's evidence for the fact that faith in God and science sit very comfortably as they did in the minds of Galileo, Kepler, and Newton. What doesn't fit together is science and atheism. I think that atheism undermines science for a reason that is connected with the effectiveness of mathematics. >> So we should properly be challenging atheists far more than they challenge people of faith. >> Well, that's right. And I can unpack that a little bit if you like >> because it is a major argument these days.
+
+[05:07] You see, we have this trust as scientists, as mathematicians in human reason. We rely on our human reason to get to our conclusions. Now in the 1940s CS Lewis was writing about this and I think people didn't really grasp what he was saying. What he was saying is this. He said any theory of mind that undermines the validity of human reason cannot be true because you reach that theory by reasoning. >> Okay. Again, this is another heavy one. I want to pause. These are big ideas, but they're very very important ideas.
+
+[05:52] Um, he he he phrased it in such a way, Lewis did, at some point, I can't remember the exact quote, but he says, "If the universe made no sense or uh if the universe were absurd, if the universe made no sense, we should never have discovered that. We never would be able to discover that." >> That that is part of it. That goes down to the root of it and the reason for it. and he put it brilliantly, but it wasn't in the center of the big debate. Not to the extent it is today.
+
+[06:23] Because what's happened in the last four or five years is that a very prominent atheist is beginning to use Lewis's arguments. And that has changed the balance completely. >> And who is that? >> It's Thomas Nagel in New York City. >> In New York City. That's right. That's right. But if you like, I'll backtrack a bit so that we can unpack this so that it makes a kind of sense. Yeah. Lewis is suggesting that if you undermine the validity of reason, your theory is wrong.
+
+[06:56] Now I'm suggesting that that's why Vner said mathematics is unreasonably effective because his worldview which was atheistic followed to its logical conclusion actually destroys rational thought. Yes. >> Now let me put it in the form of a discussion I frequently have. I tease people my fellow colleagues. They like being teased you see. And I say to them, tell me what you do science with. And of course, if they're in the physical sciences, they'll tell me about some very expensive piece of equipment. They've got a billion dollars. They I said, "No, no, no. I I don't mean that.
+
+[07:27] I mean, oh, they say, you mean my," and they're about to say mind when they remember it's not politically correct to say mind. So they say, >> I had no idea things have gotten to the point where it's no longer politically correct to say mind. >> Oh yes, you got to say brain. The mind is the brain because everything is physically. >> Okay. We >> everything can be reduced to physical. >> I was going to say let let's let's let's make sure that that's clear to the audience. Yes. Because this this is an amazing idea. Uh the idea that the mind is not the same as the brain.
+
+[07:58] The idea that if we were only moist robots, as somebody disgustingly put it, >> yeah, computing meat. >> Computing meat. If that were the case, um, then in effect, uh, anything like a computer ought to develop consciousness. But nothing that we ever know of except humans has consciousness. So the mind is separate from our mere brains. But it has gotten to the point and I just wanted to annotate that or underscore that that you're saying that in the world of science at Oxford, people are afraid to use the word mind because it implies that there's something beyond the physical material brain.
+
+[08:41] >> Well, yes, that's right. But it's not all people. If we step back from this, let's put this in a bigger framework. What we're up against in the culture is the logical conclusion of a materialistic view of the universe. See, let's go back to Socrates and Plato because that'll help make things clear. In the world of their time about 300 BC or so, the Greeks were divided in their view of the big question. What is the nature of ultimate reality? Now, Socrates, Plato, and Aristotle all believed in the gods. They believed there was something more than the physical universe.
+
+[09:22] But Democratus and Lucipus who were geniuses because they developed the atomic theory and the atomic theory is one of the most important things ever discovered. Richard Fineman actually made a very interesting statement. He said of all of science was lost. All of science was lost. But there was one result that we could preserve to pass to the next generations. just one it would have to be the atomic theory that everything is made of atoms. Now atmos means indivisible.
+
+## Part 2 · 10:02
+
+[10:02] We know they're divisible but the basic idea is there is stuff very tiny stuff and everything but everything is made of that stuff. that how how but I have to say as proud as I am to be a Greek uh the idea that someone in Greece in the 4th century Democratus came up with that idea. How in the world without going into this too much but how could they back then have come up with this idea? >> Well, by a brilliant piece of reasoning.
+
+[10:33] They they could take a piece of wood and they could cut it and it was smaller and smaller and smaller and smaller and they reckoned there must be a point at which that process stops by something that couldn't be cut and this is the basic stuff of reality. But then they made a leap that this would be all of reality. Now that view barrels up through the centuries and it sits in Oxford. It's in fact the dominant philosophy in western academia and we call it materialism. Now there's another version which we call naturalism. They're both atheistic.
+
+[11:05] They both deny anything beyond but some give a little bit more weight to the existence of mind that's independent of matter. Now if you are a materialist then you're going to say that when everything else is said mind reduces to brain that's all it is brain reduces to physics and chemistry and all we are is physics and chemistry. Now back to my little story you see let's suppose that's true for a minute and I say to my friends tell me what you do science with. I do it with my brain. Tell me about your brain. I have great fun with this. I love it. I guess about your brain. What is the brain?
+
+[11:43] Give me the short story. Well, the short story is the brain is the end product of a mindless unguided process. And I look at them and I smile and I say this and you trust it. You trust it. Now tell me honestly, and I let this sink in. If you knew that the computer you use in your laboratory or any of the instrument was the end product of a mindless unguided process, would you trust it? I've never had the answer yes to that. No. And yet it now I say there's a problem there.
+
+[12:27] Can you not see that you are using something that your theories that is your philosophy, your world view of what is ultimate reality is destroying the very thing you want to trust. I regard that as totally inconsistent. Now from where I sit, atoms aren't ultimate reality. Ultimate reality is God who is mind. You've got it exactly the wrong way round. The fundamental stuff of the universe is not mass energy. It's spirit. God is spirit. He's not material.
+
+[12:58] And therefore I believe mathematics is very reasonably effective because mathematics being a product of the human mind is a reflection of the God in whose image we are made and that is why science rocketed up in the 16th century because that's exactly what Newton and company believed. >> Okay. So here's what CS Lewis said that I think ties this together really nicely. He said, "Unless human reasoning is valid, no science can be true." Men became scientific because they expected law in nature. They expected law in nature because they believed in a legislator or a lawgiver.
+
+[13:29] And I think this is a really interesting point because I've noticed that in a lot of these clips where you sort of have like an atheist and a Christian talking about something on the atheist side, there seems to be this bedrock assumption about reality. regardless of what question in particular is being asked that things just are as they are thing. It just is what it is. You often see this when it comes to the moral question. You see this when it comes to the comprehensibility of the universe.
+
+[13:57] But I love this clip that we just watched because it kind of peels back that layer and actually ask a deeper philosophical question. Well, wait a second. Why is this actually the case? Why do things add up? Now, it's not just there's not just an evolutionary explanation for this because this actually has nothing to do with evolution. Evolution is, you know, from the beginning of life going forward. And we're not even getting into evolution right now.
+
+[14:26] This is a deeper, broader question about the comprehensibility of the entire universe and the way that humans fit into this vast physical system of the universe. So the bedrock question is is it more reasonable to believe that we have a mind and consciousness and intelligence that are derivative of a mind consciousness and intelligence in the form of the original mind which is God or that we have a mind as a byproduct of matter. What is what is more reasonable to believe?
+
+[14:57] But then there's the secondary question of what do we mean by reasonable and how can we even trust this idea of reasonability which is which is the point that Lewis is making in this quote and ultimately the point that Linux is making as well. And so um the first time I watched this video frankly some of it kind of went over my head and I didn't understand exactly why the questions were um actually intriguing. But there really is something here. Maybe you have to pause and reflect on it.
+
+[15:25] There is something here that I think we can easily take for granted that upon further reflection we realize we ought not take it for granted. And the more that you ponder these questions being raised by Linux in this video, the more that you realize that the reasonability of the human mind is best seen in light of the original intelligence which is God himself. And obviously this entire thing is just as I often say just a stepping stone towards ultimate reality. This doesn't prove that Jesus Christ is Lord. This video is not about that.
+
+[16:00] But it does raise questions that bring about thought and I think it can be. These questions can be helpful stepping stones to break one out of the paradigm of pure materialistic atheism. And for that reason, I like this clip. I hope you guys did as well and I'll see you guys in the next video. [Music]

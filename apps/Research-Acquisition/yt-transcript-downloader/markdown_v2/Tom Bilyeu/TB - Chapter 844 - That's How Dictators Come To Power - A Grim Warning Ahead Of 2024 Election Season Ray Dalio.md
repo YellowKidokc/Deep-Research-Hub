@@ -1,0 +1,57 @@
+# "That's How Dictators Come To Power" - A Grim Warning Ahead Of 2024 Election Season | Ray Dalio
+
+**Channel:** [[Tom Bilyeu]] (`TB`) · Chapter 844 of 1389 · Length 14m 25s · [[00 - Channel Summary]]
+**Video ID:** `XAujHigZQMQ`
+**URL:** https://www.youtube.com/watch?v=XAujHigZQMQ
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-20 16:45
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:15|Part 2 · 10:15]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] so I'll sum it up at at the national level we would need a leader that can actually bring the two sides together somebody who has a very clear Vision you've you've grimaced for anybody that's just listening to this uh Ray Delia just grimaced hard all right so uh explain the Grimace Ray it's like wishing for the tooth fairy or something I I mean it's like um not going to root cause of why you don't have the that leader okay if you look at history um this is one of the great challenges of a democracy and when it gets into everybody fighting for their own cause with pet um populism they you know
+
+[00:45] and so you know mus comes to powered to make the trains run on time because it's badly managed and so on so somebody says give me the dictator give me the dict dictator and then I will and and I want that dictator so that's what we're um okay so how do you get that leader okay it it increasingly I'm just dealing with the mechanics so I'm uh so how do you get the leader and what do you do with the opposition okay it's almost like um well you you have this fighting of the various types and do you accept losing and then does the opposition remain and undermine everything you're trying to do so
+
+[01:50] it's almost like it gets to mob rule that's why the dictators come to power okay so that's just history and that's all understandable if not desirable it's still understandable that that's the mechanics so to wish and say okay we need a strong leader who will get control and make everything go all right sounds a little bit like wishing for the tooth fairy that that is how dictators come to power that is very much the scenario I would want to categorically avoid so do you see that just as that is an inevitability because right now Ray to your own point we are not being good with each other
+
+[02:40] from what I can see there there is uh certainly a broadcast signal and maybe this is a distortion of social media but I don't think so certainly not given the elections of recent there was a broadcast of a signal of massive division in a moment of massive division you get people fighting in a moment where people fighting there is a win or take all scenario that's the path to dictatorship so while my path may be wishing for the Tooth Fairy to want somebody who's inspiring that can unite people um I'll ask it pointedly do you just see it as an inevitability that we head towards dictatorship
+
+[03:21] when you say um have a leader that way you're not dealing with the mechanistic determin to say how do you get a society that is splitting apart and operating in the way that I describe to have a leader that leads and people follow properly okay you're skipping over that you can't skip over that do you see a path though other than because the natural way that this plays out the only path I can see is the one that I'm referring to if you worry about the alternative okay it I okay if you worry look at that what is it you must not have it if the more people worry about that then the more
+
+[04:12] likelihood you won't have that in other words if you want to tilt the odds in all the different ways I don't know take out the ads have conversations like this do whatever it is and say I worry of what's going to happen so we must not have that and we really must have this other alternative I really want to buy into that other alternative and you have somebody arguing for that other alternative like will you follow um and I'll tell you I'll tell you um um the prime Mario dragi in Italy let me just tell you the story very quickly of Mario dragi in Italy Mario dragi used to be um the head of
+
+[04:59] the European Central Bank which was like being head of the Federal Reserve for a number of years and he and I got to know each other in that he completed that and he's highly highly respected he's Italian and Italian has um Italy has crazy Anarchy like they've had an average of one prime minister a year and so chaotic and so bad that all the political parties got together and said we will be United under Mario drogy we will let him lead we will turn it over to him and he said I will do that only as long as all the political parties remain United because if they don't remain United we're going
+
+[05:57] to get into to this dysfunctional fighting and I know it's not going to work so for a period of 18 months he um uh was prime minister of Italy and and very loved people loved him and then one of the political parties um um uh dropped out because they disagreed on his approach for I think it was handling Ukraine um and he said okay now I'm resigning even though everybody wanted him to stay overwhelmingly but he said I can't govern under that kind of a fragmented environment and you know in other words he knew where it was going to go so so he resigned and in the period um between him resigning
+
+[06:57] and actually turning it over to the new prime minister um we had lunch and um and we were talking about these things and what what he was describing and what exists is the issue that we're talking about the inability of a a leader to be able to lead when there's so much fragmentation and if you look at the history of democracies um and you go back to Plato back Plato's Republic he wrote The Plato you know a lot of people think Americans invented democracy it existed way back you know um in the Roman and Greek times and all that um and so he looked at the cycles and what he said was there's
+
+[07:54] the cycle of these different systems one leads to another in this way where what happens is the greatest risk of democracy is an anarchy because the fragments it it becomes uncontrolled they all have their interests they fight and they tear the thing apart and then so what happens after that is then you get the dictator and um you get ideally the benevolent dictator in other words the one who really knows how to make good things happen and he cares about the country he doesn't care about his personal wealth and those kinds of things and that and they create that and okay to create order that
+
+[08:41] comes about that and then in that cycle after a period of time you inevitably get the incompetent or selfish dictator and then you have a revolution and then you go to a democracy and so on and these things go in cycles and so when you're asking the question you know of the leader you know you're saying okay let's create a leader and um and and have them go lead you can't ignore the fragmentation and the inability uh to lead in that set of circumstances I agree with that but if you even in your own example what you had in Mario is somebody that is able to Garner the respect of all the
+
+[09:33] different factions now I understand that It ultimately broke apart but he is the Tooth Fairy that I'm talking about you need somebody that people can unite under but it didn't work because of the P the people behave with each other and it won't work okay yeah okay so if if we know that people aren't going to stay United for long what you're saying is the duration that people can stay United is the duration that you can have that sort of Peace how long is that duration here let me let's let's look at the situation I mean it doesn't exist let alone have a duration to it yeah Ry you say very
+
+## Part 2 · 10:15
+
+[10:15] troubling things in a very calm manner which I think is probably the only way to say them you said something earlier which I think is really important that I want to re-emphasize what's happening now is a determination from something that happened earlier and so to some extent you're in a better position to deal well with the way things are the reality I've heard you talk a lot about that the reality is what the reality is you need to be awake you need to be paying attention to that reality and then you need to base your plan of action based on the truth of that circumstance to do that though
+
+[10:47] one thing I think is incredibly important is people have to be able to strip their emotions out of this uh I know you're a huge proponent of meditation are how do people get good at removing emotion from the equation so that they can see reality accurately well meditation is a huge benefit for that um so I really it it it gives one both a calmness and a Clarity it gives one an ability almost to go above everything and look down on it and say okay here's how things work and uh and and an acceptance of reality it's like this Serenity Prayer God give me the serenity to accept that which I can't
+
+[11:37] control give me the power to control that which I can and give me the wisdom to tell the difference and you know just to be able to approach things in an open-minded way like we talk about uh you asked the question about um disagreement how can I approach disagreement do I emotionally get into a fight about it or do I handle it well meditation and those types of things calming yourself down viewing everything more like it's you know it's think of a a reality as being like a game like a chess game okay calmly okay this thing happens and what's your next move and how does it work okay very
+
+[12:30] fascinating so if you take a chess Grandmaster anybody that's really proficient at chess and you put a chess board in front of them they they look at the board and they don't have to analyze each individual piece they know that pattern on the board very well they know where you are in the game and so that that's a chunk of information uh it feels like a very similar approach to the way that you're looking at financial markets Global movements the big cycle and that oh I can drop you into a scenario you'd look at a few key pieces of information you'd know where we are in the cycle so I mean
+
+[13:03] starting with the three forces that we talked about at the very beginning hey tell me where those three forces are you expanded it to five but tell me where we are with those five forces that's the Chunk on the chessboard that I need boom now I know how to take that next move that's what I want to try to give to people okay that's why I have the um animated video on YouTube that's why I have the book because it's like watching the same movie happen over and over again you can see it and you understand the cause effect relations so you can understand so when you ask questions like um you know
+
+[13:43] how do you get better and then we go dealt with the mechanics of that like okay how do you get get financially better off and how do you be good with each other and not be threatened I mean it's just if you look at it that way and you understand the mechanics it is what it is that's how reality works and then how do you deal with it to hear more about Ray Delio's warning on the upcoming recession which we're almost certainly already in watch the full episode here I look at three major forces that are happening now but have happened many times in history and those three major forces are

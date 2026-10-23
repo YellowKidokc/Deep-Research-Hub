@@ -1,0 +1,83 @@
+# She Was a Muslim Last Time… Now She’s Found Jesus
+
+**Channel:** [[GodLogic Apologetics]] (`GL`) · Chapter 545 of 663 · Length 18m 33s · [[00 - Channel Summary]]
+**Video ID:** `-xBcUgWdcE0`
+**URL:** https://www.youtube.com/watch?v=-xBcUgWdcE0
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-29 15:55
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:24|Part 2 · 10:24]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] Hello. Hello there. Hi. I don't know if you remember me. Uh, I spoke to you when David and Jai and Doc were here. Yes. Yeah. Yeah. Yeah. And you me? Oh, wow. Yeah. How you doing? I'm good. Uh, sorry. I know it's not the topic. I just wanted to You said you're invested now. Yes, I am invested. So, what you got for me? Uh so after our conversation I uh I I took Jai no sorry doc is the woman. Yes. Her advice and I uh I just called to Jesus to reveal himself.
+
+[00:45] Yeah. Uh and then I had I had some few more dreams and uh something something personal that I've been praying for for years came true which I didn't even ask him for that you know I just wanted to reply. Yeah. That just shocked me. Wow. Glory to God. Uh, of course my mom she knew about this and she said that it's it's just temporary and that uh although it's it's a good thing for me that uh Allah will uh will ruin it somehow because it's a false it's like a I don't know how to explain it like a he wanted to test me.
+
+[01:32] So he gave it to me in the name, you know, put put in my head that it's from Jesus, but he's going to take it away from me because it was just a test. No way. Wow. No way in the world. Wow. That's amazing. Yeah. I went to church also first time. This is a Catholic church and I don't know the difference, but I was confused. Uh is it okay if I can take your time now or? Yeah. Yep. Yep. You sure can.
+
+[02:08] I just just to clarify for for the audience listening um because you uh I don't I don't know your position now but have you you uh when we spoke you were a Muslim at that time right and then yes but I was questioning right right and so now as where you stand are you still within Islam but still question or have you left Islam and no I don't believe it's a religion I mean it's I don't like to use the word cult But yeah, that's what But that's what it is. When I compared it to Christianity, especially after I went to church and got to speak to the uh priest. Mhm.
+
+[02:38] I was just shocked at the difference. And that's, you know, that's what I imagined Islam is. Yeah. Yeah. Yeah. Incredible. So I left. Uh yeah. Wow. That's amazing. Glory to God, sister. this is uh you you're I first of all I want to thank you for coming back because like you said I I was invested and I still am. So it's uh you um you you coming back is is has blessed me. It's blessed the stream is a good way to start this off. So but yeah, you can ask me you can ask me whatever you want. Yeah.
+
+[03:13] I was just confused because do Christians believe that Jesus's mother died or was she also raised to heaven with him? We Yeah. Yeah. So she she experienced death. She she died and uh she's in heaven now. Okay. Because the uh there was a prayer there obviously to Jesus, but then also there was a prayer to Mary. I see. Confused like they're praying to her or for her because she's she's a dead person. But they were it sounded like they were praying to her. Yeah.
+
+[03:51] So from a from the Catholic point of view um because everybody who dies who um in Christ like who has died as a believer, they're in heaven with the Lord now. And so um so they they they use this verse like this. Let me uh show you a verse and and how they understand this. Um let me see. Let me go to let's do this really quick here. The living not okay. All right. Luke 20 verse 28. Okay. So, let's pull this up really quick. Luke 20. Luke 20 28. Okay. So, this is what um this kind of comes from. And let me see. Let me just put it on the screen so you can see as well. All right.
+
+[04:29] So, it'll be it's over here on the on the right the right hand side over here. Okay. Let me zoom in too to make sure we can see this. Okay. All right. So it it starts off like this. So the there came to him to came to Jesus some Sadducees those who deny that there is a resurrection and they asked him a question saying teacher Moses wrote for us that if a man's brother dies having a wife but no children the man must take the widow and rise up offspring for his brother. Now there were seven brothers. The first took a wife and died without children. And the second and the third took her.
+
+[05:07] And likewise all seven left no children and died. Afterward the woman also died. In the resurrection therefore whose wife will the woman be? For the seven had her as a wife. And Jesus said to them, the sons of this age marry and are given in marriage. But those who are considered worthy to attain to that age and to the resurrection from the dead neither marry nor are given in marriage. for they cannot die anymore because they are equal to angels and are sons of God being sons of the resurrection but that the the dead are raised.
+
+[05:48] Even Moses showed in this in the passage about about the bush where he calls the Lord the God of Abraham and the God of Isaac and the God of Jacob. So notice how he's calling them. He's not the god and he's not it didn't say he used to be the god of Abraham, Isaac, and Jac, but presently he is the God of Abraham and the God of Isaac and the God of Jacob even though they died, right? And so Jesus says now he is not the God of the dead but of the living for all live to him. Right?
+
+[06:25] So even though Abraham, Isaac, and Jacob, they passed from this life, since they're with the Lord, they are alive to God. And so um they are not dead but they're even more alive than even we are in this plane. So those who are believers who die are even more alive because they're with the Lord, right? And so they the Catholics believe that the same thing about Mary. They believe that she's, you know, obviously she died a believer and is with the Lord now, right? And so therefore son or Yes. Yes. Yes. with her son with God the father with the son Jesus, right?
+
+[06:55] And so um um they they believe that they can you know basically ask her to intercede for them on their behalf. They believe that Mary since she's with the Lord with her with Jesus in heaven that she can um basically pray for them um on their behalf to to the Lord. So that's that's where they believe. So they they believe she's alive in heaven like in this in this sense, not that she didn't die here on earth, but that she's alive as a believer in heaven because she's with the Lord in heaven. Okay. Uh I I wanted to ask you because when now I can say when I was a Muslim, it feels weird to say.
+
+[07:37] I was taught that you I should fear Allah. Yeah. So the concept of hell didn't really I didn't think about it. It was obvious that if I should fear him obviously he's going to punish me. But with Jesus all I hear is that he's love. Yeah. So here it doesn't make sense to me why there is hell because with Allah it makes sense because he's you should fear him. But with Jesus, you should, you know, love him and he loves you. And so, yeah. So, so the the idea of hell in Christianity is not to to be based out of fear, but it's God's justice, you know.
+
+[08:24] Um, as believers, those who come to the Lord, we have nothing to fear of that. Like, we're believers. We're not going to face hell at all. And, um, um, when it comes to hell, Jesus says that hell was created for the devil. and the angels that followed the devil, right? The ones who he convinced to go against God in heaven to rebel. And so, it wasn't really originally made for human beings, but for the wicked angels and and the devil himself. However, because God is just, um, he will not allow the even the wicked to enter into his kingdom.
+
+[09:01] Um, even after they die or on the day of judgment, they're going to be judged. And so because God is just, he has to judge the wicked and he can't let sin go. He has to punish it, which hell is the punishment. So, um, that's that's why that's the concept of hell within the Bible. It's not to scare people or because, oh, God is just so wrathful. No, God is just he's loving and he's just at the same time. So, we can't forget like we know that God is love. And because he's loving, he's also just at the same time. So he's not going to let sin just get swept under the rug. Does that make sense?
+
+[09:37] Yeah, it makes sense. Okay. So that's that's that. Thank you. But yes, you're still exploring, right? Still exploring, still learning. Yeah. I uh Yes. After our conversation before I called to Jesus. I read I just wanted to read the Bible to see what you were talking about and I read uh I think I read all of Luke already. Yeah. Wow. It was it was like a month ago and we spoke and but I read it in one night. Oh, praise God. Yeah. Yeah.
+
+## Part 2 · 10:24
+
+[10:24] And uh I I because I I was wondering do can you follow only the gospels which is what Jesus like the the things Jesus said or do you have to believe believe and follow the whole Bible old and new testament? Yeah. So all all of it is tethered together Miam. So um like if you if you believe like notice I'll show you another verse. This is what Jesus says here. Um and this is why we as Christians believe not just in the gospel writings right but of all the scripture um even the Old Testament because of this.
+
+[10:52] So I'm going to show you this verse here and u and the Old Testament is the Jewish Torah, correct? Or Yeah, that's the uh that's the Torah, right? That's the Torah and that's all the prophets that you know came before Jesus was born in human form. Okay. So Jesus says this in John five and he said and this is really really important. If we go to John 5 and we go down to around let's say the uh let's say here okay yes here it is um verse uh let's let's do verse 39. So this is John 5:39 right here. Okay. It says, "You search the scriptures because you think that in them you have eternal life.
+
+[11:32] And it is that they but and it is they that bear witness about me." So Jesus says the scriptures which the Jews are using bear witness about him. Okay? And he says yet you refuse to come to me that you may have life. I do not receive glory from people, but I know that you do not have the love of God within you. I have come in my father's name, and you do not receive me. If another comes in his own name, you will receive him. How can you believe when you receive glory from one another and do not seek the glory that comes only from God?
+
+[12:16] Do not think that I will accu Do you do not think that I will accuse you to the father? There is one who accuses you, Moses, on whom you have set your hope. For if you believed Moses, you would believe me, for he wrote of me. But if you do not believe his writings, how will you believe my words? So Jesus points to the writings of Moses as a testimony, as a witness to him as the Messiah, who's the one who gives life. So they're they're trying to trust like the the scriptures thinking that the scriptures will give them life. But Jesus is saying, "No, the scriptures just point you to me.
+
+[12:56] I'm the one who gives you life and these scriptures point you to me, but you reject the scriptures. You reject me because you really don't believe the scriptures." Okay? So, so it is very important that we take the Old Testament and we read through it and we accept it because this is all of it is a setup. the the Old Testament is God setting up the coming of the Messiah. That's really what what it is. Obviously, it's tethered with other stories and histories, but the main theme of it is all foreshadowing the coming of the Messiah. Okay.
+
+[13:35] How is Because my friend uh she's a Christian and she told me to read the Bible, but she said, "Don't read the Old Testament." She said, "Just read read the Gospels. Don't read the Old Testament." Yeah. God God bless her heart. But yes, read read the New Testament and read the Old Testament as well.
+
+[14:07] I I would say read the New Testament first because that's you get Jesus, you know, you get Jesus, you get the gospel, you get what he did, what he taught, and then go to the Old Testament because I'm going tell you with the Old Testament, it makes what Jesus did and said even more beautiful because you'll see where it's coming from.
+
+[14:26] You'll see how he's tying in the prophets and and you'll see how consistent throughout the generations of the prophets hundreds of years apart from each other and you know generations apart from each other still saying the same thing and pointing to the coming of the Messiah. That's how beautiful it is. So that's it's very important that we have the Old Testament because it testifies to Jesus. It makes him even more beautiful than what he already is. Okay. Okay. So, yeah, definitely read the Old Testament, too. Okay. All right.
+
+[14:46] Well, yeah, if you if you have any other questions for me, remember I told you you can I don't care what the topic is, you can come up and uh and come talk to me. Okay. Not a question, but you know, I was very surprised at the church. Uh first of all, that there's no segregation like women and men. Yeah. And the priest in the end, he was standing and he was shaking hands with women. Culture shock, huh? Yeah. Yes, it was. I mean, I live across from the church, but I never went inside. So, in my head, it was a mosque.
+
+[15:21] And I felt so guilty like my ex-Muslim brain felt so guilty looking at the cross and looking at pictures of Jesus on the press. Well, yeah, you you you have left that behind, sister. You are you are in Christ and you can worship in freedom. And and that's what it is in Christianity. It made me so sad. Like it it looked horrible like Jesus on the cross. It made me sad and feel bad for him. Yeah, that's the that's the point. The point is is is how we can it's what they do is they give us a somewhat of a visual of what it might have looked like.
+
+[15:54] And even that's not doing it justice cuz it's worse than what what it's being what's what's being shown to you. And so but that's what he that's what he did for us. He went through all of that, that type of humiliation, that type of suffering and pain because he loved us so that we wouldn't have to be strung up. I didn't know that he had to carry his own cross. Yeah. I thought after being whipped and beat. Yeah. I thought it was just because uh in the church here they have pictures of the I don't know in English how it's called. It directly translates to the road the uh road of the cross.
+
+[16:31] The mass of the road of the cross. Yes. Mhm. That's that's the literal translation from my language. And it had pictures of like important stages and I was in shock that I thought they just crucified him and that's it. But they beat him. They made him carry his own cross that it was Yeah. It was horrible. It was gruesome. It was It was terrible. Yep. And so that's uh that's what our Lord has done for us and that's why we as Christians we respond in a way that gives honor to him and and it's love like thank you. Just thank you cuz there's nothing we can do to substitute that.
+
+[17:10] We couldn't do that. We could we couldn't do that but he came and did it for us. So I would have crucified myself like like that's really unimaginable pain. Exactly. Yeah. It was beautiful but very sad and very empathetic. So it was horrible. Yep. That's the gospel. That's the gospel. But thank you so much, Miam. I love you so much, sister. God bless you. Stay strong. We're praying for you. Okay. Yes, please. Thank you. All right. God bless you. Take care. All right, guys. That is our new sister, Miam, who has recently left Islam.
+
+[17:47] Uh last time we spoke, she was uh still a Muslim, just, you know, very questionable. Uh, and then she called out to Christ and he answered. He answered and, uh, appeared to her. Um, gave her what she's asked, what she asked for. And that's that's just beautiful. Hold on a second. Fix that. Yeah. So, glory to God, man. Glory to God for another new sister in in in Christ. She came to our panels, was watching the videos, came on the streams. Um, I don't I don't even know, man. It's God is just amazing what he's been doing with the ministry.
+
+[18:22] And shout out to Giant DLC also cuz I remember I remember that stream like I told her like I will bring Giant DLC just for you. And uh she showed up on that stream. They came and uh she showed up. So, glory to God.

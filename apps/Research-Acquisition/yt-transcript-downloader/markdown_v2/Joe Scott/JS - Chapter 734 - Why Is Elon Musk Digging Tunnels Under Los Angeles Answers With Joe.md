@@ -1,0 +1,50 @@
+# Why Is Elon Musk Digging Tunnels Under Los Angeles? | Answers With Joe
+
+**Channel:** [[Joe Scott]] (`JS`) · Chapter 734 of 763 · Length 8m 25s · [[00 - Channel Summary]]
+**Video ID:** `-GktlB8SsAk`
+**URL:** https://www.youtube.com/watch?v=-GktlB8SsAk
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-07 05:23
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] back in November I started a new job that was significantly further from my home than my old job previously I didn't have to get on the highways at all I could just take the side streets all the way to work which might have been a little bit slower but at least I knew how long it took to get there and my new job I had to take the highways to work which during rush hour was a nightmare luckily I work mostly from home now but those days that I would go up there it was just chaos I'd forgotten just how sh rush hour traffic is one day I might zip straight into work no problems whatsoever and then
+
+[00:27] the next day I'm stuck on the highway for 2 hours and I drive a stick shift so there were literally days when I would get home from work and just stumble out of my car because my foot was cramping up and I'd say at least three out of the five days that I drove to work the traffic was backed up because of some giant wreck my God the whole thing is just it it's utterly absurd and I spent a lot of time in my car stuck in traffic just trying to think of ways to make the whole thing better apparently Elon Musk was doing the exact same thing the only difference is he's a billionaire and he's Elon
+
+[01:03] musk answer file Devon bloke asked did you hear about Elon Musk digging tunnels under La Devon is actually a supporter on patreon and he left this comment on one of the videos that I do specifically for patreon supporters a lot of you don't know this I've got an entirely different weekly series that I do just for patreon supporters and if you want to see it just go to patreon.com anwers withth Joe it's open for any of the donation levels even for a dollar a month you get to see this that's that's a a video it's 3 cents a day for the cost of a a burger at chilies you could have the entire year
+
+[01:35] and it really helps support the channel so so back in January 2016 musk was speaking at a hyperloop competition at SpaceX headquarters and he said this it's a really simple and obvious idea and I wish more people would do it build more tunnels tunnels are great it's just a hole in the ground it's not that hard but if you have tunnels in cities you would massively alleviate congestion and you could have tunnels at all different levels you could probably have 30 layers of tunnels and completely fix the congestion problem in high density cities so I strongly recommend tunnels but it was
+
+[02:10] something he just kind of said off the cuff and it was something that nobody but the most Ardent musk Watchers paid any attention to but then on December 17th in a series of again seemingly off-the-cuff tweets he joked about this traffic is driving me nuts I'm going to build a tunnel boring machine and just start digging it shall be called the boring company boring it's what we do I'm actually going to do this and the entire world was like yeah somebody's been hitting the sauce tonight but then one month later he tweeted exciting progress on the tunnel front plan to start digging in a month
+
+[02:39] or so and the entire world was like I think he's serious he claims to have built a machine that can dig Transportation tunnels at 500 to 1,000% the efficiency of current boring techniques and just the other day he tweeted a picture of it by the way if you're not following Elon Musk on Twitter you've got to do it I want this guy's life seriously he got stuck in traffic and was like screw this I'm going to start building tunnels and then he did it he's starting with a short stretch down the block at SpaceX headquarters in Hawthorne California and I'm sure we'll be hearing more updates on this
+
+[03:13] in the coming months now like everything Elon Musk does the whole thing sounds crazy until you look at the logic behind it and his logic is that people in cities live and work in a 3D space in vertical buildings that can house more people but our city transportation is on a 2d plane meaning all these vertically packed people are now crammed into a horizontal Space by creating a 3D Transportation grid we can alleviate the congestion and drive like civilized human beings or like mold people depending on your perspective now there's a couple of criticisms of this plan one is that this idea has
+
+[03:43] actually been around for over 100 years it's called Subways and Subways are great for densely packed Urban places like New York but for spread out areas like LA or Dallas for that matter not so much for example it's a good 20 or 30 minute drive from for me to just get to the closest Light Rail station at that point I might as well just drive where I want to go it's just not practical but underground highways under strategic hi trffic arteries could make a big difference and the fact that cars aren't sitting idle in traffic would help get down in pollution as well the other criticism is that
+
+[04:14] building tunnels especially underneath urban areas is not as simple as it sounds even if you have a giant mechanical earthworm doing the work for you obviously in urban areas there's all kinds of things that we put under the ground like sewers telecommunication lines gas lines and stuff like that but at least we know where those are what we don't know are other intangible things like pockets of gas unstable rocks hidden fault line stuff like that I mean this is La things do tend to shake from time to time jeez Elon have you not seen San Andreas but I'm sure all those things will be addressed
+
+[04:47] before any kind of large scale tunneling begins underneath the city of La I'm sure there's a mountain of regulations that it's got to get past which should put the completion around the fall of never now a side benefit of perfe ing this tunnel machine is that it's something that SpaceX could use on their eventual missions to Mars since they think that digging underground would probably be the best way to protect against cosmic ray now this is of course nowhere near elon's first 4A into Transportation I mentioned the hyperloop competition earlier they just held another one in January a few
+
+[05:14] weeks ago 27 teams iner designs of those three were actually picked to run and of those two won awards one for design and the other for Speed maxing out at 90 kmph or 55 mph now that's a far cry from the 900 mph that was promoted as something that the hyperloop could do but this is in the very early stages and it was only a one mile stretch of track so it probably couldn't even get up to top speed there are links to stories and videos about the competition down below and let's see Elon Musk in transportation what else has he done with [Music] Transportation now we all know that Tesla Model 3
+
+[05:53] is going into production hopefully later on this year but what might not be so well known is his ultimate plans for the model 3 which are pretty mind-blowing all model 3s come with the hardware for autopilot and the hope is that in the next few years the software will get upgraded to fully self-driving cars since Teslas are basically an iPad on Wheels upgrading to autonomous technology is really just a matter of upgrading the software which Tesla hopes to have done in the next few years but elon's plan goes even further than that what he wants to do is Implement a ride sharing service so your
+
+[06:27] car would basically be an Uber driver you work so the idea is you drive your car to work or your car drives you to work and while you're sitting at your desk you can put your car on the network and then somebody out there that needs to hail a car can click your car your car goes and drives them around and earns money while you work and while that might be weird the thought of strangers being in your car all day long your car will basically pay for itself which if you're buying a Tesla you'll probably need help with that at some point but if you think Uber's going to take this intrusion into
+
+[06:56] their Market laying down you got another thing think coming because if you want to look at the single craziest idea about Transportation on the horizon you're going to have to look up because Uber is working on a fleet of Transportation drones you thought we reached Peak drone with Amazon air not even close last year a Chinese company called ehang built a prototype autonomous passenger drone called the 184 that could carry a single passenger for 23 minutes Uber's working on their own version of this technology that they hope will be ready to go in the next decade now there's a ton of hurdles
+
+[07:26] to overcome of course between all the regulation that would have to go into place and just the idea that people would actually put their lives in the hands of some sentient flying quadcopter now obviously people have been predicting flying cars for nearly 100 years now and we're still nowhere near that actually happening but let's just say this did all come to pass we could be looking at a future 10 years down the road where we have multi-level transport in all of our cities in the air on the ground and underground making them less congested more efficient and cleaner than ever before sounds
+
+[07:57] pretty great to me but what do you think which one of these do you think is most likely to succeed which ones do you think are doomed to fail pessimist share your thoughts down in the comments below and if you dug this video Get It dug see what I did there give it a thumbs up and share it with your nerdier friends in your life and if it's your first time here hit that subscribe button so I can blow your mind again next week all right thanks everyone for watching as always go out there and have an eye opening week and I'll see you next Monday love you guys take care

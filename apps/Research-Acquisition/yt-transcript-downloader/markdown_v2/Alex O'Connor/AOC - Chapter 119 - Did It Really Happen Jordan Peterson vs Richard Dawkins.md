@@ -1,0 +1,59 @@
+# Did It Really Happen? Jordan Peterson vs Richard Dawkins
+
+**Channel:** [[Alex O'Connor]] (`AOC`) · Chapter 119 of 419 · Length 11m 22s · [[00 - Channel Summary]]
+**Video ID:** `wmz6Pi2RCCo`
+**URL:** https://www.youtube.com/watch?v=wmz6Pi2RCCo
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-07 02:47
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:07|Part 2 · 10:07]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] I think there are a number of questions which Professor Dawkins has asked quite directly that we still haven't really heard an answer for okay okay Professor Dawkin is asking about the Virgin birth you started talking about metaphor you started talking about myth I think anybody listening to this conversation will understand that maybe a society that doesn't believe in the Virgin birth won't work maybe that's the predictive power that you're talking about but I I think you must understand that when Professor Dawkins is asking you do you believe that Jesus was born of a virgin he means
+
+[00:27] something like a biological fact and and by the way saying I don't know or saying you know I'm not qualified to comment is an answer to that question but is that your answer that you that you don't know I said earlier and and I I would hold to this is that there are elements of the text that I don't know how to that I'm incapable of fully accounting for I can't account for for what the what the fundamental reality and significance of the notion of the Resurrection is my my knowledge just ends sure but I know that whatever happened whatever happened as a consequence of the origination and the
+
+[01:02] promotion of the Christian story was powerful enough to bring Rome to its knees and demolish the Pagan Enterprise so there's some power in that story that's remarkable let's stick to the Virgin birth well the Virgin birth results from a mistranslation of Isaiah you know that I'm like these sorts of questions it's what would you say they don't they don't strike me as they're not getting to the point has a purpose well and look I understand that there's there's perfect reasons to debate this I I know that and I know that your question is more than valid but it's beside the issue as far as I'm
+
+[01:43] concerned and and it's it's partly because well when we started this conversation I said for example that it it appears to be the case that a description of the structure through which we see the world is a story we see the world through a story and so that's a remarkable thing that's a remarkable Discovery and it's emerged probably in the last 16 year 60 years in multiple disciplines because we have to prioritize our facts and so we prioritize them according to a particular pattern and there are patterns that seem to work and to propagate themselves properly and to orient cultures towards
+
+[02:17] life abundant and there are other patterns the pattern of Cain for example that lead to Absolute bloody Devastation and I don't know exactly how to construe that sort of truth but we talked about the oppression of women for example it's like how do you make a case on Purely factual grounds that women should be treated as equals it's a moral question and I know that's ex exactly I I was dealing with a vual question which is did Jesus have a father and and you won't answer it Jus father and a Heavenly Father like almost all mythological Heroes so he wasn't the born of a virgin then so so you're
+
+[02:55] saying that Jesus was not born of a virgin I I said first of all that I don't I don't know how to mediate the fact value dichotomy in that case I said the same thing about the resurrection it's not a value it's it's a simple fact I mean did did did a man have intercourse with with Mary and produce Jesus that's that's a factual question it's not a value question you must understand what we being asked here that that even if you think that say the author of the biblical texts intended much more ific than a simple scientific analysis of events Professor Dawkins is interested in scientific truth
+
+[03:34] that's the kind of truth that he's interested in and even if you think it's irrelevant to the point of what the the gospel authors were getting at that first needs to be clarified before you can then begin actually uncovering what the stor is are about so I think Professor Dawkins is asking from a scientific perspective and maybe you think that that scientific approach is wrong but if you just take it for a moment maybe this is how we find out that it is wrong let's take a scientific approach ask the question did occur I think that it's inappropriate to use a question like that to attempt to
+
+[04:04] under undermine the validity of the entire what would you say deep mythological Enterprise we weren doing suppose we were asking out of Interest suppose that we were all here devout Christians maybe even yian Christians and we thought this is interesting over dinner do you think it really happened like scientifically would your answer just be I don't know yes and you wouldn't consider it I mean it's not an inappropriate question to ask just on a point of Interest right did this really occur and I think so often people are asking you that and and especially given the context of this
+
+[04:35] conversation we've we've heard everything that you're you're saying about metaphor and myth and but because the question is still then being asked did it really happen you know that that's what you're being asked and the way you just so easily said yes I wonder why you struggle to do that in so many other circumstances I think because I don't look at the situation the same the the way that Dr Dawkins and I look at the situation are really quite different and at many many many levels you know so even on the meme question for example you know like I know the literature on the history of
+
+[05:07] religious ideas I see how these ideas have battled across Millennia in a manner that is very reminiscent to me of the same sort of claim that Dr Dawkins is putting forward with regards to meme I know that literature Dr Dawkins doesn't know that literature and it's very difficult for me to communicate from within the confines of that literature because it's extensive and deep and we're and we're dealing with things that we don't understand the relationship between metaphoric truth and value predicated truth and factual truth we don't understand that it's a big problem we cannot there's no
+
+[05:42] evidence whatsoever from the scientific perspective that we can Orient oursel in the world merely in consequence of the facts sure and that's a fact and it's a fact that's been detailed out in great detail in the last 60 years by people from a variety of different disciplines we have to prioritize the facts that's a value hierarchy there may be true and false ways of prioritizing facts but you can't determine the truth or falsehood of the way that you prioritize facts by making reference to the facts that's a big problem okay let's let's let's talk about that as perhaps uh a slight detour
+
+[06:17] here because I think we do need to come back to this Christ Resurrection thing but Professor Dawkins would you say that underlying the scientif scientific Enterprise is a fundamentally unscientific assumption you can you can make scientific investigations in the world but in order to do so you need to choose what to prioritize you need to choose what to investigate you also need to um value the truth you need to have a value and a motivation for doing it in the first place those kinds of things cannot themselves be scientifically Justified and so does the scient scientific Enterprise have an
+
+[06:50] unscientific assumption at its space I suppose it does I mean I I I think we I think that maybe just be Jordan and Richard but by the way um um I think that Jordan prioritizes myth and I prioritize fact and um I think myth is kind of vaguely interesting but it's not the SP on end or of my life I think it's it's somewhat secondary to scientific fact sort of facts that that tell us how old the universe is how old the world is um the history of Life the um engineering achievements of Landing a a a a spacecraft on on a comet the these are the things that science can do and as I said the
+
+[07:39] predictions of quantum theory to come back to that but predictions of quantum theory which are verified to a sufficient number of decimal places that it's equivalent to predicting the width of North America to one hair's breadth now that is however difficult quantum theory is to understand that is what you can get from quantum theory now the mysteries of the Bible if they are Mysteries aren't in the same league I mean they they just don't cut it see that well okay so let let me let me respond to that so one of the things that I've tried to study is the preconditions for the scientific
+
+[08:16] Enterprise itself you you appeared to agree with Alex that there might be um presumptions axioms that need to be accepted I don't want to put words in your mouth cuz I want to get this right before the Scientific Enterprise can begin so I've tried to think those TRS let me lay out a couple of them this is partly what I've done while trying to make the case for example that you're more of a Christian than you think you are so for example I think that the scient scientific Enterprise is motivated by the aaic presumption that truth tends towards a Unity I think that it's predicated on the notion
+
+[08:52] that there is a logical order that's intrinsic to the cosmos that that fundamental order is good that it's intelligible to human beings and that discovering that order and aligning ourself with it makes for life more abundant I think that this scientific Enterprise is also predicated on the idea that the truth will set you free and I think all of those axioms are religious and derived from the judeo-christian tradition and if you don't believe that you have to account for why science emerged in Europe and nowhere else in the entire history of humanity for example and why it's also why it's
+
+[09:32] under assault from like all quarters now as that underlying metaphysic disappear it's like you don't have you haven't had to be concerned with the mythological substrate in your lifetime in some sense because it was intact and so the universities could flourish and you had your freedom remarkable freedom to pursue your scientific Enterprise wherever you wanted and people lauded you for it like that time is that time is threatened and seriously so and I think it's partly because these metaphysical assumptions have now become questionable and that's part of the reason that I'm attending to them
+
+## Part 2 · 10:07
+
+[10:07] it's not because I don't admire the accuracy of quantum prediction for example or celebrate what musk is doing with his capability of sending Rockets to Mars it's like more power to the technological Enterprise but you know what's happening in the universities it's awful and that's that's not a scientific problem it's under okay I agree about that okay okay um I think it's an interesting question why science emerged in Europe I mean and I'm not enough of a historian to know it is even possible that Christianity did have something to do with that and I I wouldn't categorically deny that but
+
+[10:44] that doesn't in any way increase my trust in the validity of Christian propositions like the Resurrection The Virgin birth and miracles and Jesus is the son of God um Christianity may have had some kind of historical uh facilitating effect that led to the uh Renaissance that led to to the Scientific Revolution and and that would be a very interesting historical analysis but it doesn't bear upon the truth of the propositions of the Christian religion

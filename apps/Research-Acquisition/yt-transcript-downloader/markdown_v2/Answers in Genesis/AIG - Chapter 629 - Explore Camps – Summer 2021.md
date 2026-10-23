@@ -1,0 +1,61 @@
+# Explore Camps – Summer 2021
+
+**Channel:** [[Answers in Genesis]] (`AIG`) · Chapter 629 of 1947 · Length 11m 35s · [[00 - Channel Summary]]
+**Video ID:** `7D6xY7Ky96Q`
+**URL:** https://www.youtube.com/watch?v=7D6xY7Ky96Q
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 06:00
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:18|Part 2 · 10:18]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] hi this is ken ham ceo of answers genesis creation museum and the arc encounter and do we have a fun little program for you because we're going to be talking to dr georgia perdum and roger patterson from our education content division oh that noise in the background is a zip line actually behind us and we have some exciting programs coming up for young people and we're going to be doing more and more of these programs and they're very popular and they're usually booked out very very quickly wait till you see what's in store for june and july for some three-day and five-day camps we call them
+
+[00:38] their day camps people don't stay overnight but they come to the area and stay somewhere and right and the kids come here and so first of all dr purdum tell us what we're doing and what the age limits are and so okay okay so these are our explore camps and we have we do have a camp next week but that one's already closed for registration but we have another one coming up a five-day camp in july that's july 12-16 and then we also have two three-day camps as well our forensic science camp which is june 30th through july 2nd and then our teach me automation which is our stem camp which will be
+
+[01:16] july 21st through the 23rd and of course all of this information is available on the creation museum website under education and explore and these are really great these are for ages basically are grades 6 through 12 so they can come and have these day camps have a lot of hands-on science professional instruction you get a t-shirt you get completion certificates at the end a parking pass so your parents can come and park here and they can enjoy the creation museum while you're in camp as well everything is provided for the camp all the education materials all the lab supplies and for our five
+
+[01:58] day camp each day we cover a different topic so we're going to be covering earth science physical science which includes zip lining and we're going to have a demonstration of that pretty shortly forensic science zoology and astronomy so that one actually starts in the evening and you get to do some fun stuff with the planetarium and our observatory and dr danny faulkner who's the one that's going to be zip lining as well he's our astronomer and then we also have with our forensic camps dr jennifer rivera she is a forensic scientist so she's going to be leading those and teaching those and
+
+[02:34] helping out with those and you'll do a lot of fingerprinting you'll do dna fingerprinting which i love as a geneticist shoe impressions soil analysis tool impressions interrogation techniques which is really cool in my opinion uh so lots of fun things with that and then our audit our stem camp our teach me automation camp you'll learn a lot about different kinds of engineering like electrical mechanical hydraulic learning about transistors and relays and sensors and doing putting together a final project so lots of interesting things there as well if you're interested in sort of the
+
+[03:13] engineering side of things so there really is something for everyone no this is not fair you know that i mean grades what six through twelve sixth through twelfth grade what about someone like me too bad ken that sounds so good i wanna go to it i know i really do wanna go okay roger you're involved in blowing things up right um yes that's what people often think of so with my new science program unlocking science we get to engage people and do lots of fun activities teach them about how god's created the world and how we can use science to understand the world and we're going to be bringing a
+
+[03:47] lot of that teaching into the camps so with the different programs we're doing each day we've got a different focus a different emphasis so we're going to kind of show you some of the things that we're going to be doing on our physical science day so dr danny faulconer is up on top of the tower up here getting ready to zip oh he's ready to zip but i've got a couple other things we're going to show you so we're going to be talking about electrochemistry in one of our sections so we'll learn why this potato clock actually works and how we can power a clock using potatoes it's really not the
+
+[04:19] potatoes that are doing it but we'll learn about that principle we'll learn about a potato clove a potato clock yeah electrochemistry that's not a potato head no it's not okay okay we'll learn about some different physical science phenomena like if i just drop this battery down through this pipe it just goes right through very quickly right but if i add some magnets to it and the magnets are not going to stick to the copper pipe itself but if i add some magnets to it it doesn't drop through quite so quickly why does that happen we're going to talk about the connection between i don't know why
+
+[04:53] does it happen i'm not going to give you the answer you've got to come to the camp to find out this is a teaser for the camera oh okay we'll talk about how electricity and magnetism are related to one another and those things we'll learn the difference between a battery and a cell most people call these things batteries but this is actually a cell and this is a battery that's a small battery no this is four cells hooked together to form one battery this is one cell so there's actually four of these inside of here so we'll learn about how that helps us create more voltage or more amperage
+
+[05:29] different ways i remember looking at cells under a microscope different kind of cell this is an electrochemical cell we'll be studying this is physical science and this is all from a biblical worldview perspective that's uniqueness of these programs that's what truly makes them unique and something that we love to offer here at the creation museum there'll be lots of apologetics teaching as well um in the camps and as we think about all these things my my delight is to show you how god has created a universe that's orderly and we can understand it so one of those things is the laws of motion
+
+[06:01] so we'll be talking about the laws of motion using fun things like this giant slingshot that launches water balloons okay so we're going to be in the summer launching some water balloons out of the world it's like doing this because it takes you back to your childhood doesn't it turn into like a little fourth grade boy doing all kinds of fun science things so we're gonna use these giant slingshots to launch water balloons and talk about newton's laws of motion and i've also constructed over here another type of device to do that you'll probably recognize this as a catapult so we're going to
+
+[06:35] demonstrate this this is one of the fun things i get paid to build so i always tell people my job is the greatest job in the world because i get paid to blow stuff up and build fun machines like this so i built this catapult to help us understand that so i need you ken to put your foot on that side george is going to put her foot over there and we're going to demonstrate how this catapult will launch a balloon down here so we're going to be using this too i have an idea why don't we get a videographer to stand there and you can see if you can aim if i can hit her so we're going to be talking
+
+[07:17] about ballistics and trajectory and force and energy and how god's created a universe that's orderly and functional and we can understand all the different pieces of it and use fun things like this catapult and the water balloons to to do that wow somebody might get wet during this activity um that would be biblical too remind them of the flood oh yeah sure we could tie in some flood illusions there okay so what do you want to do now um so we just want to make sure that people know that these are really engaging activities for the kids to come and learn we want to make them fun and
+
+[07:54] entertaining but still very educational at the same time and bringing in those biblical truths and one of the funnest things i think for this camp this year funnest fun most most fun most fun rest okay the funnest things the most fun thing is going to happen is the zip lining so on our physical science day we're going to be sending the kids with dr faulconer to talk about motion and gravity and physics yeah so up way up on the tower up here if we turn around here we can see dr faulconer's up here on the tower way up high in the sky this is one of the great fun activities families can do when
+
+[08:30] they come to the creation museum or even down at the arken counter and dr faulkner's up there and are we going to launch him all right and dr faulconer is ready to go and we're gonna send him across the lake on his zipline adventure just like the kids will be doing at camp this year okay on the count of three one two three there he goes so as ken mentioned earlier these are i'm just waiting for the explosion when he hits the other end i don't think that's going to happen these are just for kids but kids of all ages can enjoy the activities here at the creation museum as well well that is
+
+[09:12] fantastic you know um i wish i could be a kid again well you know how i never had opportunity of doing all this from a biblical worldview perspective and so you know this this is absolutely incredible well i where'd our videographer go he's over there oh we should walk over there oh look that's one of our zipline team actually going down are they going down to rescue danny or what are they doing i think he's okay you think he's okay did he get there let's have a look here but his christian museum grounds are beautiful aren't they look at that you know there's about 22 zip lines here all
+
+[09:48] together actually and they go through the trees and challenge course down at the arc there are zip lines that actually go across the valleys yeah the first one here you go right across the pond it's a little scary taking that first lake but it's fun zipping across the water so great things to see we'll be doing bird watching out on the museum grounds um all types of activities uh a fun scavenger hunt where they're gonna the kids are gonna really be challenged to think through some some tough questions and use the minds that god's given them to to answer those questions and we have a science
+
+## Part 2 · 10:18
+
+[10:18] lab here at the creation museum and we have some special uh rooms that we have workshop rooms and so on that we use uh and then down at the arc we're actually building a science lab as well we're gonna be able to do more and more we're gonna be able to do more things even next year so be watching the website for more information on that but to register for these camps you need to go to the creation museum website click on the tab at the top that says education and then click on explore and it will take you to where the camps are so be sure to register soon because like i say these camps do
+
+[10:49] fill up very very quickly and if you want to take advantage of this great opportunity be sure to do that soon well there you are i'm just disappointed i can't join in on all this and that's discrimination against old people you realize that i had to let you launch the catapult if you'd like to afterwards as long as you're standing at the end all right so i can see if i can hit you with it anyway hey make sure you sign up for this if you're grade 6 through 12 get your parents to watch this and say hey i want to do this because you'll learn from a biblical worldview perspective which is really
+
+[11:19] unique and that's what we need to do raise up generations who know how to think correctly biblically about all these issues and fun learning science and all sorts of different aspects at the same time okay make sure you come to one of our three day or five day camps

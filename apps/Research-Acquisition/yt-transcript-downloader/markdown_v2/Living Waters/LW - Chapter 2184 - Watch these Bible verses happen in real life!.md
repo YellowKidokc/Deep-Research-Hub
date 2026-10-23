@@ -1,0 +1,54 @@
+# Watch these Bible verses happen in real life!
+
+**Channel:** [[Living Waters]] (`LW`) · Chapter 2184 of 2497 · Length 10m 33s · [[00 - Channel Summary]]
+**Video ID:** `KkBsWMa1Ex4`
+**URL:** https://www.youtube.com/watch?v=KkBsWMa1Ex4
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 05:14
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:03|Part 1 · 00:03]]
+
+---
+
+## Part 1 · 00:03
+
+[00:03] [Music] I'm not sure how the image of this ice cream melting will affect you whether it will make you happy or sad it depends on whether or not you're trying to avoid ice cream I know that just watching this maybe go straight to our refrigerator and grab some ice cream Matthew 9:36 tells us when Jesus saw a multitude of people he was moved with compassion let me ask you is compassion for the multitude of those the Bible calls unsaved going to move you and I today it's all very well to talk about this but how do we do that practically well this may help so how do i how do I approach a stranger
+
+[00:45] I often get asked that well this is how I approach a stranger this is very deep so please take note if I see a stranger someone I don't know this is how I make my approach good morning you got that just say hello and often people say oh good morning you know I found out why people and takes us doesn't takes us recently they are so polite so different than in California takes us people are very polite and I found out why everyone's got a gun gotta be nice good morning you know I believe in a relationship evangelism relationship evangelist is where you build a relationship with someone maybe
+
+[01:36] for a couple of years and you earn the right to share the gospel with them I believe in a relationship evangelism when I meet a stranger I build a relationship with him for one maybe two minutes before I share the gospel why because he could die in the two years when I'm waiting to get earned the right to witness to him Jesus didn't sit on the well for two years in John chapter four he immediately brought the subject up with a woman at the well and we can do the same thing I often use gospel tracts to bring a subject up I always have gospel tracts on me always I never without attract and I've
+
+[02:15] said all around the world if anyone ever finds me in public without a gospel tract I'll give them a thousand dollars cash someone saw me in a swimming pool once and said uh-huh I said uh-huh [Applause] this is how a million dollar bill it's not a real million dollar bill I wouldn't hold up one in public if it was real this is looks if there was a million dollar bill it would probably look like this and has the gospel on the back and all I do is say to people hey got you a million yet and they say what is this it's a million dollar bill you'll think of me when you get the change they go WOW
+
+[02:54] hey thank you I can quit work I said there's a gospel message on the back read it when you got a minute and I said hey do you think there's an afterlife he says IIIi don't know so you think about it much he says yeah all the time his all the time dissipates my fears I think oh he's human he's not the Antichrist isn't stabbed me to death something like 93% of Americans believe in the existence of God they're not anti God and so when you mention God or the afterlife they often will say yeah I think about it all the time I think man disguise human he's afraid of death in fact the Bible says
+
+[03:32] every human being is haunted by the fear of death all their lifetime Hebrews 2 verse 14 and 15 every single human being atheist non atheist whatever every human being is haunted by the fear of death until we come to the foot of that cross and our faith lifts us up so I say well if Heaven exists you're gonna make it there this is yeah I think so so you're a good person he says I actually I'm a really good person proverbs 20 verse 6 says most every man will proclaim his own goodness so are you a good person I'm a very good person do you think you're a good person well I I know that is God angry
+
+[04:09] at you know your lies have you told in your life five hundred trillion perhaps if a stolen something I have so you're relying thief I would say there are yes from that perspective absolutely give a stolen something of course have you ever used God's name in vain I'm just still think you're a good person I'm beyond a good person so you think a lying thief is a good person I would take a lying thief if he needs it that bad and he needs to steal then may God be with him a third question have you ever used God's name in vain I have that's called blasphemy using God's name as a cuss word jesus
+
+[04:53] said whoever looks at a woman and lusts for her has committed adultery already whether in his heart have you ever looked at a woman with lust I've committed adultery in that sense thirty times so far since we've been talking Lydia I'm not judging you but you just told me you're a lying thief a blasphemer and an adulterer at heart and you got to face God on Judgment Day whether you believe in him or not if he judges you by the ten commandments we looked at for you're gonna be innocent or guilty well no when that day comes you'd be guilty like the rest of us I get that's your perspective sure
+
+[05:26] my perspective I don't have a perspective this is God's perspective according to his law he wrote the Ten Commandments and stones so this is his perspective do you like the rest of us were all guilty before God and the Bible says we'll end up in hell because God is holy and just he's nothing like us the Bible says all Liars will their part in the lake of fire and hate you'd end up in hell for God to give you exactly what you deserve according to his holiness the video will continue in a few seconds but I wanted to remind you to please subscribe to our Channel and click on the notifications
+
+[05:54] bell and don't forget to like comment and share thank you so would you therefore if you're guilty go to heaven or hell it's a good question the huge question that's the frightening question you know the Bible says all Liars of their part in the lake of fire no thief no blasphemer one here at God's kingdom so you in big trouble so what can you do to justify yourself any idea well I mean I could I could tell you what what you could probably say that I think you just be kind and loving to all then it's a safe bet no try that in a court of law if you have committed a very serious crime and the
+
+[06:31] judge says you guilty you say I'm guilty but from now on I'm gonna be kind and loving the people if say so what so you should be you're going to jail for the crime you committed so good works can't wash away our sins there's only one thing you can do that and that's God's mercy and he extended that and the Savior Jesus suffered and died on the cross to take the punishment for the sin of the world you and I broke God's law the Ten Commandments Jesus paid the fine it's as simple as that that's what happened on the cross if you're in court and someone pays you fine even though you're guilty the
+
+[06:58] judge cannot let you go and he can be just and righteous and do that which is legal and God can dismiss your case forgive your sins and legally let you live forever commute your death sentence because of the death and resurrection of the Savior what you have to do is repent and trust in him like a trusty parachute I am so surprised you let me speak you're so kind thank you very much you're very patient with me and I really want to thank you for listening you know let me say that again in summation you don't know when you're gonna die you've sinned against God you need us mercy if you repent
+
+[07:28] in trust in Jesus like a trust a parachute God will give you everlasting life as a free gift you've got it they've got that from a as a promise from the God who cannot lie yeah do you think I'm telling the truth I think you believe it's the truth I want to know what you believe I believe we're talking fear here and we're just trying to scare people into doing anything I said I grew up in Catholicism I bred too much don't a Catholic and I want to tell you fear is your friend sometimes let me tell you when fear is your friend fear will make you put on a parachute when you're standing ten
+
+[07:59] thousand feet up a plane fear will make you step back from a thousand foot cliff fear can be a friend and the Bible says the fear of the Lord is the beginning of wisdom look if you're on a plane and you didn't want to put on a pair of shoe because you thought you're fine you could jump without it my flap in your arms the biggest favor I could do for you is hanging out the plane by your ankles for two second you'll come in and say give me that parachute because fear is set in it's doing a favor to you and I've tried to hang you out turn atibaia ankles for a minute and say man this is a fearful
+
+[08:26] thing to fall into the hands of the Living God you need a Savior you need his mercy you need his forgiveness if you want to live does that make sense it all makes sense never get suicidal thoughts maybe like once a month one after I don't like if I don't work out as much I get kind of suicide that's horrible maybe that's because you've left yourself hopeless when it comes to death I mean if you've got know if you're going to answer to death then you're going to feel a sense of hopelessness it's like being on the edge of a plane 10,000 feet up no parachute someone gives you a parachute now
+
+[08:56] you've got hope of being saved because you're gonna hit the ground not 120 miles now on your face but about eight miles an hour on your feet so your faith in the parachute will overcome your fears and so you need hope otherwise you're gonna have suicidal thoughts and one day when problems come suicide might take you like it takes 45,000 people a year in the u.s.
+
+[09:24] that's horrific I hope you'll think about what we talked about will you do that think about it all the time you know I have a my buddy Mackenzie it's you're speaking his language we have this conversation all the time got a Bible at home I'd give I'm on I'm good I'm covered I'm safe I've accepted Jesus Christ into my life I've done all that most of America has accepted Jesus into their life but that's not biblical you've got to repent and trust in him you know not add them to your life and continue in sin so the Bible speaks of such a thing as a false conversion so obey the scriptures and
+
+[09:42] examine yourself and see if you're in the faith and look for fruit there's no fruit of righteousness and holiness then you've had a false conversion and you need to get before the Lord and make your calling and election sure this is so important think of my motives it's only because I love you I'm talking like this okay so you're gonna think about it sure appreciate that thank you [Music] you

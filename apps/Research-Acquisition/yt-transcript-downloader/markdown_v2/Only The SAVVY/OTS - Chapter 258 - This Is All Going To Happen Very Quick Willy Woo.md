@@ -1,0 +1,61 @@
+# This Is All Going To Happen Very Quick | Willy Woo
+
+**Channel:** [[Only The SAVVY]] (`OTS`) · Chapter 258 of 514 · Length 14m 23s · [[00 - Channel Summary]]
+**Video ID:** `TKa2Ug96iFI`
+**URL:** https://www.youtube.com/watch?v=TKa2Ug96iFI
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 00:55
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:13|Part 2 · 10:13]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] yeah we have 15 years of of data on it now and it is going to be quick and it's not even Up For Debate um people may want to debate it but they haven't looked at the data um as of where we are now is it's very reliably half a billion people that have some sort of ownership of Bitcoin in 15 years and if you run this data forward we will be a billion people uh having some ownership of Bitcoin uh by the end of this decade and by 2035 if this curve continues its path we we're pretty much near majority adoption of of Bitcoin in this recent interview with SS the Future featuring Wily woo we uncover
+
+[00:45] fascinating insights about the future of Bitcoin Willie woo an expert in onchain analysis and Bitcoin adoption Trends explores the 10,000-year perspective of bitcoin's role in Civilization how Bitcoin adoption is accelerating globally and the connection between Bitcoin and the kardashev scale of energy Evolution at the time of this discussion Bitcoin is trading around $101,000 with a 4% increase in the last 24 hours and a 1% increase in the last 30 days before we hear more from Wily woo don't forget to like subscribe and share this channel now let's hear more as as an investment holding and
+
+[01:21] then the question is is this going to be a reserve currency will it be money will it be a medium of Exchange um but it's happening very very quickly um this was like a zoom out picture of um where does Bitcoin sit in a 10,000 year view in this case it was like 10,000 years into the past not the future um but we can get to that um and really it was like if you were to look at the fundamentals of money uh we we started off with um you know commodity money um and um we basically built this kind of Lindy effect on gold and Silver's money because these things were uh very hard to get more of uh
+
+[02:02] very hard to inflate the supply and as we moved into um the Industrial Age there was a you know a change where we tended to trade the paper that was uh claimable for for the gold and silver because you know it's a pain in the ass Shi shifting lumps of silver and gold around so you know with with the development of Industrial Age we we started to papiz um you know papers much quicker and then now we're in a digital age and um what we're seeing is you know a lot of online banking um a lot of digital payments but that that stuff's not internet native and um really fundamentally Bitcoin um solved
+
+[02:45] this thing that uh was thought to be solvable but um it took until the Toshi white paper um in in the tail end of 2008 to solve um what he solved was the ability to put scarcity online because up till then you know I send you a JPEG M you know you can just copy it to infinity and um so by putting scarcity online it was the first time we could actually have a real internet native money um so really the thought is we're in this this kind of transition to a fully digital age where so much of our economy is online and we didn't up to now have a uh digitally native um form of scarcity or form of
+
+[03:34] money um so and that's Bitcoin and so that's a 10,000 years from the past to where we are now um in that sort of what one picture tweet I think I did yeah yeah this is a really interesting um thing when you look at 10,000 years of of money and you find that um you know we've had um first inklings of gold coins and stuff for like I think 700 B c um and now we talk about money going from um you know World Reserve currencies changing every hundred years uh but you find that like they were always tagged to gold or silver until um this very very brief experiment of Fiat um since 1971 when the gold
+
+[04:19] window was closed um and uh that's never gone well in the history of the world so I don't really look at this era of um 50 years almost roughly um as real a real Zone you see why our journey went off Germany went off um the gold standard uh and it hyperinflated almost immediately The Whole World's on this fit right now I think it's a brief experiment um so now the bigger picture is is Bitcoins in the process or attempting to flip gold and silver like thousands multi- Thousand Years of Lindy effect building trust in gold silver as as a form of of money um and it's only 15 years into this um as
+
+[05:11] we just heard wiie woo discuss bitcoin's incredible adoption Trends now let's hear his thoughts on bitcoin's role as a truly internet native form of money the global trajectory toward mainstream adoption by 2030 and the fascinating link between Bitcoin and energy Evolution on the kardashev scale let's dive deeper into these transformative ideas and listen to what Wily woo has to say when I was starting the early research you know I would do things like look at Google Trends and so forth and um things were doubling every every year that was how quickly it was growing now it's not compounding
+
+[05:43] quite like that in terms of user adoption but uh in terms of we're at 5% of the world mhm uh that will compound very very quickly cuz it's an adoption curve right once you hit 16% that's when you hit mainstream it gets to 50% very very quickly and and you think about it being barely over a trillion dollars M and the speed of the adoption and the fact that more than 99% of global wealth is not invested yet and the kind of um reflexive nature of this investment that like $1 invested can shift market cap $5 um in a bull market uh yeah Bitcoin set to explode into a very high number in in the
+
+[06:28] coming years given this adoption very reliable adoption yeah it's very very easy now for Bitcoin to be um argued as a credible investment now that you've got um these ETFs you've got um Black Rock recommending allocations as high as above 70% in some analyst um reports uh Fidelity I think is 3% allocation just run that you know say 3% of $550 trillion goes into Bitcoin multiply by anything from one to 5x depending on where we are in the cycle you get to some very uh large numbers very quickly and and you know like micro strategy has really kind of been the proofing the pudding in a way with
+
+[07:13] the their Bitcoin strategy MH look at them they're a software company that really was not that competitive by Michael sailor's own words they took on this this treasury strategy and um now they're uh they the best performing um stock on the S&P 500 with NASDAQ NASDAQ um beating out things like an Nvidia Nvidia yep um Amazon Microsoft so forth Google yeah just explain what scale is as well this this is going to open us up to Bitcoin in the next 10,000 years um so the Kev scale is a measure of Technology the technology level is really measured in energy consumption um or har the amount of
+
+[08:03] energy harness and so originally proposed was there's three types of civilizations type one is the the civilization that can capture every single amount of energy hitting your planet and converting that to use mhm type two is all of the energy from your star the sun and then type three is all the energy available in the Galaxy so this is sort of long range thinking and Technology levels kind of the Star Trek and Beyond um idea and if you measure uh where we are on the scale cuz after this was proposed uh we said kardashev level zero is uh pretty much our own muscle power eating food hunter
+
+[08:46] gatherer type of thing before even the invention of of the the harnessing of fire cuz you know wood that's not your energy that you're producing so that's a zero and um put that in perspective we're you know like 1 or 2% I think don't quote me on it of the energy hitting the planet we we can convert it might be even less than 1% um but if you look at that on a geometric scale potentially 10,000 years is H gatherer through to a gring age to where we are as a digital age uh we cut a shev 0.75 and in 200 years we're on track two to 300 years we're on track to hand us all the energy available on
+
+[09:25] the planet to give you an idea of exponential change and so in this future um we're going now look at what money is uh given that money is this thing that Civilization likes to use um where they pick the thing that's a fair Ledger like we've used gold or silver we've also done fair and we know that will blow up and it doesn't last very long in in in a view of multiple thousands of years and so we used um effectively atoms um you know like called gold and silver um that were very hard to dig out of the ground and inflate the supply of um and that doesn't hold true in a in this kind of
+
+## Part 2 · 10:13
+
+[10:13] Technology um landscape uh if you were to look at what happened just um earlier this month I think what's gone viral um unless you're hiding under a rock is this giant rocket with twice the the power of the Moon rocket come back down and get caught by a tower right and the consequence of that technology is um getting something into low earth orbit um uh 100 times cheaper it used to cost NASA $10,000 to get 1 kilogram into orbit so you know your water bottle cost $10,000 to get into the space station and um now at it's going to be $10 and the threshold to access all of the resources in the
+
+[11:05] solar system is about $100 of cost um getting into into orbit that below $100 mining the asteroid bels accessing the solar system including putting solar panels um in orbit and capturing more energy become unlocked and so uh as I say as of uh this month the count down clock for gold being scarce is is is ending and um it might not be in 10 years or even 20 years but it will end and it won't be scarce and we've got this other thing which is perfectly secured in this this future landscape and it's an energy coin and it's called Bitcoin because if you want to um control that currency you need to
+
+[11:56] control the energy and um in an economy everything uses energy right I like to say the economy is effectively a um an engine that eats raw materials and energies to spit out stuff that we want um and you can look at long ranging graphs of energy and um GDP and they pretty much one to one and so that's also when we were level one um civilization we're going to have that level of goods and services and so forth so the econom is going to be hungry for energy and if you want to secure your money you and you're using energy it's compatible and that will not break into the future to Infinity mhm um
+
+[12:45] so uh the the form of money it's very hard to break a multi- year Lindy effect but we're forced to do it in these coming decades to watch the full interview check out the link in the description in this conversation Wily woo explored bitcoin's pivotal role in civilization's future its accelerating adoption rates and how it represents the next step in energy backed economies we would love to hear your thoughts on some questions do you think Bitcoin could fully replace Fiat currencies in the next decade how do you see bitcoin's relationship with energy evolving in the future thank you for
+
+[13:21] tuning in to Only The Savvy if you enjoyed this discussion Please Subscribe like and share our video for more engaging content focused on the Innovative world of decentralized Technologies Sim swap fraud is sweeping the globe and your mobile security is at risk switch to eani and lock out sim swap fraud and get the most elite mobile protection in the world ephon guarantees 100% protection from SIM swaps backed by a $5 million insurance policy stay secure with reliable coverage free international roaming and unlimited data trust aani to keep your Communications and assets secure get military
+
+[13:57] grade protection 24/7 concierge service and a hassle-free upgrade click the link below for $150 off thanks for watching help support this Channel and receive exclusive offers from one of our partners located in the description we'll see you on the next one

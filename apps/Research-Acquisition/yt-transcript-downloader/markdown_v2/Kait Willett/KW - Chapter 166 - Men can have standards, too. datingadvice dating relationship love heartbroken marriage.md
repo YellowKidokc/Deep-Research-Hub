@@ -1,0 +1,15 @@
+# Men can have standards, too. #datingadvice #dating #relationship #love #heartbroken #marriage
+
+**Channel:** [[Kait Willett]] (`KW`) · Chapter 166 of 325 · Length — (prose source, no timestamps) · [[00 - Channel Summary]]
+**Video ID:** `N5PnSS6tDkU`
+**URL:** https://www.youtube.com/watch?v=N5PnSS6tDkU
+
+---
+
+### [00:00](https://www.youtube.com/watch?v=N5PnSS6tDkU&t=0s)
+
+If you want a relationship that matches your energy, I need you to follow this one very critical and important rule that most people just simply overlook. And that is why they are disappointed and their relationships become dysfunctional. Do not ask for somebody else to meet a standard that you yourself do not meet. Do not ask for commitment if you've got doors open. Do not ask for loyalty if you don't embody it. Don't ask for truth and transparency while you're hiding stuff. Do not ask somebody to be something for you that you are not willing to be for them. Don't ask somebody to show up and take care of you, provide for you if you are not willing to take care of them the way that they need to be taken care of. Because one piece of advice I hear repetitively that I think is delusional is the idea that what he won't do, another man will. Because the reality is that man may not do it because of who you are and how you show up and what you ask but do not give what you expect but don't return.
+
+Because men, I know this is maybe controversial, men are allowed to have standards too. Just like you want a guy that fits certain demographic or resource marks. Men are allowed to have standards for themselves. Two, entitlement is not attractive. Men do not enjoy entitled women. They like women who know their worth, women who respect themselves, women who can set boundaries, women who communicate clearly, most importantly, women who are not allergic to accountability and can take responsibility, the things that you want him to be able to do. So sometimes it's not one person that is the problem and the reason why the relationship fell apart. This absolutely happens. There are really shitty people out there, men and women, who treat people terribly, and you absolutely deserve better if you've been in one of those dynamics. I'm not saying you deserve something like that. Please do not go out there and twist my words cuz I know somebody on the internet's going to hear this and get trigger and show up in my comment section be like, "Well, this guy did this and so yeah, what he didn't do is some guy." Yeah, I get it.
+
+I get it. Not talking about that. And one easy thing you can do is check yourself. If you're going to show up and ask that person, male or woman, don't care who you're with, to be something for you, to do something for you, to show up for you in a certain way, to defend you, to honor you, to protect you, to be loyal to you, to commit to you, you need to make sure with integrity, you can match that request. The truth is, everybody deserves love. I really believe that. I think love is the most transformative thing in the world.

@@ -1,0 +1,50 @@
+# Bitcoin Is About To Explode (Here’s Why)
+
+**Channel:** [[Andrei Jikh]] (`AJ`) · Chapter 49 of 322 · Length 10m 11s · [[00 - Channel Summary]]
+**Video ID:** `pdQE3jvz0R0`
+**URL:** https://www.youtube.com/watch?v=pdQE3jvz0R0
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-25 11:46
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] okay so what if the same company that broke Wall Street just made a move that could break the internet GameStop the original meme stock just announced that it's adding Bitcoin to its corporate treasury so now it's 100% confirmed and it could be the beginning of a brand new era not just for Bitcoin but for you as an investor because if this plays out the way that some people are saying it will it could signal a shift in how corporations hold money and lock a wave of new Bitcoin adoption that affects every portfolio in the world so let me break down exactly what's happening why GameStop did
+
+[00:39] this how it fits into the bigger picture with Tesla and micro strategy and what it could mean for bitcoin's price in the next few years of investing so let's get into it hi my name is Andre J hope you're doing well come for the finance and stay for GameStop now on March 25th GameStop announced they're officially adding Bitcoin to their balance sheet and that move is approved by their board and this means they're now converting a portion of their corporate cash which is usually sitting in either dollars or short-term Investments that pay them a small interest into Bitcoin and holding it as a
+
+[01:14] treasury asset now unfortunately they didn't reveal the exact amount they'll be investing just yet but GameStop has about 4.8 billion dollar in cash so even a small percentage could end up being hundreds of Millions ions of dollars flowing into Bitcoin and we actually do have a clue how much they might be considering Michael sailor's company strategy tweeted that Mara might have some competition soon and Mara holds 46,000 Bitcoin that's worth about $4 billion and here's the crazy part they didn't even set a cap they're open to accumulating more over time and this decision was backed by their
+
+[01:53] board led by Ryan Cohen who's been quietly signaling this move for months including a tweet of him with Michael sailor whose company now holds the most amount of Bitcoin out of any company in the world and it gets even better this wasn't just GameStop doing this for fun strive Asset Management who's a major shareholder in GameStop wrote a letter publicly telling them to adopt Bitcoin calling it an incredible opportunity to protect their treasury from inflation and build long-term shareholder value so this wasn't random it was very strategic but now let's zoom out and ask the question why are
+
+[02:33] companies buying Bitcoin at all and there's three main reasons number one is it's an inflation hedge with central banks printing money the value of cash is constantly going down in fact if you look at the true inflation data you're going to find that since 2020 not that long ago $1 will now only buy you 74 cents worth of stuff so it's not just people losing purchasing power at the grocery stores it's also the corporations that hold cash as part of their reserves so holding Bitcoin is like holding digital gold with a limited Supply now reason number two is long-term appreciation Bitcoin has
+
+[03:11] been the best performing asset of the past decade even factoring in all the volatility and companies want to make money not just by selling products but by being good investors of their cash and reason number three is sign ing Innovation because holding Bitcoin sends a message to the market that it's forward thinking it's trying to understand where the world is going and that they're not afraid to lead and that helps boost stock prices which makes shareholders happy and it's not just a theory either this is not the first time that this strategy has been used let's go back to August 2020 micro
+
+[03:47] strategy a business analytics company became the first public company to go all in and CEO Michael sailor turned 250 million in corporate cash into Bitcoin coin and then just kept buying today they own over half a million Bitcoin representing 2.4% of all Bitcoin in existence worth over $40 billion and they just rebranded to strategy to reflect that Bitcoin is the core of their business model then in 2021 Tesla made headlines when it bought 1 and A5 billion dollar worth of bitcoin and that alone pushed Bitcoin up 20% in just one day and that made it mainstream for a while Tesla even accepted
+
+[04:31] Bitcoin to buy Teslas and then Square now called block followed shortly after that with CEO Jack dorsy saying Bitcoin is the future of money so the list kept growing coinbase Mass Mutual and dozens of other companies are quietly buying and stacking Bitcoin while the world debated if it was a bubble or not now in 2025 GameStop joins that list and this time they're doing it with better timing more regulatory Clarity a community that's already proven it can move markets and a president that just announced Bitcoin is part of the US strategic reserves but now let's talk about what this actually
+
+[05:11] means for the price because the question is does GameStop buying Bitcoin actually move the price now in the short term not really GameStop did go up about 15% this morning but the famous Josh Mandel who correctly predicted Bitcoin at 84k and that Bitcoin is going to go to 44 4,000 this cycle says he's actually shorting GameStop so it's anyone's guess what's going to happen in the short term but long term this is where it gets really interesting because Bitcoin has a fixed Supply and corporate treasuries are massive so if just 1% of the S&P 500 the stock market adopts a Bitcoin treasury
+
+[05:53] strategy it would inject hundreds of billions of dollars into the asset tightening Supply boosting demand and pushing prices higher but it also creates a higher low a higher floor for Bitcoin with each and every cycle because it has that many more new investors that want to buy it when they see it as an opportunity and the price dips and it's not just about one company it's about the message that this is becoming normalized just like ETFs and institutions are onboarding millions of new investors companies stacking B Bitcoin is another vertical and here's the craziest part when Tesla bought
+
+[06:34] Bitcoin they held it for months and it still affected the price micro strategy said they're going to hold and never sell and that means the supply is effectively off the market Michael seller himself says he plans to burn his own private keys to his own Bitcoin as a gift when he's gone and less Supply equals higher price potential so the question now is Will other companies follow and the answer is most likely GameStop is not a financial company or even a Crypton native company they were a retail dinosaur that's Reinventing itself and if they can do it what's going to stop other companies
+
+[07:09] from doing it companies like AMC chewy Shopify even Apple could be watching really closely right now especially if GameStops price reacts positively and their treasury actually grows in value the biggest risk is fear because most sea level executive people that run companies don't want to be the first to bet their company's money on bitcoin because if it goes down jail no not really but they might lose their job and now though the United States is going to start buying soon so they're not going to be the first they're not even going to be the second and the more that jump in the safer it
+
+[07:48] becomes it's a classic s-curve of adoption and we might just be right at that acceleration point but now let me just tie it all together and let's bring it back to the investor that might be watching this very boring video that I put together last minute so what happens to our portfolios so Bitcoin is going mainstream and the story has changed from what if it fails and is it a bubble to what if this becomes part of every major balance sheet on Earth so the opportunity is still what people call asymmetric meaning the risk to reward is still so imbalanced that it's in favor of at least having
+
+[08:27] some than not having any at all and if corporate adoption continues I think we're still early Bitcoin might already be close to 100K but the road to 250 and 444 and 500 or even a million isn't that crazy in this context now for me personally Bitcoin still represents between 25 to 30% of my net worth depending on the day and my logic is I'm younger and I can take the risk and the volatility but that might not be true for everyone I can make a separate video about that but I do think that there is a risk in the future as more and more companies start to adopt this strategy crypto themed stocks
+
+[09:07] will probably become the new altcoins so just be careful when that happens in which companies you choose to invest in but overall this is history repeating itself first it was gold then it was cash and now Bitcoin might be the next chapter in reserve assets especially for my generation so GameStop just made Bitcoin a boardroom asset and it's no longer just retail versus Wall Street it's Bitcoin on Wall Street and that shift changes everything and if you do decide to get some this video is sponsored by yours truly if you'd like to learn how to self- custody your Bitcoin and how to protect it I
+
+[09:47] have a step-by-step video guide that teaches you how to do exactly that and as a thank you for making it this far into this unscheduled video that I was not planning on making you can use coupon code Andre 40 to get an additional 40% off the training series if you found this helpful let me know I'd love to hear your thoughts I hope you have a wonderful rest of your day smash the like button subscribe if you haven't already I'd love to see you back here next week I'll see you soon bye-bye

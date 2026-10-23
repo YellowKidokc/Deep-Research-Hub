@@ -1,0 +1,89 @@
+# Why Certain Books Were LEFT OUT of The Bible (Detailed Explanation!)
+
+**Channel:** [[Daily Dose Of Wisdom]] (`DDOW`) · Chapter 868 of 916 · Length 19m 46s · [[00 - Channel Summary]]
+**Video ID:** `18rNFf8_uns`
+**URL:** https://www.youtube.com/watch?v=18rNFf8_uns
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 04:51
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:17|Part 2 · 10:17]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] with the formation of the of what we now call the New Testament canon. Um obviously there's a process of selecting certain text excluding others and the question is how do we know that the included text were not altered to align with the emerging orthodoxy and what criteria were used to determine what is authentic versus what is inauthentic? I'll start with that second question first. What is authentic versus inauthentic? What were the criteria that were used?
+
+[00:48] You have three basic criteria that the early church used to discover what the Holy Spirit had inspired, not to determine what was scripture. It's a very important distinction. If they determined what was scripture rather than discovering what was scripture, then they would be in authority over scripture. That's the Roman Catholic position. Protestants say they discovered it. Well, then how do you know they got that right? They use three criteria that were universal in their application.
+
+[01:20] And um if you say they determined it, then we'd expect to have early church councils that said this is what scripture is. I'll get to that point when I answer your first question because a lot of people think the Council of Nika AD 3:25 was where Constantine dictated these are the books of the New Testament. And I'll talk about that. That's that's probably a good segue to talk about has it been changed for orthodoxy reasons. And um so we're we're going to kind of look at that question and what you followed up with about uh the theological disputes and intentional changes in the manuscript.
+
+[01:50] We kind of put those all together. So what the early church did was they we see this by growing discussions. They never explicitly said these are the criteria we use to discover what's what's in the New Testament. Um the first criterion was a apostolicity. that is was it written by an apostle or an associate of an apostle and that criterion was so important that if it didn't pass muster there it's excluded automatically.
+
+[02:34] Now we don't know all the stuff that the early church used to determine whether it was by an apostle or not but we do know that any books after the first century were automatically excluded. And what's really interesting is we have um the Murritorian fragment which was written in the late 2nd century about AD 180 we think somewhere around there and it's the first canonical list we have uh that comes from any orthodox circles. This list talks about the books that are permitted to be read in worship services.
+
+[03:07] And if it was something that you could read in the worship services for all intents and purposes, that meant it was scripture. This didn't call it scripture. It was just it had authority to be read and therefore instructions to be followed. It goes through and it lists at least 22 of the New Testament books as these have that kind of authority. That's remarkable. And um it's only small books. Five small books like um second Peter, James, um second or third John and Jude I think are the ones. I think those those are the only ones. May maybe there's one other.
+
+[03:43] But uh already within 80 years of the completion of the New Testament, we have a list of the books that are to be read in the churches. It's it was written in Latin so it's outside of the original context. The church was spreading apostolicity was critical. Now I'll I'll mention that as we I look at the moratorium fragment in just a second. Second criterion was cath catholicity. By that I don't mean Roman Catholic Church. I mean uh Catholicity in the sense of it was accepted widely. Soius in his ecclesiastical history uh written in no later than AD 3:24. It's an important point to to remember.
+
+[04:24] Describes what was a major issue for him namely what are the books of the New Testament and how do we know and uh he puts these potential books into four different categories. This is something he had studied for years. The first uh category was the homalumina and that's a term that he used that meant those books that are accepted by all the churches going all the way back to the first century where he was able to trace the church records. Universal approval, universal acceptance and universal authorship was I mean they were accepted as as those books. He he lists Matthew, Mark, Luke and John.
+
+[05:07] He lists Paul's epistles. He lists other books that were all part of the homaluna. Then he has a second group known as the antilamina. And the only difference between the antilaggama and the homalumina is the antilamina were not accepted by all the churches but they were accepted by most of the churches. And this includes the rest of the new testament books about five books uh that uh were also included. bringing us to the 27 New Testament books that we have. So he lists that. Then he's got pseudapigraphith, those that were written by someone other than the claimed attributed author.
+
+[05:49] All of those were immediately rejected. When the church thought something was not written, it was a forgery, they rejected it. And then finally, Apocrypha, the the hidden works, which is what we have in all all sorts of things written in the second, third, and fourth century and even later than that. The Gospel of Thomas is a pseudapigraph. It it lists the name of Thomas right at the end of this book. It says, you know, the gospel according of of Thomas, you get this, the Gospel of Mary, the Gospel of Philip, the Gospel of Judas, all these gospels that were not by these people written later.
+
+[06:23] And it's interesting, the New Testament gospels had no names attached to them. But because those churches who received them originally knew who wrote it, those names were universally accepted right from the beginning. And so we don't have any manuscripts of Mark that start with Mark 1 that don't have the Gospel according to Mark. Same thing with Matthew and Luke and John. So, uh, it's these later books that came along in the second century that needed to add the name of an apostle or an associative apostle to get immediate recognition because they're starting so late.
+
+[07:01] And so, there's a significance to the fact that these names were added to the books that were not by them. The gospel is not by them. Well, the church had to sift through a number of other works. There were a number of books allegedly by Peter and they only accepted two books. First Peter and second Peter. Second Peter was one of the disputed books, one of the antilogan. It was not accepted by all the churches. There's really important historical reasons why it would not have been accepted by all the churches and had a long time.
+
+[07:33] It had the hardest time of getting accepted as scripture of any New Testament book that we have.
+
+[08:11] uh important reasons that had to do with um uh Peter's strategy in what he was doing be because one of the reasons it was not accepted is because people think oh Peter couldn't have written this because well I'm sorry I'm getting getting into some differences so cut all that part out but um this criterion of apostolicity then is something that they examine very carefully catholicity accepted by most of the churches at least most of these books accepted by all the churches and finally orthodoxy did it conform to the books we know were scripture uh in particular the gospels which were were the
+
+[08:16] ones that were accepted very early on and then Paul's letters were which were accepted shortly after that the gospels certainly uh were accepted uh in in the first century uh and Paul's letters no later than the first quarter of the second century so apostolicity Here's the interesting thing in Bartman's book Forge where he talks about most of the New Testament books are not written by the people that uh some have that are attributed to them. What he discusses is he gives all these reasons why they couldn't have been.
+
+[08:54] You know that James couldn't have been written by James because the Greek is too good for him or Peter by first Peter, Jude by Jude, those kinds of things.
+
+[09:28] Um but uh what he doesn't discuss in here anywhere that I could find is the testimony of the early church fathers where they're saying starting in the first century late first century we have church fathers saying Paul wrote to the Romans Paul wrote uh to this group you know this kind of a thing how in the world could he ignore the most important historical evidence we have from early on just because it doesn't fit his narrative and that narrative the right narrative is that apostolicity was an absolute ground rule that could not be violated.
+
+[09:40] So for whatever reasons, the early church came to accept second Peter, but it it rejected most of the books they knew about that were allegedly by Peter. So we don't have the reasons that they came up with, but we do have that it was accepted by most of the churches early on. So I'd say these criteria, we can't change the criteria that the early church used. I don't think because I believe the early church was led by the spirit to discover what books were in the New Testament. And today scholars will say, moderate scholars, not fully evangelical.
+
+## Part 2 · 10:17
+
+[10:17] Even some evangelical in a broader sense will say, well, Paul didn't write 1 and 2 Timothy or Titus. Peter didn't write second Peter. Other books were not written by these people. But we still consider them to be scripture. Well, they're not following the criteria of the early church. And man says if he he he gave his book forged really actually helps evangelicals with a very high view of scripture because he said if a book was a forgery the and the church note automatically they rejected it. I agree with him wholeheartedly on that and he has plenty of examples.
+
+[10:52] But then he says but they missed a bunch. most of the books in the New Testament were forgeries. This is where I disagree with him and he doesn't bring in what the church fathers were saying about those books, you know. So, um that's that's what we know about the canon. And I'd say a high view of scripture says these books are written by the people that u are they're attributed to and the early church understood how that holy spirit had inspired them.
+
+[11:28] Now you asked a second question related to this and it and it relates to the theological disputes and how do we just reframe the question if you would. Yeah, actually can I really quick ask just a sub question on the topic that we were just on uh just because I and maybe it's even a one-word answer but basically before you do let me just I don't know if you've noticed this coffee mark deathwish coffee. Oh, cool. I I didn't see that. It's the world's strongest coffee. I have it every day. Nice. You ought to try it sometime. Okay, sounds good. Okay, go ahead.
+
+[11:55] The um you mentioned that the Gospel of Thomas, etc. put the name on it as a way of trying to gain credibility, but that the original Matthew, Mark, Luke, and John came as anonymous. And my question with that is was that normal at the time for other uh interesting, you know, just accounts in history, I guess, biography, historical biographies or or whatnot to to not put the name on it or is there a reason why they initially was was it like a a humility thing like I don't want to take credit for this, but I would, you know, or or what's the thought process behind that?
+
+[12:39] That's a really great question. It's actually very simple. Your household, statistically speaking, spends about $100 per month on products like soap, deodorant, those little vitamin C packets, etc. The problem is that most of us buy these products from places like Target, Amazon, and so on. Businesses who take your $100 and then use a part of that money to fund causes, agendas, and values that I'm pretty sure you're not happy with. My wife and I are now spending that same $100 a month at a different location that is made in America, devoid of these affiliations.
+
+[13:16] It is a simple invitation for you to do the same. This is in no way a replacement of preaching the gospel or loving your neighbor. This is a small action. But if every subscriber to this channel, for example, actually made the switch, we would be taking like $900 million a month and moving it away from these culture damaging businesses. That's the point. That's why I'm doing this and that's why I'm inviting you to do this as well. So, if you're interested or curious at all to learn more, go to switchwithbrandon.com. Now, back to the video.
+
+[13:53] the uniqueness of Jesus is what caused the uniqueness of the gospels. Really fascinating. Um but um I believe that most of them have the author named. Now the reason is because those books were intended to be published to a wider audience. The gospels were originally written to these original audiences.
+
+[14:36] these audience who would know who the author is because the courier who brings that gospel from another location says oh this is from Luke this is from John they they knew who it was and consequently there was no need to add the the the name and what's really important is when titles were added uh they the titles were not the gospel of Matthew that's an abbreviated way for us to refer to it it's the gospel according to Matthew. Mhm. That is there is one gospel. There's one good news and four lengthy perspectives on it. One by Matthew, Mark, Luke, and one by John.
+
+[14:58] So the Gospel of Thomas is not called the Gospel according to Thomas. It's called the Gospel of Thomas in the manuscript. The very few manuscripts we have of Thomas, one one actually that names it. Uh okay. So that's great. That's super helpful. That's a great question though. Yeah. Awesome. Uh I believe the part that we were circling back to was the we're talking about the canonization uh and we're talking about how there would have been selection uh for some and and exclusion of others.
+
+[15:31] And then the sub question I believe was how do we know that the included texts were not altered to align with emerging orthodoxy? Was that the part we wanted to go into or was it Yeah. Okay, great. Yeah. Um, how do we know that these books were not altered to fit with this uh uh early orthodox view? Bartman has famously argued this in his orthodox corruption of scripture and his book misquing Jesus. But uh let me just give an illustration that uh would suggest this. Uh man doesn't go here but others have. It's widely suggested.
+
+[16:13] It's it's one of these um myths about the New Testament that Constantine is the man who dictated which books should go into the New Testament and that he dictated what they should say in particular speaking about the deity of Christ. Now this is argued because at the council of Nika in AD 3:25 which he uh organized with uh 38 uh bishops from churches around the whole Mediterranean world uh and it concluded in the fall of uh 325. Constantine was there. The emperor, the first Christian emperor was there at the beginning and at the end.
+
+[16:52] He suggested one word that they use uh to describe um the humanity and deity of Christ. But he wasn't there for the thing. And he had no the council na had absolutely nothing to do with which books should go in the New Testament. And the reason for that is because no later than 3:24 wrote his ecclesiastical history. And as I just mentioned in book 3, chapter 15, he talks about the books of the New Testament. This is before he even met Constantine.
+
+[17:32] Before Constantine ordered in 332, Ucius to have 50 Bibles produced at his workshop in uh Cesaria and uh had craftsmen who would produce these 50 Bibles for the new capital Constantinople. And so uh Ucius had to know what the books of the New Testament were in order to do that. And it's because Constantine ordered these Bibles to be produced. People have added 2 plus two that is Council of Na and then ordering the books. Therefore, they come up with five and they're dead wrong about all that. So um anyway, interesting.
+
+[18:04] Um so one of the arguments is that well Constantine invented the deity of Christ. The problem is when you look at our oldest manuscripts like um P66 of John's gospel which has most of John in it and P75 which which has John in it as well has uh most of Luke and most of John. P66 written somewhere between uh 200 and 250 we believe written at least 75 years before the council of uh Nika. Here it says in the very first verse something that of course uh was changed because it doesn't affirm the deity of Christ.
+
+[18:53] What it says is a prostonal what it says just like every single Greek New Testament manuscript we have of John's gospel no matter the date or the language they all say that the word was God in the beginning was the word and the word was with God and the word was God. I guess Constantine must have been at least 100 years old if he invented the deity of Christ because he must have alerted the scribe of P66 in 250 to write this out. And we have the you know we have so much evidence on on other fronts on this. That's just an affirmation of Jesus as God by the name God.
+
+[19:31] But there's so much evidence we have in second and third century manuscripts as I said where you can see the deity of Christ in so many different passages that um Bowman and Kasheesky have really really u done their homework

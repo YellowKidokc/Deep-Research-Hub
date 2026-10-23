@@ -1,0 +1,61 @@
+# He Has a LOT to Say About Spiritual Matters!
+
+**Channel:** [[Living Waters]] (`LW`) · Chapter 738 of 2497 · Length 11m 48s · [[00 - Channel Summary]]
+**Video ID:** `OcQ1XLlo6pM`
+**URL:** https://www.youtube.com/watch?v=OcQ1XLlo6pM
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 04:43
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:15|Part 2 · 10:15]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] i say it's probably because of the sins that have came to you a long time ago that are coming back to you in the future someone stabbed me because of my sins i think so what's your thoughts on the afterlife well i think there is an afterlife i think um you know when we pass i feel like uh we're in a place that where we can um definitely all come together as one you're getting this information from are you making it up um i would say um yeah i think honestly i'll say yes i am making it up on this one shouldn't you find out the truth i mean this is the biggest thing that's ever going to happen
+
+[00:42] to you you know when you were born that was a big deal when you get married a big deal but when you die your death day is your entrance into eternity and you're going to pass on from this earth so you've got to find out something concrete you know if you're going to jump out of a plane you want to check the parachute make sure you're not trusting in just a sheet or something it's got to be the real deal do you believe what the bible says uh about um the afterlife oh yeah of course of course you believe what the bible says i do yes i do sir are you in big trouble or not the bible says you're
+
+[01:14] in big trouble i would say um that's a good one give me a second for that one you know what it says about death in the bible it says sin is the cause of death it's wages yes god pays you in death for your sins do you think you're that bad that god should give you the death sentence i would say um well he's the creator so i would say honestly whatever the creator does is his will and i feel his will is righteous so that's what i can say about that so you do what he says if he told you to do something you do it of course he tells you to repent and trust the savior have you done that yes you're
+
+[02:00] trusting in jesus i trust in jesus so how come you don't know what's going to happen to you after you die that's just a foundation of the christian faith i'm gonna be real sir what happens after someone dies so i feel when somebody dies it depends on which sins they had uh in this earth um either they go to heaven or they go to hell what makes the difference what should i do to be saved if i said to you roderick what should i do i'm terrified of ending up in hell what must i do to be saved what would you say to me i say see god i say look in the bible read it and take your time and accept
+
+[02:34] christ take my time once i've got a knife in my back with three minutes to live what would you say to me then i say that's a good one if you have a knife in your back three minutes to lift two and a half minutes now stop messing around help me out come on two and a half minutes i say it's probably because of the sins that have came to you a long time ago that are coming back to you in the future someone stabbed me because of my sins i think so it depends it really depends it because like i said god is the one that controls all this so i'm asking you what to do be safe and you can't help me i
+
+[03:10] i say well it's really honestly up to the creator at that point well he wants you to preach the gospel remember go into all the world and preach the gospel to every creature so i'm going to back up here and i'm going to check your salvation for you you're going to jump out of a plane it's good to have your parachute checked isn't that right of course that is true and the bible says make your calling an election sure so i'm going to see if we can make sure you are genuinely saved do you think you're a good person honestly i don't know if i'm a good person or not because we're going to find out
+
+[03:39] we're going to find out right now how many lies have you told in your life i have told a good amount of lies i don't know the exact number but i have went in the past everything's in the past i met you in the past so what do you call someone who tells lies you call him a liar so what are you i'm a liar have you ever stolen something even if it's small in your whole life have i stole something even small no i have not you know when people repeat a question they're usually abiding time to tell a lie something i'm going to ask you again i'm not it's just i'm trying to carefully answer the
+
+[04:13] questions have a download of music off the internet that's not yours i have that's theft that says so you're online yeah that's true that's true you call someone who steals things that's a that's a thief what are you i'm not a thief yes you are you're downloading music off the internet that's not yours look rock if you open my wallet and take out one dollar you're as much a thief as if you took out twenty dollars that's true the thing stolen is irrelevant and we're talking about god we're not talking about man he doesn't grade on the curve if you steal one thing you're a thief so have you
+
+[04:47] ever used god's name in vain god's name in vain no i have not i heard you do it when we first met i did yes you took god's name in vain i don't want to repeat it but you did you used god's name without giving it joanna so when when things are happening to you in this life and like you have stolen before if you can repent then stop doing it it makes it righteous well not true if you go to a court of law and use that same logic it's not going to work judge rob the bank shot the guard but i'm real sorry i won't do it again he's saying good you shouldn't do it again you're going to jail so
+
+[05:21] repentance being sorry and saying or not do it again can't even release you from man's courtroom it's not going to release you on judgment day you need something else and that's what we're heading for so stay with me and i appreciate your honesty and your patience you're very patient it's called blasphemy when using god's name in vain would you use your mother's name as a cuss word no actually no course not that would dishonor her and you've taken the holy name of god the one that gave you life and used it to express disgust taken in vain called blasphemy punishable by death in the old
+
+[05:54] testament one to go and we're getting there jesus said if you look at a woman and lust for her you commit adultery already wither in your heart have you ever looked at a woman with lust yes a long time ago long time ago have you had sex before marriage yes a long time ago the bible says a thousand years to man is but a day in god's eyes so just because things were in the past doesn't exonerate us from god's courtroom so i'm not judging you but you've just told me you're a lying thieving blasphemous fornicating adulterer at heart and you have to face god on judgment day if he judges you by the
+
+[06:28] ten commandments we've looked at four you're going to be innocent or guilty actually he actually judges you by all the commandments yeah that's true so you want to go in some more have you ever hated somebody have i hated somebody yes i actually have the bible says he who hates his brother is a murderer and so we better not look at the other commandments we're you're in trouble as it is so if god if god if god judges you by the commandments on judgment are you going to be innocent or guilty um it depends on god you know he's god i can't i can't make that call that's what i can you told you
+
+[07:02] told us you're a lying thieving fornicating blasphemous murderous adulterer at heart you'll be guilty all liars will have their part in the lake of fire no thief no blasphemer no adulterant or a fornicator it's going to inherit god's kingdom so you're heading for hell man so what can you do to be saved what did god do for guilty sinners so we wouldn't have to go to hell do you know you just follow commandments man well you've already you've already broken them you can't follow them they're accusing you they've got ten great fingers pointing at you calling for your death you know how you can
+
+[07:32] be saved call on god for mercy the bible says he's rich in mercy to all that call upon him and he can show us mercy because jesus suffered and died on the cross most people know that but they don't know this the ten commandments are called the moral law you and i broke the law jesus paid the fine that's what happened on that cross that's why he said it is finished just before he died in other words the debt has been paid roderick if you're in court and someone pays you fine even though you're guilty a judge can let you go you can say roderick stack of speeding fines here this is deadly
+
+[08:04] serious but someone's paid him you're free to go he can do that which is legal and just and right even though you're guilty you can let you walk and god can let us walk even though we're guilty god can let us walk even though we're guilty because jesus paid the fine in his life's blood he can show us mercy he can let us live forever he can take the death sentence off us all because of that suffering death and resurrection of the savior and what you must do to be saved is repent yes but trust in jesus that's what will save you repentance is when you truly turn from sin you can't say i'm a
+
+[08:36] christian but you're fornicating lie and blaspheme that's just deceiving yourself playing the hypocrite you've got to be genuine sincere in your repentance and then trust in jesus like you trust a parachute and the second you put your trust in jesus god promises and he cannot lies without sin that he'll remit your sins and grant you everlasting life as a free gift does this make sense it makes sense in a certain sense but also how do you just trust in jesus not just accepting him but what do you have to do to accept him good question if you ever had an argument with someone and there's like a
+
+[09:13] barrier comes between you and them it's like a wall there's no friendship or fellowship and one of you goes back to the other and says i'm so sorry and there's tears of reconciliation you have a hug and there's immediate fellowship while there's a barrier between you and god the bible says it's your sin your sins have made a separation between you and your god and if you come to him with a contrite heart and just say god i'm sorry for my sins it's called it's called repentance godly sorrow works repentance god will accept you because of what jesus did on the cross and forgive every sin you've
+
+[09:43] ever committed and the miracle is he'll give you a new heart if you want a personal miracle from god just repent trust in jesus and he'll give you your own personal miracle where he'll cause you to thirst after righteousness you want to do that which is right and that's a miracle for sin loving sinners we get pleasure out of sin but when god transforms you when you're born again your love that was just right this making sense made somewhat sense uh when you say repent like again like you have to repent but what you're preparing for for christ right no you're repenting because you've broken
+
+## Part 2 · 10:15
+
+[10:15] the commandments you don't want to continue to walk in sin so repentance is perpetual it's continual even as a christian after 48 years i continually repent i walk in repentance i walk in contrition and i know that every time i my eyes fall on something they shouldn't or i'm not as loving as i could be i just say god please forgive me and i've got i've got forgiveness because of what jesus did on the cross the bible says if we confess our sins he is faithful and just to forgive us our sins and to cleanse us from all unrighteousness this making sense it makes sense who would you say i'm going
+
+[10:48] to think about what we talked about today of course i will have a bible at home i actually do well thank you for talking to me it's been a joy you've made my day thank you my brother i appreciate it [Music] [Applause] [Music] you

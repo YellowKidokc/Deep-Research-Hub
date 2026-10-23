@@ -1,0 +1,50 @@
+# Ray Comfort Doesn't Share the Gospel with Him...
+
+**Channel:** [[Living Waters]] (`LW`) · Chapter 1620 of 2497 · Length 9m 34s · [[00 - Channel Summary]]
+**Video ID:** `M1UMAJvQV2A`
+**URL:** https://www.youtube.com/watch?v=M1UMAJvQV2A
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 04:42
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] [Music] I stopped these two guys on the pier in Huntington Beach and asked if they would come on camera and talk about the afterlife one city would after a little pleading on my part the other one said absolutely not and the second guy in the background stood behind me as I shared with his friend and I was delighted with what he said after the interview which you'll hear and by the way I got his permission to use the recording so Ron what did you do before you retired reporter a photographer enjoy that sure whose work was great challenging a lot of work not a lot of money I think isn't
+
+[00:42] afterlife oh yeah I think so are you afraid of dying I think of the actual event happening but uh and you know it's just kind of uncertain you don't really know you know how you're gonna go or whatever but afraid so what do you think happens after someone dies do you think isn't afterlife I wouldn't know that I just think that there's probably more to it than we know right now you think about it much not particularly afraid of dying not particularly well sure why everyone's afraid of dying it's crazy Ron is like jumping out of a plane at midnight with no parachute again like of the of the
+
+[01:25] actual thing itself happening but I'm not super afraid of you know afterwards or anything like that you know do you believe in God's existence well I don't I don't get into actual religious parts of it so I want to talk about that it's not religion it's just like do you think probably powers and there are probably things that are beyond our our realm we our people tend to think they know everything we don't so there's maybe there are other things you know it's good to be fearful because you're fearful you're gonna say I'm gonna do something about this so you just think it's inevitable are you
+
+[01:57] just gonna accept your own death your demise I mean yeah eventually it's gonna happen it's just inevitable it's like standing on a freeway and there's a truck hit him for you 60 miles now you say I'm going to get hit I'm not going to get out of the way it's just I'm going to enjoy myself while I wait be hit is that we gonna deal would you get out of the road of a truck well I mean if I can get out of the way I will and see if you say let death is inevitable you won't do anything about it I mean do you ever think about God or the Bible you ask questions do you think about it yeah yeah yeah I
+
+[02:27] think about it you believe in God's existence uh-huh what do you think he says about death it says it's wages God's paid you and death for your sins the wages of sin is death it's like a judge giving the death sentence to a criminalist issue unless you be murdered three young ladies this is what you deserve this is your wages do you think you're evil enough for God to put you to death to give you capital punishment I don't really think that's like how it works what does a universe end where does time end who knows who made it all this isn't religion there's a lot of stuff that out there you
+
+[03:04] know the old saying don't throw the baby out with the bathwater that has no bearing on it a lot of dirty bathwater out there when it comes to religion pedophile priests and hypocrisy and preachers with bottomless collection bags yeah that's not my issue I have nothing to do with so that don't concern me any are you an atheist oh I can say I don't talk about what what I think what I believe religiously or something I'd love to dig it out of you I think you'd be an interesting guy I'm a reporter give me the story why don't you want to talk about God are you a good person I think so I mean I try
+
+[03:37] to be but how many lies have you told in your life a lot if it's stolen something probably you're a lying thief yeah have you ever used God's name in vain F yeah would you use your mother's name as a cuss word no why not you love her and that would dishonor Who horribly and yet you have taken the name of God your Creator the holy name of God the one that gave you life and used it as a castaway to express disgust which is called blasphemy punishable by death in the Old Testament one to go we're going through the Ten Commandments Jesus said if you look at a woman and lust you come at adultery
+
+[04:19] whether in your heart have you ever looked at a woman with lust I'm not gonna talk about that you had sex before marriage it's now gonna throw a rope over you okay so you're gonna plead the fifth yep why that is so Sam I'm not judging you but you've just told me you're a lying thief a blasphemer and probably an adulterer at heart if you've got red blood in your veins so here's the big if if God judges you by the Ten Commandments on Judgment Day you're gonna be innocent or guilty well I think it's uh I think it's a little bit more than that well commandment no I think it's there's definitely a
+
+[04:56] lot more to say God than the Ten Commandments it's kind of a small way of looking at it well that's the standard he's going to judge with on Judgment Day and and he offers us forgiveness of sins but will never seek His mercy unless we realize we've sinned against him and that's what the commandments do they show us that we've sinned against God we're heading for hell and there is a way of escape if we want to take advantage of it do you know what God did for guilty sinners so we wouldn't have to go to hell do you know yeah yeah you do son and so it's it's more about like the acceptance I
+
+[05:30] think of the mercy but we broke God's law the Ten Commandments Jesus paid the fine that's what happened on the cross that's why said it is finished just before he died in other words that Dead has been paid if you're in court someone pays you find a judge can let you go even though you're guilty and God can let us go even though we're guilty because Jesus paid the fine and his life's blood and rose from the dead and all you and I have to do to find everlasting life is obey the gospel repent of sin don't play the hypocrite and then trust in Jesus like a trust a parachute I have certain things
+
+[06:04] that I think of and I have a certain beliefs but it would take way too long to explain them thoroughly and if I try to explain them just right off the cuff it wouldn't make a lot of sense so it doesn't make a lot of sense the time I think it'd be interesting to me even it took a long time hey you know why I believe in God's existence this is an interview about what what we consider the afterlife we started talking about a religion we'll have to cut the interview you can't talk about the afterlife without talking about God yes you can yes you can this has no bearing at all whatsoever if you
+
+[06:35] ask me what I believe happens after death that's one thing if you believe in a certain deity or sets of deities that's another thing okay would you let me share with you my thoughts oh you open to that that closed that even the least bit of interest in it do you know we don't want to talk about God for the same reason thieves don't want to be near police it's that guilt that does it but God offers you evil that's your perspective and that just shows that you're kind of narrow-minded in what you believe because I feel otherwise you would realize that that's such a narrow perspective I'm the
+
+[07:05] one that's open minded I want to talk you want to close me down you'll want to censor me come on open up be honest with me let me know what's in your heart I'll be honest with you I think this is going kind of nowhere so I think I'll just cut it at this point well thank you for sharing as much as you did and I I do hope you'll think about what we did talk about nice to meet you're on nice talking to you okay so man think about this this is your eternity you don't know when you're gonna die you know God offers you everlasting life as a free gift if you let go your sins and we love to fornicate
+
+[07:36] we love pornography when you love our last like a kid holding onto a stick of dynamite not realizing that it'll be the death of us so so think about that think how much you value your eyes and thinking about you value your life jesus said watch it a profit a man if he gains the whole world and loses his own salt and sand the only reason I'm telling you these how things is cuz I love you I care about you even though I don't know you the thought are you gonna help her Faiz me so I want you to think about this well the sense of urgency will you do that yeah of course I I mean I try to do that
+
+[08:05] always I mean I went to a Christian College so who hasn't and California most people got a Christian background they've had a semblance just enough to inoculate them so please give this some thought to have a Bible at home first yeah well thank you for talking me I really appreciate it you're very laid back and but I hope this is Hubbert's made you think okay okay thanks thank you for state have you listened yeah well you could have joined in ah sounds better speakers this is the evidence Bible everything you ever want to know about evangelism it's over 1800 pages filled to overflowing with
+
+[08:46] apologetic arguments everything you'd ever want to know about reaching blast it's available at livingwaters.com amazon.com or a true Christian bookstore we now have an Einstein million Einstein as an icon his name is synonymous with intelligence or genius I wrote a book quraían Stein God on the Bible and which he complained that he didn't like being recognized in public my advice to him would be to get a haircut anyway you need Atlas livingwaters.com [Music] [Applause] [Music]

@@ -1,0 +1,65 @@
+# Questions on God's Infinity and the Moral Argument | Reasonable Faith Video Podcast
+
+**Channel:** [[ReasonableFaithOrg]] (`R`) · Chapter 895 of 1167 · Length 15m 49s · [[00 - Channel Summary]]
+**Video ID:** `0almVZp5Sjs`
+**URL:** https://www.youtube.com/watch?v=0almVZp5Sjs
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 04:41
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:08|Part 1 · 00:08]]
+- [[#Part 2 · 10:21|Part 2 · 10:21]]
+
+---
+
+## Part 1 · 00:08
+
+[00:08] well it's time to put you in the hot seat and get some questions your way we get questions from all over the world this one for the United Kingdom dear dr.
+
+[00:48] Craig why is the existence of God the only good explanation for the existence of intentional states of consciousness from Josh we need to explain what we mean here by intentional states of consciousness what we mean are mental states that are about something or of something for example I can think about the vacation that I'm going to take this summer and the reason these intentional states seem to be incompatible with atheism is that no physical object exhibits these kind of intentional states a chair or a stone or even the brain is not about something or of something intentionality is a
+
+[01:02] property of mental states and therefore it seems that naturalism which is the most plausible form of atheism has no room for intentional states of consciousness and that's why for example a naturalist like Alex Rosenberg concludes that there are no such thing as intentional states of consciousness he says he never thinks about anything in fact and that even his book that he wrote isn't really about anything because intentionality is illusory on a naturalistic view by contrast if God exists then there are intentional states of consciousness namely God's own states of consciousness and
+
+[01:50] therefore it would hardly be surprising if there were as well finite intentional states of consciousness persons like us who can think about things so the the idea here is that intentional states of consciousness fit very ill with a naturalistic view of the world but they fit extremely well with the theistic view of the world and so the reality of intentional states of consciousness is supportive of theism Michael from the state says professor Craig I was intrigued by your comment in the New York Times about miracles in science being compatible could you expand on that topic event well just a
+
+[02:30] little bit I talked about this in my book reasonable faith in the chapter on miracles I think the central insight here is to understand that the laws of nature are not violated by miracles we should not define a miracle as a violation of a law of nature why because the laws of nature have implicit in them certain what we call Keter espera bus clauses that is to say implicit clauses stating all else being equal that is to say the laws of nature describe what will happen if there are no interfering natural or supernatural factors but if there are such interfering factors then the law simply
+
+[03:18] doesn't apply in that case so the laws of nature are idealizations that include these implicit terrorists perilous conditions about all else being equal and therefore a miracle does not violate a law of nature the nature the law of nature just doesn't apply when God is intervening to act in the world I think we should therefore define miracles as naturally impossible events they are events which the causal powers of nature at the time and place in question are incapable of producing so that if they occur they must have a supernatural cause boy we sure mangle the term miracle and popular
+
+[04:09] jargon today the The Miracle on Ice when a hockey team wins right and so on next question Byron in the United States says hey I have a question in Genesis 22 God asked Abraham to sacrifice his son Isaac then before he killed him the angel stopped him the next phrase is throwing me for a loop he said now I know you fear God implying that he didn't know beforehand I know God knows all things but I've been struggling with this for a while thank you what byron needs to understand is that the Old Testament is not a philosophy book or a book of systematic theology it's a book of stories about
+
+[04:49] Israel's God stories that would have been told around the fire of these nomadic camps and the art of a good storyteller is to tell a story with vitality and and Verve and color and so God has often described down to Pro morphic Li in these Old Testament stories for example in the story of Adam and Eve you have God walking in the cool of the garden and saying Adam where are you and Adam says Here I am and he's discovered by God or God comes down to Abraham and said I've heard that things are being done wickedly in Sodom and Gomorrah so I've come down to see if this is really the case and then
+
+[05:31] here you have something similar I think these are simply anthropomorphisms in the story that displayed the storytellers art but are not meant to be careful philosophical statements about God here's a question from Tom and Norway dear dr.
+
+[06:12] Craig first I want to thank you for your valuable and enlightening work like many I am struggling on my way to theism and often I am left with questions if for some reason aren't talked about much I've listed some of these here and it would be very valuable to hear your response to them none of these are my views they contain different angles of the same issue or so I've grouped them together number one on God's infinity this is the one that we're gonna look at bill if something exists apart from God would that not limit God since he is infinite and would encompass everything let me say
+
+[06:29] immediately that I've written an article on this subject that Tom should read it's called pantheists in spite of themselves question mark pollen bark Clayton & Schultz on divine infinity and he will find that this article addresses directly his question and this is to be found on the reasonable faith org website under scholarly articles and then the subsection Christian doctrine and again it's called pantheists in spite of themselves and the fallacy here is thinking that if something is infinite there can't be something outside it that if something is infinite that then it includes everything
+
+[07:11] and that's simply a non sequitur take for example the set of odd numbers the set of odd numbers is infinite but there's also the set of even numbers which is also infinite and neither one is included in the other in addition to those sets of infinite quantities there are other things like Kevin Harris and Bill Craig that aren't included in those collections so the idea that God is infinite in no way implies that he is all-inclusive there can be a finite world which is not God in his distinct from God even though God is infinite okay he continues if God resides in a domain beyond the finite
+
+[08:00] outside of time this is a limit and he cannot be infinite I don't see that as a limit to God's infinity that he should exist timelessly again he's thinking that the infinite can't have limits and and that's clearly wrong think again of the series of natural numbers it has a limited begins with zero it has one end this by contrast the series of negative numbers has a limit it has an end with negative one so it's simply incorrect a thing that something that is infinite is limitless in the sense that it's all inclusive okay so that answers his next question so how can God be infinite when he
+
+[08:51] doesn't include everything also the finite if the finite is part of God something it must be if he is infinite then God too is finite and I would not say that the finite is part of God in fact that's the burden of this article that I just referred to to suggest that Pollan Berg Schultz and Clayton do seem to commit themselves to a kind of pantheism whereby the finite would be included in God because they think God must include everything and be all-inclusive but in answer to his question how can God be infinite if he doesn't include everything he can be infinite in the sense that he is
+
+[09:31] eternal in his being that he is omnipotent that he is omniscient he knows everything that he is omnipresent he's everywhere present none of those properties exclude the existence of finite reality which is non divine he said when God created the finite he must logically have become finite because of the existence of this because there are finite beings and infinite being seems contradictory yes and that is not correct as the illustrations I've given show the the equivocation here that's going on on the part of these thinkers is equating the word infinite with all inclusive and that is a false
+
+## Part 2 · 10:21
+
+[10:21] equivalent it's it's odd that these sorts of arguments should have developed at the same time that Cantor's work on transfinite arithmetic and infinite set theory would make the concept of the infinite in mathematics very clear and understandable and would show quite the contrary that the infinite can have limits that you can have an infinite collection that is not all-inclusive that there's no contradiction between the infinite and the finite in fact in transfinite arithmetic you can do addition with infinite quantities and finite numbers for example Aleph null is the lowest transfinite
+
+[11:06] cardinal number it is the number of elements in the set of natural and you can ask questions like what is aleph-null plus one flat as aleph-null plus two what is aleph-null plus three and those are perfectly intelligible arithmetic 'el operations in which you add the finite to the infinite the the infinite is not all-inclusive so what is he getting here what is he getting at here bill he says however if the finite is a part of God and he really is infinite then the finite is also infinite yeah I liked his earlier expression that if the finite is part of God then goddess is finite a yeah he it
+
+[11:53] it's hard to know what he's saying here God's infinite being couldn't interact with anything else yeah because there would be nothing that he is not yes see that's the idea here is this this equation being the finitude with being everything there is or being all inclusive and that is a false equation and he just sums it up by saying if there is an interaction between the infinite God and our finite world how can God then be evident and he can be infinite in possessing these superlative properties that I just described absolute moral perfection omnipotence omniscience eternality omnipresence a
+
+[12:43] sati metaphysical necessity these are the attributes that go to make up the infinity of God's being okay I hope that that helps Tom he says he's he's on his way to theism yes we wish him well from Dallas in United States hello I have a question regarding your parallel argument for our moral experience that we are justified in trusting our moral experience as we are justified in believing our sense experiences are reliable but here is my question if our Sense experience is reliable then why do we have perceptual errors seeing things out of the corner of your eyes things that there on accident
+
+[13:26] etc the only response I've come back to on this that these are just temporary errors and they're our eyes just messing up but if that's the case can we trust our census perience as our moral experience the claim here is that our sense experience is reliable not that it's infallible of course there are perceptual errors we see water on the highway in the distance and it turns out to be a mirage we think we hear someone in the next room and it turns out to be something else the claim is not that our sense experiences and fallible it is defeasible it can be defeated but the claim is that we are
+
+[14:12] justified in believing our sense experience that there is a world of physical objects around us unless and until we have some sort of defeater for that sense experience and it's the same in the moral realm our moral perceptions are reliable but they're not infallible our moral experiences defeasible the Nazis thought that the Holocaust was morally good Afrikaner South Africans thought that racial discrimination was morally justified in our own lives I think Kevin those of us who have tried to live in ethical life will often experience moral growth and look back on earlier episodes of our life
+
+[15:00] with chagrin and perhaps embarrassment saying I just didn't see how wrong it was what I was doing the way I was treating someone else I'm now ashamed of that moral growth can take place but what the relativist is saying is that there are no objective moral values and duties at all it would be equivalent someone saying there is no external world whatsoever that you sense and I think we're certainly within our rational rights and justifying these extreme views on the basis of our sense and more experience and that does not require that that experience be infallible [Music]

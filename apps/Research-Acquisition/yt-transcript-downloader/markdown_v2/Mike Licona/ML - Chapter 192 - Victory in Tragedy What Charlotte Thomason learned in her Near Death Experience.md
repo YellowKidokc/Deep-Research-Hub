@@ -1,0 +1,66 @@
+# Victory in Tragedy: What Charlotte Thomason learned in her Near Death Experience
+
+**Channel:** [[Mike Licona]] (`ML`) · Chapter 192 of 224 · Length 31m 29s · [[00 - Channel Summary]]
+**Video ID:** `GZHe3fyFtdo`
+**URL:** https://www.youtube.com/watch?v=GZHe3fyFtdo
+**Transcript Language:** English (manual)
+**Retrieved via:** webshare
+**Captured:** 2026-10-01 14:28
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:01|Part 1 · 00:01]]
+- [[#Part 2 · 10:03|Part 2 · 10:03]]
+- [[#Part 3 · 21:15|Part 3 · 21:15]]
+
+---
+
+## Part 1 · 00:01
+
+[00:01] countless thousands of people have had near-death a person is by all means that we are able to test an out-of-body experience and then when they're discuss it that's a near-death experience again of them are of um the the same kind of evidential back and share some information that ends up being others well you just can't confirm uh in this segment we're going to be talking with one of my former students her name is at my uh one of my hbu classes houston and we ended up making a video she had her some and uploaded it to our youtube channel and charlotte has written recently written a book
+
+[01:31] this channel and let you all know a little for joining us and i appreciate you so much for back i'm excited to share a little bit more about and give them a little bit of hope but i i'm well great well hey you came and you studied some other field and then you came and you did at houston baptist university that's how i yes that's true yeah so tell me what what started apologetics how did you become interested in it of like a back door experience because most of my on helping people who have experienced some sort talking to people who left the faith or because of things that have happened to
+
+[02:52] them i really didn't understand exactly but uh i always kind of thought of it as more a lot of interest for me but when i discovered based on culture and was cultural apologetics i started kind of looking into avenues to maybe well that i i didn't know that um before what got hbu i i guess yeah part of the race shameless you know i i do think we have one of the finest programs in the world and as far as i know we're philosophical apologetics or cultural apologetics i have to be honest with you charlotte that's ultra apologetics yeah now some of my students actually last spring they convinced
+
+[04:22] me of the way that i i think it's not sure my brain is you're involved in it hey just real quickly um and then we'll move on okay well first i wanted to se was through my daughter because when i retired with my rest of my life basically and so she at hbu and she encouraged me to apply and i was that's really what helped me see that oh there's i love the program uh i think the thing that was the sense of community which really surprised me program and you would think that there with at hbu there really is and that's not just and the professors we there's so many face-to-face that where we'd
+
+[05:52] get together for events and i just not just with the fellow students but also with dr ordway dr talon mary jo sharp all of them of community and you learn from each other you online courses are structured there's a there's so that you're in a classroom and i just really and to write better was just uh it was very different that but it was very very good i really enjoyed it because i i will teach courses online for hbu and like because you know with the covid we're at this point at least the major part of it we're you know a lot of people have complained um undergraduate students most of the
+
+[07:23] students you know they they already doing what they're doing they're and they're just doing this because they love it because it's online and in fact like you students between students faculty and in fact the convenience of being and going to school like this is just amazing yeah it's just you know and i've talked to people completely online and it's it's a completely i don't know it's just there really is a sense obviously care about the students and care they help you they're willing to work with you to complete an assignment or to redo assignments that a few times in your class but yeah i
+
+[08:38] allow because it's a learning yeah if the student learn right they're not exactly because i had a professor like that in grad school he gave it to me and i never forgot that and the things that i remember from dr ordway that of the of the program is really that because it is that has really stuck with me and that is writing you're writing to learn and and it really is that how each professor does it differently to kind of force you to dig deeper and have writing and then that makes you a better apologist in terms of how i express myself so i thought that um i i had to ask you to do that video
+
+## Part 2 · 10:03
+
+[10:03] and uh the 230 000 views yeah since then i think you started have and i've been to it it looks like a quality about this this ministry you've launched well you going to ask me about the ministry that i launched that way but i guess it kind of is so when you my daughter corrine about it and and uh i was put that out there and uh i was a little but when the one that told me she said mom you need to get know people are going to want to find you and so she said you can do it mom just go i did and so i started with just a blog site it is focused on my own healing from childhood bits and pieces of
+
+[11:25] different essays that i were relevant to that and i what my goal is is to and through poetry and then i when i added once i saw how many people how many were getting was getting i thought well i so i started doing that uh probably i think actually started really actively doing that and and i post just five six minute videos things that are happening in my life or that have in my healing process i share inspirational hacks all the tools that have worked for me it's i still don't have that many subscribers and responses and i've connected with several they email me and it's just been such a joy
+
+[12:48] for me i'm trying to do with that and what i actually or anyone who's experienced trauma to really see and that you can go through something like that now my life is not perfect by any means but i am know that there's hope and how i got to that they can see okay well she went and so that's that's really kind of what all my youtube channel is all about dying and yes and have a near-death experience version than i did on the video but yeah when she was born on christmas eve when i was 11 is i heard her cry hang on a second yeah you was going on okay so i endured sexual physical family members
+
+[14:38] and others throughout my childhood you so when i was 11 i my father got the the baby did not survive i heard her cry and then everything i guess if you want to call it wake up but i all the darkness and all the fear was gone and was a field of silver and white grass that just it was like really making music because of the more wonderful than anything i'd ever a man walking towards me and he was holding an but as he got closer i recognized him as jesus a really young age from probably about age when i dissociated during abuse and and i also had i knew him but i didn't really recognize him it
+
+[16:25] was and i was very excited because well here i was very happy and so i started going towards child and he told me no he said no you have to go understand why and i yelled at him and i said i and he just said because i had more work to because i just wanted to be there with him in the distance and he started moving towards and i could hear on the other other side of and the door was just so gorgeous it was white it there's this just amazing light shown out of that was begging him to let me go with him and he said and but and she'll be with me and you will see through the door closed the door
+
+[17:53] and then all back in my bedroom on the floor and the ems people the hospital and so that is really so i was really uh that i had to come back and i didn't wow do you do you ever wonder why jesus rather than letting it go on i did um for you and on throughout my life but at one point but it's something i think it was a process that i how he interacts with his creation i understood they did and how they lived life and they had a and god would i really came to understand that because that would be taking away their freedom and the fact that i knew he existed i knew i had was happening i didn't
+
+[19:39] understand why he him i just wasn't sure he loved me because but the fact that he he protected my soul and the and it allowed me to at least have to consider the i just had that sense in me that things was a possibility that at some point in my life me going throughout all those years of abuse did uh now i do have to say until i was 18 up until then yeah so you said and and i mean too deeply into your whole experience here yes they can read it in the book yeah we'll you said jesus told you that he had some work looking and in the rearview mirror i can um well part of it is what i'm doing
+
+## Part 3 · 21:15
+
+[21:15] right the work i i really believe is he wanted me to he knew that i would be held on to hope and all the different things healed to help other women and men to heal from think that he wanted me to be and he and not an i that's kind of not the right way to say it but use what happened to me to help other people and in my life that i really didn't even remember some really difficult times and that's discussed it's important for other people who have they can get through it and and to give i think i was going through this even as a child and i think the work was what i'm doing now what i did
+
+[22:48] ministry for several years where we uh wrote a who had experienced trauma to uh combine faith and combine psychology and what's in the bible and so two and to help other people who have experienced today is june the 15th 2021 and you have a book so the book is the title of it is what kind of the focus of the book is my struggle to and to understand what love really is and to do have a conversation with her in and those to bring the reader back from the experiences of processes i come back to those conversations you know they they read for a while what and then they were back in the present
+
+[24:21] and i'm of like what you did it's like what now wait mean those kinds of things are in in the book show through the the lens of whatever age i am i interject conversations with jesus and uh just although that is definitely in there and it's a to limit the graphic detail of the abuse and focus it enough that you know what happened but it's not reader in a way that helps them follow the journey you know the conversations with my granddaughter directed at my younger self i write between some of the significant chapters and a narrow it is a story it's written as a story self-help book but it is a
+
+[25:54] way of uh me telling my it was not easy for me to make the decision to i'm comfortable with so it was and that was so i could literally tell her the story and then would come back and i'd tell her more of the story necessarily fun but interesting so yeah so that and quite engaging that's that's pretty a copy of your book it's not out yet won't but you're offering them right now they can how do they do yeah they can just go to my two or three of the pages there is a link on the description area of this video okay so you can get within three days of the time that you order it i have available
+
+[27:16] right now i do i have them but there's several left so yeah i it's available fantastic and then um as of july 2nd and nobleware well pretty much anywhere books are sold amazon barnes noble walmart target and several pre-order it and any pretty much any retail that's fantastic so to find out more about you tell us about your youtube channel okay uh charlo it's chatting with charlotte and i have because of everything that's happening with the and i tried what i try to do is post three times what i call conversations and those are just about something that's happened that helps me or that has to
+
+[28:42] do with healing uh on saturdays at i call a life hack one of those was uh i did uh was a post or a series i did and then on sundays and i'll take a scripture and i'll talk about it uh that's what i do on there they're always very because and they're just conversations i do them they're not they're unedited it's very casual and audience having a conversation with them so that's discussed that you you want to get out to viewers um if you've experienced trauma don't lose uh you know if you don't follow me follow uh support in the community and i think people who have experienced trauma that when
+
+[30:14] sure be very careful and look for a support group offers hope and doesn't isn't just a place because although that can be kind of it's really important to have hope and to be going to encourage and give you hope so that follow me and see what i have to say but also yeah thanks so much charlotte a very tragic that you're welcome um if you all anyone uh abusing in your life uh this would and um also check out her website and her youtube for sharing your experience and taking a little enjoyed it it's good to see you and talk to you

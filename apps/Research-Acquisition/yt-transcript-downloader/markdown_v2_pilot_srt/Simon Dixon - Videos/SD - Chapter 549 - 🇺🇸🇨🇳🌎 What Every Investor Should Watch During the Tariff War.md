@@ -1,0 +1,88 @@
+# 🇺🇸🇨🇳🌎 What Every Investor Should Watch During the Tariff War
+
+**Channel:** [[Simon Dixon - Videos]] (`SD`) · Chapter 549 of 556 · Length 20m 13s · [[00 - Channel Summary]]
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:29|Part 2 · 10:29]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] Hey wealth builders. So uh yesterday I released a bit of a video with an overview of what I think's going on in the world right now. What I wanted to do is just release a follow-up uh because when Trump is posting on True Social on a Friday um that there's going to be exemptions on for the big tech companies basically uh and the electric uh companies uh that there's going to be exemptions on the tariffs from China which were almost already all there already. then you know that this is a really uh big problem and signal in the market.
+
+[00:44] Um and so there is a essentially a capitulation based upon the reaction in the market but most people are trying to figure out what Trump's doing and whether he's winning or losing.
+
+[01:18] My answer is, if you watched my last video, you'll know that he's winning,
+
+[01:36] but winning in the destruction um and the capital outflow of the US market because you'll understand um when you look at his backers and when you follow the money and global capital that those financial institutions have already repositioned themselves based upon the fact that this was a mission and Trump was installed uh because the previous path was World War And this path is a controlled demolition um in an extended time frame um of the US market based upon breaking the world up into global blocks and I talked about how it coincided with the uh geopolitical war negotiations.
+
+[01:42] You can watch that video. Anyway, what I wanted to do in this video is cover what you should be looking for next week. Well, I can share the long-term trends, but if you're in the trenches and you're looking at the market and you're looking for signals, almost everybody focuses on the wrong thing. People will talk about the stock market as the the key performance indicator. It's actually relative value that you need to look at and you need to look at the markets that actually matter. And the markets that actually matter is the bond market, uh the currency market and the commodity market.
+
+[02:13] Whereas the stock market, it doesn't really matter if it goes, you know, if the the wild volatility unless you're looking at it in terms of relative strength. And that's the message I want to give you. So, in simple terms, I just want to give you a few things that you should be looking at. The first thing is you should be looking at a basket of currencies priced in dollars.
+
+[02:50] Um so the you know the most important currency is priced in dollars and you're looking at the price of dollar relative to the other key indicators and there are baskets out there um and uh you should be looking at that there was a major correction in the dollar and it was mainly relative to the capital outflows which went to um Switzerland the Swiss Frank which is a very bad sign um and Japan uh the Japanese one which is a very bad sign because Japan is essentially the central bank of hedge funds. It's where you go to borrow at 0% or now half a percent.
+
+[03:18] Um you hedge out the currency risk and you use it to speculate on the markets. This is where much of the overlever in the system and it is essentially America's best ally and with the exception of Cayman Island uh which is where all the you know the the the government debt is held on behalf of you know the black rocks and the the key fund managers. Uh Japan is the largest country and so capital was outflowing from America and they were selling treasuries. How do I know that? Uh because you got to look at the bond market.
+
+[03:53] Now the most important markets is not treasuries which is the short-term loans. It's the longerterm uh bonds. Uh a bond is essentially a product where you lend money to the US government and it has a yield. And a yield is the price or the interest at which it is willing to pay in order to uh borrow money from anyone that wants to buy those bonds. And they will borrow them for 10 years and 30 years. You have to look at those. Now, when yields are rising, it is because the price of those bonds, I don't want to go too deeply into it cuz it's not too important.
+
+[04:27] The price of those bonds crash, which means that others are selling those bonds. Uh there was a massive uh selling pressure um of those bonds at the same time when you combine it with currencies. So, if you can tell that there is selling pressure because the yield uh on the 10-year and 30-year bonds are rising, and that's the important thing you need to know, they don't want it to rise. If they are rising, then the cost for America to refinance its debt is increasing, and that is a bad thing for what the goals are at the moment.
+
+[05:08] Um and then if the rates are rising on the bonds, the 10-year and 30-year bonds at the same time as the dollar weakening relative to the Swiss Frank and the Japanese yen, then that is a very very um important indicator uh uh at of capital outflow and the mission of the tariff wars which I believe is to outflow capital from the US and send it to region blocks in a controlled demolition over time.
+
+[05:49] Um, but re, you know, re onboard the manufacturing base of robotics and AI in order to replace human jobs over a long term, which is why the exemption to the tariffs was given for the large tech companies and the technocracy. They're going to be building these robotics um AI and uh you know and warfare as well based upon these semiconductor chips and various components which America is 100% dependent upon uh China and can't stop those imports. And so the impact of this is that America can't stop those imports for years to come.
+
+[06:20] um and those components which China has built a massive ecosystem by investing in regions like Africa, Latin America, Central America um and partnering with bricks in the global south has already built a massive network of um rare earths and uh you know based upon rebuilding economies through the belt and road initiative which is the opposite of the IMF.
+
+[07:01] The IMF has been destroying countries, uh, blowing them up, regime changing them, uh, forcing them into western trade with tied loans, uh, based upon, uh, using the the hedge funds uh, at the Bank of Japan in order to crash the currencies um, and destroy the wealth of savers in those uh, in those countries through the IMF. And so you've got two completely opposite models with the IMF and the belt and road initiative um in terms of you know this uh trade war which is why it only makes sense if it were a controlled demolition. Now the other thing to look at look at is the stock market.
+
+[07:27] So the stock market is mainly dominated in America by the big seven max 7 uh tech companies which I think will do well uh because they're a global play and that's what America is being built into a technocracy. Um and so you know there will be boom areas within America but they are massively overvalued and so a lot of that price and profit that uh the companies like Warren Buffett and Bookshare Hatheraway have already made cuz they sold and they knew this was going to happen you know way before it happened.
+
+[08:06] Um they have already got out of those stocks which is means that there is a valuation correction that is needed. Um but the long-term future of those companies I personally believe uh will be fine. Um but you got to get you know the these valuations. So what is the one of the most concerning things? It is the stock market and its general performance measured by the S&P um relative to the price of gold and the price of Bitcoin.
+
+[08:43] At the moment, the central banks have all been leading up to this accumulating gold um knowing that there's going to be a capital flight or they know that the trends that are going to be happening and Black Rockck and the large multinational financial institutions all got their clients into Bitcoin through the Bitcoin ETF. Now, gold has been outperforming uh Bitcoin because central banks have significantly more pulling power than large global multinational financial institutions.
+
+[09:12] Um and so what you're looking at is the price of gold and Bitcoin relative to the US stock market and relative to other stock markets. Um, and so the if you have a scenario where gold is rising for an extended period of time and Bitcoin is rising for an extended period of time, short-term means nothing. Um, and the stocks are contracting. uh then that signals a trivial outflow from US stocks to Bitcoin and gold ETFs because BlackRock made that trivial and the other companies uh the global finance companies made that trivial for people to do within their 401ks and uh their retirement accounts.
+
+[09:48] Um now the other thing that you must watch is the price of oil because it affects the price of gas um which is a vital resource um in this whole you know electric vehicle uh AI robotics ecosystem that America and China are both building to compete with each other on where there is no trade war uh because China's essentially already won because they have the manufacturing base and America will take 5 to 10 years to try and rebuild the manufacturing base, but it will still be purchasing goods from China, even if it's via proxy countries that will create an arbitrage.
+
+## Part 2 · 10:29
+
+[10:29] This is exactly what happened during the sanctions. Russia and Iran, they still flow all of their oil around the world because they have partnerships through the BRICS networks. Um, and China is dependent upon them as a partner. And so therefore, the sanctions actually made the Russian economy uh stronger in terms of it went from a 22% debt to GDP to a 14% debt to GDP. And Iran uh the most sanctioned country in the world has already built all of its flows and is now engaging in a trade deal negotiation.
+
+[11:11] So, Global Capital knows that America, the creators of these wars via proxy, um is going to be at some point releasing sanctions um and opening up the markets in the the trade deal um that they're putting together now that global capital has decided that they would like to build put much more of their capital from America into the Middle East and other regions that are going to be supported. to buy bricks because wars end not when humanitarian from humanitarian reasons it's when profit ends.
+
+[11:50] And there was a calculation I believe between the global financial institutions that World War II was going to be less profitable than breaking the world up into regions and redeploying capital around the world and having multiple places to invest into. And so that is why we are experiencing everything and I covered that in in detail in the last video. But the one to watch is oil. That's why if for any reason Israel which is not aligned with America at the moment tries to continue the Zionist vision which is based upon extremism and weaponization of the faith of Judaism.
+
+[12:23] Um, if for any reason they manage to get US into a war with Iran, which I believe is not going to happen because, you know, the neocon model of the profits of the military-industrial complex, um, are not, uh, you know, are losing essentially to global financial institutions that want to invest all around the world and global financial institutions are the shareholders in the military-industrial complex.
+
+[13:02] But there is an internal struggle around the old model of you know America's neocon zionist model of profiting from forever wars and the lobby money is still pushed in those directions but I think the lobby money towards uh regional blocks is greater than the lobby money of the military at the moment and there's somewhat of a crossover and so if for any reason that power of Zionist uh control um of American Congress and Senate prevails into some kind of false flag operation.
+
+[13:31] That means that Israel persuades America to put boots on the ground in Yemen and then a false flag happens which escalates it to Iran, which I put as very low um likelihood at this stage. It was very likely under Biden. Um but I don't think that uh I don't think global capital wants that to happen anymore because it's not profitable.
+
+[14:01] But if for any reason then then that um then that happens then you will get a massive price in the spike in the uh you'll get a massive spike in the price of oil um and uh if you have a spike in the price of oil that will again accelerate the wealth um of those oil producers which is America uh Russia OPEC plus um and then the flows will act accordingly but what is actually happening is a crash in the price of oil to create massive disruption and massive capital outflows uh which affects the price of gas which is the input commodity uh for electricity, artificial intelligence,
+
+[14:27] bitcoin mining and various other things. Uh so the price of oil going down destroys the drill baby drill mission in America. Um so while he won his campaign based upon drill baby drill, the profits of oil um and energy producers within America, they cannot produce at the same uh cost as OPEC plus in the Middle East. And so while it will impact their profits in OPEC plus, it will be worse for the American economy the lower the price goes. Now Trump is in a double bind or percent and the Trump administration is in a double bind because they're trying to offset some of this inflation.
+
+[15:12] Now inflation and deflation is a very complex one to figure out right now cuz you got deflationary forces um with the tariffs being inherently leading to increase in prices to factor in the import tariffs from China uh that will happen within America. Um and then also you have to factor in the deflationary impact of a global financial crisis which inevitably um not a not necessarily a global financial crisis, a global recession that could then lead to a global financial crisis.
+
+[15:54] Now the reason we don't have a global financial crisis is because uh Trump had to capitulate this week and create a pump and dump which made his insiders very wealthy. if you saw him bragging about it in the White House um with Charles Schwab about how he made a billion dollars from Trump doing his tweets or his posts on True Social. Um but uh you know that is the reason because the tra because the 10-year and 30-year uh borrowing rates uh for the US government are going up. That is a big problem.
+
+[16:28] Um and so he's trying to offset that with uh you know with the some of the deflationary reforce um of oil and gas but then that has an impact in GDP. So everything has a knock-on effect and then that increases the likelihood. The reason we didn't get a global financial crisis because this increase in rates impacts the commercial market, the real estate market, the auto loans market, the student loans market. And America is massively overleveraged because it is built upon a debt-based Ponzi scheme created by the Federal Reserve for its shareholders, the banks that own the Federal Reserve.
+
+[16:59] Um and so it is massively overleveraged whereas China has $3 trillion of go um of uh dollar reserves and also 22 uh tons of gold um which is you know commonly reported uh because it does it through different types of companies as well. Um and so but China also only exports about 15% of its uh of its exports go to America.
+
+[17:51] Um, so it would hit it, but it doesn't have despite Western media telling you about the debt problem within China, which is real, but China has a a state banking system and it doesn't have a political process that distracts it where the policy changes based upon, you know, left and right, Republican and Democrat changes, um, and the the the the votes that will be coming up. So, China can handle it.
+
+[18:14] because it's got a state banking system and it has a political continuity process um as well whatever happens in the the fin you know the the global recession but America it can trigger a credit crisis and a global financial crisis which would then push the Fed to potentially pump the Ponzi scheme but here's the point the stability of the US is no longer a stable safe place for global capital because the uncertainty is unbearable for investors relative to what it's all been.
+
+[18:42] Which is why you had a massive overvaluation of the stock market for the last decade because global finance was preparing for its exit strategy um and redeploying capital into the the companies that are going to remain which is anyone involved in the robotics ecosystem. So, uh, that's the indicators to look at. In summary, the 10-year Treasury yield, the 30-year Treasury yield, if it goes up, that's a problem. Um, if Bitcoin and gold, uh, go up relative to US stocks, that's a problem.
+
+[19:19] Um and uh if there is more capital outflow and an increase in relative value from the US dollar uh to the Swiss Frank and the Japanese yen um and a general decrease in the value of the the dollar which had its largest increase um you know this week uh for s for a long time um then these are signals that the video that I recorded yesterday that type of scenario is happening and expect it to coincide with the uh eventual uh escalations to deescalate many of the wars because the new world order has been set and those negotiations are all happening right now because World War II was not going to
+
+[19:59] be as profitable as splitting the world up into blocks. Follow the money, don't listen to what they say and I'll see you in a future video.

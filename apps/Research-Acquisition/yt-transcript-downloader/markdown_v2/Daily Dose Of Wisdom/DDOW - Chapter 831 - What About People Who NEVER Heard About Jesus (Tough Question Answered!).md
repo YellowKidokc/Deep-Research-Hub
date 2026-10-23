@@ -1,0 +1,54 @@
+# "What About People Who NEVER Heard About Jesus?" (Tough Question Answered!)
+
+**Channel:** [[Daily Dose Of Wisdom]] (`DDOW`) · Chapter 831 of 916 · Length 10m 04s · [[00 - Channel Summary]]
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:02|Part 2 · 10:02]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] (https://www.youtube.com/watch?v=UyjKuXSw_GE&t=0s) So you believe that anyone who doesn't accept Jesus Christ is is going to hell? Can God send people to hell for their beliefs and values? If they were born into a family in atheist Europe, or a remote A or a remote tribe in Papua New Guinea, how are they expected to find true faith? The framing of the question is loaded. Logan Paul asked the question If you don't believe in Jesus, do you go to hell? And in the comment section of that video, were so many people asking, Well, what about the people who have never heard about Jesus?
+
+[00:30] (https://www.youtube.com/watch?v=UyjKuXSw_GE&t=30s) What about the unreached people, groups, the people who live in places on the planet where they've never even heard about Jesus? And in order to answer that question, we're then going to go to John Linux, who basically picks up the ball from. Where Cliff dropped it off and takes it all the way to the end zone. If you will, let's do it, let's dive in. Anyone who doesn't accept Jesus Christ is is going to hell.
+
+[00:55] Anybody who hears about Christ and has the opportunity to investigate Christ by reading the Gospels and chooses to reject Christ, Jesus clearly said, For God, so loved the world. (https://www.youtube.com/watch?v=UyjKuXSw_GE&t=55s) He gave his one and only son that whoever believes in him should not perish but have eternal life for God did not send his son into the world to condemn the world, but to save the world through him. Whoever believes in him is not condemned, but whoever does not believe stands condemned already because he's not believed in the name of God's one and only son.
+
+[01:20] That's what Jesus said. But isn't intolerance sort of rooted in Christianity a bit? (https://www.youtube.com/watch?v=UyjKuXSw_GE&t=80s) Okay, great question, This is a matter of truth. If I say to you every religion leads to God, is that a truth? Claim? No, I would argue yes. What I'm saying is every religion leads to God, which means I contradict the Muslims, I contradict the Christians, I contradict the Jews. This is a truth claim Okay, I as a white Western male am saying every religion leads to God, that's a truth claim.
+
+[01:51] If I say to you, half the religions lead to God, is that a truth claim? (https://www.youtube.com/watch?v=UyjKuXSw_GE&t=111s) Sure, it is, I'm saying half a right half a wrong, that's a truth claim. When Jesus says I am the way the truth in the life, no one comes to the father except through me. Is that a truth claim? Yeah, it sure is, you see Logan, we all make truth claims, but what about the people who, in a sense, have never even been given the opportunity to accept or reject Jesus? This is John Lin's answer to that question Can God send people to hell for their beliefs and values?
+
+[02:25] If they were born into a family in atheist Europe, or a remote A or a remote tribe in Papua New Guinea, how are they expected to find true faith? (https://www.youtube.com/watch?v=UyjKuXSw_GE&t=145s) The framing of the question is loaded Can God send people? Gives a curious picture of God, doesn't it? Because, and again, I find Lewis so helpful in analyzing this, it is very interesting. Isn't it, that in The New Testament, Jesus talked about hell to religious bigot, not children, etc? And Lewis's point is this Suppose I say no to God, should God honor my choice or not, or should he reverse it?
+
+[03:21] (https://www.youtube.com/watch?v=UyjKuXSw_GE&t=201s) You see, the whole point about love and relationship is the ability to say yes or no, and therefore, if someone examines the claims of Christ. And as they did in his day, they watched him restore people to sanity. And they saw evidence of God at work. And they said, Go away, that's what he did. He went away now that going away, if God goes away in the big scale, if I ultimately say, God, get out of my universe, what that leav me with is, of course, well unimaginable. I think it's what the Bible means by hell.
+
+[04:05] (https://www.youtube.com/watch?v=UyjKuXSw_GE&t=245s) It's very real, but it's the consequence of people having their own choice. It pains God, but God will honor your choice, otherwise God would be a despot trampling over your choice. And it seems to me this is one of the most impressive things about Christianity. Actually, that God doesn't blast in with huge Star Wars like power and laser guns and all the rest of it. He comes in such a simple fashion that humble people can invite him in for a glass of wine or a cup of tea or whatever.
+
+[04:42] (https://www.youtube.com/watch?v=UyjKuXSw_GE&t=282s) It was those days and get to know him and make up their mind, so that's one part of the question. The other part was people growing up and so on well, here. Now it's a matter of evidence and some people have a very curious view of God, which also lies behind the question Will God condemn a person for not responding to evidence they've never had? Of course not. How could you possibly believe in a God who was fundamentally immoral? God judges people on the basis of evidence they've had not on evidence they haven't.
+
+[05:23] (https://www.youtube.com/watch?v=UyjKuXSw_GE&t=323s) Had you see that all through the Bible, I expect, you know, one day to meet Abraham. We're going to a very interesting conversation because I don't understand all that he did in his life and I got to ask him a few things. But Abraham believed God and it was counted to him for righteousness. He knew almost nothing of Christ and nothing at all about Jesus. That is. He believed at the level the evidence was presented to him.
+
+[05:59] Now there's evidence, according to Scripture, not only in Scripture, but in CRE ation that people can respond, and it's very interesting. (https://www.youtube.com/watch?v=UyjKuXSw_GE&t=359s) Re reading the history of Christian missions. How sometimes people have stumbled on a tribe, and they're just in responding to nature, monotheistic and believing there is a God there is evidence around. But I believe with all my heart that God doesn't condemn people for not responding to evidence they haven't had.
+
+[06:33] There's a question that always comes on top of that, and I might as well say something about it because I'll be besieged and shot at afterwards. (https://www.youtube.com/watch?v=UyjKuXSw_GE&t=393s) If I don't mention people say, well, then why bother to do mission? Why bother to propagate the gospel well because Christ commanded it? That's why I don't propagate Christianity because I've solved a complex problem and how much evidence you have had or have not had, as I look at you, it's very interesting. We're a Western audience. This is a country where many people a church.
+
+[07:05] But some in the audience may know less about Christianity than folks in Papia, New Guinea, that you mentioned. (https://www.youtube.com/watch?v=UyjKuXSw_GE&t=425s) So I try to present the evidence to increase the light that people have to respond to. The other thing you say, Well, that's not. That's not the most streamlined method that's not the most efficient method. Couldn't God just appear instantaneously to every nation, tongue and tribe all at once? And just say, I'm God, yes or no, except to reject me.
+
+[07:34] And you think, Well, yeah, the theoretically, I could imagine a scenario where he could do that. But if I think if we think that that scenario is better than the scenario that we're currently in, then what we're really saying is that. (https://www.youtube.com/watch?v=UyjKuXSw_GE&t=454s) We know better than God that our thoughts are higher than his thoughts, that our ways are higher than his ways. And the bottom line is this we don't exactly know how everything is going to be just and good and fair and even merciful.
+
+[08:00] But we know that God is all of those things just and good and fair and merciful. And we know that God loves people because the gospel is true. (https://www.youtube.com/watch?v=UyjKuXSw_GE&t=480s) Because he died for people. We know that he's willing to go to great lengths in order to save people. So I think that that all has to be held in view when we look at the unreached people groups. Because I think that it's easy to kind of project and say, Oh, that's not just, that's not kind, that's not good, that's not loving.
+
+[08:29] But we should question the assumption within how everything is going to play out when we know if the gospel is true, that God is all of those things. And so I am very conf confident that there will not be a scenario at the end of time. (https://www.youtube.com/watch?v=UyjKuXSw_GE&t=509s) When we're standing before God. And we finally see the whole picture revealed and we go, Man. The way that you went about bringing the gospel to the nations was totally inefficient and totally immoral and totally wrong.
+
+[08:58] No, no one's going to say that we're all going to look at God's plan when we understand it properly. And marvel at his brilliance in terms of how. He both contended against the downsides of human free will while maximized the upside and the participation of humanity in the divine mission of God. (https://www.youtube.com/watch?v=UyjKuXSw_GE&t=538s) We're going to marvel at the At the brilliance and the genius of God at achieving the greatest good for the people that he loves. I mean, who else?
+
+[09:30] How else could we possibly assess it when everything that we would use to judge him by has been given to us by him? But is itself, see, seen through a glass dimly? But what God has tasked us with is, while we're still drawing breath to choose whom we will serve. Choose this day whom you will serve viewer of this video Choose Jesus, he won't let you down. (https://www.youtube.com/watch?v=UyjKuXSw_GE&t=570s) There is no other name given among men by which we can be saved. There is no other hero who has actually come into the real world and atoned for your participation in the problem of evil.
+
+## Part 2 · 10:02
+
+[10:02] He is hope he is justice and he is the one who is coming again. Life is really short. Choose this day whom you will serve, Please choose Jesus, he will not let you down. Whatever bad thing, things you think are true about him are not true, and I pray that they would come untrue in your mind that darkness would give way to light. (https://www.youtube.com/watch?v=UyjKuXSw_GE&t=602s) And that and that you watching this video will bring your doubts, questions, concerns, emotions, trauma, everything to the feet of Jesus and let him do what only he can do. Thanks for watching.

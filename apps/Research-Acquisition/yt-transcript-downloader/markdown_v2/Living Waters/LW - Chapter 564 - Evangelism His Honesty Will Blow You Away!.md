@@ -1,0 +1,50 @@
+# Evangelism: His Honesty Will Blow You Away!
+
+**Channel:** [[Living Waters]] (`LW`) · Chapter 564 of 2497 · Length 10m 20s · [[00 - Channel Summary]]
+**Video ID:** `hRRD-N19DCo`
+**URL:** https://www.youtube.com/watch?v=hRRD-N19DCo
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 04:47
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:01|Part 1 · 00:01]]
+
+---
+
+## Part 1 · 00:01
+
+[00:01] [Music] a great way off his father saw him ran to him fell upon him and kissed his neck and put a ring on his finger and a robe on him and said my son was once dead and now he's alive he's come back to me you know what that's a picture of um that's kind of how god looks at us that's you do you think there's an afterlife yes i do like a heaven and a hell yeah so who's going there um i think the the good people are going to heaven are you doing anything that could displease god yeah so what would happen to you if you died today i would go to hell why would you keep doing it because i don't know
+
+[00:54] i i'm kind of um i kind of live in the moment so i i do bad things and i do good things but i know i'm not like a good person i'm trying to put the fear of god in you because the fear of god is the beginning of wisdom and you'll not let go of your sins until you fear god see at the moment you're like a little kid holding on to a hand grenade with a pin pulled out and it's fascinating him and i'm saying throw it away from your kid throw it away from you so i'm going to try and do that how many lies have you told in your life so many so what do you call someone who tells lies a liar have you
+
+[01:33] ever stolen something so you're a lying thief yes have you used god's name in vain yes would you use your mother's name as a cuss word absolutely not why not she's my mother and and she gave me life so but god gave you life through your mother you respect your mother but you don't respect god you've taken this holy name a name that godly jews won't even speak they won't write it because it's so holy and you substituted it for a four-letter filth word to express disgust which is called blasphemy punishable by death in the old testament appreciate your honesty with me jesus um now jesus said if
+
+[02:15] you look at a woman and lust for her you commit adultery whether in your heart have you ever looked at a woman with lust yes have you had sex before marriage no so jesus i'm not judging you but you've just told me you're a lying thieving blasphemous adulterer at heart and you have to face god on judgment day if he judges you by the ten commandments we've looked at four are you going to be innocent or guilty definitely guilty heaven or hell oh now do you realize why you're without excuse when it comes to what you've done um now well firstly you know god exists because of creation you look at
+
+[02:52] the sky you see the genius of his handiwork the bible says the heavens declare the glory of god and the earth shows us handiwork everywhere we look we can see the genius of his hand he's lavished his goodness upon you he gave you eyes to see with ears to hear good music taste buds to enjoy good food he gave your brain to think with the blue sky the sound of birds the sound of music friends and family and all these wonderful things and you've despised him by using his name as a cuss word and living and doing things that you know he frowns upon that's the first thing second thing you did it
+
+[03:28] knowing it was wrong do you know what intent is yes it's when you do something um purposely yeah it's used in a court of law to prosecute people a prosecutor looks for intent and the uh alleged criminal if he intended to do bodily harm to someone then he'll prosecute him or if he didn't intend it was an accident and he bumped a guy and gave him a black eye and he lost his sight it was an accident there's no intent and so he can't be guilty of the serious crime the prosecutor would like to bring against him well when you've sinned you've done it with intent because god gave you a conscience
+
+[04:01] you know what the word conscience means yes it means with knowledge conor's worth science is knowledge so you'll be without excuse and i'm saying to you today i love you i care about you so come to your senses man this is your eternity this is your life do you remember the story of the prodigal son uh i don't remember well as a young man he went to his dad and he says dad i'm of age you need to give me my inheritance and so his dad gave him his inheritance the bible is he says he took that money and went to a far country you know why he went to a far country to do whatever he pleased yeah he
+
+[04:34] want to get away away from his father and jesus said he wanted to go and visit prostitutes because his hormones are kicked in and when he was in this far country he did that spent all his money and found himself the only job he could get was feeding pigs and he looked down on the pig food because it was a famine in the land his money had run out friends had left him and he began his desire to eat the pig food and he said to himself am i crazy my father's servants have got it better than i have i'm going back to my father and said and say father i've sinned against heaven and in your sight so
+
+[05:04] got out of the pigsty went back to his father when he was a great way off his father saw him ran to him fell upon him and kissed his neck and put a ring on his finger and a robe on him and said my son was once dead and now he's alive he's come back to me you know what that's a picture of um that's kind of how god looks at us that's you you're in a pigsty your sin is unclean in god's eyes your thoughts are unclean your sexual imaginations are unclean and you've got to say i've got to come to my senses i'm going to get out of this big stone and get back to god now tell me what did god do so he
+
+[05:37] could put upon your robe of righteousness what did god do so you could be clean in the sight on judgment day well god sent his one and only son jesus christ to die for our sins yeah most people know that but they don't know this the ten commandments are called the moral law you and i broke the law jesus paid the fine that's what happened on the cross that's why he said it is finished just before he died do you remember that it is finished you're saying the debt has been paid he says if you're in court and someone pays you fine even though you're guilty a judge can let you go you can say man
+
+[06:12] there's a stack of speeding fines here this is deadly serious but someone's paid them you're free to go you can do that which is legal and right and just and god can let us go even though we're guilty because jesus paid the fine and full he can let us live forever legally he can take the death sentence off us and grant us forgiveness of sins and everlasting life is a free gift all because of the suffering death of jesus christ and his resurrection was impossible that death could hold him so do you know what you have to do to find everlasting life there are actually two things according to
+
+[06:42] scripture do you know well you got to repent and trust in him repentance is an old-fashioned word it means to confess and forsake your sins you don't want to say you don't want to say i'm a christian but i lie and steal and lust and fornicate that's just deceiving yourself and playing the hypocrite so you got to be sincere in your repentance to be genuine and then you trust in jesus like you trust a parachute you know if you're going to jump out of a plane why would you put on a parachute you've got 10 000 foot jump what's a good motive to put on the parachute in order to to not fall and die
+
+[07:11] you don't want to hit the ground at 100 miles an hour on your face so fear would make you put on the parachute so you need to fear the lord because the bible says through the fear of the lord men depart from evil the only way you'll let god the evil is to realize the serious nature of your sin and to see how much god loved you by sending jesus to die on the cross and if some guy showed up behind us with a gun and he was going to kill you and i jumped between you and the gun and took the bullet what would you think of me well i would say he died for me and that's what jesus did for us and we
+
+[07:47] should say i'm going to give up my love of sin and ask god to change me so i love righteousness and that's the miracle of the new birth god will give you a personal miracle of a new heart that loves righteousness and that's a miracle when you love righteousness does it make sense what i'm saying yes you're going to think about what we talked about yeah definitely you're going to get right with god yes when today today can i pray with you of course father i pray for jesus thank you for his honesty and openness today and i pray that he will think of his sins and think of the savior on the cross
+
+[08:19] and today find a place of genuine repentance and faith in jesus and pass from death to life in his name we pray amen he says do you ever get suicidal thoughts um i used to a lot okay i'm going to give you a little booklet called you're not alone because those thoughts can come back at any time if you lose your mum or dad through death or your grandma grandpa or even your own dog you can go into deep depression so i'm going to give you this little booklet you're not alone and it'll give you some principles and i'll give you another booklet called save yourself some pain you have a bible at
+
+[08:54] home yes now here's something that will help you grow in your faith read the word daily using this amazing one-year devotional jesus in red for more than 48 years i've read the bible every day without fail i thought every christian did that but sadly many don't so get into a habit you'll never regret by reading the word daily using this beautiful little devotional 365 readings based solely on the words of jesus there's nothing like it get it through amazon livingwaters.com or at your bookstore [Music] [Music] you

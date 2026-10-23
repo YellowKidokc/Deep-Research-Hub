@@ -1,0 +1,59 @@
+# World’s Richest Man: Should He Give His Money to the Poor?
+
+**Channel:** [[Living Waters]] (`LW`) · Chapter 2371 of 2497 · Length 11m 50s · [[00 - Channel Summary]]
+**Video ID:** `pbuzFNR7huY`
+**URL:** https://www.youtube.com/watch?v=pbuzFNR7huY
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 04:57
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:20|Part 2 · 10:20]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] [Music] have you heard of Jeff Bezos no I haven't see II oh of Amazon that you know that just recently he made over thirteen point two billion dollars and ten minutes in the stock market that's quite a lot of money what would you do with them I would probably pay off my school that's one thing you probably have a little left over yeah let's pull my dog yeah I would donate a good amount of that money to my church Christian Fellowship and my month-old niece and the rest of it probably just spent on me what do you think God requires often was a rich man as a rich man I'm not sure do you think
+
+[00:49] Jeff Bezos has any responsibility moral responsibility before God to use this money to help the poor I believe so that's his choice the commandment you shall love the Lord your God with all your heart mind soul and strength and love your neighbor as yourself as to all of humanity remember the story of the Good Samaritan yes what he did he helped a person that was not from his city he helped an injured Jew and he picked him up put him on his own donkey took him to an inn he says if he spends any money let me know I'll pay his bill and here's money to look after him anyway and Jesus had gone do
+
+[01:29] likewise that's how much we should love other people to love a neighbor as much as we love ourselves so I think Jeff Bezos has a moral responsibility before God to help out people in Russia hope or encounter for eating people in India who are dying of starvation people in Africa who didn't have water clean water because he's commanded to love his neighbor's himself you know that's what communism says or socialism but the problem of socialism or communism you have to kill the rich to get their money did you know that no I didn't and that's what's happened in history over a hundred million
+
+[02:00] people being slaughtered by atheistic communism because they want their money what I would suggest to Jeff if I could talk to him is that he should get before God and say God I've committed adultery I've been unfaithful to my wife I've sinned against you created me a clean heart O God when your right spirit within me and if he put his faith in Jesus Christ he has God's promise but he will take that commandment to love God with all his heart mind soul and strength lovers neighbors himself and write it upon his heart and cause him to walk in God's statutes so he wants to help the poor not being
+
+[02:37] made to like communism but he wants to be delights to do the work God does that make sense oh yes you know the scripture about rich Ben what Jesus said is harder for a rich man to enter Heaven than for a camel to go through the eye of a needle remember that verse I believe so have you ever heard the eye of the needle is a small gate in Jerusalem and a camel had to get down to get through that small gate and Jesus was saying that a rich man has to Humble himself and take his goods off his back to enter the kingdom of God have you ever heard that yes I don't think it's right you know why why
+
+[03:13] because the disciples were astounded when Jesus said that and then Jesus said that which is impossible for man as possible for God so if it had just been on the old gate beside the main gate the disciples wouldn't have been astounded and Jesus wouldn't have used the word impossible I think he was talking about a physical needle in a physical camel that's how hard it's for rich man to enter into hip and it's impossible because they love their money and it takes a miracle of conversion with God does that which is impossible and changes at heart so we have a loose hand and a loving hand when it
+
+[03:47] comes to the poor do you share your faith regularly with other people no I fail it miserably why well mainly because of fear of like speaking out like speaking in public like - and mainly just to strangers but you're talking on video so you know that's shy and remember your commander to love your neighbor as much as you love yourself so you'd want to get your neighbor out of hell as much as you want to get yourself out of hell that's what should happen the love of Christ should cause you to swallow your fears and reach out to the loss do you ever give out gospel tracts I have before in the
+
+[04:28] past but not recently why have people stopped going to hell say God what can I do to reach the Lost Paul said by any means that I might save some and he said well unto me if I preach not the gospel so just as Jeff Bezos has a moral responsibility to share as money you and I have a moral responsibility to share the gospel or the unsaved people we're like doctors with a cure to cancer and we should say what the disciples say cannot but speak that which I've seen and heard does that make sense yes let me ask you another question do you think God is happy with you or angry at you I think he's
+
+[04:58] happy right now a good person yeah that I'm a good person how many lies have you told in your life probably a lot call someone who's taught a lot of Lights how to say about yourself there was no have you ever stolen something in your whole life even if it's small no I don't think so you ever used God's name in vain yeah it's called blasphemy to use God's name as a counselor would you use your mother's name as a cuss word no why not cuz it's your mom you know you respect her I expect but you don't respect God because you have taken his holy name and used it in a place of a filth word to
+
+[05:41] express disgust that's called blasphemy punishable by death in the Old Testament hey appreciate your patience with me just don't think you're a good person yeah I do said if your look was lust you commit adultery in your heart have you ever looked for the last no that's sex before marriage no you're lying to me yeah so I'm not judging you but you've just told me you're a liar or a blasphemer and a fornicator and you have to face God on Judgment Day if he judges you by the Ten Commandments on judgement day you're gonna be innocent or guilty innocent you'll be guilty the Bible says all Liars
+
+[06:19] will have their part in the lake of fire no thief no blasphemy no fornicator one here at the kingdom of God say in big trouble so what can you do to escape the damnation of hell do you know great no that won't help it's like saying to a judge judge I committed the serious crime but I want to talk it's not gonna help that won't help you know what you need what God's mercy if you want to live if you want to escape hell you need God's mercy and the Bible says God is rich in mercy to all that call upon him do you know what God did for guilty sinners so he wouldn't have to get a hell what Jesus
+
+[06:52] died on the cross he took the punishment for the sin of the world you and I broke God's law Jesus paid the fine do you understand there he paid the fine so you could walk out of the courtroom he said it has finished in other words the debt has been paid if you're in court and someone pays your fine a judge can let you go even though you're guilty if someone else pays your fine and this point of time ours justifiably thinking myself this is a waste of time she's not interested I was wrong you can say here's a stack of speeding fines here it's very serious but someone's paid on me for you to go
+
+[07:30] and God can forgive your sins dismiss a case commute your death sentence actually let you live forever you can walk out of God's courtroom on Judgment Day because Jesus paid the fine and full and then rose from the dead what you have to do to find everlasting life is very simple just repent and trust in Jesus at the moment you're trusting in your goodness to save you on judgement day transfer your trust from yourself to the Savior does that make sense mm-hmm minute you do that God will give you everlasting life as a free gift you have his promise on it and the Bible says it's impossible for
+
+[08:03] God to lie so you can totally trust what he says it's just making sense mm-hmm you're gonna think about what we talked about mm-hmm yeah seriously think about it yeah seriously think about it do you have a Bible at home mm-hmm yes I do we kind of start reading it yeah I was gonna start reading it so it's crazy how you're talking to me about this maybe God's hands upon you I trust God's hand is upon you so thank you for listening to me I really appreciate I'm gonna give you some literature to help you okay this is what I give to people when I want to get them on camera I said would you like to
+
+[08:40] do an interview on YouTube that channels got over a hundred million views and I give them this card and immediately makes them smile and on the back it's got over five hundred thousand subscribers it's got a quick response code where they can run their camera over it and take them directly to the site and then it says hidden message take pic and lodge they can take a picture of this gospel presentation and enlarge it and read it their leisure and people do do that because they're fascinated are curious they want to find what it says if you like me and you're a little nervous to give strangers
+
+[09:10] tracks or the gospel on it and you want getaway time this is perfect you can say to a stranger excuse me do you like dogs and immediately give them the track they'll see the dog with the sunglasses it'll make them smile and say it's a YouTube channel it's free it's got over a hundred million views and they go whoa I'm gonna check this out so you can get these cards at living waters calm this is the evidence Bible everything you'd ever want to know about evangelism it's over eighteen hundred pages filled to overflowing with apologetic alar Givens everything you'd ever want to know about
+
+[09:43] reaching the lost it's available at livingwaters.com amazon.com or a true Christian box store when Sam's on the bike he's incredibly focused he's looking for cats and dogs if he sees a cat isn't unto ative aggression he can feel under muscles but if he sees a dog it's like he says is what I my own kind and I didn't teach him to recognize dogs it doesn't matter what it is what it looks like he knows his own kind and he's fascinated and with the same with human beings I don't know if you've ever watched a Super Bowl and they Pan the crowd and you say to someone hey that looks like uncle Arthur
+
+## Part 2 · 10:20
+
+[10:20] look at her here it's amazing we're fascinated by our own kind and especially when it comes to talking about the fear of death you see death is like a an elephant in the room its stomping on everybody and how anyone talks about it but we talk about it I ask people what do you think happens after someone dies are you afraid of dying something we don't normally talk about and we're fascinated to see what other people believe and so this channel gives people the opportunity to hear the gospel as a fly-on-the-wall and watching other people react to death and the fear of death please take
+
+[10:56] advantage of this channel take our videos and share them with the unsaved don't send it to your atheist icon say I want you to watch this to say hey I'd love to know what you think of this that'll appeal to his ego so we have the potential to reach millions with the gospel so please work with us by sharing our videos were the unsaved and with other Christians to encourage them and put them also thank you [Music] [Music] you

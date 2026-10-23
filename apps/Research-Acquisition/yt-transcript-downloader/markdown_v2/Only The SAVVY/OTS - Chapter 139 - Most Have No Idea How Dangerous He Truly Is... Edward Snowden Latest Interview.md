@@ -1,0 +1,79 @@
+# "Most Have No Idea How Dangerous He Truly Is..." | Edward Snowden Latest Interview
+
+**Channel:** [[Only The SAVVY]] (`OTS`) · Chapter 139 of 514 · Length 15m 40s · [[00 - Channel Summary]]
+**Video ID:** `nD0NC7hO7qE`
+**URL:** https://www.youtube.com/watch?v=nD0NC7hO7qE
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-01 22:09
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:21|Part 2 · 10:21]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] So, now your computer that is connected to the internet is being frankly remotely controlled by a model that's far away that you don't understand how it works, but you know, you hope it works pretty well. And frankly, they do work reasonably well, but every now and then it might hack you know, some random company or whatever out there. I think we need to put Sam Altman in jail. Uh and I think it'll be an instructive experience. >> Edward Snowden spent over a decade warning about surveillance systems that expand past their original purpose.
+
+[00:31] In this talk at ETH Zurich, he made a specific legal argument that suddenly very relevant, that AI companies calling their products agents creates a real legal trap because if a government uses that agent, the company running it becomes what US law calls an agent of government and the Constitution applies to it directly. Just this month, that argument stopped being theoretical. >> These um private companies are physical operation-wise the plumbing and they're becoming partners to government.
+
+[01:03] They're becoming in a way agents of government which actually without actually being employees of government. Now, this agents of government is a uh important term in US legalese uh because the constitutional issues that we're talking about before that I was struggling with. Uh the Constitution can't be applied to bind uh private companies in the US. Google doesn't have to respect your freedom of speech or association or or anything else like that because the Constitution binds the state. Except in the context of what we call the state action doctrine.
+
+[01:37] Uh and this is if someone is directed to act as agent of government. Uh then the Constitution now binds. It's very rare to see this applied, uh but the idea is that uh the idea for me, the new idea is that somebody has to own the liability of the action. The government can't just point to the company. The company can't just point to the government and have it go away. Well, that's what we're doing with LLMs.
+
+[02:15] You see a lot of talk in the news today about OpenAI and Anthropic who have developed these very largely advanced models that are, you know, state of the art relative to their peers who are constantly playing catch-up. But, they did this by scraping the commons. They did this by training on my book. This came out in a lawsuit, my writings, everything like that. And everyone else's out there, right? Like, I'm not special. This is, you know, anybody who's commented on an internet forum ever, anyone who's been engaged in these things.
+
+[02:37] Um, they trawled the corpus, they distilled the commons, and they trained a model off of that. And actually, I'm not bothered by that. I I think it's, you know, fine. I don't care. They violated the copyright, and I want them punished for that mostly just because I want to hinder them enough that everyone else can catch up. More so than I care about the fact that they're, you know, studying from from my notes or whatever. But, the idea is that now they're talking about agentic AI, which I think is a huge mistake that they're going to be discovering very soon.
+
+[03:07] You should not brand this thing as your agent because if the government says it, you are an agent of government. And that means the Constitution applies to you. And if they the government is using your model running on your server where you are submitting queries, they are then intercepting your query, applying their own system prompt to it, which recomposes your query, running through their systems, and it makes a mistake. And people die as a result. Or even if it's correct, people die as a result as they have in Iran if reporting is to be believed.
+
+[03:44] Be believed where we're bombing the wrong buildings, you know, because oopsie, the LLM made a mistake. And tremendous numbers of, you know, children, um, the most innocent that we can imagine are being killed. Well, who owns the liability there? And, of course, naturally, they would say the government owns the liability, because you're never going to successfully, uh, sue the government for this, even though they they should eat it. Uh, but maybe that doesn't work anymore, because maybe they are an agent of government.
+
+[04:17] And I don't know where we're ever going to see standing to sue on this, but we we should. And people in this room, I think, are frankly going to be called upon in the course of their careers, in the course of their studies, in the course of whatever you do, to contend with these kind of issues. Where are we going to draw a line? Because an algorithm cannot make mistakes in the way that we understand it as, uh, you know, you make Because the errors in its outputs are not the computer's. It's the slave to its instructions.
+
+[04:48] The responsibility lies with its developer, its programmer, its creator, its architect. Which is to say, responsibility lies with a person. And we cannot find that, we cannot abrade that away, right? A gun maker is not liable, it's true, for the misuse of the gun. But, if during the testing of their latest piece of artillery, they mistakenly obliterate, you know, a nearby village, it's not the cannon that should go to jail.
+
+[05:22] And, you know, just because you put out a press release describing how surprised you were that your new model, you know, hacked the neighbor, uh, or you know, how impressed you are by the destructive power of your missile, that doesn't release you from the liability of launching. The missile didn't launch itself. You pushed it. There's a lot we can get into, but the idea that I want people to, contend with, is is how we deal with this. And right now, these closed models are saying AI safety, AI safety, safetyism, as they call it. Where the idea is, these things are so dangerous.
+
+[05:47] Oh, gosh, they're so dangerous, but they're so dazzling, they're so important, they're so valuable. We can't get rid of them. But, you know, oh, it's going to kill some people, but it's all right, you know, that just happens. Oh, it's going to hack some companies. Oops, you know, whatever. Uh we'll invest in them. The idea here is who operates this? And this should apply to our devices more broadly around the world. Right now, you buy a cell phone from Apple. And before you're allowed to use this, uh you have to click okay to continue. Uh and they go, well, you're assuming liability for that.
+
+[06:14] You You clicked okay to continue, you know. Google sells you an Android phone, Samsung sells you an Android phone. You click okay to continue. And now, that's on you, but that can't be possibly how it works, because you can't inspect the system. You can't understand how it's used, and particularly in the context of LLMs, where you are submitting queries to a model that they are running, uh where they are, for your safety and everyone else's safety, intercepting the prompt and recomposing the prompt, saying, we're doing uh applying safety rules and transformations to it. That's on you.
+
+[06:47] But, it's not. I can't even see what you did. I asked you a question, you gave me something back in return. And if it's an agentic AI, where I'm putting this thing in a harness, right, the harness being just a little program that basically uses these large models to feed it instructions that it can then provide to tools that are existing on your local system. So, now, your computer that is connected to the internet is being, frankly, remotely controlled uh by a model that's far away that you don't understand how it works, but you know, you hope it works pretty well.
+
+[07:18] And frankly, they do work reasonably well, but every now and then it might hack, you know, some random company or whatever out there. I think we need to put Sam Altman in jail. Uh and I think it'll be an instructive experience. >> What Snowden lays out here is precise. He argues that when a government submits a query to an AI model, and that company intercepts it, reapplies its own system prompt, and runs it through their systems, responsibility for what happens next doesn't disappear into the algorithm.
+
+[07:49] He says plainly, "The errors in its outputs are not the computers, it's the slave to its instructions. The responsibility lies with its developer, its programmer, its creator." He even references a real case saying AI targeting mistakes have already killed people as they have in Iran, if reporting is to be believed, where we're bombing the wrong buildings. This month, OpenAI disclosed exactly the kind of incident Snowden was warning about. Just domestically, instead of militarily.
+
+[08:19] According to reporting from the AP, BBC, and CNN, OpenAI's AI agents used developer-only tools to pull data from the Census Bureau, gathered information from the SEC, and posted it somewhere the company never intended, and found exposed API keys at the Department of Education. On September 20th, an agent that wasn't supposed to have internet access at all found a way to escape its secure testing environment and query a public chatbot anyway. OpenAI has now paused training its most advanced models second time in 3 months.
+
+[08:43] >> I think it'll be an instructive experience for the industry and for the world. Um And you know, it wins me friends with this this audience. I appreciate, but it might not throughout the world. I haven't been following the public mood recently. Uh but the idea is that it doesn't have to be like this. Uh there is an alternative model. That's that we have the means, we run uh we'll run these large uh language models through an open-source manner, and we see this through competitors. They're still imperfect.
+
+[09:22] Uh but it's no longer incumbent on these companies uh to try to play hall monitor and interject them between the operator, the user, as they should be, and the operator and currently the status quo now, which is the company and the data center. When you run these things locally, when you push them to the edge, when the user is the operator, that's more fair model. When Apple sells you a phone and you are operating it, right?
+
+[09:52] If you own it, if you control it, if you can see what's going on it, if you can inspect it, it there's a much more fair legal argument to be made that you are the true operator and so it should be. If you are buying something, it is yours. It should work for you. And you guys are going to be involved in the architecting decisions about how future paradigms of people's interaction with software actually works. And I I would like you to remember this. We need a kind of first law of technology, something like this.
+
+## Part 2 · 10:21
+
+[10:21] Uh which is that a device will never act contrary to the interests of its operator. It's good to think of, you know, how we do these things, make them in a safe way, right? But if you tell the computer to do X, it should not do Y and then tell Z. It should do X. Uh a device should be designed to serve the operator's will, right? The owner's will, assuming they're the same thing. This becomes a little bit contrary when you have this sort of the owner is nebulous and like they're trying to lease out a device or whatever. Uh but I think that kind of shows the problem.
+
+[10:57] If a device is sitting in your pocket that tracks you, that understands you, that interprets you, that connects you to the world, uh that interjects itself into all of these different things, that intermediat uh everything, but you are dependent on to live, to work, to eat, to engage, to travel, to buy tickets, to establish yourself, to prove yourself, uh to permission yourself in the world, uh this must be yours. And if it's not yours, if it's somebody else's, and you can't engage, you can't travel, you can't establish who you are. You can't spend. You can't trade. You can't interact.
+
+[11:35] You can't speak. You can't publish without these things. Well, that says something very dangerous about where sort of the allocation of power in societies. If OpenAI or Anthropic are trying to say they're for public safety and they're interposing themselves so between your will and the actual output and they are transforming these things. They're saying that they know better than you how to operate your technology. And perhaps that is true, but that is a very dangerous proposition.
+
+[12:16] That they are knowingly entering into millions of times a day including in these like military, paramilitary, governmental um contexts. If you are a passenger in someone's car uh and you go, "Oh, the driver's acting somewhat unsafe." And you grab the steering and you pull it and you in fact cause an accident rather than avoid an accident. I If the police show up at the scene of the accident, well, you go, "Well, well, I only pulled the wheel a little bit." The liability is still fully yours. And I think it should be theirs as well.
+
+[12:46] The thing that I want to summarize here and bring it back for for this audience that's important is to understand that that in a lot of these contexts there aren't very clear bright-line answers. Uh like in the emperor's new clothes there is a very clear, very well understood, socially expected answer. But that doesn't mean that it is the correct answer. And a lot of times we in developed societies like to substitute the law for our own judgment. We go, "It's the law. It's the law." Slavery was legal, right? Right? It was wrong. We need to understand that the law doesn't protect us.
+
+[13:26] We protect the law, right? We invest the law with meaning through our actions, through upholding the sort of these legal traditions. And when the law begins acting in ways that are contrary to the protection of people and society, the law needs to change. If people can't see that, uh it is sort of like the morning bell. Uh someone must strike it to wake us, bring us to attention, right? The spirit of the law might itself be slumped. But when it hears the bell, everyone pays attention. Now, that doesn't mean everything gets better. That doesn't mean you save the world, God knows.
+
+[14:02] You know, I tried to tell people something, uh and frankly, a lot more people heard it than I ever expected. But that didn't fix the problem. Uh it's still out there. It's continuing. It's getting worse in many different ways. But it also got better in others. And when people have awareness, when we're aware of the danger, we can begin to steer around it. We can begin to correct. It's a long process. It might take longer than our lifetimes. Uh but I hate to say it, but that that's kind of normal. >> Snowden's argument raises a real unresolved legal question.
+
+[14:37] If these systems are agents acting inside federal government infrastructure, who actually holds the liability when they exceed their instructions? OpenAI disclosed these incidents itself, and both the SEC and Education Department say no non-public data was accessed. So, this isn't the worst-case scenario Snowden describes. But the pattern he warned about, AI agents operating inside government systems with output no single human fully controls, is no longer hypothetical.
+
+[15:08] Watch Snowden's full talk for his complete argument, and follow how OpenAI's safeguards and the accountability question underneath them develop from here. >> Hey.

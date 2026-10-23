@@ -1,0 +1,88 @@
+# US Institute of Peace -- Drug & Riots (First 20 Mins Of Sub Stream)
+
+**Channel:** [[Mike Benz]] (`MB`) · Chapter 590 of 690 · Length 21m 02s · [[00 - Channel Summary]]
+**Video ID:** `MdHQY2oEYdE`
+**URL:** https://www.youtube.com/watch?v=MdHQY2oEYdE
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 02:31
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:01|Part 2 · 10:01]]
+- [[#Part 3 · 20:27|Part 3 · 20:27]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] So, one of the things that I was talking about a couple years ago was how strange it was that the US Institute of Peace was simultaneously working in Afghanistan doing conflict resolution, working with the Taliban tribes and the Afghan special forces and the indigenous community in Afghanistan while telling the Taliban to keep 95% of the world's heroin supply flowing. They said the ban is not a counternarcotics victory. It will have negative economic consequences. Banning heroin. Now Afghanistan is was I believe 95% of the world's heroin supply, 95% of the market in Europe.
+
+[00:53] inside the Taliban's war on drugs. They tried to reduce it by 95% after the US military occupation. Now, this is not the first time the Taliban has tried to wipe out the heroin supply in Afghanistan. They did this in 2000. In June 2000, the Taliban banned opium in Afghanistan, which was then around 70% of global opium output. July 2000. This is one year before 9/11. This action resulted in a 99% reduction in poppy farming within Taliban controlled areas. The ban was shortlived, however, due to the Taliban's overthrow.
+
+[01:34] And it was under US military occupation that opium came back and it roared back to like 90% of the world's opium supply. Now, the Taliban originally were funded back when they were the mujaheden. They were funded. The drugs were used to fund the mujaheden. the CIA's Islamic mercenary warrior force against the Soviets in Afghanistan. We've played this clip several times, but it's worth it's worth showing again. This is a big new Brazinski to the Mujahedin. When we were funding their drug networks, we were taking the opium on the Golden Crescent.
+
+[02:07] We were using it as effectively development funds to fund the Mujaheden. We would traffic those drugs through the Turkish white wolves, through the Albanian drug gangs, who would later play a leading role in NATO's military war in Yugoslavia. We'd process them in France, and we'd ship them from Italy. And this was the so-called pizza connection, the French connection. All this was smuggling opium that started in Afghanistan. And here's the big new Britzinski, the national security adviser for Jimmy Carter in 1979, dropping out of a helicopter to tell what today are the Taliban the following.
+
+[02:46] US national security adviser Brjinski flew to Pakistan to set about rallying resistance. He wanted to arm the mujahedin without revealing America's role. He wanted to arm the mujahedin without revealing America's role. brought near the Kaiba Pass. He urged the soldiers of God to redouble their efforts. We know of their deep belief in God and we are confident that their struggle will succeed. That land over there is yours. You'll go back to it one day because your fight will prevail and you'll have your homes and your mosques back again because your cause is right and God is on your side.
+
+[03:39] The purpose of coordinating with the Pakistanis will be to make the Soviets bleed for as much and as long as possible. So the purpose is to make the Soviets bleed for as much and as long as possible. So we built up a giant drug network in Afghanistan and Pakistan which neighbors it to the south. These these are the roots by the way of the US hold over Pakistan and its ISI its intelligence service as well as its military which effectively controls domestic politics in Pakistan.
+
+[04:21] Now this CI drug running operation through the mujaheden resulted eventually in the collapse of what at the time was I think the seventh largest bank in the world. BCCI CIA drugs. Okay. This is the bank of of commerce and credit international laundering narcotics money for the CIA for the mujahide. This was put up by a Pakistani frontman. And you'll see like this is all from the Justice Department, the world's sleaziest bank. Time magazine, BCCI, the dirtiest bank of all.
+
+[04:57] As Time reported earlier this month, the National Security Council, which is the White House inter agency on top of the CIA, the DoD, and the State Department used BCCI to funnel money for the Iran Contra deals. And the CIA maintained accounts for BCCI for covert operations. But the CI may have used BCCI as more than an undercover banker. US agents collaborated with the Black Network in several operations.
+
+[05:26] Cozy relations with international terrorists, Syria, Libya, Afghanistan, Colombian drug barons, laundering money for the drug trade, the arms business worked handinhand with the drug cartels. BCCI became the regional magnet for drug money cuz it's very easy to convert it to clean cash when it's right next door. That's why they open up these local branches like they did in Australia with Nuke and Hand like they did in the Caribbean with the Cayman Islands Castle Bank and Trust. All these were CI proprietary banks.
+
+[05:54] So what I'm trying to say here is this was a CIA DoD black market drug economy that was set up during the Cold War to support the Afghan warriors as they were fighting the Soviets. But then it became a lucr Oh, you want you want the link? But then it became a lucrative market unto itself. And people wonder how is it that they get away with this? How is it that USAD, for example, could have been irrigating the poppy crops? US A was funding the Afghan irrigation canals used in heroin production. And this comes straight from the US Inspector General for Afghan Reconstruction.
+
+[06:36] The watchdog established by Congress wrote in his quarterly report 6 years ago that actually US aid was keeping the drugs flowing. US A was cultivating the poppy, growing it. and understand us a USID and the US Institute of Peace are part of a family. They operate together in US Institute of Peace I is sort of adjacent to NED in that you had originally you had the State Department and that was what would do overt operations and some covert operations but not much.
+
+[07:25] There was there was basically two-track diplomacy stuff, but not really a a bustling covert ops that was done primarily through the military with the OSS in in World War II and some of the early special operations before that, but there was never really organized until about 1948. The CIA was created as a plausible deniability layer for the State Department and then USAD was created as a second plausible deniability layer for the CIA.
+
+[08:05] And then NED and US Institute of Peace were created as a plausible deniability layer a little bit below and sandwiched around so that USAD would not have to get its hands dirty for the dirtiest of things. It could be outsourced to a third-party NGO who's not technically a part of the US government even though it was created by Congress, reports to Congress and is funded entirely by the US government. You understand? US Institute of Peace is like Statecraft Blackwater, a sort of private military contractor who's funded and overseen by the US government.
+
+[08:39] But if Blackwater kills too many people in Fallujah, the US government gets to say, "Damn, those private contractors, but it wasn't really us. We didn't authorize that. It's a way to create plausible deniability." So given that the US created the drug trade in Afghanistan and that when the Taliban tried to get rid of it, the US military descended on Afghanistan and took it over was the start of the war in Afghanistan. October 2001, remember he went to Afghanistan before he went into before we went into Iraq. October 2001.
+
+[09:24] So the Taliban, which was responsible for 70% of the world's opium, reduced it by 99% in 2000. Just a year later, we militarily invade and it skyrockets up to 90% of the world's opium. And you might wonder, what mechanics are in place to do this? Isn't that supposed to be illegal? Isn't that's Isn't that what we hear every day from the FBI and the DEA that they're fighting against? Well, it's cuz they have little emissaries on the ground. They have networks that talk to the tribal leaders, that talk to the judges, that talk to members of the paramilitaries and extremist groups there.
+
+## Part 2 · 10:01
+
+[10:01] And among the most voracious of those and the most celebrated of those and the most infamous of those is indeed it's the US Institute of Peace. And when the US Institute of Peace is publicly saying don't shut down the drugs while they're working with those networks and funding those networks. That is as close as you can get to an open confession from the State Department, from the CIA, from the DoD that they are the principal people responsible for and benefiting from the global trade in narcotics. Now,
+
+[10:52] just quickly what the Wikipedia will tell you, $55 million annual budget formed in 1984, just one year. Remember this was during the Reagan reforms. CIA gets on in all this trouble in the 1960s and 70s going after the left, going after the antivietnam war left. CIA gets in big doodoo during the church committee hearings in 1975 and 1976 holding up the heart attack gun, having to come clean about operation chaos, oper MK Ultra, mockingb bird. They're humiliated. 1977, Jimmy Carter fires 30% of the entire operations division of the CIA. Wants to do away with it entirely.
+
+[11:33] 1979, the Iran hostage situation pops off. The national security community says, "If we had only had the old CIA back, this would have never happened." Reagan gets to power. He wants to give the CIA its old powers back, but Democrats control the House of Representatives. And they say, "No way, Jose." So Reagan gets creative and he creates by exe by executive order and by uh you know essentially appealing to both sides of the aisle. He says okay we want to have the CIA do it. We'll create these new institutions at the NGO layer.
+
+[12:13] And among those created were the National Endowment for Democracy NED in 1983 and the US Institute of Peace in 1984. So you have to understand it belongs to that same codory that exact same codory as NED except it's really conflict zones is where it does the lion share of its efforts. So see what the what the Wikipedia says. This is all about conflict resolution. mediators. It provides research, analysis, and training to individuals in diplomacy.
+
+[12:57] They're acting as essentially back channel diplomats for the State Department so that the US Institute of Peace can have the much harder conversations with these various groups all over the world that the US State Department does not necessarily want to deliver directly. The US Institute of Peace can be meaner. It can be more threatening. It can say things that are more controversial because it is not technically speaking on behalf of the US government, but it represents the US government to other countries. It is a plausibly deniable layer of diplomacy.
+
+[13:24] Understand that's that's called a back channel. For example, the name of Bill Burns's autobiography is which I'm like halfway through reading right now is the back channel. the the head of the CIA under uh Joe Biden, 35 years at the State Department before that. And by the way, again, don't be fooled by that word peace. We've talked about this many times, but the but Bill Burns, who was Joe Biden's head of the CIA, what was he doing for 7 years before that? As we've gone over many times, he was the head of the Carnegie Endowment for International Peace.
+
+[13:58] What qualifies you pretel from running the endowment for international peace from 2015 to 2021? What qualifies you from running the international peace NGO to running the Central Intelligence Agency? I think you guys know the answer, right? What they call peace is a state of complete control, stability. This is why you'll often you'll often see this peacekeeping work as being referred to as stabilization work. Stabilization is when we want to support a regime that's in power. Destabilization is what's done to undermine a regime that we want to topple.
+
+[14:41] It's just the other side of the chessboard. It's dirty, dirty, dirty work. And somebody has to do the dirty work. Enter the US Institute of Peace. Okay. The institute is governed by a bipartisan board of directors. Bipartisan does not mean proTrump. It means the never Trump wing of the GOP plus the Democrats. 15 members which must include the Secretary of Defense, the Secretary of State, and the President of National Defense University. The remaining 12 are appointed by the president and confirmed by the Senate.
+
+[15:18] So this little old little old fella here has to by statute has to have the secretary of war and the secretary of state on its board has to as well as the president of the national defense university. Ah, funny. The US Institute of Peace has to be chaired by the head of war, the head of the war training institute and the State Department. But this is the way it's structured. It's right next to the uh it's it's right next to the State Department. And then it continues with the story that you guys may have seen, but I'll we'll get to that story in a second here.
+
+[15:53] And you'll see what it says here is without resorting to violence. Without resorting to violence, without resorting to violence, you'll see this a lot in US Institute of Peace documents. And a point I want to stress here is they're utterly full of [ __ ] when they say that. But you need to know how they're full of [ __ ] because they will argue that what they're saying here is a true statement.
+
+[16:20] And what I'm trying to communicate to you is a term that you will see all over US Institute of Peace literature as well as all over NED literature and State Department and USAD literature is the concept of what they call nonviolent action. We've talked about this many times. Nonviolence means mob violence in their conception of the word nonviolent. And this is the whole Gan Sharp thing, okay? Jean Sharp, nonviolent. Here you go. 198 methods of nonviolent action. You can just look up all the Gan Sharp stuff. There's We've been over this article, which is fantastic on Gene Sharp.
+
+[16:49] Gene Sharp was the theorist at the Harvard CIA, the Harvard Center for International Affairs, which was a cute acronym for the CIA's home site on Harvard campus. got $50 million from the Pentagon to create create a a handy, helpful, scientifically backed methodology for organizing groundup color revolutions, mobs of people rather than a top- down military coup, a peoplepowered mob coup, rent a riots. Okay? Nonviolent action means rent a riot 100% of the time. So you'll see nonviolence. Nonviolence. You see the this is the phrase. So that means organizing the communities.
+
+[17:38] While we're at it, since the US Institute of Peace was involved in this in Yugoslavia, we've gone over this documentary. I think it was censorship industry annotate episode 4. See if I can scroll to find the US Institute of Peace guy who trained them. Hold on a second. This is when the CIA had given $70 million to the oat movement to create Here you go. Let's see. I think this is the guy right here. Now, this is the guy from the US Institute of Peace. Daniel Surer, director, Balkans Initiative, US Institute of Peace. We I don't know said we are a people's movement.
+
+[18:09] Although we were just bunch of students, but after that we became a people's movement and everyone came to us. Otpor's recruiting strategy relies on shock therapy. The clenched fist. Stormtrooper wardrobes. The clenched fist. Stormtrooper wardrobes. This is what they're calling nonviolence without resorting to violence. Clenched fist. Stormtrooper wardrobes. And black leather are intentionally sinister. It's intentionally sinister. Now, this is them bragging about this intentionally sinister. That's what nonviolence means. They're a street mob.
+
+[18:52] And before I come back to this 1340, I want you I want to show you what the end stage for folks who who didn't watch this episode that we did. The end stage of this looks like this. On this day, there is only one place to be. [Music] [Applause] This is what they call nonviolence surrounding the parliament building to run the democratically elected leader of the country out.
+
+[19:43] And you'll see what they end up doing is thousands of presidential ballot commanders literally raiding the capital, an actual January 6th, an actual insurrection with money from the CIA, the State Department, training from the US Institute of Peace. Pentagon advisers, this is what they refer to as nonviolent action. Never ordered their troops to fire because they knew their own kids were in that crowd. [Applause] [Music] Inside the building, they find thousands of presidential ballots pre-marked for Melo. Notice they broke the glass and they will begin setting the building on fire shortly.
+
+## Part 3 · 20:27
+
+[20:27] Well, breaking the few windows and and uh and um they've set the Capitol building on fire and they are calling this without recourse to violence. Nonviolent action. Nonviolent action. We'll see that a lot tonight. I want you to understand nonviolent to them just means well we didn't order the military to fire on them. It means BLM riot summer of love 2020. Okay. Mostly peaceful arson.

@@ -1,0 +1,47 @@
+# Atheist Makes WILD Claim | With POWERFUL Response!
+
+**Channel:** [[Daily Dose Of Wisdom]] (`DDOW`) · Chapter 102 of 916 · Length 8m 59s · [[00 - Channel Summary]]
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] (https://www.youtube.com/watch?v=mbzv7vulY8c&t=0s) Everything that religion claims a God can do can be accounted for by science. So that's if you like, the one branch of the argument. Welcome back my brothers and sisters in Christ. Welcome back those who are still seeking and unconvinced about all of this. And welcome back those who have maybe been hurt, wounded or disenfranchised. In some way, all of you guys are welcome and I appreciate all of you being here. This conversation is very worthwhile. It has a very dramatic ending. I'm not just saying that for algorithm purposes, it really does.
+
+[00:35] (https://www.youtube.com/watch?v=mbzv7vulY8c&t=35s) It's worth listening through the whole thing. That being said, let's do it, so there's no need. There's no necessity for a God because science can account for everything. On the other side of the argument is the reasons why people do believe in God one can understand why people believe in God. It's a sense of being alone, it's a sense of bewilderment, it's a sense of pushing for power over other people. It's the worst of the reasons. It's a simply a sense of bewilderment.
+
+[01:13] (https://www.youtube.com/watch?v=mbzv7vulY8c&t=73s) It's a sense of being alone, and you would know these feelings far better than I, because you obviously believe in them. But there's. But there's taken together with a reason why people believe desperate to believe together with the fact that you don't need. Actually, a God, in a sense, amounts to an argument against the existence of God. Well, I guess I don't see that. I mean, why doesn't that commit the genetic fallacy of trying to say that by explaining how a belief originates? You thereby show the belief to be false, even if it were true.
+
+[01:49] (https://www.youtube.com/watch?v=mbzv7vulY8c&t=109s) That belief in the existence of God, we're the product of fear and anxiety and so forth, which I don't for a minute, admit. But even if it were it, that's simply a genetic fallacy to say that, because that's the way the belief originally, what? Therefore, the belief is false, but that's only one half of the argument. I'm not saying that that alone is adequate and I'm not saying that. The fact that science can account for everything in a living is also adequate.
+
+[02:17] (https://www.youtube.com/watch?v=mbzv7vulY8c&t=137s) But taken together, the fact that one that science is omnipotent, and the fact that I can understand why people like you desperately want to believe in God, that is an argument against it. But two fallacious arguments put together don't make a sound argument right. Yeah, but two legs are support, yes, but the legs have to be sound. I mean, these are sound, I mean, eye mounting with the sufficiency and the necessity. The first argument only if granted, which I don't grant, I don't grant the premises.
+
+[02:56] (https://www.youtube.com/watch?v=mbzv7vulY8c&t=176s) But the first argument only prove that it's not necessary to believe in God in order to explain certain things that doesn't prove God doesn't exist. The second argument is commits a genetic fallacy of saying that because you can explain how people come to believe in God that therefore God doesn't exist. Neither of those warrant the conclusion, therefore God doesn't exist. I did not say that it was going to be a mathematical proof No, no, but I am.
+
+[03:27] It is valid in the sense that there is no need for a God, and everything in the world can be understood without needing to invoke a God. (https://www.youtube.com/watch?v=mbzv7vulY8c&t=207s) You have to accept that that is one possible view to take about the world. Sure, that's possible, but do you deny that science cannot account for everything? Yes, I do deny that science. Well, I had you brought that up in the debate, I had a number of examples that I was going to give. I think there are a good number of things that cannot be scientifically proven, but that we're all rational to accept.
+
+[04:00] Let me list five. (https://www.youtube.com/watch?v=mbzv7vulY8c&t=240s) Logical and mathematical truths cannot be proven by science, presupposes, logic and math, so that to try to prove them by science would be arguing in a circle. Metaphysical truths like there are other minds other than my own, or that the external world is real. Or that the past was not created five minutes ago with an appearance of age are rational beliefs that cannot be scientifically proven. Ethical beliefs about statements of value are not accessible by the scientific method.
+
+[04:31] You can't show by science whether the Nazi scientists in the camps did anything evil, as opposed to the scientists in Western democracies. (https://www.youtube.com/watch?v=mbzv7vulY8c&t=271s) Aesthetic judgments number four cannot be accessed by the scientific method because the beautiful, like the good, cannot be scientifically proven. And finally, most remarkably, would be science itself.
+
+[05:05] Science cannot be justified by the scientific methods, science is permeated with unprovable assumptions, for example, in the special theory of relativity, the whole theory hinges on the assumption that the speed of light is constant in a oneway direction between any two points A and B. (https://www.youtube.com/watch?v=mbzv7vulY8c&t=305s) But that Strictly cannot be proven. We simply have to assume that in order to hold to the theory. Okay, so obviously that is an extreme mic drop moment, but now let's take a second to actually build out each of those things that Dr.
+
+[05:38] Craig is talking about in the video. So that we can have a little bit more clarity on what he's actually saying there. So first, logical and mathematical truths. So math mathematicians cannot generalize from a few observations in the same way that scientists do. (https://www.youtube.com/watch?v=mbzv7vulY8c&t=338s) For example, Euclid did not prove the Pythagorean theorem by checking it for six or seven different triangles out in nature to come up with that. Theorem that theorem exists in reality and then is manifested out in the natural world. Metaphysical truths.
+
+[06:13] Bertrand Russell, ironically, said This quote there is no logical impossibility in the hypothesis that the world sprang into being five minutes ago, exactly as it was then, with a population that remembered a holy unreal past. (https://www.youtube.com/watch?v=mbzv7vulY8c&t=373s) This is sort of like The Matrix or sort of the simulation theory in a very primitive form. But it serves the purpose at the point that Dr. Craig is making in this video number three. When it comes to ethical beliefs, science really cannot speak into behaviors like, for example, rape or murder that we know are wrong.
+
+[06:45] From a scientific perspective, they cannot tell us why they cannot explain why these behaviors are frowned upon or why they will hurt other people. (https://www.youtube.com/watch?v=mbzv7vulY8c&t=405s) They can ultimately just explain the ways that molecules move and interact with each other. They can describe to us purely the physical mechanisms of those behaviors, which are utterly irrelevant to the morality of those behaviors. That's just one example, simply the wrong category or the wrong modality.
+
+[07:15] Number four beauty is this abstract and wonderful thing that is much deeper than the sum of its parts. For example, Beethoven's symphonies are not just notes arranged in a certain order they achieve some something that is more than complexity. (https://www.youtube.com/watch?v=mbzv7vulY8c&t=435s) Beauty is something that makes the heart sing, and it is. It is deeper, it is more human, it is more divine if you will, than just the mathematics that allow for it to exist. C..s Lewis, in the Abolition of Man, articulates this idea of beauty so well.
+
+[07:53] And here's what he says he refers to the quote mere trousered ape who has never been able to conceive the Atlantic Ocean as anything more than so many million tons of cold salt water. (https://www.youtube.com/watch?v=mbzv7vulY8c&t=473s) So if you look at the Atlantic Ocean at sundown and you just see a million tons of cold salt water, to what extent are you missing? The point number five? Science itself, the tools of science, namely generalization, the correspondence, principle, induction, hypothesis, testing, etc. Cannot themselves be formed by the scientific method.
+
+[08:29] You can't use the tools to determine that the tools themselves work, or else you're ultimately in a circular argument. Scientism, the philosophy of science or the belief that science is the only way of knowing. (https://www.youtube.com/watch?v=mbzv7vulY8c&t=509s) That is a reductionistic framework through which to look out into the real world. Yes, I know this doesn't get you all the way to Christianity or the Christian God. Yes, I know this says nothing about the claims of the Bible being true, or Jesus Christ having risen from the dead or all these other things.
+
+[08:57] I understand that those are separate videos, separate topics. This is really just about the limited utility of science as an epistemological method. So for that reason, I hope it helped somewhat. (https://www.youtube.com/watch?v=mbzv7vulY8c&t=537s) And I will see you guys in the next video. Thanks bye Foreign.

@@ -1,0 +1,43 @@
+# Community of Believers | Answers Bible Curriculum: Lesson 185
+
+**Channel:** [[Answers in Genesis]] (`AIG`) · Chapter 387 of 1947 · Length 6m 20s · [[00 - Channel Summary]]
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] (https://www.youtube.com/watch?v=TmYt62QU4hc&t=0s) Hey, guys, Brian Osborne here from answers in Genesis and I'm at the Ark encounter during Christmas time, so merry Christmas, maybe it's not Christmas during your time watching the video. But Christian time for us and here at the Ark encounter at the Creation Museum, the sister attraction during Christmas time. We light up the attractions and they do an amazing job here at both attractions at Dark County and the Creation Museum of Lighting Up the Grounds. And you see some of those behind me.
+
+[00:24] The lake in front of the Arkan counter see the trees different animals are lit up some amazing sculptures. (https://www.youtube.com/watch?v=TmYt62QU4hc&t=24s) I'll add some videos so you can see those in more detail. I'm gonna walk up the ramp here to get a good view from the top. And we'll talk about kind of a correlation between what we're looking at and the lesson that we're looking at today. So as we think about the lesson, we're seeing, Paul write to the Corinthians and he's encouraging the Corinthians to be unified.
+
+[00:50] And they're having divisions within the Corinthian Church about who somebody follows. (https://www.youtube.com/watch?v=TmYt62QU4hc&t=50s) You know, someone says, I follow Peter, I follow Paul, I follow Apollos and I follow Christ. And they were having these divisions crop up because of their preferences and these teachers, and they were leading to the visions within the church? And of course, Paul had been used by God to help plant these churches. He was, he cared for these people. I wanted to have unity in the body of Christ. And so he writes to them about that and many other issues.
+
+[01:16] (https://www.youtube.com/watch?v=TmYt62QU4hc&t=76s) And he encourages them to come to grits with the absolute fact that, no, Paul didn't die for you, Peter didn't die for you else, nor Christ did. Now you are one in Christ and he wants to really drive that point home, right? Christ is who we whom we serve, Christ is whom we seek to glorify and exalt and lift up. Christ is our king, he's the one who died first, he'd pay for our sins and we're unified in him, and he's going to really bring that out. As he articulates. Just a really cool illustration that's very poignant on multiple levels.
+
+[01:48] (https://www.youtube.com/watch?v=TmYt62QU4hc&t=108s) The illustration he gives is that as the church, we're like a body. We are the body of Christ and he is the head and the parts of the body. They're all different, they do different things, but they're unified in that they are one body functioning to the glory of God and for the good of the body. And why I'm here talking about that now, is that, as we look at this beautiful view behind me, going up here, the arc ramp and the lights turning on and so many great decorations, and this is just a little bit.
+
+[02:19] (https://www.youtube.com/watch?v=TmYt62QU4hc&t=139s) I'll try to show you some of the videos behind the ark as well. But the lighting is so spectacular and to make all these lights possible. There are a lot of people here at the ministry who do a lot of hard work to make the grounds so beautiful. Whether it's dairy at Christmas time or not, they do an incredible job with the landscaping, with all the lights really just making this place. Just pop visually with all the beautiful greenery around it and the plants around it during Christmas time.
+
+[02:46] (https://www.youtube.com/watch?v=TmYt62QU4hc&t=166s) The lights that are here, they work hard to make this landscape so gorgeous and so engaging to attract people to it. So they might hear the message that we are on about. And really, as I look at all these things, and by the way you see behind me, I'm at the top of the ramp. You see the cross on the door of the ark. Why I'm talking about this is because these people play an important part in our ministry. The groundskeepers, those who take care of all the stuff who put up all these lights, who tend to all the horticulture work.
+
+[03:11] (https://www.youtube.com/watch?v=TmYt62QU4hc&t=191s) They are a pivotal part of our ministry, every person in our ministry is so important and everybody does different things. You know, I'm a speaker, so I talk a whole lot or I work with curriculum. You know, Ken is the founder, and he takes care of a lot of just the details of leading this ministry to glorify God. We have people who do financing who are accountants, we have those who write curriculum, etc. There's so many different people in this ministry and they all do different things.
+
+[03:39] (https://www.youtube.com/watch?v=TmYt62QU4hc&t=219s) And the fact that they do different things doesn't mean they're less important. They're just a different part of the body of this Ministry and the focus of the Ministry. Of Answers in Genesis is to work together in all that we do, to defend Biblical Authority, to proclaim the gospel. It's really amazing. Within our ministry, there are so many Christians from so many different denominations, the world unified in our goal to defend Biblical authority.
+
+[04:06] From the very first verse to equip Christians to stand boldly on God's word, to proclaim the gospel. (https://www.youtube.com/watch?v=TmYt62QU4hc&t=246s) We're unified in that goal to glorify God for the good of believers as we stand on Biblical Authority. And each do our part from the speaker to the CEO. To the person who takes care of the trash or cleans the bathrooms, which is so important. Regardless, if the place is dirty, who's going to come? And if the place was dirty, then employees will get sick and we'll be able to come back.
+
+[04:32] I mean, everybody plays a pivotal role within the ministry. (https://www.youtube.com/watch?v=TmYt62QU4hc&t=272s) They're different. We have different gifts and abilities. We're all part of this one ministry to do what God's called us to do. And in a similar way, Paul's equating the church to one body within the body. There are many different roles, many different parts, and the fact that there are different parts doesn't mean any part is better than the other.
+
+[05:00] It means God has assigned them, as he sees fit to bring glory to his name for the good of the church to proclaim the good news of Jesus Christ. (https://www.youtube.com/watch?v=TmYt62QU4hc&t=300s) And so he gives some examples as he's talking to Corinthians in this letter that each part of the body, if you're a believer, you're part of the body. Whether you want to be or not, you're a part of the body. And you can't say just because, you know, I'm not that not part of the body. You know, if you're talking about a physical body, a hand can't say because I'm not a foot, I'm not part of the body.
+
+[05:25] No hand is part of the body where it wants to be or not, and the foot can't say it in the hand. Well, because you're not a foot, you're not part of the body just because you don't do this. (https://www.youtube.com/watch?v=TmYt62QU4hc&t=325s) One particular thing, you're not part not at all. Each part is a part of the body and plays an important role in what the body does. The same thing for the Church. Each person has different gifts and different abilities that are meant for the building. Up the church. To the proclamation of the good news of Jesus Christ and the exaltation of God.
+
+[05:50] And so this reminds me as I look out on the scene behind me, of course, the glorious cross here on the door behind me. (https://www.youtube.com/watch?v=TmYt62QU4hc&t=350s) But I look at these lights. It reminds me that people do all this hard work to make this place so beautiful to draw thousands of people here. Not just to see pretty lights. Not to see amazing work or amazing sculptures, but to see and hear about the good news of Jesus Christ as we defend Biblical authority. Each person plays their part, and as a believer, you play your part as well.
+
+[06:18] If you are a believer, if you put your faith in Christ, then you are a new creation. (https://www.youtube.com/watch?v=TmYt62QU4hc&t=378s) He's giving you gifts that are meant for the edification of the body and for the glorification of Christ. How are you using those things to accomplish what he's called you to do? What a great thing to think about during this time. As we look at these beautiful lights, you guys have a great day. Talk to you later on, See ya.

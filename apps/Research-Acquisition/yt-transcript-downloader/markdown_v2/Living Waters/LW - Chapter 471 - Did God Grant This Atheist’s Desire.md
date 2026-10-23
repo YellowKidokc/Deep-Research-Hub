@@ -1,0 +1,50 @@
+# Did God Grant This Atheist’s Desire?
+
+**Channel:** [[Living Waters]] (`LW`) · Chapter 471 of 2497 · Length 10m 21s · [[00 - Channel Summary]]
+**Video ID:** `SThscG1kObE`
+**URL:** https://www.youtube.com/watch?v=SThscG1kObE
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 04:16
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] do you believe in god's existence i do not you know i rode past you went way down the road and turned around and came back and the reason i did that is i feel god's hands on he's not gonna let you perish i've seen you on youtube before so what did you think when you watched it on youtube i actually wanted you to interview me really and it happened today [Music] do you think there's an afterlife i do and why do you think that um i guess i wasn't really into believing that you just go to heaven once you die or if you do bad you go to hell i always believe that there is more to that so where are
+
+[00:43] you going when you die either you reincarnate into something better or you relive the world now tell me about reincarnation how many people were on the earth say 2 000 years ago what do you think billions maybe one or two billion how many are there now probably six billion was eight getting eight billion eight billion where all these new people coming from if everyone gets reincarnated shouldn't have stayed at about two billion what's with this extra six billion people you know reincarnation doesn't make any sense yeah do you believe the bible uh a few things from it yeah have you ever read
+
+[01:31] it no not personally not it's the world's biggest seller of all time do you know what tells you how to find everlasting life did you know that no i did not yeah if you could guess what the bible says about how to get everlasting life what do you think it would be be a good person that would be one of them it's not you know that i did not yeah you know why why bible says there's none good no one's good only god is good and good means moral perfection and thought word indeed so no one's good so being good is the criteria to go to heaven none of us are going there to believe in god's existence i
+
+[02:08] do not are you open open-minded yes okay i'm going to give you evidence it's basic logical reasonable rational evidence right behind you there's a building okay let's say the builder died 200 years ago how do you know there was a builder that built that building well the building's there buildings don't build themselves so the building is evidence of the builder does that make sense yes okay so creation is evidence of the creator does that make sense it does so now you believe in god's existence no i do not say that again i do not in a way you prefer not to believe in god's existence have you
+
+[02:48] ever studied your motives everything about your motives tell me if i'm wrong here you don't like the thought of god's existence because if god exists you are morally accountable to him and you're doing things that you know in your heart are morally lost am i right yes okay do you think god's happy with you or angry at you happy you're not doing anything morally wrong i am you're looking at pornography say that again when's your last look at pornography about a year ago about a year ago you've gone for a year without looking at it you got a girlfriend i do you having sex with her no excuse me
+
+[03:29] i am not you lying to me no obviously i'm not why you're not having sex with you everyone has sex nowadays she's not ready she's not ready are you going to marry her i am she sounds like a marryable lady if she's saying no to monster keeper virginity that's wonderful okay let's go through the commandments see how you're going to do on judgement day can you be honest with me yes how many lies you've been told in your life all right when you call someone who tells lies how was that what do you call someone who tells lies how are you so what are you all right you have a stolen something yes what
+
+[04:04] do you call someone who steals stealing a thief so what are you no a lying thief do you still think you're a good person yes have you ever used god's name in vain explain to me why you'd use god's name as a cuss word instead of saying a filth word beginning with s a four letter word you put his name in its place why would you do that i never really thought about that jesus said if you look at a woman and lust for her you commit adultery within your heart have you ever looked at a woman with lust yes of course you have you looked at pornography so have you had sex before marriage yes okay
+
+[04:48] victor i'm not judging you this is for you to judge yourself okay you've told me a relying thieving blasphemous fornicating adulterer at heart and you have to face god on judgment day if he judges you by the ten commandments we've looked at four you're going to be innocent or guilty guilty heaven or hell now does that concern you no man it concerns me i'm horrified the thought of death seizing on you today you're a young guy you love you love life you don't want to lose it if death came to you today and god gave you justice you'd be damned you'd take away everything that you've everything
+
+[05:27] every good thing that he's lavished upon you he'd take from you and that would be a terrible thing to happen you know i rode past you went way down the road and turned around and came back and the reason i did that is i feel god's hand is on you he's not going to let you perish it's not going to let you go to hell he wants you to be saved now let's see how your knowledge is what did god do for guilty sinners so he wouldn't have to go to hell sacrifice himself yeah jesus suffered and died on the cross now most people know that but they don't know this the ten commandments are called the moral
+
+[06:03] law that's what we've looked at today the moral law you and i broke the law jesus paid the fine that's what happened on the cross do you remember his last words just before he dismissed the spirit he said three very profound words remember what they are he said it is finished why do you think he said that [Music] he was saying the debt has been paid we wrote god's law jesus paid the fight victor if you're in court and you've got a stack of speeding fights but someone pays those fines the judge can legally let you go even though you're guilty can you see that yeah you can say this is deadly
+
+[06:43] serious victor but someone's paid him you're out of here and god can let us live forever legally because jesus paid our fine on the cross he can extend mercy toward us even though we're guilty and should go to hell and then jesus rose from the dead the bible says it was not possible the death could hold him and victor if you'll simply repent of your sins turn from them and trust in jesus as your savior god promises and he cannot lie he's without sin the bible says it's impossible for god to lie he promises he'll grant you everlasting life as a free gift and he'll give you evidence that what
+
+[07:18] he's saying is true he'll change you on the inside so you love that which is right rather than that which is wrong he'll cause you to thirst after righteousness that's what the bible says the thing do you think what i'm saying is true i do you're going to think about what we talked about i will do you have a bible i don't can i give you a publication we'll produce called the bible's four gospels sure will you read it i will um you said you think about it i appreciate that but what do you think about it with this attitude you could die tonight 150 000 people die in 24 hours and i love you and
+
+[07:53] i care about you so i want you to really think about it with that sense of sobriety because you've got a choice you can carry on in your sins or you can say god forgive me i'm a sinner i need your mercy created me a clean heart and he'll do it so when you think about it with that sense of sobriety yes okay hey thanks for talking to me do you have any questions i don't okay that's great let me give you that uh the bible's full gospel stay here i'm so pleased i came back so victor what were you saying i seen you on youtube before so what did you think when you watched it on youtube i actually
+
+[08:31] wanted you to interview me one time yeah and it happened today yeah oh that's wonderful thank you for thank you for saying that you're wrong i also i also go to church every sunday you do yeah but you like christian church you've never repented and trusted christ no i haven't and uh that's changed today it will soon okay that's wonderful thank you when i go into a menswear store for the first time i really appreciate it when an attendant says if you're looking for jackets our most popular items are on that rack over there and they're on special at the moment so welcome to our store here's
+
+[09:06] some of our most popular tracks and they're on special at the moment we call this the starter kit it's made up of 100 of each tract and 50 10 commandment coins these coins are really easy to give out just begin with a warm good morning and then say something like i've got a gift for you it's a coin with the ten commandments on one side and the gospel on the other i've even tossed a handful of these on the sidewalk among teenagers as i rode by and you should have seen them fight to get one this is the good person test and comic form and who can resist reading a comic then there's 101 of the
+
+[09:39] world's funniest one-liners and these really are funny just say this will lift your day it's 101 of the world's funniest one-liners and of course it contains the gospel and finally a super popular million dollar bill just say did you get your million people love these or you could just put it down somewhere it's sure to get picked up these 300 tracks and 50 coins would normally cost 38 but they're on special on the starter kit for just 29. go to livingwaters.com click on the store and then tracts you

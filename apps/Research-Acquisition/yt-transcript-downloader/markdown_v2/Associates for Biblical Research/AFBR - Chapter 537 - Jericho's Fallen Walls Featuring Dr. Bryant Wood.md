@@ -1,0 +1,50 @@
+# Jericho's Fallen Walls: Featuring Dr. Bryant Wood
+
+**Channel:** [[Associates for Biblical Research]] (`AFBR`) · Chapter 537 of 1142 · Length 11m 40s · [[00 - Channel Summary]]
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:07|Part 1 · 00:07]]
+- [[#Part 2 · 10:29|Part 2 · 10:29]]
+
+---
+
+## Part 1 · 00:07
+
+[00:07] (https://www.youtube.com/watch?v=DIr9SvUf274&t=7s) Thank you historical accounts in the Holy Book tonight. CBS will examine that question during a twohour special called Ancient Secrets of the Bible. A part of the show will feature Dr. Bryant Wood of Harrisburg Dr. Wood is a Biblical archaeologist with the Associates of Biblical Research. During tonight's show, the doctor will talk about the Bible's account of the Israelites conquering the city of Jericho and that the walls tumbled down.
+
+[00:46] Skeptics say it never happened or happened, the doctor says his research shows that it did the evidence that we have. (https://www.youtube.com/watch?v=DIr9SvUf274&t=46s) It appears that there was an earthquake at the time the city met its end. The archaeological evidence is simply a pile of bricks around the outside perimeter of the city where they were collapsed. Dr Wood says his research proves the Bible's account of the fall of Jericho. Tonight's special program, Air, is here on Channel 21, from nine o'clock until 11 and at 11 on News 21. We'll hear more from Dr. Wood about his research.
+
+[01:21] The Bible tells us that the city of Jericho had to be destroyed. (https://www.youtube.com/watch?v=DIr9SvUf274&t=81s) It was a pagan fortress of depravity and abomination in the eyes of God and the locked gate to the promised land. After Joshua had crossed the river, he sent spies into the city. We put ourselves into a terrible position now, the rivers at our back, we have all the armed cities of Canaan before us. My counselors believe we should move south, start with a smaller campaign, Joshua insists. On this madness, we will waste the flower of our army on those walls.
+
+[02:02] Better to attack a less formidable position until we have time to build up our strength. (https://www.youtube.com/watch?v=DIr9SvUf274&t=122s) Good news We have good news worthy generals the Amorite bastion is fat and ripe for an attack. When will that be general by the first of the new moon, Brave Zebulon? That is a mere seven days away. God made the entire universe in less than that seven days, and Jericho will be ours. Have you some news from the city, would they give in without a fight? Are they asking covenant of us? They scorn us and our presence.
+
+[02:45] They're as strong and well supplied as we had imagined they could withstand a siege of years. (https://www.youtube.com/watch?v=DIr9SvUf274&t=165s) Then how do we make this powerful pagan fortress hour, surely not by throwing ourselves against those high and remorseless walls with faith. My able and worried commanders, God has spoken to me and I will tell you the plans for we begin the break of Dawn by or leave Mighty Joshua. We have less than 20 percent of our fighting men here, it will take weeks for us to strengthen our army.
+
+[03:25] This victory will not come by the strength of our arms, but by the power of God. (https://www.youtube.com/watch?v=DIr9SvUf274&t=205s) That is why there is to be no prize taking, no looting, not one single armor of grain, no prizes, no rewards. If the city's full of grain, it would feed our people for months. Nothing generals is to be taken from the city. Our only purpose here is to destroy this abomination with a sword and with fire. Perhaps great, Joshua might know how the Lord would have us do his bidding. The Ark will be called forth and placed in the center of the March.
+
+[04:10] Seven priests with seven trumpets will precede it. (https://www.youtube.com/watch?v=DIr9SvUf274&t=250s) Each day we will go forth in Battle Array and march around the walls. Once no sound will come from the ranks, only the Blair of the trumpets will be heard. March went silently around the great walls, except for the sounding of the trumpets by the weather. Then, on the seventh day, the host made six courses around the wall in complete silence. But at the end of the seventh March, all right, glory, Hi man, George. Now we have seen the biblical story of the destruction of Jericho's walls.
+
+[05:55] (https://www.youtube.com/watch?v=DIr9SvUf274&t=355s) Is it possible that science can shed any light on the mystery of how it might have happened, and can they tell us when it happened by astronomical dating and a great deal of evidence? Scientific evidence that the walls of Jericho have collapsed by an earthquake just the way described in the Bible. The best evidence are the skeletons that were uncovered in Jericho 1400 B.C. Which were obviously destroyed by a collapsed war. Jericho was a very strongly defended city.
+
+[06:30] (https://www.youtube.com/watch?v=DIr9SvUf274&t=390s) It had two mud brick walls surrounding it. The archaeological evidence indicates that those mud brick walls collapsed, as described in the Bible, and probably that was due to earthquake. Remnants of that wall are still there today. In fact, I have one of the mud bricks right here, it's about 3 400 years old. Now. If you look at this archaeological reconstruction with me, I'll show you how that happened. The city was surrounded by an outer stone revetment wall about 12 feet high. On top of that was a mud brick wall about 18 feet high.
+
+[07:08] (https://www.youtube.com/watch?v=DIr9SvUf274&t=428s) This is what the Israelites faced as they marched around the city for seven days, according to the Biblical account. Behind those walls was a massive earthen embankment that surrounded the entire city. At the crested at Embankment was yet another mud brick wall, about 18 feet high on this embankment, there were houses constructed as the archaeologists excavated within the city. They found abundant evidence that there was earthquake activity at the time the city met its end.
+
+[07:43] (https://www.youtube.com/watch?v=DIr9SvUf274&t=463s) When they excavated at the base of this outer stone rebutment wall, they found piles of collapsed mud bricks. As we see here in the drawing again, this gave ample evidence that the Biblical account was entirely correct and the Bible. We're told that the walls fell flat here at Jericho, they found in almost every building great jars full of grain. Usually that would have been plundered because it was very valuable. The Bible tells us, however, that the Israelites were forbidden to plunder the city.
+
+[08:17] (https://www.youtube.com/watch?v=DIr9SvUf274&t=497s) As we said at the start, The Book of Joshua is very controversial. While the doubts are mighty and challenging, there are no proofs at all that the occurrence is described in. The Book of Joshua did not happen. Scientific and analytical positions have demonstrated that everything the Bible says could have good evening. I'm Evan Forester and I'm Gene Epley. Love these stories next on News 21. Many of you are just wrapping up watching the CBS special about the Bible, and we'll talk with a local archaeologist who contributed to the centuries.
+
+[08:44] (https://www.youtube.com/watch?v=DIr9SvUf274&t=524s) This book theme of this book is Brotherhood and Our Shared Humanity, and the World is a better place for having heard its message. I'm William Devane, thank you for joining us. From the Director of Winds of War comes a television event that will change the way you think intruders, they are among us. A world premiere movie starting Sunday, you will believe, and later tonight on Prime Time after Prime Time, an allnew dark justice. It's too hot to sleep. Thanks for making CBS America's most watched network.
+
+[09:33] (https://www.youtube.com/watch?v=DIr9SvUf274&t=573s) Now get ready for your local news. Oh, but for myself, I think it's historically accurate I can reach no other conclusion. Dr. Bryant Wood is an archaeologist who says research proves the Bible's version of the fall of Jericho is fact and not fiction. Good evening, many of you have just finished watching the program, Ancient Secrets of the Bible, where experts try to prove Biblical accounts.
+
+## Part 2 · 10:29
+
+[10:29] One of those proving a story is a Harrisburg man, an archaeologist appearing on tonight's show talking about six years of research into the fall of the city of Jericho. (https://www.youtube.com/watch?v=DIr9SvUf274&t=629s) There are those who are critics who doubt skeptics who say it never happened. It's all folk story, mythology. And then on the other side, there are those who say, Well, we believe it's real history, and so Dr. Brian Wood says it's real history.
+
+[11:04] A biblical archaeologist from Harrisburg Would has spent several years researching the story of Joshua and the fall of the City of Jericho. Dr. Wood appeared on tonight's CBS special Ancient Secrets of the Bible. (https://www.youtube.com/watch?v=DIr9SvUf274&t=664s) Part of the show dealt with Jericho, the first city the Israelites conquered the city where the walls tumbled down. Skeptics say it's mythology. Through his research, Wood says It's fact from the evidence that we have. It appears that there was an earthquake at the time the city met its end.
+
+[11:38] The archaeological evidence is simply a pile of bricks around the outside perimeter of the city where they were collapsed. During six years of research. Wood has written several articles on his findings. (https://www.youtube.com/watch?v=DIr9SvUf274&t=698s) You should get the dating straightened out, you see that well, that's the evidence right there for the fallen walls. Of course, his work many times takes him overseas. I do quite a little bit of archaeological work in Israel, and my studies on Jericho have taken me not only to Israel, but to England and Scotland and various museums, because that's where the material is today. And Doctor Wood is planning another trip to a dig site in Israel next year. He also says he's surprised by the Bible debate that it's gained so much interest and actually sparked a network television show.

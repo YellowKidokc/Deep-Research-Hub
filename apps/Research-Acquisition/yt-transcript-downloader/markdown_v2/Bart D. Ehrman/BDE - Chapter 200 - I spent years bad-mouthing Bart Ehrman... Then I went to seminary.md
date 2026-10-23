@@ -1,0 +1,75 @@
+# I spent years bad-mouthing Bart Ehrman... Then I went to seminary
+
+**Channel:** [[Bart D. Ehrman]] (`BDE`) · Chapter 200 of 468 · Length 12m 47s · [[00 - Channel Summary]]
+**Video ID:** `Y_o8mODBV-c`
+**URL:** https://www.youtube.com/watch?v=Y_o8mODBV-c
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** direct
+**Captured:** 2026-10-01 13:54
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:12|Part 2 · 10:12]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] I grew up as an evangelical fundamentalist, and when I was growing up, there was one name, one person, one Bible scholar who struck fear in our hearts. And that name, of course, was Bart Ehrman. And here I am today making this video on Bart Ehrman's channel. So, in this video, I want to talk about how that journey happened. I want to tell you a little bit of my story, um and how I went from somebody who was absolutely terrified and bothered by all the things that Bart Ehrman had to say to somebody who kind of sees eye to eye with Bart on probably most things. My name is C.J. Cornthwaite.
+
+[00:34] Here on YouTube, I talk about where Christianity came from and how it works. And I'm going to talk about my journey today, but you can actually, if you've never heard it, you can actually also find out about Bart's journey. He actually has a free course called Why I Am Not a Christian that talks about how he changed his mind on things. And if that free course sounds interesting to you, I will link to it in the first comment down below. But let me tell you my story. So, I was the kind of kid who was essentially in church every time the doors were opened. And that was a lot.
+
+[01:05] Like, we were basically in church three or four times a week for hours of the day. And I grew up in a church called the Plymouth Brethren Church. So, in the Plymouth Brethren Church, essentially, it's lay leaders. We didn't believe in having anybody who was trained in any way leading anything. Basically, it was like any man could stand up and speak. And yes, it was only men, unfortunately. So, growing up in a church like this meant that I spent a lot of time with the Bible. And most of that time was spent memorizing, learning.
+
+[01:39] It was very dispensationalist, so we're learning about like these dispensations of how God worked in time and memorizing theology. And we had charts having to do with like the end times and the rapture and things like that. And of course, my belonging in that church also centered around this act when I was seven that I accepted Jesus into my heart. So, it was actually a pretty typical evangelical upbringing. If you were raised in an evangelical church, it probably sounds, on some level at least, familiar to you. And my faith was real to me, and it was powerful.
+
+[02:10] And I was always looking for opportunities to tell people about Jesus, to try to convert people to the way that I saw the world. And this involved a lot of different things. I worked at a summer camp for a long time. I played in a heavy metal band, a Christian metal band, and we would go to different kinds of pubs and bars and play music, and there would always be like what we'd stand on the stage, you know, at midnight somewhere, drunk people all around, and we would say, "Jesus loves you. That's what we wanted to tell you." And that was kind of my story.
+
+[02:40] And when I was 19 years old, I actually became a youth pastor in a Baptist church. And now I was in charge of teaching other people the Bible. And for the most part, I just regurgitated the stuff that was taught to me. By this point, I knew a lot about the Bible itself. It's interesting how you can spend a lifetime in a church like this reading internally in the Bible, but never actually like stepping back and understanding where it came from and how it works together.
+
+[03:10] I just spent all my time reading the Bible, which gave me a really good knowledge that I still have today, and memorizing books and all that kind of stuff. So, I was teaching now teaching teenagers about the Bible. And at some point, after almost a decade in youth ministry, I decided that I wanted to go to seminary. Now, unfortunately or fortunately, the town that I lived in didn't actually have a fundamentalist seminary. So, I had to make the choice of how I was going to get an education. And there was one option in town. And the one option was an accredited Anglican seminary.
+
+[03:39] I'd already done an undergraduate at this point, so this was my option. This was my chance to like go and get properly certified to be a minister. But I was pretty sure that that Anglican seminary was full of a lot of people who were heretics. Um I was pretty sure that they were kind of dangerous in some way. I didn't really know exactly how, but I had just heard enough about mainline churches to be kind of, you know, kind of skeptical. Um, but I had a an a mentor, actually, in that Baptist church who encouraged me to go and said, "Essentially, this will be a test for your faith.
+
+[04:07] This will make your faith stronger." Which it probably did not, but I'll come back to that in a minute. The other thing is, up until this point, by the time I entered seminary, um, I had heard about Bart Ehrman a little bit, but I don't think I had ever read one of his books. My introduction to Bart Ehrman's books came through like a weird circuitous route. So, basically, when I was a youth pastor, one thing I started to get really into was this idea of Christian apologetics.
+
+[04:40] And as you probably know, if you've hung out on the internet even a little bit or seen a Christian bookstore, um, Christian apologetics was this idea that we could give a defense of the faith. And that was something that as a young man, as a teenager, really appealed to me. I started like reading these Christian apologetics like philosophy books. And part of that came and it was for the first time I realized that the Bible could also be something that could be defended with Christian apologetics.
+
+[05:07] And I remember coming across books like Lee Strobel's The Case for Christ, where he interviews a few Bible scholars and some other people, too. I remember coming across Evidence That Demands a Verdict. And this was my introduction to all of the questions and all of the problems and ultimately it was also my introduction to the name Bart Ehrman, because as I dove into this apologetic world, I started to hear this name. I started hear this name of somebody who was kind of stood up as this {quote} liberal or maybe sometimes skeptical Bible scholar.
+
+[05:35] And I didn't know much about Bart, but I knew that for some reason it was I had to be careful. Maybe Bart Ehrman was for some to some like to some extent Bart Ehrman was like an enemy. And I I didn't know anything other than that. People told me. People told me what to think of Bart, and that was what I went away. And for a little while, that's what I thought of Bart.
+
+[06:06] But, it's interesting because a lot of these apologetic things that open my mind to all these questions about the Bible were actually, I think, the beginning of my undoing as a fundamentalist and the beginning of my journey towards scholarship. Because the thing that apologetics told me is that you can follow evidence. You can use your brain. You can, you know, search things. I was like, "Okay, cool." The thing I didn't realize is that I would very quickly come to find the answers that apologetics was supposed to be giving me to be very unsatisfactory. I remember reading The Case for Christ.
+
+[06:26] I don't know if you've ever read it, but um a guy named Lee Strobel. Ostensibly, he was at one point a journalist. And this is supposed to be this like hard-hitting investigation um of, you know, the claims of Jesus and and the Bible. So, he would he would look at things like, "How do we know the Bible is reliable?" And he'd go and interview these Bible scholars. But, the weird thing about reading that book as I read it I had more questions than Lee Strobel was actually willing to answer. So, he would often do this thing where he's like pretending to interview some someone.
+
+[06:54] Um You know, they would kind of come up with an answer, and he would say, "Okay, I'm convinced." And like, I would be like, "I can think of three more questions that I have as a follow-up." And for whatever reason, especially when it came to the Bible, these apologetics books just weren't really willing to go there. So, okay, that's the second the second kind of thing you need to understand for background. So, I get to seminary. Still had never read a Bart Ehrman book, but I knew who Bart Ehrman was, remember.
+
+[07:22] Get to seminary, and I found myself in this Anglican seminary really desperate to avoid any kind of courses that would like push me towards Anglican like all the stuff they were doing in church. We call it ministry courses. And I'm like, "I'm just going to stick to the nuts and bolts of the Bible." So, I studied Greek. I studied Hebrew. I did New Testament text criticism for for time, which was a brand new discipline. I mean, I had known from, you know, things like The Case for Christ, that text criticism existed, but all of a sudden doing it for the first time was wild.
+
+[07:49] Studying church history and like looking at the development of the Nicene Creed, for example, and oh, it it came out because of political reasons. There's actually a political um there a political situation that led to the development of the Nicene Creed. And the more I started to do this work, it wasn't reading a Bart Ehrman book that changed my mind about the Bible. It was reading the Bible. It was digging in and seeing, for example, in Genesis 1 and 2 that there are two different creation stories.
+
+[08:19] And once you have a little bit of Hebrew, which I did at this point, just a little bit at this point, um you can even see that there are different words. God has different names in the two creation stories. And all of a sudden when somebody says that's probably two different sources, it's like, yeah, that makes sense. And looking, for example, at the synoptic problem and actually looking and saying, "Hey, the Gospels actually do copy each other." I mean, I was always just told that the Gospels were like four different witnesses to a car accident or something. But no, they copy each other.
+
+[08:44] What do we do with that? And as time went on and as I studied the Bible in seminary, more and more, I began to land on things like the canon was maybe a later invention. It wasn't just something that was obvious to everybody, but it evolved as the church evolved. Or the theology about Jesus evolved. Or the synoptic problem doesn't just have a simple answer and it's something to be wrestled with.
+
+[09:16] Or I would study text criticism and see that there really were manuscript changes and, you know, as I've heard Bart say, a lot of them really aren't that big of a deal for theology, but a few of them are. And the really wild thing is, still hadn't read a Bart Ehrman book, but this was the point that I was already aware now, by looking at the sources, I was already aware that some of these issues were here. And it was around this point, sometime probably my second year of seminary, that I discovered my first Bart Ehrman book and that would be Misquoting Jesus.
+
+[09:39] But, the wild thing is by the time I read that book, having done some text criticism, it wasn't I mean, it's a fantastic book, it's a great read, but it wasn't actually totally mind-blowing in the same way because I already knew that a lot of the issues were there. It was actually just like, "Oh, finally somebody's taking the stuff that I'm seeing in my courses and laying it out for me." That's really cool.
+
+## Part 2 · 10:12
+
+[10:12] So, that's kind of where I came to realize that Bart Ehrman wasn't actually the enemy, that by following the evidence where it led, which is what those apologists told me I should be doing, I ended up seeing the world and seeing the Bible a lot like Bart Ehrman. Now, that experience began for me a process that a lot of Christians now call deconstruction. It's a bit of a buzzword, but it's kind of how people talk about changing your relationship to faith, which it did. My relationship to faith changed. I never became that Baptist pastor I wanted to be.
+
+[10:35] But, what I did instead was I kept studying. I did my MDiv. I finished another degree called a a Master of Arts in Theology. And I eventually did a PhD in Religious Studies with a specialization in Christian Origins. And all of this, as I walked down the road to becoming somebody who was trained as a Bible scholar, it was weird to realize that on many, many things I had become somebody who thought a lot like Bart Ehrman. And it's weird now to get on the internet, which I do on a pretty regular basis.
+
+[11:09] I mean, today I'm on Bart's channel, but even on my own channel, it's weird that people compare me to Bart Ehrman because if you would have told me at the age of 17 or probably even 25 that people would eventually be comparing me to Bart Ehrman, I would have said, "There's no way. There's no way I will ever be compared to Bart Ehrman." But, ultimately when I look back at my journey, it was just a really natural evolution. And it wasn't because I read a Bart Ehrman book and, you know, got tricked into something.
+
+[11:33] It was because Bart was saying a lot of the things that were right there all along, that the field knows, that Bible scholars know, but that unfortunately a lot of people sitting in the pews don't know. And that's also I think one of the reasons why getting Bible scholarship online and getting it out to people is so important. I was terrified of Bart Ehrman, and here I am now on his channel. It's kind of ironic in the grand scheme of things, but it's just how it worked out.
+
+[12:01] And frankly, it just came from following the evidence, from being open to that evidence that I was seeing and to changing my mind about things, which is never easy, and maybe I'll talk about in some other videos how it's not easy, but nevertheless, it is what happened. And now it's funny because I love the Bible more than ever. It's more interesting to me than ever before. I have way less certainty about the Bible now, ironically, than I did when I was that, you know, that kid who thought I knew all the answers, but it's never stopped being interesting to me.
+
+[12:24] And that's the journey that I'm on, and it's a lot of fun. So, if this was interesting to you, thank you so much for taking time to listen. Um, thanks for letting me share a little bit of my story. Again, I said, if you want to hear Bart's story, there's actually a free course in the BSA. I'll leave a link down below, and you can click on that, and you can also hear Bart's story about how he changed his mind on faith. Thank you so much for taking the time to listen. I hope you enjoyed that, and I'll see you next time.

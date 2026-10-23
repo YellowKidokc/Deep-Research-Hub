@@ -1,0 +1,52 @@
+# “You’re Judging Me”—Christian Pushes Back on Ray Comfort
+
+**Channel:** [[Living Waters]] (`LW`) · Chapter 2492 of 2497 · Length 9m 58s · [[00 - Channel Summary]]
+**Video ID:** `G9P5S00PENs`
+**URL:** https://www.youtube.com/watch?v=G9P5S00PENs
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 10:05
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] I'm not touching you yeah but you're still doing it not violating her whoever looks upon a woman to lust after her has committed adultery already with in his heart you've done it against her will your sin is very serious in God's sight very serious I can't explain how serious it is but it is but I don't agree with it doesn't matter whether you agree or not very few rap it doesn't matter in the way that I carry my life the way I go about living that does matter to me yeah but not to God all your good works in the world don't wash away your sins go back to the Court's law the rapist says judge
+
+[00:33] I'm you're saying it doesn't you're saying it doesn't matter the difference between me and a rapist right so if a rapist thinks about it he acts on it and does it right I don't I don't dwell I don't fantasize I don't think about raping a woman it's not in my head okay you hated someone ever hated someone at some point okay this is what the Bible says he that hates his brother is a murderer that's what the Bible says that doesn't make me a murderer because the Bible said it it does soer Authority it is God's word you can't lock me up God's got you locked up in Chains of death you're not going
+
+[01:11] to escape death God's given you the death sentence Did you know that I'll deal with God when I go there but for now'll deal with right now I'm dealing with everyday life I wake up in the morning and I'm okay with me and I try to be okay with other people let me tell you what Jesus said this is what he said you are those who justify yourselves before men but God knows your hearts for that which is highly thought of and the sight of man is an Abomination on the side of God if God put me here to every second think about every that I did consciously I would live a miserable life that's true
+
+[01:46] you're enjoying the pleasures of sin I'm enjoying life you're enjoying the pleasures of sin I'm enjoying the pleasures that God created for me and you say you're grateful but you refuse to repent as he's commanded you to repent to who listen to this God commands all men everywhere that includes you to repent because he is appointed a day and which he'll judge the world in righteousness you're saying God said Absolut I'm saying a man wrote the book oh how did you think didn't evolve a man wrote the book it didn't evolve all right then God put me here to enjoy life and that's exactly what I'm
+
+[02:16] doing okay a rapist can enjoy life a pedophile can enjoy life it doesn't make it right you're telling me about a Dogma that was written for your church or whatever organization that you're for called Christian Christian it's a Christian Christian Christian chrisan organization yes sir my name is Christian and I'm living like a Christian cuz I'm enjoying life you're not living like a Christian I'm enjoying I'm living like this chitted lying thieving bless juding the Bible says not to judge what are you judging me for then man you go stop pourer judging me youing Jud you're accusing me you're
+
+[02:50] doing the same thing you're accusing me of you're making a judgment and like I'm a pure Christian and I do maybe I'm sin and telling you but you're fre can judge what's your name it's not upsetting him It's upsetting you and you're judging me publicly come to the microphone and talk to me come on people like you to make people turn away from like it doesn't even matter what you say you're not what your name Jesus what's your name great okay meet you this is what I was telling Christian just listen for a moment yes this is the standard God's going to judge the world in Jesus in whoever looks
+
+[03:32] upon a woman hey Christian CHR just stay for a minute God wants religious fruits not religious nuts thank you for that great gem sir thank you for that hey man' lady with a little Sur for just listen for a moment have you ever used God's name in v no okay have you ever told a lie yeah so you're a liar I can't trust you when you say you've never taken God same thing you're judging again no you're judging again you're judging again you told me you were a liar I don't have to judge you I'm just believing you that doesn't make her a liar yeah have you ever stolen something no I can't believe you
+
+[04:13] that matter one moment one at a time I that one brain I'm a man okay so why should we listen to you you don't have to listen to me you can leave but you are listening by your own free choice okay so listen to what I'm saying Christian but you're judging her she she might have told a lie before and you're calling her a liar J she told me that she might have lied that doesn't make her a liar that doesn't make her what she is Li how many liar do you have to tell to be a liar T in the bell rings come on have you ever lusted after a woman before I've got blood of my so you're a rapist then I'm not
+
+[04:42] a rapist you just called me one because I said I lust that ask you if you had okay and I just asked you the same question Christian I violated all those Commandments that's why I need a savior and on the day of judgment when I stand before God God God can say I can have everlasting life because my sins are forgiven and that's what I want you to do today to repent and Trust the Savior to stop justifying yourself and saying I'm a good person I am a good person no you're not I live a good life you're saying I'm not but you told me you're not no I said I'm not hurting anybody you're sinning
+
+[05:14] against God I'm enjoying life listen a pedophile doesn't sin against who do I repent to who do I repent to the god that you've offended in what way youve violated his how do I go about repenting you you you apologize to God for your sin say God I'm I'm sorry for breaking your command I'm going to turn for my sins it's called repentance and put your faith in Jesus and God so if I sit here and repent right now right and I say God forgive me for my sins and then I walk across the street and I see a woman in a thong or or a bikini and I look at her and I say wow she's beautiful now have to repent
+
+[05:47] again right no not if you just say she's beautiful if you lust after her you commit adultery with your heart and you're a hypocrite okay you're like a man who says God forgive me he goes out and steals Define lust define lust pornography of the mind okay you know this is this is where we this is where we're different at because I guess I don't lust I don't be like chasing after a woman with my tongue out like a dog and I admire women have you ever lusted after a woman I don't know what you mean by that oh okay well I can't reason have I ever have I ever desired for a woman have I ever desired
+
+[06:19] a woman of course ever and I probably will continue for the rest of my life do I have to repent every day for that how long will that be long my days last but what I'm asking you now is do I have to keep repenting for that over and over and over there's a man who marries a woman and he has lust for his wife is he in sin no is a man is a man in sin of course not if he's married to a woman and he Lov for that woman you only cover that which is not yours that's a violation of the 10 on the seventh Comm would didn't God put all this here for us yes okay yes it's mine I'm here for us you don't
+
+[07:00] have to steal or LI or BL be I'm not doing those things that's now you've done them so you're it doesn't mean that that's who I am yes it does no it doesn't if I put a clown suit on today and I put a suit on tomorrow it doesn't make me a clown for the rest of my life okay one moment Christan that's not a moral act okay it's ays we're talking here we're talking sensible here okay well give me a second because I do one thing today that doesn't Define who I am tomorrow I just explained that to you give me 5 Seconds to explain something important the United States extradited a Nazi war criminal
+
+[07:31] after 37 years time did not forgive his cries because of what he did and understand that time will not man judges you're taking a book and you're trying to become God and judge people and tell a person that if you do one particular thing that defines who you are it does not define you okay let me explain an act does not define a person you have to let me say something go ahead if a man commits murder on Monday he's a murderer on Tuesday he's a murderer next week he's a murderer next month if a man commits rape on a Monday he's at weightless on Tuesday Wednesday he's a rapist the rest of his
+
+[08:09] life of a man deals time does not wash away his crimes but the blood of Christ can he suffers playing with semantics here you're playing with semantics okay yeah okay if you the prisoners are locked up the the rapist is locked up the murderer is locked up I'm out here with you now ask answer my question if I put on a clown suit today and I put on a business suit tomorrow am I a clown tomorrow here's the answer that is not a moral act putting on a clown suit thank you for listening to me Christian thank you thanks for talking never answer my question what's that you never answer question I did
+
+[08:47] but you didn't like the answer you w off am I clown tomorrow of course you're not you're a clown today now you answer it now you answer it of course I'm not so that Li I told 10 years ago it doesn't make me a liar to you're justifying yourself because you're guilty it doesn't make me a liar today and a guilty man will leave quickly stay Christian can I give you a gift talk to someone else can I give you a gift I'm good Mercedes you gave me one it could be a Mercedes it's all right I'll walk you done want a gift I'm not going to lust after the Mercedes today today I'm walking sh my hand thank
+
+[09:31] you folks for listening today appreciate you being here and trust you'll give some thought to your own Eternal salvation there's nothing more important than will you spend eternity does anyone disagree with me no anyone Believe In Darwin's theory tale of evolution any evolutionist here hope your caller today thank you very much for being here God bless you [Applause]

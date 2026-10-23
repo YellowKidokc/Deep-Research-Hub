@@ -1,0 +1,54 @@
+# Vacuum Decay: The Quantum Glitch That Could Destroy The Universe | Answers With Joe
+
+**Channel:** [[Joe Scott]] (`JS`) · Chapter 662 of 763 · Length 9m 16s · [[00 - Channel Summary]]
+**Video ID:** `GzaCWpl6bWg`
+**URL:** https://www.youtube.com/watch?v=GzaCWpl6bWg
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-07 05:17
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:01|Part 1 · 00:01]]
+
+---
+
+## Part 1 · 00:01
+
+[00:01] monsters demons ghosts these are the things that keep most kids up at night but when I was a kid I was always more worried about the Sun exploding because a monster you can run away from a demon you can call a priest or pray to a guardian angel and ghosts well I ain't afraid of no ghosts but the Sun exploding you ain't surviving that and the thing about the Sun exploding is it's gonna happen we know this it's a real thing those other things maybe maybe not probably not but the Sun will explode we know this it is an existential threat to our species granted they say is not supposed to happen
+
+[00:39] for billions and billions of years but what if they're wrong or what if they know it could happen at any minute but they're not telling us because they know it would cause mass panic this is my eight-year-old self talking I got over that figure eventually but it is hard to imagine something scarier than an event that would literally wipe out our entire planet and everything on it until scientists imagined it [Music] crazy minion ass can you do a video on vacuum decay try to imagine that somewhere out there in the universe a tiny subatomic bubble forms and inside of this bubble all physics as
+
+[01:13] we know it cease to exist particles don't form into atoms anymore atoms don't form into molecules and the fundamental forces as we know it have no meaning anymore and then imagine that bubble expands outwards at the speed of light just obliterating everything it touches comets planets solar systems entire galaxies the Constituent particles just flung out like ashes in the wind until the entire universe ceases to exist this is a real thing that could happen in fact for all we know it's already happened out there in the universe and we would have no way of knowing it because it travels at the
+
+[01:46] speed of light the first thing that we would know about its existence would be our atoms just flying apart into all directions at the same time just complete and utter nothingness blackness existence coming to an end [Music] hello darkness my old friend this is vacuum decay and to understand how this would happen there's a few core concepts we need to wrap our heads around the first is a standard model of particle physics I did a whole video on the standard model a while back I'll point to you right here for all the details but the overall gist is that all our atoms are made up of fundamental
+
+[02:25] particles that fall into three different categories quarks bosons and leptons leptons are electrons and neutrinos and their various flavors quarks are the things that make up the nucleus of the atom the protons and the neutrons and the bosons are the force carrier particles that make the four fundamental forces possible but the final piece of the standard model that we know of so far anyway was the Higgs boson the Higgs was also called the god particle because it assigns mass to all the other particles each particle in the standard model has a specific mass and that mass dictates how they
+
+[02:54] interact with the other particles forming atoms and molecules and everything that we know of without the Higgs mechanism none of that would be possible all these particles would just fly around and not interact with each other at all that's how it got its name the god particle the Higgs was predicted to have a mass of 126 GeV and they found this at CERN by smashing protons together over and over again and over aggregate time they were able to find a spike in their charts at exactly that mass thus proving the existence of the Higgs but the Higgs boson is just a tiny chunk of the Higgs field
+
+[03:24] which brings us to the second concept that you need to understand which is quantum field theory so I've never really done a video on quantum field theory that's long overdue but basically quantum field theory states that all the particles that we know of the fundamental particles of the standard model are just excitations in various fields in other words reality as we know it is just made up of layers of fields at different energy levels you've got electron fields you got quark fields you got boson fields and most importantly for this discussion you have a Higgs field when the Higgs field was
+
+[03:54] predicted by the illustrious Peter Higgs it was predicted at a very specific energy level any higher or lower in physics as we know it would cease to exist but speaking of energy levels the third law of thermodynamics states that all things move to their lowest energy level also known as their ground state or true vacuum for example if a guy gets his head cut off at the top of a hill that head now has a very high potential energy and it will roll down the hill until it gets to the very bottom at which point it will be at its ground state this is true of human heads fundamental particles and
+
+[04:23] yes quantum fields so soon after the universe formed all of the quantum fields settled into a nice stable ground state all of them except the Higgs see 126 GeV is really small amount of energy for us in our world but in the quantum world it's actually pretty high and scientists began to wonder if this is really as low as it could go and with a little fancy math scientists at CERN in 2013 were able to determine that yes there is a potential theoretical lower energy state for the Higgs and they called it the ultra-dense Higgs field that means that the Higgs field that keeps the entire universe
+
+[04:57] together is not a stable true vacuum it is a metastable false vacuum which means that if at any place in the universe as tiny piece of the Higgs field decided to slip down into that ultra dense state entropy would take over and the entire Higgs field would collapse along with it obliterating the laws of physics as we know it and expanding out the speed of light forming this bubble of destruction that I was talking about earlier the bubble of doom but luckily the graphs show a Ledge right here that's preventing the Higgs field from slipping down in the ultra-dense State so we're safe wait a
+
+[05:31] second wasn't there a third concept that we need to understand what was that Oh Shh in my video on Moore's law I'll share that right here I talked about how we're kind of reaching the physical limit of smallness on computer chips because below a certain scale electrons have a tendency to just kind of jump the gap at the gate this is called quantum tunneling it's an interesting phenomenon probably deserves a video all its own but suffice to say quantum particles have a tendency to blink in and out of existence and cross barriers that normal physical classical physics does not allow quantum
+
+[06:03] particles give the finger to classical physics on daily basis so the idea is even though the Higgs seems to be in this nice little comfortable spot if even one Higgs boson tunneled through and slip down into the ultra dense Higgs field that would create this unholy portal that the rest of the Higgs field would follow need I repeat what would happen now this is all theoretical and it's been said that even if it could happen it would only happen once and ever like hundred trillion years but it only has to happen one but what if it did happen what would become of the universe I mean aside from
+
+[06:35] our pants ruining fear of total obliteration what would that look like there's a lot of questions there like what would the universe be like on the other side of this bubble without a Higgs field could anything exist at all what different kinds of matter arise how would this affect things like dark matter dark energy with space-time even be a thing and considering the expansion of space-time would this bubble eventually obliterate the entire universe are there parts of the universe moving far enough away from it at fast enough speeds that it would never reach it relativistically speaking
+
+[07:05] would that make our universe sort of crescent-shaped is this how you get a multiverse so many questions on the chart of existential threats the scale and unavoidability of vacuum decay is off the charts but its probability is low you're much more likely to be taken out by a gamma-ray burst or the Yellowstone supervolcano and even if you do avoid all the existential threats you'll probably die of cancer or heart disease or old age or maybe you'll get hit by a car tomorrow did you know 800 people die every year from getting tangled up in their bed sheets and they never found the Zodiac killer
+
+[07:37] happy Halloween ladies and gentlemen the world is a nightmare you know what makes it better wearing really cool shirts this is my favorite of the answers with Jo shirts that we have available at the store answers with Jo calm slash shirts there's many more there you can go check them out help support the channel and help support a really cool designer living in Prague named Michael I love the guy he's awesome stuff and a quick shout out and thanks to all the supporters on patreon that helped make this channel possible we have like 180 now I can't believe this it keeps growing it's awesome
+
+[08:08] thank you guys so much I exercise some new people that just joined really quickly I want to call them out we got JD Martin Bobby Moore jr.
+
+[08:41] Bob Baer Alan Krusemark Jack Jones putz McKenzie awesome F Rob Dorsey William who on Edward Holt Iago Azura Kim Kris modisett Chris Cook and Jonathan Francisco thank you guys so much for doing that if you would like to join them get access to special perks like my secret vlog I just released one of them publicly the other day so you can see what that's all about you can join at patreon.com slash answers with Joe and I say this every time you suffer with canker sores or mouth ulcers I have a product that I created myself called canker boy it is a daily pill a vitamin supplement that helps
+
+[08:49] prevent them from forming works for about 75% of people you can try it risk-free for two months at kink or boy calm alright like and share if you like it and if this is your first time here please check out some of my other videos and if you enjoy them I encourage you to subscribe because I just keep making these things and you can see them right when they first come out every Monday alright thanks again for watching you guys go out have a fun and safe Halloween and an eye-opening week and I will see you next Monday love you guys take care

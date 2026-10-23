@@ -1,0 +1,52 @@
+# 15 Weird Questions Tag | Answers With Joe
+
+**Channel:** [[Joe Scott]] (`JS`) · Chapter 10 of 763 · Length 9m 29s · [[00 - Channel Summary]]
+**Video ID:** `c_jlmDIF0PM`
+**URL:** https://www.youtube.com/watch?v=c_jlmDIF0PM
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-07 05:40
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] hey deep thinkers Joe here so I've been on the internets and the YouTube for quite a long time I'm coming up on the one- year anniversary of me posting every single week and here comes the AC I'll have to turn that off and we're back anyway I was saying I've been on YouTube for a very long time and you would think that I really understood how the whole thing works but apparently I don't not so much cuz somebody asked me recently why I've never done a tag video and I looked at him and I was like like you got something in your teeth cuz they had something in their teeth but but then I asked
+
+[00:34] what's a tag video and apparently it's a whole thing on YouTube where people read a list of questions and give their answers and I thought well hell that's kind of what I do every day I should probably be doing that so this one is called 15 weird questions I haven't looked at these before now by the way I'm I'm I've just pulled this up and I'm just kind of seeing what I wind up saying number one what's a nickname only your family calls you I don't know that my family has a nickname for me but when I was in high school I went by Skittles because somehow people got Skittles out of Scott I don't
+
+[01:10] know number two what's a weird habit of yours yeah seeds I actually did a whole video on um how to eat sunflower seeds and I've kind of moved on from sunflower seeds I eat pumpkin seeds a lot now but I'll switch back and forth between that and almonds I'm always munching on something yes it's an oral fixation laugh allum want but it's it's for real yo the other thing that I do is I chew my cuticles really bad and I just kind of like do this I just like pick at myself it's like a weird little nervous habit I don't know trying to stop but I've never been successful number three do you have any
+
+[01:43] weird phobias I think I've already answered all these questions cuz I did a whole video about uh getting over a wasp phobia or trying to so you can go check that out number four what's a song you secretly love to blast and belt out when you're alone ah the guilty pleasure question am my tast in music has always been kind of all over the map um growing up my parents listen to Abba on road trips so I kind of fell in love with that but I'm not embarrassed about that look man own it the one song I was playing this in my car the other day and I was rocking out to it and I was kind of like yeah I
+
+[02:15] would probably be embarrassed if everybody knew that I was listening to this and that would be uh Break Free by Ariana Grande shut up I love it number five what's one of your biggest pet peeves bad grammar the whole your your and your thing again I did a video about this too I it's not just about being a grammar Nazi it's really just these are very basic third grade things and it just drives me crazy when people can't seem to figure it out number six what's one of your nervous habits I don't know I don't think I have any I don't think I have any number seven what side of the bed do you sleep
+
+[02:52] on I sleep on the well I guess facing the bed is the left side of the bed so if I'm laying down it would be the right side I don't know stage left stage right bed left bed right but it's not like I really picked that side of the bed cuz I share a bed with my wife so it's kind of like she takes that other side and I just kind of wind up there it was a funny thing actually she she pointed out one time that she doesn't like sleeping on the side of the bed that faces the door she likes to have me between her and the door I guess in case some bad person comes in or something cuz you know I'm
+
+[03:26] really tough number eight what was your first stuffed animal and name for some reason the name Andy is coming to mind but Andy was the first dog that I had so I'm not sure and I'm picturing a a teddy bear it was a yellow teddy bear that I had chewed its ear all aart for whatever reason it had a big tear in its ear but it was it was a teddy bear and it was yellow and I seem to remember it had a name and I want to say it was Andy but that was the name of my dog growing up and I don't think I named my my teddy bear after my dog dog I don't know what's the drink you always order at Starbucks at
+
+[04:03] Starbucks it's always a hazelnut latte either a tall or a grande depending on how little sleep I got the night before but um my favorite place in the world to get coffee is cultivar coffee right down here on PV Road in East Dallas that has um it's right there with good to go taco and they don't have hazelnut syrup so I get vanilla lattes from them and their lattes are a thousand times better than Starbucks lattes there you go number 10 what's a beauty rule you preach but never actually practice all of them number 11 which way do you face in the shower do people only face One Direction in the
+
+[04:45] shower uh I turn my back when I'm washing my hair and I do this thing but the rest of the shower I this is a dumb question I face every direction in the shower number 12 do you have any weird body skills hm the only one I can think of is I can do kind of a weird thing with my tongue but I don't know how weird it is or how unusual but it's well it's this that's it number 13 what's your favorite comfort food that's bad but you love to eat it anyways I have to go with fried chicken it's a classic I mean anybody who doesn't like fried chicken is just a weirdo but it's obviously not something that
+
+[05:24] you can eat every day I mean I eat it maybe once a month or something like that now um I dig me some some chicken wings too guilty pleasure actually I'm going to no I'm going to I'm going to revise that one um cereal I never eat cereal I used to eat it all the time and now um I I I just I never eat it but then whenever we do get it like my my uh last birthday party I had a cereal theme party I had everybody bring in cereal uh treats like Rice Krispie treats and stuff like that and we we had just a ton of cereal laying around around and I was eating the hell out of that stuff afterwards and I
+
+[06:01] realized yeah I I really like cereal I just don't eat it very often number 14 what's a phrase or exclamation you always say do I have a tagline do I have a do I have a a catchphrase H so this is a terrible answer I don't I don't know that I have a singular catchphrase that I always say maybe I should come up with one um because I kind of hate repeating myself I hate saying things that I know I've said before like anytime I'm saying something to somebody that I had recently said to somebody else I had to say like I was just saying this the other day so and so blah blah blah like I can't just
+
+[06:39] say it as if it just came up for the first time knowing that I've already said it I just feel weird doing that and this was always a problem with me when I was doing standup too because at standup you get up and you do the same jokes over and over and over again and I hate that it was so difficult for me to get up in front of a room full of people and tell jokes that I felt like they probably already heard me say even though that's that's the nature of the thing that's how everybody does it just it bothered me so much so um I probably don't have a catchphrase that I say all the time just
+
+[07:09] because I have this weird innate need to not repeat myself number 15 time to sleep what are you actually wearing don't you want to know I uh I actually just wear underwear to bed because um anytime I wear any kind of shirt or pants um whenever I I guess I roll around a lot in bed but whenever I do do that I get all twisted up and it just drives me crazy I can't stand it so just underwear from me so that's the questions tag there was one comment that I wanted to reply to really quickly from the buyers Bros are you going to explain the ending to your black hole video or is it up to our
+
+[07:42] interpretation you know to be honest I wasn't planning to do an answer video um I thought I would just kind of put it out there and see how people responded and see what people had to say about it see what kind of conversations took place in the comments over it but I don't know I could revisit it again if anybody wants to if you want to let me know in the comments and we'll come back to it so it's it's officially getting hot in her so I'm going to go ahead and cut this short but um I've been doing a lot of periscoping lately I've been talking about it at the end of all these videos If you uh
+
+[08:11] are not following me go follow me um I'll put the thing up on the screen here but you can follow me there you can follow me on Twitter at Joe Scott Ridder and um I've been having a lot of fun with it and it's a really cool way to interact and get feedback from people um so I'll be doing some more of that and I would love to see you there and in fact I periscoped my last video the the five mind-blowing questions thing and a really cool thing happened Dan riddle an old college friend of mine who actually asked that question popped up on Periscope as I was doing the video and I was like dude I'm
+
+[08:40] doing your video it was really it was really cool and another person um Claudia who you've heard about she's awesome um was on there and as I'm doing the thing she suggested a joke and I used it so she got a joke on the video and you know you could too it' be glad that's it was a really fun thing to do and I'll probably be doing some more of that anyway as always thank you guys for watching watching um if you have not caught any of these videos before you can go check out the playlist you can um just go see what this whole thing's about I'd love to have you subscribe if you enjoyed it because
+
+[09:08] I come back every Monday with full-fledged videos and then every you know every once in a while I'll come in halfway through the week with stuff like this just to kind of keep everybody up and and uh interact with you so I'm going to pop some sunflower seeds in my mouth good out with my day you guys have a good week love you guys take care [Music]

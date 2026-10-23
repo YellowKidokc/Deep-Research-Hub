@@ -1,0 +1,43 @@
+# When People INSTANTLY Regret Their Sin
+
+**Channel:** [[Answers in Genesis]] (`AIG`) · Chapter 1824 of 1947 · Length 7m 47s · [[00 - Channel Summary]]
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] (https://www.youtube.com/watch?v=xzwSwakZlLs&t=0s) Clearly, Jesus loves me the most. Maybe minorities, sexual and gender minorities have something to teach the church about, dying, to self, about new life, about. Okay, whoa, what just happened with all of that? Let's get a bit more context on that first clip, so in that first clip we have a comedian named Heather McDonald. And she's essentially boasting about all the jabs that she has gotten and how that's benefited her to one degree or another. And then she boasts, Hey, I'm perfectly fine after all that Jesus must love me the most.
+
+[00:41] (https://www.youtube.com/watch?v=xzwSwakZlLs&t=41s) And then she immediately falls over, traveled, went to Mexico twice, did shows meet and greets, never got covered. Clearly, Jesus loves me the most seriously. So nice, so nice, wow. So in case you're wondering she did survive the event, she is okay. But the response and the feedback was pretty unforgettable. And there seemed to be an immediate response to her words. Maybe from God wouldn't be dogmatic about that, but it wasn't good. Jesus loves me the most. Okay, there's a video trend going around.
+
+[01:23] (https://www.youtube.com/watch?v=xzwSwakZlLs&t=83s) You might call instant regret, that's where someone does something bad and gets almost immediate negative feedback from their actions. And these videos highlight these seemingly instant connection from those bad deeds to those unfortunate consequences, and it's not confined just to flip it blasphemies. Maybe you've seen what happens when porch pirates try to come and steal boxes off the porch. Check it out, don't do it. Laughs Okay, she's not the only one. There's a porch pirate crime spree, if you will happening and where.
+
+[02:09] (https://www.youtube.com/watch?v=xzwSwakZlLs&t=129s) People are actually selling a lot of packages off people's porches for any number of reasons. So much so that it's actually generated a vigilante response by some in particular. You have Mark Rober, an engineering YouTuber. He's created an entire series of videos where he constructs these glitter bombs, all right that look like real Amazon packages. But they're actually full of glitter, really bad smells and cameras to record the thief after they do the deed. And it is pretty entertaining and exciting.
+
+[02:36] (https://www.youtube.com/watch?v=xzwSwakZlLs&t=156s) Check this out. This guy took a package from my porch and now he's about to open it in his car. But what he doesn't know is this is a custom built bait package that is recording him on four different cameras. And it's about to unleash a pound of the world's finest glitter, along with some other surprises. So it appears he was walking down the sidewalk and then suddenly makes a hard left. Then he takes the package and gets at his car and eventually makes it to this parking garage, where this glorious sequence unfolds.
+
+[02:58] (https://www.youtube.com/watch?v=xzwSwakZlLs&t=178s) No way, all right, so that's what happens when thieves still packages off porches. And it's pretty entertaining and actually kind of fun to watch in a lot of different ways. But what about other SANS connected to immediate responses? What about obviously false teachers? At times, they may receive what seems to be an instant rebuke for their actions. For example, take quote unquote. Pastor Brandon Robertson claims to be a Christian claims to be a pastor by user insurance.
+
+[03:35] (https://www.youtube.com/watch?v=xzwSwakZlLs&t=215s) Very loosely with him. He spouts a lot of heretical nonsense, utterly antibiblical ideas, especially about the LGBTQ ideology and sexuality, and so forth and so on. And in this next clip, he is trying to push again this ideology. Within a Christian context, it seems to get what would be almost an instant rebuke for what he's peddling. Check it out. Maybe minorities, sexual and gender minorities have something to teach the church about, dying to self, about new life, about it.
+
+[04:16] (https://www.youtube.com/watch?v=xzwSwakZlLs&t=256s) That is not a sign of God's judgment. Okay, are you sure about that? So I'd love to hear your comments on what you thought was the most cringeworthy video, or maybe you watched another video that you think is pretty awesome. Leave a comment below about that would love to hear your thoughts on that. But, biblically, how do we understand the immediate consequences of sinful action? There's always going to be a natural response according to God's created Order to Our Sin. We've got to keep that in mind.
+
+[04:43] (https://www.youtube.com/watch?v=xzwSwakZlLs&t=283s) Galatians 6 7 says. This do not be deceived. God is not mocked for whatever one sows that will he also reap? In one way or another, you will reap what you sow, and sometimes we see those consequences immediately. Anything a couple's apples biblically. Think about Adam and Eve in Genesis Chapter 3, when they rebelled against God and there was the immediate consequence of spiritual death, immediate separation from God happen right then.
+
+[05:13] Or think about Peter instantly regretting him, denying Jesus three times after the Rooster crows as Jesus told him it would. (https://www.youtube.com/watch?v=xzwSwakZlLs&t=313s) Or think about Mark Rober's glitter bombs. You see that meteor sponsor there, not a biblical one, but those sort of media responses. But that leads us back to our bigger point. We alluded to beforehand, and that is this God will judge sin, so Corinthians 5 10 says this We must all appear before the judgment seat of Christ so that everyone may receive what is due for what he has done in the body.
+
+[05:43] Whether good or evil, and outside of Christ, there is no hope other than judgment. (https://www.youtube.com/watch?v=xzwSwakZlLs&t=343s) But for those who are in Christ, we know that reward is coming and christ, our sin that has been paid. He paid it on the cross, he defeated death by rising from the grave. And now we have all things in Christ. His righteousness attributed to us and we are rewarded for what we do by his power, for his glory during this life. And really, these immediate consequences to sinful actions that we've been looking at here today should be just good.
+
+[06:12] Divine reminders that we don't get away with sin that God indeed sees everything, and, you know, you think those ring doorbells see a lot? (https://www.youtube.com/watch?v=xzwSwakZlLs&t=372s) No guys, God sees everything. He sees every thought, every word, every deed, every action, good or bad, and it'll bring everything into perfect, eternal judgment. I think the big takeaway is this. Have you been getting away with sin in your own mind? Maybe you didn't have the lights go out because you said something bad and you think you're getting away with something. But dear friend, you are not.
+
+[06:44] God again sees everything and judges everything he sees, every thought, the apostle. (https://www.youtube.com/watch?v=xzwSwakZlLs&t=404s) Paul once asked, Do you presume on the riches of his kindness and forbearance and patience? Not knowing that God's kindness is meant to lead you to repentance, which is a turning away from your sin and attorney to him, turning to God, guys, bottom line there will be judgment and sin is never benign. But we have all violated God's law, his role. There are eternal consequences for that.
+
+[07:16] That's the bad news, but that's why the good news is the best news that while we were still sinners, Christ died. (https://www.youtube.com/watch?v=xzwSwakZlLs&t=436s) For us. He is God who became flesh, he lived a perfect life, he died on the cross in our place. He paid the perfect infinite death for our sin that we can never pay. Then he rose from the grave, defeating death. If you'll repent, turn away from your sin, put your faith in him, you will be saved. But it's only through Christ. He has done what we can never do, put your faith in him.
+
+[07:45] So if you've been enjoying the content, it's been helpful to you. Hit that subscribe button, hit that like Button, click the bell for notifications. (https://www.youtube.com/watch?v=xzwSwakZlLs&t=465s) And again, the point of all this is to share the good news of Christ to remind us of our need for Christ. If you want to hear the gospel again, click the link right there. Share it with someone who needs to hear it as well until next time. Keep standing on God's word as we believe it, defend it and proclaim it, See you guys.

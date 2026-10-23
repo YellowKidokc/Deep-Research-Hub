@@ -1,0 +1,61 @@
+# Famous Atheist Confronted With Reason To Believe In GOD
+
+**Channel:** [[Daily Dose Of Wisdom]] (`DDOW`) · Chapter 314 of 916 · Length 11m 16s · [[00 - Channel Summary]]
+**Video ID:** `tywUyWGYAPo`
+**URL:** https://www.youtube.com/watch?v=tywUyWGYAPo
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 04:59
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:20|Part 2 · 10:20]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] we all do have brute facts I agree I guess that I would say that the single brute fact of God then solves the you don't have to make the universe a brute fact the soul a brute fact love a brute fact morality a brute fact reason a brute fact you you can kind of have one brute fact that's sort of Upstream from those other ones without having to independently land at those as your final place that's all I wanted to say yeah like there are less brute facts that you have to you have to swallow if you just swallow the existence of God because in a way God just is all of those brute facts that the
+
+[00:32] atheist has just bundled into one so the atheist sort of has the brute fact of reason the brute fact of The Good The Brute fact of the universe and whatever caused it and and the Christian kind of bundles them all together and just goes sort of you know squishes them into a singularity of sorts and says this is my brute fact which is God but depending on on how you conceive of God if God is just a sort of amalgamation of all of these brute facts then I don't know maybe you've maybe you've kind of got the same number of Brew facts they're just sort of all switch together you know I think
+
+[01:09] understanding God as a personal being is a really big deal because we well maybe we don't agree here but I I I would argue that we are uh personal beings both each of us and I think honestly that man mankind like humans like the question of what is a human is one of the biggest indicators toward whether or not there is a God because we're and you even said at the start you're like I don't want to just call us moist robots or whatever like you you acknowledge sort of the exceptionalism of us in relation to the rest of the create the rest of the sorry I'm smuggling in language creation the rest
+
+[01:43] of the things that are uh you know so I would just say it's like man you know I I have this profound experience of love I think you do as well in your life I have this this experience of like we said kind of cartisian uh just awareness of the self I'm thinking I I can't deny that because you know what what you were saying about that and and each of those things are just at the most intuitive basic level um before us and all that I'm saying is uh the god hypothesis if you will um it's not just I'm working upstream and and cramming them into this thing that I'm then calling God it's basically I
+
+[02:23] would argue more logical to say that uh mind begets mind than that matter begets mind or that love begs love than to say that matter big it's love like all these different areas morality love rationality I'm saying it actually is more logical to start with uh God and then to kind of go Downstream rather than like it's not a the only way I can see not having some kind of a patchwork quilt philosophy uh where there's like different pieces that are getting kind of placed together in amalgamation is is just accepting the single brute fact of God um if you kind of follow what I mean I totally
+
+[02:57] understand what you mean um by by by the way the way that you just contrasted mind begetting mind with matter begetting mind one important thing to qualify here is that of course if God is the creator of the material Universe then you have to posit that mind creates matter of course which might seem like easier to do because the mind is is the mind it can choose to do stuff but if you're talking about like the substances I mean the problem with materialism begetting Consciousness is that atoms don't seem to be the kind of thing that Consciousness is Consciousness is like a different substance
+
+[03:31] it's a different kind of thing like it doesn't matter how many atoms you put together you don't get a mind but there is the same problem in reverse that people often don't kind of clock or think about which is that you can take as much mind like disembodied mind as you want and put it together and you don't get matter so there must be some way even for the Christian that this matter mind divide can just be bridged and you might think well God just has the power to do that that that might be true but there still must be a mechanism by which it happens and there's not if if in principle it's
+
+[04:02] possible for there to be a bridge between M A causal bridge that is between mind and matter I don't think it's necessarily obvious which way that would have to go right so I I just think it's worth sort of pointing that out but as I say this especially aware of the channel that I'm on and the kind of viewership that it has I want to emphasize that I'm not saying this because I do believe that the mind is a mergent of material I just want people to be aware that there are so many options to uh to discover here and to talk about here and I hope it becomes clear that like I have my hunches like
+
+[04:36] I don't think Free Will exists I think I'm an ethical emotivist but broadly I'm agnostic and fascinated by the options that are available to us I mean it's it's it's so cool yeah which which is so cool and that's why I again appreciate you being willing to have even this type of conversation uh on the point that you just made would you also apply that to like a book and the author would you say because we know that an author's mind can generate a novel then there's a bridge that's established so it's equally as likely that a novel would create an author that's a great that's a that's a really
+
+[05:05] great question um I do think it's not and it functions I know you're asking a question but it's kind of an objection because obviously a book can't create an author but an author can create a book The problem is that that that analogy that example already presupposes the existence of this divide because the author is the Thinker like he has the idea or she has the idea and then they write it down like on paper or they type it up and so this problem of the idea to paper actually happens between the auth like between the author's mind and the hands that are typing the paper right so so like
+
+[05:38] well the brain or the mind the the mind um and then it's an open question as to whether that's the same thing as the brain or not but but the reason because but if if the mind is a material if there is an immaterial uh thing that's generating the material novel through we can break down the mechanisms as as much as we want but how is that a problem or maybe help me understand what you're saying there the the question would be like it's basically the same question repackaged which is that like you've got this immaterial mind of the author which somehow affects the material brain and the hands
+
+[06:10] and the keys and like produces this book right M and it is a complete mystery how it is that this immaterial mind has any effect on the material world it's called the interaction problem in the philosophy of mind which is like even if you just posit that is this immaterial mind like you can't ask like where is it because it's immaterial and and spatial location is a product of material extension but somehow like my mind is like in me or a part of me and separate from you and you've got a material body I've got a material body but somehow we've got this immaterial thing called a mind that's
+
+[06:50] like attached somehow and somehow when I raise my hand that's a product of an immaterial mind moving my material hand the way that that that that interaction happens is completely mysterious like why can't I use my immaterial mind to lift your hand right now like why not and you can't say well because my mind's over here because it's not Material the mind is not spatially located if it's spatially located then it's in the material world it's a part of the material world so if it's out of theal why can't I lift up your hand with my mind there is this complete mystery as to why that I'm
+
+[07:23] materially attached to my brain so for the materialist the big if you're a materialist your big question mark is how the hell does conscious first-person experience exist if you're a duelist or or an idealist not if you're an idealist if you're if you're a duelist if you believe in the mind as as IM material then your big problem is how the hell does that affect the body right and those are two problems that run up like up against each other and the reason why I remain agnostic about the the materiality of mind now do you think uh that I I I loved all that and I agree actually with so much of
+
+[07:55] what you're laying out there do you think though that uh how do I say this question um like our inability to establish what it what is that bridge exactly what is that mechanism uh our inability to establish that do you think that that outweighs the uh improbability of a novel creating a author in terms of if we're weighing these two things and on one hand we're saying man it it logically makes a ton of sense that the author creates the book but I don't really know how does it like how does it impose how does he or she impose the will into the brain into the hands onto the page and and voila
+
+[08:35] story which by the way story is a whole other we could talk about but uh so that's like on this hand and then on the other hand is uh we're saying the the book literally creates the author like matter creates mind and I just think that the weight of that is it's not uh although I I'm not saying you know shame shame on you for being agnostic but at least from where I'm sitting I I I can see that there's a mystery like I'm not denying that there's a mystery but it doesn't seem 5050 obviously nobody believes that minds are emergent of like typewriters or books right so it's it's not that that
+
+[09:08] books create minds and Minds create books exactly the problem specifically is about the kind of substance so can like like my material hands can affect the material keys and produce a book right and obviously that's not going to in practice happen vice versa but it's the same kind of substance it's material affecting material and the question is like if the reason it's not it's not just kind of kind of book create the author's mind it's like can any part of that author can any material part of that author create or like give emergence to the author's mind that's the question nobody thinks
+
+[09:47] that the book does it but but a lot of people think that the the author's material body their brain produces the mind and for for somebody listening to that they're going to go that doesn't make any sense how they are you getting a a mind out of a material body that is the question when when reversed is like how does the Mind affect the author because because the mind doesn't just produce the book it it's not like the Mind produces the book The Mind affects the material body of the author and it's the material body that produces the book right so material can affect material in the other
+
+## Part 2 · 10:20
+
+[10:20] direction but like to to bridge that Gap from like mind from from like material to mind is a problem in in both directions is what I'm trying to say yeah which I I agree with I think there's a mystery there um I I don't think it's equally weighted but you know maybe we can just put put a pin in that for now sure I do I do think that that that's a it's a great it's a really uh good analogy I love a good analogy it's probably all of the all of the CS Lewis that I'm sure you've listened to because he was the master of doing that kind of thing I I I don't think it works I don't think I've
+
+[10:53] explained that particularly well but perhaps it's something I can if if it causes enough interest I can try to a substack post or something about so I'm happy to put a pin in it for now okay sounds great so what is love well um what a question [Music]

@@ -1,0 +1,69 @@
+# What Changed with The Eye of the World Leatherbound
+
+**Channel:** [[Brandon Sanderson]] (`BS`) · Chapter 754 of 831 · Length 12m 56s · [[00 - Channel Summary]]
+**Video ID:** `GJmSr3IO4-M`
+**URL:** https://www.youtube.com/watch?v=GJmSr3IO4-M
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-04 21:04
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:16|Part 2 · 10:16]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] Hello, I'm Isaac Stewart VP of creative development here at Dragon Steel and I'm here with >> Hi, Shawn Boyles. I'm the art director here at Dragon Steel specifically over books. >> Uh today we're going to talk to you about the adjustments that the binder has made to the Eye of the World covers. Some of you received copies of the Eye of the World that had inconsistent debossing across the the top of them. Uh the debossing is when there is a a heavy metal die that comes down and just pushes the leather in without foil. And it creates a nice textured feel to it.
+
+[00:33] That inconsistency in the debossing is what the uh binder has been trying to fix. >> We're going to talk about the differences and what it came down to in the end was just three things that we needed to dial in and change a little bit and that was the heat, the pressure, and the foil type. And we'll talk about how each of those affected the differences that you'll see in these books. >> So let's uh grab the stamped cover. This right here is the sample that they sent us from the binder that we approved that has all of the changes that we needed.
+
+[01:05] Now we talked about their heat, pressure, and foil type were you know, they weren't dialed in to the point that this could be consistent. So they've spent the last several months dialing in heat, pressure, and uh foil type to give us something that they can get consistent across the board. >> Yep. And what you can see here on this one, this is the approved one that we did, is that the consistency of that pressure that got put on there and that stamp for the deboss enables us to see all these really fine details that we spent so much time and care putting in there.
+
+[01:35] And so now each of the books will have that just really dialed in. It's going to be gorgeous. >> So uh what was happening is if they don't have it hot enough uh the foil doesn't like it. If they don't have enough pressure, you don't get enough depth. And the heat, when it's heated up, you can do pressure like more pressure and get more deboss. So they're trying to balance all that out. Uh because of that, they did have to change the foil type for to something that can handle the the heat and pressure that was required for this. And we'll show you the difference there.
+
+[02:07] Um, anyway, we had to also make some changes to the die. Let's talk about it over here. Because there are slight variations between the two, we want to get into talking about what those are. But before we do that, I want to give a couple of caveats. Just a couple of things people might ask questions about. The interiors on these two are exactly the same. They come from the same print run. Um, we didn't make changes on it. Those had turned out beautifully. They're gorgeous. And some of the best work I've seen. >> Quality, the art, everything just turned out so well.
+
+[02:43] >> Uh, Bill, our print rep, found a printer that prints in a very high line screen. So, it's the interiors are some of the best we've ever made. Um, the differences are entirely with the covers. All right. So, let's let's look at these and show these next to each other. Some of you might be wondering if I keep my current copy of The Eye of the World, how is that going to look on the shelf next to The Great Hunt when I receive The Great Hunt? So, let's show you what that's going to look like. Just simulating it. We have the original run Eye of the World and we have the new adjusted cover.
+
+[03:19] Um, as you can see, the foil difference is there is a difference. One is slightly warmer than the other. So, it's from far away, especially, you can't tell the difference. Um, let's talk a little bit though about the differences on the spine other than the foil color. >> Something you may notice on the spines of The Eye of the World is that on that original print run, we had debossed to get the words, the name Robert Jordan and Eye of the World on there. Whereas now we're going to get that just in a foil hit. Um on the on the new one that we're doing.
+
+[03:57] Uh this was creating, you know, some real tough to align those things and this allowed us to dial in the details that we wanted really well. >> This came from the bindery as we went to the bindery and we said, "We know we created something intricate. What are What are the problems that you're running into?" And one of them was it's really hard to line up smaller uh things with a a deboss like this. >> Like a name. >> And uh like a name. And so it it could create some uh double hitting. Um some of them turned out pretty nice like this one.
+
+[04:28] Um but for this version they said, "Can we get rid of some of those things where we have to align a very thin deboss with a very thin piece of foil?" And you'll notice here these are actually debossed these lines on this one. So there's just a bit of texture when you touch it. And these lines don't have that. They are purely foiled. Now you're going to get a little bit of texture to that now and then depending on the pressure of that. You might be able to feel it indenting, but it's not going to be quite as prominent as on on this one.
+
+[05:00] >> We were pretty happy though when we got this new one in that the foil hit actually created almost a slight like you said like you will feel a bit of it in there. And so that's that's enabling us to to get some of that texture that we wanted um even though we we took that kind of out of the deboss. I think that's really nice. >> So but it it's looking really I feel like um either of these they're a little unique from you know, even a few feet away you don't you can't tell the difference unless you know what you're looking for. Uh so we're very happy.
+
+[05:32] >> this is this will look just right in line with all the other books that we're doing. >> look at take a look at the front cover. All right. So we have a little bit of you can see a little the light is causing um more of a difference than I can see with my eyes here. But um let's talk about the differences between these. So I'm going to point out a few of the differences here. We talked about it on the spine that this line right here is an actually a deboss on this on this one. On this one, it's just put right down onto the the deboss part of things.
+
+[06:06] Same with the >> the infinity symbol kind of circling the wheel. >> Yeah. So, that that is one difference that you'll notice. >> Changing the foil also enabled us to to see almost sometimes, you know, the scale texture in the snake kind of becomes pretty apparent on this one here, which is really nice. Yeah. I'm sure that we'll get photos of. Um so, doing that enabled us to clarify some of those things a bit better. >> wheel, yep. Um one thing you are not going to see on the new one is the the snake is raised up a little bit more on this one.
+
+[06:43] That was something that the bindery couldn't do while at the same time ensuring >> the consistent >> hit of of deboss. That was one of the big things that was causing the the pressure to be uneven was how much pressure was being applied right here to give that. But, what we >> What we found is that if we if we kind of took down the pressure there and got that consistency, all of this knot work up on the corners and along the edges really shines well.
+
+[07:19] And that was one of the things we were noticing between the two editions is that consistency allowed us to get the big view of the entire cover Mhm. Very clear. >> And and we and we do get more definition on the snake like you were saying earlier. So, what what we what we lose in kind of that that height, we gain in detail. These were the main things that we were seeing um as we looked through customer service tickets and worked with the bindery. Now, we're we're not addressing all of the customer service tickets in this video.
+
+[07:44] There were there were a few other things that were in line with normal stuff that you find in a typical run of books, and you should absolutely talk to customer service about that, and they'll be able to help you. But, we're just addressing these these major ones so that you can decide if you received an original copy of the book, if you want to follow the process to return it and get the um the new cover.
+
+[08:15] So, um I don't know about you guys, but the I have the world excitement was getting to me, too, cuz I These books have meant so much to me, and it's been so awesome to get to reimagine these, especially working with Shawn and Maria and Harriet and Brandon and Peter and everyone else um who has been involved in this. And so, I couldn't help myself. I was worried the books were going to sell out, and so on the day that this opened, I went and just bought one myself um with the preorder. So, I was right there with everybody else excited to receive my copy of the book.
+
+[08:40] And I in that first uh that first time that uh the books were being sent out, I got one in the mail. Um and uh and my neigh- my neighbor did, too. Same day, I think. Anyway, we both got copies in the mail, and it was a random copy that I received. And this was before we knew about any of the >> I had I had bought a copy for my dad that he brought over and was so excited to get, too. So, I was I was with you. >> So, we were we were excited about this, and I'm going to I'm going to show you a copy that's comparable to what I received in the mail uh and I will be keeping cuz I love it.
+
+[09:16] And I want to show you one that we feel has the the defects that came from the bindery that might be a a potential return. So, let's let's show you those differences. Let's uh let's look The fronts on these actually look pretty good. And I But, I do want to point out um on both of these. Like, this is the one that um is comparable to what I got and I will be keeping because I love it. This one over here has some of the defects that we've been talking about. It's more apparent on the back. >> Yeah.
+
+[09:50] >> So, as we turn them over, >> um it's it's more apparent on the back here than it was on the front, but you can see some of this nice detail that came in here. It's kind of apparent, you can kind of see some of the knot work, you can see some of this patterning in between the knots. And on this one >> And this one is slightly inconsistent in the depth and part of that is the leather thickness and and part of that is the pressure things that we've been talking about, but it's not at a point where I personally would return it because I it's still very tactile and and and I can see it.
+
+## Part 2 · 10:16
+
+[10:16] >> But over here you get to it and over in this area you can see this patterning really well. It kind of fades out over in this area. You can almost see the knot work here under the right light conditions, but I can't see that at all in there. I'm losing that detail and it just feels like leather there and I've lost some of that in this one where I keep it here. >> In in normal normal normal lighting conditions, I can only see on this side, I can only see the foil. And that's that's where where I would start considering if I should turn it in.
+
+[10:53] If you can't see If If you can't see the debossing under normal lighting conditions, that's where I would start thinking about returning um the book. Like, I can't see it here, though we can see it on on there. But like here, you just can't really see what's where it's going and especially on this side. And that's that's probably where you're going to see it more is like on the corners of things. So, if uh if I received a copy that was like this, I would consider returning it. If I received a copy that was like this, I would definitely keep it.
+
+[11:28] All that said, if you're not happy with the copy you received, contact customer service, go through the procedures that we have outlined through through the newsletters and emails and and things that we'll be sending out. But if you like your book, keep it. Your dad's keeping his. >> He loves it. He shows it off all the time. >> And I'm keeping mine. We won't be surprised if these become collector's items. >> As we wrap up, we just wanted to let you know that we were so excited when this book came out. It came in it was beautiful. I cried when I opened up the books that we got.
+
+[11:55] It looked so good. What was the problem was is that we were getting a larger number of inconsistencies than we were happy with. There are books out there that are gorgeous and that you're going to love and just adore like we do. Keep those. The adjustments that we're making were to address just the number of inconsistencies that were coming in. That is it. >> We we know that it's been several months have passed while we've been figuring this out and working with the bindery. And we appreciate your patience. We also appreciate your trust.
+
+[12:29] I feel like we've gotten this right and the bindery has gotten this right. And we're hard at work on The Great Hunt and beyond. >> Even beyond. We are working on them. >> And uh we want to make sure that you're taken care of. We all appreciate your patience. So, thank you. More information will be forthcoming on the usual channels here on Brandon's channel here, the newsletter, and wherever else that you get your Dragon Steel news. So, keep an eye on that and we will keep you up to date.

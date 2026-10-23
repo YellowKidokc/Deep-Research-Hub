@@ -1,0 +1,39 @@
+# The Truth About Banking & Banking Reform Part 1 2
+
+**Channel:** [[Simon Dixon - Videos]] (`SD`) · Chapter 395 of 556 · Length 8m 11s · [[00 - Channel Summary]]
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] so why did economists not predict the financial crisis because they believe that looking at the way money is created is not important what do you mean they believe that it is not important that Banks create money what do you mean Banks create money money is created when we borrow from the bank how is that possible well they have a license to create money called a banking license but I thought it was illegal for any company to create money not for banks why not because economists believe that it is okay is it okay for me to create money no you will go to prison so why is it okay for banks to
+
+[00:37] create money it is called fractional Reserve banking what is that it gives Banks the ability to create money but why would Banks be allowed to create money because economists think it is okay why would they think that it is okay because universities told them it is okay so why does the government not create money because if they were in charge of creating money they would create lots of money to meet the demands of the public to win votes and this will cause inflation what is inflation that is when prices keep going up so why would politicians cause inflation if they were in charge of
+
+[01:16] creating money because politicians can only get votes from the public if they promise to spend lots of money so the government cannot be trusted to create money that is correct so they allow Banks to create money instead that is correct can Banks be trusted to create money no that is why we get a financial crisis why because they create more money by issuing more loans and the more loans they make the more money they make this means they will always want to create more money how do they do that through a process called fractional Reserve banking just look it up in Google so if almost all
+
+[01:56] money is created as loans how do we repay the interest on the loans we cannot what do you mean the interest to repay all loans does not exist so how do we repay the loans easy we borrow more so for our system to stay alive we have to borrow more that is correct so banks have to issue more loans in order to keep the system alive that is correct but they told us the banks are evil if they did not issue more debt we would have been in a depression a long time ago by issuing more debt they are keeping the broken system alive this is holding off the depression for a bit longer whether they know it
+
+[02:34] or not but what about all the talk on the news about Reckless bankers and bonus scandals it is easy to get people angry at the banks this diverts attention away from the problems in our system it is easier to explain everybody wants to blame somebody Bankers are the most obvious choice to blame because they were creating the debt and have gained the most from the system however most do not realize that we have to create debt to keep the system alive and they have kept the system alive a little bit longer so how do we borrow more to keep the system alive that is easy we take out more credit
+
+[03:14] cards we take on more mortgages our children take on more student loans and companies borrow more so we have not overspent like everybody is telling us we are simply keeping the system alive oh the debt kept the system alive and prevented the depression no spending on debt no money this is how the system works but what happens when we have to repay those loans we borrow more because our system has more debt than money the money to repay does not exist so we must borrow more does this not mean we have to borrow more forever just to pay the interest that is correct so if we don't take on more
+
+[03:55] debt what happens then we don't have the money to pay the debt so then what we declare bankruptcy but when we go bankrupt does that not mean money disappears from our system that is correct so how do we survive when money is disappearing we do not we go into a depression what if we don't want to go into a depression simple the government borrows the money for us instead why would the government borrow the money because the majority of people are too broke to take on any more debt and the majority of businesses are too busy trying to repay their old debt they cannot take on any more debt
+
+[04:33] somebody has to borrow more or the system collapses so the government steps in and borrows the money remember if there is no debt there is no money and government debt increases forever despite the fact that they think they are trying to pay it off what happens when the government borrows more Banks lend more money and things eventually go back to normal but we are still in debt that is correct and businesses are in debt that is correct and the government is in debt that is correct what happens when the government tries to repay the debt they increase taxes and borrow more they pay some of
+
+[05:12] the interest with the new additional tax income they pay most of the interest with more debt it is called a Ponzi scheme but how can the taxpayer pay the extra tax when we were too broke to repay our debt in the first place we cannot so what happens next the government borrows more for us instead what happens to the government debt it increases forever what happens when the government can no longer pay the interest on the debt then the government can borrow it from the Central Bank how through quantitative easing so the government borrows it from the central bank that is correct where do they
+
+[05:51] get it from simple they create it how do they create it they just create it in a computer then what the government needs to repay it plus the interest but the money to repay while the debt back plus the interest does not exist that is correct so the next step is to increase taxes forever but then we go deeper into debt correct that is why the econom is call economic growth so what happens if the government Cuts back and stops spending then the economy goes into a depression we get angry at the politicians we blame whoever the current political party is we then vote to change political
+
+[06:32] leadership the politicians then get angry at the bankers the bankers take a bonus and resign we then blame The Regulators for letting it happen The Regulators then debate about how to patch up the broken system and keep it alive a little bit longer but the problem still continues we then blame capitalism and call it a failure but we never look at the money system itself we just continue to blame and get angry and whoever the newspapers tell us we should get angry at this week so the only way to keep our economy going is for the government to borrow more forever that is correct so why do the
+
+[07:08] politicians say they are committed to paying off the debt they cannot pay it off so if they start paying off the debt and spending less we will move into a depression that is correct on the other hand if they continue to borrow we do not get the depression but eventually the system will go bankrupt and collapse collapse but politicians can probably delay it until the next political leader so to increase debt forever is the better short-term solution is that why they bailed out the banks that is correct the bank bailouts were to increase debt and Stu money from disappearing this delayed the
+
+[07:47] depression why doesn't the Central Bank just give the money to the government debt free because economists think that it is okay for banks to create money as a debt why because this this is what they were told at University there is another way to pay the interest we can get some money from the third world in part two I will tell you more

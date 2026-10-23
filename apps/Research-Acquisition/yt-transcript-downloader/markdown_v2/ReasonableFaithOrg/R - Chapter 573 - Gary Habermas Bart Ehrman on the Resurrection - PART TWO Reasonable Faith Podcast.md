@@ -1,0 +1,69 @@
+# Gary Habermas & Bart Ehrman on the Resurrection  - PART TWO | Reasonable Faith Podcast
+
+**Channel:** [[ReasonableFaithOrg]] (`R`) · Chapter 573 of 1167 · Length 16m 20s · [[00 - Channel Summary]]
+**Video ID:** `x1A0DLBAp6Y`
+**URL:** https://www.youtube.com/watch?v=x1A0DLBAp6Y
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 04:05
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:09|Part 1 · 00:09]]
+- [[#Part 2 · 10:31|Part 2 · 10:31]]
+
+---
+
+## Part 1 · 00:09
+
+[00:09] dr craig gary habermas appeared on bertuzzi's podcast with five lines of evidence for the resurrection a few more clips to look at let's go to the next one and these creeds are starting to pour out and before paul even takes his walk to damascus a plus two or plus three paul knows all these creeds and he is ticked because it's heresy but he meets the risen jesus that's step four the blasphemer paul tells you what's upset him is that they were calling a crucified man the messiah for paul that was ridiculous you're saying that god chose a crucified criminal and so that's what got paul upset
+
+[00:52] paul never says anything about the earliest christians calling jesus god that that's what he was upset about and so just read the passage well now here again habermas is quite right that the uh early christian confessions of the deity of christ precede paul's own conversion on the damascus road uh in a.d 36.
+
+[01:37] but i think that herman is is quite mistaken to think that the reason that paul the pharisee the jewish persecutor of the early christian church was all upset just because they identified this crucified criminal as the messiah that isn't going that's not a heresy that may be a stupid mistake but to identify jesus as a messiah isn't something that is going to inspire religious persecution rather it was as habermas says because they put jesus in the place of god the father himself they regarded jesus as equal in divinity to god the father and that is truly blasphemous in jewish years and
+
+[02:09] therefore would promote a campaign of persecution but bart's explanation that they were upset because they called a crucified criminal the messiah that would never um prompt a systematic program of of persecution such as was exhibit against the early church all right the next clip and the fifth one bart ehrman says this may be the biggest argument in the early church for proving who jesus is paul goes to jerusalem do you remember galatians chapter one which critics accept galatians is a book you can preach paul goes to jerusalem and he meets with with peter and james for 15 days and and bart
+
+[02:53] ehrman asked the question where do we get closer to the eyewitnesses than right here in that meeting you know historians of course want to get access to the best evidence they can eyewitness testimonies not infallible at all eyewitness testimony is problematic but if you have a number of eyewitnesses talking about something and they basically agree without collaborating well that's pretty good evidence and so that's the kind of thing you want when it comes to the historical jesus how do we know that there was a historical jesus well uh we don't have any author who knew jesus who's written for
+
+[03:28] us but paul knew jesus brother and so if you're talking about did jesus exist well you would think his brother would know so that's what i mean and seafood or peter is was jesus closest disciple and paul personally knew both of these and so this is my attack on people who are mythicists who have claimed that jesus never even existed and this is one reason for thinking so is because paul knew people who knew jesus i mean so it's as close as we get to an eyewitness saying here irman grants that in ad 36 paul did visit the original uh apostles in jerusalem where he spoke with jesus brother and
+
+[04:10] peter both who claimed to have seen jesus risen from the dead and so in the same way that irman rejects uh the mythicist claim that jesus never existed i think we should also think that we are in touch here with two people who were eyewitnesses to resurrection appearances of christ okay they continue that thought in this next clip paul could not have gone there even the critics say this paul could not have gone there for 15 days and not discuss the gospel with the other two eyewitnesses i mean people infer that oh they must have talked about what happened on easter morning i don't know what
+
+[04:49] they talked about what paul says they talked about is whether it was legitimate to spread the gospel to the gentiles without making them become jews he says nothing about them talking about what happened on the day of the resurrection so you can infer that but it's nothing i would ever say so paul himself talks about paul became a christian on the road to damascus in about 1833 spent three years in damascus as a christian involved in christian proclamation and then he goes back to jerusalem and for the first time he actually meets the chief disciple of jesus peter and jesus own younger
+
+[05:29] brother james and i think that it is fanciful to think that they did not talk about whether or not peter and james had seen jesus risen from the dead just as paul claimed to have seen him on the road to damascus so although bart says he doesn't know what they talked about i think it's a pretty good bet uh that they didn't just talk about the relation between jews and gentiles which comes up 14 years later on paul's visit to jerusalem but here i think they would want to talk about these fundamental um beliefs that they had both come to share yeah you would think let's go to the next clip and
+
+[06:12] that's step five that's five you put them all together here's what you get again earliest preaching that was just hearsay for the time being but it got started right at the beginning number two james comes to the lord by resurrection appearance number three the creeds begin and they are bombastic jesus was existed before he was born he received uh eat my every knee will bow every time a tongue will confess he was worshiped he sat on the right hand of god he shared the nature of god philippians 2 6 hebrews 1 3.
+
+[06:49] he shared the nature of god these things were bombastic paul hated him and that's why he was imprisoning them number three in in response to the creeds paul takes off to jerusalem sorry damascus and he meets the risen jesus that's four and five three years later he confirms this message with peter and james the eyewitnesses i agree with points number one and two there was early preaching and i think james probably did convert before 36.
+
+[07:20] he certainly did so that's that part's right the other three don't hold water historically formalized creates there's no evidence of formalized creeps before 36 what would be the evidence the creeds we have are in greek there's something to suggest that romans 1 3 and 4 was maybe an original aramaic composition but it doesn't have a high christology it's the whole point it has an adoptionist christology the earliest creedal material in acts all has adoption as christologies which means that christ wasn't god he was made into a divine being and you get that in romans 1 3 and 4 which is
+
+[07:44] probably the oldest of these creeds and so you know there is zero evidence for creeds before 36.
+
+[08:25] one of the others was a early preaching that was blasphemous to paul that is right there was but it's nothing to do with jesus being god i forget what the fifth thing was that paul met with peter and james to confirm the resurrection no it didn't say anything about that so he's just me look it's just making stuff up now i've already responded to the claim that these early christian creeds did not exhibit a high christology and did not develop explosively and remarkably early but let's look specifically at this text in philippians 2 that gary appeals to i think this text completely rules out
+
+[08:37] urban's claim that the early christians had an adoptionist christology that is to say that they thought that jesus was just a human figure who god then exalted to quasi divine status this is what it says in philippians of of christ though he was in the form of god he did not count equality with god a thing to be grasped but emptied himself taking the form of a servant being born in the likeness of men this refers to the pre-existence of christ and his incarnation prior to his incarnation he existed in the form of god he was equal to god but he emptied himself and took on the form of a servant
+
+[09:32] being born in human likeness then paul goes on to say and being found in human form he humbled himself and became obedient unto death even death on a cross that refers then to the crucifixion of jesus and his humiliation he goes on to say therefore god has highly exalted him and bestowed on him the name which is above every name that at the name of jesus every knee should bow in heaven and on earth and under the earth and every tongue confess that jesus christ is lord curios to the glory of god the father here paul describes how from this state of humiliation and death god has exalted him to
+
+## Part 2 · 10:31
+
+[10:31] this position of authority his right hand through his resurrection from the dead so this is the farthest thing from adoptionist christology uh the exaltation of jesus is not from humanity to deity which is impossible and blasphemous jesus was already in the form of god equal to god prior to his incarnation rather it was exaltation from this state of humiliation even unto death that god had glorified him then in heaven uh and and made him lord of all bill let's go to the last clip i'm not going to grant those things if i were to grant those things i would say why does that show resurrection
+
+[11:18] really happen what it shows is that people really believed the resurrection happened how do you get from people believing it to it actually happening even if people were calling jesus god in the sense that gary means in say the year 35 why would that mean that the resurrection literally had to happen it means they believed it happened and i do think they believed it happened there's no bearing on whether it happened or not i know people who believe i literally know people who believe that the earth is hollow but it doesn't mean that the earth is hollow i know people believe that muhammad
+
+[11:55] ascended to heaven like suppose they believed it within three years of his death does that mean it really happened is that how we do history i think the resurrection is a belief and i have no qualms of people believing in the resurrection because it's a religious belief but don't don't tell me it's history you do not establish miracles on historical grounds and so if you pretend you do you don't understand what history is and the reason you won't get a job in the history department in the university is not because they're biased against believers there are plenty of believers who teach in
+
+[12:23] history departments and universities but they don't claim that miracles can be established historically now there are two claims here that need to be addressed the first claim is they believed that it happened but that has no bearing on whether it did happen well of course it has bearing on it you have to weigh the eyewitness testimony to determine whether what they believed is reliable a great example of this is that herman himself believes on the basis of the testimony that jesus existed he says how could his brother be wrong that there was a historical jesus so this illustrates that what a
+
+[13:03] person believes does have a bearing on what it really what really happened and the whole question then would be is this testimony reliable and what we need to ask ourselves is how in the world did these monotheistic jews come to believe such a thing and here habermas has addressed this question at length in his published work where he shows that all other naturalistic attempts to explain how these men and women came to share this remarkable belief fail uh the standards of historical credibility now ehrman insists that you can't establish miracles historically and here i wouldn't refer our
+
+[13:50] listeners to my debate with bart ehrman on the resurrection of jesus that took place many years ago at holy cross and there was very evident that what irman is talking about is a warmed over rehash of david hume's arguments against the identification of a miracle what ehrman says is a miracle by definition is the most improbable thing that could happen and to establish it historically you would have to show that the most improbable thing is the most probable thing which is contradictory well as i explained in our debate as best i could to to bart this argument is completely fallacious because
+
+[14:40] he doesn't understand that there are two different probabilities that we're talking about here the first is called the prior probability of the event prior to considering any evidence for the event what is the probability of one's hypothesis and that could be quite low the second probability then is the posterior probability of that hypothesis given the specific evidence and that probability might be extremely high given the evidence that hypothesis might indeed be the most probable thing that happened even though prior to looking at the evidence that hypothesis seemed pretty improbable so
+
+[15:26] irman's argument here is absolutely hopeless it's just very clear he doesn't understand the probability calculus or the historical argument for jesus resurrection and so if our listeners are interested in exploring that issue further take a look at my debate with barterman on the resurrection of jesus and bill don't be surprised if a cartoon version of yourself shows up somewhere on youtube shortly probably you

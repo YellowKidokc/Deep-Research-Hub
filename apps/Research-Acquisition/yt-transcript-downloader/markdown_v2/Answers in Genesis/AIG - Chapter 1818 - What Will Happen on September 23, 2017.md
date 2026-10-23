@@ -1,0 +1,47 @@
+# What Will Happen on September 23, 2017?
+
+**Channel:** [[Answers in Genesis]] (`AIG`) · Chapter 1818 of 1947 · Length 7m 46s · [[00 - Channel Summary]]
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:02|Part 1 · 00:02]]
+
+---
+
+## Part 1 · 00:02
+
+[00:02] (https://www.youtube.com/watch?v=DtMxiwCUBVY&t=2s) Hi, I'm Jeremy here with Dr.. Danny Faulkner, he's our astronomer here at Answers in Genesis. And we are in the Observatory right now with all these telescopes, and we have a question that many people have been searching for on Google. And they are finding our article on the subject, which you wrote What will happen on September 23rd, 2017? So, Dr.. (https://www.youtube.com/watch?v=DtMxiwCUBVY&t=25s) Faulkner, if you could take it away from here and answer that question for us, I'd be grateful.
+
+[00:25] Hi, well, the short answer to the question is probably nothing really important will happen that day. That doesn't stop you from getting very excited. This has been traveling around on the Internet with our numerous articles and YouTube videos and such about it. And it's a people's interpretation of Revelation 12 verses 1 and 2, and I'll very briefly paraphrase what it says. It said. John wrote that there was a sign in the sky and it was a woman clothed the sun with the moon under feet with a crown of 12 stars on her head and she was about to give birth.
+
+[00:51] (https://www.youtube.com/watch?v=DtMxiwCUBVY&t=51s) And so many people are thinking that this will literally be fulfilled on September 23rd here in 2017. Now what they mean by that is they have this constellation Virgo, which is a woman. And on that date, the Sun will be in the upper part of that constellation. So in a way, she's kind of clothed with light. And the moon will be down near her feet, at least the part of the constellation representing her feet and the planet.
+
+[01:23] (https://www.youtube.com/watch?v=DtMxiwCUBVY&t=83s) Jupiter will be located near the midsection of her near where a woman's womb would be, and that would represent the child and then above her head. There's this the constellation Leo, and it has nine stars, and then there are three naked eye planets look like bright stars Mercury, Venus and Mars, and you add those three with a nine, you get 12, that's the Crown. It all comes together to be some great apocalyptic sign now what does that sign mean?
+
+[01:51] (https://www.youtube.com/watch?v=DtMxiwCUBVY&t=111s) Well, most of them don't tell you exactly what it is. Someone will say, Well, I think that's return to the Lord on that date or the next day or then within 10 days or so. All those just kind of leave you hanging with the obvious implication that that is their intent. Let's take a look at this deconstructed and see what actually is going on here. Is there a Virgo a constellation in the sky? Yes, there is, and it does lie along the ecliptic.
+
+[02:17] It's one of those dial constellations, and so each year the moon traverses through those constellations, since there are twelve of them. (https://www.youtube.com/watch?v=DtMxiwCUBVY&t=137s) The Sun sends about one month in each one of those. So every year September, early October, the sun is indeed in the constellation Virgo. But again, for about a month every year now, the moon it takes about a month fact that's the definition of a month. It takes 27 or third days to orbit the Earth with respect to the stars.
+
+[02:45] So that means it lines up with the same location roughly every 27 or third days, or roughly a month. (https://www.youtube.com/watch?v=DtMxiwCUBVY&t=165s) So once a month, the planet, assuming the moon will be near the what we call, would be the face of the near the feet of Virgo. So on the 23rd of September this year, the sun will be in Virgo and the moon will be a lower part of Virgo representing the feet. So far, so far, so good now, as far as the as Jupiter representing the child, I think that's a bit of a rorschach test. Where do they get the idea? This has to be a child, I don't know.
+
+[03:18] That's just something people made up and kept repeating it, though it's not even argue with that. (https://www.youtube.com/watch?v=DtMxiwCUBVY&t=198s) It's that's pretty thin, I think, but I'll just let that one go. Now. Jupiter takes 11 point 8 years to orbit around the stars. With respect to the Earth, that's the orbital period of the sun. And also it goes back and forth. We call retrograde motion in between each year, but it takes about one year to go through one constellation.
+
+[03:49] So the planet Jupiter is indeed in the constellation Virgo this year, as it was 12 years ago, in 2005 and 12 years before that in 1993, and so forth in the past. (https://www.youtube.com/watch?v=DtMxiwCUBVY&t=229s) In fact, I point out to people I first saw Jupiter, the planet, Jupiter in the constellation Virgo actually fortyeight years ago, in 1969. So that year was kind of fulfilled as well. If you waited until September, when that when the moon was also there. Now what about the nine stars in Leo? This is where they really lose me on this one.
+
+[04:22] This gets repeated so many times that there are nine stars in the Constellation LeO that most people just assume that that's true. (https://www.youtube.com/watch?v=DtMxiwCUBVY&t=262s) In fact, I've had people argue with me about this, folks, I'm the professional astronomer, I have a P.H.D. In astronomy. I taught astronomy in physics for over a quarter century at a university, but long before that I was an amateur astronomer. I've been a student of the Skies for nearly a half century. Pretty Serious and telescope.
+
+[04:48] Their monthly star chart used to put nine stars together to make up Leo, but a number of years ago they changed, now they have 13. I have a planisphere I bought nearly half century ago and show this planet shows the all the constellations in Northern Hemisphere, including a Leo. (https://www.youtube.com/watch?v=DtMxiwCUBVY&t=288s) And it shows ten stars the way I like to see it done. Here. At the Creation Museum, our planetarium at the Digit Star 5 system, we have 10 stars being displayed. So what is it 9, 10, 13 or some other number out there? Well, there is no hard and fast rule.
+
+[05:16] The man, named Claudius Ptolemy in the second century A.D. Codified the constellations horse, wrote them down, and he cataloged far more than nine. (https://www.youtube.com/watch?v=DtMxiwCUBVY&t=316s) Ten or even thirteen stars. They're actually scores of stars in Leo and how you draw them together. Which ones you think are important as a matter of personal opinion? Now log everybody. Excited is there's one particular planetarium software desktop planetarium software should say, called stellarium. And if you ask it to instruct it.
+
+[05:46] To put the lines connecting the stars together in constellations low and behold on Leo. It shows nine stars, but it also shows many other stars. (https://www.youtube.com/watch?v=DtMxiwCUBVY&t=346s) So this idea that there are nine stars and only nine stars in LEO, or nine principal stars is not a matter of fact. It's a matter of opinion, and stellarium simply happen to do that. And so I reject the concept that it is nine stars there. And if you add the three, that would get you 12. But if you have started with 13, that would get to 16. If you had 10 to give you 13.
+
+[06:17] So you've got a real problem here trying to make that fit to everything. And contrary to a lot of the claims out there, this thing only happens. (https://www.youtube.com/watch?v=DtMxiwCUBVY&t=377s) You know, once every seven thousand years or something, it actually happens more often than that. Having those three planets there in LeO, that's not all that common. I'll have to admit that, but it's not unprecedented. And furthermore, Leo is not that close to Virgo. It's actually some distance away and quite a quite a stretch. I think to argue that that is the crown on her head, so I'm very.
+
+[06:48] I'm not very pessimistic about this meaning much of anything. My knowledge of astronomy tells me otherwise, and I'm also a student of history. (https://www.youtube.com/watch?v=DtMxiwCUBVY&t=408s) I've been for the past 45 years going through a regular cycle of people declaring the end of the world, I recently calculated, counted up. I've been through at least nine into the world in my adult lifetime. This will be number 10 this time around. So folks, let's just calm down a little bit, let's don't get upset, let's just sit back and think about this very carefully and pray about it.
+
+[07:18] And more importantly, let's wait until September 24th to maybe have a conversation about it. If I'm wrong, I'll be happy to admit I'm wrong. (https://www.youtube.com/watch?v=DtMxiwCUBVY&t=438s) But all these other people out there, if they're wrong, will they be happy to admit that they are wrong, or will they just sort of forget about all of this? You know, some of these conversations, we forget the most important thing, you know, the Lord himself, Lord Jesus himself, Matthew talked about the fact the end of the world and the signs of The Times.
+
+[07:44] And he said, Don't stand around, didn't say, stand around looking for these signs. So you can figure out what day it will happen, he says, because nobody will know the day. (https://www.youtube.com/watch?v=DtMxiwCUBVY&t=464s) Nobody know the hour, nobody'll know the time he. The important point is that we need to be ready, So the big question is whether it's September 23rd or not, are you ready?

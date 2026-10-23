@@ -1,0 +1,59 @@
+# Find Out How He Almost Died Just Before This Interview
+
+**Channel:** [[Living Waters]] (`LW`) · Chapter 618 of 2497 · Length 10m 42s · [[00 - Channel Summary]]
+**Video ID:** `y9rBKFh3E3g`
+**URL:** https://www.youtube.com/watch?v=y9rBKFh3E3g
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 03:58
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:05|Part 2 · 10:05]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] i'm still scared i'm telling you i'm i'm still lit shaking i've been near before but this is the closest one if you strongly believe in something then it's true for you okay if i strongly believe there's a pink elephant hundred feet in the sky is that a reality or is it just my imagination i'm diluted did you nearly drown today yes i recover the leave of the wave you got caught by the lip of the wave i got held down for a minute at the bottom of the of the ocean that's a long time to be held down many years ago when i was surfing same thing happened to me and all you see is bubbles yeah and i
+
+[00:36] decided i would head for the surface as quickly as i could because my lungs were bursting and i swam for the surface and heard thump and in my disorientation i hit the bottom instead of the surface so i had to turn around and go back up again and my lungs were exploding and you know what i said when i hit the surface i don't know i said scarlett do you think there's life after death i think that's up to individuals so i kind of believe in a concept of manifestation where like in a way where it's like if you strongly believe in something then it's true for you so if you strongly believe there
+
+[01:09] is no life after death and i mean that's gonna be your fate okay if i strongly believe there's a pink elephant hundred feet in the sky is that a reality or is it just my imagination and my i'm deluded well that's where it gets difficult because i know it's not difficult it's not there yeah that's what i'm saying like it's not there but i feel like as stuff as like religious or like spiritual beliefs that's like there's really no answer to it so i guess it's just like whatever you strongly believe in i could have drowned and you could have drowned today so where would you have gone if you
+
+[01:40] would have died today would you have gone to heaven or hell i hope to heaven are you a good person yes i do believe so so we're going to make sure you're going to heaven death is no mystery if you open the bible and see what it says god promises you'll give everlasting life to all those who repent and trust in christ and you'll never trust in the savior if you think you're a good person so i'm going to try and change your mind about being a good person i'm going to be your prosecutor i'm going to put you on the stand and i want you to be honest and if you're honest it'll bring you to a place
+
+[02:08] of knowing that you've got everlasting life so can you be honest with me yes do you ever read the bible um occasionally well the old testament god promised to destroy death the new testament tells us how he did it did you know that no i didn't yeah there's no book like it because prophecy shows that god's hand is on his fingerprints all over the scriptures because of prophecy only god knows the future and there's hundreds of prophecies of the future that can be substantiated about the messiah and the signs of the last days do you believe that yes okay so scarlett the bible says there is an
+
+[02:40] afterlife and you can trust it are you going to do okay on judgment day i'm pretty sure yeah okay i'm going to give you the 10 commandments to show you how you're gonna do can you be honest with me uh sure yeah this is your dad yes so you're gonna be honest how many lies have you told in your life they're just white lies what color are they well yeah was a lie so you have light yeah i've lied so what do you call someone who tells lies a liar so what are you a liar you still think you're a good person yes you have a stolen something um no have you ever used god's name in vain probably yes do
+
+[03:16] you love your mum i do would you ever use her name as a cuss word no no no no but you have taken the name of the god that gave your mother his holy name and used it as a cuss word alberto that's a very serious sin in god's eyes it's called blasphemy punishable by death in the old testament this is a cross examination and it's not comfortable but it's feel good jesus said if you look at a woman and lust for her you commit adultery whether in your heart have you ever looked at a woman with lust no when's your last look at pornography cannot remember right now just recently probably yeah that's
+
+[03:51] looking with lust and it's committing adultery in your heart have you had sex before marriage yes alberta i'm not judging you've told me you're a liar a blasphemer a fornicator and an adulterer at heart and you're guilty of the sin of self-righteousness of saying you're a good person when you're not you're like the rest of us you've got a multitude of sins so if you're died today and you found yourself standing before god in judgment would you have been innocent or guilty probably guilty heaven or hell now it sounds more a little bit more like hell does that concern you yes do you know what
+
+[04:25] death is according to the bible not necessarily it's wages there's a famous bible verse the wages of sinner's death in other words god is paying you and death for your sins it's like a judge looks at a murderer and says we're going to pay you on the death sentence this is your wages this is what you've earned and scarlet sin is so serious to a holy god it's not to us but it's so serious to him he's given you the death sin and so your death will be evidence that god is deadly serious about sin scarlet you don't realize this but i really care about you and the thought of you ending up in hell
+
+[04:58] horrifies me now do you know what god did for guilty sinners so he wouldn't have to go to hell purgatory no he died for us yeah most people know that but they don't understand this so this will change everything for you if you can get a grip of it the ten commandments are called the moral law you and i broke the law jesus paid the fine that's why he said it is finished just before he died you're saying the debt has been paid if you're in court and you've got speeding fines someone else can pay them for you and the judge can let you go and do that which is legal he says you're guilty but
+
+[05:30] someone's paid these fines you're out of here he let you go because someone paid the fine and god can let you live forever he can take the death sentence off you because jesus paid the fine in his life's blood for god so loved the world that he gave his only begotten son that whoever believes in him should not perish but have everlasting life that's the promise of god if you trust in jesus because he died for our sins rose again on the third day and the bible says god commands all men everywhere to repent because he has appointed a day in which you'll judge the world and righteousness the
+
+[06:01] scripture also says repent and be baptized every one of you in the name of jesus christ for the remission of sins and you will receive the gift of the holy spirit that gift is everlasting life you repent put your faith in jesus and you've got god's promise that he will forgive every sin you've ever committed all those secret ones and he'll grant you everlasting life as a free gift that's the gospel now do you think i'm telling the truth yes well i wouldn't lie to you about something like this this is so important it is very serious yeah so if you died today you'd end up in hell two things you
+
+[06:31] must do to be saved according to the bible you must repent and trust in jesus when are you going to do that hopefully tonight tonight you may not have tonight you might die on the way home is this making sense yes you're going to think about what we talked about today yes i will going to think seriously about it yes i will what about you dad are you going to think about it too oh definitely do you have a bible at home yes we do yeah do you ever read it i read it before yeah do you read it daily no not daily no it's god's love letter to you oh yeah and you've got to remember that god gave us
+
+[07:03] the blueness of the sky he gave us eyesight hearing taste buds family friends fellowship he gave us all the blessings of life so we should love him with heart mind soul and strength and that means putting his will first and the bible is his will and it says the scripture says the bible is a lamp to our feet and a light to our path and so you need to read god's word daily does that make sense yes it is scarlet yes you want to get out here real quick so yeah make you feel uncomfortable what we talked about oh no it's i'm fine okay so you're really going to think about this yeah i will okay can
+
+[07:33] i give you a gospel of john i'll show you guys please do you know what a gospel of john is um it's just like a little like text of it no it's the fourth book of the new testament and it was written you might know you have everlasting life and dad can i give you a book that i wrote sure would you like one also uh sure yes please let me grab okay that's one for you right right now i'm still a little scared well i would say today right now repent and trust in christ it's like this if you're on the edge of a plane ten thousand feet up you're gonna jump without a parachute and i say to you when
+
+[08:10] are you gonna put a parachute on you say soon i'm a bit scared i'm thinking man just put it on so just yeah just put your trust in christ can i pray for you yes father i pray for alberto that this day he'll understand how sinful sin is in your eyes that all of us have sinned and violated your law and we're under your wrath but you're rich in mercy and you provided a savior in jesus may you understand the cross what you did for him how you expressed your love for him and may he find a place of genuine sorrow for his sins true repentance and faith in jesus and this day pass from death to life
+
+[08:42] all because of your mercy in jesus name we pray amen amen can i give you a gospel of john yes for sure open that up can i give you a book i wrote you're still a bit shaken by what happened to you today that you nearly died yes yeah that's been good for you because it's caused you to open your heart to the gospel and you've got to look back on this day and you'll say well i thank god for that experience because it woke me up those new that experience helped you appreciate life and i think they made you think you back on what your priorities should be i'm still scared i'm telling you i'm i'm
+
+[09:25] still shaking a little bit because i've been near before but this is the closest one and there was not even any lifesavers oh no life savers there was no one so everybody is on this side of the pier no one was paying attention on that one so we can thank god that you didn't drown and perhaps god preserved you for this very moment thank you appreciate that make sure you check out the living waters podcast and this is the evidence study bible it's everything i've learned and more than 50 years of reaching out to the lost it's packed with information on apologetics cults evolution atheism and
+
+## Part 2 · 10:05
+
+[10:05] much more over 1900 pages including 200 of the most commonly asked questions of the christian faith and make sure you check out the starter kit it contains four of our most popular tracks including 50 10 commandment coins available at livingwaters.com i love catholics and i love it when they listen to and appreciate the gospel you've got to see it the biggest problem catholics have you can watch it right now by clicking to your left

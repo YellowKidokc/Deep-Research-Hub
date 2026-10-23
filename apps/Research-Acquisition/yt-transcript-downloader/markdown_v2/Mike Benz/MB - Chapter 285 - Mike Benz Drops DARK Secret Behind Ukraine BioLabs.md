@@ -1,0 +1,47 @@
+# Mike Benz Drops DARK Secret Behind Ukraine BioLabs
+
+**Channel:** [[Mike Benz]] (`MB`) · Chapter 285 of 690 · Length 9m 04s · [[00 - Channel Summary]]
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] (https://www.youtube.com/watch?v=G--dn6Sumcw&t=0s) In that answer, I just want to pin it down. What is the What are the Biolabs in Ukraine? Why were they all over Hunter Biden's emails Why were there so many Obama level State Department people involved in that? What h? What has happened to these pathogens do you? What do you think that will be discovered in Ukraine? Maybe we don't know well, Tucker says. Our Intel agencies don't know right now. What do you suspect? It's a great question, There's a there's a charitable interpretation, there's a.
+
+[00:30] (https://www.youtube.com/watch?v=G--dn6Sumcw&t=30s) There's a really dark possibility. And then there are layers of gray in between, and we don't yet know where it all lands. The fact is is if you're going to get involved with a company like Metabiota or the OR BioLabs in A. In A. In a foreign country that create freakazoid pandemic viruses, you're going to need the sign off of the National Security State and the U.S.
+
+[01:05] Intelligence community, you're going to need that to be vetted by CIA by NSA by FBI, counter intelligence by the by the White House National Security Council inter agency process. (https://www.youtube.com/watch?v=G--dn6Sumcw&t=65s) So I mean, this is how you see Aal Hannes at Event 2011. This is how you see the U.S. Military effectively in charge of the vaccine programs. When we when DARPA funds the creation of these viruses, this is what happened, many believe with COVID19.
+
+[01:41] There was a major DARPA program in 2018 that funded the creation of these cleavage sites these fign cleavage sites with the SARS K2 virus. (https://www.youtube.com/watch?v=G--dn6Sumcw&t=101s) That then was incubated in these in the Rocky Mountain lab. That Tony Fouchy was running in 2018 made its way to the UNC Eco Health folks. USAID obviously F funded $15 million to the to the Wuhan lab, that same Rocky Mountain Laboratory in Montana. That the that the DARPA Grant went to create what many believe is is effectively the recipe for COVID.19.
+
+[02:19] That that played a very significant role in the Biological Warfare program in the 1950s against Cuba. You can read Chris New's book, Bitten about the creation of Tickborne. (https://www.youtube.com/watch?v=G--dn6Sumcw&t=139s) Viruses by the U.S. Military to be used in the North Korean war in 1950 and to be used against the A agricultural crop workers in Cuba to create basically a sublethal virus. That would not result in tens of millions dead, but would rather incapacitate the agricultural workers so that they would not be able to mine their own crops.
+
+[02:53] They'd not be able to refine sugar or to support themselves on the island of Cuba and in tandem with sanctions, would effectively force Cuba to be reinstated into the U.S. (https://www.youtube.com/watch?v=G--dn6Sumcw&t=173s) Empire. Because they'd effectively starve to death because of these tickborne viruses that would effectively incapacitate their ability to support themselves. So they need to exp they need to import from the U.S. And with the U.S. Refusing imports, this would effectively complete the strategy there.
+
+[03:26] And that book meticulously documents the use of the Rocky Mountain Labs for collecting picks and fleas and other insects, creating gain of function. (https://www.youtube.com/watch?v=G--dn6Sumcw&t=206s) Res Arch. Many believe this. These are the origins of Lyme disease, which you know is its own topic. But the fact is is, you know, the benign, the benign case for it is.
+
+[04:00] These Ukrainian biolabs exist for the same reason that USAID funds the Wuhan lab and funds labs in Canada and in other countries to do gain of function research where they create freak mutant super viruses, they jump them from animal to human. So that we can advance the state of biomedical research to create vaccines. (https://www.youtube.com/watch?v=G--dn6Sumcw&t=240s) In case something like this ever develops. Naturally in the wild, through a wet market, or in case a foreign country develops, bioweapons will already have the vaccine for it.
+
+[04:37] This is the sort of like the nuclear weapon defense you. Why did we do so much nuclear weapons testing, even after we bombed Hiroshima Nagasaki that we needed bigger and bigger, you know, hydrogen bombs and atom bombs and neutron bombs because Russia was developing nuclear bombs, and so we needed even bigger nuclear bombs than they needed. (https://www.youtube.com/watch?v=G--dn6Sumcw&t=277s) Of course, that set off the nuclear arms race and effectively defined several decades of U.S. History.
+
+[05:09] But that ended when there was the, you know, sort of nuclear treaties that that everyone agreed to put down. But the fact is is basically every country is signatory to these bioweapons. Treat as well. And what it looks like here is in the name of So the charitable case is, we're we're CRE, we're doing this in Ukraine and China and Canada because we can't do it here in the U.S. (https://www.youtube.com/watch?v=G--dn6Sumcw&t=309s) It would be too dangerous or we have. We have laws and regulations and contravention of doing that. Of course, Ukraine is a lawless zone.
+
+[05:39] We just saw the struggle for control over the legal system and the prosecutors in Ukraine in that John Kery clip. So the charitable case is, we're we're doing it so that we can make vaccines there. Of course, you see Fiser and the in the biocurity world all over the Ukraine map. But there's a potentially darker story here. (https://www.youtube.com/watch?v=G--dn6Sumcw&t=339s) Which is that if you ever needed to destabilize Russia and you're right on its border with Ukraine, you could see a pandemic popping off in East. You know, in the western part of Russia, where?
+
+[06:16] And it would be very easy to do. You simply carry pathogens over the border, and you could do the same thing. Potentially there, that that the military intended to do in Cuba in the late 1950s, the same thing that was done in North Korea. And, you know, there's a strange habit of these outbreaks breaking out in conflict zones. (https://www.youtube.com/watch?v=G--dn6Sumcw&t=376s) The Pentagon talked about this in the 1990s, when everyone can read Thomas Barnett's Pentagon's new map, it's a book, and in a video series presentation, you can still find on YouTube.
+
+[06:50] Where he justified the post 911 military expansion of the American Empire by saying We need to fold the core. The rim into the core. The rim are all the countries that NATO has not yet conquered because from the rim, three things are coming out of it. And, he said, Drugs, terrorism and pandemics. (https://www.youtube.com/watch?v=G--dn6Sumcw&t=410s) So because of these mystery, pandemics keep coming out of the countries. We have not yet attained political vassage control over we can use that as a predicate to get military boots on the ground.
+
+[07:19] And when you have these massive medical facilities, you need security to guard them. So boom, just like that, you've got a military presence to protect all the hospital workers and the clinics and the public health ecosystem. Well, now you've got your special forces in there now you have your, you know, your in internal foreign defense funds that are going to that. (https://www.youtube.com/watch?v=G--dn6Sumcw&t=439s) You basically are already halfway pregnant in terms of military presence there.
+
+[07:50] We did this in Africa, for example, with AIDS by alleging that Africa was, you know, suffering this massive AIDS epidemic. We managed to get a giant military presence in Africa. You see the same thing that happened in with M.S. And with SARS and with Zika. Basically this the military in medicine follow very closely. Donald RumSFeld I should note who was the head of the Pentagon for Bush? (https://www.youtube.com/watch?v=G--dn6Sumcw&t=470s) What was he doing right before that?
+
+[08:24] He got plucked out of Gilead Sciences, the far the major pharmaceutical company who had come to play one of the leading roles in Covid. With the With Gil Gilead funding, you know, the production of CovId vaccines. Well, you know, what was Donald Rumsfeld doing as the chairman and CEO of Gilead Sciences? And then going immediately to become the Secretary of War for the Bush Administration during 911. If you folks remember, it was the anthrax scare that actually got Congress to authorize the military invasion in Afghanistan right after 911, where did that anthrax come from?
+
+[09:02] (https://www.youtube.com/watch?v=G--dn6Sumcw&t=504s) Well, it came from the Highlevel military facility in at Fort Me in Maryland. It was actually a U.S. Biolab that that those very anthrax vials came from that was used as the justification. What I'm saying is, is these things we don't yet know the answer sometimes. A gain of function freak M Mutant virus creation on the eastern edge of Ukraine to create a vaccine is just a freak. (https://www.youtube.com/watch?v=G--dn6Sumcw&t=542s) Mucuso mutant super, you know, biological super weapon to create a vaccine. Maybe, as Freud said, you know, a cigar is just a cigar. But I have a lot of questions. And I think only Pam Bondi and this executive branch can really get the answer.

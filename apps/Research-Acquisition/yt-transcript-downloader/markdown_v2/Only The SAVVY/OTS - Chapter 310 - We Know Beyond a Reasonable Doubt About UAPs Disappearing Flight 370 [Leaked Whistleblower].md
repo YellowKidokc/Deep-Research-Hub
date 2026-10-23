@@ -1,0 +1,61 @@
+# "We Know Beyond a Reasonable Doubt About UAPs Disappearing Flight 370"  [Leaked Whistleblower]
+
+**Channel:** [[Only The SAVVY]] (`OTS`) · Chapter 310 of 514 · Length 11m 28s · [[00 - Channel Summary]]
+**Video ID:** `NoDT5fCTj2U`
+**URL:** https://www.youtube.com/watch?v=NoDT5fCTj2U
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-01 22:11
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:05|Part 2 · 10:05]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] recently Ashton Forbes has come forward with alleged leaked footage that shows uaps surrounding a plane the military leak contends that the footage is from military satellites and the plane is said to be none other than the Malaysia Airlines flight 370 that mysteriously disappeared in 2014 the three orbs rapidly approached the plane out of nowhere flying around it and then disappearing it into thin air sound too crazy to be true well it is becoming more and more evident that not only is this possible but like on the far satellites here these are your geostationary satellites these are going
+
+[00:34] to be your satellites that don't move that are 40,000 km away and here you can see these Millennia orbit satellites these are these oblong ones as well this is actually what we think the relay satellite they've logged into is nr22 is a command satellite most likely and due to having it this orbit they sit around certain areas of the planet where they have very good angles on the other satellites to be able to communicate this data back and forth the Third Kind of satellite is going to be a low earth orbit satellite these ones that are not really pictured on here but they're going to be very
+
+[01:03] close to the Earth here they circle around the Earth every 90 minutes and when they're scanning they're building a computer program using all this data this also indicates you might have realtime video 3D playback right like this person didn't need to record this in real time they just log in later on and be like okay pull up this location as long as you have a satellite there that's like the one of these low earth orbit ones you're going to have extremely good data mapping of what's going on the person is trying to show us what happened to MH 370 without giving away other information that
+
+[01:32] might be other assets that might be available the Tweet reads we've proven the MH370 videos are real beyond all reasonable doubt they're classified military footage of a drone in wide area surveillance that uses integrated data from multiple sources relayed through satellites to ground-based computers wami is connected to the Navy and the leaker of the videos is Lieutenant Commander Edward C Linn of the Navy these are the best UFO videos of all time by a wide margin they prove that the United States has technology Beyond The public's wildest dreams all debunks were proven wrong the
+
+[02:07] intelligence agencies did their best to make the videos go away and failed miserably I can prove in a court of law that all debunk attempts were fabricated there are multiple fraud UFO Community researchers that know the videos are real anyone familiar with wami would know the videos are authentic instantly this tells us the community has been co-opted by Deep State disinfo agents pushing alien narratives we have gravity manipulation teleportation and even free energy at our fingertips a will 100% be able to confirm the footage and if they refuse I will expose them too we are in a unique
+
+[02:45] position where we can watch how the Liars react and determine their motivations if you thought this information wasn't crazy enough the plane was supposedly worm hold out of existence this was done using the three orbs to make the plane enter a state of warp drive what is warp drive you might ask well it starts back in the 1990s it wasn't until 1990s that physicist Miguel aluar proposed a real world method of achieving faster than light travel this concept was based on the works of Kip Thon and his research on wormholes and time travel however while wormholes remain completely theoretical the
+
+[03:22] aluar W Drive is based on established laws of physics so how does it work work the key to warp drive is in fact in its name according to Einstein's theory of relativity SpaceTime can be wared by gravity and that is the reason why planets and stars are attracted to each other the alabar War Drive takes this idea a step further by suggesting that instead of propelling the spaceship at the speed of light we can W the space around the spaceship thus connecting two distant points in space and covering the distance at normal speed the alub wob drive would work by creating a bubble of SpaceTime
+
+[04:03] around the spacecraft this bubble would contract the space in front of the spacecraft and expand the space behind it thus allowing the spacecraft to ride a wave of SpaceTime it's like surfing but on a cosmic scale allowing it to travel at a speed faster than light without actually breaking the cosmic limit see the spaceship isn't moving at the speed of light but the space around it is why did we do this to this plane and when you look at the passengers on board there's something that sticks out majorly there are 20 free scale semiconductor Engineers on this plane 202 I looked and found a 2005
+
+[04:41] National Security Agency report that's on it was called superconducting commercial assessment essentially and you read through it and it talks about freescale semiconductors multiple times on their microchips super conductivity is a very important con concept for people to understand because it's a macroscopic Quantum effect when we deal with Quantum effects these are like magic basically that we can't describe on the smallest scales then when we talk about macroscopic it means that like we can actually see these types of effects superconductivity in a circuit means that the electrons are
+
+[05:16] flowing freely with no resistance whatsoever when normally like your phone when you use it it starts to heat up the reason why it's heating up is the electrons are bouncing into atoms and that causes heat generation that is lost due to entropy Therefore your your phone runs out of battery and stops working but in super conductive situations you doesn't heat up at all so presumably your battery life would be much longer and this is why we've had this lk99 situation like a year ago where people are saying like we can make a room temperature superconductor and we can see these Quantum effects at
+
+[05:50] the macroscopic scale the flight took off from quala lumur Bound for Beijing but within 40 minutes Advan vanished from radar over the South China Sea initial reports suggested a crash but Days Later officials claimed the plane had turned back flown over Malaysia and disappeared into the South Indian Ocean Forbes began his investigation by questioning how a modern aircraft equipped with Advanced tracking systems could simply go dark one satellite inexplicably stopped pinging the plane before takeoff while crucial information about the plane's trajectory was either missing or suspiciously
+
+[06:27] sparse these anomalies suggested that the data may have been manipulated eyewitness testimonies provided another layer of complexity the flight was carrying 500 lb of lithium ion batteries a fact the airline initially concealed Forbes draws parallels to other incidents where lithium ion batteries caused catastrophic fires on aircraft rendering planes uncontrollable in this case He suggests the fire may have incapacitated the plane's communication systems and forced the crew to attempt an emergency descent evidence of an emergency maneuver characteristic of efforts to save passengers rather
+
+[07:06] than harm them supports this Theory however this explanation contradicts the official narrative that pinned The Disappearance on pilot suicide a theory Forbes dismisses as implausible due to the lack of supporting evidence and the Pilot's clean psychological history further complicating the story is the discovery of debris such as a flaperon on Reunion Island near Africa Forbes scrutinized the drift analysis and found that ocean currents would have directed debris toward Western Australia not Africa the timeline of the debris appearance also fails to align with the official crash location
+
+[07:42] Barnacle growth on the flaperon indicated it had been in the water for only a few months despite being discovered over a year after the plane's disappearance adding a layer of intrigue two videos surfaced showing what appeared to be orbs circling a plane before it vanished these videos recorded from a satellite and a predator drone showed a phenomenon that Forbes believes could represent Advanced classified technology he theorizes that these orbs potentially autonomous plasma devices may have been involved in The Disappearance in fact there's videos out there where people in Korea and China
+
+[08:18] were were proving it to people in the west where they have a literal Rock which is this metamaterial of lk99 that they produced and it doesn't it's not one exact composition uh but they've basically at the atomic level created this meta material that is floating freely over a magnet and not just floating freely but it's flux pined it's called the mzar effect and you can like hit it and it just kind of like Wiggles but stays stuck in position there and when you look at that it just it seems like anti-gravity it seems like magic nobody can debunk it at all like if you they even take a loop ring
+
+[08:55] and they Loop it over the top of it and so you can see there's no nothing it's not hanging by a wire or anything like that the evidence Forbes believes points to a broader coverup The Selective release of satellite data the dismissal of eyewitness testimonies and the inconsistencies surrounding the debris all suggest that the true story of MH370 has been buried we've got these people that are highly Advanced semiconductors we've got this NSA security report saying United States government needs to invest in this and then by 2010 or 2012 we could have superc conductive microchips in fact these
+
+[09:29] superc conductive microchips are most likely used in advanced Ai and some of these other super computers quantum computers that we have out there as well um and we've got this trade war going on as well so you can start to see a scenario where what if these people had developed some advanced technology and now they're going to China and China's got some leverage over them because they're Chinese Nationals and what if this technology really allows the type of stuff that we with these orbs to be possible I mean if that technology is real and let's say we have it we would not want anybody else
+
+## Part 2 · 10:05
+
+[10:05] to have it certainly not China or Russia so to me this is the major motive for what you why you're disappearing this plane like those people have to be the the reason and in this case these were all according to the news very important people directly from free scale themselves said these are very important people the story was they were going to China to upgrade the plants there you said free scale yeah free scale semi semiconductors now this is going to be important because eight of these people were Chinese Nationals 12 of them Malaysian Nationals they work for the American company
+
+[10:36] freescale semiconductors freescale semiconductors had just produced a microchip that was like smaller than the dimple in a golf ball people do not realize how powerful semiconductors are when it comes to Advanced Technology it's not really a matter of scaling it up it's really a matter of scaling it down and getting it smaller and smaller and smaller now we've got a second video from a predator drone from a completely different angle than the first one I found that the only thing you have to throw out is a satellite pings after the nicobar islands and you've got a comprehensive story that's
+
+[11:10] got 20 Witnesses completely different event that people had actually speculated on like PhD experts had speculated on Etc that is also potentially consistent with the videos and consistent with where that debris showed up [Music]

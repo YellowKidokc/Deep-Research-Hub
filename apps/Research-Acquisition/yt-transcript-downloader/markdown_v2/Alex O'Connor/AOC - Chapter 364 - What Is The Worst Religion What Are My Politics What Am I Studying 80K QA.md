@@ -1,0 +1,54 @@
+# What Is The Worst Religion? What Are My Politics? What Am I Studying? | 80K Q&A
+
+**Channel:** [[Alex O'Connor]] (`AOC`) · Chapter 364 of 419 · Length 9m 30s · [[00 - Channel Summary]]
+**Video ID:** `l-HdtuuHoik`
+**URL:** https://www.youtube.com/watch?v=l-HdtuuHoik
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-07 03:27
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:05|Part 1 · 00:05]]
+
+---
+
+## Part 1 · 00:05
+
+[00:05] [Music] 880,000 subscribers I think uh I think some kind of thanks is in order but it's gone midnight and I've been sitting here waiting for this to happen for a little while now so I'm going to go to sleep um I'll think of something in the morning well it's now not the morning it's the evening a few days after that was shot but do excuse me I've been rather busy you but regardless I haven't even been making these videos for a year yet uh but still 880,000 subscribers later and here we are doing another Q&A as seems to be becoming customary for Milestones on this channel um so I'm not going
+
+[00:44] to waste any time sort of expressing my unfailing gratitude for your viewership you already know how thankful I am um but I promised a Q&A so here it is let's just jump right into it other than science and Atheism so to say what other interests do you have well I have to say that running a YouTube channel and being a student doesn't really leave you with much extra time for hobbies um however other than researching science and making these YouTube videos my other main hobby is probably music um I have a second Channel which I'll link in the description where you can go and see some of the
+
+[01:15] music that I write and that I play um but other than that uh sleeping is consciousness a product of the brain or is the brain the receiver of Consciousness I would personally almost certainly wager on the prior I believe that anything to do with psychology or The Human Experience as a whole can be explained through darwinian natural selection um it's a topic which I'm sure I could delve into a little more deeply so if that's something that you would like to see do be sure to let me know in the comments down below nothing to do with atheism but do you know any other language apart from English
+
+[01:46] if you could learn a new language would you if yes which one and why well as it happens yes I do other than English I also speak American English Street and Canadian English but if I was to learn a new language um I'd certainly learn German I I don't know why I've just always found it to be quite an attractive language what is one topic you wish you knew more about I am always striving to learn more about anything and everything that I can but I'd say that specifically I'd love to know more about history I didn't do it at school um and it's one of the big gaps in my knowledge that I could
+
+[02:15] really do with filling in in your opinion is it useful for atheists to read the Bible absolutely for a whole number of reasons uh firstly and I'm not trying to be factious here but as a Believer if you read your Holy Scripture from cover to cover it can be a great way to make sure that you fully understand all of the tenants of your belief make sure that you actually agree with it all um but also of course if you're somebody like me who likes to have discussions about these sorts of topics um then having an understanding of the opposition is one of the best ways to win any debate thirdly I
+
+[02:46] think it's worth noting that all religious scripture and for me the Bible particularly um is filled with much poetry in many stories which are inspiring and beautiful you don't have to believe in what you're reading to be inspiring by it or to enjoy the narratives and the great thing about being a non-believer reading Holy scripture is that you can just take the good bits from holy books and adopt them into your philosophy and ignore the bad oh wait they do that anyway don't they have you ever visited America no I haven't but I plan to and would absolutely love to where do you see yourself in
+
+[03:16] 10 years time probably in America out of curiosity if you had to choose a religion which one would it be well if you absolutely forced me to adopt a religion then I suppose it would have to be Christian ity because at least that way I could become a pastor and become a multi-millionaire what kind of tea do you like alond flavored all day do you believe in any type of spirituality at all EG Karma no I don't however I do believe in a practical Karma you do good things to people and you'll probably get good deeds in return but that's not a spiritual thing that's just common human decency hi
+
+[03:49] hello there what is your opinion regarding the Arts and its relationship with religion well I think it would of course be foolish to attempt to deny the impact that religion has had upon art and literature and music over the centuries however as Richard Dawkins has mentioned we don't know what Michelangelo's ceiling would have looked like had he been commissioned to paint the Natural History Museum not to mention the fact that we have a wealth of artists and musicians and writers spanning the centuries um who were atheists uh it seems that inspiration can be taken from anywhere and religion
+
+[04:22] happens to be one of those sources which argument do you think is the most underrated argument against God well there is one that that has always stood out for me in my mind that I haven't seen articulated in many places which is assuming that your opponent believes in evolution here at what point did God begin caring okay we know that God cares more about humans than he does about other animals and favors them over other animals um but if he didn't care so much about the Apes which constituted our ancestors then at what point along the evolutionary uh tree towards homos sapiens did he decide
+
+[04:57] okay this is now my favorite species um again I think this is an example of how evolution is a bit of a kick in the teeth to theology if not entirely dismissive and that is an important thing I think I should just briefly mention um many people are under the impression that believing in evolution is mutually exclusive to believing in God you can do both at once um there are troubles with believing in both at the same time but they can be overcome with sufficient theological arguments um however to believe in evolution you don't have to absolutely believe there is no God um I think that having
+
+[05:26] that attitude can uh dissuade people who do believe in God even in an agnostic sense uh from wanting to learn about evolutionary biology which is one of the greatest things on the planet so we definitely don't want to be doing that what do you do when confronted by a Christian extremist or fundamentalist to me the best way to show somebody that you're arguing with or people who are watching your argument uh that their position is untenable and this is particularly apparent in the case of extremism um you just follow their argument through you take it to its logical conclusion and show this is
+
+[05:59] why it doesn't make any sense you effectively concede that they are correct and then you say okay so I believe you you're right um but what does that say about this or how does that explain this and you keep bringing up contentions such as that until they realize that maybe their position isn't so true who is your favorite Beetle anybody but JN what subjects at school do you study if by your question you mean what subjects should I be studying for the exams that I have coming up which I've entirely neglected in favor of YouTube uh then the answer is politics philosophy and sociology in your
+
+[06:31] respectful honest opinion what is the most flawed religion I think a lot of people here will just expect me to jump to Islam uh and in terms of practical implications I agree that Islam probably poses more of a problem today than any other religion however I think it depends on when you're asking the question because if every single person uh fully and wholly followed their religions to the letter uh followed every single commandment laid out in their Holy Scripture then there's an argument to be made a very tenable argument that the Bible is actually worse than the Quran so it just depends
+
+[07:05] on when you're asking where would you say you stand politically what is your favorite thing about your country probably the architecture we have castles which is cool uh but specifically here in Oxford having the university buildings uh the architecture is just stunning I almost wish that I wasn't born here because I'd love to just be overwhelmed by all of the buildings upon sort of visiting for the first time um so if you haven't been here and sort of looked at all the amazing buildings that we have around this wonderful city um then I couldn't recommend it enough what are some of your
+
+[07:38] favorite films the other night I rewatched D Jango Unchained uh and I'd actually forgotten just how much I love that film um but generally speaking my go-to sort of favorite film um or film franchise if that counts is Star Wars I've always been a huge fan as is probably quite predictable if you know me um and if you're interested my order goes 546 3712 yeah who or what inspired you most to do these kind of videos on YouTube honestly bad YouTubers or in general I think uh the online community of atheism um and religious debate uh was kind of Tainted by this horrendous arrogance that I found in
+
+[08:19] self-righteousness um which you know these people have every right to do but I just believe that there was a slightly better way of going about it and so I sort of tried my luck um but if you're really interested in hearing my story about how I got into YouTube and sort of why I do what I do um I was interviewed by HT meta on the friendly atheist podcast I'll leave a link in the description down below and we discussed exactly that what's your favorite fictional book o that one's got to be a tossup between any of the Sherlock Holmes books uh Gatsby and the Bible why don't you show us your
+
+[08:50] chest of drawers anymore well we actually had to sell the drawers a few weeks back um they were taking up too much space and we needed the money I'm only kidding I tell you what 100,000 th000 subscribers I'll bring the draws back uh but in the meantime my plan is to go on to the original statuses where I asked for your questions um and answer some of the questions there which I didn't have time to answer here so uh go and check that out if you're looking for more Q&A goodness uh but in the meantime I've been Alex Jr Conor or Cosmic skeptic you can follow me on social media here don't forget
+
+[09:20] to subscribe and as always thank you for watching and I'll see you in the next one [Music]

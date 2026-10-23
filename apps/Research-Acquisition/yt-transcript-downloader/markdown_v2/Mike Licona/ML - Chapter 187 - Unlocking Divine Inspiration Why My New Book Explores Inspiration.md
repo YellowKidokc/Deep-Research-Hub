@@ -1,0 +1,68 @@
+# Unlocking Divine Inspiration: Why My New Book Explores Inspiration
+
+**Channel:** [[Mike Licona]] (`ML`) · Chapter 187 of 224 · Length 30m 35s · [[00 - Channel Summary]]
+**Video ID:** `6sfKO8E4t4g`
+**URL:** https://www.youtube.com/watch?v=6sfKO8E4t4g
+**Transcript Language:** English (manual)
+**Retrieved via:** webshare
+**Captured:** 2026-10-01 14:06
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:01|Part 2 · 10:01]]
+- [[#Part 3 · 21:06|Part 3 · 21:06]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] for me I I knew Jesus had been raised because without even touching the gospels so um you know game set match Christianity is true period and but they did bother a lot of Christians so I spent on the study about the the resurrect I'm sorry resulted in an academic monograph um but then really interesting but it's too complex to be able easier so yeah I spent about three more years little bit longer but three maybe three years is a whole lot easier for the non-specialist to others I I hear from people who are they've either have strong inclinations toward doing so it's or uh Christopher
+
+[01:19] Hitchens or some of these others says that have really has really rocked their is probably the the one who has turned away more turned them away from their faith yeah it's things it at nine o'clock in the morning like Mark says John says and when when did the curtain the the Luke says or just after so um the thing is um them all throughout other ancient literature the to do is look at the various accounts of the Dio Livy Nicolas plutar four times in plutar and you have got same kind of discrepancies the gospels but no one's going to really say well can agree with himself on the assassination
+
+[02:45] of unreliable and we don't need to pay any attention mind would would discredit the accounts based a lot of Skeptics want to do just that um if these things to him he'd say oh yeah yeah they're well that kind of gives the impression that we is a false impression I the next thing I asked Dr book here's how you replied I do Michael and it I beforehand but um you know it's just kind of the is calling for a little change in the commonly don't go down easy um and and that's okay you know maybe they should be carefully reflected upon and if people push back um what what I don't like is the stuff
+
+[04:20] objectively and then they accuse you going down this slippery slope into to liberalism of the Christian faith um I affirm I also affirm know I I don't affirm some some wooden view that Divine dictation so um and and some of the other I I say I I think there's some problems with it I don't let let's discuss this there is a small really raising objections um so um you know changing that I'm saying there's fact changing so uh you know take for example in Mark you have themselves saying which one of us is the greatest on Jesus speaks to them and says hey what were they're embarrassed so they
+
+[05:50] don't answer them just uh narrates the disciples coming right up to greatest well Matthew I think is doing what he he is simplifying in order to make his uh you know say it more simply so you know on another occasion disciples and sends them out so he chooses them don't take this or that this or that uh but you when Matthew reports it again he simplifies same them out and he says don't take this that this or sandals well I you know it seems that Matthew has it don't take an additional sta or don't take an says and when since Matthew simplifies elsewhere think he's doing it simply to make the
+
+[07:09] point more them trust God for everything and as I explained rhetorician he's teaching people who already know and he gives them various exercises some with he says is you can state things more clearly so doing so he's actually changing facts now it's is still the same and Michael finally I just everyday ordinary conversations be they oral or invent something nor do we think we are doing people who have just a very wooden view of let's you know what they find it difficult to do without strained uh type of harmonization I mean that's biblical authors wouldn't do that um that would that would be
+
+[08:38] you know just taboo stuff they and and this kind of stuff was prescribed in the gospel authors through the lens of that these understand why they're there Michael I've had social media that it's the very wooden approach to stuff in biography that really shook their faith that these folks have to give in order to get out faith I I had one guy tell me that he was involved kinds of answers that led him to have his faith up leaving youth ministry and um at the time John's Hopkins and he saw my debate with Richard view now I like Richard I have nothing against he's a good guy and we had a
+
+## Part 2 · 10:01
+
+[10:01] collegial uh debate that on my YouTube channel anybody who wants to the arguments that Richard how and others like caused him to give up Faith in the gospels because heard how I was is presenting in aeny through it revitalized his faith and he end up going for I contacted him a few years later and he said his he's just one example I could give others um but harmonization um is something that that can be slope well when when you have such a rigid view have more than one slope to it and the slope view has a grade that is a lot steeper than the you take one step uh down that kind of slope and
+
+[11:24] because you had this rigid brittle view of what doesn't really hold up well to that it's like the kind of view then it causes some severe doubts the it refreshing when Christians are honest about well I I think you're right I mean of course when if Jesus rose from the dead and I believe was either in the year 30 or 33 most scholars the first gospel and that it was written between earlier um in fact if you expand that majority to 70 so that's about you know 30 to 40 years if Jesus rose from the dead Christianity is true gospel had been written and it was still true five had yet been written 10
+
+[12:47] years 15 20 25 30 years and Christianity was still true so whenever the whenever it was written if there were errors in of Christianity when it had been true before any people have a difficult time doing sometimes from historical the historical conclusions it it's can't believe the resurrection of Jesus uh they maybe that what that means in their life what they yeah if Jesus rose from the dead Christianity is as Gary hmas refers to it I was I was you know my point out these contradictions in the gospels some answers to those but even if there are errors the dead it's Christianity true and I
+
+[14:05] said yeah gospel differences uh cause such wreak such havoc point but what do you do with the genocide text in the dead yes all right Mike we got some answers we're wrong on that um if Jesus rose from the dead some things in the Bible aren't and you know that made a lasting impact it was a it was lifechanging Dr Lona what are two or three reasons you would what he said well for one I'd say if you've discrepancies differences in the gospels whatever with the answers that you find some leaders giving is a better way it's not just an alternative way probable and plausible way to read a more
+
+[15:19] accurate the differences in them and I I think it is read the book and then what's cool is from that like reading them for the first time again I mean lens and you're understanding more about how much more sense to you um and then we talk about of the inherency of scripture try to make sense of events were reported how do we make sense of it in scripture another thing I'd say is look scripture may some some other readers may look at it and things at first but just have to ask yourself well the gospels let's look at some specifics so when debating amongst themselves who's the greatest on
+
+[16:43] versus Matthew say having them say hey Jesus to face with surface discrepancies like that were two different occasions or tried to you know if you were talking to a Mormon or a Jehovah's gave a similar answer would you be satisfied would be why are you satisfied with such an openly remember it's not like you're finding been found out or scripture is it's not like like you're examining your own view of scripture so it challenging one's view of scripture um how to intended so that's what I'd say and just keep set match Christianity is true period the next to include chapters on inspiration and
+
+[18:03] inherency inspiration is important because as I contended incorrect view of inherency so it's important when someone says the Bible is inspired which 2 God breathed the Greek word is theas so um what mean that God inspired the the final work or did or did he Inspire both how did that work what does what this word means in the ancient literature you have some in the second and third centuries somewhere between eight and 13 uh uses of the of Christ all the way up until the year 200 uh those 8 to 13 May extend past the 3 century and period of time the meaning of words can change focus on that
+
+[19:35] period closest to what we're looking first century so you look at it and it's it's not in one sense in the um cilene oracles it says that Testament of Abraham says that some ointments carpus papilas and aanes that um it it says that dreams interpreting dreams can be God breathed breathed so what what does it mean and it's it's text um but the context in 2 Timothy 3:16 doesn't appeal to Second Peter chapter 1:
+
+## Part 3 · 21:06
+
+[21:06] 20 and 21 where one's own interpretation but men moved born along well that sounds like dictation um and you know it's saying prophecy of scripture this is what reported in scripture I don't think it's re re men moved by the Holy Spirit spoke from God not inspiration look like well there's a verse in Christ is speaking through him well that sounds well are we to say I mean what does that look like person and approves of what they're saying does says is divinely inspired like are we just say preaching that in the perhaps 30 years that he teachings of Jesus to others that he never once spoken
+
+[22:11] to another that he never confused the place think that would be you know I mean it's possible reasonable to think that he did and if Christ of a Minor error like that in his preaching then or any of the other biblical writers were were be the case so inspiration conceivably could saying that they were there but we just can't had them for a very long time and I think it's so defensively so dogmatically that the originals autographs the text the critical text of the Hebrew and in Greek have errors in it even the say there are like Norman gisler he acknowledged we have errors in our present
+
+[23:30] Bible so whether irrelevant we have them in our present Bible God so he must not have thought it was important for God if he loved us so much since he loved us so think that in his sovereignty it's rational to that he needed wanted us to know was preserved split before Jesus died as Luke says or after is the temple veil split did Jesus heal the blind man just coming out of it I don't know but it doesn't blind man in proximity to Jericho John Sanders he there was one other that they were uh looking these others were they embraced open theism and were saying you need to boot these people vote
+
+[24:58] them out and gisler got mad at that and he it the former for formerly Evangelical theological come a a they they have come a good way since they they did that I think that was the wrong decision some of them who voted to boot him out at the time it wasn't all the members it was less than 10% of and and voted to boot them out and there was a were bringing in people who rarely ever attended meeting to have Ed so um well we'll see if they um about anery I I think the things look I I've statement on biblical inherency I I think there's a paper I read at ETS last year and if anyone's website risen
+
+[26:22] jesus.com um but that said I don't an approach to understanding gospel differences Biblical inherency um even the Chicago statement Scholars who crafted that statement were Norm a lecture on gospel differences and and shared that just came out um back in June of 2016 Packer the first to approach me he shook my hand he six words and I know it because I wrote them down he said he said thanks tops agreed with every others in composing crafting what is perhaps inherency out there today more conservative than ereny and so if someone says I believe in aeny conservative one the Chicago statement on
+
+[27:50] biblical Chicago statement do you take Norman gisler it or or ji Packer who's who thinks that Mike's to splitting hairs like that over a tertiary if you think this is a wise if God would approve that you're expending to get involved in this kind the last thing I asked Dr Lona was where can here's what he said well my website is risen channel so you can just enter my name a and my YouTube channel will come up we can also check me out at where I teach at if if someone's interested in that program um on campus or they can do it uh on online it from other countries and various places and they can
+
+[29:24] find out about the master you know there are two kinds of people in this winners good people and those dirt bags who don't having me on Aloha and Mahalo friends I hope you technical issues on my side of things but praise audio and video and he didn't have issues so uh hear him on here again check out risen jesus.com Mike Lona official on YouTube and subscribe there show I want to thank all of y'all for supporting the many great resources we have there we have right now so check those out and get your copies and the glosa house TV channel all right I'm

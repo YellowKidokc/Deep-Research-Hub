@@ -1,0 +1,63 @@
+# A Tribute to Phillip Johnson
+
+**Channel:** [[ReasonableFaithOrg]] (`R`) · Chapter 54 of 1167 · Length 17m 28s · [[00 - Channel Summary]]
+**Video ID:** `XyF5Io-LBSs`
+**URL:** https://www.youtube.com/watch?v=XyF5Io-LBSs
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 04:34
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:01|Part 1 · 00:01]]
+- [[#Part 2 · 10:43|Part 2 · 10:43]]
+
+---
+
+## Part 1 · 00:01
+
+[00:01] [Music] dr.
+
+[01:01] Craig we lost a great leader and thinker not too long ago back in November of 2019 Philip Johnson died passed away he had suffered a couple of strokes is it fair to say that he was the leader that he was the driving force behind the ID or intelligent design movement I think in one sense that would be fair to say he wasn't the leading intellectual by any means in that movement but he was a sort of galvanizing force a figurehead that helped to organize and propel the movement he called together theologians and philosophers like yourself scientists and others to try to get together a think-tank
+
+[01:04] I guess in the movement and a lot of this happened at Biola do you remember some of those days in the early 2000 no that was before my time I was in Europe until 1994 and then we returned to the States in 94 to take up my teaching position to tell but before I came back however in 1994 there was a conference organized at Cambridge University at Queens College as I recall and this conference featured a number of young turks involved in the intelligent design movement including Stephen Meyer and Michael Behe who was publishing a book called Darwin's black box and several others I know demske
+
+[02:01] was involved I don't remember if he was at that conference but certainly his name was involved Meyer Paul Nelson and bill demske were sort of the triumvirate working together to construct a compelling case for intelligent design and Phil Johnson was at this conference and he was sort of the motivating force and figure behind it and Michael Behe was a newly discovered darling of this movement for the book that he was writing I read the book that was Philip Johnson's most notable book and that is Darwin on trial and I just remember it having an effect on me in my life and I thought that that
+
+[02:50] III thought that ID was a juggernaut and it just wasn't gonna stop you know I had a chance to interview Phil Johnson but it was after his stroke and I remember how hard it was for him to articulate what used to be very fast and rapid fire and so it was and as I understand he often wondered why God allowed the stroke he said we're just getting going God on this idea why why now but then he entrusted God and said god knows what he's doing but he wasn't he didn't want to be the main leader anyway he wanted to be more of a facilitator that's right he was a sort of if you will a political leader
+
+[03:36] or figurehead and he knew that he would need to gather top quality biologists and scientists and other fields if they're going to make a good case for intelligent design he said I remarked at the book though effective at laying out criticisms of Darwinism would by itself never have been enough to unseat Darwinian control over science and speaking of that bill I've often heard that he was kind of disappointed he thought that he would see a complete wipeout of Darwinian evolution he thought that this would do it yes even before he had his stroke Kevin I remember we're hearing him at conferences
+
+[04:23] where he had compared evolutionary theory to a huge leaking battleship that could not stay afloat and was doomed to sink eventually and he came to realize that in fact that sort of optimism for intelligent design was overblown and that in fact the evolutionary paradigm was not sinking and was not going to succumb to the sort of criticisms that the ID people were making of it I myself wasn't surprised by this I mean do you really believe that secular science is going to abandon an evolutionary perspective in favor of saying it's the product of intelligent design that's just lala land of course
+
+[05:21] not they're not going to adopt a that sort of paradigm in the place of evolutionary science and yet that did seem to be Johnson's expectation and hope in which he was disappointed another disappointment of his according to this article from William demske he also expected that Christians would be would get on board and get on board with the book and he says that the rank and file the layperson tended to yea they embraced it but he was disappointed in Christian academics who would not embrace ID like he thought that they should and I'm wondering Bill and this is your area I'm just wondering if
+
+[06:14] that's because you have a pressure to be taken seriously and even if you're a small Christian school or you're a Baylor University a Baptist school and everything you want to be taken seriously in the Academy and a lot of them weren't willing to embrace any of this because they wouldn't be taken seriously yes and I think that for people like Howard Van Til at Calvin it was rooted in a sort of philosophy or theology of nature that was quite unbiblical Van Til wanted to argue that God has created a world that has what he called functional integrity that is to say it just gets along fine on its
+
+[07:02] own without the need for supernatural interventions in other words no miracles and so although Van Til would want to affirm things like the historicity of Jesus resurrection it's hard to see why one would adopt a view that presupposes that God doesn't do miracles Alvin Plantinga has been very effective in criticizing the theory of divine action that underlay the views of people like Van Til look at planning his book where the conflict really lies and I think his chapters on divine action and his critiques of people like Van Til and others who want to prohibit God from acting in the world of
+
+[07:55] secondary causes is just devastating so while I could imagine that Christian scholars might well be convinced by current evolutionary biology they might think that indeed this is the best account of the origin of biological complexity I don't understand why they would adopt a theology of nature that would be so inimical to the Christian view of God's action in the world mm-hmm yeah William demske says that van tills position was is atheistic naturalism which he resisted but then nowadays he pretty much embraces that he sounds like an oxymoron doesn't it in naturalism but they recognize the
+
+[08:50] existence of God but boy God had better not get his hands dirty in the series of secondary causes in the universe it is a deistic view where the creator and designer the cosmos just doesn't get involved in that sort of miraculous activity demske also said that what philip johnson did well was to look at Darwinian evolution Darwinism and so on now on its own terms and heroes raised the conversation there a little bit and in fact it made it at least somewhat more respectable in the Academy because at least it was dealing with it on its own terms yeah evolutionary scientists are often very
+
+[09:42] self-critical about their theories and they recognize the uncertainty and conjectural nature of much of it and I think what the intelligent design movement did was it decoupled intelligent design from theology people like demske and other intelligent design proponents have been very clear that they are not arguing for the existence of God but simply wanting to make an inference to intelligent design as the best explanation of biological complexity and the designer could be extraterrestrial life-forms who created life on this planet or the designer could be someone in a super laboratory in
+
+## Part 2 · 10:43
+
+[10:43] which we exist as a little microscopic world and they're tinkering with our world there isn't any attempt to prove theism or that this is God who is the designer just simply that the design hypothesis is the best hypothesis for explaining biological complexity and so they really tried to decouple ID from the old creation versus evolution debates by disassociating themselves with creationism sure I thought it was kind of funny at one point Dempsey said that Phillip Johnson sent out email is going to be a really big thing I want you guys start emailing each other and keep in touch and so that
+
+[11:31] we can share the ideas and share the research and so on but you know bill I guess the biggest brick wall was the Dover trial and to this day now Dempsey and his article says no that was a bump in the road but boy if you just kind of look around a little bit people say Dover put put it in to ID the Dover trial is ruled as non scientifically and fundamentally religious and therefore unconstitutional a lot of people thought that was not fair and that's not what they wanted to do like you just said yes right it was a sad state of affairs because the intelligent design movement people themselves
+
+[12:24] did not support the teaching of ID in the schools this was a local initiative by some local person and they were opposed to it they said we are not ready for this yet the movement is still maturing they were opposed to this happening and so the verdict was not really altogether surprising but intelligent design is primarily an intellectual movement not a political movement the idea of teaching ID or creationism in public schools was never one of their aspirations so if Dover has closed the door on that does nothing to deter intellectual inquiry into the origins of biological complexity and
+
+[13:20] arguing that the input of an intelligence is necessary in order to explain how this could happen I did notice though in this editorial that in the same way that Philip Johnson became discouraged because ID had not carried the day and evolutionary theory did not collapse under its own weight density himself says my tone these days would be much different I'd be more sober and less triumphalist about IDs prospects I'd have warned that things might not unfold in IDs favor nearly as quickly or easily as my tone suggested but none of this he says is to diminish Phil's monumental impact on the ID
+
+[14:11] movement in fact I noticed something that demske said later in the article that I have wondered about namely he used to be publishing so frequently and I haven't heard his voice in recent years and I see he says here my own pursuits have largely turned to business in the last few years so I don't keep up with ID I was surprised I used to to to read that I I thought that he was one of the horsemen yeah you know yeah and he was for a long time yeah and now he's a businessman and doesn't even try to keep up that that is just an enormous loss for the movement it's I think it's lost its chief
+
+[15:00] figure and now the mantle sees mathematician for sure yes and now the mantle seems to have fallen to Steve Meyer at the Discovery Institute but what a terrible loss I mean I think the loss of Bill demske is far more significant than the loss of phil johnson phil johnson was as I say a political leader and finger headbutt demske was I think the leading intellectual of the idea movement while he was writing bill will conclude with this paragraph that I think sums up a lot that the demske writes he says that phil johnson was also a prophet and sometimes prophets can rub us the wrong way if they
+
+[15:44] call us out especially accurately especially if they're telling the truth he says here like francis schaeffer a generation before him philip johnson has put his finger on the key place where our generation has forgotten god for this generation it is the place of our origin to a generation that regards God is increasingly distant with nature as all there is in humans as mere appendages of nature Johnson the prophet points us to the true God the one in whose image we are made and to whom we must ultimately render an account I would say that that was Phil Johnson's spirit as well I think that
+
+[16:28] what demske is getting at there is Philip Johnson's claim that if you assume naturalism to be true then evolutionary biology is the best explanation of the origin of biological complexity he said I'm quite willing to admit that the best naturalistic theory of biological complexity is the one given by evolutionary biology but he said why be a naturalist he said unless you have some argument or proof of naturalism how could you exclude that there might be a supernatural designer and creator of the universe in which case it is no longer obvious that the blind evolutionary story is the truth you

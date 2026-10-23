@@ -1,0 +1,67 @@
+# I'm Running An Intervention On The Joe Rogan Intervention
+
+**Channel:** [[Mike Benz]] (`MB`) · Chapter 244 of 690 · Length 14m 51s · [[00 - Channel Summary]]
+**Video ID:** `iEeim-9emPM`
+**URL:** https://www.youtube.com/watch?v=iEeim-9emPM
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 02:34
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:15|Part 2 · 10:15]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] Malcolm Gladwell did this thing called the Joe Rogan Intervention. His podcast is called the Revisionist History Podcast. Now, after all these years, Malcolm Gladwell only has 52,000 subscribers on YouTube. After all these years, I just think that's so funny. This coalition who's coming together to scold Joe Rogan, you can see the envy, the penis envy. 52,000 after 20 years of New York Times bestsellers and getting basically straight fellatio from the mainstream press week after week and you have like less subs than like a 13-year-old girl's makeup channel.
+
+[00:35] So anyway, I've never listened to his podcast before, but someone posted on X and I thought I can't help myself. It's comic relief. So it starts off I mean just listen to that intro. Macy's soundtrack then ASMR sounds about scribbling in a notebook. Bro, you're not writing in a notebook. You're doing a podcast. You're not a special snowflake. It's such a fake form of vibe setting. It's actually the opposite of that modality. This is the opposite of writing in a notebook. This is a called a podcast. You know what I would say? It's so fake. It's like going for a vibe that is not there. Yeah.
+
+[01:16] Yeah, it's like NPRish, but it's so played out. Like that's gone. It's as gone as like the uh the Douglas Murray line of argumentation. Let's just listen to this for a second. I was taking a road trip not long ago listening to the Joe Rogan Experience, as I like to do sometimes. It was an old episode he'd done with Robert F. Kennedy Jr. before he became US Secretary for Health and Human Services, the man responsible for running a massive medical science administration. The massive medical science administration. I can't tell if he's reading off a script or if this is from the heart.
+
+[01:49] And I don't know which is worse with how fake this is. But let's keep going. By the way, I was once on Joe Rogan. It was a while back. And from my experience that day, I came up with a theory, which is that all the good stuff happens in any Rogan interview as you approach hour three. when the guest has finally adapted to Rogan's particular seductive rhythms and when all thoughts of the outside world have evaporated. I love the little humble brag. I was once on Joe Rogan like a decade ago or something. This thing the seductive tones. Did you hear what he said?
+
+[02:26] That the seductive when the guest has finally adapted to Rogan's particular seductive rhythms and benol thoughts of the outside world. Seductive rhythms. Uh, homie Mr. Gladwell, I've done the Rogan show twice in the past four months and uh, Seductive Rhythms is not the vibe. Okay, it's like the opposite of Seductive Rhythms. It's just real talk. It's like so real talk that you don't feel like you're in an interview. like you go in there like you you just talk. It's like, "Hey, what's up?" So, like, why would he use that that word seductive?
+
+[03:14] It's like he he's trying to paint Joe out to be like luring people in, putting on an air. He's seducing his millions of listeners. They're unprepared for the seduction that he throws on them. Have evaporated. If you listen to Rogan, in other words, you have to commit. And so on that car ride, I did. And at the 1 hour and 52 minutes mark, right on schedule, came an exchange which I found so fascinating, so peculiar, so downright weird that I pulled my car over to the side of the road and said to myself, "Oh man, RFK was talking about measles.
+
+[04:02] He had to pull over to the side. Did any of this even happen? Can you post like the GPS tracker for your phone to show that the car actually slowed to a stop? Or was this just uh you know like dramatic flare? You pulled your car over to the side of this road at the 1 hour and 52 minute mark and said, "Oh man, who did you say it to? Did you just talk to yourself in the car?" Oh man. It's like you can't even think of anything better than that. Oh man. All right. I guess Rogan's canled. We had an oh man moment in the car by ourselves listening. But I want to keep going a little bit here. Okay.
+
+[04:41] My name is Malcolm Gladwell. You're listening to Revisionist History, my podcast about things overlooked and misunderstood. I already knew this about RFK Jr. He says crazy things all the time. That's what our last episode was all about. It's his MMO. He's a disciple of the obscure French 19th century biologist Antoine Bashamp, whose claim to fame is that he completely misunderstood the foundational idea in modern medical science. I didn't pull over because of RFK Jr. I pulled over because of Joe Rogan. This episode is devoted to the lost. I didn't pull over because of Bobby Kennedy.
+
+[05:26] I pulled over because of Joe Rogan. Oh, you pulled over, did you? Wow. That must mean it's serious business. How the bottomized do you need to be for this to work on you? Oh, well, the great and powerful Malcolm Gladwell has had to pull over his car because the Secretary of Health was was not sufficiently scolded by Joe Rogan. Last start of the interview because some of us apparently have forgotten how to ask questions. Some of us apparently have forgotten how to ask questions. Yeah.
+
+[06:15] Uh, Malcolm, with the huge leg up and head start you got from the mainstream media and everyone constantly fellating your non-existing credentials. I was going to say non-existential credentials. You mastering the art of the interview have 23,000 views and 52,000 YouTube subscribers. You've actually failed in the art of the interview. And you're talking to the guy who is the most popular interviewer on the planet. I don't think he forgot how to give interviews. I think he's just infinitely better at it than you are. And he doesn't even have to try.
+
+[06:51] When I went on Joe Rogan, it was before he had moved to Austin. He still lived in Southern California and operated out of what seemed like an old airplane hanger somewhere deep in the Los Angeles suburbs. I can't tell you where exactly because I had to sign an NDA, but it was a Oh, it's so confidential. Vast, open structure full of weights, monster trucks, dogs, and exceedingly fit young men clutching energy drinks. Exceedingly fit young men clutching energy drinks. They were just running around the studio. They were just running around the studio. Maybe they were.
+
+[07:27] I can tell you there were no exceedingly fit young men running around the studio with energy drinks when I was there. There was actually none of that. It was like four dudes uh who were mostly like producers and engineer tech guys. I don't know, maybe it was different uh 20 years ago, 10 years ago. The studio was in the middle of the room inside what looked like a repurposed boxing ring. It was so much fun that if Rogan's people wanted me back, I would jump on a plane this evening, packing only a muscle shirt and a case of Red Bull. He's auditioning to get back on Rogan after all this crap.
+
+[08:07] Joe Rogan seduces people. They don't expect it. They get seduced by his duet tones. If I had to pull over my car and say, "Oh, man." Because Joe Rogan has forgotten how to ask questions. Let me teach him about interviewing with my 23,000 views. But if Joe Rogan wanted me back, I would fly there in a second and I would pretend to be one of them in a muscle shirt. He said he'd bring a muscle shirt. Yeah. Not sure everyone wants to see that. But he's freaking auditioning. He's like, "Well, listen. Douglas Murray uh wagged his finger at you and you know you had him on. I can wag my finger at you.
+
+[08:51] Will you give me views? Please, please give me views. Like how gross. It's gross. It's disgusting. All right, just a little bit more of this. I tell you all this just so you can imagine the scene. RFK Jr. is a weightlifter himself. Barrel chest, biceps like big chunks of hormone-free non-GMO ham. They're in the boxing ring. Mono mono. There's a tantalizing scent of testosterone in the air. What the is going on? We don't need homoerotic fanfiction injected into this uh intervention. What? There's a there's a tantalizing scent of testosterone in the air. the seductive tones.
+
+[09:46] Please have me back, daddy. This is not a good look for the intervention. We need an intervention on the intervention. And by the way, we're back to interventions. Intervention just means censorship technique in censor speak. As we've covered many times, if you just type in, for example, content moderation intervention, this is the word. Content moderation interventions are the actions taken to manage content on platforms. So, for example, banning an account is an intervention. Shadow banning an account is another category of intervention.
+
+## Part 2 · 10:15
+
+[10:15] Search recommendation bans are another form of intervention. Demonetization is another form of intervention. They're categories of interventions. They switched to this word intervention in around 2020, 2019, 2020 because it sounds like you're saving people from themselves instead of censoring them into oblivion. Oh, they're contributing to the infomic. We need to run an intervention. Not oh, they're questioning the COVID vaccine. We need to censor the out of them.
+
+[10:44] So, it's a strategic reframe to make it look like a good thing that they are crushing your soul, stealing your money, banning you from opening your mouth, and murdering the First Amendment. So, I just love this concept that interventions are now coming into this uh discussion around who you're allowed to platform on podcast. Now, let's listen to Joe Rogan interviewing Elon Musk. This was just after Musk had given what looked an awful lot like a stiff armed Nazi salute at a Trump rally. And now the same idiots are calling you a Nazi. It's the most bizarre thing I've ever seen in my life.
+
+[11:12] Um I mean there's so many examples of people saying my heart goes out to you. You did it with a little enthusiasm that probably wouldn't be recommended with hindsight. Yes. But it was obviously um meant in the most positive spirit possible. Yes. Obviously. But it's so strange where people want to think that you are openly public publicly doing secret Nazi sea pile hand motions. And now I can never point at things diagonally. I can only point at things there and there. And then I So you have to divide that. Yeah. Cuz that's where the spaceship is over there. That's ridiculous. It's ridiculous.
+
+[11:46] He's making a joke. You can't even point to something without measuring the diagonal in case someone thinks it's a Nazi salute. And listen to this. It's deliberate propaganda. Imagine for a moment what Oprah would do in that moment. Oprah would ask, "If you didn't want to be called a Nazi, then why did you give a Nazi salute in front of thousands of people?" She'd ask that question because So this is Gladwell's intervention of Joe Rogan. You should have challenged him and called him a Nazi.
+
+[12:26] You should have said, "Well, if you didn't want to be called a Nazi, why did you give a Nazi salute?" Because we're not Malcolm. Because we're not idiots, Malcolm. I could go to Google image right now or a search on X and show you 5,000 Democrats who gave that same stiff armed salute from Hillary Clinton to AOC to Bernie Sanders to Barack Obama to Joe Biden. They all do it in the course of a speech. It is actually quite difficult to first extend your hand to your heart and then extend it to the crowd while you are nervous and tense in a speech without it looking like some form.
+
+[13:06] You need to get the diagonal actually just right. Would you ask that of Barack Obama? Would you ask that? Well, if you didn't want to be called a Nazi Obama, then why did you give a Nazi salute? No, you don't ask that dumbass interview question unless you want to be thought of forever more as a dumbass interviewer. This is how you with media fellatio for 20 years over your non-existent faux intellectual expertise still have just 50,000 YouTube subs and 20,000 views on your videos because people think you are a dumbass interviewer because your instinct is to ask such dumbass questions.
+
+[13:59] So, look, there's always a fine line when I listen to propaganda from blob world or from the faux intellectual class where I like to listen to what they say so that I am armed against their arguments so that I know what lines of trickery are going to be metriculating into public discourse. But there sometimes comes a point where I feel like I'm getting dumb by listening to it and I have to switch off. This is where I switched off. I just thought you guys would think this is funny. This is how weak it is.
+
+[14:30] It can only spread by pressure into the networks that you have to believe this if you want to get a job, if you want to get funding, if you want to get distribution. And that's my fear is that enough of those voices will clamor in that they achieve those leverage points, not that they'll win on the basis of any argument. And uh this is a creeping danger that's just on my mind this

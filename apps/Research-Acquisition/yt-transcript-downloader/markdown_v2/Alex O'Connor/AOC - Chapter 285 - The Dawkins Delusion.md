@@ -1,0 +1,54 @@
+# The Dawkins Delusion?
+
+**Channel:** [[Alex O'Connor]] (`AOC`) · Chapter 285 of 419 · Length 9m 47s · [[00 - Channel Summary]]
+**Video ID:** `S8Mo7Az8y5Q`
+**URL:** https://www.youtube.com/watch?v=S8Mo7Az8y5Q
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-07 03:24
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] good morning everybody my name is Alex and if you follow me on Goodreads then you'll know that I recently picked up a book by Alistair and Johanna McGrath entitled the Dawkins solution no prizes for guessing what it's about now you may have heard of this book you may have actually read it yourself it's not very long and attempts effectively to rebut The God Delusion now after closing its final page I've been just desperate to share it with you for reasons that will hopefully become apparent and so have decided to make this somewhat of a video review now I have a small library of apologetic
+
+[00:31] books which I use to familiarize myself with the best theistic arguments and to challenge myself and inspire responses but I have to say I shan't be adding this book to its ranks I'm not a dork Enzian in any sense of the word I appreciate Dawkins his writings and I think he's a wonderful communicator but outside of teleological discussions I don't think he's the greatest source of theological wisdom to put it mildly notwithstanding I still think that this book is fatally flawed in a number of ways and I'd like to go through some of them with you the orange stickers indicate bits that I
+
+[01:06] disagree with so the purpose of this book is to respond to what the McGrath see as the most important parts of The God Delusion and to offer a defense of both the existence and utility of God unfortunately they seem to have misunderstood a number of scientific and moral concepts and the book also contains some unambiguous flat-out falsities a telling example of the first of these can be found on page 9 Dawkins is quoted here responding to the cosmological argument that everything needs a cause he mentions the idea that if everything needs a cause then any original first cause would itself
+
+[01:43] need a cause resulting in an infinite regress of causation that goes back forever now Dawkins criticizes theologians who exempt God from this infinite regress of causes claiming that any being that could end this regress of first-mover would itself require an explanation effectively what caused the first cause now this is quite an elementary criticism of theism to which there are a number of compelling responses such as the Kalam cosmological argument for instance but bizarrely the McGrath's completely neglect to bring any of them up and instead just whack their finger at theoretical physics
+
+[02:15] for some reason as if that proves anything here's the quote however it needs to be pointed out here that the holy grail of the natural sciences is the quest for the grand unified theory the theory of everything why is such a theory regarded as being so important because it can explain everything without itself requiring or demanding an explanation the explanatory buck stops right there there is no infinite regress in the quest for explanation if Dawkins is brash and simplistic arguments carried wait this great scientific quest could be dismissed with a seemingly profound yet in fact trivial
+
+[02:51] question what explains the explainer now aside from the fact that Dawkins never actually mentions grand unification in The God Delusion it's immediately clear from the McGrath's inability to distinguish between grand unified theory and the theory of everything which are not in fact the same thing that they haven't sufficiently read up on even what they are now you'd think that they had given that they include a note here recommending two relevant books on the subject but they seem even to have misunderstood those as well now one of the books mentioned is Brian Greene's the elegant universe
+
+[03:25] for which I can thank Leanne for sending to me so given that this is the book that's explicitly recommended by the McGrath's to back up the point they're making let's take a look shall we so this is from page 366 where Green has just been talking about string theory he says in the context of string /m theory our cosmological understanding is at present just too primitive to determine whether our candidate theory of everything truly lives up to its name and determines its own cosmological initial conditions thereby elevating them to the status of physical law this is a prime question for
+
+[03:57] future research here we witness the kind of humility that is characteristic of the scientific process it would be lovely if we could unify electromagnetism gravity and the strong and weak nuclear forces into this theory of everything but we can't even claim that this is possible until we prove it so Dawkins wasn't saying that there can't be some kind of end to a causal regression he just thinks that we shouldn't presumptuously reserve this position for God the quote used by the McGrath's to Dawkins as view here is not presented in its entirety in the book but here's the full quote and this is
+
+[04:32] from page 77 all three of Aquinas is cosmological arguments rely upon the idea of a regress and invoke God to terminate it they make the entirely unwarranted assumption that God Himself is immune to the regress even if we allow the dubious luxury of arbitrarily conjuring up a terminator to an infinite regress and giving it a name simply because we need one there is absolutely no reason to endow this Terminator with any of the properties normally ascribed to God omnipotent omniscient goodness creativity of design blah blah blah there is a world of difference between hypothesizing a grand
+
+[05:06] theory of everything and then attempting to prove it theoretically and unreservedly admitting that such a theory may very possibly not exist at all and hypothesizing a God to end an infinite regress for the sake of philosophical convenience but this book isn't just wrong in its trivial scientific analogies there are a number of other sections with glaring errors in them too one of which is the section dedicated to rebutting the claim that religion is evil now the most outrageously misleading of these can be found on page 58 where the McGrath's criticized Dawkins for ignoring a number of
+
+[05:40] so-called forgiving and compassionate injunctions of the Old Testament whilst biased Lee focusing on the negative ones instead of course the first problem with this is that the existence of benign verses in the Bible do not in any way discount the existence of violent and harmful ones I don't care if the Bible says love thy neighbor if that comes with the caveat of not including homosexuals for example but that aside astonishingly one of the specific examples of these good verses that the McGrath's include here is just factually wrong according to the McGrath Dawkins ignores Old Testament
+
+[06:13] material that quote prohibits slavery with Leviticus 25 given as the evidence here we have perhaps the most impressively ignorant misrepresentation of the Bible I've ever seen and this is particularly ironic given that this is what the McGrath's accused Dawkins of doing in the very same chapter the source of the confusion here seems to be Leviticus chapter 25 verse 42 which states because the Israelites and my servants whom I brought out to be they must not be sold as slaves do not rule over them ruthlessly but fear your God our first glance you may feel this corroborates the McGrath's report
+
+[06:47] not a bit of it this first doesn't outlaw slavery as they claim it does it only prohibits the enslavement of Israelites God's chosen people foreigners on the other hand are fair game here's literally the next verse your male and female slaves are to come from the nation's around you from them you may buy slaves you may also buy some of the temporary residents living among you and members of their clans born in your country and they will become your property you can bequeath them to your children as inherited property and can make them slaves for life so it seems that the McGrath's in trying
+
+[07:22] to present the best of what the Old Testament can offer and subsequently presenting the absolute worst have made my point for me now these are just a few examples among a litany of errors and flaws so I'll try to take you through a few more as quickly as possible nearer the end of the book on page 61 the McGrath's claimed that fasting giving up all food because one's religion tells them to is absolutely normal behavior because some people cut down on sugar and fats in order to improve their fitness for non-religious reasons I'm not making this up on the page before that the claim is made that
+
+[07:57] spirituality should be included as a part of health care given that it quote matters so much to patients as if we should base health care on what the patient thinks they need rather than what a medical professional thinks they need if you've seen my videos in the past then you might know that I've spoken about Bertrand Russell's celestial teapot analogy before now Russell was responding to the claim that you can't prove that God doesn't exist by saying that you also can't prove that there isn't a teapot orbiting the Sun in space yet this doesn't mean one should believe that there is now
+
+[08:27] dawkins mentions this in The God Delusion and in chapter 3 the McGrath's completely misunderstand the analogy and say that quote that's what Dawkins wants his readers to think that believing in God is on the same level as cosmic teapots this suggests the most shallow reading of Russell's analogy on page 48 the McGrath's refer to the Soviet Union's quote atheistic ideology equating a disbelief in God with the hatred religion on page 22 they claimed that Einstein used religious imagery in order to quote sound Christian and finally they claimed that the popularity of religion is persuasive of
+
+[09:03] atheism being quote a fatally flawed worldview as if atheism is a worldview and as if even if it was is validity would be based upon the number of its supporters I'm not trying to defend Dawkins as an infallible atheist hero but I hope you're now in agreement with me that as far as criticisms go this isn't a strong one now if you'd like to analyze it for yourself a link to the book as well as all the other books mentioned in this video will be available in the description I really would love to hear from anyone who agrees with anything in the Dawkins solution so if you do be sure to leave a
+
+[09:34] comment in the meantime I've been Alex O'Connor or cosmic skeptic you can find me on social media here thank you very much for watching don't forget to subscribe and I'll see you in the next one [Music]

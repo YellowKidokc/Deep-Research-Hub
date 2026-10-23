@@ -1,0 +1,69 @@
+# The Rise of Antinatalism
+
+**Channel:** [[ReasonableFaithOrg]] (`R`) · Chapter 1034 of 1167 · Length 17m 42s · [[00 - Channel Summary]]
+**Video ID:** `pexzc1OYClE`
+**URL:** https://www.youtube.com/watch?v=pexzc1OYClE
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 04:31
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:01|Part 1 · 00:01]]
+- [[#Part 2 · 10:31|Part 2 · 10:31]]
+
+---
+
+## Part 1 · 00:01
+
+[00:01] [Music] dr.
+
+[00:55] Craig I think we could probably ignore this is just a very depressing view of life from some people who just really need some help except that it really seems to be growing as a movement what we're going to be talking about the Guardian and others are reporting on the rise of antinatalism now you can see from the title there what that is and that is we need to quit having children because we are polluting the planet and the earth needs to return back to its pristine condition of not having people on it because we've we've messed it up the anti-natal list so they as parents of this according
+
+[00:56] to the article view life not as a gift in a miracle but a harm and an imposition and their notion that having children may be a bad idea seems to be gaining mainstream popularity and then they talk about Raphael Samuel who has kind of coined the phrase anti-natal list he believes it's wrong to bring new people into the world without their consent well that that's kind of hard right there well which would mean that it is always wrong to procreate on this view that parents have an ethical obligation not to have children so this is a much more radical view Kevin than the view that the world is
+
+[01:44] such a terrible place we shouldn't have kids and bring them into this world because they might suffer and things of that sort of practical concern this is a weird ethical argument that to bring another person into being without his consent is immoral it is an unethical act to make another person exist who didn't ask to be created and so parents who have children are behaving unethically hmm yeah it does get stranger bill and that he's got a following he's kind of the Guru of this he's 27 years old and he was gonna sue his parents for begetting him it was not our decision to be born he told
+
+[02:35] the BBC human existence is totally pointless he says yes now there Kevin we see the atheistic underpinnings of antinatalism don't we I've argued extensively that if God does not exist then life is indeed absurd without ultimate meaning value or purpose and these anti-natal lists I think presuppose the truth of atheism and therefore think that life is utterly pointless and that it's therefore immoral to impose such a pointless existence upon another creature he says that life even under the best of circumstances is not a gift or a miracle but rather a harm and an imposition according to this
+
+[03:32] logic the question of whether to have a child is not just a personal choice but an ethical one and the answer is always no yes so that's what that would imply Kevin that would imply that the human race ought to go extinct in one generation that no one should procreate no one should have children and that therefore the current generation of children is the last that will ever exist the human race should go extinct in one generation this isn't just in the UK and as we'll see here in a minute in South South Africa but in Dallas you're the friendly anti-natal list has a youtube video
+
+[04:16] congratulating Samuel she says we owe you a big round of applause it feels like we've arrived it feels like the big time in other words this view this anti-natal istic view obviously bill one of the reasons this is probably going mainstream is it's in the context of what everybody's upset about these days global warming climate change and so on and so this is your way of protesting yes in some being a part of the Greece seem to have an antenatal ism that is born out of not ethical concerns but rather these practical concerns that the planet is warming the future is bleak there are probably
+
+[05:08] thousands of terrified children who think that their generation is the last because of climate change and so some of these antenatal lists are arguing that it's wrong to bring kids into a world like that I I remember when Jan and I were a young married couple trying to decide whether to have children or not one had asked that issue is is this a world in which we want to bring children and we said yes it is that that would be fine and the things are not so dire that you couldn't have children I wonder if every generation is kind of asked that question I'm sure that's true that you always ask
+
+[05:53] yourself whether or not this is really a wise thing to do surely most reflects reflective parents ask themselves that question King says what is similar about both anti-natal list and climate activists is that they are seeing an increase in attention they're seeing an increase in attention due to general pessimism about the state of the world giving both more opportunities to gain support okay in 2006 the South African philosopher David Bennett R wrote a book which is widely credited as introducing the term antinatalism and better never to have been the harm of coming into existence bizarre
+
+[06:42] sports you know the Greek tragedy in Sophocles never to have been born is best but if we must see the light the next best is quickly returning whence we came such a well it is such a dark view of life because it draws out the logical consequences of atheism and in one sense what we ought to say to these people is yes given your worldview given the denial of the existence of God the world is a very bleak place and invite them to think again about whether or not maybe God really does exist and life does have meaning and purpose and value yeah and you know bill he this article mentions next
+
+[07:28] another strain of this thought that I remember when I was a little kid when I was a little kid everybody was talking about population growth yes we've got to stop that was I mean 1968 rising a Population Bomb yeah and so that was a strain of it and all the ecological crisis that was going on there quit having kids and you know this goes further benatar is discouraging reproduction and these guys are saying don't have children and so on and the strain that I hear as well bill is because we need to turn the world back into its beautiful pristine place wouldn't that be wonderful now what's
+
+[08:16] incoherent about it is that who's gonna be there to see how wonderful it is you can't observe the wonder of it you can't enjoy what you've accomplished right you know you're and all arts gonna be left to some cockroaches and lizards and you're sacrificing your humanity in the human race so that they can scurry around yeah I they haven't Wade I think properly in their minds the great goods that would be given up in the human race going extinct such as aesthetic and cultural and moral achievements that the world has far more Goods in it than it does evil otherwise everyone would commit suicide
+
+[09:03] but they don't people generally think life is worth living and when things are going rough they hope for the future that things will improve so on balance there's there's much more good in life than bad and they would rob us of all of that by saying that we should all go extinct and there goes all of the art all of the music the dance all of these cultural achievements it all goes out the window this really made me chuckle bill on page two halfway down the author of this article interviewed Benatar throughout this book and said Benatar told me recently that he has heard from many readers of
+
+[09:46] his book who have often felt that they were alone in the world it was a great comfort to them to read a philosophical defence of a view they found intuitively correct in other words that they're finding other people and community well there must be something I'm a community and being all together exactly what you want to do away with now let's get rid of each other yes and I'm sure you made it clear to our readers but these antenatal is stink not only humans but that all sentient beings Oh should yea go extinct that there shouldn't be any giraffes or elephants or rhinoceroses or monkeys that
+
+## Part 2 · 10:31
+
+[10:31] all sentient life should go actually these people are really wacko yeah that's beyond even some of the stuff I heard I heard that you know we need to go because yeah and let the animals rule again or whatever of the plants but this is really any any sentient being because of the the harm of life the the trials of life Dana Wells is the Dallas based youtuber she said she felt validated by Benatar's book about five years ago she reunited with her biological brother she was adopted and he grilled her about why she didn't have children and feeling annoyed after the meeting she searched online for
+
+[11:15] books and she came up with this child free theory this antinatalism and she began to see that this life game is an imposition for her it was simple living things can be harmed nonliving things cannot be harmed man she's really a sad individual it would seem to me yeah it is tragic when you when you really think about it non living beings since there are no such beings cannot experience goods either they cannot experience love or relations so she's she's willing to give up all of that the funny thing is and I want to make this clear I don't think anyone is obligated to have children if a
+
+[12:06] couple chooses not to have children that's their personal choice and I don't see why she has to justify her personal choice by turning it into an ideology which would impose that choice on everyone else and all of humanity and some people try to make some theology out of this don't they bill that you know we it's a mandate to procreate and have children in general I mean I think that's true you might get that from the creation mandate in James but New Testament teaching you're really gonna get that right it's in Genesis that the man has put on the earth and commanded to be fruitful and
+
+[12:49] multiply but that's a general mandate and I don't think that means that every person has to carry out that mandate I mean our Lord was celibate and never married the Apostle Paul apparently never married so I think whether one chooses to marry and have children is a personal choice well there seems to be three main groups here one is the antenatal Naida list they believe creating new life is always wrong then there's the child free group they they don't want kids themselves but don't necessarily consider procreation unethical and then the Dean a tailless they disapprove of procreation only
+
+[13:36] under certain conditions such as people with genetic disabilities that they will pass on to offspring that's scary and this disapproval doesn't usually transfer to racial or ethnic groups you know that does raise the question of whether these dean ada lists are thinking of this simply in terms of a personal decision for example parents who know that they both have say recessive genes that would result in serious genetic illness for their child and so choose not to have children or are they imposing this upon people who have a probability of having a deformed child in that case this is
+
+[14:19] eugenics it's trying to manufacture a pure race by weeding out those who have these genetic impurities in which case Kevin I myself would have been weeded out and would not exist hmm yeah well there you go one more quick thing Billie gets pretty complicated here she says that there's a rift between the vegan antenatal as' and the non vegan Oh analyst the non vegan anti anti need list they want animals around because they need to eat them out of existence Regan Antonius you know they want to keep the play well keep the plants around but hawai I mean if you're not gonna be there to eat them see
+
+[15:09] it's just really convoluted anyway the challenge the they're really big about suffering they must in causing harm and they must be suffering people perhaps bill you know because this is the challenge for antenatal especially those who believe that not only humans but other species would be better off non-existent is how to achieve their goals without imposing additional suffering so euthanasia is out and executing everybody's out or setting off nuclear weapons is out or starvation is out you know so how are we going to do this yes how we're going to be done humanely their only recourse would
+
+[15:53] be persuasion they need to have these movements such as their founding in order to persuade everyone not to have children otherwise they're going to be robbing people of their personal liberties okay well they're they're getting into even to the pop culture on the last page here there's the British singer-songwriter Blythe Peppino she's organizing a group called birth strike made up of about 600 people globally right now who refused to have children as a result of the climate breakdown she does a lot of music the whole thing and then there's another group called extinction rebellion which is
+
+[16:40] protesting against the threatened extinction of millions of species potentially including our own but by contrast true anti-natal its extinction is the dream exactly yeah that's very strange isn't it that inner contradictions bill I guess in conclusion today perhaps this is a good opportunity for the gospel among a growing movement of anti-natal list that like this were very hopeless yeah and perhaps we can offer them some hope and then good solid philosophy and theology from a Christian view on who humans are more humanity is all about and what community is all about and do away with all the
+
+[17:38] sadness yes you

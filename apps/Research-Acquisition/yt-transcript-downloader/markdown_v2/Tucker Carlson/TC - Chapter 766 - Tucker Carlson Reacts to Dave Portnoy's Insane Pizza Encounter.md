@@ -1,0 +1,61 @@
+# Tucker Carlson Reacts to Dave Portnoy's Insane Pizza Encounter
+
+**Channel:** [[Tucker Carlson]] (`TC`) · Chapter 766 of 990 · Length 11m 52s · [[00 - Channel Summary]]
+**Video ID:** `8RrCij3jX0c`
+**URL:** https://www.youtube.com/watch?v=8RrCij3jX0c
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 03:15
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:13|Part 2 · 10:13]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] being a your shirt six sizes too small F just go yourself in the whole platform your oh you don't like the platform you're a joke to me dude you are still in the pizza review business yes so I don't think anyone's ever cornered the market in Pizza reviews but I mean you are the most powerful figure in America pizza sales I I I would agree with that um I Googled you I was telling you this a minute before we went on I never Googled any when I Googled you and at least half the stories are you know pizza shop in name the town Osterville yeah thrilled that Dave pornoy came and ate their Pizza we
+
+[00:36] can change the fortune of a pizza place with this spectacular review couple questions are you sick of it never really love pizza the biggest pain in the ass with pizza is just driving around to find the new ones but no I love pizza how do you stay slim it's a great question uh first of all I'm starting to put on weight so that's changing a little bit but I don't know I I think it was Aderall a little bit Aderall diet Aderall helps does it yeah kills the appetite how many when you're on Aderall how many pieces of pizza can you eat just a couple bites yeah it does kill the but when you're not
+
+[01:10] an Aderall I can house the whole thing no problem yeah what's your favorite kind of pizza so I like New Haven like Coal Fired like New Haven Connecticut is to me the pizza Capital not only of the United States of the world yes but Coal Fired uh charcoal crispy you want to hear the crunch that's my favorite thick or thin crust th toppings cheese come on no cheese that's how well I know it's a gold medal slice if I'm going off if if it's off peppers onions mushrooms really yep what about bacon and pineapple o maybe old it's a sinere question bacon and pineapple I think that's crazy no that's a
+
+[01:52] big debate everyone ask that pineapple on a pizza I mean I won't judge but I wouldn't do it well you're judging big a little bit no I am judging Pizza I'm saying pineapple on a pizza bacon fine pineapple no okay what about pepperoni yeah that's that's the number one toping in the world better than sausage I'd prefer pepperoni yes where are you on kelones love kelon really not too much dough for you nope love it I used to work in a pizza place and by the end I was there for two years I I was only on kelones kelzon are great because you can't drop anything like flies don't land on the you know
+
+[02:25] the inside of the kelone that's true so um 99% and I've watched all your pizza I've done a pizza review with you uh people are thrilled that you come to their shop yes okay but occasionally you get someone who's got something going on in his personal life or has a problem with you um and it doesn't go well so we're going to put this up this is outside Boston what town is this in Somerville Davis Square Somerville Mass yep Davis Square Dragon Pizza okay let's see what happened I don't know how long it was sitting there it looked I'm going be honest it looked better in the case it looked more
+
+[03:00] well done in the case than this one um so we'll see what we got one bite every knows the rules it is very thin I do smell a Parmesan see what we got oh it's a floppy mess strong parmesan this is an acquir taste like if you get this know you're going to get hit with a left right in the face with Parmesan I'm not the biggest parm guy how do you score that because if you like parm fine if you don't I don't 6'4 Dave yes enjoy your pizza as any customer but I don't appreciate what you do coming in and judging a business with one bite well well we do more is this your spot this is my spot I hope
+
+[03:41] you enjoy your pizza but I don't appreciate what you do to small businesses why help the good news is I give you see terrible school let me be a little clearer move on don't stand in front of my business let me be clear let me be clear get the [ __ ] out of my business you mother a public Street this ain't your business yeah but this is my business call police he's right across the street go get them what are you going to tattle me off for standing on the public Street being a [ __ ] your shirt's six sizes too small F just go yourself in the whole platform you're off oh you don't like the
+
+[04:17] platform you're a joke to me dude you know what you're making show and your game and go somewhere else blah blah bl by the way I've raised $50 million for small business you're all talk dude was that all talk yeah kind of like that New York Times article here we go here we go your shirt six Siz is too small I don't care ioke oh you work hard yeah maybe dude how tell me how you're a [ __ ] clown how I run a business I work hard I sold my business twice 100 million 400 million bought back for a buck that's a clown everything since I got in this business that you represent is an embarrassment
+
+[04:58] like what like raising 50 million for small business name name it you haven't named one thing you haven't named one thing I make pizza it's great it sucks actually joke name one thing name one thing [ __ ] you've given up too I've given up too much of my time all you've said is everything every name one thing you're a name one thing clown wow that'll be the most viral Pizza review we've ever had it just happened two weeks ago we haven't published it how's this you yeah Divine timing and this is where sometimes I get myself maybe in trouble by being like when you when you throw the first punch
+
+[05:38] I want to bury you so I knew I was coming on this show and I knew your crowd like my crowd would be like [ __ ] that guy so I was so excited for the timing because that guy went out of his way to pick a fight with me and he knows nothing about me clearly his one complaint I'm bad for small business even my most AR haters have never said I'm bad for small business it's the only thing they'll begrudgingly be like well he just did it because he wants like everyone to say good job or he has a big ego but nobody's ever been like you're bad for small business that guy is what is wrong and this may
+
+[06:13] be over the top but he's what's wrong with this country like fine I don't care what your politics are left right clearly that guy is like hates Trump hates everything but why do you hate me you don't know anything about me you come his wife hates him yeah yelling clearly yelling yelling I would sit down and have a conversation but this is what we've become honestly in this country is just you scream at each other for no reason like that guy just came out had no business in anything except yelling screaming he's all over his Instagram page he's been doing it since this happened be like I told
+
+[06:50] him I kicked him off the sidewalk i k off the street he's calling for the cops I guarantee you because you're eating pizza and I guarantee you that guy was want to abolish the police about 6 months ago I guarantee you he's like we don't need police and all this and then he's running like I'm going to call the cops by the way the cop across the street I said hello to he's like pres big fan I was dying for him to go ask but that guy is truly what's wrong with everything in this concert do you think he took mask mandate seriously oh 100% 100% And by the way I love Star Wars so that shirt was
+
+[07:27] just 10 sizes too small but he is everything that is so wrong and people just like there's no matter what he's going to hate everybody he perceives different how of does that happen to you almost never that has never happened like that but I mean just in the course of your life you're taking your girl to dinner rare I I had one girl during a pizza review who screamed at me she's like she read all the articles by the way and I don't want to give my enemies A playbook we've talked about there's been a lot of mean things said about me yeah so when I ask what do you hate about me you should have
+
+[08:00] one thing that's actually legitimate as opposed to the New York Times small business it doesn't happen often most people in public are normal and nice like hey like you and even if you don't like me I'm fine with it but to attack it's just I hate that guy and how was the pizza thankfully I gave it one of my lowest scores I've given in a while but if you saw how I did it even when I give a low score I try to be nice about it's like maybe you don't like perm maybe this isn't your thing cuz I don't want to ruin any small business now I hope his business is ruined and that may be a mean thing to
+
+[08:35] say because you should never root against somebody I truly hope he he goes out of business like I'd be happy about that again maybe that's too far but when you come at me like that and you are writing he's drawing pictures of me being like this guy's an [ __ ] and I showed him and I gave him the business I hope not enough bad things can happen to that it's interesting though guys like that and this kind of thing has has happened to me I'll be honest in public over the years I've seen one exactly but it's always when you leave that they're like I showed him yeah that's what he fussy little [
+
+[09:08] __ ] you know once you're gone they're like bragging about it on social media and his recollection of the event once people see the video I'm curious even whether the people who are like defending him because he does have his crowd being like you showed him he's the worst I'm curious if they watch that video and are like well you were kind of an [ __ ] to him he wasn't doing anything because I I wasn't did you pay for the pizza of course so you were a customer I walked in I was doing the review out on the street he kicked me off the sidewalk what are you talking about Buddy like and what are
+
+[09:37] you talk P the we're doing a pizza festival in Coney Island in September 23rd it's the greatest assembly of pizza ever in the world pizza's been under attack you know for a long because it does for most non- adderal users it does make you a little fat i' I've lived it you only live once though well that's that's my rationale but you are one of this country's most energetic and best recognized Pizza Defenders Advocates you think the whole pizza industry would be carrying you a loft ticket tape that is how we're able to do the pizza Fest because all these great pizzerias who would never do this
+
+## Part 2 · 10:13
+
+[10:13] they're like you know what for what day is done for the pizza industry we're going to come support him except this one clown who doesn't deserve the same air to breathe that I do what a jerk what why not try to get along even if you have that big of an issue with me come up and talk about it like maybe you won't have the issues when we're done instead of just coming out screaming and being a can I say one thing I noticed this makes me sad I probably shouldn't even say it but that's one of the only Pizza owners I've met including the one I worked for who was American born every pizza guy I've
+
+[10:44] ever met is like some immigrant who loves America yep you know what I mean it's just like working like an animal and has the same values that I admire that guy was like from Newton Mass or something I I still don't know what he was that mad about because I asked him 10 times what your problem is with me he just kept saying everything everything everything how can you hate somebody that much that you don't have an example of why you hate him like he's pretty riled up it was like he was waiting for this moment and I ask again well what do you hate give me an example you're a joke you're a clown
+
+[11:18] you hate small business well I raised 50 million for small business you're still a clown like all right well you're the Clown y people say the news is full of lies K's motorave 239 death of Jeffrey [Music] EP

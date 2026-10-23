@@ -1,0 +1,41 @@
+# Job Fair at the Creation Museum on Saturday, March 12, 2022
+
+**Channel:** [[Answers in Genesis]] (`AIG`) · Chapter 1032 of 1947 · Length 5m 30s · [[00 - Channel Summary]]
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:01|Part 1 · 00:01]]
+
+---
+
+## Part 1 · 00:01
+
+[00:01] (https://www.youtube.com/watch?v=AUSoFUIFhuY&t=1s) Hey, guys, Brian Oswent here from Answers in Genesis, I'm here with Ashley Holland, also a staff member of Anderson Genesis. Actually, tell us who you are, what you do and what we're doing out here in. Nicole Yeah, so as you said, my name's Ashley. I work on the Learning and Development team, so one of our responsibilities is actually recruiting new staff. Okay, so that's what we're going to talk about today, right? Yeah, all right, yeah, so we've got new staff we want because we need staff absolutely right.
+
+[00:26] We need a lot of staff actually come on out and we have a job fair coming up. (https://www.youtube.com/watch?v=AUSoFUIFhuY&t=26s) Correct, right, yes, and so you're here to give us some details about the job fair and kind of invite people to come. Absolutely, yeah, so we have a job fair that will be happening actually kind of right where we're standing, we're right. Outside of the Creation Museum here. This will be an opportunity for you to come for you to meet some of the department leadership.
+
+[00:51] An opportunity to actually interview, apply and potentially even get offered a position all in the same day. (https://www.youtube.com/watch?v=AUSoFUIFhuY&t=51s) So you could possibly come get interviewed and get a job on the same day, absolutely, which is awesome. And you can be a part of the Ministry of Answers in Genesis. That's right, which I know I'm biased, I work here, but it is an incredible ministry, so many great people, from all liberal places coming together. Under the same common goal of proclaiming the truth of God's word and the Gospel of Jesus Christ in so many different areas.
+
+[01:13] Now you said there are multiple categories, multiple departments, that's right, who are interviewing. (https://www.youtube.com/watch?v=AUSoFUIFhuY&t=73s) Can you give us some of those departments? Absolutely, yeah, so I actually have a list here. I'm going to just read a couple of them off today because I'm not going to remember it right. So we are actually going to have representatives from guest services, we're going to have representatives from culinary services, we will have representatives from our let's see. I said.
+
+[01:35] Guest services, retail, public safety, public safety, yes, it's going to be on there as well. (https://www.youtube.com/watch?v=AUSoFUIFhuY&t=95s) So with this fair, we'll be more targeted to our like summer positions, our seasonal positions. But there are definitely fulltime opportunities available as well. And I would say not only their fulltime opportunities available, but also seasonal positions are a great way to get your foot in the door. Absolutely for positions later on.
+
+[01:57] Oh yeah, we always say it's really great to start, because you really just get a good understanding of what we're doing of what our mission is here at the ministry, so for sure, so we've got a lot of opportunities and we need people to come. (https://www.youtube.com/watch?v=AUSoFUIFhuY&t=117s) And I like to say that often God brings the people to us with so many different gifts and abilities personalities. He brings them from all over the world to be a part of this ministry, his ministry, for his glory. And so I think we wanted to go inside.
+
+[02:24] Yes, I'm freezing a bit chilly right now, let's go inside, I'm shaking a bit, we'll go inside. And so how often do we have a job fair like this? We actually do these once every year, we do them at both attractions, so we'll do one here and one at the Arkan counter as well. (https://www.youtube.com/watch?v=AUSoFUIFhuY&t=144s) And what is the date for the job fair? So March 12th is when we're doing this job fair here, thank you, sir, you're very welcome. It'll be from it'll be Let me make double check in the morning. Yep, 10 a.m. To 4 p.m. Is when we're actually going to be doing that.
+
+[02:54] So there's plenty of time for you to come. Spend a little bit of your time on Saturday here with us and potentially get a job. Awesome, right and a good job, a job for ministry. (https://www.youtube.com/watch?v=AUSoFUIFhuY&t=174s) Oh yeah, for sure. If you need more information about this, we do have information on our website creationmuseum.org Jobs, where you'll find information about this. Can you say that one more time for the audience creationMuseum.org job? Okay, so definitely go there and check that out.
+
+[03:19] See the opportunities, the time frame if you get the date or the time, so be sure to check that out. But you'll definitely want to come be a part of this, absolutely. And speaking of employees, I think let's go find one over here and get a little testimony. (https://www.youtube.com/watch?v=AUSoFUIFhuY&t=199s) I think about working here at the ministry. Hey, Alan, can I pull you away for a second? Yes, I know you're busy. Yeah, I just want. We're just telling some of our friends here about opportunities that we have to work at the ministry to work at the Creation Museum.
+
+[03:46] What's the best part about working here? What do you like most about working at the museum? You know, it's like, you hear the cliche or family, it's a family here. We really care about each other and we care about every guest that comes in the door and we treat them that way. (https://www.youtube.com/watch?v=AUSoFUIFhuY&t=226s) And you can tell, yeah, if there's a difference, the atmosphere is different. So I feel like you're kind of a known name around here. How long have you been working here? This is my retirement job, I've been here going on 12 years and I've absolutely loved it.
+
+[04:12] Great, and, you know, I'm I'm a red shirt here. So we're one of the ones we can't hold down a job, so we do everything good to know, good to know, awesome. Well, we thank you so much for working here with us for as long as you have. (https://www.youtube.com/watch?v=AUSoFUIFhuY&t=252s) I appreciate your dedication to the ministry and to what we are, what our goal is here. Yep, thank you very much for and you know, and we all support the mission and again, you can tell, yeah, you can. Any of us in here just stop anyone and ask them, and that works, you know, say the same thing.
+
+[04:40] We're a family, yeah, and we'd love our guests and do whatever we can to support the kingdom. Awesome, well, thank you, thank you for sharing with us with our friends. (https://www.youtube.com/watch?v=AUSoFUIFhuY&t=280s) Welcome, We appreciate you again. Appreciate your breaking here, hand it over, yeah, and you know, Alan won't say this, but we love Alan and death. He does such a great job and what he does, and he's a good representation of just an example of the people who come here from all walks of life. We have retirees who come, who want to be part of the ministry.
+
+[05:04] Post their I, they post their main job throughout their entire lives, they come here to be part of that mission. We have high school students who come to be part of the mission. (https://www.youtube.com/watch?v=AUSoFUIFhuY&t=304s) We have people from public school, people from home school, people from everywhere. People who literally leave their states and come here by faith to get a job, to be part of this ministry. All because they love God, they love his word, they know God's doing something here.
+
+[05:28] And you can be a part of that, no matter what the category is, no matter what the department is. Even if it's just for a short time. Oh my goodness, the impact you can make in such a short time for eternity. Yep, right, absolutely. (https://www.youtube.com/watch?v=AUSoFUIFhuY&t=328s) And so that's what we get excited about these job fairs to see what God will do in bringing people to this ministry for his glory. We love you guys to come, be a part of that. Check in, check out what's happening here. See where God might plug you into what he is doing here absolutely well, thank you so much again. Creationmuseum.org jobs. Get more information about our job fair. March 12th. Thanks, Ashley, see you guys.

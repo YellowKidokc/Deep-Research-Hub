@@ -1,0 +1,45 @@
+# How the Left Tried to Use COVID to Usher in a New Jim Crow
+
+**Channel:** [[Tucker Carlson]] (`TC`) · Chapter 295 of 990 · Length 8m 34s · [[00 - Channel Summary]]
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] (https://www.youtube.com/watch?v=2OyXIJp8AxM&t=0s) Obviously, nothing, you know, we didn't live in a country this politically charged or polarized 10 years ago. It was still political and if you were identified with the left, most of your friends were on the left. And I mean, it was still it was that way in the '90s I remember. So did this mean the end of your personal relationships? A lot of them, sadly, I mean, I'm very lucky that I have a husband who is very courageous, and he's also a soldier. He's been in, you know, he's, he's a veteran and he's been in a lot of scary situations.
+
+[00:32] (https://www.youtube.com/watch?v=2OyXIJp8AxM&t=32s) And so he understood very early on that this was a war, and because he studies China, he understood that. You know, there were forces that were trying to subvert our country in nonconventional ways. And that helped me because it gave me a frame to understand what was happening, but it was incredibly painful. One of my best friends left the country with without saying goodbye because she was disappointed in my position on vaccines. Literally, my position was, here are some facts that are emerging.
+
+[01:06] (https://www.youtube.com/watch?v=2OyXIJp8AxM&t=66s) You know, it's like, that was my position, let's see my, you know, we were not invited to Thanksgivings, we had, Oh, Christmas of 2021, maybe it was 2022. President Biden gave his famous. It's going to be a winter of severe disease and death for unvaccinated. We are looking at a winter of severe illness and death for unvaccinated for themselves, their families and the hospitals they'll soon overwhelm. And we had had a, You know, Christmas vacation with a lot of loved ones planned, and it all got cancelled.
+
+[01:40] (https://www.youtube.com/watch?v=2OyXIJp8AxM&t=100s) You know, because everyone was in a state of fear, because the, you know, the president on Down was saying at that point that, you know, unvaccinated people, let alone people, were trying to warn people about some of the side. Effects that were emerging were dangerous residents who were carrying plague, and no amount of reason would break through. But yeah, I, there were a lot of very painful endings of friendships. And as I wrote in Facing The Beast, it wasn't just on the kind of rejecting side, right?
+
+[02:14] (https://www.youtube.com/watch?v=2OyXIJp8AxM&t=134s) I wasn't just on the receiving end. I was witnessing the creation overnight, especially by 2021 2022, in New York City, where most of my friendships were, and most of my colleagues were. But also in Washington, the creation of a twotier society, exactly along the same lines as a Jim Crow Society. Or, you know, during the occupation in France, when Jews couldn't go certain places, AAL Society, exactly, and all these people who were so right on who were leaders in the feminist movement.
+
+[02:50] (https://www.youtube.com/watch?v=2OyXIJp8AxM&t=170s) You know, who would never discriminate against people of color or against people in the LGBTQ community who opposed discrimination, embraced discrimination? They were fine with it, they were fine. With a city, the greatest city on Earth, the most diverse city on Earth, you know? Famous melting Pot City, New York City. They were fine with a situation in which unvaccinated people had to eat in the street like animals. I could not walk into a restaurant with my family and they were fine with it.
+
+[03:22] (https://www.youtube.com/watch?v=2OyXIJp8AxM&t=202s) And then having, you know, Uber Eats delivery men of color bra brave the pandemic to bring them sushi like that's right. They didn't see any, they were not ashamed, they were not ashamed of massive discrimination, they were. I mean, I remember going to a big rally. One of the earliest ones in New York City on behalf of first responders who were being fired and reasonably enough. Some firefighters and police officers and emergency healthcare workers didn't want to be the Guinea pigs and they were being fired.
+
+[03:58] (https://www.youtube.com/watch?v=2OyXIJp8AxM&t=238s) Their kids had no, you know, food to eat, they didn't know how they would pay their mortgages. And I remember going down to speak at this event, and I looked out over this sea of New York City. Firefighters and police officers and people who come and save you. When you've got a heart attack, you know, E.M.T. Responders and I was like, Where are my? Where's where is everyone from my world? They're all supposed to be here, these people help them. (https://www.youtube.com/watch?v=2OyXIJp8AxM&t=270s) You know, no one showed up all the good.
+
+[04:30] Liberals were fine having the police officers and the firefighters who would save them if they were being robbed, or their house was on fire. Or their kids were in a burning building, these guys and girls would run in to save their children. My peers were fine letting this be done to them, and it was so elitist and so disgusting. So your mind must have exploded. I It was so hard to process and it wasn't just like a handful, it was on Mass. (https://www.youtube.com/watch?v=2OyXIJp8AxM&t=304s) It was like everyone was in a cult.
+
+[05:04] And it was a cult of in which they were abandoning all the ideals that they had professed and that I had admired. Why I was a liberal is we don't do things like that, you know, we don't sacrifice whole classes of people, but I guess we did. Why do you think you were in the tiny percentage who wouldn't go along with it? That's a hard question. I mean, I guess, well, I've never gone along with anything, you know, that shouldn't be gone along with. I know the feeling, but I guess I'm lucky.
+
+[05:39] (https://www.youtube.com/watch?v=2OyXIJp8AxM&t=339s) So you didn't get that far in the Girl Scouts, is what you're saying. I don't think they would have had me. I think I'm lucky for a few reasons. I mentioned how great it was, like a lot of marriages ended during this time. You know, I had someone beside me who you know was Supp. I know I'm so, so lucky, yeah, were very lucky. But also my grandmother, Fay Goldman, May wherever she is bless her. She was an absolute, she believed in this country, she was a patriot and her mom was, you know, a 16yearold Russian immigrant.
+
+[06:16] (https://www.youtube.com/watch?v=2OyXIJp8AxM&t=376s) And, you know, I'm the daughter and granddaughter of immigrants, and she just fiercely believed in this country, and she didn't put up with bullies. And so I guess she just raised me to be aware of. When this country was veering away from freedoms of speech or, you know, democracy, liberty, that's what you know. My family had fled the Zars and, you know, fled Germany on the other side of the family to escape.
+
+[06:54] So I recognized it, you know, the stench of it, the stench of fascism and totalitarianism, but you share that with probably five dozen other people. (https://www.youtube.com/watch?v=2OyXIJp8AxM&t=414s) I know almost that exact family story in a in a history of principled nonconformism, which I have always admired. And none of them went to the first responders protest. So it does. No, I'm not attacking them, I'm just. But it is interesting that it still doesn't quite explain why you wound up on in the place that you did.
+
+[07:29] I understand that I'm believing in and behaving according to values I've always had. I don't understand why people around me who profess the same values yes, turned all at once. (https://www.youtube.com/watch?v=2OyXIJp8AxM&t=449s) I mean, they were being heavily propagandized. Yes, you know, but these are, I mean, how honest you want to be. These are smart people, I know you know what I mean, and they're certainly well educated people. I know. I know, I know, I know I can't explain it. I mean, you know you, I'm sure aware of Dr. Michael Nell's book, The Indoctrinated Brain.
+
+[08:00] And I think some of it is, you know, I can only speculate Tucker, but people were isolated. (https://www.youtube.com/watch?v=2OyXIJp8AxM&t=480s) And, as I wrote in my last book, The Bodies of Others. Isolation is a way to break down prisoners, and it's a form of torture, and it changes the brain. And so people who were isolated and being propagandized nonstop that, you know, we're the ones endangering everyone or those first responders who won't get vaccinated, they're the ones endangering everyone. They believed that you should fire the first responders. Cuz, they're endangering everyone.
+
+[08:32] You know, everyone was lying, Hey, it's Tucker Carlson. (https://www.youtube.com/watch?v=2OyXIJp8AxM&t=512s) The Internet is crowded with interesting things that don't really matter. On TCN. We attempt to bring you interesting things that actually do matter. And a lot of them interviews long form and short videos, documentaries. You can find all of it on tuckerCarlson,..com, and we hope you will.

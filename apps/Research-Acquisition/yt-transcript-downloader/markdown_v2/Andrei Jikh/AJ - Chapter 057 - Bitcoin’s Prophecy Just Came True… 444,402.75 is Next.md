@@ -1,0 +1,69 @@
+# Bitcoin’s Prophecy Just Came True… $444,402.75 is Next
+
+**Channel:** [[Andrei Jikh]] (`AJ`) · Chapter 57 of 322 · Length 15m 48s · [[00 - Channel Summary]]
+**Video ID:** `2HRBJCp9XkI`
+**URL:** https://www.youtube.com/watch?v=2HRBJCp9XkI
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-25 11:46
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:23|Part 2 · 10:23]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] all right so we all know that price predictions are crazy they're almost never right except for when they become a prophecy this is going to sound absolutely crazy because it is but something just happened in the Bitcoin space that no one can explain it all started thanks to this guy Josh Mandel who back in November 2024 when Bitcoin was $74,000 predicted that on March 14th a day known as Pi Day that Bitcoin would reach exactly $84,000 to the dollar back in November very few people paid any attention to his prediction but as it got closer to March 14th things started to get a lot more
+
+[00:49] interesting by March 11th Josh Mandel said the seemingly impossible was in play tweeting 84k on Pi Day with a reference to the song the Impossible Dream so March 14th rolls around I'm on Twitter I'm seeing this guy's tweets I'm seeing Twitter blow up because of how close his prediction is getting there's a few hours left to go for the market close and I know that it needs to close at exactly $84,000 by 8:00 p.m.
+
+[01:31] eastern time so I look at bitcoin's price and it's within a couple hundred I'm thinking there is no way that some random guy on the internet is about to predict this correctly to this degree of accuracy but then 8:00 p.m.
+
+[02:04] Eastern rolls around I refreshed Twitter and depending on the exchange people were looking at Bitcoin finished the day at exactly $884,000 now some people joked Josh either controls $10 billion of liquidity or he speaks to Angels but that's not the crazy part the crazy part is what he said what happen if he ended up being right because in that same prediction that he made way back in November he said that if we reach 84k the next price Target would be $444,500 2.75 and I thought this was worth making a video about to help explain this crazy prophecy who this guy is how he was able to do it
+
+[02:27] and most importantly how bit coin might actually reach that price Target relatively soon thanks to the United States it goes without saying this video is going to be very speculative but I do want to help explain the absolute Insanity that just happened so with that said let's get into it hi my name is Andre J hope you're doing well come for the finance and stay for the Bitcoin this video is going to be very astrology girly of me but uh I'm a dragon Capricorn rising so according to Josh's pred prediction bitcoin's bull cycle will Peak somewhere around $444,000 now this very specific number
+
+[03:08] comes from a poetic prophecy that Josh posted online and here's what he said when 84 becomes the base Bitcoin calls will melt their face this is how you get ahead by ibit calls in size instead 10 to1 you'll write it up the stock it Soares into the skies then sell the call and exercise size see the path of Pistol Pete try a slug and then repeat look at every day at close and lows when 84 is on the dot the car will launch a real whole shot feel the G's hear the Roar the coin won't stop 360 more a trio of fours times a grand that's the top so that sounds absolutely insane but let's just break it
+
+[03:52] down translated into simple language the trio of 4 * 1,000 = 44 4,000 and adding 360 more on top of 84 gives us that same ballpark of 444 he's even given the prophecy an exact number $444,500 75 now where he gets that extra $42.75 is part of the mystery but people are saying that if he was able to get that first part of his prediction so specifically back from November of last year it makes sense that the second part of that prediction could come true as well and if it does it would melt faces surpassing even the craziest mainstream predictions of what Bitcoin could be worth this year or this
+
+[04:44] cycle now if you're thinking this guy sounds kind of crazy just look at what he's been able to do so far he started this account with $2.1 million back when Bitcoin hit5 5,000 in January so Josh took out a $2.1 million short position saying that he thought the market would drop and that's exactly what ended up happening and he was able to turn $2.1 million into over $22 million so at this point I'd be lying to you if I said I wasn't already calculating my future net worth if his prediction comes true but the first question is who is this guy and how is he doing it because chances are you've
+
+[05:31] never heard of him but he's not just some random guy on Twitter he used to be a Wall Street Trader at the Solomon Brothers and kton Associates so this guy has a lot of trading experience but still no amount of trading on Wall Street would give someone the gift of foresight so how the heck is he doing it he says that the way he was able to make his prediction goes back to something he saw 30 years ago the truth is that I have a very specific specific prediction based on memories of something that happened 30 years ago combined with thoughts which seem everpresent in my mind that's what he
+
+[06:07] cryptically told everyone on Twitter and this has led to a lot of theories all the way from mathematical to just outright aliens now one of my favorite theories that I saw out there is that there's some numerological pattern to his predictions because all of the key numbers and dates in his predictions seem to align with the famous three 369 pattern now Nicola Tesla once said if you only knew the magnificence of the Three 6 and N then you would have a key to the universe Nica Tesla believed that these numbers weren't random but they were part of a hidden universal code and the crazy part is
+
+[06:49] that all of Josh's numbers reduce down to threes sixes and 9es this is about to blow your mind I don't know if it explains anything but the coincidence is kind of scary for example his original price prediction which was $84,000 reduces down to three here's how 8 + 4 = 12 and then 1 + 2 equals 3 then the date 115 2024 November 5th which is when he made his first prediction that reduces down to six here's how 1 plus + 1 + 5 + 2 + 0 + 2 + 4 = 15 then 15 can be reduced to 1 + 5 which is six and it gets crazier his $444,500 75 has a digital route of three 4 + 4 + 4 + 4 + 0 + 2 + 7 + 5 = 30 and 3
+
+[07:47] + 0 = 3 and His short position when Bitcoin was at 5,000 has a digital root of 6 so we have 3 6 3 6 added together is 18 and 1 + 8 reduces to 9 oh and remember that extra $42.75 on top of his base prediction that reduces down to n as well so we have our pairs of Threes sixes and 9es now I don't know if that necessarily explains anything but his predictions do have a very interesting mathematical symmetry to them that I think Nicola Tesla probably would have been like I knew it now where's my pigeons which gets even crazier when you consider that Josh did once say that he's a believer in
+
+[08:42] simulation Theory which actually supports the idea that reality might have some mathematical pattern at its core which makes reality predictable or this could be just one giant coincidence but here's where things take an even crazier turn because as unbelievable as $444,000 sounds there's actual real evidence to suggest this number could be possible for this cycle and it's not because of some mystical prophecy but because of the US government by the way I wanted to share something that could be really helpful if you're looking to level up your finances whether you're saving investing or just
+
+[09:18] trying to make smarter money moves having solid credit can make a huge difference and that's where kickoff comes in kickoff is a credit building tool designed to help you improve key credit factors without all the headaches it's the number one credit building app on the App Store it has been praised by Credit Karma and NerdWallet as a smart and easy way to build credit signing up takes just minutes no credit check no interest no hidden fees and plans start at just $5 a month your ontime payments get reported to all three credit bureaus helping you build payment history and lower utilization
+
+[09:51] users with credit under 600 saw an average increase of 25 points in just 1 month and up to 84 points in a year I know that when I apply for a loan having a better credit profile can mean saving me thousands on interest and that's money that I can use for things that actually matter if your credit is holding you back kickoff is the safest and easiest way to build it quickly right now they're giving my audience 80% off your first month and you can start for as low as $1 click the link in the description down below and take control of your credit today thank you kickoff for supporting the
+
+## Part 2 · 10:23
+
+[10:23] channel and now let's get back to it so here is how Bitcoin can reach over $400,000 just recently Andrew hones the CEO of New Market Capital introduced the concept of bit bonds at the Bitcoin policy Institute for America event his proposal is asking that the US government issue two trillion dollar in bonds remember this is how the US government borrows money by creating bonds and it would allocate 10% of that 2 trillion that's 200 billion to buy Bitcoin and with the remaining 90 % funding regular government operations now these bonds would offer an annual interest rate of 1% which is
+
+[11:08] significantly lower than the current US 10-year rate of approximately 45% and this reduction could save the government $70 billion per year in interest expenses that it would have to pay to foreign governments and other investors and over 10 years that would save the United States $700 billion now after 10 years Bond holders would be entitled to get their interest plus up to 50% of bitcoin's price growth so by integrating Bitcoin into the national debt strategy the government wouldn't just diversify its Financial portfolio but it could also benefit from bitcoin's long-term growth so the next
+
+[11:50] question is could this happen and the answer is yes right now A bill has been re introduced in Congress a bill that if passed would require the United States to start buying Bitcoin as part of its National reserves now this is not just speculation Senator Cynthia lumus has been pushing to create a Bitcoin strategic reserve and if this bill passes the government would begin buying 1 million Bitcoin over the next 5 years which at today's prices would cost the United States about $80 billion now that's about 5% of the entire bit coin Supply and if that's completely removed from circulation if
+
+[12:31] the government starts buying at this scale that could create the perfect storm for Bitcoin to actually be pushed toward Josh's $444,000 price Target not because of magic or prophecy but because of a government-backed Bitcoin Supply shock that could push the demand just high enough but having said all this let me just tie it all together and give you my personal thoughts as someone who stands to financially benefit a lot if his prediction were to come true whether you believe Josh's vision from 30 years ago or his 369 numerology or you just think this is all a crazy coincidence the reality is
+
+[13:12] something big is happening in the Bitcoin space and it's going to happen whether that's this year or in the next four years from now but I'm cautiously optimistic about all of it even though I believe this could be a possibility as much as I want to invest every dollar that I have in Bitcoin I don't know what I don't know and the part of me that's ignorant and doesn't know is the part of me that is Diversified and I assign at least 70% of me to the part that doesn't know but there is something valuable to remember every Bitcoin cycle has its profit that one person that seems to know something
+
+[13:54] everyone else doesn't but I think you have to be very careful with predictions especially when they come with any level of Showmanship and this is coming from someone who loves to perform in front of the camera because performers are storytellers and I think Josh does a really great job at creating a cool story for example he said there were secret rules from 30 years ago that Josh says explains all of his predictions but were lost in the 9/11 destruction implying that it might relate to some obscure financial model or even a lost code book from the brothers and I think it's that theatrical
+
+[14:30] style that should make someone stop and be a little cautious there's also talks about something called the fourth turning a generational Theory which says that historic Cycles repeat every 80 to 90 years as part of some Grand cyclical pivot and that could be possible but sounds like good oldfashioned Showmanship just be careful and remember when there's enough mysticism it creates a very faithful fan base and it elevates the performer to almost a Godlike status that people worship and there's no doubt that Josh has some incredible Godlike talent to make money trading and reading charts but
+
+[15:12] beyond that I probably wouldn't look too deep into this as some kind of mystical prophecy that will 100% come true it's cool to think about and it's exciting and maybe it'll happen maybe it won't it's entertaining and we'll find out if it comes true in the next few years but at least for now I'm staying Diversified and I'm not putting all my eggs into one basket no matter how much I love that basket but I'd love to hear your thoughts about it I hope you have a wonderful rest of your day smash the like button subscribe if you haven't already I'd love to see you back here next week I'll see you
+
+[15:46] soon bye-bye

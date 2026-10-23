@@ -1,0 +1,28 @@
+---
+fis_schema: "folder-index.v1"
+folder_id: "FLD-20260829-072b43ea"
+folder: "Documents\#recycle\axiom dump\B\transfer\Axiom-Navigator-extracted\Axiom-Navigator\00_SEED\P5_INCOMPLETENESS\L_LINKS"
+folder_class: "project"
+confidence: 0.6
+dependency_risk: 0.0
+dominant_family: "text"
+dominant_ratio: 0.75
+file_count: 4
+classified_at: "2026-08-29T14:22:29"
+allowed_actions: ["index", "rename_internal", "subfolder_sort", "archive_exports"]
+suggested_name: "l_links"
+---
+
+# FIS Folder Index: L_LINKS
+
+**Class**: project  ·  **Confidence**: 60%  ·  **Files**: 4  ·  **Dominant**: text (75%)
+
+## Allowed actions
+- index
+- rename_internal
+- subfolder_sort
+- archive_exports
+
+**Suggested name**: `l_links`  (not applied — review before use)
+
+<!-- FIS folder-index.v1: parseable note; safe to regenerate. -->

@@ -1,0 +1,63 @@
+# Laugh in the Face of Authoritarianism
+
+**Channel:** [[Tucker Carlson]] (`TC`) · Chapter 404 of 990 · Length 13m 03s · [[00 - Channel Summary]]
+**Video ID:** `ZkQ6p3TC0Eg`
+**URL:** https://www.youtube.com/watch?v=ZkQ6p3TC0Eg
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 03:14
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:13|Part 2 · 10:13]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] the first two things authoritarian movements do first they try to control your language and second they stop you from laughing why do they do that well they control your language so they can control your mind and those of you who were born speaking Hungarian someone said to me the other day that Edward Teller when he won the Nobel Prize said I would not have won this if I didn't speak Hungarian but because I do my brain works differently and I think a language as complex as Hungarian totally indecipherable I mean I pick up Spanish going to Taco Bell I've not picked up one word of Hungarian
+
+[00:28] this enti week I think it's true especially for your language but it's true for all languages words determine the way that you think and if you take the words away as Orwell famously noted in about four different books and a 100 newspaper columns you take away people's ability to think about things so that's the first thing they do the second thing they do is make it illegal to laugh particularly at them now why do they do that well partly because they're thin skinned and insecure and that's why they went into politics in the first place to prove something to their absent or alcoholic fathers
+
+[01:00] granted but there's a deeper reason for it and that is that humor is perspective how do you find something funny by Rising above it to a high altitude and looking down at its Outline by seeing things in their entirety by looking up from the script and gazing around and noticing where you are and finding it hilarious that just in fact happened to me I I was kind of in my own world texting with my wife and I looked up and I'm right across the danu from Slovakia about to give a speech to people I don't know and I thought to myself kind of hilarious where am I not really sure enjoying it yes and
+
+[01:38] I laughed to myself because I had perspective perspective is the one thing they refuse to allow you this is the way it is this is the way it's always been and this is the way it's going to be now that's an obvious lie but in order to convince you of it they have to eliminate any reference to the past they topple your statues they tell you to shut up and stop talking about your family or your country be ashamed of what your ancestors did hate your history they prevent you from having old words because old words describe Old ideas and above all they prevent you from rising above the current
+
+[02:22] situation and looking down to assess it clearly otherwise known as comedy so I'm not bragging when I say the United States has been I'm 52 for my life the single funniest country in the world a truly hilarious place we have an entire economy built on being funny it's called standup comedy and we led the world as we did in Aerospace uh in comedy for Generations it's all gone it's all gone it is no longer allowed so I think if you're going to you know recognize what's happening you first need to recognize that this is not liberalism that is being imposed on you that's one of the many words
+
+[03:05] they've stolen it is illiberalism it is the opposite of liberalism it is a totalitarian idea that everyone behaves the same everyone reads from the same catechism from the same list of slogans and that everyone obeys that is the opposite of Enlightenment liberalism which forms the basis of my politics and my worldview okay that's the first thing the second thing is they hate it when you leave the country and look around because you might conclude that hey even an you know a country with a GDP smaller than the state of New York that has no Navy because it doesn't have an ocean that is stuck
+
+[03:44] between hostile neighbors that's been overrun by foreign powers you know for the last 900 years even a country like that can have kind of happy people and can stand up for its own citizens so if they can do it if they can do it why can't we do it like how hard is it I went to your border the other day yeah I went to your Southern border we bombed down there on Wednesday and the producers and I were talking on the trip down and you know obviously hungary's not as rich as the United States but they're technologically advanced they've created all these Nobel Prize winners you know they they sort
+
+[04:22] of they understand math okay that's why they're good at chess so clearly they border bearing is going to be this super Hightech Wonder of science that can detect syrians 30 km away and stop them in their tracks so we get there and your border wall turns out to be a chainlink fence and there's nobody there there's not one person there I grew up on the US border actually on our border with Mexico 15 miles from the border I know the Border very well I know what it looks like now and it is a Perpetual scene of human suffering U ing children crying people getting hurt garbage everywhere it's it's
+
+[05:04] a disaster it's a hellscape and it's a sad thing not simply for the United States but for the migrants trying to come north it's bad for everybody because chaos always is so I look at your border and I'm thinking well what is the secret here how can this country there I didn't even see anyone with a gun there was one guy with not even a visha he had a German Shepherd which I thought was a little bit degrading to your national pride got to be honest get the vas involved it's your dog but it's not my call laor lab Labrador now you're speaking spaniel get some Springer Spaniels an underrated dog
+
+[05:35] we have four but here's my point it took about an hour to figure out how exactly a country much less rich and technologically advanced than ours with a much bigger as a proportion of population border problem than ours could secure the Border completely and we found out in the afternoon over the space I timed it it was about 26 minutes where two migrants from the Middle East believe they were from Syria were apprehended two young men and they were taken into custody right in front of us and they were photographed they were patted down on the outside of their clothes and then they were LED
+
+[06:10] away right in front of us they were LED away now I'd read enough about Hungary to know that when you're LED away in Hungary obviously you're going to the dungeon so I decided as a journalist I should follow these unfortunate young men as they were led to hang from the rack in the basement of the castle so they went through this door and I followed them and I said to the guy who was escorting us what is this and he said this is our border and they were LED politely out and brought to the other side and that was it the whole thing took 30 minutes that was the whole process they weren't dropped
+
+[06:44] off in downtown Budapest to beg or to live in a shelter they were just politely told I'm sorry you don't have permission to come here see you next time and sure they'll try again I said will they try again oh absolutely they'll try again what are you going to do that time bring them back how many times well the record is 52 but we can go to 53 we can do that we have the technology we have guys who can walk and we'll just escort them through the Border door okay and that's why there's no one at the border so I thought about this for a second and I thought what does this say about Hungary it
+
+[07:19] doesn't suggest profound technological sophistication it suggests PR profound commitment these are people who've decided they want to do something and using the lowest tech means possible or achieving it much more effectively than the powerful United States government so what's the difference and by the way if I if I sound critical of my own government it's because I am but there's nothing I believe in more than America so I just want to be totally clear of on that and I and I really think I don't actually really think I'm going to say anyway and pretend as though I think Dawn is coming soon
+
+[08:03] but here's the point you behave this way if you care if you care if you think of your country like your home you don't want it to look crappy it's really that simple if it's your house you want to be in charge of who sleeps there that's not a complex principle it's the most basic human principle so as I'm standing at the border literally at the border fence thinking about this watching the German Shepherd amble past I was trying to talk to a Border guard who by the way like as as noted like every Hungarian I have met every from the driver to the waiter to the Border guard had better English
+
+[08:45] than our own president I said how often do people come to the Border how often do you you see migrants putting ladders at top the concertina wire is this like every hour every day is it at night during the day I'm trying to ask the dumb journalist questions and he said well and then he stopped and he looked down like very intensely like something bad had happened and I'm from the us where we have poisonous snakes so I immediately thought you know I don't know if they have cobras in Hungary again I don't speak the language so I step back and there is a plastic sandwich bag about that big on on
+
+[09:28] the ground stuck at the bottom of the chainlink fence and this guard reaches down grabs the bag and puts it in his own pocket and I don't think I've I have seen in my life very few displays more powerful than that so here's a Border guard I don't know what they make I'm guessing not much he's a civil servant he works for the government and he's so offended by the idea that there's litter in his country that he puts it in his own own pocket what does that tell you it's the clearest possible expression of love and respect when you love something you keep it clean period I've said this on
+
+## Part 2 · 10:13
+
+[10:13] television many times and every time I do they call me a fascist as if cleanliness were a fascist quality it's not it's a virtue order and cleanliness are essential to human happiness and if you have teenagers you know because they're filthy they're disgusting they live in filth I've had four I can attest to this it's not a moral failing it is a failure to teach clear virtue happy people are organized my father always made us make our beds in hotel rooms and I would always say why would you make your bed in a hotel room you have a chambermaid to make your bed for you and my father said
+
+[10:57] because you respect yourself and you don't have an unmade bed because you're not a slob because you're not an animal and the same is true of countries if you care about your country it's clean and orderly and you can tell precisely the point when people stop caring about their country is when drug addicts start building 10 cities on the sidewalk the entire state of my birth California you too you're a refugee it's disgusting and for reasons that used to confuse me but now make perfect sense the one thing they flip out they become enraged if you complain about is that so you can stand up in
+
+[11:41] the Public Square in the United States and say you know I think our marginal tax rates are too high or I think you know we should erect more tariffs against American corn or foreign corn competing with American agriculture any kind of policy issue and people will say you know that's a good idea it's not a not a good idea let's let's debate it it's fine that's within bounds that's allowed if you stand up and say there is a vagrant defecating on the sidewalk in front of my house and I came out this morning with a rolled up piece of paper and smacked him in the nose and said get the hell out of
+
+[12:13] here you can't crap on the sidewalk it's my sidewalk it's my house it's my city it's my country it's not allowed I I'm I feel sorry for you I hope you find someplace better to go I hope you get your life in order but you're not going to do this here cuz I live here if you were to say that out loud oh you're a fascist oh so why is that not allowed why can't you say that I'll tell you exactly why because it reveals how little the people in charge care about the country they run and about you they don't care at all and it's obvious y hear people say the news is full of lies and ked's motorave
+
+[12:56] 239 death of Jeffrey EP [Music]

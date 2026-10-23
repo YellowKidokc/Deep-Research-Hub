@@ -1,0 +1,52 @@
+# Frank Turek Explains How Morality Proves God | DDOW Podcast #09 (Pt.4)
+
+**Channel:** [[Daily Dose Of Wisdom]] (`DDOW`) · Chapter 347 of 916 · Length 10m 14s · [[00 - Channel Summary]]
+**Video ID:** `8ET8ku-2RYE`
+**URL:** https://www.youtube.com/watch?v=8ET8ku-2RYE
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 05:27
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] morality is ingrained in us through Evolution it it's essentially Sam Harris's argument when he debated William Lan Craig human flourishing that's that's that's what is moral we all know that we want it but I mean I have my own thoughts about this but what how how would you respond to that idea why do we need God to in order for there to be objective morality or how does the fact that there is objective morality point us to God but first is there objective morality all these questions are you know integrated into each other let start their objective morality sure I think we know that by
+
+[00:31] intuition okay in fact J bufi at uh UT Austin wrote a book 20 years ago called what we can't not know and he basically says this when you're old enough to know what murder is and what wrong is you know what you know that murder is wrong it's not innate knowledge you weren't born knowing it but your mind is structured in such a way based based on the fact it's made in the image of God that when you're old enough if your mind is functioning properly you know murder's wrong now you could be talked out of that by bad education or by Propaganda that kind of thing uh but a fun properly functioning
+
+[01:10] mind appropriate age you know murder's wrong now why would it be wrong if there was no God it would be just your opinion and if if there's no purpose to life as atheists say then you can't say here's the right way to live life and the wrong way to live life sometimes I give this illustration particularly on a college campus uh I'll say uh how do you know that your quarterback throwing a touchdown is better than your quarterback throwing a pick six that's when he throws it to the other team and they take it back for a touchdown and people initially don't get it you know they say well the rules
+
+[01:40] no it's not just the rules the only way you know a touchdown is better than an interception is you know the purpose of the game and you know that a touchdown takes you closer to the purpose and a pick six takes you further away if there was no purpose to the game you couldn't make any judgment to say this is a good play the touchdown and this is a bad play to pick six if there like likewise if there is no purpose to life you can't say that say loving somebody is the right way to live and murdering them is the wrong way to live because there's no objective to life without purpose you can't you
+
+[02:15] can't determine good or bad right or wrong even from a pragmatic perspective you can't determine that so there's got to be a purpose and atheist admit there's no purpose to life and even Richard Dawkins admits this he famously said that in a in a universe of of blind physical forces there is no justice there is no good there is no evil they're just things just happen and you know bad things happen and he goes on to say I'm I'm obviously paraphrase I don't have it memorized but he says um we just dance to our DNA we're just molecular machines in other words we're just moist robots if we're
+
+[02:53] just moist robots then murdering someone first of all we're not we didn't make the free choice to do that we were just compelled by physics or Evolution to do that or loving them same thing it's it's just it's just what is it's not an ought you can't get this ought from biology you only get and is this is what happens how do we have moral obligations if there is no first of all is no moral standard and is no authority to say you you ought to behave this way you don't get moral obligations you might get moral sentiments you might get oh uh you know uh I uh I have this idea that love is better
+
+[03:35] than murder but you're not obligated to obey love is better than murder if there is no moral objective moral standard and there is no good Beyond us and there is no Authority Beyond us it's just your opinion and by the way as we know even Richard Dawkins will admit this Darwinism evolution is completely about the survival of the fittest and he that's why he says I don't want to live in a darwinian morality because it is survival of the fittest should we kill the weak so the fittest can survive that's what Hitler did in fact he used evolutionary theory in mind comp to advance Nazism to advance
+
+[04:14] uh the murder of the Jews so he could create the Uber race and and the disabled right I I remember reading about under in the Nazi regime they they just calculatedly obliterated people with disabilities the the the weak members of society as well from from a darwinian motivation they obliterated the Jews the homosexuals Jehovah's Witnesses the disabled um gypsies because they thought they were inferior stock so to speak this is eugenics uh this is not people made the image of God in fact how did they get the Nazis to murder all those uh all those Jews they said they were subhuman right they
+
+[05:00] dehumanized them uh so yeah there is no God if there is no God there there's nothing ultimately right or wrong and if you're going to say that evolution is given your moral sentiments well they're they're just your moral sentiments then they're not really binding they're not obligatory it's just it's just an opinion that you have and by the way if evolution has given us all our moral sentiments Evolution has also given us all of our thoughts as well including the thought that there is no God including the thought that morality is just a a a a artifact of evolution so it's a it's really a
+
+[05:36] self-defeating View at the end of the day brand because wouldn't wouldn't the Eugenics that you were talking about actually be moral if the end goal was that the fittest would survive if that's the definition of what is moral is the human species becoming stronger and more healthy people going forward in history then this is something something I don't understand I've never heard like an an atheist or a I guess a evolutionary ethicist answer this particular question that seems to be actually moral according to that view if if the end goal is fit survival well what they have to do is smuggle
+
+[06:17] in a standard like human flourishing which is what Sam Harris does and we respond to him in the book stealing from God they have to smuggle that standard in in order to make theirst work but again if there is no God not even human flourishing is good because there is no good there's no purpose there's no objective so human flourishing isn't good either in fact um if you're going to say human flourishing is the standard you could also ask which humans the Nazis or people oppose the Nazis again you have no standard by which to judge that all humans who said you said what if Hitler comes along
+
+[06:54] and he says I want to create the Uber race and I want to get rid of the homosexual and I want to get rid of the EG Gypsies and I want to get rid of the Jehovah's Witnesses and I want to get rid of the Jews and I want to get rid of the disabled I want to do all that why is that wrong if there is no God it's just your opinion there is no there is no right or wrong if there's no God and all you can say is if Evolution's true that first of all you wouldn't know it's true because the thought that you have that evolution is true was given to you by Evolution secondly um it's just the way things are
+
+[07:24] it's not right or wrong good or bad it just is what it is you don't get this ought from this biological process you only get an A from an immaterial moral Authority who is righteous himself and is the standard of rightness and said here's the objective of life love one another don't murder one another that's that's how you get morality you don't get it from from the bottom up you get it from the top down so your your football analogy reminds me a little bit of Cs Lewis's idea of the measuring stick he says you have to have an idea of straight in order to know what crooked is it's that idea of
+
+[08:03] a TR like a Transcendent thing or in your analogy the rules of the game not just how are we playing it you can't change that all of the time there has to actually be an agreed upon embedded uh baked in understanding of how does this game work what are what are the rules of engagement how does the world work what are and the idea that we can understand when something is wrong itself reveals that there is is some outside of just your opinion versus my opinion that's right yeah there's always a standard you're appealing to in fact leis says in Mere Christianity if you're going to say that one
+
+[08:37] set of ideas is better than another set of ideas for example if you're going to say and he wrote this during World War II if you're going to say the Nazi ideas are better than or or the Allied ideas are better than the Nazi ideas you're implying there's a standard Beyond both the Nazis and the AL allies to which you're comparing both sets of ideas right there's got to be a standard to outside of say America and Germany to say well America's closer to the truth than Germany was in World War II what is that standard that standard has to be outside of both countries that standard is God's nature
+
+[09:16] and Lewis also gave the illustration of boats where he said um you know we might agree that it's better if you know there certain rules of the road when were're uh out there in the sea uh you know you don't cut me off in a certain way I won't cut you off that kind of thing but you really got to figure out why are the boats out there to begin with I mean what's the purpose of boating you know like where are you going what are you doing and without that overall purpose you there's no objective way of saying this is the right way to boat and this is the wrong way to boat right there's there's
+
+[09:50] got to be an there's got to be an overall purpose and that overall purpose in life according to Christianity is to know God and to make him known to love God and love one another and when you do that you'll know God and you'll make him known

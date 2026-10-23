@@ -1,0 +1,52 @@
+# What Ed Martin Can Do To Get To The Bottom Of The Fedsurrection
+
+**Channel:** [[Mike Benz]] (`MB`) · Chapter 644 of 690 · Length 9m 11s · [[00 - Channel Summary]]
+**Video ID:** `aK8VODkCwVc`
+**URL:** https://www.youtube.com/watch?v=aK8VODkCwVc
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 02:15
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] That's a wholesome investigation on January 6th and it will make the clear the hoax. >> All right. Um I want to bring in now former State Department employee, executive director of Foundation for Freedom Online, Mike Benz is back with us. Mike, it's great to have you back on. >> Great to be back. Thanks. >> First off, I urge anyone out there to watch Maria's interview with Ed Martin. I I actually found it very informative. What is your takeaway? Do you think things are moving fast enough? We've got some grand juries formed.
+
+[00:36] I can tell you overwhelmingly what I get is the people are still very frustrated, Mike. Yes. And I think that's a natural response. Things have been moving at breakneck speed at almost every agency front uh from in the Trump administration from massive reforms to the State Department laying off 4,000 folks there last month, the closure of USID, the potential shutdown of the Department of Education.
+
+[01:14] um massive reforms across the board, but justice does move more slowly and and this is in part because justice has to ingest all the evidence from all the other agencies and then make sure a case is airtight before it's brought. And there are lots of considerations in in many of the rogue activities that justice has to be implemented around when you're talking about the the Russia gate affair. We know we now know that a grand jury is being impanled. We don't yet have the the set of potential defendants in those cases, but um that that has been widely reported that they are being impanled.
+
+[01:39] Obviously, we've the o that comes down to ingesting the information from not just whistleblowers, but also from the intelligence agencies themselves. We've seen mass disclosures from ODNI. The FBI is still finding documents. We know that these people tried to delete all the evidence, tried to burn them. Uh we uh whistleblower brought forth thousands of FBI documents that were supposed to be burned in burn bags, which is how we've gotten these recent FBI releases. But you have you have the Russia gate affair. You have the January 6 the elements of the Federection.
+
+[02:18] You heard Ed Martin refer to um uh to the to the January 6 case. And this is something that is I I think when when when Ed Martin does get to the bottom of it, I believe it'll bring the house down. This is this is something that was lorded over the American people for four years, 5 years almost now. And what we know about it already is is so damning. And what the what the Justice Department has to sift through is is the underside of the iceberg. We know that the FBI had penetrated all the different major so-called right-wing militias. We know that DHS had twice as many agents as the FBI.
+
+[03:00] We know that the January 6 pipe bomber case was effectively abandoned by the Justice Department despite it being the most highprofile incendiary explosive element of the January 6 uh affair for months afterwards. It was this threat of this January 6th pipe bomber that was that that made this a potential mass casualty event. And in in the entirety of the Joe Biden Justice Department, they never disclosed a suspect. They never disclosed the age, the race, the gender. Uh all they showed were were a a set of $300 Nike shoes.
+
+[03:40] We uh I've put forward evidence showing that I believe that they actually blotted out the eyeballs of the January 6 pipe bomber. uh so that when you zoom in on it, the eyes are blurred out. This usually means that the person uh if they had a if they had a criminal record or if they had a uh a military record or if they were a federal officer, their eyes would have been scanned in a database, but now you can't look that up because they blurred the eyes out.
+
+[04:13] But you had this person walking around on foot for 90 minutes in the home turf of the national surveillance state, Capitol Hill in Washington. Uh the the cell phone data, this person was texting on their cell phone. Uh the the former FBI said that that that cell phone data was corrupted for the pipe bomber and only the pipe bomber. But then the the actual cell phone companies said the data was not corrupted when they sent it to the FBI. All this stuff has to be dug up as well as the original footage. For example, the DNC footage for the pipe bomber was reduced to just one frame per second.
+
+[04:42] That's the kind of security camera footage used in the 1970s. There's no way that's the original footage. That was doctorred. They they cut it down to one frame rate. They didn't disclose the the part of the video of the pipe bomber actually planting the pipe bomb. We know that the Biden administration lied to the Justice Department for an entire year about Camala Harris's whereabouts.
+
+[05:15] So much so that the Justice Department had to refile grand jury indictments because the Justice Department lied to the judges and the grand juries about Camala Harris being in the capital when actually she was right where the pipe bomb bomb was suspiciously planted. There's there's so much of this that has to be made public, but but starts with getting the raw source footage. Get the original copies of the security camera cameras and and make that public to the world.
+
+[05:38] Mike, look, over the last couple weeks, we've basically learned beyond a shadow of a doubt from the emails, which nobody that's written the emails from Clapper, Obama, and have disputed the legitimacy of these emails that basically said, "Go find me an alternative assessment. Frame President Trump." That wasn't the exact quote, but that's basically what it says. Frame Trump. Now, with what you're saying about the J6, and we've covered this on this program about the pipe bomber, do you think we'll get to a point where we prove cuz I think what you're saying is the pipe bomber was a setup job.
+
+[06:03] It was somebody inside government. It had to have been. They're walking by in and out of this thing and and you got agents smoking cigarettes outside and it sure seems like they know the pipe bombs there. You think we'll prove that it's a setup job? And that means we would have had our own government try to frame the president of the United States, Donald Trump. We would had our own government set a pipe bomb outside of political headquarters in Washington DC of both parties. I'll give you the last word on that. Do we get to that point? >> Yes.
+
+[06:40] If Ed Martin knows where to look, I believe this can be found. What we know is that the fusion the fusion cell in DC called the hospitals three days before January 6 and told them to stock up on extra blood because there might be a mass casualty event.
+
+[07:14] We know that then acting attorney general Jeffrey Rosen convened a special team out of Quantico with shoot tokill orders uh that we're told with the FBI and and special forces folks essentially all around January 6 staked out 3 days beforehand and on on suspicion of what they said a quote weapon of mass destruction might be placed around the capital. Well, that is code for a pipe bomb. That's actually the technical term, a weapon of mass destruction for a pipe bomb. This is what the uh the Michigan the Wolverine watchman if you remember in October the FBI set up people with a fake pipe bomb.
+
+[07:31] They got the for the Whitmer fednapping case the FBI literally sold pipe bomb parts and then the head of that of that investigation uh Steve Danuo the guy who was the head of the Detroit uh uh field office for the FBI became the head of the Washington DC field office ahead of January 6. He was rush promoted >> all I believe this gets to the military. >> The military is a big part of this. This final thing is that is that Mark Millie said to Gina Haspel on November 9th uh 2020 just two months before January 6 that a right-wing coup was a foot. We need to do something to stop it.
+
+[08:09] And I believe that this January 6 operation was part of an effort to end Trumpism after Trump and to create a criminal predicate to do that. And I believe it was the same units out of Fort Bragg and Mark Millie that were involved in a lot of the frontline breaches. If you study that frontline breach just before 1 p.m., it was almost all military people. And I believe it goes up to Mark Millie. >> Well, look, this is why Mike, you know, I try to give you as much time as I possibly can as you lay this stuff out. Nobody knows it better than you.
+
+[08:46] You said if if Martin knows where to look, um my buddy and I think a guy that you know very well, Darren Bey with Revolver, he's now inside the DOJ. If anybody's going to know where to look with this pipe bomb stuff, he's going to know and he's been very quiet through all of this. So hopefully I I know he's working on it. Um maybe we'll get some answers. But great work as always, Mike. I'm always fascinated by anything you have to tell us here on the program. Thank you, sir, as usual. Thanks, Red.

@@ -1,0 +1,9 @@
+# The Minimal Facts Approach to the Resurrection
+
+**Channel:** [[Gary Habermas]] (`GH`) · Chapter 217 of 351 · Length — (prose source, no timestamps) · [[00 - Channel Summary]]
+**Video ID:** `lF6nR6wKcUw`
+**URL:** https://www.youtube.com/watch?v=lF6nR6wKcUw
+
+---
+
+minimal facts approach is a great way to make a case for christ's resurrection from the dead why these six facts are facts upon which virtually all experts in the field agree that's significant let's take a look at each of these facts fact number one is jesus died by crucifixion atheists liberal moderate or conservative scholars agree that jesus really existed and was executed on a cross next comes the fact that jesus early followers had experiences a short time later that they thought were appearances of jesus we'll show you how to respond to those who offer alternative explanations for these appearances the third fact is that these followers were transformed to the point of being willing to die for this message people may die for what they believe is true but not for what they know is false not something to think about facts 4 and 5 relate to two former skeptics james and paul who became convinced that they had seen the risen jesus not all people who claimed to have seen the risen jesus were initially believers something has to account for these conversions the sixth and final fact notes that this gospel message of the death and resurrection of jesus began to be taught very soon after these events and this leaves little room for legends about jesus to take root especially since unbelievers were alive to refute outlandish claims these six facts that virtually all experts in the field except provide us with solid evidence that jesus rose from the dead learn how to make the case for christ's resurrection and how to reply to skeptics with confidence check out our resources on minimal facts [Music]

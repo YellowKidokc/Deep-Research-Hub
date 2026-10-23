@@ -1,0 +1,52 @@
+# Watch the gospel move in his heart!
+
+**Channel:** [[Living Waters]] (`LW`) · Chapter 2182 of 2497 · Length 10m 48s · [[00 - Channel Summary]]
+**Video ID:** `FjbofQulUkY`
+**URL:** https://www.youtube.com/watch?v=FjbofQulUkY
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 04:44
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] [Music] would you guys consider yourself to be educated people yes sir to an extent it's the world's best-selling book of all time the Bible what do you think yeah I was gonna say out I know maybe the Bible yeah it is it leaves everything else in on the dust are you familiar with a famous Bible verse the fear of the Lord is the beginning of wisdom you ever heard of that no what do you think it means the fear of God is the beginning of wisdom you shouldn't fear anything but God and I guess that's the smart thing to do do you fear God yes and what about you and Ricky um you saw you said the
+
+[00:46] fear of the Lord is the beginning of wisdom you fear God mmm not really do you think there's an afterlife I am unsure about that as well think about it much yes I do I think about it very often are you afraid of death yes what about you I do believe in afterlife but sometimes I kind of like step back and like I don't know maybe like once you go in the ground and that's that's it but I am after death yeah what do you think of what the Bible says about life and death I know what it says no I don't do Enrique I have no idea or assume it says death ain't too bad heaven is pretty cool no it says
+
+[01:28] the opposite it says dancing it says death is an enemy it's wages given to us by God that is the question that's the question I asked many years ago why does everybody die why is your puppy die grandma died mum and dad died why are we gonna die it makes life vain and futile us this all there is I mean it's just like a bubble yeah at Burson it's all over yeah the Bible says death is wages it's like a judge looks a heinous criminal it's murdered three girls after he raped them and says you've earned the death sentence this is your wages this is what's it do to you and the Bible says the wages
+
+[02:03] of sin is death we earn death from God do you think you deserve the death sentence are you evil I'm not even know what about you are you say that everyone's giving the death sentence oh no I'm not evil I'm cool my head I'm not he's a good person I'd consider myself a pretty good person see the Bible says every man is right in his own eyes we all think we're good you think you're good I think I'm good so we're gonna do a little test to see how good you are okay see if I can change your mind about the moral condition enric a how many lies have you told in your life too many too many to count
+
+[02:38] and what about you ever stolen something yes but I actually okay what do you call someone who steals things so what do you both have you stolen something yes so what do you call someone who steals things and you rely on a lying thief you still think you're a good person yes I was really good first I balance it out you balance that out I do something good dolly I try that in a court of law robbed a bank and then did some good judge is gonna say you got a prison I don't judge you on your goodness only judges on the crime have you ever used God's name in vain yes so you're lying to me when you
+
+[03:23] said you fear God you've used his name as a cuss word he gave you life would you use your mother's name as a cuss word no because that would dishonor her wouldn't it yeah and you've used God's name as a cuss word that's called blasphemy never use God's name to cuss yeah tell me why would you do that Enric eh why would you despise God so much you've used his name as a cuss word so you have blaspheme God's name death sentence in the Old Testament for blaspheming God's name now here's one that nailed me to the wall okay Jesus said whoever looks at a woman to lust for her has committed adultery
+
+[04:01] already whether in his heart have you ever looked at a woman with lust yes yeah had sex before marriage yes okay when the Bible's the Bible says when you do that you sin against God and against your own body and against the woman you're violating so here's a quick summation I'm not judging you guys but you've both told me you're lying thieving blasphemous fornicating adulterers our heart just still think you're a good person yes you know what your problem is yeah well what your standard of goodness is very low you think a lying thief is a good person if you look in the dictionary the word
+
+[04:38] good it's definition as moral excellence that's what the difference is good is morally excellent none of us are morally excellent we deserve the death sentence from God because of our sins he's seen our thought life from point of view out of holiness and the Bible says wages of sin is death and after this the judgment there's a very real hell and if all your secret students come out you're in big trouble on Judgment Day can you see that yes you see that that's assuming that God is real like we said from the start though well we know there's a builder because of the building there's a creator
+
+[05:11] because of creation he thinks that everything came from the Big Bang Theory so yeah buildings popped up when such a crazy thing because it doesn't give an explanation for the initial cause what caused the Big Bang to have a Big Bang any materials every Big Bang produces chaos no nothing is ordered so I know something about you guys that you don't know that I know you know what I know I have the instruction book the Bible which tells me you know God exists he's given light every man and I know that you know he demands morality because you've got a conscience you know right from wrong none of
+
+[05:45] us can say I'm got a conscience and that's god-given and the reason you want to deny God's existence is the same reason a thief wants to get away from the police because of guilt so here's the big here's the big thought if you would have died a night and God gave you justice you've got his promise you'll end up in hell justly does it concern you that a few dying essentially nothing helped well now yeah what about you yeah you know the Bible says through the fear of the Lord men depart from evil it's only when that fear comes up in your heart you'll let go of your beloved sentence because we'd
+
+[06:20] love to do wrong we love to an old rafi you have we love fornication you know we just drink and it we like water as the Bible says we're like a rich man who fell under the water wearing a money belt weighing forty pounds it was full of gold he wouldn't take it off he went he went to his death because he wouldn't let go of his beloved with gold and that's what we're like was sin we hold onto it because we love it and I'll take us to hell now what did God do for guilty sinners so we wouldn't have to get a hell any idea forgiveness nope do you know you actually do know I have no idea Christ died
+
+[06:54] for our sins he died on the cross it's as simple as this you and I broke God's law the Ten Commandments Jesus paid the fine it's as simple as that that's why he called out that's why I called out it is finished just before he died in other words the debt has been paid guys if you're in court and someone pays you fine the judge will let you go even though you're guilty you can say this fines paid by another you're guilty but away you go you're out of here and God can forgive your sins commuted death sentence let you live forever legally and justly all because Christ died for the sin of the
+
+[07:27] world rose again on the third day and if you'll repent of your sin say God forgive me on the sinner and put your trust in Jesus God will forgive every sin you've ever committed and you'll fear God and you're a BAM this is what Jesus said about the fear of the Lord and listen very closely because they're powerful words he said fear not him who has power to kill your body and afterwards can do no more but fear Him who has power to kill your body and cast your soul into hell fear him now I want to bring your attention to what he said he said if someone's running at you with a knife where you're
+
+[07:59] lying in bed you open your eyes and the semi-darkness and the guys pulls back a dagger and he's going to stab you in the chest your heart pounds through your chest just break into sweat I mean you're terrified jesus said don't fear him don't fear him it was powder kill your body but fear him who has power to kill your body and cast your soul into hell in other words the fear of God should make everything else just fade into the background because God is to be feared better to fall in the face of the Sun then fold with the hands of the Living God on Judgment Day it's a fearful thing Apostle
+
+[08:32] Paul said wherefore knowing the terror of the Lord we persuade men so if you died a day at end up in hell you must repent and trust in Christ to be saved when are you gonna do that I'm not sure when are you gonna die hopefully when I'm a hundred everybody thinks like that but every day a hundred and fifty thousand people die and many die young fifty four million every year people making plans for tomorrow aneurysm and your sleep car accident heart attack and this is your eternity guys jesus said what shall it profit a man if he gains the whole world and loses his own soul so you're gonna
+
+[09:08] think about what we talked about today most definitely yeah yeah yes I'm gonna be a good boy now that won't help a little bit better oh they won't help you need to repent and trust Christ see cuz that's like saying to a judge judge robbed the bank shot the guy but from now on I'm gonna be good he's gonna say great you're going to jail you need your sins washed away forgiven cleansed you need to be born again and trust in Christ makes sense yes sir the Bible uh-huh no sir well I think so yes maybe I'm gonna give you some literature and you have a Bible I think so I think my dad has a few a
+
+[09:44] Christian actually you use Christian yeah you no doubt listening today because of his Prius because he cares about you and so do I so guys thanks for listening I really appreciate [Music] optical illusions seem to be all the rage these days so give people - how many faces can you see optical illusion tracked found at livingwaters.com [Music] [Music] you

@@ -1,0 +1,85 @@
+# He TRIED HIS BEST To Find Muhammad In The Bible...And Left WITH NOTHING...
+
+**Channel:** [[GodLogic Apologetics]] (`GL`) · Chapter 214 of 663 · Length 15m 52s · [[00 - Channel Summary]]
+**Video ID:** `uTCWBxLIW00`
+**URL:** https://www.youtube.com/watch?v=uTCWBxLIW00
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-29 15:36
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:15|Part 2 · 10:15]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] What's Omar? What's going on, bro? What's up, man? I heard you were about to convert. I was like, "Let me come through. Get that shahada." Well, yeah, man. Here I am, man. Here I am. What's going on with you, bro? Nothing much. Nothing much. Just looking for this answer, bro. Just looking for this answer. Yeah. Yeah. I just I just jumped in. I was like, "Yeah, maybe I can help." I got about 15 minutes. Okay. So, I'm just asking where does Jesus mention Muhammad? Cuz the Quran says he does. So if somebody could show me that, I'll consider Muhammad to be an actual prophet. Okay.
+
+[00:29] Where did Jesus mention Muhammad? By name. The Quran says by name. So, but I I'll I'll allow even a description. Name, description, whatever. I think you have to stipulate to a description because the Old Testament doesn't mention Jesus by name. So, it should be by description, right? But the Bible, the New Testament never says you'll find Jesus by name in the Old Testament. The Quran says you'll find Muhammad by name. Yeah. Now, you'll find Ahmed. Yeah. That's a good point. I would probably give you the Deuteronomy 33132. The one I've given you before. I said Jesus, bro.
+
+[01:04] Oh, Jesus himself mentions Muhammad by name. By name or description. Okay. That Yeah, I don't know that I would say uh John. Oh, I would do the the pariclete. Okay. John 14:16. Yeah, that's probably the closest there. John 14:16 is where Jesus met this morning. 1416 or 1426. I don't have my Bible. It's it's all through there. All chapter 14, chapter 15, and chapter 16. And they all mention them. All right. So you believe that Muhammad is the pariclete that Jesus mentions? That's what I believe. Yes, sir. 100%. That's what I believe. Yeah. Yeah.
+
+[01:35] I I don't believe in in general that like the Holy Spirit is, but is the I'm not saying the periclet is the Holy Spirit, but for the pericletos in this verse, that is that is prophet Muhammad for sure. Okay. And so when it when it says um I'm just Okay. Just to be clear. So you believe that Jesus said this is a prophecy from Jesus about Muhammad 100%. This at least this part is the truth. Exactly. So, so then this is part of the Yeah. And and I will ask the father and he shall give you another paric. He may stay with you forever. Okay.
+
+[02:09] So, it's in So, it is actually in the Jesus is the son of God. Oh, you're you got a low bar. Got back the son of God part. It says that in this list. Yes. Okay. Let me see. Let me try to move here. Usually, this part of my house is not too good. Is it better now, brother? It's getting better. Yeah. You got two bars now. Okay. Yeah. Yeah. Yeah. So, I wasn't aware that it says son of God in that verse, but Well, he calls back son of God. He calls him he calls him his father. He says, "I will ask the father and he will give you another helper." Yeah. Right. In my name. Okay. Yeah.
+
+[02:38] So, I would answer that with basically saying what did the son of god mean to them and first second century. Well, does that matter? Is is Allah the father of Jesus in in any way?
+
+[03:10] He could in the correct sense the father the originator if if that's how you use it back then could have been a name that Allah used is a mother an originator not like the father not like the creator mean not like the I didn't say like the father is is a mother an originator in the in the sense that like she she has like babies and kids yeah but not you know not in the masculine sense the create the creator masculine sense I got some hate in the comments but yeah I mean so so when we talk about I'm Sure you guys will agree with us like with the Bible and the Quran how you guys like why you
+
+[03:20] guys say he right for for the creator of the universe stuff like that so you would say that Allah is truly a father I don't think we have a problem say it again so you would say that Allah truly is the father I would say that that's what Iben Ib said with regard to talking with Christians you're allowed to use terminology it's not something I would when talking to the Christians in debate but when it comes when it comes to your actual aka can you affirm that Allah actually is a father oh okay so if for Example, if I'm teaching class, yeah, I wouldn't use that word. Definitely not.
+
+[03:49] So, Allah is not a father in any sense, right? I guess. Yeah, they can say that. Yeah. Okay. I know what you're doing with it, but I understand my reasoning. I know. I I understand your reasoning. Just Just saying with your Akita within Islamic Akita, right? Within Islamic theology, Allah is not a father in any sense. So, right with the right. Okay. So, we don't use those words, brother. Yeah.
+
+[04:24] I know you don't use those words but it's not just just that you don't use the words this identity of fatherhood is cannot be applied to Allah at all right it's blasphemy to say such a thing right that would be a blasphemy and biddy like it'll shik like take you out of Islam I'm not sure it depends what they mean right to be honest I would have to ask the person okay so yeah yeah I would I mean like okay for if someone says that I wouldn't make tit on them I would just tell them that you know you shouldn't be using these kind of words for sure because of the meanings have changed Right.
+
+[04:44] This thing, no meanings meanings haven't changed. Meanings have nothing haven't changed. Like like that's this what I'm this is what I'm saying, bro. When you when we're talking about Islamic theology, you guys you guys you you say that is like you you go with the Sunnah and the Quran, but then when it doesn't suit you, you want to pick from the Bible to help your theology out, and that doesn't work. It's either the Bible is good for Islamic theology or it isn't. You can't pick and choose, bro. You get what I'm saying? Especially when Allah is very very clear on whether he has children or not.
+
+[05:19] Makes sense. Okay then. So, so what do you do? How did you pick and choose from 66 books or 73 books? What does that got to do with what I'm asking you? So, you're telling me I we can't pick and choose from the Bible, right? You can't. It's either the Bible's good enough for you to have your Akita and your religion, your theology, or it's not. That's what I'm saying to you. Does that make sense?
+
+[05:52] like like imagine imagine me if I was using the Quran and I I don't believe in the Quran but um when it suits me I pick uh the I pick and choose from the Quran to help formulate and articulate my theology that's that I don't find in the Bible or any Christian source but I can pull it from the Quran. Um but everything else in the Q like that's corrupted that's corrupted. Oh this actually I can I can work with this so this can actually fit my theology. You you see how dishonest that is? A little bit, but but Christians have been doing it for centuries.
+
+[06:15] Not there's not a single Christian that has ever used the Quran as a source of theology. Would you agree? Yeah, that's fine. But I'm saying Okay. So, for example, for Christians have different Bibles throughout the years is what I'm saying. So, how do you do you do you understand the difference that we're talking about here? Yeah. You're saying I within the Quran because of the Quran because we're two different religions. So, exactly.
+
+[06:42] So talking going going over Christian sources whether they're inspired or whether they're just historical and good for reading in the church that's within Christian paradigm right none of them are going to go to the to the Quran and use the Quran as a deciding factor of what book is inspired right right okay so so so let me ask this make sure I understand correctly so basically Christians all have the same Bible basically throughout the is I don't think that you're following the conversation, Omar. And I might have to move on further, brother. I might have to move on. Okay.
+
+[07:09] But you don't get my question, Omar. Do you do you get the topic? You mean the topic? Of course. Yeah. Okay. So, can you use the Bible for your religion, for your aka to decide the identity of Allah and his characteristics? Is the Bible good enough to use? Definitely not. No. Okay. No problem. Okay. So when we go here in what you quoted, Jesus says that God is his father. Is that correct Islamic theology? Yeah. No, no doubt. It is or it's not? I said no. No doubt. Yeah. We don't use those words. Okay. Sure.
+
+[07:52] So G So you went to a verse and you said that this actually this portion is part of the this is the truth. And so what we have within the angil is Jesus preaching a message that is anti-Islamic that goes against Islamic core doctrine. Right. If that's what he said. Yeah. Yeah. I I get your point. Yeah. So then that would mean that the Quran is false because if the angel teaches that God is the father of Jesus while the Quran denies that and goes against that then the Quran's false. No I gave you the explanation but obviously you you you didn't like it. You know what was the explanation?
+
+[08:23] the explanation that in debate you were allowed to use the word father and as the originator Omar you said in debate correct exactly okay yes so you and then you also said earlier that just when it comes to Islamic doctrine Allah is not the father but if you're debating with a Christian who refers to God as father you can use the term father in referring to Allah in debate with a Christian so you guys know what you guys are talking about. Okay. Beautiful. But when you do that, you're not affirming that God that Allah actually is the father. Right. We are not exactly. Okay. Yeah.
+
+[09:04] So here Jesus, we're not in debate. Jesus here is actually identifying God as the father, which in Islam is wrong to doctrinally. Correct. Okay. Is that correct? Yeah. Yeah. My my specialty is Old Testament. Anyways, I like I rather take you there with with this one. Yeah. This was a little confusing. Yeah. Yeah. Okay. But there's nothing there's nothing confusing about this, bro. Look, the I will ask the father. Yeah. But remember, we don't get a So, this is just proving we already have enough information to prove that is the the son of Mary. We have more than enough.
+
+[09:38] That's not That's not the point, Omar. The point is is is No, I get your point. You're talking about Islamic theology, right? You're saying doctrine. Yeah, but I'm saying we're not basing off the Bible. We're just showing you guys this is where Jesus spoke about another. Right. So I I Exactly. So if so if this if this is true which you said it is where Jesus is talking about Muhammad another helper coming Lord forgive the blasphemy but ma another helper coming you're affirming that Jesus's message in this portion where Jesus says that God is his father.
+
+## Part 2 · 10:15
+
+[10:15] So you're affirming this message that God is the father of Jesus which as a Muslim you could never affirm Islamically.
+
+[10:50] couldn't can't do it in in the correct sense you could affirm it brother is basically how it ended like that answer it how how many times you going to flip-flop on that bro in in the corre the correct sense is how I would say okay so so so to be clear I admit it to you that we don't use that terminology I don't care about terminology I care about is Allah is Allah that is that I question yeah yeah so it so you're saying in the correct sense Allah is the father of Jesus yeah in the correct accents. Yes, for our purpose of our debate. Yes, this debate we can say that.
+
+[10:57] No, I have no problem saying it. Even tell me the the the the fat was there. It's very clear. You know, then I would obviously argue I don't know if they just But speaking of Muslim, you there if we can if we can trust the Bible exactly for what what do you think? So I I'm going to say it like this. You want to know my final analysis? Yeah. So straight up my final analysis on who wins the argument um on Muhammad being mentioned in the Bible will depend on your paradigm.
+
+[11:27] So if you start within the Christian premise that the New Testament is accurate and final and ultimately your Christian argument is going to win because it's scripturally and cannibally consistent. But if you go outside of Christian textualism, you evaluate who fulfilled the description itself, then the Muslim argument becomes more powerful. So for example um he was sent after him. Muhammad right speaks only on what he hears. Quran 5334 guide to all truth. Quran 53. Rejected by the world uh uh praise and glorified Jesus as the Messiah known and recognized by all humans.
+
+[12:02] Muhammad fit all those descriptions. Right? So if we if we go back we can look at the the Christian claim of course, right? they're going to say paracletos is in every single manuscript, right? And and it's never been a paracletos, which is what um Rozi was like arguing for. So I mean, if you if you focus on different authorities, like you appeal to different authorities, on some cases, the Christian view is stronger and then in other cases the Muslim view is stronger, right?
+
+[12:36] So if you only focus on textual manuscripts, then of course you're going to fall for the Christian view every time because that is what the manuscripts show and say. The ar the argument from the Muslim is going to come down to well those are manuscripts written later on, right? And they had a strong oral tradition. But guys, it's not clear like in any case if you're relying solely on the evidence, you have to appeal to your faith and you have to either believe in the Quran or believe in the New Testament.
+
+[13:06] And you you it's so difficult for us this many years later to try to say we're going to get to a definitive point in the argument. I don't I I mean Yeah. I mean, it sounds like a copout, but that's the that's my answer. Okay. All right. So yeah, so where we're at right now is we're at where Jesus is preaching a message that a new comforter is coming and the father is going to give him and Jesus as well. Both of them are going to send this comforter. By the way, do you believe that Omar? Do you believe that Jesus and and the father sent Muhammad? No. No, I don't. Well, that's what he says.
+
+[13:40] He says he says the father. Oh, he says the father will send him and and he also says that he will send him and I will ask the father and he shall give you the that's the verse that I need you to read. Yeah. And then also another verse. There's also John 15:26 where he says that I will send the spirit of truth from the father. He says I will send him. He also says that in John 16:7 he says if I don't if I don't if I if I go away I will send him. So we have both the father and the son sending sending the spirit or sending the helper. Do you you believe that both of them sent Muhammad?
+
+[14:14] I would have to look at the notes. I've actually heard this before a couple years ago some on the Greek um and then I went over with one of your friends. Um I'll say connection. Yeah, you're you're breaking up. Look, we we'll talk again. I'm going let somebody else up. We'll talk. Yo, can you hear me now? You're still your question about the Okay, for sure. For sure. No problem. Sending Muhammad. You said what' you say? You said you mentioned the question to Omar a moment ago about two sending Muhammad. Yeah.
+
+[14:50] Jesus says that the father sends the the comforter and that he also sends the comforter. So both the father and the son together send the comforter. And I was asking if he believed that about Muhammad that that the father or that Allah being the father and Jesus being the son that both Allah and Jesus sent Muhammad. Yeah, that that that's a good question from his paradigm. I didn't know did he accept the Bible? Was he accepting the New Testament? He accepted it when he thought it it lined up. It was talking about Muhammad. Yeah, I think it depends on that first, right? It can't.
+
+[15:16] You can't be a Muslim and and possibly accept that. No, I'm saying it depends on his view. not whether he's Muslim or not, whether he takes the uh New Testament as authentic over him and if he's if he's conceding that it's the the like if he made the argument this is the right. Sure. What about what you appeal to? You got to you got to start from the front. Man, it's all about framing the case. He's a Muslim. So, you can't affirm something that directly goes against Islamic doctrine. That's my point. You Yeah, you should not.
+
+[15:47] But then arriving at what Islamic doctrine is seems to be the uh question. That is Yes. Ain't that crazy?

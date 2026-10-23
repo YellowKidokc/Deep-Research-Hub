@@ -1,0 +1,61 @@
+# USAID's Role in Media Manipulation and Censorship Around the World
+
+**Channel:** [[Mike Benz]] (`MB`) · Chapter 632 of 690 · Length 13m 50s · [[00 - Channel Summary]]
+**Video ID:** `i7ZUX_XEc5M`
+**URL:** https://www.youtube.com/watch?v=i7ZUX_XEc5M
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 02:44
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:05|Part 2 · 10:05]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] I recently did an interview with Colleen georgescu who's running for president in Romania and the Romanian Supreme Court annuled the election and basically froze it uh due to due to Russian interference and um you know I got a lot of flack for That interview but I wanted to give that guy a voice because I thought this this really kind of mirrors very similarly to what we saw with Trump not in the last election but the election before and you know georgescu called the tens of millions that were sent by usaid a bride wrapped as social Aid and an attack on their sovereignty so how does how does
+
+[00:45] so it sounds like this was kind of funded this campaign against him and and shutting him down was funded and and instigated by usaid now the the the the Russian interference was never proven it was all just speculation and but the usaid stuff is proven and so it's it's interesting we just did that a couple of weeks ago and I just I'm curious what your thoughts are on this well I'm shocked I'm shocked to find the USF funded blob NGO swarm descending on a right-wing populist party in Europe uh it's no of course of course I mean this is the most predictable thing of all time I mean you know
+
+[01:33] George's Q has been um a thorn in the in the side of the US and UK and sort of NATO foreign policy establishment for a number of reasons uh the central Lynch pin of world geopolitics right now is the conflict between Ukraine and Russia Romania occupies a critical uh strategic uh point in in that war um not just because of the transport of Arms from Pakistan to Romania into uh into Ukraine which is you know been been a longtime route to be able to run run G uh guns and and arms and Munitions in but but also because Romania shares the the Black Sea Coast with Ukraine and NATO is presently in
+
+[02:19] the process of building the single largest NATO base in Europe in all of NATO history 100% bigger than the uh you know the Ramstein uh base in in Germany and in fact NATO is as we speak moving arms supplies Jets and drones to that base because it points straight out at Crimea and will be the the place of force projection uh uh and you this is this is the the military hard power uh play on on Crimea is which is absolutely essential to Russia in their view uh is this is what kicked off uh this conflict to to begin with really there was the effective secession of eastern Ukraine but it was
+
+[03:02] Russia's warm water Port access uh in in crimeia and and obviously their military base there that was there was the CRI Crimea referendum to join the Russian Federation that kicked off all of this including the the you know the rattles snake Nest that that Trump walked into with Ukraine and Russia and whatnot and so you know georgees SK has has effectively campaigned on um being friends with both sides enemies of neither um you know neutrality does not want to antagonize Russia by building you know the the NATO's largest War lethal War fighting uh capability right on you know Romania's Coast
+
+[03:45] it you know makes Romania a Target um obviously from NATO's perspective the moment Russia bombs Romania and and extends the fight Beyond Ukraine that would be a major International incident um but the attempt to to remove George's SK is the same thing that happened with Imran Khan The Intercept published leag cables who who was that Imran Khan is the was the Prime Minister of Pakistan and again there there's this deep relationship between Pakistan and Romania here because Pakistan was essentially how we trained and funded the mujah hadin in in the 1970s and 80s against the Soviets there's a
+
+[04:24] lot of uh military capacities that that we Warehouse there there's there's a lot of money laundering through those there's the famous BCCI Bank the Bank of Commerce and credit International sort of CIA proprietary bank that that went down in in web of scandals around Pakistan Great Britain the UK which has massive interest in Eurasia just built an airbridge between Pakistan and Romania for this exact purpose um and so but Pakistan also Imran Khan the the Prime Minister did not want to um he did not want to uh this is shortly after the 2022 Russia you know Ukraine military Fiasco kicked off um
+
+[05:15] the US and UK foreign policy folks thought that in their own words when they were effectively bribing uh the the political class of of Pakistan and this is all in The Intercept everyone can look this up uh these leak cables it showed that uh carrots and sticks were offered by the by the Biden foreign policy establishment to you know parliamentarians in Pakistan in order to oust Imran Khan in a no confidence vote an impeachment that uh that would that would take him from power and then he was arrested shortly thereafter he's currently in prison even though he was the wildly popular uh you know
+
+[05:50] elected elected head of head of state um and the reason cited by the state department for carrying out this this coup operation was that um was that Imran Khan had taken quote an aggressively neutral position because Khan had had said that he will continue to have Pakistan do trade with Russia he does not want to you know allow weapons you know to to go to killing Russians and given how Central that Pakistan in is in this Pakistan Romania Corridor joris SKU I see is is the same way aggressively neutral but that's all it takes that was all it took for the state department there and if can I
+
+[06:33] continue just on this point absolutely going after the courts uh in order to nullify elections or influence the activities of the elections is the Beating Heart of what USA and to an and to a related extent the state department CIA and and civil military Folks at DOD do they USA is in their Charter to uh to pursue so-called judicial reform which which allows them to effectively bribe and try to rig the decisions of judges and the Judiciary and the rise and fall of laws in foreign countries and USA made a special project of targeting what they call embs election management bodies and uh which
+
+[07:21] which are the the bodies in in in countries that adjudicate elections uh so for example we it's our Supreme Court that decides uh you know the bush versus Gore hanging you know hanging Chad's you know election in U in the US 20 years ago um in Brazil the the the EMB the election management body is What's called the tsse it's it's a basically a subcomponent of their of their stf Supreme Court that is the demaras Voldemort judge who has you know who banned X seized assets from starlink and is basically uh you know criminalized uh Pro bolsonaro uh support on Brazilian social media and and they
+
+[08:04] were sought after by USA they were uh USA I have their internal documents where they've in just a few meetings alone they'll gather together representes from 12 different embs AC uh across the world and and have us Aid basically convince them train them on what kind of uh ways to structure the court or what task forces to set up in in the disinformation space in order to allow those courts to have a to not just adjudicate the elections but to be able to effectively criminalize questioning the elections or speech during the election cycle this is part of how the power in Brazil you know of
+
+[08:45] that Court expanded to such a huge size they USA was pumping money into that whole network around that Court pumping up the academic thought leadership PP pumping up the the legal Advocates who were making pitches to the the prosecutors and and to the disinformation task force itself and if they're going after every EMB election management body you know in in in the in the world effectively uh to get those courts to criminalize populist uh Speech you can bet your bottom dollar they're doing that to criminalize uh uh populist election results in those same seps documents this is the political
+
+[09:24] process strengthening Center usaid in that program they Define the enemy as populism they say that part of the purpose uh in uh is to is to prevent the evolution of of uh of populist thought leadership because they Define right-wing populism as a threat to democracy because it undermines the efficacy of democratic institutions us-backed Nos and Civil Society institutions in the area well guess what georgescu is he's a ring populist or he's a populist at least however you want to Define it he is in their view the virus that the white blood cells of us Aid are custom built to take out and I
+
+## Part 2 · 10:05
+
+[10:05] have to I just have to stress this point this was attempted against Donald Trump in when he won the 2016 election when the Russia gate predicate came out about social media interference everyone can trace the timeline of this and and look up the contemporan news reporting when when the CIA came out and said there was Russian interference on us social media and there were Russian Bots and trolls and RT and Sputnik were supporting Trump they tried to get Congress to not certify the election result on the basis of Russian interference in the election and to my recollection they got I believe
+
+[10:43] almost a somewhere between a dozen and two dozen or almost a dozen us congressmen to agree not to certify that vote now it's not nearly enough you need you know there's over 500 people in in the house and you know 100 the Senate but if you can get that ball rolling and poach sitting members of Congress here in the US 8 years ago before they even built up this apparatus to be Juiced and as powerful as it's become think of how how much easier that task is and how how far A little bit of money goes a long way in order to juice those networks in Romania yeah you know that that's what caught my
+
+[11:24] attention was it seemed almost identical with the Russian interference and you know what actually blew him up was a Tik Tock smear campaign right and the T the Tik Tock smear campaign actually resonated with a large portion of the population in Romania which boosted him up I mean the guy spent next to nothing on his campaign and had a tremendous lead and you know one of the things that I spoke with him about in detail is how he doesn't he does not want that NATO base there I did ask him you know will you be able to stop that he he he couldn't answer that um which means you know maybe he can't
+
+[12:04] I don't I don't know but but it seemed like the reason they went after him is because he does not want that base built the biggest ever NATO base ever to be built in Europe to include World War II and and it you know it obviously would uh it'd be a detriment to the Ukrainian side of the war and he he he expressed many times he just wants he just wants peace he doesn't want Romania involved in that that's not their problem I think that's the way a lot of Americans feel too but um but so so I think you hit it but so basically what usaid is doing is they are influencing their politicians to sway
+
+[12:49] a certain way are they also are they also paying off their media cuz he would not they wouldn't platform him yeah in he he he he was not heard other than on Tik Tok the day after I announced the interview that was going out with him they had 250,000 people sh start protesting in front of their Parliament yeah no absolutely that's that's what USA does they create the surround sound this is part of the reason I call it the USA Truman Show usaid goes after every single category of institution in the country they're targeting the media control over social media speech the unions the workers group
+
+[13:29] the uh the judiciaries the parliamentarians uh the Arts and and uh and music and music uh and culture the uh the universities and the academic institutions uh everything the even you know folks in the the commercial for-profit sector side

@@ -1,0 +1,63 @@
+# USAID Prosecutors, not Soros Prosecutors?
+
+**Channel:** [[Mike Benz]] (`MB`) · Chapter 622 of 690 · Length 19m 28s · [[00 - Channel Summary]]
+**Video ID:** `10ScK_sMmDM`
+**URL:** https://www.youtube.com/watch?v=10ScK_sMmDM
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 02:53
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:29|Part 2 · 10:29]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] no [ __ ] way Bros bros I don't feel so good Ben Bros I don't feel so good no why does this keep happening why does this keep happening no no no no this is not happening right now [ __ ] are you kidding me is this some sort of sick twisted joke just a [ __ ] with me for the past 45 minutes we've been reading we've been reading about Soros the Soros machine controls prosecutors they're giving them top- down orders on who to prosecute and who not to prosecute and what to say in press releases and what laws to enforce and what to post on social media because the whole thing is run by this Soros
+
+[01:16] group Soros funded group called fjp you scroll down to page eight and this is not even mentioned by dailywire in the big writeup on this report actually fjp is a fiscally sponsored project of the tide Center which means they get their 501c3 status through the tide Center and they were also given funds by open society and then you go to the tide Center and Tide Center is funded by us Aid I'm sorry um kill the music I'm sorry these are USA prosecutors and you guys know because you've seen two or three dozen streams by now if you've been subbed for a while about us a and its role as a CIA
+
+[02:11] conduit as a pass through for CIA as the constant companion of the CIA go back and watch our six-hour series called 10 times us Aid was busted as a CIA cut out you'll see all the receipts in there these are CIA prosecutors that's where you're living under oh that is too funny that's too funny USA prosecutors make a trend all right fjp which again we need to recontextualize as being the aggregate sum of us Aid Bill Gates the Ford Foundation the Kellog foundation and George Soros but already you guys see what I'm saying if you just read the dailywire article you would have thought it was 100%
+
+[02:58] funded by George Soros 100% controlled by George Soros it's this one you know pinky in the brain one mad man's monomaniacal quest to control the world and they're all doing what he says when it's a coalition of oligarchs in tandem with the Central Intelligence Agency via usaid so already we need to think of fjp as being like us aid plus their group of outside ol Arch donors and drafters USA has $50 billion a year to play with 50 billion a year George SOS has 25 billion total versus 50 billion a year George Soros is what 90 90 years old something like that 10 years of us Aid funding is $500
+
+[03:54] billion half a trillion fjp gives some sources most Val prosecutors prominent leadership positions okay but are you going to say anything more about fjp I want to know fj's relationship with Soros because when I go to fjp what I see is Soros is one of five different foundations who fund the tide Center the tide Center is who gives fjp it's 501c3 status I see five major oligarch donors plus us Aid all they say is fjp was given additional funds that's it additional funds how much funds this is crazy I almost don't want to read anymore unless they tell me this quickly I'm sorry guys because you
+
+[04:48] will have a totally inverted causal relationship of the world if you don't build your Jenga Tower properly what the [ __ ] is this given additional funds or or put a gun in my mouth and abort me from uh planet Earth if I publish a comprehensive 33-page report like this and the Crux Lynch pin of the entire thing which is fjp equals Soros so everything fjp does means it is done by Soros and only Soros and they are one in the same exactly nobody else is responsible nobody else is exerting more influence than Soros is they're are a total cutout of George Soros and my only evidence for this is
+
+[05:59] they were actually sponsored by a different group they're not a fiscally sponsored project of the open Society Foundation they're fiscally sponsored group of an organization that has five major oligarch Foundation funds Soros is only one of them oh yeah and a major source of their funding is also us Aid and the only connective point is that in addition fjp was given funds by the open Society Foundation how much did they give them why is there no [ __ ] hyperlink do you understand what I'm saying if if Bill if the if the bill Melinda Gates Foundation gave more money than the open Society
+
+[06:45] Foundation then this report should be called Gates prosecutors if USA gave more money than Soros then this whole report should be called us a prosecutors what why would you if you're building your entire case on saying the prosecutors are controlled by fjp and fjp equals Soros and then buried on page eight we find that fjp is actually not spun out of the open Society Foundation to spun out of the tide Center and the tide Center is five oligarchs plus us Aid and some undisclosed additional funding was provided we don't know that Soros is is the major donor to fjp or if they're actually
+
+[07:32] financially funded more by the US government or by the other oligarchs in the Consortium and we don't know that Soros is controlling fjp to tell them what to tell prosecutors the whole [ __ ] case collapses this is this is I almost don't want to read anymore unless they answer that what the hell their budget was over 2 million 1.5 million from open plan where's the [ __ ] hyperlink what does that mean additional funds did they give 100K when and when did they give it we're about to go to the next article this is pissing me off let's go to this one usaspending.gov USA the tide Center 25
+
+[08:36] million bucks 25 million bucks what the [ __ ] 25 million bucks to the fiscal sponsor of the group controlling 30% of the United States of America's prosecutors so fjp got 1.5 million from the Facebook co-founder it got additional funding from Mark Zuckerberg it got 600k from the Ford foundation so we're looking at a budget in like the midm millions mid single-digit Millions but F JP's Financial sponsor got $25 million from us Aid us Aid prosecutors USA prosecutors oh my God so it's CIA and look at all it says Civil Society Innovation initiative Fiscal Agent so the cia's Civil Society
+
+[09:44] capacity building where USA builds up assets by giving them money for the CIA to instrumentalize to accomplish the state Department's foreign policy in a country that group which is capacity building institutions for the CIA to deploy and Direct in countries all over the world is taking that money and it is spawning groups like fjp who are giving direct orders to prosecutors on who to prosecute including the president of the United States usaid prosecutors that's incredible 25 million puts the open Society Foundation Grant to shame that Grant terminated just 3 months ago in September 2024
+
+## Part 2 · 10:29
+
+[10:29] incredible and all it says usually the description is very extensive you guys we we've read a bunch of these grants before on air you guys remember it'll usually be paragraphs long look how open they they leave it you're the agent of the US government the parent company for the prosecutor control group who controls the whole network Hub is serving as the Fiscal Agent of the cia's money conduit another Grant from USA to the tide Center for 1.5 million matching the highest Grant on record for fjp that lasted till 2019 okay so we are up to $26.5 million from us Aid to the group controlling
+
+[11:13] America's prosecutors Financial sponsor a multilateral initiative that secures concrete commitments from governments to fight corruption I.E arrest the state Department's political enemies so usaid the state department CIA Mutant baby is paying the tide Center to secure concrete commitments from governments they're diplomats they're diplomats they may as well be State Department diplomats the government is paying this cutout NGO to do back Channel diplomacy with foreign governments and this is the group sponsoring fjp who's giving direct orders to the prosecutors in charge of New York City
+
+[12:12] Los Angeles Chicago Washington DC Atlanta Georgia holy [ __ ] the CIA is controlling America's prosecutors that's the [ __ ] story not some Grandpa billionaire holy [ __ ] holy [ __ ] dude I'm about to never say the phrase Soros prosecutor again God that's crazy they're deputizing them to be diplomats they're paying them to get concrete commitments from governments that's what a diplomat does that's what a state department Diplomat does wow this is too good to be true not leftist they are blobb it just looks leftist because they want to combat the right-wing nationalist forces here but if
+
+[13:09] Bernie Sanders 2016 had won the presidency Tides Foundation would probably support be supporting right-wing nationalists just to in just to get a a regime change they'd be giving Civil Society funds to right-wing [ __ ] posters and then backing a Nicki Haley is the president that they rally behind do you get it look at this okay so Soros gave well there it [ __ ] is there it is okay music we got we got to cut the music for a second Here There It Is Soros gave 14 million to the tide Center and no wonder no [ __ ] Wonder on page eight when they were setting this up they only said additional
+
+[14:13] funds because all they gave is one Grant in 2019 worth $10,000 guys are you seeing this every tendril in my body had a suspicion this is exactly what it was and I express it to you live on stream reading this for the first time and here it is validated in Toto they they said additional funds and they didn't say even when Because the actual truth of it is they only gave 10 K that's like the expenses to host a random weekend conference and it was in 2019 two years after it had been founded and this report's published in 2024 so their entire evidence that fjp is controlled by Soros is that he
+
+[15:24] gave a big number 14 million to soros's to uh to fjp financial sponsor the tide Center so let me ask you a question it's a tough one you gotta you got to know math okay what's a bigger number 14 million or 25 million plus another 1.5 million that's the same time period by the way 2016 so us Aid has given at least 26.5 million which is twice as much as Soros gave twice as much Soros only gave fjp 10K the Ford Foundation gave 600,000 they had a budget of 2 million Zuckerberg probably paid more to fjp than uh than Soros Soros gave 10,000 their budget was over two two million it's crazy they only
+
+[16:35] gave 10k of their over two million budget directly and the parent company which is where they get the evidence the whole thing is Soros prosecutor Soros prosecutors because they gave 14 million well USA gave twice that amount so these are us a prosecutors these are USA prosecutors I was like a little bit glib when I said that initially because I wasn't sure whether USA gave more than Soros but not only did they give more they gave twice as much this is incredible this is an incredible story that's an incredible [ __ ] story are you guys processing this every time you hear the word Soros
+
+[17:28] prosecutor no they're us a prosecutors and US Aid is a CIA front and its whole purpose is to accomplish the state Department's goals or sometimes the military's goals this is a palace coup folks this is Rogue organs of the federal government preventing the American people from electing a president this push to to prosecute Trump by Alvin Bragg Soros was a minor co-funder he gave them $10,000 that's it and the 14 million he gave to the parent company the fiscal sponsor of fjp well that ain't [ __ ] compared to the 28 million the 27 million that usaid gave him but it all works together because
+
+[18:22] like I said Soros is State Department Soros is US Aid Soros is attached at the hip Soros Inc is the is a donor and drafter in the state department Network a tag along like many of these other oligarchs are wow incredible we just broke huge huge news here well our our work here is this is so funny Soros is mentioned 242 times in this report because they provided additional funds to fjp and they provided $10,000 but they provided $14 million to their fiscal sponsor USA provided $26.7 million during that exact same time period twice as much so contrl f for Soros replace all with us Aid well my
+
+[19:26] work here is done thank you

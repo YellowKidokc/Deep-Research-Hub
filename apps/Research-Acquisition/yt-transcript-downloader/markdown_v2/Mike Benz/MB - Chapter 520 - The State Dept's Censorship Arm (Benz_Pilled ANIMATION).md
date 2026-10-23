@@ -1,0 +1,56 @@
+# The State Dept's Censorship Arm (@Benz_Pilled ANIMATION)
+
+**Channel:** [[Mike Benz]] (`MB`) · Chapter 520 of 690 · Length 8m 01s · [[00 - Channel Summary]]
+**Video ID:** `IC7WjhZho6w`
+**URL:** https://www.youtube.com/watch?v=IC7WjhZho6w
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 02:21
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] So, here's what happened this week. The State Department fired all 30 full-time staff at the Global Engagement Center, eliminated all 50 full-time staff positions and delivered a notice to Congress ending the entire capacity's existence and 65 million in funding made possible by Secretary Rubio and Under Secretary Bey. And the way it was structured is as a reduction in force, which is called a riff. In a company, when you're concerned that if you fire someone, they'll do some BS labor law thing. Often times, things are structured as a layoff.
+
+[00:29] That way you can't be slowed down by the bureaucratic maneuverings of lawyers. And that's what they did here. This is a huge thing. If you guys remember, there was a continuing resolution for the US government budget in November 2024, right after the presidential election. And there was a big dog fight where they tried to reauthorize this censorship center out of the global engagement center. And it became such a scandal when Elon became so motivated over it that they threatened a primary.
+
+[00:58] any Republican who voted for that continuing resolution in large part because it maintained the reauthorization of the global engagement center which was the censorship center of the state department that was so inflammatory on its face that we literally killed the entire US budget you know over it and then because without reauthorization it died by sunset the Biden administration is one of their last acts they said okay can't call it the global engagement center anymore we're going to keep all the staff though and keep the function and call it our FEMI, foreign influence,
+
+[01:25] malign influence tucked under the public relations, public diplomacy of state, which is called R, hence REI. And so it fell to the under secretary of public relations public diplomacy to secure the buyin of the Trump administration, of Secretary Rubio to pursue this insane censorship cells remnant, an entire spiderweb of censorship institutions here and around the world.
+
+[02:02] There were lawsuits launched against this network because the global engagement center was funding places like the global disinformation index which was creating advertiser blacklists of what kind of US news would not be allowed to get advertising revenue. So the state department was effectively picking winners and losers in the private news industry. For example, one global engagement center funded group, the Londonbased Global Disinformation Index, compiled blacklists of media outlets to feed to advertisers, essentially a form of financial warfare against disfavored outlets.
+
+[02:19] The top 10 outlets on its disinformation list were all on the right. They love NPR. They love AP, New York Times, Washington Post, Buzzfeed. But the ones to kill the advertiser revenue. New York Post, Reason, Real Clear Politics, Daily Wire, The Blaze, O, Amcon, Federalist, Newsmax. This is the State Department picking winners and losers in the economics of the news industry. A little bit more on the history of this place because I think it's important. It's truly an incredible story in terms of Mission Creek. I talk about this a lot. The Office of War Information.
+
+[02:51] The marriage of the military and the media goes back to the Office of War Information in 1942, which crystallized the relationship between War Department propaganda and mainstream media distribution. The Office of War Information, which built the War Department's distribution network with mainstream media. And you can see why they did this. We were fighting World War II, the war to end all wars. And media is a tool of soft power projections. And so media gets wrapped up into the war effort. Problem is, it never got unwrapped after the war. It only deepened as we fought the cold war.
+
+[03:20] So the office of war information built this distribution network and then that turned into effectively begat the US information agency which was not dissolved until 1999 which only existed for 45 years just like the global engagement center only lasted for 14 years. It's not like the war department which is now our defense department/ Pentagon which existed since moment one. The war department, the state department and the treasury department were the three departments that were created on day one of this country. They've been around since 1789.
+
+[03:48] The US information agency was a formal information control mechanism in the US government devoted to propaganda which operated from 1953 to 1999. Previously existing US information hosts operating out of US embassies. So it was always a state department function. Embassies are the state department worldwide since World War II became field operations offices of the US information agency. In 1999 prior to the reorganization of the intelligence agencies by President George W. Bush.
+
+[04:20] President Clinton assigned US information ay's cultural exchange and non-broing intelligence functions to the newly created under secretary of state for public diplomacy and public affairs at the US state department. This is Darren Bey's role. They did away with the US information agency and it turned into a new role in 1999 called the state department public diplomacy bureau which later created GEK the global engagement center. Understand the state department public diplomacy bureau is effectively the state department's continuation of the US information agency.
+
+[04:46] So you have this lineage from cold war propaganda to GWAT era propaganda to Trump era propaganda. So basically control over the information space to stop communism to stop terrorism and then to stop Trumpism. That's the evolution of the state department office. So the global engagement center this censorship web was set up by Rick Stangle. This dude was the managing editor of Time magazine.
+
+[05:17] Time magazine was a major branch of operation mockingb bird the CI intermediated media web and he talked about how his job was to export the first amendment by bringing free speech to all these authoritarian countries. Again you guys know the reason why that's to support CIA that groups who have limited information distribution often because of government control over media. Ironically it would be Stangle who would set up government control over media out of the state department.
+
+[05:33] So he was the longest serving under sector for public diplomacy and public affairs since the job was created in 1999. And then at the State Department, Stangle launched and led the Global Engagement Center, the US's only standalone anti-disinformation entity.
+
+[05:57] It was set up to stop ISIS and al-Qaeda at a time when the FBI was creating ISIS plots at home, like the Garland, Texas attack that we've talked about many times, which the FBI orchestrated from top to bottom, including paying an FBI informant over $100,000 to become the shooter's best friend, text him to tear up Texas, allow the attack to happen, even though they were following him in a car the whole way, and then claimed that there's a massive homegrown ISIS threat. So, the State Department needs to have a censorship mechanism to stop ISIS recruiting on Facebook and Twitter and YouTube.
+
+[06:11] And then when Trump won, they said, "Actually, it's not just about stopping terrorism. It's about stopping threats to democracy like anyone who supports our dulyeleed US President Donald Trump and his international allies, populist governments across the world." Stangle is now on the board of advisers of NewsGuard, probably the most powerful gargoyle for-profit censorship company in the private sector, which worked with the Biden administration closely.
+
+[06:40] Has the former head of NATO on its board of adviserss, has Rick Stangle on its board of adviserss, has the former DHS secretary Tom Ridge on its board of adviserss, etc., etc. Here's from the Global Engagement Cent's internal documents, which I found. Examples of global engagement center targeted training, research, and outreach 2019 to 2021. developed a whole of society approach through training and networking of civil society organizations, CIA cutouts, state department cutouts in Latin America under the global engagement cent's media literacy accelerator network.
+
+[07:04] Again, media literacy means censorship. It means forced to read the approved media sources. And if you read the wrong media sources, you are media illiterate.
+
+[07:33] whole of society approach state department partnering with the private sector partnering with the NOS's partnering with the universities partnering with the trade associations partnering with the media organizations how's this for mission creep here at the bottom expansion of GEX mission and mandate the 2019 McCain NDAA the ghost of John McCain the John McCain national defense authorization for fiscal year 2019 updated and expanded the GEX mission and mandate in addition to the GE's original purpose to lead synchronize and coordinate the center would now also direct and integrate federal
+
+[07:40] government efforts to counter disinformation aimed at much more than undermining US national security interests as the original legislation directed. Oh, it's not just about national security anymore. It's everything. And then it ballooned its staff, its contractors, the works. [Music]

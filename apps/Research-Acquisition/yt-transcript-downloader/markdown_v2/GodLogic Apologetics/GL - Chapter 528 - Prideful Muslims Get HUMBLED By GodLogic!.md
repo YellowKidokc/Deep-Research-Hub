@@ -1,0 +1,73 @@
+# Prideful Muslims Get HUMBLED By GodLogic!
+
+**Channel:** [[GodLogic Apologetics]] (`GL`) · Chapter 528 of 663 · Length 15m 18s · [[00 - Channel Summary]]
+**Video ID:** `7U1jOdOTTBg`
+**URL:** https://www.youtube.com/watch?v=7U1jOdOTTBg
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-29 15:57
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:23|Part 2 · 10:23]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] [Music] It's God. It's God. It's God. Putting it fully. So if we go to James, we're going to see what James says. We're going to read it in this context. I got it right here, brother. So it says here, it says, "Let no one say when he is tempted, I am being tempted by God. For God cannot be tempted with evil." Thank you.
+
+[00:48] So the devil let me let me finish let me finish the devil let me finish let me finish okay go on go on and he himself tempts no one but each person is tempted when he is lured and enticed by his own desire then desire when it has conceived gives birth to sin and sin you haven't read this part and sin when it is fully grown brings forth death so so God can't be tempted with evil there's no sinful or evil desire within him that's why the devil failed trying to do this with Jesus. I agree with you. I agree with you. Yeah.
+
+[01:08] My question to you is when Jesus was on earth, you believe he was fully God and fully man. He was fully God, fully man on earth. So, can God be tempted? Yes. But according to James, but not by evil. Not by evil. Would the devil tempt good or evil? Yes or no? He does all the time. What are you talking about? Answer the question. Would the devil tempt to do good or evil? He he tempts to do evil. Of course, but he's not being but he's not tempted by the evil. Jesus is not tempted by evil. When tempted, no one should say God is tempted. For God cannot be tempted by evil, nor does he tempt anyone.
+
+[01:40] So, my question is, was Jesus tempted by the devil when he was fully man and fully God on earth? Fully God. To answer your question fully again, Jesus had no evil in him. I did not. So, let me finish. I asked you. Let me finishesus. Let me allow me to finish. Let me finish. Was Jesus I I let you We listen to you, bro. We just listen to you. I heard your question. We listen to you, right? I let you speak already. I already speak. I I let you speak. No, I'm I'm showing the same respect, right? Show the same respect. Okay. All right. So, was Jesus tempted by evil? No. No.
+
+[02:23] That's why that's why the devil failed. Jesus had Let me finish answering you, brother. Look, before you think of a response, just listen to the answer. Okay, I appreciate it. So, it's very clear what being tempted by evil means. It says, "For being tempted by evil, you have in your own desires and being enticed by your own desires and being alert." Oh my goodness, dude. Are you okay? I know you're on. Okay. Are you okay? Are you okay? It's It's okay, man. I apologize. It's It's all Everybody panics real soon. It's all good. I'm not sweating. Okay, you are not. Okay, good.
+
+[02:59] Okay, you should call him up then. Maybe he can tell you how his beer makes him a different person. I think they treat the person in the Yeah. Yeah. Call call Libyan up. He'll tell you that Jesus is God in a sense. Yeah. You agree with him? Not according to the Okay. Don't Don't Anyway, there's nothing to twist. All right. Let's get back on track. Let's All right. So, let's let's see how it defines tempting. Listen, make sure you listen carefully, okay? But each person is tempted when he is lured and enticed by his own desire.
+
+[03:36] You can only be tempted if you have your own faulty desire within you. So because Jesus had no inner desire of sin, no sinful desire, nothing to be enticed, it was impossible. Let me finish. Are you let me finish you guys? Okay. He cannot He cannot be tempted by evil, which is why Satan failed. But can God be tempted? Yes, in the sense of testing God, which is why it says in the Old Testament, you shall not put your Lord God to the be tempted as you did in the wilderness. Did you know that verse? Oh, that's funny. Did you hear that?
+
+[04:13] It says, "You shall not tempt the Lord your God as you did in the wilderness." Go on. Would the devil tempt his phone? Temptations all around. Would the devil Would the devil tempt his phone? Yes or no? No. No. See, do you see? Would the devil thevil There's no response now. This phone has no life. He has no response. No desire. So if Jesus did not have any desire, why did Satan attempt to tempt Jesus if he had no desire? Good question. Wait, wait, wait, wait, wait, wait, wait, wait, wait. Notice he's not God, not human. Notice how notice how brilliant listen in the first place. Okay.
+
+[04:50] You know what? You know what? If if the devil knew Jesus was God, why would you talked to him, didn't you? No, no, no. She was she was asking. Okay. Yeah. And and I'm going to respond to her now just like this. Okay. So, if Jesus knew that Sat uh I'm sorry. If Satan knew that Jesus is God, why would he tempt him in the first place? Doesn't he know he's God? Huh? The same devil that challenged God in heaven and and got all the angels to go against God. Wait when when when when Satan challenged God, did he really think he could win? Oh, wait. So, hold on.
+
+[05:27] Are we Are we Are we Are we talking about Hold on. Are we talking about the same stupid entity that challenged God as if he was going to win? Let me Let me finish, brother. Why do you believe? Let me finish. Let me finish. There's a point here. There's a point here. I'm showing you I'm showing you how faulty that argument is that it's so dumb. It's silly to ask if Satan knows that Jesus is God, why would he challenge him? He did it before. He's doing it again. It means it's nothing. Now, when it comes to temptation, we already we already described what temptation was.
+
+[06:02] You thought you was so brilliant. I agree. Would God would Satan tempt this book? I agree. Is is that really a good example? Is this is it is this book conscious desire? Is it Is it conscious? Does he have desire? Is it conscious? No, it's not. Does he have desire? So So therefore, let me finish now. Let me finish. You're just my point. You're bringing You're You're bringing a point, bro. What you're doing is called false equivocation. You brought up an inanimate object, saying, "Would Satan uh tempt this inanimate object like he tempt Jesus?" Why did I do that? Jesus has a mind.
+
+[06:36] He has a will. He has consciousness. He has awareness. So because of that, we'll let you finish. We'll let you finish. I appreciate it. So So because of that, this is a false equivocation. So yeah. Oh, it is. I am. I am. So I need you to respond to this. Temptation is having evil desire within yourself and being able to be lured away because you have this desire in you already. Did Jesus have evil desire in him already? Yes. Show me the verse. Because the devil Show me the verse. Wait, wait, wait, wait. The devil, no.
+
+[07:10] You define, you define temptation as someone who has the desire to commit evil. Now, I gave the example. He gave the definition, not me. So, can you show the verse where Jesus had that in him? This phone doesn't have the desire to commit evil. That's why you're not going to tempt his phone. But why did the devil tempt Jesus? Because he knows Jesus is a human being who has the desire to commit sins. Thank you very much. my point. I got you. It's okay. It's okay. It's okay. So, so, so do me a favor cuz you said yes.
+
+[07:44] Jesus had evil desire within himself that he could be enticed and lured away by Satan. And so, Satan tried to get tried to take advantage of that. Can you show me the verse where it says that Jesus had evil in his heart? Because he's a human. That's why. So, what are you tempted evil every day? I I am. I am. You're a human. You have a desire. This I'm not Jesus. I'm not Jesus. I know you're not. He's a human. Show me a verse. My point is, show me a verse.
+
+[08:15] My point is if the devil understood that Jesus is fully God and man on earth and he's exempt from being desired, the Satan would not even have the thought of tempting the devil just like Adam. Why was Adam tempted? Because he had the desire to commit sin. Now the same with Jesus Christ. The devil did not see Jesus as God because God cannot be tempted. But because the devil tempted Jesus, the devil knows that he's a human who has a desire. Now what you're doing is I is Jesus. This is what you're doing.
+
+[08:49] You have your preconceived notions of this hypothatic union concept that is not in the Old Testament neither in the New Testament. Now, now first establish the evidence phone. The devil is the evidence that Jesus had the capacity to commit the question. He had desire. Does this phone have the desire to commit sin? Because guys, where where you where heard you, brother? Where he Where you? Where's your question? We just let you go. We just heard you go. You're welcome. Okay. Thank you. I appreciate guys. Did Oh, he's about to run away now. I got to pray. Okay. Guys, did you guys hear a verse?
+
+[09:22] Jesus. Y'all didn't hear a verse. This is what you did last time. Did y'all hear a verse? Okay. Okay. So, so, so to be clear, hold on. All right. Let me hold on. Let me get my point off. So, we didn't we so we didn't hear a verse where Jesus has sinful evil desire within himself that Satan could exploit. He didn't bring a single verse. He made a claim. Hold on. Hold on, guys. Let me do it. Don't Don't heckle him. Don't heckle him. So, we didn't get a verse. Now, he's saying he got a he gave us a verse. I don't know. Maybe Allah made it appear he got a verse or something. I don't know.
+
+[09:54] But, I didn't hear a verse. Bro, I would like to hear your turn. We'll see. We'll see. We'll see. We'll see. So, so hold on. Hold on. You're going to get your turn. You're going to get your turn. You're going to get your turn. You're going to get your turn. So, according to what we just broke down, temptation is having an evil desire within you that you could be lured away and enticed by. That's what No, you don't because you just said that Jesus has that in him and you couldn't bring a verse. So, you're just yapping now without bringing a verse. So, before you do anything, bring a verse.
+
+## Part 2 · 10:23
+
+[10:23] That's why. So guess what? So his So his thing is, hold on. Satan tried to tempt Jesus. He wouldn't try to tempt Jesus unless sa Jesus could be tempted. Unless Jesus can fall to his temptation. Just like if that by that logic, Satan wouldn't challenge God unless he actually could win. Huh? Okay. So what's the difference between challenge and temptation? Oh, hold on. You're talking about the difference, sir. I'm sorry. I'm sorry. You're not dealing with the point. You made the claim. You're not dealing with the point.
+
+[11:00] The point your point is is that Satan wouldn't do certain actions unless he knows he can concede in it. He he can succeed or be effective. No. That's your point. So your point has the potential to succeed. Let me finish. Okay. So So is that what I just said? So all right. So when Satan rebelled against God, did he have the potential to defeat him? Hey, thanks for coming, man. Very good. Okay. So notice this. They said, "Of course not." They said, "Of course not." Why did the devil They said, "Of course not." Hold on a second. So you guys just buried yourself. You don't know how.
+
+[11:31] Oh, I love I love this. Hold on. I love you said the devil tempt the God. You believe that Jesus is listen to what I'm saying. Listen to the point. Okay. So you he made the point with along with you that Satan would not tempt Jesus if unless he knew he could try to tempt him. Right. Unless he had potential to succeed. Exactly. So he wouldn't do Satan wouldn't do anything unless he thought that he could actually succeed in that action. That's the principle he says. Exactly. So I just asked you guys, could Satan have possibly defeated God? No. The answer is no.
+
+[12:07] But however, Satan challenged God as if he could defeat him. Hold on. Let me here's the point. You're not getting it. When they challenge God, brother, let me finish. God, you're about to get it. You're about to get it. You're about to get it. No, it is. You're saying how stupid this is. It is. It is. So by this principle, Satan even does things and does actions even when he can't succeed in it. Does God have evil desire? No. Satan's going to tempt God. Did you just see the point? Evil desire. You just see the point. You just got buried. You just buried yourself. You just buried yourself.
+
+[12:41] He didn't let me hear. Did the devil tempt or tested Jesus Christ? Yes. According to Markapter 1, what does that prove? That proves the devil didn't see Jesus as God. He saw Jesus as a human. Just like in Mark 6:4, Jesus is a prophet. Okay. Now, what I'm doing is biblical interpretation. What you're doing is called biblical isoges. James 1:3 in the light of this verse. So, please don't make your man-made argument. Please substantiate that within the Bible.
+
+[13:26] Does Did Satan ask Did Satan ask Jesus, "If you are the son of God, then do then turn these bread into the question, the tender stone in the bread." You didn't answer my question. You didn't answer my question. You know what? I'm going to run away. Yeah, I know you are. Have a good evening. Take care. Bye, Coward. Byebye. Bye, Coward. Bye. Bye. Bye. You're done. You're done. He's done. He's done. He's broke. I wanted infinite recess. It's good. Judah and I hope you see what you see. I hope you see what your boy did. The principal of his argument fell.
+
+[14:12] you. He said that Satan wouldn't do something that he couldn't succeed in but yet he challenged God. Silly believe that Jesus can be tempted just temptation. I don't believe that he's speaking to you. So long and behold, guys, this is what we got. We got a complete runner over here. He buried himself by his own statement. He said if Satan knew that Jesus was God, he wouldn't tempt him in he wouldn't try to tempt him in the first place. But the only reason why he did it is because he thought he could tempt him. Okay? So, Satan wouldn't do something that he knows he wouldn't win in.
+
+[14:54] So, Satan be the same Satan that was dumb enough to challenge God and act like he can take over heaven is the same dummy that tried to tempt Jesus and failed. What are these idiots talking about, man? Watch your hand, man. It's God. It's God. [Music]

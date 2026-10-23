@@ -1,0 +1,50 @@
+# The Matrioshka Brain: How To Turn The Solar System Into A Computer | Answers With Joe
+
+**Channel:** [[Joe Scott]] (`JS`) · Chapter 545 of 763 · Length 8m 51s · [[00 - Channel Summary]]
+**Video ID:** `EJOKb1_aBM0`
+**URL:** https://www.youtube.com/watch?v=EJOKb1_aBM0
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-07 05:27
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:01|Part 1 · 00:01]]
+
+---
+
+## Part 1 · 00:01
+
+[00:01] do you know you can help find aliens SEI or the search for extraterrestrial intelligence has a program called set at home and know this doesn't mean they come search your home for Little Green Men it means that you allow them to use your computer to Crunch data the idea is pretty brilliant instead of spending hundreds of thousands of dollars on supercomputers to Crunch all this data that they're collecting throughout the Universe they distribute the processing throughout computers all around the world you go to their site you download this program and it lets them use your computer for
+
+[00:29] processing when you're not using it it basically turns the entire internet into a giant supercomputer but what if there was a job so big that every computer in the world couldn't handle it imagine if we could turn our entire solar system into a computer patreon Patron Alex Thompson wrote I found the concept of a matoska brain absolutely fascinating I know you've touched on this before but a more detailed video on the topic might be interesting in past episodes I talked about the kardashev scale as a way to classify potential alien civilization on the amount of energy that they consume a type
+
+[01:02] 2 alien civilization for example would be able to capture all the energy out of their home star popular idea to collect all the energy from a star is something called a Dyson Sphere or a Dyson swarm basically a giant solar array large enough to encircle an entire star it's an ambitious idea to be sure but in 2008 futurist Robert Bradberry took it a step further in a book called year Millions science at the far edge of knowledge he basically asked if we're using all the energy from the Sun then what the hell are we using it for I mean I know Pokémon go eats up your battery life but damn he
+
+[01:34] proposed using a Dyson spear to power a giant supercomputer and not just one sphere but multiple spheres packed inside each other he called it a matrioska brain matri matrioska matrioska matoska matri matri let's see how they say it online here [Music] matoska matka matka matoska that's what I'm going with named after the famous Russian nesting dolls where one doll is nested inside the other one like so it's a Dyson Sphere section the idea is that each sphere would take in energy from the sphere below it and radiate out energy to power the sphere above it so the most inner sphere would be
+
+[02:24] almost as hot as the sun itself while the outer sphere would be almost the same temperature as Interstellar space literally capturing every watt of the sun's energy and that's a lot of Watts 4X 10 26 power kind of watts and since it captures every single amount of energy from a star from a distance it would look like this nothing now this is known as a Class B Stellar engine basically an engine that deres all of its energy from a star in this case powering a massive computer a Class A Stellar engine if you're wondering is propulsive meaning it actually moves the sun in the entire solar system
+
+[02:58] across space an example of this would be something called a skat Thruster which is basically a giant sail that would reflect all the light One Direction propelling the entire solar system in another Direction wait a second matrka brain skatov Thruster CF scale we're just all kinds of rushing up in here mka so you might be wondering what would happen to all the planets if you built these giant spheres around the Sun yeah they'd have to go I mean these Spears aren't going to build themselves most likely scenario would be that we would create robots that would fly to the planet Mercury and mine
+
+[03:32] it taking it apart piece by piece from materials to create the first sphere but they aren't just building spheres they'd be making more of themselves as well self-replicating robots would build and grow with the project so while it may start kind of slow it would grow exponentially once the first sphere comes online we would use that energy to build the next sphere dismantling Venus and going outwards from there basically we come to a point where we'd say those planets are pretty but mama needs some cheddar let's mine them by the way if you think that mining the solar system sounds crazy
+
+[04:03] guess what we're already doing it or planning to do it anyway billionaire entrepreneur Peter diamandis created a company called planetary Resources with that specific goal of mining asteroids they've already got about a dozen asteroids in their sites and several satellites have been designed to do that job and last year President Obama signed the US space launch competitiveness act which recognizes the rights of private Enterprises and people to own asteroid resources so give it another few thousand years and Mercury's pretty much a goner I mean what's it done for us lately and finally what
+
+[04:33] kind of civilization would build a mka brain and where would they live without any planets well here's where it gets a little bit crazy because a computer as powerful as a metka brain would be able to simulate entire universes so where would that Civilization be in the computer a civilization that's building Metar brain isn't just building a mega structure they're creating their entire reality a reality that they then upload their consciousnesses into this runs completely counter to the idea that we've always had of like super intelligent civilizations that are spanning the universe and
+
+[05:08] transversing galaxies this is a civilization that's decided to go inwards to build a literal bubble around itself and live inside of it it's the ultimate TuneIn turn on Dropout which like any simulation argument begins to beg the question how do we know we're not living in a matka brain I will say I don't think human things will ever really go the Matco brain route I think that exploration is just a part of our DNA it's always been there and I think we will always be the type of civilization that wants to go outwards I don't know to me the idea that we would just completely shut the rest of
+
+[05:42] the universe out and go within seems incomprehensible to me I'm pretty sure the future beings that would go this route wouldn't be us they'd be something else something that followed us something that with all of their super advanced intelligence and understanding of the universe have looked out there and decided that there's nobody out there to talk to nothing to see and no meaning to any of it just an empty lonely pointless void so they created their own Universe which come to think of it as a pretty human thing to do so what do you think do you think there are any civilizations out there
+
+[06:22] living in their own little Cosmic bubble you think we're in one ourselves discuss in last week's video on artif intelligence and Consciousness Legion of weirdos commented people who are aware under anesthesia is extremely rare but possible when it happens it usually means the paralytic has been given but the sedating drug hasn't okay so any anesthesiologist watching this please don't do that Legion of weirdos by the way is an awesome YouTube channel I met them at bcon check it out Salem AJ commented I love your content even though sometimes I find it a bit depressing because there seems to be
+
+[06:54] no answers or actual explanations to the stuff you discuss yeah I probably should change the name of the channel to questions with Joe because most of the stuff I talk about have no real answers but don't be depressed it's all good stepan Steinberg said maybe Consciousness thought and choice are just a series of events happening so quickly we can't notice that it's actually in an unlimited sequence yeah that's kind of where I was going with it I think we experience the world as this never ending now we're always in this one particular now state in fact everything that I just said is now in
+
+[07:27] the past like we're always In This Moment this sliver of time that seems to be progressing forward that could be a whole different video actually Mark house said recently there's been a case of a person through some kind of problem of the brain lost most of the central parts of the brain and now only has about 10% of it yet still lives the normal life of a father of two yeah I've heard some stories like that of people who have uh it's not hydril but it's basically the inside of the brain is just liquid There's No Gray matter there and the only gray matter they have is around you know the
+
+[07:55] outside of the brain the the surface area of it and yet still live normal lives which really brings a lot of questions up it's a very interesting topic Devon bloke said Hey Joe did you see the hammer off interview where he said that cryonics would destroy the microtubules great that was my backup plan wish I hadn't watched it now I haven't heard that and cryonics is actually something that's really fascinating to me so that's a bummer big thanks to Alex for supporting this channel on patreon if you guys would like to join it you can just go to patreon.com withth Joe and get your questions
+
+[08:25] answered and join in the fun anyway hope you enjoyed that please hit like if you did if it's your first time here and you liked it please hit subscribe because I come back with stuff just like this every Monday if you want to start a chain reaction of mind blow then you can share this on social media or you can follow me at answers with Joe at any of these down here below thank you guys so much for watching now go out there and have an eye openening week and I'll see you next time love you guys take care [Music]

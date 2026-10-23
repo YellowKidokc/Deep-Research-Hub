@@ -1,0 +1,19 @@
+# Why do women file 70% of divorces then complain about being single? #divorce #marriage #men #dating
+
+**Channel:** [[Kait Willett]] (`KW`) · Chapter 275 of 325 · Length — (prose source, no timestamps) · [[00 - Channel Summary]]
+**Video ID:** `vV6rMGrlT88`
+**URL:** https://www.youtube.com/watch?v=vV6rMGrlT88
+
+---
+
+### [00:00](https://www.youtube.com/watch?v=vV6rMGrlT88&t=0s)
+
+Why are women the ones filing for almost 70% of divorces and then complaining about being single?
+
+— Okay. I will try to be concise in my answer, but there is two reasons. The first one is the cultural landscape that we have for relationships to form. Women naturally and innately, evolutionarily speaking, and there's no judgment in this, so please don't go shaming women, okay? They are hypergamous, which means they want men of equal or above them. That could be intellectually, that could be status, or it could be resources. All those things are important indicators for provision and protection long-term. It's safe to make this long-term bet on this guy. He is capable of delivering certain things to me, okay? So, there's that. The problem with that now is that women are pursuing higher education. Women who have a degree tend to do better financially. So, now it's not women who have men who are able to provide for their household. Now they're competing with men, and men are going to college less often.
+
+They're not really pursuing careers. When they do try to pursue a career, they also have to bend the fact that they can't compete with women like they compete with men, and we're all in the workforce together, so we've got to approach it differently. We're changing the rules of the game that they've always played. Can some of that necessary? I'm not arguing that, but I'm saying what's true, which is these things have changed, which puts men at a disadvantage. A lot of them can't get careers and provide the way that women want them to provide, especially when a woman is making 125 grand. He's got to make at least what, 175 to be a suitor for her, plus the attraction piece, plus the intellectual piece. So, that's a lot of demands. So, the hypergamy piece is one element of it. It's very difficult for men to be above them, especially in the resource department. The second one is women are unfortunately waking up to the realities of marriage, that marriage is a responsibility, that your partner's needs are your responsibility, right?
+
+The opportunity to love somebody is a responsibility, and if you don't nurture that and take care of it, and realize that it's your job to learn to love them the way that they need to be loved, not the way that you're comfortable loving them, and it's not all about you and your demands and your wants, needs, desires, ambitions, goals, entitlement, it's about them, too, and their quality of life, and their needs, and their place to rest, and that partnership has to be above the ego. And unfortunately, women were sold this happily ever after fairy tale, and when they get into marriage and they realize it's effort consistently and it's work and it's sacrifice and it's relinquishing your ego and coming together as a partnership and letting him lead and letting him make decisions and your ability to receive and not compete with him. That's a rude awakening for a lot of women and they think that if there's disagreement or there's any level of struggle in the relationship, it's not the right one. Right, we've made people so fragile that they can't grow or take accountability or say, "Hey, that was really good feedback.
+
+I'm willing to change that for us. I'm willing to get better for us. I'm willing to grow out of that for us." Instead, it's nope, you're the problem. The right man or real man, and men are always blamed. So, women feel empowered filing for divorce and men are sitting there going, "What the [ __ ] I gave up everything and now she takes half."

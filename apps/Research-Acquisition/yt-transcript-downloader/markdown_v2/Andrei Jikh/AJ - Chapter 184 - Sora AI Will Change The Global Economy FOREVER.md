@@ -1,0 +1,59 @@
+# Sora AI: Will Change The Global Economy FOREVER
+
+**Channel:** [[Andrei Jikh]] (`AJ`) · Chapter 184 of 322 · Length 10m 41s · [[00 - Channel Summary]]
+**Video ID:** `tJ3WtQRn9xs`
+**URL:** https://www.youtube.com/watch?v=tJ3WtQRn9xs
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-25 11:59
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:21|Part 2 · 10:21]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] so I used to think that artificial intelligence was just one of those words that people threw around to get investors excited about putting their money in the stock market and I thought that it would never happen in my lifetime but I think I'm wrong if you haven't heard about open AI Sora it's about to blow your mind and probably change the world forever in ways that I don't think people fully understand yet you type in some text of what you want and it creates videos and it does that at such a high level of realism that it shouldn't even be possible here are just some of the examples of what
+
+[00:29] it can do right now here's a stylish woman that walks down a Tokyo Street filled with warm glowing neon and animated City signage she wears a black leather jacket a long red dress and black boots and carries a black purse that was a one minute long video that Sora created with just a couple words in that prompt now I added the music and the sound effects because right now it can't do that and it can't syn with video but I imagine it will soon but it's doing that with such a level of realism that it shouldn't be possible without physically traveling to Tokyo and shooting on a lowlight
+
+[01:04] fullframe sensor camera like the A7 S3 in 4k at 120 frames per second and it's creating a shot that has never existed before in human history and all it took was just a couple words on a keyboard it gets crazier though here's a movie trailer featuring The Adventures of the 30-year-old Spaceman wearing a red wool knitted motorcycle helmet Blue Sky salt desert cinematic style shot on 35 mm film with Vivid colors that straight up looks like a scene from a JJ Abrams movie except with a lot less lens flares hold on there I fixed it it gets even better because it can take a simple photo as an input
+
+[01:41] and reimagine it into a video that looks like this this is absolutely insane and this is just the tip of the iceberg of what it can do let me show you how this technology is about to change all our lives and the global economy forever let's get into it hi my name is Andre J hope you're doing well come for the finance and stay for the magic because seeing is no longer believing AGI or artificial general intelligence is the single most important invention in all of human history and it will also probably be our last because once you create the thing that can create anything it's game over and I
+
+[02:20] used to think that that was science fiction or at least it wouldn't happen for a long time and probably not in my lifetime but it's kind of scary how fast it actually is is happening and it's accelerating now my initial thoughts are that it will probably displace millions of jobs and throughout this video I'll probably be asking you more questions than I'll be answering because I don't know the answer like what's going to happen to Specialty companies that make cameras and drones you used to need a company that did that the thousands of dollars that you needed saved and the Drone licensed
+
+[02:52] operate them but now you don't need any of that all you have to do is type drone view of wave crashing against the rugged Cliffs along big sur's graypoint beach voila you get a picture perfect cinematic drone shot I mean this is crazy I've been to Big Sir and I actually flew a drone there and it looked exactly like that except in this case they recreated the shot perfectly and they didn't have to go to California thank the Lord kidding but also what happens to all the videographers that are out there because in 2022 the Bureau of Labor Statistics reported that videographers earned roughly
+
+[03:28] 62,000 a year which is a very livable wage and there's approximately 875,000 videographers in the us alone and they range anywhere from wildli all the way to oceanographers and those very specific Fields within videography can also now be replicated by Sora here's Borneo Wildlife on the kinab batangan river here's one of the most detailed shots of a Victoria crowned pigeon here's some wly mammoths for you and here's an octopus doing its octopus thing so now we're potentially talking about not needing videographers at all or at least not as many as we have today and we might not even need
+
+[04:04] companies that make special glass like macro lenses because here is an extreme closeup of a 24-year-old woman's eye blinking standing in maresh during magic hour come on if someone didn't tell you that was AI would you even think twice about it also another question what happens to the animators the people that made things like Toy Story in 2022 there were 2 million animators globally making $75,000 a year on average but also here's an animated scene featuring a closeup of a short fluffy monster kneeling beside a melting red candle does that mean we don't need an entire Studio of 3D Graphics
+
+[04:39] animators I don't know but Sora also extends Way Beyond animation and movie making it's also going to change the way that people make commercials like car commercials for example which will never be made the same again here's a typical car shot you might see a drone following a car in extreme detail and and here's another of a Porsche just driving in the mountains and it looks insanely real if you never told me I would never have noticed that these were AI generated videos and this is coming from a guy who did video production professionally for 20 years no one is safe from this technology
+
+[05:16] not even Time Travelers they're about to go out of business too here's a really detailed shot of California during the Gold Rush it's even able to visualize not only what the past might have looked like but also the future here's a shot of logos Nigeria in the year 2056 shot with a mobile phone camera when I first found out about this my first thought was this is an April Fool's joke right there's no way these videos were AI generated how did we go from making videos that look like this less than a year ago makes no sense at all to videos that look like this which look like they're shot on
+
+[05:50] beautiful 4K cameras in slow motion so I guess we can also say goodbye to stock footage companies and openai tells us that these were all created by Sora without any modification so this is not a joke this technology is here to stay and my question is what's going to happen next now I watched one of the First videos that came out about this by MKBHD and he had a really interesting observation about that drone shot that I showed you earlier and that has all sorts of implications for the Drone pilot that no longer needs to be hired for all the photographers and videographers whose footage no
+
+[06:24] longer needs to be licensed to show up in that ad that's being made it's already that good which is exactly my point and that Tokyo shot short of going to Tokyo and hiring a crew of videographers maybe a video editor maybe a colorist booking flights to get there the hotels the meals all of that is not as needed anymore there's going to be a lot of jobs that will be eliminated or at the very least those incomes will be drastically reduced and the jobs will be concentrated into fewer jobs we kind of already saw that happen with Chad GPT and the writer strike I imagine we'll see more job
+
+[06:58] postings like this one from Netflix when they wanted to find an AI platform manager and they offered them $900,000 per year for the companies that can I can see them consolidating say 20 of their jobs into fewer at a fraction of the cost and the thing that's scary without trying to fearmonger because I don't know the answer is that if you eliminate an entire industry of people even if it's a small one it can have Ripple consequences on the entire global economy with loss of employment loss of productivity lower profits potentially supply chain problems and the assets and Loans of those people
+
+[07:35] and who pays for them if they can't also it's election year and this technology has gotten so good that it's crossed the uncanny valley in other words the people in these AI videos look real especially to people who might not be looking for or even be aware of what AI can do already and the thing that's shocking that we have to keep in mind is that this technology is getting better and better faster and faster again remember this is where we were less than a year ago now there are a couple good things that I can see coming from this technology and one of them is fan-made Recreations of
+
+[08:11] alternate endings for their favorite shows cuz I think some of them do need it I imagine this will open up a Floodgate Of new content creators on social media who knows we might even see the first AI generated person who people don't even know is not a real person like I could be AI generated you don't know your mind would be blown all I'm saying is you've never seen me and Sora in the same room the good news is for now they do have safeguards in place like for example the watermark in the bottom right hand corner which for now is how you can tell it was AI generated but someone can also
+
+[08:43] easily just crop that out they're also keeping this technology only open to the quote red teamers or the group of testers who are working to refine it cuz right now it's not perfect if you look close enough at any of the shots you'll notice that something is off it's very small small though and you have to look really really close like for example one of my favorites is this shot of the dogs playing in the snow it's probably one of the best I've seen on their website at first glance you probably didn't notice what just happened I know I didn't but if you look close enough you'll see that the
+
+[09:14] gravity reverses in the snow sort of Falls upward for a split second also the Gold Rush California scene right in the beginning there's a horse that just copper fields and vanishes from the left side of the frame sometimes it's just super subtle like that and all the clips have something in them if you play them frame by frame and other times it's a lot more obvious like for example these red pandas in the petri dish which only have two legs for some reason or these multiplying wolves which shouldn't be doing that it has trouble with accuracy when it comes to multiples of things the good news
+
+[09:46] is if you look close enough you'll notice something but it is good enough to be used creatively and I imagine in some cases dangerously but also remember it's only going to get better from here or maybe worse well I guess it's better for some people and worse for the people that make videos for a living hey wait a minute I'm a Blake employee I'd love to know your thoughts about what you think all of this means if there's entire industries that we might not need now I don't think that AI is going to be the end of us but if it is we'll get some really great shows and movies out of it and I'm
+
+## Part 2 · 10:21
+
+[10:21] really looking forward to that as always I hope you have a wonderful rest of your day smash the like button subscribe if you haven't already don't forget to grab your free stock links are down below and then go track them automatically with a spreadsheet link Down Below in my patreon love you thank you so much for watching this video I'd love to see you back here on Monday and Friday sometimes a Wednesday see you soon bye-bye

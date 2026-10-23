@@ -1,0 +1,45 @@
+# How the Government Uses Fear-Mongering to Alter Your Brain
+
+**Channel:** [[Tucker Carlson]] (`TC`) · Chapter 291 of 990 · Length 8m 15s · [[00 - Channel Summary]]
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] (https://www.youtube.com/watch?v=GhFr7WeIeQc&t=0s) And I've worked on this issue for the last 10 to 15 years. Actually published a paper Unified Theory of Alzheimer's Disease, which is Alzheimer's. Most people think it's it's the cause is age, but the real cause of Alzheimer's is actually neuroinflammation and our lifestyle. And so the reason it's age is correlated to it is just because it takes decades to develop disease. But neuroinflammation can be caused by many things it can be caused by excessive fear by fear mongering.
+
+[00:34] NE inflammation can be caused by bacteria by V by viruses by infection chronic infections. (https://www.youtube.com/watch?v=GhFr7WeIeQc&t=34s) Yes, so it was shown that in order that the hip campus, it's our autobiographic memory center, which is the center where Alzheimer starts needs to be to be functional. Something which we call adult HPOC Comple neurogenesis permanent production of new nerve cells, which have many F funs we need to talk about. They are essentially our mental immune system.
+
+[01:09] And if this production is essentially shut down, then our mental immune system breaks down and we are free for everything. (https://www.youtube.com/watch?v=GhFr7WeIeQc&t=69s) I mean, we are, we can be conquered and we would even accept it. And so so I was working on this mental immune system. And how? So you're describing a physical just to it's physical, you're exactly it's physical. This is not emotional, this is not the product of propaganda. You're saying that the way that your brain functions as a physical matter can be changed to make you more controllable.
+
+[01:35] Emotions essentially change the way the brain works, and strong emotions fear, for example, particular in a situation where your mental immune system is down, meaning that your psychological resilien is down. (https://www.youtube.com/watch?v=GhFr7WeIeQc&t=95s) It leads to a very strong effect in the brain kind of a neurotoxic effect. Leakage of molecules out of the neurons, which are recognized by immune cells in the in the brain. And this rec leads to an activation of an immune response, very strong immune response.
+
+[02:11] Activating Cyto proinflammatory cyto kindes, and they attack the Hippocampus, our autobiographical memory center, shutting down essentially many functions like, for example, curiosity like, for example, psychological resilience. (https://www.youtube.com/watch?v=GhFr7WeIeQc&t=131s) It drops, meaning that everything that happens lead leads to an increased rate of depression. And it shuts down, which I've shown recently and which I have put in my book. It shuts down our ability to think so if you really want to transform a brain, so first you have. It's a twostep process.
+
+[02:40] First, you block the Neurogenesis, the production of new NEUR cells in HPOC Compus. (https://www.youtube.com/watch?v=GhFr7WeIeQc&t=160s) Then you come up with the stories you want to install, but since they have to come with an emotion, they you can't come with the same story. Every day you have to change the story day by day, you have to come up with new stories with the same intent. Something is breaking down, the world is shut down, everything is dangerous. I'm losing at my job because immigration, I might, my family might be killed.
+
+[03:11] Because we have an atomic war based on these local wars, we have the war against climate change. (https://www.youtube.com/watch?v=GhFr7WeIeQc&t=191s) Everybody will drown because the water will rise. All these stories come up day by day. Actually, the world economy reform has a program a pure. They bring out every January and they call they talk about Perma crisis and they have hundreds of points. They are actually listed in my book, what they have in mind or in their background, where we can start the next crisis. We need to change the story so that the and the end of the day, your personal.
+
+[03:44] His history is overwritten by these fear ming stories. (https://www.youtube.com/watch?v=GhFr7WeIeQc&t=224s) And you have to change it, otherwise it doesn't work if you want to install, and this is all about installing a new operating system. Yeah, you already in your introduction, you said you didn't say it. But it's like an artificial, intelligence controlled society by a social storing system. And I call it in my book, Let's Say, an evil's social operating system, which can actually abbreviate by SOS. Yeah, quite nicely.
+
+[04:18] It means something else, but we know what it, what, where it ends, and so if that's the plan and you alluded to it. (https://www.youtube.com/watch?v=GhFr7WeIeQc&t=258s) And I'm pretty sure everybody who reads Schwab's book knows what's going on and what they are intending. Then it's clear you have to create a situation where nobody. There's no other fence anymore. There's no fence where you can see in, Oh, the green, the grass is green. On the other side, look at other dictatorships DCT, fascism in Germany, Stalinism, whatever.
+
+[04:52] Yes, there was always a fence, a border where it was different on the other side. But we have to think here, Global, if there's if everybody is attacked, then there is no border, there is no other side. (https://www.youtube.com/watch?v=GhFr7WeIeQc&t=292s) There's no way, no place. You can hide, no place you can go, but there's another border in your brain, the brain of history, you know, it was different in the past. But once you start overriding the past and even this border is gone, there is no way you can't. There's no refugee anymore. Nothing you can go back to and think about.
+
+[05:23] Okay, it was different in the former times. We have to get back to that place to this time to we have to change something. (https://www.youtube.com/watch?v=GhFr7WeIeQc&t=323s) Yes, and the ability to change something with individuality, creativity, individuality as closely linked. But what's happening here is we destroy individuality that means we destroy the creative power of humanity. And then what? Because we just follow the rules that the artificial intelligence. So you're really describing a kind of mass Alzheimer's.
+
+[05:54] I mean, with no, no, because a person without memory isn't fully a person. Yeah, I give you another word for that. (https://www.youtube.com/watch?v=GhFr7WeIeQc&t=354s) It's, you see, the ability to think that was a Nobel Prize given for that, actually, in 2002, to Daniel Kanaman is a psychologist. The Nobel Prize was in economics. How do we come to decisions in difficult times, so to speak? That's was the Nobel Prize, of course it was for businesses, but nevertheless he described a mental energy that we need to activate thinking.
+
+[06:26] And in my book, I describe what this mental energy is it comes from the production of these new nerve cells. So if you shut down the ability to think, then you are stuck with the nonthinking brain, which he called System One. (https://www.youtube.com/watch?v=GhFr7WeIeQc&t=386s) So system one two is the sying brain. The thinking system one is our default action during the day, which doesn't require any energy we call System One another. Nobel Prize winner who was trying to find out where the our consciousness is in our conscious is in the brain. Francis Crick, He disc.
+
+[06:58] He got the Nobel Prize for discovering DNA. He published a paper in 2003 with Co his colleague. (https://www.youtube.com/watch?v=GhFr7WeIeQc&t=418s) And he said System 2 is great that we have, it's essentially the motor of our society. You know, the thinking ability, yes, and but it's also good to have system one, which allows us in standard situations to actually react in a way that doesn't cost any mental energy. And he named the system one the Zombie Mode Zombie Mode Zomie Mode. So if you are not able to engage System 2 anymore.
+
+[07:31] And that's what my book describes under the attack of the virus and the fear, mongering and a lifestyle is not very healthy. (https://www.youtube.com/watch?v=GhFr7WeIeQc&t=451s) Then, of course, we are stuck in a zombie mode and I really fear the zombie society very much. A couple of questions. What does this du to religious faith, which was at the center of all societies until the Second World War? Does a zombie mode? Does a zombie population have religious faith? I'm not sure if you were religious to begin with, you certainly will be.
+
+[08:13] The drive will be still religious belief, but again, religious belief is based on memory and if memory is overwritten. (https://www.youtube.com/watch?v=GhFr7WeIeQc&t=493s) Well, I think I gave you already the AnSW Hey, it's Tucker Carlson. The Internet is crowded with interesting things that don't really matter. On TCN. We attempt to bring you interesting things that actually do matter. And a lot of them interview long form and short videos, documentaries. You can find all of it on tuckerCarlson,..com, and we hope you will.

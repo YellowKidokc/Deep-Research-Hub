@@ -1,0 +1,59 @@
+# Evolutionist Leaves After Christian Says THIS
+
+**Channel:** [[Living Waters]] (`LW`) · Chapter 595 of 2497 · Length 10m 53s · [[00 - Channel Summary]]
+**Video ID:** `S_xgvRsi47I`
+**URL:** https://www.youtube.com/watch?v=S_xgvRsi47I
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 04:21
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:15|Part 2 · 10:15]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] [Music] does that make sense to some yeah what about to you too much evidence refuting give me some evolution that's a trick question no it's not it's a hard one it's not see i wouldn't say with lust what would you say it's with i would stick with my eyes what happens after you die where are you going uh i i think that there is a sacred place i'd have to get there to find out really so you don't believe in new york until you go here to find out no that's not what i said well tell me how do you get to the afterlife you have to die you don't wait till you die to find out nobody's come back to
+
+[00:42] tell me are you sure no but can you show me someone i can give you some evidence okay you mean like heaven yes now what happened i don't know what you have to do to go there joel he's gonna be a good person are you a good person absolutely now we're gonna have a little court case can you gosh we're going to wait we're going to weigh my goods and bads or we'll get away your goods and banks do you believe in god's existence no you don't are you an atheist no so what are you if you don't believe in god's existence agnostic hey so you don't know if god exists yeah do you think i can help you to
+
+[01:13] know if god exists you might you could try okay we'll just do a little one here see that little building yeah was there a builder or not yeah how do you know you can't see them hear them touch them taste them or smell them how do you know there was a builder i can see it because the building exists yeah okay now carry that logic to paintings and paint us let your imagination go see the painting how do you know there was a painter because it materialized because the painting exists paintings don't paint themselves buildings don't build themselves so you know there was a creator because of
+
+[01:48] creation look around you flowers and birds and trees the sun the moon the stars all these things have order to them like a building and like a painting so we know god exists because of creation does that make sense to some yeah what about to you too much evidence refuting give me some evolution explain to me how the eye evolved the eye evolved from what all things evolved from it was actually the lack thereof it was a light sensor that over it was a light sensor yes it was a part of the body that's where did that come from there's several animals that have them right now but where did it come
+
+[02:26] from what was the source a single-celled organism that evolved into the rest of our body so it's incredibly complex as a single cell yes incredibly complex where did it come from you can't just say there was a light sensor that had to have a source an intelligent designer stay with me and talk to me andrew so you're gonna make it to heaven yes okay we're gonna have a little court case okay i'll be your prosecutor you'll be the defender okay do you know what intent is in law intent right it's all about intention that's what you're saying see a man can plow into a crowd in his car right but if
+
+[03:03] there's no intent to kill them that's an intelligence murder it was an accident i'm going to see if there's intent with you and if there is you can be prosecuted can you be honest with me sure how many lies have you told in your life of too many to count what do you call someone who's told too many to count likes a a human yeah we know you're a human a liar yeah so what are you that would make me a liar now do you still think you're a good person absolutely have you ever stolen something even with small and your whole life yes what do you call someone who steals things a thief so what are you
+
+[03:37] i'm a thief no you're not you're a lying thing now do you still think you're a good person yes have you ever used god's name in vain yes okay would you use your mother's name as a cass word uh other people do i don't know would you no you wouldn't insult it by doing that no do you believe god gave you life yes are you thankful yes why then did you use his name as a cass word explain it to me why it's a good question i don't know you know what it's called no blasphemy instead of using a filth word to express disgust you took the holy name of god and used it to cuss punishable by death in the
+
+[04:17] old testament do you still think you're a good person yeah jesus said if you look at a woman and lust for her you commit adultery with her in your heart have you ever looked at a woman with lust that's a trick question no it's not it's a hard one it's not see i wouldn't say with lust what would you say it's with i would with my eyes yeah attraction so have you ever looked at a woman with lust is there blood in your veins or not yes okay so have you looked at a woman with luck sure i'm not judging you but you've told me you're a lying thieving blasphemous and altered heart i'm a lustful
+
+[04:53] blasphemous and you have to face god on judgment day so here's the big question yes if god judges you by the ten commandments on judgment we've looked at four you're going to be innocent or guilty well i've been asked for forgiveness oh it wasn't the question would you be honest not guilty i guess guilty at this point heaven or hell by my court case apparently i'm going to burn yeah you're in big trouble yeah remember we opened up by saying we're going to look at your good and bad yeah are you a good you do good things oh yeah do you think that will help on judgement day i've i guess we'll
+
+[05:25] try that in a quarter i know it's not going to work in man's court you say judge i rob the bank shot the guard but i want to tell you about some good things i do yeah he's going to say what are you talking about he won't judge you on your good deeds only on your crimes and it's the same with god okay so here's the big question does it concern you that if you died today and god gave you justice you'd end up in hell does it concern me yeah no because i believe that if i ask for forgiveness i'll be all right you know what you've just done what just broke the first and the second of the ten
+
+[05:58] commandments do you know what it is what you committed the crime of idolatry before i was a christian i made up a god to suit myself i shaped a god in my image from my imagination a congenial kind of solicitor i know what an idol is it just forgave everybody of everything and yet there's only one god and every time you sin against him you store up his wrath that's going to reveal it on the day of judgment and if you're not concerned for your eternal eternal salvation i am i love you i care about you i don't want you to end up in hell that horrifies me it takes my breath away thank you i'm
+
+[06:29] seriously and earnest about it now tell me what did god do for guilty sinners so they wouldn't have to go to hell do you know he gave up his life yeah he died on the cross do you understand the legal implications of that no the ten commandments are called the moral law you and i broke the law jesus paid the fine yes that's what happened on the cross that's why he said it is finished just before he died right if you're in court joel and someone pays you fine if you're guilty the judge can still let you go because someone's paid your fight you can say joel there's a stack of speeding fines here
+
+[07:01] yeah deadly serious but you're free to go because someone's paid the fight and you can do that which is legal and right and just right and god can legally dismiss your case let you walk even though you're guilty take the death sentence off you let you live forever because of jesus death and resurrection all you have to do to find everlasting life is repent of your sins and trust in christ you know what repentance is asking for forgiveness it's more than that it's when you confess and forsake sins you don't say i'm a christian but you're lying steel and fornication right let's plan the
+
+[07:32] hypocrite just deceiving yourself and then you trust in jesus like you trust to parachute now i'm going to let you go in a sec but i want to give you one last analogy okay i'd like you to think about it joel at the moment you like a man on the edge of a plane ten thousand feet up he knows he has to jump and this is his plan he's gonna flap his arms and try and save himself not say that man don't do that trust the parachute very simple so don't trust your goodness to save you on judgment day it's not going to work you like the rest of us you're going to multitude our sins transfer your trust
+
+[08:02] from yourself to the savior and the second you do that you've got god's promise and you can't lie because he's without sin it's impossible for him to lie you've got god's promise you'll grind the everlasting life as a free gift does that make sense makes sense to me what are you a boyfriend girlfriend ever had an argument there's like a barrier between you and one of you says i'm so sorry honey please forgive me immediately there's reconciliation because there's humility and an apology right at the moment there's a barrier between you and god it's called sin it's rebellion you go to god and
+
+[08:32] say i'm so sorry please forgive me and the bible says he's rich in mercy if you've got a contrite heart if you've got a humble heart and then trust in jesus like you trust a parachute can you think of anything you trust a chair a chair anything else what about when a doctor gives you pills a doctor gives you tablets he says take one every two hours you don't say well this kill me you just trust them when you step in an elevator you trust the cables you trust a pilot when you get into a plane with your life even when you're getting a taxi you trust the taxi driver to drive you right so there's
+
+[09:06] all these things we trust that can let us down but god will never let you down the bible said he's faithful it promised so if you you two love each other absolutely are you married no you're gonna get married hopefully okay well if you care about her think about what we talked about talk about it together and get right with god together because there's nothing more important than your eternity does that make sense absolutely makes sense what i'm saying to you when i go into a menswear store for the first time i really appreciate it when an attendant says if you're looking for jackets our most
+
+[09:44] popular items are on that rack over there and they're on special at the moment so welcome to our store here's some of our most popular tracks and they're on special at the moment we call this the starter kit it's made up of 100 of each tract and 50 10 commandment coins these coins are really easy to give out just begin with a warm good morning and then say something like i've got a gift for you it's a coin with the ten commandments on one side and the gospel on the other i've even tossed a handful of these on the sidewalk among teenagers as i rode by and you should have seen them fight to get
+
+## Part 2 · 10:15
+
+[10:15] one this is the good person test and comic form and who can resist reading a comic then there's the same test and a cute little booklet [Music] and finally a super popular million dollar bill just say did you get your million people love these or you could just put it down somewhere and sure to get picked up these 300 tracks and 50 coins would normally cost 38 but they're on special on the starter kit for just 29 go to livingwaters.com click on the store and then tracts

@@ -1,0 +1,28 @@
+---
+fis_schema: "folder-index.v1"
+folder_id: "FLD-20260829-919331d5"
+folder: "Documents\#recycle\axiom dump\B\transfer\Axiom-Navigator-extracted\Axiom-Navigator\03_SCAFFOLDING"
+folder_class: "project"
+confidence: 0.6
+dependency_risk: 0.0
+dominant_family: "text"
+dominant_ratio: 0.909
+file_count: 11
+classified_at: "2026-08-29T14:22:29"
+allowed_actions: ["index", "rename_internal", "subfolder_sort", "archive_exports"]
+suggested_name: "03_scaffolding"
+---
+
+# FIS Folder Index: 03_SCAFFOLDING
+
+**Class**: project  ·  **Confidence**: 60%  ·  **Files**: 11  ·  **Dominant**: text (91%)
+
+## Allowed actions
+- index
+- rename_internal
+- subfolder_sort
+- archive_exports
+
+**Suggested name**: `03_scaffolding`  (not applied — review before use)
+
+<!-- FIS folder-index.v1: parseable note; safe to regenerate. -->

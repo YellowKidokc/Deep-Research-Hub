@@ -1,0 +1,50 @@
+# "There Is No Doubt That This Is All Being Planned" | Raoul Pal
+
+**Channel:** [[Only The SAVVY]] (`OTS`) · Chapter 202 of 514 · Length 9m 43s · [[00 - Channel Summary]]
+**Video ID:** `7Co9oH1jzwU`
+**URL:** https://www.youtube.com/watch?v=7Co9oH1jzwU
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 01:02
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] they've just stopped that event so they debase currency to erode the debt make the interest payments because if not they'd never be able to pay the interest because you'd eat up all of GDP growth just to pay this interest because it's 100% of GDP and they stop the big bad event so what that gives you is the greatest macro risk-taking opportunity of all time doesn't mean the business Cycle's gone but overall you've got the best risk-taking cycle in history this follow-up interview from the Julia lose show with Raul pal we dive deeper into the potential for exponential growth in Bitcoin tech
+
+[00:36] stocks and other assets pal elaborates on how Bitcoin has been one of the top performing assets due to its ability to thrive in an environment with growing liquidity at the time of this discussion Bitcoin is trading around $63,000 with a 3% decrease in the last 24 hours and a 1% decrease in the last 7 days before we dive further into these insights don't forget foret to like subscribe and share this channel now let's hear from R pal about what's coming next for Bitcoin well we've talked about the fed put for years but we didn't really understand what it meant what it is for is listen if
+
+[01:14] you've got a lot of debt your collateral is what you pledge against the debt right the whole system is built on this that's what blew up in 2008 because the house prices went down and everyone's loans were this high but if you think of the whole system all the banks and all the asset management firms and all the leverage and all the private equity and all of the stuff they don't want the equity to go down because that's the collateral they can they allowed the bond market to go down because in the end it gets repaid so it's a mark to Market loss but in equities when you've got this massive
+
+[01:43] retirement system you just don't want that so this fed put is part of the everything code and I didn't really realize it but it's actually been going since 2001 MH and I didn't really see it but now it's so clear that all the central banks understand what they're doing they understand the entire game they understand that need to monetize the interest payments really since 2012 it's it's super picked up and we would not have had a recession were it not for covid because they've basically made it very difficult to happen because if you think of recessions they're driven by the credit cycle
+
+[02:20] mainly and if you don't like if you don't want credit markets to get stressed then you don't have recessions so generally speaking as I said crypto markets tend to go bananas so that is you know we're talking currently the the total market cap of crypto is about $2 trillion by the end of this cycle it'll be at 10 to 15 trillion I mean that's La La Land returns I mean but that's crypto crypto gives that kind of opportunity uh the nasdaq's been following this perfectly so it just keeps going whether we get another 20% 50% upside in the NASDAQ or it could be more we don't know you can't really
+
+[02:59] tell but the point being is the gains are huge we'll also see Commodities picking up we'll also see you know we've seen precious metals picking up we'll see all parts of the economy and the stocks picking up as the economy's growing inflation's not yet a problem and um the central banks are cutting rates and adding liquidity to finance their debts that's Utopia that's what crypto macro summer and macro fall it's basically Market Utopia half of Twitter is still fighting about a recession world's going to end and geopolitics War as we just heard Raul pal explain liquidity plays a crucial role
+
+[03:39] in driving asset prices and now he shifts Focus to bitcoin's extraordinary performance in recent years with bitcoin's historical ability to outperform all other assets pal shares how central bank rate cuts and liquidity injections could further fuel bitcoin's rise he emphasizes Bitcoin scarcity decentralized nature and resilience in turbulent markets making it a critical asset for risk-takers in the current macro environment this period is ripe for significant market gains and Bitcoin stands at the Forefront of this opportunity now let's hear more from Raul pal people there's a large group of
+
+[04:13] people who want their Justice they want the system to fall apart to say I told you so you're printing money you're creating inflation you're doing this it's all unsustainable and they don't want to see that what's actually happening this 8% debasement is basically all of us being charged 8% for a put option on the system which is actually maybe not that bad but they don't want to see it and then a lot of people who aren't invested in technology can't stand the fact that it outperforms versus what was deemed to be the right way to invest which was the the um value investor the cyclical
+
+[04:49] commodity deep value that thing and that's not been working for 30 years but yet they want it to come back so they get more Angry as markets go and then they start drawing patterns about how it's going to crash well markets A unlikely to crash unless it's further out the risk curve but markets don't crash when the business Cycle's picking up they crash when the business cycle is slowing down and let's say the ism crosses 50 it never happens at this point of the cycle so really there's no real rational argument and the FED are cutting rates now they're pushing liquidity into the system the
+
+[05:29] Market's buoyant and the ism is going to start picking up all the forward-looking indicators are so it's really difficult to argue that there's a bubble and it's going to pop and when we get to the bubble argument something else they miss is they look at Price earnings and they say see price earnings keep going up there it's getting wildly expensive but price and earnings if you remember the story of your earnings and house prices how house prices are always going up more than your earnings well what is price earnings it's the share price which is driven by debasement and corporate earnings
+
+[06:06] which are driven by GDP growth so over time as we add liquidity into the system the everything code suggest that price earnings will keep going higher because of this Dynamic but people don't understand it so they look to a world of the past now this has actually all been done before this is not a brand new thing after World War II this is what they did they used yii curve control as a way of stimulating the economy and they they essentially grew the way out of it by refinancing the debts and we had exactly the same four-year cycle back from about 1948 to about 1968 so we had 20 years of it
+
+[06:47] back then this is the 1970s gold owning value investing inflationists who think this is the case the US bond market can't completely fall apart why because you can print money and buy it so that doesn't happen the currency could weaken but the rest of the world is even worse so I'm not sure where this inflation this mystical magical long-term structural the 70s are coming back when you've got an aging population um you've got low productivity and you've got an accelerated technological Revolution including AI plus High debts it's almost impossible to generate sustained inflation which is why
+
+[07:30] China can't generate it Japan can't generate it Europe can't generate it and the US can't generate it either rates were were at 5 a half% inflation was at 2 and a half I mean that's 300 basis points of tight interest rates that's crazy look at people's mortgages look at house look at car purchases nobody could get access to credit look at credit card rates it was too restrictive for the economy M and they need to cut it because they need to roll their interest payments and they need to refy their debts at lower rates moving rates as high as they did was necessary to stop that pervasive idea
+
+[08:08] that inflation was going to be sticky because inflation can be a mindset shift you know we saw corporations after corporations just raise prices raise prices raise prices and what this did was slow all of that down so no I don't think it was a mistake I don't think a Federal Reserve did a very bad job nobody likes going through a rate cycle like that this is the largest of all of lifetimes and so therefore it's pretty ugly doesn't feel good nobody likes it business slows down for everybody but it worked in terms of getting rid of inflation and any expectations of future inflation so inflation
+
+[08:42] expectations have collapsed in the US now in fact where are they today so a 5year break evens are at 2% and one year are at 90 basis points so there's nobody's expecting inflation because the FED did a good job now they need to bring rates lower and they have to bring it a lot lower you know I still think rates come down two two and a half to watch the full interview check out the link in the description in this discussion R pal goes into how central banks liquidity injections and interest rate cuts are driving major opportunities for Bitcoin and other risk assets he also outlines the
+
+[09:15] unprecedented macro setup that could create massive gains in the coming years we would love to hear your thoughts on some questions will Bitcoin continue to lead as a high return asset in this evolving landscape how do you think central bank policies will shape the future of decentralized Finance thank you for tuning in to Only The Savvy if you enjoyed this discussion Please Subscribe like and share our video for more engaging content exploring the Innovative world of decentralized finance and Technologies

@@ -1,0 +1,61 @@
+# Pastor Explains The Problem With “LOVE IS LOVE” (Powerful!)
+
+**Channel:** [[Daily Dose Of Wisdom]] (`DDOW`) · Chapter 592 of 916 · Length 15m 53s · [[00 - Channel Summary]]
+**Video ID:** `08NiHrPZSQ4`
+**URL:** https://www.youtube.com/watch?v=08NiHrPZSQ4
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 05:27
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:39|Part 2 · 10:39]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] why would God make people gay in the first place I remember watching this particular Moment On The Joe Rogan Experience and being extremely dissatisfied with the answer that the Christian gave to this very challenging question I'm going to go ahead and play that clip now for context and then explain a little bit more what I mean why would God make people gay in the first place well of course I would say it comes from God if I didn't believe that then I wouldn't be Christian why would God make people gay if he didn't want him to engage in gay sex all all people have uh ities or um towards
+
+[00:28] different sins different things that we would call sins yeah but if that's like their fundamental attractiveness they're they're attracted fundamentally to other men like or other women like why it seems like something that God gave them like why would God give you an attractiveness or why would you be attracted to the same sex if that was morally reprehensible so what I want to do in this video is actually try to unpack the response that I wish had been given in front of that larger audience I'm going to use VOD bacham who gave a sermon directly addressing this idea of Love Is Love I'm
+
+[01:13] mostly going to let him unpack the scripture that he's referring to here to kind of give a deeper richer hopefully more compassionate Christian sense of how we should respond to this idea of Love Is Love and then if anyone is left triggered or confused on the back end I'll leave a couple of my thoughts to kind of try to wrap things up and make sense of really what he has to say here this is actually a 45 minute long sermon that I'm condensing down into the gist of it for your convenience so with that being said let's go ahead and dive in we must reject the lie that says there is no love that
+
+[01:50] is out of bounds because ultimately that lie that says there is no love that's out of bounds is a lie that says there is no truth in God do not love the world or the things in the world if anyone loves the world the love of the father is not in him for all that is in the world the desires of the Flesh and the desires of the eyes and the pride of life is not from the father but is from the world the world is passing away along with his desires but whoever does the will of God abides forever you see what's happening here this do not love the world is not God saying listen there's good stuff out
+
+[02:36] there that I want to keep from you that's the LIE of the serpent this do not love says that looks good to you and may even feel good to you but in the end you will perish I'm calling you away from from it because I actually do love you and in loving you I want you to abide in God to remain in God and to not perish love can be sinful remember I told you this is an important word for our day love can be sinful we live in the midst of a culture that needs to hear that it needs to hear that from us because it's it's coming at us with this whole Love Is Love mentality and and how can you be
+
+[03:41] against love nobody can be against love certainly Christians can't be against love because God is love and we are called To Love Therefore how can you stand in the way of any two people who love one another but our text today makes it very clear that there are instances When Love can be sinful in other words this is more than just a theoretical theological discussion for us to have this is a very practical rubber meets the road issue this issue of love being sinful the question is what makes love sinful what could possibly make love sinful under what circumstances would love be considered
+
+[04:49] sinful well first of all love becomes sinful when it is directed at the wrong object love becomes sinful when it is directed at the wrong object look at verse 15 do not love the world or the things in the world if anyone loves the world the love of the father is not in him do not love the world now it's very important to note that this word world especially in johannine literature is used in at least three different ways first of all the world can refer to all creation you see this in John 1 John 3 John 4 John 6 John 7 John 8 over and over again this word Cosmos refers to all the world to all
+
+[05:41] the created Universe John is not saying here that we should not love this universe this world this Earth that God created that that's not what's being said here secondly the term World refers to the people that inhabit this world that God created and God is not saying do not love people do not love mankind absolutely not we we we we know that it doesn't mean that because the love that we're called to give even to our enemies what the great commandment love the Lord your God with all your heart and love your neighbor as yourself so John can't be talking about that first world here and he can't
+
+[06:35] be talking about that second world here that would be a contradiction however there is a third use of the term world and that third use refers to the spiritual realm that is in opposition to God and in Rebellion against his kingdom it is that third sense of world that is being discussed here so when John says do not love the world he he says your love becomes sinful when it's directed at that system that is anti- God that system that is anti- Kingdom that system that is satanic love becomes sinful when it arises from the wrong source not only when it's when it's pointed in the wrong direction
+
+[07:33] pointed toward the wrong object but when it arises from the wrong Source verse 16 for all that is in the world the desires of the flesh the desires of the eyes the pride of life is not from the father but is from the world so so there's a problem first with the object and now here there's a problem with the source but finally and ultimately and most importantly our love becomes sinful when it produces the wrong fruit when it leads to the wrong ends look at verse 17 and the world is passing away along with its desires but whoever does the will of God abides forever here you have these these
+
+[08:38] these two opposite ends on the one hand you have this world that is passing away and on the other hand you have our God who abides forever love becomes sinful when it leads to wrong ends and produces wrong fruit our passions become sinful when they are pointed in directions that lead to death and destruction as opposed to leading to life the poignant way in which this is so pertinent to our times because of the Love Is Love crowd particularly in the area of samesex marriage H how can you be opposed to same-sex marriage when same-sex marriage is just about people who love each other being
+
+[09:45] allowed to express that love but that's a love that's pointed at the wrong object that is not a love that comes from God or that brings glory and honor to God it is pointed at the wrong object it is a love that arises from the wrong Source look with me if you will at Romans chapter 1 for the wrath of God is revealed from Heaven against all ungodliness and the unrighteousness of men who by their unrighteousness suppress the truth for what can be known about God is plain to them because God has shown it to them for his invisible attributes namely his eternal power and divine nature have been
+
+## Part 2 · 10:39
+
+[10:39] clearly perceived ever since the creation of the world in the things that have been made so they are without excuse for although they knew God they did not honor him as God or give thanks to him but they became feudal in their thinking and their foolish Hearts were darkened claiming to be wise they became fools and exchanged the glory of the immortal God for images resembling mortal man and birds and animals and creeping things therefore God gave them up to the lust of their hearts to impurity here we are these lusts these desires to the dishonoring of their bodies among themselves because
+
+[11:21] they exchanged the truth about God for a lie and worshiped and serve the creature rather than the Creator who is blessed forever amen for this reason God gave them up to dishonorable passions dishonorable passions the desires themselves are dishonorable if a man comes to me talking about a desire for a woman who is not his wife I'm not going to tell him to just go ahead and embrace the desire because the desire in and of itself is okay it's not we can all imagine scenarios where Love Is Love leads to disastrous outcomes the obvious example that I'm thinking of would be would be love between
+
+[12:07] an old man and a child right we all find that to be morally egregious and at the same time there really isn't a great argument that can be made against it given sort of the ethical landscape that currently exist in our culture let me explain what I mean we've already decided that six-year-olds 5-year-olds are able to determine their gender outcome and actually able to undergo surgery against the consent of their parents so we've placed a a extreme moral onus on 5-year-olds already in our culture and and have said that their ability to consent to something like that is legitimate so with that
+
+[12:52] in view merged with the idea of Love Is Love of where does the logic fall apart where that same 5-year-old could consent to a monogamous loving relationship with a 65-year-old man in other words if his will is legitimate towards this outcome why is it not legitimate towards this outcome if you just connect those two dots that already exist in our culture I think you will see a normalization of pedophilia which is really sad and horrific to consider but I do think this is what happens when you leave the god-given circle of morality and you enter out into sort of this moral relativistic
+
+[13:36] landscape this sort of moral Wild West what happens is that the center cannot hold and there isn't a connective tissue that leads to good outcomes I think we're going to see more and more examples of this type of thing within this moral relativistic landscape so that's just one example another one would be the one that VOD already gave where a person a man you know having sex outside of wedlock that's not going to lead to good outcomes I think we all can agree that adultery is not great it's not a morally classy decision to make um to say the very least and I think we can think of a lot of
+
+[14:11] other examples of things that we all agree are a version of love and yet a perverted debased version of love that's going to lead to a negative outcome for the individual and in society so then the question really becomes um not whether or not that's possible but whether or not samex attraction or Same seex Love falls into that category so from a Biblical perspective it does and obviously you can you know disagree with that perspective but I think the broader point that VOD is making here that there is a acceptable and an unacceptable way of understanding knowing and manifesting love proving
+
+[14:51] the point that the Mantra Love Is Love is just wrong on its face and more than wrong actually I would say dangerous in that again you can see the slippery slope that it creates leading towards more and more risks for even children so that's obviously just one example but with that being said I hope you guys enjoyed this video I hope you can at least see the internal logic that has been brought to bear here by VOD bacham and I hope that you can at least chew on some of these thoughts put yourself and the shoes of someone who takes the Bible as the authoritative word of God and at least see the
+
+[15:33] internal logic to that so with that being said I hope you all enjoyed this video share this with someone who needs to hear it thank you for watching and I'll see you guys in the next [Music] video

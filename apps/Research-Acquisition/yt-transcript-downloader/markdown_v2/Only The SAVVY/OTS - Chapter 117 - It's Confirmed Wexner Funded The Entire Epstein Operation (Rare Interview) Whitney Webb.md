@@ -1,0 +1,58 @@
+# It's Confirmed: Wexner Funded The Entire Epstein Operation (Rare Interview) | Whitney Webb
+
+**Channel:** [[Only The SAVVY]] (`OTS`) · Chapter 117 of 514 · Length 9m 46s · [[00 - Channel Summary]]
+**Video ID:** `VRNlMWaZ8Sw`
+**URL:** https://www.youtube.com/watch?v=VRNlMWaZ8Sw
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 00:29
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] When I asked why they recorded everything all the time, I said, "Is Wexner really paranoid?" Epstein said, "Yeah, that's one way of saying it. He keeps everything. He records it all." He said, "I record everything and I keep it for Wexner in the safe." Mhm. So, first house I go to has pinhole cameras. Jeffree showing me. He's really proud of them. Second house I go to has pinhole. He says, "Wexner gave me this house for a dollar. Wexner gave me this for a dollar." Then I go to the apartment. Okay.
+
+[00:31] So, the way I found out that they had pinhole cameras in the Victoria's Secret dressing rooms, >> hidden cameras, secret tunnels, and a network built on blackmail, powerful people have spent decades keeping their crimes out of sight. Maria Farmer saw firsthand how surveillance was weaponized, not just to silence victims, but to control the powerful themselves. With every report to the authorities ignored or buried, a system took shape. Evidence was dismissed. Whistleblowers were threatened. And the institutions meant to protect the public instead protected the abusers.
+
+[00:58] This is the reality they never wanted you to see. >> One of the things that made me think it was all the passports. So, you know that they say that they only f found they found I know for a fact Epstein had an Israeli passport because he showed me. Okay. >> Yeah. But um Epstein and I'll tell you about the Wexner like why I think he's mafia. But I just want to say too why okay um I thought it was really sketchy that they had like how how Gilean had all those passports and then it made me really mad that when the FBI raided the safe. I know what was in that safe and it's not a regular safe.
+
+[01:30] It's a whole room just so you know. So when people say a safe they think oh it's a safe. It's Wexner had one too. It's a whole room you walk into. And um in that safe, he had all my all the paintings he'd been stealing when I was acquiring paintings for him from poor artists. But he also had a lot of photographs of children. And I know for pictures of my sisters are in there because one of the people from his freaking office had told me they were in his briefcase. And he kept his briefcase in that safe. He also kept everything in there because he told me he kept it for Wexner. Everything.
+
+[02:03] And when I asked why they recorded everything all the time, I said, "Is Wexner really paranoid?" And he said, "Yeah, that's Epstein said, 'Yeah, that's one way of saying it." He, "Yeah, he keeps everything. He records it all." He said, "I record everything and I keep it for Wexner in the safe." So, the first house I go to has pinhole cameras. Jeffreey's showing me. He's really proud of them. Second house I go to has pinhole. He says, "Wexner gave me this house for a dollar. Wexner gave me this for a dollar." Then I go to the apartment. Okay.
+
+[02:32] So, the way I found out that they had pinhole cameras in the Victoria's Secret dressing rooms in the 66th Street building, which was the Flagst I was so cut down at this point that I can't believe I kept working for him. >> Inside these estates, every room was under watch. Cameras captured everything. Kept in safes, used for leverage, and protected by both corporate muscle and law enforcement indifference. When Farmer tried to bring physical proof to the FBI, they refused to take it.
+
+[03:08] Behind the scenes, the same tactics were used to keep even the most minor rule breakers in check with threats, intimidation, and psychological manipulation. The message was always clear. Speak out and you risk everything because those in charge will never be held accountable. >> Jeffrey says to me one day, he has me in in the office and he goes, "Marie, you just don't know where how to wear a bra." And I was like, "Oh my god." And I have this thing like where I'm really modest about my body. And so it's horrifying to me. Like I'm very modest. Like I won't wear a bathing suit.
+
+[03:33] So this stuff was so extra traumatic for me because in a weird way I was like a child because I was so innocent, right? And I'm not just saying that like I didn't My boyfriend's from New York. That's one thing they can all say is well we never had sex because Maria was just so I don't know what it was. I was just really driven with my art and I was just really kind of innocent and I would like show guys my jewelry when they would come to my [laughter] apartment. I was just I don't know. I was on another planet. I didn't get it yet. You know what I mean? So, I was like really young.
+
+[04:02] And so, that's why I think they picked up on that in me. And I know my friend Sarah was the same way and they picked up on that in her. And even though we were in our 20s, they still could see it in us that we were innocent. And that's what's so sick is they prayed only on innocent people that we had straight A's, we're really driven. You know, there are all these things about even though we don't all look alike, we had everything in common. We were all very creative. And so Jeffrey sends me over to the flagship store, which he can see from his offices, but he can't see into the store.
+
+[04:32] He can only see, you know, the And I walk over and, you know, I go in and the women are like, "Okay, we expected you here, so we're going to have um we have some bras picked out for you." And I'm like, "Oh god." So Jeffrey had already talked to the women who work there. And so they hand me all these bras and I have to try them on in the dressing room and not one of them fit me. I am not kidding you. Not one of them. So, when it was all done, I said, "You know what? I don't want any of these." And I went over and I picked out I had $300 of credit.
+
+[05:00] So, I picked out a bunch of flannel pajamas that were on sale that I knew I would use. So, then I didn't know I didn't know he would know. So, then I come back upstairs and he had watched me undress. He described my breaths to me. And the reason he was able to describe I have certain marks that are unusual and and scars and he described every single thing. And I've never been more embarrassed. I wanted to die that my boss was describ and he wasn't doing it in a sexual way.
+
+[05:31] He was doing it in like a really critical mean way like making fun of my body and he's like we're going to have to fix this but for now we'll just he just wanted me to have no breasts at all. It was so awful. And I'm like okay um I have breasts like I can't control it you know. Anyway, it was awful. And he's like you're going to go back there and you're going to get bras that fit you and you're going to do it right now. And I kept the pajamas care but I did.
+
+[05:56] I went back and I got these horrible bras I never wore cuz they would like ride up in the back and they were itchy and never wore any of that. And then the next day he takes me out and he's like, "Your clothes are totally inappropriate." And he makes me try on clothes. And I remember I wouldn't get any because they were um so cheesy. So I asked if we could go to Banana Republic and the Gap, which I didn't know Wexner didn't own, but those are the only stores I liked at the time. And so he took me there and bought me like $1,000 worth of clothes. He did this with everybody all the time.
+
+[06:18] like it was just like I need to go shopping and he would call the women and have them go shop with him. But the horrifying part is before the next day he says, you know, he describes the boobs to me and I realize at that moment those women couldn't see me in there. There were cameras in there that fed to his offices. Now just to fast forward when I was in Wexner's house, there were cameras every freaking there were penhole cameras throughout that thing. And Jeffrey again is like, "Oh, look at all the pinhole cameras." And Gilan says, "You need to be careful.
+
+[06:49] We can see everything." So I kind of ignored it and I would go and paint in areas where I didn't think there were pinhole cameras. And then one was the garage. I actually later took over the pool house, which Randy Bowie came threatened me, but I didn't care because there were no pinhole cameras in there and I could work without being watched. But when I would go to the restroom or take a shower or anything, Gilan would call me and from the speaker and this is in New York sometimes in London in different places, she would say, "Get off, get out of the L. Get off the toilet.
+
+[07:19] You have to come, you know, she would start screaming at me." And I was on the toilet. And I'm like, "What's happening?" So then later Jeffreey's like, "Oh yeah, we're everything's being fed to Abigail." And so one day we're sitting there, I mean, my friend is there. Um, okay. So Jeffrey Gillan flew this woman out three or four times to see me because I was dying of loneliness, right? I mean, I was in isolation, quarantine for three months before anyone at her door. And I'm there by myself and I'm like, this is bad. I had a boyfriend in New York and I just wanted to be there.
+
+[07:50] And so they flew this girl out that was really annoying, but she would hang out with me. This isn't Claire. This is another girl. And she would hang out with me. And um so one day I said, "I'll dye your hair." I was going to put some henna in her hair and I spilled a spot. Okay, this thing is called the rotunda where I lived and in it in the center is a big circular hallway that's like a library but it's all fake. Like fake books, fake everything. It's so cheesy. But I filled on their tacky thick carpet a spot just the tiniest spot of henna as I was walking in the bathroom.
+
+[08:21] So, I pulled a garbage can over it and I got a call from from Gilan an hour later scathing like screaming like you've never heard that Abigail is going to have me thrown out of there because there's henna on the carpet. How in the hell did they know? They're watching everything. They literally watched my every move. Whitney, who does that? My point is, who has cameras everywhere? Sharpshooters. Doberman's. Mafia. That's why I've said mafia. I'm like, I don't know anyone who lives like this.
+
+[08:56] I did have a friend whose grandfather was mafia in New York and they were the big big family and I went to their house one time and they acted just like this. I went to their house out in the Hamptons and I had a friend with me. I had two friends with me, one's black and one's Jewish and they wouldn't let them in to the estate and they let me come in and I was like crying cuz my friends had to stay there and I was like I want to go home and that is the only other time I felt like this was when I went to a mafia house. These secrets were never supposed to come out.
+
+[09:22] The people at the top used every tool, surveillance, blackmail, intimidation, and systemic cover-ups to keep their control. But courage and truth can break through even the most fortified walls. As more survivors and investigators connect the dots, the story they tried to erase refuses to stay hidden. If history teaches anything, it's that questioning authority and exposing what they'd rather keep in the dark is the first step toward real justice.

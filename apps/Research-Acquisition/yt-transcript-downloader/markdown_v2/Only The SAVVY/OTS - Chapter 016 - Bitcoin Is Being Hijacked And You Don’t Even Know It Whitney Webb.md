@@ -1,0 +1,50 @@
+# Bitcoin Is Being Hijacked And You Don’t Even Know It | Whitney Webb
+
+**Channel:** [[Only The SAVVY]] (`OTS`) · Chapter 16 of 514 · Length 9m 34s · [[00 - Channel Summary]]
+**Video ID:** `xLm61m8hIx4`
+**URL:** https://www.youtube.com/watch?v=xLm61m8hIx4
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 01:11
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] yeah I mean I think the Cornerstone of the response really does need to be self-reliance because if you're hoping on people in the private sector solving this problem for you because they don't like ESG I don't think that's enough at all as the Bitcoin having approaches a sea of red continues to dominate the charts Bitcoin is trading in the $60,000 range down 14% in the past 7 days while many pundits and experts are still calling for a crypto summer columnist and researcher Whitney web believes the entire outlook on bitcoin is going aai in an interview with tftc Whitney discussed her findings
+
+[00:36] and according to her research the powers that b plan to crash every currency and turn the whole system into a surveillance State according to Whitney this is already occurring in parts of South America the currency has debased so drastically that to have any purchasing power citizens and companies alike are turning towards stable coins according to her research Whitney believes this is the global plan however we still have Bitcoin to combat what is taking place yet Whitney believes that the Michael sailor store of value Outlook and the general population's Bitcoin go up sentiment is taking
+
+[01:12] away the True Value and function of Bitcoin which is a permissionless interaction between two entities Whitney believes that the banks and Wall Street categorizing Bitcoin as just a store of value is playing right into their hands and is exactly the narrative they want the people to have Whitney is urging everyone to wake up and not let Bitcoin get misused let's listen to what Whitney has to say and talking about this public private play it's important to keep in mind that what happens I mean just look at this the treasury secretary office alone so like in Clinton it was Robert ran Ruben
+
+[01:45] Goldman Sachs he helps repeal glass steagle and then when that whole bubble Pops in 2008 Goldman Sachs is Henry pson is treasury of the secretary then it's Tim gner who worked under Larry Summers and Robert Ruben is treasury secretary under Obama and then it's Steve minuchin who was involved in the 2008 financial crisis and whose dad was one of the top guys at Goldman Sachs and he was also Goldman Sachs so what they do when they're in power is that they create policies that help benefit them you know they came from Goldman Sachs with intentions to implement policies that benefit Goldman Sachs
+
+[02:22] right and so generally what happens is that when the private sector wants something or they want they've created a big market for something they've invested lots of money in creating something like the carbon market and no one's using the carbon Market they are going to then use the public sector to force people to use the carbon market and so they're trying to do that through the UN through the guise of climate emergency right and that's not working so if that's not working how will they go about and how will they do it well uh like we've Mark and I have discussed before uh they're trying to
+
+[02:55] go about it the private sector route oh okay you guys aren't interested in in programmable surveyable money if it's emitted by the central bank so if it's emitted by a private bank maybe you will right and but the other side of this is what's happening in places like Argentina right now where people have lost so much of their purchasing power so like before Malay came to power I think the poverty rate was just I mean it was insanely High I think it was something like 60% and then Malay came into power and devalued the currency by 50% which led to a massive loss in purchasing power for
+
+[03:29] argentinians on top of that now argentinians are so desperate and are being told that they're undergoing quote unquote shock therapy designed by a JP Morgan guy um that they're doing worldcoin they're scanning their eyes in the Sam Altman orb for coins and a cattle tag a digital ID and the idea is to have that be like your access to the internet and using you know these tokens and these uh stable coins using tether you using usdc whatever supported by Marcato Le giant entity Marcato Pago which is also integrated with Brazil's biggest uh crypto exchange Marcato Bitcoin and then there's ripio
+
+[04:09] in the mix which is partnered with all of these guys too they're they're going to control all the rails that stuff runs on and that's where people are running because the their money has been so devalued and they have no alternative and I think that's ultimately the goal is to get people on programmable surveill money by any means necessary so if you won't do it because you're like oh yeah this is a way I'm going to use JP Morgan coin and beat the FED cbdc um you know if that if you're not going to get suckered into that then you know it's it seems like they'll use destabilization and
+
+[04:42] Desperation as a way to get people to onboard into the systems that they're creating they're not just going to spend billions of dollars creating these systems and have no one use them they're going to try and use um either you know desperation uh created by public sector policies um or by private sector uh policies and then have you know sort of like 2008 Oh look The Private banks have destroyed the economy now we need the public sector to come in and re them in even though Obama's cabinet that was supposed to be doing that was literally chosen by City group right they're the ones that are
+
+[05:17] going to come in and they're going to Reign these in and these are the policies and changes that need to be made but actually it's the bankers that wrote the changes that need to be made right so we're likely going to get set up for something like that where they're going to try and make like existing money worthless and if you want your money to be worth anything and maintain any sort of semblance of purchasing power you have to use uh Financial products X Y and Z and they're all going to be programmable and Sur available if not by the private sector by the public sector and they're going
+
+[05:49] all going to be interoperable they're going to be all these on all these different wallets and digital ID systems that look like they're different companies but they're all the same uh essentially in terms that they can export all their data to the same Central Global database and you know that's essentially the goal here so how do we fight against that don't use the database don't use the digital wallet don't use the digital ID don't interact with the system and I think also you know I think Bitcoin is is obviously very key to their plans but they need Bitcoin to stay as Larry thinkink said
+
+[06:24] a technology for asset storage they refuse to have it be a currency basically to to recap on that if they need the Bitcoin blockchain for asset storage and presumably if we're right about what's going on in this article which we seem to be carbon markets they need that blockchain how do we make invert their plans and use the Bitcoin blockchain so that it's a the tool of Financial Freedom it was heralded to be because they can't get rid of it without scuttling their own plans no right well I think it's important to say too that think um there's a lot of people in the Bitcoin media space that
+
+[07:02] will never talk about this or what you just mentioned and I think a lot of that is because a lot of money and effort has been put into specifically homogenizing uh media discourse in the Bitcoin space because they want them they want bitcoiners as much as possible to be compliant while Larry fank and his ilk do what they want with Bitcoin and make it what they want it to be so that people are content with number grow up and sort of the Sailor esque talking points that have gotten a lot of uh you know uh a lot of people have heard those versus what you just mentioned from example uh you know
+
+[07:43] it there needs to be a cultural shift in Bitcoin in the opposite direction of what this Diego guy from rootstock said where he's like we need to drop the whole you know stop fiscal irresponsibility of the banks and central banks and um you know be a challenge and threat to their power we have to drop that if we want to get rich I mean that's the mentality there and I feel like the Sailor mentality really isn't that different from that we have to push people in the other direction because if we go in the direction they're pushing those you know people to go in you know people that want to drop
+
+[08:20] the ethos or whatever and make Bitcoin just a tool for Wall Street um I mean no if if we let that happen very bad thing happen and there has to be a fight and there's a specific effort that's been launched against people that hold Bitcoin to try and get them to be compliant in that sense and you know and but and that's through you know controlling the discourse in the media space there needs to be a desire am among bitcoiners to return to the original ethos uh not the opposite there needs to be a fight for that people need to care about that again to watch the full interview check out the
+
+[08:56] link in the description what do you do you think of Whitney's thoughts here do you think the store of value narrative is the wrong direction for Bitcoin leave a comment if you found value in the content hit the like button as that greatly helps the channel find similar viewers like you if you're new to the channel hit the Subscribe button to stay up toate on the current news and commentary in the crypto Market thanks for watching and we'll see you on the next one [Applause]

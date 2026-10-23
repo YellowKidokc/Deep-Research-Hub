@@ -1,0 +1,106 @@
+# AI Is Unlocking NEW Evidence Of God (Biochemist Explains)
+
+**Channel:** [[Daily Dose Of Wisdom]] (`DDOW`) · Chapter 17 of 916 · Length 23m 18s · [[00 - Channel Summary]]
+**Video ID:** `xX57mIJLn_8`
+**URL:** https://www.youtube.com/watch?v=xX57mIJLn_8
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 04:32
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:40|Part 2 · 10:40]]
+- [[#Part 3 · 20:59|Part 3 · 20:59]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] The similarity between DNA replication and how computer systems function is so stark that it inspired a scientist at University of Southern California, Leonard Adleman, to create an entire area of uh nanotechnology called DNA computing, where he literally is building computers in test tubes using DNA and the the enzymes that manipulate DNA. Literally computers inside the cell. This is not a metaphor. This is not an illustration that's convenient. These literally are computers.
+
+[00:43] A few weeks ago, I talked about a perspectives piece written by a geneticist and a computer scientist who argued that in effect, what you're looking at is that the genome of organisms is a generative AI system. Uh it's really provocative. Um a very provocative idea. And the it's a bit of a technical discussion, and I kind of detail how generative AI systems work, and then show how that is directly applicable to the very question that you're asking. Is how does it all know where to go?
+
+[01:22] And the idea is that in a generative AI system, when you're training the AI using what's called a deep learning system, you are successively compressing um the information uh into lower and lower dimensional variables that will statistically represent the phenomena. And then you are reversing that process, where you're decompressing the information. And so the argument is that the genome is actually the lowest dimensional compression of of the variables needed to encode the organism.
+
+[02:00] And that as you go through the process of development as one cell becomes two cells and two cells become four cells and cells begin to migrate each one of those represents the process of decompression where the variables are basically the proteins that are produced. Right? And so it doesn't necessarily explain how everything happens but what they're arguing is kind of the bottom line here is that the way to think about the genome is it is one of it is more sophisticated than the most sophisticated informatics system that we've built which is which are AI systems.
+
+[02:37] You know, and it's interesting because when people use these uh neural networks and this deep learning to train AI systems nobody knows what's going on in the in the neural network. Nobody knows what's happening. They just know that they've trained the AI system uh so that it will do what you're what you want it to do, what you're hoping it will accomplish but they don't know understand how it's doing what it's doing.
+
+[03:22] And and and so and so in in many respects what you're looking at here with the genome again is an element of mystery, genuine scientific mystery but the fact that thinking about the genome as an AI system gives you insight, perhaps some of the most significant insight that I've ever seen into how does genotype relate to phenotype and that it's you know, again best described as the most sophisticated type of software that you know, that we could develop, hardware and software that we could develop says something about the design, right? That this is really something that's designed.
+
+[03:52] That that's something that blows my mind as a biochemist is that >> Right. >> is that you know, and if you read Stephen Meyer's book, The The Return of the God Hypothesis, he he spends some time dwelling on this is that ultimately that instantiated in biomolecules is information.
+
+[04:33] And the more that we understand that information, the more that we realize that it's organized the way that we would organize language, information in language, to the point where applying you know, the principles of language analysis to DNA into proteins gives you fundamental understanding about how these systems work. When when the the machinery that manipulates DNA or that's involved in protein synthesis is literally operating like a computer system at its most basic level.
+
+[04:53] So, we >> So, can I can I just cuz I think this part is this is one of those analogies that I think for some people like myself who who have not not glossed over as if to be disinterested, but some of a lot of what you've talked about and like I just don't have even a reference yet in my in my vocabulary to know exactly what you're talking about. I can't picture it, but I think a a computer is something that that more I higher percentage of the listeners will understand as an analogy.
+
+[05:19] So, when you're talking about information and when you're talking about basically like a computer program or functional information, uh can you kind of just define that and and how like how is how is functional different information different than I guess presumably non-functional and basically what is the definition of information that that we understand uh to say that what we're seeing in the cell is in fact information and not just I I guess something else.
+
+[05:48] >> Yeah, well, um I mean, there's different definitions of information and they all apply in one way, shape, or form to biochemical systems. So, one definition of information is called Shannon information, and it's essentially a sequence of discrete elements. So, if you think of like a word in the English language, that word is built from a collection of letters, right? And that you're sequencing those letters in a precise way, and that constitutes information. So, Shannon information would be the the the sequence of of letters or sequence of elements that harbor meaningful information, right?
+
+[06:25] And there, the the the greater the improbability of producing that sequence, the greater the information content. But, um so, with DNA, with proteins, like the nucleotide sequences of DNA, the amino acid sequences of protein, this is Shannon information that had that harbors meaning. So, you would technically call it semantic information. There's also what's known as algorithmic information. This is essentially instructions. Algorithms are instructions. And so, you could think of uh you know, a sequence of nucleotides in DNA uh in instructional terms.
+
+[07:13] What does it take to produce a set of instructions that would specify that sequence, where the more complex the instructions, the more information that you have. That's another way to think about it. But, in addition to that, um there's also uh so, you could think of the information in DNA and proteins as being digital information.
+
+[07:51] But, there there's it's also analog information for those of you that like, you know, records instead of CDs or writes, you know, streaming, that you know, there you got an analog system where analog information is continuous, whereas digital information is discrete. But in the three-dimensional structure of DNA and proteins is also information as well. This is the analog information. So there's actually instructional information built into the molecules themselves.
+
+[08:18] And so there's different types of information that you see uh uh in cells, but all of it is this re- re- reflects this remarkable analogy to the types of information that we would produce as human beings and the way we would structure the information. And so when you look at a process like DNA replication, it literally is is is a computer operation.
+
+[08:56] And in fact, the the similarity between DNA replication and how computer systems function is so stark that it inspired a scientist at University of Southern California, Leonard Adleman, to create an entire area of uh nanotechnology called DNA computing where he literally is building computers in test tubes using DNA and the the enzymes that manipulate DNA. And these computer systems are more powerful than the most powerful silicon-based computer systems we've ever built.
+
+[09:23] Uh and I'm not going to get into the technical reasons why that's the case, but to me that's mind-blowing to think that when DNA replicates, when the cell copies the information in DNA to make proteins, when proteins are produced at ribosomes, these are in effect computer operations. And they're more sophisticated than any computer operation that we could construct on our own, right? And so then when you add the idea, well, that the genome is actually now this generative AI system, you're you you're you're creating this hierarchical argument based on information.
+
+[09:56] We know from experience information comes from a mind. We see information in DNA and proteins. We know that um that that when we manipulate information, we organize it in the form of language. Well, we see a language, it you know, a biochemical language. There's a biochemical grammar that people have discovered and have applied to create novel proteins, for example. Um that um that the information is organized and defined by a code, right? And codes come from minds.
+
+## Part 2 · 10:40
+
+[10:40] And then we see things like and this is a bit technical, but embedded in DNA is something known as an even bit parity code that allows the cells' machinery to detect errors when you have errors in in data transmission in DNA. Uh then you you have, you know, the the machinery that manipulates DNA is functioning like a computer system. Oh, and the genome is a generative AI system. So, you see how you've got this this hierarchy of information arguments where each one is conveying a deeper and deeper and deeper level of of information uh content in in in DNA and in proteins.
+
+[11:19] That to me is mind-blowing. That that's the type of thing that we've learned since I was in graduate school that that tells me, "Look, this has to be designed." Right? Because we know, you know, using kind of watchmaker reasoning, nobody in their right mind is going to look at a computer and say this has just been, you know, assembled through some kind of evolutionary process. We know intelligent agents have been involved. So, when we see literally computers inside the cell, this is not a metaphor, this is not an illustration that's convenient.
+
+[11:59] These literally are computers because people like Leonard Adleman hit, you know, are using the these these biochemical computers to build, you know, DNA computers. So, this is, you know, these are literally computers, bonafide computers. Uh that that to me is mind-blowing. >> Over the years I've gotten a lot of different kinds of emails from members of the audience that money is tight for various reasons, and so I want to tell you guys about something that I think hopefully can make a small dent in that situation for you in a really basic, easy, practical way. So, here's what it is.
+
+[12:31] It's called Free Cash. You can sign up via the link in the description, and you'll get a $10 bonus on your first offer started. What it is is a super simple app where you can earn real money by completing offers, trying out new apps, even playing games, as funny as that sounds. People want guinea pigs, apparently. So, you can make anywhere from a few bucks to a couple hundred bucks based on how much downtime you have. Free Cash makes it easy. You literally get paid for things that you're probably already doing on your phone.
+
+[12:58] And what I like about Free Cash is that it's already trusted by millions of users and has a 4.7 star rating on Trustpilot with over 290,000 reviews, which is a lot. Getting started is really easy. Just sign up through my link, choose an offer you like, enable app tracking on your phone so your progress can be tracked, and start earning real money. You can even earn cash back on eligible in-app purchases that help you progress faster in certain games. And if you think it's something that your friend would also benefit from, you can also earn extra money through a referral program.
+
+[13:26] Once you've earned some money, cashing out is super easy. Free cash offers multiple payout options including PayPal and other methods. Just keep in mind that their interface looks different depending on the country, but it's going to work the same regardless of which country that you're in. So, if you're curious and want to start earning, click the link below, sign up through my link, claim your $10 bonus after starting your first offer. All right, now back to the video.
+
+[13:51] It's absolutely mind-blowing and I just want to, you know, highlight the fact that everything that you just laid out is totally non-religious, meaning that we're not saying we need we need to land at uh at the God of the Bible and therefore we're like, you know, fudging all the numbers here. Like what you're what you're describing here stands on its own two feet and it's so compelling. I I remember watching that documentary uh and now to be clear, it's it is a stepping stone towards something that can that can, you know, become really or at least it fits into that type of a paradigm.
+
+[14:17] Uh but it it doesn't go any further than that, but it but it establishes something extremely important. And I remember watching the documentary um Expelled uh and speaking then of Dr. Meyer and I think John Lennox was in there. You were probably in there, I don't know.
+
+[14:48] But I remember watching that documentary and there was a scene at the end where Richard Dawkins basically kind of puts forth uh panspermia, the idea that maybe what what we see inside of the cell has all these markers of design and intelligence and like you said, a computer literally a computer program because maybe it was created by aliens. And and and I remember watching that and just being like, I'm and and actually Ben Stein goes, "Really? Aliens?" You know.
+
+[15:04] And [laughter] but I remember uh watching that and just thinking that, you know, whether knowingly or unknowingly, he really admitted a lot there because he basically was saying uh you know, in other words, an alien is an intelligent life form. And that would be one explanation of what we're looking at inside of the cell. Now, you know, I'm not trying to necessarily go the whole alien conversation, but I all I'm saying is it Well, first of all, the alien problem, it's like who created the aliens and and there's then we're getting into the whole philosophical realm and where you know, all that.
+
+[15:30] But, um I thought the admission itself was pretty profound. >> Yeah. Yeah, I mean I I you know, I think if you are um if you are open-minded and you approach the data at minimum design becomes a very real possibility. >> quality. >> Right. And and to me it's probably the best explanation is design where with some evolutionary processes that that are then manipulating or operating on those designs over time. But, I I think design is is absolutely indispensable.
+
+[16:20] You know, I've written a series of blog articles where I've explored this whole idea of can't can science legitimately incorporate design into its into its construct? And what I do is I in a series of blog articles, I look at how do archaeologists make decisions about whether or not a stone has been actually uh fabricated by a hominin by an intelligent agent or whether it's the outworkings of natural processes. And there's actually a very deliberate set of steps that they take. Um you know, does it appear to be artificial? Can you rule out any natural process explanation?
+
+[16:57] And then, what does it take for us to create this, you know, in a laboratory? Right? Or if you look at SETI researchers, how do they make the a case or at least attempt to make a case that some kind of you know, electromagnetic radiation emanating from a distant object is actually the product of an intelligent civilization. Well, they literally using the same three criteria. Right? Uh and so there's a universal set of criteria that that scientists use in areas of science where they actually claim they can detect design.
+
+[17:37] And so when you apply that criteria to biochemical systems, the most reasonable explanation is that these are designed, right? That they have this appearance of design. We talked about that with the the idea of information. We've talked about the idea that well, chemical evolution doesn't seem to be able to account for these systems.
+
+[18:08] And then lastly, we know what I mentioned is when you go in the lab, this is a whole another area that's very interesting from a theological standpoint is synthetic biology, where scientists are going in the lab and they're trying to create artificial cells from scratch. Well, when you look at what it takes to do that, and it's the best minds in the world using these very sophisticated strategies that are built on 200 years of accrued scientific knowledge.
+
+[18:32] Once they have those strategies in place, they then have to break those strategies down into protocols that highly skilled trained scientists are manipulating under very carefully controlled conditions, often times using very sophisticated instrumentation that itself was designed specifically for that manipulation. >> Huh. >> So it it takes enormous amount of ingenuity and effort and careful control and manipulation to create very crude protocells that are laughable compared to the simplest cell that we we understand. So it's showing us that intelligent is intelligence is required.
+
+[19:06] So things look designed, we can't explain them through natural processes, and and lo and behold it requires intelligent agency to produce them. That's the same set of criteria that an archaeologist would use or a SETI researcher would use. So, to to conclude that life is the product of a designer or it's been designed by a mind, right, is a scientific conclusion. It's not philosophical. It's not theological.
+
+[19:52] Now, the implications are obviously profound philosophically and theologically, and I think you can connect that that line of reasoning to um the God of the Bible by recognizing that as human beings, you know, we bear God's image. And so, we, you know, are co-creators, if you will. We are creators in the same way that God is a creator, though we obviously can't do the things that God can do as creator, but we have a a limited capacity, but we are creators because we're bearing we we bear God's image.
+
+[20:20] And it's ironic to me that that when we look at the cell's chemistry, when we look at biochemical systems, they bear the hallmark of the the designs that we would build as human as human designers, right? And and and so, >> W- What do you mean by that? A- Like, what's an example of that? >> Well, I mean, for example, um uh the discovery that yeah, the the enzymes that manipulate DNA are functioning like computer systems. >> Oh, I see. Okay. >> Yeah, so in technical terms, the the they're these are biochemical Turing machines.
+
+## Part 3 · 20:59
+
+[20:59] So, a Turing machine is this abstract machine that Alan Turing invented that forms a theoretical basis for how computer systems work. And so, this is an a a human invention that then is implemented in the design of computers and lo and behold we we discover that this is essentially what's going on when DNA is replicated, let's say. Right? And so the technology we create helps us to understand biochemistry and when we create technology we discover that in biochemical systems that technology has already existed. We just couldn't recognize it as technology until we invented it.
+
+[21:36] And now we're seeing the opposite where people working in nanoscience are looking at the designs of biochemistry and are drawing inspiration for how they can create, you know, nano-engineered systems which would be molecular scale, you know, engineered systems. Right? And so there's this interplay between the technology we create and the design of biochemical systems. And that to me only makes sense if indeed we we we are made in God's image in such a way that somehow our thoughts are resonating with the thoughts of this designer that we see evidence for inside the cell.
+
+[22:16] So this is a way that you can link the this scientific insight about design to not only to uh theological you know, ends, but actually bring it into the the fold of the Christian faith is through the concept of the image of God. You know, another example would be molecular machines, right? There are protein complexes. You know, you're familiar with the bacteria flagellum, everybody is now, but there are a whole ensemble of these molecular machines that literally are identical to the machines that we would build.
+
+[22:57] At least conceptually identical, but in terms of their operation they're far more sophisticated than than anything that we could build. Right? So the fact that when we're building rotary motors, what we're doing is identical to what we see in the cell, makes sense if that there's somehow a resonance between our mind and the divine mind, and the explanation [music] is the image of God.

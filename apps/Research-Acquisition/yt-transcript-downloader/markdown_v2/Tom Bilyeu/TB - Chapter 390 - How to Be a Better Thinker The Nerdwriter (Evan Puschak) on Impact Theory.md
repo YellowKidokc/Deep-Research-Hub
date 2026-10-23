@@ -1,0 +1,138 @@
+# How to Be a Better Thinker | The Nerdwriter (Evan Puschak) on Impact Theory
+
+**Channel:** [[Tom Bilyeu]] (`TB`) · Chapter 390 of 1389 · Length 42m 39s · [[00 - Channel Summary]]
+**Video ID:** `PYzGv6Tfu_0`
+**URL:** https://www.youtube.com/watch?v=PYzGv6Tfu_0
+**Transcript Language:** English (manual)
+**Retrieved via:** webshare
+**Captured:** 2026-09-20 19:42
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:06|Part 1 · 00:06]]
+- [[#Part 2 · 10:51|Part 2 · 10:51]]
+- [[#Part 3 · 20:53|Part 3 · 20:53]]
+- [[#Part 4 · 31:43|Part 4 · 31:43]]
+- [[#Part 5 · 42:19|Part 5 · 42:19]]
+
+---
+
+## Part 1 · 00:06
+
+[00:06] Tom: Everybody, welcome to Impact Theory. You’re here because you believe that human that having potential is not actually the Our goal with the show and company is to introduce you actually make good on your potential. All right. I’m really excited about today’s guest He crawls inside important ideas like an intellectual and all until he finds the narrative thread where people would tell you the only thing He’s built a widely successful YouTube channel proves there’s still a huge market for depth.
+
+[00:55] His powerful essays on an absurdly wide range and moral issues provide viewers with kinds Recognizing his unique gifts, MSNBC snatched in his early twenties and the Discovery Channel digital network Seeker Daily where he produced He is, in my opinion, everything that is good creators from anywhere armed with a simple off cannot only make a living as content producers flow of cultural discourse. Please help me in welcoming the man whose has been viewed more than 48 million times of the smash hit YouTube series, the Nerdwriter,
+
+[02:00] Evan: What an introduction. Tom: Dude. Evan: I want that on my tombstone. [crosstalk 00:02:04] I would love it. Tom: Cool, man. Well honestly, that, the intro was sort of It’s like, "Am I willing to do enough research Evan: Yeah. Tom: Am I going to get something out of it? The researching, it was really awesome so Evan: Jason’s a great guy. Tom: … and I’m eternally indebted to him the essay format on YouTube is really, really that you cover which, of course, then led statement that you guys have. Evan: Yeah. Tom: The concept of cultivating worldview,
+
+[02:47] Evan: Well, it was something that launched when I had graduated College of Boston, I that I knew lot of things but I just didn’t I felt like I was constantly consuming contradictory It just really just bothered me because I own knowledge. Worldview for me was a kind of organizing know connect. How do you build a worldview in which you spheres of things that you’re learning?
+
+[03:33] Cultivating is what you know and how those is and that … I want to show people how adopt it but so that there can be a template Tom: I love though that you've said and this this, but you said that, "It’s okay if you I think that’s how it starts. You steal somebody else’s. Evan: Yeah. That’s how I did it. Tom: Walk me through that because I think certainly as important, maybe more important which is very coherent and very compelling. How does that process look if it starts with momentum going like how do you progress beyond Evan: Well, you have to learn how to think.
+
+[04:24] I mean that’s the first part of it. Ralph Waldo Emerson who’s one of the early a young men reveres men of genius because he is. That is the perfect way to think about being is that when you read the great philosophers what is so enlightening about them is that They articulated them in a certain way that all Emerson, when I’m reading it was like "Yes.
+
+[05:09] That is what I was thinking about this. This is what I want to say about it." Emerson is right. He was more me than I was at that moment because You start off by adopting the beautiful thinkers Then by just applying a bit of critical thinking, You’re going to carve the way the things to add on the things that do. I mean that’s a long process of cultivating all incoming information against. Tom: It’s interesting because without that my own head people often talk about thinking obsession.
+
+[06:06] It’s not a unique thought, whatever, and I’m not sure that I ever really have unique What I’m trying to do is take in enough right? What you’re saying paring away the sculpture It's actually pretty beautiful. Was it Michelangelo that said that? Evan: Yeah. Tom: I carve away the pieces that aren’t revealed.
+
+[07:03] Actually, it’s really interesting way of Why do you think cultivating a worldview is Evan: I think it’s useful because it provides It’s hard to act in the world in an intentional in which you feel stable and you’re comfortable That was the anxiety, the cosmic anxiety, bit younger was that I don’t know how to I’m stepping on something that's, "Oh, I It was disorienting.
+
+[07:46] When you start figuring out what your worldview you start to figure out what your morals are person but also how that relates to the world, it almost becomes inevitable what you have When you make a moral decision, you’re making Once you get a hand on it, I think the world in it become a little bit more certain and I think that’s what we’re all trying to At least, that’s what I was trying to do Tom: Really great answer. I love that metaphor that you’re using of that squishy marshy like, "Am I about to fall Evan: Yeah. Exactly. Tom: ... [crosstalk 00:08:08] very much I Do you know Pete Carroll?
+
+[08:12] Evan: Yeah. Tom: I’m not a big sports guy but he happened and being … Tom: … from Tacoma and having gone to USC Then do you read Angela Duckworth’s book Evan: I haven't. Tom: He comes up in that and she really lays He was the coach of New England, the New England fired, goes to college football, ends up crushing and winning Super Bowl. People ask him like, "What the hell, like such a crazy career in college and then back He said, "Somebody told me you lack a life He said it was really realizing that I needed you’re talking about to have the firmness like the way forward becomes really clear.
+
+[09:07] I think when people are really thinking about than anything, how do I find my passion," really doing with your show. Evan: That’s a crazy silly question, I think. I mean that’s the question I hear a lot I think that’s something that we’re inculcated or in the schooling system, how do you find It’s something that you’re going to find I think the great tragedy of modern society person. You have aptitudes like if you can draw, then There are certain things biologically that lucky to have them.
+
+[10:03] In terms of finding your passion, everything you in certain direction, that’s what being Because it’s a choice, it’s a tragedy. It’s so arbitrary. Tom: Why do you say it’s a tragedy? I don’t understand. Evan: It’s a tragedy because in a society if you’re … 300 years ago, if your father You didn’t have many prospects outside of at choosing something in your life. You’re going to be a cobbler. Your identity was stable from the start.
+
+## Part 2 · 10:51
+
+[10:51] For us in this society where we are not only to learn what to be which is to say we’re it only comes down to a choice and the choice I think people and myself, there’s a difficulty believe that the message we're given is that you have to discover and wait for it to … Like a soul mate. Evan: … reveal itself like a soul mate. Yeah. The real truth is that you just have to choose. Choosing is when it’s not based on anything Tom: Let me follow that logic then. Get worldview, realize then, based on worldview, passion? Evan: Yeah, I mean passion will come, I think.
+
+[11:35] When you do something that you develop an Tom: Do you read Cal Newport’s book, " So Evan: I haven’t, no. Tom: I think judging by the way you’re saying He goes to that thing where gaining mastery don’t get mastery, good luck. Evan: Well, that’s the whole … Jason Silva so awesome, he loves talking about flow. I love it as an idea. When you pick a lane for yourself, you develop If you have to you, you course correct. I don’t think that it reveals itself to to find it.
+
+[12:21] That’s where people go wrong. Tom: You’ve talked really powerfully about by the way. For those of you who don’t know, he literally the K.I.N.D. Project making desks for these underprivileged The video is just a smash hit, starts getting to MSNBC literally live in the broadcast. The woman says, "Hey, somebody here should [inaudible 00:12:46] which is incredible. Then you realize, not loving this. Evan: No, I didn’t.
+
+[13:19] MSNBC was great to me so I have to say that smart and very cool and all my bosses were That experience was crazy because I was … work absolutely hating my life and I made this of The Last Word, which is the 10 o’clock Then the next day, he was in Burbank and asked me if I wanted to move to New York to work Tom: Wow. Evan: He said, “Would you like to do … ?” I it. I don’t think he did.
+
+[13:59] They spent like five months trying to build When I got there, I thought, "Maybe I’ll that this is what I love." Then within I'd say a few months, it started Tom: Well, so before we just gloss on, walk You’re there. You're not loving it. A voice in your head is very much saying this Evan: Yeah. Tom: Most people say that for years, years kicks them out. Evan: Well, I did.
+
+[14:40] Here’s the thing is that once I checked which is horrible to say, but that’s the hidden way working on the Nerdwriter doing Now, I don’t suggest that to people because lot of free time there and so I was thinking I just started working on that show all the might be my path. I left the Nerdwriter for a few months. Then when it was not so great, I started up passion for this." I worked and worked and worked and then someone They just said, “We’re launching a new interested in writing the show with a cohost I heard that and I felt the same way. I felt like this could be my path.
+
+[15:24] We talked about sort of how does the show way. Maybe I leave the Nerdwriter and work for position. My editorial influence is greater. Maybe, I’m the voice behind the show and resources of Discovery. Another learning experience that wasn’t Tom: Not quite how it went. Evan: As soon as I checked out of there and lot more attention to the Nerdwriter and what Tom: It’s such a fascinating thing and so right? Evan: Sure. Tom: I’m an employer so I know what it’s this huge enterprise that can only work if alive, right?
+
+[16:20] If there’s one thing I promise you is that fucking hate it, right. You’re constantly like, “Jesus, what do because you want people to be alive and you Like when I was told people as be here for come to work for me, right? I'll think about me, I’ll obsessed about the company is fine. You come for you because when somebody is passion happens to align to what the show things happen. Evan: Yeah. Tom: We’re talking before we came on camera Evan: Yeah. Tom: The physics of being human is when you passionate, it makes you feel alive.
+
+[17:08] You want to do it, right? You’re moving towards something. No one has to tell you to do it. There’s like this pull through demand of Evan: Absolutely. Tom: It’s fucking tricky. It’s tricky on both sides of the fence. Evan: It’s tricky because people like you I studied film and narrative filmmaking and director. One of the huge things about filmmaking that was collaborative. Tom: Right. Evan: Okay? Tom: Know thyself. Evan: Know thyself, all right? When I used to direct short films, I used was always the director I say, “Listen, right?
+
+[17:53] I’d love what you say but I want to make everything and this is my vision that we’re If that’s not for you, fine like we can I’m such a protective perfectionist about myself doing a project. That’s why I quit filmmaking and started Tom: Right. Evan: Now, the Nerdwriter is a similar thing It’s just me. Collaborative in my life with my, not in my In my life, I let people in. There’s a give and take.
+
+[18:39] I love people. They love me back. It’s a very, very integrated thing. There’s people out there who you’re never thing, I think, and that must be the most a company because people need jobs too. Tom: Right. Evan: What are they going to do? Tom: Yeah, I mean that’s really fascinating. It’s like parents, when they think about, but the techniques I used on Child A don’t That was actually interesting like my sister outcome.
+
+[19:35] We have the same parents but some things work really well for her but there wasn’t like That’s what it’s like running a company the goal of a leader has to be to transcend like Pete Carroll says a life philosophy that tie back to what we’re talking about with You need to filter, right? You need to know what to say yes to and what Whether that as a leader, whether that as just somebody trying to make it through life from a moral standpoint … Tom: You need to have that filter.
+
+[20:12] It is really difficult to when you start talking thing we’re talking about off cameras, so thinking, “Fuck, like this content is on I can just sit there and watch. The real question that you should be asking going to be very different for other people. For me, usability is all that matters. I’m watching the content and I’m saying, of information,” like you totally fucked You changed it in the most beautiful and amazing of, was it [Kentagi 00:20:38]? Evan: Kintsugi. Tom: Kintsugi, thank you. Evan: Yeah. Tom: I’m watching that episode about Kintsugi.
+
+## Part 3 · 20:53
+
+[20:53] The record player of my life skips grinds The Hemingway quote that you threw in which list of like life-changing quotes is life the places that broke. Evan: Yeah. Tom: I was … Tom: ... “Whoa.” Evan: Great writer. Tom: Walk us through that concept that art Evan: It’s so interesting because that’s personal feedback about. The concept is simple. In Japanese culture, they have a craft art they don’t throw them out and buy another They put the ceramic piece back together.
+
+[21:46] The way that heats them is with gold, a kind Tom: Seems like a mortar. Evan: … material. Yeah, it’s beautiful. You get these pieces that are broken but at I thought that is such a perfect metaphor. It’s not my metaphor because it goes into The idea that we are going to go through trauma now in the post-election period, we are going Trauma is an opportunity to change and to life.
+
+[22:36] I gave a speech in Singapore a couple of weeks person’s mind is traumatized, it’s like ceased to be persuasive. When the story stops being persuasive, it is, the period between when your old story the camel’s back thing and we’re going until it’s so glaringly contradictory that Trauma is the period between when that breaks old, build something new and we’ll never in that period, you have a very unique opportunity in your life to reorganize the story that That for me is what Kintsugi is all about.
+
+[23:47] I think a lot of people just really connected Tom: For sure. The idea behind my entire life and certainly constructed, right, which is why I think Jason of cultivating which is that you say cultivating There’s something so active in cultivation. It’s choices and you’re talking about say before the trauma is the moment where to it anymore and you have yet to build the That’s fucking beautiful, by the way, and Evan: Thank you. Tom: I’m a big believer that you have to That really changed me. That’s really fucking cool.
+
+[24:35] Thinking about this notion, I’m going to doing it in a way that becomes an art form me, so I’m going to wrap up really fast to it. Evan: Sure. Tom: I brought it up just to talk about scalability. Evan: Yeah. Tom: You’re having this big impact on people living through a revolution right now. The revolution is that the medium is changing The only gatekeeper is your ability to get That’s like when people really understand Evan: Huge, huge opportunity that should not Tom: Yeah, it’s a paradox.
+
+[25:25] Evan: For creators. Tom: You’ve risen up and there are other Evan: Like I was born in this era ... Evan: ... for those reasons. Tom: For sure. Then, the next question becomes so how do I asked that from the position of somebody Evan: You know scaling for me is the thing business. I mean 90% of my mental energy is going towards want to do. Now that the business side has become… Tom: Is that really all you want to do? You just want to create the videos. Evan: Yeah. I mean I’m a film director at heart, like, The impact that comes out of it is so very I try to engage with it as much as I can.
+
+[26:07] The business side of it particularly, it makes That said, I do think about scaling the show to make the most impact for work. When I think of scaling, I think of it that Tom: Yeah. It’s interesting because I think that… I look at the world in, let's say, if we were I was watching your content and I’m like, it’s amazing like this guy’s DJ-ing my It was like so much fun. There’s like this area that doesn’t overlap When I look at anything, right, the first Now, that speaks to my personality.
+
+[26:58] It speaks to my worldview, not that objectively When I think about Steve Jobs and Steve Wozniak, was scale. You have the other guy who’s so enjoyed things together that he actually asked to Evan: Yeah. Tom: You own the company and you… Evan: He’s a fascinating guy. Tom: …even request. Evan: Even now like the things he sort of you know it’s amazing. Tom: We’re living through a time right now, Evan: Yeah. Tom: Now, to really be an entrepreneurial, organization, it takes a certain personality it. I think a lot about my wife and I… My wife and I co-founded the company.
+
+[27:37] She puts this whole show together. Literally, I am the talent. I am not just saying that, like, I’m the see like that’s her and the team. I think about her personality type. She has no interest in leading, right. Evan: Yeah. Tom: She wants to follow my vision… Evan: …by the way. Tom: Interesting. Evan: Yeah. Tom: I mean it speaks to your interest in The funny thing is I went to film school. I used to want to be on set. I wanted to direct. Then one day, I think it was my wife had asked I said “No, I could never do that.” Evan: Yeah. Tom: The reason that I couldn’t go back type.
+
+[28:16] Once you taste scale, there’s no going back. As you’re like talking about Nerdwriter impact, I’m like, “Fuck you, less content So I'm going to put Evan on that” and then the daily content because we [inaudible 00:28:31]. It’s changing, bro. Evan: Yeah. Tom: You got to stay on that. Evan: YouTube is changing. Tom: Right. Evan: I hear that and I might need to partner this. Seinfeld always says like the relationship he had to stop after nine seasons because for Season 10 and he just knew that a little I want to make sure that I’m doing things the opportunities that are coming at me.
+
+[29:16] Tom: Sure. There are a lot of self-awareness. If you had to teach somebody how to be self-aware Evan: Oh, god. That’s a good question. You have to be brutally honest with yourself, I mean put yourself around the people who For me, introspection is a one great source Tom: Do you have a strategy for introspection? Do you put headphones on and listen to the Are there things that you do to facilitate Evan: No, I hate the rain. No. Love the rain. I don’t.
+
+[30:02] For me, there’s always a conversation happening Tom: In your head? Evan: ... in my mind so it’s like my personal I am constantly… you are constantly telling a story to yourself It’s got these two facets. If you just take the time, you can listen Best way to do is to write it down because There’s no thought without languages. You have to make it explicit. When I was just graduated school, one of the that there was. I started from the pre-Socratics and I went to just get all the big benchmarks and read Tom: With a particular bend for Albert Camus,
+
+[30:51] Evan: Yeah. He was definitely a watershed moment. After that, I wrote this thing called Discourse I had it bound up at Kinko’s and it looked It had the perfect font and I got a A4 paper This was like very highfalutin kind of very truth and ways to know it and things like I gave it till all my family and my friends You know, this looks like you just, you know It was so important for me. When you learn how to listen to your own story is like an inevitable byproduct of that because about something.
+
+## Part 4 · 31:43
+
+[31:43] I think there's this weird state we all have on things that we read but we haven't really As soon as you start transferring that whole explicit knowledge, you're going to start there. My advice is to write, just write and the Tom: The story that you were telling about the Truth what? Evan: Discourse on Truth. Tom: The Discourse on Truth. Evan: At all [inaudible 00:32:22] bookstores. Tom: It's actually pretty interesting in that I know what your family was thinking when pretentious [crosstalk 00:32:35] … He doesn't have a job but he's going to do Tom: Right.
+
+[32:38] Here's the thing like when people see little peeing in the bed, "Oh my God," right, they're They're over the moon. We should be thinking the same thing about that was like a little cringe-worthy or whatever. Evan: Certainly. Tom: What it's actually really important exploration. I went through a similarly cringe-worthy thing really into Eastern Philosophy. I had the [crosstalk 00:33:11] ... for everything, Be like water, my friend. You know I mean that kind of shit. I remember like I was convinced I was going safety net but then I was moving to the wilderness Evan: Dude, I am so with you.
+
+[33:28] I have the same thing. Tom: My man. Evan: I was like ... I got to this point where like I have to be a farmer." I went to work on a farm for like a few months is the inevitable last step of this journey Then, I thought, "I'll probably have to just the ways of telling my family that I wasn't monk school, you can't contact them. Tom: Monk school. I like that. That is badass. Tell me about the farm. Evan: I went to Normandy in France through like you live in someone's farm and they feed Eventually, I got over that. Thank God. [crosstalk 00:34:08] some lessons from that kind of hard-ass work?
+
+[34:13] Evan: Yeah, you do. You learned to persevere through pain because heavy pieces of wood it's so exhausting. People who do that for their whole lives, but it was very illuminating in that way is eventually, you'll finish. That was a direct outgrowth of the philosophy It was like, "This is the path I have to take." Tom: Yeah. That's really fascinating. That's how I think of the gym by the way.
+
+[34:58] For me, it's like [crosstalk 00:34:58] ... Tom: When I was a kid, I always have a job lazy, I would take whatever job my parents apply for a job so that meant it was always I worked in a paint factory. I did a paint store. I worked doing literal like hard labor.
+
+[35:59] There was one summer where all I was doing concrete with a pickaxe and like just doing is if you have a certain personality type is just racing, "Get me out of here," or you You find this way to separate your mind from go daydream, be somewhere else, be creative It's actually one of those periods where your because you so want to escape the reality only place to go is in. I actually found ... I loved you explanation and it takes this sort of a [inaudible 00:36:10] I felt that way about having manual labor There were no distractions.
+
+[36:21] Oddly enough, there were no distractions from I was totally engrossed in this thing, right. This amount of cement has to be broken apart. This vat of paint has to be cleaned out, like task. You read Kurt Vonnegut? Evan: Of course. Tom: All right. I forget which story it's in but there's one direction and then send their mind in the their body. That felt so true to me because that was what I would send my body over here to do something to deal with some intellectual pursuit, some In doing that, really learning to go deep.
+
+[37:05] That's why I was asking you like what your I wrote down that I wanted to ask you was, You've done such a good job of taking a subject, Like you've got a whole fucking like show Evan: I love that video. I love the [crosstalk 00:37:19] … He made a show. He spent a week on this song and it's really Evan: Hardcore week. Tom: How did you train yourself to go deep Evan: I think when you write a lot, it makes That part of my brain is ...
+
+[38:06] and mind is still it into something that is persuasive and like Every week or whenever I come up with something of some kind of introspective thought process the world that I've consumed that I think was like, "Oh, there's a, there's a good interaction Let's see what I can do there." Once I have that, which is the hardest part, Then, I researched very intensely for a week Tom: Do you give intention to your subconscious Forget who it was that said it. Maybe Einstein. Oh god, it was one of the like big scientists a demand of your subconscious." I thought, "Wow.
+
+[38:39] Well, this guy has accomplished a lot in his Evan: Well, I mean there is a truth in that Yeah. A lot of times, I will be totally stuck on next morning finding that I've solved that Tom: That's awesome. Evan: Yeah. Tom: All right. What's the impact that you want to have with Evan: With my life? I don’t know. You said earlier in the interview that you and it sort of stopped you in your tracks I've been talking about a lot in this interview.
+
+[39:24] For me, we learn by saying not thinking. We learn by articulation and articulation The impact I want to have is I want to articulate view a different world than they viewed before world and our minds are made up of language language, you change the world and you change Tom: Man, thank you so much for coming on Absolutely incredible. Evan: It's been awesome. Tom: That's fantastic. All right. Where can these guys find you online? Evan: You can go to the Nerdwriter on YouTube.
+
+[40:10] If you just type in the Nerdwriter in Google, I have a Twitter as well but I mean it's all it. Subscribe. Tom: All right. Guys, be sure to do that. You're going to want to go deep in this man's I promise you, it doesn’t matter what you He has gone down that rabbit hole and he has need to understand, in his words, to open a totally new way to help you put unique connections before. The idea of actively cultivating your world it from clouds that really feel like you're making it this platform that's actually going to move forward, pivot.
+
+[40:55] If you're later in your life, it doesn’t Going in and learning how to think, learning really go in and discover truth that you don’t and what I love is he will do the profane, He will go on pop music and make you realize that you never could have imagined, but then, the ages and deal with comic books. It is fucking incredible. It is a whole universe unto this man and the away is you're going to realize that there's to help you tap into that. Subscribe, drink deeply of this man's stuff. It is unbelievably great.
+
+[41:40] Evan, thank you so much for coming on the Evan: It's my pleasure. Tom: Please, give it up. Evan: Thank you. Tom: Guys, you know this is a weekly show. If you haven’t, already be sure to subscribe. We are trying to get as many amazing people and if you rate and review that will help Go to iTunes, Stitcher, let us know what you Tell the world about the show and until next Be legendary. Evan: Subscribe. Tom: Thank you, man. That was awesome. Evan: [crosstalk 00:42:07] a lot fun. Tom: Thank you. Hey, everybody.
+
+## Part 5 · 42:19
+
+[42:19] Thanks so much for joining us for another If this content is adding value to your life, and rate and review. Not only does that help us build this community about but it also helps us get even more amazing all of us. Thank you, guys, so much for being a part legendary my friends. How did we do? If you rate this transcript 3 or below, this

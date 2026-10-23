@@ -1,0 +1,61 @@
+# What Did Jesus Write in the Sand?
+
+**Channel:** [[Living Waters]] (`LW`) · Chapter 2213 of 2497 · Length 11m 47s · [[00 - Channel Summary]]
+**Video ID:** `xx6WZQqEgFA`
+**URL:** https://www.youtube.com/watch?v=xx6WZQqEgFA
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 05:03
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:01|Part 1 · 00:01]]
+- [[#Part 2 · 10:25|Part 2 · 10:25]]
+
+---
+
+## Part 1 · 00:01
+
+[00:01] [Music] what's the biggest selling book of all time to be honest I don't know it's the Bible oh sure sure you're familiar with the Bible well I can feel a crease from family and that Christian is cool are you thankful for your senses like you're hearing seeing touching tasting and smelling which one you're most thankful for I would have to say probably my sight yeah thankful for your eyes I am who - I'm sorry who - whom are you thankful for your eyes who made your eyes who gave you your eyes I would have always assumed God maybe maybe maybe what do you think I think the creator and my parents
+
+[00:45] for my eyesight sir the last thing on your parents minds when you were conceived was making your eyes no making eyes at each other and if you lost one of your eyes would you go back to your mom and dad and say hey someone poked my eye out I need another one they've got 137 million light-sensitive cells and focusing muscles that move an estimated hundred thousand times a day make it a blue one they wouldn't know where to start they can't make a grain of sand from nothing let alone an eye so do you think God gave you your eyes I think he had some hand in it he had some part in it yes sir so who
+
+[01:19] did the rest you know I'm saying everything you've got comes from God the very atoms that make up your skin and your bone your flesh your brain your here everything comes from God for all of him and through him and to him are all things so you know about the Bible you're familiar with the story in John chapter 8 where a woman was caught in the act of adultery and the Pharisees threw out the feet of Jesus and said the law of Moses had stone this woman what do you thinking how Jesus bent down a road in the sand and they kept pestering him and he stood up and he said he that is without sin let
+
+[01:51] him cast the first stone at her and then he kept writing in the sand the religious leaders started leaving from the oldest to the youngest being convicted in their conscience leaving Jesus alone with a woman and he said woman where are your accusers and she said none Lord and he said neither do I accuse you go your way and sin no more you're familiar with that story yeah each other yeah so what do you think Jesus wrote in the sand I don't know maybe like she's she never had been some nothing wrong she like it committed adultery broken the seventh of the Ten Commandments they do what I think I
+
+[02:27] think you wrote the Ten Commandments in the sand what else does God write with his finger he wrote the Ten Commandments and stone with his finger speaking of the eternal nature of God's law it's permanent but he rodents and because sand means that can be washed away with a sea of god's forgetfulness and the Bible says they were convicted in their conscience that's what the law does is what the Ten Commandments do they make us feel bad and convict us make us feel guilty do you think you've kept the Ten Commandments me yeah I'm gonna show you how the law makes you want to leave makes you feel
+
+[02:59] guilty in your conscience those Commandments how many lies have you told in your life I mean what lies oh well uh have you ever stolen something even a bit small in your whole life yeah so you're a lying thief maybe yeah okay third commandment to make you feel guilty and want to run away have you ever used God's name in vain oh yeah okay that's using God's name as a cuss word it's taking it in vain not giving it due honor that's called blasphemy would you use your mother's name as a cuss word I think yeah maybe well that's dishonouring appearance which is a violation of the fifth commandment
+
+[03:34] honor your father and mother you believe in God's existence yeah now the Bible says you're actually an enemy of God do you believe that I don't but I think you are and what about you you know you in a state of hostility towards God are you an enemy of God I don't think I could be seen as a hostile toward God so yeah I'm gonna ask you a question all right never use God's name in vain occasionally what about you yeah you slam your thumb on the door you say up and you use a filter word to express disgust or you use God's name or the name of Jesus in this place God gave you life and your eye
+
+[04:14] sight in your hearing and you have used his name as a cuss word that's why the Bible says we're enemies of God in our mind through wicked works doing God's happy with you or angry at you but if you ask he pretty happy with me what about you I don't think God is all too pleased with me sir you're doing things you know wrong well not that I know are wrong just that he wouldn't really agree with you mean like you're looking at pornography Oh sir I wouldn't say that have you ever looked at pornography can't say that I haven't sir it's another word you have I have and what about you know looked at
+
+[04:46] pornography not really not really no so how many lies have you told in your life uh I think one too many that I've lost count sir okay what do you call someone who tells lies a liar have you lied yeah have you ever stolen something no never downloaded music off the internet that's not yours yeah one more to go and thanks for staying Jesus said whoever looks at a woman and lusts for her has committed adultery already with her in his heart have you ever looked at a woman with lust let me put it another way have you looked at pornography oh yeah that's last time right yeah have you had sex
+
+[05:27] before marriage yeah that's fornication and the Bible says fornicators are not in here at the kingdom of God Jesus said if you look at a woman and last for her you commit adultery with her in your heart have you ever looked at a woman was last no asked are you homosexual no have you ever looked at a woman with lust as their red blood in your veins or not no it's not red blood in your veins Diego I'm not judging you but you have just told me you're a lying thief a blasphemer a fornicator an adulterer at heart that's dishonored as parents now I'm gonna give you a quick summation and there's a
+
+[05:58] reason I'm doing this okay it's not pleasant there's a reason I'm doing it you've just told me a relying thief a blasphemer and an adulterer at heart and so of you do you still think you're a good person I am you've added what's called self righteousness to your sins if you look up the word good in the dictionary it's got 41 different definitions number one is moral excellence we're not morally excellent none of us are and the reason I'm doing this for you is to show you that you need God's mercy you need his forgiveness you need to come before the Lord and say I've sinned against you I need
+
+[06:29] your forgiveness so here's the here's the reason I'm doing this if God judges you by the Ten Commandments on Judgment Day we've looked at four Commandments you've got to be innocent or guilty I think I would be on the guilty side of things honestly and what about you heaven or hell I don't know well the Bible says all Liars of their partner lake of fire sin is very serious to God we incur the death sentence that's why we die because we've sinned against God they've heard the Bible verse the wages of sin is death yes death is payment by God for our sentence like a judge a look at a heinous
+
+[07:10] criminal that's murdered three young girls after he's raped them he says you've earned the death sentence you've got an electric chair this is what you deserve this is your wages and death is wages from God for our sin and after death to judgment so this is deadly serious so if you died in your sins you go to hell do you know what God did for guilty sinners so we wouldn't have to go to hell any idea he sacrificed his only Son you know that yes the Ten Commandments are called the moral war you and I broke the law Jesus paid the fine that's what happened on the cross that's why he cried out it
+
+[07:40] is finished in other words the debt has been paid if you're in court and someone pays you fine even though you're guilty a judge can let you go we can say these two guys I've got stack of speeding fines but someone's paid him they're out of here and he can do that which is just and legal because someone else paid the fine well God can dismiss your case forgive all those sins let you legally live forever or because Jesus paid the fine on the cross God commended his love toward us in a while we get sinners Christ died for us then he rose from the dead it was not possible death could hold him
+
+[08:11] and if you'll repent and trust in Christ God will forgive every sin grannie everlasting life as a free gift on Judgment Day you'll be guilty and you think you'll go to heaven or hell well maybe I was diseased joke a lot to my friend lyceum hell Wow that's not a joke that's scary yeah hey you'll be guilty and you'll end up in hell does that concern you mm-hmm no really Diego it horrifies me the thought that a nice guy like you could end up in hell if God gave you justice you seen your thought life is wholly unjust and you have to stand before them on Judgment Day what you have to do is repent
+
+[08:55] old-fashioned word it means let go of your sins don't say I'm a Christian but you continue to steal a lion fornicate and blaspheme that's a hypocrite you only you know I need to see yourself you want to see if God or even your friends and you trust in Jesus like you trust a parachute you don't just believe in a parachute you put your faith into it and so Diego please repent and trust in Jesus he'll forgive you you'll be born again you'll love righteousness instead of fornicating with your girlfriend you'll honor her Diego it's been an honor for me to talk to you thanks for not running away
+
+[09:26] like those like those religious leaders left because they they felt guilty let the guilt drive you to the cross and say God forgive me I'm a sinner I don't want end up in hell I need you to change my heart you're gonna think about what we talked about yeah you have a Bible at home yeah and there's a sense of urgency because you don't know when you're gonna die it could be tonight in your sleep aneurysm whatever heart attack you just don't know so youth is no guarantee of old age so give the serious thought and get right with God the Bible says today if you hear his voice don't harden your
+
+[09:57] hearts hey thanks for listening to me I appreciate it no bro well the Bible says the preaching of the Cross is foolishness to those that are perishing and if you're honest in your heart and serve sinned against God the good news that fine being paid by Christ to be wonderful news for you if you don't acknowledge your sentence it'll be stupid someone paying a fine for me when I don't think I've broken the law is just stupid makes no sense so I want you to please think about this because you don't know when you're gonna die does that make sense you're gonna think about this yes I'll think about
+
+## Part 2 · 10:25
+
+[10:25] it what about you yeah I'll think about it when you're gonna die any idea unfortunately I can't see into the future so I don't know what my hand will cover you know who knows probably God he knows the exact moment of your death the biggest moment of your life won't be your death so because you don't know when it is there's a sense of urgency 150,000 people die every 24 hours so you really don't know if you're gonna be here tomorrow horrible thing if you die in your sleep they have an aneurysm or a heart attack but it can happen so this is deadly serious and I want you to have a sense of
+
+[11:00] urgency about your eternal salvation so make sense I make sensor against you yes nice thanks for listening to me I appreciate I'm going to give you some literature and I hope you really think about okay [Music] you

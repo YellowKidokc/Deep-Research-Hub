@@ -1,0 +1,52 @@
+# “Hopefully God won’t judge me as harshly as you have.”
+
+**Channel:** [[Living Waters]] (`LW`) · Chapter 2433 of 2497 · Length 10m 34s · [[00 - Channel Summary]]
+**Video ID:** `FOWtCp3bDpU`
+**URL:** https://www.youtube.com/watch?v=FOWtCp3bDpU
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 04:47
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] [Music] do you think god exists i don't know have you ever inquired seriously i've thought a lot about it i've read some stuff what do you do for a job i work for the city you enforce the law i do you give people tickets when they transgress sometimes and sometimes you show them mercy sometimes now do you think there's an afterlife i'm not sure about that you think about it much i've often wondered are you afraid of dying i am everybody is and it takes a humble person to say i am any idea why so many people are quote religious my guess would be they need things you mean material things no i
+
+[00:50] mean hope yeah hope this is this is the revelation some people come to i came to it earlier in my life as i was going to die i'm part of the ultimate statistic god is eternal if i want to become eternal i have to find god somehow and so that was my search i didn't think god was the answer i just thought i'm going to die why do you know why you're going to die it's just the way it is so what do you think causes death i'm not talking about being hit by an 18 wheeler why does everybody die i know that to be due to the imperfection of mankind period our four parents uh adam and eve they committed
+
+[01:30] a grave sin and crave is the word it puts all of us in the grave and from the beginning of history till now we continue to deteriorate at a rapid rate the bible calls it wages the wages of sinner's death it's a payment from god for sin like a judge will give a murderer wages for his crime he'll go to the electric chair as payment he earned it he deserves it and that's what he gets do you think you're worthy of death sounds rather harsh it does doesn't it's it's capital punishment but it happens to everyone you've got god's promise it's appointed a man wants to die and after the judgment so
+
+[02:12] when we pass through death we are passing on and we're going to stand before god and give an account of every idle word so how are you going to do are you a good person ah i'm imperfect i'm a saint and i'm a sinner well let's see how much of a sinner you are are you a good person barry i'd like to think so how many lies have you told in your life too many to count have you ever stolen something a couple times have you ever used god's name in vain i'm sure i have jesus said if you look at a woman and lust for her you commit adultery with her in your heart have you ever looked at a woman with
+
+[02:46] lust of course is that a yes i don't want to admit that for fear that god might uh enforce his laws on me right away so barry i'm not judging you but you've just told me you're a lying thieving blasphemous adultered heart you've earned your wages you're going to get payment on judgment day does it concern you that if you died and god judged you that you'd be guilty and end up in hell does that concern you if there is a god and he does hopefully he won't judge me as harshly as you have but uh it's not my commandments there is if i made judgment on you i'd say this barry i like you and i
+
+[03:26] couldn't care less what who you look at or what you do but i'm not god i'm not holy and perfect and just the bible says we store up his wrath every time we sin because he's morally perfect like a good judge sees a criminal do terrible crimes he's going to get angry or angry until he brings down that gavel and gives him exactly what he deserves yeah you mean you strike you're dead there is that possibility but he's rich in mercy so i'm not judging you sir but you've just told me you're a lying thief a blasphemer and an adulterer at heart so you've earned your wages so does it concern you and
+
+[03:57] there's no tatar about that so does it concern you that if you died today and god gave you justice you'd end up in hell um again i don't even know how that exists i don't know it's the unknown you've got god's promise that all liars love their part in the lake of fire no thief no adultery no fornicator no blasphemy and here at god's kingdom that's his word and i'm a preacher of the gospel and i've got to tell you the gospel truth i wouldn't lie to you god's going to keep his word he's a god of justice and truth and righteousness and every time we sin we store up as rest so there should be an
+
+[04:33] alarm going off in your mind at the moment saying there's an emergency going on here you need to be doing something so it does concern you that if god exists and you are guilty on judgment day you'll end up in hell that concerns you i think i'd have more concern for you i'm more concerned for you barry you think i'm a bit crazy not crazy but you believe things that you've been indoctrinated to believe and want to believe uh to a degree that you're not open to other things i'm totally open to the idea that you could possibly be right and that you could possibly be wrong and there may be a god
+
+[05:12] there may not he may be as harsh as you think he is he may be nowhere near that harsh let me reason with you for a minute if i may do you think i could prove god's existence to you scientifically in about 30 seconds no every building has a builder even if the build is dead for 100 years you know there was a builder because the building's built buildings don't build themselves isn't that right if there's no build around so the evidence that there's a builder is the building and the evidence of a creator is creation all around you you see the genius of god's creative hand from the sky to the
+
+[05:43] birds flowers trees seasons the sun the moon the stars the miracle of the human eye the body the heart all all these things around us show the genius of our creator so we know god exists intuitively we also know that he demands morality because we've got an inherent conscience there's never been a tribe found anywhere in the world that didn't know right from wrong and that didn't believe in some sort of god whether it be the incas aborigines uh native americans they all have this inherent knowledge of a creator because of the conscience conscience means with knowledge connor's worth science
+
+[06:16] is knowledge so let me reason with you about the existence of hell are you familiar with what hitler did to the jews yes what do you think should happen to him i have no idea wouldn't hell be convenient for a man who slaughtered 11 million people well i think if you're talking about the place where you burn for eternity that seems a little harsh even for someone like adolf hitler yeah it seems incredibly harsh unless it's a dimension we can't understand where time is withdrawn and there's no time we're into eternity and that's what happens when we die but hell is convenient for a man like
+
+[06:54] hitler but god says he is so perfect and holy and just that he's going to punish rapers and murderers and thieves and liars and blasphemers and pedophiles and fornicators and adulterers is very thorough but at the same time and this is the incredible thing the bible says he's rich in mercy and he has no pleasure in your death he's provided a way for you to be forgiven he became a person two thousand years ago jesus of nazareth who suffered and died on the cross to take the punishment for the sin of the world it's as simple as this you and i this is god yes sir it's the impression that jesus
+
+[07:28] was the son of god called himself the son of man the son of god the bible calls him a stack of different names but this is what the bible says of him god was manifest in the flesh we said he says he was the express image of the invisible god it says all things were made by him and there was nothing that was made that wasn't made by him and that word that made everything became flesh and to what amongst us and the reason god created the body for himself and filled that body as a handful as a glove was to suffer for our sins we broke the law he paid the finest as simple as that you're in court
+
+[08:00] you're in court you've got a parking ticket that some guy has given you and someone pays that ticket you're free to go and jesus paid the ticket he cried out it is finished when he was on the cross so what you have to do is repent and trust in him you can live forever barry instantly for sure if you'll obey the gospel that's what the word gospel means is good news and i wouldn't lie to you everlasting life is a free gift of god you don't have to become religious you can't clean up your life you just have to repent and trust in him you suffered on the cross and rose again the third day really
+
+[08:36] quick if you're enjoying this video please hit the thumbs up button and subscribe to our youtube channel where we post two new encouraging videos every single day we also have many more resources available on livingwaters.com thank you so much barry i know this has been a little uncomfortable for you but i want to thank you for listening to me and and just let me explain in 10 seconds why you feel uncomfortable it's the same reason a criminal feels awkward or wants to get away when he's sitting next to a police officer when he's just committed a crime it's a guilt that makes us want to run
+
+[09:05] from god and i just want you to think about what we talked about just give it some thought if you would we'll never see each other again and i really care about you and i care where you'll spend eternity and that's my motive so thank you for listening to me and being patient with me i really appreciate it you're welcome please think about your salvation because you don't know when you're going to die there's so many things to keep us away from god you have instant pornography on your phone you can have there's a lot of loose women nowadays you can have you can fornicate anytime you want yeah
+
+[09:32] and so what you've got to do is say lord please change my heart so i love righteousness create in me a clean heart of god renew with me a right spirit you'll be born again new heart new desires with the knowledge you have everlasting life by god's amazing grace [Music] you

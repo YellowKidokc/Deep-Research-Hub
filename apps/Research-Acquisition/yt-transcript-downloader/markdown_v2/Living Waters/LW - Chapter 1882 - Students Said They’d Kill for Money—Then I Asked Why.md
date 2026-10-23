@@ -1,0 +1,69 @@
+# Students Said They’d Kill for Money—Then I Asked Why
+
+**Channel:** [[Living Waters]] (`LW`) · Chapter 1882 of 2497 · Length 13m 22s · [[00 - Channel Summary]]
+**Video ID:** `SaYkC0_0824`
+**URL:** https://www.youtube.com/watch?v=SaYkC0_0824
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 03:22
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:02|Part 1 · 00:02]]
+- [[#Part 2 · 10:18|Part 2 · 10:18]]
+
+---
+
+## Part 1 · 00:02
+
+[00:02] 911, what is the location of your emergency? >> On February the 24th, 2020, Sarah Boone called 911 from her Winter Park, Florida townhouse. >> My boyfriend is dead. Uh my boyfriend and I were playing last night, and I put him in a suitcase when we were playing. Like kind of hide and seek kind of thing. So, I fell asleep, and I woke up, and he was dead in the suitcase. So, I don't know what happened. >> We're going to examine a cold-blooded murder from a biblical perspective.
+
+[00:37] We'll explore the human conscience, our instinct to justify ourselves when our sins were exposed, and the remarkable wisdom of God's word. This is the police interrogation of Sarah Boone. Her boyfriend, George Torres, was found dead inside a suitcase in their Florida townhouse. Sarah said they'd been drinking and playing hide and seek. According to her account, he got into the suitcase, she zipped it, and later went upstairs believing that he could get out himself. >> We had a bottle of wine last night. So, then it's like we decide to play hide and seek, >> Right? Okay.
+
+[01:06] >> So, he gets in the suitcase. >> He got in the suitcase. >> So, >> he thought it'd be funny to be put in the suitcase. So, I was like, "Okay, well, I'm going to joke with you, and I'll zip you up and make him, you know, squirm a little bit, whatever it is." But then I fell asleep. >> She's lying in an effort to cover the murder. What she doesn't know is that the investigators have looked at her phone and have seen video that recorded the horrific murder. She tells the detectives she didn't remember recording any videos that night.
+
+[01:36] Watch now as the evidence begins to close in, and a murderer is exposed. >> Okay. So, do you remember making any videos or maybe having any conver- Anything any photos, videos that you remember doing on your phone on Sunday? No. >> I think I took a picture of a dog. >> Okay. But your phone is password protected. You have the password, he has the facial recognition, so it's not like someone else could be on your phone. >> No, I have both. >> To your recollection, no videos on Sunday. >> Not that I'm aware of. >> She may have been speaking the truth.
+
+[02:13] The amount of wine she consumed may have impaired her memory. The scriptures say it deceives. Wine is a mocker, strong drink is raging, and whoever is deceived thereby is not wise. Watch what happens when the detectives tell her exactly what happened because of the video on her phone, something she apparently doesn't remember. >> You can sit here all day long and say I thought he was going to get himself out, but that he didn't, and you went upstairs, and you stayed there for 30 minutes before you fell asleep.
+
+[02:49] >> How But can I say to you like >> not to ever at any point during that 30 minutes walk back down and check on him. >> No, wait 1 second. Because I know like with you well, and then like cuz you continually ask me like time frames, time frames, time frames. Where I told you like I don't bother even looking at the clock most of the time. So it's like a guestimate. So I For all I know, I was Maybe it was 10 minutes. >> Okay. But the point is you left the living room where he was begging for help and went upstairs. >> But again, >> Regardless of how long you were there, you left.
+
+[03:20] >> I thought he was the boy who cried wolf. Again. >> Okay. >> So when he asked to be let out, like what's your reasoning for not letting him out? >> When I was upstairs? >> No, when he's asking on the video. He asked multiple times. He asked to be let out, I can't breathe. What Like why didn't you let him out? >> Well, number one, I Number one, I had no idea it was going to end like that. >> Okay. >> Number one. >> Okay. >> Uh number two, just You know what? I'll give you 5 minutes or so in there. That's going to give you 5 minutes or so. >> 5 minutes for what?
+
+[03:58] >> Well, based off the video, one video is at 11:12 and the next one is 11:23. So, you actually gave him at least 11 minutes per video recording. So, my my thing is when it stopped, you asked multiple times. I mean, why? Why did you not let him out? It's just a simple question. >> To be honest with you, I I mean >> On the video, he could be heard saying that he couldn't breathe and pleading to be let out. And she responded with a cruel obscenity. >> This is what you get. This is what you make me feel like. See, and then it's all backfired on me. Like it's all backfired on me.
+
+[04:32] And I understand the severity of this. I just >> No, you don't. >> It's awful. I know. >> Okay. >> It's awful. And I will tell you both this right now, too. I will never drink alcohol again. >> Okay. >> Like I will never drink alcohol again. I don't care what it is in any way, shape, or form. >> That video changed everything. Now they had a second witness, one that couldn't become confused, change its story, or be persuaded. They had the recording. The first one to plead his cause seems right until his neighbor comes and examines [music] him.
+
+[05:11] In other words, the first account can sound convincing until it's examined. As we share the gospel with guilty sinners, despite their proclamation their morally good, we tell them the truth that there's a second witness, that everything has been recorded. God has seen their crimes, and God will bring every work and every secret thing into judgment. But notice her response. Rather than dealing directly with what the phone recorded, she appeals to the kind of person she believes herself to be. And this is what the lost often do when their sin is exposed.
+
+[05:45] I'm a good father, I'm a good mother, I work hard, I help people, I'd never deliberately hurt anyone. But the law doesn't ask whether you've done anything that's good. It asks whether you've violated the law. >> I don't think you all understand who I am, where >> Well, tell me. >> I mean, I've always been a straight A student. I am an outstanding mother to my son. I excel at everything. I I would not do that. >> You would not Is it somebody in a suitcase? >> Well, I didn't like completely lock it. I mean, I opened it with one finger. I left enough in there for him to get out. >> Okay.
+
+[06:26] >> And I wasn't planning on going upstairs and going to sleep. >> Okay. No, it's just the way you said it. >> are scaring me. >> Why? >> Did you hear that? When she said you guys are scaring me, the detective responded with, "Why?" Clearly, the evidence was mounting and her guilt was producing a legitimate fear. The knowledge of our guilt before God should produce a legitimate fear. The Bible warns, "It's a fearful thing to fall into the hands of the living God." He doesn't need security cameras, cell phone records, DNA evidence, or eyewitnesses.
+
+[07:10] He was present whenever a secret sin was committed. Everything is open before him. That includes not only our actions, but our motives, our thoughts, and the secret intentions of the heart. >> In this case, you had two fingers hanging out. >> I flipped them over. I flipped them over, and that's where it was. >> There's two different videos and a still picture where, yeah, it shows you flipping them in different positions and him saying that he can't breathe. >> This is upside down. So, in order for him to have gotten into it, it was flipped up. Right. [music] It was flipped up normal.
+
+[07:44] Like as if you're packing something. So, this is upside down. >> Guys, this is killing me right now. >> So, this image is upside down, and then this small video that occurred 11 minutes later, it's flipped over the other way, closer to your dining room table. >> Okay. >> Now, he's obviously still in there. So, he didn't How did that How did it go from the back to the front? >> I flipped it. >> Okay. >> My plan was not to go upstairs and go to sleep. >> Well, that's what you did. >> Yeah. >> But not intentional though. >> No, you told me you went upstairs because what?
+
+[08:24] You were getting ready for bed. >> Stopped here. >> Okay, but Show me where you can see any fingers coming out cuz there's the end. It's And his head's right here. >> Mhm. >> So, going like this, rather than going all the way up, it's like this. >> But why is he saying I can't breathe and why is he pushing on it as if he can't get out? >> And it doesn't show a hole. >> You There's no hole. There's no fingers. I don't see his fingers. There's no hole. I don't know what you want me to tell you. Like I don't know like what you want me to tell you. I don't think I'll ever be right because of this.
+
+[09:01] Ever be right. Dealing with everything else that I have in my life, personally, and then this. >> Okay. >> Whom I loved. It was not intentional. I will put my hand on the Bible. It was not intentional. I would not do that to him nor anyone else. >> But you did. >> Not intentional. >> You intentionally went up to bed. >> I didn't intentionally go to bed because I'm thinking, "Okay, I'll get him out." >> How did you not intentionally go to bed? You said you went up to upstairs and got in the bed. That's intentionally going to bed.
+
+[09:44] >> It's interesting that throughout this interview, Sarah repeatedly returns [music] to one defense. She says the outcome wasn't intentional. She even invokes the Bible, but the detective brings her back to her actions. She left the room, went upstairs, and went to bed. The exact degree of Sarah Boone's intentionality was for a jury to decide. She's about to be arrested. I'll show you that moment and also tell you what the jury decided at the end of this video. David intentionally lusted after his neighbor's wife and tried to hide his sin, but Nathan exposed it.
+
+## Part 2 · 10:18
+
+[10:18] And as Christians, we're to do what Nathan did. Boldly confront sinners with the truth. We're called to speak the truth in love, and they need to be confronted before the day of judgment when there'll be no more mercy. A rich woman wants to get rid of a husband. She says she'll give you a million dollars if you could sneak it into your home. She's going to leave the back door open. She'll distract him in another room. She wants you to put arsenic in his coffee. >> What if I get caught? >> You're going to get a million dollars and you will not get caught. It's guaranteed. Are you tempted?
+
+[10:45] >> No. >> Two million. >> Yeah, now I'll do two million. >> Next week, I would do it, but this week >> You'd commit murder next week? Where's your conscience? You're Jewish. >> [laughter] >> You know the Ten Commandments. What's the sixth commandment? >> Is that the one thou shalt not kill? >> That's the one, thou shalt not kill. Could you do it for two million? >> Yeah, probably, yeah. >> So, would you do it? >> Probably. >> Yeah, I'd do it. >> Would you do it? >> Yes. >> You what? >> Yeah. >> The three of you would commit murder for a million dollars? >> Immediately.
+
+[11:12] >> Would you do it for 500,000? >> Yeah. >> Yeah. >> You're wearing a cross. Do you know what that cross means? It's to remind you that God provided a savior so you wouldn't have to end up in hell. Jesus took the punishment for the sin of the world. It's as simple as this, guys, and listen very carefully. If you're in court and you've got speeding fines and somebody else pays them, a judge will let you go. You say you're free to go, and it's legal for him to do that. Well, God can legally take death off you because Jesus paid the fine in full on that cross.
+
+[11:41] And then he rose from the dead and defeated death, and if you'll repent and trust in him, like you trust a parachute, God will grant you everlasting life as a free gift. That's what that cross stands for. You know, the Bible says the eye of the Lord is in every place beholding the evil and the good. Everything you do is seen by God. He sees the darkness as pure light. And every time you sin, you're storing up wrath for the day of judgment. I don't want to see you guys in hell. I want to see you saved. I want to see you in heaven. You're a human being who would murder for money.
+
+[12:09] That's how wicked your heart is. >> Yeah. >> Each of these people are revealing the wickedness of the human heart. The testimony of scripture is true. The heart is deceitful above all things and desperately wicked. Who can know it? >> Um the holding cells the holding cells Am I going to be put in my purse? >> I don't know. >> Last time I had a panic attack. Can I grab >> All right. Do me a favor. Stand up. I have my phone >> So, what am I going to do with my purse? >> I need you to turn around, face the wall. Put your hands behind your back.
+
+[12:40] Do you have anything in your pockets that I should know about? >> What made you all decide to do this? >> Made us decide to do this? >> Uh-huh. >> George is dead. >> On October 2024, a jury convicted Boone of second-degree murder after approximately 90 minutes of deliberation. She was sentenced to life in prison on December the 2nd, 2024. Living Waters is a non-profit ministry that exists [music] to equip Christians to share their faith. We can teach you how to effectively share the gospel. One means of doing this is our Evidence Study Bible.
+
+[13:15] It will teach you everything you need to know about reaching the lost. [music] It's commended by many Christian leaders, including Franklin Graham. You can get it at livingwaters.com. [music]

@@ -1,0 +1,50 @@
+# He Knows the Bible, but Makes This Huge Mistake
+
+**Channel:** [[Living Waters]] (`LW`) · Chapter 748 of 2497 · Length 10m 36s · [[00 - Channel Summary]]
+**Video ID:** `wr-8Tka1rhU`
+**URL:** https://www.youtube.com/watch?v=wr-8Tka1rhU
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 04:25
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] i'll be in hell if he judges me by those 10 commandments but i feel like if god takes all the good in my heart then hopefully it'll make out for us i hope so do you think there's an afterlife yes yes i do now why do you say yes i do because there's i believe that there's more to this life any evidence just something you hope i just have faith you believe are you talking about faith in god or just hope faith in an afterlife it may not may not necessarily be god just my belief joey do you believe in god's existence uh i don't believe in a god's existence are you an atheist um i don't think i'm
+
+[00:51] an atheist do you think i could give you evidence that you could hang on to know that god exists probably yeah when you look at a building you know there was a builder even though you don't see him he could have died 100 years ago but the building tells you there's a builder same with a painter you know a painter exists because his paintings here he could have died 400 years ago like rembrandt or someone like that but you know the painting was painted because it's got design and we look at all of nature and we see design in it from the atom through the universe which tells us that god exists
+
+[01:19] ever seen those speedometers on the freeway those great big things that tell you how fast you're going i have do you take notice of them not usually no one say there was a police officer standing next to it would that change things probably would it change things for you it would definitely tell me why does it change things because the idea of you getting pulled over even though you know that you're going over the speed limit the fact that you know that there's a cop right there changes the whole perspective for you yeah because he's going to hold you accountable it's not just a sign saying
+
+[01:56] you're going over the speed limit exactly he's saying i'm going to pull you over and you're going to be fine do you think you're a good person i think i'm a good person what about you charlie yes okay i'm gonna give you a moral speedometer to judge yourself this is for you not for me to see if you're breaking the law okay it's called the team commandments do you think you've kept the ten commandments the ten commandments asked him if he thought he's kept the ten commandments you don't know them no do you know them i know the ones that i need to know and the ones that i know i've broken such
+
+[02:36] as uh do not steal uh do not lie i'm pretty sure so you have lied and stolen i have and what about you julie i have like have you ever used god's name in vain yes and what about you yes okay would you use your mother's name as a cuss word never no tell me why not respect for my mother um the fact that she brought me into this world holds her on a higher pedestal for me personally so you realize that god gave you life and you don't respect him because you've used his name in the place of filth word to express disgust instead of saying a word that we use for human excrement you've taken this
+
+[03:29] holy name and used it in place of that did you realize that it's called blasphemy and it's so serious in the old testament is punishable by death fourth question and i know this is real difficult but stay with me if you would jesus said if you look at a woman and lust for her you commit adultery with her in your heart have you ever looked at a woman with lust i've done this we've all done this your luck would last yeah so here is your moral speedometer this is what it says instead of saying 55 56 slow down it's saying santana you're a lying thiefing blasphemous adulterer at heart by your own
+
+[04:10] admission and there's a police officer standing by the speedometer god holds you accountable he's going to judge you on judgment day by the standard of the ten commandments so here is the question and this is where we're heading if god judges you by the ten commandments on judgment day will he be innocent or guilty i'll be in hell if he judges me by those ten commandments but i feel like if god takes all the the good in my heart then hopefully it'll make out for it i hope so imagine standing in a court of law and you're guilty of breaking the law you say judge i know i've done these terrible
+
+[04:47] things i robbed a bank shot a guy but i want to tell you about the good things i do he's going to say what are you talking about i'm not going to judge you by the good things you do i'm only going to judge you by the law you're violated that's how crime works the same with god what we do in the area of good works is irrelevant on judgment day can you see that i can so what can you do to be safe from hell nothing like if i'm getting judged on my ten commandments i've already broken then there is no more discussion about what good i can do that's right if you're in court what would you do if
+
+[05:22] you're guilty what would you do to try and lessen the sentence do you know if there's nothing i can do if there is now what you do santana is you'd throw yourself on the mercy of the judge judge i'm guilty but please have mercy on me and the bible says god is rich in mercy to all that call upon him do you know what god did for guilty sinners so we wouldn't have to go to hell sounds like you know quite a lot he gave his only begotten son remember his last words on the cross he said three words that were very powerful do you remember what they were i actually don't i'm sorry but i said it is
+
+[06:00] finished that's a weird thing to say when you're dying but we broke god's law the ten commandments and jesus paid the fine when he was saying it is finished you were saying the fines paid if your fine is paid in court even though you're guilty a judge will let you go you could say you guys there's serious speeding tickets here but someone's paid him you're out of here he can let you go and do that which is legal because someone else paid the fine and god can legally let you live forever both of you you can be forgiven your sins your case can be dismissed because jesus paid the fine and full
+
+[06:32] do you do love each other i can see you're holding on to each other real tightly through this and i'm just i'm just gonna say this is probably the most important thing you'll ever hear that god offers you everlasting life as a free gift don't clean up your life or get religious just say god have mercy upon me a sinner and god can extend his mercy towards you and let you live forever take the death sentence off you all because of what jesus did on the cross there was death and resurrection does that make sense makes perfect sense so all you have to do to find everlasting life is repent of your
+
+[07:05] sins that's what the bible says yeah but that won't save you just be sorry for your sins and turn from them and then trust in jesus like you trust a parachute if you're going to jump out of a plane why would you put on a parachute to save yourself yeah and fear would be your motivation you don't want to hit the ground at 120 miles an hour on your face so you put a parachute on to be saved and fear is your friend in that case not your enemy guys i've tried to put the fear of god in both of you i could have done a little more thoroughly i know you could asking if you're having sex before
+
+[07:38] marriage and make you think yikes i'm in big trouble but i won't i want to i want to embarrass you but i'm hoping that you'll see that fear is your friend not your enemy the bible says through the fear of the lord men depart from sin we so love sin the only thing that'll let us cause us to give it up is to see our danger and so let fear be your friend not your enemy let it drive you to the foot of the cross and say god i need a new heart with new desires please forgive me and you'll find god is faithful he'll meet where you're at and he'll give you a new heart when you desire so you love
+
+[08:10] righteousness and that's a miracle for sin loving sinners you guys have been so gracious to me i've said some things that are kind of harsh but you've been patient with me and gracious and so are you going to think about what we talked about i will and what about you definitely definitely yeah and i'm going to try and put that on steroids for you you could die tonight you just don't know 54 million people die every year and every what is every hour 6 000 people die so this is more serious than a heart attack so i want you to think about it with that sense of urgency if you would do you have a
+
+[08:46] bible at home i do [Music] the evidence bible is a reservoir overflowing with everything evangelistic i couldn't recommend it more highly it's what you need to defend and share your faith franklin graham said in a day when christians are too often silenced by the questions of skeptics the evidence bible will help you be prepared to give an answer also commended by christian leaders such as josh mcdowell d james kennedy tim lahaye norman geisler and ken ham this study bible comes in soft as well as hard cover as kirk said it's everything you've ever wanted to know about apologetics and
+
+[09:36] reaching the lost including 200 of the most commonly asked questions of the christian faith it will arm you with practical training on evolution atheism the teachings of mormons hindus muslims and jehovah's witnesses and much more [Music] including how to effectively lovingly and logically share the truth of the gospel you'll find that it's hundreds of inspiring quotes from the famous and its practical tips on defending the faith will be a great encouragement go to livingwaters.com click on store books and then the evidence study bite you

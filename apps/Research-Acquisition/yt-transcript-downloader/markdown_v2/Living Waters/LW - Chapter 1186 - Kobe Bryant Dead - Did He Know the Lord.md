@@ -1,0 +1,59 @@
+# Kobe Bryant Dead - Did He Know the Lord?
+
+**Channel:** [[Living Waters]] (`LW`) · Chapter 1186 of 2497 · Length 11m 52s · [[00 - Channel Summary]]
+**Video ID:** `EVb77Nc2CR4`
+**URL:** https://www.youtube.com/watch?v=EVb77Nc2CR4
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 04:58
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:12|Part 2 · 10:12]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] according to TMZ Kobe Bryant and at least three other people were in his private helicopter is able to tell you now that NBA star Kobe Bryant was onboard that helicopter and is now dead at the age of 41 how tragic it wants to hear that Kobe Bryant had suddenly been killed please remember to pray for us precious family sporting heroes are almost immortal they're winners in life you can overcome almost any obstacle but this reminds us of the psalmist words so teach us to number our days that we may gain a heart of wisdom and as wisdom to remember that death can come to any of us at any time
+
+[00:36] none of us the guaranteed of tomorrow was Kobe a Christian one reference to as much publicized accusations of rape he said the one thing that really helped me during that process I'm Catholic I grew up Catholic my kids a Catholic was talking to a priest was actually kind of funny he looks at me and says did you do it and I say of course not then he asked do you have a good lawyer and I'm like yeah he's phenomenal so then he just said let it go move on God's not going to give you anything you can't handle and it's in his hands now this is something you can't control so let it go and that was
+
+[01:11] the turning point Bryant told GQ magazine many have no hope in the death because they believe that it's inevitable that we can't do anything about it if you believe that watch this do you think it's inevitable definitely it's like a truck hitting for you standing on the road it's inevitable you just stand there and say I'm going to enjoy myself until they get hit I mean basically it wouldn't do that you at all what yet cuz you've got a brain you would son getting out of the road of this truck do you think there's an afterlife I don't have any idea do you think about it much I do are you
+
+[01:52] afraid of death I a little bit a little bit we're all terrified of it it's like jumping out of a plane at midnight with no parachute are you afraid of dying absolutely so what do about it I mean just live every day as best as you can so you think it's inevitable definitely like a truck hitting for you standing on the road it's inevitable you just stand there and say I'm going to enjoy myself until they get hit I mean basically it wouldn't do that you at all what because you've got a brain you would son getting out of the road of this truck would you just stand there if a truck was gonna kill
+
+[02:29] you so you'd move out of the road I've worried so what are you doing to move out of the way of death have you studied it if you have afraid if you look to God if you read the Bible if you ask people questions look to spirituality I have read the Bible I have that help to God I know it didn't at the at the time but I actually this is a very enlightening so what about you what about you are you trying to get out of the road of the truck we just waiting for death to take it but you have a good time while you're doing yeah so what are you doing yes are you looking into what you can do there was
+
+[03:07] something there was something can do about death I know what is that's inevitable but there's something you can do about it look let me give you an analogy just to show the power of faith okay you're gonna jump out of a plane without a parachute 10,000 feet would that be scary scary fear so if I gave you a parachute and you put it on and hit faith in the parachute that your mother packed so you know it's gonna open would that change anything okay it definitely would I would still be scared yeah but the amount of fear would be control of what you can say I trust this parachute yeah say you say
+
+[03:41] you say I'm gonna jump now I'm not gonna hit the ground 120 miles an hour I'm a face I can land on my feet at five miles now so the parachute changes everything and your faith in the parachute helps you deal with your fears so faith is incredibly powerful oh yeah a lot of people a lot of people discount faith and they sell you if they think it's just for weak people yeah put a pair of shoes for weak people too now do you believe in God's existence I believe in a higher power for sure hiya pal happy with you or angry at you I think that they're cheering me right on to be honest do ya and what
+
+[04:16] about you for me I definitely think that there is some higher form out there this higher pal angry at you or happier with you I think I think they'd be happy happy okay well I'm gonna how I'm trying to you ladies a favor it's not gonna seem like it but be patient with me I'm gonna show you are in mortal danger that is you're in danger of something terrible happening to you but you don't realize that okay and if I'm able to convince you I'm doing your great favor does that make sense because you can do something about it okay you're gonna be patient with me patient do you think you're a good
+
+[04:52] person yes you do I do how many lies have you told in your life I've told a few lies what do you call someone who tells lies somebody who's made a mistake have you lied I have yet so what do you call someone who tells lies same definitely somebody who is making mistaken I'm gonna give you a clue the rhymes of fire and begins with L Oh liar so what are you a liar and you had to say about yourself now have you ever stolen something even if it's small in your whole life I have not you know you know what we tend to do we tend to minimize or trivialize sin we say I just stole little things so I
+
+[05:31] told white lies nothing serious but sinners deadly serious to God if you've used God's name in vain yes yes would you use your mother's name as a cuss word no why not that's a good point [Laughter] would you use your mother's name as a cuss word hey why not yeah because a lover yeah and that would dishonor her horribly to use her name as a cuss word and you've taken the name of God the holy name of God the one who gave you life and used her as a cuss word in the place of a for later filter word to express disgust which is called blasphemy punishable by death in the Old Testament you are being
+
+[06:14] patient with me and I really appreciate it one to go and this is a doozy jesus said if you look with lasts you commit adultery in your heart have you ever looked with lust yes have you ever wear doctor looked oh yes have you had sex before marriage yes yes so ladies I'm not judging you but you both told me that you're lying Blastoise fornicating adulterers at heart and you probably have stolen because you told me you're liars and I can't really trust what you're saying so here's the big here's the big if if God judges you by the Ten Commandments on Judgment Day we're hooked at four you're
+
+[06:48] going to be innocent or guilty I'll definitely be guilty I'd be guilty of heaven or hell um I think I I don't think it's as black and white as that to be honest because I think we have a lot of there's forgiveness right God is about forgiveness yes or no okay so we're allowed to make mistakes in our life right and we're allowed to also make amends for our mistakes hey can you make amends for lust and fornication how can you how can you balance up the scales okay I ask you a question have you done yes uh broken more Commandments to your ladies here because I'm older but that's why I'm a
+
+[07:30] Christian how about it Christian mom tell you now if you die in your sins you've got God's promise you'll end up in hell the Bible says all Liars of their partner lake of fire no thief no blasphemy no adulterer here at God's kingdom so both of you're in mortal danger and terrible danger if you die in your sins God gives you justice and exposes all your secret sins you're in big trouble you're up the river Niagara without a paddle which brings us to the gospel what did God do for guilty sinners so we wouldn't have to go to hell do you know he died on the cross do you know that most people know
+
+[08:03] that but they don't know this the ten commandments are called the moral law you and I broke the law Jesus paid the fine that's what happened on the cross that's why said it is finished in other words the debt has been paid if you're in court and someone pays you find a judge can let you go even though you're guilty you can say ladies is a stack of speeding fines here this is deadly serious someone's paid them you're free to go and you can do that which is legal and right and just even though you're guilty he can let you walk and even though we're guilty God can let us walk he can take the
+
+[08:33] death sentence off us and let us live because Jesus paid the fine so we can walk out of the courtroom on the day of judgment and that means that God can legally do so justice can be done and mercy extended or because of that death and resurrection what you have to do to find everlasting life to get out of the road with that truck is repent and trust in him see at the moment both of you are alike someone who's on the edge of a plane 10,000 feet up they're going to jump and this is the plan gonna flap their arms try and save themselves it's not gonna work I'd say that person no trust the
+
+[09:06] parachute so ladies don't trust your goodness to save you it's not going to happen on Judgment Day because you're not good you like the rest of us transfer your trust from yourself to the Savior and the minute you do that you've got God's promise and he can't lie it's impossible for God to lie because he's without sin you've got God's promise he'll grant you the gift of everlasting life and he'll give you a personal miracle do you know what he'll do as a personal miracle send you to heaven no he will transform you on the inside so you love righteousness so you love that which is right and
+
+[09:37] just and good and force in loving sinner that's a miracle you've helped man I'm a new person on the inside all things I want to do in life is please the God that gave me life and you'll shake your head and say I'm a brand-new person it's called being born again where God gives you that new heart with new desires so ladies has this making sense to you absolutely yeah making sense to you 100 what are you gonna do about it we're gonna we're gonna look further into God okay yeah think about it but don't think about it for too long because you could die tonight walking around you I could just like
+
+## Part 2 · 10:12
+
+[10:12] drop right there 150,000 people die every 24 hours 150,000 so you're gonna think seriously about it with that sort of attitude of mind the Saints of urgency yeah absolutely a Bible uh-huh I do okay and you have Bible at home is this being an honor to talk to you I'm gonna give you some literature if that's okay do you ever get suicidal thoughts I feel like we all kind of I got a little booklet for you what about you yeah give you a little booklet it's called you're not alone and it's just got some principles to help you battle those suicidal thoughts because because they can come back if you
+
+[10:44] lose your dog or your mum and dad or even Grandma and Grandpa it can send you into depression and it's really hard to shake at something and Eva this little booklet great to talk to you ladies thank you this is the evidence Bible everything you'd ever want to know about evangelism it's over 1,800 pages filled to overflowing with apologetic arguments everything you'd ever want to know about reaching lost it's available at livingwaters.com amazon.com or a true Christian bookstore [Music] [Music] [Music] Oh

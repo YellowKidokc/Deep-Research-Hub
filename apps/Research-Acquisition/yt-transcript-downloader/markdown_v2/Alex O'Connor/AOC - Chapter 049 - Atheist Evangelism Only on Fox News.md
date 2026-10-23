@@ -1,0 +1,93 @@
+# Atheist Evangelism? Only on Fox News
+
+**Channel:** [[Alex O'Connor]] (`AOC`) · Chapter 49 of 419 · Length 16m 58s · [[00 - Channel Summary]]
+**Video ID:** `atkxp1XsDbM`
+**URL:** https://www.youtube.com/watch?v=atkxp1XsDbM
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-07 03:23
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:02|Part 2 · 10:02]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] good morning everybody my name is Alex and I want to remind you of something that I posted on social media recently I'll be in Croatia next week for a free event with lloyd-evans the information is in the description come along if you can now in the mean time and in the spirit of Christmas you may have seen a recent discussion on Fox News between Nick fish of American Atheists and Frank Charak regarding a series of billboards that American atheists have decided to display across the United States during the holiday season effectively criticizing the religious aspect of Christmas and reminding
+
+[00:31] Americans that atheists are the thing now for transparencies sake I really don't personally care about the billboards I don't think they're necessary I can see why they might come across as a bit proselytize II and I'm not here to sing their praises still I think that dr.
+
+[01:04] Turks attempted criticisms presented here are even more lackluster and in fact the most serious problem I have with the discussion comes from something the moderator says I thought it would be worth taking a look at a theist billboards now up in several cities sparking controversy at Christmastime telling people to skip Church because Christmas is just fake news hello and welcome to a spirited debate I'm Loren green well the billboards feature the image of a nativity scene and are focused in areas where there are large Christian populations are the atheists evangelizing here to debate or Nick
+
+[01:18] fish national program director for the American atheist and dr.
+
+[01:48] Frank toric author of I don't have enough faith to be an atheist welcome to you both good to be with you hey Loren okay Nick I wanna start with you for us because it seems if you were essentially evangelizing you're trying to convert people to what you believe I mean like what why else would you put up those billboards well so the main reason to put up the billboard is to spark a conversation and if you want to call that evangelizing sure but we want to get our foot in the door we want to spark a debate I want to have a spirited debate like we are right now and we want to have that in
+
+[01:50] communities where people just aren't thinking about that enough or they're not talking about it we're atheist voices aren't being heard where the assumption is that everybody is the same and here's a point of irony actually if Christians are so upset that atheists are being so loud and so prolific during the Christmas period then the single best thing that they could do is simply ignore it by being offended and by making a big deal out of the situation look where we are the banners that started the argument are now being displayed on fox news seems like a win for the American Atheists to me
+
+[02:24] so why hey that the image of a nativity do you you don't think that would offend people also the issue isn't being offended the issue is again getting getting our foot in the door and getting people talking about it and so the only way to do that sometimes is to be provocative to raise an eyebrow now here I very much appreciate mr.
+
+[02:53] fish's honesty in recognizing the obviously provocative nature of the banners the whole point of the campaign is after all to raise eyebrows like you said and gain attention from those who disagree my own take in response to people who are offended would be to say that yes this campaign certainly could have been undertaken in a more sensitive manner but then that would defeat the object their provocative by necessity only by taking actions such as this can the atheist voice be heard at all at Christmastime if you're angry and upset that american atheists needed to be so upfront and
+
+[03:13] potentially offensive with their banners then maybe you should be trying to convince more christians to respond to more diplomatic attempt at conversation which they routinely neglect to do if they were more willing and if America was more accommodating of atheists in general it wouldn't even need to come to this kind of a public campaign at all until we can achieve this atheist awareness campaigns will remain necessarily provocative and you know I there's a difference between saying we want you to think critically about your religion and we want you to think critically about what's going on
+
+[03:46] what your preacher is telling you and threatening me with eternal damnation you know there's a little bit of an imbalance there in in what people see as offensive which i think is really an interesting thing to discuss another fair point I think now of course when a Christian raves about Jesus as our Savior at Christmas he isn't trying to be offensive but as I'll explain shortly in doing so he is implicitly condemning me and the people I know to hell which doesn't exactly display the most jovial of Christmas spirit at the very least these banners are a somewhat more overt retaliation we don't
+
+[04:19] really have this kind of campaign in the UK and if we did it almost certainly wouldn't reach national news because nobody really cares if America could adopt a similar attitude towards religious pluralism at Christmas and that includes atheists who can often be real debbie downer during the holidays I think we'd all have a lot more fun you don't want banners some people don't want nativity scenes and religious carols it's all or nothing welcome to America dr.
+
+[04:58] Frank what do you think question is what is true no it's not Frank seems to be confusing here the two strands of religious debate that I spend copious amounts of time trying to distinguish between these are what I call the existential and political debates surrounding God we're either talking about whether or not God exists all we're talking about the moral and political implications of belief in God here the argument is about how justified it is for atheists and put up these banners not about whether the banners are actually true now granted it's always important to discuss the truth in
+
+[05:23] claims that are publicly made but that's clearly not what the argument is about here specifically as stated at the beginning of the segment we're discussing whether or not atheists are quote evangelizing and whether or not this is justified not whether or not God exists I think what's happening here is a purposeful change of topic but I won't concretely make that allegation and I'll give dr.
+
+[05:54] tariq the benefit of the doubt here now Frank goes on here to speak for a few minutes detailing a cosmological argument and trying to convince us that God exists the full video is in the description if you wish to see it but I don't think that it's particularly relevant now I'm not just trying to evade discussing his arguments it's just an entirely different discussion that I've actually had many times before and of course I'll provide links to these two so I think we'll skip forward to what I consider to be the main point dr.
+
+[06:14] Frank I wanted are you offended by these these these billboards no I'm from New Jersey I'm not offended by anything they're fine that they're doing this it is bringing up a conversation so I actually appreciate them saying hey let's talk about this I know some people will be offended but look we live in America we have free speech you don't have a right not to be offended all right so but the idea that you're trying to get a conversation going but are you worried about someone telling you a nick that you're going to hell and I mean because he's not really telling you that at all and he's he's
+
+[06:45] actually just saying hey you know what you have a right to do this but you know he's giving you more facts and more information well sure he's giving me more information I don't know if he's giving me more facts or not but and even though dr.
+
+[07:14] Turk isn't threatening me with Hell right now I mean that's the centerpiece of the religion I mean that's part of the game you can't take the good with without the game I don't think that's part of what Christianity is all about I don't know what it's all about and here we have it this is my main issue with this viewpoint and with this discussion I'd like to ask anybody who sympathizes with this view the following question if Christianity is not about the faithful going to heaven and the faithless going to hell then what exactly is it all about I mean really can you think of an alternative
+
+[07:28] contender let me elaborate Jesus's death and resurrection is the single most important factor of Christianity st.
+
+[08:06] Paul wrote in fact in 1st Corinthians chapter 15 verse 14 that quote if Christ has not been raised our preaching is useless and so is your faith so why is this so important what's the significance of the resurrection that makes it so crucial well the doctrine of Christianity states very plainly Jesus died for our sins the fool of man had condemned us to suffer eternal punishment at the hands of God and pay for our sins and Adams this was anyway until Jesus came along became our scapegoat took the punishment for us by dying on the cross so that we can now find salvation in heaven despite the
+
+[08:12] sins of mankind all we must do is place our faith in Jesus and through his sacrifice we can be saved find me the Christian who does not agree that this is the salient factor of their religion and after you inevitably fail consider what this means for those who do not accept the good news if we must place our faith in Jesus so that we can escape eternal punishment then what happens when I don't place my faith in Jesus this is how we can justifiably say that the sending of non-believers to hell and the unthinkable punishment the people like myself and mr.
+
+[08:48] Fisch are allegedly headed for is indeed what Christianity is all about it's just a shame that under pressure from fox news mr.
+
+[09:21] fish seems to have somewhat retracted his insistence on this point yes condemning me to hell is a central core factor of Christianity and though I'm not exactly quivering in my boots about it I have to say that it's considerably disturbing that some individuals see this as something worthy of celebration and praise and that implicitly teaching congregations of people that I'm a doomed sinner unworthy of salvation is at least as offensive as any billboard campaign that american atheists could dream up in a thousand years if you've never been really exposed to the real you know understanding of
+
+[09:28] the gospel you don't get that message and that's what I'm kind of like understanding so here's an excruciating commonality hopefully you can see why my problem in this video is more with the moderator than it is with Frank cherrick I'm talking about the assumption that atheists don't understand the gospel look detectives often have a better grasp of the nature of crime than a criminal music critics often have a deeper understanding of the theory and form behind a song than the singer does and critics of religion often have a fuller understanding of Scripture than the religious this isn't
+
+## Part 2 · 10:02
+
+[10:02] always the case of course but the assumption being made here just goes to show how easy it is for some to immediately write off the views of atheists just because they're not personally invested in a religion well unless they take the threats of hell personally I want to bring dr.
+
+[10:35] Frank in here because I think you can address that more so you know Frank why is it that Nick would feel as if Christianity is all about Helen Dominic I didn't say all about just to be clear the bulk of the message that you're getting from Christianity it's not the ball though but it's it's well why would you bring that up if it's not the ball well because it's so outrageous and it's so just beyond the pale to talk about eternal torture for finite sins okay that's the issue okay that was very quickly brushed over but it's worth contemplating if you haven't done so before the concept of
+
+[10:49] eternal punishment for finite sins now whether we apply the biblical principle of I for I tooth for tooth or not maybe you think that there do exist crimes that do deserve a punishment that's more severe than the offenses but can you think of any crime whatsoever worthy of eternal punishment that is never-ending infinite consider it this way now I assume that most rational people would agree that any punishment should fit the offense committed you can disagree with this if you wish but the point would still stand so let's just really oversimplify this for the sake of illustration and say
+
+[11:26] something like a crime of severity level one deserves a punishment of one year in jail a level two crime deserves two years and so on now consider eternal punishment in order to justify a magnitude of punishment that is infinite and eternal what level of crime would be required well of course the crime would need to be infinite which is impossible the point I'm trying to make is that we can imagine an unthinkably horrendous crime say a level 1000 the murder of your parents and family and the eating of their dead bodies and we might think that such an offense is deserving of an extreme
+
+[12:02] punishment as it surely is but the punishment can never be justifiably infinite excessive sure long-lasting yes severe whatever but eternal not a chance no crime befits eternal punishment no crime nowhere in the bible does the Bible talk about torture it talks about torment which is self-inflicted yes self inflicted by a person's inability to believe that a virgin bore a death-defying son of God is this really the argument it's not my fault that I'm unconvinced by the really rather lacking attempts to prove the truth of Christianity that theology currently offers I've said it before you don't
+
+[12:42] choose what you believe if you disagree with this try for a moment to believe that Papa New Guinea doesn't exist try as you may it's not a matter of choice the torment of Hell which by the way is a synonym of torture and is defined as quote severe physical or mental suffering is inflicted by an omniscient God not by myself I won't be blamed for utilizing the critical faculties that God Himself knowingly bestowed me with if he wants someone to chastise for my beliefs he should take it up with a mirror look God won't force you into heaven against your will if you don't want him now here not
+
+[13:18] gonna want a minute her beauty I've heard this point made by Frank and others before and it just seems to me to be such sophistry in the vast majority of cases atheists who by and large are simply non participants in any religious practice don't dislike God don't not want to be with God they just simply don't believe in that God I'd like to ask mr.
+
+[13:52] cherrick whether his not being a Muslim is because he refuses a lars kind offer of an afterlife well because he just doesn't believe Allah to be the true God realize what you're saying you're saying that if I'm unconvinced by shoddy evidence to support a particular supernatural claim and again remember I don't choose what I believe that it's justifiable to eternally punish me for it because all it really is is my not wanting to be with God in heaven no I hardly even consider whether or not I want to accept God's eschatological offerings because I don't even so much as believe that they exist
+
+[14:12] which again is completely out of my control how can you possibly justify punishing someone and eternally - for something that they can't control it's despotic so God gives you a free choice you can either be with God that's heaven or you can be separated from God ah yes choice so god holds a shotgun to your head and says you'd better sacrifice your life to me buddy or I'll blow your face off and don't forget to say thank you after all I am giving you the chance to have me not blow your face off but I won't force you to accept that offer are you kidding me he doesn't force us if this isn't
+
+[14:50] force I don't know what is threatening somebody saying you'll go to hell if you don't do as I say is exactly analogous to holding a gun to someone's head and saying I'll shoot you if you don't do as I say of course you have the choice to not submit to the gunman and have your head blown off but this is still force and it's still unthinkably unethical definitively tyrannical and the essence of Christianity now the beauty of Christianity and the beauty of Christmas is that God literally puts human flesh over it is deity to come and save us from that so we don't have to go and be separated from
+
+[15:27] him and all you need to do is trust in Him because what he's done on across it saved me and save you from our sins if we want it but if you don't want it that's fine God will leave you alone in eternity that's what L is I don't much appreciate these euphemisms for hell I mean separation from God sure that might be one characteristic of hell but I think you're forgetting about the torment and the fire and the suffering and the choking which I think are all pretty important considerations when making a choice about whether or not to go there it's not like here have this nice thing or don't it's
+
+[15:59] your choice it's like here have this thing that you probably don't want anyway but if you don't take it then you'll suffer and burn for it but I mean it's your choice I consider this to be a bit of a con and I only wish that Christians were more willing to recognize that this absurd proposition is literally the basis of their faith but anyway I suppose the main takeaway from this if you ask me is yes okay the billboards are kind of offensive but they sort of have to be and honestly Christianity as a faith is far more offensive to atheists anyway so let's just call it quits for now respect the
+
+[16:35] First Amendment and keep up the lively discussion over the holiday season or in other words just shut up and enjoy the turkey or whatever vegans eat at Christmas I've been Alex O'Connor or cosmic skeptic you can follow me on social media here do come to the event next week if you'll be in Croatia don't forget to subscribe thank you for watching and I'll see you in the next one [Music]

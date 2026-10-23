@@ -1,0 +1,72 @@
+# Wes Huff Gives Biblical Explanation Of "UFO Files"
+
+**Channel:** [[Daily Dose Of Wisdom]] (`DDOW`) · Chapter 825 of 916 · Length 11m 45s · [[00 - Channel Summary]]
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:06|Part 2 · 10:06]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=0s) So, we might say a spaceship. Or we might say, you know, I don't know, what whatever the equivalent is. An animal. We might talk about a cryptid or a robot. And that's because that is that's the box that we have to pull from. (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=14s) Ezequiel saw an alien. I think. (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=18s) I don't I don't think that's what I was saying.
+
+[00:23] Although (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=23s) Department of Defense has released hundreds of never-before-seen files on UFOs. NASA transcripts from 4 years later are also part of this release. (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=31s) After all the speculation, the hearsay, are we any closer to the truth? (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=34s) The United States government is talking about aliens. The news media is definitely talking about aliens.
+
+[00:34] The amount of communication, the level of detail therein is all, seemingly from my perspective, ramping up more and more and more. There's now the alien files, the UFO files. It's everywhere. And honestly, as I'm hearing all this, I have been wondering, what does Wes Huff think about aliens? (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=54s) It would only make sense for us to start off by showing the photo that Donald Trump actually presented to people on Truth Social. (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=63s) Boom.
+
+[01:03] (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=63s) It's actually There's a video [clears throat] as well. (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=65s) Ridiculous. (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=67s) See, I didn't I wasn't able to find a video. I saw people responding, but I didn't see any actual movement. I just found this beautiful (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=75s) Yeah. (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=75s) Oh my goodness. Donald Trump issued this statement on Truth Social.
+
+[01:15] He said, "Based on the tremendous interest shown, I will be directing the Secretary of War and other relevant departments and agencies to begin the process of identifying and releasing government files related to alien and extraterrestrial life." (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=92s) So, Wes Huff, luckily, just a few days ago on the Apologetics Canada YouTube channel, put out a video called If Aliens Exist, Then What? I'm going to feature a few of the his points that he made in that video cuz I think he made some very good points. Let's see what you think. Let's dive in.
+
+[01:32] We are steeped in science fiction conversations, right? Like the way that I understand extraterrestrial life is framed by science fiction, particularly movies like Star Trek, Star Wars (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=121s) Stargate. You know, there's all these all these shows, right, Firefly, that have shaped my understanding of what life on other planets could or even should look like. Whereas the 12th century individual, the medieval man, is going to think completely differently.
+
+[02:01] So, they look up at the night sky and they see, you know, one of the videos that was dropped in this big drop of UAPs was this kind of spinning circle thing. (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=145s) And if you were to show the medieval man that, his comment might be, "Wow, I never thought I'd see a cherubim in my lifetime." Whereas the average secular person will go, "Wow, I never thought I would see an alien spacecraft in my lifetime." Like, we're shaped by these things and it's going to affect the way that you and I and the internet react.
+
+[02:25] If I can circle back to the actual like data dump that the president released and some of the ways that people have been (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=179s) Speculating as to what it is and with this kind of like worldview issue that I've been I've been harping on about and I will shut up, I promise, about it. Cuz when I was thinking about it this morning, I thought like, okay, well, how we explain things by how we conceptualize them. Like, with the framework that we have. If this were maybe couple hundred years earlier, we might be thinking of like the H.G. Wells steampunk.
+
+[02:59] Like, we might be trying to explain things by, you know, steam valves and metal (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=211s) Plates and that kind of thing you think of in like 20,000 Leagues Under the Sea. But, I happen to be reading the beginning of Ezekiel this morning. And in reading the beginning of Ezekiel, thinking like, Ezekiel is describing something that's really, really weird.
+
+[03:47] (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=227s) And he's doing so [clears throat] by the terminology and the understanding that he [snorts] has to put it in a frame of reference and that doesn't mean that that's not what he's seeing but it may not be like the most conceptual description of it. Let me just read a little bit to you. (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=246s) So he says the word of Yahweh came expressly to Ezekiel the priest, son of Buzi, in the land of the Chaldeans by the river Chebar. And there at the hand of Yahweh came upon him.
+
+[04:06] Then I looked and behold a storm wind came coming up from the north, a great cloud with fire flashing forth continually and a bright light all around it. And in its midst something like the gleam of glowing metal in the midst of the fire. And within it there were figures with the likenesses of four (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=271s) Living creatures. And this was their appearance. They had the likeness of a man and each of them had four faces and four wings.
+
+[04:31] And their legs were straight and their feet were like calves' hooves and they sparkled like the gleam of burnished bronze. And under the wings of the four sides were hands of men. As for the faces and the winds wings of the four of them their wings touched one another. Their faces did not turn as they went. Each went straight forward and as for the likeness of their faith (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=296s) Faces each had the face of a man. All four had the faces of lions on the right and the face of a bull on the left. And all four had the face of an eagle.
+
+[04:56] And such were their faces. Their wings were spread above each in two touching with another being and two covering their bodies. And each went straight forward wherever the spirit was about to go and would go without turning as they went. As for the likeness of the living creatures their appearance was like burning coals of fire like the (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=322s) Appearance of torches going back and forth among the living creatures. The fire was bright and the lightning was flashing with fire. And the living creatures ran to and fro and appearing like lightning.
+
+[05:22] Then I looked and living creatures and behold there was a wheel on the earth besides the living creatures for each of the four of them. (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=337s) The appearance of the wheels and their workmanship was like that of gleaming beryl. And all four of them had the same likeness. Their appearance and workmanship being as if one wheel was within another. Whenever they went, they were in any of them four directions without turning as they went. And as for their rims, they were lofty and awesome, and the rims of them were all full of eyes all around.
+
+[05:37] And the living creatures went, and the wheels went beside them. (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=360s) And when the living creatures rose from the earth, the wheels rose also. So, Ezekiel is seeing something, and he's explaining it within the terminology that he can understand, right? His worldview, his methodological cosmology with animals and wheels and metal. (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=375s) If we saw that thing today, would we describe it in the same way?
+
+[06:15] Like, I'm not saying Ezekiel's getting it wrong, but I think, you know, when we have these kind of very strange occurrences that we're exposed to, and we try to articulate them, we're going to use the terminology that we have. So, we might say a spaceship. (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=395s) Or we might say, you know, I don't know, what whatever the equivalent is. An animal. We might talk about a cryptid or a robot. And that's because that is That's the box that we have to pull from.
+
+[06:35] And Ezekiel's pulling from a cosmological world that has an idea of both, you know, the physical and he's describing animals, but also the spiritual in It's It's there's like a combination of that. And so, I kind of happen to think, you know, I don't buy a lot of this stuff that's (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=426s) Being dropped. I'm not convinced that some of it isn't the US military itself trying to cover, but at the exact same time, could some of these be explained by these spiritual extraterrestrials that I do believe in of cherubim and seraphim and angels and demons?
+
+[07:22] (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=442s) I'm not excluding that either, but I would have to use the grab bag of terms that I have within my grab bag to actually explain those, and maybe I don't actually have the proper vocabulary, if these things are real, to describe what's going on. (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=461s) My takeaway from today is that Ezekiel saw an alien. I think. (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=467s) I don't I don't think that's what I was saying.
+
+[07:47] Although a there have been people in the past who I may have debated who have argued that exact same thing, but (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=481s) They shall remain nameless. (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=482s) About what? (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=483s) Who shall not be named. But I think you know, that's why I think those things become so popular. Is it what I was saying before?
+
+[08:03] Like when we start to not believe in God, we start to believe in everything and that's where you do get the descriptions of, you know, chariots of the gods kind of thing where you start reading Ezekiel or Isaiah and some of these a little bit more out there descriptions or Jacob's ladder going up to heaven.
+
+[08:26] (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=506s) And through, once again, our science fiction science fiction lens describing them as aliens or describing them as, you know, extraterrestrial experiences because that's the that's the water we swim in to a degree with the podcast that we're listening to or the movies that we're watching or you know, the popular world that is communicating that to us. So I can I'm sympathetic to people who jump to those conclusions.
+
+[08:58] But I think there's an aspect of stepping back and (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=538s) Going, okay, are you actually hypothesizing that because that's actually, you know, you're coming up with that on your own or are you just kind of taking in the world of natural materialism and a kind of science fictiony lens that is leading you to draw some of those conclusions? (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=560s) You know, you know, Wes, I think I'd take it a step further, too.
+
+[09:20] I think you would agree with this that are you also willing to entertain these sci-fi you know, fantastical explanations as a way to avoid God? (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=574s) Right. Yeah, kick the can down the road. (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=576s) Mhm.
+
+[09:37] (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=577s) Cuz I'm often shocked again, you know, we were talking about this that people are willing to entertain this idea of aliens and try to explain the entire Bible by you know, these alien encounters instead of or and you know, being willing to encounter God and the possibility that there is a creator and you are a part of the created. (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=599s) Or the origin of life, right? Panspermia theory that aliens seeded human life on Earth.
+
+## Part 2 · 10:06
+
+[10:06] Which is what Dawkins (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=606s) You know, Dawkins advocated for that which I always thought was ridiculous. And it kicks the can down the road. (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=611s) Yeah, it is. It's it's coming up with a an alternate theory other than it has it could be anything other than God. You know, forget the evidence, forget you know, the fact that we're just throwing stuff at a wall and seeing if it sticks.
+
+[10:26] (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=626s) We have no, you know, falsifiable theory one way or the other, but couldn't possibly be God. You know, when we look at we look at the intelligent design in the universe, well, of course it mimics that it's intelligently designed, but maybe that's because aliens came here and seeded the life on Earth which still doesn't explain well, what where do the aliens come from?
+
+[10:47] (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=647s) I can't help but to think that if Satan and the demons, the principalities and dominions, if they're going to get you to waste your time, they're going to do that in any way possible. So, that could be you know, the pursuit of goals and money and you know, look maxing. It could be something you know, it could be anything. And it also could be having you spend your entire life savings and energy on trying to find Bigfoot. It could be that, too.
+
+[11:18] Or it could be, you know, just going down the rabbit hole of (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=678s) Conspiracy theories that have to do with alien life. If they're going to get you to waste your time and not focus on living a self-sacrificial, God-honoring, Christ-centered life, they're going to do that. (https://www.youtube.com/watch?v=pnw1Oa9kMIw&t=703s) Mhm.

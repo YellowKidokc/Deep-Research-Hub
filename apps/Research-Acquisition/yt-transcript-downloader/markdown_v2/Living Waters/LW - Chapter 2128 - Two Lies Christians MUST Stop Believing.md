@@ -1,0 +1,65 @@
+# Two Lies Christians MUST Stop Believing.
+
+**Channel:** [[Living Waters]] (`LW`) · Chapter 2128 of 2497 · Length 12m 58s · [[00 - Channel Summary]]
+**Video ID:** `8G-P9Ll62jg`
+**URL:** https://www.youtube.com/watch?v=8G-P9Ll62jg
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 03:47
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:13|Part 2 · 10:13]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] I'm going to tell you about two really bad things many Christians do that they shouldn't if you've been on this Earth for more than 20 years you've probably heard of Paul Simon or at least two iconic songs he pinned one is called Mrs Robinson and it's a real toe Tapper and the other will give you Goosebumps it's called like a bridge over troubled water Mrs Robinson was a massive hit and surprisingly it contains the lyrics Jesus loves you more than you know and The Mention Of God and how to get to heaven Mrs Robinson was made up on the spot and I had been fooling around with a song and here's
+
+[00:39] to you Mrs Robin's son Jesus loves you more than you will know for no particular reason I had nothing in mind I just came into your head yes has anyone ever said to you Jesus loves you so many people yeah my mother and what does that mean to you for me personally it doesn't mean much saying Jesus loves you to a lost world may sound nice but it's not biblical nowhere in scripture will you find any of the Apostles saying Jesus loves you to Sinners when the Bible speaks of the love of God in Christ it's always in direct correlation to the Cross as in John 3 16 as it does when it says in Romans 5
+
+[01:18] 8 but God demonstrates his own love toward us and that while we were still sinners Christ died for us Christ dying on the cross is the evidence of God's love and you can't mention the cross without talking about Sin and the reality of sin makes no sense without the moral law to bring the knowledge of sin so if you want to tell Sinners how much God loves them open up the Ten Commandments as Jesus did and show them the cross and of course he also wrote like a bridge over troubled water which is a song about God carrying us over and above our daily troubles there was a moment in time when Bridge
+
+[01:57] Over Troubled Water didn't exist at all and then there was another moment when it did or when it started to where does it come from I was listening to some music by a gospel group called The Swan Silvertones one day there was this one song it was it was a very up-tempo thing and the lead singer was phenomenal tremendous lead singer in this group and uh he was uh scat singing and at one point he shouted out I'll be a bridge over deep water if you trust in my name oh what an amazing song but it's important to realize that God wasn't a bridge over the Red Sea for the children of Israel he took
+
+[03:01] them through the Red Sea he takes us into the lion's den he goes with us into the fiery furnace as he did with Shadrach Meshach and Abednego the Bible says that we enter the kingdom of God through much tribulation and in that tribulation we have God's promise then he'll be with us in those fiery trials so why be a Christian what's the benefit it's primarily to be saved from the Wrath to come that's what the Bible teaches and to wait for a son from Heaven whom he raised from the dead even Jesus who delivers us from the Wrath to come [Music] five years ago Paul Simon said he was finished
+
+[03:47] writing songs but he couldn't stop his latest solo album seven songs was recorded in his cabin Studio the title came to him in a dream the dream said you're working on or you're supposed to work on a piece called seven songs I thought you know I'm not even sure what a song is and from there I said well I suppose I should go to Psalms in the Bible I have no idea what what this dream means it's you wrestling with mortality with death I've been thinking about the Great Migration yeah one by one they leave the flock that's because at this age there are you know friends who who died and when it
+
+[04:34] happens you do you really you do think about it because I don't know your religious inclination I have none no no I'm not religious who do you think was giving you the Psalms who do you think that was oh I don't well I have no idea how our heart should break for the millions like him Paul Simon has probably sung Jesus loves you more than you can know and about God being a bridge over troubled water a thousand times but tragically like the millions of others who ignore the revelation of the scriptures he's still in darkness but why not tell Sinners that Jesus loves them and the God will save
+
+[05:11] them out of all their problems what's the harm because that false gospel leaves Sinners and their sins often disillusioned because God didn't come running like some sort of divine Butler to help them in their troubles when they click their sinful fingers instead of saying that God solves all your problems we should say that being a Christian means having God With Us in our trials and having hope in our death I hope that the Bible says is an anchor for the soul and the Ultimate Storm we all must face now that we know what not to say let's look at an example of witnessing based on what Jesus
+
+[05:49] said in Mark 10 verse 19.
+
+[06:27] got a question for you you see a teenage guy he's late teens he's drinking some soda and you see someone has spiked it with arsenic are you obligated to tell him probably what's the obligation is it moral or is it legal uh moral also legal you know yeah if you let someone die you're guilty of a crime called depraved indifference and you go to jail for that so what say the guy ignores you after you warn him or he laughs at you or he doesn't believe you where's your obligation then there's nothing really at that point that you can do you're released morally and you're released legally the law
+
+[06:29] would say you've done all you can do his blood is on his own head how do you get to heaven I think by just morally doing the right thing in life so you think you're a good person I believe so yes do you ever read the Bible I do sometimes what is the gospel the gospel off the top of my head right now I don't remember it like but I have like growing up I've definitely heard it the gospel is the good news that everlasting life is a free gift and you cannot earn it I think you're in great danger Justin and I've got to warn you I mean I'm going to take you through the Ten Commandments to show you
+
+[06:59] you can't make it to heaven on your own Merit are you ready yes sir sixth commandment you shall not kill have you ever killed someone ever murdered them no sir have you ever hated somebody yes the Bible says he who hates his brother is a murderer seventh commandment shall not commit adultery have you ever committed adultery no sir Jesus said if you look at a woman and Lust For Her you commit adultery already with her in your heart have you ever looked at a woman with lust yes how many lies have you told in your life probably too many to count and what do you call someone who tells lies a liar
+
+[07:32] what are you a liar do you still think you're a good person I'd still say yes have you ever stolen something even if it's small in your whole life irrespective of its value yes what do you call someone who steals so what are you Thief no you're not you're a lying Thief still think you're a good person starting to make me question that have you ever used God's name in vain that's the third commandment yes sir you love your mum yeah would you ever use her name as a cuss word no why not um I'm not too sure well you love who and respect her she's your mother and you never do that but you've taken
+
+[08:07] the name of God the holy name of God the one that gave you a mother and gave you life and used it as a cuss word to express disgust Justin that's called blasphemy so serious in the Old Testament it's punishable by death so here's a quick summation you have told me and I'm not judging you that you're a lying thieving Blasphemous if you had sex before marriage yes fornicating adulter at heart who's also a murderer heart who's also self-righteous which is a sin and saying you're a good person when you're obviously not you'll like the rest of us so here's the big question this is where we're
+
+[08:39] going if God judges You by those Ten Commandments you're going to be innocent or guilty on Judgment Day very guilty heaven or hell just based on this maybe hell definitely hell do you know the Bible says the wages of Sinner's death ever heard that Bible verse I have that yeah the wages of sin is death in other words God is paying you in death for your sins like a judge looks at a criminal who thinks he's a good person but he's committed multiple murders and judges I'm going to show you how serious crime is I'm giving you the death sentence this is your wages this is what you've earned this is
+
+[09:09] what's due to you and Justin sin is so serious to a holy God he's given you the death sentence you're on death row your death will be evidence to you that God is deadly serious about Sin so you're drinking iniquity or sin like water that's what the Bible says and with it is death the wages of Sinners death and that's what I've got to warn you about let's say you're a doctor in front of you as a patient who looks incredibly well he's got a great physique he works out every day and he feels fit and healthy but you know differently you've seen the x-rays and he's dying he's got two weeks to live
+
+[09:43] there's a poison seeping through a system you have a cure in your pocket what do you do show them the x-rays or give them a cure I'd give him the Cure no he's not going to want the Cure because he thinks he's well he's fit and healthy he's going to say Doc what do you give me this cure for I'm not diseased you're crazy give this out of my face of the doctors a good doctor he's going to show them the x-rays show them the poison seeping through a system make him fearful make him tremble to a point where he says Doctor I can see this is deadly serious what should I do and then he's ready for the
+
+## Part 2 · 10:13
+
+[10:13] Cure now he's going to appreciate it and appropriate it can I understand that yes sir and Justin because I love you I've showed you the x-rays today to show you how serious sin is so you'll be fearful and say wow what should I do this is deadly serious I don't want to end up in hell does that make sense yes sir and that brings us to the good news of the Gospel have you heard of Jesus dying on the cross most people have but they don't understand this and Justin if you can get a grip of this it's going to change everything for you The Ten Commandments are called the moral law you and I broke
+
+[10:44] the law Jesus Paid the fine that's why he said it is finished just before he died he's saying paid in full if you're in court and you've got speeding fines a judge will let you go if someone pays them you'll say well you're guilty but someone's paid this fine you can leave God can take the death sentence off you legally and let you live forever all because Jesus Paid that fine in his life's blood rose from the dead and defeated death and all you have to do according to the scriptures to find everlasting life is repent of your sins turn from them and put your faith in Jesus like you trust a
+
+[11:18] parachute if you're going to jump out of a plane ten thousand feet why would you put on a parachute so you don't die so you don't die in your motivations fear you fear dying and that fear is your friend it's not your enemy it's doing you a favor and because I love you I try to put the fear of God in you today hoping you'll see that fear as your friend not your enemy because it'll make you let go of your beloved sins and say boy this is serious only in God's mercy I need a I need need to be washed in my sins is this making sense yep you're going to think about what we talked about absolutely
+
+[11:46] when you get a repent and put your faith in Christ as soon as I get out of here hello today hopefully can I pray with you absolutely father I pray for Justin this day he'll see Santa it's true light that it's deadly serious and find a place of Sorrow for his sins and genuine repentance and faith in Jesus in this day pass from Death to life all because of your kindness in Jesus name we pray amen do you have a Bible at home I do can I give you a book I've written sure yeah it's called scientific facts in the Bible and it'll boost your faith in God's word [Music] real quick here are three things
+
+[12:31] to help you grow in your faith The Living Waters podcast the evidence Study Bible 200 of the most commonly asked questions of the Christian faith and much more the starter kit for the most popular gospel tracks available at livingwaters.com if you've never seen crazy Bible you've got to watch it it's one of my favorites you can watch it right now by clicking up to your left

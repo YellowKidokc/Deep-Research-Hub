@@ -1,0 +1,75 @@
+# You CANNOT Deny Biblical Creation Once You See This Animal
+
+**Channel:** [[Answers in Genesis]] (`AIG`) · Chapter 1915 of 1947 · Length 13m 21s · [[00 - Channel Summary]]
+**Video ID:** `FcMPpXSAeV4`
+**URL:** https://www.youtube.com/watch?v=FcMPpXSAeV4
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 05:16
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:00|Part 2 · 10:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] What has eight legs, massive claws, and can survive radiation, outer space, freezing, and boiling? >> And will it someday cure cancer, feed astronauts, and preserve medicines? >> Join us as we unpack the latest research on the tardigrade. >> Tardigrades may just be the best survivors on the planet. >> You probably never noticed them because they're so small, about the size of a pinpoint. >> They are in fact virtually indestructible. >> Do you want to know what the toughest animal on Earth is? Well, voila. It is the tardigrade. >> Tardigrades are micro animals.
+
+[00:32] They are animals, but they're a millimeter or less in size, about as big as a pin head. >> They have eight stubby little legs, but are not arachnids like spiders. >> They sort of defy classification. No one's really sure where to put them. >> Understandable. But there are 1,500 different species, likely all within one created kind. And who determined how many species of tardigrades there were? I want to know that.
+
+[00:59] >> Someone had to sit there and be like, "Okay, this one's a little bit different from this one." But according to evolutionists, these creatures evolved very early, first showing up as fossils in Cambrian layers dated at over half a billion years. >> Shockingly, actually not shocking to us, fossil tardigrades look identical to living tardigrades. >> Almost like they forgot to evolve over half a billion years and multiple mass extinctions. >> That's an important thing to forget. >> Yeah.
+
+[01:25] So while their relatives evolved into crabs, all the insect varieties, spiders, and so many more, they just stayed tardigrades. >> Supposedly, they're an example of evolutionary stasis where their body plan was so perfect early on that they just didn't need to evolve. >> You're perfect just the way you are. >> So change is supposedly evidence for evolution, and so is no change. Got it. Okay. >> Either way, it proves evolution, >> apparently. >> So it's unfalsifiable. Wouldn't that be unscientific? M. >> But these creatures are super cool because they're equipped with an arsenal of superpowers.
+
+[01:52] >> They can withstand 1,000 times the lethal dose of radiation for a human. >> They can be heated to 302° F. >> That's 150° C for the non-Americans. >> That's helpful, I guess. All right. And frozen to a fraction of a degree above absolute zero. >> They can survive being fired from a gun. >> Now, that's the kind of science I like to do. They survived being fired at speeds of nearly 2,000 mph. >> What did they use? A tardigrade accelerator. Like what is who who's doing these experiments? They survived going to space, even laying eggs which hatched into healthy babies.
+
+[02:27] >> They've been found in backyards and at the tops of the Himalayas, at the bottom of the ocean, in the most hospitable place on Earth, Antarctica, and even in hot springs. >> These little guys are marvels of design. And here to discuss this with us is tardigrade enthusiast Dr. Georgia Purleum. And that is the weirdest introduction I've ever done. But welcome, Dr. Pleum. >> Georgia, when we picked an article on tardigrades as our topic for this week's episode, you lit up like a kid on Christmas morning. Why are these critters one of your favorite animals?
+
+[02:58] I probably need a bumper sticker that says, "I love tardigrades." All right. Uh, they are one of the most amazing animals that God has created. And they're part of that fascinating unseen microscopic world. And honestly, they're just plain cute. >> Cute. Okay. Hey, that's your preference. You're more than welcome to it. All right. Uh, they have other names, too. They're known by the water bear or moss piglets. Where do those names come from? >> Well, first let's talk about what the name tardigrade means. So, it comes from the Latin tardigradus, which means slowly stepping.
+
+[03:25] And that relates to the water bear name, right? They're plump and they have a lumbering gate, which resembles kind of a bear. Now, their other name, moss piglet, comes from the fact that again, they're plump like a pig and they live in moss. Now, although people think they look like a bear walking, studies have shown that they actually walk similar to arthropods like spiders. This amazes evolutionists because spiders and tardigrades have very different body structures, sizes, and environments that they live in. So, from an evolutionary worldview, um they have to try to explain this, right?
+
+[04:00] And they think, well, maybe they shared maybe tardy grades and spiders shared a common ancestor in the very distant past. Or the same walking pattern evolved in both tardigrades and arthropods because it's the most efficient. >> How about instead they have a common designer god who designed them both to walk this way, right? Their walking pattern is complex with their eight individual legs of the tardy grade lifting at different times depending on if they're walking slowly. And they can actually walk very quickly.
+
+[04:31] There's no way that that could have evolved by random chance over millions of years. >> And these little guys are so tiny. So what are they eating with that dimminitive size? >> Well, they mainly eat plants and algae. Uh some species do eat are carnivorous and eat nematodes, which are like microscopic worms and rotifers, which is another very cool, by the way, aquatic invertebrate. They consume food kind of like a little miniature vacuum.
+
+[05:00] So they have these two needleike styids that are actually mineralized that come out of their mouth and they pierce the plant cell wall or the animal and then they have these really powerful muscles in their heads that work like cheeks that allow them to literally suck out the liquids. >> I don't know if that's awesome or scary. >> I feel like they just lost some of their cuteness factor there. >> I know, right? So obviously these guys are incredibly resilient. What enables them to survive so many extremes? Well, only some tardigrades can actually survive these extremes.
+
+[05:23] And it's mainly the terrestrial ones or the land-based tardigrades that have a more, you know, changeable unstable environment. And they have multiple stages that they can enter to deal with these extreme environmental conditions, including things like extreme cold, extreme dryness, high salinity, low oxygen, and even things like extreme heat, radiation, and pressure. They enter a stage called cryptobiosis in which they suspend their metabolism. and it slows, get ready for this, to 0.01% of its normal rate. >> It's almost like they die and then they can resurrect.
+
+[05:58] It's very actually very similar to that. They form what is called the ton stage in which they basically like curl up into a little ball. They lose 97% of their body moisture and shrivel to onethird their size. One scientist even said it kind of kind of like they become a powder um because they have so little moisture associated with them. Now they have to form that ton stage really slowly but they can actually rehydrate and come back to life very quickly within minutes to hours.
+
+[06:31] Now they can also enter another stage called a cyst stage in which they grow multiple cuticle layers around that tongue. Now they're an invertebrate which means they have an exoskeleton. Okay, humans we have an endoskeleton right? Our bones are on the inside, but they have an exoskeleton called a cuticle that's made of a very durable protein called kiten. And they'll form in the cyst stage, they'll form multiple layers of this. And it's probably helpful for surviving things like extreme heat, radiation, and pressure.
+
+[06:57] And what I really like is if the oxygen levels are super low, this is hilarious. They swell up and they become so they become even blumper and they become very stiff and they literally just float around until the oxygen levels come back to normal. Okay, so >> that's crazy. >> They can survive. They also produce unique proteins under some of these conditions. And one such group of proteins is called, now this is your really long word, whatever phrase for the day, tardigrade specific intrinsically disordered proteins. Wow. >> But we're just going to call them TDPs for short.
+
+[07:25] Okay, >> that makes a good idea. Yeah. >> And they enable them to survive uh desiccation, drying out, and possibly also extreme heat. So these proteins have no threedimensional shape in liquid. Now that is very very weird. Okay, proteins normally have to have liquid to have their shape. But these do the opposite. When the tardy grade starts to dry out, these proteins start to take shape and they form this weblike network that they think protects other proteins in the tardigrade because proteins usually fall apart when it's very dry and very hot.
+
+[07:59] that allow these other proteins to survive that extreme dryness and possibly heat. >> Wow. >> How do you know all that? You are a tardigrade enthusiast for sure. It's >> amazing. No doubt. >> So, how do they survive extreme radiation? Like, wouldn't that be causing mutations in the DNA? >> It does. But tardigrades have very active and unique DNA repair system. So, DNA obviously is essentially a library in our cells and it has the instructions on how to make an organism. So it's really important that we keep that as error-free as possible.
+
+[08:30] When tardigrades are exposed to radiation, they actually get the same level of DNA damage that other living things do, but they survive. So the question is why? Two things scientists have found so far, and there's probably more. The genes that produce the proteins that make up their DNA repair machinery get upregulated. So essentially they start just making more DNA repair machinery which repairs the DNA damage.
+
+[09:06] Now they also have a unique protein called TDR1 and it binds to DNA in the nucleus and researchers still weren't exactly sure what it does but it's proposed that it may keep the damaged DNA organized until it can actually be repaired. >> Wow, >> that really is so amazing. And these guys reproduced in space. What's their reproduction like? Well, they can reproduce asexually or sexually as there are distinct males and females. And the females produce eggs, but in sp some species of tardy grade, they don't lay them in the traditional sense.
+
+[09:29] So, when a female is getting ready to mulch, that's how they grow like many other invertebrates, they have to shed their exoskeleton. She actually lays her eggs in what is called the exuvia, which is the exoskeleton that she's getting ready to discard as she grows out of it. And then the male comes along and deposits his sperm into that exuvia and that fertilizes the eggs. Now the exuvia provides protection for the eggs and um some tardy grades the the female will carry around the egg sack until the eggs hatch around 40 days under good condition.
+
+## Part 2 · 10:00
+
+[10:00] Now even the eggshell of tardy grades is resilient. Okay, it's droughtresistant so that they even their eggs can survive harsh conditions. And the eggs themselves, okay, besides tardigrades being really cute, the eggs are beautiful. They have these different geometric shapes and some even look like multifaceted stars. >> So, I'm going to go out on a limb here and guess that if the tardigrades themselves are really unique and cool and the eggs are, the babies probably are as well. >> Yeah. So, baby tardy grades look just like adult tardy grades. They're just a smaller version of them.
+
+[10:30] And how they grow though is what is very unique. So baby tardy grades they're born with the adult number of cells and it's just the cells that grow in size. That's something called hypertrophy. They never add any more cells. So they're definitely unique in the animal kingdom. I literally don't know of any other animal that grows this way. >> Okay. So these creatures are crazy on numerous levels. Some say cute, some say nightmarish. But uh why would God make them the way he did? Well, you know, we live in a fallen world that can have extreme conditions.
+
+[11:04] And since tardy grades can survive many of these, it's really important that we study them to understand better how they do that. And then we apply it to other situations. So, for example, how can we dry and store medicine so that they can be transported safely and have a long shelf life without the need for refrigeration? How can we help human cells withstand the effects of radiation so the side effects of cancer treatments are minimized? You know, some people are even studying tardy grades to figure out ways to slow the aging process or maybe lessen its damaging effects on the body.
+
+[11:34] These are all ways that these tiny little water bears can help us mitigate the effects of the fall. Not only are they cute and cool, but they're also very helpful. >> Thanks for joining us, Georgia, and sharing all of your tardigrade knowledge with us. >> I think I've learned more about tardigrades right now than in my entire life, and they are pretty awesome. So awesome. Maybe parents out there want to name their next kid Tardigrade. Tar for short. >> I'm not sure. That's >> probably not. Probably not. idea. But either way, God's creation is jaw-dropping no matter where you look. >> Mhm.
+
+[12:00] Proverbs 25:2 says, "It is the glory of God to conceal things, but the glory of kings is to search things out." >> As we study what God has made, both large and small, we are revealing the glory of God. >> Mhm. And we asked you what you thought the most resilient form of life on earth was. >> And you said, "I saw a cockroach eating mouse poison, so I got to pick them." >> But what happened to the cockroach after the mouse poison? How long did you watch the cockroach post eating the poison? >> Right. I don't know. Okay. Uh, card game bit 04 said volcano snail.
+
+[12:36] So, that's a snail that lives in the bottom of the ocean around hydrothermal vents. >> That's a pretty tough creature. Yeah, no doubt. Dehyde 9207 said, "A criminals believe that they'll always get away with it." That's Yes. Well said. >> All right. >> Yeah. Cav Cwell 2197 said, "I could have lived without knowing about tardigrades." Well, if you watch this episode now, you know a lot about tardigrades. >> And then Jesus is Lord 25503 said, "Man's going to outlive everything on this list. We are eternal beings." And can't argue with that. >> Nope.
+
+[13:12] God's fingerprints are everywhere in his creation. >> So all of mankind is without excuse. Until next time, trust Jesus and proclaim the authority of God's word from the very first verse.

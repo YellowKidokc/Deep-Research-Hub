@@ -1,0 +1,61 @@
+# State of the Nation 2: Erosion of Christian America
+
+**Channel:** [[Answers in Genesis]] (`AIG`) · Chapter 1439 of 1947 · Length 12m 29s · [[00 - Channel Summary]]
+**Video ID:** `dANUTGFkkhs`
+**URL:** https://www.youtube.com/watch?v=dANUTGFkkhs
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 07:56
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:13|Part 1 · 00:13]]
+- [[#Part 2 · 10:36|Part 2 · 10:36]]
+
+---
+
+## Part 1 · 00:13
+
+[00:13] welcome to the Creation Museum here in our Cincinnati area we're actually in the theater of the museum which is located in Petersburg Kentucky in a moment Ken Ham the president of Answers in Genesis and this Creation Museum will give his second state of the nation address a little bit about Ken first um Ken as you'll be able to tell in a few seconds is from Australia originally but he's been in America Now 23 years is a US citizen as well as an Australian Citizen and since moving here 23 years ago he's developed a deep appreciation for the heritage of this country uh Ken is the author of many
+
+[00:49] books including one he co-authored with a behavioral researcher Brit Beamer called Already Gone which looks into the massive Exodus of young people from our church and what to do about it we' like to thank our friends at Cornerstone television for broadcasting this live on their TV network Nationwide and also CDR radio there are many other outlets that are tape delaying this and uh if you go to our website of answersingenesis.org you'll find out when you might be able to watch this uh webcast or hear it on another Outlet well kenam is the president of AIG and this Creation Museum and uh we
+
+[01:25] welcome Ken here and uh we look forward to what he'll have to say for the next hour please welcome kenam well good evening it's great to be here and to be able to bring this uh special presentation to you in 2006 now President Obama he made this statement at a conference we once were we are no longer a Christian Nation at least not just we are also a Jewish nation and a Muslim nation and a Buddhist nation and a Hindu nation and a nation of nonbelievers President Obama in his book The Audacity Of Hope which was published before he was elected uh he actually made a similar sort of statement he
+
+[02:25] said whatever we once were we are no longer just a Christian Nation we're also a Jewish Nation a Muslim Nation a Buddhist Nation a Hindu nation and a nation of non-believers and then during his inauguration address he said this we are a nation of Christians and Muslims Jews and Hindus and non-believers we are shaped by every language and culture it's interesting to note that the American humanist Association in the special inauguration issue of the Washington Post congratulated President Obama and the quote that they highlighted from President Obama was this particular one about uh him saying
+
+[03:05] well we are no longer just a Christian Nation we're also a Jewish Nation a Buddhist Nation Hindu nation and so on it was a quote from his book The Audacity Of Hope then it was interesting to note also that in 2009 as president when he was in Turkey here's what he said to the Turkish president I've said before that one of the great strengths of the United States is although as I mentioned uh you know we have a very large Christian population we do not consider ourselves a Christian Nation or a Jewish Nation or a Muslim Nation uh we consider ourselves uh a nation of citizens who are uh Bound by
+
+[03:41] ideals and a set of values there's no doubt that one of the mantras of the president of the United States has been that quote whatever we once were we are no longer just a Christian Nation we're also a Buddhist Nation hind nation and so it goes on in other words what he's saying is something has changed something is different about America which is why I've given a subtitle to this presentation state of the nation and the subtitle is reminders removed you know in the Bible in Corinthians for instance we read about a reminder that God gave to us in fact he's given us a number of different
+
+[04:13] reminders in his word in Corinthians we read about the reminder of the bread and then the cup so that we would not forget the death and resurrection of Jesus Christ in Joshua we read about another reminder when the Israelites crossed the Jordan River and they are told take up 12 Stones and what do these Stones mean well they were to be a sign to be a memorial so that the Next Generation would not forget the great miracle that God did so when those children ask what do these Stones mean your children will be told that they will not forget and there's one other aspect of this too assign a
+
+[04:48] memorial so that all the peoples of the earth may know the hand of the Lord to be a witness to the whole earth about the true God but you know what we find sadly the next gen generation was not reminded as it should have been and we read that in one generation they followed other gods they lost it in one generation and people we are losing it in America today just as the Israelites did and I believe for many of the same reasons as we'll see the United States of America what is the state of this nation you know most of the founding fathers of this nation were Christians and they built the
+
+[05:23] worldview of this nation uh they built this nation on the authority of the word of God that was the foundation God's word and because of that there have been reminders in this culture concerning God's word concerning the god of creation and concerning the witness of these founding fathers uh here I have 12 Stones representing some of those reminders the fact that you would see Bible verses on buildings in Washington DC for instance prayer Creation in the public education system marriage was considered to be one man for one woman respect for the elderly you'd never think of such a thing as
+
+[05:58] Youth and age Asia the sanctity of life you would never think of such a thing as abortion and you would never think of such a thing as gay marriage and so on these were reminders of what this nation was built upon built upon the absolute authority of the word of God and they were a sign they were Memorial so that coming Generations would know and be reminded of the god of creation uh the god that the founding fathers uh believed in or the majority of them at least anyway and his word uh that is the foundation for what this nation was to become well you know it's interesting as well as that I
+
+[06:33] believe that these reminders were also a witness so that the whole earth may know uh who this great God is the god of creation the god of the Bible in fact America has sent out missionaries all around the world America has been a great witness around the world Christian radio programs Christian television all sorts of Christian curricula it's been a tremendous witness in the world but you know something has changed whatever we once were something has changed in April last year 2009 the front cover of Newsweek declared the decline and fall of Christian America and then there's an article
+
+[07:07] inside that said the end of Christian America and in that article this statement was made the present in this sense is less about the death of God and more about the birth of many gods this nation has changed it's no longer one nation under God this nation now believes in many gods it's interesting to note that just a few hours before this presentation a magazine AR in our library it's called free inquiry it's a magazine of the council for secular humanism and I was just fascinated because it's arrived in our library today on the very day that I'm giving this particular presentation on the
+
+[07:43] state of the nation and when you look at the front cover it says fading Faith new trends show secularism is booming and the picture there as you can see is a church steeple that's collapsing and then inside they have a picture of a church in England showing how it was converted to a residence and in the book already gone we have pictures of lots of churches from England that have been converted into nightclubs or uh antique stores shopping centers whatever and then they make this statement and I want you to look at this because this this arrived today a historic transition is occurring a
+
+[08:17] historic transition in this nation barely noticed slowly quietly imperceptibly religion is shriveling in America as it already has in Europe Canada Australia Japan see it's not just America across the devel World increasingly Supernatural Faith belongs to the third world the first world is entering the long predicted secular age when science and knowledge Dominate and by the way whether use the word science I'm going to talk about that a little later on but the word science when a lot of these people use that word they're not really talking about observational science that built the
+
+[08:46] technology to make a broadcast like this happen they're really talking about Evolution millions of years they're talking about their beliefs concerning the past concerning Origins but a historic transition is occurring what is wrong with this nation what has happened what's going on well the first point I want to make is this reminders have been and are progressively being removed let's go through them very quickly here just some of them for instance when president obaba said whatever we once were so something has changed what's changed the reminders are being removed in 1982 1962 the Supreme
+
+[09:20] Court ruled unconstitutional uh School prayer and then in 19 1963 the Supreme Court case uh Bible reading in public schools was ruled unconstitutional in 1973 Row versus Wade a very famous one uh where abortion was now legalized and then 1985 the United States Supreme Court ruled that nativity scenes on public lands violate separation of church and state we're seeing increasing legislation for gay marriage across this nation as we saw in Washington DC recently we have a president of the United States that made this comment he said I am proud to be the first president to appoint openly lesbian
+
+[10:03] gay bisexual transgender candidates to Senate confirmed positions in the first 100 days of administration he also proclaimed June 2009 as lesbian gay bisexual and transgender pride month and he said I've called on Congress to repeal the so-called Defense of Marriage Act and then at a Human Rights Campaign dinner President Obama said my expectation is that when you look back on these years you will see a time in which we as a nation finally recognize relationships between two men and two women are just as real and admirable as relationships between a man and a woman whatever we once were we
+
+## Part 2 · 10:36
+
+[10:36] are no longer we have changed and when the president of the United States is making these sorts of statements we know that this nation has changed and this nation is in trouble it's also interesting to note that during his State of the Union Address this year he said I will work with Congress in our military to finally repeal the law that denies gay Americans a right to serve the country on the White House website we read that President Obama's federal budget defunded all abstinence-based education and then when we think of Senator Obama before he was president uh back when he and uh Senator
+
+[11:13] Biden were putting together their blueprint for change he said he was going to make preserving a woman's right to choose under Row versus Wade a priority which is why we shouldn't be surprised on January 22nd 2010 President Obama made this statement today we recognize the 37th anniversary of the Supreme Court decision in Row versus Wade which affirms every woman's fundamental constitutional right to choose whether to have an abortion I have and continued to support these constitutional rights it's also interesting to note we see news items like this one amidst all of the American flags and
+
+[11:47] presidential seals there was something missing when President Barack Obama gave an economic speech at Georgetown University the White House asked Georgetown to cover a monogram symbolizing jesus' name this nation has certainly changed whatever we once were we are no longer

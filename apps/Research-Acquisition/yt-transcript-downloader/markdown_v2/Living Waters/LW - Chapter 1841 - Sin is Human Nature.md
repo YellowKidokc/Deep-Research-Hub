@@ -1,0 +1,63 @@
+# Sin is Human Nature
+
+**Channel:** [[Living Waters]] (`LW`) · Chapter 1841 of 2497 · Length 11m 28s · [[00 - Channel Summary]]
+**Video ID:** `OG86RBk33YU`
+**URL:** https://www.youtube.com/watch?v=OG86RBk33YU
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 04:19
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:11|Part 2 · 10:11]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] i heard of a guy who who was godless didn't give god any thought and he had a stroke and before he hit the ground he couldn't even say his wife's name and when she got to him he was just mumbling because his brain was gone he was dead a few hours later and so you don't know when death is going to come we call it a grim reaper it can cut you down in an instant so i want you to think about it with a sense of urgency because joseph this is your life i see it just human nature god made us this way do you think there's an afterlife um no not really that make life depressing i guess you could look
+
+[00:38] at it that way i've been religious like kind of my whole life um i mean religious religious catholic um not strict but um it's just something i kind of grew up with um that's kind of my idea that after life just like there there may be a heaven or there just has to be afterlife it's just kind of like a feeling of mine you've got no hope in your death you know this this is all you have miles have you been born again i haven't been going born again hmm not that not no i don't know about that i don't know do you know where it's from where it's from that i think it's buddha do you have a smoke
+
+[01:10] detector in your home no you don't do you know why people put them in their homes no has it ever gone off for no real reason yes is it annoying yes does it make the dog howl yes yeah i've had that happen and it's a real pain so why do you think they make the noise so annoying you get your attention because your life could be a steak exactly have you ever had your conscience annoy you by alarming you that you're doing something wrong yes you know it's morally wrong but yeah take the batteries out of the smoke detector of conscience so you can continue and the pleasure that it gives you so
+
+[01:51] that's what i'm going to address can you handle that yes going to make you feel uncomfortable okay it's going to be annoying like an alarm okay how many lies have you told in your life a lot what do you call someone who tells a lot of lies a liar so what are you a liar have you ever stolen something even if it's small in your whole life yeah what do you call someone who steals things a thief yeah so what are you a thief lying thief have you ever used god's name in vain yes i have would you use your mother's name as a cuss word no why not because i don't know um she's a little i don't know you
+
+[02:28] should do you'd be disrespectful disrespectful horrible thing to use your mother's name as a cuss word would be horrible exactly i would disrespect her but you haven't respected the holy name of god you've used his name as a cuss word to express disgust which is called blasphemy punishable by death in the old testament is that serious about now there should be an alarm sounding within your conscience now jesus said if you look at a woman and lust for her you commit adultery whether in your heart have you ever looked at a woman with lust no i'm not the type ever looked at pornography um no if
+
+[03:05] you don't face up to your sins you'll never seek god for mercy if you don't admit you've got the disease you'll never seek the cure i see it just human nature god made us this way well try that and accord the law he had sex before marriage so joseph i'm not judging you you've just told me you're a lying thieving blasphemous fornicating adulterer at heart well you see like that sounds bad that's when the alarm should go off so if god judges you by the ten commandments we've looked at six because i forgot to mention you've broken the fifth with just honoring your mother on judgment day you're
+
+[03:39] gonna be innocent or guilty innocent have you ever heard the famous bible verse the wages of sin is death i don't think so i think so yes yeah yeah it tells you what death is death is god giving you wages for your sin basically yes you say oh it's just a white lie everyone does this but god says sin is so serious he's given you the death sentence like a judge in a court of law gives a heinous criminal who's raped three young girls and slit their throats the death sentence he says you've earned this this is your wages this is what's due to you and whether you realize it or not the bible says
+
+[04:11] we all have a multitude of sins we drink iniquity like water our eyes are filled with adultery we love darkness we hate the light and we're self-righteous that means we say we're good people and we're not and so i'm just trying to convince you that you're in terrible danger you're asleep the smoke detector is yelling and you need to listen to it because you'll never get out of the building unless you realize the truth so on judgment day you're going to be guilty like the rest of us if you're guilty will you go to heaven or hell if i'm guilty it's certain in the bible i'm going to hell yeah
+
+[04:42] all liars live their part in the lake of fire no thief no blasphemer no adulterer will inherit god's kingdom have you had sex before marriage um yes have you ever looked at a woman with lust no i'm not the type never looked at pornography um no and you didn't look at her with lust beforehand okay that counts yes i did then guilty heaven or hell hell how does that concern you uh somewhere yeah kinda yeah you can smell the smoke you gotta get out of the house now tell me if your house is on fire you wake up someone wakes you and you can smell smoke and it's everywhere why would you get out of
+
+[05:19] the house what's your motivation survival not today it's fear if you don't get out of there you're gonna die a horrible death so in that sense fear is your friend not your enemy so i am deeply concerned for your salvation i love you i care about you and the only reason i'm earnest like this is because i do care where you spend eternity now tell me what did god do for guilty sinners so we wouldn't have to go to hell do you know confession right no if you confess in a court of law the judge is going to say good we've got a confession out of you you're going to jail so confession can't help you
+
+[05:53] so what can you do to escape the damnation of hell do you know no not for sure she died you know suffered and died on the cross now most people know that but they don't know this the ten commandments are called the moral law you and i broke the law jesus paid the fine that's what happened on that cross that's why he said it is finished just before he died joseph if you're in court and someone pays you fine a judge can let you go even though you're guilty you can say joseph there's a stack of speeding fines here this is deadly serious but someone's paid him you're free to go and he can do that
+
+[06:26] which is legal and right and just even though you're guilty he can let you walk because someone paid the fine can you understand that yeah and even though you and i are guilty before god god can let us walk he can take the death sentence off us he can let us live forever legally because jesus paid the fine and full and then rose from the dead and defeated death and all you have to do to find everlasting life is so simple a child can understand it you must repent and trust in jesus do you know what repentance is no that's no yeah it's will you confess and forsake your sins that is you can't
+
+[07:01] say i'm a christian but you lie and steal and fornicate and blaspheme that's plain the hypocrite so repentance must be sincere to be genuine you let go of your sins even though they're beloved to you you know that pornography and fornication is tremendously pleasurable but they'll be the death of you man your house is on fire there's smoke in the room you've sinned against god if you die in your sins and god gives you justice you'll be damned and that horrifies me so listen to your fears and see that fear is your friend not your enemy the fear of the lord is the beginning of wisdom and the
+
+[07:28] bible says through the fear of god men depart from inequity or evil and i tell you lust is such a powerful thing pornography is so pleasurable fornication is so pleasurable but if you hang on to it you're like a man who fell into the ocean a rich man who had a money belt that weighed 40 pounds and he would not let it go and it took him to his death like a little child holding onto a stick of dynamite with a with it burning down he loves the little flicker of the flame but he doesn't realize the end of what's going to come and so think about what we're talking about listen to your conscience
+
+[08:00] think about what good what god did so you could have everlasting life so you're going to think about what we talked about yes sir well when i say think about it i mean think about it with a sense of urgency with the thought that you could die tonight at midnight your heart could give out aneurysm in your sleep 54 million people die every year many are young so i want you to think about it with that sense of urgency this is your precious life more valuable than your eyes i've i've um been in a serious accident before but like i don't know that's kind of kind of why like i believe in god more
+
+[08:35] than i did before well let's say perhaps god's preserved you for such a time as this where you'd hear the precious gospel and then you'd obey it and pass from death to life do you have a bible at home um no no not like a bible bible well you can pull down 20 000 on your phone that's how many apps there are of the bible and i'm going to give you a little booklet called save yourself some pain and i so appreciate your patience with me and for facing up and being honest it made all the difference so thank you of course well just as you get out of the house because fear would motivate you i've
+
+[09:05] tried to put the fear of god in you today to show show you're in terrible trouble with god as wrath abides on your enemy of god using his name as a cuss word as evidence of how much hatred and contempt you have for the god that gave you life because he's he demands righteousness and we love sin that's why we hate god same reason a thief hates a police officer because he's doing wrong and so i'd encourage you come before the lord and say god i need my heart changed so i love that which is right and that's the miracle of conversion god will give you a personal miracle joseph where he cause you
+
+[09:35] where he will cause you to love righteousness which is a miracle for a sin loving sinner to actually love righteousness and want to please the god that gave him life is this making sense yeah you're going to think seriously about this yeah i'll think about it probably later today okay i'm gonna try and speed that process up you could die before later today every year 54 million people die heart attack i heard of a guy who who was godless didn't give god any thought and he had a stroke and before he hit the ground he couldn't even say his wife's name and when she got to him he was just
+
+## Part 2 · 10:11
+
+[10:11] mumbling because his brain was gone he was dead a few hours later and so you don't know when death is going to come we call it a grim reaper it can cut you down in an instant so i want you to think about it with a sense of urgency because joseph this is your life and i'm talking to you like this with earnestness because i love you because your life is at stake hear what i'm saying yeah when you think about it with that sense of urgency yeah i mean if it's instantaneous like that yeah you've got him man watching a prophet a man who gains the whole world and loses his own soul they're the words
+
+[10:39] of jesus do you have a bible at home uh yeah never get suicidal thoughts no no really not really not really have you had them yeah i guess i'm going to give you a little booklet called you're not alone that will help you and another booklet called save yourself some pain which is principles of christian growth joseph been a good sport thank you for listening to me i really appreciate it this is the bible's four gospels it's what i now give almost everyone after sharing the gospel and it's been designed for that particular purpose [Music] these are available singularly or in bulk at really low
+
+[11:20] prices just go to livingwaters.com click on store books and then outreach

@@ -1,0 +1,56 @@
+# Twins Dead in Hot Car: Innocent or Guilty?
+
+**Channel:** [[Living Waters]] (`LW`) · Chapter 2122 of 2497 · Length 10m 51s · [[00 - Channel Summary]]
+**Video ID:** `esEWXNW2ZNs`
+**URL:** https://www.youtube.com/watch?v=esEWXNW2ZNs
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 05:21
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:06|Part 1 · 00:06]]
+
+---
+
+## Part 1 · 00:06
+
+[00:06] Here in New York City and [music] Iraq War veteran is free on bond tonight. He pleaded not guilty to manslaughter and criminally negligent homicide in the deaths of his year-old twins left in a hot car. The 39-year-old Iraq War veteran says he accidentally left the 1-year-old twins in a hot car. After his 8-hour shift as a social worker at a VA hospital in the Bronx, he found [music] them dead in the backseat. If ever a court should show mercy, it's in this [music] case. Why? Because of something that isn't often mentioned in today's society, something called contrition.
+
+[00:41] To be contrite is to acknowledge that we've done something terribly wrong [music] by examining genuine sorrow, like King David after he committed adultery and murder. In his penitent prayer of Psalm 51, he cried, [music] "A broken and a contrite heart, these, oh God, you'll not despise." In other words, God will show mercy when he sees genuine sorrow. But more than that, contrition brings with it an understanding as to [music] the unspeakably good news of the gospel. Here are two contrasting interviews. One is open to the gospel because he acknowledges his sins. The other is offended by it.
+
+[01:14] This is why. If I speak of a fine being paid [music] for you when you don't think you've done anything wrong, the good news of the fine being paid won't make sense, and it will even be insulting to you. But if you realize you've violated the law, that good news of the fine being paid will become good news indeed. The difference is the presence of contrition. Can you name three things that make you fearful? Fearful? I'm talking about a 1,000-ft cliff. Would you go to I wouldn't No, no, I wouldn't be comfortable with that one.
+
+[01:52] I That fear that you feel when you're by a 1,000-ft cliff, is that your friend or your enemy, that fear? Um probably the enemy. No, it's trying to protect you. It's saying, "Move back. Move back. Don't get near 6,000-ft cliff. Move back." Let me tell you about a fear that you may not have thought of that's a good fear, but it doesn't seem like it at first. It's a little personal, but I think you can handle it.
+
+[02:25] When I was 16 years old, I was at a dance, and I was dancing with a really pretty girl, and we went for a walk, and we found ourselves in the semi-dark in a long grass at the back of the dance hall by ourselves, which is a dream for every 16-year-old guy, but she said something that blew me away. Can you guess what she said? No. She said as we lay there, "You know, God's watching us." And that was like a bucket of ice water just fell. [laughter] And I said, "Okay, let's go inside." And I look back, and what she actually did was put the fear of God in me.
+
+[02:55] And the fear of God caused me not to do what I wanted to do, and I could have ruined her life, got her pregnant, caused her to have an abortion, could have ruined my life. And so I look back and thank God for her saying those ice-water words, "You know, God's watching us." Do you fear God? I don't think I fear God. Do you know what the Bible says the fear of God is? No. It says it's the beginning of wisdom. The fear of the Lord is the beginning of wisdom. So, if you don't fear God, then you haven't begun to be wise. Okay, now, I'm going to try and do you a favor, all right?
+
+[03:30] I'm going to give you a little pre-judgment day for yourself to see what things what's going to happen on Judgment Day. Do you think you're a good person? Yes. How many lies have you told in your life? Um very little. Told some? Yes. What do you call someone who tells lies? Um a liar. Are you doing anything in your life that could be offensive to God? That could anger him? I'll give you some examples to help you out. Lying, stealing, blasphemy, using his name in vain, fornicating, looking at pornography, committing adultery, hating people, killing people.
+
+[04:08] These things are offensive to God and they anger God and they're going to get us in trouble on judgement day. So, let's do a little test. Do you think you're a good person? I think I'm I consider myself a good person, yeah. How many lies have you told in your life? How many lies I I told honestly I could uh I can't count but uh Countless lies. Countless lies. What do you call someone who's told countless lies? I mean a liar. Have you ever stolen something in your whole life? Even if it's small, irrespective of its value. No. I've stolen a few things. What do you call someone who steals things?
+
+[04:40] Wha- Well, a thief. Have you ever used God's name in vain? I have, yeah. That's called blasphemy, punishable by death in the Old Testament. Would you use Would you use your mother's name as a cuss word? Uh If you would you would offend her and dishonor her. And you dishonor God and offend him. Make him angry when you use his name as a cuss word because he gave you life. Your eyes and your hearing and your taste buds and everything you've got came from God, all those blessings he he lavished upon you. So, blasphemy is really really bad. Have you ever used God's name in vain? No.
+
+[05:15] Jesus said if you as much as look at a woman and lust for her, you commit adultery with her Have you ever looked at a woman with lust? I mean I have, yeah. At pornography? Of course. Had sex before marriage? Um yeah. Have you ever looked at a guy with lust? No. Ever hated somebody? Few. A few. The Bible says he who hates his brother is a murderer. Now Manny, I'm not judging you but you have just told me you're a lying, thieving, fornicating, blasphemous, murderous, adulterer at heart. And you have to face God on Judgment Day. He's going to judge you by the 10 Commandments.
+
+[05:57] If he does that, you're going to be innocent or guilty? Guilty as charged. Bible says all liars will have their part in the lake of fire. No thief, no adulterer, no fornicator, no blasphemer is going to inherit God's kingdom. So, you're in big trouble. Can you see that? I I I could, yeah. Now, here's the important part. The scripture says through the fear of the Lord men depart from evil. You're not going to let go of those darling sins that give you pleasure as long as you don't fear God.
+
+[06:30] Up until that time, you'll be like a man who fell in the ocean and he's wearing a money belt filled with gold, 40 lb of gold. He wouldn't take the belt off because he loved his gold and it caused him to drown. Pulled him to the bottom of the ocean. That's what sin will do for you. Yeah. Sin is a a hand grenade with a pin out that you're holding on to. Yeah. It's the cause of your death. And what you got to do is tell God, "I'm crazy. I love I love doing that which is wrong. I love fornicating and lying and stealing. They give me a sense of excitement and I need you to change my heart.
+
+[06:54] I need to be born again." And God will cause you to be born again the moment you repent and trust in the savior. Do you know what God did for guilty sinners so we wouldn't have to go to hell? Any idea? He sacrificed himself. Yes, and most people know that, but you may not know this. The 10 Commandments are called the moral law. You and I broke the law. Jesus paid the fine. Have you ever been in court? I've been in court a few times, yeah. You'll know that if you're guilty and someone pays your fine, the judge can let you go. Judge can say, "Manny, you got a stack of speeding fines here.
+
+[07:29] Very serious, but someone's paid them. You can go and do that which is legal and just. And God can legally forgive your sins, dismiss your case, and let you live forever all because of what Jesus did on the cross. This is the greatest news you could ever hope to hear. That God offers everlasting life because of the death and resurrection of the savior. Is this making sense or you just want me to go away? [laughter] [gasps] You want me to go away? You've had enough? Yeah, I think so. Okay, let me let me finish. I know I know a feeling of uh the fear of the Lord isn't a good feeling.
+
+[08:03] Um but the Bible says through the fear of the Lord men depart from sin. It's the same horrible feeling you get next to that cliff. But it's it's your protector. The fear of God is the beginning of wisdom. So, please think about what we said and and and examine my motive. I haven't enjoyed doing this. I've been nervous talking to you like this, but I care about you. I care where you spend eternity and you could die tonight and die in your sins and that would horrify me. I'd hate you to end up in hell. I want to see you in heaven. So, would you please at least think about this when I'm gone?
+
+[08:32] Okay. You said it begrudgingly, but I hope you do because you don't know when you're going to die. And thanks for thanks for letting me go on. You could have said, "Stop. Let's go away. I'm sick of it." But you did have the the kindness to let me finish and I really appreciate that. Thank you. What you have to do is repent and trust in him. Now, repentance is an old-fashioned word. It means to turn from sin. You're only fooling yourself if you say, "I'm a Christian." But you're lying stealing, watching pornography and fornicating. [music] You're just deceiving yourself.
+
+[09:00] Not Not even deceiving your friends. They'll know you're a hypocrite. So, you got to truly turn from sin. Don't play the pretender [music] and trust in Jesus like you trust a parachute. If you're going to jump from a plane, you don't believe in a parachute. You actually put your trust into it. Can you see that? Yeah, I can see that. Yeah. And that's what you must do with the savior. Say, "God, I have loved that which is wrong. I didn't think sin was serious. [music] I didn't fear you. I used your name as a cuss word. I've done things that so wrong. Please forgive me.
+
+[09:24] And I put my trust in Jesus to forgive my sins." Going to close now, but I want to I want to share an analogy with [music] you and it's as simple as this. Man, you're like a man who's standing on the edge of a plane 10,000 ft up and he has to jump and this is his plan. He's going to save himself by flapping [music] his arms. Now, I'd say, "Don't do that. Trust the parachute." And at the moment you think you're going to save yourself because you're good. No, you're not. You're like the rest of us. [music] So, transfer your trust from yourself to the savior. Does that make sense? Yeah, it does.
+
+[09:56] So, if you die today, you'd end up in hell. There are two things you must do to be saved. You must repent and trust in Jesus. [music] When are you going to do that? Uh I could I could start by every every step I take. You mean like start today? I could start today. Um well, I could uh start, like I said, every step I take, you know. From today? Uh from today. Do you mind if I pray with you? You could pray, yeah. And I'll give you some literature. Hey, thanks for listening. [music] [music] [music]

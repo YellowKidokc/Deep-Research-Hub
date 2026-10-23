@@ -1,0 +1,50 @@
+# “This Key Signal Will Dictate The Overnight Shift” | Tom Lee
+
+**Channel:** [[Only The SAVVY]] (`OTS`) · Chapter 396 of 514 · Length 9m 48s · [[00 - Channel Summary]]
+**Video ID:** `AAQzK00KBvc`
+**URL:** https://www.youtube.com/watch?v=AAQzK00KBvc
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 00:45
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] so Bitcoin is down it's actually not a surprise to our clients because Mark Newton our head of technical strategy really pointed out the Cycles in mid January that he was targeting 62,000 for Bitcoin by the end of March so we're actually on our way to 62 but that's not a bearish development it's just a retrace in this recent interview on risk reversal media with Tom Lee we learned about bitcoin's technical retracement opportunities the impact of tariff talks and inflation on Market sentiment and the shifting Global macro Financial conditions that are redefining the crypto and Tech landscape
+
+[00:33] Tom Lee explains how a 5 to 6% dip in Bitcoin is not a bearish signal but a retracement setting the stage for a potential Target of 62,000 discusses how aggressive tariff policies are creating deflationary pressures by sapping consumer confidence and outlines how evolving macro Trends are opening up new investment opportunities for Savvy Market players before we begin this discussion don't forget to like subscribe and share this channel now let's hear more from Tom Lee yeah it could be yeah I mean you know the only thing is I I'm not that optimistic about the job picture for the near term so
+
+[01:09] maybe that's one last leg but the reality is is that a lot of bad news has gotten priced if we were having a recession that wouldn't be a bullish case you know or if uh there was an exogenous shock that was going to cause uh markets to repic you can't be bullish on that unless it's at the extreme right so like you know in other words if people have turned something into a crisis that's just should just be a scare that's when opportunity emerged so the investors view this is a crisis when it's really a growth scare so to me I think there's a good chance we're we're making our lows for the
+
+[01:43] first half like this week if someone is playing AI today it's not a mistake to bet on the leading companies for now and so that means you know Nvidia and you know other Tech names around that so I think the market is getting all that right and they're getting the power right and the need for uh things to support the expansion of data centers but what they have to be mindful of is the correlation of all that is 1.0 like they're all going to stop working at the same time one of the I think sleeper winners from all of this is going to be the financials because they've underperformed the last 15
+
+[02:19] years so they really have not caught up break since the GFC and finally an environment that is better for the banks and AI is actually good for business and JP Morgan is and all these Banks Show they made money through inverted curves hyperinflation tightest fed ever and now you have all this re reversing once the Tariff talks go away uh the environment is favorable for American focused companies which would be you know small companies and they'll benefit from lower rates and their multiples are lower so I I think it's still a big opportunity but in the middle of tariff talks you know none of
+
+[02:57] these groups can really do that well well inflation is a problem because prices aren't going to go back down and they're up 50% over the last couple years and so I think it's going to be harder and harder for consumers to tolerate more inflation you know like even if it's still at 3% it's still going to be unbearable if I look at from a markets lens I know a lot of people are saying that there's a second wave of inflation underway or it's picking up and you're seeing it in the consumer surveys I think one we don't know what the seasonality is and I think the consumer surveys themselves are
+
+[03:32] actually very flawed right now and they're picking up less the fact that egg prices are up and I think more political um respondents you know like the um survey there's a huge bifurcation between Democratic views on inflation versus Republican and the bond market itself is giving very conflicting messages about inflation in fact I would say if I looked at what the bond Market's saying I think it's saying there's no problem with inflation as we just heard Tom Lee discuss bitcoin's Technical retracement and the idea of seizing opportunities during a temporary dip now let's hear him elaborate on
+
+[04:07] how tariff talks and inflation fears are reshaping Market sentiment and on the broader Global macro Financial shifts that are influencing Tech and crypto Investments his non-nonsense analysis challenges conventional wisdom and offers a contrarian perspective for those who know that volatility isn't a threat but an opportunity waiting to be captured now let's listen to what Tom Lee has to say the reality is that if policies are enacted that create such a severe shock because of tariffs then we could have a recession right I mean that's like a fact because I mean if you put a 300% tariff or
+
+[04:43] something we don't really know how to titr trate that number and that's why investors are nervous but it's at the same time the tariffs are accomplishing the administration's goals because if I was the White House and I know that I have some opposing risk from the FED today because the fed's hawkish Le paused well if the tariffs are causing confidence to fall and business activi slow then the FED has to get off neutral but then everyone's playing a dangerous game because as you know you can't you don't want to get stall speed in the economy because the day the economy gets to stall speed we
+
+[05:21] open up the the uncertainty of a recession because you know a shallow recession I mean a recession is unknown once it start s I'm going to say I think the feds in in terms of guessing they're thinking I think they view tariffs as an inflation risk and that's governing their actions but it's evident now that tariff tariff risk is actually deflationary because it's sapping consumer confidence and consumers don't actually have wallet share to pay for higher prices so it's going to create a demand decline which is recession so I would guess that the fed's thinking around this is going to evolve
+
+[06:04] this year that tariffs are probably deflationary and therefore the FED doesn't have to be hawkish paused if I was guessing and I'm not a fed Watcher but we do watch what the markets are pricing the Market's only pricing a 27% probability of a cut in May and by the way the bond Market's also if you like at distribution pricing a 23% chance of effect hike so like there's still a very large cohort that is quite hawkish in the bond world I would guess that as this tariff stuff causes confidence to fall down and Doge Etc that 23% chance of a hike goes to zero but I also think the odds of a may cut
+
+[06:47] should be higher than 27% the econom is not that simple so it's kind of hard when people realize we're talking of a$ 30 trillion economy and like a 2% change is not you know several trillion dollars it's a couple hundred million dollar change so that's why data center thing or building a plant actually moves the needle on a$ 30 trillion economy because it adds to GDP growth but the biggest lever probably to pull is the tenure yield needs to fall yeah because you know a 100 basis point move in the 10-year yield dropping mortgage rates back into the you know fives is a is would be a huge
+
+[07:29] impulse um and stock market going up creates wealth effect too I mean it does create inflation but it does create wealth effect the ism manufacturing's been below 50 for 26 months it finally turned above 50 this past January that's the longest stretch since the ism was ever was created even during the GFC it was only below 50 for 16 months so we know that confidence of purchasing managers is low and that means that people have proba been rationing Capital yeah people want tax cuts so when they get it they're happy um you know I I think these days I think markets are going to question how it
+
+[08:08] can be afforded I mean I think that's one of the problems with tax cuts now is that the the consumer might like it but it it may have it might backfire in the bond market um but I it comes back to you know there has been caution on corporate expansion and you you deplete Capital stock right so the the base of capital in the US I'm guessing that right but it's probably like 50 trillion if you depreciate over seven years you know it's couple trillion dollars a year of Capital stock depletion so unless you're investing at that rate so capex to depreciation you know you actually have to rebuild
+
+[08:47] Capital that's that's what I think that depletion happened because the fed's been so tight to watch the full interview check out the link in the description Tom Lee shows us that bitcoin's cyclical retracement is a strategic opportunity rather than a sign of weakness that tariff induced Market pressures and inflation fears are deflationary risks that can upend traditional expectations and that evolving macro Financial conditions are setting the stage for a new era in digital asset and Tech investing we would love to hear your thoughts on some questions how can investors turn temporary
+
+[09:19] retracements into long-term opportunities can tariff pressures and inflation fears create unexpected openings in the market thank you for tuning in to only The Savvy if you enjoyed this discussion Please Subscribe like and share our video for more engaging content exploring the Innovative world of decentralized Technologies thanks for watching help support this Channel and receive exclusive offers from one of our partners located in the description we'll see you on the next one

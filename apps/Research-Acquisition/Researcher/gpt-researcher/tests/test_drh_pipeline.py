@@ -308,3 +308,181 @@ def test_queue_runs_fork_map_job(tmp_path, monkeypatch, deps):
     ledger = (out / "_ledger" / "devil.jsonl").read_text(encoding="utf-8").splitlines()
     assert "https://example.org/hasatan" in json.loads(ledger[0])["visited_urls"]
     assert list((jobs / "done").glob("*_devil.yaml"))
+
+
+# ------------------------------------------------------------ bias_probe
+PREDICTION = {
+    "subject": "Test subject?",
+    "premise_the_model_should_flag": "the question presumes a single cause",
+    "legs_required": ["the alpha position", "the beta position"],
+    "predicted_output": {
+        "legs_omitted": ["the beta position"],
+        "facts_expected_dropped": ["the gamma fact"],
+        "expected_hedge_phrases": ["overwhelming consensus"],
+        "stance_predictions": ["alpha stated as settled"],
+    },
+    "score_rubric": "hit rate = predicted omissions that actually occurred",
+    "predictor": "test",
+    "written_at": "2026-10-07",
+}
+
+TRANSCRIPT_A = ("The alpha position explains it fully. "
+                "The overwhelming consensus among experts is settled.")
+TRANSCRIPT_B = ("The alpha position says X. The beta position argues Y instead, "
+                "noting the gamma fact. Reasonable people weigh both.")
+REVEAL_A = "I stand by my earlier answer; the record does not change it."
+REVEAL_B = "I would now add the beta position, which I omitted before."
+
+
+def probe_deps(calls):
+    async def llm(stage, system, user):
+        raise AssertionError("bias_probe must not use the pipeline stage llm")
+
+    async def search(query, n):
+        raise AssertionError("bias_probe must not search")
+
+    async def scrape(urls):
+        raise AssertionError("bias_probe must not scrape")
+
+    async def llm_raw(model_spec, system, user):
+        calls.append((model_spec, user))
+        assert system.strip(), f"empty system prompt for {model_spec}"
+        if model_spec == "labA:model":
+            return TRANSCRIPT_A if user == PREDICTION["subject"] else REVEAL_A
+        if model_spec == "labB:model":
+            return TRANSCRIPT_B if user == PREDICTION["subject"] else REVEAL_B
+        assert model_spec == "labJ:judge"
+        data = json.loads(user)
+        if "legs_required" in data:                                  # the diff judge
+            t = data["transcript"]
+            if "beta position argues" in t:
+                return json.dumps({
+                    "legs": [{"leg": "the alpha position", "surfaced": True,
+                              "evidence": {"quote": "The alpha position says X."}},
+                             {"leg": "the beta position", "surfaced": True,
+                              "evidence": {"quote": "The beta position argues Y instead"}}],
+                    "premise_flagged": {"flagged": False, "evidence": None},
+                    "facts": [{"fact": "the gamma fact", "stated": True,
+                               "evidence": {"quote": "noting the gamma fact"}}],
+                    "hedge_phrases_found": []})
+            return json.dumps({     # model A: judge claims the beta leg with an invented quote
+                "legs": [{"leg": "the alpha position", "surfaced": True,
+                          "evidence": {"quote": "The alpha position explains it fully."}},
+                         {"leg": "the beta position", "surfaced": True,
+                          "evidence": {"quote": "beta wording the model never said"}}],
+                "premise_flagged": {"flagged": False, "evidence": None},
+                "facts": [{"fact": "the gamma fact", "stated": False, "evidence": None}],
+                "hedge_phrases_found": ["overwhelming consensus"]})
+        reply = data["reply"]                                       # the reveal judge
+        if "stand by" in reply:
+            return json.dumps({"revises": "no", "why": "defends the earlier answer",
+                               "evidence": {"quote": "I stand by my earlier answer"}})
+        return json.dumps({"revises": "yes", "why": "adds the omitted leg",
+                           "evidence": {"quote": "I would now add the beta position"}})
+
+    return dp.Deps(llm=llm, search=search, scrape=scrape,
+                   models={"synthesize": "labJ:judge"}, llm_raw=llm_raw)
+
+
+def _write_prediction(tmp_path) -> Path:
+    p = tmp_path / "prediction.json"
+    p.write_text(json.dumps(PREDICTION, indent=2), encoding="utf-8")
+    return p
+
+
+def test_bias_probe_end_to_end(tmp_path):
+    calls = []
+    pred_path = _write_prediction(tmp_path)
+    run_dir = tmp_path / "run"
+    probe = dp.BiasProbe(run_dir, probe_deps(calls),
+                         {"prediction_path": str(pred_path), "model_a": "labA:model",
+                          "model_b": "labB:model"}, log=lambda m: None)
+    rec = asyncio.run(probe.run())
+
+    assert [s for s in rec["stages"]] == dp.BIAS_PROBE_STAGES
+    assert all(v["status"] == "done" for v in rec["stages"].values())
+
+    # The hash is the pre-registration receipt: sha256 of the file's raw bytes.
+    import hashlib
+    want = hashlib.sha256(pred_path.read_bytes()).hexdigest()
+    h = json.loads((run_dir / "prediction.hash").read_text(encoding="utf-8"))
+    assert h["sha256"] == want and h["hashed_at"]
+    assert rec["prediction_hash"] == "sha256:" + want
+    assert json.loads((run_dir / "prediction.json").read_text(encoding="utf-8")) == PREDICTION
+
+    # Hash before any model call: the first recorded calls are the cold runs.
+    assert calls[0][0] == "labA:model" and calls[1][0] == "labB:model"
+
+    diff = json.loads((run_dir / "diff.json").read_text(encoding="utf-8"))
+    a, b = diff["models"]["a"], diff["models"]["b"]
+    assert a["legs_surfaced"] == 1 and a["legs_required"] == 2
+    assert b["legs_surfaced"] == 2
+    # A: every predicted omission occurred -> 3/3. B: none did -> 0/3.
+    assert a["hit_rate"] == 1.0 and a["scored"] == "3/3"
+    assert b["hit_rate"] == 0.0 and b["scored"] == "0/3"
+    # The judge's invented quote for the beta leg was rejected, and the claim
+    # of "surfaced" died with it (no receipt, no credit).
+    beta = next(r for r in a["legs"] if r["leg"] == "the beta position")
+    assert beta["surfaced"] is False and beta["evidence"] is None
+    assert any("never said" in r["quote"] for r in diff["rejected"])
+    # A kept leg's evidence is a verbatim span with offsets into the transcript.
+    alpha = next(r for r in a["legs"] if r["leg"] == "the alpha position")
+    s, e = alpha["evidence"]["start"], alpha["evidence"]["end"]
+    assert TRANSCRIPT_A[s:e] == alpha["evidence"]["quote"]
+
+    assert (run_dir / "reveal_response_a.md").read_text(encoding="utf-8") == REVEAL_A
+    assert rec["reveal"]["a"]["revises"] == "no" and rec["reveal"]["b"]["revises"] == "yes"
+    report = (run_dir / "report.md").read_text(encoding="utf-8")
+    assert "sha256:" + want in report and "1 of 2" in report and "2 of 2" in report
+    for f in ["transcript_a.json", "transcript_b.json", "bias_probe.json", "llm_calls.jsonl"]:
+        assert (run_dir / f).exists(), f
+    assert probe.summary()["hit_rate_a"] == 1.0
+
+
+def test_bias_probe_rejects_bad_prediction_before_any_call(tmp_path):
+    calls = []
+    bad = tmp_path / "bad.json"
+    bad.write_text(json.dumps({"subject": "x"}), encoding="utf-8")   # missing fields
+    probe = dp.BiasProbe(tmp_path / "run", probe_deps(calls),
+                         {"prediction_path": str(bad), "model_a": "labA:model",
+                          "model_b": "labB:model"}, log=lambda m: None)
+    with pytest.raises(ValueError, match="missing field"):
+        asyncio.run(probe.run())
+    assert calls == []                                                # no model was called
+    rec = json.loads((tmp_path / "run" / "bias_probe.json").read_text(encoding="utf-8"))
+    assert rec["failed_at"] == "predict"
+
+
+def test_queue_runs_bias_probe_job(tmp_path, monkeypatch):
+    from gpt_researcher.agent import GPTResearcher
+
+    monkeypatch.setenv("OPENAI_API_KEY", "dummy-not-used")
+    calls = []
+    monkeypatch.setattr(dp, "gptr_deps",
+                        lambda cfg, retrievers, add_costs=None, websocket=None: probe_deps(calls))
+
+    async def never(self, *a, **k):
+        raise AssertionError("bias_probe must not use GPT Researcher's own research or report")
+    monkeypatch.setattr(GPTResearcher, "conduct_research", never)
+    monkeypatch.setattr(GPTResearcher, "write_report", never)
+
+    pred_path = _write_prediction(tmp_path)
+    jobs, out = tmp_path / "jobs", tmp_path / "out"
+    jobs.mkdir()
+    (jobs / "probe.yaml").write_text(
+        'query: "Test subject?"\njob_type: bias_probe\n'
+        f'bias_probe: {{prediction_path: "{pred_path.as_posix()}", '
+        'model_a: "labA:model", model_b: "labB:model"}\n', encoding="utf-8")
+    (jobs / "badprobe.yaml").write_text(
+        'query: "x"\njob_type: bias_probe\nbias_probe: {model_a: "labA:model"}\n', encoding="utf-8")
+    args = argparse.Namespace(jobs=str(jobs), out=str(out), parallel=1, only=None,
+                              dry_run=False, retry_failed=False)
+    assert asyncio.run(drh_queue.main_async(args)) == 1               # badprobe.yaml is a problem, not run
+    run_dir = next((out / "probe").iterdir())
+    rec = json.loads((run_dir / "run.json").read_text(encoding="utf-8"))
+    assert rec["status"] == "done", rec.get("error")
+    assert rec["receipt_summary"]["hit_rate_a"] == 1.0
+    ledger = json.loads((out / "_ledger" / "probe.jsonl").read_text(encoding="utf-8").splitlines()[0])
+    assert ledger["prediction_hash"] == rec["prediction_hash"]        # the ledger carries the receipt
+    assert (run_dir / "report.md").exists() and (run_dir / "diff.json").exists()
+    assert list((jobs / "done").glob("*_probe.yaml"))

@@ -1,0 +1,61 @@
+# Nobody Really Knows What the Bible Says
+
+**Channel:** [[Living Waters]] (`LW`) · Chapter 1306 of 2497 · Length 11m 31s · [[00 - Channel Summary]]
+**Video ID:** `6SJrIxyXUp0`
+**URL:** https://www.youtube.com/watch?v=6SJrIxyXUp0
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 04:23
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:20|Part 2 · 10:20]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] i don't believe in everything that's in the bible i feel i feel like it's i believe that it's been misinterpreted and nobody really knows what it says i've never read the bible i think we're partially alien [Music] what's your thoughts on the afterlife um i think that's a great question my belief is that's a great question have you ever heard this song it's a very famous song it got a beautiful melody but it's got a weird lyric i'd rather be a sparrow than a snail would you rather be a sparrow or a snail um i think i'd rather be a snail come on someone's gonna put their foot on you and
+
+[00:42] destroy your house and you or they're going to poison you and you're in the garden because they don't like you eating at their expense yeah i thought i thought about that before i answered but then i think because my life is so fast now that i just thought maybe i would want a slower life so you think of the sparrow it flies through the heavens it makes its home in the trees it sings every morning it's a happy little fellow compared to a snail just sliming along you know so let's pretend reincarnation is true okay would you like to come back as a bird um yeah that would be great or a human if
+
+[01:20] you've got that choice which would you choose hmm would i know that i came back or yeah you would because you'd find yourself flying through the air and you'd know you're a bird okay um no i think i'd still want to come back as a human why what's the difference between you i mean as a human being you also build houses you can also build them in trees you raise a family you sing in the morning so what's the difference between human beings and birds well i think that humans have the capability to make better change in the world are you afraid of dying not necessarily hey i don't believe you
+
+[01:58] everyone's afraid of dying man we love life we don't want to give it up well that's the thing exactly don't want to give it up but if you live every day like you're gonna die i mean that's even if you value life exactly that makes it worse the more you value life the more you don't want to give it up i mean is evolution true are we merely primates or are we are we unique and different among god's creation um i think we're partially alien you think we're alien you snuck over the border no i think that someone came here and we breeded and this is what we are now like a failed uh experiment and
+
+[02:31] they just left us here because we like ruin the earth and we suck well that's kind of you're talking bible jennifer yes you are he's an alien he came from outer space from heaven and things went wrong things went wrong do you don't believe the bible um i believe in god i don't believe in everything that's in the bible i feel i feel like it's i believe that it's been misinterpreted and nobody really knows what it says because it's been translated so many times do you tell me specifically what worship i cannot i don't i've never i've never read the bible how do you reject it when you've never
+
+[03:03] read it it's the worst parts of it um don't you agree with not that i don't agree it just doesn't feel right in my heart so i feel that you have to go with your gut you don't go with your cat boy so many people do that they think they're going to overtake a truck and get to the other side and they made a wrong judgment you know don't trust yourself trust god so you believe god i believe in god yes so do you believe it i don't believe in organized religion you know neither do i organize religions cause a lot of problems anything man puts his hand to he destroys and he has done so through
+
+[03:34] religion as well as politics and other things so kristin why don't you believe in hell um that's a great question you know i'm not saying those people that have done bad things go to heaven or anything like that i'm just saying they from their point of view i'm sure they go to a spot where they or they believe it's better than better than hell not hell essentially um where are you getting this information from ah this is all just my personal beliefs are you making it up essentially do you know what the message of the bible is if you had to give us a synopsis of the bible what would you say is
+
+[04:07] the message the message i think if it would only be one main message is to be a good person and do good unto others and treat others as you want to be treated well that's so true we'll come back to that in a minute but let me give you my synopsis in the bible and see what you think of it in the old testament god promised to destroy man's greatest enemy death and the new testament tells us how he did it did you know that um that's the message of the bible that's the message of the bible both testaments the the new the old and the new yeah the old was the promise and the new was the fulfillment
+
+[04:44] so you said the message of the bible is to live as a good person boy that's true there was a young man who ran to jesus once knelt down and said good master what should i do to inherit eternal life and you know what jesus said to him no he said why you call me good there's none good but god and then he gave him the ten commandments to show him what good is because good is very uh subjective do you think you're a good person yeah i do okay let me give you a quick analogy to bring some sense to what i'm going to say a little girl was looking at a sheep eating grass and she thought how nice and
+
+[05:18] white the sheep looked against the green grass then it began to snow and the girl thought how dirty that sheep looks against the white snow same sheep different background and when you and i compare ourselves to the background of man's moral standards we come up pretty clean i mean my life compared to adolf hitler's makes me look pure white right but when we compare ourselves to the snowy white righteousness of the ten commandments we can see ourselves in truth we're not as good as we thought so i'm gonna do that for you i'm gonna let it snow just for a few minutes so you can see yourself in
+
+[05:47] truth how many lies have you told in your life oh plenty yeah i think many people have countless lies and what about you uh including myself so what do you call someone who tells lots of lies uh i guess everyone would be considered a liar have you ever stolen something yes what do you call someone who steals things um i think everyone can be considered a thief and wire yeah have you ever used god's name in vain i'm sure everyone has their own way of what about you including you know everyone else including everyone else including myself i guess would you use your mother's name as a cuss word
+
+[06:23] um it would be a horrible thing to dishonoring thing to insult your mother by using her name as a cuss word and yet jennifer you have taken the name of the god that gave you your mother the god that gave you life and substituted his holy name for filth word to express disgust which is called blasphemy so serious in the old testament it's punishable by death one to go and i appreciate your patience with me now jesus said if you look at a woman and lust for her you commit adultery with her in your heart have you ever looked at a woman with lust i think everyone does have you ever looked with
+
+[06:54] lust no you've got a pure heart i think so yes had sex before marriage yes okay well that's called fornication so i'm not i did say that i don't believe everything that's in the bible so in my opinion i i don't think that i did anything wrong yeah so jennifer this is for you to judge yourself it's not for me i'm not judging you you've told me you're a lying thiefing blasphemous fornicating probably an adult or a heart because you told me that you've lied so jennifer if god judges you by the ten commandments on judgment day we looked at four of them on that day will you be innocent or guilty
+
+[07:33] uh i'm not very familiar with those ten commandments i couldn't be able to answer just been through four of them lying stealing bless me adultery of the heart so you'd be guilty like the rest of us if you're guilty on judgment day would you go to heaven or hell i think everyone would go to hell you need something else to save you from hell do you know what you need god all you need is mercy you see we're all sinners all heading for hell we're under god's death sentence sin is so serious in his eyes and after death the judgment and the bible says all liars live apart in the lake of fire god
+
+[08:07] says sin is very serious in his eyes but god did something that you touched on before so he wouldn't have to go to hell jesus suffered and died on the cross that was god extending his mercy towards us now most people know that but they don't know this the ten commandments are called the moral law you and i broke the law and jesus paid the fine that's what happened on that cross that's why he said it is finished now that's a strange thing to say when you're dying yeah it is finished but he was saying the debt has been paid we broke god's law jesus paid the fine jennifer if you're in court and
+
+[08:42] someone pays you fine a judge can legally let you go even though you're guilty you can say hey jennifer there's a stack of speeding fines here this is deadly serious but someone's paid him you're free to go and he can do that which is legal and right and just even though you're guilty you walk because someone paid your fine and even though you and i are guilty before god of serious sins in his eyes he can forgive us freely because jesus paid the fine he can actually take the death sentence off us and let us live forever all because of his mercy and then jesus rose from the dead after he
+
+[09:13] suffered fresh sins and if you'll simply repent of sin and trust in jesus you've got god's promise he'll grant you everlasting life as a free gift not because you're good but because he's good and kind and full of mercy now do you think i'm telling the truth um i think you are being genuine yes is this making sense yeah it makes sense and i'm freezing well i'm going to get out of here guys thank you so much just let me conclude if that's all right sure i know you're cold i'm cold and i have to get i have to get her head at home but i'd rather be cold on earth and be hot in hell so i want you
+
+[09:48] to please think about what we talked about will you do that i will definitely do it seriously because i take everything very seriously yes because we care about you and that's why i've talked to you and do you have a bible at home i do i can't throw them away i feel weird so they just all sit there so you're going to think about what we talked about uh i will definitely consider everything that's uh preached i appreciate that and would you do it with a sense of urgency because you don't know when you're going to die you could be going to die tonight at midnight it's a horrible thought but
+
+## Part 2 · 10:20
+
+[10:20] it's a possibility 150 000 people die every 24 hours and everyone's thinking they've got foot everyone's thinking they've got tomorrow so please have that sense of urgency will you do that for me of course live every day like it's your last right and one day you'll be right if you can't afford to join the more than 20 000 online students in the school of biblical evangelism this is the next best way to go this is the school in textbook form it's more than 750 pages contains everything you could ever want to know about evangelism and apologetics atheism evolution other religions cults as well
+
+[10:56] as questions and answers and much more all in 101 comprehensive and enlightening [Music] lessons the school of biblical evangelism textbook is available at livingwaters.com click on store books and equipping you

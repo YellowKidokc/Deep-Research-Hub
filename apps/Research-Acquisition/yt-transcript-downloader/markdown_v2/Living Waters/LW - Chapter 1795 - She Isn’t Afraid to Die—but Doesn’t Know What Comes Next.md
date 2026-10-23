@@ -1,0 +1,50 @@
+# She Isn’t Afraid to Die—but Doesn’t Know What Comes Next
+
+**Channel:** [[Living Waters]] (`LW`) · Chapter 1795 of 2497 · Length 9m 48s · [[00 - Channel Summary]]
+**Video ID:** `mAfAJ-oW1R0`
+**URL:** https://www.youtube.com/watch?v=mAfAJ-oW1R0
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 09:38
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:06|Part 1 · 00:06]]
+
+---
+
+## Part 1 · 00:06
+
+[00:06] watch this as Ray speaks to a fairy named Syble who does not believe in Christmas or Easter in fact she says she thinks about death quite often but she's not afraid to die even though she has absolutely no idea what's going to happen to her when she does siil do you have any thoughts about the afterlife um it's a very tough question um big question it is the big question do you ever think about it uh often are you afraid of dying I'm not afraid of dying um do you know what happens when you die I don't know what happens when you die shouldn't you be afraid of the unknown of it if I was going
+
+[00:44] to push you into a Dark Dark Room you didn't know what was in the room you should have a natural fear and it's natural and wise to fear death if you don't know what's going to happen isn't it it's a natural thing why should we fear something that's natural if I was going to push you the cliff would you say that's just natural cuz we're getting pushed day by day closer and closer to this unknown Thing Called Death and everything within us is repulsed by it I'm repulsed by death I think it's horrific there's something in me that says oh I want to live and that's my god-given will to live
+
+[01:15] haven't you got that sure I mean everybody has a little bit of fear but you know um everything's made up of energy energy cannot be created or destroyed do you think God exists I don't think specifically God exists again I believe in energyy I get that every morning when I get out of bed I got plenty of energy and It Go dissipates during the day what do you mean by energy you're talking about life um it's just science everything is made up of matter and matter is made up of energy what's that got to do with what happens after you die and God because energy cannot be created or destroyed so
+
+[01:50] your energy has to go somewhere and if it just replenishes back into the universe so you're just so do you believe in God's existence I don't believe that there is a higher being that created everything no how did it all happen are you an atheist I'm not an atheist so you believe that something made everything I do not believe that something or someone specifically made everything you're talking like a university student have you been to University no I have not I have never been to uh School W so there's not a specific Creator but it's all here do you think this thing that isn't God is
+
+[02:32] intelligent um I mean have you ever tried making a frog from nothing or a flower or a bird or a leaf huh it's it's got to be intelligent your eyes have 137 million light sensitive cells and each eye 137 million light sensitive cells whoever made us whatever made us must have been incredibly intelligent don't you think we could just be a tiny Speck of existence you know who's to say we're not not just some tiny molecule or particle of trash in an even bigger Universe it sounds very depressing it is depressing don't you have selfworth don't you look at the mirror and say wellow thank you God
+
+[03:10] for Life aren't you thankful for life I am thankful for Life who too to myself and my you didn't make yourself no but I exist yeah and I will continue to exist so I may be grateful for what I have and as long as I exist on this conscious plane I will continue to appreciate myself and nature and Beauty so if there's a heaven are you going to make it there are you a good person generally I'm a good person I would assume that if there is a heaven I would make it there but let's have a little test okay we'll go through some of the Ten Commandments you remember what they are 10 commandments most
+
+[03:54] of them do you know any um th shall not kill you ever killed anybody I have not have you ever hated someone um hate is a very strong word I have you ever hated someone disliked people never really passionately hated anybody okay so you have no not hated anybody what other Commandments can you think of [Music] um shoot shall not lie shall not lie have you ever ever lied in your life even once I have so what do you call someone who tells lies a liar have you ever stolen something even if it's small yes but he call someone who steals things a thief have you ever used God's name in vain I have
+
+[04:34] okay it's blasphemy when you do that it's very serious to take God's name and use it in the place of a cuss word now Jesus said if you look with lust sexual desire at someone you commit adultery in the heart you ever done that sure so Cil listen to this by your own admission I'm not judging you you're a lying Thief a blasphemer and an adulterate heart so if God judges You by those Ten Commandments on the day of judgment do you think you'd be innocent or guilty guilty but if there is a God I don't really believe that um it would specifically be determined by that I think those are things that
+
+[05:08] have been written by people long ago and um so if you're guilty on Judgment Day according to that standard would you go to heaven or hell hell I suppose do that concern you no cuz you're using the word if which means there's a possibility I mean your your own ience affirms the truth of those Commandments you know it's wrong to lie and steal it's written on your heart it's God's law the work of the law written on your heart so we're without excuse on the day of judgment do you know what men's Ray means it's a legal term what is it men's Ray no it's Latin and it means guilty mind it has to be
+
+[05:47] present for a prosecutor to prosecute a criminal um an alleged criminal if he had a guilty mind when he committed the crime then they can prosecute him if he didn't know it was wrong they can't prosecute him and we're guilty because we've got a conscience and we have a guilty mind we know we're doing wrong so on the day of judgment be without excuse so does it concern you at all that if you died today and God gave you justice you'd end up in hell no because I I'm right in my mind you know I think of a criminal saying that to a judge he's been found guilty of four serious crimes and he says
+
+[06:18] judge I'm not concerned because I'm right in my mind his mind doesn't matter it's what the law says and the judge would say you're guilty I'm going to make sure you get just desert now do you know what God did for guilty Sinners so we wouldn't have to go to hell any idea what God did specifically yeah we celebrated at Christmas and an Easter huh Christmas and Easter now those are funny holidays that are determined by the uh the church didn't a whole group of people get together and then decide those days I have no idea well you should know that that should be one of your facts um okay I don't
+
+[06:54] believe Jesus was born at Christmas and I don't believe I think EAS as a pagan holiday but they're both pagan holidays so we remember that the Savior was born at Christmas and the reason there was a savior is so that God could save you from death and Hell God became a a human being suffered and died on the cross and took the punishment for the sin of the world you broke God's law Jesus Paid your fine that means God can legally dismiss your case Cil you can walk out of God's courtroom if you repent and trust in him who suffered for you and rose again on the third day do you have a Bible at
+
+[07:24] home no I do not you an educated person yes what's the world's biggest seller of of all time the Bible shouldn't you just at least check it out I have checked it out so have you had a Christian background um most of my family is Jehovah's Witness in fact you had a Christian background um so I'm not talking Jehovah's Witness I'm saying something different I'm saying salvation is a free gift of God you don't have to earn it by doing anything just repent and Trust the Savior I have owned a Bible you know I have looked through it and it's just is that the New World Translation uh no I have
+
+[07:55] actually read the King James version oh that's great well dig it out again read the Gospel of John and and pray earnestly about this C cuz you don't know when you're going to die and and you seem like a nice person and I'd hate God to have to give you justice and you up and Hell that'd be horrific so please give us this this thought because the most precious possession you have is your life isn't that true that is true and Jesus said watch should it profit a man if he gains the whole world and loses his own soul so would you give this some thought please I will give it thought as I have
+
+[08:25] before but I no buts just give it some openhearted thought hey thanks for talking to me yeah learn how to share your faith biblically each week we send out a free ministry update and it contains a short video clip Ry finds colorful characters he witnesses to them and then I chalk talk the clip here's some samples do you believe in god of course I believe God actually learns through us that that's a heaven right here multiple times a day God hugs me what planet are you living on I have no problem standing before the Lord as I am after seeing new clips each week and understanding the Biblical
+
+[09:06] principles behind them you will end up saying I could do that there's no charge for the update just go here and sign up here and we'll send it to you every week for God so loved the world that he gave his only forgotten son also while you're there check out the school of biblical evangelism the school of biblical evangelism is a full-blown online evangelism course it'll help you overcome your fears it'll help give you the answers to the hundred most commonly asked questions and objections to the Christian [Music] faith you'll find details on livingwaters.com

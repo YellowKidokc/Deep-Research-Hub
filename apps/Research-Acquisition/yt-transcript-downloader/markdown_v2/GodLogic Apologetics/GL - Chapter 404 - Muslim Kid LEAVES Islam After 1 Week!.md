@@ -1,0 +1,63 @@
+# Muslim Kid LEAVES Islam After 1 Week!
+
+**Channel:** [[GodLogic Apologetics]] (`GL`) · Chapter 404 of 663 · Length 13m 51s · [[00 - Channel Summary]]
+**Video ID:** `CTs82OnAazg`
+**URL:** https://www.youtube.com/watch?v=CTs82OnAazg
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-29 15:27
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:29|Part 2 · 10:29]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] I think it confirms the angil, not the Bible we have today. >> What's the angel if it's not my Bible? >> It's the one that was revealed to Jesus at at its time. >> Yeah, but the Quran says that the Christians had it in Muhammad's time. So, >> Oh, uh, y'all got nothing. [laughter] >> It's okay. [gasps] But um I mean it would have to be my Bible, you know, because we have those manuscripts from Muhammad's time and even before uh cuz I see some of the like of the um scriptures that wasn't not in Muhammad's time, but the scriptures you say that you have today. >> Yeah.
+
+[00:50] Matthew, Mark, Luke, and John. >> Those are the ones who wrote the gospel of Jesus. Okay. >> And so we have manuscripts of those from you know Muhammad's time and even before way before. >> So what's like what's the what's your argument for? >> So my argument is is that because the Quran says that my Bible is true uh that therefore the Quran is false for going against the Bible. Right? The Bible says when we read when I read the Bible it says Jesus is the son of God. The Quran says obviously that Jesus is not the son of Allah, right?
+
+[01:32] And whoever says that is cursed by Allah and deluted from the truth. The Bible says that Jesus was crucified and rose again on the third day. The Quran says that it was only made to appear that Jesus was crucified but they killed him not nor did they crucify him. Um the Quran says that I'm sorry that the Bible says that Jesus is our Lord, our God, right? One in essence with the father and the holy spirit. The Quran says that Jesus is nothing more than a messenger, just a human being who ate food. So, it contradicts the Bible. And these these just a few examples I gave it.
+
+[02:04] There's so many more, but these are just some important ones where the Quran clearly contradicts what the Bible says while at the same time saying the Bible's true. So therefore, the Quran can't be it can't be true. It has to be false. >> Okay. Well, how do you know it's like not the Bible that's false? the Quran >> because the Quran says the Bible's true. >> Oh. Oh, yeah. That's true. >> If the Bible's >> like, let's go, let's go that other way. If the Bible was false, then the Quran would be false for saying the Bible's true.
+
+[02:41] If it says a false book is true, then the Quran is false for for lying. No, that book is not. The Bible's not true. It's actually false. And the Quran's wrong for saying it's true. So either way you go, if the Bible's true, the Quran is false for contradicting it. If the Bible's false, then the Quran is false for saying that the Bible's true. >> True. Yeah. I I have nothing else to >> Yeah. This this is something serious to think about, man. This is this is like probably my number one reason why I say Islam is false, man. Because of this right here, it's it's the biggest problem.
+
+[03:13] And there's no way out of it. There's no way out of it. It's a clear demonstration of how Islam is false, man. >> All right. Yeah. >> How long have you been a Muslim? >> Uh, couple weeks. >> Couple weeks. >> Yeah. I'm not going to lie. Yeah. >> What convinced you to be a Muslim? >> They were talking about how it's preserved and B's been changed. So, I'm like, I guess that could be true. I'm like, let me just try Oh man, you was a easy shahada, huh? You was a easy shahada, huh? >> Yeah. >> Yeah, they got you. But, uh, fortunately, God brought you to this stream. What's up, George?
+
+[04:00] Love you, man. Uh, God brought you to to this stream to show you that you've been duped and they lied to you and they, you know, sold you a nice sales pitch like how cars salesmen try to do. They try to sell off a car with a bunch of uh insurance on it and try to hide all the real expensive things and how it's broken down and stuff. That's what they did. They they so they gave you a good little sales pitch and you wasn't knowledgeable enough to recognize their lies. But that's what God raised people up like me for so that you don't have to follow a lie.
+
+[04:40] So, so as quickly as you joined Islam should be even quicker that you leave it, bro. There's no way that you should still be in this religion. Absolutely not. What are your thoughts on Jesus? >> Man, I love Jesus, but I do, but it was the um the Trinity that made me like question it. That's what that's what really got me. [clears throat] >> So, doubting that Jesus is God. >> Yeah. >> Okay. I understand. And did they tell you that Jesus is not God, but that he's submitted to God and that he's just a servant and just a messenger? >> And >> yeah, they also want to John 17 to 17:3.
+
+[05:18] >> Yeah, that's good. Let's go to John 17. Let's go to John 17. Do you have a second device on you or no? >> All right. It's okay if you don't. It's all right. >> I'm going just read John 17. I'm gonna read verses 1 to5. Okay. >> All right. Did they show you the context? Did they show you the verses before or after? >> Just the verse. >> Just just John 17:3. Yeah. >> Isn't that amazing? >> Now, I'm I'm going to show you what they hid from you. >> Now, you tell me this. [clears throat] If I were to ask you like, who's the one who gives eternal life? Who would you say that is? >> God.
+
+[05:54] >> Exactly. Watch what Jesus says. John 17 verse one. When Jesus had spoken these words, he lifted up his eyes to heaven and said, "Father, the hour has come. glorify your son that your son may glorify you since verse two. Since you have given him authority over all flesh to give eternal life to all whom you have given him. Hold on a second, Jesus. Whoa, whoa, whoa. Jesus, you're supposed to be a good prophet. You're supposed to be a good messenger. What you just said is sherk. It's it's idolatry. Jesus just said one, he's the son of God who God glorifies and he glorifies God.
+
+[06:36] They mut they glorify each other. Two, he said that he has authority over all flesh and that he's the one who gives uh gives eternal life to whoever the father gives him. So how can Jesus be a mere messenger if he's claiming to have authority over all flesh, all creation, and also give eternal life? Does that sound like somebody who thinks he's just a mere man? >> No. >> No. Does that sound like a good Muslim prophet? Would a Muslim prophet ever claim that he has authority over all flesh who can give eternal life? >> No. That's sherk. >> That's sherk.
+
+[07:15] This is the verse right before verse three. So they gave you verse three thinking that Jesus excludes himself when he says, "And this is eternal life." Let's read it. And this is eternal life that they may know you, the only true God and and Jesus Christ whom you have sent. So see it's over. Jesus says the father is the only true God. Uh uh that's not at ne he's not negating himself. He's just glorifying the father like we just read him doing in verse one. He's glorifying the father. That doesn't mean that he's negating himself as being God as well. But that's what the trinity is.
+
+[07:48] The true God is the father, the son, and the holy spirit. And one person can recognize the other person as true God just like the father also calls the son god as well in other verses. >> Yeah. >> This is what we would expect if God was a trinity. And so watch what else he says. He says I now this is verse four. I glorified you on earth having accomplished the work you gave me to do. Now father him pay attention to this. Now, Father, glorify me in your presence with the glory that I had with you before the world existed. Jesus just said that he had the same glory with the father.
+
+[08:31] They shared the same glory together before creation. Does this sound like somebody that's just a man? >> No. >> No. This sounds like somebody who knows that he himself has the same divine essence as the father, who is just as much God as the father is, but is also a humble servant of the father who does the work that his father calls him to do. Even though he shares the same essence, even though he shares the same glory, this is how Christ speaks.
+
+[09:16] What the Muslims did is they isolated verse three, gave you a false narrative and you wasn't, you know, you didn't have that awareness to say, "Hold on, let me actually look and see what Jesus is saying in context." Because the context kills them. In context, Jesus is claiming to be God while also glorifying the father as God as well. >> Yeah. They also said that um he prostrated to the father and that's what made him. >> That's what makes [laughter] Yeah. >> So if I prostrate to a statue, am I a Muslim? [laughter] >> No. But no, cuz they said like >> You see how silly that is?
+
+[09:53] There there's Have you uh Have you heard of Orthodox Christianity? >> Oh, yeah. Oh, yeah. Cuz they do prostrate. >> They prostrate. Are they Muslims? >> No. >> No. [laughter] That's so stupid. Uh here's another thing. When Jesus prostrates, he calls God his father, right? He says, "Father, if it be possible in Islam, is is Allah the father?" >> No. >> No, he's not. So, in the very verse that they go to to try to prove that Jesus is a Muslim, it actually proves he's far from it. Because in that same prayer, he's acknowledging that God is his father and he's God's son. He can't be Muslim.
+
+## Part 2 · 10:29
+
+[10:29] He's everything he's everything of the opposite. Make sense? Yeah. >> So, you joined a religion you didn't even you didn't even know about, man. You didn't know they was lying to you like this, man. >> They were they were just like they were just telling me how uh Jesus uh didn't know the hour and how he prospered. I'm like, "Yeah, that does make sense." So, >> so do you see now how with all of these things that we're going through and we could do this all the time. There's nothing in there in their claims that actually holds weight.
+
+[11:11] When we go into their little script and how they go against Jesus, we see that they're liars and we see that Jesus actually does claim to be God. He claims divine things that no Muslim prophet can claim, no creature can claim, no angel can claim. Right? We see these things about Jesus in the Bible and what he says while at the same time we also see his humility. We also see him in in the role of a servant. So those two things are not mutually exclusive. Jesus can be divine. He can be God and also have the virtues of humility and servitude as well to give us an example. >> Yeah. >> Make sense?
+
+[11:55] So, um, have you read the Bible yet or no? >> I only read like John, like a little bit of John. >> A little bit of John. >> Yeah. >> Start it over. Start it over. Read through John, bro. And uh, and see what Jesus really said about himself. Jesus says some crazy things about himself that you would be like, "Yeah, there's no way." Uh, I can't believe people say he never claimed to be God. He clearly claimed to be God in John. And well, we remember we just read a few verses in John 17. Wait till you read John 1, John chapter 5. John chapter 5 is insane. John chapter 5, John 6. Okay.
+
+[12:35] Read read the gospel. But um >> but yeah, what what are your thoughts on Islam now? You still a Muslim? >> Not really. I was just confused about the about the like the the verses and stuff. >> Yeah. Praise God. Well, brother, look, I'm here if you need me, man. Follow me. Give me a follow. I'm live every Monday, Wednesday, or Friday, same time. >> You can come up anytime and ask questions. You can message me, ask questions, remind me. Hey, man. This is King Boy. We we spoke uh you know, I was the new Muslim or whatever. Um and I can and because the job's not done. You left Islam.
+
+[13:12] You're done with Islam. You see the falsehood of Islam, which is good, but now you have to see the truth of Christ and you have to see the gospel. So, there's so much I I there's so much I got to show you, bro. It's going to blow your mind. All right. So, stay in touch. Okay. >> All right. Bye. >> All right. Peace, man. Take care of yourself. All right. >> You, too. >> All right. Peace. >> Yep. Come back, King Boy. Come back. Do not uh don't let it go too far where we don't talk again. Let's Let's talk again, man. Let's talk again. Let's talk again.

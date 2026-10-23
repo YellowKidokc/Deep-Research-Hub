@@ -1,0 +1,50 @@
+# Marine Le Pen & The NATO Op To Get Her
+
+**Channel:** [[Mike Benz]] (`MB`) · Chapter 276 of 690 · Length 9m 57s · [[00 - Channel Summary]]
+**Video ID:** `o9co1fRQQQE`
+**URL:** https://www.youtube.com/watch?v=o9co1fRQQQE
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 02:39
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] it's a standard Playbook this is something that has been going on for about 20 years now with the US state department in nato in Central and Eastern Europe in order to control the internal politics this was what we call our rule of law programs an anti-corruption programs this was something that was funded substantially by usaid by the US state department by NATO and EU grantmaking bodies and by private donors like George Soros and this has been a way to control internal politics what's changed is that those Central and European post Soviet states were when these sorts of abuse has happened
+
+[00:38] at the end of the Cold War from the 1990s through the early mids uh it this was seen as well these are corrupt countries it's not really where we in the US or Western Europe the sort of classical Western Civilization live and so that's just how things are done there but what we've seen is this exact same network behind the law fair in the US behind the law fair in France behind the law fair in Italy and now in Germany in Spain in uh in Brazil and in Pakistan have taken that exact same blueprint which is that if you can't beat them ban them and this has made a total mockery of the whole
+
+[01:17] concept of democracy while we have the rise of China happening simultaneously and them not having elections but investing in their own infrastructure we're seeing seeing that that in the west increasingly we don't have elections either uh it's all of the uh all of the orwellian horror without any of the infrastructure infrastructure or Economic Development because every single person on that list was a populist was deemed a threat to democracy like they're the only politicians committing crimes and they're committing them serendipitously you know when they're on the verge of winning Marine Le
+
+[01:55] Pen is up 11 points uh for her conviction she was up 11 points in the in the early voting in the early opinion polls for the 2027 election blowing anyone else out of the water and everyone she nearly won last election cycle the CIA via the Atlantic Council and its other uh its other think tanks and and Nos and foundations that work in cahoots with the CI on soft power have been waging this campaign against Le Pen there was an incredible incident uh in 2008 when Marine Le Pen nearly beat macron in the 2018 election and the Atlanta Council which is funded by the Pentagon the state department us
+
+[02:37] Aid and CIA cutouts like the national down democracy it has a it has seven CIA directors on its board of directors they they made an image uh around that election I'm showing it on screen they called it Democratic defense against disinformation and right in the center of it is this is about the macron election in in 2018 they put jack pic and Wikileaks as the targets who were undermining support from macron by sharing the leaked files of his own corruption so you have seven CIA directors on the board of that organization which still gets paid tens of millions of dollars by the US government
+
+[03:16] who are openly plotting against US citizens for sharing social media posts that support Marine Le Pen so this goes very deep and there's a lot more on this if I can depending on how much time we have so they basic basically had they were had they been successful in taking out president Trump either with law fair or an assassination they tried uh they would have had pretty much Checkmate on the whole world uh they're already doing it in these other countries thank God we've got Trump here but had they been able to sidebar Trump in some way throw him in jail keep him from running doing what
+
+[03:48] they're doing in these other countries the globalists pretty much would have taken over the world is that what I'm hearing it would have been a thousand years of Darkness because the the nice thing about the us having Sovereign leadership and smart leadership right now is that it can throw its weight around to try to save other democracies under attack for example the reason they took out Leen is because she wanted to withdraw from the military command at NATO this is exactly what Charles de gal tried to do NATO used to be headquartered in Paris and then Charles deal wanted to pull out of
+
+[04:23] NATO that's how it moved to Brussels and the CIA ended up orchestrating a coup against Charles de gal in France in the the 1960s this is a very famous episode in in US French relations we have been constantly playing around in domestic French politics uh both before and ever since the 1960s there was a famous incident for example when the CIA Red Cell memo was published by Wikileaks showing that the CIA was in the process of rebranding its waron Terror in Afghanistan in order to try to get the French Parliament to vote for more war funding for the NATO operation there and the CIA proposed to
+
+[05:03] the state department in this memo everyone can look it up it's the red cell memo on feminism by Wikileaks I believe it was around 2011 during the Obama Administration and what they proposed the CI proposed uh changing the framing the The Branding of the war to emphasize things like feminism and women's rights because the French uh the French electorate was not uh afraid of terrorists enough coming from Afghanistan so we should focus Less on National Security and sell it to the French people as being about women's rights this is a cynical abuse of empathy towards feminism just to rig a French
+
+[05:40] parliamentary votes to get them to give more money to the NATO war machine now that was during the Obama Administration and again like I've said ever since I have no doubt that pav durov was arrested in France the owner of telegram uh as part of a NATO operation to seize control over Telegram and shut down Russian uh you know Russian favored uh telegram channels or to try to play around with the backend to spy on on Russians in telegram by getting backend access from pav durov that happened in France that would not be possible I believe with out direct coordination with the US Embassy in
+
+[06:18] Paris in order to have U uh us consent on that we saw in the JFK files just last week when they were released that it turned out that 75% of the state department atach in the US Embassy in Paris were actually CIA 75% of the people working in the political division in the US Embassy were actually secretly working undercover for the Central Intelligence Agency and that at that time the CIA occupied the entire top floor of the embassy and was actually boxing out the state department from accessing it quote monopolized access to the leader of the French Parliament so what we see here is this deep
+
+[06:57] connection between the blob this transatlantic blob this sort of you know Joe Biden uh Tony blinkin Hillary Clinton the same network here in the US tied to macron and they're trying to use those networks in France in order to stop a sort of New non-aligned Movement of trump aligned populists and again if if you can't beat them ban them and we are now uh you know on the the last legs of democracy unless the US punches back and says hey that's not consistent with us values why are we paying why are we involved in NATO if NATO countries are going to literally ban the leading you know opposition
+
+[07:39] figures from running in the elections we need to fundamentally negotiate renegotiate or at least threaten to our involvement in nato in order to make sure that rule of law is actually sustained in these countries on the brink I I got about a minute left I want to kick it to you but here's my question if uh all the information that you have and you you are so uh uh knowledgeful on all of this stuff you've peeled back the curtain on so much of it is this literally what's happening we're seeing the curtain peeled back on the the forces behind the scene the globalists that have been trying to
+
+[08:10] lead to take over the take over the world uh push an agenda we're getting it pulled back and we're seeing that we our CIA our government has been way more involved than some Boogeyman in other countries is that basically what we're hearing and is NATO a big part of that should we pull out of it uh final thoughts to you got about seconds that's exactly right what I believe needs to happen right now is Doge the and the US state department which just inherited the USA portfolio needs to do a full and total review declassification and and publicly publish every single us rule of law or
+
+[08:48] anti-corruption program that touches any of these countries where the opposition leaders have all been arrested on completely tenuous as a very charitable way I mean it's it's I I don't know how to say it without expletives but the fact is is we need just like there was an autopsy done on so many other USA programs and so many other state department and Ned and US Institute of Peace programs everyone's talking about the judges right now at home the district court judges who are effectively more powerful than the US president if only we had elected Trump as a district court judge then you know
+
+[09:22] maybe we could actually have uh have Sovereign control over our own country but the fact is is if you if you get pierce the heart every classified document that the CIA is sitting on Elon was just met with John rackle at CIA headquarters right now every one of these rule of law programs where we touch the judges where we touch the courts where we touch the prosecutors the American people have a right to know how our own tax dollars funded the fluff judiciaries here who are absolutely devastating the the lingering remains of the legitimacy of Western democracy

@@ -1,0 +1,59 @@
+# One Attribute EVERY Christian Needs
+
+**Channel:** [[Living Waters]] (`LW`) · Chapter 1498 of 2497 · Length 13m 20s · [[00 - Channel Summary]]
+**Video ID:** `wwPzj8CrbsI`
+**URL:** https://www.youtube.com/watch?v=wwPzj8CrbsI
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 05:27
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:14|Part 2 · 10:14]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] [Music] this is a short video of a 74 year old woman who was injured and rescued from a desert in Arizona as you watch it I'm not going to say anything I'm gonna leave me to watch it alone because it's going to reveal something to you about yourself [Music] did you empathize with that woman did you feel her terror her horror did you feel as though you were in there with her that's the power of empathy to enter into somebody else's sufferings and that's what every Christian should have when it comes to the fate of the ungodly do you think about the ungodly and how if they die in their sins
+
+[02:10] they're going to be damned in hell what are you doing to warn them if you're not physically warning them please share our videos and let them do the work for you [Music] what are you studying sociology and psychology psychology the study of the human mind yes nothing about the power of the imagination how incredible it is I don't know that yet yeah well there's never been an invention without the use of the imagination you know before man had been at a car or a television set or a radio he had to imagine it or an iPhone or an iPad and to imagine it put it on paper and then make it a reality
+
+[02:55] imagination is very powerful now do you think there's an afterlife yeah I do what are you studying kinesiology that's sports medicine yes how long you have to study before you can do that um six years post high school Wow and it's human anatomy yes we're pretty well made aren't we as human beings yeah I believe so believe in God's existence yes I think there's an afterlife yes having are you gonna hit him of course why cuz I'll be normal right that's for doing right yeah and what about you yeah I believe I'm going to have it what's your religion Islam so you're trying to be a good person to
+
+[03:32] merit have a lasting life yeah what do you have to do to go to heaven um kind of kind of go here [Music] pray everybody prays and everyone believes in God that doesn't mean technically mean you going to heaven it's just like you got to do right by God you do right by God um do you want you to do spread his word so how much would you have to spread before you get to go to heaven a lot there's no amount so you got to keep doing it done enough no I have not done enough there's no such thing as enough hey see don't know if you're gonna heaven then nope a little scary yeah I know it is scary but I
+
+[04:18] guess we won't know you're familiar with a Bible story where the rich young ruler came running to Jesus and knelt down and said good master what should I do to inherit eternal life you familiar with that famous story kind of you heard of it not really so think about how would you answer that question what should I do to inherit eternal life you said you have to pray anything else read the word Lots you know um there's a lump under your arm and you think what is this is very painful so you go to the doctor and the doctor looks at he goes very sober goes away doesn't test and comes back and
+
+[04:51] says well this is a lymph node cancer metastasized it's spread throughout your whole body you've got two weeks to live I'm so sorry to tell you that this isn't a far-fetched scenario because more than 600,000 Americans will die of cancer in the next year 8.2 million worldwide so you go home and you lie on your bed and you're thinking about the future not thinking about sport you're not thinking about vocation not thinking about sex or making money you're thinking about the fact that in two weeks 14 days they're going to take you put you in a box nail the Lydon's to get six feet under the
+
+[05:25] ground and you're terrified your heart is beating in your chest just at the thought of it and for the first time you ask yourself that question with genuine sobriety what should I do to inherit eternal life you find that scenario scary if you imagine it for yourself yes and you're terrified and you're asking yourself that question what should I do to inherit eternal life how would you answer the question I'd probably just do like the best I can with you know good deeds like doing good deeds because you're stuck and been weak is weakest water and you've got drugs that are causing side effects
+
+[06:05] should dizzy you you're nauseous you don't want to be with anybody we pray let me tell you what Jesus said you accept Jesus as a prophet yes this man said what must I do to inherit eternal life and Jesus said to him why do you call me good there's none good but God I'm kind of a strange thing to say the guy was complimenting him but he said why do you call me God there's no god but God only God is morally excellent that's what good means in God's book and then he gave him the Ten Commandments so we'll go through some of them to see how you're doing on Judgment Day how many lies do you think
+
+[06:37] you've told in your life a lot for Hickam the Ten Commandments watch what they do you're a good person how many lies have you told in your life just too many to count yeah alright call someone has told a lot of lies lawyers what are you a liar I'm a liar so if you've told lies what are you called a liar if you have used God's name in vain no OMG oh yes yes that's blasphemy that's using God's name as a cuss word punishable by death and the Old Testament is that serious never stolen something um nothing big nothing just like diamond rings and things like that no just like I would say like a
+
+[07:18] candy bar from the stores um do you call people who steal things my thief so what are you chief you're not you're a lying thief stolen too all right yeah for my sister you're lying to me Anya there's other things you stole Donna Neela have you ever used God's name in vain oh maybe once yes that's called blasphemy using God's name as a cuss word would you use your mother's name as a cuss word no no dishonor her and you have taken the holy name of God that godly Jews won't even speak because it's so holy and used it in place of a fool in a filter word to express disgust that's called blasphemy
+
+[07:59] and it's punishable by death in the Old Testament one to go guys Jesus said whoever looks upon a woman to lust for her has committed adultery already with her in his heart have you ever looked at a woman with lust you homosexual no no yes what about you guys here's a summation of your little court case I'm not judging you but you both just told me that your lying thieving blasphemous adulterer is at heart you have to face God on Judgment Day if he judges you by the ten commandments we've looked at for you're gonna be innocent or guilty go see yeah we're sure it go to you you know we looked at
+
+[08:40] the subject of lust and we're talking about the imagination the Bible says in the book of Genesis God destroyed the whole earth through the Noah flood because the imagination of the heart was continually evil we can have sexual imaginations that are an abomination in the eyes of God and we share them with him because he sees our thought life he made the brain he created the mind and he sees what we think and we've stored up his rest so if God judges you on the day of judgment by the ten commandments you're going to be guilty you yes heaven or hell hell yeah what do you say what I'm trying to
+
+[09:12] share with you is God is far more harsh than an earthly judge the Bible says behold the goodness and the severity of God the reason you and I all died is because God's proclaimed upon us the death sentence the soul that sins it will die we're victims of capital punishment because our crimes are so serious in God's eyes that's why we die and after death the judgment and I'm trying to say to you you can't earn everlasting life doesn't matter what you what you do what you offer God because he's a judge and he won't be bribed he won't turn a blind eye but this is what the Bible says God is rich
+
+[09:42] in mercy and he provided a savior Jesus was the Savior given by God to take the punishment for the sin of the world you can't earn everlasting life but God can freely give it to you as a gift because of what happened on the cross Christ died for our sins he took the punishment he paid the fine that's why he said it is finished just before he died that's a weird thing to say just before you die it is finished unless you're the Son of God paying the fine for the law that you and I violated if you're in court and someone pays you fine the judge can legally let you go you can say these guys have
+
+## Part 2 · 10:14
+
+[10:14] got a stack of parking tickets and speeding tickets but someone's paid their fine guilty though they are they're out of here and you can do that which is legal well God can legally forgive your sins forgive your crimes dismiss a case commute your death sentence all because of that suffering death 2,000 years ago he took the punishment for the sin of the world rose again from the dead defeated death and now God offers everlasting life as a free gift to hold humanity that's good news for Muslims Hindus Buddhists atheists all of us want to live forever it can only come as a free gift of God so
+
+[10:46] that's what I'm telling you can't earn everlasting life by your good works it comes because God is rich and mercy kind and loving let me just finish by a quick summary you're gonna die you've sinned against God you can't justify yourself and make things right God the Creator has made things right through the death and resurrection of the Savior if you repent and trust in him God will remit your sins forgive you wash you clean create a clean heart on you and grant you the gift of everlasting life and you have his promise on earth let's think about that let that imagination run wild a little
+
+[11:18] bit and think about that scenario of lying on your bed and thinking I've got two weeks to live what should I do to inherit eternal life it's being offered to you in the gospel of Jesus Christ so please think about will you do that yes of course you have to do is repent of your sins that is where you confess and forsake them no more lying stealing pornography last fornication you come clean with God and say create in me a clean heart God please renew within me a right spirit and you will you'll be born again not because of your repentance but because of your faith in Jesus so if you turn to a
+
+[11:46] parachute because you're going to jump ten thousand feet that's not gonna save you just turning to it but if you put your trust into it you put it on that parachute will save you when you jump instead of hitting the ground 120 miles now in your face you'll land up 8 miles an hour on your feet you'd be saved do you think I'm telling the truth yes yes so what are you gonna do about it you're gonna repent and trust the Savior or carry on in your sins be damned when you die what are you gonna do I'm repaired trust in Christ yes serious about this yes okay I'll give you some literature in a few
+
+[12:21] minutes what about you what are you gonna do don't want you if I don't want to feel pressured by me this is just between a repair interesting you have a Bible huh yeah did you last read God's caught up with you today because he is not wanting that any perish but all come to repentance guys thanks for talking to me and thanks for your patience and your honesty with me I appreciate it [Music] [Applause] you [Music]

@@ -1,0 +1,50 @@
+# He Doesn't Want Ray Comfort to Talk Much Longer
+
+**Channel:** [[Living Waters]] (`LW`) · Chapter 727 of 2497 · Length 10m 08s · [[00 - Channel Summary]]
+**Video ID:** `hE1KI_rGs5M`
+**URL:** https://www.youtube.com/watch?v=hE1KI_rGs5M
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 04:21
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] me and god have a good relationship so i can say what i want and it's okay judgment day that is gonna be the day that i will celebrate and pop some champagne or something are you looking forward to getting old i'm looking forward to it uh that's out of my control you lose your good looks you lose your eyesight you lose your hearing you lose your mind everything good just goes as you get old why do we die that's the way god made us you know to die it's like the caterpillar turning into the butterfly once we die we become what we really are which is stars and a ball of energy or whatever so you
+
+[00:48] believe in god's existence yeah you can say that yeah is god happy with you or angry at you i don't really care you should no not really because he's the giver of your life he gave your eyesight your hearing your taste buds your brain everything's been given to you by god and if you want to keep that precious life you've got to be pleasing to him you don't want to be angering him because of your sins do you see yourself as a sinner no i don't believe in that concept you think there's such a thing as sin uh i think that's a made-up little rule or concept that the powerful elite came up with
+
+[01:25] let me use another word for sin evil do you think there's such a thing as evil yeah it depends on your perspective yeah if you're the if you're the one that's giving evil to another person you won't think it's evil if you're raping a woman you'll think it's fine but you'll think it's evil and so will the law there is such a thing as sin you know what the bible definition of sin is it's transgression of god's law the ten commandments do you think you've kept the ten commandments no i don't subscribe to the ten commandments can you remember any of them a few of them that's an ally kill still
+
+[02:03] well you got three real quick you had a christian background uh yeah you could say that let's go through the commandments and see if you're a good person how are you gonna do on judgment day can you handle that judgment day that is gonna be the day that i will celebrate and pop some champagne or something yeah okay how many lies have you told in your life probably over a million ever stolen something um i don't think so that's a million and one you ever taken anything that belongs to somebody else even if it's small who are you dj vlad or what so you have you're a normal human being yeah i'm
+
+[02:46] an angel that's all city city angels west side have you ever used god's name in vain i don't know what that means well using god's name as a cass word i heard you use it just a minute ago what does that mean well it's using god's name uh without due respect and the bible calls it blasphemy punishable by death in the old testament me and god have a good relationship so i can say without and it's okay now what do you think of jesus in world regards well what he said do you think it was true what did he say he said whoever looks upon a woman to lust for her has committed adultery already whether
+
+[03:28] in his heart have you ever looked at a woman with lust i mean we all do you know it's normal you had sex before marriage hey um yeah i'm not judging you but you've just told me you're a lying thieving blasphemous fornicating adulterer at heart that's four of the ten commandments if god judges you by those commandments on judgement day do you think he'll be innocent or guilty uh i wouldn't really care well you'd be guilty like the rest of us i care well that's not my belief so that's not what's going to happen so you'd be guilty like the rest of us if you're guilty on judgment day would you go
+
+[04:04] to heaven or hell i'll probably go to buff well you can't the bible says all liars live their part in the lake of fire no thief no blasphemer no adulteral and here at god's kingdom so man you're in big trouble i want to see you in heaven i don't want to see you in hell now you've had a christian background tell me what did god do for guilty sinners so we wouldn't have to end up in hell that's too heavy to think about right now um i have no idea well you just think gently about it while i share it with you it's the gospel you and i broke god's law the ten commandments jesus paid the fine
+
+[04:40] that's what happened on the cross that's why he said it is finished just before he died and if you're in court and someone pays you fine a judge can let you go even though you're guilty you can say man you're broken the law there's a stack of speeding fights but someone's paid him you're out of here and the judge can do that which is legal he'll let you go he can let you walk even though you're guilty because someone paid your fine sorry this boring this court talk is boring i know give me give me two minutes and then i'll i'll get out of you here but man i love you i care about you i don't
+
+[05:08] want you go a hell so let me just share what i was going to say even though you and i are guilty of breaking god's law he can forgive us he can grant us everlasting life he can take death off us because jesus paid the fine on the cross he took our punishment yeah and that's good for you in your world and that's what you believe that's fine and then and then he rose from the dead and defeated death and all you have to do to find everlasting life is repent and trust in jesus for your salvation man you've been incredibly patient with me you could have said go away i've had enough but you let me
+
+[05:38] finish and i really appreciate that and i hope you think about that let me just reiterate so you don't forget jesus took the punishment for the sin of the world if you repent and trust in him god will forgive your sins and let you live forever he'll take death off you and grant you everlasting life as a free gift all because he's rich in mercy and full of grace kindness you're gonna think about what we talked about i do all the time i do tons of research on religion and politics i read the bible page by page yeah well that's great most people don't read the bible even christians and they
+
+[06:15] don't know like a whole page in the bible like i read the book page by page and there's some in there now can you give me a synopsis of the whole bible in one sentence um basically it's um it's mind control i'm not saying none of that that happened didn't happen it probably did i believe it but a lot of it was made up to control certain people well religion controls people that happens in politics and religion all over the place but listen this is what the bible actually is if i may say this in the old testament god promised to destroy the power of death our greatest enemy and in the new
+
+[06:49] testament tells us how he did it through the gospel that's what god offers everlasting life as a free gift so it's not a matter of reading the bible and knowing it what what matters is do you know the author hey thanks for listening to me i really appreciate it can i give you a book i wrote called counting the days on bible prophecy and the and the pandemic you'll find it very interesting it's free no i won't read it honestly well that was interesting after the camera was turned off i got a copy of the book out and i showed him its cover and told him it was about bible prophecy again and he
+
+[07:20] took it and he said he would read it and pass it on this is our gospel track sample pack i'm going to go through it but i'm only going to look at 50 half the tracks in the pack for the sake of time this is called something to think about cute little booklet you can say hey you might like to read this got my picture on the front this is the very popular wallet tracked it has credit cards on the inside money sticking out the top when you open it up there's the gospel message uh easy to give out all you do is leave it on the ground this is the ten commandments coin it has the ten commandments on
+
+[07:57] one side and the gospel on the other very easy to give away because it has perceived value track for kids hi kids i'm albert breinstein stop following me it's a tracked on the subject of evolution are you a good person in cartoon form this is a 101 of the world's funniest one-liners if at first you don't succeed don't try skydiving it has 101 obviously very funny remember when attract for uh older people why christianity this is a whole booklet there's over a million of these in print how to be free from the fear of death this is extremely popular are you a good person in a smaller form for
+
+[08:42] smaller people here is uh oh you give someone this tract and say you might like to read this when you get around to it here's a round to it now this is the unterrible track that says if you don't need a ticket to heaven tear it up if you can and it's on unterable paper the ever popular million dollar bill tract we've sold over 60 million of this science confirms the bible you a good person for those that more studious and there are two curved illusion tracks which looks bigger the red or the blue it's an optical illusion then there's one for kids which doesn't talk about lust why does god
+
+[09:24] allow suffering tract for a pro-life message a picture is worth a thousand words are you a good person another cute little booklet the movie gift card this is so easy to give out you just say to someone you like free movies award-winning movies viewed by millions there's about a dozen free award-winning movies on fullyfreefilms.com people thank you for this and of course the ever-popular giant money hey you couldn't cash a big bill could you so these are about half the tracks in the tracked sample pack you can get from livingwaters.com

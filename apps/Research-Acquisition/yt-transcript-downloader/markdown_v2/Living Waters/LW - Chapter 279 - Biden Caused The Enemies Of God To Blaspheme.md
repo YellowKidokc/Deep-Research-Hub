@@ -1,0 +1,52 @@
+# Biden Caused The Enemies Of God To Blaspheme
+
+**Channel:** [[Living Waters]] (`LW`) · Chapter 279 of 2497 · Length 9m 35s · [[00 - Channel Summary]]
+**Video ID:** `gdVn2InVssk`
+**URL:** https://www.youtube.com/watch?v=gdVn2InVssk
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 03:41
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] we are coming on the air at this hour with breaking news President Biden has just announced that he is ending his re-election bid just he's certainly our turbulent times Trump was shot then Biden dropped out although it was just a matter of time he was saying weird things this was probably the strangest if you can be convinced that you cannot defeat Donald Trump will you stand down with defens of and with the Lord Almighty comes out and tells me that I might do that well I mean on a more practical level I mean if the Lord Almighty came out say Joe get out of the race I get out of the race the
+
+[00:31] Lord almighty's not coming down if God doesn't stop off in the Oval Office could more gaps caus Biden to think again I've been sitting in the Green Room virtual green room here at MSNBC and the Lord Almighty is actually back there uh sitting in the room and um he will not tell us anything about what's going on he's only weirdly concerned with the slump that the Yankees have been in for the last month you know you also said said that the only way you'd step down is if you were asked by Jesus himself that's right that's right I value his opinion he's my best friend from high school so wait hold
+
+[01:08] on hold on so Jesus is the only person you'll listen to not even me not even little Barry o i I just I like but Lord Lord Biden just said last night you have you're the decider you decide if he stays or goes and he's like leave me out of this okay you know want me to walk on water I can do that want me to turn a bunch of loaves of bread and fish into feeding thousands I can do that but don't ask me to get involved in this crazy election if the Lord Almighty comes down tells me that I might do that if the Lord Almighty comes down he might do that when Joe Biden said what he said he certainly
+
+[01:50] opened a can of worms and caused the enemies of God to blaspheme but fine maybe Biden's more of a a new testament guy son [Music] oh perhaps your Western gods are unable to provide the answers by the needs so you are Buddha I'm Buddha he mock the Christian faith and sort of mock Buddhism I wonder why he didn't mock Islam the Bible says do not be deceived God is Not mocked for whatever a man SWS that will he also re when the world mocks God they only do so because of their erroneous image of what they think God is like probably fueled by that silly painting of God in a pink nighty playing
+
+[02:41] touch fingers with Adam in reality he is the creator of lightning and every time we sin we store up his wrath that will be revealed on the day of judgment do you fear God no I don't I don't fear God I do respect God the Bible says the fear of God is the beginning of wisdom stay tuned until the end of this video to hear Jimmy Fallon make fun of Joe Biden but at the same time unwittingly say the most important biblical truth any of us could ever hope to hear have you ever used his name in vain yes do you love your mom I do would you ever use her name as a cuss word no of course not cuz you
+
+[03:20] respect her yes you don't respect the god that gave you a mother You' have taken His holy name and used it in place of a c word Cur that's called Blast me very serious God's eyes so what's going to happen to you when you die you might see some something white as soon as you see that white spec I think someone just grab your hand and pull you into heaven that's right where didd you get this from I feel like I got it from a cartoon maybe this is what the Bible says it's appointed a man wants to die death is an appointment we get out of dentist appointments and doctor's appointments we'll never
+
+[03:51] get out of this one it's appointed a man wants to die and after this the Judgment so how you going to do on Judgment Day you are you a good person I think I'm a good person yeah how many lies have you told in your life uh many what do you call someone who's told many lies liar so what are you liar still think you're a good person yes ever stolen something even if it's small in your whole life yes I guess I'm not a good person then you're a lying Thief yes I guess I'm a lying Thief seventh commandment you shall not commit adultery have you ever committed adultery no Jesus said if you look at a
+
+[04:24] woman and Lust For Her you commit adultery with her in your heart right have you ever looked at a woman with lust yes he had sex before marriage yes it's called fornication so here's a quick summation of your court case on Judgment Day Kyrie you've just told me that you're a liar a blasphemer a fornicator and an adulterer at heart and you're self-righteous which is a sin and saying you're a good person when you're not you're like the rest of us so if God judges You by those Ten Commandments on Judgment day you're going to be innocent or guilty I'd be guilty heaven or hell I guess that would
+
+[04:57] be hell or purgatory there's no such thing as Purgatory it's not in the Bible have you heard the Bible verse the wages of sin is death yes it's saying God is paying you in death for your sins like a judge who looks at a criminal who says I'm a good person but he's committed murder the judge says I'm going to show you how serious your crime is I'm giving you the death sentence this is your wages this is what you've earned and Kyrie's sin is so serious to a holy God he's given you the death sentence you're on death row and your death will be evidence to you that that God is deadly serious about
+
+[05:29] sin and you've earned your wages right so if God judges You by The Ten Commandments we've looked at four on judgment day you're going to be innocent or guilty I think I'm be guilty that's a lot of Old Testament stuff right that's that's not that defeats the purpose of jesus' death doesn't it he's already paid the price for our sins well this is what Jesus said he said this is New Testament fear not him who is power to kill your body and do no more but fear Him who has power to kill your body and destroy your soul and hell he said if if your eye causes you to sin pluck it out and cast it from
+
+[06:02] you for it's better to enter Heaven without an eye than go to hell with both your eyes where the fire is never quenched and the worm Never Dies New Testament Jesus spoke more of Hell than he did of heaven and Kyrie I'm horrified at the thought of you ending up in hell I love you man I don't want you to go there now tell me it seems that you know what did God do for guilty Sinners so they wouldn't have to go to hell he gave his son Jesus Christ to to uh die for our sins yeah now most people especially in America know that but Kylie if you can get a grip of what I'm going to say it's going to
+
+[06:35] change everything for you so don't let anything distract you okay the Ten Commandments are called the moral law you and I broke the law Jesus Paid the fine Jason if you're in court and you've got speeding fines the judge will let you go if someone pays those fines if you plead guilty and say judge someone's paid my fine you say well you can leave because your Fine's paid by another when Jesus was on the cross he cried out it is finished in other words the debt has been paid he paid our fine that means we can leave God's courtroom on Judgment Day God can legally let us live forever Just as a
+
+[07:08] judge can legally let you go if someone pays the fine you rose from the dead defeated death and if you'll simply repent of your sins and you'll never do that while you think you're a good person turn from sin don't play the hypocrite and then trust in Jesus like you trust a parachute God promises and he cannot lie he'll Grant you everlasting life as a free gift not because you're good but because he's good and kind and Rich and Mercy if you're going to jump out of a plane 10,000 ft why would you put on a parachute the plane is going down might need something to you don't want to yeah you
+
+[07:37] don't want to die and your motivation is fear and that fear is your friend not your enemy because it's making you put on a parachute I've tried to put the fear of God on you today I'll try to make you sweat a little hoping you'll see that fear as your friend not your enemy because it'll make you serious with the god that gave you life is this making sense yes it makes sense yeah he gives you everlasting life not because you're good you don't earn it because he's good and kind and Rich and mercy it's called Amazing Grace by Believers God's amazing wonderful Mercy that he extends to us because
+
+[08:06] of his kindness you want to think about what we talked about I will definitely well you think about it with a sense of urgency cuz you don't know when you're going to die every year 54 million people die 54 million every year and everyone's making plans for tomorrow and thinking that death happens to old people but it snatches us into eternity and there's no second chance so so please think about it with that sense of seriousness will you do that yes I'll do that you say your father's a pastor yes and you're listening today because of his prayers H can I give you a book I've written called
+
+[08:39] scientific facts in the Bible okay so this will be great check out interesting you think you read it yeah I think I read it I'll read it before bedtime if the Lord Almighty came out said Joe get out of the race I get out of the race the Lord Almighty is not coming down Democrats are like we're less worried about God coming down to see you and more worried about you going up to see him Living Waters exists as a nonprofit Ministry to help you grow in your faith here are three things to help you do just that the Living Waters podcast the evidence Study Bible everything you've ever wanted to know
+
+[09:17] about the Christian faith and the starter kit four of our most popular gospel tracks these and much more are available at livingwaters.com have you seen our video atheist demands this from God and it's granted you're going to love it you can watch it right now by clicking on the top video

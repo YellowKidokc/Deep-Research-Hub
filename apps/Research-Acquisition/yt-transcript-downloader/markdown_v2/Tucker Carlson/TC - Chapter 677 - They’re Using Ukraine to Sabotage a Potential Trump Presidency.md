@@ -1,0 +1,43 @@
+# They’re Using Ukraine to Sabotage a Potential Trump Presidency
+
+**Channel:** [[Tucker Carlson]] (`TC`) · Chapter 677 of 990 · Length 6m 39s · [[00 - Channel Summary]]
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] (https://www.youtube.com/watch?v=xV_odrMEKsg&t=0s) It became very clear to anyone paying attention several months ago that Ukraine cannot win its war against Russia. The Ukrainian military will not be able, even with Western backing, hundreds of billions of dollars of it to expel the Russian military from parts of eastern. Ukraine doesn't have the industrial capacity, neither does NATO or the United States, and it doesn't have the people. Russia has 100 million more in population than Ukraine does.
+
+[00:32] And that means that further support from the West for the Ukrainian military only means more dead. (https://www.youtube.com/watch?v=xV_odrMEKsg&t=32s) Ukrainians. And a further degraded Western economy in the U.S. And in Germany, particularly so. It's not simply a fool's errand, it's selfdestruction, it's insane, it's cruel, it's abetting the killing of an entire generation of Ukrainians. This is very obvious. No honest person at this point will deny it.
+
+[01:02] And yet, somehow, the United States Senate, which is always several years behind reality in its perceptions, just a few weeks ago decided to send another $60 billion to the Ukrainian government, which is both corrupt and authoritarian. (https://www.youtube.com/watch?v=xV_odrMEKsg&t=62s) They've canceled elections, they banned an entire Christian denomination, and then they killed an American journalist for noting any of this. And yet the United States Senate proposed under Mitch McConnell a plan to send another $60 billion to Ukraine.
+
+[01:30] Well, imagine the surprise of all rational people around the world to wake up this morning and discover this could actually happen. And so with that in mind, we thought, it' be worth talking to one of the very few Republican senators who's bothered to make the counter case. (https://www.youtube.com/watch?v=xV_odrMEKsg&t=90s) And that would be J.D. Vance of Ohio, who joins us now from the United States. Senator, thanks so much for coming on. If you wouldn't mind telling us where this legislation is right now, what you expect to happen and what you think should happen. Yeah, Tucker.
+
+[01:56] So there are two big things that will happen here. So tonight we will clear a major procedural vote or we won't. So this is really the best opportunity tonight to kill this. (https://www.youtube.com/watch?v=xV_odrMEKsg&t=116s) Legislation encourage everybody to do everything that they can contact every everyone they can to ensure that we actually do kill the legislation. It is very close. The Democrats have banded together with 17 Republicans, we only need eight of those Republicans to flip their vote to kill this thing. And I think that we'll get at least one who will in fact flip their vote.
+
+[02:21] So that's where it sits in the Senate. The second thing, and frankly, the best opportunity we have to kill this is in the House, and that's part of what I'm trying to do. (https://www.youtube.com/watch?v=xV_odrMEKsg&t=141s) Is notify people about how bad this legislation is so that after it clears the Senate. If it does, then it goes to the House and the House has a real opportunity to at least make it better, but hopefully kill it. And I want to say just a couple of things here. TUCKER That are extremely important to know about this legislation.
+
+[02:48] Number one is that it sends $61 billion to Ukraine to fund. As you said, a hopeless war in eastern Europe that will decimate the Ukrainian population even more than it's already been decimated. (https://www.youtube.com/watch?v=xV_odrMEKsg&t=168s) So it's a terrible piece of legislation on the policy. The second thing I want to say Tucker, though, is that it doesn't just fund Ukraine in 2024, and this is the most important point. It actually funds Ukraine in 25 and 26. Now what's the problem with that? Say, for example, that we have a new president in 2025?
+
+[03:18] That president would be handcuffed by the promises that we are making in law to Ukraine today. If you go back to 2019, Tucker to try to give you a sense of why this matters. (https://www.youtube.com/watch?v=xV_odrMEKsg&t=198s) In 2019, the U.S. House impeached then President Donald Trump on the theory that they had appropriated money to Ukraine. And Donald Trump refused to send it to Ukraine. So if Trump is elected president again and become president on January of 2025, he will conduct diplomacy.
+
+[03:52] And if that diplomacy does not include sending additional billions to Ukraine, there is a theoretical argument. A predicate, if you will, for impeaching Donald Trump because they have tried to tied his hands. (https://www.youtube.com/watch?v=xV_odrMEKsg&t=232s) And the final point I'll make on this Tucker is that. The Washington Post has already has already said, based on leaks from inside the Intel community, the purpose of this legislation is to tie a future President Trump's hands.
+
+[04:21] We're not just sending billions to Ukraine in 2024, we're trying to make it impossible for the next president to conduct diplomacy on his terms. It's antidemocratic, and it will lead to endless war in the all over the world. So I, the political calculation behind this seems incredibly dark so does the humanitarian effect. (https://www.youtube.com/watch?v=xV_odrMEKsg&t=261s) I noticed that no one on Capitol Hill seems interested in finding out how many have died in this war. Reliable estimates in the area these are not partisan are that about 400,000 Ukrainians have died.
+
+[04:48] That's about as many Americans as died in the entire Second World War over the entire duration. And it's, of course, a much smaller country. So how do Senators, Republican senators get away with saying, We're doing this on behalf of the Ukrainian people on behalf of democracy? (https://www.youtube.com/watch?v=xV_odrMEKsg&t=288s) When it's destroying an entire generation and it's not a democracy, like, what's the thinking here? Well, Tucker, They bought into the propaganda that what is in the best interest of Ukraine is to prolong this war. And so Zalinsky comes to Washington.
+
+[05:14] You know, he's tougher than a lot of them are, and I think they get, you know, a little bit of excitement from that. And Zalinski tells them a story that his war is in the best interest of the whole of Ukraine now. (https://www.youtube.com/watch?v=xV_odrMEKsg&t=314s) Never mind that there are people within Ukraine protesting the draft. Never mind that the average age of a soldier there is pushing 45 years old. And never mind that the 650,000 wealthiest Ukrainians left the country at the beginning of the war, they didn't stay in fight.
+
+[05:42] So the idea that this is unanimously supported by the Ukrainian population is, of course, preposterous and absurd. No one believes it, but here's Here's the really crazy. And I and I think ultimately the very cynical thing that's going on Tucker is that everyone knows that this war will lead to the destruction of Ukraine. (https://www.youtube.com/watch?v=xV_odrMEKsg&t=342s) I've had conversations with Democratic colleagues where they get this sort of dark look in their eyes. And they say effectively that they want to fight Russia to the last Ukrainian drop of blood.
+
+[06:11] I think if you really ask these guys, they recognize that this is not in the best interest of Ukraine. This is fundamentally in the interests of military contractors and people who think that America's most pressing challenge is to defeat the Russians. (https://www.youtube.com/watch?v=xV_odrMEKsg&t=371s) Of course, that's not a preoccupation that I share. I don't think Russia should have invaded Tucker, but I also think that we got to be much more focused on more pressing problems like the demographic collapse of the United States, like the Open Borders and like, what's going on in East Asia?
+
+[06:37] So it's a massive campaign. Tucker to distract people from the real problems in the world and the real problems that exist in this country. And underlying at all, as you just said is, is an impulse, that's that's indefensible, and I think deeply immoral. (https://www.youtube.com/watch?v=xV_odrMEKsg&t=397s) So I'm so grateful for you having the courage to talk about this in public. And I and I hope common sense and your position prevails. SENATOR J. VANCE OF Ohio Thank you, Free speech is bigger than any one person or any one organization. Societies are def by what they will not permit. What we're watching is the total inversion of virtue.

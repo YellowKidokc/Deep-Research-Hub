@@ -1,0 +1,63 @@
+# A.I. Pushing ANTI-Christian Agenda
+
+**Channel:** [[Answers in Genesis]] (`AIG`) · Chapter 51 of 1947 · Length 10m 11s · [[00 - Channel Summary]]
+**Video ID:** `tjxN0atH_cQ`
+**URL:** https://www.youtube.com/watch?v=tjxN0atH_cQ
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 05:40
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:03|Part 2 · 10:03]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] the Christian belief is that Jesus is not the creator of the world chat GPT chat GPT chat GPT lots of people have been checking out this brand new tool and it doesn't always align with the Bible and that's a problem especially for anyone looking to chat GPT for an answer to very important questions right and there's a lot of people asking questions of this new open AI this chat to GPT we're talking like a hundred million users in just two months after launch according to Reuters so what is chat GPT well it's a new artificial intelligence or AI enabled chat box so Investopedia and yes that's a
+
+[00:31] real thing Investopedia tells us a chatbot is a computer program that simulates human conversation through voice commands and text chats or both you've probably seen them on websites before so chat GPT is similar to other chat Bots accept its own steroids and can generate new content which is pretty amazing if you think about it ever since it's November 2022 release the internet has been buzzing with interest almost as much as AI itself and so chat GPT is a whatever instead of me telling you let's ask chat GPT see what chat GPT is are you I am chat GPT a language model developed by openai I
+
+[01:06] am designed to assist users in generating human-like responses to their questions and conversations based on my training from vast amounts of text Data I can provide information answer questions and engage in discussions on a wide range of topics how may I assist you today there you go straight from the horse's mouth and there are many ways you could use chat GPT you could answer questions you could write songs you can actually do a write a rap I saw someone do a wrap from job on this pretty interesting fix computer code and even compose term paper so you can write papers for school which is
+
+[01:31] why some schools already don't like chat GPT and according to CNET it scored a 70 on the bar exam for lawyers which is pretty impressive so I guess you could pass the bar with chat GPT now still bear in mind it was 70 and not a hundred percent so you can tell it's fallible and we'll get more to that later on but still not too bad for a bot especially with some law school graduates fail the bar so it's pretty robust it's a pretty powerful tool but there are problems with this tool as there are problems with really any tool and so there are really two major problems Christians should be aware
+
+[02:03] of as a used chat GPT the first issue is that it's woke on social issues it's very biased towards a left-leaning ideology on these social issues and that's demonstratable analytics from research David Rosado exposed the political bias of chat GPT and 14 out of 15 of the tests chat GPT displays a liberal or far left bias since responses that means in the areas that touch on political issues right which often intersects with social issues chat GPT showed where its loyalties really lied and that is wokeness so for example let's ask chat GPT this question what is abortion abortion refers to the
+
+[02:40] medical procedure of intentionally ending a pregnancy before the fetus can survive outside the womb there are various methods of abortion including medication-induced abortion and surgical abortion the legality and availability of abortion vary widely between countries and it remains a highly controversial and sensitive issue with debate centered around issues such as Reproductive Rights Women's Health and the moral status of the fetus so you can tell that it gives you a very secular definition of what abortion is based on the secular programming we'll get to that later on and it also wants
+
+[03:05] to say that the entity in the mother's womb is a fetus and not a baby so let's ask it what is a fetus a fetus is the term used to describe the developing human organism from the ninth week of pregnancy until birth during this stage the organs and systems of the body continue to grow and mature and the fetus becomes more and more recognizable as a human being in the early stages of development the fetus is known as an embryo and it is not until around the ninth week of pregnancy that it is considered a fetus during this time the fetus is fully formed and has distinct features such as fingers
+
+[03:34] and toes and it is able to move and respond to stimuli so wait what just happened you see according to the Bible every human being is made in God's image from fertilization but according to chat GPT and it's very sanitized minimalist designed interface it looks very clean and Sleek it just dehumanized every unborn human being and that may be the opinion of the political left on social issues but that's not an opinion steep and biblical truth if you're looking for an unbiased perspective on social issues or political matters as a Christian chat GPT should not be your go-to source and really
+
+[04:07] social Wilderness is something to be aware of no matter where you interact with technology and because it's literally everywhere so now that we know there's a baked in left-leaning ideology with the social issues in chat GPT maybe they're really more fair on biblical issues for example let's ask it this question how old is the earth how old yes see Earth the estimated age of the Earth is around 4.54 billion years this age is determined through various scientific methods including radiometric dating of rocks and minerals studying the Decay rates of certain elements and analyzing the
+
+[04:37] composition of meteorites the process of determining the age of the Earth is complex and involves a combination of different dating techniques it is widely accepted by the scientific community that the Earth has existed for billions of years and that the study of the planet's history and development has been critical in advancing our understanding of the natural world so according to chat GPT the Earth is roughly four and a half billion years old which is a very popular circular viewpoint but not in line with clear biblical truth and that being said not in line with reality rightly understood
+
+[05:01] and you'll notice that chat GPT didn't acknowledge any dissenting viewpoints none at all I disagree with the mainstream scientific opinions notice too they didn't connect the answer to biblical text it automatically dismissed the biblical text therefore it's not being neutral guys the bible really is clear we've got great articles on our website for this that dearth was created in six literal days about 6 000 years ago as we understand from The Book of Genesis and real science confirms that by the way in many powerful ways chat GPT on the other hand primarily appeal to Scientific consensus or
+
+[05:29] methodologies which are rooted in secular assumptions and are not neutral as they reject the Bible so chat GPT is very much an old Earth chat bot and not much of a Biblical creationist it doesn't even address at all the unprovable secular assumptions driving their wrong interpretations when they look at things like radiometric dating or distant Starlight or stuff like that so let's try this again new question is Jesus our creator is Jesus our Creator the Christian belief is that Jesus is not the creator of the world but rather Jesus is considered the Son of God and part of the Holy Trinity
+
+[06:02] along with God the father and the Holy Spirit according to Christian theology God is the creator of the world and Jesus is believed to have been sent by God to Earth to teach and save Humanity in the Christian tradition Jesus is also seen as the savior of humanity and is believed to have died on the cross to atone for Humanity's sins and to offer salvation to those who believe in him this belief is a central tenet of Christianity and is a source of comfort and guidance for many Christians around the world oops chat GPT failed again so instead of acknowledging Jesus as a Creator which he is AI
+
+[06:25] chat sounds more like the heretic areas the Bible says this about Jesus all things are made through him and without him was not anything made that was made John 1 3 now scripture is clear Jesus is the creator of the universe but chat GPT doesn't think so why because it's biased so why is there a bias and the answer is given by chat GPT the answer is that data set it uses to compile the answers when CNBC asked the question what back-end data was used to answer queries here's what they said open AI doesn't reveal specific data that you use to train well we do know that it's a ton it surfs the
+
+[07:01] web spools all that internet data they do Wikipedia entries a lot of archived books so that was really vague it just comes from the internet so it must be true I don't know about that so whatever data chat GPT does use it's biased by the underlying content and that content ultimately was written by humans so what seems like a neutral interface is really a summary of previously written content bipartisan humans it looks unbiased and neutral guys it's not instead in reality it's a compilation of data that's very much left-leaning and anti-biblical your information is only as good as its source
+
+[07:35] in this case the source are humans with a left-leaning ideology and before you go away thinking there's nothing good about chat GPT I think there are some commendable aspects to this new technology imagine the positive possibilities of this tool in a recent article make use of.com Maxwell Timothy refers to several possible uses of chat GPT that's nothing to do with leftist politics or theological heresy are some of the capabilities of this new tool they're right to customize resume and cover letter which could be handy explains complex topics in a simple to understand fashion which could also
+
+[08:04] be helpful it writes songs or translates your original song on multiple into multiple different languages there are so many possible positive applications of this new tool that can make life much easier like any new technology and so think automobiles satellites smartphones though there's inherent dangers that come with technology there's also inherent gains just depends on how they're used technological advancements are a form of fulfilling the Dominion mandate is the actor God created people he tasks them with things to do namely to Steward God's creation we read Genesis 1 28 and God bless
+
+[08:34] them and God said to them be fruitful multiply and fill the Earth and subdue it and have dominion over the fish of the sea over the birds of the heavens over every living thing that moves on the earth and then also chat GPT is another technology that demonstrates the Ingenuity of people who are made in the image of the Living God share their issues and concerns no doubt about that but it's a pretty interesting technology T that shows people can build an artificial intelligence that could benefit humanity and by the way think about how much intelligence it took to build this artificial AI how
+
+[09:03] much more to make something like human beings if this AI is designed human beings are designed by their creator and so news flash like everything else online you must practice discernment if what you're reading is not in line with God's word then you throw it out in the garbage where it belongs God's word is our Authority because if you trust the source other than God then we're taken ultimately the words of Fallen flawed humans and we're elevating those over the word of the Living God and God is always the authority so whether you're looking at Google search result or an AI generated
+
+[09:34] response to a theological question you must compare the response to what is clearly revealed in God's word in scripture don't let technology fool you it's not God there's one God and it's not it never divorce your thinking from the Bible and if you don't practice discernment and you're listening to chat GPT you may start thinking that Jesus wasn't the Creator or unborn babies aren't real people and who knows what else is hiding inside chat GPT code beware so if you want another example of how wokeness has infiltrated big Tech check out this episode of answers news right here now guys until
+
+## Part 2 · 10:03
+
+[10:03] next time keep sending God's word defending the faith and proclaiming the good news of Jesus Christ

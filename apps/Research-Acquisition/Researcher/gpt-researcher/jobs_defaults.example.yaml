@@ -3,9 +3,12 @@
 #
 # query:             the question (required, per job)
 # chapter:           AX_GI_01 .. AX_GI_20 (optional; also names the ledger)
-# job_type:          standard | fork_map | cold_derive | prior_art | hybrid_rule  (standard and fork_map are built)
+# job_type:          standard | fork_map | cold_derive | prior_art | hybrid_rule | bias_probe
+#                      (standard, fork_map and bias_probe are built)
 #                      fork_map = the visible pipeline (drh_pipeline.py): premise audit -> neutral cast ->
 #                      triage -> verbatim passages -> fork map -> report from passages. Web only.
+#                      bias_probe = pre-registered prediction hashed before any model call, subject run
+#                      cold through two models, judge diff, reveal (docs/BIAS_PROBE_v0.1.md). No search.
 # report_source:     web | local | hybrid
 # report_type:       research_report | detailed_report | resource_report | outline_report
 # doc_path:          local folder, for local / hybrid
@@ -19,6 +22,8 @@
 # timeout_minutes:   a job still running after this is stopped and marked failed (default 60)
 # pipeline:          fork_map settings, e.g. {max_results_per_query: 8, max_keep: 20, triage_batch: 30,
 #                      window_chars: 12000, windows_per_page: 3, max_quotes: 6, recast: true}
+# bias_probe:        bias_probe settings: {prediction_path: <json file, relative to hub root or absolute>,
+#                      model_a: provider:model, model_b: provider:model, judge_model: provider:model-or-blank}
 
 job_type: standard
 report_source: web

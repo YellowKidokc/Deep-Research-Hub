@@ -1,0 +1,50 @@
+# Crazy Stuff Is About To Come In This Bull Market | Raoul Pal
+
+**Channel:** [[Only The SAVVY]] (`OTS`) · Chapter 29 of 514 · Length 10m 18s · [[00 - Channel Summary]]
+**Video ID:** `3D1hnzrl71Q`
+**URL:** https://www.youtube.com/watch?v=3D1hnzrl71Q
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 01:08
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] and in the end attention is Upstream of everything every business we're in what we're doing now is capturing attention on YouTube and that becomes a business attention is what Google Facebook X everything has been built on everything is now based on attention so I get it now that even investing is just based on attention because before Google were monetizing our attention so we put this on YouTube they serve the ads you get a small fraction you don't make much money from the ads well they make a lot of money and then over time you're seeing that people are saying well if I can capture
+
+[00:42] attention I can get the direct benefit and we can participate in in Mass attention by tokens it's actually it's very interesting it's the start of something bigger but it's only the start in this recent video conversation with Scott melker from The Wolf of all streets R Paul expresses a positive outlook on the cryptocurrency market diving into the concept of the banana Zone he believes the crypto Market is showing explosive growth particularly in Q4 of this year and into the next pal sees layer one blockchain projects as potentially experiencing significant gains similar to Solana's
+
+[01:18] performance in the previous cycle at the time of this discussion Bitcoin is around $64,000 with under a 1% decrease in the last 24 hours and 2% decrease in the last 7 Days Bitcoin is still showing a 47% increase year-to date with 19.71% people is you've got to understand what this space is about blockchain Technologies and new technology lay over the Internet of which there's a bunch of decentralized businesses that sell block space and they all have a different angle of why to buy their block space Bitcoin is we're the most secure we can be used as money or a reserve asset ethereums hey
+
+[02:19] anybody can build on us we're like this big open Computing network salana is like yeah we can do that too but we're kind of super fast and super cheap everyone's just selling blocks and they have a different story to tell to attract people and that's all that's really going on here people turn it into some fight over money that's Bitcoin story but it's not the whole industry story what is this all about attention what are elections all about attention who what's got a lot of attention cryptocurrency and it also happens to have a lot of money because it's based on this participation in this
+
+[02:53] ecosystem via the tokens and therefore there's no way that they go to an election and try and alienate 50 million people I mean that's dumb so I guess they finally understood because Trump showed it round it down their throat I think the Democrats figured out that there are many single-issue voters because we're all financially incentivized to participate in this ecosystem that if you're going to vote against me you're voting against me and my future wealth or My Future Self and so that is a big thing people vote with their pocketbooks I mean that's the oldest thing in in politics and I think
+
+[03:34] suddenly they realized that this was not the right way forward to allow it to go to Donald Trump as a single-issue votee that would be a landslide loss because all the marginal seats would get lost so now they need to take it out neutralize it which is great for us L you know don't hang on to that stuff because that's the narrative you're left with doesn't mean they're terrible things but look attention flows to the shiny thing attention flows where more people are um now can we have one of those altcoin Seasons yes but there's more of them so you're splitting that attention and that Capital
+
+[04:09] amongst more projects because every cycle you leave a bunch behind like EOS didn't run last cycle really you know stuff gets left behind so you have to be really careful which is why I I say just don't play that game don't play the value Trap game which is oh my God that's still down and last time it was so strong I need to own that it's like it's actually a bull market to just own the strong thing because that goes up a lot because it actually is like a super massive black hole of attention and the more attention more number go up less attention less so so unless a huge narrative shift
+
+[04:46] happens to Matic this this is not going to get the attention that Salam is going to get or ethereum or Bitcoin or whatever as we just heard ra pal talk about attention and attention around cryptocurrency during an election year let's dive deeper into his thoughts on Market cycles and investment strategies R pal highlights the importance of focusing on strong performers rather than holding on to underperforming assets from previous Cycles He suggests using salana as a benchmark for comparing other cryptocurrencies performance R also touches on the emerging trend of meme coins discussing the
+
+[05:24] differences between pure memes and those that attempt to add utility let's hear more from R Paul as he discusses the banana zone of course it's like the N nfts last time around you know what you've got is excess saturation of Supply building doesn't mean you won't have breakouts doesn't mean you won't have kind of a king of memes that uh survives all of this um we saw that with nfts but what it is is a total grab going on now anybody and any and everybody is launching a token to see if they can make some money and all they're doing is destroying their own market so the returns of these things
+
+[06:02] go down over time apart from the ones that actually break out what they're going to be who the hell knows you know again we'll find out once we go to the once we get to the banana Zone we'll really see yeah exactly and we've seen that over the last couple of weeks right they just Plum it like a stone because you know it's it's very emotion driven if people are seeing the layer ones chopping consolidating a few sell-offs here and there they kind of panic out of the meme stuff so you know you can really see where the risk curve is but when the banana Zone comes people will just go way too far
+
+[06:39] out the risk curve and we'll see some really crazy stuff happening then the election cycle in crypto now we only have you know four of these but they tend to do the same thing which was early summer into this June period they tend to chop and fall then it tends to just go up uh and there'll be you know a couple Corrections on Route so it should just keep going up again with volatility so that's why I put out that tweet about salana feels like the low is in who knows whether I'm right or not it feels like the low is in sentiment was awful I think the chances are that um it just continues to
+
+[07:16] rise now and then really accelerates as we get into the election you're back as we conclude hearing R pal views he emphasize the importance of not missing out on the potential banana Zone by making poor investment choices he stresses the need to focus on assets showing relative strength and to be cautious of holding on to underperforming Investments simply due to past performance we would love to hear your thoughts do you agree with the concept of the banana Zone and its potential impact on crypto markets do you agree that increased attention is crucial for faster adoption in the crypto
+
+[07:49] industry we believe that in the crypto blockchain and web3 space our Collective goal is to increase attention and drive adoption by sharing valuable insights and educational content we aim to contribute to the growth and understanding of this Innovative industry thank you for tuning in to the only The Savvy Channel if you found value in this discussion Please Subscribe like and share our video your support helps us continue providing engaging content that explores the dynamic world of cryptocurrency and blockchain Technology we don't know but ju just don't fight with one hand behind your back
+
+[08:27] don't try and prove a point to the market that's not your job your job is to make as much money as possible out of this technological transformation you know if this space is going from2 and a half trillion dollar to hundred trillion doar which is I think it's doing your job is to not that up and people try really hard to it up either too much leverage so then they're taken out they go too far out the risk curve with too much of their capital and then they blow up or they get stuck in stuff that is not moving because they're not just trying to participate in the in the bigger part of the
+
+[09:03] growth which is usually in the larger projects so you know you we're trying to get from Two and a Half trillion to 100 trillion you need to stay that ride and not end up looking back and realizing you've made no money from it and and that trick is just look at the charts relative to each other you know I'm gonna start doing that it's really useful because then it stops you building your own narrative around well you know this token is definitely going to be the won then you look at it versus Sal it's down 99.9% you're like okay I'm trying to kid myself because you're looking for this chart
+
+[09:36] breakout on the hourly chart hoping it's going to base here it's like don't do that please just buy the strongest assets I tried in the previous cycle to buy a whole bunch of stuff that didn't work either um because half of these were dead the stuff I owned I nobody even knows what they are and I just read the descriptor on you know coin gecko or something yeah that sounds cool dumb we've all done all of the dumb and really I should have just you know just concentrating the right things [Applause]

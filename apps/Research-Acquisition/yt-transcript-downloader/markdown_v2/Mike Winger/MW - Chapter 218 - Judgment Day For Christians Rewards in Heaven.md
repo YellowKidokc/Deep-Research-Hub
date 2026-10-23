@@ -1,0 +1,54 @@
+# Judgment Day For Christians: Rewards in Heaven
+
+**Channel:** [[Mike Winger]] (`MW`) · Chapter 218 of 429 · Length 10m 05s · [[00 - Channel Summary]]
+**Video ID:** `bHljW9cfjNA`
+**URL:** https://www.youtube.com/watch?v=bHljW9cfjNA
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 04:12
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:01|Part 1 · 00:01]]
+
+---
+
+## Part 1 · 00:01
+
+[00:01] [Music] today we're going to look at uh the Judgment the Believers go through so let me first read to you how my sin was judged in John 12 31-33 John 12 31-33 says now is the Judgment of this world Jesus speaking now is the Judgment of this world now the ruler of this world will be cast out and I if I am lifted up from the earth will draw All Peoples to myself this he said signifying by what death he would die and so the world the the Judgment of the world took place on the cross and for those who choose to accept Christ the Judgment for punishment is already dealt with on the cross but there
+
+[00:38] is still a future Judgment of Believers separate from the Judgment of non-believers we read about at the end of the Millennium when they're resurrected for judgment there is a certain kind of judgment for that please turn to 1 Corinthians chapter 3 and let's read about it 1 Corinthians CH 3:
+
+[01:13] 10- 15 this is the the Judgment of Believers and this is are the works are being judged notice what's being judged here it's not um it's it's not me to see whether I'm saved or not but rather my works to see which of my Works will be the good works will be carried into heaven so let's look at this verse verse 10 according to the grace of God which was given to me as a wise master builder I have laid the foundation and another Builds on it but let each one take heed how he builds on it the foundation here is the gospel of Christ but then the how you build is what you build after Sal after
+
+[01:33] you're saved so it's the growing in grace and the growing in the knowledge of God growing in our obedience to Christ those types of things for no other Foundation can anyone lay than that which is laid which is Jesus Christ okay so if you're not saved by Jesus you have no Foundation right you're built on the sand not on the rock verse 12 now if anyone Builds on this Foundation how we live post salvation with gold silver precious stones wood hay straw each one's work will become clear for the day will declare it the day speaking of judgment because it will be revealed by fire and the fire will
+
+[02:06] test each one's work of what sort it is if anyone's work which he has built on it endures he will receive a reward if anyone's work is burned he will suffer loss but he himself will be saved yet so as through fire so what's being tested here are the works themselves and if you'll look let's kind of back up just a little bit verse 12 if anyone Builds on this found with gold silver precious stones wood hay straw each one's work will become clear for the day we'll declare it now the gold hay these are all just different sort of qualities of how you live your Christian Life the types of ministry
+
+[02:42] you engage in whether that's at home I mean I think everything should be Ministry to a Christian not just what you do in church but rather your your marriage is a Ministry it is a primary Ministry your your singleness is a Ministry I mean read 1 Corinthians 7 singleness should be there to give you more opportunity to serve serve God not more opportunity to like surf singles dating sites I mean the purpose here is serving the lord Jesus with more of your time than you can as a married individual um and I I really remember the time before I was married as this wonderful awesome time of just I
+
+[03:14] could I could serve the Lord like every night of the week nobody I wasn't abandoning my family to do it I'm single you know you get married you take on a new ministry now in to as unto the Lord I need to minister to my wife we need to have a date night that's a Ministry I mean how I how I build into this relationship between me and my spouse as as like Christ and his church that's a Ministry that'll be tested one day you see that and then also the high school Ministry well that's a Ministry I will stand before the Lord and that ministry will be tested and I will get to see whether or not I
+
+[03:45] even what my motives were um how how I did it like was it with man's Wisdom or with God's wisdom I will get to see with my faithfulness or just basically wood haste stubble or was it gold and precious stones whatever is that you do whether it's work or whatever you do it all unto unto the Lord Jesus Christ and then that'll be tested and you'll get to find out now what happens if the works are considered good God goes ah that was beautiful that was wonderful we receive a reward it says here in verse 14 if your work end doers you receive a reward so it goes through the fire fire in this sense
+
+[04:22] purifies right burns up the stuff that doesn't belong so my Works tested I receive re rewards what are those rewards exactly Mike I don't know but that's cool you I don't feel like I need that I'm like Lord I just want to I just want to serve Jesus I just want to follow you I first found out that there was rewards I was almost bothered by it I was like oh I don't really I I feel like it makes it like less H like like it makes it less good of what I'm doing you know it's but the thing is I'm not really doing it for rewards to be honest but if God chooses he wants to reward us then praise His
+
+[04:58] name that's what wonderful Maybe it's just so we can cast those crowns before the Lord that's I'm looking forward to that then Lord I want to I just want to give it all to you I don't think it's for some sense of pomp or Pride or something like that U but rather God just he chooses to reward us now what happens if the ministry that I did in my life whether it's at work home uh church friends whatever it is if that Ministry was done somehow wrong the ministry in my own life where my own character this your character is eternal you take it with you into heaven right who you are what if what I
+
+[05:30] built into me was was I I let the lust of the flesh anger and pride and and selfishness and whatever you name it I let that become dominant in my life what then well that will be burned up and I will suffer loss the loss of what the loss of what the potential of what I could have done for the Lord and how I could have walked for him and how I mean really every day is 24 hours of opportunity that disappears and is gone forever but what I did that day will be remembered and then I'll cash in on it so to speak in eternity what's that going to be like exactly I don't know but I do know this
+
+[06:06] either it will last or it will be burned up but notice this we will not all have identical experiences in this it's Unique to the person I don't think that our our experiences in heaven is like a perfect static even experience where we all experience exactly identically the same thing for all eternity um that'd be fine if that's what God did but that's not what I think the scripture teaches and it seems to indicate here different rewards different experiences notice though this that the person will still be saved that the individual who puts their faith and trust in Christ is still saved even
+
+[06:41] if they had lousy works and they all got burned up it says what he is still saved yet as through fire in verse 15 so this is a judgment for believers for those who are saved not for the non-believers where there's in Revelation we read about this eternal judgment and boom you know you're cast out forever there is not there's salvation there notice though he's saved as through fire in this sense it's like if your house caught on fire and you got out but all your stuff burned you're saved as through a fire you know that's the idea is you suffer loss but you're not suffering that's the you're
+
+[07:17] not it's not Purgatory where you're burning and suffering and suffering and no no you suffer the loss of those potential good works that you end up wasting so that's the Judgment that Believers will go through and I think that it's really good for us to try to evaluate our lives and to try not to evaluate other people's when it comes to this because I don't really know very well how you're going to go through this because I'm not even entirely sure how I'm going to go through it 1 Corinthians 4:5 just one chapter over from where you are in 1 Corinthians chapter 3 Paul speaks of judgment that
+
+[07:53] will come and when his Works will be tested and he says therefore judge nothing before the time until the Lord comes who will both bring to light the hidden things of darkness and reveal the counsels of the hearts then each one's praise will come from God so even the counsels of the hearts or in other words motives God will even show my motives I learned this over over years of being a single guy is that sometimes girls motives are not clear to guys and I'm like no this girl just really you know is asking for help and prayer and turns out there was other interests in her mind at the time
+
+[08:35] you're like you're like oh that's weird you know and that's that's just the way it is people's motives are sometimes not even known to the individuals we see it now as high school counselors and Leadership we look at the two students and sometimes who are interested in each other and we're like we know it before they do you know what I mean so sometimes you know it before they do and you're interested in seeing where it's going to go but God ultimately knows our motives completely and of course those will be tested too I'm sort of curious to know Lord my motive say I'm teaching Sunday night
+
+[09:11] okay is this for me am I promoting myself am I seeking to bless the people am I seeking to honor God what is my goal here well I think I know what my goal is I think I understand my goal I want to I want to serve the Lord I want to use the gifts he's given me and and and feel like yes I'm being faithful I'm maximizing my time here on Earth for for God glory and I think I know what his his calling and giftings are in my life so I'm going to try to use those as much as I can but the Lord ultimately is going to Che going to check that and that day will'll declare it and until then I'm just going
+
+[09:41] to make my best guess and I'm just going to follow the lord to the best of my ability and let God be the judge so that's that's where we go is I don't even fully judge myself here I just do do my best and I leave a little bit of wiggle room for for my friends and family and those around me so that I'm not trying to trying to sort of light the fires too early cuz I don't know [Music]

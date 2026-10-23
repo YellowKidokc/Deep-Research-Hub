@@ -1,0 +1,59 @@
+# "Former Christian" Shares Why He Rejected GOD (Then Learns An Imporant Lesson!)
+
+**Channel:** [[Daily Dose Of Wisdom]] (`DDOW`) · Chapter 336 of 916 · Length 11m 41s · [[00 - Channel Summary]]
+**Video ID:** `L7HrODfsp-A`
+**URL:** https://www.youtube.com/watch?v=L7HrODfsp-A
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 05:16
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:08|Part 2 · 10:08]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] I lost my belief in a God that I still loved um it was devastating for me I was a worship minister at the time uh you still left the question unanswered what would God need to do to convince you that he isn't morally good the question is like saying what would what would convince me that all triangles don't have three sides the questions that this particular person asks are extremely important I think they're right at the core of a lot of the questions that Seekers and Skeptics and atheists are asking on online so what I'm going to do is let this clip play out in its entirety I know a lot of
+
+[00:33] times you guys getting kind of get annoyed when a commentator like myself interrupts in the middle of it too many times so I'm going to let the clip just play out in its entirety and then I do have a handful of thoughts to share on the back end that I hope will connect a few dots for you guys and kind of complete this entire dialogue this is extremely important buckle up your seat belt let's get into it the Bible teaches certain moral standards and then God uh violates those standards it is not consistent with itself well give me an example of what you mean let's say stoning gaze the Bible
+
+[01:08] says that God is slow to anger yet he um he very quickly and without hesitating murdered a guy for uh pulling out of his widows uh or out of his brother's widow U when he married her which uh which uh in are you speaking of I'm trying to remember the um biblical reference but well we'd have to look at the passage and exage it and see what it said but okay let me ask let me ask you a question on this when God kills somebody is he murdering them is it ending their life yeah is he murdering them can does God murder people in other words yeah how can it be murder for the creator of life it's
+
+[01:51] murder for us yeah to to take someone's life who's so if we're expected to be like God and in God's image then why is something uh acceptable for him but not for us well God is the Creator God can choose to create us and choose when we're going to die we C we don't choose when we're going to die right right so God can do things we can't do right if he wants to if he wants to strike me dead right now he can do that I can't strike you dead right now though then why do we claim that he is a moral Authority and example if we are not actually to follow his example well we do follow his example on
+
+[02:33] certain issues but when it comes to who lives and who dies we don't do that unless it's in a Justified form of government which God has delegated that to justifiable governments but I don't have the right to kill somebody God has the right to kill somebody because God is the creator of life and he can resurrect life he owns all of his creation and he can decide when to take somebody from this life into the next life anytime he wants I mean if Christianity is true people don't really die they just change location what about a society that doesn't have a bureaucratic government the point is is
+
+[03:10] that individuals don't have the same rights as God to give life and to take life that's the only point I'm making and God has the right to give life and to take life because he's the creator of life and he can resurrect life make sense but why does it say that he's slow to anger when he uh in many places in the Bible reacts very quickly out of anger well you'd have to give me an example and is it out of anger or did these people know what they were doing was wrong and were they warned against doing it and they got their just punishment oh there were many times that they were not warned and
+
+[03:39] they were still punished for it well you'd have to give me an example uh so saving the Ark of the Covenant from falling into the mud mhm um though they were instru though they were instructed not to touch it uh I'm pretty sure they were also instructed not to throw it into the mud but if it's f falling into the mud and you'd have to you're talking about I think his name is usza or something like that I have to go back and read the passage but if they were instructed not to touch the ark that's what God meant and God has the right to take out usza or take out me or anyone else at any time
+
+[04:16] that's still reacting out of quick anger no I don't we it doesn't say it doesn't say that God is an emotional God who acts out of quick anger it says that no it says that he's not but but then he does it anyway well he may have taken usza out just like he took an ananas and saf out in the new testate but that's God's prerogative you see remember we use terms to apply to God anger and other terms to apply to God and we're applying them to God just like the Bible does in an analogous way because God is an infinite being so when we say God is angry it it roughly equates to our anger but our
+
+[04:57] anger is capricious his anger is not capricious his anger is always righteous anger we don't always have righteous anger God does have righteous anger so what would God need to do to prove to you that he isn't moral what because if we say that God is good well then that has to be a disprovable claim what could he do that would make you believe that he isn't good well what the right question would be I think would be what would cause you to believe the god of the Bible is not the true God because whoever is God what we mean by God is he is good he is righteous he is just now maybe I have the
+
+[05:39] wrong God that's possible but for me to say that God is wrong about something would be the height of presumption if God exists he's not wrong so as an atheist you can say that I don't like the god of the Bible but if you have no standard outside of yourself that's just your opinion then my my opinion of God's character is irrelevant as to whether it's true um and when I left the religion I left a God or I lost my belief in a God that I still loved um it was devastating for me I was a worship minister at the time and um and it was my career goal I wanted to be in it full-time I sacrificed a
+
+[06:19] lot it was one of the most difficult times in my life uh you still left the question unanswered what would God need to do to convince you that he isn't morally good the question is like saying what would what would convince me that all triangles don't have three sides God has to be moral morally good by definition the only thing that could be is that I have the wrong God that's the only possibility what we mean by God Jeremy is the Paradigm the the the the Paradigm of moral goodness right so then that means that whatever he does is defined by uh or whatever is good is defined by his actions
+
+[06:57] under are defined by his nature sure okay but now sometimes he may take actions that we don't understand sure but they're they're they're still within his right yeah so whoever God is he is good that's what we mean by God but if we if there is nothing that he can do that would convince you that he isn't good then what of what compliment is it to call him good since you're just calling him himself well he is himself so I would call him himself see what we mean by the term God is the the maximally great being whoever that being is the god of the philosophers that's what I mean by God so there's
+
+[07:43] no way you could ever call God not maximally great so he is moral goodness right all right now as I said again as I said before and we'll leave it at this because you got a line behind you as I said before maybe I might have the wrong God but whoever God is he has to be the standard of goodness outside of me that's why if you or I make judgments that so and so isn't good we're we're applying a standard outside of ourselves in order to say that whoever that is that's what we mean by God right right but um if I am I'll I'll leave it after this um because I know I took some time um if we Define
+
+[08:22] if we were to instead Define goodness by the acts of Jeremy um then anything that I do would be defined as good because I did it and that's basically what we're saying that God does is that because he did it it is good no no no no no that's that's the ethero Dilemma we're not saying that because God does it it's good God is good right there's not a standard he's not arbitrary he doesn't make stuff up and now I call it good he doesn't look at a standard Beyond him and says I'm going to do it he is the standard all right three points to consider from this video first The Atheist materialist
+
+[08:57] worldview itself let's actually think about about this remember if there is no God then therefore there's no soul there's no free will there's no objective morality everything is material mechanical and predetermined so according to what this guy claims to believe himself what is he actually talking about why is he arguing with Frank at all according to this guy Frank is dancing to the music of his DNA all Christians for that matter are dancing to the music of their DNA everyone is simply fulfilling their biological programming this man has zero reason to be upset or even to ask the question
+
+[09:32] if you are actually going to be consistent with your own worldview he has to cplay as a Christian in order to make this judgment about God so that's the first point second ultimately atheism is human beings playing God simple as that he is really saying I would have done things differently but he fails to grasp how absurd that statement actually is what have you used to make that judgment what have you used to make this determination about God's action your own moral compass where did it come from though how does it work the way that it works you have this watch that you got from a watchmaker
+
+## Part 2 · 10:08
+
+[10:08] and you're using it to tell the watchmaker that he doesn't know how to keep time it's utterly absurd again you have to borrow a sense that what you have works and then use it against the person who gave it to you who if it works they would have been the one that makes it work and so you can see this entire thing goes into a circle I'm honestly open to hearing your thoughts if you're an atheist a skeptic a Seer go ahead and leave your thoughts in the comments obviously this is an important conversation I am not going to pretend like I've perfectly addressed everything but if I could just leave
+
+[10:35] you guys with one thought it's that everything that you're using to judge god with was given to you by God and ponder that and I I hope that you'll see the problem therein one other thing I wanted to say for you guys on this video is there's a link in the description to my documentary I'm making it free for the first time ever so if you guys want to watch a documentary that has William Lang Craig Lee Strobel Gary hos Mike Lona uh Nabil kesi the late great Nabil kesi and a host of others dealing with the question in the documentary is what are the biggest obstacles to understanding
+
+[11:17] Christianity in modern culture and obviously this video that we're watching here I think is one of those but the documentary goes into a lot more depth and so if this video didn't fully help you then maybe the documentary will if you're interested in watching it you can see it for free in the description so check that out thank you guys for watching and I'll see you in the next one [Music]

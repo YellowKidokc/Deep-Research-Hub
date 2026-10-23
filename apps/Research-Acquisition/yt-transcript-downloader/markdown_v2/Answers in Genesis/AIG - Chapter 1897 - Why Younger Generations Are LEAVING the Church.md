@@ -1,0 +1,54 @@
+# Why Younger Generations Are LEAVING the Church
+
+**Channel:** [[Answers in Genesis]] (`AIG`) · Chapter 1897 of 1947 · Length 8m 53s · [[00 - Channel Summary]]
+**Video ID:** `qpcIJeUWIK8`
+**URL:** https://www.youtube.com/watch?v=qpcIJeUWIK8
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-09-27 07:56
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] What I wanted to do today was this. It is the year of Darwin, so to speak. 200th anniversary of his birth this month and later on in the year, the 150th anniversary, the origin of the species. And the Darwinists, the secularists are pushing Darwin like never before around the world. And we also look at this nation of America and we realize that this nation of America has greatly changed, hasn't it? In fact, I believe it's on the verge of massive change in many ways. Not just economically, I'm talking about morally.
+
+[00:33] And there's a verse of scripture I want us to remember that today and it's this one from 1 Chronicles 12:32. Comes from one of those genealogies. Some of the times those passages we don't like to read them unless we want to go to sleep. But in here we get this little gem of the sons of Issachar who had understanding of the times. They had understanding it was the time for David to be king. But I want to apply it this way for us today. Do we have understanding of the times in America? Do we really know what's going on?
+
+[01:01] I mean, do you realize America has been the greatest Christian nation on earth? Even right now, you have more churches, seminaries, Bible colleges, Christian colleges, Christian bookstores, Christian resources, Christian radio, TV than any other nation in the world. You have right now more Christian resources than you've ever had in your history. Millions are worshiping in churches like this all across America today. But for all of that, let me ask you a question. Is America as a culture becoming more Christian or less Christian every day? And what would you say? Less Christian.
+
+[01:29] So there is something wrong. Why is not the church touching the culture? Why do we see these moral issues pervading this nation like never before? Who would have thought 50 years ago you'd have the issue of abortion and gay marriage and nativity scenes and ten commandments being thrown out of public places? Who would have thought the Bible would by and large be eliminated from public schools? That God would be thrown out of the science classes. this nation has changed.
+
+[02:01] A humanist group put an ad in the Washington Post newspaper recently congratulating President Obama and putting one of his quotes from his autobiography that he re wrote before the election. And he said this, "Whatever we once were, we are no longer just a Christian nation. We are a Jewish nation, a Muslim nation, a Buddhist nation, a Hindu nation, a nation of non-believers." Pretty sad, isn't it? But America is no longer a Christian nation.
+
+[02:29] and sad when the president the leader of this nation actually says we are no longer a Christian nation and you know you see all sorts of things happening in the church for instance 95% of kids from church homes go to public schools in America that's 95% of your kids your grandkids and you know George Barner in his research indicates of those kids from church homes that go to public schools 70% at least will walk away from the church does that concern you when you think of your kids your grandkids barner also said that in a new study conducted among 16 to 29 year olds a new generation is more
+
+[02:54] skeptical and resistant to Christianity than were people of the same age just a decade ago and that's what we're finding isn't it and so we have to ask ourselves why is not the church touching the culture like it has in the past because the culture actually invaded the church you know in John 3 in verse 12 Jesus in the context of talking to Nicodemus said Nicodemus if you don't believe the earthly things how can you believe the heavenly things I want to apply that in a particular way here this morning.
+
+[03:23] If you don't believe the earthly things in the Bible in Genesis 1:11, how can you believe the spiritual things, the heavenly things that are based in those earthly things? In 1 Peter 3:15, we're told, "Always be prepared to give an answer or defense." That word comes from a Greek word, apologia, from which we get our word apologetics. Answers in Genesis, an apologetics organization teaching how to logically defend the Christian faith against the skeptical questions of this age against the Darwinists, the secularists who tell us that the Bible's history in Genesis is not true.
+
+[03:53] By the way, do you know what's missing from most of our church homes and churches? Most of us are not teaching apologetics. Have we really trained our kids to answer the skeptical questions of this age? Are we training them in church to do that? Or do we just impose Christianity upon them? I suggest one of the big factors causing many of our young people to walk away from the church today is that they have not been taught how to defend the Christian faith. They haven't been given answers because many of us don't know what to do with those questions. How did Noah get the animals on the ark?
+
+[04:23] Where did Kane get his wife? What about the races? What do he do with dinosaurs? What about carbon dating? What about the big bang? You know, for many of us, we say, "Well, that doesn't matter." You know, as long as God did it. What about this? It does matter because it's what God said he did that's important. Because you see this is the authoritative word of God. And if we can't trust it in its earthly things in Genesis 1:11, which is really the application of John 3:12 today, how can we trust the rest?
+
+[04:57] You see, when you read Genesis 1:11, you actually read the history of the universe, the biological history, the geological history, the anthropological history, the astronomical history. But you realize that history which includes the history of the creation of man, the fall of man, the entrance of sin, the entrance of death. It's all foundational to the rest of the Bible. It's foundational to the gospel. It's foundational to every doctrine.
+
+[05:21] But we live in an era of history in which through the public schools and the learning channel, Discovery Channel, whatever it is, we have secularists who who are permeating this this culture with the idea that no geology billions of years that that totally destroys Genesis. No biology, no evolution is true. One kind of animal changed into another. Anthropology. No. Apeike creatures turn into people. No. Genesis is definitely not true. Astronomy. No. The big bang. The sun came before the earth. The Bible says the earth came before the sun. The Bible got it wrong. That's what they say.
+
+[05:44] Do you realize that's what generations of our kids are being taught? Is it any wonder that we find a problem? Because if they're being taught, you can't trust the first part of the Bible in Genesis and that's what most of them are being taught. Why will they trust the rest? Because you know the message of Jesus and the resurrection actually comes from this book and we get that message because we take these words as written. That's why we believe the account of the feeding of the 5000 or we believe about Jonah being swallowed by a fish because we take these words as written.
+
+[06:20] Genesis is written as history and yet most of the church doesn't take them Genesis as written. Most of the church is compromised with millions of years big bang. Most of us don't know how to answer the questions. Most of us say, "Look, that doesn't matter. But Johnny, trust in Jesus anyway." You see, we need to understand something. That account in Genesis is foundational to the whole of the rest of the Bible. If it's not true, how can the rest be true? When Jesus, who's the truth, who's the creator, quotes from Genesis in Matthew 19, when asked about divorce, it concerned marriage.
+
+[06:53] And if Jesus believes Genesis, I'm going to believe Genesis. He quoted his history. Do you know what he said? Have you not read? Can I put that in a modern context for you? Here's what he would say today. Haven't you read your Bibles? Haven't you read Genesis 1:11? You know what it says there? God made male and female, not male and male. Male and female. And he said, "This is the reason a man leaves his father and mother, cleaves unto his wife, they'll be one flesh." quoting from Genesis 2, he was showing that the doctrine of marriage is dependent upon that history being true.
+
+[07:27] That marriage is one man for one woman because Genesis is true. But if you teach whole generations that Genesis is not true, that they're a product of evolution, you can't trust Genesis 1 to 11. The Bible's not the absolute author authority. What's marriage? Whatever you want to make it to be. Is it any wonder we have a problem? By the way, do you realize it's not just marriage? Do you realize ultimately every single biblical doctrine of theology directly or indirectly is founded in Genesis 1:11? Here's much of the church saying Genesis 1:11 doesn't matter. It's not important. Wait a minute.
+
+[07:56] Why are we sinners? Genesis 1-11. Why is there death in the world? Genesis 1-11. Why do you wear clothes? I see you are. That's good. Why? Genesis 1:11. Why do we need a new heavens and new earth? Genesis 1:11. Why do we have a 7-day week? Genesis 1:11. Why is Jesus called the last Adam? Genesis 1:11. Why did he die on the cross? Genesis 1:11. Do you think Genesis 1-11 is important? It's a foundational history for the whole of the Bible for our doctrines. And people, here's the thing.
+
+[08:26] When you doubt Genesis 1:11, or you tell your children they don't have to believe Genesis 1:11, or you as a church say, "We don't take a stand on Genesis 1:11," you do two things. One, you undermine the history that's foundational to all doctrine. But secondly, when you don't believe Genesis 1:11 because you say it could be millions of years evolution, maybe God used evolution, maybe God used the big bang, that's not what Genesis 1-11 says. You reinterpret the clear words. You're undermining the authority of the word itself.

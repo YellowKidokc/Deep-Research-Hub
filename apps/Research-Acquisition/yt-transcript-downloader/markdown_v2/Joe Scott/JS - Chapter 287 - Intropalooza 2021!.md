@@ -1,0 +1,61 @@
+# Intropalooza 2021!
+
+**Channel:** [[Joe Scott]] (`JS`) · Chapter 287 of 763 · Length 15m 04s · [[00 - Channel Summary]]
+**Video ID:** `3c4_s91fp0c`
+**URL:** https://www.youtube.com/watch?v=3c4_s91fp0c
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-07 04:21
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+- [[#Part 2 · 10:32|Part 2 · 10:32]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] [Music] what you working on oh nothing just you know the biggest revolution in transportation technology in the history of mankind that's it huh i've been working on this all night it required me to take a mechanical engineering class in a physics class and had to learn some some cad software and stuff but it's totally worth it because i think this is going to change the world as we know it want to see it oh i don't here oh please show me i call it omega tube it starts with a hyperloop but like like a big hyperloop like like a kilometer wide hyperlink a kilometer wide tube yeah with a vacuum
+
+[01:02] yeah yeah and inside that is another tube with a maglev track in it just like a regular hyperloop that travels at 500 miles an hour okay but inside that tube is another tube ah a hyperloop inside a hyperloop okay and inside that tube is a rail gun that shoots at another 1500 miles an hour okay still with me okay and inside of that tube is another tube and inside of that tube is a falcon 9 rocket that can go an extra 2500 miles an hour and inside of that is a pulse nuclear rocket that can travel at 5 000 extra miles an hour you could get from new york to la in like 30 seconds so what'd you
+
+[01:42] think our tree's still up oh yeah i should probably take that down but the idea though oh it's garbage yeah i'll burn this [Music] in the 1880s a woman's body was pulled from the river sand in paris she was young 16 maybe and she had no physical trauma on her so the authorities just assumed that she probably drowned herself as was the custom at the time her body was put on display at the paris morgue so that somebody could possibly come by and identify her the viewing room of the morgue is where you would go if you were missing a family member but it was also kind of a morbid attraction for
+
+[02:29] people of the day and apparently this woman was so beautiful that word spread and drew crowds but her identity remained unknown and she took it on the name lon canoe de la son or the unknown woman of the song she was eventually given a popper's burial in a city cemetery in an unmarked grave but before they did that one the morticians because of her popularity made a face mask of her and capture her likeness forever and this half-smiling serene mona lisa-like face kinda became a hot item copies were made and sold all over europe artists would use it as a reference for their art poets made
+
+[03:06] poems about it it was the hot home accessory for the victorian age already a weird kind of afterlife but it gets weirder because several decades later in the 1940s a norwegian toy manufacturer named osman laerdal had recently had a huge success with a doll named anne that was made with a new type of material one that was much more lifelike than wood or porcelain dolls plastic soon after this a group of doctors approached asthma with an idea they were working on a new type of resuscitations that something they called cpr and they were looking for somebody to build a life-size mannequin that
+
+[03:40] they could then take around and show people how to do the procedure and he decided to take it on because he had almost lost his own son a few years earlier to drowning so he wanted to help make sure others wouldn't suffer the same fate so he and his team set to work on a mannequin and when it came time to pick a face for this mannequin he remembered this antique face mask that his in-laws had up in their home it was the face of long canoe he named it resusci anne after his popular doll in the united states it went by the name cpr annie and in cpr classes one of the first things they tell you
+
+[04:08] to do is to assess the the person's status and so for decades in cpr classes trainees were taught to ask annie are you okay before delivering cpr and yes that is exactly where michael jackson got it from and to this day long canoes face grace's cpr dolls all around the world the face of this sad possibly lonely girl who took her own life 150 years ago is now the most kissed face of all time and though she was not able to save her own life she has helped save lives of countless others this is an amazing story although it is debated some people think that it was probably just an artist model
+
+[04:48] who posed for this face mask and that whole backstory of long canoe was just made up to help sell trinkets but either way that was someone's face and that someone has achieved a sort of immortality there is a similar story of a woman who died way too soon but unknowingly saved the lives of millions of people and she too was somewhat immortal and we know exactly who she is [Music] [Music] a toilet is basically a chair that you poop into and you sit in at least once a day and their chairs in this house haven't sat in in months i bet if you add it all out the toilet would be one of the top three
+
+[05:39] most used chairs in this house huh that's how much time i spend crapping i spend the time in the other chairs eating that's pretty much life isn't it you're either eating or crapping just stuffing food in one hole and shoving poop out the other one we're basically just food to poop conversion machines we literally turn everything into crap and now we want to go to the moon and mars awesome let's spread our crap across the solar system yay somebody's going to be the first person to crap on mars of course they would have crapped a lot of times on the way over so like four or five months to get
+
+[06:18] there that's what like 150 or so days if you crap at least once a day that's 150 craps okay hold on wait how big is the average human dump okay 400 to 500 grams okay so split the difference say 450 grams times 150 days that's 67 500 grams that's 67.5 kilograms i don't know what is that in pounds that's 148 pounds of poop just for one person oh okay wait okay so if elon wants to take 100 people to mars on a starship and each person takes 148 pounds of poop that's 14 800 pounds of poop hang on 7.4 tons of poop huh the entire path from worth to mars would just be a giant skid mark [Music] you
+
+[07:18] look especially lovely tonight thank you um so do you oh thanks i try especially like that shirt i think it look good on my bedpost uh well 1992 called and they want their pickup line back classics never go out of style though right what was that what but what that sound what was that oh that that's that's nothing it's um it's it's nothing so there it is [Music] it's kind of a ghost a ghost it's my phantom toe i'm sorry what yeah i i lost a toe a while back and and it's kind of haunting the house now yeah toes don't make sounds so dead ones do [Music] can you make that stop well not really it
+
+[08:29] never goes into the bedroom if you want to go in there it's okay there it is you know i think i'm gonna go no i wasn't trying to that's not what i've seen pathetic before but that was extra pathetic oh come on i didn't mean it like that i was just trying please don't go you know what why don't you take that toe of yours and stick it on your bed post i'm sure you would love it there how do you think i lost it every time [Music] three [Music] all three big engines burning clean and hot pushing the friendship seven spacecraft ever faster towards speed [Music] several months later we choose to go
+
+[09:35] to the moon we choose to go to the moon [Music] what happened [Music] man hey how's it going did you uh did you get the outline that i sent over yesterday that had the uh for the mythical creatures idea that you had yeah actually uh that's a great idea dude i was thinking i could do a headline like um like five mythical creatures that kinda actually existed like with kinda in parentheses you know but some of that was really interesting like the thing about the dwarf elephants that um you know they had the hole in the skull so people thought they were they were cyclops that was really cool i
+
+## Part 2 · 10:32
+
+[10:32] never heard of that before yeah it's it's just that um what do you think about the kraken bit though i mean like like everybody knows about um giant squid now don't they i mean it's kind of obvious like i mean i mean yeah kind of a oh and the sinus a folly thing like i hadn't heard of that one before like it makes it makes it all more interesting if it kind of looks like we actually did some research and we got something in there people never heard of before i don't know what do you think sure i think this one's gonna do really well that's a good idea thanks for suggesting it i didn't suggest
+
+[11:02] it actually oh wait was that one of the other guys yeah no i mean what i suggest the video on my characters like king arthur that that kind of thing yeah mythical characters that may or may not have existed like you know like historical figures i said mythical creatures no you didn't spend too much time on this did you no i mean i was up till three four five o'clock i didn't sleep i mean we could do this yeah and we can still do this one we do the mythical characters one later yeah you can always come back how's mid-september sound [Music] well thank you guys so much for coming in today i
+
+[12:05] know that therapy is not always the most fun thing can be kind of scary but i hope that this can be a a jumping off point for some healing between the two of you so why don't you introduce yourselves and uh tell me why you're here do you you want me to oh yeah okay so uh yeah so um i'm earth and this is venus my brother venus i assume you're twins yes uh yes sir well that's what everybody always says i like your shirts helps you tell you apart oh thank you yeah we like them too available at answersthejoe.com sorry go ahead oh okay well um yeah so venus and i you know we grew up together and
+
+[12:42] um we were really similar for a while but then we just kind of went in different directions he's always so angry and hot-headed all the time i mean his his surface can melt lead that sucks how are you angry at lead can i can i ask a quick question are either of you closer to your mother he is and uh what can you tell me about your mother she's the son like she's the actual son oh okay well well that would make sense then that he would be a little bit hotter being closer to the sun one would think right well yeah i mean but no he we we used to be a lot more similar we would have similar
+
+[13:27] temperature similar atmospheres liquid water all the other planets that say that that earth and venus they're two of a kind i don't know somewhere along the way he just he just changed he it's like he got enveloped in a fog that i couldn't see through i just have no idea what's going on on his surface and he's like under all this pressure and i just i can't you ever think maybe uh you're just a little thin skinned i don't know about that there's nothing wrong with me okay i just have a tough exterior i i don't i'm not covered with cracks i don't let my insides out all the time i keep my
+
+[14:01] insides inside okay well and how's that working out for you uh fine want to look at yourself maybe gonna show them oh show them show me what it it's it's not i mean it's nothing i mean this arm's fine so i don't oh my god um it's gotten worse it's a little what is that it's not it's nothing it's a human infection humans who doesn't get some humans from time you have humans you brought you brought humans in my it's spreading how is this why are you okay with this everything's fine i don't know it's on your face oh it's on your face i want to scratch it but i think it'll just make it spread
+
+[14:39] even further oh god it's on the chair now i can i can't i can't get that out of my couch you know it's embedded in the fight oh god oh my god yeah it's a look it's whatever god don't don't breathe this direction i'm telling you you're a part of human infection we have a human infection in the third uh orbit from the sun over here [Music]

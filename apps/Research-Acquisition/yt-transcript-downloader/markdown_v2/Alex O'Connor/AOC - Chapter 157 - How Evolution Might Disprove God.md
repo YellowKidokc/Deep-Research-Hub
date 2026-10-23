@@ -1,0 +1,54 @@
+# How Evolution Might Disprove God
+
+**Channel:** [[Alex O'Connor]] (`AOC`) · Chapter 157 of 419 · Length 9m 48s · [[00 - Channel Summary]]
+**Video ID:** `ldni83gknEo`
+**URL:** https://www.youtube.com/watch?v=ldni83gknEo
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-07 03:06
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] number nine is and I don't know how often this is actually like put this way by atheists but it's the way that I've got it here is just Evolution disproves God well do you think is that even a slogan um would you even say that like any atheist even like is this is this a caricature that happened atheists that say that but I I don't think you would find most okay you might hear it said in the same way that somebody somebody might say like the existence of trees proves God which on its own sounds ridiculous but maybe it like maybe they actually mean something very specific by this maybe they
+
+[00:37] think that the biological matter in trees are contingent well they mean trees exactly right like the trees prove God's existence because trees are contingent beings and you have a contingency argument like okay so technically yeah like like maybe it might be a good argument to say look at the trees God must exist right because but because what you mean by that is like look here's a contingent object yeah in the same way someone might say that Evolution causes a lot of problems for Christianity and in such a way that I think these problems are sufficient to make Christianity more likely false
+
+[01:09] you could condense that into Evolution dispersed Christianity but it depends on what what's what's meant here so for myself I'd rather say something like the process of evolution by natural selection specifically is good evidence against the existence of a good God for a few reasons there are lots of problems first start the fact that suffering is so embedded into the process of natural selection as I said the other day survival of the fittest assumes the death and destruction of the unfit it's it's built into the very system the the whole way that this this uh Pantheon of Life came about is
+
+[01:51] through a process that necessitated and involved incredible levels of suffering for Unthinkable numbers of years so there's this problem of evil from natural selection it's not just the fact that there's evil existing but that God seems to have chosen a mechanism that has suffering built into it when at least feasibly he seems to have been able to do it through other means he could have just popped us into existence a lot of people think maybe he couldn't have done there are of course responses to these but so that's one problem another problem is the fact that uh for example human beings are
+
+[02:24] supposed to be special at least this might not be evidence against God but against something like Christianity or any religion that thinks humans are special you can resurrect all of the evolutionary tree if you think about a human over here all the way over to a fish over here and there's like this evolutionary tree that connects them if you resurrect all of the all of the dead intermediaries and you send them all on the line every every life that's ever existed you sounded all in one long line you start with a human you go human human human human human human human human and that goes on for
+
+[02:56] 100 billion humans and then they're starting to look a bit more kind of eight like it's like okay so you've got a kind of apish apish apish maybe bitchimpanzee somewhere along the lines and there's no point at which like a chimpanzee is stood next to a human there's no point at which like you know a a cow sit next to a whale or something or indeed a crocodile next to a duck it's not how it works to be a Christian say that human beings are special you need to think that God can just draw this line somewhere that you have this one creature that gives birth to another creature which is for all
+
+[03:37] intents purposes identical to that creature but this one is subject to the moral law and uh qualifies for eternal life but his mother doesn't that seems strange now of course you can just say that this is what it means to breathe life into Adam and Eve there was just sort of arbitrarily chosen this point at which they said okay you've got this kind of like pre hominid ape that gives birth to another pre-holiday and God just goes like okay you're a human now and suddenly they're like rational and can abstract or something you can say that but it seems strange right it seems like this is this
+
+[04:10] is a problem that needs to be solved because also we're still evolving it's not like evolution is a thing that happened in the past it's often spoken of in that manner but it's still occurring in a few hundred thousand years human beings will probably have evolved quite a significant amount if you talk about millions of years then it will have evolved even more and so if we're made in the image of God is there like some point at which we cease to be in His image if we if we change so much that we're nothing like our human ancestors are we still made in the image of God is there like this kind
+
+[04:40] of time period that that exists in like a bubble of course you could just say that God is going to intervene and final judgment is going to come before before that occurs but you know we've been waiting quite a long time already and I think that the writers of the Gospel seem to imply that they thought it was happening fairly soon of course what does soon mean to God I think it would be a bit unfair If he if he told humans that it was happening soon by which he meant something like you know two thousand three thousand years but you know what's that to God I think that'll be a bit misleading
+
+[05:08] but of course you can you can take these responses you can say that God just breathed life into into a random sort of hominid apish ancestor you could just say that God will intervene before we've evolved past Being recognizably Human but these seem again quite ad hoc so there's that problem and that problem is specifically raised by the fact that we share a common ancestor with other animals the fact that there's so much suffering embedded I think there might be a few other a few other problems but these to me do provide evidence against God they they do provide good reason to doubt the
+
+[05:42] existence of God and so wouldn't the second one just be an argument against Christianity oh yeah sorry excuse me okay you're right the second one would not be an argument against a Creator or something yeah yeah but of course if you imagine but the first one the natural selection suffering again that would be an argument against a good God you can imagine a an indifferent or malicious or or they could be a good God and just impotent they could be this is true yeah so it doesn't quite and this is why I would I would certainly hesitate to say Evolution disproves God right but if does evolution
+
+[06:12] provide evolution by natural selection provide evidence against a good god yes does it provide evidence against Christianity I think so does it is it enough on its own to disprove Christianity probably not I don't think so is it enough to disprove God certainly not so Evolution doesn't disprove God but at least in some context it does provide provide some evidence yeah because this is the confusion that happens a lot of people say well look there seems to be this caricature of the dialogue that an atheist will say no we have Evolution now we've got no need for God and then the Christian comes
+
+[06:45] along and says what do you mean like Evolution has disproved God there are all these kinds of responses there are all these reasons God could have chosen Evolution as his method and and so it doesn't disprove God but we don't have to work in extremes here it's not does it disprove God or not it's like does it provide good evidence against particular claims about particular Gods well historically we have a good indication that it does given that it was so troubling it was so troubling in fact that if you read the first edition of the Origin of Species the the the wonderful Timeless ending um
+
+[07:15] the kind of famous there is Grandeur in this view of life um Darwin talks about sort of life being being uh being breathed into one or to many forms which would be the beginning forms where where I started because of course the beginning of life is still a mystery as much today as it was to Darwin so Darwin says that this life that that was breathed into one creature to many has been and is being evolved and it's a beautiful piece of prose right at the end of of the Origin of Species but in the second edition he made it he made an addition having been breathed by the Creator into one formal
+
+[07:53] menus he added this reference to a Creator and it seems because he just didn't realize when he first went to publish the Origin of Species what a religious backlash it would cause he was kind of an agnostic he read the Bible on HMS Beagle he he kind of seemed to get more atheistic as his life went on he started out as a Christian but there's a famous letter he wrote uh to his friend in which he says he'd never call himself an atheist in the sense of denying God a more appropriate term as agnostic the term agnostic was invented by Thomas Huxley the famous defender of of um darwinian natural
+
+[08:30] selection in the famous debate that happened at the Oxford Natural History Museum there's a plaque you can see it um so Darwin adds this this by the Creator because it seems that like when he first published it he didn't realize there was going to be this huge religious backlash and he was like ah well let me add this reference to the Creator if you ask me I think he did this in capitulation to a religious backlash so at least historically we have some idea to think that at least people seem to think that Evolution provides some troubles for at least Christianity at least in the Christian
+
+[09:03] culture um so and the fact that so many Christians that there are some like creationist groups like answers and Genesis that spend so much of their time specifically trying to combat evolutionary hypotheses they're not an anti-evolution organization they're a creationist organization but they see evolution by natural selection to be one of these big problems for coming to believe in in Christianity so clearly it proposes some problems but it doesn't disprove God on its own nothing nothing really does have that kind of evidential force proving or disproving God I think the full conversation
+
+[09:37] that the clip you just watched was taken from is available via the link that's on your screen don't forget to subscribe thank you for watching and I'll see you in the next one

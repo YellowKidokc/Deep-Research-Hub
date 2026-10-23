@@ -1,0 +1,54 @@
+# “You Guys Are a Religious Cult!” | Evangelism
+
+**Channel:** [[Living Waters]] (`LW`) · Chapter 2490 of 2497 · Length 9m 53s · [[00 - Channel Summary]]
+**Video ID:** `CNQZUtTLIQE`
+**URL:** https://www.youtube.com/watch?v=CNQZUtTLIQE
+**Transcript Language:** English (auto-generated)
+**Retrieved via:** webshare
+**Captured:** 2026-10-03 04:19
+
+---
+
+## Contents
+
+- [[#Part 1 · 00:00|Part 1 · 00:00]]
+
+---
+
+## Part 1 · 00:00
+
+[00:00] and there's nothing but evil people and this world is so beautiful and there's so much beauty in this world all i want is this world to be beautiful what's wrong with the world everybody are you wrong with the world no i don't think i'm wrong if you think there was an afterlife oh wow wow that's i that's a in i don't know i don't know if i believe in an afterlife i don't know if i believe in religion what i believe in whatever you use to make you better is good and if you use it for wrong then it's terrible you know the bible tells us what we should eat and what we shouldn't eat it's an
+
+[00:39] instruction book did you know that no yeah that's why we don't eat dogs and cats do you have a dog two cats would you ever eat them no why not that's wrong yeah we know it's wrong intuitively but a lot of countries do we base our ethics on what we eat on the bible i mean if evolution was true it's survival of the hungriest is go to the pound and so you're going to put a lot of animals to sleep i'll eat them for dinner tonight you'll get prosecuted by the law it's against the law to even not feed your dog let alone eat it and we get those ethics or those standards from the bible the bible says
+
+[01:14] it's appointed to man wants to die death is an appointment it's like you've been summoned by the judge to court and disappointment you have to keep the grim reaper is coming and it's going to drag you before the judge of the universe and after death the judgment so how will you do on judgment day if god judges you according to the ten commandments how will i personally do are you a good person or if you sinned against god i think generally a pretty good person i'm going to try and change your mind about that can you be honest with me sure i heard a little ah i'm gonna give you some
+
+[01:48] information that will help change your mind let me give you a little story first a man got on a bus he was completely blind and on the bus a man stood up to give him a seat was that a good thing to do sure yes it was actually a very bad thing to do the man lost his job because he did that do you know why no here's the bus driver okay well how many deaths are caused by religion six percent in the encyclopedia of wars six percent well does who who writes that book the encyclopedia wars how many people died in world war ii world war one vietnam korea any other one just nailed it since 92 they
+
+[02:24] weren't religious wars they were political wars so my dad was a diehard lakers and dodgers fan and he died last year and they won the title this year and i would have given anything in the world to watch the game with my dad but this hat makes me with him and there's nothing but evil people and this world is so beautiful and there's so much beauty in this world all i want is this world to be beautiful what's wrong with the world everybody are you wrong with the world no i don't think i'm wrong i think there's a lot of cancerous people out there selfish people rude people you got ladies
+
+[02:56] walking up to street vendors telling them to shut the up when all they're trying to do is make money and feed their families and they tell them to shut the up don't listen then you don't have to listen to him so do you give any credence to the bible i've never read the bible ever my dad will tell me to that's the next thing i need to do it's the world's biggest selling book of all time you should be educated on what it says you know what it says it says you're an idiot if you follow it you're a sheep it doesn't it says you're a sheep if you don't you're a lost sheep you've gone astray no no
+
+[03:22] no i don't believe that if you haven't read it you shouldn't you shouldn't remark on what you haven't read and you shouldn't well i can mark on how i feel you should do what your father do what your father says and listen to what the bible says okay you guys are a religious cult okay i'm done that information changed your mind you thought it was a good thing now you said no that was a bad thing i'm going to give you information that i think will change your mind how many lies have you told in your life probably a lot what do you call someone who's taught a lot of lies why so what are you why
+
+[03:55] you still think you're a good person yes ever stolen something in your whole life even a bit small yes what do you call someone who steals things thief so what are you thief no you're not you're a lying thief do you still think you're you still think you're a good person yes have you ever used god's name in vain yes would you use your mother's name as a cuss word no tell me why not it'd probably be pretty weird it wouldn't only be weird it'd be insulting to her to use your mother's name instead of a filth word beginning with s to express disgust and yet you've taken the name of the god that
+
+[04:27] gave your mother gave you life and used his name as a filth word to express disgust called blasphemy and is punishable by death in the old testament still think you're a good person yes now jesus said if you look at a woman and lust for her you commit adultery within your heart have you ever looked at a woman with lust oh of course you've had sex before marriage okay i'm not judging you but you've told me you're a lying thiefing fornicating blasphemous adulterer at heart who's self-righteous and saying you're a good person when you're obviously not you're like the rest of us so here's where
+
+[05:04] we're going with this if god judges you by those ten commandments on judgment day do you think you'll be innocent or guilty guilty heaven or hell i'd say heaven god says hell it says all liars of their part in the lake of fire no thief no blasphemer no adulterer now fornicator will inherit the kingdom of god so can you see you're in big trouble on judgment day yeah sure okay well tell me what did god do for guilty sinners so we wouldn't have to go to hell this is where we're heading with this forgiveness no god actually did something jesus died on the cross for the sin of the world now most
+
+[05:47] people know that but they don't know this so here's some more information that can change your mind about this whole issue the ten commandments don't let anything distract you this is so important the ten commandments are called the moral law you and i broke the law jesus paid the fine that's why he said on the cross those three words it is finished just before he died it is finished he was saying the debt has been paid we broke the law he paid the fine if you're in court and someone pays you fine a judge can let you go even though you're guilty he can say there's a stack of speeding fines
+
+[06:19] here but someone's paying me out of here and even though you're guilty he lets you walk because someone paid your fine and even though you and i are guilty before god worthy of the death sentence and damnation he can dismiss our case take the death sentence off us and grant us everlasting life as a free gift not because we're good but because he's good and paying the fine for us on the cross through the death and resurrection of the savior and all you have to do to find everlasting life and have death nullified in your life as repent of your sins old-fashioned word it means turn from sin
+
+[06:50] don't play the hypocrite and then trust in jesus like you trust a parachute another question for you if you're going to jump out of a plane ten thousand feet why would you put on a parachute to live and your motivation would be fear you don't want to hit the ground 15 120 miles an hour so in that respect fair is your friend not your enemy can you see that sure and sam put on a parachute and what i've tried to do because i love you and i care about you is put the fear of god in you hoping you'll see that fear as your friend not your enemy because the bible says through the fear of the lord men
+
+[07:23] depart from evil and the only way you let go those beloved sins that pornography the fornication all those things that give us great pleasure is to realize where it's taken you dragging you to hell and i don't want that to happen to you so what do you think about what we talked about today good what do you think about it it's a i wouldn't say a different way of thinking but it's something you probably don't think about and you you put it in a way that okay now it makes sense okay i hope you'll take a little further and say okay i have to jump out of a plane a parachute is being offered that
+
+[07:57] makes sense i better put it on that's where i want you to get to okay so when you leave here just say god please forgive my sins i'm really sorry for sinning against you and i want to put my trust in jesus and god will give you a new heart with your desires so you love to serve them so that you thirst for righteousness so you're going to think seriously about this yes do you have a bible at home i do a little bit of dust on it no i read i read a page every every night you do well maybe god's hands upon you today obviously you're seeking and uh and he says if you seek me you'll surely find me
+
+[08:30] if you search for me with all your heart so hey thanks for your honesty i really appreciate and thanks for thanks for uh staying and doing this interview i know you didn't want to do it but you didn't i really appreciate it thank you that's not a good good uh point she made appreciate it can i give you this little book and published it well nice okay awesome in the 1980s we published a series of comic tracks and we've decided to resurrect that side of our ministry using very talented illustrators from around the world from australia from indonesia from spain and from the united states and
+
+[09:04] look at what they've done [Music] nick drowns his problems or drink and finds himself in big trouble with the law a scientist discovers scientific facts in the bible a member of a film crew sparks a fascinating conversation about evolution a millionaire challenges an employee to prove god's existence he says it can't be done a dentist believes in a god of love but not in the one who would create hell an eye specialist says prayer doesn't work and she has a very good reason not to believe in it who can resist a comic and who's not going to read gripping stories like these get yours on
+
+[09:40] livingwaters.com click on store tracks and then comics or click on the link in the description below you
