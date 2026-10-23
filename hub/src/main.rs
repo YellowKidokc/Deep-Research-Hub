@@ -4,10 +4,18 @@
 //! serving web\dist, and logging. No research logic lives here.
 //!
 //! Run from the repo root (or set DRH_ROOT):  cargo run --manifest-path hub/Cargo.toml
-//! Then open http://127.0.0.1:2828  (DRH_PORT to change).
+//! On Windows that opens the hub window and a tray icon (see shell.rs);
+//! --headless, or any other OS, only serves http://127.0.0.1:2828 (DRH_PORT to change).
+//! AI calls go to Forge through forge_client.rs, never to a provider.
 
+#![cfg_attr(all(not(debug_assertions), target_os = "windows"), windows_subsystem = "windows")]
+
+mod forge_client;
+mod http1;
 mod jobs;
 mod procs;
+#[cfg(windows)]
+mod shell;
 
 use std::collections::BTreeMap;
 use std::net::SocketAddr;
@@ -18,30 +26,55 @@ use anyhow::{Context, Result};
 use axum::{
     body::Bytes,
     extract::{Path as UrlPath, Query, State},
-    http::{header, StatusCode, Uri},
+    http::{header, HeaderMap, Method, StatusCode, Uri},
     response::{IntoResponse, Response},
-    routing::{get, post},
+    routing::{any, get, post},
     Json, Router,
 };
 use serde::Deserialize;
 use serde_json::json;
 
+use forge_client::Forge;
 use procs::{Launch, Procs};
 
 #[derive(Clone)]
 pub struct Hub {
     pub root: PathBuf,
-    procs: Arc<Procs>,
+    pub procs: Arc<Procs>,
+    pub forge: Arc<Forge>,
+    /// Raises the hub window (to a screen, if named). A no-op when headless.
+    pub show: Arc<dyn Fn(Option<String>) + Send + Sync>,
 }
 
-#[tokio::main]
-async fn main() -> Result<()> {
+fn main() -> Result<()> {
+    let args: Vec<String> = std::env::args().skip(1).collect();
+    let headless = cfg!(not(windows)) || args.iter().any(|a| a == "--headless");
     let root = find_root()?;
+    let port: u16 = std::env::var("DRH_PORT").ok().and_then(|p| p.parse().ok()).unwrap_or(2828);
     let procs = Procs::load(&root)?;
-    let hub = Hub { root: root.clone(), procs };
+    let forge = Forge::from_env()?;
 
+    #[cfg(windows)]
+    if !headless {
+        return shell::run(&args, root, port, procs, forge);
+    }
+    let _ = headless;
+
+    let hub = Hub { root, procs, forge, show: Arc::new(|_| {}) };
+    tokio::runtime::Runtime::new()?.block_on(serve(hub, port, || {}))
+}
+
+/// Serves the page and the API until the process ends. Also starts the
+/// Forge health check, so it runs whether or not there is a window.
+/// `on_bound` runs once the port is ours, so a window can safely load the page.
+pub async fn serve(hub: Hub, port: u16, on_bound: impl FnOnce()) -> Result<()> {
+    tokio::spawn(hub.forge.clone().watch_health());
+    let root = hub.root.clone();
     let app = Router::new()
         .route("/api/health", get(|| async { Json(json!({ "ok": true })) }))
+        .route("/api/shell/state", get(shell_state))
+        .route("/api/shell/show", post(shell_show))
+        .route("/api/forge/{*path}", any(forge_call))
         .route("/api/apps", get(list_apps))
         .route("/api/launch", get(list_launch))
         .route("/api/launch/{id}", post(start_launch))
@@ -57,29 +90,84 @@ async fn main() -> Result<()> {
         .fallback(static_file)
         .with_state(hub);
 
-    let port: u16 = std::env::var("DRH_PORT").ok().and_then(|p| p.parse().ok()).unwrap_or(2828);
     let addr = SocketAddr::from(([127, 0, 0, 1], port));
-    let listener = tokio::net::TcpListener::bind(addr).await.with_context(|| format!("bind {addr}"))?;
+    let listener = bind(addr).await?;
     println!("[hub] root {}", root.display());
     println!("[hub] serving http://{addr}");
+    on_bound();
     axum::serve(listener, app).await?;
     Ok(())
 }
 
+/// A restarted hub can start before the old one has let go of the port,
+/// so a busy port is tried again for a few seconds.
+async fn bind(addr: SocketAddr) -> Result<tokio::net::TcpListener> {
+    let mut tries = 0;
+    loop {
+        match tokio::net::TcpListener::bind(addr).await {
+            Ok(l) => return Ok(l),
+            Err(e) if e.kind() == std::io::ErrorKind::AddrInUse && tries < 20 => {
+                tries += 1;
+                tokio::time::sleep(std::time::Duration::from_millis(250)).await;
+            }
+            Err(e) => return Err(e).with_context(|| format!("bind {addr}")),
+        }
+    }
+}
+
 /// DRH_ROOT, else the nearest folder at or above the current one that holds
-/// both apps\ and hub\.
+/// both apps\ and hub\, else the same search from the hub's own .exe (a
+/// login start runs from a folder that isn't the repo).
 fn find_root() -> Result<PathBuf> {
     if let Ok(r) = std::env::var("DRH_ROOT") {
         return Ok(PathBuf::from(r));
     }
-    let mut dir = std::env::current_dir()?;
-    loop {
-        if dir.join("apps").is_dir() && dir.join("hub").is_dir() {
-            return Ok(dir);
+    let exe_dir = std::env::current_exe().ok().and_then(|e| e.parent().map(Path::to_path_buf));
+    for start in [std::env::current_dir().ok(), exe_dir].into_iter().flatten() {
+        let mut dir = start;
+        loop {
+            if dir.join("apps").is_dir() && dir.join("hub").is_dir() {
+                return Ok(dir);
+            }
+            if !dir.pop() {
+                break;
+            }
         }
-        if !dir.pop() {
-            anyhow::bail!("run from inside the deep-research-hub folder or set DRH_ROOT");
+    }
+    anyhow::bail!("run from inside the deep-research-hub folder or set DRH_ROOT")
+}
+
+async fn shell_state(State(hub): State<Hub>) -> Response {
+    Json(json!({ "forge": hub.forge.state() })).into_response()
+}
+
+#[derive(Deserialize)]
+struct ShowQuery {
+    screen: Option<String>,
+}
+
+/// A second launch of the hub calls this, then exits.
+async fn shell_show(State(hub): State<Hub>, Query(q): Query<ShowQuery>) -> Response {
+    (hub.show)(q.screen);
+    Json(json!({ "ok": true })).into_response()
+}
+
+/// Every AI call from the page: /api/forge/<path> goes to FORGE_URL/<path>,
+/// method, body and content type unchanged.
+async fn forge_call(State(hub): State<Hub>, method: Method, uri: Uri, headers: HeaderMap, body: Bytes) -> Response {
+    let rest = uri.path().trim_start_matches("/api/forge");
+    let path = match uri.query() {
+        Some(q) => format!("{rest}?{q}"),
+        None => rest.to_string(),
+    };
+    let ct = headers.get(header::CONTENT_TYPE).and_then(|v| v.to_str().ok());
+    match hub.forge.call(method.as_str(), &path, ct, &body).await {
+        Ok(reply) => {
+            let status = StatusCode::from_u16(reply.status).unwrap_or(StatusCode::BAD_GATEWAY);
+            let ct = reply.content_type.unwrap_or_else(|| "application/octet-stream".into());
+            (status, [(header::CONTENT_TYPE, ct)], reply.body).into_response()
         }
+        Err(e) => err(StatusCode::SERVICE_UNAVAILABLE, format!("{e:#}")),
     }
 }
 

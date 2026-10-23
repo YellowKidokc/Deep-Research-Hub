@@ -35,6 +35,28 @@ cargo run --manifest-path hub/Cargo.toml
 
 Open http://127.0.0.1:2828. `DRH_PORT` changes the port; `DRH_ROOT` points at the repo if you run the hub from elsewhere. The hub only listens on 127.0.0.1.
 
+### Tray (Windows)
+
+On Windows the hub is a tray app: the same command opens the hub window and puts an amber "D" in the taskbar tray.
+
+- Left-click the tray icon: open or raise the window. Right-click: Open Hub, each screen, Forge state, Restart, Quit.
+- Closing the window hides it to the tray. Only Quit exits; Quit stops every app the hub started. The hub runs inside a Windows job object, so its apps die with it even if it is killed or crashes.
+- A second launch raises the running hub instead of starting another.
+- `--tray` starts hidden. `--headless` serves the page with no window or tray (what CI uses; the only mode on Linux/macOS).
+
+Start on login (per-user Run key, no admin needed; uses the `.exe` you run it from, so build release first):
+
+```
+cargo build --release --manifest-path hub/Cargo.toml
+hub\target\release\drh-hub.exe --autostart on     REM off to remove
+```
+
+The release build has no console window. The `.exe` finds the repo from its own location, so the login start needs no `DRH_ROOT`.
+
+### Forge (every AI call)
+
+The hub holds no model keys and no provider SDKs. Every AI call goes to Forge (repo Rust_AI_API) on its local port: the page calls `/api/forge/<path>` (`forge()` in `web/src/api.js`) and the hub passes it to `FORGE_URL/<path>` unchanged. `FORGE_URL` defaults to `http://127.0.0.1:8790`. The hub checks Forge every 5 s; the tray menu, tray icon (red corner) and page header show `Forge: DOWN` when it is unreachable, and AI calls then fail with a 503 that says so. Nothing falls back to a direct call. Retry policy (in `hub/src/forge_client.rs` only): a refused connection is retried after 0.25 s and 1 s; a call that reached Forge is never repeated.
+
 For front-end work, `cd web && npm run dev` serves on vite's port and proxies `/api` to the hub.
 
 ## How the hub runs an app

@@ -18,6 +18,12 @@ a { color: var(--fg); text-decoration: none; }
 .rail a { height: 48px; display: flex; align-items: center; justify-content: center; color: var(--dim); }
 .rail a:hover { color: var(--fg); }
 .rail a.active { color: var(--accent); }
+.rail a { position: relative; }
+.rail a.stub { opacity: 0.4; }
+.rail .run { position: absolute; right: 8px; bottom: 10px; width: 5px; height: 5px; background: var(--dim); }
+.rail .run.on { background: var(--accent); }
+.top .forge { margin-left: auto; color: var(--dim); }
+.top .forge.down { color: var(--bad); }
 
 .main { flex: 1; display: flex; flex-direction: column; min-width: 0; }
 .top { display: flex; gap: 16px; align-items: center; height: 40px; padding: 0 16px; border-bottom: 1px solid var(--line); white-space: nowrap; overflow-x: auto; }

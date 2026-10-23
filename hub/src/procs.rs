@@ -372,6 +372,24 @@ impl Procs {
         }
         Ok(())
     }
+
+    /// Stops every running job and waits for each to go, so Quit leaves no
+    /// children behind. Records are saved as stopped, not lost.
+    pub async fn stop_all(&self) {
+        let ids: Vec<u64> = self.children.lock().await.keys().copied().collect();
+        for id in ids {
+            let _ = self.stop(id).await;
+            if let Some(rec) = self.get(id).await {
+                self.save(&rec).await;
+            }
+        }
+        for _ in 0..50 {
+            if self.children.lock().await.is_empty() {
+                return;
+            }
+            tokio::time::sleep(std::time::Duration::from_millis(100)).await;
+        }
+    }
 }
 
 async fn pump<R: AsyncRead + Unpin>(mut r: R, log: Arc<Mutex<tokio::fs::File>>) {
