@@ -18,6 +18,7 @@ echo   [5] Install / update GPT Researcher Python environment
 echo   [6] Pull latest Hub updates from GitHub
 echo   [7] Show git status and last commits
 echo   [8] Open runtime logs folder
+echo   [9] Install / update OpenReel dependencies and WASM build
 echo.
 echo   [Q] Quit
 echo.
@@ -32,6 +33,7 @@ if /i "%choice%"=="5" goto :update_gptr
 if /i "%choice%"=="6" goto :git_pull
 if /i "%choice%"=="7" goto :git_status
 if /i "%choice%"=="8" goto :open_logs
+if /i "%choice%"=="9" goto :update_openreel
 if /i "%choice%"=="Q" goto :eof
 
 echo Invalid choice.
@@ -50,6 +52,8 @@ call :check_tool node
 if !tool_ok!==1 node --version
 call :check_tool npm
 if !tool_ok!==1 npm --version
+call :check_tool pnpm
+if !tool_ok!==1 pnpm --version
 call :check_tool python
 if !tool_ok!==1 python --version
 call :check_tool uv
@@ -61,6 +65,7 @@ echo.
 echo --- Hub folders ---
 if exist "apps\openwriter" (echo OK: apps\openwriter) else (echo MISSING: apps\openwriter)
 if exist "apps\Research-Acquisition\Researcher\gpt-researcher" (echo OK: apps\Research-Acquisition\Researcher\gpt-researcher) else (echo MISSING: GPT Researcher)
+if exist "apps\openreel-video" (echo OK: apps\openreel-video) else (echo MISSING: OpenReel)
 if exist "data\jobs" (echo OK: data\jobs) else (echo MISSING: data\jobs)
 if exist "prompts\W_story_checklist.json" (echo OK: prompts) else (echo MISSING: prompts)
 
@@ -68,6 +73,7 @@ echo.
 echo --- Ports ---
 call :port_status 8000 "GPT Researcher"
 call :port_status 5050 "OpenWriter"
+call :port_status 5173 "OpenReel web"
 
 echo.
 echo --- OpenWriter build ---
@@ -86,6 +92,19 @@ if exist "apps\Research-Acquisition\Researcher\gpt-researcher\.venv\Scripts\pyth
 )
 
 echo.
+echo --- OpenReel ---
+if exist "apps\openreel-video\node_modules" (
+  echo OK: OpenReel node_modules exists
+) else (
+  echo MISSING: OpenReel node_modules ^(run option 9^)
+)
+if exist "apps\openreel-video\packages\core\src\wasm\fft\build\fft.wasm" (
+  echo OK: OpenReel WASM modules built
+) else (
+  echo MISSING: OpenReel WASM build ^(run option 9^)
+)
+
+echo.
 echo --- Key env vars ---
 if defined OPENROUTER_API_KEY (echo OK: OPENROUTER_API_KEY set) else (echo NOT SET: OPENROUTER_API_KEY)
 if defined DEEPSEEK_API_KEY (echo OK: DEEPSEEK_API_KEY set) else (echo NOT SET: DEEPSEEK_API_KEY)
@@ -100,6 +119,7 @@ goto :menu
 echo.
 call :port_status 8000 "GPT Researcher"
 call :port_status 5050 "OpenWriter"
+call :port_status 5173 "OpenReel web"
 echo.
 echo To see which process owns a port, run as Administrator:
 echo   netstat -ano ^| findstr :8000
@@ -112,6 +132,7 @@ goto :menu
 echo.
 echo OpenWriter currently uses port 5050 (set in START_OPENWRITER.bat).
 echo GPT Researcher currently uses port 8000 (set in windows_launcher.py).
+echo OpenReel web currently uses port 5173 (Vite default; edit START_OPENREEL_WEB.bat to change).
 echo.
 echo To change OpenWriter's port, edit apps\openwriter\START_OPENWRITER.bat
 echo and replace 5050 with your desired port, then save.
@@ -197,6 +218,39 @@ goto :menu_root
 :open_logs
 echo.
 start "" "apps\Research-Acquisition\Researcher\gpt-researcher\.runtime"
+pause
+goto :menu_root
+
+:update_openreel
+echo.
+echo Updating OpenReel dependencies and WASM build...
+cd /d "%~dp0apps\openreel-video"
+if not exist package.json (
+  echo ERROR: apps\openreel-video\package.json not found.
+  pause
+  goto :menu_root
+)
+where pnpm >nul 2>nul
+if errorlevel 1 (
+  echo ERROR: pnpm is not on PATH.
+  pause
+  goto :menu_root
+)
+echo Running pnpm install...
+pnpm install
+if errorlevel 1 (
+  echo pnpm install failed.
+  pause
+  goto :menu_root
+)
+echo Building WASM modules...
+pnpm build:wasm
+if errorlevel 1 (
+  echo WASM build failed.
+  pause
+  goto :menu_root
+)
+echo OpenReel updated and WASM built.
 pause
 goto :menu_root
 

@@ -15,6 +15,7 @@ echo   [2] GPT Researcher  (interactive research UI)
 echo   [3] GPT Researcher with Local Documents
 echo   [4] Last 30 Days skill
 echo   [5] Deep Research Queue (command line)
+echo   [6] OpenReel web video editor
 echo.
 echo   [T] Troubleshoot Hub
 echo   [U] Update Hub from GitHub
@@ -28,6 +29,7 @@ if /i "%choice%"=="2" goto :gptr
 if /i "%choice%"=="3" goto :gptr_local
 if /i "%choice%"=="4" goto :last30days
 if /i "%choice%"=="5" goto :queue
+if /i "%choice%"=="6" goto :openreel
 if /i "%choice%"=="T" goto :troubleshoot
 if /i "%choice%"=="U" goto :update
 if /i "%choice%"=="Q" goto :eof
@@ -80,6 +82,15 @@ echo.
 echo To change parallelism, edit the command above before running.
 echo.
 pause
+goto :menu
+
+:openreel
+if not exist "apps\openreel-video\START_OPENREEL_WEB.bat" (
+  echo ERROR: apps\openreel-video\START_OPENREEL_WEB.bat not found.
+  pause
+  goto :menu
+)
+call "apps\openreel-video\START_OPENREEL_WEB.bat"
 goto :menu
 
 :troubleshoot

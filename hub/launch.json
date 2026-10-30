@@ -297,5 +297,152 @@
         "optional": true
       }
     ]
+  },
+  {
+    "id": "studio.server",
+    "label": "AI Content Studio backend (127.0.0.1:8008)",
+    "app": "AI-Content-Studio",
+    "cwd": ".",
+    "program": "cmd",
+    "args": [
+      "/c",
+      "studio-server.bat"
+    ]
+  },
+  {
+    "id": "studio.web",
+    "label": "AI Content Studio web UI (127.0.0.1:3000)",
+    "app": "AI-Content-Studio",
+    "cwd": ".",
+    "program": "cmd",
+    "args": [
+      "/c",
+      "studio-web.bat"
+    ]
+  },
+  {
+    "id": "prior-art.status",
+    "label": "Prior-art sweep: status and setup (no API calls)",
+    "app": "prior-art-sweep",
+    "cwd": ".",
+    "program": "python",
+    "args": [
+      "drh_prior_art.py",
+      "status",
+      "--data",
+      "{data}/prior_art"
+    ]
+  },
+  {
+    "id": "prior-art.brief",
+    "label": "Prior-art sweep: draft research brief (DeepSeek API)",
+    "app": "prior-art-sweep",
+    "cwd": ".",
+    "program": "python",
+    "args": [
+      "drh_prior_art.py",
+      "brief",
+      "--data",
+      "{data}/prior_art",
+      "--goal",
+      "{goal}"
+    ],
+    "params": [
+      {
+        "name": "goal",
+        "label": "Research goal (drafts a brief; does not start collection)",
+        "kind": "query"
+      }
+    ]
+  },
+  {
+    "id": "prior-art.collect",
+    "label": "Prior-art sweep: collect links from reviewed brief",
+    "app": "prior-art-sweep",
+    "cwd": ".",
+    "program": "python",
+    "args": [
+      "drh_prior_art.py",
+      "collect",
+      "--data",
+      "{data}/prior_art",
+      "--max-queries={limit}"
+    ],
+    "params": [
+      {
+        "name": "limit",
+        "label": "Maximum queries per source this run (blank = all)",
+        "kind": "count",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "id": "prior-art.youtube",
+    "label": "Prior-art sweep: download queued YouTube transcripts",
+    "app": "prior-art-sweep",
+    "cwd": ".",
+    "program": "python",
+    "args": [
+      "drh_prior_art.py",
+      "youtube",
+      "--data",
+      "{data}/prior_art",
+      "--limit={limit}"
+    ],
+    "params": [
+      {
+        "name": "limit",
+        "label": "Maximum links this run (blank = all)",
+        "kind": "count",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "id": "prior-art.rate",
+    "label": "Prior-art sweep: rate queued links (Ollama)",
+    "app": "prior-art-sweep",
+    "cwd": ".",
+    "program": "python",
+    "args": [
+      "drh_prior_art.py",
+      "rate",
+      "--data",
+      "{data}/prior_art",
+      "--limit={limit}"
+    ],
+    "params": [
+      {
+        "name": "limit",
+        "label": "Maximum links this run (blank = all)",
+        "kind": "count",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "id": "prior-art.report",
+    "label": "Prior-art sweep: write results report (no AI calls)",
+    "app": "prior-art-sweep",
+    "cwd": ".",
+    "program": "python",
+    "args": [
+      "drh_prior_art.py",
+      "report",
+      "--data",
+      "{data}/prior_art"
+    ]
+  },
+  {
+    "id": "openreel.web",
+    "label": "OpenReel web video editor (Vite dev server)",
+    "app": "openreel-video",
+    "cwd": ".",
+    "program": "cmd",
+    "args": [
+      "/c",
+      "START_OPENREEL_WEB.bat"
+    ]
   }
 ]
