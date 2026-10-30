@@ -157,6 +157,17 @@
     ]
   },
   {
+    "id": "corpus.search",
+    "label": "YouTube Apologetics Corpus Search on 127.0.0.1:8501",
+    "app": "youtube-corpus-search",
+    "cwd": ".",
+    "program": "cmd",
+    "args": [
+      "/c",
+      "START.bat"
+    ]
+  },
+  {
     "id": "openwriter.server",
     "label": "OpenWriter (the Writer surface) on 127.0.0.1:5050",
     "app": "openwriter",

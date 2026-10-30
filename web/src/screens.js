@@ -5,6 +5,8 @@ export const SCREENS = [
   { id: "acquire", n: 3, name: "Acquisition", build: 3, tabs: ["Scrape", "Links", "Crawl", "Search"] },
   { id: "search", n: 4, name: "Search Engine", build: 4, tabs: ["Query", "Index status", "What's in here"] },
   { id: "youtube", n: 5, name: "YouTube", build: 2, tabs: ["Intake", "Library"] },
-  { id: "api", n: 6, name: "API Layer", build: 5, tabs: ["Bench", "Slot sets", "Cost log"] },
-  { id: "writer", n: 7, name: "The Writer", build: 8, tabs: ["Canon", "Tempo", "Lock", "Output"] },
+  { id: "corpus", n: 6, name: "Corpus Search", build: 2, tabs: ["Search"] },
+  { id: "api", n: 7, name: "API Layer", build: 5, tabs: ["Bench", "Slot sets", "Cost log"] },
+  { id: "writer", n: 8, name: "The Writer", build: 8, tabs: ["Canon", "Tempo", "Lock", "Output"] },
+  { id: "studio", n: 9, name: "Content Studio", build: 9, tabs: ["Launch"] },
 ];

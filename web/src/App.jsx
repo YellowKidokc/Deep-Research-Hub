@@ -6,8 +6,10 @@ import Placeholder from "./screens/Placeholder.jsx";
 import YouTube from "./screens/youtube/index.jsx";
 import DeepResearch from "./screens/deep/index.jsx";
 import Acquisition from "./screens/acquire/index.jsx";
+import Studio from "./screens/studio/index.jsx";
+import Corpus from "./screens/corpus/index.jsx";
 
-const BUILT = { deep: DeepResearch, acquire: Acquisition, youtube: YouTube };
+const BUILT = { deep: DeepResearch, acquire: Acquisition, youtube: YouTube, corpus: Corpus, studio: Studio };
 
 // Route lives in the URL hash (#/youtube/Intake) so a reload lands in the same place.
 function readHash() {

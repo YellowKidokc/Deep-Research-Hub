@@ -10,10 +10,14 @@ const P = {
   search: <><circle cx="8" cy="8" r="5.5" /><path d="M12 12l6 6" /></>,
   // play in a frame
   youtube: <><rect x="2" y="4" width="16" height="12" /><path d="M8 7.5v5l4.5-2.5z" /></>,
+  // stacked books / corpus
+  corpus: <><path d="M4 3h5v14H4z" /><path d="M11 3h5v14h-5z" /><path d="M2 17h16" /></>,
   // braces
   api: <path d="M7 3H6a2 2 0 0 0-2 2v3l-2 2 2 2v3a2 2 0 0 0 2 2h1M13 3h1a2 2 0 0 1 2 2v3l2 2-2 2v3a2 2 0 0 1-2 2h-1" />,
   // pen nib on a line
   writer: <path d="M3 17l2-6L14 2l4 4-9 9-6 2zM12 4l4 4M2 19h16" />,
+  // clapperboard
+  studio: <><path d="M2 5h16v12H2z" /><path d="M2 5l4-3h4l4 3" /><path d="M6 5L4 2M10 5l2-3M14 5l2-3" /></>,
 };
 
 export function Icon({ id }) {
